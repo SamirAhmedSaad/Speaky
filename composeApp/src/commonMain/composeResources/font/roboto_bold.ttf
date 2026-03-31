@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>
+ Access Blocked
+ </title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ background-color: #fff;
+ /* White Background */
+ color: #333;
+ text-align: center;
+ padding: 50px;
+ }
+ .warning {
+ color: #2469aa;
+ /* Warm Blue */
+ font-size: 24px;
+ font-weight: bold;
+ }
+ .container {
+ border: 2px solid #2469aa;
+ /* Warm Blue Border */
+ padding: 20px;
+ border-radius: 8px;
+ display: inline-block;
+ text-align: left;
+ background-color: #fff;
+ /* White background inside box */
+ }
+ a {
+ color: #2469aa;
+ /* Warm Blue */
+ text-decoration: none;
+ }
+ input, textarea {
+ width: 100%;
+ padding: 8px;
+ margin: 5px 0;
+ border: 1px solid #2469aa;
+ /* Warm Blue Border */
+ border-radius: 4px;
+ }
+ button {
+ background-color: #2469aa;
+ /* Warm Blue */
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ }
+ button:hover {
+ background-color: #2469aa;
+ /* Slightly Darker Warm Blue */
+ }
+ .logo {
+ margin-bottom: 30px;
+ }
+ .logo img {
+ width: 250px;
+ /* Increased logo size */
+ height: auto;
+ }
+ 
+ table {
+ width: 100%;
+ }
+ tr {
+ margin-bottom: 30px; /* Added vertical spacing between rows */
+ }
+ td {
+ padding: 4px 0; /* Vertical padding for content inside the cells */
+ }
+ </style>
+ </head>
+ <body>
+ <div class="logo">
+ <img src="https://d3aswa4nvo33j8.cloudfront.net/e/8/e823d0e293982eb63f7718a652ca3d94ea2ca9ba9d45b36775c8728cf98e002136562b23a7bff5439904eb57f837857bf2a47824858b2e9e3f5e75480ec5f461.png" alt="Logo">
+ </div>
+ <div class="container">
+ <p class="warning">
+ ⚠️ This site is blocked due to violation of alfanar Internet usage policy ⚠️
+ </p>
+ <P>
+ 
+ <strong>
+ Web Page Blocked 
+ </strong>
+ 
+ </P>
+ <table>
+ <tbody>
+ <tr>
+ <td>
+ <strong>
+ Category
+ </strong>
+ </td>
+ <td>
+ DomainThreat-WEB
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <strong>
+ URL
+ </strong>
+ </td>
+ <td>
+ https://raw.githubusercontent.com/
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ 
+ </p>
+ <p>
+ Access to the site 
+ <strong>
+ https://raw.githubusercontent.com/
+ </strong>
+ has been blocked in accordance with alfanar Internet Security Policy.
+ </p>
+ <p>
+ If you are unable to connect to the internet or facing browsing issues, please contact 
+ <a href="mailto:Network_Security@alfanar.com">
+ Network_Security@alfanar.com
+ </a>
+ for assistance.
+ </p>
+ 
+ </div>
+</body>
+</html>
+

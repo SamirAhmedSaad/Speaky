@@ -1,0 +1,32 @@
+package com.speakmind.app.di
+
+import com.speakmind.app.feature.ai.di.aiModule
+import com.speakmind.app.feature.chat.di.chatModule
+import com.speakmind.app.feature.download.di.downloadModule
+import com.speakmind.app.feature.flashcard.di.flashcardModule
+import com.speakmind.app.feature.home.di.homeModule
+import com.speakmind.app.feature.learning.di.learningModule
+import com.speakmind.app.feature.splash.di.splashModule
+import com.speakmind.app.feature.voice.di.voiceModule
+import com.speakmind.app.navigation.navigationModule
+import org.koin.core.KoinApplication
+import org.koin.core.context.startKoin
+
+fun initKoin(config: (KoinApplication.() -> Unit)? = null) {
+    startKoin {
+        config?.invoke(this)
+        modules(
+            appModule,
+            databaseModule,
+            navigationModule,
+            aiModule,
+            voiceModule,
+            learningModule,
+            splashModule,
+            homeModule,
+            chatModule,
+            downloadModule,
+            flashcardModule,
+        )
+    }
+}

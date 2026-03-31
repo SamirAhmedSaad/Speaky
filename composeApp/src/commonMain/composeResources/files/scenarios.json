@@ -1,0 +1,222 @@
+[
+  {
+    "id": "conv_001",
+    "title": "Ordering at a Restaurant",
+    "category": "Daily Life",
+    "level": "A2",
+    "emotional_stakes": "You're very hungry and the waiter is coming to your table right now.",
+    "ai_opening": "Good evening! Welcome to The Golden Plate. Here's our menu. Are you ready to order, or would you like a few more minutes?",
+    "suggested_vocab": ["appetizer", "main course", "beverage", "recommend"],
+    "learning_goal": "Practice ordering food and making polite requests",
+    "rescue_hint": "You could say: I would like to have the..."
+  },
+  {
+    "id": "conv_002",
+    "title": "Checking In at a Hotel",
+    "category": "Travel",
+    "level": "A2",
+    "emotional_stakes": "You just arrived after a long 12-hour flight and you're exhausted.",
+    "ai_opening": "Welcome to the Sunrise Hotel! Do you have a reservation with us?",
+    "suggested_vocab": ["reservation", "check-in", "room key", "floor"],
+    "learning_goal": "Practice hotel check-in conversation and travel vocabulary",
+    "rescue_hint": "You could say: Yes, I have a reservation under the name..."
+  },
+  {
+    "id": "conv_003",
+    "title": "Job Interview",
+    "category": "Work",
+    "level": "B1",
+    "emotional_stakes": "You really want this job. The interviewer looks serious but friendly.",
+    "ai_opening": "Hello! I'm the hiring manager at TechCorp. Thank you for coming in today. Could you start by telling me a little about yourself?",
+    "suggested_vocab": ["experience", "responsible for", "strength", "challenge"],
+    "learning_goal": "Practice formal self-introduction and work vocabulary",
+    "rescue_hint": "You could start with: I have worked in... for... years"
+  },
+  {
+    "id": "conv_004",
+    "title": "Making New Friends at a Party",
+    "category": "Social",
+    "level": "A2",
+    "emotional_stakes": "You don't know anyone here. Someone friendly is walking towards you.",
+    "ai_opening": "Hey! I don't think we've met before. I'm Alex. Are you a friend of the host?",
+    "suggested_vocab": ["pleasure", "actually", "originally from", "hobby"],
+    "learning_goal": "Practice casual introductions and small talk",
+    "rescue_hint": "You could say: Hi! Nice to meet you. I'm..."
+  },
+  {
+    "id": "conv_005",
+    "title": "At the Airport - Finding Your Gate",
+    "category": "Travel",
+    "level": "B1",
+    "emotional_stakes": "Your flight is boarding in 10 minutes and you can't find Gate 22!",
+    "ai_opening": "Excuse me, you look a bit lost. Can I help you find something?",
+    "suggested_vocab": ["boarding", "gate", "terminal", "departure"],
+    "learning_goal": "Practice asking for directions and understanding airport vocabulary",
+    "rescue_hint": "You could say: Yes, please! I'm looking for Gate..."
+  },
+  {
+    "id": "conv_006",
+    "title": "Visiting the Doctor",
+    "category": "Emergency",
+    "level": "B1",
+    "emotional_stakes": "You've had a bad headache for three days and you're worried.",
+    "ai_opening": "Good morning! I'm Dr. Smith. Please have a seat. What brings you in today?",
+    "suggested_vocab": ["symptoms", "prescription", "headache", "treatment"],
+    "learning_goal": "Practice describing symptoms and understanding medical advice",
+    "rescue_hint": "You could say: I've been having... for the past..."
+  },
+  {
+    "id": "conv_007",
+    "title": "Shopping for Clothes",
+    "category": "Daily Life",
+    "level": "A2",
+    "emotional_stakes": "You need to find the perfect outfit for an important meeting tomorrow.",
+    "ai_opening": "Welcome! Is there anything specific you're looking for today?",
+    "suggested_vocab": ["size", "fitting room", "discount", "style"],
+    "learning_goal": "Practice shopping vocabulary and asking about products",
+    "rescue_hint": "You could say: I'm looking for a..."
+  },
+  {
+    "id": "conv_008",
+    "title": "Business Presentation",
+    "category": "Business English",
+    "level": "B2",
+    "emotional_stakes": "You're about to present your quarterly results to the board of directors.",
+    "ai_opening": "Good morning everyone. Before we begin, I'd like to welcome our presenter. The floor is yours - please walk us through the quarterly results.",
+    "suggested_vocab": ["revenue", "growth", "strategy", "quarter"],
+    "learning_goal": "Practice formal business presentation language",
+    "rescue_hint": "You could begin with: Thank you. I'd like to start by presenting..."
+  },
+  {
+    "id": "conv_009",
+    "title": "Returning a Product",
+    "category": "Daily Life",
+    "level": "B1",
+    "emotional_stakes": "You bought a laptop yesterday and it's already broken. You're frustrated.",
+    "ai_opening": "Hello, welcome to the customer service desk. How can I help you today?",
+    "suggested_vocab": ["refund", "exchange", "receipt", "defective"],
+    "learning_goal": "Practice making complaints politely and negotiating returns",
+    "rescue_hint": "You could say: I'd like to return this because..."
+  },
+  {
+    "id": "conv_010",
+    "title": "Calling Your Landlord",
+    "category": "Daily Life",
+    "level": "B1",
+    "emotional_stakes": "The heating in your apartment broke during winter. It's freezing!",
+    "ai_opening": "Hello? This is Mr. Johnson, your landlord. What can I do for you?",
+    "suggested_vocab": ["repair", "urgent", "maintenance", "heating"],
+    "learning_goal": "Practice reporting problems and requesting urgent help on the phone",
+    "rescue_hint": "You could say: I'm calling because there's a problem with..."
+  },
+  {
+    "id": "conv_011",
+    "title": "Morning Routine Talk",
+    "category": "Daily Life",
+    "level": "A1",
+    "emotional_stakes": "Your new coworker is curious about your daily life.",
+    "ai_opening": "Hey! I'm always curious about how people start their mornings. What does your typical morning look like?",
+    "suggested_vocab": ["wake up", "breakfast", "commute", "routine"],
+    "learning_goal": "Practice describing daily routines using simple present tense",
+    "rescue_hint": "You could say: I usually wake up at..."
+  },
+  {
+    "id": "conv_012",
+    "title": "Debating Current Events",
+    "category": "News & Opinions",
+    "level": "B2",
+    "emotional_stakes": "Your classmate disagrees with you and the debate is getting interesting.",
+    "ai_opening": "I read an article about how artificial intelligence might replace many jobs in the next decade. What's your take on this?",
+    "suggested_vocab": ["in my opinion", "on the other hand", "evidence", "impact"],
+    "learning_goal": "Practice expressing opinions, agreeing, and disagreeing politely",
+    "rescue_hint": "You could say: I think that... because..."
+  },
+  {
+    "id": "conv_013",
+    "title": "Asking for Directions",
+    "category": "Travel",
+    "level": "A1",
+    "emotional_stakes": "You're lost in a new city and your phone battery just died.",
+    "ai_opening": "Hi there! You seem a bit lost. Are you looking for something nearby?",
+    "suggested_vocab": ["turn left", "straight ahead", "block", "corner"],
+    "learning_goal": "Practice asking for and understanding directions",
+    "rescue_hint": "You could say: Could you tell me how to get to..."
+  },
+  {
+    "id": "conv_014",
+    "title": "Writing a Work Email Together",
+    "category": "Work",
+    "level": "B1",
+    "emotional_stakes": "Your boss asked you to write an important email to a client, and you want to get it right.",
+    "ai_opening": "So you need to write an email to the client about the project delay. Let's work on this together. First, how should we open the email?",
+    "suggested_vocab": ["regarding", "apologize", "update", "deadline"],
+    "learning_goal": "Practice formal email writing and professional tone",
+    "rescue_hint": "You could start with: Dear [name], I'm writing to inform you about..."
+  },
+  {
+    "id": "conv_015",
+    "title": "Negotiating a Deal",
+    "category": "Business English",
+    "level": "C1",
+    "emotional_stakes": "This deal could save your company a lot of money. You need to negotiate well.",
+    "ai_opening": "Thank you for meeting with us today. We've reviewed your proposal. While we're interested, we'd like to discuss the pricing structure. What flexibility do you have?",
+    "suggested_vocab": ["negotiate", "terms", "compromise", "proposal"],
+    "learning_goal": "Practice business negotiation language and persuasive techniques",
+    "rescue_hint": "You could say: We appreciate your interest. Let me suggest..."
+  },
+  {
+    "id": "conv_016",
+    "title": "Understanding Idioms",
+    "category": "Idioms & Slang",
+    "level": "B2",
+    "emotional_stakes": "Your American friend keeps using expressions you don't understand.",
+    "ai_opening": "Man, this week has been crazy! I've been burning the candle at both ends. Anyway, what's been going on with you? Spill the beans!",
+    "suggested_vocab": ["burning the candle at both ends", "spill the beans", "piece of cake", "break the ice"],
+    "learning_goal": "Learn and practice common English idioms in natural conversation",
+    "rescue_hint": "You could say: What does that expression mean?"
+  },
+  {
+    "id": "conv_017",
+    "title": "At the Police Station",
+    "category": "Emergency",
+    "level": "B1",
+    "emotional_stakes": "Someone stole your wallet with all your money and documents.",
+    "ai_opening": "Good afternoon. I'm Officer Davis. Please have a seat. What happened?",
+    "suggested_vocab": ["report", "stolen", "description", "witness"],
+    "learning_goal": "Practice reporting an incident and describing events in past tense",
+    "rescue_hint": "You could say: I'd like to report a theft. Someone stole my..."
+  },
+  {
+    "id": "conv_018",
+    "title": "Planning a Trip with Friends",
+    "category": "Social",
+    "level": "B1",
+    "emotional_stakes": "Your friend group finally agreed to take a vacation together!",
+    "ai_opening": "So we're finally doing this trip! I was thinking we could go somewhere warm. Do you have any destination ideas? What kind of activities do you enjoy on vacation?",
+    "suggested_vocab": ["destination", "budget", "itinerary", "adventure"],
+    "learning_goal": "Practice suggesting, agreeing, and planning using future tenses",
+    "rescue_hint": "You could say: How about going to... I think we could..."
+  },
+  {
+    "id": "conv_019",
+    "title": "Cooking Together",
+    "category": "Daily Life",
+    "level": "A2",
+    "emotional_stakes": "You're cooking dinner for someone special tonight!",
+    "ai_opening": "Alright, chef! Let's make something delicious tonight. What kind of food do you want to cook? Do you have anything in mind?",
+    "suggested_vocab": ["ingredients", "recipe", "stir", "bake"],
+    "learning_goal": "Practice food vocabulary and giving/following instructions",
+    "rescue_hint": "You could say: I'd like to make... Do we need...?"
+  },
+  {
+    "id": "conv_020",
+    "title": "Talking About Hobbies",
+    "category": "Social",
+    "level": "A1",
+    "emotional_stakes": "You just met someone interesting who shares your interests.",
+    "ai_opening": "So, what do you like to do in your free time? I love discovering what people are passionate about!",
+    "suggested_vocab": ["enjoy", "free time", "interested in", "practice"],
+    "learning_goal": "Practice talking about hobbies and interests using simple sentences",
+    "rescue_hint": "You could say: In my free time, I like to..."
+  }
+]

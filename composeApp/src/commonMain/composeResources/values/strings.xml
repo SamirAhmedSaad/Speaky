@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">SpeakMind</string>
+    <string name="splash_downloading">Downloading your AI tutor\u2026 this happens once.</string>
+    <string name="splash_preparing">Preparing SpeakMind\u2026</string>
+    <string name="splash_ready">Ready to learn!</string>
+    <string name="splash_download_failed">Download failed. Please check your connection and try again.</string>
+    <string name="splash_retry">Retry</string>
+    <string name="splash_storage_warning">Please free up at least 3 GB of storage.</string>
+    <string name="home_greeting">What do you want to talk about today?</string>
+    <string name="home_free_talk">Free Talk</string>
+    <string name="home_review_flashcards">Review Flashcards</string>
+    <string name="home_streak">day streak</string>
+    <string name="home_daily_topics">Daily Topics</string>
+    <string name="home_vocab_learned">Words Learned</string>
+    <string name="home_conversations">Conversations</string>
+    <string name="home_minutes">Minutes</string>
+    <string name="chat_type_message">Type your message\u2026</string>
+    <string name="chat_free_talk">Free Talk</string>
+    <string name="chat_end">End</string>
+    <string name="chat_listening">Listening\u2026</string>
+    <string name="flashcard_review">Flashcard Review</string>
+    <string name="flashcard_again">Again</string>
+    <string name="flashcard_hard">Hard</string>
+    <string name="flashcard_good">Good</string>
+    <string name="flashcard_easy">Easy</string>
+    <string name="flashcard_no_cards_due">No cards due for review!</string>
+    <string name="flashcard_completed">Review complete!</string>
+    <string name="flashcard_remaining">%1$d cards remaining</string>
+    <string name="flashcard_saved">Saved to flashcards!</string>
+    <string name="level_a1">A1</string>
+    <string name="level_a2">A2</string>
+    <string name="level_b1">B1</string>
+    <string name="level_b2">B2</string>
+    <string name="level_c1">C1</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>
