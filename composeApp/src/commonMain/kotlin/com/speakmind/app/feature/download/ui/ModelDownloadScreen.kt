@@ -23,13 +23,14 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
+import network.chaintech.sdpcomposemultiplatform.sdp
+import network.chaintech.sdpcomposemultiplatform.ssp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
 import com.speakmind.app.navigation.ModelDownloadDestination
 import com.speakmind.app.ui.components.animatedComposable
-import com.speakmind.app.ui.theme.SpeakMindColors
+import com.speakmind.app.ui.components.BannerAdView
+import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
@@ -57,44 +58,48 @@ private fun ModelDownloadContent(
     onRetry: () -> Unit,
     onGoBack: () -> Unit,
 ) {
+    val colors = LocalSpeakMindColors.current
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(SpeakMindColors.backgroundGradient)
+            .background(colors.backgroundGradient)
     ) {
         // Back button
         IconButton(
             onClick = onGoBack,
             modifier = Modifier
-                .padding(top = 48.dp, start = 8.dp)
+                .padding(top = 48.sdp, start = 8.sdp)
                 .align(Alignment.TopStart)
         ) {
             Icon(
                 Icons.AutoMirrored.Filled.ArrowBack,
                 contentDescription = "Back",
-                tint = SpeakMindColors.textPrimary
+                tint = colors.textPrimary
             )
         }
 
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(32.dp),
+                .padding(32.sdp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
         ) {
             when {
                 uiState.isComplete -> DownloadComplete()
-                uiState.isError -> DownloadError(onRetry = onRetry)
+                uiState.isError -> DownloadError(errorMessage = uiState.errorMessage, onRetry = onRetry)
                 uiState.hasStarted || uiState.isDownloading -> DownloadProgress(uiState = uiState, onCancel = onCancel)
                 else -> DownloadPrompt(onStartDownload = onStartDownload)
             }
         }
+
+        BannerAdView(modifier = Modifier.align(Alignment.BottomCenter))
     }
 }
 
 @Composable
 private fun DownloadPrompt(onStartDownload: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
     val infiniteTransition = rememberInfiniteTransition()
     val iconScale by infiniteTransition.animateFloat(
         initialValue = 0.9f,
@@ -108,88 +113,88 @@ private fun DownloadPrompt(onStartDownload: () -> Unit) {
     // Icon
     Box(
         contentAlignment = Alignment.Center,
-        modifier = Modifier.size((120 * iconScale).dp)
+        modifier = Modifier.size((120 * iconScale).sdp)
     ) {
         Box(
             modifier = Modifier
-                .size(100.dp)
+                .size(100.sdp)
                 .clip(CircleShape)
-                .background(SpeakMindColors.neonCyan.copy(alpha = 0.15f)),
+                .background(colors.neonCyan.copy(alpha = 0.15f)),
             contentAlignment = Alignment.Center
         ) {
             Icon(
                 Icons.Default.CloudDownload,
                 contentDescription = null,
-                tint = SpeakMindColors.neonCyan,
-                modifier = Modifier.size(48.dp)
+                tint = colors.neonCyan,
+                modifier = Modifier.size(48.sdp)
             )
         }
     }
 
-    Spacer(modifier = Modifier.height(32.dp))
+    Spacer(modifier = Modifier.height(32.sdp))
 
     Text(
         text = "AI Model Required",
         style = MaterialTheme.typography.headlineMedium.copy(
-            color = SpeakMindColors.textPrimary,
+            color = colors.textPrimary,
             fontWeight = FontWeight.Bold,
         )
     )
 
-    Spacer(modifier = Modifier.height(12.dp))
+    Spacer(modifier = Modifier.height(12.sdp))
 
     Text(
         text = "To have real conversations, SpeakMind needs to download an AI model. This is a one-time download.",
         style = MaterialTheme.typography.bodyLarge.copy(
-            color = SpeakMindColors.textSecondary,
-            lineHeight = 24.sp,
+            color = colors.textSecondary,
+            lineHeight = 24.ssp,
         ),
         textAlign = TextAlign.Center,
     )
 
-    Spacer(modifier = Modifier.height(8.dp))
+    Spacer(modifier = Modifier.height(8.sdp))
 
     Row(
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier
-            .clip(RoundedCornerShape(12.dp))
-            .background(SpeakMindColors.surfaceVariant.copy(alpha = 0.5f))
-            .padding(horizontal = 16.dp, vertical = 10.dp)
+            .clip(RoundedCornerShape(12.sdp))
+            .background(colors.surfaceVariant.copy(alpha = 0.5f))
+            .padding(horizontal = 16.sdp, vertical = 10.sdp)
     ) {
         Icon(
             Icons.Default.Wifi,
             contentDescription = null,
-            tint = SpeakMindColors.neonCyan,
-            modifier = Modifier.size(18.dp)
+            tint = colors.neonCyan,
+            modifier = Modifier.size(18.sdp)
         )
-        Spacer(modifier = Modifier.width(8.dp))
+        Spacer(modifier = Modifier.width(8.sdp))
         Text(
             text = "WiFi only \u2022 Can resume if interrupted",
             style = MaterialTheme.typography.bodySmall.copy(
-                color = SpeakMindColors.textMuted
+                color = colors.textMuted
             )
         )
     }
 
-    Spacer(modifier = Modifier.height(40.dp))
+    Spacer(modifier = Modifier.height(40.sdp))
 
     Button(
         onClick = onStartDownload,
         modifier = Modifier
             .fillMaxWidth()
-            .height(56.dp),
-        shape = RoundedCornerShape(16.dp),
+            .height(56.sdp),
+        shape = RoundedCornerShape(16.sdp),
         colors = ButtonDefaults.buttonColors(
-            containerColor = SpeakMindColors.neonCyan,
-            contentColor = SpeakMindColors.backgroundDark,
+            containerColor = colors.neonCyan,
+            contentColor = colors.backgroundDark,
         )
     ) {
         Icon(
             Icons.Default.CloudDownload,
             contentDescription = null,
-            modifier = Modifier.size(20.dp)
+            modifier = Modifier.size(20.sdp)
         )
-        Spacer(modifier = Modifier.width(8.dp))
+        Spacer(modifier = Modifier.width(8.sdp))
         Text(
             text = "Download AI Model",
             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold)
@@ -199,6 +204,7 @@ private fun DownloadPrompt(onStartDownload: () -> Unit) {
 
 @Composable
 private fun DownloadProgress(uiState: DownloadUiState, onCancel: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
     val animatedProgress by animateFloatAsState(
         targetValue = uiState.progress / 100f,
         animationSpec = tween(300)
@@ -207,12 +213,12 @@ private fun DownloadProgress(uiState: DownloadUiState, onCancel: () -> Unit) {
     // Circular progress
     Box(
         contentAlignment = Alignment.Center,
-        modifier = Modifier.size(160.dp)
+        modifier = Modifier.size(160.sdp)
     ) {
-        Canvas(modifier = Modifier.size(140.dp)) {
+        Canvas(modifier = Modifier.size(140.sdp)) {
             // Background circle
             drawArc(
-                color = SpeakMindColors.surfaceVariant,
+                color = colors.surfaceVariant,
                 startAngle = -90f,
                 sweepAngle = 360f,
                 useCenter = false,
@@ -221,7 +227,7 @@ private fun DownloadProgress(uiState: DownloadUiState, onCancel: () -> Unit) {
             // Progress arc
             drawArc(
                 brush = Brush.sweepGradient(
-                    colors = listOf(SpeakMindColors.neonCyan, SpeakMindColors.magenta)
+                    colors = listOf(colors.neonCyan, colors.magenta)
                 ),
                 startAngle = -90f,
                 sweepAngle = 360f * animatedProgress,
@@ -234,53 +240,53 @@ private fun DownloadProgress(uiState: DownloadUiState, onCancel: () -> Unit) {
             Text(
                 text = "${uiState.progress}%",
                 style = MaterialTheme.typography.headlineLarge.copy(
-                    color = SpeakMindColors.neonCyan,
+                    color = colors.neonCyan,
                     fontWeight = FontWeight.Bold,
-                    fontSize = 36.sp,
+                    fontSize = 36.ssp,
                 )
             )
         }
     }
 
-    Spacer(modifier = Modifier.height(24.dp))
+    Spacer(modifier = Modifier.height(24.sdp))
 
     Text(
         text = if (uiState.waitingForWifi) "Waiting for WiFi connection..."
                else "Downloading AI Model...",
         style = MaterialTheme.typography.titleMedium.copy(
-            color = SpeakMindColors.textPrimary,
+            color = colors.textPrimary,
             fontWeight = FontWeight.Bold,
         )
     )
 
-    Spacer(modifier = Modifier.height(8.dp))
+    Spacer(modifier = Modifier.height(8.sdp))
 
     if (uiState.totalMB > 0) {
         Text(
             text = "${uiState.downloadedMB} MB / ${uiState.totalMB} MB",
             style = MaterialTheme.typography.bodyMedium.copy(
-                color = SpeakMindColors.textSecondary,
+                color = colors.textSecondary,
             )
         )
     }
 
-    Spacer(modifier = Modifier.height(8.dp))
+    Spacer(modifier = Modifier.height(8.sdp))
 
     Text(
         text = "You can leave the app. Download continues in background.",
         style = MaterialTheme.typography.bodySmall.copy(
-            color = SpeakMindColors.textMuted,
+            color = colors.textMuted,
         ),
         textAlign = TextAlign.Center,
     )
 
-    Spacer(modifier = Modifier.height(32.dp))
+    Spacer(modifier = Modifier.height(32.sdp))
 
     OutlinedButton(
         onClick = onCancel,
-        shape = RoundedCornerShape(12.dp),
+        shape = RoundedCornerShape(12.sdp),
         colors = ButtonDefaults.outlinedButtonColors(
-            contentColor = SpeakMindColors.textSecondary,
+            contentColor = colors.textSecondary,
         )
     ) {
         Text("Cancel")
@@ -289,72 +295,84 @@ private fun DownloadProgress(uiState: DownloadUiState, onCancel: () -> Unit) {
 
 @Composable
 private fun DownloadComplete() {
+    val colors = LocalSpeakMindColors.current
     Icon(
         Icons.Default.CheckCircle,
         contentDescription = null,
-        tint = SpeakMindColors.success,
-        modifier = Modifier.size(80.dp)
+        tint = colors.success,
+        modifier = Modifier.size(80.sdp)
     )
 
-    Spacer(modifier = Modifier.height(24.dp))
+    Spacer(modifier = Modifier.height(24.sdp))
 
     Text(
         text = "AI Model Ready!",
         style = MaterialTheme.typography.headlineMedium.copy(
-            color = SpeakMindColors.textPrimary,
+            color = colors.textPrimary,
             fontWeight = FontWeight.Bold,
         )
     )
 
-    Spacer(modifier = Modifier.height(8.dp))
+    Spacer(modifier = Modifier.height(8.sdp))
 
     Text(
         text = "Your AI tutor is ready to chat.",
         style = MaterialTheme.typography.bodyLarge.copy(
-            color = SpeakMindColors.textSecondary,
+            color = colors.textSecondary,
         )
     )
 }
 
 @Composable
-private fun DownloadError(onRetry: () -> Unit) {
+private fun DownloadError(errorMessage: String?, onRetry: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
     Icon(
         Icons.Default.ErrorOutline,
         contentDescription = null,
-        tint = SpeakMindColors.error,
-        modifier = Modifier.size(64.dp)
+        tint = colors.error,
+        modifier = Modifier.size(64.sdp)
     )
 
-    Spacer(modifier = Modifier.height(24.dp))
+    Spacer(modifier = Modifier.height(24.sdp))
 
     Text(
         text = "Download Failed",
         style = MaterialTheme.typography.headlineSmall.copy(
-            color = SpeakMindColors.textPrimary,
+            color = colors.textPrimary,
             fontWeight = FontWeight.Bold,
         )
     )
 
-    Spacer(modifier = Modifier.height(8.dp))
+    Spacer(modifier = Modifier.height(8.sdp))
+
+    val displayMessage = errorMessage
+        ?: "Please check your WiFi connection and try again. The download will resume from where it stopped."
 
     Text(
-        text = "Please check your WiFi connection and try again. The download will resume from where it stopped.",
+        text = displayMessage,
         style = MaterialTheme.typography.bodyMedium.copy(
-            color = SpeakMindColors.textSecondary,
+            color = colors.textSecondary,
         ),
         textAlign = TextAlign.Center,
     )
 
-    Spacer(modifier = Modifier.height(32.dp))
+    Spacer(modifier = Modifier.height(32.sdp))
 
-    Button(
-        onClick = onRetry,
-        shape = RoundedCornerShape(16.dp),
-        colors = ButtonDefaults.buttonColors(
-            containerColor = SpeakMindColors.neonCyan,
-            contentColor = SpeakMindColors.backgroundDark,
-        )
-    ) {
-        Text("Retry Download", fontWeight = FontWeight.Bold)
+    // Only show retry for recoverable errors (not permanent server rejections)
+    val isPermanentError = errorMessage != null &&
+        (errorMessage.contains("401") || errorMessage.contains("403") ||
+         errorMessage.contains("404") || errorMessage.contains("410"))
+
+    if (!isPermanentError) {
+        Button(
+            onClick = onRetry,
+            shape = RoundedCornerShape(16.sdp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = colors.neonCyan,
+                contentColor = colors.backgroundDark,
+            )
+        ) {
+            Text("Retry Download", fontWeight = FontWeight.Bold)
+        }
     }
 }

@@ -3,9 +3,11 @@ package com.speakmind.app.feature.flashcard.ui
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.db.Flashcards
-import com.speakmind.app.db.SpeakMindDatabase
+import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.flashcard.domain.SM2Engine
+import com.speakmind.app.feature.voice.platform.TextToSpeechEngine
 import com.speakmind.app.navigation.NavigationManager
+import com.speakmind.app.ui.theme.TtsSpeedManager
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -13,58 +15,74 @@ import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
 import kotlin.time.Duration.Companion.days
 
+enum class FlashcardTab { DUE, ALL_WORDS }
+
 data class FlashcardReviewUiState(
-    val currentCard: Flashcards? = null,
-    val isFlipped: Boolean = false,
-    val remainingCount: Int = 0,
-    val reviewedCount: Int = 0,
+    val cards: List<Flashcards> = emptyList(),
+    val allCards: List<Flashcards> = emptyList(),
+    val expandedCardId: Long? = null,
     val isComplete: Boolean = false,
     val isLoading: Boolean = true,
+    val reviewedCount: Int = 0,
+    val lastRatingMessage: String? = null,
+    val selectedTab: FlashcardTab = FlashcardTab.DUE,
 )
 
 class FlashcardReviewViewModel(
-    private val database: SpeakMindDatabase,
+    private val database: SpeakyDatabase,
     private val navigationManager: NavigationManager,
+    private val ttsEngine: TextToSpeechEngine,
+    private val ttsSpeedManager: TtsSpeedManager,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(FlashcardReviewUiState())
     val uiState: StateFlow<FlashcardReviewUiState> = _uiState.asStateFlow()
 
-    private var dueCards = mutableListOf<Flashcards>()
+    val isSpeaking = ttsEngine.isSpeaking
 
     init {
-        loadDueCards()
+        loadCards()
     }
 
-    private fun loadDueCards() {
+    private fun loadCards() {
         viewModelScope.launch {
             val now = Clock.System.now().toEpochMilliseconds()
-            val cards = database.speakMindQueries.selectDueFlashcards(now).executeAsList()
-            dueCards = cards.toMutableList()
+            val dueCards = database.speakMindQueries.selectDueFlashcards(now).executeAsList()
+            val allCards = database.speakMindQueries.selectAllFlashcards().executeAsList()
 
-            if (dueCards.isEmpty()) {
-                _uiState.value = FlashcardReviewUiState(
-                    isComplete = true,
-                    isLoading = false,
-                )
-            } else {
-                _uiState.value = FlashcardReviewUiState(
-                    currentCard = dueCards.firstOrNull(),
-                    remainingCount = dueCards.size,
-                    isLoading = false,
-                )
-            }
+            _uiState.value = FlashcardReviewUiState(
+                cards = dueCards,
+                allCards = allCards,
+                isComplete = dueCards.isEmpty(),
+                isLoading = false,
+            )
         }
     }
 
-    fun onFlip() {
-        _uiState.value = _uiState.value.copy(isFlipped = !_uiState.value.isFlipped)
+    fun onTabSelected(tab: FlashcardTab) {
+        _uiState.value = _uiState.value.copy(
+            selectedTab = tab,
+            expandedCardId = null,
+        )
     }
 
-    fun onRate(rating: String) {
-        val card = _uiState.value.currentCard ?: return
+    fun onCardClicked(cardId: Long) {
+        val current = _uiState.value.expandedCardId
+        _uiState.value = _uiState.value.copy(
+            expandedCardId = if (current == cardId) null else cardId
+        )
+    }
 
+    fun onSpeak(text: String) {
         viewModelScope.launch {
+            ttsEngine.speak(text, rate = ttsSpeedManager.speed.value)
+        }
+    }
+
+    fun onRate(cardId: Long, rating: String) {
+        viewModelScope.launch {
+            val card = _uiState.value.cards.firstOrNull { it.id == cardId } ?: return@launch
+
             val quality = SM2Engine.qualityFromRating(rating)
             val result = SM2Engine.review(
                 quality = quality,
@@ -85,27 +103,37 @@ class FlashcardReviewViewModel(
                 id = card.id,
             )
 
-            dueCards.removeFirstOrNull()
+            val updatedCards = _uiState.value.cards.filter { it.id != cardId }
             val reviewed = _uiState.value.reviewedCount + 1
 
-            if (dueCards.isEmpty()) {
-                _uiState.value = _uiState.value.copy(
-                    isComplete = true,
-                    reviewedCount = reviewed,
-                    currentCard = null,
-                )
-            } else {
-                _uiState.value = _uiState.value.copy(
-                    currentCard = dueCards.first(),
-                    isFlipped = false,
-                    remainingCount = dueCards.size,
-                    reviewedCount = reviewed,
-                )
-            }
+            val message = "We'll bring this word back for revision later."
+
+            _uiState.value = _uiState.value.copy(
+                cards = updatedCards,
+                expandedCardId = null,
+                reviewedCount = reviewed,
+                isComplete = updatedCards.isEmpty(),
+                lastRatingMessage = message,
+            )
+        }
+    }
+
+    fun onDeleteCard(cardId: Long) {
+        viewModelScope.launch {
+            database.speakMindQueries.deleteFlashcard(cardId)
+            val updatedCards = _uiState.value.cards.filter { it.id != cardId }
+            val updatedAll = _uiState.value.allCards.filter { it.id != cardId }
+            _uiState.value = _uiState.value.copy(
+                cards = updatedCards,
+                allCards = updatedAll,
+                expandedCardId = null,
+                isComplete = updatedCards.isEmpty(),
+            )
         }
     }
 
     fun onGoBack() {
+        ttsEngine.stop()
         navigationManager.back()
     }
 }

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- White background -->
+  <rect width="512" height="512" rx="112" ry="112" fill="#FFFFFF"/>
+  <!-- Colorful circle behind -->
+  <circle cx="256" cy="230" r="170" fill="#F0EAFF"/>
+  <!-- Speech bubble accent -->
+  <path d="M140,160 Q140,110 190,110 L322,110 Q372,110 372,160 L372,270 Q372,320 322,320 L230,320 L180,380 L195,320 L190,320 Q140,320 140,270 Z" fill="#6C3AE0"/>
+  <!-- Speaky inside bubble -->
+  <text x="256" y="238" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-weight="800" font-size="52" fill="white" text-anchor="middle" dominant-baseline="middle" letter-spacing="1">Speaky</text>
+  <!-- Small sound wave dots -->
+  <circle cx="390" cy="180" r="8" fill="#FF6B6B"/>
+  <circle cx="410" cy="210" r="6" fill="#FFB84D"/>
+  <circle cx="400" cy="245" r="7" fill="#4ECDC4"/>
+</svg>

@@ -28,6 +28,7 @@ kotlin {
         experimentalProperties["android.experimental.kmp.enableAndroidResources"] = true
     }
 
+
     listOf(
         iosArm64(),
         iosSimulatorArm64()
@@ -47,6 +48,10 @@ kotlin {
             implementation(libs.androidx.compose.material.icons)
             implementation(libs.sqldelight.android.driver)
             implementation(libs.work.runtime.ktx)
+            implementation(libs.mediapipe.genai)
+            implementation(libs.ktor.client.android)
+            implementation(libs.google.ads)
+            implementation(libs.google.auth)
             implementation(project(":llama"))
         }
         iosMain.dependencies {
@@ -55,8 +60,10 @@ kotlin {
             implementation(libs.compose.material3)
             implementation(libs.compose.ui)
             implementation(libs.sqldelight.native.driver)
+            implementation(libs.ktor.client.darwin)
         }
         commonMain.dependencies {
+            implementation("network.chaintech:sdp-ssp-compose-multiplatform:1.0.6")
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
@@ -77,6 +84,8 @@ kotlin {
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.napier)
             implementation(libs.sqldelight.coroutines)
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.content.negotiation)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -86,7 +95,7 @@ kotlin {
 
 sqldelight {
     databases {
-        create("SpeakMindDatabase") {
+        create("SpeakyDatabase") {
             packageName.set("com.speakmind.app.db")
         }
     }

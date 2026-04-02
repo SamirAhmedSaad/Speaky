@@ -3,7 +3,7 @@ package com.speakmind.app.feature.home.data
 import com.speakmind.app.feature.home.domain.model.Scenario
 import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.ExperimentalResourceApi
-import speakmind.composeapp.generated.resources.Res
+import speaky.composeapp.generated.resources.Res
 
 class ScenarioRepository {
     private val json = Json { ignoreUnknownKeys = true }
@@ -19,14 +19,7 @@ class ScenarioRepository {
         return scenarios
     }
 
-    suspend fun getDailyScenarios(userLevel: String): List<Scenario> {
-        val all = loadScenarios()
-        // Return all scenarios sorted by relevance to user level
-        val levelOrder = listOf("A1", "A2", "B1", "B2", "C1")
-        val userIdx = levelOrder.indexOf(userLevel).coerceAtLeast(0)
-        return all.sortedBy {
-            val idx = levelOrder.indexOf(it.level).coerceAtLeast(0)
-            kotlin.math.abs(idx - userIdx)
-        }
+    suspend fun getScenarioById(id: String): Scenario? {
+        return loadScenarios().find { it.id == id }
     }
 }

@@ -16,7 +16,7 @@ actual class LlmEngine actual constructor() {
     }
 
     actual fun generate(prompt: String, maxTokens: Int, temperature: Float): Flow<String> {
-        return llama.send(prompt, formatChat = false)
+        return llama.send(prompt, formatChat = true)
     }
 
     actual fun isLoaded(): Boolean {

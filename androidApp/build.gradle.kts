@@ -8,11 +8,11 @@ android {
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.speakmind.app"
+        applicationId = "com.speaky_ai.app"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.2"
     }
 
     buildTypes {
@@ -34,10 +34,14 @@ android {
         compose = true
         buildConfig = true
     }
+    androidResources {
+        noCompress += "gguf"
+    }
 }
 
 dependencies {
     implementation(project(":composeApp"))
+    implementation("network.chaintech:sdp-ssp-compose-multiplatform:1.0.6")
 
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
@@ -47,7 +51,9 @@ dependencies {
     implementation(libs.androidx.compose.material.icons)
     debugImplementation(libs.androidx.compose.ui.tooling)
     implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
     implementation(libs.napier)
     implementation(libs.androidx.splashscreen)
     implementation(libs.work.runtime.ktx)
+    implementation(libs.google.ads)
 }

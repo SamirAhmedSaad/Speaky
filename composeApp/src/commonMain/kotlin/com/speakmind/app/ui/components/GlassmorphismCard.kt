@@ -12,19 +12,21 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.dp
+import network.chaintech.sdpcomposemultiplatform.sdp
+import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import com.speakmind.app.ui.theme.SpeakMindColors
 
 @Composable
 fun GlassmorphismCard(
     modifier: Modifier = Modifier,
-    cornerRadius: Dp = 20.dp,
+    cornerRadius: Dp = 20.sdp,
     borderAlpha: Float = 0.15f,
     backgroundAlpha: Float = 0.6f,
-    contentPadding: Dp = 16.dp,
+    contentPadding: Dp = 16.sdp,
     borderColor: Color = SpeakMindColors.neonCyan,
     content: @Composable BoxScope.() -> Unit,
 ) {
+    val colors = LocalSpeakMindColors.current
     val shape = RoundedCornerShape(cornerRadius)
     Box(
         modifier = modifier
@@ -32,13 +34,13 @@ fun GlassmorphismCard(
             .background(
                 Brush.verticalGradient(
                     colors = listOf(
-                        SpeakMindColors.surfaceVariant.copy(alpha = backgroundAlpha),
-                        SpeakMindColors.surface.copy(alpha = backgroundAlpha * 0.7f),
+                        colors.surfaceVariant.copy(alpha = backgroundAlpha),
+                        colors.surface.copy(alpha = backgroundAlpha * 0.7f),
                     )
                 )
             )
             .border(
-                width = 1.dp,
+                width = 1.sdp,
                 color = borderColor.copy(alpha = borderAlpha),
                 shape = shape,
             )
@@ -51,9 +53,10 @@ fun GlassmorphismCard(
 fun GlowingCard(
     modifier: Modifier = Modifier,
     glowColor: Color = SpeakMindColors.neonCyan,
-    cornerRadius: Dp = 20.dp,
+    cornerRadius: Dp = 20.sdp,
     content: @Composable BoxScope.() -> Unit,
 ) {
+    val colors = LocalSpeakMindColors.current
     val shape = RoundedCornerShape(cornerRadius)
     Box(
         modifier = modifier
@@ -62,13 +65,13 @@ fun GlowingCard(
                 Brush.verticalGradient(
                     colors = listOf(
                         glowColor.copy(alpha = 0.08f),
-                        SpeakMindColors.surfaceVariant.copy(alpha = 0.7f),
-                        SpeakMindColors.surface.copy(alpha = 0.5f),
+                        colors.surfaceVariant.copy(alpha = 0.7f),
+                        colors.surface.copy(alpha = 0.5f),
                     )
                 )
             )
             .border(
-                width = 1.5.dp,
+                width = 1.5.sdp,
                 brush = Brush.verticalGradient(
                     colors = listOf(
                         glowColor.copy(alpha = 0.4f),
@@ -77,7 +80,7 @@ fun GlowingCard(
                 ),
                 shape = shape,
             )
-            .padding(16.dp),
+            .padding(16.sdp),
         content = content,
     )
 }

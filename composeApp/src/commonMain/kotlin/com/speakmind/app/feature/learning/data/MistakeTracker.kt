@@ -1,11 +1,11 @@
 package com.speakmind.app.feature.learning.data
 
 import com.speakmind.app.db.Mistakes
-import com.speakmind.app.db.SpeakMindDatabase
+import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.chat.domain.model.Correction
 import kotlinx.datetime.Clock
 
-class MistakeTracker(private val database: SpeakMindDatabase) {
+class MistakeTracker(private val database: SpeakyDatabase) {
 
     fun trackCorrection(correction: Correction) {
         val existing = database.speakMindQueries.findMistakeByWord(correction.original)

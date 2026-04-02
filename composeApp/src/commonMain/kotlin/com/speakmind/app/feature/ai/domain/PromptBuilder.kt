@@ -4,15 +4,18 @@ import com.speakmind.app.feature.chat.domain.model.ChatMessage
 import com.speakmind.app.feature.chat.domain.model.MessageRole
 import com.speakmind.app.feature.home.domain.model.Scenario
 
+/**
+ * Builds prompts using the Llama 3.2 Instruct chat template.
+ * Format:
+ *   <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+ *   {system message}<|eot_id|>
+ *   <|start_header_id|>user<|end_header_id|>
+ *   {user message}<|eot_id|>
+ *   <|start_header_id|>assistant<|end_header_id|>
+ */
 object PromptBuilder {
 
-    private const val SYSTEM_PROMPT = """You are an English language tutor named "Sage".
-You are warm, encouraging, and patient.
-Adapt vocabulary and sentence complexity to user level: {user_level}.
-Keep responses conversational — 2-4 sentences unless asked for more.
-If the user makes a grammar or vocabulary mistake, gently correct it
-at the end of your reply with a one-line explanation prefixed with [CORRECTION:].
-Always end your turn with a follow-up question to keep conversation going."""
+    private const val SYSTEM_PROMPT = """You are an English language tutor named Sage. You are warm, encouraging, and patient. Keep responses conversational, 2-4 sentences. Always answer the user's question directly and helpfully. If the user makes a grammar mistake, gently correct it at the end. Always end with a follow-up question."""
 
     fun buildConversationPrompt(
         scenario: Scenario?,
@@ -22,39 +25,47 @@ Always end your turn with a follow-up question to keep conversation going."""
     ): String {
         val sb = StringBuilder()
 
-        // System prompt
-        var system = SYSTEM_PROMPT.replace("{user_level}", userLevel)
+        // System message
+        var system = SYSTEM_PROMPT + " The user's English level is $userLevel."
         if (scenario != null) {
-            system += "\nCurrent scenario: ${scenario.title} — ${scenario.learningGoal}"
-            system += "\nSuggested vocabulary: ${scenario.suggestedVocab.joinToString(", ")}"
+            system += " Current topic: ${scenario.title}."
+            if (scenario.emotionalStakes.isNotBlank()) {
+                system += " Article summary: ${scenario.emotionalStakes}"
+            }
+            if (scenario.learningGoal.isNotBlank()) {
+                system += " Goal: ${scenario.learningGoal}."
+            }
+            system += " Stay on this topic. Use details from the article summary to ask relevant questions and guide the discussion."
         }
         if (mistakeTags.isNotEmpty()) {
-            system += "\nUser's known weak points: ${mistakeTags.joinToString(", ")}"
+            system += " User's weak points: ${mistakeTags.joinToString(", ")}."
         }
 
-        sb.appendLine("<|system|>")
-        sb.appendLine(system)
-        sb.appendLine("<|end|>")
+        sb.append("<|begin_of_text|>")
+        sb.append("<|start_header_id|>system<|end_header_id|>\n\n")
+        sb.append(system)
+        sb.append("<|eot_id|>")
 
-        // Conversation history (keep last 10 turns to fit context)
-        val recentHistory = history.takeLast(10)
+        // Conversation history (keep last 8 turns to fit context)
+        val recentHistory = history.takeLast(8)
         for (message in recentHistory) {
             when (message.role) {
                 MessageRole.USER -> {
-                    sb.appendLine("<|user|>")
-                    sb.appendLine(message.content)
-                    sb.appendLine("<|end|>")
+                    sb.append("<|start_header_id|>user<|end_header_id|>\n\n")
+                    sb.append(message.content)
+                    sb.append("<|eot_id|>")
                 }
                 MessageRole.ASSISTANT -> {
-                    sb.appendLine("<|assistant|>")
-                    sb.appendLine(message.content)
-                    sb.appendLine("<|end|>")
+                    sb.append("<|start_header_id|>assistant<|end_header_id|>\n\n")
+                    sb.append(message.content)
+                    sb.append("<|eot_id|>")
                 }
                 MessageRole.SYSTEM -> { /* skip */ }
             }
         }
 
-        sb.appendLine("<|assistant|>")
+        // Prompt for assistant response
+        sb.append("<|start_header_id|>assistant<|end_header_id|>\n\n")
         return sb.toString()
     }
 
@@ -66,13 +77,4 @@ Always end your turn with a follow-up question to keep conversation going."""
         history = history,
         userLevel = userLevel,
     )
-
-    fun buildRescuePrompt(
-        scenario: Scenario?,
-        userLevel: String,
-    ): String {
-        val hint = scenario?.rescueHint ?: "Try starting with a simple sentence."
-        return "The user seems stuck. Rephrase your question more simply. " +
-               "Give them a hint: '$hint'. Offer two simple options they can choose from."
-    }
 }

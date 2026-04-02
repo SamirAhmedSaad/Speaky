@@ -8,7 +8,8 @@
     "ai_opening": "Good evening! Welcome to The Golden Plate. Here's our menu. Are you ready to order, or would you like a few more minutes?",
     "suggested_vocab": ["appetizer", "main course", "beverage", "recommend"],
     "learning_goal": "Practice ordering food and making polite requests",
-    "rescue_hint": "You could say: I would like to have the..."
+    "rescue_hint": "You could say: I would like to have the...",
+    "practice_tags": ["vocabulary", "polite_requests"]
   },
   {
     "id": "conv_002",
@@ -19,7 +20,8 @@
     "ai_opening": "Welcome to the Sunrise Hotel! Do you have a reservation with us?",
     "suggested_vocab": ["reservation", "check-in", "room key", "floor"],
     "learning_goal": "Practice hotel check-in conversation and travel vocabulary",
-    "rescue_hint": "You could say: Yes, I have a reservation under the name..."
+    "rescue_hint": "You could say: Yes, I have a reservation under the name...",
+    "practice_tags": ["vocabulary", "polite_requests", "travel"]
   },
   {
     "id": "conv_003",
@@ -30,7 +32,8 @@
     "ai_opening": "Hello! I'm the hiring manager at TechCorp. Thank you for coming in today. Could you start by telling me a little about yourself?",
     "suggested_vocab": ["experience", "responsible for", "strength", "challenge"],
     "learning_goal": "Practice formal self-introduction and work vocabulary",
-    "rescue_hint": "You could start with: I have worked in... for... years"
+    "rescue_hint": "You could start with: I have worked in... for... years",
+    "practice_tags": ["formal_language", "vocabulary", "self_introduction"]
   },
   {
     "id": "conv_004",
@@ -41,7 +44,8 @@
     "ai_opening": "Hey! I don't think we've met before. I'm Alex. Are you a friend of the host?",
     "suggested_vocab": ["pleasure", "actually", "originally from", "hobby"],
     "learning_goal": "Practice casual introductions and small talk",
-    "rescue_hint": "You could say: Hi! Nice to meet you. I'm..."
+    "rescue_hint": "You could say: Hi! Nice to meet you. I'm...",
+    "practice_tags": ["small_talk", "introductions", "informal_language"]
   },
   {
     "id": "conv_005",
@@ -52,7 +56,8 @@
     "ai_opening": "Excuse me, you look a bit lost. Can I help you find something?",
     "suggested_vocab": ["boarding", "gate", "terminal", "departure"],
     "learning_goal": "Practice asking for directions and understanding airport vocabulary",
-    "rescue_hint": "You could say: Yes, please! I'm looking for Gate..."
+    "rescue_hint": "You could say: Yes, please! I'm looking for Gate...",
+    "practice_tags": ["vocabulary", "asking_questions", "travel"]
   },
   {
     "id": "conv_006",
@@ -63,18 +68,20 @@
     "ai_opening": "Good morning! I'm Dr. Smith. Please have a seat. What brings you in today?",
     "suggested_vocab": ["symptoms", "prescription", "headache", "treatment"],
     "learning_goal": "Practice describing symptoms and understanding medical advice",
-    "rescue_hint": "You could say: I've been having... for the past..."
+    "rescue_hint": "You could say: I've been having... for the past...",
+    "practice_tags": ["vocabulary", "present_perfect", "describing"]
   },
   {
     "id": "conv_007",
     "title": "Shopping for Clothes",
-    "category": "Daily Life",
+    "category": "Shopping",
     "level": "A2",
     "emotional_stakes": "You need to find the perfect outfit for an important meeting tomorrow.",
     "ai_opening": "Welcome! Is there anything specific you're looking for today?",
     "suggested_vocab": ["size", "fitting room", "discount", "style"],
     "learning_goal": "Practice shopping vocabulary and asking about products",
-    "rescue_hint": "You could say: I'm looking for a..."
+    "rescue_hint": "You could say: I'm looking for a...",
+    "practice_tags": ["vocabulary", "polite_requests", "shopping"]
   },
   {
     "id": "conv_008",
@@ -85,18 +92,20 @@
     "ai_opening": "Good morning everyone. Before we begin, I'd like to welcome our presenter. The floor is yours - please walk us through the quarterly results.",
     "suggested_vocab": ["revenue", "growth", "strategy", "quarter"],
     "learning_goal": "Practice formal business presentation language",
-    "rescue_hint": "You could begin with: Thank you. I'd like to start by presenting..."
+    "rescue_hint": "You could begin with: Thank you. I'd like to start by presenting...",
+    "practice_tags": ["formal_language", "vocabulary", "presentations"]
   },
   {
     "id": "conv_009",
     "title": "Returning a Product",
-    "category": "Daily Life",
+    "category": "Shopping",
     "level": "B1",
     "emotional_stakes": "You bought a laptop yesterday and it's already broken. You're frustrated.",
     "ai_opening": "Hello, welcome to the customer service desk. How can I help you today?",
     "suggested_vocab": ["refund", "exchange", "receipt", "defective"],
     "learning_goal": "Practice making complaints politely and negotiating returns",
-    "rescue_hint": "You could say: I'd like to return this because..."
+    "rescue_hint": "You could say: I'd like to return this because...",
+    "practice_tags": ["complaints", "polite_requests", "vocabulary"]
   },
   {
     "id": "conv_010",
@@ -107,7 +116,8 @@
     "ai_opening": "Hello? This is Mr. Johnson, your landlord. What can I do for you?",
     "suggested_vocab": ["repair", "urgent", "maintenance", "heating"],
     "learning_goal": "Practice reporting problems and requesting urgent help on the phone",
-    "rescue_hint": "You could say: I'm calling because there's a problem with..."
+    "rescue_hint": "You could say: I'm calling because there's a problem with...",
+    "practice_tags": ["phone_skills", "complaints", "vocabulary"]
   },
   {
     "id": "conv_011",
@@ -118,7 +128,8 @@
     "ai_opening": "Hey! I'm always curious about how people start their mornings. What does your typical morning look like?",
     "suggested_vocab": ["wake up", "breakfast", "commute", "routine"],
     "learning_goal": "Practice describing daily routines using simple present tense",
-    "rescue_hint": "You could say: I usually wake up at..."
+    "rescue_hint": "You could say: I usually wake up at...",
+    "practice_tags": ["present_tense", "vocabulary", "describing"]
   },
   {
     "id": "conv_012",
@@ -129,7 +140,8 @@
     "ai_opening": "I read an article about how artificial intelligence might replace many jobs in the next decade. What's your take on this?",
     "suggested_vocab": ["in my opinion", "on the other hand", "evidence", "impact"],
     "learning_goal": "Practice expressing opinions, agreeing, and disagreeing politely",
-    "rescue_hint": "You could say: I think that... because..."
+    "rescue_hint": "You could say: I think that... because...",
+    "practice_tags": ["opinions", "connectors", "formal_language"]
   },
   {
     "id": "conv_013",
@@ -140,7 +152,8 @@
     "ai_opening": "Hi there! You seem a bit lost. Are you looking for something nearby?",
     "suggested_vocab": ["turn left", "straight ahead", "block", "corner"],
     "learning_goal": "Practice asking for and understanding directions",
-    "rescue_hint": "You could say: Could you tell me how to get to..."
+    "rescue_hint": "You could say: Could you tell me how to get to...",
+    "practice_tags": ["asking_questions", "vocabulary", "directions"]
   },
   {
     "id": "conv_014",
@@ -151,7 +164,8 @@
     "ai_opening": "So you need to write an email to the client about the project delay. Let's work on this together. First, how should we open the email?",
     "suggested_vocab": ["regarding", "apologize", "update", "deadline"],
     "learning_goal": "Practice formal email writing and professional tone",
-    "rescue_hint": "You could start with: Dear [name], I'm writing to inform you about..."
+    "rescue_hint": "You could start with: Dear [name], I'm writing to inform you about...",
+    "practice_tags": ["formal_language", "writing", "vocabulary"]
   },
   {
     "id": "conv_015",
@@ -162,7 +176,8 @@
     "ai_opening": "Thank you for meeting with us today. We've reviewed your proposal. While we're interested, we'd like to discuss the pricing structure. What flexibility do you have?",
     "suggested_vocab": ["negotiate", "terms", "compromise", "proposal"],
     "learning_goal": "Practice business negotiation language and persuasive techniques",
-    "rescue_hint": "You could say: We appreciate your interest. Let me suggest..."
+    "rescue_hint": "You could say: We appreciate your interest. Let me suggest...",
+    "practice_tags": ["formal_language", "persuasion", "vocabulary"]
   },
   {
     "id": "conv_016",
@@ -173,7 +188,8 @@
     "ai_opening": "Man, this week has been crazy! I've been burning the candle at both ends. Anyway, what's been going on with you? Spill the beans!",
     "suggested_vocab": ["burning the candle at both ends", "spill the beans", "piece of cake", "break the ice"],
     "learning_goal": "Learn and practice common English idioms in natural conversation",
-    "rescue_hint": "You could say: What does that expression mean?"
+    "rescue_hint": "You could say: What does that expression mean?",
+    "practice_tags": ["idioms", "informal_language", "vocabulary"]
   },
   {
     "id": "conv_017",
@@ -184,7 +200,8 @@
     "ai_opening": "Good afternoon. I'm Officer Davis. Please have a seat. What happened?",
     "suggested_vocab": ["report", "stolen", "description", "witness"],
     "learning_goal": "Practice reporting an incident and describing events in past tense",
-    "rescue_hint": "You could say: I'd like to report a theft. Someone stole my..."
+    "rescue_hint": "You could say: I'd like to report a theft. Someone stole my...",
+    "practice_tags": ["past_tense", "describing", "vocabulary"]
   },
   {
     "id": "conv_018",
@@ -195,7 +212,8 @@
     "ai_opening": "So we're finally doing this trip! I was thinking we could go somewhere warm. Do you have any destination ideas? What kind of activities do you enjoy on vacation?",
     "suggested_vocab": ["destination", "budget", "itinerary", "adventure"],
     "learning_goal": "Practice suggesting, agreeing, and planning using future tenses",
-    "rescue_hint": "You could say: How about going to... I think we could..."
+    "rescue_hint": "You could say: How about going to... I think we could...",
+    "practice_tags": ["future_tense", "suggestions", "vocabulary"]
   },
   {
     "id": "conv_019",
@@ -206,7 +224,8 @@
     "ai_opening": "Alright, chef! Let's make something delicious tonight. What kind of food do you want to cook? Do you have anything in mind?",
     "suggested_vocab": ["ingredients", "recipe", "stir", "bake"],
     "learning_goal": "Practice food vocabulary and giving/following instructions",
-    "rescue_hint": "You could say: I'd like to make... Do we need...?"
+    "rescue_hint": "You could say: I'd like to make... Do we need...?",
+    "practice_tags": ["vocabulary", "imperatives", "food"]
   },
   {
     "id": "conv_020",
@@ -217,6 +236,1087 @@
     "ai_opening": "So, what do you like to do in your free time? I love discovering what people are passionate about!",
     "suggested_vocab": ["enjoy", "free time", "interested in", "practice"],
     "learning_goal": "Practice talking about hobbies and interests using simple sentences",
-    "rescue_hint": "You could say: In my free time, I like to..."
+    "rescue_hint": "You could say: In my free time, I like to...",
+    "practice_tags": ["present_tense", "vocabulary", "small_talk"]
+  },
+  {
+    "id": "conv_021",
+    "title": "Greeting Your Neighbor",
+    "category": "Daily Life",
+    "level": "A1",
+    "emotional_stakes": "You just moved into a new apartment and see your neighbor for the first time.",
+    "ai_opening": "Oh hello! You must be the new neighbor! I'm Sarah from next door. Welcome to the building!",
+    "suggested_vocab": ["nice to meet you", "moved in", "neighborhood", "live"],
+    "learning_goal": "Practice basic greetings and introductions",
+    "rescue_hint": "You could say: Hi! I'm... I just moved in...",
+    "practice_tags": ["introductions", "present_tense", "small_talk"]
+  },
+  {
+    "id": "conv_022",
+    "title": "Buying Groceries",
+    "category": "Shopping",
+    "level": "A1",
+    "emotional_stakes": "You need to buy food for dinner but you're not sure where things are in this store.",
+    "ai_opening": "Hello! Welcome to FreshMart. Can I help you find anything today?",
+    "suggested_vocab": ["aisle", "fresh", "how much", "bag"],
+    "learning_goal": "Practice asking about products and understanding prices",
+    "rescue_hint": "You could say: Where can I find the...?",
+    "practice_tags": ["asking_questions", "vocabulary", "shopping"]
+  },
+  {
+    "id": "conv_023",
+    "title": "Talking About the Weather",
+    "category": "Social",
+    "level": "A1",
+    "emotional_stakes": "You're waiting at the bus stop and want to make conversation.",
+    "ai_opening": "Wow, it's really cold today, isn't it? I can't believe it was sunny yesterday!",
+    "suggested_vocab": ["sunny", "rainy", "cold", "weather forecast"],
+    "learning_goal": "Practice weather vocabulary and simple small talk",
+    "rescue_hint": "You could say: Yes, it is! I think tomorrow will be...",
+    "practice_tags": ["small_talk", "vocabulary", "present_tense"]
+  },
+  {
+    "id": "conv_024",
+    "title": "Describing Your Family",
+    "category": "Social",
+    "level": "A1",
+    "emotional_stakes": "Your new classmate wants to know about your family.",
+    "ai_opening": "I have a big family - two brothers and a sister! What about you? Tell me about your family!",
+    "suggested_vocab": ["brother", "sister", "parents", "older/younger"],
+    "learning_goal": "Practice family vocabulary and possessive adjectives",
+    "rescue_hint": "You could say: I have... My family is...",
+    "practice_tags": ["vocabulary", "possessives", "describing"]
+  },
+  {
+    "id": "conv_025",
+    "title": "Taking a Taxi",
+    "category": "Travel",
+    "level": "A1",
+    "emotional_stakes": "You need to get to the train station quickly but don't speak much English.",
+    "ai_opening": "Hop in! Where would you like to go?",
+    "suggested_vocab": ["address", "how long", "stop here", "fare"],
+    "learning_goal": "Practice giving destinations and basic travel instructions",
+    "rescue_hint": "You could say: Please take me to...",
+    "practice_tags": ["polite_requests", "vocabulary", "travel"]
+  },
+  {
+    "id": "conv_026",
+    "title": "Ordering Coffee",
+    "category": "Daily Life",
+    "level": "A1",
+    "emotional_stakes": "It's your first time at this coffee shop and the menu is all in English.",
+    "ai_opening": "Good morning! What can I get for you today? We have a great special on our caramel latte!",
+    "suggested_vocab": ["latte", "black coffee", "sugar", "to go"],
+    "learning_goal": "Practice ordering drinks and expressing preferences",
+    "rescue_hint": "You could say: Can I have a... please?",
+    "practice_tags": ["polite_requests", "vocabulary", "food"]
+  },
+  {
+    "id": "conv_027",
+    "title": "At the Gym",
+    "category": "Health",
+    "level": "A2",
+    "emotional_stakes": "You just joined a new gym and the trainer is showing you around.",
+    "ai_opening": "Welcome to FitLife! I'm your personal trainer, Mike. Let's start by talking about your fitness goals. What are you looking to achieve?",
+    "suggested_vocab": ["exercise", "workout", "weight", "cardio"],
+    "learning_goal": "Practice talking about health goals and understanding instructions",
+    "rescue_hint": "You could say: I want to... I'd like to improve my...",
+    "practice_tags": ["vocabulary", "goals", "health"]
+  },
+  {
+    "id": "conv_028",
+    "title": "Renting a Car",
+    "category": "Travel",
+    "level": "A2",
+    "emotional_stakes": "You need a car for your road trip this weekend.",
+    "ai_opening": "Welcome to QuickRent! Are you looking to rent a car? What dates do you need it for?",
+    "suggested_vocab": ["rental", "insurance", "mileage", "automatic"],
+    "learning_goal": "Practice making reservations and asking about terms",
+    "rescue_hint": "You could say: I'd like to rent a car from... to...",
+    "practice_tags": ["polite_requests", "vocabulary", "travel"]
+  },
+  {
+    "id": "conv_029",
+    "title": "Weekend Plans",
+    "category": "Social",
+    "level": "A2",
+    "emotional_stakes": "Your friend is asking what you're doing this weekend and might want to join.",
+    "ai_opening": "Hey! Got any plans for the weekend? I'm thinking of doing something fun. Want to hang out?",
+    "suggested_vocab": ["plan", "free", "how about", "sounds good"],
+    "learning_goal": "Practice making and responding to suggestions",
+    "rescue_hint": "You could say: I'm thinking of... Would you like to...?",
+    "practice_tags": ["future_tense", "suggestions", "informal_language"]
+  },
+  {
+    "id": "conv_030",
+    "title": "Describing Your Home",
+    "category": "Daily Life",
+    "level": "A2",
+    "emotional_stakes": "Your pen pal wants to know what your home looks like.",
+    "ai_opening": "I just moved to a tiny studio apartment in the city! It's small but cozy. What's your place like?",
+    "suggested_vocab": ["bedroom", "living room", "cozy", "spacious"],
+    "learning_goal": "Practice describing places using adjectives and prepositions",
+    "rescue_hint": "You could say: My home has... It's...",
+    "practice_tags": ["describing", "adjectives", "vocabulary"]
+  },
+  {
+    "id": "conv_031",
+    "title": "Booking a Flight",
+    "category": "Travel",
+    "level": "A2",
+    "emotional_stakes": "You found a great deal but need to book quickly before prices go up.",
+    "ai_opening": "Thank you for calling SkyWay Airlines. How can I assist you today?",
+    "suggested_vocab": ["one-way", "round trip", "departure", "connection"],
+    "learning_goal": "Practice booking travel and understanding schedules",
+    "rescue_hint": "You could say: I'd like to book a flight from... to...",
+    "practice_tags": ["phone_skills", "polite_requests", "travel"]
+  },
+  {
+    "id": "conv_032",
+    "title": "At the Pharmacy",
+    "category": "Health",
+    "level": "A2",
+    "emotional_stakes": "You have a cold and need medicine but aren't sure what to buy.",
+    "ai_opening": "Hello! How can I help you today? You don't look like you're feeling well.",
+    "suggested_vocab": ["medicine", "cough", "dose", "side effects"],
+    "learning_goal": "Practice describing how you feel and understanding advice",
+    "rescue_hint": "You could say: I have a... Do you have anything for...?",
+    "practice_tags": ["vocabulary", "describing", "health"]
+  },
+  {
+    "id": "conv_033",
+    "title": "Talking About Movies",
+    "category": "Entertainment",
+    "level": "A2",
+    "emotional_stakes": "You and your coworker are deciding what movie to watch together.",
+    "ai_opening": "Have you seen any good movies lately? I just watched this amazing thriller last night and I can't stop thinking about it!",
+    "suggested_vocab": ["genre", "plot", "recommend", "sequel"],
+    "learning_goal": "Practice giving opinions about entertainment and making recommendations",
+    "rescue_hint": "You could say: I recently watched... It was...",
+    "practice_tags": ["opinions", "past_tense", "vocabulary"]
+  },
+  {
+    "id": "conv_034",
+    "title": "Setting Up Your Phone Plan",
+    "category": "Technology",
+    "level": "A2",
+    "emotional_stakes": "You just arrived in a new country and need a local phone number.",
+    "ai_opening": "Welcome to MobileConnect! Are you looking for a new phone plan or a prepaid SIM card?",
+    "suggested_vocab": ["data plan", "prepaid", "minutes", "monthly"],
+    "learning_goal": "Practice understanding product options and making choices",
+    "rescue_hint": "You could say: I need a... How much does it cost?",
+    "practice_tags": ["vocabulary", "asking_questions", "technology"]
+  },
+  {
+    "id": "conv_035",
+    "title": "Parent-Teacher Meeting",
+    "category": "Education",
+    "level": "B1",
+    "emotional_stakes": "Your child's teacher wants to discuss your child's progress at school.",
+    "ai_opening": "Thank you for coming in. I wanted to talk about your child's progress this semester. Overall, they're doing well, but there are a few areas where we could see improvement.",
+    "suggested_vocab": ["progress", "improve", "behavior", "grade"],
+    "learning_goal": "Practice discussing academic performance and asking follow-up questions",
+    "rescue_hint": "You could ask: What areas need improvement? How can we help at home?",
+    "practice_tags": ["formal_language", "asking_questions", "education"]
+  },
+  {
+    "id": "conv_036",
+    "title": "Complaining About a Noisy Neighbor",
+    "category": "Daily Life",
+    "level": "B1",
+    "emotional_stakes": "Your neighbor has been playing loud music every night and you can't sleep.",
+    "ai_opening": "Oh hey! What brings you to my door? Everything okay?",
+    "suggested_vocab": ["noise", "disturb", "politely", "compromise"],
+    "learning_goal": "Practice making polite complaints and finding compromises",
+    "rescue_hint": "You could say: I'm sorry to bother you, but I wanted to talk about...",
+    "practice_tags": ["complaints", "polite_requests", "vocabulary"]
+  },
+  {
+    "id": "conv_037",
+    "title": "Telling a Story About Your Childhood",
+    "category": "Social",
+    "level": "B1",
+    "emotional_stakes": "Your friends are sharing funny childhood memories around a campfire.",
+    "ai_opening": "Okay, your turn! Tell us your funniest childhood story. I bet you have a great one!",
+    "suggested_vocab": ["used to", "remember", "childhood", "hilarious"],
+    "learning_goal": "Practice past tense narration and storytelling",
+    "rescue_hint": "You could say: When I was young, I used to...",
+    "practice_tags": ["past_tense", "storytelling", "vocabulary"]
+  },
+  {
+    "id": "conv_038",
+    "title": "Discussing a Book",
+    "category": "Entertainment",
+    "level": "B1",
+    "emotional_stakes": "Your book club meets tonight and you need to share your thoughts.",
+    "ai_opening": "So, what did everyone think of this month's book? I have mixed feelings about the ending. What about you?",
+    "suggested_vocab": ["character", "plot twist", "theme", "recommend"],
+    "learning_goal": "Practice expressing and defending opinions about literature",
+    "rescue_hint": "You could say: I thought the book was... because...",
+    "practice_tags": ["opinions", "vocabulary", "connectors"]
+  },
+  {
+    "id": "conv_039",
+    "title": "Technical Support Call",
+    "category": "Technology",
+    "level": "B1",
+    "emotional_stakes": "Your internet has been down for two days and you work from home.",
+    "ai_opening": "Thank you for calling TechHelp support. My name is Jordan. Can you tell me what issue you're experiencing?",
+    "suggested_vocab": ["connection", "reboot", "troubleshoot", "outage"],
+    "learning_goal": "Practice describing technical problems and following instructions",
+    "rescue_hint": "You could say: My internet hasn't been working since...",
+    "practice_tags": ["phone_skills", "describing", "technology"]
+  },
+  {
+    "id": "conv_040",
+    "title": "At the Bank",
+    "category": "Daily Life",
+    "level": "B1",
+    "emotional_stakes": "You need to open a new bank account in a foreign country.",
+    "ai_opening": "Good morning! Welcome to First National Bank. How can I assist you today?",
+    "suggested_vocab": ["account", "savings", "transfer", "statement"],
+    "learning_goal": "Practice banking vocabulary and formal transactions",
+    "rescue_hint": "You could say: I'd like to open a... account",
+    "practice_tags": ["formal_language", "vocabulary", "polite_requests"]
+  },
+  {
+    "id": "conv_041",
+    "title": "Giving a Tour of Your City",
+    "category": "Travel",
+    "level": "B1",
+    "emotional_stakes": "A foreign friend is visiting your city and you want to show them the best spots.",
+    "ai_opening": "I'm so excited to be here! I only have two days, so what should I definitely not miss? Where do the locals go?",
+    "suggested_vocab": ["landmark", "must-see", "hidden gem", "recommend"],
+    "learning_goal": "Practice describing places and giving recommendations",
+    "rescue_hint": "You could say: You should definitely visit... It's famous for...",
+    "practice_tags": ["describing", "suggestions", "vocabulary"]
+  },
+  {
+    "id": "conv_042",
+    "title": "Asking for a Raise",
+    "category": "Work",
+    "level": "B2",
+    "emotional_stakes": "You've been working hard for two years with no salary increase.",
+    "ai_opening": "You wanted to schedule a meeting to discuss something? Please, have a seat. What's on your mind?",
+    "suggested_vocab": ["compensation", "contribution", "performance", "negotiate"],
+    "learning_goal": "Practice persuasive language and professional negotiation",
+    "rescue_hint": "You could say: I'd like to discuss my compensation. Over the past year, I've...",
+    "practice_tags": ["formal_language", "persuasion", "vocabulary"]
+  },
+  {
+    "id": "conv_043",
+    "title": "Explaining Your Culture",
+    "category": "Culture",
+    "level": "B1",
+    "emotional_stakes": "Your international classmates are curious about traditions in your country.",
+    "ai_opening": "We're talking about cultural traditions today! I'd love to hear about a special tradition or holiday from your country. What's one that's really important to you?",
+    "suggested_vocab": ["tradition", "celebrate", "custom", "meaningful"],
+    "learning_goal": "Practice describing cultural customs and explaining their significance",
+    "rescue_hint": "You could say: In my country, we celebrate... It's important because...",
+    "practice_tags": ["describing", "vocabulary", "culture"]
+  },
+  {
+    "id": "conv_044",
+    "title": "Moving to a New Country",
+    "category": "Daily Life",
+    "level": "B1",
+    "emotional_stakes": "You just moved abroad and everything feels overwhelming.",
+    "ai_opening": "Hey, welcome to the neighborhood! I heard you just moved here from abroad. How are you settling in? Need any tips about life here?",
+    "suggested_vocab": ["adjust", "homesick", "culture shock", "settle in"],
+    "learning_goal": "Practice talking about experiences and feelings of adjustment",
+    "rescue_hint": "You could say: It's been... I miss... but I'm enjoying...",
+    "practice_tags": ["present_perfect", "feelings", "vocabulary"]
+  },
+  {
+    "id": "conv_045",
+    "title": "Handling a Work Conflict",
+    "category": "Work",
+    "level": "B2",
+    "emotional_stakes": "A colleague took credit for your idea in a meeting. You need to address it.",
+    "ai_opening": "Hey, do you have a minute? You mentioned wanting to talk about something after the meeting earlier.",
+    "suggested_vocab": ["misunderstanding", "credit", "approach", "resolve"],
+    "learning_goal": "Practice addressing conflicts diplomatically and assertively",
+    "rescue_hint": "You could say: I wanted to talk about what happened in the meeting. I felt that...",
+    "practice_tags": ["formal_language", "feelings", "vocabulary"]
+  },
+  {
+    "id": "conv_046",
+    "title": "Environmental Discussion",
+    "category": "News & Opinions",
+    "level": "B2",
+    "emotional_stakes": "Your study group is debating solutions to climate change for a class project.",
+    "ai_opening": "For our presentation on environmental solutions, we need to pick our main argument. Some people say individual action matters most, others say it's all about government policy. What do you think?",
+    "suggested_vocab": ["carbon footprint", "sustainable", "renewable", "policy"],
+    "learning_goal": "Practice building and defending arguments with evidence",
+    "rescue_hint": "You could say: I believe that... because research shows...",
+    "practice_tags": ["opinions", "connectors", "vocabulary"]
+  },
+  {
+    "id": "conv_047",
+    "title": "Planning a Wedding",
+    "category": "Social",
+    "level": "B2",
+    "emotional_stakes": "You're helping your best friend plan their wedding and there are many decisions to make.",
+    "ai_opening": "Okay, we only have three months until the wedding! Let's go through the checklist. First, have you thought about the venue? Indoor or outdoor?",
+    "suggested_vocab": ["venue", "budget", "ceremony", "reception"],
+    "learning_goal": "Practice making complex plans and expressing preferences with reasons",
+    "rescue_hint": "You could say: I think we should... because... What if we...?",
+    "practice_tags": ["suggestions", "conditionals", "vocabulary"]
+  },
+  {
+    "id": "conv_048",
+    "title": "Talking About Technology Trends",
+    "category": "Technology",
+    "level": "B2",
+    "emotional_stakes": "Your tech-savvy friend is excited about the latest gadgets and AI developments.",
+    "ai_opening": "Have you been following the latest AI developments? I just tried this new app that uses AI to generate art. It's incredible but also kind of scary. What are your thoughts on AI?",
+    "suggested_vocab": ["artificial intelligence", "innovation", "privacy", "automation"],
+    "learning_goal": "Practice discussing technology with nuanced opinions",
+    "rescue_hint": "You could say: I think AI is... On one hand... but on the other hand...",
+    "practice_tags": ["opinions", "technology", "connectors"]
+  },
+  {
+    "id": "conv_049",
+    "title": "Describing a Memorable Vacation",
+    "category": "Travel",
+    "level": "B1",
+    "emotional_stakes": "Your colleague is looking for travel inspiration and asks about your best trip.",
+    "ai_opening": "I need vacation ideas! You always seem to go to amazing places. What's the best trip you've ever taken? Tell me everything!",
+    "suggested_vocab": ["breathtaking", "explore", "highlight", "memorable"],
+    "learning_goal": "Practice past tense narration with descriptive language",
+    "rescue_hint": "You could say: The best trip I ever took was to... The highlight was...",
+    "practice_tags": ["past_tense", "describing", "storytelling"]
+  },
+  {
+    "id": "conv_050",
+    "title": "Discussing Mental Health",
+    "category": "Health",
+    "level": "B2",
+    "emotional_stakes": "A close friend seems stressed and you want to check in on them.",
+    "ai_opening": "Thanks for asking how I'm doing. Honestly, I've been really stressed with work and haven't been sleeping well. Sometimes I feel like everything is too much. Have you ever felt like that?",
+    "suggested_vocab": ["stress", "overwhelmed", "self-care", "support"],
+    "learning_goal": "Practice empathetic listening and giving supportive advice",
+    "rescue_hint": "You could say: I'm sorry to hear that. Have you tried...? It might help to...",
+    "practice_tags": ["feelings", "advice", "vocabulary"]
+  },
+  {
+    "id": "conv_051",
+    "title": "Buying Your First Phone",
+    "category": "Shopping",
+    "level": "A1",
+    "emotional_stakes": "You saved money and want to buy your first smartphone.",
+    "ai_opening": "Hi! Looking for a new phone? We have lots of options. What's your budget?",
+    "suggested_vocab": ["screen", "camera", "battery", "cheap"],
+    "learning_goal": "Practice numbers, prices, and comparing simple options",
+    "rescue_hint": "You could say: How much is this one? I want a phone with good...",
+    "practice_tags": ["numbers", "asking_questions", "shopping"]
+  },
+  {
+    "id": "conv_052",
+    "title": "What's Your Job?",
+    "category": "Work",
+    "level": "A1",
+    "emotional_stakes": "You're meeting someone new who wants to know what you do.",
+    "ai_opening": "So what do you do for work? I'm a teacher at a primary school. I love working with kids!",
+    "suggested_vocab": ["job", "work", "office", "enjoy"],
+    "learning_goal": "Practice talking about jobs using simple present tense",
+    "rescue_hint": "You could say: I'm a... I work at...",
+    "practice_tags": ["present_tense", "vocabulary", "self_introduction"]
+  },
+  {
+    "id": "conv_053",
+    "title": "What Time Is It?",
+    "category": "Daily Life",
+    "level": "A1",
+    "emotional_stakes": "You're running late and need to know the time and schedule.",
+    "ai_opening": "Excuse me! You look like you're in a hurry. Do you need help with anything?",
+    "suggested_vocab": ["time", "o'clock", "quarter past", "half past"],
+    "learning_goal": "Practice telling time and talking about schedules",
+    "rescue_hint": "You could say: What time is it? When does the... start?",
+    "practice_tags": ["numbers", "asking_questions", "vocabulary"]
+  },
+  {
+    "id": "conv_054",
+    "title": "At the Playground",
+    "category": "Social",
+    "level": "A1",
+    "emotional_stakes": "You're at the park with your kids and another parent starts chatting.",
+    "ai_opening": "Beautiful day, isn't it? Is that your little one on the swings? How old are they?",
+    "suggested_vocab": ["play", "child", "park", "fun"],
+    "learning_goal": "Practice talking about children and making small talk",
+    "rescue_hint": "You could say: Yes! That's my... They are... years old.",
+    "practice_tags": ["small_talk", "numbers", "present_tense"]
+  },
+  {
+    "id": "conv_055",
+    "title": "Ordering Pizza by Phone",
+    "category": "Daily Life",
+    "level": "A1",
+    "emotional_stakes": "You're ordering pizza delivery for the first time in English.",
+    "ai_opening": "Thank you for calling Mario's Pizza! What can I get for you tonight?",
+    "suggested_vocab": ["large", "topping", "deliver", "address"],
+    "learning_goal": "Practice phone ordering with numbers and food vocabulary",
+    "rescue_hint": "You could say: I'd like a... pizza with...",
+    "practice_tags": ["phone_skills", "food", "polite_requests"]
+  },
+  {
+    "id": "conv_056",
+    "title": "Apartment Hunting",
+    "category": "Daily Life",
+    "level": "B1",
+    "emotional_stakes": "You need to find an apartment before next month. This one looks promising.",
+    "ai_opening": "Hi! You're here to see the apartment, right? Come on in! As you can see, it's a two-bedroom unit with a great view. Do you have any questions?",
+    "suggested_vocab": ["lease", "deposit", "utilities", "furnished"],
+    "learning_goal": "Practice asking detailed questions and understanding housing terms",
+    "rescue_hint": "You could ask: How much is the rent? Are utilities included?",
+    "practice_tags": ["asking_questions", "vocabulary", "polite_requests"]
+  },
+  {
+    "id": "conv_057",
+    "title": "Giving Feedback to a Coworker",
+    "category": "Work",
+    "level": "B2",
+    "emotional_stakes": "Your manager asked you to review a junior colleague's report before the deadline.",
+    "ai_opening": "Thanks for taking the time to look at my report! I know it's my first big one. Be honest - how is it? What should I change?",
+    "suggested_vocab": ["constructive", "improve", "structure", "clarify"],
+    "learning_goal": "Practice giving constructive feedback diplomatically",
+    "rescue_hint": "You could say: Overall it's good! One thing I'd suggest is...",
+    "practice_tags": ["formal_language", "advice", "vocabulary"]
+  },
+  {
+    "id": "conv_058",
+    "title": "Road Trip Breakdown",
+    "category": "Emergency",
+    "level": "B1",
+    "emotional_stakes": "Your car broke down on a highway far from any town.",
+    "ai_opening": "Hello, Roadside Assistance. What's your emergency?",
+    "suggested_vocab": ["breakdown", "tow truck", "engine", "location"],
+    "learning_goal": "Practice describing emergencies and giving location details",
+    "rescue_hint": "You could say: My car broke down on... I'm near...",
+    "practice_tags": ["phone_skills", "describing", "vocabulary"]
+  },
+  {
+    "id": "conv_059",
+    "title": "Healthy Eating Discussion",
+    "category": "Health",
+    "level": "B1",
+    "emotional_stakes": "Your friend wants to start eating healthier and is asking for your advice.",
+    "ai_opening": "I've been trying to eat healthier but I have no idea where to start. Do you have any tips? What does a healthy diet look like to you?",
+    "suggested_vocab": ["balanced", "protein", "portion", "nutritious"],
+    "learning_goal": "Practice giving advice and talking about food and health",
+    "rescue_hint": "You could say: I think a good start would be... You should try...",
+    "practice_tags": ["advice", "vocabulary", "health"]
+  },
+  {
+    "id": "conv_060",
+    "title": "Discussing Social Media",
+    "category": "Technology",
+    "level": "B1",
+    "emotional_stakes": "Your study group is debating whether social media is good or bad for society.",
+    "ai_opening": "For our discussion today, let's talk about social media. Some people say it connects us, others say it's making us lonelier. What do you think?",
+    "suggested_vocab": ["addictive", "connection", "privacy", "influence"],
+    "learning_goal": "Practice expressing balanced opinions with examples",
+    "rescue_hint": "You could say: I think social media is... because... However...",
+    "practice_tags": ["opinions", "connectors", "technology"]
+  },
+  {
+    "id": "conv_061",
+    "title": "Celebrating a Birthday",
+    "category": "Social",
+    "level": "A2",
+    "emotional_stakes": "It's your friend's surprise birthday party and you're making a toast!",
+    "ai_opening": "Everyone quiet! The birthday person is coming! Quick - what do you want to say when they walk in?",
+    "suggested_vocab": ["congratulations", "celebrate", "wish", "toast"],
+    "learning_goal": "Practice expressing wishes and making simple speeches",
+    "rescue_hint": "You could say: Happy birthday! I wish you...",
+    "practice_tags": ["vocabulary", "informal_language", "social"]
+  },
+  {
+    "id": "conv_062",
+    "title": "Learning to Drive",
+    "category": "Daily Life",
+    "level": "A2",
+    "emotional_stakes": "You're taking your first driving lesson and feeling nervous.",
+    "ai_opening": "Alright, welcome to your first lesson! Don't worry, everyone is nervous at first. Let's start with the basics. Do you know what this pedal does?",
+    "suggested_vocab": ["brake", "accelerate", "mirror", "turn signal"],
+    "learning_goal": "Practice understanding and following step-by-step instructions",
+    "rescue_hint": "You could say: Is this the...? Should I... now?",
+    "practice_tags": ["asking_questions", "vocabulary", "imperatives"]
+  },
+  {
+    "id": "conv_063",
+    "title": "Reviewing a Restaurant",
+    "category": "Entertainment",
+    "level": "B1",
+    "emotional_stakes": "Your friend wants to know if a restaurant is worth visiting.",
+    "ai_opening": "I heard you went to that new Italian place downtown! Was it good? I'm thinking of going this weekend. Should I?",
+    "suggested_vocab": ["atmosphere", "portion", "service", "worth it"],
+    "learning_goal": "Practice giving detailed reviews and making recommendations",
+    "rescue_hint": "You could say: The food was... The atmosphere was... I would recommend...",
+    "practice_tags": ["opinions", "describing", "vocabulary"]
+  },
+  {
+    "id": "conv_064",
+    "title": "Volunteering at a Shelter",
+    "category": "Social",
+    "level": "B1",
+    "emotional_stakes": "You want to start volunteering and are visiting a local animal shelter.",
+    "ai_opening": "Welcome! It's wonderful that you want to volunteer with us. We're always looking for help. What kind of activities are you interested in? Do you have experience with animals?",
+    "suggested_vocab": ["volunteer", "shelter", "adopt", "responsibility"],
+    "learning_goal": "Practice expressing interest and discussing experiences",
+    "rescue_hint": "You could say: I'd love to help with... I have experience...",
+    "practice_tags": ["present_perfect", "vocabulary", "polite_requests"]
+  },
+  {
+    "id": "conv_065",
+    "title": "Discussing Education Systems",
+    "category": "Education",
+    "level": "B2",
+    "emotional_stakes": "You're at an international conference comparing education systems.",
+    "ai_opening": "In our country, students typically take national exams at age 16. How does the education system work where you're from? I'm curious about the differences.",
+    "suggested_vocab": ["curriculum", "assessment", "vocational", "tuition"],
+    "learning_goal": "Practice comparing systems and explaining complex structures",
+    "rescue_hint": "You could say: In my country, the system is different. Students...",
+    "practice_tags": ["comparing", "formal_language", "education"]
+  },
+  {
+    "id": "conv_066",
+    "title": "Talking About Music",
+    "category": "Entertainment",
+    "level": "A2",
+    "emotional_stakes": "You're at a music festival and strike up a conversation with someone.",
+    "ai_opening": "This band is amazing, right?! What kind of music do you usually listen to? I'm really into rock and jazz.",
+    "suggested_vocab": ["genre", "lyrics", "concert", "band"],
+    "learning_goal": "Practice talking about preferences and using frequency adverbs",
+    "rescue_hint": "You could say: I usually listen to... My favorite singer is...",
+    "practice_tags": ["vocabulary", "opinions", "small_talk"]
+  },
+  {
+    "id": "conv_067",
+    "title": "Post Office Visit",
+    "category": "Daily Life",
+    "level": "A2",
+    "emotional_stakes": "You need to send an important package to another country urgently.",
+    "ai_opening": "Next, please! How can I help you today?",
+    "suggested_vocab": ["parcel", "postage", "express", "tracking number"],
+    "learning_goal": "Practice service interactions and understanding options",
+    "rescue_hint": "You could say: I need to send this to... How long will it take?",
+    "practice_tags": ["polite_requests", "asking_questions", "vocabulary"]
+  },
+  {
+    "id": "conv_068",
+    "title": "Discussing Work-Life Balance",
+    "category": "Work",
+    "level": "B2",
+    "emotional_stakes": "Your team lead is asking how everyone feels about the new remote work policy.",
+    "ai_opening": "As you know, we're reviewing our hybrid work policy. I want everyone's honest input. How do you feel about the current balance between office and remote days?",
+    "suggested_vocab": ["flexibility", "productivity", "boundaries", "commute"],
+    "learning_goal": "Practice expressing preferences with supporting arguments in a professional setting",
+    "rescue_hint": "You could say: I think the current policy... I'd prefer... because...",
+    "practice_tags": ["opinions", "formal_language", "vocabulary"]
+  },
+  {
+    "id": "conv_069",
+    "title": "Art Gallery Visit",
+    "category": "Culture",
+    "level": "B2",
+    "emotional_stakes": "You're at a modern art gallery and a curator is asking your thoughts.",
+    "ai_opening": "This painting is one of our most discussed pieces. People either love it or hate it. What does it make you feel? What do you think the artist was trying to express?",
+    "suggested_vocab": ["abstract", "interpret", "evoke", "contemporary"],
+    "learning_goal": "Practice expressing subjective interpretations and abstract ideas",
+    "rescue_hint": "You could say: To me, it looks like... It makes me feel...",
+    "practice_tags": ["opinions", "describing", "culture"]
+  },
+  {
+    "id": "conv_070",
+    "title": "Explaining Your Research",
+    "category": "Education",
+    "level": "C1",
+    "emotional_stakes": "You're at an academic conference presenting your research to senior professors.",
+    "ai_opening": "Thank you for your presentation. I found your methodology quite interesting. Could you elaborate on how you controlled for variables in your study? And what were the main limitations?",
+    "suggested_vocab": ["hypothesis", "methodology", "findings", "peer-reviewed"],
+    "learning_goal": "Practice academic English and responding to challenging questions",
+    "rescue_hint": "You could say: That's a great question. The approach we took was...",
+    "practice_tags": ["formal_language", "academic", "vocabulary"]
+  },
+  {
+    "id": "conv_071",
+    "title": "Philosophical Discussion",
+    "category": "News & Opinions",
+    "level": "C1",
+    "emotional_stakes": "Your philosophy professor challenges your views in a seminar.",
+    "ai_opening": "You argue that free will exists. But if every decision we make is the result of prior causes - genetics, upbringing, circumstances - can we truly say we choose freely? How do you respond to that?",
+    "suggested_vocab": ["determinism", "consciousness", "inherently", "paradox"],
+    "learning_goal": "Practice constructing complex philosophical arguments",
+    "rescue_hint": "You could say: While I understand that perspective, I would argue that...",
+    "practice_tags": ["opinions", "connectors", "academic"]
+  },
+  {
+    "id": "conv_072",
+    "title": "Leading a Team Meeting",
+    "category": "Business English",
+    "level": "C1",
+    "emotional_stakes": "You're leading your first cross-departmental meeting with senior stakeholders.",
+    "ai_opening": "Good morning everyone. We're all here to discuss the Q3 restructuring. Before we dive in, I believe you have the agenda. Would you like to kick us off?",
+    "suggested_vocab": ["stakeholder", "alignment", "deliverables", "synergy"],
+    "learning_goal": "Practice leading meetings with professional and authoritative language",
+    "rescue_hint": "You could say: Thank you all for joining. Let's start with...",
+    "practice_tags": ["formal_language", "presentations", "vocabulary"]
+  },
+  {
+    "id": "conv_073",
+    "title": "Medical Ethics Debate",
+    "category": "News & Opinions",
+    "level": "C1",
+    "emotional_stakes": "Your bioethics class is debating a controversial medical topic.",
+    "ai_opening": "Today we're discussing genetic engineering in humans. Some argue it could eliminate diseases, while others worry about designer babies and inequality. What's your position?",
+    "suggested_vocab": ["ethical implications", "consent", "slippery slope", "genome"],
+    "learning_goal": "Practice nuanced argumentation on complex ethical topics",
+    "rescue_hint": "You could say: My position is... While I acknowledge... I believe...",
+    "practice_tags": ["opinions", "academic", "connectors"]
+  },
+  {
+    "id": "conv_074",
+    "title": "Diplomatic Negotiation",
+    "category": "Business English",
+    "level": "C1",
+    "emotional_stakes": "You represent your company in a tense merger discussion.",
+    "ai_opening": "Let's be candid. Both sides have concerns about the proposed merger. We're worried about cultural integration and staff retention. What assurances can your team offer?",
+    "suggested_vocab": ["assurance", "due diligence", "leverage", "contingency"],
+    "learning_goal": "Practice high-stakes negotiation with diplomatic precision",
+    "rescue_hint": "You could say: We understand your concerns. Let us address them point by point...",
+    "practice_tags": ["formal_language", "persuasion", "vocabulary"]
+  },
+  {
+    "id": "conv_075",
+    "title": "Literary Analysis Discussion",
+    "category": "Culture",
+    "level": "C1",
+    "emotional_stakes": "Your English literature seminar is analyzing a classic novel in depth.",
+    "ai_opening": "Looking at the protagonist's arc in the novel, there's a clear tension between individual desire and social expectation. How do you interpret the ending? Is it a tragedy or a liberation?",
+    "suggested_vocab": ["symbolism", "protagonist", "allegory", "ambiguity"],
+    "learning_goal": "Practice literary analysis using sophisticated vocabulary and reasoning",
+    "rescue_hint": "You could say: I interpret the ending as... The symbolism suggests...",
+    "practice_tags": ["academic", "opinions", "culture"]
+  },
+  {
+    "id": "conv_076",
+    "title": "Colors and Clothes",
+    "category": "Shopping",
+    "level": "A1",
+    "emotional_stakes": "You want to buy a gift for your friend but need help choosing.",
+    "ai_opening": "Hello! Are you shopping for a gift? What does your friend like? What is their favorite color?",
+    "suggested_vocab": ["red", "blue", "shirt", "pretty"],
+    "learning_goal": "Practice colors, clothing items, and expressing simple preferences",
+    "rescue_hint": "You could say: My friend likes... I want to buy a...",
+    "practice_tags": ["vocabulary", "adjectives", "shopping"]
+  },
+  {
+    "id": "conv_077",
+    "title": "What Do You Eat?",
+    "category": "Daily Life",
+    "level": "A1",
+    "emotional_stakes": "Your language exchange partner is curious about food in your country.",
+    "ai_opening": "I love food from different countries! What do you usually eat for breakfast? And what about lunch and dinner?",
+    "suggested_vocab": ["rice", "bread", "fruit", "delicious"],
+    "learning_goal": "Practice food vocabulary and describing meals",
+    "rescue_hint": "You could say: For breakfast, I eat... It is very...",
+    "practice_tags": ["vocabulary", "present_tense", "food"]
+  },
+  {
+    "id": "conv_078",
+    "title": "Can You Help Me?",
+    "category": "Daily Life",
+    "level": "A1",
+    "emotional_stakes": "You dropped your bag and things fell everywhere. A stranger offers to help.",
+    "ai_opening": "Oh no! Let me help you! Here, is this your book? And I think this pen is yours too.",
+    "suggested_vocab": ["thank you", "help", "mine", "sorry"],
+    "learning_goal": "Practice basic polite expressions and possessive pronouns",
+    "rescue_hint": "You could say: Yes, that's mine. Thank you so much!",
+    "practice_tags": ["polite_requests", "possessives", "vocabulary"]
+  },
+  {
+    "id": "conv_079",
+    "title": "Pet Talk",
+    "category": "Social",
+    "level": "A2",
+    "emotional_stakes": "You're at the vet and chatting with another pet owner in the waiting room.",
+    "ai_opening": "Aww, your dog is so cute! What's their name? How old are they? I have a cat named Whiskers.",
+    "suggested_vocab": ["breed", "pet", "feed", "walk"],
+    "learning_goal": "Practice talking about pets and describing animals",
+    "rescue_hint": "You could say: This is... They are... years old. They like to...",
+    "practice_tags": ["vocabulary", "describing", "small_talk"]
+  },
+  {
+    "id": "conv_080",
+    "title": "Sports Fan Chat",
+    "category": "Entertainment",
+    "level": "A2",
+    "emotional_stakes": "You're watching a football match at a pub and the person next to you starts talking.",
+    "ai_opening": "What a game! Who are you cheering for? I've been a fan of the Blue Lions since I was a kid!",
+    "suggested_vocab": ["team", "score", "win", "match"],
+    "learning_goal": "Practice sports vocabulary and expressing enthusiasm",
+    "rescue_hint": "You could say: I'm cheering for... I think they will...",
+    "practice_tags": ["vocabulary", "opinions", "informal_language"]
+  },
+  {
+    "id": "conv_081",
+    "title": "Library Visit",
+    "category": "Education",
+    "level": "A2",
+    "emotional_stakes": "You need to find a specific book for your class project.",
+    "ai_opening": "Welcome to the city library! Can I help you find something? We just got a new section of English learning materials too!",
+    "suggested_vocab": ["borrow", "return", "shelf", "membership"],
+    "learning_goal": "Practice asking for help in public places and understanding systems",
+    "rescue_hint": "You could say: I'm looking for a book about... Where can I find...?",
+    "practice_tags": ["asking_questions", "polite_requests", "vocabulary"]
+  },
+  {
+    "id": "conv_082",
+    "title": "Job Training Day",
+    "category": "Work",
+    "level": "A2",
+    "emotional_stakes": "It's your first day at a new job and everything is new.",
+    "ai_opening": "Welcome to the team! I'll be showing you around today. First, let me show you your desk. Do you have any questions before we start?",
+    "suggested_vocab": ["colleague", "department", "schedule", "break"],
+    "learning_goal": "Practice workplace vocabulary and asking practical questions",
+    "rescue_hint": "You could say: Nice to meet everyone! Where is the...? When do we...?",
+    "practice_tags": ["asking_questions", "vocabulary", "introductions"]
+  },
+  {
+    "id": "conv_083",
+    "title": "Fixing Something at Home",
+    "category": "Daily Life",
+    "level": "A2",
+    "emotional_stakes": "The kitchen sink is leaking and you're calling a plumber.",
+    "ai_opening": "Hello, Pete's Plumbing! What seems to be the problem?",
+    "suggested_vocab": ["leak", "fix", "appointment", "broken"],
+    "learning_goal": "Practice describing household problems and scheduling repairs",
+    "rescue_hint": "You could say: I have a problem with my... It's... Can you come...?",
+    "practice_tags": ["phone_skills", "describing", "vocabulary"]
+  },
+  {
+    "id": "conv_084",
+    "title": "Travel Insurance Claim",
+    "category": "Travel",
+    "level": "B2",
+    "emotional_stakes": "Your luggage was lost during your international flight and you need to file a claim.",
+    "ai_opening": "Thank you for contacting TravelGuard Insurance. I understand your luggage was lost. I'll need to gather some details to process your claim. Can you start by telling me what happened?",
+    "suggested_vocab": ["claim", "compensation", "documentation", "itemize"],
+    "learning_goal": "Practice formal complaint procedures and detailed descriptions",
+    "rescue_hint": "You could say: I arrived at... and my luggage was not on the carousel...",
+    "practice_tags": ["formal_language", "past_tense", "vocabulary"]
+  },
+  {
+    "id": "conv_085",
+    "title": "Startup Pitch",
+    "category": "Business English",
+    "level": "C1",
+    "emotional_stakes": "You're pitching your startup idea to potential investors.",
+    "ai_opening": "You have five minutes to convince us. We've seen hundreds of pitches this month. What makes your company different? And more importantly, why should we invest now?",
+    "suggested_vocab": ["scalable", "valuation", "traction", "disruption"],
+    "learning_goal": "Practice persuasive pitching and responding to tough investor questions",
+    "rescue_hint": "You could say: Our company solves... The market opportunity is...",
+    "practice_tags": ["persuasion", "formal_language", "presentations"]
+  },
+  {
+    "id": "conv_086",
+    "title": "Discussing Immigration Policy",
+    "category": "News & Opinions",
+    "level": "C1",
+    "emotional_stakes": "You're in a political science seminar discussing a controversial policy.",
+    "ai_opening": "This week's topic is immigration policy reform. There are arguments for more open borders and arguments for stricter controls. I'd like each of you to present a nuanced position. What's yours?",
+    "suggested_vocab": ["sovereignty", "humanitarian", "assimilation", "quota"],
+    "learning_goal": "Practice presenting balanced political arguments respectfully",
+    "rescue_hint": "You could say: This is a complex issue. On the one hand... Yet we must also consider...",
+    "practice_tags": ["opinions", "formal_language", "academic"]
+  },
+  {
+    "id": "conv_087",
+    "title": "Museum Tour Guide",
+    "category": "Culture",
+    "level": "B1",
+    "emotional_stakes": "You're on a museum tour and the guide is asking visitors to participate.",
+    "ai_opening": "We're now in the Ancient Egypt section. This statue is over 3,000 years old! What do you find most fascinating about ancient civilizations? Anyone want to share their thoughts?",
+    "suggested_vocab": ["ancient", "artifact", "civilization", "fascinating"],
+    "learning_goal": "Practice asking questions and expressing interest about historical topics",
+    "rescue_hint": "You could say: I find it amazing that... Can you tell us more about...?",
+    "practice_tags": ["asking_questions", "vocabulary", "culture"]
+  },
+  {
+    "id": "conv_088",
+    "title": "Babysitting Instructions",
+    "category": "Daily Life",
+    "level": "B1",
+    "emotional_stakes": "You're babysitting your neighbor's kids and the parents are leaving instructions.",
+    "ai_opening": "Thank you so much for doing this! Okay, so bedtime is at 8 PM. They've already eaten dinner. If Emma gets scared, she likes her teddy bear. Any questions before we go?",
+    "suggested_vocab": ["bedtime", "allergies", "emergency contact", "routine"],
+    "learning_goal": "Practice understanding instructions and asking clarifying questions",
+    "rescue_hint": "You could ask: What should I do if...? Is there anything they can't eat?",
+    "practice_tags": ["asking_questions", "conditionals", "vocabulary"]
+  },
+  {
+    "id": "conv_089",
+    "title": "Fitness Class",
+    "category": "Health",
+    "level": "A2",
+    "emotional_stakes": "You're joining a group fitness class for the first time.",
+    "ai_opening": "Welcome to Zumba class! Is this your first time? Don't worry, just follow along and have fun. We'll start with some warm-up exercises. Ready?",
+    "suggested_vocab": ["stretch", "warm up", "repeat", "step"],
+    "learning_goal": "Practice understanding physical instructions and body vocabulary",
+    "rescue_hint": "You could say: Can you show me again? Which arm do I...?",
+    "practice_tags": ["imperatives", "asking_questions", "health"]
+  },
+  {
+    "id": "conv_090",
+    "title": "Opening a Small Business",
+    "category": "Business English",
+    "level": "B2",
+    "emotional_stakes": "You're meeting with a business advisor about starting your own bakery.",
+    "ai_opening": "So you want to open a bakery! That's exciting. Let's talk about your business plan. Have you thought about your target market, location, and initial investment?",
+    "suggested_vocab": ["business plan", "target market", "overhead", "profit margin"],
+    "learning_goal": "Practice discussing business concepts and asking strategic questions",
+    "rescue_hint": "You could say: I've been thinking about... My plan is to...",
+    "practice_tags": ["vocabulary", "formal_language", "presentations"]
+  },
+  {
+    "id": "conv_091",
+    "title": "Talking About Dreams",
+    "category": "Social",
+    "level": "A2",
+    "emotional_stakes": "Late-night conversation with friends about your dreams and aspirations.",
+    "ai_opening": "If you could do anything in the world - no limits, no worries about money - what would you do? What's your biggest dream?",
+    "suggested_vocab": ["dream", "wish", "someday", "imagine"],
+    "learning_goal": "Practice using conditionals and talking about future aspirations",
+    "rescue_hint": "You could say: If I could... I would... My dream is to...",
+    "practice_tags": ["conditionals", "future_tense", "vocabulary"]
+  },
+  {
+    "id": "conv_092",
+    "title": "Emergency Room Visit",
+    "category": "Emergency",
+    "level": "B2",
+    "emotional_stakes": "You slipped and hurt your ankle badly. You're at the ER in pain.",
+    "ai_opening": "I can see you're in pain. I'm Dr. Patel. Can you tell me exactly what happened and where it hurts? On a scale of 1 to 10, how bad is the pain?",
+    "suggested_vocab": ["swollen", "X-ray", "fracture", "painkillers"],
+    "learning_goal": "Practice describing injuries in detail and understanding medical procedures",
+    "rescue_hint": "You could say: I fell and landed on my... The pain is about a...",
+    "practice_tags": ["describing", "vocabulary", "health"]
+  },
+  {
+    "id": "conv_093",
+    "title": "Podcast Interview",
+    "category": "Entertainment",
+    "level": "B2",
+    "emotional_stakes": "You've been invited as a guest on a popular podcast about your expertise.",
+    "ai_opening": "Welcome to the show! Our listeners are really excited to hear from you. Let's start simple - tell us your story. How did you end up doing what you do?",
+    "suggested_vocab": ["passionate about", "turning point", "perspective", "journey"],
+    "learning_goal": "Practice extended narration and engaging storytelling",
+    "rescue_hint": "You could say: Well, it all started when... The turning point was...",
+    "practice_tags": ["storytelling", "past_tense", "vocabulary"]
+  },
+  {
+    "id": "conv_094",
+    "title": "Cooking Class Abroad",
+    "category": "Culture",
+    "level": "B1",
+    "emotional_stakes": "You're taking a cooking class while traveling to learn local cuisine.",
+    "ai_opening": "Welcome to our Thai cooking class! Today we'll make pad thai and green curry. First, let's talk about the ingredients. Have you ever cooked Thai food before?",
+    "suggested_vocab": ["ingredient", "spicy", "stir-fry", "authentic"],
+    "learning_goal": "Practice following complex instructions and talking about food preparation",
+    "rescue_hint": "You could say: I've never tried... What does this ingredient do?",
+    "practice_tags": ["imperatives", "food", "culture"]
+  },
+  {
+    "id": "conv_095",
+    "title": "Online Meeting Etiquette",
+    "category": "Work",
+    "level": "B1",
+    "emotional_stakes": "You're joining a video conference with international colleagues for the first time.",
+    "ai_opening": "Hi everyone! Let me introduce our new team member who's joining us from the overseas office. Would you like to say a few words about yourself and your role?",
+    "suggested_vocab": ["mute", "share screen", "agenda", "follow up"],
+    "learning_goal": "Practice professional self-introduction and meeting participation",
+    "rescue_hint": "You could say: Thank you for the introduction. I'm... and I'll be working on...",
+    "practice_tags": ["formal_language", "self_introduction", "technology"]
+  },
+  {
+    "id": "conv_096",
+    "title": "Climate Change Debate",
+    "category": "News & Opinions",
+    "level": "B2",
+    "emotional_stakes": "A heated classroom debate about whose responsibility it is to fix climate change.",
+    "ai_opening": "Last week we said individuals should change their habits. But is that fair when just 100 companies are responsible for 71% of global emissions? Should the burden really be on ordinary people?",
+    "suggested_vocab": ["emissions", "accountability", "systemic", "consumer"],
+    "learning_goal": "Practice counter-arguments and supporting claims with data",
+    "rescue_hint": "You could say: While it's true that... we can't ignore the fact that...",
+    "practice_tags": ["opinions", "connectors", "vocabulary"]
+  },
+  {
+    "id": "conv_097",
+    "title": "Teaching Someone Your Language",
+    "category": "Education",
+    "level": "A2",
+    "emotional_stakes": "Your English-speaking friend wants to learn basic words in your language.",
+    "ai_opening": "I've always wanted to learn some words in your language! Can you teach me how to say hello, thank you, and maybe order food? I promise I'll try my best!",
+    "suggested_vocab": ["pronunciation", "means", "repeat", "translate"],
+    "learning_goal": "Practice explaining and teaching using simple English",
+    "rescue_hint": "You could say: In my language, we say... It means... Try to say...",
+    "practice_tags": ["vocabulary", "imperatives", "education"]
+  },
+  {
+    "id": "conv_098",
+    "title": "Dealing with Jet Lag",
+    "category": "Travel",
+    "level": "B1",
+    "emotional_stakes": "You just arrived after a long flight and can barely keep your eyes open at noon.",
+    "ai_opening": "You look exhausted! Long flight? I remember my first time crossing time zones - it took me a week to feel normal again. How are you coping with the jet lag?",
+    "suggested_vocab": ["jet lag", "time zone", "adjust", "exhausted"],
+    "learning_goal": "Practice describing physical states and discussing coping strategies",
+    "rescue_hint": "You could say: I feel so... I can't seem to... Do you have any tips for...?",
+    "practice_tags": ["describing", "advice", "travel"]
+  },
+  {
+    "id": "conv_099",
+    "title": "Smart Home Setup",
+    "category": "Technology",
+    "level": "B2",
+    "emotional_stakes": "You just bought smart home devices and need help setting them up.",
+    "ai_opening": "Welcome to SmartHome support! I see you purchased our starter kit. Have you connected the hub to your Wi-Fi yet? Let's walk through the setup step by step.",
+    "suggested_vocab": ["compatible", "firmware", "configure", "voice command"],
+    "learning_goal": "Practice following technical instructions and troubleshooting",
+    "rescue_hint": "You could say: I'm stuck on... It says... What should I do next?",
+    "practice_tags": ["technology", "asking_questions", "vocabulary"]
+  },
+  {
+    "id": "conv_100",
+    "title": "Retirement Planning Chat",
+    "category": "Daily Life",
+    "level": "C1",
+    "emotional_stakes": "You're meeting with a financial advisor to plan for your future.",
+    "ai_opening": "Thank you for coming in. Let's discuss your retirement goals. Have you given thought to when you'd like to retire, and what lifestyle you envision? We should also review your current investment portfolio.",
+    "suggested_vocab": ["portfolio", "compound interest", "diversify", "pension"],
+    "learning_goal": "Practice discussing complex financial topics with precision",
+    "rescue_hint": "You could say: I'd like to retire by... My current savings are...",
+    "practice_tags": ["formal_language", "vocabulary", "numbers"]
+  },
+  {
+    "id": "conv_101",
+    "title": "Garage Sale",
+    "category": "Shopping",
+    "level": "A2",
+    "emotional_stakes": "You're at a neighborhood garage sale and see some things you like.",
+    "ai_opening": "Hey, take a look around! Everything must go! That lamp you're looking at is only five dollars. See anything you like?",
+    "suggested_vocab": ["bargain", "price", "secondhand", "worth"],
+    "learning_goal": "Practice negotiating prices and describing objects",
+    "rescue_hint": "You could say: How much for this...? Would you take...?",
+    "practice_tags": ["numbers", "asking_questions", "shopping"]
+  },
+  {
+    "id": "conv_102",
+    "title": "Escape Room Challenge",
+    "category": "Entertainment",
+    "level": "B1",
+    "emotional_stakes": "You're in an escape room with a friend and you have 30 minutes left!",
+    "ai_opening": "Okay, we've solved two puzzles but there are still three more! Look, there's a code on this wall and a locked box over there. What do you think we should try next?",
+    "suggested_vocab": ["clue", "puzzle", "figure out", "combination"],
+    "learning_goal": "Practice making suggestions, problem-solving, and expressing urgency",
+    "rescue_hint": "You could say: Let's try... What if we... Maybe this goes with...",
+    "practice_tags": ["suggestions", "imperatives", "vocabulary"]
+  },
+  {
+    "id": "conv_103",
+    "title": "Charity Fundraiser Speech",
+    "category": "Social",
+    "level": "C1",
+    "emotional_stakes": "You're giving a speech at a charity gala to inspire donations.",
+    "ai_opening": "Ladies and gentlemen, our next speaker has been working tirelessly with communities in need. Please welcome our guest. The stage is yours.",
+    "suggested_vocab": ["philanthropy", "impact", "allocate", "grassroots"],
+    "learning_goal": "Practice delivering persuasive speeches and using emotive language",
+    "rescue_hint": "You could say: Thank you. Tonight, I want to share a story that...",
+    "practice_tags": ["presentations", "persuasion", "formal_language"]
+  },
+  {
+    "id": "conv_104",
+    "title": "Lost and Found",
+    "category": "Emergency",
+    "level": "A2",
+    "emotional_stakes": "You left your bag on the train and are at the lost and found office.",
+    "ai_opening": "Hello, this is the lost and found office. Did you lose something? Can you describe it for me?",
+    "suggested_vocab": ["describe", "belongings", "left behind", "recognize"],
+    "learning_goal": "Practice describing objects and personal belongings in detail",
+    "rescue_hint": "You could say: I lost my... It's a... with...",
+    "practice_tags": ["describing", "adjectives", "vocabulary"]
+  },
+  {
+    "id": "conv_105",
+    "title": "Science Fair Project",
+    "category": "Education",
+    "level": "B1",
+    "emotional_stakes": "You're presenting your science project to judges at the school fair.",
+    "ai_opening": "Interesting project! Can you walk me through your hypothesis and explain what your experiment showed? I'd love to understand your results.",
+    "suggested_vocab": ["hypothesis", "experiment", "result", "conclude"],
+    "learning_goal": "Practice explaining processes and presenting findings clearly",
+    "rescue_hint": "You could say: My project is about... I predicted that... The results showed...",
+    "practice_tags": ["formal_language", "describing", "education"]
+  },
+  {
+    "id": "conv_106",
+    "title": "Adopting a Pet",
+    "category": "Daily Life",
+    "level": "B1",
+    "emotional_stakes": "You're at an animal shelter ready to adopt your first pet.",
+    "ai_opening": "Welcome! We have many wonderful animals looking for their forever homes. Are you looking for a cat or a dog? Do you live in a house or an apartment? That helps us match you with the right pet.",
+    "suggested_vocab": ["adopt", "vaccinated", "temperament", "companion"],
+    "learning_goal": "Practice asking detailed questions and discussing preferences and requirements",
+    "rescue_hint": "You could say: I live in... I'm looking for a... that is...",
+    "practice_tags": ["asking_questions", "describing", "vocabulary"]
+  },
+  {
+    "id": "conv_107",
+    "title": "First Day at University",
+    "category": "Education",
+    "level": "A2",
+    "emotional_stakes": "It's your first day at a foreign university and you're trying to find your classroom.",
+    "ai_opening": "Hey, you look a bit confused! Are you a new student too? I'm trying to find the lecture hall for Introduction to Psychology. Are you in that class?",
+    "suggested_vocab": ["lecture", "campus", "major", "semester"],
+    "learning_goal": "Practice asking for help on campus and making new connections",
+    "rescue_hint": "You could say: Yes, I'm new here! I'm looking for... Do you know where...?",
+    "practice_tags": ["asking_questions", "introductions", "education"]
+  },
+  {
+    "id": "conv_108",
+    "title": "Photography Walk",
+    "category": "Entertainment",
+    "level": "B1",
+    "emotional_stakes": "You joined a photography walking tour and the instructor is teaching techniques.",
+    "ai_opening": "Look at that light coming through the trees! This is the perfect moment for a photo. What angle would you shoot this from? Have you tried adjusting your aperture?",
+    "suggested_vocab": ["composition", "exposure", "landscape", "capture"],
+    "learning_goal": "Practice understanding technical instructions and describing visual scenes",
+    "rescue_hint": "You could say: I think I would take the photo from... How do I adjust the...?",
+    "practice_tags": ["vocabulary", "describing", "asking_questions"]
+  },
+  {
+    "id": "conv_109",
+    "title": "Meditation and Mindfulness",
+    "category": "Health",
+    "level": "B2",
+    "emotional_stakes": "You're trying a guided meditation class to manage stress.",
+    "ai_opening": "Welcome to our mindfulness session. Before we begin, I'd like to know - have you practiced meditation before? What brought you here today?",
+    "suggested_vocab": ["mindful", "breathe", "awareness", "inner peace"],
+    "learning_goal": "Practice describing inner states and discussing wellness practices",
+    "rescue_hint": "You could say: I've been feeling... I want to learn how to...",
+    "practice_tags": ["feelings", "vocabulary", "health"]
+  },
+  {
+    "id": "conv_110",
+    "title": "International Food Festival",
+    "category": "Culture",
+    "level": "A2",
+    "emotional_stakes": "You're at a food festival trying dishes from around the world.",
+    "ai_opening": "Welcome to the World Food Festival! We have over 30 cuisines here today. Would you like to try something? This booth has amazing Japanese ramen. Have you ever tried it?",
+    "suggested_vocab": ["cuisine", "spicy", "traditional", "taste"],
+    "learning_goal": "Practice talking about food preferences and cultural dishes",
+    "rescue_hint": "You could say: I'd love to try... In my country, we eat...",
+    "practice_tags": ["vocabulary", "food", "culture"]
   }
 ]

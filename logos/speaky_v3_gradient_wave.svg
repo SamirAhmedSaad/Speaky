@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA"/>
+      <stop offset="100%" style="stop-color:#764BA2"/>
+    </linearGradient>
+  </defs>
+  <!-- Gradient background -->
+  <rect width="512" height="512" rx="112" ry="112" fill="url(#g3)"/>
+  <!-- Sound wave curves behind text -->
+  <path d="M80,256 Q130,180 180,256 Q230,332 280,256 Q330,180 380,256 Q430,332 470,256" stroke="white" stroke-width="40" fill="none" opacity="0.08" stroke-linecap="round"/>
+  <path d="M60,290 Q120,220 180,290 Q240,360 300,290 Q360,220 420,290 Q450,330 470,290" stroke="white" stroke-width="25" fill="none" opacity="0.06" stroke-linecap="round"/>
+  <!-- Main text with shadow -->
+  <text x="258" y="252" font-family="Arial Black, Impact, sans-serif" font-weight="900" font-size="96" fill="black" text-anchor="middle" dominant-baseline="middle" opacity="0.15" letter-spacing="-1">Speaky</text>
+  <text x="256" y="248" font-family="Arial Black, Impact, sans-serif" font-weight="900" font-size="96" fill="white" text-anchor="middle" dominant-baseline="middle" letter-spacing="-1">Speaky</text>
+  <!-- Dot on the y -->
+  <circle cx="410" cy="178" r="12" fill="#FFD93D"/>
+</svg>

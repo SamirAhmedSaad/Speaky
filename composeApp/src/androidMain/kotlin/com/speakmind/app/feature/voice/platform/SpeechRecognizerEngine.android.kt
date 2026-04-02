@@ -15,6 +15,7 @@ import org.koin.core.component.inject
 actual class SpeechRecognizerEngine actual constructor() : KoinComponent {
 
     private val context: Context by inject()
+    private val micPermissionRequester: MicPermissionRequester by inject()
     private var recognizer: AndroidSpeechRecognizer? = null
 
     private val _results = MutableStateFlow<SpeechResult>(SpeechResult.Idle)
@@ -29,12 +30,23 @@ actual class SpeechRecognizerEngine actual constructor() : KoinComponent {
 
     actual fun startListening(language: String) {
         if (_isListening.value) return
+        // Mark eagerly to block any concurrent start call
+        _isListening.value = true
 
-        recognizer?.destroy()
+        if (!micPermissionRequester.requestIfNeeded(context)) {
+            _isListening.value = false
+            _results.value = SpeechResult.Error("Microphone permission required")
+            return
+        }
+
+        // Null out before destroy so any in-flight callback skips emitting on a dead recognizer
+        val old = recognizer
+        recognizer = null
+        old?.destroy()
+
         recognizer = AndroidSpeechRecognizer.createSpeechRecognizer(context).apply {
             setRecognitionListener(object : RecognitionListener {
                 override fun onReadyForSpeech(params: Bundle?) {
-                    _isListening.value = true
                     _results.value = SpeechResult.Idle
                 }
 
@@ -59,6 +71,7 @@ actual class SpeechRecognizerEngine actual constructor() : KoinComponent {
                 }
 
                 override fun onResults(results: Bundle?) {
+                    _isListening.value = false
                     val matches = results?.getStringArrayList(AndroidSpeechRecognizer.RESULTS_RECOGNITION)
                     val scores = results?.getFloatArray(AndroidSpeechRecognizer.CONFIDENCE_SCORES)
                     if (!matches.isNullOrEmpty()) {
@@ -66,8 +79,10 @@ actual class SpeechRecognizerEngine actual constructor() : KoinComponent {
                             text = matches[0],
                             confidence = scores?.firstOrNull() ?: 1f
                         )
+                    } else {
+                        // Empty result — treat like no-match so the ViewModel can react
+                        _results.value = SpeechResult.Error("No speech recognized")
                     }
-                    _isListening.value = false
                 }
 
                 override fun onPartialResults(partialResults: Bundle?) {
@@ -86,12 +101,17 @@ actual class SpeechRecognizerEngine actual constructor() : KoinComponent {
             putExtra(RecognizerIntent.EXTRA_LANGUAGE, language)
             putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
             putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1)
+            // Extend silence thresholds so recording doesn't cut off during natural pauses
+            putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, 2500L)
+            putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_POSSIBLY_COMPLETE_SILENCE_LENGTH_MILLIS, 2500L)
+            putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS, 15000L)
         }
 
         recognizer?.startListening(intent)
     }
 
     actual fun stopListening() {
+        // Use stopListening (not cancel/destroy) so Android still fires onResults with what it heard
         recognizer?.stopListening()
         _isListening.value = false
     }

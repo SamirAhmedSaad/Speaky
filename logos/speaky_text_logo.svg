@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C3AE0"/>
+      <stop offset="100%" style="stop-color:#9333EA"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="110" ry="110" fill="url(#bg)"/>
+  <!-- Speech bubble behind text -->
+  <rect x="56" y="156" width="400" height="200" rx="50" ry="50" fill="white" opacity="0.15"/>
+  <polygon points="140,340 180,356 110,410" fill="white" opacity="0.15"/>
+  <!-- Speaky text -->
+  <text x="256" y="280" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="100" fill="white" text-anchor="middle" dominant-baseline="middle" letter-spacing="-2">Speaky</text>
+</svg>

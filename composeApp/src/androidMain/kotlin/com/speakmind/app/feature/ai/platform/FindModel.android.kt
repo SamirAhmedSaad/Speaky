@@ -12,6 +12,8 @@ actual fun findModelFile(): String? {
 
     val modelNames = listOf(
         "model.gguf",
+        "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+        "gemma-3-1b-it-Q4_K_M.gguf",
         "llama.gguf",
         "llama-3.2-3b-q4_k_m.gguf",
         "Llama-3.2-3B-Instruct-Q4_K_M.gguf",

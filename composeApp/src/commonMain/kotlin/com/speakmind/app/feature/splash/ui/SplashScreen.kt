@@ -4,8 +4,6 @@ import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
@@ -15,33 +13,33 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import network.chaintech.sdpcomposemultiplatform.sdp
+import network.chaintech.sdpcomposemultiplatform.ssp
 import androidx.navigation.NavGraphBuilder
 import com.speakmind.app.navigation.SplashDestination
 import com.speakmind.app.ui.components.animatedComposable
-import com.speakmind.app.ui.theme.SpeakMindColors
+import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
+import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin
 import kotlin.random.Random
 
 fun NavGraphBuilder.splashScreen() {
     animatedComposable<SplashDestination> {
-        val viewModel = koinViewModel<SplashViewModel>()
-        val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-        SplashScreenContent(uiState = uiState, onRetry = viewModel::retryDownload)
+        koinViewModel<SplashViewModel>()
+        SplashScreenContent()
     }
 }
 
 @Composable
-private fun SplashScreenContent(
-    uiState: SplashUiState,
-    onRetry: () -> Unit,
-) {
+private fun SplashScreenContent() {
+    val colors = LocalSpeakMindColors.current
     val infiniteTransition = rememberInfiniteTransition()
     val pulseAlpha by infiniteTransition.animateFloat(
         initialValue = 0.4f,
@@ -66,9 +64,9 @@ private fun SplashScreenContent(
             .background(
                 Brush.verticalGradient(
                     colors = listOf(
-                        SpeakMindColors.backgroundDark,
-                        SpeakMindColors.backgroundMid,
-                        SpeakMindColors.backgroundDark
+                        colors.backgroundDark,
+                        colors.backgroundMid,
+                        colors.backgroundDark
                     )
                 )
             ),
@@ -80,99 +78,93 @@ private fun SplashScreenContent(
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-            modifier = Modifier.padding(32.dp)
+            modifier = Modifier.padding(32.sdp)
         ) {
-            // Glowing logo circle
+            // Logo: Sound wave lines + cyan dot
             Box(
                 contentAlignment = Alignment.Center,
-                modifier = Modifier.size(140.dp)
+                modifier = Modifier.size(150.sdp)
             ) {
-                Canvas(modifier = Modifier.size((140 * glowScale).dp)) {
+                // Glow layer
+                Canvas(modifier = Modifier.size((150 * glowScale).sdp)) {
                     drawCircle(
                         brush = Brush.radialGradient(
                             colors = listOf(
-                                SpeakMindColors.neonCyan.copy(alpha = 0.3f * pulseAlpha),
+                                colors.neonCyan.copy(alpha = 0.2f * pulseAlpha),
                                 Color.Transparent
                             )
                         ),
                         radius = size.minDimension / 2
                     )
                 }
-                Canvas(modifier = Modifier.size(100.dp)) {
+                // Sound wave lines
+                Canvas(modifier = Modifier.size(120.sdp)) {
+                    val w = size.width
+                    val h = size.height
+
+                    // Wave 1
+                    val wave1 = Path().apply {
+                        moveTo(0f, h * 0.5f)
+                        for (i in 0..100) {
+                            val x = w * i / 100f
+                            val y = h * 0.5f + h * 0.15f * sin(2.5f * Math.PI.toFloat() * i / 100f)
+                            lineTo(x, y)
+                        }
+                    }
+                    drawPath(wave1, colors.neonCyan.copy(alpha = 0.4f * pulseAlpha),
+                        style = androidx.compose.ui.graphics.drawscope.Stroke(width = w * 0.06f,
+                            cap = androidx.compose.ui.graphics.StrokeCap.Round))
+
+                    // Wave 2
+                    val wave2 = Path().apply {
+                        moveTo(0f, h * 0.56f)
+                        for (i in 0..100) {
+                            val x = w * i / 100f
+                            val y = h * 0.56f + h * 0.12f * sin(2.8f * Math.PI.toFloat() * i / 100f + 1f)
+                            lineTo(x, y)
+                        }
+                    }
+                    drawPath(wave2, colors.neonCyanDark.copy(alpha = 0.3f * pulseAlpha),
+                        style = androidx.compose.ui.graphics.drawscope.Stroke(width = w * 0.04f,
+                            cap = androidx.compose.ui.graphics.StrokeCap.Round))
+
+                    // Cyan dot accent
                     drawCircle(
-                        brush = Brush.radialGradient(
-                            colors = listOf(
-                                SpeakMindColors.neonCyan.copy(alpha = 0.8f),
-                                SpeakMindColors.neonCyanDark.copy(alpha = 0.4f),
-                            )
-                        ),
-                        radius = size.minDimension / 2
+                        color = colors.neonCyan,
+                        radius = w * 0.035f,
+                        center = Offset(w * 0.82f, h * 0.3f)
                     )
                 }
-                Text(
-                    text = "S",
-                    style = MaterialTheme.typography.displayLarge.copy(
-                        fontSize = 48.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = SpeakMindColors.backgroundDark
-                    )
-                )
             }
 
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(modifier = Modifier.height(32.sdp))
 
             Text(
-                text = "SpeakMind",
+                text = "Speaky",
                 style = MaterialTheme.typography.headlineLarge.copy(
-                    color = SpeakMindColors.textPrimary,
+                    color = colors.textPrimary,
                     fontWeight = FontWeight.Bold,
-                    fontSize = 36.sp
+                    fontSize = 36.ssp
                 )
             )
 
-            Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(8.sdp))
 
             Text(
                 text = "Your AI English Tutor",
                 style = MaterialTheme.typography.bodyLarge.copy(
-                    color = SpeakMindColors.neonCyan.copy(alpha = 0.8f)
+                    color = colors.neonCyan.copy(alpha = 0.8f)
                 )
             )
 
-            Spacer(modifier = Modifier.height(48.dp))
-
-            if (uiState.isDownloading) {
-                LinearProgressIndicator(
-                    progress = { uiState.downloadProgress },
-                    modifier = Modifier
-                        .fillMaxWidth(0.7f)
-                        .height(4.dp),
-                    color = SpeakMindColors.neonCyan,
-                    trackColor = SpeakMindColors.surfaceVariant,
-                )
-                Spacer(modifier = Modifier.height(16.dp))
-            } else if (!uiState.isModelReady && !uiState.isError) {
-                CircularProgressIndicator(
-                    modifier = Modifier.size(32.dp),
-                    color = SpeakMindColors.neonCyan,
-                    strokeWidth = 3.dp
-                )
-                Spacer(modifier = Modifier.height(16.dp))
-            }
-
-            Text(
-                text = uiState.statusText,
-                style = MaterialTheme.typography.bodyMedium.copy(
-                    color = SpeakMindColors.textSecondary
-                ),
-                textAlign = TextAlign.Center
-            )
         }
+
     }
 }
 
 @Composable
 private fun ParticleBackground() {
+    val colors = LocalSpeakMindColors.current
     val particles = remember {
         List(30) {
             Particle(
@@ -200,7 +192,7 @@ private fun ParticleBackground() {
             val offsetX = cos(time * particle.speed * 10) * 50f
             val offsetY = sin(time * particle.speed * 10) * 50f
             drawCircle(
-                color = SpeakMindColors.neonCyan.copy(alpha = particle.alpha),
+                color = colors.neonCyan.copy(alpha = particle.alpha),
                 radius = particle.radius.dp.toPx(),
                 center = Offset(
                     x = particle.x * size.width + offsetX,
@@ -209,6 +201,42 @@ private fun ParticleBackground() {
             )
         }
     }
+}
+
+private fun buildCrescentPath(
+    cx: Float, cy: Float,
+    outerRx: Float, innerRx: Float, ry: Float,
+    goRight: Boolean
+): Path {
+    return Path().apply {
+        val outerRect = Rect(cx - outerRx, cy - ry, cx + outerRx, cy + ry)
+        val innerRect = Rect(cx - innerRx, cy - ry, cx + innerRx, cy + ry)
+        if (goRight) {
+            // Top-right crescent: arcs bulge to the right
+            arcTo(outerRect, 270f, 180f, false)
+            arcTo(innerRect, 90f, -180f, false)
+        } else {
+            // Bottom-left crescent: arcs bulge to the left
+            arcTo(outerRect, 270f, -180f, false)
+            arcTo(innerRect, 90f, 180f, false)
+        }
+        close()
+    }
+}
+
+private fun DrawScope.drawSparkle(center: Offset, sparkleSize: Float, color: Color, alpha: Float) {
+    val path = Path().apply {
+        moveTo(center.x, center.y - sparkleSize)
+        lineTo(center.x + sparkleSize * 0.28f, center.y - sparkleSize * 0.28f)
+        lineTo(center.x + sparkleSize, center.y)
+        lineTo(center.x + sparkleSize * 0.28f, center.y + sparkleSize * 0.28f)
+        lineTo(center.x, center.y + sparkleSize)
+        lineTo(center.x - sparkleSize * 0.28f, center.y + sparkleSize * 0.28f)
+        lineTo(center.x - sparkleSize, center.y)
+        lineTo(center.x - sparkleSize * 0.28f, center.y - sparkleSize * 0.28f)
+        close()
+    }
+    drawPath(path, color.copy(alpha = alpha))
 }
 
 private data class Particle(

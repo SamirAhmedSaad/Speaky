@@ -1,4 +1,4 @@
-rootProject.name = "SpeakMind"
+rootProject.name = "Speaky"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

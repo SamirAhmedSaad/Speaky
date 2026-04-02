@@ -1,11 +1,11 @@
 package com.speakmind.app.feature.learning.domain
 
-import com.speakmind.app.db.SpeakMindDatabase
+import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.ai.domain.DifficultyEvaluator
 import com.speakmind.app.feature.ai.domain.model.CefrLevel
 import com.speakmind.app.feature.chat.domain.model.ChatMessage
 
-class AdaptiveDifficultyManager(private val database: SpeakMindDatabase) {
+class AdaptiveDifficultyManager(private val database: SpeakyDatabase) {
 
     private var consecutiveEasyConversations = 0
     private var consecutiveHardConversations = 0

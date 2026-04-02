@@ -4,21 +4,25 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.luminance
+import com.speakmind.app.feature.home.domain.model.getLevelColor
+import com.speakmind.app.feature.home.domain.model.getLevelColorLight
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
+import network.chaintech.sdpcomposemultiplatform.ssp
 import org.jetbrains.compose.resources.Font
-import speakmind.composeapp.generated.resources.Res
-import speakmind.composeapp.generated.resources.roboto_bold
-import speakmind.composeapp.generated.resources.roboto_medium
-import speakmind.composeapp.generated.resources.roboto_regular
+import speaky.composeapp.generated.resources.Res
+import speaky.composeapp.generated.resources.roboto_bold
+import speaky.composeapp.generated.resources.roboto_medium
+import speaky.composeapp.generated.resources.roboto_regular
 
 // Fantasy Dark Color Palette
 object SpeakMindColors {
@@ -91,6 +95,62 @@ object SpeakMindColors {
     )
 }
 
+// Light Color Palette
+object SpeakMindLightColors {
+    val backgroundDark = Color(0xFFF4F2FF)   // subtle lavender white
+    val backgroundMid = Color(0xFFEAE6FF)    // slightly deeper lavender
+    val surface = Color(0xFFFFFFFF)           // pure white
+    val surfaceVariant = Color(0xFFDDD6F3)    // visible but soft lavender card bg
+    val cardSurface = Color(0xFFDDD6F3)
+
+    val neonCyan = Color(0xFF006D7A)          // deep teal — high contrast on white
+    val neonCyanDark = Color(0xFF005560)
+    val neonCyanLight = Color(0xFF4DD0E1)
+
+    val magenta = Color(0xFFC0185A)           // deepened rose/magenta
+    val magentaLight = Color(0xFFE84080)
+
+    val gold = Color(0xFF9A6800)              // dark amber
+    val goldLight = Color(0xFFC88A00)
+
+    val textPrimary = Color(0xFF1A1A2E)       // near-black with slight purple tint
+    val textSecondary = Color(0xFF4A4365)     // medium purple-gray
+    val textMuted = Color(0xFF726B90)         // softer muted text
+
+    val userBubbleStart = Color(0xFF006D7A)
+    val userBubbleEnd = Color(0xFF0097A7)
+    val aiBubbleStart = Color(0xFFDBD4F7)
+    val aiBubbleEnd = Color(0xFFC9BFF0)
+
+    val success = Color(0xFF2E7D32)
+    val successDark = Color(0xFF1B5E20)
+    val error = Color(0xFFB71C1C)             // darker red for better contrast
+    val errorDark = Color(0xFF7F0000)
+    val warning = Color(0xFF8D4E00)           // dark amber-brown for contrast
+
+    val backgroundGradient = Brush.verticalGradient(
+        colors = listOf(backgroundDark, backgroundMid)
+    )
+    val userBubbleGradient = Brush.horizontalGradient(
+        colors = listOf(userBubbleStart, userBubbleEnd)
+    )
+    val aiBubbleGradient = Brush.horizontalGradient(
+        colors = listOf(aiBubbleStart, aiBubbleEnd)
+    )
+    val cardGradient = Brush.verticalGradient(
+        colors = listOf(
+            surfaceVariant.copy(alpha = 0.8f),
+            surface.copy(alpha = 0.6f)
+        )
+    )
+    val glowCyan = Brush.radialGradient(
+        colors = listOf(
+            neonCyan.copy(alpha = 0.15f),
+            Color.Transparent
+        )
+    )
+}
+
 @Immutable
 data class SpeakMindThemeColors(
     val backgroundDark: Color = SpeakMindColors.backgroundDark,
@@ -98,6 +158,7 @@ data class SpeakMindThemeColors(
     val surface: Color = SpeakMindColors.surface,
     val surfaceVariant: Color = SpeakMindColors.surfaceVariant,
     val neonCyan: Color = SpeakMindColors.neonCyan,
+    val neonCyanDark: Color = SpeakMindColors.neonCyanDark,
     val magenta: Color = SpeakMindColors.magenta,
     val gold: Color = SpeakMindColors.gold,
     val textPrimary: Color = SpeakMindColors.textPrimary,
@@ -106,6 +167,11 @@ data class SpeakMindThemeColors(
     val success: Color = SpeakMindColors.success,
     val error: Color = SpeakMindColors.error,
     val warning: Color = SpeakMindColors.warning,
+    val backgroundGradient: Brush = SpeakMindColors.backgroundGradient,
+    val userBubbleGradient: Brush = SpeakMindColors.userBubbleGradient,
+    val aiBubbleGradient: Brush = SpeakMindColors.aiBubbleGradient,
+    val cardGradient: Brush = SpeakMindColors.cardGradient,
+    val glowCyan: Brush = SpeakMindColors.glowCyan,
 )
 
 val LocalSpeakMindColors = staticCompositionLocalOf { SpeakMindThemeColors() }
@@ -127,104 +193,178 @@ private val DarkColorScheme = darkColorScheme(
     onError = Color.White,
 )
 
+private val LightColorScheme = lightColorScheme(
+    primary = SpeakMindLightColors.neonCyan,
+    onPrimary = Color.White,
+    primaryContainer = SpeakMindLightColors.neonCyanLight,
+    secondary = SpeakMindLightColors.magenta,
+    onSecondary = Color.White,
+    tertiary = SpeakMindLightColors.gold,
+    background = SpeakMindLightColors.backgroundDark,
+    onBackground = SpeakMindLightColors.textPrimary,
+    surface = SpeakMindLightColors.surface,
+    onSurface = SpeakMindLightColors.textPrimary,
+    surfaceVariant = SpeakMindLightColors.surfaceVariant,
+    onSurfaceVariant = SpeakMindLightColors.textSecondary,
+    error = SpeakMindLightColors.error,
+    onError = Color.White,
+)
+
+private val DarkSpeakMindThemeColors = SpeakMindThemeColors(
+    backgroundDark = SpeakMindColors.backgroundDark,
+    backgroundMid = SpeakMindColors.backgroundMid,
+    surface = SpeakMindColors.surface,
+    surfaceVariant = SpeakMindColors.surfaceVariant,
+    neonCyan = SpeakMindColors.neonCyan,
+    neonCyanDark = SpeakMindColors.neonCyanDark,
+    magenta = SpeakMindColors.magenta,
+    gold = SpeakMindColors.gold,
+    textPrimary = SpeakMindColors.textPrimary,
+    textSecondary = SpeakMindColors.textSecondary,
+    textMuted = SpeakMindColors.textMuted,
+    success = SpeakMindColors.success,
+    error = SpeakMindColors.error,
+    warning = SpeakMindColors.warning,
+    backgroundGradient = SpeakMindColors.backgroundGradient,
+    userBubbleGradient = SpeakMindColors.userBubbleGradient,
+    aiBubbleGradient = SpeakMindColors.aiBubbleGradient,
+    cardGradient = SpeakMindColors.cardGradient,
+    glowCyan = SpeakMindColors.glowCyan,
+)
+
+private val LightSpeakMindThemeColors = SpeakMindThemeColors(
+    backgroundDark = SpeakMindLightColors.backgroundDark,
+    backgroundMid = SpeakMindLightColors.backgroundMid,
+    surface = SpeakMindLightColors.surface,
+    surfaceVariant = SpeakMindLightColors.surfaceVariant,
+    neonCyan = SpeakMindLightColors.neonCyan,
+    neonCyanDark = SpeakMindLightColors.neonCyanDark,
+    magenta = SpeakMindLightColors.magenta,
+    gold = SpeakMindLightColors.gold,
+    textPrimary = SpeakMindLightColors.textPrimary,
+    textSecondary = SpeakMindLightColors.textSecondary,
+    textMuted = SpeakMindLightColors.textMuted,
+    success = SpeakMindLightColors.success,
+    error = SpeakMindLightColors.error,
+    warning = SpeakMindLightColors.warning,
+    backgroundGradient = SpeakMindLightColors.backgroundGradient,
+    userBubbleGradient = SpeakMindLightColors.userBubbleGradient,
+    aiBubbleGradient = SpeakMindLightColors.aiBubbleGradient,
+    cardGradient = SpeakMindLightColors.cardGradient,
+    glowCyan = SpeakMindLightColors.glowCyan,
+)
+
 @Composable
-fun SpeakMindTheme(content: @Composable () -> Unit) {
+fun SpeakMindTheme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    content: @Composable () -> Unit,
+) {
     val fontFamily = FontFamily(
         Font(Res.font.roboto_regular, FontWeight.Normal),
         Font(Res.font.roboto_medium, FontWeight.Medium),
         Font(Res.font.roboto_bold, FontWeight.Bold),
     )
 
+    val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
+    val speakMindColors = if (darkTheme) DarkSpeakMindThemeColors else LightSpeakMindThemeColors
+
     val typography = Typography(
         displayLarge = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Bold,
-            fontSize = 32.sp,
-            lineHeight = 40.sp,
-            color = SpeakMindColors.textPrimary
+            fontSize = 32.ssp,
+            lineHeight = 40.ssp,
+            color = speakMindColors.textPrimary
         ),
         headlineLarge = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Bold,
-            fontSize = 28.sp,
-            lineHeight = 36.sp,
-            color = SpeakMindColors.textPrimary
+            fontSize = 28.ssp,
+            lineHeight = 36.ssp,
+            color = speakMindColors.textPrimary
         ),
         headlineMedium = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Bold,
-            fontSize = 24.sp,
-            lineHeight = 32.sp,
-            color = SpeakMindColors.textPrimary
+            fontSize = 24.ssp,
+            lineHeight = 32.ssp,
+            color = speakMindColors.textPrimary
         ),
         headlineSmall = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Medium,
-            fontSize = 20.sp,
-            lineHeight = 28.sp,
-            color = SpeakMindColors.textPrimary
+            fontSize = 20.ssp,
+            lineHeight = 28.ssp,
+            color = speakMindColors.textPrimary
         ),
         titleLarge = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Bold,
-            fontSize = 18.sp,
-            lineHeight = 24.sp,
+            fontSize = 18.ssp,
+            lineHeight = 24.ssp,
         ),
         titleMedium = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Medium,
-            fontSize = 16.sp,
-            lineHeight = 22.sp,
+            fontSize = 16.ssp,
+            lineHeight = 22.ssp,
         ),
         titleSmall = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Medium,
-            fontSize = 14.sp,
-            lineHeight = 20.sp,
+            fontSize = 14.ssp,
+            lineHeight = 20.ssp,
         ),
         bodyLarge = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Normal,
-            fontSize = 16.sp,
-            lineHeight = 24.sp,
+            fontSize = 16.ssp,
+            lineHeight = 24.ssp,
         ),
         bodyMedium = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Normal,
-            fontSize = 14.sp,
-            lineHeight = 20.sp,
+            fontSize = 14.ssp,
+            lineHeight = 20.ssp,
         ),
         bodySmall = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Normal,
-            fontSize = 12.sp,
-            lineHeight = 16.sp,
+            fontSize = 12.ssp,
+            lineHeight = 16.ssp,
         ),
         labelLarge = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Medium,
-            fontSize = 14.sp,
-            lineHeight = 20.sp,
+            fontSize = 14.ssp,
+            lineHeight = 20.ssp,
         ),
         labelMedium = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Medium,
-            fontSize = 12.sp,
-            lineHeight = 16.sp,
+            fontSize = 12.ssp,
+            lineHeight = 16.ssp,
         ),
         labelSmall = TextStyle(
             fontFamily = fontFamily,
             fontWeight = FontWeight.Medium,
-            fontSize = 10.sp,
-            lineHeight = 14.sp,
+            fontSize = 10.ssp,
+            lineHeight = 14.ssp,
         ),
     )
 
-    CompositionLocalProvider(LocalSpeakMindColors provides SpeakMindThemeColors()) {
+    CompositionLocalProvider(LocalSpeakMindColors provides speakMindColors) {
         MaterialTheme(
-            colorScheme = DarkColorScheme,
+            colorScheme = colorScheme,
             typography = typography,
             content = content
         )
     }
+}
+
+/** Returns the appropriate level badge color for the current theme. */
+@Composable
+fun levelColorOf(level: String): Color {
+    val isDark = MaterialTheme.colorScheme.background.luminance() < 0.5f
+    return if (isDark) Color(getLevelColor(level)) else Color(getLevelColorLight(level))
 }

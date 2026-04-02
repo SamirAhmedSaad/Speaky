@@ -5,5 +5,5 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val downloadModule = module {
-    viewModel { params -> ModelDownloadViewModel(params.getOrNull(), get(), get()) }
+    viewModel { params -> ModelDownloadViewModel(params.getOrNull(), get(), get(), get(), get()) }
 }

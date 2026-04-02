@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Solid purple background -->
+  <rect width="512" height="512" rx="112" ry="112" fill="#6C3AE0"/>
+  <!-- Large speech bubble shape -->
+  <path d="M96,140 Q96,100 136,100 L376,100 Q416,100 416,140 L416,300 Q416,340 376,340 L200,340 L140,410 L160,340 L136,340 Q96,340 96,300 Z" fill="white"/>
+  <!-- S -->
+  <text x="128" y="262" font-family="Arial Black, sans-serif" font-weight="900" font-size="78" fill="#6C3AE0">S</text>
+  <!-- p -->
+  <text x="186" y="262" font-family="Arial Black, sans-serif" font-weight="900" font-size="78" fill="#7C4AE8">p</text>
+  <!-- e -->
+  <text x="240" y="262" font-family="Arial Black, sans-serif" font-weight="900" font-size="78" fill="#8B5AF0">e</text>
+  <!-- a -->
+  <text x="290" y="262" font-family="Arial Black, sans-serif" font-weight="900" font-size="78" fill="#9B6AF8">a</text>
+  <!-- k -->
+  <text x="342" y="262" font-family="Arial Black, sans-serif" font-weight="900" font-size="78" fill="#AB7AFF">k</text>
+  <!-- y - accent color -->
+  <text x="388" y="262" font-family="Arial Black, sans-serif" font-weight="900" font-size="78" fill="#FF6B6B">y</text>
+</svg>

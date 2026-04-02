@@ -40,6 +40,10 @@
 -keep class androidx.compose.** { *; }
 -dontwarn androidx.compose.**
 
+# Keep Google Mobile Ads
+-keep class com.google.android.gms.ads.** { *; }
+-dontwarn com.google.android.gms.ads.**
+
 # Napier logging - strip debug logs in release
 -assumenosideeffects class io.github.aakira.napier.Napier {
     public static void d(...);

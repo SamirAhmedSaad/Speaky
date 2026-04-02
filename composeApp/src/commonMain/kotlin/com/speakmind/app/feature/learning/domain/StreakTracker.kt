@@ -1,12 +1,12 @@
 package com.speakmind.app.feature.learning.domain
 
-import com.speakmind.app.db.SpeakMindDatabase
+import com.speakmind.app.db.SpeakyDatabase
 import kotlinx.datetime.Clock
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.todayIn
 
-class StreakTracker(private val database: SpeakMindDatabase) {
+class StreakTracker(private val database: SpeakyDatabase) {
 
     fun updateStreak() {
         database.speakMindQueries.insertDefaultProgress()

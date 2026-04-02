@@ -5,5 +5,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val chatModule = module {
-    viewModel { params -> ChatViewModel(params.getOrNull(), get(), get(), get(), get()) }
+    viewModel { params ->
+        ChatViewModel(params.getOrNull(), get(), get(), get(), get(), get(), get(), get(), get())
+    }
 }

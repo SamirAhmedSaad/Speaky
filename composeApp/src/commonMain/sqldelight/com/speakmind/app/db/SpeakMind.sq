@@ -25,13 +25,17 @@ CREATE TABLE mistakes (
 
 CREATE TABLE progress (
     id INTEGER NOT NULL PRIMARY KEY DEFAULT 1,
+    user_name TEXT NOT NULL DEFAULT '',
+    ai_engine TEXT NOT NULL DEFAULT '',
     level TEXT NOT NULL DEFAULT 'A2',
     streak_days INTEGER NOT NULL DEFAULT 0,
     last_active_date TEXT NOT NULL DEFAULT '',
     total_vocab_learned INTEGER NOT NULL DEFAULT 0,
     shadowing_best_score REAL NOT NULL DEFAULT 0.0,
     total_conversations INTEGER NOT NULL DEFAULT 0,
-    total_minutes INTEGER NOT NULL DEFAULT 0
+    total_minutes INTEGER NOT NULL DEFAULT 0,
+    dark_mode INTEGER NOT NULL DEFAULT -1,
+    tts_speed REAL NOT NULL DEFAULT 1.0
 );
 
 CREATE TABLE conversations (
@@ -88,8 +92,23 @@ selectProgress:
 SELECT * FROM progress WHERE id = 1;
 
 insertDefaultProgress:
-INSERT OR IGNORE INTO progress (id, level, streak_days, last_active_date, total_vocab_learned, shadowing_best_score, total_conversations, total_minutes)
-VALUES (1, 'A2', 0, '', 0, 0.0, 0, 0);
+INSERT OR IGNORE INTO progress (id, user_name, ai_engine, level, streak_days, last_active_date, total_vocab_learned, shadowing_best_score, total_conversations, total_minutes, dark_mode, tts_speed)
+VALUES (1, '', '', 'A2', 0, '', 0, 0.0, 0, 0, -1, 1.0);
+
+updateUserName:
+UPDATE progress SET user_name = ? WHERE id = 1;
+
+updateAiEngine:
+UPDATE progress SET ai_engine = ? WHERE id = 1;
+
+migrateAiEngineValues:
+UPDATE progress
+SET ai_engine = CASE
+    WHEN ai_engine = 'device'      THEN 'gemini_api'
+    WHEN ai_engine = 'downloaded'  THEN 'local'
+    ELSE ai_engine
+END
+WHERE id = 1;
 
 updateProgress:
 UPDATE progress SET level = ?, streak_days = ?, last_active_date = ?, total_vocab_learned = ?, shadowing_best_score = ?, total_conversations = ?, total_minutes = ? WHERE id = 1;
@@ -100,15 +119,47 @@ UPDATE progress SET streak_days = ?, last_active_date = ? WHERE id = 1;
 updateLevel:
 UPDATE progress SET level = ? WHERE id = 1;
 
+updateDarkMode:
+UPDATE progress SET dark_mode = ? WHERE id = 1;
+
+updateTtsSpeed:
+UPDATE progress SET tts_speed = ? WHERE id = 1;
+
 incrementConversations:
 UPDATE progress SET total_conversations = total_conversations + 1, total_minutes = total_minutes + ? WHERE id = 1;
 
 incrementVocab:
 UPDATE progress SET total_vocab_learned = total_vocab_learned + 1 WHERE id = 1;
 
+CREATE TABLE daily_topics (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    date TEXT NOT NULL,
+    user_level TEXT NOT NULL,
+    scenario_id TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    UNIQUE(date, scenario_id)
+);
+
+-- Daily topic queries
+selectDailyTopics:
+SELECT scenario_id FROM daily_topics WHERE date = ? AND user_level = ? ORDER BY position ASC;
+
+insertDailyTopic:
+INSERT OR IGNORE INTO daily_topics (date, user_level, scenario_id, position)
+VALUES (?, ?, ?, ?);
+
+deleteDailyTopicsOlderThan:
+DELETE FROM daily_topics WHERE date < ?;
+
+countDailyTopics:
+SELECT COUNT(*) FROM daily_topics WHERE date = ? AND user_level = ?;
+
 -- Conversation queries
 selectRecentConversations:
 SELECT * FROM conversations ORDER BY date DESC LIMIT 20;
+
+selectRecentScenarioIds:
+SELECT DISTINCT scenario_id FROM conversations WHERE scenario_id IS NOT NULL ORDER BY date DESC LIMIT 30;
 
 insertConversation:
 INSERT INTO conversations (id, scenario_id, messages_json, date, duration_seconds, user_level)
@@ -116,3 +167,130 @@ VALUES (?, ?, ?, ?, ?, ?);
 
 selectConversation:
 SELECT * FROM conversations WHERE id = ?;
+
+-- Stories cache table
+CREATE TABLE stories (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL,
+    link TEXT NOT NULL UNIQUE,
+    level INTEGER NOT NULL,
+    category TEXT NOT NULL DEFAULT '',
+    pub_date TEXT NOT NULL DEFAULT '',
+    fetched_at INTEGER NOT NULL
+);
+
+-- Story queries
+selectStoriesByLevel:
+SELECT * FROM stories WHERE level = ? ORDER BY fetched_at DESC;
+
+selectAllStories:
+SELECT * FROM stories ORDER BY fetched_at DESC;
+
+insertStory:
+INSERT OR IGNORE INTO stories (title, content, link, level, category, pub_date, fetched_at)
+VALUES (?, ?, ?, ?, ?, ?, ?);
+
+deleteOldStories:
+DELETE FROM stories WHERE fetched_at < ?;
+
+countStoriesByLevel:
+SELECT COUNT(*) FROM stories WHERE level = ?;
+
+selectStoriesByCategory:
+SELECT * FROM stories WHERE category = ? ORDER BY fetched_at DESC;
+
+-- RSS daily topics table (from News in Levels)
+CREATE TABLE rss_topics (
+    id TEXT NOT NULL PRIMARY KEY,
+    title TEXT NOT NULL,
+    category TEXT NOT NULL,
+    level TEXT NOT NULL,
+    description TEXT NOT NULL,
+    ai_opening TEXT NOT NULL,
+    article_url TEXT NOT NULL,
+    image_url TEXT NOT NULL DEFAULT '',
+    fetched_date TEXT NOT NULL
+);
+
+-- RSS topic queries
+selectRssTopicById:
+SELECT * FROM rss_topics WHERE id = ?;
+
+selectRssTopicsByDate:
+SELECT * FROM rss_topics WHERE fetched_date = ? AND level = ? ORDER BY title ASC;
+
+insertRssTopic:
+INSERT OR REPLACE INTO rss_topics (id, title, category, level, description, ai_opening, article_url, image_url, fetched_date)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+deleteOldRssTopics:
+DELETE FROM rss_topics WHERE fetched_date < ?;
+
+-- Daily words table (notification-delivered vocabulary)
+CREATE TABLE daily_words (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    word TEXT NOT NULL,
+    level TEXT NOT NULL,
+    part_of_speech TEXT NOT NULL DEFAULT '',
+    meaning TEXT NOT NULL DEFAULT '',
+    sentences_json TEXT NOT NULL DEFAULT '[]',
+    sent_date TEXT NOT NULL,
+    is_read INTEGER NOT NULL DEFAULT 0,
+    created_at INTEGER NOT NULL
+);
+
+-- Daily word queries
+selectAllDailyWords:
+SELECT * FROM daily_words ORDER BY sent_date DESC;
+
+selectTodayWord:
+SELECT * FROM daily_words WHERE sent_date = ? LIMIT 1;
+
+selectRecentDailyWords:
+SELECT * FROM daily_words WHERE sent_date <= ? ORDER BY sent_date DESC LIMIT 30;
+
+insertDailyWord:
+INSERT INTO daily_words (word, level, part_of_speech, meaning, sentences_json, sent_date, is_read, created_at)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+
+selectAllSentWords:
+SELECT word FROM daily_words;
+
+markDailyWordRead:
+UPDATE daily_words SET is_read = 1 WHERE id = ?;
+
+countDailyWords:
+SELECT COUNT(*) FROM daily_words;
+
+selectDailyWordById:
+SELECT * FROM daily_words WHERE id = ?;
+
+selectDailyWordByWord:
+SELECT * FROM daily_words WHERE word = ? LIMIT 1;
+
+-- User settings table (notification preferences)
+CREATE TABLE user_settings (
+    id INTEGER NOT NULL PRIMARY KEY DEFAULT 1,
+    notification_hour INTEGER NOT NULL DEFAULT 22,
+    notification_minute INTEGER NOT NULL DEFAULT 0,
+    notifications_enabled INTEGER NOT NULL DEFAULT 1,
+    app_launch_count INTEGER NOT NULL DEFAULT 0
+);
+
+-- User settings queries
+insertDefaultSettings:
+INSERT OR IGNORE INTO user_settings (id, notification_hour, notification_minute, notifications_enabled, app_launch_count)
+VALUES (1, 22, 0, 1, 0);
+
+incrementLaunchCount:
+UPDATE user_settings SET app_launch_count = app_launch_count + 1 WHERE id = 1;
+
+selectSettings:
+SELECT * FROM user_settings WHERE id = 1;
+
+updateNotificationTime:
+UPDATE user_settings SET notification_hour = ?, notification_minute = ? WHERE id = 1;
+
+updateNotificationsEnabled:
+UPDATE user_settings SET notifications_enabled = ? WHERE id = 1;

@@ -5,5 +5,5 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val flashcardModule = module {
-    viewModel { FlashcardReviewViewModel(get(), get()) }
+    viewModel { FlashcardReviewViewModel(get(), get(), get(), get()) }
 }

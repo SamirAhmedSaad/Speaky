@@ -2,8 +2,11 @@ package com.speakmind.app.feature.download.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.ai.platform.ModelDownloadState
 import com.speakmind.app.feature.ai.platform.ModelDownloader
+import com.speakmind.app.feature.ai.platform.ModelPreloader
+import com.speakmind.app.navigation.AiSetupDestination
 import com.speakmind.app.navigation.ChatDestination
 import com.speakmind.app.navigation.NavigationManager
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -19,6 +22,7 @@ data class DownloadUiState(
     val totalMB: Long = 0,
     val isComplete: Boolean = false,
     val isError: Boolean = false,
+    val errorMessage: String? = null,
     val waitingForWifi: Boolean = false,
 )
 
@@ -26,6 +30,8 @@ class ModelDownloadViewModel(
     private val scenarioId: String?,
     private val modelDownloader: ModelDownloader,
     private val navigationManager: NavigationManager,
+    private val database: SpeakyDatabase,
+    private val modelPreloader: ModelPreloader,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(DownloadUiState())
@@ -33,9 +39,9 @@ class ModelDownloadViewModel(
 
     init {
         if (modelDownloader.modelExists()) {
-            _uiState.value = DownloadUiState(isComplete = true)
+            // Model already downloaded — go straight to chat
+            navigateToChat()
         } else {
-            // Check if a download is already running
             checkExistingDownload()
         }
     }
@@ -43,25 +49,49 @@ class ModelDownloadViewModel(
     private fun checkExistingDownload() {
         viewModelScope.launch {
             modelDownloader.observeDownload().collect { state ->
-                if (state.isDownloading || state.progress > 0) {
-                    // Download already in progress — show progress directly
-                    _uiState.value = _uiState.value.copy(
-                        hasStarted = true,
-                        isDownloading = state.isDownloading,
-                        progress = state.progress,
-                        downloadedMB = state.downloadedMB,
-                        totalMB = state.totalMB,
-                        isComplete = state.isComplete,
-                        isError = state.isError,
-                        waitingForWifi = state.isDownloading && state.progress == 0 && !state.isError,
-                    )
+                when {
+                    state.isDownloading -> {
+                        _uiState.value = _uiState.value.copy(
+                            hasStarted = true,
+                            isDownloading = true,
+                            progress = state.progress,
+                            downloadedMB = state.downloadedMB,
+                            totalMB = state.totalMB,
+                            isComplete = false,
+                            isError = false,
+                            waitingForWifi = state.isWaitingForWifi,
+                        )
+                    }
+                    state.isComplete && modelDownloader.modelExists() -> {
+                        database.speakMindQueries.updateAiEngine("local")
+                        modelPreloader.preload()
+                        navigateToChat()
+                    }
+                    state.isError && !modelDownloader.modelExists() -> {
+                        // Work failed permanently (e.g. WiFi dropped before retry kicked in).
+                        // Re-enqueue so it resumes automatically when WiFi is available.
+                        val isPermanentError = state.errorMessage?.let { msg ->
+                            msg.contains("401") || msg.contains("403") ||
+                            msg.contains("404") || msg.contains("410")
+                        } ?: false
 
-                    if (state.isComplete) {
-                        navigationManager.navigate(
-                            ChatDestination(scenarioId = scenarioId)
-                        ) { popUpTo(0) }
+                        if (!isPermanentError) {
+                            modelDownloader.startDownload()
+                            _uiState.value = _uiState.value.copy(
+                                hasStarted = true,
+                                isDownloading = true,
+                                isError = false,
+                                waitingForWifi = true,
+                            )
+                        } else {
+                            _uiState.value = _uiState.value.copy(
+                                isError = true,
+                                errorMessage = state.errorMessage,
+                            )
+                        }
                     }
                 }
+                // If complete but file missing — stale work, ignore (show download prompt)
             }
         }
     }
@@ -79,17 +109,14 @@ class ModelDownloadViewModel(
                     totalMB = state.totalMB,
                     isComplete = state.isComplete,
                     isError = state.isError,
-                    waitingForWifi = state.isDownloading && state.progress == 0 && !state.isError,
+                    errorMessage = state.errorMessage,
+                    waitingForWifi = state.isWaitingForWifi,
                 )
 
-                if (state.isComplete) {
-                    // Navigate to chat
-                    navigationManager.navigate(
-                        ChatDestination(scenarioId = scenarioId)
-                    ) {
-                        // Remove download screen from back stack
-                        popUpTo(0)
-                    }
+                if (state.isComplete && modelDownloader.modelExists()) {
+                    database.speakMindQueries.updateAiEngine("local")
+                    modelPreloader.preload()
+                    navigateToChat()
                 }
             }
         }
@@ -106,14 +133,19 @@ class ModelDownloadViewModel(
     }
 
     fun onContinueToChat() {
-        navigationManager.navigate(
-            ChatDestination(scenarioId = scenarioId)
-        ) {
-            popUpTo(0)
-        }
+        navigateToChat()
     }
 
     fun onGoBack() {
         navigationManager.back()
+    }
+
+    // Pop AiSetup + ModelDownload off the stack (inclusive), then open Chat.
+    // If AiSetupDestination is not in the stack the popUpTo is a no-op, which is safe.
+    private fun navigateToChat() {
+        navigationManager.navigate(ChatDestination(scenarioId = scenarioId)) {
+            popUpTo<AiSetupDestination> { inclusive = true }
+            launchSingleTop = true
+        }
     }
 }

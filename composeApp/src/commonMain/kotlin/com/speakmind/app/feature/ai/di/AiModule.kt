@@ -1,10 +1,12 @@
 package com.speakmind.app.feature.ai.di
 
+import com.speakmind.app.feature.ai.platform.AiEngineProvider
+import com.speakmind.app.feature.ai.platform.ModelPreloader
+import com.speakmind.app.feature.geminichat.data.GeminiRepository
 import org.koin.dsl.module
 
 val aiModule = module {
-    // LlmEngine and ModelFileManager will be provided by platform modules
-    // when llama.cpp integration is ready
-    // single { LlmEngine() }
-    // single { ModelFileManager() }
+    single { ModelPreloader(get()) }
+    single { GeminiRepository(get()) }
+    single { AiEngineProvider(get(), get(), get(), get(), get()) }
 }
