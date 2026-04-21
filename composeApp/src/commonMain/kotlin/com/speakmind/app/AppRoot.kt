@@ -19,14 +19,12 @@ import com.speakmind.app.feature.download.ui.modelDownloadScreen
 import com.speakmind.app.feature.flashcard.ui.flashcardReviewScreen
 import com.speakmind.app.feature.home.ui.homeScreen
 import com.speakmind.app.feature.onboarding.ui.onboardingScreen
-import com.speakmind.app.feature.splash.ui.splashScreen
 import com.speakmind.app.feature.story.ui.storiesScreen
 import com.speakmind.app.feature.story.ui.storyDetailScreen
 import com.speakmind.app.feature.vocabulary.ui.vocabCategoryScreen
 import com.speakmind.app.feature.vocabulary.ui.vocabWordListScreen
 import com.speakmind.app.navigation.NavCommand
 import com.speakmind.app.navigation.NavigationManager
-import com.speakmind.app.navigation.SplashDestination
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import com.speakmind.app.ui.theme.SpeakMindTheme
 import com.speakmind.app.ui.theme.ThemeManager
@@ -34,7 +32,7 @@ import com.speakmind.app.ui.theme.TtsSpeedManager
 import org.koin.compose.koinInject
 
 @Composable
-fun AppRoot() {
+fun AppRoot(startDestination: Any) {
     val themeManager = koinInject<ThemeManager>()
     val ttsSpeedManager = koinInject<TtsSpeedManager>()
 
@@ -77,12 +75,11 @@ fun AppRoot() {
 
         NavHost(
             navController = navController,
-            startDestination = SplashDestination,
+            startDestination = startDestination,
             modifier = Modifier
                 .fillMaxSize()
                 .background(LocalSpeakMindColors.current.backgroundDark)
         ) {
-            splashScreen()
             onboardingScreen()
             homeScreen()
             aiSetupScreen()

@@ -60,7 +60,6 @@ fun NavGraphBuilder.wordLookupScreen() {
             onBack = viewModel::onBack,
             onSpeakWord = viewModel::speakWord,
             onSpeakSentence = viewModel::speakSentence,
-            onSetupAi = viewModel::onSetupAi,
             onSaveWord = viewModel::saveWord,
         )
     }
@@ -73,7 +72,6 @@ private fun WordLookupContent(
     onBack: () -> Unit,
     onSpeakWord: (String) -> Unit,
     onSpeakSentence: (String) -> Unit,
-    onSetupAi: () -> Unit,
     onSaveWord: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
@@ -187,10 +185,7 @@ private fun WordLookupContent(
                 onSpeakSentence = onSpeakSentence,
                 onSaveWord = onSaveWord,
             )
-            is WordLookupUiState.NotFound -> NotFoundContent(
-                hasAi = uiState.hasAi,
-                onSetupAi = onSetupAi,
-            )
+            WordLookupUiState.NotFound -> NotFoundContent()
         }
     }
 }
@@ -238,7 +233,6 @@ private fun ResultContent(
     onSaveWord: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
-    val isAiEnhanced = result.source != WordLookupResult.Source.DICTIONARY
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
@@ -300,14 +294,6 @@ private fun ResultContent(
                                 ),
                             )
                         }
-                    }
-                    if (isAiEnhanced) {
-                        Icon(
-                            Icons.Default.AutoAwesome,
-                            contentDescription = "AI enhanced",
-                            tint = colors.neonCyan.copy(alpha = 0.5f),
-                            modifier = Modifier.size(16.sdp),
-                        )
                     }
                 }
 
@@ -500,10 +486,7 @@ private fun ResultContent(
 }
 
 @Composable
-private fun NotFoundContent(
-    hasAi: Boolean,
-    onSetupAi: () -> Unit,
-) {
+private fun NotFoundContent() {
     val colors = LocalSpeakMindColors.current
     Box(
         modifier = Modifier.fillMaxSize(),
@@ -523,49 +506,14 @@ private fun NotFoundContent(
                 ),
                 textAlign = TextAlign.Center,
             )
-            if (!hasAi) {
-                Text(
-                    text = "Set up AI to look up any word,\nincluding slang and new vocabulary.",
-                    style = MaterialTheme.typography.bodyMedium.copy(
-                        color = colors.textSecondary,
-                        lineHeight = 22.ssp,
-                    ),
-                    textAlign = TextAlign.Center,
-                )
-                Spacer(modifier = Modifier.height(8.sdp))
-                Row(
-                    modifier = Modifier
-                        .clip(RoundedCornerShape(14.sdp))
-                        .background(colors.neonCyan)
-                        .clickable(onClick = onSetupAi)
-                        .padding(horizontal = 28.sdp, vertical = 14.sdp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.sdp),
-                ) {
-                    Icon(
-                        Icons.Default.AutoAwesome,
-                        contentDescription = null,
-                        tint = Color.Black,
-                        modifier = Modifier.size(18.sdp),
-                    )
-                    Text(
-                        text = "Set up AI",
-                        style = MaterialTheme.typography.titleSmall.copy(
-                            color = Color.Black,
-                            fontWeight = FontWeight.Bold,
-                        ),
-                    )
-                }
-            } else {
-                Text(
-                    text = "Couldn't find this word in the dictionary or with AI.\nCheck the spelling and try again.",
-                    style = MaterialTheme.typography.bodyMedium.copy(
-                        color = colors.textSecondary,
-                        lineHeight = 22.ssp,
-                    ),
-                    textAlign = TextAlign.Center,
-                )
-            }
+            Text(
+                text = "Couldn't find this word in the dictionary.\nCheck the spelling and try again.",
+                style = MaterialTheme.typography.bodyMedium.copy(
+                    color = colors.textSecondary,
+                    lineHeight = 22.ssp,
+                ),
+                textAlign = TextAlign.Center,
+            )
         }
     }
 }

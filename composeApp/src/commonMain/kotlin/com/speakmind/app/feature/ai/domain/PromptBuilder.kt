@@ -77,4 +77,29 @@ object PromptBuilder {
         history = history,
         userLevel = userLevel,
     )
+
+    fun buildStructuredQueryPrompt(messages: List<ChatMessage>): String {
+        val sb = StringBuilder()
+        sb.append("<|begin_of_text|>")
+        sb.append("<|start_header_id|>system<|end_header_id|>\n\n")
+        sb.append("You are a JSON API. Respond with ONLY valid JSON. No explanations, no markdown, no extra text.")
+        sb.append("<|eot_id|>")
+        for (message in messages) {
+            when (message.role) {
+                MessageRole.USER -> {
+                    sb.append("<|start_header_id|>user<|end_header_id|>\n\n")
+                    sb.append(message.content)
+                    sb.append("<|eot_id|>")
+                }
+                MessageRole.ASSISTANT -> {
+                    sb.append("<|start_header_id|>assistant<|end_header_id|>\n\n")
+                    sb.append(message.content)
+                    sb.append("<|eot_id|>")
+                }
+                MessageRole.SYSTEM -> { /* skip */ }
+            }
+        }
+        sb.append("<|start_header_id|>assistant<|end_header_id|>\n\n")
+        return sb.toString()
+    }
 }

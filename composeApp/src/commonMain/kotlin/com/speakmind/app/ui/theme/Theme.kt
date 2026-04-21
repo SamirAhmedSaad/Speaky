@@ -95,38 +95,43 @@ object SpeakMindColors {
     )
 }
 
-// Light Color Palette
+// Light Color Palette — neutral base so brand colors read as accents, not a purple wash
 object SpeakMindLightColors {
-    val backgroundDark = Color(0xFFF4F2FF)   // subtle lavender white
-    val backgroundMid = Color(0xFFEAE6FF)    // slightly deeper lavender
-    val surface = Color(0xFFFFFFFF)           // pure white
-    val surfaceVariant = Color(0xFFDDD6F3)    // visible but soft lavender card bg
-    val cardSurface = Color(0xFFDDD6F3)
+    val backgroundDark = Color(0xFFF8F7FF)   // near-white, ~2% purple tint — not fatiguing
+    val backgroundMid  = Color(0xFFF0EBFF)   // subtle lavender depth at gradient end
+    val surface        = Color(0xFFFFFFFF)   // pure white for header, bottom bar
+    val surfaceVariant = Color(0xFFECE6F4)   // soft lavender for cards
+    val cardSurface    = Color(0xFFECE6F4)
 
-    val neonCyan = Color(0xFF006D7A)          // deep teal — high contrast on white
-    val neonCyanDark = Color(0xFF005560)
-    val neonCyanLight = Color(0xFF4DD0E1)
+    val neonCyan       = Color(0xFF00677A)   // deep teal — high contrast on white
+    val neonCyanDark   = Color(0xFF004D5C)
+    val neonCyanLight  = Color(0xFF4DD0E1)
 
-    val magenta = Color(0xFFC0185A)           // deepened rose/magenta
-    val magentaLight = Color(0xFFE84080)
+    val magenta        = Color(0xFFC0185A)
+    val magentaLight   = Color(0xFFE84080)
 
-    val gold = Color(0xFF9A6800)              // dark amber
-    val goldLight = Color(0xFFC88A00)
+    val gold           = Color(0xFF9A6800)
+    val goldLight      = Color(0xFFC88A00)
 
-    val textPrimary = Color(0xFF1A1A2E)       // near-black with slight purple tint
-    val textSecondary = Color(0xFF4A4365)     // medium purple-gray
-    val textMuted = Color(0xFF726B90)         // softer muted text
+    // Material You text — neutral grays, proven easy on eyes
+    val textPrimary    = Color(0xFF1C1B1F)
+    val textSecondary  = Color(0xFF49454F)
+    val textMuted      = Color(0xFF79747E)
 
+    // User bubble: teal brand color, white text at 5.9:1 contrast ✓
     val userBubbleStart = Color(0xFF006D7A)
-    val userBubbleEnd = Color(0xFF0097A7)
-    val aiBubbleStart = Color(0xFFDBD4F7)
-    val aiBubbleEnd = Color(0xFFC9BFF0)
+    val userBubbleEnd   = Color(0xFF0097A7)
+    // AI bubble: white — pops cleanly on the barely-tinted background
+    val aiBubbleStart   = Color(0xFFFFFFFF)
+    val aiBubbleEnd     = Color(0xFFF8F5FF)  // barely tinted bottom
+    // Border gives AI bubbles visual definition without adding color weight
+    val aiBubbleBorder  = Color(0xFFCFC6E4)
 
-    val success = Color(0xFF2E7D32)
+    val success     = Color(0xFF2E7D32)
     val successDark = Color(0xFF1B5E20)
-    val error = Color(0xFFB71C1C)             // darker red for better contrast
-    val errorDark = Color(0xFF7F0000)
-    val warning = Color(0xFF8D4E00)           // dark amber-brown for contrast
+    val error       = Color(0xFFB71C1C)
+    val errorDark   = Color(0xFF7F0000)
+    val warning     = Color(0xFF8D4E00)
 
     val backgroundGradient = Brush.verticalGradient(
         colors = listOf(backgroundDark, backgroundMid)
@@ -167,6 +172,7 @@ data class SpeakMindThemeColors(
     val success: Color = SpeakMindColors.success,
     val error: Color = SpeakMindColors.error,
     val warning: Color = SpeakMindColors.warning,
+    val aiBubbleBorder: Color = Color.Transparent,
     val backgroundGradient: Brush = SpeakMindColors.backgroundGradient,
     val userBubbleGradient: Brush = SpeakMindColors.userBubbleGradient,
     val aiBubbleGradient: Brush = SpeakMindColors.aiBubbleGradient,
@@ -247,6 +253,7 @@ private val LightSpeakMindThemeColors = SpeakMindThemeColors(
     success = SpeakMindLightColors.success,
     error = SpeakMindLightColors.error,
     warning = SpeakMindLightColors.warning,
+    aiBubbleBorder = SpeakMindLightColors.aiBubbleBorder,
     backgroundGradient = SpeakMindLightColors.backgroundGradient,
     userBubbleGradient = SpeakMindLightColors.userBubbleGradient,
     aiBubbleGradient = SpeakMindLightColors.aiBubbleGradient,

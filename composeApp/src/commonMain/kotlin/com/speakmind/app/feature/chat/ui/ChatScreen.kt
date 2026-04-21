@@ -262,27 +262,31 @@ private fun ChatBubble(message: ChatMessage, onSpeakMessage: (String) -> Unit) {
         horizontalArrangement = if (isUser) Arrangement.End else Arrangement.Start
     ) {
         Column {
+            val bubbleShape = RoundedCornerShape(
+                topStart = 16.sdp,
+                topEnd = 16.sdp,
+                bottomStart = if (isUser) 16.sdp else 4.sdp,
+                bottomEnd = if (isUser) 4.sdp else 16.sdp,
+            )
             Box(
                 modifier = Modifier
                     .widthIn(max = 300.sdp)
-                    .clip(
-                        RoundedCornerShape(
-                            topStart = 16.sdp,
-                            topEnd = 16.sdp,
-                            bottomStart = if (isUser) 16.sdp else 4.sdp,
-                            bottomEnd = if (isUser) 4.sdp else 16.sdp,
-                        )
-                    )
+                    .clip(bubbleShape)
                     .background(
                         if (isUser) colors.userBubbleGradient
                         else colors.aiBubbleGradient
+                    )
+                    .border(
+                        width = if (!isUser) 1.sdp else 0.sdp,
+                        color = if (!isUser) colors.aiBubbleBorder else Color.Transparent,
+                        shape = bubbleShape,
                     )
                     .padding(12.sdp)
             ) {
                 Text(
                     text = message.content,
                     style = MaterialTheme.typography.bodyMedium.copy(
-                        color = Color.White,
+                        color = if (isUser) Color.White else colors.textPrimary,
                         lineHeight = 22.ssp
                     )
                 )
@@ -369,7 +373,7 @@ private fun TypingIndicator() {
                 modifier = Modifier
                     .size(8.sdp)
                     .clip(CircleShape)
-                    .background(Color.White.copy(alpha = alpha))
+                    .background(colors.textPrimary.copy(alpha = alpha))
             )
         }
     }

@@ -16,7 +16,10 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Send
+import androidx.compose.material.icons.filled.DarkMode
+import androidx.compose.material.icons.filled.LightMode
 import androidx.compose.material3.*
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -51,6 +54,7 @@ fun NavGraphBuilder.onboardingScreen() {
             onNameSubmitted = viewModel::onNameSubmitted,
             onLevelSelected = viewModel::onLevelSelected,
             onContinue = viewModel::onContinue,
+            onThemeToggle = viewModel::onThemeToggle,
         )
     }
 }
@@ -70,8 +74,10 @@ private fun OnboardingContent(
     onNameSubmitted: () -> Unit,
     onLevelSelected: (String) -> Unit,
     onContinue: () -> Unit,
+    onThemeToggle: (Boolean) -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
+    val isDark = MaterialTheme.colorScheme.background.luminance() < 0.5f
     val listState = rememberLazyListState()
 
     val aiMessages = remember {
@@ -151,9 +157,11 @@ private fun OnboardingContent(
                     .fillMaxWidth()
                     .background(colors.surface.copy(alpha = 0.7f))
                     .padding(top = 52.sdp, bottom = 14.sdp),
-                contentAlignment = Alignment.Center
             ) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
+                Row(
+                    modifier = Modifier.align(Alignment.Center),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
                     SageAvatar(44)
                     Spacer(modifier = Modifier.width(12.sdp))
                     Column {
@@ -171,6 +179,19 @@ private fun OnboardingContent(
                             )
                         )
                     }
+                }
+                IconButton(
+                    onClick = { onThemeToggle(isDark) },
+                    modifier = Modifier
+                        .align(Alignment.CenterEnd)
+                        .padding(end = 12.sdp),
+                ) {
+                    Icon(
+                        imageVector = if (isDark) Icons.Default.LightMode else Icons.Default.DarkMode,
+                        contentDescription = if (isDark) "Switch to light mode" else "Switch to dark mode",
+                        tint = colors.gold,
+                        modifier = Modifier.size(22.sdp),
+                    )
                 }
             }
 
@@ -425,17 +446,19 @@ private fun SageAvatar(size: Int) {
 private fun AiBubble(text: String) {
     val colors = LocalSpeakMindColors.current
     Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Start) {
+        val bubbleShape = RoundedCornerShape(16.sdp, 16.sdp, 16.sdp, 4.sdp)
         Box(
             modifier = Modifier
                 .widthIn(max = 300.sdp)
-                .clip(RoundedCornerShape(16.sdp, 16.sdp, 16.sdp, 4.sdp))
+                .clip(bubbleShape)
                 .background(colors.aiBubbleGradient)
+                .border(1.sdp, colors.aiBubbleBorder, bubbleShape)
                 .padding(14.sdp)
         ) {
             Text(
                 text = text,
                 style = MaterialTheme.typography.bodyLarge.copy(
-                    color = Color.White,
+                    color = colors.textPrimary,
                     lineHeight = 24.ssp,
                 )
             )
@@ -467,7 +490,7 @@ private fun TypingBubble() {
                 modifier = Modifier
                     .size(8.sdp)
                     .clip(CircleShape)
-                    .background(Color.White.copy(alpha = alpha))
+                    .background(colors.textPrimary.copy(alpha = alpha))
             )
         }
     }

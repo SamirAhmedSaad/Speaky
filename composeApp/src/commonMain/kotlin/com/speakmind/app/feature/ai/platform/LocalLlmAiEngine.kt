@@ -14,12 +14,17 @@ class LocalLlmAiEngine(private val llmEngine: LlmEngine) : AiEngine {
         messages: List<ChatMessage>,
         userLevel: String,
         scenario: Scenario?,
+        isStructured: Boolean,
     ): String {
-        val prompt = PromptBuilder.buildConversationPrompt(
-            scenario = scenario,
-            history = messages,
-            userLevel = userLevel,
-        )
+        val prompt = if (isStructured) {
+            PromptBuilder.buildStructuredQueryPrompt(messages)
+        } else {
+            PromptBuilder.buildConversationPrompt(
+                scenario = scenario,
+                history = messages,
+                userLevel = userLevel,
+            )
+        }
         val stopSequences = listOf(
             "<|eot_id|>", "<|start_header_id|>", "<|end_header_id|>",
             "<|begin_of_text|>", "</s>"

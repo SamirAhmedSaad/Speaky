@@ -7,9 +7,11 @@ import com.speakmind.app.feature.story.domain.model.Story
 import com.speakmind.app.feature.voice.platform.TextToSpeechEngine
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.ui.theme.TtsSpeedManager
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
 
@@ -32,6 +34,8 @@ class StoryDetailViewModel(
     private val _uiState = MutableStateFlow(StoryDetailUiState())
     val uiState: StateFlow<StoryDetailUiState> = _uiState.asStateFlow()
 
+    private var speakJob: Job? = null
+
     init {
         loadStory()
         viewModelScope.launch {
@@ -39,21 +43,35 @@ class StoryDetailViewModel(
                 _uiState.value = _uiState.value.copy(isSpeaking = speaking)
             }
         }
+        // When speed changes mid-playback, restart so new rate is heard immediately.
+        viewModelScope.launch {
+            ttsSpeedManager.speed.drop(1).collect {
+                if (_uiState.value.isSpeaking) startSpeaking()
+            }
+        }
     }
 
     fun onBackClicked() {
+        speakJob?.cancel()
         ttsEngine.stop()
         navigationManager.back()
     }
 
     fun onSpeakClicked() {
-        val story = _uiState.value.story ?: return
         if (_uiState.value.isSpeaking) {
+            speakJob?.cancel()
             ttsEngine.stop()
         } else {
-            viewModelScope.launch {
-                ttsEngine.speak(story.content, rate = ttsSpeedManager.speed.value)
-            }
+            startSpeaking()
+        }
+    }
+
+    private fun startSpeaking() {
+        val story = _uiState.value.story ?: return
+        speakJob?.cancel()
+        ttsEngine.stop()
+        speakJob = viewModelScope.launch {
+            ttsEngine.speak(story.content, rate = ttsSpeedManager.speed.value)
         }
     }
 

@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.navigation.HomeDestination
 import com.speakmind.app.navigation.NavigationManager
+import com.speakmind.app.ui.theme.ThemeManager
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -22,6 +23,7 @@ data class OnboardingUiState(
 class OnboardingViewModel(
     private val navigationManager: NavigationManager,
     private val database: SpeakyDatabase,
+    private val themeManager: ThemeManager,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(OnboardingUiState())
@@ -41,6 +43,10 @@ class OnboardingViewModel(
 
     fun onLevelSelected(level: String) {
         _uiState.value = _uiState.value.copy(selectedLevel = level)
+    }
+
+    fun onThemeToggle(isDark: Boolean) {
+        themeManager.toggle(isDark)
     }
 
     fun onContinue() {

@@ -35,7 +35,8 @@ CREATE TABLE progress (
     total_conversations INTEGER NOT NULL DEFAULT 0,
     total_minutes INTEGER NOT NULL DEFAULT 0,
     dark_mode INTEGER NOT NULL DEFAULT -1,
-    tts_speed REAL NOT NULL DEFAULT 1.0
+    tts_speed REAL NOT NULL DEFAULT 1.0,
+    vocab_version INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE TABLE conversations (
@@ -100,15 +101,6 @@ UPDATE progress SET user_name = ? WHERE id = 1;
 
 updateAiEngine:
 UPDATE progress SET ai_engine = ? WHERE id = 1;
-
-migrateAiEngineValues:
-UPDATE progress
-SET ai_engine = CASE
-    WHEN ai_engine = 'device'      THEN 'gemini_api'
-    WHEN ai_engine = 'downloaded'  THEN 'local'
-    ELSE ai_engine
-END
-WHERE id = 1;
 
 updateProgress:
 UPDATE progress SET level = ?, streak_days = ?, last_active_date = ?, total_vocab_learned = ?, shadowing_best_score = ?, total_conversations = ?, total_minutes = ? WHERE id = 1;
@@ -275,13 +267,14 @@ CREATE TABLE user_settings (
     notification_hour INTEGER NOT NULL DEFAULT 22,
     notification_minute INTEGER NOT NULL DEFAULT 0,
     notifications_enabled INTEGER NOT NULL DEFAULT 1,
-    app_launch_count INTEGER NOT NULL DEFAULT 0
+    app_launch_count INTEGER NOT NULL DEFAULT 0,
+    exact_alarm_dialog_count INTEGER NOT NULL DEFAULT 0
 );
 
 -- User settings queries
 insertDefaultSettings:
-INSERT OR IGNORE INTO user_settings (id, notification_hour, notification_minute, notifications_enabled, app_launch_count)
-VALUES (1, 22, 0, 1, 0);
+INSERT OR IGNORE INTO user_settings (id, notification_hour, notification_minute, notifications_enabled, app_launch_count, exact_alarm_dialog_count)
+VALUES (1, 22, 0, 1, 0, 0);
 
 incrementLaunchCount:
 UPDATE user_settings SET app_launch_count = app_launch_count + 1 WHERE id = 1;
@@ -294,3 +287,19 @@ UPDATE user_settings SET notification_hour = ?, notification_minute = ? WHERE id
 
 updateNotificationsEnabled:
 UPDATE user_settings SET notifications_enabled = ? WHERE id = 1;
+
+incrementExactAlarmDialogCount:
+UPDATE user_settings SET exact_alarm_dialog_count = exact_alarm_dialog_count + 1 WHERE id = 1;
+
+-- Vocabulary refresh queries
+selectVocabVersion:
+SELECT vocab_version FROM progress WHERE id = 1;
+
+updateVocabVersion:
+UPDATE progress SET vocab_version = ? WHERE id = 1;
+
+updateDailyWordVocab:
+UPDATE daily_words SET meaning = ?, sentences_json = ? WHERE word = ?;
+
+updateFlashcardMeaning:
+UPDATE flashcards SET grammar_note = ? WHERE word = ? AND context LIKE 'Word Builder:%';

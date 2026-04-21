@@ -17,15 +17,26 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.core.content.ContextCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.lifecycle.lifecycleScope
+import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver
+import com.speakmind.app.feature.vocabulary.domain.VocabRefreshService
 import com.speakmind.app.feature.voice.platform.MicPermissionRequester
+import com.speakmind.app.navigation.HomeDestination
 import com.speakmind.app.navigation.NavigationManager
+import com.speakmind.app.navigation.OnboardingDestination
 import com.speakmind.app.navigation.WordDetailDestination
 import com.speakmind.app.ui.theme.ThemeManager
 import io.github.aakira.napier.Napier
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import org.koin.java.KoinJavaComponent.getKoin
 
 class MainActivity : ComponentActivity() {
+
+    private val startDestination = MutableStateFlow<Any?>(null)
 
     private val micPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
@@ -40,7 +51,21 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        installSplashScreen()
+        val splash = installSplashScreen()
+        splash.setKeepOnScreenCondition { startDestination.value == null }
+
+        lifecycleScope.launch(Dispatchers.IO) {
+            val db = getKoin().get<SpeakyDatabase>()
+            db.speakMindQueries.insertDefaultProgress()
+            val info = packageManager.getPackageInfo(packageName, 0)
+            val versionCode = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) info.longVersionCode.toInt() else @Suppress("DEPRECATION") info.versionCode
+            getKoin().get<VocabRefreshService>().refreshIfUpdated(versionCode)
+            val userName = db.speakMindQueries.selectProgress().executeAsOneOrNull()?.user_name ?: ""
+            withContext(Dispatchers.Main) {
+                startDestination.value = if (userName.isEmpty()) OnboardingDestination else HomeDestination
+            }
+        }
+
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.dark(Color.TRANSPARENT),
             navigationBarStyle = SystemBarStyle.dark(Color.TRANSPARENT)
@@ -69,7 +94,8 @@ class MainActivity : ComponentActivity() {
                 )
             }
 
-            AppRoot()
+            val dest by startDestination.collectAsState()
+            dest?.let { AppRoot(startDestination = it) }
         }
 
         handleDailyWordIntent(intent)

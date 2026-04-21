@@ -17,8 +17,9 @@ class GeminiApiEngine(
         messages: List<ChatMessage>,
         userLevel: String,
         scenario: Scenario?,
+        isStructured: Boolean,
     ): String {
         val key = apiKeyStore.getKey() ?: error("No Gemini API key set")
-        return geminiRepository.chat(apiKey = key, messages = messages, userLevel = userLevel, scenario = scenario)
+        return geminiRepository.chat(apiKey = key, messages = messages, userLevel = userLevel, scenario = scenario, isStructured = isStructured)
     }
 }
