@@ -9,5 +9,6 @@ interface AiEngine {
         messages: List<ChatMessage>,
         userLevel: String,
         scenario: Scenario? = null,
+        isStructured: Boolean = false,
     ): String
 }

@@ -10,5 +10,5 @@ data class WordLookupResult(
     val level: String?,
     val source: Source,
 ) {
-    enum class Source { DICTIONARY, AI_ENHANCED, AI_ONLY }
+    enum class Source { DICTIONARY, WIKTIONARY }
 }

@@ -99,6 +99,9 @@ actual val appModule: Module
             try {
                 driver.execute(null, "ALTER TABLE user_settings ADD COLUMN app_launch_count INTEGER NOT NULL DEFAULT 0", 0)
             } catch (_: Exception) {}
+            try {
+                driver.execute(null, "ALTER TABLE user_settings ADD COLUMN exact_alarm_dialog_count INTEGER NOT NULL DEFAULT 0", 0)
+            } catch (_: Exception) {}
             driver
         }
         single<ModelDownloader> { AndroidModelDownloader(androidContext()) }

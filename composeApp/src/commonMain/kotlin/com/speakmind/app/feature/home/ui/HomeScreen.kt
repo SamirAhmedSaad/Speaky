@@ -198,7 +198,7 @@ private fun HomeScreenContent(
                     )
                 },
                 text = {
-                    Text("To send your daily word at exactly the time you chose, allow SpeakMind to schedule precise notifications. Without this, it may arrive a few minutes late.")
+                    Text("To send your daily word at exactly the time you chose, allow SpeakMind to schedule precise notifications. Without this, it may arrive up to 15 minutes late.")
                 },
                 confirmButton = {
                     TextButton(onClick = onExactAlarmRationaleConfirmed) {
@@ -942,6 +942,7 @@ private fun DailyWordsSection(
             )
             Row(
                 verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.clickable(onClick = onBellClick),
             ) {
                 if (notificationsEnabled) {
                     val amPm = if (notificationHour < 12) "AM" else "PM"
@@ -955,15 +956,13 @@ private fun DailyWordsSection(
                         style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
                     )
                 }
-                IconButton(onClick = onBellClick, modifier = Modifier.size(36.sdp)) {
-                    Icon(
-                        imageVector = if (notificationsEnabled) Icons.Default.Notifications
-                        else Icons.Default.NotificationsOff,
-                        contentDescription = "Notification settings",
-                        tint = if (notificationsEnabled) colors.neonCyan else colors.textMuted,
-                        modifier = Modifier.size(22.sdp),
-                    )
-                }
+                Icon(
+                    imageVector = if (notificationsEnabled) Icons.Default.Notifications
+                    else Icons.Default.NotificationsOff,
+                    contentDescription = "Notification settings",
+                    tint = if (notificationsEnabled) colors.neonCyan else colors.textMuted,
+                    modifier = Modifier.size(22.sdp),
+                )
             }
         }
 

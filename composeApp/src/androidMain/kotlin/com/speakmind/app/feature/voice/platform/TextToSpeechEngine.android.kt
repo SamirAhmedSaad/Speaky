@@ -37,30 +37,46 @@ actual class TextToSpeechEngine actual constructor() : KoinComponent {
 
     actual fun isAvailable(): Boolean = isInitialized
 
+    // Android TTS has a hard character limit; split long text into sentence-boundary chunks.
     actual suspend fun speak(text: String, rate: Float, language: String) {
+        val maxLen = AndroidTTS.getMaxSpeechInputLength()
+        val chunks = chunkBySentence(text, maxLen)
+        for (chunk in chunks) {
+            speakChunk(chunk, rate, language)
+        }
+    }
+
+    private suspend fun speakChunk(text: String, rate: Float, language: String) {
         suspendCancellableCoroutine { cont ->
             ensureInitialized {
+                tts?.stop()
                 tts?.setSpeechRate(rate)
                 tts?.language = Locale.forLanguageTag(language)
 
+                val id = "speak_${System.nanoTime()}"
+
                 tts?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
                     override fun onStart(utteranceId: String?) {
-                        _isSpeaking.value = true
+                        if (utteranceId == id) _isSpeaking.value = true
                     }
 
                     override fun onDone(utteranceId: String?) {
-                        _isSpeaking.value = false
-                        if (cont.isActive) cont.resume(Unit)
+                        if (utteranceId == id) {
+                            _isSpeaking.value = false
+                            if (cont.isActive) cont.resume(Unit)
+                        }
                     }
 
                     @Deprecated("Deprecated in Java")
                     override fun onError(utteranceId: String?) {
-                        _isSpeaking.value = false
-                        if (cont.isActive) cont.resume(Unit)
+                        if (utteranceId == id) {
+                            _isSpeaking.value = false
+                            if (cont.isActive) cont.resume(Unit)
+                        }
                     }
                 })
 
-                tts?.speak(text, AndroidTTS.QUEUE_FLUSH, null, "speak_${System.currentTimeMillis()}")
+                tts?.speak(text, AndroidTTS.QUEUE_FLUSH, null, id)
             }
 
             cont.invokeOnCancellation {
@@ -73,5 +89,22 @@ actual class TextToSpeechEngine actual constructor() : KoinComponent {
     actual fun stop() {
         tts?.stop()
         _isSpeaking.value = false
+    }
+
+    private fun chunkBySentence(text: String, maxLen: Int): List<String> {
+        if (text.length <= maxLen) return listOf(text)
+        val chunks = mutableListOf<String>()
+        val buf = StringBuilder()
+        for (sentence in text.split(Regex("(?<=[.!?])\\s+"))) {
+            if (buf.length + sentence.length + 1 > maxLen) {
+                if (buf.isNotEmpty()) { chunks.add(buf.toString().trim()); buf.clear() }
+                if (sentence.length > maxLen) {
+                    var i = 0
+                    while (i < sentence.length) { chunks.add(sentence.substring(i, minOf(i + maxLen, sentence.length))); i += maxLen }
+                } else buf.append(sentence).append(' ')
+            } else buf.append(sentence).append(' ')
+        }
+        if (buf.isNotEmpty()) chunks.add(buf.toString().trim())
+        return chunks
     }
 }

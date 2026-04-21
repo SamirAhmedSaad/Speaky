@@ -45,8 +45,11 @@ class GeminiRepository(private val httpClient: HttpClient) {
         messages: List<ChatMessage>,
         userLevel: String,
         scenario: Scenario? = null,
+        isStructured: Boolean = false,
     ): String {
-        val systemPrompt = buildString {
+        val systemPrompt = if (isStructured) {
+            "You are a JSON API. Respond with ONLY valid JSON. No explanations, no markdown, no extra text."
+        } else buildString {
             append("You are Sage, a warm and encouraging English language tutor inside the Speaky app.")
             append(" The user's current level is $userLevel.")
             append(" Keep your responses conversational and to 2-4 sentences.")

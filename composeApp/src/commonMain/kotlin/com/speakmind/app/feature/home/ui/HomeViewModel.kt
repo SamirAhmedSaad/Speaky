@@ -114,8 +114,9 @@ class HomeViewModel(
 
             // Increment launch count before reading it (first launch becomes 1)
             database.speakMindQueries.incrementLaunchCount()
-            val launchCount = database.speakMindQueries.selectSettings().executeAsOneOrNull()
-                ?.app_launch_count ?: 1L
+            val updatedSettings = database.speakMindQueries.selectSettings().executeAsOneOrNull()
+            val launchCount = updatedSettings?.app_launch_count ?: 1L
+            val dialogCount = updatedSettings?.exact_alarm_dialog_count ?: 0L
 
             _uiState.value = _uiState.value.copy(
                 todayWord = todayWord,
@@ -126,12 +127,13 @@ class HomeViewModel(
             )
 
             // Re-arm the alarm on every app launch (survives app updates)
-            // Skip the rationale dialog on the very first launch so users can explore first
+            // Show rationale only on launch 2+ and only up to 2 times total
             if (notifEnabled) {
                 val wordForNotif = todayWord ?: recentWords.firstOrNull()
                 if (wordForNotif != null) {
                     val needsPermission = notificationScheduler.schedule(notifHour, notifMinute, wordForNotif.word, wordForNotif.meaning)
-                    if (needsPermission && launchCount > 1L) {
+                    if (needsPermission && launchCount > 1L && dialogCount < 2L) {
+                        database.speakMindQueries.incrementExactAlarmDialogCount()
                         _uiState.value = _uiState.value.copy(showExactAlarmRationale = true)
                     }
                 }
@@ -277,7 +279,6 @@ class HomeViewModel(
         _uiState.value = _uiState.value.copy(showExactAlarmRationale = false)
     }
 
-    /** Called when the user returns from the system exact-alarm settings screen. */
     fun onResumeFromExactAlarmSettings() {
         _uiState.value = _uiState.value.copy(showExactAlarmRationale = false)
         val state = _uiState.value

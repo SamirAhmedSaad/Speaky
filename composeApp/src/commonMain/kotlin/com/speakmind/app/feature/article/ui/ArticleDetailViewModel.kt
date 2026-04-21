@@ -12,9 +12,11 @@ import com.speakmind.app.navigation.AiSetupDestination
 import com.speakmind.app.ui.theme.TtsSpeedManager
 import com.speakmind.app.navigation.ChatDestination
 import com.speakmind.app.navigation.NavigationManager
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
 
@@ -40,11 +42,18 @@ class ArticleDetailViewModel(
     private val _uiState = MutableStateFlow(ArticleDetailUiState())
     val uiState: StateFlow<ArticleDetailUiState> = _uiState.asStateFlow()
 
+    private var speakJob: Job? = null
+
     init {
         loadArticle()
         viewModelScope.launch {
             ttsEngine.isSpeaking.collect { speaking ->
                 _uiState.value = _uiState.value.copy(isSpeaking = speaking)
+            }
+        }
+        viewModelScope.launch {
+            ttsSpeedManager.speed.drop(1).collect {
+                if (_uiState.value.isSpeaking) startListening()
             }
         }
     }
@@ -61,24 +70,32 @@ class ArticleDetailViewModel(
     }
 
     fun onBackClicked() {
+        speakJob?.cancel()
         ttsEngine.stop()
         navigationManager.back()
     }
 
     fun onListenClicked() {
-        val scenario = _uiState.value.scenario ?: return
         if (_uiState.value.isSpeaking) {
+            speakJob?.cancel()
             ttsEngine.stop()
         } else {
-            viewModelScope.launch {
-                val baseRate = when (scenario.level) {
-                    "A1" -> 0.7f
-                    "A2" -> 0.8f
-                    "B1" -> 0.9f
-                    else -> 1.0f
-                }
-                ttsEngine.speak(scenario.emotionalStakes, rate = baseRate * ttsSpeedManager.speed.value)
+            startListening()
+        }
+    }
+
+    private fun startListening() {
+        val scenario = _uiState.value.scenario ?: return
+        speakJob?.cancel()
+        ttsEngine.stop()
+        speakJob = viewModelScope.launch {
+            val baseRate = when (scenario.level) {
+                "A1" -> 0.7f
+                "A2" -> 0.8f
+                "B1" -> 0.9f
+                else -> 1.0f
             }
+            ttsEngine.speak(scenario.emotionalStakes, rate = baseRate * ttsSpeedManager.speed.value)
         }
     }
 
