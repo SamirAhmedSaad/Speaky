@@ -5,5 +5,5 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val articleModule = module {
-    viewModel { params -> ArticleDetailViewModel(params.get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { params -> ArticleDetailViewModel(params.get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
 }

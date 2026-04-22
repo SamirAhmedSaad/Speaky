@@ -2,6 +2,8 @@ package com.speakmind.app.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
@@ -360,7 +362,10 @@ fun SpeakMindTheme(
         ),
     )
 
-    CompositionLocalProvider(LocalSpeakMindColors provides speakMindColors) {
+    CompositionLocalProvider(
+        LocalSpeakMindColors provides speakMindColors,
+        LocalLayoutDirection provides LayoutDirection.Ltr,
+    ) {
         MaterialTheme(
             colorScheme = colorScheme,
             typography = typography,

@@ -16,7 +16,6 @@ import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.NotificationsOff
-import androidx.compose.material.icons.filled.Style
 import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material.icons.filled.DarkMode
 import androidx.compose.material.icons.filled.LightMode
@@ -274,8 +273,8 @@ private fun HomeScreenContent(
                         onClick = onVocabularyClick,
                         modifier = Modifier.weight(1f),
                     )
-                    ReviewFlashcardsBox(
-                        dueCount = uiState.flashcardDueCount,
+                    SavedWordsBox(
+                        savedCount = uiState.totalVocab,
                         onClick = onFlashcardsClick,
                         modifier = Modifier.weight(1f),
                     )
@@ -591,7 +590,7 @@ private fun WordBuilderBox(onClick: () -> Unit, modifier: Modifier = Modifier) {
 }
 
 @Composable
-private fun ReviewFlashcardsBox(dueCount: Long, onClick: () -> Unit, modifier: Modifier = Modifier) {
+private fun SavedWordsBox(savedCount: Long, onClick: () -> Unit, modifier: Modifier = Modifier) {
     val colors = LocalSpeakMindColors.current
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -600,50 +599,28 @@ private fun ReviewFlashcardsBox(dueCount: Long, onClick: () -> Unit, modifier: M
             .background(
                 Brush.verticalGradient(
                     colors = listOf(
-                        colors.magenta.copy(alpha = 0.08f),
+                        colors.neonCyan.copy(alpha = 0.08f),
                         colors.surfaceVariant.copy(alpha = 0.7f),
                     )
                 )
             )
             .border(
                 width = 1.sdp,
-                color = colors.magenta.copy(alpha = 0.25f),
+                color = colors.neonCyan.copy(alpha = 0.25f),
                 shape = RoundedCornerShape(16.sdp)
             )
             .clickable(onClick = onClick)
             .padding(vertical = 20.sdp, horizontal = 12.sdp),
     ) {
-        Box {
-            Icon(
-                imageVector = Icons.Default.Style,
-                contentDescription = null,
-                tint = colors.magenta,
-                modifier = Modifier.size(32.sdp)
-            )
-            if (dueCount > 0) {
-                Box(
-                    contentAlignment = Alignment.Center,
-                    modifier = Modifier
-                        .align(Alignment.TopEnd)
-                        .offset(x = 8.sdp, y = (-4).sdp)
-                        .size(18.sdp)
-                        .clip(CircleShape)
-                        .background(colors.magenta)
-                ) {
-                    Text(
-                        text = "$dueCount",
-                        style = MaterialTheme.typography.labelSmall.copy(
-                            color = Color.White,
-                            fontWeight = FontWeight.Bold,
-                            fontSize = 9.ssp,
-                        )
-                    )
-                }
-            }
-        }
+        Icon(
+            imageVector = Icons.AutoMirrored.Filled.MenuBook,
+            contentDescription = null,
+            tint = colors.neonCyan,
+            modifier = Modifier.size(32.sdp)
+        )
         Spacer(modifier = Modifier.height(10.sdp))
         Text(
-            text = "Review",
+            text = "Saved",
             style = MaterialTheme.typography.titleSmall.copy(
                 color = colors.textPrimary,
                 fontWeight = FontWeight.Bold,
@@ -651,7 +628,7 @@ private fun ReviewFlashcardsBox(dueCount: Long, onClick: () -> Unit, modifier: M
         )
         Spacer(modifier = Modifier.height(2.sdp))
         Text(
-            text = if (dueCount > 0) "$dueCount cards due" else "No cards due",
+            text = if (savedCount > 0) "$savedCount words" else "No words yet",
             style = MaterialTheme.typography.labelSmall.copy(
                 color = colors.textMuted,
             )

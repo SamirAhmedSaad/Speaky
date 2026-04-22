@@ -3,8 +3,8 @@ package com.speakmind.app.feature.dailyword.platform
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import app.cash.sqldelight.driver.android.AndroidSqliteDriver
 import com.speakmind.app.db.SpeakyDatabase
+import com.speakmind.app.di.createSpeakMindDriver
 import io.github.aakira.napier.Napier
 import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone
@@ -17,7 +17,7 @@ class BootReceiver : BroadcastReceiver() {
         Napier.d { "Boot completed — rescheduling daily word alarm" }
 
         try {
-            val driver = AndroidSqliteDriver(SpeakyDatabase.Schema, context, "speakmind.db")
+            val driver = createSpeakMindDriver(context)
             val database = SpeakyDatabase(driver)
 
             val settings = database.speakMindQueries.selectSettings().executeAsOneOrNull()

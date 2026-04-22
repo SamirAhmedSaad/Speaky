@@ -1,10 +1,8 @@
 package com.speakmind.app.feature.story.ui
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
@@ -30,6 +28,8 @@ import com.speakmind.app.feature.story.domain.model.StoryTopic
 import com.speakmind.app.navigation.StoryDetailDestination
 import com.speakmind.app.ui.components.BannerAdView
 import com.speakmind.app.ui.components.TtsSpeedButton
+import com.speakmind.app.ui.components.WordAction
+import com.speakmind.app.ui.components.WordActionBottomSheet
 import com.speakmind.app.ui.components.rememberInterstitialAdState
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
@@ -48,6 +48,8 @@ fun NavGraphBuilder.storyDetailScreen() {
             onWordClicked = viewModel::onWordClicked,
             onDismissWord = viewModel::onDismissWord,
             onSaveWord = viewModel::onSaveWordToFlashcard,
+            onActionSelected = viewModel::onActionSelected,
+            onSpeakWord = viewModel::onSpeakWord,
         )
     }
 }
@@ -60,24 +62,19 @@ private fun StoryDetailContent(
     onWordClicked: (String) -> Unit,
     onDismissWord: () -> Unit,
     onSaveWord: () -> Unit,
+    onActionSelected: (WordAction) -> Unit,
+    onSpeakWord: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
     val interstitialAd = rememberInterstitialAdState()
     val snackbarHostState = remember { SnackbarHostState() }
 
-    // Show interstitial once when story loads
     LaunchedEffect(uiState.story) {
-        if (uiState.story != null) {
-            interstitialAd.show()
-        }
+        if (uiState.story != null) interstitialAd.show()
     }
 
-    // Auto-dismiss dialog and show snackbar when word is saved
     LaunchedEffect(uiState.wordSaved) {
-        if (uiState.wordSaved) {
-            onDismissWord()
-            snackbarHostState.showSnackbar("Saved to flashcards!")
-        }
+        if (uiState.wordSaved) snackbarHostState.showSnackbar("Saved to flashcards!")
     }
 
     Box(
@@ -85,12 +82,18 @@ private fun StoryDetailContent(
             .fillMaxSize()
             .background(colors.backgroundGradient)
     ) {
-        // Word save dialog
         if (uiState.selectedWord != null) {
-            SaveWordDialog(
+            WordActionBottomSheet(
                 word = uiState.selectedWord,
-                isSaved = uiState.wordSaved,
-                onSave = onSaveWord,
+                wordSaved = uiState.wordSaved,
+                selectedAction = uiState.selectedAction,
+                meaningText = uiState.meaningText,
+                partOfSpeech = uiState.partOfSpeech,
+                translationText = uiState.translationText,
+                isLoadingAction = uiState.isLoadingAction,
+                onActionSelected = onActionSelected,
+                onSaveWord = onSaveWord,
+                onSpeakWord = onSpeakWord,
                 onDismiss = onDismissWord,
             )
         }
@@ -111,9 +114,7 @@ private fun StoryDetailContent(
                 ) {
                     Text(
                         text = "Story not found",
-                        style = MaterialTheme.typography.bodyLarge.copy(
-                            color = colors.textSecondary,
-                        ),
+                        style = MaterialTheme.typography.bodyLarge.copy(color = colors.textSecondary),
                     )
                 }
             }
@@ -127,7 +128,6 @@ private fun StoryDetailContent(
                         .fillMaxSize()
                         .verticalScroll(rememberScrollState())
                 ) {
-                    // Top bar
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -143,7 +143,6 @@ private fun StoryDetailContent(
                             )
                         }
                         Spacer(modifier = Modifier.weight(1f))
-                        // Topic badge
                         if (story.category.isNotEmpty()) {
                             Box(
                                 modifier = Modifier
@@ -163,7 +162,6 @@ private fun StoryDetailContent(
                         Spacer(modifier = Modifier.width(12.sdp))
                     }
 
-                    // Title
                     Text(
                         text = story.title,
                         style = MaterialTheme.typography.headlineSmall.copy(
@@ -173,20 +171,16 @@ private fun StoryDetailContent(
                         modifier = Modifier.padding(horizontal = 20.sdp, vertical = 8.sdp),
                     )
 
-                    // Date
                     if (story.pubDate.isNotEmpty()) {
                         Text(
                             text = formatDate(story.pubDate),
-                            style = MaterialTheme.typography.labelSmall.copy(
-                                color = colors.textMuted,
-                            ),
+                            style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
                             modifier = Modifier.padding(horizontal = 20.sdp),
                         )
                     }
 
                     Spacer(modifier = Modifier.height(14.sdp))
 
-                    // Listen button row with speed control
                     Row(
                         modifier = Modifier.padding(horizontal = 20.sdp),
                         horizontalArrangement = Arrangement.spacedBy(8.sdp),
@@ -202,7 +196,6 @@ private fun StoryDetailContent(
 
                     Spacer(modifier = Modifier.height(20.sdp))
 
-                    // Content card
                     Box(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -213,14 +206,14 @@ private fun StoryDetailContent(
                     ) {
                         Column {
                             Text(
-                                text = "Tap any word to save it",
+                                text = "Tap any word for options",
                                 style = MaterialTheme.typography.labelSmall.copy(
                                     color = colors.textMuted.copy(alpha = 0.5f),
                                 ),
                             )
                             Spacer(modifier = Modifier.height(12.sdp))
                             TappableText(
-                                text = stripLeadingDate(story.content),
+                                text = stripLeadingDate(story.content).stripMarkdown(),
                                 onWordClicked = onWordClicked,
                             )
                         }
@@ -255,12 +248,7 @@ private fun TappableText(
                 append(segment)
             } else {
                 pushStringAnnotation(tag = "word", annotation = segment)
-                withStyle(
-                    SpanStyle(
-                        color = colors.textPrimary,
-                        fontSize = 18.ssp,
-                    )
-                ) {
+                withStyle(SpanStyle(color = colors.textPrimary, fontSize = 18.ssp)) {
                     append(segment)
                 }
                 pop()
@@ -271,15 +259,10 @@ private fun TappableText(
     ClickableText(
         text = annotatedString,
         modifier = modifier,
-        style = MaterialTheme.typography.bodyLarge.copy(
-            lineHeight = 32.ssp,
-            fontSize = 18.ssp,
-        ),
+        style = MaterialTheme.typography.bodyLarge.copy(lineHeight = 32.ssp, fontSize = 18.ssp),
         onClick = { offset ->
             annotatedString.getStringAnnotations("word", offset, offset)
-                .firstOrNull()?.let { annotation ->
-                    onWordClicked(annotation.item)
-                }
+                .firstOrNull()?.let { onWordClicked(it.item) }
         },
     )
 }
@@ -313,14 +296,12 @@ private fun ListenButton(
         modifier = modifier.fillMaxWidth().height(48.sdp),
         shape = RoundedCornerShape(14.sdp),
         colors = ButtonDefaults.buttonColors(
-            containerColor = if (isSpeaking) colors.neonCyan.copy(alpha = pulseAlpha)
-            else colors.neonCyan,
+            containerColor = if (isSpeaking) colors.neonCyan.copy(alpha = pulseAlpha) else colors.neonCyan,
             contentColor = colors.backgroundDark,
         ),
     ) {
         Icon(
-            imageVector = if (isSpeaking) Icons.Default.Stop
-            else Icons.AutoMirrored.Filled.VolumeUp,
+            imageVector = if (isSpeaking) Icons.Default.Stop else Icons.AutoMirrored.Filled.VolumeUp,
             contentDescription = null,
             modifier = Modifier.size(22.sdp),
         )
@@ -330,72 +311,6 @@ private fun ListenButton(
             style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold),
         )
     }
-}
-
-@Composable
-private fun SaveWordDialog(
-    word: String,
-    isSaved: Boolean,
-    onSave: () -> Unit,
-    onDismiss: () -> Unit,
-) {
-    val colors = LocalSpeakMindColors.current
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        containerColor = colors.surface,
-        titleContentColor = colors.textPrimary,
-        title = {
-            Text(
-                text = word,
-                style = MaterialTheme.typography.headlineSmall.copy(
-                    fontWeight = FontWeight.Bold,
-                    color = colors.neonCyan,
-                ),
-            )
-        },
-        text = {
-            Text(
-                text = if (isSaved) "Saved to flashcards!"
-                else "Save this word to your flashcards?",
-                style = MaterialTheme.typography.bodyMedium.copy(
-                    color = colors.textSecondary,
-                ),
-            )
-        },
-        confirmButton = {
-            if (!isSaved) {
-                Button(
-                    onClick = onSave,
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = colors.neonCyan,
-                        contentColor = colors.backgroundDark,
-                    ),
-                ) {
-                    Text("Save")
-                }
-            } else {
-                Button(
-                    onClick = onDismiss,
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = colors.neonCyan,
-                        contentColor = colors.backgroundDark,
-                    ),
-                ) {
-                    Text("Done")
-                }
-            }
-        },
-        dismissButton = {
-            if (!isSaved) {
-                TextButton(onClick = onDismiss) {
-                    Text(
-                        "Cancel",
-                        color = colors.textSecondary,
-                    )
-                }
-            }
-        },
-    )
 }
 
 private fun formatDate(pubDate: String): String {

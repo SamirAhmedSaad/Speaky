@@ -208,7 +208,7 @@ class HomeViewModel(
     fun onCloudChatClicked() = onFreeTalkClicked()
 
     fun onFlashcardsClicked() {
-        navigationManager.navigate(FlashcardReviewDestination())
+        navigationManager.navigate(FlashcardReviewDestination(showAllWords = true))
     }
 
     fun onAllLearnedWordsClicked() {

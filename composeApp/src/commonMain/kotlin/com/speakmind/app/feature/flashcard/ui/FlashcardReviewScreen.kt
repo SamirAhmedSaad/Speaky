@@ -16,7 +16,6 @@ import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.*
-import androidx.compose.material3.TabRowDefaults.tabIndicatorOffset
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -133,48 +132,45 @@ private fun FlashcardReviewContent(
                 Spacer(modifier = Modifier.width(4.sdp))
             }
 
-            // Tabs
-            TabRow(
-                selectedTabIndex = uiState.selectedTab.ordinal,
-                containerColor = colors.surfaceVariant.copy(alpha = 0.3f),
-                contentColor = colors.neonCyan,
-                indicator = { tabPositions ->
-                    if (uiState.selectedTab.ordinal < tabPositions.size) {
-                        TabRowDefaults.SecondaryIndicator(
-                            modifier = Modifier.tabIndicatorOffset(tabPositions[uiState.selectedTab.ordinal]),
-                            color = colors.neonCyan,
+            // Pill-style tab switcher
+            Row(
+                modifier = Modifier
+                    .padding(horizontal = 20.sdp, vertical = 10.sdp)
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(12.sdp))
+                    .background(colors.surfaceVariant.copy(alpha = 0.4f))
+                    .padding(4.sdp),
+                horizontalArrangement = Arrangement.spacedBy(4.sdp),
+            ) {
+                listOf(FlashcardTab.DUE to "Due", FlashcardTab.ALL_WORDS to "Saved").forEach { (tab, label) ->
+                    val selected = uiState.selectedTab == tab
+                    Box(
+                        contentAlignment = Alignment.Center,
+                        modifier = Modifier
+                            .weight(1f)
+                            .clip(RoundedCornerShape(9.sdp))
+                            .background(
+                                if (selected) colors.neonCyan.copy(alpha = 0.15f)
+                                else Color.Transparent
+                            )
+                            .border(
+                                width = 1.sdp,
+                                color = if (selected) colors.neonCyan.copy(alpha = 0.5f)
+                                else Color.Transparent,
+                                shape = RoundedCornerShape(9.sdp),
+                            )
+                            .clickable { onTabSelected(tab) }
+                            .padding(vertical = 8.sdp),
+                    ) {
+                        Text(
+                            text = label,
+                            style = MaterialTheme.typography.labelLarge.copy(
+                                color = if (selected) colors.neonCyan else colors.textMuted,
+                                fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
+                            ),
                         )
                     }
-                },
-            ) {
-                Tab(
-                    selected = uiState.selectedTab == FlashcardTab.DUE,
-                    onClick = { onTabSelected(FlashcardTab.DUE) },
-                    text = {
-                        Text(
-                            text = "Due",
-                            style = MaterialTheme.typography.labelLarge.copy(
-                                fontWeight = if (uiState.selectedTab == FlashcardTab.DUE) FontWeight.Bold else FontWeight.Normal,
-                            ),
-                        )
-                    },
-                    selectedContentColor = colors.neonCyan,
-                    unselectedContentColor = colors.textMuted,
-                )
-                Tab(
-                    selected = uiState.selectedTab == FlashcardTab.ALL_WORDS,
-                    onClick = { onTabSelected(FlashcardTab.ALL_WORDS) },
-                    text = {
-                        Text(
-                            text = "All Words",
-                            style = MaterialTheme.typography.labelLarge.copy(
-                                fontWeight = if (uiState.selectedTab == FlashcardTab.ALL_WORDS) FontWeight.Bold else FontWeight.Normal,
-                            ),
-                        )
-                    },
-                    selectedContentColor = colors.neonCyan,
-                    unselectedContentColor = colors.textMuted,
-                )
+                }
             }
 
             when {

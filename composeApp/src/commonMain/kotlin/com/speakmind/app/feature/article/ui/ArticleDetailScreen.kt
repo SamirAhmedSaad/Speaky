@@ -35,6 +35,8 @@ import com.speakmind.app.ui.components.TtsSpeedButton
 import com.speakmind.app.ui.components.animatedComposable
 import androidx.compose.ui.graphics.Color
 import com.speakmind.app.ui.theme.levelColorOf
+import com.speakmind.app.ui.components.WordAction
+import com.speakmind.app.ui.components.WordActionBottomSheet
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import com.speakmind.app.ui.theme.SpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
@@ -53,6 +55,8 @@ fun NavGraphBuilder.articleDetailScreen() {
             onWordClicked = viewModel::onWordClicked,
             onDismissWord = viewModel::onDismissWord,
             onSaveWord = viewModel::onSaveWordToFlashcard,
+            onActionSelected = viewModel::onActionSelected,
+            onSpeakWord = viewModel::onSpeakWord,
         )
     }
 }
@@ -66,13 +70,21 @@ private fun ArticleDetailContent(
     onWordClicked: (String) -> Unit,
     onDismissWord: () -> Unit,
     onSaveWord: () -> Unit,
+    onActionSelected: (WordAction) -> Unit,
+    onSpeakWord: () -> Unit,
 ) {
-    // Word save dialog
     if (uiState.selectedWord != null) {
-        SaveWordDialog(
+        WordActionBottomSheet(
             word = uiState.selectedWord,
-            isSaved = uiState.wordSaved,
-            onSave = onSaveWord,
+            wordSaved = uiState.wordSaved,
+            selectedAction = uiState.selectedAction,
+            meaningText = uiState.meaningText,
+            partOfSpeech = uiState.partOfSpeech,
+            translationText = uiState.translationText,
+            isLoadingAction = uiState.isLoadingAction,
+            onActionSelected = onActionSelected,
+            onSaveWord = onSaveWord,
+            onSpeakWord = onSpeakWord,
             onDismiss = onDismissWord,
         )
     }
@@ -210,7 +222,7 @@ private fun ArticleDetailContent(
                     ) {
                         Column {
                             Text(
-                                text = "Tap any word to save it",
+                                text = "Tap any word for options",
                                 style = MaterialTheme.typography.labelSmall.copy(
                                     color = colors.textMuted.copy(alpha = 0.5f),
                                 ),
@@ -375,68 +387,3 @@ private fun ListenButton(
     }
 }
 
-@Composable
-private fun SaveWordDialog(
-    word: String,
-    isSaved: Boolean,
-    onSave: () -> Unit,
-    onDismiss: () -> Unit,
-) {
-    val dlgColors = com.speakmind.app.ui.theme.LocalSpeakMindColors.current
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        containerColor = dlgColors.surface,
-        titleContentColor = dlgColors.textPrimary,
-        title = {
-            Text(
-                text = word,
-                style = MaterialTheme.typography.headlineSmall.copy(
-                    fontWeight = FontWeight.Bold,
-                    color = dlgColors.neonCyan,
-                ),
-            )
-        },
-        text = {
-            Text(
-                text = if (isSaved) "Saved to flashcards!"
-                else "Save this word to your flashcards?",
-                style = MaterialTheme.typography.bodyMedium.copy(
-                    color = dlgColors.textSecondary,
-                ),
-            )
-        },
-        confirmButton = {
-            if (!isSaved) {
-                Button(
-                    onClick = onSave,
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = dlgColors.neonCyan,
-                        contentColor = dlgColors.backgroundDark,
-                    ),
-                ) {
-                    Text("Save")
-                }
-            } else {
-                Button(
-                    onClick = onDismiss,
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = dlgColors.neonCyan,
-                        contentColor = dlgColors.backgroundDark,
-                    ),
-                ) {
-                    Text("Done")
-                }
-            }
-        },
-        dismissButton = {
-            if (!isSaved) {
-                TextButton(onClick = onDismiss) {
-                    Text(
-                        "Cancel",
-                        color = dlgColors.textSecondary,
-                    )
-                }
-            }
-        },
-    )
-}

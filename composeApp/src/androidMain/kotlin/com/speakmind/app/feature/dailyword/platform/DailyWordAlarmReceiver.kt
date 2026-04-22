@@ -8,9 +8,9 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import app.cash.sqldelight.driver.android.AndroidSqliteDriver
 import com.speakmind.app.compose.R
 import com.speakmind.app.db.SpeakyDatabase
+import com.speakmind.app.di.createSpeakMindDriver
 import com.speakmind.app.feature.vocabulary.domain.model.VocabularyData
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.CoroutineScope
@@ -50,7 +50,7 @@ class DailyWordAlarmReceiver : BroadcastReceiver() {
     }
 
     private fun handleDailyWordAlarm(context: Context, intent: Intent) {
-        val driver = AndroidSqliteDriver(SpeakyDatabase.Schema, context, "speakmind.db")
+        val driver = createSpeakMindDriver(context)
         val database = SpeakyDatabase(driver)
         try {
             val today = Clock.System.todayIn(TimeZone.currentSystemDefault()).toString()

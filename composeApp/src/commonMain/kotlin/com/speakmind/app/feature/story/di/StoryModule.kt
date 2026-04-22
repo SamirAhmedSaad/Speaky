@@ -11,5 +11,5 @@ val storyModule = module {
     single { HttpClient() }
     single { StoryRepository(get(), get()) }
     viewModel { StoryViewModel(get(), get()) }
-    viewModel { params -> StoryDetailViewModel(params.get(), get(), get(), get(), get()) }
+    viewModel { params -> StoryDetailViewModel(params.get(), get(), get(), get(), get(), get(), get(), get()) }
 }

@@ -323,7 +323,7 @@ private fun StoryCard(story: Story, topic: StoryTopic, onClick: () -> Unit) {
             Spacer(modifier = Modifier.height(6.sdp))
 
             Text(
-                text = story.content,
+                text = story.content.stripMarkdown(),
                 style = MaterialTheme.typography.bodySmall.copy(
                     color = LocalSpeakMindColors.current.textMuted,
                     lineHeight = 18.ssp,

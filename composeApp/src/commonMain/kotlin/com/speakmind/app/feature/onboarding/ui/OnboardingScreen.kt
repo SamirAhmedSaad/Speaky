@@ -52,6 +52,8 @@ fun NavGraphBuilder.onboardingScreen() {
             uiState = uiState,
             onNameChanged = viewModel::onNameChanged,
             onNameSubmitted = viewModel::onNameSubmitted,
+            onNameConfirmed = viewModel::onNameConfirmed,
+            onNameChangeRequested = viewModel::onNameChangeRequested,
             onLevelSelected = viewModel::onLevelSelected,
             onContinue = viewModel::onContinue,
             onThemeToggle = viewModel::onThemeToggle,
@@ -72,6 +74,8 @@ private fun OnboardingContent(
     uiState: OnboardingUiState,
     onNameChanged: (String) -> Unit,
     onNameSubmitted: () -> Unit,
+    onNameConfirmed: () -> Unit,
+    onNameChangeRequested: () -> Unit,
     onLevelSelected: (String) -> Unit,
     onContinue: () -> Unit,
     onThemeToggle: (Boolean) -> Unit,
@@ -82,16 +86,21 @@ private fun OnboardingContent(
 
     val aiMessages = remember {
         listOf(
-            "Hey there! \u2728",
+            "Hey there! ✨",
             "I'm Sage, your personal AI English tutor.",
-            "I'll help you practice English through real conversations \u2014 correcting your mistakes, building your vocabulary, and making learning fun!",
-            "But first... what's your name? \uD83D\uDE0A",
+            "I'll help you practice English through real conversations — correcting your mistakes, building your vocabulary, and making learning fun!",
+            "But first... what's your name? 😊",
         )
     }
 
     var visibleCount by remember { mutableIntStateOf(0) }
     var showInput by remember { mutableStateOf(false) }
     var showTyping by remember { mutableStateOf(true) }
+
+    // Confirm step
+    var showConfirmTyping by remember { mutableStateOf(false) }
+    var showConfirmBubble by remember { mutableStateOf(false) }
+    var showConfirmOptions by remember { mutableStateOf(false) }
 
     // Level step messages
     var levelMsgVisible by remember { mutableIntStateOf(0) }
@@ -100,7 +109,7 @@ private fun OnboardingContent(
 
     val levelMessages = remember(uiState.name) {
         listOf(
-            "Nice to meet you, ${uiState.name}! \uD83D\uDE04",
+            "Nice to meet you, ${uiState.name}! 😄",
             "What's your current English level?",
         )
     }
@@ -118,8 +127,20 @@ private fun OnboardingContent(
         showInput = true
     }
 
-    // Animate level messages when step changes to LEVEL
     LaunchedEffect(uiState.step) {
+        if (uiState.step == OnboardingStep.CONFIRM_NAME) {
+            showConfirmTyping = true
+            delay(1000)
+            showConfirmTyping = false
+            showConfirmBubble = true
+            delay(300)
+            showConfirmOptions = true
+        }
+        if (uiState.step == OnboardingStep.NAME) {
+            showConfirmTyping = false
+            showConfirmBubble = false
+            showConfirmOptions = false
+        }
         if (uiState.step == OnboardingStep.LEVEL) {
             delay(400)
             for (i in levelMessages.indices) {
@@ -135,7 +156,7 @@ private fun OnboardingContent(
     }
 
     // Auto-scroll
-    LaunchedEffect(visibleCount, showInput, uiState.step, levelMsgVisible, showLevelPicker) {
+    LaunchedEffect(visibleCount, showInput, uiState.step, levelMsgVisible, showLevelPicker, showConfirmOptions) {
         delay(100)
         val itemCount = listState.layoutInfo.totalItemsCount
         if (itemCount > 0) {
@@ -204,7 +225,7 @@ private fun OnboardingContent(
                 contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 12.sdp),
                 verticalArrangement = Arrangement.spacedBy(10.sdp),
             ) {
-                // Step 1: Name messages
+                // Step 1: Intro messages
                 items(aiMessages.take(visibleCount)) { msg ->
                     AiBubble(text = msg)
                 }
@@ -219,15 +240,38 @@ private fun OnboardingContent(
                         NameInputCard(
                             name = uiState.name,
                             isValid = uiState.isNameValid,
+                            nameError = uiState.nameError,
                             onNameChanged = onNameChanged,
                             onSubmit = onNameSubmitted,
                         )
                     }
                 }
 
-                // User name bubble (shown after name is submitted)
-                if (uiState.step == OnboardingStep.LEVEL) {
-                    item { UserBubble(text = "I'm ${uiState.name}!") }
+                // Confirm step
+                if (uiState.step == OnboardingStep.CONFIRM_NAME ||
+                    uiState.step == OnboardingStep.LEVEL
+                ) {
+                    item { UserBubble(text = uiState.name) }
+                }
+
+                if (uiState.step == OnboardingStep.CONFIRM_NAME) {
+                    if (showConfirmTyping) {
+                        item { TypingBubble() }
+                    }
+                    if (showConfirmBubble) {
+                        item {
+                            AiBubble(text = "Is “${uiState.name}” really your name? 😊")
+                        }
+                    }
+                    if (showConfirmOptions) {
+                        item {
+                            Spacer(modifier = Modifier.height(4.sdp))
+                            ConfirmNameCard(
+                                onConfirm = onNameConfirmed,
+                                onChange = onNameChangeRequested,
+                            )
+                        }
+                    }
                 }
 
                 // Step 2: Level messages
@@ -250,7 +294,6 @@ private fun OnboardingContent(
                         }
                     }
 
-                    // User level bubble
                     if (uiState.selectedLevel.isNotEmpty()) {
                         item {
                             val desc = LEVEL_OPTIONS.first { it.first == uiState.selectedLevel }.second
@@ -261,20 +304,22 @@ private fun OnboardingContent(
 
                 item { Spacer(modifier = Modifier.height(100.sdp)) }
             }
-
         }
 
-        // Continue button — step 1: submit name, step 2: finish onboarding
+        // Continue button — only on LEVEL step
         val showButton = when (uiState.step) {
             OnboardingStep.NAME -> uiState.isNameValid && showInput
+            OnboardingStep.CONFIRM_NAME -> false
             OnboardingStep.LEVEL -> uiState.selectedLevel.isNotEmpty()
         }
         val buttonText = when (uiState.step) {
-            OnboardingStep.NAME -> "Continue \u2192"
-            OnboardingStep.LEVEL -> "Let's Start Learning! \uD83D\uDE80"
+            OnboardingStep.NAME -> "Continue →"
+            OnboardingStep.CONFIRM_NAME -> ""
+            OnboardingStep.LEVEL -> "Let's Start Learning! 🚀"
         }
-        val buttonAction = when (uiState.step) {
+        val buttonAction: () -> Unit = when (uiState.step) {
             OnboardingStep.NAME -> onNameSubmitted
+            OnboardingStep.CONFIRM_NAME -> ({})
             OnboardingStep.LEVEL -> onContinue
         }
 
@@ -311,6 +356,57 @@ private fun OnboardingContent(
                     )
                 }
             }
+        }
+    }
+}
+
+@Composable
+private fun ConfirmNameCard(
+    onConfirm: () -> Unit,
+    onChange: () -> Unit,
+) {
+    val colors = LocalSpeakMindColors.current
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(20.sdp))
+            .background(colors.surfaceVariant.copy(alpha = 0.4f))
+            .padding(12.sdp),
+        verticalArrangement = Arrangement.spacedBy(8.sdp),
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(14.sdp))
+                .background(colors.neonCyan.copy(alpha = 0.15f))
+                .border(1.5.dp, colors.neonCyan.copy(alpha = 0.4f), RoundedCornerShape(14.sdp))
+                .clickable { onConfirm() }
+                .padding(horizontal = 16.sdp, vertical = 14.sdp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Text(
+                text = "👋  Yes, that's me!",
+                style = MaterialTheme.typography.bodyLarge.copy(
+                    color = colors.neonCyan,
+                    fontWeight = FontWeight.SemiBold,
+                )
+            )
+        }
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(14.sdp))
+                .background(colors.surface.copy(alpha = 0.3f))
+                .clickable { onChange() }
+                .padding(horizontal = 16.sdp, vertical = 14.sdp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Text(
+                text = "✏️  Let me change it",
+                style = MaterialTheme.typography.bodyLarge.copy(
+                    color = colors.textSecondary,
+                )
+            )
         }
     }
 }
@@ -500,56 +596,69 @@ private fun TypingBubble() {
 private fun NameInputCard(
     name: String,
     isValid: Boolean,
+    nameError: String?,
     onNameChanged: (String) -> Unit,
     onSubmit: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
-    Row(
-        verticalAlignment = Alignment.CenterVertically,
+    Column(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(20.sdp))
             .background(colors.surfaceVariant.copy(alpha = 0.4f))
-            .padding(12.sdp)
+            .padding(12.sdp),
+        verticalArrangement = Arrangement.spacedBy(6.sdp),
     ) {
-        OutlinedTextField(
-            value = name,
-            onValueChange = onNameChanged,
-            placeholder = {
-                Text(
-                    "Type your name...",
-                    style = MaterialTheme.typography.bodyMedium.copy(color = colors.textMuted)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            OutlinedTextField(
+                value = name,
+                onValueChange = onNameChanged,
+                placeholder = {
+                    Text(
+                        "Type your name...",
+                        style = MaterialTheme.typography.bodyMedium.copy(color = colors.textMuted)
+                    )
+                },
+                modifier = Modifier.weight(1f),
+                shape = RoundedCornerShape(16.sdp),
+                isError = nameError != null,
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedBorderColor = if (nameError != null) MaterialTheme.colorScheme.error else colors.neonCyan.copy(alpha = 0.5f),
+                    unfocusedBorderColor = if (nameError != null) MaterialTheme.colorScheme.error.copy(alpha = 0.5f) else colors.surfaceVariant,
+                    cursorColor = colors.neonCyan,
+                    focusedTextColor = colors.textPrimary,
+                    unfocusedTextColor = colors.textPrimary,
+                    focusedContainerColor = colors.surface.copy(alpha = 0.5f),
+                    unfocusedContainerColor = colors.surface.copy(alpha = 0.3f),
+                ),
+                singleLine = true,
+                textStyle = MaterialTheme.typography.bodyLarge,
+                keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
+                keyboardActions = KeyboardActions(onDone = { if (isValid) onSubmit() }),
+            )
+            Spacer(modifier = Modifier.width(10.sdp))
+            IconButton(
+                onClick = { if (isValid) onSubmit() },
+                modifier = Modifier
+                    .size(48.sdp)
+                    .clip(CircleShape)
+                    .background(if (isValid) colors.neonCyan else colors.surfaceVariant)
+            ) {
+                Icon(
+                    Icons.AutoMirrored.Filled.Send,
+                    contentDescription = "Continue",
+                    tint = if (isValid) colors.backgroundDark else colors.textMuted,
+                    modifier = Modifier.size(22.sdp)
                 )
-            },
-            modifier = Modifier.weight(1f),
-            shape = RoundedCornerShape(16.sdp),
-            colors = OutlinedTextFieldDefaults.colors(
-                focusedBorderColor = colors.neonCyan.copy(alpha = 0.5f),
-                unfocusedBorderColor = colors.surfaceVariant,
-                cursorColor = colors.neonCyan,
-                focusedTextColor = colors.textPrimary,
-                unfocusedTextColor = colors.textPrimary,
-                focusedContainerColor = colors.surface.copy(alpha = 0.5f),
-                unfocusedContainerColor = colors.surface.copy(alpha = 0.3f),
-            ),
-            singleLine = true,
-            textStyle = MaterialTheme.typography.bodyLarge,
-            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
-            keyboardActions = KeyboardActions(onDone = { if (isValid) onSubmit() }),
-        )
-        Spacer(modifier = Modifier.width(10.sdp))
-        IconButton(
-            onClick = { if (isValid) onSubmit() },
-            modifier = Modifier
-                .size(48.sdp)
-                .clip(CircleShape)
-                .background(if (isValid) colors.neonCyan else colors.surfaceVariant)
-        ) {
-            Icon(
-                Icons.AutoMirrored.Filled.Send,
-                contentDescription = "Continue",
-                tint = if (isValid) colors.backgroundDark else colors.textMuted,
-                modifier = Modifier.size(22.sdp)
+            }
+        }
+        if (nameError != null) {
+            Text(
+                text = nameError,
+                style = MaterialTheme.typography.labelSmall.copy(
+                    color = MaterialTheme.colorScheme.error,
+                ),
+                modifier = Modifier.padding(start = 4.sdp),
             )
         }
     }
