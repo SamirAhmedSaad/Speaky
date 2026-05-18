@@ -3,6 +3,7 @@ package com.speakmind.app.feature.vocabulary.domain
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.vocabulary.data.VocabularyRepository
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer

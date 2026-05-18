@@ -69,10 +69,6 @@ private fun StoryDetailContent(
     val interstitialAd = rememberInterstitialAdState()
     val snackbarHostState = remember { SnackbarHostState() }
 
-    LaunchedEffect(uiState.story) {
-        if (uiState.story != null) interstitialAd.show()
-    }
-
     LaunchedEffect(uiState.wordSaved) {
         if (uiState.wordSaved) snackbarHostState.showSnackbar("Saved to flashcards!")
     }
@@ -135,7 +131,7 @@ private fun StoryDetailContent(
                             .padding(horizontal = 8.sdp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        IconButton(onClick = onBackClicked) {
+                        IconButton(onClick = { interstitialAd.show(onDismissed = onBackClicked) }) {
                             Icon(
                                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = "Back",

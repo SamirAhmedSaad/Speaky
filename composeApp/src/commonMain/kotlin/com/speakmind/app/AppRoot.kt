@@ -18,6 +18,7 @@ import com.speakmind.app.feature.wordlookup.ui.wordLookupScreen
 import com.speakmind.app.feature.download.ui.modelDownloadScreen
 import com.speakmind.app.feature.flashcard.ui.flashcardReviewScreen
 import com.speakmind.app.feature.home.ui.homeScreen
+import com.speakmind.app.feature.legal.ui.privacyPolicyScreen
 import com.speakmind.app.feature.onboarding.ui.onboardingScreen
 import com.speakmind.app.feature.story.ui.storiesScreen
 import com.speakmind.app.feature.story.ui.storyDetailScreen
@@ -93,6 +94,7 @@ fun AppRoot(startDestination: Any) {
             vocabWordListScreen()
             wordDetailScreen()
             wordLookupScreen()
+            privacyPolicyScreen(onBack = { navController.popBackStack() })
         }
     }
 }

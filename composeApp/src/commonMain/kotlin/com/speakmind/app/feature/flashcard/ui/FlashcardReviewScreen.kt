@@ -71,7 +71,7 @@ private fun FlashcardReviewContent(
     val snackbarHostState = remember { SnackbarHostState() }
 
     LaunchedEffect(uiState.reviewedCount) {
-        if (uiState.reviewedCount > 0 && uiState.reviewedCount % 5 == 0 && uiState.reviewedCount != lastAdShownAtCount) {
+        if (uiState.reviewedCount > 0 && uiState.reviewedCount % 15 == 0 && uiState.reviewedCount != lastAdShownAtCount) {
             lastAdShownAtCount = uiState.reviewedCount
             interstitialAd.show()
         }

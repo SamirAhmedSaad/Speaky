@@ -17,6 +17,7 @@ import com.speakmind.app.navigation.ArticleDetailDestination
 import com.speakmind.app.navigation.ChatDestination
 import com.speakmind.app.navigation.FlashcardReviewDestination
 import com.speakmind.app.navigation.NavigationManager
+import com.speakmind.app.navigation.PrivacyPolicyDestination
 import com.speakmind.app.navigation.StoriesDestination
 import com.speakmind.app.navigation.VocabCategoryDestination
 import com.speakmind.app.navigation.WordDetailDestination
@@ -225,6 +226,10 @@ class HomeViewModel(
 
     fun onWordLookupClicked() {
         navigationManager.navigate(WordLookupDestination)
+    }
+
+    fun onPrivacyPolicyClicked() {
+        navigationManager.navigate(PrivacyPolicyDestination)
     }
 
     fun onDailyWordClicked(id: Long) {

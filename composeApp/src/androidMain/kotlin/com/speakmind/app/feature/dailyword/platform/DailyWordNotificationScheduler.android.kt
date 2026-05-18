@@ -36,8 +36,6 @@ actual class DailyWordNotificationScheduler(private val context: Context) {
         val canExact = Build.VERSION.SDK_INT < Build.VERSION_CODES.S ||
             alarmManager.canScheduleExactAlarms()
 
-        Napier.d { "canScheduleExactAlarms: ${alarmManager.canScheduleExactAlarms()}, SDK: ${Build.VERSION.SDK_INT}" }
-
         return try {
             if (canExact) {
                 alarmManager.setExactAndAllowWhileIdle(

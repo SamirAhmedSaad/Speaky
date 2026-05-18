@@ -124,6 +124,7 @@ fun NavGraphBuilder.homeScreen() {
             onNotificationToggled = ::handleNotificationToggle,
             onWordLookupClick = viewModel::onWordLookupClicked,
             onAllLearnedWordsClick = viewModel::onAllLearnedWordsClicked,
+            onPrivacyPolicyClick = viewModel::onPrivacyPolicyClicked,
             onExactAlarmRationaleDismissed = viewModel::onExactAlarmRationaleDismissed,
             onExactAlarmRationaleConfirmed = {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
@@ -156,6 +157,7 @@ private fun HomeScreenContent(
     onNotificationToggled: (Boolean) -> Unit,
     onWordLookupClick: () -> Unit,
     onAllLearnedWordsClick: () -> Unit,
+    onPrivacyPolicyClick: () -> Unit = {},
     onExactAlarmRationaleDismissed: () -> Unit = {},
     onExactAlarmRationaleConfirmed: () -> Unit = {},
 ) {
@@ -322,6 +324,24 @@ private fun HomeScreenContent(
                                 onClick = { onScenarioClick(card.scenario.id) }
                             )
                         }
+                    }
+                }
+            }
+
+            // Footer
+            item {
+                Spacer(modifier = Modifier.height(16.sdp))
+                Box(
+                    modifier = Modifier.fillMaxWidth(),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    TextButton(onClick = onPrivacyPolicyClick) {
+                        Text(
+                            text = "Privacy Policy",
+                            style = MaterialTheme.typography.labelSmall.copy(
+                                color = colors.textMuted,
+                            ),
+                        )
                     }
                 }
             }

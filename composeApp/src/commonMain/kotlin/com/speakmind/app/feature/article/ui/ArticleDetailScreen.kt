@@ -33,6 +33,7 @@ import com.speakmind.app.navigation.ArticleDetailDestination
 import com.speakmind.app.ui.components.BannerAdView
 import com.speakmind.app.ui.components.TtsSpeedButton
 import com.speakmind.app.ui.components.animatedComposable
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.compose.ui.graphics.Color
 import com.speakmind.app.ui.theme.levelColorOf
 import com.speakmind.app.ui.components.WordAction
@@ -73,6 +74,8 @@ private fun ArticleDetailContent(
     onActionSelected: (WordAction) -> Unit,
     onSpeakWord: () -> Unit,
 ) {
+    val interstitialAd = rememberInterstitialAdState()
+
     if (uiState.selectedWord != null) {
         WordActionBottomSheet(
             word = uiState.selectedWord,
@@ -142,7 +145,7 @@ private fun ArticleDetailContent(
                             .padding(horizontal = 8.sdp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        IconButton(onClick = onBackClicked) {
+                        IconButton(onClick = { interstitialAd.show(onDismissed = onBackClicked) }) {
                             Icon(
                                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = "Back",

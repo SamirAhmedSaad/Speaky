@@ -131,7 +131,7 @@ private fun VocabWordListContent(
                             levelColor = levelColor,
                             onClick = {
                                 wordClickCount++
-                                if (wordClickCount % 5 == 0) {
+                                if (wordClickCount % 20 == 0) {
                                     interstitialAd.show()
                                 }
                                 onWordClick(index)

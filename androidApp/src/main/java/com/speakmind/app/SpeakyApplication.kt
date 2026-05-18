@@ -21,8 +21,9 @@ class SpeakyApplication : Application() {
         SDPConfig.setScalingRatio(360.0)
         Napier.base(DebugAntilog())
 
-        AdConfig.adsEnabled = false
-        AdConfig.useTestAds = (applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0
+        val isDebug = (applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0
+        AdConfig.adsEnabled = true
+        AdConfig.useTestAds = isDebug
 
         initKoin { androidContext(this@SpeakyApplication) }
 

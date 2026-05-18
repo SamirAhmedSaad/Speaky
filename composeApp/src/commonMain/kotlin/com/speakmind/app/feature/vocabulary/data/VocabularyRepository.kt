@@ -6,8 +6,7 @@ import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import speaky.composeapp.generated.resources.Res
 
-class VocabularyRepository {
-    private val json = Json { ignoreUnknownKeys = true }
+class VocabularyRepository(private val json: Json) {
     private var cachedData: VocabularyData? = null
 
     @OptIn(ExperimentalResourceApi::class)

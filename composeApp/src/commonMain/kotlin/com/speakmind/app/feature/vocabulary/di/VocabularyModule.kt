@@ -8,7 +8,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val vocabularyModule = module {
-    single { VocabularyRepository() }
+    single { VocabularyRepository(get()) }
     single { VocabRefreshService(get(), get()) }
     viewModel { VocabCategoryViewModel(get(), get()) }
     viewModel { params ->

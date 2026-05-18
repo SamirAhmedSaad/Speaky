@@ -75,8 +75,25 @@ class WiktionaryApiClient(private val httpClient: HttpClient) {
                 ?.mapNotNull { it.jsonPrimitive.content.stripHtml() }
                 ?: emptyList()
             parsed + raw
-        }.filter { it.isNotBlank() }.take(3)
+        }.filter { isUsableExample(it) }.take(3)
     }
 
-    private fun String.stripHtml(): String = replace(Regex("<[^>]+>"), "").trim()
+    private fun isUsableExample(text: String): Boolean {
+        if (text.isBlank()) return false
+        if (!text.contains(' ')) return false
+        if (text.length < 5) return false
+        return true
+    }
+
+    private fun String.stripHtml(): String =
+        replace(Regex("<[^>]+>"), "")
+            .replace("&nbsp;", " ")
+            .replace("&amp;", "&")
+            .replace("&lt;", "<")
+            .replace("&gt;", ">")
+            .replace("&quot;", "\"")
+            .replace("&#039;", "'")
+            .replace(Regex(" {2,}|[\t ]{3,}"), ", ")  // em-space or large gap → comma separator
+            .replace(Regex("\\s+"), " ")
+            .trim()
 }

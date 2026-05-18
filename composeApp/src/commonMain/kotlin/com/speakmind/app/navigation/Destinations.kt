@@ -44,3 +44,6 @@ data class ArticleDetailDestination(val scenarioId: String)
 @Serializable
 data object WordLookupDestination
 
+@Serializable
+data object PrivacyPolicyDestination
+
