@@ -62,6 +62,7 @@ class FirebaseCommunityRepository(
         firestore.collection("users").document(uid).set(
             mapOf(
                 "nickname" to nickname,
+                "nicknameSearch" to nickname.lowercase(),
                 "gender" to gender,
                 "lastSeen" to FieldValue.serverTimestamp(),
             )
@@ -95,13 +96,14 @@ class FirebaseCommunityRepository(
         val currentUid = auth.currentUser?.uid ?: run { close(); return@callbackFlow }
         val query = if (searchQuery.isBlank()) {
             firestore.collection("users")
-                .orderBy("nickname")
+                .orderBy("nicknameSearch")
                 .limit(30)
         } else {
-            val end = searchQuery + ''
+            val q = searchQuery.lowercase()
+            val end = q + ''
             firestore.collection("users")
-                .orderBy("nickname")
-                .startAt(searchQuery)
+                .orderBy("nicknameSearch")
+                .startAt(q)
                 .endAt(end)
                 .limit(30)
         }
