@@ -16,6 +16,7 @@ import com.speakmind.app.feature.community.data.repository.DAILY_MESSAGE_LIMIT
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.google.firebase.firestore.DocumentChange
 import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.flow
@@ -233,13 +234,19 @@ class FirebaseCommunityRepository(
     }
 
     override fun getTotalUnreadCount(): Flow<Int> = flow {
-        val count = database.speakMindQueries.getTotalUnread().executeAsOne()
-        emit(count.toInt())
+        while (true) {
+            val count = database.speakMindQueries.getTotalUnread().executeAsOne()
+            emit(count.toInt())
+            delay(3_000)
+        }
     }
 
     override fun getUnreadCounts(): Flow<Map<String, Int>> = flow {
-        val rows = database.speakMindQueries.getAllUnreadCounts().executeAsList()
-        emit(rows.associate { it.other_user_id to it.unread_count.toInt() })
+        while (true) {
+            val rows = database.speakMindQueries.getAllUnreadCounts().executeAsList()
+            emit(rows.associate { it.other_user_id to it.unread_count.toInt() })
+            delay(3_000)
+        }
     }
 
     override suspend fun markChatRead(chatId: String) {
@@ -251,18 +258,21 @@ class FirebaseCommunityRepository(
             close()
             return@callbackFlow
         }
+        var isFirstSnapshot = true
         val listener = firestore.collection("chats")
             .whereArrayContains("participants", currentUid)
             .addSnapshotListener { snapshot, error ->
                 if (error != null || snapshot == null) return@addSnapshotListener
                 for (change in snapshot.documentChanges) {
-                    if (change.type != DocumentChange.Type.MODIFIED) continue
+                    // On first snapshot, also process ADDED so offline-received msgs are counted
+                    val shouldProcess = change.type == DocumentChange.Type.MODIFIED ||
+                            (isFirstSnapshot && change.type == DocumentChange.Type.ADDED)
+                    if (!shouldProcess) continue
                     val doc = change.document
                     val chatId = doc.id
                     val lastSenderId = doc.getString("lastSenderId") ?: continue
-                    if (lastSenderId == currentUid) continue  // own message
+                    if (lastSenderId == currentUid) continue
                     val lastMessageTime = doc.getTimestamp("lastMessageTime")?.seconds ?: 0L
-                    // Only count if not already in local cache (avoids double-counting with screen listener)
                     val latestLocal = database.speakMindQueries
                         .getMessagesForChat(chatId).executeAsList()
                         .maxOfOrNull { it.timestamp } ?: 0L
@@ -272,6 +282,7 @@ class FirebaseCommunityRepository(
                         database.speakMindQueries.incrementUnreadCount(1L, chatId)
                     }
                 }
+                isFirstSnapshot = false
                 val total = try {
                     database.speakMindQueries.getTotalUnread().executeAsOne().toInt()
                 } catch (_: Exception) { 0 }
