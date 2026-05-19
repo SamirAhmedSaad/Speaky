@@ -445,10 +445,10 @@ private fun CommunityFab(
             Box(
                 modifier = Modifier
                     .align(Alignment.TopEnd)
-                    .offset(x = 4.sdp, y = (-4).sdp)
-                    .size(18.sdp)
+                    .offset(x = 2.sdp, y = (-2).sdp)
+                    .size(24.sdp)
                     .background(colors.error, CircleShape)
-                    .border(1.5.sdp, colors.backgroundDark, CircleShape),
+                    .border(2.sdp, colors.backgroundDark, CircleShape),
                 contentAlignment = Alignment.Center,
             ) {
                 Text(
@@ -456,7 +456,7 @@ private fun CommunityFab(
                     style = MaterialTheme.typography.labelSmall.copy(
                         color = Color.White,
                         fontWeight = FontWeight.Bold,
-                        fontSize = 8.ssp,
+                        fontSize = 11.ssp,
                     ),
                 )
             }
