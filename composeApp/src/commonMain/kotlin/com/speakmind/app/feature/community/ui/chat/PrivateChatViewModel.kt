@@ -38,6 +38,10 @@ class PrivateChatViewModel(
         observeMessages()
         syncPending()
         startOnlineHeartbeat()
+        // Clear badge immediately when screen opens, not just when messages arrive
+        viewModelScope.launch {
+            try { communityRepository.markChatRead(chatId) } catch (_: Exception) {}
+        }
     }
 
     private fun observeMessages() {

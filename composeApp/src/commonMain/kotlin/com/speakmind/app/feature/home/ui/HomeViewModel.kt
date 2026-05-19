@@ -78,14 +78,15 @@ class HomeViewModel(
     }
 
     private fun observeCommunityUnread() {
-        // Seed from local SQLite immediately
+        // Polls SQLite every 3s — picks up markChatRead resets immediately
         viewModelScope.launch {
-            val initial = try {
-                database.speakMindQueries.getTotalUnread().executeAsOne().toInt()
-            } catch (_: Exception) { 0 }
-            _uiState.value = _uiState.value.copy(communityUnreadCount = initial)
+            try {
+                communityRepository.getTotalUnreadCount().collect { count ->
+                    _uiState.value = _uiState.value.copy(communityUnreadCount = count)
+                }
+            } catch (_: Exception) {}
         }
-        // Then keep in sync with Firestore in real-time
+        // Firestore real-time listener — increments SQLite on new incoming messages
         viewModelScope.launch {
             try {
                 communityRepository.observeAllChatsForUnread().collect { count ->
