@@ -69,7 +69,10 @@ class CommunityUsersViewModel(
 
     private fun updateLastSeen() {
         viewModelScope.launch {
-            try { communityRepository.updateLastSeen() } catch (_: Exception) {}
+            while (true) {
+                try { communityRepository.updateLastSeen() } catch (_: Exception) {}
+                delay(30_000)
+            }
         }
     }
 

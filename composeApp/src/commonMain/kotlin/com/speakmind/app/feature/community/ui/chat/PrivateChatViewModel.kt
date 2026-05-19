@@ -9,6 +9,7 @@ import com.speakmind.app.navigation.NavigationManager
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 data class PrivateChatUiState(
@@ -36,6 +37,7 @@ class PrivateChatViewModel(
         _uiState.value = _uiState.value.copy(currentUserId = currentUid)
         observeMessages()
         syncPending()
+        startOnlineHeartbeat()
     }
 
     private fun observeMessages() {
@@ -51,6 +53,15 @@ class PrivateChatViewModel(
     private fun syncPending() {
         viewModelScope.launch {
             try { communityRepository.syncPendingMessages() } catch (_: Exception) {}
+        }
+    }
+
+    private fun startOnlineHeartbeat() {
+        viewModelScope.launch {
+            while (true) {
+                try { communityRepository.updateLastSeen() } catch (_: Exception) {}
+                delay(30_000)
+            }
         }
     }
 

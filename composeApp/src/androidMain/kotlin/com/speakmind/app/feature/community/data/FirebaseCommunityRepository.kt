@@ -248,7 +248,6 @@ class FirebaseCommunityRepository(
 
     override fun observeAllChatsForUnread(): Flow<Int> = callbackFlow {
         val currentUid = auth.currentUser?.uid ?: run {
-            trySend(0)
             close()
             return@callbackFlow
         }
