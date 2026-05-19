@@ -15,5 +15,5 @@ val homeModule = module {
     single { DailyTopicSelector() }
     single { NewsInLevelsRepository(get(), get()) }
     single { DailyTopicService(get(), get(), get(), get(), get()) }
-    viewModel { HomeViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { HomeViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
 }

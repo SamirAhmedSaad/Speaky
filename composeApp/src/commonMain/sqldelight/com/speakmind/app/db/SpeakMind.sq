@@ -303,3 +303,89 @@ UPDATE daily_words SET meaning = ?, sentences_json = ? WHERE word = ?;
 
 updateFlashcardMeaning:
 UPDATE flashcards SET grammar_note = ? WHERE word = ? AND context LIKE 'Word Builder:%';
+
+-- Community feature tables
+CREATE TABLE community_profile (
+    id INTEGER NOT NULL PRIMARY KEY DEFAULT 1,
+    firebase_uid TEXT NOT NULL DEFAULT '',
+    nickname TEXT NOT NULL DEFAULT '',
+    gender TEXT NOT NULL DEFAULT '',
+    photo_url TEXT NOT NULL DEFAULT ''
+);
+
+CREATE TABLE community_messages (
+    id TEXT NOT NULL PRIMARY KEY,
+    chat_id TEXT NOT NULL,
+    sender_id TEXT NOT NULL,
+    text_content TEXT NOT NULL,
+    timestamp INTEGER NOT NULL,
+    is_synced INTEGER NOT NULL DEFAULT 0
+);
+
+-- Community profile queries
+getCommunityProfile:
+SELECT * FROM community_profile WHERE id = 1;
+
+upsertCommunityProfile:
+INSERT OR REPLACE INTO community_profile (id, firebase_uid, nickname, gender, photo_url)
+VALUES (1, ?, ?, ?, ?);
+
+-- Community messages queries
+getMessagesForChat:
+SELECT * FROM community_messages WHERE chat_id = ? ORDER BY timestamp ASC;
+
+getPendingMessages:
+SELECT * FROM community_messages WHERE is_synced = 0 ORDER BY timestamp ASC;
+
+insertCommunityMessage:
+INSERT OR REPLACE INTO community_messages (id, chat_id, sender_id, text_content, timestamp, is_synced)
+VALUES (?, ?, ?, ?, ?, ?);
+
+markMessageSynced:
+UPDATE community_messages SET is_synced = 1 WHERE id = ?;
+
+deleteOldSyncedMessages:
+DELETE FROM community_messages WHERE is_synced = 1 AND timestamp < ?;
+
+-- Per-chat unread counts (local only, zero Firestore reads)
+CREATE TABLE community_unread (
+    chat_id TEXT NOT NULL PRIMARY KEY,
+    other_user_id TEXT NOT NULL DEFAULT '',
+    unread_count INTEGER NOT NULL DEFAULT 0
+);
+
+getTotalUnread:
+SELECT COALESCE(SUM(unread_count), 0) FROM community_unread;
+
+getAllUnreadCounts:
+SELECT other_user_id, unread_count FROM community_unread WHERE unread_count > 0;
+
+getUnreadForChat:
+SELECT unread_count FROM community_unread WHERE chat_id = ?;
+
+insertOrIgnoreUnread:
+INSERT OR IGNORE INTO community_unread (chat_id, other_user_id, unread_count)
+VALUES (?, ?, 0);
+
+incrementUnreadCount:
+UPDATE community_unread SET unread_count = unread_count + ? WHERE chat_id = ?;
+
+resetUnreadCount:
+UPDATE community_unread SET unread_count = 0 WHERE chat_id = ?;
+
+-- Daily chat quota (limit messages per day per user)
+CREATE TABLE community_daily_quota (
+    id INTEGER NOT NULL PRIMARY KEY DEFAULT 1,
+    date TEXT NOT NULL DEFAULT '',
+    messages_sent INTEGER NOT NULL DEFAULT 0
+);
+
+getCommunityDailyQuota:
+SELECT * FROM community_daily_quota WHERE id = 1;
+
+upsertCommunityDailyQuota:
+INSERT OR REPLACE INTO community_daily_quota (id, date, messages_sent)
+VALUES (1, ?, ?);
+
+incrementDailyMessageCount:
+UPDATE community_daily_quota SET messages_sent = messages_sent + 1 WHERE id = 1;

@@ -16,6 +16,7 @@ import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.NotificationsOff
+import com.speakmind.app.ui.icons.CommunityChatIcon
 import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material.icons.filled.DarkMode
 import androidx.compose.material.icons.filled.LightMode
@@ -31,6 +32,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -124,6 +126,7 @@ fun NavGraphBuilder.homeScreen() {
             onNotificationToggled = ::handleNotificationToggle,
             onWordLookupClick = viewModel::onWordLookupClicked,
             onAllLearnedWordsClick = viewModel::onAllLearnedWordsClicked,
+            onCommunityClick = viewModel::onCommunityClicked,
             onPrivacyPolicyClick = viewModel::onPrivacyPolicyClicked,
             onExactAlarmRationaleDismissed = viewModel::onExactAlarmRationaleDismissed,
             onExactAlarmRationaleConfirmed = {
@@ -157,6 +160,7 @@ private fun HomeScreenContent(
     onNotificationToggled: (Boolean) -> Unit,
     onWordLookupClick: () -> Unit,
     onAllLearnedWordsClick: () -> Unit,
+    onCommunityClick: () -> Unit = {},
     onPrivacyPolicyClick: () -> Unit = {},
     onExactAlarmRationaleDismissed: () -> Unit = {},
     onExactAlarmRationaleConfirmed: () -> Unit = {},
@@ -216,7 +220,7 @@ private fun HomeScreenContent(
 
         LazyColumn(
                 modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(bottom = 60.sdp)
+                contentPadding = PaddingValues(bottom = 100.sdp)
             ) {
             // Header with greeting
             item {
@@ -348,6 +352,115 @@ private fun HomeScreenContent(
         }
 
         BannerAdView(modifier = Modifier.align(Alignment.BottomCenter))
+
+        // Community FAB
+        CommunityFab(
+            onClick = onCommunityClick,
+            unreadCount = uiState.communityUnreadCount,
+            modifier = Modifier
+                .align(Alignment.BottomEnd)
+                .padding(end = 18.sdp, bottom = 66.sdp),
+        )
+    }
+}
+
+@Composable
+private fun CommunityFab(
+    onClick: () -> Unit,
+    unreadCount: Int = 0,
+    modifier: Modifier = Modifier,
+) {
+    val colors = LocalSpeakMindColors.current
+    val neonCyan = colors.neonCyan
+
+    val infiniteTransition = rememberInfiniteTransition(label = "fab_anim")
+    val floatY by infiniteTransition.animateFloat(
+        initialValue = 0f,
+        targetValue = -7f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(1400, easing = EaseInOutSine),
+            repeatMode = RepeatMode.Reverse,
+        ),
+        label = "float",
+    )
+    val glowAlpha by infiniteTransition.animateFloat(
+        initialValue = 0.2f,
+        targetValue = 0.55f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(1000, easing = EaseInOutSine),
+            repeatMode = RepeatMode.Reverse,
+        ),
+        label = "glowAlpha",
+    )
+    val glowScale by infiniteTransition.animateFloat(
+        initialValue = 1f,
+        targetValue = 1.22f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(1000, easing = EaseInOutSine),
+            repeatMode = RepeatMode.Reverse,
+        ),
+        label = "glowScale",
+    )
+    Box(
+        modifier = modifier.graphicsLayer { translationY = floatY },
+        contentAlignment = Alignment.Center,
+    ) {
+        // Pulsing outer glow
+        Box(
+            modifier = Modifier
+                .size(72.sdp)
+                .graphicsLayer { scaleX = glowScale; scaleY = glowScale }
+                .background(
+                    Brush.radialGradient(
+                        colors = listOf(neonCyan.copy(alpha = glowAlpha), Color.Transparent)
+                    ),
+                    CircleShape,
+                )
+        )
+        // FAB circle — clip before clickable so ripple is bounded to circle
+        Box(
+            modifier = Modifier
+                .size(54.sdp)
+                .clip(CircleShape)
+                .background(Brush.verticalGradient(listOf(colors.neonCyan, colors.neonCyanDark)))
+                .border(
+                    width = 1.5.sdp,
+                    brush = Brush.verticalGradient(
+                        listOf(Color.White.copy(alpha = 0.35f), Color.Transparent)
+                    ),
+                    shape = CircleShape,
+                )
+                .clickable(onClick = onClick),
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(
+                imageVector = CommunityChatIcon,
+                contentDescription = "Community Chat",
+                tint = colors.backgroundDark,
+                modifier = Modifier.size(28.sdp),
+            )
+        }
+        // Unread badge
+        if (unreadCount > 0) {
+            Box(
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .offset(x = 4.sdp, y = (-4).sdp)
+                    .size(18.sdp)
+                    .background(colors.error, CircleShape)
+                    .border(1.5.sdp, colors.backgroundDark, CircleShape),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(
+                    text = if (unreadCount > 9) "9+" else unreadCount.toString(),
+                    style = MaterialTheme.typography.labelSmall.copy(
+                        color = Color.White,
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 8.ssp,
+                    ),
+                )
+            }
+        }
     }
 }
 

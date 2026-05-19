@@ -10,6 +10,7 @@ import com.speakmind.app.feature.dailyword.platform.DailyWordNotificationSchedul
 import com.speakmind.app.feature.home.domain.DailyTopicService
 import com.speakmind.app.feature.home.domain.model.DailyCard
 import com.speakmind.app.feature.ai.platform.ModelDownloader
+import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.geminichat.data.ApiKeyStore
 import com.speakmind.app.ui.theme.ThemeManager
 import com.speakmind.app.navigation.AiSetupDestination
@@ -17,6 +18,7 @@ import com.speakmind.app.navigation.ArticleDetailDestination
 import com.speakmind.app.navigation.ChatDestination
 import com.speakmind.app.navigation.FlashcardReviewDestination
 import com.speakmind.app.navigation.NavigationManager
+import com.speakmind.app.navigation.CommunitySetupDestination
 import com.speakmind.app.navigation.PrivacyPolicyDestination
 import com.speakmind.app.navigation.StoriesDestination
 import com.speakmind.app.navigation.VocabCategoryDestination
@@ -49,6 +51,7 @@ data class HomeUiState(
     val notificationsEnabled: Boolean = true,
     val showTimePicker: Boolean = false,
     val showExactAlarmRationale: Boolean = false,
+    val communityUnreadCount: Int = 0,
 )
 
 val ALL_LEVELS = listOf("A1", "A2", "B1", "B2", "C1")
@@ -63,6 +66,7 @@ class HomeViewModel(
     private val dailyWordService: DailyWordService,
     private val dailyWordRepository: DailyWordRepository,
     private val notificationScheduler: DailyWordNotificationScheduler,
+    private val communityRepository: CommunityRepository,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(HomeUiState())
@@ -70,6 +74,25 @@ class HomeViewModel(
 
     init {
         loadHomeData()
+        observeCommunityUnread()
+    }
+
+    private fun observeCommunityUnread() {
+        // Seed from local SQLite immediately
+        viewModelScope.launch {
+            val initial = try {
+                database.speakMindQueries.getTotalUnread().executeAsOne().toInt()
+            } catch (_: Exception) { 0 }
+            _uiState.value = _uiState.value.copy(communityUnreadCount = initial)
+        }
+        // Then keep in sync with Firestore in real-time
+        viewModelScope.launch {
+            try {
+                communityRepository.observeAllChatsForUnread().collect { count ->
+                    _uiState.value = _uiState.value.copy(communityUnreadCount = count)
+                }
+            } catch (_: Exception) {}
+        }
     }
 
     private fun loadHomeData() {
@@ -230,6 +253,10 @@ class HomeViewModel(
 
     fun onPrivacyPolicyClicked() {
         navigationManager.navigate(PrivacyPolicyDestination)
+    }
+
+    fun onCommunityClicked() {
+        navigationManager.navigate(CommunitySetupDestination)
     }
 
     fun onDailyWordClicked(id: Long) {

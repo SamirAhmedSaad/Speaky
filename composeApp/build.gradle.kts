@@ -53,6 +53,9 @@ kotlin {
             implementation(libs.google.ads)
             implementation(libs.google.auth)
             implementation(project(":llama"))
+            implementation(libs.firebase.auth)
+            implementation(libs.firebase.firestore)
+            implementation(libs.kotlinx.coroutines.play.services)
         }
         iosMain.dependencies {
             implementation(libs.compose.runtime)
@@ -86,6 +89,8 @@ kotlin {
             implementation(libs.sqldelight.coroutines)
             implementation(libs.ktor.client.core)
             implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.coil.compose)
+            implementation(libs.coil.network.ktor)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

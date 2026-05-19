@@ -59,6 +59,32 @@ fun createSpeakMindDriver(context: Context): SqlDriver {
         "ALTER TABLE user_settings ADD COLUMN app_launch_count INTEGER NOT NULL DEFAULT 0",
         "ALTER TABLE user_settings ADD COLUMN exact_alarm_dialog_count INTEGER NOT NULL DEFAULT 0",
         "ALTER TABLE progress ADD COLUMN vocab_version INTEGER NOT NULL DEFAULT 0",
+        """CREATE TABLE IF NOT EXISTS community_profile (
+            id INTEGER NOT NULL PRIMARY KEY DEFAULT 1,
+            firebase_uid TEXT NOT NULL DEFAULT '',
+            nickname TEXT NOT NULL DEFAULT '',
+            gender TEXT NOT NULL DEFAULT '',
+            photo_url TEXT NOT NULL DEFAULT ''
+        )""",
+        "ALTER TABLE community_profile ADD COLUMN photo_url TEXT NOT NULL DEFAULT ''",
+        """CREATE TABLE IF NOT EXISTS community_messages (
+            id TEXT NOT NULL PRIMARY KEY,
+            chat_id TEXT NOT NULL,
+            sender_id TEXT NOT NULL,
+            text_content TEXT NOT NULL,
+            timestamp INTEGER NOT NULL,
+            is_synced INTEGER NOT NULL DEFAULT 0
+        )""",
+        """CREATE TABLE IF NOT EXISTS community_unread (
+            chat_id TEXT NOT NULL PRIMARY KEY,
+            other_user_id TEXT NOT NULL DEFAULT '',
+            unread_count INTEGER NOT NULL DEFAULT 0
+        )""",
+        """CREATE TABLE IF NOT EXISTS community_daily_quota (
+            id INTEGER NOT NULL PRIMARY KEY DEFAULT 1,
+            date TEXT NOT NULL DEFAULT '',
+            messages_sent INTEGER NOT NULL DEFAULT 0
+        )""",
     ).forEach { sql ->
         try { driver.execute(null, sql.trimIndent(), 0) } catch (_: Exception) {}
     }

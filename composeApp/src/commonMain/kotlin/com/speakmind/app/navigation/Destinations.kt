@@ -47,3 +47,17 @@ data object WordLookupDestination
 @Serializable
 data object PrivacyPolicyDestination
 
+@Serializable
+data object CommunitySetupDestination
+
+@Serializable
+data object CommunityUsersListDestination
+
+@Serializable
+data class PrivateChatDestination(
+    val otherUserId: String,
+    val otherNickname: String,
+    val otherGender: String,
+    val otherPhotoUrl: String = "",
+)
+

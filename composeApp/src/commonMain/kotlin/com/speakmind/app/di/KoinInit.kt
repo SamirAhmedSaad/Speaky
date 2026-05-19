@@ -12,6 +12,7 @@ import com.speakmind.app.feature.dailyword.di.dailyWordModule
 import com.speakmind.app.feature.vocabulary.di.vocabularyModule
 import com.speakmind.app.feature.onboarding.di.onboardingModule
 import com.speakmind.app.feature.learning.di.learningModule
+import com.speakmind.app.feature.community.di.communityModule
 import com.speakmind.app.feature.wordlookup.di.wordLookupModule
 import com.speakmind.app.feature.voice.di.voiceModule
 import com.speakmind.app.navigation.navigationModule
@@ -39,6 +40,7 @@ fun initKoin(config: (KoinApplication.() -> Unit)? = null) {
             storyModule,
             articleModule,
             wordLookupModule,
+            communityModule,
         )
     }
 }

@@ -5,6 +5,8 @@ import app.cash.sqldelight.driver.native.NativeSqliteDriver
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.ai.platform.ModelDownloader
 import com.speakmind.app.feature.ai.platform.NoOpModelDownloader
+import com.speakmind.app.feature.community.data.NoOpCommunityRepository
+import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.dailyword.platform.DailyWordNotificationScheduler
 import com.speakmind.app.feature.geminichat.data.ApiKeyStore
 import org.koin.core.module.Module
@@ -93,9 +95,45 @@ actual val appModule: Module
                     )
                 """.trimIndent(), 0)
             } catch (_: Exception) {}
+            try {
+                driver.execute(null, """
+                    CREATE TABLE IF NOT EXISTS community_profile (
+                        id INTEGER NOT NULL PRIMARY KEY DEFAULT 1,
+                        firebase_uid TEXT NOT NULL DEFAULT '',
+                        nickname TEXT NOT NULL DEFAULT '',
+                        gender TEXT NOT NULL DEFAULT '',
+                        photo_url TEXT NOT NULL DEFAULT ''
+                    )
+                """.trimIndent(), 0)
+            } catch (_: Exception) {}
+            try {
+                driver.execute(null, "ALTER TABLE community_profile ADD COLUMN photo_url TEXT NOT NULL DEFAULT ''", 0)
+            } catch (_: Exception) {}
+            try {
+                driver.execute(null, """
+                    CREATE TABLE IF NOT EXISTS community_messages (
+                        id TEXT NOT NULL PRIMARY KEY,
+                        chat_id TEXT NOT NULL,
+                        sender_id TEXT NOT NULL,
+                        text_content TEXT NOT NULL,
+                        timestamp INTEGER NOT NULL,
+                        is_synced INTEGER NOT NULL DEFAULT 0
+                    )
+                """.trimIndent(), 0)
+            } catch (_: Exception) {}
+            try {
+                driver.execute(null, """
+                    CREATE TABLE IF NOT EXISTS community_unread (
+                        chat_id TEXT NOT NULL PRIMARY KEY,
+                        other_user_id TEXT NOT NULL DEFAULT '',
+                        unread_count INTEGER NOT NULL DEFAULT 0
+                    )
+                """.trimIndent(), 0)
+            } catch (_: Exception) {}
             driver
         }
         single<ModelDownloader> { NoOpModelDownloader() }
         single { DailyWordNotificationScheduler() }
         single { ApiKeyStore() }
+        single<CommunityRepository> { NoOpCommunityRepository() }
     }
