@@ -3,6 +3,9 @@ package com.speakmind.app.feature.onboarding.ui
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.db.SpeakyDatabase
+import com.speakmind.app.feature.ai.domain.NameExtractor
+import com.speakmind.app.feature.profile.domain.NameValidationResult
+import com.speakmind.app.feature.profile.domain.NameValidator
 import com.speakmind.app.navigation.HomeDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.ui.theme.ThemeManager
@@ -30,28 +33,29 @@ class OnboardingViewModel(
     private val _uiState = MutableStateFlow(OnboardingUiState())
     val uiState: StateFlow<OnboardingUiState> = _uiState.asStateFlow()
 
-    fun onNameChanged(name: String) {
-        if (name.length > 30) return
-        val trimmed = name.trim()
-        val error = when {
-            trimmed.length < 2 -> null
-            name.any { it.isDigit() } -> "Name shouldn't contain numbers"
-            !name.all { it.isLetter() || it == ' ' || it == '-' || it == '\'' } ->
-                "Name can only contain letters"
-            else -> null
-        }
-        val hasInvalidChars = !name.all { it.isLetter() || it == ' ' || it == '-' || it == '\'' }
+    fun onNameChanged(raw: String) {
+        if (raw.length > 30) return
+        val trimmed = raw.trim()
+        val validationResult = if (trimmed.length >= 2) NameValidator.validate(trimmed) else null
+        val error = validationResult?.let { NameValidator.errorMessage(it) }
+        val isValid = validationResult == NameValidationResult.Valid
         _uiState.value = _uiState.value.copy(
-            name = name,
-            isNameValid = error == null && trimmed.length >= 2 && !hasInvalidChars,
-            nameError = if (trimmed.length >= 2) error else null,
+            name = raw,
+            isNameValid = isValid,
+            nameError = error,
         )
     }
 
     fun onNameSubmitted() {
-        if (!_uiState.value.isNameValid) return
+        val raw = _uiState.value.name.trim()
+        val extracted = NameExtractor.extract(raw)
+        val name = if (extracted != null) extracted else raw.split(" ").joinToString(" ") { word ->
+            if (word.isEmpty()) word else word.replaceFirstChar { it.uppercase() }
+        }
+        val validationResult = NameValidator.validate(name.trim())
+        if (validationResult != NameValidationResult.Valid) return
         _uiState.value = _uiState.value.copy(
-            name = _uiState.value.name.trim(),
+            name = name,
             step = OnboardingStep.CONFIRM_NAME,
         )
     }

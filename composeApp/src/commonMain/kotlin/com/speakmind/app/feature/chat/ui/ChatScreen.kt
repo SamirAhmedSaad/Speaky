@@ -50,7 +50,6 @@ import com.speakmind.app.feature.chat.domain.model.MessageRole
 import com.speakmind.app.navigation.ChatDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.components.TtsSpeedButton
-import com.speakmind.app.ui.components.rememberInterstitialAdState
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -98,19 +97,6 @@ private fun ChatScreenContent(
 ) {
     val colors = LocalSpeakMindColors.current
     val listState = rememberLazyListState()
-    val interstitialAd = rememberInterstitialAdState()
-
-    // Count AI messages and show interstitial every 10
-    val aiMessageCount = uiState.messages.count { it.role == MessageRole.ASSISTANT }
-    var lastAdShownAtCount by remember { mutableStateOf(0) }
-
-    LaunchedEffect(aiMessageCount) {
-        if (aiMessageCount > 0 && aiMessageCount % 10 == 0 && aiMessageCount != lastAdShownAtCount) {
-            lastAdShownAtCount = aiMessageCount
-            interstitialAd.show()
-        }
-    }
-
     LaunchedEffect(uiState.messages.size) {
         if (uiState.messages.isNotEmpty()) {
             listState.animateScrollToItem(uiState.messages.size - 1)

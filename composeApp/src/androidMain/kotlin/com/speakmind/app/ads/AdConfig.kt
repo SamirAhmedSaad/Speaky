@@ -1,5 +1,9 @@
 package com.speakmind.app.ads
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+
 object AdConfig {
 
     // Google's official test ad unit IDs — safe to click during development
@@ -13,6 +17,9 @@ object AdConfig {
     var adsEnabled: Boolean = true
     var useTestAds: Boolean = false
     var showBannerAds: Boolean = true
+    // Set to true only after consent is gathered and AdMob SDK is initialized.
+    // Compose-observable so BannerAdView recomposes and loads the ad automatically.
+    var adsReady: Boolean by mutableStateOf(false)
 
     val BANNER_AD_UNIT_ID: String
         get() = if (useTestAds) TEST_BANNER else REAL_BANNER

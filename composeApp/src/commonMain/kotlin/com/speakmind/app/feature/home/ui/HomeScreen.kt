@@ -24,6 +24,7 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.Keyboard
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Bookmarks
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.window.Dialog
@@ -125,6 +126,7 @@ fun NavGraphBuilder.homeScreen() {
             onNotificationTimeChanged = viewModel::onNotificationTimeChanged,
             onNotificationToggled = ::handleNotificationToggle,
             onWordLookupClick = viewModel::onWordLookupClicked,
+            onMyGroupsClick = viewModel::onMyGroupsClicked,
             onAllLearnedWordsClick = viewModel::onAllLearnedWordsClicked,
             onCommunityClick = viewModel::onCommunityClicked,
             onPrivacyPolicyClick = viewModel::onPrivacyPolicyClicked,
@@ -137,6 +139,10 @@ fun NavGraphBuilder.homeScreen() {
                 }
                 viewModel.onExactAlarmRationaleDismissed()
             },
+            onNameClick = viewModel::onNameClicked,
+            onNameSheetDismissed = viewModel::onNameSheetDismissed,
+            onNameSheetInputChanged = viewModel::onNameSheetInputChanged,
+            onNameSheetSaved = viewModel::onNameSheetSaved,
         )
     }
 }
@@ -159,11 +165,16 @@ private fun HomeScreenContent(
     onNotificationTimeChanged: (Int, Int) -> Unit,
     onNotificationToggled: (Boolean) -> Unit,
     onWordLookupClick: () -> Unit,
+    onMyGroupsClick: () -> Unit = {},
     onAllLearnedWordsClick: () -> Unit,
     onCommunityClick: () -> Unit = {},
     onPrivacyPolicyClick: () -> Unit = {},
     onExactAlarmRationaleDismissed: () -> Unit = {},
     onExactAlarmRationaleConfirmed: () -> Unit = {},
+    onNameClick: () -> Unit = {},
+    onNameSheetDismissed: () -> Unit = {},
+    onNameSheetInputChanged: (String) -> Unit = {},
+    onNameSheetSaved: () -> Unit = {},
 ) {
     val colors = LocalSpeakMindColors.current
     val isDark = MaterialTheme.colorScheme.background.luminance() < 0.5f
@@ -218,6 +229,17 @@ private fun HomeScreenContent(
             )
         }
 
+        // Name update bottom sheet
+        if (uiState.showNameSheet) {
+            NameUpdateBottomSheet(
+                input = uiState.nameSheetInput,
+                error = uiState.nameSheetError,
+                onInputChanged = onNameSheetInputChanged,
+                onSave = onNameSheetSaved,
+                onDismiss = onNameSheetDismissed,
+            )
+        }
+
         LazyColumn(
                 modifier = Modifier.fillMaxSize(),
                 contentPadding = PaddingValues(bottom = 100.sdp)
@@ -231,6 +253,7 @@ private fun HomeScreenContent(
                     onLevelClick = onLevelBadgeClick,
                     isDark = isDark,
                     onThemeToggle = onThemeToggle,
+                    onNameClick = onNameClick,
                 )
             }
 
@@ -285,6 +308,14 @@ private fun HomeScreenContent(
                         modifier = Modifier.weight(1f),
                     )
                 }
+                Spacer(modifier = Modifier.height(12.sdp))
+                MyGroupsBox(
+                    groupCount = uiState.groupCount,
+                    onClick = onMyGroupsClick,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 20.sdp),
+                )
             }
 
             // Reading & Listening section
@@ -356,7 +387,6 @@ private fun HomeScreenContent(
         // Community FAB
         CommunityFab(
             onClick = onCommunityClick,
-            unreadCount = uiState.communityUnreadCount,
             modifier = Modifier
                 .align(Alignment.BottomEnd)
                 .padding(end = 18.sdp, bottom = 66.sdp),
@@ -367,7 +397,6 @@ private fun HomeScreenContent(
 @Composable
 private fun CommunityFab(
     onClick: () -> Unit,
-    unreadCount: Int = 0,
     modifier: Modifier = Modifier,
 ) {
     val colors = LocalSpeakMindColors.current
@@ -440,27 +469,6 @@ private fun CommunityFab(
                 modifier = Modifier.size(28.sdp),
             )
         }
-        // Unread badge
-        if (unreadCount > 0) {
-            Box(
-                modifier = Modifier
-                    .align(Alignment.TopEnd)
-                    .offset(x = 2.sdp, y = (-2).sdp)
-                    .size(24.sdp)
-                    .background(colors.error, CircleShape)
-                    .border(2.sdp, colors.backgroundDark, CircleShape),
-                contentAlignment = Alignment.Center,
-            ) {
-                Text(
-                    text = if (unreadCount > 9) "9+" else unreadCount.toString(),
-                    style = MaterialTheme.typography.labelSmall.copy(
-                        color = Color.White,
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 11.ssp,
-                    ),
-                )
-            }
-        }
     }
 }
 
@@ -472,6 +480,7 @@ private fun HomeHeader(
     onLevelClick: () -> Unit,
     isDark: Boolean,
     onThemeToggle: (Boolean) -> Unit,
+    onNameClick: () -> Unit = {},
 ) {
     val colors = LocalSpeakMindColors.current
 
@@ -489,7 +498,7 @@ private fun HomeHeader(
         ) {
             // Greeting
             Column(
-                modifier = Modifier.weight(1f,false)
+                modifier = Modifier.weight(1f, false)
             ) {
                 Text(
                     text = "Hello",
@@ -502,7 +511,11 @@ private fun HomeHeader(
                     style = MaterialTheme.typography.titleLarge.copy(
                         color = colors.textPrimary,
                         fontWeight = FontWeight.Bold
-                    )
+                    ),
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(8.sdp))
+                        .clickable(onClick = onNameClick)
+                        .padding(vertical = 2.sdp),
                 )
             }
 
@@ -765,6 +778,69 @@ private fun SavedWordsBox(savedCount: Long, onClick: () -> Unit, modifier: Modif
             style = MaterialTheme.typography.labelSmall.copy(
                 color = colors.textMuted,
             )
+        )
+    }
+}
+
+@Composable
+private fun MyGroupsBox(groupCount: Long, onClick: () -> Unit, modifier: Modifier = Modifier) {
+    val colors = LocalSpeakMindColors.current
+    Row(
+        modifier = modifier
+            .clip(RoundedCornerShape(16.sdp))
+            .background(
+                Brush.verticalGradient(
+                    colors = listOf(
+                        colors.magenta.copy(alpha = 0.05f),
+                        colors.surfaceVariant.copy(alpha = 0.7f),
+                    )
+                )
+            )
+            .border(
+                width = 1.sdp,
+                color = colors.magenta.copy(alpha = 0.22f),
+                shape = RoundedCornerShape(16.sdp)
+            )
+            .clickable(onClick = onClick)
+            .padding(horizontal = 16.sdp, vertical = 14.sdp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Box(
+            modifier = Modifier
+                .size(44.sdp)
+                .clip(RoundedCornerShape(12.sdp))
+                .background(colors.magenta.copy(alpha = 0.12f)),
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(
+                imageVector = Icons.Default.Bookmarks,
+                contentDescription = null,
+                tint = colors.magenta,
+                modifier = Modifier.size(24.sdp),
+            )
+        }
+        Spacer(modifier = Modifier.width(12.sdp))
+        Column(modifier = Modifier.weight(1f)) {
+            Text(
+                text = "My Groups",
+                style = MaterialTheme.typography.titleSmall.copy(
+                    color = colors.textPrimary,
+                    fontWeight = FontWeight.Bold,
+                )
+            )
+            Text(
+                text = if (groupCount > 0) "$groupCount group${if (groupCount != 1L) "s" else ""} · tap to manage"
+                       else "Create groups to collect words by topic",
+                style = MaterialTheme.typography.labelSmall.copy(
+                    color = colors.textMuted,
+                )
+            )
+        }
+        Icon(
+            imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
+            contentDescription = null,
+            tint = colors.magenta.copy(alpha = 0.5f),
+            modifier = Modifier.size(20.sdp),
         )
     }
 }
@@ -1371,6 +1447,96 @@ private fun ShimmerTopicsRow() {
                             .clip(RoundedCornerShape(4.sdp))
                             .background(colors.textMuted.copy(alpha = shimmerAlpha * 0.3f))
                     )
+                }
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun NameUpdateBottomSheet(
+    input: String,
+    error: String?,
+    onInputChanged: (String) -> Unit,
+    onSave: () -> Unit,
+    onDismiss: () -> Unit,
+) {
+    val colors = LocalSpeakMindColors.current
+    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+
+    ModalBottomSheet(
+        onDismissRequest = onDismiss,
+        sheetState = sheetState,
+        containerColor = colors.surface,
+        dragHandle = {
+            Box(
+                modifier = Modifier
+                    .padding(vertical = 10.sdp)
+                    .width(36.sdp)
+                    .height(4.sdp)
+                    .clip(RoundedCornerShape(2.sdp))
+                    .background(colors.textMuted.copy(alpha = 0.4f))
+            )
+        },
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .navigationBarsPadding()
+                .padding(horizontal = 24.sdp)
+                .padding(bottom = 32.sdp),
+            verticalArrangement = Arrangement.spacedBy(16.sdp),
+        ) {
+            Text(
+                text = "Update your name",
+                style = MaterialTheme.typography.titleMedium.copy(
+                    color = colors.textPrimary,
+                    fontWeight = FontWeight.Bold,
+                ),
+            )
+            OutlinedTextField(
+                value = input,
+                onValueChange = onInputChanged,
+                label = { Text("Name") },
+                placeholder = { Text("e.g. Sara") },
+                isError = error != null,
+                supportingText = {
+                    if (error != null) {
+                        Text(
+                            text = error,
+                            color = MaterialTheme.colorScheme.error,
+                            style = MaterialTheme.typography.labelSmall,
+                        )
+                    }
+                },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedBorderColor = colors.neonCyan,
+                    focusedLabelColor = colors.neonCyan,
+                    cursorColor = colors.neonCyan,
+                    unfocusedTextColor = colors.textPrimary,
+                    focusedTextColor = colors.textPrimary,
+                ),
+            )
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.sdp),
+            ) {
+                OutlinedButton(
+                    onClick = onDismiss,
+                    modifier = Modifier.weight(1f),
+                    border = androidx.compose.foundation.BorderStroke(1.sdp, colors.textMuted.copy(alpha = 0.4f)),
+                ) {
+                    Text("Cancel", color = colors.textSecondary)
+                }
+                Button(
+                    onClick = onSave,
+                    modifier = Modifier.weight(1f),
+                    colors = ButtonDefaults.buttonColors(containerColor = colors.neonCyan),
+                ) {
+                    Text("Save", color = colors.backgroundDark, fontWeight = FontWeight.Bold)
                 }
             }
         }

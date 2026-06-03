@@ -1,10 +1,11 @@
 package com.speakmind.app.feature.community.data
 
-import com.speakmind.app.feature.community.data.model.ChatMessage
+import com.speakmind.app.feature.community.data.model.ChannelMessage
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flowOf
 
 class NoOpCommunityRepository : CommunityRepository {
@@ -14,13 +15,11 @@ class NoOpCommunityRepository : CommunityRepository {
     override suspend fun getLocalProfile(): CommunityLocalProfile? = null
     override suspend fun getUserNickname(): String = ""
     override fun getUsers(searchQuery: String, lastUid: String?): Flow<List<CommunityUser>> = flowOf(emptyList())
-    override fun getMessages(chatId: String): Flow<List<ChatMessage>> = flowOf(emptyList())
-    override suspend fun sendMessage(chatId: String, text: String) {}
     override suspend fun updateLastSeen() {}
-    override suspend fun syncPendingMessages() {}
-    override fun getTotalUnreadCount(): Flow<Int> = flowOf(0)
-    override fun getUnreadCounts(): Flow<Map<String, Int>> = flowOf(emptyMap())
-    override suspend fun markChatRead(chatId: String) {}
     override suspend fun checkAndIncrementDailyQuota(): Boolean = true
-    override fun observeAllChatsForUnread(): Flow<Int> = flowOf(0)
+    override suspend fun loadChannelPage(pageSize: Int, beforeTimestampSeconds: Long?): List<ChannelMessage> = emptyList()
+    override fun observeNewChannelMessages(afterTimestampSeconds: Long): Flow<ChannelMessage> = emptyFlow()
+    override suspend fun sendChannelMessage(text: String): ChannelMessage? = null
+    override suspend fun syncPendingChannelMessages() {}
+    override suspend fun updateUserName(name: String) {}
 }

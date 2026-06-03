@@ -15,9 +15,3 @@ data class CommunityLocalProfile(
     val photoUrl: String? = null,
 )
 
-data class ConversationPreview(
-    val otherUser: CommunityUser,
-    val lastMessage: String,
-    val lastMessageTime: Long,
-    val unreadCount: Int = 0,
-)

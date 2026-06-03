@@ -22,7 +22,7 @@ import io.github.aakira.napier.Napier
 
 @Composable
 actual fun BannerAdView(modifier: Modifier) {
-    if (!AdConfig.adsEnabled || !AdConfig.showBannerAds) return
+    if (!AdConfig.adsEnabled || !AdConfig.showBannerAds || !AdConfig.adsReady) return
     Box(
         modifier = modifier
             .fillMaxWidth()

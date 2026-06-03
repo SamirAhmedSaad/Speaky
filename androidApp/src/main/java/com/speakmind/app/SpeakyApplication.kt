@@ -4,7 +4,6 @@ import android.app.Application
 import android.content.pm.ApplicationInfo
 import app.cash.sqldelight.db.SqlDriver
 import com.speakmind.app.ads.AdConfig
-import com.speakmind.app.ads.AdManager
 import com.speakmind.app.di.initKoin
 import io.github.aakira.napier.DebugAntilog
 import io.github.aakira.napier.Napier
@@ -32,7 +31,5 @@ class SpeakyApplication : Application() {
         CoroutineScope(Dispatchers.IO).launch {
             getKoin().get<SqlDriver>()
         }
-
-        AdManager.init(this)
     }
 }

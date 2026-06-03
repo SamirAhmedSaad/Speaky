@@ -31,7 +31,6 @@ import com.speakmind.app.navigation.FlashcardReviewDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.components.BannerAdView
 import com.speakmind.app.ui.components.TtsSpeedButton
-import com.speakmind.app.ui.components.rememberInterstitialAdState
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
 
@@ -66,16 +65,7 @@ private fun FlashcardReviewContent(
     onTabSelected: (FlashcardTab) -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
-    val interstitialAd = rememberInterstitialAdState()
-    var lastAdShownAtCount by remember { mutableStateOf(0) }
     val snackbarHostState = remember { SnackbarHostState() }
-
-    LaunchedEffect(uiState.reviewedCount) {
-        if (uiState.reviewedCount > 0 && uiState.reviewedCount % 15 == 0 && uiState.reviewedCount != lastAdShownAtCount) {
-            lastAdShownAtCount = uiState.reviewedCount
-            interstitialAd.show()
-        }
-    }
 
     LaunchedEffect(uiState.lastRatingMessage) {
         uiState.lastRatingMessage?.let { snackbarHostState.showSnackbar(it) }

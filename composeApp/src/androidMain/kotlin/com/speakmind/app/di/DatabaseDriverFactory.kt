@@ -85,6 +85,31 @@ fun createSpeakMindDriver(context: Context): SqlDriver {
             date TEXT NOT NULL DEFAULT '',
             messages_sent INTEGER NOT NULL DEFAULT 0
         )""",
+        """CREATE TABLE IF NOT EXISTS channel_messages (
+            id TEXT NOT NULL PRIMARY KEY,
+            sender_id TEXT NOT NULL,
+            sender_nickname TEXT NOT NULL DEFAULT '',
+            sender_photo_url TEXT NOT NULL DEFAULT '',
+            sender_gender TEXT NOT NULL DEFAULT '',
+            text_content TEXT NOT NULL,
+            timestamp INTEGER NOT NULL,
+            is_synced INTEGER NOT NULL DEFAULT 0
+        )""",
+        """CREATE TABLE IF NOT EXISTS vocab_groups (
+            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL,
+            created_at INTEGER NOT NULL
+        )""",
+        """CREATE TABLE IF NOT EXISTS vocab_group_words (
+            id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+            group_id INTEGER NOT NULL,
+            word TEXT NOT NULL,
+            meaning TEXT NOT NULL DEFAULT '',
+            examples_json TEXT NOT NULL DEFAULT '[]',
+            phonetic TEXT NOT NULL DEFAULT '',
+            part_of_speech TEXT NOT NULL DEFAULT '',
+            added_at INTEGER NOT NULL
+        )""",
     ).forEach { sql ->
         try { driver.execute(null, sql.trimIndent(), 0) } catch (_: Exception) {}
     }

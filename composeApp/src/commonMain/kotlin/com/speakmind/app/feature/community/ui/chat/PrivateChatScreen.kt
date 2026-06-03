@@ -2,6 +2,8 @@ package com.speakmind.app.feature.community.ui.chat
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -16,13 +18,14 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.Send
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -30,23 +33,21 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
-import androidx.navigation.toRoute
-import com.speakmind.app.feature.community.data.model.ChatMessage
+import com.speakmind.app.feature.community.data.model.ChannelMessage
 import com.speakmind.app.feature.community.ui.components.UserAvatar
-import com.speakmind.app.navigation.PrivateChatDestination
+import com.speakmind.app.navigation.ChannelDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.datetime.Instant
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import network.chaintech.sdpcomposemultiplatform.sdp
 import network.chaintech.sdpcomposemultiplatform.ssp
 import org.koin.compose.viewmodel.koinViewModel
-import org.koin.core.parameter.parametersOf
 
 private val emojiPickerItems = listOf(
     "😊", "😂", "🤣", "😍", "🥰", "😘", "😎", "🤩",
@@ -61,47 +62,77 @@ private val emojiPickerItems = listOf(
     "🤦", "🤷", "💀", "👀", "👁️", "🫣", "🤫", "😶",
 )
 
-fun NavGraphBuilder.privateChatScreen() {
-    animatedComposable<PrivateChatDestination> { backStackEntry ->
-        val destination: PrivateChatDestination = backStackEntry.toRoute()
-        val viewModel = koinViewModel<PrivateChatViewModel> {
-            parametersOf(destination.otherUserId)
-        }
+fun NavGraphBuilder.channelScreen() {
+    animatedComposable<ChannelDestination> {
+        val viewModel = koinViewModel<ChannelViewModel>()
         val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-        PrivateChatContent(
+        ChannelContent(
             uiState = uiState,
-            otherNickname = destination.otherNickname,
-            otherGender = destination.otherGender,
-            otherPhotoUrl = destination.otherPhotoUrl,
             onInputChanged = viewModel::onInputChanged,
             onSendClicked = viewModel::onSendClicked,
+            onLoadMore = viewModel::loadMore,
             onBack = viewModel::onBack,
+            onDailyLimitDismissed = viewModel::onDailyLimitDismissed,
+            onContentWarningDismissed = viewModel::onContentWarningDismissed,
         )
     }
 }
 
 @Composable
-private fun PrivateChatContent(
-    uiState: PrivateChatUiState,
-    otherNickname: String,
-    otherGender: String,
-    otherPhotoUrl: String,
+private fun ChannelContent(
+    uiState: ChannelUiState,
     onInputChanged: (String) -> Unit,
     onSendClicked: () -> Unit,
+    onLoadMore: () -> Unit,
     onBack: () -> Unit,
+    onDailyLimitDismissed: () -> Unit,
+    onContentWarningDismissed: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
     val listState = rememberLazyListState()
-    val genderColor = if (otherGender == "female") colors.magenta else colors.neonCyan
-    val genderEmoji = if (otherGender == "female") "👩" else "👨"
     var showEmojis by remember { mutableStateOf(false) }
     val keyboardController = LocalSoftwareKeyboardController.current
 
-    val listItemCount = uiState.messages.size + if (uiState.dailyLimitReached) 1 else 0
-    LaunchedEffect(listItemCount) {
-        if (listItemCount > 0) {
-            listState.animateScrollToItem(listItemCount - 1)
+    // Auto-scroll to bottom when a new message is appended
+    val lastMessageId = uiState.messages.lastOrNull()?.id
+    LaunchedEffect(lastMessageId) {
+        if (uiState.messages.isNotEmpty()) {
+            listState.animateScrollToItem(uiState.messages.size - 1)
         }
+    }
+
+    // Restore scroll position when loadMore prepends older messages
+    var prevMessageCount by remember { mutableIntStateOf(0) }
+    var prevLastId by remember { mutableStateOf("") }
+    LaunchedEffect(uiState.messages.size) {
+        val newSize = uiState.messages.size
+        val newLastId = uiState.messages.lastOrNull()?.id ?: ""
+        if (prevMessageCount > 0 && newSize > prevMessageCount && newLastId == prevLastId) {
+            val added = newSize - prevMessageCount
+            listState.scrollToItem(listState.firstVisibleItemIndex + added)
+        }
+        prevMessageCount = newSize
+        prevLastId = newLastId
+    }
+
+    // Auto-dismiss content warning after 4 seconds
+    LaunchedEffect(uiState.contentWarning) {
+        if (uiState.contentWarning != null) {
+            kotlinx.coroutines.delay(4_000)
+            onContentWarningDismissed()
+        }
+    }
+
+    // Trigger pagination when user scrolls to the first item.
+    // Re-launch when isInitialLoading changes so we capture the fresh value.
+    LaunchedEffect(listState, uiState.isInitialLoading) {
+        snapshotFlow { listState.firstVisibleItemIndex }
+            .distinctUntilChanged()
+            .collect { index ->
+                if (index == 0 && !uiState.isInitialLoading && !uiState.isLoadingMore) {
+                    onLoadMore()
+                }
+            }
     }
 
     Column(
@@ -134,62 +165,73 @@ private fun PrivateChatContent(
                     tint = colors.textPrimary,
                 )
             }
-            UserAvatar(
-                nickname = otherNickname,
-                photoUrl = otherPhotoUrl.ifEmpty { null },
-                size = 38.sdp,
-                borderColor = genderColor,
-            )
-            Spacer(modifier = Modifier.width(10.sdp))
             Column(modifier = Modifier.weight(1f)) {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(6.sdp),
-                ) {
-                    Text(
-                        text = otherNickname,
-                        style = MaterialTheme.typography.titleMedium.copy(
-                            color = colors.textPrimary,
-                            fontWeight = FontWeight.Bold,
-                        ),
-                    )
-                    Text(text = genderEmoji, fontSize = 16.ssp)
-                }
                 Text(
-                    text = "Private chat",
+                    text = "Speaky Hub",
+                    style = MaterialTheme.typography.titleMedium.copy(
+                        color = colors.textPrimary,
+                        fontWeight = FontWeight.Bold,
+                    ),
+                )
+                Text(
+                    text = "Your global learning community",
                     style = MaterialTheme.typography.bodySmall.copy(color = colors.textMuted),
                 )
             }
         }
 
         // Messages list
-        LazyColumn(
-            state = listState,
-            modifier = Modifier
-                .weight(1f)
-                .fillMaxWidth(),
-            contentPadding = PaddingValues(horizontal = 14.sdp, vertical = 10.sdp),
-            verticalArrangement = Arrangement.spacedBy(6.sdp),
-        ) {
-            items(uiState.messages, key = { it.id }) { message ->
-                MessageBubble(
-                    message = message,
-                    isFromMe = message.senderId == uiState.currentUserId,
+        Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
+            if (uiState.isInitialLoading) {
+                CircularProgressIndicator(
+                    modifier = Modifier.align(Alignment.Center),
+                    color = colors.neonCyan,
                 )
-            }
-            if (uiState.dailyLimitReached) {
-                item(key = "daily_limit_banner") {
-                    Text(
-                        text = "🌙  That's all for today — you've used all your daily messages.\nCome back tomorrow and keep the conversation going! ✨",
-                        style = MaterialTheme.typography.labelSmall.copy(
-                            color = Color(0xFFE53935).copy(alpha = 0.75f),
-                            textAlign = TextAlign.Center,
-                            fontSize = 10.ssp,
-                        ),
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(top = 6.sdp, bottom = 4.sdp),
-                    )
+            } else {
+                LazyColumn(
+                    state = listState,
+                    modifier = Modifier.fillMaxSize(),
+                    contentPadding = PaddingValues(horizontal = 14.sdp, vertical = 10.sdp),
+                    verticalArrangement = Arrangement.spacedBy(6.sdp),
+                ) {
+                    // Pagination spinner at top
+                    if (uiState.isLoadingMore) {
+                        item(key = "loading_more") {
+                            Box(
+                                modifier = Modifier.fillMaxWidth().padding(vertical = 8.sdp),
+                                contentAlignment = Alignment.Center,
+                            ) {
+                                CircularProgressIndicator(
+                                    modifier = Modifier.size(24.sdp),
+                                    color = colors.neonCyan,
+                                    strokeWidth = 2.sdp,
+                                )
+                            }
+                        }
+                    }
+
+                    items(uiState.messages, key = { it.id }) { message ->
+                        ChannelMessageBubble(
+                            message = message,
+                            isFromMe = message.senderId == uiState.currentUserId,
+                        )
+                    }
+
+                    if (uiState.dailyLimitReached) {
+                        item(key = "daily_limit_banner") {
+                            Text(
+                                text = "🌙  That's all for today — you've used all your daily messages.\nCome back tomorrow and keep the conversation going! ✨",
+                                style = MaterialTheme.typography.labelSmall.copy(
+                                    color = Color(0xFFE53935).copy(alpha = 0.75f),
+                                    textAlign = TextAlign.Center,
+                                    fontSize = 10.ssp,
+                                ),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(top = 6.sdp, bottom = 4.sdp),
+                            )
+                        }
+                    }
                 }
             }
         }
@@ -234,6 +276,37 @@ private fun PrivateChatContent(
             }
         }
 
+        // Content warning banner
+        AnimatedVisibility(
+            visible = uiState.contentWarning != null,
+            enter = expandVertically(expandFrom = Alignment.Top) + fadeIn(),
+            exit = shrinkVertically(shrinkTowards = Alignment.Top) + fadeOut(),
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .background(Color(0xFFB71C1C).copy(alpha = 0.92f))
+                    .padding(horizontal = 16.sdp, vertical = 10.sdp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(10.sdp),
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Warning,
+                    contentDescription = null,
+                    tint = Color.White,
+                    modifier = Modifier.size(18.sdp),
+                )
+                Text(
+                    text = uiState.contentWarning ?: "",
+                    style = MaterialTheme.typography.bodySmall.copy(
+                        color = Color.White,
+                        fontWeight = FontWeight.SemiBold,
+                    ),
+                    modifier = Modifier.weight(1f),
+                )
+            }
+        }
+
         // Input area
         Row(
             modifier = Modifier
@@ -261,10 +334,7 @@ private fun PrivateChatContent(
                     },
                 contentAlignment = Alignment.Center,
             ) {
-                Text(
-                    text = if (showEmojis) "⌨️" else "😊",
-                    fontSize = 18.ssp,
-                )
+                Text(text = if (showEmojis) "⌨️" else "😊", fontSize = 18.ssp)
             }
 
             // Text field
@@ -285,14 +355,14 @@ private fun PrivateChatContent(
                     onValueChange = onInputChanged,
                     textStyle = MaterialTheme.typography.bodyMedium.copy(color = colors.textPrimary),
                     keyboardOptions = KeyboardOptions(
-                        imeAction = ImeAction.Default,
+                        imeAction = androidx.compose.ui.text.input.ImeAction.Default,
                         capitalization = androidx.compose.ui.text.input.KeyboardCapitalization.Sentences,
                     ),
                     maxLines = 5,
                     decorationBox = { inner ->
                         if (uiState.inputText.isEmpty()) {
                             Text(
-                                text = "Type a message...",
+                                text = "Message Speaky Hub...",
                                 style = MaterialTheme.typography.bodyMedium.copy(color = colors.textMuted),
                             )
                         }
@@ -330,8 +400,8 @@ private fun PrivateChatContent(
 }
 
 @Composable
-private fun MessageBubble(
-    message: ChatMessage,
+private fun ChannelMessageBubble(
+    message: ChannelMessage,
     isFromMe: Boolean,
 ) {
     val colors = LocalSpeakMindColors.current
@@ -339,44 +409,71 @@ private fun MessageBubble(
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = if (isFromMe) Arrangement.End else Arrangement.Start,
+        verticalAlignment = Alignment.Bottom,
     ) {
-        val bubbleShape = RoundedCornerShape(
-            topStart = 18.sdp,
-            topEnd = 18.sdp,
-            bottomStart = if (isFromMe) 18.sdp else 4.sdp,
-            bottomEnd = if (isFromMe) 4.sdp else 18.sdp,
-        )
-        Box(
-            modifier = Modifier
-                .widthIn(max = 260.sdp)
-                .clip(bubbleShape)
-                .background(if (isFromMe) colors.userBubbleGradient else colors.aiBubbleGradient)
-                .then(
-                    if (!isFromMe && colors.aiBubbleBorder != Color.Transparent)
-                        Modifier.border(1.sdp, colors.aiBubbleBorder, bubbleShape)
-                    else Modifier
-                )
-                .padding(horizontal = 14.sdp, vertical = 10.sdp),
+        if (!isFromMe) {
+            UserAvatar(
+                nickname = message.senderNickname,
+                photoUrl = message.senderPhotoUrl.ifEmpty { null },
+                size = 30.sdp,
+                borderColor = colors.neonCyan,
+            )
+            Spacer(modifier = Modifier.width(6.sdp))
+        }
+
+        Column(
+            horizontalAlignment = if (isFromMe) Alignment.End else Alignment.Start,
         ) {
-            Column {
+            if (!isFromMe) {
                 Text(
-                    text = message.text,
-                    style = MaterialTheme.typography.bodyMedium.copy(
-                        color = if (isFromMe) colors.backgroundDark else colors.textPrimary,
-                    ),
-                )
-                Spacer(modifier = Modifier.height(4.sdp))
-                Text(
-                    text = formatMessageTime(message.timestamp),
+                    text = message.senderNickname,
                     style = MaterialTheme.typography.labelSmall.copy(
-                        color = if (isFromMe)
-                            colors.backgroundDark.copy(alpha = 0.6f)
-                        else
-                            colors.textMuted,
-                        fontSize = 9.ssp,
+                        color = colors.neonCyan,
+                        fontWeight = FontWeight.SemiBold,
+                        fontSize = 10.ssp,
                     ),
-                    modifier = Modifier.align(Alignment.End),
+                    modifier = Modifier.padding(start = 4.sdp, bottom = 2.sdp),
                 )
+            }
+
+            val bubbleShape = RoundedCornerShape(
+                topStart = 18.sdp,
+                topEnd = 18.sdp,
+                bottomStart = if (isFromMe) 18.sdp else 4.sdp,
+                bottomEnd = if (isFromMe) 4.sdp else 18.sdp,
+            )
+            Box(
+                modifier = Modifier
+                    .widthIn(max = 260.sdp)
+                    .clip(bubbleShape)
+                    .background(if (isFromMe) colors.userBubbleGradient else colors.aiBubbleGradient)
+                    .then(
+                        if (!isFromMe && colors.aiBubbleBorder != Color.Transparent)
+                            Modifier.border(1.sdp, colors.aiBubbleBorder, bubbleShape)
+                        else Modifier
+                    )
+                    .padding(horizontal = 14.sdp, vertical = 10.sdp),
+            ) {
+                Column {
+                    Text(
+                        text = message.text,
+                        style = MaterialTheme.typography.bodyMedium.copy(
+                            color = if (isFromMe) colors.backgroundDark else colors.textPrimary,
+                        ),
+                    )
+                    Spacer(modifier = Modifier.height(4.sdp))
+                    Text(
+                        text = formatMessageTime(message.timestamp),
+                        style = MaterialTheme.typography.labelSmall.copy(
+                            color = if (isFromMe)
+                                colors.backgroundDark.copy(alpha = 0.6f)
+                            else
+                                colors.textMuted,
+                            fontSize = 9.ssp,
+                        ),
+                        modifier = Modifier.align(Alignment.End),
+                    )
+                }
             }
         }
     }

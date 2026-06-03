@@ -1,6 +1,6 @@
 package com.speakmind.app.feature.community.data.repository
 
-import com.speakmind.app.feature.community.data.model.ChatMessage
+import com.speakmind.app.feature.community.data.model.ChannelMessage
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import kotlinx.coroutines.flow.Flow
@@ -12,18 +12,15 @@ interface CommunityRepository {
     suspend fun getLocalProfile(): CommunityLocalProfile?
     suspend fun getUserNickname(): String
     fun getUsers(searchQuery: String = "", lastUid: String? = null): Flow<List<CommunityUser>>
-    fun getMessages(chatId: String): Flow<List<ChatMessage>>
-    suspend fun sendMessage(chatId: String, text: String)
     suspend fun updateLastSeen()
-    suspend fun syncPendingMessages()
-    fun getTotalUnreadCount(): Flow<Int>
-    fun getUnreadCounts(): Flow<Map<String, Int>>
-    suspend fun markChatRead(chatId: String)
-    suspend fun checkAndIncrementDailyQuota(): Boolean  // true = message allowed, false = limit reached
-    fun observeAllChatsForUnread(): Flow<Int>  // emits total unread count in real-time
+    suspend fun checkAndIncrementDailyQuota(): Boolean
+
+    // Global channel
+    suspend fun loadChannelPage(pageSize: Int, beforeTimestampSeconds: Long?): List<ChannelMessage>
+    fun observeNewChannelMessages(afterTimestampSeconds: Long): Flow<ChannelMessage>
+    suspend fun sendChannelMessage(text: String): ChannelMessage?
+    suspend fun syncPendingChannelMessages()
+    suspend fun updateUserName(name: String)
 }
 
 const val DAILY_MESSAGE_LIMIT = 50
-
-fun chatIdFor(uid1: String, uid2: String): String =
-    listOf(uid1, uid2).sorted().joinToString("_")

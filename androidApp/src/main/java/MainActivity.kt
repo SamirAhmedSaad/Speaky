@@ -18,6 +18,9 @@ import androidx.compose.runtime.getValue
 import androidx.core.content.ContextCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.lifecycleScope
+import com.speakmind.app.ads.AdConfig
+import com.speakmind.app.ads.AdManager
+import com.speakmind.app.ads.ConsentManager
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver
 import com.speakmind.app.feature.vocabulary.domain.VocabRefreshService
@@ -74,6 +77,11 @@ class MainActivity : ComponentActivity() {
 
         getKoin().get<MicPermissionRequester>().register(micPermissionLauncher)
         requestNotificationPermission()
+
+        AdConfig.useTestAds = BuildConfig.DEBUG
+        ConsentManager.gatherConsent(this) {
+            AdManager.init(this)
+        }
 
         setContent {
             val themeManager = getKoin().get<ThemeManager>()

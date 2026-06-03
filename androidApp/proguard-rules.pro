@@ -100,3 +100,10 @@
     public static void d(...);
     public static void v(...);
 }
+
+# Compose Multiplatform resources — generated accessor classes must not be removed or renamed,
+# otherwise the runtime asset path lookup fails and fonts/images throw "asset not found"
+-keep class speaky.composeapp.generated.resources.** { *; }
+-keepclassmembers class speaky.composeapp.generated.resources.** { *; }
+-keep class org.jetbrains.compose.resources.** { *; }
+-dontwarn org.jetbrains.compose.resources.**

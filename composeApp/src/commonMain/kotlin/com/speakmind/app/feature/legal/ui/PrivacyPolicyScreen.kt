@@ -108,7 +108,7 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
             item {
                 PolicySection(
                     title = "Children's Privacy",
-                    body = "Our app is rated for users aged 3 and above. We do not knowingly collect personally identifiable information from children. The voice processing is fully on-device and no audio is transmitted externally.",
+                    body = "Speaky is not intended for children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and believe your child has used the app, please contact us at privacy@speaky.app and we will take steps to remove any associated data. The voice processing is fully on-device and no audio is transmitted externally.",
                 )
             }
 
