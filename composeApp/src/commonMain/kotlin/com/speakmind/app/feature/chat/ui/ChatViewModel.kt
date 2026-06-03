@@ -4,8 +4,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.ai.domain.AiEngine
+import com.speakmind.app.feature.ai.domain.NameExtractor
 import com.speakmind.app.feature.ai.domain.PromptBuilder
 import com.speakmind.app.feature.ai.domain.ResponseParser
+import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.ai.platform.AiEngineProvider
 import com.speakmind.app.feature.geminichat.data.InvalidApiKeyException
 import com.speakmind.app.feature.geminichat.data.NoModelQuotaException
@@ -55,6 +57,7 @@ class ChatViewModel(
     private val speechRecognizer: SpeechRecognizerEngine,
     private val ttsEngine: TextToSpeechEngine,
     private val ttsSpeedManager: TtsSpeedManager,
+    private val communityRepository: CommunityRepository,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(ChatUiState())
@@ -172,6 +175,13 @@ class ChatViewModel(
             inputText = "",
             isGenerating = true,
         )
+
+        val detectedName = NameExtractor.extract(text)
+        if (detectedName != null) {
+            viewModelScope.launch {
+                try { communityRepository.updateUserName(detectedName) } catch (_: Exception) {}
+            }
+        }
 
         generateAiResponse()
     }

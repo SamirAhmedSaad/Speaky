@@ -31,7 +31,6 @@ import com.speakmind.app.navigation.VocabWordListDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.components.BannerAdView
 import com.speakmind.app.ui.components.TtsSpeedButton
-import com.speakmind.app.ui.components.rememberInterstitialAdState
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -64,8 +63,6 @@ private fun VocabWordListContent(
 ) {
     val colors = LocalSpeakMindColors.current
     val levelColor = levelColorOf(uiState.level)
-    val interstitialAd = rememberInterstitialAdState()
-    var wordClickCount by remember { mutableStateOf(0) }
 
     Box(
         modifier = Modifier
@@ -129,13 +126,7 @@ private fun VocabWordListContent(
                             isExpanded = uiState.expandedWordIndex == index,
                             isLearned = word.word in uiState.learnedWords,
                             levelColor = levelColor,
-                            onClick = {
-                                wordClickCount++
-                                if (wordClickCount % 20 == 0) {
-                                    interstitialAd.show()
-                                }
-                                onWordClick(index)
-                            },
+                            onClick = { onWordClick(index) },
                             onSpeak = onSpeak,
                             onMarkLearned = { onMarkLearned(word) },
                         )

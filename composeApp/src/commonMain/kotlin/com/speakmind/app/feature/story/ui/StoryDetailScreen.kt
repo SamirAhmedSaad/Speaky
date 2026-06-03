@@ -30,7 +30,6 @@ import com.speakmind.app.ui.components.BannerAdView
 import com.speakmind.app.ui.components.TtsSpeedButton
 import com.speakmind.app.ui.components.WordAction
 import com.speakmind.app.ui.components.WordActionBottomSheet
-import com.speakmind.app.ui.components.rememberInterstitialAdState
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
@@ -66,7 +65,6 @@ private fun StoryDetailContent(
     onSpeakWord: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
-    val interstitialAd = rememberInterstitialAdState()
     val snackbarHostState = remember { SnackbarHostState() }
 
     LaunchedEffect(uiState.wordSaved) {
@@ -131,7 +129,7 @@ private fun StoryDetailContent(
                             .padding(horizontal = 8.sdp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        IconButton(onClick = { interstitialAd.show(onDismissed = onBackClicked) }) {
+                        IconButton(onClick = onBackClicked) {
                             Icon(
                                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = "Back",

@@ -4,25 +4,25 @@ import android.content.Context
 import android.provider.Settings
 import com.google.firebase.auth.FirebaseAuthInvalidUserException
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.firestore.FieldValue
+import com.google.firebase.firestore.DocumentChange
+import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.speakmind.app.db.SpeakyDatabase
-import com.speakmind.app.feature.community.data.model.ChatMessage
+import com.speakmind.app.feature.community.data.model.ChannelMessage
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
 import com.speakmind.app.feature.community.data.model.CommunityUser
-import com.speakmind.app.feature.community.data.repository.DAILY_MESSAGE_LIMIT
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
-import com.google.firebase.firestore.DocumentChange
+import com.speakmind.app.feature.community.data.repository.DAILY_MESSAGE_LIMIT
 import kotlinx.coroutines.channels.awaitClose
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.tasks.await
 import java.security.MessageDigest
 import java.util.UUID
+
+private const val CHANNEL_COLLECTION = "channelMessages"
 
 class FirebaseCommunityRepository(
     private val database: SpeakyDatabase,
@@ -64,7 +64,7 @@ class FirebaseCommunityRepository(
                 "nickname" to nickname,
                 "nicknameSearch" to nickname.lowercase(),
                 "gender" to gender,
-                "lastSeen" to FieldValue.serverTimestamp(),
+                "lastSeen" to com.google.firebase.firestore.FieldValue.serverTimestamp(),
             )
         ).await()
         database.speakMindQueries.upsertCommunityProfile(
@@ -125,172 +125,13 @@ class FirebaseCommunityRepository(
         awaitClose { listener.remove() }
     }
 
-    override fun getMessages(chatId: String): Flow<List<ChatMessage>> = callbackFlow {
-        // Emit cached local messages first
-        val cached = database.speakMindQueries.getMessagesForChat(chatId)
-            .executeAsList()
-            .map { row ->
-                ChatMessage(
-                    id = row.id,
-                    chatId = row.chat_id,
-                    senderId = row.sender_id,
-                    text = row.text_content,
-                    timestamp = row.timestamp,
-                    isSynced = row.is_synced == 1L,
-                )
-            }
-        if (cached.isNotEmpty()) trySend(cached)
-
-        val listener = firestore
-            .collection("chats").document(chatId)
-            .collection("messages")
-            .orderBy("timestamp", Query.Direction.ASCENDING)
-            .addSnapshotListener { snapshot, error ->
-                if (error != null || snapshot == null) return@addSnapshotListener
-                val currentUid = auth.currentUser?.uid ?: return@addSnapshotListener
-                val messages = snapshot.documents.mapNotNull { doc ->
-                    ChatMessage(
-                        id = doc.id,
-                        chatId = chatId,
-                        senderId = doc.getString("senderId") ?: return@mapNotNull null,
-                        text = doc.getString("text") ?: return@mapNotNull null,
-                        timestamp = doc.getTimestamp("timestamp")?.seconds ?: 0L,
-                        isSynced = true,
-                    )
-                }
-                // Detect truly new messages from the other user for unread count
-                val knownIds = database.speakMindQueries
-                    .getMessagesForChat(chatId).executeAsList().map { it.id }.toSet()
-                val newFromOther = messages.count { it.id !in knownIds && it.senderId != currentUid }
-                if (newFromOther > 0) {
-                    val otherUid = chatId.split("_").firstOrNull { it != currentUid }
-                        ?.takeIf { it.isNotEmpty() } ?: return@addSnapshotListener
-                    database.speakMindQueries.insertOrIgnoreUnread(chatId, otherUid)
-                    database.speakMindQueries.incrementUnreadCount(newFromOther.toLong(), chatId)
-                }
-                // Update local cache
-                messages.forEach { msg ->
-                    database.speakMindQueries.insertCommunityMessage(
-                        id = msg.id,
-                        chat_id = msg.chatId,
-                        sender_id = msg.senderId,
-                        text_content = msg.text,
-                        timestamp = msg.timestamp,
-                        is_synced = 1L,
-                    )
-                }
-                trySend(messages)
-            }
-        awaitClose { listener.remove() }
-    }
-
-    override suspend fun sendMessage(chatId: String, text: String) {
-        val uid = auth.currentUser?.uid ?: return
-        val msgId = UUID.randomUUID().toString()
-        val nowMillis = System.currentTimeMillis()
-        val nowSeconds = nowMillis / 1000L
-
-        // Save locally immediately (offline-first)
-        database.speakMindQueries.insertCommunityMessage(
-            id = msgId,
-            chat_id = chatId,
-            sender_id = uid,
-            text_content = text,
-            timestamp = nowSeconds,
-            is_synced = 0L,
-        )
-
-        // Try to sync to Firestore
-        try {
-            val otherUid = chatId.split("_").firstOrNull { it != uid } ?: ""
-            val chatRef = firestore.collection("chats").document(chatId)
-            chatRef.collection("messages").document(msgId).set(
-                mapOf(
-                    "senderId" to uid,
-                    "text" to text,
-                    "timestamp" to FieldValue.serverTimestamp(),
-                )
-            ).await()
-            chatRef.set(
-                mapOf(
-                    "lastMessage" to text,
-                    "lastMessageTime" to FieldValue.serverTimestamp(),
-                    "lastSenderId" to uid,
-                    "participants" to listOf(uid, otherUid).filter { it.isNotEmpty() },
-                ),
-                com.google.firebase.firestore.SetOptions.merge()
-            ).await()
-            database.speakMindQueries.markMessageSynced(msgId)
-        } catch (_: Exception) {
-            // Will sync later via syncPendingMessages
-        }
-    }
-
     override suspend fun updateLastSeen() {
         val uid = auth.currentUser?.uid ?: return
         try {
             firestore.collection("users").document(uid)
-                .update("lastSeen", FieldValue.serverTimestamp())
+                .update("lastSeen", com.google.firebase.firestore.FieldValue.serverTimestamp())
                 .await()
         } catch (_: Exception) {}
-    }
-
-    override fun getTotalUnreadCount(): Flow<Int> = flow {
-        while (true) {
-            val count = database.speakMindQueries.getTotalUnread().executeAsOne()
-            emit(count.toInt())
-            delay(3_000)
-        }
-    }
-
-    override fun getUnreadCounts(): Flow<Map<String, Int>> = flow {
-        while (true) {
-            val rows = database.speakMindQueries.getAllUnreadCounts().executeAsList()
-            emit(rows.associate { it.other_user_id to it.unread_count.toInt() })
-            delay(3_000)
-        }
-    }
-
-    override suspend fun markChatRead(chatId: String) {
-        database.speakMindQueries.resetUnreadCount(chatId)
-    }
-
-    override fun observeAllChatsForUnread(): Flow<Int> = callbackFlow {
-        val currentUid = auth.currentUser?.uid ?: run {
-            close()
-            return@callbackFlow
-        }
-        var isFirstSnapshot = true
-        val listener = firestore.collection("chats")
-            .whereArrayContains("participants", currentUid)
-            .addSnapshotListener { snapshot, error ->
-                if (error != null || snapshot == null) return@addSnapshotListener
-                for (change in snapshot.documentChanges) {
-                    // On first snapshot, also process ADDED so offline-received msgs are counted
-                    val shouldProcess = change.type == DocumentChange.Type.MODIFIED ||
-                            (isFirstSnapshot && change.type == DocumentChange.Type.ADDED)
-                    if (!shouldProcess) continue
-                    val doc = change.document
-                    val chatId = doc.id
-                    val lastSenderId = doc.getString("lastSenderId") ?: continue
-                    if (lastSenderId == currentUid) continue
-                    val lastMessageTime = doc.getTimestamp("lastMessageTime")?.seconds ?: 0L
-                    val latestLocal = database.speakMindQueries
-                        .getMessagesForChat(chatId).executeAsList()
-                        .maxOfOrNull { it.timestamp } ?: 0L
-                    if (lastMessageTime > latestLocal) {
-                        val otherUid = chatId.split("_").firstOrNull { it != currentUid } ?: continue
-                        database.speakMindQueries.insertOrIgnoreUnread(chatId, otherUid)
-                        database.speakMindQueries.incrementUnreadCount(1L, chatId)
-                    }
-                }
-                isFirstSnapshot = false
-                val total = try {
-                    database.speakMindQueries.getTotalUnread().executeAsOne().toInt()
-                } catch (_: Exception) { 0 }
-                trySend(total)
-            }
-        awaitClose { listener.remove() }
     }
 
     override suspend fun checkAndIncrementDailyQuota(): Boolean {
@@ -307,33 +148,177 @@ class FirebaseCommunityRepository(
         return true
     }
 
-    override suspend fun syncPendingMessages() {
-        val pending = database.speakMindQueries.getPendingMessages().executeAsList()
-        for (row in pending) {
-            try {
-                val chatRef = firestore.collection("chats").document(row.chat_id)
-                chatRef.collection("messages").document(row.id).set(
-                    mapOf(
-                        "senderId" to row.sender_id,
-                        "text" to row.text_content,
-                        "timestamp" to FieldValue.serverTimestamp(),
-                    )
-                ).await()
-                val currentUid = auth.currentUser?.uid ?: ""
-                val otherUid = row.chat_id.split("_").firstOrNull { it != currentUid } ?: ""
-                chatRef.set(
-                    mapOf(
-                        "lastMessage" to row.text_content,
-                        "lastMessageTime" to FieldValue.serverTimestamp(),
-                        "lastSenderId" to row.sender_id,
-                        "participants" to listOf(currentUid, otherUid).filter { it.isNotEmpty() },
-                    ),
-                    com.google.firebase.firestore.SetOptions.merge()
-                ).await()
-                database.speakMindQueries.markMessageSynced(row.id)
-            } catch (_: Exception) {
-                break // Stop if network unavailable, retry next session
+    // --- Global channel ---
+
+    override suspend fun loadChannelPage(pageSize: Int, beforeTimestampSeconds: Long?): List<ChannelMessage> {
+        return try {
+            val query = if (beforeTimestampSeconds == null) {
+                firestore.collection(CHANNEL_COLLECTION)
+                    .orderBy("timestampSeconds", Query.Direction.DESCENDING)
+                    .limit(pageSize.toLong())
+            } else {
+                firestore.collection(CHANNEL_COLLECTION)
+                    .orderBy("timestampSeconds", Query.Direction.DESCENDING)
+                    .whereLessThan("timestampSeconds", beforeTimestampSeconds)
+                    .limit(pageSize.toLong())
+            }
+            val docs = query.get().await()
+            val messages = docs.documents.reversed().mapNotNull { parseChannelDoc(it) }
+            messages.forEach { cacheMessage(it) }
+            messages
+        } catch (_: Exception) {
+            // Fallback to local cache
+            if (beforeTimestampSeconds == null) {
+                database.speakMindQueries.getChannelMessages(pageSize.toLong())
+                    .executeAsList().map { mapRowToMessage(it) }.reversed()
+            } else {
+                database.speakMindQueries.getChannelMessagesBefore(beforeTimestampSeconds, pageSize.toLong())
+                    .executeAsList().map { mapRowToMessage(it) }.reversed()
             }
         }
+    }
+
+    override fun observeNewChannelMessages(afterTimestampSeconds: Long): Flow<ChannelMessage> = callbackFlow {
+        var isFirstSnapshot = true
+        val listener = firestore.collection(CHANNEL_COLLECTION)
+            .orderBy("timestampSeconds", Query.Direction.ASCENDING)
+            .whereGreaterThan("timestampSeconds", afterTimestampSeconds)
+            .addSnapshotListener { snapshot, error ->
+                if (error != null || snapshot == null) return@addSnapshotListener
+                if (isFirstSnapshot) {
+                    isFirstSnapshot = false
+                    return@addSnapshotListener
+                }
+                for (change in snapshot.documentChanges) {
+                    if (change.type == DocumentChange.Type.ADDED) {
+                        val msg = parseChannelDoc(change.document) ?: continue
+                        cacheMessage(msg)
+                        trySend(msg)
+                    }
+                }
+            }
+        awaitClose { listener.remove() }
+    }
+
+    override suspend fun sendChannelMessage(text: String): ChannelMessage? {
+        val uid = auth.currentUser?.uid ?: return null
+        val profile = getLocalProfile() ?: return null
+        val msgId = UUID.randomUUID().toString()
+        val nowSeconds = System.currentTimeMillis() / 1000L
+
+        val msg = ChannelMessage(
+            id = msgId,
+            senderId = uid,
+            senderNickname = profile.nickname,
+            senderPhotoUrl = profile.photoUrl ?: "",
+            senderGender = profile.gender,
+            text = text,
+            timestamp = nowSeconds,
+            isSynced = false,
+        )
+
+        // Optimistic local insert
+        cacheMessage(msg, isSynced = 0L)
+
+        // Sync to Firestore
+        try {
+            firestore.collection(CHANNEL_COLLECTION).document(msgId).set(
+                mapOf(
+                    "senderId" to uid,
+                    "senderNickname" to profile.nickname,
+                    "senderPhotoUrl" to (profile.photoUrl ?: ""),
+                    "senderGender" to profile.gender,
+                    "text" to text,
+                    "timestampSeconds" to nowSeconds,
+                )
+            ).await()
+            database.speakMindQueries.markChannelMessageSynced(msgId)
+        } catch (_: Exception) {
+            // Will retry via syncPendingChannelMessages
+        }
+
+        return msg
+    }
+
+    override suspend fun syncPendingChannelMessages() {
+        val pending = database.speakMindQueries.getPendingChannelMessages().executeAsList()
+        for (row in pending) {
+            try {
+                firestore.collection(CHANNEL_COLLECTION).document(row.id).set(
+                    mapOf(
+                        "senderId" to row.sender_id,
+                        "senderNickname" to row.sender_nickname,
+                        "senderPhotoUrl" to row.sender_photo_url,
+                        "senderGender" to row.sender_gender,
+                        "text" to row.text_content,
+                        "timestampSeconds" to row.timestamp,
+                    )
+                ).await()
+                database.speakMindQueries.markChannelMessageSynced(row.id)
+            } catch (_: Exception) {
+                break
+            }
+        }
+    }
+
+    override suspend fun updateUserName(name: String) {
+        database.speakMindQueries.updateUserName(name)
+        val profile = getLocalProfile() ?: return
+        database.speakMindQueries.upsertCommunityProfile(
+            firebase_uid = profile.uid,
+            nickname = name,
+            gender = profile.gender,
+            photo_url = profile.photoUrl ?: "",
+        )
+        val uid = auth.currentUser?.uid ?: return
+        try {
+            firestore.collection("users").document(uid).update(
+                mapOf(
+                    "nickname" to name,
+                    "nicknameSearch" to name.lowercase(),
+                )
+            ).await()
+        } catch (_: Exception) {}
+    }
+
+    // --- Helpers ---
+
+    private fun parseChannelDoc(doc: DocumentSnapshot): ChannelMessage? {
+        return ChannelMessage(
+            id = doc.id,
+            senderId = doc.getString("senderId") ?: return null,
+            senderNickname = doc.getString("senderNickname") ?: "",
+            senderPhotoUrl = doc.getString("senderPhotoUrl") ?: "",
+            senderGender = doc.getString("senderGender") ?: "male",
+            text = doc.getString("text") ?: return null,
+            timestamp = (doc.get("timestampSeconds") as? Long) ?: 0L,
+            isSynced = true,
+        )
+    }
+
+    private fun cacheMessage(msg: ChannelMessage, isSynced: Long = 1L) {
+        database.speakMindQueries.insertChannelMessage(
+            id = msg.id,
+            sender_id = msg.senderId,
+            sender_nickname = msg.senderNickname,
+            sender_photo_url = msg.senderPhotoUrl,
+            sender_gender = msg.senderGender,
+            text_content = msg.text,
+            timestamp = msg.timestamp,
+            is_synced = isSynced,
+        )
+    }
+
+    private fun mapRowToMessage(row: com.speakmind.app.db.Channel_messages): ChannelMessage {
+        return ChannelMessage(
+            id = row.id,
+            senderId = row.sender_id,
+            senderNickname = row.sender_nickname,
+            senderPhotoUrl = row.sender_photo_url,
+            senderGender = row.sender_gender,
+            text = row.text_content,
+            timestamp = row.timestamp,
+            isSynced = row.is_synced == 1L,
+        )
     }
 }

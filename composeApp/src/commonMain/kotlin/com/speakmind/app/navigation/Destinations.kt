@@ -51,13 +51,11 @@ data object PrivacyPolicyDestination
 data object CommunitySetupDestination
 
 @Serializable
-data object CommunityUsersListDestination
+data object ChannelDestination
 
 @Serializable
-data class PrivateChatDestination(
-    val otherUserId: String,
-    val otherNickname: String,
-    val otherGender: String,
-    val otherPhotoUrl: String = "",
-)
+data object MyGroupsDestination
+
+@Serializable
+data class GroupDetailDestination(val groupId: Long, val groupName: String)
 

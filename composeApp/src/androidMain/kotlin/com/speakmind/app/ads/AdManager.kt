@@ -26,6 +26,7 @@ class AdManager(private val context: Context) {
 
         MobileAds.initialize(context) {
             Napier.d { "AdMob SDK initialized" }
+            AdConfig.adsReady = true
             loadInterstitial()
         }
     }

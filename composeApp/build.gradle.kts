@@ -51,6 +51,7 @@ kotlin {
             implementation(libs.mediapipe.genai)
             implementation(libs.ktor.client.android)
             implementation(libs.google.ads)
+            implementation(libs.google.ump)
             implementation(libs.google.auth)
             implementation(project(":llama"))
             implementation(libs.firebase.auth)

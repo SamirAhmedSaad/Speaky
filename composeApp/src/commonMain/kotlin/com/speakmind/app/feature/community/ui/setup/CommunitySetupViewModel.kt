@@ -2,9 +2,12 @@ package com.speakmind.app.feature.community.ui.setup
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.speakmind.app.feature.ai.domain.NameExtractor
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
+import com.speakmind.app.feature.profile.domain.NameValidationResult
+import com.speakmind.app.feature.profile.domain.NameValidator
+import com.speakmind.app.navigation.ChannelDestination
 import com.speakmind.app.navigation.CommunitySetupDestination
-import com.speakmind.app.navigation.CommunityUsersListDestination
 import com.speakmind.app.navigation.NavigationManager
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -37,7 +40,7 @@ class CommunitySetupViewModel(
         viewModelScope.launch {
             val profile = communityRepository.getLocalProfile()
             if (profile != null && profile.gender.isNotEmpty()) {
-                navigationManager.navigate(CommunityUsersListDestination) {
+                navigationManager.navigate(ChannelDestination) {
                     popUpTo<CommunitySetupDestination> { inclusive = true }
                     launchSingleTop = true
                 }
@@ -54,7 +57,12 @@ class CommunitySetupViewModel(
 
     fun onNicknameChanged(value: String) {
         if (value.length > 30) return
-        _uiState.value = _uiState.value.copy(nickname = value, error = null)
+        val extracted = NameExtractor.extract(value)
+        val resolved = if (extracted != null) extracted else capitalizeName(value)
+        val error = if (resolved.trim().length >= 2) {
+            NameValidator.errorMessage(NameValidator.validate(resolved.trim()))
+        } else null
+        _uiState.value = _uiState.value.copy(nickname = resolved, error = error)
     }
 
     fun onGenderSelected(gender: String) {
@@ -64,8 +72,11 @@ class CommunitySetupViewModel(
     fun onJoinClicked() {
         val state = _uiState.value
         val nickname = state.nickname.trim()
-        if (nickname.length < 2) {
-            _uiState.value = state.copy(error = "Please enter a nickname (at least 2 characters)")
+        val validationResult = NameValidator.validate(nickname)
+        if (validationResult != NameValidationResult.Valid) {
+            _uiState.value = state.copy(
+                error = NameValidator.errorMessage(validationResult) ?: "Invalid name"
+            )
             return
         }
         if (state.gender.isEmpty()) {
@@ -77,7 +88,7 @@ class CommunitySetupViewModel(
             try {
                 communityRepository.signInAnonymously()
                 communityRepository.saveUserProfile(nickname, state.gender)
-                navigationManager.navigate(CommunityUsersListDestination) {
+                navigationManager.navigate(ChannelDestination) {
                     popUpTo<CommunitySetupDestination> { inclusive = true }
                     launchSingleTop = true
                 }
@@ -91,3 +102,8 @@ class CommunitySetupViewModel(
         }
     }
 }
+
+private fun capitalizeName(value: String): String =
+    value.split(" ").joinToString(" ") { word ->
+        if (word.isEmpty()) word else word.replaceFirstChar { it.uppercase() }
+    }

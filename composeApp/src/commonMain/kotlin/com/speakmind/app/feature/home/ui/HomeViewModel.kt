@@ -10,9 +10,12 @@ import com.speakmind.app.feature.dailyword.platform.DailyWordNotificationSchedul
 import com.speakmind.app.feature.home.domain.DailyTopicService
 import com.speakmind.app.feature.home.domain.model.DailyCard
 import com.speakmind.app.feature.ai.platform.ModelDownloader
-import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.geminichat.data.ApiKeyStore
 import com.speakmind.app.ui.theme.ThemeManager
+import com.speakmind.app.feature.ai.domain.NameExtractor
+import com.speakmind.app.feature.community.data.repository.CommunityRepository
+import com.speakmind.app.feature.profile.domain.NameValidationResult
+import com.speakmind.app.feature.profile.domain.NameValidator
 import com.speakmind.app.navigation.AiSetupDestination
 import com.speakmind.app.navigation.ArticleDetailDestination
 import com.speakmind.app.navigation.ChatDestination
@@ -24,6 +27,7 @@ import com.speakmind.app.navigation.StoriesDestination
 import com.speakmind.app.navigation.VocabCategoryDestination
 import com.speakmind.app.navigation.WordDetailDestination
 import com.speakmind.app.navigation.WordLookupDestination
+import com.speakmind.app.navigation.MyGroupsDestination
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -51,7 +55,10 @@ data class HomeUiState(
     val notificationsEnabled: Boolean = true,
     val showTimePicker: Boolean = false,
     val showExactAlarmRationale: Boolean = false,
-    val communityUnreadCount: Int = 0,
+    val groupCount: Long = 0,
+    val showNameSheet: Boolean = false,
+    val nameSheetInput: String = "",
+    val nameSheetError: String? = null,
 )
 
 val ALL_LEVELS = listOf("A1", "A2", "B1", "B2", "C1")
@@ -74,26 +81,6 @@ class HomeViewModel(
 
     init {
         loadHomeData()
-        observeCommunityUnread()
-    }
-
-    private fun observeCommunityUnread() {
-        // Polls SQLite every 3s — picks up markChatRead resets immediately
-        viewModelScope.launch {
-            try {
-                communityRepository.getTotalUnreadCount().collect { count ->
-                    _uiState.value = _uiState.value.copy(communityUnreadCount = count)
-                }
-            } catch (_: Exception) {}
-        }
-        // Firestore real-time listener — increments SQLite on new incoming messages
-        viewModelScope.launch {
-            try {
-                communityRepository.observeAllChatsForUnread().collect { count ->
-                    _uiState.value = _uiState.value.copy(communityUnreadCount = count)
-                }
-            } catch (_: Exception) {}
-        }
     }
 
     private fun loadHomeData() {
@@ -106,6 +93,7 @@ class HomeViewModel(
                 Clock.System.now().toEpochMilliseconds()
             ).executeAsOne()
             val totalVocab = database.speakMindQueries.countAllFlashcards().executeAsOne()
+            val groupCount = database.speakMindQueries.countAllGroups().executeAsOne()
 
             val userLevel = progress?.level ?: "A2"
 
@@ -121,6 +109,7 @@ class HomeViewModel(
                 userLevel = userLevel,
                 userName = progress?.user_name ?: "",
                 totalVocab = totalVocab,
+                groupCount = groupCount,
                 totalConversations = progress?.total_conversations ?: 0,
                 totalMinutes = progress?.total_minutes ?: 0,
                 isLoading = false,
@@ -195,6 +184,49 @@ class HomeViewModel(
         }
     }
 
+    fun onNameClicked() {
+        _uiState.value = _uiState.value.copy(
+            showNameSheet = true,
+            nameSheetInput = _uiState.value.userName,
+            nameSheetError = null,
+        )
+    }
+
+    fun onNameSheetInputChanged(value: String) {
+        if (value.length > 30) return
+        val extracted = NameExtractor.extract(value)
+        val resolved = if (extracted != null) extracted else value.split(" ").joinToString(" ") { word ->
+            if (word.isEmpty()) word else word.replaceFirstChar { it.uppercase() }
+        }
+        _uiState.value = _uiState.value.copy(nameSheetInput = resolved, nameSheetError = null)
+    }
+
+    fun onNameSheetDismissed() {
+        _uiState.value = _uiState.value.copy(showNameSheet = false, nameSheetError = null)
+    }
+
+    fun onNameSheetSaved() {
+        val input = _uiState.value.nameSheetInput.trim()
+        val result = NameValidator.validate(input)
+        val error = NameValidator.errorMessage(result)
+        if (error != null) {
+            _uiState.value = _uiState.value.copy(nameSheetError = error)
+            return
+        }
+        viewModelScope.launch {
+            try {
+                communityRepository.updateUserName(input)
+                _uiState.value = _uiState.value.copy(
+                    userName = input,
+                    showNameSheet = false,
+                    nameSheetError = null,
+                )
+            } catch (_: Exception) {
+                _uiState.value = _uiState.value.copy(nameSheetError = "Failed to save. Try again.")
+            }
+        }
+    }
+
     fun refreshFlashcardCount() {
         viewModelScope.launch {
             val dueCount = database.speakMindQueries
@@ -250,6 +282,10 @@ class HomeViewModel(
 
     fun onWordLookupClicked() {
         navigationManager.navigate(WordLookupDestination)
+    }
+
+    fun onMyGroupsClicked() {
+        navigationManager.navigate(MyGroupsDestination)
     }
 
     fun onPrivacyPolicyClicked() {

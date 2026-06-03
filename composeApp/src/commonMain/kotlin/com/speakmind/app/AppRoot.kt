@@ -13,9 +13,10 @@ import androidx.navigation.compose.rememberNavController
 import com.speakmind.app.feature.aisetup.ui.aiSetupScreen
 import com.speakmind.app.feature.article.ui.articleDetailScreen
 import com.speakmind.app.feature.chat.ui.chatScreen
-import com.speakmind.app.feature.community.ui.chat.privateChatScreen
+import com.speakmind.app.feature.community.ui.chat.channelScreen
 import com.speakmind.app.feature.community.ui.setup.communitySetupScreen
-import com.speakmind.app.feature.community.ui.users.communityUsersScreen
+import com.speakmind.app.feature.vocabgroup.ui.myGroupsScreen
+import com.speakmind.app.feature.vocabgroup.ui.groupDetailScreen
 import com.speakmind.app.feature.dailyword.ui.wordDetailScreen
 import com.speakmind.app.feature.wordlookup.ui.wordLookupScreen
 import com.speakmind.app.feature.download.ui.modelDownloadScreen
@@ -99,8 +100,9 @@ fun AppRoot(startDestination: Any) {
             wordLookupScreen()
             privacyPolicyScreen(onBack = { navController.popBackStack() })
             communitySetupScreen()
-            communityUsersScreen()
-            privateChatScreen()
+            channelScreen()
+            myGroupsScreen()
+            groupDetailScreen()
         }
     }
 }
