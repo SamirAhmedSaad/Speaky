@@ -4,6 +4,8 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.spring
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.input.pointer.pointerInput
@@ -466,6 +468,7 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
                     )
                 }
                 InputBar(
+                    focusKey = uiState.replyingTo?.id ?: uiState.editingMessage?.id,
                     text = uiState.inputText,
                     placeholder = if (uiState.kind == RoomKind.DIRECT) "Message ${uiState.title}" else "Message Speaky Hub",
                     showEmojis = showEmojis,
@@ -1229,6 +1232,8 @@ private fun RecordingBar(elapsedMs: Long, onCancel: () -> Unit, onSend: () -> Un
 
 @Composable
 private fun InputBar(
+    /** Changes when Reply/Edit is chosen, to focus the field and open the keyboard. */
+    focusKey: String?,
     text: String,
     placeholder: String,
     showEmojis: Boolean,
@@ -1240,6 +1245,14 @@ private fun InputBar(
     onMic: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
+    val focusRequester = remember { FocusRequester() }
+    val keyboard = LocalSoftwareKeyboardController.current
+    LaunchedEffect(focusKey) {
+        if (focusKey != null) {
+            focusRequester.requestFocus()
+            keyboard?.show()
+        }
+    }
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -1289,7 +1302,7 @@ private fun InputBar(
                         inner()
                     }
                 },
-                modifier = Modifier.weight(1f),
+                modifier = Modifier.weight(1f).focusRequester(focusRequester),
             )
         }
         val hasText = text.isNotBlank()
