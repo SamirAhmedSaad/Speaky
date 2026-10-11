@@ -28,6 +28,9 @@ import com.speakmind.app.feature.community.ui.components.CommunityPageHeader
 import com.speakmind.app.feature.community.ui.components.CommunitySearchField
 import com.speakmind.app.feature.community.ui.components.PersonCard
 import com.speakmind.app.feature.community.ui.components.formatLastSeen
+import com.speakmind.app.config.AppConfig
+import com.speakmind.app.feature.community.ui.components.GoogleSignInPill
+import com.speakmind.app.feature.community.ui.auth.rememberGoogleSignIn
 import com.speakmind.app.navigation.PeopleDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
@@ -43,12 +46,13 @@ fun NavGraphBuilder.peopleScreen() {
             viewModel.onVisibilityChanged(true)
             onStopOrDispose { viewModel.onVisibilityChanged(false) }
         }
-        PeopleContent(uiState, viewModel)
+        val googlePicker = rememberGoogleSignIn(AppConfig.googleWebClientId)
+        PeopleContent(uiState, viewModel, onSignIn = { viewModel.onGoogleSignIn(googlePicker) })
     }
 }
 
 @Composable
-private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel) {
+private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, onSignIn: () -> Unit) {
     val colors = LocalSpeakMindColors.current
     val listState = rememberLazyListState()
     LaunchedEffect(listState) {
@@ -99,10 +103,11 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel) {
                 }
             }
             if (uiState.isGuest) {
-                Text(
-                    "Sign in with Google to message people privately.",
-                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-                    modifier = Modifier.padding(horizontal = 24.sdp, vertical = 6.sdp),
+                GoogleSignInPill(
+                    "Sign in with Google to message people",
+                    loading = uiState.isSigningIn,
+                    onClick = onSignIn,
+                    modifier = Modifier.padding(horizontal = 20.sdp, vertical = 4.sdp),
                 )
             }
             LazyColumn(
@@ -181,3 +186,4 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel) {
         }
     }
 }
+

@@ -51,9 +51,6 @@ data object PrivacyPolicyDestination
 data object CommunitySetupDestination
 
 @Serializable
-data object CommunityAuthDestination
-
-@Serializable
 data object CommunityHubDestination
 
 @Serializable

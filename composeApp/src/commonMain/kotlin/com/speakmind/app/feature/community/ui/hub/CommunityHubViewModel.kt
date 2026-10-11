@@ -11,7 +11,11 @@ import com.speakmind.app.feature.community.data.ContentModerator
 import com.speakmind.app.feature.profile.domain.NameValidationResult
 import com.speakmind.app.feature.profile.domain.NameValidator
 import com.speakmind.app.navigation.AdminReportsDestination
-import com.speakmind.app.navigation.CommunityAuthDestination
+import com.speakmind.app.feature.community.ui.auth.GoogleIdResult
+import com.speakmind.app.feature.community.ui.auth.SignInOutcome
+import com.speakmind.app.feature.community.ui.auth.friendlySignInError
+import com.speakmind.app.feature.community.ui.auth.signInWithGoogleInPlace
+import com.speakmind.app.navigation.CommunitySetupDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.navigation.PeopleDestination
 import com.speakmind.app.navigation.RoomDestination
@@ -32,6 +36,7 @@ data class CommunityHubUiState(
     /** Private chats, newest first. */
     val chats: List<ChatRoom> = emptyList(),
     val isLoadingChats: Boolean = true,
+    val isSigningIn: Boolean = false,
     val isAdmin: Boolean = false,
     val myNickname: String = "",
     val myGender: String = "",
@@ -118,7 +123,31 @@ class CommunityHubViewModel(
     fun openSpeakyHub() = navigationManager.navigate(RoomDestination(SPEAKY_HUB_ROOM_ID, "Speaky Hub"))
     fun openChat(room: ChatRoom) = navigationManager.navigate(RoomDestination(room.id, room.displayName))
     fun openPeople() = navigationManager.navigate(PeopleDestination)
-    fun onSignIn() = navigationManager.navigate(CommunityAuthDestination)
+
+    /** Opens Google's account picker right here; first-timers then pick a nickname. */
+    fun onGoogleSignIn(launchPicker: suspend () -> GoogleIdResult) {
+        if (_uiState.value.isSigningIn) return
+        _uiState.update { it.copy(isSigningIn = true) }
+        viewModelScope.launch {
+            try {
+                when (signInWithGoogleInPlace(repository, launchPicker)) {
+                    SignInOutcome.NEEDS_PROFILE -> navigationManager.navigate(CommunitySetupDestination)
+                    SignInOutcome.READY -> onSignedIn()
+                    SignInOutcome.CANCELLED -> Unit
+                }
+            } catch (e: Exception) {
+                Napier.w("Google sign-in failed", e)
+                _uiState.update { it.copy(error = friendlySignInError(e)) }
+            } finally {
+                _uiState.update { it.copy(isSigningIn = false) }
+            }
+        }
+    }
+
+    private fun onSignedIn() {
+        repository.setActive(true)
+        onResume()
+    }
 
     fun openReports() = navigationManager.navigate(AdminReportsDestination)
 

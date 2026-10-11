@@ -16,7 +16,11 @@ import com.speakmind.app.feature.community.data.repository.friendlyCommunityErro
 import com.speakmind.app.feature.voice.platform.MicAccess
 import com.speakmind.app.feature.voice.platform.VoicePlayer
 import com.speakmind.app.feature.voice.platform.VoiceRecorder
-import com.speakmind.app.navigation.CommunityAuthDestination
+import com.speakmind.app.feature.community.ui.auth.GoogleIdResult
+import com.speakmind.app.feature.community.ui.auth.SignInOutcome
+import com.speakmind.app.feature.community.ui.auth.friendlySignInError
+import com.speakmind.app.feature.community.ui.auth.signInWithGoogleInPlace
+import com.speakmind.app.navigation.CommunitySetupDestination
 import com.speakmind.app.navigation.RoomDestination
 import com.speakmind.app.navigation.NavigationManager
 import io.github.aakira.napier.Napier
@@ -50,6 +54,7 @@ data class RoomChatUiState(
     val inputText: String = "",
     val currentUserId: String = "",
     val isGuest: Boolean = false,
+    val isSigningIn: Boolean = false,
     val isBanned: Boolean = false,
     val isOffline: Boolean = false,
     val isInitialLoading: Boolean = true,
@@ -643,13 +648,39 @@ class RoomChatViewModel(
 
     // ---------- Private messages ----------
 
-    fun onSignInRequested() = navigationManager.navigate(CommunityAuthDestination)
+
+    /** Opens Google's account picker right here; first-timers then pick a nickname. */
+    fun onGoogleSignIn(launchPicker: suspend () -> GoogleIdResult) {
+        if (_uiState.value.isSigningIn) return
+        _uiState.update { it.copy(isSigningIn = true) }
+        viewModelScope.launch {
+            try {
+                when (signInWithGoogleInPlace(repository, launchPicker)) {
+                    SignInOutcome.NEEDS_PROFILE -> navigationManager.navigate(CommunitySetupDestination)
+                    SignInOutcome.READY -> onSignedIn()
+                    SignInOutcome.CANCELLED -> Unit
+                }
+            } catch (e: Exception) {
+                Napier.w("Google sign-in failed", e)
+                _uiState.update { it.copy(error = friendlySignInError(e)) }
+            } finally {
+                _uiState.update { it.copy(isSigningIn = false) }
+            }
+        }
+    }
+
+    private fun onSignedIn() {
+        _uiState.update { it.copy(isGuest = repository.isGuest(), currentUserId = repository.currentUserId() ?: "") }
+        repository.setActive(true)
+        viewModelScope.launch { repository.refreshBlocks() }
+        checkBan()
+    }
 
     /** Opens (or starts) a private chat with someone from Speaky Hub. */
     fun onMessageUser(userId: String, nickname: String) {
         if (userId == _uiState.value.currentUserId || userId.isEmpty()) return
         if (_uiState.value.isGuest) {
-            onSignInRequested()
+            _uiState.update { it.copy(error = "Sign in with Google first to send private messages.") }
             return
         }
         viewModelScope.launch {

@@ -6,7 +6,11 @@ import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.repository.BlockedException
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
-import com.speakmind.app.navigation.CommunityAuthDestination
+import com.speakmind.app.feature.community.ui.auth.GoogleIdResult
+import com.speakmind.app.feature.community.ui.auth.SignInOutcome
+import com.speakmind.app.feature.community.ui.auth.friendlySignInError
+import com.speakmind.app.feature.community.ui.auth.signInWithGoogleInPlace
+import com.speakmind.app.navigation.CommunitySetupDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.navigation.RoomDestination
 import io.github.aakira.napier.Napier
@@ -32,6 +36,7 @@ data class PeopleUiState(
     val onlineUserIds: Set<String> = emptySet(),
     val blockedUserIds: Set<String> = emptySet(),
     val isGuest: Boolean = true,
+    val isSigningIn: Boolean = false,
     val error: String? = null,
 )
 
@@ -128,7 +133,7 @@ class PeopleViewModel(
     fun onMessage(user: CommunityUser) {
         _uiState.update { it.copy(profileUser = null) }
         if (_uiState.value.isGuest) {
-            navigationManager.navigate(CommunityAuthDestination)
+            _uiState.update { it.copy(error = "Sign in with Google first to send private messages.") }
             return
         }
         viewModelScope.launch {
@@ -142,6 +147,31 @@ class PeopleViewModel(
                 _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't open the chat.")) }
             }
         }
+    }
+
+    /** Opens Google's account picker right here; first-timers then pick a nickname. */
+    fun onGoogleSignIn(launchPicker: suspend () -> GoogleIdResult) {
+        if (_uiState.value.isSigningIn) return
+        _uiState.update { it.copy(isSigningIn = true) }
+        viewModelScope.launch {
+            try {
+                when (signInWithGoogleInPlace(repository, launchPicker)) {
+                    SignInOutcome.NEEDS_PROFILE -> navigationManager.navigate(CommunitySetupDestination)
+                    SignInOutcome.READY -> onSignedIn()
+                    SignInOutcome.CANCELLED -> Unit
+                }
+            } catch (e: Exception) {
+                Napier.w("Google sign-in failed", e)
+                _uiState.update { it.copy(error = friendlySignInError(e)) }
+            } finally {
+                _uiState.update { it.copy(isSigningIn = false) }
+            }
+        }
+    }
+
+    private fun onSignedIn() {
+        _uiState.update { it.copy(isGuest = repository.isGuest()) }
+        repository.setActive(true)
     }
 
     fun onErrorDismissed() = _uiState.update { it.copy(error = null, info = null) }

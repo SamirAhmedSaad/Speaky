@@ -87,6 +87,10 @@ import com.speakmind.app.feature.community.ui.components.formatClock
 import com.speakmind.app.feature.community.ui.components.formatDayLabel
 import com.speakmind.app.feature.community.ui.components.formatDuration
 import com.speakmind.app.feature.community.ui.components.formatLastSeen
+import com.speakmind.app.config.AppConfig
+import com.speakmind.app.feature.community.ui.components.GoogleSignInPill
+import com.speakmind.app.feature.community.ui.auth.GoogleIdResult
+import com.speakmind.app.feature.community.ui.auth.rememberGoogleSignIn
 import com.speakmind.app.navigation.RoomDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
@@ -110,7 +114,7 @@ private val emojiPickerItems = listOf(
 private const val GROUP_GAP_MS = 5 * 60 * 1000L
 
 /** Everything the chat screen can ask the view model to do. */
-private class RoomActions(vm: RoomChatViewModel) {
+private class RoomActions(vm: RoomChatViewModel, googlePicker: suspend () -> GoogleIdResult) {
     val onInputChanged = vm::onInputChanged
     val onSend = vm::onSendClicked
     val onLoadMore = vm::loadMore
@@ -121,7 +125,7 @@ private class RoomActions(vm: RoomChatViewModel) {
     val onPlayVoice = vm::onPlayVoice
     val onRetry = vm::onRetry
     val onMessageUser = vm::onMessageUser
-    val onSignIn = vm::onSignInRequested
+    val onSignIn: () -> Unit = { vm.onGoogleSignIn(googlePicker) }
     val onToggleMute = vm::onToggleMute
     val onEdit = vm::onEditRequested
     val onCancelEdit = vm::onCancelEdit
@@ -184,7 +188,8 @@ fun NavGraphBuilder.roomChatScreen() {
             viewModel.onVisibilityChanged(true)
             onStopOrDispose { viewModel.onVisibilityChanged(false) }
         }
-        val actions = remember(viewModel) { RoomActions(viewModel) }
+        val googlePicker = rememberGoogleSignIn(AppConfig.googleWebClientId)
+        val actions = remember(viewModel, googlePicker) { RoomActions(viewModel, googlePicker) }
         RoomChatContent(uiState = uiState, actions = actions)
 
         uiState.profileUser?.let { user ->
@@ -419,7 +424,7 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
 
         when {
             uiState.isBanned -> NoticeBar("Your account is suspended for breaking community rules.")
-            uiState.guestRestricted -> SignInBar(onSignIn = actions.onSignIn)
+            uiState.guestRestricted -> SignInBar(onSignIn = actions.onSignIn, loading = uiState.isSigningIn)
             uiState.kind == RoomKind.DIRECT && uiState.isDirectBlocked -> BlockedBar(
                 blockedByMe = uiState.isOtherBlockedByMe,
                 nickname = uiState.otherUser?.nickname ?: "this user",
@@ -1029,7 +1034,7 @@ private fun NoticeBar(text: String) {
 }
 
 @Composable
-private fun SignInBar(onSignIn: () -> Unit) {
+private fun SignInBar(onSignIn: () -> Unit, loading: Boolean) {
     val colors = LocalSpeakMindColors.current
     Column(
         modifier = Modifier
@@ -1041,20 +1046,7 @@ private fun SignInBar(onSignIn: () -> Unit) {
     ) {
         Text("You're reading as a visitor.", style = MaterialTheme.typography.bodySmall.copy(color = colors.textMuted))
         Spacer(Modifier.height(8.sdp))
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(46.sdp)
-                .clip(RoundedCornerShape(23.sdp))
-                .background(Color.White)
-                .border(1.sdp, colors.textMuted.copy(alpha = 0.2f), RoundedCornerShape(23.sdp))
-                .clickable(onClick = onSignIn),
-            horizontalArrangement = Arrangement.Center,
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            Text("G  ", fontSize = 16.ssp, fontWeight = FontWeight.Bold, color = Color(0xFF4285F4))
-            Text("Sign in with Google to chat", color = Color(0xFF1F1F1F), fontWeight = FontWeight.SemiBold)
-        }
+        GoogleSignInPill("Sign in with Google to chat", loading = loading, onClick = onSignIn)
     }
 }
 
@@ -1256,3 +1248,4 @@ private fun InputBar(
         }
     }
 }
+

@@ -42,6 +42,9 @@ import com.speakmind.app.feature.community.ui.components.SectionTitle
 import com.speakmind.app.feature.community.ui.components.UserAvatar
 import com.speakmind.app.feature.community.ui.components.rememberImagePickerLauncher
 import com.speakmind.app.feature.community.ui.components.formatListTime
+import com.speakmind.app.config.AppConfig
+import com.speakmind.app.feature.community.ui.components.GoogleSignInPill
+import com.speakmind.app.feature.community.ui.auth.rememberGoogleSignIn
 import com.speakmind.app.navigation.CommunityHubDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
@@ -61,12 +64,13 @@ fun NavGraphBuilder.communityHubScreen() {
             viewModel.onResume()
             onPauseOrDispose { }
         }
-        InboxContent(uiState = uiState, viewModel = viewModel)
+        val googlePicker = rememberGoogleSignIn(AppConfig.googleWebClientId)
+        InboxContent(uiState = uiState, viewModel = viewModel, onSignIn = { viewModel.onGoogleSignIn(googlePicker) })
     }
 }
 
 @Composable
-private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
+private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel, onSignIn: () -> Unit) {
     val colors = LocalSpeakMindColors.current
     Box(Modifier.fillMaxSize().background(colors.backgroundGradient)) {
         Column(Modifier.fillMaxSize()) {
@@ -95,7 +99,7 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
                     )
                 }
                 if (uiState.isGuest) {
-                    item(key = "signin") { SignInCard(onSignIn = viewModel::onSignIn) }
+                    item(key = "signin") { SignInCard(onSignIn = onSignIn, loading = uiState.isSigningIn) }
                 } else {
                     item(key = "private_title") {
                         SectionTitle("Private messages", Modifier.padding(top = 14.sdp, bottom = 2.sdp))
@@ -268,7 +272,7 @@ private fun SpeakyHubCard(hub: ChatRoom?, onlineCount: Int, onClick: () -> Unit)
 }
 
 @Composable
-private fun SignInCard(onSignIn: () -> Unit) {
+private fun SignInCard(onSignIn: () -> Unit, loading: Boolean) {
     val colors = LocalSpeakMindColors.current
     Column(
         modifier = Modifier
@@ -288,20 +292,7 @@ private fun SignInCard(onSignIn: () -> Unit) {
             style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
             modifier = Modifier.padding(top = 4.sdp, bottom = 12.sdp),
         )
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(44.sdp)
-                .clip(RoundedCornerShape(22.sdp))
-                .background(Color.White)
-                .border(1.sdp, colors.textMuted.copy(alpha = 0.2f), RoundedCornerShape(22.sdp))
-                .clickable(onClick = onSignIn),
-            horizontalArrangement = Arrangement.Center,
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            Text("G  ", fontSize = 16.ssp, fontWeight = FontWeight.Bold, color = Color(0xFF4285F4))
-            Text("Sign in with Google", color = Color(0xFF1F1F1F), fontWeight = FontWeight.SemiBold)
-        }
+        GoogleSignInPill("Sign in with Google", loading = loading, onClick = onSignIn)
     }
 }
 
@@ -436,3 +427,4 @@ private fun EditProfileDialog(uiState: CommunityHubUiState, viewModel: Community
         dismissButton = { TextButton(onClick = viewModel::onEditProfileDismissed) { Text("Cancel") } },
     )
 }
+

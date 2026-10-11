@@ -263,3 +263,26 @@ fun SectionTitle(text: String, modifier: Modifier = Modifier) {
         modifier = modifier,
     )
 }
+
+@Composable
+fun GoogleSignInPill(label: String, loading: Boolean, onClick: () -> Unit, modifier: Modifier = Modifier) {
+    val colors = LocalSpeakMindColors.current
+    Row(
+        modifier = modifier
+            .fillMaxWidth()
+            .height(46.sdp)
+            .clip(RoundedCornerShape(23.sdp))
+            .background(Color.White)
+            .border(1.sdp, colors.textMuted.copy(alpha = 0.2f), RoundedCornerShape(23.sdp))
+            .clickable(enabled = !loading, onClick = onClick),
+        horizontalArrangement = Arrangement.Center,
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        if (loading) {
+            CircularProgressIndicator(Modifier.size(20.sdp), color = Color(0xFF4285F4), strokeWidth = 2.sdp)
+        } else {
+            Text("G  ", fontSize = 16.ssp, fontWeight = FontWeight.Bold, color = Color(0xFF4285F4))
+            Text(label, color = Color(0xFF1F1F1F), fontWeight = FontWeight.SemiBold)
+        }
+    }
+}
