@@ -378,8 +378,8 @@ class RoomChatViewModel(
         val moderation = ContentModerator.check(text)
         if (!moderation.isAllowed) {
             _uiState.update {
+                // Keep the text so the user can fix it instead of retyping.
                 it.copy(
-                    inputText = "",
                     contentWarning = moderation.violationType?.userMessage
                         ?: "This message violates community guidelines.",
                 )

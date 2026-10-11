@@ -103,6 +103,8 @@ interface CommunityRepository {
     suspend fun adminSetReportStatus(reportId: String, status: String)
     suspend fun adminBan(userId: String, reason: String, removeMessages: Boolean)
     suspend fun adminUnban(userId: String)
+    suspend fun adminModerators(): List<CommunityUser>
+    suspend fun adminSetModerator(userId: String, on: Boolean)
 }
 
 interface RoomConnection {
@@ -147,6 +149,7 @@ fun friendlyCommunityError(e: Throwable, fallback: String): String {
         "guest_not_allowed" in m || "row-level security" in m -> "Sign in with Google to chat."
         "daily_limit" in m -> "You've reached today's Speaky Hub limit. Try again tomorrow."
         "rate_limited" in m -> "You're sending messages too fast. Wait a moment."
+        "last_admin" in m -> "The community needs at least one moderator."
         "not allowed" in m -> "You don't have permission to do that."
         "24 hours" in m -> "Messages can only be edited for 24 hours."
         "blocked" in m -> "You can't message this person."

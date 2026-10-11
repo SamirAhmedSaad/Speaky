@@ -165,6 +165,8 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                 onMessage = { viewModel.onMessage(user) },
                 onReport = null,
                 onBlockToggle = if (uiState.isGuest) null else { { viewModel.onToggleBlock(user) } },
+                isModerator = user.uid in uiState.moderatorIds,
+                onModeratorToggle = if (uiState.isAdmin) { { viewModel.onToggleModerator(user) } } else null,
             )
         }
         (uiState.error ?: uiState.info)?.let { error ->

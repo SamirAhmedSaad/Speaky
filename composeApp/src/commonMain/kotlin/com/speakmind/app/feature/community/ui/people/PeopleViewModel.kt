@@ -37,6 +37,8 @@ data class PeopleUiState(
     val blockedUserIds: Set<String> = emptySet(),
     val isGuest: Boolean = true,
     val isSigningIn: Boolean = false,
+    val isAdmin: Boolean = false,
+    val moderatorIds: Set<String> = emptySet(),
     val error: String? = null,
 )
 
@@ -56,6 +58,7 @@ class PeopleViewModel(
         viewModelScope.launch {
             repository.onlineUserIds.collect { ids -> _uiState.update { it.copy(onlineUserIds = ids) } }
         }
+        loadModerators()
         viewModelScope.launch {
             repository.refreshBlocks()
             repository.blockedUserIds.collect { ids -> _uiState.update { it.copy(blockedUserIds = ids) } }
@@ -126,6 +129,38 @@ class PeopleViewModel(
                 }
             } catch (e: Exception) {
                 _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't update block.")) }
+            }
+        }
+    }
+
+    private fun loadModerators() {
+        viewModelScope.launch {
+            if (!repository.isAdmin()) return@launch
+            val ids = try {
+                repository.adminModerators().map { it.uid }.toSet()
+            } catch (e: Exception) {
+                Napier.w("adminModerators failed", e)
+                emptySet()
+            }
+            _uiState.update { it.copy(isAdmin = true, moderatorIds = ids) }
+        }
+    }
+
+    fun onToggleModerator(user: CommunityUser) {
+        val makeModerator = user.uid !in _uiState.value.moderatorIds
+        _uiState.update { it.copy(profileUser = null) }
+        viewModelScope.launch {
+            try {
+                repository.adminSetModerator(user.uid, makeModerator)
+                _uiState.update {
+                    it.copy(
+                        moderatorIds = if (makeModerator) it.moderatorIds + user.uid else it.moderatorIds - user.uid,
+                        info = if (makeModerator) "${user.nickname} is now a moderator." else "${user.nickname} is no longer a moderator.",
+                    )
+                }
+            } catch (e: Exception) {
+                Napier.w("adminSetModerator failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't update moderator.")) }
             }
         }
     }

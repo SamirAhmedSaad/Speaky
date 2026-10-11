@@ -22,6 +22,7 @@ import com.speakmind.app.feature.community.data.model.AdminReport
 import com.speakmind.app.feature.community.ui.components.CommunityEmptyState
 import com.speakmind.app.feature.community.ui.components.CommunityLoading
 import com.speakmind.app.feature.community.ui.components.CommunityPageHeader
+import com.speakmind.app.feature.community.ui.components.UserAvatar
 import com.speakmind.app.feature.community.ui.components.formatClock
 import com.speakmind.app.feature.community.ui.components.formatListTime
 import com.speakmind.app.navigation.AdminReportsDestination
@@ -70,7 +71,9 @@ private fun AdminReportsContent(uiState: AdminReportsUiState, viewModel: AdminRe
                     )
                 }
             }
-            when {
+            if (uiState.status == MODERATORS_TAB) {
+                ModeratorsList(uiState, viewModel)
+            } else when {
                 uiState.isLoading && uiState.reports.isEmpty() -> CommunityLoading()
                 uiState.reports.isEmpty() -> CommunityEmptyState("🛡️", "All clear", "No reports here.")
                 else -> LazyColumn(
@@ -183,6 +186,46 @@ private fun ReportCard(report: AdminReport, viewModel: AdminReportsViewModel) {
             }
             if (report.status == "open") {
                 AdminButton("Dismiss", colors.textMuted) { viewModel.onDismissReport(report) }
+            }
+        }
+    }
+}
+
+@Composable
+private fun ModeratorsList(uiState: AdminReportsUiState, viewModel: AdminReportsViewModel) {
+    val colors = LocalSpeakMindColors.current
+    when {
+        uiState.isLoading && uiState.moderators.isEmpty() -> CommunityLoading()
+        else -> LazyColumn(
+            contentPadding = PaddingValues(start = 20.sdp, end = 20.sdp, top = 8.sdp, bottom = 32.sdp),
+            verticalArrangement = Arrangement.spacedBy(10.sdp),
+        ) {
+            item {
+                Text(
+                    "To add a moderator, open People, tap the person and choose Make moderator.",
+                    style = MaterialTheme.typography.bodySmall.copy(color = colors.textMuted),
+                    modifier = Modifier.padding(bottom = 4.sdp),
+                )
+            }
+            items(uiState.moderators, key = { it.uid }) { user ->
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(16.sdp))
+                        .background(colors.surfaceVariant.copy(alpha = 0.7f))
+                        .border(1.sdp, colors.gold.copy(alpha = 0.25f), RoundedCornerShape(16.sdp))
+                        .padding(12.sdp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    UserAvatar(nickname = user.nickname, photoUrl = user.photoUrl, size = 40.sdp, borderColor = colors.gold)
+                    Spacer(Modifier.width(12.sdp))
+                    Text(
+                        user.nickname,
+                        style = MaterialTheme.typography.titleSmall.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold),
+                        modifier = Modifier.weight(1f),
+                    )
+                    AdminButton("Remove", colors.error) { viewModel.onRemoveModerator(user) }
+                }
             }
         }
     }

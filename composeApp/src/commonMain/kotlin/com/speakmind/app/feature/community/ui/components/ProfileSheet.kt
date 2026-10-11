@@ -8,6 +8,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Chat
 import androidx.compose.material.icons.filled.Block
+import androidx.compose.material.icons.filled.Shield
 import androidx.compose.material.icons.filled.Flag
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -38,6 +39,9 @@ fun ProfileSheet(
     onMessage: (() -> Unit)?,
     onReport: (() -> Unit)?,
     onBlockToggle: (() -> Unit)?,
+    /** Admins only: make or remove this person as a moderator. */
+    isModerator: Boolean = false,
+    onModeratorToggle: (() -> Unit)? = null,
 ) {
     val colors = LocalSpeakMindColors.current
     ModalBottomSheet(
@@ -125,6 +129,16 @@ fun ProfileSheet(
                 if (onBlockToggle != null) {
                     SheetAction(if (isBlocked) "Unblock" else "Block", Icons.Default.Block, colors.error, onBlockToggle, Modifier.weight(1f))
                 }
+            }
+            if (onModeratorToggle != null) {
+                Spacer(Modifier.height(12.sdp))
+                SheetAction(
+                    if (isModerator) "Remove moderator" else "Make moderator",
+                    Icons.Default.Shield,
+                    colors.gold,
+                    onModeratorToggle,
+                    Modifier.fillMaxWidth(),
+                )
             }
         }
     }

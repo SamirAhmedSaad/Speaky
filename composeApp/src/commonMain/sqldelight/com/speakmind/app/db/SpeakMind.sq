@@ -175,6 +175,12 @@ INSERT OR REPLACE INTO room_message_cache
 (id, room_id, sender_id, sender_nickname, sender_gender, sender_photo_url, kind, body, voice_path, voice_duration_ms, created_at, created_at_raw, edited, reply_json, reactions_json)
 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 
+selectCachedRoomMessage:
+SELECT * FROM room_message_cache WHERE id = ?;
+
+updateCachedReactions:
+UPDATE room_message_cache SET reactions_json = ? WHERE id = ?;
+
 deleteCachedRoomMessage:
 DELETE FROM room_message_cache WHERE id = ?;
 

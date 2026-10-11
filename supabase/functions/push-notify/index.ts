@@ -1,4 +1,4 @@
-// Sends an FCM push for a new group / private chat message.
+// Sends an FCM push for a new private chat message, or a reply to you in Speaky Hub.
 // Called by the trg_message_push trigger (pg_net) with a shared secret.
 // Needs the FCM_SERVICE_ACCOUNT secret: the Firebase service-account JSON
 // (Firebase console → Project settings → Service accounts → Generate new private key).
@@ -69,7 +69,10 @@ Deno.serve(async (req: Request) => {
 
   await Promise.all(recipients.map(async (r) => {
     const isGroup = r.room_kind === "group";
-    const title = isGroup ? `${r.sender_nickname} · ${r.room_name}` : r.sender_nickname;
+    const isHubReply = r.room_kind === "channel";
+    const title = isHubReply
+      ? `${r.sender_nickname} replied to you`
+      : isGroup ? `${r.sender_nickname} · ${r.room_name}` : r.sender_nickname;
     const body = r.unread > 1 ? `${r.preview}  (${r.unread} new)` : r.preview;
     const res = await fetch(url, {
       method: "POST",
@@ -80,7 +83,7 @@ Deno.serve(async (req: Request) => {
           // Data-only so the app decides whether to show it (skips the chat that's open on screen).
           data: {
             room_id: r.room_id,
-            room_title: isGroup ? r.room_name : r.sender_nickname,
+            room_title: isGroup || isHubReply ? r.room_name : r.sender_nickname,
             title,
             body,
           },

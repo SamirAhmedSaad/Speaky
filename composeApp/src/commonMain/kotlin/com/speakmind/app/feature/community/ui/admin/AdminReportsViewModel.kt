@@ -3,6 +3,7 @@ package com.speakmind.app.feature.community.ui.admin
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.feature.community.data.model.AdminReport
+import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
 import com.speakmind.app.navigation.NavigationManager
@@ -13,11 +14,15 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-val REPORT_FILTERS = listOf("open" to "Open", "actioned" to "Banned", "dismissed" to "Dismissed", "all" to "All")
+const val MODERATORS_TAB = "moderators"
+val REPORT_FILTERS = listOf(
+    "open" to "Open", "actioned" to "Banned", "dismissed" to "Dismissed", "all" to "All", MODERATORS_TAB to "Moderators",
+)
 
 data class AdminReportsUiState(
     val status: String = "open",
     val reports: List<AdminReport> = emptyList(),
+    val moderators: List<CommunityUser> = emptyList(),
     val isLoading: Boolean = true,
     val banTarget: AdminReport? = null,
     val info: String? = null,
@@ -46,8 +51,13 @@ class AdminReportsViewModel(
         _uiState.update { it.copy(isLoading = true) }
         viewModelScope.launch {
             try {
-                val reports = repository.adminReports(_uiState.value.status)
-                _uiState.update { it.copy(reports = reports, isLoading = false) }
+                if (_uiState.value.status == MODERATORS_TAB) {
+                    val moderators = repository.adminModerators()
+                    _uiState.update { it.copy(moderators = moderators, isLoading = false) }
+                } else {
+                    val reports = repository.adminReports(_uiState.value.status)
+                    _uiState.update { it.copy(reports = reports, isLoading = false) }
+                }
             } catch (e: Exception) {
                 Napier.w("adminReports failed", e)
                 _uiState.update { it.copy(isLoading = false, error = friendlyCommunityError(e, "Couldn't load reports.")) }
@@ -85,6 +95,10 @@ class AdminReportsViewModel(
                 _uiState.update { it.copy(error = friendlyCommunityError(e, "Action failed.")) }
             }
         }
+    }
+
+    fun onRemoveModerator(user: CommunityUser) = act("${user.nickname} is no longer a moderator.") {
+        repository.adminSetModerator(user.uid, false)
     }
 
     fun onMessageDismissed() = _uiState.update { it.copy(info = null, error = null) }

@@ -735,6 +735,18 @@ class SupabaseCommunityRepository(
         client.postgrest.rpc("admin_unban", buildJsonObject { put("p_user", userId) })
     }
 
+    override suspend fun adminModerators(): List<CommunityUser> =
+        client.postgrest.rpc("admin_moderators").decodeList<ModeratorDto>().map {
+            CommunityUser(uid = it.userId, nickname = it.nickname.ifEmpty { "Unknown" }, gender = "", lastSeen = 0L, photoUrl = it.photoUrl, level = it.level)
+        }
+
+    override suspend fun adminSetModerator(userId: String, on: Boolean) {
+        client.postgrest.rpc("admin_set_moderator", buildJsonObject {
+            put("p_user", userId)
+            put("p_on", on)
+        })
+    }
+
     override suspend fun downloadVoice(path: String): ByteArray {
         voiceCache[path]?.let { return it }
         return client.storage.from(VOICE_BUCKET).downloadAuthenticated(path).also { rememberVoice(path, it) }
@@ -798,7 +810,9 @@ class SupabaseCommunityRepository(
             collectors += connScope.launch {
                 reactionAdds.collect { action ->
                     runCatching { action.decodeRecord<ReactionDto>() }.getOrNull()?.let {
-                        _reactionChanges.emit(ReactionChange(it.messageId, it.userId, it.emoji, added = true))
+                        val change = ReactionChange(it.messageId, it.userId, it.emoji, added = true)
+                        applyReactionToCache(change)
+                        _reactionChanges.emit(change)
                     }
                 }
             }
@@ -806,7 +820,11 @@ class SupabaseCommunityRepository(
                 reactionRemovals.collect { action ->
                     runCatching { action.decodeOldRecord<ReactionDto>() }.getOrNull()
                         ?.takeIf { it.roomId == roomId }
-                        ?.let { _reactionChanges.emit(ReactionChange(it.messageId, it.userId, it.emoji, added = false)) }
+                        ?.let {
+                            val change = ReactionChange(it.messageId, it.userId, it.emoji, added = false)
+                            applyReactionToCache(change)
+                            _reactionChanges.emit(change)
+                        }
                 }
             }
 
@@ -955,6 +973,23 @@ class SupabaseCommunityRepository(
         )
     }
 
+    /** Keeps reactions in the offline cache in step with realtime changes. */
+    private fun applyReactionToCache(change: ReactionChange) {
+        runCatching {
+            val row = database.speakMindQueries.selectCachedRoomMessage(change.messageId).executeAsOneOrNull() ?: return
+            val current = row.reactions_json
+                ?.let { runCatching { lenientJson.decodeFromString(reactionsSerializer, it) }.getOrNull() }
+                ?: emptyMap()
+            val users = current[change.emoji].orEmpty()
+            val updatedUsers = if (change.added) (users + change.userId).distinct() else users - change.userId
+            val updated = (current - change.emoji).let { if (updatedUsers.isEmpty()) it else it + (change.emoji to updatedUsers) }
+            database.speakMindQueries.updateCachedReactions(
+                updated.takeIf { it.isNotEmpty() }?.let { lenientJson.encodeToString(reactionsSerializer, it) },
+                change.messageId,
+            )
+        }.onFailure { Napier.w("Reaction cache update failed", it) }
+    }
+
     private fun cacheAndTrim(m: RoomMessage) {
         cache(m)
         database.speakMindQueries.trimRoomMessageCache(m.roomId, CACHE_PER_ROOM)
@@ -1035,6 +1070,14 @@ private fun parseRole(role: String?) = when (role) {
 }
 
 // ---------- DTOs ----------
+
+@Serializable
+private data class ModeratorDto(
+    @SerialName("user_id") val userId: String,
+    val nickname: String = "",
+    @SerialName("photo_url") val photoUrl: String? = null,
+    val level: String = "",
+)
 
 @Serializable
 private data class UserDto(
