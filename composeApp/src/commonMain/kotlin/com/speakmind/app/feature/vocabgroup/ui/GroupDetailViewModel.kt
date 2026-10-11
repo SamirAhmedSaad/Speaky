@@ -8,13 +8,23 @@ import com.speakmind.app.feature.voice.platform.SpeechRecognizerEngine
 import com.speakmind.app.feature.voice.platform.SpeechResult
 import com.speakmind.app.feature.voice.platform.TextToSpeechEngine
 import com.speakmind.app.feature.wordlookup.data.DictionaryApiClient
+import com.speakmind.app.feature.wordlookup.data.TranslationApiClient
 import com.speakmind.app.feature.wordlookup.data.WiktionaryApiClient
+import com.speakmind.app.feature.wordlookup.domain.WordLookupResult
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.ui.theme.TtsSpeedManager
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+
+data class PlayAllState(
+    val currentIndex: Int,
+    val isPaused: Boolean,
+    val total: Int,
+)
 
 data class GroupDetailUiState(
     val groupName: String = "",
@@ -24,6 +34,8 @@ data class GroupDetailUiState(
     val showAddSheet: Boolean = false,
     val editingWord: VocabGroupWord? = null,
     val isListening: Boolean = false,
+    val playAllState: PlayAllState? = null,
+    val lookupError: String? = null,
 )
 
 class GroupDetailViewModel(
@@ -32,6 +44,7 @@ class GroupDetailViewModel(
     private val repository: VocabGroupRepository,
     private val dictionaryClient: DictionaryApiClient,
     private val wiktionaryClient: WiktionaryApiClient,
+    private val translationClient: TranslationApiClient,
     private val speechRecognizer: SpeechRecognizerEngine,
     private val tts: TextToSpeechEngine,
     private val ttsSpeedManager: TtsSpeedManager,
@@ -43,6 +56,8 @@ class GroupDetailViewModel(
 
     private val _inputText = MutableStateFlow("")
     val inputText: StateFlow<String> = _inputText.asStateFlow()
+
+    private var playJob: Job? = null
 
     init {
         loadWords()
@@ -116,15 +131,13 @@ class GroupDetailViewModel(
                 loadingWordIds = _uiState.value.loadingWordIds + word.id,
                 expandedWordId = word.id,
             )
-            val dictResult = dictionaryClient.lookup(word.word.trim())
-            val result = when {
-                dictResult != null && dictResult.examples.isEmpty() -> {
-                    val wikiExamples = wiktionaryClient.lookupExamples(word.word.trim())
-                    if (wikiExamples.isNotEmpty()) dictResult.copy(examples = wikiExamples) else dictResult
-                }
-                dictResult != null -> dictResult
-                else -> wiktionaryClient.lookup(word.word.trim())
-            }
+            val input = word.word.trim()
+            val isPhrase = input.contains(' ') || input.contains('-')
+
+            // Phrases skip Dictionary API (it only handles single words) and go to Wiktionary first.
+            // Statements (long phrases) skip directly to translation.
+            val result = if (isPhrase) lookupPhrase(input) else tryLookup(input)
+
             if (result != null) {
                 repository.updateWord(
                     id = word.id,
@@ -135,10 +148,49 @@ class GroupDetailViewModel(
                     partOfSpeech = result.partOfSpeech,
                 )
                 loadWords()
+            } else {
+                val arabic = translationClient.translate(input)
+                    ?: if (isPhrase) translationClient.translate(input.replace('-', ' ')) else null
+                    ?: if (isPhrase) translationClient.translate(input.replace(' ', '-')) else null
+                if (arabic != null) {
+                    repository.updateWord(
+                        id = word.id,
+                        word = word.word,
+                        meaning = arabic,
+                        examples = emptyList(),
+                        phonetic = "",
+                        partOfSpeech = if (isPhrase) "phrase" else "",
+                    )
+                    loadWords()
+                } else {
+                    _uiState.value = _uiState.value.copy(
+                        lookupError = "No result found for \"${word.word}\". Check the spelling.",
+                    )
+                }
             }
+
             _uiState.value = _uiState.value.copy(
                 loadingWordIds = _uiState.value.loadingWordIds - word.id,
             )
+        }
+    }
+
+    private suspend fun lookupPhrase(input: String): WordLookupResult? {
+        // Try Wiktionary for idioms/phrasal verbs (e.g. "give up", "break a leg", "rip-off")
+        val hyphenated = input.replace(' ', '-')
+        val spaced = input.replace('-', ' ')
+        val wikiResult = wiktionaryClient.lookup(input)
+            ?: wiktionaryClient.lookup(hyphenated)
+            ?: wiktionaryClient.lookup(spaced)
+            ?: dictionaryClient.lookup(hyphenated) // dictionary API also indexes hyphenated compounds
+            ?: dictionaryClient.lookup(spaced)
+        return when {
+            wikiResult == null -> null
+            wikiResult.examples.isEmpty() -> {
+                val ex = wiktionaryClient.lookupExamples(input)
+                if (ex.isNotEmpty()) wikiResult.copy(examples = ex) else wikiResult
+            }
+            else -> wikiResult
         }
     }
 
@@ -184,6 +236,71 @@ class GroupDetailViewModel(
         }
     }
 
+    fun clearLookupError() {
+        _uiState.value = _uiState.value.copy(lookupError = null)
+    }
+
+    private suspend fun tryLookup(input: String) = run {
+        val dictResult = dictionaryClient.lookup(input)
+        when {
+            dictResult != null && dictResult.examples.isEmpty() -> {
+                val wikiExamples = wiktionaryClient.lookupExamples(input)
+                if (wikiExamples.isNotEmpty()) dictResult.copy(examples = wikiExamples) else dictResult
+            }
+            dictResult != null -> dictResult
+            else -> wiktionaryClient.lookup(input)
+        }
+    }
+
+    fun startPlayAll() {
+        val words = _uiState.value.words
+        if (words.isEmpty()) return
+        playFromIndex(0, words)
+    }
+
+    fun togglePausePlayAll() {
+        val state = _uiState.value.playAllState ?: return
+        if (state.isPaused) {
+            playFromIndex(state.currentIndex, _uiState.value.words)
+        } else {
+            playJob?.cancel()
+            playJob = null
+            tts.stop()
+            _uiState.value = _uiState.value.copy(playAllState = state.copy(isPaused = true))
+        }
+    }
+
+    fun stopPlayAll() {
+        playJob?.cancel()
+        playJob = null
+        tts.stop()
+        _uiState.value = _uiState.value.copy(playAllState = null, expandedWordId = null)
+    }
+
+    private fun playFromIndex(startIndex: Int, words: List<VocabGroupWord>) {
+        playJob?.cancel()
+        playJob = viewModelScope.launch {
+            for (index in startIndex until words.size) {
+                val word = words[index]
+                _uiState.value = _uiState.value.copy(
+                    playAllState = PlayAllState(currentIndex = index, isPaused = false, total = words.size),
+                    expandedWordId = word.id,
+                )
+                tts.speak(word.word, rate = ttsSpeedManager.speed.value)
+                delay(2000)
+                val example = word.examples.firstOrNull()
+                if (example != null) {
+                    tts.speak(example, rate = 0.85f * ttsSpeedManager.speed.value)
+                    delay(1500)
+                } else {
+                    delay(500)
+                }
+            }
+            _uiState.value = _uiState.value.copy(playAllState = null, expandedWordId = null)
+            playJob = null
+        }
+    }
+
     fun speakWord(text: String) {
         viewModelScope.launch { tts.speak(text, rate = ttsSpeedManager.speed.value) }
     }
@@ -193,7 +310,7 @@ class GroupDetailViewModel(
     }
 
     fun onBack() {
-        tts.stop()
+        stopPlayAll()
         navigationManager.back()
     }
 }

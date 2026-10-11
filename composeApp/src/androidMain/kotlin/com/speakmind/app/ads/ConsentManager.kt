@@ -45,7 +45,7 @@ object ConsentManager {
             },
             { requestError ->
                 Napier.w { "Consent info update failed: ${requestError.message}" }
-                // Proceed without consent on error — ads will still show (non-personalized)
+                // Consent status remains UNKNOWN — caller must check canRequestAds() before loading ads.
                 onComplete()
             }
         )

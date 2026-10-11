@@ -12,6 +12,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
@@ -21,6 +22,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.*
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.launch
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -74,6 +77,10 @@ fun NavGraphBuilder.groupDetailScreen() {
             onDeleteWord = viewModel::onDeleteWord,
             onSpeakWord = viewModel::speakWord,
             onSpeakExample = viewModel::speakExample,
+            onStartPlayAll = viewModel::startPlayAll,
+            onTogglePausePlayAll = viewModel::togglePausePlayAll,
+            onStopPlayAll = viewModel::stopPlayAll,
+            onClearLookupError = viewModel::clearLookupError,
             onBack = viewModel::onBack,
         )
     }
@@ -97,10 +104,21 @@ private fun GroupDetailContent(
     onDeleteWord: (Long) -> Unit,
     onSpeakWord: (String) -> Unit,
     onSpeakExample: (String) -> Unit,
+    onStartPlayAll: () -> Unit,
+    onTogglePausePlayAll: () -> Unit,
+    onStopPlayAll: () -> Unit,
+    onClearLookupError: () -> Unit,
     onBack: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
     val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    val snackbarHostState = remember { SnackbarHostState() }
+
+    LaunchedEffect(uiState.lookupError) {
+        val msg = uiState.lookupError ?: return@LaunchedEffect
+        snackbarHostState.showSnackbar(msg)
+        onClearLookupError()
+    }
 
     uiState.editingWord?.let { editing ->
         EditWordDialog(
@@ -127,9 +145,14 @@ private fun GroupDetailContent(
         }
     }
 
+    Scaffold(
+        snackbarHost = { SnackbarHost(snackbarHostState) },
+        containerColor = Color.Transparent,
+    ) { innerPadding ->
     Box(
         modifier = Modifier
             .fillMaxSize()
+            .padding(innerPadding)
             .background(colors.backgroundGradient)
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
@@ -160,15 +183,26 @@ private fun GroupDetailContent(
             if (uiState.words.isEmpty()) {
                 EmptyWordsState()
             } else {
-                Text(
-                    text = "${uiState.words.size} word${if (uiState.words.size != 1) "s" else ""}",
-                    style = MaterialTheme.typography.labelSmall.copy(
-                        color = colors.textMuted,
-                        letterSpacing = 0.5.ssp,
-                    ),
-                    modifier = Modifier.padding(horizontal = 20.sdp, vertical = 4.sdp),
+                val listState = rememberLazyListState()
+                val scope = rememberCoroutineScope()
+
+                LaunchedEffect(uiState.playAllState?.currentIndex) {
+                    val idx = uiState.playAllState?.currentIndex ?: return@LaunchedEffect
+                    scope.launch { listState.animateScrollToItem(idx) }
+                }
+
+                // Word count + play controls row
+                PlayControlRow(
+                    wordCount = uiState.words.size,
+                    playAllState = uiState.playAllState,
+                    onStartPlayAll = onStartPlayAll,
+                    onTogglePause = onTogglePausePlayAll,
+                    onStop = onStopPlayAll,
+                    modifier = Modifier.padding(horizontal = 20.sdp, vertical = 6.sdp),
                 )
+
                 LazyColumn(
+                    state = listState,
                     contentPadding = PaddingValues(
                         start = 20.sdp,
                         end = 20.sdp,
@@ -179,10 +213,14 @@ private fun GroupDetailContent(
                     modifier = Modifier.weight(1f),
                 ) {
                     items(uiState.words, key = { it.id }) { word ->
+                        val isActive = uiState.playAllState?.let {
+                            !it.isPaused && uiState.words.getOrNull(it.currentIndex)?.id == word.id
+                        } == true
                         WordCard(
                             word = word,
                             isExpanded = uiState.expandedWordId == word.id,
                             isLookingUp = word.id in uiState.loadingWordIds,
+                            isActive = isActive,
                             onToggleExpand = { onToggleExpand(word.id) },
                             onLookup = { onLookup(word) },
                             onEdit = { onEditWord(word) },
@@ -202,6 +240,7 @@ private fun GroupDetailContent(
                 .padding(end = 20.sdp, bottom = 36.sdp),
         )
     }
+    } // end Scaffold
 }
 
 // ─────────────────────────────────────────────────────
@@ -213,6 +252,7 @@ private fun WordCard(
     word: VocabGroupWord,
     isExpanded: Boolean,
     isLookingUp: Boolean,
+    isActive: Boolean,
     onToggleExpand: () -> Unit,
     onLookup: () -> Unit,
     onEdit: () -> Unit,
@@ -227,15 +267,30 @@ private fun WordCard(
     else
         RoundedCornerShape(16.sdp)
 
+    val infiniteTransition = rememberInfiniteTransition(label = "active_pulse")
+    val activeBorderAlpha by infiniteTransition.animateFloat(
+        initialValue = 0.5f,
+        targetValue = 1f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(700, easing = EaseInOutSine),
+            repeatMode = RepeatMode.Reverse,
+        ),
+        label = "borderAlpha",
+    )
+
     Column {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .clip(headerShape)
-                .background(colors.surfaceVariant.copy(alpha = 0.75f))
+                .background(
+                    if (isActive) colors.neonCyan.copy(alpha = 0.07f)
+                    else colors.surfaceVariant.copy(alpha = 0.75f)
+                )
                 .border(
-                    width = 1.sdp,
-                    color = colors.magenta.copy(alpha = if (isExpanded) 0.4f else 0.2f),
+                    width = if (isActive) 1.5.sdp else 1.sdp,
+                    color = if (isActive) colors.neonCyan.copy(alpha = activeBorderAlpha)
+                            else colors.magenta.copy(alpha = if (isExpanded) 0.4f else 0.2f),
                     shape = headerShape,
                 )
                 .clickable(enabled = hasMeaning, onClick = onToggleExpand)
@@ -318,6 +373,118 @@ private fun WordCard(
                 word = word,
                 onSpeakWord = onSpeakWord,
                 onSpeakExample = onSpeakExample,
+            )
+        }
+    }
+}
+
+@Composable
+private fun PlayControlRow(
+    wordCount: Int,
+    playAllState: PlayAllState?,
+    onStartPlayAll: () -> Unit,
+    onTogglePause: () -> Unit,
+    onStop: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    val colors = LocalSpeakMindColors.current
+
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(8.sdp),
+    ) {
+        if (playAllState == null) {
+            // Idle: word count + Play All button
+            Text(
+                text = "$wordCount word${if (wordCount != 1) "s" else ""}",
+                style = MaterialTheme.typography.labelSmall.copy(
+                    color = colors.textMuted,
+                    letterSpacing = 0.5.ssp,
+                ),
+            )
+            Spacer(modifier = Modifier.weight(1f))
+            Row(
+                modifier = Modifier
+                    .clip(RoundedCornerShape(50))
+                    .background(colors.neonCyan.copy(alpha = 0.1f))
+                    .border(1.sdp, colors.neonCyan.copy(alpha = 0.35f), RoundedCornerShape(50))
+                    .clickable(onClick = onStartPlayAll)
+                    .padding(horizontal = 14.sdp, vertical = 7.sdp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(5.sdp),
+            ) {
+                Icon(
+                    Icons.Default.PlayArrow,
+                    contentDescription = "Play All",
+                    tint = colors.neonCyan,
+                    modifier = Modifier.size(15.sdp),
+                )
+                Text(
+                    text = "Play All",
+                    style = MaterialTheme.typography.labelSmall.copy(
+                        color = colors.neonCyan,
+                        fontWeight = FontWeight.SemiBold,
+                    ),
+                )
+            }
+        } else {
+            // Playing / Paused: Pause|Resume + Stop + progress
+            Row(
+                modifier = Modifier
+                    .clip(RoundedCornerShape(50))
+                    .background(colors.neonCyan.copy(alpha = 0.1f))
+                    .border(1.sdp, colors.neonCyan.copy(alpha = 0.35f), RoundedCornerShape(50))
+                    .clickable(onClick = onTogglePause)
+                    .padding(horizontal = 12.sdp, vertical = 7.sdp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(5.sdp),
+            ) {
+                Icon(
+                    if (playAllState.isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
+                    contentDescription = null,
+                    tint = colors.neonCyan,
+                    modifier = Modifier.size(15.sdp),
+                )
+                Text(
+                    text = if (playAllState.isPaused) "Resume" else "Pause",
+                    style = MaterialTheme.typography.labelSmall.copy(
+                        color = colors.neonCyan,
+                        fontWeight = FontWeight.SemiBold,
+                    ),
+                )
+            }
+            Row(
+                modifier = Modifier
+                    .clip(RoundedCornerShape(50))
+                    .background(colors.error.copy(alpha = 0.08f))
+                    .border(1.sdp, colors.error.copy(alpha = 0.3f), RoundedCornerShape(50))
+                    .clickable(onClick = onStop)
+                    .padding(horizontal = 12.sdp, vertical = 7.sdp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(5.sdp),
+            ) {
+                Icon(
+                    Icons.Default.Stop,
+                    contentDescription = "Stop",
+                    tint = colors.error,
+                    modifier = Modifier.size(15.sdp),
+                )
+                Text(
+                    text = "Stop",
+                    style = MaterialTheme.typography.labelSmall.copy(
+                        color = colors.error,
+                        fontWeight = FontWeight.SemiBold,
+                    ),
+                )
+            }
+            Spacer(modifier = Modifier.weight(1f))
+            Text(
+                text = "${playAllState.currentIndex + 1} / ${playAllState.total}",
+                style = MaterialTheme.typography.labelSmall.copy(
+                    color = colors.textMuted,
+                    letterSpacing = 0.5.ssp,
+                ),
             )
         }
     }
@@ -588,7 +755,7 @@ private fun AddWordSheetContent(
                         modifier = Modifier.size(18.sdp),
                     )
                     Text(
-                        text = "Add a Word",
+                        text = "Add Word or Phrase",
                         style = MaterialTheme.typography.titleLarge.copy(
                             color = colors.textPrimary,
                             fontWeight = FontWeight.Bold,
@@ -596,7 +763,7 @@ private fun AddWordSheetContent(
                     )
                 }
                 Text(
-                    text = "Type it below or tap the mic to speak",
+                    text = "Type a word, phrase, or sentence",
                     style = MaterialTheme.typography.bodySmall.copy(color = colors.textMuted),
                 )
             }
@@ -621,7 +788,7 @@ private fun AddWordSheetContent(
             ) {
                 if (inputText.isEmpty()) {
                     Text(
-                        text = if (isListening) "Listening..." else "e.g. resilient, pursue...",
+                        text = if (isListening) "Listening..." else "e.g. resilient, break a leg...",
                         style = MaterialTheme.typography.headlineSmall.copy(
                             color = if (isListening) colors.magenta.copy(alpha = 0.6f)
                                     else colors.textMuted.copy(alpha = 0.5f),
@@ -892,7 +1059,6 @@ private fun EditWordDialog(
                     onValueChange = { editText = it },
                     modifier = Modifier.fillMaxWidth(),
                     textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.textPrimary),
-                    singleLine = true,
                     cursorBrush = SolidColor(colors.magenta),
                 )
             }

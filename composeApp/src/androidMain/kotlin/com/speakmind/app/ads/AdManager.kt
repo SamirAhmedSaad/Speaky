@@ -18,9 +18,9 @@ class AdManager(private val context: Context) {
     private var isLoading = false
 
     fun initialize() {
-        // Set max ad content rating to G (General) — blocks mature content
         val requestConfig = RequestConfiguration.Builder()
             .setMaxAdContentRating(RequestConfiguration.MAX_AD_CONTENT_RATING_G)
+            .setTagForChildDirectedTreatment(RequestConfiguration.TAG_FOR_CHILD_DIRECTED_TREATMENT_FALSE)
             .build()
         MobileAds.setRequestConfiguration(requestConfig)
 

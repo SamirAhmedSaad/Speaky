@@ -80,7 +80,9 @@ class MainActivity : ComponentActivity() {
 
         AdConfig.useTestAds = BuildConfig.DEBUG
         ConsentManager.gatherConsent(this) {
-            AdManager.init(this)
+            if (ConsentManager.canRequestAds(this)) {
+                AdManager.init(this)
+            }
         }
 
         setContent {

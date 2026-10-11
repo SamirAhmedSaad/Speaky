@@ -9,5 +9,5 @@ import org.koin.dsl.module
 val vocabGroupModule = module {
     single { VocabGroupRepository(get(), get()) }
     viewModel { MyGroupsViewModel(get(), get()) }
-    viewModel { params -> GroupDetailViewModel(params.get(), params.get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { params -> GroupDetailViewModel(params.get(), params.get(), get(), get(), get(), get(), get(), get(), get(), get()) }
 }
