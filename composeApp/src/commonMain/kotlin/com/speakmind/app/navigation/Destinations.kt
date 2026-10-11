@@ -64,6 +64,3 @@ data object MyGroupsDestination
 
 @Serializable
 data class GroupDetailDestination(val groupId: Long, val groupName: String)
-
-@Serializable
-data class GroupInfoDestination(val roomId: String)

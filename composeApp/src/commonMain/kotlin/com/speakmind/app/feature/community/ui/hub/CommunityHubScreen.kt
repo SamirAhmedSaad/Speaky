@@ -12,8 +12,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Groups
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Public
 import androidx.compose.material.icons.filled.Search
@@ -24,15 +22,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.LifecycleStartEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
-import com.speakmind.app.feature.community.data.model.ChatRoom
 import com.speakmind.app.feature.community.data.model.CommunityUser
-import com.speakmind.app.feature.community.data.model.RoomKind
 import com.speakmind.app.feature.community.ui.components.OnlineDot
 import com.speakmind.app.feature.community.ui.components.UserAvatar
 import com.speakmind.app.feature.community.ui.components.formatLastSeen
@@ -80,7 +78,6 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
                 IconButton(onClick = viewModel::onBack) {
                     Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = colors.textPrimary)
                 }
-                var menuOpen by remember { mutableStateOf(false) }
                 Column(Modifier.weight(1f)) {
                     Text(
                         "Community",
@@ -91,36 +88,7 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
                         style = MaterialTheme.typography.bodySmall.copy(color = colors.textMuted),
                     )
                 }
-                Box {
-                    IconButton(onClick = { menuOpen = true }) {
-                        Icon(Icons.Default.MoreVert, contentDescription = "More", tint = colors.textPrimary)
-                    }
-                    DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
-                        if (uiState.isGuest) {
-                            DropdownMenuItem(
-                                text = { Text("Sign in with Google") },
-                                onClick = {
-                                    menuOpen = false
-                                    viewModel.onSignInWithGoogle()
-                                },
-                            )
-                        }
-                        DropdownMenuItem(
-                            text = { Text("Sign out") },
-                            onClick = {
-                                menuOpen = false
-                                viewModel.onSignOut()
-                            },
-                        )
-                        DropdownMenuItem(
-                            text = { Text("Delete account", color = MaterialTheme.colorScheme.error) },
-                            onClick = {
-                                menuOpen = false
-                                viewModel.onDeleteAccountRequested()
-                            },
-                        )
-                    }
-                }
+                AccountMenu(uiState, viewModel)
             }
 
             TabRow(
@@ -129,14 +97,14 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
                 contentColor = colors.neonCyan,
             ) {
                 HubTab.entries.forEach { tab ->
+                    val unread = if (tab == HubTab.CHATS) uiState.rooms.sumOf { it.unreadCount } else 0
                     Tab(
                         selected = uiState.tab == tab,
                         onClick = { viewModel.onTabSelected(tab) },
                         text = {
                             Text(
                                 when (tab) {
-                                    HubTab.CHATS -> "Chats"
-                                    HubTab.GROUPS -> "Groups"
+                                    HubTab.CHATS -> if (unread > 0) "Inbox ($unread)" else "Inbox"
                                     HubTab.PEOPLE -> "People"
                                 },
                                 color = if (uiState.tab == tab) colors.neonCyan else colors.textMuted,
@@ -157,7 +125,7 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
                     Text(
-                        "You're a guest: chat in Speaky Hub. Sign in with Google for private chats, groups and voice.",
+                        "You're a guest: chat in Speaky Hub. Sign in with Google to send private messages and voice notes.",
                         style = MaterialTheme.typography.bodySmall.copy(color = colors.textPrimary),
                         modifier = Modifier.weight(1f),
                     )
@@ -166,23 +134,8 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
             }
 
             when (uiState.tab) {
-                HubTab.CHATS -> ChatsTab(uiState, viewModel)
-                HubTab.GROUPS -> GroupsTab(uiState, viewModel)
+                HubTab.CHATS -> InboxTab(uiState, viewModel)
                 HubTab.PEOPLE -> PeopleTab(uiState, viewModel)
-            }
-        }
-
-        if (uiState.tab == HubTab.GROUPS && !uiState.isGuest) {
-            FloatingActionButton(
-                onClick = viewModel::onShowCreateGroup,
-                containerColor = colors.neonCyan,
-                contentColor = colors.backgroundDark,
-                modifier = Modifier
-                    .align(Alignment.BottomEnd)
-                    .navigationBarsPadding()
-                    .padding(18.sdp),
-            ) {
-                Icon(Icons.Default.Add, contentDescription = "Create group")
             }
         }
 
@@ -205,27 +158,12 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
         }
     }
 
-    if (uiState.showCreateGroup) {
-        CreateGroupDialog(
-            isCreating = uiState.isCreatingGroup,
-            error = uiState.createGroupError,
-            onDismiss = viewModel::onDismissCreateGroup,
-            onCreate = viewModel::onCreateGroup,
-        )
-    }
-    if (uiState.showJoinByCode) {
-        JoinByCodeDialog(
-            error = uiState.joinCodeError,
-            onDismiss = viewModel::onDismissJoinByCode,
-            onJoin = viewModel::onJoinByCode,
-        )
-    }
     if (uiState.confirmDeleteAccount) {
         AlertDialog(
             onDismissRequest = viewModel::onDeleteAccountDismissed,
             title = { Text("Delete your account?") },
             text = {
-                Text("Your community profile, messages, voice notes, groups you own (handed to another member) and memberships are permanently deleted. This can't be undone.")
+                Text("Your community profile, messages, voice notes and private chats are permanently deleted. This can't be undone.")
             },
             confirmButton = {
                 TextButton(onClick = viewModel::onConfirmDeleteAccount) {
@@ -242,150 +180,87 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
     }
 }
 
-// ---------------- Chats ----------------
+@Composable
+private fun AccountMenu(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
+    val colors = LocalSpeakMindColors.current
+    var menuOpen by remember { mutableStateOf(false) }
+    Box {
+        IconButton(onClick = { menuOpen = true }) {
+            Icon(Icons.Default.MoreVert, contentDescription = "More", tint = colors.textPrimary)
+        }
+        DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
+            if (uiState.isGuest) {
+                DropdownMenuItem(
+                    text = { Text("Sign in with Google") },
+                    onClick = {
+                        menuOpen = false
+                        viewModel.onSignInWithGoogle()
+                    },
+                )
+            }
+            DropdownMenuItem(
+                text = { Text("Sign out") },
+                onClick = {
+                    menuOpen = false
+                    viewModel.onSignOut()
+                },
+            )
+            DropdownMenuItem(
+                text = { Text("Delete account", color = MaterialTheme.colorScheme.error) },
+                onClick = {
+                    menuOpen = false
+                    viewModel.onDeleteAccountRequested()
+                },
+            )
+        }
+    }
+}
+
+// ---------------- Inbox ----------------
 
 @Composable
-private fun ChatsTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
-    val colors = LocalSpeakMindColors.current
+private fun InboxTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         contentPadding = PaddingValues(vertical = 8.sdp),
     ) {
         item(key = "hub") {
-            RoomRow(
+            ChatRow(
                 leading = { IconBadge(Icons.Default.Public) },
                 title = "Speaky Hub",
-                subtitle = "Global channel · ${uiState.onlineUserIds.size} online",
+                subtitle = "General chat · ${uiState.onlineUserIds.size} online",
                 time = "",
                 unread = 0,
                 onClick = viewModel::openSpeakyHub,
             )
         }
-        if (uiState.isLoadingRooms && uiState.rooms.isEmpty()) {
-            item { CenterSpinner() }
-        } else if (uiState.rooms.isEmpty()) {
-            item {
-                EmptyText("No chats yet.\nFind someone in People or join a group to start chatting!")
+        item(key = "inbox_header") {
+            Text(
+                "Private messages",
+                style = MaterialTheme.typography.labelMedium.copy(color = LocalSpeakMindColors.current.textMuted),
+                modifier = Modifier.padding(start = 16.sdp, top = 10.sdp, bottom = 4.sdp),
+            )
+        }
+        when {
+            uiState.isLoadingRooms && uiState.rooms.isEmpty() -> item { CenterSpinner() }
+            uiState.rooms.isEmpty() -> item {
+                EmptyText("No private messages yet.\nTap someone in Speaky Hub or People to start a chat!")
             }
         }
         items(uiState.rooms, key = { it.id }) { room ->
             val other = room.otherUser
-            RoomRow(
+            ChatRow(
                 leading = {
-                    if (room.kind == RoomKind.DIRECT && other != null) {
-                        AvatarWithStatus(other, online = other.uid in uiState.onlineUserIds)
-                    } else {
-                        IconBadge(Icons.Default.Groups)
-                    }
+                    if (other != null) AvatarWithStatus(other, online = other.uid in uiState.onlineUserIds)
                 },
-                title = (if (room.isPrivate) "🔒 " else "") + room.displayName + (if (room.muted) " 🔕" else ""),
-                subtitle = room.lastMessagePreview.ifEmpty {
-                    if (room.kind == RoomKind.GROUP) "${room.memberCount} members" else "Say hello 👋"
-                },
+                title = room.displayName + if (room.muted) " 🔕" else "",
+                subtitle = room.lastMessagePreview.ifEmpty { "Say hello 👋" },
                 time = formatListTime(room.lastMessageAtMillis),
                 unread = room.unreadCount,
                 onClick = { viewModel.openRoom(room) },
             )
         }
     }
-}
-
-// ---------------- Groups ----------------
-
-@Composable
-private fun GroupsTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
-    Column(Modifier.fillMaxSize()) {
-        SearchField(uiState.groupQuery, "Search groups", viewModel::onGroupQueryChanged)
-        TextButton(onClick = viewModel::onShowJoinByCode, modifier = Modifier.padding(start = 8.sdp)) {
-            Text("🔑  Join a private group with a code", color = LocalSpeakMindColors.current.neonCyan)
-        }
-        LazyColumn(
-            modifier = Modifier.fillMaxSize(),
-            contentPadding = PaddingValues(bottom = 90.sdp),
-        ) {
-            if (uiState.isLoadingGroups && uiState.groups.isEmpty()) item { CenterSpinner() }
-            else if (uiState.groups.isEmpty()) item { EmptyText("No groups yet. Tap + to create the first one!") }
-            items(uiState.groups, key = { it.id }) { group ->
-                RoomRow(
-                    leading = { IconBadge(Icons.Default.Groups) },
-                    title = (if (group.isPrivate) "🔒 " else "") + group.name,
-                    subtitle = group.description.ifEmpty { group.lastMessagePreview }
-                        .ifEmpty { "${group.memberCount} members" },
-                    time = if (group.isMember) "Joined" else "${group.memberCount} 👥",
-                    unread = if (group.isMember) group.unreadCount else 0,
-                    onClick = { viewModel.openRoom(group) },
-                )
-            }
-        }
-    }
-}
-
-@Composable
-private fun CreateGroupDialog(
-    isCreating: Boolean,
-    error: String?,
-    onDismiss: () -> Unit,
-    onCreate: (String, String, Boolean) -> Unit,
-) {
-    var name by remember { mutableStateOf("") }
-    var description by remember { mutableStateOf("") }
-    var isPrivate by remember { mutableStateOf(false) }
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Create a group") },
-        text = {
-            Column(verticalArrangement = Arrangement.spacedBy(8.sdp)) {
-                OutlinedTextField(
-                    value = name,
-                    onValueChange = { if (it.length <= 40) name = it },
-                    label = { Text("Group name") },
-                    singleLine = true,
-                )
-                OutlinedTextField(
-                    value = description,
-                    onValueChange = { if (it.length <= 120) description = it },
-                    label = { Text("What's it about? (optional)") },
-                    maxLines = 3,
-                )
-                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.clickable { isPrivate = !isPrivate }) {
-                    Column(Modifier.weight(1f)) {
-                        Text("Private group")
-                        Text("Hidden from search; join by invite code only.", style = MaterialTheme.typography.bodySmall)
-                    }
-                    Switch(checked = isPrivate, onCheckedChange = { isPrivate = it })
-                }
-                if (error != null) Text(error, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
-            }
-        },
-        confirmButton = {
-            TextButton(onClick = { onCreate(name, description, isPrivate) }, enabled = !isCreating && name.isNotBlank()) {
-                Text(if (isCreating) "Creating…" else "Create")
-            }
-        },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
-    )
-}
-
-@Composable
-private fun JoinByCodeDialog(error: String?, onDismiss: () -> Unit, onJoin: (String) -> Unit) {
-    var code by remember { mutableStateOf("") }
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Join with invite code") },
-        text = {
-            Column(verticalArrangement = Arrangement.spacedBy(8.sdp)) {
-                OutlinedTextField(
-                    value = code,
-                    onValueChange = { code = it.filter { c -> c.isLetterOrDigit() }.take(8) },
-                    label = { Text("8-character code") },
-                    singleLine = true,
-                )
-                if (error != null) Text(error, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
-            }
-        },
-        confirmButton = { TextButton(onClick = { onJoin(code) }, enabled = code.length == 8) { Text("Join") } },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
-    )
 }
 
 // ---------------- People ----------------
@@ -411,7 +286,7 @@ private fun PeopleTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewM
             items(people, key = { it.uid }) { user ->
                 val online = user.uid in uiState.onlineUserIds
                 val blocked = user.uid in uiState.blockedUserIds
-                RoomRow(
+                ChatRow(
                     leading = { AvatarWithStatus(user, online) },
                     title = user.nickname,
                     subtitle = when {
@@ -435,10 +310,10 @@ private fun PeopleTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewM
     }
 }
 
-// ---------------- Shared rows ----------------
+// ---------------- Shared ----------------
 
 @Composable
-private fun RoomRow(
+private fun ChatRow(
     leading: @Composable () -> Unit,
     title: String,
     subtitle: String,
@@ -503,7 +378,7 @@ private fun AvatarWithStatus(user: CommunityUser, online: Boolean) {
 }
 
 @Composable
-private fun IconBadge(icon: androidx.compose.ui.graphics.vector.ImageVector) {
+private fun IconBadge(icon: ImageVector) {
     val colors = LocalSpeakMindColors.current
     Box(
         modifier = Modifier
@@ -558,6 +433,6 @@ private fun EmptyText(text: String) {
         text = text,
         style = MaterialTheme.typography.bodyMedium.copy(color = LocalSpeakMindColors.current.textMuted),
         modifier = Modifier.fillMaxWidth().padding(32.sdp),
-        textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+        textAlign = TextAlign.Center,
     )
 }

@@ -4,7 +4,6 @@ import com.speakmind.app.feature.community.data.model.ChatRoom
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.model.GroupMember
-import com.speakmind.app.feature.community.data.model.GroupRole
 import com.speakmind.app.feature.community.data.model.RoomMessage
 import com.speakmind.app.feature.community.data.model.TypingUser
 import kotlinx.coroutines.flow.Flow
@@ -42,19 +41,8 @@ interface CommunityRepository {
 
     // Rooms
     suspend fun myRooms(): List<ChatRoom>
-    suspend fun publicGroups(query: String): List<ChatRoom>
     suspend fun getRoom(roomId: String): ChatRoom?
     suspend fun roomMembers(roomId: String): List<GroupMember>
-    suspend fun createGroup(name: String, description: String, isPrivate: Boolean): ChatRoom
-    suspend fun joinGroup(roomId: String)
-    /** Joins a group (public or private) by its invite code; returns the room id. */
-    suspend fun joinGroupByCode(code: String): String
-    suspend fun leaveRoom(roomId: String)
-    suspend fun updateGroup(roomId: String, name: String, description: String, isPrivate: Boolean)
-    suspend fun regenerateInviteCode(roomId: String): String
-    suspend fun removeMember(roomId: String, userId: String)
-    suspend fun setMemberRole(roomId: String, userId: String, role: GroupRole)
-    suspend fun deleteGroup(roomId: String)
     suspend fun setMuted(roomId: String, muted: Boolean)
     /** Returns the private chat room id with [otherUserId], creating it if needed. */
     suspend fun openDirectChat(otherUserId: String): String
@@ -122,7 +110,6 @@ fun friendlyCommunityError(e: Throwable, fallback: String): String {
         "guest_not_allowed" in m -> "Sign in with Google to use private chats, groups, and voice messages."
         "daily_limit" in m -> "You've reached today's Speaky Hub limit. Try again tomorrow."
         "rate_limited" in m -> "You're sending messages too fast. Wait a moment."
-        "invalid code" in m -> "That invite code doesn't exist."
         "not allowed" in m -> "You don't have permission to do that."
         "24 hours" in m -> "Messages can only be edited for 24 hours."
         "blocked" in m -> "You can't message this person."

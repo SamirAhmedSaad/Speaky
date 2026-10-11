@@ -2,7 +2,6 @@ package com.speakmind.app.feature.community.ui.hub
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.speakmind.app.feature.community.data.ContentModerator
 import com.speakmind.app.feature.community.data.model.ChatRoom
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.model.RoomKind
@@ -25,27 +24,19 @@ import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-enum class HubTab { CHATS, GROUPS, PEOPLE }
+enum class HubTab { CHATS, PEOPLE }
 
 data class CommunityHubUiState(
     val tab: HubTab = HubTab.CHATS,
     val isGuest: Boolean = false,
     val rooms: List<ChatRoom> = emptyList(),
     val isLoadingRooms: Boolean = true,
-    val groups: List<ChatRoom> = emptyList(),
-    val groupQuery: String = "",
-    val isLoadingGroups: Boolean = false,
     val people: List<CommunityUser> = emptyList(),
     val peopleQuery: String = "",
     val isLoadingPeople: Boolean = false,
     val hasMorePeople: Boolean = true,
     val onlineUserIds: Set<String> = emptySet(),
     val blockedUserIds: Set<String> = emptySet(),
-    val showCreateGroup: Boolean = false,
-    val isCreatingGroup: Boolean = false,
-    val createGroupError: String? = null,
-    val showJoinByCode: Boolean = false,
-    val joinCodeError: String? = null,
     val confirmDeleteAccount: Boolean = false,
     val isDeletingAccount: Boolean = false,
     val error: String? = null,
@@ -61,7 +52,6 @@ class CommunityHubViewModel(
     val uiState: StateFlow<CommunityHubUiState> = _uiState.asStateFlow()
 
     private val activity = MutableStateFlow(0)
-    private var groupSearchJob: Job? = null
     private var peopleSearchJob: Job? = null
 
     init {
@@ -89,7 +79,6 @@ class CommunityHubViewModel(
     fun onResume() {
         refreshRooms()
         when (_uiState.value.tab) {
-            HubTab.GROUPS -> loadGroups()
             HubTab.PEOPLE -> loadPeople(reset = true)
             HubTab.CHATS -> Unit
         }
@@ -99,7 +88,6 @@ class CommunityHubViewModel(
         _uiState.update { it.copy(tab = tab) }
         when (tab) {
             HubTab.CHATS -> refreshRooms()
-            HubTab.GROUPS -> loadGroups()
             HubTab.PEOPLE -> if (_uiState.value.people.isEmpty()) loadPeople(reset = true)
         }
     }
@@ -107,87 +95,12 @@ class CommunityHubViewModel(
     private fun refreshRooms() {
         viewModelScope.launch {
             try {
-                val rooms = repository.myRooms().filter { it.kind != RoomKind.CHANNEL }
+                // Inbox = private chats; Speaky Hub is pinned separately
+                val rooms = repository.myRooms().filter { it.kind == RoomKind.DIRECT }
                 _uiState.update { it.copy(rooms = rooms, isLoadingRooms = false) }
             } catch (e: Exception) {
                 Napier.w("myRooms failed", e)
                 _uiState.update { it.copy(isLoadingRooms = false, error = friendlyCommunityError(e, "Couldn't load chats.")) }
-            }
-        }
-    }
-
-    // ---------- Groups ----------
-
-    fun onGroupQueryChanged(query: String) {
-        _uiState.update { it.copy(groupQuery = query) }
-        groupSearchJob?.cancel()
-        groupSearchJob = viewModelScope.launch {
-            delay(300)
-            loadGroups()
-        }
-    }
-
-    private fun loadGroups() {
-        viewModelScope.launch {
-            _uiState.update { it.copy(isLoadingGroups = true) }
-            try {
-                val groups = repository.publicGroups(_uiState.value.groupQuery)
-                _uiState.update { it.copy(groups = groups, isLoadingGroups = false) }
-            } catch (e: Exception) {
-                Napier.w("publicGroups failed", e)
-                _uiState.update { it.copy(isLoadingGroups = false) }
-            }
-        }
-    }
-
-    fun onShowCreateGroup() {
-        if (requireAccount("create groups")) return
-        _uiState.update { it.copy(showCreateGroup = true, createGroupError = null) }
-    }
-
-    fun onDismissCreateGroup() = _uiState.update { it.copy(showCreateGroup = false, createGroupError = null) }
-
-    fun onCreateGroup(name: String, description: String, isPrivate: Boolean) {
-        val trimmed = name.trim()
-        if (trimmed.length !in 2..40) {
-            _uiState.update { it.copy(createGroupError = "Group name must be 2–40 characters") }
-            return
-        }
-        if (!ContentModerator.check("$trimmed $description").isAllowed) {
-            _uiState.update { it.copy(createGroupError = "Please choose a different name") }
-            return
-        }
-        _uiState.update { it.copy(isCreatingGroup = true, createGroupError = null) }
-        viewModelScope.launch {
-            try {
-                val room = repository.createGroup(trimmed, description, isPrivate)
-                _uiState.update { it.copy(isCreatingGroup = false, showCreateGroup = false) }
-                openRoom(room)
-            } catch (e: Exception) {
-                Napier.w("createGroup failed", e)
-                _uiState.update {
-                    it.copy(isCreatingGroup = false, createGroupError = friendlyCommunityError(e, "Couldn't create the group."))
-                }
-            }
-        }
-    }
-
-    fun onShowJoinByCode() {
-        if (requireAccount("join groups")) return
-        _uiState.update { it.copy(showJoinByCode = true, joinCodeError = null) }
-    }
-
-    fun onDismissJoinByCode() = _uiState.update { it.copy(showJoinByCode = false, joinCodeError = null) }
-
-    fun onJoinByCode(code: String) {
-        if (code.isBlank()) return
-        viewModelScope.launch {
-            try {
-                val roomId = repository.joinGroupByCode(code)
-                _uiState.update { it.copy(showJoinByCode = false) }
-                navigationManager.navigate(RoomDestination(roomId, "Group"))
-            } catch (e: Exception) {
-                _uiState.update { it.copy(joinCodeError = friendlyCommunityError(e, "Couldn't join with that code.")) }
             }
         }
     }

@@ -366,22 +366,6 @@ class SupabaseCommunityRepository(
     override suspend fun myRooms(): List<ChatRoom> =
         client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }
 
-    override suspend fun publicGroups(query: String): List<ChatRoom> {
-        val joined = myRooms().filter { it.kind == RoomKind.GROUP }.associateBy { it.id }
-        val q = query.trim()
-        return client.from(ROOMS).select(Columns.raw(ROOM_COLUMNS)) {
-            filter {
-                eq("kind", "group")
-                eq("is_private", false)
-                if (q.isNotEmpty()) ilike("name", "%${q.replace("%", "").replace("_", "")}%")
-            }
-            order("last_message_at", Order.DESCENDING)
-            limit(100)
-        }.decodeList<RoomDto>().map { dto ->
-            joined[dto.id] ?: dto.toDomain(isMember = false)
-        }
-    }
-
     override suspend fun getRoom(roomId: String): ChatRoom? {
         myRooms().firstOrNull { it.id == roomId }?.let { return it }
         return client.from(ROOMS).select(Columns.raw(ROOM_COLUMNS)) {
@@ -394,76 +378,6 @@ class SupabaseCommunityRepository(
             .decodeList<MemberListDto>()
             .map { it.toDomain() }
             .onEach { cacheUser(it.user) }
-
-    override suspend fun createGroup(name: String, description: String, isPrivate: Boolean): ChatRoom {
-        val uid = requireUserId()
-        val dto = client.from(ROOMS).insert(
-            NewGroupDto(name = name.trim(), description = description.trim(), createdBy = uid, isPrivate = isPrivate)
-        ) { select(Columns.raw(ROOM_COLUMNS)) }.decodeSingle<RoomDto>()
-        return dto.toDomain(isMember = true).copy(myRole = GroupRole.OWNER)
-    }
-
-    override suspend fun joinGroup(roomId: String) {
-        val uid = requireUserId()
-        client.from(MEMBERS).upsert(MemberInsertDto(roomId = roomId, userId = uid)) {
-            ignoreDuplicates = true
-        }
-    }
-
-    override suspend fun joinGroupByCode(code: String): String =
-        client.postgrest.rpc("join_group_by_code", buildJsonObject { put("p_code", code.trim().lowercase()) })
-            .decodeAs<String>()
-
-    override suspend fun leaveRoom(roomId: String) {
-        val uid = currentUserId() ?: return
-        client.from(MEMBERS).delete {
-            filter {
-                eq("room_id", roomId)
-                eq("user_id", uid)
-            }
-        }
-    }
-
-    override suspend fun updateGroup(roomId: String, name: String, description: String, isPrivate: Boolean) {
-        client.postgrest.rpc(
-            "update_group",
-            buildJsonObject {
-                put("p_room", roomId)
-                put("p_name", name.trim())
-                put("p_description", description.trim())
-                put("p_is_private", isPrivate)
-            },
-        )
-    }
-
-    override suspend fun regenerateInviteCode(roomId: String): String =
-        client.postgrest.rpc("regenerate_invite_code", buildJsonObject { put("p_room", roomId) }).decodeAs<String>()
-
-    override suspend fun removeMember(roomId: String, userId: String) {
-        client.postgrest.rpc(
-            "remove_group_member",
-            buildJsonObject {
-                put("p_room", roomId)
-                put("p_user", userId)
-            },
-        )
-    }
-
-    override suspend fun setMemberRole(roomId: String, userId: String, role: GroupRole) {
-        client.postgrest.rpc(
-            "set_group_member_role",
-            buildJsonObject {
-                put("p_room", roomId)
-                put("p_user", userId)
-                put("p_role", role.name.lowercase())
-            },
-        )
-    }
-
-    override suspend fun deleteGroup(roomId: String) {
-        client.postgrest.rpc("delete_group", buildJsonObject { put("p_room", roomId) })
-        database.speakMindQueries.trimRoomMessageCache(roomId, 0)
-    }
 
     override suspend fun setMuted(roomId: String, muted: Boolean) {
         val uid = requireUserId()

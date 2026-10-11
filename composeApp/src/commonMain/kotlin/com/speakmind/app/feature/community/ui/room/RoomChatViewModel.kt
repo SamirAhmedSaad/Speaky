@@ -15,7 +15,7 @@ import com.speakmind.app.feature.community.data.repository.friendlyCommunityErro
 import com.speakmind.app.feature.voice.platform.MicAccess
 import com.speakmind.app.feature.voice.platform.VoicePlayer
 import com.speakmind.app.feature.voice.platform.VoiceRecorder
-import com.speakmind.app.navigation.GroupInfoDestination
+import com.speakmind.app.navigation.RoomDestination
 import com.speakmind.app.navigation.NavigationManager
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.DelicateCoroutinesApi
@@ -36,8 +36,6 @@ data class RoomChatUiState(
     val roomId: String = "",
     val title: String = "",
     val kind: RoomKind = RoomKind.CHANNEL,
-    val isMember: Boolean = true,
-    val isJoining: Boolean = false,
     val muted: Boolean = false,
     val otherUser: CommunityUser? = null,
     val isOtherOnline: Boolean = false,
@@ -74,8 +72,7 @@ data class RoomChatUiState(
     /** Guests may only post text in Speaky Hub. */
     val guestRestricted: Boolean get() = isGuest && kind != RoomKind.CHANNEL
     val canPost: Boolean
-        get() = !isBanned && !guestRestricted && (kind == RoomKind.CHANNEL || isMember) &&
-            !(kind == RoomKind.DIRECT && isDirectBlocked)
+        get() = !isBanned && !guestRestricted && !(kind == RoomKind.DIRECT && isDirectBlocked)
     val canSendVoice: Boolean get() = canPost && !isGuest
     val isOtherBlockedByMe: Boolean get() = otherUser?.uid in blockedUserIds
 
@@ -161,7 +158,6 @@ class RoomChatViewModel(
                     it.copy(
                         title = room.displayName.ifEmpty { it.title },
                         kind = room.kind,
-                        isMember = room.kind == RoomKind.CHANNEL || room.isMember,
                         otherUser = room.otherUser,
                         memberCount = room.memberCount,
                         muted = room.muted,
@@ -295,9 +291,8 @@ class RoomChatViewModel(
     private fun refreshOnline(online: Set<String>) {
         _uiState.update { state ->
             when (state.kind) {
-                RoomKind.CHANNEL -> state.copy(onlineCount = online.size)
-                RoomKind.GROUP -> state.copy(onlineCount = memberIds.count { it in online })
                 RoomKind.DIRECT -> state.copy(isOtherOnline = state.otherUser?.uid in online)
+                else -> state.copy(onlineCount = online.size)
             }
         }
     }
@@ -566,30 +561,24 @@ class RoomChatViewModel(
         }
     }
 
-    // ---------- Groups ----------
+    // ---------- Private messages ----------
 
-    fun onJoinGroup() {
-        if (_uiState.value.isJoining) return
+    /** Opens (or starts) a private chat with someone from Speaky Hub. */
+    fun onMessageUser(userId: String, nickname: String) {
+        if (userId == _uiState.value.currentUserId || userId.isEmpty()) return
         if (_uiState.value.isGuest) {
-            _uiState.update { it.copy(error = "Sign in with Google to join groups.") }
+            _uiState.update { it.copy(error = "Sign in with Google to send private messages.") }
             return
         }
-        _uiState.update { it.copy(isJoining = true) }
         viewModelScope.launch {
             try {
-                repository.joinGroup(roomId)
-                repository.currentUserId()?.let { memberIds = memberIds + it }
-                _uiState.update { it.copy(isMember = true, isJoining = false, memberCount = it.memberCount + 1) }
-                refreshOnline(repository.onlineUserIds.value)
+                val dm = repository.openDirectChat(userId)
+                navigationManager.navigate(RoomDestination(dm, nickname))
             } catch (e: Exception) {
-                Napier.w("joinGroup failed", e)
-                _uiState.update { it.copy(isJoining = false, error = friendlyCommunityError(e, "Couldn't join the group.")) }
+                Napier.w("openDirectChat failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't open the chat.")) }
             }
         }
-    }
-
-    fun onOpenGroupInfo() {
-        if (_uiState.value.kind == RoomKind.GROUP) navigationManager.navigate(GroupInfoDestination(roomId))
     }
 
     fun onToggleMute() {

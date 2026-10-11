@@ -34,7 +34,7 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.ErrorOutline
 import androidx.compose.material.icons.filled.Flag
-import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Notifications
@@ -99,8 +99,7 @@ private class RoomActions(vm: RoomChatViewModel) {
     val onSendRecording = vm::onSendRecording
     val onPlayVoice = vm::onPlayVoice
     val onRetry = vm::onRetry
-    val onJoinGroup = vm::onJoinGroup
-    val onOpenGroupInfo = vm::onOpenGroupInfo
+    val onMessageUser = vm::onMessageUser
     val onToggleMute = vm::onToggleMute
     val onEdit = vm::onEditRequested
     val onCancelEdit = vm::onCancelEdit
@@ -266,6 +265,7 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
                             onDelete = { actions.onDelete(message) },
                             onReport = { actions.onReport(ReportTarget(message.senderId, nickname, message)) },
                             onBlock = { actions.onBlock(ReportTarget(message.senderId, nickname)) },
+                            onSenderClick = { actions.onMessageUser(message.senderId, message.senderNickname) },
                         )
                     }
                     if (uiState.dailyLimitReached) {
@@ -334,7 +334,6 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
                 nickname = uiState.otherUser?.nickname ?: "this user",
                 onUnblock = actions.onUnblockOther,
             )
-            !uiState.canPost -> JoinBar(isJoining = uiState.isJoining, onJoin = actions.onJoinGroup)
             uiState.isRecording -> RecordingBar(
                 elapsedMs = uiState.recordingElapsedMs,
                 onCancel = actions.onCancelRecording,
@@ -430,11 +429,7 @@ private fun RoomTopBar(uiState: RoomChatUiState, actions: RoomActions) {
             }
             Spacer(Modifier.width(10.sdp))
         }
-        Column(
-            modifier = Modifier
-                .weight(1f)
-                .then(if (uiState.kind == RoomKind.GROUP) Modifier.clickable { actions.onOpenGroupInfo() } else Modifier),
-        ) {
+        Column(modifier = Modifier.weight(1f)) {
             Text(
                 text = uiState.title,
                 maxLines = 1,
@@ -443,7 +438,7 @@ private fun RoomTopBar(uiState: RoomChatUiState, actions: RoomActions) {
             )
             val subtitle = uiState.typingText ?: when (uiState.kind) {
                 RoomKind.CHANNEL -> "Global learning community · ${uiState.onlineCount} online"
-                RoomKind.GROUP -> "${uiState.memberCount} members · ${uiState.onlineCount} online · tap for info"
+                RoomKind.GROUP -> "${uiState.onlineCount} online"
                 RoomKind.DIRECT -> when {
                     uiState.isOtherOnline -> "Online"
                     uiState.otherUser != null -> formatLastSeen(uiState.otherUser.lastSeen)
@@ -460,20 +455,13 @@ private fun RoomTopBar(uiState: RoomChatUiState, actions: RoomActions) {
                 ),
             )
         }
-        val showMenu = !uiState.isGuest && ((uiState.kind == RoomKind.GROUP && uiState.isMember) ||
-            (uiState.kind == RoomKind.DIRECT && uiState.otherUser != null))
+        val showMenu = !uiState.isGuest && uiState.kind == RoomKind.DIRECT && uiState.otherUser != null
         if (showMenu) {
             Box {
                 IconButton(onClick = { menuOpen = true }) {
                     Icon(Icons.Default.MoreVert, contentDescription = "Chat options", tint = colors.textPrimary)
                 }
                 DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
-                    if (uiState.kind == RoomKind.GROUP) {
-                        MenuItem("Group info", Icons.Default.Info) {
-                            menuOpen = false
-                            actions.onOpenGroupInfo()
-                        }
-                    }
                     MenuItem(
                         if (uiState.muted) "Unmute notifications" else "Mute notifications",
                         if (uiState.muted) Icons.Default.Notifications else Icons.Default.NotificationsOff,
@@ -531,6 +519,7 @@ private fun MessageBubble(
     onDelete: () -> Unit,
     onReport: () -> Unit,
     onBlock: () -> Unit,
+    onSenderClick: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
     var actionsOpen by remember { mutableStateOf(false) }
@@ -546,6 +535,7 @@ private fun MessageBubble(
                 photoUrl = message.senderPhotoUrl,
                 size = 30.sdp,
                 borderColor = colors.neonCyan,
+                modifier = Modifier.clip(CircleShape).clickable { onSenderClick() },
             )
             Spacer(modifier = Modifier.width(6.sdp))
         }
@@ -558,7 +548,10 @@ private fun MessageBubble(
                         fontWeight = FontWeight.SemiBold,
                         fontSize = 10.ssp,
                     ),
-                    modifier = Modifier.padding(start = 4.sdp, bottom = 2.sdp),
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(6.sdp))
+                        .clickable { onSenderClick() }
+                        .padding(start = 4.sdp, bottom = 2.sdp),
                 )
             }
             val shape = RoundedCornerShape(
@@ -651,6 +644,12 @@ private fun MessageBubble(
                         onDelete()
                     }
                 } else {
+                    if (showSender) {
+                        MenuItem("Message privately", Icons.Default.Email) {
+                            actionsOpen = false
+                            onSenderClick()
+                        }
+                    }
                     MenuItem("Report message", Icons.Default.Flag) {
                         actionsOpen = false
                         onReport()
@@ -822,28 +821,6 @@ private fun ReportDialog(
         },
         dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
     )
-}
-
-@Composable
-private fun JoinBar(isJoining: Boolean, onJoin: () -> Unit) {
-    val colors = LocalSpeakMindColors.current
-    Box(
-        modifier = Modifier
-            .fillMaxWidth()
-            .background(colors.surface.copy(alpha = 0.97f))
-            .navigationBarsPadding()
-            .padding(12.sdp),
-        contentAlignment = Alignment.Center,
-    ) {
-        Button(
-            onClick = onJoin,
-            enabled = !isJoining,
-            colors = ButtonDefaults.buttonColors(containerColor = colors.neonCyan, contentColor = colors.backgroundDark),
-            modifier = Modifier.fillMaxWidth(),
-        ) {
-            Text(if (isJoining) "Joining…" else "Join group to chat", fontWeight = FontWeight.Bold)
-        }
-    }
 }
 
 @Composable
