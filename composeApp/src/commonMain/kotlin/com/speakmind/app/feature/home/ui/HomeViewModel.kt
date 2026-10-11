@@ -180,7 +180,7 @@ class HomeViewModel(
             val lastDate = kotlinx.datetime.LocalDate.parse(last)
             val todayDate = kotlinx.datetime.LocalDate.parse(today)
             val diff = todayDate.toEpochDays() - lastDate.toEpochDays()
-            diff == 1
+            diff == 1L
         } catch (_: Exception) {
             false
         }

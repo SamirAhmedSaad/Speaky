@@ -64,8 +64,8 @@ fun formatDayLabel(epochMillis: Long): String {
     val day = Instant.fromEpochMilliseconds(epochMillis).toLocalDateTime(tz).date
     val today = Clock.System.now().toLocalDateTime(tz).date
     return when (today.toEpochDays() - day.toEpochDays()) {
-        0 -> "Today"
-        1 -> "Yesterday"
+        0L -> "Today"
+        1L -> "Yesterday"
         else -> {
             val weekday = day.dayOfWeek.name.take(3).lowercase().replaceFirstChar { it.uppercase() }
             val month = day.month.name.take(3).lowercase().replaceFirstChar { it.uppercase() }
@@ -75,5 +75,5 @@ fun formatDayLabel(epochMillis: Long): String {
 }
 
 /** Calendar day key used to group messages under date separators. */
-fun dayKey(epochMillis: Long): Int =
+fun dayKey(epochMillis: Long): Long =
     Instant.fromEpochMilliseconds(epochMillis).toLocalDateTime(TimeZone.currentSystemDefault()).date.toEpochDays()

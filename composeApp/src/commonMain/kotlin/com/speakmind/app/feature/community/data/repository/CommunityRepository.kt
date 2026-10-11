@@ -23,6 +23,8 @@ interface CommunityRepository {
     suspend fun deleteAccount()
     /** Name from the auth provider (e.g. Google), used to prefill the nickname. */
     fun authDisplayName(): String?
+    /** Profile photo from the auth provider (e.g. Google), if any. */
+    fun authPhotoUrl(): String?
     suspend fun isBanned(): Boolean
 
     suspend fun saveUserProfile(nickname: String, gender: String)

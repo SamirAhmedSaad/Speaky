@@ -240,6 +240,8 @@ class SupabaseCommunityRepository(
     private fun appLevel(): String =
         database.speakMindQueries.selectProgress().executeAsOneOrNull()?.level ?: ""
 
+    override fun authPhotoUrl(): String? = googlePhotoUrl()
+
     private fun googlePhotoUrl(): String? {
         val meta = client.auth.currentUserOrNull()?.userMetadata ?: return null
         return (meta["avatar_url"] ?: meta["picture"])?.jsonPrimitive?.contentOrNull?.takeIf { it.startsWith("http") }

@@ -159,7 +159,7 @@ private sealed interface ChatItem {
 
 private fun buildItems(messages: List<RoomMessage>): List<ChatItem> {
     val items = ArrayList<ChatItem>(messages.size + 8)
-    var lastDay = Int.MIN_VALUE
+    var lastDay = Long.MIN_VALUE
     messages.forEachIndexed { i, m ->
         val day = dayKey(m.createdAtMillis)
         if (day != lastDay) {

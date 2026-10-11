@@ -21,6 +21,10 @@ data class CommunitySetupUiState(
     val isNicknameFromOnboarding: Boolean = false,
     val isLoading: Boolean = true,
     val isSaving: Boolean = false,
+    /** Photo picked from the gallery (JPEG), uploaded when joining. */
+    val photoBytes: ByteArray? = null,
+    /** Google profile photo, used when no photo is picked. */
+    val googlePhotoUrl: String? = null,
     val error: String? = null,
 )
 
@@ -53,6 +57,7 @@ class CommunitySetupViewModel(
             _uiState.value = _uiState.value.copy(
                 nickname = savedNickname,
                 isNicknameFromOnboarding = savedNickname.isNotEmpty(),
+                googlePhotoUrl = communityRepository.authPhotoUrl(),
                 isLoading = false,
             )
         }
@@ -66,6 +71,10 @@ class CommunitySetupViewModel(
             NameValidator.errorMessage(NameValidator.validate(resolved.trim()))
         } else null
         _uiState.value = _uiState.value.copy(nickname = resolved, error = error)
+    }
+
+    fun onPhotoPicked(bytes: ByteArray?) {
+        if (bytes != null) _uiState.value = _uiState.value.copy(photoBytes = bytes, error = null)
     }
 
     fun onGenderSelected(gender: String) {
@@ -90,6 +99,14 @@ class CommunitySetupViewModel(
         viewModelScope.launch {
             try {
                 communityRepository.saveUserProfile(nickname, state.gender)
+                state.photoBytes?.let { bytes ->
+                    try {
+                        communityRepository.uploadAvatar(bytes)
+                    } catch (e: Exception) {
+                        // Joining shouldn't fail because of the photo; it can be changed later in Edit profile.
+                        Napier.w("Avatar upload failed", e)
+                    }
+                }
                 openHub()
             } catch (e: Exception) {
                 Napier.e("CommunitySetup join failed", e)

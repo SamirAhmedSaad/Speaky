@@ -23,7 +23,10 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
+import com.speakmind.app.feature.community.ui.components.UserAvatar
+import com.speakmind.app.feature.community.ui.components.UserAvatarFromBytes
 import com.speakmind.app.feature.community.ui.components.avatarGradientFor
+import com.speakmind.app.feature.community.ui.components.rememberImagePickerLauncher
 import com.speakmind.app.navigation.CommunitySetupDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
@@ -40,6 +43,7 @@ fun NavGraphBuilder.communitySetupScreen() {
             onNicknameChanged = viewModel::onNicknameChanged,
             onGenderSelected = viewModel::onGenderSelected,
             onJoinClicked = viewModel::onJoinClicked,
+            onPhotoPicked = viewModel::onPhotoPicked,
         )
     }
 }
@@ -50,8 +54,10 @@ private fun CommunitySetupContent(
     onNicknameChanged: (String) -> Unit,
     onGenderSelected: (String) -> Unit,
     onJoinClicked: () -> Unit,
+    onPhotoPicked: (ByteArray?) -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
+    val photoPicker = rememberImagePickerLauncher(onPhotoPicked)
 
     val infiniteTransition = rememberInfiniteTransition(label = "glow")
     val glowAlpha by infiniteTransition.animateFloat(
@@ -83,7 +89,10 @@ private fun CommunitySetupContent(
             verticalArrangement = Arrangement.spacedBy(20.sdp),
         ) {
             // Avatar preview — gradient updates live as nickname is typed
-            Box(contentAlignment = Alignment.Center) {
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier.clip(CircleShape).clickable { photoPicker.launch() },
+            ) {
                 Box(
                     modifier = Modifier
                         .size(110.sdp)
@@ -96,7 +105,16 @@ private fun CommunitySetupContent(
                             )
                         )
                 )
-                if (uiState.nickname.length >= 1) {
+                if (uiState.photoBytes != null) {
+                    UserAvatarFromBytes(bytes = uiState.photoBytes, size = 80.sdp, borderColor = colors.neonCyan)
+                } else if (uiState.googlePhotoUrl != null) {
+                    UserAvatar(
+                        nickname = uiState.nickname.ifEmpty { "?" },
+                        photoUrl = uiState.googlePhotoUrl,
+                        size = 80.sdp,
+                        borderColor = colors.neonCyan,
+                    )
+                } else if (uiState.nickname.length >= 1) {
                     val gradient = avatarGradientFor(uiState.nickname)
                     Box(
                         modifier = Modifier
@@ -141,7 +159,23 @@ private fun CommunitySetupContent(
                         Text(text = "👤", fontSize = 28.ssp)
                     }
                 }
+                Box(
+                    modifier = Modifier
+                        .align(Alignment.BottomEnd)
+                        .padding(end = 14.sdp, bottom = 14.sdp)
+                        .size(28.sdp)
+                        .background(colors.neonCyan, CircleShape)
+                        .border(2.sdp, colors.surface, CircleShape),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Text("📷", fontSize = 13.ssp)
+                }
             }
+            Text(
+                text = if (uiState.photoBytes != null) "Tap to change photo" else "Tap to add a photo",
+                style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
+                modifier = Modifier.padding(top = (-12).sdp),
+            )
 
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(

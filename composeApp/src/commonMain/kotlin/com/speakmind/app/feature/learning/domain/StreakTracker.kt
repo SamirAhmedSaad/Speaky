@@ -35,7 +35,7 @@ class StreakTracker(private val database: SpeakyDatabase) {
         return try {
             val lastDate = LocalDate.parse(last)
             val todayDate = LocalDate.parse(today)
-            todayDate.toEpochDays() - lastDate.toEpochDays() == 1
+            todayDate.toEpochDays() - lastDate.toEpochDays() == 1L
         } catch (_: Exception) {
             false
         }
