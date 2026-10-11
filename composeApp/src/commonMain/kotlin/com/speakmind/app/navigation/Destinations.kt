@@ -12,7 +12,7 @@ data object OnboardingDestination
 data object HomeDestination
 
 @Serializable
-data class ChatDestination(val scenarioId: String? = null)
+data class ChatDestination(val scenarioId: String? = null, val conversationId: String? = null)
 
 @Serializable
 data class FlashcardReviewDestination(val showAllWords: Boolean = false)
@@ -51,11 +51,19 @@ data object PrivacyPolicyDestination
 data object CommunitySetupDestination
 
 @Serializable
-data object ChannelDestination
+data object CommunityHubDestination
+
+@Serializable
+data class RoomDestination(val roomId: String, val title: String)
+
+@Serializable
+data object PeopleDestination
+
+@Serializable
+data object AdminReportsDestination
 
 @Serializable
 data object MyGroupsDestination
 
 @Serializable
 data class GroupDetailDestination(val groupId: Long, val groupName: String)
-

@@ -39,10 +39,9 @@ actual class SpeechRecognizerEngine actual constructor() : KoinComponent {
             return
         }
 
-        // Null out before destroy so any in-flight callback skips emitting on a dead recognizer
         val old = recognizer
         recognizer = null
-        old?.destroy()
+        try { old?.destroy() } catch (_: IllegalArgumentException) {}
 
         recognizer = AndroidSpeechRecognizer.createSpeechRecognizer(context).apply {
             setRecognitionListener(object : RecognitionListener {

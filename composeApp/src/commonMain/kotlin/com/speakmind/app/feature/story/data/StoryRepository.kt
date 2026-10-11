@@ -18,8 +18,9 @@ class StoryRepository(
     private val database: SpeakyDatabase,
 ) {
     companion object {
+        // The JSON API now answers 403 to apps without OAuth; the public Atom feed still works.
         private fun redditUrl(subreddit: String) =
-            "https://www.reddit.com/r/$subreddit/top.json?limit=25&t=week"
+            "https://www.reddit.com/r/$subreddit/top/.rss?t=week&limit=25"
     }
 
     private val fetchedTopics = mutableSetOf<String>()
@@ -55,8 +56,8 @@ class StoryRepository(
         val response = httpClient.get(redditUrl(topic.subreddit)) {
             header("User-Agent", "android:com.speakmind.app:v1.0 (AI English Tutor)")
         }
-        val json = response.bodyAsText()
-        val stories = RedditParser.parse(json, topic.label)
+        val feed = response.bodyAsText()
+        val stories = RedditParser.parseFeed(feed, topic.label)
         val now = Clock.System.now().toEpochMilliseconds()
 
         // Clean old stories for this topic (older than 7 days)

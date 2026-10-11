@@ -26,6 +26,7 @@ kotlin {
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
         experimentalProperties["android.experimental.kmp.enableAndroidResources"] = true
+        withHostTest {}
     }
 
 
@@ -50,13 +51,17 @@ kotlin {
             implementation(libs.work.runtime.ktx)
             implementation(libs.mediapipe.genai)
             implementation(libs.ktor.client.android)
+            // Supabase Realtime needs WebSockets, which the Android engine doesn't support
+            implementation(libs.ktor.client.okhttp)
+            implementation(libs.androidx.credentials)
+            implementation(libs.androidx.credentials.play.services)
+            implementation(libs.googleid)
             implementation(libs.google.ads)
             implementation(libs.google.ump)
             implementation(libs.google.auth)
             implementation(project(":llama"))
-            implementation(libs.firebase.auth)
-            implementation(libs.firebase.firestore)
-            implementation(libs.kotlinx.coroutines.play.services)
+            implementation(project.dependencies.platform(libs.firebase.bom))
+            implementation(libs.firebase.messaging)
         }
         iosMain.dependencies {
             implementation(libs.compose.runtime)
@@ -92,6 +97,12 @@ kotlin {
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.coil.compose)
             implementation(libs.coil.network.ktor)
+            implementation(libs.ktor.client.logging)
+            implementation(libs.ktor.serialization.kotlinx.json)
+            implementation(libs.supabase.auth)
+            implementation(libs.supabase.postgrest)
+            implementation(libs.supabase.storage)
+            implementation(libs.supabase.realtime)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

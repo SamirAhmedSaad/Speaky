@@ -31,13 +31,19 @@ object ContentModerator {
         }
         // Phase 2: normalized text checks (leet-speak, obfuscated content)
         val lower = normalize(text)
-        for ((type, patterns) in NORMALIZED_RULES) {
-            if (patterns.any { it.containsMatchIn(lower) }) {
-                return ModerationResult(isAllowed = false, violationType = type)
+        // Phase 3: words spelled letter by letter ("f u c k") are joined back up and checked too.
+        val spelled = SPELLED_OUT.findAll(lower).joinToString(" ") { it.value.filter(Char::isLetter) }
+        for (candidate in listOf(lower, spelled)) {
+            for ((type, patterns) in NORMALIZED_RULES) {
+                if (patterns.any { it.containsMatchIn(candidate) }) {
+                    return ModerationResult(isAllowed = false, violationType = type)
+                }
             }
         }
         return ModerationResult(isAllowed = true)
     }
+
+    private val SPELLED_OUT = Regex("""(?:\b[a-z]\b\s*){3,}""")
 
     // Normalize leet-speak and obfuscation tricks
     private fun normalize(text: String): String {
@@ -102,25 +108,26 @@ object ContentModerator {
 
     private val NORMALIZED_RULES: List<Pair<ViolationType, List<Regex>>> = listOf(
 
+        // Word boundaries keep everyday words (title, grape, Essex, peacock, vibration…) allowed.
         ViolationType.SEXUAL to listOf(
-            Regex("""fuck|fuk|fck|fuq"""),
-            Regex("""sex(?:y|ting|ual|cam)?"""),
-            Regex("""porn|porno|xxx|hentai|nsfw"""),
-            Regex("""nude|naked|nudes"""),
-            Regex("""dick|cock|penis|shaft|boner"""),
-            Regex("""pussy|vagina|cunt|vulva"""),
-            Regex("""boob|tit|breast|nipple|areola"""),
-            Regex("""asshole|anus|butthole"""),
-            Regex("""dildo|vibrat|masturbat"""),
-            Regex("""orgasm|cumshot|ejaculat"""),
-            Regex("""blowjob|handjob|rimjob|fellatio|cunnilingus"""),
-            Regex("""rape|rapist|molest"""),
-            Regex("""horny|erection"""),
-            Regex("""onlyfans|camgirl|stripper|escort|prostitut|hookup"""),
-            Regex("""erotic|one night stand"""),
-            Regex("""bitch|whore|slut"""),
-            Regex("""pedophil|child porn|loli"""),
-            Regex("""incest|bestiality"""),
+            Regex("""\b(?:fuck|fuk|fck|fuq)"""),
+            Regex("""\bsex(?:y|ting|ual|cam)?\b"""),
+            Regex("""\b(?:porn|porno|xxx|hentai|nsfw)"""),
+            Regex("""\b(?:nude|nudes|naked)\b"""),
+            Regex("""\b(?:dick|dicks|cock|cocks|penis|boner)\b"""),
+            Regex("""\b(?:pussy|vagina|cunt|vulva)"""),
+            Regex("""\b(?:boob|boobs|tit|tits|titties|nipples?)\b"""),
+            Regex("""\b(?:asshole|anus|butthole)\b"""),
+            Regex("""\b(?:dildo|vibrator|masturbat)"""),
+            Regex("""\b(?:orgasm|cumshot|ejaculat)"""),
+            Regex("""\b(?:blowjob|handjob|rimjob|fellatio|cunnilingus)"""),
+            Regex("""\b(?:rape|raped|raping|rapist|molest)"""),
+            Regex("""\b(?:horny|erection)\b"""),
+            Regex("""\b(?:onlyfans|camgirl|stripper|escort|prostitut|hookup)"""),
+            Regex("""\berotic|\bone night stand"""),
+            Regex("""\b(?:bitch|whore|slut)"""),
+            Regex("""\bpedophil|\bchild porn|\bloli\b"""),
+            Regex("""\b(?:incest|bestiality)"""),
         ),
 
         ViolationType.HATE_SPEECH to listOf(
@@ -128,7 +135,7 @@ object ContentModerator {
             Regex("""\bfagot|\bfag\b"""),
             Regex("""\bkike\b|\bjew pig|\bjew rat"""),
             Regex("""\bspic\b|\bwetback\b"""),
-            Regex("""\bchink\b|\bgok\b|\bslant\b"""),
+            Regex("""\bchink\b"""),
             Regex("""\bcamel jockey|\bterrorist muslim"""),
             Regex("""\bwhite power|\bnazi\b|\bheil hitler|\bwhite suprem"""),
             Regex("""\bblack monkey|\bgo back to africa"""),
@@ -154,7 +161,7 @@ object ContentModerator {
             Regex("""self harm|cut myself|cuting myself"""),
             Regex("""want to die|end my life|no reason to live"""),
             Regex("""overdose on pils|lethal dose"""),
-            Regex("""rope method|jump from"""),
+            Regex("""rope method"""),
         ),
 
         ViolationType.DRUGS to listOf(
@@ -169,7 +176,7 @@ object ContentModerator {
 
         ViolationType.CONTACT_HARVESTING to listOf(
             // Any mention of external communication platforms (standalone block)
-            Regex("""\b(?:whatsapp|telegram|snapchat|instagram|tiktok|wechat|signal|viber|discord|kik|skype|kakaotalk|imo|zalo|line app|grindr|tinder|bumble|hinge|meetme|bereal|clubhouse)\b"""),
+            Regex("""\b(?:whatsapp|telegram|snapchat|instagram|tiktok|wechat|viber|discord|kik|skype|kakaotalk|zalo|line app|grindr|tinder|bumble|hinge|meetme|bereal|clubhouse)\b"""),
             // Social media that can be used to redirect
             Regex("""\b(?:twitter|facebook|youtube|twitch|linkedin|pinterest|reddit|tumblr)\b"""),
             // DM / PM standalone or in any context

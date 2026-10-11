@@ -4,6 +4,7 @@ import androidx.compose.runtime.Stable
 import androidx.navigation.NavOptionsBuilder
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
+import kotlinx.coroutines.flow.first
 
 sealed interface NavCommand {
     data class To(
@@ -23,6 +24,15 @@ class NavigationManager {
 
     fun navigate(destination: Any, navOptions: (NavOptionsBuilder.() -> Unit)? = null) {
         _commands.tryEmit(NavCommand.To(destination, navOptions))
+    }
+
+    /**
+     * Navigates once the nav host is listening. Use for deep links (notifications) that can arrive
+     * before the UI is composed; a plain [navigate] would be dropped then.
+     */
+    suspend fun navigateWhenReady(destination: Any) {
+        _commands.subscriptionCount.first { it > 0 }
+        navigate(destination)
     }
 
     fun back() {

@@ -22,12 +22,15 @@ import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
 import com.speakmind.app.ads.ConsentManager
 import com.speakmind.app.db.SpeakyDatabase
+import com.speakmind.app.feature.community.data.repository.CommunityRepository
+import com.speakmind.app.feature.community.platform.ChatMessagingService
 import com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver
 import com.speakmind.app.feature.vocabulary.domain.VocabRefreshService
 import com.speakmind.app.feature.voice.platform.MicPermissionRequester
 import com.speakmind.app.navigation.HomeDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.navigation.OnboardingDestination
+import com.speakmind.app.navigation.RoomDestination
 import com.speakmind.app.navigation.WordDetailDestination
 import com.speakmind.app.ui.theme.ThemeManager
 import io.github.aakira.napier.Napier
@@ -109,11 +112,61 @@ class MainActivity : ComponentActivity() {
         }
 
         handleDailyWordIntent(intent)
+        handleChatIntent(intent)
+        ChatMessagingService.registerCurrentToken()
+    }
+
+    private var countedOnline = false
+
+    /** Signed-in community members show as online while the app is open (not only on chat screens). */
+    override fun onStart() {
+        super.onStart()
+        lifecycleScope.launch {
+            val repo = getKoin().get<CommunityRepository>()
+            if (repo.hasSession() && !repo.isGuest() && !countedOnline) {
+                countedOnline = true
+                repo.setActive(true)
+            }
+        }
+    }
+
+    override fun onStop() {
+        super.onStop()
+        if (countedOnline) {
+            countedOnline = false
+            getKoin().get<CommunityRepository>().setActive(false)
+        }
     }
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         handleDailyWordIntent(intent)
+        handleChatIntent(intent)
+    }
+
+    /** Opens the chat a community notification was about. */
+    private fun handleChatIntent(intent: Intent?) {
+        val roomId = intent?.getStringExtra(ChatMessagingService.EXTRA_ROOM_ID) ?: return
+        val title = intent.getStringExtra(ChatMessagingService.EXTRA_ROOM_TITLE).orEmpty()
+        intent.removeExtra(ChatMessagingService.EXTRA_ROOM_ID)
+        if (!isFreshNotificationTap(intent)) return
+        lifecycleScope.launch {
+            getKoin().get<NavigationManager>().navigateWhenReady(RoomDestination(roomId, title))
+        }
+    }
+
+    /**
+     * Android re-delivers the task's original intent when the app restarts (from recents or after
+     * being killed), which would reopen a chat from an old notification. Each tap carries an id;
+     * only ids newer than the last one handled are acted on.
+     */
+    private fun isFreshNotificationTap(intent: Intent): Boolean {
+        if (intent.flags and Intent.FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY != 0) return false
+        val tapId = intent.getLongExtra(ChatMessagingService.EXTRA_TAP_ID, 0L)
+        val prefs = getSharedPreferences("notification_taps", MODE_PRIVATE)
+        if (tapId <= prefs.getLong("last_chat_tap", 0L)) return false
+        prefs.edit().putLong("last_chat_tap", tapId).apply()
+        return true
     }
 
     private fun requestNotificationPermission() {
@@ -128,12 +181,16 @@ class MainActivity : ComponentActivity() {
 
     private fun handleDailyWordIntent(intent: Intent?) {
         val word = intent?.getStringExtra(DailyWordAlarmReceiver.EXTRA_WORD) ?: return
+        intent.removeExtra(DailyWordAlarmReceiver.EXTRA_WORD)
+        // Reopened from recents: the original alarm intent is re-delivered, don't jump to the word again.
+        if (intent.flags and Intent.FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY != 0) return
         Napier.d { "Opening daily word from notification: $word" }
-        try {
-            val navigationManager = getKoin().get<NavigationManager>()
-            navigationManager.navigate(WordDetailDestination(word = word))
-        } catch (e: Exception) {
-            Napier.e { "Failed to navigate to daily word: ${e.message}" }
+        lifecycleScope.launch {
+            try {
+                getKoin().get<NavigationManager>().navigateWhenReady(WordDetailDestination(word = word))
+            } catch (e: Exception) {
+                Napier.e { "Failed to navigate to daily word: ${e.message}" }
+            }
         }
     }
 

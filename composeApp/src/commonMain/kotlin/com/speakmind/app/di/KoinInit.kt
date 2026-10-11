@@ -1,5 +1,6 @@
 package com.speakmind.app.di
 
+import com.speakmind.app.core.di.supabaseModule
 import com.speakmind.app.feature.ai.di.aiModule
 import com.speakmind.app.feature.aisetup.di.aiSetupModule
 import com.speakmind.app.feature.article.di.articleModule
@@ -26,6 +27,7 @@ fun initKoin(config: (KoinApplication.() -> Unit)? = null) {
         modules(
             appModule,
             databaseModule,
+            supabaseModule,
             navigationModule,
             aiModule,
             voiceModule,

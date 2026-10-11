@@ -110,6 +110,24 @@ fun createSpeakMindDriver(context: Context): SqlDriver {
             part_of_speech TEXT NOT NULL DEFAULT '',
             added_at INTEGER NOT NULL
         )""",
+        """CREATE TABLE IF NOT EXISTS room_message_cache (
+            id TEXT NOT NULL PRIMARY KEY,
+            room_id TEXT NOT NULL,
+            sender_id TEXT NOT NULL,
+            sender_nickname TEXT NOT NULL DEFAULT '',
+            sender_gender TEXT NOT NULL DEFAULT '',
+            sender_photo_url TEXT,
+            kind TEXT NOT NULL,
+            body TEXT NOT NULL,
+            voice_path TEXT,
+            voice_duration_ms INTEGER NOT NULL DEFAULT 0,
+            created_at INTEGER NOT NULL,
+            created_at_raw TEXT NOT NULL,
+            edited INTEGER NOT NULL DEFAULT 0
+        )""",
+        "CREATE INDEX IF NOT EXISTS idx_room_message_cache_room ON room_message_cache (room_id, created_at)",
+        "ALTER TABLE room_message_cache ADD COLUMN reply_json TEXT",
+        "ALTER TABLE room_message_cache ADD COLUMN reactions_json TEXT",
     ).forEach { sql ->
         try { driver.execute(null, sql.trimIndent(), 0) } catch (_: Exception) {}
     }

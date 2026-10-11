@@ -48,6 +48,14 @@
                 android:value="The app downloads large AI language model files (GGUF format, ~1GB) required for on-device inference. The download can exceed the dataSync 6-hour timeout on slow connections. No other foreground service type applies to a one-time, long-running file download that is not media playback or location." />
         </service>
 
+        <service
+            android:name="com.speakmind.app.feature.community.platform.ChatMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <receiver
             android:name="com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver"
             android:exported="false" />

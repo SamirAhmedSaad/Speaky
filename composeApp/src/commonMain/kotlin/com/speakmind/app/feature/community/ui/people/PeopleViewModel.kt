@@ -1,0 +1,219 @@
+package com.speakmind.app.feature.community.ui.people
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.speakmind.app.feature.community.data.model.CommunityUser
+import com.speakmind.app.feature.community.data.repository.BlockedException
+import com.speakmind.app.feature.community.data.repository.CommunityRepository
+import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
+import com.speakmind.app.feature.community.ui.auth.GoogleIdResult
+import com.speakmind.app.feature.community.ui.auth.SignInOutcome
+import com.speakmind.app.feature.community.ui.auth.friendlySignInError
+import com.speakmind.app.feature.community.ui.auth.signInWithGoogleInPlace
+import com.speakmind.app.navigation.CommunitySetupDestination
+import com.speakmind.app.navigation.NavigationManager
+import com.speakmind.app.navigation.RoomDestination
+import io.github.aakira.napier.Napier
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+
+/** "All", "Online", or a CEFR level. */
+val PEOPLE_FILTERS = listOf("All", "Online", "A1", "A2", "B1", "B2", "C1")
+
+data class PeopleUiState(
+    val people: List<CommunityUser> = emptyList(),
+    val query: String = "",
+    val filter: String = "All",
+    val profileUser: CommunityUser? = null,
+    val info: String? = null,
+    val isLoading: Boolean = false,
+    val hasMore: Boolean = true,
+    val onlineUserIds: Set<String> = emptySet(),
+    val blockedUserIds: Set<String> = emptySet(),
+    val isGuest: Boolean = true,
+    val isSigningIn: Boolean = false,
+    val isAdmin: Boolean = false,
+    val moderatorIds: Set<String> = emptySet(),
+    val error: String? = null,
+)
+
+/** Everyone in the community; tap a person to message them privately. */
+class PeopleViewModel(
+    private val repository: CommunityRepository,
+    private val navigationManager: NavigationManager,
+) : ViewModel() {
+
+    private val _uiState = MutableStateFlow(PeopleUiState(isGuest = repository.isGuest()))
+    val uiState: StateFlow<PeopleUiState> = _uiState.asStateFlow()
+
+    private var searchJob: Job? = null
+
+    init {
+        load(reset = true)
+        viewModelScope.launch {
+            repository.onlineUserIds.collect { ids -> _uiState.update { it.copy(onlineUserIds = ids) } }
+        }
+        loadModerators()
+        viewModelScope.launch {
+            repository.refreshBlocks()
+            repository.blockedUserIds.collect { ids -> _uiState.update { it.copy(blockedUserIds = ids) } }
+        }
+    }
+
+    fun onQueryChanged(query: String) {
+        _uiState.update { it.copy(query = query) }
+        searchJob?.cancel()
+        searchJob = viewModelScope.launch {
+            delay(300)
+            load(reset = true)
+        }
+    }
+
+    fun onFilterSelected(filter: String) {
+        if (filter == _uiState.value.filter) return
+        _uiState.update { it.copy(filter = filter, people = emptyList()) }
+        load(reset = true)
+    }
+
+    fun loadMore() {
+        val s = _uiState.value
+        if (s.isLoading || !s.hasMore) return
+        load(reset = false)
+    }
+
+    private fun load(reset: Boolean) {
+        val offset = if (reset) 0 else _uiState.value.people.size
+        _uiState.update { it.copy(isLoading = true) }
+        viewModelScope.launch {
+            try {
+                val state = _uiState.value
+                val page = repository.searchUsers(
+                    query = state.query,
+                    offset = offset,
+                    pageSize = PAGE,
+                    level = state.filter.takeIf { it.length == 2 },
+                    onlyIds = if (state.filter == "Online") state.onlineUserIds else null,
+                )
+                _uiState.update {
+                    it.copy(
+                        people = if (reset) page else (it.people + page).distinctBy { u -> u.uid },
+                        hasMore = page.size >= PAGE,
+                        isLoading = false,
+                    )
+                }
+            } catch (e: Exception) {
+                Napier.w("searchUsers failed", e)
+                _uiState.update { it.copy(isLoading = false) }
+            }
+        }
+    }
+
+    fun onPersonClicked(user: CommunityUser) = _uiState.update { it.copy(profileUser = user) }
+    fun onProfileDismissed() = _uiState.update { it.copy(profileUser = null) }
+
+    fun onToggleBlock(user: CommunityUser) {
+        _uiState.update { it.copy(profileUser = null) }
+        viewModelScope.launch {
+            try {
+                if (user.uid in _uiState.value.blockedUserIds) {
+                    repository.unblockUser(user.uid)
+                    _uiState.update { it.copy(info = "${user.nickname} is unblocked.") }
+                } else {
+                    repository.blockUser(user.uid)
+                    _uiState.update { it.copy(info = "${user.nickname} is blocked.") }
+                }
+            } catch (e: Exception) {
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't update block.")) }
+            }
+        }
+    }
+
+    private fun loadModerators() {
+        viewModelScope.launch {
+            if (!repository.isAdmin()) return@launch
+            val ids = try {
+                repository.adminModerators().map { it.uid }.toSet()
+            } catch (e: Exception) {
+                Napier.w("adminModerators failed", e)
+                emptySet()
+            }
+            _uiState.update { it.copy(isAdmin = true, moderatorIds = ids) }
+        }
+    }
+
+    fun onToggleModerator(user: CommunityUser) {
+        val makeModerator = user.uid !in _uiState.value.moderatorIds
+        _uiState.update { it.copy(profileUser = null) }
+        viewModelScope.launch {
+            try {
+                repository.adminSetModerator(user.uid, makeModerator)
+                _uiState.update {
+                    it.copy(
+                        moderatorIds = if (makeModerator) it.moderatorIds + user.uid else it.moderatorIds - user.uid,
+                        info = if (makeModerator) "${user.nickname} is now a moderator." else "${user.nickname} is no longer a moderator.",
+                    )
+                }
+            } catch (e: Exception) {
+                Napier.w("adminSetModerator failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't update moderator.")) }
+            }
+        }
+    }
+
+    fun onMessage(user: CommunityUser) {
+        _uiState.update { it.copy(profileUser = null) }
+        if (_uiState.value.isGuest) {
+            _uiState.update { it.copy(error = "Sign in with Google first to send private messages.") }
+            return
+        }
+        viewModelScope.launch {
+            try {
+                val roomId = repository.openDirectChat(user.uid)
+                navigationManager.navigate(RoomDestination(roomId = roomId, title = user.nickname))
+            } catch (e: BlockedException) {
+                _uiState.update { it.copy(error = "You can't message ${user.nickname}.") }
+            } catch (e: Exception) {
+                Napier.w("openDirectChat failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't open the chat.")) }
+            }
+        }
+    }
+
+    /** Opens Google's account picker right here; first-timers then pick a nickname. */
+    fun onGoogleSignIn(launchPicker: suspend () -> GoogleIdResult) {
+        if (_uiState.value.isSigningIn) return
+        _uiState.update { it.copy(isSigningIn = true) }
+        viewModelScope.launch {
+            try {
+                when (signInWithGoogleInPlace(repository, launchPicker)) {
+                    SignInOutcome.NEEDS_PROFILE -> navigationManager.navigate(CommunitySetupDestination)
+                    SignInOutcome.READY -> onSignedIn()
+                    SignInOutcome.CANCELLED -> Unit
+                }
+            } catch (e: Exception) {
+                Napier.w("Google sign-in failed", e)
+                _uiState.update { it.copy(error = friendlySignInError(e)) }
+            } finally {
+                _uiState.update { it.copy(isSigningIn = false) }
+            }
+        }
+    }
+
+    private fun onSignedIn() {
+        _uiState.update { it.copy(isGuest = repository.isGuest()) }
+        repository.setActive(true)
+    }
+
+    fun onErrorDismissed() = _uiState.update { it.copy(error = null, info = null) }
+    fun onBack() = navigationManager.back()
+    fun onVisibilityChanged(visible: Boolean) = repository.setActive(visible)
+
+    companion object {
+        private const val PAGE = 30
+    }
+}

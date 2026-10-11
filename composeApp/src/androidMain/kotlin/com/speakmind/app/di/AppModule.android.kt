@@ -1,7 +1,7 @@
 package com.speakmind.app.di
 
 import app.cash.sqldelight.db.SqlDriver
-import com.speakmind.app.feature.community.data.FirebaseCommunityRepository
+import com.speakmind.app.feature.community.data.SupabaseCommunityRepository
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.geminichat.data.ApiKeyStore
 import com.speakmind.app.feature.ai.platform.AndroidModelDownloader
@@ -19,5 +19,5 @@ actual val appModule: Module
         single { DailyWordNotificationScheduler(androidContext()) }
         single { ApiKeyStore(androidContext()) }
         single { MicPermissionRequester() }
-        single<CommunityRepository> { FirebaseCommunityRepository(database = get(), context = androidContext()) }
+        single<CommunityRepository> { SupabaseCommunityRepository(client = get(), database = get()) }
     }

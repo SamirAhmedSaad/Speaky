@@ -37,6 +37,8 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.todayIn
 
 data class HomeUiState(
+    /** Unread private community messages, shown on the chat button. */
+    val communityUnread: Int = 0,
     val dailyCards: List<DailyCard> = emptyList(),
     val streakDays: Int = 0,
     val flashcardDueCount: Long = 0,
@@ -178,7 +180,7 @@ class HomeViewModel(
             val lastDate = kotlinx.datetime.LocalDate.parse(last)
             val todayDate = kotlinx.datetime.LocalDate.parse(today)
             val diff = todayDate.toEpochDays() - lastDate.toEpochDays()
-            diff == 1
+            diff == 1L
         } catch (_: Exception) {
             false
         }
@@ -224,6 +226,13 @@ class HomeViewModel(
             } catch (_: Exception) {
                 _uiState.value = _uiState.value.copy(nameSheetError = "Failed to save. Try again.")
             }
+        }
+    }
+
+    fun refreshCommunityUnread() {
+        viewModelScope.launch {
+            val count = try { communityRepository.unreadPrivateCount() } catch (_: Exception) { 0 }
+            _uiState.value = _uiState.value.copy(communityUnread = count)
         }
     }
 
