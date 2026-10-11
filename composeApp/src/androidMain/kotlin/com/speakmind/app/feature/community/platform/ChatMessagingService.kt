@@ -74,7 +74,8 @@ class ChatMessagingService : FirebaseMessagingService() {
         private fun showNotification(context: Context, roomId: String, roomTitle: String, title: String, body: String) {
             createChannel(context)
             val openIntent = Intent(context, Class.forName("com.speakmind.app.MainActivity")).apply {
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+                // Reuse the running app (onNewIntent) instead of restarting it.
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
                 putExtra(EXTRA_ROOM_ID, roomId)
                 putExtra(EXTRA_ROOM_TITLE, roomTitle.ifEmpty { title })
             }

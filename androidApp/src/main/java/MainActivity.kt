@@ -36,7 +36,6 @@ import com.speakmind.app.ui.theme.ThemeManager
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.koin.java.KoinJavaComponent.getKoin
@@ -149,9 +148,7 @@ class MainActivity : ComponentActivity() {
         val title = intent.getStringExtra(ChatMessagingService.EXTRA_ROOM_TITLE).orEmpty()
         intent.removeExtra(ChatMessagingService.EXTRA_ROOM_ID)
         lifecycleScope.launch {
-            // Wait for the nav graph (start destination) before navigating.
-            startDestination.first { it != null }
-            getKoin().get<NavigationManager>().navigate(RoomDestination(roomId, title))
+            getKoin().get<NavigationManager>().navigateWhenReady(RoomDestination(roomId, title))
         }
     }
 
@@ -168,11 +165,12 @@ class MainActivity : ComponentActivity() {
     private fun handleDailyWordIntent(intent: Intent?) {
         val word = intent?.getStringExtra(DailyWordAlarmReceiver.EXTRA_WORD) ?: return
         Napier.d { "Opening daily word from notification: $word" }
-        try {
-            val navigationManager = getKoin().get<NavigationManager>()
-            navigationManager.navigate(WordDetailDestination(word = word))
-        } catch (e: Exception) {
-            Napier.e { "Failed to navigate to daily word: ${e.message}" }
+        lifecycleScope.launch {
+            try {
+                getKoin().get<NavigationManager>().navigateWhenReady(WordDetailDestination(word = word))
+            } catch (e: Exception) {
+                Napier.e { "Failed to navigate to daily word: ${e.message}" }
+            }
         }
     }
 
