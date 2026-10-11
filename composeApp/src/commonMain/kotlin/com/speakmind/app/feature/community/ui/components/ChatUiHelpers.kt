@@ -57,3 +57,23 @@ fun formatDuration(ms: Long): String {
     val total = (ms / 1000).coerceAtLeast(0)
     return "${total / 60}:${(total % 60).toString().padStart(2, '0')}"
 }
+
+/** "Today", "Yesterday", or e.g. "Mon, 12 Oct" for chat date separators. */
+fun formatDayLabel(epochMillis: Long): String {
+    val tz = TimeZone.currentSystemDefault()
+    val day = Instant.fromEpochMilliseconds(epochMillis).toLocalDateTime(tz).date
+    val today = Clock.System.now().toLocalDateTime(tz).date
+    return when (today.toEpochDays() - day.toEpochDays()) {
+        0 -> "Today"
+        1 -> "Yesterday"
+        else -> {
+            val weekday = day.dayOfWeek.name.take(3).lowercase().replaceFirstChar { it.uppercase() }
+            val month = day.month.name.take(3).lowercase().replaceFirstChar { it.uppercase() }
+            "$weekday, ${day.dayOfMonth} $month" + if (day.year != today.year) " ${day.year}" else ""
+        }
+    }
+}
+
+/** Calendar day key used to group messages under date separators. */
+fun dayKey(epochMillis: Long): Int =
+    Instant.fromEpochMilliseconds(epochMillis).toLocalDateTime(TimeZone.currentSystemDefault()).date.toEpochDays()

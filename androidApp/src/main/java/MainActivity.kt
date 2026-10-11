@@ -22,6 +22,7 @@ import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
 import com.speakmind.app.ads.ConsentManager
 import com.speakmind.app.db.SpeakyDatabase
+import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.platform.ChatMessagingService
 import com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver
 import com.speakmind.app.feature.vocabulary.domain.VocabRefreshService
@@ -112,6 +113,28 @@ class MainActivity : ComponentActivity() {
         handleDailyWordIntent(intent)
         handleChatIntent(intent)
         ChatMessagingService.registerCurrentToken()
+    }
+
+    private var countedOnline = false
+
+    /** Signed-in community members show as online while the app is open (not only on chat screens). */
+    override fun onStart() {
+        super.onStart()
+        lifecycleScope.launch {
+            val repo = getKoin().get<CommunityRepository>()
+            if (repo.hasSession() && !repo.isGuest() && !countedOnline) {
+                countedOnline = true
+                repo.setActive(true)
+            }
+        }
+    }
+
+    override fun onStop() {
+        super.onStop()
+        if (countedOnline) {
+            countedOnline = false
+            getKoin().get<CommunityRepository>().setActive(false)
+        }
     }
 
     override fun onNewIntent(intent: Intent) {

@@ -13,6 +13,7 @@ import androidx.navigation.compose.rememberNavController
 import com.speakmind.app.feature.aisetup.ui.aiSetupScreen
 import com.speakmind.app.feature.article.ui.articleDetailScreen
 import com.speakmind.app.feature.chat.ui.chatScreen
+import com.speakmind.app.feature.community.ui.admin.adminReportsScreen
 import com.speakmind.app.feature.community.ui.auth.communityAuthScreen
 import com.speakmind.app.feature.community.ui.hub.communityHubScreen
 import com.speakmind.app.feature.community.ui.people.peopleScreen
@@ -106,6 +107,7 @@ fun AppRoot(startDestination: Any) {
             communityAuthScreen()
             communityHubScreen()
             peopleScreen()
+            adminReportsScreen()
             roomChatScreen()
             myGroupsScreen()
             groupDetailScreen()

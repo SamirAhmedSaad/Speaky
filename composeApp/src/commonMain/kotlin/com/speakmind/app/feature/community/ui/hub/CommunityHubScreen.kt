@@ -17,6 +17,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.People
+import androidx.compose.material.icons.filled.PhotoCamera
 import androidx.compose.material.icons.filled.Public
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -38,7 +39,8 @@ import com.speakmind.app.feature.community.ui.components.CommunityLoading
 import com.speakmind.app.feature.community.ui.components.CommunityPageHeader
 import com.speakmind.app.feature.community.ui.components.PersonCard
 import com.speakmind.app.feature.community.ui.components.SectionTitle
-import com.speakmind.app.feature.community.ui.components.UnreadBadge
+import com.speakmind.app.feature.community.ui.components.UserAvatar
+import com.speakmind.app.feature.community.ui.components.rememberImagePickerLauncher
 import com.speakmind.app.feature.community.ui.components.formatListTime
 import com.speakmind.app.navigation.CommunityHubDestination
 import com.speakmind.app.ui.components.animatedComposable
@@ -77,7 +79,7 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
                 onBack = viewModel::onBack,
                 actions = {
                     PeopleButton(onClick = viewModel::openPeople)
-                    if (!uiState.isGuest) AccountMenu(viewModel)
+                    if (!uiState.isGuest) AccountMenu(viewModel, uiState.isAdmin)
                 },
             )
             LazyColumn(
@@ -137,6 +139,9 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
         }
     }
 
+    if (uiState.showEditProfile) {
+        EditProfileDialog(uiState, viewModel)
+    }
     if (uiState.confirmDeleteAccount) {
         AlertDialog(
             onDismissRequest = viewModel::onDeleteAccountDismissed,
@@ -318,7 +323,7 @@ private fun PeopleButton(onClick: () -> Unit) {
 }
 
 @Composable
-private fun AccountMenu(viewModel: CommunityHubViewModel) {
+private fun AccountMenu(viewModel: CommunityHubViewModel, isAdmin: Boolean) {
     val colors = LocalSpeakMindColors.current
     var open by remember { mutableStateOf(false) }
     Box {
@@ -326,6 +331,22 @@ private fun AccountMenu(viewModel: CommunityHubViewModel) {
             Icon(Icons.Default.MoreVert, contentDescription = "Account", tint = colors.textPrimary)
         }
         DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
+            DropdownMenuItem(
+                text = { Text("Edit profile") },
+                onClick = {
+                    open = false
+                    viewModel.onEditProfile()
+                },
+            )
+            if (isAdmin) {
+                DropdownMenuItem(
+                    text = { Text("🛡️ Reports") },
+                    onClick = {
+                        open = false
+                        viewModel.openReports()
+                    },
+                )
+            }
             DropdownMenuItem(
                 text = { Text("Sign out") },
                 onClick = {
@@ -342,4 +363,76 @@ private fun AccountMenu(viewModel: CommunityHubViewModel) {
             )
         }
     }
+}
+
+@Composable
+private fun EditProfileDialog(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
+    val colors = LocalSpeakMindColors.current
+    var nickname by remember { mutableStateOf(uiState.myNickname) }
+    var gender by remember { mutableStateOf(uiState.myGender.ifEmpty { "male" }) }
+    val picker = rememberImagePickerLauncher { bytes -> viewModel.onPhotoPicked(bytes) }
+    AlertDialog(
+        onDismissRequest = viewModel::onEditProfileDismissed,
+        title = { Text("Edit profile") },
+        text = {
+            Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+                Box(Modifier.clip(CircleShape).clickable { picker.launch() }) {
+                    UserAvatar(nickname = nickname.ifEmpty { "?" }, photoUrl = uiState.myPhotoUrl, size = 84.sdp, borderColor = colors.neonCyan)
+                    Box(
+                        Modifier
+                            .align(Alignment.BottomEnd)
+                            .size(28.sdp)
+                            .background(colors.neonCyan, CircleShape),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        Icon(Icons.Default.PhotoCamera, contentDescription = "Change photo", tint = colors.backgroundDark, modifier = Modifier.size(16.sdp))
+                    }
+                }
+                Text(
+                    "Tap to change photo",
+                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
+                    modifier = Modifier.padding(top = 6.sdp, bottom = 12.sdp),
+                )
+                OutlinedTextField(
+                    value = nickname,
+                    onValueChange = { if (it.length <= 30) nickname = it },
+                    label = { Text("Nickname") },
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(10.sdp),
+                    modifier = Modifier.fillMaxWidth().padding(top = 12.sdp),
+                ) {
+                    listOf("male" to "👨 Male", "female" to "👩 Female").forEach { (value, label) ->
+                        val selected = gender == value
+                        Text(
+                            label,
+                            textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                            style = MaterialTheme.typography.labelLarge.copy(
+                                color = if (selected) colors.backgroundDark else colors.textPrimary,
+                                fontWeight = FontWeight.SemiBold,
+                            ),
+                            modifier = Modifier
+                                .weight(1f)
+                                .clip(RoundedCornerShape(12.sdp))
+                                .background(if (selected) colors.neonCyan else colors.surfaceVariant)
+                                .clickable { gender = value }
+                                .padding(vertical = 10.sdp),
+                        )
+                    }
+                }
+                if (uiState.isSavingProfile) {
+                    LinearProgressIndicator(color = colors.neonCyan, modifier = Modifier.fillMaxWidth().padding(top = 12.sdp))
+                }
+                uiState.profileError?.let {
+                    Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 8.sdp))
+                }
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = { viewModel.onSaveProfile(nickname, gender) }, enabled = !uiState.isSavingProfile) { Text("Save") }
+        },
+        dismissButton = { TextButton(onClick = viewModel::onEditProfileDismissed) { Text("Cancel") } },
+    )
 }

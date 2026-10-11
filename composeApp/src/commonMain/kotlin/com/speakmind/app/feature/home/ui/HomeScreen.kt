@@ -69,6 +69,7 @@ fun NavGraphBuilder.homeScreen() {
             val observer = androidx.lifecycle.LifecycleEventObserver { _, event ->
                 if (event == androidx.lifecycle.Lifecycle.Event.ON_RESUME) {
                     viewModel.refreshFlashcardCount()
+                    viewModel.refreshCommunityUnread()
                 }
             }
             lifecycleOwner.lifecycle.addObserver(observer)
@@ -387,6 +388,7 @@ private fun HomeScreenContent(
         // Community FAB
         CommunityFab(
             onClick = onCommunityClick,
+            unread = uiState.communityUnread,
             modifier = Modifier
                 .align(Alignment.BottomEnd)
                 .padding(end = 18.sdp, bottom = 66.sdp),
@@ -398,6 +400,7 @@ private fun HomeScreenContent(
 private fun CommunityFab(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
+    unread: Int = 0,
 ) {
     val colors = LocalSpeakMindColors.current
     val neonCyan = colors.neonCyan
@@ -468,6 +471,25 @@ private fun CommunityFab(
                 tint = colors.backgroundDark,
                 modifier = Modifier.size(28.sdp),
             )
+        }
+        if (unread > 0) {
+            Box(
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .offset(x = (-4).sdp, y = 4.sdp)
+                    .defaultMinSize(minWidth = 22.sdp, minHeight = 22.sdp)
+                    .background(Color(0xFFE53935), CircleShape)
+                    .border(2.sdp, colors.surface, CircleShape)
+                    .padding(horizontal = 5.sdp),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(
+                    text = if (unread > 99) "99+" else unread.toString(),
+                    color = Color.White,
+                    fontSize = 10.ssp,
+                    fontWeight = FontWeight.Bold,
+                )
+            }
         }
     }
 }

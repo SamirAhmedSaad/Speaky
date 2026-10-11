@@ -7,6 +7,10 @@ import com.speakmind.app.feature.community.data.model.RoomKind
 import com.speakmind.app.feature.community.data.model.SPEAKY_HUB_ROOM_ID
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
+import com.speakmind.app.feature.community.data.ContentModerator
+import com.speakmind.app.feature.profile.domain.NameValidationResult
+import com.speakmind.app.feature.profile.domain.NameValidator
+import com.speakmind.app.navigation.AdminReportsDestination
 import com.speakmind.app.navigation.CommunityAuthDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.navigation.PeopleDestination
@@ -28,6 +32,13 @@ data class CommunityHubUiState(
     /** Private chats, newest first. */
     val chats: List<ChatRoom> = emptyList(),
     val isLoadingChats: Boolean = true,
+    val isAdmin: Boolean = false,
+    val myNickname: String = "",
+    val myGender: String = "",
+    val myPhotoUrl: String? = null,
+    val showEditProfile: Boolean = false,
+    val isSavingProfile: Boolean = false,
+    val profileError: String? = null,
     val confirmDeleteAccount: Boolean = false,
     val isDeletingAccount: Boolean = false,
     val error: String? = null,
@@ -82,6 +93,18 @@ class CommunityHubViewModel(
             return
         }
         viewModelScope.launch {
+            val profile = repository.getLocalProfile()
+            val admin = repository.isAdmin()
+            _uiState.update {
+                it.copy(
+                    isAdmin = admin,
+                    myNickname = profile?.nickname.orEmpty(),
+                    myGender = profile?.gender.orEmpty(),
+                    myPhotoUrl = profile?.photoUrl,
+                )
+            }
+        }
+        viewModelScope.launch {
             try {
                 val chats = repository.myRooms().filter { it.kind == RoomKind.DIRECT }
                 _uiState.update { it.copy(chats = chats, isLoadingChats = false) }
@@ -96,6 +119,47 @@ class CommunityHubViewModel(
     fun openChat(room: ChatRoom) = navigationManager.navigate(RoomDestination(room.id, room.displayName))
     fun openPeople() = navigationManager.navigate(PeopleDestination)
     fun onSignIn() = navigationManager.navigate(CommunityAuthDestination)
+
+    fun openReports() = navigationManager.navigate(AdminReportsDestination)
+
+    fun onEditProfile() = _uiState.update { it.copy(showEditProfile = true, profileError = null) }
+    fun onEditProfileDismissed() = _uiState.update { it.copy(showEditProfile = false, profileError = null) }
+
+    fun onSaveProfile(nickname: String, gender: String) {
+        val name = nickname.trim()
+        val check = NameValidator.validate(name)
+        if (check != NameValidationResult.Valid) {
+            _uiState.update { it.copy(profileError = NameValidator.errorMessage(check) ?: "Invalid name") }
+            return
+        }
+        if (!ContentModerator.check(name).isAllowed) {
+            _uiState.update { it.copy(profileError = "Please choose a different name") }
+            return
+        }
+        _uiState.update { it.copy(isSavingProfile = true, profileError = null) }
+        viewModelScope.launch {
+            try {
+                repository.updateProfile(name, gender)
+                _uiState.update { it.copy(isSavingProfile = false, showEditProfile = false, myNickname = name, myGender = gender) }
+            } catch (e: Exception) {
+                _uiState.update { it.copy(isSavingProfile = false, profileError = friendlyCommunityError(e, "Couldn't save your profile.")) }
+            }
+        }
+    }
+
+    fun onPhotoPicked(bytes: ByteArray?) {
+        if (bytes == null) return
+        _uiState.update { it.copy(isSavingProfile = true, profileError = null) }
+        viewModelScope.launch {
+            try {
+                val url = repository.uploadAvatar(bytes)
+                _uiState.update { it.copy(isSavingProfile = false, myPhotoUrl = url) }
+            } catch (e: Exception) {
+                Napier.w("uploadAvatar failed", e)
+                _uiState.update { it.copy(isSavingProfile = false, profileError = friendlyCommunityError(e, "Couldn't upload the photo.")) }
+            }
+        }
+    }
 
     fun onSignOut() {
         viewModelScope.launch {

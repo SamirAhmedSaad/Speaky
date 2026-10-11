@@ -2,7 +2,9 @@ package com.speakmind.app.feature.community.data
 
 import com.speakmind.app.db.Room_message_cache
 import com.speakmind.app.db.SpeakyDatabase
+import com.speakmind.app.feature.community.data.model.AdminReport
 import com.speakmind.app.feature.community.data.model.ChatRoom
+import com.speakmind.app.feature.community.data.model.ReplyPreview
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.model.GroupMember
@@ -14,6 +16,7 @@ import com.speakmind.app.feature.community.data.model.TypingUser
 import com.speakmind.app.feature.community.data.repository.BlockedException
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.DAILY_MESSAGE_LIMIT
+import com.speakmind.app.feature.community.data.repository.ReactionChange
 import com.speakmind.app.feature.community.data.repository.ReportReason
 import com.speakmind.app.feature.community.data.repository.RoomConnection
 import io.github.aakira.napier.Napier
@@ -77,12 +80,16 @@ private const val VOICE_BUCKET = "voice-recordings"
 private const val BLOCKS = "user_blocks"
 private const val REPORTS = "user_reports"
 private const val DEVICE_TOKENS = "device_tokens"
+// Explicit !sender_id: message_reactions also links messages and users, so the embed needs a hint.
 private const val MESSAGE_COLUMNS =
-    "id,room_id,sender_id,kind,body,voice_path,voice_duration_ms,created_at,edited_at," +
-        "sender:community_users(id,nickname,gender,photo_url,last_seen)"
+    "id,room_id,sender_id,kind,body,voice_path,voice_duration_ms,created_at,edited_at,reply_to_id," +
+        "sender:community_users!sender_id(id,nickname,gender,photo_url,last_seen,level)," +
+        "reply:room_messages!reply_to_id(id,body,kind,sender:community_users!sender_id(nickname))"
 private const val ROOM_COLUMNS =
     "id,kind,name,description,last_message_at,last_message_preview,member_count,is_private"
-private const val USER_COLUMNS = "id,nickname,gender,photo_url,last_seen"
+private const val USER_COLUMNS = "id,nickname,gender,photo_url,last_seen,level"
+private const val REACTIONS = "message_reactions"
+private const val AVATAR_BUCKET = "avatars"
 
 /** Messages kept on the device per chat for instant/offline display. */
 private const val CACHE_PER_ROOM = 200L
@@ -179,13 +186,62 @@ class SupabaseCommunityRepository(
 
     override suspend fun saveUserProfile(nickname: String, gender: String) {
         val uid = requireUserId()
-        client.from(USERS).upsert(UserUpsertDto(id = uid, nickname = nickname, gender = gender))
+        val photo = googlePhotoUrl()
+        client.from(USERS).upsert(
+            UserUpsertDto(id = uid, nickname = nickname, gender = gender, level = appLevel(), photoUrl = photo)
+        )
         database.speakMindQueries.upsertCommunityProfile(
             firebase_uid = uid,
             nickname = nickname,
             gender = gender,
-            photo_url = "",
+            photo_url = photo ?: "",
         )
+    }
+
+    override suspend fun updateProfile(nickname: String, gender: String) {
+        val uid = requireUserId()
+        client.from(USERS).update({
+            set("nickname", nickname)
+            set("gender", gender)
+        }) { filter { eq("id", uid) } }
+        val photo = getLocalProfile()?.photoUrl ?: ""
+        database.speakMindQueries.upsertCommunityProfile(firebase_uid = uid, nickname = nickname, gender = gender, photo_url = photo)
+    }
+
+    override suspend fun uploadAvatar(bytes: ByteArray): String {
+        val uid = requireUserId()
+        val path = "$uid/avatar.jpg"
+        client.storage.from(AVATAR_BUCKET).upload(path, bytes) {
+            upsert = true
+            contentType = ContentType.Image.JPEG
+        }
+        // Cache-buster so everyone sees the new photo right away
+        val url = client.storage.from(AVATAR_BUCKET).publicUrl(path) + "?v=${nowMillis()}"
+        client.from(USERS).update({ set("photo_url", url) }) { filter { eq("id", uid) } }
+        getLocalProfile()?.let {
+            database.speakMindQueries.upsertCommunityProfile(firebase_uid = uid, nickname = it.nickname, gender = it.gender, photo_url = url)
+        }
+        return url
+    }
+
+    override suspend fun getUser(userId: String): CommunityUser? = lookupUser(userId, fresh = true)
+
+    override suspend fun unreadPrivateCount(): Int {
+        if (!hasSession() || isGuest()) return 0
+        return try {
+            myRooms().filter { it.kind == RoomKind.DIRECT }.sumOf { it.unreadCount }
+        } catch (_: Exception) {
+            0
+        }
+    }
+
+    /** The learner's level in the app (shown on their community profile). */
+    private fun appLevel(): String =
+        database.speakMindQueries.selectProgress().executeAsOneOrNull()?.level ?: ""
+
+    private fun googlePhotoUrl(): String? {
+        val meta = client.auth.currentUserOrNull()?.userMetadata ?: return null
+        return (meta["avatar_url"] ?: meta["picture"])?.jsonPrimitive?.contentOrNull?.takeIf { it.startsWith("http") }
     }
 
     override suspend fun getLocalProfile(): CommunityLocalProfile? {
@@ -249,14 +305,24 @@ class SupabaseCommunityRepository(
 
     // ---------- People ----------
 
-    override suspend fun searchUsers(query: String, offset: Int, pageSize: Int): List<CommunityUser> {
+    override suspend fun searchUsers(
+        query: String,
+        offset: Int,
+        pageSize: Int,
+        level: String?,
+        onlyIds: Set<String>?,
+    ): List<CommunityUser> {
         val me = currentUserId()
         val q = query.trim().lowercase()
+        val ids = onlyIds?.filter { it != me }
+        if (ids != null && ids.isEmpty()) return emptyList()
         return client.from(USERS).select(Columns.raw(USER_COLUMNS)) {
             filter {
                 if (me != null) neq("id", me)
                 exact("banned_at", null)
                 if (q.isNotEmpty()) ilike("nickname_search", "%${q.replace("%", "").replace("_", "")}%")
+                if (!level.isNullOrEmpty()) eq("level", level)
+                if (ids != null) isIn("id", ids)
             }
             order("last_seen", Order.DESCENDING)
             range(offset.toLong(), (offset + pageSize - 1).toLong())
@@ -351,7 +417,10 @@ class SupabaseCommunityRepository(
 
     private suspend fun updateLastSeen(uid: String) {
         try {
-            client.from(USERS).update({ set("last_seen", Clock.System.now().toString()) }) {
+            client.from(USERS).update({
+                set("last_seen", Clock.System.now().toString())
+                appLevel().takeIf { it.isNotEmpty() }?.let { set("level", it) }
+            }) {
                 filter { eq("id", uid) }
             }
         } catch (_: Exception) {
@@ -499,7 +568,8 @@ class SupabaseCommunityRepository(
             limit(pageSize.toLong())
         }.decodeList<MessageDto>()
         rows.mapNotNull { it.sender }.forEach { cacheUser(it.toDomain()) }
-        val messages = rows.map { it.toDomain() }.reversed()
+        val reactions = loadReactions(rows.map { it.id })
+        val messages = rows.map { it.toDomain().copy(reactions = reactions[it.id] ?: emptyMap()) }.reversed()
         if (before == null) {
             // The newest page replaces what's cached, so deletions made elsewhere disappear too.
             database.transaction {
@@ -513,10 +583,10 @@ class SupabaseCommunityRepository(
         return messages
     }
 
-    override suspend fun sendText(roomId: String, messageId: String, text: String): RoomMessage {
+    override suspend fun sendText(roomId: String, messageId: String, text: String, replyToId: String?): RoomMessage {
         val uid = requireUserId()
         val dto = client.from(MESSAGES).insert(
-            NewMessageDto(id = messageId, roomId = roomId, senderId = uid, kind = "text", body = text)
+            NewMessageDto(id = messageId, roomId = roomId, senderId = uid, kind = "text", body = text, replyToId = replyToId)
         ) { select(Columns.raw(MESSAGE_COLUMNS)) }.decodeSingle<MessageDto>()
         return dto.toDomain().also { cacheAndTrim(it) }
     }
@@ -564,6 +634,90 @@ class SupabaseCommunityRepository(
         }
     }
 
+    override suspend fun toggleReaction(message: RoomMessage, emoji: String) {
+        val uid = requireUserId()
+        if (uid in message.reactions[emoji].orEmpty()) {
+            client.from(REACTIONS).delete {
+                filter {
+                    eq("message_id", message.id)
+                    eq("user_id", uid)
+                    eq("emoji", emoji)
+                }
+            }
+        } else {
+            client.from(REACTIONS).upsert(
+                ReactionDto(messageId = message.id, roomId = message.roomId, userId = uid, emoji = emoji)
+            ) { ignoreDuplicates = true }
+        }
+    }
+
+    private suspend fun loadReactions(messageIds: List<String>): Map<String, Map<String, List<String>>> {
+        if (messageIds.isEmpty()) return emptyMap()
+        return try {
+            client.from(REACTIONS).select(Columns.list("message_id", "room_id", "user_id", "emoji")) {
+                filter { isIn("message_id", messageIds) }
+            }.decodeList<ReactionDto>()
+                .groupBy { it.messageId }
+                .mapValues { (_, list) -> list.groupBy({ it.emoji }, { it.userId }) }
+        } catch (e: Exception) {
+            Napier.w("loadReactions failed", e)
+            emptyMap()
+        }
+    }
+
+    override suspend fun isAdmin(): Boolean {
+        if (!hasSession() || isGuest()) return false
+        return try {
+            client.postgrest.rpc("is_community_admin").decodeAs<Boolean>()
+        } catch (_: Exception) {
+            false
+        }
+    }
+
+    override suspend fun adminReports(status: String): List<AdminReport> =
+        client.postgrest.rpc("admin_reports", buildJsonObject { put("p_status", status) })
+            .decodeList<AdminReportDto>()
+            .map {
+                AdminReport(
+                    id = it.id,
+                    createdAtMillis = parseMillis(it.createdAt),
+                    reason = it.reason,
+                    details = it.details,
+                    messageSnapshot = it.messageSnapshot,
+                    status = it.status,
+                    reporterNickname = it.reporterNickname ?: "",
+                    reportedUserId = it.reportedUserId,
+                    reportedNickname = it.reportedNickname ?: "",
+                    reportedBanned = it.reportedBanned,
+                    timesReported = it.timesReported,
+                )
+            }
+
+    override suspend fun adminSetReportStatus(reportId: String, status: String) {
+        client.postgrest.rpc(
+            "admin_set_report_status",
+            buildJsonObject {
+                put("p_report", reportId)
+                put("p_status", status)
+            },
+        )
+    }
+
+    override suspend fun adminBan(userId: String, reason: String, removeMessages: Boolean) {
+        client.postgrest.rpc(
+            "admin_ban",
+            buildJsonObject {
+                put("p_user", userId)
+                put("p_reason", reason)
+                put("p_remove_messages", removeMessages)
+            },
+        )
+    }
+
+    override suspend fun adminUnban(userId: String) {
+        client.postgrest.rpc("admin_unban", buildJsonObject { put("p_user", userId) })
+    }
+
     override suspend fun downloadVoice(path: String): ByteArray {
         voiceCache[path]?.let { return it }
         return client.storage.from(VOICE_BUCKET).downloadAuthenticated(path).also { rememberVoice(path, it) }
@@ -592,6 +746,8 @@ class SupabaseCommunityRepository(
         override val deletedMessageIds: Flow<String> = _deleted.asSharedFlow()
         private val _readMarkers = MutableSharedFlow<Pair<String, Long>>(extraBufferCapacity = 64)
         override val readMarkers: Flow<Pair<String, Long>> = _readMarkers.asSharedFlow()
+        private val _reactionChanges = MutableSharedFlow<ReactionChange>(extraBufferCapacity = 64)
+        override val reactionChanges: Flow<ReactionChange> = _reactionChanges.asSharedFlow()
         private val typingExpiry = MutableStateFlow<Map<String, Pair<TypingUser, Long>>>(emptyMap())
         private val _typingUsers = MutableStateFlow<List<TypingUser>>(emptyList())
         override val typingUsers: StateFlow<List<TypingUser>> = _typingUsers.asStateFlow()
@@ -614,6 +770,28 @@ class SupabaseCommunityRepository(
                 filter("room_id", FilterOperator.EQ, roomId)
             }
             val typing = channel.broadcastFlow<TypingDto>(event = "typing")
+            val reactionAdds = channel.postgresChangeFlow<PostgresAction.Insert>(schema = "public") {
+                table = REACTIONS
+                filter("room_id", FilterOperator.EQ, roomId)
+            }
+            // Deletes can't be filtered server-side; the old row carries room_id (replica identity full).
+            val reactionRemovals = channel.postgresChangeFlow<PostgresAction.Delete>(schema = "public") {
+                table = REACTIONS
+            }
+            collectors += connScope.launch {
+                reactionAdds.collect { action ->
+                    runCatching { action.decodeRecord<ReactionDto>() }.getOrNull()?.let {
+                        _reactionChanges.emit(ReactionChange(it.messageId, it.userId, it.emoji, added = true))
+                    }
+                }
+            }
+            collectors += connScope.launch {
+                reactionRemovals.collect { action ->
+                    runCatching { action.decodeOldRecord<ReactionDto>() }.getOrNull()
+                        ?.takeIf { it.roomId == roomId }
+                        ?.let { _reactionChanges.emit(ReactionChange(it.messageId, it.userId, it.emoji, added = false)) }
+                }
+            }
 
             collectors += connScope.launch {
                 inserts.collect { action ->
@@ -728,8 +906,8 @@ class SupabaseCommunityRepository(
         userCacheLock.withLock { userCache[user.uid] = user }
     }
 
-    private suspend fun lookupUser(uid: String): CommunityUser? {
-        userCacheLock.withLock { userCache[uid] }?.let { return it }
+    private suspend fun lookupUser(uid: String, fresh: Boolean = false): CommunityUser? {
+        if (!fresh) userCacheLock.withLock { userCache[uid] }?.let { return it }
         return try {
             client.from(USERS).select(Columns.raw(USER_COLUMNS)) {
                 filter { eq("id", uid) }
@@ -779,6 +957,14 @@ class SupabaseCommunityRepository(
             createdAtMillis = parseMillis(createdAt),
             createdAtRaw = createdAt,
             isEdited = editedAt != null,
+            replyTo = reply?.let {
+                ReplyPreview(
+                    messageId = it.id,
+                    senderNickname = it.sender?.nickname ?: "",
+                    text = it.body,
+                    isVoice = it.kind == "voice",
+                )
+            } ?: replyToId?.let { ReplyPreview(it, "", "", false) },
         )
     }
 }
@@ -826,8 +1012,9 @@ private data class UserDto(
     val gender: String = "male",
     @SerialName("photo_url") val photoUrl: String? = null,
     @SerialName("last_seen") val lastSeen: String? = null,
+    val level: String = "",
 ) {
-    fun toDomain() = CommunityUser(id, nickname, gender, parseMillis(lastSeen), photoUrl)
+    fun toDomain() = CommunityUser(id, nickname, gender, parseMillis(lastSeen), photoUrl, level)
 }
 
 @Serializable
@@ -838,6 +1025,8 @@ private data class UserUpsertDto(
     val id: String,
     val nickname: String,
     val gender: String,
+    val level: String = "",
+    @SerialName("photo_url") val photoUrl: String? = null,
 )
 
 @Serializable
@@ -956,7 +1145,43 @@ private data class MessageDto(
     @SerialName("voice_duration_ms") val voiceDurationMs: Long = 0,
     @SerialName("created_at") val createdAt: String,
     @SerialName("edited_at") val editedAt: String? = null,
+    @SerialName("reply_to_id") val replyToId: String? = null,
     val sender: UserDto? = null,
+    val reply: ReplyDto? = null,
+)
+
+@Serializable
+private data class ReplyDto(
+    val id: String,
+    val body: String = "",
+    val kind: String = "text",
+    val sender: ReplySenderDto? = null,
+)
+
+@Serializable
+private data class ReplySenderDto(val nickname: String = "")
+
+@Serializable
+private data class ReactionDto(
+    @SerialName("message_id") val messageId: String,
+    @SerialName("room_id") val roomId: String = "",
+    @SerialName("user_id") val userId: String,
+    val emoji: String,
+)
+
+@Serializable
+private data class AdminReportDto(
+    val id: String,
+    @SerialName("created_at") val createdAt: String? = null,
+    val reason: String = "",
+    val details: String = "",
+    @SerialName("message_snapshot") val messageSnapshot: String = "",
+    val status: String = "open",
+    @SerialName("reporter_nickname") val reporterNickname: String? = null,
+    @SerialName("reported_user_id") val reportedUserId: String,
+    @SerialName("reported_nickname") val reportedNickname: String? = null,
+    @SerialName("reported_banned") val reportedBanned: Boolean = false,
+    @SerialName("times_reported") val timesReported: Int = 0,
 )
 
 @Serializable
@@ -969,6 +1194,7 @@ private data class NewMessageDto(
     @SerialName("voice_path") val voicePath: String? = null,
     @SerialName("voice_duration_ms") val voiceDurationMs: Long = 0,
     @SerialName("voice_size_bytes") val voiceSizeBytes: Long = 0,
+    @SerialName("reply_to_id") val replyToId: String? = null,
 )
 
 @Serializable

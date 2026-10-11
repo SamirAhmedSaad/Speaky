@@ -1,5 +1,6 @@
 package com.speakmind.app.feature.community.di
 
+import com.speakmind.app.feature.community.ui.admin.AdminReportsViewModel
 import com.speakmind.app.feature.community.ui.auth.CommunityAuthViewModel
 import com.speakmind.app.feature.community.ui.hub.CommunityHubViewModel
 import com.speakmind.app.feature.community.ui.people.PeopleViewModel
@@ -14,5 +15,6 @@ val communityModule = module {
     viewModelOf(::CommunityAuthViewModel)
     viewModelOf(::CommunityHubViewModel)
     viewModelOf(::PeopleViewModel)
+    viewModelOf(::AdminReportsViewModel)
     viewModel { params -> RoomChatViewModel(params.get(), params.get(), get(), get(), get(), get()) }
 }

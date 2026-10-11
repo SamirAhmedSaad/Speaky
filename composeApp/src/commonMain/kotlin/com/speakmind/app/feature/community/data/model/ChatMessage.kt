@@ -28,9 +28,23 @@ data class RoomMessage(
     val isEdited: Boolean = false,
     val isPending: Boolean = false,
     val isFailed: Boolean = false,
+    /** The message this one replies to, if any. */
+    val replyTo: ReplyPreview? = null,
+    /** emoji → who reacted. */
+    val reactions: Map<String, List<String>> = emptyMap(),
 ) {
     val isVoiceExpired: Boolean get() = kind == MessageKind.VOICE && voicePath == null && !isPending
 }
+
+data class ReplyPreview(
+    val messageId: String,
+    val senderNickname: String,
+    val text: String,
+    val isVoice: Boolean,
+)
+
+/** Reactions offered in the message menu. */
+val REACTION_EMOJIS = listOf("👍", "❤️", "😂", "😮", "😢", "🙏")
 
 data class ChatRoom(
     val id: String,
@@ -64,4 +78,19 @@ data class GroupMember(
 data class TypingUser(
     val userId: String,
     val nickname: String,
+)
+
+/** A report as seen by community admins. */
+data class AdminReport(
+    val id: String,
+    val createdAtMillis: Long,
+    val reason: String,
+    val details: String,
+    val messageSnapshot: String,
+    val status: String,
+    val reporterNickname: String,
+    val reportedUserId: String,
+    val reportedNickname: String,
+    val reportedBanned: Boolean,
+    val timesReported: Int,
 )

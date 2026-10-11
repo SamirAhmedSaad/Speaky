@@ -1,5 +1,6 @@
 package com.speakmind.app.feature.community.data.repository
 
+import com.speakmind.app.feature.community.data.model.AdminReport
 import com.speakmind.app.feature.community.data.model.ChatRoom
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
 import com.speakmind.app.feature.community.data.model.CommunityUser
@@ -25,13 +26,27 @@ interface CommunityRepository {
     suspend fun isBanned(): Boolean
 
     suspend fun saveUserProfile(nickname: String, gender: String)
+    /** Changes nickname/gender of an existing profile. */
+    suspend fun updateProfile(nickname: String, gender: String)
+    /** Uploads a new profile photo (JPEG/PNG bytes) and returns its URL. */
+    suspend fun uploadAvatar(bytes: ByteArray): String
+    suspend fun getUser(userId: String): CommunityUser?
+    /** Unread private messages, for the badge on Home (0 when not signed in). */
+    suspend fun unreadPrivateCount(): Int
     suspend fun getLocalProfile(): CommunityLocalProfile?
     suspend fun getUserNickname(): String
     suspend fun updateUserName(name: String)
     suspend fun checkAndIncrementDailyQuota(): Boolean
 
     // People
-    suspend fun searchUsers(query: String, offset: Int, pageSize: Int): List<CommunityUser>
+    /** [level] filters by CEFR level; [onlyIds] limits to these users (e.g. who's online). */
+    suspend fun searchUsers(
+        query: String,
+        offset: Int,
+        pageSize: Int,
+        level: String? = null,
+        onlyIds: Set<String>? = null,
+    ): List<CommunityUser>
 
     // Online / offline
     /** Ids of users with the app open right now. */
@@ -65,7 +80,9 @@ interface CommunityRepository {
     suspend fun cachedMessages(roomId: String, limit: Int): List<RoomMessage>
     /** A page of messages older than [before], oldest first. */
     suspend fun loadMessages(roomId: String, pageSize: Int, before: RoomMessage?): List<RoomMessage>
-    suspend fun sendText(roomId: String, messageId: String, text: String): RoomMessage
+    suspend fun sendText(roomId: String, messageId: String, text: String, replyToId: String? = null): RoomMessage
+    /** Adds the reaction if I haven't used it on this message, otherwise removes it. */
+    suspend fun toggleReaction(message: RoomMessage, emoji: String)
     suspend fun sendVoice(roomId: String, messageId: String, audio: ByteArray, durationMs: Long): RoomMessage
     suspend fun editMessage(message: RoomMessage, newText: String): RoomMessage
     suspend fun deleteMessage(message: RoomMessage)
@@ -77,6 +94,13 @@ interface CommunityRepository {
 
     // Push notifications
     suspend fun registerPushToken(token: String)
+
+    // Admin moderation (only works for accounts in private.community_admins)
+    suspend fun isAdmin(): Boolean
+    suspend fun adminReports(status: String): List<AdminReport>
+    suspend fun adminSetReportStatus(reportId: String, status: String)
+    suspend fun adminBan(userId: String, reason: String, removeMessages: Boolean)
+    suspend fun adminUnban(userId: String)
 }
 
 interface RoomConnection {
@@ -85,11 +109,20 @@ interface RoomConnection {
     val deletedMessageIds: Flow<String>
     /** (userId, lastReadAt epoch millis) whenever a member reads the room. */
     val readMarkers: Flow<Pair<String, Long>>
+    /** A reaction was added (true) or removed (false). */
+    val reactionChanges: Flow<ReactionChange>
     val typingUsers: StateFlow<List<TypingUser>>
     suspend fun connect()
     suspend fun sendTyping(isTyping: Boolean)
     suspend fun close()
 }
+
+data class ReactionChange(
+    val messageId: String,
+    val userId: String,
+    val emoji: String,
+    val added: Boolean,
+)
 
 enum class ReportReason(val apiValue: String, val label: String) {
     SPAM("spam", "Spam"),

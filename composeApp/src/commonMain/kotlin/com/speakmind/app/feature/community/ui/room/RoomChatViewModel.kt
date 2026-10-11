@@ -7,6 +7,7 @@ import com.speakmind.app.feature.community.data.ContentModerator
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.model.MessageKind
 import com.speakmind.app.feature.community.data.model.RoomKind
+import com.speakmind.app.feature.community.data.model.ReplyPreview
 import com.speakmind.app.feature.community.data.model.RoomMessage
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.ReportReason
@@ -61,10 +62,14 @@ data class RoomChatUiState(
     val playingMessageId: String? = null,
     val loadingVoiceId: String? = null,
     val editingMessage: RoomMessage? = null,
+    val replyingTo: RoomMessage? = null,
+    /** Profile sheet for a tapped user. */
+    val profileUser: CommunityUser? = null,
     val deleteTarget: RoomMessage? = null,
     val error: String? = null,
     val info: String? = null,
     val blockedUserIds: Set<String> = emptySet(),
+    val onlineUserIds: Set<String> = emptySet(),
     /** Private chat only: either side has blocked the other. */
     val isDirectBlocked: Boolean = false,
     val reportTarget: ReportTarget? = null,
@@ -244,18 +249,28 @@ class RoomChatViewModel(
             val conn = repository.openRoomConnection(roomId)
             connection = conn
             launch {
-                conn.newMessages.collect { msg ->
-                    _uiState.update { it.copy(messages = mergeMessages(listOf(msg), it.messages)) }
+                conn.newMessages.collect { incoming ->
+                    val msg = withLocalReply(incoming)
+                    _uiState.update { s ->
+                        val existing = s.messages.firstOrNull { it.id == msg.id }
+                        val keep = if (existing != null) msg.copy(replyTo = msg.replyTo ?: existing.replyTo, reactions = existing.reactions) else msg
+                        s.copy(messages = mergeMessages(listOf(keep), s.messages))
+                    }
                     if (msg.senderId != _uiState.value.currentUserId) scheduleMarkRead()
                 }
             }
             launch {
                 conn.editedMessages.collect { msg ->
                     _uiState.update { s ->
-                        if (s.messages.none { it.id == msg.id }) s
-                        else s.copy(messages = mergeMessages(listOf(msg), s.messages))
+                        val existing = s.messages.firstOrNull { it.id == msg.id } ?: return@update s
+                        // Realtime rows carry no reply/reaction details; keep the ones we have.
+                        val merged = msg.copy(replyTo = msg.replyTo ?: existing.replyTo, reactions = existing.reactions)
+                        s.copy(messages = mergeMessages(listOf(merged), s.messages))
                     }
                 }
+            }
+            launch {
+                conn.reactionChanges.collect { change -> applyReaction(change.messageId, change.userId, change.emoji, change.added) }
             }
             launch {
                 conn.deletedMessageIds.collect { id ->
@@ -290,6 +305,7 @@ class RoomChatViewModel(
     }
 
     private fun refreshOnline(online: Set<String>) {
+        _uiState.update { it.copy(onlineUserIds = online) }
         _uiState.update { state ->
             when (state.kind) {
                 RoomKind.DIRECT -> state.copy(isOtherOnline = state.otherUser?.uid in online)
@@ -372,15 +388,18 @@ class RoomChatViewModel(
         viewModelScope.launch {
             if (!checkQuota()) return@launch
             sendTyping(false)
-            val pending = pendingMessage(MessageKind.TEXT, text = text)
-            _uiState.update { it.copy(inputText = "", messages = it.messages + pending) }
+            val replyTo = _uiState.value.replyingTo
+            val pending = pendingMessage(MessageKind.TEXT, text = text).copy(
+                replyTo = replyTo?.let { ReplyPreview(it.id, it.senderNickname, it.text, it.kind == MessageKind.VOICE) },
+            )
+            _uiState.update { it.copy(inputText = "", replyingTo = null, messages = it.messages + pending) }
             sendPendingText(pending)
         }
     }
 
     private suspend fun sendPendingText(pending: RoomMessage) {
         try {
-            val sent = repository.sendText(roomId, pending.id, pending.text)
+            val sent = repository.sendText(roomId, pending.id, pending.text, pending.replyTo?.messageId)
             replaceMessage(sent)
         } catch (e: Exception) {
             Napier.w("sendText failed", e)
@@ -419,6 +438,66 @@ class RoomChatViewModel(
         return allowed
     }
 
+    // ---------- Replies, reactions, profiles ----------
+
+    fun onReplyRequested(message: RoomMessage) {
+        if (!_uiState.value.canPost) return
+        _uiState.update { it.copy(replyingTo = message, editingMessage = null) }
+    }
+
+    fun onCancelReply() = _uiState.update { it.copy(replyingTo = null) }
+
+    fun onReactionClicked(message: RoomMessage, emoji: String) {
+        val me = _uiState.value.currentUserId
+        if (!_uiState.value.canPost || me.isEmpty() || message.isPending) return
+        val adding = me !in message.reactions[emoji].orEmpty()
+        applyReaction(message.id, me, emoji, adding)
+        viewModelScope.launch {
+            try {
+                repository.toggleReaction(message, emoji)
+            } catch (e: Exception) {
+                Napier.w("toggleReaction failed", e)
+                applyReaction(message.id, me, emoji, !adding)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't react.")) }
+            }
+        }
+    }
+
+    private fun applyReaction(messageId: String, userId: String, emoji: String, added: Boolean) {
+        _uiState.update { s ->
+            s.copy(messages = s.messages.map { m ->
+                if (m.id != messageId) return@map m
+                val users = m.reactions[emoji].orEmpty()
+                val updated = if (added) (users + userId).distinct() else users - userId
+                m.copy(reactions = (m.reactions - emoji).let { if (updated.isEmpty()) it else it + (emoji to updated) })
+            })
+        }
+    }
+
+    /** Fills in the quoted message for realtime rows, which don't include it. */
+    private fun withLocalReply(msg: RoomMessage): RoomMessage {
+        val replyId = msg.replyTo?.messageId ?: return msg
+        if (msg.replyTo.senderNickname.isNotEmpty()) return msg
+        val original = _uiState.value.messages.firstOrNull { it.id == replyId } ?: return msg
+        return msg.copy(replyTo = ReplyPreview(original.id, original.senderNickname, original.text, original.kind == MessageKind.VOICE))
+    }
+
+    fun onUserClicked(userId: String) {
+        if (userId.isEmpty()) return
+        val known = _uiState.value.messages.firstOrNull { it.senderId == userId }
+        // Show what we know immediately, then refresh with the full profile.
+        if (known != null) {
+            _uiState.update {
+                it.copy(profileUser = CommunityUser(userId, known.senderNickname, known.senderGender, 0L, known.senderPhotoUrl))
+            }
+        }
+        viewModelScope.launch {
+            repository.getUser(userId)?.let { user -> _uiState.update { it.copy(profileUser = user) } }
+        }
+    }
+
+    fun onProfileDismissed() = _uiState.update { it.copy(profileUser = null) }
+
     // ---------- Edit & delete ----------
 
     fun onEditRequested(message: RoomMessage) {
@@ -427,7 +506,7 @@ class RoomChatViewModel(
             _uiState.update { it.copy(error = "Messages can only be edited for 24 hours.") }
             return
         }
-        _uiState.update { it.copy(editingMessage = message, inputText = message.text) }
+        _uiState.update { it.copy(editingMessage = message, replyingTo = null, inputText = message.text) }
     }
 
     fun onCancelEdit() = _uiState.update { it.copy(editingMessage = null, inputText = "") }
@@ -639,6 +718,18 @@ class RoomChatViewModel(
     private suspend fun block(userId: String) {
         repository.blockUser(userId)
         if (_uiState.value.kind == RoomKind.DIRECT) refreshDirectBlock()
+    }
+
+    fun onUnblockUser(userId: String, nickname: String) {
+        viewModelScope.launch {
+            try {
+                repository.unblockUser(userId)
+                if (_uiState.value.otherUser?.uid == userId) refreshDirectBlock()
+                _uiState.update { it.copy(info = "$nickname is unblocked.") }
+            } catch (_: Exception) {
+                _uiState.update { it.copy(error = "Couldn't unblock this user.") }
+            }
+        }
     }
 
     fun onUnblockOther() {
