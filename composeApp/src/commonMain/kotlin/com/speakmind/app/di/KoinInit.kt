@@ -1,8 +1,12 @@
 package com.speakmind.app.di
 
+import com.speakmind.app.core.di.networkModule
+import com.speakmind.app.core.di.supabaseModule
 import com.speakmind.app.feature.ai.di.aiModule
 import com.speakmind.app.feature.aisetup.di.aiSetupModule
 import com.speakmind.app.feature.article.di.articleModule
+import com.speakmind.app.feature.auth.di.authModule
+import com.speakmind.app.feature.conversations.di.conversationsModule
 import com.speakmind.app.feature.chat.di.chatModule
 import com.speakmind.app.feature.download.di.downloadModule
 import com.speakmind.app.feature.flashcard.di.flashcardModule
@@ -26,6 +30,10 @@ fun initKoin(config: (KoinApplication.() -> Unit)? = null) {
         modules(
             appModule,
             databaseModule,
+            supabaseModule,
+            networkModule,
+            authModule,
+            conversationsModule,
             navigationModule,
             aiModule,
             voiceModule,

@@ -19,6 +19,7 @@ import com.speakmind.app.feature.profile.domain.NameValidator
 import com.speakmind.app.navigation.AiSetupDestination
 import com.speakmind.app.navigation.ArticleDetailDestination
 import com.speakmind.app.navigation.ChatDestination
+import com.speakmind.app.navigation.ConversationListDestination
 import com.speakmind.app.navigation.FlashcardReviewDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.navigation.CommunitySetupDestination
@@ -362,6 +363,10 @@ class HomeViewModel(
 
     fun onTimePickerDismissed() {
         _uiState.value = _uiState.value.copy(showTimePicker = false)
+    }
+
+    fun onChatHistoryClicked() {
+        navigationManager.navigate(ConversationListDestination)
     }
 
     fun onLevelBadgeClicked() {

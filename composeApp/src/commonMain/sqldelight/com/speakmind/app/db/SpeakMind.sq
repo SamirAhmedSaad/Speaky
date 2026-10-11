@@ -146,6 +146,29 @@ DELETE FROM daily_topics WHERE date < ?;
 countDailyTopics:
 SELECT COUNT(*) FROM daily_topics WHERE date = ? AND user_level = ?;
 
+CREATE TABLE cloud_messages (
+    id TEXT NOT NULL PRIMARY KEY,
+    conversation_id TEXT NOT NULL,
+    role TEXT NOT NULL,
+    content TEXT NOT NULL,
+    corrections_json TEXT,
+    voice_url TEXT,
+    voice_duration_ms INTEGER NOT NULL DEFAULT 0,
+    is_synced INTEGER NOT NULL DEFAULT 0,
+    created_at INTEGER NOT NULL
+);
+
+-- Cloud message queries
+selectCloudMessages:
+SELECT * FROM cloud_messages WHERE conversation_id = ? ORDER BY created_at ASC;
+
+insertCloudMessage:
+INSERT OR REPLACE INTO cloud_messages (id, conversation_id, role, content, corrections_json, voice_url, voice_duration_ms, is_synced, created_at)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+deleteCloudMessagesByConversation:
+DELETE FROM cloud_messages WHERE conversation_id = ?;
+
 -- Conversation queries
 selectRecentConversations:
 SELECT * FROM conversations ORDER BY date DESC LIMIT 20;
