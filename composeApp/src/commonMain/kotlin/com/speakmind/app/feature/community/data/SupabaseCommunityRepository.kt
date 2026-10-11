@@ -364,7 +364,7 @@ class SupabaseCommunityRepository(
     // ---------- Rooms ----------
 
     override suspend fun myRooms(): List<ChatRoom> =
-        client.postgrest.rpc("my_rooms").decodeList<MyRoomDto>().map { it.toDomain() }
+        client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }
 
     override suspend fun publicGroups(query: String): List<ChatRoom> {
         val joined = myRooms().filter { it.kind == RoomKind.GROUP }.associateBy { it.id }
