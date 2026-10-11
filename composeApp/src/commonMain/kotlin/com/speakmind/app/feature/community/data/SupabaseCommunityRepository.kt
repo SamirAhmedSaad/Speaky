@@ -44,6 +44,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.awaitCancellation
+import kotlinx.coroutines.cancelAndJoin
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
@@ -578,7 +579,11 @@ class SupabaseCommunityRepository(
 
     private inner class SupabaseRoomConnection(private val roomId: String) : RoomConnection {
         private val channel = client.channel("room:$roomId")
-        private val connScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+        // One thread: supabase-kt's callback list isn't safe when several flows on a channel
+        // unsubscribe at the same time (IndexOutOfBounds in CallbackManagerImpl.removeCallbackById).
+        @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+        private val connScope = CoroutineScope(SupervisorJob() + Dispatchers.Default.limitedParallelism(1))
+        private val collectors = mutableListOf<Job>()
         private val _newMessages = MutableSharedFlow<RoomMessage>(extraBufferCapacity = 64)
         override val newMessages: Flow<RoomMessage> = _newMessages.asSharedFlow()
         private val _edited = MutableSharedFlow<RoomMessage>(extraBufferCapacity = 64)
@@ -610,7 +615,7 @@ class SupabaseCommunityRepository(
             }
             val typing = channel.broadcastFlow<TypingDto>(event = "typing")
 
-            connScope.launch {
+            collectors += connScope.launch {
                 inserts.collect { action ->
                     decodeMessage { action.decodeRecord<MessageDto>() }?.let {
                         cacheAndTrim(it)
@@ -618,7 +623,7 @@ class SupabaseCommunityRepository(
                     }
                 }
             }
-            connScope.launch {
+            collectors += connScope.launch {
                 updates.collect { action ->
                     decodeMessage { action.decodeRecord<MessageDto>() }?.let {
                         cache(it)
@@ -626,7 +631,7 @@ class SupabaseCommunityRepository(
                     }
                 }
             }
-            connScope.launch {
+            collectors += connScope.launch {
                 deletes.collect { action ->
                     val id = try {
                         action.decodeOldRecord<IdDto>().id
@@ -637,7 +642,7 @@ class SupabaseCommunityRepository(
                     _deleted.emit(id)
                 }
             }
-            connScope.launch {
+            collectors += connScope.launch {
                 reads.collect { action ->
                     try {
                         val m = action.decodeRecord<ReadMarkerDto>()
@@ -646,7 +651,7 @@ class SupabaseCommunityRepository(
                     }
                 }
             }
-            connScope.launch {
+            collectors += connScope.launch {
                 typing.collect { t ->
                     typingExpiry.update { map ->
                         if (t.typing) {
@@ -693,6 +698,8 @@ class SupabaseCommunityRepository(
         }
 
         override suspend fun close() {
+            // Stop the realtime flows one by one, then the rest of the scope, then the channel.
+            for (job in collectors.toList()) job.cancelAndJoin()
             connScope.coroutineContext[Job]?.cancel()
             try {
                 client.realtime.removeChannel(channel)
