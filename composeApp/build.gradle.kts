@@ -50,6 +50,8 @@ kotlin {
             implementation(libs.work.runtime.ktx)
             implementation(libs.mediapipe.genai)
             implementation(libs.ktor.client.android)
+            // Supabase Realtime needs WebSockets, which the Android engine doesn't support
+            implementation(libs.ktor.client.okhttp)
             implementation(libs.androidx.credentials)
             implementation(libs.androidx.credentials.play.services)
             implementation(libs.googleid)

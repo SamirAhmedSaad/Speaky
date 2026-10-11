@@ -61,6 +61,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeoutOrNull
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
 import kotlinx.datetime.TimeZone
@@ -364,11 +365,13 @@ class SupabaseCommunityRepository(
     }
 
     private suspend fun setActiveCountToZero() {
-        presenceLock.withLock {
+        withTimeoutOrNull(5_000) {
+            presenceLock.withLock {
             activeCount = 0
             deactivateJob?.cancel()
-            deactivateJob = null
-            goOffline()
+                deactivateJob = null
+                goOffline()
+            }
         }
     }
 
@@ -385,7 +388,7 @@ class SupabaseCommunityRepository(
                     _onlineUserIds.update { it + action.joins.keys - action.leaves.keys }
                 }
             }
-            channel.subscribe(blockUntilSubscribed = true)
+            withTimeoutOrNull(10_000) { channel.subscribe(blockUntilSubscribed = true) }
             if (uid == null) return
             channel.track(buildJsonObject { put("user_id", uid) })
             heartbeatJob = scope.launch {
@@ -407,8 +410,10 @@ class SupabaseCommunityRepository(
         val channel = presenceChannel ?: return
         presenceChannel = null
         try {
-            channel.untrack()
-            client.realtime.removeChannel(channel)
+            withTimeoutOrNull(3_000) {
+                channel.untrack()
+                client.realtime.removeChannel(channel)
+            }
         } catch (_: Exception) {
         }
         _onlineUserIds.value = emptySet()

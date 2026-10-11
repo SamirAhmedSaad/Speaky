@@ -7,6 +7,7 @@ import io.github.jan.supabase.createSupabaseClient
 import io.github.jan.supabase.postgrest.Postgrest
 import io.github.jan.supabase.realtime.Realtime
 import io.github.jan.supabase.storage.Storage
+import io.ktor.client.engine.HttpClientEngine
 import org.koin.dsl.module
 
 val supabaseModule = module {
@@ -15,6 +16,7 @@ val supabaseModule = module {
             supabaseUrl = AppConfig.supabaseUrl,
             supabaseKey = AppConfig.supabaseAnonKey,
         ) {
+            httpEngine = supabaseHttpEngine()
             install(Auth)
             install(Postgrest)
             install(Storage)
@@ -22,3 +24,6 @@ val supabaseModule = module {
         }
     }
 }
+
+/** HTTP engine with WebSocket support (needed by Supabase Realtime). */
+expect fun supabaseHttpEngine(): HttpClientEngine
