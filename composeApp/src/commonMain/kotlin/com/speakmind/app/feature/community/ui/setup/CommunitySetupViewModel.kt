@@ -6,9 +6,8 @@ import com.speakmind.app.feature.ai.domain.NameExtractor
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.profile.domain.NameValidationResult
 import com.speakmind.app.feature.profile.domain.NameValidator
-import com.speakmind.app.navigation.CommunityAuthDestination
 import com.speakmind.app.navigation.CommunityHubDestination
-import com.speakmind.app.navigation.CommunitySetupDestination
+import com.speakmind.app.navigation.HomeDestination
 import com.speakmind.app.navigation.NavigationManager
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -39,19 +38,14 @@ class CommunitySetupViewModel(
 
     private fun checkExistingProfile() {
         viewModelScope.launch {
-            if (!communityRepository.hasSession()) {
-                navigationManager.navigate(CommunityAuthDestination) {
-                    popUpTo<CommunitySetupDestination> { inclusive = true }
-                    launchSingleTop = true
-                }
+            if (!communityRepository.hasSession() || communityRepository.isGuest()) {
+                // Not signed in: open Speaky Hub read-only; chatting asks for Google sign-in.
+                openHub()
                 return@launch
             }
             val profile = try { communityRepository.getLocalProfile() } catch (_: Exception) { null }
             if (profile != null && profile.gender.isNotEmpty()) {
-                navigationManager.navigate(CommunityHubDestination) {
-                    popUpTo<CommunitySetupDestination> { inclusive = true }
-                    launchSingleTop = true
-                }
+                openHub()
                 return@launch
             }
             val savedNickname = communityRepository.authDisplayName()?.take(30)
@@ -96,10 +90,7 @@ class CommunitySetupViewModel(
         viewModelScope.launch {
             try {
                 communityRepository.saveUserProfile(nickname, state.gender)
-                navigationManager.navigate(CommunityHubDestination) {
-                    popUpTo<CommunitySetupDestination> { inclusive = true }
-                    launchSingleTop = true
-                }
+                openHub()
             } catch (e: Exception) {
                 Napier.e("CommunitySetup join failed", e)
                 _uiState.value = _uiState.value.copy(
@@ -107,6 +98,14 @@ class CommunitySetupViewModel(
                     error = "Failed to join. Check your connection.",
                 )
             }
+        }
+    }
+
+    /** Opens a fresh community home on top of Home, clearing read-only screens left from before sign-in. */
+    private fun openHub() {
+        navigationManager.navigate(CommunityHubDestination) {
+            popUpTo<HomeDestination> { inclusive = false }
+            launchSingleTop = true
         }
     }
 }

@@ -12,10 +12,10 @@ import kotlinx.coroutines.flow.StateFlow
 interface CommunityRepository {
     fun currentUserId(): String?
 
-    // Sign-in: Google, or guest (guests can read everything and post text in Speaky Hub only)
+    // Sign-in: Google only. Visitors who aren't signed in can read Speaky Hub but can't post.
     suspend fun hasSession(): Boolean
+    /** True when not signed in with Google (read-only visitor). */
     fun isGuest(): Boolean
-    suspend fun signInAsGuest()
     suspend fun signInWithGoogle(idToken: String, rawNonce: String)
     suspend fun signOut()
     /** Permanently deletes the account and everything it posted. */
@@ -107,7 +107,7 @@ fun friendlyCommunityError(e: Throwable, fallback: String): String {
     val m = e.message.orEmpty().lowercase()
     return when {
         "banned" in m -> "Your account is suspended for breaking community rules."
-        "guest_not_allowed" in m -> "Sign in with Google to use private chats, groups, and voice messages."
+        "guest_not_allowed" in m || "row-level security" in m -> "Sign in with Google to chat."
         "daily_limit" in m -> "You've reached today's Speaky Hub limit. Try again tomorrow."
         "rate_limited" in m -> "You're sending messages too fast. Wait a moment."
         "not allowed" in m -> "You don't have permission to do that."

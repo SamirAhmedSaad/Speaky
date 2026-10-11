@@ -15,6 +15,7 @@ import com.speakmind.app.feature.community.data.repository.friendlyCommunityErro
 import com.speakmind.app.feature.voice.platform.MicAccess
 import com.speakmind.app.feature.voice.platform.VoicePlayer
 import com.speakmind.app.feature.voice.platform.VoiceRecorder
+import com.speakmind.app.navigation.CommunityAuthDestination
 import com.speakmind.app.navigation.RoomDestination
 import com.speakmind.app.navigation.NavigationManager
 import io.github.aakira.napier.Napier
@@ -69,8 +70,8 @@ data class RoomChatUiState(
     val reportTarget: ReportTarget? = null,
     val blockTarget: ReportTarget? = null,
 ) {
-    /** Guests may only post text in Speaky Hub. */
-    val guestRestricted: Boolean get() = isGuest && kind != RoomKind.CHANNEL
+    /** Visitors who aren't signed in with Google can only read. */
+    val guestRestricted: Boolean get() = isGuest
     val canPost: Boolean
         get() = !isBanned && !guestRestricted && !(kind == RoomKind.DIRECT && isDirectBlocked)
     val canSendVoice: Boolean get() = canPost && !isGuest
@@ -563,11 +564,13 @@ class RoomChatViewModel(
 
     // ---------- Private messages ----------
 
+    fun onSignInRequested() = navigationManager.navigate(CommunityAuthDestination)
+
     /** Opens (or starts) a private chat with someone from Speaky Hub. */
     fun onMessageUser(userId: String, nickname: String) {
         if (userId == _uiState.value.currentUserId || userId.isEmpty()) return
         if (_uiState.value.isGuest) {
-            _uiState.update { it.copy(error = "Sign in with Google to send private messages.") }
+            onSignInRequested()
             return
         }
         viewModelScope.launch {

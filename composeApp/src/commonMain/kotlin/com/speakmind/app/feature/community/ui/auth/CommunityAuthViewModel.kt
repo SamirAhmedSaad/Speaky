@@ -30,7 +30,7 @@ class CommunityAuthViewModel(
 
     fun onGoogleSignIn(signIn: suspend () -> GoogleIdResult) {
         if (!_uiState.value.googleEnabled) {
-            _uiState.update { it.copy(error = "Google sign-in isn't set up yet. Continue as a guest for now.") }
+            _uiState.update { it.copy(error = "Google sign-in isn't set up yet.") }
             return
         }
         launchAuth {
@@ -40,13 +40,6 @@ class CommunityAuthViewModel(
                 return@launchAuth
             }
             repository.signInWithGoogle(result.idToken, result.rawNonce)
-            onSignedIn()
-        }
-    }
-
-    fun onContinueAsGuest() {
-        launchAuth {
-            repository.signInAsGuest()
             onSignedIn()
         }
     }
@@ -78,7 +71,6 @@ class CommunityAuthViewModel(
 private fun friendlyAuthError(e: Exception): String {
     val m = e.message.orEmpty().lowercase()
     return when {
-        "anonymous" in m && ("disabled" in m || "not enabled" in m) -> "Guest access is turned off right now. Use Google."
         "provider is not enabled" in m || "unsupported provider" in m -> "Google sign-in isn't enabled on the server yet."
         "rate limit" in m -> "Too many attempts. Please wait a minute and try again."
         "network" in m || "unable to resolve host" in m || "timeout" in m -> "No connection. Check your internet and try again."

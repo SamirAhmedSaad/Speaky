@@ -2,6 +2,7 @@ package com.speakmind.app.feature.community.di
 
 import com.speakmind.app.feature.community.ui.auth.CommunityAuthViewModel
 import com.speakmind.app.feature.community.ui.hub.CommunityHubViewModel
+import com.speakmind.app.feature.community.ui.people.PeopleViewModel
 import com.speakmind.app.feature.community.ui.room.RoomChatViewModel
 import com.speakmind.app.feature.community.ui.setup.CommunitySetupViewModel
 import org.koin.core.module.dsl.viewModel
@@ -12,5 +13,6 @@ val communityModule = module {
     viewModelOf(::CommunitySetupViewModel)
     viewModelOf(::CommunityAuthViewModel)
     viewModelOf(::CommunityHubViewModel)
+    viewModelOf(::PeopleViewModel)
     viewModel { params -> RoomChatViewModel(params.get(), params.get(), get(), get(), get(), get()) }
 }

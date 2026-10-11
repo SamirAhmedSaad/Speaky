@@ -60,6 +60,9 @@ data object CommunityHubDestination
 data class RoomDestination(val roomId: String, val title: String)
 
 @Serializable
+data object PeopleDestination
+
+@Serializable
 data object MyGroupsDestination
 
 @Serializable

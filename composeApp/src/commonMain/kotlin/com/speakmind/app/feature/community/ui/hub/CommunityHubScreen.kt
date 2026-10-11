@@ -1,20 +1,23 @@
 package com.speakmind.app.feature.community.ui.hub
 
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.People
 import androidx.compose.material.icons.filled.Public
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -22,23 +25,24 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.LifecycleStartEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
-import com.speakmind.app.feature.community.data.model.CommunityUser
-import com.speakmind.app.feature.community.ui.components.OnlineDot
-import com.speakmind.app.feature.community.ui.components.UserAvatar
-import com.speakmind.app.feature.community.ui.components.formatLastSeen
+import com.speakmind.app.feature.community.data.model.ChatRoom
+import com.speakmind.app.feature.community.ui.components.CommunityEmptyState
+import com.speakmind.app.feature.community.ui.components.CommunityLoading
+import com.speakmind.app.feature.community.ui.components.CommunityPageHeader
+import com.speakmind.app.feature.community.ui.components.PersonCard
+import com.speakmind.app.feature.community.ui.components.SectionTitle
+import com.speakmind.app.feature.community.ui.components.UnreadBadge
 import com.speakmind.app.feature.community.ui.components.formatListTime
 import com.speakmind.app.navigation.CommunityHubDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
-import kotlinx.coroutines.flow.distinctUntilChanged
 import network.chaintech.sdpcomposemultiplatform.sdp
 import network.chaintech.sdpcomposemultiplatform.ssp
 import org.koin.compose.viewmodel.koinViewModel
@@ -55,87 +59,57 @@ fun NavGraphBuilder.communityHubScreen() {
             viewModel.onResume()
             onPauseOrDispose { }
         }
-        CommunityHubContent(uiState = uiState, viewModel = viewModel)
+        InboxContent(uiState = uiState, viewModel = viewModel)
     }
 }
 
 @Composable
-private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
+private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
     val colors = LocalSpeakMindColors.current
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(colors.backgroundGradient),
-    ) {
+    Box(Modifier.fillMaxSize().background(colors.backgroundGradient)) {
         Column(Modifier.fillMaxSize()) {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .statusBarsPadding()
-                    .padding(horizontal = 8.sdp, vertical = 10.sdp),
-                verticalAlignment = Alignment.CenterVertically,
+            CommunityPageHeader(
+                title = "Chats",
+                subtitle = when {
+                    uiState.unreadTotal > 0 -> "${uiState.unreadTotal} unread"
+                    else -> "${uiState.onlineUserIds.size} learners online"
+                },
+                onBack = viewModel::onBack,
+                actions = {
+                    PeopleButton(onClick = viewModel::openPeople)
+                    if (!uiState.isGuest) AccountMenu(viewModel)
+                },
+            )
+            LazyColumn(
+                modifier = Modifier.fillMaxSize(),
+                contentPadding = PaddingValues(start = 20.sdp, end = 20.sdp, top = 4.sdp, bottom = 32.sdp),
+                verticalArrangement = Arrangement.spacedBy(10.sdp),
             ) {
-                IconButton(onClick = viewModel::onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = colors.textPrimary)
-                }
-                Column(Modifier.weight(1f)) {
-                    Text(
-                        "Community",
-                        style = MaterialTheme.typography.titleMedium.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold),
-                    )
-                    Text(
-                        "${uiState.onlineUserIds.size} learners online",
-                        style = MaterialTheme.typography.bodySmall.copy(color = colors.textMuted),
+                item(key = "hub") {
+                    SpeakyHubCard(
+                        hub = uiState.hubRoom,
+                        onlineCount = uiState.onlineUserIds.size,
+                        onClick = viewModel::openSpeakyHub,
                     )
                 }
-                AccountMenu(uiState, viewModel)
-            }
-
-            TabRow(
-                selectedTabIndex = uiState.tab.ordinal,
-                containerColor = Color.Transparent,
-                contentColor = colors.neonCyan,
-            ) {
-                HubTab.entries.forEach { tab ->
-                    val unread = if (tab == HubTab.CHATS) uiState.rooms.sumOf { it.unreadCount } else 0
-                    Tab(
-                        selected = uiState.tab == tab,
-                        onClick = { viewModel.onTabSelected(tab) },
-                        text = {
-                            Text(
-                                when (tab) {
-                                    HubTab.CHATS -> if (unread > 0) "Inbox ($unread)" else "Inbox"
-                                    HubTab.PEOPLE -> "People"
-                                },
-                                color = if (uiState.tab == tab) colors.neonCyan else colors.textMuted,
-                                fontWeight = FontWeight.SemiBold,
+                if (uiState.isGuest) {
+                    item(key = "signin") { SignInCard(onSignIn = viewModel::onSignIn) }
+                } else {
+                    item(key = "private_title") {
+                        SectionTitle("Private messages", Modifier.padding(top = 14.sdp, bottom = 2.sdp))
+                    }
+                    when {
+                        uiState.isLoadingChats && uiState.chats.isEmpty() -> item { CommunityLoading() }
+                        uiState.chats.isEmpty() -> item {
+                            CommunityEmptyState(
+                                emoji = "💌",
+                                title = "No private messages yet",
+                                message = "Tap someone's name in Speaky Hub, or the people icon above, to start a chat.",
                             )
-                        },
-                    )
+                        }
+                    }
+                    items(uiState.chats, key = { it.id }) { chat -> PrivateChatCard(chat, uiState, viewModel) }
                 }
-            }
-
-            if (uiState.isGuest) {
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .background(colors.neonCyan.copy(alpha = 0.1f))
-                        .clickable { viewModel.onSignInWithGoogle() }
-                        .padding(horizontal = 16.sdp, vertical = 10.sdp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Text(
-                        "You're a guest: chat in Speaky Hub. Sign in with Google to send private messages and voice notes.",
-                        style = MaterialTheme.typography.bodySmall.copy(color = colors.textPrimary),
-                        modifier = Modifier.weight(1f),
-                    )
-                    Text("Sign in", color = colors.neonCyan, fontWeight = FontWeight.Bold)
-                }
-            }
-
-            when (uiState.tab) {
-                HubTab.CHATS -> InboxTab(uiState, viewModel)
-                HubTab.PEOPLE -> PeopleTab(uiState, viewModel)
             }
         }
 
@@ -156,15 +130,18 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
                     .padding(horizontal = 14.sdp, vertical = 10.sdp),
             )
         }
+        if (uiState.isDeletingAccount) {
+            Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.5f)), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator(color = colors.neonCyan)
+            }
+        }
     }
 
     if (uiState.confirmDeleteAccount) {
         AlertDialog(
             onDismissRequest = viewModel::onDeleteAccountDismissed,
             title = { Text("Delete your account?") },
-            text = {
-                Text("Your community profile, messages, voice notes and private chats are permanently deleted. This can't be undone.")
-            },
+            text = { Text("Your community profile, messages, voice notes and private chats are permanently deleted. This can't be undone.") },
             confirmButton = {
                 TextButton(onClick = viewModel::onConfirmDeleteAccount) {
                     Text("Delete forever", color = MaterialTheme.colorScheme.error)
@@ -173,266 +150,196 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
             dismissButton = { TextButton(onClick = viewModel::onDeleteAccountDismissed) { Text("Cancel") } },
         )
     }
-    if (uiState.isDeletingAccount) {
-        Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.5f)), contentAlignment = Alignment.Center) {
-            CircularProgressIndicator(color = colors.neonCyan)
+}
+
+@Composable
+private fun PrivateChatCard(chat: ChatRoom, uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
+    val colors = LocalSpeakMindColors.current
+    val other = chat.otherUser ?: return
+    PersonCard(
+        user = other,
+        online = other.uid in uiState.onlineUserIds,
+        subtitle = (if (chat.muted) "🔕 " else "") + chat.lastMessagePreview.ifEmpty { "Say hello 👋" },
+        subtitleColor = if (chat.unreadCount > 0) colors.textPrimary else null,
+        trailingTime = formatListTime(chat.lastMessageAtMillis),
+        unread = chat.unreadCount,
+        onClick = { viewModel.openChat(chat) },
+    )
+}
+
+/** The pinned general chat: a bold gradient card with a live "online" pulse. */
+@Composable
+private fun SpeakyHubCard(hub: ChatRoom?, onlineCount: Int, onClick: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    val pulse = rememberInfiniteTransition(label = "live")
+    val pulseScale by pulse.animateFloat(
+        initialValue = 0.8f,
+        targetValue = 1.4f,
+        animationSpec = infiniteRepeatable(tween(1100), RepeatMode.Reverse),
+        label = "pulseScale",
+    )
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(20.sdp))
+            .background(Brush.linearGradient(listOf(colors.neonCyan, colors.neonCyanDark, colors.magenta.copy(alpha = 0.85f))))
+            .border(1.sdp, Color.White.copy(alpha = 0.25f), RoundedCornerShape(20.sdp))
+            .clickable(onClick = onClick)
+            .padding(16.sdp),
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Box(
+                modifier = Modifier
+                    .size(48.sdp)
+                    .clip(RoundedCornerShape(14.sdp))
+                    .background(Color.White.copy(alpha = 0.2f)),
+                contentAlignment = Alignment.Center,
+            ) {
+                Icon(Icons.Default.Public, contentDescription = null, tint = Color.White, modifier = Modifier.size(28.sdp))
+            }
+            Spacer(Modifier.width(12.sdp))
+            Column(Modifier.weight(1f)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(
+                        "Speaky Hub",
+                        style = MaterialTheme.typography.titleMedium.copy(color = Color.White, fontWeight = FontWeight.Bold),
+                    )
+                    Spacer(Modifier.width(8.sdp))
+                    Text(
+                        "📌 General",
+                        style = MaterialTheme.typography.labelSmall.copy(color = Color.White.copy(alpha = 0.85f)),
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(8.sdp))
+                            .background(Color.White.copy(alpha = 0.18f))
+                            .padding(horizontal = 6.sdp, vertical = 2.sdp),
+                    )
+                }
+                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 3.sdp)) {
+                    Box(
+                        Modifier
+                            .size(8.sdp)
+                            .graphicsLayer { scaleX = pulseScale; scaleY = pulseScale }
+                            .background(Color(0xFF7CFFB2), CircleShape)
+                    )
+                    Spacer(Modifier.width(6.sdp))
+                    Text(
+                        "$onlineCount online now",
+                        style = MaterialTheme.typography.labelSmall.copy(color = Color.White.copy(alpha = 0.9f)),
+                    )
+                }
+            }
+            Icon(
+                Icons.AutoMirrored.Filled.KeyboardArrowRight,
+                contentDescription = null,
+                tint = Color.White.copy(alpha = 0.8f),
+                modifier = Modifier.size(22.sdp),
+            )
+        }
+        Spacer(Modifier.height(12.sdp))
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(12.sdp))
+                .background(Color.White.copy(alpha = 0.16f))
+                .padding(horizontal = 12.sdp, vertical = 10.sdp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Text(
+                text = hub?.lastMessagePreview?.takeIf { it.isNotEmpty() } ?: "Say hi to learners from around the world 👋",
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+                style = MaterialTheme.typography.bodySmall.copy(color = Color.White),
+                modifier = Modifier.weight(1f),
+            )
+            hub?.lastMessageAtMillis?.takeIf { it > 0 && hub.lastMessagePreview.isNotEmpty() }?.let {
+                Text(
+                    formatListTime(it),
+                    style = MaterialTheme.typography.labelSmall.copy(color = Color.White.copy(alpha = 0.75f), fontSize = 9.ssp),
+                    modifier = Modifier.padding(start = 8.sdp),
+                )
+            }
         }
     }
 }
 
 @Composable
-private fun AccountMenu(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
+private fun SignInCard(onSignIn: () -> Unit) {
     val colors = LocalSpeakMindColors.current
-    var menuOpen by remember { mutableStateOf(false) }
-    Box {
-        IconButton(onClick = { menuOpen = true }) {
-            Icon(Icons.Default.MoreVert, contentDescription = "More", tint = colors.textPrimary)
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(top = 6.sdp)
+            .clip(RoundedCornerShape(16.sdp))
+            .background(Brush.verticalGradient(listOf(colors.magenta.copy(alpha = 0.06f), colors.surfaceVariant.copy(alpha = 0.7f))))
+            .border(1.sdp, colors.magenta.copy(alpha = 0.22f), RoundedCornerShape(16.sdp))
+            .padding(16.sdp),
+    ) {
+        Text(
+            "💌  Private messages",
+            style = MaterialTheme.typography.titleSmall.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold),
+        )
+        Text(
+            "You're reading as a visitor. Sign in with Google to chat in Speaky Hub and message learners privately.",
+            style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
+            modifier = Modifier.padding(top = 4.sdp, bottom = 12.sdp),
+        )
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(44.sdp)
+                .clip(RoundedCornerShape(22.sdp))
+                .background(Color.White)
+                .border(1.sdp, colors.textMuted.copy(alpha = 0.2f), RoundedCornerShape(22.sdp))
+                .clickable(onClick = onSignIn),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Text("G  ", fontSize = 16.ssp, fontWeight = FontWeight.Bold, color = Color(0xFF4285F4))
+            Text("Sign in with Google", color = Color(0xFF1F1F1F), fontWeight = FontWeight.SemiBold)
         }
-        DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
-            if (uiState.isGuest) {
-                DropdownMenuItem(
-                    text = { Text("Sign in with Google") },
-                    onClick = {
-                        menuOpen = false
-                        viewModel.onSignInWithGoogle()
-                    },
-                )
-            }
+    }
+}
+
+@Composable
+private fun PeopleButton(onClick: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    Box(
+        modifier = Modifier
+            .padding(end = 4.sdp)
+            .size(40.sdp)
+            .clip(RoundedCornerShape(12.sdp))
+            .background(colors.gold.copy(alpha = 0.12f))
+            .border(1.sdp, colors.gold.copy(alpha = 0.3f), RoundedCornerShape(12.sdp))
+            .clickable(onClick = onClick),
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(Icons.Default.People, contentDescription = "People", tint = colors.gold, modifier = Modifier.size(22.sdp))
+    }
+}
+
+@Composable
+private fun AccountMenu(viewModel: CommunityHubViewModel) {
+    val colors = LocalSpeakMindColors.current
+    var open by remember { mutableStateOf(false) }
+    Box {
+        IconButton(onClick = { open = true }) {
+            Icon(Icons.Default.MoreVert, contentDescription = "Account", tint = colors.textPrimary)
+        }
+        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
             DropdownMenuItem(
                 text = { Text("Sign out") },
                 onClick = {
-                    menuOpen = false
+                    open = false
                     viewModel.onSignOut()
                 },
             )
             DropdownMenuItem(
                 text = { Text("Delete account", color = MaterialTheme.colorScheme.error) },
                 onClick = {
-                    menuOpen = false
+                    open = false
                     viewModel.onDeleteAccountRequested()
                 },
             )
         }
     }
-}
-
-// ---------------- Inbox ----------------
-
-@Composable
-private fun InboxTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
-    LazyColumn(
-        modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(vertical = 8.sdp),
-    ) {
-        item(key = "hub") {
-            ChatRow(
-                leading = { IconBadge(Icons.Default.Public) },
-                title = "Speaky Hub",
-                subtitle = "General chat · ${uiState.onlineUserIds.size} online",
-                time = "",
-                unread = 0,
-                onClick = viewModel::openSpeakyHub,
-            )
-        }
-        item(key = "inbox_header") {
-            Text(
-                "Private messages",
-                style = MaterialTheme.typography.labelMedium.copy(color = LocalSpeakMindColors.current.textMuted),
-                modifier = Modifier.padding(start = 16.sdp, top = 10.sdp, bottom = 4.sdp),
-            )
-        }
-        when {
-            uiState.isLoadingRooms && uiState.rooms.isEmpty() -> item { CenterSpinner() }
-            uiState.rooms.isEmpty() -> item {
-                EmptyText("No private messages yet.\nTap someone in Speaky Hub or People to start a chat!")
-            }
-        }
-        items(uiState.rooms, key = { it.id }) { room ->
-            val other = room.otherUser
-            ChatRow(
-                leading = {
-                    if (other != null) AvatarWithStatus(other, online = other.uid in uiState.onlineUserIds)
-                },
-                title = room.displayName + if (room.muted) " 🔕" else "",
-                subtitle = room.lastMessagePreview.ifEmpty { "Say hello 👋" },
-                time = formatListTime(room.lastMessageAtMillis),
-                unread = room.unreadCount,
-                onClick = { viewModel.openRoom(room) },
-            )
-        }
-    }
-}
-
-// ---------------- People ----------------
-
-@Composable
-private fun PeopleTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
-    val colors = LocalSpeakMindColors.current
-    val listState = rememberLazyListState()
-    LaunchedEffect(listState) {
-        snapshotFlow { listState.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: 0 }
-            .distinctUntilChanged()
-            .collect { last -> if (last >= listState.layoutInfo.totalItemsCount - 5) viewModel.loadMorePeople() }
-    }
-    // Online people first, then by most recently seen
-    val people = remember(uiState.people, uiState.onlineUserIds) {
-        uiState.people.sortedWith(
-            compareByDescending<CommunityUser> { it.uid in uiState.onlineUserIds }.thenByDescending { it.lastSeen }
-        )
-    }
-    Column(Modifier.fillMaxSize()) {
-        SearchField(uiState.peopleQuery, "Search people", viewModel::onPeopleQueryChanged)
-        LazyColumn(state = listState, modifier = Modifier.fillMaxSize()) {
-            items(people, key = { it.uid }) { user ->
-                val online = user.uid in uiState.onlineUserIds
-                val blocked = user.uid in uiState.blockedUserIds
-                ChatRow(
-                    leading = { AvatarWithStatus(user, online) },
-                    title = user.nickname,
-                    subtitle = when {
-                        blocked -> "Blocked"
-                        online -> "Online"
-                        else -> formatLastSeen(user.lastSeen)
-                    },
-                    subtitleColor = when {
-                        blocked -> colors.error
-                        online -> colors.success
-                        else -> null
-                    },
-                    time = "",
-                    unread = 0,
-                    onClick = { viewModel.onPersonClicked(user) },
-                )
-            }
-            if (uiState.isLoadingPeople) item { CenterSpinner() }
-            else if (people.isEmpty()) item { EmptyText("No one found.") }
-        }
-    }
-}
-
-// ---------------- Shared ----------------
-
-@Composable
-private fun ChatRow(
-    leading: @Composable () -> Unit,
-    title: String,
-    subtitle: String,
-    time: String,
-    unread: Int,
-    onClick: () -> Unit,
-    subtitleColor: Color? = null,
-) {
-    val colors = LocalSpeakMindColors.current
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable { onClick() }
-            .padding(horizontal = 16.sdp, vertical = 10.sdp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        leading()
-        Spacer(Modifier.width(12.sdp))
-        Column(Modifier.weight(1f)) {
-            Text(
-                title,
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis,
-                style = MaterialTheme.typography.bodyLarge.copy(color = colors.textPrimary, fontWeight = FontWeight.SemiBold),
-            )
-            Text(
-                subtitle,
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis,
-                style = MaterialTheme.typography.bodySmall.copy(color = subtitleColor ?: colors.textMuted),
-            )
-        }
-        Column(horizontalAlignment = Alignment.End, verticalArrangement = Arrangement.spacedBy(4.sdp)) {
-            if (time.isNotEmpty()) {
-                Text(time, style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted, fontSize = 9.ssp))
-            }
-            if (unread > 0) {
-                Box(
-                    modifier = Modifier
-                        .defaultMinSize(minWidth = 20.sdp, minHeight = 20.sdp)
-                        .background(colors.neonCyan, CircleShape)
-                        .padding(horizontal = 6.sdp),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    Text(
-                        if (unread > 99) "99+" else unread.toString(),
-                        style = MaterialTheme.typography.labelSmall.copy(color = colors.backgroundDark, fontWeight = FontWeight.Bold),
-                    )
-                }
-            }
-        }
-    }
-}
-
-@Composable
-private fun AvatarWithStatus(user: CommunityUser, online: Boolean) {
-    val colors = LocalSpeakMindColors.current
-    Box {
-        UserAvatar(nickname = user.nickname, photoUrl = user.photoUrl, size = 44.sdp, borderColor = colors.neonCyan)
-        OnlineDot(online = online, size = 13.sdp, modifier = Modifier.align(Alignment.BottomEnd))
-    }
-}
-
-@Composable
-private fun IconBadge(icon: ImageVector) {
-    val colors = LocalSpeakMindColors.current
-    Box(
-        modifier = Modifier
-            .size(44.sdp)
-            .clip(CircleShape)
-            .background(Brush.radialGradient(listOf(colors.neonCyan, colors.neonCyanDark))),
-        contentAlignment = Alignment.Center,
-    ) {
-        Icon(icon, contentDescription = null, tint = colors.backgroundDark, modifier = Modifier.size(24.sdp))
-    }
-}
-
-@Composable
-private fun SearchField(value: String, placeholder: String, onChange: (String) -> Unit) {
-    val colors = LocalSpeakMindColors.current
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 16.sdp, vertical = 10.sdp)
-            .clip(RoundedCornerShape(22.sdp))
-            .background(colors.surfaceVariant)
-            .border(1.sdp, colors.neonCyan.copy(alpha = 0.2f), RoundedCornerShape(22.sdp))
-            .padding(horizontal = 14.sdp, vertical = 10.sdp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Icon(Icons.Default.Search, contentDescription = null, tint = colors.textMuted, modifier = Modifier.size(18.sdp))
-        Spacer(Modifier.width(8.sdp))
-        BasicTextField(
-            value = value,
-            onValueChange = onChange,
-            singleLine = true,
-            textStyle = MaterialTheme.typography.bodyMedium.copy(color = colors.textPrimary),
-            decorationBox = { inner ->
-                if (value.isEmpty()) Text(placeholder, style = MaterialTheme.typography.bodyMedium.copy(color = colors.textMuted))
-                inner()
-            },
-            modifier = Modifier.weight(1f),
-        )
-    }
-}
-
-@Composable
-private fun CenterSpinner() {
-    Box(Modifier.fillMaxWidth().padding(24.sdp), contentAlignment = Alignment.Center) {
-        CircularProgressIndicator(color = LocalSpeakMindColors.current.neonCyan, modifier = Modifier.size(28.sdp))
-    }
-}
-
-@Composable
-private fun EmptyText(text: String) {
-    Text(
-        text = text,
-        style = MaterialTheme.typography.bodyMedium.copy(color = LocalSpeakMindColors.current.textMuted),
-        modifier = Modifier.fillMaxWidth().padding(32.sdp),
-        textAlign = TextAlign.Center,
-    )
 }

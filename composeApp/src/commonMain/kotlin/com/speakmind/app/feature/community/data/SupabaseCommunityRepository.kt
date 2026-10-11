@@ -108,16 +108,10 @@ class SupabaseCommunityRepository(
 
     override fun isGuest(): Boolean = client.auth.currentUserOrNull()?.let { user ->
         user.identities.isNullOrEmpty() || user.appMetadata?.get("provider")?.jsonPrimitive?.contentOrNull == "anonymous"
-    } ?: false
-
-    override suspend fun signInAsGuest() {
-        client.auth.awaitInitialization()
-        if (client.auth.currentUserOrNull() == null) client.auth.signInAnonymously()
-        lastPushToken?.let { registerPushToken(it) }
-    }
+    } ?: true
 
     override suspend fun signInWithGoogle(idToken: String, rawNonce: String) {
-        // A guest switching to Google starts a fresh account (guests can only post in Speaky Hub).
+        // Drop any leftover anonymous session before signing in with Google.
         if (client.auth.currentUserOrNull() != null && isGuest()) signOut()
         client.auth.signInWith(IDToken) {
             this.idToken = idToken
@@ -312,10 +306,11 @@ class SupabaseCommunityRepository(
     }
 
     private suspend fun goOnline() {
-        val uid = currentUserId() ?: return
+        // Visitors who aren't signed in still see who's online, but aren't counted themselves.
+        val uid = if (isGuest()) null else currentUserId()
         try {
             val channel = client.channel("online") {
-                presence { key = uid }
+                presence { key = uid ?: "visitor-${nowMillis()}" }
             }
             presenceChannel = channel
             presenceJob = scope.launch {
@@ -324,6 +319,7 @@ class SupabaseCommunityRepository(
                 }
             }
             channel.subscribe(blockUntilSubscribed = true)
+            if (uid == null) return
             channel.track(buildJsonObject { put("user_id", uid) })
             heartbeatJob = scope.launch {
                 while (true) {
@@ -349,7 +345,7 @@ class SupabaseCommunityRepository(
         } catch (_: Exception) {
         }
         _onlineUserIds.value = emptySet()
-        currentUserId()?.let { updateLastSeen(it) }
+        if (!isGuest()) currentUserId()?.let { updateLastSeen(it) }
     }
 
     private suspend fun updateLastSeen(uid: String) {

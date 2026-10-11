@@ -1,7 +1,6 @@
 package com.speakmind.app.feature.community.ui.auth
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -34,7 +33,6 @@ fun NavGraphBuilder.communityAuthScreen() {
             uiState = uiState,
             onBack = viewModel::onBack,
             onGoogle = { viewModel.onGoogleSignIn(googleSignIn) },
-            onGuest = viewModel::onContinueAsGuest,
         )
     }
 }
@@ -44,7 +42,6 @@ private fun CommunityAuthContent(
     uiState: CommunityAuthUiState,
     onBack: () -> Unit,
     onGoogle: () -> Unit,
-    onGuest: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
     Column(
@@ -62,12 +59,12 @@ private fun CommunityAuthContent(
         Text("🌍", fontSize = 48.ssp, modifier = Modifier.align(Alignment.CenterHorizontally))
         Spacer(Modifier.height(12.sdp))
         Text(
-            "Join the community",
+            "Sign in to chat",
             style = MaterialTheme.typography.headlineSmall.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold),
             modifier = Modifier.align(Alignment.CenterHorizontally),
         )
         Text(
-            "Practise English with learners around the world.",
+            "Practise English with learners around the world. Anyone can read Speaky Hub; sign in with Google to send messages.",
             style = MaterialTheme.typography.bodyMedium.copy(color = colors.textMuted, textAlign = TextAlign.Center),
             modifier = Modifier.fillMaxWidth().padding(top = 6.sdp, bottom = 28.sdp),
         )
@@ -87,26 +84,9 @@ private fun CommunityAuthContent(
             }
         }
         Text(
-            "Full access: private chats, groups, and voice messages.",
+            "Chat in Speaky Hub, send private messages and voice notes.",
             style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-            modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 6.sdp, bottom = 18.sdp),
-        )
-
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(50.sdp)
-                .clip(RoundedCornerShape(25.sdp))
-                .border(1.sdp, colors.neonCyan.copy(alpha = 0.6f), RoundedCornerShape(25.sdp))
-                .clickable(enabled = !uiState.isLoading) { onGuest() },
-            contentAlignment = Alignment.Center,
-        ) {
-            Text("Continue as guest", color = colors.neonCyan, fontWeight = FontWeight.SemiBold)
-        }
-        Text(
-            "Guests can read everything and chat in Speaky Hub.",
-            style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-            modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 6.sdp),
+            modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 6.sdp, bottom = 12.sdp),
         )
 
         Box(Modifier.fillMaxWidth().height(48.sdp), contentAlignment = Alignment.Center) {

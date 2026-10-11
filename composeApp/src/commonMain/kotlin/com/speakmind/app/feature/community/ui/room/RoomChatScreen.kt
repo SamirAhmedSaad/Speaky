@@ -100,6 +100,7 @@ private class RoomActions(vm: RoomChatViewModel) {
     val onPlayVoice = vm::onPlayVoice
     val onRetry = vm::onRetry
     val onMessageUser = vm::onMessageUser
+    val onSignIn = vm::onSignInRequested
     val onToggleMute = vm::onToggleMute
     val onEdit = vm::onEditRequested
     val onCancelEdit = vm::onCancelEdit
@@ -328,7 +329,7 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
 
         when {
             uiState.isBanned -> NoticeBar("Your account is suspended for breaking community rules.")
-            uiState.guestRestricted -> NoticeBar("Guests can read here. Sign in with Google to chat in groups and private chats.")
+            uiState.guestRestricted -> SignInBar(onSignIn = actions.onSignIn)
             uiState.kind == RoomKind.DIRECT && uiState.isDirectBlocked -> BlockedBar(
                 blockedByMe = uiState.isOtherBlockedByMe,
                 nickname = uiState.otherUser?.nickname ?: "this user",
@@ -746,6 +747,33 @@ private fun NoticeBar(text: String) {
             .navigationBarsPadding()
             .padding(16.sdp),
     )
+}
+
+@Composable
+private fun SignInBar(onSignIn: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(colors.surface.copy(alpha = 0.97f))
+            .navigationBarsPadding()
+            .padding(horizontal = 16.sdp, vertical = 12.sdp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Text(
+            "You're reading as a visitor.",
+            style = MaterialTheme.typography.bodySmall.copy(color = colors.textMuted),
+        )
+        Spacer(Modifier.height(8.sdp))
+        Button(
+            onClick = onSignIn,
+            colors = ButtonDefaults.buttonColors(containerColor = Color.White, contentColor = Color(0xFF1F1F1F)),
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Text("G  ", color = Color(0xFF4285F4), fontWeight = FontWeight.Bold)
+            Text("Sign in with Google to chat", fontWeight = FontWeight.SemiBold)
+        }
+    }
 }
 
 @Composable
