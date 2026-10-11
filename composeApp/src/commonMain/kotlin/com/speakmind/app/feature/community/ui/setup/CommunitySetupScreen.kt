@@ -174,7 +174,7 @@ private fun CommunitySetupContent(
             Text(
                 text = if (uiState.photoBytes != null) "Tap to change photo" else "Tap to add a photo",
                 style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-                modifier = Modifier.padding(top = (-12).sdp),
+                modifier = Modifier.offset(y = (-12).sdp),
             )
 
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
