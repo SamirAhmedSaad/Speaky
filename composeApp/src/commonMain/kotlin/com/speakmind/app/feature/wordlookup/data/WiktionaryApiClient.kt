@@ -15,7 +15,7 @@ class WiktionaryApiClient(private val httpClient: HttpClient) {
     suspend fun lookup(word: String): WordLookupResult? {
         return try {
             val response = httpClient.get(
-                "https://en.wiktionary.org/api/rest_v1/page/definition/${word.trim().lowercase()}"
+                "https://en.wiktionary.org/api/rest_v1/page/definition/${word.trim().lowercase().replace(' ', '_')}"
             )
             parse(word.trim(), response.bodyAsText())
         } catch (_: Exception) {
@@ -26,7 +26,7 @@ class WiktionaryApiClient(private val httpClient: HttpClient) {
     suspend fun lookupExamples(word: String): List<String> {
         return try {
             val response = httpClient.get(
-                "https://en.wiktionary.org/api/rest_v1/page/definition/${word.trim().lowercase()}"
+                "https://en.wiktionary.org/api/rest_v1/page/definition/${word.trim().lowercase().replace(' ', '_')}"
             )
             val root = Json.parseToJsonElement(response.bodyAsText()).jsonObject
             val defs = root["en"]?.jsonArray
@@ -58,6 +58,7 @@ class WiktionaryApiClient(private val httpClient: HttpClient) {
                 meaning = meaning,
                 examples = extractExamples(definitions),
                 level = null,
+                arabicTranslation = null,
                 source = WordLookupResult.Source.WIKTIONARY,
             )
         } catch (_: Exception) {

@@ -1,5 +1,6 @@
 package com.speakmind.app.feature.wordlookup.di
 
+import com.speakmind.app.feature.wordlookup.data.DatamuseApiClient
 import com.speakmind.app.feature.wordlookup.data.DictionaryApiClient
 import com.speakmind.app.feature.wordlookup.data.TranslationApiClient
 import com.speakmind.app.feature.wordlookup.data.WiktionaryApiClient
@@ -11,5 +12,6 @@ val wordLookupModule = module {
     single { DictionaryApiClient(get()) }
     single { WiktionaryApiClient(get()) }
     single { TranslationApiClient(get()) }
-    viewModel { WordLookupViewModel(get(), get(), get(), get(), get(), get()) }
+    single { DatamuseApiClient(get()) }
+    viewModel { WordLookupViewModel(get(), get(), get(), get(), get(), get(), get(), get()) }
 }

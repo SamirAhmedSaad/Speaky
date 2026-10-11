@@ -178,7 +178,7 @@ class ArticleDetailViewModel(
         viewModelScope.launch {
             _uiState.value = _uiState.value.copy(isLoadingAction = true)
             val translation = withContext(Dispatchers.IO) {
-                translationClient.translateToArabic(word)
+                translationClient.translate(word)
             }
             _uiState.value = _uiState.value.copy(
                 translationText = translation,

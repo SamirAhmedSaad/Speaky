@@ -8,7 +8,10 @@ data class WordLookupResult(
     val meaning: String,
     val examples: List<String>,
     val level: String?,
+    val arabicTranslation: String?,
     val source: Source,
 ) {
-    enum class Source { DICTIONARY, WIKTIONARY }
+    enum class Source { DICTIONARY, WIKTIONARY, TRANSLATION }
+
+    val isPhrase: Boolean get() = source == Source.TRANSLATION && word.contains(' ')
 }

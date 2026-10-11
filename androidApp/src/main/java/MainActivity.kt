@@ -147,9 +147,24 @@ class MainActivity : ComponentActivity() {
         val roomId = intent?.getStringExtra(ChatMessagingService.EXTRA_ROOM_ID) ?: return
         val title = intent.getStringExtra(ChatMessagingService.EXTRA_ROOM_TITLE).orEmpty()
         intent.removeExtra(ChatMessagingService.EXTRA_ROOM_ID)
+        if (!isFreshNotificationTap(intent)) return
         lifecycleScope.launch {
             getKoin().get<NavigationManager>().navigateWhenReady(RoomDestination(roomId, title))
         }
+    }
+
+    /**
+     * Android re-delivers the task's original intent when the app restarts (from recents or after
+     * being killed), which would reopen a chat from an old notification. Each tap carries an id;
+     * only ids newer than the last one handled are acted on.
+     */
+    private fun isFreshNotificationTap(intent: Intent): Boolean {
+        if (intent.flags and Intent.FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY != 0) return false
+        val tapId = intent.getLongExtra(ChatMessagingService.EXTRA_TAP_ID, 0L)
+        val prefs = getSharedPreferences("notification_taps", MODE_PRIVATE)
+        if (tapId <= prefs.getLong("last_chat_tap", 0L)) return false
+        prefs.edit().putLong("last_chat_tap", tapId).apply()
+        return true
     }
 
     private fun requestNotificationPermission() {
@@ -164,6 +179,9 @@ class MainActivity : ComponentActivity() {
 
     private fun handleDailyWordIntent(intent: Intent?) {
         val word = intent?.getStringExtra(DailyWordAlarmReceiver.EXTRA_WORD) ?: return
+        intent.removeExtra(DailyWordAlarmReceiver.EXTRA_WORD)
+        // Reopened from recents: the original alarm intent is re-delivered, don't jump to the word again.
+        if (intent.flags and Intent.FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY != 0) return
         Napier.d { "Opening daily word from notification: $word" }
         lifecycleScope.launch {
             try {

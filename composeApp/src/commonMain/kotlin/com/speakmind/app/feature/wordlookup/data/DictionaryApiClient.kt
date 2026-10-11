@@ -37,14 +37,25 @@ class DictionaryApiClient(private val httpClient: HttpClient) {
                 ?.jsonObject?.get("audio")?.jsonPrimitive?.content
 
             val meanings = entry["meanings"]?.jsonArray ?: return null
-            val firstMeaning = meanings.firstOrNull()?.jsonObject ?: return null
-            val partOfSpeech = firstMeaning["partOfSpeech"]?.jsonPrimitive?.content ?: ""
-            val defs = firstMeaning["definitions"]?.jsonArray ?: return null
-            val meaning = defs.firstOrNull()?.jsonObject
-                ?.get("definition")?.jsonPrimitive?.content ?: return null
-            val examples = defs
-                .mapNotNull { it.jsonObject["example"]?.jsonPrimitive?.content }
-                .take(3)
+
+            // Primary part of speech from first meaning
+            val partOfSpeech = meanings.firstOrNull()?.jsonObject
+                ?.get("partOfSpeech")?.jsonPrimitive?.content ?: ""
+
+            // First definition from each part of speech (up to 2), joined as paragraphs
+            val meaningParts = meanings.take(2).mapNotNull { m ->
+                val defs = m.jsonObject["definitions"]?.jsonArray ?: return@mapNotNull null
+                defs.firstOrNull()?.jsonObject?.get("definition")?.jsonPrimitive?.content
+            }
+            val meaning = meaningParts.joinToString("\n\n")
+            if (meaning.isBlank()) return null
+
+            // Examples from all definitions across all meanings
+            val examples = meanings.flatMap { m ->
+                m.jsonObject["definitions"]?.jsonArray
+                    ?.mapNotNull { it.jsonObject["example"]?.jsonPrimitive?.content }
+                    ?: emptyList()
+            }.take(3)
 
             WordLookupResult(
                 word = word,
@@ -54,6 +65,7 @@ class DictionaryApiClient(private val httpClient: HttpClient) {
                 meaning = meaning,
                 examples = examples,
                 level = null,
+                arabicTranslation = null,
                 source = WordLookupResult.Source.DICTIONARY,
             )
         } catch (_: Exception) {

@@ -52,6 +52,8 @@ class ChatMessagingService : FirebaseMessagingService() {
     companion object {
         const val EXTRA_ROOM_ID = "community_room_id"
         const val EXTRA_ROOM_TITLE = "community_room_title"
+        /** Lets MainActivity ignore re-delivered (already handled) notification taps. */
+        const val EXTRA_TAP_ID = "community_tap_id"
         private const val CHANNEL_ID = "community_messages"
 
         /** Fetches the current FCM token and saves it for the signed-in user. */
@@ -78,6 +80,7 @@ class ChatMessagingService : FirebaseMessagingService() {
                 flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
                 putExtra(EXTRA_ROOM_ID, roomId)
                 putExtra(EXTRA_ROOM_TITLE, roomTitle.ifEmpty { title })
+                putExtra(EXTRA_TAP_ID, System.currentTimeMillis())
             }
             val pendingIntent = PendingIntent.getActivity(
                 context,

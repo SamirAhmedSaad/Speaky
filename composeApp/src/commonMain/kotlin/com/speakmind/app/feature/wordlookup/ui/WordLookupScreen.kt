@@ -37,6 +37,7 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDirection
 import network.chaintech.sdpcomposemultiplatform.sdp
 import network.chaintech.sdpcomposemultiplatform.ssp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -132,7 +133,7 @@ private fun WordLookupContent(
                 Box(modifier = Modifier.weight(1f)) {
                     if (query.isEmpty()) {
                         Text(
-                            text = "Try: resilient, pursue...",
+                            text = "Try: resilient, in the long run...",
                             style = MaterialTheme.typography.bodyMedium.copy(
                                 color = colors.textMuted,
                             ),
@@ -205,7 +206,7 @@ private fun IdleHint() {
             Text(text = "📖", fontSize = 52.ssp)
             Spacer(modifier = Modifier.height(4.sdp))
             Text(
-                text = "Look up any word",
+                text = "Look up any word or phrase",
                 style = MaterialTheme.typography.titleLarge.copy(
                     color = colors.textPrimary,
                     fontWeight = FontWeight.Bold,
@@ -213,7 +214,7 @@ private fun IdleHint() {
                 textAlign = TextAlign.Center,
             )
             Text(
-                text = "Get the meaning, pronunciation,\nand example sentences instantly.",
+                text = "Get the meaning, Arabic translation,\nand example sentences instantly.\nPhrases and sentences work too.",
                 style = MaterialTheme.typography.bodyMedium.copy(
                     color = colors.textSecondary,
                     lineHeight = 22.ssp,
@@ -233,6 +234,7 @@ private fun ResultContent(
     onSaveWord: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
+    val isTranslationOnly = result.source == WordLookupResult.Source.TRANSLATION
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
@@ -244,7 +246,7 @@ private fun ResultContent(
         ),
         verticalArrangement = Arrangement.spacedBy(0.sdp),
     ) {
-        // ── Word card ──────────────────────────────────────────
+        // ── Word / Phrase card ─────────────────────────────────
         item {
             Column(
                 modifier = Modifier
@@ -259,7 +261,7 @@ private fun ResultContent(
                     .padding(20.sdp),
                 verticalArrangement = Arrangement.spacedBy(12.sdp),
             ) {
-                // Word + level badge + optional AI sparkle
+                // Word + level badge
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(10.sdp),
@@ -295,120 +297,192 @@ private fun ResultContent(
                             )
                         }
                     }
-                }
-
-                // Phonetic · part of speech · Listen
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.sdp),
-                ) {
-                    if (result.phonetic.isNotEmpty()) {
-                        Text(
-                            text = result.phonetic,
-                            style = MaterialTheme.typography.bodyMedium.copy(
-                                color = colors.neonCyan.copy(alpha = 0.6f),
-                                fontStyle = FontStyle.Italic,
-                            ),
-                        )
-                    }
-                    if (result.phonetic.isNotEmpty() && result.partOfSpeech.isNotEmpty()) {
-                        Text(
-                            text = "·",
-                            style = MaterialTheme.typography.bodyMedium.copy(
-                                color = colors.textMuted,
-                            ),
-                        )
-                    }
-                    if (result.partOfSpeech.isNotEmpty()) {
-                        Text(
-                            text = result.partOfSpeech,
-                            style = MaterialTheme.typography.bodyMedium.copy(
-                                color = colors.textMuted,
-                                fontWeight = FontWeight.Medium,
-                            ),
-                        )
-                    }
-                    Spacer(modifier = Modifier.weight(1f))
-                    // Listen + Speed chips
-                    Row(
-                        horizontalArrangement = Arrangement.spacedBy(6.sdp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Row(
+                    if (isTranslationOnly) {
+                        Box(
+                            contentAlignment = Alignment.Center,
                             modifier = Modifier
-                                .clip(RoundedCornerShape(20.sdp))
-                                .background(colors.neonCyan.copy(alpha = 0.12f))
-                                .clickable { onSpeakWord(result.word) }
-                                .padding(horizontal = 12.sdp, vertical = 6.sdp),
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(4.sdp),
+                                .clip(RoundedCornerShape(8.sdp))
+                                .background(colors.magenta.copy(alpha = 0.15f))
+                                .border(1.sdp, colors.magenta.copy(alpha = 0.3f), RoundedCornerShape(8.sdp))
+                                .padding(horizontal = 10.sdp, vertical = 4.sdp),
                         ) {
-                            Icon(
-                                Icons.AutoMirrored.Filled.VolumeUp,
-                                contentDescription = "Listen",
-                                tint = colors.neonCyan,
-                                modifier = Modifier.size(16.sdp),
-                            )
                             Text(
-                                text = "Listen",
-                                style = MaterialTheme.typography.labelMedium.copy(
-                                    color = colors.neonCyan,
+                                text = "Phrase",
+                                style = MaterialTheme.typography.labelSmall.copy(
+                                    color = colors.magenta,
                                     fontWeight = FontWeight.SemiBold,
                                 ),
                             )
                         }
-                        TtsSpeedButton(style = TtsSpeedButtonStyle.Pill)
                     }
                 }
 
-                HorizontalDivider(
-                    color = colors.surfaceVariant,
-                    modifier = Modifier.padding(vertical = 4.sdp),
-                )
-
-                // Meaning
-                Text(
-                    text = result.meaning,
-                    style = MaterialTheme.typography.bodyLarge.copy(
-                        color = colors.textSecondary,
-                        lineHeight = 26.ssp,
-                    ),
-                )
-
-                HorizontalDivider(
-                    color = colors.surfaceVariant,
-                    modifier = Modifier.padding(vertical = 4.sdp),
-                )
-
-                // Save to My Words button
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(12.sdp))
-                        .background(colors.neonCyan.copy(alpha = if (isSaved) 0.15f else 0.08f))
-                        .border(
-                            width = if (isSaved) 1.5.sdp else 1.sdp,
-                            color = colors.neonCyan.copy(alpha = if (isSaved) 0.5f else 0.4f),
-                            shape = RoundedCornerShape(12.sdp),
+                // Phonetic · part of speech · Listen (hidden for phrase-only results)
+                if (!isTranslationOnly) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.sdp),
+                    ) {
+                        if (result.phonetic.isNotEmpty()) {
+                            Text(
+                                text = result.phonetic,
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    color = colors.neonCyan.copy(alpha = 0.6f),
+                                    fontStyle = FontStyle.Italic,
+                                ),
+                            )
+                        }
+                        if (result.phonetic.isNotEmpty() && result.partOfSpeech.isNotEmpty()) {
+                            Text(
+                                text = "·",
+                                style = MaterialTheme.typography.bodyMedium.copy(color = colors.textMuted),
+                            )
+                        }
+                        if (result.partOfSpeech.isNotEmpty()) {
+                            Text(
+                                text = result.partOfSpeech,
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    color = colors.textMuted,
+                                    fontWeight = FontWeight.Medium,
+                                ),
+                            )
+                        }
+                        Spacer(modifier = Modifier.weight(1f))
+                        Row(
+                            horizontalArrangement = Arrangement.spacedBy(6.sdp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Row(
+                                modifier = Modifier
+                                    .clip(RoundedCornerShape(20.sdp))
+                                    .background(colors.neonCyan.copy(alpha = 0.12f))
+                                    .clickable { onSpeakWord(result.word) }
+                                    .padding(horizontal = 12.sdp, vertical = 6.sdp),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(4.sdp),
+                            ) {
+                                Icon(
+                                    Icons.AutoMirrored.Filled.VolumeUp,
+                                    contentDescription = "Listen",
+                                    tint = colors.neonCyan,
+                                    modifier = Modifier.size(16.sdp),
+                                )
+                                Text(
+                                    text = "Listen",
+                                    style = MaterialTheme.typography.labelMedium.copy(
+                                        color = colors.neonCyan,
+                                        fontWeight = FontWeight.SemiBold,
+                                    ),
+                                )
+                            }
+                            TtsSpeedButton(style = TtsSpeedButtonStyle.Pill)
+                        }
+                    }
+                } else {
+                    // Phrase mode: just a Listen button
+                    Row(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(20.sdp))
+                            .background(colors.neonCyan.copy(alpha = 0.12f))
+                            .clickable { onSpeakWord(result.word) }
+                            .padding(horizontal = 12.sdp, vertical = 6.sdp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(4.sdp),
+                    ) {
+                        Icon(
+                            Icons.AutoMirrored.Filled.VolumeUp,
+                            contentDescription = "Listen",
+                            tint = colors.neonCyan,
+                            modifier = Modifier.size(16.sdp),
                         )
-                        .clickable(enabled = !isSaved, onClick = onSaveWord)
-                        .padding(horizontal = 16.sdp, vertical = 12.sdp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(10.sdp),
-                ) {
-                    Icon(
-                        imageVector = if (isSaved) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
-                        contentDescription = null,
-                        tint = colors.neonCyan,
-                        modifier = Modifier.size(18.sdp),
+                        Text(
+                            text = "Listen",
+                            style = MaterialTheme.typography.labelMedium.copy(
+                                color = colors.neonCyan,
+                                fontWeight = FontWeight.SemiBold,
+                            ),
+                        )
+                    }
+                }
+
+                // Meaning (hidden for translation-only)
+                if (result.meaning.isNotBlank()) {
+                    HorizontalDivider(
+                        color = colors.surfaceVariant,
+                        modifier = Modifier.padding(vertical = 4.sdp),
                     )
                     Text(
-                        text = if (isSaved) "Saved to My Words" else "Save to My Words",
-                        style = MaterialTheme.typography.labelLarge.copy(
-                            color = colors.neonCyan,
-                            fontWeight = FontWeight.SemiBold,
+                        text = result.meaning,
+                        style = MaterialTheme.typography.bodyLarge.copy(
+                            color = colors.textSecondary,
+                            lineHeight = 26.ssp,
                         ),
                     )
+                }
+
+                // Arabic translation
+                if (!result.arabicTranslation.isNullOrBlank()) {
+                    HorizontalDivider(
+                        color = colors.surfaceVariant,
+                        modifier = Modifier.padding(vertical = 4.sdp),
+                    )
+                    Column(verticalArrangement = Arrangement.spacedBy(6.sdp)) {
+                        Text(
+                            text = "بالعربية",
+                            style = MaterialTheme.typography.labelSmall.copy(
+                                color = colors.textMuted,
+                                letterSpacing = 0.5.ssp,
+                            ),
+                        )
+                        Text(
+                            text = result.arabicTranslation,
+                            style = MaterialTheme.typography.bodyLarge.copy(
+                                color = colors.textPrimary,
+                                fontWeight = FontWeight.Medium,
+                                lineHeight = 30.ssp,
+                                textDirection = TextDirection.Rtl,
+                                textAlign = TextAlign.Right,
+                            ),
+                            modifier = Modifier.fillMaxWidth(),
+                        )
+                    }
+                }
+
+                // Save button (only for real words with meaning, not phrase-only)
+                if (!isTranslationOnly) {
+                    HorizontalDivider(
+                        color = colors.surfaceVariant,
+                        modifier = Modifier.padding(vertical = 4.sdp),
+                    )
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clip(RoundedCornerShape(12.sdp))
+                            .background(colors.neonCyan.copy(alpha = if (isSaved) 0.15f else 0.08f))
+                            .border(
+                                width = if (isSaved) 1.5.sdp else 1.sdp,
+                                color = colors.neonCyan.copy(alpha = if (isSaved) 0.5f else 0.4f),
+                                shape = RoundedCornerShape(12.sdp),
+                            )
+                            .clickable(enabled = !isSaved, onClick = onSaveWord)
+                            .padding(horizontal = 16.sdp, vertical = 12.sdp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(10.sdp),
+                    ) {
+                        Icon(
+                            imageVector = if (isSaved) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
+                            contentDescription = null,
+                            tint = colors.neonCyan,
+                            modifier = Modifier.size(18.sdp),
+                        )
+                        Text(
+                            text = if (isSaved) "Saved to My Words" else "Save to My Words",
+                            style = MaterialTheme.typography.labelLarge.copy(
+                                color = colors.neonCyan,
+                                fontWeight = FontWeight.SemiBold,
+                            ),
+                        )
+                    }
                 }
             }
         }
@@ -443,17 +517,11 @@ private fun ResultContent(
                         .padding(start = 0.sdp, end = 4.sdp, top = 0.sdp, bottom = 0.sdp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    // Left accent bar
                     Box(
                         modifier = Modifier
                             .width(3.sdp)
                             .height(52.sdp)
-                            .clip(
-                                RoundedCornerShape(
-                                    topStart = 14.sdp,
-                                    bottomStart = 14.sdp,
-                                )
-                            )
+                            .clip(RoundedCornerShape(topStart = 14.sdp, bottomStart = 14.sdp))
                             .background(colors.neonCyan.copy(alpha = 0.4f)),
                     )
                     Spacer(modifier = Modifier.width(12.sdp))
