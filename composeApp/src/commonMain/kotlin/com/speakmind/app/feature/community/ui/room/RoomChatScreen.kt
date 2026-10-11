@@ -5,13 +5,11 @@ import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -19,20 +17,28 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.Send
 import androidx.compose.material.icons.filled.Block
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Flag
+import androidx.compose.material.icons.filled.CloudOff
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.ErrorOutline
+import androidx.compose.material.icons.filled.Flag
+import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Notifications
+import androidx.compose.material.icons.filled.NotificationsOff
 import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Schedule
@@ -44,6 +50,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -81,6 +88,33 @@ private val emojiPickerItems = listOf(
     "😭", "😢", "😤", "😠", "🤯", "😱", "🤦", "🤷",
 )
 
+/** Everything the chat screen can ask the view model to do. */
+private class RoomActions(vm: RoomChatViewModel) {
+    val onInputChanged = vm::onInputChanged
+    val onSend = vm::onSendClicked
+    val onLoadMore = vm::loadMore
+    val onBack = vm::onBack
+    val onMic = vm::onMicPressed
+    val onCancelRecording = vm::onCancelRecording
+    val onSendRecording = vm::onSendRecording
+    val onPlayVoice = vm::onPlayVoice
+    val onRetry = vm::onRetry
+    val onJoinGroup = vm::onJoinGroup
+    val onOpenGroupInfo = vm::onOpenGroupInfo
+    val onToggleMute = vm::onToggleMute
+    val onEdit = vm::onEditRequested
+    val onCancelEdit = vm::onCancelEdit
+    val onDelete = vm::onDeleteRequested
+    val onReport = vm::onReportRequested
+    val onBlock = vm::onBlockRequested
+    val onUnblockOther = vm::onUnblockOther
+    val onRetryConnection = vm::onRetryConnection
+    val onDailyLimitDismissed = vm::onDailyLimitDismissed
+    val onContentWarningDismissed = vm::onContentWarningDismissed
+    val onErrorDismissed = vm::onErrorDismissed
+    val onInfoDismissed = vm::onInfoDismissed
+}
+
 fun NavGraphBuilder.roomChatScreen() {
     animatedComposable<RoomDestination> { backStackEntry ->
         val dest = backStackEntry.toRoute<RoomDestination>()
@@ -92,33 +126,11 @@ fun NavGraphBuilder.roomChatScreen() {
             viewModel.onVisibilityChanged(true)
             onStopOrDispose { viewModel.onVisibilityChanged(false) }
         }
-        RoomChatContent(
-            uiState = uiState,
-            onInputChanged = viewModel::onInputChanged,
-            onSendClicked = viewModel::onSendClicked,
-            onLoadMore = viewModel::loadMore,
-            onBack = viewModel::onBack,
-            onMicPressed = viewModel::onMicPressed,
-            onCancelRecording = viewModel::onCancelRecording,
-            onSendRecording = viewModel::onSendRecording,
-            onPlayVoice = viewModel::onPlayVoice,
-            onRetry = viewModel::onRetry,
-            onJoinGroup = viewModel::onJoinGroup,
-            onLeaveGroup = viewModel::onLeaveGroup,
-            onDailyLimitDismissed = viewModel::onDailyLimitDismissed,
-            onContentWarningDismissed = viewModel::onContentWarningDismissed,
-            onErrorDismissed = viewModel::onErrorDismissed,
-            onInfoDismissed = viewModel::onInfoDismissed,
-            onReportRequested = viewModel::onReportRequested,
-            onBlockRequested = viewModel::onBlockRequested,
-            onUnblockOther = viewModel::onUnblockOther,
-        )
+        val actions = remember(viewModel) { RoomActions(viewModel) }
+        RoomChatContent(uiState = uiState, actions = actions)
+
         uiState.reportTarget?.let { target ->
-            ReportDialog(
-                target = target,
-                onDismiss = viewModel::onReportDismissed,
-                onSubmit = viewModel::onSubmitReport,
-            )
+            ReportDialog(target = target, onDismiss = viewModel::onReportDismissed, onSubmit = viewModel::onSubmitReport)
         }
         uiState.blockTarget?.let { target ->
             AlertDialog(
@@ -131,31 +143,22 @@ fun NavGraphBuilder.roomChatScreen() {
                 dismissButton = { TextButton(onClick = viewModel::onBlockDismissed) { Text("Cancel") } },
             )
         }
+        uiState.deleteTarget?.let {
+            AlertDialog(
+                onDismissRequest = viewModel::onDeleteDismissed,
+                title = { Text("Delete message?") },
+                text = { Text("It will be removed for everyone.") },
+                confirmButton = {
+                    TextButton(onClick = viewModel::onConfirmDelete) { Text("Delete", color = MaterialTheme.colorScheme.error) }
+                },
+                dismissButton = { TextButton(onClick = viewModel::onDeleteDismissed) { Text("Cancel") } },
+            )
+        }
     }
 }
 
 @Composable
-private fun RoomChatContent(
-    uiState: RoomChatUiState,
-    onInputChanged: (String) -> Unit,
-    onSendClicked: () -> Unit,
-    onLoadMore: () -> Unit,
-    onBack: () -> Unit,
-    onMicPressed: () -> Unit,
-    onCancelRecording: () -> Unit,
-    onSendRecording: () -> Unit,
-    onPlayVoice: (RoomMessage) -> Unit,
-    onRetry: (String) -> Unit,
-    onJoinGroup: () -> Unit,
-    onLeaveGroup: () -> Unit,
-    onDailyLimitDismissed: () -> Unit,
-    onContentWarningDismissed: () -> Unit,
-    onErrorDismissed: () -> Unit,
-    onInfoDismissed: () -> Unit,
-    onReportRequested: (ReportTarget) -> Unit,
-    onBlockRequested: (ReportTarget) -> Unit,
-    onUnblockOther: () -> Unit,
-) {
+private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
     val colors = LocalSpeakMindColors.current
     val messages = uiState.visibleMessages
     val listState = rememberLazyListState()
@@ -184,27 +187,12 @@ private fun RoomChatContent(
     LaunchedEffect(listState, uiState.isInitialLoading) {
         snapshotFlow { listState.firstVisibleItemIndex }
             .distinctUntilChanged()
-            .collect { index -> if (index <= 1 && !uiState.isInitialLoading) onLoadMore() }
+            .collect { index -> if (index <= 1 && !uiState.isInitialLoading) actions.onLoadMore() }
     }
 
-    LaunchedEffect(uiState.contentWarning) {
-        if (uiState.contentWarning != null) {
-            kotlinx.coroutines.delay(4_000)
-            onContentWarningDismissed()
-        }
-    }
-    LaunchedEffect(uiState.info) {
-        if (uiState.info != null) {
-            kotlinx.coroutines.delay(3_500)
-            onInfoDismissed()
-        }
-    }
-    LaunchedEffect(uiState.error) {
-        if (uiState.error != null) {
-            kotlinx.coroutines.delay(4_000)
-            onErrorDismissed()
-        }
-    }
+    AutoDismiss(uiState.contentWarning, actions.onContentWarningDismissed)
+    AutoDismiss(uiState.error, actions.onErrorDismissed)
+    AutoDismiss(uiState.info, actions.onInfoDismissed, 3_500)
 
     Column(
         modifier = Modifier
@@ -212,14 +200,25 @@ private fun RoomChatContent(
             .background(colors.backgroundGradient)
             .imePadding(),
     ) {
-        RoomTopBar(
-            uiState = uiState,
-            onBack = onBack,
-            onLeaveGroup = onLeaveGroup,
-            onReportOther = { uiState.otherUser?.let { onReportRequested(ReportTarget(it.uid, it.nickname)) } },
-            onBlockOther = { uiState.otherUser?.let { onBlockRequested(ReportTarget(it.uid, it.nickname)) } },
-            onUnblockOther = onUnblockOther,
-        )
+        RoomTopBar(uiState = uiState, actions = actions)
+
+        if (uiState.isOffline) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .background(colors.warning.copy(alpha = 0.18f))
+                    .clickable { actions.onRetryConnection() }
+                    .padding(horizontal = 16.sdp, vertical = 8.sdp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.sdp),
+            ) {
+                Icon(Icons.Default.CloudOff, contentDescription = null, tint = colors.warning, modifier = Modifier.size(16.sdp))
+                Text(
+                    "Offline — showing saved messages. Tap to retry.",
+                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textPrimary),
+                )
+            }
+        }
 
         Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
             if (uiState.isInitialLoading) {
@@ -239,27 +238,34 @@ private fun RoomChatContent(
                                     color = colors.neonCyan,
                                     strokeWidth = 2.sdp,
                                 )
-                                !uiState.hasMore || messages.isEmpty() -> Text(
-                                    text = if (messages.isEmpty()) "No messages yet — say hi! 👋" else "Start of conversation",
+                                messages.isEmpty() -> Text(
+                                    "No messages yet — say hi! 👋",
+                                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
+                                )
+                                !uiState.hasMore && !uiState.isOffline -> Text(
+                                    "Start of conversation",
                                     style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
                                 )
                             }
                         }
                     }
                     items(messages, key = { it.id }) { message ->
+                        val fromMe = message.senderId == uiState.currentUserId
+                        val nickname = message.senderNickname.ifEmpty { "this user" }
                         MessageBubble(
                             message = message,
-                            isFromMe = message.senderId == uiState.currentUserId,
+                            isFromMe = fromMe,
                             showSender = uiState.kind != RoomKind.DIRECT,
                             isPlaying = uiState.playingMessageId == message.id,
-                            onPlayVoice = { onPlayVoice(message) },
-                            onRetry = { onRetry(message.id) },
-                            onReport = {
-                                onReportRequested(ReportTarget(message.senderId, message.senderNickname.ifEmpty { "this user" }, message))
-                            },
-                            onBlock = {
-                                onBlockRequested(ReportTarget(message.senderId, message.senderNickname.ifEmpty { "this user" }))
-                            },
+                            isLoadingVoice = uiState.loadingVoiceId == message.id,
+                            isSeen = uiState.seenMessageId == message.id,
+                            canModerate = !uiState.isGuest,
+                            onPlayVoice = { actions.onPlayVoice(message) },
+                            onRetry = { actions.onRetry(message.id) },
+                            onEdit = { actions.onEdit(message) },
+                            onDelete = { actions.onDelete(message) },
+                            onReport = { actions.onReport(ReportTarget(message.senderId, nickname, message)) },
+                            onBlock = { actions.onBlock(ReportTarget(message.senderId, nickname)) },
                         )
                     }
                     if (uiState.dailyLimitReached) {
@@ -273,7 +279,7 @@ private fun RoomChatContent(
                                 ),
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .clickable { onDailyLimitDismissed() }
+                                    .clickable { actions.onDailyLimitDismissed() }
                                     .padding(top = 6.sdp, bottom = 4.sdp),
                             )
                         }
@@ -282,7 +288,6 @@ private fun RoomChatContent(
             }
         }
 
-        // Typing indicator
         AnimatedVisibility(visible = uiState.typingText != null, enter = fadeIn(), exit = fadeOut()) {
             Text(
                 text = uiState.typingText ?: "",
@@ -311,7 +316,7 @@ private fun RoomChatContent(
                         textAlign = TextAlign.Center,
                         modifier = Modifier
                             .clip(RoundedCornerShape(8.sdp))
-                            .clickable { onInputChanged(uiState.inputText + emoji) }
+                            .clickable { actions.onInputChanged(uiState.inputText + emoji) }
                             .padding(6.sdp),
                     )
                 }
@@ -322,49 +327,80 @@ private fun RoomChatContent(
         Banner(text = uiState.info, icon = Icons.Default.CheckCircle, background = colors.neonCyanDark)
 
         when {
+            uiState.isBanned -> NoticeBar("Your account is suspended for breaking community rules.")
+            uiState.guestRestricted -> NoticeBar("Guests can read here. Sign in with Google to chat in groups and private chats.")
             uiState.kind == RoomKind.DIRECT && uiState.isDirectBlocked -> BlockedBar(
                 blockedByMe = uiState.isOtherBlockedByMe,
                 nickname = uiState.otherUser?.nickname ?: "this user",
-                onUnblock = onUnblockOther,
+                onUnblock = actions.onUnblockOther,
             )
-            !uiState.canPost -> JoinBar(isJoining = uiState.isJoining, onJoin = onJoinGroup)
+            !uiState.canPost -> JoinBar(isJoining = uiState.isJoining, onJoin = actions.onJoinGroup)
             uiState.isRecording -> RecordingBar(
                 elapsedMs = uiState.recordingElapsedMs,
-                onCancel = onCancelRecording,
-                onSend = onSendRecording,
+                onCancel = actions.onCancelRecording,
+                onSend = actions.onSendRecording,
             )
-            else -> InputBar(
-                text = uiState.inputText,
-                placeholder = "Message ${uiState.title}...",
-                showEmojis = showEmojis,
-                onToggleEmojis = {
-                    if (!showEmojis) keyboardController?.hide()
-                    showEmojis = !showEmojis
-                },
-                onFocusText = {
-                    showEmojis = false
-                    keyboardController?.show()
-                },
-                onInputChanged = onInputChanged,
-                onSend = onSendClicked,
-                onMic = {
-                    showEmojis = false
-                    onMicPressed()
-                },
-            )
+            else -> {
+                uiState.editingMessage?.let { editing ->
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .background(colors.surface.copy(alpha = 0.97f))
+                            .padding(horizontal = 16.sdp, vertical = 6.sdp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Icon(Icons.Default.Edit, contentDescription = null, tint = colors.neonCyan, modifier = Modifier.size(16.sdp))
+                        Column(Modifier.weight(1f).padding(horizontal = 8.sdp)) {
+                            Text("Editing message", style = MaterialTheme.typography.labelSmall.copy(color = colors.neonCyan))
+                            Text(
+                                editing.text,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                                style = MaterialTheme.typography.bodySmall.copy(color = colors.textMuted),
+                            )
+                        }
+                        IconButton(onClick = actions.onCancelEdit) {
+                            Icon(Icons.Default.Close, contentDescription = "Cancel edit", tint = colors.textMuted)
+                        }
+                    }
+                }
+                InputBar(
+                    text = uiState.inputText,
+                    placeholder = "Message ${uiState.title}...",
+                    showEmojis = showEmojis,
+                    allowVoice = uiState.canSendVoice && uiState.editingMessage == null,
+                    onToggleEmojis = {
+                        if (!showEmojis) keyboardController?.hide()
+                        showEmojis = !showEmojis
+                    },
+                    onFocusText = {
+                        showEmojis = false
+                        keyboardController?.show()
+                    },
+                    onInputChanged = actions.onInputChanged,
+                    onSend = actions.onSend,
+                    onMic = {
+                        showEmojis = false
+                        actions.onMic()
+                    },
+                )
+            }
         }
     }
 }
 
 @Composable
-private fun RoomTopBar(
-    uiState: RoomChatUiState,
-    onBack: () -> Unit,
-    onLeaveGroup: () -> Unit,
-    onReportOther: () -> Unit,
-    onBlockOther: () -> Unit,
-    onUnblockOther: () -> Unit,
-) {
+private fun AutoDismiss(value: String?, onDismiss: () -> Unit, delayMs: Long = 4_000) {
+    LaunchedEffect(value) {
+        if (value != null) {
+            kotlinx.coroutines.delay(delayMs)
+            onDismiss()
+        }
+    }
+}
+
+@Composable
+private fun RoomTopBar(uiState: RoomChatUiState, actions: RoomActions) {
     val colors = LocalSpeakMindColors.current
     var menuOpen by remember { mutableStateOf(false) }
     Row(
@@ -379,7 +415,7 @@ private fun RoomTopBar(
             .padding(horizontal = 8.sdp, vertical = 10.sdp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        IconButton(onClick = onBack) {
+        IconButton(onClick = actions.onBack) {
             Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = colors.textPrimary)
         }
         if (uiState.kind == RoomKind.DIRECT && uiState.otherUser != null) {
@@ -390,15 +426,15 @@ private fun RoomTopBar(
                     size = 36.sdp,
                     borderColor = colors.neonCyan,
                 )
-                OnlineDot(
-                    online = uiState.isOtherOnline,
-                    size = 11.sdp,
-                    modifier = Modifier.align(Alignment.BottomEnd),
-                )
+                OnlineDot(online = uiState.isOtherOnline, size = 11.sdp, modifier = Modifier.align(Alignment.BottomEnd))
             }
             Spacer(Modifier.width(10.sdp))
         }
-        Column(modifier = Modifier.weight(1f)) {
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .then(if (uiState.kind == RoomKind.GROUP) Modifier.clickable { actions.onOpenGroupInfo() } else Modifier),
+        ) {
             Text(
                 text = uiState.title,
                 maxLines = 1,
@@ -407,7 +443,7 @@ private fun RoomTopBar(
             )
             val subtitle = uiState.typingText ?: when (uiState.kind) {
                 RoomKind.CHANNEL -> "Global learning community · ${uiState.onlineCount} online"
-                RoomKind.GROUP -> "${uiState.memberCount} members · ${uiState.onlineCount} online"
+                RoomKind.GROUP -> "${uiState.memberCount} members · ${uiState.onlineCount} online · tap for info"
                 RoomKind.DIRECT -> when {
                     uiState.isOtherOnline -> "Online"
                     uiState.otherUser != null -> formatLastSeen(uiState.otherUser.lastSeen)
@@ -424,8 +460,8 @@ private fun RoomTopBar(
                 ),
             )
         }
-        val showMenu = (uiState.kind == RoomKind.GROUP && uiState.isMember) ||
-            (uiState.kind == RoomKind.DIRECT && uiState.otherUser != null)
+        val showMenu = !uiState.isGuest && ((uiState.kind == RoomKind.GROUP && uiState.isMember) ||
+            (uiState.kind == RoomKind.DIRECT && uiState.otherUser != null))
         if (showMenu) {
             Box {
                 IconButton(onClick = { menuOpen = true }) {
@@ -433,46 +469,50 @@ private fun RoomTopBar(
                 }
                 DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
                     if (uiState.kind == RoomKind.GROUP) {
-                        DropdownMenuItem(
-                            text = { Text("Leave group") },
-                            onClick = {
-                                menuOpen = false
-                                onLeaveGroup()
-                            },
-                        )
-                    } else {
-                        DropdownMenuItem(
-                            text = { Text("Report ${uiState.otherUser?.nickname ?: ""}") },
-                            leadingIcon = { Icon(Icons.Default.Flag, contentDescription = null) },
-                            onClick = {
-                                menuOpen = false
-                                onReportOther()
-                            },
-                        )
+                        MenuItem("Group info", Icons.Default.Info) {
+                            menuOpen = false
+                            actions.onOpenGroupInfo()
+                        }
+                    }
+                    MenuItem(
+                        if (uiState.muted) "Unmute notifications" else "Mute notifications",
+                        if (uiState.muted) Icons.Default.Notifications else Icons.Default.NotificationsOff,
+                    ) {
+                        menuOpen = false
+                        actions.onToggleMute()
+                    }
+                    if (uiState.kind == RoomKind.DIRECT) {
+                        val other = uiState.otherUser
+                        MenuItem("Report ${other?.nickname ?: ""}", Icons.Default.Flag) {
+                            menuOpen = false
+                            other?.let { actions.onReport(ReportTarget(it.uid, it.nickname)) }
+                        }
                         if (uiState.isOtherBlockedByMe) {
-                            DropdownMenuItem(
-                                text = { Text("Unblock") },
-                                leadingIcon = { Icon(Icons.Default.Block, contentDescription = null) },
-                                onClick = {
-                                    menuOpen = false
-                                    onUnblockOther()
-                                },
-                            )
+                            MenuItem("Unblock", Icons.Default.Block) {
+                                menuOpen = false
+                                actions.onUnblockOther()
+                            }
                         } else {
-                            DropdownMenuItem(
-                                text = { Text("Block", color = MaterialTheme.colorScheme.error) },
-                                leadingIcon = { Icon(Icons.Default.Block, contentDescription = null, tint = MaterialTheme.colorScheme.error) },
-                                onClick = {
-                                    menuOpen = false
-                                    onBlockOther()
-                                },
-                            )
+                            MenuItem("Block", Icons.Default.Block, destructive = true) {
+                                menuOpen = false
+                                other?.let { actions.onBlock(ReportTarget(it.uid, it.nickname)) }
+                            }
                         }
                     }
                 }
             }
         }
     }
+}
+
+@Composable
+private fun MenuItem(label: String, icon: ImageVector, destructive: Boolean = false, onClick: () -> Unit) {
+    val tint = if (destructive) MaterialTheme.colorScheme.error else LocalContentColor.current
+    DropdownMenuItem(
+        text = { Text(label, color = if (destructive) tint else Color.Unspecified) },
+        leadingIcon = { Icon(icon, contentDescription = null, tint = tint) },
+        onClick = onClick,
+    )
 }
 
 @OptIn(ExperimentalFoundationApi::class)
@@ -482,13 +522,19 @@ private fun MessageBubble(
     isFromMe: Boolean,
     showSender: Boolean,
     isPlaying: Boolean,
+    isLoadingVoice: Boolean,
+    isSeen: Boolean,
+    canModerate: Boolean,
     onPlayVoice: () -> Unit,
     onRetry: () -> Unit,
+    onEdit: () -> Unit,
+    onDelete: () -> Unit,
     onReport: () -> Unit,
     onBlock: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
     var actionsOpen by remember { mutableStateOf(false) }
+    val hasActions = !message.isPending && (isFromMe || canModerate)
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = if (isFromMe) Arrangement.End else Arrangement.Start,
@@ -534,8 +580,8 @@ private fun MessageBubble(
                     )
                     .then(
                         when {
-                            message.isFailed -> Modifier.clickable { onRetry() }
-                            !isFromMe -> Modifier.combinedClickable(onClick = {}, onLongClick = { actionsOpen = true })
+                            message.isFailed -> Modifier.combinedClickable(onClick = onRetry, onLongClick = onDelete)
+                            hasActions -> Modifier.combinedClickable(onClick = {}, onLongClick = { actionsOpen = true })
                             else -> Modifier
                         }
                     )
@@ -543,14 +589,14 @@ private fun MessageBubble(
             ) {
                 Column {
                     when {
-                        message.kind == MessageKind.VOICE && message.isVoiceExpired -> Text(
+                        message.isVoiceExpired -> Text(
                             text = "🎤 Voice message expired",
                             style = MaterialTheme.typography.bodyMedium.copy(color = metaColor, fontStyle = FontStyle.Italic),
                         )
                         message.kind == MessageKind.VOICE -> VoiceRow(
                             durationMs = message.voiceDurationMs,
                             isPlaying = isPlaying,
-                            isReady = message.voiceUrl != null,
+                            isLoading = isLoadingVoice || message.isPending,
                             tint = contentColor,
                             onClick = onPlayVoice,
                         )
@@ -578,37 +624,49 @@ private fun MessageBubble(
                                 tint = metaColor, modifier = Modifier.size(11.sdp),
                             )
                             else -> Text(
-                                text = formatClock(message.createdAtMillis),
+                                text = (if (message.isEdited) "edited · " else "") + formatClock(message.createdAtMillis),
                                 style = MaterialTheme.typography.labelSmall.copy(color = metaColor, fontSize = 9.ssp),
                             )
                         }
                     }
                 }
             }
+            if (isSeen) {
+                Text(
+                    "Seen",
+                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted, fontSize = 9.ssp),
+                    modifier = Modifier.padding(top = 2.sdp, end = 4.sdp),
+                )
+            }
             DropdownMenu(expanded = actionsOpen, onDismissRequest = { actionsOpen = false }) {
-                DropdownMenuItem(
-                    text = { Text("Report message") },
-                    leadingIcon = { Icon(Icons.Default.Flag, contentDescription = null) },
-                    onClick = {
+                if (isFromMe) {
+                    if (message.kind == MessageKind.TEXT) {
+                        MenuItem("Edit", Icons.Default.Edit) {
+                            actionsOpen = false
+                            onEdit()
+                        }
+                    }
+                    MenuItem("Delete", Icons.Default.Delete, destructive = true) {
+                        actionsOpen = false
+                        onDelete()
+                    }
+                } else {
+                    MenuItem("Report message", Icons.Default.Flag) {
                         actionsOpen = false
                         onReport()
-                    },
-                )
-                DropdownMenuItem(
-                    text = { Text("Block ${message.senderNickname.ifEmpty { "user" }}", color = MaterialTheme.colorScheme.error) },
-                    leadingIcon = { Icon(Icons.Default.Block, contentDescription = null, tint = MaterialTheme.colorScheme.error) },
-                    onClick = {
+                    }
+                    MenuItem("Block ${message.senderNickname.ifEmpty { "user" }}", Icons.Default.Block, destructive = true) {
                         actionsOpen = false
                         onBlock()
-                    },
-                )
+                    }
+                }
             }
         }
     }
 }
 
 @Composable
-private fun VoiceRow(durationMs: Long, isPlaying: Boolean, isReady: Boolean, tint: Color, onClick: () -> Unit) {
+private fun VoiceRow(durationMs: Long, isPlaying: Boolean, isLoading: Boolean, tint: Color, onClick: () -> Unit) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(8.sdp),
@@ -619,22 +677,25 @@ private fun VoiceRow(durationMs: Long, isPlaying: Boolean, isReady: Boolean, tin
                 .size(32.sdp)
                 .clip(CircleShape)
                 .background(tint.copy(alpha = 0.15f))
-                .then(if (isReady) Modifier.clickable { onClick() } else Modifier),
+                .then(if (!isLoading) Modifier.clickable { onClick() } else Modifier),
             contentAlignment = Alignment.Center,
         ) {
-            if (isReady) {
+            if (isLoading) {
+                CircularProgressIndicator(modifier = Modifier.size(16.sdp), color = tint, strokeWidth = 2.sdp)
+            } else {
                 Icon(
                     imageVector = if (isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
                     contentDescription = if (isPlaying) "Pause" else "Play voice message",
                     tint = tint,
                     modifier = Modifier.size(20.sdp),
                 )
-            } else {
-                CircularProgressIndicator(modifier = Modifier.size(16.sdp), color = tint, strokeWidth = 2.sdp)
             }
         }
-        // Simple static waveform
-        Row(horizontalArrangement = Arrangement.spacedBy(2.sdp), verticalAlignment = Alignment.CenterVertically, modifier = Modifier.weight(1f)) {
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(2.sdp),
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.weight(1f),
+        ) {
             listOf(6, 12, 9, 16, 11, 7, 14, 10, 5, 12, 8, 13).forEach { h ->
                 Box(
                     Modifier
@@ -650,11 +711,7 @@ private fun VoiceRow(durationMs: Long, isPlaying: Boolean, isReady: Boolean, tin
 }
 
 @Composable
-private fun Banner(
-    text: String?,
-    icon: androidx.compose.ui.graphics.vector.ImageVector,
-    background: Color = Color(0xFFB71C1C),
-) {
+private fun Banner(text: String?, icon: ImageVector, background: Color = Color(0xFFB71C1C)) {
     AnimatedVisibility(
         visible = text != null,
         enter = expandVertically(expandFrom = Alignment.Top) + fadeIn(),
@@ -676,6 +733,20 @@ private fun Banner(
             )
         }
     }
+}
+
+@Composable
+private fun NoticeBar(text: String) {
+    val colors = LocalSpeakMindColors.current
+    Text(
+        text = text,
+        style = MaterialTheme.typography.bodyMedium.copy(color = colors.textMuted, textAlign = TextAlign.Center),
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(colors.surface.copy(alpha = 0.97f))
+            .navigationBarsPadding()
+            .padding(16.sdp),
+    )
 }
 
 @Composable
@@ -715,7 +786,7 @@ private fun ReportDialog(
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 target.message?.takeIf { it.kind == MessageKind.TEXT }?.let {
                     Text(
-                        "\u201C${it.text.take(140)}\u201D",
+                        "“${it.text.take(140)}”",
                         style = MaterialTheme.typography.bodySmall,
                         fontStyle = FontStyle.Italic,
                         modifier = Modifier.padding(bottom = 8.sdp),
@@ -723,10 +794,7 @@ private fun ReportDialog(
                 }
                 Text("Why are you reporting this?", style = MaterialTheme.typography.bodyMedium)
                 ReportReason.entries.forEach { r ->
-                    Row(
-                        Modifier.fillMaxWidth().clickable { reason = r },
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
+                    Row(Modifier.fillMaxWidth().clickable { reason = r }, verticalAlignment = Alignment.CenterVertically) {
                         RadioButton(selected = reason == r, onClick = { reason = r })
                         Text(r.label)
                     }
@@ -807,7 +875,12 @@ private fun RecordingBar(elapsedMs: Long, onCancel: () -> Unit, onSend: () -> Un
                 .clickable { onSend() },
             contentAlignment = Alignment.Center,
         ) {
-            Icon(Icons.AutoMirrored.Filled.Send, contentDescription = "Send voice message", tint = colors.backgroundDark, modifier = Modifier.size(20.sdp))
+            Icon(
+                Icons.AutoMirrored.Filled.Send,
+                contentDescription = "Send voice message",
+                tint = colors.backgroundDark,
+                modifier = Modifier.size(20.sdp),
+            )
         }
     }
 }
@@ -817,6 +890,7 @@ private fun InputBar(
     text: String,
     placeholder: String,
     showEmojis: Boolean,
+    allowVoice: Boolean,
     onToggleEmojis: () -> Unit,
     onFocusText: () -> Unit,
     onInputChanged: (String) -> Unit,
@@ -876,18 +950,24 @@ private fun InputBar(
             )
         }
         val hasText = text.isNotBlank()
+        val showMic = !hasText && allowVoice
+        val enabled = hasText || showMic
         Box(
             modifier = Modifier
                 .size(44.sdp)
                 .clip(CircleShape)
-                .background(Brush.radialGradient(listOf(colors.neonCyan, colors.neonCyanDark)), CircleShape)
-                .clickable { if (hasText) onSend() else onMic() },
+                .background(
+                    if (enabled) Brush.radialGradient(listOf(colors.neonCyan, colors.neonCyanDark))
+                    else Brush.radialGradient(listOf(colors.surfaceVariant, colors.surface)),
+                    CircleShape,
+                )
+                .then(if (enabled) Modifier.clickable { if (hasText) onSend() else onMic() } else Modifier),
             contentAlignment = Alignment.Center,
         ) {
             Icon(
-                imageVector = if (hasText) Icons.AutoMirrored.Filled.Send else Icons.Default.Mic,
-                contentDescription = if (hasText) "Send" else "Record voice message",
-                tint = colors.backgroundDark,
+                imageVector = if (showMic) Icons.Default.Mic else Icons.AutoMirrored.Filled.Send,
+                contentDescription = if (showMic) "Record voice message" else "Send",
+                tint = if (enabled) colors.backgroundDark else colors.textMuted,
                 modifier = Modifier.size(20.sdp),
             )
         }

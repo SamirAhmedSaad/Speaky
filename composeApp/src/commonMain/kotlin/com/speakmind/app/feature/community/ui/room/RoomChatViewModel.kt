@@ -2,6 +2,7 @@ package com.speakmind.app.feature.community.ui.room
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.speakmind.app.feature.community.data.ActiveRoomTracker
 import com.speakmind.app.feature.community.data.ContentModerator
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.model.MessageKind
@@ -10,11 +11,15 @@ import com.speakmind.app.feature.community.data.model.RoomMessage
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.ReportReason
 import com.speakmind.app.feature.community.data.repository.RoomConnection
+import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
 import com.speakmind.app.feature.voice.platform.MicAccess
 import com.speakmind.app.feature.voice.platform.VoicePlayer
 import com.speakmind.app.feature.voice.platform.VoiceRecorder
+import com.speakmind.app.navigation.GroupInfoDestination
 import com.speakmind.app.navigation.NavigationManager
 import io.github.aakira.napier.Napier
+import kotlinx.coroutines.DelicateCoroutinesApi
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.delay
@@ -33,14 +38,20 @@ data class RoomChatUiState(
     val kind: RoomKind = RoomKind.CHANNEL,
     val isMember: Boolean = true,
     val isJoining: Boolean = false,
+    val muted: Boolean = false,
     val otherUser: CommunityUser? = null,
     val isOtherOnline: Boolean = false,
+    /** When the other person last read this private chat (epoch millis), for "Seen". */
+    val otherLastReadAt: Long = 0L,
     val memberCount: Int = 0,
     val onlineCount: Int = 0,
     val typingText: String? = null,
     val messages: List<RoomMessage> = emptyList(),
     val inputText: String = "",
     val currentUserId: String = "",
+    val isGuest: Boolean = false,
+    val isBanned: Boolean = false,
+    val isOffline: Boolean = false,
     val isInitialLoading: Boolean = true,
     val isLoadingMore: Boolean = false,
     val hasMore: Boolean = true,
@@ -49,6 +60,9 @@ data class RoomChatUiState(
     val isRecording: Boolean = false,
     val recordingElapsedMs: Long = 0L,
     val playingMessageId: String? = null,
+    val loadingVoiceId: String? = null,
+    val editingMessage: RoomMessage? = null,
+    val deleteTarget: RoomMessage? = null,
     val error: String? = null,
     val info: String? = null,
     val blockedUserIds: Set<String> = emptySet(),
@@ -57,13 +71,25 @@ data class RoomChatUiState(
     val reportTarget: ReportTarget? = null,
     val blockTarget: ReportTarget? = null,
 ) {
-    val canPost: Boolean get() = (kind == RoomKind.CHANNEL || isMember) && !(kind == RoomKind.DIRECT && isDirectBlocked)
+    /** Guests may only post text in Speaky Hub. */
+    val guestRestricted: Boolean get() = isGuest && kind != RoomKind.CHANNEL
+    val canPost: Boolean
+        get() = !isBanned && !guestRestricted && (kind == RoomKind.CHANNEL || isMember) &&
+            !(kind == RoomKind.DIRECT && isDirectBlocked)
+    val canSendVoice: Boolean get() = canPost && !isGuest
     val isOtherBlockedByMe: Boolean get() = otherUser?.uid in blockedUserIds
 
     /** Messages from people I blocked are hidden (except in our private chat, which shows a banner). */
     val visibleMessages: List<RoomMessage>
         get() = if (blockedUserIds.isEmpty() || kind == RoomKind.DIRECT) messages
         else messages.filterNot { it.senderId in blockedUserIds }
+
+    /** Id of my newest sent message the other person has read (private chats only). */
+    val seenMessageId: String?
+        get() = if (kind != RoomKind.DIRECT || otherLastReadAt == 0L) null
+        else messages.lastOrNull {
+            it.senderId == currentUserId && !it.isPending && !it.isFailed && it.createdAtMillis <= otherLastReadAt
+        }?.id
 }
 
 data class ReportTarget(
@@ -83,7 +109,12 @@ class RoomChatViewModel(
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(
-        RoomChatUiState(roomId = roomId, title = initialTitle, currentUserId = repository.currentUserId() ?: "")
+        RoomChatUiState(
+            roomId = roomId,
+            title = initialTitle,
+            currentUserId = repository.currentUserId() ?: "",
+            isGuest = repository.isGuest(),
+        )
     )
     val uiState: StateFlow<RoomChatUiState> = _uiState.asStateFlow()
 
@@ -96,35 +127,36 @@ class RoomChatViewModel(
     private var markReadJob: Job? = null
 
     init {
+        loadCached()
         loadRoom()
         loadInitialMessages()
         connectRealtime()
         observeOnline()
         observePlayback()
         observeBlocks()
-    }
-
-    private fun observeBlocks() {
-        viewModelScope.launch {
-            repository.refreshBlocks()
-            repository.blockedUserIds.collect { ids -> _uiState.update { it.copy(blockedUserIds = ids) } }
-        }
-    }
-
-    private suspend fun refreshDirectBlock() {
-        val other = _uiState.value.otherUser ?: return
-        val blocked = try { repository.isBlockedBetween(other.uid) } catch (_: Exception) { false }
-        _uiState.update { it.copy(isDirectBlocked = blocked) }
+        checkBan()
     }
 
     // ---------- Loading ----------
+
+    private fun loadCached() {
+        viewModelScope.launch {
+            try {
+                val cached = repository.cachedMessages(roomId, PAGE_SIZE)
+                if (cached.isNotEmpty()) {
+                    _uiState.update {
+                        if (it.isInitialLoading) it.copy(messages = cached, isInitialLoading = false) else it
+                    }
+                }
+            } catch (_: Exception) {
+            }
+        }
+    }
 
     private fun loadRoom() {
         viewModelScope.launch {
             try {
                 val room = repository.getRoom(roomId) ?: return@launch
-                memberIds = if (room.kind == RoomKind.CHANNEL) emptySet()
-                else repository.roomMemberIds(roomId).toSet()
                 _uiState.update {
                     it.copy(
                         title = room.displayName.ifEmpty { it.title },
@@ -132,7 +164,16 @@ class RoomChatViewModel(
                         isMember = room.kind == RoomKind.CHANNEL || room.isMember,
                         otherUser = room.otherUser,
                         memberCount = room.memberCount,
+                        muted = room.muted,
                     )
+                }
+                if (room.kind != RoomKind.CHANNEL) {
+                    val members = repository.roomMembers(roomId)
+                    memberIds = members.map { it.user.uid }.toSet()
+                    val other = room.otherUser?.uid
+                    members.firstOrNull { it.user.uid == other }?.let { m ->
+                        _uiState.update { it.copy(otherLastReadAt = m.lastReadAtMillis) }
+                    }
                 }
                 refreshOnline(repository.onlineUserIds.value)
                 if (room.kind == RoomKind.DIRECT) refreshDirectBlock()
@@ -147,23 +188,28 @@ class RoomChatViewModel(
             try {
                 val page = repository.loadMessages(roomId, PAGE_SIZE, before = null)
                 _uiState.update { state ->
+                    // The fresh page replaces cached rows (some may have been deleted elsewhere).
+                    val pending = state.messages.filter { it.isPending || it.isFailed }
                     state.copy(
-                        messages = mergeMessages(page, state.messages),
+                        messages = mergeMessages(page, pending),
                         hasMore = page.size >= PAGE_SIZE,
                         isInitialLoading = false,
+                        isOffline = false,
                     )
                 }
                 scheduleMarkRead()
             } catch (e: Exception) {
                 Napier.w("loadInitialMessages failed", e)
-                _uiState.update { it.copy(isInitialLoading = false, error = "Couldn't load messages. Check your connection.") }
+                _uiState.update {
+                    it.copy(isInitialLoading = false, isOffline = true, hasMore = false)
+                }
             }
         }
     }
 
     fun loadMore() {
         val state = _uiState.value
-        if (state.isInitialLoading || state.isLoadingMore || !state.hasMore) return
+        if (state.isInitialLoading || state.isLoadingMore || !state.hasMore || state.isOffline) return
         val oldest = state.messages.firstOrNull { !it.isPending } ?: return
         _uiState.update { it.copy(isLoadingMore = true) }
         viewModelScope.launch {
@@ -182,6 +228,18 @@ class RoomChatViewModel(
         }
     }
 
+    fun onRetryConnection() {
+        _uiState.update { it.copy(isOffline = false) }
+        loadRoom()
+        loadInitialMessages()
+    }
+
+    private fun checkBan() {
+        viewModelScope.launch {
+            if (repository.isBanned()) _uiState.update { it.copy(isBanned = true) }
+        }
+    }
+
     // ---------- Realtime ----------
 
     private fun connectRealtime() {
@@ -192,6 +250,26 @@ class RoomChatViewModel(
                 conn.newMessages.collect { msg ->
                     _uiState.update { it.copy(messages = mergeMessages(listOf(msg), it.messages)) }
                     if (msg.senderId != _uiState.value.currentUserId) scheduleMarkRead()
+                }
+            }
+            launch {
+                conn.editedMessages.collect { msg ->
+                    _uiState.update { s ->
+                        if (s.messages.none { it.id == msg.id }) s
+                        else s.copy(messages = mergeMessages(listOf(msg), s.messages))
+                    }
+                }
+            }
+            launch {
+                conn.deletedMessageIds.collect { id ->
+                    _uiState.update { s -> s.copy(messages = s.messages.filterNot { it.id == id }) }
+                }
+            }
+            launch {
+                conn.readMarkers.collect { (userId, readAt) ->
+                    if (userId == _uiState.value.otherUser?.uid) {
+                        _uiState.update { it.copy(otherLastReadAt = maxOf(it.otherLastReadAt, readAt)) }
+                    }
                 }
             }
             launch {
@@ -224,6 +302,19 @@ class RoomChatViewModel(
         }
     }
 
+    private fun observeBlocks() {
+        viewModelScope.launch {
+            repository.refreshBlocks()
+            repository.blockedUserIds.collect { ids -> _uiState.update { it.copy(blockedUserIds = ids) } }
+        }
+    }
+
+    private suspend fun refreshDirectBlock() {
+        val other = _uiState.value.otherUser ?: return
+        val blocked = try { repository.isBlockedBetween(other.uid) } catch (_: Exception) { false }
+        _uiState.update { it.copy(isDirectBlocked = blocked) }
+    }
+
     private fun scheduleMarkRead() {
         if (_uiState.value.kind == RoomKind.CHANNEL) return
         markReadJob?.cancel()
@@ -237,6 +328,7 @@ class RoomChatViewModel(
 
     fun onInputChanged(text: String) {
         _uiState.update { it.copy(inputText = text) }
+        if (_uiState.value.editingMessage != null) return
         if (text.isBlank()) {
             sendTyping(false)
             return
@@ -277,6 +369,10 @@ class RoomChatViewModel(
             }
             return
         }
+        state.editingMessage?.let { editing ->
+            submitEdit(editing, text)
+            return
+        }
         viewModelScope.launch {
             if (!checkQuota()) return@launch
             sendTyping(false)
@@ -293,7 +389,20 @@ class RoomChatViewModel(
         } catch (e: Exception) {
             Napier.w("sendText failed", e)
             replaceMessage(pending.copy(isFailed = true))
+            showServerError(e)
         }
+    }
+
+    private fun showServerError(e: Exception) {
+        val msg = friendlyCommunityError(e, "Message not sent.")
+        _uiState.update {
+            it.copy(
+                error = msg,
+                isBanned = it.isBanned || "suspended" in msg,
+                dailyLimitReached = it.dailyLimitReached || "today's" in msg,
+            )
+        }
+        if (_uiState.value.kind == RoomKind.DIRECT) viewModelScope.launch { refreshDirectBlock() }
     }
 
     fun onRetry(messageId: String) {
@@ -306,7 +415,7 @@ class RoomChatViewModel(
         viewModelScope.launch { sendPendingText(msg.copy(isFailed = false)) }
     }
 
-    /** Only the public Speaky Hub has a daily limit. */
+    /** The public Speaky Hub has a daily limit (also enforced on the server). */
     private suspend fun checkQuota(): Boolean {
         if (_uiState.value.kind != RoomKind.CHANNEL) return true
         val allowed = repository.checkAndIncrementDailyQuota()
@@ -314,10 +423,60 @@ class RoomChatViewModel(
         return allowed
     }
 
+    // ---------- Edit & delete ----------
+
+    fun onEditRequested(message: RoomMessage) {
+        if (message.kind != MessageKind.TEXT || message.senderId != _uiState.value.currentUserId) return
+        if (now() - message.createdAtMillis > EDIT_WINDOW_MS) {
+            _uiState.update { it.copy(error = "Messages can only be edited for 24 hours.") }
+            return
+        }
+        _uiState.update { it.copy(editingMessage = message, inputText = message.text) }
+    }
+
+    fun onCancelEdit() = _uiState.update { it.copy(editingMessage = null, inputText = "") }
+
+    private fun submitEdit(original: RoomMessage, newText: String) {
+        _uiState.update { it.copy(editingMessage = null, inputText = "") }
+        if (newText == original.text) return
+        replaceMessage(original.copy(text = newText, isEdited = true))
+        viewModelScope.launch {
+            try {
+                replaceMessage(repository.editMessage(original, newText))
+            } catch (e: Exception) {
+                Napier.w("editMessage failed", e)
+                replaceMessage(original)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't edit the message.")) }
+            }
+        }
+    }
+
+    fun onDeleteRequested(message: RoomMessage) = _uiState.update { it.copy(deleteTarget = message) }
+    fun onDeleteDismissed() = _uiState.update { it.copy(deleteTarget = null) }
+
+    fun onConfirmDelete() {
+        val target = _uiState.value.deleteTarget ?: return
+        _uiState.update { s -> s.copy(deleteTarget = null, messages = s.messages.filterNot { it.id == target.id }) }
+        if (target.isPending || target.isFailed) return
+        viewModelScope.launch {
+            try {
+                repository.deleteMessage(target)
+            } catch (e: Exception) {
+                Napier.w("deleteMessage failed", e)
+                replaceMessage(target)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't delete the message.")) }
+            }
+        }
+    }
+
     // ---------- Voice ----------
 
     fun onMicPressed() {
-        if (!_uiState.value.canPost || _uiState.value.isRecording) return
+        val state = _uiState.value
+        if (!state.canSendVoice || state.isRecording) {
+            if (state.isGuest) _uiState.update { it.copy(error = "Sign in with Google to send voice messages.") }
+            return
+        }
         if (!MicAccess.isGranted()) {
             MicAccess.request()
             return
@@ -368,24 +527,31 @@ class RoomChatViewModel(
             } catch (e: Exception) {
                 Napier.w("sendVoice failed", e)
                 replaceMessage(pending.copy(isFailed = true))
+                showServerError(e)
             }
         }
     }
 
     fun onPlayVoice(message: RoomMessage) {
-        val url = message.voiceUrl ?: return
+        val path = message.voicePath ?: return
         if (_uiState.value.playingMessageId == message.id) {
             voicePlayer.stop()
             _uiState.update { it.copy(playingMessageId = null) }
             return
         }
-        _uiState.update { it.copy(playingMessageId = message.id) }
+        voicePlayer.stop()
+        _uiState.update { it.copy(loadingVoiceId = message.id, playingMessageId = null) }
         viewModelScope.launch {
             try {
-                voicePlayer.playFromUrl(url)
+                // Clips are private: download with the user's session, then play locally.
+                val bytes = repository.downloadVoice(path)
+                _uiState.update { it.copy(loadingVoiceId = null, playingMessageId = message.id) }
+                voicePlayer.playFromBytes(bytes)
             } catch (e: Exception) {
                 Napier.w("Voice playback failed", e)
-                _uiState.update { it.copy(playingMessageId = null) }
+                _uiState.update {
+                    it.copy(loadingVoiceId = null, playingMessageId = null, error = "Couldn't play this voice message.")
+                }
             }
         }
     }
@@ -404,6 +570,10 @@ class RoomChatViewModel(
 
     fun onJoinGroup() {
         if (_uiState.value.isJoining) return
+        if (_uiState.value.isGuest) {
+            _uiState.update { it.copy(error = "Sign in with Google to join groups.") }
+            return
+        }
         _uiState.update { it.copy(isJoining = true) }
         viewModelScope.launch {
             try {
@@ -413,18 +583,24 @@ class RoomChatViewModel(
                 refreshOnline(repository.onlineUserIds.value)
             } catch (e: Exception) {
                 Napier.w("joinGroup failed", e)
-                _uiState.update { it.copy(isJoining = false, error = "Couldn't join the group.") }
+                _uiState.update { it.copy(isJoining = false, error = friendlyCommunityError(e, "Couldn't join the group.")) }
             }
         }
     }
 
-    fun onLeaveGroup() {
+    fun onOpenGroupInfo() {
+        if (_uiState.value.kind == RoomKind.GROUP) navigationManager.navigate(GroupInfoDestination(roomId))
+    }
+
+    fun onToggleMute() {
+        val muted = !_uiState.value.muted
+        _uiState.update { it.copy(muted = muted) }
         viewModelScope.launch {
             try {
-                repository.leaveRoom(roomId)
-                navigationManager.back()
-            } catch (_: Exception) {
-                _uiState.update { it.copy(error = "Couldn't leave the group.") }
+                repository.setMuted(roomId, muted)
+                _uiState.update { it.copy(info = if (muted) "Notifications muted." else "Notifications on.") }
+            } catch (e: Exception) {
+                _uiState.update { it.copy(muted = !muted, error = friendlyCommunityError(e, "Couldn't change notifications.")) }
             }
         }
     }
@@ -446,7 +622,7 @@ class RoomChatViewModel(
                 }
             } catch (e: Exception) {
                 Napier.w("report failed", e)
-                _uiState.update { it.copy(error = "Couldn't send the report. Try again.") }
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't send the report. Try again.")) }
             }
         }
     }
@@ -463,7 +639,7 @@ class RoomChatViewModel(
                 _uiState.update { it.copy(info = "${target.nickname} is blocked. They can't message you privately.") }
             } catch (e: Exception) {
                 Napier.w("block failed", e)
-                _uiState.update { it.copy(error = "Couldn't block this user.") }
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't block this user.")) }
             }
         }
     }
@@ -489,14 +665,21 @@ class RoomChatViewModel(
     // ---------- Misc ----------
 
     fun onInfoDismissed() = _uiState.update { it.copy(info = null) }
-
     fun onDailyLimitDismissed() = _uiState.update { it.copy(dailyLimitReached = false) }
     fun onContentWarningDismissed() = _uiState.update { it.copy(contentWarning = null) }
     fun onErrorDismissed() = _uiState.update { it.copy(error = null) }
     fun onBack() = navigationManager.back()
 
-    /** Screen visibility drives the user's online status. */
-    fun onVisibilityChanged(visible: Boolean) = repository.setActive(visible)
+    /** Screen visibility drives the user's online status and notification suppression. */
+    fun onVisibilityChanged(visible: Boolean) {
+        repository.setActive(visible)
+        if (visible) {
+            ActiveRoomTracker.activeRoomId.value = roomId
+            scheduleMarkRead()
+        } else if (ActiveRoomTracker.activeRoomId.value == roomId) {
+            ActiveRoomTracker.activeRoomId.value = null
+        }
+    }
 
     private fun pendingMessage(kind: MessageKind, text: String = "", durationMs: Long = 0L): RoomMessage {
         val now = now()
@@ -509,7 +692,7 @@ class RoomChatViewModel(
             senderPhotoUrl = null,
             kind = kind,
             text = text,
-            voiceUrl = null,
+            voicePath = null,
             voiceDurationMs = durationMs,
             createdAtMillis = now,
             createdAtRaw = "",
@@ -521,16 +704,17 @@ class RoomChatViewModel(
         _uiState.update { it.copy(messages = mergeMessages(listOf(msg), it.messages)) }
     }
 
+    @OptIn(DelicateCoroutinesApi::class)
     override fun onCleared() {
         super.onCleared()
         recordingTicker?.cancel()
         if (_uiState.value.isRecording) voiceRecorder.cancelRecording()
         voicePlayer.stop()
+        if (ActiveRoomTracker.activeRoomId.value == roomId) ActiveRoomTracker.activeRoomId.value = null
         val conn = connection
         val wasTyping = lastTypingSentAt != 0L
         // viewModelScope is already cancelled here; finish cleanup outside it.
-        @OptIn(kotlinx.coroutines.DelicateCoroutinesApi::class)
-        kotlinx.coroutines.GlobalScope.launch(NonCancellable) {
+        GlobalScope.launch(NonCancellable) {
             if (wasTyping) conn?.sendTyping(false)
             conn?.close()
         }
@@ -540,6 +724,7 @@ class RoomChatViewModel(
         private const val PAGE_SIZE = 30
         private const val MIN_VOICE_MS = 700L
         private const val MAX_VOICE_MS = 120_000L
+        private const val EDIT_WINDOW_MS = 24 * 60 * 60 * 1000L
     }
 }
 

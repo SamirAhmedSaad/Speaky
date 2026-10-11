@@ -146,28 +146,43 @@ DELETE FROM daily_topics WHERE date < ?;
 countDailyTopics:
 SELECT COUNT(*) FROM daily_topics WHERE date = ? AND user_level = ?;
 
-CREATE TABLE cloud_messages (
+-- Offline cache of recent community chat messages (capped per room)
+CREATE TABLE room_message_cache (
     id TEXT NOT NULL PRIMARY KEY,
-    conversation_id TEXT NOT NULL,
-    role TEXT NOT NULL,
-    content TEXT NOT NULL,
-    corrections_json TEXT,
-    voice_url TEXT,
+    room_id TEXT NOT NULL,
+    sender_id TEXT NOT NULL,
+    sender_nickname TEXT NOT NULL DEFAULT '',
+    sender_gender TEXT NOT NULL DEFAULT '',
+    sender_photo_url TEXT,
+    kind TEXT NOT NULL,
+    body TEXT NOT NULL,
+    voice_path TEXT,
     voice_duration_ms INTEGER NOT NULL DEFAULT 0,
-    is_synced INTEGER NOT NULL DEFAULT 0,
-    created_at INTEGER NOT NULL
+    created_at INTEGER NOT NULL,
+    created_at_raw TEXT NOT NULL,
+    edited INTEGER NOT NULL DEFAULT 0
 );
 
--- Cloud message queries
-selectCloudMessages:
-SELECT * FROM cloud_messages WHERE conversation_id = ? ORDER BY created_at ASC;
+CREATE INDEX idx_room_message_cache_room ON room_message_cache (room_id, created_at);
 
-insertCloudMessage:
-INSERT OR REPLACE INTO cloud_messages (id, conversation_id, role, content, corrections_json, voice_url, voice_duration_ms, is_synced, created_at)
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+selectCachedRoomMessages:
+SELECT * FROM room_message_cache WHERE room_id = ? ORDER BY created_at DESC LIMIT ?;
 
-deleteCloudMessagesByConversation:
-DELETE FROM cloud_messages WHERE conversation_id = ?;
+upsertCachedRoomMessage:
+INSERT OR REPLACE INTO room_message_cache
+(id, room_id, sender_id, sender_nickname, sender_gender, sender_photo_url, kind, body, voice_path, voice_duration_ms, created_at, created_at_raw, edited)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+deleteCachedRoomMessage:
+DELETE FROM room_message_cache WHERE id = ?;
+
+trimRoomMessageCache:
+DELETE FROM room_message_cache WHERE room_id = :roomId AND id NOT IN (
+    SELECT id FROM room_message_cache WHERE room_id = :roomId ORDER BY created_at DESC LIMIT :keep
+);
+
+clearRoomMessageCache:
+DELETE FROM room_message_cache;
 
 -- Conversation queries
 selectRecentConversations:

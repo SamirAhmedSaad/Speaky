@@ -14,6 +14,7 @@ import com.speakmind.app.feature.aisetup.ui.aiSetupScreen
 import com.speakmind.app.feature.article.ui.articleDetailScreen
 import com.speakmind.app.feature.chat.ui.chatScreen
 import com.speakmind.app.feature.community.ui.auth.communityAuthScreen
+import com.speakmind.app.feature.community.ui.group.groupInfoScreen
 import com.speakmind.app.feature.community.ui.hub.communityHubScreen
 import com.speakmind.app.feature.community.ui.room.roomChatScreen
 import com.speakmind.app.feature.community.ui.setup.communitySetupScreen
@@ -21,9 +22,6 @@ import com.speakmind.app.feature.vocabgroup.ui.myGroupsScreen
 import com.speakmind.app.feature.vocabgroup.ui.groupDetailScreen
 import com.speakmind.app.feature.dailyword.ui.wordDetailScreen
 import com.speakmind.app.feature.wordlookup.ui.wordLookupScreen
-import com.speakmind.app.feature.auth.ui.loginScreen
-import com.speakmind.app.feature.auth.ui.registerScreen
-import com.speakmind.app.feature.conversations.ui.conversationListScreen
 import com.speakmind.app.feature.download.ui.modelDownloadScreen
 import com.speakmind.app.feature.flashcard.ui.flashcardReviewScreen
 import com.speakmind.app.feature.home.ui.homeScreen
@@ -93,9 +91,6 @@ fun AppRoot(startDestination: Any) {
             onboardingScreen()
             homeScreen()
             aiSetupScreen()
-            loginScreen()
-            registerScreen()
-            conversationListScreen()
             modelDownloadScreen()
             chatScreen()
             flashcardReviewScreen()
@@ -111,6 +106,7 @@ fun AppRoot(startDestination: Any) {
             communityAuthScreen()
             communityHubScreen()
             roomChatScreen()
+            groupInfoScreen()
             myGroupsScreen()
             groupDetailScreen()
         }

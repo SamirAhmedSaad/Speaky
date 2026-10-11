@@ -65,7 +65,7 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
 
             item {
                 PolicySection(
-                    title = "Last updated: March 2026",
+                    title = "Last updated: October 2026",
                     body = "Speaky (\"we\", \"our\", or \"us\") operates the Speaky Ai mobile application. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our app.",
                 )
             }
@@ -73,7 +73,14 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
             item {
                 PolicySection(
                     title = "Information We Collect",
-                    body = "Voice Input: When you use voice features, audio is processed entirely on your device. It is never recorded, uploaded, or sent to our servers or any external service.\n\nUsage Data: We collect anonymous data about how you interact with the app (screens visited, features used, session duration) to improve the experience. This data cannot be used to identify you.\n\nDevice Information: We may collect basic technical information such as device type, operating system version, and app version for crash reporting and performance monitoring.",
+                    body = "Voice Input (AI tutor): When you talk to the AI tutor, audio is processed entirely on your device. It is never recorded, uploaded, or sent to our servers or any external service.\n\nUsage Data: We collect anonymous data about how you interact with the app (screens visited, features used, session duration) to improve the experience. This data cannot be used to identify you.\n\nDevice Information: We may collect basic technical information such as device type, operating system version, and app version for crash reporting and performance monitoring.",
+                )
+            }
+
+            item {
+                PolicySection(
+                    title = "Community Chat",
+                    body = "The Community (Speaky Hub, groups and private chats) is optional. If you join it, we store the following on our servers (Supabase):\n\n• Account: if you sign in with Google, your Google account ID, email address and name; if you join as a guest, an anonymous account ID only.\n• Profile: the nickname and gender you choose, and when you were last online.\n• Messages: the text messages and voice messages you send, the groups you create or join, and who you block or report.\n• Device token: a push-notification token so we can notify you about new messages.\n\nWho can see it: your nickname, online status and Speaky Hub / public group messages are visible to other community members. Private chat messages and voice messages are visible only to the people in that chat. Your email is never shown to other users.\n\nModeration: reports you file, and messages that are reported, are reviewed by us to keep the community safe. Accounts that break the rules can be suspended.\n\nRetention: to keep storage limited, the oldest voice messages are deleted automatically once total voice storage nears 1 GB, and the oldest chat messages are deleted once the message limit is reached. Recent messages are also kept on your device so you can read them offline.",
                 )
             }
 
@@ -94,14 +101,14 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
             item {
                 PolicySection(
                     title = "Data Storage",
-                    body = "All your learning data — flashcards, progress, conversation history, and saved words — is stored locally on your device. We do not upload or store your personal learning data on our servers.",
+                    body = "All your learning data — flashcards, progress, AI tutor conversation history, and saved words — is stored locally on your device. We do not upload or store your personal learning data on our servers. Only Community Chat data (described above) is stored on our servers.",
                 )
             }
 
             item {
                 PolicySection(
                     title = "Third-Party Services",
-                    body = "Our app uses the following third-party services, each with their own privacy policies:\n\n• Google AdMob — advertising\n• Firebase Analytics — anonymous usage statistics\n• Firebase Crashlytics — crash reporting",
+                    body = "Our app uses the following third-party services, each with their own privacy policies:\n\n• Google AdMob — advertising\n• Firebase Analytics — anonymous usage statistics\n• Firebase Crashlytics — crash reporting\n• Firebase Cloud Messaging — chat notifications\n• Supabase — community accounts, messages and voice messages\n• Google Sign-In — community sign-in",
                 )
             }
 
@@ -115,7 +122,7 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
             item {
                 PolicySection(
                     title = "Your Rights",
-                    body = "You may opt out of personalized advertising at any time via device settings. Since all learning data is stored locally on your device, you can delete it at any time by uninstalling the app.",
+                    body = "You may opt out of personalized advertising at any time via device settings. Learning data is stored locally on your device and is deleted when you uninstall the app.\n\nYou can permanently delete your community account at any time in the app: Community → ⋮ → Delete account. This removes your profile, messages, voice messages, memberships and device tokens from our servers. You can also email us to request deletion.",
                 )
             }
 

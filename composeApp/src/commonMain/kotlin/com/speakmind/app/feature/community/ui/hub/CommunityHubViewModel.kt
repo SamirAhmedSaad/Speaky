@@ -9,6 +9,9 @@ import com.speakmind.app.feature.community.data.model.RoomKind
 import com.speakmind.app.feature.community.data.model.SPEAKY_HUB_ROOM_ID
 import com.speakmind.app.feature.community.data.repository.BlockedException
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
+import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
+import com.speakmind.app.navigation.CommunityAuthDestination
+import com.speakmind.app.navigation.CommunityHubDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.navigation.RoomDestination
 import io.github.aakira.napier.Napier
@@ -26,6 +29,7 @@ enum class HubTab { CHATS, GROUPS, PEOPLE }
 
 data class CommunityHubUiState(
     val tab: HubTab = HubTab.CHATS,
+    val isGuest: Boolean = false,
     val rooms: List<ChatRoom> = emptyList(),
     val isLoadingRooms: Boolean = true,
     val groups: List<ChatRoom> = emptyList(),
@@ -40,6 +44,10 @@ data class CommunityHubUiState(
     val showCreateGroup: Boolean = false,
     val isCreatingGroup: Boolean = false,
     val createGroupError: String? = null,
+    val showJoinByCode: Boolean = false,
+    val joinCodeError: String? = null,
+    val confirmDeleteAccount: Boolean = false,
+    val isDeletingAccount: Boolean = false,
     val error: String? = null,
 )
 
@@ -49,7 +57,7 @@ class CommunityHubViewModel(
     private val navigationManager: NavigationManager,
 ) : ViewModel() {
 
-    private val _uiState = MutableStateFlow(CommunityHubUiState())
+    private val _uiState = MutableStateFlow(CommunityHubUiState(isGuest = repository.isGuest()))
     val uiState: StateFlow<CommunityHubUiState> = _uiState.asStateFlow()
 
     private val activity = MutableStateFlow(0)
@@ -103,7 +111,7 @@ class CommunityHubViewModel(
                 _uiState.update { it.copy(rooms = rooms, isLoadingRooms = false) }
             } catch (e: Exception) {
                 Napier.w("myRooms failed", e)
-                _uiState.update { it.copy(isLoadingRooms = false, error = "Couldn't load chats. Check your connection.") }
+                _uiState.update { it.copy(isLoadingRooms = false, error = friendlyCommunityError(e, "Couldn't load chats.")) }
             }
         }
     }
@@ -132,10 +140,14 @@ class CommunityHubViewModel(
         }
     }
 
-    fun onShowCreateGroup() = _uiState.update { it.copy(showCreateGroup = true, createGroupError = null) }
+    fun onShowCreateGroup() {
+        if (requireAccount("create groups")) return
+        _uiState.update { it.copy(showCreateGroup = true, createGroupError = null) }
+    }
+
     fun onDismissCreateGroup() = _uiState.update { it.copy(showCreateGroup = false, createGroupError = null) }
 
-    fun onCreateGroup(name: String, description: String) {
+    fun onCreateGroup(name: String, description: String, isPrivate: Boolean) {
         val trimmed = name.trim()
         if (trimmed.length !in 2..40) {
             _uiState.update { it.copy(createGroupError = "Group name must be 2–40 characters") }
@@ -148,12 +160,34 @@ class CommunityHubViewModel(
         _uiState.update { it.copy(isCreatingGroup = true, createGroupError = null) }
         viewModelScope.launch {
             try {
-                val room = repository.createGroup(trimmed, description)
+                val room = repository.createGroup(trimmed, description, isPrivate)
                 _uiState.update { it.copy(isCreatingGroup = false, showCreateGroup = false) }
                 openRoom(room)
             } catch (e: Exception) {
                 Napier.w("createGroup failed", e)
-                _uiState.update { it.copy(isCreatingGroup = false, createGroupError = "Couldn't create the group.") }
+                _uiState.update {
+                    it.copy(isCreatingGroup = false, createGroupError = friendlyCommunityError(e, "Couldn't create the group."))
+                }
+            }
+        }
+    }
+
+    fun onShowJoinByCode() {
+        if (requireAccount("join groups")) return
+        _uiState.update { it.copy(showJoinByCode = true, joinCodeError = null) }
+    }
+
+    fun onDismissJoinByCode() = _uiState.update { it.copy(showJoinByCode = false, joinCodeError = null) }
+
+    fun onJoinByCode(code: String) {
+        if (code.isBlank()) return
+        viewModelScope.launch {
+            try {
+                val roomId = repository.joinGroupByCode(code)
+                _uiState.update { it.copy(showJoinByCode = false) }
+                navigationManager.navigate(RoomDestination(roomId, "Group"))
+            } catch (e: Exception) {
+                _uiState.update { it.copy(joinCodeError = friendlyCommunityError(e, "Couldn't join with that code.")) }
             }
         }
     }
@@ -196,6 +230,7 @@ class CommunityHubViewModel(
     }
 
     fun onPersonClicked(user: CommunityUser) {
+        if (requireAccount("message people privately")) return
         viewModelScope.launch {
             try {
                 val roomId = repository.openDirectChat(user.uid)
@@ -204,16 +239,32 @@ class CommunityHubViewModel(
                 _uiState.update { it.copy(error = "You can't message ${user.nickname}.") }
             } catch (e: Exception) {
                 Napier.w("openDirectChat failed", e)
-                _uiState.update { it.copy(error = "Couldn't open the chat.") }
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't open the chat.")) }
             }
         }
     }
 
-    // ---------- Navigation ----------
+    /** Guests can only use Speaky Hub; returns true (and explains) if the action is blocked. */
+    private fun requireAccount(action: String): Boolean {
+        if (!_uiState.value.isGuest) return false
+        _uiState.update { it.copy(error = "Sign in with Google to $action.") }
+        return true
+    }
 
-    fun openSpeakyHub() = navigationManager.navigate(RoomDestination(SPEAKY_HUB_ROOM_ID, "Speaky Hub"))
+    // ---------- Account ----------
 
-    fun openRoom(room: ChatRoom) = navigationManager.navigate(RoomDestination(room.id, room.displayName))
+    /** Guests upgrade by signing in with Google (a fresh account). */
+    fun onSignInWithGoogle() {
+        viewModelScope.launch {
+            try {
+                repository.signOut()
+            } catch (_: Exception) {
+            }
+            navigationManager.navigate(CommunityAuthDestination) {
+                popUpTo<CommunityHubDestination> { inclusive = true }
+            }
+        }
+    }
 
     fun onSignOut() {
         viewModelScope.launch {
@@ -225,6 +276,30 @@ class CommunityHubViewModel(
             navigationManager.back()
         }
     }
+
+    fun onDeleteAccountRequested() = _uiState.update { it.copy(confirmDeleteAccount = true) }
+    fun onDeleteAccountDismissed() = _uiState.update { it.copy(confirmDeleteAccount = false) }
+
+    fun onConfirmDeleteAccount() {
+        _uiState.update { it.copy(confirmDeleteAccount = false, isDeletingAccount = true) }
+        viewModelScope.launch {
+            try {
+                repository.deleteAccount()
+                navigationManager.back()
+            } catch (e: Exception) {
+                Napier.w("deleteAccount failed", e)
+                _uiState.update {
+                    it.copy(isDeletingAccount = false, error = friendlyCommunityError(e, "Couldn't delete your account. Try again."))
+                }
+            }
+        }
+    }
+
+    // ---------- Navigation ----------
+
+    fun openSpeakyHub() = navigationManager.navigate(RoomDestination(SPEAKY_HUB_ROOM_ID, "Speaky Hub"))
+
+    fun openRoom(room: ChatRoom) = navigationManager.navigate(RoomDestination(room.id, room.displayName))
 
     fun onErrorDismissed() = _uiState.update { it.copy(error = null) }
 

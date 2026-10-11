@@ -96,11 +96,27 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
                         Icon(Icons.Default.MoreVert, contentDescription = "More", tint = colors.textPrimary)
                     }
                     DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
+                        if (uiState.isGuest) {
+                            DropdownMenuItem(
+                                text = { Text("Sign in with Google") },
+                                onClick = {
+                                    menuOpen = false
+                                    viewModel.onSignInWithGoogle()
+                                },
+                            )
+                        }
                         DropdownMenuItem(
                             text = { Text("Sign out") },
                             onClick = {
                                 menuOpen = false
                                 viewModel.onSignOut()
+                            },
+                        )
+                        DropdownMenuItem(
+                            text = { Text("Delete account", color = MaterialTheme.colorScheme.error) },
+                            onClick = {
+                                menuOpen = false
+                                viewModel.onDeleteAccountRequested()
                             },
                         )
                     }
@@ -131,6 +147,24 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
                 }
             }
 
+            if (uiState.isGuest) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(colors.neonCyan.copy(alpha = 0.1f))
+                        .clickable { viewModel.onSignInWithGoogle() }
+                        .padding(horizontal = 16.sdp, vertical = 10.sdp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(
+                        "You're a guest: chat in Speaky Hub. Sign in with Google for private chats, groups and voice.",
+                        style = MaterialTheme.typography.bodySmall.copy(color = colors.textPrimary),
+                        modifier = Modifier.weight(1f),
+                    )
+                    Text("Sign in", color = colors.neonCyan, fontWeight = FontWeight.Bold)
+                }
+            }
+
             when (uiState.tab) {
                 HubTab.CHATS -> ChatsTab(uiState, viewModel)
                 HubTab.GROUPS -> GroupsTab(uiState, viewModel)
@@ -138,7 +172,7 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
             }
         }
 
-        if (uiState.tab == HubTab.GROUPS) {
+        if (uiState.tab == HubTab.GROUPS && !uiState.isGuest) {
             FloatingActionButton(
                 onClick = viewModel::onShowCreateGroup,
                 containerColor = colors.neonCyan,
@@ -179,6 +213,33 @@ private fun CommunityHubContent(uiState: CommunityHubUiState, viewModel: Communi
             onCreate = viewModel::onCreateGroup,
         )
     }
+    if (uiState.showJoinByCode) {
+        JoinByCodeDialog(
+            error = uiState.joinCodeError,
+            onDismiss = viewModel::onDismissJoinByCode,
+            onJoin = viewModel::onJoinByCode,
+        )
+    }
+    if (uiState.confirmDeleteAccount) {
+        AlertDialog(
+            onDismissRequest = viewModel::onDeleteAccountDismissed,
+            title = { Text("Delete your account?") },
+            text = {
+                Text("Your community profile, messages, voice notes, groups you own (handed to another member) and memberships are permanently deleted. This can't be undone.")
+            },
+            confirmButton = {
+                TextButton(onClick = viewModel::onConfirmDeleteAccount) {
+                    Text("Delete forever", color = MaterialTheme.colorScheme.error)
+                }
+            },
+            dismissButton = { TextButton(onClick = viewModel::onDeleteAccountDismissed) { Text("Cancel") } },
+        )
+    }
+    if (uiState.isDeletingAccount) {
+        Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.5f)), contentAlignment = Alignment.Center) {
+            CircularProgressIndicator(color = colors.neonCyan)
+        }
+    }
 }
 
 // ---------------- Chats ----------------
@@ -217,7 +278,7 @@ private fun ChatsTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewMo
                         IconBadge(Icons.Default.Groups)
                     }
                 },
-                title = room.displayName,
+                title = (if (room.isPrivate) "🔒 " else "") + room.displayName + (if (room.muted) " 🔕" else ""),
                 subtitle = room.lastMessagePreview.ifEmpty {
                     if (room.kind == RoomKind.GROUP) "${room.memberCount} members" else "Say hello 👋"
                 },
@@ -235,6 +296,9 @@ private fun ChatsTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewMo
 private fun GroupsTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
     Column(Modifier.fillMaxSize()) {
         SearchField(uiState.groupQuery, "Search groups", viewModel::onGroupQueryChanged)
+        TextButton(onClick = viewModel::onShowJoinByCode, modifier = Modifier.padding(start = 8.sdp)) {
+            Text("🔑  Join a private group with a code", color = LocalSpeakMindColors.current.neonCyan)
+        }
         LazyColumn(
             modifier = Modifier.fillMaxSize(),
             contentPadding = PaddingValues(bottom = 90.sdp),
@@ -244,7 +308,7 @@ private fun GroupsTab(uiState: CommunityHubUiState, viewModel: CommunityHubViewM
             items(uiState.groups, key = { it.id }) { group ->
                 RoomRow(
                     leading = { IconBadge(Icons.Default.Groups) },
-                    title = group.name,
+                    title = (if (group.isPrivate) "🔒 " else "") + group.name,
                     subtitle = group.description.ifEmpty { group.lastMessagePreview }
                         .ifEmpty { "${group.memberCount} members" },
                     time = if (group.isMember) "Joined" else "${group.memberCount} 👥",
@@ -261,10 +325,11 @@ private fun CreateGroupDialog(
     isCreating: Boolean,
     error: String?,
     onDismiss: () -> Unit,
-    onCreate: (String, String) -> Unit,
+    onCreate: (String, String, Boolean) -> Unit,
 ) {
     var name by remember { mutableStateOf("") }
     var description by remember { mutableStateOf("") }
+    var isPrivate by remember { mutableStateOf(false) }
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("Create a group") },
@@ -282,14 +347,43 @@ private fun CreateGroupDialog(
                     label = { Text("What's it about? (optional)") },
                     maxLines = 3,
                 )
+                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.clickable { isPrivate = !isPrivate }) {
+                    Column(Modifier.weight(1f)) {
+                        Text("Private group")
+                        Text("Hidden from search; join by invite code only.", style = MaterialTheme.typography.bodySmall)
+                    }
+                    Switch(checked = isPrivate, onCheckedChange = { isPrivate = it })
+                }
                 if (error != null) Text(error, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
             }
         },
         confirmButton = {
-            TextButton(onClick = { onCreate(name, description) }, enabled = !isCreating && name.isNotBlank()) {
+            TextButton(onClick = { onCreate(name, description, isPrivate) }, enabled = !isCreating && name.isNotBlank()) {
                 Text(if (isCreating) "Creating…" else "Create")
             }
         },
+        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+    )
+}
+
+@Composable
+private fun JoinByCodeDialog(error: String?, onDismiss: () -> Unit, onJoin: (String) -> Unit) {
+    var code by remember { mutableStateOf("") }
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Join with invite code") },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(8.sdp)) {
+                OutlinedTextField(
+                    value = code,
+                    onValueChange = { code = it.filter { c -> c.isLetterOrDigit() }.take(8) },
+                    label = { Text("8-character code") },
+                    singleLine = true,
+                )
+                if (error != null) Text(error, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
+            }
+        },
+        confirmButton = { TextButton(onClick = { onJoin(code) }, enabled = code.length == 8) { Text("Join") } },
         dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
     )
 }

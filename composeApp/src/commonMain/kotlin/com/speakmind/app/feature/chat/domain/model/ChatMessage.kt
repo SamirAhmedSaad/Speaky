@@ -14,8 +14,6 @@ data class Correction(
     val explanation: String,
 )
 
-enum class MessageType { TEXT, VOICE }
-
 data class ChatMessage(
     val id: String,
     val role: MessageRole,
@@ -23,8 +21,4 @@ data class ChatMessage(
     val corrections: List<Correction> = emptyList(),
     val timestamp: Long = 0L,
     val isStreaming: Boolean = false,
-    val voiceUrl: String? = null,
-    val voiceDurationMs: Long = 0L,
-    val messageType: MessageType = MessageType.TEXT,
-    val isSynced: Boolean = false,
 )

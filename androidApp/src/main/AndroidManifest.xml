@@ -44,6 +44,14 @@
             android:foregroundServiceType="dataSync"
             tools:node="merge" />
 
+        <service
+            android:name="com.speakmind.app.feature.community.platform.ChatMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <receiver
             android:name="com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver"
             android:exported="false" />

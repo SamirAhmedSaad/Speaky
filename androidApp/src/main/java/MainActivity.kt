@@ -22,17 +22,20 @@ import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
 import com.speakmind.app.ads.ConsentManager
 import com.speakmind.app.db.SpeakyDatabase
+import com.speakmind.app.feature.community.platform.ChatMessagingService
 import com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver
 import com.speakmind.app.feature.vocabulary.domain.VocabRefreshService
 import com.speakmind.app.feature.voice.platform.MicPermissionRequester
 import com.speakmind.app.navigation.HomeDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.navigation.OnboardingDestination
+import com.speakmind.app.navigation.RoomDestination
 import com.speakmind.app.navigation.WordDetailDestination
 import com.speakmind.app.ui.theme.ThemeManager
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.koin.java.KoinJavaComponent.getKoin
@@ -107,11 +110,26 @@ class MainActivity : ComponentActivity() {
         }
 
         handleDailyWordIntent(intent)
+        handleChatIntent(intent)
+        ChatMessagingService.registerCurrentToken()
     }
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         handleDailyWordIntent(intent)
+        handleChatIntent(intent)
+    }
+
+    /** Opens the chat a community notification was about. */
+    private fun handleChatIntent(intent: Intent?) {
+        val roomId = intent?.getStringExtra(ChatMessagingService.EXTRA_ROOM_ID) ?: return
+        val title = intent.getStringExtra(ChatMessagingService.EXTRA_ROOM_TITLE).orEmpty()
+        intent.removeExtra(ChatMessagingService.EXTRA_ROOM_ID)
+        lifecycleScope.launch {
+            // Wait for the nav graph (start destination) before navigating.
+            startDestination.first { it != null }
+            getKoin().get<NavigationManager>().navigate(RoomDestination(roomId, title))
+        }
     }
 
     private fun requestNotificationPermission() {
