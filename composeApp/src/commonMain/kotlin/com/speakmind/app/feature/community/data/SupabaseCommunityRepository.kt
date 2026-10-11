@@ -89,7 +89,7 @@ private const val DEVICE_TOKENS = "device_tokens"
 private const val MESSAGE_COLUMNS =
     "id,room_id,sender_id,kind,body,voice_path,voice_duration_ms,created_at,edited_at,reply_to_id," +
         "sender:community_users!sender_id(id,nickname,gender,photo_url,last_seen,level)," +
-        "reply:room_messages!reply_to_id(id,body,kind,sender:community_users!sender_id(nickname))"
+        "reply:reply_to_id(id,body,kind,sender:community_users!sender_id(nickname))"
 private const val ROOM_COLUMNS =
     "id,kind,name,description,last_message_at,last_message_preview,member_count,is_private"
 private const val USER_COLUMNS = "id,nickname,gender,photo_url,last_seen,level"
@@ -1158,7 +1158,7 @@ private data class MessageDto(
     @SerialName("edited_at") val editedAt: String? = null,
     @SerialName("reply_to_id") val replyToId: String? = null,
     val sender: UserDto? = null,
-    /** PostgREST returns the self-join as an object on reads but as `[]` on insert-returning. */
+    /** The quoted message (many-to-one via reply_to_id); tolerate an array form just in case. */
     @SerialName("reply") val replyJson: JsonElement? = null,
 ) {
     val reply: ReplyDto?

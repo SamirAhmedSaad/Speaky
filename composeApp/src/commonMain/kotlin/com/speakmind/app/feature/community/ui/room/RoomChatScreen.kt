@@ -1,6 +1,17 @@
 package com.speakmind.app.feature.community.ui.room
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.spring
+import androidx.compose.foundation.gestures.detectHorizontalDragGestures
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.hapticfeedback.HapticFeedbackType
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalHapticFeedback
+import androidx.compose.ui.unit.IntOffset
+import kotlinx.coroutines.launch
+import kotlin.math.roundToInt
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -641,10 +652,64 @@ private fun MessageRow(
     val avatarSize: Dp = 30.sdp
     val showAvatarColumn = showSender && !isFromMe
 
-    Row(
+    // Swipe right to reply (like WhatsApp): the bubble follows the finger, an arrow fades in,
+    // and releasing past the threshold quotes the message in the composer.
+    val swipe = remember { Animatable(0f) }
+    val scope = rememberCoroutineScope()
+    val haptic = LocalHapticFeedback.current
+    val thresholdPx = with(LocalDensity.current) { 64.sdp.toPx() }
+    var armed by remember { mutableStateOf(false) }
+    Box(
         modifier = Modifier
             .fillMaxWidth()
             .padding(top = if (firstInGroup) 8.sdp else 2.sdp),
+    ) {
+    Icon(
+        Icons.AutoMirrored.Filled.Reply,
+        contentDescription = null,
+        tint = colors.neonCyan,
+        modifier = Modifier
+            .align(Alignment.CenterStart)
+            .padding(start = 6.sdp)
+            .size(22.sdp)
+            .graphicsLayer {
+                val p = (swipe.value / thresholdPx).coerceIn(0f, 1f)
+                alpha = p
+                scaleX = 0.6f + 0.4f * p
+                scaleY = 0.6f + 0.4f * p
+            },
+    )
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .offset { IntOffset(swipe.value.roundToInt(), 0) }
+            .then(
+                if (canInteract && !message.isPending && !message.isFailed) {
+                    Modifier.pointerInput(message.id) {
+                        detectHorizontalDragGestures(
+                            onDragEnd = {
+                                if (swipe.value >= thresholdPx) actions.onReply(message)
+                                armed = false
+                                scope.launch { swipe.animateTo(0f, spring(dampingRatio = 0.6f)) }
+                            },
+                            onDragCancel = {
+                                armed = false
+                                scope.launch { swipe.animateTo(0f) }
+                            },
+                        ) { change, dragAmount ->
+                            val next = (swipe.value + dragAmount).coerceIn(0f, thresholdPx * 1.4f)
+                            if (next > 0f) change.consume()
+                            scope.launch { swipe.snapTo(next) }
+                            if (!armed && next >= thresholdPx) {
+                                armed = true
+                                haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                            } else if (armed && next < thresholdPx) {
+                                armed = false
+                            }
+                        }
+                    }
+                } else Modifier
+            ),
         horizontalArrangement = if (isFromMe) Arrangement.End else Arrangement.Start,
         verticalAlignment = Alignment.Bottom,
     ) {
@@ -866,6 +931,7 @@ private fun MessageRow(
                 }
             }
         }
+    }
     }
 }
 
