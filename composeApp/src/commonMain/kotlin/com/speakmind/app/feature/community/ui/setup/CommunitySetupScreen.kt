@@ -44,6 +44,7 @@ fun NavGraphBuilder.communitySetupScreen() {
             onGenderSelected = viewModel::onGenderSelected,
             onJoinClicked = viewModel::onJoinClicked,
             onPhotoPicked = viewModel::onPhotoPicked,
+            onTermsToggled = viewModel::onTermsToggled,
         )
     }
 }
@@ -55,6 +56,7 @@ private fun CommunitySetupContent(
     onGenderSelected: (String) -> Unit,
     onJoinClicked: () -> Unit,
     onPhotoPicked: (ByteArray?) -> Unit,
+    onTermsToggled: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
     val photoPicker = rememberImagePickerLauncher(onPhotoPicked)
@@ -279,6 +281,26 @@ private fun CommunitySetupContent(
                         modifier = Modifier.weight(1f),
                     )
                 }
+            }
+
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(12.sdp))
+                    .clickable(onClick = onTermsToggled)
+                    .padding(vertical = 4.sdp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Checkbox(
+                    checked = uiState.acceptedTerms,
+                    onCheckedChange = { onTermsToggled() },
+                    colors = CheckboxDefaults.colors(checkedColor = colors.neonCyan, checkmarkColor = colors.backgroundDark),
+                )
+                Text(
+                    text = "I'm 13 or older and agree to be respectful: no links, contact details, insults or adult content. " +
+                        "Breaking the rules can get my account banned.",
+                    style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary),
+                )
             }
 
             AnimatedVisibility(visible = uiState.error != null) {

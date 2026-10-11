@@ -68,6 +68,9 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.todayIn
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.builtins.MapSerializer
+import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
@@ -193,7 +196,10 @@ class SupabaseCommunityRepository(
         val uid = requireUserId()
         val photo = googlePhotoUrl()
         client.from(USERS).upsert(
-            UserUpsertDto(id = uid, nickname = nickname, gender = gender, level = appLevel(), photoUrl = photo)
+            UserUpsertDto(
+                id = uid, nickname = nickname, gender = gender, level = appLevel(), photoUrl = photo,
+                termsAcceptedAt = Clock.System.now().toString(),
+            )
         )
         database.speakMindQueries.upsertCommunityProfile(
             firebase_uid = uid,
@@ -944,6 +950,8 @@ class SupabaseCommunityRepository(
             created_at = m.createdAtMillis,
             created_at_raw = m.createdAtRaw,
             edited = if (m.isEdited) 1L else 0L,
+            reply_json = m.replyTo?.let { lenientJson.encodeToString(CachedReply.serializer(), CachedReply(it.messageId, it.senderNickname, it.text, it.isVoice)) },
+            reactions_json = m.reactions.takeIf { it.isNotEmpty() }?.let { lenientJson.encodeToString(reactionsSerializer, it) },
         )
     }
 
@@ -994,7 +1002,19 @@ private fun Room_message_cache.toDomain() = RoomMessage(
     createdAtMillis = created_at,
     createdAtRaw = created_at_raw,
     isEdited = edited == 1L,
+    replyTo = reply_json?.let { raw ->
+        runCatching { lenientJson.decodeFromString(CachedReply.serializer(), raw) }.getOrNull()
+            ?.let { ReplyPreview(it.messageId, it.senderNickname, it.text, it.isVoice) }
+    },
+    reactions = reactions_json?.let { runCatching { lenientJson.decodeFromString(reactionsSerializer, it) }.getOrNull() }
+        ?: emptyMap(),
 )
+
+/** Reply quote as stored in the offline message cache. */
+@Serializable
+private data class CachedReply(val messageId: String, val senderNickname: String, val text: String, val isVoice: Boolean)
+
+private val reactionsSerializer = MapSerializer(String.serializer(), ListSerializer(String.serializer()))
 
 private fun nowMillis() = Clock.System.now().toEpochMilliseconds()
 
@@ -1038,6 +1058,7 @@ private data class UserUpsertDto(
     val gender: String,
     val level: String = "",
     @SerialName("photo_url") val photoUrl: String? = null,
+    @SerialName("terms_accepted_at") val termsAcceptedAt: String? = null,
 )
 
 @Serializable

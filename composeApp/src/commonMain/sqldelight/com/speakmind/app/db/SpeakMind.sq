@@ -160,7 +160,9 @@ CREATE TABLE room_message_cache (
     voice_duration_ms INTEGER NOT NULL DEFAULT 0,
     created_at INTEGER NOT NULL,
     created_at_raw TEXT NOT NULL,
-    edited INTEGER NOT NULL DEFAULT 0
+    edited INTEGER NOT NULL DEFAULT 0,
+    reply_json TEXT,
+    reactions_json TEXT
 );
 
 CREATE INDEX idx_room_message_cache_room ON room_message_cache (room_id, created_at);
@@ -170,8 +172,8 @@ SELECT * FROM room_message_cache WHERE room_id = ? ORDER BY created_at DESC LIMI
 
 upsertCachedRoomMessage:
 INSERT OR REPLACE INTO room_message_cache
-(id, room_id, sender_id, sender_nickname, sender_gender, sender_photo_url, kind, body, voice_path, voice_duration_ms, created_at, created_at_raw, edited)
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+(id, room_id, sender_id, sender_nickname, sender_gender, sender_photo_url, kind, body, voice_path, voice_duration_ms, created_at, created_at_raw, edited, reply_json, reactions_json)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 
 deleteCachedRoomMessage:
 DELETE FROM room_message_cache WHERE id = ?;

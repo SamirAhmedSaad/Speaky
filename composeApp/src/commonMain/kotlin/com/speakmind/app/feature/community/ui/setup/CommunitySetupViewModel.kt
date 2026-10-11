@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.feature.ai.domain.NameExtractor
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
+import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
 import com.speakmind.app.feature.profile.domain.NameValidationResult
 import com.speakmind.app.feature.profile.domain.NameValidator
 import com.speakmind.app.navigation.CommunityHubDestination
@@ -25,6 +26,8 @@ data class CommunitySetupUiState(
     val photoBytes: ByteArray? = null,
     /** Google profile photo, used when no photo is picked. */
     val googlePhotoUrl: String? = null,
+    /** "I'm 13+ and agree to the community rules" — required to join. */
+    val acceptedTerms: Boolean = false,
     val error: String? = null,
 )
 
@@ -81,6 +84,10 @@ class CommunitySetupViewModel(
         _uiState.value = _uiState.value.copy(gender = gender, error = null)
     }
 
+    fun onTermsToggled() {
+        _uiState.value = _uiState.value.copy(acceptedTerms = !_uiState.value.acceptedTerms, error = null)
+    }
+
     fun onJoinClicked() {
         val state = _uiState.value
         val nickname = state.nickname.trim()
@@ -93,6 +100,10 @@ class CommunitySetupViewModel(
         }
         if (state.gender.isEmpty()) {
             _uiState.value = state.copy(error = "Please select your gender")
+            return
+        }
+        if (!state.acceptedTerms) {
+            _uiState.value = state.copy(error = "Please confirm you're 13+ and agree to the community rules")
             return
         }
         _uiState.value = state.copy(isSaving = true, error = null)
@@ -112,7 +123,7 @@ class CommunitySetupViewModel(
                 Napier.e("CommunitySetup join failed", e)
                 _uiState.value = _uiState.value.copy(
                     isSaving = false,
-                    error = "Failed to join. Check your connection.",
+                    error = friendlyCommunityError(e, "Failed to join. Check your connection."),
                 )
             }
         }

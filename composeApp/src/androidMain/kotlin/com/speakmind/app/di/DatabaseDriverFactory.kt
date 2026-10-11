@@ -126,6 +126,8 @@ fun createSpeakMindDriver(context: Context): SqlDriver {
             edited INTEGER NOT NULL DEFAULT 0
         )""",
         "CREATE INDEX IF NOT EXISTS idx_room_message_cache_room ON room_message_cache (room_id, created_at)",
+        "ALTER TABLE room_message_cache ADD COLUMN reply_json TEXT",
+        "ALTER TABLE room_message_cache ADD COLUMN reactions_json TEXT",
     ).forEach { sql ->
         try { driver.execute(null, sql.trimIndent(), 0) } catch (_: Exception) {}
     }

@@ -73,6 +73,7 @@
 
 # Keep JNI — LLamaAndroid native methods must not be renamed
 -keep class android.llama.cpp.LLamaAndroid { *; }
+-keep class android.llama.cpp.LLamaAndroid$** { *; }
 -keepclasseswithmembernames class android.llama.cpp.LLamaAndroid {
     native <methods>;
 }
@@ -107,3 +108,40 @@
 -keepclassmembers class speaky.composeapp.generated.resources.** { *; }
 -keep class org.jetbrains.compose.resources.** { *; }
 -dontwarn org.jetbrains.compose.resources.**
+
+# Supabase (supabase-kt) — serializable DTOs and plugin internals
+-keep class io.github.jan.supabase.** { *; }
+-keepclassmembers class io.github.jan.supabase.** { *; }
+-dontwarn io.github.jan.supabase.**
+
+# OkHttp / Okio (Ktor engine used for Realtime WebSockets)
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn org.conscrypt.**
+-dontwarn org.bouncycastle.**
+-dontwarn org.openjsse.**
+
+# kotlinx-datetime
+-keep class kotlinx.datetime.** { *; }
+-dontwarn kotlinx.datetime.**
+
+# Kotlin serialization of app classes nested in private files (DTOs)
+-keepclassmembers @kotlinx.serialization.Serializable class ** {
+    static ** Companion;
+    *** Companion;
+    kotlinx.serialization.KSerializer serializer(...);
+}
+-if @kotlinx.serialization.Serializable class **
+-keep class <1>$$serializer { *; }
+
+# Credential Manager + Sign in with Google
+-keep class androidx.credentials.** { *; }
+-keep class com.google.android.libraries.identity.googleid.** { *; }
+-dontwarn androidx.credentials.**
+-dontwarn com.google.android.libraries.identity.googleid.**
+-if class androidx.credentials.CredentialManager
+-keep class androidx.credentials.playservices.** { *; }
+
+# Firebase Cloud Messaging service
+-keep class * extends com.google.firebase.messaging.FirebaseMessagingService { *; }
+-dontwarn com.google.firebase.**

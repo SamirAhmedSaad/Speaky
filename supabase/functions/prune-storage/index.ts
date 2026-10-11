@@ -1,4 +1,5 @@
-// Deletes the oldest voice clips when the voice-recordings bucket nears its cap.
+// Deletes the oldest voice clips when the voice-recordings bucket nears its cap,
+// and avatars whose owner deleted their account.
 // Called every 15 minutes by pg_cron (job 'prune-voice-storage'), authenticated
 // with a shared secret stored in private.app_secrets. Deployed with verify_jwt = false.
 import { createClient } from "npm:@supabase/supabase-js@2";
@@ -38,7 +39,15 @@ Deno.serve(async (req: Request) => {
     expired += (count as number) ?? 0;
   }
 
-  return new Response(JSON.stringify({ candidates: paths.length, removed, expired }), {
+  let avatars = 0;
+  const { data: orphanAvatars } = await admin.rpc("avatar_prune_candidates");
+  const avatarPaths = (orphanAvatars ?? []) as string[];
+  for (let i = 0; i < avatarPaths.length; i += BATCH) {
+    const { data } = await admin.storage.from("avatars").remove(avatarPaths.slice(i, i + BATCH));
+    avatars += data?.length ?? 0;
+  }
+
+  return new Response(JSON.stringify({ candidates: paths.length, removed, expired, avatars }), {
     headers: { "Content-Type": "application/json" },
   });
 });

@@ -142,6 +142,8 @@ fun friendlyCommunityError(e: Throwable, fallback: String): String {
     val m = e.message.orEmpty().lowercase()
     return when {
         "banned" in m -> "Your account is suspended for breaking community rules."
+        "content_blocked" in m -> "Links, contact details and offensive words aren't allowed."
+        "terms_not_accepted" in m -> "Please accept the community rules first."
         "guest_not_allowed" in m || "row-level security" in m -> "Sign in with Google to chat."
         "daily_limit" in m -> "You've reached today's Speaky Hub limit. Try again tomorrow."
         "rate_limited" in m -> "You're sending messages too fast. Wait a moment."
