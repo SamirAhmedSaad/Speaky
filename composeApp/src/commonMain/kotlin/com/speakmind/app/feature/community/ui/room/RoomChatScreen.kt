@@ -80,6 +80,7 @@ import com.speakmind.app.feature.community.data.model.RoomKind
 import com.speakmind.app.feature.community.data.model.RoomMessage
 import com.speakmind.app.feature.community.data.repository.ReportReason
 import com.speakmind.app.feature.community.ui.components.OnlineDot
+import com.speakmind.app.feature.community.ui.components.ResizeWindowForKeyboard
 import com.speakmind.app.feature.community.ui.components.ProfileSheet
 import com.speakmind.app.feature.community.ui.components.UserAvatar
 import com.speakmind.app.feature.community.ui.components.dayKey
@@ -190,6 +191,7 @@ fun NavGraphBuilder.roomChatScreen() {
         }
         val googlePicker = rememberGoogleSignIn(AppConfig.googleWebClientId)
         val actions = remember(viewModel, googlePicker) { RoomActions(viewModel, googlePicker) }
+        ResizeWindowForKeyboard()
         RoomChatContent(uiState = uiState, actions = actions)
 
         uiState.profileUser?.let { user ->

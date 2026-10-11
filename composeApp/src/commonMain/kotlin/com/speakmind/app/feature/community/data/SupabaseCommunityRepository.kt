@@ -68,6 +68,10 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.todayIn
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.contentOrNull
 import kotlinx.serialization.json.jsonPrimitive
@@ -1154,8 +1158,18 @@ private data class MessageDto(
     @SerialName("edited_at") val editedAt: String? = null,
     @SerialName("reply_to_id") val replyToId: String? = null,
     val sender: UserDto? = null,
-    val reply: ReplyDto? = null,
-)
+    /** PostgREST returns the self-join as an object on reads but as `[]` on insert-returning. */
+    @SerialName("reply") val replyJson: JsonElement? = null,
+) {
+    val reply: ReplyDto?
+        get() = when (val r = replyJson) {
+            is JsonObject -> replyJson.let { lenientJson.decodeFromJsonElement(ReplyDto.serializer(), r) }
+            is JsonArray -> r.firstOrNull()?.let { lenientJson.decodeFromJsonElement(ReplyDto.serializer(), it) }
+            else -> null
+        }
+}
+
+private val lenientJson = Json { ignoreUnknownKeys = true }
 
 @Serializable
 private data class ReplyDto(
