@@ -51,7 +51,13 @@ data object PrivacyPolicyDestination
 data object CommunitySetupDestination
 
 @Serializable
-data object ChannelDestination
+data object CommunityAuthDestination
+
+@Serializable
+data object CommunityHubDestination
+
+@Serializable
+data class RoomDestination(val roomId: String, val title: String)
 
 @Serializable
 data object MyGroupsDestination

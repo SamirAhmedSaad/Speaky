@@ -6,7 +6,8 @@ import com.speakmind.app.feature.ai.domain.NameExtractor
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.profile.domain.NameValidationResult
 import com.speakmind.app.feature.profile.domain.NameValidator
-import com.speakmind.app.navigation.ChannelDestination
+import com.speakmind.app.navigation.CommunityAuthDestination
+import com.speakmind.app.navigation.CommunityHubDestination
 import com.speakmind.app.navigation.CommunitySetupDestination
 import com.speakmind.app.navigation.NavigationManager
 import io.github.aakira.napier.Napier
@@ -38,15 +39,23 @@ class CommunitySetupViewModel(
 
     private fun checkExistingProfile() {
         viewModelScope.launch {
-            val profile = communityRepository.getLocalProfile()
-            if (profile != null && profile.gender.isNotEmpty()) {
-                navigationManager.navigate(ChannelDestination) {
+            if (!communityRepository.hasSession()) {
+                navigationManager.navigate(CommunityAuthDestination) {
                     popUpTo<CommunitySetupDestination> { inclusive = true }
                     launchSingleTop = true
                 }
                 return@launch
             }
-            val savedNickname = communityRepository.getUserNickname()
+            val profile = try { communityRepository.getLocalProfile() } catch (_: Exception) { null }
+            if (profile != null && profile.gender.isNotEmpty()) {
+                navigationManager.navigate(CommunityHubDestination) {
+                    popUpTo<CommunitySetupDestination> { inclusive = true }
+                    launchSingleTop = true
+                }
+                return@launch
+            }
+            val savedNickname = communityRepository.authDisplayName()?.take(30)
+                ?: communityRepository.getUserNickname()
             _uiState.value = _uiState.value.copy(
                 nickname = savedNickname,
                 isNicknameFromOnboarding = savedNickname.isNotEmpty(),
@@ -86,9 +95,8 @@ class CommunitySetupViewModel(
         _uiState.value = state.copy(isSaving = true, error = null)
         viewModelScope.launch {
             try {
-                communityRepository.signInAnonymously()
                 communityRepository.saveUserProfile(nickname, state.gender)
-                navigationManager.navigate(ChannelDestination) {
+                navigationManager.navigate(CommunityHubDestination) {
                     popUpTo<CommunitySetupDestination> { inclusive = true }
                     launchSingleTop = true
                 }

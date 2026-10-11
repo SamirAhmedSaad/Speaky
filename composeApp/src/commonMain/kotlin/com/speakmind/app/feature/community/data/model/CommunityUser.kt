@@ -4,6 +4,7 @@ data class CommunityUser(
     val uid: String,
     val nickname: String,
     val gender: String,
+    /** Epoch millis of the last heartbeat. */
     val lastSeen: Long,
     val photoUrl: String? = null,
 )
@@ -14,4 +15,3 @@ data class CommunityLocalProfile(
     val gender: String,
     val photoUrl: String? = null,
 )
-
