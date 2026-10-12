@@ -85,7 +85,7 @@ interface CommunityRepository {
     suspend fun sendText(roomId: String, messageId: String, text: String, replyToId: String? = null): RoomMessage
     /** Adds the reaction if I haven't used it on this message, otherwise removes it. */
     suspend fun toggleReaction(message: RoomMessage, emoji: String)
-    suspend fun sendVoice(roomId: String, messageId: String, audio: ByteArray, durationMs: Long): RoomMessage
+    suspend fun sendVoice(roomId: String, messageId: String, audio: ByteArray, durationMs: Long, waveform: List<Float>): RoomMessage
     suspend fun editMessage(message: RoomMessage, newText: String): RoomMessage
     suspend fun deleteMessage(message: RoomMessage)
     /** Downloads a private voice clip (only chat members can). */

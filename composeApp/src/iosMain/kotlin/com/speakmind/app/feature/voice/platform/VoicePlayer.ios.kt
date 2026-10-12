@@ -20,6 +20,17 @@ actual class VoicePlayer actual constructor() {
         // TODO: Implement with AVAudioPlayer
     }
 
+    private val _isPaused = MutableStateFlow(false)
+    actual val isPaused: StateFlow<Boolean> = _isPaused.asStateFlow()
+
+    private val _positionMs = MutableStateFlow(0L)
+    actual val positionMs: StateFlow<Long> = _positionMs.asStateFlow()
+
+    actual fun pause() {}
+    actual fun resume() {}
+    actual fun seekTo(fraction: Float) {}
+    actual fun setSpeed(speed: Float) {}
+
     actual fun stop() {
         _isPlaying.value = false
         _progress.value = 0f

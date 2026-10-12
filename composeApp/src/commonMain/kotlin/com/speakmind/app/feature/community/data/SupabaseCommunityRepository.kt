@@ -5,6 +5,8 @@ import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.community.data.model.AdminReport
 import com.speakmind.app.feature.community.data.model.ChatRoom
 import com.speakmind.app.feature.community.data.model.ReplyPreview
+import com.speakmind.app.feature.community.data.model.decodeWaveform
+import com.speakmind.app.feature.community.data.model.encodeWaveform
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.model.GroupMember
@@ -90,9 +92,11 @@ private const val REPORTS = "user_reports"
 private const val DEVICE_TOKENS = "device_tokens"
 // Explicit !sender_id: message_reactions also links messages and users, so the embed needs a hint.
 private const val MESSAGE_COLUMNS =
-    "id,room_id,sender_id,kind,body,voice_path,voice_duration_ms,created_at,edited_at,reply_to_id," +
+    "id,room_id,sender_id,kind,body,voice_path,voice_duration_ms,voice_waveform,created_at,edited_at,reply_to_id," +
         "sender:community_users!sender_id(id,nickname,gender,photo_url,last_seen,level)," +
-        "reply:reply_to_id(id,body,kind,sender:community_users!sender_id(nickname))"
+        "reply:reply_to_id(id,body,kind,sender:community_users!sender_id(nickname))," +
+        // Reactions come with the page, saving a second round trip when a chat opens.
+        "reactions:message_reactions(user_id,emoji)"
 private const val ROOM_COLUMNS =
     "id,kind,name,description,last_message_at,last_message_preview,member_count,is_private"
 private const val USER_COLUMNS = "id,nickname,gender,photo_url,last_seen,level"
@@ -168,6 +172,7 @@ class SupabaseCommunityRepository(
         database.speakMindQueries.clearRoomMessageCache()
         _blockedUserIds.value = emptySet()
         voiceCache.clear()
+        lastRooms = emptyList()
     }
 
     override fun authDisplayName(): String? {
@@ -446,10 +451,15 @@ class SupabaseCommunityRepository(
 
     // ---------- Rooms ----------
 
+    /** Last chat list, so opening a chat from the list doesn't fetch it again. */
+    @kotlin.concurrent.Volatile
+    private var lastRooms: List<ChatRoom> = emptyList()
+
     override suspend fun myRooms(): List<ChatRoom> =
-        client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }
+        client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }.also { lastRooms = it }
 
     override suspend fun getRoom(roomId: String): ChatRoom? {
+        lastRooms.firstOrNull { it.id == roomId }?.let { return it }
         myRooms().firstOrNull { it.id == roomId }?.let { return it }
         return client.from(ROOMS).select(Columns.raw(ROOM_COLUMNS)) {
             filter { eq("id", roomId) }
@@ -470,6 +480,7 @@ class SupabaseCommunityRepository(
                 eq("user_id", uid)
             }
         }
+        lastRooms = lastRooms.map { if (it.id == roomId) it.copy(muted = muted) else it }
     }
 
     override suspend fun openDirectChat(otherUserId: String): String = try {
@@ -584,9 +595,8 @@ class SupabaseCommunityRepository(
             order("id", Order.DESCENDING)
             limit(pageSize.toLong())
         }.decodeList<MessageDto>()
-        rows.mapNotNull { it.sender }.forEach { cacheUser(it.toDomain()) }
-        val reactions = loadReactions(rows.map { it.id })
-        val messages = rows.map { it.toDomain().copy(reactions = reactions[it.id] ?: emptyMap()) }.reversed()
+        rows.mapNotNull { it.sender }.distinctBy { it.id }.forEach { cacheUser(it.toDomain()) }
+        val messages = rows.map { it.toDomain() }.reversed()
         if (before == null) {
             // The newest page replaces what's cached, so deletions made elsewhere disappear too.
             database.transaction {
@@ -608,7 +618,13 @@ class SupabaseCommunityRepository(
         return dto.toDomain().also { cacheAndTrim(it) }
     }
 
-    override suspend fun sendVoice(roomId: String, messageId: String, audio: ByteArray, durationMs: Long): RoomMessage {
+    override suspend fun sendVoice(
+        roomId: String,
+        messageId: String,
+        audio: ByteArray,
+        durationMs: Long,
+        waveform: List<Float>,
+    ): RoomMessage {
         val uid = requireUserId()
         val path = "$uid/$roomId/$messageId.m4a"
         client.storage.from(VOICE_BUCKET).upload(path, audio) {
@@ -626,6 +642,7 @@ class SupabaseCommunityRepository(
                 voicePath = path,
                 voiceDurationMs = durationMs,
                 voiceSizeBytes = audio.size.toLong(),
+                voiceWaveform = encodeWaveform(waveform),
             )
         ) { select(Columns.raw(MESSAGE_COLUMNS)) }.decodeSingle<MessageDto>()
         return dto.toDomain().also { cacheAndTrim(it) }
@@ -665,20 +682,6 @@ class SupabaseCommunityRepository(
             client.from(REACTIONS).upsert(
                 ReactionDto(messageId = message.id, roomId = message.roomId, userId = uid, emoji = emoji)
             ) { ignoreDuplicates = true }
-        }
-    }
-
-    private suspend fun loadReactions(messageIds: List<String>): Map<String, Map<String, List<String>>> {
-        if (messageIds.isEmpty()) return emptyMap()
-        return try {
-            client.from(REACTIONS).select(Columns.list("message_id", "room_id", "user_id", "emoji")) {
-                filter { isIn("message_id", messageIds) }
-            }.decodeList<ReactionDto>()
-                .groupBy { it.messageId }
-                .mapValues { (_, list) -> list.groupBy({ it.emoji }, { it.userId }) }
-        } catch (e: Exception) {
-            Napier.w("loadReactions failed", e)
-            emptyMap()
         }
     }
 
@@ -970,6 +973,7 @@ class SupabaseCommunityRepository(
             edited = if (m.isEdited) 1L else 0L,
             reply_json = m.replyTo?.let { lenientJson.encodeToString(CachedReply.serializer(), CachedReply(it.messageId, it.senderNickname, it.text, it.isVoice)) },
             reactions_json = m.reactions.takeIf { it.isNotEmpty() }?.let { lenientJson.encodeToString(reactionsSerializer, it) },
+            voice_waveform = encodeWaveform(m.voiceWaveform),
         )
     }
 
@@ -1008,9 +1012,11 @@ class SupabaseCommunityRepository(
             text = body,
             voicePath = voicePath,
             voiceDurationMs = voiceDurationMs,
+            voiceWaveform = decodeWaveform(voiceWaveform),
             createdAtMillis = parseMillis(createdAt),
             createdAtRaw = createdAt,
             isEdited = editedAt != null,
+            reactions = reactions.orEmpty().groupBy({ it.emoji }, { it.userId }),
             replyTo = reply?.let {
                 ReplyPreview(
                     messageId = it.id,
@@ -1034,6 +1040,7 @@ private fun Room_message_cache.toDomain() = RoomMessage(
     text = body,
     voicePath = voice_path,
     voiceDurationMs = voice_duration_ms,
+    voiceWaveform = decodeWaveform(voice_waveform),
     createdAtMillis = created_at,
     createdAtRaw = created_at_raw,
     isEdited = edited == 1L,
@@ -1218,8 +1225,11 @@ private data class MessageDto(
     val body: String = "",
     @SerialName("voice_path") val voicePath: String? = null,
     @SerialName("voice_duration_ms") val voiceDurationMs: Long = 0,
+    @SerialName("voice_waveform") val voiceWaveform: String? = null,
     @SerialName("created_at") val createdAt: String,
     @SerialName("edited_at") val editedAt: String? = null,
+    /** Embedded on page loads only; realtime rows don't carry it. */
+    val reactions: List<ReactionEmbedDto>? = null,
     @SerialName("reply_to_id") val replyToId: String? = null,
     val sender: UserDto? = null,
     /** The quoted message (many-to-one via reply_to_id); tolerate an array form just in case. */
@@ -1234,6 +1244,12 @@ private data class MessageDto(
 }
 
 private val lenientJson = Json { ignoreUnknownKeys = true }
+
+@Serializable
+private data class ReactionEmbedDto(
+    @SerialName("user_id") val userId: String,
+    val emoji: String,
+)
 
 @Serializable
 private data class ReplyDto(
@@ -1279,6 +1295,7 @@ private data class NewMessageDto(
     @SerialName("voice_path") val voicePath: String? = null,
     @SerialName("voice_duration_ms") val voiceDurationMs: Long = 0,
     @SerialName("voice_size_bytes") val voiceSizeBytes: Long = 0,
+    @SerialName("voice_waveform") val voiceWaveform: String? = null,
     @SerialName("reply_to_id") val replyToId: String? = null,
 )
 

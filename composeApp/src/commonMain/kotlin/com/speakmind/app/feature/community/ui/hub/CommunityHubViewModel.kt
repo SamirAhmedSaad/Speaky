@@ -65,6 +65,11 @@ class CommunityHubViewModel(
 
     init {
         viewModelScope.launch {
+            // The saved login may still be loading on a cold start (e.g. opened from a notification).
+            repository.hasSession()
+            _uiState.update { it.copy(isGuest = repository.isGuest()) }
+        }
+        viewModelScope.launch {
             repository.onlineUserIds.collect { ids -> _uiState.update { it.copy(onlineUserIds = ids) } }
         }
         viewModelScope.launch {
@@ -81,8 +86,11 @@ class CommunityHubViewModel(
 
     /** Called whenever the page becomes visible again (e.g. back from a chat). */
     fun onResume() {
-        _uiState.update { it.copy(isGuest = repository.isGuest()) }
-        refresh()
+        viewModelScope.launch {
+            repository.hasSession()
+            _uiState.update { it.copy(isGuest = repository.isGuest()) }
+            refresh()
+        }
     }
 
     private fun refresh() {

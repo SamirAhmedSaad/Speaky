@@ -7,5 +7,8 @@ expect class VoiceRecorder() {
     fun stopRecording(): ByteArray
     fun cancelRecording()
     val isRecording: StateFlow<Boolean>
+    /** Current input loudness, 0..1, updated several times a second while recording. */
     val amplitudes: StateFlow<Float>
+    /** The last recording's loudness squeezed into [bars] values (0..1), for its waveform. */
+    fun recordedLevels(bars: Int): List<Float>
 }

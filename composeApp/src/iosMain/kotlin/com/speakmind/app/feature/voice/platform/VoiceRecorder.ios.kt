@@ -23,6 +23,8 @@ actual class VoiceRecorder actual constructor() {
         return ByteArray(0)
     }
 
+    actual fun recordedLevels(bars: Int): List<Float> = emptyList()
+
     actual fun cancelRecording() {
         _isRecording.value = false
         _amplitudes.value = 0f
