@@ -74,11 +74,4 @@ $$;
 revoke execute on function public.mark_hub_notified(uuid[]) from public, anon, authenticated;
 grant execute on function public.mark_hub_notified(uuid[]) to service_role;
 
--- Turning it on (sends to real users): run every 15 minutes.
--- select cron.schedule('hub-digest', '*/15 * * * *', $$
---   select net.http_post(
---     url := 'https://bkivjjvgzsqgbkfubjtx.supabase.co/functions/v1/hub-digest',
---     headers := jsonb_build_object('Content-Type', 'application/json',
---       'x-push-secret', (select value from private.app_secrets where name = 'push_secret')),
---     body := '{}'::jsonb, timeout_milliseconds := 15000);
--- $$);
+-- (Superseded by 20261013110000: real-time Hub alerts, one per user until they open the Hub.)

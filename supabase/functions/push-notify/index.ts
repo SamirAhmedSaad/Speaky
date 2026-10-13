@@ -1,4 +1,5 @@
-// Sends an FCM push for a new private chat message, or a reply to you in Speaky Hub.
+// Sends FCM pushes for a new message: private chats (members), a reply to you in Speaky Hub,
+// and new Speaky Hub messages — each user gets one Hub notification until they open the Hub again.
 // Called by the trg_message_push trigger (pg_net) with a shared secret.
 // Needs the FCM_SERVICE_ACCOUNT secret: the Firebase service-account JSON
 // (Firebase console → Project settings → Service accounts → Generate new private key).
@@ -9,6 +10,8 @@ import { importPKCS8, SignJWT } from "npm:jose@5.9.6";
 type ServiceAccount = { project_id: string; client_email: string; private_key: string };
 type Recipient = {
   token: string;
+  user_id: string;
+  kind: "direct" | "reply" | "hub";
   room_id: string;
   room_kind: string;
   room_name: string;
@@ -57,7 +60,7 @@ Deno.serve(async (req: Request) => {
   const sa = JSON.parse(saJson) as ServiceAccount;
 
   const { message_id } = await req.json();
-  const { data, error } = await admin.rpc("push_recipients", { p_message: message_id });
+  const { data, error } = await admin.rpc("push_recipients_v2", { p_message: message_id });
   if (error) return new Response(JSON.stringify({ error: error.message }), { status: 500 });
   const recipients = (data ?? []) as Recipient[];
   if (recipients.length === 0) return new Response(JSON.stringify({ sent: 0 }), { status: 200 });
@@ -65,15 +68,17 @@ Deno.serve(async (req: Request) => {
   const accessToken = await googleAccessToken(sa);
   const url = `https://fcm.googleapis.com/v1/projects/${sa.project_id}/messages:send`;
   const stale: string[] = [];
+  const hubNotified = new Set<string>();
   let sent = 0;
 
   await Promise.all(recipients.map(async (r) => {
     const isGroup = r.room_kind === "group";
-    const isHubReply = r.room_kind === "channel";
-    const title = isHubReply
+    const title = r.kind === "reply"
       ? `${r.sender_nickname} replied to you`
-      : isGroup ? `${r.sender_nickname} · ${r.room_name}` : r.sender_nickname;
-    const body = r.unread > 1 ? `${r.preview}  (${r.unread} new)` : r.preview;
+      : r.kind === "hub" ? `${r.room_name} 🌍` : isGroup ? `${r.sender_nickname} · ${r.room_name}` : r.sender_nickname;
+    const body = r.kind === "hub"
+      ? `${r.sender_nickname}: ${r.preview}`
+      : r.unread > 1 ? `${r.preview}  (${r.unread} new)` : r.preview;
     const res = await fetch(url, {
       method: "POST",
       headers: { Authorization: `Bearer ${accessToken}`, "Content-Type": "application/json" },
@@ -82,8 +87,9 @@ Deno.serve(async (req: Request) => {
           token: r.token,
           // Data-only so the app decides whether to show it (skips the chat that's open on screen).
           data: {
+            kind: r.kind,
             room_id: r.room_id,
-            room_title: isGroup || isHubReply ? r.room_name : r.sender_nickname,
+            room_title: r.room_kind === "direct" ? r.sender_nickname : r.room_name,
             title,
             body,
           },
@@ -93,12 +99,15 @@ Deno.serve(async (req: Request) => {
     });
     if (res.ok) {
       sent++;
+      if (r.kind === "hub") hubNotified.add(r.user_id);
     } else {
       const err = await res.text();
       if (err.includes("UNREGISTERED") || err.includes("INVALID_ARGUMENT")) stale.push(r.token);
     }
   }));
 
+  // Hub: no more notifications for these users until they open the Hub (mark_room_read resets it).
+  if (hubNotified.size > 0) await admin.rpc("mark_hub_notified", { p_users: [...hubNotified] });
   if (stale.length > 0) await admin.from("device_tokens").delete().in("token", stale);
   return new Response(JSON.stringify({ sent, removed_tokens: stale.length }), {
     headers: { "Content-Type": "application/json" },

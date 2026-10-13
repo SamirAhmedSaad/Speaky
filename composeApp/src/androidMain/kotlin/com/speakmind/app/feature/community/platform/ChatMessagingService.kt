@@ -40,16 +40,14 @@ class ChatMessagingService : FirebaseMessagingService() {
         val roomId = data["room_id"] ?: return
         // The chat is already open on screen.
         if (ActiveRoomTracker.activeRoomId.value == roomId) return
-        val isHubDigest = data["kind"] == "hub_digest"
-        // Hub summaries are a nice-to-have: never at night.
-        if (isHubDigest && isQuietHours()) return
+        val isHub = data["kind"] == "hub"
         showNotification(
             context = this,
             roomId = roomId,
             roomTitle = data["room_title"].orEmpty(),
             title = data["title"].orEmpty(),
             body = data["body"].orEmpty(),
-            channel = if (isHubDigest) HUB_CHANNEL else CHANNEL_ID,
+            channel = if (isHub) HUB_CHANNEL else CHANNEL_ID,
         )
     }
 
@@ -59,13 +57,8 @@ class ChatMessagingService : FirebaseMessagingService() {
         /** Lets MainActivity ignore re-delivered (already handled) notification taps. */
         const val EXTRA_TAP_ID = "community_tap_id"
         private const val CHANNEL_ID = "community_messages"
-        /** Speaky Hub summaries get their own, quieter channel that users can switch off in Android settings. */
-        private const val HUB_CHANNEL = "speaky_hub_digest"
-
-        private fun isQuietHours(): Boolean {
-            val hour = java.util.Calendar.getInstance().get(java.util.Calendar.HOUR_OF_DAY)
-            return hour >= 22 || hour < 8
-        }
+        /** Speaky Hub alerts get their own, quieter channel that users can switch off in Android settings. */
+        private const val HUB_CHANNEL = "speaky_hub"
 
         /** Fetches the current FCM token and saves it for the signed-in user. */
         fun registerCurrentToken() {
@@ -130,8 +123,8 @@ class ChatMessagingService : FirebaseMessagingService() {
                     }
                 )
                 manager.createNotificationChannel(
-                    NotificationChannel(HUB_CHANNEL, "Speaky Hub summaries", NotificationManager.IMPORTANCE_DEFAULT).apply {
-                        description = "At most twice a day, when you've missed messages in Speaky Hub"
+                    NotificationChannel(HUB_CHANNEL, "Speaky Hub", NotificationManager.IMPORTANCE_DEFAULT).apply {
+                        description = "One alert when Speaky Hub has new messages, until you open it"
                     }
                 )
             }

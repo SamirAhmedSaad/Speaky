@@ -356,8 +356,8 @@ class RoomChatViewModel(
         _uiState.update { it.copy(isDirectBlocked = blocked) }
     }
 
+    /** Also for Speaky Hub: reading it re-arms its "one notification until you open the Hub" alert. */
     private fun scheduleMarkRead() {
-        if (_uiState.value.kind == RoomKind.CHANNEL) return
         markReadJob?.cancel()
         markReadJob = viewModelScope.launch {
             delay(800)
