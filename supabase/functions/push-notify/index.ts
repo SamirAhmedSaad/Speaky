@@ -1,5 +1,5 @@
 // Sends FCM pushes for a new message: private chats (members), a reply to you in Speaky Hub,
-// and new Speaky Hub messages — each user gets one Hub notification until they open the Hub again.
+// and new Speaky Hub messages — one growing Hub notification per user (up to 5 messages) until they open the Hub.
 // Called by the trg_message_push trigger (pg_net) with a shared secret.
 // Needs the FCM_SERVICE_ACCOUNT secret: the Firebase service-account JSON
 // (Firebase console → Project settings → Service accounts → Generate new private key).
@@ -88,6 +88,8 @@ Deno.serve(async (req: Request) => {
           // Data-only so the app decides whether to show it (skips the chat that's open on screen).
           data: {
             kind: r.kind,
+            // Hub: this message's number (1..5) in the user's growing notification.
+            count: String(r.unread),
             room_id: r.room_id,
             room_title: r.room_kind === "direct" ? r.sender_nickname : r.room_name,
             title,
@@ -106,7 +108,7 @@ Deno.serve(async (req: Request) => {
     }
   }));
 
-  // Hub: no more notifications for these users until they open the Hub (mark_room_read resets it).
+  // Hub: counts toward the 5-message cap until they open the Hub (mark_room_read resets it).
   if (hubNotified.size > 0) await admin.rpc("mark_hub_notified", { p_users: [...hubNotified] });
   if (stale.length > 0) await admin.from("device_tokens").delete().in("token", stale);
   return new Response(JSON.stringify({ sent, removed_tokens: stale.length }), {

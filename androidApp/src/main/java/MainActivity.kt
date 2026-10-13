@@ -23,6 +23,8 @@ import com.speakmind.app.ads.AdManager
 import com.speakmind.app.ads.ConsentManager
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
+import com.speakmind.app.feature.community.data.ActiveRoomTracker
+import com.speakmind.app.feature.community.data.model.SPEAKY_HUB_ROOM_ID
 import com.speakmind.app.feature.community.platform.ChatMessagingService
 import com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver
 import com.speakmind.app.feature.vocabulary.domain.VocabRefreshService
@@ -114,6 +116,12 @@ class MainActivity : ComponentActivity() {
         handleDailyWordIntent(intent)
         handleChatIntent(intent)
         ChatMessagingService.registerCurrentToken()
+        lifecycleScope.launch {
+            // Opening Speaky Hub clears its (growing) notification.
+            ActiveRoomTracker.activeRoomId.collect { roomId ->
+                if (roomId == SPEAKY_HUB_ROOM_ID) ChatMessagingService.clearHubNotification(this@MainActivity)
+            }
+        }
     }
 
     private var countedOnline = false

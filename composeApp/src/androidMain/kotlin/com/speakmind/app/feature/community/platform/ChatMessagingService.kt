@@ -40,14 +40,24 @@ class ChatMessagingService : FirebaseMessagingService() {
         val roomId = data["room_id"] ?: return
         // The chat is already open on screen.
         if (ActiveRoomTracker.activeRoomId.value == roomId) return
-        val isHub = data["kind"] == "hub"
+        if (data["kind"] == "hub") {
+            showHubNotification(
+                context = this,
+                roomId = roomId,
+                roomTitle = data["room_title"].orEmpty(),
+                title = data["title"].orEmpty(),
+                line = data["body"].orEmpty(),
+                count = data["count"]?.toIntOrNull() ?: 1,
+            )
+            return
+        }
         showNotification(
             context = this,
             roomId = roomId,
             roomTitle = data["room_title"].orEmpty(),
             title = data["title"].orEmpty(),
             body = data["body"].orEmpty(),
-            channel = if (isHub) HUB_CHANNEL else CHANNEL_ID,
+            channel = CHANNEL_ID,
         )
     }
 
@@ -59,6 +69,60 @@ class ChatMessagingService : FirebaseMessagingService() {
         private const val CHANNEL_ID = "community_messages"
         /** Speaky Hub alerts get their own, quieter channel that users can switch off in Android settings. */
         private const val HUB_CHANNEL = "speaky_hub"
+
+        private const val HUB_NOTIFICATION_ID = 0x5EA4_0001
+        private const val HUB_PREFS = "hub_notification"
+        private const val HUB_MAX_LINES = 5
+
+        /**
+         * Speaky Hub: one notification that grows with each new message (up to 5 lines). Only the
+         * first one makes a sound; later ones update it silently. Cleared when the Hub is opened.
+         */
+        private fun showHubNotification(context: Context, roomId: String, roomTitle: String, title: String, line: String, count: Int) {
+            val prefs = context.getSharedPreferences(HUB_PREFS, Context.MODE_PRIVATE)
+            val lines = (prefs.getString("lines", "").orEmpty().split('\n').filter { it.isNotBlank() } + line.replace('\n', ' '))
+                .takeLast(HUB_MAX_LINES)
+            prefs.edit().putString("lines", lines.joinToString("\n")).apply()
+            val summary = if (count >= HUB_MAX_LINES) "$HUB_MAX_LINES+ new messages" else if (count > 1) "$count new messages" else "New message"
+            val style = NotificationCompat.InboxStyle().setSummaryText(summary)
+            lines.forEach { style.addLine(it) }
+            val notification = NotificationCompat.Builder(context, HUB_CHANNEL)
+                .setContentTitle(title)
+                .setContentText(if (lines.size > 1) "$summary · ${lines.last()}" else line)
+                .setStyle(style)
+                .setNumber(count)
+                .setOnlyAlertOnce(true)
+                .setSmallIcon(R.drawable.ic_notification)
+                .setContentIntent(openChatIntent(context, roomId, roomTitle.ifEmpty { title }))
+                .setAutoCancel(true)
+                .setCategory(NotificationCompat.CATEGORY_MESSAGE)
+                .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                .build()
+            createChannels(context)
+            (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).notify(HUB_NOTIFICATION_ID, notification)
+        }
+
+        /** The user opened Speaky Hub: remove its notification and start the next one fresh. */
+        fun clearHubNotification(context: Context) {
+            context.getSharedPreferences(HUB_PREFS, Context.MODE_PRIVATE).edit().clear().apply()
+            (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).cancel(HUB_NOTIFICATION_ID)
+        }
+
+        private fun openChatIntent(context: Context, roomId: String, roomTitle: String): PendingIntent {
+            val openIntent = Intent(context, Class.forName("com.speakmind.app.MainActivity")).apply {
+                // Reuse the running app (onNewIntent) instead of restarting it.
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+                putExtra(EXTRA_ROOM_ID, roomId)
+                putExtra(EXTRA_ROOM_TITLE, roomTitle)
+                putExtra(EXTRA_TAP_ID, System.currentTimeMillis())
+            }
+            return PendingIntent.getActivity(
+                context,
+                roomId.hashCode(),
+                openIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+            )
+        }
 
         /** Fetches the current FCM token and saves it for the signed-in user. */
         fun registerCurrentToken() {
@@ -86,19 +150,7 @@ class ChatMessagingService : FirebaseMessagingService() {
             channel: String,
         ) {
             createChannels(context)
-            val openIntent = Intent(context, Class.forName("com.speakmind.app.MainActivity")).apply {
-                // Reuse the running app (onNewIntent) instead of restarting it.
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
-                putExtra(EXTRA_ROOM_ID, roomId)
-                putExtra(EXTRA_ROOM_TITLE, roomTitle.ifEmpty { title })
-                putExtra(EXTRA_TAP_ID, System.currentTimeMillis())
-            }
-            val pendingIntent = PendingIntent.getActivity(
-                context,
-                roomId.hashCode(),
-                openIntent,
-                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
-            )
+            val pendingIntent = openChatIntent(context, roomId, roomTitle.ifEmpty { title })
             val notification = NotificationCompat.Builder(context, channel)
                 .setContentTitle(title)
                 .setContentText(body)
@@ -107,7 +159,7 @@ class ChatMessagingService : FirebaseMessagingService() {
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true)
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
-                .setPriority(if (channel == HUB_CHANNEL) NotificationCompat.PRIORITY_DEFAULT else NotificationCompat.PRIORITY_HIGH)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .build()
             val manager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
             // One notification per chat; newer messages replace older ones.
@@ -124,7 +176,7 @@ class ChatMessagingService : FirebaseMessagingService() {
                 )
                 manager.createNotificationChannel(
                     NotificationChannel(HUB_CHANNEL, "Speaky Hub", NotificationManager.IMPORTANCE_DEFAULT).apply {
-                        description = "One alert when Speaky Hub has new messages, until you open it"
+                        description = "One notification with the latest Speaky Hub messages, until you open it"
                     }
                 )
             }
