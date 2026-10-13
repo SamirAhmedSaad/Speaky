@@ -245,7 +245,7 @@ class SupabaseCommunityRepository(
     override suspend fun unreadPrivateCount(): Int {
         if (!hasSession() || isGuest()) return 0
         return try {
-            myRooms().filter { it.kind == RoomKind.DIRECT }.sumOf { it.unreadCount }
+            client.postgrest.rpc("my_unread_private_count").decodeAs<Long>().toInt()
         } catch (_: Exception) {
             0
         }
@@ -458,9 +458,26 @@ class SupabaseCommunityRepository(
     override suspend fun myRooms(): List<ChatRoom> =
         client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }.also { lastRooms = it }
 
+    override suspend fun directChats(pageSize: Int, after: ChatRoom?): List<ChatRoom> {
+        val page = client.postgrest.rpc("my_rooms_page", buildJsonObject {
+            put("p_limit", pageSize)
+            put("p_kind", "direct")
+            if (after != null && after.lastMessageAtRaw.isNotEmpty()) {
+                put("p_before_at", after.lastMessageAtRaw)
+                put("p_before_id", after.id)
+            }
+        }).decodeList<MyRoomDto>().map { it.toDomain() }
+        lastRooms = (if (after == null) page else lastRooms + page).distinctBy { it.id }
+        return page
+    }
+
     override suspend fun getRoom(roomId: String): ChatRoom? {
         lastRooms.firstOrNull { it.id == roomId }?.let { return it }
-        myRooms().firstOrNull { it.id == roomId }?.let { return it }
+        // Just this room (not the whole chat list).
+        client.postgrest.rpc("my_rooms_page", buildJsonObject {
+            put("p_limit", 1)
+            put("p_room", roomId)
+        }).decodeList<MyRoomDto>().firstOrNull()?.toDomain()?.let { return it }
         return client.from(ROOMS).select(Columns.raw(ROOM_COLUMNS)) {
             filter { eq("id", roomId) }
         }.decodeSingleOrNull<RoomDto>()?.toDomain(isMember = false)
@@ -694,13 +711,18 @@ class SupabaseCommunityRepository(
         }
     }
 
-    override suspend fun adminReports(status: String): List<AdminReport> =
-        client.postgrest.rpc("admin_reports", buildJsonObject { put("p_status", status) })
+    override suspend fun adminReports(status: String, pageSize: Int, after: AdminReport?): List<AdminReport> =
+        client.postgrest.rpc("admin_reports_page", buildJsonObject {
+            put("p_status", status)
+            put("p_limit", pageSize)
+            if (after != null && after.createdAtRaw.isNotEmpty()) put("p_before", after.createdAtRaw)
+        })
             .decodeList<AdminReportDto>()
             .map {
                 AdminReport(
                     id = it.id,
                     createdAtMillis = parseMillis(it.createdAt),
+                    createdAtRaw = it.createdAt.orEmpty(),
                     reason = it.reason,
                     details = it.details,
                     messageSnapshot = it.messageSnapshot,
@@ -1128,6 +1150,7 @@ private data class RoomDto(
         name = name,
         description = description,
         lastMessageAtMillis = parseMillis(lastMessageAt),
+        lastMessageAtRaw = lastMessageAt.orEmpty(),
         lastMessagePreview = lastMessagePreview,
         memberCount = memberCount,
         isMember = isMember,
@@ -1161,6 +1184,7 @@ private data class MyRoomDto(
         name = name,
         description = description,
         lastMessageAtMillis = parseMillis(lastMessageAt),
+        lastMessageAtRaw = lastMessageAt.orEmpty(),
         lastMessagePreview = lastMessagePreview,
         memberCount = memberCount,
         unreadCount = unreadCount,

@@ -3,7 +3,6 @@ package com.speakmind.app.feature.community.ui.hub
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.feature.community.data.model.ChatRoom
-import com.speakmind.app.feature.community.data.model.RoomKind
 import com.speakmind.app.feature.community.data.model.SPEAKY_HUB_ROOM_ID
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
@@ -36,6 +35,10 @@ data class CommunityHubUiState(
     /** Private chats, newest first. */
     val chats: List<ChatRoom> = emptyList(),
     val isLoadingChats: Boolean = true,
+    val isLoadingMoreChats: Boolean = false,
+    val hasMoreChats: Boolean = false,
+    /** Unread private messages across all chats (not just the loaded page). */
+    val unreadTotal: Int = 0,
     val isSigningIn: Boolean = false,
     val isAdmin: Boolean = false,
     val myNickname: String = "",
@@ -48,7 +51,7 @@ data class CommunityHubUiState(
     val isDeletingAccount: Boolean = false,
     val error: String? = null,
 ) {
-    val unreadTotal: Int get() = chats.sumOf { it.unreadCount }
+
 }
 
 /** Community inbox: Speaky Hub pinned on top, then private chats. People is in the top bar. */
@@ -118,12 +121,40 @@ class CommunityHubViewModel(
             }
         }
         viewModelScope.launch {
+            val unread = repository.unreadPrivateCount()
+            _uiState.update { it.copy(unreadTotal = unread) }
+        }
+        viewModelScope.launch {
             try {
-                val chats = repository.myRooms().filter { it.kind == RoomKind.DIRECT }
-                _uiState.update { it.copy(chats = chats, isLoadingChats = false) }
+                // A live refresh keeps the pages already scrolled through (up to the server's max of 100).
+                val size = _uiState.value.chats.size.coerceIn(PAGE, 100)
+                val chats = repository.directChats(pageSize = size, after = null)
+                _uiState.update { it.copy(chats = chats, isLoadingChats = false, hasMoreChats = chats.size >= size) }
             } catch (e: Exception) {
                 Napier.w("Inbox load failed", e)
                 _uiState.update { it.copy(isLoadingChats = false, error = friendlyCommunityError(e, "Couldn't load your messages.")) }
+            }
+        }
+    }
+
+    fun loadMoreChats() {
+        val state = _uiState.value
+        if (state.isLoadingChats || state.isLoadingMoreChats || !state.hasMoreChats) return
+        val last = state.chats.lastOrNull() ?: return
+        _uiState.update { it.copy(isLoadingMoreChats = true) }
+        viewModelScope.launch {
+            try {
+                val page = repository.directChats(pageSize = PAGE, after = last)
+                _uiState.update {
+                    it.copy(
+                        chats = (it.chats + page).distinctBy { c -> c.id },
+                        hasMoreChats = page.size >= PAGE,
+                        isLoadingMoreChats = false,
+                    )
+                }
+            } catch (e: Exception) {
+                Napier.w("Inbox page failed", e)
+                _uiState.update { it.copy(isLoadingMoreChats = false) }
             }
         }
     }
@@ -232,4 +263,8 @@ class CommunityHubViewModel(
 
     /** Screen visibility drives the user's online status. */
     fun onVisibilityChanged(visible: Boolean) = repository.setActive(visible)
+
+    private companion object {
+        const val PAGE = 30
+    }
 }

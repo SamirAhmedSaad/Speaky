@@ -10,6 +10,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -114,7 +115,12 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
                             )
                         }
                     }
-                    items(uiState.chats, key = { it.id }) { chat -> PrivateChatCard(chat, uiState, viewModel) }
+                    itemsIndexed(uiState.chats, key = { _, chat -> chat.id }) { index, chat ->
+                        // Next page when the last few chats come into view.
+                        if (index >= uiState.chats.size - 5) LaunchedEffect(uiState.chats.size) { viewModel.loadMoreChats() }
+                        PrivateChatCard(chat, uiState, viewModel)
+                    }
+                    if (uiState.isLoadingMoreChats) item(key = "more_chats") { CommunityLoading() }
                 }
             }
         }

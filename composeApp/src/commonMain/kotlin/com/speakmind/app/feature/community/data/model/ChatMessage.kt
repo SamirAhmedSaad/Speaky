@@ -61,6 +61,8 @@ data class ChatRoom(
     val name: String,
     val description: String = "",
     val lastMessageAtMillis: Long = 0L,
+    /** Exact server timestamp, the chat list's page cursor. */
+    val lastMessageAtRaw: String = "",
     val lastMessagePreview: String = "",
     val memberCount: Int = 0,
     val unreadCount: Int = 0,
@@ -93,6 +95,8 @@ data class TypingUser(
 data class AdminReport(
     val id: String,
     val createdAtMillis: Long,
+    /** Exact server timestamp, the page cursor. */
+    val createdAtRaw: String = "",
     val reason: String,
     val details: String,
     val messageSnapshot: String,

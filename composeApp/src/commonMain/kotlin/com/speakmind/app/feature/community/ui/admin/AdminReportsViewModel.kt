@@ -24,6 +24,8 @@ data class AdminReportsUiState(
     val reports: List<AdminReport> = emptyList(),
     val moderators: List<CommunityUser> = emptyList(),
     val isLoading: Boolean = true,
+    val isLoadingMore: Boolean = false,
+    val hasMore: Boolean = false,
     val banTarget: AdminReport? = null,
     val info: String? = null,
     val error: String? = null,
@@ -55,12 +57,30 @@ class AdminReportsViewModel(
                     val moderators = repository.adminModerators()
                     _uiState.update { it.copy(moderators = moderators, isLoading = false) }
                 } else {
-                    val reports = repository.adminReports(_uiState.value.status)
-                    _uiState.update { it.copy(reports = reports, isLoading = false) }
+                    val reports = repository.adminReports(_uiState.value.status, PAGE, after = null)
+                    _uiState.update { it.copy(reports = reports, isLoading = false, hasMore = reports.size >= PAGE) }
                 }
             } catch (e: Exception) {
                 Napier.w("adminReports failed", e)
                 _uiState.update { it.copy(isLoading = false, error = friendlyCommunityError(e, "Couldn't load reports.")) }
+            }
+        }
+    }
+
+    fun loadMore() {
+        val state = _uiState.value
+        if (state.status == MODERATORS_TAB || state.isLoading || state.isLoadingMore || !state.hasMore) return
+        val last = state.reports.lastOrNull() ?: return
+        _uiState.update { it.copy(isLoadingMore = true) }
+        viewModelScope.launch {
+            try {
+                val page = repository.adminReports(state.status, PAGE, after = last)
+                _uiState.update {
+                    it.copy(reports = (it.reports + page).distinctBy { r -> r.id }, hasMore = page.size >= PAGE, isLoadingMore = false)
+                }
+            } catch (e: Exception) {
+                Napier.w("adminReports page failed", e)
+                _uiState.update { it.copy(isLoadingMore = false) }
             }
         }
     }
@@ -103,4 +123,8 @@ class AdminReportsViewModel(
 
     fun onMessageDismissed() = _uiState.update { it.copy(info = null, error = null) }
     fun onBack() = navigationManager.back()
+
+    private companion object {
+        const val PAGE = 30
+    }
 }

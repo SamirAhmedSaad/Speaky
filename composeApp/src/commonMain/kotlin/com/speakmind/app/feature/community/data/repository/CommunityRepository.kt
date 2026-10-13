@@ -58,6 +58,8 @@ interface CommunityRepository {
 
     // Rooms
     suspend fun myRooms(): List<ChatRoom>
+    /** Private chats, newest activity first; pass the last room of the previous page for the next one. */
+    suspend fun directChats(pageSize: Int, after: ChatRoom?): List<ChatRoom>
     suspend fun getRoom(roomId: String): ChatRoom?
     suspend fun roomMembers(roomId: String): List<GroupMember>
     suspend fun setMuted(roomId: String, muted: Boolean)
@@ -99,7 +101,7 @@ interface CommunityRepository {
 
     // Admin moderation (only works for accounts in private.community_admins)
     suspend fun isAdmin(): Boolean
-    suspend fun adminReports(status: String): List<AdminReport>
+    suspend fun adminReports(status: String, pageSize: Int, after: AdminReport?): List<AdminReport>
     suspend fun adminSetReportStatus(reportId: String, status: String)
     suspend fun adminBan(userId: String, reason: String, removeMessages: Boolean)
     suspend fun adminUnban(userId: String)
