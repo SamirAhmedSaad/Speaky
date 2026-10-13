@@ -41,6 +41,8 @@ data class CommunityHubUiState(
     val unreadTotal: Int = 0,
     val isSigningIn: Boolean = false,
     val isAdmin: Boolean = false,
+    /** Speaky Hub summary notifications; null until loaded. */
+    val hubAlerts: Boolean? = null,
     val myNickname: String = "",
     val myGender: String = "",
     val myPhotoUrl: String? = null,
@@ -111,9 +113,11 @@ class CommunityHubViewModel(
         viewModelScope.launch {
             val profile = repository.getLocalProfile()
             val admin = repository.isAdmin()
+            val hubAlerts = runCatching { repository.hubNotificationsEnabled() }.getOrNull()
             _uiState.update {
                 it.copy(
                     isAdmin = admin,
+                    hubAlerts = hubAlerts,
                     myNickname = profile?.nickname.orEmpty(),
                     myGender = profile?.gender.orEmpty(),
                     myPhotoUrl = profile?.photoUrl,
@@ -133,6 +137,18 @@ class CommunityHubViewModel(
             } catch (e: Exception) {
                 Napier.w("Inbox load failed", e)
                 _uiState.update { it.copy(isLoadingChats = false, error = friendlyCommunityError(e, "Couldn't load your messages.")) }
+            }
+        }
+    }
+
+    fun onToggleHubAlerts() {
+        val next = !(_uiState.value.hubAlerts ?: true)
+        _uiState.update { it.copy(hubAlerts = next) }
+        viewModelScope.launch {
+            try {
+                repository.setHubNotifications(next)
+            } catch (e: Exception) {
+                _uiState.update { it.copy(hubAlerts = !next, error = friendlyCommunityError(e, "Couldn't update notifications.")) }
             }
         }
     }

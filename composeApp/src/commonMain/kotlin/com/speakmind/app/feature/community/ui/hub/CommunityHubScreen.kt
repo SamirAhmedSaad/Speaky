@@ -84,7 +84,7 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
                 onBack = viewModel::onBack,
                 actions = {
                     PeopleButton(onClick = viewModel::openPeople)
-                    if (!uiState.isGuest) AccountMenu(viewModel, uiState.isAdmin)
+                    if (!uiState.isGuest) AccountMenu(viewModel, uiState.isAdmin, uiState.hubAlerts)
                 },
             )
             LazyColumn(
@@ -320,7 +320,7 @@ private fun PeopleButton(onClick: () -> Unit) {
 }
 
 @Composable
-private fun AccountMenu(viewModel: CommunityHubViewModel, isAdmin: Boolean) {
+private fun AccountMenu(viewModel: CommunityHubViewModel, isAdmin: Boolean, hubAlerts: Boolean?) {
     val colors = LocalSpeakMindColors.current
     var open by remember { mutableStateOf(false) }
     Box {
@@ -335,6 +335,15 @@ private fun AccountMenu(viewModel: CommunityHubViewModel, isAdmin: Boolean) {
                     viewModel.onEditProfile()
                 },
             )
+            if (hubAlerts != null) {
+                DropdownMenuItem(
+                    text = { Text(if (hubAlerts) "🔔 Speaky Hub alerts: On" else "🔕 Speaky Hub alerts: Off") },
+                    onClick = {
+                        open = false
+                        viewModel.onToggleHubAlerts()
+                    },
+                )
+            }
             if (isAdmin) {
                 DropdownMenuItem(
                     text = { Text("🛡️ Reports") },

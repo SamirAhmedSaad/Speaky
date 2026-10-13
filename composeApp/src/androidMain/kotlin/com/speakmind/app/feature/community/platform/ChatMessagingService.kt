@@ -40,12 +40,16 @@ class ChatMessagingService : FirebaseMessagingService() {
         val roomId = data["room_id"] ?: return
         // The chat is already open on screen.
         if (ActiveRoomTracker.activeRoomId.value == roomId) return
+        val isHubDigest = data["kind"] == "hub_digest"
+        // Hub summaries are a nice-to-have: never at night.
+        if (isHubDigest && isQuietHours()) return
         showNotification(
             context = this,
             roomId = roomId,
             roomTitle = data["room_title"].orEmpty(),
             title = data["title"].orEmpty(),
             body = data["body"].orEmpty(),
+            channel = if (isHubDigest) HUB_CHANNEL else CHANNEL_ID,
         )
     }
 
@@ -55,6 +59,13 @@ class ChatMessagingService : FirebaseMessagingService() {
         /** Lets MainActivity ignore re-delivered (already handled) notification taps. */
         const val EXTRA_TAP_ID = "community_tap_id"
         private const val CHANNEL_ID = "community_messages"
+        /** Speaky Hub summaries get their own, quieter channel that users can switch off in Android settings. */
+        private const val HUB_CHANNEL = "speaky_hub_digest"
+
+        private fun isQuietHours(): Boolean {
+            val hour = java.util.Calendar.getInstance().get(java.util.Calendar.HOUR_OF_DAY)
+            return hour >= 22 || hour < 8
+        }
 
         /** Fetches the current FCM token and saves it for the signed-in user. */
         fun registerCurrentToken() {
@@ -73,8 +84,15 @@ class ChatMessagingService : FirebaseMessagingService() {
             }
         }
 
-        private fun showNotification(context: Context, roomId: String, roomTitle: String, title: String, body: String) {
-            createChannel(context)
+        private fun showNotification(
+            context: Context,
+            roomId: String,
+            roomTitle: String,
+            title: String,
+            body: String,
+            channel: String,
+        ) {
+            createChannels(context)
             val openIntent = Intent(context, Class.forName("com.speakmind.app.MainActivity")).apply {
                 // Reuse the running app (onNewIntent) instead of restarting it.
                 flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
@@ -88,7 +106,7 @@ class ChatMessagingService : FirebaseMessagingService() {
                 openIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
             )
-            val notification = NotificationCompat.Builder(context, CHANNEL_ID)
+            val notification = NotificationCompat.Builder(context, channel)
                 .setContentTitle(title)
                 .setContentText(body)
                 .setStyle(NotificationCompat.BigTextStyle().bigText(body))
@@ -96,19 +114,26 @@ class ChatMessagingService : FirebaseMessagingService() {
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true)
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
-                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .setPriority(if (channel == HUB_CHANNEL) NotificationCompat.PRIORITY_DEFAULT else NotificationCompat.PRIORITY_HIGH)
                 .build()
             val manager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
             // One notification per chat; newer messages replace older ones.
             manager.notify(roomId.hashCode(), notification)
         }
 
-        private fun createChannel(context: Context) {
+        private fun createChannels(context: Context) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                val channel = NotificationChannel(CHANNEL_ID, "Community messages", NotificationManager.IMPORTANCE_HIGH).apply {
-                    description = "New messages in your groups and private chats"
-                }
-                context.getSystemService(NotificationManager::class.java).createNotificationChannel(channel)
+                val manager = context.getSystemService(NotificationManager::class.java)
+                manager.createNotificationChannel(
+                    NotificationChannel(CHANNEL_ID, "Private messages", NotificationManager.IMPORTANCE_HIGH).apply {
+                        description = "New private messages and replies to you"
+                    }
+                )
+                manager.createNotificationChannel(
+                    NotificationChannel(HUB_CHANNEL, "Speaky Hub summaries", NotificationManager.IMPORTANCE_DEFAULT).apply {
+                        description = "At most twice a day, when you've missed messages in Speaky Hub"
+                    }
+                )
             }
         }
     }

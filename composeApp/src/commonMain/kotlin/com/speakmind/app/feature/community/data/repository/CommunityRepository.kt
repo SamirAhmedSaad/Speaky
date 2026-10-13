@@ -98,6 +98,9 @@ interface CommunityRepository {
 
     // Push notifications
     suspend fun registerPushToken(token: String)
+    /** Speaky Hub summary notifications (at most twice a day). */
+    suspend fun hubNotificationsEnabled(): Boolean
+    suspend fun setHubNotifications(enabled: Boolean)
 
     // Admin moderation (only works for accounts in private.community_admins)
     suspend fun isAdmin(): Boolean

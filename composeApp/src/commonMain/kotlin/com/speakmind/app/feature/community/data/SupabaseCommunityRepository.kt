@@ -948,6 +948,13 @@ class SupabaseCommunityRepository(
 
     // ---------- Push notifications ----------
 
+    override suspend fun hubNotificationsEnabled(): Boolean =
+        client.postgrest.rpc("my_hub_notify").decodeAs<Boolean>()
+
+    override suspend fun setHubNotifications(enabled: Boolean) {
+        client.postgrest.rpc("set_hub_notify", buildJsonObject { put("p_on", enabled) })
+    }
+
     override suspend fun registerPushToken(token: String) {
         lastPushToken = token
         val uid = currentUserId() ?: return
