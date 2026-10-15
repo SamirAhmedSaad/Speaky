@@ -41,9 +41,15 @@
 -keepattributes SourceFile,LineNumberTable
 -keep public class * extends java.lang.Exception
 
-# Keep Google Mobile Ads
--keep class com.google.android.gms.ads.** { *; }
--dontwarn com.google.android.gms.ads.**
+# Unity LevelPlay + Unity Ads (the SDKs ship consumer rules; these are a safety net)
+-keep class com.unity3d.mediation.** { *; }
+-keep class com.unity3d.ads.** { *; }
+-keep class com.unity3d.services.** { *; }
+-keep class com.ironsource.** { *; }
+-dontwarn com.unity3d.**
+-dontwarn com.ironsource.**
+-keepattributes JavascriptInterface
+-keepclassmembers class * { @android.webkit.JavascriptInterface <methods>; }
 
 # Keep SQLDelight
 -keep class app.cash.sqldelight.** { *; }

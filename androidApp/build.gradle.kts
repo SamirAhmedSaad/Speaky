@@ -76,7 +76,6 @@ dependencies {
     implementation(libs.napier)
     implementation(libs.androidx.splashscreen)
     implementation(libs.work.runtime.ktx)
-    implementation(libs.google.ads)
 
     // Firebase
     implementation(platform(libs.firebase.bom))

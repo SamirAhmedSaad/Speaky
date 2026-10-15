@@ -87,7 +87,7 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
             item {
                 PolicySection(
                     title = "Advertising",
-                    body = "We use Google AdMob to display ads in the app. AdMob may collect device identifiers (such as Android Advertising ID), IP address, and usage data to serve personalized or non-personalized ads.\n\nYou can opt out of personalized ads at any time through your device settings: Settings → Google → Ads → Opt out of Ads Personalization.",
+                    body = "We use Unity LevelPlay (Unity Ads and its partner ad networks) to display ads in the app. These services may collect device identifiers (such as the Android Advertising ID), IP address, and usage data to serve ads. In the EEA, UK and Switzerland we only request non-personalized ads.\n\nYou can opt out of personalized ads at any time through your device settings: Settings → Google → Ads → Opt out of Ads Personalization.",
                 )
             }
 
@@ -108,7 +108,7 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
             item {
                 PolicySection(
                     title = "Third-Party Services",
-                    body = "Our app uses the following third-party services, each with their own privacy policies:\n\n• Google AdMob — advertising\n• Firebase Analytics — anonymous usage statistics\n• Firebase Crashlytics — crash reporting\n• Firebase Cloud Messaging — chat notifications\n• Supabase — community accounts, messages and voice messages\n• Google Sign-In — community sign-in",
+                    body = "Our app uses the following third-party services, each with their own privacy policies:\n\n• Unity LevelPlay / Unity Ads — advertising\n• Firebase Analytics — anonymous usage statistics\n• Firebase Crashlytics — crash reporting\n• Firebase Cloud Messaging — chat notifications\n• Supabase — community accounts, messages and voice messages\n• Google Sign-In — community sign-in",
                 )
             }
 

@@ -2,95 +2,113 @@ package com.speakmind.app.ads
 
 import android.app.Activity
 import android.content.Context
-import com.google.android.gms.ads.AdError
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.FullScreenContentCallback
-import com.google.android.gms.ads.LoadAdError
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.RequestConfiguration
-import com.google.android.gms.ads.interstitial.InterstitialAd
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
+import android.os.Handler
+import android.os.Looper
+import com.unity3d.mediation.LevelPlay
+import com.unity3d.mediation.LevelPlayAdError
+import com.unity3d.mediation.LevelPlayAdInfo
+import com.unity3d.mediation.LevelPlayConfiguration
+import com.unity3d.mediation.LevelPlayInitError
+import com.unity3d.mediation.LevelPlayInitListener
+import com.unity3d.mediation.LevelPlayInitRequest
+import com.unity3d.mediation.interstitial.LevelPlayInterstitialAd
+import com.unity3d.mediation.interstitial.LevelPlayInterstitialAdListener
 import io.github.aakira.napier.Napier
 
+/** Unity LevelPlay: initialization and the full-screen (interstitial) ad. Banners are in BannerAdView. */
 class AdManager(private val context: Context) {
 
-    private var interstitialAd: InterstitialAd? = null
-    private var isLoading = false
+    private var interstitial: LevelPlayInterstitialAd? = null
+    private var pendingDismiss: (() -> Unit)? = null
+    private var retryDelayMs = INITIAL_RETRY_MS
+    private val handler = Handler(Looper.getMainLooper())
 
-    fun initialize() {
-        val requestConfig = RequestConfiguration.Builder()
-            .setMaxAdContentRating(RequestConfiguration.MAX_AD_CONTENT_RATING_G)
-            .setTagForChildDirectedTreatment(RequestConfiguration.TAG_FOR_CHILD_DIRECTED_TREATMENT_FALSE)
-            .build()
-        MobileAds.setRequestConfiguration(requestConfig)
-
-        MobileAds.initialize(context) {
-            Napier.d { "AdMob SDK initialized" }
-            AdConfig.adsReady = true
-            loadInterstitial()
+    /** [launchContext] is the activity starting the app: some ad networks need one at init. */
+    fun initialize(launchContext: Context) {
+        if (!AdConfig.isConfigured) {
+            Napier.w { "LevelPlay app key not set; running without ads" }
+            return
         }
+        AdPrivacy.apply(context)
+        if (AdConfig.useTestAds) LevelPlay.setAdaptersDebug(true)
+        val request = LevelPlayInitRequest.Builder(AdConfig.APP_KEY).build()
+        LevelPlay.init(launchContext, request, object : LevelPlayInitListener {
+            override fun onInitSuccess(configuration: LevelPlayConfiguration) {
+                Napier.d { "LevelPlay initialized" }
+                AdConfig.adsReady = true
+                createInterstitial()
+            }
+
+            override fun onInitFailed(error: LevelPlayInitError) {
+                Napier.w { "LevelPlay init failed: ${error.errorMessage}" }
+            }
+        })
+    }
+
+    private fun createInterstitial() {
+        if (AdConfig.INTERSTITIAL_AD_UNIT_ID.isBlank()) return
+        interstitial = LevelPlayInterstitialAd(AdConfig.INTERSTITIAL_AD_UNIT_ID).apply {
+            setListener(object : LevelPlayInterstitialAdListener {
+                override fun onAdLoaded(adInfo: LevelPlayAdInfo) {
+                    retryDelayMs = INITIAL_RETRY_MS
+                }
+
+                override fun onAdLoadFailed(error: LevelPlayAdError) {
+                    Napier.w { "Interstitial failed to load: ${error.errorMessage}" }
+                    // Back off so a no-fill doesn't turn into a request loop.
+                    handler.postDelayed({ loadInterstitial() }, retryDelayMs)
+                    retryDelayMs = (retryDelayMs * 2).coerceAtMost(MAX_RETRY_MS)
+                }
+
+                override fun onAdDisplayed(adInfo: LevelPlayAdInfo) {}
+
+                override fun onAdDisplayFailed(error: LevelPlayAdError, adInfo: LevelPlayAdInfo) {
+                    Napier.w { "Interstitial failed to show: ${error.errorMessage}" }
+                    finishShow()
+                }
+
+                override fun onAdClosed(adInfo: LevelPlayAdInfo) = finishShow()
+            })
+        }
+        loadInterstitial()
     }
 
     fun loadInterstitial() {
-        if (!AdConfig.adsEnabled || isLoading || interstitialAd != null) return
-        isLoading = true
-
-        val adRequest = AdRequest.Builder().build()
-        InterstitialAd.load(
-            context,
-            AdConfig.INTERSTITIAL_AD_UNIT_ID,
-            adRequest,
-            object : InterstitialAdLoadCallback() {
-                override fun onAdLoaded(ad: InterstitialAd) {
-                    interstitialAd = ad
-                    isLoading = false
-                    Napier.d { "Interstitial ad loaded" }
-                }
-
-                override fun onAdFailedToLoad(error: LoadAdError) {
-                    interstitialAd = null
-                    isLoading = false
-                    Napier.w { "Interstitial ad failed to load: ${error.message}" }
-                }
-            }
-        )
+        if (!AdConfig.adsEnabled) return
+        val ad = interstitial ?: return
+        if (!ad.isAdReady()) ad.loadAd()
     }
 
     fun showInterstitial(activity: Activity, onDismissed: () -> Unit = {}) {
-        val ad = interstitialAd
-        if (ad == null) {
+        val ad = interstitial
+        if (ad == null || !ad.isAdReady()) {
             Napier.d { "Interstitial not ready, skipping" }
             onDismissed()
             loadInterstitial()
             return
         }
+        pendingDismiss = onDismissed
+        ad.showAd(activity)
+    }
 
-        ad.fullScreenContentCallback = object : FullScreenContentCallback() {
-            override fun onAdDismissedFullScreenContent() {
-                interstitialAd = null
-                loadInterstitial()
-                onDismissed()
-            }
-
-            override fun onAdFailedToShowFullScreenContent(error: AdError) {
-                interstitialAd = null
-                loadInterstitial()
-                onDismissed()
-            }
-        }
-
-        ad.show(activity)
+    private fun finishShow() {
+        pendingDismiss?.invoke()
+        pendingDismiss = null
+        loadInterstitial()
     }
 
     companion object {
+        private const val INITIAL_RETRY_MS = 15_000L
+        private const val MAX_RETRY_MS = 5 * 60_000L
+
         @Volatile
         var instance: AdManager? = null
             private set
 
         fun init(context: Context): AdManager {
-            return AdManager(context).also {
+            return AdManager(context.applicationContext).also {
                 instance = it
-                it.initialize()
+                it.initialize(context)
             }
         }
     }
