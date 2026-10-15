@@ -32,6 +32,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
@@ -64,8 +66,17 @@ data class RoomChatUiState(
     val contentWarning: String? = null,
     val isRecording: Boolean = false,
     val recordingElapsedMs: Long = 0L,
+    /** The voice message loaded in the player (playing or paused). */
     val playingMessageId: String? = null,
     val loadingVoiceId: String? = null,
+    val isVoicePaused: Boolean = false,
+    val playbackProgress: Float = 0f,
+    val playbackPositionMs: Long = 0L,
+    val playbackSpeed: Float = 1f,
+    /** Recent input loudness (0..1) for the live waveform while recording. */
+    val recordingLevels: List<Float> = emptyList(),
+    /** False until the saved login has been restored; nothing guest-only is shown before that. */
+    val authReady: Boolean = false,
     val editingMessage: RoomMessage? = null,
     val replyingTo: RoomMessage? = null,
     /** Profile sheet for a tapped user. */
@@ -81,9 +92,9 @@ data class RoomChatUiState(
     val blockTarget: ReportTarget? = null,
 ) {
     /** Visitors who aren't signed in with Google can only read. */
-    val guestRestricted: Boolean get() = isGuest
+    val guestRestricted: Boolean get() = authReady && isGuest
     val canPost: Boolean
-        get() = !isBanned && !guestRestricted && !(kind == RoomKind.DIRECT && isDirectBlocked)
+        get() = authReady && !isBanned && !guestRestricted && !(kind == RoomKind.DIRECT && isDirectBlocked)
     val canSendVoice: Boolean get() = canPost && !isGuest
     val isOtherBlockedByMe: Boolean get() = otherUser?.uid in blockedUserIds
 
@@ -134,8 +145,21 @@ class RoomChatViewModel(
     private var recordingTicker: Job? = null
     private var markReadJob: Job? = null
 
+
     init {
         loadCached()
+        viewModelScope.launch {
+            // Opened from a notification on a cold start, this screen can be created before the saved
+            // login is restored: it would look signed out and load without the user's session.
+            repository.hasSession()
+            _uiState.update {
+                it.copy(currentUserId = repository.currentUserId() ?: "", isGuest = repository.isGuest(), authReady = true)
+            }
+            startSession()
+        }
+    }
+
+    private fun startSession() {
         loadRoom()
         loadInitialMessages()
         connectRealtime()
@@ -332,8 +356,8 @@ class RoomChatViewModel(
         _uiState.update { it.copy(isDirectBlocked = blocked) }
     }
 
+    /** Also for Speaky Hub: reading it re-arms its "one notification until you open the Hub" alert. */
     private fun scheduleMarkRead() {
-        if (_uiState.value.kind == RoomKind.CHANNEL) return
         markReadJob?.cancel()
         markReadJob = viewModelScope.launch {
             delay(800)
@@ -570,8 +594,17 @@ class RoomChatViewModel(
             return
         }
         recordingStartedAt = now()
-        _uiState.update { it.copy(isRecording = true, recordingElapsedMs = 0L, playingMessageId = null) }
+        _uiState.update {
+            it.copy(isRecording = true, recordingElapsedMs = 0L, playingMessageId = null, recordingLevels = emptyList())
+        }
         recordingTicker = viewModelScope.launch {
+            launch {
+                voiceRecorder.amplitudes.collect { level ->
+                    _uiState.update { s ->
+                        if (!s.isRecording) s else s.copy(recordingLevels = (s.recordingLevels + level).takeLast(LIVE_BARS))
+                    }
+                }
+            }
             while (true) {
                 delay(200)
                 val elapsed = now() - recordingStartedAt
@@ -595,14 +628,15 @@ class RoomChatViewModel(
         recordingTicker?.cancel()
         val duration = now() - recordingStartedAt
         val audio = voiceRecorder.stopRecording()
+        val waveform = voiceRecorder.recordedLevels(WAVEFORM_BARS)
         _uiState.update { it.copy(isRecording = false, recordingElapsedMs = 0L) }
         if (duration < MIN_VOICE_MS || audio.isEmpty()) return
         viewModelScope.launch {
             if (!checkQuota()) return@launch
-            val pending = pendingMessage(MessageKind.VOICE, durationMs = duration)
+            val pending = pendingMessage(MessageKind.VOICE, durationMs = duration).copy(voiceWaveform = waveform)
             _uiState.update { it.copy(messages = it.messages + pending) }
             try {
-                val sent = repository.sendVoice(roomId, pending.id, audio, duration)
+                val sent = repository.sendVoice(roomId, pending.id, audio, duration, waveform)
                 replaceMessage(sent)
             } catch (e: Exception) {
                 Napier.w("sendVoice failed", e)
@@ -612,21 +646,57 @@ class RoomChatViewModel(
         }
     }
 
+    /** Play, pause or resume a voice message. */
     fun onPlayVoice(message: RoomMessage) {
-        val path = message.voicePath ?: return
-        if (_uiState.value.playingMessageId == message.id) {
-            voicePlayer.stop()
-            _uiState.update { it.copy(playingMessageId = null) }
+        val state = _uiState.value
+        if (state.playingMessageId == message.id) {
+            if (state.isVoicePaused) voicePlayer.resume() else voicePlayer.pause()
             return
         }
+        startVoice(message, startAt = 0f)
+    }
+
+    /** Tap or drag on a waveform: jump there (starting that clip if needed). */
+    fun onSeekVoice(message: RoomMessage, fraction: Float) {
+        if (_uiState.value.playingMessageId == message.id) {
+            voicePlayer.seekTo(fraction)
+            _uiState.update { it.copy(playbackProgress = fraction.coerceIn(0f, 1f)) }
+        } else {
+            startVoice(message, startAt = fraction)
+        }
+    }
+
+    /** 1× → 1.5× → 2× → 1×. */
+    fun onCycleVoiceSpeed() {
+        val next = when (_uiState.value.playbackSpeed) {
+            1f -> 1.5f
+            1.5f -> 2f
+            else -> 1f
+        }
+        voicePlayer.setSpeed(next)
+        _uiState.update { it.copy(playbackSpeed = next) }
+    }
+
+    private fun startVoice(message: RoomMessage, startAt: Float) {
+        val path = message.voicePath ?: return
         voicePlayer.stop()
-        _uiState.update { it.copy(loadingVoiceId = message.id, playingMessageId = null) }
+        _uiState.update {
+            it.copy(loadingVoiceId = message.id, playingMessageId = null, playbackProgress = 0f, playbackPositionMs = 0L)
+        }
         viewModelScope.launch {
             try {
                 // Clips are private: download with the user's session, then play locally.
                 val bytes = repository.downloadVoice(path)
-                _uiState.update { it.copy(loadingVoiceId = null, playingMessageId = message.id) }
+                if (_uiState.value.loadingVoiceId != message.id) return@launch // another clip was tapped meanwhile
+                _uiState.update {
+                    it.copy(loadingVoiceId = null, playingMessageId = message.id, isVoicePaused = false, playbackProgress = startAt)
+                }
+                voicePlayer.setSpeed(_uiState.value.playbackSpeed)
                 voicePlayer.playFromBytes(bytes)
+                if (startAt > 0f) {
+                    voicePlayer.isPlaying.first { it }
+                    voicePlayer.seekTo(startAt)
+                }
             } catch (e: Exception) {
                 Napier.w("Voice playback failed", e)
                 _uiState.update {
@@ -639,12 +709,23 @@ class RoomChatViewModel(
     private fun observePlayback() {
         viewModelScope.launch {
             var wasPlaying = false
-            voicePlayer.isPlaying.collect { playing ->
-                if (wasPlaying && !playing) _uiState.update { it.copy(playingMessageId = null) }
-                wasPlaying = playing
+            combine(voicePlayer.isPlaying, voicePlayer.isPaused, voicePlayer.progress, voicePlayer.positionMs) { playing, paused, progress, position ->
+                PlaybackSnapshot(playing, paused, progress, position)
+            }.collect { p ->
+                val finished = wasPlaying && !p.playing && !p.paused
+                wasPlaying = p.playing
+                _uiState.update { s ->
+                    when {
+                        s.playingMessageId == null -> s
+                        finished -> s.copy(playingMessageId = null, isVoicePaused = false, playbackProgress = 0f, playbackPositionMs = 0L)
+                        else -> s.copy(isVoicePaused = p.paused, playbackProgress = p.progress, playbackPositionMs = p.position)
+                    }
+                }
             }
         }
     }
+
+    private data class PlaybackSnapshot(val playing: Boolean, val paused: Boolean, val progress: Float, val position: Long)
 
     // ---------- Private messages ----------
 
@@ -837,6 +918,8 @@ class RoomChatViewModel(
     companion object {
         private const val PAGE_SIZE = 30
         private const val MIN_VOICE_MS = 700L
+        private const val WAVEFORM_BARS = 48
+        private const val LIVE_BARS = 40
         private const val MAX_VOICE_MS = 120_000L
         private const val EDIT_WINDOW_MS = 24 * 60 * 60 * 1000L
     }

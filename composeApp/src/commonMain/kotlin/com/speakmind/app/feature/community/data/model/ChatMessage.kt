@@ -21,6 +21,8 @@ data class RoomMessage(
     /** Storage path of the clip; null for text, or for a clip removed by storage cleanup. */
     val voicePath: String?,
     val voiceDurationMs: Long,
+    /** Loudness per bar, 0..1, recorded with the clip; empty for older clips. */
+    val voiceWaveform: List<Float> = emptyList(),
     /** Server timestamp in epoch millis. */
     val createdAtMillis: Long,
     /** Raw server timestamp, used as the pagination cursor. */
@@ -35,6 +37,13 @@ data class RoomMessage(
 ) {
     val isVoiceExpired: Boolean get() = kind == MessageKind.VOICE && voicePath == null && !isPending
 }
+
+/** Waveforms travel as one digit (0-9) per bar. */
+fun encodeWaveform(levels: List<Float>): String? =
+    levels.takeIf { it.isNotEmpty() }?.joinToString("") { (it.coerceIn(0f, 1f) * 9).toInt().toString() }
+
+fun decodeWaveform(encoded: String?): List<Float> =
+    encoded.orEmpty().mapNotNull { c -> c.digitToIntOrNull()?.let { it / 9f } }
 
 data class ReplyPreview(
     val messageId: String,
@@ -52,6 +61,8 @@ data class ChatRoom(
     val name: String,
     val description: String = "",
     val lastMessageAtMillis: Long = 0L,
+    /** Exact server timestamp, the chat list's page cursor. */
+    val lastMessageAtRaw: String = "",
     val lastMessagePreview: String = "",
     val memberCount: Int = 0,
     val unreadCount: Int = 0,
@@ -84,6 +95,8 @@ data class TypingUser(
 data class AdminReport(
     val id: String,
     val createdAtMillis: Long,
+    /** Exact server timestamp, the page cursor. */
+    val createdAtRaw: String = "",
     val reason: String,
     val details: String,
     val messageSnapshot: String,

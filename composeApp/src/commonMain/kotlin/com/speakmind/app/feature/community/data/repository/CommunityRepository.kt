@@ -58,6 +58,8 @@ interface CommunityRepository {
 
     // Rooms
     suspend fun myRooms(): List<ChatRoom>
+    /** Private chats, newest activity first; pass the last room of the previous page for the next one. */
+    suspend fun directChats(pageSize: Int, after: ChatRoom?): List<ChatRoom>
     suspend fun getRoom(roomId: String): ChatRoom?
     suspend fun roomMembers(roomId: String): List<GroupMember>
     suspend fun setMuted(roomId: String, muted: Boolean)
@@ -85,7 +87,7 @@ interface CommunityRepository {
     suspend fun sendText(roomId: String, messageId: String, text: String, replyToId: String? = null): RoomMessage
     /** Adds the reaction if I haven't used it on this message, otherwise removes it. */
     suspend fun toggleReaction(message: RoomMessage, emoji: String)
-    suspend fun sendVoice(roomId: String, messageId: String, audio: ByteArray, durationMs: Long): RoomMessage
+    suspend fun sendVoice(roomId: String, messageId: String, audio: ByteArray, durationMs: Long, waveform: List<Float>): RoomMessage
     suspend fun editMessage(message: RoomMessage, newText: String): RoomMessage
     suspend fun deleteMessage(message: RoomMessage)
     /** Downloads a private voice clip (only chat members can). */
@@ -96,10 +98,13 @@ interface CommunityRepository {
 
     // Push notifications
     suspend fun registerPushToken(token: String)
+    /** Speaky Hub summary notifications (at most twice a day). */
+    suspend fun hubNotificationsEnabled(): Boolean
+    suspend fun setHubNotifications(enabled: Boolean)
 
     // Admin moderation (only works for accounts in private.community_admins)
     suspend fun isAdmin(): Boolean
-    suspend fun adminReports(status: String): List<AdminReport>
+    suspend fun adminReports(status: String, pageSize: Int, after: AdminReport?): List<AdminReport>
     suspend fun adminSetReportStatus(reportId: String, status: String)
     suspend fun adminBan(userId: String, reason: String, removeMessages: Boolean)
     suspend fun adminUnban(userId: String)

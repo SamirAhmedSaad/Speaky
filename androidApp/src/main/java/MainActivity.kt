@@ -20,9 +20,10 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.lifecycleScope
 import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
-import com.speakmind.app.ads.ConsentManager
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
+import com.speakmind.app.feature.community.data.ActiveRoomTracker
+import com.speakmind.app.feature.community.data.model.SPEAKY_HUB_ROOM_ID
 import com.speakmind.app.feature.community.platform.ChatMessagingService
 import com.speakmind.app.feature.dailyword.platform.DailyWordAlarmReceiver
 import com.speakmind.app.feature.vocabulary.domain.VocabRefreshService
@@ -82,11 +83,8 @@ class MainActivity : ComponentActivity() {
         requestNotificationPermission()
 
         AdConfig.useTestAds = BuildConfig.DEBUG
-        ConsentManager.gatherConsent(this) {
-            if (ConsentManager.canRequestAds(this)) {
-                AdManager.init(this)
-            }
-        }
+        // Privacy signals are set inside AdManager (non-personalized ads where consent would be needed).
+        AdManager.init(this)
 
         setContent {
             val themeManager = getKoin().get<ThemeManager>()
@@ -114,6 +112,12 @@ class MainActivity : ComponentActivity() {
         handleDailyWordIntent(intent)
         handleChatIntent(intent)
         ChatMessagingService.registerCurrentToken()
+        lifecycleScope.launch {
+            // Opening Speaky Hub clears its (growing) notification.
+            ActiveRoomTracker.activeRoomId.collect { roomId ->
+                if (roomId == SPEAKY_HUB_ROOM_ID) ChatMessagingService.clearHubNotification(this@MainActivity)
+            }
+        }
     }
 
     private var countedOnline = false

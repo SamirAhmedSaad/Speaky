@@ -5,6 +5,8 @@ import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.community.data.model.AdminReport
 import com.speakmind.app.feature.community.data.model.ChatRoom
 import com.speakmind.app.feature.community.data.model.ReplyPreview
+import com.speakmind.app.feature.community.data.model.decodeWaveform
+import com.speakmind.app.feature.community.data.model.encodeWaveform
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
 import com.speakmind.app.feature.community.data.model.CommunityUser
 import com.speakmind.app.feature.community.data.model.GroupMember
@@ -90,9 +92,11 @@ private const val REPORTS = "user_reports"
 private const val DEVICE_TOKENS = "device_tokens"
 // Explicit !sender_id: message_reactions also links messages and users, so the embed needs a hint.
 private const val MESSAGE_COLUMNS =
-    "id,room_id,sender_id,kind,body,voice_path,voice_duration_ms,created_at,edited_at,reply_to_id," +
+    "id,room_id,sender_id,kind,body,voice_path,voice_duration_ms,voice_waveform,created_at,edited_at,reply_to_id," +
         "sender:community_users!sender_id(id,nickname,gender,photo_url,last_seen,level)," +
-        "reply:reply_to_id(id,body,kind,sender:community_users!sender_id(nickname))"
+        "reply:reply_to_id(id,body,kind,sender:community_users!sender_id(nickname))," +
+        // Reactions come with the page, saving a second round trip when a chat opens.
+        "reactions:message_reactions(user_id,emoji)"
 private const val ROOM_COLUMNS =
     "id,kind,name,description,last_message_at,last_message_preview,member_count,is_private"
 private const val USER_COLUMNS = "id,nickname,gender,photo_url,last_seen,level"
@@ -168,6 +172,7 @@ class SupabaseCommunityRepository(
         database.speakMindQueries.clearRoomMessageCache()
         _blockedUserIds.value = emptySet()
         voiceCache.clear()
+        lastRooms = emptyList()
     }
 
     override fun authDisplayName(): String? {
@@ -240,7 +245,7 @@ class SupabaseCommunityRepository(
     override suspend fun unreadPrivateCount(): Int {
         if (!hasSession() || isGuest()) return 0
         return try {
-            myRooms().filter { it.kind == RoomKind.DIRECT }.sumOf { it.unreadCount }
+            client.postgrest.rpc("my_unread_private_count").decodeAs<Long>().toInt()
         } catch (_: Exception) {
             0
         }
@@ -446,11 +451,33 @@ class SupabaseCommunityRepository(
 
     // ---------- Rooms ----------
 
+    /** Last chat list, so opening a chat from the list doesn't fetch it again. */
+    @kotlin.concurrent.Volatile
+    private var lastRooms: List<ChatRoom> = emptyList()
+
     override suspend fun myRooms(): List<ChatRoom> =
-        client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }
+        client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }.also { lastRooms = it }
+
+    override suspend fun directChats(pageSize: Int, after: ChatRoom?): List<ChatRoom> {
+        val page = client.postgrest.rpc("my_rooms_page", buildJsonObject {
+            put("p_limit", pageSize)
+            put("p_kind", "direct")
+            if (after != null && after.lastMessageAtRaw.isNotEmpty()) {
+                put("p_before_at", after.lastMessageAtRaw)
+                put("p_before_id", after.id)
+            }
+        }).decodeList<MyRoomDto>().map { it.toDomain() }
+        lastRooms = (if (after == null) page else lastRooms + page).distinctBy { it.id }
+        return page
+    }
 
     override suspend fun getRoom(roomId: String): ChatRoom? {
-        myRooms().firstOrNull { it.id == roomId }?.let { return it }
+        lastRooms.firstOrNull { it.id == roomId }?.let { return it }
+        // Just this room (not the whole chat list).
+        client.postgrest.rpc("my_rooms_page", buildJsonObject {
+            put("p_limit", 1)
+            put("p_room", roomId)
+        }).decodeList<MyRoomDto>().firstOrNull()?.toDomain()?.let { return it }
         return client.from(ROOMS).select(Columns.raw(ROOM_COLUMNS)) {
             filter { eq("id", roomId) }
         }.decodeSingleOrNull<RoomDto>()?.toDomain(isMember = false)
@@ -470,6 +497,7 @@ class SupabaseCommunityRepository(
                 eq("user_id", uid)
             }
         }
+        lastRooms = lastRooms.map { if (it.id == roomId) it.copy(muted = muted) else it }
     }
 
     override suspend fun openDirectChat(otherUserId: String): String = try {
@@ -584,9 +612,8 @@ class SupabaseCommunityRepository(
             order("id", Order.DESCENDING)
             limit(pageSize.toLong())
         }.decodeList<MessageDto>()
-        rows.mapNotNull { it.sender }.forEach { cacheUser(it.toDomain()) }
-        val reactions = loadReactions(rows.map { it.id })
-        val messages = rows.map { it.toDomain().copy(reactions = reactions[it.id] ?: emptyMap()) }.reversed()
+        rows.mapNotNull { it.sender }.distinctBy { it.id }.forEach { cacheUser(it.toDomain()) }
+        val messages = rows.map { it.toDomain() }.reversed()
         if (before == null) {
             // The newest page replaces what's cached, so deletions made elsewhere disappear too.
             database.transaction {
@@ -608,7 +635,13 @@ class SupabaseCommunityRepository(
         return dto.toDomain().also { cacheAndTrim(it) }
     }
 
-    override suspend fun sendVoice(roomId: String, messageId: String, audio: ByteArray, durationMs: Long): RoomMessage {
+    override suspend fun sendVoice(
+        roomId: String,
+        messageId: String,
+        audio: ByteArray,
+        durationMs: Long,
+        waveform: List<Float>,
+    ): RoomMessage {
         val uid = requireUserId()
         val path = "$uid/$roomId/$messageId.m4a"
         client.storage.from(VOICE_BUCKET).upload(path, audio) {
@@ -626,6 +659,7 @@ class SupabaseCommunityRepository(
                 voicePath = path,
                 voiceDurationMs = durationMs,
                 voiceSizeBytes = audio.size.toLong(),
+                voiceWaveform = encodeWaveform(waveform),
             )
         ) { select(Columns.raw(MESSAGE_COLUMNS)) }.decodeSingle<MessageDto>()
         return dto.toDomain().also { cacheAndTrim(it) }
@@ -668,20 +702,6 @@ class SupabaseCommunityRepository(
         }
     }
 
-    private suspend fun loadReactions(messageIds: List<String>): Map<String, Map<String, List<String>>> {
-        if (messageIds.isEmpty()) return emptyMap()
-        return try {
-            client.from(REACTIONS).select(Columns.list("message_id", "room_id", "user_id", "emoji")) {
-                filter { isIn("message_id", messageIds) }
-            }.decodeList<ReactionDto>()
-                .groupBy { it.messageId }
-                .mapValues { (_, list) -> list.groupBy({ it.emoji }, { it.userId }) }
-        } catch (e: Exception) {
-            Napier.w("loadReactions failed", e)
-            emptyMap()
-        }
-    }
-
     override suspend fun isAdmin(): Boolean {
         if (!hasSession() || isGuest()) return false
         return try {
@@ -691,13 +711,18 @@ class SupabaseCommunityRepository(
         }
     }
 
-    override suspend fun adminReports(status: String): List<AdminReport> =
-        client.postgrest.rpc("admin_reports", buildJsonObject { put("p_status", status) })
+    override suspend fun adminReports(status: String, pageSize: Int, after: AdminReport?): List<AdminReport> =
+        client.postgrest.rpc("admin_reports_page", buildJsonObject {
+            put("p_status", status)
+            put("p_limit", pageSize)
+            if (after != null && after.createdAtRaw.isNotEmpty()) put("p_before", after.createdAtRaw)
+        })
             .decodeList<AdminReportDto>()
             .map {
                 AdminReport(
                     id = it.id,
                     createdAtMillis = parseMillis(it.createdAt),
+                    createdAtRaw = it.createdAt.orEmpty(),
                     reason = it.reason,
                     details = it.details,
                     messageSnapshot = it.messageSnapshot,
@@ -923,6 +948,13 @@ class SupabaseCommunityRepository(
 
     // ---------- Push notifications ----------
 
+    override suspend fun hubNotificationsEnabled(): Boolean =
+        client.postgrest.rpc("my_hub_notify").decodeAs<Boolean>()
+
+    override suspend fun setHubNotifications(enabled: Boolean) {
+        client.postgrest.rpc("set_hub_notify", buildJsonObject { put("p_on", enabled) })
+    }
+
     override suspend fun registerPushToken(token: String) {
         lastPushToken = token
         val uid = currentUserId() ?: return
@@ -970,6 +1002,7 @@ class SupabaseCommunityRepository(
             edited = if (m.isEdited) 1L else 0L,
             reply_json = m.replyTo?.let { lenientJson.encodeToString(CachedReply.serializer(), CachedReply(it.messageId, it.senderNickname, it.text, it.isVoice)) },
             reactions_json = m.reactions.takeIf { it.isNotEmpty() }?.let { lenientJson.encodeToString(reactionsSerializer, it) },
+            voice_waveform = encodeWaveform(m.voiceWaveform),
         )
     }
 
@@ -1008,9 +1041,11 @@ class SupabaseCommunityRepository(
             text = body,
             voicePath = voicePath,
             voiceDurationMs = voiceDurationMs,
+            voiceWaveform = decodeWaveform(voiceWaveform),
             createdAtMillis = parseMillis(createdAt),
             createdAtRaw = createdAt,
             isEdited = editedAt != null,
+            reactions = reactions.orEmpty().groupBy({ it.emoji }, { it.userId }),
             replyTo = reply?.let {
                 ReplyPreview(
                     messageId = it.id,
@@ -1034,6 +1069,7 @@ private fun Room_message_cache.toDomain() = RoomMessage(
     text = body,
     voicePath = voice_path,
     voiceDurationMs = voice_duration_ms,
+    voiceWaveform = decodeWaveform(voice_waveform),
     createdAtMillis = created_at,
     createdAtRaw = created_at_raw,
     isEdited = edited == 1L,
@@ -1121,6 +1157,7 @@ private data class RoomDto(
         name = name,
         description = description,
         lastMessageAtMillis = parseMillis(lastMessageAt),
+        lastMessageAtRaw = lastMessageAt.orEmpty(),
         lastMessagePreview = lastMessagePreview,
         memberCount = memberCount,
         isMember = isMember,
@@ -1154,6 +1191,7 @@ private data class MyRoomDto(
         name = name,
         description = description,
         lastMessageAtMillis = parseMillis(lastMessageAt),
+        lastMessageAtRaw = lastMessageAt.orEmpty(),
         lastMessagePreview = lastMessagePreview,
         memberCount = memberCount,
         unreadCount = unreadCount,
@@ -1218,8 +1256,11 @@ private data class MessageDto(
     val body: String = "",
     @SerialName("voice_path") val voicePath: String? = null,
     @SerialName("voice_duration_ms") val voiceDurationMs: Long = 0,
+    @SerialName("voice_waveform") val voiceWaveform: String? = null,
     @SerialName("created_at") val createdAt: String,
     @SerialName("edited_at") val editedAt: String? = null,
+    /** Embedded on page loads only; realtime rows don't carry it. */
+    val reactions: List<ReactionEmbedDto>? = null,
     @SerialName("reply_to_id") val replyToId: String? = null,
     val sender: UserDto? = null,
     /** The quoted message (many-to-one via reply_to_id); tolerate an array form just in case. */
@@ -1234,6 +1275,12 @@ private data class MessageDto(
 }
 
 private val lenientJson = Json { ignoreUnknownKeys = true }
+
+@Serializable
+private data class ReactionEmbedDto(
+    @SerialName("user_id") val userId: String,
+    val emoji: String,
+)
 
 @Serializable
 private data class ReplyDto(
@@ -1279,6 +1326,7 @@ private data class NewMessageDto(
     @SerialName("voice_path") val voicePath: String? = null,
     @SerialName("voice_duration_ms") val voiceDurationMs: Long = 0,
     @SerialName("voice_size_bytes") val voiceSizeBytes: Long = 0,
+    @SerialName("voice_waveform") val voiceWaveform: String? = null,
     @SerialName("reply_to_id") val replyToId: String? = null,
 )
 

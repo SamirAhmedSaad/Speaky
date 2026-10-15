@@ -23,6 +23,8 @@ dependencyResolutionManagement {
                 includeGroupAndSubgroups("androidx")
                 includeGroupAndSubgroups("com.android")
                 includeGroupAndSubgroups("com.google")
+                // Cronet, used by Unity Ads (LevelPlay)
+                includeGroupAndSubgroups("org.chromium.net")
             }
         }
         mavenCentral()

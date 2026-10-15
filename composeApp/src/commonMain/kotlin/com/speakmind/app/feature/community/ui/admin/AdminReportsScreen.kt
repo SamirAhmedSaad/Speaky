@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -80,9 +81,11 @@ private fun AdminReportsContent(uiState: AdminReportsUiState, viewModel: AdminRe
                     contentPadding = PaddingValues(start = 20.sdp, end = 20.sdp, top = 8.sdp, bottom = 32.sdp),
                     verticalArrangement = Arrangement.spacedBy(12.sdp),
                 ) {
-                    items(uiState.reports, key = { it.id }) { report ->
+                    itemsIndexed(uiState.reports, key = { _, report -> report.id }) { index, report ->
+                        if (index >= uiState.reports.size - 5) LaunchedEffect(uiState.reports.size) { viewModel.loadMore() }
                         ReportCard(report, viewModel)
                     }
+                    if (uiState.isLoadingMore) item(key = "more_reports") { CommunityLoading() }
                 }
             }
         }

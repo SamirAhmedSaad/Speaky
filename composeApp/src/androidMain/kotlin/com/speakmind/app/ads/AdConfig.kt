@@ -6,24 +6,19 @@ import androidx.compose.runtime.setValue
 
 object AdConfig {
 
-    // Google's official test ad unit IDs — safe to click during development
-    private const val TEST_BANNER = "ca-app-pub-3940256099942544/6300978111"
-    private const val TEST_INTERSTITIAL = "ca-app-pub-3940256099942544/1033173712"
-
-    // Real ad unit IDs — only used in release builds
-    private const val REAL_BANNER = "ca-app-pub-5111292806345357/4387009789"
-    private const val REAL_INTERSTITIAL = "ca-app-pub-5111292806345357/5532570499"
+    // From the Unity LevelPlay dashboard: Apps → Speaky → App Key, and Ad Units.
+    // While these are empty, the app runs without ads.
+    const val APP_KEY = "28be6b1ed"
+    const val BANNER_AD_UNIT_ID = "0aztdd50eta7gjj4"
+    const val INTERSTITIAL_AD_UNIT_ID = "nd3c7a5ua0h5fp20"
 
     var adsEnabled: Boolean = true
+    /** Debug builds: verbose LevelPlay logs and the LevelPlay test suite. Test ads are set per device in the dashboard. */
     var useTestAds: Boolean = false
     var showBannerAds: Boolean = true
-    // Set to true only after consent is gathered and AdMob SDK is initialized.
+    // Set to true once LevelPlay is initialized.
     // Compose-observable so BannerAdView recomposes and loads the ad automatically.
     var adsReady: Boolean by mutableStateOf(false)
 
-    val BANNER_AD_UNIT_ID: String
-        get() = if (useTestAds) TEST_BANNER else REAL_BANNER
-
-    val INTERSTITIAL_AD_UNIT_ID: String
-        get() = if (useTestAds) TEST_INTERSTITIAL else REAL_INTERSTITIAL
+    val isConfigured: Boolean get() = APP_KEY.isNotBlank()
 }

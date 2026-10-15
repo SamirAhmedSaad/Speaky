@@ -6,7 +6,7 @@ import androidx.compose.ui.Modifier
 
 @Composable
 actual fun BannerAdView(modifier: Modifier) {
-    // No-op on iOS — AdMob iOS integration not yet implemented
+    // No-op on iOS — ads not yet implemented
 }
 
 @Composable

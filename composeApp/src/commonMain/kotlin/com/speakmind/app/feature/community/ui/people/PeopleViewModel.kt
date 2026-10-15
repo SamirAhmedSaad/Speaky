@@ -54,6 +54,11 @@ class PeopleViewModel(
     private var searchJob: Job? = null
 
     init {
+        viewModelScope.launch {
+            // The saved login may still be loading on a cold start.
+            repository.hasSession()
+            _uiState.update { it.copy(isGuest = repository.isGuest()) }
+        }
         load(reset = true)
         viewModelScope.launch {
             repository.onlineUserIds.collect { ids -> _uiState.update { it.copy(onlineUserIds = ids) } }

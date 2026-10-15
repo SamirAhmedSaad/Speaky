@@ -1,7 +1,21 @@
 package com.speakmind.app.feature.community.ui.room
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.ui.draw.shadow
+import androidx.compose.animation.Crossfade
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.unit.dp
 import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.ui.focus.FocusRequester
@@ -137,6 +151,8 @@ private class RoomActions(vm: RoomChatViewModel, googlePicker: suspend () -> Goo
     val onCancelRecording = vm::onCancelRecording
     val onSendRecording = vm::onSendRecording
     val onPlayVoice = vm::onPlayVoice
+    val onSeekVoice = vm::onSeekVoice
+    val onCycleVoiceSpeed = vm::onCycleVoiceSpeed
     val onRetry = vm::onRetry
     val onMessageUser = vm::onMessageUser
     val onSignIn: () -> Unit = { vm.onGoogleSignIn(googlePicker) }
@@ -157,6 +173,15 @@ private class RoomActions(vm: RoomChatViewModel, googlePicker: suspend () -> Goo
     val onErrorDismissed = vm::onErrorDismissed
     val onInfoDismissed = vm::onInfoDismissed
 }
+
+/** Player state for the one voice message that is loaded; other rows get null and don't recompose. */
+@Immutable
+private data class VoicePlaybackUi(
+    val isPaused: Boolean,
+    val progress: Float,
+    val positionMs: Long,
+    val speed: Float,
+)
 
 /** A row in the message list. */
 private sealed interface ChatItem {
@@ -266,29 +291,26 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
     var showEmojis by remember { mutableStateOf(false) }
     val keyboardController = LocalSoftwareKeyboardController.current
 
-    // Scroll to the newest message when one is appended at the bottom
-    val lastMessageId = messages.lastOrNull()?.id
-    LaunchedEffect(lastMessageId) {
-        if (items.isNotEmpty()) listState.animateScrollToItem(items.size)
+    // reverseLayout: index 0 is the newest message at the bottom, so a chat opens on its latest
+    // messages instantly (no scroll through the history) and older pages append without jumps.
+    val reversedItems = remember(items) { items.asReversed() }
+    val scope = rememberCoroutineScope()
+    val lastMessage = messages.lastOrNull()
+    val atBottom by remember { derivedStateOf { listState.firstVisibleItemIndex <= 1 } }
+    var unseenBelow by remember { mutableIntStateOf(0) }
+    LaunchedEffect(lastMessage?.id) {
+        val newest = lastMessage ?: return@LaunchedEffect
+        if (atBottom || newest.senderId == uiState.currentUserId) listState.animateScrollToItem(0) else unseenBelow++
     }
+    LaunchedEffect(atBottom) { if (atBottom) unseenBelow = 0 }
 
-    // Keep position when older pages are prepended
-    var prevCount by remember { mutableIntStateOf(0) }
-    var prevLastId by remember { mutableStateOf<String?>(null) }
-    LaunchedEffect(items.size) {
-        val newSize = items.size
-        if (prevCount > 0 && newSize > prevCount && lastMessageId == prevLastId) {
-            listState.scrollToItem(listState.firstVisibleItemIndex + (newSize - prevCount))
-        }
-        prevCount = newSize
-        prevLastId = lastMessageId
-    }
-
-    // Load older messages when the top is reached
+    // Load older messages as the top (the end of the reversed list) comes into view
     LaunchedEffect(listState, uiState.isInitialLoading) {
-        snapshotFlow { listState.firstVisibleItemIndex }
+        snapshotFlow { listState.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: 0 }
             .distinctUntilChanged()
-            .collect { index -> if (index <= 1 && !uiState.isInitialLoading) actions.onLoadMore() }
+            .collect { last ->
+                if (!uiState.isInitialLoading && last >= listState.layoutInfo.totalItemsCount - 4) actions.onLoadMore()
+            }
     }
 
     AutoDismiss(uiState.contentWarning, actions.onContentWarningDismissed)
@@ -323,28 +345,34 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
 
         Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
             if (uiState.isInitialLoading) {
-                CircularProgressIndicator(modifier = Modifier.align(Alignment.Center), color = colors.neonCyan)
+                ChatSkeleton()
             } else if (messages.isEmpty()) {
                 EmptyChat(uiState)
             } else {
                 LazyColumn(
                     state = listState,
+                    reverseLayout = true,
                     modifier = Modifier.fillMaxSize(),
                     contentPadding = PaddingValues(horizontal = 12.sdp, vertical = 8.sdp),
                 ) {
-                    item(key = "top") {
-                        Box(Modifier.fillMaxWidth().padding(vertical = 6.sdp), contentAlignment = Alignment.Center) {
-                            if (uiState.isLoadingMore) {
-                                CircularProgressIndicator(Modifier.size(22.sdp), color = colors.neonCyan, strokeWidth = 2.sdp)
-                            } else if (!uiState.hasMore && !uiState.isOffline) {
-                                Text(
-                                    if (uiState.kind == RoomKind.DIRECT) "This is the start of your conversation" else "Welcome to Speaky Hub 🌍",
-                                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-                                )
-                            }
+                    if (uiState.dailyLimitReached) {
+                        item(key = "daily_limit_banner") {
+                            Text(
+                                text = "🌙  That's all for today in Speaky Hub. You can still send private messages! ✨",
+                                style = MaterialTheme.typography.labelSmall.copy(
+                                    color = colors.error.copy(alpha = 0.8f),
+                                    textAlign = TextAlign.Center,
+                                ),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .clickable { actions.onDailyLimitDismissed() }
+                                    .padding(vertical = 8.sdp),
+                            )
                         }
                     }
-                    items(items, key = { it.key }) { item ->
+                    items(reversedItems, key = { it.key }) { item ->
+                        // Smoothly slides rows into place when messages arrive, get deleted or a page loads.
+                        Box(Modifier.animateItem(fadeInSpec = tween(220), placementSpec = spring(stiffness = Spring.StiffnessMediumLow))) {
                         when (item) {
                             is ChatItem.DayHeader -> DaySeparator(item.label)
                             is ChatItem.Message -> {
@@ -357,7 +385,16 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
                                     showSender = uiState.kind != RoomKind.DIRECT,
                                     firstInGroup = item.firstInGroup,
                                     lastInGroup = item.lastInGroup,
-                                    isPlaying = uiState.playingMessageId == message.id,
+                                    playback = if (uiState.playingMessageId == message.id) {
+                                        VoicePlaybackUi(
+                                            isPaused = uiState.isVoicePaused,
+                                            progress = uiState.playbackProgress,
+                                            positionMs = uiState.playbackPositionMs,
+                                            speed = uiState.playbackSpeed,
+                                        )
+                                    } else {
+                                        null
+                                    },
                                     isLoadingVoice = uiState.loadingVoiceId == message.id,
                                     tick = when {
                                         !fromMe || message.isPending || message.isFailed -> Tick.NONE
@@ -374,22 +411,28 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
                             }
                         }
                     }
-                    if (uiState.dailyLimitReached) {
-                        item(key = "daily_limit_banner") {
-                            Text(
-                                text = "🌙  That's all for today in Speaky Hub. You can still send private messages! ✨",
-                                style = MaterialTheme.typography.labelSmall.copy(
-                                    color = colors.error.copy(alpha = 0.8f),
-                                    textAlign = TextAlign.Center,
-                                ),
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .clickable { actions.onDailyLimitDismissed() }
-                                    .padding(vertical = 8.sdp),
-                            )
+                    }
+                    item(key = "top") {
+                        Box(Modifier.fillMaxWidth().padding(vertical = 6.sdp), contentAlignment = Alignment.Center) {
+                            if (uiState.isLoadingMore) {
+                                CircularProgressIndicator(Modifier.size(22.sdp), color = colors.neonCyan, strokeWidth = 2.sdp)
+                            } else if (!uiState.hasMore && !uiState.isOffline) {
+                                Text(
+                                    if (uiState.kind == RoomKind.DIRECT) "This is the start of your conversation" else "Welcome to Speaky Hub 🌍",
+                                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
+                                )
+                            }
                         }
                     }
                 }
+            }
+            androidx.compose.animation.AnimatedVisibility(
+                visible = !atBottom && messages.isNotEmpty(),
+                enter = fadeIn() + scaleIn(),
+                exit = fadeOut() + scaleOut(),
+                modifier = Modifier.align(Alignment.BottomEnd).padding(end = 14.sdp, bottom = 12.sdp),
+            ) {
+                JumpToNewestButton(unseen = unseenBelow, onClick = { scope.launch { listState.animateScrollToItem(0) } })
             }
         }
 
@@ -447,6 +490,7 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
             )
             uiState.isRecording -> RecordingBar(
                 elapsedMs = uiState.recordingElapsedMs,
+                levels = uiState.recordingLevels,
                 onCancel = actions.onCancelRecording,
                 onSend = actions.onSendRecording,
             )
@@ -639,7 +683,7 @@ private fun MessageRow(
     showSender: Boolean,
     firstInGroup: Boolean,
     lastInGroup: Boolean,
-    isPlaying: Boolean,
+    playback: VoicePlaybackUi?,
     isLoadingVoice: Boolean,
     tick: Tick,
     currentUserId: String,
@@ -805,12 +849,14 @@ private fun MessageRow(
                             "🎤 Voice message expired",
                             style = MaterialTheme.typography.bodyMedium.copy(color = metaColor, fontStyle = FontStyle.Italic),
                         )
-                        message.kind == MessageKind.VOICE -> VoiceRow(
-                            durationMs = message.voiceDurationMs,
-                            isPlaying = isPlaying,
+                        message.kind == MessageKind.VOICE -> VoiceMessage(
+                            message = message,
+                            playback = playback,
                             isLoading = isLoadingVoice || message.isPending,
                             tint = contentColor,
-                            onClick = { actions.onPlayVoice(message) },
+                            onPlayPause = { actions.onPlayVoice(message) },
+                            onSeek = { actions.onSeekVoice(message, it) },
+                            onSpeed = actions.onCycleVoiceSpeed,
                         )
                         else -> Text(message.text, style = MaterialTheme.typography.bodyMedium.copy(color = contentColor))
                     }
@@ -986,48 +1032,208 @@ private fun EmptyChat(uiState: RoomChatUiState) {
 }
 
 @Composable
-private fun VoiceRow(durationMs: Long, isPlaying: Boolean, isLoading: Boolean, tint: Color, onClick: () -> Unit) {
+private fun VoiceMessage(
+    message: RoomMessage,
+    playback: VoicePlaybackUi?,
+    isLoading: Boolean,
+    tint: Color,
+    onPlayPause: () -> Unit,
+    onSeek: (Float) -> Unit,
+    onSpeed: () -> Unit,
+) {
+    val isActive = playback != null
+    val isPlaying = isActive && !playback!!.isPaused
+    // Ticks arrive ~30×/s; a short linear animation hides the steps.
+    val progress by animateFloatAsState(
+        targetValue = playback?.progress ?: 0f,
+        animationSpec = tween(durationMillis = 90, easing = LinearEasing),
+        label = "voiceProgress",
+    )
+    val levels = remember(message.id, message.voiceWaveform) {
+        message.voiceWaveform.ifEmpty { placeholderWaveform(message.id) }
+    }
     Row(
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.sdp),
-        modifier = Modifier.widthIn(min = 160.sdp),
+        horizontalArrangement = Arrangement.spacedBy(10.sdp),
+        modifier = Modifier.width(220.sdp).padding(vertical = 2.sdp),
     ) {
         Box(
             modifier = Modifier
-                .size(34.sdp)
+                .size(38.sdp)
                 .clip(CircleShape)
-                .background(tint.copy(alpha = 0.15f))
-                .then(if (!isLoading) Modifier.clickable { onClick() } else Modifier),
+                .background(tint.copy(alpha = 0.16f))
+                .then(if (!isLoading) Modifier.clickable(onClick = onPlayPause) else Modifier),
             contentAlignment = Alignment.Center,
         ) {
-            if (isLoading) {
-                CircularProgressIndicator(modifier = Modifier.size(16.sdp), color = tint, strokeWidth = 2.sdp)
-            } else {
-                Icon(
-                    imageVector = if (isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
-                    contentDescription = if (isPlaying) "Pause" else "Play voice message",
-                    tint = tint,
-                    modifier = Modifier.size(20.sdp),
-                )
+            when {
+                isLoading -> CircularProgressIndicator(modifier = Modifier.size(18.sdp), color = tint, strokeWidth = 2.sdp)
+                else -> Crossfade(targetState = isPlaying, label = "playPause") { playing ->
+                    Icon(
+                        imageVector = if (playing) Icons.Default.Pause else Icons.Default.PlayArrow,
+                        contentDescription = if (playing) "Pause" else "Play voice message",
+                        tint = tint,
+                        modifier = Modifier.size(24.sdp),
+                    )
+                }
             }
         }
-        Row(
-            horizontalArrangement = Arrangement.spacedBy(2.sdp),
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.weight(1f),
+        Column(Modifier.weight(1f)) {
+            Waveform(
+                levels = levels,
+                progress = if (isActive) progress else 0f,
+                activeColor = tint,
+                inactiveColor = tint.copy(alpha = 0.32f),
+                onSeek = if (isLoading || message.isPending) null else onSeek,
+                modifier = Modifier.fillMaxWidth().height(28.sdp),
+            )
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.fillMaxWidth().padding(top = 3.sdp),
+            ) {
+                Text(
+                    // Counts up while playing, like WhatsApp; otherwise the clip length.
+                    text = formatDuration(if (isActive) playback!!.positionMs else message.voiceDurationMs),
+                    style = MaterialTheme.typography.labelSmall.copy(color = tint.copy(alpha = 0.85f), fontSize = 10.ssp),
+                    modifier = Modifier.weight(1f),
+                )
+                AnimatedVisibility(visible = isActive, enter = fadeIn(), exit = fadeOut()) {
+                    Text(
+                        text = formatSpeed(playback?.speed ?: 1f),
+                        style = MaterialTheme.typography.labelSmall.copy(color = tint, fontWeight = FontWeight.Bold, fontSize = 10.ssp),
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(10.sdp))
+                            .background(tint.copy(alpha = 0.16f))
+                            .clickable(onClick = onSpeed)
+                            .padding(horizontal = 8.sdp, vertical = 2.sdp),
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun JumpToNewestButton(unseen: Int, onClick: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    Box {
+        Box(
+            modifier = Modifier
+                .size(40.sdp)
+                .shadow(6.dp, CircleShape)
+                .clip(CircleShape)
+                .background(colors.surface)
+                .border(1.sdp, colors.neonCyan.copy(alpha = 0.25f), CircleShape)
+                .clickable(onClick = onClick),
+            contentAlignment = Alignment.Center,
         ) {
-            listOf(6, 12, 9, 16, 11, 7, 14, 10, 5, 12, 8, 13, 9, 6).forEach { h ->
+            Icon(Icons.Default.KeyboardArrowDown, contentDescription = "Jump to newest messages", tint = colors.neonCyan)
+        }
+        if (unseen > 0) {
+            Text(
+                text = if (unseen > 99) "99+" else unseen.toString(),
+                style = MaterialTheme.typography.labelSmall.copy(color = colors.backgroundDark, fontWeight = FontWeight.Bold, fontSize = 9.ssp),
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .offset(x = 4.sdp, y = (-4).sdp)
+                    .defaultMinSize(minWidth = 18.sdp)
+                    .background(colors.neonCyan, CircleShape)
+                    .padding(horizontal = 5.sdp, vertical = 1.sdp),
+                textAlign = TextAlign.Center,
+            )
+        }
+    }
+}
+
+/** Placeholder bubbles while the first page loads (instead of a lone spinner). */
+@Composable
+private fun ChatSkeleton() {
+    val colors = LocalSpeakMindColors.current
+    val shimmer = rememberInfiniteTransition(label = "skeleton")
+    val alpha by shimmer.animateFloat(
+        initialValue = 0.35f,
+        targetValue = 0.75f,
+        animationSpec = infiniteRepeatable(tween(850), RepeatMode.Reverse),
+        label = "skeletonAlpha",
+    )
+    Column(
+        modifier = Modifier.fillMaxSize().padding(horizontal = 12.sdp, vertical = 12.sdp),
+        verticalArrangement = Arrangement.spacedBy(10.sdp, Alignment.Bottom),
+    ) {
+        listOf(0.55f to false, 0.4f to false, 0.62f to true, 0.35f to true, 0.5f to false, 0.45f to true).forEach { (width, mine) ->
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = if (mine) Arrangement.End else Arrangement.Start) {
+                if (!mine) {
+                    Box(Modifier.size(30.sdp).graphicsLayer { this.alpha = alpha }.background(colors.surfaceVariant, CircleShape))
+                    Spacer(Modifier.width(8.sdp))
+                }
                 Box(
                     Modifier
-                        .width(3.sdp)
-                        .height(h.sdp)
-                        .clip(RoundedCornerShape(2.sdp))
-                        .background(tint.copy(alpha = if (isPlaying) 0.9f else 0.45f))
+                        .fillMaxWidth(width)
+                        .height(38.sdp)
+                        .graphicsLayer { this.alpha = alpha }
+                        .clip(RoundedCornerShape(16.sdp))
+                        .background(if (mine) colors.neonCyan.copy(alpha = 0.25f) else colors.surfaceVariant),
                 )
             }
         }
-        Text(formatDuration(durationMs), style = MaterialTheme.typography.labelSmall.copy(color = tint))
     }
+}
+
+/** Bars of [levels] (0..1); the played part is drawn in [activeColor]. Tap or drag to seek. */
+@Composable
+private fun Waveform(
+    levels: List<Float>,
+    progress: Float,
+    activeColor: Color,
+    inactiveColor: Color,
+    onSeek: ((Float) -> Unit)?,
+    modifier: Modifier = Modifier,
+) {
+    var dragFraction by remember { mutableStateOf<Float?>(null) }
+    val shown = dragFraction ?: progress
+    val seekModifier = if (onSeek == null) Modifier else Modifier
+        .pointerInput(onSeek) {
+            detectTapGestures { offset -> onSeek((offset.x / size.width).coerceIn(0f, 1f)) }
+        }
+        .pointerInput(onSeek) {
+            detectHorizontalDragGestures(
+                onDragStart = { offset -> dragFraction = (offset.x / size.width).coerceIn(0f, 1f) },
+                onDragEnd = { dragFraction?.let(onSeek); dragFraction = null },
+                onDragCancel = { dragFraction = null },
+                onHorizontalDrag = { change, _ ->
+                    change.consume()
+                    dragFraction = (change.position.x / size.width).coerceIn(0f, 1f)
+                },
+            )
+        }
+    Canvas(modifier = modifier.then(seekModifier)) {
+        if (levels.isEmpty()) return@Canvas
+        val gap = 2.dp.toPx()
+        val barWidth = ((size.width - gap * (levels.size - 1)) / levels.size).coerceAtLeast(1f)
+        val minHeight = 3.dp.toPx()
+        levels.forEachIndexed { i, level ->
+            val x = i * (barWidth + gap)
+            val h = (minHeight + (size.height - minHeight) * level).coerceAtMost(size.height)
+            val barEnd = (x + barWidth) / size.width
+            drawRoundRect(
+                color = if (barEnd <= shown + 0.001f) activeColor else inactiveColor,
+                topLeft = Offset(x, (size.height - h) / 2),
+                size = Size(barWidth, h),
+                cornerRadius = CornerRadius(barWidth / 2),
+            )
+        }
+    }
+}
+
+/** Older clips have no stored waveform: a stable made-up shape per message. */
+private fun placeholderWaveform(seed: String, bars: Int = 48): List<Float> {
+    val random = kotlin.random.Random(seed.hashCode())
+    return List(bars) { 0.2f + random.nextFloat() * 0.65f }
+}
+
+private fun formatSpeed(speed: Float): String = when (speed) {
+    1f -> "1×"
+    2f -> "2×"
+    else -> "${speed}×"
 }
 
 // ---------------- Composer ----------------
@@ -1197,35 +1403,86 @@ private fun ReportDialog(
 }
 
 @Composable
-private fun RecordingBar(elapsedMs: Long, onCancel: () -> Unit, onSend: () -> Unit) {
+private fun RecordingBar(elapsedMs: Long, levels: List<Float>, onCancel: () -> Unit, onSend: () -> Unit) {
     val colors = LocalSpeakMindColors.current
+    val pulse = rememberInfiniteTransition(label = "recPulse")
+    val dotAlpha by pulse.animateFloat(
+        initialValue = 1f,
+        targetValue = 0.25f,
+        animationSpec = infiniteRepeatable(tween(700), RepeatMode.Reverse),
+        label = "recDot",
+    )
+    val sendScale by pulse.animateFloat(
+        initialValue = 1f,
+        targetValue = 1.08f,
+        animationSpec = infiniteRepeatable(tween(900), RepeatMode.Reverse),
+        label = "recSend",
+    )
     Row(
         modifier = Modifier
             .fillMaxWidth()
             .background(colors.surface.copy(alpha = 0.97f))
             .navigationBarsPadding()
-            .padding(horizontal = 12.sdp, vertical = 10.sdp),
+            .padding(horizontal = 10.sdp, vertical = 8.sdp),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.sdp),
+        horizontalArrangement = Arrangement.spacedBy(8.sdp),
     ) {
         IconButton(onClick = onCancel) {
-            Icon(Icons.Default.Delete, contentDescription = "Cancel recording", tint = colors.error)
+            Icon(Icons.Default.Delete, contentDescription = "Discard recording", tint = colors.error)
         }
-        Box(Modifier.size(10.sdp).background(colors.error, CircleShape))
-        Text(
-            text = "Recording  ${formatDuration(elapsedMs)}",
-            style = MaterialTheme.typography.bodyMedium.copy(color = colors.textPrimary, fontWeight = FontWeight.SemiBold),
-            modifier = Modifier.weight(1f),
-        )
+        Row(
+            modifier = Modifier
+                .weight(1f)
+                .height(46.sdp)
+                .clip(RoundedCornerShape(23.sdp))
+                .background(colors.surfaceVariant.copy(alpha = 0.8f))
+                .padding(horizontal = 14.sdp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(10.sdp),
+        ) {
+            Box(Modifier.size(10.sdp).graphicsLayer { alpha = dotAlpha }.background(colors.error, CircleShape))
+            Text(
+                text = formatDuration(elapsedMs),
+                style = MaterialTheme.typography.bodyMedium.copy(
+                    color = colors.textPrimary,
+                    fontWeight = FontWeight.SemiBold,
+                    fontFeatureSettings = "tnum",
+                ),
+            )
+            LiveWaveform(levels = levels, color = colors.error.copy(alpha = 0.85f), modifier = Modifier.weight(1f).height(26.sdp))
+        }
         Box(
             modifier = Modifier
-                .size(46.sdp)
+                .size(48.sdp)
+                .graphicsLayer { scaleX = sendScale; scaleY = sendScale }
                 .clip(CircleShape)
                 .background(Brush.linearGradient(listOf(colors.neonCyan, colors.neonCyanDark)))
                 .clickable { onSend() },
             contentAlignment = Alignment.Center,
         ) {
             Icon(Icons.AutoMirrored.Filled.Send, contentDescription = "Send voice message", tint = colors.backgroundDark, modifier = Modifier.size(20.sdp))
+        }
+    }
+}
+
+/** The newest input levels, right-aligned so the waveform grows from the right as you speak. */
+@Composable
+private fun LiveWaveform(levels: List<Float>, color: Color, modifier: Modifier = Modifier) {
+    Canvas(modifier) {
+        val gap = 2.dp.toPx()
+        val barWidth = 3.dp.toPx()
+        val slots = ((size.width + gap) / (barWidth + gap)).toInt().coerceAtLeast(1)
+        val shown = levels.takeLast(slots)
+        val minHeight = 3.dp.toPx()
+        shown.forEachIndexed { i, level ->
+            val x = size.width - (shown.size - i) * (barWidth + gap) + gap
+            val h = minHeight + (size.height - minHeight) * level
+            drawRoundRect(
+                color = color,
+                topLeft = Offset(x, (size.height - h) / 2),
+                size = Size(barWidth, h),
+                cornerRadius = CornerRadius(barWidth / 2),
+            )
         }
     }
 }
