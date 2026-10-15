@@ -65,7 +65,7 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
 
             item {
                 PolicySection(
-                    title = "Last updated: October 2026",
+                    title = "Last updated: October 15, 2026",
                     body = "Speaky (\"we\", \"our\", or \"us\") operates the Speaky Ai mobile application. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our app.",
                 )
             }
@@ -73,14 +73,14 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
             item {
                 PolicySection(
                     title = "Information We Collect",
-                    body = "Voice Input (AI tutor): When you talk to the AI tutor, audio is processed entirely on your device. It is never recorded, uploaded, or sent to our servers or any external service.\n\nUsage Data: We collect anonymous data about how you interact with the app (screens visited, features used, session duration) to improve the experience. This data cannot be used to identify you.\n\nDevice Information: We may collect basic technical information such as device type, operating system version, and app version for crash reporting and performance monitoring.",
+                    body = "AI tutor: the AI model runs on your device, and your tutor conversations are saved only on your device.\n\nSpeech: speech-to-text uses your phone's built-in speech recognition service (on most phones, Google's), which may process audio on the device or on its provider's servers. Speaky does not keep or upload these recordings itself.\n\nUsage Data: We collect anonymous data about how you interact with the app (screens visited, features used, session duration) to improve the experience. This data cannot be used to identify you.\n\nDevice Information: We may collect basic technical information such as device type, operating system version, and app version for crash reporting and performance monitoring.",
                 )
             }
 
             item {
                 PolicySection(
                     title = "Community Chat",
-                    body = "The Community (Speaky Hub, groups and private chats) is optional. If you join it, we store the following on our servers (Supabase):\n\n• Account: if you sign in with Google, your Google account ID, email address and name; if you join as a guest, an anonymous account ID only.\n• Profile: the nickname and gender you choose, and when you were last online.\n• Messages: the text messages and voice messages you send, the groups you create or join, and who you block or report.\n• Device token: a push-notification token so we can notify you about new messages.\n\nWho can see it: your nickname, online status and Speaky Hub / public group messages are visible to other community members. Private chat messages and voice messages are visible only to the people in that chat. Your email is never shown to other users.\n\nModeration: reports you file, and messages that are reported, are reviewed by us to keep the community safe. Accounts that break the rules can be suspended.\n\nRetention: to keep storage limited, the oldest voice messages are deleted automatically once total voice storage nears 1 GB, and the oldest chat messages are deleted once the message limit is reached. Recent messages are also kept on your device so you can read them offline.",
+                    body = "The Community (Speaky Hub and private chats) is optional. If you join it, we store the following on our servers (Supabase):\n\n• Account: your Google account ID, email address and name (from Google sign-in).\n• Profile: the nickname, gender and profile photo you choose, your English level, when you were last online, and when you accepted the community rules.\n• Messages: the text and voice messages you send, replies, reactions, and who you block or report.\n• Notifications: a push-notification token and your Speaky Hub alert setting.\n\nWho can see it: your nickname, photo, level, online status and Speaky Hub messages are visible to other community members. Private chat messages and voice messages are visible only to the people in that chat. Your email is never shown to other users.\n\nModeration: reports you file, and messages that are reported, are reviewed by us to keep the community safe. Accounts that break the rules can be suspended.\n\nRetention: to keep storage limited, the oldest voice messages are deleted automatically when voice storage is nearly full, and the oldest chat messages are deleted once the message limit is reached. Recent messages are also kept on your device so you can read them offline.",
                 )
             }
 
@@ -115,21 +115,21 @@ private fun PrivacyPolicyContent(onBack: () -> Unit) {
             item {
                 PolicySection(
                     title = "Children's Privacy",
-                    body = "Speaky is not intended for children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and believe your child has used the app, please contact us at privacy@speaky.app and we will take steps to remove any associated data. The voice processing is fully on-device and no audio is transmitted externally.",
+                    body = "Speaky is not intended for children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and believe your child has used the app, please contact us at samir.hayan@gmail.com and we will delete any associated Community account.",
                 )
             }
 
             item {
                 PolicySection(
                     title = "Your Rights",
-                    body = "You may opt out of personalized advertising at any time via device settings. Learning data is stored locally on your device and is deleted when you uninstall the app.\n\nYou can permanently delete your community account at any time in the app: Community → ⋮ → Delete account. This removes your profile, messages, voice messages, memberships and device tokens from our servers. You can also email us to request deletion.",
+                    body = "You may opt out of personalized advertising at any time via device settings. Learning data is stored locally on your device and is deleted when you uninstall the app.\n\nYou can permanently delete your community account at any time in the app: Community → ⋮ → Delete account. This removes your profile, photo, messages, voice messages, reactions and device tokens from our servers. You can also email us to request deletion.",
                 )
             }
 
             item {
                 PolicySection(
                     title = "Contact Us",
-                    body = "If you have any questions about this Privacy Policy, please contact us at:\n\nprivacy@speaky.app",
+                    body = "If you have any questions about this Privacy Policy, please contact us at:\n\nsamir.hayan@gmail.com",
                 )
             }
         }
