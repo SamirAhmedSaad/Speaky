@@ -105,7 +105,10 @@ class AdManager(private val context: Context) {
         var instance: AdManager? = null
             private set
 
+        /** Starts LevelPlay once per app process; later calls (e.g. the activity being recreated) reuse it. */
+        @Synchronized
         fun init(context: Context): AdManager {
+            instance?.let { return it }
             return AdManager(context.applicationContext).also {
                 instance = it
                 it.initialize(context)
