@@ -20,8 +20,8 @@ android {
         applicationId = "com.speaky_ai.app"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 20
-        versionName = "1.1.0"
+        versionCode = 21
+        versionName = "1.1.1"
     }
 
     signingConfigs {
