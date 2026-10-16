@@ -1,6 +1,7 @@
 package com.speakmind.app.di
 
 import android.content.Context
+import app.cash.sqldelight.db.QueryResult
 import app.cash.sqldelight.db.SqlDriver
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
 import com.speakmind.app.db.SpeakyDatabase
@@ -130,7 +131,29 @@ fun createSpeakMindDriver(context: Context): SqlDriver {
         "ALTER TABLE room_message_cache ADD COLUMN reactions_json TEXT",
         "ALTER TABLE room_message_cache ADD COLUMN voice_waveform TEXT",
     ).forEach { sql ->
+        // Upgrade steps run every launch; skip columns that already exist so SQLite doesn't log errors.
+        val addColumn = ADD_COLUMN.find(sql)
+        if (addColumn != null && columnExists(driver, addColumn.groupValues[1], addColumn.groupValues[2])) return@forEach
         try { driver.execute(null, sql.trimIndent(), 0) } catch (_: Exception) {}
     }
     return driver
+}
+
+private val ADD_COLUMN = Regex("""ALTER TABLE (\w+) ADD COLUMN (\w+)""", RegexOption.IGNORE_CASE)
+
+private fun columnExists(driver: SqlDriver, table: String, column: String): Boolean = try {
+    driver.executeQuery(
+        identifier = null,
+        sql = "PRAGMA table_info($table)",
+        mapper = { cursor ->
+            var found = false
+            while (cursor.next().value) {
+                if (cursor.getString(1).equals(column, ignoreCase = true)) found = true
+            }
+            QueryResult.Value(found)
+        },
+        parameters = 0,
+    ).value
+} catch (_: Exception) {
+    false
 }

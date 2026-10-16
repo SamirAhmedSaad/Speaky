@@ -37,7 +37,7 @@ class DatamuseApiClient(private val httpClient: HttpClient) {
         val senses = entry["defs"]?.jsonArray.orEmpty()
             .mapNotNull { def ->
                 val (tag, text) = def.jsonPrimitive.content.split('\t', limit = 2).takeIf { it.size == 2 } ?: return@mapNotNull null
-                if (isUnusual(text)) return@mapNotNull null
+                if (isUnusual(text) || isProperNounSense(text)) return@mapNotNull null
                 val clean = stripLabels(text)
                 if (clean.isBlank() || isCircular(word, clean)) null else tag to clean
             }
@@ -56,6 +56,9 @@ class DatamuseApiClient(private val httpClient: HttpClient) {
 
     private fun stripLabels(text: String): String = text.replace(LEADING_LABELS, "").trim()
 
+    /** "A place in the United States", "A surname" — not what a learner looks up. */
+    private fun isProperNounSense(text: String): Boolean = PROPER_NOUN_SENSE.containsMatchIn(stripLabels(text))
+
     /** "To run." for "run" explains nothing. */
     private fun isCircular(word: String, text: String): Boolean {
         val words = text.lowercase().replace(Regex("[^a-z ]"), "").split(' ').filter { it.isNotBlank() }
@@ -67,6 +70,10 @@ class DatamuseApiClient(private val httpClient: HttpClient) {
         val UNUSUAL_LABELS = listOf(
             "dated", "obsolete", "archaic", "rare", "historical", "euphemistic", "slang", "vulgar",
             "offensive", "derogatory", "dialect", "nonstandard", "uncommon", "informal", "colloquial",
+        )
+        val PROPER_NOUN_SENSE = Regex(
+            """^(an? )?(place|city|town|village|county|river|lake|mountain|surname|given name|male given name|female given name|unincorporated community|census-designated place|township|borough|hamlet|municipality|suburb|neighbourhood|neighborhood|community|region|province|island|commune|parish|district)\b|\b(place|city|town|township|village|community|county|river|suburb|district) (in|of)\b|\bcounty\b|\(surname\)""",
+            RegexOption.IGNORE_CASE,
         )
         val POS_NAMES = mapOf("n" to "noun", "v" to "verb", "adj" to "adjective", "adv" to "adverb")
     }
