@@ -473,11 +473,13 @@ class SupabaseCommunityRepository(
 
     override suspend fun getRoom(roomId: String): ChatRoom? {
         lastRooms.firstOrNull { it.id == roomId }?.let { return it }
-        // Just this room (not the whole chat list).
-        client.postgrest.rpc("my_rooms_page", buildJsonObject {
-            put("p_limit", 1)
-            put("p_room", roomId)
-        }).decodeList<MyRoomDto>().firstOrNull()?.toDomain()?.let { return it }
+        // Just this room (not the whole chat list). Visitors aren't members of anything.
+        if (hasSession() && !isGuest()) {
+            client.postgrest.rpc("my_rooms_page", buildJsonObject {
+                put("p_limit", 1)
+                put("p_room", roomId)
+            }).decodeList<MyRoomDto>().firstOrNull()?.toDomain()?.let { return it }
+        }
         return client.from(ROOMS).select(Columns.raw(ROOM_COLUMNS)) {
             filter { eq("id", roomId) }
         }.decodeSingleOrNull<RoomDto>()?.toDomain(isMember = false)

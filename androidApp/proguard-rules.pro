@@ -1,137 +1,16 @@
-# Add project specific ProGuard rules here.
+# R8 rules for Speaky.
+# Keep these narrow: Compose, Ktor, Koin, coroutines, Firebase, WorkManager, Room, SQLDelight,
+# Credential Manager, Unity LevelPlay and Supabase ship their own consumer rules. Broad
+# "-keep class lib.** { *; }" rules stop R8 from shrinking/optimizing and Google Play flags
+# the app when its optimization score drops below 25%.
 
-# Keep Kotlin serialization
--keepattributes *Annotation*, InnerClasses
--dontnote kotlinx.serialization.AnnotationsKt
-
--keepclassmembers class kotlinx.serialization.json.** {
-    *** Companion;
-}
--keepclasseswithmembers class kotlinx.serialization.json.** {
-    kotlinx.serialization.KSerializer serializer(...);
-}
-
-# Keep serialization for app classes
--keep,includedescriptorclasses class com.speakmind.app.**$$serializer { *; }
--keepclassmembers class com.speakmind.app.** {
-    *** Companion;
-}
--keepclasseswithmembers class com.speakmind.app.** {
-    kotlinx.serialization.KSerializer serializer(...);
-}
-
-# Keep data classes and models
--keep class com.speakmind.app.**.dto.** { *; }
--keep class com.speakmind.app.**.model.** { *; }
--keep class com.speakmind.app.**.data.** { *; }
-
-# Keep Ktor
--keep class io.ktor.** { *; }
--keepclassmembers class io.ktor.** { *; }
--dontwarn io.ktor.**
-
-# Keep Koin
--keep class org.koin.** { *; }
--keepclassmembers class org.koin.** { *; }
-
-# Keep Firebase & Crashlytics
--keep class com.google.firebase.** { *; }
--keepclassmembers class com.google.firebase.** { *; }
--keep class com.crashlytics.** { *; }
--keepattributes SourceFile,LineNumberTable
+-keepattributes *Annotation*, InnerClasses, Signature, EnclosingMethod
+# Readable Crashlytics stack traces
+-keepattributes SourceFile, LineNumberTable
 -keep public class * extends java.lang.Exception
 
-# Unity LevelPlay + Unity Ads (the SDKs ship consumer rules; these are a safety net)
--keep class com.unity3d.mediation.** { *; }
--keep class com.unity3d.ads.** { *; }
--keep class com.unity3d.services.** { *; }
--keep class com.ironsource.** { *; }
--dontwarn com.unity3d.**
--dontwarn com.ironsource.**
--keepattributes JavascriptInterface
--keepclassmembers class * { @android.webkit.JavascriptInterface <methods>; }
-
-# Keep SQLDelight
--keep class app.cash.sqldelight.** { *; }
--keepclassmembers class app.cash.sqldelight.** { *; }
--dontwarn app.cash.sqldelight.**
--keep class com.speakmind.app.db.** { *; }
-
-# Keep WorkManager
--keep class androidx.work.** { *; }
--keepclassmembers class androidx.work.** { *; }
--dontwarn androidx.work.**
-
-# Keep Room generated implementations (used by WorkManager internally)
--keep class * extends androidx.room.RoomDatabase { *; }
--keepclassmembers class * extends androidx.room.RoomDatabase { *; }
--keep class androidx.room.** { *; }
--dontwarn androidx.room.**
-
-# Keep MediaPipe
--keep class com.google.mediapipe.** { *; }
--keepclassmembers class com.google.mediapipe.** { *; }
--dontwarn com.google.mediapipe.**
-
-# Keep Compose
--keep class androidx.compose.** { *; }
--dontwarn androidx.compose.**
-
-# Keep JNI — LLamaAndroid native methods must not be renamed
--keep class android.llama.cpp.LLamaAndroid { *; }
--keep class android.llama.cpp.LLamaAndroid$** { *; }
--keepclasseswithmembernames class android.llama.cpp.LLamaAndroid {
-    native <methods>;
-}
-
-# Keep androidx.startup initializers
--keep class * extends androidx.startup.Initializer { *; }
--keepclassmembers class androidx.startup.** { *; }
--dontwarn androidx.startup.**
-
-# Keep Compose Navigation @Serializable destinations (used via reflection)
--keep @kotlinx.serialization.Serializable class com.speakmind.app.navigation.** { *; }
-
-# Keep Google Auth
--keep class com.google.android.gms.auth.** { *; }
--keep class com.google.android.gms.common.** { *; }
--dontwarn com.google.android.gms.**
-
-# Keep Kotlinx Coroutines
--keep class kotlinx.coroutines.** { *; }
--keepclassmembers class kotlinx.coroutines.** { *; }
--dontwarn kotlinx.coroutines.**
-
-# Napier logging - strip debug logs in release
--assumenosideeffects class io.github.aakira.napier.Napier {
-    public static void d(...);
-    public static void v(...);
-}
-
-# Compose Multiplatform resources — generated accessor classes must not be removed or renamed,
-# otherwise the runtime asset path lookup fails and fonts/images throw "asset not found"
--keep class speaky.composeapp.generated.resources.** { *; }
--keepclassmembers class speaky.composeapp.generated.resources.** { *; }
--keep class org.jetbrains.compose.resources.** { *; }
--dontwarn org.jetbrains.compose.resources.**
-
-# Supabase (supabase-kt) — serializable DTOs and plugin internals
--keep class io.github.jan.supabase.** { *; }
--keepclassmembers class io.github.jan.supabase.** { *; }
--dontwarn io.github.jan.supabase.**
-
-# OkHttp / Okio (Ktor engine used for Realtime WebSockets)
--dontwarn okhttp3.**
--dontwarn okio.**
--dontwarn org.conscrypt.**
--dontwarn org.bouncycastle.**
--dontwarn org.openjsse.**
-
-# kotlinx-datetime
--keep class kotlinx.datetime.** { *; }
--dontwarn kotlinx.datetime.**
-
-# Kotlin serialization of app classes nested in private files (DTOs)
+# ---------- kotlinx.serialization (all @Serializable classes: DTOs, nav destinations) ----------
+-dontnote kotlinx.serialization.AnnotationsKt
 -keepclassmembers @kotlinx.serialization.Serializable class ** {
     static ** Companion;
     *** Companion;
@@ -139,15 +18,60 @@
 }
 -if @kotlinx.serialization.Serializable class **
 -keep class <1>$$serializer { *; }
+-if @kotlinx.serialization.Serializable class **
+-keepclassmembers class <1> { <fields>; }
+-keepclasseswithmembers class ** {
+    kotlinx.serialization.KSerializer serializer(...);
+}
+# Type-safe Navigation destinations are looked up by class name
+-keep @kotlinx.serialization.Serializable class com.speakmind.app.navigation.** { *; }
 
-# Credential Manager + Sign in with Google
--keep class androidx.credentials.** { *; }
--keep class com.google.android.libraries.identity.googleid.** { *; }
--dontwarn androidx.credentials.**
--dontwarn com.google.android.libraries.identity.googleid.**
+# ---------- On-device AI (do not change) ----------
+-keep class com.google.mediapipe.** { *; }
+-keepclassmembers class com.google.mediapipe.** { *; }
+-dontwarn com.google.mediapipe.**
+# JNI — LLamaAndroid native methods must not be renamed
+-keep class android.llama.cpp.LLamaAndroid { *; }
+-keep class android.llama.cpp.LLamaAndroid$** { *; }
+-keepclasseswithmembernames class android.llama.cpp.LLamaAndroid {
+    native <methods>;
+}
+
+# ---------- Compose Multiplatform resources ----------
+# Generated accessors must not be removed or renamed, or fonts/images throw "asset not found".
+-keep class speaky.composeapp.generated.resources.** { *; }
+-keep class org.jetbrains.compose.resources.** { *; }
+-dontwarn org.jetbrains.compose.resources.**
+
+# ---------- Firebase ----------
+# Components (Messaging, Crashlytics, Analytics, Installations) are created by reflection.
+-keep class * implements com.google.firebase.components.ComponentRegistrar { <init>(); }
+# Messaging service is started by the system
+-keep class * extends com.google.firebase.messaging.FirebaseMessagingService
+
+# ---------- Credential Manager + Sign in with Google ----------
 -if class androidx.credentials.CredentialManager
 -keep class androidx.credentials.playservices.** { *; }
 
-# Firebase Cloud Messaging service
--keep class * extends com.google.firebase.messaging.FirebaseMessagingService { *; }
--dontwarn com.google.firebase.**
+# ---------- Ads (Unity LevelPlay) — WebView bridges ----------
+-keepattributes JavascriptInterface
+-keepclassmembers class * { @android.webkit.JavascriptInterface <methods>; }
+
+# ---------- Warnings from optional dependencies ----------
+-dontwarn io.ktor.**
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn org.conscrypt.**
+-dontwarn org.bouncycastle.**
+-dontwarn org.openjsse.**
+-dontwarn org.slf4j.**
+-dontwarn com.unity3d.**
+-dontwarn com.ironsource.**
+-dontwarn kotlinx.datetime.**
+-dontwarn io.github.jan.supabase.**
+
+# ---------- Napier: strip debug/verbose logs in release ----------
+-assumenosideeffects class io.github.aakira.napier.Napier {
+    public static void d(...);
+    public static void v(...);
+}
