@@ -106,6 +106,7 @@ import com.speakmind.app.feature.community.data.model.REACTION_EMOJIS
 import com.speakmind.app.feature.community.data.model.RoomKind
 import com.speakmind.app.feature.community.data.model.RoomMessage
 import com.speakmind.app.feature.community.data.repository.ReportReason
+import com.speakmind.app.ui.components.rememberAdOnLeave
 import com.speakmind.app.feature.community.ui.components.OnlineDot
 import com.speakmind.app.feature.community.ui.components.ResizeWindowForKeyboard
 import com.speakmind.app.feature.community.ui.components.ProfileSheet
@@ -285,6 +286,8 @@ fun NavGraphBuilder.roomChatScreen() {
 @Composable
 private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
     val colors = LocalSpeakMindColors.current
+    // Full-screen ad when leaving a chat the user spent at least a minute in (button or back gesture).
+    val leaveChat = rememberAdOnLeave(minStayMs = 60_000L, onLeave = actions.onBack)
     val messages = uiState.visibleMessages
     val items = remember(messages) { buildItems(messages) }
     val listState = rememberLazyListState()
@@ -323,7 +326,7 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
             .background(colors.backgroundGradient)
             .imePadding(),
     ) {
-        ChatHeader(uiState = uiState, actions = actions)
+        ChatHeader(uiState = uiState, actions = actions, onBack = leaveChat)
 
         if (uiState.isOffline) {
             Row(
@@ -540,7 +543,7 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
 // ---------------- Header ----------------
 
 @Composable
-private fun ChatHeader(uiState: RoomChatUiState, actions: RoomActions) {
+private fun ChatHeader(uiState: RoomChatUiState, actions: RoomActions, onBack: () -> Unit) {
     val colors = LocalSpeakMindColors.current
     var menuOpen by remember { mutableStateOf(false) }
     val other = uiState.otherUser
@@ -552,7 +555,7 @@ private fun ChatHeader(uiState: RoomChatUiState, actions: RoomActions) {
                 .padding(horizontal = 4.sdp, vertical = 8.sdp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            IconButton(onClick = actions.onBack) {
+            IconButton(onClick = onBack) {
                 Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = colors.textPrimary)
             }
             Row(
