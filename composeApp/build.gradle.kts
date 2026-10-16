@@ -59,6 +59,8 @@ kotlin {
             implementation(libs.levelplay)
             implementation(libs.levelplay.unityads.adapter)
             implementation(libs.unity.ads)
+            implementation(libs.play.services.ads.identifier)
+            implementation(libs.play.services.appset)
             implementation(libs.google.auth)
             implementation(project(":llama"))
             implementation(project.dependencies.platform(libs.firebase.bom))

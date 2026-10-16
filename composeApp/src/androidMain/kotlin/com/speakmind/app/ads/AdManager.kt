@@ -35,6 +35,10 @@ class AdManager(private val context: Context) {
         LevelPlay.init(launchContext, request, object : LevelPlayInitListener {
             override fun onInitSuccess(configuration: LevelPlayConfiguration) {
                 Napier.d { "LevelPlay initialized" }
+                // Debug builds: log which ad network adapters are installed and configured.
+                if (AdConfig.useTestAds) {
+                    LevelPlay.validateIntegration(launchContext)
+                }
                 AdConfig.adsReady = true
                 createInterstitial()
             }
