@@ -31,6 +31,7 @@ import androidx.navigation.NavGraphBuilder
 import com.speakmind.app.feature.home.domain.model.getCategoryIcon
 import com.speakmind.app.navigation.ArticleDetailDestination
 import com.speakmind.app.ui.components.BannerAdView
+import com.speakmind.app.ui.components.rememberAdOnLeave
 import com.speakmind.app.ui.components.TtsSpeedButton
 import com.speakmind.app.ui.components.animatedComposable
 import androidx.compose.ui.graphics.Color
@@ -92,6 +93,8 @@ private fun ArticleDetailContent(
     }
 
     val colors = com.speakmind.app.ui.theme.LocalSpeakMindColors.current
+    // Full-screen ad when leaving after actually reading (back button or gesture).
+    val leave = rememberAdOnLeave(onLeave = onBackClicked)
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -144,7 +147,7 @@ private fun ArticleDetailContent(
                             .padding(horizontal = 8.sdp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        IconButton(onClick = onBackClicked) {
+                        IconButton(onClick = leave) {
                             Icon(
                                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = "Back",

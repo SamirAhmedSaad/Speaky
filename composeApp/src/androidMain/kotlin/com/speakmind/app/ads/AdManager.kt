@@ -21,6 +21,8 @@ class AdManager(private val context: Context) {
     private var interstitial: LevelPlayInterstitialAd? = null
     private var pendingDismiss: (() -> Unit)? = null
     private var retryDelayMs = INITIAL_RETRY_MS
+    private val startedAt = System.currentTimeMillis()
+    private var lastShownAt = 0L
     private val handler = Handler(Looper.getMainLooper())
 
     /** [launchContext] is the activity starting the app: some ad networks need one at init. */
@@ -84,6 +86,12 @@ class AdManager(private val context: Context) {
     }
 
     fun showInterstitial(activity: Activity, onDismissed: () -> Unit = {}) {
+        val now = System.currentTimeMillis()
+        // Never right after opening the app, and at most one every few minutes.
+        if (now - startedAt < FIRST_AD_AFTER_MS || now - lastShownAt < MIN_GAP_MS) {
+            onDismissed()
+            return
+        }
         val ad = interstitial
         if (ad == null || !ad.isAdReady()) {
             Napier.d { "Interstitial not ready, skipping" }
@@ -92,6 +100,7 @@ class AdManager(private val context: Context) {
             return
         }
         pendingDismiss = onDismissed
+        lastShownAt = now
         ad.showAd(activity)
     }
 
@@ -103,6 +112,8 @@ class AdManager(private val context: Context) {
 
     companion object {
         private const val INITIAL_RETRY_MS = 15_000L
+        private const val FIRST_AD_AFTER_MS = 60_000L
+        private const val MIN_GAP_MS = 3 * 60_000L
         private const val MAX_RETRY_MS = 5 * 60_000L
 
         @Volatile
