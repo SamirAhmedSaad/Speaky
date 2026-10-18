@@ -1,6 +1,8 @@
 package com.speakmind.app.ui.components
 
 import android.app.Activity
+import android.view.ViewGroup
+import android.widget.FrameLayout
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.wrapContentHeight
@@ -12,17 +14,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
-import com.unity3d.mediation.LevelPlayAdError
-import com.unity3d.mediation.LevelPlayAdInfo
-import com.unity3d.mediation.LevelPlayAdSize
-import com.unity3d.mediation.banner.LevelPlayBannerAdView
-import com.unity3d.mediation.banner.LevelPlayBannerAdViewListener
 import io.github.aakira.napier.Napier
 
 @Composable
 actual fun BannerAdView(modifier: Modifier) {
     if (!AdConfig.adsEnabled || !AdConfig.showBannerAds || !AdConfig.adsReady) return
-    if (AdConfig.BANNER_AD_UNIT_ID.isBlank()) return
+    val activity = LocalContext.current as? Activity ?: return
+    val banner = remember(activity) { AdManager.instance?.bannerFor(activity) } ?: return
     Box(
         modifier = modifier
             .fillMaxWidth()
@@ -30,25 +28,16 @@ actual fun BannerAdView(modifier: Modifier) {
         contentAlignment = Alignment.Center,
     ) {
         AndroidView(
-            factory = { context ->
-                val config = LevelPlayBannerAdView.Config.Builder()
-                    .setAdSize(LevelPlayAdSize.BANNER)
-                    .build()
-                LevelPlayBannerAdView(context, AdConfig.BANNER_AD_UNIT_ID, config).apply {
-                    setBannerListener(object : LevelPlayBannerAdViewListener {
-                        override fun onAdLoaded(adInfo: LevelPlayAdInfo) {
-                            Napier.d { "Banner ad loaded" }
-                        }
-
-                        override fun onAdLoadFailed(error: LevelPlayAdError) {
-                            Napier.w { "Banner ad failed: ${error.errorMessage}" }
-                        }
-                    })
-                    loadAd()
+            factory = { context -> FrameLayout(context) },
+            // The same banner moves between screens: take it from wherever it is now.
+            update = { container ->
+                if (banner.parent !== container) {
+                    (banner.parent as? ViewGroup)?.removeView(banner)
+                    container.addView(banner)
                 }
             },
-            // Leaving the screen must free the banner, or it keeps refreshing in the background.
-            onRelease = { it.destroy() },
+            // Leaving the screen only detaches it; it stays loaded for the next screen.
+            onRelease = { container -> container.removeView(banner) },
         )
     }
 }

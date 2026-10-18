@@ -4,18 +4,22 @@ import android.app.Activity
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
+import android.view.ViewGroup
 import com.unity3d.mediation.LevelPlay
 import com.unity3d.mediation.LevelPlayAdError
 import com.unity3d.mediation.LevelPlayAdInfo
+import com.unity3d.mediation.LevelPlayAdSize
 import com.unity3d.mediation.LevelPlayConfiguration
 import com.unity3d.mediation.LevelPlayInitError
 import com.unity3d.mediation.LevelPlayInitListener
 import com.unity3d.mediation.LevelPlayInitRequest
+import com.unity3d.mediation.banner.LevelPlayBannerAdView
+import com.unity3d.mediation.banner.LevelPlayBannerAdViewListener
 import com.unity3d.mediation.interstitial.LevelPlayInterstitialAd
 import com.unity3d.mediation.interstitial.LevelPlayInterstitialAdListener
 import io.github.aakira.napier.Napier
 
-/** Unity LevelPlay: initialization and the full-screen (interstitial) ad. Banners are in BannerAdView. */
+/** Unity LevelPlay: initialization, the shared banner and the full-screen (interstitial) ad. */
 class AdManager(private val context: Context) {
 
     private var interstitial: LevelPlayInterstitialAd? = null
@@ -24,6 +28,13 @@ class AdManager(private val context: Context) {
     private val startedAt = System.currentTimeMillis()
     private var lastShownAt = 0L
     private val handler = Handler(Looper.getMainLooper())
+
+    /**
+     * One banner for the whole app, loaded right after init and moved into whichever screen shows
+     * a banner. A new banner per screen meant a fresh ad request (seconds) every time a screen opened.
+     */
+    private var banner: LevelPlayBannerAdView? = null
+    private var bannerRetryMs = INITIAL_RETRY_MS
 
     /** [launchContext] is the activity starting the app: some ad networks need one at init. */
     fun initialize(launchContext: Context) {
@@ -43,12 +54,43 @@ class AdManager(private val context: Context) {
                 }
                 AdConfig.adsReady = true
                 createInterstitial()
+                (launchContext as? Activity)?.let { bannerFor(it) } // preload so the first screen shows it at once
             }
 
             override fun onInitFailed(error: LevelPlayInitError) {
                 Napier.w { "LevelPlay init failed: ${error.errorMessage}" }
             }
         })
+    }
+
+    /** The shared banner, created for [activity] (recreated if the activity was recreated). */
+    fun bannerFor(activity: Activity): LevelPlayBannerAdView? {
+        if (!AdConfig.adsReady || AdConfig.BANNER_AD_UNIT_ID.isBlank()) return null
+        banner?.let { existing ->
+            if (existing.context === activity) return existing
+            (existing.parent as? ViewGroup)?.removeView(existing)
+            existing.destroy()
+        }
+        val config = LevelPlayBannerAdView.Config.Builder()
+            .setAdSize(LevelPlayAdSize.BANNER)
+            .build()
+        return LevelPlayBannerAdView(activity, AdConfig.BANNER_AD_UNIT_ID, config).apply {
+            setBannerListener(object : LevelPlayBannerAdViewListener {
+                override fun onAdLoaded(adInfo: LevelPlayAdInfo) {
+                    Napier.d { "Banner ad loaded" }
+                    bannerRetryMs = INITIAL_RETRY_MS
+                }
+
+                override fun onAdLoadFailed(error: LevelPlayAdError) {
+                    Napier.w { "Banner ad failed: ${error.errorMessage}" }
+                    // Retry (with growing gaps) instead of waiting for someone to open another screen.
+                    val failed = this@apply
+                    handler.postDelayed({ if (banner === failed) failed.loadAd() }, bannerRetryMs)
+                    bannerRetryMs = (bannerRetryMs * 2).coerceAtMost(MAX_RETRY_MS)
+                }
+            })
+            loadAd() // refreshes itself afterwards (dashboard refresh rate)
+        }.also { banner = it }
     }
 
     private fun createInterstitial() {
