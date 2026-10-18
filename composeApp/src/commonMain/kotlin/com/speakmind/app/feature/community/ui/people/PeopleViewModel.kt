@@ -61,7 +61,12 @@ class PeopleViewModel(
         }
         load(reset = true)
         viewModelScope.launch {
-            repository.onlineUserIds.collect { ids -> _uiState.update { it.copy(onlineUserIds = ids) } }
+            repository.onlineUserIds.collect { ids ->
+                val changed = ids != _uiState.value.onlineUserIds
+                _uiState.update { it.copy(onlineUserIds = ids) }
+                // The Online tab follows people coming and going.
+                if (changed && _uiState.value.filter == "Online") load(reset = true)
+            }
         }
         loadModerators()
         viewModelScope.launch {
@@ -91,10 +96,15 @@ class PeopleViewModel(
         load(reset = false)
     }
 
+    private var loadJob: Job? = null
+
     private fun load(reset: Boolean) {
+        // A new search/filter replaces any page still loading, so a slow "All" result can't
+        // land on the Online tab.
+        if (reset) loadJob?.cancel()
         val offset = if (reset) 0 else _uiState.value.people.size
         _uiState.update { it.copy(isLoading = true) }
-        viewModelScope.launch {
+        loadJob = viewModelScope.launch {
             try {
                 val state = _uiState.value
                 val page = repository.searchUsers(
@@ -105,12 +115,16 @@ class PeopleViewModel(
                     onlyIds = if (state.filter == "Online") state.onlineUserIds else null,
                 )
                 _uiState.update {
+                    // Ignore a page for a filter or search that is no longer selected.
+                    if (it.filter != state.filter || it.query != state.query) return@update it
                     it.copy(
                         people = if (reset) page else (it.people + page).distinctBy { u -> u.uid },
                         hasMore = page.size >= PAGE,
                         isLoading = false,
                     )
                 }
+            } catch (e: kotlinx.coroutines.CancellationException) {
+                throw e
             } catch (e: Exception) {
                 Napier.w("searchUsers failed", e)
                 _uiState.update { it.copy(isLoading = false) }
