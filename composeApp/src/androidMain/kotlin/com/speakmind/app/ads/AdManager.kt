@@ -35,6 +35,29 @@ class AdManager(private val context: Context) {
      */
     private var banner: LevelPlayBannerAdView? = null
     private var bannerRetryMs = INITIAL_RETRY_MS
+    /** Banner spots on screen, oldest first; the newest one (the screen on top) holds the banner. */
+    private val bannerHosts = mutableListOf<ViewGroup>()
+
+    fun attachBannerHost(host: ViewGroup, activity: Activity) {
+        bannerHosts.remove(host)
+        bannerHosts.add(host)
+        bannerFor(activity)
+        placeBanner()
+    }
+
+    fun detachBannerHost(host: ViewGroup) {
+        bannerHosts.remove(host)
+        banner?.let { if (it.parent === host) host.removeView(it) }
+        placeBanner()
+    }
+
+    private fun placeBanner() {
+        val view = banner ?: return
+        val top = bannerHosts.lastOrNull()
+        if (view.parent === top) return
+        (view.parent as? ViewGroup)?.removeView(view)
+        top?.addView(view)
+    }
 
     /** [launchContext] is the activity starting the app: some ad networks need one at init. */
     fun initialize(launchContext: Context) {
@@ -54,7 +77,7 @@ class AdManager(private val context: Context) {
                 }
                 AdConfig.adsReady = true
                 createInterstitial()
-                (launchContext as? Activity)?.let { bannerFor(it) } // preload so the first screen shows it at once
+                (launchContext as? Activity)?.let { bannerFor(it); placeBanner() } // preload so the first screen shows it at once
             }
 
             override fun onInitFailed(error: LevelPlayInitError) {
@@ -64,7 +87,7 @@ class AdManager(private val context: Context) {
     }
 
     /** The shared banner, created for [activity] (recreated if the activity was recreated). */
-    fun bannerFor(activity: Activity): LevelPlayBannerAdView? {
+    private fun bannerFor(activity: Activity): LevelPlayBannerAdView? {
         if (!AdConfig.adsReady || AdConfig.BANNER_AD_UNIT_ID.isBlank()) return null
         banner?.let { existing ->
             if (existing.context === activity) return existing
@@ -78,19 +101,32 @@ class AdManager(private val context: Context) {
             setBannerListener(object : LevelPlayBannerAdViewListener {
                 override fun onAdLoaded(adInfo: LevelPlayAdInfo) {
                     Napier.d { "Banner ad loaded" }
+                    AdConfig.bannerLoaded = true
                     bannerRetryMs = INITIAL_RETRY_MS
                 }
 
                 override fun onAdLoadFailed(error: LevelPlayAdError) {
                     Napier.w { "Banner ad failed: ${error.errorMessage}" }
-                    // Retry (with growing gaps) instead of waiting for someone to open another screen.
+                    // Retry with a fresh banner (LevelPlay ignores loadAd() on one that failed),
+                    // with growing gaps, instead of waiting for someone to open another screen.
                     val failed = this@apply
-                    handler.postDelayed({ if (banner === failed) failed.loadAd() }, bannerRetryMs)
+                    handler.postDelayed({ if (banner === failed) replaceBanner(activity) }, bannerRetryMs)
                     bannerRetryMs = (bannerRetryMs * 2).coerceAtMost(MAX_RETRY_MS)
                 }
             })
             loadAd() // refreshes itself afterwards (dashboard refresh rate)
         }.also { banner = it }
+    }
+
+    private fun replaceBanner(activity: Activity) {
+        banner?.let { old ->
+            (old.parent as? ViewGroup)?.removeView(old)
+            old.destroy()
+        }
+        banner = null
+        AdConfig.bannerLoaded = false
+        bannerFor(activity)
+        placeBanner()
     }
 
     private fun createInterstitial() {

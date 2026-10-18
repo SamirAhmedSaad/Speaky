@@ -1,12 +1,16 @@
 package com.speakmind.app.ui.components
 
 import android.app.Activity
-import android.view.ViewGroup
+import android.view.View
 import android.widget.FrameLayout
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -18,28 +22,29 @@ import io.github.aakira.napier.Napier
 
 @Composable
 actual fun BannerAdView(modifier: Modifier) {
+    if (!AdConfig.adsEnabled || !AdConfig.showBannerAds) return
+    DisposableEffect(Unit) {
+        AdConfig.bannerRequests++
+        onDispose { AdConfig.bannerRequests-- }
+    }
+    // The app banner floats at the bottom (AppBannerHost); keep this screen's content clear of it.
+    Spacer(modifier.fillMaxWidth().height(if (AdConfig.adsReady && AdConfig.bannerLoaded) 50.dp else 0.dp))
+}
+
+@Composable
+actual fun AppBannerHost(modifier: Modifier) {
     if (!AdConfig.adsEnabled || !AdConfig.showBannerAds || !AdConfig.adsReady) return
     val activity = LocalContext.current as? Activity ?: return
-    val banner = remember(activity) { AdManager.instance?.bannerFor(activity) } ?: return
-    Box(
-        modifier = modifier
-            .fillMaxWidth()
-            .wrapContentHeight(),
-        contentAlignment = Alignment.Center,
-    ) {
-        AndroidView(
-            factory = { context -> FrameLayout(context) },
-            // The same banner moves between screens: take it from wherever it is now.
-            update = { container ->
-                if (banner.parent !== container) {
-                    (banner.parent as? ViewGroup)?.removeView(banner)
-                    container.addView(banner)
-                }
-            },
-            // Leaving the screen only detaches it; it stays loaded for the next screen.
-            onRelease = { container -> container.removeView(banner) },
-        )
-    }
+    val manager = AdManager.instance ?: return
+    val visible = AdConfig.bannerRequests > 0 && AdConfig.bannerLoaded
+    // Stays attached for the whole session so the loaded ad is never lost (LevelPlay blanks a
+    // banner that is moved between views); it is only hidden on screens without a banner.
+    AndroidView(
+        modifier = modifier.fillMaxWidth().height(if (visible) 50.dp else 0.dp),
+        factory = { context -> FrameLayout(context).also { manager.attachBannerHost(it, activity) } },
+        update = { host -> host.visibility = if (visible) View.VISIBLE else View.INVISIBLE },
+        onRelease = { manager.detachBannerHost(it) },
+    )
 }
 
 @Composable

@@ -1,6 +1,7 @@
 package com.speakmind.app.ads
 
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 
@@ -19,6 +20,10 @@ object AdConfig {
     // Set to true once LevelPlay is initialized.
     // Compose-observable so BannerAdView recomposes and loads the ad automatically.
     var adsReady: Boolean by mutableStateOf(false)
+    /** The shared banner has an ad to show; banner spots take their height only then. */
+    var bannerLoaded: Boolean by mutableStateOf(false)
+    /** How many on-screen screens want the banner (BannerAdView); the app banner shows when > 0. */
+    var bannerRequests: Int by mutableIntStateOf(0)
 
     val isConfigured: Boolean get() = APP_KEY.isNotBlank()
 }

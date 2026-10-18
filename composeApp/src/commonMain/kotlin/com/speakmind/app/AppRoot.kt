@@ -8,6 +8,10 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import com.speakmind.app.ui.components.AppBannerHost
+import androidx.compose.ui.Alignment
+import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.Box
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.speakmind.app.feature.aisetup.ui.aiSetupScreen
@@ -81,6 +85,7 @@ fun AppRoot(startDestination: Any) {
             }
         }
 
+        Box(Modifier.fillMaxSize()) {
         NavHost(
             navController = navController,
             startDestination = startDestination,
@@ -109,6 +114,9 @@ fun AppRoot(startDestination: Any) {
             roomChatScreen()
             myGroupsScreen()
             groupDetailScreen()
+        }
+        // One banner for the whole app, kept loaded; screens with a BannerAdView make it visible.
+        AppBannerHost(Modifier.align(Alignment.BottomCenter).navigationBarsPadding())
         }
     }
 }

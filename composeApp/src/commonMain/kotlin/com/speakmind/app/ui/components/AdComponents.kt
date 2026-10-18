@@ -10,8 +10,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.backhandler.BackHandler
 import kotlinx.datetime.Clock
 
+/** Marks this screen as showing the app banner, and reserves its space here. */
 @Composable
 expect fun BannerAdView(modifier: Modifier = Modifier)
+
+/** The single app-wide banner, placed once at the bottom of the app (see AppRoot). */
+@Composable
+expect fun AppBannerHost(modifier: Modifier = Modifier)
 
 @Composable
 expect fun rememberInterstitialAdState(): InterstitialAdState

@@ -10,6 +10,11 @@ actual fun BannerAdView(modifier: Modifier) {
 }
 
 @Composable
+actual fun AppBannerHost(modifier: Modifier) {
+    // No-op on iOS — ads not yet implemented
+}
+
+@Composable
 actual fun rememberInterstitialAdState(): InterstitialAdState {
     return remember { InterstitialAdState() }
 }
