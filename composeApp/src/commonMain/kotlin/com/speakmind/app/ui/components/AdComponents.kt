@@ -17,4 +17,7 @@ expect fun rememberInterstitialAdState(): InterstitialAdState
 /** The full-screen ad. App-wide limits (once per visit, after a minute of use) live in the platform ad manager. */
 expect class InterstitialAdState {
     fun show(onDismissed: () -> Unit = {})
+
+    /** Before opening a course lesson (see AdManager.showLessonInterstitial). */
+    fun showBeforeLesson(onDismissed: () -> Unit)
 }

@@ -27,6 +27,8 @@ class AdManager(private val context: Context) {
     private var retryDelayMs = INITIAL_RETRY_MS
     /** One full-screen ad per visit; a visit restarts when the app returns after a long break. */
     private var shownThisVisit = false
+    /** After the visit ad, the next lesson opens without an ad (so the user isn't hit twice in a row). */
+    private var freeLesson = false
     private var usedMs = 0L
     private var foregroundSince = 0L
     private var backgroundSince = 0L
@@ -197,6 +199,28 @@ class AdManager(private val context: Context) {
         if (ad == null || !ad.isAdReady()) {
             // Not counted as shown: tried again at the next screen change.
             Napier.d { "Interstitial not ready, will try at the next screen" }
+            onDismissed()
+            loadInterstitial()
+            return
+        }
+        pendingDismiss = onDismissed
+        shownThisVisit = true
+        freeLesson = true
+        ad.showAd(activity)
+    }
+
+    /**
+     * Full-screen ad before a course lesson opens, every lesson - except the first one after the
+     * visit ad. Also counts as this visit's ad. If none is ready the lesson simply opens.
+     */
+    fun showLessonInterstitial(activity: Activity, onDismissed: () -> Unit) {
+        if (freeLesson) {
+            freeLesson = false
+            onDismissed()
+            return
+        }
+        val ad = interstitial
+        if (ad == null || !ad.isAdReady()) {
             onDismissed()
             loadInterstitial()
             return

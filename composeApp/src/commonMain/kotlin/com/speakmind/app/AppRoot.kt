@@ -11,6 +11,8 @@ import androidx.compose.ui.Modifier
 import com.speakmind.app.ui.components.AppBannerHost
 import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.navigation.compose.currentBackStackEntryAsState
+import androidx.navigation.NavDestination.Companion.hasRoute
+import com.speakmind.app.navigation.LessonDestination
 import androidx.compose.ui.Alignment
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.Box
@@ -95,7 +97,8 @@ fun AppRoot(startDestination: Any) {
         val currentEntry by navController.currentBackStackEntryAsState()
         val visitAd = rememberInterstitialAdState()
         LaunchedEffect(currentEntry?.id) {
-            if (currentEntry != null) visitAd.show()
+            val entry = currentEntry ?: return@LaunchedEffect
+            if (!entry.destination.hasRoute<LessonDestination>()) visitAd.show()
         }
 
         Box(Modifier.fillMaxSize()) {

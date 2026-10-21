@@ -24,4 +24,6 @@ actual class InterstitialAdState {
         // No-op on iOS
         onDismissed()
     }
+
+    actual fun showBeforeLesson(onDismissed: () -> Unit) = onDismissed()
 }

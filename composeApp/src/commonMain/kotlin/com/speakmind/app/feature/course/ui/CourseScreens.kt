@@ -81,6 +81,7 @@ import com.speakmind.app.navigation.LessonDestination
 import com.speakmind.app.navigation.LessonExamDestination
 import com.speakmind.app.ui.components.BannerAdView
 import com.speakmind.app.ui.components.animatedComposable
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import network.chaintech.sdpcomposemultiplatform.sdp
 import org.koin.compose.viewmodel.koinViewModel
@@ -282,6 +283,7 @@ fun NavGraphBuilder.courseBookScreen() {
         val dest = entry.toRoute<CourseBookDestination>()
         val viewModel = koinViewModel<CourseOutlineViewModel>(key = "book-${dest.bookId}") { parametersOf(dest.courseId) }
         val state by viewModel.uiState.collectAsStateWithLifecycle()
+        val lessonAd = rememberInterstitialAdState()
         OnResume(viewModel::refresh)
         val colors = LocalSpeakMindColors.current
         ScreenScaffold(state.outline?.books?.find { it.id == dest.bookId }?.title ?: dest.title, viewModel::onBack) { modifier ->
@@ -302,7 +304,7 @@ fun NavGraphBuilder.courseBookScreen() {
                             icon = Icons.Default.PlayArrow,
                             accent = colors.magenta,
                             done = result != null,
-                            onClick = { viewModel.onLessonClicked(lesson.id) },
+                            onClick = { lessonAd.showBeforeLesson { viewModel.onLessonClicked(lesson.id) } },
                             modifier = Modifier.fillMaxWidth(),
                         )
                     }
