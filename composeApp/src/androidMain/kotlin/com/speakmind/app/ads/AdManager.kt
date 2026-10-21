@@ -23,6 +23,8 @@ import io.github.aakira.napier.Napier
 class AdManager(private val context: Context) {
 
     private var interstitial: LevelPlayInterstitialAd? = null
+    /** LevelPlay rejects a second loadAd() while one is running ("Load is already called"). */
+    private var interstitialLoading = false
     private var pendingDismiss: (() -> Unit)? = null
     private var retryDelayMs = INITIAL_RETRY_MS
     /** One full-screen ad per visit; a visit restarts when the app returns after a long break. */
@@ -139,10 +141,12 @@ class AdManager(private val context: Context) {
         interstitial = LevelPlayInterstitialAd(AdConfig.INTERSTITIAL_AD_UNIT_ID).apply {
             setListener(object : LevelPlayInterstitialAdListener {
                 override fun onAdLoaded(adInfo: LevelPlayAdInfo) {
+                    interstitialLoading = false
                     retryDelayMs = INITIAL_RETRY_MS
                 }
 
                 override fun onAdLoadFailed(error: LevelPlayAdError) {
+                    interstitialLoading = false
                     Napier.w { "Interstitial failed to load: ${error.errorMessage}" }
                     // Back off so a no-fill doesn't turn into a request loop, but keep trying
                     // every minute until this visit's ad has shown.
@@ -167,7 +171,10 @@ class AdManager(private val context: Context) {
     fun loadInterstitial() {
         if (!AdConfig.adsEnabled) return
         val ad = interstitial ?: return
-        if (!ad.isAdReady()) ad.loadAd()
+        if (!ad.isAdReady() && !interstitialLoading) {
+            interstitialLoading = true
+            ad.loadAd()
+        }
     }
 
     fun onAppForeground() {
