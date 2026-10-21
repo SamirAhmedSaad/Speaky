@@ -1,0 +1,127 @@
+{
+  "title": "Renting and Buying a Home",
+  "content": {
+    "vocabulary": [
+      {"word": "apartment / flat", "pos": "noun", "meaning_en": "a set of rooms for living in, usually on one floor of a building", "meaning_ar": "شقة", "note_ar": "apartment أمريكي، flat بريطاني", "example": "They live in a small apartment downtown."},
+      {"word": "house", "pos": "noun", "meaning_en": "a building where people live", "meaning_ar": "منزل / بيت", "example": "Their house has a red door."},
+      {"word": "villa", "pos": "noun", "meaning_en": "a large, luxurious house, often with a garden", "meaning_ar": "فيلا", "example": "They rented a villa by the sea for the summer."},
+      {"word": "cottage", "pos": "noun", "meaning_en": "a small, cozy house, usually in the countryside", "meaning_ar": "كوخ / بيت ريفي صغير", "example": "My grandparents live in a cottage near the lake."},
+      {"word": "dorm / dormitory", "pos": "noun", "meaning_en": "a large building where college students live", "meaning_ar": "سكن الطلاب", "note_ar": "dorm اختصار dormitory (أمريكي)، وفي بريطانيا hall of residence", "example": "I lived in a dorm in my first year at university."},
+      {"word": "studio", "pos": "noun", "meaning_en": "a very small apartment with one main room for living, eating and sleeping", "meaning_ar": "شقة استوديو (غرفة واحدة)", "example": "A studio is cheaper than a two-bedroom flat."},
+      {"word": "balcony", "pos": "noun", "meaning_en": "an outdoor platform that sticks out from the wall of a building", "meaning_ar": "شرفة / بلكونة", "example": "The landlord was watering plants on the balcony."},
+      {"word": "garden", "pos": "noun", "meaning_en": "an area where flowers, plants or vegetables are grown", "meaning_ar": "حديقة (مزروعة)", "example": "She grows tomatoes in her garden."},
+      {"word": "garage", "pos": "noun", "meaning_en": "a building or room for keeping a car", "meaning_ar": "مرآب / جراج", "example": "The house comes with a garage."},
+      {"word": "roof", "pos": "noun", "meaning_en": "the top covering of a building", "meaning_ar": "سطح / سقف المبنى", "example": "Rain came through a hole in the roof."},
+      {"word": "gate", "pos": "noun", "meaning_en": "a large door in a fence or outside wall", "meaning_ar": "بوابة", "example": "Close the gate so the dog doesn't run out."},
+      {"word": "rent", "pos": "noun / verb", "meaning_en": "money you pay to live in a place; to pay to use a property", "meaning_ar": "إيجار / يستأجر", "example": "The rent is due on the first of the month."},
+      {"word": "lease", "pos": "noun", "meaning_en": "a legal agreement to rent a property for a fixed time", "meaning_ar": "عقد إيجار", "example": "We signed a one-year lease."},
+      {"word": "landlord", "pos": "noun", "meaning_en": "the owner of a house or apartment that is rented to others", "meaning_ar": "مالك العقار / صاحب البيت", "note_ar": "للمرأة landlady", "example": "Call the landlord if the heater breaks."},
+      {"word": "tenant", "pos": "noun", "meaning_en": "a person who pays rent to live in a property", "meaning_ar": "مستأجر", "example": "The new tenants move in next week."},
+      {"word": "deposit", "pos": "noun / verb", "meaning_en": "money paid in advance as security when renting", "meaning_ar": "تأمين / عربون", "example": "You'll get your deposit back when you leave."},
+      {"word": "contract", "pos": "noun", "meaning_en": "a formal written agreement between two or more people", "meaning_ar": "عقد", "example": "Read the contract carefully before you sign it."},
+      {"word": "monthly payment", "pos": "noun", "meaning_en": "an amount of money you pay every month", "meaning_ar": "دفعة شهرية", "example": "The monthly payment includes water and electricity."},
+      {"word": "mortgage", "pos": "noun", "meaning_en": "a long bank loan used to buy a house", "meaning_ar": "رهن عقاري / قرض شراء منزل", "note_ar": "حرف t صامت: تُنطق /ˈmɔːrɡɪdʒ/", "example": "They took out a mortgage to buy their first home."},
+      {"word": "sale", "pos": "noun", "meaning_en": "the act of selling something", "meaning_ar": "بيع", "note_ar": "for sale = معروض للبيع", "example": "That house is for sale."},
+      {"word": "property", "pos": "noun", "meaning_en": "a building or land that someone owns", "meaning_ar": "عقار / ملكية", "note_ar": "private property = ملكية خاصة", "example": "This property belongs to my uncle."},
+      {"word": "agent", "pos": "noun", "meaning_en": "a person who helps people buy, sell or rent property", "meaning_ar": "وكيل عقاري / سمسار", "note_ar": "real estate agent أمريكي، estate agent بريطاني", "example": "The agent showed us three apartments."},
+      {"word": "key", "pos": "noun", "meaning_en": "a piece of metal used to open a lock", "meaning_ar": "مفتاح", "example": "The landlord gave us the keys."},
+      {"word": "furnished", "pos": "adjective", "meaning_en": "with furniture already in it", "meaning_ar": "مفروش", "example": "We want a furnished flat because we have no furniture."},
+      {"word": "unfurnished", "pos": "adjective", "meaning_en": "without furniture", "meaning_ar": "غير مفروش", "example": "Unfurnished apartments are usually cheaper."},
+      {"word": "spacious", "pos": "adjective", "meaning_en": "having a lot of space", "meaning_ar": "واسع / فسيح", "note_ar": "مرادفها roomy", "example": "The living room is bright and spacious."},
+      {"word": "cozy", "pos": "adjective", "meaning_en": "warm, comfortable and relaxing", "meaning_ar": "دافئ ومريح", "example": "It's a small but cozy cottage."},
+      {"word": "modern", "pos": "adjective", "meaning_en": "of the newest design or technology", "meaning_ar": "حديث / عصري", "example": "The kitchen has modern appliances."},
+      {"word": "old-fashioned", "pos": "adjective", "meaning_en": "of an old style, not modern", "meaning_ar": "قديم الطراز", "example": "The house was full of old-fashioned furniture."},
+      {"word": "rusty", "pos": "adjective", "meaning_en": "covered with rust (the red-brown layer on old metal)", "meaning_ar": "مُصدّأ", "note_ar": "rust = الصدأ", "example": "The old bike had a rusty chain."},
+      {"word": "warn", "pos": "verb", "meaning_en": "to tell someone about a possible danger", "meaning_ar": "يُحذّر", "note_ar": "حرف w في البداية يغيّر صوت ar إلى or: /wɔːrn/", "example": "He warned us about the ice on the road."},
+      {"word": "point to", "pos": "phrasal verb", "meaning_en": "to show something by holding your finger toward it", "meaning_ar": "يشير إلى", "example": "She pointed to the house on the hill."},
+      {"word": "practical", "pos": "adjective", "meaning_en": "thinking about real facts and what is possible", "meaning_ar": "عمليّ", "example": "Be practical — we can't afford a villa."},
+      {"word": "exchange", "pos": "verb", "meaning_en": "to give something and receive something in return", "meaning_ar": "يتبادل", "note_ar": "exchange looks = يتبادلون النظرات", "example": "The friends exchanged nervous looks."},
+      {"word": "nod", "pos": "verb", "meaning_en": "to move your head up and down to say yes", "meaning_ar": "يومئ برأسه (موافقاً)", "example": "He nodded and said, \"Yes, I agree.\""},
+      {"word": "yard", "pos": "noun", "meaning_en": "an open area around a house", "meaning_ar": "فناء / ساحة حول البيت", "note_ar": "backyard خلف البيت، front yard أمامه", "example": "The kids are playing in the backyard."},
+      {"word": "rob", "pos": "verb", "meaning_en": "to take money or things from a person or place, often using force", "meaning_ar": "يسرق (بالقوة، والمفعول شخص أو مكان)", "example": "Two men robbed the bank yesterday."},
+      {"word": "steal", "pos": "verb", "meaning_en": "to take something secretly without permission", "meaning_ar": "يسرق (خِفية، والمفعول هو الشيء)", "note_ar": "steal – stole – stolen", "example": "Someone stole my phone on the bus."}
+    ],
+    "fine_lines": [
+      {
+        "title": "yard vs garden",
+        "words": ["yard", "garden"],
+        "explanation_ar": "yard هي أي مساحة مفتوحة حول البيت، سواء كان فيها عشب أو بلاط أو تراب (backyard خلف البيت، front yard أمامه). garden مساحة مصممة خصيصاً للزراعة: زهور ونباتات وخضروات. فالأرض المبلّطة أو الترابية بدون زرع تكون yard وليست garden.",
+        "examples": [
+          {"word": "yard", "sentence": "We parked the bikes in the yard."},
+          {"word": "yard", "sentence": "Their front yard is covered with stones."},
+          {"word": "garden", "sentence": "My mother grows roses in her garden."},
+          {"word": "garden", "sentence": "We have a small vegetable garden."}
+        ]
+      },
+      {
+        "title": "rob vs steal",
+        "words": ["rob", "steal"],
+        "explanation_ar": "الاثنان بمعنى «يسرق». rob غالباً سرقة بالقوة أو التهديد، ويأتي بعدها الشخص أو المكان الذي تمت سرقته. steal سرقة في الخفاء، ويأتي بعدها الشيء المسروق نفسه. باختصار: you rob a person or a place, but you steal an object.",
+        "examples": [
+          {"word": "rob", "sentence": "They robbed the bank."},
+          {"word": "rob", "sentence": "Someone robbed me in the street."},
+          {"word": "steal", "sentence": "Someone stole my keys."},
+          {"word": "steal", "sentence": "The thief stole the envelope."}
+        ]
+      },
+      {
+        "title": "lease vs contract",
+        "words": ["lease", "contract"],
+        "explanation_ar": "contract أشمل: أي اتفاق رسمي مكتوب (عقد بيع، عقد عمل، عقد إيجار...). lease هو عقد الإيجار فقط.",
+        "examples": [
+          {"word": "lease", "sentence": "Our lease ends in June."},
+          {"word": "contract", "sentence": "She signed a two-year work contract."}
+        ]
+      },
+      {
+        "title": "landlord vs tenant",
+        "words": ["landlord", "tenant"],
+        "explanation_ar": "landlord هو مالك العقار الذي يؤجّره للناس. tenant هو المستأجر الذي يدفع الإيجار ليسكن فيه.",
+        "examples": [
+          {"word": "landlord", "sentence": "The landlord raised the rent."},
+          {"word": "tenant", "sentence": "The tenant paid the rent on time."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "bring the house down", "meaning_ar": "يجعل الجمهور يصفّق بحرارة أو يضحك بشدة / «يكسّر الدنيا»", "example": "Ali's joke brought the house down."},
+      {"phrase": "for rent / for sale", "meaning_ar": "للإيجار / للبيع", "example": "There's a flat for rent on the second floor."},
+      {"phrase": "private property", "meaning_ar": "ملكية خاصة", "example": "Don't go in — this is private property."},
+      {"phrase": "exchange nervous looks", "meaning_ar": "يتبادلون نظرات متوترة", "example": "When the teacher said \"surprise test\", the students exchanged nervous looks."},
+      {"phrase": "take out a mortgage", "meaning_ar": "يأخذ قرضاً عقارياً لشراء بيت", "example": "They took out a mortgage for thirty years."},
+      {"phrase": "in advance", "meaning_ar": "مقدّماً", "example": "You have to pay two months' rent in advance."}
+    ],
+    "grammar": [
+      {
+        "title": "Past perfect continuous: clues to a past situation",
+        "explanation_ar": "فكّر فيه مثل أدلة مسرح الجريمة: رأيت حالة في الماضي (نصفها بالماضي البسيط)، وسببها نشاط كان مستمراً قبلها مباشرة (نصفه بالماضي التام المستمر had been + ing). had been ثابتة مع كل الضمائر.",
+        "examples": [
+          "Ali was tired because he had been working all day.",
+          "The landlord's hands were dirty because he had been watering the plants.",
+          "Omar was sweating because he had been running in the park."
+        ]
+      },
+      {
+        "title": "rob + person/place, steal + thing",
+        "explanation_ar": "بعد rob نذكر الضحية (شخص أو مكان)، وبعد steal نذكر الشيء المسروق. نقول: He robbed the shop / He stole money from the shop. ولا نقول: He stole the shop.",
+        "examples": [
+          "They robbed an old man.",
+          "They stole his wallet.",
+          "My bike was stolen last night."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "The person who owns a flat and rents it to others is the:", "choices": ["tenant", "agent", "landlord", "neighbor"], "answer": 2, "explanation_ar": "landlord = مالك العقار الذي يؤجره."},
+    {"question": "Money you pay in advance as security when you rent a flat is a:", "choices": ["deposit", "mortgage", "sale", "key"], "answer": 0, "explanation_ar": "deposit = تأمين يُدفع مقدماً."},
+    {"question": "Which word has a silent \"t\"?", "choices": ["tenant", "contract", "rent", "mortgage"], "answer": 3, "explanation_ar": "حرف t صامت في mortgage."},
+    {"question": "A thief ___ my phone while I was sleeping on the train.", "choices": ["robbed", "stole", "rented", "warned"], "answer": 1, "explanation_ar": "بعد steal يأتي الشيء المسروق، والسرقة كانت خفية."},
+    {"question": "Two men ___ the bank with guns.", "choices": ["robbed", "stole", "leased", "nodded"], "answer": 0, "explanation_ar": "rob + المكان، وبالقوة."},
+    {"question": "An area around the house covered only with stones is a:", "choices": ["garden", "roof", "balcony", "yard"], "answer": 3, "explanation_ar": "yard أي مساحة مفتوحة حول البيت، أما garden فلابد أن تكون مزروعة."},
+    {"question": "Ali was tired because he ___ all day.", "choices": ["works", "has worked", "had been working", "is working"], "answer": 2, "explanation_ar": "سبب مستمر لحالة في الماضي = الماضي التام المستمر."},
+    {"question": "\"The comedian brought the house down.\" This means:", "choices": ["He destroyed the theatre.", "The audience laughed and clapped a lot.", "He sold his house.", "Nobody laughed."], "answer": 1, "explanation_ar": "bring the house down = جعل الجمهور يضحك ويصفق بشدة."},
+    {"question": "We have no furniture, so we're looking for a ___ apartment.", "choices": ["furnished", "unfurnished", "rusty", "old-fashioned"], "answer": 0, "explanation_ar": "furnished = مفروش."},
+    {"question": "Which is a contract ONLY for renting?", "choices": ["a mortgage", "a deposit", "a lease", "a sale"], "answer": 2, "explanation_ar": "lease = عقد إيجار فقط، و contract أشمل."}
+  ]
+}

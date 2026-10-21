@@ -1,0 +1,110 @@
+{
+  "title": "Travelling by Train and Bus",
+  "content": {
+    "vocabulary": [
+      {"word": "train travel", "pos": "noun", "meaning_en": "travelling from place to place by train", "meaning_ar": "السفر بالقطار", "note_ar": "", "example": "Train travel is popular in Europe."},
+      {"word": "platform", "pos": "noun", "meaning_en": "the area next to the tracks where you wait to get on a train", "meaning_ar": "رصيف المحطة", "note_ar": "نقول on platform 5 وليس in", "example": "The train to London leaves from platform 3."},
+      {"word": "carriage", "pos": "noun", "meaning_en": "one of the parts of a train where passengers sit", "meaning_ar": "عربة القطار", "note_ar": "بريطاني؛ الأمريكي يقول car أو passenger car", "example": "Our seats are in the second carriage."},
+      {"word": "ticket office", "pos": "noun", "meaning_en": "the place where you buy tickets", "meaning_ar": "مكتب التذاكر", "note_ar": "", "example": "You can buy a return ticket at the ticket office."},
+      {"word": "timetable", "pos": "noun", "meaning_en": "a list of times when trains or buses arrive and leave", "meaning_ar": "جدول المواعيد", "note_ar": "الأمريكي يقول schedule ويُنطق /ˈskedʒuːl/، والبريطاني قد ينطقه /ˈʃedjuːl/", "example": "Check the timetable for the next train."},
+      {"word": "conductor", "pos": "noun", "meaning_en": "a person on a train who checks tickets", "meaning_ar": "مفتش / محصّل التذاكر (الكمسري)", "note_ar": "في بريطانيا أحياناً: guard", "example": "The conductor asked to see our tickets."},
+      {"word": "rail", "pos": "noun", "meaning_en": "one of the metal bars that a train runs on", "meaning_ar": "قضيب السكة الحديد", "note_ar": "railway بريطاني، railroad أمريكي = السكة الحديد", "example": "Don't walk on the rails."},
+      {"word": "express train", "pos": "noun", "meaning_en": "a fast train that stops at only a few stations", "meaning_ar": "قطار سريع", "note_ar": "", "example": "Take the express train; it's much faster."},
+      {"word": "sleeper train", "pos": "noun", "meaning_en": "a train with beds for long night journeys", "meaning_ar": "قطار النوم", "note_ar": "", "example": "We took the sleeper train to the south."},
+      {"word": "bus travel", "pos": "noun", "meaning_en": "travelling from place to place by bus", "meaning_ar": "السفر بالحافلة", "note_ar": "", "example": "Bus travel is cheaper than flying."},
+      {"word": "bus stop", "pos": "noun", "meaning_en": "a place on the road where buses stop for passengers", "meaning_ar": "موقف الحافلة", "note_ar": "", "example": "I waited at the bus stop for 20 minutes."},
+      {"word": "bus station", "pos": "noun", "meaning_en": "a large place where many buses start and end their routes", "meaning_ar": "محطة الحافلات", "note_ar": "", "example": "The bus station is near the city centre."},
+      {"word": "driver", "pos": "noun", "meaning_en": "a person who drives a vehicle", "meaning_ar": "سائق", "note_ar": "", "example": "The driver stopped to let us get off."},
+      {"word": "route", "pos": "noun", "meaning_en": "the way a bus or train goes from start to end", "meaning_ar": "خط السير / المسار", "note_ar": "تُنطق /ruːt/ أو /raʊt/ والاثنتان مقبولتان", "example": "This bus route goes past the museum."},
+      {"word": "double-decker bus", "pos": "noun", "meaning_en": "a bus with two floors", "meaning_ar": "حافلة بطابقين", "note_ar": "", "example": "London is famous for its red double-decker buses."},
+      {"word": "coach", "pos": "noun", "meaning_en": "a comfortable bus for long journeys or tours", "meaning_ar": "حافلة سياحية / حافلة سفر", "note_ar": "", "example": "We travelled to the coast by coach."},
+      {"word": "fare", "pos": "noun", "meaning_en": "the money you pay to travel on public transport", "meaning_ar": "أجرة المواصلات", "note_ar": "", "example": "The bus fare went up this year."},
+      {"word": "ticket", "pos": "noun", "meaning_en": "a paper or card that shows you have paid", "meaning_ar": "تذكرة", "note_ar": "", "example": "Did you buy the tickets?"},
+      {"word": "seat", "pos": "noun", "meaning_en": "a place where you sit", "meaning_ar": "مقعد", "note_ar": "", "example": "Is this seat free?"},
+      {"word": "reservation", "pos": "noun", "meaning_en": "an arrangement to keep a seat or room for you", "meaning_ar": "حجز", "note_ar": "reserved seats = مقاعد محجوزة", "example": "I made a reservation for two seats."},
+      {"word": "journey", "pos": "noun", "meaning_en": "travelling from one place to another, often long", "meaning_ar": "رحلة (الانتقال نفسه)", "note_ar": "", "example": "The journey took ten hours."},
+      {"word": "commute", "pos": "noun / verb", "meaning_en": "the trip you make every day between home and work or school", "meaning_ar": "التنقل اليومي", "note_ar": "commuter = من يتنقل يومياً", "example": "My commute to work is 40 minutes."},
+      {"word": "late", "pos": "adjective", "meaning_en": "arriving after the expected time", "meaning_ar": "متأخر", "note_ar": "late again = متأخر مرة أخرى", "example": "Hurry! We're late again."},
+      {"word": "according to", "pos": "preposition", "meaning_en": "as said or shown by", "meaning_ar": "بناءً على / وفقاً لـ", "note_ar": "", "example": "According to the timetable, the train leaves at nine."},
+      {"word": "actually", "pos": "adverb", "meaning_en": "in fact, really", "meaning_ar": "فعلاً / في الحقيقة", "note_ar": "لا تعني «حالياً»؛ حالياً = currently", "example": "Did you actually buy the tickets?"},
+      {"word": "bench", "pos": "noun", "meaning_en": "a long seat for several people, often made of wood", "meaning_ar": "مقعد طويل / دكّة", "note_ar": "", "example": "We sat on a wooden bench in the park."},
+      {"word": "throw out", "pos": "phrasal verb", "meaning_en": "to force someone to leave a place", "meaning_ar": "يطرد", "note_ar": "وتعني أيضاً: يرمي شيئاً في القمامة", "example": "The conductor threw them out of the train."},
+      {"word": "rush", "pos": "verb", "meaning_en": "to move or do something very quickly", "meaning_ar": "يُسرع / يهرع", "note_ar": "rush hour = ساعة الذروة", "example": "They rushed onto the train."},
+      {"word": "faint", "pos": "verb", "meaning_en": "to suddenly lose consciousness for a short time", "meaning_ar": "يُغمى عليه", "note_ar": "", "example": "She almost fainted from the heat."},
+      {"word": "travel", "pos": "noun / verb", "meaning_en": "the general activity of going from place to place", "meaning_ar": "السفر / يسافر", "note_ar": "", "example": "I love travel."},
+      {"word": "trip", "pos": "noun", "meaning_en": "a whole visit to a place: going, staying and coming back", "meaning_ar": "رحلة (كاملة)", "note_ar": "business trip = رحلة عمل", "example": "How was your business trip?"},
+      {"word": "fee", "pos": "noun", "meaning_en": "money you pay for a service, entry or official process", "meaning_ar": "رسوم", "note_ar": "visa fee، school fees", "example": "You must pay the visa fee at the embassy."},
+      {"word": "railway / railroad", "pos": "noun", "meaning_en": "the system of tracks that trains use", "meaning_ar": "السكة الحديد", "note_ar": "railway بريطاني، railroad أمريكي", "example": "The railway connects the two cities."},
+      {"word": "back-seat driver", "pos": "noun", "meaning_en": "a passenger who gives the driver unwanted advice; anyone who tries to control what is not their job", "meaning_ar": "شخص يتدخل ويعطي توجيهات غير مطلوبة", "note_ar": "", "example": "Stop being a back-seat driver and let me drive."},
+      {"word": "sonic boom", "pos": "noun", "meaning_en": "a very loud noise made by something moving extremely fast", "meaning_ar": "دويّ صوتي / انفجار صوتي", "note_ar": "", "example": "The train made a sonic boom as it left the tunnel."},
+      {"word": "kingfisher", "pos": "noun", "meaning_en": "a small bright bird that dives to catch fish", "meaning_ar": "طائر الرفراف (صياد السمك)", "note_ar": "", "example": "A kingfisher dived into the river without a splash."}
+    ],
+    "fine_lines": [
+      {
+        "title": "travel vs journey vs trip",
+        "words": ["travel", "journey", "trip"],
+        "explanation_ar": "travel هو النشاط العام للسفر، أي الانتقال من مكان لآخر بشكل عام. journey تركز على الطريق نفسه: المسافة والوقت والجهد المبذول من نقطة إلى نقطة، وغالباً تكون طويلة أو متعبة. trip هي الرحلة الكاملة: الذهاب والإقامة والعودة، وغالباً لها هدف محدد كالعمل أو الإجازة.",
+        "examples": [
+          {"word": "travel", "sentence": "I love travel."},
+          {"word": "journey", "sentence": "The journey took ten hours by train."},
+          {"word": "trip", "sentence": "How was your business trip?"}
+        ]
+      },
+      {
+        "title": "fare vs fee vs ticket",
+        "words": ["fare", "fee", "ticket"],
+        "explanation_ar": "fare هي الأجرة التي تدفعها للمواصلات العامة فقط (قطار، حافلة، تاكسي). fee رسوم تدفعها مقابل خدمة احترافية أو دخول مكان أو معاملة رسمية مثل رسوم التأشيرة أو المدرسة. ticket هي الورقة أو البطاقة التي تثبت أنك دفعت.",
+        "examples": [
+          {"word": "fare", "sentence": "The train fare to Paris is expensive."},
+          {"word": "fee", "sentence": "You have to pay the visa fee at the embassy."},
+          {"word": "ticket", "sentence": "Show your ticket to the conductor."}
+        ]
+      },
+      {
+        "title": "timetable vs schedule",
+        "words": ["timetable", "schedule"],
+        "explanation_ar": "كلاهما جدول مواعيد القطارات والحافلات. timetable أشيع في بريطانيا، و schedule أشيع في أمريكا، وكلاهما مفهوم في كل مكان.",
+        "examples": [
+          {"word": "timetable", "sentence": "The new bus timetable starts on Monday."},
+          {"word": "schedule", "sentence": "The train is running on schedule."}
+        ]
+      },
+      {
+        "title": "bus stop vs bus station",
+        "words": ["bus stop", "bus station"],
+        "explanation_ar": "bus stop مكان صغير على الطريق تقف فيه الحافلة لركوب ونزول الركاب. bus station مبنى أو مكان كبير تبدأ منه الحافلات وتنتهي إليه خطوطها.",
+        "examples": [
+          {"word": "bus stop", "sentence": "Get off at the next bus stop."},
+          {"word": "bus station", "sentence": "All coaches leave from the main bus station."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "a back-seat driver", "meaning_ar": "شخص يتدخل ويعطي نصائح وتوجيهات غير مطلوبة", "example": "I don't need a back-seat driver; I know how to run this project."},
+      {"phrase": "on platform five", "meaning_ar": "على الرصيف رقم خمسة", "example": "Our train is on platform five."},
+      {"phrase": "according to the timetable", "meaning_ar": "بحسب جدول المواعيد", "example": "According to the timetable, the bus comes every 15 minutes."},
+      {"phrase": "we're doomed", "meaning_ar": "هلكنا / انتهى أمرنا (للمبالغة)", "example": "No tickets and no money? We're doomed!"},
+      {"phrase": "throw someone out", "meaning_ar": "يطرد شخصاً", "example": "If you don't have a ticket, they'll throw you out."},
+      {"phrase": "business trip", "meaning_ar": "رحلة عمل", "example": "He's on a business trip in Dubai this week."}
+    ],
+    "grammar": [
+      {
+        "title": "Future perfect simple: will have + past participle",
+        "explanation_ar": "تخيّل أنك سافرت بآلة الزمن إلى نقطة في المستقبل ونظرت إلى الوراء: هناك أفعال ستكون قد انتهت قبل تلك النقطة. التركيب: الفاعل + will have + التصريف الثالث. وغالباً نستخدم معه by (بحلول). النفي: will not have، والسؤال يبدأ بـ Will.",
+        "examples": ["By tomorrow morning, they will have arrived.", "By next week, I will not have finished the book.", "Will you have eaten by 8 p.m.?", "By the end of the month, I will have booked the ticket."]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "The ___ took ten hours by train. (focus on the long way itself)", "choices": ["travel", "fee", "journey", "fare"], "answer": 2, "explanation_ar": "journey تركز على الطريق والمسافة والجهد."},
+    {"question": "How was your business ___?", "choices": ["trip", "travel", "fare", "route"], "answer": 0, "explanation_ar": "trip هي الرحلة الكاملة بهدف محدد كالعمل."},
+    {"question": "You must pay the visa ___ at the embassy.", "choices": ["fare", "ticket", "seat", "fee"], "answer": 3, "explanation_ar": "fee رسوم مقابل خدمة أو معاملة رسمية."},
+    {"question": "The bus ___ is two dollars.", "choices": ["fee", "fare", "journey", "platform"], "answer": 1, "explanation_ar": "fare أجرة المواصلات العامة."},
+    {"question": "By tomorrow morning, they ___.", "choices": ["will have arrived", "will arrive yesterday", "have arrived", "will be arrive"], "answer": 0, "explanation_ar": "حدث سينتهي قبل نقطة في المستقبل = will have + التصريف الثالث."},
+    {"question": "Which sentence is correct?", "choices": ["By next week, I will have not finish the book.", "By next week, I will not have finished the book.", "By next week, I not will have finished the book.", "By next week, I won't finished the book."], "answer": 1, "explanation_ar": "النفي: will not have + التصريف الثالث."},
+    {"question": "Our train is ___ platform five.", "choices": ["in", "at the", "on", "inside"], "answer": 2, "explanation_ar": "نستخدم on مع platform."},
+    {"question": "A \"back-seat driver\" is someone who:", "choices": ["drives a bus", "gives unwanted advice about things that aren't their job", "sits quietly in the back", "repairs cars"], "answer": 1, "explanation_ar": "back-seat driver شخص يتدخل ويوجه دون أن يُطلب منه."},
+    {"question": "In American English, a train \"carriage\" is usually called a:", "choices": ["coach", "rail", "platform", "car"], "answer": 3, "explanation_ar": "carriage بريطاني، و car أو passenger car أمريكي."},
+    {"question": "Your daily trip from home to work is your:", "choices": ["commute", "reservation", "timetable", "coach"], "answer": 0, "explanation_ar": "commute = التنقل اليومي بين البيت والعمل."}
+  ]
+}

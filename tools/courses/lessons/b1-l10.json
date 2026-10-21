@@ -1,0 +1,143 @@
+{
+  "title": "Dinner at a Restaurant",
+  "content": {
+    "vocabulary": [
+      {"word": "restaurant", "pos": "noun", "meaning_en": "a place where you buy and eat meals", "meaning_ar": "مطعم", "note_ar": "", "example": "Let's try the new Italian restaurant."},
+      {"word": "café", "pos": "noun", "meaning_en": "a small place that serves coffee, drinks and light meals", "meaning_ar": "مقهى", "note_ar": "من الفرنسية؛ العلامة فوق e أصبحت اختيارية: cafe", "example": "We met at a café near the station."},
+      {"word": "diner", "pos": "noun", "meaning_en": "a simple, cheap restaurant, often open all day (US)", "meaning_ar": "مطعم صغير بسيط", "note_ar": "شائع في أمريكا، وقد تعني أيضاً «شخص يتناول الطعام»", "example": "We had pancakes at a roadside diner."},
+      {"word": "fast food", "pos": "noun", "meaning_en": "food that is cooked and served very quickly", "meaning_ar": "وجبات سريعة", "note_ar": "", "example": "Try not to eat fast food every day."},
+      {"word": "buffet", "pos": "noun", "meaning_en": "a meal where you serve yourself from many dishes", "meaning_ar": "بوفيه", "note_ar": "أمريكي: /bəˈfeɪ/، بريطاني: /ˈbʊfeɪ/؛ حرف t صامت", "example": "The hotel has a breakfast buffet."},
+      {"word": "waiter / waitress", "pos": "noun", "meaning_en": "a man / woman who serves food in a restaurant", "meaning_ar": "نادل / نادلة", "note_ar": "waiter للرجل و waitress للمرأة", "example": "The waitress brought us the menu."},
+      {"word": "chef", "pos": "noun", "meaning_en": "a professional cook in a restaurant", "meaning_ar": "طاهٍ / شيف", "note_ar": "", "example": "The chef came out to greet the guests."},
+      {"word": "menu", "pos": "noun", "meaning_en": "a list of the food you can order", "meaning_ar": "قائمة الطعام", "note_ar": "", "example": "Can we see the menu, please?"},
+      {"word": "bill / check", "pos": "noun", "meaning_en": "a paper showing how much you must pay", "meaning_ar": "فاتورة / الحساب", "note_ar": "bill بريطاني، check أمريكي", "example": "Could we have the bill, please?"},
+      {"word": "reservation", "pos": "noun", "meaning_en": "an arrangement to keep a table, seat or room for you", "meaning_ar": "حجز", "note_ar": "make a reservation at + المكان", "example": "I made a reservation at Bella's for eight o'clock."},
+      {"word": "booking", "pos": "noun", "meaning_en": "an official arrangement to have a seat, room or ticket", "meaning_ar": "حجز (رسمي)", "note_ar": "من الفعل book", "example": "Your hotel booking is confirmed."},
+      {"word": "service charge", "pos": "noun", "meaning_en": "extra money added to the bill for the service", "meaning_ar": "رسوم خدمة", "note_ar": "إذا وُجدت فالبقشيش غير مطلوب", "example": "A 12% service charge is included."},
+      {"word": "tip", "pos": "noun", "meaning_en": "extra money you give a waiter to thank them", "meaning_ar": "بقشيش / إكرامية", "note_ar": "", "example": "We left a good tip because the service was great."},
+      {"word": "special", "pos": "noun / adjective", "meaning_en": "a dish the restaurant offers only for a short time", "meaning_ar": "طبق مميّز / خاص", "note_ar": "today's special = طبق اليوم", "example": "Today's special is grilled fish."},
+      {"word": "appetizer / starter", "pos": "noun", "meaning_en": "a small dish eaten before the main course", "meaning_ar": "مقبّلات", "note_ar": "appetizer أمريكي (من appetite = شهية)، starter بريطاني (يبدأ به الأكل)", "example": "We shared some appetizers before dinner."},
+      {"word": "entrée", "pos": "noun", "meaning_en": "UK: a starter; US: the main dish", "meaning_ar": "مقبّلات (بريطانيا) / الطبق الرئيسي (أمريكا)", "note_ar": "في بريطانيا = مقبّلات، وفي أمريكا = الطبق الرئيسي", "example": "For my entrée, I'll have the steak. (US)"},
+      {"word": "main course", "pos": "noun", "meaning_en": "the biggest and most important dish of a meal", "meaning_ar": "الطبق الرئيسي", "note_ar": "مفهومة في كل مكان", "example": "For the main course, I'll have chicken."},
+      {"word": "dessert", "pos": "noun", "meaning_en": "sweet food eaten at the end of a meal", "meaning_ar": "حلوى (بعد الوجبة)", "note_ar": "", "example": "I'm too full for dessert."},
+      {"word": "beverage", "pos": "noun", "meaning_en": "a drink (formal word)", "meaning_ar": "مشروب", "note_ar": "اسم فقط ورسمية أكثر من drink، ولا تُطلق عادةً على الماء", "example": "Hot beverages are served in the lounge."},
+      {"word": "napkin", "pos": "noun", "meaning_en": "a piece of cloth or paper for cleaning your mouth and hands while eating", "meaning_ar": "منديل / فوطة سفرة", "note_ar": "", "example": "Put the napkin on your lap."},
+      {"word": "plate", "pos": "noun", "meaning_en": "a flat round dish that you put food on", "meaning_ar": "طبق (الإناء نفسه)", "note_ar": "", "example": "Be careful, the plate is hot."},
+      {"word": "dish", "pos": "noun", "meaning_en": "a prepared meal; also any container used for food", "meaning_ar": "طبق (الوجبة) / أواني", "note_ar": "the dishes = كل أواني المطبخ: wash/do the dishes", "example": "Koshari is a famous Egyptian dish."},
+      {"word": "fork", "pos": "noun", "meaning_en": "a tool with points used for eating", "meaning_ar": "شوكة", "note_ar": "", "example": "Can I have a fork and a knife?"},
+      {"word": "spoon", "pos": "noun", "meaning_en": "a tool with a small bowl used for eating soup", "meaning_ar": "ملعقة", "note_ar": "", "example": "You need a spoon for this soup."},
+      {"word": "knife", "pos": "noun", "meaning_en": "a tool with a sharp edge for cutting", "meaning_ar": "سكين", "note_ar": "حرف k صامت: /naɪf/، والجمع knives", "example": "This knife is too sharp."},
+      {"word": "tray", "pos": "noun", "meaning_en": "a flat board for carrying food or drinks", "meaning_ar": "صينية", "note_ar": "", "example": "The waiter carried six glasses on a tray."},
+      {"word": "takeaway / to go", "pos": "noun / phrase", "meaning_en": "food you buy to eat somewhere else", "meaning_ar": "طلب خارجي / سَفَري", "note_ar": "UK: Eat in or take away?  US: For here or to go?", "example": "Can I get a coffee to go?"},
+      {"word": "counter", "pos": "noun", "meaning_en": "a long table where customers are served or pay", "meaning_ar": "كاونتر / شبّاك الخدمة", "note_ar": "", "example": "Please order at the counter."},
+      {"word": "disaster", "pos": "noun", "meaning_en": "something very bad that causes a lot of trouble", "meaning_ar": "كارثة", "note_ar": "", "example": "The party was a complete disaster."},
+      {"word": "guys", "pos": "noun", "meaning_en": "an informal word for friends or a group of people", "meaning_ar": "يا شباب / يا جماعة", "note_ar": "غير رسمية، تُستخدم مع الأصدقاء", "example": "Hey guys, are you ready?"},
+      {"word": "spill", "pos": "verb", "meaning_en": "to make a liquid fall out of its container by accident", "meaning_ar": "يسكب (بالخطأ)", "note_ar": "spill - spilled/spilt", "example": "I spilled juice on the carpet."},
+      {"word": "guest", "pos": "noun", "meaning_en": "a person who is visiting or is invited", "meaning_ar": "ضيف", "note_ar": "حرف u صامت", "example": "We have guests coming for dinner."},
+      {"word": "remind", "pos": "verb", "meaning_en": "to make someone remember something", "meaning_ar": "يذكّر", "note_ar": "remind someone to/about", "example": "Remind me to call my mother."},
+      {"word": "cheeky", "pos": "adjective", "meaning_en": "slightly rude in a funny or cute way", "meaning_ar": "مشاكس / جريء بشكل ظريف", "note_ar": "عامية بريطانية؛ cheeky monkey تقال للأطفال", "example": "That was a cheeky answer!"},
+      {"word": "except", "pos": "preposition", "meaning_en": "not including", "meaning_ar": "ما عدا / باستثناء", "note_ar": "الاسم: exception = استثناء", "example": "Everyone came except Tom."},
+      {"word": "nearly", "pos": "adverb", "meaning_en": "almost", "meaning_ar": "تقريباً / كاد", "note_ar": "مثل almost", "example": "I nearly missed the bus."},
+      {"word": "elderly", "pos": "adjective", "meaning_en": "old (a polite word)", "meaning_ar": "كبار السن / مُسنّ", "note_ar": "ألطف وأكثر احتراماً من old عند وصف الأشخاص", "example": "This seat is reserved for elderly people."},
+      {"word": "cooker", "pos": "noun", "meaning_en": "a machine for cooking food; a stove", "meaning_ar": "موقد / بوتاجاز", "note_ar": "انتبه: cooker جهاز وليس شخصاً", "example": "The soup is on the cooker."}
+    ],
+    "fine_lines": [
+      {
+        "title": "book vs reserve",
+        "words": ["book", "reserve"],
+        "explanation_ar": "الاثنان بمعنى «يحجز». book أصلها من «كتاب» وتُستخدم للحجوزات الرسمية الموثّقة التي تسجّل فيها بياناتك في نظام، مثل تذاكر الطيران وغرف الفنادق. reserve لحجز مبدئي غير رسمي بالضرورة، مثل حجز طاولة في مطعم أو أن تطلب من البائع أن يحتفظ لك بقطعة، وكذلك المقاعد المخصّصة لفئة معيّنة.",
+        "examples": [
+          {"word": "book", "sentence": "I booked a flight to London."},
+          {"word": "book", "sentence": "She booked a hotel room online."},
+          {"word": "reserve", "sentence": "I'd like to reserve a table for two at 5 p.m."},
+          {"word": "reserve", "sentence": "This seat is reserved for elderly passengers."}
+        ]
+      },
+      {
+        "title": "plate vs dish",
+        "words": ["plate", "dish"],
+        "explanation_ar": "plate هو الطبق نفسه كإناء. dish هو الوجبة أو الأكلة التي داخل الطبق. أما the dishes بالجمع فمصطلح شامل لكل أواني المطبخ (أطباق، أكواب، ملاعق، قدور)، لذلك نقول wash the dishes.",
+        "examples": [
+          {"word": "plate", "sentence": "He dropped a plate and it broke."},
+          {"word": "dish", "sentence": "Pasta is my favorite dish."},
+          {"word": "dish", "sentence": "It's your turn to do the dishes."}
+        ]
+      },
+      {
+        "title": "cook vs cooker",
+        "words": ["cook", "cooker"],
+        "explanation_ar": "cook فعل بمعنى يطبخ، وهي أيضاً اسم بمعنى الطبّاخ (الشخص). أما cooker فهو الجهاز الذي نطبخ عليه (الموقد). لا تقل He is a good cooker.",
+        "examples": [
+          {"word": "cook", "sentence": "My father is a great cook."},
+          {"word": "cooker", "sentence": "We bought a new gas cooker."}
+        ]
+      },
+      {
+        "title": "on time vs in time",
+        "words": ["on time", "in time"],
+        "explanation_ar": "on time تعني في الموعد بالضبط، لا قبله ولا بعده. in time تعني قبل الموعد بوقت كافٍ أو في الوقت المناسب قبل فوات الأوان.",
+        "examples": [
+          {"word": "on time", "sentence": "The train left on time at 9:00."},
+          {"word": "in time", "sentence": "We got to the cinema in time to buy popcorn."}
+        ]
+      },
+      {
+        "title": "elderly vs old",
+        "words": ["elderly", "old"],
+        "explanation_ar": "elderly كلمة مهذّبة تصف المرحلة العمرية (كبار السن) دون إساءة. old عند وصف شخص قد تبدو وقحة، فالأفضل استخدام elderly مع الناس.",
+        "examples": [
+          {"word": "elderly", "sentence": "She helps an elderly neighbor with shopping."},
+          {"word": "old", "sentence": "This is a very old building."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "bite off more than you can chew", "meaning_ar": "يحمّل نفسه أكثر من طاقته / يتولى مهمة أكبر من قدرته", "example": "Don't take three courses at once; don't bite off more than you can chew."},
+      {"phrase": "take it easy", "meaning_ar": "يأخذ الأمور ببساطة / لا يُجهد نفسه (وقد تعني الاستهتار)", "example": "Why are you taking it so easy? The exam is tomorrow!"},
+      {"phrase": "save room for dessert", "meaning_ar": "يترك مكاناً في معدته للحلوى", "example": "Don't eat too much bread; save room for dessert."},
+      {"phrase": "This is ...", "meaning_ar": "معك فلان (للتعريف بنفسك في الهاتف أو الرسائل)", "example": "Hello, this is Sara from the bank."},
+      {"phrase": "make a reservation at", "meaning_ar": "يحجز في (مكان)", "example": "I made a reservation at the hotel restaurant."},
+      {"phrase": "For here or to go?", "meaning_ar": "هنا أم سَفَري؟ (أمريكي)", "example": "\"For here or to go?\" \"To go, please.\""}
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect: breaking news",
+        "explanation_ar": "الاستخدام الثالث للمضارع التام: «الأخبار العاجلة». عندما يحدث شيء الآن وله أثر واضح في الحاضر، نستخدم المضارع التام كأنه شريط أخبار عاجل. I have lost my keys تعني أنك الآن أمام الباب ولا تستطيع الدخول. أما I lost my keys فتحكي قصة حدث انتهى.",
+        "examples": [
+          "I have broken my leg! (you can see it now)",
+          "I broke my leg two years ago.",
+          "I have lost my keys, and I can't get in."
+        ]
+      },
+      {
+        "title": "Speaker's choice: past simple or present perfect",
+        "explanation_ar": "في هذا الاستخدام أنت «المذيع» وتختار: المضارع التام يُبرز أهمية الخبر وأثره عليك الآن، والماضي البسيط يقدّمه كأمر عادي لا يهمّك كثيراً. ولا تربط just و already بالمضارع التام دائماً، فهما تأتيان مع الماضي البسيط أيضاً.",
+        "examples": [
+          "I have washed the dishes! (proud, important news)",
+          "I washed the dishes. (a normal daily task)",
+          "I just spilled coffee on my shirt."
+        ]
+      },
+      {
+        "title": "Starting a sentence with But / And",
+        "explanation_ar": "يمكنك أن تبدأ الجملة بـ But أو And، وهذا شائع جداً في الكتابة والكلام. كان بعض المدرسين يمنعونه خوفاً من كتابة جمل ناقصة فقط.",
+        "examples": [
+          "But please don't order ten appetizers again.",
+          "And I'm saving room for dessert."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "I'd like to ___ a table for four at 8 p.m.", "choices": ["reserve", "spill", "remind", "tip"], "answer": 0, "explanation_ar": "حجز طاولة في مطعم حجز مبدئي = reserve."},
+    {"question": "In the US, \"entrée\" means:", "choices": ["a starter", "a drink", "the main course", "a dessert"], "answer": 2, "explanation_ar": "في أمريكا entrée هو الطبق الرئيسي، وفي بريطانيا المقبلات."},
+    {"question": "Which word means the machine you cook on?", "choices": ["cook", "chef", "waiter", "cooker"], "answer": 3, "explanation_ar": "cooker جهاز الطبخ، و cook الشخص الذي يطبخ."},
+    {"question": "It's your turn to wash the ___.", "choices": ["plates only", "dishes", "menus", "tips"], "answer": 1, "explanation_ar": "the dishes مصطلح شامل لكل أواني المطبخ."},
+    {"question": "In American English, you ask for the ___ at the end of the meal.", "choices": ["check", "counter", "tray", "booking"], "answer": 0, "explanation_ar": "check أمريكي و bill بريطاني."},
+    {"question": "You are standing outside your door and can't get in. You say:", "choices": ["I lose my keys.", "I have lost my keys!", "I had lose my keys.", "I losing my keys."], "answer": 1, "explanation_ar": "خبر عاجل له أثر الآن: المضارع التام."},
+    {"question": "\"Don't bite off more than you can chew\" means:", "choices": ["eat slowly", "don't talk while eating", "don't take on too much", "leave a tip"], "answer": 2, "explanation_ar": "لا تحمّل نفسك أكثر من طاقتك."},
+    {"question": "The meeting starts at 10. He arrived at exactly 10. He arrived:", "choices": ["in time", "late", "early", "on time"], "answer": 3, "explanation_ar": "on time = في الموعد بالضبط."},
+    {"question": "Which is the most polite word for old people?", "choices": ["elderly", "old", "aged", "ancient"], "answer": 0, "explanation_ar": "elderly كلمة مهذبة لوصف كبار السن."},
+    {"question": "Which word is formal and is not usually used for water?", "choices": ["drink", "beverage", "dessert", "napkin"], "answer": 1, "explanation_ar": "beverage رسمية ولا تُطلق عادةً على الماء، و drink تشمل كل ما يُشرب."}
+  ]
+}

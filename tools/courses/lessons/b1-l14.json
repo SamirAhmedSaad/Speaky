@@ -1,0 +1,501 @@
+{
+  "title": "Street Food",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "doughnut / donut",
+        "pos": "noun",
+        "meaning_en": "a sweet fried ring of dough, often covered in sugar",
+        "meaning_ar": "دونات (عجينة مقلية مُحلّاة)",
+        "note_ar": "donut كتابة مبسطة أمريكية لكلمة doughnut",
+        "example": "I had a chocolate doughnut with my coffee."
+      },
+      {
+        "word": "waffle",
+        "pos": "noun",
+        "meaning_en": "a thin cake with a square pattern, cooked in a special machine",
+        "meaning_ar": "وافل",
+        "example": "We ordered waffles with honey for breakfast."
+      },
+      {
+        "word": "crepe",
+        "pos": "noun",
+        "meaning_en": "a very thin pancake, often filled with something sweet",
+        "meaning_ar": "كريب",
+        "example": "She ordered a banana and chocolate crepe."
+      },
+      {
+        "word": "candy",
+        "pos": "noun",
+        "meaning_en": "small sweet foods made of sugar or chocolate",
+        "meaning_ar": "حلوى / سكاكر",
+        "note_ar": "كلمة عامة لأي حلويات صغيرة مسكّرة",
+        "example": "Don't eat too much candy before dinner."
+      },
+      {
+        "word": "juice",
+        "pos": "noun",
+        "meaning_en": "the liquid from fruit, used as a drink",
+        "meaning_ar": "عصير",
+        "example": "Can I have a glass of orange juice?"
+      },
+      {
+        "word": "soda",
+        "pos": "noun",
+        "meaning_en": "a sweet drink with gas bubbles",
+        "meaning_ar": "مشروب غازي",
+        "example": "He drank a cold soda after the game."
+      },
+      {
+        "word": "bottle",
+        "pos": "noun",
+        "meaning_en": "a glass or plastic container for liquids",
+        "meaning_ar": "زجاجة",
+        "note_ar": "في النطق الأمريكي السريع تُسمع الـ t قريبة من d: /ˈbɑːdl/",
+        "example": "Bring a bottle of water with you."
+      },
+      {
+        "word": "stall",
+        "pos": "noun",
+        "meaning_en": "a small shop or table in a street or market",
+        "meaning_ar": "كشك / بسطة",
+        "example": "There is a fruit stall at the corner."
+      },
+      {
+        "word": "vendor",
+        "pos": "noun",
+        "meaning_en": "a person who sells things, often in the street",
+        "meaning_ar": "بائع (متجول)",
+        "example": "The vendor sold us hot corn."
+      },
+      {
+        "word": "cart",
+        "pos": "noun",
+        "meaning_en": "a small vehicle with wheels used to sell food",
+        "meaning_ar": "عربة (طعام)",
+        "example": "He sells coffee from a cart near the station."
+      },
+      {
+        "word": "burger",
+        "pos": "noun",
+        "meaning_en": "a round piece of cooked meat in a bread roll",
+        "meaning_ar": "برجر",
+        "example": "I'd like a burger without onions."
+      },
+      {
+        "word": "sandwich",
+        "pos": "noun",
+        "meaning_en": "two pieces of bread with food between them",
+        "meaning_ar": "شطيرة / ساندويتش",
+        "note_ar": "حرف d غالباً لا يُنطق في الكلام السريع: /ˈsænwɪtʃ/",
+        "example": "I made a cheese sandwich for lunch."
+      },
+      {
+        "word": "fries",
+        "pos": "noun",
+        "meaning_en": "long thin pieces of fried potato",
+        "meaning_ar": "بطاطس مقلية",
+        "note_ar": "اختصار French fries، وفي بريطانيا chips",
+        "example": "Do you want fries with your burger?"
+      },
+      {
+        "word": "slice",
+        "pos": "noun / verb",
+        "meaning_en": "a thin flat piece cut from something; to cut into thin pieces",
+        "meaning_ar": "شريحة / يقطّع شرائح",
+        "example": "Can I have a slice of pizza?"
+      },
+      {
+        "word": "popcorn",
+        "pos": "noun",
+        "meaning_en": "corn that is heated until it bursts open",
+        "meaning_ar": "فشار",
+        "note_ar": "pop = يفرقع، corn = ذرة",
+        "example": "We always eat popcorn at the cinema."
+      },
+      {
+        "word": "dumpling",
+        "pos": "noun",
+        "meaning_en": "a small ball of dough, often filled with meat or vegetables",
+        "meaning_ar": "زلابية / فطيرة عجين محشوة",
+        "example": "These dumplings are filled with chicken."
+      },
+      {
+        "word": "taco",
+        "pos": "noun",
+        "meaning_en": "a Mexican folded bread filled with meat and vegetables",
+        "meaning_ar": "تاكو (أكلة مكسيكية)",
+        "example": "He ate three tacos for dinner."
+      },
+      {
+        "word": "drag",
+        "pos": "verb",
+        "meaning_en": "to pull something heavy along the ground; to make someone go somewhere they don't want to",
+        "meaning_ar": "يجرّ / يسحب",
+        "note_ar": "يُستخدم مجازياً: drag someone to = يجرجر شخصاً إلى مكان",
+        "example": "My sister dragged me to the shopping mall."
+      },
+      {
+        "word": "crowded",
+        "pos": "adjective",
+        "meaning_en": "full of people",
+        "meaning_ar": "مزدحم",
+        "note_ar": "crowd = حشد",
+        "example": "The market is always crowded on Fridays."
+      },
+      {
+        "word": "wave",
+        "pos": "verb",
+        "meaning_en": "to move your hand to say hello or goodbye",
+        "meaning_ar": "يلوّح بيده",
+        "example": "She waved at us from the window."
+      },
+      {
+        "word": "declare",
+        "pos": "verb",
+        "meaning_en": "to say something clearly and strongly",
+        "meaning_ar": "يُعلن / يصرّح",
+        "example": "He declared that he was the best cook in the family."
+      },
+      {
+        "word": "melt",
+        "pos": "verb",
+        "meaning_en": "to change from solid to liquid because of heat",
+        "meaning_ar": "يذوب (بالحرارة)",
+        "example": "The snow melted in the sun."
+      },
+      {
+        "word": "logical",
+        "pos": "adjective",
+        "meaning_en": "using clear and sensible thinking",
+        "meaning_ar": "منطقي",
+        "note_ar": "logic = منطق",
+        "example": "That's a logical answer."
+      },
+      {
+        "word": "meanwhile",
+        "pos": "adverb",
+        "meaning_en": "at the same time as something else is happening",
+        "meaning_ar": "في هذه الأثناء",
+        "example": "I cooked dinner. Meanwhile, my brother set the table."
+      },
+      {
+        "word": "museum",
+        "pos": "noun",
+        "meaning_en": "a building where interesting objects are shown to the public",
+        "meaning_ar": "متحف",
+        "example": "We visited the science museum on Sunday."
+      },
+      {
+        "word": "curb / kerb",
+        "pos": "noun",
+        "meaning_en": "the raised edge between the sidewalk and the road",
+        "meaning_ar": "حافة الرصيف",
+        "note_ar": "curb أمريكي، kerb بريطاني",
+        "example": "They sat on the curb and ate their sandwiches."
+      },
+      {
+        "word": "stuffed",
+        "pos": "adjective",
+        "meaning_en": "very full after eating too much",
+        "meaning_ar": "متخم / شبعان جداً",
+        "note_ar": "stuff كفعل = يحشو",
+        "example": "No dessert for me, I'm stuffed."
+      },
+      {
+        "word": "sticky",
+        "pos": "adjective",
+        "meaning_en": "covered with something that sticks, like sugar or glue",
+        "meaning_ar": "لزج / مُلزِق",
+        "note_ar": "تُستخدم أيضاً بالعامية للشخص «الملزّق» الذي لا يتركك",
+        "example": "My hands are sticky from the honey."
+      },
+      {
+        "word": "covered in",
+        "pos": "adjective phrase",
+        "meaning_en": "having something all over the surface",
+        "meaning_ar": "مُغطّى بـ",
+        "example": "The baby's face was covered in chocolate."
+      },
+      {
+        "word": "sigh",
+        "pos": "verb / noun",
+        "meaning_en": "to breathe out loudly because you are tired, sad or relieved",
+        "meaning_ar": "يتنهّد / تنهيدة",
+        "note_ar": "حرف gh صامت: تُنطق /saɪ/",
+        "example": "She sighed and closed her laptop."
+      },
+      {
+        "word": "sidewalk / pavement",
+        "pos": "noun",
+        "meaning_en": "the path at the side of a road for people to walk on",
+        "meaning_ar": "رصيف المشاة",
+        "note_ar": "sidewalk أمريكي، pavement بريطاني",
+        "example": "Children should walk on the sidewalk."
+      },
+      {
+        "word": "dissolve",
+        "pos": "verb",
+        "meaning_en": "to mix into a liquid and become part of it",
+        "meaning_ar": "يذوب (في سائل)",
+        "example": "Stir the tea until the sugar dissolves."
+      },
+      {
+        "word": "pig out",
+        "pos": "phrasal verb",
+        "meaning_en": "to eat a very large amount of food greedily",
+        "meaning_ar": "يأكل بشراهة",
+        "note_ar": "pig = خنزير، pig out on something",
+        "example": "We pigged out on pizza after the exam."
+      },
+      {
+        "word": "by the end",
+        "pos": "phrase",
+        "meaning_en": "not later than the final part of something",
+        "meaning_ar": "بحلول النهاية",
+        "example": "By the end of the night, we were all tired."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "melt vs dissolve",
+        "words": [
+          "melt",
+          "dissolve"
+        ],
+        "explanation_ar": "الاثنان بمعنى «يذوب» لكن بطريقة مختلفة. melt: مادة صلبة تتحول إلى سائل بسبب الحرارة، مثل الثلج أو الآيس كريم أو الشوكولاتة. dissolve: مادة تختفي داخل سائل آخر وتختلط به، مثل السكر أو الملح في الماء؛ السكر لا يذوب بسبب الحرارة بل يختلط بالشاي.",
+        "examples": [
+          {
+            "word": "melt",
+            "sentence": "Eat your ice cream before it melts."
+          },
+          {
+            "word": "melt",
+            "sentence": "The butter melted in the hot pan."
+          },
+          {
+            "word": "dissolve",
+            "sentence": "Salt dissolves quickly in warm water."
+          },
+          {
+            "word": "dissolve",
+            "sentence": "Let the tablet dissolve in a glass of water."
+          }
+        ]
+      },
+      {
+        "title": "curb vs sidewalk",
+        "words": [
+          "curb",
+          "sidewalk"
+        ],
+        "explanation_ar": "sidewalk (وفي بريطانيا pavement) هو الرصيف نفسه الذي تمشي عليه بعيداً عن السيارات. أما curb (وفي بريطانيا kerb) فهو الحافة المرتفعة في طرف الرصيف التي تفصله عن الشارع الذي تسير فيه السيارات.",
+        "examples": [
+          {
+            "word": "sidewalk",
+            "sentence": "The sidewalk was full of people."
+          },
+          {
+            "word": "curb",
+            "sentence": "Don't park too close to the curb."
+          }
+        ]
+      },
+      {
+        "title": "stall vs vendor vs cart",
+        "words": [
+          "stall",
+          "vendor",
+          "cart"
+        ],
+        "explanation_ar": "stall هو المكان الثابت الصغير (كشك أو طاولة) الذي يُباع منه. vendor هو الشخص البائع نفسه. cart هي عربة متحركة على عجلات يبيع منها البائع.",
+        "examples": [
+          {
+            "word": "stall",
+            "sentence": "She runs a flower stall in the market."
+          },
+          {
+            "word": "vendor",
+            "sentence": "The ice cream vendor smiled at the kids."
+          },
+          {
+            "word": "cart",
+            "sentence": "He pushed his food cart down the street."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "pig out (on something)",
+        "meaning_ar": "يأكل كمية كبيرة جداً بشراهة",
+        "example": "I pigged out on burgers last night."
+      },
+      {
+        "phrase": "drag someone to a place",
+        "meaning_ar": "يجرجر شخصاً إلى مكان رغماً عنه",
+        "example": "He dragged his friends to the night market."
+      },
+      {
+        "phrase": "covered in",
+        "meaning_ar": "مُغطّى بالكامل بـ",
+        "example": "His shirt was covered in ketchup."
+      },
+      {
+        "phrase": "If it melts, I'll melt too!",
+        "meaning_ar": "تعبير مبالغ ومضحك: «إذا ذاب سأذوب أنا أيضاً»",
+        "example": "Hurry with my ice cream — if it melts, I'll melt too!"
+      },
+      {
+        "phrase": "Are you opening a museum?",
+        "meaning_ar": "سخرية لمن يجمع أشياء كثيرة جداً",
+        "example": "Ten kinds of food? Are you opening a museum?"
+      },
+      {
+        "phrase": "I'm stuffed",
+        "meaning_ar": "أنا متخم / شبعت جداً",
+        "example": "Thanks, but I'm stuffed."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Talking about the future: present continuous vs going to vs will",
+        "explanation_ar": "ثلاث صيغ للمستقبل بمعانٍ مختلفة. المضارع المستمر (am/is/are + ing) للترتيبات المؤكدة التي تم التخطيط لها واتُّخذت لها إجراءات (حجز، موعد). going to للنية الموجودة في الذهن بلا ترتيبات بعد. will صيغة مجردة: لقرار لحظي اتُّخذ الآن، أو لاحتمال حدوث شيء في المستقبل، أو لطلب وعد.",
+        "examples": [
+          "I'm seeing the dentist next Tuesday. (arranged)",
+          "I'm going to learn French one day. (intention)",
+          "The phone is ringing. I'll answer it. (instant decision)",
+          "Will you marry me? (asking for a promise)"
+        ]
+      },
+      {
+        "title": "Going to for predictions based on evidence",
+        "explanation_ar": "عندما ترى دليلاً أمامك يدل على أن شيئاً سيحدث، استخدم going to وليس will. مثل غيوم سوداء كثيفة تعني أن المطر قادم، أو طفل يلعب بمقص حاد قرب وجهه.",
+        "examples": [
+          "Look at those clouds. It's going to rain.",
+          "Be careful! He's going to cut himself."
+        ]
+      },
+      {
+        "title": "Meanwhile",
+        "explanation_ar": "نستخدم meanwhile لنقول إن شيئاً كان يحدث في نفس الوقت الذي حدث فيه شيء آخر. تأتي غالباً في بداية الجملة وبعدها فاصلة.",
+        "examples": [
+          "Omar ordered a sandwich. Meanwhile, Ali tried everything.",
+          "I'll wash the dishes. Meanwhile, you can rest."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Ice cream ___ quickly in the hot sun.",
+      "choices": [
+        "dissolves",
+        "melts",
+        "sighs",
+        "drags"
+      ],
+      "answer": 1,
+      "explanation_ar": "الآيس كريم يتحول إلى سائل بسبب الحرارة = melts."
+    },
+    {
+      "question": "Stir your tea until the sugar ___.",
+      "choices": [
+        "dissolves",
+        "melts",
+        "declares",
+        "waves"
+      ],
+      "answer": 0,
+      "explanation_ar": "السكر يختلط داخل سائل = dissolves."
+    },
+    {
+      "question": "The raised edge between the sidewalk and the road is the:",
+      "choices": [
+        "stall",
+        "cart",
+        "aisle",
+        "curb"
+      ],
+      "answer": 3,
+      "explanation_ar": "curb هي حافة الرصيف."
+    },
+    {
+      "question": "\"I ate a lot of junk food last night.\" Another way to say this:",
+      "choices": [
+        "I sighed last night.",
+        "I dragged out last night.",
+        "I pigged out last night.",
+        "I melted last night."
+      ],
+      "answer": 2,
+      "explanation_ar": "pig out = يأكل بشراهة."
+    },
+    {
+      "question": "Look at those dark clouds! It ___ rain.",
+      "choices": [
+        "is going to",
+        "will",
+        "is raining to",
+        "rains"
+      ],
+      "answer": 0,
+      "explanation_ar": "تنبؤ مبني على دليل أمامك = going to."
+    },
+    {
+      "question": "I called the clinic yesterday. I ___ the dentist next Tuesday.",
+      "choices": [
+        "will see",
+        "see",
+        "saw",
+        "am seeing"
+      ],
+      "answer": 3,
+      "explanation_ar": "موعد مرتب مسبقاً = المضارع المستمر."
+    },
+    {
+      "question": "The doorbell is ringing. — \"I ___ it!\"",
+      "choices": [
+        "am going to get",
+        "'ll get",
+        "am getting",
+        "got"
+      ],
+      "answer": 1,
+      "explanation_ar": "قرار لحظي اتُّخذ الآن = will."
+    },
+    {
+      "question": "A person who sells food from a cart in the street is a:",
+      "choices": [
+        "vendor",
+        "customer",
+        "cashier",
+        "museum"
+      ],
+      "answer": 0,
+      "explanation_ar": "vendor = البائع (المتجول)."
+    },
+    {
+      "question": "\"No more food, thanks. I'm ___.\"",
+      "choices": [
+        "sticky",
+        "crowded",
+        "stuffed",
+        "logical"
+      ],
+      "answer": 2,
+      "explanation_ar": "stuffed = متخم وشبعان جداً."
+    },
+    {
+      "question": "Which word has a silent \"gh\"?",
+      "choices": [
+        "bottle",
+        "sticky",
+        "waffle",
+        "sigh"
+      ],
+      "answer": 3,
+      "explanation_ar": "gh صامت في sigh وتُنطق /saɪ/."
+    }
+  ]
+}

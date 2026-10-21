@@ -1,0 +1,145 @@
+{
+  "title": "At the City Market",
+  "content": {
+    "vocabulary": [
+      {"word": "market", "pos": "noun", "meaning_en": "a place where people buy and sell goods, often outdoors", "meaning_ar": "سوق", "note_ar": "", "example": "We buy our vegetables at the Saturday market."},
+      {"word": "stall", "pos": "noun", "meaning_en": "an open table or small shop in a market", "meaning_ar": "كشك / بسطة", "note_ar": "مفتوح من أكثر من جهة", "example": "She runs a small fruit stall."},
+      {"word": "booth", "pos": "noun", "meaning_en": "a small closed space open on one side", "meaning_ar": "كشك مغلق / كابينة", "note_ar": "voting booth, ticket booth", "example": "Buy your tickets at the ticket booth."},
+      {"word": "vendor", "pos": "noun", "meaning_en": "a person who sells small things in the street or a market; a supplier", "meaning_ar": "بائع متجول / مورّد", "note_ar": "vending machine = آلة بيع", "example": "A street vendor sold us hot corn."},
+      {"word": "seller", "pos": "noun", "meaning_en": "any person or company that sells something", "meaning_ar": "بائع", "note_ar": "", "example": "The seller wants $5,000 for the car."},
+      {"word": "bargain", "pos": "noun / verb", "meaning_en": "something cheap for its value; to discuss a price", "meaning_ar": "صفقة رابحة / يتفاوض على السعر", "note_ar": "كفعل مثل negotiate لكنها أقل رسمية", "example": "We bargained for ten minutes before buying."},
+      {"word": "cheap", "pos": "adjective", "meaning_en": "costing little money", "meaning_ar": "رخيص", "note_ar": "عكسها expensive = غالٍ", "example": "Fruit is cheap at the end of the day."},
+      {"word": "expensive", "pos": "adjective", "meaning_en": "costing a lot of money", "meaning_ar": "غالٍ", "note_ar": "", "example": "Handmade carpets are expensive."},
+      {"word": "discount", "pos": "noun", "meaning_en": "an amount taken off the price", "meaning_ar": "خصم", "note_ar": "dis تعطي معنى الإزالة: count → discount، cover → discover، appear → disappear", "example": "He gave me a 10% discount."},
+      {"word": "deal", "pos": "noun", "meaning_en": "an agreement to buy or sell; a price that is good", "meaning_ar": "صفقة", "note_ar": "a good deal = سعر جيد", "example": "That's a good deal for a new phone."},
+      {"word": "offer", "pos": "noun / verb", "meaning_en": "a special price; to say you will give something", "meaning_ar": "عرض / يعرض", "note_ar": "", "example": "There's a special offer on rice this week."},
+      {"word": "sale", "pos": "noun", "meaning_en": "a time when a shop sells things at lower prices", "meaning_ar": "تنزيلات / تصفية", "note_ar": "on sale = معروض بسعر مخفّض", "example": "I bought these shoes in the summer sale."},
+      {"word": "shopper", "pos": "noun", "meaning_en": "a person who is shopping", "meaning_ar": "متسوّق", "note_ar": "", "example": "The market was full of shoppers."},
+      {"word": "cash", "pos": "noun", "meaning_en": "money in coins and paper", "meaning_ar": "نقود / كاش", "note_ar": "pay in cash = يدفع نقداً", "example": "Most stalls only take cash."},
+      {"word": "coins", "pos": "noun", "meaning_en": "metal money", "meaning_ar": "عملات معدنية", "note_ar": "", "example": "I have some coins for the parking machine."},
+      {"word": "notes / bills", "pos": "noun", "meaning_en": "paper money", "meaning_ar": "أوراق نقدية", "note_ar": "note بريطاني (a ten-pound note)، bill أمريكي (a ten-dollar bill)", "example": "Can you change this fifty-dollar bill?"},
+      {"word": "purse", "pos": "noun", "meaning_en": "a small bag for money, usually used by women", "meaning_ar": "حقيبة نقود صغيرة / بُرس", "note_ar": "", "example": "She took a coin out of her purse."},
+      {"word": "haggling", "pos": "noun / verb (-ing)", "meaning_en": "arguing about a price to make it lower", "meaning_ar": "مساومة / فِصال", "note_ar": "فيها إلحاح وجدال، وانطباعها سلبي قليلاً", "example": "Haggling is normal in this market."},
+      {"word": "negotiate", "pos": "verb", "meaning_en": "to discuss something to reach an agreement", "meaning_ar": "يتفاوض", "note_ar": "أرقى وأعم من haggle: سعر، موعد، جودة...", "example": "They negotiated a new contract."},
+      {"word": "negotiator", "pos": "noun", "meaning_en": "a person who negotiates", "meaning_ar": "مفاوِض", "note_ar": "", "example": "She is a skilled negotiator."},
+      {"word": "fair price", "pos": "noun", "meaning_en": "a price that is right for both sides", "meaning_ar": "سعر عادل", "note_ar": "", "example": "Ten dollars is a fair price for this."},
+      {"word": "rip-off", "pos": "noun", "meaning_en": "something that costs much more than it should", "meaning_ar": "استغلال / نصب في السعر", "note_ar": "كفعل: rip someone off = يستغله", "example": "Ten dollars for a coffee? That's a rip-off!"},
+      {"word": "quality", "pos": "noun", "meaning_en": "how good something is", "meaning_ar": "جودة", "note_ar": "", "example": "Check the quality before you pay."},
+      {"word": "sample", "pos": "noun", "meaning_en": "a small amount to try", "meaning_ar": "عيّنة", "note_ar": "free sample = عينة مجانية", "example": "They gave us free samples of cheese."},
+      {"word": "second-hand", "pos": "adjective", "meaning_en": "used before by someone else", "meaning_ar": "مستعمل", "note_ar": "أنت «اليد الثانية» التي تمسك المنتج", "example": "I bought a second-hand bike."},
+      {"word": "handmade", "pos": "adjective", "meaning_en": "made by hand, not by machine", "meaning_ar": "مصنوع يدوياً", "note_ar": "", "example": "She sells handmade soap."},
+      {"word": "souvenir", "pos": "noun", "meaning_en": "something you buy to remember a place", "meaning_ar": "هدية تذكارية", "note_ar": "تهجئتها غريبة لأنها من الفرنسية: /ˌsuːvəˈnɪr/", "example": "I bought a small souvenir from Cairo."},
+      {"word": "local products", "pos": "noun", "meaning_en": "things made in the area where they are sold", "meaning_ar": "منتجات محلية", "note_ar": "", "example": "I like to support local products."},
+      {"word": "wholesale", "pos": "noun / adjective", "meaning_en": "selling large amounts at lower prices", "meaning_ar": "بيع بالجملة", "note_ar": "عكسها retail = البيع بالتجزئة", "example": "Shops buy their goods at wholesale prices."},
+      {"word": "noisy", "pos": "adjective", "meaning_en": "full of loud sounds", "meaning_ar": "صاخب / فيه ضوضاء", "note_ar": "", "example": "The street is too noisy at night."},
+      {"word": "colourful", "pos": "adjective", "meaning_en": "having many bright colours", "meaning_ar": "ملوّن", "note_ar": "colorful بالأمريكي", "example": "The market was colourful and busy."},
+      {"word": "spice", "pos": "noun", "meaning_en": "a powder or seed used to add flavour to food", "meaning_ar": "توابل / بهار", "note_ar": "spice stall وليس spices stall لأنها هنا تعمل كصفة", "example": "Cumin is my favourite spice."},
+      {"word": "town", "pos": "noun", "meaning_en": "a place with houses and shops, smaller than a city", "meaning_ar": "بلدة", "note_ar": "أصغر من city", "example": "I grew up in a small town."},
+      {"word": "agree on", "pos": "phrasal verb", "meaning_en": "to reach a decision together", "meaning_ar": "يتوافق على", "note_ar": "", "example": "We agreed on a date for the meeting."},
+      {"word": "agree to", "pos": "phrasal verb", "meaning_en": "to say yes to what someone asks", "meaning_ar": "يوافق على (طلب)", "note_ar": "", "example": "He agreed to give me a discount."},
+      {"word": "on display", "pos": "phrase", "meaning_en": "shown for people to see", "meaning_ar": "معروض", "note_ar": "display = يعرض / شاشة عرض", "example": "The new phones are on display in the window."},
+      {"word": "suddenly", "pos": "adverb", "meaning_en": "quickly and without warning", "meaning_ar": "فجأة", "note_ar": "", "example": "Suddenly, the lights went out."},
+      {"word": "curious", "pos": "adjective", "meaning_en": "wanting to know about something", "meaning_ar": "فضولي / لديه فضول", "note_ar": "الاسم curiosity؛ وتختلف عن nosy = حشري", "example": "The children were curious about the box."},
+      {"word": "curtain", "pos": "noun", "meaning_en": "a piece of cloth that covers a window or opening", "meaning_ar": "ستارة", "note_ar": "", "example": "Please close the curtains."},
+      {"word": "blanket", "pos": "noun", "meaning_en": "a thick cover used on a bed", "meaning_ar": "بطانية / غطاء", "note_ar": "", "example": "It's cold; take another blanket."},
+      {"word": "glow", "pos": "verb", "meaning_en": "to give out soft light", "meaning_ar": "يتوهّج", "note_ar": "", "example": "The cat's eyes glowed in the dark."},
+      {"word": "to be continued", "pos": "phrase", "meaning_en": "the story will continue later", "meaning_ar": "يُتبع", "note_ar": "", "example": "The episode ended with \"To be continued\"."}
+    ],
+    "fine_lines": [
+      {
+        "title": "vendor vs seller",
+        "words": ["vendor", "seller"],
+        "explanation_ar": "seller أعم كلمة لأي شخص أو شركة تبيع أي شيء (بيت، سيارة، منتجات). vendor أخص: في السوق والشارع تعني البائع المتجول أو صاحب الكشك (street vendor)، وفي التجارة تعني المورّد الذي يبيع لشركة أخرى. ومنها vending machine لأنها تبيع أشياء صغيرة.",
+        "examples": [
+          {"word": "seller", "sentence": "The seller agreed to lower the price of the house."},
+          {"word": "vendor", "sentence": "They buy fruit from a local street vendor."},
+          {"word": "vendor", "sentence": "Our company changed its software vendor."}
+        ]
+      },
+      {
+        "title": "stall vs booth",
+        "words": ["stall", "booth"],
+        "explanation_ar": "الاثنتان معناهما كشك. stall مفتوح من أكثر من جهة، عادة في الأماكن المفتوحة مثل السوق. booth مغلق من كل الجهات إلا جهة واحدة، مثل كشك التذاكر أو كابينة التصويت. الناس أحياناً يستخدمون booth للكل لأنها تبدو أرقى.",
+        "examples": [
+          {"word": "stall", "sentence": "There's a spice stall near the entrance."},
+          {"word": "booth", "sentence": "Each voter goes into a voting booth."}
+        ]
+      },
+      {
+        "title": "haggle vs bargain vs negotiate",
+        "words": ["haggle", "bargain", "negotiate"],
+        "explanation_ar": "haggle مساومة بإلحاح وجدال حول السعر، وانطباعها سلبي قليلاً. bargain تفاوض عادي حول السعر أو الموعد أو الجودة، وهي لغة الحياة اليومية. negotiate نفس معنى bargain لكنها رسمية وتُستخدم في العمل والعقود.",
+        "examples": [
+          {"word": "haggle", "sentence": "He haggled over every coin."},
+          {"word": "bargain", "sentence": "You can bargain with the sellers here."},
+          {"word": "negotiate", "sentence": "The two companies negotiated for weeks."}
+        ]
+      },
+      {
+        "title": "agree on vs agree to",
+        "words": ["agree on", "agree to"],
+        "explanation_ar": "agree on تعني أن الطرفين وصلا معاً إلى قرار يرضيهما (كلٌّ تنازل قليلاً). agree to تعني أن طرفاً طلب شيئاً والطرف الآخر وافق عليه فقط.",
+        "examples": [
+          {"word": "agree on", "sentence": "Finally, they agreed on a fair price."},
+          {"word": "agree to", "sentence": "The vendor agreed to give me a discount."}
+        ]
+      },
+      {
+        "title": "expensive vs rip-off",
+        "words": ["expensive", "rip-off"],
+        "explanation_ar": "expensive وصف محايد: الشيء غالٍ لكن قد يستحق سعره (ساعة فاخرة، سيارة). rip-off تعني أن السعر مبالغ فيه بشكل مستفز واستغلالي، مثل كوب قهوة عادي بعشرة دولارات.",
+        "examples": [
+          {"word": "expensive", "sentence": "This watch is expensive, but it's worth it."},
+          {"word": "rip-off", "sentence": "Ten dollars for a bottle of water? What a rip-off!"}
+        ]
+      },
+      {
+        "title": "offer vs discount vs sale",
+        "words": ["offer", "discount", "sale"],
+        "explanation_ar": "الفرق مثل العربية تماماً: offer عرض، discount خصم بنسبة أو مبلغ، sale تنزيلات أو تصفية لفترة.",
+        "examples": [
+          {"word": "offer", "sentence": "The vendor made me a great offer."},
+          {"word": "sale", "sentence": "The shop isn't having a sale right now."},
+          {"word": "discount", "sentence": "He'll give me a 10% discount if I buy two items."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "you drive a hard bargain", "meaning_ar": "أنت تساوم بذكاء ولا تتنازل بسهولة", "example": "Fine, eight dollars. You drive a hard bargain!"},
+      {"phrase": "the best price in town", "meaning_ar": "أفضل سعر في المدينة", "example": "We offer the best price in town."},
+      {"phrase": "pay in cash", "meaning_ar": "يدفع نقداً", "example": "Can I pay in cash?"},
+      {"phrase": "rip someone off", "meaning_ar": "يستغل شخصاً في السعر", "example": "Be careful, some taxi drivers try to rip you off."},
+      {"phrase": "a good deal", "meaning_ar": "سعر / صفقة جيدة", "example": "I got a good deal on this laptop."},
+      {"phrase": "at first", "meaning_ar": "في البداية", "example": "At first, I didn't like the city."},
+      {"phrase": "to be continued", "meaning_ar": "يُتبع", "example": "The story isn't over. To be continued!"}
+    ],
+    "grammar": [
+      {
+        "title": "Direct and reported (indirect) speech",
+        "explanation_ar": "الكلام المباشر (direct speech) ننقل فيه كلام الشخص كما قاله بين علامتي تنصيص. الكلام غير المباشر (indirect / reported speech) نحكي فيه ما فهمناه بأسلوبنا بدون علامات تنصيص. الترجمة حرفية مثل العربية: «قال أحمد إنه كان مشغولاً»، مع الحفاظ على زمن الماضي. كلمة that اختيارية.",
+        "examples": [
+          "Ahmed said, \"I am busy.\" → Ahmed told me (that) he was busy.",
+          "Tom said, \"I write with my pen.\" → Tom said (that) he wrote with his pen.",
+          "Janet said, \"I will clean my room.\" → Janet said (that) she would clean her room."
+        ]
+      },
+      {
+        "title": "Noun used as an adjective",
+        "explanation_ar": "عندما يأتي اسم قبل اسم آخر ليصفه يكون في صيغة المفرد لأنه يعمل كصفة. نقول spice stall وليس spices stall، حتى لو كان الكشك يبيع أنواعاً كثيرة.",
+        "examples": ["a spice stall", "a fruit stall", "a ticket booth"]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "Ten dollars for a small cup of coffee? That's a ___!", "choices": ["fair price", "rip-off", "sample", "souvenir"], "answer": 1, "explanation_ar": "rip-off = سعر مبالغ فيه واستغلالي."},
+    {"question": "After a long discussion, they finally agreed ___ a fair price.", "choices": ["to", "with", "on", "at"], "answer": 2, "explanation_ar": "agree on = توافق الطرفين على قرار مشترك."},
+    {"question": "I asked for a discount, and he agreed ___ give me one.", "choices": ["to", "on", "at", "for"], "answer": 0, "explanation_ar": "agree to = يوافق على طلب شخص آخر."},
+    {"question": "A small closed place where you buy tickets is a ticket ___.", "choices": ["stall", "market", "booth", "town"], "answer": 2, "explanation_ar": "booth مغلق من كل الجهات إلا واحدة."},
+    {"question": "Which word means \"used before by someone else\"?", "choices": ["handmade", "wholesale", "second-hand", "local"], "answer": 2, "explanation_ar": "second-hand = مستعمل."},
+    {"question": "Ahmed said, \"I am busy.\" In reported speech:", "choices": ["Ahmed said he is busy I.", "Ahmed said that I was busy.", "Ahmed said am busy.", "Ahmed said that he was busy."], "answer": 3, "explanation_ar": "نحوّل I إلى he، ونحافظ على زمن الماضي فتصبح was."},
+    {"question": "In American English, paper money is called a:", "choices": ["bill", "note", "coin", "purse"], "answer": 0, "explanation_ar": "bill أمريكي، note بريطاني."},
+    {"question": "Which word is the most formal?", "choices": ["haggle", "negotiate", "bargain", "rip off"], "answer": 1, "explanation_ar": "negotiate رسمية، و bargain لغة يومية، و haggle مساومة بإلحاح."},
+    {"question": "The prefix \"dis\" in \"discount\" gives the meaning of:", "choices": ["again", "removing", "very", "before"], "answer": 1, "explanation_ar": "dis تعطي معنى الإزالة أو العكس: discover، disconnect، disappear."},
+    {"question": "Selling large amounts of goods at lower prices to shops is:", "choices": ["retail", "souvenir", "wholesale", "sample"], "answer": 2, "explanation_ar": "wholesale = البيع بالجملة، وعكسها retail = التجزئة."}
+  ]
+}

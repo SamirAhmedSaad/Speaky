@@ -1,0 +1,99 @@
+{
+  "title": "City Transport",
+  "content": {
+    "vocabulary": [
+      {"word": "taxi", "pos": "noun", "meaning_en": "a car with a driver that you pay to take you somewhere", "meaning_ar": "سيارة أجرة / تاكسي", "note_ar": "", "example": "Let's take a taxi, it's faster."},
+      {"word": "cab", "pos": "noun", "meaning_en": "another word for a taxi", "meaning_ar": "تاكسي", "note_ar": "أشيع في أمريكا", "example": "I called a cab to the airport."},
+      {"word": "taxi driver", "pos": "noun", "meaning_en": "a person whose job is driving a taxi", "meaning_ar": "سائق أجرة", "note_ar": "", "example": "The taxi driver knew a shorter way."},
+      {"word": "fare", "pos": "noun", "meaning_en": "the money you pay for a journey", "meaning_ar": "الأجرة", "note_ar": "تُنطق مثل fair (عادل) لكن المعنى مختلف", "example": "The taxi fare was twenty dollars."},
+      {"word": "meter", "pos": "noun", "meaning_en": "a machine in a taxi that shows how much to pay", "meaning_ar": "العدّاد", "note_ar": "", "example": "Please turn on the meter."},
+      {"word": "ride", "pos": "noun", "meaning_en": "a short journey in a car or on a bike", "meaning_ar": "توصيلة / مشوار", "note_ar": "كفعل: ride = يركب (دراجة، حصان)", "example": "Can you give me a ride to work?"},
+      {"word": "tip", "pos": "noun", "meaning_en": "extra money you give to say thank you for a service", "meaning_ar": "بقشيش", "note_ar": "", "example": "I gave the driver a small tip."},
+      {"word": "passenger", "pos": "noun", "meaning_en": "a person travelling in a vehicle who is not driving", "meaning_ar": "راكب", "note_ar": "", "example": "The bus can carry fifty passengers."},
+      {"word": "metro", "pos": "noun", "meaning_en": "an underground train system in a city", "meaning_ar": "المترو", "note_ar": "", "example": "The metro is the fastest way to get around Cairo."},
+      {"word": "subway", "pos": "noun", "meaning_en": "the American word for an underground train system", "meaning_ar": "المترو (أمريكي)", "note_ar": "مشهورة في نيويورك", "example": "We took the subway to Times Square."},
+      {"word": "underground", "pos": "noun", "meaning_en": "the British word for an underground train system", "meaning_ar": "المترو (بريطاني)", "note_ar": "مترو لندن يُسمى أيضاً the Tube", "example": "The London Underground is very old."},
+      {"word": "station", "pos": "noun", "meaning_en": "a building where trains stop for passengers", "meaning_ar": "محطة", "note_ar": "", "example": "Meet me at the main station."},
+      {"word": "platform", "pos": "noun", "meaning_en": "the raised area where you wait for and get on a train", "meaning_ar": "رصيف المحطة", "note_ar": "تعني أيضاً منصة مثل منصات التواصل", "example": "The train to the airport leaves from platform two."},
+      {"word": "line", "pos": "noun", "meaning_en": "a route that a train follows", "meaning_ar": "خط (مترو/قطار)", "note_ar": "", "example": "Change to the red line at the next station."},
+      {"word": "ticket machine", "pos": "noun", "meaning_en": "a machine that sells tickets", "meaning_ar": "ماكينة التذاكر", "note_ar": "", "example": "I can't find the ticket machine."},
+      {"word": "turnstile", "pos": "noun", "meaning_en": "a gate that turns and lets one person through at a time", "meaning_ar": "البوابة الدوّارة", "note_ar": "", "example": "Put your ticket in the turnstile to go through."},
+      {"word": "tram", "pos": "noun", "meaning_en": "an electric vehicle that runs on rails in the street", "meaning_ar": "الترام", "note_ar": "", "example": "We took the tram to the old town."},
+      {"word": "bike", "pos": "noun", "meaning_en": "a bicycle", "meaning_ar": "دراجة", "note_ar": "bike اختصار bicycle", "example": "Many people go to work by bike."},
+      {"word": "scooter", "pos": "noun", "meaning_en": "a small vehicle you stand on, for short distances", "meaning_ar": "سكوتر", "note_ar": "يكون كهربائياً أو عادياً", "example": "She rents an electric scooter to get to class."},
+      {"word": "car share", "pos": "noun", "meaning_en": "when two or more people travel in one car to save money", "meaning_ar": "مشاركة السيارة", "note_ar": "ويُقال أيضاً carpool", "example": "We use a car share to get to the office."},
+      {"word": "shuttle", "pos": "noun", "meaning_en": "a small bus that goes back and forth on a fixed route", "meaning_ar": "حافلة نقل ترددية / شاتل", "note_ar": "مثل شاتل المطار والفندق", "example": "The hotel has a free shuttle to the airport."},
+      {"word": "minibus", "pos": "noun", "meaning_en": "a small bus", "meaning_ar": "حافلة صغيرة", "note_ar": "", "example": "A minibus took us to the beach."},
+      {"word": "crowded", "pos": "adjective", "meaning_en": "full of people", "meaning_ar": "مزدحم", "note_ar": "", "example": "The metro is crowded in the morning."},
+      {"word": "fast", "pos": "adjective", "meaning_en": "moving quickly", "meaning_ar": "سريع", "note_ar": "", "example": "A taxi is fast but expensive."},
+      {"word": "slow", "pos": "adjective", "meaning_en": "not moving quickly", "meaning_ar": "بطيء", "note_ar": "", "example": "The bus is cheap but slow."},
+      {"word": "cheap", "pos": "adjective", "meaning_en": "not costing much money", "meaning_ar": "رخيص", "note_ar": "", "example": "The metro is the cheapest way to travel."},
+      {"word": "expensive", "pos": "adjective", "meaning_en": "costing a lot of money", "meaning_ar": "غالٍ", "note_ar": "", "example": "Taxis are expensive at night."},
+      {"word": "convenient", "pos": "adjective", "meaning_en": "easy to use and suitable for your plans", "meaning_ar": "مناسب / مريح في الاستخدام", "note_ar": "convenience = الراحة والسهولة", "example": "The station is very convenient for my office."},
+      {"word": "trapped", "pos": "adjective", "meaning_en": "not able to get out of a place", "meaning_ar": "محاصر / عالق", "note_ar": "", "example": "I was trapped in the lift for an hour."},
+      {"word": "calmly", "pos": "adverb", "meaning_en": "in a quiet, relaxed way", "meaning_ar": "بهدوء", "note_ar": "calm → calmly", "example": "James answered calmly."},
+      {"word": "sigh", "pos": "verb", "meaning_en": "to breathe out loudly because you are tired or sad", "meaning_ar": "يتنهّد", "note_ar": "", "example": "Ali sighed and said, \"Next time, I'll take a taxi.\""},
+      {"word": "stop", "pos": "noun", "meaning_en": "a place on a street where a bus stops", "meaning_ar": "موقف (أتوبيس)", "note_ar": "bus stop = موقف أتوبيس", "example": "Get off at the next stop."}
+    ],
+    "fine_lines": [
+      {
+        "title": "metro vs subway vs underground",
+        "words": ["metro", "subway", "underground"],
+        "explanation_ar": "الثلاثة تعني قطار المدينة تحت الأرض. metro كلمة عامة تُستخدم في كثير من الدول. subway الكلمة الأمريكية (مثل مترو نيويورك). underground الكلمة البريطانية (مترو لندن)، ويسميه الإنجليز بالعامية the Tube لأن أنفاقه تشبه الأنبوب.",
+        "examples": [
+          {"word": "metro", "sentence": "Paris has a very good metro system."},
+          {"word": "subway", "sentence": "In New York, I always take the subway."},
+          {"word": "underground", "sentence": "We took the underground to Oxford Street."}
+        ]
+      },
+      {
+        "title": "station vs stop",
+        "words": ["station", "stop"],
+        "explanation_ar": "station مبنى كبير فيه خدمات مثل ماكينات التذاكر ودورات المياه وكراسي الانتظار (محطة قطار أو مترو). stop مكان توقف صغير في الشارع، غالباً مجرد لافتة أو مظلة يقف عندها الأتوبيس، بدون مبنى.",
+        "examples": [
+          {"word": "station", "sentence": "The train station has a café and a waiting room."},
+          {"word": "stop", "sentence": "I waited at the bus stop in the rain."}
+        ]
+      },
+      {
+        "title": "fare vs fair",
+        "words": ["fare", "fair"],
+        "explanation_ar": "الكلمتان تُنطقان بنفس الطريقة. fare اسم بمعنى الأجرة التي تدفعها للمواصلات. fair صفة بمعنى عادل، وكاسم تعني معرضاً أو مهرجاناً.",
+        "examples": [
+          {"word": "fare", "sentence": "The bus fare went up this year."},
+          {"word": "fair", "sentence": "It isn't fair that I always pay."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "drive someone up the wall", "meaning_ar": "يُجنّن شخصاً ويغضبه جداً", "example": "The loud noise from the street drives me up the wall."},
+      {"phrase": "take a taxi / take the metro", "meaning_ar": "يركب تاكسي / يركب المترو", "example": "We took the metro to save money."},
+      {"phrase": "grab a taxi", "meaning_ar": "يأخذ تاكسي بسرعة", "example": "Let's grab a taxi, we're late."},
+      {"phrase": "change to another line", "meaning_ar": "يغيّر إلى خط آخر", "example": "Change to the green line at the next platform."},
+      {"phrase": "give someone a ride", "meaning_ar": "يوصّل شخصاً بسيارته", "example": "Can you give me a ride home?"}
+    ],
+    "grammar": [
+      {
+        "title": "Present continuous with always for annoying habits",
+        "explanation_ar": "عادةً نستخدم المضارع البسيط للعادات. لكن إذا كانت العادة مزعجة وتتكرر بشكل مستفز، يستخدم المتحدث الأصلي المضارع المستمر مع always أو constantly. هذا يُظهر للمستمع أنك متضايق من التكرار.",
+        "examples": [
+          "He is always taking taxis and spending too much money.",
+          "The train is constantly arriving late!",
+          "She is always losing her metro ticket."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "The money you pay for a bus or taxi journey is the:", "choices": ["fair", "fare", "tip", "meter"], "answer": 1, "explanation_ar": "fare = الأجرة، أما fair فتعني عادل."},
+    {"question": "In New York, the underground train is usually called the:", "choices": ["subway", "tram", "shuttle", "Tube"], "answer": 0, "explanation_ar": "subway هي الكلمة الأمريكية."},
+    {"question": "In London, people often call the underground:", "choices": ["the cab", "the subway", "the line", "the Tube"], "answer": 3, "explanation_ar": "مترو لندن يُسمى the Underground أو the Tube."},
+    {"question": "I waited at the bus ___ for twenty minutes.", "choices": ["station", "platform", "stop", "turnstile"], "answer": 2, "explanation_ar": "موقف الأتوبيس الصغير في الشارع = bus stop."},
+    {"question": "Which sentence shows the speaker is annoyed by a habit?", "choices": ["He takes the bus every day.", "He is always taking expensive taxis!", "He took a taxi yesterday.", "He will take the metro."], "answer": 1, "explanation_ar": "المضارع المستمر مع always يعبّر عن عادة مزعجة."},
+    {"question": "The gate that lets one person through at a time in the metro is the:", "choices": ["platform", "meter", "line", "turnstile"], "answer": 3, "explanation_ar": "turnstile = البوابة الدوّارة."},
+    {"question": "\"My brother's singing drives me up the wall\" means:", "choices": ["it makes me very angry", "it makes me happy", "it helps me sleep", "it makes me climb"], "answer": 0, "explanation_ar": "drive someone up the wall = يُجنّنه ويغضبه."},
+    {"question": "Extra money you give the driver to say thank you is a:", "choices": ["fare", "tip", "ride", "ticket"], "answer": 1, "explanation_ar": "tip = بقشيش."},
+    {"question": "A small bus that goes back and forth between the airport and a hotel is a:", "choices": ["tram", "scooter", "shuttle", "cab"], "answer": 2, "explanation_ar": "shuttle = حافلة ترددية على مسار ثابت."},
+    {"question": "Where do you stand to wait for a train?", "choices": ["on the meter", "on the platform", "on the fare", "on the tip"], "answer": 1, "explanation_ar": "platform = رصيف المحطة."}
+  ]
+}

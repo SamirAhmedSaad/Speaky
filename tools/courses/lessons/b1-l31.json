@@ -1,0 +1,120 @@
+{
+  "title": "Tools and Equipment at Work",
+  "content": {
+    "vocabulary": [
+      {"word": "hammer", "pos": "noun", "meaning_en": "a heavy hand tool with a metal head, used to hit nails", "meaning_ar": "مطرقة / شاكوش", "note_ar": "", "example": "He used a hammer to put the picture hook in the wall."},
+      {"word": "screwdriver", "pos": "noun", "meaning_en": "a tool for turning screws", "meaning_ar": "مفك", "note_ar": "screw = برغي، driver = الذي يدفع/يقود، فالكلمة تعني «الذي يلفّ البرغي»", "example": "I need a small screwdriver to open the battery cover."},
+      {"word": "wrench / spanner", "pos": "noun", "meaning_en": "a metal tool for holding and turning nuts and bolts", "meaning_ar": "مفتاح ربط", "note_ar": "wrench أمريكي، spanner بريطاني. حرف w صامت في wrench: تُنطق /rentʃ/", "example": "Pass me the wrench so I can tighten this bolt."},
+      {"word": "pliers", "pos": "noun", "meaning_en": "a tool with two handles for holding, bending or cutting wire", "meaning_ar": "كمّاشة / زرّادية", "note_ar": "تأتي دائماً بصيغة الجمع: a pair of pliers", "example": "Use the pliers to bend the wire."},
+      {"word": "drill", "pos": "noun", "meaning_en": "a tool for making holes", "meaning_ar": "مثقاب / شنيور", "note_ar": "drill كفعل = يثقب، وأيضاً تدريب (fire drill = تدريب على الحريق)", "example": "We need a drill to make holes for the shelf."},
+      {"word": "saw", "pos": "noun", "meaning_en": "a tool with a sharp toothed blade for cutting wood or metal", "meaning_ar": "منشار", "note_ar": "انتبه: saw أيضاً هي الماضي من see", "example": "He cut the board in half with a saw."},
+      {"word": "nail", "pos": "noun", "meaning_en": "a thin smooth pointed piece of metal that you hit with a hammer", "meaning_ar": "مسمار", "note_ar": "nail أيضاً = ظفر الإصبع", "example": "Hit the nail gently so the wood doesn't crack."},
+      {"word": "screw", "pos": "noun", "meaning_en": "a pointed metal pin with a spiral thread that you turn into a surface", "meaning_ar": "برغي (مسمار قلاووظ)", "note_ar": "", "example": "One screw is missing from the door handle."},
+      {"word": "bolt", "pos": "noun", "meaning_en": "a thick metal pin with a flat end, fixed with a nut", "meaning_ar": "مسمار سداسي (بولت)", "note_ar": "يُثبّت بـ nut = صامولة", "example": "The two metal parts are joined with a bolt and a nut."},
+      {"word": "nut", "pos": "noun", "meaning_en": "a small piece of metal with a hole that screws onto a bolt", "meaning_ar": "صامولة", "note_ar": "nut أيضاً = حبة مكسرات", "example": "Tighten the nut with a wrench."},
+      {"word": "helmet / hard hat", "pos": "noun", "meaning_en": "a strong hat that protects your head", "meaning_ar": "خوذة", "note_ar": "hard hat أشيع في أمريكا لمواقع البناء، helmet تُستخدم في كل مكان (البناء والدراجات)", "example": "Everyone on the building site must wear a hard hat."},
+      {"word": "ladder", "pos": "noun", "meaning_en": "a movable set of steps you use to reach high places", "meaning_ar": "سُلّم متنقّل", "note_ar": "", "example": "Hold the ladder while I change the light bulb."},
+      {"word": "toolbox", "pos": "noun", "meaning_en": "a box for keeping tools in", "meaning_ar": "صندوق العدّة", "note_ar": "tool + box", "example": "All my tools are in the red toolbox."},
+      {"word": "tape measure", "pos": "noun", "meaning_en": "a long strip marked with units, used for measuring", "meaning_ar": "شريط قياس / متر", "note_ar": "", "example": "Use a tape measure to check the width of the window."},
+      {"word": "gloves", "pos": "noun", "meaning_en": "coverings that protect your hands", "meaning_ar": "قفازات", "note_ar": "", "example": "Wear gloves when you carry the glass."},
+      {"word": "safety vest / hi-vis vest", "pos": "noun", "meaning_en": "a bright jacket without sleeves that helps people see you", "meaning_ar": "سترة أمان عاكسة", "note_ar": "في بريطانيا يقولون hi-vis اختصار high visibility = رؤية عالية", "example": "Road workers wear safety vests so drivers can see them."},
+      {"word": "equipment", "pos": "noun", "meaning_en": "the tools and machines needed for a job", "meaning_ar": "معدات", "note_ar": "اسم غير معدود: لا نقول an equipment ولا equipments", "example": "The office bought new equipment this year."},
+      {"word": "stapler", "pos": "noun", "meaning_en": "a small tool that joins papers with thin metal pins", "meaning_ar": "دبّاسة", "note_ar": "staple = دبوس الدبّاسة", "example": "Can I borrow your stapler for these pages?"},
+      {"word": "folder", "pos": "noun", "meaning_en": "a cover for keeping papers together", "meaning_ar": "ملف / مجلّد", "note_ar": "من fold = يطوي", "example": "Put the contracts in the blue folder."},
+      {"word": "whiteboard", "pos": "noun", "meaning_en": "a white board you write on with special pens", "meaning_ar": "سبّورة بيضاء", "note_ar": "", "example": "The manager drew the plan on the whiteboard."},
+      {"word": "marker", "pos": "noun", "meaning_en": "a thick pen for writing on boards", "meaning_ar": "قلم سبّورة / ماركر", "note_ar": "", "example": "This marker is dry. Do you have another one?"},
+      {"word": "photocopier", "pos": "noun", "meaning_en": "a machine that makes copies of documents", "meaning_ar": "آلة تصوير المستندات", "note_ar": "في المكاتب الأمريكية يختصرونها copier", "example": "The photocopier is out of paper again."},
+      {"word": "calculator", "pos": "noun", "meaning_en": "a small machine for doing sums", "meaning_ar": "آلة حاسبة", "note_ar": "من calculate = يحسب", "example": "She checked the total with a calculator."},
+      {"word": "headset", "pos": "noun", "meaning_en": "headphones with a small microphone", "meaning_ar": "سماعة رأس بميكروفون", "note_ar": "", "example": "He wears a headset to answer customer calls."},
+      {"word": "software", "pos": "noun", "meaning_en": "the programs that a computer uses", "meaning_ar": "برمجيات / برنامج حاسوبي", "note_ar": "اسم غير معدود: لا نقول a software، بل a piece of software أو a program", "example": "The company installed new accounting software."},
+      {"word": "keyboard", "pos": "noun", "meaning_en": "the set of keys you type on", "meaning_ar": "لوحة المفاتيح", "note_ar": "", "example": "Don't eat over your keyboard."},
+      {"word": "mouse", "pos": "noun", "meaning_en": "a small device you move to control a computer", "meaning_ar": "فأرة / ماوس", "note_ar": "الجمع mice", "example": "My mouse stopped working, so I used the touchpad."},
+      {"word": "screen / monitor", "pos": "noun", "meaning_en": "the part of a computer that shows pictures and text", "meaning_ar": "شاشة", "note_ar": "", "example": "Clean the screen with a soft dry cloth."},
+      {"word": "charger", "pos": "noun", "meaning_en": "a device that puts power into a battery", "meaning_ar": "شاحن", "note_ar": "من charge = يشحن", "example": "I forgot my phone charger at home."},
+      {"word": "device", "pos": "noun", "meaning_en": "a machine or tool made for a special job, often electronic", "meaning_ar": "جهاز", "note_ar": "device اسم، أما devise فعل معناه يبتكر", "example": "Please switch off all devices during the exam."},
+      {"word": "avoid", "pos": "verb", "meaning_en": "to stay away from something harmful", "meaning_ar": "يتجنّب", "note_ar": "يأتي بعده الفعل بـ ing: avoid touching", "example": "Avoid touching the machine while it is hot."},
+      {"word": "spill", "pos": "verb", "meaning_en": "to let liquid fall out by accident", "meaning_ar": "يسكب / يدلق (بالخطأ)", "note_ar": "", "example": "I spilled coffee on my desk."},
+      {"word": "update", "pos": "verb", "meaning_en": "to make something newer with the latest changes", "meaning_ar": "يحدّث", "note_ar": "update كاسم = تحديث", "example": "Update your phone to fix the security problem."},
+      {"word": "guidelines", "pos": "noun", "meaning_en": "official written advice on how to do something", "meaning_ar": "إرشادات / تعليمات", "note_ar": "", "example": "Read the safety guidelines before you start."},
+      {"word": "efficient", "pos": "adjective", "meaning_en": "doing a job well without wasting time or money", "meaning_ar": "كفء / فعّال", "note_ar": "", "example": "The new printer is fast and efficient."},
+      {"word": "tighten", "pos": "verb", "meaning_en": "to make something firmer or more fixed", "meaning_ar": "يشدّ / يربط بإحكام", "note_ar": "tight + en؛ عكسها loosen = يرخي", "example": "Tighten the screws so the shelf doesn't move."},
+      {"word": "loose", "pos": "adjective", "meaning_en": "not firmly fixed", "meaning_ar": "مرتخٍ / غير مربوط", "note_ar": "لا تخلطها مع lose = يفقد", "example": "One of the wheels is loose."}
+    ],
+    "fine_lines": [
+      {
+        "title": "nail vs screw vs bolt",
+        "words": ["nail", "screw", "bolt"],
+        "explanation_ar": "الثلاثة تُستخدم لتثبيت الأشياء، لكن طريقة العمل مختلفة. nail مسمار أملس ندقّه بالمطرقة hammer. screw برغي له سنّ حلزوني يحفر طريقه داخل الخشب أو الجدار، ونلفّه بالمفك screwdriver. bolt مسمار سداسي سميك طرفه غير مدبّب، يمرّ من ثقب جاهز في القطعتين ويُقفل بصامولة nut ونشدّه بمفتاح الربط wrench.",
+        "examples": [
+          {"word": "nail", "sentence": "He hammered a nail into the wall."},
+          {"word": "screw", "sentence": "Turn the screw clockwise to tighten it."},
+          {"word": "bolt", "sentence": "The wheel is held on by four bolts."}
+        ]
+      },
+      {
+        "title": "must vs have to vs should",
+        "words": ["must", "have to", "should"],
+        "explanation_ar": "must إلزام قاطع 100% خاصة في قواعد السلامة، ومخالفته قد تسبب خطراً حقيقياً. have to إلزام يأتي من الخارج: لائحة الشركة أو القانون أو روتين الوظيفة، وليس مسألة حياة أو موت. should نصيحة مهنية: الأفضل أن تفعل كذا، ولا يوجد عقاب إذا لم تفعل.",
+        "examples": [
+          {"word": "must", "sentence": "You must wear a helmet on the building site."},
+          {"word": "have to", "sentence": "Staff have to send their reports by Thursday."},
+          {"word": "should", "sentence": "You should keep your tools in order."}
+        ]
+      },
+      {
+        "title": "ladder vs stairs",
+        "words": ["ladder", "stairs"],
+        "explanation_ar": "ladder سلّم خفيف متنقّل نحمله بأيدينا من مكان لآخر لنصل إلى الأماكن العالية. stairs درج ثابت مبني داخل البيت أو العمارة.",
+        "examples": [
+          {"word": "ladder", "sentence": "He climbed the ladder to fix the roof."},
+          {"word": "stairs", "sentence": "Take the stairs to the second floor."}
+        ]
+      },
+      {
+        "title": "helmet vs hard hat",
+        "words": ["helmet", "hard hat"],
+        "explanation_ar": "الاثنان لحماية الرأس. hard hat خوذة العمال في مواقع البناء وهي أشيع في أمريكا. helmet كلمة عامة تُستخدم في كل مكان: البناء وركوب الدراجة والدراجة النارية.",
+        "examples": [
+          {"word": "hard hat", "sentence": "Visitors must put on a hard hat before entering the site."},
+          {"word": "helmet", "sentence": "Always wear a helmet when you ride a bike."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "have a screw loose", "meaning_ar": "عنده مسمار مفكوك في دماغه / تصرفاته غريبة وغير عاقلة", "example": "He climbed the ladder without holding it? He must have a screw loose!"},
+      {"phrase": "use the right tool for the job", "meaning_ar": "استخدم الأداة المناسبة للمهمة", "example": "Use the right tool for the job and you'll finish faster."},
+      {"phrase": "safety guidelines", "meaning_ar": "إرشادات السلامة", "example": "All new workers must follow the safety guidelines."},
+      {"phrase": "keep something organized", "meaning_ar": "يحافظ على ترتيب الشيء", "example": "Keep your desk organized so you can find things quickly."},
+      {"phrase": "out of paper / out of ink", "meaning_ar": "نفد الورق / نفد الحبر", "example": "The printer is out of ink again."}
+    ],
+    "grammar": [
+      {
+        "title": "must, have to and should",
+        "explanation_ar": "must للإلزام القاطع غالباً في قواعد السلامة. have to للإلزام الذي تفرضه الشركة أو القانون أو روتين العمل. should للنصيحة والتوجيه الإيجابي بلا عقاب. بعد الثلاثة يأتي الفعل في صورته الأساسية بدون to (ما عدا have to نفسها).",
+        "examples": ["You must wear gloves near the saw.", "We have to finish the report by Friday.", "You should update your computer every month."]
+      },
+      {
+        "title": "mustn't vs don't have to",
+        "explanation_ar": "في النفي يتغيّر المعنى تماماً. mustn't = ممنوع منعاً باتاً. don't have to = لست مضطراً، والأمر اختياري حسب رغبتك.",
+        "examples": ["You mustn't spill drinks near the charger. (ممنوع)", "You don't have to wear gloves in the office. (غير مضطر)"]
+      },
+      {
+        "title": "Uncountable nouns: software, equipment",
+        "explanation_ar": "بعض الأسماء غير معدودة فلا نضع قبلها a ولا نجمعها بـ s. نقول software و equipment، وإذا أردنا واحدة نقول a piece of.",
+        "examples": ["We need new software.", "a piece of equipment", "This equipment is expensive."]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "Which tool do you use to hit a nail?", "choices": ["a hammer", "a wrench", "a stapler", "a screwdriver"], "answer": 0, "explanation_ar": "المطرقة hammer هي التي ندقّ بها المسامير."},
+    {"question": "A bolt is usually fixed with a ___.", "choices": ["nail", "ladder", "nut", "marker"], "answer": 2, "explanation_ar": "المسمار السداسي bolt يُقفل بصامولة nut."},
+    {"question": "\"You don't have to wear gloves in the office\" means:", "choices": ["It is forbidden to wear gloves.", "You must wear gloves.", "You should wear gloves.", "Wearing gloves is your choice."], "answer": 3, "explanation_ar": "don't have to = لست مضطراً، الأمر اختياري."},
+    {"question": "Which sentence means \"it is forbidden\"?", "choices": ["You mustn't spill drinks near the charger.", "You don't have to spill drinks.", "You should spill drinks.", "You have to spill drinks."], "answer": 0, "explanation_ar": "mustn't = ممنوع منعاً باتاً."},
+    {"question": "Which is correct?", "choices": ["We bought a new software.", "We bought new softwares.", "We bought some new software.", "We bought a softwares."], "answer": 2, "explanation_ar": "software اسم غير معدود فلا نضع a ولا نجمعه."},
+    {"question": "A movable set of steps you carry to reach high places is a:", "choices": ["stairs", "toolbox", "drill", "ladder"], "answer": 3, "explanation_ar": "ladder سلّم متنقّل، أما stairs فدرج ثابت في المبنى."},
+    {"question": "Your friend's marker is very weak. You give advice: \"You ___ get a new one.\"", "choices": ["must", "should", "mustn't", "don't have to"], "answer": 1, "explanation_ar": "هذه نصيحة بسيطة وليست إلزاماً، فنستخدم should."},
+    {"question": "\"He has a screw loose\" means he:", "choices": ["is good at fixing things", "acts in a strange, crazy way", "has lost his tools", "works very hard"], "answer": 1, "explanation_ar": "have a screw loose = تصرفاته غريبة وغير عاقلة."},
+    {"question": "Which word has a silent letter?", "choices": ["drill", "wrench", "saw", "nut"], "answer": 1, "explanation_ar": "حرف w صامت في wrench."},
+    {"question": "Be careful not to ___ your coffee on the keyboard.", "choices": ["spill", "avoid", "update", "tighten"], "answer": 0, "explanation_ar": "spill = يسكب السائل بالخطأ."}
+  ]
+}

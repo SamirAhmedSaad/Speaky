@@ -1,0 +1,99 @@
+{
+  "title": "Travel Problems and Solutions",
+  "content": {
+    "vocabulary": [
+      {"word": "lost luggage", "pos": "noun", "meaning_en": "bags that do not arrive with you after a flight", "meaning_ar": "أمتعة مفقودة", "note_ar": "luggage غير معدود: لا نقول luggages", "example": "I reported my lost luggage at the airport desk."},
+      {"word": "missed flight", "pos": "noun", "meaning_en": "a flight you did not catch because you were late", "meaning_ar": "رحلة فائتة", "note_ar": "miss a flight = تفوته الطائرة", "example": "A traffic jam caused my missed flight."},
+      {"word": "delay", "pos": "noun", "meaning_en": "a time when something happens later than planned", "meaning_ar": "تأخير", "note_ar": "delayed = متأخر", "example": "There is a two-hour delay on our flight."},
+      {"word": "cancellation", "pos": "noun", "meaning_en": "when a planned event will not happen", "meaning_ar": "إلغاء", "note_ar": "cancel → cancelled / canceled", "example": "The storm caused many cancellations."},
+      {"word": "overbooking", "pos": "noun", "meaning_en": "selling more tickets than there are seats", "meaning_ar": "زيادة الحجز عن عدد المقاعد", "note_ar": "", "example": "Because of overbooking, two passengers couldn't fly."},
+      {"word": "traffic jam", "pos": "noun", "meaning_en": "a long line of cars that can't move", "meaning_ar": "ازدحام مروري", "note_ar": "", "example": "We were stuck in a traffic jam for an hour."},
+      {"word": "accident", "pos": "noun", "meaning_en": "an unexpected event that causes damage or injury", "meaning_ar": "حادث", "note_ar": "", "example": "Nobody was hurt in the accident."},
+      {"word": "sickness", "pos": "noun", "meaning_en": "the state of feeling ill", "meaning_ar": "حالة المرض / الشعور بالتعب", "note_ar": "مثل seasickness = دوار البحر", "example": "She felt sickness on the plane."},
+      {"word": "disease", "pos": "noun", "meaning_en": "a particular illness", "meaning_ar": "مرض (اسم المرض نفسه)", "note_ar": "", "example": "Malaria is a dangerous disease."},
+      {"word": "theft", "pos": "noun", "meaning_en": "the act of stealing something", "meaning_ar": "سرقة", "note_ar": "thief = لص", "example": "He reported the theft of his wallet."},
+      {"word": "emergency", "pos": "noun", "meaning_en": "a serious situation that needs quick action", "meaning_ar": "حالة طوارئ", "note_ar": "", "example": "In an emergency, call this number."},
+      {"word": "insurance", "pos": "noun", "meaning_en": "an agreement where a company pays you if something bad happens", "meaning_ar": "تأمين", "note_ar": "travel insurance = تأمين السفر", "example": "Always buy travel insurance before a long trip."},
+      {"word": "refund", "pos": "noun", "meaning_en": "money that is given back to you", "meaning_ar": "استرداد المال", "note_ar": "كفعل: refund = يردّ المال", "example": "I asked for a refund for my cancelled flight."},
+      {"word": "complaint", "pos": "noun", "meaning_en": "a statement that you are not happy with something", "meaning_ar": "شكوى", "note_ar": "complain (فعل) → complaint (اسم)", "example": "She made a complaint about the service."},
+      {"word": "replacement", "pos": "noun", "meaning_en": "something new that takes the place of something lost or broken", "meaning_ar": "بديل / استبدال", "note_ar": "replace = يستبدل", "example": "The airline gave me money for a replacement bag."},
+      {"word": "rebook", "pos": "verb", "meaning_en": "to make a completely new booking", "meaning_ar": "يعيد الحجز", "note_ar": "", "example": "You can rebook on the next available flight."},
+      {"word": "reschedule", "pos": "verb", "meaning_en": "to change the time of a planned event", "meaning_ar": "يعيد الجدولة / يغير الموعد", "note_ar": "", "example": "They rescheduled the meeting for Monday."},
+      {"word": "customer service", "pos": "noun", "meaning_en": "the department that helps customers with problems", "meaning_ar": "خدمة العملاء", "note_ar": "", "example": "Ask at the customer service desk."},
+      {"word": "first aid", "pos": "noun", "meaning_en": "quick medical help given to someone who is hurt or ill", "meaning_ar": "الإسعافات الأولية", "note_ar": "", "example": "He was taken to the first aid room."},
+      {"word": "stressful", "pos": "adjective", "meaning_en": "making you feel worried and under pressure", "meaning_ar": "مرهق / مسبب للتوتر", "note_ar": "stress → stressful", "example": "Moving house is very stressful."},
+      {"word": "safe", "pos": "adjective", "meaning_en": "not in danger", "meaning_ar": "آمن", "note_ar": "", "example": "Is it safe to travel at night?"},
+      {"word": "dangerous", "pos": "adjective", "meaning_en": "likely to cause harm", "meaning_ar": "خطير", "note_ar": "danger → dangerous", "example": "Driving in heavy rain is dangerous."},
+      {"word": "urgent", "pos": "adjective", "meaning_en": "needing attention immediately", "meaning_ar": "عاجل", "note_ar": "", "example": "I have an urgent message for the manager."},
+      {"word": "unexpected", "pos": "adjective", "meaning_en": "surprising, not planned", "meaning_ar": "غير متوقع", "note_ar": "un + expected", "example": "Sometimes the unexpected is part of the journey."},
+      {"word": "helpful", "pos": "adjective", "meaning_en": "willing to help", "meaning_ar": "متعاون / مفيد", "note_ar": "help → helpful", "example": "The airport staff were very helpful."},
+      {"word": "terminal", "pos": "noun", "meaning_en": "a building at an airport where passengers arrive and leave", "meaning_ar": "صالة الركاب (في المطار)", "note_ar": "", "example": "Our flight leaves from Terminal 2."},
+      {"word": "connection", "pos": "noun", "meaning_en": "a flight you take after another to reach your final place", "meaning_ar": "رحلة الربط / الترانزيت", "note_ar": "connecting flight = رحلة ربط", "example": "I only have one hour for my connection."},
+      {"word": "frustrated", "pos": "adjective", "meaning_en": "annoyed because you can't do what you want", "meaning_ar": "محبط ومنزعج", "note_ar": "", "example": "Frustrated travellers waited at the desk."},
+      {"word": "faint", "pos": "verb", "meaning_en": "to suddenly become unconscious for a short time", "meaning_ar": "يُغمى عليه", "note_ar": "", "example": "A passenger fainted because of the heat."},
+      {"word": "chaos", "pos": "noun", "meaning_en": "a situation with no order, where everything is confused", "meaning_ar": "فوضى", "note_ar": "تُنطق /ˈkeɪɒs/ و ch هنا تُنطق k", "example": "There was chaos at the airport after the storm."},
+      {"word": "track", "pos": "verb", "meaning_en": "to follow where something is", "meaning_ar": "يتتبّع", "note_ar": "", "example": "The airline tracked our bags."},
+      {"word": "barcode tag", "pos": "noun", "meaning_en": "a paper label with a barcode put on your bag at the airport", "meaning_ar": "ملصق الباركود على الحقيبة", "note_ar": "", "example": "Remove old barcode tags from your suitcase."}
+    ],
+    "fine_lines": [
+      {
+        "title": "reschedule vs rebook",
+        "words": ["reschedule", "rebook"],
+        "explanation_ar": "reschedule تغيير موعد نفس الحدث (اجتماع أو رحلة) دون إلغائه، فقط تأجيل أو تقديم. rebook حجز جديد تماماً برقم حجز وتذكرة جديدة، لأن الحجز الأول أُلغي أو فاتك.",
+        "examples": [
+          {"word": "reschedule", "sentence": "My flight was delayed, so they rescheduled it for 5 p.m."},
+          {"word": "rebook", "sentence": "I missed my flight, so I had to rebook a new one."}
+        ]
+      },
+      {
+        "title": "accident vs incident",
+        "words": ["accident", "incident"],
+        "explanation_ar": "incident أي حدث غير معتاد يسبب ضجة أو يعطّل اليوم، ولا يشترط وجود إصابات (مثل شجار في المطار أو ضياع حقيبة). accident حادث غير متوقع فيه أضرار أو إصابات (مثل حادث سيارة). كل accident هو incident، لكن ليس كل incident هو accident.",
+        "examples": [
+          {"word": "accident", "sentence": "Two people were injured in the car accident."},
+          {"word": "incident", "sentence": "There was a small incident at the gate, but nobody was hurt."}
+        ]
+      },
+      {
+        "title": "sickness vs disease",
+        "words": ["sickness", "disease"],
+        "explanation_ar": "disease هو المرض نفسه باسمه (مثل الإنفلونزا). sickness هو حالة الشعور بالمرض أو التعب (مثل دوار البحر أو الجو).",
+        "examples": [
+          {"word": "sickness", "sentence": "Travel sickness made him feel terrible on the bus."},
+          {"word": "disease", "sentence": "Doctors are studying this disease."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "up in the air", "meaning_ar": "غير مؤكد / معلّق ولم يُحسم بعد", "example": "Our holiday plans are still up in the air."},
+      {"phrase": "to make matters worse", "meaning_ar": "ومما زاد الطين بلّة", "example": "We missed the bus, and to make matters worse, it started to rain."},
+      {"phrase": "a chain of problems", "meaning_ar": "سلسلة من المشاكل", "example": "The storm caused a chain of problems."},
+      {"phrase": "fill out a form", "meaning_ar": "يملأ استمارة", "example": "Please fill out this complaint form."},
+      {"phrase": "nearly miss", "meaning_ar": "كاد أن يفوته", "example": "We nearly missed the train."},
+      {"phrase": "sum it up", "meaning_ar": "يلخّص الأمر", "example": "To sum it up, travel is always an adventure."}
+    ],
+    "grammar": [
+      {
+        "title": "Action verbs vs state verbs",
+        "explanation_ar": "أغلب الأفعال أفعال حركة (run, eat, travel) ويمكن استخدامها في الأزمنة المستمرة. لكن أفعال الحالة تصف شعوراً أو تفكيراً أو امتلاكاً، وليس فيها حركة تراها، لذلك لا نضيف لها ing عادة. من أشهرها: need, want, like, love, hate, know, believe, own, have (يمتلك).",
+        "examples": [
+          "I need a refund. (not: I am needing)",
+          "I know the answer. (not: I am knowing)",
+          "I have travel insurance. (not: I am having)"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "My flight was cancelled, so I need to make a completely new booking. I need to:", "choices": ["reschedule", "rebook", "refund", "replace"], "answer": 1, "explanation_ar": "rebook = حجز جديد تماماً."},
+    {"question": "The meeting is not cancelled; we just changed it to Monday. We ___ it.", "choices": ["rescheduled", "rebooked", "refunded", "cancelled"], "answer": 0, "explanation_ar": "reschedule = تغيير موعد نفس الحدث."},
+    {"question": "There was a small argument at the gate, but no one was hurt. It was an:", "choices": ["accident", "emergency", "insurance", "incident"], "answer": 3, "explanation_ar": "incident حدث بدون إصابات بالضرورة."},
+    {"question": "Which sentence is correct?", "choices": ["I am needing a refund.", "I needing a refund.", "I need a refund.", "I am need a refund."], "answer": 2, "explanation_ar": "need فعل حالة لا يأخذ ing."},
+    {"question": "\"Our plans are still up in the air\" means:", "choices": ["the plans are not decided yet", "we are on a plane", "the plans are finished", "the plans are very exciting"], "answer": 0, "explanation_ar": "up in the air = غير مؤكد ولم يُحسم."},
+    {"question": "Money that is given back to you is a:", "choices": ["complaint", "refund", "delay", "theft"], "answer": 1, "explanation_ar": "refund = استرداد المال."},
+    {"question": "When an airline sells more tickets than there are seats, it is called:", "choices": ["overbooking", "cancellation", "connection", "chaos"], "answer": 0, "explanation_ar": "overbooking = زيادة الحجز عن المقاعد."},
+    {"question": "Quick medical help for someone who is hurt is:", "choices": ["customer service", "insurance", "first aid", "replacement"], "answer": 2, "explanation_ar": "first aid = الإسعافات الأولية."},
+    {"question": "Which word is the opposite of \"safe\"?", "choices": ["helpful", "urgent", "unexpected", "dangerous"], "answer": 3, "explanation_ar": "dangerous = خطير، عكس safe."},
+    {"question": "Seasickness and travel sickness are types of:", "choices": ["disease names", "sickness (feeling ill)", "accidents", "theft"], "answer": 1, "explanation_ar": "sickness = حالة الشعور بالمرض أو التعب."}
+  ]
+}

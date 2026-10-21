@@ -1,0 +1,109 @@
+{
+  "title": "Workplace Challenges and Solutions",
+  "content": {
+    "vocabulary": [
+      {"word": "stress", "pos": "noun", "meaning_en": "a feeling of worry and pressure caused by too much work or problems", "meaning_ar": "ضغط نفسي / توتّر", "note_ar": "stressful = مُجهِد، stressed = متوتّر", "example": "Tight deadlines cause a lot of stress."},
+      {"word": "pressure", "pos": "noun", "meaning_en": "the feeling that you must do a lot quickly", "meaning_ar": "ضغط", "note_ar": "work pressure = ضغط العمل؛ under pressure = تحت الضغط", "example": "He works well under pressure."},
+      {"word": "conflict", "pos": "noun", "meaning_en": "a serious disagreement between people or groups", "meaning_ar": "صراع / نزاع", "note_ar": "", "example": "There is a long conflict between the two departments."},
+      {"word": "argument", "pos": "noun", "meaning_en": "an angry talk where people disagree loudly", "meaning_ar": "مشادّة كلامية / جدال", "note_ar": "من الفعل argue؛ لاحظ حذف e: argue → argument", "example": "They had an argument about who made the mistake."},
+      {"word": "misunderstanding", "pos": "noun", "meaning_en": "when people understand something in the wrong way", "meaning_ar": "سوء فهم", "note_ar": "mis = خطأ + understanding = فهم", "example": "The problem started with a small misunderstanding."},
+      {"word": "delay", "pos": "noun", "meaning_en": "when something happens later than planned", "meaning_ar": "تأخير", "note_ar": "delay كفعل = يؤجّل / يؤخّر", "example": "The client was unhappy about the delay."},
+      {"word": "mistake", "pos": "noun", "meaning_en": "something done wrong by accident", "meaning_ar": "خطأ (غير مقصود)", "note_ar": "نقول make a mistake وليس do a mistake", "example": "I made a mistake in the email."},
+      {"word": "fault", "pos": "noun", "meaning_en": "a technical problem; also the responsibility for something bad", "meaning_ar": "عطل / ذنب (المسؤولية عن خطأ)", "note_ar": "Whose fault is it? = من المسؤول / على من اللوم؟", "example": "There is a fault in the computer system."},
+      {"word": "failure", "pos": "noun", "meaning_en": "lack of success", "meaning_ar": "إخفاق / عدم نجاح", "note_ar": "من الفعل fail", "example": "In good companies, failure is a chance to learn."},
+      {"word": "unemployment", "pos": "noun", "meaning_en": "the state of having no job", "meaning_ar": "البطالة", "note_ar": "unemployed = عاطل عن العمل", "example": "Unemployment is high in some areas."},
+      {"word": "resignation", "pos": "noun", "meaning_en": "officially leaving your job", "meaning_ar": "استقالة", "note_ar": "resign = يستقيل؛ حرف g صامت في resign", "example": "Ali handed in his resignation on Monday."},
+      {"word": "solution", "pos": "noun", "meaning_en": "a way to fix a problem", "meaning_ar": "حل", "note_ar": "من الفعل solve", "example": "We need a quick solution to this problem."},
+      {"word": "advice", "pos": "noun", "meaning_en": "an opinion about what someone should do", "meaning_ar": "نصيحة", "note_ar": "اسم غير معدود: لا نقول an advice ولا advices، بل a piece of advice. الفعل advise بحرف s", "example": "My manager gave me some good advice."},
+      {"word": "support", "pos": "noun", "meaning_en": "help and encouragement", "meaning_ar": "دعم / مساندة", "note_ar": "", "example": "The team needs more support during busy weeks."},
+      {"word": "meeting", "pos": "noun", "meaning_en": "a time when people come together to talk", "meaning_ar": "اجتماع", "note_ar": "نقول call a meeting أو hold a meeting وليس make a meeting", "example": "The boss called a meeting this morning."},
+      {"word": "feedback", "pos": "noun", "meaning_en": "comments about how well someone did something", "meaning_ar": "ملاحظات / تقييم", "note_ar": "اسم غير معدود", "example": "The supervisor gave me useful feedback."},
+      {"word": "training", "pos": "noun", "meaning_en": "teaching people the skills for a job", "meaning_ar": "تدريب", "note_ar": "", "example": "New staff get two weeks of training."},
+      {"word": "improvement", "pos": "noun", "meaning_en": "a change that makes something better", "meaning_ar": "تحسين / تحسّن", "note_ar": "من الفعل improve", "example": "There has been a big improvement in sales."},
+      {"word": "cooperation", "pos": "noun", "meaning_en": "working together to reach a goal", "meaning_ar": "تعاون", "note_ar": "cooperate = يتعاون", "example": "Without cooperation, the project will fail."},
+      {"word": "boss", "pos": "noun", "meaning_en": "the person in charge of you at work", "meaning_ar": "المدير / الرئيس", "note_ar": "", "example": "My boss is very fair."},
+      {"word": "colleague", "pos": "noun", "meaning_en": "a person you work with", "meaning_ar": "زميل عمل", "note_ar": "تُنطق /ˈkɒliːɡ/ والـ ue في آخرها صامتة", "example": "I had lunch with my colleagues."},
+      {"word": "supervisor", "pos": "noun", "meaning_en": "a person who watches and directs other workers", "meaning_ar": "مشرف", "note_ar": "", "example": "Ask your supervisor before you leave early."},
+      {"word": "employee", "pos": "noun", "meaning_en": "a person who works for a company", "meaning_ar": "موظف", "note_ar": "employer = صاحب العمل", "example": "The company has 50 employees."},
+      {"word": "difficult", "pos": "adjective", "meaning_en": "hard and tiring to do", "meaning_ar": "صعب", "note_ar": "", "example": "It was a difficult week for everyone."},
+      {"word": "challenging", "pos": "adjective", "meaning_en": "hard but interesting, helping you grow", "meaning_ar": "مليء بالتحدي (صعب لكنه مفيد)", "note_ar": "challenge = تحدٍّ", "example": "The new project is challenging, but I'm learning a lot."},
+      {"word": "negative", "pos": "adjective", "meaning_en": "always seeing the bad side of things", "meaning_ar": "سلبي", "note_ar": "", "example": "One negative person can affect the whole team."},
+      {"word": "positive", "pos": "adjective", "meaning_en": "hopeful and seeing the good side of things", "meaning_ar": "إيجابي / متفائل", "note_ar": "", "example": "Try to stay positive during hard times."},
+      {"word": "supportive", "pos": "adjective", "meaning_en": "giving help and encouragement", "meaning_ar": "داعم / مساند", "note_ar": "", "example": "My colleagues were very supportive when I was ill."},
+      {"word": "frustration", "pos": "noun", "meaning_en": "the feeling of being upset because you can't do or change something", "meaning_ar": "إحباط", "note_ar": "frustrated = محبَط", "example": "The long delays caused frustration among the staff."},
+      {"word": "overcome", "pos": "verb", "meaning_en": "to succeed in dealing with a problem", "meaning_ar": "يتغلّب على", "note_ar": "الماضي overcame", "example": "The team overcame the crisis together."},
+      {"word": "deadline", "pos": "noun", "meaning_en": "the last date to finish something", "meaning_ar": "الموعد النهائي", "note_ar": "tight deadline = موعد نهائي ضيّق", "example": "We have a tight deadline this week."}
+    ],
+    "fine_lines": [
+      {
+        "title": "argument vs conflict",
+        "words": ["argument", "conflict"],
+        "explanation_ar": "الاثنان خلاف لكن على مستوى مختلف. argument مشادّة كلامية بصوت عالٍ تسمعها أمامك في الممر أو المكتب وقد تنتهي بعد دقائق. conflict صراع عميق وتصادم في المصالح أو الأهداف، وقد يستمر شهوراً في صمت دون أن يرفع أحد صوته.",
+        "examples": [
+          {"word": "argument", "sentence": "I heard an argument in the hallway."},
+          {"word": "conflict", "sentence": "The conflict between the two managers lasted for months."}
+        ]
+      },
+      {
+        "title": "mistake vs fault",
+        "words": ["mistake", "fault"],
+        "explanation_ar": "mistake خطأ عفوي غير مقصود سببه العجلة أو السهو أو التعب، مثل حرف خطأ في إيميل. fault له معنيان: عطل تقني في جهاز أو نظام، أو المسؤولية واللوم عن مشكلة. عندما يسأل الناس Whose fault is it? فهم لا يسألون ماذا حدث، بل من المسؤول.",
+        "examples": [
+          {"word": "mistake", "sentence": "Sorry, I made a mistake in your name."},
+          {"word": "fault", "sentence": "The machine stopped because of an electrical fault."},
+          {"word": "fault", "sentence": "It's not my fault the report was late."}
+        ]
+      },
+      {
+        "title": "difficult vs challenging",
+        "words": ["difficult", "challenging"],
+        "explanation_ar": "difficult صعب ومُتعب فقط. challenging صعب أيضاً لكنه ممتع ومفيد، يدفعك لتتجاوز حدودك وتتطوّر وتثبت نفسك. لذلك challenging كلمة أكثر إيجابية.",
+        "examples": [
+          {"word": "difficult", "sentence": "It was difficult to sleep with all that noise."},
+          {"word": "challenging", "sentence": "My new role is challenging, and I love it."}
+        ]
+      },
+      {
+        "title": "advice vs advise",
+        "words": ["advice", "advise"],
+        "explanation_ar": "advice بحرف c اسم غير معدود = نصيحة، ولا نقول an advice. advise بحرف s فعل = ينصح، ويُنطق بصوت z.",
+        "examples": [
+          {"word": "advice", "sentence": "Let me give you a piece of advice."},
+          {"word": "advise", "sentence": "I advise you to talk to HR."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "see eye to eye", "meaning_ar": "يتّفق تماماً مع شخص / يرى الأمر بنفس الطريقة", "example": "After a long meeting, the team finally saw eye to eye on the plan."},
+      {"phrase": "call a meeting", "meaning_ar": "يدعو إلى اجتماع", "example": "The manager called a meeting to discuss the delay."},
+      {"phrase": "turn into", "meaning_ar": "يتحوّل إلى", "example": "A small argument turned into a big conflict."},
+      {"phrase": "a piece of advice", "meaning_ar": "نصيحة واحدة", "example": "Here's a piece of advice: always check your work."},
+      {"phrase": "under pressure", "meaning_ar": "تحت الضغط", "example": "She stays calm under pressure."},
+      {"phrase": "in the end", "meaning_ar": "في النهاية (بعد رحلة طويلة)", "example": "In the end, the project was a success."}
+    ],
+    "grammar": [
+      {
+        "title": "was / were going to: plans that didn't happen",
+        "explanation_ar": "نستخدم was/were going to + الفعل في صورته الأساسية للتعبير عن نيّة أو خطة كانت في أذهاننا في الماضي، لكن شيئاً حدث فمنعها. غالباً تأتي بعدها but وسبب التغيير.",
+        "examples": ["I was going to send the report, but I found a mistake.", "They were going to launch the project on Monday, but there was a delay.", "We were going to cancel it, but we saw eye to eye."]
+      },
+      {
+        "title": "Uncountable nouns: advice, feedback",
+        "explanation_ar": "advice و feedback اسمان غير معدودين، فلا نضع قبلهما a ولا نجمعهما. نقول some advice أو a piece of advice.",
+        "examples": ["She gave me some useful advice.", "Thanks for your feedback.", "Can I give you a piece of advice?"]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "Two colleagues are shouting at each other in the hallway. This is an:", "choices": ["agreement", "argument", "improvement", "allowance"], "answer": 1, "explanation_ar": "argument مشادّة كلامية بصوت عالٍ."},
+    {"question": "Choose the correct sentence.", "choices": ["She gave me an advice.", "She gave me some advices.", "She gave me a good advice.", "She gave me a piece of advice."], "answer": 3, "explanation_ar": "advice غير معدود فنقول a piece of advice."},
+    {"question": "I ___ call you, but my phone died.", "choices": ["was going to", "am going to", "will", "going to"], "answer": 0, "explanation_ar": "خطة في الماضي لم تحدث = was going to."},
+    {"question": "\"We finally see eye to eye\" means we:", "choices": ["look at each other", "argue all the time", "agree completely", "work in the same office"], "answer": 2, "explanation_ar": "see eye to eye = يتّفق تماماً."},
+    {"question": "The computer stopped because of a technical ___.", "choices": ["fault", "advice", "feedback", "pension"], "answer": 0, "explanation_ar": "fault = عطل تقني."},
+    {"question": "The manager ___ a meeting to solve the problem.", "choices": ["made", "did", "called", "said"], "answer": 2, "explanation_ar": "نقول call a meeting وليس make a meeting."},
+    {"question": "A task that is hard but helps you grow is:", "choices": ["negative", "challenging", "unemployed", "frustrated"], "answer": 1, "explanation_ar": "challenging صعب لكنه ممتع ومفيد."},
+    {"question": "A deep, long disagreement between two departments is a:", "choices": ["mistake", "meeting", "solution", "conflict"], "answer": 3, "explanation_ar": "conflict صراع عميق قد يستمر طويلاً."},
+    {"question": "Ali was unhappy at work, so he wrote a letter to his boss and handed in his ___.", "choices": ["retirement", "training", "resignation", "cooperation"], "answer": 2, "explanation_ar": "resignation = استقالة."},
+    {"question": "\"They ___ to open the new branch, but they didn't have enough money.\"", "choices": ["are going", "were going", "will go", "go"], "answer": 1, "explanation_ar": "were going to لخطة في الماضي لم تتحقق."}
+  ]
+}

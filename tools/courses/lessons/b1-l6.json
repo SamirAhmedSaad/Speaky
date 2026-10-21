@@ -1,0 +1,141 @@
+{
+  "title": "Customer Service and Complaints",
+  "content": {
+    "vocabulary": [
+      {"word": "complaint", "pos": "noun", "meaning_en": "a statement that something is wrong or not good enough", "meaning_ar": "شكوى", "note_ar": "من الفعل complain = يشتكي؛ نقول make a complaint وليس do", "example": "I made a complaint about the noise."},
+      {"word": "complain", "pos": "verb", "meaning_en": "to say that you are not happy about something", "meaning_ar": "يشتكي", "note_ar": "complain about something", "example": "He complained about the cold food."},
+      {"word": "customer service", "pos": "noun", "meaning_en": "the team that helps customers", "meaning_ar": "خدمة العملاء", "note_ar": "", "example": "Customer service answered my email quickly."},
+      {"word": "guarantee", "pos": "noun / verb", "meaning_en": "a promise that something is good or will happen", "meaning_ar": "ضمان (وعد) / يضمن", "note_ar": "under guarantee تعبير بريطاني", "example": "I guarantee you'll love this pizza."},
+      {"word": "warranty", "pos": "noun", "meaning_en": "a written legal promise to repair or replace a product", "meaning_ar": "كفالة / ضمان مكتوب", "note_ar": "", "example": "My laptop is still under warranty."},
+      {"word": "receipt", "pos": "noun", "meaning_en": "a paper that proves you paid", "meaning_ar": "إيصال", "note_ar": "حرف p صامت", "example": "Keep the receipt in case it breaks."},
+      {"word": "refund", "pos": "noun", "meaning_en": "money paid back to you", "meaning_ar": "استرداد المال", "note_ar": "", "example": "I asked for a full refund."},
+      {"word": "return", "pos": "verb / noun", "meaning_en": "to take or send something back", "meaning_ar": "يُرجِع / إرجاع", "note_ar": "", "example": "You can return it within 30 days."},
+      {"word": "exchange", "pos": "noun / verb", "meaning_en": "giving something back and getting another", "meaning_ar": "استبدال", "note_ar": "", "example": "They offered me an exchange instead of a refund."},
+      {"word": "repair", "pos": "verb / noun", "meaning_en": "to fix something that is broken", "meaning_ar": "يُصلح / إصلاح", "note_ar": "مثل fix", "example": "Can you repair my phone screen?"},
+      {"word": "broken", "pos": "adjective", "meaning_en": "not working; in pieces", "meaning_ar": "مكسور / عطلان", "note_ar": "", "example": "The lift is broken again."},
+      {"word": "damaged", "pos": "adjective", "meaning_en": "harmed, so it is not in good condition", "meaning_ar": "تالف / متضرر", "note_ar": "أشد من broken", "example": "The box arrived damaged."},
+      {"word": "faulty", "pos": "adjective", "meaning_en": "not working because of a problem from the factory", "meaning_ar": "معيب / به عيب مصنعي", "note_ar": "fault = خطأ / عيب؛ ليس خطأ المستخدم", "example": "The charger was faulty, so I sent it back."},
+      {"word": "replace", "pos": "verb", "meaning_en": "to put a new thing in place of an old one", "meaning_ar": "يستبدل / يحلّ محل", "note_ar": "", "example": "We can't repair it, but we'll replace it."},
+      {"word": "policy", "pos": "noun", "meaning_en": "a set of rules a company follows", "meaning_ar": "سياسة (متجر أو شركة)", "note_ar": "تختلف عن politics = سياسة الدول", "example": "What is your return policy?"},
+      {"word": "manager", "pos": "noun", "meaning_en": "the person in charge of a shop or team", "meaning_ar": "مدير", "note_ar": "من manage = يدير", "example": "I'd like to speak to the manager."},
+      {"word": "assistant", "pos": "noun", "meaning_en": "a person who helps someone or works in a shop", "meaning_ar": "مساعد", "note_ar": "من assist = يساعد؛ shop assistant = بائع في محل", "example": "The shop assistant helped me find my size."},
+      {"word": "service desk", "pos": "noun", "meaning_en": "the place in a shop where staff help customers", "meaning_ar": "مكتب الخدمة", "note_ar": "", "example": "Ask at the service desk on the ground floor."},
+      {"word": "hotline", "pos": "noun", "meaning_en": "a phone number for quick help", "meaning_ar": "الخط الساخن", "note_ar": "", "example": "Call our 24-hour hotline."},
+      {"word": "feedback", "pos": "noun", "meaning_en": "your opinion that helps someone improve", "meaning_ar": "ملاحظات / رأي / تغذية راجعة", "note_ar": "feed = يغذّي + back = يرجع", "example": "Thanks for your feedback on our app."},
+      {"word": "satisfaction", "pos": "noun", "meaning_en": "the feeling of being happy with something", "meaning_ar": "رضا", "note_ar": "من satisfy = يُرضي؛ customer satisfaction = رضا العملاء", "example": "Customer satisfaction is our priority."},
+      {"word": "apology", "pos": "noun", "meaning_en": "words saying you are sorry", "meaning_ar": "اعتذار", "note_ar": "الفعل apologise / apologize = يعتذر", "example": "We received a letter of apology."},
+      {"word": "delay", "pos": "noun / verb", "meaning_en": "a time when something is late; to make late", "meaning_ar": "تأخير / يؤخّر", "note_ar": "", "example": "Sorry for the delay."},
+      {"word": "mistake", "pos": "noun", "meaning_en": "something done wrongly", "meaning_ar": "خطأ", "note_ar": "", "example": "There's a mistake on my bill."},
+      {"word": "problem", "pos": "noun", "meaning_en": "something that causes difficulty", "meaning_ar": "مشكلة", "note_ar": "عكسها solution = حل", "example": "Ali explained his problem to the agent."},
+      {"word": "solution", "pos": "noun", "meaning_en": "a way to fix a problem", "meaning_ar": "حل", "note_ar": "", "example": "We need a quick solution."},
+      {"word": "response", "pos": "noun", "meaning_en": "an answer or reaction", "meaning_ar": "رد / استجابة", "note_ar": "الفعل respond = يرد / يستجيب", "example": "They promised a quick response."},
+      {"word": "form", "pos": "noun", "meaning_en": "a paper or page with spaces to write information", "meaning_ar": "استمارة", "note_ar": "", "example": "Please fill in this form."},
+      {"word": "call centre / center", "pos": "noun", "meaning_en": "an office where people answer customer calls", "meaning_ar": "مركز اتصال", "note_ar": "centre بريطاني، center أمريكي", "example": "She works in a call centre."},
+      {"word": "agent", "pos": "noun", "meaning_en": "a person who answers customers for a company", "meaning_ar": "موظف / مندوب خدمة", "note_ar": "", "example": "The agent gave me a reference number."},
+      {"word": "reach", "pos": "verb", "meaning_en": "to manage to speak to someone or arrive somewhere", "meaning_ar": "يصل إلى", "note_ar": "", "example": "I couldn't reach anyone on the phone."},
+      {"word": "fill in / fill out", "pos": "phrasal verb", "meaning_en": "to write information in a form", "meaning_ar": "يملأ (استمارة)", "note_ar": "fill in بريطاني، fill out أمريكي", "example": "Fill out the form and sign it."},
+      {"word": "frustrated", "pos": "adjective", "meaning_en": "very annoyed because you can't change a situation", "meaning_ar": "محبط / مستشيط غضباً", "note_ar": "الاسم frustration", "example": "I was frustrated after two hours on hold."},
+      {"word": "angry", "pos": "adjective", "meaning_en": "feeling strong displeasure", "meaning_ar": "غاضب", "note_ar": "", "example": "Angry, Ali went back to the market."},
+      {"word": "nervous", "pos": "adjective", "meaning_en": "worried and a little afraid", "meaning_ar": "متوتر", "note_ar": "", "example": "A nervous assistant answered the phone."},
+      {"word": "adventure", "pos": "noun", "meaning_en": "an exciting or unusual experience", "meaning_ar": "مغامرة", "note_ar": "", "example": "Our trip was a real adventure."},
+      {"word": "stay away from", "pos": "phrasal verb", "meaning_en": "to not go near something", "meaning_ar": "يبتعد عن", "note_ar": "", "example": "Next time, I'll stay away from glowing stalls."}
+    ],
+    "fine_lines": [
+      {
+        "title": "guarantee vs warranty",
+        "words": ["guarantee", "warranty"],
+        "explanation_ar": "guarantee وعد بأن المنتج جيد أو أن شيئاً سيحدث، قد تسمعه في إعلان أو من البائع، وليس عقداً قانونياً، ويمكن استخدامه في أي شيء. warranty وثيقة أو عقد قانوني مكتوب ومحدد بمدة، تلتزم فيه الشركة بإصلاح المنتج أو استبداله أو رد المال. لذلك عندما قال البائع under guarantee فهم علي أنه مجرد وعد بدون شهادة ضمان.",
+        "examples": [
+          {"word": "guarantee", "sentence": "I guarantee you'll like this pizza."},
+          {"word": "warranty", "sentence": "The TV has a two-year warranty, so they repaired it for free."}
+        ]
+      },
+      {
+        "title": "broken vs damaged vs faulty",
+        "words": ["broken", "damaged", "faulty"],
+        "explanation_ar": "broken مكسور أو لا يعمل. damaged تالف وفيه ضرر أكبر. faulty به عيب من المصنع، أي ليس المستخدم من كسره، لذلك يحق لك غالباً الإرجاع أو الاستبدال.",
+        "examples": [
+          {"word": "broken", "sentence": "I dropped my glasses and now they're broken."},
+          {"word": "damaged", "sentence": "The car was badly damaged in the accident."},
+          {"word": "faulty", "sentence": "The new watch was faulty and stopped working the next day."}
+        ]
+      },
+      {
+        "title": "policy vs politics",
+        "words": ["policy", "politics"],
+        "explanation_ar": "policy مجموعة قواعد تتبعها شركة أو متجر (سياسة الإرجاع مثلاً). politics سياسة الدول والحكومات والأحزاب.",
+        "examples": [
+          {"word": "policy", "sentence": "The shop's policy allows exchanges within 14 days."},
+          {"word": "politics", "sentence": "He's not interested in politics."}
+        ]
+      },
+      {
+        "title": "make vs do (collocations)",
+        "words": ["make", "do"],
+        "explanation_ar": "بعض الكلمات تأتي مع فعل معين دائماً كمتلازمة لفظية (collocation)، مثل «خطأ فادح» في العربية. نقول make a complaint و make the bed و make a mistake، ولا نقول do a complaint. احفظها كما هي.",
+        "examples": [
+          {"word": "make", "sentence": "Ali made a formal complaint."},
+          {"word": "make", "sentence": "Make your bed before you leave."},
+          {"word": "do", "sentence": "I do my homework every evening."}
+        ]
+      },
+      {
+        "title": "fill in vs fill out",
+        "words": ["fill in", "fill out"],
+        "explanation_ar": "نفس المعنى (يملأ بيانات استمارة). fill in أشيع في بريطانيا، و fill out أشيع في أمريكا.",
+        "examples": [
+          {"word": "fill in", "sentence": "Please fill in your name and address."},
+          {"word": "fill out", "sentence": "The agent gave him a form to fill out."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "give someone the runaround", "meaning_ar": "يماطل شخصاً / يراوغه ولا يعطيه جواباً واضحاً", "example": "The company gave me the runaround when I asked for a refund."},
+      {"phrase": "make a complaint", "meaning_ar": "يقدّم شكوى", "example": "I want to make a complaint about the service."},
+      {"phrase": "under guarantee / under warranty", "meaning_ar": "تحت الضمان", "example": "Is the phone still under warranty?"},
+      {"phrase": "a letter of apology", "meaning_ar": "خطاب اعتذار", "example": "The hotel sent us a letter of apology."},
+      {"phrase": "or at least", "meaning_ar": "أو على الأقل", "example": "I want a refund, or at least an exchange."},
+      {"phrase": "a happy ending", "meaning_ar": "نهاية سعيدة", "example": "After many mistakes, the story had a happy ending."},
+      {"phrase": "the adventure was over", "meaning_ar": "انتهت المغامرة", "example": "We got home safely, and the adventure was over."}
+    ],
+    "grammar": [
+      {
+        "title": "Reported questions with question words",
+        "explanation_ar": "في السؤال الحقيقي يأتي الفعل المساعد بعد أداة الاستفهام (Where is the key?). لكن في الكلام المنقول لا نسأل، بل نحكي ما حدث، فتصبح أداة الاستفهام رابطاً فقط ويأتي بعدها الفاعل ثم الفعل، بدون علامة استفهام، مع الحفاظ على زمن الماضي. ونغيّر الضمائر منطقياً كما في العربية.",
+        "examples": [
+          "Ali asked, \"Where is the key?\" → Ali asked where the key was.",
+          "\"How does it work?\" → She asked how it worked.",
+          "Mona asked, \"Where is my school bag?\" → Mona asked where her school bag was."
+        ]
+      },
+      {
+        "title": "Starting a sentence with an adjective (literary style)",
+        "explanation_ar": "الكاتب المحترف يبدأ أحياناً بالصفة ثم فاصلة ثم الجملة، ليرسم الحالة النفسية للبطل قبل الفعل (مثل الحال في العربية: «غاضباً، عاد علي إلى السوق»). الفاصلة بعد الصفة ضرورية.",
+        "examples": [
+          "Angry, Ali went back to the market.",
+          "Frustrated, he spoke to the manager.",
+          "Sad and alone, the boy sat in the dark."
+        ]
+      },
+      {
+        "title": "Reported speech: keep the past tense",
+        "explanation_ar": "عند نقل كلام في الماضي نحافظ على الزمن: can تصبح could و will تصبح would. ونضع فاصلة قبل but عند ربط جملتين.",
+        "examples": [
+          "\"We can't repair it, but we will replace it.\" → The manager told Ali (that) they couldn't repair it, but they would replace it."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "A written legal promise to repair a product for a fixed time is a:", "choices": ["guarantee", "warranty", "receipt", "policy"], "answer": 1, "explanation_ar": "warranty عقد قانوني مكتوب ومحدد بمدة، أما guarantee فهي وعد."},
+    {"question": "Ali wanted to ___ a complaint.", "choices": ["do", "take", "make", "give"], "answer": 2, "explanation_ar": "المتلازمة الصحيحة: make a complaint."},
+    {"question": "The watch stopped working because of a problem from the factory. It was:", "choices": ["faulty", "elegant", "satisfied", "frustrated"], "answer": 0, "explanation_ar": "faulty = به عيب مصنعي."},
+    {"question": "Ali asked, \"Where is the key?\" → Ali asked ___.", "choices": ["where was the key", "where is the key?", "where the key was", "the key where was"], "answer": 2, "explanation_ar": "في السؤال المنقول يأتي الفاعل ثم الفعل بعد أداة الاستفهام، مع الحفاظ على الماضي."},
+    {"question": "Which sentence uses the literary style correctly?", "choices": ["Angry Ali went back to the market.", "Angry, Ali went back to the market.", "Ali angry, went back to the market.", "Angrily, Ali angry went back."], "answer": 1, "explanation_ar": "نبدأ بالصفة ثم فاصلة ثم الجملة الأساسية."},
+    {"question": "\"What is your return ___?\" (the shop's rules)", "choices": ["politics", "policy", "police", "polite"], "answer": 1, "explanation_ar": "policy = سياسة المتجر، أما politics فسياسة الدول."},
+    {"question": "The company kept delaying and never gave me a clear answer. They gave me the ___.", "choices": ["runaround", "feedback", "hotline", "receipt"], "answer": 0, "explanation_ar": "give someone the runaround = يماطل ويراوغ."},
+    {"question": "In American English, you usually ___ a form.", "choices": ["fill on", "fill up", "fill at", "fill out"], "answer": 3, "explanation_ar": "fill out أمريكي، fill in بريطاني."},
+    {"question": "The manager said, \"We can't repair it.\" → The manager said they ___ repair it.", "choices": ["can't", "couldn't", "won't", "don't"], "answer": 1, "explanation_ar": "نحافظ على زمن الماضي: can't تصبح couldn't."},
+    {"question": "\"Satisfaction\" comes from the verb:", "choices": ["satisfy", "sat", "satisfied", "satisfying"], "answer": 0, "explanation_ar": "satisfy = يُرضي، و satisfaction = الرضا."}
+  ]
+}

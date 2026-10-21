@@ -1,0 +1,150 @@
+{
+  "title": "Online Shopping",
+  "content": {
+    "vocabulary": [
+      {"word": "website", "pos": "noun", "meaning_en": "a group of pages on the internet", "meaning_ar": "موقع إلكتروني", "note_ar": "web = شبكة، site = موقع؛ وكأن الإنترنت عالم حقيقي تزور فيه مكاناً", "example": "I bought this lamp from a small website."},
+      {"word": "app", "pos": "noun", "meaning_en": "a program on a phone or computer", "meaning_ar": "تطبيق", "note_ar": "اختصار لكلمة application", "example": "Download the app to track your order."},
+      {"word": "account", "pos": "noun", "meaning_en": "your personal record on a website or in a bank", "meaning_ar": "حساب", "note_ar": "أصلها مالي: bank account، ومنها accountant = محاسب", "example": "You need an account to save your address."},
+      {"word": "password", "pos": "noun", "meaning_en": "a secret word you use to enter your account", "meaning_ar": "كلمة المرور", "note_ar": "", "example": "Never share your password with anyone."},
+      {"word": "login", "pos": "noun", "meaning_en": "the act of entering your account", "meaning_ar": "تسجيل الدخول", "note_ar": "كاسم كلمة واحدة login، وكفعل كلمتان log in", "example": "The login page is not working."},
+      {"word": "log in", "pos": "phrasal verb", "meaning_en": "to enter your account with your name and password", "meaning_ar": "يسجّل الدخول", "note_ar": "", "example": "Log in to see your past orders."},
+      {"word": "sign up", "pos": "phrasal verb", "meaning_en": "to create a new account", "meaning_ar": "يسجّل حساباً جديداً", "note_ar": "sign = يوقّع، و up تعطي معنى الإكمال: تضع اسمك في قائمة المشتركين", "example": "It only takes a minute to sign up."},
+      {"word": "shopping cart", "pos": "noun", "meaning_en": "the place on a website where you keep things before you buy them", "meaning_ar": "سلة / عربة التسوق", "note_ar": "", "example": "There are three items in my shopping cart."},
+      {"word": "wish list", "pos": "noun", "meaning_en": "a list of things you want to buy later", "meaning_ar": "قائمة الرغبات", "note_ar": "wish = أمنية", "example": "I added the headphones to my wish list."},
+      {"word": "item", "pos": "noun", "meaning_en": "one thing in a group or list", "meaning_ar": "غرض / عنصر", "note_ar": "", "example": "Each item comes with a free gift."},
+      {"word": "product", "pos": "noun", "meaning_en": "something that is made and sold", "meaning_ar": "منتج", "note_ar": "", "example": "This product has great reviews."},
+      {"word": "size", "pos": "noun", "meaning_en": "how big or small something is", "meaning_ar": "مقاس / حجم", "note_ar": "", "example": "Do you have this shirt in a bigger size?"},
+      {"word": "colour / color", "pos": "noun", "meaning_en": "red, blue, green, etc.", "meaning_ar": "لون", "note_ar": "colour بريطاني، color أمريكي", "example": "What colour do you want?"},
+      {"word": "add to cart", "pos": "phrase", "meaning_en": "to put a product in your online cart", "meaning_ar": "أضف إلى السلة", "note_ar": "add = يضيف، ويأخذ حرف الجر to", "example": "Click \"add to cart\" and then go to checkout."},
+      {"word": "delivery", "pos": "noun", "meaning_en": "bringing goods to a person's home", "meaning_ar": "توصيل", "note_ar": "من الفعل deliver = يسلّم + y تحوله لاسم", "example": "Delivery is free for orders over $50."},
+      {"word": "shipping", "pos": "noun", "meaning_en": "sending goods from one place to another", "meaning_ar": "شحن", "note_ar": "من ship = سفينة؛ قديماً كانت البضائع تُنقل بالسفن", "example": "Shipping takes three to five days."},
+      {"word": "shipping address", "pos": "noun", "meaning_en": "the address where your order will arrive", "meaning_ar": "عنوان الشحن", "note_ar": "", "example": "Please check your shipping address."},
+      {"word": "billing address", "pos": "noun", "meaning_en": "the address linked to your bank card", "meaning_ar": "عنوان الفاتورة", "note_ar": "bill = فاتورة؛ يطلبه الموقع للتأكد أنك صاحب البطاقة", "example": "My billing address is different from my home address."},
+      {"word": "payment", "pos": "noun", "meaning_en": "the act of paying money", "meaning_ar": "دفع / عملية الدفع", "note_ar": "pay + ment تحوّل الفعل إلى اسم", "example": "Your payment was successful."},
+      {"word": "credit card", "pos": "noun", "meaning_en": "a bank card you use to pay and pay back later", "meaning_ar": "بطاقة ائتمان", "note_ar": "", "example": "Can I pay by credit card?"},
+      {"word": "cash on delivery", "pos": "noun", "meaning_en": "paying in cash when the order arrives", "meaning_ar": "الدفع عند الاستلام", "note_ar": "اختصارها COD", "example": "I always choose cash on delivery for new shops."},
+      {"word": "order", "pos": "noun / verb", "meaning_en": "a request to buy something; to ask for something", "meaning_ar": "طلب / يطلب", "note_ar": "", "example": "My order arrived this morning."},
+      {"word": "order number", "pos": "noun", "meaning_en": "the number that identifies your order", "meaning_ar": "رقم الطلب", "note_ar": "", "example": "Customer service asked for my order number."},
+      {"word": "confirmation", "pos": "noun", "meaning_en": "a message that says something is certain or done", "meaning_ar": "تأكيد", "note_ar": "من الفعل confirm = يؤكد", "example": "I got a confirmation email a minute later."},
+      {"word": "review", "pos": "noun", "meaning_en": "your opinion about a product after using it", "meaning_ar": "مراجعة / تقييم مكتوب", "note_ar": "re = مرة أخرى + view = نظرة", "example": "I read the reviews before buying."},
+      {"word": "rating", "pos": "noun", "meaning_en": "a score, often in stars", "meaning_ar": "تقييم (بالنجوم غالباً)", "note_ar": "من rate = يقيّم", "example": "The hotel has a five-star rating."},
+      {"word": "return", "pos": "verb / noun", "meaning_en": "to send something back", "meaning_ar": "يُرجِع / إرجاع", "note_ar": "re = مرة أخرى + turn = يلف", "example": "I returned the jacket because it was too big."},
+      {"word": "refund", "pos": "noun", "meaning_en": "money given back to you", "meaning_ar": "استرداد المال", "note_ar": "re = مرة أخرى + fund = مال", "example": "They gave me a full refund."},
+      {"word": "exchange", "pos": "noun / verb", "meaning_en": "to give something back and get another one", "meaning_ar": "استبدال / يستبدل", "note_ar": "", "example": "Can I exchange these shoes for a bigger size?"},
+      {"word": "customer service", "pos": "noun", "meaning_en": "the team that helps buyers with problems", "meaning_ar": "خدمة العملاء", "note_ar": "", "example": "I called customer service about the late order."},
+      {"word": "crowded", "pos": "adjective", "meaning_en": "full of people", "meaning_ar": "مزدحم", "note_ar": "من crowd = حشد؛ التصريف الثالث كصفة", "example": "The mall is always crowded on Fridays."},
+      {"word": "instead", "pos": "adverb", "meaning_en": "in place of something else", "meaning_ar": "بدلاً من ذلك", "note_ar": "", "example": "I didn't go out. Instead, I ordered pizza."},
+      {"word": "scroll", "pos": "verb", "meaning_en": "to move a page up or down on a screen", "meaning_ar": "يمرّر (الصفحة)", "note_ar": "أصلها لفافة الورق القديمة التي تُفتح وتُقرأ", "example": "She scrolled through the photos."},
+      {"word": "collection", "pos": "noun", "meaning_en": "a group of things put together", "meaning_ar": "تشكيلة / مجموعة", "note_ar": "من collect = يجمع", "example": "The new winter collection is online now."},
+      {"word": "sneakers / trainers", "pos": "noun", "meaning_en": "soft sports shoes", "meaning_ar": "حذاء رياضي", "note_ar": "sneakers أمريكي (من sneak لأنها لا تُصدر صوتاً)، trainers بريطاني", "example": "He wears sneakers every day."},
+      {"word": "wallet", "pos": "noun", "meaning_en": "a small flat case for money and cards", "meaning_ar": "محفظة نقود", "note_ar": "", "example": "I left my wallet in the car."},
+      {"word": "leather", "pos": "noun", "meaning_en": "animal skin used to make shoes and bags", "meaning_ar": "جلد", "note_ar": "", "example": "She bought a leather bag."},
+      {"word": "carefully", "pos": "adverb", "meaning_en": "with attention, to avoid mistakes", "meaning_ar": "بعناية", "note_ar": "", "example": "Read the size guide carefully."},
+      {"word": "sure", "pos": "adjective", "meaning_en": "certain, without doubt", "meaning_ar": "متأكد", "note_ar": "sure about = متأكد من", "example": "I'm not sure about this colour."},
+      {"word": "contact", "pos": "verb", "meaning_en": "to call, email or write to someone", "meaning_ar": "يتواصل مع", "note_ar": "لا تأخذ حرف جر: contact someone وليس contact with", "example": "Please contact us if you have a problem."},
+      {"word": "leave", "pos": "verb", "meaning_en": "to put something somewhere for others to see", "meaning_ar": "يترك", "note_ar": "leave a review / leave a comment", "example": "Please leave a comment below."},
+      {"word": "measure", "pos": "verb", "meaning_en": "to find the size of something", "meaning_ar": "يقيس", "note_ar": "تُنطق /ˈmeʒər/؛ الحرفان ea يُنطقان e قصيرة", "example": "Measure the window before you buy curtains."},
+      {"word": "web app", "pos": "noun", "meaning_en": "an interactive program you use in a browser", "meaning_ar": "تطبيق ويب", "note_ar": "يختلف عن website الذي يعرض معلومات ثابتة", "example": "Online banking is a web app, not just a website."}
+    ],
+    "fine_lines": [
+      {
+        "title": "choose vs select",
+        "words": ["choose", "select"],
+        "explanation_ar": "choose تعني الاختيار بين بدائل مختلفة عن بعضها (طريقة دفع، مرشح في الانتخابات، شريك حياة). select تعني اختيار شيء من قائمة فيها أشياء متشابهة (من قائمة الطعام، من مقاسات أو ألوان). إذا لم يكن الفرق واضحاً فالكلمتان صحيحتان: choose توحي بأن ما اخترته مميز عن غيره، و select توحي بأنك أخذت واحداً من مجموعة متشابهة.",
+        "examples": [
+          {"word": "select", "sentence": "He selected a pizza from the menu."},
+          {"word": "choose", "sentence": "He chose to pay in cash."},
+          {"word": "choose", "sentence": "It was hard to choose between the two jobs."},
+          {"word": "select", "sentence": "Select your size from the list."}
+        ]
+      },
+      {
+        "title": "website vs web app",
+        "words": ["website", "web app"],
+        "explanation_ar": "website موقع يعرض صفحات ومعلومات ثابتة تقرؤها فقط. web app تطبيق تفاعلي يعمل داخل المتصفح، فيه حساب شخصي وقاعدة بيانات وعمليات مثل الشراء والتحويل البنكي. لذلك عندما تشتري من متجر كبير عبر المتصفح فأنت تستخدم web app.",
+        "examples": [
+          {"word": "website", "sentence": "The museum's website shows its opening hours."},
+          {"word": "web app", "sentence": "I pay my bills through the bank's web app."}
+        ]
+      },
+      {
+        "title": "too small vs very small",
+        "words": ["too", "very"],
+        "explanation_ar": "too تعني «أكثر من اللازم» لدرجة أن الشيء لا يناسبك ولا تستطيع التعامل معه. very تعني «جداً» فقط، ويمكن أن يبقى الشيء مقبولاً. too expensive يعني لا أستطيع شراءه، و very expensive يعني غالٍ لكن ربما أشتريه.",
+        "examples": [
+          {"word": "too", "sentence": "The shoes were too small, so I couldn't wear them."},
+          {"word": "very", "sentence": "The phone is very expensive, but I'll buy it."}
+        ]
+      },
+      {
+        "title": "sneakers vs trainers",
+        "words": ["sneakers", "trainers"],
+        "explanation_ar": "نفس المعنى (حذاء رياضي). sneakers أشيع في أمريكا وكندا، وأصلها من sneak لأن الحذاء لا يُصدر صوتاً عند المشي. trainers أشيع في بريطانيا.",
+        "examples": [
+          {"word": "sneakers", "sentence": "These sneakers are really comfortable."},
+          {"word": "trainers", "sentence": "Put on your trainers, we're going running."}
+        ]
+      },
+      {
+        "title": "login vs log in",
+        "words": ["login", "log in"],
+        "explanation_ar": "login كلمة واحدة وهي اسم (صفحة أو عملية تسجيل الدخول). log in كلمتان وهي فعل مركب (يسجّل الدخول). نفس القاعدة مع signup / sign up.",
+        "examples": [
+          {"word": "login", "sentence": "Enter your login details."},
+          {"word": "log in", "sentence": "I can't log in to my account."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "place an order", "meaning_ar": "يُجري / يقدّم طلباً", "example": "I placed an order for two books yesterday."},
+      {"phrase": "get an order number", "meaning_ar": "يحصل على رقم الطلب", "example": "After paying, you get an order number."},
+      {"phrase": "leave a review", "meaning_ar": "يكتب تقييماً / مراجعة", "example": "Please leave a review if you liked the product."},
+      {"phrase": "leave a comment / post a comment", "meaning_ar": "يترك / ينشر تعليقاً", "example": "She posted a comment under the video."},
+      {"phrase": "cash on delivery (COD)", "meaning_ar": "الدفع عند الاستلام", "example": "Is cash on delivery available in my city?"},
+      {"phrase": "get a refund", "meaning_ar": "يسترد أمواله", "example": "You can get a refund within 14 days."},
+      {"phrase": "ask for an exchange", "meaning_ar": "يطلب استبدال المنتج", "example": "The shirt was too tight, so I asked for an exchange."}
+    ],
+    "grammar": [
+      {
+        "title": "Verb + ing after prepositions (after, before, while, by...)",
+        "explanation_ar": "الكلمات مثل after و before و while و when و about و by يأتي بعدها اسم أو ضمير (ويكون هو الفاعل ثم الفعل عادياً). أما إذا لم يأتِ فاعل وجاء بعدها فعل مباشرة، فيجب تحويل الفعل إلى اسم بإضافة ing.",
+        "examples": [
+          "After James finished work, he left.",
+          "After typing his password, he scrolled down.",
+          "Before clicking \"add to cart\", check the size.",
+          "I'm afraid of flying."
+        ]
+      },
+      {
+        "title": "Modal verbs + base form",
+        "explanation_ar": "الأفعال الناقصة (modal verbs) مثل can, could, may, might, must, should, will, would لا تتغير أبداً: لا تأخذ s ولا ed ولا ing. ويأتي بعدها الفعل في شكله الأساسي فقط، وكذلك كل فعل معطوف عليه في نفس الجملة.",
+        "examples": [
+          "She can play the piano.",
+          "He could return the item and get a refund or ask for an exchange.",
+          "You must measure your feet first."
+        ]
+      },
+      {
+        "title": "Keep the past tense in past stories",
+        "explanation_ar": "في العربية نقول «شرح أنه يستطيع» في الماضي، لكن في الإنجليزية إذا كانت القصة في الماضي نحافظ على الزمن: explained that he could وليس can.",
+        "examples": [
+          "James explained that he could return it.",
+          "She said that she was tired.",
+          "He usually paid by credit card."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "The address linked to your bank card is the:", "choices": ["shipping address", "billing address", "email address", "home page"], "answer": 1, "explanation_ar": "billing address هو العنوان المسجّل مع بطاقتك في البنك."},
+    {"question": "He ___ a pizza from the menu.", "choices": ["selected", "returned", "refunded", "measured"], "answer": 0, "explanation_ar": "اختيار من قائمة فيها أشياء متشابهة = select."},
+    {"question": "It was hard to ___ between living in the city and living in the village.", "choices": ["scroll", "select", "refund", "choose"], "answer": 3, "explanation_ar": "الاختيار بين بدائل مختلفة عن بعضها = choose."},
+    {"question": "After ___ his password, Omar scrolled through the new collection.", "choices": ["type", "typed", "typing", "to type"], "answer": 2, "explanation_ar": "بعد after إذا لم يأتِ فاعل نضيف ing للفعل."},
+    {"question": "James explained that Omar ___ return the item.", "choices": ["can", "could", "cans", "coulding"], "answer": 1, "explanation_ar": "القصة في الماضي، لذلك نقول could."},
+    {"question": "He could return the shoes and ___ a refund.", "choices": ["gets", "got", "getting", "get"], "answer": 3, "explanation_ar": "بعد الفعل الناقص could يأتي الفعل في شكله الأساسي، وكذلك الفعل المعطوف عليه."},
+    {"question": "\"Refund\" means:", "choices": ["money given back to you", "a new order", "a low rating", "free delivery"], "answer": 0, "explanation_ar": "refund = استرداد المال."},
+    {"question": "The shoes were ___ small, so he couldn't wear them.", "choices": ["very", "too", "so much", "more"], "answer": 1, "explanation_ar": "too = أكثر من اللازم لدرجة أنه لا يناسب."},
+    {"question": "Which sentence is correct?", "choices": ["Please contact with us.", "Please contact to us.", "Please contact us.", "Please contact at us."], "answer": 2, "explanation_ar": "contact لا تأخذ حرف جر."},
+    {"question": "You create a new account when you:", "choices": ["log in", "sign up", "scroll", "check out"], "answer": 1, "explanation_ar": "sign up = تسجيل حساب جديد، و log in = الدخول إلى حساب موجود."}
+  ]
+}

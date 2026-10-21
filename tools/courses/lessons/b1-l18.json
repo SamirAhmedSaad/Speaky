@@ -1,0 +1,133 @@
+{
+  "title": "Around the Neighborhood",
+  "content": {
+    "vocabulary": [
+      {"word": "neighborhood", "pos": "noun", "meaning_en": "the area of a town around where you live", "meaning_ar": "الحيّ / المنطقة السكنية", "note_ar": "neighbourhood بريطاني", "example": "There are many shops in our neighborhood."},
+      {"word": "park", "pos": "noun", "meaning_en": "a green public area with trees and grass", "meaning_ar": "حديقة عامة", "example": "We have a picnic in the park every Friday."},
+      {"word": "library", "pos": "noun", "meaning_en": "a quiet building with books you can read or borrow", "meaning_ar": "مكتبة عامة", "note_ar": "لا تخلطها مع bookshop = محل بيع الكتب", "example": "I borrowed two novels from the library."},
+      {"word": "school", "pos": "noun", "meaning_en": "a place where children go to learn", "meaning_ar": "مدرسة", "example": "My school is next to the park."},
+      {"word": "bakery", "pos": "noun", "meaning_en": "a shop that makes and sells bread and cakes", "meaning_ar": "مخبز", "example": "The bakery smells wonderful in the morning."},
+      {"word": "pharmacy", "pos": "noun", "meaning_en": "a shop where you buy medicine", "meaning_ar": "صيدلية", "note_ar": "ph تُنطق f، وفي بريطانيا يُقال أيضاً chemist's", "example": "Is there a pharmacy open at night?"},
+      {"word": "post office", "pos": "noun", "meaning_en": "a place where you buy stamps and send letters and parcels", "meaning_ar": "مكتب البريد", "example": "I need to send this parcel from the post office."},
+      {"word": "café", "pos": "noun", "meaning_en": "a small place to drink coffee and eat light food", "meaning_ar": "مقهى", "example": "Let's meet at the café on the corner."},
+      {"word": "cinema", "pos": "noun", "meaning_en": "a building where you watch films", "meaning_ar": "سينما", "note_ar": "في أمريكا movie theater", "example": "There's a new film at the cinema."},
+      {"word": "police station", "pos": "noun", "meaning_en": "the building where the police work", "meaning_ar": "قسم الشرطة", "example": "He reported the lost wallet at the police station."},
+      {"word": "hospital", "pos": "noun", "meaning_en": "a building where sick or injured people are treated", "meaning_ar": "مستشفى", "example": "She works as a nurse at the hospital."},
+      {"word": "bus stop", "pos": "noun", "meaning_en": "a place on the street where you wait for the bus", "meaning_ar": "موقف الحافلات", "example": "I waited at the bus stop for twenty minutes."},
+      {"word": "neighbor", "pos": "noun", "meaning_en": "a person who lives next door or near you", "meaning_ar": "جار", "note_ar": "حرف gh صامت؛ neighbour بريطاني", "example": "Our neighbor helped us carry the boxes."},
+      {"word": "shopkeeper", "pos": "noun", "meaning_en": "a person who owns or runs a small shop", "meaning_ar": "صاحب المحل / البائع", "example": "The shopkeeper gave me a free sweet."},
+      {"word": "mailman", "pos": "noun", "meaning_en": "a person who delivers letters to homes", "meaning_ar": "ساعي البريد", "note_ar": "في بريطانيا postman", "example": "The mailman comes every morning at nine."},
+      {"word": "police officer", "pos": "noun", "meaning_en": "a member of the police", "meaning_ar": "ضابط / شرطي", "example": "A police officer helped the old man cross the road."},
+      {"word": "hard-working", "pos": "adjective", "meaning_en": "putting a lot of effort into your work", "meaning_ar": "مجتهد / دؤوب", "example": "She is a hard-working student."},
+      {"word": "playground", "pos": "noun", "meaning_en": "an outdoor area with slides and swings for children", "meaning_ar": "ملعب أطفال", "example": "The kids are on the swings in the playground."},
+      {"word": "square", "pos": "noun", "meaning_en": "an open public area in a town where people gather", "meaning_ar": "ساحة / ميدان", "example": "There's a market in the main square on Sundays."},
+      {"word": "community center", "pos": "noun", "meaning_en": "a public building where neighbors meet for events and classes", "meaning_ar": "مركز مجتمعي", "example": "They teach English at the community center."},
+      {"word": "sports field", "pos": "noun", "meaning_en": "a large grassy area for playing sports", "meaning_ar": "ملعب رياضي", "example": "We play football on the sports field after school."},
+      {"word": "visit", "pos": "verb", "meaning_en": "to go to see a place or a person", "meaning_ar": "يزور", "example": "We visit my grandparents every weekend."},
+      {"word": "borrow", "pos": "verb", "meaning_en": "to take something from someone and give it back later", "meaning_ar": "يستعير / يقترض", "example": "Can I borrow your pen?"},
+      {"word": "gather", "pos": "verb", "meaning_en": "to come together in one place", "meaning_ar": "يتجمّع", "example": "People gathered in the square to watch the show."},
+      {"word": "avenue", "pos": "noun", "meaning_en": "a wide main street, often with trees on both sides", "meaning_ar": "شارع رئيسي عريض / جادّة", "example": "The museum is on Fifth Avenue."},
+      {"word": "crosswalk", "pos": "noun", "meaning_en": "white lines on the road where people can cross safely", "meaning_ar": "ممرّ المشاة (الخطوط البيضاء)", "note_ar": "في بريطانيا zebra crossing", "example": "Always cross the road at the crosswalk."},
+      {"word": "traffic light", "pos": "noun", "meaning_en": "red, yellow and green lights that control traffic", "meaning_ar": "إشارة المرور", "example": "Turn left at the next traffic light."},
+      {"word": "bench", "pos": "noun", "meaning_en": "a long seat for several people, often in a park", "meaning_ar": "مقعد طويل", "example": "They sat on a bench and fed the birds."},
+      {"word": "explore", "pos": "verb", "meaning_en": "to travel around a place to learn about it", "meaning_ar": "يستكشف", "example": "We spent the day exploring the old city."},
+      {"word": "envelope", "pos": "noun", "meaning_en": "a paper cover you put a letter in", "meaning_ar": "ظرف (رسالة)", "example": "Write the address on the envelope."},
+      {"word": "whisper", "pos": "verb", "meaning_en": "to speak very quietly", "meaning_ar": "يهمس", "example": "She whispered the answer in my ear."},
+      {"word": "nervously", "pos": "adverb", "meaning_en": "in a worried or anxious way", "meaning_ar": "بتوتّر", "note_ar": "nervous = متوتر", "example": "He looked nervously at the clock."},
+      {"word": "mysterious", "pos": "adjective", "meaning_en": "strange and difficult to explain", "meaning_ar": "غامض", "note_ar": "mystery = لغز", "example": "We got a mysterious phone call last night."},
+      {"word": "grin", "pos": "verb", "meaning_en": "to smile widely", "meaning_ar": "يبتسم ابتسامة عريضة", "example": "He grinned when he saw the cake."},
+      {"word": "gasp", "pos": "verb", "meaning_en": "to breathe in suddenly because you are surprised or shocked", "meaning_ar": "يشهق", "example": "She gasped when she saw the price."},
+      {"word": "treasure", "pos": "noun", "meaning_en": "a collection of gold, money or valuable things", "meaning_ar": "كنز", "example": "The pirates hid their treasure on an island."},
+      {"word": "trap", "pos": "noun", "meaning_en": "something used to catch someone or a dangerous trick", "meaning_ar": "فخّ", "example": "Be careful, it could be a trap."},
+      {"word": "adventure", "pos": "noun", "meaning_en": "an exciting and unusual experience", "meaning_ar": "مغامرة", "example": "Our trip to the desert was a real adventure."},
+      {"word": "stamp", "pos": "noun", "meaning_en": "a small paper you stick on a letter to pay for sending it", "meaning_ar": "طابع بريد", "example": "I need a stamp for this letter."}
+    ],
+    "fine_lines": [
+      {
+        "title": "street vs avenue",
+        "words": ["street", "avenue"],
+        "explanation_ar": "الاثنان بمعنى شارع، والفرق في الحجم والتخطيط. street شارع عادي صغير أو متوسط عليه بيوت ومحلات. avenue شارع رئيسي عريض جداً، غالباً مزيّن بالأشجار على الجانبين في المدن الكبيرة، وتتفرع منه الشوارع الأصغر.",
+        "examples": [
+          {"word": "street", "sentence": "I live on a quiet street near the school."},
+          {"word": "street", "sentence": "There's a small bakery on our street."},
+          {"word": "avenue", "sentence": "The parade went down the main avenue."},
+          {"word": "avenue", "sentence": "Tall trees line both sides of the avenue."}
+        ]
+      },
+      {
+        "title": "sidewalk vs crosswalk",
+        "words": ["sidewalk", "crosswalk"],
+        "explanation_ar": "الاثنان للمشاة. sidewalk هو الرصيف الجانبي الذي يمشي عليه الناس بأمان على جانبي الطريق. crosswalk هو ممر المشاة: الخطوط البيضاء المرسومة في وسط الشارع التي تعبر من خلالها إلى الجهة الأخرى.",
+        "examples": [
+          {"word": "sidewalk", "sentence": "Kids should ride their bikes on the sidewalk."},
+          {"word": "crosswalk", "sentence": "Cars must stop for people at the crosswalk."}
+        ]
+      },
+      {
+        "title": "walk down vs walk up (the street)",
+        "words": ["walk down", "walk up"],
+        "explanation_ar": "لا نقول عادة walk in the street، بل walk down the street أو walk up the street. في الكلام اليومي الاثنان بنفس المعنى، و down هي الأشيع. نظرياً down نحو وسط المدينة و up خارجها، أما عملياً فالفرق يظهر فقط إذا كان الشارع منحدراً فعلاً (نازل = down، طالع = up).",
+        "examples": [
+          {"word": "walk down", "sentence": "We walked down the street to the café."},
+          {"word": "walk up", "sentence": "It's hard to walk up this steep hill."}
+        ]
+      },
+      {
+        "title": "library vs bookshop",
+        "words": ["library", "bookshop"],
+        "explanation_ar": "library مكتبة عامة تقرأ فيها الكتب أو تستعيرها ثم تعيدها مجاناً. bookshop (أو bookstore) محل تشتري منه الكتب.",
+        "examples": [
+          {"word": "library", "sentence": "I borrowed this book from the library."},
+          {"word": "bookshop", "sentence": "I bought a new dictionary at the bookshop."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "run out of steam", "meaning_ar": "يفقد طاقته أو حماسه فجأة", "example": "After walking down the avenue for two hours, Ali ran out of steam and sat on a bench."},
+      {"phrase": "bite the bullet", "meaning_ar": "يواجه موقفاً صعباً أو مؤلماً بشجاعة ويتحمّله", "example": "I hate the dentist, but I bit the bullet and made an appointment."},
+      {"phrase": "You won't believe this", "meaning_ar": "لن تصدّق هذا", "example": "You won't believe this — I won the prize!"},
+      {"phrase": "check it out", "meaning_ar": "يتحقق من الأمر / يذهب ليرى بنفسه", "example": "There's a new café downtown. Let's check it out."},
+      {"phrase": "What if...?", "meaning_ar": "ماذا لو...؟", "example": "What if it rains tomorrow?"},
+      {"phrase": "it goes without saying", "meaning_ar": "غنيّ عن القول / واضح دون أن يُقال", "example": "It goes without saying that you should be on time."}
+    ],
+    "grammar": [
+      {
+        "title": "Past perfect continuous: the cause of a past result",
+        "explanation_ar": "الماضي التام المستمر (had been + فعل ing) نستخدمه لنشرح سبب نتيجة رأيناها في الماضي: نشاط استمر فترة قبلها. النتيجة نضعها في الماضي البسيط، والسبب المستمر في الماضي التام المستمر. had been ثابتة مع كل الضمائر.",
+        "examples": [
+          "He was very tired. He had been playing football for two hours.",
+          "The street was wet because it had been raining all night.",
+          "The children were dirty because they had been playing in the playground."
+        ]
+      },
+      {
+        "title": "Past continuous for background actions",
+        "explanation_ar": "نستخدم الماضي المستمر (was/were + ing) لوصف حدث كان مستمراً في خلفية القصة. وإذا جاء فعلان مستمران لنفس الفاعل فلا نكرر was.",
+        "examples": [
+          "Emma was sitting on a bench, sharing a bag of sweets.",
+          "They were talking and laughing in the square."
+        ]
+      },
+      {
+        "title": "should + base verb for advice",
+        "explanation_ar": "نستخدم should (ينبغي أن) لتقديم نصيحة أو اقتراح، ويأتي بعدها الفعل في المصدر بدون to.",
+        "examples": [
+          "We should take this to the police station.",
+          "You should visit the new library."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "You can borrow books for free from the ___.", "choices": ["bookshop", "pharmacy", "library", "bakery"], "answer": 2, "explanation_ar": "library = مكتبة عامة للاستعارة."},
+    {"question": "Where do you buy medicine?", "choices": ["at the pharmacy", "at the post office", "at the square", "at the cinema"], "answer": 0, "explanation_ar": "pharmacy = صيدلية."},
+    {"question": "The white lines on the road where people cross are called the:", "choices": ["sidewalk", "avenue", "bench", "crosswalk"], "answer": 3, "explanation_ar": "crosswalk = ممر المشاة."},
+    {"question": "A wide main street with trees on both sides is an:", "choices": ["alley", "avenue", "envelope", "office"], "answer": 1, "explanation_ar": "avenue = شارع رئيسي عريض."},
+    {"question": "The street was wet because it ___ all night.", "choices": ["rains", "has rained", "had been raining", "is raining"], "answer": 2, "explanation_ar": "سبب مستمر لنتيجة في الماضي = الماضي التام المستمر."},
+    {"question": "The children were dirty because they ___ in the playground.", "choices": ["had been playing", "play", "are playing", "will play"], "answer": 0, "explanation_ar": "ربط سبب مستمر بنتيجة في الماضي = had been playing."},
+    {"question": "We ___ take this letter to the police station.", "choices": ["should to", "should", "should taking", "shoulds"], "answer": 1, "explanation_ar": "بعد should يأتي الفعل في المصدر بدون to."},
+    {"question": "\"After two hours of shopping, I ran out of steam.\" This means:", "choices": ["I had no money left.", "My train stopped.", "I was very happy.", "I had no energy left."], "answer": 3, "explanation_ar": "run out of steam = فقد طاقته فجأة."},
+    {"question": "\"I'm scared of the exam, but I'll bite the bullet.\" This means:", "choices": ["I'll face it bravely.", "I'll skip it.", "I'll eat something.", "I'll cheat."], "answer": 0, "explanation_ar": "bite the bullet = يواجه الموقف الصعب بشجاعة."},
+    {"question": "Choose the most natural sentence:", "choices": ["We walked in the street to the café.", "We walked down the street to the café.", "We walked on down street to the café.", "We walked at the street to the café."], "answer": 1, "explanation_ar": "التعبير الطبيعي walk down the street."}
+  ]
+}

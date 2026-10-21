@@ -1,0 +1,119 @@
+{
+  "title": "At the Airport",
+  "content": {
+    "vocabulary": [
+      {"word": "airport", "pos": "noun", "meaning_en": "a place where planes land and take off", "meaning_ar": "مطار", "note_ar": "", "example": "We arrived at the airport three hours early."},
+      {"word": "terminal", "pos": "noun", "meaning_en": "a building at an airport where passengers get on and off planes", "meaning_ar": "صالة / مبنى الركاب", "note_ar": "", "example": "Our flight leaves from Terminal 2."},
+      {"word": "check-in desk", "pos": "noun", "meaning_en": "the place where you show your ticket and leave your big bags", "meaning_ar": "مكتب تسجيل الوصول", "note_ar": "كفعل: check in (كلمتان)", "example": "There was a long queue at the check-in desk."},
+      {"word": "security", "pos": "noun", "meaning_en": "the area where people and bags are checked for danger", "meaning_ar": "الأمن / التفتيش الأمني", "note_ar": "", "example": "Take your laptop out of your bag at security."},
+      {"word": "customs", "pos": "noun", "meaning_en": "the place where officers check goods you bring into a country", "meaning_ar": "الجمارك", "note_ar": "تأتي بصيغة الجمع دائماً بهذا المعنى؛ custom وحدها = عادة", "example": "We went through customs quickly."},
+      {"word": "pilot", "pos": "noun", "meaning_en": "the person who flies a plane", "meaning_ar": "طيّار", "note_ar": "", "example": "The pilot welcomed us on board."},
+      {"word": "flight attendant", "pos": "noun", "meaning_en": "a person who helps passengers on a plane", "meaning_ar": "مضيف / مضيفة طيران", "note_ar": "", "example": "The flight attendant brought me some water."},
+      {"word": "passenger", "pos": "noun", "meaning_en": "a person travelling in a plane, bus, car, etc.", "meaning_ar": "راكب / مسافر", "note_ar": "", "example": "The plane can carry 200 passengers."},
+      {"word": "travel documents", "pos": "noun", "meaning_en": "the official papers you need to travel", "meaning_ar": "وثائق السفر", "note_ar": "", "example": "Keep your travel documents in a safe place."},
+      {"word": "passport", "pos": "noun", "meaning_en": "an official document that lets you travel to other countries", "meaning_ar": "جواز سفر", "note_ar": "", "example": "My passport expires next year."},
+      {"word": "visa", "pos": "noun", "meaning_en": "an official stamp or sticker that allows you to enter a country", "meaning_ar": "تأشيرة", "note_ar": "", "example": "Do I need a visa to visit Japan?"},
+      {"word": "ticket", "pos": "noun", "meaning_en": "a document that shows you paid to travel", "meaning_ar": "تذكرة", "note_ar": "", "example": "I booked my ticket online."},
+      {"word": "boarding pass", "pos": "noun", "meaning_en": "a card that lets you get on the plane, with your gate and seat", "meaning_ar": "بطاقة صعود الطائرة", "note_ar": "", "example": "Please show your boarding pass at the gate."},
+      {"word": "luggage", "pos": "noun", "meaning_en": "the bags you take when you travel", "meaning_ar": "أمتعة / حقائب", "note_ar": "اسم غير معدود: لا نقول luggages", "example": "I have too much luggage."},
+      {"word": "carry-on", "pos": "noun", "meaning_en": "a small bag you can take inside the plane cabin", "meaning_ar": "حقيبة يد", "note_ar": "أمريكي؛ البريطاني يقول hand luggage", "example": "My carry-on fits under the seat."},
+      {"word": "baggage claim", "pos": "noun", "meaning_en": "the area where you collect your bags after a flight", "meaning_ar": "منطقة استلام الأمتعة", "note_ar": "claim = يطالب / يستلم", "example": "Meet me at baggage claim."},
+      {"word": "departure", "pos": "noun", "meaning_en": "leaving a place", "meaning_ar": "مغادرة", "note_ar": "الفعل: depart", "example": "Departure is at 6:15 a.m."},
+      {"word": "arrival", "pos": "noun", "meaning_en": "reaching a place", "meaning_ar": "وصول", "note_ar": "الفعل: arrive", "example": "The arrival hall was very crowded."},
+      {"word": "boarding", "pos": "noun", "meaning_en": "getting on a plane", "meaning_ar": "صعود الطائرة", "note_ar": "الفعل: board", "example": "Boarding starts 40 minutes before take-off."},
+      {"word": "delay", "pos": "noun / verb", "meaning_en": "a time when something happens later than planned", "meaning_ar": "تأخير / يتأخر", "note_ar": "", "example": "There is a two-hour delay because of fog."},
+      {"word": "cancellation", "pos": "noun", "meaning_en": "a decision that a planned event will not happen", "meaning_ar": "إلغاء", "note_ar": "الفعل: cancel", "example": "We got a message about the flight cancellation."},
+      {"word": "flight", "pos": "noun", "meaning_en": "a journey by plane", "meaning_ar": "رحلة طيران", "note_ar": "on the flight = على متن الرحلة", "example": "The flight to Cairo takes four hours."},
+      {"word": "seatbelt", "pos": "noun", "meaning_en": "a strap that holds you safely in your seat", "meaning_ar": "حزام الأمان", "note_ar": "", "example": "Please fasten your seatbelt."},
+      {"word": "overhead locker", "pos": "noun", "meaning_en": "the cupboard above your seat on a plane", "meaning_ar": "الخزانة العلوية", "note_ar": "ويُقال أيضاً overhead bin", "example": "Put your bag in the overhead locker."},
+      {"word": "runway", "pos": "noun", "meaning_en": "a long road where planes take off and land", "meaning_ar": "مدرج الطائرات", "note_ar": "", "example": "The plane is moving slowly to the runway."},
+      {"word": "survive", "pos": "verb", "meaning_en": "to get through a difficult situation safely", "meaning_ar": "ينجو / يتجاوز بسلام", "note_ar": "الاسم: survival", "example": "Here's how to survive a long flight."},
+      {"word": "drop off", "pos": "phrasal verb", "meaning_en": "to leave something or someone at a place", "meaning_ar": "يسلّم / يُنزل", "note_ar": "", "example": "Drop off your bags at the check-in desk."},
+      {"word": "pass through", "pos": "phrasal verb", "meaning_en": "to go through a place", "meaning_ar": "يمرّ عبر", "note_ar": "", "example": "We passed through security in ten minutes."},
+      {"word": "announcement", "pos": "noun", "meaning_en": "a spoken message giving information to the public", "meaning_ar": "إعلان / نداء", "note_ar": "الفعل: announce", "example": "Listen to the announcement about your gate."},
+      {"word": "gate", "pos": "noun", "meaning_en": "the door at the airport where you get on a plane", "meaning_ar": "بوابة", "note_ar": "", "example": "Our flight leaves from Gate 12."},
+      {"word": "instructions", "pos": "noun", "meaning_en": "information that tells you what to do", "meaning_ar": "تعليمات / إرشادات", "note_ar": "", "example": "Follow the safety instructions."},
+      {"word": "store", "pos": "verb", "meaning_en": "to put something in a place to keep it", "meaning_ar": "يضع / يخزّن", "note_ar": "كاسم = متجر", "example": "Store your coat in the locker."},
+      {"word": "fasten", "pos": "verb", "meaning_en": "to close or fix something firmly", "meaning_ar": "يربط / يُحكم الإغلاق", "note_ar": "حرف t غالباً صامت /ˈfɑːsn/، وبعض الناس ينطقه", "example": "Fasten your seatbelt before take-off."},
+      {"word": "inform", "pos": "verb", "meaning_en": "to tell someone facts", "meaning_ar": "يُخبر / يُبلّغ", "note_ar": "الاسم: information", "example": "The pilot informed us about the weather."},
+      {"word": "landing", "pos": "noun", "meaning_en": "when a plane comes down to the ground", "meaning_ar": "هبوط", "note_ar": "من land = يهبط؛ عكسها take-off", "example": "The landing was very smooth."},
+      {"word": "collect", "pos": "verb", "meaning_en": "to get and take something", "meaning_ar": "يجمع / يستلم", "note_ar": "", "example": "Collect your bags from belt 4."},
+      {"word": "stay calm", "pos": "verb phrase", "meaning_en": "to remain relaxed and not get upset", "meaning_ar": "يبقى هادئاً", "note_ar": "حرف l صامت في calm", "example": "Stay calm and ask for help."},
+      {"word": "stressful", "pos": "adjective", "meaning_en": "causing worry and pressure", "meaning_ar": "مُسبِّب للتوتر", "note_ar": "من stress", "example": "Moving house can be stressful."},
+      {"word": "preparation", "pos": "noun", "meaning_en": "getting ready for something", "meaning_ar": "استعداد / تحضير", "note_ar": "الفعل: prepare", "example": "Good preparation makes travel easier."},
+      {"word": "postpone", "pos": "verb", "meaning_en": "to decide to do something at a later time", "meaning_ar": "يؤجّل", "note_ar": "", "example": "They postponed the meeting until Monday."},
+      {"word": "baggage allowance", "pos": "noun", "meaning_en": "the weight of bags an airline lets you take", "meaning_ar": "الوزن المسموح للأمتعة", "note_ar": "", "example": "My baggage allowance is 23 kilos."}
+    ],
+    "fine_lines": [
+      {
+        "title": "luggage vs baggage",
+        "words": ["luggage", "baggage"],
+        "explanation_ar": "الكلمتان معناهما حقائب السفر، وكلتاهما اسم غير معدود. luggage جاءت تاريخياً من الفعل lug أي يجرّ الشيء بتعب، فنستخدمها غالباً من وجهة نظر المسافر عن حقائبه الشخصية. baggage هي الكلمة الرسمية التي تستخدمها شركات الطيران والمطارات في اللافتات مثل baggage claim و baggage allowance. ولـ baggage معنى مجازي: الأعباء النفسية والذكريات المؤلمة (emotional baggage)، ولا نقول emotional luggage.",
+        "examples": [
+          {"word": "luggage", "sentence": "I have too much luggage for this small car."},
+          {"word": "baggage", "sentence": "You need to drop off your baggage at the desk."},
+          {"word": "baggage", "sentence": "She has a lot of emotional baggage from her past."}
+        ]
+      },
+      {
+        "title": "delay vs postpone",
+        "words": ["delay", "postpone"],
+        "explanation_ar": "كلاهما فيه معنى التأخير، والفرق في وجود قرار. delay تأخير خارج عن السيطرة بسبب مشكلة مفاجئة مثل الطقس أو الزحام أو عطل فني، ولا أحد يقرره. postpone تأجيل بقرار مقصود أو خطة من شخص أو جهة لنقل الحدث إلى موعد آخر.",
+        "examples": [
+          {"word": "delay", "sentence": "The flight was delayed because of heavy rain."},
+          {"word": "postpone", "sentence": "We decided to postpone our trip until next week."}
+        ]
+      },
+      {
+        "title": "carry-on vs hand luggage",
+        "words": ["carry-on", "hand luggage"],
+        "explanation_ar": "المعنى واحد: الحقيبة الصغيرة التي تأخذها معك داخل الطائرة. carry-on شائعة في الإنجليزية الأمريكية، و hand luggage شائعة في الإنجليزية البريطانية.",
+        "examples": [
+          {"word": "carry-on", "sentence": "You can bring one carry-on and one small bag."},
+          {"word": "hand luggage", "sentence": "Liquids in hand luggage must be under 100 ml."}
+        ]
+      },
+      {
+        "title": "departure vs arrival",
+        "words": ["departure", "arrival"],
+        "explanation_ar": "departure مغادرة مكان والانطلاق منه، و arrival الوصول إلى المكان. في المطار ستجد لوحة departures للرحلات المغادرة ولوحة arrivals للرحلات القادمة.",
+        "examples": [
+          {"word": "departure", "sentence": "Check the departure board for your gate."},
+          {"word": "arrival", "sentence": "His arrival time is 10:30 p.m."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "with flying colours", "meaning_ar": "بنجاح باهر وتفوّق", "example": "She passed her pilot test with flying colours."},
+      {"phrase": "emotional baggage", "meaning_ar": "أعباء نفسية وذكريات مؤلمة من الماضي", "example": "Try not to bring emotional baggage into a new relationship."},
+      {"phrase": "fasten your seatbelt", "meaning_ar": "اربط حزام الأمان", "example": "Please fasten your seatbelt; we are about to land."},
+      {"phrase": "on the flight", "meaning_ar": "على متن الرحلة", "example": "I watched two movies on the flight."},
+      {"phrase": "if needed", "meaning_ar": "عند الحاجة / إذا لزم الأمر", "example": "Bring your visa, if needed."},
+      {"phrase": "drop off your luggage", "meaning_ar": "سلّم أمتعتك", "example": "First, drop off your luggage at the check-in desk."}
+    ],
+    "grammar": [
+      {
+        "title": "Future continuous + present simple: a short action interrupts a longer one",
+        "explanation_ar": "عندما يقطع حدث قصير حدثاً أطول سيكون مستمراً في المستقبل، نضع الحدث الطويل في المستقبل المستمر (will be + ing) والحدث القصير في المضارع البسيط بعد when أو by the time.",
+        "examples": ["I'll be watching a movie when Ahmed arrives.", "I'll be waiting at the gate when the plane lands.", "When you get home tonight, I'll be packing my luggage."]
+      },
+      {
+        "title": "No 'will' after time words (when, before, after, as soon as)",
+        "explanation_ar": "بعد أدوات الربط الزمنية مثل when و before و after و as soon as و by the time نستخدم المضارع البسيط حتى لو كان المعنى مستقبلاً. لا تقل when Ahmed will arrive، فهذه ترجمة حرفية من العربية؛ الصحيح when Ahmed arrives.",
+        "examples": ["Call me when you arrive.", "I'll check in before the gate closes.", "We'll leave as soon as the rain stops."]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "The flight was ___ because of a storm. (no one decided it)", "choices": ["delayed", "postponed", "boarded", "collected"], "answer": 0, "explanation_ar": "تأخير خارج عن السيطرة = delay."},
+    {"question": "The company decided to ___ the meeting until Monday.", "choices": ["delay", "land", "postpone", "fasten"], "answer": 2, "explanation_ar": "تأجيل بقرار مقصود = postpone."},
+    {"question": "Which is correct?", "choices": ["She has a lot of emotional luggage.", "She has a lot of emotional baggage.", "She has many emotional baggages.", "She has an emotional luggages."], "answer": 1, "explanation_ar": "المعنى المجازي للأعباء النفسية يأتي فقط مع baggage، وهي غير معدودة."},
+    {"question": "I'll be waiting at the gate when the plane ___.", "choices": ["will land", "lands", "is going to land", "landed"], "answer": 1, "explanation_ar": "بعد when نستخدم المضارع البسيط lands."},
+    {"question": "When you get home tonight, I ___ my luggage.", "choices": ["pack", "will pack", "packed", "will be packing"], "answer": 3, "explanation_ar": "الحدث الطويل المستمر الذي يقطعه وصولك = will be packing."},
+    {"question": "\"She passed the exam with flying colours\" means she:", "choices": ["failed the exam", "passed it very successfully", "cheated", "took it on a plane"], "answer": 1, "explanation_ar": "with flying colours = بنجاح باهر."},
+    {"question": "Where do you collect your bags after landing?", "choices": ["the runway", "the check-in desk", "baggage claim", "the overhead locker"], "answer": 2, "explanation_ar": "baggage claim = منطقة استلام الأمتعة."},
+    {"question": "Which word has a silent letter in normal speech?", "choices": ["fasten", "ticket", "runway", "gate"], "answer": 0, "explanation_ar": "حرف t غالباً صامت في fasten، مثل often."},
+    {"question": "A small bag you take inside the plane is called in American English a:", "choices": ["hand luggage", "baggage claim", "carry-on", "passport"], "answer": 2, "explanation_ar": "carry-on أمريكية، و hand luggage بريطانية."},
+    {"question": "The long road where planes take off and land is the:", "choices": ["runway", "terminal", "gate", "customs"], "answer": 0, "explanation_ar": "runway = مدرج الطائرات."}
+  ]
+}

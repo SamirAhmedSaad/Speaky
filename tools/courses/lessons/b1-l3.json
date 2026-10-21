@@ -1,0 +1,146 @@
+{
+  "title": "Clothes and Accessories",
+  "content": {
+    "vocabulary": [
+      {"word": "shirt", "pos": "noun", "meaning_en": "a top with a collar and buttons", "meaning_ar": "قميص", "note_ar": "يُقال غالباً على القميص الذي له ياقة وأزرار", "example": "He wore a white shirt to the interview."},
+      {"word": "trousers / pants", "pos": "noun", "meaning_en": "clothing that covers each leg separately", "meaning_ar": "بنطلون", "note_ar": "trousers بريطاني، pants أمريكي (وفي بريطانيا pants = ملابس داخلية). دائماً جمع: my trousers are", "example": "These trousers are too long for me."},
+      {"word": "skirt", "pos": "noun", "meaning_en": "women's clothing that hangs from the waist", "meaning_ar": "تنّورة / جيبة", "note_ar": "", "example": "She bought a long blue skirt."},
+      {"word": "dress", "pos": "noun / verb", "meaning_en": "a one-piece piece of women's clothing; to put on clothes", "meaning_ar": "فستان / يرتدي ملابسه", "note_ar": "get dressed = البس ملابسك", "example": "Get dressed, we're late!"},
+      {"word": "jacket", "pos": "noun", "meaning_en": "a short, light coat", "meaning_ar": "سترة / جاكيت", "note_ar": "", "example": "Take a jacket, it might get cold."},
+      {"word": "coat", "pos": "noun", "meaning_en": "a long, heavy piece of clothing worn over others in winter", "meaning_ar": "معطف / بالطو", "note_ar": "coat أطول وأثقل من jacket", "example": "It's snowing, so wear your coat."},
+      {"word": "sweater", "pos": "noun", "meaning_en": "a warm top, often made of wool", "meaning_ar": "بلوفر / كنزة صوف", "note_ar": "من sweat = يعرق، لأنها ملابس ثقيلة تحفظ حرارة الجسم", "example": "My grandmother knitted me a sweater."},
+      {"word": "T-shirt", "pos": "noun", "meaning_en": "a simple top with short sleeves and no collar", "meaning_ar": "تي شيرت", "note_ar": "سُمّي كذلك لأنه يشبه حرف T عند فرده", "example": "I usually wear a T-shirt at home."},
+      {"word": "shorts", "pos": "noun", "meaning_en": "short trousers", "meaning_ar": "شورت / سروال قصير", "note_ar": "دائماً جمع مثل trousers", "example": "It's hot, so I'm wearing shorts."},
+      {"word": "shoes", "pos": "noun", "meaning_en": "things you wear on your feet", "meaning_ar": "أحذية", "note_ar": "المفرد shoe = فردة حذاء", "example": "Take off your shoes at the door."},
+      {"word": "sneakers / trainers", "pos": "noun", "meaning_en": "soft sports shoes", "meaning_ar": "حذاء رياضي", "note_ar": "sneakers أمريكي، trainers بريطاني", "example": "I need new trainers for the gym."},
+      {"word": "sandals", "pos": "noun", "meaning_en": "open summer shoes with straps", "meaning_ar": "صندل", "note_ar": "", "example": "I always wear sandals at the beach."},
+      {"word": "boots", "pos": "noun", "meaning_en": "shoes that cover the ankle or part of the leg", "meaning_ar": "حذاء برقبة / بوت", "note_ar": "", "example": "These boots keep my feet dry in the rain."},
+      {"word": "socks", "pos": "noun", "meaning_en": "soft things you wear on your feet inside shoes", "meaning_ar": "جوارب / شرابات", "note_ar": "", "example": "I can't find a matching pair of socks."},
+      {"word": "hat", "pos": "noun", "meaning_en": "something you wear on your head", "meaning_ar": "قبعة", "note_ar": "", "example": "Wear a hat in the sun."},
+      {"word": "scarf", "pos": "noun", "meaning_en": "a long piece of cloth worn around the neck", "meaning_ar": "وشاح / كوفية", "note_ar": "الجمع scarves", "example": "She wrapped a scarf around her neck."},
+      {"word": "gloves", "pos": "noun", "meaning_en": "things you wear on your hands to keep them warm", "meaning_ar": "قفازات / جوانتي", "note_ar": "جمع لأنهما اثنان", "example": "My hands are cold; where are my gloves?"},
+      {"word": "belt", "pos": "noun", "meaning_en": "a strip worn around the waist", "meaning_ar": "حزام", "note_ar": "", "example": "These trousers need a belt."},
+      {"word": "tie", "pos": "noun / verb", "meaning_en": "a long piece of cloth worn around the neck with a shirt; to fasten", "meaning_ar": "ربطة عنق / يربط", "note_ar": "من الفعل tie = يربط: how to tie a tie", "example": "He wears a tie to work every day."},
+      {"word": "sunglasses", "pos": "noun", "meaning_en": "dark glasses that protect your eyes from the sun", "meaning_ar": "نظارة شمسية", "note_ar": "glass = زجاج، glasses = نظارة (عدستان)", "example": "Don't forget your sunglasses."},
+      {"word": "handbag", "pos": "noun", "meaning_en": "a woman's bag for small personal things", "meaning_ar": "حقيبة يد", "note_ar": "", "example": "She put her phone in her handbag."},
+      {"word": "backpack", "pos": "noun", "meaning_en": "a bag you carry on your back", "meaning_ar": "حقيبة ظهر", "note_ar": "back = ظهر + pack = حزمة", "example": "My backpack is full of books."},
+      {"word": "wallet", "pos": "noun", "meaning_en": "a small case for money and cards", "meaning_ar": "محفظة", "note_ar": "", "example": "I keep my ID card in my wallet."},
+      {"word": "watch", "pos": "noun", "meaning_en": "a small clock you wear on your wrist", "meaning_ar": "ساعة يد", "note_ar": "ساعة الحائط = clock؛ و watch كفعل = يشاهد", "example": "My watch is five minutes fast."},
+      {"word": "earrings", "pos": "noun", "meaning_en": "jewellery worn on the ears", "meaning_ar": "أقراط / حَلَق", "note_ar": "ear = أذن + ring = حلقة", "example": "She wore gold earrings."},
+      {"word": "necklace", "pos": "noun", "meaning_en": "jewellery worn around the neck", "meaning_ar": "عِقد / قلادة", "note_ar": "neck = رقبة + lace = شريط", "example": "He gave his mother a silver necklace."},
+      {"word": "ring", "pos": "noun / verb", "meaning_en": "jewellery worn on the finger; to make a bell sound", "meaning_ar": "خاتم / يرن", "note_ar": "The phone is ringing = الهاتف يرن", "example": "She has a diamond ring."},
+      {"word": "bracelet", "pos": "noun", "meaning_en": "jewellery worn around the wrist", "meaning_ar": "سوار / إنسيال", "note_ar": "", "example": "This bracelet was a gift from my sister."},
+      {"word": "uniform", "pos": "noun", "meaning_en": "special clothes that everyone in a group wears", "meaning_ar": "زي موحّد", "note_ar": "uni = واحد + form = شكل", "example": "Students must wear a school uniform."},
+      {"word": "fashion", "pos": "noun", "meaning_en": "popular styles of clothes at a certain time", "meaning_ar": "موضة / أزياء", "note_ar": "", "example": "She's very interested in fashion."},
+      {"word": "promise", "pos": "verb / noun", "meaning_en": "to say you will surely do something", "meaning_ar": "يَعِد / وعد", "note_ar": "", "example": "I promise I'll call you tonight."},
+      {"word": "tempting", "pos": "adjective", "meaning_en": "making you want to have or do something", "meaning_ar": "مُغرٍ", "note_ar": "", "example": "The cakes in the window look so tempting."},
+      {"word": "try on", "pos": "phrasal verb", "meaning_en": "to put on clothes to see if they fit", "meaning_ar": "يقيس (الملابس)", "note_ar": "", "example": "Can I try on this jacket?"},
+      {"word": "hand", "pos": "verb", "meaning_en": "to give something to someone with your hand", "meaning_ar": "يناول", "note_ar": "hand كاسم = يد", "example": "She handed me the keys."},
+      {"word": "trip over", "pos": "phrasal verb", "meaning_en": "to hit your foot on something and almost fall", "meaning_ar": "يتعثّر في", "note_ar": "over لأنك ترفع قدمك لتعبر فوق الشيء؛ trip كاسم = رحلة", "example": "I tripped over the cat in the dark."},
+      {"word": "almost", "pos": "adverb", "meaning_en": "nearly, but not completely", "meaning_ar": "تقريباً / كاد", "note_ar": "", "example": "I almost missed the bus."},
+      {"word": "pick", "pos": "verb", "meaning_en": "to choose or take something", "meaning_ar": "ينتقي / يلتقط", "note_ar": "", "example": "Pick any colour you like."},
+      {"word": "silky", "pos": "adjective", "meaning_en": "soft and smooth like silk", "meaning_ar": "حريري", "note_ar": "silk = حرير (Silk Road = طريق الحرير)", "example": "She has long silky hair."},
+      {"word": "shiny", "pos": "adjective", "meaning_en": "bright and reflecting light", "meaning_ar": "لامع", "note_ar": "", "example": "He polished his shoes until they were shiny."},
+      {"word": "sparkle", "pos": "verb", "meaning_en": "to shine with small flashes of light", "meaning_ar": "يلمع / يبرق", "note_ar": "eyes sparkle at = تلمع العين انبهاراً بـ", "example": "Her eyes sparkled at the sight of the cake."},
+      {"word": "elegant", "pos": "adjective", "meaning_en": "beautiful and stylish", "meaning_ar": "أنيق", "note_ar": "", "example": "She looked elegant in her black dress."},
+      {"word": "supply", "pos": "noun / verb", "meaning_en": "an amount of something kept for use; to provide", "meaning_ar": "مؤونة / يزوّد", "note_ar": "", "example": "We have a month's supply of rice."},
+      {"word": "nervously", "pos": "adverb", "meaning_en": "in a worried way", "meaning_ar": "بتوتر", "note_ar": "من nervous = متوتر", "example": "He laughed nervously."},
+      {"word": "whisper", "pos": "verb", "meaning_en": "to speak very quietly", "meaning_ar": "يهمس", "note_ar": "", "example": "She whispered the answer to her friend."},
+      {"word": "fitting room", "pos": "noun", "meaning_en": "a small room in a shop where you try on clothes", "meaning_ar": "غرفة القياس", "note_ar": "", "example": "The fitting rooms are at the back of the store."}
+    ],
+    "fine_lines": [
+      {
+        "title": "coat vs jacket",
+        "words": ["coat", "jacket"],
+        "explanation_ar": "coat أطول وأثقل، ونلبسه فوق الملابس في البرد الشديد أو المطر. jacket أقصر وأخف ويمكن لبسه في جو معتدل.",
+        "examples": [
+          {"word": "coat", "sentence": "Wear your heavy coat; it's freezing outside."},
+          {"word": "jacket", "sentence": "A light jacket is enough for a spring evening."}
+        ]
+      },
+      {
+        "title": "trousers vs pants",
+        "words": ["trousers", "pants"],
+        "explanation_ar": "الاثنتان معناهما بنطلون. trousers شائعة في بريطانيا، و pants شائعة في أمريكا. انتبه: في بريطانيا pants تعني الملابس الداخلية. والكلمتان دائماً بصيغة الجمع.",
+        "examples": [
+          {"word": "trousers", "sentence": "My trousers are in the wash."},
+          {"word": "pants", "sentence": "These pants are too tight."}
+        ]
+      },
+      {
+        "title": "watch vs clock",
+        "words": ["watch", "clock"],
+        "explanation_ar": "watch ساعة تلبسها في يدك (ومن معاني watch يراقب، فأنت تراقب بها الوقت). clock ساعة تُعلّق على الحائط أو توضع على الطاولة.",
+        "examples": [
+          {"word": "watch", "sentence": "He looked at his watch and left."},
+          {"word": "clock", "sentence": "The clock on the wall stopped."}
+        ]
+      },
+      {
+        "title": "try on vs put on vs slip on",
+        "words": ["try on", "put on", "slip on"],
+        "explanation_ar": "try on تعني تقيس الملابس لترى هل تناسبك (عادة في المحل). put on تعني تلبس ملابسك عموماً. slip on تعني تلبس الشيء بسرعة وسهولة، كما نقول بالعربية «نطّ في البنطلون». لا تقل try on your coat عن معطفك الذي تملكه، بل put on your coat.",
+        "examples": [
+          {"word": "try on", "sentence": "She tried on three dresses before she chose one."},
+          {"word": "put on", "sentence": "Put on your coat; it's cold outside."},
+          {"word": "slip on", "sentence": "He slipped on his shoes and ran out."}
+        ]
+      },
+      {
+        "title": "enter vs enter into",
+        "words": ["enter", "enter into"],
+        "explanation_ar": "enter وحدها معناها «يدخل إلى» مكاناً حقيقياً له حدود (متجر، غرفة، حديقة)، فلا نضع بعدها حرف جر. enter into تُستخدم للدخول المعنوي (يدخل في نقاش، اتفاق، شراكة). ويمكن أن تعبّر into عن اختراق سطح، مثل رصاصة تدخل في الحائط.",
+        "examples": [
+          {"word": "enter", "sentence": "She entered the store at ten o'clock."},
+          {"word": "enter into", "sentence": "The two companies entered into an agreement."},
+          {"word": "enter into", "sentence": "I entered into a long conversation with Sara."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "on the other side", "meaning_ar": "على الجانب الآخر", "example": "On the other side of the street, there's a café."},
+      {"phrase": "just for fun", "meaning_ar": "لمجرد المرح / للتسلية", "example": "I bought this funny hat just for fun."},
+      {"phrase": "a year's supply", "meaning_ar": "مؤونة سنة كاملة", "example": "You bought a year's supply of coffee!"},
+      {"phrase": "a pair of ...", "meaning_ar": "زوج من ...", "example": "I need a pair of gloves for the winter."},
+      {"phrase": "eyes sparkle at", "meaning_ar": "تلمع العينان انبهاراً بـ", "example": "The child's eyes sparkled at the toys."},
+      {"phrase": "get dressed", "meaning_ar": "يرتدي ملابسه", "example": "I got dressed quickly and left."}
+    ],
+    "grammar": [
+      {
+        "title": "Adjective order: opinion before fact",
+        "explanation_ar": "في الإنجليزية الصفة التي تعبّر عن رأيك (جميل، قديم، رائع) تأتي قبل الصفة التي تعبّر عن حقيقة (لون، مادة). لذلك نقول a beautiful red dress وليس a red beautiful dress، عكس العربية «فستان أحمر جميل».",
+        "examples": ["a beautiful red dress", "an old metal box", "a lovely silver bracelet"]
+      },
+      {
+        "title": "Adjective / verb + verb-ing (describing a state)",
+        "explanation_ar": "إذا جاء بعد صفة فعل، أو جاء فعلان وراء بعض مثل spend، فالفعل الثاني يأخذ ing ويصبح كالاسم، مهما كان زمن الجملة. فـ was busy picking ليست ماضياً مستمراً، بل تعني «كانت مشغولة بانتقاء».",
+        "examples": [
+          "Sara was busy picking colourful socks.",
+          "He is busy reading a book.",
+          "She spent hours reading."
+        ]
+      },
+      {
+        "title": "Modal + base form, and when + subject vs while + -ing",
+        "explanation_ar": "تذكير: بعد would وأخواتها يأتي الفعل في شكله الأساسي (would only buy). وبعد when إذا جاء فاعل نستخدم الفعل عادياً (when she tripped)، أما بعد while بدون فاعل فنضيف ing (while looking).",
+        "examples": [
+          "She promised she would only buy a new shirt.",
+          "She laughed when she tripped over the boots.",
+          "She tripped while looking for sandals."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "The British word \"trousers\" is \"pants\" in:", "choices": ["Australia only", "American English", "French", "no country"], "answer": 1, "explanation_ar": "trousers بريطاني، pants أمريكي."},
+    {"question": "Which is correct?", "choices": ["a red beautiful dress", "a dress beautiful red", "a beautiful red dress", "a red dress beautiful"], "answer": 2, "explanation_ar": "صفة الرأي beautiful تأتي قبل صفة الحقيقة red."},
+    {"question": "She ___ the store at ten o'clock.", "choices": ["entered", "entered into", "entered to", "entered in"], "answer": 0, "explanation_ar": "الدخول إلى مكان حقيقي = enter بدون حرف جر."},
+    {"question": "The two companies ___ an agreement.", "choices": ["entered", "entered into", "tried on", "slipped on"], "answer": 1, "explanation_ar": "الدخول المعنوي في اتفاق = enter into."},
+    {"question": "It's cold outside. ___ your coat.", "choices": ["Try on", "Trip over", "Hand", "Put on"], "answer": 3, "explanation_ar": "تلبس ملابسك عموماً = put on، أما try on فللقياس في المحل."},
+    {"question": "Sara was busy ___ colourful socks.", "choices": ["pick", "picked", "picking", "to picked"], "answer": 2, "explanation_ar": "بعد الصفة busy يأخذ الفعل ing."},
+    {"question": "A small clock you wear on your wrist is a:", "choices": ["watch", "clock", "ring", "bracelet"], "answer": 0, "explanation_ar": "watch = ساعة يد، clock = ساعة حائط."},
+    {"question": "She almost tripped ___ a pair of boots.", "choices": ["in", "over", "on", "at"], "answer": 1, "explanation_ar": "trip over = يتعثر في (ترفع قدمك فوق الشيء)."},
+    {"question": "Which is usually longer and heavier?", "choices": ["a T-shirt", "a jacket", "a coat", "a shirt"], "answer": 2, "explanation_ar": "coat أطول وأثقل من jacket."},
+    {"question": "\"Tempting\" means:", "choices": ["making you want it", "very cheap", "too small", "broken"], "answer": 0, "explanation_ar": "tempting = مُغرٍ، يجعلك تريد شراءه."}
+  ]
+}

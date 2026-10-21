@@ -1,0 +1,111 @@
+{
+  "title": "Hotels and Accommodation",
+  "content": {
+    "vocabulary": [
+      {"word": "accommodation", "pos": "noun", "meaning_en": "a place where you stay or live", "meaning_ar": "مكان الإقامة / السكن", "note_ar": "تُكتب بحرفي c وحرفي m", "example": "We found cheap accommodation near the beach."},
+      {"word": "hotel", "pos": "noun", "meaning_en": "a building where people pay to stay and get services", "meaning_ar": "فندق", "note_ar": "", "example": "We stayed at a luxury hotel."},
+      {"word": "hostel", "pos": "noun", "meaning_en": "a cheap place to stay, usually sharing a room with other travellers", "meaning_ar": "نُزُل (للشباب غالباً)", "note_ar": "", "example": "Backpackers often stay in hostels."},
+      {"word": "guest house", "pos": "noun", "meaning_en": "a small hotel or private house where guests can stay", "meaning_ar": "دار ضيافة", "note_ar": "", "example": "The guest house had only six rooms."},
+      {"word": "resort", "pos": "noun", "meaning_en": "a holiday place with hotels, pools and activities", "meaning_ar": "منتجع", "note_ar": "", "example": "They spent a week at a beach resort."},
+      {"word": "motel", "pos": "noun", "meaning_en": "a hotel near a highway for people travelling by car", "meaning_ar": "موتيل (فندق الطرق السريعة)", "note_ar": "اختصار motor hotel", "example": "We stopped at a motel on our road trip."},
+      {"word": "bed and breakfast (B&B)", "pos": "noun", "meaning_en": "a small guest house that offers a room and breakfast", "meaning_ar": "مبيت وإفطار", "note_ar": "منها اسم تطبيق Airbnb", "example": "We stayed in a lovely B&B in the countryside."},
+      {"word": "inn", "pos": "noun", "meaning_en": "a small, often old hotel or pub in the countryside", "meaning_ar": "خان / نُزُل ريفي", "note_ar": "", "example": "The old inn served great food."},
+      {"word": "facilities", "pos": "noun", "meaning_en": "places and services provided for people to use", "meaning_ar": "مرافق", "note_ar": "", "example": "The hotel has excellent facilities."},
+      {"word": "single room", "pos": "noun", "meaning_en": "a room for one person", "meaning_ar": "غرفة مفردة", "note_ar": "", "example": "I booked a single room for two nights."},
+      {"word": "double room", "pos": "noun", "meaning_en": "a room with one big bed for two people", "meaning_ar": "غرفة مزدوجة", "note_ar": "", "example": "Is there a double room available?"},
+      {"word": "suite", "pos": "noun", "meaning_en": "a set of connected rooms in a hotel", "meaning_ar": "جناح", "note_ar": "تُنطق /swiːt/ مثل sweet", "example": "The suite has a bedroom and a sitting room."},
+      {"word": "reception", "pos": "noun", "meaning_en": "the desk where you check in and get your key", "meaning_ar": "الاستقبال", "note_ar": "", "example": "Please leave your key at reception."},
+      {"word": "lobby", "pos": "noun", "meaning_en": "the large open area at the entrance of a hotel", "meaning_ar": "بهو / ردهة الفندق", "note_ar": "", "example": "I'll meet you in the lobby at seven."},
+      {"word": "key card", "pos": "noun", "meaning_en": "a plastic card used to open a hotel room door", "meaning_ar": "بطاقة المفتاح", "note_ar": "", "example": "My key card stopped working."},
+      {"word": "swimming pool", "pos": "noun", "meaning_en": "a large area of water for swimming", "meaning_ar": "حمام سباحة", "note_ar": "", "example": "The swimming pool is open until 10 p.m."},
+      {"word": "gym", "pos": "noun", "meaning_en": "a room with equipment for exercise", "meaning_ar": "صالة رياضية", "note_ar": "", "example": "I go to the hotel gym every morning."},
+      {"word": "spa", "pos": "noun", "meaning_en": "a place for relaxing treatments like massage and steam", "meaning_ar": "منتجع صحي / سبا", "note_ar": "", "example": "She booked a massage at the spa."},
+      {"word": "check in", "pos": "phrasal verb", "meaning_en": "to arrive at a hotel and get your key", "meaning_ar": "يسجّل الوصول", "note_ar": "الاسم: check-in", "example": "We checked in at 2 p.m."},
+      {"word": "check out", "pos": "phrasal verb", "meaning_en": "to pay and leave a hotel", "meaning_ar": "يسجّل المغادرة", "note_ar": "الاسم: checkout / check-out", "example": "We have to check out by 11 a.m."},
+      {"word": "deposit", "pos": "noun", "meaning_en": "money you pay first, often returned later", "meaning_ar": "تأمين / عربون", "note_ar": "", "example": "The hotel asked for a deposit at check-in."},
+      {"word": "room service", "pos": "noun", "meaning_en": "food and drinks brought to your hotel room", "meaning_ar": "خدمة الغرف", "note_ar": "", "example": "We ordered room service for breakfast."},
+      {"word": "laundry", "pos": "noun", "meaning_en": "washing clothes; clothes that need washing", "meaning_ar": "غسيل الملابس", "note_ar": "", "example": "The hotel offers a laundry service."},
+      {"word": "concierge", "pos": "noun", "meaning_en": "a hotel worker who helps guests book tables and tickets and gives advice", "meaning_ar": "موظف الاستعلامات (الكونسيرج)", "note_ar": "كلمة فرنسية تُنطق /ˌkɒnsiˈeəʒ/", "example": "The concierge booked us a table for dinner."},
+      {"word": "comfortable", "pos": "adjective", "meaning_en": "pleasant and relaxing to use", "meaning_ar": "مريح", "note_ar": "تُنطق غالباً /ˈkʌmftəbl/ بثلاثة مقاطع", "example": "The bed was very comfortable."},
+      {"word": "luxurious", "pos": "adjective", "meaning_en": "very expensive and of the highest comfort", "meaning_ar": "فاخر", "note_ar": "الاسم: luxury", "example": "They stayed in a luxurious suite."},
+      {"word": "cheap", "pos": "adjective", "meaning_en": "costing little money", "meaning_ar": "رخيص", "note_ar": "", "example": "The hostel is cheap but clean."},
+      {"word": "affordable", "pos": "adjective", "meaning_en": "reasonable in price; not too expensive", "meaning_ar": "بسعر مناسب / في المتناول", "note_ar": "من afford = يقدر على تحمّل التكلفة", "example": "We found an affordable hotel in the centre."},
+      {"word": "expensive", "pos": "adjective", "meaning_en": "costing a lot of money", "meaning_ar": "غالٍ", "note_ar": "", "example": "Hotels are more expensive in summer."},
+      {"word": "available", "pos": "adjective", "meaning_en": "free and ready to be used", "meaning_ar": "متاح", "note_ar": "", "example": "Is there a room available tonight?"},
+      {"word": "fully booked", "pos": "adjective", "meaning_en": "with no free rooms or places left", "meaning_ar": "محجوز بالكامل", "note_ar": "", "example": "Sorry, we are fully booked this weekend."},
+      {"word": "subject", "pos": "noun", "meaning_en": "the title of an email", "meaning_ar": "موضوع / عنوان الرسالة", "note_ar": "", "example": "Write a clear subject for your email."},
+      {"word": "confirm", "pos": "verb", "meaning_en": "to say that something is true or definite", "meaning_ar": "يؤكّد", "note_ar": "الاسم: confirmation", "example": "Please confirm your booking by email."},
+      {"word": "access", "pos": "noun", "meaning_en": "the right or chance to use or enter something", "meaning_ar": "إمكانية الدخول / الاستخدام", "note_ar": "access to = إمكانية الوصول إلى", "example": "Guests have free access to the gym."},
+      {"word": "offer", "pos": "verb", "meaning_en": "to provide or make something available", "meaning_ar": "يقدّم / يعرض", "note_ar": "", "example": "Do you offer airport transfers?"},
+      {"word": "include", "pos": "verb", "meaning_en": "to have something as part of the whole", "meaning_ar": "يشمل / يتضمن", "note_ar": "", "example": "The price includes breakfast."},
+      {"word": "booking", "pos": "noun", "meaning_en": "an arrangement to have a room, seat or ticket", "meaning_ar": "حجز", "note_ar": "مرادف: reservation", "example": "Thank you for your booking."},
+      {"word": "backpacker", "pos": "noun", "meaning_en": "a traveller who carries a backpack and spends little money", "meaning_ar": "رحّالة يحمل حقيبة ظهر", "note_ar": "", "example": "The hostel was full of backpackers."},
+      {"word": "bunk bed", "pos": "noun", "meaning_en": "two beds, one on top of the other", "meaning_ar": "سرير بطابقين", "note_ar": "", "example": "I slept on the top bunk bed."},
+      {"word": "lift / elevator", "pos": "noun", "meaning_en": "a machine that carries people between floors", "meaning_ar": "مصعد", "note_ar": "lift بريطاني، elevator أمريكي", "example": "Take the elevator to the fifth floor."},
+      {"word": "bathrobe", "pos": "noun", "meaning_en": "a soft coat you wear after a bath", "meaning_ar": "روب الحمّام (البُرنس)", "note_ar": "", "example": "There are two bathrobes in the bathroom."}
+    ],
+    "fine_lines": [
+      {
+        "title": "hotel vs hostel vs motel",
+        "words": ["hotel", "hostel", "motel"],
+        "explanation_ar": "hotel مبنى تقليدي فيه غرف خاصة واستقبال وخدمة غرف ومرافق مثل الجيم وحمام السباحة. hostel مكان رخيص جداً تشارك فيه الغرفة مع آخرين بأسرّة بطابقين وحمامات مشتركة، وهو محبوب بين الطلاب والمسافرين بميزانية قليلة. motel (motor hotel) فندق على الطرق السريعة للمسافرين بسياراتهم، وغرفه تفتح مباشرة على موقف السيارات.",
+        "examples": [
+          {"word": "hotel", "sentence": "We stayed at a luxury hotel."},
+          {"word": "hostel", "sentence": "Backpackers usually stay in hostels."},
+          {"word": "motel", "sentence": "We stopped at a motel on our road trip."}
+        ]
+      },
+      {
+        "title": "booking vs reservation",
+        "words": ["booking", "reservation"],
+        "explanation_ar": "المعنى واحد تقريباً: حجز غرفة أو مقعد أو طاولة. booking أشيع في الإنجليزية البريطانية وفي الكلام اليومي، و reservation أشيع في الإنجليزية الأمريكية وفي السياقات الرسمية. والفعلان: book و reserve.",
+        "examples": [
+          {"word": "booking", "sentence": "Thank you for your booking."},
+          {"word": "reservation", "sentence": "I'd like to make a reservation for a double room."}
+        ]
+      },
+      {
+        "title": "cheap vs affordable vs expensive",
+        "words": ["cheap", "affordable", "expensive"],
+        "explanation_ar": "cheap رخيص السعر، وقد توحي أحياناً بجودة أقل. affordable سعره مناسب ومقدور عليه وقيمته جيدة مقابل المال، ليس رخيصاً ولا غالياً. expensive غالي الثمن.",
+        "examples": [
+          {"word": "cheap", "sentence": "The hostel is cheap but noisy."},
+          {"word": "affordable", "sentence": "We found an affordable hotel with a pool."},
+          {"word": "expensive", "sentence": "Five-star hotels are very expensive in summer."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "sleep on it", "meaning_ar": "يؤجّل القرار لليوم التالي ليفكر فيه بهدوء", "example": "I like the hotel's offer, but I'd like to sleep on it before I book."},
+      {"phrase": "I'd like to", "meaning_ar": "أودّ أن (أسلوب مهذب بدل I want to)", "example": "I'd like to make a reservation for a double room."},
+      {"phrase": "That sounds perfect", "meaning_ar": "هذا يبدو مثالياً (للتعبير عن الرضا)", "example": "A room with a sea view? That sounds perfect!"},
+      {"phrase": "Best regards", "meaning_ar": "مع أطيب التحيات (لختام الإيميل بأدب)", "example": "Best regards, Emma"},
+      {"phrase": "sell out", "meaning_ar": "تنفد (التذاكر أو الغرف) بسرعة", "example": "We can't sleep on it; the rooms are selling out fast."},
+      {"phrase": "good value for money", "meaning_ar": "قيمة جيدة مقابل السعر", "example": "The breakfast was good value for money."}
+    ],
+    "grammar": [
+      {
+        "title": "Future perfect with deadlines: by + time",
+        "explanation_ar": "نستخدم المستقبل التام (will have + التصريف الثالث) للحديث عن أهداف أو إنجازات ستكون قد اكتملت بحلول موعد محدد. كلمة by هنا تعني «بحلول / قبل هذا الوقت»: by the end of the year، by next week.",
+        "examples": ["By the end of the year, we will have built the hotel.", "By next week, I will have saved enough money.", "By Friday, they will have finished the rooms."]
+      },
+      {
+        "title": "By the time + present simple",
+        "explanation_ar": "بعد by the time نضع فاعلاً وفعلاً في المضارع البسيط وليس will. نقول by the time Emma arrives وليس by the time Emma will arrive، وهذا من أشهر أخطاء الطلاب.",
+        "examples": ["By the time Emma arrives, the hotel will have prepared her room.", "By the time we check out, we will have paid the bill."]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "A cheap place where travellers share rooms with bunk beds is a:", "choices": ["motel", "suite", "hostel", "resort"], "answer": 2, "explanation_ar": "hostel مكان رخيص بغرف مشتركة."},
+    {"question": "A hotel by the highway, made for people travelling by car, is a:", "choices": ["motel", "hostel", "inn", "lobby"], "answer": 0, "explanation_ar": "motel = motor hotel على الطرق السريعة."},
+    {"question": "By the time Emma ___, the hotel will have prepared her room.", "choices": ["will arrive", "arrived", "arrives", "will have arrived"], "answer": 2, "explanation_ar": "بعد by the time نستخدم المضارع البسيط arrives."},
+    {"question": "By the end of the year, we ___ the hotel.", "choices": ["will have built", "build", "are building", "will building"], "answer": 0, "explanation_ar": "إنجاز سيكتمل بحلول موعد محدد = will have + التصريف الثالث."},
+    {"question": "\"Let me sleep on it\" means:", "choices": ["I'm very tired", "I want to think about it before deciding", "I want a bigger bed", "I agree right now"], "answer": 1, "explanation_ar": "sleep on it = يؤجل القرار لليوم التالي ليفكر."},
+    {"question": "\"All rooms are fully booked\" means:", "choices": ["rooms are cheap", "rooms are clean", "many rooms are free", "no rooms are available"], "answer": 3, "explanation_ar": "fully booked = محجوز بالكامل، لا توجد غرف."},
+    {"question": "The hotel worker who books restaurants and tickets for guests is the:", "choices": ["conductor", "concierge", "pilot", "backpacker"], "answer": 1, "explanation_ar": "concierge موظف الاستعلامات الذي يساعد الضيوف."},
+    {"question": "A set of connected rooms in a hotel is a:", "choices": ["single room", "lobby", "suite", "gym"], "answer": 2, "explanation_ar": "suite = جناح، وتُنطق مثل sweet."},
+    {"question": "Not cheap and not expensive, but reasonable in price:", "choices": ["luxurious", "affordable", "available", "comfortable"], "answer": 1, "explanation_ar": "affordable = بسعر مناسب ومقدور عليه."},
+    {"question": "According to the lesson, hotel stars mainly tell you about:", "choices": ["how beautiful the hotel is", "how friendly the staff are", "how clean the rooms are", "the number of services and facilities"], "answer": 3, "explanation_ar": "النجوم قائمة مرافق وخدمات، ولا تقيس الجودة أو الجمال."}
+  ]
+}

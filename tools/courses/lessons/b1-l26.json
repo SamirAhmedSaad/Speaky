@@ -1,0 +1,113 @@
+{
+  "title": "Holiday Types and Activities",
+  "content": {
+    "vocabulary": [
+      {"word": "beach holiday", "pos": "noun", "meaning_en": "a holiday spent relaxing near the sea", "meaning_ar": "عطلة على الشاطئ", "note_ar": "", "example": "We are planning a beach holiday in August."},
+      {"word": "city break", "pos": "noun", "meaning_en": "a short holiday in a famous city", "meaning_ar": "عطلة قصيرة في مدينة", "note_ar": "غالباً عطلة نهاية أسبوع للتسوق والاستكشاف", "example": "They took a city break in Rome for three days."},
+      {"word": "adventure holiday", "pos": "noun", "meaning_en": "a holiday with exciting, active things like climbing or rafting", "meaning_ar": "عطلة مغامرة", "note_ar": "", "example": "My brother loves adventure holidays in the mountains."},
+      {"word": "rafting", "pos": "noun", "meaning_en": "travelling down a river on a small boat", "meaning_ar": "التجديف في الأنهار بالقوارب المطاطية", "note_ar": "", "example": "Rafting on a fast river is not for beginners."},
+      {"word": "camping", "pos": "noun", "meaning_en": "spending a holiday living in a tent", "meaning_ar": "تخييم", "note_ar": "tent = خيمة", "example": "We went camping by the lake last summer."},
+      {"word": "cruise", "pos": "noun", "meaning_en": "a holiday on a large ship", "meaning_ar": "رحلة بحرية", "note_ar": "", "example": "My parents went on a cruise around the islands."},
+      {"word": "safari", "pos": "noun", "meaning_en": "a trip to see wild animals, especially in Africa", "meaning_ar": "رحلة سفاري لمشاهدة الحيوانات البرية", "note_ar": "wild animals = حيوانات برية", "example": "We saw lions and giraffes on our safari."},
+      {"word": "backpacking", "pos": "noun", "meaning_en": "travelling cheaply with only a backpack, visiting many places", "meaning_ar": "السفر بحقيبة الظهر", "note_ar": "backpack = حقيبة ظهر", "example": "She spent a month backpacking around Asia."},
+      {"word": "hiking", "pos": "noun", "meaning_en": "going for long walks in nature or mountains", "meaning_ar": "المشي لمسافات طويلة في الطبيعة", "note_ar": "", "example": "Hiking is a great way to stay fit on holiday."},
+      {"word": "swimming", "pos": "noun", "meaning_en": "moving through water using your arms and legs", "meaning_ar": "السباحة", "note_ar": "تتضاعف m: swim → swimming", "example": "The children spent all day swimming in the pool."},
+      {"word": "sunbathing", "pos": "noun", "meaning_en": "lying in the sun to make your skin darker", "meaning_ar": "التشمّس", "note_ar": "", "example": "Don't forget sun cream if you go sunbathing."},
+      {"word": "skiing", "pos": "noun", "meaning_en": "sliding down snowy hills on long boards called skis", "meaning_ar": "التزلج على الجليد", "note_ar": "انتبه: حرفا i متتاليان", "example": "We go skiing in the Alps every winter."},
+      {"word": "surfing", "pos": "noun", "meaning_en": "riding on waves using a special board", "meaning_ar": "ركوب الأمواج", "note_ar": "", "example": "He learned surfing from the local people."},
+      {"word": "diving", "pos": "noun", "meaning_en": "swimming under the water, often with special equipment", "meaning_ar": "الغوص", "note_ar": "", "example": "The Red Sea is famous for diving."},
+      {"word": "shopping", "pos": "noun", "meaning_en": "buying things in shops", "meaning_ar": "التسوق", "note_ar": "", "example": "She went shopping for sunglasses."},
+      {"word": "exploring", "pos": "noun", "meaning_en": "travelling around a new place to learn about it", "meaning_ar": "الاستكشاف", "note_ar": "explore = يستكشف", "example": "We spent the afternoon exploring the old town."},
+      {"word": "tourist", "pos": "noun", "meaning_en": "a person who visits a place for fun", "meaning_ar": "سائح", "note_ar": "", "example": "The castle is always full of tourists."},
+      {"word": "traveller", "pos": "noun", "meaning_en": "a person who travels, often to explore and live like local people", "meaning_ar": "مسافر / رحّالة", "note_ar": "traveller بريطاني، traveler أمريكي", "example": "As a traveller, he likes to eat local food."},
+      {"word": "journey", "pos": "noun", "meaning_en": "a long trip from one place to another", "meaning_ar": "رحلة طويلة", "note_ar": "", "example": "The journey across the desert took two days."},
+      {"word": "trip", "pos": "noun", "meaning_en": "a short journey to a place and back again", "meaning_ar": "رحلة قصيرة", "note_ar": "", "example": "We had a day trip to the beach."},
+      {"word": "tour", "pos": "noun", "meaning_en": "an organised visit to see different places", "meaning_ar": "جولة", "note_ar": "", "example": "We joined a bus tour of the city."},
+      {"word": "guide", "pos": "noun", "meaning_en": "a person who shows the way and explains things", "meaning_ar": "مرشد", "note_ar": "guidebook = كتاب الإرشاد السياحي", "example": "Our guide told us the history of the temple."},
+      {"word": "guidebook", "pos": "noun", "meaning_en": "a book with information about a place for travellers", "meaning_ar": "كتاب إرشادي للسياح", "note_ar": "", "example": "I bought a guidebook before the trip."},
+      {"word": "map", "pos": "noun", "meaning_en": "a drawing of an area that shows roads and places", "meaning_ar": "خريطة", "note_ar": "", "example": "Can you find the hotel on the map?"},
+      {"word": "itinerary", "pos": "noun", "meaning_en": "a detailed plan or route for a journey", "meaning_ar": "خطة الرحلة التفصيلية", "note_ar": "تُنطق /aɪˈtɪnərəri/", "example": "Day one of our itinerary is a museum visit."},
+      {"word": "resort", "pos": "noun", "meaning_en": "a place where people go on holiday, with hotels and activities", "meaning_ar": "منتجع", "note_ar": "", "example": "The beach resort has three swimming pools."},
+      {"word": "exciting", "pos": "adjective", "meaning_en": "making you feel very happy and interested", "meaning_ar": "مثير", "note_ar": "", "example": "The boat ride was really exciting."},
+      {"word": "relaxing", "pos": "adjective", "meaning_en": "making you feel calm and comfortable", "meaning_ar": "مريح / يبعث على الاسترخاء", "note_ar": "", "example": "A week by the sea was so relaxing."},
+      {"word": "adventurous", "pos": "adjective", "meaning_en": "willing to take risks and try new things", "meaning_ar": "مغامر / محب للمغامرة", "note_ar": "adventure → adventurous", "example": "Ali is the most adventurous person in our group."},
+      {"word": "tiring", "pos": "adjective", "meaning_en": "making you feel tired", "meaning_ar": "متعب", "note_ar": "tiring = الشيء المتعب، tired = الشخص التعبان", "example": "The long walk was very tiring."},
+      {"word": "unforgettable", "pos": "adjective", "meaning_en": "so good that you cannot forget it", "meaning_ar": "لا يُنسى", "note_ar": "un + forget + able", "example": "Our trip to Egypt was unforgettable."},
+      {"word": "sunglasses", "pos": "noun", "meaning_en": "dark glasses that protect your eyes from the sun", "meaning_ar": "نظارة شمسية", "note_ar": "دائماً بصيغة الجمع", "example": "I left my sunglasses at the hotel."},
+      {"word": "unpack", "pos": "verb", "meaning_en": "to take things out of a suitcase", "meaning_ar": "يُفرغ الحقيبة", "note_ar": "pack = يحزم الحقيبة، unpack عكسها", "example": "We unpacked and went straight to the beach."},
+      {"word": "straight", "pos": "adverb", "meaning_en": "directly, without stopping", "meaning_ar": "مباشرة", "note_ar": "", "example": "After school, she went straight home."},
+      {"word": "roll", "pos": "verb", "meaning_en": "to turn over and over while moving", "meaning_ar": "يتدحرج", "note_ar": "", "example": "The ball rolled down the hill."},
+      {"word": "hill", "pos": "noun", "meaning_en": "a small mountain", "meaning_ar": "تل", "note_ar": "", "example": "There is a small house on top of the hill."},
+      {"word": "locals", "pos": "noun", "meaning_en": "people who live in a particular place", "meaning_ar": "السكان المحليون", "note_ar": "local في الإنجليزية ليس لها معنى سلبي", "example": "Ask the locals for the best restaurant."},
+      {"word": "itchy feet", "pos": "idiom", "meaning_en": "a strong wish to travel or move to a new place", "meaning_ar": "رغبة شديدة في السفر وتغيير المكان", "note_ar": "حرفياً: أقدام تُحكّك", "example": "After a year at home, I've got itchy feet."}
+    ],
+    "fine_lines": [
+      {
+        "title": "tourist vs traveller",
+        "words": ["tourist", "traveller"],
+        "explanation_ar": "الفرق هنا في أسلوب السفر وليس في نوع التأشيرة. tourist يسافر للمتعة والراحة، يزور الأماكن المشهورة والآمنة ويقيم في فنادق مريحة. traveller يسافر ليستكشف ويعيش ثقافة البلد: يأكل أكل أهلها، يزور أماكن غير مشهورة، وغالباً يسافر بحقيبة ظهر وبتكلفة قليلة.",
+        "examples": [
+          {"word": "tourist", "sentence": "The museum was crowded with tourists."},
+          {"word": "traveller", "sentence": "As a traveller, she stayed with a local family."}
+        ]
+      },
+      {
+        "title": "journey vs trip vs tour",
+        "words": ["journey", "trip", "tour"],
+        "explanation_ar": "journey رحلة طويلة من مكان لمكان (التركيز على الطريق نفسه). trip رحلة قصيرة إلى مكان ثم العودة. tour جولة منظمة لزيارة عدة معالم في مكان واحد.",
+        "examples": [
+          {"word": "journey", "sentence": "The train journey took ten hours."},
+          {"word": "trip", "sentence": "We went on a short trip to the lake."},
+          {"word": "tour", "sentence": "The guide took us on a tour of the palace."}
+        ]
+      },
+      {
+        "title": "tiring vs tired",
+        "words": ["tiring", "tired"],
+        "explanation_ar": "الصفة التي تنتهي بـ ing تصف الشيء الذي يسبب الشعور (المشي متعب)، والتي تنتهي بـ ed تصف الشخص الذي يشعر به (أنا تعبان).",
+        "examples": [
+          {"word": "tiring", "sentence": "Hiking up the mountain was tiring."},
+          {"word": "tired", "sentence": "I was too tired to go out after the hike."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "have itchy feet", "meaning_ar": "يشعر برغبة قوية في السفر وتغيير المكان", "example": "Every winter I get itchy feet and want to fly somewhere warm."},
+      {"phrase": "develop itchy feet", "meaning_ar": "يبدأ يشعر بالرغبة في السفر", "example": "After months at home, she developed itchy feet."},
+      {"phrase": "keep saying", "meaning_ar": "يظل يقول / يكرر القول", "example": "He kept saying that he was hungry."},
+      {"phrase": "run straight to", "meaning_ar": "يجري مباشرة إلى", "example": "The kids ran straight to the pool."},
+      {"phrase": "go shopping for", "meaning_ar": "يذهب للتسوق لشراء شيء معين", "example": "Let's go shopping for new shoes."},
+      {"phrase": "plan an itinerary", "meaning_ar": "يضع خطة الرحلة", "example": "We planned our itinerary before we left."}
+    ],
+    "grammar": [
+      {
+        "title": "Future perfect continuous for cause and effect",
+        "explanation_ar": "نستخدم المستقبل التام المستمر (will have been + فعل ing) لنذكر السبب: حدث مستمر لفترة حتى نقطة في المستقبل. ثم نذكر النتيجة بالمستقبل البسيط (will + فعل).",
+        "examples": [
+          "By the time we reach the resort, we will have been driving for five hours, so we will be very tired.",
+          "When we get to the station, Omar will have been waiting for three hours, so he will be angry."
+        ]
+      },
+      {
+        "title": "Future perfect continuous for predictions",
+        "explanation_ar": "نستخدمه أيضاً للتخمين أو التوقع عن مدة نشاط مستمر حتى وقت معين في المستقبل. غالباً مع by أو at this time next ...",
+        "examples": [
+          "This time next week, they will have been travelling for a month.",
+          "By June, I will have been learning English for a year."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "A short holiday spent in a famous city is a:", "choices": ["cruise", "safari", "city break", "camping"], "answer": 2, "explanation_ar": "city break = عطلة قصيرة في مدينة مشهورة."},
+    {"question": "A detailed plan for a journey is called an:", "choices": ["itinerary", "adventure", "resort", "occasion"], "answer": 0, "explanation_ar": "itinerary = خطة الرحلة التفصيلية."},
+    {"question": "She likes to eat local food, stay with local families and visit places that are not famous. She is a real:", "choices": ["tourist", "guide", "cashier", "traveller"], "answer": 3, "explanation_ar": "traveller يسافر ليستكشف ويعيش ثقافة البلد."},
+    {"question": "Lying in the sun to get darker skin is:", "choices": ["surfing", "sunbathing", "diving", "hiking"], "answer": 1, "explanation_ar": "sunbathing = التشمّس."},
+    {"question": "Which word is spelled correctly?", "choices": ["sking", "skying", "skiing", "skeeing"], "answer": 2, "explanation_ar": "skiing تُكتب بحرفي i متتاليين."},
+    {"question": "After a year in the same city, I have ___ . I need to travel!", "choices": ["itchy feet", "cold feet", "tired hands", "a broken leg"], "answer": 0, "explanation_ar": "itchy feet = رغبة قوية في السفر."},
+    {"question": "By the time we arrive, we ___ for six hours.", "choices": ["will drive", "will have been driving", "are driving", "drove"], "answer": 1, "explanation_ar": "حدث مستمر لفترة حتى نقطة في المستقبل = will have been + ing."},
+    {"question": "\"The walk was very tiring.\" The word \"tiring\" describes:", "choices": ["the person", "the weather", "the hotel", "the walk that made us tired"], "answer": 3, "explanation_ar": "الصفة بـ ing تصف الشيء المسبب للشعور."},
+    {"question": "\"To unpack\" means to:", "choices": ["put clothes into a suitcase", "take things out of a suitcase", "buy a new bag", "lose your luggage"], "answer": 1, "explanation_ar": "unpack = يُفرغ الحقيبة."},
+    {"question": "A trip to see wild animals in Africa is a:", "choices": ["cruise", "city break", "tour of a palace", "safari"], "answer": 3, "explanation_ar": "safari = رحلة لمشاهدة الحيوانات البرية."}
+  ]
+}

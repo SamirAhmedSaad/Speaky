@@ -1,0 +1,153 @@
+{
+  "title": "Sales and Black Friday",
+  "content": {
+    "vocabulary": [
+      {"word": "discount", "pos": "noun / verb", "meaning_en": "an amount taken off a price; to reduce a price", "meaning_ar": "خصم / يخصم", "note_ar": "", "example": "They discounted all the shoes by 20%."},
+      {"word": "sale", "pos": "noun", "meaning_en": "a time when things are sold at lower prices", "meaning_ar": "تخفيضات / عروض", "note_ar": "on sale = عليه تخفيض (في بريطانيا قد تعني معروض للبيع فقط)، for sale = معروض للبيع", "example": "The big summer sale starts on Monday."},
+      {"word": "bargain", "pos": "noun", "meaning_en": "something bought cheaply for its value", "meaning_ar": "صفقة رابحة / لُقطة", "note_ar": "", "example": "This sofa was a real bargain."},
+      {"word": "special offer", "pos": "noun", "meaning_en": "a product sold at a special low price", "meaning_ar": "عرض خاص", "note_ar": "", "example": "Pasta is on special offer this week."},
+      {"word": "clearance", "pos": "noun", "meaning_en": "selling old stock cheaply to make space for new goods", "meaning_ar": "تصفية", "note_ar": "من clear = يُخلي / يُنظف", "example": "Everything in the clearance sale is half price."},
+      {"word": "coupon", "pos": "noun", "meaning_en": "a paper or code that gives you money off", "meaning_ar": "قسيمة خصم / كوبون", "note_ar": "تُنطق /ˈkuːpɒn/ أو /ˈkjuːpɒn/", "example": "Use this coupon to get 20% off."},
+      {"word": "voucher", "pos": "noun", "meaning_en": "a prepaid paper you can use instead of money", "meaning_ar": "قسيمة شراء مدفوعة مسبقاً", "note_ar": "", "example": "I got a $50 gift voucher for my birthday."},
+      {"word": "promotion", "pos": "noun", "meaning_en": "a special offer to make people buy something; a higher job", "meaning_ar": "عرض ترويجي / ترقية في العمل", "note_ar": "", "example": "The shop is running a promotion on phones."},
+      {"word": "deal", "pos": "noun", "meaning_en": "a good price; an agreement", "meaning_ar": "صفقة / اتفاق", "note_ar": "", "example": "I found some great deals online."},
+      {"word": "half price", "pos": "noun / adjective", "meaning_en": "for 50% of the normal price", "meaning_ar": "نصف السعر", "note_ar": "", "example": "All jackets are half price today."},
+      {"word": "reduced", "pos": "adjective", "meaning_en": "made lower in price", "meaning_ar": "مخفّض", "note_ar": "من reduce = يقلّل", "example": "These shirts are reduced from $40 to $25."},
+      {"word": "percentage", "pos": "noun", "meaning_en": "an amount out of a hundred", "meaning_ar": "نسبة مئوية", "note_ar": "", "example": "What percentage of the price can I save?"},
+      {"word": "save", "pos": "verb", "meaning_en": "to spend less money", "meaning_ar": "يوفّر", "note_ar": "", "example": "You save $10 if you buy two."},
+      {"word": "BOGO (buy one, get one free)", "pos": "phrase", "meaning_en": "buy one item and get a second one free", "meaning_ar": "اشترِ واحدة واحصل على الثانية مجاناً", "note_ar": "BOGO اختصار من أول حرف في كل كلمة", "example": "There's a BOGO offer on T-shirts."},
+      {"word": "limited time", "pos": "noun", "meaning_en": "only for a short period", "meaning_ar": "وقت محدود", "note_ar": "", "example": "This price is for a limited time only."},
+      {"word": "seasonal sale", "pos": "noun", "meaning_en": "a sale at a certain season, like summer or winter", "meaning_ar": "تخفيض موسمي", "note_ar": "season = موسم، seasonal = موسمي", "example": "I always wait for the seasonal sales."},
+      {"word": "Black Friday", "pos": "noun", "meaning_en": "the big sale day after Thanksgiving in the USA", "meaning_ar": "الجمعة السوداء (البيضاء في العالم العربي)", "note_ar": "", "example": "Shops are very crowded on Black Friday."},
+      {"word": "end of season", "pos": "noun", "meaning_en": "the time when a season finishes", "meaning_ar": "نهاية الموسم", "note_ar": "", "example": "End-of-season prices are very low."},
+      {"word": "outlet", "pos": "noun", "meaning_en": "a shop that sells a brand's goods cheaply", "meaning_ar": "منفذ بيع / متجر تخفيضات", "note_ar": "أصلها factory outlet = منفذ بيع المصنع", "example": "I bought these trainers at the outlet."},
+      {"word": "in bulk", "pos": "phrase", "meaning_en": "in large amounts", "meaning_ar": "بكميات كبيرة", "note_ar": "انتبه لحرف الجر in", "example": "It's cheaper to buy rice in bulk."},
+      {"word": "expire", "pos": "verb", "meaning_en": "to come to an end; to stop being valid", "meaning_ar": "ينتهي (العرض / الصلاحية)", "note_ar": "", "example": "The offer expires on Sunday."},
+      {"word": "clearance rack", "pos": "noun", "meaning_en": "the rail with cheap old stock in a shop", "meaning_ar": "رف التصفية", "note_ar": "rack = رف / حامل", "example": "I found this dress on the clearance rack."},
+      {"word": "markdown", "pos": "noun", "meaning_en": "a lasting cut in a product's original price", "meaning_ar": "تخفيض السعر الأصلي", "note_ar": "", "example": "There's a big markdown on winter coats."},
+      {"word": "membership", "pos": "noun", "meaning_en": "being a member of a club or group", "meaning_ar": "عضوية", "note_ar": "", "example": "Membership gives you free delivery."},
+      {"word": "cashback", "pos": "noun", "meaning_en": "money you get back after buying something", "meaning_ar": "استرداد نقدي", "note_ar": "", "example": "I got 10% cashback on my order."},
+      {"word": "affordable", "pos": "adjective", "meaning_en": "at a price you can pay", "meaning_ar": "بسعر معقول / في المتناول", "note_ar": "من afford = يقدر مالياً؛ ليست بالضرورة cheap", "example": "We're looking for an affordable flat."},
+      {"word": "price tag", "pos": "noun", "meaning_en": "a label showing the price", "meaning_ar": "بطاقة السعر", "note_ar": "", "example": "Check the price tag before you buy."},
+      {"word": "crowd", "pos": "noun", "meaning_en": "a large group of people", "meaning_ar": "حشد / زحام", "note_ar": "", "example": "The crowd was wild."},
+      {"word": "wild", "pos": "adjective", "meaning_en": "out of control; living in nature", "meaning_ar": "جامح / بري", "note_ar": "wild animals = حيوانات مفترسة / برية", "example": "The fans went wild after the goal."},
+      {"word": "adventurous", "pos": "adjective", "meaning_en": "liking new and exciting things", "meaning_ar": "مغامر", "note_ar": "adventure + ous؛ اللاحقة ous تحوّل الاسم إلى صفة (humour → humorous)", "example": "She's adventurous and loves travelling alone."},
+      {"word": "loyalty card", "pos": "noun", "meaning_en": "a card that collects points when you shop", "meaning_ar": "بطاقة الولاء", "note_ar": "", "example": "Do you have a loyalty card?"},
+      {"word": "trick", "pos": "noun / verb", "meaning_en": "something done to fool someone; to fool", "meaning_ar": "خدعة / يخدع", "note_ar": "", "example": "Some bargains are just tricks."},
+      {"word": "collapse", "pos": "verb", "meaning_en": "to suddenly fall down", "meaning_ar": "ينهار", "note_ar": "", "example": "She collapsed onto the sofa, tired."},
+      {"word": "survive", "pos": "verb", "meaning_en": "to stay alive through something difficult", "meaning_ar": "ينجو", "note_ar": "", "example": "I can't survive another week like this!"},
+      {"word": "battlefield", "pos": "noun", "meaning_en": "a place where a battle is fought", "meaning_ar": "ساحة معركة", "note_ar": "battle = معركة + field = حقل / ساحة", "example": "The shop looked like a battlefield."},
+      {"word": "meanwhile", "pos": "adverb", "meaning_en": "at the same time", "meaning_ar": "في هذه الأثناء", "note_ar": "", "example": "Meanwhile, James was restocking the shelves."},
+      {"word": "sigh", "pos": "verb", "meaning_en": "to breathe out loudly because you are tired or sad", "meaning_ar": "يتنهّد", "note_ar": "gh صامتة: تُنطق /saɪ/", "example": "He sighed and closed the book."},
+      {"word": "restock", "pos": "verb", "meaning_en": "to fill shelves with goods again", "meaning_ar": "يعيد ملء / تزويد المخزون", "note_ar": "re + stock", "example": "They restock the shelves every morning."},
+      {"word": "madness", "pos": "noun", "meaning_en": "very silly or crazy behaviour", "meaning_ar": "جنون", "note_ar": "من mad = مجنون / غاضب جداً", "example": "Every year it's the same madness."},
+      {"word": "mutter", "pos": "verb", "meaning_en": "to speak quietly, often in an unhappy way", "meaning_ar": "يتمتم / يبرطم", "note_ar": "", "example": "He muttered something about the prices."},
+      {"word": "swear", "pos": "verb", "meaning_en": "to promise strongly", "meaning_ar": "يُقسم / يحلف", "note_ar": "الماضي swore", "example": "She swore she would never be late again."}
+    ],
+    "fine_lines": [
+      {
+        "title": "coupon vs voucher",
+        "words": ["coupon", "voucher"],
+        "explanation_ar": "coupon يقلّل السعر: يعطيك خصماً بنسبة أو مبلغ، لكنك تظل تدفع. voucher نفسه يُعتبر نقوداً مدفوعة مسبقاً بقيمة معينة، فتشتري به بدون دفع حتى قيمته. باختصار: الكوبون يخفض السعر، والفاوتشر يدفع السعر.",
+        "examples": [
+          {"word": "coupon", "sentence": "With this coupon, you get 20% off your next order."},
+          {"word": "voucher", "sentence": "I paid for the book with a $20 gift voucher."}
+        ]
+      },
+      {
+        "title": "discount vs markdown",
+        "words": ["discount", "markdown"],
+        "explanation_ar": "discount مصطلح عام لأي تقليل في السعر، وقد يكون مؤقتاً (عرض، كوبون) ثم يعود السعر الأصلي. markdown تخفيض دائم للسعر الأصلي لأن المنتج لم يُبع أو لأن الموسم انتهى، وغالباً لا يرتفع السعر مرة أخرى بل قد ينخفض أكثر.",
+        "examples": [
+          {"word": "discount", "sentence": "Members get a 10% discount this weekend only."},
+          {"word": "markdown", "sentence": "The jacket didn't sell, so there was a markdown from $100 to $60."}
+        ]
+      },
+      {
+        "title": "on sale vs for sale",
+        "words": ["on sale", "for sale"],
+        "explanation_ar": "for sale تعني أن الشيء معروض للبيع فقط. on sale تعني في أمريكا أن عليه تخفيضاً، لكن في بريطانيا قد تعني فقط أنه متاح للبيع مثل for sale.",
+        "examples": [
+          {"word": "for sale", "sentence": "Their house is for sale."},
+          {"word": "on sale", "sentence": "These boots are on sale; they're 30% off."}
+        ]
+      },
+      {
+        "title": "affordable vs cheap",
+        "words": ["affordable", "cheap"],
+        "explanation_ar": "cheap تعني رخيص. affordable تعني سعره معقول وتقدر عليه، وهي نسبية تختلف من شخص لآخر، ولا تعني بالضرورة أن الشيء رخيص.",
+        "examples": [
+          {"word": "cheap", "sentence": "These plastic cups are very cheap."},
+          {"word": "affordable", "sentence": "The new phone is expensive, but it's affordable for me."}
+        ]
+      },
+      {
+        "title": "as vs like (role vs similarity)",
+        "words": ["as", "like"],
+        "explanation_ar": "as تبيّن الدور الحقيقي (مثل الكاف في العربية بمعنى «بصفته»): works as a teacher يعني هو مدرس فعلاً. like للتشبيه: works like a teacher يعني يتصرف مثل المدرسين لكنه ليس مدرساً.",
+        "examples": [
+          {"word": "as", "sentence": "He works as a teacher in a small school."},
+          {"word": "like", "sentence": "He explains things like a teacher, but he's an engineer."}
+        ]
+      },
+      {
+        "title": "pay through the nose vs rip-off",
+        "words": ["pay through the nose", "rip-off"],
+        "explanation_ar": "rip-off يعني أن هناك خداعاً أو استغلالاً في السعر. pay through the nose يعني أنك دفعت مبلغاً باهظاً جداً، وقد تكون تعرف أنه مبالغ فيه دون أن يخدعك أحد، مثل تذاكر مباراة مهمة.",
+        "examples": [
+          {"word": "pay through the nose", "sentence": "We paid through the nose for the final match tickets."},
+          {"word": "rip-off", "sentence": "That taxi fare was a total rip-off."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "pay through the nose", "meaning_ar": "يدفع مبلغاً باهظاً / يدفع دم قلبه", "example": "I paid through the nose for this ticket."},
+      {"phrase": "cost an arm and a leg", "meaning_ar": "يكلّف مبلغاً كبيراً جداً", "example": "Their wedding cost an arm and a leg."},
+      {"phrase": "as always / as ever", "meaning_ar": "كالعادة (as ever أكثر أدبية ورسمية)", "example": "Sara, dramatic as ever, collapsed on the sofa."},
+      {"phrase": "at a huge discount", "meaning_ar": "بخصم ضخم", "example": "I found a jacket at a huge discount."},
+      {"phrase": "by the end", "meaning_ar": "بحلول النهاية (شيء يحدث تدريجياً)", "example": "By the end of the day, I was exhausted."},
+      {"phrase": "in bulk", "meaning_ar": "بكميات كبيرة", "example": "Restaurants buy oil in bulk."},
+      {"phrase": "keep the store alive", "meaning_ar": "يُبقي المتجر حياً / يعمل", "example": "At least the promotions keep the store alive."}
+    ],
+    "grammar": [
+      {
+        "title": "Three uses of \"as\"",
+        "explanation_ar": "1) as بمعنى while (بينما / أثناء). 2) as بمعنى because أو since (بما أن / لأن)، وغالباً في بداية الجملة. 3) as لبيان الدور (كـ / بصفته)، ولا نستخدم like هنا لأنها للتشبيه.",
+        "examples": [
+          "James sighed as he restocked the sale section.",
+          "As it was Black Friday, the mall was crowded.",
+          "He works as a teacher."
+        ]
+      },
+      {
+        "title": "Reported yes/no questions with if / whether",
+        "explanation_ar": "الأسئلة التي إجابتها نعم أو لا (Do you...? Is this...?) ننقلها باستخدام if أو whether (بمعنى «إذا / هل»)، ثم الفاعل والفعل بدون فعل مساعد للسؤال، مع الحفاظ على الماضي وتغيير this إلى that منطقياً. انتبه: whether (سواء / إذا) تختلف عن weather (الطقس).",
+        "examples": [
+          "\"Do you have a loyalty card?\" → The seller asked if I had a loyalty card.",
+          "\"Is this shirt affordable?\" → Omar asked whether that shirt was affordable."
+        ]
+      },
+      {
+        "title": "No \"the\" with general plural nouns",
+        "explanation_ar": "عندما نتكلم عن شيء بشكل عام بصيغة الجمع لا نستخدم the، عكس العربية. نستخدم the فقط عندما نحدد أشياء معينة.",
+        "examples": [
+          "Signs screamed \"Half price!\"",
+          "Books are useful.",
+          "The books on the table are mine."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "A prepaid paper you can use instead of money is a:", "choices": ["coupon", "markdown", "voucher", "price tag"], "answer": 2, "explanation_ar": "voucher قيمته مدفوعة مسبقاً ويُستخدم كنقود، أما coupon فيخفض السعر فقط."},
+    {"question": "He works ___ a teacher at a primary school.", "choices": ["like", "as", "since", "while"], "answer": 1, "explanation_ar": "as لبيان الدور الحقيقي، و like للتشبيه."},
+    {"question": "\"Do you have a loyalty card?\" → The seller asked ___ I had a loyalty card.", "choices": ["if", "what", "that", "weather"], "answer": 0, "explanation_ar": "أسئلة نعم/لا ننقلها بـ if أو whether."},
+    {"question": "The jacket didn't sell, so the shop cut its original price for good. This is a:", "choices": ["coupon", "cashback", "membership", "markdown"], "answer": 3, "explanation_ar": "markdown تخفيض دائم للسعر الأصلي لأن المنتج لم يُبع."},
+    {"question": "___ it was Black Friday, the mall was very crowded.", "choices": ["Like", "As", "If", "Whether"], "answer": 1, "explanation_ar": "as هنا بمعنى because / since."},
+    {"question": "We paid ___ for the final match tickets. They were extremely expensive.", "choices": ["through the nose", "in bulk", "at a bargain", "as ever"], "answer": 0, "explanation_ar": "pay through the nose = يدفع مبلغاً باهظاً."},
+    {"question": "\"Affordable\" means:", "choices": ["always very cheap", "at a price you can pay", "out of stock", "for free"], "answer": 1, "explanation_ar": "affordable = بسعر معقول تقدر عليه، وليس بالضرورة رخيصاً."},
+    {"question": "It's cheaper to buy rice ___ bulk.", "choices": ["on", "at", "in", "by"], "answer": 2, "explanation_ar": "in bulk = بكميات كبيرة."},
+    {"question": "Which sentence is correct?", "choices": ["Book are useful.", "Books are useful.", "A books are useful.", "The book are useful."], "answer": 1, "explanation_ar": "عند الكلام العام عن جمع لا نستخدم the."},
+    {"question": "Their house is ___. You can buy it.", "choices": ["for sale", "half price", "markdown", "cashback"], "answer": 0, "explanation_ar": "for sale = معروض للبيع."}
+  ]
+}
