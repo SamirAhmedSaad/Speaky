@@ -26,6 +26,10 @@ import com.speakmind.app.feature.community.ui.room.roomChatScreen
 import com.speakmind.app.feature.community.ui.setup.communitySetupScreen
 import com.speakmind.app.feature.vocabgroup.ui.myGroupsScreen
 import com.speakmind.app.feature.vocabgroup.ui.groupDetailScreen
+import com.speakmind.app.feature.course.ui.courseBookScreen
+import com.speakmind.app.feature.course.ui.courseScreen
+import com.speakmind.app.feature.course.ui.lessonExamScreen
+import com.speakmind.app.feature.course.ui.lessonScreen
 import com.speakmind.app.feature.dailyword.ui.wordDetailScreen
 import com.speakmind.app.feature.wordlookup.ui.wordLookupScreen
 import com.speakmind.app.feature.download.ui.modelDownloadScreen
@@ -123,6 +127,10 @@ fun AppRoot(startDestination: Any) {
             roomChatScreen()
             myGroupsScreen()
             groupDetailScreen()
+            courseScreen()
+            courseBookScreen()
+            lessonScreen()
+            lessonExamScreen()
         }
         // One banner for the whole app, kept loaded; screens with a BannerAdView make it visible.
         AppBannerHost(Modifier.align(Alignment.BottomCenter).navigationBarsPadding())

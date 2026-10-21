@@ -1,0 +1,112 @@
+{
+  "title": "At the Supermarket",
+  "content": {
+    "vocabulary": [
+      {"word": "aisle", "pos": "noun", "meaning_en": "a passage between rows of shelves or seats", "meaning_ar": "ممر (بين الرفوف أو المقاعد)", "note_ar": "حرف s صامت: تُنطق /aɪl/", "example": "You'll find the rice in aisle five."},
+      {"word": "basket", "pos": "noun", "meaning_en": "a small container you carry your shopping in", "meaning_ar": "سلة", "example": "I only need a few things, so I'll take a basket."},
+      {"word": "checkout", "pos": "noun", "meaning_en": "the place in a shop where you pay", "meaning_ar": "مكان الدفع", "note_ar": "كفعل تُكتب كلمتين: check out = يدفع ويغادر", "example": "There was a long line at the checkout."},
+      {"word": "cashier", "pos": "noun", "meaning_en": "the person who takes your money in a shop", "meaning_ar": "الكاشير / أمين الصندوق", "example": "The cashier gave me my change."},
+      {"word": "receipt", "pos": "noun", "meaning_en": "a paper that shows what you paid", "meaning_ar": "إيصال", "note_ar": "حرف p صامت: تُنطق /rɪˈsiːt/", "example": "Keep the receipt in case you want to return it."},
+      {"word": "trolley / cart", "pos": "noun", "meaning_en": "a large wheeled basket for shopping", "meaning_ar": "عربة التسوق", "note_ar": "trolley أشيع في بريطانيا، cart أشيع في أمريكا وكندا", "example": "She pushed the cart to the fruit section."},
+      {"word": "discount", "pos": "noun", "meaning_en": "an amount taken off the normal price", "meaning_ar": "خصم", "example": "Students get a 10% discount here."},
+      {"word": "brand", "pos": "noun", "meaning_en": "the name of a company's products", "meaning_ar": "علامة تجارية", "example": "Which brand of coffee do you usually buy?"},
+      {"word": "fresh produce", "pos": "noun", "meaning_en": "fresh fruit and vegetables", "meaning_ar": "خضار وفواكه طازجة", "note_ar": "produce كفعل = ينتج", "example": "The fresh produce is near the entrance."},
+      {"word": "dairy products", "pos": "noun", "meaning_en": "milk and foods made from milk", "meaning_ar": "منتجات الألبان", "example": "Cheese and yogurt are dairy products."},
+      {"word": "bakery", "pos": "noun", "meaning_en": "a place where bread and cakes are made or sold", "meaning_ar": "مخبز", "note_ar": "من الفعل bake = يخبز", "example": "The bakery opens at six in the morning."},
+      {"word": "canned food", "pos": "noun", "meaning_en": "food sold in metal containers", "meaning_ar": "طعام معلّب", "note_ar": "can كاسم = علبة صفيح", "example": "We keep some canned food for emergencies."},
+      {"word": "bargain", "pos": "noun", "meaning_en": "something bought for less than its real value", "meaning_ar": "صفقة رابحة / لُقطة", "example": "This jacket was a real bargain."},
+      {"word": "grocery list", "pos": "noun", "meaning_en": "a list of things to buy at the shop", "meaning_ar": "قائمة المشتريات", "example": "Don't forget to add eggs to the grocery list."},
+      {"word": "customer", "pos": "noun", "meaning_en": "a person who buys from a shop", "meaning_ar": "زبون", "example": "The shop was full of customers."},
+      {"word": "packaging", "pos": "noun", "meaning_en": "the material that a product is wrapped in", "meaning_ar": "التغليف", "note_ar": "pack = يعبّئ، package = طرد", "example": "The packaging was hard to open."},
+      {"word": "plastic bag", "pos": "noun", "meaning_en": "a bag made of plastic", "meaning_ar": "كيس بلاستيكي", "example": "Do you need a plastic bag?"},
+      {"word": "reusable bag", "pos": "noun", "meaning_en": "a bag you can use many times", "meaning_ar": "حقيبة قابلة لإعادة الاستخدام", "note_ar": "use → reuse → reusable", "example": "I always bring a reusable bag."},
+      {"word": "organic", "pos": "adjective", "meaning_en": "grown without chemicals", "meaning_ar": "عضوي", "example": "Organic vegetables are more expensive."},
+      {"word": "imported goods", "pos": "noun", "meaning_en": "products brought from another country", "meaning_ar": "بضائع مستوردة", "example": "Imported goods cost more because of taxes."},
+      {"word": "price tag", "pos": "noun", "meaning_en": "a label that shows the price", "meaning_ar": "بطاقة السعر", "example": "There was no price tag on the shirt."},
+      {"word": "barcode", "pos": "noun", "meaning_en": "black lines on a product that a machine reads", "meaning_ar": "باركود", "example": "The cashier scanned the barcode."},
+      {"word": "queue / line", "pos": "noun", "meaning_en": "people waiting one behind the other", "meaning_ar": "طابور", "note_ar": "queue بريطاني، line أمريكي", "example": "We waited in the queue for ten minutes."},
+      {"word": "express lane", "pos": "noun", "meaning_en": "a fast checkout for people with few items", "meaning_ar": "المسار السريع", "example": "Use the express lane if you have fewer than ten items."},
+      {"word": "stock", "pos": "noun", "meaning_en": "the goods a shop has available", "meaning_ar": "مخزون", "note_ar": "in stock = متوفر، out of stock = نفد", "example": "Sorry, that size is out of stock."},
+      {"word": "expiry date", "pos": "noun", "meaning_en": "the last date a product is good to use", "meaning_ar": "تاريخ انتهاء الصلاحية", "note_ar": "expiry بريطاني، expiration أمريكي", "example": "Always check the expiry date on milk."},
+      {"word": "loyalty card", "pos": "noun", "meaning_en": "a card that collects points when you shop", "meaning_ar": "بطاقة الولاء", "note_ar": "loyal = وفيّ، loyalty = الولاء", "example": "I paid and scanned my loyalty card."},
+      {"word": "distracted", "pos": "adjective", "meaning_en": "not able to focus because of something else", "meaning_ar": "مشتّت الانتباه", "note_ar": "distracted by = مشتت بسبب", "example": "He was distracted by his phone."},
+      {"word": "argue", "pos": "verb", "meaning_en": "to disagree with someone angrily", "meaning_ar": "يتجادل", "note_ar": "argue with someone about something", "example": "They argued about the last seat."},
+      {"word": "grab", "pos": "verb", "meaning_en": "to take something quickly", "meaning_ar": "يلتقط / يخطف بسرعة", "example": "She grabbed her keys and ran out."},
+      {"word": "hurry", "pos": "verb", "meaning_en": "to move or act quickly", "meaning_ar": "يسرع", "example": "We hurried to catch the bus."},
+      {"word": "neatly", "pos": "adverb", "meaning_en": "in a tidy, organised way", "meaning_ar": "بترتيب / بإتقان", "example": "The books were neatly arranged."},
+      {"word": "sneak", "pos": "verb", "meaning_en": "to go somewhere quietly so no one notices", "meaning_ar": "يتسلّل", "note_ar": "sneak into = يتسلل إلى", "example": "He sneaked into the room late."},
+      {"word": "scan", "pos": "verb", "meaning_en": "to pass something under a reader", "meaning_ar": "يمسح (ضوئياً)", "example": "The cashier scanned my items."},
+      {"word": "show off", "pos": "phrasal verb", "meaning_en": "to proudly let others see something", "meaning_ar": "يتباهى", "example": "He showed off his new phone."},
+      {"word": "swipe", "pos": "verb", "meaning_en": "to slide a card through a machine", "meaning_ar": "يمرّر (البطاقة)", "example": "Swipe your card here, please."},
+      {"word": "realise", "pos": "verb", "meaning_en": "to suddenly understand or notice", "meaning_ar": "يُدرك", "example": "I realised I had left my wallet at home."}
+    ],
+    "fine_lines": [
+      {
+        "title": "aisle vs lane",
+        "words": ["aisle", "lane"],
+        "explanation_ar": "الاثنين معناهم ممر. lane ممر محدد بخطوط مرسومة على الأرض (حارات الطريق، حمام السباحة، طابور الدفع). aisle ممر بين حواجز قائمة مثل الرفوف أو الكراسي (السوبر ماركت، الطائرة، السينما).",
+        "examples": [
+          {"word": "lane", "sentence": "Stay in the left lane on the highway."},
+          {"word": "lane", "sentence": "She is swimming in lane three."},
+          {"word": "aisle", "sentence": "The pasta is in aisle four."},
+          {"word": "aisle", "sentence": "I prefer an aisle seat on the plane."}
+        ]
+      },
+      {
+        "title": "receive, receipt, reception, recipe",
+        "words": ["receive", "receipt", "reception", "recipe"],
+        "explanation_ar": "كلها من نفس العائلة ومعناها الأصلي «يأخذ / يستلم». receive يستلم، receipt دليل إنك استلمت (إيصال)، reception مكان استقبال الناس أو الأشياء، recipe بدأت كمصطلح طبي معناه «خُذ هذه المكونات» ثم صارت وصفة الطبخ.",
+        "examples": [
+          {"word": "receive", "sentence": "Did you receive my message?"},
+          {"word": "receipt", "sentence": "Can I have a receipt, please?"},
+          {"word": "reception", "sentence": "Leave the key at reception."},
+          {"word": "recipe", "sentence": "This is my grandmother's cake recipe."}
+        ]
+      },
+      {
+        "title": "trolley vs cart",
+        "words": ["trolley", "cart"],
+        "explanation_ar": "نفس المعنى (عربة التسوق). trolley أشيع في بريطانيا، و cart أشيع في أمريكا وكندا وأكثر انتشاراً عالمياً.",
+        "examples": [
+          {"word": "trolley", "sentence": "Return the trolley after shopping."},
+          {"word": "cart", "sentence": "The cart has a broken wheel."}
+        ]
+      }
+    ],
+    "expressions": [
+      {"phrase": "in stock / out of stock", "meaning_ar": "متوفر / غير متوفر في المخزن", "example": "Is this phone still in stock?"},
+      {"phrase": "a real bargain", "meaning_ar": "لُقطة حقيقية", "example": "Two shirts for ten dollars? That's a real bargain!"},
+      {"phrase": "laugh to yourself", "meaning_ar": "يضحك في نفسه", "example": "She laughed to herself when she read the note."},
+      {"phrase": "check out", "meaning_ar": "يدفع الحساب ويغادر (فندق، متجر)", "example": "We need to check out of the hotel by noon."},
+      {"phrase": "fast food in a different way", "meaning_ar": "مزحة: طعام لازم تأكله بسرعة لأن صلاحيته قربت تنتهي", "example": "It expires tomorrow, so it's fast food in a different way!"}
+    ],
+    "grammar": [
+      {
+        "title": "Past participle as an adjective",
+        "explanation_ar": "الإنجليزية ما فيها «اسم مفعول» مثل العربية، فنستخدم التصريف الثالث للفعل كصفة: freeze → frozen (مجمّد)، paint → painted (مدهون)، break → broken (مكسور).",
+        "examples": ["frozen food", "a painted wall", "a broken window"]
+      },
+      {
+        "title": "Noun (one word) vs phrasal verb (two words)",
+        "explanation_ar": "بعض الأسماء التي تنتهي بحرف جر مثل out أو up يمكن أن تكون فعلاً مركباً. كاسم تُكتب كلمة واحدة، وكفعل تُكتب كلمتين.",
+        "examples": [
+          "The checkout was busy. / We check out at noon.",
+          "I did a workout. / I work out every day.",
+          "Make a backup. / Back up your files."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {"question": "Where do you pay in a supermarket?", "choices": ["the aisle", "the checkout", "the bakery", "the stock"], "answer": 1, "explanation_ar": "checkout هو مكان الدفع."},
+    {"question": "Which word has a silent letter?", "choices": ["basket", "brand", "receipt", "discount"], "answer": 2, "explanation_ar": "حرف p صامت في receipt."},
+    {"question": "The pasta is in ___ four of the supermarket.", "choices": ["lane", "aisle", "queue", "line"], "answer": 1, "explanation_ar": "ممر بين الرفوف = aisle."},
+    {"question": "Please stay in your ___ while driving.", "choices": ["aisle", "lane", "basket", "stock"], "answer": 1, "explanation_ar": "حارة الطريق محددة بخطوط = lane."},
+    {"question": "\"Out of stock\" means:", "choices": ["very cheap", "not available", "on sale", "imported"], "answer": 1, "explanation_ar": "out of stock = نفد من المخزن."},
+    {"question": "Which is correct?", "choices": ["freezed food", "frozen food", "froze food", "freezing food"], "answer": 1, "explanation_ar": "نستخدم التصريف الثالث frozen كصفة."},
+    {"question": "We need to ___ of the hotel by 12.", "choices": ["checkout", "check out", "checked", "checking"], "answer": 1, "explanation_ar": "كفعل تُكتب كلمتين: check out."},
+    {"question": "A \"bargain\" is something:", "choices": ["very expensive", "broken", "cheaper than its real value", "out of date"], "answer": 2, "explanation_ar": "bargain = لُقطة أو صفقة رابحة."},
+    {"question": "Which word comes from the same family as \"receive\"?", "choices": ["recipe", "reuse", "realise", "refuse"], "answer": 0, "explanation_ar": "receive, receipt, reception, recipe من عائلة واحدة."},
+    {"question": "In American English, a \"queue\" is usually called a:", "choices": ["lane", "line", "cart", "list"], "answer": 1, "explanation_ar": "queue بريطاني، line أمريكي."}
+  ]
+}

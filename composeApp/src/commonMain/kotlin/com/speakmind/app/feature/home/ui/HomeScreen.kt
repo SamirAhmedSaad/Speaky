@@ -274,6 +274,11 @@ private fun HomeScreenContent(
                 )
             }
 
+            // Courses section (shown once a course is published)
+            item {
+                com.speakmind.app.feature.course.ui.CoursesHomeSection()
+            }
+
             // Study Hub section
             item {
                 Spacer(modifier = Modifier.height(24.sdp))

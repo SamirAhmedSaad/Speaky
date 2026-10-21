@@ -67,3 +67,15 @@ data object MyGroupsDestination
 
 @Serializable
 data class GroupDetailDestination(val groupId: Long, val groupName: String)
+
+@Serializable
+data class CourseDestination(val courseId: String, val title: String)
+
+@Serializable
+data class CourseBookDestination(val courseId: String, val bookId: String, val title: String)
+
+@Serializable
+data class LessonDestination(val lessonId: String)
+
+@Serializable
+data class LessonExamDestination(val lessonId: String)

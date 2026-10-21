@@ -468,3 +468,29 @@ SELECT COUNT(*) FROM vocab_group_words WHERE group_id = ?;
 
 lastInsertRowId:
 SELECT last_insert_rowid();
+
+-- Courses: lesson completion (exam finished) and an offline copy of server data
+CREATE TABLE course_progress (
+    lesson_id TEXT NOT NULL PRIMARY KEY,
+    score INTEGER NOT NULL,
+    total INTEGER NOT NULL,
+    completed_at INTEGER NOT NULL
+);
+
+CREATE TABLE course_cache (
+    cache_key TEXT NOT NULL PRIMARY KEY,
+    json TEXT NOT NULL,
+    updated_at INTEGER NOT NULL
+);
+
+selectCourseProgress:
+SELECT * FROM course_progress;
+
+upsertCourseProgress:
+INSERT OR REPLACE INTO course_progress (lesson_id, score, total, completed_at) VALUES (?, ?, ?, ?);
+
+selectCourseCache:
+SELECT json FROM course_cache WHERE cache_key = ?;
+
+upsertCourseCache:
+INSERT OR REPLACE INTO course_cache (cache_key, json, updated_at) VALUES (?, ?, ?);
