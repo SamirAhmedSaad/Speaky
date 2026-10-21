@@ -1,6 +1,10 @@
 package com.speakmind.app.feature.course.ui
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -449,7 +453,7 @@ private fun VocabCard(word: LessonWord) {
                 modifier = Modifier.padding(start = 6.sdp).size(20.sdp),
             )
         }
-        AnimatedVisibility(visible = open) {
+        AnimatedVisibility(visible = open, enter = fadeIn() + expandVertically(), exit = fadeOut() + shrinkVertically()) {
             Column(verticalArrangement = Arrangement.spacedBy(6.sdp)) {
                 ArabicText(word.meaningAr, colors.textPrimary)
                 if (word.meaningEn.isNotBlank()) Text(word.meaningEn, style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary))

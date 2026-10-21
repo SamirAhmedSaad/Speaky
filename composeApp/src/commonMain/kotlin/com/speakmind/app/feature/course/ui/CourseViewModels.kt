@@ -34,7 +34,7 @@ class CoursesHomeViewModel(
     fun refresh() {
         viewModelScope.launch {
             // Saved copy first so Home doesn't jump when the section appears, then fresh data.
-            if (_cards.value.isEmpty()) {
+            run {
                 repository.savedCourses()?.let { courses ->
                     val results = repository.results()
                     _cards.value = courses.map { course ->
@@ -75,11 +75,9 @@ class CourseOutlineViewModel(
 
     fun refresh() {
         viewModelScope.launch {
-            if (_uiState.value.outline == null) {
-                repository.savedOutline(courseId)?.let {
-                    _uiState.value = OutlineUiState(it, repository.results(), isLoading = false)
-                }
-            }
+            // Local first (instant ✓ after an exam, works offline), then fresh data from the server.
+            val shown = _uiState.value.outline ?: repository.savedOutline(courseId)
+            if (shown != null) _uiState.value = OutlineUiState(shown, repository.results(), isLoading = false)
             val outline = repository.outline(courseId) ?: _uiState.value.outline
             _uiState.value = OutlineUiState(outline, repository.results(), isLoading = false)
         }
