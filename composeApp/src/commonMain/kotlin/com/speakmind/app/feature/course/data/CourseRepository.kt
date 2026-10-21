@@ -54,6 +54,17 @@ class CourseRepository(
         }.decodeSingle<Lesson>()
     }
 
+    /** The saved copies, for showing something instantly before the network answers. */
+    suspend fun savedCourses(): List<Course>? = saved("courses", ListSerializer(Course.serializer()))
+    suspend fun savedOutline(courseId: String): CourseOutline? = saved("outline:$courseId", CourseOutline.serializer())
+    suspend fun savedLesson(lessonId: String): Lesson? = saved("lesson:$lessonId", Lesson.serializer())
+
+    private suspend fun <T> saved(key: String, serializer: KSerializer<T>): T? = withContext(Dispatchers.IO) {
+        queries.selectCourseCache(key).executeAsOneOrNull()?.let {
+            runCatching { json.decodeFromString(serializer, it) }.getOrNull()
+        }
+    }
+
     /** Finished exams by lesson id. */
     suspend fun results(): Map<String, LessonResult> = withContext(Dispatchers.IO) {
         queries.selectCourseProgress().executeAsList()
@@ -73,9 +84,7 @@ class CourseRepository(
                 }
             } catch (e: Exception) {
                 Napier.w(e) { "Course data offline, using saved copy: $key" }
-                queries.selectCourseCache(key).executeAsOneOrNull()?.let {
-                    runCatching { json.decodeFromString(serializer, it) }.getOrNull()
-                }
+                saved(key, serializer)
             }
         }
 }

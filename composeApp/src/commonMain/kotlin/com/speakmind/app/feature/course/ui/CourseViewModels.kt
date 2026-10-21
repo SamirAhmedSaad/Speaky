@@ -33,6 +33,16 @@ class CoursesHomeViewModel(
 
     fun refresh() {
         viewModelScope.launch {
+            // Saved copy first so Home doesn't jump when the section appears, then fresh data.
+            if (_cards.value.isEmpty()) {
+                repository.savedCourses()?.let { courses ->
+                    val results = repository.results()
+                    _cards.value = courses.map { course ->
+                        val lessons = repository.savedOutline(course.id)?.lessons.orEmpty()
+                        CourseCard(course, lessons.count { it.id in results }, lessons.size)
+                    }
+                }
+            }
             val courses = repository.courses() ?: return@launch
             val results = repository.results()
             _cards.value = courses.map { course ->
@@ -65,7 +75,12 @@ class CourseOutlineViewModel(
 
     fun refresh() {
         viewModelScope.launch {
-            val outline = repository.outline(courseId)
+            if (_uiState.value.outline == null) {
+                repository.savedOutline(courseId)?.let {
+                    _uiState.value = OutlineUiState(it, repository.results(), isLoading = false)
+                }
+            }
+            val outline = repository.outline(courseId) ?: _uiState.value.outline
             _uiState.value = OutlineUiState(outline, repository.results(), isLoading = false)
         }
     }
@@ -94,13 +109,21 @@ class LessonViewModel(
     private val _uiState = MutableStateFlow(LessonUiState())
     val uiState: StateFlow<LessonUiState> = _uiState.asStateFlow()
 
-    init { refresh() }
-
-    fun refresh() {
+    init {
+        // Saved copy first (instant, offline), then the latest version from the server.
         viewModelScope.launch {
-            val lesson = _uiState.value.lesson ?: repository.lesson(lessonId)
-            _uiState.value = LessonUiState(lesson, repository.results()[lessonId], isLoading = false)
+            repository.savedLesson(lessonId)?.let { show(it) }
+            show(repository.lesson(lessonId) ?: _uiState.value.lesson)
         }
+    }
+
+    /** Re-reads the exam result, e.g. after coming back from the exam. */
+    fun refresh() {
+        viewModelScope.launch { _uiState.update { it.copy(result = repository.results()[lessonId]) } }
+    }
+
+    private suspend fun show(lesson: Lesson?) {
+        _uiState.value = LessonUiState(lesson, repository.results()[lessonId], isLoading = false)
     }
 
     fun onStartExam() = navigationManager.navigate(LessonExamDestination(lessonId))
@@ -128,7 +151,10 @@ class ExamViewModel(
     val uiState: StateFlow<ExamUiState> = _uiState.asStateFlow()
 
     init {
-        viewModelScope.launch { _uiState.update { it.copy(lesson = repository.lesson(lessonId)) } }
+        viewModelScope.launch {
+            val lesson = repository.savedLesson(lessonId) ?: repository.lesson(lessonId)
+            _uiState.update { it.copy(lesson = lesson) }
+        }
     }
 
     fun onPick(choice: Int) {

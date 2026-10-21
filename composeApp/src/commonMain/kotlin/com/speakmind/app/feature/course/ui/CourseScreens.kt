@@ -1,9 +1,9 @@
 package com.speakmind.app.feature.course.ui
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -13,18 +13,20 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.School
 import androidx.compose.material3.Button
@@ -40,6 +42,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -50,9 +53,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDirection
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -61,6 +68,7 @@ import androidx.navigation.toRoute
 import com.speakmind.app.feature.course.data.CourseBook
 import com.speakmind.app.feature.course.data.Lesson
 import com.speakmind.app.feature.course.data.LessonResult
+import com.speakmind.app.feature.course.data.LessonWord
 import com.speakmind.app.feature.course.data.LessonSummary
 import com.speakmind.app.navigation.CourseBookDestination
 import com.speakmind.app.navigation.CourseDestination
@@ -157,6 +165,8 @@ private fun HubCard(
                     progress = { progress },
                     color = accent,
                     trackColor = accent.copy(alpha = 0.15f),
+                    gapSize = 0.sdp,
+                    drawStopIndicator = {},
                     modifier = Modifier.fillMaxWidth().height(4.sdp).clip(RoundedCornerShape(2.sdp)),
                 )
             }
@@ -176,7 +186,7 @@ private fun HubCard(
 @Composable
 private fun ScreenScaffold(title: String, onBack: () -> Unit, content: @Composable (Modifier) -> Unit) {
     val colors = LocalSpeakMindColors.current
-    Column(Modifier.fillMaxSize().background(colors.backgroundGradient)) {
+    Column(Modifier.fillMaxSize().background(colors.backgroundGradient).navigationBarsPadding()) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(top = 48.sdp, bottom = 8.sdp).padding(horizontal = 4.sdp),
             verticalAlignment = Alignment.CenterVertically,
@@ -294,7 +304,7 @@ fun NavGraphBuilder.courseBookScreen() {
 
 // ---------------- Lesson page ----------------
 
-private val LESSON_TABS = listOf("Vocabulary", "Fine line", "Expressions", "Grammar")
+private val LESSON_TABS = listOf("Words", "Fine line", "Phrases", "Grammar")
 
 fun NavGraphBuilder.lessonScreen() {
     animatedComposable<LessonDestination> { entry ->
@@ -359,40 +369,32 @@ private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () ->
             }
             item {
                 Row(
-                    Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(vertical = 4.sdp),
-                    horizontalArrangement = Arrangement.spacedBy(8.sdp),
+                    Modifier.fillMaxWidth().padding(vertical = 4.sdp),
+                    horizontalArrangement = Arrangement.spacedBy(6.sdp),
                 ) {
                     LESSON_TABS.forEachIndexed { i, name ->
                         val selected = i == tab
                         Text(
                             text = name,
+                            maxLines = 1,
+                            textAlign = TextAlign.Center,
                             style = MaterialTheme.typography.labelLarge.copy(
                                 color = if (selected) colors.backgroundDark else colors.textSecondary,
                                 fontWeight = FontWeight.Bold,
                             ),
                             modifier = Modifier
+                                .weight(1f)
                                 .clip(RoundedCornerShape(50))
                                 .background(if (selected) colors.gold else colors.surfaceVariant.copy(alpha = 0.7f))
                                 .clickable { tab = i }
-                                .padding(horizontal = 14.sdp, vertical = 8.sdp),
+                                .padding(vertical = 8.sdp),
                         )
                     }
                 }
             }
             val content = lesson.content
             when (tab) {
-                0 -> items(content.vocabulary) { word ->
-                    InfoCard {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(word.word, style = MaterialTheme.typography.titleMedium.copy(color = colors.neonCyan, fontWeight = FontWeight.Bold), modifier = Modifier.weight(1f))
-                            if (word.pos.isNotBlank()) Text(word.pos, style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted))
-                        }
-                        ArabicText(word.meaningAr, colors.textPrimary)
-                        if (word.meaningEn.isNotBlank()) Text(word.meaningEn, style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary))
-                        if (word.noteAr.isNotBlank()) ArabicText("💡 ${word.noteAr}", colors.gold)
-                        if (word.example.isNotBlank()) ExampleText(word.example)
-                    }
-                }
+                0 -> items(content.vocabulary, key = { it.word }) { word -> VocabCard(word) }
                 1 -> items(content.fineLines) { line ->
                     InfoCard {
                         Text(line.title, style = MaterialTheme.typography.titleMedium.copy(color = colors.magenta, fontWeight = FontWeight.Bold))
@@ -431,8 +433,35 @@ private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () ->
     }
 }
 
+/** Collapsed to the word by default (try to recall it), tap to see the meaning and example. */
 @Composable
-private fun InfoCard(content: @Composable () -> Unit) {
+private fun VocabCard(word: LessonWord) {
+    val colors = LocalSpeakMindColors.current
+    var open by rememberSaveable(word.word) { mutableStateOf(false) }
+    InfoCard(onClick = { open = !open }) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(word.word, style = MaterialTheme.typography.titleMedium.copy(color = colors.neonCyan, fontWeight = FontWeight.Bold), modifier = Modifier.weight(1f))
+            if (word.pos.isNotBlank()) Text(word.pos, style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted))
+            Icon(
+                if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+                contentDescription = if (open) "Hide meaning" else "Show meaning",
+                tint = colors.textMuted,
+                modifier = Modifier.padding(start = 6.sdp).size(20.sdp),
+            )
+        }
+        AnimatedVisibility(visible = open) {
+            Column(verticalArrangement = Arrangement.spacedBy(6.sdp)) {
+                ArabicText(word.meaningAr, colors.textPrimary)
+                if (word.meaningEn.isNotBlank()) Text(word.meaningEn, style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary))
+                if (word.noteAr.isNotBlank()) ArabicText("💡 ${word.noteAr}", colors.gold)
+                if (word.example.isNotBlank()) ExampleText(word.example)
+            }
+        }
+    }
+}
+
+@Composable
+private fun InfoCard(onClick: (() -> Unit)? = null, content: @Composable () -> Unit) {
     val colors = LocalSpeakMindColors.current
     Column(
         modifier = Modifier
@@ -440,23 +469,36 @@ private fun InfoCard(content: @Composable () -> Unit) {
             .clip(RoundedCornerShape(14.sdp))
             .background(colors.surfaceVariant.copy(alpha = 0.7f))
             .border(1.sdp, colors.textMuted.copy(alpha = 0.15f), RoundedCornerShape(14.sdp))
+            .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier)
             .padding(14.sdp),
         verticalArrangement = Arrangement.spacedBy(6.sdp),
     ) { content() }
 }
 
-/** Arabic explanations read right to left. */
+/** Arabic explanations: a right-to-left paragraph, so English words and punctuation inside sit in the right place. */
 @Composable
 private fun ArabicText(text: String, color: Color) {
     if (text.isBlank()) return
-    Text(text, style = MaterialTheme.typography.bodyMedium.copy(color = color), textAlign = TextAlign.End, modifier = Modifier.fillMaxWidth())
+    Text(
+        text,
+        style = MaterialTheme.typography.bodyMedium.copy(color = color, textDirection = TextDirection.Rtl, textAlign = TextAlign.Start),
+        modifier = Modifier.fillMaxWidth(),
+    )
 }
 
 @Composable
 private fun ExampleText(sentence: String, label: String? = null) {
     val colors = LocalSpeakMindColors.current
     Text(
-        text = if (label != null) "$label — $sentence" else "“$sentence”",
+        text = buildAnnotatedString {
+            if (label != null) {
+                withStyle(SpanStyle(color = colors.textPrimary, fontWeight = FontWeight.Bold, fontStyle = FontStyle.Normal)) { append(label) }
+                append("  ")
+                append(sentence)
+            } else {
+                append("“$sentence”")
+            }
+        },
         style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary, fontStyle = FontStyle.Italic),
     )
 }
@@ -497,6 +539,8 @@ private fun ExamQuestionView(state: ExamUiState, onPick: (Int) -> Unit, onNext: 
                 progress = { (state.index + 1f) / questions.size },
                 color = colors.gold,
                 trackColor = colors.gold.copy(alpha = 0.15f),
+                gapSize = 0.sdp,
+                drawStopIndicator = {},
                 modifier = Modifier.fillMaxWidth().height(4.sdp).clip(RoundedCornerShape(2.sdp)),
             )
             Spacer(Modifier.height(16.sdp))
@@ -504,31 +548,47 @@ private fun ExamQuestionView(state: ExamUiState, onPick: (Int) -> Unit, onNext: 
         }
         items(question.choices.size) { i ->
             val answered = state.picked != null
-            val border = when {
-                answered && i == question.answer -> colors.success
-                answered && i == state.picked -> colors.error
-                else -> colors.textMuted.copy(alpha = 0.25f)
+            val right = answered && i == question.answer
+            val wrong = answered && i == state.picked && !right
+            val accent = when {
+                right -> colors.success
+                wrong -> colors.error
+                else -> null
             }
-            Text(
-                text = question.choices[i],
-                style = MaterialTheme.typography.bodyLarge.copy(color = colors.textPrimary),
+            Row(
                 modifier = Modifier
                     .fillMaxWidth()
                     .clip(RoundedCornerShape(14.sdp))
-                    .background(if (answered && i == question.answer) colors.success.copy(alpha = 0.12f) else colors.surfaceVariant.copy(alpha = 0.7f))
-                    .border(1.5.sdp, border, RoundedCornerShape(14.sdp))
+                    .background(accent?.copy(alpha = 0.18f) ?: colors.surfaceVariant.copy(alpha = 0.7f))
+                    .border(if (accent != null) 2.sdp else 1.sdp, accent ?: colors.textMuted.copy(alpha = 0.25f), RoundedCornerShape(14.sdp))
                     .clickable(enabled = !answered) { onPick(i) }
                     .padding(16.sdp),
-            )
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(
+                    question.choices[i],
+                    style = MaterialTheme.typography.bodyLarge.copy(color = colors.textPrimary, fontWeight = if (accent != null) FontWeight.Bold else FontWeight.Normal),
+                    modifier = Modifier.weight(1f),
+                )
+                if (accent != null) {
+                    Text(if (right) "✓" else "✗", style = MaterialTheme.typography.titleMedium.copy(color = accent, fontWeight = FontWeight.Bold))
+                }
+            }
         }
         if (state.picked != null) {
             item {
                 val correct = state.picked == question.answer
-                Text(
-                    if (correct) "✓ Correct!" else "✗ Not quite",
-                    style = MaterialTheme.typography.titleSmall.copy(color = if (correct) colors.success else colors.error, fontWeight = FontWeight.Bold),
-                )
-                ArabicText(question.explanationAr, colors.textSecondary)
+                val tone = if (correct) colors.success else colors.error
+                Column(
+                    Modifier.fillMaxWidth().clip(RoundedCornerShape(14.sdp)).background(tone.copy(alpha = 0.1f)).padding(14.sdp),
+                    verticalArrangement = Arrangement.spacedBy(6.sdp),
+                ) {
+                    Text(
+                        if (correct) "✓ Correct!" else "✗ Not quite",
+                        style = MaterialTheme.typography.titleSmall.copy(color = tone, fontWeight = FontWeight.Bold),
+                    )
+                    ArabicText(question.explanationAr, colors.textPrimary)
+                }
                 Spacer(Modifier.height(8.sdp))
                 Button(
                     onClick = onNext,
