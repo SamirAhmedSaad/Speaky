@@ -27,7 +27,6 @@ import androidx.navigation.NavGraphBuilder
 import com.speakmind.app.feature.story.domain.model.StoryTopic
 import com.speakmind.app.navigation.StoryDetailDestination
 import com.speakmind.app.ui.components.BannerAdView
-import com.speakmind.app.ui.components.rememberAdOnLeave
 import com.speakmind.app.ui.components.TtsSpeedButton
 import com.speakmind.app.ui.components.WordAction
 import com.speakmind.app.ui.components.WordActionBottomSheet
@@ -66,8 +65,6 @@ private fun StoryDetailContent(
     onSpeakWord: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
-    // Full-screen ad when leaving after actually reading (back button or gesture).
-    val leave = rememberAdOnLeave(onLeave = onBackClicked)
     val snackbarHostState = remember { SnackbarHostState() }
 
     LaunchedEffect(uiState.wordSaved) {
@@ -132,7 +129,7 @@ private fun StoryDetailContent(
                             .padding(horizontal = 8.sdp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        IconButton(onClick = leave) {
+                        IconButton(onClick = onBackClicked) {
                             Icon(
                                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = "Back",

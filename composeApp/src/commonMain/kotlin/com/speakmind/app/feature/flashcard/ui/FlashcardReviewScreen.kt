@@ -30,7 +30,6 @@ import com.speakmind.app.db.Flashcards
 import com.speakmind.app.navigation.FlashcardReviewDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.components.BannerAdView
-import com.speakmind.app.ui.components.rememberInterstitialAdState
 import com.speakmind.app.ui.components.TtsSpeedButton
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
@@ -66,11 +65,6 @@ private fun FlashcardReviewContent(
     onTabSelected: (FlashcardTab) -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
-    // One full-screen ad when a real review session is finished.
-    val completionAd = rememberInterstitialAdState()
-    LaunchedEffect(uiState.isComplete) {
-        if (uiState.isComplete && uiState.reviewedCount >= 5) completionAd.show()
-    }
     val snackbarHostState = remember { SnackbarHostState() }
 
     LaunchedEffect(uiState.lastRatingMessage) {

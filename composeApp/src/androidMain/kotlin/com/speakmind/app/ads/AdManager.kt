@@ -25,8 +25,11 @@ class AdManager(private val context: Context) {
     private var interstitial: LevelPlayInterstitialAd? = null
     private var pendingDismiss: (() -> Unit)? = null
     private var retryDelayMs = INITIAL_RETRY_MS
-    private val startedAt = System.currentTimeMillis()
-    private var lastShownAt = 0L
+    /** One full-screen ad per visit; a visit restarts when the app returns after a long break. */
+    private var shownThisVisit = false
+    private var usedMs = 0L
+    private var foregroundSince = 0L
+    private var backgroundSince = 0L
     private val handler = Handler(Looper.getMainLooper())
 
     /**
@@ -139,9 +142,11 @@ class AdManager(private val context: Context) {
 
                 override fun onAdLoadFailed(error: LevelPlayAdError) {
                     Napier.w { "Interstitial failed to load: ${error.errorMessage}" }
-                    // Back off so a no-fill doesn't turn into a request loop.
+                    // Back off so a no-fill doesn't turn into a request loop, but keep trying
+                    // every minute until this visit's ad has shown.
                     handler.postDelayed({ loadInterstitial() }, retryDelayMs)
-                    retryDelayMs = (retryDelayMs * 2).coerceAtMost(MAX_RETRY_MS)
+                    val max = if (shownThisVisit) MAX_RETRY_MS else FIRST_AD_AFTER_MS
+                    retryDelayMs = (retryDelayMs * 2).coerceAtMost(max)
                 }
 
                 override fun onAdDisplayed(adInfo: LevelPlayAdInfo) {}
@@ -163,22 +168,41 @@ class AdManager(private val context: Context) {
         if (!ad.isAdReady()) ad.loadAd()
     }
 
-    fun showInterstitial(activity: Activity, onDismissed: () -> Unit = {}) {
+    fun onAppForeground() {
         val now = System.currentTimeMillis()
-        // Never right after opening the app, and at most one every few minutes.
-        if (now - startedAt < FIRST_AD_AFTER_MS || now - lastShownAt < MIN_GAP_MS) {
+        if (backgroundSince > 0 && now - backgroundSince >= NEW_VISIT_AFTER_MS) {
+            shownThisVisit = false
+            usedMs = 0L
+        }
+        foregroundSince = now
+    }
+
+    fun onAppBackground() {
+        val now = System.currentTimeMillis()
+        if (foregroundSince > 0) usedMs += now - foregroundSince
+        foregroundSince = 0L
+        backgroundSince = now
+    }
+
+    private fun usedThisVisitMs(): Long =
+        usedMs + if (foregroundSince > 0) System.currentTimeMillis() - foregroundSince else 0L
+
+    fun showInterstitial(activity: Activity, onDismissed: () -> Unit = {}) {
+        // Once per visit, after a minute of use.
+        if (shownThisVisit || usedThisVisitMs() < FIRST_AD_AFTER_MS) {
             onDismissed()
             return
         }
         val ad = interstitial
         if (ad == null || !ad.isAdReady()) {
-            Napier.d { "Interstitial not ready, skipping" }
+            // Not counted as shown: tried again at the next screen change.
+            Napier.d { "Interstitial not ready, will try at the next screen" }
             onDismissed()
             loadInterstitial()
             return
         }
         pendingDismiss = onDismissed
-        lastShownAt = now
+        shownThisVisit = true
         ad.showAd(activity)
     }
 
@@ -191,7 +215,7 @@ class AdManager(private val context: Context) {
     companion object {
         private const val INITIAL_RETRY_MS = 15_000L
         private const val FIRST_AD_AFTER_MS = 60_000L
-        private const val MIN_GAP_MS = 3 * 60_000L
+        private const val NEW_VISIT_AFTER_MS = 30 * 60_000L
         private const val MAX_RETRY_MS = 5 * 60_000L
 
         @Volatile

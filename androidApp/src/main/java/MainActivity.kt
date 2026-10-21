@@ -125,6 +125,7 @@ class MainActivity : ComponentActivity() {
     /** Signed-in community members show as online while the app is open (not only on chat screens). */
     override fun onStart() {
         super.onStart()
+        AdManager.instance?.onAppForeground()
         lifecycleScope.launch {
             val repo = getKoin().get<CommunityRepository>()
             if (repo.hasSession() && !repo.isGuest() && !countedOnline) {
@@ -136,6 +137,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onStop() {
         super.onStop()
+        AdManager.instance?.onAppBackground()
         if (countedOnline) {
             countedOnline = false
             getKoin().get<CommunityRepository>().setActive(false)
