@@ -215,7 +215,7 @@ class AdManager(private val context: Context) {
     companion object {
         private const val INITIAL_RETRY_MS = 15_000L
         private const val FIRST_AD_AFTER_MS = 60_000L
-        private const val NEW_VISIT_AFTER_MS = 30 * 60_000L
+        private const val NEW_VISIT_AFTER_MS = 5 * 60_000L
         private const val MAX_RETRY_MS = 5 * 60_000L
 
         @Volatile
