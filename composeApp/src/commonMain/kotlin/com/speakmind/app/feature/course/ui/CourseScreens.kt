@@ -29,6 +29,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.PlayArrow
@@ -51,12 +52,12 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalLifecycleOwner
-import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
@@ -140,14 +141,16 @@ private fun HubCard(
     modifier: Modifier = Modifier,
     progress: Float? = null,
     done: Boolean = false,
+    locked: Boolean = false,
 ) {
     val colors = LocalSpeakMindColors.current
     Row(
         modifier = modifier
+            .alpha(if (locked) 0.55f else 1f)
             .clip(RoundedCornerShape(16.sdp))
             .background(Brush.verticalGradient(listOf(accent.copy(alpha = 0.05f), colors.surfaceVariant.copy(alpha = 0.7f))))
             .border(1.sdp, accent.copy(alpha = 0.22f), RoundedCornerShape(16.sdp))
-            .clickable(onClick = onClick)
+            .clickable(enabled = !locked, onClick = onClick)
             .padding(horizontal = 16.sdp, vertical = 14.sdp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -176,7 +179,9 @@ private fun HubCard(
             }
         }
         Spacer(Modifier.width(8.sdp))
-        if (done) {
+        if (locked) {
+            Icon(Icons.Default.Lock, contentDescription = "Locked", tint = colors.textMuted, modifier = Modifier.size(20.sdp))
+        } else if (done) {
             Icon(Icons.Default.CheckCircle, contentDescription = "Completed", tint = colors.success, modifier = Modifier.size(22.sdp))
         } else {
             Icon(
@@ -252,13 +257,14 @@ fun NavGraphBuilder.courseScreen() {
                         HubCard(
                             title = book.title,
                             subtitle = when {
-                                lessons.isEmpty() -> "Coming soon"
+                                lessons.isEmpty() -> "Locked · coming soon"
                                 else -> "${lessons.size} lesson${if (lessons.size == 1) "" else "s"} · $done completed"
                             },
                             icon = Icons.AutoMirrored.Filled.MenuBook,
                             accent = colors.neonCyan,
                             progress = if (lessons.isEmpty()) null else done.toFloat() / lessons.size,
                             done = lessons.isNotEmpty() && done == lessons.size,
+                            locked = lessons.isEmpty(),
                             onClick = { viewModel.onBookClicked(book.id, book.title) },
                             modifier = Modifier.fillMaxWidth(),
                         )
@@ -292,7 +298,7 @@ fun NavGraphBuilder.courseBookScreen() {
                         val result = state.results[lesson.id]
                         HubCard(
                             title = "Lesson ${lesson.number}: ${lesson.title}",
-                            subtitle = result?.let { "Completed · exam ${it.score}/${it.total}" } ?: "Video, words, grammar and a 10-question exam",
+                            subtitle = result?.let { "Completed · exam ${it.score}/${it.total}" } ?: "Not started",
                             icon = Icons.Default.PlayArrow,
                             accent = colors.magenta,
                             done = result != null,
@@ -330,7 +336,7 @@ fun NavGraphBuilder.lessonScreen() {
 @Composable
 private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () -> Unit, modifier: Modifier) {
     val colors = LocalSpeakMindColors.current
-    val uriHandler = LocalUriHandler.current
+    val openYouTube = rememberYouTubeOpener()
     var tab by rememberSaveable { mutableIntStateOf(0) }
     Column(modifier) {
         LazyColumn(
@@ -346,7 +352,7 @@ private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () ->
                         .clip(RoundedCornerShape(16.sdp))
                         .background(Color(0xFFE53935).copy(alpha = 0.1f))
                         .border(1.sdp, Color(0xFFE53935).copy(alpha = 0.3f), RoundedCornerShape(16.sdp))
-                        .clickable { uriHandler.openUri(lesson.videoUrl) }
+                        .clickable { openYouTube(lesson.videoUrl) }
                         .padding(14.sdp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
@@ -364,7 +370,7 @@ private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () ->
                                 "by $it",
                                 style = MaterialTheme.typography.labelMedium.copy(color = colors.neonCyan),
                                 modifier = Modifier.clickable(enabled = lesson.channelUrl != null) {
-                                    lesson.channelUrl?.let(uriHandler::openUri)
+                                    lesson.channelUrl?.let(openYouTube)
                                 },
                             )
                         }
