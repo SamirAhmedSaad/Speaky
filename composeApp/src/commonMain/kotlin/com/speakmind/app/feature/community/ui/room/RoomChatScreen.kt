@@ -598,8 +598,8 @@ private fun ChatHeader(uiState: RoomChatUiState, actions: RoomActions) {
                             other != null && other.lastSeen > 0 -> formatLastSeen(other.lastSeen)
                             else -> "Private chat"
                         }
-                        uiState.onlineCount > 0 -> "${uiState.onlineCount} online · general chat"
-                        else -> "General chat for all learners"
+                        else -> if (uiState.onlineCount > 0) "${uiState.onlineCount} online · general chat"
+                                else "General chat for all learners"
                     }
                     Text(
                         text = subtitle,
