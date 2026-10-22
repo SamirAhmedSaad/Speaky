@@ -1,5 +1,6 @@
 package com.speakmind.app.feature.community.ui.hub
 
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -73,6 +74,7 @@ fun NavGraphBuilder.communityHubScreen() {
 @Composable
 private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel, onSignIn: () -> Unit) {
     val colors = LocalSpeakMindColors.current
+    val gate = rememberInterstitialAdState()
     Box(Modifier.fillMaxSize().background(colors.backgroundGradient)) {
         Column(Modifier.fillMaxSize()) {
             CommunityPageHeader(
@@ -83,7 +85,7 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
                 },
                 onBack = viewModel::onBack,
                 actions = {
-                    PeopleButton(onClick = viewModel::openPeople)
+                    PeopleButton(onClick = { gate.unlock("people", "Unlock People") { viewModel.openPeople() } })
                     if (!uiState.isGuest) AccountMenu(viewModel, uiState.isAdmin, uiState.hubAlerts)
                 },
             )

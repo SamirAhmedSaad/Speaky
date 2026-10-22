@@ -34,10 +34,8 @@ class AdManager(private val context: Context) {
     private var retryDelayMs = INITIAL_RETRY_MS
     /** One full-screen ad per visit; a visit restarts when the app returns after a long break. */
     private var shownThisVisit = false
-    /** After the visit ad, the next lesson opens without an ad (so the user isn't hit twice in a row). */
-    private var freeLesson = false
-    /** Lessons unlocked with a rewarded video this visit. */
-    private val unlockedLessons = mutableSetOf<String>()
+    /** Things (lessons, People, ...) unlocked with a video this visit. */
+    private val unlocked = mutableSetOf<String>()
 
     private var rewarded: LevelPlayRewardedAd? = null
     private var rewardedLoading = false
@@ -195,7 +193,7 @@ class AdManager(private val context: Context) {
     fun onAppForeground() {
         val now = System.currentTimeMillis()
         if (backgroundSince > 0 && now - backgroundSince >= NEW_VISIT_AFTER_MS) {
-            unlockedLessons.clear()
+            unlocked.clear()
             shownThisVisit = false
             usedMs = 0L
         }
@@ -226,10 +224,7 @@ class AdManager(private val context: Context) {
             loadInterstitial()
             return
         }
-        offerPremiumThenShow(activity, onDismissed) {
-            shownThisVisit = true
-            freeLesson = true
-        }
+        offerPremiumThenShow(activity, onDismissed) { shownThisVisit = true }
     }
 
     /**
@@ -237,24 +232,20 @@ class AdManager(private val context: Context) {
      * visit ad. Also counts as this visit's ad. If none is ready the lesson simply opens.
      */
     /**
-     * Before a course lesson opens: "Watch a short video to unlock" (rewarded), Premium, or Not now.
-     * Free for Premium, for lessons already unlocked this visit, and for the first lesson after the
-     * visit ad. With no rewarded ad available it falls back to the interstitial, or simply opens.
+     * Before opening [key] (a lesson, People, a story...): "Watch a short video to unlock"
+     * (rewarded), Premium, or Not now. Free for Premium and for things already unlocked this visit.
+     * With no rewarded ad available it falls back to the interstitial, or simply opens.
      */
-    fun unlockLesson(activity: Activity, lessonId: String, onUnlocked: () -> Unit) {
-        if (Premium.active.value || lessonId in unlockedLessons) return onUnlocked()
-        if (freeLesson) {
-            freeLesson = false
-            unlockedLessons += lessonId
-            return onUnlocked()
-        }
+    fun unlock(activity: Activity, key: String, title: String, onUnlocked: () -> Unit) {
+        if (Premium.active.value || key in unlocked) return onUnlocked()
         val unlock = {
-            unlockedLessons += lessonId
+            unlocked += key
             onUnlocked()
         }
         val watch = {
             val video = rewarded
             val fallback = interstitial
+            Napier.i { "Unlock $key: rewarded ready=${video?.isAdReady()} interstitial ready=${fallback?.isAdReady()}" }
             when {
                 video != null && video.isAdReady() -> showRewarded(activity, video) { earned -> if (earned) unlock() }
                 fallback != null && fallback.isAdReady() -> {
@@ -270,7 +261,7 @@ class AdManager(private val context: Context) {
                 }
             }
         }
-        Premium.askBeforeAd(AdChoice(onWatchAd = watch, onContinue = unlock, unlockLesson = true))
+        Premium.askBeforeAd(AdChoice(onWatchAd = watch, onContinue = unlock, unlockLesson = true, title = title))
     }
 
     private fun showRewarded(activity: Activity, ad: LevelPlayRewardedAd, onFinished: (earned: Boolean) -> Unit) {

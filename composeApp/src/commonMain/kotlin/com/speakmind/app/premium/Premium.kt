@@ -19,6 +19,8 @@ class AdChoice(
     val onContinue: () -> Unit,
     val unlockLesson: Boolean = false,
     val onCancel: () -> Unit = {},
+    /** Dialog title for the unlock variant, e.g. "Unlock this lesson". */
+    val title: String = "",
 )
 
 /**

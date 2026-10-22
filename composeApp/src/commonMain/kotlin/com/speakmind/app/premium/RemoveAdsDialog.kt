@@ -42,6 +42,7 @@ fun RemoveAdsHost() {
     val prices by Premium.prices.collectAsState()
     RemoveAdsDialog(
         unlockLesson = choice?.unlockLesson == true,
+        unlockTitle = choice?.title.orEmpty(),
         prices = if (Premium.canBuy) prices else emptyMap(),
         onPlan = { plan -> Premium.purchase?.invoke(plan) },
         onWatchAd = Premium::watchAd,
@@ -52,6 +53,7 @@ fun RemoveAdsHost() {
 @Composable
 private fun RemoveAdsDialog(
     unlockLesson: Boolean,
+    unlockTitle: String,
     prices: Map<PremiumPlan, PlanPrice>,
     onPlan: (PremiumPlan) -> Unit,
     onWatchAd: () -> Unit,
@@ -91,7 +93,7 @@ private fun RemoveAdsDialog(
                     }
                     Spacer(Modifier.height(10.sdp))
                     Text(
-                        if (unlockLesson) "Unlock this lesson" else "Learn without ads",
+                        if (unlockLesson) unlockTitle.ifBlank { "Unlock" } else "Learn without ads",
                         style = MaterialTheme.typography.titleLarge.copy(color = Color.White, fontWeight = FontWeight.Bold),
                     )
                     Text(
@@ -107,7 +109,7 @@ private fun RemoveAdsDialog(
                     if (prices.isNotEmpty()) {
                         Spacer(Modifier.height(4.sdp))
                         Text(
-                            "Or unlock every lesson, with no ads:",
+                            "Or unlock everything, with no ads:",
                             style = MaterialTheme.typography.labelLarge.copy(color = colors.textSecondary, fontWeight = FontWeight.Bold),
                         )
                     }

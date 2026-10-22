@@ -1,5 +1,6 @@
 package com.speakmind.app.feature.home.ui
 
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
@@ -63,6 +64,7 @@ fun NavGraphBuilder.homeScreen() {
     animatedComposable<HomeDestination> {
         val viewModel = koinViewModel<HomeViewModel>()
         val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+        val gate = rememberInterstitialAdState()
 
         val lifecycleOwner = androidx.compose.ui.platform.LocalLifecycleOwner.current
         androidx.compose.runtime.DisposableEffect(lifecycleOwner) {
@@ -112,8 +114,8 @@ fun NavGraphBuilder.homeScreen() {
 
         HomeScreenContent(
             uiState = uiState,
-            onScenarioClick = viewModel::onScenarioClicked,
-            onCloudChatClick = viewModel::onCloudChatClicked,
+            onScenarioClick = { id -> gate.unlock("article:$id", "Unlock this article") { viewModel.onScenarioClicked(id) } },
+            onCloudChatClick = { gate.unlock("speaky-chat", "Unlock Speaky Chat") { viewModel.onCloudChatClicked() } },
             onFlashcardsClick = viewModel::onFlashcardsClicked,
             onVocabularyClick = viewModel::onVocabularyClicked,
             onStoriesClick = viewModel::onStoriesClicked,

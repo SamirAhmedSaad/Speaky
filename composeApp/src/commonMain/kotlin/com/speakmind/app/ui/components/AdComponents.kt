@@ -18,6 +18,9 @@ expect fun rememberInterstitialAdState(): InterstitialAdState
 expect class InterstitialAdState {
     fun show(onDismissed: () -> Unit = {})
 
-    /** Before opening a course lesson: "watch a video to unlock" (see AdManager.unlockLesson). */
-    fun unlockLesson(lessonId: String, onUnlocked: () -> Unit)
+    /**
+     * "Watch a short video to unlock" (rewarded) or Premium, before opening [key] (e.g. a lesson,
+     * People). Unlocked for the rest of the visit; free for Premium. See AdManager.unlock.
+     */
+    fun unlock(key: String, title: String, onUnlocked: () -> Unit)
 }

@@ -48,7 +48,12 @@ class BillingManager private constructor(context: Context) {
     /** The activity on screen, for showing the purchase sheet. */
     fun attach(activity: Activity) {
         this.activity = WeakReference(activity)
-        if (client.isReady) refreshPurchases() else connect()
+        if (client.isReady) {
+            if (details == null) loadProduct()
+            refreshPurchases()
+        } else {
+            connect()
+        }
     }
 
     private fun connect() {

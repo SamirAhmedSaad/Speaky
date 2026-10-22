@@ -1,5 +1,6 @@
 package com.speakmind.app.feature.story.ui
 
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -36,12 +37,13 @@ fun NavGraphBuilder.storiesScreen() {
     animatedComposable<StoriesDestination> {
         val viewModel = koinViewModel<StoryViewModel>()
         val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+        val gate = rememberInterstitialAdState()
         StoriesScreenContent(
             uiState = uiState,
             onTopicBadgeClick = viewModel::onTopicBadgeClicked,
             onTopicSelected = viewModel::onTopicSelected,
             onTopicPickerDismissed = viewModel::onTopicPickerDismissed,
-            onStoryClicked = viewModel::onStoryClicked,
+            onStoryClicked = { story -> gate.unlock("story:${story.id}", "Unlock this story") { viewModel.onStoryClicked(story) } },
             onRefresh = viewModel::onRefresh,
             onBackClicked = viewModel::onBackClicked,
         )

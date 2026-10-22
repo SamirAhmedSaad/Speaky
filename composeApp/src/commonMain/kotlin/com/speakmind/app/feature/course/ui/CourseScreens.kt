@@ -304,7 +304,7 @@ fun NavGraphBuilder.courseBookScreen() {
                             icon = Icons.Default.PlayArrow,
                             accent = colors.magenta,
                             done = result != null,
-                            onClick = { lessonAd.unlockLesson(lesson.id) { viewModel.onLessonClicked(lesson.id) } },
+                            onClick = { lessonAd.unlock("lesson:${lesson.id}", "Unlock this lesson") { viewModel.onLessonClicked(lesson.id) } },
                             modifier = Modifier.fillMaxWidth(),
                         )
                     }
