@@ -43,6 +43,13 @@ android {
                 "proguard-rules.pro"
             )
         }
+        // Same as release (R8, not debuggable) but debug-signed, to test on a phone without
+        // uninstalling: ./gradlew :androidApp:assembleMinitest
+        create("minitest") {
+            initWith(getByName("release"))
+            signingConfig = signingConfigs.getByName("debug")
+            matchingFallbacks += listOf("release")
+        }
     }
 
     compileOptions {
