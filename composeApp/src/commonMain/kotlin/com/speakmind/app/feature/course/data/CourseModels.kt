@@ -68,6 +68,7 @@ data class LessonWord(
     @SerialName("meaning_en") val meaningEn: String = "",
     @SerialName("meaning_ar") val meaningAr: String = "",
     @SerialName("note_ar") val noteAr: String = "",
+    @SerialName("note_en") val noteEn: String = "",
     val example: String = "",
 )
 
@@ -76,6 +77,7 @@ data class FineLine(
     val title: String,
     val words: List<String> = emptyList(),
     @SerialName("explanation_ar") val explanationAr: String = "",
+    @SerialName("explanation_en") val explanationEn: String = "",
     val examples: List<FineLineExample> = emptyList(),
 )
 
@@ -86,6 +88,7 @@ data class FineLineExample(val word: String, val sentence: String)
 data class LessonExpression(
     val phrase: String,
     @SerialName("meaning_ar") val meaningAr: String = "",
+    @SerialName("meaning_en") val meaningEn: String = "",
     val example: String = "",
 )
 
@@ -93,6 +96,7 @@ data class LessonExpression(
 data class GrammarPoint(
     val title: String,
     @SerialName("explanation_ar") val explanationAr: String = "",
+    @SerialName("explanation_en") val explanationEn: String = "",
     val examples: List<String> = emptyList(),
 )
 
@@ -102,6 +106,7 @@ data class ExamQuestion(
     val choices: List<String>,
     val answer: Int,
     @SerialName("explanation_ar") val explanationAr: String = "",
+    @SerialName("explanation_en") val explanationEn: String = "",
 )
 
 /** A finished exam. A lesson counts as completed once its exam has been finished. */

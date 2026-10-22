@@ -47,6 +47,7 @@ class Vocab(BaseModel):
     meaning_en: str = Field(description="Simple English definition for learners")
     meaning_ar: str
     note_ar: str = Field(default="", description="Short Arabic note: pronunciation, US/UK, word family. Empty if none")
+    note_en: str = Field(default="", description="The same note in simple English. Empty if none")
     example: str = Field(description="Your own short natural example sentence")
 
 
@@ -59,18 +60,21 @@ class FineLine(BaseModel):
     title: str = Field(description='e.g. "aisle vs lane"')
     words: List[str]
     explanation_ar: str = Field(description="How the words differ, explained logically in Arabic")
+    explanation_en: str = Field(description="The same explanation in simple English")
     examples: List[FineLineExample]
 
 
 class Expression(BaseModel):
     phrase: str
     meaning_ar: str
+    meaning_en: str
     example: str
 
 
 class Grammar(BaseModel):
     title: str
     explanation_ar: str
+    explanation_en: str
     examples: List[str]
 
 
@@ -86,6 +90,7 @@ class Question(BaseModel):
     choices: List[str] = Field(description="Exactly 4 choices")
     answer: int = Field(description="Index (0-3) of the correct choice")
     explanation_ar: str
+    explanation_en: str
 
 
 class Lesson(BaseModel):
@@ -109,6 +114,8 @@ Extract what the video teaches and write:
 - questions: exactly 10 multiple-choice questions (4 choices each) testing this lesson's vocabulary,
   fine lines and grammar. Mix the question types and the position of the correct answer.
 
+Every explanation comes in two versions: Arabic (*_ar) and simple English (*_en) for learners who
+don't speak Arabic.
 Rules: do not copy the video's story or long passages; write your own explanations and examples.
 Keep everything short and clear for B1 learners.
 

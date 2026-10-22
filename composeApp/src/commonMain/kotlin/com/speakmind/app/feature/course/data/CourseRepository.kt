@@ -65,6 +65,15 @@ class CourseRepository(
         }
     }
 
+    /** Explanation language picked on the lesson page; null until the user picks one. */
+    suspend fun explainInArabic(): Boolean? = withContext(Dispatchers.IO) {
+        queries.selectCourseCache(KEY_EXPLAIN_AR).executeAsOneOrNull()?.toBooleanStrictOrNull()
+    }
+
+    suspend fun setExplainInArabic(arabic: Boolean) = withContext(Dispatchers.IO) {
+        queries.upsertCourseCache(KEY_EXPLAIN_AR, arabic.toString(), Clock.System.now().toEpochMilliseconds())
+    }
+
     /** Finished exams by lesson id. */
     suspend fun results(): Map<String, LessonResult> = withContext(Dispatchers.IO) {
         queries.selectCourseProgress().executeAsList()
@@ -87,4 +96,8 @@ class CourseRepository(
                 saved(key, serializer)
             }
         }
+
+    private companion object {
+        const val KEY_EXPLAIN_AR = "pref:explain_ar"
+    }
 }

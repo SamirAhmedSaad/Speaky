@@ -44,6 +44,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.text.intl.Locale
+import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
@@ -329,17 +332,25 @@ fun NavGraphBuilder.lessonScreen() {
             when {
                 state.isLoading -> Loading(modifier)
                 lesson == null -> Message("Couldn't load the lesson. Check your connection.", modifier)
-                else -> LessonBody(lesson, state.result, viewModel::onStartExam, modifier)
+                else -> LessonBody(lesson, state.result, viewModel::onStartExam, viewModel::onExplainLanguage, modifier)
             }
         }
     }
 }
 
 @Composable
-private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () -> Unit, modifier: Modifier) {
+private fun LessonBody(
+    lesson: Lesson,
+    result: LessonResult?,
+    onStartExam: () -> Unit,
+    onExplainLanguage: (arabic: Boolean) -> Unit,
+    modifier: Modifier,
+) {
     val colors = LocalSpeakMindColors.current
     val openYouTube = rememberYouTubeOpener()
     var tab by rememberSaveable { mutableIntStateOf(0) }
+    val arabic = rememberExplainArabic()
+    CompositionLocalProvider(LocalExplainArabic provides arabic) {
     Column(modifier) {
         LazyColumn(
             modifier = Modifier.weight(1f),
@@ -379,6 +390,7 @@ private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () ->
                     }
                 }
             }
+            item { ExplainLanguageToggle(arabic, onExplainLanguage) }
             item {
                 Row(
                     Modifier.fillMaxWidth().padding(vertical = 4.sdp),
@@ -410,21 +422,21 @@ private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () ->
                 1 -> items(content.fineLines) { line ->
                     InfoCard {
                         Text(line.title, style = MaterialTheme.typography.titleMedium.copy(color = colors.magenta, fontWeight = FontWeight.Bold))
-                        ArabicText(line.explanationAr, colors.textPrimary)
+                        Explain(line.explanationAr, line.explanationEn, colors.textPrimary)
                         line.examples.forEach { ExampleText(it.sentence, label = it.word) }
                     }
                 }
                 2 -> items(content.expressions) { expression ->
                     InfoCard {
                         Text(expression.phrase, style = MaterialTheme.typography.titleMedium.copy(color = colors.neonCyan, fontWeight = FontWeight.Bold))
-                        ArabicText(expression.meaningAr, colors.textPrimary)
+                        Explain(expression.meaningAr, expression.meaningEn, colors.textPrimary)
                         if (expression.example.isNotBlank()) ExampleText(expression.example)
                     }
                 }
                 else -> items(content.grammar) { point ->
                     InfoCard {
                         Text(point.title, style = MaterialTheme.typography.titleMedium.copy(color = colors.gold, fontWeight = FontWeight.Bold))
-                        ArabicText(point.explanationAr, colors.textPrimary)
+                        Explain(point.explanationAr, point.explanationEn, colors.textPrimary)
                         point.examples.forEach { ExampleText(it) }
                     }
                 }
@@ -442,6 +454,7 @@ private fun LessonBody(lesson: Lesson, result: LessonResult?, onStartExam: () ->
                 fontWeight = FontWeight.Bold,
             )
         }
+    }
     }
 }
 
@@ -463,9 +476,13 @@ private fun VocabCard(word: LessonWord) {
         }
         AnimatedVisibility(visible = open, enter = fadeIn() + expandVertically(), exit = fadeOut() + shrinkVertically()) {
             Column(verticalArrangement = Arrangement.spacedBy(6.sdp)) {
-                ArabicText(word.meaningAr, colors.textPrimary)
-                if (word.meaningEn.isNotBlank()) Text(word.meaningEn, style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary))
-                if (word.noteAr.isNotBlank()) ArabicText("💡 ${word.noteAr}", colors.gold)
+                if (LocalExplainArabic.current) {
+                    ArabicText(word.meaningAr, colors.textPrimary)
+                    if (word.meaningEn.isNotBlank()) Text(word.meaningEn, style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary))
+                } else {
+                    Text(word.meaningEn.ifBlank { word.meaningAr }, style = MaterialTheme.typography.bodyMedium.copy(color = colors.textPrimary))
+                }
+                if (word.noteAr.isNotBlank() || word.noteEn.isNotBlank()) Explain(word.noteAr, word.noteEn, colors.gold, prefix = "💡 ")
                 if (word.example.isNotBlank()) ExampleText(word.example)
             }
         }
@@ -485,6 +502,56 @@ private fun InfoCard(onClick: (() -> Unit)? = null, content: @Composable () -> U
             .padding(14.sdp),
         verticalArrangement = Arrangement.spacedBy(6.sdp),
     ) { content() }
+}
+
+/** Explanations in Arabic (default for Arabic phones) or English, chosen on the lesson page. */
+private val LocalExplainArabic = staticCompositionLocalOf { true }
+
+@Composable
+private fun rememberExplainArabic(): Boolean {
+    val chosen by ExplainLanguage.arabic.collectAsStateWithLifecycle()
+    return chosen ?: (Locale.current.language == "ar")
+}
+
+/** The Arabic or English version; falls back to Arabic for lessons without English yet. */
+@Composable
+private fun Explain(ar: String, en: String, color: Color, prefix: String = "") {
+    if (LocalExplainArabic.current || en.isBlank()) {
+        if (ar.isNotBlank()) ArabicText(prefix + ar, color)
+    } else {
+        Text(prefix + en, style = MaterialTheme.typography.bodyMedium.copy(color = color), modifier = Modifier.fillMaxWidth())
+    }
+}
+
+@Composable
+private fun ExplainLanguageToggle(arabic: Boolean, onSelect: (Boolean) -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        Text(
+            "Explanations",
+            style = MaterialTheme.typography.labelLarge.copy(color = colors.textSecondary, fontWeight = FontWeight.Bold),
+            modifier = Modifier.weight(1f),
+        )
+        Row(
+            Modifier.clip(RoundedCornerShape(50)).background(colors.surfaceVariant.copy(alpha = 0.7f)).padding(3.sdp),
+        ) {
+            listOf(true to "العربية", false to "English").forEach { (isArabic, label) ->
+                val selected = arabic == isArabic
+                Text(
+                    label,
+                    style = MaterialTheme.typography.labelLarge.copy(
+                        color = if (selected) Color.White else colors.textSecondary,
+                        fontWeight = FontWeight.Bold,
+                    ),
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(50))
+                        .background(if (selected) colors.neonCyan else Color.Transparent)
+                        .clickable { onSelect(isArabic) }
+                        .padding(horizontal = 14.sdp, vertical = 6.sdp),
+                )
+            }
+        }
+    }
 }
 
 /** Arabic explanations: a right-to-left paragraph, so English words and punctuation inside sit in the right place. */
@@ -523,6 +590,8 @@ fun NavGraphBuilder.lessonExamScreen() {
         val viewModel = koinViewModel<ExamViewModel>(key = "exam-${dest.lessonId}") { parametersOf(dest.lessonId) }
         val state by viewModel.uiState.collectAsStateWithLifecycle()
         val questions = state.lesson?.questions.orEmpty()
+        val explainArabic = rememberExplainArabic()
+        CompositionLocalProvider(LocalExplainArabic provides explainArabic) {
         ScreenScaffold("Exam", viewModel::onBack) { modifier ->
             when {
                 state.lesson == null -> Loading(modifier)
@@ -530,6 +599,7 @@ fun NavGraphBuilder.lessonExamScreen() {
                 state.finished -> ExamResult(state.score, questions.size, viewModel::onRetry, viewModel::onBack, modifier)
                 else -> ExamQuestionView(state, viewModel::onPick, viewModel::onNext, modifier)
             }
+        }
         }
     }
 }
@@ -599,7 +669,7 @@ private fun ExamQuestionView(state: ExamUiState, onPick: (Int) -> Unit, onNext: 
                         if (correct) "✓ Correct!" else "✗ Not quite",
                         style = MaterialTheme.typography.titleSmall.copy(color = tone, fontWeight = FontWeight.Bold),
                     )
-                    ArabicText(question.explanationAr, colors.textPrimary)
+                    Explain(question.explanationAr, question.explanationEn, colors.textPrimary)
                 }
                 Spacer(Modifier.height(8.sdp))
                 Button(

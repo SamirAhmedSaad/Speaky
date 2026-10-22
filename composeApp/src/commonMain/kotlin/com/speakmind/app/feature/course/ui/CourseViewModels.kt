@@ -91,6 +91,20 @@ class CourseOutlineViewModel(
     fun onBack() = navigationManager.back()
 }
 
+// ---------------- Explanation language (Arabic / English) ----------------
+
+/** Shared by the lesson and exam screens. Null: not chosen yet, follow the phone's language. */
+object ExplainLanguage {
+    val arabic = MutableStateFlow<Boolean?>(null)
+    private var loaded = false
+
+    suspend fun load(repository: CourseRepository) {
+        if (loaded) return
+        loaded = true
+        repository.explainInArabic()?.let { arabic.value = it }
+    }
+}
+
 // ---------------- Lesson page ----------------
 
 data class LessonUiState(
@@ -108,6 +122,7 @@ class LessonViewModel(
     val uiState: StateFlow<LessonUiState> = _uiState.asStateFlow()
 
     init {
+        viewModelScope.launch { ExplainLanguage.load(repository) }
         // Saved copy first (instant, offline), then the latest version from the server.
         viewModelScope.launch {
             repository.savedLesson(lessonId)?.let { show(it) }
@@ -125,6 +140,11 @@ class LessonViewModel(
     }
 
     fun onStartExam() = navigationManager.navigate(LessonExamDestination(lessonId))
+
+    fun onExplainLanguage(arabic: Boolean) {
+        ExplainLanguage.arabic.value = arabic
+        viewModelScope.launch { repository.setExplainInArabic(arabic) }
+    }
 
     fun onBack() = navigationManager.back()
 }
