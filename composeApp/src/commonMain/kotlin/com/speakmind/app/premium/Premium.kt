@@ -38,6 +38,14 @@ object Premium {
     private val _adChoice = MutableStateFlow<AdChoice?>(null)
     val adChoice: StateFlow<AdChoice?> = _adChoice.asStateFlow()
 
+    private val _loadingAd = MutableStateFlow(false)
+    /** "Loading video…" while waiting a few seconds for an ad the user asked to watch. */
+    val loadingAd: StateFlow<Boolean> = _loadingAd.asStateFlow()
+
+    fun setLoadingAd(value: Boolean) {
+        _loadingAd.value = value
+    }
+
     /** Opens the store's purchase sheet for a plan. Null where billing isn't available. */
     var purchase: ((PremiumPlan) -> Unit)? = null
 

@@ -236,10 +236,10 @@ class AdManager(private val context: Context) {
      * (rewarded), Premium, or Not now. Free for Premium and for things already unlocked this visit.
      * With no rewarded ad available it falls back to the interstitial, or simply opens.
      */
-    fun unlock(activity: Activity, key: String, title: String, onUnlocked: () -> Unit) {
-        if (Premium.active.value || key in unlocked) return onUnlocked()
+    fun unlock(activity: Activity, key: String, title: String, everyTime: Boolean, onUnlocked: () -> Unit) {
+        if (Premium.active.value || (!everyTime && key in unlocked)) return onUnlocked()
         val unlock = {
-            unlocked += key
+            if (!everyTime) unlocked += key
             onUnlocked()
         }
         val watch = {
@@ -253,15 +253,45 @@ class AdManager(private val context: Context) {
                     pendingDismiss = unlock
                     fallback.showAd(activity)
                 }
-                else -> {
-                    // No ad to show: never block learning.
-                    loadRewarded()
-                    loadInterstitial()
-                    unlock()
-                }
+                else -> waitForAd(activity, unlock)
             }
         }
         Premium.askBeforeAd(AdChoice(onWatchAd = watch, onContinue = unlock, unlockLesson = true, title = title))
+    }
+
+    /**
+     * The user asked for a video but none is loaded: show "Loading video…" and keep trying for a
+     * few seconds. If nothing arrives, unlock anyway - never block the user.
+     */
+    private fun waitForAd(activity: Activity, unlock: () -> Unit) {
+        loadRewarded()
+        loadInterstitial()
+        Premium.setLoadingAd(true)
+        val start = System.currentTimeMillis()
+        handler.post(object : Runnable {
+            override fun run() {
+                val video = rewarded
+                val fallback = interstitial
+                when {
+                    video != null && video.isAdReady() -> {
+                        Premium.setLoadingAd(false)
+                        showRewarded(activity, video) { earned -> if (earned) unlock() }
+                    }
+                    fallback != null && fallback.isAdReady() -> {
+                        Premium.setLoadingAd(false)
+                        shownThisVisit = true
+                        pendingDismiss = unlock
+                        fallback.showAd(activity)
+                    }
+                    System.currentTimeMillis() - start > WAIT_FOR_AD_MS -> {
+                        Premium.setLoadingAd(false)
+                        Napier.w { "No video available; unlocking without one" }
+                        unlock()
+                    }
+                    else -> handler.postDelayed(this, 300)
+                }
+            }
+        })
     }
 
     private fun showRewarded(activity: Activity, ad: LevelPlayRewardedAd, onFinished: (earned: Boolean) -> Unit) {
@@ -293,7 +323,8 @@ class AdManager(private val context: Context) {
                     rewardedLoading = false
                     Napier.w { "Rewarded failed to load: ${error.errorMessage}" }
                     handler.postDelayed({ loadRewarded() }, rewardedRetryMs)
-                    rewardedRetryMs = (rewardedRetryMs * 2).coerceAtMost(MAX_RETRY_MS)
+                    // Users ask for these on demand: keep retrying at least every minute.
+                    rewardedRetryMs = (rewardedRetryMs * 2).coerceAtMost(60_000L)
                 }
 
                 override fun onAdDisplayed(adInfo: LevelPlayAdInfo) {}
@@ -357,6 +388,7 @@ class AdManager(private val context: Context) {
         private const val INITIAL_RETRY_MS = 15_000L
         private const val FIRST_AD_AFTER_MS = 60_000L
         private const val NEW_VISIT_AFTER_MS = 5 * 60_000L
+        private const val WAIT_FOR_AD_MS = 8_000L
         private const val MAX_RETRY_MS = 5 * 60_000L
 
         @Volatile

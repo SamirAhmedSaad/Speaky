@@ -1,5 +1,6 @@
 package com.speakmind.app.ui.components
 
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
@@ -20,7 +21,8 @@ expect class InterstitialAdState {
 
     /**
      * "Watch a short video to unlock" (rewarded) or Premium, before opening [key] (e.g. a lesson,
-     * People). Unlocked for the rest of the visit; free for Premium. See AdManager.unlock.
+     * People). Unlocked for the rest of the visit unless [everyTime]; free for Premium.
+     * See AdManager.unlock.
      */
-    fun unlock(key: String, title: String, onUnlocked: () -> Unit)
+    fun unlock(key: String, title: String, everyTime: Boolean = false, onUnlocked: () -> Unit)
 }

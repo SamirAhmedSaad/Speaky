@@ -1,5 +1,6 @@
 package com.speakmind.app.ui.components
 
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import android.app.Activity
 import android.view.View
 import android.widget.FrameLayout
@@ -78,11 +79,11 @@ actual class InterstitialAdState(
         }
     }
 
-    actual fun unlock(key: String, title: String, onUnlocked: () -> Unit) {
+    actual fun unlock(key: String, title: String, everyTime: Boolean, onUnlocked: () -> Unit) {
         val activity = context as? Activity
         val adManager = AdManager.instance
         if (AdConfig.adsEnabled && AdConfig.adsReady && activity != null && adManager != null) {
-            adManager.unlock(activity, key, title, onUnlocked)
+            adManager.unlock(activity, key, title, everyTime, onUnlocked)
         } else {
             onUnlocked()
         }

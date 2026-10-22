@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -37,6 +38,8 @@ import kotlin.math.roundToInt
 /** Shown (from AppRoot) whenever a full-screen ad is about to play and Premium can be bought. */
 @Composable
 fun RemoveAdsHost() {
+    val loading by Premium.loadingAd.collectAsState()
+    if (loading) LoadingVideoDialog()
     val choice by Premium.adChoice.collectAsState()
     if (choice == null) return
     val prices by Premium.prices.collectAsState()
@@ -151,6 +154,21 @@ private fun RemoveAdsDialog(
                     )
                 }
             }
+        }
+    }
+}
+
+@Composable
+private fun LoadingVideoDialog() {
+    val colors = LocalSpeakMindColors.current
+    Dialog(onDismissRequest = {}, properties = DialogProperties(dismissOnBackPress = false, dismissOnClickOutside = false)) {
+        Row(
+            modifier = Modifier.clip(RoundedCornerShape(20.sdp)).background(colors.surface).padding(horizontal = 24.sdp, vertical = 20.sdp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            CircularProgressIndicator(color = colors.neonCyan, modifier = Modifier.size(24.sdp), strokeWidth = 3.sdp)
+            Spacer(Modifier.width(14.sdp))
+            Text("Loading video…", style = MaterialTheme.typography.titleSmall.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold))
         }
     }
 }

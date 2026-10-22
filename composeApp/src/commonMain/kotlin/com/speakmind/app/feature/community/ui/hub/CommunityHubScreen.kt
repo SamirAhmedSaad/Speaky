@@ -87,7 +87,7 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
                 },
                 onBack = viewModel::onBack,
                 actions = {
-                    PeopleButton(onClick = { gate.unlock("people", "Unlock People") { viewModel.openPeople() } })
+                    PeopleButton(onClick = { gate.unlock("people", "Unlock People", everyTime = true) { viewModel.openPeople() } })
                     if (!uiState.isGuest) AccountMenu(viewModel, uiState.isAdmin, uiState.hubAlerts)
                 },
             )
@@ -175,6 +175,7 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
 private fun PrivateChatCard(chat: ChatRoom, uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
     val colors = LocalSpeakMindColors.current
     val other = chat.otherUser ?: return
+    val gate = rememberInterstitialAdState()
     PersonCard(
         user = other,
         online = other.uid in uiState.onlineUserIds,
@@ -182,7 +183,7 @@ private fun PrivateChatCard(chat: ChatRoom, uiState: CommunityHubUiState, viewMo
         subtitleColor = if (chat.unreadCount > 0) colors.textPrimary else null,
         trailingTime = formatListTime(chat.lastMessageAtMillis),
         unread = chat.unreadCount,
-        onClick = { viewModel.openChat(chat) },
+        onClick = { gate.unlock("chat:${chat.id}", "Chat with ${other.nickname}", everyTime = true) { viewModel.openChat(chat) } },
     )
 }
 

@@ -244,7 +244,7 @@ fun NavGraphBuilder.roomChatScreen() {
                 onMessage = if (!isMe && !(uiState.kind == RoomKind.DIRECT && uiState.otherUser?.uid == user.uid)) {
                     {
                         viewModel.onProfileDismissed()
-                        gate.unlock("dm:${user.uid}", "Message ${user.nickname}") { viewModel.onMessageUser(user.uid, user.nickname) }
+                        gate.unlock("dm:${user.uid}", "Message ${user.nickname}", everyTime = true) { viewModel.onMessageUser(user.uid, user.nickname) }
                     }
                 } else null,
                 onReport = if (!isMe && !uiState.isGuest) {

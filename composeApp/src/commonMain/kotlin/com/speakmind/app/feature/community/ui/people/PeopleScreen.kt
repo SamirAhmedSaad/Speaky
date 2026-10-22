@@ -164,7 +164,7 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                 online = user.uid in uiState.onlineUserIds,
                 isBlocked = user.uid in uiState.blockedUserIds,
                 onDismiss = viewModel::onProfileDismissed,
-                onMessage = { gate.unlock("dm:${user.uid}", "Message ${user.nickname}") { viewModel.onMessage(user) } },
+                onMessage = { gate.unlock("dm:${user.uid}", "Message ${user.nickname}", everyTime = true) { viewModel.onMessage(user) } },
                 onReport = null,
                 onBlockToggle = if (uiState.isGuest) null else { { viewModel.onToggleBlock(user) } },
                 isModerator = user.uid in uiState.moderatorIds,
