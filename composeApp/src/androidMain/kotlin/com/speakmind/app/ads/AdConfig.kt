@@ -13,7 +13,7 @@ object AdConfig {
     const val BANNER_AD_UNIT_ID = "0aztdd50eta7gjj4"
     const val INTERSTITIAL_AD_UNIT_ID = "nd3c7a5ua0h5fp20"
     /** "Watch a video to unlock this lesson". Empty: lessons use the interstitial instead. */
-    const val REWARDED_AD_UNIT_ID = ""
+    const val REWARDED_AD_UNIT_ID = "v7n6ui3lrk8yev81"
 
     var adsEnabled: Boolean = true
     /** Debug builds: verbose LevelPlay logs and the LevelPlay test suite. Test ads are set per device in the dashboard. */
