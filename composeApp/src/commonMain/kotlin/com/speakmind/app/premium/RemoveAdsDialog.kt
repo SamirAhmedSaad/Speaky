@@ -161,7 +161,8 @@ private fun RemoveAdsDialog(
 @Composable
 private fun LoadingVideoDialog() {
     val colors = LocalSpeakMindColors.current
-    Dialog(onDismissRequest = {}, properties = DialogProperties(dismissOnBackPress = false, dismissOnClickOutside = false)) {
+    // Back cancels: the user stays on the current screen.
+    Dialog(onDismissRequest = { Premium.setLoadingAd(false) }, properties = DialogProperties(dismissOnClickOutside = false)) {
         Row(
             modifier = Modifier.clip(RoundedCornerShape(20.sdp)).background(colors.surface).padding(horizontal = 24.sdp, vertical = 20.sdp),
             verticalAlignment = Alignment.CenterVertically,

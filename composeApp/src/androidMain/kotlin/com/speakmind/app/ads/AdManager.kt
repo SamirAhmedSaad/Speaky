@@ -182,7 +182,7 @@ class AdManager(private val context: Context) {
     }
 
     fun loadInterstitial() {
-        if (!AdConfig.adsEnabled) return
+        if (!AdConfig.adsEnabled || pendingDismiss != null || onRewardFinished != null) return
         val ad = interstitial ?: return
         if (!ad.isAdReady() && !interstitialLoading) {
             interstitialLoading = true
@@ -264,12 +264,20 @@ class AdManager(private val context: Context) {
      * few seconds. If nothing arrives, unlock anyway - never block the user.
      */
     private fun waitForAd(activity: Activity, unlock: () -> Unit) {
-        loadRewarded()
-        loadInterstitial()
         Premium.setLoadingAd(true)
         val start = System.currentTimeMillis()
+        var lastRequest = 0L
         handler.post(object : Runnable {
             override fun run() {
+                // Back pressed on "Loading video…": stay where we are.
+                if (!Premium.loadingAd.value) return
+                val now = System.currentTimeMillis()
+                if (now - lastRequest >= RETRY_WHILE_WAITING_MS) {
+                    // Ask again right away instead of waiting for the background retry delay.
+                    lastRequest = now
+                    loadRewarded()
+                    loadInterstitial()
+                }
                 val video = rewarded
                 val fallback = interstitial
                 when {
@@ -283,7 +291,7 @@ class AdManager(private val context: Context) {
                         pendingDismiss = unlock
                         fallback.showAd(activity)
                     }
-                    System.currentTimeMillis() - start > WAIT_FOR_AD_MS -> {
+                    now - start > WAIT_FOR_AD_MS -> {
                         Premium.setLoadingAd(false)
                         Napier.w { "No video available; unlocking without one" }
                         unlock()
@@ -352,7 +360,8 @@ class AdManager(private val context: Context) {
     }
 
     private fun loadRewarded() {
-        if (!AdConfig.adsEnabled || Premium.active.value) return
+        // LevelPlay rejects loads while a full-screen ad is on screen.
+        if (!AdConfig.adsEnabled || Premium.active.value || pendingDismiss != null || onRewardFinished != null) return
         val ad = rewarded ?: return
         if (!ad.isAdReady() && !rewardedLoading) {
             rewardedLoading = true
@@ -379,16 +388,19 @@ class AdManager(private val context: Context) {
     }
 
     private fun finishShow() {
-        pendingDismiss?.invoke()
+        val done = pendingDismiss
         pendingDismiss = null
+        done?.invoke()
         loadInterstitial()
+        loadRewarded()
     }
 
     companion object {
         private const val INITIAL_RETRY_MS = 15_000L
         private const val FIRST_AD_AFTER_MS = 60_000L
         private const val NEW_VISIT_AFTER_MS = 5 * 60_000L
-        private const val WAIT_FOR_AD_MS = 8_000L
+        private const val WAIT_FOR_AD_MS = 15_000L
+        private const val RETRY_WHILE_WAITING_MS = 2_000L
         private const val MAX_RETRY_MS = 5 * 60_000L
 
         @Volatile
