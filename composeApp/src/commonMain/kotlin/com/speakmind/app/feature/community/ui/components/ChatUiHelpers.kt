@@ -48,8 +48,9 @@ fun formatLastSeen(epochMillis: Long): String {
         minutes < 2 -> "Last seen just now"
         minutes < 60 -> "Last seen ${minutes}m ago"
         minutes < 24 * 60 -> "Last seen ${minutes / 60}h ago"
-        minutes < 7 * 24 * 60 -> "Last seen ${minutes / (24 * 60)}d ago"
-        else -> "Last seen ${formatListTime(epochMillis)}"
+        minutes < 48 * 60 -> "Last seen yesterday"
+        // Older activity isn't shown: "5 days ago" only says the person stopped using the app.
+        else -> "Offline"
     }
 }
 

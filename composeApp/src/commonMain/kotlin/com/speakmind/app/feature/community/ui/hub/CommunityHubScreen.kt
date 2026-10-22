@@ -81,6 +81,8 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
                 title = "Chats",
                 subtitle = when {
                     uiState.unreadTotal > 0 -> "${uiState.unreadTotal} unread"
+                    uiState.onlineUserIds.isEmpty() -> "Learners from around the world"
+                    uiState.onlineUserIds.size == 1 -> "1 learner online"
                     else -> "${uiState.onlineUserIds.size} learners online"
                 },
                 onBack = viewModel::onBack,
@@ -240,7 +242,7 @@ private fun SpeakyHubCard(hub: ChatRoom?, onlineCount: Int, onClick: () -> Unit)
                     )
                     Spacer(Modifier.width(6.sdp))
                     Text(
-                        "$onlineCount online now",
+                        if (onlineCount > 0) "$onlineCount online now" else "Join the conversation",
                         style = MaterialTheme.typography.labelSmall.copy(color = Color.White.copy(alpha = 0.9f)),
                     )
                 }

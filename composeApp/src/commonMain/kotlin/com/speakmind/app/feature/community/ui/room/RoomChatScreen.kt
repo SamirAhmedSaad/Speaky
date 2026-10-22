@@ -1,5 +1,6 @@
 package com.speakmind.app.feature.community.ui.room
 
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.scaleIn
 import androidx.compose.animation.scaleOut
@@ -232,6 +233,7 @@ fun NavGraphBuilder.roomChatScreen() {
         ResizeWindowForKeyboard()
         RoomChatContent(uiState = uiState, actions = actions)
 
+        val gate = rememberInterstitialAdState()
         uiState.profileUser?.let { user ->
             val isMe = user.uid == uiState.currentUserId
             ProfileSheet(
@@ -240,7 +242,10 @@ fun NavGraphBuilder.roomChatScreen() {
                 isBlocked = user.uid in uiState.blockedUserIds,
                 onDismiss = viewModel::onProfileDismissed,
                 onMessage = if (!isMe && !(uiState.kind == RoomKind.DIRECT && uiState.otherUser?.uid == user.uid)) {
-                    { viewModel.onProfileDismissed(); viewModel.onMessageUser(user.uid, user.nickname) }
+                    {
+                        viewModel.onProfileDismissed()
+                        gate.unlock("dm:${user.uid}", "Message ${user.nickname}") { viewModel.onMessageUser(user.uid, user.nickname) }
+                    }
                 } else null,
                 onReport = if (!isMe && !uiState.isGuest) {
                     { viewModel.onProfileDismissed(); viewModel.onReportRequested(ReportTarget(user.uid, user.nickname)) }

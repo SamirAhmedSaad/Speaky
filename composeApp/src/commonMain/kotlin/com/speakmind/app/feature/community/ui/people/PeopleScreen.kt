@@ -1,5 +1,6 @@
 package com.speakmind.app.feature.community.ui.people
 
+import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.border
@@ -156,13 +157,14 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                 }
             }
         }
+        val gate = rememberInterstitialAdState()
         uiState.profileUser?.let { user ->
             ProfileSheet(
                 user = user,
                 online = user.uid in uiState.onlineUserIds,
                 isBlocked = user.uid in uiState.blockedUserIds,
                 onDismiss = viewModel::onProfileDismissed,
-                onMessage = { viewModel.onMessage(user) },
+                onMessage = { gate.unlock("dm:${user.uid}", "Message ${user.nickname}") { viewModel.onMessage(user) } },
                 onReport = null,
                 onBlockToggle = if (uiState.isGuest) null else { { viewModel.onToggleBlock(user) } },
                 isModerator = user.uid in uiState.moderatorIds,

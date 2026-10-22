@@ -350,7 +350,11 @@ class SupabaseCommunityRepository(
     // ---------- Presence (online / offline) ----------
 
     private val _onlineUserIds = MutableStateFlow<Set<String>>(emptySet())
+    /** Other signed-in learners online now (never yourself, never visitors). */
     override val onlineUserIds: StateFlow<Set<String>> = _onlineUserIds.asStateFlow()
+    /** Raw Realtime presence keys. Joins/leaves can be missed across reconnects, so this alone goes stale. */
+    private val presentKeys = MutableStateFlow<Set<String>>(emptySet())
+    private var onlineCheckJob: Job? = null
 
     private var presenceChannel: RealtimeChannel? = null
     private var presenceJob: Job? = null
@@ -402,7 +406,15 @@ class SupabaseCommunityRepository(
             presenceChannel = channel
             presenceJob = scope.launch {
                 channel.presenceChangeFlow().collect { action ->
-                    _onlineUserIds.update { it + action.joins.keys - action.leaves.keys }
+                    presentKeys.update { it + action.joins.keys - action.leaves.keys }
+                    refreshOnline()
+                }
+            }
+            // Re-check every minute: drops people whose app stopped without a "leave".
+            onlineCheckJob = scope.launch {
+                while (true) {
+                    delay(60_000)
+                    refreshOnline()
                 }
             }
             withTimeoutOrNull(10_000) { channel.subscribe(blockUntilSubscribed = true) }
@@ -422,8 +434,11 @@ class SupabaseCommunityRepository(
     private suspend fun goOffline() {
         heartbeatJob?.cancel()
         presenceJob?.cancel()
+        onlineCheckJob?.cancel()
         heartbeatJob = null
         presenceJob = null
+        onlineCheckJob = null
+        presentKeys.value = emptySet()
         val channel = presenceChannel ?: return
         presenceChannel = null
         try {
@@ -435,6 +450,31 @@ class SupabaseCommunityRepository(
         }
         _onlineUserIds.value = emptySet()
         if (!isGuest()) currentUserId()?.let { updateLastSeen(it) }
+    }
+
+    /**
+     * Online = in Realtime presence AND the app checked in (last_seen, every 60 s) within the last
+     * 3 minutes. Excludes yourself and visitors.
+     */
+    private suspend fun refreshOnline() {
+        val me = currentUserId()
+        val ids = presentKeys.value.filter { !it.startsWith("visitor-") && it != me }
+        if (ids.isEmpty()) {
+            _onlineUserIds.value = emptySet()
+            return
+        }
+        val since = Instant.fromEpochMilliseconds(nowMillis() - ONLINE_WINDOW_MS).toString()
+        try {
+            _onlineUserIds.value = client.from(USERS).select(Columns.list("id")) {
+                filter {
+                    isIn("id", ids)
+                    gte("last_seen", since)
+                }
+            }.decodeList<IdDto>().map { it.id }.toSet()
+        } catch (e: Exception) {
+            // Offline or failed: fall back to presence alone.
+            _onlineUserIds.value = ids.toSet()
+        }
     }
 
     private suspend fun updateLastSeen(uid: String) {
@@ -1090,6 +1130,8 @@ private data class CachedReply(val messageId: String, val senderNickname: String
 private val reactionsSerializer = MapSerializer(String.serializer(), ListSerializer(String.serializer()))
 
 private fun nowMillis() = Clock.System.now().toEpochMilliseconds()
+
+private const val ONLINE_WINDOW_MS = 3 * 60_000L
 
 private fun parseMillis(ts: String?): Long =
     ts?.let { runCatching { Instant.parse(it).toEpochMilliseconds() }.getOrNull() } ?: 0L
