@@ -2,87 +2,455 @@
   "title": "Rooms and Furniture",
   "content": {
     "vocabulary": [
-      {"word": "living room", "pos": "noun", "meaning_en": "the room where people relax and watch TV", "meaning_ar": "غرفة المعيشة", "example": "We watch films in the living room."},
-      {"word": "bedroom", "pos": "noun", "meaning_en": "the room where you sleep", "meaning_ar": "غرفة النوم", "example": "My bedroom has a big window."},
-      {"word": "kitchen", "pos": "noun", "meaning_en": "the room where you cook", "meaning_ar": "المطبخ", "example": "Mum is making tea in the kitchen."},
-      {"word": "bathroom", "pos": "noun", "meaning_en": "the room where you wash or take a shower", "meaning_ar": "الحمّام", "example": "The bathroom is at the end of the hall."},
-      {"word": "dining room", "pos": "noun", "meaning_en": "the room where you eat meals", "meaning_ar": "غرفة الطعام", "example": "We have dinner in the dining room on Fridays."},
-      {"word": "study", "pos": "noun", "meaning_en": "a room where you work or study", "meaning_ar": "غرفة المكتب / الدراسة", "note_ar": "study كفعل = يدرس", "example": "Dad is working in his study."},
-      {"word": "balcony", "pos": "noun", "meaning_en": "a small area outside an upper window with a wall or rail", "meaning_ar": "شرفة / بلكونة", "example": "We drink coffee on the balcony."},
-      {"word": "garage", "pos": "noun", "meaning_en": "a building or room where a car is kept", "meaning_ar": "مرآب / جراج", "example": "He parked the car in the garage."},
-      {"word": "hallway", "pos": "noun", "meaning_en": "a passage inside a house that connects rooms", "meaning_ar": "ممر / رواق", "example": "Leave your shoes in the hallway."},
-      {"word": "attic", "pos": "noun", "meaning_en": "a space at the top of a house, under the roof", "meaning_ar": "العِلّية (غرفة تحت السقف)", "example": "We keep old toys in the attic."},
-      {"word": "basement", "pos": "noun", "meaning_en": "a room below the ground floor", "meaning_ar": "القبو / البدروم", "example": "There is a washing machine in the basement."},
-      {"word": "sofa", "pos": "noun", "meaning_en": "a long soft seat for more than one person", "meaning_ar": "أريكة / كنبة", "example": "The cat is sleeping on the sofa."},
-      {"word": "armchair", "pos": "noun", "meaning_en": "a comfortable chair with arms at the sides", "meaning_ar": "كرسي بذراعين / فوتيه", "example": "Grandpa reads in his armchair."},
-      {"word": "coffee table", "pos": "noun", "meaning_en": "a small low table in the living room", "meaning_ar": "طاولة القهوة (ترابيزة صغيرة)", "example": "Put your cup on the coffee table."},
-      {"word": "TV stand", "pos": "noun", "meaning_en": "a piece of furniture that holds a television", "meaning_ar": "حامل التلفاز", "example": "The remote is on the TV stand."},
-      {"word": "bookshelf", "pos": "noun", "meaning_en": "a piece of furniture with shelves for books", "meaning_ar": "رف كتب / مكتبة", "note_ar": "الجمع bookshelves", "example": "The bookshelf is full of novels."},
-      {"word": "rug", "pos": "noun", "meaning_en": "a thick piece of material that covers part of the floor", "meaning_ar": "سجادة", "example": "There is a red rug in front of the fire."},
-      {"word": "bed", "pos": "noun", "meaning_en": "the furniture you lie on to sleep", "meaning_ar": "سرير", "example": "I go to bed at eleven."},
-      {"word": "wardrobe", "pos": "noun", "meaning_en": "a tall cupboard where you hang your clothes", "meaning_ar": "خزانة الملابس / دولاب", "note_ar": "في أمريكا يُقال غالباً closet", "example": "Hang your jacket in the wardrobe."},
-      {"word": "dresser", "pos": "noun", "meaning_en": "a piece of bedroom furniture with drawers and a mirror", "meaning_ar": "تسريحة", "example": "Her perfume is on the dresser."},
-      {"word": "pillow", "pos": "noun", "meaning_en": "a soft thing you rest your head on in bed", "meaning_ar": "وسادة / مخدة", "example": "I need a softer pillow."},
-      {"word": "blanket", "pos": "noun", "meaning_en": "a thick cover that keeps you warm in bed", "meaning_ar": "بطانية", "example": "It's cold, so take another blanket."},
-      {"word": "lamp", "pos": "noun", "meaning_en": "a thing that gives light", "meaning_ar": "مصباح / أباجورة", "example": "Turn on the lamp, please."},
-      {"word": "nightstand", "pos": "noun", "meaning_en": "a small table next to a bed", "meaning_ar": "طاولة جانبية بجانب السرير (كومودينو)", "example": "My phone is on the nightstand."},
-      {"word": "cupboard / cabinet", "pos": "noun", "meaning_en": "a piece of furniture with doors used for storing things", "meaning_ar": "خزانة (مطبخ)", "note_ar": "حرف p صامت في cupboard: تُنطق /ˈkʌbərd/", "example": "The plates are in the top cupboard."},
-      {"word": "counter", "pos": "noun", "meaning_en": "the flat surface in a kitchen for preparing food", "meaning_ar": "سطح المطبخ (رخامة)", "example": "Put the vegetables on the counter."},
-      {"word": "sink", "pos": "noun", "meaning_en": "a bowl with taps where you wash dishes or your hands", "meaning_ar": "حوض / مغسلة", "example": "The sink is full of dirty dishes."},
-      {"word": "fridge", "pos": "noun", "meaning_en": "a machine that keeps food cold", "meaning_ar": "ثلاجة", "note_ar": "اختصار refrigerator", "example": "Put the milk back in the fridge."},
-      {"word": "stove", "pos": "noun", "meaning_en": "a piece of equipment used to cook food", "meaning_ar": "موقد / بوتاجاز", "example": "The soup is on the stove."},
-      {"word": "shower", "pos": "noun", "meaning_en": "a place where water falls on you to wash your body", "meaning_ar": "دُش", "example": "I take a shower every morning."},
-      {"word": "bathtub", "pos": "noun", "meaning_en": "a long container you fill with water and sit in to wash", "meaning_ar": "حوض الاستحمام (بانيو)", "example": "The kids are playing in the bathtub."},
-      {"word": "mirror", "pos": "noun", "meaning_en": "a glass surface that shows your reflection", "meaning_ar": "مرآة", "example": "She looked at herself in the mirror."},
-      {"word": "towel", "pos": "noun", "meaning_en": "a piece of cloth you use to dry yourself", "meaning_ar": "منشفة / فوطة", "example": "Can I have a clean towel?"},
-      {"word": "shelf", "pos": "noun", "meaning_en": "a flat board on a wall for keeping things", "meaning_ar": "رف", "note_ar": "الجمع shelves", "example": "Put the books on the top shelf."},
-      {"word": "move in", "pos": "phrasal verb", "meaning_en": "to start living in a new home", "meaning_ar": "ينتقل للسكن في مكان جديد", "example": "We moved in last week."},
-      {"word": "dusty", "pos": "adjective", "meaning_en": "covered with dust", "meaning_ar": "مُغبَّر / عليه تراب", "note_ar": "dust = غبار، تراب", "example": "The old books were very dusty."},
-      {"word": "admire", "pos": "verb", "meaning_en": "to look at something with pleasure", "meaning_ar": "يُعجب بـ / يتأمل بإعجاب", "example": "She admired the view from the window."},
-      {"word": "toolbox", "pos": "noun", "meaning_en": "a box for keeping tools", "meaning_ar": "صندوق العدّة", "example": "He took a hammer from his toolbox."},
-      {"word": "cozy", "pos": "adjective", "meaning_en": "warm, comfortable and relaxing", "meaning_ar": "مريح ودافئ", "note_ar": "cosy بريطاني", "example": "This café is small but cozy."},
-      {"word": "pile", "pos": "noun", "meaning_en": "a lot of things on top of each other", "meaning_ar": "كومة", "example": "There's a pile of clothes on the chair."},
-      {"word": "messy", "pos": "adjective", "meaning_en": "untidy, with things everywhere", "meaning_ar": "فوضوي / مبعثر", "example": "His room is always messy."},
-      {"word": "creepy", "pos": "adjective", "meaning_en": "strange and a little frightening", "meaning_ar": "مخيف / مريب", "example": "I heard a creepy noise last night."}
+      {
+        "word": "living room",
+        "pos": "noun",
+        "meaning_en": "the room where people relax and watch TV",
+        "meaning_ar": "غرفة المعيشة",
+        "example": "We watch films in the living room.",
+        "note_en": ""
+      },
+      {
+        "word": "bedroom",
+        "pos": "noun",
+        "meaning_en": "the room where you sleep",
+        "meaning_ar": "غرفة النوم",
+        "example": "My bedroom has a big window.",
+        "note_en": ""
+      },
+      {
+        "word": "kitchen",
+        "pos": "noun",
+        "meaning_en": "the room where you cook",
+        "meaning_ar": "المطبخ",
+        "example": "Mum is making tea in the kitchen.",
+        "note_en": ""
+      },
+      {
+        "word": "bathroom",
+        "pos": "noun",
+        "meaning_en": "the room where you wash or take a shower",
+        "meaning_ar": "الحمّام",
+        "example": "The bathroom is at the end of the hall.",
+        "note_en": ""
+      },
+      {
+        "word": "dining room",
+        "pos": "noun",
+        "meaning_en": "the room where you eat meals",
+        "meaning_ar": "غرفة الطعام",
+        "example": "We have dinner in the dining room on Fridays.",
+        "note_en": ""
+      },
+      {
+        "word": "study",
+        "pos": "noun",
+        "meaning_en": "a room where you work or study",
+        "meaning_ar": "غرفة المكتب / الدراسة",
+        "note_ar": "study كفعل = يدرس",
+        "example": "Dad is working in his study.",
+        "note_en": "As a verb, \"study\" means to learn about a subject."
+      },
+      {
+        "word": "balcony",
+        "pos": "noun",
+        "meaning_en": "a small area outside an upper window with a wall or rail",
+        "meaning_ar": "شرفة / بلكونة",
+        "example": "We drink coffee on the balcony.",
+        "note_en": ""
+      },
+      {
+        "word": "garage",
+        "pos": "noun",
+        "meaning_en": "a building or room where a car is kept",
+        "meaning_ar": "مرآب / جراج",
+        "example": "He parked the car in the garage.",
+        "note_en": ""
+      },
+      {
+        "word": "hallway",
+        "pos": "noun",
+        "meaning_en": "a passage inside a house that connects rooms",
+        "meaning_ar": "ممر / رواق",
+        "example": "Leave your shoes in the hallway.",
+        "note_en": ""
+      },
+      {
+        "word": "attic",
+        "pos": "noun",
+        "meaning_en": "a space at the top of a house, under the roof",
+        "meaning_ar": "العِلّية (غرفة تحت السقف)",
+        "example": "We keep old toys in the attic.",
+        "note_en": ""
+      },
+      {
+        "word": "basement",
+        "pos": "noun",
+        "meaning_en": "a room below the ground floor",
+        "meaning_ar": "القبو / البدروم",
+        "example": "There is a washing machine in the basement.",
+        "note_en": ""
+      },
+      {
+        "word": "sofa",
+        "pos": "noun",
+        "meaning_en": "a long soft seat for more than one person",
+        "meaning_ar": "أريكة / كنبة",
+        "example": "The cat is sleeping on the sofa.",
+        "note_en": ""
+      },
+      {
+        "word": "armchair",
+        "pos": "noun",
+        "meaning_en": "a comfortable chair with arms at the sides",
+        "meaning_ar": "كرسي بذراعين / فوتيه",
+        "example": "Grandpa reads in his armchair.",
+        "note_en": ""
+      },
+      {
+        "word": "coffee table",
+        "pos": "noun",
+        "meaning_en": "a small low table in the living room",
+        "meaning_ar": "طاولة القهوة (ترابيزة صغيرة)",
+        "example": "Put your cup on the coffee table.",
+        "note_en": ""
+      },
+      {
+        "word": "TV stand",
+        "pos": "noun",
+        "meaning_en": "a piece of furniture that holds a television",
+        "meaning_ar": "حامل التلفاز",
+        "example": "The remote is on the TV stand.",
+        "note_en": ""
+      },
+      {
+        "word": "bookshelf",
+        "pos": "noun",
+        "meaning_en": "a piece of furniture with shelves for books",
+        "meaning_ar": "رف كتب / مكتبة",
+        "note_ar": "الجمع bookshelves",
+        "example": "The bookshelf is full of novels.",
+        "note_en": "The plural is \"bookshelves\"."
+      },
+      {
+        "word": "rug",
+        "pos": "noun",
+        "meaning_en": "a thick piece of material that covers part of the floor",
+        "meaning_ar": "سجادة",
+        "example": "There is a red rug in front of the fire.",
+        "note_en": ""
+      },
+      {
+        "word": "bed",
+        "pos": "noun",
+        "meaning_en": "the furniture you lie on to sleep",
+        "meaning_ar": "سرير",
+        "example": "I go to bed at eleven.",
+        "note_en": ""
+      },
+      {
+        "word": "wardrobe",
+        "pos": "noun",
+        "meaning_en": "a tall cupboard where you hang your clothes",
+        "meaning_ar": "خزانة الملابس / دولاب",
+        "note_ar": "في أمريكا يُقال غالباً closet",
+        "example": "Hang your jacket in the wardrobe.",
+        "note_en": "In American English, people usually say \"closet\"."
+      },
+      {
+        "word": "dresser",
+        "pos": "noun",
+        "meaning_en": "a piece of bedroom furniture with drawers and a mirror",
+        "meaning_ar": "تسريحة",
+        "example": "Her perfume is on the dresser.",
+        "note_en": ""
+      },
+      {
+        "word": "pillow",
+        "pos": "noun",
+        "meaning_en": "a soft thing you rest your head on in bed",
+        "meaning_ar": "وسادة / مخدة",
+        "example": "I need a softer pillow.",
+        "note_en": ""
+      },
+      {
+        "word": "blanket",
+        "pos": "noun",
+        "meaning_en": "a thick cover that keeps you warm in bed",
+        "meaning_ar": "بطانية",
+        "example": "It's cold, so take another blanket.",
+        "note_en": ""
+      },
+      {
+        "word": "lamp",
+        "pos": "noun",
+        "meaning_en": "a thing that gives light",
+        "meaning_ar": "مصباح / أباجورة",
+        "example": "Turn on the lamp, please.",
+        "note_en": ""
+      },
+      {
+        "word": "nightstand",
+        "pos": "noun",
+        "meaning_en": "a small table next to a bed",
+        "meaning_ar": "طاولة جانبية بجانب السرير (كومودينو)",
+        "example": "My phone is on the nightstand.",
+        "note_en": ""
+      },
+      {
+        "word": "cupboard / cabinet",
+        "pos": "noun",
+        "meaning_en": "a piece of furniture with doors used for storing things",
+        "meaning_ar": "خزانة (مطبخ)",
+        "note_ar": "حرف p صامت في cupboard: تُنطق /ˈkʌbərd/",
+        "example": "The plates are in the top cupboard.",
+        "note_en": "The \"p\" in \"cupboard\" is silent: /ˈkʌbərd/."
+      },
+      {
+        "word": "counter",
+        "pos": "noun",
+        "meaning_en": "the flat surface in a kitchen for preparing food",
+        "meaning_ar": "سطح المطبخ (رخامة)",
+        "example": "Put the vegetables on the counter.",
+        "note_en": ""
+      },
+      {
+        "word": "sink",
+        "pos": "noun",
+        "meaning_en": "a bowl with taps where you wash dishes or your hands",
+        "meaning_ar": "حوض / مغسلة",
+        "example": "The sink is full of dirty dishes.",
+        "note_en": ""
+      },
+      {
+        "word": "fridge",
+        "pos": "noun",
+        "meaning_en": "a machine that keeps food cold",
+        "meaning_ar": "ثلاجة",
+        "note_ar": "اختصار refrigerator",
+        "example": "Put the milk back in the fridge.",
+        "note_en": "Short for \"refrigerator\"."
+      },
+      {
+        "word": "stove",
+        "pos": "noun",
+        "meaning_en": "a piece of equipment used to cook food",
+        "meaning_ar": "موقد / بوتاجاز",
+        "example": "The soup is on the stove.",
+        "note_en": ""
+      },
+      {
+        "word": "shower",
+        "pos": "noun",
+        "meaning_en": "a place where water falls on you to wash your body",
+        "meaning_ar": "دُش",
+        "example": "I take a shower every morning.",
+        "note_en": ""
+      },
+      {
+        "word": "bathtub",
+        "pos": "noun",
+        "meaning_en": "a long container you fill with water and sit in to wash",
+        "meaning_ar": "حوض الاستحمام (بانيو)",
+        "example": "The kids are playing in the bathtub.",
+        "note_en": ""
+      },
+      {
+        "word": "mirror",
+        "pos": "noun",
+        "meaning_en": "a glass surface that shows your reflection",
+        "meaning_ar": "مرآة",
+        "example": "She looked at herself in the mirror.",
+        "note_en": ""
+      },
+      {
+        "word": "towel",
+        "pos": "noun",
+        "meaning_en": "a piece of cloth you use to dry yourself",
+        "meaning_ar": "منشفة / فوطة",
+        "example": "Can I have a clean towel?",
+        "note_en": ""
+      },
+      {
+        "word": "shelf",
+        "pos": "noun",
+        "meaning_en": "a flat board on a wall for keeping things",
+        "meaning_ar": "رف",
+        "note_ar": "الجمع shelves",
+        "example": "Put the books on the top shelf.",
+        "note_en": "The plural is \"shelves\"."
+      },
+      {
+        "word": "move in",
+        "pos": "phrasal verb",
+        "meaning_en": "to start living in a new home",
+        "meaning_ar": "ينتقل للسكن في مكان جديد",
+        "example": "We moved in last week.",
+        "note_en": ""
+      },
+      {
+        "word": "dusty",
+        "pos": "adjective",
+        "meaning_en": "covered with dust",
+        "meaning_ar": "مُغبَّر / عليه تراب",
+        "note_ar": "dust = غبار، تراب",
+        "example": "The old books were very dusty.",
+        "note_en": "\"Dust\" is the fine dirt that collects on things."
+      },
+      {
+        "word": "admire",
+        "pos": "verb",
+        "meaning_en": "to look at something with pleasure",
+        "meaning_ar": "يُعجب بـ / يتأمل بإعجاب",
+        "example": "She admired the view from the window.",
+        "note_en": ""
+      },
+      {
+        "word": "toolbox",
+        "pos": "noun",
+        "meaning_en": "a box for keeping tools",
+        "meaning_ar": "صندوق العدّة",
+        "example": "He took a hammer from his toolbox.",
+        "note_en": ""
+      },
+      {
+        "word": "cozy",
+        "pos": "adjective",
+        "meaning_en": "warm, comfortable and relaxing",
+        "meaning_ar": "مريح ودافئ",
+        "note_ar": "cosy بريطاني",
+        "example": "This café is small but cozy.",
+        "note_en": "\"Cosy\" is the British spelling."
+      },
+      {
+        "word": "pile",
+        "pos": "noun",
+        "meaning_en": "a lot of things on top of each other",
+        "meaning_ar": "كومة",
+        "example": "There's a pile of clothes on the chair.",
+        "note_en": ""
+      },
+      {
+        "word": "messy",
+        "pos": "adjective",
+        "meaning_en": "untidy, with things everywhere",
+        "meaning_ar": "فوضوي / مبعثر",
+        "example": "His room is always messy.",
+        "note_en": ""
+      },
+      {
+        "word": "creepy",
+        "pos": "adjective",
+        "meaning_en": "strange and a little frightening",
+        "meaning_ar": "مخيف / مريب",
+        "example": "I heard a creepy noise last night.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "house vs home",
-        "words": ["house", "home"],
+        "words": [
+          "house",
+          "home"
+        ],
         "explanation_ar": "house هو المبنى نفسه: الجدران والسقف، شيء مادي تستطيع لمسه. home هو المكان الذي تعيش فيه وتشعر فيه بالأمان والانتماء، فهو شعور وليس مجرد مبنى. ليس كل house يصبح home إلا إذا شعرت فيه بالراحة والانتماء.",
         "examples": [
-          {"word": "house", "sentence": "They bought a big house with a garden."},
-          {"word": "house", "sentence": "The house has three bedrooms."},
-          {"word": "home", "sentence": "After a long trip, it's nice to be home."},
-          {"word": "home", "sentence": "This new flat finally feels like home."}
-        ]
+          {
+            "word": "house",
+            "sentence": "They bought a big house with a garden."
+          },
+          {
+            "word": "house",
+            "sentence": "The house has three bedrooms."
+          },
+          {
+            "word": "home",
+            "sentence": "After a long trip, it's nice to be home."
+          },
+          {
+            "word": "home",
+            "sentence": "This new flat finally feels like home."
+          }
+        ],
+        "explanation_en": "A \"house\" is the building itself: the walls and the roof, a physical thing you can touch. \"Home\" is the place where you live and feel safe and that you belong. It's a feeling, not just a building. A house only becomes a home when you feel comfortable there."
       },
       {
         "title": "clean vs tidy",
-        "words": ["clean", "tidy"],
+        "words": [
+          "clean",
+          "tidy"
+        ],
         "explanation_ar": "clean تصف مستوى النظافة: لا يوجد أوساخ أو غبار. tidy تصف مستوى الترتيب: كل شيء في مكانه. قد تكون الغرفة نظيفة جداً لكنها غير مرتبة (أشياء مبعثرة)، وقد تكون مرتبة لكنها غير نظيفة.",
         "examples": [
-          {"word": "clean", "sentence": "The floor is clean, but there are toys everywhere."},
-          {"word": "tidy", "sentence": "Please keep your desk tidy."}
-        ]
+          {
+            "word": "clean",
+            "sentence": "The floor is clean, but there are toys everywhere."
+          },
+          {
+            "word": "tidy",
+            "sentence": "Please keep your desk tidy."
+          }
+        ],
+        "explanation_en": "\"Clean\" is about dirt: there is no dirt or dust. \"Tidy\" is about order: everything is in its place. A room can be very clean but not tidy (things everywhere), or tidy but not clean."
       },
       {
         "title": "attic vs basement",
-        "words": ["attic", "basement"],
+        "words": [
+          "attic",
+          "basement"
+        ],
         "explanation_ar": "attic هي المساحة في أعلى البيت تحت السقف مباشرة. basement عكسها: غرفة تحت الطابق الأرضي (القبو أو البدروم).",
         "examples": [
-          {"word": "attic", "sentence": "We found old photos in the attic."},
-          {"word": "basement", "sentence": "The basement is dark and cold."}
-        ]
+          {
+            "word": "attic",
+            "sentence": "We found old photos in the attic."
+          },
+          {
+            "word": "basement",
+            "sentence": "The basement is dark and cold."
+          }
+        ],
+        "explanation_en": "The \"attic\" is the space at the top of a house, right under the roof. The \"basement\" is the opposite: a room below the ground floor."
       }
     ],
     "expressions": [
-      {"phrase": "everything but the kitchen sink", "meaning_ar": "كل شيء يمكن تخيله / مبالغة في أخذ أو جمع أشياء كثيرة", "example": "It was a two-day trip, but he packed everything but the kitchen sink."},
-      {"phrase": "feel at home", "meaning_ar": "يشعر بالراحة كأنه في بيته", "example": "Now I feel at home in this city."},
-      {"phrase": "move in", "meaning_ar": "ينتقل للسكن في مكان جديد", "example": "When are you moving in?"},
-      {"phrase": "walk into", "meaning_ar": "يدخل ماشياً / يقع في (فخ) / يصطدم بشيء", "example": "He wasn't looking and walked into the door."},
-      {"phrase": "old habits die hard", "meaning_ar": "العادات القديمة يصعب تغييرها", "example": "I still write everything by hand. Old habits die hard."},
-      {"phrase": "a fine line", "meaning_ar": "خيط رفيع: فرق بسيط بين شيئين متشابهين", "example": "There's a fine line between brave and crazy."}
+      {
+        "phrase": "everything but the kitchen sink",
+        "meaning_ar": "كل شيء يمكن تخيله / مبالغة في أخذ أو جمع أشياء كثيرة",
+        "example": "It was a two-day trip, but he packed everything but the kitchen sink.",
+        "meaning_en": "absolutely everything; taking or packing far too many things"
+      },
+      {
+        "phrase": "feel at home",
+        "meaning_ar": "يشعر بالراحة كأنه في بيته",
+        "example": "Now I feel at home in this city.",
+        "meaning_en": "to feel relaxed and comfortable, as if you were in your own home"
+      },
+      {
+        "phrase": "move in",
+        "meaning_ar": "ينتقل للسكن في مكان جديد",
+        "example": "When are you moving in?",
+        "meaning_en": "to start living in a new home"
+      },
+      {
+        "phrase": "walk into",
+        "meaning_ar": "يدخل ماشياً / يقع في (فخ) / يصطدم بشيء",
+        "example": "He wasn't looking and walked into the door.",
+        "meaning_en": "to enter a place; to hit something by accident while walking; to fall into a trap"
+      },
+      {
+        "phrase": "old habits die hard",
+        "meaning_ar": "العادات القديمة يصعب تغييرها",
+        "example": "I still write everything by hand. Old habits die hard.",
+        "meaning_en": "it's hard to stop doing things you have always done"
+      },
+      {
+        "phrase": "a fine line",
+        "meaning_ar": "خيط رفيع: فرق بسيط بين شيئين متشابهين",
+        "example": "There's a fine line between brave and crazy.",
+        "meaning_en": "a very small difference between two similar things"
+      }
     ],
     "grammar": [
       {
@@ -92,7 +460,8 @@
           "When I arrived at the airport, the plane had already taken off.",
           "I couldn't pay the bill because I had left my wallet at home.",
           "She passed the exam easily because she had studied hard."
-        ]
+        ],
+        "explanation_en": "The past perfect (had + past participle) is like a flashback in a film. When we talk about two events in the past, we use the past perfect for the earlier event and the past simple for the event that came after it. The word \"already\" is optional."
       },
       {
         "title": "where and that for describing things",
@@ -100,7 +469,8 @@
         "examples": [
           "The kitchen is where you cook.",
           "A bed is something that you lie on to sleep."
-        ]
+        ],
+        "explanation_en": "We use \"where\" to describe places (the place in which...), and \"that\" or \"which\" to describe things."
       },
       {
         "title": "help + verb (no to)",
@@ -108,20 +478,131 @@
         "examples": [
           "He helped carry the heavy bookshelf.",
           "Can you help me move the sofa?"
-        ]
+        ],
+        "explanation_en": "After \"help\", you can put the verb directly, without \"to\": help (someone) carry. Using \"to\" is also correct, but it is less common in everyday speech."
       }
     ]
   },
   "questions": [
-    {"question": "Where do you hang your clothes?", "choices": ["in the wardrobe", "in the sink", "on the stove", "in the attic"], "answer": 0, "explanation_ar": "wardrobe هي خزانة الملابس."},
-    {"question": "A room below the ground floor is called a:", "choices": ["balcony", "basement", "hallway", "study"], "answer": 1, "explanation_ar": "basement = القبو تحت الطابق الأرضي."},
-    {"question": "After two years in London, the city finally feels like ___.", "choices": ["house", "a house", "home", "houses"], "answer": 2, "explanation_ar": "home تعبّر عن شعور الانتماء والراحة."},
-    {"question": "The room has no dust, but things are everywhere. It is clean but not ___.", "choices": ["dusty", "cozy", "creepy", "tidy"], "answer": 3, "explanation_ar": "tidy = مرتب، clean = نظيف."},
-    {"question": "When I got to the station, the train ___.", "choices": ["had already left", "has already left", "already leaves", "is leaving"], "answer": 0, "explanation_ar": "مغادرة القطار حدثت أولاً، فنستخدم الماضي التام."},
-    {"question": "I couldn't open the door because I ___ my keys.", "choices": ["lose", "had lost", "have lost", "am losing"], "answer": 1, "explanation_ar": "فقدان المفاتيح حدث قبل محاولة فتح الباب = had lost."},
-    {"question": "\"She packed everything but the kitchen sink\" means she packed:", "choices": ["only kitchen things", "nothing", "too many things", "a sink"], "answer": 2, "explanation_ar": "التعبير يعني أنها أخذت أشياء كثيرة جداً."},
-    {"question": "Which word has a silent \"p\"?", "choices": ["pillow", "lamp", "shelf", "cupboard"], "answer": 3, "explanation_ar": "حرف p صامت في cupboard."},
-    {"question": "What do you use to dry yourself after a shower?", "choices": ["a towel", "a rug", "a mirror", "a pillow"], "answer": 0, "explanation_ar": "towel = منشفة."},
-    {"question": "The old stove was ___ — it was covered with dust.", "choices": ["messy", "dusty", "cozy", "tidy"], "answer": 1, "explanation_ar": "dusty = مغطى بالغبار."}
+    {
+      "question": "Where do you hang your clothes?",
+      "choices": [
+        "in the wardrobe",
+        "in the sink",
+        "on the stove",
+        "in the attic"
+      ],
+      "answer": 0,
+      "explanation_ar": "wardrobe هي خزانة الملابس.",
+      "explanation_en": "A wardrobe is the cupboard where you keep your clothes."
+    },
+    {
+      "question": "A room below the ground floor is called a:",
+      "choices": [
+        "balcony",
+        "basement",
+        "hallway",
+        "study"
+      ],
+      "answer": 1,
+      "explanation_ar": "basement = القبو تحت الطابق الأرضي.",
+      "explanation_en": "A basement is the room below the ground floor."
+    },
+    {
+      "question": "After two years in London, the city finally feels like ___.",
+      "choices": [
+        "house",
+        "a house",
+        "home",
+        "houses"
+      ],
+      "answer": 2,
+      "explanation_ar": "home تعبّر عن شعور الانتماء والراحة.",
+      "explanation_en": "\"Home\" expresses a feeling of belonging and comfort."
+    },
+    {
+      "question": "The room has no dust, but things are everywhere. It is clean but not ___.",
+      "choices": [
+        "dusty",
+        "cozy",
+        "creepy",
+        "tidy"
+      ],
+      "answer": 3,
+      "explanation_ar": "tidy = مرتب، clean = نظيف.",
+      "explanation_en": "\"Tidy\" means in order; \"clean\" means without dirt."
+    },
+    {
+      "question": "When I got to the station, the train ___.",
+      "choices": [
+        "had already left",
+        "has already left",
+        "already leaves",
+        "is leaving"
+      ],
+      "answer": 0,
+      "explanation_ar": "مغادرة القطار حدثت أولاً، فنستخدم الماضي التام.",
+      "explanation_en": "The train left first, so we use the past perfect."
+    },
+    {
+      "question": "I couldn't open the door because I ___ my keys.",
+      "choices": [
+        "lose",
+        "had lost",
+        "have lost",
+        "am losing"
+      ],
+      "answer": 1,
+      "explanation_ar": "فقدان المفاتيح حدث قبل محاولة فتح الباب = had lost.",
+      "explanation_en": "Losing the keys happened before trying to open the door, so we say \"had lost\"."
+    },
+    {
+      "question": "\"She packed everything but the kitchen sink\" means she packed:",
+      "choices": [
+        "only kitchen things",
+        "nothing",
+        "too many things",
+        "a sink"
+      ],
+      "answer": 2,
+      "explanation_ar": "التعبير يعني أنها أخذت أشياء كثيرة جداً.",
+      "explanation_en": "The expression means she took far too many things."
+    },
+    {
+      "question": "Which word has a silent \"p\"?",
+      "choices": [
+        "pillow",
+        "lamp",
+        "shelf",
+        "cupboard"
+      ],
+      "answer": 3,
+      "explanation_ar": "حرف p صامت في cupboard.",
+      "explanation_en": "The \"p\" in \"cupboard\" is silent."
+    },
+    {
+      "question": "What do you use to dry yourself after a shower?",
+      "choices": [
+        "a towel",
+        "a rug",
+        "a mirror",
+        "a pillow"
+      ],
+      "answer": 0,
+      "explanation_ar": "towel = منشفة.",
+      "explanation_en": "A towel is what you use to dry yourself."
+    },
+    {
+      "question": "The old stove was ___ — it was covered with dust.",
+      "choices": [
+        "messy",
+        "dusty",
+        "cozy",
+        "tidy"
+      ],
+      "answer": 1,
+      "explanation_ar": "dusty = مغطى بالغبار.",
+      "explanation_en": "\"Dusty\" means covered with dust."
+    }
   ]
 }

@@ -2,82 +2,449 @@
   "title": "Jobs and Careers",
   "content": {
     "vocabulary": [
-      {"word": "teacher", "pos": "noun", "meaning_en": "a person who teaches at a school", "meaning_ar": "معلم / معلمة", "note_ar": "", "example": "My teacher explains grammar very clearly."},
-      {"word": "doctor", "pos": "noun", "meaning_en": "a person who treats sick people", "meaning_ar": "طبيب", "note_ar": "", "example": "You should see a doctor about that cough."},
-      {"word": "nurse", "pos": "noun", "meaning_en": "a person who cares for sick people in a hospital", "meaning_ar": "ممرض / ممرضة", "note_ar": "", "example": "The nurse checked my temperature."},
-      {"word": "engineer", "pos": "noun", "meaning_en": "a person who designs and builds machines, roads or bridges", "meaning_ar": "مهندس", "note_ar": "", "example": "Omar wants to be an engineer and design bridges."},
-      {"word": "driver", "pos": "noun", "meaning_en": "a person who drives a vehicle as a job", "meaning_ar": "سائق", "note_ar": "", "example": "The bus driver said good morning."},
-      {"word": "police officer", "pos": "noun", "meaning_en": "a member of the police", "meaning_ar": "شرطي / ضابط شرطة", "note_ar": "مصطلح محايد بدل policeman. في بريطانيا يُسمَّون بالعامية bobbies نسبة إلى Robert Peel مؤسس شرطة لندن", "example": "A police officer helped us find the way."},
-      {"word": "firefighter", "pos": "noun", "meaning_en": "a person whose job is to put out fires", "meaning_ar": "رجل إطفاء", "note_ar": "firefighter الشائع عالمياً، fireman تقليدي بريطاني", "example": "The firefighters arrived in five minutes."},
-      {"word": "chef", "pos": "noun", "meaning_en": "a professional cook in a restaurant", "meaning_ar": "طاهٍ / شيف", "note_ar": "ch تُنطق sh", "example": "The chef tasted the soup before serving it."},
-      {"word": "waiter / waitress / server", "pos": "noun", "meaning_en": "a person who brings food to tables in a restaurant", "meaning_ar": "نادل / نادلة", "note_ar": "waitress للمؤنث، server الكلمة المحايدة الحديثة", "example": "The waiter brought us the menu."},
-      {"word": "farmer", "pos": "noun", "meaning_en": "a person who grows crops or keeps animals", "meaning_ar": "مزارع / فلاح", "note_ar": "", "example": "The farmer gets up very early."},
-      {"word": "lawyer", "pos": "noun", "meaning_en": "a person whose job is to give legal advice", "meaning_ar": "محامٍ", "note_ar": "law = القانون", "example": "The lawyer explained how to become a professional in law."},
-      {"word": "architect", "pos": "noun", "meaning_en": "a person who designs buildings and watches their construction", "meaning_ar": "مهندس معماري", "note_ar": "ch تُنطق k: /ˈɑːkɪtekt/", "example": "An architect designed this beautiful museum."},
-      {"word": "journalist", "pos": "noun", "meaning_en": "a person who writes news for newspapers or websites", "meaning_ar": "صحفي", "note_ar": "journal = مجلة / صحيفة", "example": "A journalist wrote a report about the fair."},
-      {"word": "accountant", "pos": "noun", "meaning_en": "a person who keeps and checks money records", "meaning_ar": "محاسب", "note_ar": "account = حساب", "example": "Our accountant checks the company's taxes."},
-      {"word": "manager", "pos": "noun", "meaning_en": "a person who controls a team or department", "meaning_ar": "مدير", "note_ar": "manage = يدير", "example": "The manager is thinking of hiring a new engineer."},
-      {"word": "scientist", "pos": "noun", "meaning_en": "an expert who studies nature through experiments", "meaning_ar": "عالِم / باحث علمي", "note_ar": "science → scientist", "example": "The scientist works in a laboratory."},
-      {"word": "pilot", "pos": "noun", "meaning_en": "a person who flies a plane", "meaning_ar": "طيار", "note_ar": "", "example": "The pilot welcomed us on board."},
-      {"word": "designer", "pos": "noun", "meaning_en": "a person who plans how things will look", "meaning_ar": "مصمم", "note_ar": "حرف g صامت: /dɪˈzaɪnər/", "example": "She is a fashion designer."},
-      {"word": "musician", "pos": "noun", "meaning_en": "a person who plays or writes music", "meaning_ar": "موسيقي / عازف", "note_ar": "music → musician", "example": "The musician played the piano beautifully."},
-      {"word": "career", "pos": "noun", "meaning_en": "the long-term progress of your working life over many years", "meaning_ar": "مسار مهني / مسيرة مهنية", "note_ar": "", "example": "She built an impressive career in medicine."},
-      {"word": "profession", "pos": "noun", "meaning_en": "a job that needs advanced study, training and official qualifications", "meaning_ar": "مهنة تخصصية", "note_ar": "أصل كلمة professional", "example": "Medicine and law are respected professions."},
-      {"word": "occupation", "pos": "noun", "meaning_en": "the official name for the job you do, used on forms", "meaning_ar": "المهنة (المسمى الرسمي)", "note_ar": "", "example": "Please write your occupation on this form."},
-      {"word": "employee", "pos": "noun", "meaning_en": "a person who works for a company", "meaning_ar": "موظف", "note_ar": "employee = الموظف، employer = صاحب العمل", "example": "The company has 200 employees."},
-      {"word": "employer", "pos": "noun", "meaning_en": "a person or company that gives people jobs", "meaning_ar": "صاحب العمل / جهة التوظيف", "note_ar": "", "example": "More than 50 employers came to the career fair."},
-      {"word": "colleague", "pos": "noun", "meaning_en": "a person you work with in the same profession", "meaning_ar": "زميل عمل", "note_ar": "حرف u صامت: /ˈkɒliːɡ/", "example": "I had lunch with my colleagues."},
-      {"word": "staff", "pos": "noun", "meaning_en": "all the people who work for a company", "meaning_ar": "طاقم العمل / الموظفون", "note_ar": "", "example": "The hotel staff were very friendly."},
-      {"word": "team", "pos": "noun", "meaning_en": "a group of people who work together", "meaning_ar": "فريق", "note_ar": "", "example": "Our team finished the project early."},
-      {"word": "company", "pos": "noun", "meaning_en": "a business that makes or sells things", "meaning_ar": "شركة", "note_ar": "", "example": "He works for a big software company."},
-      {"word": "full-time", "pos": "adjective", "meaning_en": "working all the normal hours, about 40 a week", "meaning_ar": "بدوام كامل", "note_ar": "", "example": "She has a full-time job at the bank."},
-      {"word": "part-time", "pos": "adjective", "meaning_en": "working only some hours or days a week", "meaning_ar": "بدوام جزئي", "note_ar": "", "example": "He has a part-time job at a bookshop."},
-      {"word": "skilled", "pos": "adjective", "meaning_en": "having the ability to do something well", "meaning_ar": "ماهر", "note_ar": "skill = مهارة", "example": "We need a skilled driver for this job."},
-      {"word": "professional", "pos": "adjective", "meaning_en": "doing your work with high quality and commitment", "meaning_ar": "محترف / مهني", "note_ar": "", "example": "She is very professional with her clients."},
-      {"word": "experienced", "pos": "adjective", "meaning_en": "having a lot of knowledge from doing something", "meaning_ar": "ذو خبرة", "note_ar": "experience = خبرة", "example": "We are looking for an experienced nurse."},
-      {"word": "talented", "pos": "adjective", "meaning_en": "having a natural ability to do something very well", "meaning_ar": "موهوب", "note_ar": "talent = موهبة", "example": "Ali is a talented designer."},
-      {"word": "career fair", "pos": "noun", "meaning_en": "an event where companies meet people looking for jobs", "meaning_ar": "معرض الوظائف", "note_ar": "", "example": "I met three employers at the career fair."},
-      {"word": "booth", "pos": "noun", "meaning_en": "a small area at a fair for one company", "meaning_ar": "جناح عرض صغير", "note_ar": "", "example": "The engineering booth was very busy."},
-      {"word": "job seeker", "pos": "noun", "meaning_en": "a person who is looking for a job", "meaning_ar": "باحث عن عمل", "note_ar": "seek = يبحث", "example": "The fair was full of students and job seekers."},
-      {"word": "resume", "pos": "noun", "meaning_en": "a document that lists your education and work experience", "meaning_ar": "سيرة ذاتية", "note_ar": "أمريكي، والبريطاني CV", "example": "Send your resume to the manager."}
+      {
+        "word": "teacher",
+        "pos": "noun",
+        "meaning_en": "a person who teaches at a school",
+        "meaning_ar": "معلم / معلمة",
+        "note_ar": "",
+        "example": "My teacher explains grammar very clearly.",
+        "note_en": ""
+      },
+      {
+        "word": "doctor",
+        "pos": "noun",
+        "meaning_en": "a person who treats sick people",
+        "meaning_ar": "طبيب",
+        "note_ar": "",
+        "example": "You should see a doctor about that cough.",
+        "note_en": ""
+      },
+      {
+        "word": "nurse",
+        "pos": "noun",
+        "meaning_en": "a person who cares for sick people in a hospital",
+        "meaning_ar": "ممرض / ممرضة",
+        "note_ar": "",
+        "example": "The nurse checked my temperature.",
+        "note_en": ""
+      },
+      {
+        "word": "engineer",
+        "pos": "noun",
+        "meaning_en": "a person who designs and builds machines, roads or bridges",
+        "meaning_ar": "مهندس",
+        "note_ar": "",
+        "example": "Omar wants to be an engineer and design bridges.",
+        "note_en": ""
+      },
+      {
+        "word": "driver",
+        "pos": "noun",
+        "meaning_en": "a person who drives a vehicle as a job",
+        "meaning_ar": "سائق",
+        "note_ar": "",
+        "example": "The bus driver said good morning.",
+        "note_en": ""
+      },
+      {
+        "word": "police officer",
+        "pos": "noun",
+        "meaning_en": "a member of the police",
+        "meaning_ar": "شرطي / ضابط شرطة",
+        "note_ar": "مصطلح محايد بدل policeman. في بريطانيا يُسمَّون بالعامية bobbies نسبة إلى Robert Peel مؤسس شرطة لندن",
+        "example": "A police officer helped us find the way.",
+        "note_en": "A neutral word used instead of \"policeman\". In Britain, police officers are informally called \"bobbies\", after Robert Peel, who founded the London police."
+      },
+      {
+        "word": "firefighter",
+        "pos": "noun",
+        "meaning_en": "a person whose job is to put out fires",
+        "meaning_ar": "رجل إطفاء",
+        "note_ar": "firefighter الشائع عالمياً، fireman تقليدي بريطاني",
+        "example": "The firefighters arrived in five minutes.",
+        "note_en": "\"Firefighter\" is the common word everywhere; \"fireman\" is the older, traditional British word."
+      },
+      {
+        "word": "chef",
+        "pos": "noun",
+        "meaning_en": "a professional cook in a restaurant",
+        "meaning_ar": "طاهٍ / شيف",
+        "note_ar": "ch تُنطق sh",
+        "example": "The chef tasted the soup before serving it.",
+        "note_en": "The \"ch\" is pronounced like \"sh\"."
+      },
+      {
+        "word": "waiter / waitress / server",
+        "pos": "noun",
+        "meaning_en": "a person who brings food to tables in a restaurant",
+        "meaning_ar": "نادل / نادلة",
+        "note_ar": "waitress للمؤنث، server الكلمة المحايدة الحديثة",
+        "example": "The waiter brought us the menu.",
+        "note_en": "\"Waitress\" is for a woman; \"server\" is the modern neutral word for anyone."
+      },
+      {
+        "word": "farmer",
+        "pos": "noun",
+        "meaning_en": "a person who grows crops or keeps animals",
+        "meaning_ar": "مزارع / فلاح",
+        "note_ar": "",
+        "example": "The farmer gets up very early.",
+        "note_en": ""
+      },
+      {
+        "word": "lawyer",
+        "pos": "noun",
+        "meaning_en": "a person whose job is to give legal advice",
+        "meaning_ar": "محامٍ",
+        "note_ar": "law = القانون",
+        "example": "The lawyer explained how to become a professional in law.",
+        "note_en": "law = the rules of a country; a lawyer works with the law."
+      },
+      {
+        "word": "architect",
+        "pos": "noun",
+        "meaning_en": "a person who designs buildings and watches their construction",
+        "meaning_ar": "مهندس معماري",
+        "note_ar": "ch تُنطق k: /ˈɑːkɪtekt/",
+        "example": "An architect designed this beautiful museum.",
+        "note_en": "The \"ch\" is pronounced like \"k\": /ˈɑːkɪtekt/"
+      },
+      {
+        "word": "journalist",
+        "pos": "noun",
+        "meaning_en": "a person who writes news for newspapers or websites",
+        "meaning_ar": "صحفي",
+        "note_ar": "journal = مجلة / صحيفة",
+        "example": "A journalist wrote a report about the fair.",
+        "note_en": "A journal is a magazine or newspaper."
+      },
+      {
+        "word": "accountant",
+        "pos": "noun",
+        "meaning_en": "a person who keeps and checks money records",
+        "meaning_ar": "محاسب",
+        "note_ar": "account = حساب",
+        "example": "Our accountant checks the company's taxes.",
+        "note_en": "An account is a record of money; an accountant keeps these records."
+      },
+      {
+        "word": "manager",
+        "pos": "noun",
+        "meaning_en": "a person who controls a team or department",
+        "meaning_ar": "مدير",
+        "note_ar": "manage = يدير",
+        "example": "The manager is thinking of hiring a new engineer.",
+        "note_en": "manage = to control or run something."
+      },
+      {
+        "word": "scientist",
+        "pos": "noun",
+        "meaning_en": "an expert who studies nature through experiments",
+        "meaning_ar": "عالِم / باحث علمي",
+        "note_ar": "science → scientist",
+        "example": "The scientist works in a laboratory.",
+        "note_en": "science → scientist (a person who works in science)."
+      },
+      {
+        "word": "pilot",
+        "pos": "noun",
+        "meaning_en": "a person who flies a plane",
+        "meaning_ar": "طيار",
+        "note_ar": "",
+        "example": "The pilot welcomed us on board.",
+        "note_en": ""
+      },
+      {
+        "word": "designer",
+        "pos": "noun",
+        "meaning_en": "a person who plans how things will look",
+        "meaning_ar": "مصمم",
+        "note_ar": "حرف g صامت: /dɪˈzaɪnər/",
+        "example": "She is a fashion designer.",
+        "note_en": "The \"g\" is silent: /dɪˈzaɪnər/"
+      },
+      {
+        "word": "musician",
+        "pos": "noun",
+        "meaning_en": "a person who plays or writes music",
+        "meaning_ar": "موسيقي / عازف",
+        "note_ar": "music → musician",
+        "example": "The musician played the piano beautifully.",
+        "note_en": "music → musician (a person who plays music)."
+      },
+      {
+        "word": "career",
+        "pos": "noun",
+        "meaning_en": "the long-term progress of your working life over many years",
+        "meaning_ar": "مسار مهني / مسيرة مهنية",
+        "note_ar": "",
+        "example": "She built an impressive career in medicine.",
+        "note_en": ""
+      },
+      {
+        "word": "profession",
+        "pos": "noun",
+        "meaning_en": "a job that needs advanced study, training and official qualifications",
+        "meaning_ar": "مهنة تخصصية",
+        "note_ar": "أصل كلمة professional",
+        "example": "Medicine and law are respected professions.",
+        "note_en": "This is where the word \"professional\" comes from."
+      },
+      {
+        "word": "occupation",
+        "pos": "noun",
+        "meaning_en": "the official name for the job you do, used on forms",
+        "meaning_ar": "المهنة (المسمى الرسمي)",
+        "note_ar": "",
+        "example": "Please write your occupation on this form.",
+        "note_en": ""
+      },
+      {
+        "word": "employee",
+        "pos": "noun",
+        "meaning_en": "a person who works for a company",
+        "meaning_ar": "موظف",
+        "note_ar": "employee = الموظف، employer = صاحب العمل",
+        "example": "The company has 200 employees.",
+        "note_en": "employee = the person who works for a company; employer = the person or company that gives the job."
+      },
+      {
+        "word": "employer",
+        "pos": "noun",
+        "meaning_en": "a person or company that gives people jobs",
+        "meaning_ar": "صاحب العمل / جهة التوظيف",
+        "note_ar": "",
+        "example": "More than 50 employers came to the career fair.",
+        "note_en": ""
+      },
+      {
+        "word": "colleague",
+        "pos": "noun",
+        "meaning_en": "a person you work with in the same profession",
+        "meaning_ar": "زميل عمل",
+        "note_ar": "حرف u صامت: /ˈkɒliːɡ/",
+        "example": "I had lunch with my colleagues.",
+        "note_en": "The \"ue\" at the end is silent: /ˈkɒliːɡ/"
+      },
+      {
+        "word": "staff",
+        "pos": "noun",
+        "meaning_en": "all the people who work for a company",
+        "meaning_ar": "طاقم العمل / الموظفون",
+        "note_ar": "",
+        "example": "The hotel staff were very friendly.",
+        "note_en": ""
+      },
+      {
+        "word": "team",
+        "pos": "noun",
+        "meaning_en": "a group of people who work together",
+        "meaning_ar": "فريق",
+        "note_ar": "",
+        "example": "Our team finished the project early.",
+        "note_en": ""
+      },
+      {
+        "word": "company",
+        "pos": "noun",
+        "meaning_en": "a business that makes or sells things",
+        "meaning_ar": "شركة",
+        "note_ar": "",
+        "example": "He works for a big software company.",
+        "note_en": ""
+      },
+      {
+        "word": "full-time",
+        "pos": "adjective",
+        "meaning_en": "working all the normal hours, about 40 a week",
+        "meaning_ar": "بدوام كامل",
+        "note_ar": "",
+        "example": "She has a full-time job at the bank.",
+        "note_en": ""
+      },
+      {
+        "word": "part-time",
+        "pos": "adjective",
+        "meaning_en": "working only some hours or days a week",
+        "meaning_ar": "بدوام جزئي",
+        "note_ar": "",
+        "example": "He has a part-time job at a bookshop.",
+        "note_en": ""
+      },
+      {
+        "word": "skilled",
+        "pos": "adjective",
+        "meaning_en": "having the ability to do something well",
+        "meaning_ar": "ماهر",
+        "note_ar": "skill = مهارة",
+        "example": "We need a skilled driver for this job.",
+        "note_en": "skill = an ability you learn and practise."
+      },
+      {
+        "word": "professional",
+        "pos": "adjective",
+        "meaning_en": "doing your work with high quality and commitment",
+        "meaning_ar": "محترف / مهني",
+        "note_ar": "",
+        "example": "She is very professional with her clients.",
+        "note_en": ""
+      },
+      {
+        "word": "experienced",
+        "pos": "adjective",
+        "meaning_en": "having a lot of knowledge from doing something",
+        "meaning_ar": "ذو خبرة",
+        "note_ar": "experience = خبرة",
+        "example": "We are looking for an experienced nurse.",
+        "note_en": "experience = the knowledge you get from doing something for a long time."
+      },
+      {
+        "word": "talented",
+        "pos": "adjective",
+        "meaning_en": "having a natural ability to do something very well",
+        "meaning_ar": "موهوب",
+        "note_ar": "talent = موهبة",
+        "example": "Ali is a talented designer.",
+        "note_en": "talent = a natural ability."
+      },
+      {
+        "word": "career fair",
+        "pos": "noun",
+        "meaning_en": "an event where companies meet people looking for jobs",
+        "meaning_ar": "معرض الوظائف",
+        "note_ar": "",
+        "example": "I met three employers at the career fair.",
+        "note_en": ""
+      },
+      {
+        "word": "booth",
+        "pos": "noun",
+        "meaning_en": "a small area at a fair for one company",
+        "meaning_ar": "جناح عرض صغير",
+        "note_ar": "",
+        "example": "The engineering booth was very busy.",
+        "note_en": ""
+      },
+      {
+        "word": "job seeker",
+        "pos": "noun",
+        "meaning_en": "a person who is looking for a job",
+        "meaning_ar": "باحث عن عمل",
+        "note_ar": "seek = يبحث",
+        "example": "The fair was full of students and job seekers.",
+        "note_en": "seek = to look for."
+      },
+      {
+        "word": "resume",
+        "pos": "noun",
+        "meaning_en": "a document that lists your education and work experience",
+        "meaning_ar": "سيرة ذاتية",
+        "note_ar": "أمريكي، والبريطاني CV",
+        "example": "Send your resume to the manager.",
+        "note_en": "American English; in British English it is a CV."
+      }
     ],
     "fine_lines": [
       {
         "title": "job vs career vs profession vs occupation",
-        "words": ["job", "career", "profession", "occupation"],
+        "words": [
+          "job",
+          "career",
+          "profession",
+          "occupation"
+        ],
         "explanation_ar": "job الوظيفة المحددة التي تقوم بها لتكسب المال، وقد تكون مؤقتة. career المسار المهني الطويل عبر سنوات حياتك والترقيات. profession مهنة تخصصية تحتاج دراسة أكاديمية متقدمة وتراخيص رسمية مثل الطب والمحاماة. occupation المصطلح الرسمي المحايد الذي تكتبه في الاستمارات الرسمية في البنك أو السفر.",
         "examples": [
-          {"word": "job", "sentence": "He has a part-time job at a bookstore."},
-          {"word": "career", "sentence": "She built an impressive career in international medicine."},
-          {"word": "profession", "sentence": "Medicine, law and architecture are respected professions."},
-          {"word": "occupation", "sentence": "Please write your current occupation on this form."}
-        ]
+          {
+            "word": "job",
+            "sentence": "He has a part-time job at a bookstore."
+          },
+          {
+            "word": "career",
+            "sentence": "She built an impressive career in international medicine."
+          },
+          {
+            "word": "profession",
+            "sentence": "Medicine, law and architecture are respected professions."
+          },
+          {
+            "word": "occupation",
+            "sentence": "Please write your current occupation on this form."
+          }
+        ],
+        "explanation_en": "A job is the specific work you do to earn money, and it can be temporary. A career is your long working path over many years, with promotions. A profession is specialised work that needs advanced study and official licences, like medicine or law. Occupation is the formal, neutral word you write on official forms, for example at the bank or when you travel."
       },
       {
         "title": "colleague vs co-worker",
-        "words": ["colleague", "co-worker"],
+        "words": [
+          "colleague",
+          "co-worker"
+        ],
         "explanation_ar": "co-worker أي شخص يعمل معك في نفس المبنى أو مكان العمل حتى لو في قسم مختلف. colleague زميل في نفس التخصص المهني أو المستوى العلمي، وتحمل احتراماً مهنياً أكبر.",
         "examples": [
-          {"word": "co-worker", "sentence": "We share an office with ten co-workers from the sales department."},
-          {"word": "colleague", "sentence": "Dr Omar discussed the research with his hospital colleagues."}
-        ]
+          {
+            "word": "co-worker",
+            "sentence": "We share an office with ten co-workers from the sales department."
+          },
+          {
+            "word": "colleague",
+            "sentence": "Dr Omar discussed the research with his hospital colleagues."
+          }
+        ],
+        "explanation_en": "A co-worker is anyone who works with you in the same building or workplace, even in a different department. A colleague works in the same professional field or at the same level, and the word sounds more respectful and professional."
       },
       {
         "title": "employee vs employer",
-        "words": ["employee", "employer"],
+        "words": [
+          "employee",
+          "employer"
+        ],
         "explanation_ar": "اللاحقة ee تدل على الشخص الذي يقع عليه الفعل (الموظف الذي يتم توظيفه)، واللاحقة er تدل على من يقوم بالفعل (صاحب العمل الذي يوظّف).",
         "examples": [
-          {"word": "employee", "sentence": "Every new employee gets a laptop."},
-          {"word": "employer", "sentence": "My employer pays me at the end of each month."}
-        ]
+          {
+            "word": "employee",
+            "sentence": "Every new employee gets a laptop."
+          },
+          {
+            "word": "employer",
+            "sentence": "My employer pays me at the end of each month."
+          }
+        ],
+        "explanation_en": "The ending -ee shows the person who receives the action (the employee is the one who is employed). The ending -er shows the person who does the action (the employer is the one who employs)."
       }
     ],
     "expressions": [
-      {"phrase": "learn the ropes", "meaning_ar": "يتعلم أصول العمل الجديد وكيفية أداء المهام", "example": "It takes a few weeks for any new employee to learn the ropes."},
-      {"phrase": "bring together", "meaning_ar": "يجمع أشخاصاً مختلفين في مكان واحد", "example": "The fair brought together students and companies."},
-      {"phrase": "get straight to business", "meaning_ar": "يدخل في الموضوع مباشرة", "example": "Let's get straight to business and start the meeting."},
-      {"phrase": "on the other hand", "meaning_ar": "من ناحية أخرى", "example": "Omar likes engineering. Ali, on the other hand, loves design."},
-      {"phrase": "have a great time", "meaning_ar": "يقضي وقتاً ممتعاً", "example": "I'm having a great time at my new job."}
+      {
+        "phrase": "learn the ropes",
+        "meaning_ar": "يتعلم أصول العمل الجديد وكيفية أداء المهام",
+        "example": "It takes a few weeks for any new employee to learn the ropes.",
+        "meaning_en": "to learn how a new job works and how to do the tasks"
+      },
+      {
+        "phrase": "bring together",
+        "meaning_ar": "يجمع أشخاصاً مختلفين في مكان واحد",
+        "example": "The fair brought together students and companies.",
+        "meaning_en": "to bring different people together in one place"
+      },
+      {
+        "phrase": "get straight to business",
+        "meaning_ar": "يدخل في الموضوع مباشرة",
+        "example": "Let's get straight to business and start the meeting.",
+        "meaning_en": "to start talking about the main topic immediately"
+      },
+      {
+        "phrase": "on the other hand",
+        "meaning_ar": "من ناحية أخرى",
+        "example": "Omar likes engineering. Ali, on the other hand, loves design.",
+        "meaning_en": "used to show a different or opposite idea"
+      },
+      {
+        "phrase": "have a great time",
+        "meaning_ar": "يقضي وقتاً ممتعاً",
+        "example": "I'm having a great time at my new job.",
+        "meaning_en": "to enjoy yourself a lot"
+      }
     ],
     "grammar": [
       {
@@ -87,7 +454,8 @@
           "I think this job is excellent. / I am thinking about the new job offer.",
           "She has a successful company. / We are having lunch with the manager.",
           "Ali is having a great time at the fair."
-        ]
+        ],
+        "explanation_en": "Some verbs are state verbs with one meaning and action verbs with another meaning. \"Think\" meaning \"believe\" (a fixed opinion) doesn't take -ing, but \"think\" meaning \"consider something right now\" does. \"Have\" meaning \"own\" doesn't take -ing, but \"have\" meaning \"eat a meal\" or \"go through an experience\" does."
       },
       {
         "title": "Verbs that change meaning with -ing: see, taste and smell",
@@ -96,20 +464,131 @@
           "I see what you mean. / The lawyer is seeing a new client this afternoon.",
           "The soup smells good. / The chef is smelling the soup.",
           "The food tastes great. / He is tasting the sauce."
-        ]
+        ],
+        "explanation_en": "\"See\" meaning \"look with your eyes\" or \"understand\" doesn't take -ing, but \"see\" meaning \"meet someone at an appointment\" does. \"Taste\" and \"smell\" describing food don't take -ing, but when a person is actively tasting or smelling something, they take -ing."
       }
     ]
   },
   "questions": [
-    {"question": "Which word do you write on official forms for your job?", "choices": ["career", "occupation", "colleague", "booth"], "answer": 1, "explanation_ar": "occupation المصطلح الرسمي في الاستمارات."},
-    {"question": "\"She built an impressive ___ in medicine over 30 years.\"", "choices": ["job", "booth", "career", "staff"], "answer": 2, "explanation_ar": "career = المسار المهني الطويل عبر السنين."},
-    {"question": "The manager is sitting and considering it right now: \"The manager ___ of hiring a new engineer.\"", "choices": ["thinks", "is thinking", "think", "thought"], "answer": 1, "explanation_ar": "think بمعنى يفكر الآن فعل حركة يأخذ ing."},
-    {"question": "Which sentence is correct?", "choices": ["The coffee is smelling amazing.", "The coffee smelling amazing.", "The coffee smell amazing.", "The coffee smells amazing."], "answer": 3, "explanation_ar": "smell كصفة للشيء فعل حالة لا يأخذ ing."},
-    {"question": "\"The lawyer is seeing a new client this afternoon.\" Here \"seeing\" means:", "choices": ["meeting", "understanding", "looking with eyes", "watching TV"], "answer": 0, "explanation_ar": "see بمعنى يقابل في موعد يأخذ ing."},
-    {"question": "\"Learn the ropes\" means:", "choices": ["learn to climb", "learn how to do a new job", "learn to sail", "learn to tie knots"], "answer": 1, "explanation_ar": "learn the ropes = يتعلم أصول العمل الجديد."},
-    {"question": "A person who designs buildings is an:", "choices": ["accountant", "pilot", "architect", "journalist"], "answer": 2, "explanation_ar": "architect = مهندس معماري، و ch تُنطق k."},
-    {"question": "The company that gives you a job is your:", "choices": ["employer", "employee", "colleague", "staff"], "answer": 0, "explanation_ar": "employer = صاحب العمل، employee = الموظف."},
-    {"question": "Which job needs advanced study and an official license?", "choices": ["a part-time job in a shop", "a profession like law", "a weekend job", "any occupation"], "answer": 1, "explanation_ar": "profession مهنة تحتاج دراسة وتراخيص رسمية."},
-    {"question": "The modern neutral word for a waiter or waitress is:", "choices": ["chef", "driver", "host", "server"], "answer": 3, "explanation_ar": "server الكلمة المحايدة الحديثة."}
+    {
+      "question": "Which word do you write on official forms for your job?",
+      "choices": [
+        "career",
+        "occupation",
+        "colleague",
+        "booth"
+      ],
+      "answer": 1,
+      "explanation_ar": "occupation المصطلح الرسمي في الاستمارات.",
+      "explanation_en": "\"Occupation\" is the formal word used on official forms."
+    },
+    {
+      "question": "\"She built an impressive ___ in medicine over 30 years.\"",
+      "choices": [
+        "job",
+        "booth",
+        "career",
+        "staff"
+      ],
+      "answer": 2,
+      "explanation_ar": "career = المسار المهني الطويل عبر السنين.",
+      "explanation_en": "Career = your long working path over many years."
+    },
+    {
+      "question": "The manager is sitting and considering it right now: \"The manager ___ of hiring a new engineer.\"",
+      "choices": [
+        "thinks",
+        "is thinking",
+        "think",
+        "thought"
+      ],
+      "answer": 1,
+      "explanation_ar": "think بمعنى يفكر الآن فعل حركة يأخذ ing.",
+      "explanation_en": "\"Think\" meaning \"consider right now\" is an action, so it takes -ing."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "The coffee is smelling amazing.",
+        "The coffee smelling amazing.",
+        "The coffee smell amazing.",
+        "The coffee smells amazing."
+      ],
+      "answer": 3,
+      "explanation_ar": "smell كصفة للشيء فعل حالة لا يأخذ ing.",
+      "explanation_en": "\"Smell\" describing what something is like is a state verb, so it doesn't take -ing."
+    },
+    {
+      "question": "\"The lawyer is seeing a new client this afternoon.\" Here \"seeing\" means:",
+      "choices": [
+        "meeting",
+        "understanding",
+        "looking with eyes",
+        "watching TV"
+      ],
+      "answer": 0,
+      "explanation_ar": "see بمعنى يقابل في موعد يأخذ ing.",
+      "explanation_en": "\"See\" meaning \"meet at an appointment\" takes -ing."
+    },
+    {
+      "question": "\"Learn the ropes\" means:",
+      "choices": [
+        "learn to climb",
+        "learn how to do a new job",
+        "learn to sail",
+        "learn to tie knots"
+      ],
+      "answer": 1,
+      "explanation_ar": "learn the ropes = يتعلم أصول العمل الجديد.",
+      "explanation_en": "\"Learn the ropes\" = to learn how a new job works."
+    },
+    {
+      "question": "A person who designs buildings is an:",
+      "choices": [
+        "accountant",
+        "pilot",
+        "architect",
+        "journalist"
+      ],
+      "answer": 2,
+      "explanation_ar": "architect = مهندس معماري، و ch تُنطق k.",
+      "explanation_en": "An architect designs buildings, and the \"ch\" is pronounced like \"k\"."
+    },
+    {
+      "question": "The company that gives you a job is your:",
+      "choices": [
+        "employer",
+        "employee",
+        "colleague",
+        "staff"
+      ],
+      "answer": 0,
+      "explanation_ar": "employer = صاحب العمل، employee = الموظف.",
+      "explanation_en": "Employer = the person or company that gives you a job; employee = the worker."
+    },
+    {
+      "question": "Which job needs advanced study and an official license?",
+      "choices": [
+        "a part-time job in a shop",
+        "a profession like law",
+        "a weekend job",
+        "any occupation"
+      ],
+      "answer": 1,
+      "explanation_ar": "profession مهنة تحتاج دراسة وتراخيص رسمية.",
+      "explanation_en": "A profession needs advanced study and official licences."
+    },
+    {
+      "question": "The modern neutral word for a waiter or waitress is:",
+      "choices": [
+        "chef",
+        "driver",
+        "host",
+        "server"
+      ],
+      "answer": 3,
+      "explanation_ar": "server الكلمة المحايدة الحديثة.",
+      "explanation_en": "\"Server\" is the modern neutral word."
+    }
   ]
 }

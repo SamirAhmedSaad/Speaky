@@ -2,110 +2,568 @@
   "title": "Work Skills and Responsibilities",
   "content": {
     "vocabulary": [
-      {"word": "communication", "pos": "noun", "meaning_en": "sharing ideas and information with others", "meaning_ar": "التواصل", "note_ar": "الفعل communicate؛ التواصل الجيد يبدأ بالاستماع والفهم", "example": "Good communication reduces mistakes."},
-      {"word": "teamwork", "pos": "noun", "meaning_en": "people working together for one goal", "meaning_ar": "العمل الجماعي / روح الفريق", "note_ar": "كلمة مركّبة: team + work", "example": "The project succeeded because of great teamwork."},
-      {"word": "leadership", "pos": "noun", "meaning_en": "the skill of guiding a group of people", "meaning_ar": "القيادة", "note_ar": "المقطع ship يحوّل leader إلى صفة أو مهارة (مثل friendship)", "example": "She showed strong leadership during the crisis."},
-      {"word": "problem-solving", "pos": "noun", "meaning_en": "the ability to find answers to difficult problems", "meaning_ar": "حل المشكلات", "note_ar": "نضع شرطة - بين الكلمتين عندما نستخدمهما ككلمة واحدة", "example": "This job needs good problem-solving skills."},
-      {"word": "creativity", "pos": "noun", "meaning_en": "the ability to make new and unusual ideas", "meaning_ar": "الإبداع", "note_ar": "creative = مبدع، create = يخلق", "example": "Creativity can save a company time and money."},
-      {"word": "organization", "pos": "noun", "meaning_en": "the skill of planning and arranging things well; also a company or group", "meaning_ar": "التنظيم / مؤسسة", "note_ar": "تُكتب organisation بحرف s في بريطانيا", "example": "Her organization skills are excellent."},
-      {"word": "decision-making", "pos": "noun", "meaning_en": "the skill of choosing between options", "meaning_ar": "اتخاذ القرار", "note_ar": "", "example": "Decision-making is hard when time is short."},
-      {"word": "manage", "pos": "verb", "meaning_en": "to be in charge of people or work", "meaning_ar": "يدير", "note_ar": "manager = مدير، management = إدارة", "example": "He manages a team of ten people."},
-      {"word": "organize", "pos": "verb", "meaning_en": "to arrange or plan something", "meaning_ar": "ينظّم / يرتّب", "note_ar": "", "example": "Who is organizing the meeting?"},
-      {"word": "support", "pos": "verb", "meaning_en": "to help someone", "meaning_ar": "يدعم / يساند", "note_ar": "", "example": "Our manager always supports new staff."},
-      {"word": "supervise", "pos": "verb", "meaning_en": "to watch work to make sure it is done well and safely", "meaning_ar": "يشرف على", "note_ar": "supervisor = مشرف", "example": "She supervises the work on the building site."},
-      {"word": "design", "pos": "verb", "meaning_en": "to make a plan or shape for something new", "meaning_ar": "يصمّم", "note_ar": "حرف g صامت: تُنطق /dɪˈzaɪn/", "example": "They designed a new app for customers."},
-      {"word": "plan", "pos": "verb", "meaning_en": "to decide in advance what you will do", "meaning_ar": "يخطّط", "note_ar": "", "example": "We planned the project carefully."},
-      {"word": "control", "pos": "verb", "meaning_en": "to manage or direct how something works", "meaning_ar": "يتحكّم / يضبط", "note_ar": "", "example": "The manager controls the budget."},
-      {"word": "present", "pos": "verb", "meaning_en": "to show or explain something to a group", "meaning_ar": "يعرض / يقدّم", "note_ar": "كفعل النبرة على المقطع الثاني: preSENT، وكاسم (هدية) النبرة على الأول: PREsent", "example": "I will present the results at the meeting."},
-      {"word": "lead", "pos": "verb", "meaning_en": "to guide or be in charge of a group", "meaning_ar": "يقود", "note_ar": "الماضي led", "example": "Who will lead the new team?"},
-      {"word": "task", "pos": "noun", "meaning_en": "a single piece of work you have to do", "meaning_ar": "مهمة", "note_ar": "", "example": "My first task today is to answer emails."},
-      {"word": "duty", "pos": "noun", "meaning_en": "something you must do because of your job", "meaning_ar": "واجب / مهمة وظيفية", "note_ar": "الجمع duties", "example": "Checking the stock is one of my duties."},
-      {"word": "responsibility", "pos": "noun", "meaning_en": "a job or role you must take care of", "meaning_ar": "مسؤولية", "note_ar": "responsible for = مسؤول عن", "example": "Training new staff is my responsibility."},
-      {"word": "achievement", "pos": "noun", "meaning_en": "something good you succeed in doing", "meaning_ar": "إنجاز", "note_ar": "من الفعل achieve", "example": "Finishing early was a great achievement."},
-      {"word": "performance", "pos": "noun", "meaning_en": "how well someone does their work", "meaning_ar": "الأداء", "note_ar": "من الفعل perform", "example": "His performance improved this year."},
-      {"word": "progress", "pos": "noun", "meaning_en": "moving forward towards a goal", "meaning_ar": "تقدّم", "note_ar": "كاسم النبرة على الأول PROgress، وكفعل على الثاني proGRESS", "example": "We are making good progress on the report."},
-      {"word": "efficient", "pos": "adjective", "meaning_en": "doing work well without wasting time, effort or money", "meaning_ar": "كفء (بلا هدر)", "note_ar": "efficiency = الكفاءة", "example": "The new system is more efficient."},
-      {"word": "effective", "pos": "adjective", "meaning_en": "producing the result you want", "meaning_ar": "فعّال (يحقق الهدف)", "note_ar": "effectiveness = الفاعلية", "example": "The advert was very effective; sales doubled."},
-      {"word": "dependable / reliable", "pos": "adjective", "meaning_en": "someone you can trust to do what they promise", "meaning_ar": "يُعتمد عليه", "note_ar": "depend on = يعتمد على", "example": "She is dependable; she never misses a deadline."},
-      {"word": "flexible", "pos": "adjective", "meaning_en": "able to change easily when things change", "meaning_ar": "مرن", "note_ar": "", "example": "We need flexible staff who can work different shifts."},
-      {"word": "innovative", "pos": "adjective", "meaning_en": "using new and original ideas", "meaning_ar": "مبتكر", "note_ar": "innovate = يبتكر، innovation = ابتكار", "example": "The company is famous for its innovative products."},
-      {"word": "hardworking", "pos": "adjective", "meaning_en": "putting a lot of effort into work", "meaning_ar": "مجتهد", "note_ar": "", "example": "He is the most hardworking person on the team."},
-      {"word": "thoughtful", "pos": "adjective", "meaning_en": "thinking carefully and caring about others", "meaning_ar": "متأنٍّ / مراعٍ للآخرين", "note_ar": "", "example": "It was thoughtful of you to help the new trainee."},
-      {"word": "reduce", "pos": "verb", "meaning_en": "to make something smaller or less", "meaning_ar": "يقلّل", "note_ar": "", "example": "Clear instructions reduce errors."},
-      {"word": "multitasking", "pos": "noun", "meaning_en": "doing several jobs at the same time", "meaning_ar": "تعدّد المهام", "note_ar": "multi = متعدد", "example": "Working in a small shop needs a lot of multitasking."},
-      {"word": "manual", "pos": "noun", "meaning_en": "a book that tells you how to do or use something", "meaning_ar": "دليل (إرشادات)", "note_ar": "manual كصفة = يدوي", "example": "Read the training manual before your first day."},
-      {"word": "deadline", "pos": "noun", "meaning_en": "the last time or date to finish something", "meaning_ar": "الموعد النهائي", "note_ar": "", "example": "The deadline for the report is Friday."}
+      {
+        "word": "communication",
+        "pos": "noun",
+        "meaning_en": "sharing ideas and information with others",
+        "meaning_ar": "التواصل",
+        "note_ar": "الفعل communicate؛ التواصل الجيد يبدأ بالاستماع والفهم",
+        "example": "Good communication reduces mistakes.",
+        "note_en": "The verb is \"communicate\". Good communication starts with listening and understanding."
+      },
+      {
+        "word": "teamwork",
+        "pos": "noun",
+        "meaning_en": "people working together for one goal",
+        "meaning_ar": "العمل الجماعي / روح الفريق",
+        "note_ar": "كلمة مركّبة: team + work",
+        "example": "The project succeeded because of great teamwork.",
+        "note_en": "A compound word: team + work."
+      },
+      {
+        "word": "leadership",
+        "pos": "noun",
+        "meaning_en": "the skill of guiding a group of people",
+        "meaning_ar": "القيادة",
+        "note_ar": "المقطع ship يحوّل leader إلى صفة أو مهارة (مثل friendship)",
+        "example": "She showed strong leadership during the crisis.",
+        "note_en": "The ending -ship turns \"leader\" into a quality or skill (like \"friendship\")."
+      },
+      {
+        "word": "problem-solving",
+        "pos": "noun",
+        "meaning_en": "the ability to find answers to difficult problems",
+        "meaning_ar": "حل المشكلات",
+        "note_ar": "نضع شرطة - بين الكلمتين عندما نستخدمهما ككلمة واحدة",
+        "example": "This job needs good problem-solving skills.",
+        "note_en": "We put a hyphen (-) between the two words when we use them as one word."
+      },
+      {
+        "word": "creativity",
+        "pos": "noun",
+        "meaning_en": "the ability to make new and unusual ideas",
+        "meaning_ar": "الإبداع",
+        "note_ar": "creative = مبدع، create = يخلق",
+        "example": "Creativity can save a company time and money.",
+        "note_en": "creative = full of new ideas; create = to make something new."
+      },
+      {
+        "word": "organization",
+        "pos": "noun",
+        "meaning_en": "the skill of planning and arranging things well; also a company or group",
+        "meaning_ar": "التنظيم / مؤسسة",
+        "note_ar": "تُكتب organisation بحرف s في بريطانيا",
+        "example": "Her organization skills are excellent.",
+        "note_en": "Spelled \"organisation\" with an \"s\" in Britain."
+      },
+      {
+        "word": "decision-making",
+        "pos": "noun",
+        "meaning_en": "the skill of choosing between options",
+        "meaning_ar": "اتخاذ القرار",
+        "note_ar": "",
+        "example": "Decision-making is hard when time is short.",
+        "note_en": ""
+      },
+      {
+        "word": "manage",
+        "pos": "verb",
+        "meaning_en": "to be in charge of people or work",
+        "meaning_ar": "يدير",
+        "note_ar": "manager = مدير، management = إدارة",
+        "example": "He manages a team of ten people.",
+        "note_en": "manager = the person who manages; management = the act of managing."
+      },
+      {
+        "word": "organize",
+        "pos": "verb",
+        "meaning_en": "to arrange or plan something",
+        "meaning_ar": "ينظّم / يرتّب",
+        "note_ar": "",
+        "example": "Who is organizing the meeting?",
+        "note_en": ""
+      },
+      {
+        "word": "support",
+        "pos": "verb",
+        "meaning_en": "to help someone",
+        "meaning_ar": "يدعم / يساند",
+        "note_ar": "",
+        "example": "Our manager always supports new staff.",
+        "note_en": ""
+      },
+      {
+        "word": "supervise",
+        "pos": "verb",
+        "meaning_en": "to watch work to make sure it is done well and safely",
+        "meaning_ar": "يشرف على",
+        "note_ar": "supervisor = مشرف",
+        "example": "She supervises the work on the building site.",
+        "note_en": "supervisor = the person who supervises."
+      },
+      {
+        "word": "design",
+        "pos": "verb",
+        "meaning_en": "to make a plan or shape for something new",
+        "meaning_ar": "يصمّم",
+        "note_ar": "حرف g صامت: تُنطق /dɪˈzaɪn/",
+        "example": "They designed a new app for customers.",
+        "note_en": "The \"g\" is silent: /dɪˈzaɪn/"
+      },
+      {
+        "word": "plan",
+        "pos": "verb",
+        "meaning_en": "to decide in advance what you will do",
+        "meaning_ar": "يخطّط",
+        "note_ar": "",
+        "example": "We planned the project carefully.",
+        "note_en": ""
+      },
+      {
+        "word": "control",
+        "pos": "verb",
+        "meaning_en": "to manage or direct how something works",
+        "meaning_ar": "يتحكّم / يضبط",
+        "note_ar": "",
+        "example": "The manager controls the budget.",
+        "note_en": ""
+      },
+      {
+        "word": "present",
+        "pos": "verb",
+        "meaning_en": "to show or explain something to a group",
+        "meaning_ar": "يعرض / يقدّم",
+        "note_ar": "كفعل النبرة على المقطع الثاني: preSENT، وكاسم (هدية) النبرة على الأول: PREsent",
+        "example": "I will present the results at the meeting.",
+        "note_en": "As a verb, the stress is on the second syllable: preSENT. As a noun (a gift), the stress is on the first: PREsent."
+      },
+      {
+        "word": "lead",
+        "pos": "verb",
+        "meaning_en": "to guide or be in charge of a group",
+        "meaning_ar": "يقود",
+        "note_ar": "الماضي led",
+        "example": "Who will lead the new team?",
+        "note_en": "Past tense: led."
+      },
+      {
+        "word": "task",
+        "pos": "noun",
+        "meaning_en": "a single piece of work you have to do",
+        "meaning_ar": "مهمة",
+        "note_ar": "",
+        "example": "My first task today is to answer emails.",
+        "note_en": ""
+      },
+      {
+        "word": "duty",
+        "pos": "noun",
+        "meaning_en": "something you must do because of your job",
+        "meaning_ar": "واجب / مهمة وظيفية",
+        "note_ar": "الجمع duties",
+        "example": "Checking the stock is one of my duties.",
+        "note_en": "Plural: duties."
+      },
+      {
+        "word": "responsibility",
+        "pos": "noun",
+        "meaning_en": "a job or role you must take care of",
+        "meaning_ar": "مسؤولية",
+        "note_ar": "responsible for = مسؤول عن",
+        "example": "Training new staff is my responsibility.",
+        "note_en": "responsible for = in charge of and accountable for."
+      },
+      {
+        "word": "achievement",
+        "pos": "noun",
+        "meaning_en": "something good you succeed in doing",
+        "meaning_ar": "إنجاز",
+        "note_ar": "من الفعل achieve",
+        "example": "Finishing early was a great achievement.",
+        "note_en": "From the verb \"achieve\"."
+      },
+      {
+        "word": "performance",
+        "pos": "noun",
+        "meaning_en": "how well someone does their work",
+        "meaning_ar": "الأداء",
+        "note_ar": "من الفعل perform",
+        "example": "His performance improved this year.",
+        "note_en": "From the verb \"perform\"."
+      },
+      {
+        "word": "progress",
+        "pos": "noun",
+        "meaning_en": "moving forward towards a goal",
+        "meaning_ar": "تقدّم",
+        "note_ar": "كاسم النبرة على الأول PROgress، وكفعل على الثاني proGRESS",
+        "example": "We are making good progress on the report.",
+        "note_en": "As a noun, the stress is on the first syllable: PROgress. As a verb, on the second: proGRESS."
+      },
+      {
+        "word": "efficient",
+        "pos": "adjective",
+        "meaning_en": "doing work well without wasting time, effort or money",
+        "meaning_ar": "كفء (بلا هدر)",
+        "note_ar": "efficiency = الكفاءة",
+        "example": "The new system is more efficient.",
+        "note_en": "efficiency = the noun."
+      },
+      {
+        "word": "effective",
+        "pos": "adjective",
+        "meaning_en": "producing the result you want",
+        "meaning_ar": "فعّال (يحقق الهدف)",
+        "note_ar": "effectiveness = الفاعلية",
+        "example": "The advert was very effective; sales doubled.",
+        "note_en": "effectiveness = the noun."
+      },
+      {
+        "word": "dependable / reliable",
+        "pos": "adjective",
+        "meaning_en": "someone you can trust to do what they promise",
+        "meaning_ar": "يُعتمد عليه",
+        "note_ar": "depend on = يعتمد على",
+        "example": "She is dependable; she never misses a deadline.",
+        "note_en": "depend on = to trust or need someone."
+      },
+      {
+        "word": "flexible",
+        "pos": "adjective",
+        "meaning_en": "able to change easily when things change",
+        "meaning_ar": "مرن",
+        "note_ar": "",
+        "example": "We need flexible staff who can work different shifts.",
+        "note_en": ""
+      },
+      {
+        "word": "innovative",
+        "pos": "adjective",
+        "meaning_en": "using new and original ideas",
+        "meaning_ar": "مبتكر",
+        "note_ar": "innovate = يبتكر، innovation = ابتكار",
+        "example": "The company is famous for its innovative products.",
+        "note_en": "innovate = to create new ideas; innovation = a new idea or method."
+      },
+      {
+        "word": "hardworking",
+        "pos": "adjective",
+        "meaning_en": "putting a lot of effort into work",
+        "meaning_ar": "مجتهد",
+        "note_ar": "",
+        "example": "He is the most hardworking person on the team.",
+        "note_en": ""
+      },
+      {
+        "word": "thoughtful",
+        "pos": "adjective",
+        "meaning_en": "thinking carefully and caring about others",
+        "meaning_ar": "متأنٍّ / مراعٍ للآخرين",
+        "note_ar": "",
+        "example": "It was thoughtful of you to help the new trainee.",
+        "note_en": ""
+      },
+      {
+        "word": "reduce",
+        "pos": "verb",
+        "meaning_en": "to make something smaller or less",
+        "meaning_ar": "يقلّل",
+        "note_ar": "",
+        "example": "Clear instructions reduce errors.",
+        "note_en": ""
+      },
+      {
+        "word": "multitasking",
+        "pos": "noun",
+        "meaning_en": "doing several jobs at the same time",
+        "meaning_ar": "تعدّد المهام",
+        "note_ar": "multi = متعدد",
+        "example": "Working in a small shop needs a lot of multitasking.",
+        "note_en": "multi = many."
+      },
+      {
+        "word": "manual",
+        "pos": "noun",
+        "meaning_en": "a book that tells you how to do or use something",
+        "meaning_ar": "دليل (إرشادات)",
+        "note_ar": "manual كصفة = يدوي",
+        "example": "Read the training manual before your first day.",
+        "note_en": "As an adjective, \"manual\" means done by hand."
+      },
+      {
+        "word": "deadline",
+        "pos": "noun",
+        "meaning_en": "the last time or date to finish something",
+        "meaning_ar": "الموعد النهائي",
+        "note_ar": "",
+        "example": "The deadline for the report is Friday.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "efficient vs effective",
-        "words": ["efficient", "effective"],
+        "words": [
+          "efficient",
+          "effective"
+        ],
         "explanation_ar": "efficient يعني أن تعمل الشيء بالطريقة الصحيحة بأقل استهلاك للوقت والجهد والمال، والتركيز هنا على طريقة التنفيذ. effective يعني أن تعمل الشيء الذي يحقق الهدف، والتركيز على النتيجة فقط. مثال: لو قتلت بعوضة بمدفع فالحل effective لأن البعوضة ماتت، لكنه ليس efficient لأنك خرّبت الغرفة.",
         "examples": [
-          {"word": "efficient", "sentence": "An efficient worker finishes fast without wasting materials."},
-          {"word": "effective", "sentence": "The medicine was effective; my headache stopped."}
-        ]
+          {
+            "word": "efficient",
+            "sentence": "An efficient worker finishes fast without wasting materials."
+          },
+          {
+            "word": "effective",
+            "sentence": "The medicine was effective; my headache stopped."
+          }
+        ],
+        "explanation_en": "\"Efficient\" means doing something in the right way, using the least time, effort and money; the focus is on how you do it. \"Effective\" means doing what achieves the goal; the focus is only on the result. Example: if you kill a mosquito with a cannon, it is effective because the mosquito is dead, but it is not efficient because you destroyed the room."
       },
       {
         "title": "task vs duty vs responsibility",
-        "words": ["task", "duty", "responsibility"],
+        "words": [
+          "task",
+          "duty",
+          "responsibility"
+        ],
         "explanation_ar": "task مهمة محددة وسريعة تنجزها وتشطب عليها قبل نهاية اليوم. duty واجب ثابت مرتبط بوظيفتك ومكتوب غالباً في عقدك. responsibility الدور الذي أنت مسؤول عنه وتُحاسَب على نتيجته على المدى الطويل.",
         "examples": [
-          {"word": "task", "sentence": "My last task today is to send the invoice."},
-          {"word": "duty", "sentence": "Answering the phone is one of the receptionist's duties."},
-          {"word": "responsibility", "sentence": "The team's safety is the supervisor's responsibility."}
-        ]
+          {
+            "word": "task",
+            "sentence": "My last task today is to send the invoice."
+          },
+          {
+            "word": "duty",
+            "sentence": "Answering the phone is one of the receptionist's duties."
+          },
+          {
+            "word": "responsibility",
+            "sentence": "The team's safety is the supervisor's responsibility."
+          }
+        ],
+        "explanation_en": "A task is a small, specific job you finish and tick off before the end of the day. A duty is a regular part of your job, often written in your contract. A responsibility is a role you are in charge of, and people judge you on its results over a long time."
       },
       {
         "title": "present (noun) vs present (verb)",
-        "words": ["present (noun)", "present (verb)"],
+        "words": [
+          "present (noun)",
+          "present (verb)"
+        ],
         "explanation_ar": "نفس الكتابة لكن النبرة تغيّر المعنى. PREsent بنبرة على المقطع الأول اسم = هدية. preSENT بنبرة على المقطع الثاني فعل = يعرض أو يقدّم. وكذلك PROgress اسم و proGRESS فعل.",
         "examples": [
-          {"word": "present (noun)", "sentence": "She gave me a lovely birthday present."},
-          {"word": "present (verb)", "sentence": "Tom will present the new plan tomorrow."}
-        ]
+          {
+            "word": "present (noun)",
+            "sentence": "She gave me a lovely birthday present."
+          },
+          {
+            "word": "present (verb)",
+            "sentence": "Tom will present the new plan tomorrow."
+          }
+        ],
+        "explanation_en": "Same spelling, but the stress changes the meaning. PREsent (stress on the first syllable) is a noun = a gift. preSENT (stress on the second syllable) is a verb = to show or give a talk. In the same way, PROgress is a noun and proGRESS is a verb."
       },
       {
         "title": "due vs due to",
-        "words": ["due", "due to"],
+        "words": [
+          "due",
+          "due to"
+        ],
         "explanation_ar": "due وحدها تعني الموعد النهائي للتسليم: The report is due Thursday. أما due to فتعني «بسبب» ويأتي بعدها اسم وليس فعلاً.",
         "examples": [
-          {"word": "due", "sentence": "The rent is due on the first of the month."},
-          {"word": "due to", "sentence": "The flight was late due to bad weather."}
-        ]
+          {
+            "word": "due",
+            "sentence": "The rent is due on the first of the month."
+          },
+          {
+            "word": "due to",
+            "sentence": "The flight was late due to bad weather."
+          }
+        ],
+        "explanation_en": "\"Due\" alone means the final date to hand something in: \"The report is due Thursday.\" \"Due to\" means \"because of\", and it is followed by a noun, not a verb."
       }
     ],
     "expressions": [
-      {"phrase": "wear many hats", "meaning_ar": "يقوم بعدة أدوار ومهام في نفس الوقت", "example": "In a small company, I wear many hats: sales, accounts and delivery."},
-      {"phrase": "on track", "meaning_ar": "يسير حسب الخطة والجدول بدون تأخير", "example": "Don't worry, the project is on track."},
-      {"phrase": "take responsibility for", "meaning_ar": "يتحمّل المسؤولية عن", "example": "A good leader takes responsibility for the team's mistakes."},
-      {"phrase": "think outside the box", "meaning_ar": "يفكّر بطريقة غير تقليدية", "example": "We need to think outside the box to solve this."},
-      {"phrase": "active listening", "meaning_ar": "الاستماع الفعّال: التركيز الكامل وفهم الطرف الآخر قبل الرد", "example": "Active listening helps you understand your customers."},
-      {"phrase": "give someone a piece of your mind", "meaning_ar": "يوبّخ شخصاً ويقول له رأيه بغضب", "example": "If you're late again, the boss will give you a piece of his mind."}
+      {
+        "phrase": "wear many hats",
+        "meaning_ar": "يقوم بعدة أدوار ومهام في نفس الوقت",
+        "example": "In a small company, I wear many hats: sales, accounts and delivery.",
+        "meaning_en": "to do several different jobs or roles at the same time"
+      },
+      {
+        "phrase": "on track",
+        "meaning_ar": "يسير حسب الخطة والجدول بدون تأخير",
+        "example": "Don't worry, the project is on track.",
+        "meaning_en": "going as planned, with no delay"
+      },
+      {
+        "phrase": "take responsibility for",
+        "meaning_ar": "يتحمّل المسؤولية عن",
+        "example": "A good leader takes responsibility for the team's mistakes.",
+        "meaning_en": "to accept that something is your duty and its results are your fault or credit"
+      },
+      {
+        "phrase": "think outside the box",
+        "meaning_ar": "يفكّر بطريقة غير تقليدية",
+        "example": "We need to think outside the box to solve this.",
+        "meaning_en": "to think in a new, creative way"
+      },
+      {
+        "phrase": "active listening",
+        "meaning_ar": "الاستماع الفعّال: التركيز الكامل وفهم الطرف الآخر قبل الرد",
+        "example": "Active listening helps you understand your customers.",
+        "meaning_en": "listening with full attention and understanding the other person before you reply"
+      },
+      {
+        "phrase": "give someone a piece of your mind",
+        "meaning_ar": "يوبّخ شخصاً ويقول له رأيه بغضب",
+        "example": "If you're late again, the boss will give you a piece of his mind.",
+        "meaning_en": "to tell someone angrily what you think of them"
+      }
     ],
     "grammar": [
       {
         "title": "be to + verb: official plans",
         "explanation_ar": "نستخدم be to + الفعل في صورته الأساسية للحديث عن شيء مقرر رسمياً في الجدول (اجتماعات، مواعيد، رحلات). وبمعنى قريب نستخدم be scheduled to.",
-        "examples": ["The meeting is to start at 10 o'clock.", "The flight is scheduled to take off at midnight.", "The manager is to visit our branch on Monday."]
+        "examples": [
+          "The meeting is to start at 10 o'clock.",
+          "The flight is scheduled to take off at midnight.",
+          "The manager is to visit our branch on Monday."
+        ],
+        "explanation_en": "Use \"be to\" + base verb to talk about something officially planned on a schedule (meetings, appointments, trips). \"Be scheduled to\" has a similar meaning."
       },
       {
         "title": "due (deadline) and due to (because of)",
         "explanation_ar": "due = موعد التسليم النهائي، ويأتي بعده وقت. due to = بسبب، ويأتي بعده اسم وليس فعلاً.",
-        "examples": ["The monthly report is due next Thursday.", "The delay was due to poor communication.", "The factory closed due to a power cut."]
+        "examples": [
+          "The monthly report is due next Thursday.",
+          "The delay was due to poor communication.",
+          "The factory closed due to a power cut."
+        ],
+        "explanation_en": "\"Due\" = the final date to hand something in, followed by a time. \"Due to\" = because of, followed by a noun, not a verb."
       }
     ]
   },
   "questions": [
-    {"question": "You killed a mosquito with a cannon. The solution was:", "choices": ["efficient but not effective", "neither efficient nor effective", "effective but not efficient", "efficient and effective"], "answer": 2, "explanation_ar": "حقق الهدف فهو effective، لكن بهدر كبير فليس efficient."},
-    {"question": "The final report is ___ next Thursday.", "choices": ["due", "due to", "on track", "to due"], "answer": 0, "explanation_ar": "due = موعد التسليم النهائي."},
-    {"question": "The project was late ___ poor communication.", "choices": ["due", "because", "due to", "is to"], "answer": 2, "explanation_ar": "due to + اسم = بسبب."},
-    {"question": "\"I wear many hats at work\" means I:", "choices": ["have a strict dress code", "do several different jobs", "change companies often", "work outside"], "answer": 1, "explanation_ar": "wear many hats = يقوم بعدة أدوار في نفس الوقت."},
-    {"question": "The meeting ___ start at 9 a.m. (it's on the official schedule)", "choices": ["is to", "is due", "is starting to", "to"], "answer": 0, "explanation_ar": "be to + الفعل للأمور المقررة رسمياً."},
-    {"question": "\"The project is on track\" means it is:", "choices": ["cancelled", "late", "over budget", "going as planned"], "answer": 3, "explanation_ar": "on track = يسير حسب الخطة بدون تأخير."},
-    {"question": "A person you can always trust to finish the work is:", "choices": ["flexible", "innovative", "dependable", "nervous"], "answer": 2, "explanation_ar": "dependable = يُعتمد عليه."},
-    {"question": "In the verb \"present\" (to show), the stress is on:", "choices": ["the first syllable", "the second syllable", "both syllables", "no syllable"], "answer": 1, "explanation_ar": "كفعل النبرة على المقطع الثاني preSENT."},
-    {"question": "A supervisor's job is to:", "choices": ["watch the work to make sure it is done well", "design new products only", "pay the salaries", "clean the office"], "answer": 0, "explanation_ar": "supervise = يشرف على سير العمل وجودته."},
-    {"question": "A small single job you finish today is a:", "choices": ["responsibility", "leadership", "manual", "task"], "answer": 3, "explanation_ar": "task مهمة محددة وسريعة."}
+    {
+      "question": "You killed a mosquito with a cannon. The solution was:",
+      "choices": [
+        "efficient but not effective",
+        "neither efficient nor effective",
+        "effective but not efficient",
+        "efficient and effective"
+      ],
+      "answer": 2,
+      "explanation_ar": "حقق الهدف فهو effective، لكن بهدر كبير فليس efficient.",
+      "explanation_en": "It achieved the goal, so it was effective, but it wasted a lot, so it was not efficient."
+    },
+    {
+      "question": "The final report is ___ next Thursday.",
+      "choices": [
+        "due",
+        "due to",
+        "on track",
+        "to due"
+      ],
+      "answer": 0,
+      "explanation_ar": "due = موعد التسليم النهائي.",
+      "explanation_en": "Due = the final date to hand something in."
+    },
+    {
+      "question": "The project was late ___ poor communication.",
+      "choices": [
+        "due",
+        "because",
+        "due to",
+        "is to"
+      ],
+      "answer": 2,
+      "explanation_ar": "due to + اسم = بسبب.",
+      "explanation_en": "Due to + noun = because of."
+    },
+    {
+      "question": "\"I wear many hats at work\" means I:",
+      "choices": [
+        "have a strict dress code",
+        "do several different jobs",
+        "change companies often",
+        "work outside"
+      ],
+      "answer": 1,
+      "explanation_ar": "wear many hats = يقوم بعدة أدوار في نفس الوقت.",
+      "explanation_en": "\"Wear many hats\" = to do several roles at the same time."
+    },
+    {
+      "question": "The meeting ___ start at 9 a.m. (it's on the official schedule)",
+      "choices": [
+        "is to",
+        "is due",
+        "is starting to",
+        "to"
+      ],
+      "answer": 0,
+      "explanation_ar": "be to + الفعل للأمور المقررة رسمياً.",
+      "explanation_en": "\"Be to\" + verb is used for things officially planned."
+    },
+    {
+      "question": "\"The project is on track\" means it is:",
+      "choices": [
+        "cancelled",
+        "late",
+        "over budget",
+        "going as planned"
+      ],
+      "answer": 3,
+      "explanation_ar": "on track = يسير حسب الخطة بدون تأخير.",
+      "explanation_en": "\"On track\" = going as planned, with no delay."
+    },
+    {
+      "question": "A person you can always trust to finish the work is:",
+      "choices": [
+        "flexible",
+        "innovative",
+        "dependable",
+        "nervous"
+      ],
+      "answer": 2,
+      "explanation_ar": "dependable = يُعتمد عليه.",
+      "explanation_en": "Dependable = someone you can rely on."
+    },
+    {
+      "question": "In the verb \"present\" (to show), the stress is on:",
+      "choices": [
+        "the first syllable",
+        "the second syllable",
+        "both syllables",
+        "no syllable"
+      ],
+      "answer": 1,
+      "explanation_ar": "كفعل النبرة على المقطع الثاني preSENT.",
+      "explanation_en": "As a verb, the stress is on the second syllable: preSENT."
+    },
+    {
+      "question": "A supervisor's job is to:",
+      "choices": [
+        "watch the work to make sure it is done well",
+        "design new products only",
+        "pay the salaries",
+        "clean the office"
+      ],
+      "answer": 0,
+      "explanation_ar": "supervise = يشرف على سير العمل وجودته.",
+      "explanation_en": "To supervise = to watch over the work and check its quality."
+    },
+    {
+      "question": "A small single job you finish today is a:",
+      "choices": [
+        "responsibility",
+        "leadership",
+        "manual",
+        "task"
+      ],
+      "answer": 3,
+      "explanation_ar": "task مهمة محددة وسريعة.",
+      "explanation_en": "A task is a small, specific job you can finish quickly."
+    }
   ]
 }

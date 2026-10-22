@@ -2,103 +2,509 @@
   "title": "Cooking in the Kitchen",
   "content": {
     "vocabulary": [
-      {"word": "cooking method", "pos": "noun", "meaning_en": "a way of preparing food with heat", "meaning_ar": "طريقة طهي", "note_ar": "method = أسلوب / طريقة", "example": "Steaming is a healthy cooking method."},
-      {"word": "boil", "pos": "verb", "meaning_en": "to cook something in very hot water", "meaning_ar": "يسلق / يغلي", "note_ar": "", "example": "Boil the eggs for ten minutes."},
-      {"word": "fry", "pos": "verb", "meaning_en": "to cook something in hot oil", "meaning_ar": "يقلي", "note_ar": "fries = البطاطس المقلية (أصابع)", "example": "She fried the fish in olive oil."},
-      {"word": "grill", "pos": "verb", "meaning_en": "to cook food over or under direct heat", "meaning_ar": "يشوي", "note_ar": "", "example": "We grilled chicken in the garden."},
-      {"word": "roast", "pos": "verb", "meaning_en": "to cook meat or vegetables in an oven or over a fire", "meaning_ar": "يحمّر في الفرن / يشوي", "note_ar": "مع الأشياء الصلبة أصلاً: لحم، دجاج، بطاطس", "example": "My mother roasts a chicken every Friday."},
-      {"word": "bake", "pos": "verb", "meaning_en": "to cook bread or cakes in an oven", "meaning_ar": "يخبز", "note_ar": "مع العجين والسوائل التي يعطيها الفرن شكلها", "example": "I baked a chocolate cake for her birthday."},
-      {"word": "steam", "pos": "verb", "meaning_en": "to cook food using the hot gas from boiling water", "meaning_ar": "يطهو على البخار", "note_ar": "", "example": "Steam the vegetables for five minutes."},
-      {"word": "stir", "pos": "verb", "meaning_en": "to move a spoon around in a liquid or food", "meaning_ar": "يقلّب / يحرّك", "note_ar": "", "example": "Stir the sugar into your tea."},
-      {"word": "chop", "pos": "verb", "meaning_en": "to cut something into small pieces", "meaning_ar": "يقطّع قطعاً صغيرة / يفرم", "note_ar": "", "example": "Chop the onions finely."},
-      {"word": "slice", "pos": "verb / noun", "meaning_en": "to cut something into thin flat pieces; a thin flat piece", "meaning_ar": "يقطّع شرائح / شريحة", "note_ar": "a slice of pizza = شريحة بيتزا", "example": "Slice the tomatoes for the sandwich."},
-      {"word": "mix", "pos": "verb", "meaning_en": "to put things together and combine them", "meaning_ar": "يخلط", "note_ar": "", "example": "Mix the flour and the eggs in a bowl."},
-      {"word": "recipe", "pos": "noun", "meaning_en": "instructions for cooking a dish", "meaning_ar": "وصفة طبخ", "note_ar": "تُنطق /ˈresəpi/ بثلاثة مقاطع", "example": "Can you give me the recipe for this soup?"},
-      {"word": "ingredient", "pos": "noun", "meaning_en": "one of the foods you use to make a dish", "meaning_ar": "مكوّن", "note_ar": "من اللاتينية: الأشياء التي «تدخل» في الطبخة", "example": "You only need three ingredients for this cake."},
-      {"word": "tool", "pos": "noun", "meaning_en": "a thing you hold in your hand to do a job", "meaning_ar": "أداة", "note_ar": "", "example": "A good knife is the most important kitchen tool."},
-      {"word": "pan", "pos": "noun", "meaning_en": "a flat metal container for frying food", "meaning_ar": "مقلاة / طاسة", "note_ar": "frying pan = مقلاة", "example": "Heat some oil in a pan."},
-      {"word": "pot", "pos": "noun", "meaning_en": "a deep round container for cooking", "meaning_ar": "قِدر / حلّة", "note_ar": "", "example": "The soup is in the big pot."},
-      {"word": "oven", "pos": "noun", "meaning_en": "a box-shaped machine that cooks food inside with heat", "meaning_ar": "فرن", "note_ar": "تُنطق /ˈʌvn/", "example": "Put the bread in the oven for 20 minutes."},
-      {"word": "stove", "pos": "noun", "meaning_en": "the top part of a cooker where you put pots and pans", "meaning_ar": "موقد / بوتاجاز", "note_ar": "", "example": "Don't leave the stove on."},
-      {"word": "knife", "pos": "noun", "meaning_en": "a tool with a sharp blade for cutting", "meaning_ar": "سكين", "note_ar": "حرف k صامت، والجمع knives", "example": "Be careful with that knife."},
-      {"word": "cutting board", "pos": "noun", "meaning_en": "a flat board you cut food on", "meaning_ar": "لوح التقطيع", "note_ar": "", "example": "Put the carrots on the cutting board."},
-      {"word": "bowl", "pos": "noun", "meaning_en": "a deep round dish for mixing or eating", "meaning_ar": "وعاء / سلطانية", "note_ar": "", "example": "Break the eggs into a bowl."},
-      {"word": "whisk", "pos": "noun / verb", "meaning_en": "a kitchen tool for beating eggs or cream; to beat quickly", "meaning_ar": "مضرب البيض / يخفق", "note_ar": "", "example": "Whisk the eggs until they are light."},
-      {"word": "flavor", "pos": "noun", "meaning_en": "the special taste of food", "meaning_ar": "نكهة", "note_ar": "flavour بريطاني، flavor أمريكي", "example": "This ice cream comes in ten flavors."},
-      {"word": "extra", "pos": "noun / adjective", "meaning_en": "something added to what is usual", "meaning_ar": "إضافة / إضافي", "note_ar": "", "example": "Cheese costs one dollar extra."},
-      {"word": "salt", "pos": "noun", "meaning_en": "a white substance that makes food taste salty", "meaning_ar": "ملح", "note_ar": "", "example": "Add a little salt to the water."},
-      {"word": "pepper", "pos": "noun", "meaning_en": "a hot spice, usually black or white", "meaning_ar": "فلفل (بهار)", "note_ar": "", "example": "Pass me the salt and pepper, please."},
-      {"word": "oil", "pos": "noun", "meaning_en": "a thick liquid used in cooking", "meaning_ar": "زيت", "note_ar": "", "example": "Don't use too much oil."},
-      {"word": "sugar", "pos": "noun", "meaning_en": "a sweet white or brown substance", "meaning_ar": "سكر", "note_ar": "", "example": "I take my coffee without sugar."},
-      {"word": "spice / spices", "pos": "noun", "meaning_en": "a powder or seed that gives food a strong taste", "meaning_ar": "تابِل / توابل", "note_ar": "spice نوع واحد، و spices أنواع كثيرة معاً", "example": "Cumin is my favorite spice."},
-      {"word": "sauce", "pos": "noun", "meaning_en": "a thick liquid served with food", "meaning_ar": "صلصة", "note_ar": "", "example": "Would you like tomato sauce with your fries?"},
-      {"word": "taste", "pos": "noun / verb", "meaning_en": "the flavor of food; to try a little food", "meaning_ar": "طعم / يتذوّق", "note_ar": "", "example": "Taste the soup before you add salt."},
-      {"word": "delicious", "pos": "adjective", "meaning_en": "having a very good taste", "meaning_ar": "لذيذ", "note_ar": "", "example": "This pasta is delicious!"},
-      {"word": "warn", "pos": "verb", "meaning_en": "to tell someone about a possible danger", "meaning_ar": "يحذّر", "note_ar": "الاسم: warning = تحذير", "example": "The teacher warned us about the test."},
-      {"word": "careful", "pos": "adjective", "meaning_en": "giving attention to avoid danger or mistakes", "meaning_ar": "حَذِر", "note_ar": "Careful! اختصار لـ Be careful!", "example": "Careful! The pan is hot."},
-      {"word": "heat", "pos": "verb", "meaning_en": "to make something hot", "meaning_ar": "يسخّن", "note_ar": "", "example": "Heat the milk but don't boil it."},
-      {"word": "smoke", "pos": "noun", "meaning_en": "the gray gas that comes from something burning", "meaning_ar": "دخان", "note_ar": "", "example": "The kitchen was full of smoke."},
-      {"word": "explosion", "pos": "noun", "meaning_en": "a sudden loud burst, like a bomb", "meaning_ar": "انفجار", "note_ar": "الفعل: explode = ينفجر", "example": "We heard a loud explosion."},
-      {"word": "manage to", "pos": "verb", "meaning_en": "to succeed in doing something difficult", "meaning_ar": "يتمكّن من", "note_ar": "manager = مدير (من نفس الكلمة)", "example": "I finally managed to open the jar."},
-      {"word": "somehow", "pos": "adverb", "meaning_en": "in a way that is not clear or known", "meaning_ar": "بطريقةٍ ما", "note_ar": "", "example": "Somehow, we arrived on time."},
-      {"word": "stay away from", "pos": "phrasal verb", "meaning_en": "to not go near someone or something", "meaning_ar": "يبتعد عن", "note_ar": "", "example": "Stay away from the edge of the cliff."}
+      {
+        "word": "cooking method",
+        "pos": "noun",
+        "meaning_en": "a way of preparing food with heat",
+        "meaning_ar": "طريقة طهي",
+        "note_ar": "method = أسلوب / طريقة",
+        "example": "Steaming is a healthy cooking method.",
+        "note_en": "method = a way of doing something"
+      },
+      {
+        "word": "boil",
+        "pos": "verb",
+        "meaning_en": "to cook something in very hot water",
+        "meaning_ar": "يسلق / يغلي",
+        "note_ar": "",
+        "example": "Boil the eggs for ten minutes.",
+        "note_en": ""
+      },
+      {
+        "word": "fry",
+        "pos": "verb",
+        "meaning_en": "to cook something in hot oil",
+        "meaning_ar": "يقلي",
+        "note_ar": "fries = البطاطس المقلية (أصابع)",
+        "example": "She fried the fish in olive oil.",
+        "note_en": "\"Fries\" = long thin pieces of fried potato."
+      },
+      {
+        "word": "grill",
+        "pos": "verb",
+        "meaning_en": "to cook food over or under direct heat",
+        "meaning_ar": "يشوي",
+        "note_ar": "",
+        "example": "We grilled chicken in the garden.",
+        "note_en": ""
+      },
+      {
+        "word": "roast",
+        "pos": "verb",
+        "meaning_en": "to cook meat or vegetables in an oven or over a fire",
+        "meaning_ar": "يحمّر في الفرن / يشوي",
+        "note_ar": "مع الأشياء الصلبة أصلاً: لحم، دجاج، بطاطس",
+        "example": "My mother roasts a chicken every Friday.",
+        "note_en": "Used with food that is already solid: meat, chicken, potatoes."
+      },
+      {
+        "word": "bake",
+        "pos": "verb",
+        "meaning_en": "to cook bread or cakes in an oven",
+        "meaning_ar": "يخبز",
+        "note_ar": "مع العجين والسوائل التي يعطيها الفرن شكلها",
+        "example": "I baked a chocolate cake for her birthday.",
+        "note_en": "Used with dough and liquids that get their shape in the oven."
+      },
+      {
+        "word": "steam",
+        "pos": "verb",
+        "meaning_en": "to cook food using the hot gas from boiling water",
+        "meaning_ar": "يطهو على البخار",
+        "note_ar": "",
+        "example": "Steam the vegetables for five minutes.",
+        "note_en": ""
+      },
+      {
+        "word": "stir",
+        "pos": "verb",
+        "meaning_en": "to move a spoon around in a liquid or food",
+        "meaning_ar": "يقلّب / يحرّك",
+        "note_ar": "",
+        "example": "Stir the sugar into your tea.",
+        "note_en": ""
+      },
+      {
+        "word": "chop",
+        "pos": "verb",
+        "meaning_en": "to cut something into small pieces",
+        "meaning_ar": "يقطّع قطعاً صغيرة / يفرم",
+        "note_ar": "",
+        "example": "Chop the onions finely.",
+        "note_en": ""
+      },
+      {
+        "word": "slice",
+        "pos": "verb / noun",
+        "meaning_en": "to cut something into thin flat pieces; a thin flat piece",
+        "meaning_ar": "يقطّع شرائح / شريحة",
+        "note_ar": "a slice of pizza = شريحة بيتزا",
+        "example": "Slice the tomatoes for the sandwich.",
+        "note_en": "a slice of pizza = one thin flat piece of pizza"
+      },
+      {
+        "word": "mix",
+        "pos": "verb",
+        "meaning_en": "to put things together and combine them",
+        "meaning_ar": "يخلط",
+        "note_ar": "",
+        "example": "Mix the flour and the eggs in a bowl.",
+        "note_en": ""
+      },
+      {
+        "word": "recipe",
+        "pos": "noun",
+        "meaning_en": "instructions for cooking a dish",
+        "meaning_ar": "وصفة طبخ",
+        "note_ar": "تُنطق /ˈresəpi/ بثلاثة مقاطع",
+        "example": "Can you give me the recipe for this soup?",
+        "note_en": "Say /ˈresəpi/, with three syllables."
+      },
+      {
+        "word": "ingredient",
+        "pos": "noun",
+        "meaning_en": "one of the foods you use to make a dish",
+        "meaning_ar": "مكوّن",
+        "note_ar": "من اللاتينية: الأشياء التي «تدخل» في الطبخة",
+        "example": "You only need three ingredients for this cake.",
+        "note_en": "From Latin: the things that \"go into\" a dish."
+      },
+      {
+        "word": "tool",
+        "pos": "noun",
+        "meaning_en": "a thing you hold in your hand to do a job",
+        "meaning_ar": "أداة",
+        "note_ar": "",
+        "example": "A good knife is the most important kitchen tool.",
+        "note_en": ""
+      },
+      {
+        "word": "pan",
+        "pos": "noun",
+        "meaning_en": "a flat metal container for frying food",
+        "meaning_ar": "مقلاة / طاسة",
+        "note_ar": "frying pan = مقلاة",
+        "example": "Heat some oil in a pan.",
+        "note_en": "frying pan = a flat pan for frying"
+      },
+      {
+        "word": "pot",
+        "pos": "noun",
+        "meaning_en": "a deep round container for cooking",
+        "meaning_ar": "قِدر / حلّة",
+        "note_ar": "",
+        "example": "The soup is in the big pot.",
+        "note_en": ""
+      },
+      {
+        "word": "oven",
+        "pos": "noun",
+        "meaning_en": "a box-shaped machine that cooks food inside with heat",
+        "meaning_ar": "فرن",
+        "note_ar": "تُنطق /ˈʌvn/",
+        "example": "Put the bread in the oven for 20 minutes.",
+        "note_en": "Say /ˈʌvn/."
+      },
+      {
+        "word": "stove",
+        "pos": "noun",
+        "meaning_en": "the top part of a cooker where you put pots and pans",
+        "meaning_ar": "موقد / بوتاجاز",
+        "note_ar": "",
+        "example": "Don't leave the stove on.",
+        "note_en": ""
+      },
+      {
+        "word": "knife",
+        "pos": "noun",
+        "meaning_en": "a tool with a sharp blade for cutting",
+        "meaning_ar": "سكين",
+        "note_ar": "حرف k صامت، والجمع knives",
+        "example": "Be careful with that knife.",
+        "note_en": "The k is silent. Plural: knives."
+      },
+      {
+        "word": "cutting board",
+        "pos": "noun",
+        "meaning_en": "a flat board you cut food on",
+        "meaning_ar": "لوح التقطيع",
+        "note_ar": "",
+        "example": "Put the carrots on the cutting board.",
+        "note_en": ""
+      },
+      {
+        "word": "bowl",
+        "pos": "noun",
+        "meaning_en": "a deep round dish for mixing or eating",
+        "meaning_ar": "وعاء / سلطانية",
+        "note_ar": "",
+        "example": "Break the eggs into a bowl.",
+        "note_en": ""
+      },
+      {
+        "word": "whisk",
+        "pos": "noun / verb",
+        "meaning_en": "a kitchen tool for beating eggs or cream; to beat quickly",
+        "meaning_ar": "مضرب البيض / يخفق",
+        "note_ar": "",
+        "example": "Whisk the eggs until they are light.",
+        "note_en": ""
+      },
+      {
+        "word": "flavor",
+        "pos": "noun",
+        "meaning_en": "the special taste of food",
+        "meaning_ar": "نكهة",
+        "note_ar": "flavour بريطاني، flavor أمريكي",
+        "example": "This ice cream comes in ten flavors.",
+        "note_en": "\"Flavour\" is British, \"flavor\" is American."
+      },
+      {
+        "word": "extra",
+        "pos": "noun / adjective",
+        "meaning_en": "something added to what is usual",
+        "meaning_ar": "إضافة / إضافي",
+        "note_ar": "",
+        "example": "Cheese costs one dollar extra.",
+        "note_en": ""
+      },
+      {
+        "word": "salt",
+        "pos": "noun",
+        "meaning_en": "a white substance that makes food taste salty",
+        "meaning_ar": "ملح",
+        "note_ar": "",
+        "example": "Add a little salt to the water.",
+        "note_en": ""
+      },
+      {
+        "word": "pepper",
+        "pos": "noun",
+        "meaning_en": "a hot spice, usually black or white",
+        "meaning_ar": "فلفل (بهار)",
+        "note_ar": "",
+        "example": "Pass me the salt and pepper, please.",
+        "note_en": ""
+      },
+      {
+        "word": "oil",
+        "pos": "noun",
+        "meaning_en": "a thick liquid used in cooking",
+        "meaning_ar": "زيت",
+        "note_ar": "",
+        "example": "Don't use too much oil.",
+        "note_en": ""
+      },
+      {
+        "word": "sugar",
+        "pos": "noun",
+        "meaning_en": "a sweet white or brown substance",
+        "meaning_ar": "سكر",
+        "note_ar": "",
+        "example": "I take my coffee without sugar.",
+        "note_en": ""
+      },
+      {
+        "word": "spice / spices",
+        "pos": "noun",
+        "meaning_en": "a powder or seed that gives food a strong taste",
+        "meaning_ar": "تابِل / توابل",
+        "note_ar": "spice نوع واحد، و spices أنواع كثيرة معاً",
+        "example": "Cumin is my favorite spice.",
+        "note_en": "\"Spice\" is one kind; \"spices\" are many kinds together."
+      },
+      {
+        "word": "sauce",
+        "pos": "noun",
+        "meaning_en": "a thick liquid served with food",
+        "meaning_ar": "صلصة",
+        "note_ar": "",
+        "example": "Would you like tomato sauce with your fries?",
+        "note_en": ""
+      },
+      {
+        "word": "taste",
+        "pos": "noun / verb",
+        "meaning_en": "the flavor of food; to try a little food",
+        "meaning_ar": "طعم / يتذوّق",
+        "note_ar": "",
+        "example": "Taste the soup before you add salt.",
+        "note_en": ""
+      },
+      {
+        "word": "delicious",
+        "pos": "adjective",
+        "meaning_en": "having a very good taste",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "example": "This pasta is delicious!",
+        "note_en": ""
+      },
+      {
+        "word": "warn",
+        "pos": "verb",
+        "meaning_en": "to tell someone about a possible danger",
+        "meaning_ar": "يحذّر",
+        "note_ar": "الاسم: warning = تحذير",
+        "example": "The teacher warned us about the test.",
+        "note_en": "Noun: warning."
+      },
+      {
+        "word": "careful",
+        "pos": "adjective",
+        "meaning_en": "giving attention to avoid danger or mistakes",
+        "meaning_ar": "حَذِر",
+        "note_ar": "Careful! اختصار لـ Be careful!",
+        "example": "Careful! The pan is hot.",
+        "note_en": "\"Careful!\" is short for \"Be careful!\""
+      },
+      {
+        "word": "heat",
+        "pos": "verb",
+        "meaning_en": "to make something hot",
+        "meaning_ar": "يسخّن",
+        "note_ar": "",
+        "example": "Heat the milk but don't boil it.",
+        "note_en": ""
+      },
+      {
+        "word": "smoke",
+        "pos": "noun",
+        "meaning_en": "the gray gas that comes from something burning",
+        "meaning_ar": "دخان",
+        "note_ar": "",
+        "example": "The kitchen was full of smoke.",
+        "note_en": ""
+      },
+      {
+        "word": "explosion",
+        "pos": "noun",
+        "meaning_en": "a sudden loud burst, like a bomb",
+        "meaning_ar": "انفجار",
+        "note_ar": "الفعل: explode = ينفجر",
+        "example": "We heard a loud explosion.",
+        "note_en": "Verb: explode."
+      },
+      {
+        "word": "manage to",
+        "pos": "verb",
+        "meaning_en": "to succeed in doing something difficult",
+        "meaning_ar": "يتمكّن من",
+        "note_ar": "manager = مدير (من نفس الكلمة)",
+        "example": "I finally managed to open the jar.",
+        "note_en": "\"Manager\" comes from the same word."
+      },
+      {
+        "word": "somehow",
+        "pos": "adverb",
+        "meaning_en": "in a way that is not clear or known",
+        "meaning_ar": "بطريقةٍ ما",
+        "note_ar": "",
+        "example": "Somehow, we arrived on time.",
+        "note_en": ""
+      },
+      {
+        "word": "stay away from",
+        "pos": "phrasal verb",
+        "meaning_en": "to not go near someone or something",
+        "meaning_ar": "يبتعد عن",
+        "note_ar": "",
+        "example": "Stay away from the edge of the cliff.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "chop vs slice",
-        "words": ["chop", "slice"],
+        "words": [
+          "chop",
+          "slice"
+        ],
         "explanation_ar": "الاثنان بمعنى «يقطّع» لكن الشكل مختلف. chop يعني تقطيع الشيء إلى قطع صغيرة مثل المكعبات (البصل، الجزر). slice يعني تقطيعه إلى شرائح رقيقة مسطّحة، و slice نفسها تعني «شريحة».",
         "examples": [
-          {"word": "chop", "sentence": "Chop the onions into small pieces."},
-          {"word": "slice", "sentence": "Slice the tomatoes for the burger."},
-          {"word": "slice", "sentence": "Can I have another slice of pizza?"}
-        ]
+          {
+            "word": "chop",
+            "sentence": "Chop the onions into small pieces."
+          },
+          {
+            "word": "slice",
+            "sentence": "Slice the tomatoes for the burger."
+          },
+          {
+            "word": "slice",
+            "sentence": "Can I have another slice of pizza?"
+          }
+        ],
+        "explanation_en": "Both mean to cut, but the shape is different. \"Chop\" means to cut something into small pieces like cubes (onions, carrots). \"Slice\" means to cut it into thin, flat pieces; a \"slice\" is one of those pieces."
       },
       {
         "title": "bake vs roast",
-        "words": ["bake", "roast"],
+        "words": [
+          "bake",
+          "roast"
+        ],
         "explanation_ar": "الاثنان طهي في الفرن، والسرّ في القوام. bake للأشياء التي تدخل الفرن عجيناً أو سائلاً ليس لها شكل صلب، والفرن هو الذي يعطيها شكلها (خبز، كيك، بسكويت). roast للأشياء الصلبة أصلاً التي ندخلها الفرن لتنضج وتتحمّر (لحم، دجاج، بطاطس، خضار). لا نقول roast a cake ولا bake a chicken.",
         "examples": [
-          {"word": "bake", "sentence": "I baked a cake this morning."},
-          {"word": "bake", "sentence": "She bakes her own bread."},
-          {"word": "roast", "sentence": "We roasted a chicken with potatoes."}
-        ]
+          {
+            "word": "bake",
+            "sentence": "I baked a cake this morning."
+          },
+          {
+            "word": "bake",
+            "sentence": "She bakes her own bread."
+          },
+          {
+            "word": "roast",
+            "sentence": "We roasted a chicken with potatoes."
+          }
+        ],
+        "explanation_en": "Both mean cooking in the oven; the secret is the texture. \"Bake\" is for things that go in as dough or liquid with no solid shape, and the oven gives them their shape (bread, cake, cookies). \"Roast\" is for things that are already solid, which we put in the oven to cook and turn brown (meat, chicken, potatoes, vegetables). We don't say \"roast a cake\" or \"bake a chicken\"."
       },
       {
         "title": "at the end vs in the end",
-        "words": ["at the end", "in the end"],
+        "words": [
+          "at the end",
+          "in the end"
+        ],
         "explanation_ar": "at the end تعني «في نهاية شيء محدد» ويأتي بعدها غالباً of: at the end of the movie / street / month. أما in the end فتعني «في نهاية المطاف / أخيراً» بعد أحداث كثيرة، ولا يأتي بعدها of.",
         "examples": [
-          {"word": "at the end", "sentence": "The shop is at the end of the street."},
-          {"word": "in the end", "sentence": "We tried many restaurants, but in the end we ate at home."}
-        ]
+          {
+            "word": "at the end",
+            "sentence": "The shop is at the end of the street."
+          },
+          {
+            "word": "in the end",
+            "sentence": "We tried many restaurants, but in the end we ate at home."
+          }
+        ],
+        "explanation_en": "\"At the end\" means at the end of a specific thing, and is usually followed by \"of\": at the end of the movie / street / month. \"In the end\" means finally, after many things happened, and is not followed by \"of\"."
       },
       {
         "title": "has gone to vs has been to",
-        "words": ["has gone to", "has been to"],
+        "words": [
+          "has gone to",
+          "has been to"
+        ],
         "explanation_ar": "has gone to تعني أنه ذهب وما زال هناك ولم يرجع بعد. has been to تعني أنه ذهب إلى المكان من قبل ورجع، فهو ليس هناك الآن.",
         "examples": [
-          {"word": "has gone to", "sentence": "Ali isn't here. He has gone to the supermarket."},
-          {"word": "has been to", "sentence": "I have been to that restaurant many times."}
-        ]
+          {
+            "word": "has gone to",
+            "sentence": "Ali isn't here. He has gone to the supermarket."
+          },
+          {
+            "word": "has been to",
+            "sentence": "I have been to that restaurant many times."
+          }
+        ],
+        "explanation_en": "\"Has gone to\" means he went there and is still there; he hasn't come back yet. \"Has been to\" means he went there before and came back, so he is not there now."
       },
       {
         "title": "filled with vs full of",
-        "words": ["filled with", "full of"],
+        "words": [
+          "filled with",
+          "full of"
+        ],
         "explanation_ar": "لا فرق حقيقي بينهما في المعنى أو الاستخدام. filled with بصيغة المبني للمجهول، و full of صفة، ويمكنك استخدام أيٍّ منهما: The room filled with smoke / The room was full of smoke.",
         "examples": [
-          {"word": "filled with", "sentence": "Her eyes filled with tears."},
-          {"word": "full of", "sentence": "Her eyes were full of tears."}
-        ]
+          {
+            "word": "filled with",
+            "sentence": "Her eyes filled with tears."
+          },
+          {
+            "word": "full of",
+            "sentence": "Her eyes were full of tears."
+          }
+        ],
+        "explanation_en": "There is no real difference in meaning or use. \"Filled with\" is a passive form and \"full of\" is an adjective, and you can use either: The room filled with smoke / The room was full of smoke."
       }
     ],
     "expressions": [
-      {"phrase": "out of the frying pan, into the fire", "meaning_ar": "خرج من مشكلة ليقع في مشكلة أسوأ (كالمستجير من الرمضاء بالنار)", "example": "He left his stressful job for one with lower pay and longer hours: out of the frying pan, into the fire."},
-      {"phrase": "it's either ... or ...", "meaning_ar": "إمّا ... أو ...", "example": "It's either a barbecue or an explosion!"},
-      {"phrase": "follow a recipe", "meaning_ar": "يتّبع وصفة الطبخ", "example": "I always follow the recipe carefully."},
-      {"phrase": "manage to do something", "meaning_ar": "يتمكّن من فعل شيء", "example": "They managed to cook a delicious dish."},
-      {"phrase": "stay away from", "meaning_ar": "يبتعد عن", "example": "You should stay away from the knives!"},
-      {"phrase": "Careful!", "meaning_ar": "انتبه! / احذر! (اختصار Be careful)", "example": "Careful! The floor is wet."}
+      {
+        "phrase": "out of the frying pan, into the fire",
+        "meaning_ar": "خرج من مشكلة ليقع في مشكلة أسوأ (كالمستجير من الرمضاء بالنار)",
+        "example": "He left his stressful job for one with lower pay and longer hours: out of the frying pan, into the fire.",
+        "meaning_en": "to escape one problem and fall into a worse one"
+      },
+      {
+        "phrase": "it's either ... or ...",
+        "meaning_ar": "إمّا ... أو ...",
+        "example": "It's either a barbecue or an explosion!",
+        "meaning_en": "only two choices: one thing or the other"
+      },
+      {
+        "phrase": "follow a recipe",
+        "meaning_ar": "يتّبع وصفة الطبخ",
+        "example": "I always follow the recipe carefully.",
+        "meaning_en": "to do the steps of a recipe as written"
+      },
+      {
+        "phrase": "manage to do something",
+        "meaning_ar": "يتمكّن من فعل شيء",
+        "example": "They managed to cook a delicious dish.",
+        "meaning_en": "to succeed in doing something difficult"
+      },
+      {
+        "phrase": "stay away from",
+        "meaning_ar": "يبتعد عن",
+        "example": "You should stay away from the knives!",
+        "meaning_en": "to keep a distance from something; to avoid it"
+      },
+      {
+        "phrase": "Careful!",
+        "meaning_ar": "انتبه! / احذر! (اختصار Be careful)",
+        "example": "Careful! The floor is wet.",
+        "meaning_en": "Be careful! / Watch out!"
+      }
     ],
     "grammar": [
       {
@@ -109,7 +515,8 @@
           "I ate an apple, and Maya (ate) a pear.",
           "She has read the book, but I haven't (read the book).",
           "(Do you) Want some tea? / (I) Don't know."
-        ]
+        ],
+        "explanation_en": "Ellipsis means leaving out words that are clear from the context, to avoid repeating them. 1) We leave out a repeated verb in the second part of the sentence. 2) We leave out everything after the helping verb; this is very common in comparisons. 3) In informal everyday speech we drop the subject (and sometimes the helping verb) at the start of a sentence."
       },
       {
         "title": "Present perfect: been to vs gone to",
@@ -118,7 +525,8 @@
           "Ahmed has gone to London. (He is there now.)",
           "Ahmed has been to London. (He went and came back.)",
           "Where's Ali? He has gone to the shop."
-        ]
+        ],
+        "explanation_en": "With the present perfect: have/has gone to = went there and is still there. have/has been to = went there before and came back. If the person is standing in front of you now, don't say \"He has gone to London.\""
       },
       {
         "title": "One article for joined nouns",
@@ -127,20 +535,131 @@
           "the pan and cutting board",
           "the knife and fork",
           "the mom and dad"
-        ]
+        ],
+        "explanation_en": "When we join two related nouns, we only need to say \"the\" once: the pan and cutting board, the knife and fork."
       }
     ]
   },
   "questions": [
-    {"question": "To cut onions into very small pieces is to ___ them.", "choices": ["slice", "stir", "chop", "whisk"], "answer": 2, "explanation_ar": "chop = يقطّع قطعاً صغيرة، و slice = شرائح."},
-    {"question": "Which is correct?", "choices": ["I baked a cake.", "I roasted a cake.", "I boiled a cake.", "I chopped a cake in the oven."], "answer": 0, "explanation_ar": "الكيك يدخل الفرن عجيناً، فنستخدم bake."},
-    {"question": "We ___ a chicken with potatoes in the oven.", "choices": ["baked", "whisked", "stirred", "roasted"], "answer": 3, "explanation_ar": "الدجاج له قوام صلب أصلاً، فنستخدم roast."},
-    {"question": "Ali isn't home. He ___ to the supermarket.", "choices": ["has been", "has gone", "have gone", "is been"], "answer": 1, "explanation_ar": "ذهب وما زال هناك: has gone to."},
-    {"question": "I know that café. I ___ there many times.", "choices": ["have been", "have gone", "has been", "am gone"], "answer": 0, "explanation_ar": "سبق أن ذهبت ورجعت: have been."},
-    {"question": "We tried many plans, but ___ we stayed at home.", "choices": ["at the end of", "in the end", "at end", "in the end of"], "answer": 1, "explanation_ar": "in the end = في نهاية المطاف، بدون of."},
-    {"question": "\"Out of the frying pan, into the fire\" means:", "choices": ["cooking very fast", "going from a bad situation to a worse one", "burning the food", "leaving the kitchen"], "answer": 1, "explanation_ar": "الخروج من موقف سيئ إلى موقف أسوأ."},
-    {"question": "Which tool do you use to beat eggs?", "choices": ["pot", "oven", "cutting board", "whisk"], "answer": 3, "explanation_ar": "whisk = مضرب البيض."},
-    {"question": "\"She has read the book, but I haven't.\" What is left out after \"haven't\"?", "choices": ["read the book", "has", "she", "but"], "answer": 0, "explanation_ar": "حذفنا كل ما بعد الفعل المساعد: haven't (read the book)."},
-    {"question": "A list of steps and ingredients for cooking a dish is a:", "choices": ["receipt", "recipe", "reception", "menu"], "answer": 1, "explanation_ar": "recipe = وصفة الطبخ."}
+    {
+      "question": "To cut onions into very small pieces is to ___ them.",
+      "choices": [
+        "slice",
+        "stir",
+        "chop",
+        "whisk"
+      ],
+      "answer": 2,
+      "explanation_ar": "chop = يقطّع قطعاً صغيرة، و slice = شرائح.",
+      "explanation_en": "To chop = to cut into small pieces; to slice = to cut into thin pieces."
+    },
+    {
+      "question": "Which is correct?",
+      "choices": [
+        "I baked a cake.",
+        "I roasted a cake.",
+        "I boiled a cake.",
+        "I chopped a cake in the oven."
+      ],
+      "answer": 0,
+      "explanation_ar": "الكيك يدخل الفرن عجيناً، فنستخدم bake.",
+      "explanation_en": "A cake goes into the oven as a batter, so we use \"bake\"."
+    },
+    {
+      "question": "We ___ a chicken with potatoes in the oven.",
+      "choices": [
+        "baked",
+        "whisked",
+        "stirred",
+        "roasted"
+      ],
+      "answer": 3,
+      "explanation_ar": "الدجاج له قوام صلب أصلاً، فنستخدم roast.",
+      "explanation_en": "A chicken is already solid, so we use \"roast\"."
+    },
+    {
+      "question": "Ali isn't home. He ___ to the supermarket.",
+      "choices": [
+        "has been",
+        "has gone",
+        "have gone",
+        "is been"
+      ],
+      "answer": 1,
+      "explanation_ar": "ذهب وما زال هناك: has gone to.",
+      "explanation_en": "He went and he is still there: has gone to."
+    },
+    {
+      "question": "I know that café. I ___ there many times.",
+      "choices": [
+        "have been",
+        "have gone",
+        "has been",
+        "am gone"
+      ],
+      "answer": 0,
+      "explanation_ar": "سبق أن ذهبت ورجعت: have been.",
+      "explanation_en": "I went there before and came back: have been."
+    },
+    {
+      "question": "We tried many plans, but ___ we stayed at home.",
+      "choices": [
+        "at the end of",
+        "in the end",
+        "at end",
+        "in the end of"
+      ],
+      "answer": 1,
+      "explanation_ar": "in the end = في نهاية المطاف، بدون of.",
+      "explanation_en": "\"In the end\" = finally, after everything; no \"of\" after it."
+    },
+    {
+      "question": "\"Out of the frying pan, into the fire\" means:",
+      "choices": [
+        "cooking very fast",
+        "going from a bad situation to a worse one",
+        "burning the food",
+        "leaving the kitchen"
+      ],
+      "answer": 1,
+      "explanation_ar": "الخروج من موقف سيئ إلى موقف أسوأ.",
+      "explanation_en": "Going from a bad situation into a worse one."
+    },
+    {
+      "question": "Which tool do you use to beat eggs?",
+      "choices": [
+        "pot",
+        "oven",
+        "cutting board",
+        "whisk"
+      ],
+      "answer": 3,
+      "explanation_ar": "whisk = مضرب البيض.",
+      "explanation_en": "A whisk is a kitchen tool for beating eggs."
+    },
+    {
+      "question": "\"She has read the book, but I haven't.\" What is left out after \"haven't\"?",
+      "choices": [
+        "read the book",
+        "has",
+        "she",
+        "but"
+      ],
+      "answer": 0,
+      "explanation_ar": "حذفنا كل ما بعد الفعل المساعد: haven't (read the book).",
+      "explanation_en": "We left out everything after the helping verb: haven't (read the book)."
+    },
+    {
+      "question": "A list of steps and ingredients for cooking a dish is a:",
+      "choices": [
+        "receipt",
+        "recipe",
+        "reception",
+        "menu"
+      ],
+      "answer": 1,
+      "explanation_ar": "recipe = وصفة الطبخ.",
+      "explanation_en": "A recipe = the instructions for cooking a dish."
+    }
   ]
 }

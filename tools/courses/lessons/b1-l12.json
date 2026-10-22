@@ -2,90 +2,467 @@
   "title": "At the Café",
   "content": {
     "vocabulary": [
-      {"word": "hot drinks", "pos": "noun", "meaning_en": "drinks that are served hot", "meaning_ar": "مشروبات ساخنة", "note_ar": "", "example": "Hot drinks are cheaper before 10 a.m."},
-      {"word": "tea", "pos": "noun", "meaning_en": "a hot drink made from dried leaves", "meaning_ar": "شاي", "note_ar": "", "example": "Would you like a cup of tea?"},
-      {"word": "hot chocolate", "pos": "noun", "meaning_en": "a hot drink made with chocolate and milk", "meaning_ar": "شوكولاتة ساخنة", "note_ar": "", "example": "Kids love hot chocolate in winter."},
-      {"word": "coffee", "pos": "noun", "meaning_en": "a hot drink made from roasted coffee beans", "meaning_ar": "قهوة", "note_ar": "", "example": "I can't start my day without coffee."},
-      {"word": "espresso", "pos": "noun", "meaning_en": "very strong black coffee in a small cup", "meaning_ar": "إسبريسو", "note_ar": "تُكتب بحرف s وليس x", "example": "He drinks a quick espresso after lunch."},
-      {"word": "cappuccino", "pos": "noun", "meaning_en": "coffee with hot milk and a lot of milk foam", "meaning_ar": "كابتشينو", "note_ar": "فيه رغوة أكثر من اللاتيه", "example": "A cappuccino with cinnamon, please."},
-      {"word": "latte", "pos": "noun", "meaning_en": "coffee with a lot of hot milk and a little foam", "meaning_ar": "لاتيه", "note_ar": "حليب أكثر ورغوة أقل من الكابتشينو", "example": "She ordered an iced latte."},
-      {"word": "cold drinks", "pos": "noun", "meaning_en": "drinks that are served cold", "meaning_ar": "مشروبات باردة", "note_ar": "", "example": "The fridge is full of cold drinks."},
-      {"word": "juice", "pos": "noun", "meaning_en": "the liquid from fruit or vegetables", "meaning_ar": "عصير", "note_ar": "", "example": "A glass of orange juice, please."},
-      {"word": "lemonade", "pos": "noun", "meaning_en": "a sweet drink made with lemon, sugar and water", "meaning_ar": "ليموناضة", "note_ar": "lemon juice = عصير الليمون الصافي فقط", "example": "Cold lemonade is perfect in summer."},
-      {"word": "soda", "pos": "noun", "meaning_en": "a sweet fizzy drink", "meaning_ar": "مشروب غازي", "note_ar": "", "example": "Try to drink less soda."},
-      {"word": "milkshake", "pos": "noun", "meaning_en": "a cold drink of milk mixed with ice cream or fruit", "meaning_ar": "ميلك شيك", "note_ar": "", "example": "I'd like a strawberry milkshake."},
-      {"word": "smoothie", "pos": "noun", "meaning_en": "a thick drink of fruit blended with yogurt or milk", "meaning_ar": "سموذي", "note_ar": "", "example": "A mango smoothie is a healthy snack."},
-      {"word": "iced tea", "pos": "noun", "meaning_en": "cold tea served with ice", "meaning_ar": "شاي مثلّج", "note_ar": "حرف d لا يكاد يُسمع: تُنطق كأنها ice tea", "example": "Can I have an iced tea with lemon?"},
-      {"word": "alcoholic drinks", "pos": "noun", "meaning_en": "drinks that contain alcohol", "meaning_ar": "مشروبات كحولية", "note_ar": "مهمّة لتعرف مكوّنات الطعام والشراب عند السفر", "example": "This café does not serve alcoholic drinks."},
-      {"word": "wine", "pos": "noun", "meaning_en": "an alcoholic drink made from grapes", "meaning_ar": "نبيذ", "note_ar": "", "example": "Check the sauce; some recipes use wine."},
-      {"word": "beer", "pos": "noun", "meaning_en": "an alcoholic drink made from grain", "meaning_ar": "بيرة / جِعة", "note_ar": "", "example": "The label says \"alcohol-free beer\"."},
-      {"word": "cocktail", "pos": "noun", "meaning_en": "a mixed drink, often with alcohol", "meaning_ar": "كوكتيل", "note_ar": "يوجد أيضاً fruit cocktail = خليط فواكه", "example": "Ask if the cocktail has alcohol in it."},
-      {"word": "champagne", "pos": "noun", "meaning_en": "a fizzy alcoholic drink from France", "meaning_ar": "شمبانيا", "note_ar": "ch تُنطق /ʃ/", "example": "The winners sprayed champagne on the stage."},
-      {"word": "containers", "pos": "noun", "meaning_en": "things that hold other things", "meaning_ar": "حاويات / أوعية", "note_ar": "", "example": "Keep the food in plastic containers."},
-      {"word": "cup", "pos": "noun", "meaning_en": "a small container with a handle for hot drinks", "meaning_ar": "فنجان / كوب", "note_ar": "", "example": "She drank two cups of tea."},
-      {"word": "glass", "pos": "noun", "meaning_en": "a container made of glass for cold drinks", "meaning_ar": "كأس / كوب زجاجي", "note_ar": "", "example": "Can I have a glass of water?"},
-      {"word": "mug", "pos": "noun", "meaning_en": "a large cup with straight sides and a handle", "meaning_ar": "مَج / كوب كبير", "note_ar": "", "example": "He drinks coffee from a big blue mug."},
-      {"word": "straw", "pos": "noun", "meaning_en": "a thin tube for drinking", "meaning_ar": "شفّاطة / مصّاصة", "note_ar": "", "example": "Paper straws are better for the environment."},
-      {"word": "bottle", "pos": "noun", "meaning_en": "a glass or plastic container with a narrow neck", "meaning_ar": "زجاجة", "note_ar": "", "example": "I always carry a bottle of water."},
-      {"word": "can", "pos": "noun", "meaning_en": "a metal container for drinks or food", "meaning_ar": "علبة (معدنية)", "note_ar": "", "example": "He opened a can of soda."},
-      {"word": "jug", "pos": "noun", "meaning_en": "a large container with a handle for pouring", "meaning_ar": "إبريق", "note_ar": "", "example": "There's a jug of water on the table."},
-      {"word": "logical", "pos": "adjective", "meaning_en": "sensible and reasonable", "meaning_ar": "منطقي", "note_ar": "العكس: illogical = غير منطقي", "example": "That's a logical answer."},
-      {"word": "irrational", "pos": "adjective", "meaning_en": "not based on clear thinking", "meaning_ar": "غير عقلاني", "note_ar": "العكس: rational = عقلاني", "example": "Her fear of cats is irrational."},
-      {"word": "fancy", "pos": "adjective", "meaning_en": "special, expensive or decorated", "meaning_ar": "فاخر / مُتقَن", "note_ar": "", "example": "We had dinner at a fancy hotel."},
-      {"word": "serve", "pos": "verb", "meaning_en": "to give food or drinks to people; to work for", "meaning_ar": "يقدّم (الطعام) / يخدم", "note_ar": "serve in the army = يخدم في الجيش", "example": "This restaurant serves Italian food."},
-      {"word": "balance", "pos": "verb", "meaning_en": "to keep something steady so it does not fall", "meaning_ar": "يوازن", "note_ar": "", "example": "The waiter balanced four plates on his arm."},
-      {"word": "carefully", "pos": "adverb", "meaning_en": "with attention, to avoid mistakes or danger", "meaning_ar": "بحذر / بعناية", "note_ar": "careful → carefully", "example": "Carry the glasses carefully."},
-      {"word": "refuse", "pos": "verb", "meaning_en": "to say no to something", "meaning_ar": "يرفض", "note_ar": "refuse to + فعل", "example": "He refused to share his dessert."},
-      {"word": "shout", "pos": "verb", "meaning_en": "to say something very loudly", "meaning_ar": "يصرخ / يصيح", "note_ar": "أخفّ من scream", "example": "Don't shout, I can hear you."},
-      {"word": "faint", "pos": "verb", "meaning_en": "to lose consciousness for a short time", "meaning_ar": "يُغمى عليه", "note_ar": "كلمة طبية", "example": "She fainted when she saw the blood."},
-      {"word": "pass out", "pos": "phrasal verb", "meaning_en": "to lose consciousness; (informal) to fall asleep from tiredness", "meaning_ar": "يفقد الوعي / ينام من شدة التعب", "note_ar": "غير رسمية", "example": "He passed out on the sofa after work."},
-      {"word": "sip", "pos": "verb / noun", "meaning_en": "to drink slowly in very small amounts", "meaning_ar": "يرتشف / رشفة", "note_ar": "", "example": "She sipped her hot tea."},
-      {"word": "gulp", "pos": "verb", "meaning_en": "to drink or swallow quickly in large amounts", "meaning_ar": "يبلع بسرعة / يجرع", "note_ar": "", "example": "He gulped the water after his run."}
+      {
+        "word": "hot drinks",
+        "pos": "noun",
+        "meaning_en": "drinks that are served hot",
+        "meaning_ar": "مشروبات ساخنة",
+        "note_ar": "",
+        "example": "Hot drinks are cheaper before 10 a.m.",
+        "note_en": ""
+      },
+      {
+        "word": "tea",
+        "pos": "noun",
+        "meaning_en": "a hot drink made from dried leaves",
+        "meaning_ar": "شاي",
+        "note_ar": "",
+        "example": "Would you like a cup of tea?",
+        "note_en": ""
+      },
+      {
+        "word": "hot chocolate",
+        "pos": "noun",
+        "meaning_en": "a hot drink made with chocolate and milk",
+        "meaning_ar": "شوكولاتة ساخنة",
+        "note_ar": "",
+        "example": "Kids love hot chocolate in winter.",
+        "note_en": ""
+      },
+      {
+        "word": "coffee",
+        "pos": "noun",
+        "meaning_en": "a hot drink made from roasted coffee beans",
+        "meaning_ar": "قهوة",
+        "note_ar": "",
+        "example": "I can't start my day without coffee.",
+        "note_en": ""
+      },
+      {
+        "word": "espresso",
+        "pos": "noun",
+        "meaning_en": "very strong black coffee in a small cup",
+        "meaning_ar": "إسبريسو",
+        "note_ar": "تُكتب بحرف s وليس x",
+        "example": "He drinks a quick espresso after lunch.",
+        "note_en": "Spelled with an s, not an x (not \"expresso\")."
+      },
+      {
+        "word": "cappuccino",
+        "pos": "noun",
+        "meaning_en": "coffee with hot milk and a lot of milk foam",
+        "meaning_ar": "كابتشينو",
+        "note_ar": "فيه رغوة أكثر من اللاتيه",
+        "example": "A cappuccino with cinnamon, please.",
+        "note_en": "It has more foam than a latte."
+      },
+      {
+        "word": "latte",
+        "pos": "noun",
+        "meaning_en": "coffee with a lot of hot milk and a little foam",
+        "meaning_ar": "لاتيه",
+        "note_ar": "حليب أكثر ورغوة أقل من الكابتشينو",
+        "example": "She ordered an iced latte.",
+        "note_en": "More milk and less foam than a cappuccino."
+      },
+      {
+        "word": "cold drinks",
+        "pos": "noun",
+        "meaning_en": "drinks that are served cold",
+        "meaning_ar": "مشروبات باردة",
+        "note_ar": "",
+        "example": "The fridge is full of cold drinks.",
+        "note_en": ""
+      },
+      {
+        "word": "juice",
+        "pos": "noun",
+        "meaning_en": "the liquid from fruit or vegetables",
+        "meaning_ar": "عصير",
+        "note_ar": "",
+        "example": "A glass of orange juice, please.",
+        "note_en": ""
+      },
+      {
+        "word": "lemonade",
+        "pos": "noun",
+        "meaning_en": "a sweet drink made with lemon, sugar and water",
+        "meaning_ar": "ليموناضة",
+        "note_ar": "lemon juice = عصير الليمون الصافي فقط",
+        "example": "Cold lemonade is perfect in summer.",
+        "note_en": "\"Lemon juice\" is only the pure juice of lemons."
+      },
+      {
+        "word": "soda",
+        "pos": "noun",
+        "meaning_en": "a sweet fizzy drink",
+        "meaning_ar": "مشروب غازي",
+        "note_ar": "",
+        "example": "Try to drink less soda.",
+        "note_en": ""
+      },
+      {
+        "word": "milkshake",
+        "pos": "noun",
+        "meaning_en": "a cold drink of milk mixed with ice cream or fruit",
+        "meaning_ar": "ميلك شيك",
+        "note_ar": "",
+        "example": "I'd like a strawberry milkshake.",
+        "note_en": ""
+      },
+      {
+        "word": "smoothie",
+        "pos": "noun",
+        "meaning_en": "a thick drink of fruit blended with yogurt or milk",
+        "meaning_ar": "سموذي",
+        "note_ar": "",
+        "example": "A mango smoothie is a healthy snack.",
+        "note_en": ""
+      },
+      {
+        "word": "iced tea",
+        "pos": "noun",
+        "meaning_en": "cold tea served with ice",
+        "meaning_ar": "شاي مثلّج",
+        "note_ar": "حرف d لا يكاد يُسمع: تُنطق كأنها ice tea",
+        "example": "Can I have an iced tea with lemon?",
+        "note_en": "The d is hardly heard: it sounds like \"ice tea\"."
+      },
+      {
+        "word": "alcoholic drinks",
+        "pos": "noun",
+        "meaning_en": "drinks that contain alcohol",
+        "meaning_ar": "مشروبات كحولية",
+        "note_ar": "مهمّة لتعرف مكوّنات الطعام والشراب عند السفر",
+        "example": "This café does not serve alcoholic drinks.",
+        "note_en": "Useful for checking what is in food and drinks when you travel."
+      },
+      {
+        "word": "wine",
+        "pos": "noun",
+        "meaning_en": "an alcoholic drink made from grapes",
+        "meaning_ar": "نبيذ",
+        "note_ar": "",
+        "example": "Check the sauce; some recipes use wine.",
+        "note_en": ""
+      },
+      {
+        "word": "beer",
+        "pos": "noun",
+        "meaning_en": "an alcoholic drink made from grain",
+        "meaning_ar": "بيرة / جِعة",
+        "note_ar": "",
+        "example": "The label says \"alcohol-free beer\".",
+        "note_en": ""
+      },
+      {
+        "word": "cocktail",
+        "pos": "noun",
+        "meaning_en": "a mixed drink, often with alcohol",
+        "meaning_ar": "كوكتيل",
+        "note_ar": "يوجد أيضاً fruit cocktail = خليط فواكه",
+        "example": "Ask if the cocktail has alcohol in it.",
+        "note_en": "There is also \"fruit cocktail\" = a mix of chopped fruit."
+      },
+      {
+        "word": "champagne",
+        "pos": "noun",
+        "meaning_en": "a fizzy alcoholic drink from France",
+        "meaning_ar": "شمبانيا",
+        "note_ar": "ch تُنطق /ʃ/",
+        "example": "The winners sprayed champagne on the stage.",
+        "note_en": "\"ch\" is said /ʃ/ (like \"sh\")."
+      },
+      {
+        "word": "containers",
+        "pos": "noun",
+        "meaning_en": "things that hold other things",
+        "meaning_ar": "حاويات / أوعية",
+        "note_ar": "",
+        "example": "Keep the food in plastic containers.",
+        "note_en": ""
+      },
+      {
+        "word": "cup",
+        "pos": "noun",
+        "meaning_en": "a small container with a handle for hot drinks",
+        "meaning_ar": "فنجان / كوب",
+        "note_ar": "",
+        "example": "She drank two cups of tea.",
+        "note_en": ""
+      },
+      {
+        "word": "glass",
+        "pos": "noun",
+        "meaning_en": "a container made of glass for cold drinks",
+        "meaning_ar": "كأس / كوب زجاجي",
+        "note_ar": "",
+        "example": "Can I have a glass of water?",
+        "note_en": ""
+      },
+      {
+        "word": "mug",
+        "pos": "noun",
+        "meaning_en": "a large cup with straight sides and a handle",
+        "meaning_ar": "مَج / كوب كبير",
+        "note_ar": "",
+        "example": "He drinks coffee from a big blue mug.",
+        "note_en": ""
+      },
+      {
+        "word": "straw",
+        "pos": "noun",
+        "meaning_en": "a thin tube for drinking",
+        "meaning_ar": "شفّاطة / مصّاصة",
+        "note_ar": "",
+        "example": "Paper straws are better for the environment.",
+        "note_en": ""
+      },
+      {
+        "word": "bottle",
+        "pos": "noun",
+        "meaning_en": "a glass or plastic container with a narrow neck",
+        "meaning_ar": "زجاجة",
+        "note_ar": "",
+        "example": "I always carry a bottle of water.",
+        "note_en": ""
+      },
+      {
+        "word": "can",
+        "pos": "noun",
+        "meaning_en": "a metal container for drinks or food",
+        "meaning_ar": "علبة (معدنية)",
+        "note_ar": "",
+        "example": "He opened a can of soda.",
+        "note_en": ""
+      },
+      {
+        "word": "jug",
+        "pos": "noun",
+        "meaning_en": "a large container with a handle for pouring",
+        "meaning_ar": "إبريق",
+        "note_ar": "",
+        "example": "There's a jug of water on the table.",
+        "note_en": ""
+      },
+      {
+        "word": "logical",
+        "pos": "adjective",
+        "meaning_en": "sensible and reasonable",
+        "meaning_ar": "منطقي",
+        "note_ar": "العكس: illogical = غير منطقي",
+        "example": "That's a logical answer.",
+        "note_en": "Opposite: illogical."
+      },
+      {
+        "word": "irrational",
+        "pos": "adjective",
+        "meaning_en": "not based on clear thinking",
+        "meaning_ar": "غير عقلاني",
+        "note_ar": "العكس: rational = عقلاني",
+        "example": "Her fear of cats is irrational.",
+        "note_en": "Opposite: rational."
+      },
+      {
+        "word": "fancy",
+        "pos": "adjective",
+        "meaning_en": "special, expensive or decorated",
+        "meaning_ar": "فاخر / مُتقَن",
+        "note_ar": "",
+        "example": "We had dinner at a fancy hotel.",
+        "note_en": ""
+      },
+      {
+        "word": "serve",
+        "pos": "verb",
+        "meaning_en": "to give food or drinks to people; to work for",
+        "meaning_ar": "يقدّم (الطعام) / يخدم",
+        "note_ar": "serve in the army = يخدم في الجيش",
+        "example": "This restaurant serves Italian food.",
+        "note_en": "\"Serve in the army\" = to work as a soldier."
+      },
+      {
+        "word": "balance",
+        "pos": "verb",
+        "meaning_en": "to keep something steady so it does not fall",
+        "meaning_ar": "يوازن",
+        "note_ar": "",
+        "example": "The waiter balanced four plates on his arm.",
+        "note_en": ""
+      },
+      {
+        "word": "carefully",
+        "pos": "adverb",
+        "meaning_en": "with attention, to avoid mistakes or danger",
+        "meaning_ar": "بحذر / بعناية",
+        "note_ar": "careful → carefully",
+        "example": "Carry the glasses carefully.",
+        "note_en": "careful → carefully"
+      },
+      {
+        "word": "refuse",
+        "pos": "verb",
+        "meaning_en": "to say no to something",
+        "meaning_ar": "يرفض",
+        "note_ar": "refuse to + فعل",
+        "example": "He refused to share his dessert.",
+        "note_en": "refuse to + verb"
+      },
+      {
+        "word": "shout",
+        "pos": "verb",
+        "meaning_en": "to say something very loudly",
+        "meaning_ar": "يصرخ / يصيح",
+        "note_ar": "أخفّ من scream",
+        "example": "Don't shout, I can hear you.",
+        "note_en": "Softer than \"scream\"."
+      },
+      {
+        "word": "faint",
+        "pos": "verb",
+        "meaning_en": "to lose consciousness for a short time",
+        "meaning_ar": "يُغمى عليه",
+        "note_ar": "كلمة طبية",
+        "example": "She fainted when she saw the blood.",
+        "note_en": "A medical word."
+      },
+      {
+        "word": "pass out",
+        "pos": "phrasal verb",
+        "meaning_en": "to lose consciousness; (informal) to fall asleep from tiredness",
+        "meaning_ar": "يفقد الوعي / ينام من شدة التعب",
+        "note_ar": "غير رسمية",
+        "example": "He passed out on the sofa after work.",
+        "note_en": "Informal."
+      },
+      {
+        "word": "sip",
+        "pos": "verb / noun",
+        "meaning_en": "to drink slowly in very small amounts",
+        "meaning_ar": "يرتشف / رشفة",
+        "note_ar": "",
+        "example": "She sipped her hot tea.",
+        "note_en": ""
+      },
+      {
+        "word": "gulp",
+        "pos": "verb",
+        "meaning_en": "to drink or swallow quickly in large amounts",
+        "meaning_ar": "يبلع بسرعة / يجرع",
+        "note_ar": "",
+        "example": "He gulped the water after his run.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "faint vs pass out",
-        "words": ["faint", "pass out"],
+        "words": [
+          "faint",
+          "pass out"
+        ],
         "explanation_ar": "faint كلمة طبية تعني الإغماء عندما لا يصل الدم إلى المخ بشكل كافٍ (مثلاً عند رؤية الدم أو هبوط السكر). pass out لها استخدامان: الأول نفس معنى faint لكن بشكل غير رسمي، والثاني مجازي: أن ينام شخص فوراً من شدة الإرهاق كأنه فقد الوعي.",
         "examples": [
-          {"word": "faint", "sentence": "He fainted because his blood sugar was low."},
-          {"word": "pass out", "sentence": "After 16 hours of work, she passed out on the sofa."}
-        ]
+          {
+            "word": "faint",
+            "sentence": "He fainted because his blood sugar was low."
+          },
+          {
+            "word": "pass out",
+            "sentence": "After 16 hours of work, she passed out on the sofa."
+          }
+        ],
+        "explanation_en": "\"Faint\" is a medical word for suddenly losing consciousness when not enough blood reaches the brain (for example, when seeing blood or with low blood sugar). \"Pass out\" has two uses: first, the same meaning as \"faint\" but informal; second, to fall asleep immediately because you are extremely tired, as if you lost consciousness."
       },
       {
         "title": "sip vs gulp",
-        "words": ["sip", "gulp"],
+        "words": [
+          "sip",
+          "gulp"
+        ],
         "explanation_ar": "sip أن تشرب ببطء كميات صغيرة جداً (رشفة)، كما نفعل مع الشاي أو القهوة الساخنة أو مشروب نستمتع به. gulp أن تبلع كميات كبيرة بسرعة، كما يفعل العطشان جداً بعد التمرين.",
         "examples": [
-          {"word": "sip", "sentence": "He sipped his coffee slowly."},
-          {"word": "gulp", "sentence": "She gulped down a whole bottle of water."}
-        ]
+          {
+            "word": "sip",
+            "sentence": "He sipped his coffee slowly."
+          },
+          {
+            "word": "gulp",
+            "sentence": "She gulped down a whole bottle of water."
+          }
+        ],
+        "explanation_en": "To \"sip\" is to drink slowly in very small amounts, as we do with hot tea or coffee or a drink we enjoy. To \"gulp\" is to swallow large amounts quickly, as a very thirsty person does after exercise."
       },
       {
         "title": "cappuccino vs latte",
-        "words": ["cappuccino", "latte"],
+        "words": [
+          "cappuccino",
+          "latte"
+        ],
         "explanation_ar": "الاثنان إسبريسو مع حليب ورغوة. الكابتشينو فيه رغوة أكثر (تقريباً ثلث إسبريسو وثلث حليب وثلث رغوة)، أما اللاتيه ففيه حليب أكثر ورغوة أقل.",
         "examples": [
-          {"word": "cappuccino", "sentence": "I like the thick foam on my cappuccino."},
-          {"word": "latte", "sentence": "A latte is milder because it has more milk."}
-        ]
+          {
+            "word": "cappuccino",
+            "sentence": "I like the thick foam on my cappuccino."
+          },
+          {
+            "word": "latte",
+            "sentence": "A latte is milder because it has more milk."
+          }
+        ],
+        "explanation_en": "Both are espresso with milk and foam. A cappuccino has more foam (about one third espresso, one third milk, one third foam), while a latte has more milk and less foam."
       },
       {
         "title": "lemonade vs lemon juice",
-        "words": ["lemonade", "lemon juice"],
+        "words": [
+          "lemonade",
+          "lemon juice"
+        ],
         "explanation_ar": "lemon juice هو عصير الليمون الصافي بعد عصره مباشرة. lemonade هي الليموناضة المحلّاة بالسكر والماء أو إضافات أخرى تقلّل حموضتها. إذا أردت مشروباً فاطلب lemonade.",
         "examples": [
-          {"word": "lemonade", "sentence": "A glass of cold lemonade, please."},
-          {"word": "lemon juice", "sentence": "Add a spoon of lemon juice to the salad."}
-        ]
+          {
+            "word": "lemonade",
+            "sentence": "A glass of cold lemonade, please."
+          },
+          {
+            "word": "lemon juice",
+            "sentence": "Add a spoon of lemon juice to the salad."
+          }
+        ],
+        "explanation_en": "\"Lemon juice\" is the pure juice that comes out when you squeeze a lemon. \"Lemonade\" is a drink made sweeter with sugar and water or other things that make it less sour. If you want something to drink, ask for lemonade."
       }
     ],
     "expressions": [
-      {"phrase": "a storm in a teacup", "meaning_ar": "زوبعة في فنجان: مشكلة تافهة يضخّمها الناس", "example": "Don't worry about their argument; it's a storm in a teacup."},
-      {"phrase": "Could I have ..., please?", "meaning_ar": "هل يمكنني الحصول على ... من فضلك؟ (أفضل طريقة مهذبة للطلب)", "example": "Could I have a latte, please?"},
-      {"phrase": "make it strong", "meaning_ar": "اجعلها قوية (عند طلب القهوة)", "example": "One large coffee, please. Make it strong."},
-      {"phrase": "right here", "meaning_ar": "هنا تماماً / في هذا المكان بالضبط", "example": "Wait for me right here."},
-      {"phrase": "This isn't a café, it's a comedy show!", "meaning_ar": "تعبير مازح عن مكان مليء بالفوضى والضحك", "example": "Everyone was joking: this isn't a café, it's a comedy show!"}
+      {
+        "phrase": "a storm in a teacup",
+        "meaning_ar": "زوبعة في فنجان: مشكلة تافهة يضخّمها الناس",
+        "example": "Don't worry about their argument; it's a storm in a teacup.",
+        "meaning_en": "a lot of anger or worry about a very small problem"
+      },
+      {
+        "phrase": "Could I have ..., please?",
+        "meaning_ar": "هل يمكنني الحصول على ... من فضلك؟ (أفضل طريقة مهذبة للطلب)",
+        "example": "Could I have a latte, please?",
+        "meaning_en": "the most polite way to ask for something when ordering"
+      },
+      {
+        "phrase": "make it strong",
+        "meaning_ar": "اجعلها قوية (عند طلب القهوة)",
+        "example": "One large coffee, please. Make it strong.",
+        "meaning_en": "please make the coffee strong"
+      },
+      {
+        "phrase": "right here",
+        "meaning_ar": "هنا تماماً / في هذا المكان بالضبط",
+        "example": "Wait for me right here.",
+        "meaning_en": "exactly in this place"
+      },
+      {
+        "phrase": "This isn't a café, it's a comedy show!",
+        "meaning_ar": "تعبير مازح عن مكان مليء بالفوضى والضحك",
+        "example": "Everyone was joking: this isn't a café, it's a comedy show!",
+        "meaning_en": "a joke about a place full of chaos and laughter"
+      }
     ],
     "grammar": [
       {
@@ -95,7 +472,8 @@
           "I've painted the house. (It's finished and beautiful.)",
           "I've been painting the house. (Look at my clothes! I'm tired.)",
           "Have you been running? You look tired."
-        ]
+        ],
+        "explanation_en": "The present perfect continuous (have/has been + verb-ing) focuses on the process, the effort and the time spent, not the result. The simple present perfect is like a \"certificate\": look what I finished. The continuous is like a \"workshop\": look how hard I've been working, and I'm still in the middle of it. The -ing is the sound of a machine that is still running."
       },
       {
         "title": "Numbers mean a finished result",
@@ -104,7 +482,8 @@
           "I've read 50 pages.",
           "I've been reading all day, and my eyes hurt.",
           "She has cooked dinner. / She has been cooking all morning."
-        ]
+        ],
+        "explanation_en": "When you give a number or a finished amount (50 pages, 3 cups), you are talking about a result, so use the simple present perfect. When you want to show effort and how long something took, use the continuous."
       },
       {
         "title": "Polite ways to order",
@@ -113,20 +492,131 @@
           "Could I have a cappuccino, please?",
           "Can I get a smoothie, please?",
           "I'd like an iced tea, please."
-        ]
+        ],
+        "explanation_en": "Avoid giving direct orders to a waiter. \"Bring me...\" is the worst way, \"I want...\" is not polite, and \"I'll take...\" is OK. The best is: Could I have ..., please?"
       }
     ]
   },
   "questions": [
-    {"question": "Which is the most polite way to order?", "choices": ["Bring me a coffee.", "I want a coffee.", "Could I have a coffee, please?", "Coffee. Now."], "answer": 2, "explanation_ar": "Could I have ..., please? هي الصيغة المهذبة الأفضل."},
-    {"question": "Look at my clothes! I ___ the walls all morning.", "choices": ["have painted", "have been painting", "painted yesterday", "paint"], "answer": 1, "explanation_ar": "نركّز على المجهود والعملية: المضارع التام المستمر."},
-    {"question": "I ___ 50 pages of the book.", "choices": ["have read", "have been reading", "am reading since", "reads"], "answer": 0, "explanation_ar": "الرقم يدل على نتيجة منجزة: المضارع التام البسيط."},
-    {"question": "After a long run, he ___ a whole bottle of water.", "choices": ["sipped", "fainted", "balanced", "gulped"], "answer": 3, "explanation_ar": "gulp = يبلع كميات كبيرة بسرعة."},
-    {"question": "\"A storm in a teacup\" means:", "choices": ["a very serious problem", "a small problem made too big", "bad weather", "a hot drink"], "answer": 1, "explanation_ar": "زوبعة في فنجان: مشكلة تافهة يتم تضخيمها."},
-    {"question": "A thin tube you drink through is a:", "choices": ["straw", "jug", "mug", "can"], "answer": 0, "explanation_ar": "straw = الشفاطة."},
-    {"question": "He worked 16 hours and ___ on the sofa as soon as he sat down.", "choices": ["sipped", "passed out", "served", "refused"], "answer": 1, "explanation_ar": "pass out هنا بمعنى نام فوراً من شدة التعب."},
-    {"question": "A sweet drink made with lemon, sugar and water is:", "choices": ["lemon juice", "iced tea", "espresso", "lemonade"], "answer": 3, "explanation_ar": "lemonade محلّاة، و lemon juice عصير ليمون صافٍ."},
-    {"question": "Which coffee has the most foam?", "choices": ["latte", "espresso", "cappuccino", "iced coffee"], "answer": 2, "explanation_ar": "الكابتشينو فيه رغوة أكثر من اللاتيه."},
-    {"question": "The opposite of \"rational\" is:", "choices": ["logical", "irrational", "fancy", "unrational"], "answer": 1, "explanation_ar": "rational ↔ irrational، و logical ↔ illogical."}
+    {
+      "question": "Which is the most polite way to order?",
+      "choices": [
+        "Bring me a coffee.",
+        "I want a coffee.",
+        "Could I have a coffee, please?",
+        "Coffee. Now."
+      ],
+      "answer": 2,
+      "explanation_ar": "Could I have ..., please? هي الصيغة المهذبة الأفضل.",
+      "explanation_en": "\"Could I have ..., please?\" is the best polite form."
+    },
+    {
+      "question": "Look at my clothes! I ___ the walls all morning.",
+      "choices": [
+        "have painted",
+        "have been painting",
+        "painted yesterday",
+        "paint"
+      ],
+      "answer": 1,
+      "explanation_ar": "نركّز على المجهود والعملية: المضارع التام المستمر.",
+      "explanation_en": "We focus on the effort and the process: present perfect continuous."
+    },
+    {
+      "question": "I ___ 50 pages of the book.",
+      "choices": [
+        "have read",
+        "have been reading",
+        "am reading since",
+        "reads"
+      ],
+      "answer": 0,
+      "explanation_ar": "الرقم يدل على نتيجة منجزة: المضارع التام البسيط.",
+      "explanation_en": "A number shows a finished result: simple present perfect."
+    },
+    {
+      "question": "After a long run, he ___ a whole bottle of water.",
+      "choices": [
+        "sipped",
+        "fainted",
+        "balanced",
+        "gulped"
+      ],
+      "answer": 3,
+      "explanation_ar": "gulp = يبلع كميات كبيرة بسرعة.",
+      "explanation_en": "To gulp = to swallow large amounts quickly."
+    },
+    {
+      "question": "\"A storm in a teacup\" means:",
+      "choices": [
+        "a very serious problem",
+        "a small problem made too big",
+        "bad weather",
+        "a hot drink"
+      ],
+      "answer": 1,
+      "explanation_ar": "زوبعة في فنجان: مشكلة تافهة يتم تضخيمها.",
+      "explanation_en": "A small problem that people make too big."
+    },
+    {
+      "question": "A thin tube you drink through is a:",
+      "choices": [
+        "straw",
+        "jug",
+        "mug",
+        "can"
+      ],
+      "answer": 0,
+      "explanation_ar": "straw = الشفاطة.",
+      "explanation_en": "A straw is a thin tube you drink through."
+    },
+    {
+      "question": "He worked 16 hours and ___ on the sofa as soon as he sat down.",
+      "choices": [
+        "sipped",
+        "passed out",
+        "served",
+        "refused"
+      ],
+      "answer": 1,
+      "explanation_ar": "pass out هنا بمعنى نام فوراً من شدة التعب.",
+      "explanation_en": "Here \"pass out\" means he fell asleep immediately because he was so tired."
+    },
+    {
+      "question": "A sweet drink made with lemon, sugar and water is:",
+      "choices": [
+        "lemon juice",
+        "iced tea",
+        "espresso",
+        "lemonade"
+      ],
+      "answer": 3,
+      "explanation_ar": "lemonade محلّاة، و lemon juice عصير ليمون صافٍ.",
+      "explanation_en": "Lemonade is sweetened; lemon juice is just pure lemon juice."
+    },
+    {
+      "question": "Which coffee has the most foam?",
+      "choices": [
+        "latte",
+        "espresso",
+        "cappuccino",
+        "iced coffee"
+      ],
+      "answer": 2,
+      "explanation_ar": "الكابتشينو فيه رغوة أكثر من اللاتيه.",
+      "explanation_en": "A cappuccino has more foam than a latte."
+    },
+    {
+      "question": "The opposite of \"rational\" is:",
+      "choices": [
+        "logical",
+        "irrational",
+        "fancy",
+        "unrational"
+      ],
+      "answer": 1,
+      "explanation_ar": "rational ↔ irrational، و logical ↔ illogical.",
+      "explanation_en": "rational ↔ irrational, and logical ↔ illogical."
+    }
   ]
 }

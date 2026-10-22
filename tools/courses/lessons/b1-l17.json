@@ -2,90 +2,435 @@
   "title": "Home Appliances and Smart Tech",
   "content": {
     "vocabulary": [
-      {"word": "appliance", "pos": "noun", "meaning_en": "a machine used in the home, like a fridge or washing machine", "meaning_ar": "جهاز منزلي", "note_ar": "home appliances = الأجهزة المنزلية", "example": "We bought new kitchen appliances."},
-      {"word": "oven", "pos": "noun", "meaning_en": "a box-shaped machine for baking or roasting food", "meaning_ar": "فرن", "example": "The bread is still in the oven."},
-      {"word": "microwave", "pos": "noun", "meaning_en": "a machine that heats food very quickly", "meaning_ar": "ميكروويف", "example": "Heat the soup in the microwave for two minutes."},
-      {"word": "blender", "pos": "noun", "meaning_en": "a machine that mixes food into a liquid", "meaning_ar": "خلّاط", "note_ar": "blend = يخلط", "example": "I make banana milk in the blender."},
-      {"word": "kettle", "pos": "noun", "meaning_en": "a container used to boil water", "meaning_ar": "غلّاية", "example": "Put the kettle on, let's have some tea."},
-      {"word": "toaster", "pos": "noun", "meaning_en": "a machine that makes bread brown and crispy", "meaning_ar": "محمصة الخبز", "note_ar": "toast = خبز محمص", "example": "The toaster burned my bread again."},
-      {"word": "refrigerator / fridge", "pos": "noun", "meaning_en": "a machine that keeps food cold", "meaning_ar": "ثلاجة", "note_ar": "fridge اختصار refrigerator", "example": "There's some juice in the fridge."},
-      {"word": "freezer", "pos": "noun", "meaning_en": "a machine that keeps food frozen", "meaning_ar": "فريزر / مُجمِّد", "note_ar": "freeze = يُجمّد", "example": "Put the ice cream in the freezer."},
-      {"word": "dishwasher", "pos": "noun", "meaning_en": "a machine that washes plates and cups", "meaning_ar": "غسالة الأطباق", "example": "The dishwasher saves us a lot of time."},
-      {"word": "washing machine", "pos": "noun", "meaning_en": "a machine that washes clothes", "meaning_ar": "غسالة الملابس", "example": "The washing machine is making a strange noise."},
-      {"word": "dryer", "pos": "noun", "meaning_en": "a machine that dries clothes after washing", "meaning_ar": "مُجفّف / نشّافة", "example": "Move the clothes from the washer to the dryer."},
-      {"word": "vacuum cleaner", "pos": "noun", "meaning_en": "an electric machine that cleans floors by sucking up dirt", "meaning_ar": "مكنسة كهربائية", "example": "The vacuum cleaner is in the cupboard."},
-      {"word": "iron", "pos": "noun", "meaning_en": "a tool you heat to make clothes smooth", "meaning_ar": "مكواة", "note_ar": "تُنطق /ˈaɪərn/", "example": "Be careful, the iron is still hot."},
-      {"word": "speakers", "pos": "noun", "meaning_en": "machines that make sound louder", "meaning_ar": "مكبّرات صوت / سمّاعات", "example": "These speakers are too loud."},
-      {"word": "smartphone", "pos": "noun", "meaning_en": "a mobile phone that works like a small computer", "meaning_ar": "هاتف ذكي", "example": "She checks her smartphone every five minutes."},
-      {"word": "charger", "pos": "noun", "meaning_en": "a device that puts power into a battery", "meaning_ar": "شاحن", "note_ar": "charge = يشحن", "example": "Don't forget your charger if your battery is low."},
-      {"word": "smart speaker", "pos": "noun", "meaning_en": "a speaker that can answer questions and play music when you talk to it", "meaning_ar": "مكبّر صوت ذكي", "example": "The smart speaker told us the weather."},
-      {"word": "smart fridge", "pos": "noun", "meaning_en": "a fridge connected to the internet", "meaning_ar": "ثلاجة ذكية", "example": "Our smart fridge shows what food we need to buy."},
-      {"word": "remote (control)", "pos": "noun", "meaning_en": "a small device used to control a TV or machine from a distance", "meaning_ar": "جهاز التحكم عن بُعد (ريموت)", "example": "Where's the TV remote?"},
-      {"word": "fan", "pos": "noun", "meaning_en": "a machine with turning blades that moves air", "meaning_ar": "مروحة", "example": "Turn on the fan, it's hot in here."},
-      {"word": "air conditioner", "pos": "noun", "meaning_en": "a machine that makes the air in a room cool", "meaning_ar": "مكيّف هواء", "example": "In summer, we turn on the air conditioner."},
-      {"word": "heater", "pos": "noun", "meaning_en": "a machine that makes a room warm", "meaning_ar": "مدفأة / سخّان", "example": "In winter, we need a heater to stay warm."},
-      {"word": "brand new", "pos": "adjective", "meaning_en": "completely new and never used before", "meaning_ar": "جديد تماماً (لم يُستخدم أبداً)", "example": "He drove a brand new car out of the shop."},
-      {"word": "feature", "pos": "noun", "meaning_en": "a useful part or function of a device or program", "meaning_ar": "ميزة / خاصية", "example": "This phone has a great camera feature."},
-      {"word": "accidentally", "pos": "adverb", "meaning_en": "by mistake, not on purpose", "meaning_ar": "بالخطأ / عن غير قصد", "note_ar": "accident = حادث", "example": "I accidentally deleted the photo."},
-      {"word": "connect", "pos": "verb", "meaning_en": "to join something to a network or another thing", "meaning_ar": "يوصِل / يربط", "note_ar": "connect to the Wi-Fi", "example": "Connect your laptop to the Wi-Fi."},
-      {"word": "update", "pos": "noun / verb", "meaning_en": "new information; to make something more modern", "meaning_ar": "تحديث / يُحدّث", "example": "The app needs an update."},
-      {"word": "disaster", "pos": "noun", "meaning_en": "something that goes very badly wrong", "meaning_ar": "كارثة", "example": "The party was a disaster."},
-      {"word": "switch off / turn off", "pos": "phrasal verb", "meaning_en": "to stop a machine working", "meaning_ar": "يُطفئ", "note_ar": "العكس switch on / turn on", "example": "Switch off the lights when you leave."},
-      {"word": "freezing", "pos": "adjective", "meaning_en": "extremely cold", "meaning_ar": "شديد البرودة / متجمّد", "example": "It's freezing outside, wear a coat."},
-      {"word": "technician", "pos": "noun", "meaning_en": "a person whose job is to fix machines", "meaning_ar": "فنّي", "note_ar": "تُنطق /tekˈnɪʃn/ والنبر على المقطع الثاني", "example": "A technician came to fix the internet."},
-      {"word": "toolbox", "pos": "noun", "meaning_en": "a box for keeping tools", "meaning_ar": "صندوق العدّة", "example": "He opened his toolbox and took out a screwdriver."},
-      {"word": "properly", "pos": "adverb", "meaning_en": "in the correct way", "meaning_ar": "بشكل صحيح / لائق", "note_ar": "proper = صحيح أو لائق", "example": "Close the door properly."},
-      {"word": "bow", "pos": "verb", "meaning_en": "to bend your head or body forward to show respect or thanks", "meaning_ar": "ينحني", "note_ar": "تُنطق /baʊ/ مثل now", "example": "The actors bowed at the end of the show."},
-      {"word": "repair", "pos": "verb / noun", "meaning_en": "to fix something that is broken", "meaning_ar": "يُصلح / تصليح", "example": "Can you repair my bike?"},
-      {"word": "renovation", "pos": "noun", "meaning_en": "work done to make an old building look new again", "meaning_ar": "تجديد / ترميم", "note_ar": "الفعل renovate", "example": "The kitchen renovation took three months."},
-      {"word": "comfortable", "pos": "adjective", "meaning_en": "pleasant for your body to use or be in", "meaning_ar": "مريح (جسدياً)", "note_ar": "تُنطق غالباً /ˈkʌmftəbl/ بثلاثة مقاطع", "example": "This chair is very comfortable."}
+      {
+        "word": "appliance",
+        "pos": "noun",
+        "meaning_en": "a machine used in the home, like a fridge or washing machine",
+        "meaning_ar": "جهاز منزلي",
+        "note_ar": "home appliances = الأجهزة المنزلية",
+        "example": "We bought new kitchen appliances.",
+        "note_en": "\"Home appliances\" are machines used in the house."
+      },
+      {
+        "word": "oven",
+        "pos": "noun",
+        "meaning_en": "a box-shaped machine for baking or roasting food",
+        "meaning_ar": "فرن",
+        "example": "The bread is still in the oven.",
+        "note_en": ""
+      },
+      {
+        "word": "microwave",
+        "pos": "noun",
+        "meaning_en": "a machine that heats food very quickly",
+        "meaning_ar": "ميكروويف",
+        "example": "Heat the soup in the microwave for two minutes.",
+        "note_en": ""
+      },
+      {
+        "word": "blender",
+        "pos": "noun",
+        "meaning_en": "a machine that mixes food into a liquid",
+        "meaning_ar": "خلّاط",
+        "note_ar": "blend = يخلط",
+        "example": "I make banana milk in the blender.",
+        "note_en": "\"Blend\" means to mix."
+      },
+      {
+        "word": "kettle",
+        "pos": "noun",
+        "meaning_en": "a container used to boil water",
+        "meaning_ar": "غلّاية",
+        "example": "Put the kettle on, let's have some tea.",
+        "note_en": ""
+      },
+      {
+        "word": "toaster",
+        "pos": "noun",
+        "meaning_en": "a machine that makes bread brown and crispy",
+        "meaning_ar": "محمصة الخبز",
+        "note_ar": "toast = خبز محمص",
+        "example": "The toaster burned my bread again.",
+        "note_en": "\"Toast\" is bread that has been browned with heat."
+      },
+      {
+        "word": "refrigerator / fridge",
+        "pos": "noun",
+        "meaning_en": "a machine that keeps food cold",
+        "meaning_ar": "ثلاجة",
+        "note_ar": "fridge اختصار refrigerator",
+        "example": "There's some juice in the fridge.",
+        "note_en": "\"Fridge\" is short for \"refrigerator\"."
+      },
+      {
+        "word": "freezer",
+        "pos": "noun",
+        "meaning_en": "a machine that keeps food frozen",
+        "meaning_ar": "فريزر / مُجمِّد",
+        "note_ar": "freeze = يُجمّد",
+        "example": "Put the ice cream in the freezer.",
+        "note_en": "\"Freeze\" means to make something very cold until it becomes hard or ice."
+      },
+      {
+        "word": "dishwasher",
+        "pos": "noun",
+        "meaning_en": "a machine that washes plates and cups",
+        "meaning_ar": "غسالة الأطباق",
+        "example": "The dishwasher saves us a lot of time.",
+        "note_en": ""
+      },
+      {
+        "word": "washing machine",
+        "pos": "noun",
+        "meaning_en": "a machine that washes clothes",
+        "meaning_ar": "غسالة الملابس",
+        "example": "The washing machine is making a strange noise.",
+        "note_en": ""
+      },
+      {
+        "word": "dryer",
+        "pos": "noun",
+        "meaning_en": "a machine that dries clothes after washing",
+        "meaning_ar": "مُجفّف / نشّافة",
+        "example": "Move the clothes from the washer to the dryer.",
+        "note_en": ""
+      },
+      {
+        "word": "vacuum cleaner",
+        "pos": "noun",
+        "meaning_en": "an electric machine that cleans floors by sucking up dirt",
+        "meaning_ar": "مكنسة كهربائية",
+        "example": "The vacuum cleaner is in the cupboard.",
+        "note_en": ""
+      },
+      {
+        "word": "iron",
+        "pos": "noun",
+        "meaning_en": "a tool you heat to make clothes smooth",
+        "meaning_ar": "مكواة",
+        "note_ar": "تُنطق /ˈaɪərn/",
+        "example": "Be careful, the iron is still hot.",
+        "note_en": "Pronounced /ˈaɪərn/."
+      },
+      {
+        "word": "speakers",
+        "pos": "noun",
+        "meaning_en": "machines that make sound louder",
+        "meaning_ar": "مكبّرات صوت / سمّاعات",
+        "example": "These speakers are too loud.",
+        "note_en": ""
+      },
+      {
+        "word": "smartphone",
+        "pos": "noun",
+        "meaning_en": "a mobile phone that works like a small computer",
+        "meaning_ar": "هاتف ذكي",
+        "example": "She checks her smartphone every five minutes.",
+        "note_en": ""
+      },
+      {
+        "word": "charger",
+        "pos": "noun",
+        "meaning_en": "a device that puts power into a battery",
+        "meaning_ar": "شاحن",
+        "note_ar": "charge = يشحن",
+        "example": "Don't forget your charger if your battery is low.",
+        "note_en": "\"Charge\" means to fill a battery with power."
+      },
+      {
+        "word": "smart speaker",
+        "pos": "noun",
+        "meaning_en": "a speaker that can answer questions and play music when you talk to it",
+        "meaning_ar": "مكبّر صوت ذكي",
+        "example": "The smart speaker told us the weather.",
+        "note_en": ""
+      },
+      {
+        "word": "smart fridge",
+        "pos": "noun",
+        "meaning_en": "a fridge connected to the internet",
+        "meaning_ar": "ثلاجة ذكية",
+        "example": "Our smart fridge shows what food we need to buy.",
+        "note_en": ""
+      },
+      {
+        "word": "remote (control)",
+        "pos": "noun",
+        "meaning_en": "a small device used to control a TV or machine from a distance",
+        "meaning_ar": "جهاز التحكم عن بُعد (ريموت)",
+        "example": "Where's the TV remote?",
+        "note_en": ""
+      },
+      {
+        "word": "fan",
+        "pos": "noun",
+        "meaning_en": "a machine with turning blades that moves air",
+        "meaning_ar": "مروحة",
+        "example": "Turn on the fan, it's hot in here.",
+        "note_en": ""
+      },
+      {
+        "word": "air conditioner",
+        "pos": "noun",
+        "meaning_en": "a machine that makes the air in a room cool",
+        "meaning_ar": "مكيّف هواء",
+        "example": "In summer, we turn on the air conditioner.",
+        "note_en": ""
+      },
+      {
+        "word": "heater",
+        "pos": "noun",
+        "meaning_en": "a machine that makes a room warm",
+        "meaning_ar": "مدفأة / سخّان",
+        "example": "In winter, we need a heater to stay warm.",
+        "note_en": ""
+      },
+      {
+        "word": "brand new",
+        "pos": "adjective",
+        "meaning_en": "completely new and never used before",
+        "meaning_ar": "جديد تماماً (لم يُستخدم أبداً)",
+        "example": "He drove a brand new car out of the shop.",
+        "note_en": ""
+      },
+      {
+        "word": "feature",
+        "pos": "noun",
+        "meaning_en": "a useful part or function of a device or program",
+        "meaning_ar": "ميزة / خاصية",
+        "example": "This phone has a great camera feature.",
+        "note_en": ""
+      },
+      {
+        "word": "accidentally",
+        "pos": "adverb",
+        "meaning_en": "by mistake, not on purpose",
+        "meaning_ar": "بالخطأ / عن غير قصد",
+        "note_ar": "accident = حادث",
+        "example": "I accidentally deleted the photo.",
+        "note_en": "An \"accident\" is something that happens by mistake."
+      },
+      {
+        "word": "connect",
+        "pos": "verb",
+        "meaning_en": "to join something to a network or another thing",
+        "meaning_ar": "يوصِل / يربط",
+        "note_ar": "connect to the Wi-Fi",
+        "example": "Connect your laptop to the Wi-Fi.",
+        "note_en": "For example: connect to the Wi-Fi."
+      },
+      {
+        "word": "update",
+        "pos": "noun / verb",
+        "meaning_en": "new information; to make something more modern",
+        "meaning_ar": "تحديث / يُحدّث",
+        "example": "The app needs an update.",
+        "note_en": ""
+      },
+      {
+        "word": "disaster",
+        "pos": "noun",
+        "meaning_en": "something that goes very badly wrong",
+        "meaning_ar": "كارثة",
+        "example": "The party was a disaster.",
+        "note_en": ""
+      },
+      {
+        "word": "switch off / turn off",
+        "pos": "phrasal verb",
+        "meaning_en": "to stop a machine working",
+        "meaning_ar": "يُطفئ",
+        "note_ar": "العكس switch on / turn on",
+        "example": "Switch off the lights when you leave.",
+        "note_en": "The opposite is \"switch on / turn on\"."
+      },
+      {
+        "word": "freezing",
+        "pos": "adjective",
+        "meaning_en": "extremely cold",
+        "meaning_ar": "شديد البرودة / متجمّد",
+        "example": "It's freezing outside, wear a coat.",
+        "note_en": ""
+      },
+      {
+        "word": "technician",
+        "pos": "noun",
+        "meaning_en": "a person whose job is to fix machines",
+        "meaning_ar": "فنّي",
+        "note_ar": "تُنطق /tekˈnɪʃn/ والنبر على المقطع الثاني",
+        "example": "A technician came to fix the internet.",
+        "note_en": "Pronounced /tekˈnɪʃn/, with the stress on the second syllable."
+      },
+      {
+        "word": "toolbox",
+        "pos": "noun",
+        "meaning_en": "a box for keeping tools",
+        "meaning_ar": "صندوق العدّة",
+        "example": "He opened his toolbox and took out a screwdriver.",
+        "note_en": ""
+      },
+      {
+        "word": "properly",
+        "pos": "adverb",
+        "meaning_en": "in the correct way",
+        "meaning_ar": "بشكل صحيح / لائق",
+        "note_ar": "proper = صحيح أو لائق",
+        "example": "Close the door properly.",
+        "note_en": "\"Proper\" means correct or suitable."
+      },
+      {
+        "word": "bow",
+        "pos": "verb",
+        "meaning_en": "to bend your head or body forward to show respect or thanks",
+        "meaning_ar": "ينحني",
+        "note_ar": "تُنطق /baʊ/ مثل now",
+        "example": "The actors bowed at the end of the show.",
+        "note_en": "Pronounced /baʊ/, like \"now\"."
+      },
+      {
+        "word": "repair",
+        "pos": "verb / noun",
+        "meaning_en": "to fix something that is broken",
+        "meaning_ar": "يُصلح / تصليح",
+        "example": "Can you repair my bike?",
+        "note_en": ""
+      },
+      {
+        "word": "renovation",
+        "pos": "noun",
+        "meaning_en": "work done to make an old building look new again",
+        "meaning_ar": "تجديد / ترميم",
+        "note_ar": "الفعل renovate",
+        "example": "The kitchen renovation took three months.",
+        "note_en": "The verb is \"renovate\"."
+      },
+      {
+        "word": "comfortable",
+        "pos": "adjective",
+        "meaning_en": "pleasant for your body to use or be in",
+        "meaning_ar": "مريح (جسدياً)",
+        "note_ar": "تُنطق غالباً /ˈkʌmftəbl/ بثلاثة مقاطع",
+        "example": "This chair is very comfortable.",
+        "note_en": "Usually pronounced /ˈkʌmftəbl/, with three syllables."
+      }
     ],
     "fine_lines": [
       {
         "title": "new vs brand new",
-        "words": ["new", "brand new"],
+        "words": [
+          "new",
+          "brand new"
+        ],
         "explanation_ar": "new تعني جديد بالنسبة لك أنت، وقد يكون الشيء مستعملاً من قبل (مثل سيارة مستعملة اشتريتها من شخص آخر). brand new تعني جديد تماماً، خرج من المصنع ولم يستخدمه أحد قبلك.",
         "examples": [
-          {"word": "new", "sentence": "I bought a new car. It's a 2015 model."},
-          {"word": "new", "sentence": "This is my new flat; I moved in last week."},
-          {"word": "brand new", "sentence": "She bought a brand new phone, still in its box."},
-          {"word": "brand new", "sentence": "The hotel has brand new rooms."}
-        ]
+          {
+            "word": "new",
+            "sentence": "I bought a new car. It's a 2015 model."
+          },
+          {
+            "word": "new",
+            "sentence": "This is my new flat; I moved in last week."
+          },
+          {
+            "word": "brand new",
+            "sentence": "She bought a brand new phone, still in its box."
+          },
+          {
+            "word": "brand new",
+            "sentence": "The hotel has brand new rooms."
+          }
+        ],
+        "explanation_en": "\"New\" means new to you; the thing may have been used before (like a used car you bought from someone). \"Brand new\" means completely new, straight from the factory, and nobody has used it before you."
       },
       {
         "title": "repair vs renovation",
-        "words": ["repair", "renovation"],
+        "words": [
+          "repair",
+          "renovation"
+        ],
         "explanation_ar": "repair يعني تصليح شيء معطّل ليعود إلى العمل. renovation يعني تجديد المكان أو تغيير شكله ليصبح أحدث وأجمل، حتى لو لم يكن فيه شيء معطّل.",
         "examples": [
-          {"word": "repair", "sentence": "James repaired the vacuum cleaner."},
-          {"word": "renovation", "sentence": "The house is closed for renovation."}
-        ]
+          {
+            "word": "repair",
+            "sentence": "James repaired the vacuum cleaner."
+          },
+          {
+            "word": "renovation",
+            "sentence": "The house is closed for renovation."
+          }
+        ],
+        "explanation_en": "\"Repair\" means fixing something broken so it works again. \"Renovation\" means updating a place or changing how it looks so it becomes more modern and nicer, even if nothing is broken."
       },
       {
         "title": "comfortable vs cozy",
-        "words": ["comfortable", "cozy"],
+        "words": [
+          "comfortable",
+          "cozy"
+        ],
         "explanation_ar": "comfortable تعني مريح من الناحية الجسدية: كرسي مريح لظهرك أو سرير مريح للنوم. cozy تعني فيه دفء وراحة نفسية: مكان صغير هادئ بإضاءة دافئة تشعر فيه بالأمان. قد يكون البيت comfortable بأفضل الأثاث لكنه ليس cozy.",
         "examples": [
-          {"word": "comfortable", "sentence": "These shoes are really comfortable."},
-          {"word": "cozy", "sentence": "We sat in a cozy little café on a rainy day."}
-        ]
+          {
+            "word": "comfortable",
+            "sentence": "These shoes are really comfortable."
+          },
+          {
+            "word": "cozy",
+            "sentence": "We sat in a cozy little café on a rainy day."
+          }
+        ],
+        "explanation_en": "\"Comfortable\" is about the body: a chair that's good for your back or a bed that's nice to sleep in. \"Cozy\" is about a warm, relaxed feeling: a small, quiet place with warm lights where you feel safe. A house can be comfortable with the best furniture but still not feel cozy."
       },
       {
         "title": "fridge vs freezer",
-        "words": ["fridge", "freezer"],
+        "words": [
+          "fridge",
+          "freezer"
+        ],
         "explanation_ar": "fridge (الثلاجة) تحفظ الطعام بارداً، أما freezer (الفريزر) فيحفظه مُجمّداً.",
         "examples": [
-          {"word": "fridge", "sentence": "Keep the milk in the fridge."},
-          {"word": "freezer", "sentence": "The chicken is frozen in the freezer."}
-        ]
+          {
+            "word": "fridge",
+            "sentence": "Keep the milk in the fridge."
+          },
+          {
+            "word": "freezer",
+            "sentence": "The chicken is frozen in the freezer."
+          }
+        ],
+        "explanation_en": "A \"fridge\" keeps food cold, while a \"freezer\" keeps it frozen."
       }
     ],
     "expressions": [
-      {"phrase": "hit the roof", "meaning_ar": "يغضب بشدة / يستشيط غضباً", "example": "When Dad saw the scratch on his brand new car, he hit the roof."},
-      {"phrase": "a house of cards", "meaning_ar": "خطة أو شيء هشّ جداً قد ينهار في أي لحظة", "example": "Their business was a house of cards, built on lies."},
-      {"phrase": "at least", "meaning_ar": "على الأقل", "example": "The food was cold, but at least it was cheap."},
-      {"phrase": "like a queen / like a king", "meaning_ar": "بتصرّف متعالٍ كأنه ملك/ملكة", "example": "She sat on the sofa like a queen."},
-      {"phrase": "Put the kettle on", "meaning_ar": "جهّز الغلّاية (لنشرب الشاي)", "example": "You look tired. I'll put the kettle on."}
+      {
+        "phrase": "hit the roof",
+        "meaning_ar": "يغضب بشدة / يستشيط غضباً",
+        "example": "When Dad saw the scratch on his brand new car, he hit the roof.",
+        "meaning_en": "to get extremely angry"
+      },
+      {
+        "phrase": "a house of cards",
+        "meaning_ar": "خطة أو شيء هشّ جداً قد ينهار في أي لحظة",
+        "example": "Their business was a house of cards, built on lies.",
+        "meaning_en": "a plan or thing that is very weak and could fall apart at any moment"
+      },
+      {
+        "phrase": "at least",
+        "meaning_ar": "على الأقل",
+        "example": "The food was cold, but at least it was cheap.",
+        "meaning_en": "not less than; anyway (used to find something positive)"
+      },
+      {
+        "phrase": "like a queen / like a king",
+        "meaning_ar": "بتصرّف متعالٍ كأنه ملك/ملكة",
+        "example": "She sat on the sofa like a queen.",
+        "meaning_en": "acting as if you are more important than everyone else"
+      },
+      {
+        "phrase": "Put the kettle on",
+        "meaning_ar": "جهّز الغلّاية (لنشرب الشاي)",
+        "example": "You look tired. I'll put the kettle on.",
+        "meaning_en": "get the kettle ready (to make tea)"
+      }
     ],
     "grammar": [
       {
@@ -95,7 +440,8 @@
           "By the time the fridge started speaking Spanish, Ali had connected it to the neighbour's Wi-Fi.",
           "By the time Omar shouted, Sarah had already switched off the air conditioner.",
           "By the time James arrived, Emma had started typing on her laptop."
-        ]
+        ],
+        "explanation_en": "When telling stories, we use the past perfect (had + past participle) to show that one action happened and finished before another past action. With \"by the time\", we use the past simple for the later action and the past perfect for the earlier one."
       },
       {
         "title": "Adverbs ending in -ly",
@@ -104,20 +450,131 @@
           "He showed them how to use the dishwasher properly.",
           "The speaker played music loudly.",
           "Suddenly, the lights went off."
-        ]
+        ],
+        "explanation_en": "Many adverbs are made by adding -ly to an adjective. They describe how an action is done: proper → properly, accidental → accidentally, loud → loudly, sudden → suddenly."
       }
     ]
   },
   "questions": [
-    {"question": "You use a ___ to boil water for tea.", "choices": ["toaster", "blender", "kettle", "dryer"], "answer": 2, "explanation_ar": "kettle = غلّاية الماء."},
-    {"question": "\"I bought a ___ phone. Nobody used it before me — it was still in the box.\"", "choices": ["brand new", "new to me", "used", "repaired"], "answer": 0, "explanation_ar": "brand new = جديد تماماً لم يُستخدم أبداً."},
-    {"question": "The washing machine was broken, so we called a technician to ___ it.", "choices": ["renovate", "repair", "bow", "connect"], "answer": 1, "explanation_ar": "repair = يصلح شيئاً معطلاً."},
-    {"question": "A small, warm café with soft lights where you feel relaxed is:", "choices": ["freezing", "brand new", "properly", "cozy"], "answer": 3, "explanation_ar": "cozy = فيه دفء وراحة نفسية."},
-    {"question": "By the time Omar shouted, Sarah ___ the air conditioner.", "choices": ["switches off", "has switched off", "had switched off", "is switching off"], "answer": 2, "explanation_ar": "إطفاء المكيف حدث أولاً = الماضي التام."},
-    {"question": "\"When he saw the bill, he hit the roof.\" This means he:", "choices": ["got very angry", "climbed onto the roof", "was very happy", "paid quickly"], "answer": 0, "explanation_ar": "hit the roof = غضب بشدة."},
-    {"question": "Ali connected the fridge to the neighbour's Wi-Fi by mistake. He did it ___.", "choices": ["properly", "loudly", "accidentally", "comfortably"], "answer": 2, "explanation_ar": "accidentally = بالخطأ."},
-    {"question": "\"Their plan was a house of cards\" means the plan was:", "choices": ["very strong", "about playing cards", "very expensive", "weak and could fail easily"], "answer": 3, "explanation_ar": "house of cards = شيء هش قد ينهار في أي لحظة."},
-    {"question": "Which machine keeps food frozen?", "choices": ["the oven", "the freezer", "the heater", "the kettle"], "answer": 1, "explanation_ar": "freezer يحفظ الطعام مجمداً."},
-    {"question": "This bed is very ___. My back doesn't hurt anymore.", "choices": ["comfortable", "freezing", "accidental", "brand"], "answer": 0, "explanation_ar": "comfortable = مريح جسدياً."}
+    {
+      "question": "You use a ___ to boil water for tea.",
+      "choices": [
+        "toaster",
+        "blender",
+        "kettle",
+        "dryer"
+      ],
+      "answer": 2,
+      "explanation_ar": "kettle = غلّاية الماء.",
+      "explanation_en": "A kettle is used to boil water."
+    },
+    {
+      "question": "\"I bought a ___ phone. Nobody used it before me — it was still in the box.\"",
+      "choices": [
+        "brand new",
+        "new to me",
+        "used",
+        "repaired"
+      ],
+      "answer": 0,
+      "explanation_ar": "brand new = جديد تماماً لم يُستخدم أبداً.",
+      "explanation_en": "\"Brand new\" means completely new and never used."
+    },
+    {
+      "question": "The washing machine was broken, so we called a technician to ___ it.",
+      "choices": [
+        "renovate",
+        "repair",
+        "bow",
+        "connect"
+      ],
+      "answer": 1,
+      "explanation_ar": "repair = يصلح شيئاً معطلاً.",
+      "explanation_en": "\"Repair\" means to fix something that is broken."
+    },
+    {
+      "question": "A small, warm café with soft lights where you feel relaxed is:",
+      "choices": [
+        "freezing",
+        "brand new",
+        "properly",
+        "cozy"
+      ],
+      "answer": 3,
+      "explanation_ar": "cozy = فيه دفء وراحة نفسية.",
+      "explanation_en": "\"Cozy\" describes a warm, relaxing place."
+    },
+    {
+      "question": "By the time Omar shouted, Sarah ___ the air conditioner.",
+      "choices": [
+        "switches off",
+        "has switched off",
+        "had switched off",
+        "is switching off"
+      ],
+      "answer": 2,
+      "explanation_ar": "إطفاء المكيف حدث أولاً = الماضي التام.",
+      "explanation_en": "Turning off the air conditioner happened first, so we use the past perfect."
+    },
+    {
+      "question": "\"When he saw the bill, he hit the roof.\" This means he:",
+      "choices": [
+        "got very angry",
+        "climbed onto the roof",
+        "was very happy",
+        "paid quickly"
+      ],
+      "answer": 0,
+      "explanation_ar": "hit the roof = غضب بشدة.",
+      "explanation_en": "\"Hit the roof\" means to get very angry."
+    },
+    {
+      "question": "Ali connected the fridge to the neighbour's Wi-Fi by mistake. He did it ___.",
+      "choices": [
+        "properly",
+        "loudly",
+        "accidentally",
+        "comfortably"
+      ],
+      "answer": 2,
+      "explanation_ar": "accidentally = بالخطأ.",
+      "explanation_en": "\"Accidentally\" means by mistake."
+    },
+    {
+      "question": "\"Their plan was a house of cards\" means the plan was:",
+      "choices": [
+        "very strong",
+        "about playing cards",
+        "very expensive",
+        "weak and could fail easily"
+      ],
+      "answer": 3,
+      "explanation_ar": "house of cards = شيء هش قد ينهار في أي لحظة.",
+      "explanation_en": "A \"house of cards\" is something weak that could fall apart at any moment."
+    },
+    {
+      "question": "Which machine keeps food frozen?",
+      "choices": [
+        "the oven",
+        "the freezer",
+        "the heater",
+        "the kettle"
+      ],
+      "answer": 1,
+      "explanation_ar": "freezer يحفظ الطعام مجمداً.",
+      "explanation_en": "A freezer keeps food frozen."
+    },
+    {
+      "question": "This bed is very ___. My back doesn't hurt anymore.",
+      "choices": [
+        "comfortable",
+        "freezing",
+        "accidental",
+        "brand"
+      ],
+      "answer": 0,
+      "explanation_ar": "comfortable = مريح جسدياً.",
+      "explanation_en": "\"Comfortable\" means it feels good for your body."
+    }
   ]
 }

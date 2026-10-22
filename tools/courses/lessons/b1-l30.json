@@ -2,82 +2,450 @@
   "title": "In the Office",
   "content": {
     "vocabulary": [
-      {"word": "office", "pos": "noun", "meaning_en": "a room or building where people work at desks", "meaning_ar": "مكتب / مقر العمل", "note_ar": "", "example": "I get to the office at nine."},
-      {"word": "meeting room", "pos": "noun", "meaning_en": "a room with a table and screens where a team meets", "meaning_ar": "غرفة الاجتماعات", "note_ar": "", "example": "The project kick-off is in the meeting room."},
-      {"word": "reception", "pos": "noun", "meaning_en": "the area near the entrance where visitors are welcomed", "meaning_ar": "الاستقبال", "note_ar": "", "example": "Please wait for me at reception."},
-      {"word": "cafeteria", "pos": "noun", "meaning_en": "a place in a building where people buy and eat food", "meaning_ar": "الكافتيريا", "note_ar": "", "example": "We had lunch in the cafeteria."},
-      {"word": "corridor", "pos": "noun", "meaning_en": "a long passage inside a building that connects rooms", "meaning_ar": "ممر / طُرقة", "note_ar": "في الأمريكي يُقال غالباً hallway، و corridor شائعة في الاثنين", "example": "His office is at the end of the corridor."},
-      {"word": "cubicle", "pos": "noun", "meaning_en": "a small work space with low walls in an open office", "meaning_ar": "مكتب صغير مقسّم بحواجز", "note_ar": "", "example": "She sits in the cubicle next to mine."},
-      {"word": "desk", "pos": "noun", "meaning_en": "a table you work at", "meaning_ar": "مكتب (طاولة العمل)", "note_ar": "", "example": "There are papers all over my desk."},
-      {"word": "chair", "pos": "noun", "meaning_en": "a seat for one person", "meaning_ar": "كرسي", "note_ar": "", "example": "This office chair is very comfortable."},
-      {"word": "computer", "pos": "noun", "meaning_en": "an electronic machine for working with information", "meaning_ar": "حاسوب / كمبيوتر", "note_ar": "", "example": "Turn off your computer before you leave."},
-      {"word": "laptop", "pos": "noun", "meaning_en": "a small computer you can carry", "meaning_ar": "كمبيوتر محمول", "note_ar": "", "example": "Bring your laptops to the meeting."},
-      {"word": "printer", "pos": "noun", "meaning_en": "a machine that puts text and pictures on paper", "meaning_ar": "طابعة", "note_ar": "print = يطبع", "example": "The printer is out of paper."},
-      {"word": "phone", "pos": "noun", "meaning_en": "a device for calling people", "meaning_ar": "هاتف", "note_ar": "", "example": "Her phone rang during the meeting."},
-      {"word": "document", "pos": "noun", "meaning_en": "a paper or digital file with important information", "meaning_ar": "مستند / وثيقة", "note_ar": "", "example": "Please sign this document."},
-      {"word": "folder", "pos": "noun", "meaning_en": "a cover or digital place where you keep files", "meaning_ar": "مجلد", "note_ar": "shared folder = مجلد مشترك", "example": "Put everything in the shared folder."},
-      {"word": "file", "pos": "noun", "meaning_en": "a set of papers or a computer document", "meaning_ar": "ملف", "note_ar": "كفعل: file = يحفظ/يرتّب الملفات", "example": "I saved the file on my desktop."},
-      {"word": "boss", "pos": "noun", "meaning_en": "the person with power who gives orders at work", "meaning_ar": "المدير / رئيس العمل", "note_ar": "", "example": "I have a meeting with the boss at three."},
-      {"word": "manager", "pos": "noun", "meaning_en": "a person who organises work and a team in one department", "meaning_ar": "مدير (قسم)", "note_ar": "", "example": "James is the office manager."},
-      {"word": "colleague", "pos": "noun", "meaning_en": "a person you work with", "meaning_ar": "زميل عمل", "note_ar": "", "example": "My colleagues helped me with the report."},
-      {"word": "receptionist", "pos": "noun", "meaning_en": "a person who welcomes visitors and answers the phone", "meaning_ar": "موظف استقبال", "note_ar": "reception → receptionist", "example": "The receptionist gave me a visitor card."},
-      {"word": "secretary", "pos": "noun", "meaning_en": "a person who organises appointments, emails and files for others", "meaning_ar": "سكرتير / سكرتيرة", "note_ar": "الشركات الحديثة تسميها غالباً administrative assistant", "example": "Ask my secretary to book a meeting."},
-      {"word": "administrative assistant", "pos": "noun", "meaning_en": "the modern name for a secretary", "meaning_ar": "مساعد إداري", "note_ar": "اختصارها admin assistant", "example": "Our administrative assistant answers all the emails."},
-      {"word": "intern", "pos": "noun", "meaning_en": "a student or new graduate who works for a short time to gain experience", "meaning_ar": "متدرب", "note_ar": "internship = فترة التدريب، وأحياناً تكون بدون أجر", "example": "We have two new interns this summer."},
-      {"word": "meeting", "pos": "noun", "meaning_en": "when people come together to discuss something", "meaning_ar": "اجتماع", "note_ar": "", "example": "The meeting starts at ten."},
-      {"word": "deadline", "pos": "noun", "meaning_en": "the final time to finish something, with serious results if you miss it", "meaning_ar": "الموعد النهائي للتسليم", "note_ar": "", "example": "The deadline for the marketing file is Thursday."},
-      {"word": "project", "pos": "noun", "meaning_en": "a planned piece of work with a goal", "meaning_ar": "مشروع", "note_ar": "", "example": "Our new project starts on Monday."},
-      {"word": "report", "pos": "noun", "meaning_en": "a document that gives information about a subject", "meaning_ar": "تقرير", "note_ar": "", "example": "Emma will prepare the report."},
-      {"word": "presentation", "pos": "noun", "meaning_en": "a talk where someone explains ideas or results on a screen", "meaning_ar": "عرض تقديمي", "note_ar": "تُنطق /ˌprezənˈteɪʃn/ أو /ˌpriːzenˈteɪʃn/", "example": "Sarah will lead the team presentation."},
-      {"word": "schedule", "pos": "noun", "meaning_en": "a plan that shows the times of work and meetings", "meaning_ar": "جدول زمني / جدول المواعيد", "note_ar": "الأمريكي ينطقها /ˈskedʒuːl/ والبريطاني /ˈʃedjuːl/", "example": "Let's stay on schedule this week."},
-      {"word": "task", "pos": "noun", "meaning_en": "a piece of work you must do", "meaning_ar": "مهمة", "note_ar": "", "example": "Each person has one task for today."},
-      {"word": "teamwork", "pos": "noun", "meaning_en": "working well together as a group", "meaning_ar": "العمل الجماعي / روح الفريق", "note_ar": "", "example": "Good teamwork makes the job easier."},
-      {"word": "memo", "pos": "noun", "meaning_en": "a short official message sent inside a company", "meaning_ar": "مذكرة داخلية", "note_ar": "اختصار memorandum", "example": "The manager sent a memo to all staff."},
-      {"word": "client", "pos": "noun", "meaning_en": "a person or company that pays for a service", "meaning_ar": "عميل", "note_ar": "", "example": "The client visits the office on Wednesday."},
-      {"word": "submit", "pos": "verb", "meaning_en": "to give or upload finished work to the person who asked for it", "meaning_ar": "يسلّم / يرفع العمل", "note_ar": "", "example": "Submit everything by 5 p.m."},
-      {"word": "kick-off", "pos": "noun", "meaning_en": "the official start of a project or event", "meaning_ar": "الانطلاقة / البداية الرسمية", "note_ar": "من ضربة البداية في كرة القدم", "example": "The project kick-off is at 9 a.m."},
-      {"word": "informal", "pos": "adjective", "meaning_en": "relaxed, not official", "meaning_ar": "غير رسمي", "note_ar": "in + formal", "example": "Friday's session is informal but fun."},
-      {"word": "productive", "pos": "adjective", "meaning_en": "getting a lot of useful work done", "meaning_ar": "منتج / مثمر", "note_ar": "produce → productive", "example": "Let's make this week productive."},
-      {"word": "due date", "pos": "noun", "meaning_en": "the planned date when something should be paid or given", "meaning_ar": "تاريخ الاستحقاق", "note_ar": "", "example": "The due date for the phone bill is the 15th."},
-      {"word": "leader", "pos": "noun", "meaning_en": "a person who inspires and guides a team", "meaning_ar": "قائد", "note_ar": "lead = يقود", "example": "A good leader says \"let's do it together\"."}
+      {
+        "word": "office",
+        "pos": "noun",
+        "meaning_en": "a room or building where people work at desks",
+        "meaning_ar": "مكتب / مقر العمل",
+        "note_ar": "",
+        "example": "I get to the office at nine.",
+        "note_en": ""
+      },
+      {
+        "word": "meeting room",
+        "pos": "noun",
+        "meaning_en": "a room with a table and screens where a team meets",
+        "meaning_ar": "غرفة الاجتماعات",
+        "note_ar": "",
+        "example": "The project kick-off is in the meeting room.",
+        "note_en": ""
+      },
+      {
+        "word": "reception",
+        "pos": "noun",
+        "meaning_en": "the area near the entrance where visitors are welcomed",
+        "meaning_ar": "الاستقبال",
+        "note_ar": "",
+        "example": "Please wait for me at reception.",
+        "note_en": ""
+      },
+      {
+        "word": "cafeteria",
+        "pos": "noun",
+        "meaning_en": "a place in a building where people buy and eat food",
+        "meaning_ar": "الكافتيريا",
+        "note_ar": "",
+        "example": "We had lunch in the cafeteria.",
+        "note_en": ""
+      },
+      {
+        "word": "corridor",
+        "pos": "noun",
+        "meaning_en": "a long passage inside a building that connects rooms",
+        "meaning_ar": "ممر / طُرقة",
+        "note_ar": "في الأمريكي يُقال غالباً hallway، و corridor شائعة في الاثنين",
+        "example": "His office is at the end of the corridor.",
+        "note_en": "In American English people often say \"hallway\"; \"corridor\" is common in both British and American English."
+      },
+      {
+        "word": "cubicle",
+        "pos": "noun",
+        "meaning_en": "a small work space with low walls in an open office",
+        "meaning_ar": "مكتب صغير مقسّم بحواجز",
+        "note_ar": "",
+        "example": "She sits in the cubicle next to mine.",
+        "note_en": ""
+      },
+      {
+        "word": "desk",
+        "pos": "noun",
+        "meaning_en": "a table you work at",
+        "meaning_ar": "مكتب (طاولة العمل)",
+        "note_ar": "",
+        "example": "There are papers all over my desk.",
+        "note_en": ""
+      },
+      {
+        "word": "chair",
+        "pos": "noun",
+        "meaning_en": "a seat for one person",
+        "meaning_ar": "كرسي",
+        "note_ar": "",
+        "example": "This office chair is very comfortable.",
+        "note_en": ""
+      },
+      {
+        "word": "computer",
+        "pos": "noun",
+        "meaning_en": "an electronic machine for working with information",
+        "meaning_ar": "حاسوب / كمبيوتر",
+        "note_ar": "",
+        "example": "Turn off your computer before you leave.",
+        "note_en": ""
+      },
+      {
+        "word": "laptop",
+        "pos": "noun",
+        "meaning_en": "a small computer you can carry",
+        "meaning_ar": "كمبيوتر محمول",
+        "note_ar": "",
+        "example": "Bring your laptops to the meeting.",
+        "note_en": ""
+      },
+      {
+        "word": "printer",
+        "pos": "noun",
+        "meaning_en": "a machine that puts text and pictures on paper",
+        "meaning_ar": "طابعة",
+        "note_ar": "print = يطبع",
+        "example": "The printer is out of paper.",
+        "note_en": "print = to put words or pictures on paper with a machine."
+      },
+      {
+        "word": "phone",
+        "pos": "noun",
+        "meaning_en": "a device for calling people",
+        "meaning_ar": "هاتف",
+        "note_ar": "",
+        "example": "Her phone rang during the meeting.",
+        "note_en": ""
+      },
+      {
+        "word": "document",
+        "pos": "noun",
+        "meaning_en": "a paper or digital file with important information",
+        "meaning_ar": "مستند / وثيقة",
+        "note_ar": "",
+        "example": "Please sign this document.",
+        "note_en": ""
+      },
+      {
+        "word": "folder",
+        "pos": "noun",
+        "meaning_en": "a cover or digital place where you keep files",
+        "meaning_ar": "مجلد",
+        "note_ar": "shared folder = مجلد مشترك",
+        "example": "Put everything in the shared folder.",
+        "note_en": "shared folder = a folder that several people can use."
+      },
+      {
+        "word": "file",
+        "pos": "noun",
+        "meaning_en": "a set of papers or a computer document",
+        "meaning_ar": "ملف",
+        "note_ar": "كفعل: file = يحفظ/يرتّب الملفات",
+        "example": "I saved the file on my desktop.",
+        "note_en": "As a verb, \"file\" means to store or organise documents."
+      },
+      {
+        "word": "boss",
+        "pos": "noun",
+        "meaning_en": "the person with power who gives orders at work",
+        "meaning_ar": "المدير / رئيس العمل",
+        "note_ar": "",
+        "example": "I have a meeting with the boss at three.",
+        "note_en": ""
+      },
+      {
+        "word": "manager",
+        "pos": "noun",
+        "meaning_en": "a person who organises work and a team in one department",
+        "meaning_ar": "مدير (قسم)",
+        "note_ar": "",
+        "example": "James is the office manager.",
+        "note_en": ""
+      },
+      {
+        "word": "colleague",
+        "pos": "noun",
+        "meaning_en": "a person you work with",
+        "meaning_ar": "زميل عمل",
+        "note_ar": "",
+        "example": "My colleagues helped me with the report.",
+        "note_en": ""
+      },
+      {
+        "word": "receptionist",
+        "pos": "noun",
+        "meaning_en": "a person who welcomes visitors and answers the phone",
+        "meaning_ar": "موظف استقبال",
+        "note_ar": "reception → receptionist",
+        "example": "The receptionist gave me a visitor card.",
+        "note_en": "reception → receptionist (the person who works at reception)."
+      },
+      {
+        "word": "secretary",
+        "pos": "noun",
+        "meaning_en": "a person who organises appointments, emails and files for others",
+        "meaning_ar": "سكرتير / سكرتيرة",
+        "note_ar": "الشركات الحديثة تسميها غالباً administrative assistant",
+        "example": "Ask my secretary to book a meeting.",
+        "note_en": "Modern companies often call this job \"administrative assistant\"."
+      },
+      {
+        "word": "administrative assistant",
+        "pos": "noun",
+        "meaning_en": "the modern name for a secretary",
+        "meaning_ar": "مساعد إداري",
+        "note_ar": "اختصارها admin assistant",
+        "example": "Our administrative assistant answers all the emails.",
+        "note_en": "Short form: admin assistant."
+      },
+      {
+        "word": "intern",
+        "pos": "noun",
+        "meaning_en": "a student or new graduate who works for a short time to gain experience",
+        "meaning_ar": "متدرب",
+        "note_ar": "internship = فترة التدريب، وأحياناً تكون بدون أجر",
+        "example": "We have two new interns this summer.",
+        "note_en": "An internship is the training period, and sometimes it is unpaid."
+      },
+      {
+        "word": "meeting",
+        "pos": "noun",
+        "meaning_en": "when people come together to discuss something",
+        "meaning_ar": "اجتماع",
+        "note_ar": "",
+        "example": "The meeting starts at ten.",
+        "note_en": ""
+      },
+      {
+        "word": "deadline",
+        "pos": "noun",
+        "meaning_en": "the final time to finish something, with serious results if you miss it",
+        "meaning_ar": "الموعد النهائي للتسليم",
+        "note_ar": "",
+        "example": "The deadline for the marketing file is Thursday.",
+        "note_en": ""
+      },
+      {
+        "word": "project",
+        "pos": "noun",
+        "meaning_en": "a planned piece of work with a goal",
+        "meaning_ar": "مشروع",
+        "note_ar": "",
+        "example": "Our new project starts on Monday.",
+        "note_en": ""
+      },
+      {
+        "word": "report",
+        "pos": "noun",
+        "meaning_en": "a document that gives information about a subject",
+        "meaning_ar": "تقرير",
+        "note_ar": "",
+        "example": "Emma will prepare the report.",
+        "note_en": ""
+      },
+      {
+        "word": "presentation",
+        "pos": "noun",
+        "meaning_en": "a talk where someone explains ideas or results on a screen",
+        "meaning_ar": "عرض تقديمي",
+        "note_ar": "تُنطق /ˌprezənˈteɪʃn/ أو /ˌpriːzenˈteɪʃn/",
+        "example": "Sarah will lead the team presentation.",
+        "note_en": "Pronounced /ˌprezənˈteɪʃn/ or /ˌpriːzenˈteɪʃn/."
+      },
+      {
+        "word": "schedule",
+        "pos": "noun",
+        "meaning_en": "a plan that shows the times of work and meetings",
+        "meaning_ar": "جدول زمني / جدول المواعيد",
+        "note_ar": "الأمريكي ينطقها /ˈskedʒuːl/ والبريطاني /ˈʃedjuːl/",
+        "example": "Let's stay on schedule this week.",
+        "note_en": "American pronunciation: /ˈskedʒuːl/; British pronunciation: /ˈʃedjuːl/."
+      },
+      {
+        "word": "task",
+        "pos": "noun",
+        "meaning_en": "a piece of work you must do",
+        "meaning_ar": "مهمة",
+        "note_ar": "",
+        "example": "Each person has one task for today.",
+        "note_en": ""
+      },
+      {
+        "word": "teamwork",
+        "pos": "noun",
+        "meaning_en": "working well together as a group",
+        "meaning_ar": "العمل الجماعي / روح الفريق",
+        "note_ar": "",
+        "example": "Good teamwork makes the job easier.",
+        "note_en": ""
+      },
+      {
+        "word": "memo",
+        "pos": "noun",
+        "meaning_en": "a short official message sent inside a company",
+        "meaning_ar": "مذكرة داخلية",
+        "note_ar": "اختصار memorandum",
+        "example": "The manager sent a memo to all staff.",
+        "note_en": "Short for \"memorandum\"."
+      },
+      {
+        "word": "client",
+        "pos": "noun",
+        "meaning_en": "a person or company that pays for a service",
+        "meaning_ar": "عميل",
+        "note_ar": "",
+        "example": "The client visits the office on Wednesday.",
+        "note_en": ""
+      },
+      {
+        "word": "submit",
+        "pos": "verb",
+        "meaning_en": "to give or upload finished work to the person who asked for it",
+        "meaning_ar": "يسلّم / يرفع العمل",
+        "note_ar": "",
+        "example": "Submit everything by 5 p.m.",
+        "note_en": ""
+      },
+      {
+        "word": "kick-off",
+        "pos": "noun",
+        "meaning_en": "the official start of a project or event",
+        "meaning_ar": "الانطلاقة / البداية الرسمية",
+        "note_ar": "من ضربة البداية في كرة القدم",
+        "example": "The project kick-off is at 9 a.m.",
+        "note_en": "From the kick that starts a football match."
+      },
+      {
+        "word": "informal",
+        "pos": "adjective",
+        "meaning_en": "relaxed, not official",
+        "meaning_ar": "غير رسمي",
+        "note_ar": "in + formal",
+        "example": "Friday's session is informal but fun.",
+        "note_en": "in + formal (\"in-\" makes the opposite)."
+      },
+      {
+        "word": "productive",
+        "pos": "adjective",
+        "meaning_en": "getting a lot of useful work done",
+        "meaning_ar": "منتج / مثمر",
+        "note_ar": "produce → productive",
+        "example": "Let's make this week productive.",
+        "note_en": "produce → productive."
+      },
+      {
+        "word": "due date",
+        "pos": "noun",
+        "meaning_en": "the planned date when something should be paid or given",
+        "meaning_ar": "تاريخ الاستحقاق",
+        "note_ar": "",
+        "example": "The due date for the phone bill is the 15th.",
+        "note_en": ""
+      },
+      {
+        "word": "leader",
+        "pos": "noun",
+        "meaning_en": "a person who inspires and guides a team",
+        "meaning_ar": "قائد",
+        "note_ar": "lead = يقود",
+        "example": "A good leader says \"let's do it together\".",
+        "note_en": "lead = to guide or direct people."
+      }
     ],
     "fine_lines": [
       {
         "title": "due date vs deadline",
-        "words": ["due date", "deadline"],
+        "words": [
+          "due date",
+          "deadline"
+        ],
         "explanation_ar": "due date الموعد المخطط في التقويم لتسليم شيء أو دفع فاتورة عادية، وغالباً توجد فترة سماح بعده بدون عواقب فورية. deadline الموعد النهائي الحاسم، وتجاوزه يسبب مشكلة حقيقية أو فشلاً في المشروع.",
         "examples": [
-          {"word": "due date", "sentence": "The due date for the electricity bill is the first of every month."},
-          {"word": "deadline", "sentence": "The team worked late to meet the project deadline."}
-        ]
+          {
+            "word": "due date",
+            "sentence": "The due date for the electricity bill is the first of every month."
+          },
+          {
+            "word": "deadline",
+            "sentence": "The team worked late to meet the project deadline."
+          }
+        ],
+        "explanation_en": "A due date is the planned date in the calendar to hand something in or pay a normal bill; often there is some extra time after it with no serious result. A deadline is the final, critical date, and missing it causes a real problem or makes the project fail."
       },
       {
         "title": "boss vs manager vs leader",
-        "words": ["boss", "manager", "leader"],
+        "words": [
+          "boss",
+          "manager",
+          "leader"
+        ],
         "explanation_ar": "boss صاحب السلطة الرسمية الذي يملك القرار ويعطي الأوامر المباشرة. manager إداري متخصص ينظّم العمليات ويدير الموارد والمهام بكفاءة داخل قسم معين. leader الشخص الملهم الذي يبث الحماس في الفريق ويقوده نحو النجاح حتى لو لم يكن له منصب أعلى. يقال: المدير يقول «اذهبوا واعملوا»، والقائد يقول «هيا نعمل معاً».",
         "examples": [
-          {"word": "boss", "sentence": "The boss decided to open a new branch."},
-          {"word": "manager", "sentence": "The sales manager organises the team's tasks."},
-          {"word": "leader", "sentence": "She has the same job title as us, but she is the real leader of the team."}
-        ]
+          {
+            "word": "boss",
+            "sentence": "The boss decided to open a new branch."
+          },
+          {
+            "word": "manager",
+            "sentence": "The sales manager organises the team's tasks."
+          },
+          {
+            "word": "leader",
+            "sentence": "She has the same job title as us, but she is the real leader of the team."
+          }
+        ],
+        "explanation_en": "A boss has official power, makes decisions and gives direct orders. A manager is an organiser who runs processes and manages resources and tasks well inside a department. A leader inspires the team, makes people excited and guides them to success, even without a higher position. People say: a boss says \"Go and work\", but a leader says \"Let's work together\"."
       },
       {
         "title": "corridor vs hallway",
-        "words": ["corridor", "hallway"],
+        "words": [
+          "corridor",
+          "hallway"
+        ],
         "explanation_ar": "الاثنان بمعنى ممر داخل المبنى. hallway أشيع في الإنجليزية الأمريكية، و corridor شائعة في البريطانية والأمريكية خاصة في المباني الكبيرة كالمكاتب والمستشفيات.",
         "examples": [
-          {"word": "corridor", "sentence": "The meeting room is down the corridor on the left."},
-          {"word": "hallway", "sentence": "Leave your shoes in the hallway."}
-        ]
+          {
+            "word": "corridor",
+            "sentence": "The meeting room is down the corridor on the left."
+          },
+          {
+            "word": "hallway",
+            "sentence": "Leave your shoes in the hallway."
+          }
+        ],
+        "explanation_en": "Both mean a passage inside a building. \"Hallway\" is more common in American English, and \"corridor\" is common in both British and American English, especially in large buildings like offices and hospitals."
       }
     ],
     "expressions": [
-      {"phrase": "touch base", "meaning_ar": "يتواصل بسرعة مع شخص للاطمئنان على سير العمل", "example": "Let's touch base tomorrow morning before the client meeting."},
-      {"phrase": "kick off a project", "meaning_ar": "يبدأ المشروع رسمياً", "example": "We will kick off the project on Monday."},
-      {"phrase": "stay on schedule", "meaning_ar": "يلتزم بالجدول الزمني", "example": "Let's stay on schedule and finish by Friday."},
-      {"phrase": "meet a deadline", "meaning_ar": "يلتزم بالموعد النهائي ويسلّم في الوقت", "example": "We worked all night to meet the deadline."},
-      {"phrase": "lead a presentation", "meaning_ar": "يقود / يقدّم العرض التقديمي", "example": "Sarah will lead the presentation on Tuesday."},
-      {"phrase": "I'm loving it", "meaning_ar": "أنا مستمتع به جداً الآن", "example": "My new job? I'm loving it!"}
+      {
+        "phrase": "touch base",
+        "meaning_ar": "يتواصل بسرعة مع شخص للاطمئنان على سير العمل",
+        "example": "Let's touch base tomorrow morning before the client meeting.",
+        "meaning_en": "to contact someone quickly to check how the work is going"
+      },
+      {
+        "phrase": "kick off a project",
+        "meaning_ar": "يبدأ المشروع رسمياً",
+        "example": "We will kick off the project on Monday.",
+        "meaning_en": "to start a project officially"
+      },
+      {
+        "phrase": "stay on schedule",
+        "meaning_ar": "يلتزم بالجدول الزمني",
+        "example": "Let's stay on schedule and finish by Friday.",
+        "meaning_en": "to keep to the planned timetable"
+      },
+      {
+        "phrase": "meet a deadline",
+        "meaning_ar": "يلتزم بالموعد النهائي ويسلّم في الوقت",
+        "example": "We worked all night to meet the deadline.",
+        "meaning_en": "to finish and hand in work on time"
+      },
+      {
+        "phrase": "lead a presentation",
+        "meaning_ar": "يقود / يقدّم العرض التقديمي",
+        "example": "Sarah will lead the presentation on Tuesday.",
+        "meaning_en": "to lead or give the presentation"
+      },
+      {
+        "phrase": "I'm loving it",
+        "meaning_ar": "أنا مستمتع به جداً الآن",
+        "example": "My new job? I'm loving it!",
+        "meaning_en": "I'm really enjoying it right now"
+      }
     ],
     "grammar": [
       {
@@ -87,20 +455,131 @@
           "I love my job. (general fact)",
           "I'm loving this marketing project. (enjoying it now)",
           "How's your first day? I'm really liking it!"
-        ]
+        ],
+        "explanation_en": "Traditional grammar books say that feeling verbs like \"love\" and \"like\" are state verbs and don't take -ing. But in modern spoken English, native speakers use them in the continuous form to say they are enjoying an experience right now, for a limited time, not as a general fact. That's why McDonald's chose the slogan \"I'm lovin' it\". Both forms are correct, but the continuous form gives a feeling of excitement in the moment."
       }
     ]
   },
   "questions": [
-    {"question": "A small work space with low walls in an open office is a:", "choices": ["corridor", "cubicle", "cafeteria", "reception"], "answer": 1, "explanation_ar": "cubicle = مكتب صغير مقسّم بحواجز."},
-    {"question": "If you miss this date, the project fails. It is the:", "choices": ["deadline", "due date", "schedule", "kick-off"], "answer": 0, "explanation_ar": "deadline الموعد الحاسم وتجاوزه له عواقب."},
-    {"question": "A student who works for a short time to gain experience is an:", "choices": ["employer", "accountant", "intern", "boss"], "answer": 2, "explanation_ar": "intern = متدرب."},
-    {"question": "\"Let's touch base tomorrow\" means:", "choices": ["let's play baseball", "let's have a short talk to check how things are going", "let's leave the office", "let's cancel the meeting"], "answer": 1, "explanation_ar": "touch base = تواصل سريع للاطمئنان على سير العمل."},
-    {"question": "Which person inspires the team, even without an official high position?", "choices": ["the boss", "the receptionist", "the intern", "the leader"], "answer": 3, "explanation_ar": "leader الشخص الملهم الذي يقود الفريق."},
-    {"question": "\"I'm loving this project\" means the speaker:", "choices": ["is enjoying the project right now", "hates the project", "made a grammar mistake", "finished the project"], "answer": 0, "explanation_ar": "الاستمرار مع love يعبّر عن استمتاع لحظي ومؤقت."},
-    {"question": "Please ___ everything in the shared folder by 5 p.m.", "choices": ["kick", "submit", "touch", "schedule"], "answer": 1, "explanation_ar": "submit = يسلّم / يرفع العمل."},
-    {"question": "The modern name for a secretary is:", "choices": ["receptionist", "intern", "client", "administrative assistant"], "answer": 3, "explanation_ar": "administrative assistant = مساعد إداري."},
-    {"question": "The official start of a project is the:", "choices": ["deadline", "memo", "kick-off", "due date"], "answer": 2, "explanation_ar": "kick-off من ضربة البداية في كرة القدم."},
-    {"question": "A short official message sent to all staff inside a company is a:", "choices": ["memo", "report", "folder", "presentation"], "answer": 0, "explanation_ar": "memo = مذكرة داخلية."}
+    {
+      "question": "A small work space with low walls in an open office is a:",
+      "choices": [
+        "corridor",
+        "cubicle",
+        "cafeteria",
+        "reception"
+      ],
+      "answer": 1,
+      "explanation_ar": "cubicle = مكتب صغير مقسّم بحواجز.",
+      "explanation_en": "A cubicle is a small work space separated by low walls."
+    },
+    {
+      "question": "If you miss this date, the project fails. It is the:",
+      "choices": [
+        "deadline",
+        "due date",
+        "schedule",
+        "kick-off"
+      ],
+      "answer": 0,
+      "explanation_ar": "deadline الموعد الحاسم وتجاوزه له عواقب.",
+      "explanation_en": "A deadline is the critical date; missing it has serious results."
+    },
+    {
+      "question": "A student who works for a short time to gain experience is an:",
+      "choices": [
+        "employer",
+        "accountant",
+        "intern",
+        "boss"
+      ],
+      "answer": 2,
+      "explanation_ar": "intern = متدرب.",
+      "explanation_en": "An intern is a student or trainee who works for a short time to gain experience."
+    },
+    {
+      "question": "\"Let's touch base tomorrow\" means:",
+      "choices": [
+        "let's play baseball",
+        "let's have a short talk to check how things are going",
+        "let's leave the office",
+        "let's cancel the meeting"
+      ],
+      "answer": 1,
+      "explanation_ar": "touch base = تواصل سريع للاطمئنان على سير العمل.",
+      "explanation_en": "\"Touch base\" = make quick contact to check how the work is going."
+    },
+    {
+      "question": "Which person inspires the team, even without an official high position?",
+      "choices": [
+        "the boss",
+        "the receptionist",
+        "the intern",
+        "the leader"
+      ],
+      "answer": 3,
+      "explanation_ar": "leader الشخص الملهم الذي يقود الفريق.",
+      "explanation_en": "A leader is the person who inspires and guides the team."
+    },
+    {
+      "question": "\"I'm loving this project\" means the speaker:",
+      "choices": [
+        "is enjoying the project right now",
+        "hates the project",
+        "made a grammar mistake",
+        "finished the project"
+      ],
+      "answer": 0,
+      "explanation_ar": "الاستمرار مع love يعبّر عن استمتاع لحظي ومؤقت.",
+      "explanation_en": "\"Love\" in the continuous form shows enjoyment right now, for a limited time."
+    },
+    {
+      "question": "Please ___ everything in the shared folder by 5 p.m.",
+      "choices": [
+        "kick",
+        "submit",
+        "touch",
+        "schedule"
+      ],
+      "answer": 1,
+      "explanation_ar": "submit = يسلّم / يرفع العمل.",
+      "explanation_en": "Submit = to hand in or upload your work."
+    },
+    {
+      "question": "The modern name for a secretary is:",
+      "choices": [
+        "receptionist",
+        "intern",
+        "client",
+        "administrative assistant"
+      ],
+      "answer": 3,
+      "explanation_ar": "administrative assistant = مساعد إداري.",
+      "explanation_en": "Administrative assistant is the modern name."
+    },
+    {
+      "question": "The official start of a project is the:",
+      "choices": [
+        "deadline",
+        "memo",
+        "kick-off",
+        "due date"
+      ],
+      "answer": 2,
+      "explanation_ar": "kick-off من ضربة البداية في كرة القدم.",
+      "explanation_en": "\"Kick-off\" comes from the kick that starts a football match."
+    },
+    {
+      "question": "A short official message sent to all staff inside a company is a:",
+      "choices": [
+        "memo",
+        "report",
+        "folder",
+        "presentation"
+      ],
+      "answer": 0,
+      "explanation_ar": "memo = مذكرة داخلية.",
+      "explanation_en": "A memo is a short internal message inside a company."
+    }
   ]
 }

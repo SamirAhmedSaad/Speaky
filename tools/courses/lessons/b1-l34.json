@@ -2,108 +2,554 @@
   "title": "Salaries and Job Benefits",
   "content": {
     "vocabulary": [
-      {"word": "salary", "pos": "noun", "meaning_en": "fixed money you get for your job, usually every month", "meaning_ar": "راتب شهري", "note_ar": "", "example": "Her salary is paid at the end of each month."},
-      {"word": "wage", "pos": "noun", "meaning_en": "money paid for each hour, day or week you work", "meaning_ar": "أجر (بالساعة أو اليوم أو الأسبوع)", "note_ar": "hourly wage = أجر بالساعة، weekly wage = أجر أسبوعي", "example": "Factory workers often get an hourly wage."},
-      {"word": "income", "pos": "noun", "meaning_en": "all the money you receive from every source", "meaning_ar": "الدخل", "note_ar": "الراتب جزء فقط من الدخل", "example": "Her income comes from her job and from renting a flat."},
-      {"word": "paycheck / payslip", "pos": "noun", "meaning_en": "the payment or paper that shows your salary", "meaning_ar": "شيك الراتب / قسيمة الراتب", "note_ar": "paycheck أمريكي وتُكتب كلمة واحدة، payslip بريطاني", "example": "Check your payslip to see the deductions."},
-      {"word": "raise / pay rise", "pos": "noun", "meaning_en": "an increase in your salary", "meaning_ar": "زيادة في الراتب", "note_ar": "raise أمريكي، pay rise بريطاني؛ من الفعل raise = يرفع", "example": "I asked my manager for a raise."},
-      {"word": "bonus", "pos": "noun", "meaning_en": "extra money given as a reward", "meaning_ar": "مكافأة مالية", "note_ar": "", "example": "Everyone got a bonus at the end of the year."},
-      {"word": "overtime", "pos": "noun", "meaning_en": "extra hours you work after your normal time", "meaning_ar": "ساعات عمل إضافية", "note_ar": "", "example": "I worked three hours of overtime yesterday."},
-      {"word": "benefits", "pos": "noun", "meaning_en": "extra things a company gives workers besides pay", "meaning_ar": "مزايا وظيفية", "note_ar": "", "example": "The job has good benefits, like health insurance."},
-      {"word": "insurance", "pos": "noun", "meaning_en": "an agreement that pays you money if you are ill, hurt or lose something", "meaning_ar": "تأمين", "note_ar": "تُنطق /ɪnˈʃʊərəns/ أو /ɪnˈʃɔːrəns/ والنطقان صحيحان", "example": "The company gives us health and life insurance."},
-      {"word": "healthcare", "pos": "noun", "meaning_en": "medical services that keep people healthy", "meaning_ar": "الرعاية الصحية", "note_ar": "تُكتب كلمة واحدة أو كلمتين health care", "example": "Free healthcare is one of the benefits."},
-      {"word": "coverage", "pos": "noun", "meaning_en": "what an insurance plan pays for", "meaning_ar": "التغطية (التأمينية)", "note_ar": "من الفعل cover = يغطي", "example": "Our insurance coverage includes eye tests."},
-      {"word": "retirement", "pos": "noun", "meaning_en": "the time when you stop working because of your age", "meaning_ar": "التقاعد", "note_ar": "early retirement = تقاعد مبكر؛ retire = يتقاعد", "example": "He plans to travel after his retirement."},
-      {"word": "pension", "pos": "noun", "meaning_en": "money paid regularly to a person after they retire", "meaning_ar": "معاش التقاعد", "note_ar": "", "example": "My grandfather lives on his pension."},
-      {"word": "holiday", "pos": "noun", "meaning_en": "an official day when schools and offices are closed", "meaning_ar": "عطلة رسمية", "note_ar": "في بريطانيا holiday تعني أيضاً الإجازة الشخصية", "example": "The office is closed for the national holiday."},
-      {"word": "vacation", "pos": "noun", "meaning_en": "time you choose to take off work to rest or travel", "meaning_ar": "إجازة شخصية", "note_ar": "", "example": "I'm taking a two-week vacation in August."},
-      {"word": "sick leave", "pos": "noun", "meaning_en": "time off work when you are ill", "meaning_ar": "إجازة مرضية", "note_ar": "leave هنا اسم = إذن رسمي بالغياب، وليس الفعل «يغادر»", "example": "She's on sick leave this week."},
-      {"word": "maternity leave", "pos": "noun", "meaning_en": "paid time off for a mother before and after a baby is born", "meaning_ar": "إجازة أمومة", "note_ar": "maternity من الكلمة اللاتينية للأم", "example": "She will return after six months of maternity leave."},
-      {"word": "tax", "pos": "noun", "meaning_en": "money people must pay to the government", "meaning_ar": "ضريبة", "note_ar": "", "example": "Taxes pay for schools and hospitals."},
-      {"word": "deduction", "pos": "noun", "meaning_en": "an amount taken away from your total pay", "meaning_ar": "استقطاع / خصم من الراتب", "note_ar": "deduct = يخصم", "example": "After deductions, my salary is lower."},
-      {"word": "allowance", "pos": "noun", "meaning_en": "extra money given for a special purpose", "meaning_ar": "بدل (مالي)", "note_ar": "housing allowance = بدل سكن، transport allowance = بدل مواصلات", "example": "The company pays a monthly housing allowance."},
-      {"word": "budget", "pos": "noun", "meaning_en": "a plan of how to spend money", "meaning_ar": "ميزانية", "note_ar": "", "example": "We need to stay within our budget."},
-      {"word": "savings", "pos": "noun", "meaning_en": "money you keep and don't spend", "meaning_ar": "مدّخرات", "note_ar": "من save = يدّخر", "example": "I used my savings to buy a car."},
-      {"word": "fair", "pos": "adjective", "meaning_en": "treating everyone equally and rightly", "meaning_ar": "عادل / منصف", "note_ar": "عكسها unfair = ظالم", "example": "Workers want a fair salary."},
-      {"word": "generous", "pos": "adjective", "meaning_en": "giving more than is usual or expected", "meaning_ar": "سخيّ", "note_ar": "", "example": "The company offered a generous bonus."},
-      {"word": "regular", "pos": "adjective", "meaning_en": "happening at fixed times", "meaning_ar": "منتظم / دوري", "note_ar": "", "example": "You will get regular payments every month."},
-      {"word": "monthly", "pos": "adjective", "meaning_en": "happening once a month", "meaning_ar": "شهري", "note_ar": "", "example": "We have a monthly team meeting."},
-      {"word": "annual / yearly", "pos": "adjective", "meaning_en": "happening once a year", "meaning_ar": "سنوي", "note_ar": "", "example": "Your annual leave is 21 days."},
-      {"word": "compensate", "pos": "verb", "meaning_en": "to pay someone for work, loss or effort", "meaning_ar": "يعوّض ماليّاً", "note_ar": "compensation = تعويض", "example": "Staff will be compensated for overtime."},
-      {"word": "entitled to", "pos": "adjective", "meaning_en": "having the right to have or do something", "meaning_ar": "يحقّ له / مستحقّ لـ", "note_ar": "be entitled to + اسم", "example": "Employees are entitled to 30 days of leave."},
-      {"word": "HR", "pos": "noun", "meaning_en": "the department that deals with staff, contracts and pay", "meaning_ar": "إدارة الموارد البشرية", "note_ar": "اختصار Human Resources", "example": "For questions about your contract, contact HR."},
-      {"word": "staff", "pos": "noun", "meaning_en": "all the people who work for a company", "meaning_ar": "طاقم الموظفين", "note_ar": "اسم جمعي، لا نقول staffs", "example": "All staff must attend the meeting."},
-      {"word": "regarding", "pos": "preposition", "meaning_en": "about; on the subject of", "meaning_ar": "بخصوص / فيما يتعلق بـ", "note_ar": "", "example": "I'm writing regarding my salary."}
+      {
+        "word": "salary",
+        "pos": "noun",
+        "meaning_en": "fixed money you get for your job, usually every month",
+        "meaning_ar": "راتب شهري",
+        "note_ar": "",
+        "example": "Her salary is paid at the end of each month.",
+        "note_en": ""
+      },
+      {
+        "word": "wage",
+        "pos": "noun",
+        "meaning_en": "money paid for each hour, day or week you work",
+        "meaning_ar": "أجر (بالساعة أو اليوم أو الأسبوع)",
+        "note_ar": "hourly wage = أجر بالساعة، weekly wage = أجر أسبوعي",
+        "example": "Factory workers often get an hourly wage.",
+        "note_en": "hourly wage = pay for each hour; weekly wage = pay for each week."
+      },
+      {
+        "word": "income",
+        "pos": "noun",
+        "meaning_en": "all the money you receive from every source",
+        "meaning_ar": "الدخل",
+        "note_ar": "الراتب جزء فقط من الدخل",
+        "example": "Her income comes from her job and from renting a flat.",
+        "note_en": "Your salary is only one part of your income."
+      },
+      {
+        "word": "paycheck / payslip",
+        "pos": "noun",
+        "meaning_en": "the payment or paper that shows your salary",
+        "meaning_ar": "شيك الراتب / قسيمة الراتب",
+        "note_ar": "paycheck أمريكي وتُكتب كلمة واحدة، payslip بريطاني",
+        "example": "Check your payslip to see the deductions.",
+        "note_en": "\"Paycheck\" is American and written as one word; \"payslip\" is British."
+      },
+      {
+        "word": "raise / pay rise",
+        "pos": "noun",
+        "meaning_en": "an increase in your salary",
+        "meaning_ar": "زيادة في الراتب",
+        "note_ar": "raise أمريكي، pay rise بريطاني؛ من الفعل raise = يرفع",
+        "example": "I asked my manager for a raise.",
+        "note_en": "\"Raise\" is American, \"pay rise\" is British; from the verb \"raise\" = to make higher."
+      },
+      {
+        "word": "bonus",
+        "pos": "noun",
+        "meaning_en": "extra money given as a reward",
+        "meaning_ar": "مكافأة مالية",
+        "note_ar": "",
+        "example": "Everyone got a bonus at the end of the year.",
+        "note_en": ""
+      },
+      {
+        "word": "overtime",
+        "pos": "noun",
+        "meaning_en": "extra hours you work after your normal time",
+        "meaning_ar": "ساعات عمل إضافية",
+        "note_ar": "",
+        "example": "I worked three hours of overtime yesterday.",
+        "note_en": ""
+      },
+      {
+        "word": "benefits",
+        "pos": "noun",
+        "meaning_en": "extra things a company gives workers besides pay",
+        "meaning_ar": "مزايا وظيفية",
+        "note_ar": "",
+        "example": "The job has good benefits, like health insurance.",
+        "note_en": ""
+      },
+      {
+        "word": "insurance",
+        "pos": "noun",
+        "meaning_en": "an agreement that pays you money if you are ill, hurt or lose something",
+        "meaning_ar": "تأمين",
+        "note_ar": "تُنطق /ɪnˈʃʊərəns/ أو /ɪnˈʃɔːrəns/ والنطقان صحيحان",
+        "example": "The company gives us health and life insurance.",
+        "note_en": "Pronounced /ɪnˈʃʊərəns/ or /ɪnˈʃɔːrəns/; both are correct."
+      },
+      {
+        "word": "healthcare",
+        "pos": "noun",
+        "meaning_en": "medical services that keep people healthy",
+        "meaning_ar": "الرعاية الصحية",
+        "note_ar": "تُكتب كلمة واحدة أو كلمتين health care",
+        "example": "Free healthcare is one of the benefits.",
+        "note_en": "Written as one word or two: health care."
+      },
+      {
+        "word": "coverage",
+        "pos": "noun",
+        "meaning_en": "what an insurance plan pays for",
+        "meaning_ar": "التغطية (التأمينية)",
+        "note_ar": "من الفعل cover = يغطي",
+        "example": "Our insurance coverage includes eye tests.",
+        "note_en": "From the verb \"cover\"."
+      },
+      {
+        "word": "retirement",
+        "pos": "noun",
+        "meaning_en": "the time when you stop working because of your age",
+        "meaning_ar": "التقاعد",
+        "note_ar": "early retirement = تقاعد مبكر؛ retire = يتقاعد",
+        "example": "He plans to travel after his retirement.",
+        "note_en": "early retirement = stopping work before the normal age; retire = to stop working because of age."
+      },
+      {
+        "word": "pension",
+        "pos": "noun",
+        "meaning_en": "money paid regularly to a person after they retire",
+        "meaning_ar": "معاش التقاعد",
+        "note_ar": "",
+        "example": "My grandfather lives on his pension.",
+        "note_en": ""
+      },
+      {
+        "word": "holiday",
+        "pos": "noun",
+        "meaning_en": "an official day when schools and offices are closed",
+        "meaning_ar": "عطلة رسمية",
+        "note_ar": "في بريطانيا holiday تعني أيضاً الإجازة الشخصية",
+        "example": "The office is closed for the national holiday.",
+        "note_en": "In Britain, \"holiday\" also means your personal time off."
+      },
+      {
+        "word": "vacation",
+        "pos": "noun",
+        "meaning_en": "time you choose to take off work to rest or travel",
+        "meaning_ar": "إجازة شخصية",
+        "note_ar": "",
+        "example": "I'm taking a two-week vacation in August.",
+        "note_en": ""
+      },
+      {
+        "word": "sick leave",
+        "pos": "noun",
+        "meaning_en": "time off work when you are ill",
+        "meaning_ar": "إجازة مرضية",
+        "note_ar": "leave هنا اسم = إذن رسمي بالغياب، وليس الفعل «يغادر»",
+        "example": "She's on sick leave this week.",
+        "note_en": "Here \"leave\" is a noun = official permission to be away from work, not the verb \"to go away\"."
+      },
+      {
+        "word": "maternity leave",
+        "pos": "noun",
+        "meaning_en": "paid time off for a mother before and after a baby is born",
+        "meaning_ar": "إجازة أمومة",
+        "note_ar": "maternity من الكلمة اللاتينية للأم",
+        "example": "She will return after six months of maternity leave.",
+        "note_en": "\"Maternity\" comes from the Latin word for \"mother\"."
+      },
+      {
+        "word": "tax",
+        "pos": "noun",
+        "meaning_en": "money people must pay to the government",
+        "meaning_ar": "ضريبة",
+        "note_ar": "",
+        "example": "Taxes pay for schools and hospitals.",
+        "note_en": ""
+      },
+      {
+        "word": "deduction",
+        "pos": "noun",
+        "meaning_en": "an amount taken away from your total pay",
+        "meaning_ar": "استقطاع / خصم من الراتب",
+        "note_ar": "deduct = يخصم",
+        "example": "After deductions, my salary is lower.",
+        "note_en": "deduct = to take an amount away."
+      },
+      {
+        "word": "allowance",
+        "pos": "noun",
+        "meaning_en": "extra money given for a special purpose",
+        "meaning_ar": "بدل (مالي)",
+        "note_ar": "housing allowance = بدل سكن، transport allowance = بدل مواصلات",
+        "example": "The company pays a monthly housing allowance.",
+        "note_en": "housing allowance = extra money for a home; transport allowance = extra money for travel to work."
+      },
+      {
+        "word": "budget",
+        "pos": "noun",
+        "meaning_en": "a plan of how to spend money",
+        "meaning_ar": "ميزانية",
+        "note_ar": "",
+        "example": "We need to stay within our budget.",
+        "note_en": ""
+      },
+      {
+        "word": "savings",
+        "pos": "noun",
+        "meaning_en": "money you keep and don't spend",
+        "meaning_ar": "مدّخرات",
+        "note_ar": "من save = يدّخر",
+        "example": "I used my savings to buy a car.",
+        "note_en": "From \"save\" = to keep money for later."
+      },
+      {
+        "word": "fair",
+        "pos": "adjective",
+        "meaning_en": "treating everyone equally and rightly",
+        "meaning_ar": "عادل / منصف",
+        "note_ar": "عكسها unfair = ظالم",
+        "example": "Workers want a fair salary.",
+        "note_en": "The opposite is \"unfair\"."
+      },
+      {
+        "word": "generous",
+        "pos": "adjective",
+        "meaning_en": "giving more than is usual or expected",
+        "meaning_ar": "سخيّ",
+        "note_ar": "",
+        "example": "The company offered a generous bonus.",
+        "note_en": ""
+      },
+      {
+        "word": "regular",
+        "pos": "adjective",
+        "meaning_en": "happening at fixed times",
+        "meaning_ar": "منتظم / دوري",
+        "note_ar": "",
+        "example": "You will get regular payments every month.",
+        "note_en": ""
+      },
+      {
+        "word": "monthly",
+        "pos": "adjective",
+        "meaning_en": "happening once a month",
+        "meaning_ar": "شهري",
+        "note_ar": "",
+        "example": "We have a monthly team meeting.",
+        "note_en": ""
+      },
+      {
+        "word": "annual / yearly",
+        "pos": "adjective",
+        "meaning_en": "happening once a year",
+        "meaning_ar": "سنوي",
+        "note_ar": "",
+        "example": "Your annual leave is 21 days.",
+        "note_en": ""
+      },
+      {
+        "word": "compensate",
+        "pos": "verb",
+        "meaning_en": "to pay someone for work, loss or effort",
+        "meaning_ar": "يعوّض ماليّاً",
+        "note_ar": "compensation = تعويض",
+        "example": "Staff will be compensated for overtime.",
+        "note_en": "compensation = money or something given to make up for a loss or for work."
+      },
+      {
+        "word": "entitled to",
+        "pos": "adjective",
+        "meaning_en": "having the right to have or do something",
+        "meaning_ar": "يحقّ له / مستحقّ لـ",
+        "note_ar": "be entitled to + اسم",
+        "example": "Employees are entitled to 30 days of leave.",
+        "note_en": "be entitled to + noun"
+      },
+      {
+        "word": "HR",
+        "pos": "noun",
+        "meaning_en": "the department that deals with staff, contracts and pay",
+        "meaning_ar": "إدارة الموارد البشرية",
+        "note_ar": "اختصار Human Resources",
+        "example": "For questions about your contract, contact HR.",
+        "note_en": "Short for Human Resources."
+      },
+      {
+        "word": "staff",
+        "pos": "noun",
+        "meaning_en": "all the people who work for a company",
+        "meaning_ar": "طاقم الموظفين",
+        "note_ar": "اسم جمعي، لا نقول staffs",
+        "example": "All staff must attend the meeting.",
+        "note_en": "A collective noun; don't say \"staffs\"."
+      },
+      {
+        "word": "regarding",
+        "pos": "preposition",
+        "meaning_en": "about; on the subject of",
+        "meaning_ar": "بخصوص / فيما يتعلق بـ",
+        "note_ar": "",
+        "example": "I'm writing regarding my salary.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "salary vs wage",
-        "words": ["salary", "wage"],
+        "words": [
+          "salary",
+          "wage"
+        ],
         "explanation_ar": "salary راتب ثابت شهري لا يتغيّر بعدد الساعات، وغالباً لموظفي المكاتب. wage أجر يُحسب حسب عدد الساعات أو الأيام التي عملتها، ويُدفع يومياً أو أسبوعياً، وغالباً لعمال المصانع والبناء والحرفيين.",
         "examples": [
-          {"word": "salary", "sentence": "She earns a good monthly salary as an accountant."},
-          {"word": "wage", "sentence": "He gets an hourly wage of fifteen dollars."}
-        ]
+          {
+            "word": "salary",
+            "sentence": "She earns a good monthly salary as an accountant."
+          },
+          {
+            "word": "wage",
+            "sentence": "He gets an hourly wage of fifteen dollars."
+          }
+        ],
+        "explanation_en": "A salary is fixed monthly pay that doesn't change with the number of hours, usually for office workers. A wage is pay based on the number of hours or days you worked, paid daily or weekly, usually for factory workers, builders and tradespeople."
       },
       {
         "title": "holiday vs vacation",
-        "words": ["holiday", "vacation"],
+        "words": [
+          "holiday",
+          "vacation"
+        ],
         "explanation_ar": "holiday عطلة رسمية عامة تُغلق فيها المدارس والشركات مثل العيد. vacation وقتك الشخصي الذي تأخذه من العمل حسب رغبتك للسفر أو الراحة. (في بريطانيا تُستخدم holiday للمعنيين.)",
         "examples": [
-          {"word": "holiday", "sentence": "New Year's Day is a public holiday."},
-          {"word": "vacation", "sentence": "We're going to the beach for our summer vacation."}
-        ]
+          {
+            "word": "holiday",
+            "sentence": "New Year's Day is a public holiday."
+          },
+          {
+            "word": "vacation",
+            "sentence": "We're going to the beach for our summer vacation."
+          }
+        ],
+        "explanation_en": "A holiday is an official public day off when schools and companies close, like Eid. A vacation is your personal time off work that you choose, for travel or rest. (In Britain, \"holiday\" is used for both meanings.)"
       },
       {
         "title": "retirement vs pension",
-        "words": ["retirement", "pension"],
+        "words": [
+          "retirement",
+          "pension"
+        ],
         "explanation_ar": "retirement هي المرحلة أو الحالة: توقّفك عن العمل عند سن التقاعد. pension هو المال نفسه: الدفعة الشهرية التي تصلك بعد التقاعد لتصرف منها. تذكّر: تدخل مرحلة retirement، و pension هو ما يغطّي مصاريفك.",
         "examples": [
-          {"word": "retirement", "sentence": "My father is enjoying his retirement."},
-          {"word": "pension", "sentence": "Her pension is paid on the first day of every month."}
-        ]
+          {
+            "word": "retirement",
+            "sentence": "My father is enjoying his retirement."
+          },
+          {
+            "word": "pension",
+            "sentence": "Her pension is paid on the first day of every month."
+          }
+        ],
+        "explanation_en": "Retirement is the stage or situation: stopping work when you reach retirement age. A pension is the money itself: the monthly payment you get after you retire to live on. Remember: you enter retirement, and your pension pays your bills."
       },
       {
         "title": "income vs salary",
-        "words": ["income", "salary"],
+        "words": [
+          "income",
+          "salary"
+        ],
         "explanation_ar": "salary المال الذي تأخذه من وظيفتك فقط. income كل المال الذي يدخل جيبك من كل المصادر: الوظيفة والاستثمار والتجارة والإيجار. الراتب جزء من الدخل.",
         "examples": [
-          {"word": "income", "sentence": "Renting out the shop adds to his income."},
-          {"word": "salary", "sentence": "My salary went up by ten percent."}
-        ]
+          {
+            "word": "income",
+            "sentence": "Renting out the shop adds to his income."
+          },
+          {
+            "word": "salary",
+            "sentence": "My salary went up by ten percent."
+          }
+        ],
+        "explanation_en": "Salary is the money you get from your job only. Income is all the money you receive from every source: your job, investments, business and rent. Your salary is part of your income."
       }
     ],
     "expressions": [
-      {"phrase": "foot the bill", "meaning_ar": "يتحمّل التكلفة كاملة / يدفع الحساب", "example": "The company will foot the bill for the hotel."},
-      {"phrase": "on a monthly basis", "meaning_ar": "بشكل شهري منتظم", "example": "Salaries are paid on a monthly basis."},
-      {"phrase": "ask for a raise", "meaning_ar": "يطلب زيادة في الراتب", "example": "After two great years, she asked for a raise."},
-      {"phrase": "be entitled to", "meaning_ar": "يحقّ له", "example": "You are entitled to sick leave."},
-      {"phrase": "work overtime", "meaning_ar": "يعمل ساعات إضافية", "example": "We worked overtime to finish the order."},
-      {"phrase": "as well as", "meaning_ar": "بالإضافة إلى", "example": "We offer healthcare as well as a pension plan."}
+      {
+        "phrase": "foot the bill",
+        "meaning_ar": "يتحمّل التكلفة كاملة / يدفع الحساب",
+        "example": "The company will foot the bill for the hotel.",
+        "meaning_en": "to pay the full cost"
+      },
+      {
+        "phrase": "on a monthly basis",
+        "meaning_ar": "بشكل شهري منتظم",
+        "example": "Salaries are paid on a monthly basis.",
+        "meaning_en": "regularly, every month"
+      },
+      {
+        "phrase": "ask for a raise",
+        "meaning_ar": "يطلب زيادة في الراتب",
+        "example": "After two great years, she asked for a raise.",
+        "meaning_en": "to request higher pay"
+      },
+      {
+        "phrase": "be entitled to",
+        "meaning_ar": "يحقّ له",
+        "example": "You are entitled to sick leave.",
+        "meaning_en": "to have the right to something"
+      },
+      {
+        "phrase": "work overtime",
+        "meaning_ar": "يعمل ساعات إضافية",
+        "example": "We worked overtime to finish the order.",
+        "meaning_en": "to work extra hours"
+      },
+      {
+        "phrase": "as well as",
+        "meaning_ar": "بالإضافة إلى",
+        "example": "We offer healthcare as well as a pension plan.",
+        "meaning_en": "and also; in addition to"
+      }
     ],
     "grammar": [
       {
         "title": "Present simple for timetables and schedules",
         "explanation_ar": "نستخدم المضارع البسيط للحديث عن المستقبل عندما يكون الحدث مقرراً في جدول رسمي ثابت (مواعيد القطارات والطيران والرواتب ودوام الشركة)، لأن المتحدث يراه حقيقة ثابتة مثل شروق الشمس. أما الخطط الشخصية القابلة للتغيير فنستخدم معها will أو going to.",
-        "examples": ["Our salaries come out on the last Friday of the month.", "The train leaves at 6:30 tonight.", "The contract ends on December 31st."]
+        "examples": [
+          "Our salaries come out on the last Friday of the month.",
+          "The train leaves at 6:30 tonight.",
+          "The contract ends on December 31st."
+        ],
+        "explanation_en": "Use the present simple to talk about the future when an event is fixed on an official timetable (train and flight times, pay days, company working hours), because the speaker sees it as a fixed fact, like the sun rising. For personal plans that can change, use \"will\" or \"going to\"."
       },
       {
         "title": "will / going to for personal plans",
         "explanation_ar": "القرارات والنوايا الشخصية التي يمكن أن تتغير أو تتأجل نستخدم معها will أو be going to، وليس المضارع البسيط.",
-        "examples": ["I'm going to buy a car next year.", "I will call you later.", "Maybe I'll ask for a raise."]
+        "examples": [
+          "I'm going to buy a car next year.",
+          "I will call you later.",
+          "Maybe I'll ask for a raise."
+        ],
+        "explanation_en": "For personal decisions and plans that can change or be delayed, use \"will\" or \"be going to\", not the present simple."
       }
     ]
   },
   "questions": [
-    {"question": "A factory worker who is paid for every hour gets a:", "choices": ["pension", "wage", "budget", "deduction"], "answer": 1, "explanation_ar": "wage أجر يُحسب بالساعة أو اليوم."},
-    {"question": "Money you receive every month after you stop working is a:", "choices": ["bonus", "raise", "pension", "tax"], "answer": 2, "explanation_ar": "pension = معاش التقاعد."},
-    {"question": "Choose the best sentence about an official timetable:", "choices": ["The train will maybe leave at 6.", "The train leaves at 6 tomorrow.", "The train is leaving maybe at 6.", "The train going to leave at 6."], "answer": 1, "explanation_ar": "للجداول الرسمية نستخدم المضارع البسيط."},
-    {"question": "\"The company will foot the bill\" means the company will:", "choices": ["pay the whole cost", "check the bill", "send the bill back", "share the bill with us"], "answer": 0, "explanation_ar": "foot the bill = يتحمّل التكلفة كاملة."},
-    {"question": "Extra money given for housing or transport is an:", "choices": ["income", "overtime", "insurance", "allowance"], "answer": 3, "explanation_ar": "allowance = بدل مالي لغرض محدد."},
-    {"question": "A public day when offices and schools are closed is a:", "choices": ["holiday", "vacation", "sick leave", "deadline"], "answer": 0, "explanation_ar": "holiday = عطلة رسمية عامة."},
-    {"question": "Employees ___ 30 days of annual leave.", "choices": ["are entitled for", "are entitled to", "entitle to", "are entitled with"], "answer": 1, "explanation_ar": "be entitled to = يحقّ له."},
-    {"question": "\"Leave\" in \"sick leave\" means:", "choices": ["to go away", "a green part of a tree", "official permission to be away from work", "a piece of paper"], "answer": 2, "explanation_ar": "leave هنا اسم = إذن رسمي بالغياب."},
-    {"question": "Money taken away from your total salary, like tax, is a:", "choices": ["raise", "bonus", "benefit", "deduction"], "answer": 3, "explanation_ar": "deduction = استقطاع من الراتب."},
-    {"question": "All the money you get from your job, investments and rent is your:", "choices": ["income", "salary", "wage", "pension"], "answer": 0, "explanation_ar": "income = الدخل من كل المصادر."}
+    {
+      "question": "A factory worker who is paid for every hour gets a:",
+      "choices": [
+        "pension",
+        "wage",
+        "budget",
+        "deduction"
+      ],
+      "answer": 1,
+      "explanation_ar": "wage أجر يُحسب بالساعة أو اليوم.",
+      "explanation_en": "A wage is pay based on hours or days worked."
+    },
+    {
+      "question": "Money you receive every month after you stop working is a:",
+      "choices": [
+        "bonus",
+        "raise",
+        "pension",
+        "tax"
+      ],
+      "answer": 2,
+      "explanation_ar": "pension = معاش التقاعد.",
+      "explanation_en": "A pension is the money you get after you retire."
+    },
+    {
+      "question": "Choose the best sentence about an official timetable:",
+      "choices": [
+        "The train will maybe leave at 6.",
+        "The train leaves at 6 tomorrow.",
+        "The train is leaving maybe at 6.",
+        "The train going to leave at 6."
+      ],
+      "answer": 1,
+      "explanation_ar": "للجداول الرسمية نستخدم المضارع البسيط.",
+      "explanation_en": "For official timetables we use the present simple."
+    },
+    {
+      "question": "\"The company will foot the bill\" means the company will:",
+      "choices": [
+        "pay the whole cost",
+        "check the bill",
+        "send the bill back",
+        "share the bill with us"
+      ],
+      "answer": 0,
+      "explanation_ar": "foot the bill = يتحمّل التكلفة كاملة.",
+      "explanation_en": "\"Foot the bill\" = to pay the full cost."
+    },
+    {
+      "question": "Extra money given for housing or transport is an:",
+      "choices": [
+        "income",
+        "overtime",
+        "insurance",
+        "allowance"
+      ],
+      "answer": 3,
+      "explanation_ar": "allowance = بدل مالي لغرض محدد.",
+      "explanation_en": "An allowance is extra money for a specific purpose."
+    },
+    {
+      "question": "A public day when offices and schools are closed is a:",
+      "choices": [
+        "holiday",
+        "vacation",
+        "sick leave",
+        "deadline"
+      ],
+      "answer": 0,
+      "explanation_ar": "holiday = عطلة رسمية عامة.",
+      "explanation_en": "A holiday is an official public day off."
+    },
+    {
+      "question": "Employees ___ 30 days of annual leave.",
+      "choices": [
+        "are entitled for",
+        "are entitled to",
+        "entitle to",
+        "are entitled with"
+      ],
+      "answer": 1,
+      "explanation_ar": "be entitled to = يحقّ له.",
+      "explanation_en": "\"Be entitled to\" = to have the right to something."
+    },
+    {
+      "question": "\"Leave\" in \"sick leave\" means:",
+      "choices": [
+        "to go away",
+        "a green part of a tree",
+        "official permission to be away from work",
+        "a piece of paper"
+      ],
+      "answer": 2,
+      "explanation_ar": "leave هنا اسم = إذن رسمي بالغياب.",
+      "explanation_en": "Here \"leave\" is a noun = official permission to be away from work."
+    },
+    {
+      "question": "Money taken away from your total salary, like tax, is a:",
+      "choices": [
+        "raise",
+        "bonus",
+        "benefit",
+        "deduction"
+      ],
+      "answer": 3,
+      "explanation_ar": "deduction = استقطاع من الراتب.",
+      "explanation_en": "A deduction is money taken away from your salary."
+    },
+    {
+      "question": "All the money you get from your job, investments and rent is your:",
+      "choices": [
+        "income",
+        "salary",
+        "wage",
+        "pension"
+      ],
+      "answer": 0,
+      "explanation_ar": "income = الدخل من كل المصادر.",
+      "explanation_en": "Income = money from all sources."
+    }
   ]
 }

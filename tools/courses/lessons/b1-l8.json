@@ -2,94 +2,490 @@
   "title": "At the Farmers' Market",
   "content": {
     "vocabulary": [
-      {"word": "grape", "pos": "noun", "meaning_en": "a small round fruit that grows in bunches", "meaning_ar": "عنبة (حبة عنب)", "note_ar": "الجمع grapes = عنب", "example": "She bought a bunch of green grapes."},
-      {"word": "watermelon", "pos": "noun", "meaning_en": "a large green fruit with red, juicy flesh", "meaning_ar": "بطيخ", "note_ar": "water (ماء) + melon (شمّام) = الشمام المليء بالماء", "example": "Watermelon is perfect on a hot day."},
-      {"word": "strawberry", "pos": "noun", "meaning_en": "a small red fruit with tiny seeds on the outside", "meaning_ar": "فراولة", "note_ar": "في الأمريكية تُمدّ -berry، وفي البريطانية تُختصر", "example": "I like strawberries with cream."},
-      {"word": "cherry", "pos": "noun", "meaning_en": "a small round red fruit with a stone inside", "meaning_ar": "كرز", "note_ar": "", "example": "There is a cherry on top of the cake."},
-      {"word": "peach", "pos": "noun", "meaning_en": "a soft round fruit with fuzzy skin", "meaning_ar": "خوخ", "note_ar": "", "example": "This peach is sweet and juicy."},
-      {"word": "pear", "pos": "noun", "meaning_en": "a sweet fruit, narrow at the top and wide at the bottom", "meaning_ar": "كمثرى", "note_ar": "", "example": "He cut a pear into slices."},
-      {"word": "pineapple", "pos": "noun", "meaning_en": "a large tropical fruit with rough skin and sweet yellow flesh", "meaning_ar": "أناناس", "note_ar": "pine (الصنوبر) + apple: شكله يشبه كوز الصنوبر", "example": "We added pineapple to the fruit salad."},
-      {"word": "lemon", "pos": "noun", "meaning_en": "a sour yellow fruit", "meaning_ar": "ليمون أصفر", "note_ar": "", "example": "Add some lemon juice to the fish."},
-      {"word": "lime", "pos": "noun", "meaning_en": "a sour green fruit like a small lemon", "meaning_ar": "ليمون أخضر", "note_ar": "", "example": "She squeezed a lime into her drink."},
-      {"word": "cucumber", "pos": "noun", "meaning_en": "a long green vegetable eaten raw in salads", "meaning_ar": "خيار", "note_ar": "", "example": "I put cucumber and tomato in my salad."},
-      {"word": "carrot", "pos": "noun", "meaning_en": "a long orange vegetable that grows under the ground", "meaning_ar": "جزر", "note_ar": "", "example": "Rabbits love carrots."},
-      {"word": "onion", "pos": "noun", "meaning_en": "a round vegetable with a strong smell that makes you cry when you cut it", "meaning_ar": "بصل", "note_ar": "", "example": "Fry the onion until it is golden."},
-      {"word": "garlic", "pos": "noun", "meaning_en": "a plant with a strong taste used in cooking", "meaning_ar": "ثوم", "note_ar": "", "example": "This sauce has too much garlic."},
-      {"word": "lettuce", "pos": "noun", "meaning_en": "a green leafy vegetable used in salads", "meaning_ar": "خس", "note_ar": "", "example": "Wash the lettuce before you eat it."},
-      {"word": "spinach", "pos": "noun", "meaning_en": "a vegetable with dark green leaves", "meaning_ar": "سبانخ", "note_ar": "", "example": "Spinach is full of iron."},
-      {"word": "cabbage", "pos": "noun", "meaning_en": "a large round vegetable made of thick leaves", "meaning_ar": "كرنب / ملفوف", "note_ar": "", "example": "My mother makes stuffed cabbage leaves."},
-      {"word": "broccoli", "pos": "noun", "meaning_en": "a green vegetable that looks like a small tree", "meaning_ar": "بروكلي", "note_ar": "", "example": "Steamed broccoli is very healthy."},
-      {"word": "cauliflower", "pos": "noun", "meaning_en": "a vegetable with a large white head", "meaning_ar": "قرنبيط", "note_ar": "cauli (ساق الكرنب باللاتينية) + flower (زهرة) = زهرة الكرنب", "example": "We had fried cauliflower for lunch."},
-      {"word": "pepper", "pos": "noun", "meaning_en": "a hollow vegetable that can be red, green or yellow; also a hot spice", "meaning_ar": "فلفل", "note_ar": "", "example": "Cut the red pepper into strips."},
-      {"word": "chili", "pos": "noun", "meaning_en": "a small, very hot pepper", "meaning_ar": "شطة / فلفل حار", "note_ar": "تُكتب أيضاً chilli في بريطانيا", "example": "This soup has chili in it, so be careful."},
-      {"word": "corn", "pos": "noun", "meaning_en": "a tall plant with yellow seeds that we eat", "meaning_ar": "ذرة", "note_ar": "", "example": "We grilled corn on the beach."},
-      {"word": "peas", "pos": "noun", "meaning_en": "small round green seeds eaten as a vegetable", "meaning_ar": "بازلاء / بسلة", "note_ar": "المفرد pea", "example": "Add the peas to the rice."},
-      {"word": "eggplant", "pos": "noun", "meaning_en": "a vegetable with shiny dark purple skin", "meaning_ar": "باذنجان", "note_ar": "egg + plant: بعض أنواعه صغيرة وبيضاء مثل البيضة. في بريطانيا اسمه aubergine", "example": "Grilled eggplant tastes great with yogurt."},
-      {"word": "farmers' market", "pos": "noun", "meaning_en": "a market where farmers sell their own fresh food", "meaning_ar": "سوق المزارعين", "note_ar": "", "example": "We buy our vegetables at the farmers' market every Saturday."},
-      {"word": "dramatically", "pos": "adverb", "meaning_en": "in a very emotional, theatrical way", "meaning_ar": "بشكل درامي / مبالغ فيه", "note_ar": "drama → dramatic → dramatically", "example": "She sighed dramatically when she saw the bill."},
-      {"word": "pet", "pos": "noun", "meaning_en": "an animal you keep at home for company", "meaning_ar": "حيوان أليف", "note_ar": "", "example": "Do you have any pets?"},
-      {"word": "adopt", "pos": "verb", "meaning_en": "to take a child or an animal into your family", "meaning_ar": "يتبنّى", "note_ar": "الاسم: adoption = تبنّي", "example": "They adopted a cat from the shelter."},
-      {"word": "variety", "pos": "noun", "meaning_en": "many different types of things", "meaning_ar": "تنوّع / تشكيلة", "note_ar": "تُستخدم غالباً مع الأشياء المادية", "example": "The shop has a wide variety of cheeses."},
-      {"word": "smoothie", "pos": "noun", "meaning_en": "a thick drink made of fruit blended with milk, yogurt or ice", "meaning_ar": "سموذي (عصير كثيف)", "note_ar": "أكثف من العصير العادي لأنه مخلوط بالحليب أو الزبادي أو الثلج", "example": "I make a banana smoothie every morning."},
-      {"word": "pretend", "pos": "verb", "meaning_en": "to act as if something is true when it is not", "meaning_ar": "يتظاهر", "note_ar": "pretend to + فعل", "example": "He pretended to be asleep."},
-      {"word": "faint", "pos": "verb", "meaning_en": "to suddenly fall down and lose consciousness", "meaning_ar": "يُغمى عليه", "note_ar": "", "example": "It was so hot that a man fainted in the queue."},
-      {"word": "stand", "pos": "noun", "meaning_en": "a small table or stall where things are sold", "meaning_ar": "كشك / ركن بيع", "note_ar": "قريبة من stall", "example": "There's a lemonade stand outside the school."},
-      {"word": "vendor", "pos": "noun", "meaning_en": "a person who sells things, often in the street", "meaning_ar": "بائع", "note_ar": "", "example": "The vendor gave us a free apple."},
-      {"word": "on sale", "pos": "phrase", "meaning_en": "sold at a lower price than usual", "meaning_ar": "عليه تخفيض", "note_ar": "", "example": "These shoes are on sale this week."},
-      {"word": "giant", "pos": "adjective", "meaning_en": "very big", "meaning_ar": "عملاق", "note_ar": "", "example": "They ordered a giant pizza."},
-      {"word": "practical", "pos": "adjective", "meaning_en": "useful and suitable for a real purpose", "meaning_ar": "عملي / مناسب للاستخدام", "note_ar": "practical vegetables = خضار مختارة لوصفة معيّنة وليس بشكل عشوائي", "example": "Trainers are more practical than high heels for walking."},
-      {"word": "fruit / fruits", "pos": "noun", "meaning_en": "fruit = food from a plant; fruits = different kinds of fruit", "meaning_ar": "فاكهة / فواكه", "note_ar": "fruits تعني أنواعاً مختلفة من الفاكهة", "example": "The market sells tropical fruits from Asia."},
-      {"word": "dessert", "pos": "noun", "meaning_en": "sweet food eaten at the end of a meal", "meaning_ar": "حلوى (بعد الأكل)", "note_ar": "انتبه: desert بحرف s واحد = صحراء", "example": "What's for dessert tonight?"},
-      {"word": "mutter", "pos": "verb", "meaning_en": "to speak quietly, often because you are annoyed", "meaning_ar": "يتمتم", "note_ar": "", "example": "He muttered something and left the room."},
-      {"word": "comedian", "pos": "noun", "meaning_en": "a person whose job is to make people laugh; a funny person", "meaning_ar": "كوميدي / مهرّج", "note_ar": "", "example": "My brother thinks he's a comedian."}
+      {
+        "word": "grape",
+        "pos": "noun",
+        "meaning_en": "a small round fruit that grows in bunches",
+        "meaning_ar": "عنبة (حبة عنب)",
+        "note_ar": "الجمع grapes = عنب",
+        "example": "She bought a bunch of green grapes.",
+        "note_en": "Plural: grapes. We usually talk about grapes in the plural."
+      },
+      {
+        "word": "watermelon",
+        "pos": "noun",
+        "meaning_en": "a large green fruit with red, juicy flesh",
+        "meaning_ar": "بطيخ",
+        "note_ar": "water (ماء) + melon (شمّام) = الشمام المليء بالماء",
+        "example": "Watermelon is perfect on a hot day.",
+        "note_en": "water + melon = a melon full of water."
+      },
+      {
+        "word": "strawberry",
+        "pos": "noun",
+        "meaning_en": "a small red fruit with tiny seeds on the outside",
+        "meaning_ar": "فراولة",
+        "note_ar": "في الأمريكية تُمدّ -berry، وفي البريطانية تُختصر",
+        "example": "I like strawberries with cream.",
+        "note_en": "In American English the \"-berry\" part is said fully; in British English it is said shorter."
+      },
+      {
+        "word": "cherry",
+        "pos": "noun",
+        "meaning_en": "a small round red fruit with a stone inside",
+        "meaning_ar": "كرز",
+        "note_ar": "",
+        "example": "There is a cherry on top of the cake.",
+        "note_en": ""
+      },
+      {
+        "word": "peach",
+        "pos": "noun",
+        "meaning_en": "a soft round fruit with fuzzy skin",
+        "meaning_ar": "خوخ",
+        "note_ar": "",
+        "example": "This peach is sweet and juicy.",
+        "note_en": ""
+      },
+      {
+        "word": "pear",
+        "pos": "noun",
+        "meaning_en": "a sweet fruit, narrow at the top and wide at the bottom",
+        "meaning_ar": "كمثرى",
+        "note_ar": "",
+        "example": "He cut a pear into slices.",
+        "note_en": ""
+      },
+      {
+        "word": "pineapple",
+        "pos": "noun",
+        "meaning_en": "a large tropical fruit with rough skin and sweet yellow flesh",
+        "meaning_ar": "أناناس",
+        "note_ar": "pine (الصنوبر) + apple: شكله يشبه كوز الصنوبر",
+        "example": "We added pineapple to the fruit salad.",
+        "note_en": "pine + apple: it looks like a pine cone."
+      },
+      {
+        "word": "lemon",
+        "pos": "noun",
+        "meaning_en": "a sour yellow fruit",
+        "meaning_ar": "ليمون أصفر",
+        "note_ar": "",
+        "example": "Add some lemon juice to the fish.",
+        "note_en": ""
+      },
+      {
+        "word": "lime",
+        "pos": "noun",
+        "meaning_en": "a sour green fruit like a small lemon",
+        "meaning_ar": "ليمون أخضر",
+        "note_ar": "",
+        "example": "She squeezed a lime into her drink.",
+        "note_en": ""
+      },
+      {
+        "word": "cucumber",
+        "pos": "noun",
+        "meaning_en": "a long green vegetable eaten raw in salads",
+        "meaning_ar": "خيار",
+        "note_ar": "",
+        "example": "I put cucumber and tomato in my salad.",
+        "note_en": ""
+      },
+      {
+        "word": "carrot",
+        "pos": "noun",
+        "meaning_en": "a long orange vegetable that grows under the ground",
+        "meaning_ar": "جزر",
+        "note_ar": "",
+        "example": "Rabbits love carrots.",
+        "note_en": ""
+      },
+      {
+        "word": "onion",
+        "pos": "noun",
+        "meaning_en": "a round vegetable with a strong smell that makes you cry when you cut it",
+        "meaning_ar": "بصل",
+        "note_ar": "",
+        "example": "Fry the onion until it is golden.",
+        "note_en": ""
+      },
+      {
+        "word": "garlic",
+        "pos": "noun",
+        "meaning_en": "a plant with a strong taste used in cooking",
+        "meaning_ar": "ثوم",
+        "note_ar": "",
+        "example": "This sauce has too much garlic.",
+        "note_en": ""
+      },
+      {
+        "word": "lettuce",
+        "pos": "noun",
+        "meaning_en": "a green leafy vegetable used in salads",
+        "meaning_ar": "خس",
+        "note_ar": "",
+        "example": "Wash the lettuce before you eat it.",
+        "note_en": ""
+      },
+      {
+        "word": "spinach",
+        "pos": "noun",
+        "meaning_en": "a vegetable with dark green leaves",
+        "meaning_ar": "سبانخ",
+        "note_ar": "",
+        "example": "Spinach is full of iron.",
+        "note_en": ""
+      },
+      {
+        "word": "cabbage",
+        "pos": "noun",
+        "meaning_en": "a large round vegetable made of thick leaves",
+        "meaning_ar": "كرنب / ملفوف",
+        "note_ar": "",
+        "example": "My mother makes stuffed cabbage leaves.",
+        "note_en": ""
+      },
+      {
+        "word": "broccoli",
+        "pos": "noun",
+        "meaning_en": "a green vegetable that looks like a small tree",
+        "meaning_ar": "بروكلي",
+        "note_ar": "",
+        "example": "Steamed broccoli is very healthy.",
+        "note_en": ""
+      },
+      {
+        "word": "cauliflower",
+        "pos": "noun",
+        "meaning_en": "a vegetable with a large white head",
+        "meaning_ar": "قرنبيط",
+        "note_ar": "cauli (ساق الكرنب باللاتينية) + flower (زهرة) = زهرة الكرنب",
+        "example": "We had fried cauliflower for lunch.",
+        "note_en": "cauli (Latin for cabbage stem) + flower = the flower of the cabbage."
+      },
+      {
+        "word": "pepper",
+        "pos": "noun",
+        "meaning_en": "a hollow vegetable that can be red, green or yellow; also a hot spice",
+        "meaning_ar": "فلفل",
+        "note_ar": "",
+        "example": "Cut the red pepper into strips.",
+        "note_en": ""
+      },
+      {
+        "word": "chili",
+        "pos": "noun",
+        "meaning_en": "a small, very hot pepper",
+        "meaning_ar": "شطة / فلفل حار",
+        "note_ar": "تُكتب أيضاً chilli في بريطانيا",
+        "example": "This soup has chili in it, so be careful.",
+        "note_en": "In British English it is also spelled \"chilli\"."
+      },
+      {
+        "word": "corn",
+        "pos": "noun",
+        "meaning_en": "a tall plant with yellow seeds that we eat",
+        "meaning_ar": "ذرة",
+        "note_ar": "",
+        "example": "We grilled corn on the beach.",
+        "note_en": ""
+      },
+      {
+        "word": "peas",
+        "pos": "noun",
+        "meaning_en": "small round green seeds eaten as a vegetable",
+        "meaning_ar": "بازلاء / بسلة",
+        "note_ar": "المفرد pea",
+        "example": "Add the peas to the rice.",
+        "note_en": "Singular: pea."
+      },
+      {
+        "word": "eggplant",
+        "pos": "noun",
+        "meaning_en": "a vegetable with shiny dark purple skin",
+        "meaning_ar": "باذنجان",
+        "note_ar": "egg + plant: بعض أنواعه صغيرة وبيضاء مثل البيضة. في بريطانيا اسمه aubergine",
+        "example": "Grilled eggplant tastes great with yogurt.",
+        "note_en": "egg + plant: some kinds are small and white, like an egg. In British English it is called \"aubergine\"."
+      },
+      {
+        "word": "farmers' market",
+        "pos": "noun",
+        "meaning_en": "a market where farmers sell their own fresh food",
+        "meaning_ar": "سوق المزارعين",
+        "note_ar": "",
+        "example": "We buy our vegetables at the farmers' market every Saturday.",
+        "note_en": ""
+      },
+      {
+        "word": "dramatically",
+        "pos": "adverb",
+        "meaning_en": "in a very emotional, theatrical way",
+        "meaning_ar": "بشكل درامي / مبالغ فيه",
+        "note_ar": "drama → dramatic → dramatically",
+        "example": "She sighed dramatically when she saw the bill.",
+        "note_en": "drama → dramatic → dramatically"
+      },
+      {
+        "word": "pet",
+        "pos": "noun",
+        "meaning_en": "an animal you keep at home for company",
+        "meaning_ar": "حيوان أليف",
+        "note_ar": "",
+        "example": "Do you have any pets?",
+        "note_en": ""
+      },
+      {
+        "word": "adopt",
+        "pos": "verb",
+        "meaning_en": "to take a child or an animal into your family",
+        "meaning_ar": "يتبنّى",
+        "note_ar": "الاسم: adoption = تبنّي",
+        "example": "They adopted a cat from the shelter.",
+        "note_en": "Noun: adoption."
+      },
+      {
+        "word": "variety",
+        "pos": "noun",
+        "meaning_en": "many different types of things",
+        "meaning_ar": "تنوّع / تشكيلة",
+        "note_ar": "تُستخدم غالباً مع الأشياء المادية",
+        "example": "The shop has a wide variety of cheeses.",
+        "note_en": "Usually used with physical things (food, products, choices)."
+      },
+      {
+        "word": "smoothie",
+        "pos": "noun",
+        "meaning_en": "a thick drink made of fruit blended with milk, yogurt or ice",
+        "meaning_ar": "سموذي (عصير كثيف)",
+        "note_ar": "أكثف من العصير العادي لأنه مخلوط بالحليب أو الزبادي أو الثلج",
+        "example": "I make a banana smoothie every morning.",
+        "note_en": "Thicker than normal juice because it is blended with milk, yogurt or ice."
+      },
+      {
+        "word": "pretend",
+        "pos": "verb",
+        "meaning_en": "to act as if something is true when it is not",
+        "meaning_ar": "يتظاهر",
+        "note_ar": "pretend to + فعل",
+        "example": "He pretended to be asleep.",
+        "note_en": "pretend to + verb (e.g. pretend to sleep)."
+      },
+      {
+        "word": "faint",
+        "pos": "verb",
+        "meaning_en": "to suddenly fall down and lose consciousness",
+        "meaning_ar": "يُغمى عليه",
+        "note_ar": "",
+        "example": "It was so hot that a man fainted in the queue.",
+        "note_en": ""
+      },
+      {
+        "word": "stand",
+        "pos": "noun",
+        "meaning_en": "a small table or stall where things are sold",
+        "meaning_ar": "كشك / ركن بيع",
+        "note_ar": "قريبة من stall",
+        "example": "There's a lemonade stand outside the school.",
+        "note_en": "Very similar to \"stall\"."
+      },
+      {
+        "word": "vendor",
+        "pos": "noun",
+        "meaning_en": "a person who sells things, often in the street",
+        "meaning_ar": "بائع",
+        "note_ar": "",
+        "example": "The vendor gave us a free apple.",
+        "note_en": ""
+      },
+      {
+        "word": "on sale",
+        "pos": "phrase",
+        "meaning_en": "sold at a lower price than usual",
+        "meaning_ar": "عليه تخفيض",
+        "note_ar": "",
+        "example": "These shoes are on sale this week.",
+        "note_en": ""
+      },
+      {
+        "word": "giant",
+        "pos": "adjective",
+        "meaning_en": "very big",
+        "meaning_ar": "عملاق",
+        "note_ar": "",
+        "example": "They ordered a giant pizza.",
+        "note_en": ""
+      },
+      {
+        "word": "practical",
+        "pos": "adjective",
+        "meaning_en": "useful and suitable for a real purpose",
+        "meaning_ar": "عملي / مناسب للاستخدام",
+        "note_ar": "practical vegetables = خضار مختارة لوصفة معيّنة وليس بشكل عشوائي",
+        "example": "Trainers are more practical than high heels for walking.",
+        "note_en": "\"practical vegetables\" = vegetables chosen for a specific recipe, not picked randomly."
+      },
+      {
+        "word": "fruit / fruits",
+        "pos": "noun",
+        "meaning_en": "fruit = food from a plant; fruits = different kinds of fruit",
+        "meaning_ar": "فاكهة / فواكه",
+        "note_ar": "fruits تعني أنواعاً مختلفة من الفاكهة",
+        "example": "The market sells tropical fruits from Asia.",
+        "note_en": "\"fruits\" means different kinds of fruit."
+      },
+      {
+        "word": "dessert",
+        "pos": "noun",
+        "meaning_en": "sweet food eaten at the end of a meal",
+        "meaning_ar": "حلوى (بعد الأكل)",
+        "note_ar": "انتبه: desert بحرف s واحد = صحراء",
+        "example": "What's for dessert tonight?",
+        "note_en": "Careful: \"desert\" with one s = a large dry, sandy place."
+      },
+      {
+        "word": "mutter",
+        "pos": "verb",
+        "meaning_en": "to speak quietly, often because you are annoyed",
+        "meaning_ar": "يتمتم",
+        "note_ar": "",
+        "example": "He muttered something and left the room.",
+        "note_en": ""
+      },
+      {
+        "word": "comedian",
+        "pos": "noun",
+        "meaning_en": "a person whose job is to make people laugh; a funny person",
+        "meaning_ar": "كوميدي / مهرّج",
+        "note_ar": "",
+        "example": "My brother thinks he's a comedian.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "variety vs diversity",
-        "words": ["variety", "diversity"],
+        "words": [
+          "variety",
+          "diversity"
+        ],
         "explanation_ar": "الكلمتان معناهما «تنوّع». variety تُستخدم غالباً مع الأشياء المادية: أنواع الطعام أو المنتجات أو الأشياء التي تختار منها. أما diversity فتُستخدم أكثر مع البشر والمفاهيم: تنوّع الثقافات والآراء والخلفيات، مثل cultural diversity.",
         "examples": [
-          {"word": "variety", "sentence": "The bakery sells a variety of breads."},
-          {"word": "variety", "sentence": "We need more variety in our meals."},
-          {"word": "diversity", "sentence": "Our school is proud of its cultural diversity."},
-          {"word": "diversity", "sentence": "The team has a great diversity of opinions."}
-        ]
+          {
+            "word": "variety",
+            "sentence": "The bakery sells a variety of breads."
+          },
+          {
+            "word": "variety",
+            "sentence": "We need more variety in our meals."
+          },
+          {
+            "word": "diversity",
+            "sentence": "Our school is proud of its cultural diversity."
+          },
+          {
+            "word": "diversity",
+            "sentence": "The team has a great diversity of opinions."
+          }
+        ],
+        "explanation_en": "Both words mean having many different kinds. \"Variety\" is usually used with physical things: types of food, products, or things you can choose from. \"Diversity\" is used more with people and ideas: different cultures, opinions and backgrounds, as in \"cultural diversity\"."
       },
       {
         "title": "lemon vs lime",
-        "words": ["lemon", "lime"],
+        "words": [
+          "lemon",
+          "lime"
+        ],
         "explanation_ar": "في كثير من البلاد العربية نقول «ليمون» للنوعين، لكن الإنجليزية تفرّق بينهما: lemon هو الليمون الأصفر الكبير، و lime هو الليمون الأخضر الصغير.",
         "examples": [
-          {"word": "lemon", "sentence": "Squeeze a yellow lemon over the salad."},
-          {"word": "lime", "sentence": "This drink is made with fresh lime and mint."}
-        ]
+          {
+            "word": "lemon",
+            "sentence": "Squeeze a yellow lemon over the salad."
+          },
+          {
+            "word": "lime",
+            "sentence": "This drink is made with fresh lime and mint."
+          }
+        ],
+        "explanation_en": "In many languages one word covers both fruits, but English separates them: a \"lemon\" is the big yellow one, and a \"lime\" is the small green one."
       },
       {
         "title": "fruit vs fruits",
-        "words": ["fruit", "fruits"],
+        "words": [
+          "fruit",
+          "fruits"
+        ],
         "explanation_ar": "fruit عادةً اسم لا يُعدّ ويعني الفاكهة بشكل عام (I eat a lot of fruit). أما fruits فتُستخدم عندما نقصد أنواعاً مختلفة من الفاكهة، تماماً مثل «فاكهة» و«فواكه» في العربية.",
         "examples": [
-          {"word": "fruit", "sentence": "You should eat more fruit."},
-          {"word": "fruits", "sentence": "Mangoes and papayas are tropical fruits."}
-        ]
+          {
+            "word": "fruit",
+            "sentence": "You should eat more fruit."
+          },
+          {
+            "word": "fruits",
+            "sentence": "Mangoes and papayas are tropical fruits."
+          }
+        ],
+        "explanation_en": "\"Fruit\" is usually uncountable and means fruit in general (I eat a lot of fruit). We use \"fruits\" when we mean different kinds of fruit."
       },
       {
         "title": "dessert vs desert",
-        "words": ["dessert", "desert"],
+        "words": [
+          "dessert",
+          "desert"
+        ],
         "explanation_ar": "dessert (بحرفي s) هي الحلوى بعد الوجبة، و desert (بحرف s واحد) هي الصحراء. طريقة سهلة للتذكّر: الحلوى تريد منها المزيد، لذلك فيها حرفا s.",
         "examples": [
-          {"word": "dessert", "sentence": "We had ice cream for dessert."},
-          {"word": "desert", "sentence": "Camels can live in the desert."}
-        ]
+          {
+            "word": "dessert",
+            "sentence": "We had ice cream for dessert."
+          },
+          {
+            "word": "desert",
+            "sentence": "Camels can live in the desert."
+          }
+        ],
+        "explanation_en": "\"Dessert\" (two s's) is the sweet food after a meal, and \"desert\" (one s) is a hot, dry, sandy place. Easy way to remember: you always want more dessert, so it has two s's."
       }
     ],
     "expressions": [
-      {"phrase": "cool as a cucumber", "meaning_ar": "هادئ جداً ولا يتوتّر مهما كانت الظروف (قلب الخيار أبرد من الجو حوله)", "example": "The exam was hard, but she stayed cool as a cucumber."},
-      {"phrase": "for dramatic effect", "meaning_ar": "لأغراض درامية / لإثارة الدهشة ولفت الانتباه", "example": "He paused for dramatic effect before telling us the news."},
-      {"phrase": "dramatic as ever", "meaning_ar": "درامي كعادته", "example": "Dramatic as ever, Tom said it was the worst day of his life."},
-      {"phrase": "on sale", "meaning_ar": "عليه تخفيض", "example": "Strawberries are on sale today."},
-      {"phrase": "by the end of the day", "meaning_ar": "بحلول نهاية اليوم", "example": "By the end of the day, we were all tired."},
-      {"phrase": "fresh from the farm", "meaning_ar": "طازج من المزرعة مباشرة", "example": "These eggs are fresh from the farm."}
+      {
+        "phrase": "cool as a cucumber",
+        "meaning_ar": "هادئ جداً ولا يتوتّر مهما كانت الظروف (قلب الخيار أبرد من الجو حوله)",
+        "example": "The exam was hard, but she stayed cool as a cucumber.",
+        "meaning_en": "very calm and relaxed, even in a difficult situation"
+      },
+      {
+        "phrase": "for dramatic effect",
+        "meaning_ar": "لأغراض درامية / لإثارة الدهشة ولفت الانتباه",
+        "example": "He paused for dramatic effect before telling us the news.",
+        "meaning_en": "to surprise people or get their attention"
+      },
+      {
+        "phrase": "dramatic as ever",
+        "meaning_ar": "درامي كعادته",
+        "example": "Dramatic as ever, Tom said it was the worst day of his life.",
+        "meaning_en": "as dramatic as usual"
+      },
+      {
+        "phrase": "on sale",
+        "meaning_ar": "عليه تخفيض",
+        "example": "Strawberries are on sale today.",
+        "meaning_en": "sold at a lower price than usual"
+      },
+      {
+        "phrase": "by the end of the day",
+        "meaning_ar": "بحلول نهاية اليوم",
+        "example": "By the end of the day, we were all tired.",
+        "meaning_en": "when the day is finished; before the day ends"
+      },
+      {
+        "phrase": "fresh from the farm",
+        "meaning_ar": "طازج من المزرعة مباشرة",
+        "example": "These eggs are fresh from the farm.",
+        "meaning_en": "very fresh, coming straight from the farm"
+      }
     ],
     "grammar": [
       {
@@ -99,7 +495,8 @@
           "I have eaten sushi. (I know what sushi is like.)",
           "She has visited Japan twice.",
           "Have you ever tried mango juice?"
-        ]
+        ],
+        "explanation_en": "The present perfect (have/has + past participle) is the tense of life experiences. Imagine your life is a passport, and every experience is a stamp in it. When we ask whether something has happened in your life or not, and we don't care when, we use the present perfect. Rule: if the action matters more than the time → present perfect."
       },
       {
         "title": "Present perfect vs past simple",
@@ -108,20 +505,131 @@
           "I have traveled to France. / I traveled to France in 2019.",
           "I lost my keys ten minutes ago.",
           "I visited my grandma last Friday."
-        ]
+        ],
+        "explanation_en": "As soon as we mention a specific time in the past (yesterday, last Friday, in 2019, ten minutes ago), we are telling a particular story, not talking about an experience, so we use the past simple. Say \"I ate sushi yesterday\", not \"I have eaten sushi yesterday\"."
       }
     ]
   },
   "questions": [
-    {"question": "Which fruit is a \"water + melon\"?", "choices": ["watermelon", "pineapple", "peach", "pear"], "answer": 0, "explanation_ar": "watermelon = بطيخ، أي الشمام المليء بالماء."},
-    {"question": "A small green sour fruit is a:", "choices": ["lemon", "lime", "pear", "grape"], "answer": 1, "explanation_ar": "lime هو الليمون الأخضر، و lemon هو الأصفر."},
-    {"question": "Our city is famous for its cultural ___.", "choices": ["variety", "dessert", "vendor", "diversity"], "answer": 3, "explanation_ar": "مع البشر والثقافات نستخدم diversity."},
-    {"question": "The supermarket has a wide ___ of snacks.", "choices": ["diversity", "variety", "faint", "practical"], "answer": 1, "explanation_ar": "مع الأشياء المادية مثل المنتجات نستخدم variety."},
-    {"question": "\"Cool as a cucumber\" describes a person who is:", "choices": ["very calm", "very cold and ill", "very healthy", "very hungry"], "answer": 0, "explanation_ar": "المعنى: شخص هادئ جداً لا يتوتر."},
-    {"question": "Choose the correct sentence.", "choices": ["I have visited Paris last year.", "I visit Paris last year.", "I visited Paris last year.", "I has visited Paris last year."], "answer": 2, "explanation_ar": "last year وقت محدد، لذلك نستخدم الماضي البسيط visited."},
-    {"question": "___ you ever eaten Chinese food?", "choices": ["Did", "Have", "Do", "Has"], "answer": 1, "explanation_ar": "نسأل عن خبرة حياتية دون وقت محدد: Have you ever eaten...?"},
-    {"question": "My friend ___ that movie three times.", "choices": ["has seen", "saw yesterday", "have seen", "see"], "answer": 0, "explanation_ar": "خبرة حياتية بلا وقت محدد مع فاعل مفرد: has seen."},
-    {"question": "The children wanted to ___ a puppy from the shelter.", "choices": ["pretend", "faint", "mutter", "adopt"], "answer": 3, "explanation_ar": "adopt = يتبنّى (طفلاً أو حيواناً)."},
-    {"question": "What do we call sweet food eaten after a meal?", "choices": ["desert", "dessert", "dinner", "diversity"], "answer": 1, "explanation_ar": "dessert بحرفي s هي الحلوى، أما desert فهي الصحراء."}
+    {
+      "question": "Which fruit is a \"water + melon\"?",
+      "choices": [
+        "watermelon",
+        "pineapple",
+        "peach",
+        "pear"
+      ],
+      "answer": 0,
+      "explanation_ar": "watermelon = بطيخ، أي الشمام المليء بالماء.",
+      "explanation_en": "A watermelon is a melon full of water."
+    },
+    {
+      "question": "A small green sour fruit is a:",
+      "choices": [
+        "lemon",
+        "lime",
+        "pear",
+        "grape"
+      ],
+      "answer": 1,
+      "explanation_ar": "lime هو الليمون الأخضر، و lemon هو الأصفر.",
+      "explanation_en": "A lime is the small green one; a lemon is the yellow one."
+    },
+    {
+      "question": "Our city is famous for its cultural ___.",
+      "choices": [
+        "variety",
+        "dessert",
+        "vendor",
+        "diversity"
+      ],
+      "answer": 3,
+      "explanation_ar": "مع البشر والثقافات نستخدم diversity.",
+      "explanation_en": "With people and cultures we use \"diversity\"."
+    },
+    {
+      "question": "The supermarket has a wide ___ of snacks.",
+      "choices": [
+        "diversity",
+        "variety",
+        "faint",
+        "practical"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع الأشياء المادية مثل المنتجات نستخدم variety.",
+      "explanation_en": "With physical things like products we use \"variety\"."
+    },
+    {
+      "question": "\"Cool as a cucumber\" describes a person who is:",
+      "choices": [
+        "very calm",
+        "very cold and ill",
+        "very healthy",
+        "very hungry"
+      ],
+      "answer": 0,
+      "explanation_ar": "المعنى: شخص هادئ جداً لا يتوتر.",
+      "explanation_en": "It means a person who stays very calm and doesn't get stressed."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I have visited Paris last year.",
+        "I visit Paris last year.",
+        "I visited Paris last year.",
+        "I has visited Paris last year."
+      ],
+      "answer": 2,
+      "explanation_ar": "last year وقت محدد، لذلك نستخدم الماضي البسيط visited.",
+      "explanation_en": "\"Last year\" is a specific time, so we use the past simple: visited."
+    },
+    {
+      "question": "___ you ever eaten Chinese food?",
+      "choices": [
+        "Did",
+        "Have",
+        "Do",
+        "Has"
+      ],
+      "answer": 1,
+      "explanation_ar": "نسأل عن خبرة حياتية دون وقت محدد: Have you ever eaten...?",
+      "explanation_en": "We are asking about a life experience with no specific time: Have you ever eaten...?"
+    },
+    {
+      "question": "My friend ___ that movie three times.",
+      "choices": [
+        "has seen",
+        "saw yesterday",
+        "have seen",
+        "see"
+      ],
+      "answer": 0,
+      "explanation_ar": "خبرة حياتية بلا وقت محدد مع فاعل مفرد: has seen.",
+      "explanation_en": "A life experience with no specific time and a singular subject: has seen."
+    },
+    {
+      "question": "The children wanted to ___ a puppy from the shelter.",
+      "choices": [
+        "pretend",
+        "faint",
+        "mutter",
+        "adopt"
+      ],
+      "answer": 3,
+      "explanation_ar": "adopt = يتبنّى (طفلاً أو حيواناً).",
+      "explanation_en": "To adopt = to take a child or an animal into your family."
+    },
+    {
+      "question": "What do we call sweet food eaten after a meal?",
+      "choices": [
+        "desert",
+        "dessert",
+        "dinner",
+        "diversity"
+      ],
+      "answer": 1,
+      "explanation_ar": "dessert بحرفي s هي الحلوى، أما desert فهي الصحراء.",
+      "explanation_en": "\"Dessert\" with two s's is sweet food; \"desert\" is a dry, sandy place."
+    }
   ]
 }

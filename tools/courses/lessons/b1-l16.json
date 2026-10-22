@@ -2,91 +2,437 @@
   "title": "Household Chores",
   "content": {
     "vocabulary": [
-      {"word": "household chores", "pos": "noun", "meaning_en": "jobs you do to keep your home clean and tidy", "meaning_ar": "المهام المنزلية / أعمال البيت", "note_ar": "household = متعلق بالبيت، chore = مهمة روتينية", "example": "We share the household chores at the weekend."},
-      {"word": "sweep", "pos": "verb", "meaning_en": "to clean the floor with a broom", "meaning_ar": "يكنس", "note_ar": "الماضي swept", "example": "Please sweep the kitchen floor."},
-      {"word": "mop", "pos": "verb / noun", "meaning_en": "to clean the floor with water and a mop; the tool used for this", "meaning_ar": "يمسح الأرض / الممسحة", "example": "I mopped the floor after dinner."},
-      {"word": "vacuum", "pos": "verb", "meaning_en": "to clean using an electric machine that sucks up dirt", "meaning_ar": "يكنس بالمكنسة الكهربائية", "note_ar": "الآلة نفسها vacuum cleaner", "example": "Can you vacuum the carpet?"},
-      {"word": "dust", "pos": "verb / noun", "meaning_en": "to remove dust from furniture; very small pieces of dirt", "meaning_ar": "يزيل الغبار / غبار", "note_ar": "كاسم = غبار، وكفعل = يزيل الغبار", "example": "She dusted the shelves every Friday."},
-      {"word": "wash", "pos": "verb", "meaning_en": "to clean something with water and soap", "meaning_ar": "يغسل", "example": "Wash your hands before eating."},
-      {"word": "scrub", "pos": "verb", "meaning_en": "to rub something hard to clean it", "meaning_ar": "يدعك / يفرك بقوة", "note_ar": "قريبة من rub = يفرك", "example": "He scrubbed the pot until it was shiny."},
-      {"word": "laundry", "pos": "noun", "meaning_en": "clothes that need to be washed or have just been washed", "meaning_ar": "الغسيل (الملابس)", "note_ar": "do the laundry = يغسل الملابس", "example": "I do the laundry on Saturdays."},
-      {"word": "dry", "pos": "verb / adjective", "meaning_en": "to make something not wet; not wet", "meaning_ar": "يجفّف / جاف", "example": "Hang the clothes outside to dry."},
-      {"word": "iron", "pos": "verb / noun", "meaning_en": "to make clothes smooth using heat; a metal, or the tool for ironing", "meaning_ar": "يكوي / مكواة / حديد", "note_ar": "حرف r لا يُنطق كما يُكتب: تُنطق /ˈaɪərn/", "example": "I need to iron my shirt for the interview."},
-      {"word": "fold", "pos": "verb", "meaning_en": "to bend cloth or paper so one part lies on another", "meaning_ar": "يطوي", "note_ar": "حرف l يكاد لا يُسمع", "example": "Fold the towels and put them away."},
-      {"word": "hang", "pos": "verb", "meaning_en": "to put something on a hook or line so it hangs down", "meaning_ar": "يعلّق", "note_ar": "لا نشدد على صوت g في نهاية ng", "example": "Hang your coat by the door."},
-      {"word": "hook", "pos": "noun", "meaning_en": "a curved piece of metal or plastic for hanging things", "meaning_ar": "خطّاف / علّاقة", "example": "The keys are on the hook."},
-      {"word": "detergent", "pos": "noun", "meaning_en": "soap powder or liquid for washing clothes or dishes", "meaning_ar": "مسحوق الغسيل / منظّف", "example": "We've run out of detergent."},
-      {"word": "washing machine", "pos": "noun", "meaning_en": "a machine that washes clothes", "meaning_ar": "غسالة الملابس", "example": "Put the towels in the washing machine."},
-      {"word": "wash the dishes", "pos": "phrase", "meaning_en": "to clean plates, cups and pans after a meal", "meaning_ar": "يغسل الصحون", "example": "It's your turn to wash the dishes."},
-      {"word": "set the table", "pos": "phrase", "meaning_en": "to put plates, forks and glasses on the table before a meal", "meaning_ar": "يجهّز المائدة", "example": "Can you set the table for six people?"},
-      {"word": "clear the table", "pos": "phrase", "meaning_en": "to remove plates and things from the table after eating", "meaning_ar": "يرفع الأطباق عن المائدة", "example": "The children cleared the table after lunch."},
-      {"word": "take out the trash", "pos": "phrase", "meaning_en": "to put the rubbish outside the house", "meaning_ar": "يُخرج القمامة", "note_ar": "trash أمريكي، rubbish بريطاني", "example": "Don't forget to take out the trash tonight."},
-      {"word": "make the bed", "pos": "phrase", "meaning_en": "to tidy the sheets and blankets on a bed after sleeping", "meaning_ar": "يرتّب السرير", "note_ar": "تعبير ثابت؛ لا يعني «يصنع» السرير", "example": "I make my bed every morning."},
-      {"word": "water the plants", "pos": "phrase", "meaning_en": "to give water to plants", "meaning_ar": "يسقي النباتات", "note_ar": "water هنا فعل = يسقي", "example": "Who will water the plants while we're away?"},
-      {"word": "feed", "pos": "verb", "meaning_en": "to give food to a person or animal", "meaning_ar": "يُطعِم", "note_ar": "الماضي fed", "example": "I feed the cat twice a day."},
-      {"word": "pet", "pos": "noun", "meaning_en": "an animal you keep at home", "meaning_ar": "حيوان أليف", "example": "Do you have any pets?"},
-      {"word": "tidy up", "pos": "phrasal verb", "meaning_en": "to make a place neat and put things where they belong", "meaning_ar": "يرتّب / يروّق", "example": "Tidy up your room before your friends come."},
-      {"word": "neat", "pos": "adjective", "meaning_en": "tidy and well organised", "meaning_ar": "مرتّب / أنيق", "example": "Her handwriting is very neat."},
-      {"word": "broom", "pos": "noun", "meaning_en": "a brush with a long handle for sweeping", "meaning_ar": "مكنسة يدوية (مقشة)", "example": "The broom is behind the kitchen door."},
-      {"word": "duster", "pos": "noun", "meaning_en": "a cloth or tool for removing dust", "meaning_ar": "منفضة الغبار", "example": "Use the duster on the bookshelf."},
-      {"word": "sponge", "pos": "noun", "meaning_en": "a soft object that holds water, used for washing", "meaning_ar": "إسفنجة", "example": "Wash the pan with a sponge."},
-      {"word": "laundry basket", "pos": "noun", "meaning_en": "a basket for dirty or clean clothes", "meaning_ar": "سلة الغسيل", "example": "Put your dirty socks in the laundry basket."},
-      {"word": "groan", "pos": "verb", "meaning_en": "to make a low sound because you are unhappy or annoyed", "meaning_ar": "يتأفّف / يتأوّه", "example": "He groaned when he saw the homework."},
-      {"word": "cheer", "pos": "verb", "meaning_en": "to shout happily or to encourage someone", "meaning_ar": "يهتف بحماس / يشجّع", "example": "The fans cheered when the team scored."},
-      {"word": "magic wand", "pos": "noun", "meaning_en": "a thin stick a magician uses", "meaning_ar": "عصا سحرية", "example": "I wish I had a magic wand to clean the house."},
-      {"word": "stand back", "pos": "phrasal verb", "meaning_en": "to move away a little from something", "meaning_ar": "يتراجع للخلف", "example": "Stand back! The door is opening."},
-      {"word": "shall", "pos": "modal verb", "meaning_en": "will (more formal or literary); used in offers like 'Shall I...?'", "meaning_ar": "سوف (أكثر رسمية أو أدبية)", "example": "Shall I open the window?"},
-      {"word": "errand", "pos": "noun", "meaning_en": "a short trip to do a job, like going to the bank", "meaning_ar": "مشوار / مهمة خارج البيت", "note_ar": "run errands = يقضي المشاوير", "example": "I have a few errands to run this afternoon."},
-      {"word": "rub", "pos": "verb", "meaning_en": "to move your hand or a cloth over a surface", "meaning_ar": "يفرك / يدلك", "example": "He rubbed his hands to keep them warm."}
+      {
+        "word": "household chores",
+        "pos": "noun",
+        "meaning_en": "jobs you do to keep your home clean and tidy",
+        "meaning_ar": "المهام المنزلية / أعمال البيت",
+        "note_ar": "household = متعلق بالبيت، chore = مهمة روتينية",
+        "example": "We share the household chores at the weekend.",
+        "note_en": "\"Household\" means related to the home; a \"chore\" is a routine job."
+      },
+      {
+        "word": "sweep",
+        "pos": "verb",
+        "meaning_en": "to clean the floor with a broom",
+        "meaning_ar": "يكنس",
+        "note_ar": "الماضي swept",
+        "example": "Please sweep the kitchen floor.",
+        "note_en": "The past form is \"swept\"."
+      },
+      {
+        "word": "mop",
+        "pos": "verb / noun",
+        "meaning_en": "to clean the floor with water and a mop; the tool used for this",
+        "meaning_ar": "يمسح الأرض / الممسحة",
+        "example": "I mopped the floor after dinner.",
+        "note_en": ""
+      },
+      {
+        "word": "vacuum",
+        "pos": "verb",
+        "meaning_en": "to clean using an electric machine that sucks up dirt",
+        "meaning_ar": "يكنس بالمكنسة الكهربائية",
+        "note_ar": "الآلة نفسها vacuum cleaner",
+        "example": "Can you vacuum the carpet?",
+        "note_en": "The machine itself is called a \"vacuum cleaner\"."
+      },
+      {
+        "word": "dust",
+        "pos": "verb / noun",
+        "meaning_en": "to remove dust from furniture; very small pieces of dirt",
+        "meaning_ar": "يزيل الغبار / غبار",
+        "note_ar": "كاسم = غبار، وكفعل = يزيل الغبار",
+        "example": "She dusted the shelves every Friday.",
+        "note_en": "As a noun, \"dust\" is fine dirt; as a verb, it means to remove the dust from something."
+      },
+      {
+        "word": "wash",
+        "pos": "verb",
+        "meaning_en": "to clean something with water and soap",
+        "meaning_ar": "يغسل",
+        "example": "Wash your hands before eating.",
+        "note_en": ""
+      },
+      {
+        "word": "scrub",
+        "pos": "verb",
+        "meaning_en": "to rub something hard to clean it",
+        "meaning_ar": "يدعك / يفرك بقوة",
+        "note_ar": "قريبة من rub = يفرك",
+        "example": "He scrubbed the pot until it was shiny.",
+        "note_en": "Close in meaning to \"rub\", but harder."
+      },
+      {
+        "word": "laundry",
+        "pos": "noun",
+        "meaning_en": "clothes that need to be washed or have just been washed",
+        "meaning_ar": "الغسيل (الملابس)",
+        "note_ar": "do the laundry = يغسل الملابس",
+        "example": "I do the laundry on Saturdays.",
+        "note_en": "\"Do the laundry\" means to wash clothes."
+      },
+      {
+        "word": "dry",
+        "pos": "verb / adjective",
+        "meaning_en": "to make something not wet; not wet",
+        "meaning_ar": "يجفّف / جاف",
+        "example": "Hang the clothes outside to dry.",
+        "note_en": ""
+      },
+      {
+        "word": "iron",
+        "pos": "verb / noun",
+        "meaning_en": "to make clothes smooth using heat; a metal, or the tool for ironing",
+        "meaning_ar": "يكوي / مكواة / حديد",
+        "note_ar": "حرف r لا يُنطق كما يُكتب: تُنطق /ˈaɪərn/",
+        "example": "I need to iron my shirt for the interview.",
+        "note_en": "The \"r\" is not pronounced the way it is written: /ˈaɪərn/."
+      },
+      {
+        "word": "fold",
+        "pos": "verb",
+        "meaning_en": "to bend cloth or paper so one part lies on another",
+        "meaning_ar": "يطوي",
+        "note_ar": "حرف l يكاد لا يُسمع",
+        "example": "Fold the towels and put them away.",
+        "note_en": "The \"l\" is almost silent."
+      },
+      {
+        "word": "hang",
+        "pos": "verb",
+        "meaning_en": "to put something on a hook or line so it hangs down",
+        "meaning_ar": "يعلّق",
+        "note_ar": "لا نشدد على صوت g في نهاية ng",
+        "example": "Hang your coat by the door.",
+        "note_en": "Don't make a strong \"g\" sound at the end of \"ng\"."
+      },
+      {
+        "word": "hook",
+        "pos": "noun",
+        "meaning_en": "a curved piece of metal or plastic for hanging things",
+        "meaning_ar": "خطّاف / علّاقة",
+        "example": "The keys are on the hook.",
+        "note_en": ""
+      },
+      {
+        "word": "detergent",
+        "pos": "noun",
+        "meaning_en": "soap powder or liquid for washing clothes or dishes",
+        "meaning_ar": "مسحوق الغسيل / منظّف",
+        "example": "We've run out of detergent.",
+        "note_en": ""
+      },
+      {
+        "word": "washing machine",
+        "pos": "noun",
+        "meaning_en": "a machine that washes clothes",
+        "meaning_ar": "غسالة الملابس",
+        "example": "Put the towels in the washing machine.",
+        "note_en": ""
+      },
+      {
+        "word": "wash the dishes",
+        "pos": "phrase",
+        "meaning_en": "to clean plates, cups and pans after a meal",
+        "meaning_ar": "يغسل الصحون",
+        "example": "It's your turn to wash the dishes.",
+        "note_en": ""
+      },
+      {
+        "word": "set the table",
+        "pos": "phrase",
+        "meaning_en": "to put plates, forks and glasses on the table before a meal",
+        "meaning_ar": "يجهّز المائدة",
+        "example": "Can you set the table for six people?",
+        "note_en": ""
+      },
+      {
+        "word": "clear the table",
+        "pos": "phrase",
+        "meaning_en": "to remove plates and things from the table after eating",
+        "meaning_ar": "يرفع الأطباق عن المائدة",
+        "example": "The children cleared the table after lunch.",
+        "note_en": ""
+      },
+      {
+        "word": "take out the trash",
+        "pos": "phrase",
+        "meaning_en": "to put the rubbish outside the house",
+        "meaning_ar": "يُخرج القمامة",
+        "note_ar": "trash أمريكي، rubbish بريطاني",
+        "example": "Don't forget to take out the trash tonight.",
+        "note_en": "\"Trash\" is American; \"rubbish\" is British."
+      },
+      {
+        "word": "make the bed",
+        "pos": "phrase",
+        "meaning_en": "to tidy the sheets and blankets on a bed after sleeping",
+        "meaning_ar": "يرتّب السرير",
+        "note_ar": "تعبير ثابت؛ لا يعني «يصنع» السرير",
+        "example": "I make my bed every morning.",
+        "note_en": "A fixed expression: it means to tidy the bed, not to build one."
+      },
+      {
+        "word": "water the plants",
+        "pos": "phrase",
+        "meaning_en": "to give water to plants",
+        "meaning_ar": "يسقي النباتات",
+        "note_ar": "water هنا فعل = يسقي",
+        "example": "Who will water the plants while we're away?",
+        "note_en": "Here \"water\" is a verb: to give water to plants."
+      },
+      {
+        "word": "feed",
+        "pos": "verb",
+        "meaning_en": "to give food to a person or animal",
+        "meaning_ar": "يُطعِم",
+        "note_ar": "الماضي fed",
+        "example": "I feed the cat twice a day.",
+        "note_en": "The past form is \"fed\"."
+      },
+      {
+        "word": "pet",
+        "pos": "noun",
+        "meaning_en": "an animal you keep at home",
+        "meaning_ar": "حيوان أليف",
+        "example": "Do you have any pets?",
+        "note_en": ""
+      },
+      {
+        "word": "tidy up",
+        "pos": "phrasal verb",
+        "meaning_en": "to make a place neat and put things where they belong",
+        "meaning_ar": "يرتّب / يروّق",
+        "example": "Tidy up your room before your friends come.",
+        "note_en": ""
+      },
+      {
+        "word": "neat",
+        "pos": "adjective",
+        "meaning_en": "tidy and well organised",
+        "meaning_ar": "مرتّب / أنيق",
+        "example": "Her handwriting is very neat.",
+        "note_en": ""
+      },
+      {
+        "word": "broom",
+        "pos": "noun",
+        "meaning_en": "a brush with a long handle for sweeping",
+        "meaning_ar": "مكنسة يدوية (مقشة)",
+        "example": "The broom is behind the kitchen door.",
+        "note_en": ""
+      },
+      {
+        "word": "duster",
+        "pos": "noun",
+        "meaning_en": "a cloth or tool for removing dust",
+        "meaning_ar": "منفضة الغبار",
+        "example": "Use the duster on the bookshelf.",
+        "note_en": ""
+      },
+      {
+        "word": "sponge",
+        "pos": "noun",
+        "meaning_en": "a soft object that holds water, used for washing",
+        "meaning_ar": "إسفنجة",
+        "example": "Wash the pan with a sponge.",
+        "note_en": ""
+      },
+      {
+        "word": "laundry basket",
+        "pos": "noun",
+        "meaning_en": "a basket for dirty or clean clothes",
+        "meaning_ar": "سلة الغسيل",
+        "example": "Put your dirty socks in the laundry basket.",
+        "note_en": ""
+      },
+      {
+        "word": "groan",
+        "pos": "verb",
+        "meaning_en": "to make a low sound because you are unhappy or annoyed",
+        "meaning_ar": "يتأفّف / يتأوّه",
+        "example": "He groaned when he saw the homework.",
+        "note_en": ""
+      },
+      {
+        "word": "cheer",
+        "pos": "verb",
+        "meaning_en": "to shout happily or to encourage someone",
+        "meaning_ar": "يهتف بحماس / يشجّع",
+        "example": "The fans cheered when the team scored.",
+        "note_en": ""
+      },
+      {
+        "word": "magic wand",
+        "pos": "noun",
+        "meaning_en": "a thin stick a magician uses",
+        "meaning_ar": "عصا سحرية",
+        "example": "I wish I had a magic wand to clean the house.",
+        "note_en": ""
+      },
+      {
+        "word": "stand back",
+        "pos": "phrasal verb",
+        "meaning_en": "to move away a little from something",
+        "meaning_ar": "يتراجع للخلف",
+        "example": "Stand back! The door is opening.",
+        "note_en": ""
+      },
+      {
+        "word": "shall",
+        "pos": "modal verb",
+        "meaning_en": "will (more formal or literary); used in offers like 'Shall I...?'",
+        "meaning_ar": "سوف (أكثر رسمية أو أدبية)",
+        "example": "Shall I open the window?",
+        "note_en": ""
+      },
+      {
+        "word": "errand",
+        "pos": "noun",
+        "meaning_en": "a short trip to do a job, like going to the bank",
+        "meaning_ar": "مشوار / مهمة خارج البيت",
+        "note_ar": "run errands = يقضي المشاوير",
+        "example": "I have a few errands to run this afternoon.",
+        "note_en": "\"Run errands\" means to go out and do small jobs, like shopping or going to the bank."
+      },
+      {
+        "word": "rub",
+        "pos": "verb",
+        "meaning_en": "to move your hand or a cloth over a surface",
+        "meaning_ar": "يفرك / يدلك",
+        "example": "He rubbed his hands to keep them warm.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "rub vs scrub",
-        "words": ["rub", "scrub"],
+        "words": [
+          "rub",
+          "scrub"
+        ],
         "explanation_ar": "rub حركة عامة للفرك أو المسح، مثل فرك اليدين ببعض لتدفئتهما. scrub فرك ودعك بقوة لتنظيف شيء صعب، مثل بقعة عنيدة على الأرض أو قدر محروق.",
         "examples": [
-          {"word": "rub", "sentence": "She rubbed her eyes because she was tired."},
-          {"word": "rub", "sentence": "Rub your hands together if you feel cold."},
-          {"word": "scrub", "sentence": "I had to scrub the floor to remove the stain."},
-          {"word": "scrub", "sentence": "Scrub the potatoes before you cook them."}
-        ]
+          {
+            "word": "rub",
+            "sentence": "She rubbed her eyes because she was tired."
+          },
+          {
+            "word": "rub",
+            "sentence": "Rub your hands together if you feel cold."
+          },
+          {
+            "word": "scrub",
+            "sentence": "I had to scrub the floor to remove the stain."
+          },
+          {
+            "word": "scrub",
+            "sentence": "Scrub the potatoes before you cook them."
+          }
+        ],
+        "explanation_en": "\"Rub\" is a general movement of pressing and moving your hand over something, like rubbing your hands together to warm them. \"Scrub\" means to rub hard to clean something difficult, like a stubborn stain on the floor or a burnt pot."
       },
       {
         "title": "chores vs errands",
-        "words": ["chores", "errands"],
+        "words": [
+          "chores",
+          "errands"
+        ],
         "explanation_ar": "chores هي المهام الروتينية داخل البيت مثل غسل الأطباق وترتيب السرير. errands هي المشاوير التي تقوم بها خارج البيت مثل الذهاب إلى البنك أو شراء أغراض من السوبرماركت.",
         "examples": [
-          {"word": "chores", "sentence": "Washing the dishes is my least favourite chore."},
-          {"word": "errands", "sentence": "I need to run some errands: the post office and the bank."}
-        ]
+          {
+            "word": "chores",
+            "sentence": "Washing the dishes is my least favourite chore."
+          },
+          {
+            "word": "errands",
+            "sentence": "I need to run some errands: the post office and the bank."
+          }
+        ],
+        "explanation_en": "\"Chores\" are routine jobs inside the home, like washing the dishes or making the bed. \"Errands\" are short trips you make outside the home, like going to the bank or buying things at the supermarket."
       },
       {
         "title": "clean vs clear (the table)",
-        "words": ["clean", "clear"],
+        "words": [
+          "clean",
+          "clear"
+        ],
         "explanation_ar": "clean the table تعني تنظيفها من البقع أو الأوساخ. clear the table تعني رفع الأطباق والملاعق والأشياء من عليها بعد الأكل.",
         "examples": [
-          {"word": "clean", "sentence": "Clean the table with a wet cloth."},
-          {"word": "clear", "sentence": "Please clear the table so I can put my laptop on it."}
-        ]
+          {
+            "word": "clean",
+            "sentence": "Clean the table with a wet cloth."
+          },
+          {
+            "word": "clear",
+            "sentence": "Please clear the table so I can put my laptop on it."
+          }
+        ],
+        "explanation_en": "\"Clean the table\" means to remove stains or dirt from it. \"Clear the table\" means to take the plates, spoons and other things off it after a meal."
       },
       {
         "title": "sweep vs mop vs vacuum",
-        "words": ["sweep", "mop", "vacuum"],
+        "words": [
+          "sweep",
+          "mop",
+          "vacuum"
+        ],
         "explanation_ar": "ثلاث طرق لتنظيف الأرض: sweep بالمكنسة اليدوية (المقشة)، mop بالماء والممسحة، vacuum بالمكنسة الكهربائية.",
         "examples": [
-          {"word": "sweep", "sentence": "Sweep the leaves off the balcony."},
-          {"word": "mop", "sentence": "Don't walk there, I just mopped the floor."},
-          {"word": "vacuum", "sentence": "I vacuum the carpet once a week."}
-        ]
+          {
+            "word": "sweep",
+            "sentence": "Sweep the leaves off the balcony."
+          },
+          {
+            "word": "mop",
+            "sentence": "Don't walk there, I just mopped the floor."
+          },
+          {
+            "word": "vacuum",
+            "sentence": "I vacuum the carpet once a week."
+          }
+        ],
+        "explanation_en": "Three ways to clean the floor: \"sweep\" with a broom, \"mop\" with water and a mop, and \"vacuum\" with a vacuum cleaner."
       }
     ],
     "expressions": [
-      {"phrase": "It will all come out in the wash", "meaning_ar": "كل شيء سيتحسّن والحقيقة ستظهر في النهاية / ستمرّ", "example": "Don't worry about the mistake. It will all come out in the wash."},
-      {"phrase": "run errands", "meaning_ar": "يقضي المشاوير خارج البيت", "example": "I'm going to run some errands after work."},
-      {"phrase": "do the laundry", "meaning_ar": "يغسل الملابس", "example": "Who usually does the laundry in your house?"},
-      {"phrase": "as usual", "meaning_ar": "كالعادة", "example": "He was late, as usual."},
-      {"phrase": "make the bed", "meaning_ar": "يرتّب السرير", "example": "Make your bed before breakfast."},
-      {"phrase": "Stand back!", "meaning_ar": "تراجعوا! / ابتعدوا قليلاً", "example": "Stand back! The pan is very hot."}
+      {
+        "phrase": "It will all come out in the wash",
+        "meaning_ar": "كل شيء سيتحسّن والحقيقة ستظهر في النهاية / ستمرّ",
+        "example": "Don't worry about the mistake. It will all come out in the wash.",
+        "meaning_en": "everything will be fine in the end, and the truth will come out"
+      },
+      {
+        "phrase": "run errands",
+        "meaning_ar": "يقضي المشاوير خارج البيت",
+        "example": "I'm going to run some errands after work.",
+        "meaning_en": "to go out and do small jobs, like shopping or going to the bank"
+      },
+      {
+        "phrase": "do the laundry",
+        "meaning_ar": "يغسل الملابس",
+        "example": "Who usually does the laundry in your house?",
+        "meaning_en": "to wash clothes"
+      },
+      {
+        "phrase": "as usual",
+        "meaning_ar": "كالعادة",
+        "example": "He was late, as usual.",
+        "meaning_en": "as always; like other times"
+      },
+      {
+        "phrase": "make the bed",
+        "meaning_ar": "يرتّب السرير",
+        "example": "Make your bed before breakfast.",
+        "meaning_en": "to tidy the sheets and covers on your bed"
+      },
+      {
+        "phrase": "Stand back!",
+        "meaning_ar": "تراجعوا! / ابتعدوا قليلاً",
+        "example": "Stand back! The pan is very hot.",
+        "meaning_en": "Move back! Keep a little distance!"
+      }
     ],
     "grammar": [
       {
@@ -96,7 +442,8 @@
           "By the time James arrived, Emma had already started the laundry.",
           "By the time the flat was tidy, Ali had fallen asleep.",
           "By the time Omar finished writing the list, Ali had gone to the kitchen."
-        ]
+        ],
+        "explanation_en": "We use \"by the time\" with the past simple, then the past perfect for the action that had already happened before it: \"By the time X happened, Y had already happened.\" The past perfect tells the listener which action came first."
       },
       {
         "title": "Order of events: past simple vs past perfect",
@@ -104,7 +451,8 @@
         "examples": [
           "James arrived and Emma started the laundry. (James first)",
           "When James arrived, Emma had started the laundry. (Emma first)"
-        ]
+        ],
+        "explanation_en": "If we use the past simple for both actions with \"and\", it means they happened in the order we say them. The past perfect shows that an action started or finished before the other one."
       },
       {
         "title": "shall",
@@ -112,20 +460,131 @@
         "examples": [
           "I shall sweep the floor and save the kingdom!",
           "Shall we start?"
-        ]
+        ],
+        "explanation_en": "\"Shall\" has the same meaning as \"will\", but it is more formal or literary. It is often used in questions with \"I\" and \"we\" to make offers and suggestions."
       }
     ]
   },
   "questions": [
-    {"question": "Going to the bank and the post office are:", "choices": ["chores", "errands", "dishes", "pets"], "answer": 1, "explanation_ar": "المشاوير خارج البيت = errands."},
-    {"question": "There's a hard stain on the floor. You need to ___ it.", "choices": ["rub", "fold", "scrub", "hang"], "answer": 2, "explanation_ar": "الدعك بقوة لإزالة بقعة صعبة = scrub."},
-    {"question": "After dinner, please ___ the table: take the plates to the kitchen.", "choices": ["set", "make", "feed", "clear"], "answer": 3, "explanation_ar": "رفع الأطباق بعد الأكل = clear the table."},
-    {"question": "By the time I got home, my brother ___ all the pizza.", "choices": ["had eaten", "eats", "has eaten", "is eating"], "answer": 0, "explanation_ar": "الأكل حدث قبل الوصول = الماضي التام had eaten."},
-    {"question": "What do you use to make clothes smooth?", "choices": ["a broom", "an iron", "a sponge", "a duster"], "answer": 1, "explanation_ar": "iron = مكواة."},
-    {"question": "\"It will all come out in the wash\" means:", "choices": ["Wash your clothes now.", "The washing machine is broken.", "Things will be fine in the end.", "Everything is dirty."], "answer": 2, "explanation_ar": "المعنى: الأمور ستتحسن في النهاية."},
-    {"question": "Which is correct?", "choices": ["I do my bed every morning.", "I make my bed every morning.", "I set my bed every morning.", "I clear my bed every morning."], "answer": 1, "explanation_ar": "التعبير الثابت هو make the bed."},
-    {"question": "You clean the floor with water and a ___.", "choices": ["broom", "hook", "duster", "mop"], "answer": 3, "explanation_ar": "mop = الممسحة التي تُستخدم مع الماء."},
-    {"question": "When Ali saw the long list of chores, he ___.", "choices": ["groaned", "cheered", "folded", "swept"], "answer": 0, "explanation_ar": "groan = يتأفف عندما يكون منزعجاً."},
-    {"question": "\"James arrived, and Emma started the laundry.\" Who did something first?", "choices": ["Emma", "James", "both at the same time", "we don't know"], "answer": 1, "explanation_ar": "الماضي البسيط مع and يعني أن الترتيب كما ذُكر: James أولاً."}
+    {
+      "question": "Going to the bank and the post office are:",
+      "choices": [
+        "chores",
+        "errands",
+        "dishes",
+        "pets"
+      ],
+      "answer": 1,
+      "explanation_ar": "المشاوير خارج البيت = errands.",
+      "explanation_en": "Short trips outside the home are \"errands\"."
+    },
+    {
+      "question": "There's a hard stain on the floor. You need to ___ it.",
+      "choices": [
+        "rub",
+        "fold",
+        "scrub",
+        "hang"
+      ],
+      "answer": 2,
+      "explanation_ar": "الدعك بقوة لإزالة بقعة صعبة = scrub.",
+      "explanation_en": "Rubbing hard to remove a difficult stain is \"scrub\"."
+    },
+    {
+      "question": "After dinner, please ___ the table: take the plates to the kitchen.",
+      "choices": [
+        "set",
+        "make",
+        "feed",
+        "clear"
+      ],
+      "answer": 3,
+      "explanation_ar": "رفع الأطباق بعد الأكل = clear the table.",
+      "explanation_en": "Taking the plates away after a meal is \"clear the table\"."
+    },
+    {
+      "question": "By the time I got home, my brother ___ all the pizza.",
+      "choices": [
+        "had eaten",
+        "eats",
+        "has eaten",
+        "is eating"
+      ],
+      "answer": 0,
+      "explanation_ar": "الأكل حدث قبل الوصول = الماضي التام had eaten.",
+      "explanation_en": "The eating happened before I arrived, so we use the past perfect \"had eaten\"."
+    },
+    {
+      "question": "What do you use to make clothes smooth?",
+      "choices": [
+        "a broom",
+        "an iron",
+        "a sponge",
+        "a duster"
+      ],
+      "answer": 1,
+      "explanation_ar": "iron = مكواة.",
+      "explanation_en": "An iron is the tool you use to make clothes smooth."
+    },
+    {
+      "question": "\"It will all come out in the wash\" means:",
+      "choices": [
+        "Wash your clothes now.",
+        "The washing machine is broken.",
+        "Things will be fine in the end.",
+        "Everything is dirty."
+      ],
+      "answer": 2,
+      "explanation_ar": "المعنى: الأمور ستتحسن في النهاية.",
+      "explanation_en": "It means things will get better in the end."
+    },
+    {
+      "question": "Which is correct?",
+      "choices": [
+        "I do my bed every morning.",
+        "I make my bed every morning.",
+        "I set my bed every morning.",
+        "I clear my bed every morning."
+      ],
+      "answer": 1,
+      "explanation_ar": "التعبير الثابت هو make the bed.",
+      "explanation_en": "The fixed expression is \"make the bed\"."
+    },
+    {
+      "question": "You clean the floor with water and a ___.",
+      "choices": [
+        "broom",
+        "hook",
+        "duster",
+        "mop"
+      ],
+      "answer": 3,
+      "explanation_ar": "mop = الممسحة التي تُستخدم مع الماء.",
+      "explanation_en": "A mop is used with water to clean the floor."
+    },
+    {
+      "question": "When Ali saw the long list of chores, he ___.",
+      "choices": [
+        "groaned",
+        "cheered",
+        "folded",
+        "swept"
+      ],
+      "answer": 0,
+      "explanation_ar": "groan = يتأفف عندما يكون منزعجاً.",
+      "explanation_en": "To \"groan\" is to make a low sound when you are annoyed."
+    },
+    {
+      "question": "\"James arrived, and Emma started the laundry.\" Who did something first?",
+      "choices": [
+        "Emma",
+        "James",
+        "both at the same time",
+        "we don't know"
+      ],
+      "answer": 1,
+      "explanation_ar": "الماضي البسيط مع and يعني أن الترتيب كما ذُكر: James أولاً.",
+      "explanation_en": "Past simple with \"and\" means the order is as stated: James did something first."
+    }
   ]
 }

@@ -2,105 +2,618 @@
   "title": "Gardens and Plants",
   "content": {
     "vocabulary": [
-      {"word": "flower", "pos": "noun", "meaning_en": "the coloured part of a plant", "meaning_ar": "زهرة", "note_ar": "", "example": "She picked a red flower from the garden."},
-      {"word": "tree", "pos": "noun", "meaning_en": "a tall plant with a wooden trunk and branches", "meaning_ar": "شجرة", "note_ar": "trunk = جذع، branch = غصن", "example": "We sat in the shade of a big tree."},
-      {"word": "shrub", "pos": "noun", "meaning_en": "a small plant like a short tree", "meaning_ar": "شُجيرة", "note_ar": "مرادف: bush", "example": "There are shrubs along the fence."},
-      {"word": "grass", "pos": "noun", "meaning_en": "the green plant that covers the ground", "meaning_ar": "عشب / حشائش", "note_ar": "", "example": "The children played on the grass."},
-      {"word": "herb", "pos": "noun", "meaning_en": "a plant used in cooking or as medicine", "meaning_ar": "عُشبة (للطبخ أو الدواء)", "note_ar": "الأمريكي ينطق h صامتة /ɜːrb/، والبريطاني ينطقها /hɜːb/", "example": "Mint is my favourite herb."},
-      {"word": "seed", "pos": "noun", "meaning_en": "a tiny grain you put in soil to grow a new plant", "meaning_ar": "بذرة", "note_ar": "", "example": "Plant the seeds in spring."},
-      {"word": "shovel / spade", "pos": "noun", "meaning_en": "a tool for digging and moving soil", "meaning_ar": "مجرفة / جاروف", "note_ar": "", "example": "He used a shovel to dig a hole."},
-      {"word": "rake", "pos": "noun / verb", "meaning_en": "a tool with teeth for collecting leaves or making soil flat", "meaning_ar": "مِدَمّة / مُشط الحديقة", "note_ar": "", "example": "I raked the dry leaves into a pile."},
-      {"word": "hoe", "pos": "noun", "meaning_en": "a tool for breaking soil and removing weeds", "meaning_ar": "مِعزقة / فأس صغيرة", "note_ar": "weed = عشب ضار", "example": "Use a hoe to remove the weeds."},
-      {"word": "watering can", "pos": "noun", "meaning_en": "a container with a spout for watering plants", "meaning_ar": "إبريق / رشاش السقي", "note_ar": "spout = فوهة", "example": "Fill the watering can with water."},
-      {"word": "hose", "pos": "noun", "meaning_en": "a long tube connected to a tap to carry water", "meaning_ar": "خرطوم مياه", "note_ar": "", "example": "He watered the lawn with a hose."},
-      {"word": "gloves", "pos": "noun", "meaning_en": "coverings that protect your hands", "meaning_ar": "قفازات", "note_ar": "a pair of gloves = زوج قفازات", "example": "Wear gloves when you work in the garden."},
-      {"word": "pot", "pos": "noun", "meaning_en": "a container for growing plants", "meaning_ar": "أصيص / قصرية زرع", "note_ar": "مرادف: plant container", "example": "She keeps a small cactus in a pot."},
-      {"word": "soil", "pos": "noun", "meaning_en": "the top layer of earth where plants grow", "meaning_ar": "تربة", "note_ar": "", "example": "This soil is good for tomatoes."},
-      {"word": "plant", "pos": "verb / noun", "meaning_en": "to put a seed or plant in the ground", "meaning_ar": "يزرع / نبات", "note_ar": "", "example": "We planted a lemon tree last year."},
-      {"word": "dig", "pos": "verb", "meaning_en": "to make a hole in the ground", "meaning_ar": "يحفر", "note_ar": "الماضي: dug", "example": "The dog dug a hole in the garden."},
-      {"word": "water", "pos": "verb", "meaning_en": "to pour water on a plant", "meaning_ar": "يسقي", "note_ar": "كاسم = ماء", "example": "Don't forget to water the plants."},
-      {"word": "grow", "pos": "verb", "meaning_en": "to develop and get bigger", "meaning_ar": "ينمو / يزرع", "note_ar": "grow - grew - grown", "example": "Tomatoes grow fast in the sun."},
-      {"word": "prune", "pos": "verb", "meaning_en": "to cut off dead or extra branches to help a plant grow", "meaning_ar": "يقلّم", "note_ar": "", "example": "Prune the roses in winter."},
-      {"word": "harvest", "pos": "verb / noun", "meaning_en": "to collect crops or ripe fruit", "meaning_ar": "يحصد / الحصاد", "note_ar": "", "example": "Farmers harvest the wheat in summer."},
-      {"word": "backyard", "pos": "noun", "meaning_en": "the area behind a house", "meaning_ar": "الفناء الخلفي", "note_ar": "yard أمريكي، garden بريطاني", "example": "The kids are playing in the backyard."},
-      {"word": "greenhouse", "pos": "noun", "meaning_en": "a glass building for growing plants that need protection", "meaning_ar": "صوبة زراعية / بيت زجاجي", "note_ar": "في بريطانيا أحياناً: glasshouse", "example": "They grow cucumbers in a greenhouse."},
-      {"word": "herb garden", "pos": "noun", "meaning_en": "a garden for growing herbs", "meaning_ar": "حديقة أعشاب", "note_ar": "", "example": "My herb garden has mint and basil."},
-      {"word": "vegetable garden", "pos": "noun", "meaning_en": "a garden for growing vegetables", "meaning_ar": "حديقة خضروات", "note_ar": "", "example": "We grow carrots in our vegetable garden."},
-      {"word": "flower bed", "pos": "noun", "meaning_en": "an area of ground where flowers are planted", "meaning_ar": "حوض زهور", "note_ar": "", "example": "Don't step on the flower bed."},
-      {"word": "orchard", "pos": "noun", "meaning_en": "land where fruit trees are grown", "meaning_ar": "بستان", "note_ar": "", "example": "They own an apple orchard."},
-      {"word": "compost", "pos": "noun", "meaning_en": "decayed plant material used to make soil richer", "meaning_ar": "سماد عضوي", "note_ar": "", "example": "We make compost from fruit peels."},
-      {"word": "fertilizer", "pos": "noun", "meaning_en": "a substance added to soil to help plants grow", "meaning_ar": "سماد", "note_ar": "بريطاني: fertiliser", "example": "Too much fertilizer can harm plants."},
-      {"word": "sunlight", "pos": "noun", "meaning_en": "the light from the sun", "meaning_ar": "ضوء الشمس", "note_ar": "", "example": "Most plants need a lot of sunlight."},
-      {"word": "shade", "pos": "noun", "meaning_en": "an area out of direct sunlight", "meaning_ar": "ظل", "note_ar": "", "example": "Some plants grow well in the shade."},
-      {"word": "overgrown", "pos": "adjective", "meaning_en": "covered with plants that grew without control", "meaning_ar": "مُكتظ بالنباتات / نما بعشوائية", "note_ar": "over = زيادة + grown = نامٍ", "example": "The old garden was overgrown with weeds."},
-      {"word": "wild", "pos": "adjective", "meaning_en": "growing naturally without human care", "meaning_ar": "بري", "note_ar": "", "example": "Wild flowers grow by the road."},
-      {"word": "rusty", "pos": "adjective", "meaning_en": "covered with rust", "meaning_ar": "صدئ", "note_ar": "من rust = صدأ", "example": "The gate was old and rusty."},
-      {"word": "bury", "pos": "verb", "meaning_en": "to put something under the ground", "meaning_ar": "يدفن", "note_ar": "تُنطق مثل berry /ˈberi/", "example": "The pirates buried the treasure."},
-      {"word": "examine", "pos": "verb", "meaning_en": "to look at something carefully", "meaning_ar": "يفحص", "note_ar": "", "example": "The doctor examined my arm."},
-      {"word": "row", "pos": "noun", "meaning_en": "a straight line of things or people", "meaning_ar": "صف", "note_ar": "", "example": "We planted a row of onions."},
-      {"word": "stuck", "pos": "adjective", "meaning_en": "fixed in a place and unable to move", "meaning_ar": "عالق", "note_ar": "من stick - stuck", "example": "The key is stuck in the lock."},
-      {"word": "clay", "pos": "noun", "meaning_en": "heavy earth used to make pots", "meaning_ar": "طين / فخار", "note_ar": "clay pot = إناء فخاري", "example": "She made a bowl out of clay."},
-      {"word": "relief", "pos": "noun", "meaning_en": "a happy feeling when worry ends", "meaning_ar": "ارتياح", "note_ar": "الفعل: relieve", "example": "We laughed with relief when we found the keys."},
-      {"word": "tradition", "pos": "noun", "meaning_en": "a custom passed down through a family or group", "meaning_ar": "تقليد / عادة متوارثة", "note_ar": "الصفة: traditional", "example": "Eating together on Fridays is a family tradition."},
-      {"word": "spice", "pos": "noun", "meaning_en": "a dried seed, root or bark used to flavour food", "meaning_ar": "توابل / بهارات", "note_ar": "", "example": "Cinnamon is my favourite spice."},
-      {"word": "trim", "pos": "verb", "meaning_en": "to cut a little to make something neat", "meaning_ar": "يشذّب / يهذّب", "note_ar": "", "example": "I trim my beard every week."}
+      {
+        "word": "flower",
+        "pos": "noun",
+        "meaning_en": "the coloured part of a plant",
+        "meaning_ar": "زهرة",
+        "note_ar": "",
+        "example": "She picked a red flower from the garden.",
+        "note_en": ""
+      },
+      {
+        "word": "tree",
+        "pos": "noun",
+        "meaning_en": "a tall plant with a wooden trunk and branches",
+        "meaning_ar": "شجرة",
+        "note_ar": "trunk = جذع، branch = غصن",
+        "example": "We sat in the shade of a big tree.",
+        "note_en": "The \"trunk\" is the main thick part; a \"branch\" is an arm that grows from it."
+      },
+      {
+        "word": "shrub",
+        "pos": "noun",
+        "meaning_en": "a small plant like a short tree",
+        "meaning_ar": "شُجيرة",
+        "note_ar": "مرادف: bush",
+        "example": "There are shrubs along the fence.",
+        "note_en": "A synonym is \"bush\"."
+      },
+      {
+        "word": "grass",
+        "pos": "noun",
+        "meaning_en": "the green plant that covers the ground",
+        "meaning_ar": "عشب / حشائش",
+        "note_ar": "",
+        "example": "The children played on the grass.",
+        "note_en": ""
+      },
+      {
+        "word": "herb",
+        "pos": "noun",
+        "meaning_en": "a plant used in cooking or as medicine",
+        "meaning_ar": "عُشبة (للطبخ أو الدواء)",
+        "note_ar": "الأمريكي ينطق h صامتة /ɜːrb/، والبريطاني ينطقها /hɜːb/",
+        "example": "Mint is my favourite herb.",
+        "note_en": "Americans don't pronounce the \"h\": /ɜːrb/. British speakers say /hɜːb/."
+      },
+      {
+        "word": "seed",
+        "pos": "noun",
+        "meaning_en": "a tiny grain you put in soil to grow a new plant",
+        "meaning_ar": "بذرة",
+        "note_ar": "",
+        "example": "Plant the seeds in spring.",
+        "note_en": ""
+      },
+      {
+        "word": "shovel / spade",
+        "pos": "noun",
+        "meaning_en": "a tool for digging and moving soil",
+        "meaning_ar": "مجرفة / جاروف",
+        "note_ar": "",
+        "example": "He used a shovel to dig a hole.",
+        "note_en": ""
+      },
+      {
+        "word": "rake",
+        "pos": "noun / verb",
+        "meaning_en": "a tool with teeth for collecting leaves or making soil flat",
+        "meaning_ar": "مِدَمّة / مُشط الحديقة",
+        "note_ar": "",
+        "example": "I raked the dry leaves into a pile.",
+        "note_en": ""
+      },
+      {
+        "word": "hoe",
+        "pos": "noun",
+        "meaning_en": "a tool for breaking soil and removing weeds",
+        "meaning_ar": "مِعزقة / فأس صغيرة",
+        "note_ar": "weed = عشب ضار",
+        "example": "Use a hoe to remove the weeds.",
+        "note_en": "A \"weed\" is a wild plant growing where you don't want it."
+      },
+      {
+        "word": "watering can",
+        "pos": "noun",
+        "meaning_en": "a container with a spout for watering plants",
+        "meaning_ar": "إبريق / رشاش السقي",
+        "note_ar": "spout = فوهة",
+        "example": "Fill the watering can with water.",
+        "note_en": "The \"spout\" is the long part the water comes out of."
+      },
+      {
+        "word": "hose",
+        "pos": "noun",
+        "meaning_en": "a long tube connected to a tap to carry water",
+        "meaning_ar": "خرطوم مياه",
+        "note_ar": "",
+        "example": "He watered the lawn with a hose.",
+        "note_en": ""
+      },
+      {
+        "word": "gloves",
+        "pos": "noun",
+        "meaning_en": "coverings that protect your hands",
+        "meaning_ar": "قفازات",
+        "note_ar": "a pair of gloves = زوج قفازات",
+        "example": "Wear gloves when you work in the garden.",
+        "note_en": "\"A pair of gloves\" means two gloves, one for each hand."
+      },
+      {
+        "word": "pot",
+        "pos": "noun",
+        "meaning_en": "a container for growing plants",
+        "meaning_ar": "أصيص / قصرية زرع",
+        "note_ar": "مرادف: plant container",
+        "example": "She keeps a small cactus in a pot.",
+        "note_en": "A synonym is \"plant container\"."
+      },
+      {
+        "word": "soil",
+        "pos": "noun",
+        "meaning_en": "the top layer of earth where plants grow",
+        "meaning_ar": "تربة",
+        "note_ar": "",
+        "example": "This soil is good for tomatoes.",
+        "note_en": ""
+      },
+      {
+        "word": "plant",
+        "pos": "verb / noun",
+        "meaning_en": "to put a seed or plant in the ground",
+        "meaning_ar": "يزرع / نبات",
+        "note_ar": "",
+        "example": "We planted a lemon tree last year.",
+        "note_en": ""
+      },
+      {
+        "word": "dig",
+        "pos": "verb",
+        "meaning_en": "to make a hole in the ground",
+        "meaning_ar": "يحفر",
+        "note_ar": "الماضي: dug",
+        "example": "The dog dug a hole in the garden.",
+        "note_en": "The past form is \"dug\"."
+      },
+      {
+        "word": "water",
+        "pos": "verb",
+        "meaning_en": "to pour water on a plant",
+        "meaning_ar": "يسقي",
+        "note_ar": "كاسم = ماء",
+        "example": "Don't forget to water the plants.",
+        "note_en": "As a noun, it means the liquid we drink."
+      },
+      {
+        "word": "grow",
+        "pos": "verb",
+        "meaning_en": "to develop and get bigger",
+        "meaning_ar": "ينمو / يزرع",
+        "note_ar": "grow - grew - grown",
+        "example": "Tomatoes grow fast in the sun.",
+        "note_en": "grow – grew – grown"
+      },
+      {
+        "word": "prune",
+        "pos": "verb",
+        "meaning_en": "to cut off dead or extra branches to help a plant grow",
+        "meaning_ar": "يقلّم",
+        "note_ar": "",
+        "example": "Prune the roses in winter.",
+        "note_en": ""
+      },
+      {
+        "word": "harvest",
+        "pos": "verb / noun",
+        "meaning_en": "to collect crops or ripe fruit",
+        "meaning_ar": "يحصد / الحصاد",
+        "note_ar": "",
+        "example": "Farmers harvest the wheat in summer.",
+        "note_en": ""
+      },
+      {
+        "word": "backyard",
+        "pos": "noun",
+        "meaning_en": "the area behind a house",
+        "meaning_ar": "الفناء الخلفي",
+        "note_ar": "yard أمريكي، garden بريطاني",
+        "example": "The kids are playing in the backyard.",
+        "note_en": "\"Yard\" is American; \"garden\" is British."
+      },
+      {
+        "word": "greenhouse",
+        "pos": "noun",
+        "meaning_en": "a glass building for growing plants that need protection",
+        "meaning_ar": "صوبة زراعية / بيت زجاجي",
+        "note_ar": "في بريطانيا أحياناً: glasshouse",
+        "example": "They grow cucumbers in a greenhouse.",
+        "note_en": "In Britain, sometimes \"glasshouse\"."
+      },
+      {
+        "word": "herb garden",
+        "pos": "noun",
+        "meaning_en": "a garden for growing herbs",
+        "meaning_ar": "حديقة أعشاب",
+        "note_ar": "",
+        "example": "My herb garden has mint and basil.",
+        "note_en": ""
+      },
+      {
+        "word": "vegetable garden",
+        "pos": "noun",
+        "meaning_en": "a garden for growing vegetables",
+        "meaning_ar": "حديقة خضروات",
+        "note_ar": "",
+        "example": "We grow carrots in our vegetable garden.",
+        "note_en": ""
+      },
+      {
+        "word": "flower bed",
+        "pos": "noun",
+        "meaning_en": "an area of ground where flowers are planted",
+        "meaning_ar": "حوض زهور",
+        "note_ar": "",
+        "example": "Don't step on the flower bed.",
+        "note_en": ""
+      },
+      {
+        "word": "orchard",
+        "pos": "noun",
+        "meaning_en": "land where fruit trees are grown",
+        "meaning_ar": "بستان",
+        "note_ar": "",
+        "example": "They own an apple orchard.",
+        "note_en": ""
+      },
+      {
+        "word": "compost",
+        "pos": "noun",
+        "meaning_en": "decayed plant material used to make soil richer",
+        "meaning_ar": "سماد عضوي",
+        "note_ar": "",
+        "example": "We make compost from fruit peels.",
+        "note_en": ""
+      },
+      {
+        "word": "fertilizer",
+        "pos": "noun",
+        "meaning_en": "a substance added to soil to help plants grow",
+        "meaning_ar": "سماد",
+        "note_ar": "بريطاني: fertiliser",
+        "example": "Too much fertilizer can harm plants.",
+        "note_en": "British spelling: \"fertiliser\"."
+      },
+      {
+        "word": "sunlight",
+        "pos": "noun",
+        "meaning_en": "the light from the sun",
+        "meaning_ar": "ضوء الشمس",
+        "note_ar": "",
+        "example": "Most plants need a lot of sunlight.",
+        "note_en": ""
+      },
+      {
+        "word": "shade",
+        "pos": "noun",
+        "meaning_en": "an area out of direct sunlight",
+        "meaning_ar": "ظل",
+        "note_ar": "",
+        "example": "Some plants grow well in the shade.",
+        "note_en": ""
+      },
+      {
+        "word": "overgrown",
+        "pos": "adjective",
+        "meaning_en": "covered with plants that grew without control",
+        "meaning_ar": "مُكتظ بالنباتات / نما بعشوائية",
+        "note_ar": "over = زيادة + grown = نامٍ",
+        "example": "The old garden was overgrown with weeds.",
+        "note_en": "\"Over\" (too much) + \"grown\": plants have grown too much."
+      },
+      {
+        "word": "wild",
+        "pos": "adjective",
+        "meaning_en": "growing naturally without human care",
+        "meaning_ar": "بري",
+        "note_ar": "",
+        "example": "Wild flowers grow by the road.",
+        "note_en": ""
+      },
+      {
+        "word": "rusty",
+        "pos": "adjective",
+        "meaning_en": "covered with rust",
+        "meaning_ar": "صدئ",
+        "note_ar": "من rust = صدأ",
+        "example": "The gate was old and rusty.",
+        "note_en": "From \"rust\", the red-brown layer on old metal."
+      },
+      {
+        "word": "bury",
+        "pos": "verb",
+        "meaning_en": "to put something under the ground",
+        "meaning_ar": "يدفن",
+        "note_ar": "تُنطق مثل berry /ˈberi/",
+        "example": "The pirates buried the treasure.",
+        "note_en": "Pronounced like \"berry\": /ˈberi/."
+      },
+      {
+        "word": "examine",
+        "pos": "verb",
+        "meaning_en": "to look at something carefully",
+        "meaning_ar": "يفحص",
+        "note_ar": "",
+        "example": "The doctor examined my arm.",
+        "note_en": ""
+      },
+      {
+        "word": "row",
+        "pos": "noun",
+        "meaning_en": "a straight line of things or people",
+        "meaning_ar": "صف",
+        "note_ar": "",
+        "example": "We planted a row of onions.",
+        "note_en": ""
+      },
+      {
+        "word": "stuck",
+        "pos": "adjective",
+        "meaning_en": "fixed in a place and unable to move",
+        "meaning_ar": "عالق",
+        "note_ar": "من stick - stuck",
+        "example": "The key is stuck in the lock.",
+        "note_en": "From the verb \"stick\" (stick – stuck)."
+      },
+      {
+        "word": "clay",
+        "pos": "noun",
+        "meaning_en": "heavy earth used to make pots",
+        "meaning_ar": "طين / فخار",
+        "note_ar": "clay pot = إناء فخاري",
+        "example": "She made a bowl out of clay.",
+        "note_en": "A \"clay pot\" is a pot made from baked earth."
+      },
+      {
+        "word": "relief",
+        "pos": "noun",
+        "meaning_en": "a happy feeling when worry ends",
+        "meaning_ar": "ارتياح",
+        "note_ar": "الفعل: relieve",
+        "example": "We laughed with relief when we found the keys.",
+        "note_en": "The verb is \"relieve\"."
+      },
+      {
+        "word": "tradition",
+        "pos": "noun",
+        "meaning_en": "a custom passed down through a family or group",
+        "meaning_ar": "تقليد / عادة متوارثة",
+        "note_ar": "الصفة: traditional",
+        "example": "Eating together on Fridays is a family tradition.",
+        "note_en": "The adjective is \"traditional\"."
+      },
+      {
+        "word": "spice",
+        "pos": "noun",
+        "meaning_en": "a dried seed, root or bark used to flavour food",
+        "meaning_ar": "توابل / بهارات",
+        "note_ar": "",
+        "example": "Cinnamon is my favourite spice.",
+        "note_en": ""
+      },
+      {
+        "word": "trim",
+        "pos": "verb",
+        "meaning_en": "to cut a little to make something neat",
+        "meaning_ar": "يشذّب / يهذّب",
+        "note_ar": "",
+        "example": "I trim my beard every week.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "herb vs spice",
-        "words": ["herb", "spice"],
+        "words": [
+          "herb",
+          "spice"
+        ],
         "explanation_ar": "كلاهما يُستخدم في المطبخ لإضافة النكهة، لكن الفرق في الجزء الذي يُؤخذ من النبات. herb تأتي من الأوراق الخضراء للنبات وتُستخدم طازجة أو مجففة مثل النعناع والريحان والبقدونس. spice تأتي من باقي أجزاء النبات كالبذور والجذور واللحاء، وغالباً تكون مطحونة وليست خضراء، مثل القرفة والفلفل الأسود والزنجبيل.",
         "examples": [
-          {"word": "herb", "sentence": "Add some fresh herbs like parsley to the salad."},
-          {"word": "spice", "sentence": "Ginger and cinnamon are popular spices."}
-        ]
+          {
+            "word": "herb",
+            "sentence": "Add some fresh herbs like parsley to the salad."
+          },
+          {
+            "word": "spice",
+            "sentence": "Ginger and cinnamon are popular spices."
+          }
+        ],
+        "explanation_en": "Both are used in cooking to add flavour, but they come from different parts of the plant. \"Herbs\" come from the green leaves and are used fresh or dried, like mint, basil and parsley. \"Spices\" come from other parts like seeds, roots and bark; they are usually ground and not green, like cinnamon, black pepper and ginger."
       },
       {
         "title": "prune vs cut vs trim",
-        "words": ["prune", "cut", "trim"],
+        "words": [
+          "prune",
+          "cut",
+          "trim"
+        ],
         "explanation_ar": "الثلاثة فيها معنى القطع. prune تقليم لهدف صحي: إزالة الأغصان الميتة أو المريضة ليعطي النبات طاقة لينمو ويثمر أفضل. cut فعل عام يعني فصل جزء عن جزء بأداة دون هدف محدد، وقد يشمل قطع الشجرة كلها. trim قصّ الأطراف من أجل الشكل والمظهر فقط، كما تقص شعرك أو لحيتك عند الحلاق.",
         "examples": [
-          {"word": "prune", "sentence": "You must prune the dead branches on the tree."},
-          {"word": "cut", "sentence": "They cut down the old tree for wood."},
-          {"word": "cut", "sentence": "He cuts the grass every Saturday."},
-          {"word": "trim", "sentence": "The gardener trims the bushes to make them look neat."}
-        ]
+          {
+            "word": "prune",
+            "sentence": "You must prune the dead branches on the tree."
+          },
+          {
+            "word": "cut",
+            "sentence": "They cut down the old tree for wood."
+          },
+          {
+            "word": "cut",
+            "sentence": "He cuts the grass every Saturday."
+          },
+          {
+            "word": "trim",
+            "sentence": "The gardener trims the bushes to make them look neat."
+          }
+        ],
+        "explanation_en": "All three are about cutting. To \"prune\" is to cut for the plant's health: removing dead or sick branches so the plant can grow and give fruit better. To \"cut\" is a general verb for separating something with a tool, with no special purpose, and it can mean cutting down a whole tree. To \"trim\" is to cut the edges just to make something look neat, like when a barber trims your hair or beard."
       },
       {
         "title": "garden vs yard",
-        "words": ["garden", "yard"],
+        "words": [
+          "garden",
+          "yard"
+        ],
         "explanation_ar": "المساحة المحيطة بالبيت تُسمى garden غالباً في بريطانيا، أما في أمريكا فالكلمة الشائعة yard (و backyard للخلفية). في أمريكا garden تعني غالباً المكان المزروع بالزهور أو الخضروات.",
         "examples": [
-          {"word": "garden", "sentence": "We had tea in the garden."},
-          {"word": "yard", "sentence": "The dog is running around the yard."}
-        ]
+          {
+            "word": "garden",
+            "sentence": "We had tea in the garden."
+          },
+          {
+            "word": "yard",
+            "sentence": "The dog is running around the yard."
+          }
+        ],
+        "explanation_en": "In Britain, the area around a house is usually called a \"garden\". In America, the common word is \"yard\" (\"backyard\" for the area behind). In America, \"garden\" usually means an area where flowers or vegetables are grown."
       }
     ],
     "expressions": [
-      {"phrase": "nip something in the bud", "meaning_ar": "يقضي على المشكلة في بدايتها قبل أن تكبر", "example": "We need to nip this argument in the bud before it ruins our friendship."},
-      {"phrase": "take care of", "meaning_ar": "يعتني بـ", "example": "Who will take care of the plants while we're away?"},
-      {"phrase": "laugh with relief", "meaning_ar": "يضحك بارتياح", "example": "They laughed with relief when the test was cancelled."},
-      {"phrase": "a pair of gloves", "meaning_ar": "زوج من القفازات", "example": "I bought a new pair of gloves for the garden."},
-      {"phrase": "more than just", "meaning_ar": "أكثر من مجرد", "example": "This is more than just a job for me."}
+      {
+        "phrase": "nip something in the bud",
+        "meaning_ar": "يقضي على المشكلة في بدايتها قبل أن تكبر",
+        "example": "We need to nip this argument in the bud before it ruins our friendship.",
+        "meaning_en": "to stop a problem at the start, before it grows"
+      },
+      {
+        "phrase": "take care of",
+        "meaning_ar": "يعتني بـ",
+        "example": "Who will take care of the plants while we're away?",
+        "meaning_en": "to look after someone or something"
+      },
+      {
+        "phrase": "laugh with relief",
+        "meaning_ar": "يضحك بارتياح",
+        "example": "They laughed with relief when the test was cancelled.",
+        "meaning_en": "to laugh because a worry or fear has ended"
+      },
+      {
+        "phrase": "a pair of gloves",
+        "meaning_ar": "زوج من القفازات",
+        "example": "I bought a new pair of gloves for the garden.",
+        "meaning_en": "two gloves, one for each hand"
+      },
+      {
+        "phrase": "more than just",
+        "meaning_ar": "أكثر من مجرد",
+        "example": "This is more than just a job for me.",
+        "meaning_en": "not only; something more important than it seems"
+      }
     ],
     "grammar": [
       {
         "title": "Future continuous for guessing what is happening now",
         "explanation_ar": "نستخدم will be + فعل ing أيضاً لتخمين حدث مستمر في اللحظة الحالية لا نراه بأعيننا. المعنى هنا ليس المستقبل بل «أكيد هو الآن يفعل كذا». إذا كنا نرى الحدث أمامنا ولسنا نخمّن، نستخدم المضارع المستمر.",
-        "examples": ["Don't call Ahmed now. He'll be sleeping.", "Mum will be cooking in the kitchen right now.", "Sarah will be watering the plants at 2. / Look, she is watering them now."]
+        "examples": [
+          "Don't call Ahmed now. He'll be sleeping.",
+          "Mum will be cooking in the kitchen right now.",
+          "Sarah will be watering the plants at 2. / Look, she is watering them now."
+        ],
+        "explanation_en": "We also use will be + verb-ing to guess what someone is probably doing right now when we can't see it. Here it doesn't mean the future; it means \"I'm sure he's doing this now\". If we can actually see the action and aren't guessing, we use the present continuous."
       }
     ]
   },
   "questions": [
-    {"question": "Mint, basil and parsley are:", "choices": ["spices", "herbs", "shrubs", "seeds"], "answer": 1, "explanation_ar": "تأتي من الأوراق الخضراء فهي herbs."},
-    {"question": "Cinnamon and black pepper are:", "choices": ["herbs", "weeds", "spices", "flowers"], "answer": 2, "explanation_ar": "تأتي من اللحاء والبذور فهي spices."},
-    {"question": "You should ___ the dead branches so the tree grows better.", "choices": ["prune", "trim", "dig", "bury"], "answer": 0, "explanation_ar": "إزالة الأغصان الميتة لهدف صحي = prune."},
-    {"question": "The gardener ___ the bushes to make them look neat.", "choices": ["harvests", "prunes", "waters", "trims"], "answer": 3, "explanation_ar": "القص من أجل الشكل والمظهر = trim."},
-    {"question": "It's 11 p.m. and Ahmed always sleeps early. \"Don't call him. He ___.\"", "choices": ["sleeps", "will be sleeping", "slept", "will sleep tomorrow"], "answer": 1, "explanation_ar": "نخمّن حدثاً مستمراً الآن فنستخدم will be sleeping."},
-    {"question": "\"To nip something in the bud\" means to:", "choices": ["stop a problem early before it grows", "plant a new flower", "start a new project", "cut a tree for wood"], "answer": 0, "explanation_ar": "معناها القضاء على المشكلة في بدايتها."},
-    {"question": "A piece of land where fruit trees grow is an:", "choices": ["greenhouse", "flower bed", "orchard", "backyard"], "answer": 2, "explanation_ar": "orchard = بستان أشجار الفاكهة."},
-    {"question": "Which tool do you use to collect dry leaves?", "choices": ["hose", "watering can", "pot", "rake"], "answer": 3, "explanation_ar": "rake أداة لها أسنان لجمع الأوراق الجافة."},
-    {"question": "In American English, the area behind a house is usually called the:", "choices": ["backyard", "orchard", "greenhouse", "soil"], "answer": 0, "explanation_ar": "الأمريكيون يقولون yard / backyard والبريطانيون garden."},
-    {"question": "The old shovel was covered in rust. It was:", "choices": ["dusty", "rusty", "wild", "overgrown"], "answer": 1, "explanation_ar": "rusty = صدئ، من rust."}
+    {
+      "question": "Mint, basil and parsley are:",
+      "choices": [
+        "spices",
+        "herbs",
+        "shrubs",
+        "seeds"
+      ],
+      "answer": 1,
+      "explanation_ar": "تأتي من الأوراق الخضراء فهي herbs.",
+      "explanation_en": "They come from green leaves, so they are herbs."
+    },
+    {
+      "question": "Cinnamon and black pepper are:",
+      "choices": [
+        "herbs",
+        "weeds",
+        "spices",
+        "flowers"
+      ],
+      "answer": 2,
+      "explanation_ar": "تأتي من اللحاء والبذور فهي spices.",
+      "explanation_en": "They come from bark and seeds, so they are spices."
+    },
+    {
+      "question": "You should ___ the dead branches so the tree grows better.",
+      "choices": [
+        "prune",
+        "trim",
+        "dig",
+        "bury"
+      ],
+      "answer": 0,
+      "explanation_ar": "إزالة الأغصان الميتة لهدف صحي = prune.",
+      "explanation_en": "Removing dead branches for the plant's health is \"prune\"."
+    },
+    {
+      "question": "The gardener ___ the bushes to make them look neat.",
+      "choices": [
+        "harvests",
+        "prunes",
+        "waters",
+        "trims"
+      ],
+      "answer": 3,
+      "explanation_ar": "القص من أجل الشكل والمظهر = trim.",
+      "explanation_en": "Cutting for a neat appearance is \"trim\"."
+    },
+    {
+      "question": "It's 11 p.m. and Ahmed always sleeps early. \"Don't call him. He ___.\"",
+      "choices": [
+        "sleeps",
+        "will be sleeping",
+        "slept",
+        "will sleep tomorrow"
+      ],
+      "answer": 1,
+      "explanation_ar": "نخمّن حدثاً مستمراً الآن فنستخدم will be sleeping.",
+      "explanation_en": "We're guessing about an action happening now, so we use \"will be sleeping\"."
+    },
+    {
+      "question": "\"To nip something in the bud\" means to:",
+      "choices": [
+        "stop a problem early before it grows",
+        "plant a new flower",
+        "start a new project",
+        "cut a tree for wood"
+      ],
+      "answer": 0,
+      "explanation_ar": "معناها القضاء على المشكلة في بدايتها.",
+      "explanation_en": "It means stopping a problem at the start."
+    },
+    {
+      "question": "A piece of land where fruit trees grow is an:",
+      "choices": [
+        "greenhouse",
+        "flower bed",
+        "orchard",
+        "backyard"
+      ],
+      "answer": 2,
+      "explanation_ar": "orchard = بستان أشجار الفاكهة.",
+      "explanation_en": "An orchard is a piece of land with fruit trees."
+    },
+    {
+      "question": "Which tool do you use to collect dry leaves?",
+      "choices": [
+        "hose",
+        "watering can",
+        "pot",
+        "rake"
+      ],
+      "answer": 3,
+      "explanation_ar": "rake أداة لها أسنان لجمع الأوراق الجافة.",
+      "explanation_en": "A rake has teeth for collecting dry leaves."
+    },
+    {
+      "question": "In American English, the area behind a house is usually called the:",
+      "choices": [
+        "backyard",
+        "orchard",
+        "greenhouse",
+        "soil"
+      ],
+      "answer": 0,
+      "explanation_ar": "الأمريكيون يقولون yard / backyard والبريطانيون garden.",
+      "explanation_en": "Americans say \"yard / backyard\"; British people say \"garden\"."
+    },
+    {
+      "question": "The old shovel was covered in rust. It was:",
+      "choices": [
+        "dusty",
+        "rusty",
+        "wild",
+        "overgrown"
+      ],
+      "answer": 1,
+      "explanation_ar": "rusty = صدئ، من rust.",
+      "explanation_en": "\"Rusty\" means covered in rust."
+    }
   ]
 }

@@ -2,112 +2,586 @@
   "title": "The Job Interview",
   "content": {
     "vocabulary": [
-      {"word": "interview", "pos": "noun", "meaning_en": "a formal meeting where an employer asks questions to a person who wants a job", "meaning_ar": "مقابلة عمل", "note_ar": "interviewer = من يُجري المقابلة، interviewee = من تُجرى معه", "example": "I have a job interview tomorrow at ten."},
-      {"word": "interviewer", "pos": "noun", "meaning_en": "the person who asks the questions in an interview", "meaning_ar": "المحاوِر / من يُجري المقابلة", "note_ar": "", "example": "The interviewer asked about my last job."},
-      {"word": "candidate", "pos": "noun", "meaning_en": "a person who is trying to get a job", "meaning_ar": "مرشّح / متقدّم", "note_ar": "", "example": "There are five candidates for the position."},
-      {"word": "résumé", "pos": "noun", "meaning_en": "a short document (1-2 pages) about your skills and experience", "meaning_ar": "سيرة ذاتية مختصرة", "note_ar": "مصطلح أمريكي ويُنطق /ˈrezəmeɪ/، ولا تخلطه مع الفعل resume /rɪˈzjuːm/ = يستأنف", "example": "Please send your résumé by email."},
-      {"word": "CV", "pos": "noun", "meaning_en": "a full document about your education and work history", "meaning_ar": "سيرة ذاتية مفصّلة", "note_ar": "اختصار curriculum vitae اللاتينية = مسيرة الحياة", "example": "My CV is four pages long."},
-      {"word": "cover letter", "pos": "noun", "meaning_en": "a letter you send with your CV to explain why you want the job", "meaning_ar": "خطاب تقديم / خطاب تعريفي", "note_ar": "", "example": "In my cover letter, I explained why I love marketing."},
-      {"word": "application", "pos": "noun", "meaning_en": "a formal request for a job, often a form", "meaning_ar": "طلب توظيف / استمارة تقديم", "note_ar": "من الفعل apply", "example": "Fill in the application and send it before Monday."},
-      {"word": "vacancy", "pos": "noun", "meaning_en": "a job that is free and waiting for someone", "meaning_ar": "وظيفة شاغرة", "note_ar": "vacant = شاغر / فارغ", "example": "The company has a vacancy for a driver."},
-      {"word": "position", "pos": "noun", "meaning_en": "a job or role in a company", "meaning_ar": "منصب / مسمى وظيفي", "note_ar": "", "example": "She applied for the position of sales manager."},
-      {"word": "apply (for)", "pos": "verb", "meaning_en": "to formally ask for a job", "meaning_ar": "يتقدّم (لوظيفة)", "note_ar": "يأتي معه حرف الجر for: apply for a job", "example": "I'm going to apply for that job."},
-      {"word": "prepare", "pos": "verb", "meaning_en": "to get ready for something", "meaning_ar": "يستعدّ / يجهّز", "note_ar": "prepare for an interview", "example": "Prepare answers to common questions."},
-      {"word": "introduce (yourself)", "pos": "verb", "meaning_en": "to tell people who you are", "meaning_ar": "يعرّف (بنفسه)", "note_ar": "", "example": "Can you introduce yourself, please?"},
-      {"word": "discuss", "pos": "verb", "meaning_en": "to talk about something with someone", "meaning_ar": "يناقش", "note_ar": "يأتي بعده الموضوع مباشرة بدون حرف جر: discuss the salary وليس discuss about", "example": "We discussed the salary at the end of the interview."},
-      {"word": "hire", "pos": "verb", "meaning_en": "to give someone a job", "meaning_ar": "يوظّف / يعيّن", "note_ar": "", "example": "Why should we hire you?"},
-      {"word": "reject", "pos": "verb", "meaning_en": "to say no to someone or something", "meaning_ar": "يرفض", "note_ar": "rejection = رفض", "example": "They rejected my application, but I'll try again."},
-      {"word": "confidence", "pos": "noun", "meaning_en": "the feeling that you can do things well", "meaning_ar": "الثقة بالنفس", "note_ar": "الصفة confident = واثق", "example": "She answered every question with confidence."},
-      {"word": "nervous", "pos": "adjective", "meaning_en": "worried and a little afraid", "meaning_ar": "متوتّر", "note_ar": "", "example": "I always feel nervous before an interview."},
-      {"word": "skill", "pos": "noun", "meaning_en": "an ability you learn and practise", "meaning_ar": "مهارة", "note_ar": "", "example": "Communication is an important skill."},
-      {"word": "strength", "pos": "noun", "meaning_en": "a good quality that makes you better than others", "meaning_ar": "نقطة قوة", "note_ar": "من strong = قوي", "example": "My main strength is teamwork."},
-      {"word": "weakness", "pos": "noun", "meaning_en": "something you are not good at", "meaning_ar": "نقطة ضعف", "note_ar": "من weak = ضعيف", "example": "My weakness is speaking in public, but I'm improving."},
-      {"word": "experience", "pos": "noun", "meaning_en": "knowledge you get from doing a job", "meaning_ar": "خبرة", "note_ar": "بمعنى الخبرة العامة غير معدودة: work experience", "example": "Do you have any experience in sales?"},
-      {"word": "suitable", "pos": "adjective", "meaning_en": "right for a certain job or purpose", "meaning_ar": "مناسب / ملائم", "note_ar": "suitability = مدى الملاءمة", "example": "I believe I'm suitable for this job."},
-      {"word": "qualified", "pos": "adjective", "meaning_en": "having the official training or certificates for a job", "meaning_ar": "مؤهَّل", "note_ar": "qualification = مؤهّل / شهادة", "example": "She is a qualified nurse."},
-      {"word": "prepared", "pos": "adjective", "meaning_en": "ready", "meaning_ar": "مستعدّ / جاهز", "note_ar": "", "example": "I always stay prepared for meetings."},
-      {"word": "professional", "pos": "adjective", "meaning_en": "showing the skill and behaviour expected at work", "meaning_ar": "احترافي / مهني", "note_ar": "", "example": "He gave a very professional answer."},
-      {"word": "successful", "pos": "adjective", "meaning_en": "getting the result you wanted", "meaning_ar": "ناجح", "note_ar": "عكسها unsuccessful = لم يُوفَّق", "example": "My CV shows successful projects."},
-      {"word": "unsuccessful", "pos": "adjective", "meaning_en": "not getting the result you wanted", "meaning_ar": "غير ناجح / لم يُوفَّق", "note_ar": "", "example": "An unsuccessful interview is good practice for the next one."},
-      {"word": "internship", "pos": "noun", "meaning_en": "a period of practical training at a company for students or graduates", "meaning_ar": "تدريب عملي / تدريب ميداني", "note_ar": "intern = المتدرّب", "example": "I did a three-month internship at a bank."},
-      {"word": "graduate", "pos": "verb", "meaning_en": "to finish your studies at a university or school", "meaning_ar": "يتخرّج", "note_ar": "كاسم graduate = خرّيج", "example": "I graduated with a degree in business."},
-      {"word": "degree", "pos": "noun", "meaning_en": "a qualification from a university", "meaning_ar": "شهادة جامعية", "note_ar": "degree أيضاً = درجة (حرارة)", "example": "He has a degree in engineering."},
-      {"word": "recently", "pos": "adverb", "meaning_en": "not long ago", "meaning_ar": "مؤخراً", "note_ar": "", "example": "I recently moved to a new city."},
-      {"word": "decision", "pos": "noun", "meaning_en": "a choice you make after thinking", "meaning_ar": "قرار", "note_ar": "من الفعل decide", "example": "We will tell you our final decision next week."},
-      {"word": "recruit", "pos": "verb", "meaning_en": "to look for and bring new people to work in a company", "meaning_ar": "يستقطب / يبحث عن موظفين", "note_ar": "recruitment = التوظيف والاستقطاب", "example": "The company is recruiting five new engineers."},
-      {"word": "employ", "pos": "verb", "meaning_en": "to have someone working for you and pay them", "meaning_ar": "يُشغّل / يوظّف (بشكل مستمر)", "note_ar": "employee = موظف، employer = صاحب العمل", "example": "The factory employs 200 workers."},
-      {"word": "creativity", "pos": "noun", "meaning_en": "the ability to make new ideas", "meaning_ar": "الإبداع", "note_ar": "creative = مبدع", "example": "This job needs energy and creativity."}
+      {
+        "word": "interview",
+        "pos": "noun",
+        "meaning_en": "a formal meeting where an employer asks questions to a person who wants a job",
+        "meaning_ar": "مقابلة عمل",
+        "note_ar": "interviewer = من يُجري المقابلة، interviewee = من تُجرى معه",
+        "example": "I have a job interview tomorrow at ten.",
+        "note_en": "interviewer = the person who asks the questions; interviewee = the person who answers them."
+      },
+      {
+        "word": "interviewer",
+        "pos": "noun",
+        "meaning_en": "the person who asks the questions in an interview",
+        "meaning_ar": "المحاوِر / من يُجري المقابلة",
+        "note_ar": "",
+        "example": "The interviewer asked about my last job.",
+        "note_en": ""
+      },
+      {
+        "word": "candidate",
+        "pos": "noun",
+        "meaning_en": "a person who is trying to get a job",
+        "meaning_ar": "مرشّح / متقدّم",
+        "note_ar": "",
+        "example": "There are five candidates for the position.",
+        "note_en": ""
+      },
+      {
+        "word": "résumé",
+        "pos": "noun",
+        "meaning_en": "a short document (1-2 pages) about your skills and experience",
+        "meaning_ar": "سيرة ذاتية مختصرة",
+        "note_ar": "مصطلح أمريكي ويُنطق /ˈrezəmeɪ/، ولا تخلطه مع الفعل resume /rɪˈzjuːm/ = يستأنف",
+        "example": "Please send your résumé by email.",
+        "note_en": "An American word, pronounced /ˈrezəmeɪ/. Don't confuse it with the verb \"resume\" /rɪˈzjuːm/ = to start again."
+      },
+      {
+        "word": "CV",
+        "pos": "noun",
+        "meaning_en": "a full document about your education and work history",
+        "meaning_ar": "سيرة ذاتية مفصّلة",
+        "note_ar": "اختصار curriculum vitae اللاتينية = مسيرة الحياة",
+        "example": "My CV is four pages long.",
+        "note_en": "Short for the Latin \"curriculum vitae\" = the course of your life."
+      },
+      {
+        "word": "cover letter",
+        "pos": "noun",
+        "meaning_en": "a letter you send with your CV to explain why you want the job",
+        "meaning_ar": "خطاب تقديم / خطاب تعريفي",
+        "note_ar": "",
+        "example": "In my cover letter, I explained why I love marketing.",
+        "note_en": ""
+      },
+      {
+        "word": "application",
+        "pos": "noun",
+        "meaning_en": "a formal request for a job, often a form",
+        "meaning_ar": "طلب توظيف / استمارة تقديم",
+        "note_ar": "من الفعل apply",
+        "example": "Fill in the application and send it before Monday.",
+        "note_en": "From the verb \"apply\"."
+      },
+      {
+        "word": "vacancy",
+        "pos": "noun",
+        "meaning_en": "a job that is free and waiting for someone",
+        "meaning_ar": "وظيفة شاغرة",
+        "note_ar": "vacant = شاغر / فارغ",
+        "example": "The company has a vacancy for a driver.",
+        "note_en": "vacant = empty, not taken."
+      },
+      {
+        "word": "position",
+        "pos": "noun",
+        "meaning_en": "a job or role in a company",
+        "meaning_ar": "منصب / مسمى وظيفي",
+        "note_ar": "",
+        "example": "She applied for the position of sales manager.",
+        "note_en": ""
+      },
+      {
+        "word": "apply (for)",
+        "pos": "verb",
+        "meaning_en": "to formally ask for a job",
+        "meaning_ar": "يتقدّم (لوظيفة)",
+        "note_ar": "يأتي معه حرف الجر for: apply for a job",
+        "example": "I'm going to apply for that job.",
+        "note_en": "Used with \"for\": apply for a job."
+      },
+      {
+        "word": "prepare",
+        "pos": "verb",
+        "meaning_en": "to get ready for something",
+        "meaning_ar": "يستعدّ / يجهّز",
+        "note_ar": "prepare for an interview",
+        "example": "Prepare answers to common questions.",
+        "note_en": "prepare for an interview"
+      },
+      {
+        "word": "introduce (yourself)",
+        "pos": "verb",
+        "meaning_en": "to tell people who you are",
+        "meaning_ar": "يعرّف (بنفسه)",
+        "note_ar": "",
+        "example": "Can you introduce yourself, please?",
+        "note_en": ""
+      },
+      {
+        "word": "discuss",
+        "pos": "verb",
+        "meaning_en": "to talk about something with someone",
+        "meaning_ar": "يناقش",
+        "note_ar": "يأتي بعده الموضوع مباشرة بدون حرف جر: discuss the salary وليس discuss about",
+        "example": "We discussed the salary at the end of the interview.",
+        "note_en": "The topic comes directly after it with no preposition: \"discuss the salary\", not \"discuss about\"."
+      },
+      {
+        "word": "hire",
+        "pos": "verb",
+        "meaning_en": "to give someone a job",
+        "meaning_ar": "يوظّف / يعيّن",
+        "note_ar": "",
+        "example": "Why should we hire you?",
+        "note_en": ""
+      },
+      {
+        "word": "reject",
+        "pos": "verb",
+        "meaning_en": "to say no to someone or something",
+        "meaning_ar": "يرفض",
+        "note_ar": "rejection = رفض",
+        "example": "They rejected my application, but I'll try again.",
+        "note_en": "rejection = the act of saying no."
+      },
+      {
+        "word": "confidence",
+        "pos": "noun",
+        "meaning_en": "the feeling that you can do things well",
+        "meaning_ar": "الثقة بالنفس",
+        "note_ar": "الصفة confident = واثق",
+        "example": "She answered every question with confidence.",
+        "note_en": "The adjective is \"confident\" = sure of yourself."
+      },
+      {
+        "word": "nervous",
+        "pos": "adjective",
+        "meaning_en": "worried and a little afraid",
+        "meaning_ar": "متوتّر",
+        "note_ar": "",
+        "example": "I always feel nervous before an interview.",
+        "note_en": ""
+      },
+      {
+        "word": "skill",
+        "pos": "noun",
+        "meaning_en": "an ability you learn and practise",
+        "meaning_ar": "مهارة",
+        "note_ar": "",
+        "example": "Communication is an important skill.",
+        "note_en": ""
+      },
+      {
+        "word": "strength",
+        "pos": "noun",
+        "meaning_en": "a good quality that makes you better than others",
+        "meaning_ar": "نقطة قوة",
+        "note_ar": "من strong = قوي",
+        "example": "My main strength is teamwork.",
+        "note_en": "From \"strong\"."
+      },
+      {
+        "word": "weakness",
+        "pos": "noun",
+        "meaning_en": "something you are not good at",
+        "meaning_ar": "نقطة ضعف",
+        "note_ar": "من weak = ضعيف",
+        "example": "My weakness is speaking in public, but I'm improving.",
+        "note_en": "From \"weak\"."
+      },
+      {
+        "word": "experience",
+        "pos": "noun",
+        "meaning_en": "knowledge you get from doing a job",
+        "meaning_ar": "خبرة",
+        "note_ar": "بمعنى الخبرة العامة غير معدودة: work experience",
+        "example": "Do you have any experience in sales?",
+        "note_en": "Meaning general knowledge from work, it is uncountable: work experience."
+      },
+      {
+        "word": "suitable",
+        "pos": "adjective",
+        "meaning_en": "right for a certain job or purpose",
+        "meaning_ar": "مناسب / ملائم",
+        "note_ar": "suitability = مدى الملاءمة",
+        "example": "I believe I'm suitable for this job.",
+        "note_en": "suitability = how right someone or something is for a purpose."
+      },
+      {
+        "word": "qualified",
+        "pos": "adjective",
+        "meaning_en": "having the official training or certificates for a job",
+        "meaning_ar": "مؤهَّل",
+        "note_ar": "qualification = مؤهّل / شهادة",
+        "example": "She is a qualified nurse.",
+        "note_en": "qualification = a certificate or skill that makes you suitable for a job."
+      },
+      {
+        "word": "prepared",
+        "pos": "adjective",
+        "meaning_en": "ready",
+        "meaning_ar": "مستعدّ / جاهز",
+        "note_ar": "",
+        "example": "I always stay prepared for meetings.",
+        "note_en": ""
+      },
+      {
+        "word": "professional",
+        "pos": "adjective",
+        "meaning_en": "showing the skill and behaviour expected at work",
+        "meaning_ar": "احترافي / مهني",
+        "note_ar": "",
+        "example": "He gave a very professional answer.",
+        "note_en": ""
+      },
+      {
+        "word": "successful",
+        "pos": "adjective",
+        "meaning_en": "getting the result you wanted",
+        "meaning_ar": "ناجح",
+        "note_ar": "عكسها unsuccessful = لم يُوفَّق",
+        "example": "My CV shows successful projects.",
+        "note_en": "The opposite is \"unsuccessful\" = did not succeed."
+      },
+      {
+        "word": "unsuccessful",
+        "pos": "adjective",
+        "meaning_en": "not getting the result you wanted",
+        "meaning_ar": "غير ناجح / لم يُوفَّق",
+        "note_ar": "",
+        "example": "An unsuccessful interview is good practice for the next one.",
+        "note_en": ""
+      },
+      {
+        "word": "internship",
+        "pos": "noun",
+        "meaning_en": "a period of practical training at a company for students or graduates",
+        "meaning_ar": "تدريب عملي / تدريب ميداني",
+        "note_ar": "intern = المتدرّب",
+        "example": "I did a three-month internship at a bank.",
+        "note_en": "intern = the trainee."
+      },
+      {
+        "word": "graduate",
+        "pos": "verb",
+        "meaning_en": "to finish your studies at a university or school",
+        "meaning_ar": "يتخرّج",
+        "note_ar": "كاسم graduate = خرّيج",
+        "example": "I graduated with a degree in business.",
+        "note_en": "As a noun, a graduate is a person who has finished university."
+      },
+      {
+        "word": "degree",
+        "pos": "noun",
+        "meaning_en": "a qualification from a university",
+        "meaning_ar": "شهادة جامعية",
+        "note_ar": "degree أيضاً = درجة (حرارة)",
+        "example": "He has a degree in engineering.",
+        "note_en": "\"Degree\" also means a unit of temperature."
+      },
+      {
+        "word": "recently",
+        "pos": "adverb",
+        "meaning_en": "not long ago",
+        "meaning_ar": "مؤخراً",
+        "note_ar": "",
+        "example": "I recently moved to a new city.",
+        "note_en": ""
+      },
+      {
+        "word": "decision",
+        "pos": "noun",
+        "meaning_en": "a choice you make after thinking",
+        "meaning_ar": "قرار",
+        "note_ar": "من الفعل decide",
+        "example": "We will tell you our final decision next week.",
+        "note_en": "From the verb \"decide\"."
+      },
+      {
+        "word": "recruit",
+        "pos": "verb",
+        "meaning_en": "to look for and bring new people to work in a company",
+        "meaning_ar": "يستقطب / يبحث عن موظفين",
+        "note_ar": "recruitment = التوظيف والاستقطاب",
+        "example": "The company is recruiting five new engineers.",
+        "note_en": "recruitment = the process of finding and attracting new staff."
+      },
+      {
+        "word": "employ",
+        "pos": "verb",
+        "meaning_en": "to have someone working for you and pay them",
+        "meaning_ar": "يُشغّل / يوظّف (بشكل مستمر)",
+        "note_ar": "employee = موظف، employer = صاحب العمل",
+        "example": "The factory employs 200 workers.",
+        "note_en": "employee = worker; employer = the person or company that gives the job."
+      },
+      {
+        "word": "creativity",
+        "pos": "noun",
+        "meaning_en": "the ability to make new ideas",
+        "meaning_ar": "الإبداع",
+        "note_ar": "creative = مبدع",
+        "example": "This job needs energy and creativity.",
+        "note_en": "creative = full of new ideas."
+      }
     ],
     "fine_lines": [
       {
         "title": "recruit vs hire vs employ",
-        "words": ["recruit", "hire", "employ"],
+        "words": [
+          "recruit",
+          "hire",
+          "employ"
+        ],
         "explanation_ar": "الثلاثة تصف رحلة التوظيف من البداية للنهاية. recruit هو البحث عن الكفاءات وجذبها لتتقدّم للوظيفة. hire هو لحظة الاختيار وقبول الموظف رسمياً. employ هو الحالة المستمرة: الشخص يعمل عندك ويقبض راتبه بانتظام.",
         "examples": [
-          {"word": "recruit", "sentence": "We are recruiting new sales staff this month."},
-          {"word": "hire", "sentence": "They hired her after one interview."},
-          {"word": "employ", "sentence": "The hotel employs over 100 people."}
-        ]
+          {
+            "word": "recruit",
+            "sentence": "We are recruiting new sales staff this month."
+          },
+          {
+            "word": "hire",
+            "sentence": "They hired her after one interview."
+          },
+          {
+            "word": "employ",
+            "sentence": "The hotel employs over 100 people."
+          }
+        ],
+        "explanation_en": "All three describe the hiring journey from start to finish. \"Recruit\" means looking for good people and attracting them to apply. \"Hire\" is the moment you choose someone and officially accept them. \"Employ\" is the ongoing situation: the person works for you and gets paid regularly."
       },
       {
         "title": "résumé vs CV",
-        "words": ["résumé", "CV"],
+        "words": [
+          "résumé",
+          "CV"
+        ],
         "explanation_ar": "الاثنان عن تاريخك المهني. résumé مصطلح أمريكي لوثيقة قصيرة (صفحة أو صفحتان) مفصّلة على مقاس وظيفة محددة، فيها فقط ما يخدم هذه الوظيفة. CV هو المصطلح الشائع في بريطانيا وبقية العالم وفي المجال الأكاديمي والطبي، وهو سجل كامل ومفصّل لكل دراستك وأبحاثك وأعمالك وقد يطول لعدة صفحات.",
         "examples": [
-          {"word": "résumé", "sentence": "Keep your résumé to one page."},
-          {"word": "CV", "sentence": "Her CV lists all her research papers."}
-        ]
+          {
+            "word": "résumé",
+            "sentence": "Keep your résumé to one page."
+          },
+          {
+            "word": "CV",
+            "sentence": "Her CV lists all her research papers."
+          }
+        ],
+        "explanation_en": "Both are about your work history. \"Résumé\" is the American word for a short document (one or two pages) made for one specific job, with only the information that helps for that job. \"CV\" is the common word in Britain and the rest of the world, and in academic and medical fields; it is a full, detailed record of all your studies, research and work, and it can be several pages long."
       },
       {
         "title": "résumé vs resume",
-        "words": ["résumé", "resume"],
+        "words": [
+          "résumé",
+          "resume"
+        ],
         "explanation_ar": "تُكتبان بحروف متشابهة لكن المعنى والنطق مختلفان. résumé اسم = سيرة ذاتية ويُنطق «ريزيوميه». resume فعل = يستأنف (يكمل بعد توقف) ويُنطق «ريزيوم».",
         "examples": [
-          {"word": "résumé", "sentence": "I updated my résumé last night."},
-          {"word": "resume", "sentence": "The meeting will resume after lunch."}
-        ]
+          {
+            "word": "résumé",
+            "sentence": "I updated my résumé last night."
+          },
+          {
+            "word": "resume",
+            "sentence": "The meeting will resume after lunch."
+          }
+        ],
+        "explanation_en": "They are spelled almost the same, but the meaning and pronunciation are different. \"Résumé\" is a noun = a document about your work history, pronounced \"REZ-yoo-may\". \"Resume\" is a verb = to continue after a stop, pronounced \"ri-ZYOOM\"."
       },
       {
         "title": "Past simple vs present perfect in interviews",
-        "words": ["past simple", "present perfect"],
+        "words": [
+          "past simple",
+          "present perfect"
+        ],
         "explanation_ar": "الماضي البسيط لحدث انتهى في وقت محدد (سنة، الصيف الماضي). المضارع التام لعرض خبرتك وإنجازاتك العامة التي تفيدك الآن، بدون ذكر وقت محدد.",
         "examples": [
-          {"word": "past simple", "sentence": "I graduated in 2022."},
-          {"word": "present perfect", "sentence": "I have managed many marketing campaigns."}
-        ]
+          {
+            "word": "past simple",
+            "sentence": "I graduated in 2022."
+          },
+          {
+            "word": "present perfect",
+            "sentence": "I have managed many marketing campaigns."
+          }
+        ],
+        "explanation_en": "Use the past simple for an event that finished at a specific time (a year, last summer). Use the present perfect to show your general experience and achievements that help you now, without saying when."
       }
     ],
     "expressions": [
-      {"phrase": "sell yourself short", "meaning_ar": "يبخس نفسه حقها / يقلّل من قيمة مهاراته", "example": "You have five years of experience, so don't sell yourself short."},
-      {"phrase": "apply for a job", "meaning_ar": "يتقدّم لوظيفة", "example": "He applied for three jobs this week."},
-      {"phrase": "Why should we hire you?", "meaning_ar": "لماذا يجب أن نوظّفك؟ (سؤال شائع في المقابلات)", "example": "Prepare a strong answer to \"Why should we hire you?\""},
-      {"phrase": "work well in a team", "meaning_ar": "يعمل جيداً ضمن فريق", "example": "I'm organized and I work well in a team."},
-      {"phrase": "speak in public", "meaning_ar": "يتحدّث أمام الجمهور", "example": "Many people get nervous when they speak in public."},
-      {"phrase": "the final decision", "meaning_ar": "القرار النهائي", "example": "The manager will make the final decision on Friday."}
+      {
+        "phrase": "sell yourself short",
+        "meaning_ar": "يبخس نفسه حقها / يقلّل من قيمة مهاراته",
+        "example": "You have five years of experience, so don't sell yourself short.",
+        "meaning_en": "to show yourself as less skilled or valuable than you really are"
+      },
+      {
+        "phrase": "apply for a job",
+        "meaning_ar": "يتقدّم لوظيفة",
+        "example": "He applied for three jobs this week.",
+        "meaning_en": "to ask officially to be given a job"
+      },
+      {
+        "phrase": "Why should we hire you?",
+        "meaning_ar": "لماذا يجب أن نوظّفك؟ (سؤال شائع في المقابلات)",
+        "example": "Prepare a strong answer to \"Why should we hire you?\"",
+        "meaning_en": "a common interview question asking why you are the best person for the job"
+      },
+      {
+        "phrase": "work well in a team",
+        "meaning_ar": "يعمل جيداً ضمن فريق",
+        "example": "I'm organized and I work well in a team.",
+        "meaning_en": "to work successfully with other people"
+      },
+      {
+        "phrase": "speak in public",
+        "meaning_ar": "يتحدّث أمام الجمهور",
+        "example": "Many people get nervous when they speak in public.",
+        "meaning_en": "to talk in front of an audience"
+      },
+      {
+        "phrase": "the final decision",
+        "meaning_ar": "القرار النهائي",
+        "example": "The manager will make the final decision on Friday.",
+        "meaning_en": "the last decision that settles something"
+      }
     ],
     "grammar": [
       {
         "title": "Past simple: finished events at a specific time",
         "explanation_ar": "نستخدم الماضي البسيط لحدث انتهى في وقت محدد ومغلق في الماضي، خاصة مع كلمات مثل in 2023, last summer, yesterday.",
-        "examples": ["I graduated in 2023.", "I finished my internship last summer.", "Did you prepare the report this morning?"]
+        "examples": [
+          "I graduated in 2023.",
+          "I finished my internship last summer.",
+          "Did you prepare the report this morning?"
+        ],
+        "explanation_en": "Use the past simple for an event that finished at a specific, closed time in the past, especially with words like \"in 2023\", \"last summer\", \"yesterday\"."
       },
       {
         "title": "Present perfect: experience that matters now",
         "explanation_ar": "نستخدم have/has + التصريف الثالث لعرض خبراتنا وإنجازاتنا المتراكمة التي تفيد الآن، بدون ذكر وقت محدد. سؤال Have you ever...? يسأل عن خبرتك العامة.",
-        "examples": ["I have managed several projects.", "She has prepared many financial reports.", "Have you ever built a website?"]
+        "examples": [
+          "I have managed several projects.",
+          "She has prepared many financial reports.",
+          "Have you ever built a website?"
+        ],
+        "explanation_en": "Use have/has + past participle to show your experience and achievements that matter now, without saying exactly when. The question \"Have you ever...?\" asks about your general experience."
       }
     ]
   },
   "questions": [
-    {"question": "A person who is trying to get a job is a:", "choices": ["boss", "interviewer", "candidate", "colleague"], "answer": 2, "explanation_ar": "candidate = المرشّح أو المتقدّم للوظيفة."},
-    {"question": "Choose the correct sentence.", "choices": ["We discussed about the salary.", "We discussed the salary.", "We discussed on the salary.", "We discussed for the salary."], "answer": 1, "explanation_ar": "discuss يأتي بعده الموضوع مباشرة بدون حرف جر."},
-    {"question": "I ___ from university in 2022.", "choices": ["graduated", "have graduated", "graduate", "have been graduating"], "answer": 0, "explanation_ar": "وقت محدد في الماضي (2022) فنستخدم الماضي البسيط."},
-    {"question": "To show your general experience, you say: \"I ___ many marketing campaigns.\"", "choices": ["manage", "managing", "was managed", "have managed"], "answer": 3, "explanation_ar": "المضارع التام لعرض الخبرة العامة بدون وقت محدد."},
-    {"question": "The company ___ 300 people. (they work there now and get paid)", "choices": ["recruits", "rejects", "employs", "applies"], "answer": 2, "explanation_ar": "employ = حالة مستمرة، الناس يعملون عندك."},
-    {"question": "\"Don't sell yourself short\" means:", "choices": ["Don't make your skills seem less than they are.", "Don't sell your things cheaply.", "Don't speak too long.", "Don't leave the interview early."], "answer": 0, "explanation_ar": "sell yourself short = يبخس نفسه حقها."},
-    {"question": "Which is a short American document about your skills (1-2 pages)?", "choices": ["cover letter", "résumé", "vacancy", "degree"], "answer": 1, "explanation_ar": "résumé وثيقة أمريكية قصيرة مفصّلة على وظيفة محددة."},
-    {"question": "\"The meeting will resume at 3\" means the meeting will:", "choices": ["end", "be cancelled", "start again", "move to another room"], "answer": 2, "explanation_ar": "resume كفعل = يستأنف."},
-    {"question": "A job that is free and waiting for someone is a:", "choices": ["vacancy", "weakness", "strength", "decision"], "answer": 0, "explanation_ar": "vacancy = وظيفة شاغرة."},
-    {"question": "\"I always feel ___ before an interview, so I practise a lot.\"", "choices": ["qualified", "suitable", "successful", "nervous"], "answer": 3, "explanation_ar": "nervous = متوتّر."}
+    {
+      "question": "A person who is trying to get a job is a:",
+      "choices": [
+        "boss",
+        "interviewer",
+        "candidate",
+        "colleague"
+      ],
+      "answer": 2,
+      "explanation_ar": "candidate = المرشّح أو المتقدّم للوظيفة.",
+      "explanation_en": "A candidate is a person who applies for a job."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "We discussed about the salary.",
+        "We discussed the salary.",
+        "We discussed on the salary.",
+        "We discussed for the salary."
+      ],
+      "answer": 1,
+      "explanation_ar": "discuss يأتي بعده الموضوع مباشرة بدون حرف جر.",
+      "explanation_en": "The topic comes directly after \"discuss\", with no preposition."
+    },
+    {
+      "question": "I ___ from university in 2022.",
+      "choices": [
+        "graduated",
+        "have graduated",
+        "graduate",
+        "have been graduating"
+      ],
+      "answer": 0,
+      "explanation_ar": "وقت محدد في الماضي (2022) فنستخدم الماضي البسيط.",
+      "explanation_en": "2022 is a specific time in the past, so we use the past simple."
+    },
+    {
+      "question": "To show your general experience, you say: \"I ___ many marketing campaigns.\"",
+      "choices": [
+        "manage",
+        "managing",
+        "was managed",
+        "have managed"
+      ],
+      "answer": 3,
+      "explanation_ar": "المضارع التام لعرض الخبرة العامة بدون وقت محدد.",
+      "explanation_en": "The present perfect shows general experience without a specific time."
+    },
+    {
+      "question": "The company ___ 300 people. (they work there now and get paid)",
+      "choices": [
+        "recruits",
+        "rejects",
+        "employs",
+        "applies"
+      ],
+      "answer": 2,
+      "explanation_ar": "employ = حالة مستمرة، الناس يعملون عندك.",
+      "explanation_en": "\"Employ\" is an ongoing situation: people work for you now."
+    },
+    {
+      "question": "\"Don't sell yourself short\" means:",
+      "choices": [
+        "Don't make your skills seem less than they are.",
+        "Don't sell your things cheaply.",
+        "Don't speak too long.",
+        "Don't leave the interview early."
+      ],
+      "answer": 0,
+      "explanation_ar": "sell yourself short = يبخس نفسه حقها.",
+      "explanation_en": "\"Sell yourself short\" = to show yourself as less valuable than you are."
+    },
+    {
+      "question": "Which is a short American document about your skills (1-2 pages)?",
+      "choices": [
+        "cover letter",
+        "résumé",
+        "vacancy",
+        "degree"
+      ],
+      "answer": 1,
+      "explanation_ar": "résumé وثيقة أمريكية قصيرة مفصّلة على وظيفة محددة.",
+      "explanation_en": "A résumé is a short American document made for one specific job."
+    },
+    {
+      "question": "\"The meeting will resume at 3\" means the meeting will:",
+      "choices": [
+        "end",
+        "be cancelled",
+        "start again",
+        "move to another room"
+      ],
+      "answer": 2,
+      "explanation_ar": "resume كفعل = يستأنف.",
+      "explanation_en": "As a verb, \"resume\" means to continue after a stop."
+    },
+    {
+      "question": "A job that is free and waiting for someone is a:",
+      "choices": [
+        "vacancy",
+        "weakness",
+        "strength",
+        "decision"
+      ],
+      "answer": 0,
+      "explanation_ar": "vacancy = وظيفة شاغرة.",
+      "explanation_en": "A vacancy is a job that is free and waiting for someone."
+    },
+    {
+      "question": "\"I always feel ___ before an interview, so I practise a lot.\"",
+      "choices": [
+        "qualified",
+        "suitable",
+        "successful",
+        "nervous"
+      ],
+      "answer": 3,
+      "explanation_ar": "nervous = متوتّر.",
+      "explanation_en": "Nervous = worried and a little afraid."
+    }
   ]
 }

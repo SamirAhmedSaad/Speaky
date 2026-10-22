@@ -2,91 +2,473 @@
   "title": "International Cuisine",
   "content": {
     "vocabulary": [
-      {"word": "cuisine", "pos": "noun", "meaning_en": "a style of cooking from a country or culture", "meaning_ar": "مطبخ (أسلوب الطهي)", "note_ar": "تُنطق /kwɪˈziːn/", "example": "I love Japanese cuisine."},
-      {"word": "Asian", "pos": "adjective", "meaning_en": "from Asia", "meaning_ar": "آسيوي", "note_ar": "Asia → Asian، تُنطق /ˈeɪʒn/", "example": "There's a new Asian restaurant downtown."},
-      {"word": "sushi", "pos": "noun", "meaning_en": "Japanese food of cold rice with raw fish or vegetables", "meaning_ar": "سوشي", "note_ar": "", "example": "Have you ever tried sushi?"},
-      {"word": "noodles", "pos": "noun", "meaning_en": "long thin strips of pasta, common in Asian food", "meaning_ar": "نودلز / معكرونة رفيعة", "note_ar": "تأتي غالباً بالجمع؛ المفرد noodle = شعيرة واحدة", "example": "He ordered chicken noodles."},
-      {"word": "rice", "pos": "noun", "meaning_en": "small white or brown grains cooked as food", "meaning_ar": "أرز", "note_ar": "", "example": "We eat rice almost every day."},
-      {"word": "curry", "pos": "noun", "meaning_en": "an Indian dish with a strong spicy sauce", "meaning_ar": "كاري", "note_ar": "", "example": "This chicken curry is very spicy."},
-      {"word": "dumplings", "pos": "noun", "meaning_en": "small pieces of dough filled with meat or vegetables, boiled, steamed or fried", "meaning_ar": "عجينة محشوّة / زلابية", "note_ar": "تأكّد من الحشوة قبل الأكل في المطاعم الآسيوية", "example": "We had steamed dumplings in Beijing."},
-      {"word": "soy sauce", "pos": "noun", "meaning_en": "a dark salty sauce made from soybeans", "meaning_ar": "صلصة الصويا", "note_ar": "", "example": "Dip the sushi in soy sauce."},
-      {"word": "European", "pos": "adjective", "meaning_en": "from Europe", "meaning_ar": "أوروبي", "note_ar": "تُنطق /ˌjʊərəˈpiːən/ مع التشديد على pi", "example": "She studies European history."},
-      {"word": "pizza", "pos": "noun", "meaning_en": "an Italian flat bread with tomato and cheese on top", "meaning_ar": "بيتزا", "note_ar": "", "example": "Let's order a large pizza."},
-      {"word": "pasta", "pos": "noun", "meaning_en": "Italian food made from flour and water, like spaghetti", "meaning_ar": "باستا / معكرونة", "note_ar": "", "example": "Fresh pasta cooks in three minutes."},
-      {"word": "baguette", "pos": "noun", "meaning_en": "a long thin French bread", "meaning_ar": "خبز الباجيت الفرنسي", "note_ar": "تُنطق /bæˈɡet/ وحرف u صامت", "example": "He bought a baguette from the bakery."},
-      {"word": "paella", "pos": "noun", "meaning_en": "a Spanish rice dish with seafood or meat", "meaning_ar": "باييّا (أرز إسباني)", "note_ar": "ll في الإسبانية تُنطق «يا»: /paɪˈeɪə/", "example": "We shared a big pan of paella in Valencia."},
-      {"word": "croissant", "pos": "noun", "meaning_en": "a soft curved French pastry", "meaning_ar": "كرواسون", "note_ar": "الأشهر /ˈkwæsɒ̃/ قريباً من الفرنسية، وحرف t صامت", "example": "I had a croissant and coffee for breakfast."},
-      {"word": "cheese", "pos": "noun", "meaning_en": "a food made from milk", "meaning_ar": "جبن", "note_ar": "", "example": "France makes hundreds of kinds of cheese."},
-      {"word": "Middle Eastern", "pos": "adjective", "meaning_en": "from the Middle East", "meaning_ar": "شرق أوسطي", "note_ar": "Middle East = الشرق الأوسط", "example": "Middle Eastern food uses a lot of spices."},
-      {"word": "kebab", "pos": "noun", "meaning_en": "pieces of grilled meat, often on a stick", "meaning_ar": "كباب", "note_ar": "تُنطق /kɪˈbæb/ أو /kəˈbɑːb/", "example": "We had lamb kebabs with rice."},
-      {"word": "shawarma", "pos": "noun", "meaning_en": "thin slices of grilled meat wrapped in bread", "meaning_ar": "شاورما", "note_ar": "تُنطق /ʃəˈwɑːrmə/ «شوارما»", "example": "A chicken shawarma, please."},
-      {"word": "hummus", "pos": "noun", "meaning_en": "a dip made from chickpeas, sesame paste and lemon", "meaning_ar": "حمّص", "note_ar": "تُنطق /ˈhʊməs/ أو /ˈhʌməs/", "example": "Hummus with olive oil is delicious."},
-      {"word": "falafel", "pos": "noun", "meaning_en": "fried balls made from chickpeas or beans", "meaning_ar": "فلافل / طعمية", "note_ar": "تُنطق /fəˈlɑːfl/ «فِلافِل» بلام مفخّمة", "example": "Falafel is a popular street food."},
-      {"word": "pita bread", "pos": "noun", "meaning_en": "flat round bread that opens like a pocket", "meaning_ar": "خبز البيتا / الخبز العربي", "note_ar": "", "example": "Fill the pita bread with salad."},
-      {"word": "Latin American", "pos": "adjective", "meaning_en": "from Central or South America", "meaning_ar": "أمريكي لاتيني", "note_ar": "", "example": "Latin American music is full of energy."},
-      {"word": "tacos", "pos": "noun", "meaning_en": "Mexican folded corn bread filled with meat and vegetables", "meaning_ar": "تاكو", "note_ar": "المفرد taco", "example": "We had chicken tacos for dinner."},
-      {"word": "burrito", "pos": "noun", "meaning_en": "a tortilla rolled and filled with rice, meat and beans", "meaning_ar": "بوريتو", "note_ar": "", "example": "This burrito is huge!"},
-      {"word": "nachos", "pos": "noun", "meaning_en": "crispy corn chips, often with cheese on top", "meaning_ar": "ناتشوز (رقائق ذرة)", "note_ar": "", "example": "Let's share some nachos."},
-      {"word": "empanada", "pos": "noun", "meaning_en": "a pastry filled with meat or vegetables, usually fried or baked", "meaning_ar": "إمبانادا (فطيرة محشوّة)", "note_ar": "تشبه dumplings لكنها غالباً مقلية", "example": "She made beef empanadas."},
-      {"word": "salsa", "pos": "noun", "meaning_en": "a fresh spicy sauce, usually made from tomatoes", "meaning_ar": "صلصة (حارّة طازجة)", "note_ar": "", "example": "The nachos come with fresh salsa."},
-      {"word": "international", "pos": "adjective", "meaning_en": "involving many countries", "meaning_ar": "عالمي / دولي", "note_ar": "", "example": "This café serves international dishes."},
-      {"word": "traditional", "pos": "adjective", "meaning_en": "following old customs", "meaning_ar": "تقليدي", "note_ar": "", "example": "Koshari is a traditional Egyptian dish."},
-      {"word": "spicy", "pos": "adjective", "meaning_en": "having a hot, strong taste", "meaning_ar": "حارّ / متبّل", "note_ar": "", "example": "I can't eat very spicy food."},
-      {"word": "sweet", "pos": "adjective", "meaning_en": "tasting of sugar", "meaning_ar": "حلو", "note_ar": "", "example": "This tea is too sweet."},
-      {"word": "sour", "pos": "adjective", "meaning_en": "having a sharp taste like lemon", "meaning_ar": "حامض", "note_ar": "", "example": "Green apples are a little sour."},
-      {"word": "convince", "pos": "verb", "meaning_en": "to make someone believe or agree to do something", "meaning_ar": "يُقنع", "note_ar": "convince someone to do something", "example": "She convinced me to try sushi."},
-      {"word": "tour", "pos": "noun", "meaning_en": "a trip visiting several places", "meaning_ar": "جولة", "note_ar": "", "example": "We took a food tour of the old city."},
-      {"word": "stop", "pos": "noun", "meaning_en": "a place where you stop on a journey", "meaning_ar": "محطّة (توقّف)", "note_ar": "This is my stop = هذه محطتي؛ station هي المبنى نفسه", "example": "Our first stop was Rome."},
-      {"word": "introduce someone to", "pos": "phrasal verb", "meaning_en": "to let someone try or experience something for the first time", "meaning_ar": "يعرّف شخصاً على / يجعله يجرّب لأول مرة", "note_ar": "", "example": "My friend introduced me to Mexican food."},
-      {"word": "dip", "pos": "verb", "meaning_en": "to put something quickly into a liquid and take it out", "meaning_ar": "يغمس", "note_ar": "", "example": "Dip the fries in ketchup."},
-      {"word": "chopsticks", "pos": "noun", "meaning_en": "two thin sticks used for eating in East Asia", "meaning_ar": "عيدان الأكل", "note_ar": "", "example": "It took me a week to learn to use chopsticks."},
-      {"word": "excitement", "pos": "noun", "meaning_en": "a feeling of being very happy and eager", "meaning_ar": "حماس", "note_ar": "excited → excitement", "example": "The children laughed with excitement."}
+      {
+        "word": "cuisine",
+        "pos": "noun",
+        "meaning_en": "a style of cooking from a country or culture",
+        "meaning_ar": "مطبخ (أسلوب الطهي)",
+        "note_ar": "تُنطق /kwɪˈziːn/",
+        "example": "I love Japanese cuisine.",
+        "note_en": "Say /kwɪˈziːn/."
+      },
+      {
+        "word": "Asian",
+        "pos": "adjective",
+        "meaning_en": "from Asia",
+        "meaning_ar": "آسيوي",
+        "note_ar": "Asia → Asian، تُنطق /ˈeɪʒn/",
+        "example": "There's a new Asian restaurant downtown.",
+        "note_en": "Asia → Asian. Say /ˈeɪʒn/."
+      },
+      {
+        "word": "sushi",
+        "pos": "noun",
+        "meaning_en": "Japanese food of cold rice with raw fish or vegetables",
+        "meaning_ar": "سوشي",
+        "note_ar": "",
+        "example": "Have you ever tried sushi?",
+        "note_en": ""
+      },
+      {
+        "word": "noodles",
+        "pos": "noun",
+        "meaning_en": "long thin strips of pasta, common in Asian food",
+        "meaning_ar": "نودلز / معكرونة رفيعة",
+        "note_ar": "تأتي غالباً بالجمع؛ المفرد noodle = شعيرة واحدة",
+        "example": "He ordered chicken noodles.",
+        "note_en": "Usually plural; one \"noodle\" is a single strand."
+      },
+      {
+        "word": "rice",
+        "pos": "noun",
+        "meaning_en": "small white or brown grains cooked as food",
+        "meaning_ar": "أرز",
+        "note_ar": "",
+        "example": "We eat rice almost every day.",
+        "note_en": ""
+      },
+      {
+        "word": "curry",
+        "pos": "noun",
+        "meaning_en": "an Indian dish with a strong spicy sauce",
+        "meaning_ar": "كاري",
+        "note_ar": "",
+        "example": "This chicken curry is very spicy.",
+        "note_en": ""
+      },
+      {
+        "word": "dumplings",
+        "pos": "noun",
+        "meaning_en": "small pieces of dough filled with meat or vegetables, boiled, steamed or fried",
+        "meaning_ar": "عجينة محشوّة / زلابية",
+        "note_ar": "تأكّد من الحشوة قبل الأكل في المطاعم الآسيوية",
+        "example": "We had steamed dumplings in Beijing.",
+        "note_en": "Check the filling before eating at Asian restaurants."
+      },
+      {
+        "word": "soy sauce",
+        "pos": "noun",
+        "meaning_en": "a dark salty sauce made from soybeans",
+        "meaning_ar": "صلصة الصويا",
+        "note_ar": "",
+        "example": "Dip the sushi in soy sauce.",
+        "note_en": ""
+      },
+      {
+        "word": "European",
+        "pos": "adjective",
+        "meaning_en": "from Europe",
+        "meaning_ar": "أوروبي",
+        "note_ar": "تُنطق /ˌjʊərəˈpiːən/ مع التشديد على pi",
+        "example": "She studies European history.",
+        "note_en": "Say /ˌjʊərəˈpiːən/, with the stress on \"pi\"."
+      },
+      {
+        "word": "pizza",
+        "pos": "noun",
+        "meaning_en": "an Italian flat bread with tomato and cheese on top",
+        "meaning_ar": "بيتزا",
+        "note_ar": "",
+        "example": "Let's order a large pizza.",
+        "note_en": ""
+      },
+      {
+        "word": "pasta",
+        "pos": "noun",
+        "meaning_en": "Italian food made from flour and water, like spaghetti",
+        "meaning_ar": "باستا / معكرونة",
+        "note_ar": "",
+        "example": "Fresh pasta cooks in three minutes.",
+        "note_en": ""
+      },
+      {
+        "word": "baguette",
+        "pos": "noun",
+        "meaning_en": "a long thin French bread",
+        "meaning_ar": "خبز الباجيت الفرنسي",
+        "note_ar": "تُنطق /bæˈɡet/ وحرف u صامت",
+        "example": "He bought a baguette from the bakery.",
+        "note_en": "Say /bæˈɡet/; the u is silent."
+      },
+      {
+        "word": "paella",
+        "pos": "noun",
+        "meaning_en": "a Spanish rice dish with seafood or meat",
+        "meaning_ar": "باييّا (أرز إسباني)",
+        "note_ar": "ll في الإسبانية تُنطق «يا»: /paɪˈeɪə/",
+        "example": "We shared a big pan of paella in Valencia.",
+        "note_en": "In Spanish, \"ll\" sounds like \"y\": /paɪˈeɪə/."
+      },
+      {
+        "word": "croissant",
+        "pos": "noun",
+        "meaning_en": "a soft curved French pastry",
+        "meaning_ar": "كرواسون",
+        "note_ar": "الأشهر /ˈkwæsɒ̃/ قريباً من الفرنسية، وحرف t صامت",
+        "example": "I had a croissant and coffee for breakfast.",
+        "note_en": "The most common way is /ˈkwæsɒ̃/, close to French; the t is silent."
+      },
+      {
+        "word": "cheese",
+        "pos": "noun",
+        "meaning_en": "a food made from milk",
+        "meaning_ar": "جبن",
+        "note_ar": "",
+        "example": "France makes hundreds of kinds of cheese.",
+        "note_en": ""
+      },
+      {
+        "word": "Middle Eastern",
+        "pos": "adjective",
+        "meaning_en": "from the Middle East",
+        "meaning_ar": "شرق أوسطي",
+        "note_ar": "Middle East = الشرق الأوسط",
+        "example": "Middle Eastern food uses a lot of spices.",
+        "note_en": "Middle East = the region including countries like Egypt, Saudi Arabia and Jordan."
+      },
+      {
+        "word": "kebab",
+        "pos": "noun",
+        "meaning_en": "pieces of grilled meat, often on a stick",
+        "meaning_ar": "كباب",
+        "note_ar": "تُنطق /kɪˈbæb/ أو /kəˈbɑːb/",
+        "example": "We had lamb kebabs with rice.",
+        "note_en": "Say /kɪˈbæb/ or /kəˈbɑːb/."
+      },
+      {
+        "word": "shawarma",
+        "pos": "noun",
+        "meaning_en": "thin slices of grilled meat wrapped in bread",
+        "meaning_ar": "شاورما",
+        "note_ar": "تُنطق /ʃəˈwɑːrmə/ «شوارما»",
+        "example": "A chicken shawarma, please.",
+        "note_en": "Say /ʃəˈwɑːrmə/."
+      },
+      {
+        "word": "hummus",
+        "pos": "noun",
+        "meaning_en": "a dip made from chickpeas, sesame paste and lemon",
+        "meaning_ar": "حمّص",
+        "note_ar": "تُنطق /ˈhʊməs/ أو /ˈhʌməs/",
+        "example": "Hummus with olive oil is delicious.",
+        "note_en": "Say /ˈhʊməs/ or /ˈhʌməs/."
+      },
+      {
+        "word": "falafel",
+        "pos": "noun",
+        "meaning_en": "fried balls made from chickpeas or beans",
+        "meaning_ar": "فلافل / طعمية",
+        "note_ar": "تُنطق /fəˈlɑːfl/ «فِلافِل» بلام مفخّمة",
+        "example": "Falafel is a popular street food.",
+        "note_en": "Say /fəˈlɑːfl/."
+      },
+      {
+        "word": "pita bread",
+        "pos": "noun",
+        "meaning_en": "flat round bread that opens like a pocket",
+        "meaning_ar": "خبز البيتا / الخبز العربي",
+        "note_ar": "",
+        "example": "Fill the pita bread with salad.",
+        "note_en": ""
+      },
+      {
+        "word": "Latin American",
+        "pos": "adjective",
+        "meaning_en": "from Central or South America",
+        "meaning_ar": "أمريكي لاتيني",
+        "note_ar": "",
+        "example": "Latin American music is full of energy.",
+        "note_en": ""
+      },
+      {
+        "word": "tacos",
+        "pos": "noun",
+        "meaning_en": "Mexican folded corn bread filled with meat and vegetables",
+        "meaning_ar": "تاكو",
+        "note_ar": "المفرد taco",
+        "example": "We had chicken tacos for dinner.",
+        "note_en": "Singular: taco."
+      },
+      {
+        "word": "burrito",
+        "pos": "noun",
+        "meaning_en": "a tortilla rolled and filled with rice, meat and beans",
+        "meaning_ar": "بوريتو",
+        "note_ar": "",
+        "example": "This burrito is huge!",
+        "note_en": ""
+      },
+      {
+        "word": "nachos",
+        "pos": "noun",
+        "meaning_en": "crispy corn chips, often with cheese on top",
+        "meaning_ar": "ناتشوز (رقائق ذرة)",
+        "note_ar": "",
+        "example": "Let's share some nachos.",
+        "note_en": ""
+      },
+      {
+        "word": "empanada",
+        "pos": "noun",
+        "meaning_en": "a pastry filled with meat or vegetables, usually fried or baked",
+        "meaning_ar": "إمبانادا (فطيرة محشوّة)",
+        "note_ar": "تشبه dumplings لكنها غالباً مقلية",
+        "example": "She made beef empanadas.",
+        "note_en": "Similar to dumplings, but usually fried."
+      },
+      {
+        "word": "salsa",
+        "pos": "noun",
+        "meaning_en": "a fresh spicy sauce, usually made from tomatoes",
+        "meaning_ar": "صلصة (حارّة طازجة)",
+        "note_ar": "",
+        "example": "The nachos come with fresh salsa.",
+        "note_en": ""
+      },
+      {
+        "word": "international",
+        "pos": "adjective",
+        "meaning_en": "involving many countries",
+        "meaning_ar": "عالمي / دولي",
+        "note_ar": "",
+        "example": "This café serves international dishes.",
+        "note_en": ""
+      },
+      {
+        "word": "traditional",
+        "pos": "adjective",
+        "meaning_en": "following old customs",
+        "meaning_ar": "تقليدي",
+        "note_ar": "",
+        "example": "Koshari is a traditional Egyptian dish.",
+        "note_en": ""
+      },
+      {
+        "word": "spicy",
+        "pos": "adjective",
+        "meaning_en": "having a hot, strong taste",
+        "meaning_ar": "حارّ / متبّل",
+        "note_ar": "",
+        "example": "I can't eat very spicy food.",
+        "note_en": ""
+      },
+      {
+        "word": "sweet",
+        "pos": "adjective",
+        "meaning_en": "tasting of sugar",
+        "meaning_ar": "حلو",
+        "note_ar": "",
+        "example": "This tea is too sweet.",
+        "note_en": ""
+      },
+      {
+        "word": "sour",
+        "pos": "adjective",
+        "meaning_en": "having a sharp taste like lemon",
+        "meaning_ar": "حامض",
+        "note_ar": "",
+        "example": "Green apples are a little sour.",
+        "note_en": ""
+      },
+      {
+        "word": "convince",
+        "pos": "verb",
+        "meaning_en": "to make someone believe or agree to do something",
+        "meaning_ar": "يُقنع",
+        "note_ar": "convince someone to do something",
+        "example": "She convinced me to try sushi.",
+        "note_en": "convince someone to do something"
+      },
+      {
+        "word": "tour",
+        "pos": "noun",
+        "meaning_en": "a trip visiting several places",
+        "meaning_ar": "جولة",
+        "note_ar": "",
+        "example": "We took a food tour of the old city.",
+        "note_en": ""
+      },
+      {
+        "word": "stop",
+        "pos": "noun",
+        "meaning_en": "a place where you stop on a journey",
+        "meaning_ar": "محطّة (توقّف)",
+        "note_ar": "This is my stop = هذه محطتي؛ station هي المبنى نفسه",
+        "example": "Our first stop was Rome.",
+        "note_en": "\"This is my stop\" = I get off here; a \"station\" is the building itself."
+      },
+      {
+        "word": "introduce someone to",
+        "pos": "phrasal verb",
+        "meaning_en": "to let someone try or experience something for the first time",
+        "meaning_ar": "يعرّف شخصاً على / يجعله يجرّب لأول مرة",
+        "note_ar": "",
+        "example": "My friend introduced me to Mexican food.",
+        "note_en": ""
+      },
+      {
+        "word": "dip",
+        "pos": "verb",
+        "meaning_en": "to put something quickly into a liquid and take it out",
+        "meaning_ar": "يغمس",
+        "note_ar": "",
+        "example": "Dip the fries in ketchup.",
+        "note_en": ""
+      },
+      {
+        "word": "chopsticks",
+        "pos": "noun",
+        "meaning_en": "two thin sticks used for eating in East Asia",
+        "meaning_ar": "عيدان الأكل",
+        "note_ar": "",
+        "example": "It took me a week to learn to use chopsticks.",
+        "note_en": ""
+      },
+      {
+        "word": "excitement",
+        "pos": "noun",
+        "meaning_en": "a feeling of being very happy and eager",
+        "meaning_ar": "حماس",
+        "note_ar": "excited → excitement",
+        "example": "The children laughed with excitement.",
+        "note_en": "excited → excitement"
+      }
     ],
     "fine_lines": [
       {
         "title": "cuisine vs food",
-        "words": ["cuisine", "food"],
+        "words": [
+          "cuisine",
+          "food"
+        ],
         "explanation_ar": "food كلمة عامة لأي شيء يُؤكل، مطبوخاً أو غير مطبوخ، ومن أي مكان. cuisine تعني «المطبخ» بمعنى فن الطبخ وأسلوبه وثقافته في بلد أو منطقة معيّنة. Chinese food = الأكل الصيني، أما Chinese cuisine = مدرسة الطبخ الصينية كلها وطريقة تفكيرهم في الأكل.",
         "examples": [
-          {"word": "food", "sentence": "We need to buy some food for the trip."},
-          {"word": "cuisine", "sentence": "Italian cuisine is famous all over the world."}
-        ]
+          {
+            "word": "food",
+            "sentence": "We need to buy some food for the trip."
+          },
+          {
+            "word": "cuisine",
+            "sentence": "Italian cuisine is famous all over the world."
+          }
+        ],
+        "explanation_en": "\"Food\" is a general word for anything you eat, cooked or not, from anywhere. \"Cuisine\" means the art, style and culture of cooking in a particular country or region. \"Chinese food\" is the food itself, while \"Chinese cuisine\" is the whole Chinese way of cooking and thinking about food."
       },
       {
         "title": "stop vs station",
-        "words": ["stop", "station"],
+        "words": [
+          "stop",
+          "station"
+        ],
         "explanation_ar": "station هي المحطة كمبنى أو مكان فعلي. stop هي النقطة التي تتوقف أو تنزل فيها أنت في رحلتك. لذلك نقول This is my stop وليس This is my station.",
         "examples": [
-          {"word": "stop", "sentence": "Excuse me, this is my stop."},
-          {"word": "station", "sentence": "The train station is very crowded."}
-        ]
+          {
+            "word": "stop",
+            "sentence": "Excuse me, this is my stop."
+          },
+          {
+            "word": "station",
+            "sentence": "The train station is very crowded."
+          }
+        ],
+        "explanation_en": "A \"station\" is the actual building or place. A \"stop\" is the point where you stop or get off on your trip. So we say \"This is my stop\", not \"This is my station\"."
       },
       {
         "title": "dumplings vs empanadas",
-        "words": ["dumplings", "empanadas"],
+        "words": [
+          "dumplings",
+          "empanadas"
+        ],
         "explanation_ar": "كلاهما عجينة محشوّة. dumplings من المطبخ الآسيوي (الصين واليابان) وغالباً تُسلق أو تُطهى على البخار. empanadas من المطبخ اللاتيني وغالباً تكون مقلية.",
         "examples": [
-          {"word": "dumplings", "sentence": "The dumplings were steamed in a bamboo basket."},
-          {"word": "empanadas", "sentence": "These empanadas are fried and crispy."}
-        ]
+          {
+            "word": "dumplings",
+            "sentence": "The dumplings were steamed in a bamboo basket."
+          },
+          {
+            "word": "empanadas",
+            "sentence": "These empanadas are fried and crispy."
+          }
+        ],
+        "explanation_en": "Both are dough with a filling. Dumplings come from Asian cooking (China, Japan) and are usually boiled or steamed. Empanadas come from Latin American cooking and are usually fried."
       },
       {
         "title": "food of dreams vs dream food",
-        "words": ["food of dreams", "dream food"],
+        "words": [
+          "food of dreams",
+          "dream food"
+        ],
         "explanation_ar": "المعنى متقارب، لكن food of dreams أقوى، لأن of تدل على الانتماء، فكأن الطعام ينتمي إلى عالم آخر هو عالم الأحلام. ويمكن أن تقول عن أي شيء رائع: the ... of dreams.",
         "examples": [
-          {"word": "food of dreams", "sentence": "This chocolate cake is the food of dreams."},
-          {"word": "dream food", "sentence": "Pizza is my dream food."}
-        ]
+          {
+            "word": "food of dreams",
+            "sentence": "This chocolate cake is the food of dreams."
+          },
+          {
+            "word": "dream food",
+            "sentence": "Pizza is my dream food."
+          }
+        ],
+        "explanation_en": "The meanings are close, but \"food of dreams\" is stronger: \"of\" shows belonging, as if the food belongs to another world, the world of dreams. You can say \"the ... of dreams\" about anything amazing."
       }
     ],
     "expressions": [
-      {"phrase": "have bigger fish to fry", "meaning_ar": "لديه أمور أهم ينشغل بها من هذه التفاهات", "example": "I don't care what she said about my dress; I have bigger fish to fry."},
-      {"phrase": "cry with joy", "meaning_ar": "يبكي من الفرح (cry with joy over = بسبب)", "example": "She almost cried with joy over the fresh pasta."},
-      {"phrase": "tears of joy", "meaning_ar": "دموع الفرح", "example": "There were tears of joy at the wedding."},
-      {"phrase": "the ... of dreams", "meaning_ar": "... الأحلام (شيء رائع كأنه من عالم آخر)", "example": "This is the house of dreams."},
-      {"phrase": "This is my stop.", "meaning_ar": "هذه محطّتي (سأنزل هنا)", "example": "Sorry, can I get past? This is my stop."},
-      {"phrase": "act as", "meaning_ar": "يقوم بدور", "example": "James acted as our guide."}
+      {
+        "phrase": "have bigger fish to fry",
+        "meaning_ar": "لديه أمور أهم ينشغل بها من هذه التفاهات",
+        "example": "I don't care what she said about my dress; I have bigger fish to fry.",
+        "meaning_en": "to have more important things to deal with"
+      },
+      {
+        "phrase": "cry with joy",
+        "meaning_ar": "يبكي من الفرح (cry with joy over = بسبب)",
+        "example": "She almost cried with joy over the fresh pasta.",
+        "meaning_en": "to cry because you are very happy (cry with joy over something)"
+      },
+      {
+        "phrase": "tears of joy",
+        "meaning_ar": "دموع الفرح",
+        "example": "There were tears of joy at the wedding.",
+        "meaning_en": "tears you cry because you are very happy"
+      },
+      {
+        "phrase": "the ... of dreams",
+        "meaning_ar": "... الأحلام (شيء رائع كأنه من عالم آخر)",
+        "example": "This is the house of dreams.",
+        "meaning_en": "an amazing, perfect example of something"
+      },
+      {
+        "phrase": "This is my stop.",
+        "meaning_ar": "هذه محطّتي (سأنزل هنا)",
+        "example": "Sorry, can I get past? This is my stop.",
+        "meaning_en": "I get off here."
+      },
+      {
+        "phrase": "act as",
+        "meaning_ar": "يقوم بدور",
+        "example": "James acted as our guide.",
+        "meaning_en": "to do the job or role of something or someone"
+      }
     ],
     "grammar": [
       {
@@ -96,7 +478,8 @@
           "We launched the app in 2019.",
           "I have written three books so far.",
           "I have lost my key, so I can't open the door."
-        ]
+        ],
+        "explanation_en": "Use the past simple with a specific, finished date or time (in 2019, yesterday); the present perfect is the \"enemy of specific dates\". Use the present perfect for results, achievements, and how many times something happened in a period that hasn't finished (so far, this year), or for an event that has an effect now."
       },
       {
         "title": "Review: present perfect vs present perfect continuous",
@@ -105,20 +488,131 @@
           "He has been washing the car for two hours, and he still hasn't finished.",
           "I'm exhausted. I have been working since 8 a.m.",
           "They have been studying all morning."
-        ]
+        ],
+        "explanation_en": "The present perfect continuous focuses on how long an activity lasted, the effort, and the situation it causes now (like being exhausted). We don't use it for things completed one by one and counted (I've written 3 books, I've watched 4 movies), or for instant events like \"lose\" or \"launch\". Often the choice is yours: result → simple present perfect; effort → present perfect continuous."
       }
     ]
   },
   "questions": [
-    {"question": "Which word means the cooking style of a country?", "choices": ["food", "cuisine", "recipe", "menu"], "answer": 1, "explanation_ar": "cuisine = المطبخ بمعنى أسلوب الطبخ وثقافته."},
-    {"question": "On the bus, you want to get off. You say:", "choices": ["This is my station.", "This is my tour.", "This is my stop.", "This is my stand."], "answer": 2, "explanation_ar": "stop هي النقطة التي تنزل فيها، و station هي المبنى."},
-    {"question": "I ___ three books so far this year.", "choices": ["have written", "wrote in", "have been writing", "write"], "answer": 0, "explanation_ar": "عدد إنجازات في فترة لم تنته: المضارع التام البسيط."},
-    {"question": "We ___ the app in 2019.", "choices": ["have launched", "have been launching", "launch", "launched"], "answer": 3, "explanation_ar": "تاريخ محدد في الماضي: الماضي البسيط."},
-    {"question": "I'm exhausted. I ___ since 8 a.m.", "choices": ["worked", "have been working", "work", "am work"], "answer": 1, "explanation_ar": "نركّز على المجهود الذي سبّب الإرهاق: المضارع التام المستمر."},
-    {"question": "\"I have bigger fish to fry\" means:", "choices": ["I'm cooking dinner", "I have more important things to do", "I'm very hungry", "I like fish"], "answer": 1, "explanation_ar": "لديّ أمور أهم من هذا الموضوع."},
-    {"question": "Fried balls made from chickpeas are called:", "choices": ["hummus", "falafel", "kebab", "nachos"], "answer": 1, "explanation_ar": "falafel = فلافل."},
-    {"question": "He ___ the fries in ketchup.", "choices": ["dipped", "convinced", "toured", "introduced"], "answer": 0, "explanation_ar": "dip = يغمس."},
-    {"question": "My friend ___ me to Mexican food last year.", "choices": ["convinced", "dipped", "acted", "introduced"], "answer": 3, "explanation_ar": "introduce someone to = يجعله يجرّب شيئاً لأول مرة."},
-    {"question": "Which word is usually used in the plural?", "choices": ["rice", "noodles", "curry", "salsa"], "answer": 1, "explanation_ar": "noodles تأتي غالباً بصيغة الجمع."}
+    {
+      "question": "Which word means the cooking style of a country?",
+      "choices": [
+        "food",
+        "cuisine",
+        "recipe",
+        "menu"
+      ],
+      "answer": 1,
+      "explanation_ar": "cuisine = المطبخ بمعنى أسلوب الطبخ وثقافته.",
+      "explanation_en": "Cuisine = a style and culture of cooking."
+    },
+    {
+      "question": "On the bus, you want to get off. You say:",
+      "choices": [
+        "This is my station.",
+        "This is my tour.",
+        "This is my stop.",
+        "This is my stand."
+      ],
+      "answer": 2,
+      "explanation_ar": "stop هي النقطة التي تنزل فيها، و station هي المبنى.",
+      "explanation_en": "A stop is the point where you get off; a station is the building."
+    },
+    {
+      "question": "I ___ three books so far this year.",
+      "choices": [
+        "have written",
+        "wrote in",
+        "have been writing",
+        "write"
+      ],
+      "answer": 0,
+      "explanation_ar": "عدد إنجازات في فترة لم تنته: المضارع التام البسيط.",
+      "explanation_en": "Counting achievements in a period that hasn't finished: simple present perfect."
+    },
+    {
+      "question": "We ___ the app in 2019.",
+      "choices": [
+        "have launched",
+        "have been launching",
+        "launch",
+        "launched"
+      ],
+      "answer": 3,
+      "explanation_ar": "تاريخ محدد في الماضي: الماضي البسيط.",
+      "explanation_en": "A specific date in the past: past simple."
+    },
+    {
+      "question": "I'm exhausted. I ___ since 8 a.m.",
+      "choices": [
+        "worked",
+        "have been working",
+        "work",
+        "am work"
+      ],
+      "answer": 1,
+      "explanation_ar": "نركّز على المجهود الذي سبّب الإرهاق: المضارع التام المستمر.",
+      "explanation_en": "We focus on the effort that made me tired: present perfect continuous."
+    },
+    {
+      "question": "\"I have bigger fish to fry\" means:",
+      "choices": [
+        "I'm cooking dinner",
+        "I have more important things to do",
+        "I'm very hungry",
+        "I like fish"
+      ],
+      "answer": 1,
+      "explanation_ar": "لديّ أمور أهم من هذا الموضوع.",
+      "explanation_en": "I have more important things to deal with than this."
+    },
+    {
+      "question": "Fried balls made from chickpeas are called:",
+      "choices": [
+        "hummus",
+        "falafel",
+        "kebab",
+        "nachos"
+      ],
+      "answer": 1,
+      "explanation_ar": "falafel = فلافل.",
+      "explanation_en": "Falafel = fried balls made from chickpeas."
+    },
+    {
+      "question": "He ___ the fries in ketchup.",
+      "choices": [
+        "dipped",
+        "convinced",
+        "toured",
+        "introduced"
+      ],
+      "answer": 0,
+      "explanation_ar": "dip = يغمس.",
+      "explanation_en": "To dip = to put food quickly into a sauce or liquid."
+    },
+    {
+      "question": "My friend ___ me to Mexican food last year.",
+      "choices": [
+        "convinced",
+        "dipped",
+        "acted",
+        "introduced"
+      ],
+      "answer": 3,
+      "explanation_ar": "introduce someone to = يجعله يجرّب شيئاً لأول مرة.",
+      "explanation_en": "introduce someone to (something) = help them try it for the first time."
+    },
+    {
+      "question": "Which word is usually used in the plural?",
+      "choices": [
+        "rice",
+        "noodles",
+        "curry",
+        "salsa"
+      ],
+      "answer": 1,
+      "explanation_ar": "noodles تأتي غالباً بصيغة الجمع.",
+      "explanation_en": "\"Noodles\" is usually used in the plural."
+    }
   ]
 }

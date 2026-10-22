@@ -2,101 +2,497 @@
   "title": "Barbecue in the Garden",
   "content": {
     "vocabulary": [
-      {"word": "beef", "pos": "noun", "meaning_en": "meat from a cow", "meaning_ar": "لحم بقري", "note_ar": "الحيوان cow لكن لحمه beef (من الفرنسية)", "example": "This burger is made of beef."},
-      {"word": "chicken", "pos": "noun", "meaning_en": "a farm bird, or its meat", "meaning_ar": "دجاج", "note_ar": "نفس الاسم للحيوان واللحم", "example": "We had grilled chicken for lunch."},
-      {"word": "lamb", "pos": "noun", "meaning_en": "a young sheep, or its meat", "meaning_ar": "لحم ضأن / خروف صغير", "note_ar": "حرف b صامت: تُنطق /læm/", "example": "Lamb with rice is a popular dish."},
-      {"word": "mutton", "pos": "noun", "meaning_en": "meat from an older sheep", "meaning_ar": "لحم الخروف الكبير", "note_ar": "من الفرنسية mouton", "example": "Mutton needs to cook for a long time."},
-      {"word": "pork", "pos": "noun", "meaning_en": "meat from a pig", "meaning_ar": "لحم خنزير", "note_ar": "الحيوان pig لكن لحمه pork (من الفرنسية)", "example": "Check the label if you don't eat pork."},
-      {"word": "steak", "pos": "noun", "meaning_en": "a thick slice of meat, usually beef", "meaning_ar": "شريحة لحم / ستيك", "note_ar": "", "example": "How would you like your steak cooked?"},
-      {"word": "turkey", "pos": "noun", "meaning_en": "a large bird, or its meat", "meaning_ar": "ديك رومي", "note_ar": "", "example": "Many families eat turkey on holidays."},
-      {"word": "sausage", "pos": "noun", "meaning_en": "minced meat inside a long thin skin", "meaning_ar": "سجق / نقانق", "note_ar": "", "example": "He put some sausages on the grill."},
-      {"word": "bacon", "pos": "noun", "meaning_en": "salted, smoked meat from a pig's belly or back", "meaning_ar": "لحم خنزير مقدّد", "note_ar": "يُطبخ قبل الأكل؛ أغلبه من الخنزير", "example": "The breakfast menu has eggs and bacon."},
-      {"word": "jerky", "pos": "noun", "meaning_en": "dried, smoked meat that is ready to eat", "meaning_ar": "لحم مجفّف مدخّن", "note_ar": "beef jerky من اللحم البقري ويؤكل مباشرة من الكيس", "example": "I took some beef jerky on the hiking trip."},
-      {"word": "ham", "pos": "noun", "meaning_en": "smoked meat from a pig's leg", "meaning_ar": "لحم خنزير مدخّن (من الفخذ)", "note_ar": "bacon من البطن ومملّح، و ham من الفخذ", "example": "The sandwich had ham and cheese in it."},
-      {"word": "ribs", "pos": "noun", "meaning_en": "the bones around the chest, cooked with their meat", "meaning_ar": "ضلوع / ريش", "note_ar": "المفرد rib", "example": "These lamb ribs are delicious."},
-      {"word": "mince / ground meat", "pos": "noun", "meaning_en": "meat cut into very small pieces", "meaning_ar": "لحم مفروم", "note_ar": "mince (minced meat) بريطاني من الفعل mince = يفرم؛ ground meat أمريكي من grind = يطحن", "example": "I need half a kilo of ground beef for the burgers."},
-      {"word": "fish", "pos": "noun", "meaning_en": "an animal that lives in water, or its meat", "meaning_ar": "سمك", "note_ar": "نفس الاسم للحيوان واللحم", "example": "We eat fish every Friday."},
-      {"word": "salmon", "pos": "noun", "meaning_en": "a large fish with pink flesh", "meaning_ar": "سلمون", "note_ar": "حرف l صامت: تُنطق /ˈsæmən/، والكلمة من الفرنسية", "example": "Grilled salmon is rich in protein."},
-      {"word": "tuna", "pos": "noun", "meaning_en": "a large sea fish often sold in cans", "meaning_ar": "تونة", "note_ar": "", "example": "I made a tuna sandwich."},
-      {"word": "shrimp", "pos": "noun", "meaning_en": "a small sea animal with a shell that we eat", "meaning_ar": "جمبري / روبيان", "note_ar": "", "example": "The shrimp were cooked with garlic."},
-      {"word": "prawn", "pos": "noun", "meaning_en": "a large shrimp", "meaning_ar": "جمبري كبير", "note_ar": "", "example": "She ordered grilled king prawns."},
-      {"word": "crab", "pos": "noun", "meaning_en": "a sea animal with a hard shell and claws", "meaning_ar": "سلطعون / كابوريا", "note_ar": "", "example": "A crab walked sideways on the sand."},
-      {"word": "lobster", "pos": "noun", "meaning_en": "a large sea animal with big claws, an expensive food", "meaning_ar": "استاكوزا / كركند", "note_ar": "", "example": "Lobster is the most expensive dish on the menu."},
-      {"word": "fillet", "pos": "noun", "meaning_en": "a piece of meat or fish with no bones", "meaning_ar": "فيليه (لحم بلا عظم)", "note_ar": "بريطاني: /ˈfɪlɪt/ مع نطق t، أمريكي: /fɪˈleɪ/ بدون t", "example": "I'll have the fish fillet with salad."},
-      {"word": "seafood", "pos": "noun", "meaning_en": "fish and shellfish eaten as food", "meaning_ar": "مأكولات بحرية", "note_ar": "", "example": "This restaurant is famous for its seafood."},
-      {"word": "butter", "pos": "noun", "meaning_en": "a soft yellow food made from cream", "meaning_ar": "زبدة", "note_ar": "", "example": "Spread some butter on the bread."},
-      {"word": "cream", "pos": "noun", "meaning_en": "the thick fatty part of milk", "meaning_ar": "كريمة / قشطة", "note_ar": "", "example": "Do you want cream in your coffee?"},
-      {"word": "yogurt", "pos": "noun", "meaning_en": "a thick food made from milk", "meaning_ar": "زبادي", "note_ar": "تُنطق /ˈjoʊɡərt/ (أشيع) أو /ˈjɒɡət/، والاثنان صحيحان", "example": "I eat yogurt with honey for breakfast."},
-      {"word": "sour cream", "pos": "noun", "meaning_en": "cream that has a slightly sour taste", "meaning_ar": "قشطة حامضة", "note_ar": "", "example": "Serve the potatoes with sour cream."},
-      {"word": "cottage cheese", "pos": "noun", "meaning_en": "a soft white cheese with small lumps", "meaning_ar": "جبنة قريش", "note_ar": "cottage = بيت ريفي صغير، كانت تُصنع فيه", "example": "Cottage cheese is low in fat."},
-      {"word": "protein", "pos": "noun", "meaning_en": "a substance in food that helps the body grow", "meaning_ar": "بروتين", "note_ar": "", "example": "Eggs are a good source of protein."},
-      {"word": "rush in", "pos": "phrasal verb", "meaning_en": "to enter a place very quickly", "meaning_ar": "يدخل مسرعاً", "note_ar": "rush = يُسرع", "example": "He rushed in, holding a big box."},
-      {"word": "announce", "pos": "verb", "meaning_en": "to tell people something officially or proudly", "meaning_ar": "يُعلن", "note_ar": "الاسم: announcement", "example": "She announced that she was getting married."},
-      {"word": "declare", "pos": "verb", "meaning_en": "to state something firmly and seriously", "meaning_ar": "يصرّح / يُعلن رسمياً", "note_ar": "أكثر رسمية وجدية من announce: declare war", "example": "The country declared its independence in 1960."},
-      {"word": "carton", "pos": "noun", "meaning_en": "a cardboard box for milk or juice", "meaning_ar": "علبة كرتونية", "note_ar": "", "example": "We need a carton of milk."},
-      {"word": "butcher's shop", "pos": "noun", "meaning_en": "a shop that sells meat", "meaning_ar": "محل الجزارة", "note_ar": "butcher = جزّار", "example": "I bought fresh lamb from the butcher's shop."},
-      {"word": "deliver", "pos": "verb", "meaning_en": "to bring something to a person or place", "meaning_ar": "يوصّل / يسلّم", "note_ar": "الاسم: delivery", "example": "They deliver pizza until midnight."},
-      {"word": "grill", "pos": "verb / noun", "meaning_en": "to cook food over direct heat; the equipment for this", "meaning_ar": "يشوي / شوّاية", "note_ar": "", "example": "Let's grill some fish tonight."},
-      {"word": "plate", "pos": "noun", "meaning_en": "a flat dish you eat from", "meaning_ar": "طبق", "note_ar": "", "example": "Put the plates on the table, please."},
-      {"word": "freeze", "pos": "verb", "meaning_en": "to stop moving suddenly; to become ice", "meaning_ar": "يتجمّد / يتسمّر في مكانه", "note_ar": "freeze - froze - frozen؛ الشرطة تقول Freeze! = لا تتحرك", "example": "Everyone froze when they heard the noise."},
-      {"word": "sneaky", "pos": "adjective", "meaning_en": "doing things secretly so others don't notice", "meaning_ar": "متسلّل / ماكر", "note_ar": "من الفعل sneak = يتسلل", "example": "A sneaky dog ate my sandwich."},
-      {"word": "dinner", "pos": "noun", "meaning_en": "the main meal of the day", "meaning_ar": "الوجبة الرئيسية (غالباً العشاء)", "note_ar": "أصل معناها الوجبة الرئيسية في أي وقت، وليس العشاء بالضرورة", "example": "We had dinner at three o'clock on Friday."}
+      {
+        "word": "beef",
+        "pos": "noun",
+        "meaning_en": "meat from a cow",
+        "meaning_ar": "لحم بقري",
+        "note_ar": "الحيوان cow لكن لحمه beef (من الفرنسية)",
+        "example": "This burger is made of beef.",
+        "note_en": "The animal is a \"cow\", but its meat is \"beef\" (from French)."
+      },
+      {
+        "word": "chicken",
+        "pos": "noun",
+        "meaning_en": "a farm bird, or its meat",
+        "meaning_ar": "دجاج",
+        "note_ar": "نفس الاسم للحيوان واللحم",
+        "example": "We had grilled chicken for lunch.",
+        "note_en": "The same word for the animal and its meat."
+      },
+      {
+        "word": "lamb",
+        "pos": "noun",
+        "meaning_en": "a young sheep, or its meat",
+        "meaning_ar": "لحم ضأن / خروف صغير",
+        "note_ar": "حرف b صامت: تُنطق /læm/",
+        "example": "Lamb with rice is a popular dish.",
+        "note_en": "The b is silent: say /læm/."
+      },
+      {
+        "word": "mutton",
+        "pos": "noun",
+        "meaning_en": "meat from an older sheep",
+        "meaning_ar": "لحم الخروف الكبير",
+        "note_ar": "من الفرنسية mouton",
+        "example": "Mutton needs to cook for a long time.",
+        "note_en": "From the French word \"mouton\"."
+      },
+      {
+        "word": "pork",
+        "pos": "noun",
+        "meaning_en": "meat from a pig",
+        "meaning_ar": "لحم خنزير",
+        "note_ar": "الحيوان pig لكن لحمه pork (من الفرنسية)",
+        "example": "Check the label if you don't eat pork.",
+        "note_en": "The animal is a \"pig\", but its meat is \"pork\" (from French)."
+      },
+      {
+        "word": "steak",
+        "pos": "noun",
+        "meaning_en": "a thick slice of meat, usually beef",
+        "meaning_ar": "شريحة لحم / ستيك",
+        "note_ar": "",
+        "example": "How would you like your steak cooked?",
+        "note_en": ""
+      },
+      {
+        "word": "turkey",
+        "pos": "noun",
+        "meaning_en": "a large bird, or its meat",
+        "meaning_ar": "ديك رومي",
+        "note_ar": "",
+        "example": "Many families eat turkey on holidays.",
+        "note_en": ""
+      },
+      {
+        "word": "sausage",
+        "pos": "noun",
+        "meaning_en": "minced meat inside a long thin skin",
+        "meaning_ar": "سجق / نقانق",
+        "note_ar": "",
+        "example": "He put some sausages on the grill.",
+        "note_en": ""
+      },
+      {
+        "word": "bacon",
+        "pos": "noun",
+        "meaning_en": "salted, smoked meat from a pig's belly or back",
+        "meaning_ar": "لحم خنزير مقدّد",
+        "note_ar": "يُطبخ قبل الأكل؛ أغلبه من الخنزير",
+        "example": "The breakfast menu has eggs and bacon.",
+        "note_en": "It is cooked before eating; it usually comes from pigs."
+      },
+      {
+        "word": "jerky",
+        "pos": "noun",
+        "meaning_en": "dried, smoked meat that is ready to eat",
+        "meaning_ar": "لحم مجفّف مدخّن",
+        "note_ar": "beef jerky من اللحم البقري ويؤكل مباشرة من الكيس",
+        "example": "I took some beef jerky on the hiking trip.",
+        "note_en": "\"Beef jerky\" is made from beef and is eaten straight from the bag."
+      },
+      {
+        "word": "ham",
+        "pos": "noun",
+        "meaning_en": "smoked meat from a pig's leg",
+        "meaning_ar": "لحم خنزير مدخّن (من الفخذ)",
+        "note_ar": "bacon من البطن ومملّح، و ham من الفخذ",
+        "example": "The sandwich had ham and cheese in it.",
+        "note_en": "Bacon comes from the belly and is salted; ham comes from the back leg."
+      },
+      {
+        "word": "ribs",
+        "pos": "noun",
+        "meaning_en": "the bones around the chest, cooked with their meat",
+        "meaning_ar": "ضلوع / ريش",
+        "note_ar": "المفرد rib",
+        "example": "These lamb ribs are delicious.",
+        "note_en": "Singular: rib."
+      },
+      {
+        "word": "mince / ground meat",
+        "pos": "noun",
+        "meaning_en": "meat cut into very small pieces",
+        "meaning_ar": "لحم مفروم",
+        "note_ar": "mince (minced meat) بريطاني من الفعل mince = يفرم؛ ground meat أمريكي من grind = يطحن",
+        "example": "I need half a kilo of ground beef for the burgers.",
+        "note_en": "\"Mince\" (minced meat) is British, from the verb \"mince\" (to cut into tiny pieces). \"Ground meat\" is American, from \"grind\"."
+      },
+      {
+        "word": "fish",
+        "pos": "noun",
+        "meaning_en": "an animal that lives in water, or its meat",
+        "meaning_ar": "سمك",
+        "note_ar": "نفس الاسم للحيوان واللحم",
+        "example": "We eat fish every Friday.",
+        "note_en": "The same word for the animal and its meat."
+      },
+      {
+        "word": "salmon",
+        "pos": "noun",
+        "meaning_en": "a large fish with pink flesh",
+        "meaning_ar": "سلمون",
+        "note_ar": "حرف l صامت: تُنطق /ˈsæmən/، والكلمة من الفرنسية",
+        "example": "Grilled salmon is rich in protein.",
+        "note_en": "The l is silent: say /ˈsæmən/. The word comes from French."
+      },
+      {
+        "word": "tuna",
+        "pos": "noun",
+        "meaning_en": "a large sea fish often sold in cans",
+        "meaning_ar": "تونة",
+        "note_ar": "",
+        "example": "I made a tuna sandwich.",
+        "note_en": ""
+      },
+      {
+        "word": "shrimp",
+        "pos": "noun",
+        "meaning_en": "a small sea animal with a shell that we eat",
+        "meaning_ar": "جمبري / روبيان",
+        "note_ar": "",
+        "example": "The shrimp were cooked with garlic.",
+        "note_en": ""
+      },
+      {
+        "word": "prawn",
+        "pos": "noun",
+        "meaning_en": "a large shrimp",
+        "meaning_ar": "جمبري كبير",
+        "note_ar": "",
+        "example": "She ordered grilled king prawns.",
+        "note_en": ""
+      },
+      {
+        "word": "crab",
+        "pos": "noun",
+        "meaning_en": "a sea animal with a hard shell and claws",
+        "meaning_ar": "سلطعون / كابوريا",
+        "note_ar": "",
+        "example": "A crab walked sideways on the sand.",
+        "note_en": ""
+      },
+      {
+        "word": "lobster",
+        "pos": "noun",
+        "meaning_en": "a large sea animal with big claws, an expensive food",
+        "meaning_ar": "استاكوزا / كركند",
+        "note_ar": "",
+        "example": "Lobster is the most expensive dish on the menu.",
+        "note_en": ""
+      },
+      {
+        "word": "fillet",
+        "pos": "noun",
+        "meaning_en": "a piece of meat or fish with no bones",
+        "meaning_ar": "فيليه (لحم بلا عظم)",
+        "note_ar": "بريطاني: /ˈfɪlɪt/ مع نطق t، أمريكي: /fɪˈleɪ/ بدون t",
+        "example": "I'll have the fish fillet with salad.",
+        "note_en": "British: /ˈfɪlɪt/ with the t; American: /fɪˈleɪ/ without the t."
+      },
+      {
+        "word": "seafood",
+        "pos": "noun",
+        "meaning_en": "fish and shellfish eaten as food",
+        "meaning_ar": "مأكولات بحرية",
+        "note_ar": "",
+        "example": "This restaurant is famous for its seafood.",
+        "note_en": ""
+      },
+      {
+        "word": "butter",
+        "pos": "noun",
+        "meaning_en": "a soft yellow food made from cream",
+        "meaning_ar": "زبدة",
+        "note_ar": "",
+        "example": "Spread some butter on the bread.",
+        "note_en": ""
+      },
+      {
+        "word": "cream",
+        "pos": "noun",
+        "meaning_en": "the thick fatty part of milk",
+        "meaning_ar": "كريمة / قشطة",
+        "note_ar": "",
+        "example": "Do you want cream in your coffee?",
+        "note_en": ""
+      },
+      {
+        "word": "yogurt",
+        "pos": "noun",
+        "meaning_en": "a thick food made from milk",
+        "meaning_ar": "زبادي",
+        "note_ar": "تُنطق /ˈjoʊɡərt/ (أشيع) أو /ˈjɒɡət/، والاثنان صحيحان",
+        "example": "I eat yogurt with honey for breakfast.",
+        "note_en": "Say /ˈjoʊɡərt/ (more common) or /ˈjɒɡət/; both are correct."
+      },
+      {
+        "word": "sour cream",
+        "pos": "noun",
+        "meaning_en": "cream that has a slightly sour taste",
+        "meaning_ar": "قشطة حامضة",
+        "note_ar": "",
+        "example": "Serve the potatoes with sour cream.",
+        "note_en": ""
+      },
+      {
+        "word": "cottage cheese",
+        "pos": "noun",
+        "meaning_en": "a soft white cheese with small lumps",
+        "meaning_ar": "جبنة قريش",
+        "note_ar": "cottage = بيت ريفي صغير، كانت تُصنع فيه",
+        "example": "Cottage cheese is low in fat.",
+        "note_en": "A \"cottage\" is a small house in the countryside, where this cheese was made."
+      },
+      {
+        "word": "protein",
+        "pos": "noun",
+        "meaning_en": "a substance in food that helps the body grow",
+        "meaning_ar": "بروتين",
+        "note_ar": "",
+        "example": "Eggs are a good source of protein.",
+        "note_en": ""
+      },
+      {
+        "word": "rush in",
+        "pos": "phrasal verb",
+        "meaning_en": "to enter a place very quickly",
+        "meaning_ar": "يدخل مسرعاً",
+        "note_ar": "rush = يُسرع",
+        "example": "He rushed in, holding a big box.",
+        "note_en": "rush = to move or do something very quickly."
+      },
+      {
+        "word": "announce",
+        "pos": "verb",
+        "meaning_en": "to tell people something officially or proudly",
+        "meaning_ar": "يُعلن",
+        "note_ar": "الاسم: announcement",
+        "example": "She announced that she was getting married.",
+        "note_en": "Noun: announcement."
+      },
+      {
+        "word": "declare",
+        "pos": "verb",
+        "meaning_en": "to state something firmly and seriously",
+        "meaning_ar": "يصرّح / يُعلن رسمياً",
+        "note_ar": "أكثر رسمية وجدية من announce: declare war",
+        "example": "The country declared its independence in 1960.",
+        "note_en": "More formal and serious than \"announce\": declare war."
+      },
+      {
+        "word": "carton",
+        "pos": "noun",
+        "meaning_en": "a cardboard box for milk or juice",
+        "meaning_ar": "علبة كرتونية",
+        "note_ar": "",
+        "example": "We need a carton of milk.",
+        "note_en": ""
+      },
+      {
+        "word": "butcher's shop",
+        "pos": "noun",
+        "meaning_en": "a shop that sells meat",
+        "meaning_ar": "محل الجزارة",
+        "note_ar": "butcher = جزّار",
+        "example": "I bought fresh lamb from the butcher's shop.",
+        "note_en": "A butcher is a person who cuts and sells meat."
+      },
+      {
+        "word": "deliver",
+        "pos": "verb",
+        "meaning_en": "to bring something to a person or place",
+        "meaning_ar": "يوصّل / يسلّم",
+        "note_ar": "الاسم: delivery",
+        "example": "They deliver pizza until midnight.",
+        "note_en": "Noun: delivery."
+      },
+      {
+        "word": "grill",
+        "pos": "verb / noun",
+        "meaning_en": "to cook food over direct heat; the equipment for this",
+        "meaning_ar": "يشوي / شوّاية",
+        "note_ar": "",
+        "example": "Let's grill some fish tonight.",
+        "note_en": ""
+      },
+      {
+        "word": "plate",
+        "pos": "noun",
+        "meaning_en": "a flat dish you eat from",
+        "meaning_ar": "طبق",
+        "note_ar": "",
+        "example": "Put the plates on the table, please.",
+        "note_en": ""
+      },
+      {
+        "word": "freeze",
+        "pos": "verb",
+        "meaning_en": "to stop moving suddenly; to become ice",
+        "meaning_ar": "يتجمّد / يتسمّر في مكانه",
+        "note_ar": "freeze - froze - frozen؛ الشرطة تقول Freeze! = لا تتحرك",
+        "example": "Everyone froze when they heard the noise.",
+        "note_en": "freeze - froze - frozen. When police shout \"Freeze!\" it means \"Don't move!\""
+      },
+      {
+        "word": "sneaky",
+        "pos": "adjective",
+        "meaning_en": "doing things secretly so others don't notice",
+        "meaning_ar": "متسلّل / ماكر",
+        "note_ar": "من الفعل sneak = يتسلل",
+        "example": "A sneaky dog ate my sandwich.",
+        "note_en": "From the verb \"sneak\" = to move quietly so no one sees you."
+      },
+      {
+        "word": "dinner",
+        "pos": "noun",
+        "meaning_en": "the main meal of the day",
+        "meaning_ar": "الوجبة الرئيسية (غالباً العشاء)",
+        "note_ar": "أصل معناها الوجبة الرئيسية في أي وقت، وليس العشاء بالضرورة",
+        "example": "We had dinner at three o'clock on Friday.",
+        "note_en": "Originally it meant the main meal of the day at any time, not necessarily the evening meal."
+      }
     ],
     "fine_lines": [
       {
         "title": "lamb vs mutton",
-        "words": ["lamb", "mutton"],
+        "words": [
+          "lamb",
+          "mutton"
+        ],
         "explanation_ar": "الفرق في عمر الحيوان. lamb لحم خروف صغير عمره أقل من سنة، لحمه طري وفاتح اللون. mutton لحم خروف كبير (كبش)، لونه أغمق وطعمه أقوى ويحتاج وقتاً أطول في الطبخ.",
         "examples": [
-          {"word": "lamb", "sentence": "These lamb chops are very tender."},
-          {"word": "mutton", "sentence": "Mutton curry cooks slowly for hours."}
-        ]
+          {
+            "word": "lamb",
+            "sentence": "These lamb chops are very tender."
+          },
+          {
+            "word": "mutton",
+            "sentence": "Mutton curry cooks slowly for hours."
+          }
+        ],
+        "explanation_en": "The difference is the animal's age. \"Lamb\" is meat from a young sheep, less than a year old; it is soft and light in color. \"Mutton\" is meat from an older sheep; it is darker, has a stronger taste, and needs longer to cook."
       },
       {
         "title": "shrimp vs prawn",
-        "words": ["shrimp", "prawn"],
+        "words": [
+          "shrimp",
+          "prawn"
+        ],
         "explanation_ar": "الفرق هنا في الحجم: shrimp للجمبري الصغير، و prawn للجمبري الكبير.",
         "examples": [
-          {"word": "shrimp", "sentence": "There are tiny shrimp in this rice."},
-          {"word": "prawn", "sentence": "He grilled three huge prawns."}
-        ]
+          {
+            "word": "shrimp",
+            "sentence": "There are tiny shrimp in this rice."
+          },
+          {
+            "word": "prawn",
+            "sentence": "He grilled three huge prawns."
+          }
+        ],
+        "explanation_en": "The difference here is size: \"shrimp\" are small, and \"prawns\" are big."
       },
       {
         "title": "bacon vs ham vs jerky",
-        "words": ["bacon", "ham", "jerky"],
+        "words": [
+          "bacon",
+          "ham",
+          "jerky"
+        ],
         "explanation_ar": "bacon و ham كلاهما لحم خنزير مدخّن: bacon مملّح ومن منطقة البطن ويحتاج طبخاً، و ham من الفخذ. أما jerky فلحم مجفف مدخّن، وغالباً يكون beef jerky من اللحم البقري ويؤكل مباشرة.",
         "examples": [
-          {"word": "bacon", "sentence": "The bacon is still frying in the pan."},
-          {"word": "ham", "sentence": "This sandwich has ham in it."},
-          {"word": "jerky", "sentence": "I always keep beef jerky in my bag."}
-        ]
+          {
+            "word": "bacon",
+            "sentence": "The bacon is still frying in the pan."
+          },
+          {
+            "word": "ham",
+            "sentence": "This sandwich has ham in it."
+          },
+          {
+            "word": "jerky",
+            "sentence": "I always keep beef jerky in my bag."
+          }
+        ],
+        "explanation_en": "Bacon and ham are both smoked pork: bacon is salted, comes from the belly, and needs cooking; ham comes from the back leg. \"Jerky\" is dried, smoked meat, usually beef jerky, and you eat it as it is."
       },
       {
         "title": "mince vs ground meat",
-        "words": ["mince", "ground meat"],
+        "words": [
+          "mince",
+          "ground meat"
+        ],
         "explanation_ar": "المعنى واحد: لحم مفروم. البريطاني يراه «مفروماً» فيقول mince أو minced meat من الفعل mince. الأمريكي يراه «مطحوناً» فيقول ground meat، و ground هنا التصريف الثالث من grind (يطحن) وليست «أرض».",
         "examples": [
-          {"word": "mince", "sentence": "Buy some mince for the pie. (UK)"},
-          {"word": "ground meat", "sentence": "Mix the ground meat with onions. (US)"}
-        ]
+          {
+            "word": "mince",
+            "sentence": "Buy some mince for the pie. (UK)"
+          },
+          {
+            "word": "ground meat",
+            "sentence": "Mix the ground meat with onions. (US)"
+          }
+        ],
+        "explanation_en": "Same meaning: meat cut into very small pieces. The British say \"mince\" or \"minced meat\", from the verb \"mince\". Americans say \"ground meat\"; here \"ground\" is the past participle of \"grind\", not the noun meaning the earth."
       },
       {
         "title": "announce vs declare",
-        "words": ["announce", "declare"],
+        "words": [
+          "announce",
+          "declare"
+        ],
         "explanation_ar": "الاثنان بمعنى «يُعلن». announce إعلان خبر للناس بشكل عام. declare أكثر جدية ورسمية وفيها نوع من السلطة، لذلك نقول declare war وليس announce war.",
         "examples": [
-          {"word": "announce", "sentence": "The pilot announced that we would land soon."},
-          {"word": "declare", "sentence": "The king declared war on his neighbors."}
-        ]
+          {
+            "word": "announce",
+            "sentence": "The pilot announced that we would land soon."
+          },
+          {
+            "word": "declare",
+            "sentence": "The king declared war on his neighbors."
+          }
+        ],
+        "explanation_en": "Both mean to make something known publicly. \"Announce\" is for telling people news in general. \"Declare\" is more serious and official and shows authority, so we say \"declare war\", not \"announce war\"."
       }
     ],
     "expressions": [
-      {"phrase": "surf and turf", "meaning_ar": "طبق يجمع بين المأكولات البحرية (surf) واللحم (turf)", "example": "I'll have the surf and turf: steak with prawns."},
-      {"phrase": "bring home the bacon", "meaning_ar": "يكسب قوت العيش / يعول الأسرة", "example": "My mother is the one who brings home the bacon."},
-      {"phrase": "put bread on the table", "meaning_ar": "يوفّر الرزق للأسرة", "example": "He works two jobs to put bread on the table."},
-      {"phrase": "earn a living", "meaning_ar": "يكسب رزقه", "example": "She earns a living as a photographer."},
-      {"phrase": "just in time", "meaning_ar": "في الوقت المناسب تماماً", "example": "We arrived just in time for the movie."},
-      {"phrase": "be about to", "meaning_ar": "على وشك أن", "example": "I was about to call you."}
+      {
+        "phrase": "surf and turf",
+        "meaning_ar": "طبق يجمع بين المأكولات البحرية (surf) واللحم (turf)",
+        "example": "I'll have the surf and turf: steak with prawns.",
+        "meaning_en": "a meal with both seafood (surf) and meat (turf)"
+      },
+      {
+        "phrase": "bring home the bacon",
+        "meaning_ar": "يكسب قوت العيش / يعول الأسرة",
+        "example": "My mother is the one who brings home the bacon.",
+        "meaning_en": "to earn money to support your family"
+      },
+      {
+        "phrase": "put bread on the table",
+        "meaning_ar": "يوفّر الرزق للأسرة",
+        "example": "He works two jobs to put bread on the table.",
+        "meaning_en": "to earn enough money to feed your family"
+      },
+      {
+        "phrase": "earn a living",
+        "meaning_ar": "يكسب رزقه",
+        "example": "She earns a living as a photographer.",
+        "meaning_en": "to earn the money you need to live"
+      },
+      {
+        "phrase": "just in time",
+        "meaning_ar": "في الوقت المناسب تماماً",
+        "example": "We arrived just in time for the movie.",
+        "meaning_en": "at the last possible moment, not late"
+      },
+      {
+        "phrase": "be about to",
+        "meaning_ar": "على وشك أن",
+        "example": "I was about to call you.",
+        "meaning_en": "going to do something very soon"
+      }
     ],
     "grammar": [
       {
@@ -106,7 +502,8 @@
           "I have studied programming since 2025.",
           "I have studied programming for one year.",
           "My father has worked at the same company since 1990."
-        ]
+        ],
+        "explanation_en": "The second use of the present perfect: something started in the past and is still continuing now. Imagine a video camera: \"since\" is the moment the video started, and \"for\" is how long it has been recording until now. The action may also continue into the future."
       },
       {
         "title": "Past simple for finished events",
@@ -115,7 +512,8 @@
           "I finished my homework three hours ago.",
           "They traveled to Paris in 2015.",
           "Shakespeare wrote many famous plays."
-        ]
+        ],
+        "explanation_en": "Use the past simple for an action that is finished and cut off from now (like a photo, not a video), especially with a specific time like \"ago\" or \"in 2015\". \"Ago\" comes after the length of time: three hours ago. If a person has died, the \"camera of their life\" has stopped, so we use the past simple: Shakespeare wrote many plays."
       },
       {
         "title": "Past perfect (introduction)",
@@ -123,20 +521,131 @@
         "examples": [
           "He had prepared the food before his friends arrived.",
           "Had someone eaten it already?"
-        ]
+        ],
+        "explanation_en": "We use had + past participle for something that happened before another event in the past. This will be explained in detail later."
       }
     ]
   },
   "questions": [
-    {"question": "Meat from a cow is called:", "choices": ["pork", "beef", "mutton", "ham"], "answer": 1, "explanation_ar": "cow حيوان ولحمه beef."},
-    {"question": "Which word has a silent letter?", "choices": ["salmon", "steak", "crab", "tuna"], "answer": 0, "explanation_ar": "حرف l صامت في salmon."},
-    {"question": "Meat from an older sheep is:", "choices": ["lamb", "veal", "prawn", "mutton"], "answer": 3, "explanation_ar": "mutton لحم خروف كبير، و lamb لحم خروف صغير."},
-    {"question": "In American English, minced meat is usually called:", "choices": ["ground meat", "fillet", "jerky", "ribs"], "answer": 0, "explanation_ar": "ground meat أمريكي (من grind = يطحن)، و mince بريطاني."},
-    {"question": "She ___ in this house since she was a child.", "choices": ["lived", "has lived", "lives", "is living"], "answer": 1, "explanation_ar": "مع since وحدث ما زال مستمراً نستخدم المضارع التام."},
-    {"question": "I finished my homework three hours ___.", "choices": ["since", "for", "ago", "before of"], "answer": 2, "explanation_ar": "ago تأتي بعد المدة وتعني «مضت»."},
-    {"question": "I have worked here ___ five years.", "choices": ["since", "ago", "in", "for"], "answer": 3, "explanation_ar": "for مع طول المدة، و since مع نقطة البداية."},
-    {"question": "\"He brings home the bacon\" means he:", "choices": ["earns money for the family", "cooks breakfast", "buys pork", "eats too much"], "answer": 0, "explanation_ar": "المعنى: يعول الأسرة ويكسب رزقها."},
-    {"question": "A dish with steak and prawns together is called:", "choices": ["seafood", "surf and turf", "bacon and eggs", "cottage cheese"], "answer": 1, "explanation_ar": "surf (البحر) and turf (العشب/الأرض)."},
-    {"question": "The country ___ war on its enemy.", "choices": ["announced", "delivered", "declared", "froze"], "answer": 2, "explanation_ar": "declare أكثر رسمية وسلطة، ونقول declare war."}
+    {
+      "question": "Meat from a cow is called:",
+      "choices": [
+        "pork",
+        "beef",
+        "mutton",
+        "ham"
+      ],
+      "answer": 1,
+      "explanation_ar": "cow حيوان ولحمه beef.",
+      "explanation_en": "The animal is a cow, and its meat is beef."
+    },
+    {
+      "question": "Which word has a silent letter?",
+      "choices": [
+        "salmon",
+        "steak",
+        "crab",
+        "tuna"
+      ],
+      "answer": 0,
+      "explanation_ar": "حرف l صامت في salmon.",
+      "explanation_en": "The l in \"salmon\" is silent."
+    },
+    {
+      "question": "Meat from an older sheep is:",
+      "choices": [
+        "lamb",
+        "veal",
+        "prawn",
+        "mutton"
+      ],
+      "answer": 3,
+      "explanation_ar": "mutton لحم خروف كبير، و lamb لحم خروف صغير.",
+      "explanation_en": "Mutton is meat from an older sheep; lamb is from a young sheep."
+    },
+    {
+      "question": "In American English, minced meat is usually called:",
+      "choices": [
+        "ground meat",
+        "fillet",
+        "jerky",
+        "ribs"
+      ],
+      "answer": 0,
+      "explanation_ar": "ground meat أمريكي (من grind = يطحن)، و mince بريطاني.",
+      "explanation_en": "\"Ground meat\" is American (from grind); \"mince\" is British."
+    },
+    {
+      "question": "She ___ in this house since she was a child.",
+      "choices": [
+        "lived",
+        "has lived",
+        "lives",
+        "is living"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع since وحدث ما زال مستمراً نستخدم المضارع التام.",
+      "explanation_en": "With \"since\" and an action that is still continuing, we use the present perfect."
+    },
+    {
+      "question": "I finished my homework three hours ___.",
+      "choices": [
+        "since",
+        "for",
+        "ago",
+        "before of"
+      ],
+      "answer": 2,
+      "explanation_ar": "ago تأتي بعد المدة وتعني «مضت».",
+      "explanation_en": "\"Ago\" comes after the length of time and means \"before now\"."
+    },
+    {
+      "question": "I have worked here ___ five years.",
+      "choices": [
+        "since",
+        "ago",
+        "in",
+        "for"
+      ],
+      "answer": 3,
+      "explanation_ar": "for مع طول المدة، و since مع نقطة البداية.",
+      "explanation_en": "Use \"for\" with a length of time and \"since\" with a starting point."
+    },
+    {
+      "question": "\"He brings home the bacon\" means he:",
+      "choices": [
+        "earns money for the family",
+        "cooks breakfast",
+        "buys pork",
+        "eats too much"
+      ],
+      "answer": 0,
+      "explanation_ar": "المعنى: يعول الأسرة ويكسب رزقها.",
+      "explanation_en": "It means he earns the money to support his family."
+    },
+    {
+      "question": "A dish with steak and prawns together is called:",
+      "choices": [
+        "seafood",
+        "surf and turf",
+        "bacon and eggs",
+        "cottage cheese"
+      ],
+      "answer": 1,
+      "explanation_ar": "surf (البحر) and turf (العشب/الأرض).",
+      "explanation_en": "surf (the sea) and turf (the grass/land)."
+    },
+    {
+      "question": "The country ___ war on its enemy.",
+      "choices": [
+        "announced",
+        "delivered",
+        "declared",
+        "froze"
+      ],
+      "answer": 2,
+      "explanation_ar": "declare أكثر رسمية وسلطة، ونقول declare war.",
+      "explanation_en": "\"Declare\" is more formal and shows authority; we say \"declare war\"."
+    }
   ]
 }

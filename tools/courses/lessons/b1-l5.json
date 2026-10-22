@@ -2,101 +2,494 @@
   "title": "Luxury and Designer Brands",
   "content": {
     "vocabulary": [
-      {"word": "luxury", "pos": "noun", "meaning_en": "great comfort and expensive things", "meaning_ar": "رفاهية / فخامة", "note_ar": "تُنطق /ˈlʌkʃəri/ أو /ˈlʌɡʒəri/؛ الصفة luxurious = فخم", "example": "They stayed in a luxury hotel."},
-      {"word": "luxurious", "pos": "adjective", "meaning_en": "very comfortable and expensive", "meaning_ar": "فخم / مُترَف", "note_ar": "", "example": "The car has luxurious leather seats."},
-      {"word": "brand", "pos": "noun", "meaning_en": "the name of a company's products", "meaning_ar": "علامة تجارية / ماركة", "note_ar": "", "example": "This is a famous sports brand."},
-      {"word": "designer", "pos": "noun / adjective", "meaning_en": "a person who designs things; made by a famous designer", "meaning_ar": "مصمّم / من تصميم مصمم مشهور", "note_ar": "من design = يصمم؛ designer clothes = ملابس الماركات العالمية", "example": "She only wears designer clothes."},
-      {"word": "boutique", "pos": "noun", "meaning_en": "a small shop that sells special, expensive things", "meaning_ar": "متجر راقٍ / بوتيك", "note_ar": "أصلها فرنسي", "example": "She bought her dress from a small boutique."},
-      {"word": "limited edition", "pos": "noun", "meaning_en": "a product made in small numbers only", "meaning_ar": "إصدار محدود", "note_ar": "limit = حد، edition = إصدار / نسخة", "example": "This watch is a limited edition; only 500 were made."},
-      {"word": "exclusive", "pos": "adjective", "meaning_en": "only for certain people or in one place", "meaning_ar": "حصري", "note_ar": "", "example": "Members get exclusive offers."},
-      {"word": "label", "pos": "noun", "meaning_en": "a small piece of paper or cloth with information on a product", "meaning_ar": "ملصق / بطاقة", "note_ar": "", "example": "Read the label before you wash it."},
-      {"word": "logo", "pos": "noun", "meaning_en": "a symbol that represents a company", "meaning_ar": "شعار", "note_ar": "", "example": "The shirt has a small logo on the front."},
-      {"word": "trend", "pos": "noun", "meaning_en": "a new popular style or direction", "meaning_ar": "موضة رائجة / ترند", "note_ar": "", "example": "Wide trousers are the latest trend."},
-      {"word": "stylish", "pos": "adjective", "meaning_en": "having good personal style", "meaning_ar": "شيك / له ستايل", "note_ar": "من style", "example": "He always looks stylish, even in jeans."},
-      {"word": "fashionable", "pos": "adjective", "meaning_en": "following the latest fashion", "meaning_ar": "على الموضة", "note_ar": "", "example": "Short jackets are fashionable this year."},
-      {"word": "elegant", "pos": "adjective", "meaning_en": "graceful, classic and refined", "meaning_ar": "راقٍ / أنيق", "note_ar": "", "example": "She looked elegant in her evening gown."},
-      {"word": "high-quality", "pos": "adjective", "meaning_en": "very good in quality", "meaning_ar": "عالي الجودة", "note_ar": "عكسها poor-quality / low-quality", "example": "They only use high-quality cotton."},
-      {"word": "leather", "pos": "noun", "meaning_en": "animal skin used for bags and shoes", "meaning_ar": "جلد", "note_ar": "", "example": "This leather bag will last for years."},
-      {"word": "jewellery / jewelry", "pos": "noun (uncountable)", "meaning_en": "rings, necklaces, bracelets, etc.", "meaning_ar": "مجوهرات", "note_ar": "jewelry بحرف l واحد في أمريكا، jewellery بحرفين في بريطانيا؛ لا تُعدّ وتعامل كمفرد", "example": "Her jewellery is very expensive."},
-      {"word": "bracelet", "pos": "noun", "meaning_en": "jewellery worn around the wrist", "meaning_ar": "سوار / أسورة", "note_ar": "", "example": "He gave her a golden bracelet."},
-      {"word": "perfume", "pos": "noun", "meaning_en": "a liquid with a nice smell that you put on your skin", "meaning_ar": "عطر / برفان", "note_ar": "", "example": "What perfume are you wearing?"},
-      {"word": "cosmetics", "pos": "noun (plural)", "meaning_en": "products like make-up and creams", "meaning_ar": "مستحضرات تجميل", "note_ar": "المفرد cosmetic يُستخدم غالباً كصفة: cosmetic surgery = جراحة تجميلية", "example": "She works in a cosmetics shop."},
-      {"word": "accessories", "pos": "noun", "meaning_en": "extra things you wear with clothes: watch, belt, glasses", "meaning_ar": "إكسسوارات", "note_ar": "", "example": "A good watch is my favourite accessory."},
-      {"word": "suit", "pos": "noun", "meaning_en": "a jacket and trousers made from the same cloth", "meaning_ar": "بدلة", "note_ar": "", "example": "He wore a dark suit to the wedding."},
-      {"word": "evening gown", "pos": "noun", "meaning_en": "a long formal dress for special events", "meaning_ar": "فستان سهرة / سواريه", "note_ar": "أطول وأفخم من dress العادي", "example": "She wore a red evening gown to the party."},
-      {"word": "runway / catwalk", "pos": "noun", "meaning_en": "the long stage where models walk in a fashion show", "meaning_ar": "منصة عرض الأزياء", "note_ar": "runway أمريكي (من مدرج الطائرات)، catwalk بريطاني (من مشية القطة)", "example": "The models walked down the runway."},
-      {"word": "gift box", "pos": "noun", "meaning_en": "a special box for a present", "meaning_ar": "علبة هدايا", "note_ar": "", "example": "The perfume came in a beautiful gift box."},
-      {"word": "step", "pos": "verb / noun", "meaning_en": "to move by putting one foot forward", "meaning_ar": "يخطو / خطوة", "note_ar": "", "example": "He stepped inside the room."},
-      {"word": "treasure", "pos": "noun", "meaning_en": "a collection of gold, jewels or valuable things", "meaning_ar": "كنز", "note_ar": "", "example": "The pirates hid their treasure on an island."},
-      {"word": "sparkling", "pos": "adjective", "meaning_en": "shining with small points of light", "meaning_ar": "متلألئ", "note_ar": "من sparkle = يتلألأ", "example": "She wore a sparkling necklace."},
-      {"word": "world-famous", "pos": "adjective", "meaning_en": "known all over the world", "meaning_ar": "مشهور عالمياً", "note_ar": "صفة مركّبة", "example": "Paris has many world-famous museums."},
-      {"word": "hesitate", "pos": "verb", "meaning_en": "to stop for a moment because you are not sure", "meaning_ar": "يتردّد", "note_ar": "", "example": "She hesitated before answering."},
-      {"word": "worth", "pos": "adjective", "meaning_en": "having a certain value", "meaning_ar": "يساوي / قيمته", "note_ar": "worth a fortune = يساوي ثروة", "example": "This old coin is worth a lot of money."},
-      {"word": "fortune", "pos": "noun", "meaning_en": "a very large amount of money", "meaning_ar": "ثروة", "note_ar": "", "example": "That house must have cost a fortune."},
-      {"word": "spray", "pos": "verb", "meaning_en": "to put liquid on something in small drops", "meaning_ar": "يرشّ", "note_ar": "", "example": "She sprayed some perfume on her neck."},
-      {"word": "wrist", "pos": "noun", "meaning_en": "the joint between your hand and arm", "meaning_ar": "معصم", "note_ar": "حرف w صامت: /rɪst/", "example": "He wears his watch on his left wrist."},
-      {"word": "urge", "pos": "verb", "meaning_en": "to strongly try to make someone do something", "meaning_ar": "يُلحّ / يحثّ", "note_ar": "urge someone to do something", "example": "My friend urged me to apply for the job."},
-      {"word": "trapped", "pos": "adjective", "meaning_en": "unable to escape from a place or situation", "meaning_ar": "محاصَر / في ورطة", "note_ar": "trap = فخ / مصيدة", "example": "He felt trapped in his boring job."},
-      {"word": "fool", "pos": "verb", "meaning_en": "to trick someone", "meaning_ar": "يخدع", "note_ar": "", "example": "Don't let them fool you with low prices."},
-      {"word": "unsure", "pos": "adjective", "meaning_en": "not certain", "meaning_ar": "غير متأكد", "note_ar": "= not sure، لكنها صفة يمكن وضعها قبل الاسم: an unsure smile", "example": "She gave him an unsure smile."},
-      {"word": "warranty", "pos": "noun", "meaning_en": "a written promise to repair a product if it breaks", "meaning_ar": "ضمان", "note_ar": "", "example": "The TV comes with a two-year warranty."}
+      {
+        "word": "luxury",
+        "pos": "noun",
+        "meaning_en": "great comfort and expensive things",
+        "meaning_ar": "رفاهية / فخامة",
+        "note_ar": "تُنطق /ˈlʌkʃəri/ أو /ˈlʌɡʒəri/؛ الصفة luxurious = فخم",
+        "example": "They stayed in a luxury hotel.",
+        "note_en": "Say /ˈlʌkʃəri/ or /ˈlʌɡʒəri/; the adjective is \"luxurious\"."
+      },
+      {
+        "word": "luxurious",
+        "pos": "adjective",
+        "meaning_en": "very comfortable and expensive",
+        "meaning_ar": "فخم / مُترَف",
+        "note_ar": "",
+        "example": "The car has luxurious leather seats.",
+        "note_en": ""
+      },
+      {
+        "word": "brand",
+        "pos": "noun",
+        "meaning_en": "the name of a company's products",
+        "meaning_ar": "علامة تجارية / ماركة",
+        "note_ar": "",
+        "example": "This is a famous sports brand.",
+        "note_en": ""
+      },
+      {
+        "word": "designer",
+        "pos": "noun / adjective",
+        "meaning_en": "a person who designs things; made by a famous designer",
+        "meaning_ar": "مصمّم / من تصميم مصمم مشهور",
+        "note_ar": "من design = يصمم؛ designer clothes = ملابس الماركات العالمية",
+        "example": "She only wears designer clothes.",
+        "note_en": "From \"design\"; designer clothes = clothes from famous brands."
+      },
+      {
+        "word": "boutique",
+        "pos": "noun",
+        "meaning_en": "a small shop that sells special, expensive things",
+        "meaning_ar": "متجر راقٍ / بوتيك",
+        "note_ar": "أصلها فرنسي",
+        "example": "She bought her dress from a small boutique.",
+        "note_en": "Comes from French."
+      },
+      {
+        "word": "limited edition",
+        "pos": "noun",
+        "meaning_en": "a product made in small numbers only",
+        "meaning_ar": "إصدار محدود",
+        "note_ar": "limit = حد، edition = إصدار / نسخة",
+        "example": "This watch is a limited edition; only 500 were made.",
+        "note_en": "limit = a maximum amount; edition = one version or release of a product."
+      },
+      {
+        "word": "exclusive",
+        "pos": "adjective",
+        "meaning_en": "only for certain people or in one place",
+        "meaning_ar": "حصري",
+        "note_ar": "",
+        "example": "Members get exclusive offers.",
+        "note_en": ""
+      },
+      {
+        "word": "label",
+        "pos": "noun",
+        "meaning_en": "a small piece of paper or cloth with information on a product",
+        "meaning_ar": "ملصق / بطاقة",
+        "note_ar": "",
+        "example": "Read the label before you wash it.",
+        "note_en": ""
+      },
+      {
+        "word": "logo",
+        "pos": "noun",
+        "meaning_en": "a symbol that represents a company",
+        "meaning_ar": "شعار",
+        "note_ar": "",
+        "example": "The shirt has a small logo on the front.",
+        "note_en": ""
+      },
+      {
+        "word": "trend",
+        "pos": "noun",
+        "meaning_en": "a new popular style or direction",
+        "meaning_ar": "موضة رائجة / ترند",
+        "note_ar": "",
+        "example": "Wide trousers are the latest trend.",
+        "note_en": ""
+      },
+      {
+        "word": "stylish",
+        "pos": "adjective",
+        "meaning_en": "having good personal style",
+        "meaning_ar": "شيك / له ستايل",
+        "note_ar": "من style",
+        "example": "He always looks stylish, even in jeans.",
+        "note_en": "From \"style\"."
+      },
+      {
+        "word": "fashionable",
+        "pos": "adjective",
+        "meaning_en": "following the latest fashion",
+        "meaning_ar": "على الموضة",
+        "note_ar": "",
+        "example": "Short jackets are fashionable this year.",
+        "note_en": ""
+      },
+      {
+        "word": "elegant",
+        "pos": "adjective",
+        "meaning_en": "graceful, classic and refined",
+        "meaning_ar": "راقٍ / أنيق",
+        "note_ar": "",
+        "example": "She looked elegant in her evening gown.",
+        "note_en": ""
+      },
+      {
+        "word": "high-quality",
+        "pos": "adjective",
+        "meaning_en": "very good in quality",
+        "meaning_ar": "عالي الجودة",
+        "note_ar": "عكسها poor-quality / low-quality",
+        "example": "They only use high-quality cotton.",
+        "note_en": "Opposite: poor-quality / low-quality."
+      },
+      {
+        "word": "leather",
+        "pos": "noun",
+        "meaning_en": "animal skin used for bags and shoes",
+        "meaning_ar": "جلد",
+        "note_ar": "",
+        "example": "This leather bag will last for years.",
+        "note_en": ""
+      },
+      {
+        "word": "jewellery / jewelry",
+        "pos": "noun (uncountable)",
+        "meaning_en": "rings, necklaces, bracelets, etc.",
+        "meaning_ar": "مجوهرات",
+        "note_ar": "jewelry بحرف l واحد في أمريكا، jewellery بحرفين في بريطانيا؛ لا تُعدّ وتعامل كمفرد",
+        "example": "Her jewellery is very expensive.",
+        "note_en": "\"Jewelry\" (one l) is American; \"jewellery\" (two l's) is British. It is uncountable and takes a singular verb."
+      },
+      {
+        "word": "bracelet",
+        "pos": "noun",
+        "meaning_en": "jewellery worn around the wrist",
+        "meaning_ar": "سوار / أسورة",
+        "note_ar": "",
+        "example": "He gave her a golden bracelet.",
+        "note_en": ""
+      },
+      {
+        "word": "perfume",
+        "pos": "noun",
+        "meaning_en": "a liquid with a nice smell that you put on your skin",
+        "meaning_ar": "عطر / برفان",
+        "note_ar": "",
+        "example": "What perfume are you wearing?",
+        "note_en": ""
+      },
+      {
+        "word": "cosmetics",
+        "pos": "noun (plural)",
+        "meaning_en": "products like make-up and creams",
+        "meaning_ar": "مستحضرات تجميل",
+        "note_ar": "المفرد cosmetic يُستخدم غالباً كصفة: cosmetic surgery = جراحة تجميلية",
+        "example": "She works in a cosmetics shop.",
+        "note_en": "The singular \"cosmetic\" is mostly used as an adjective: cosmetic surgery = surgery to improve how you look."
+      },
+      {
+        "word": "accessories",
+        "pos": "noun",
+        "meaning_en": "extra things you wear with clothes: watch, belt, glasses",
+        "meaning_ar": "إكسسوارات",
+        "note_ar": "",
+        "example": "A good watch is my favourite accessory.",
+        "note_en": ""
+      },
+      {
+        "word": "suit",
+        "pos": "noun",
+        "meaning_en": "a jacket and trousers made from the same cloth",
+        "meaning_ar": "بدلة",
+        "note_ar": "",
+        "example": "He wore a dark suit to the wedding.",
+        "note_en": ""
+      },
+      {
+        "word": "evening gown",
+        "pos": "noun",
+        "meaning_en": "a long formal dress for special events",
+        "meaning_ar": "فستان سهرة / سواريه",
+        "note_ar": "أطول وأفخم من dress العادي",
+        "example": "She wore a red evening gown to the party.",
+        "note_en": "Longer and more formal than a normal dress."
+      },
+      {
+        "word": "runway / catwalk",
+        "pos": "noun",
+        "meaning_en": "the long stage where models walk in a fashion show",
+        "meaning_ar": "منصة عرض الأزياء",
+        "note_ar": "runway أمريكي (من مدرج الطائرات)، catwalk بريطاني (من مشية القطة)",
+        "example": "The models walked down the runway.",
+        "note_en": "\"Runway\" is American (like an airport runway); \"catwalk\" is British (from the way a cat walks)."
+      },
+      {
+        "word": "gift box",
+        "pos": "noun",
+        "meaning_en": "a special box for a present",
+        "meaning_ar": "علبة هدايا",
+        "note_ar": "",
+        "example": "The perfume came in a beautiful gift box.",
+        "note_en": ""
+      },
+      {
+        "word": "step",
+        "pos": "verb / noun",
+        "meaning_en": "to move by putting one foot forward",
+        "meaning_ar": "يخطو / خطوة",
+        "note_ar": "",
+        "example": "He stepped inside the room.",
+        "note_en": ""
+      },
+      {
+        "word": "treasure",
+        "pos": "noun",
+        "meaning_en": "a collection of gold, jewels or valuable things",
+        "meaning_ar": "كنز",
+        "note_ar": "",
+        "example": "The pirates hid their treasure on an island.",
+        "note_en": ""
+      },
+      {
+        "word": "sparkling",
+        "pos": "adjective",
+        "meaning_en": "shining with small points of light",
+        "meaning_ar": "متلألئ",
+        "note_ar": "من sparkle = يتلألأ",
+        "example": "She wore a sparkling necklace.",
+        "note_en": "From \"sparkle\" (to shine with small flashes of light)."
+      },
+      {
+        "word": "world-famous",
+        "pos": "adjective",
+        "meaning_en": "known all over the world",
+        "meaning_ar": "مشهور عالمياً",
+        "note_ar": "صفة مركّبة",
+        "example": "Paris has many world-famous museums.",
+        "note_en": "A compound adjective (two words working as one adjective)."
+      },
+      {
+        "word": "hesitate",
+        "pos": "verb",
+        "meaning_en": "to stop for a moment because you are not sure",
+        "meaning_ar": "يتردّد",
+        "note_ar": "",
+        "example": "She hesitated before answering.",
+        "note_en": ""
+      },
+      {
+        "word": "worth",
+        "pos": "adjective",
+        "meaning_en": "having a certain value",
+        "meaning_ar": "يساوي / قيمته",
+        "note_ar": "worth a fortune = يساوي ثروة",
+        "example": "This old coin is worth a lot of money.",
+        "note_en": "worth a fortune = worth a lot of money."
+      },
+      {
+        "word": "fortune",
+        "pos": "noun",
+        "meaning_en": "a very large amount of money",
+        "meaning_ar": "ثروة",
+        "note_ar": "",
+        "example": "That house must have cost a fortune.",
+        "note_en": ""
+      },
+      {
+        "word": "spray",
+        "pos": "verb",
+        "meaning_en": "to put liquid on something in small drops",
+        "meaning_ar": "يرشّ",
+        "note_ar": "",
+        "example": "She sprayed some perfume on her neck.",
+        "note_en": ""
+      },
+      {
+        "word": "wrist",
+        "pos": "noun",
+        "meaning_en": "the joint between your hand and arm",
+        "meaning_ar": "معصم",
+        "note_ar": "حرف w صامت: /rɪst/",
+        "example": "He wears his watch on his left wrist.",
+        "note_en": "The w is silent: /rɪst/."
+      },
+      {
+        "word": "urge",
+        "pos": "verb",
+        "meaning_en": "to strongly try to make someone do something",
+        "meaning_ar": "يُلحّ / يحثّ",
+        "note_ar": "urge someone to do something",
+        "example": "My friend urged me to apply for the job.",
+        "note_en": "Pattern: urge someone to do something."
+      },
+      {
+        "word": "trapped",
+        "pos": "adjective",
+        "meaning_en": "unable to escape from a place or situation",
+        "meaning_ar": "محاصَر / في ورطة",
+        "note_ar": "trap = فخ / مصيدة",
+        "example": "He felt trapped in his boring job.",
+        "note_en": "trap = something used to catch an animal or a person."
+      },
+      {
+        "word": "fool",
+        "pos": "verb",
+        "meaning_en": "to trick someone",
+        "meaning_ar": "يخدع",
+        "note_ar": "",
+        "example": "Don't let them fool you with low prices.",
+        "note_en": ""
+      },
+      {
+        "word": "unsure",
+        "pos": "adjective",
+        "meaning_en": "not certain",
+        "meaning_ar": "غير متأكد",
+        "note_ar": "= not sure، لكنها صفة يمكن وضعها قبل الاسم: an unsure smile",
+        "example": "She gave him an unsure smile.",
+        "note_en": "Means \"not sure\", but it can go before a noun: an unsure smile."
+      },
+      {
+        "word": "warranty",
+        "pos": "noun",
+        "meaning_en": "a written promise to repair a product if it breaks",
+        "meaning_ar": "ضمان",
+        "note_ar": "",
+        "example": "The TV comes with a two-year warranty.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "fashionable vs stylish vs elegant",
-        "words": ["fashionable", "stylish", "elegant"],
+        "words": [
+          "fashionable",
+          "stylish",
+          "elegant"
+        ],
         "explanation_ar": "fashionable شخص يلبس ما هو رائج الآن ويتبع الموضة الحالية. stylish شخص له ذوق وستايل خاص ويعرف كيف ينسّق ملابسه، حتى لو لم يتبع الموضة. elegant درجة أعلى: رقي وفخامة مع بساطة، وعادة مرتبطة باللبس الكلاسيكي مثل البدلات الرسمية وفساتين السهرة.",
         "examples": [
-          {"word": "fashionable", "sentence": "The singer always wears the most fashionable clothes."},
-          {"word": "stylish", "sentence": "My friend looks stylish in a simple shirt and jeans."},
-          {"word": "elegant", "sentence": "The princess looked elegant in a long white gown."}
-        ]
+          {
+            "word": "fashionable",
+            "sentence": "The singer always wears the most fashionable clothes."
+          },
+          {
+            "word": "stylish",
+            "sentence": "My friend looks stylish in a simple shirt and jeans."
+          },
+          {
+            "word": "elegant",
+            "sentence": "The princess looked elegant in a long white gown."
+          }
+        ],
+        "explanation_en": "A fashionable person wears what is popular right now and follows the latest trends. A stylish person has their own good taste and knows how to match clothes, even without following trends. Elegant is a step higher: graceful and classy but simple, usually linked to classic clothes like formal suits and evening gowns."
       },
       {
         "title": "at a bargain price vs for a bargain price",
-        "words": ["at", "for"],
+        "words": [
+          "at",
+          "for"
+        ],
         "explanation_ar": "المعنى واحد (بسعر لُقطة) لكن الاستخدام مختلف. at نستخدمها عند عرض شيء للبيع (أبيعه لك عند هذا السعر). for نستخدمها عندما نتكلم عن شيء اشتريناه مقابل سعر معين.",
         "examples": [
-          {"word": "at", "sentence": "I can sell you this watch at a bargain price."},
-          {"word": "for", "sentence": "I bought this jacket for a bargain price."}
-        ]
+          {
+            "word": "at",
+            "sentence": "I can sell you this watch at a bargain price."
+          },
+          {
+            "word": "for",
+            "sentence": "I bought this jacket for a bargain price."
+          }
+        ],
+        "explanation_en": "Same meaning (at a very low price), but used differently. \"At\" is used when offering something for sale (I'll sell it to you at this price). \"For\" is used when talking about something you bought for a certain price."
       },
       {
         "title": "runway vs catwalk",
-        "words": ["runway", "catwalk"],
+        "words": [
+          "runway",
+          "catwalk"
+        ],
         "explanation_ar": "الاثنتان منصة عرض الأزياء. runway (أمريكي) اشتقاق وظيفي من مدرج الطائرات لأنه طريق مستقيم يُمشى عليه. catwalk (بريطاني) اشتقاق تصويري: العارضات يمشين بوضع قدم أمام الأخرى مثل القطة.",
         "examples": [
-          {"word": "runway", "sentence": "The dress came straight from the runway."},
-          {"word": "catwalk", "sentence": "She walked the catwalk in London."}
-        ]
+          {
+            "word": "runway",
+            "sentence": "The dress came straight from the runway."
+          },
+          {
+            "word": "catwalk",
+            "sentence": "She walked the catwalk in London."
+          }
+        ],
+        "explanation_en": "Both mean the long stage in a fashion show. \"Runway\" (American) comes from an airport runway, a straight path to walk on. \"Catwalk\" (British) is a picture word: models walk with one foot in front of the other, like a cat."
       },
       {
         "title": "a few vs a little",
-        "words": ["a few", "a little"],
+        "words": [
+          "a few",
+          "a little"
+        ],
         "explanation_ar": "a few مع الأشياء المعدودة (items, bracelets)، و a little مع الأشياء غير المعدودة (jewellery, money, water). لذلك نقول only a few items exist لأن items تُعد.",
         "examples": [
-          {"word": "a few", "sentence": "Only a few pieces exist."},
-          {"word": "a little", "sentence": "She only wears a little jewellery."}
-        ]
+          {
+            "word": "a few",
+            "sentence": "Only a few pieces exist."
+          },
+          {
+            "word": "a little",
+            "sentence": "She only wears a little jewellery."
+          }
+        ],
+        "explanation_en": "\"A few\" goes with countable things (items, bracelets); \"a little\" goes with uncountable things (jewellery, money, water). So we say \"only a few items exist\" because items can be counted."
       },
       {
         "title": "unsure vs not sure",
-        "words": ["unsure", "not sure"],
+        "words": [
+          "unsure",
+          "not sure"
+        ],
         "explanation_ar": "المعنى واحد (غير متأكد). لكن unsure صفة يمكن استخدامها وحدها أو قبل الاسم (an unsure smile)، أما not sure فلا يمكن وضعها قبل الاسم.",
         "examples": [
-          {"word": "unsure", "sentence": "She gave him an unsure smile."},
-          {"word": "not sure", "sentence": "Ali was not sure about the box."}
-        ]
+          {
+            "word": "unsure",
+            "sentence": "She gave him an unsure smile."
+          },
+          {
+            "word": "not sure",
+            "sentence": "Ali was not sure about the box."
+          }
+        ],
+        "explanation_en": "Same meaning (not certain). But \"unsure\" is an adjective that can stand alone or go before a noun (an unsure smile), while \"not sure\" cannot go before a noun."
       }
     ],
     "expressions": [
-      {"phrase": "into the bargain", "meaning_ar": "فوق البيعة / بالإضافة إلى ذلك", "example": "The suit was cheap, and they gave me a tie into the bargain."},
-      {"phrase": "worth a fortune", "meaning_ar": "يساوي ثروة", "example": "That painting is worth a fortune."},
-      {"phrase": "heart racing", "meaning_ar": "قلبه يدق بسرعة (من الخوف أو الحماس)", "example": "She opened the letter, her heart racing."},
-      {"phrase": "at a bargain price", "meaning_ar": "بسعر لُقطة (عند العرض)", "example": "We are selling these phones at a bargain price."},
-      {"phrase": "before someone else does", "meaning_ar": "قبل أن يأخذها شخص آخر", "example": "Book the flat now, before someone else does."},
-      {"phrase": "not X but Y", "meaning_ar": "ليس كذا بل كذا (نفي وإثبات للتشويق)", "example": "It was not gold but a luxury collection of jewellery."},
-      {"phrase": "for free", "meaning_ar": "مجاناً", "example": "They added a small bag of cosmetics for free."}
+      {
+        "phrase": "into the bargain",
+        "meaning_ar": "فوق البيعة / بالإضافة إلى ذلك",
+        "example": "The suit was cheap, and they gave me a tie into the bargain.",
+        "meaning_en": "as an extra; in addition"
+      },
+      {
+        "phrase": "worth a fortune",
+        "meaning_ar": "يساوي ثروة",
+        "example": "That painting is worth a fortune.",
+        "meaning_en": "worth a lot of money"
+      },
+      {
+        "phrase": "heart racing",
+        "meaning_ar": "قلبه يدق بسرعة (من الخوف أو الحماس)",
+        "example": "She opened the letter, her heart racing.",
+        "meaning_en": "heart beating fast (from fear or excitement)"
+      },
+      {
+        "phrase": "at a bargain price",
+        "meaning_ar": "بسعر لُقطة (عند العرض)",
+        "example": "We are selling these phones at a bargain price.",
+        "meaning_en": "at a very low price (when selling)"
+      },
+      {
+        "phrase": "before someone else does",
+        "meaning_ar": "قبل أن يأخذها شخص آخر",
+        "example": "Book the flat now, before someone else does.",
+        "meaning_en": "before another person takes it"
+      },
+      {
+        "phrase": "not X but Y",
+        "meaning_ar": "ليس كذا بل كذا (نفي وإثبات للتشويق)",
+        "example": "It was not gold but a luxury collection of jewellery.",
+        "meaning_en": "not this, but that (used to surprise or correct)"
+      },
+      {
+        "phrase": "for free",
+        "meaning_ar": "مجاناً",
+        "example": "They added a small bag of cosmetics for free.",
+        "meaning_en": "without paying"
+      }
     ],
     "grammar": [
       {
@@ -106,7 +499,8 @@
           "\"Open the door.\" → He told me to open the door.",
           "\"Don't stop the car.\" → He asked me not to stop the car.",
           "\"Sit down.\" → The teacher ordered Ali to sit down."
-        ]
+        ],
+        "explanation_en": "To report a command or request, use: verb + person + to + base verb (He told me to open the door). Choose the verb that fits how it was said: told, asked (politely), ordered, urged (pushed strongly). For negatives, say \"not to\", not \"to not\"."
       },
       {
         "title": "Compound adjectives",
@@ -115,7 +509,8 @@
           "a five-star hotel, a ten-minute break, a two-hour flight",
           "world-famous brand, ice-cold water, sugar-free drink",
           "high-quality leather, a long-term goal"
-        ]
+        ],
+        "explanation_en": "A compound adjective is two or more words working together as one adjective. It's best to use a hyphen, and remember that adjectives are never plural in English, so we say \"a five-star hotel\", not \"five-stars\". Patterns: number + noun, noun + adjective, adjective + noun."
       },
       {
         "title": "is / are being + past participle (passive, now)",
@@ -123,20 +518,131 @@
         "examples": [
           "My car is being repaired.",
           "Was he being fooled again?"
-        ]
+        ],
+        "explanation_en": "We use am / is / are being + past participle for a passive action happening now. In the past, use was / were being."
       }
     ]
   },
   "questions": [
-    {"question": "Which is correct?", "choices": ["a five-stars hotel", "a five-star hotel", "a five stars-hotel", "a hotel five-stars"], "answer": 1, "explanation_ar": "الصفة المركبة لا تُجمع: five-star."},
-    {"question": "\"Don't open the door.\" → He told me ___ the door.", "choices": ["to not open", "not open", "don't open", "not to open"], "answer": 3, "explanation_ar": "في نقل النهي نقول not to + الفعل."},
-    {"question": "My friend kept insisting. He ___ me to apply for the job.", "choices": ["urged", "hesitated", "sprayed", "fooled"], "answer": 0, "explanation_ar": "urge someone to = يلحّ على شخص أن يفعل شيئاً."},
-    {"question": "A person who always wears what is trendy right now is:", "choices": ["elegant", "unsure", "fashionable", "luxurious"], "answer": 2, "explanation_ar": "fashionable = يتبع الموضة الحالية."},
-    {"question": "The princess wore a classic long gown. She looked very ___.", "choices": ["trapped", "elegant", "cheap", "noisy"], "answer": 1, "explanation_ar": "elegant = راقٍ وفخم مع بساطة، مرتبط باللبس الكلاسيكي."},
-    {"question": "The vendor said, \"I'll sell it to you ___ a bargain price.\"", "choices": ["at", "on", "in", "with"], "answer": 0, "explanation_ar": "عند عرض الشيء للبيع نقول at a bargain price."},
-    {"question": "\"Into the bargain\" means:", "choices": ["at a high price", "in addition / as well", "secretly", "for sale"], "answer": 1, "explanation_ar": "into the bargain = فوق البيعة / بالإضافة إلى ذلك."},
-    {"question": "\"Limited edition\" means the product:", "choices": ["is very cheap", "is second-hand", "is made in small numbers", "has no label"], "answer": 2, "explanation_ar": "limited edition = إصدار محدود العدد."},
-    {"question": "Which sentence is correct?", "choices": ["She gave him a not sure smile.", "She gave him an unsure smile.", "She gave him a sure not smile.", "She gave him an unsurely smile."], "answer": 1, "explanation_ar": "unsure صفة يمكن وضعها قبل الاسم، أما not sure فلا."},
-    {"question": "In British English, the runway in a fashion show is called the:", "choices": ["catwalk", "boutique", "label", "booth"], "answer": 0, "explanation_ar": "runway أمريكي، catwalk بريطاني."}
+    {
+      "question": "Which is correct?",
+      "choices": [
+        "a five-stars hotel",
+        "a five-star hotel",
+        "a five stars-hotel",
+        "a hotel five-stars"
+      ],
+      "answer": 1,
+      "explanation_ar": "الصفة المركبة لا تُجمع: five-star.",
+      "explanation_en": "Compound adjectives are never plural: five-star."
+    },
+    {
+      "question": "\"Don't open the door.\" → He told me ___ the door.",
+      "choices": [
+        "to not open",
+        "not open",
+        "don't open",
+        "not to open"
+      ],
+      "answer": 3,
+      "explanation_ar": "في نقل النهي نقول not to + الفعل.",
+      "explanation_en": "For a negative command in reported speech, use not to + verb."
+    },
+    {
+      "question": "My friend kept insisting. He ___ me to apply for the job.",
+      "choices": [
+        "urged",
+        "hesitated",
+        "sprayed",
+        "fooled"
+      ],
+      "answer": 0,
+      "explanation_ar": "urge someone to = يلحّ على شخص أن يفعل شيئاً.",
+      "explanation_en": "urge someone to = push someone strongly to do something."
+    },
+    {
+      "question": "A person who always wears what is trendy right now is:",
+      "choices": [
+        "elegant",
+        "unsure",
+        "fashionable",
+        "luxurious"
+      ],
+      "answer": 2,
+      "explanation_ar": "fashionable = يتبع الموضة الحالية.",
+      "explanation_en": "Fashionable = following the latest trends."
+    },
+    {
+      "question": "The princess wore a classic long gown. She looked very ___.",
+      "choices": [
+        "trapped",
+        "elegant",
+        "cheap",
+        "noisy"
+      ],
+      "answer": 1,
+      "explanation_ar": "elegant = راقٍ وفخم مع بساطة، مرتبط باللبس الكلاسيكي.",
+      "explanation_en": "Elegant = graceful and classy but simple, linked to classic clothes."
+    },
+    {
+      "question": "The vendor said, \"I'll sell it to you ___ a bargain price.\"",
+      "choices": [
+        "at",
+        "on",
+        "in",
+        "with"
+      ],
+      "answer": 0,
+      "explanation_ar": "عند عرض الشيء للبيع نقول at a bargain price.",
+      "explanation_en": "When offering something for sale, we say \"at a bargain price\"."
+    },
+    {
+      "question": "\"Into the bargain\" means:",
+      "choices": [
+        "at a high price",
+        "in addition / as well",
+        "secretly",
+        "for sale"
+      ],
+      "answer": 1,
+      "explanation_ar": "into the bargain = فوق البيعة / بالإضافة إلى ذلك.",
+      "explanation_en": "Into the bargain = as an extra; in addition."
+    },
+    {
+      "question": "\"Limited edition\" means the product:",
+      "choices": [
+        "is very cheap",
+        "is second-hand",
+        "is made in small numbers",
+        "has no label"
+      ],
+      "answer": 2,
+      "explanation_ar": "limited edition = إصدار محدود العدد.",
+      "explanation_en": "Limited edition = only a small number were made."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "She gave him a not sure smile.",
+        "She gave him an unsure smile.",
+        "She gave him a sure not smile.",
+        "She gave him an unsurely smile."
+      ],
+      "answer": 1,
+      "explanation_ar": "unsure صفة يمكن وضعها قبل الاسم، أما not sure فلا.",
+      "explanation_en": "\"Unsure\" can go before a noun, but \"not sure\" cannot."
+    },
+    {
+      "question": "In British English, the runway in a fashion show is called the:",
+      "choices": [
+        "catwalk",
+        "boutique",
+        "label",
+        "booth"
+      ],
+      "answer": 0,
+      "explanation_ar": "runway أمريكي، catwalk بريطاني.",
+      "explanation_en": "\"Runway\" is American; \"catwalk\" is British."
+    }
   ]
 }

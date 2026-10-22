@@ -2,109 +2,594 @@
   "title": "City Attractions and Sightseeing",
   "content": {
     "vocabulary": [
-      {"word": "attraction", "pos": "noun", "meaning_en": "an interesting place that brings visitors", "meaning_ar": "معلم سياحي / مكان جذب", "note_ar": "من attract = يجذب", "example": "The tower is the city's most famous attraction."},
-      {"word": "museum", "pos": "noun", "meaning_en": "a building where old, interesting or scientific objects are kept and shown", "meaning_ar": "متحف", "note_ar": "", "example": "We spent three hours in the history museum."},
-      {"word": "art gallery", "pos": "noun", "meaning_en": "a place where paintings and sculptures are shown or sold", "meaning_ar": "معرض فنون", "note_ar": "", "example": "Her paintings are on show at a small art gallery."},
-      {"word": "monument", "pos": "noun", "meaning_en": "a building or statue made to remember a person or event", "meaning_ar": "نُصب تذكاري", "note_ar": "", "example": "There is a monument to the war heroes in the square."},
-      {"word": "castle", "pos": "noun", "meaning_en": "a large strong old building with thick walls, built for protection", "meaning_ar": "قلعة", "note_ar": "حرف t صامت: /ˈkɑːsl/", "example": "The castle stands on top of the hill."},
-      {"word": "palace", "pos": "noun", "meaning_en": "a large, grand house of a king or queen", "meaning_ar": "قصر", "note_ar": "", "example": "The king lived in a beautiful palace."},
-      {"word": "park", "pos": "noun", "meaning_en": "a public green area in a town", "meaning_ar": "حديقة عامة", "note_ar": "", "example": "Let's have a picnic in the park."},
-      {"word": "square", "pos": "noun", "meaning_en": "an open area in a city surrounded by buildings", "meaning_ar": "ساحة / ميدان", "note_ar": "مثل Times Square", "example": "The café is in the main square."},
-      {"word": "zoo", "pos": "noun", "meaning_en": "a place where wild animals are kept for people to see", "meaning_ar": "حديقة الحيوان", "note_ar": "", "example": "The children loved the elephants at the zoo."},
-      {"word": "aquarium", "pos": "noun", "meaning_en": "a building with large tanks where you see sea creatures", "meaning_ar": "أكواريوم / حوض الأحياء المائية", "note_ar": "الحوض الصغير في البيت يسمى fish tank", "example": "We saw sharks at the aquarium."},
-      {"word": "theme park", "pos": "noun", "meaning_en": "a large park with exciting rides and shows", "meaning_ar": "مدينة ملاهٍ", "note_ar": "", "example": "Disneyland is a famous theme park."},
-      {"word": "sightseeing", "pos": "noun", "meaning_en": "visiting famous places as a tourist", "meaning_ar": "مشاهدة المعالم", "note_ar": "go sightseeing = يتجول لمشاهدة المعالم", "example": "We went sightseeing on our first day."},
-      {"word": "guided tour", "pos": "noun", "meaning_en": "a visit with a guide who explains the place", "meaning_ar": "جولة مع مرشد", "note_ar": "", "example": "We joined a guided tour of the palace."},
-      {"word": "tour guide", "pos": "noun", "meaning_en": "a person who shows tourists around and explains things", "meaning_ar": "مرشد سياحي", "note_ar": "", "example": "Our tour guide spoke four languages."},
-      {"word": "entry fee", "pos": "noun", "meaning_en": "money you pay to go into a place", "meaning_ar": "رسوم الدخول", "note_ar": "", "example": "The entry fee for children is half price."},
-      {"word": "souvenir", "pos": "noun", "meaning_en": "something you buy to remember a place or holiday", "meaning_ar": "تذكار / هدية تذكارية", "note_ar": "تُنطق /ˌsuːvəˈnɪə/", "example": "I bought a small souvenir for my sister."},
-      {"word": "key chain", "pos": "noun", "meaning_en": "a small ring or chain for holding keys", "meaning_ar": "ميدالية مفاتيح", "note_ar": "", "example": "He bought a key chain as a souvenir."},
-      {"word": "photography", "pos": "noun", "meaning_en": "the art or activity of taking photos", "meaning_ar": "التصوير الفوتوغرافي", "note_ar": "photo → photograph → photographer → photography", "example": "Photography is not allowed in this room."},
-      {"word": "excursion", "pos": "noun", "meaning_en": "a short trip for fun, often for one day", "meaning_ar": "رحلة قصيرة / نزهة", "note_ar": "", "example": "We went on an excursion to the mountains."},
-      {"word": "exhibition", "pos": "noun", "meaning_en": "a public show of art or objects for a limited time", "meaning_ar": "معرض (مؤقت)", "note_ar": "حرف h صامت: /ˌeksɪˈbɪʃn/", "example": "The science exhibition ends next month."},
-      {"word": "historical", "pos": "adjective", "meaning_en": "connected with history", "meaning_ar": "تاريخي", "note_ar": "", "example": "This is a historical castle."},
-      {"word": "cultural", "pos": "adjective", "meaning_en": "connected with the art, ideas and customs of a society", "meaning_ar": "ثقافي", "note_ar": "من culture", "example": "The city has many cultural events."},
-      {"word": "natural", "pos": "adjective", "meaning_en": "made by nature, not by people", "meaning_ar": "طبيعي", "note_ar": "", "example": "The waterfall is a natural wonder."},
-      {"word": "famous", "pos": "adjective", "meaning_en": "known by many people", "meaning_ar": "مشهور", "note_ar": "", "example": "Paris is famous for the Eiffel Tower."},
-      {"word": "popular", "pos": "adjective", "meaning_en": "liked by many people", "meaning_ar": "شائع / محبوب", "note_ar": "", "example": "This beach is popular with families."},
-      {"word": "crowded", "pos": "adjective", "meaning_en": "full of people", "meaning_ar": "مزدحم", "note_ar": "من crowd = حشد", "example": "The museum is crowded on Sundays."},
-      {"word": "blog", "pos": "noun", "meaning_en": "a website where someone writes regularly about their life or interests", "meaning_ar": "مدوّنة", "note_ar": "", "example": "She writes a travel blog."},
-      {"word": "label", "pos": "noun", "meaning_en": "a small card with information about an object", "meaning_ar": "ملصق تعريفي / بطاقة", "note_ar": "", "example": "Read the label to learn how old the vase is."},
-      {"word": "pose", "pos": "verb", "meaning_en": "to stand in a special position for a photo", "meaning_ar": "يتخذ وضعية للتصوير", "note_ar": "", "example": "She posed in front of the monument."},
-      {"word": "endless", "pos": "adjective", "meaning_en": "never stopping; very many", "meaning_ar": "لا ينتهي", "note_ar": "end + less = بلا نهاية", "example": "He took endless photos of the sea."},
-      {"word": "insist on", "pos": "verb phrase", "meaning_en": "to say firmly that you must do or have something", "meaning_ar": "يُصرّ على", "note_ar": "insist on + اسم أو فعل ing", "example": "Ali insisted on trying every ride."},
-      {"word": "ride", "pos": "noun", "meaning_en": "a machine at a theme park that people sit on for fun", "meaning_ar": "لعبة (في الملاهي)", "note_ar": "كفعل = يركب", "example": "This ride is too scary for me."},
-      {"word": "roller coaster", "pos": "noun", "meaning_en": "a fast ride that goes up and down on a track", "meaning_ar": "قطار الملاهي (الأفعوانية)", "note_ar": "", "example": "She screamed on the roller coaster."},
-      {"word": "scream", "pos": "verb", "meaning_en": "to shout very loudly because of fear or excitement", "meaning_ar": "يصرخ", "note_ar": "", "example": "The children screamed with joy."},
-      {"word": "unforgettable", "pos": "adjective", "meaning_en": "so good or special that you will always remember it", "meaning_ar": "لا يُنسى", "note_ar": "un + forget + able", "example": "It was an unforgettable day with friends."},
-      {"word": "selfie", "pos": "noun", "meaning_en": "a photo you take of yourself", "meaning_ar": "صورة سيلفي", "note_ar": "", "example": "He took a selfie with the lion behind him."},
-      {"word": "dolphin", "pos": "noun", "meaning_en": "an intelligent sea animal", "meaning_ar": "دلفين", "note_ar": "", "example": "The dolphins jumped out of the water."}
+      {
+        "word": "attraction",
+        "pos": "noun",
+        "meaning_en": "an interesting place that brings visitors",
+        "meaning_ar": "معلم سياحي / مكان جذب",
+        "note_ar": "من attract = يجذب",
+        "example": "The tower is the city's most famous attraction.",
+        "note_en": "From 'attract' = to pull people's interest."
+      },
+      {
+        "word": "museum",
+        "pos": "noun",
+        "meaning_en": "a building where old, interesting or scientific objects are kept and shown",
+        "meaning_ar": "متحف",
+        "note_ar": "",
+        "example": "We spent three hours in the history museum.",
+        "note_en": ""
+      },
+      {
+        "word": "art gallery",
+        "pos": "noun",
+        "meaning_en": "a place where paintings and sculptures are shown or sold",
+        "meaning_ar": "معرض فنون",
+        "note_ar": "",
+        "example": "Her paintings are on show at a small art gallery.",
+        "note_en": ""
+      },
+      {
+        "word": "monument",
+        "pos": "noun",
+        "meaning_en": "a building or statue made to remember a person or event",
+        "meaning_ar": "نُصب تذكاري",
+        "note_ar": "",
+        "example": "There is a monument to the war heroes in the square.",
+        "note_en": ""
+      },
+      {
+        "word": "castle",
+        "pos": "noun",
+        "meaning_en": "a large strong old building with thick walls, built for protection",
+        "meaning_ar": "قلعة",
+        "note_ar": "حرف t صامت: /ˈkɑːsl/",
+        "example": "The castle stands on top of the hill.",
+        "note_en": "The 't' is silent: /ˈkɑːsl/."
+      },
+      {
+        "word": "palace",
+        "pos": "noun",
+        "meaning_en": "a large, grand house of a king or queen",
+        "meaning_ar": "قصر",
+        "note_ar": "",
+        "example": "The king lived in a beautiful palace.",
+        "note_en": ""
+      },
+      {
+        "word": "park",
+        "pos": "noun",
+        "meaning_en": "a public green area in a town",
+        "meaning_ar": "حديقة عامة",
+        "note_ar": "",
+        "example": "Let's have a picnic in the park.",
+        "note_en": ""
+      },
+      {
+        "word": "square",
+        "pos": "noun",
+        "meaning_en": "an open area in a city surrounded by buildings",
+        "meaning_ar": "ساحة / ميدان",
+        "note_ar": "مثل Times Square",
+        "example": "The café is in the main square.",
+        "note_en": "For example, Times Square."
+      },
+      {
+        "word": "zoo",
+        "pos": "noun",
+        "meaning_en": "a place where wild animals are kept for people to see",
+        "meaning_ar": "حديقة الحيوان",
+        "note_ar": "",
+        "example": "The children loved the elephants at the zoo.",
+        "note_en": ""
+      },
+      {
+        "word": "aquarium",
+        "pos": "noun",
+        "meaning_en": "a building with large tanks where you see sea creatures",
+        "meaning_ar": "أكواريوم / حوض الأحياء المائية",
+        "note_ar": "الحوض الصغير في البيت يسمى fish tank",
+        "example": "We saw sharks at the aquarium.",
+        "note_en": "A small one at home is called a 'fish tank'."
+      },
+      {
+        "word": "theme park",
+        "pos": "noun",
+        "meaning_en": "a large park with exciting rides and shows",
+        "meaning_ar": "مدينة ملاهٍ",
+        "note_ar": "",
+        "example": "Disneyland is a famous theme park.",
+        "note_en": ""
+      },
+      {
+        "word": "sightseeing",
+        "pos": "noun",
+        "meaning_en": "visiting famous places as a tourist",
+        "meaning_ar": "مشاهدة المعالم",
+        "note_ar": "go sightseeing = يتجول لمشاهدة المعالم",
+        "example": "We went sightseeing on our first day.",
+        "note_en": "'Go sightseeing' = walk around to see the famous places."
+      },
+      {
+        "word": "guided tour",
+        "pos": "noun",
+        "meaning_en": "a visit with a guide who explains the place",
+        "meaning_ar": "جولة مع مرشد",
+        "note_ar": "",
+        "example": "We joined a guided tour of the palace.",
+        "note_en": ""
+      },
+      {
+        "word": "tour guide",
+        "pos": "noun",
+        "meaning_en": "a person who shows tourists around and explains things",
+        "meaning_ar": "مرشد سياحي",
+        "note_ar": "",
+        "example": "Our tour guide spoke four languages.",
+        "note_en": ""
+      },
+      {
+        "word": "entry fee",
+        "pos": "noun",
+        "meaning_en": "money you pay to go into a place",
+        "meaning_ar": "رسوم الدخول",
+        "note_ar": "",
+        "example": "The entry fee for children is half price.",
+        "note_en": ""
+      },
+      {
+        "word": "souvenir",
+        "pos": "noun",
+        "meaning_en": "something you buy to remember a place or holiday",
+        "meaning_ar": "تذكار / هدية تذكارية",
+        "note_ar": "تُنطق /ˌsuːvəˈnɪə/",
+        "example": "I bought a small souvenir for my sister.",
+        "note_en": "Pronounced /ˌsuːvəˈnɪə/."
+      },
+      {
+        "word": "key chain",
+        "pos": "noun",
+        "meaning_en": "a small ring or chain for holding keys",
+        "meaning_ar": "ميدالية مفاتيح",
+        "note_ar": "",
+        "example": "He bought a key chain as a souvenir.",
+        "note_en": ""
+      },
+      {
+        "word": "photography",
+        "pos": "noun",
+        "meaning_en": "the art or activity of taking photos",
+        "meaning_ar": "التصوير الفوتوغرافي",
+        "note_ar": "photo → photograph → photographer → photography",
+        "example": "Photography is not allowed in this room.",
+        "note_en": "photo → photograph → photographer → photography"
+      },
+      {
+        "word": "excursion",
+        "pos": "noun",
+        "meaning_en": "a short trip for fun, often for one day",
+        "meaning_ar": "رحلة قصيرة / نزهة",
+        "note_ar": "",
+        "example": "We went on an excursion to the mountains.",
+        "note_en": ""
+      },
+      {
+        "word": "exhibition",
+        "pos": "noun",
+        "meaning_en": "a public show of art or objects for a limited time",
+        "meaning_ar": "معرض (مؤقت)",
+        "note_ar": "حرف h صامت: /ˌeksɪˈbɪʃn/",
+        "example": "The science exhibition ends next month.",
+        "note_en": "The 'h' is silent: /ˌeksɪˈbɪʃn/."
+      },
+      {
+        "word": "historical",
+        "pos": "adjective",
+        "meaning_en": "connected with history",
+        "meaning_ar": "تاريخي",
+        "note_ar": "",
+        "example": "This is a historical castle.",
+        "note_en": ""
+      },
+      {
+        "word": "cultural",
+        "pos": "adjective",
+        "meaning_en": "connected with the art, ideas and customs of a society",
+        "meaning_ar": "ثقافي",
+        "note_ar": "من culture",
+        "example": "The city has many cultural events.",
+        "note_en": "From 'culture'."
+      },
+      {
+        "word": "natural",
+        "pos": "adjective",
+        "meaning_en": "made by nature, not by people",
+        "meaning_ar": "طبيعي",
+        "note_ar": "",
+        "example": "The waterfall is a natural wonder.",
+        "note_en": ""
+      },
+      {
+        "word": "famous",
+        "pos": "adjective",
+        "meaning_en": "known by many people",
+        "meaning_ar": "مشهور",
+        "note_ar": "",
+        "example": "Paris is famous for the Eiffel Tower.",
+        "note_en": ""
+      },
+      {
+        "word": "popular",
+        "pos": "adjective",
+        "meaning_en": "liked by many people",
+        "meaning_ar": "شائع / محبوب",
+        "note_ar": "",
+        "example": "This beach is popular with families.",
+        "note_en": ""
+      },
+      {
+        "word": "crowded",
+        "pos": "adjective",
+        "meaning_en": "full of people",
+        "meaning_ar": "مزدحم",
+        "note_ar": "من crowd = حشد",
+        "example": "The museum is crowded on Sundays.",
+        "note_en": "From 'crowd' = a large group of people."
+      },
+      {
+        "word": "blog",
+        "pos": "noun",
+        "meaning_en": "a website where someone writes regularly about their life or interests",
+        "meaning_ar": "مدوّنة",
+        "note_ar": "",
+        "example": "She writes a travel blog.",
+        "note_en": ""
+      },
+      {
+        "word": "label",
+        "pos": "noun",
+        "meaning_en": "a small card with information about an object",
+        "meaning_ar": "ملصق تعريفي / بطاقة",
+        "note_ar": "",
+        "example": "Read the label to learn how old the vase is.",
+        "note_en": ""
+      },
+      {
+        "word": "pose",
+        "pos": "verb",
+        "meaning_en": "to stand in a special position for a photo",
+        "meaning_ar": "يتخذ وضعية للتصوير",
+        "note_ar": "",
+        "example": "She posed in front of the monument.",
+        "note_en": ""
+      },
+      {
+        "word": "endless",
+        "pos": "adjective",
+        "meaning_en": "never stopping; very many",
+        "meaning_ar": "لا ينتهي",
+        "note_ar": "end + less = بلا نهاية",
+        "example": "He took endless photos of the sea.",
+        "note_en": "end + less = without an end."
+      },
+      {
+        "word": "insist on",
+        "pos": "verb phrase",
+        "meaning_en": "to say firmly that you must do or have something",
+        "meaning_ar": "يُصرّ على",
+        "note_ar": "insist on + اسم أو فعل ing",
+        "example": "Ali insisted on trying every ride.",
+        "note_en": "insist on + noun or verb-ing."
+      },
+      {
+        "word": "ride",
+        "pos": "noun",
+        "meaning_en": "a machine at a theme park that people sit on for fun",
+        "meaning_ar": "لعبة (في الملاهي)",
+        "note_ar": "كفعل = يركب",
+        "example": "This ride is too scary for me.",
+        "note_en": "As a verb it means to travel on something (a bike, a ride at a theme park)."
+      },
+      {
+        "word": "roller coaster",
+        "pos": "noun",
+        "meaning_en": "a fast ride that goes up and down on a track",
+        "meaning_ar": "قطار الملاهي (الأفعوانية)",
+        "note_ar": "",
+        "example": "She screamed on the roller coaster.",
+        "note_en": ""
+      },
+      {
+        "word": "scream",
+        "pos": "verb",
+        "meaning_en": "to shout very loudly because of fear or excitement",
+        "meaning_ar": "يصرخ",
+        "note_ar": "",
+        "example": "The children screamed with joy.",
+        "note_en": ""
+      },
+      {
+        "word": "unforgettable",
+        "pos": "adjective",
+        "meaning_en": "so good or special that you will always remember it",
+        "meaning_ar": "لا يُنسى",
+        "note_ar": "un + forget + able",
+        "example": "It was an unforgettable day with friends.",
+        "note_en": "un + forget + able"
+      },
+      {
+        "word": "selfie",
+        "pos": "noun",
+        "meaning_en": "a photo you take of yourself",
+        "meaning_ar": "صورة سيلفي",
+        "note_ar": "",
+        "example": "He took a selfie with the lion behind him.",
+        "note_en": ""
+      },
+      {
+        "word": "dolphin",
+        "pos": "noun",
+        "meaning_en": "an intelligent sea animal",
+        "meaning_ar": "دلفين",
+        "note_ar": "",
+        "example": "The dolphins jumped out of the water.",
+        "note_en": ""
+      }
     ],
     "fine_lines": [
       {
         "title": "museum vs art gallery vs exhibition",
-        "words": ["museum", "art gallery", "exhibition"],
+        "words": [
+          "museum",
+          "art gallery",
+          "exhibition"
+        ],
         "explanation_ar": "museum مبنى دائم لحفظ وعرض الآثار والمقتنيات التاريخية أو العلمية، ولا يبيع شيئاً. art gallery مبنى أو قاعة مخصصة لعرض اللوحات والتماثيل الفنية، وغالباً تُباع للجمهور. exhibition عرض مؤقت للجمهور يستمر أسابيع أو شهوراً لعرض فنون أو قطع تاريخية أو منتجات معينة ثم ينتهي.",
         "examples": [
-          {"word": "museum", "sentence": "The museum has a collection of ancient coins."},
-          {"word": "art gallery", "sentence": "You can buy this painting at the art gallery."},
-          {"word": "exhibition", "sentence": "The car exhibition runs until the end of May."}
-        ]
+          {
+            "word": "museum",
+            "sentence": "The museum has a collection of ancient coins."
+          },
+          {
+            "word": "art gallery",
+            "sentence": "You can buy this painting at the art gallery."
+          },
+          {
+            "word": "exhibition",
+            "sentence": "The car exhibition runs until the end of May."
+          }
+        ],
+        "explanation_en": "A 'museum' is a permanent building that keeps and shows historical or scientific objects; it doesn't sell them. An 'art gallery' is a building or room for showing paintings and sculptures, and they are often for sale. An 'exhibition' is a temporary public show that lasts weeks or months, showing art, historical objects or products, and then it ends."
       },
       {
         "title": "aquarium vs fish tank",
-        "words": ["aquarium", "fish tank"],
+        "words": [
+          "aquarium",
+          "fish tank"
+        ],
         "explanation_ar": "aquarium هنا مبنى كبير فيه أحواض ضخمة لعرض الأسماك والكائنات البحرية للزوار. fish tank هو الحوض الصغير الذي نضعه في البيت أو المحل.",
         "examples": [
-          {"word": "aquarium", "sentence": "We watched the sharks at the city aquarium."},
-          {"word": "fish tank", "sentence": "My son cleans his fish tank every week."}
-        ]
+          {
+            "word": "aquarium",
+            "sentence": "We watched the sharks at the city aquarium."
+          },
+          {
+            "word": "fish tank",
+            "sentence": "My son cleans his fish tank every week."
+          }
+        ],
+        "explanation_en": "Here 'aquarium' is a big building with huge tanks where visitors can see fish and sea animals. A 'fish tank' is the small tank we keep at home or in a shop."
       },
       {
         "title": "famous vs popular",
-        "words": ["famous", "popular"],
+        "words": [
+          "famous",
+          "popular"
+        ],
         "explanation_ar": "famous تعني أن كثيراً من الناس يعرفونه. popular تعني أن كثيراً من الناس يحبونه أو يفعلونه. قد يكون المكان مشهوراً لكن لا يزوره كثيرون، وقد يكون مكان صغير غير مشهور لكنه محبوب عند أهل المنطقة.",
         "examples": [
-          {"word": "famous", "sentence": "The castle is famous all over the world."},
-          {"word": "popular", "sentence": "This little café is popular with students."}
-        ]
+          {
+            "word": "famous",
+            "sentence": "The castle is famous all over the world."
+          },
+          {
+            "word": "popular",
+            "sentence": "This little café is popular with students."
+          }
+        ],
+        "explanation_en": "'Famous' means many people know it. 'Popular' means many people like it or do it. A place can be famous but not visited much, and a small place that isn't famous can be popular with local people."
       },
       {
         "title": "by vs for (with time)",
-        "words": ["by", "for"],
+        "words": [
+          "by",
+          "for"
+        ],
         "explanation_ar": "by يأتي بعدها وقت محدد في المستقبل (by 5 p.m.، by next year) بمعنى «بحلول». أما for فيأتي بعدها مدة (for two hours، for five years).",
         "examples": [
-          {"word": "by", "sentence": "By 5 p.m., the tour will have ended."},
-          {"word": "for", "sentence": "We walked around the city for three hours."}
-        ]
+          {
+            "word": "by",
+            "sentence": "By 5 p.m., the tour will have ended."
+          },
+          {
+            "word": "for",
+            "sentence": "We walked around the city for three hours."
+          }
+        ],
+        "explanation_en": "'By' is followed by a point in future time (by 5 p.m., by next year) and means 'not later than'. 'For' is followed by a length of time (for two hours, for five years)."
       }
     ],
     "expressions": [
-      {"phrase": "paint the town red", "meaning_ar": "يخرج ويحتفل ويسهر بصخب", "example": "We finished our exams, so tonight we're going to paint the town red."},
-      {"phrase": "go sightseeing", "meaning_ar": "يتجول لمشاهدة المعالم", "example": "We went sightseeing in the old town."},
-      {"phrase": "once home to", "meaning_ar": "كان ذات يوم موطناً لـ", "example": "This castle was once home to kings."},
-      {"phrase": "insist on every ride", "meaning_ar": "يُصرّ على ركوب كل الألعاب", "example": "My little brother insisted on every ride at the theme park."},
-      {"phrase": "an unforgettable excursion", "meaning_ar": "نزهة لا تُنسى", "example": "Our boat trip was an unforgettable excursion."},
-      {"phrase": "start with / start at", "meaning_ar": "يبدأ بـ / يبدأ عند", "example": "We started with the museum and finished at the park."}
+      {
+        "phrase": "paint the town red",
+        "meaning_ar": "يخرج ويحتفل ويسهر بصخب",
+        "example": "We finished our exams, so tonight we're going to paint the town red.",
+        "meaning_en": "to go out and celebrate loudly, often until late"
+      },
+      {
+        "phrase": "go sightseeing",
+        "meaning_ar": "يتجول لمشاهدة المعالم",
+        "example": "We went sightseeing in the old town.",
+        "meaning_en": "to go around looking at famous places"
+      },
+      {
+        "phrase": "once home to",
+        "meaning_ar": "كان ذات يوم موطناً لـ",
+        "example": "This castle was once home to kings.",
+        "meaning_en": "a place where someone lived in the past"
+      },
+      {
+        "phrase": "insist on every ride",
+        "meaning_ar": "يُصرّ على ركوب كل الألعاب",
+        "example": "My little brother insisted on every ride at the theme park.",
+        "meaning_en": "to want to go on every ride and not take no for an answer"
+      },
+      {
+        "phrase": "an unforgettable excursion",
+        "meaning_ar": "نزهة لا تُنسى",
+        "example": "Our boat trip was an unforgettable excursion.",
+        "meaning_en": "a trip you will always remember"
+      },
+      {
+        "phrase": "start with / start at",
+        "meaning_ar": "يبدأ بـ / يبدأ عند",
+        "example": "We started with the museum and finished at the park.",
+        "meaning_en": "to begin with something / to begin at a place"
+      }
     ],
     "grammar": [
       {
         "title": "Future perfect continuous: will have been + verb-ing",
         "explanation_ar": "تخيّل ساعة إيقاف (stopwatch) تعمل، ثم انتقلت إلى نقطة في المستقبل لتنظر كم مضى على حدث مستمر حتى تلك النقطة. نستخدم هذا الزمن لقياس مدة حدث مستمر حتى وقت في المستقبل. التركيب: الفاعل + will have been + الفعل مع ing.",
-        "examples": ["By next year, I will have been studying English for three years.", "By 5 p.m., Ali will have been waiting for two hours.", "By next month, Omar will have been living in London for five years."]
+        "examples": [
+          "By next year, I will have been studying English for three years.",
+          "By 5 p.m., Ali will have been waiting for two hours.",
+          "By next month, Omar will have been living in London for five years."
+        ],
+        "explanation_en": "Imagine a stopwatch running, then jump to a point in the future and see how long an ongoing action has lasted up to that point. We use this tense to measure how long something will have been happening by a future time. Form: subject + will have been + verb-ing."
       }
     ]
   },
   "questions": [
-    {"question": "A temporary show of art that runs for a few weeks is an:", "choices": ["exhibition", "museum", "aquarium", "monument"], "answer": 0, "explanation_ar": "exhibition معرض مؤقت لفترة محددة."},
-    {"question": "Where can you usually buy paintings?", "choices": ["at a museum", "at a zoo", "at an art gallery", "at a castle"], "answer": 2, "explanation_ar": "art gallery تعرض اللوحات وغالباً تبيعها، أما المتحف فلا يبيع."},
-    {"question": "By next year, I ___ English for three years.", "choices": ["will study", "will have been studying", "have studied", "am studying"], "answer": 1, "explanation_ar": "مدة حدث مستمر حتى نقطة في المستقبل = will have been + ing."},
-    {"question": "By 5 p.m., Ali will have been waiting ___ two hours.", "choices": ["by", "since", "at", "for"], "answer": 3, "explanation_ar": "for تأتي مع المدة، و by مع وقت محدد."},
-    {"question": "\"To paint the town red\" means to:", "choices": ["decorate your house", "go out and celebrate wildly", "work as a painter", "feel very angry"], "answer": 1, "explanation_ar": "paint the town red = يسهر ويحتفل بصخب."},
-    {"question": "Something you buy to remember your holiday is a:", "choices": ["label", "selfie", "ride", "souvenir"], "answer": 3, "explanation_ar": "souvenir = تذكار."},
-    {"question": "\"This castle was once home to kings.\" Here \"once\" means:", "choices": ["at some time in the past", "one time only", "immediately", "never"], "answer": 0, "explanation_ar": "once هنا بمعنى ذات يوم في الماضي."},
-    {"question": "The places were full of people. They were:", "choices": ["natural", "cultural", "crowded", "endless"], "answer": 2, "explanation_ar": "crowded = مزدحم."},
-    {"question": "Which word has a silent \"t\"?", "choices": ["palace", "castle", "ticket", "tour"], "answer": 1, "explanation_ar": "حرف t صامت في castle."},
-    {"question": "Ali ___ trying every ride.", "choices": ["insisted on", "insisted to", "insisted at", "insisted for"], "answer": 0, "explanation_ar": "نقول insist on + فعل ing."}
+    {
+      "question": "A temporary show of art that runs for a few weeks is an:",
+      "choices": [
+        "exhibition",
+        "museum",
+        "aquarium",
+        "monument"
+      ],
+      "answer": 0,
+      "explanation_ar": "exhibition معرض مؤقت لفترة محددة.",
+      "explanation_en": "An exhibition is a temporary show for a set period."
+    },
+    {
+      "question": "Where can you usually buy paintings?",
+      "choices": [
+        "at a museum",
+        "at a zoo",
+        "at an art gallery",
+        "at a castle"
+      ],
+      "answer": 2,
+      "explanation_ar": "art gallery تعرض اللوحات وغالباً تبيعها، أما المتحف فلا يبيع.",
+      "explanation_en": "An art gallery shows paintings and often sells them; a museum does not sell."
+    },
+    {
+      "question": "By next year, I ___ English for three years.",
+      "choices": [
+        "will study",
+        "will have been studying",
+        "have studied",
+        "am studying"
+      ],
+      "answer": 1,
+      "explanation_ar": "مدة حدث مستمر حتى نقطة في المستقبل = will have been + ing.",
+      "explanation_en": "How long an ongoing action lasts up to a future point = will have been + -ing."
+    },
+    {
+      "question": "By 5 p.m., Ali will have been waiting ___ two hours.",
+      "choices": [
+        "by",
+        "since",
+        "at",
+        "for"
+      ],
+      "answer": 3,
+      "explanation_ar": "for تأتي مع المدة، و by مع وقت محدد.",
+      "explanation_en": "'For' goes with a length of time; 'by' goes with a point in time."
+    },
+    {
+      "question": "\"To paint the town red\" means to:",
+      "choices": [
+        "decorate your house",
+        "go out and celebrate wildly",
+        "work as a painter",
+        "feel very angry"
+      ],
+      "answer": 1,
+      "explanation_ar": "paint the town red = يسهر ويحتفل بصخب.",
+      "explanation_en": "'Paint the town red' = go out and celebrate loudly."
+    },
+    {
+      "question": "Something you buy to remember your holiday is a:",
+      "choices": [
+        "label",
+        "selfie",
+        "ride",
+        "souvenir"
+      ],
+      "answer": 3,
+      "explanation_ar": "souvenir = تذكار.",
+      "explanation_en": "Souvenir = something you keep to remember a place."
+    },
+    {
+      "question": "\"This castle was once home to kings.\" Here \"once\" means:",
+      "choices": [
+        "at some time in the past",
+        "one time only",
+        "immediately",
+        "never"
+      ],
+      "answer": 0,
+      "explanation_ar": "once هنا بمعنى ذات يوم في الماضي.",
+      "explanation_en": "Here 'once' means 'at some time in the past'."
+    },
+    {
+      "question": "The places were full of people. They were:",
+      "choices": [
+        "natural",
+        "cultural",
+        "crowded",
+        "endless"
+      ],
+      "answer": 2,
+      "explanation_ar": "crowded = مزدحم.",
+      "explanation_en": "Crowded = full of people."
+    },
+    {
+      "question": "Which word has a silent \"t\"?",
+      "choices": [
+        "palace",
+        "castle",
+        "ticket",
+        "tour"
+      ],
+      "answer": 1,
+      "explanation_ar": "حرف t صامت في castle.",
+      "explanation_en": "The 't' in 'castle' is silent."
+    },
+    {
+      "question": "Ali ___ trying every ride.",
+      "choices": [
+        "insisted on",
+        "insisted to",
+        "insisted at",
+        "insisted for"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول insist on + فعل ing.",
+      "explanation_en": "We say 'insist on' + verb-ing."
+    }
   ]
 }

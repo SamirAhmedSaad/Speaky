@@ -2,121 +2,657 @@
   "title": "Daily Routines and Family Activities",
   "content": {
     "vocabulary": [
-      {"word": "morning routine", "pos": "noun", "meaning_en": "the things you usually do every morning", "meaning_ar": "الروتين الصباحي", "note_ar": "", "example": "My morning routine starts with a glass of water."},
-      {"word": "wake up", "pos": "phrasal verb", "meaning_en": "to stop sleeping", "meaning_ar": "يستيقظ", "note_ar": "الماضي: woke up", "example": "I wake up at six on weekdays."},
-      {"word": "brush your teeth", "pos": "verb phrase", "meaning_en": "to clean your teeth with a toothbrush", "meaning_ar": "يغسل / يفرّش أسنانه", "note_ar": "toothbrush = فرشاة الأسنان", "example": "Brush your teeth before you go to bed."},
-      {"word": "wash your face", "pos": "verb phrase", "meaning_en": "to clean your face with water", "meaning_ar": "يغسل وجهه", "note_ar": "", "example": "Cold water helps me wake up when I wash my face."},
-      {"word": "shower", "pos": "noun / verb", "meaning_en": "washing your body under falling water; to wash this way", "meaning_ar": "الاستحمام / يستحم", "note_ar": "الأمريكي: take a shower، البريطاني: have a shower", "example": "He takes a quick shower after the gym."},
-      {"word": "get dressed", "pos": "verb phrase", "meaning_en": "to put clothes on your body", "meaning_ar": "يرتدي ملابسه", "note_ar": "عكسها get undressed", "example": "She got dressed quickly and left."},
-      {"word": "eat breakfast", "pos": "verb phrase", "meaning_en": "to have the first meal of the day", "meaning_ar": "يتناول الإفطار", "note_ar": "يمكن أيضاً: have breakfast", "example": "We eat breakfast together on Fridays."},
-      {"word": "afternoon routine", "pos": "noun", "meaning_en": "the things you usually do in the afternoon", "meaning_ar": "روتين ما بعد الظهر", "note_ar": "", "example": "Her afternoon routine includes a short walk."},
-      {"word": "go to school", "pos": "verb phrase", "meaning_en": "to travel to school to study", "meaning_ar": "يذهب إلى المدرسة", "note_ar": "بدون the: go to school / go to work", "example": "My son goes to school by bus."},
-      {"word": "go to work", "pos": "verb phrase", "meaning_en": "to go to the place where you do your job", "meaning_ar": "يذهب إلى العمل", "note_ar": "", "example": "I go to work at eight o'clock."},
-      {"word": "lunch", "pos": "noun", "meaning_en": "the meal you eat in the middle of the day", "meaning_ar": "الغداء", "note_ar": "", "example": "Let's have lunch at one."},
-      {"word": "homework", "pos": "noun", "meaning_en": "school work that students do at home", "meaning_ar": "الواجب المنزلي", "note_ar": "اسم غير معدود: لا نقول homeworks", "example": "I finished my homework before dinner."},
-      {"word": "errands", "pos": "noun", "meaning_en": "short trips to do tasks outside the home", "meaning_ar": "مشاوير / مهام خارجية", "note_ar": "run errands = يقضي المشاوير", "example": "I need to run some errands this afternoon."},
-      {"word": "evening routine", "pos": "noun", "meaning_en": "the things you usually do in the evening", "meaning_ar": "الروتين المسائي", "note_ar": "", "example": "Reading is part of my evening routine."},
-      {"word": "dinner", "pos": "noun", "meaning_en": "the main meal of the evening", "meaning_ar": "العشاء", "note_ar": "", "example": "Dinner is ready!"},
-      {"word": "relax", "pos": "verb", "meaning_en": "to rest and become calm", "meaning_ar": "يسترخي / يرتاح", "note_ar": "الصفة: relaxed، relaxing", "example": "After a long day, I like to relax on the sofa."},
-      {"word": "watch TV", "pos": "verb phrase", "meaning_en": "to look at programmes on television", "meaning_ar": "يشاهد التلفاز", "note_ar": "", "example": "The kids watch TV for an hour after dinner."},
-      {"word": "night routine", "pos": "noun", "meaning_en": "the things you do before going to sleep", "meaning_ar": "الروتين الليلي", "note_ar": "", "example": "A good night routine helps you sleep better."},
-      {"word": "wash the dishes", "pos": "verb phrase", "meaning_en": "to clean plates, cups and pans", "meaning_ar": "يغسل الأطباق", "note_ar": "أمريكي: wash / do the dishes، بريطاني: do the washing-up", "example": "I'll wash the dishes if you cook."},
-      {"word": "prepare clothes", "pos": "verb phrase", "meaning_en": "to make your clothes ready for the next day", "meaning_ar": "يجهّز الملابس", "note_ar": "", "example": "I prepare my clothes the night before to save time."},
-      {"word": "family activities", "pos": "noun", "meaning_en": "things a family does together", "meaning_ar": "أنشطة عائلية", "note_ar": "", "example": "Board games are our favourite family activities."},
-      {"word": "cooking together", "pos": "noun phrase", "meaning_en": "making food with other people", "meaning_ar": "الطبخ معاً", "note_ar": "", "example": "Cooking together is fun on weekends."},
-      {"word": "cleaning together", "pos": "noun phrase", "meaning_en": "making a place clean with other people", "meaning_ar": "التنظيف معاً", "note_ar": "", "example": "Cleaning together makes the job faster."},
-      {"word": "family meeting", "pos": "noun", "meaning_en": "a time when family members gather and talk", "meaning_ar": "اجتماع عائلي", "note_ar": "", "example": "We had a family meeting about the summer holiday."},
-      {"word": "movie night", "pos": "noun", "meaning_en": "an evening when people watch a film together", "meaning_ar": "ليلة فيلم", "note_ar": "البريطانيون يقولون film night", "example": "Friday is movie night in our house."},
-      {"word": "visiting relatives", "pos": "noun phrase", "meaning_en": "going to see family members", "meaning_ar": "زيارة الأقارب", "note_ar": "relative = قريب (من العائلة)", "example": "We spend Eid visiting relatives."},
-      {"word": "dusty", "pos": "adjective", "meaning_en": "covered with dust", "meaning_ar": "مغبَّر / عليه تراب", "note_ar": "من dust = غبار", "example": "The old books were dusty."},
-      {"word": "diary", "pos": "noun", "meaning_en": "a book where you write about your days", "meaning_ar": "دفتر مذكرات / يوميات", "note_ar": "مرادف: journal", "example": "She writes in her diary every night."},
-      {"word": "read aloud", "pos": "verb phrase", "meaning_en": "to read so that others can hear", "meaning_ar": "يقرأ بصوت مسموع", "note_ar": "", "example": "The teacher read the story aloud."},
-      {"word": "frown", "pos": "verb", "meaning_en": "to make an unhappy or worried face", "meaning_ar": "يعبس / يقطّب جبينه", "note_ar": "", "example": "He frowned when he saw the bill."},
-      {"word": "whisper", "pos": "verb", "meaning_en": "to speak very quietly", "meaning_ar": "يهمس", "note_ar": "", "example": "She whispered the answer to her friend."},
-      {"word": "pretend", "pos": "verb", "meaning_en": "to act as if something is true when it is not", "meaning_ar": "يتظاهر", "note_ar": "pretend to + فعل", "example": "He pretended to be asleep."},
-      {"word": "feather", "pos": "noun", "meaning_en": "one of the soft light parts that cover a bird", "meaning_ar": "ريشة", "note_ar": "", "example": "A feather fell from the bird."},
-      {"word": "once", "pos": "adverb", "meaning_en": "at some time in the past", "meaning_ar": "ذات يوم / في وقت ما", "note_ar": "وتعني أيضاً: مرة واحدة", "example": "A famous writer once lived in this house."},
-      {"word": "footsteps", "pos": "noun", "meaning_en": "the sound of someone walking", "meaning_ar": "خطوات / وقع الأقدام", "note_ar": "", "example": "I heard footsteps in the hallway."},
-      {"word": "widen", "pos": "verb", "meaning_en": "to become wider", "meaning_ar": "يتّسع", "note_ar": "من wide = واسع", "example": "Her eyes widened in surprise."},
-      {"word": "occupied", "pos": "adjective", "meaning_en": "being used or lived in by someone", "meaning_ar": "مأهول / مشغول", "note_ar": "عكسها vacant = فارغ", "example": "Sorry, this seat is occupied."},
-      {"word": "everyday", "pos": "adjective", "meaning_en": "normal, used or happening every day", "meaning_ar": "يومي / عادي / معتاد", "note_ar": "كلمة واحدة، ويأتي بعدها اسم", "example": "These are my everyday shoes."},
-      {"word": "nap", "pos": "noun / verb", "meaning_en": "a short planned sleep during the day", "meaning_ar": "قيلولة", "note_ar": "take a nap = يأخذ قيلولة", "example": "Grandpa takes a nap after lunch."},
-      {"word": "doze off", "pos": "phrasal verb", "meaning_en": "to fall asleep without planning to", "meaning_ar": "يغفو دون قصد", "note_ar": "", "example": "I dozed off on the train."},
-      {"word": "snooze", "pos": "noun / verb", "meaning_en": "a very short extra sleep, often after an alarm", "meaning_ar": "غفوة قصيرة", "note_ar": "snooze button = زر الغفوة في المنبّه", "example": "I pressed snooze twice this morning."},
-      {"word": "procrastination", "pos": "noun", "meaning_en": "delaying things you should do", "meaning_ar": "المماطلة / التسويف", "note_ar": "الفعل: procrastinate", "example": "Procrastination is a student's biggest enemy."}
+      {
+        "word": "morning routine",
+        "pos": "noun",
+        "meaning_en": "the things you usually do every morning",
+        "meaning_ar": "الروتين الصباحي",
+        "note_ar": "",
+        "example": "My morning routine starts with a glass of water.",
+        "note_en": ""
+      },
+      {
+        "word": "wake up",
+        "pos": "phrasal verb",
+        "meaning_en": "to stop sleeping",
+        "meaning_ar": "يستيقظ",
+        "note_ar": "الماضي: woke up",
+        "example": "I wake up at six on weekdays.",
+        "note_en": "The past form is \"woke up\"."
+      },
+      {
+        "word": "brush your teeth",
+        "pos": "verb phrase",
+        "meaning_en": "to clean your teeth with a toothbrush",
+        "meaning_ar": "يغسل / يفرّش أسنانه",
+        "note_ar": "toothbrush = فرشاة الأسنان",
+        "example": "Brush your teeth before you go to bed.",
+        "note_en": "A \"toothbrush\" is the brush you use for your teeth."
+      },
+      {
+        "word": "wash your face",
+        "pos": "verb phrase",
+        "meaning_en": "to clean your face with water",
+        "meaning_ar": "يغسل وجهه",
+        "note_ar": "",
+        "example": "Cold water helps me wake up when I wash my face.",
+        "note_en": ""
+      },
+      {
+        "word": "shower",
+        "pos": "noun / verb",
+        "meaning_en": "washing your body under falling water; to wash this way",
+        "meaning_ar": "الاستحمام / يستحم",
+        "note_ar": "الأمريكي: take a shower، البريطاني: have a shower",
+        "example": "He takes a quick shower after the gym.",
+        "note_en": "American: \"take a shower\"; British: \"have a shower\"."
+      },
+      {
+        "word": "get dressed",
+        "pos": "verb phrase",
+        "meaning_en": "to put clothes on your body",
+        "meaning_ar": "يرتدي ملابسه",
+        "note_ar": "عكسها get undressed",
+        "example": "She got dressed quickly and left.",
+        "note_en": "The opposite is \"get undressed\"."
+      },
+      {
+        "word": "eat breakfast",
+        "pos": "verb phrase",
+        "meaning_en": "to have the first meal of the day",
+        "meaning_ar": "يتناول الإفطار",
+        "note_ar": "يمكن أيضاً: have breakfast",
+        "example": "We eat breakfast together on Fridays.",
+        "note_en": "You can also say \"have breakfast\"."
+      },
+      {
+        "word": "afternoon routine",
+        "pos": "noun",
+        "meaning_en": "the things you usually do in the afternoon",
+        "meaning_ar": "روتين ما بعد الظهر",
+        "note_ar": "",
+        "example": "Her afternoon routine includes a short walk.",
+        "note_en": ""
+      },
+      {
+        "word": "go to school",
+        "pos": "verb phrase",
+        "meaning_en": "to travel to school to study",
+        "meaning_ar": "يذهب إلى المدرسة",
+        "note_ar": "بدون the: go to school / go to work",
+        "example": "My son goes to school by bus.",
+        "note_en": "No \"the\": go to school / go to work."
+      },
+      {
+        "word": "go to work",
+        "pos": "verb phrase",
+        "meaning_en": "to go to the place where you do your job",
+        "meaning_ar": "يذهب إلى العمل",
+        "note_ar": "",
+        "example": "I go to work at eight o'clock.",
+        "note_en": ""
+      },
+      {
+        "word": "lunch",
+        "pos": "noun",
+        "meaning_en": "the meal you eat in the middle of the day",
+        "meaning_ar": "الغداء",
+        "note_ar": "",
+        "example": "Let's have lunch at one.",
+        "note_en": ""
+      },
+      {
+        "word": "homework",
+        "pos": "noun",
+        "meaning_en": "school work that students do at home",
+        "meaning_ar": "الواجب المنزلي",
+        "note_ar": "اسم غير معدود: لا نقول homeworks",
+        "example": "I finished my homework before dinner.",
+        "note_en": "An uncountable noun: we don't say \"homeworks\"."
+      },
+      {
+        "word": "errands",
+        "pos": "noun",
+        "meaning_en": "short trips to do tasks outside the home",
+        "meaning_ar": "مشاوير / مهام خارجية",
+        "note_ar": "run errands = يقضي المشاوير",
+        "example": "I need to run some errands this afternoon.",
+        "note_en": "\"Run errands\" means to go out and do small jobs."
+      },
+      {
+        "word": "evening routine",
+        "pos": "noun",
+        "meaning_en": "the things you usually do in the evening",
+        "meaning_ar": "الروتين المسائي",
+        "note_ar": "",
+        "example": "Reading is part of my evening routine.",
+        "note_en": ""
+      },
+      {
+        "word": "dinner",
+        "pos": "noun",
+        "meaning_en": "the main meal of the evening",
+        "meaning_ar": "العشاء",
+        "note_ar": "",
+        "example": "Dinner is ready!",
+        "note_en": ""
+      },
+      {
+        "word": "relax",
+        "pos": "verb",
+        "meaning_en": "to rest and become calm",
+        "meaning_ar": "يسترخي / يرتاح",
+        "note_ar": "الصفة: relaxed، relaxing",
+        "example": "After a long day, I like to relax on the sofa.",
+        "note_en": "The adjectives are \"relaxed\" and \"relaxing\"."
+      },
+      {
+        "word": "watch TV",
+        "pos": "verb phrase",
+        "meaning_en": "to look at programmes on television",
+        "meaning_ar": "يشاهد التلفاز",
+        "note_ar": "",
+        "example": "The kids watch TV for an hour after dinner.",
+        "note_en": ""
+      },
+      {
+        "word": "night routine",
+        "pos": "noun",
+        "meaning_en": "the things you do before going to sleep",
+        "meaning_ar": "الروتين الليلي",
+        "note_ar": "",
+        "example": "A good night routine helps you sleep better.",
+        "note_en": ""
+      },
+      {
+        "word": "wash the dishes",
+        "pos": "verb phrase",
+        "meaning_en": "to clean plates, cups and pans",
+        "meaning_ar": "يغسل الأطباق",
+        "note_ar": "أمريكي: wash / do the dishes، بريطاني: do the washing-up",
+        "example": "I'll wash the dishes if you cook.",
+        "note_en": "American: \"wash / do the dishes\"; British: \"do the washing-up\"."
+      },
+      {
+        "word": "prepare clothes",
+        "pos": "verb phrase",
+        "meaning_en": "to make your clothes ready for the next day",
+        "meaning_ar": "يجهّز الملابس",
+        "note_ar": "",
+        "example": "I prepare my clothes the night before to save time.",
+        "note_en": ""
+      },
+      {
+        "word": "family activities",
+        "pos": "noun",
+        "meaning_en": "things a family does together",
+        "meaning_ar": "أنشطة عائلية",
+        "note_ar": "",
+        "example": "Board games are our favourite family activities.",
+        "note_en": ""
+      },
+      {
+        "word": "cooking together",
+        "pos": "noun phrase",
+        "meaning_en": "making food with other people",
+        "meaning_ar": "الطبخ معاً",
+        "note_ar": "",
+        "example": "Cooking together is fun on weekends.",
+        "note_en": ""
+      },
+      {
+        "word": "cleaning together",
+        "pos": "noun phrase",
+        "meaning_en": "making a place clean with other people",
+        "meaning_ar": "التنظيف معاً",
+        "note_ar": "",
+        "example": "Cleaning together makes the job faster.",
+        "note_en": ""
+      },
+      {
+        "word": "family meeting",
+        "pos": "noun",
+        "meaning_en": "a time when family members gather and talk",
+        "meaning_ar": "اجتماع عائلي",
+        "note_ar": "",
+        "example": "We had a family meeting about the summer holiday.",
+        "note_en": ""
+      },
+      {
+        "word": "movie night",
+        "pos": "noun",
+        "meaning_en": "an evening when people watch a film together",
+        "meaning_ar": "ليلة فيلم",
+        "note_ar": "البريطانيون يقولون film night",
+        "example": "Friday is movie night in our house.",
+        "note_en": "British people say \"film night\"."
+      },
+      {
+        "word": "visiting relatives",
+        "pos": "noun phrase",
+        "meaning_en": "going to see family members",
+        "meaning_ar": "زيارة الأقارب",
+        "note_ar": "relative = قريب (من العائلة)",
+        "example": "We spend Eid visiting relatives.",
+        "note_en": "A \"relative\" is a member of your family."
+      },
+      {
+        "word": "dusty",
+        "pos": "adjective",
+        "meaning_en": "covered with dust",
+        "meaning_ar": "مغبَّر / عليه تراب",
+        "note_ar": "من dust = غبار",
+        "example": "The old books were dusty.",
+        "note_en": "From \"dust\", the fine dirt that collects on things."
+      },
+      {
+        "word": "diary",
+        "pos": "noun",
+        "meaning_en": "a book where you write about your days",
+        "meaning_ar": "دفتر مذكرات / يوميات",
+        "note_ar": "مرادف: journal",
+        "example": "She writes in her diary every night.",
+        "note_en": "A synonym is \"journal\"."
+      },
+      {
+        "word": "read aloud",
+        "pos": "verb phrase",
+        "meaning_en": "to read so that others can hear",
+        "meaning_ar": "يقرأ بصوت مسموع",
+        "note_ar": "",
+        "example": "The teacher read the story aloud.",
+        "note_en": ""
+      },
+      {
+        "word": "frown",
+        "pos": "verb",
+        "meaning_en": "to make an unhappy or worried face",
+        "meaning_ar": "يعبس / يقطّب جبينه",
+        "note_ar": "",
+        "example": "He frowned when he saw the bill.",
+        "note_en": ""
+      },
+      {
+        "word": "whisper",
+        "pos": "verb",
+        "meaning_en": "to speak very quietly",
+        "meaning_ar": "يهمس",
+        "note_ar": "",
+        "example": "She whispered the answer to her friend.",
+        "note_en": ""
+      },
+      {
+        "word": "pretend",
+        "pos": "verb",
+        "meaning_en": "to act as if something is true when it is not",
+        "meaning_ar": "يتظاهر",
+        "note_ar": "pretend to + فعل",
+        "example": "He pretended to be asleep.",
+        "note_en": "pretend to + verb"
+      },
+      {
+        "word": "feather",
+        "pos": "noun",
+        "meaning_en": "one of the soft light parts that cover a bird",
+        "meaning_ar": "ريشة",
+        "note_ar": "",
+        "example": "A feather fell from the bird.",
+        "note_en": ""
+      },
+      {
+        "word": "once",
+        "pos": "adverb",
+        "meaning_en": "at some time in the past",
+        "meaning_ar": "ذات يوم / في وقت ما",
+        "note_ar": "وتعني أيضاً: مرة واحدة",
+        "example": "A famous writer once lived in this house.",
+        "note_en": "It can also mean \"one time\"."
+      },
+      {
+        "word": "footsteps",
+        "pos": "noun",
+        "meaning_en": "the sound of someone walking",
+        "meaning_ar": "خطوات / وقع الأقدام",
+        "note_ar": "",
+        "example": "I heard footsteps in the hallway.",
+        "note_en": ""
+      },
+      {
+        "word": "widen",
+        "pos": "verb",
+        "meaning_en": "to become wider",
+        "meaning_ar": "يتّسع",
+        "note_ar": "من wide = واسع",
+        "example": "Her eyes widened in surprise.",
+        "note_en": "From \"wide\"."
+      },
+      {
+        "word": "occupied",
+        "pos": "adjective",
+        "meaning_en": "being used or lived in by someone",
+        "meaning_ar": "مأهول / مشغول",
+        "note_ar": "عكسها vacant = فارغ",
+        "example": "Sorry, this seat is occupied.",
+        "note_en": "The opposite is \"vacant\" (empty)."
+      },
+      {
+        "word": "everyday",
+        "pos": "adjective",
+        "meaning_en": "normal, used or happening every day",
+        "meaning_ar": "يومي / عادي / معتاد",
+        "note_ar": "كلمة واحدة، ويأتي بعدها اسم",
+        "example": "These are my everyday shoes.",
+        "note_en": "One word, and it comes before a noun."
+      },
+      {
+        "word": "nap",
+        "pos": "noun / verb",
+        "meaning_en": "a short planned sleep during the day",
+        "meaning_ar": "قيلولة",
+        "note_ar": "take a nap = يأخذ قيلولة",
+        "example": "Grandpa takes a nap after lunch.",
+        "note_en": "\"Take a nap\" means to sleep for a short time during the day."
+      },
+      {
+        "word": "doze off",
+        "pos": "phrasal verb",
+        "meaning_en": "to fall asleep without planning to",
+        "meaning_ar": "يغفو دون قصد",
+        "note_ar": "",
+        "example": "I dozed off on the train.",
+        "note_en": ""
+      },
+      {
+        "word": "snooze",
+        "pos": "noun / verb",
+        "meaning_en": "a very short extra sleep, often after an alarm",
+        "meaning_ar": "غفوة قصيرة",
+        "note_ar": "snooze button = زر الغفوة في المنبّه",
+        "example": "I pressed snooze twice this morning.",
+        "note_en": "The \"snooze button\" on an alarm clock lets you sleep a few more minutes."
+      },
+      {
+        "word": "procrastination",
+        "pos": "noun",
+        "meaning_en": "delaying things you should do",
+        "meaning_ar": "المماطلة / التسويف",
+        "note_ar": "الفعل: procrastinate",
+        "example": "Procrastination is a student's biggest enemy.",
+        "note_en": "The verb is \"procrastinate\"."
+      }
     ],
     "fine_lines": [
       {
         "title": "every day vs everyday",
-        "words": ["every day", "everyday"],
+        "words": [
+          "every day",
+          "everyday"
+        ],
         "explanation_ar": "تُنطقان بنفس الطريقة لكن تختلفان في الكتابة والوظيفة. every day (كلمتان) عبارة ظرفية معناها «كل يوم» وتجيب عن سؤال how often؟ أما everyday (كلمة واحدة) فهي صفة معناها «يومي / عادي / روتيني» ويجب أن يأتي بعدها اسم تصفه.",
         "examples": [
-          {"word": "every day", "sentence": "I wash my face every day."},
-          {"word": "every day", "sentence": "She goes to work every day."},
-          {"word": "everyday", "sentence": "These are my everyday shoes."},
-          {"word": "everyday", "sentence": "Cleaning together is an everyday activity for us."}
-        ]
+          {
+            "word": "every day",
+            "sentence": "I wash my face every day."
+          },
+          {
+            "word": "every day",
+            "sentence": "She goes to work every day."
+          },
+          {
+            "word": "everyday",
+            "sentence": "These are my everyday shoes."
+          },
+          {
+            "word": "everyday",
+            "sentence": "Cleaning together is an everyday activity for us."
+          }
+        ],
+        "explanation_en": "They sound the same but are written differently and do different jobs. \"Every day\" (two words) means \"each day\" and answers the question \"how often?\". \"Everyday\" (one word) is an adjective meaning \"normal, ordinary, routine\", and it must come before a noun."
       },
       {
         "title": "nap vs doze off vs snooze",
-        "words": ["nap", "doze off", "snooze"],
+        "words": [
+          "nap",
+          "doze off",
+          "snooze"
+        ],
         "explanation_ar": "الثلاثة لها علاقة بالنوم الخفيف أو القصير. nap قيلولة مقصودة ومخطط لها غالباً في النهار. doze off أن يغلبك النوم رغماً عنك دون تخطيط، مثلاً أمام التلفاز أو في المواصلات. snooze غفوة قصيرة جداً، وأشهر استخدام لها زر snooze في المنبّه لتسرق دقائق إضافية من النوم.",
         "examples": [
-          {"word": "nap", "sentence": "I usually take a short nap after lunch."},
-          {"word": "doze off", "sentence": "Omar dozed off during the movie."},
-          {"word": "snooze", "sentence": "I hit the snooze button three times this morning."}
-        ]
+          {
+            "word": "nap",
+            "sentence": "I usually take a short nap after lunch."
+          },
+          {
+            "word": "doze off",
+            "sentence": "Omar dozed off during the movie."
+          },
+          {
+            "word": "snooze",
+            "sentence": "I hit the snooze button three times this morning."
+          }
+        ],
+        "explanation_en": "All three are about light or short sleep. A \"nap\" is a planned short sleep, usually during the day. To \"doze off\" is to fall asleep without planning to, for example in front of the TV or on a bus. To \"snooze\" is to sleep for a very short time; it's best known from the snooze button on an alarm clock, which gives you a few extra minutes of sleep."
       },
       {
         "title": "take a shower vs have a shower",
-        "words": ["take a shower", "have a shower"],
+        "words": [
+          "take a shower",
+          "have a shower"
+        ],
         "explanation_ar": "المعنى واحد: يستحم. take a shower هي الأشيع في الإنجليزية الأمريكية، و have a shower أشيع في الإنجليزية البريطانية. ونادراً ما يقول الأمريكي shower وحدها كفعل في الكلام اليومي.",
         "examples": [
-          {"word": "take a shower", "sentence": "I take a shower every morning."},
-          {"word": "have a shower", "sentence": "He's having a shower right now."}
-        ]
+          {
+            "word": "take a shower",
+            "sentence": "I take a shower every morning."
+          },
+          {
+            "word": "have a shower",
+            "sentence": "He's having a shower right now."
+          }
+        ],
+        "explanation_en": "Both mean to wash your body under a shower. \"Take a shower\" is more common in American English, and \"have a shower\" is more common in British English. Americans rarely use \"shower\" alone as a verb in everyday speech."
       },
       {
         "title": "do the dishes vs do the washing-up",
-        "words": ["do the dishes", "do the washing-up"],
+        "words": [
+          "do the dishes",
+          "do the washing-up"
+        ],
         "explanation_ar": "كلاهما بمعنى غسل الأطباق. wash the dishes أو do the dishes أمريكية وهي الأشهر عالمياً، و do the washing-up تعبير بريطاني شائع.",
         "examples": [
-          {"word": "do the dishes", "sentence": "It's your turn to do the dishes."},
-          {"word": "do the washing-up", "sentence": "I'll do the washing-up after dinner."}
-        ]
+          {
+            "word": "do the dishes",
+            "sentence": "It's your turn to do the dishes."
+          },
+          {
+            "word": "do the washing-up",
+            "sentence": "I'll do the washing-up after dinner."
+          }
+        ],
+        "explanation_en": "Both mean washing the plates after a meal. \"Wash the dishes\" or \"do the dishes\" is American and the most common around the world; \"do the washing-up\" is a common British expression."
       }
     ],
     "expressions": [
-      {"phrase": "burn the midnight oil", "meaning_ar": "يسهر حتى وقت متأخر ليعمل أو يذاكر", "example": "She burned the midnight oil to finish her report."},
-      {"phrase": "you snooze, you lose", "meaning_ar": "إذا تأخرت أو تكاسلت فستخسر الفرصة", "example": "The tickets sold out in an hour. You snooze, you lose!"},
-      {"phrase": "run errands", "meaning_ar": "يقضي المشاوير والمهام خارج البيت", "example": "I spent the morning running errands."},
-      {"phrase": "take a nap", "meaning_ar": "يأخذ قيلولة", "example": "You look tired. Why don't you take a nap?"},
-      {"phrase": "read aloud", "meaning_ar": "يقرأ بصوت مسموع", "example": "Can you read the instructions aloud?"},
-      {"phrase": "never miss", "meaning_ar": "لا يفوّت أبداً", "example": "I never miss my morning walk."}
+      {
+        "phrase": "burn the midnight oil",
+        "meaning_ar": "يسهر حتى وقت متأخر ليعمل أو يذاكر",
+        "example": "She burned the midnight oil to finish her report.",
+        "meaning_en": "to stay up very late working or studying"
+      },
+      {
+        "phrase": "you snooze, you lose",
+        "meaning_ar": "إذا تأخرت أو تكاسلت فستخسر الفرصة",
+        "example": "The tickets sold out in an hour. You snooze, you lose!",
+        "meaning_en": "if you are slow or lazy, you will miss the chance"
+      },
+      {
+        "phrase": "run errands",
+        "meaning_ar": "يقضي المشاوير والمهام خارج البيت",
+        "example": "I spent the morning running errands.",
+        "meaning_en": "to go out and do small jobs, like shopping or going to the bank"
+      },
+      {
+        "phrase": "take a nap",
+        "meaning_ar": "يأخذ قيلولة",
+        "example": "You look tired. Why don't you take a nap?",
+        "meaning_en": "to sleep for a short time during the day"
+      },
+      {
+        "phrase": "read aloud",
+        "meaning_ar": "يقرأ بصوت مسموع",
+        "example": "Can you read the instructions aloud?",
+        "meaning_en": "to read so that other people can hear"
+      },
+      {
+        "phrase": "never miss",
+        "meaning_ar": "لا يفوّت أبداً",
+        "example": "I never miss my morning walk.",
+        "meaning_en": "to always do something; never fail to do it"
+      }
     ],
     "grammar": [
       {
         "title": "Future continuous: an action in progress at a future time",
         "explanation_ar": "التركيب: will be + الفعل مع ing. نستخدمه لحدث سيكون جارياً ومستمراً في لحظة محددة في المستقبل. إذا ذكرنا وقتاً دقيقاً وسنكون في منتصف الحدث وقتها، نستخدم will be doing وليس will do.",
-        "examples": ["At 8 p.m. tomorrow, I'll be watching the match.", "I can't meet you tomorrow morning. I'll be sitting in a lecture.", "At 9 p.m. tonight, I will be doing my homework."]
+        "examples": [
+          "At 8 p.m. tomorrow, I'll be watching the match.",
+          "I can't meet you tomorrow morning. I'll be sitting in a lecture.",
+          "At 9 p.m. tonight, I will be doing my homework."
+        ],
+        "explanation_en": "Form: will be + verb-ing. We use it for an action that will be in progress at a particular moment in the future. If we give an exact time and we will be in the middle of the action then, we use \"will be doing\", not \"will do\"."
       },
       {
         "title": "Future continuous for polite questions about plans",
         "explanation_ar": "سؤال Will you wash the dishes? بالمستقبل البسيط قد يبدو طلباً مباشراً أو أمراً. أما Will you be washing the dishes later? فهو سؤال لطيف عن خطط الشخص ونيّته دون ضغط عليه، لذلك يُعدّ أكثر تهذيباً.",
-        "examples": ["Will you be washing the dishes later?", "Will you be using the car tonight?", "Will you be going to the shop this afternoon?"]
+        "examples": [
+          "Will you be washing the dishes later?",
+          "Will you be using the car tonight?",
+          "Will you be going to the shop this afternoon?"
+        ],
+        "explanation_en": "\"Will you wash the dishes?\" (future simple) can sound like a direct request or an order. \"Will you be washing the dishes later?\" is a gentle question about the person's plans, with no pressure, so it sounds more polite."
       }
     ]
   },
   "questions": [
-    {"question": "\"These are my ___ shoes.\" (normal shoes I wear daily)", "choices": ["everyday", "every day", "every days", "everydays"], "answer": 0, "explanation_ar": "everyday كلمة واحدة صفة تصف الاسم shoes."},
-    {"question": "\"I go to the gym ___.\"", "choices": ["everyday", "everyday's", "every day", "daily day"], "answer": 2, "explanation_ar": "every day كلمتان بمعنى كل يوم وتدل على التكرار."},
-    {"question": "At 9 p.m. tonight, I ___ my homework.", "choices": ["will do", "do", "did", "will be doing"], "answer": 3, "explanation_ar": "وقت محدد في المستقبل والحدث مستمر فيه، إذن المستقبل المستمر will be doing."},
-    {"question": "Which question is the most polite way to ask about someone's plans?", "choices": ["Will you wash the dishes?", "Will you be washing the dishes later?", "Wash the dishes!", "You wash the dishes?"], "answer": 1, "explanation_ar": "المستقبل المستمر يسأل عن الخطة بلطف دون طلب مباشر."},
-    {"question": "He fell asleep in front of the TV without planning to. He ___.", "choices": ["took a nap", "pressed snooze", "dozed off", "woke up"], "answer": 2, "explanation_ar": "doze off = يغفو رغماً عنه دون تخطيط."},
-    {"question": "A short planned sleep during the day is a:", "choices": ["nap", "diary", "snooze", "routine"], "answer": 0, "explanation_ar": "nap قيلولة مقصودة في النهار."},
-    {"question": "\"To burn the midnight oil\" means to:", "choices": ["cook late at night", "waste money", "work or study late into the night", "go to bed early"], "answer": 2, "explanation_ar": "التعبير يعني السهر لوقت متأخر للعمل أو المذاكرة."},
-    {"question": "In British English, people usually say \"___ a shower\".", "choices": ["make", "have", "do", "get"], "answer": 1, "explanation_ar": "البريطانيون يقولون have a shower والأمريكيون take a shower."},
-    {"question": "\"Errands\" are:", "choices": ["short trips to do tasks outside", "family meetings", "evening meals", "school subjects"], "answer": 0, "explanation_ar": "errands = مشاوير ومهام خارج البيت."},
-    {"question": "The opposite of \"occupied\" (a room, a seat) is:", "choices": ["dusty", "busy", "full", "vacant"], "answer": 3, "explanation_ar": "occupied = مشغول أو مأهول، وعكسها vacant = فارغ."}
+    {
+      "question": "\"These are my ___ shoes.\" (normal shoes I wear daily)",
+      "choices": [
+        "everyday",
+        "every day",
+        "every days",
+        "everydays"
+      ],
+      "answer": 0,
+      "explanation_ar": "everyday كلمة واحدة صفة تصف الاسم shoes.",
+      "explanation_en": "\"Everyday\" (one word) is an adjective that describes the noun \"shoes\"."
+    },
+    {
+      "question": "\"I go to the gym ___.\"",
+      "choices": [
+        "everyday",
+        "everyday's",
+        "every day",
+        "daily day"
+      ],
+      "answer": 2,
+      "explanation_ar": "every day كلمتان بمعنى كل يوم وتدل على التكرار.",
+      "explanation_en": "\"Every day\" (two words) means each day and shows how often."
+    },
+    {
+      "question": "At 9 p.m. tonight, I ___ my homework.",
+      "choices": [
+        "will do",
+        "do",
+        "did",
+        "will be doing"
+      ],
+      "answer": 3,
+      "explanation_ar": "وقت محدد في المستقبل والحدث مستمر فيه، إذن المستقبل المستمر will be doing.",
+      "explanation_en": "A specific future time with an action in progress uses the future continuous: will be doing."
+    },
+    {
+      "question": "Which question is the most polite way to ask about someone's plans?",
+      "choices": [
+        "Will you wash the dishes?",
+        "Will you be washing the dishes later?",
+        "Wash the dishes!",
+        "You wash the dishes?"
+      ],
+      "answer": 1,
+      "explanation_ar": "المستقبل المستمر يسأل عن الخطة بلطف دون طلب مباشر.",
+      "explanation_en": "The future continuous asks about plans politely, without a direct request."
+    },
+    {
+      "question": "He fell asleep in front of the TV without planning to. He ___.",
+      "choices": [
+        "took a nap",
+        "pressed snooze",
+        "dozed off",
+        "woke up"
+      ],
+      "answer": 2,
+      "explanation_ar": "doze off = يغفو رغماً عنه دون تخطيط.",
+      "explanation_en": "\"Doze off\" means to fall asleep without planning to."
+    },
+    {
+      "question": "A short planned sleep during the day is a:",
+      "choices": [
+        "nap",
+        "diary",
+        "snooze",
+        "routine"
+      ],
+      "answer": 0,
+      "explanation_ar": "nap قيلولة مقصودة في النهار.",
+      "explanation_en": "A nap is a planned short sleep during the day."
+    },
+    {
+      "question": "\"To burn the midnight oil\" means to:",
+      "choices": [
+        "cook late at night",
+        "waste money",
+        "work or study late into the night",
+        "go to bed early"
+      ],
+      "answer": 2,
+      "explanation_ar": "التعبير يعني السهر لوقت متأخر للعمل أو المذاكرة.",
+      "explanation_en": "It means staying up late to work or study."
+    },
+    {
+      "question": "In British English, people usually say \"___ a shower\".",
+      "choices": [
+        "make",
+        "have",
+        "do",
+        "get"
+      ],
+      "answer": 1,
+      "explanation_ar": "البريطانيون يقولون have a shower والأمريكيون take a shower.",
+      "explanation_en": "British people say \"have a shower\"; Americans say \"take a shower\"."
+    },
+    {
+      "question": "\"Errands\" are:",
+      "choices": [
+        "short trips to do tasks outside",
+        "family meetings",
+        "evening meals",
+        "school subjects"
+      ],
+      "answer": 0,
+      "explanation_ar": "errands = مشاوير ومهام خارج البيت.",
+      "explanation_en": "Errands are small jobs and trips outside the home."
+    },
+    {
+      "question": "The opposite of \"occupied\" (a room, a seat) is:",
+      "choices": [
+        "dusty",
+        "busy",
+        "full",
+        "vacant"
+      ],
+      "answer": 3,
+      "explanation_ar": "occupied = مشغول أو مأهول، وعكسها vacant = فارغ.",
+      "explanation_en": "\"Occupied\" means in use; the opposite is \"vacant\" (empty)."
+    }
   ]
 }
