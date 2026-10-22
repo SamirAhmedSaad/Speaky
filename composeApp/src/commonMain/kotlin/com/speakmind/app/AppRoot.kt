@@ -9,6 +9,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import com.speakmind.app.ui.components.AppBannerHost
+import com.speakmind.app.premium.RemoveAdsHost
 import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.NavDestination.Companion.hasRoute
@@ -137,6 +138,8 @@ fun AppRoot(startDestination: Any) {
         }
         // One banner for the whole app, kept loaded; screens with a BannerAdView make it visible.
         AppBannerHost(Modifier.align(Alignment.BottomCenter).navigationBarsPadding())
+        // "Remove ads or watch the ad" before full-screen ads
+        RemoveAdsHost()
         }
     }
 }

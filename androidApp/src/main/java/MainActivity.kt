@@ -20,6 +20,7 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.lifecycleScope
 import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
+import com.speakmind.app.premium.BillingManager
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.ActiveRoomTracker
@@ -85,6 +86,7 @@ class MainActivity : ComponentActivity() {
         AdConfig.useTestAds = BuildConfig.DEBUG
         // Privacy signals are set inside AdManager (non-personalized ads where consent would be needed).
         AdManager.init(this)
+        BillingManager.init(this)
 
         setContent {
             val themeManager = getKoin().get<ThemeManager>()
@@ -125,6 +127,8 @@ class MainActivity : ComponentActivity() {
     /** Signed-in community members show as online while the app is open (not only on chat screens). */
     override fun onStart() {
         super.onStart()
+        // Purchase sheet needs the visible activity; also re-checks the subscription (cancelled/renewed).
+        BillingManager.instance?.attach(this)
         AdManager.instance?.onAppForeground()
         lifecycleScope.launch {
             val repo = getKoin().get<CommunityRepository>()

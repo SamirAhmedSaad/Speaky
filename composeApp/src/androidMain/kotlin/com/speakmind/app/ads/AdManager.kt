@@ -18,6 +18,8 @@ import com.unity3d.mediation.banner.LevelPlayBannerAdViewListener
 import com.unity3d.mediation.interstitial.LevelPlayInterstitialAd
 import com.unity3d.mediation.interstitial.LevelPlayInterstitialAdListener
 import io.github.aakira.napier.Napier
+import com.speakmind.app.premium.AdChoice
+import com.speakmind.app.premium.Premium
 
 /** Unity LevelPlay: initialization, the shared banner and the full-screen (interstitial) ad. */
 class AdManager(private val context: Context) {
@@ -95,7 +97,7 @@ class AdManager(private val context: Context) {
 
     /** The shared banner, created for [activity] (recreated if the activity was recreated). */
     private fun bannerFor(activity: Activity): LevelPlayBannerAdView? {
-        if (!AdConfig.adsReady || AdConfig.BANNER_AD_UNIT_ID.isBlank()) return null
+        if (!AdConfig.adsReady || AdConfig.BANNER_AD_UNIT_ID.isBlank() || Premium.active.value) return null
         banner?.let { existing ->
             if (existing.context === activity) return existing
             (existing.parent as? ViewGroup)?.removeView(existing)
@@ -197,8 +199,8 @@ class AdManager(private val context: Context) {
         usedMs + if (foregroundSince > 0) System.currentTimeMillis() - foregroundSince else 0L
 
     fun showInterstitial(activity: Activity, onDismissed: () -> Unit = {}) {
-        // Once per visit, after a minute of use.
-        if (shownThisVisit || usedThisVisitMs() < FIRST_AD_AFTER_MS) {
+        // Once per visit, after a minute of use. Never for Premium.
+        if (Premium.active.value || shownThisVisit || usedThisVisitMs() < FIRST_AD_AFTER_MS) {
             onDismissed()
             return
         }
@@ -210,10 +212,10 @@ class AdManager(private val context: Context) {
             loadInterstitial()
             return
         }
-        pendingDismiss = onDismissed
-        shownThisVisit = true
-        freeLesson = true
-        ad.showAd(activity)
+        offerPremiumThenShow(activity, onDismissed) {
+            shownThisVisit = true
+            freeLesson = true
+        }
     }
 
     /**
@@ -221,6 +223,10 @@ class AdManager(private val context: Context) {
      * visit ad. Also counts as this visit's ad. If none is ready the lesson simply opens.
      */
     fun showLessonInterstitial(activity: Activity, onDismissed: () -> Unit) {
+        if (Premium.active.value) {
+            onDismissed()
+            return
+        }
         if (freeLesson) {
             freeLesson = false
             onDismissed()
@@ -232,9 +238,25 @@ class AdManager(private val context: Context) {
             loadInterstitial()
             return
         }
-        pendingDismiss = onDismissed
-        shownThisVisit = true
-        ad.showAd(activity)
+        offerPremiumThenShow(activity, onDismissed) { shownThisVisit = true }
+    }
+
+    /**
+     * Before a full-screen ad: "Remove ads" (subscribe) or "Watch ad". Without prices from Play
+     * (billing unavailable) the ad shows directly.
+     */
+    private fun offerPremiumThenShow(activity: Activity, onDismissed: () -> Unit, onShown: () -> Unit) {
+        val watch = {
+            val ad = interstitial
+            if (ad != null && ad.isAdReady()) {
+                onShown()
+                pendingDismiss = onDismissed
+                ad.showAd(activity)
+            } else {
+                onDismissed()
+            }
+        }
+        if (Premium.canBuy) Premium.askBeforeAd(AdChoice(onWatchAd = watch, onContinue = onDismissed)) else watch()
     }
 
     private fun finishShow() {

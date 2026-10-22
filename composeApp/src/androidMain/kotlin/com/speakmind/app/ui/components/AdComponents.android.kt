@@ -18,11 +18,15 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
+import com.speakmind.app.premium.Premium
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import io.github.aakira.napier.Napier
 
 @Composable
 actual fun BannerAdView(modifier: Modifier) {
-    if (!AdConfig.adsEnabled || !AdConfig.showBannerAds) return
+    val premium by Premium.active.collectAsState()
+    if (!AdConfig.adsEnabled || !AdConfig.showBannerAds || premium) return
     DisposableEffect(Unit) {
         AdConfig.bannerRequests++
         onDispose { AdConfig.bannerRequests-- }
@@ -33,7 +37,8 @@ actual fun BannerAdView(modifier: Modifier) {
 
 @Composable
 actual fun AppBannerHost(modifier: Modifier) {
-    if (!AdConfig.adsEnabled || !AdConfig.showBannerAds || !AdConfig.adsReady) return
+    val premium by Premium.active.collectAsState()
+    if (!AdConfig.adsEnabled || !AdConfig.showBannerAds || !AdConfig.adsReady || premium) return
     val activity = LocalContext.current as? Activity ?: return
     val manager = AdManager.instance ?: return
     val visible = AdConfig.bannerRequests > 0 && AdConfig.bannerLoaded
