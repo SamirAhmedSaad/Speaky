@@ -60,6 +60,9 @@ kotlin {
             implementation(libs.billing)
             implementation(libs.levelplay.unityads.adapter)
             implementation(libs.unity.ads)
+            // Liftoff Monetize (Vungle) bidder
+            implementation(libs.levelplay.vungle.adapter)
+            implementation(libs.vungle.ads)
             implementation(libs.play.services.ads.identifier)
             implementation(libs.play.services.appset)
             implementation(libs.google.auth)

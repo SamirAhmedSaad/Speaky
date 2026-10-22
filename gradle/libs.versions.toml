@@ -30,6 +30,8 @@ levelplay = "9.6.0"
 billing = "8.3.0"
 levelplay-unityads-adapter = "5.13.0"
 unity-ads = "4.20.1"
+levelplay-vungle-adapter = "5.15.0"
+vungle-ads = "7.7.8"
 play-services-ads-identifier = "18.2.0"
 play-services-appset = "16.1.0"
 google-auth = "21.3.0"
@@ -93,6 +95,8 @@ levelplay = { module = "com.unity3d.ads-mediation:mediation-sdk", version.ref = 
 billing = { module = "com.android.billingclient:billing-ktx", version.ref = "billing" }
 levelplay-unityads-adapter = { module = "com.unity3d.ads-mediation:unityads-adapter", version.ref = "levelplay-unityads-adapter" }
 unity-ads = { module = "com.unity3d.ads:unity-ads", version.ref = "unity-ads" }
+levelplay-vungle-adapter = { module = "com.unity3d.ads-mediation:vungle-adapter", version.ref = "levelplay-vungle-adapter" }
+vungle-ads = { module = "com.vungle:vungle-ads", version.ref = "vungle-ads" }
 # Lets ad networks read the advertising ID (AdMob used to bring this in); without it fill drops sharply.
 play-services-ads-identifier = { module = "com.google.android.gms:play-services-ads-identifier", version.ref = "play-services-ads-identifier" }
 play-services-appset = { module = "com.google.android.gms:play-services-appset", version.ref = "play-services-appset" }
