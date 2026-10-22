@@ -25,5 +25,5 @@ actual class InterstitialAdState {
         onDismissed()
     }
 
-    actual fun showBeforeLesson(onDismissed: () -> Unit) = onDismissed()
+    actual fun unlockLesson(lessonId: String, onUnlocked: () -> Unit) = onUnlocked()
 }

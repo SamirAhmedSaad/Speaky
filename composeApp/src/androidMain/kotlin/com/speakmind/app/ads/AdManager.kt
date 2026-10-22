@@ -17,6 +17,9 @@ import com.unity3d.mediation.banner.LevelPlayBannerAdView
 import com.unity3d.mediation.banner.LevelPlayBannerAdViewListener
 import com.unity3d.mediation.interstitial.LevelPlayInterstitialAd
 import com.unity3d.mediation.interstitial.LevelPlayInterstitialAdListener
+import com.unity3d.mediation.rewarded.LevelPlayReward
+import com.unity3d.mediation.rewarded.LevelPlayRewardedAd
+import com.unity3d.mediation.rewarded.LevelPlayRewardedAdListener
 import io.github.aakira.napier.Napier
 import com.speakmind.app.premium.AdChoice
 import com.speakmind.app.premium.Premium
@@ -33,6 +36,15 @@ class AdManager(private val context: Context) {
     private var shownThisVisit = false
     /** After the visit ad, the next lesson opens without an ad (so the user isn't hit twice in a row). */
     private var freeLesson = false
+    /** Lessons unlocked with a rewarded video this visit. */
+    private val unlockedLessons = mutableSetOf<String>()
+
+    private var rewarded: LevelPlayRewardedAd? = null
+    private var rewardedLoading = false
+    private var rewardedRetryMs = INITIAL_RETRY_MS
+    private var rewardEarned = false
+    private var rewardedClosed = false
+    private var onRewardFinished: ((Boolean) -> Unit)? = null
     private var usedMs = 0L
     private var foregroundSince = 0L
     private var backgroundSince = 0L
@@ -86,6 +98,7 @@ class AdManager(private val context: Context) {
                 }
                 AdConfig.adsReady = true
                 createInterstitial()
+                createRewarded()
                 (launchContext as? Activity)?.let { bannerFor(it); placeBanner() } // preload so the first screen shows it at once
             }
 
@@ -182,6 +195,7 @@ class AdManager(private val context: Context) {
     fun onAppForeground() {
         val now = System.currentTimeMillis()
         if (backgroundSince > 0 && now - backgroundSince >= NEW_VISIT_AFTER_MS) {
+            unlockedLessons.clear()
             shownThisVisit = false
             usedMs = 0L
         }
@@ -222,23 +236,106 @@ class AdManager(private val context: Context) {
      * Full-screen ad before a course lesson opens, every lesson - except the first one after the
      * visit ad. Also counts as this visit's ad. If none is ready the lesson simply opens.
      */
-    fun showLessonInterstitial(activity: Activity, onDismissed: () -> Unit) {
-        if (Premium.active.value) {
-            onDismissed()
-            return
-        }
+    /**
+     * Before a course lesson opens: "Watch a short video to unlock" (rewarded), Premium, or Not now.
+     * Free for Premium, for lessons already unlocked this visit, and for the first lesson after the
+     * visit ad. With no rewarded ad available it falls back to the interstitial, or simply opens.
+     */
+    fun unlockLesson(activity: Activity, lessonId: String, onUnlocked: () -> Unit) {
+        if (Premium.active.value || lessonId in unlockedLessons) return onUnlocked()
         if (freeLesson) {
             freeLesson = false
-            onDismissed()
-            return
+            unlockedLessons += lessonId
+            return onUnlocked()
         }
-        val ad = interstitial
-        if (ad == null || !ad.isAdReady()) {
-            onDismissed()
-            loadInterstitial()
-            return
+        val unlock = {
+            unlockedLessons += lessonId
+            onUnlocked()
         }
-        offerPremiumThenShow(activity, onDismissed) { shownThisVisit = true }
+        val watch = {
+            val video = rewarded
+            val fallback = interstitial
+            when {
+                video != null && video.isAdReady() -> showRewarded(activity, video) { earned -> if (earned) unlock() }
+                fallback != null && fallback.isAdReady() -> {
+                    shownThisVisit = true
+                    pendingDismiss = unlock
+                    fallback.showAd(activity)
+                }
+                else -> {
+                    // No ad to show: never block learning.
+                    loadRewarded()
+                    loadInterstitial()
+                    unlock()
+                }
+            }
+        }
+        Premium.askBeforeAd(AdChoice(onWatchAd = watch, onContinue = unlock, unlockLesson = true))
+    }
+
+    private fun showRewarded(activity: Activity, ad: LevelPlayRewardedAd, onFinished: (earned: Boolean) -> Unit) {
+        shownThisVisit = true
+        rewardEarned = false
+        rewardedClosed = false
+        onRewardFinished = onFinished
+        ad.showAd(activity)
+    }
+
+    /** onAdRewarded and onAdClosed can come in either order; finish once both are known. */
+    private fun finishRewarded() {
+        val callback = onRewardFinished ?: return
+        onRewardFinished = null
+        callback(rewardEarned)
+        loadRewarded()
+    }
+
+    private fun createRewarded() {
+        if (AdConfig.REWARDED_AD_UNIT_ID.isBlank()) return
+        rewarded = LevelPlayRewardedAd(AdConfig.REWARDED_AD_UNIT_ID).apply {
+            setListener(object : LevelPlayRewardedAdListener {
+                override fun onAdLoaded(adInfo: LevelPlayAdInfo) {
+                    rewardedLoading = false
+                    rewardedRetryMs = INITIAL_RETRY_MS
+                }
+
+                override fun onAdLoadFailed(error: LevelPlayAdError) {
+                    rewardedLoading = false
+                    Napier.w { "Rewarded failed to load: ${error.errorMessage}" }
+                    handler.postDelayed({ loadRewarded() }, rewardedRetryMs)
+                    rewardedRetryMs = (rewardedRetryMs * 2).coerceAtMost(MAX_RETRY_MS)
+                }
+
+                override fun onAdDisplayed(adInfo: LevelPlayAdInfo) {}
+
+                override fun onAdRewarded(reward: LevelPlayReward, adInfo: LevelPlayAdInfo) {
+                    rewardEarned = true
+                    if (rewardedClosed) finishRewarded()
+                }
+
+                override fun onAdDisplayFailed(error: LevelPlayAdError, adInfo: LevelPlayAdInfo) {
+                    Napier.w { "Rewarded failed to show: ${error.errorMessage}" }
+                    // Our failure, not the user's: let them in.
+                    rewardEarned = true
+                    finishRewarded()
+                }
+
+                override fun onAdClosed(adInfo: LevelPlayAdInfo) {
+                    rewardedClosed = true
+                    // The reward callback may arrive just after closing.
+                    if (rewardEarned) finishRewarded() else handler.postDelayed({ finishRewarded() }, 1_000)
+                }
+            })
+        }
+        loadRewarded()
+    }
+
+    private fun loadRewarded() {
+        if (!AdConfig.adsEnabled || Premium.active.value) return
+        val ad = rewarded ?: return
+        if (!ad.isAdReady() && !rewardedLoading) {
+            rewardedLoading = true
+            ad.loadAd()
+        }
     }
 
     /**

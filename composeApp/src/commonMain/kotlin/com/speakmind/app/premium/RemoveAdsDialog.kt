@@ -41,17 +41,21 @@ fun RemoveAdsHost() {
     if (choice == null) return
     val prices by Premium.prices.collectAsState()
     RemoveAdsDialog(
-        prices = prices,
+        unlockLesson = choice?.unlockLesson == true,
+        prices = if (Premium.canBuy) prices else emptyMap(),
         onPlan = { plan -> Premium.purchase?.invoke(plan) },
         onWatchAd = Premium::watchAd,
+        onDismiss = Premium::dismissChoice,
     )
 }
 
 @Composable
 private fun RemoveAdsDialog(
+    unlockLesson: Boolean,
     prices: Map<PremiumPlan, PlanPrice>,
     onPlan: (PremiumPlan) -> Unit,
     onWatchAd: () -> Unit,
+    onDismiss: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
     val monthly = prices[PremiumPlan.MONTHLY]
@@ -60,8 +64,8 @@ private fun RemoveAdsDialog(
         (100 - yearly.micros * 100.0 / (monthly.micros * 12)).roundToInt().takeIf { it > 0 }
     } else null
 
-    // Back / tapping outside = "watch the ad", so the ad can't be skipped by dismissing.
-    Dialog(onDismissRequest = onWatchAd, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+    // Back / outside tap: a forced ad still plays; the lesson unlock offer is just declined.
+    Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
         Column(
             modifier = Modifier
                 .padding(horizontal = 24.sdp)
@@ -83,24 +87,35 @@ private fun RemoveAdsDialog(
                         Modifier.size(64.sdp).clip(CircleShape).background(Color.White.copy(alpha = 0.22f)),
                         contentAlignment = Alignment.Center,
                     ) {
-                        Text("✨", style = MaterialTheme.typography.headlineMedium)
+                        Text(if (unlockLesson) "🔓" else "✨", style = MaterialTheme.typography.headlineMedium)
                     }
                     Spacer(Modifier.height(10.sdp))
                     Text(
-                        "Learn without ads",
+                        if (unlockLesson) "Unlock this lesson" else "Learn without ads",
                         style = MaterialTheme.typography.titleLarge.copy(color = Color.White, fontWeight = FontWeight.Bold),
                     )
                     Text(
-                        "Speaky Premium",
+                        if (unlockLesson) "Watch a short video, or go Premium" else "Speaky Premium",
                         style = MaterialTheme.typography.labelLarge.copy(color = Color.White.copy(alpha = 0.85f)),
                     )
                 }
             }
 
             Column(Modifier.padding(20.sdp), verticalArrangement = Arrangement.spacedBy(8.sdp)) {
-                listOf("No full-screen ads", "No banners", "Lessons open instantly", "Support a small developer ❤️")
-                    .forEach { Benefit(it) }
-                Spacer(Modifier.height(6.sdp))
+                if (unlockLesson) {
+                    WatchButton(onWatchAd)
+                    if (prices.isNotEmpty()) {
+                        Spacer(Modifier.height(4.sdp))
+                        Text(
+                            "Or unlock every lesson, with no ads:",
+                            style = MaterialTheme.typography.labelLarge.copy(color = colors.textSecondary, fontWeight = FontWeight.Bold),
+                        )
+                    }
+                } else {
+                    listOf("No full-screen ads", "No banners", "Lessons open instantly", "Support a small developer ❤️")
+                        .forEach { Benefit(it) }
+                    Spacer(Modifier.height(6.sdp))
+                }
                 if (yearly != null) {
                     PlanButton(
                         title = "Yearly",
@@ -119,20 +134,44 @@ private fun RemoveAdsDialog(
                         onClick = { onPlan(PremiumPlan.MONTHLY) },
                     )
                 }
-                Text(
-                    "Cancel anytime in Google Play.",
-                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier.fillMaxWidth(),
-                )
-                TextButton(onClick = onWatchAd, modifier = Modifier.fillMaxWidth()) {
+                if (prices.isNotEmpty()) {
                     Text(
-                        "Watch ad and continue",
+                        "Cancel anytime in Google Play.",
+                        style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.fillMaxWidth(),
+                    )
+                }
+                TextButton(onClick = if (unlockLesson) onDismiss else onWatchAd, modifier = Modifier.fillMaxWidth()) {
+                    Text(
+                        if (unlockLesson) "Not now" else "Watch ad and continue",
                         style = MaterialTheme.typography.titleSmall.copy(color = colors.textSecondary, fontWeight = FontWeight.Bold),
                     )
                 }
             }
         }
+    }
+}
+
+@Composable
+private fun WatchButton(onClick: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(16.sdp))
+            .background(colors.neonCyan)
+            .clickable(onClick = onClick)
+            .padding(horizontal = 16.sdp, vertical = 16.sdp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.Center,
+    ) {
+        Text("▶", style = MaterialTheme.typography.titleMedium.copy(color = Color.White))
+        Spacer(Modifier.width(10.sdp))
+        Text(
+            "Watch a short video to unlock",
+            style = MaterialTheme.typography.titleMedium.copy(color = Color.White, fontWeight = FontWeight.Bold),
+        )
     }
 }
 

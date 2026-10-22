@@ -78,13 +78,13 @@ actual class InterstitialAdState(
         }
     }
 
-    actual fun showBeforeLesson(onDismissed: () -> Unit) {
+    actual fun unlockLesson(lessonId: String, onUnlocked: () -> Unit) {
         val activity = context as? Activity
         val adManager = AdManager.instance
-        if (AdConfig.adsEnabled && activity != null && adManager != null) {
-            adManager.showLessonInterstitial(activity, onDismissed)
+        if (AdConfig.adsEnabled && AdConfig.adsReady && activity != null && adManager != null) {
+            adManager.unlockLesson(activity, lessonId, onUnlocked)
         } else {
-            onDismissed()
+            onUnlocked()
         }
     }
 }

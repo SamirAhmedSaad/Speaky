@@ -9,8 +9,17 @@ enum class PremiumPlan(val basePlanId: String) { MONTHLY("monthly"), YEARLY("yea
 
 data class PlanPrice(val formatted: String, val micros: Long)
 
-/** A full-screen ad is about to show: the user picks "remove ads" or "watch the ad". */
-class AdChoice(val onWatchAd: () -> Unit, val onContinue: () -> Unit)
+/**
+ * A full-screen ad is about to show: the user picks "remove ads" or "watch the ad".
+ * [unlockLesson]: the opt-in "watch a video to unlock this lesson" variant, where closing the
+ * dialog just stays on the list ([onCancel]).
+ */
+class AdChoice(
+    val onWatchAd: () -> Unit,
+    val onContinue: () -> Unit,
+    val unlockLesson: Boolean = false,
+    val onCancel: () -> Unit = {},
+)
 
 /**
  * Speaky Premium (no ads). The platform billing code fills [active] and [prices] and sets [purchase];
@@ -49,10 +58,18 @@ object Premium {
         _adChoice.value = choice
     }
 
-    /** "Watch ad" (or the dialog was dismissed). */
+    /** "Watch ad". */
     fun watchAd() {
         val choice = _adChoice.value ?: return
         _adChoice.value = null
         choice.onWatchAd()
+    }
+
+    /** Back / outside tap: a forced ad still plays; an unlock offer is just declined. */
+    fun dismissChoice() {
+        val choice = _adChoice.value ?: return
+        if (!choice.unlockLesson) return watchAd()
+        _adChoice.value = null
+        choice.onCancel()
     }
 }

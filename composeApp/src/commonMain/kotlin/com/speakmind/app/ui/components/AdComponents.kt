@@ -18,6 +18,6 @@ expect fun rememberInterstitialAdState(): InterstitialAdState
 expect class InterstitialAdState {
     fun show(onDismissed: () -> Unit = {})
 
-    /** Before opening a course lesson (see AdManager.showLessonInterstitial). */
-    fun showBeforeLesson(onDismissed: () -> Unit)
+    /** Before opening a course lesson: "watch a video to unlock" (see AdManager.unlockLesson). */
+    fun unlockLesson(lessonId: String, onUnlocked: () -> Unit)
 }
