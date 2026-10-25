@@ -104,6 +104,8 @@ interface CommunityRepository {
 
     // Admin moderation (only works for accounts in private.community_admins)
     suspend fun isAdmin(): Boolean
+    /** Ad-free granted on the server (admins, or listed in ad_free_users). Null when it couldn't be checked. */
+    suspend fun isAdFree(): Boolean?
     suspend fun adminReports(status: String, pageSize: Int, after: AdminReport?): List<AdminReport>
     suspend fun adminSetReportStatus(reportId: String, status: String)
     suspend fun adminBan(userId: String, reason: String, removeMessages: Boolean)

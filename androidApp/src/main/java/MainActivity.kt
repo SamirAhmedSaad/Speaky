@@ -21,6 +21,7 @@ import androidx.lifecycle.lifecycleScope
 import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
 import com.speakmind.app.premium.BillingManager
+import com.speakmind.app.premium.Premium
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.ActiveRoomTracker
@@ -87,6 +88,8 @@ class MainActivity : ComponentActivity() {
         // Privacy signals are set inside AdManager (non-personalized ads where consent would be needed).
         AdManager.init(this)
         BillingManager.init(this)
+        // Server-granted ad-free (admins): last known answer first, refreshed in onStart.
+        Premium.setServerAdFree(getSharedPreferences("premium", MODE_PRIVATE).getBoolean("server_ad_free", false))
 
         setContent {
             val themeManager = getKoin().get<ThemeManager>()
@@ -135,6 +138,11 @@ class MainActivity : ComponentActivity() {
             if (repo.hasSession() && !repo.isGuest() && !countedOnline) {
                 countedOnline = true
                 repo.setActive(true)
+            }
+            // Ad-free is decided on the server only; keep the last answer when offline.
+            repo.isAdFree()?.let { adFree ->
+                getSharedPreferences("premium", MODE_PRIVATE).edit().putBoolean("server_ad_free", adFree).apply()
+                Premium.setServerAdFree(adFree)
             }
         }
     }

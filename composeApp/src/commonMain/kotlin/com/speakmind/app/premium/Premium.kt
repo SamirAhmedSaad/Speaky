@@ -51,9 +51,25 @@ object Premium {
 
     val canBuy: Boolean get() = purchase != null && _prices.value.isNotEmpty()
 
+    private var paid = false
+    private var serverAdFree = false
+
+    /** Google Play subscription state (from billing). */
     fun setActive(value: Boolean) {
+        paid = value
+        publish()
+    }
+
+    /** Ad-free granted on the server (admins / ad_free_users), independent of Google Play. */
+    fun setServerAdFree(value: Boolean) {
+        serverAdFree = value
+        publish()
+    }
+
+    private fun publish() {
+        val value = paid || serverAdFree
         _active.value = value
-        // Bought while the "remove ads" dialog was open: skip that ad.
+        // Became ad-free while the "remove ads" dialog was open: skip that ad.
         if (value) _adChoice.value?.let { choice ->
             _adChoice.value = null
             choice.onContinue()

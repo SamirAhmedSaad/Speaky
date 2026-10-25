@@ -23,6 +23,7 @@ import com.speakmind.app.feature.community.data.repository.ReportReason
 import com.speakmind.app.feature.community.data.repository.RoomConnection
 import io.github.aakira.napier.Napier
 import io.github.jan.supabase.SupabaseClient
+import com.speakmind.app.premium.Premium
 import io.github.jan.supabase.auth.auth
 import io.github.jan.supabase.auth.providers.Google
 import io.github.jan.supabase.auth.providers.builtin.IDToken
@@ -143,6 +144,7 @@ class SupabaseCommunityRepository(
 
     override suspend fun signOut() {
         setActiveCountToZero()
+        Premium.setServerAdFree(false)
         try {
             lastPushToken?.let { token ->
                 client.from(DEVICE_TOKENS).delete { filter { eq("token", token) } }
@@ -750,6 +752,15 @@ class SupabaseCommunityRepository(
             client.postgrest.rpc("is_community_admin").decodeAs<Boolean>()
         } catch (_: Exception) {
             false
+        }
+    }
+
+    override suspend fun isAdFree(): Boolean? {
+        if (!hasSession() || isGuest()) return false
+        return try {
+            client.postgrest.rpc("my_ad_free").decodeAs<Boolean>()
+        } catch (_: Exception) {
+            null
         }
     }
 
