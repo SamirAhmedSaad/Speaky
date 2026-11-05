@@ -1,0 +1,48 @@
+{
+  "title": "Contractions: 'd, 's, 've, 're, 'm, 'll",
+  "content": {
+    "vocabulary": [
+      {"word": "contraction", "pos": "noun", "meaning_en": "a short form of two words, with an apostrophe", "meaning_ar": "صيغة مختصرة", "note_ar": "", "note_en": "", "example": "\"He's\" is a contraction."},
+      {"word": "auxiliary verb", "pos": "noun", "meaning_en": "a helping verb: be, have, do, will, would...", "meaning_ar": "فعل مساعد", "note_ar": "", "note_en": "", "example": "\"Have\" is an auxiliary verb in \"I have seen\"."},
+      {"word": "modal verb", "pos": "noun", "meaning_en": "a helping verb like will, would, can, could; followed by the base verb", "meaning_ar": "فعل ناقص (شكلي)", "note_ar": "", "note_en": "", "example": "\"Would\" is a modal verb."},
+      {"word": "past participle", "pos": "noun", "meaning_en": "the third form of a verb: seen, gone, been, loved", "meaning_ar": "التصريف الثالث للفعل (اسم المفعول)", "note_ar": "", "note_en": "", "example": "\"Seen\" is the past participle of \"see\"."},
+      {"word": "base form", "pos": "noun", "meaning_en": "the simple form of a verb: see, go, love", "meaning_ar": "المصدر / الصيغة الأساسية للفعل", "note_ar": "", "note_en": "", "example": "After \"will\", use the base form: will go."},
+      {"word": "'d", "pos": "contraction", "meaning_en": "had (before a past participle) or would (before a base verb)", "meaning_ar": "اختصار had أو would", "note_ar": "", "note_en": "", "example": "I'd seen it. (had) / I'd see it. (would)"},
+      {"word": "'s", "pos": "contraction", "meaning_en": "has (before a past participle) or is (before -ing or an adjective)", "meaning_ar": "اختصار has أو is", "note_ar": "", "note_en": "", "example": "He's gone. (has) / He's going. (is)"},
+      {"word": "'ve", "pos": "contraction", "meaning_en": "have", "meaning_ar": "اختصار have", "note_ar": "", "note_en": "", "example": "I've always loved these flowers."},
+      {"word": "'re", "pos": "contraction", "meaning_en": "are", "meaning_ar": "اختصار are", "note_ar": "", "note_en": "", "example": "They're beautiful."},
+      {"word": "'m", "pos": "contraction", "meaning_en": "am", "meaning_ar": "اختصار am", "note_ar": "", "note_en": "", "example": "I'm happy."},
+      {"word": "'ll", "pos": "contraction", "meaning_en": "will", "meaning_ar": "اختصار will", "note_ar": "", "note_en": "", "example": "He'll go home in five minutes."},
+      {"word": "conditional", "pos": "noun", "meaning_en": "a sentence about an imaginary situation, often with \"if\"", "meaning_ar": "الجملة الشرطية", "note_ar": "", "note_en": "", "example": "\"I'd see that movie if it were free\" is a conditional."},
+      {"word": "stressed", "pos": "adjective", "meaning_en": "said strongly", "meaning_ar": "منبور (يُنطق بقوة)", "note_ar": "", "note_en": "", "example": "In \"Yes, I am\", the verb is stressed."}
+    ],
+    "fine_lines": [
+      {"title": "'d = had or would?", "words": ["'d + past participle", "'d + base verb"], "explanation_ar": "انظر إلى الفعل بعده: إذا جاء بعده التصريف الثالث فهو had (I'd seen). إذا جاء بعده المصدر فهو would (I'd see). وجود if قد يساعد: I'd ... if.", "explanation_en": "Look at the next verb: past participle → had (I'd seen). Base form → would (I'd see). \"If\" in the sentence can be a clue for \"would\".", "examples": [{"word": "'d + past participle", "sentence": "I'd seen the movie before. (had)"}, {"word": "'d + base verb", "sentence": "I'd see that movie if it were free. (would)"}]},
+      {"title": "'s = has or is?", "words": ["'s + past participle", "'s + -ing / adjective"], "explanation_ar": "إذا جاء بعده التصريف الثالث فهو has (He's gone). إذا جاء بعده فعل بـ ing أو صفة فهو is (He's going / He's happy).", "explanation_en": "Past participle after it → has (He's gone). -ing verb or adjective after it → is (He's going / He's happy).", "examples": [{"word": "'s + past participle", "sentence": "He's gone home. (has)"}, {"word": "'s + -ing / adjective", "sentence": "He's going home. (is)"}]}
+    ],
+    "expressions": [
+      {"phrase": "I'd call him again if I were you.", "meaning_ar": "لو كنت مكانك لاتصلت به مرة أخرى.", "meaning_en": "My advice: call him again.", "example": "He didn't answer? I'd call him again if I were you."},
+      {"phrase": "Yes, I am.", "meaning_ar": "نعم، أنا كذلك.", "meaning_en": "A short answer; no contraction at the end.", "example": "\"Are you coming to the meeting?\" \"Yes, I am.\""},
+      {"phrase": "Do you know where it is?", "meaning_ar": "هل تعرف أين هو؟", "meaning_en": "A question ending with \"is\" (not \"it's\").", "example": "The new library? Do you know where it is?"}
+    ],
+    "grammar": [
+      {"title": "The contractions", "explanation_ar": "have: had → 'd، has → 's، have → 've. be: are → 're، is → 's، am → 'm. الأفعال الناقصة: would → 'd، will → 'll. الفاصلة العليا تعني أن أول الفعل محذوف.", "explanation_en": "have: had → 'd, has → 's, have → 've. be: are → 're, is → 's, am → 'm. Modals: would → 'd, will → 'll. The apostrophe means the first part of the verb is missing.", "examples": ["I've, you've, she's, they'd", "I'm, you're, he's", "I'll, she'd"]},
+      {"title": "have + past participle", "explanation_ar": "إذا جاء بعد الاختصار تصريف ثالث (seen, gone, been, loved) فالاختصار من have.", "explanation_en": "If a past participle (seen, gone, been, loved) follows the contraction, it is \"have\".", "examples": ["I'd seen the movie before. = I had seen", "She's been gone for an hour. = She has been", "I've always loved these flowers."]},
+      {"title": "be + -ing or adjective", "explanation_ar": "إذا جاء بعد الاختصار فعل بـ ing أو صفة فالاختصار من be.", "explanation_en": "If an -ing verb or an adjective follows, it is \"be\".", "examples": ["I'm seeing that movie later.", "He's going home.", "They're beautiful.", "I'm happy."]},
+      {"title": "will / would + base form", "explanation_ar": "الفعل الناقص يتبعه المصدر دائمًا، فإذا جاء بعد 'll أو 'd مصدر فهو will أو would.", "explanation_en": "A modal is always followed by the base form, so 'll / 'd + base verb = will / would.", "examples": ["He'll go home. = He will go", "I'd see that movie if it were free. = I would see", "They'd have been late. = They would have"]},
+      {"title": "Don't contract was/past forms or the end of a sentence", "explanation_ar": "'s تعني is أو has فقط، ولا تعني was: نقول He was buying ولا نختصرها. ولا نستعمل الاختصار في آخر الجملة لأن الفعل يكون منبورًا: Yes, I am (وليس Yes, I'm). Do you know where it is? (وليس where it's).", "explanation_en": "'s means only is or has, never was: \"He was buying\" can't be contracted. Don't use a contraction at the end of a sentence, because the verb is stressed: \"Yes, I am\" (not \"Yes, I'm\"); \"Do you know where it is?\" (not \"where it's\").", "examples": ["\"Are you going?\" \"Yes, I am.\"", "Do you know where it is?", "He was buying chocolate. (no contraction)"]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I'd seen the movie before.\" Here 'd = ___.", "choices": ["would", "had", "did", "could"], "answer": 1, "explanation_ar": "بعدها تصريف ثالث seen، إذن had.", "explanation_en": "A past participle (seen) follows, so 'd = had."},
+    {"question": "\"I'd see that movie if it were free.\" Here 'd = ___.", "choices": ["had", "did", "would", "should"], "answer": 2, "explanation_ar": "بعدها مصدر see ومعها if، إذن would.", "explanation_en": "A base verb (see) and \"if\" follow, so 'd = would."},
+    {"question": "\"He's gone home.\" Here 's = ___.", "choices": ["has", "is", "was", "does"], "answer": 0, "explanation_ar": "gone تصريف ثالث، إذن has.", "explanation_en": "\"Gone\" is a past participle, so 's = has."},
+    {"question": "\"He's going home.\" Here 's = ___.", "choices": ["has", "was", "does", "is"], "answer": 3, "explanation_ar": "بعدها فعل بـ ing، إذن is.", "explanation_en": "An -ing verb follows, so 's = is."},
+    {"question": "\"I ___ happy.\" Choose the contraction.", "choices": ["'ve", "'m", "'d", "'ll"], "answer": 1, "explanation_ar": "صفة بعد فعل be: I'm.", "explanation_en": "An adjective after \"be\": I'm."},
+    {"question": "\"She___ been gone for an hour.\"", "choices": ["'s", "'m", "'re", "'ll"], "answer": 0, "explanation_ar": "been تصريف ثالث: she has = she's.", "explanation_en": "\"Been\" is a past participle: she has = she's."},
+    {"question": "\"Are you going to the party?\" Best short answer:", "choices": ["Yes, I'm.", "Yes, I'm am.", "Yes, I am.", "Yes, I'll."], "answer": 2, "explanation_ar": "لا نختصر في آخر الجملة: Yes, I am.", "explanation_en": "No contraction at the end of a sentence: Yes, I am."},
+    {"question": "Which sentence is wrong?", "choices": ["Do you know where it's?", "Do you know where it is?", "He's happy.", "They'll come later."], "answer": 0, "explanation_ar": "لا نستعمل it's في آخر الجملة.", "explanation_en": "Don't use \"it's\" at the end of a sentence."},
+    {"question": "\"He'll go home in five minutes.\" 'll = ___.", "choices": ["would", "will", "shall have", "had"], "answer": 1, "explanation_ar": "'ll اختصار will.", "explanation_en": "'ll is short for \"will\"."},
+    {"question": "\"He was buying chocolate.\" Can we write \"He's buying\" with the same meaning?", "choices": ["Yes, 's = was", "Yes, always", "Only in writing", "No, 's never means was"], "answer": 3, "explanation_ar": "'s تعني is أو has فقط، وتغيّر الزمن إلى الحاضر.", "explanation_en": "'s means only is or has; it would change the tense to the present."}
+  ]
+}

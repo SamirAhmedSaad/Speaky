@@ -1,0 +1,44 @@
+{
+  "title": "First, Second and Third Person",
+  "content": {
+    "vocabulary": [
+      {"word": "subject pronoun", "pos": "noun", "meaning_en": "a pronoun that does the action: I, you, he, she, it, we, they", "meaning_ar": "ضمير الفاعل", "note_ar": "", "note_en": "", "example": "\"They\" is a subject pronoun."},
+      {"word": "first person", "pos": "noun", "meaning_en": "the speaker: I (singular), we (plural)", "meaning_ar": "المتكلم", "note_ar": "", "note_en": "", "example": "\"I\" and \"we\" are first person."},
+      {"word": "second person", "pos": "noun", "meaning_en": "the person you speak to: you (singular and plural)", "meaning_ar": "المخاطَب", "note_ar": "", "note_en": "", "example": "\"You\" is second person."},
+      {"word": "third person", "pos": "noun", "meaning_en": "the person or thing you speak about: he, she, it, they", "meaning_ar": "الغائب", "note_ar": "", "note_en": "", "example": "\"He\", \"she\", \"it\" and \"they\" are third person."},
+      {"word": "speaker", "pos": "noun", "meaning_en": "the person who is talking", "meaning_ar": "المتكلم", "note_ar": "", "note_en": "", "example": "The speaker uses \"I\" for himself."},
+      {"word": "podium", "pos": "noun", "meaning_en": "a raised box you stand on to speak or to get a medal", "meaning_ar": "منصة", "note_ar": "", "note_en": "", "example": "The three winners stood on the podium."},
+      {"word": "medal", "pos": "noun", "meaning_en": "a round metal prize for winning", "meaning_ar": "ميدالية", "note_ar": "", "note_en": "", "example": "She won a gold medal."},
+      {"word": "audience", "pos": "noun", "meaning_en": "the people who watch or listen", "meaning_ar": "الجمهور", "note_ar": "", "note_en": "", "example": "You are my audience."},
+      {"word": "direct", "pos": "verb", "meaning_en": "send your words to a particular person", "meaning_ar": "يوجّه", "note_ar": "", "note_en": "", "example": "I direct my speech to you."},
+      {"word": "make friends easily", "pos": "phrase", "meaning_en": "find new friends without difficulty", "meaning_ar": "يكوّن صداقات بسهولة", "note_ar": "", "note_en": "", "example": "You are the type of person who makes friends easily."},
+      {"word": "straightforward", "pos": "adjective", "meaning_en": "simple and easy to understand", "meaning_ar": "بسيط وواضح", "note_ar": "", "note_en": "", "example": "This is a straightforward lesson."}
+    ],
+    "fine_lines": [
+      {"title": "you (singular) vs you (plural)", "words": ["you", "you"], "explanation_ar": "you في الإنجليزية للمفرد والجمع معًا، سواء كلّمت شخصًا واحدًا أو جماعة.", "explanation_en": "English uses \"you\" for one person and for many people.", "examples": [{"word": "you", "sentence": "Ali, you are a good student."}, {"word": "you", "sentence": "Class, you are all good students."}]},
+      {"title": "he / she vs it", "words": ["he / she", "it"], "explanation_ar": "he للذكر و she للأنثى، و it للأشياء والحيوانات غير المعروفة والطقس. كلها ضمائر غائب مفردة.", "explanation_en": "\"He\" is for a male, \"she\" for a female, \"it\" for things, unknown animals and the weather. All are third person singular.", "examples": [{"word": "he / she", "sentence": "She is my teacher."}, {"word": "it", "sentence": "It is a sunny day."}]}
+    ],
+    "expressions": [
+      {"phrase": "It is a very nice sunny day today.", "meaning_ar": "إنه يوم مشمس جميل جدًا اليوم.", "meaning_en": "The weather is lovely today.", "example": "It is a very nice sunny day today. Let's go to the park."},
+      {"phrase": "You're first in my books.", "meaning_ar": "أنت الأول في نظري.", "meaning_en": "You are the best, in my opinion (a joke in the video).", "example": "Great job! You're first in my books."}
+    ],
+    "grammar": [
+      {"title": "First person: the speaker", "explanation_ar": "عندما أتكلم عن نفسي أستعمل I (مفرد)، وعندما أتكلم عن نفسي مع جماعتي أستعمل we (جمع).", "explanation_en": "When I speak about myself, I use \"I\" (singular). When I speak about my group and me, I use \"we\" (plural).", "examples": ["I am talking to them later.", "We are going home."]},
+      {"title": "Second person: the listener", "explanation_ar": "عندما أوجّه كلامي مباشرة لشخص أو لجماعة أستعمل you للمفرد والجمع.", "explanation_en": "When I speak directly to a person or a group, I use \"you\" for both singular and plural.", "examples": ["You are the type of person who makes friends easily.", "You are all welcome."]},
+      {"title": "Third person: who or what we talk about", "explanation_ar": "عندما أتكلم عن شخص أو شيء غير مشارك في الحديث أستعمل he / she / it للمفرد، و they للجمع.", "explanation_en": "When I speak about a person or thing not in the conversation, I use he / she / it (singular) and they (plural).", "examples": ["I saw them yesterday and they said they were going home.", "It is a sunny day.", "He lives in Toronto."]},
+      {"title": "Clues for choosing the pronoun", "explanation_ar": "انظر إلى الفعل والكلمات حولك: am يأتي مع I فقط. them و their تدل على they. the type of person تدل على مفرد. sunny day شيء فنستعمل it.", "explanation_en": "Look at the verb and nearby words: \"am\" goes only with I. \"Them\" and \"their\" point to \"they\". \"The type of person\" is singular. A sunny day is a thing, so use \"it\".", "examples": ["___ am late. → I", "___ said they were tired. → They"]}
+    ]
+  },
+  "questions": [
+    {"question": "\"___ am talking to them later.\"", "choices": ["He", "I", "You", "They"], "answer": 1, "explanation_ar": "am تأتي مع I فقط.", "explanation_en": "\"Am\" goes only with I."},
+    {"question": "\"I\" is ___ person.", "choices": ["first", "second", "third", "fourth"], "answer": 0, "explanation_ar": "I هو المتكلم: الشخص الأول.", "explanation_en": "\"I\" is the speaker: first person."},
+    {"question": "\"I saw them yesterday and ___ said they were going home.\"", "choices": ["we", "it", "you", "they"], "answer": 3, "explanation_ar": "نتكلم عن جماعة: they.", "explanation_en": "We are talking about a group: they."},
+    {"question": "\"They\" is ___ person plural.", "choices": ["first", "second", "third", "no"], "answer": 2, "explanation_ar": "they ضمير غائب جمع.", "explanation_en": "\"They\" is third person plural."},
+    {"question": "\"___ are the type of person who makes friends easily.\" (I'm speaking to you)", "choices": ["You", "It", "He", "I"], "answer": 0, "explanation_ar": "أوجّه الكلام لك: you.", "explanation_en": "I'm speaking to you: you."},
+    {"question": "\"You\" is ___ person.", "choices": ["first", "third", "second", "only plural"], "answer": 2, "explanation_ar": "you المخاطَب: الشخص الثاني.", "explanation_en": "\"You\" is the listener: second person."},
+    {"question": "\"___ is a very nice sunny day today.\"", "choices": ["He", "She", "They", "It"], "answer": 3, "explanation_ar": "اليوم المشمس شيء: it.", "explanation_en": "A sunny day is a thing: it."},
+    {"question": "Which is the first person plural?", "choices": ["they", "we", "you", "she"], "answer": 1, "explanation_ar": "we = أنا وجماعتي.", "explanation_en": "\"We\" = me and my group."},
+    {"question": "Which pronoun is used for both singular and plural?", "choices": ["you", "I", "he", "it"], "answer": 0, "explanation_ar": "you للمفرد والجمع.", "explanation_en": "\"You\" is both singular and plural."},
+    {"question": "What is a \"podium\"?", "choices": ["a medal", "a raised box to stand on", "a group of people", "a pronoun"], "answer": 1, "explanation_ar": "podium منصة يقف عليها الشخص.", "explanation_en": "A podium is a raised box to stand on."}
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "title": "At the Airport",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "check in",
+        "pos": "phrasal verb",
+        "meaning_en": "to show your ticket and give your bags at the airport",
+        "meaning_ar": "يسجّل الوصول / يسجّل للرحلة",
+        "note_ar": "كاسم تُكتب check-in",
+        "note_en": "As a noun: check-in (the check-in desk).",
+        "example": "I'd like to check in, please."
+      },
+      {
+        "word": "departure",
+        "pos": "noun",
+        "meaning_en": "leaving",
+        "meaning_ar": "المغادرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The departure gates are upstairs."
+      },
+      {
+        "word": "gate",
+        "pos": "noun",
+        "meaning_en": "the door where you get on the plane",
+        "meaning_ar": "البوابة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our flight leaves from gate 12."
+      },
+      {
+        "word": "luggage / baggage",
+        "pos": "noun",
+        "meaning_en": "the bags you take when you travel",
+        "meaning_ar": "الأمتعة",
+        "note_ar": "لا تُجمع: نقول two bags وليس two luggages",
+        "note_en": "Uncountable: say \"two bags\", not \"two luggages\".",
+        "example": "How much luggage can I take?"
+      },
+      {
+        "word": "weigh",
+        "pos": "verb",
+        "meaning_en": "to measure how heavy something is",
+        "meaning_ar": "يزن",
+        "note_ar": "حرفا gh صامتان: /weɪ/",
+        "note_en": "The gh is silent: /weɪ/.",
+        "example": "Where can I weigh my bag?"
+      },
+      {
+        "word": "counter",
+        "pos": "noun",
+        "meaning_en": "a long desk where staff serve you",
+        "meaning_ar": "الكاونتر / مكتب الخدمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is this the right counter for Saudia?"
+      },
+      {
+        "word": "airline",
+        "pos": "noun",
+        "meaning_en": "a company that has planes",
+        "meaning_ar": "شركة طيران",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Which airline are you flying with?"
+      },
+      {
+        "word": "boarding",
+        "pos": "noun",
+        "meaning_en": "getting on the plane",
+        "meaning_ar": "الصعود إلى الطائرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Boarding starts at 9:30."
+      },
+      {
+        "word": "passport",
+        "pos": "noun",
+        "meaning_en": "an official document for travel",
+        "meaning_ar": "جواز السفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here is my passport."
+      },
+      {
+        "word": "booking confirmation",
+        "pos": "noun",
+        "meaning_en": "a paper or message that shows your reservation",
+        "meaning_ar": "تأكيد الحجز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here is my booking confirmation."
+      },
+      {
+        "word": "allowance",
+        "pos": "noun",
+        "meaning_en": "the amount you are allowed to have",
+        "meaning_ar": "الحد المسموح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is the baggage allowance?"
+      },
+      {
+        "word": "extra fee",
+        "pos": "noun",
+        "meaning_en": "money you pay in addition",
+        "meaning_ar": "رسوم إضافية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do I have to pay an extra fee?"
+      },
+      {
+        "word": "security",
+        "pos": "noun",
+        "meaning_en": "the place where they check you and your bags",
+        "meaning_ar": "التفتيش الأمني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We went through security quickly."
+      },
+      {
+        "word": "hand luggage / carry-on",
+        "pos": "noun",
+        "meaning_en": "a small bag you take into the plane",
+        "meaning_ar": "حقيبة اليد",
+        "note_ar": "carry-on أمريكية، hand luggage بريطانية",
+        "note_en": "\"Carry-on\" is American, \"hand luggage\" British.",
+        "example": "Is this bag okay as hand luggage?"
+      },
+      {
+        "word": "line / queue",
+        "pos": "noun",
+        "meaning_en": "people waiting one behind another",
+        "meaning_ar": "طابور",
+        "note_ar": "line أمريكية، queue بريطانية وتُنطق /kjuː/",
+        "note_en": "\"Line\" is American; \"queue\" is British, said /kjuː/.",
+        "example": "Is this the line for the London flight?"
+      },
+      {
+        "word": "blanket",
+        "pos": "noun",
+        "meaning_en": "a warm cover for sleeping",
+        "meaning_ar": "بطانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I have a blanket, please?"
+      },
+      {
+        "word": "pillow",
+        "pos": "noun",
+        "meaning_en": "a soft thing for your head when you sleep",
+        "meaning_ar": "وسادة / مخدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I have a pillow too?"
+      },
+      {
+        "word": "restroom",
+        "pos": "noun",
+        "meaning_en": "a toilet in a public place",
+        "meaning_ar": "دورة المياه",
+        "note_ar": "أمريكية؛ في بريطانيا toilet",
+        "note_en": "American; British people say \"toilet\".",
+        "example": "Where is the restroom, please?"
+      },
+      {
+        "word": "flight",
+        "pos": "noun",
+        "meaning_en": "a trip by plane",
+        "meaning_ar": "رحلة طيران",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How long is the flight?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "take off vs take out",
+        "words": [
+          "take off",
+          "take out"
+        ],
+        "explanation_ar": "take off = يخلع (الحذاء أو المعطف) أو تقلع الطائرة. take out = يُخرج شيئًا من الحقيبة.",
+        "explanation_en": "\"Take off\" = remove clothes/shoes (or a plane leaves the ground). \"Take out\" = remove something from a bag.",
+        "examples": [
+          {
+            "word": "take off",
+            "sentence": "Do I need to take off my shoes?"
+          },
+          {
+            "word": "take out",
+            "sentence": "Please take out your laptop."
+          }
+        ]
+      },
+      {
+        "title": "luggage vs bag",
+        "words": [
+          "luggage",
+          "bag"
+        ],
+        "explanation_ar": "luggage اسم غير معدود (لا جمع له). bag معدود: one bag, two bags.",
+        "explanation_en": "\"Luggage\" is uncountable. \"Bag\" is countable: one bag, two bags.",
+        "examples": [
+          {
+            "word": "luggage",
+            "sentence": "How much luggage can I take?"
+          },
+          {
+            "word": "bag",
+            "sentence": "Do I have to pay for an extra bag?"
+          }
+        ]
+      },
+      {
+        "title": "Do I need to vs Do I have to",
+        "words": [
+          "need to",
+          "have to"
+        ],
+        "explanation_ar": "كلاهما للسؤال عن الضرورة. Do I have to يسأل عن قاعدة إجبارية، وDo I need to يسأل هل هو ضروري. في المطار كلاهما صحيح.",
+        "explanation_en": "Both ask if something is necessary. \"Have to\" sounds more like a rule; \"need to\" asks if it's needed. Both work at the airport.",
+        "examples": [
+          {
+            "word": "need to",
+            "sentence": "Do I need to take off my shoes?"
+          },
+          {
+            "word": "have to",
+            "sentence": "Do I have to pay extra for this bag?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'd like to check in, please.",
+        "meaning_ar": "أود تسجيل الوصول من فضلك.",
+        "meaning_en": "Asking to start check-in.",
+        "example": "Good morning. I'd like to check in, please."
+      },
+      {
+        "phrase": "How do I get to the departure gates?",
+        "meaning_ar": "كيف أصل إلى بوابات المغادرة؟",
+        "meaning_en": "Asking for directions in the airport.",
+        "example": "Excuse me, how do I get to the departure gates?"
+      },
+      {
+        "phrase": "Where can I weigh my luggage?",
+        "meaning_ar": "أين يمكنني وزن أمتعتي؟",
+        "meaning_en": "Asking where the scale is.",
+        "example": "Where can I weigh my luggage before check-in?"
+      },
+      {
+        "phrase": "Is this the right counter for this airline?",
+        "meaning_ar": "هل هذا هو الكاونتر الصحيح لهذه الشركة؟",
+        "meaning_en": "Checking you are at the correct desk.",
+        "example": "Is this the right counter for Emirates?"
+      },
+      {
+        "phrase": "When does boarding start for my flight?",
+        "meaning_ar": "متى يبدأ الصعود لرحلتي؟",
+        "meaning_en": "Asking when you can get on the plane.",
+        "example": "When does boarding start for my flight to Cairo?"
+      },
+      {
+        "phrase": "I have a flight to London at 10. Where can I check in?",
+        "meaning_ar": "لدي رحلة إلى لندن الساعة العاشرة، أين أسجل؟",
+        "meaning_en": "Giving your flight to find the right desk.",
+        "example": "I have a flight to London at 10. Where can I check in?"
+      },
+      {
+        "phrase": "Here is my passport and booking confirmation.",
+        "meaning_ar": "هذا جواز سفري وتأكيد الحجز.",
+        "meaning_en": "Giving your documents.",
+        "example": "Here is my passport and booking confirmation."
+      },
+      {
+        "phrase": "Can I have a window seat, please?",
+        "meaning_ar": "هل يمكنني الحصول على مقعد بجانب النافذة؟",
+        "meaning_en": "Asking for a seat by the window.",
+        "example": "Can I have a window seat, please?"
+      },
+      {
+        "phrase": "How much luggage can I take?",
+        "meaning_ar": "كم من الأمتعة يمكنني أخذها؟",
+        "meaning_en": "Asking about the baggage allowance.",
+        "example": "How much luggage can I take on this flight?"
+      },
+      {
+        "phrase": "Do I have to pay extra for an additional bag?",
+        "meaning_ar": "هل علي دفع رسوم إضافية لحقيبة إضافية؟",
+        "meaning_en": "Asking about extra cost.",
+        "example": "I have three bags. Do I have to pay extra for an additional bag?"
+      },
+      {
+        "phrase": "What do I need to take out of my bag for security?",
+        "meaning_ar": "ما الذي يجب أن أخرجه من حقيبتي للتفتيش؟",
+        "meaning_en": "Asking what to remove at security.",
+        "example": "What do I need to take out of my bag for security? My laptop?"
+      },
+      {
+        "phrase": "Is this bag okay as hand luggage?",
+        "meaning_ar": "هل هذه الحقيبة مقبولة كحقيبة يد؟",
+        "meaning_en": "Checking if a bag can go in the cabin.",
+        "example": "Is this bag okay as hand luggage?"
+      },
+      {
+        "phrase": "Do I need to take off my shoes?",
+        "meaning_ar": "هل يجب أن أخلع حذائي؟",
+        "meaning_en": "Asking about the security rules.",
+        "example": "Do I need to take off my shoes and belt?"
+      },
+      {
+        "phrase": "Where should I put my laptop?",
+        "meaning_ar": "أين أضع حاسوبي المحمول؟",
+        "meaning_en": "Asking where to place your laptop at security.",
+        "example": "Where should I put my laptop? In this tray?"
+      },
+      {
+        "phrase": "Can I bring a water bottle through security?",
+        "meaning_ar": "هل يمكنني إدخال زجاجة ماء عبر التفتيش؟",
+        "meaning_en": "Asking about liquids.",
+        "example": "Can I bring a water bottle through security?"
+      },
+      {
+        "phrase": "What time does boarding start for the flight to London?",
+        "meaning_ar": "متى يبدأ الصعود لرحلة لندن؟",
+        "meaning_en": "Checking boarding time.",
+        "example": "What time does boarding start for the flight to London?"
+      },
+      {
+        "phrase": "Where is gate B12?",
+        "meaning_ar": "أين البوابة B12؟",
+        "meaning_en": "Asking for your gate.",
+        "example": "Excuse me, where is gate B12?"
+      },
+      {
+        "phrase": "Has boarding started for the flight to London?",
+        "meaning_ar": "هل بدأ الصعود لرحلة لندن؟",
+        "meaning_en": "Checking if people are already getting on the plane.",
+        "example": "Has boarding started for the flight to London? I was eating."
+      },
+      {
+        "phrase": "Is this the line for the London flight?",
+        "meaning_ar": "هل هذا طابور رحلة لندن؟",
+        "meaning_en": "Checking you are in the right line.",
+        "example": "Is this the line for the London flight?"
+      },
+      {
+        "phrase": "What time do we need to be at the gate?",
+        "meaning_ar": "في أي وقت يجب أن نكون عند البوابة؟",
+        "meaning_en": "Asking when to arrive at the gate.",
+        "example": "What time do we need to be at the gate?"
+      },
+      {
+        "phrase": "Could I have a blanket and a pillow, please?",
+        "meaning_ar": "هل يمكنني الحصول على بطانية ووسادة من فضلك؟",
+        "meaning_en": "Asking the cabin crew for comfort items.",
+        "example": "Could I have a blanket and a pillow, please? It's cold."
+      },
+      {
+        "phrase": "Is there a vegetarian meal option?",
+        "meaning_ar": "هل يوجد خيار وجبة نباتية؟",
+        "meaning_en": "Asking about meals without meat.",
+        "example": "Is there a vegetarian meal option on this flight?"
+      },
+      {
+        "phrase": "How long is the flight to London?",
+        "meaning_ar": "كم مدة الرحلة إلى لندن؟",
+        "meaning_en": "Asking about flight time.",
+        "example": "How long is the flight to London? Six hours?"
+      },
+      {
+        "phrase": "Can I use my laptop during the flight?",
+        "meaning_ar": "هل يمكنني استخدام حاسوبي أثناء الرحلة؟",
+        "meaning_en": "Asking if laptops are allowed.",
+        "example": "Can I use my laptop during the flight? I need to work."
+      },
+      {
+        "phrase": "Where is the restroom, please?",
+        "meaning_ar": "أين دورة المياه من فضلك؟",
+        "meaning_en": "Asking for the toilet.",
+        "example": "Excuse me, where is the restroom, please?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Do I have to / Do I need to + verb?",
+        "explanation_ar": "نسأل عن شيء ضروري أو إجباري بـ Do I have to + فعل أصلي أو Do I need to + فعل أصلي. الجواب: Yes, you do / No, you don't.",
+        "explanation_en": "Ask if something is necessary with \"Do I have to + base verb?\" or \"Do I need to + base verb?\" Answer: Yes, you do / No, you don't.",
+        "examples": [
+          "Do I have to pay extra?",
+          "Do I need to take off my shoes?",
+          "Do I need to take out my laptop?"
+        ]
+      },
+      {
+        "title": "Where can I + verb? / How do I get to...?",
+        "explanation_ar": "Where can I + فعل أصلي للسؤال عن مكان فعل شيء. How do I get to + مكان للسؤال عن الطريق.",
+        "explanation_en": "\"Where can I + base verb?\" asks where to do something. \"How do I get to + place?\" asks for directions.",
+        "examples": [
+          "Where can I weigh my luggage?",
+          "Where can I check in?",
+          "How do I get to the departure gates?"
+        ]
+      },
+      {
+        "title": "Present perfect question: Has boarding started?",
+        "explanation_ar": "نسأل هل حدث شيء حتى الآن بـ Has/Have + الفاعل + التصريف الثالث. Has boarding started? = هل بدأ الصعود (حتى الآن)؟",
+        "explanation_en": "Ask if something has happened up to now: Has/Have + subject + past participle.",
+        "examples": [
+          "Has boarding started?",
+          "Has the flight landed?",
+          "Have you checked in?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "At security, they ask you to remove your shoes. The question is: \"Do I need to take ___ my shoes?\"",
+      "choices": [
+        "out",
+        "off",
+        "in",
+        "up"
+      ],
+      "answer": 1,
+      "explanation_ar": "take off = يخلع الملابس أو الحذاء.",
+      "explanation_en": "\"Take off\" is for shoes and clothes."
+    },
+    {
+      "question": "You want to know if people are already getting on the plane. You ask:",
+      "choices": [
+        "Has boarding started?",
+        "Is boarding start?",
+        "Did boarding starts?",
+        "Has boarding start?"
+      ],
+      "answer": 0,
+      "explanation_ar": "المضارع التام: Has + الفاعل + التصريف الثالث started.",
+      "explanation_en": "Present perfect: Has + subject + past participle."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I have two luggages.",
+        "I have two baggages.",
+        "I have two bags.",
+        "I have two luggage."
+      ],
+      "answer": 2,
+      "explanation_ar": "luggage غير معدودة، نقول two bags.",
+      "explanation_en": "\"Luggage\" is uncountable; say \"two bags\"."
+    },
+    {
+      "question": "\"What is the baggage ___?\" (how much you can take)",
+      "choices": [
+        "allowance",
+        "boarding",
+        "gate",
+        "counter"
+      ],
+      "answer": 0,
+      "explanation_ar": "baggage allowance = الحد المسموح من الأمتعة.",
+      "explanation_en": "\"Baggage allowance\" is how much you can take."
+    },
+    {
+      "question": "A small bag you take into the plane is called:",
+      "choices": [
+        "checked bag",
+        "hand luggage",
+        "blanket",
+        "boarding"
+      ],
+      "answer": 1,
+      "explanation_ar": "hand luggage = حقيبة اليد.",
+      "explanation_en": "\"Hand luggage\" goes with you into the cabin."
+    },
+    {
+      "question": "\"Where can I ___ my luggage?\" (measure how heavy)",
+      "choices": [
+        "wait",
+        "weight",
+        "weigh",
+        "way"
+      ],
+      "answer": 2,
+      "explanation_ar": "weigh فعل بمعنى يزن، وweight اسم بمعنى الوزن.",
+      "explanation_en": "\"Weigh\" is the verb; \"weight\" is the noun."
+    },
+    {
+      "question": "You are cold on the plane. You say:",
+      "choices": [
+        "Where is gate B12?",
+        "Is this the line for London?",
+        "Could I have a blanket, please?",
+        "Do I need to take off my shoes?"
+      ],
+      "answer": 2,
+      "explanation_ar": "blanket = بطانية.",
+      "explanation_en": "A blanket keeps you warm."
+    },
+    {
+      "question": "You want directions to the gates. You ask:",
+      "choices": [
+        "How long is the flight?",
+        "How do I get to the departure gates?",
+        "How much luggage can I take?",
+        "How are the gates?"
+      ],
+      "answer": 1,
+      "explanation_ar": "How do I get to... للسؤال عن الطريق.",
+      "explanation_en": "\"How do I get to...\" asks for directions."
+    },
+    {
+      "question": "In American English, a public toilet is often called:",
+      "choices": [
+        "restroom",
+        "bedroom",
+        "classroom",
+        "living room"
+      ],
+      "answer": 0,
+      "explanation_ar": "restroom = دورة المياه في الأماكن العامة.",
+      "explanation_en": "\"Restroom\" is a public toilet."
+    },
+    {
+      "question": "\"Do I have to pay extra?\" - \"No, you ___.\"",
+      "choices": [
+        "haven't",
+        "aren't",
+        "doesn't",
+        "don't"
+      ],
+      "answer": 3,
+      "explanation_ar": "الجواب على Do I have to: No, you don't.",
+      "explanation_en": "The short answer is \"No, you don't\"."
+    }
+  ]
+}

@@ -13,5 +13,5 @@ val wordLookupModule = module {
     single { WiktionaryApiClient(get()) }
     single { TranslationApiClient(get()) }
     single { DatamuseApiClient(get()) }
-    viewModel { WordLookupViewModel(get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { WordLookupViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get()) }
 }

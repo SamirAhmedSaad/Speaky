@@ -1,0 +1,285 @@
+{
+  "title": "I can draw a ship",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "can",
+        "pos": "modal verb",
+        "meaning_en": "be able to do something",
+        "meaning_ar": "يستطيع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can draw a ship."
+      },
+      {
+        "word": "can't",
+        "pos": "modal verb",
+        "meaning_en": "short for \"cannot\"; not able to",
+        "meaning_ar": "لا يستطيع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't draw a car."
+      },
+      {
+        "word": "draw",
+        "pos": "verb",
+        "meaning_en": "make a picture with a pen or pencil",
+        "meaning_ar": "يرسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Draw a ship, please."
+      },
+      {
+        "word": "ship",
+        "pos": "noun",
+        "meaning_en": "a big boat",
+        "meaning_ar": "سفينة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my ship."
+      },
+      {
+        "word": "car",
+        "pos": "noun",
+        "meaning_en": "a vehicle with four wheels for people",
+        "meaning_ar": "سيارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can draw a car."
+      },
+      {
+        "word": "truck",
+        "pos": "noun",
+        "meaning_en": "a big vehicle that carries heavy things",
+        "meaning_ar": "شاحنة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my truck."
+      },
+      {
+        "word": "cool",
+        "pos": "adjective",
+        "meaning_en": "very good (informal)",
+        "meaning_ar": "رائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wow, it's cool!"
+      },
+      {
+        "word": "like",
+        "pos": "verb",
+        "meaning_en": "think something is good",
+        "meaning_ar": "يحب / يعجبه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like it, Dudu."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "can vs can't",
+        "words": [
+          "can",
+          "can't"
+        ],
+        "explanation_ar": "can = أستطيع، و can't = لا أستطيع (اختصار cannot). بعدهما الفعل بدون to.",
+        "explanation_en": "\"can\" = able to. \"can't\" = not able to (cannot). Use the base verb after them.",
+        "examples": [
+          {
+            "word": "can",
+            "sentence": "I can draw a ship."
+          },
+          {
+            "word": "can't",
+            "sentence": "I can't draw a car."
+          }
+        ]
+      },
+      {
+        "title": "ship vs truck",
+        "words": [
+          "ship",
+          "truck"
+        ],
+        "explanation_ar": "ship سفينة تسير في البحر، و truck شاحنة تسير على الطريق.",
+        "explanation_en": "A ship goes on the sea. A truck goes on the road.",
+        "examples": [
+          {
+            "word": "ship",
+            "sentence": "The ship is on the sea."
+          },
+          {
+            "word": "truck",
+            "sentence": "The truck is on the road."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Draw a ship, please.",
+        "meaning_ar": "ارسم سفينة من فضلك.",
+        "meaning_en": "Asking someone to draw.",
+        "example": "Draw a car, please."
+      },
+      {
+        "phrase": "I can draw a ship.",
+        "meaning_ar": "أستطيع أن أرسم سفينة.",
+        "meaning_en": "Saying what you are able to do.",
+        "example": "I can draw a ship and a car."
+      },
+      {
+        "phrase": "I can't draw a car.",
+        "meaning_ar": "لا أستطيع أن أرسم سيارة.",
+        "meaning_en": "Saying what you are not able to do.",
+        "example": "I can't draw a car. It's hard."
+      },
+      {
+        "phrase": "Wow, it's cool!",
+        "meaning_ar": "واو، إنه رائع!",
+        "meaning_en": "Saying something is very good.",
+        "example": "Look at my picture. - Wow, it's cool!"
+      },
+      {
+        "phrase": "I like it.",
+        "meaning_ar": "يعجبني.",
+        "meaning_en": "Saying something is good for you.",
+        "example": "This is my truck. - I like it!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "can / can't + verb",
+        "explanation_ar": "نعبّر عن القدرة بـ I can + فعل، وعن عدم القدرة بـ I can't + فعل. لا نضيف to ولا s بعد can.",
+        "explanation_en": "Say what you are able to do: I can + verb. Not able: I can't + verb. No \"to\" after can.",
+        "examples": [
+          "I can draw a ship.",
+          "I can't draw a car.",
+          "I can draw a truck."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I ___ draw a ship. It's easy for me.",
+      "choices": [
+        "can",
+        "can't",
+        "am",
+        "do"
+      ],
+      "answer": 0,
+      "explanation_ar": "can = أستطيع.",
+      "explanation_en": "can = able to."
+    },
+    {
+      "question": "I ___ draw a car. It's hard for me.",
+      "choices": [
+        "can",
+        "can't",
+        "like",
+        "is"
+      ],
+      "answer": 1,
+      "explanation_ar": "can't = لا أستطيع.",
+      "explanation_en": "can't = not able to."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I can to draw a car.",
+        "I can draws a car.",
+        "I can draw a car.",
+        "I can drawing a car."
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد can الفعل الأساسي بدون to.",
+      "explanation_en": "After can, use the base verb."
+    },
+    {
+      "question": "A big boat is a ___.",
+      "choices": [
+        "truck",
+        "car",
+        "bike",
+        "ship"
+      ],
+      "answer": 3,
+      "explanation_ar": "السفينة قارب كبير.",
+      "explanation_en": "A ship is a big boat."
+    },
+    {
+      "question": "\"can't\" means ___.",
+      "choices": [
+        "cannot",
+        "can it",
+        "can do",
+        "can too"
+      ],
+      "answer": 0,
+      "explanation_ar": "هذا اختصار: can't = cannot.",
+      "explanation_en": "can't = cannot."
+    },
+    {
+      "question": "A big vehicle that carries heavy things is a ___.",
+      "choices": [
+        "ship",
+        "truck",
+        "bird",
+        "doll"
+      ],
+      "answer": 1,
+      "explanation_ar": "الشاحنة = truck.",
+      "explanation_en": "A truck carries heavy things."
+    },
+    {
+      "question": "\"draw\" means ___.",
+      "choices": [
+        "يرسم",
+        "يقرأ",
+        "يأكل",
+        "يلعب"
+      ],
+      "answer": 0,
+      "explanation_ar": "draw = يرسم.",
+      "explanation_en": "draw = make a picture."
+    },
+    {
+      "question": "Your friend shows a nice picture. You say: ___",
+      "choices": [
+        "Ouch!",
+        "Oh, no!",
+        "Wow, it's cool!",
+        "Wake up!"
+      ],
+      "answer": 2,
+      "explanation_ar": "نمدح الرسمة بقول It's cool!",
+      "explanation_en": "Say \"It's cool!\" to say it's very good."
+    },
+    {
+      "question": "___ a ship, please.",
+      "choices": [
+        "Draws",
+        "Drawing",
+        "To draw",
+        "Draw"
+      ],
+      "answer": 3,
+      "explanation_ar": "جملة الطلب تبدأ بالفعل الأساسي.",
+      "explanation_en": "Instructions start with the base verb."
+    },
+    {
+      "question": "This is my car. - I ___ it!",
+      "choices": [
+        "like",
+        "likes",
+        "can",
+        "am"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع I نقول like.",
+      "explanation_en": "With I, use like."
+    }
+  ]
+}

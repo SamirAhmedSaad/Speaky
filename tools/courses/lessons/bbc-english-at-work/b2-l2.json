@@ -1,0 +1,440 @@
+{
+  "title": "Briefing the Manager",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "brief",
+        "pos": "verb",
+        "meaning_en": "to give someone the important facts about something",
+        "meaning_ar": "يُطلع / يزوّد بالمعلومات الأساسية",
+        "note_ar": "الاسم: a briefing (إحاطة / اجتماع إطلاع).",
+        "note_en": "Noun: a briefing.",
+        "example": "I need to brief the manager before the meeting."
+      },
+      {
+        "word": "predicament",
+        "pos": "noun",
+        "meaning_en": "a difficult situation",
+        "meaning_ar": "مأزق / موقف صعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We were in a predicament when the flight was cancelled."
+      },
+      {
+        "word": "cancelled",
+        "pos": "adjective",
+        "meaning_en": "not going to happen any more",
+        "meaning_ar": "مُلغى",
+        "note_ar": "في الأمريكية تُكتب canceled بحرف l واحد.",
+        "note_en": "US spelling: canceled (one l).",
+        "example": "Our flight to London is cancelled."
+      },
+      {
+        "word": "rebook",
+        "pos": "verb",
+        "meaning_en": "to book again, often for a different time",
+        "meaning_ar": "يعيد الحجز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They rebooked us on the next flight."
+      },
+      {
+        "word": "sort out",
+        "pos": "phrasal verb",
+        "meaning_en": "to deal with a problem or arrange something",
+        "meaning_ar": "يرتّب / يحلّ (مشكلة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't worry, I've sorted out a hotel."
+      },
+      {
+        "word": "keep someone in the picture",
+        "pos": "idiom",
+        "meaning_en": "to keep someone informed about what is happening",
+        "meaning_ar": "يُبقي شخصًا على اطلاع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please keep me in the picture about the order."
+      },
+      {
+        "word": "keep someone informed",
+        "pos": "phrase",
+        "meaning_en": "to tell someone the latest news regularly",
+        "meaning_ar": "يُبقيه على علم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll keep you informed about the delivery."
+      },
+      {
+        "word": "update",
+        "pos": "verb / noun",
+        "meaning_en": "to give someone the newest information; new information",
+        "meaning_ar": "يُحدّث / يُطلع على آخر المستجدات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you update me on the project?"
+      },
+      {
+        "word": "close the deal",
+        "pos": "phrase",
+        "meaning_en": "to finish a deal successfully",
+        "meaning_ar": "يُتمّ الصفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We closed the deal yesterday."
+      },
+      {
+        "word": "proceed with",
+        "pos": "phrasal verb",
+        "meaning_en": "to continue or start doing something that was planned",
+        "meaning_ar": "يمضي قُدمًا في",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to proceed with the order quickly."
+      },
+      {
+        "word": "as quickly as possible",
+        "pos": "phrase",
+        "meaning_en": "very fast; with no delay",
+        "meaning_ar": "بأسرع ما يمكن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please reply as quickly as possible."
+      },
+      {
+        "word": "committed to",
+        "pos": "adjective",
+        "meaning_en": "willing to work hard to do something",
+        "meaning_ar": "ملتزم بـ",
+        "note_ar": "بعد committed to نستخدم الفعل مع ing.",
+        "note_en": "After committed to, use the -ing form.",
+        "example": "I'm committed to finishing on time."
+      },
+      {
+        "word": "on time",
+        "pos": "phrase",
+        "meaning_en": "at the correct time, not late",
+        "meaning_ar": "في الموعد المحدد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The order arrived on time."
+      },
+      {
+        "word": "delay",
+        "pos": "noun",
+        "meaning_en": "a time when something happens later than planned",
+        "meaning_ar": "تأخير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is a delay because of the weather."
+      },
+      {
+        "word": "battery has run out",
+        "pos": "phrase",
+        "meaning_en": "the battery has no power left",
+        "meaning_ar": "نفدت البطارية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I use your phone? My battery has run out."
+      },
+      {
+        "word": "borrow",
+        "pos": "verb",
+        "meaning_en": "to take and use something that belongs to someone else, and give it back",
+        "meaning_ar": "يستعير",
+        "note_ar": "borrow (تأخذ) عكس lend (تعطي).",
+        "note_en": "Borrow (you take) is the opposite of lend (you give).",
+        "example": "Could I borrow your pen?"
+      },
+      {
+        "word": "lose the signal",
+        "pos": "phrase",
+        "meaning_en": "when your phone is no longer connected",
+        "meaning_ar": "ينقطع الإرسال / الشبكة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I lost the signal in the lift."
+      },
+      {
+        "word": "get the message",
+        "pos": "phrase",
+        "meaning_en": "to understand what someone means",
+        "meaning_ar": "يفهم المقصود",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I think he got the message."
+      },
+      {
+        "word": "early start",
+        "pos": "noun",
+        "meaning_en": "when you have to begin your day very early",
+        "meaning_ar": "بداية مبكرة لليوم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've got an early start tomorrow."
+      },
+      {
+        "word": "hospitality",
+        "pos": "noun",
+        "meaning_en": "being friendly and generous to guests",
+        "meaning_ar": "حسن الضيافة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your kind hospitality."
+      },
+      {
+        "word": "professional",
+        "pos": "adjective",
+        "meaning_en": "behaving in a correct and serious way at work",
+        "meaning_ar": "مهني / احترافي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's keep things professional."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "borrow vs lend",
+        "words": [
+          "borrow",
+          "lend"
+        ],
+        "explanation_ar": "borrow تعني أن تأخذ شيئًا من غيرك مؤقتًا، و lend تعني أن تعطي شيئًا لغيرك مؤقتًا. نقول: Could I borrow your phone? أو Could you lend me your phone?",
+        "explanation_en": "Borrow means you take something for a short time. Lend means you give something for a short time. Could I borrow your phone? = Could you lend me your phone?",
+        "examples": [
+          {
+            "word": "borrow",
+            "sentence": "Could I borrow your mobile phone, please?"
+          },
+          {
+            "word": "lend",
+            "sentence": "Could you lend me your charger?"
+          }
+        ]
+      },
+      {
+        "title": "in the picture vs in the photo",
+        "words": [
+          "in the picture",
+          "in the photo"
+        ],
+        "explanation_ar": "keep someone in the picture تعبير اصطلاحي يعني إبقاء الشخص على اطلاع، ولا علاقة له بالصور. أما in the photo فمعناها حرفي: داخل الصورة.",
+        "explanation_en": "'Keep someone in the picture' is an idiom meaning keep them informed; it has nothing to do with photos. 'In the photo' is literal.",
+        "examples": [
+          {
+            "word": "in the picture",
+            "sentence": "Please keep the boss in the picture."
+          },
+          {
+            "word": "in the photo",
+            "sentence": "Who is the man in the photo?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "It's good news – I've closed the deal and the contract is signed.",
+        "meaning_ar": "خبر جيد: أتممت الصفقة وتم توقيع العقد.",
+        "meaning_en": "Telling your boss a deal is finished successfully.",
+        "example": "It's good news – I've closed the deal and the contract is signed."
+      },
+      {
+        "phrase": "We need to proceed with the order as quickly as possible.",
+        "meaning_ar": "علينا أن نمضي في تنفيذ الطلب بأسرع ما يمكن.",
+        "meaning_en": "We must start the order without delay.",
+        "example": "To keep the client happy, we need to proceed with the order as quickly as possible."
+      },
+      {
+        "phrase": "I'm committed to getting the order delivered on time… but I will need some help.",
+        "meaning_ar": "أنا ملتزم بتسليم الطلب في موعده، لكنني سأحتاج إلى بعض المساعدة.",
+        "meaning_en": "I will work hard to deliver on time, but I need help.",
+        "example": "I'm committed to getting the report finished on time, but I will need some help."
+      },
+      {
+        "phrase": "Keep him in the picture.",
+        "meaning_ar": "أبقِه على اطلاع.",
+        "meaning_en": "Keep him informed.",
+        "example": "Remember to keep your manager in the picture."
+      },
+      {
+        "phrase": "I've got some good news!",
+        "meaning_ar": "لديّ أخبار جيدة!",
+        "meaning_en": "A way to start telling good news.",
+        "example": "Hi Paul, it's Anna. I've got some good news!"
+      },
+      {
+        "phrase": "Could I borrow your mobile phone, please?",
+        "meaning_ar": "هل يمكنني استعارة هاتفك المحمول من فضلك؟",
+        "meaning_en": "A polite request to use someone's phone.",
+        "example": "Could I borrow your mobile phone, please? Mine is not working."
+      },
+      {
+        "phrase": "I wonder if Tom could…",
+        "meaning_ar": "أتساءل إن كان بإمكان توم أن...",
+        "meaning_en": "A soft, polite way to ask for something.",
+        "example": "I wonder if Tom could help me with the order."
+      },
+      {
+        "phrase": "I've lost the signal.",
+        "meaning_ar": "انقطع الاتصال / الإرسال.",
+        "meaning_en": "My phone is no longer connected.",
+        "example": "Sorry, I've lost the signal. I'll call you back."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "committed to + verb-ing",
+        "explanation_ar": "بعد committed to (وكذلك look forward to) يأتي الفعل مع ing، لأن to هنا حرف جر وليست جزءًا من المصدر: I'm committed to getting… وليس committed to get.",
+        "explanation_en": "After 'committed to' the verb takes -ing, because 'to' here is a preposition (like 'look forward to'): I'm committed to getting… not 'committed to get'.",
+        "examples": [
+          "I'm committed to getting the order delivered on time.",
+          "We are committed to helping our customers.",
+          "She is committed to improving her English."
+        ]
+      },
+      {
+        "title": "Present perfect for news",
+        "explanation_ar": "نستخدم المضارع التام (have/has + التصريف الثالث) لنقل خبر جديد حدث للتو ونتيجته مهمة الآن: I've closed the deal.",
+        "explanation_en": "Use the present perfect (have/has + past participle) to give new news that matters now: I've closed the deal.",
+        "examples": [
+          "I've closed the deal.",
+          "They've rebooked us on the next flight.",
+          "My battery has run out."
+        ]
+      },
+      {
+        "title": "Polite requests with Could I…? / I wonder if…",
+        "explanation_ar": "لطلب مهذب نستخدم Could I + الفعل؟ للاستئذان، و I wonder if + جملة لطلب أكثر لطفًا وأقل مباشرة.",
+        "explanation_en": "For polite requests use 'Could I + verb?' to ask permission, and 'I wonder if + clause' for an even softer request.",
+        "examples": [
+          "Could I borrow your mobile phone, please?",
+          "I wonder if Tom could help me.",
+          "I wonder if you could call me back later."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What does 'brief the manager' mean?",
+      "choices": [
+        "give the manager the important facts",
+        "make the manager short",
+        "ask the manager for money",
+        "send the manager on holiday"
+      ],
+      "answer": 0,
+      "explanation_ar": "brief كفعل تعني إطلاع شخص على المعلومات المهمة.",
+      "explanation_en": "To brief means to give someone the important facts."
+    },
+    {
+      "question": "'Keep Paul in the picture' means…",
+      "choices": [
+        "give Paul a picture",
+        "take a photo of Paul",
+        "keep Paul informed",
+        "stop talking to Paul"
+      ],
+      "answer": 2,
+      "explanation_ar": "keep someone in the picture تعني إبقاءه على اطلاع.",
+      "explanation_en": "It means keep someone informed."
+    },
+    {
+      "question": "Complete: 'I'm committed to ___ the order delivered on time.'",
+      "choices": [
+        "got",
+        "get",
+        "getting",
+        "gets"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد committed to نستخدم الفعل مع ing.",
+      "explanation_en": "After 'committed to' use the -ing form."
+    },
+    {
+      "question": "Complete: 'We need to ___ with the order as quickly as possible.'",
+      "choices": [
+        "proceed",
+        "borrow",
+        "lose",
+        "rebook"
+      ],
+      "answer": 0,
+      "explanation_ar": "proceed with تعني المضي قدمًا في تنفيذ شيء.",
+      "explanation_en": "Proceed with means to continue or start doing something planned."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Could I borrowing your phone?",
+        "Could I lend your phone, please?",
+        "Could you borrow me your phone?",
+        "Could I borrow your phone, please?"
+      ],
+      "answer": 3,
+      "explanation_ar": "borrow = أن تأخذ. نقول Could I borrow your phone?",
+      "explanation_en": "Borrow = take. We say 'Could I borrow your phone?'"
+    },
+    {
+      "question": "Anna's phone doesn't work because…",
+      "choices": [
+        "she lost it in France",
+        "her battery has run out",
+        "Tom broke it",
+        "it is in the hotel"
+      ],
+      "answer": 1,
+      "explanation_ar": "قالت آنا إن بطاريتها نفدت.",
+      "explanation_en": "Anna says her battery has run out."
+    },
+    {
+      "question": "Which sentence uses the present perfect to give news?",
+      "choices": [
+        "I've closed the deal.",
+        "I close the deal tomorrow.",
+        "I was closing the deal.",
+        "I will closing the deal."
+      ],
+      "answer": 0,
+      "explanation_ar": "I've closed يتكوّن من have + التصريف الثالث: مضارع تام.",
+      "explanation_en": "'I've closed' is have + past participle: present perfect."
+    },
+    {
+      "question": "What does 'predicament' mean?",
+      "choices": [
+        "a good price",
+        "a business trip",
+        "a difficult situation",
+        "a contract"
+      ],
+      "answer": 2,
+      "explanation_ar": "predicament تعني مأزقًا أو موقفًا صعبًا.",
+      "explanation_en": "A predicament is a difficult situation."
+    },
+    {
+      "question": "'I've lost the signal' means…",
+      "choices": [
+        "I have lost my bag",
+        "my phone is not connected any more",
+        "I don't understand",
+        "I forgot the number"
+      ],
+      "answer": 1,
+      "explanation_ar": "lose the signal تعني انقطاع شبكة الهاتف.",
+      "explanation_en": "It means the phone has no connection."
+    },
+    {
+      "question": "Which is the most polite way to ask for help?",
+      "choices": [
+        "Give me Tom.",
+        "Tom, help me now.",
+        "Tom must help me.",
+        "I wonder if Tom could help me."
+      ],
+      "answer": 3,
+      "explanation_ar": "I wonder if… أسلوب مهذب وغير مباشر للطلب.",
+      "explanation_en": "'I wonder if…' is a soft, polite way to ask."
+    }
+  ]
+}

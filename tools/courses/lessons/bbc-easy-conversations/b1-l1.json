@@ -1,0 +1,452 @@
+{
+ "title": "Introducing yourself",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "hello",
+    "pos": "interjection",
+    "meaning_en": "a word you say when you meet someone",
+    "meaning_ar": "مرحبًا",
+    "note_ar": "",
+    "note_en": "\"Hi\" is more informal.",
+    "example": "Hello, I'm Sara."
+   },
+   {
+    "word": "hi",
+    "pos": "interjection",
+    "meaning_en": "an informal way to say hello",
+    "meaning_ar": "أهلًا / مرحبًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Hi, Tim! How are you?"
+   },
+   {
+    "word": "name",
+    "pos": "noun",
+    "meaning_en": "the word people call you",
+    "meaning_ar": "اسم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My name is Omar."
+   },
+   {
+    "word": "first name",
+    "pos": "noun",
+    "meaning_en": "your own name, not your family name",
+    "meaning_ar": "الاسم الأول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My first name is Ali."
+   },
+   {
+    "word": "surname",
+    "pos": "noun",
+    "meaning_en": "your family name",
+    "meaning_ar": "اسم العائلة",
+    "note_ar": "يُقال أيضًا last name",
+    "note_en": "Also called \"last name\".",
+    "example": "My surname is Hassan."
+   },
+   {
+    "word": "meet",
+    "pos": "verb",
+    "meaning_en": "see and talk to someone for the first time",
+    "meaning_ar": "يقابل / يتعرّف على",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I meet new people at work."
+   },
+   {
+    "word": "nice",
+    "pos": "adjective",
+    "meaning_en": "good, pleasant",
+    "meaning_ar": "لطيف / جميل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's nice to see you."
+   },
+   {
+    "word": "too",
+    "pos": "adverb",
+    "meaning_en": "also, in the same way",
+    "meaning_ar": "أيضًا",
+    "note_ar": "تأتي في آخر الجملة",
+    "note_en": "It usually goes at the end of the sentence.",
+    "example": "Nice to meet you too."
+   },
+   {
+    "word": "I",
+    "pos": "pronoun",
+    "meaning_en": "the person speaking",
+    "meaning_ar": "أنا",
+    "note_ar": "تُكتب دائمًا بحرف كبير",
+    "note_en": "Always write it with a capital letter.",
+    "example": "I'm Tim."
+   },
+   {
+    "word": "you",
+    "pos": "pronoun",
+    "meaning_en": "the person you are talking to",
+    "meaning_ar": "أنتَ / أنتِ / أنتم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What's your name? Who are you?"
+   },
+   {
+    "word": "he",
+    "pos": "pronoun",
+    "meaning_en": "a man or boy",
+    "meaning_ar": "هو",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He's Buli."
+   },
+   {
+    "word": "she",
+    "pos": "pronoun",
+    "meaning_en": "a woman or girl",
+    "meaning_ar": "هي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She's Georgie."
+   },
+   {
+    "word": "they",
+    "pos": "pronoun",
+    "meaning_en": "two or more people",
+    "meaning_ar": "هم / هنّ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They are my friends."
+   },
+   {
+    "word": "my",
+    "pos": "determiner",
+    "meaning_en": "belonging to me",
+    "meaning_ar": "ـي (ملكي)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My name's Tim."
+   },
+   {
+    "word": "your",
+    "pos": "determiner",
+    "meaning_en": "belonging to you",
+    "meaning_ar": "ـكَ / ـكِ (ملكك)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What's your name?"
+   },
+   {
+    "word": "his",
+    "pos": "determiner",
+    "meaning_en": "belonging to him",
+    "meaning_ar": "ـه (ملكه)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "His name's Buli."
+   },
+   {
+    "word": "her",
+    "pos": "determiner",
+    "meaning_en": "belonging to her",
+    "meaning_ar": "ـها (ملكها)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Her name's Sian."
+   },
+   {
+    "word": "their",
+    "pos": "determiner",
+    "meaning_en": "belonging to them",
+    "meaning_ar": "ـهم (ملكهم)",
+    "note_ar": "تُنطق مثل there",
+    "note_en": "Sounds the same as \"there\".",
+    "example": "What are their names?"
+   },
+   {
+    "word": "what",
+    "pos": "question word",
+    "meaning_en": "used to ask about a thing or information",
+    "meaning_ar": "ماذا / ما",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What's your name?"
+   },
+   {
+    "word": "friend",
+    "pos": "noun",
+    "meaning_en": "a person you know and like",
+    "meaning_ar": "صديق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is my friend Sian."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "he / she",
+    "words": [
+     "he",
+     "she"
+    ],
+    "explanation_ar": "he للرجل أو الولد، و she للمرأة أو البنت. العربية تفرّق بينهما أيضًا: هو / هي.",
+    "explanation_en": "Use \"he\" for a man or boy and \"she\" for a woman or girl.",
+    "examples": [
+     {
+      "word": "he",
+      "sentence": "He's Buli. He's from Oxford."
+     },
+     {
+      "word": "she",
+      "sentence": "She's Georgie. She's a teacher."
+     }
+    ]
+   },
+   {
+    "title": "his / her",
+    "words": [
+     "his",
+     "her"
+    ],
+    "explanation_ar": "his تعني «ـه» لشيء يملكه رجل، و her تعني «ـها» لشيء تملكه امرأة. الاختيار يعتمد على صاحب الشيء، لا على الشيء نفسه.",
+    "explanation_en": "\"His\" is for a man's thing, \"her\" is for a woman's thing. It depends on the owner, not the thing.",
+    "examples": [
+     {
+      "word": "his",
+      "sentence": "What's his name? His name's Tim."
+     },
+     {
+      "word": "her",
+      "sentence": "What's her name? Her name's Sian."
+     }
+    ]
+   },
+   {
+    "title": "I'm / my",
+    "words": [
+     "I'm",
+     "my"
+    ],
+    "explanation_ar": "I'm = I am (أنا)، أما my فتعني «ـي» للملكية. نقول: I'm Tim أو My name's Tim، ولا نقول My is Tim.",
+    "explanation_en": "\"I'm\" means \"I am\". \"My\" shows something belongs to you.",
+    "examples": [
+     {
+      "word": "I'm",
+      "sentence": "I'm Tim."
+     },
+     {
+      "word": "my",
+      "sentence": "My name's Tim."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Hello, what's your name?",
+    "meaning_ar": "مرحبًا، ما اسمك؟",
+    "meaning_en": "a friendly way to ask someone's name",
+    "example": "Hello, what's your name? - I'm Tim."
+   },
+   {
+    "phrase": "I'm Tim.",
+    "meaning_ar": "أنا تيم.",
+    "meaning_en": "the easy way to say your name",
+    "example": "Hi, I'm Tim. I'm from Oxford."
+   },
+   {
+    "phrase": "My name's ...",
+    "meaning_ar": "اسمي ...",
+    "meaning_en": "another way to say your name",
+    "example": "My name's Sara."
+   },
+   {
+    "phrase": "Nice to meet you.",
+    "meaning_ar": "سُررت بلقائك / تشرّفنا.",
+    "meaning_en": "what you say when you meet someone for the first time",
+    "example": "Hello, I'm Ali. - Nice to meet you."
+   },
+   {
+    "phrase": "Nice to meet you too.",
+    "meaning_ar": "وأنا أيضًا سُررت بلقائك.",
+    "meaning_en": "the reply to \"Nice to meet you\"",
+    "example": "Nice to meet you, Ali. - Nice to meet you too."
+   },
+   {
+    "phrase": "What's his name?",
+    "meaning_ar": "ما اسمه؟",
+    "meaning_en": "ask the name of a man",
+    "example": "What's his name? - His name's Buli."
+   },
+   {
+    "phrase": "What's her name?",
+    "meaning_ar": "ما اسمها؟",
+    "meaning_en": "ask the name of a woman",
+    "example": "What's her name? - Her name's Sian."
+   },
+   {
+    "phrase": "What are their names?",
+    "meaning_ar": "ما أسماؤهم؟",
+    "meaning_en": "ask the names of two or more people",
+    "example": "What are their names? - He's Buli. She's Georgie."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Verb to be with names: I'm / he's / she's",
+    "explanation_ar": "نستخدم فعل الكون (be) لتعريف الأشخاص: I am (I'm)، he is (he's)، she is (she's)، they are (they're). في الكلام نستخدم الصيغة المختصرة غالبًا.",
+    "explanation_en": "Use the verb \"be\" to say who people are: I'm, he's, she's, they're. In speaking we usually use the short forms.",
+    "examples": [
+     "I'm Tim.",
+     "He's Buli.",
+     "She's Georgie.",
+     "They're my friends."
+    ]
+   },
+   {
+    "title": "Possessive adjectives: my, your, his, her, their",
+    "explanation_ar": "تأتي هذه الكلمات قبل الاسم لتبيّن صاحبه: my name (اسمي)، your name (اسمك)، his name (اسمه)، her name (اسمها)، their names (أسماؤهم). لا تتغير مع المفرد أو الجمع.",
+    "explanation_en": "These words go before a noun to show who it belongs to: my, your, his, her, their.",
+    "examples": [
+     "What's your name?",
+     "His name's Buli.",
+     "Her name's Sian.",
+     "What are their names?"
+    ]
+   },
+   {
+    "title": "Questions with What's ...?",
+    "explanation_ar": "What's = What is. نستخدمها للسؤال عن الاسم: What's your name? ومع الجمع نستخدم What are: What are their names?",
+    "explanation_en": "\"What's\" = \"What is\". Use \"What are\" with plural nouns.",
+    "examples": [
+     "What's your name?",
+     "What's her name?",
+     "What are their names?"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Someone says \"Nice to meet you.\" What is the best reply?",
+   "choices": [
+    "Nice to meet you too.",
+    "I'm fine.",
+    "Goodbye.",
+    "My name too."
+   ],
+   "answer": 0,
+   "explanation_ar": "الرد المعتاد هو Nice to meet you too أي وأنا أيضًا سُررت بلقائك.",
+   "explanation_en": "The normal reply is \"Nice to meet you too.\""
+  },
+  {
+   "question": "What's ___ name? - Her name's Sian.",
+   "choices": [
+    "his",
+    "her",
+    "their",
+    "my"
+   ],
+   "answer": 1,
+   "explanation_ar": "الجواب عن امرأة (Her name's Sian)، لذا نسأل بـ her.",
+   "explanation_en": "The answer is about a woman, so we ask with \"her\"."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "My is Tim.",
+    "I Tim.",
+    "I'm Tim.",
+    "Me name Tim."
+   ],
+   "answer": 2,
+   "explanation_ar": "الصحيح I'm Tim = I am Tim.",
+   "explanation_en": "\"I'm Tim\" means \"I am Tim\"."
+  },
+  {
+   "question": "What ___ their names?",
+   "choices": [
+    "is",
+    "am",
+    "be",
+    "are"
+   ],
+   "answer": 3,
+   "explanation_ar": "names جمع، لذا نستخدم are.",
+   "explanation_en": "\"Names\" is plural, so we use \"are\"."
+  },
+  {
+   "question": "Buli is a man. ___ name's Buli.",
+   "choices": [
+    "His",
+    "Her",
+    "Their",
+    "Your"
+   ],
+   "answer": 0,
+   "explanation_ar": "بولي رجل، لذا نقول His name.",
+   "explanation_en": "Buli is a man, so we say \"His\"."
+  },
+  {
+   "question": "What does \"surname\" mean?",
+   "choices": [
+    "your first name",
+    "your family name",
+    "your friend's name",
+    "a nickname"
+   ],
+   "answer": 1,
+   "explanation_ar": "surname هو اسم العائلة.",
+   "explanation_en": "A surname is your family name."
+  },
+  {
+   "question": "\"She's Georgie.\" What is \"she's\"?",
+   "choices": [
+    "she has",
+    "she was",
+    "she is",
+    "she does"
+   ],
+   "answer": 2,
+   "explanation_ar": "she's هنا اختصار she is.",
+   "explanation_en": "Here \"she's\" is short for \"she is\"."
+  },
+  {
+   "question": "Which question asks about two people?",
+   "choices": [
+    "What's his name?",
+    "What's her name?",
+    "What's your name?",
+    "What are their names?"
+   ],
+   "answer": 3,
+   "explanation_ar": "their للجمع، والسؤال عن شخصين.",
+   "explanation_en": "\"Their\" is for two or more people."
+  },
+  {
+   "question": "\"Hi\" is ...",
+   "choices": [
+    "an informal hello",
+    "a goodbye",
+    "a question",
+    "a name"
+   ],
+   "answer": 0,
+   "explanation_ar": "Hi طريقة غير رسمية لقول مرحبًا.",
+   "explanation_en": "\"Hi\" is an informal way to say hello."
+  },
+  {
+   "question": "Complete: \"Hello, I'm Tim.\" - \"Hi, Tim. ___\"",
+   "choices": [
+    "Nice to meet you.",
+    "Nice to meet you too.",
+    "What are their names?",
+    "Her name's Sian."
+   ],
+   "answer": 0,
+   "explanation_ar": "عندما يعرّف شخص بنفسه أولًا نقول Nice to meet you، وتأتي too في الرد عليها.",
+   "explanation_en": "When someone first introduces himself, say \"Nice to meet you.\" \"Too\" comes in the reply."
+  }
+ ]
+}

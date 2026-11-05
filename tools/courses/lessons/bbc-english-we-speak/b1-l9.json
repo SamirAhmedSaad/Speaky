@@ -1,0 +1,367 @@
+{
+  "title": "Human body expressions",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "heel",
+        "pos": "noun",
+        "meaning_en": "the back part of your foot",
+        "meaning_ar": "كعب القدم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My new shoes hurt my heels."
+      },
+      {
+        "word": "footprint",
+        "pos": "noun",
+        "meaning_en": "a mark left by a foot; the effect you have on the environment",
+        "meaning_ar": "أثر القدم / البصمة البيئية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There were footprints in the snow."
+      },
+      {
+        "word": "plastic",
+        "pos": "noun",
+        "meaning_en": "a light material made from chemicals, used for bags, bottles etc.",
+        "meaning_ar": "بلاستيك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Try to use less plastic."
+      },
+      {
+        "word": "carbon",
+        "pos": "noun",
+        "meaning_en": "a chemical element; here, the gases (CO2) that harm the climate",
+        "meaning_ar": "كربون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Cars produce carbon dioxide."
+      },
+      {
+        "word": "environment",
+        "pos": "noun",
+        "meaning_en": "the natural world: air, water, land",
+        "meaning_ar": "البيئة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We must protect the environment."
+      },
+      {
+        "word": "determined",
+        "pos": "adjective",
+        "meaning_en": "having decided strongly to do something",
+        "meaning_ar": "عازم / مصمّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She was determined to win."
+      },
+      {
+        "word": "concentrate",
+        "pos": "verb",
+        "meaning_en": "to think carefully about one thing",
+        "meaning_ar": "يركّز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't concentrate with this noise."
+      },
+      {
+        "word": "tongue",
+        "pos": "noun",
+        "meaning_en": "the soft part inside your mouth used for tasting and speaking",
+        "meaning_ar": "لسان",
+        "note_ar": "تُنطق /tʌŋ/.",
+        "note_en": "Say /tʌŋ/.",
+        "example": "Don't burn your tongue on the hot soup."
+      },
+      {
+        "word": "thumb",
+        "pos": "noun",
+        "meaning_en": "the short thick finger on your hand",
+        "meaning_ar": "إبهام",
+        "note_ar": "حرف b صامت: /θʌm/.",
+        "note_en": "The 'b' is silent: /θʌm/.",
+        "example": "He hurt his thumb."
+      },
+      {
+        "word": "bored",
+        "pos": "adjective",
+        "meaning_en": "tired and unhappy because nothing interesting is happening",
+        "meaning_ar": "يشعر بالملل",
+        "note_ar": "الصفة للسبب: boring.",
+        "note_en": "Cause: boring.",
+        "example": "I was bored at the airport."
+      },
+      {
+        "word": "feast",
+        "pos": "noun / verb",
+        "meaning_en": "a large special meal; to eat a lot with pleasure",
+        "meaning_ar": "وليمة / يتلذذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They had a feast at the wedding."
+      },
+      {
+        "word": "rent",
+        "pos": "noun",
+        "meaning_en": "money you pay to live in a place",
+        "meaning_ar": "إيجار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The rent is due on Monday."
+      },
+      {
+        "word": "waste",
+        "pos": "noun",
+        "meaning_en": "things that are thrown away",
+        "meaning_ar": "نفايات / هدر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Food waste is a big problem."
+      },
+      {
+        "word": "reduce",
+        "pos": "verb",
+        "meaning_en": "to make smaller or less",
+        "meaning_ar": "يقلّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Reduce your sugar."
+      },
+      {
+        "word": "constantly",
+        "pos": "adverb",
+        "meaning_en": "all the time",
+        "meaning_ar": "باستمرار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's constantly on his phone."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Carbon footprint vs plastic footprint",
+        "words": [
+          "carbon footprint",
+          "plastic footprint"
+        ],
+        "explanation_ar": "carbon footprint كمية الغازات الضارة (مثل ثاني أكسيد الكربون) التي تنتج عن نشاطك، كالسفر بالطائرة أو القيادة. plastic footprint كمية البلاستيك التي تستعملها وترميها.",
+        "explanation_en": "Your carbon footprint is the amount of harmful gas (CO2) your activities produce, e.g. flying or driving. Your plastic footprint is the amount of plastic you use and throw away.",
+        "examples": [
+          {
+            "word": "carbon footprint",
+            "sentence": "Taking the train instead of flying lowers your carbon footprint."
+          },
+          {
+            "word": "plastic footprint",
+            "sentence": "Using a refillable bottle reduces your plastic footprint."
+          }
+        ]
+      },
+      {
+        "title": "Bite your tongue vs twiddle your thumbs",
+        "words": [
+          "bite your tongue",
+          "twiddle your thumbs"
+        ],
+        "explanation_ar": "bite your tongue أن تمنع نفسك من قول شيء تريد قوله. twiddle your thumbs أن تبقى بلا عمل وتنتظر بملل.",
+        "explanation_en": "'Bite your tongue' = stop yourself from saying something. 'Twiddle your thumbs' = wait and do nothing because you have nothing to do.",
+        "examples": [
+          {
+            "word": "bite your tongue",
+            "sentence": "I wanted to argue, but I bit my tongue."
+          },
+          {
+            "word": "twiddle your thumbs",
+            "sentence": "The internet was down, so we just twiddled our thumbs."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "head over heels",
+        "meaning_ar": "رأساً على عقب / بشدة وتماماً",
+        "meaning_en": "(1) turning over completely, e.g. when falling; (2) completely and very much",
+        "example": "He tripped on the step and fell head over heels."
+      },
+      {
+        "phrase": "plastic footprint",
+        "meaning_ar": "البصمة البلاستيكية",
+        "meaning_en": "the amount of plastic a person or company uses and throws away",
+        "example": "Our school is trying to reduce its plastic footprint."
+      },
+      {
+        "phrase": "game face",
+        "meaning_ar": "وجه الجدية والتركيز",
+        "meaning_en": "a serious, determined expression before a competition or challenge",
+        "example": "Before the final, she put her game face on."
+      },
+      {
+        "phrase": "bite your tongue",
+        "meaning_ar": "اكتم كلامك / امسك لسانك",
+        "meaning_en": "to stop yourself from saying what you think",
+        "example": "I wanted to complain about the food, but I bit my tongue."
+      },
+      {
+        "phrase": "twiddle your thumbs",
+        "meaning_ar": "يقضي الوقت بلا عمل",
+        "meaning_en": "to wait with nothing to do",
+        "example": "The meeting started late, so we sat twiddling our thumbs."
+      },
+      {
+        "phrase": "carbon footprint",
+        "meaning_ar": "البصمة الكربونية",
+        "meaning_en": "the amount of carbon dioxide your activities put into the air",
+        "example": "Cycling to work helps cut my carbon footprint."
+      },
+      {
+        "phrase": "feast your eyes (on something)",
+        "meaning_ar": "متّع ناظريك",
+        "meaning_en": "to look at something with great pleasure",
+        "example": "Feast your eyes on this beautiful view!"
+      },
+      {
+        "phrase": "live rent-free in someone's head",
+        "meaning_ar": "يشغل تفكير شخص باستمرار",
+        "meaning_en": "to be something someone can't stop thinking about",
+        "example": "That silly mistake I made in the exam lives rent-free in my head."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Changing the pronoun in body idioms",
+        "explanation_ar": "في تعابير الجسم نغيّر كلمة الملكية حسب الفاعل: I bit my tongue، she bit her tongue، they twiddled their thumbs. والفعل bite ماضيه bit.",
+        "explanation_en": "In body idioms, change the possessive to match the subject: I bit my tongue, she bit her tongue, they twiddled their thumbs. Note: bite → bit (past).",
+        "examples": [
+          "I bit my tongue.",
+          "He put his game face on.",
+          "Feast your eyes on this!",
+          "That joke lives rent-free in my head."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'Bite your tongue' means:",
+      "choices": [
+        "eat quickly",
+        "stop yourself from speaking",
+        "say something rude",
+        "taste food"
+      ],
+      "answer": 1,
+      "explanation_ar": "bite your tongue = امنع نفسك من الكلام.",
+      "explanation_en": "Stop yourself from saying something."
+    },
+    {
+      "question": "Before the race he had his ___ on - serious and focused.",
+      "choices": [
+        "game face",
+        "plastic footprint",
+        "head over heels",
+        "thumbs"
+      ],
+      "answer": 0,
+      "explanation_ar": "game face = وجه الجدية والتركيز.",
+      "explanation_en": "A game face is a serious, determined look."
+    },
+    {
+      "question": "Flying often makes your ___ bigger.",
+      "choices": [
+        "game face",
+        "tongue",
+        "carbon footprint",
+        "heels"
+      ],
+      "answer": 2,
+      "explanation_ar": "السفر بالطائرة يزيد البصمة الكربونية.",
+      "explanation_en": "Flying increases your carbon footprint."
+    },
+    {
+      "question": "The train was cancelled, so we sat ___ for two hours.",
+      "choices": [
+        "biting our tongues",
+        "feasting our eyes",
+        "putting our game face on",
+        "twiddling our thumbs"
+      ],
+      "answer": 3,
+      "explanation_ar": "twiddle your thumbs = الانتظار بلا عمل.",
+      "explanation_en": "Waiting with nothing to do."
+    },
+    {
+      "question": "'Feast your eyes on this cake!' means:",
+      "choices": [
+        "Look at it with pleasure",
+        "Eat it quickly",
+        "Close your eyes",
+        "Don't touch it"
+      ],
+      "answer": 0,
+      "explanation_ar": "feast your eyes = متّع ناظريك.",
+      "explanation_en": "Look at it and enjoy it."
+    },
+    {
+      "question": "Using cloth bags instead of plastic bags reduces your ___ .",
+      "choices": [
+        "game face",
+        "plastic footprint",
+        "head",
+        "tongue"
+      ],
+      "answer": 1,
+      "explanation_ar": "plastic footprint = كمية البلاستيك التي تستهلكها.",
+      "explanation_en": "It reduces the plastic you use."
+    },
+    {
+      "question": "'That advert lives rent-free in my head' means:",
+      "choices": [
+        "I pay rent for it",
+        "I don't remember it",
+        "I keep thinking about it",
+        "I made it"
+      ],
+      "answer": 2,
+      "explanation_ar": "live rent-free in someone's head = يشغل التفكير باستمرار.",
+      "explanation_en": "You can't stop thinking about it."
+    },
+    {
+      "question": "He slipped on the ice and fell ___ .",
+      "choices": [
+        "game face",
+        "twiddle thumbs",
+        "rent-free",
+        "head over heels"
+      ],
+      "answer": 3,
+      "explanation_ar": "head over heels = انقلب رأساً على عقب.",
+      "explanation_en": "He turned over completely as he fell."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "She bit her tongue.",
+        "She bited her tongue.",
+        "She bit his tongue.",
+        "She bite her tongue yesterday."
+      ],
+      "answer": 0,
+      "explanation_ar": "ماضي bite هو bit، والملكية her تعود على she.",
+      "explanation_en": "Past of bite = bit; 'she ... her'."
+    },
+    {
+      "question": "Which expression is about the ENVIRONMENT?",
+      "choices": [
+        "game face",
+        "carbon footprint",
+        "bite your tongue",
+        "feast your eyes"
+      ],
+      "answer": 1,
+      "explanation_ar": "carbon footprint يتعلق بالبيئة.",
+      "explanation_en": "Carbon footprint is about the environment."
+    }
+  ]
+}

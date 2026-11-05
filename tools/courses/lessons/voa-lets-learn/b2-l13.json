@@ -1,0 +1,55 @@
+{
+  "title": "Save the Bees!",
+  "content": {
+    "vocabulary": [
+      {"word": "protect", "pos": "verb", "meaning_en": "to keep someone or something safe", "meaning_ar": "يحمي", "note_ar": "protective = واقٍ", "note_en": "Adjective: protective.", "example": "Beekeepers protect themselves."},
+      {"word": "protective clothing", "pos": "noun", "meaning_en": "special clothes that keep you safe", "meaning_ar": "ملابس واقية", "note_ar": "", "note_en": "", "example": "Let's put on our protective clothing."},
+      {"word": "veil", "pos": "noun", "meaning_en": "a thin cloth or net that covers the face", "meaning_ar": "قناع شبكي / غطاء للوجه", "note_ar": "", "note_en": "", "example": "A beekeeper's veil protects the face."},
+      {"word": "suit", "pos": "noun", "meaning_en": "a set of clothes that covers the body", "meaning_ar": "بدلة", "note_ar": "", "note_en": "", "example": "She wore a white bee suit."},
+      {"word": "gloves", "pos": "noun", "meaning_en": "clothes for your hands", "meaning_ar": "قفازات", "note_ar": "", "note_en": "", "example": "Wear gloves when you work with bees."},
+      {"word": "smoker", "pos": "noun", "meaning_en": "a tool that makes smoke to calm bees", "meaning_ar": "مِدخنة (أداة النحّالين)", "note_ar": "", "note_en": "", "example": "If I use a smoker, the bees will stay calm."},
+      {"word": "frame", "pos": "noun", "meaning_en": "a wooden part inside a hive where bees make honey", "meaning_ar": "إطار (في الخلية)", "note_ar": "", "note_en": "", "example": "When I lift the frame, you will see the bees."},
+      {"word": "lift", "pos": "verb", "meaning_en": "to move something up", "meaning_ar": "يرفع", "note_ar": "", "note_en": "", "example": "Please lift the box carefully."},
+      {"word": "worker bee", "pos": "noun", "meaning_en": "a bee that collects food and makes honey", "meaning_ar": "النحلة العاملة", "note_ar": "", "note_en": "", "example": "Worker bees bring nectar to the hive."},
+      {"word": "drone", "pos": "noun", "meaning_en": "a male bee", "meaning_ar": "ذكر النحل", "note_ar": "وتعني أيضًا الطائرة المسيّرة", "note_en": "Also means a flying robot.", "example": "Drones do not make honey."},
+      {"word": "queen bee", "pos": "noun", "meaning_en": "the bee that lays all the eggs", "meaning_ar": "ملكة النحل", "note_ar": "", "note_en": "", "example": "The queen bee lays the eggs."},
+      {"word": "lay eggs", "pos": "phrase", "meaning_en": "to produce eggs from the body", "meaning_ar": "يضع البيض", "note_ar": "lay - laid - laid", "note_en": "lay - laid - laid", "example": "Chickens lay eggs."},
+      {"word": "nectar", "pos": "noun", "meaning_en": "a sweet liquid inside flowers", "meaning_ar": "رحيق", "note_ar": "", "note_en": "", "example": "Bees collect nectar from flowers."},
+      {"word": "pollen", "pos": "noun", "meaning_en": "a fine yellow powder from flowers", "meaning_ar": "حبوب اللقاح", "note_ar": "", "note_en": "", "example": "Pollen sticks to the bee's legs."},
+      {"word": "native", "pos": "adjective", "meaning_en": "growing naturally in a place", "meaning_ar": "محلي (أصلي في المنطقة)", "note_ar": "", "note_en": "", "example": "Plant native flowers that bees like."},
+      {"word": "flavor", "pos": "noun", "meaning_en": "the taste of food", "meaning_ar": "نكهة", "note_ar": "في بريطانيا: flavour", "note_en": "UK: flavour.", "example": "Flowers affect the flavor of honey."},
+      {"word": "local", "pos": "adjective", "meaning_en": "from the area near you", "meaning_ar": "محلي", "note_ar": "", "note_en": "", "example": "Buying local honey helps the bees."},
+      {"word": "business card", "pos": "noun", "meaning_en": "a small card with your name and work details", "meaning_ar": "بطاقة عمل", "note_ar": "", "note_en": "", "example": "Here is my business card."},
+      {"word": "puppet", "pos": "noun", "meaning_en": "a toy figure you move with your hand or strings", "meaning_ar": "دمية متحركة", "note_ar": "", "note_en": "", "example": "The children laughed at the puppet."},
+      {"word": "scared", "pos": "adjective", "meaning_en": "afraid", "meaning_ar": "خائف", "note_ar": "", "note_en": "", "example": "Look, I'm not scared."}
+    ],
+    "fine_lines": [
+      {"title": "Type 1 vs Type 2 conditionals", "words": ["will", "would"], "explanation_ar": "النوع الأول: If + مضارع ... will (شيء حقيقي محتمل): If they don't eat, they won't live. النوع الثاني: If + ماضٍ ... would (شيء متخيَّل): If I wanted to help the bees, what would I do?", "explanation_en": "Type 1: If + present ... will (real and likely): If they don't eat, they won't live. Type 2: If + past ... would (imagined): If I wanted to help the bees, what would I do?", "examples": [{"word": "will", "sentence": "If you practice, you will become better."}, {"word": "would", "sentence": "If I worked with bees, I would not need protective clothing."}]},
+      {"title": "scared vs scary", "words": ["scared", "scary"], "explanation_ar": "scared = خائف (يصف شعور الشخص). scary = مخيف (يصف الشيء الذي يسبب الخوف).", "explanation_en": "Scared describes how a person feels. Scary describes the thing that causes the fear.", "examples": [{"word": "scared", "sentence": "Anna is not scared anymore."}, {"word": "scary", "sentence": "Bees were scary to Anna."}]}
+    ],
+    "expressions": [
+      {"phrase": "I have a feeling that...", "meaning_ar": "لديّ إحساس بأن...", "meaning_en": "I think that... (but I'm not sure).", "example": "I have a feeling that it will rain."},
+      {"phrase": "Let's do this thing!", "meaning_ar": "هيا نفعلها!", "meaning_en": "I'm ready; let's start.", "example": "The bags are ready. Let's do this thing!"},
+      {"phrase": "busy as a bee", "meaning_ar": "مشغول جدًا (كالنحلة)", "meaning_en": "very busy", "example": "My mother is busy as a bee before guests come."},
+      {"phrase": "Great question.", "meaning_ar": "سؤال رائع.", "meaning_en": "That is a good question.", "example": "How do bees make honey? Great question."},
+      {"phrase": "make a big difference", "meaning_ar": "يُحدث فرقًا كبيرًا", "meaning_en": "to be very important; to change things a lot", "example": "Small actions can make a big difference."},
+      {"phrase": "I'll let you see yourself out.", "meaning_ar": "يمكنك أن تخرج بنفسك (لن أرافقك إلى الباب).", "meaning_en": "You can find the door and leave on your own.", "example": "Thanks for coming. I'll let you see yourself out."},
+      {"phrase": "Take care!", "meaning_ar": "اعتنِ بنفسك!", "meaning_en": "A friendly way to say goodbye.", "example": "Bye, see you next week. Take care!"}
+    ],
+    "grammar": [
+      {"title": "Conditionals: Type 1 and Type 2 (practice)", "explanation_ar": "النوع الأول: If + مضارع بسيط، will/won't + فعل، لشيء حقيقي نتيجته محتملة جدًا (If I use a smoker, the bees will stay calm). النوع الثاني: If + ماضٍ بسيط، would + فعل، لموقف متخيَّل أو غير مرجّح (If I worked with bees, I would not need protective clothing). في السؤال: If I wanted to help, what would I do? ويمكن استخدام صيغة الأمر في النتيجة: If you want to help bees, do those two things.", "explanation_en": "Type 1: If + present simple, will/won't + verb, for a real situation with a likely result. Type 2: If + past simple, would + verb, for an imagined situation. Questions: If I wanted to help, what would I do? You can also use an imperative: If you want to help bees, do those two things.", "examples": ["If I use a smoker, the bees will stay calm.", "If they don't eat, they won't live.", "If I wanted to help the bees, what would I do?", "If you practice, you will become better at them."]}
+    ]
+  },
+  "questions": [
+    {"question": "If they don't eat, they ____ live.", "choices": ["won't", "wouldn't", "didn't", "don't will"], "answer": 0, "explanation_ar": "النوع الأول: If + مضارع، won't + فعل.", "explanation_en": "Type 1: If + present, won't + verb."},
+    {"question": "If I ____ with bees, I would not need protective clothing.", "choices": ["work", "will work", "worked", "working"], "answer": 2, "explanation_ar": "النوع الثاني: If + ماضٍ، would + فعل.", "explanation_en": "Type 2: If + past, would + verb."},
+    {"question": "Which bee lays the eggs?", "choices": ["the worker bee", "the drone", "the queen bee", "all bees"], "answer": 2, "explanation_ar": "ملكة النحل هي التي تضع البيض.", "explanation_en": "The queen bee lays the eggs."},
+    {"question": "The sweet liquid inside flowers is ____.", "choices": ["pollen", "honey", "flavor", "nectar"], "answer": 3, "explanation_ar": "nectar = الرحيق.", "explanation_en": "Nectar is the sweet liquid in flowers."},
+    {"question": "'Busy as a bee' means:", "choices": ["very busy", "very afraid", "very slow", "very sweet"], "answer": 0, "explanation_ar": "تعني مشغولًا جدًا.", "explanation_en": "It means very busy."},
+    {"question": "Choose the correct sentence.", "choices": ["The bees were scared to Anna.", "Anna was scary of bees.", "Anna is not scared now.", "Anna is not scary of bees now."], "answer": 2, "explanation_ar": "scared تصف شعور الشخص.", "explanation_en": "Scared describes a person's feeling."},
+    {"question": "What tool keeps bees calm?", "choices": ["a veil", "a smoker", "a frame", "a puppet"], "answer": 1, "explanation_ar": "smoker أداة تصنع الدخان لتهدئة النحل.", "explanation_en": "A smoker makes smoke to keep bees calm."},
+    {"question": "Which two things help bees, says Caroline?", "choices": ["swatting and running", "using smoke and gloves", "selling honey and puppets", "planting native flowers and buying local honey"], "answer": 3, "explanation_ar": "زراعة الأزهار المحلية وشراء العسل المحلي.", "explanation_en": "Plant native flowers and buy local honey."},
+    {"question": "If you practice, you ____ better.", "choices": ["will become", "would became", "became", "becoming"], "answer": 0, "explanation_ar": "النوع الأول: practice ... will become.", "explanation_en": "Type 1: practice ... will become."},
+    {"question": "'Native flowers' are flowers that ____.", "choices": ["come from another country", "grow naturally in the area", "are made of paper", "have no smell"], "answer": 1, "explanation_ar": "native = أصلي في المنطقة.", "explanation_en": "Native means growing naturally in a place."}
+  ]
+}

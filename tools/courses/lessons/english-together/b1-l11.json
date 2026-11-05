@@ -1,0 +1,436 @@
+{
+  "title": "My Day",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "sunny",
+        "pos": "adjective",
+        "meaning_en": "with a lot of sunshine",
+        "meaning_ar": "مشمس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is a sunny day."
+      },
+      {
+        "word": "wake up",
+        "pos": "phrasal verb",
+        "meaning_en": "stop sleeping",
+        "meaning_ar": "يستيقظ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wake up at 7 a.m."
+      },
+      {
+        "word": "a.m.",
+        "pos": "abbreviation",
+        "meaning_en": "in the morning (before 12 noon)",
+        "meaning_ar": "صباحًا",
+        "note_ar": "p.m. = بعد الظهر/مساءً",
+        "note_en": "p.m. = after 12 noon.",
+        "example": "School starts at 8 a.m."
+      },
+      {
+        "word": "cereal",
+        "pos": "noun",
+        "meaning_en": "food made from grain, eaten with milk",
+        "meaning_ar": "حبوب الإفطار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I eat cereal for breakfast."
+      },
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "meaning_en": "the first meal of the day",
+        "meaning_ar": "الفطور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Breakfast is ready."
+      },
+      {
+        "word": "near",
+        "pos": "preposition",
+        "meaning_en": "not far from",
+        "meaning_ar": "قريب من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My school is near my home."
+      },
+      {
+        "word": "on foot",
+        "pos": "phrase",
+        "meaning_en": "walking",
+        "meaning_ar": "سيرًا على الأقدام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I go to the shop on foot."
+      },
+      {
+        "word": "by bus",
+        "pos": "phrase",
+        "meaning_en": "using a bus",
+        "meaning_ar": "بالحافلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My father goes to work by bus."
+      },
+      {
+        "word": "question",
+        "pos": "noun",
+        "meaning_en": "something you ask",
+        "meaning_ar": "سؤال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I ask a question?"
+      },
+      {
+        "word": "lunch",
+        "pos": "noun",
+        "meaning_en": "the meal in the middle of the day",
+        "meaning_ar": "الغداء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have lunch at one o'clock."
+      },
+      {
+        "word": "sandwich",
+        "pos": "noun",
+        "meaning_en": "two pieces of bread with food between them",
+        "meaning_ar": "شطيرة / ساندويتش",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a cheese sandwich."
+      },
+      {
+        "word": "outside",
+        "pos": "adverb",
+        "meaning_en": "not in a building",
+        "meaning_ar": "في الخارج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The children play outside."
+      },
+      {
+        "word": "hide and seek",
+        "pos": "noun",
+        "meaning_en": "a game where one child looks for the others",
+        "meaning_ar": "لعبة الغميضة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's play hide and seek!"
+      },
+      {
+        "word": "take a shower",
+        "pos": "phrase",
+        "meaning_en": "wash your body under running water",
+        "meaning_ar": "يستحمّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I take a shower after football."
+      },
+      {
+        "word": "homework",
+        "pos": "noun",
+        "meaning_en": "school work you do at home",
+        "meaning_ar": "الواجب المنزلي",
+        "note_ar": "غير معدودة: لا نقول homeworks",
+        "note_en": "Uncountable: no -s.",
+        "example": "I do my homework after school."
+      },
+      {
+        "word": "soup",
+        "pos": "noun",
+        "meaning_en": "hot liquid food",
+        "meaning_ar": "حساء / شوربة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My mother cooks lentil soup."
+      },
+      {
+        "word": "dinner",
+        "pos": "noun",
+        "meaning_en": "the main meal in the evening",
+        "meaning_ar": "العشاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have dinner together."
+      },
+      {
+        "word": "delicious",
+        "pos": "adjective",
+        "meaning_en": "tasting very good",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The soup is delicious."
+      },
+      {
+        "word": "storybook",
+        "pos": "noun",
+        "meaning_en": "a book with stories, usually for children",
+        "meaning_ar": "كتاب قصص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I read a storybook before bed."
+      },
+      {
+        "word": "go to bed",
+        "pos": "phrase",
+        "meaning_en": "lie down in bed to sleep",
+        "meaning_ar": "يذهب إلى النوم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I go to bed at nine."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "by bus vs on foot",
+        "words": [
+          "by bus",
+          "on foot"
+        ],
+        "explanation_ar": "نستخدم by مع وسائل النقل: by bus, by car. أما المشي فنقول on foot (وليس by foot).",
+        "explanation_en": "Use \"by\" with transport: by bus, by car. For walking say \"on foot\".",
+        "examples": [
+          {
+            "word": "by bus",
+            "sentence": "I go to school by bus."
+          },
+          {
+            "word": "on foot",
+            "sentence": "I go to school on foot."
+          }
+        ]
+      },
+      {
+        "title": "breakfast vs lunch vs dinner",
+        "words": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "explanation_ar": "breakfast وجبة الصباح، و lunch وجبة منتصف النهار، و dinner وجبة المساء.",
+        "explanation_en": "Breakfast is in the morning, lunch at midday, dinner in the evening.",
+        "examples": [
+          {
+            "word": "breakfast",
+            "sentence": "I eat cereal for breakfast."
+          },
+          {
+            "word": "lunch",
+            "sentence": "I have lunch at school."
+          },
+          {
+            "word": "dinner",
+            "sentence": "We eat soup for dinner."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "It is a sunny day.",
+        "meaning_ar": "إنه يوم مشمس.",
+        "meaning_en": "Talk about the weather.",
+        "example": "Let's go out. It is a sunny day."
+      },
+      {
+        "phrase": "I wake up at 8 a.m.",
+        "meaning_ar": "أستيقظ الساعة الثامنة صباحًا.",
+        "meaning_en": "Say the time you wake up.",
+        "example": "I wake up at 6 a.m."
+      },
+      {
+        "phrase": "I eat cereal for breakfast.",
+        "meaning_ar": "آكل حبوب الإفطار في الفطور.",
+        "meaning_en": "Say what you eat for a meal.",
+        "example": "I eat bread and cheese for breakfast."
+      },
+      {
+        "phrase": "My school is near my home.",
+        "meaning_ar": "مدرستي قريبة من بيتي.",
+        "meaning_en": "Say where a place is.",
+        "example": "The mosque is near my home."
+      },
+      {
+        "phrase": "I go to school on foot.",
+        "meaning_ar": "أذهب إلى المدرسة سيرًا على الأقدام.",
+        "meaning_en": "Say how you go to school.",
+        "example": "I don't go by bus. I go on foot."
+      },
+      {
+        "phrase": "I like asking questions.",
+        "meaning_ar": "أحب طرح الأسئلة.",
+        "meaning_en": "Say what you like doing.",
+        "example": "In class, I like asking questions."
+      },
+      {
+        "phrase": "Then I do my homework.",
+        "meaning_ar": "ثم أقوم بواجبي المنزلي.",
+        "meaning_en": "Say the next thing you do.",
+        "example": "I eat lunch. Then I do my homework."
+      },
+      {
+        "phrase": "This is my day.",
+        "meaning_ar": "هذا هو يومي.",
+        "meaning_en": "End a talk about your routine.",
+        "example": "Then I go to bed. This is my day."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple: I / my mother",
+        "explanation_ar": "نستخدم المضارع البسيط للعادات اليومية. مع I الفعل في أصله: I go, I eat. ومع he/she/my mother نضيف s: My mother cooks soup.",
+        "explanation_en": "Present simple for habits. With I: base verb. With he/she: add -s (my mother cooks).",
+        "examples": [
+          "I go to school on foot.",
+          "I have lunch at school.",
+          "My mother always cooks soup for dinner."
+        ]
+      },
+      {
+        "title": "Negative: do not + verb",
+        "explanation_ar": "للنفي في المضارع البسيط مع I/you/we/they نستخدم do not (don't) + الفعل في أصله: I do not go to school by bus.",
+        "explanation_en": "Negative: do not (don't) + base verb.",
+        "examples": [
+          "I do not go to school by bus.",
+          "I don't eat breakfast late.",
+          "We don't play outside at night."
+        ]
+      },
+      {
+        "title": "Telling the time: at + time",
+        "explanation_ar": "نستخدم at مع الساعات: at 8 a.m.، at 7 o'clock.",
+        "explanation_en": "Use \"at\" with clock times: at 8 a.m.",
+        "examples": [
+          "I wake up at 8 a.m.",
+          "I go to bed at 9 o'clock.",
+          "Lunch is at 12."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I wake up ___ 8 a.m.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع الساعة نستخدم at.",
+      "explanation_en": "Use \"at\" with times."
+    },
+    {
+      "question": "I go to school ___ foot.",
+      "choices": [
+        "by",
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول on foot.",
+      "explanation_en": "We say \"on foot\"."
+    },
+    {
+      "question": "I do not go to school ___ bus.",
+      "choices": [
+        "by",
+        "on",
+        "at",
+        "with"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول by bus.",
+      "explanation_en": "We say \"by bus\"."
+    },
+    {
+      "question": "My mother always ___ soup for dinner.",
+      "choices": [
+        "cook",
+        "cooking",
+        "cooks",
+        "to cook"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع my mother (she) نضيف s.",
+      "explanation_en": "With \"my mother\" (she) add -s."
+    },
+    {
+      "question": "Choose the correct negative sentence.",
+      "choices": [
+        "I not go by bus.",
+        "I does not go by bus.",
+        "I am not go by bus.",
+        "I do not go by bus."
+      ],
+      "answer": 3,
+      "explanation_ar": "النفي: I do not + الفعل.",
+      "explanation_en": "Negative: I do not + verb."
+    },
+    {
+      "question": "What do you eat at midday?",
+      "choices": [
+        "lunch",
+        "breakfast",
+        "dinner",
+        "homework"
+      ],
+      "answer": 0,
+      "explanation_ar": "lunch وجبة منتصف النهار.",
+      "explanation_en": "Lunch is at midday."
+    },
+    {
+      "question": "\"Hide and seek\" is a...",
+      "choices": [
+        "meal",
+        "game",
+        "book",
+        "school"
+      ],
+      "answer": 1,
+      "explanation_ar": "hide and seek لعبة الغميضة.",
+      "explanation_en": "It is a children's game."
+    },
+    {
+      "question": "The soup is ___. I love it!",
+      "choices": [
+        "sunny",
+        "near",
+        "delicious",
+        "outside"
+      ],
+      "answer": 2,
+      "explanation_ar": "delicious تعني لذيذ.",
+      "explanation_en": "Delicious means tasting very good."
+    },
+    {
+      "question": "After school, I do my ___.",
+      "choices": [
+        "homeworks",
+        "homework",
+        "a homework",
+        "home works"
+      ],
+      "answer": 1,
+      "explanation_ar": "homework غير معدودة.",
+      "explanation_en": "\"Homework\" is uncountable."
+    },
+    {
+      "question": "Which word means \"in the morning\"?",
+      "choices": [
+        "p.m.",
+        "a.m.",
+        "night",
+        "dinner"
+      ],
+      "answer": 1,
+      "explanation_ar": "a.m. تعني صباحًا.",
+      "explanation_en": "a.m. means in the morning."
+    }
+  ]
+}

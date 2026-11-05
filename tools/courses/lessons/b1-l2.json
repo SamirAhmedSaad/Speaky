@@ -397,7 +397,7 @@
           "choose",
           "select"
         ],
-        "explanation_ar": "choose تعني الاختيار بين بدائل مختلفة عن بعضها (طريقة دفع، مرشح في الانتخابات، شريك حياة). select تعني اختيار شيء من قائمة فيها أشياء متشابهة (من قائمة الطعام، من مقاسات أو ألوان). إذا لم يكن الفرق واضحاً فالكلمتان صحيحتان: choose توحي بأن ما اخترته مميز عن غيره، و select توحي بأنك أخذت واحداً من مجموعة متشابهة.",
+        "explanation_ar": "choose تعني الاختيار بين بدائل مختلفة عن بعضها (طريقة دفع، مرشح في الانتخابات، جامعة). select تعني اختيار شيء من قائمة فيها أشياء متشابهة (من قائمة الطعام، من مقاسات أو ألوان). إذا لم يكن الفرق واضحاً فالكلمتان صحيحتان: choose توحي بأن ما اخترته مميز عن غيره، و select توحي بأنك أخذت واحداً من مجموعة متشابهة.",
         "examples": [
           {
             "word": "select",
@@ -416,7 +416,7 @@
             "sentence": "Select your size from the list."
           }
         ],
-        "explanation_en": "\"Choose\" means picking between options that are different from each other (a way to pay, a candidate, a life partner). \"Select\" means picking from a list of similar things (from a menu, sizes or colours). If the difference isn't clear, both are correct: \"choose\" suggests your choice is special, \"select\" suggests you took one from a group of similar things."
+        "explanation_en": "\"Choose\" means picking between options that are different from each other (a way to pay, a candidate, a university). \"Select\" means picking from a list of similar things (from a menu, sizes or colours). If the difference isn't clear, both are correct: \"choose\" suggests your choice is special, \"select\" suggests you took one from a group of similar things."
       },
       {
         "title": "website vs web app",
@@ -542,20 +542,20 @@
     "grammar": [
       {
         "title": "Verb + ing after prepositions (after, before, while, by...)",
-        "explanation_ar": "الكلمات مثل after و before و while و when و about و by يأتي بعدها اسم أو ضمير (ويكون هو الفاعل ثم الفعل عادياً). أما إذا لم يأتِ فاعل وجاء بعدها فعل مباشرة، فيجب تحويل الفعل إلى اسم بإضافة ing.",
+        "explanation_ar": "بعد الكلمات after و before و while و when يمكن أن يأتي فاعل ثم فعل عادي. أما إذا لم يأتِ فاعل وجاء الفعل بعدها مباشرة، وكذلك بعد أي حرف جر مثل about و by و of، فيجب أن يأخذ الفعل ing.",
         "examples": [
           "After James finished work, he left.",
           "After typing his password, he scrolled down.",
           "Before clicking \"add to cart\", check the size.",
           "I'm afraid of flying."
         ],
-        "explanation_en": "Words like after, before, while, when, about and by can be followed by a subject and a normal verb. But if no subject follows and a verb comes straight after, the verb must take -ing."
+        "explanation_en": "After, before, while and when can be followed by a subject and a normal verb. But if no subject follows and a verb comes straight after them, or after any preposition like about, by or of, the verb must take -ing."
       },
       {
         "title": "Modal verbs + base form",
         "explanation_ar": "الأفعال الناقصة (modal verbs) مثل can, could, may, might, must, should, will, would لا تتغير أبداً: لا تأخذ s ولا ed ولا ing. ويأتي بعدها الفعل في شكله الأساسي فقط، وكذلك كل فعل معطوف عليه في نفس الجملة.",
         "examples": [
-          "She can play the piano.",
+          "She can speak three languages.",
           "He could return the item and get a refund or ask for an exchange.",
           "You must measure your feet first."
         ],
@@ -659,7 +659,7 @@
       "explanation_en": "Refund = getting your money back."
     },
     {
-      "question": "The shoes were ___ small, so he couldn't wear them.",
+      "question": "The shoes were ___ small for him to wear.",
       "choices": [
         "very",
         "too",

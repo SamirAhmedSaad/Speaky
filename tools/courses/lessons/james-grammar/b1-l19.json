@@ -1,0 +1,48 @@
+{
+  "title": "Too or So?",
+  "content": {
+    "vocabulary": [
+      {"word": "too", "pos": "adverb", "meaning_en": "1) more than you want or need (usually negative); 2) also", "meaning_ar": "أكثر من اللازم / أيضًا", "note_ar": "حيلة: too فيها حرفا o، أي أكثر من اللازم", "note_en": "Trick: \"too\" has one o too many – more than needed.", "example": "It's too hot to go out."},
+      {"word": "so", "pos": "adverb/conjunction", "meaning_en": "1) very, to a great extent (usually positive); 2) therefore; 3) in \"I think so\"", "meaning_ar": "جدًّا / لذلك", "note_ar": "حيلة: S مثل smile (ابتسامة) أي إيجابي غالبًا", "note_en": "Trick: S for smile – usually positive.", "example": "The soup was so good, I asked for a second bowl."},
+      {"word": "excessive", "pos": "adjective", "meaning_en": "more than is needed or allowed", "meaning_ar": "مُفرِط / زائد عن الحد", "note_ar": "", "note_en": "", "example": "Fifty degrees is an excessive heat for me."},
+      {"word": "allowable", "pos": "adjective", "meaning_en": "permitted; that you are allowed to do", "meaning_ar": "مسموح به", "note_ar": "", "note_en": "", "example": "Two bags is the allowable amount."},
+      {"word": "extent", "pos": "noun", "meaning_en": "how much, how far; a measurement of degree", "meaning_ar": "مدى / درجة", "note_ar": "", "note_en": "", "example": "\"So\" shows the extent: so quickly, so quietly."},
+      {"word": "extremely", "pos": "adverb", "meaning_en": "very, very much", "meaning_ar": "للغاية", "note_ar": "", "note_en": "", "example": "It was extremely cold."},
+      {"word": "emphasis", "pos": "noun", "meaning_en": "special strength given to a word or idea", "meaning_ar": "توكيد", "note_ar": "", "note_en": "", "example": "\"So good\" adds emphasis."},
+      {"word": "generous", "pos": "adjective", "meaning_en": "happy to give to others", "meaning_ar": "كريم", "note_ar": "الاسم: generosity", "note_en": "Noun: generosity.", "example": "You're too generous! Thank you."},
+      {"word": "kind", "pos": "adjective", "meaning_en": "nice and helpful to others", "meaning_ar": "لطيف", "note_ar": "", "note_en": "", "example": "You're too kind."},
+      {"word": "conjunction", "pos": "noun", "meaning_en": "a word that joins two ideas: and, but, so", "meaning_ar": "أداة ربط", "note_ar": "", "note_en": "", "example": "\"So\" can be a conjunction."},
+      {"word": "therefore", "pos": "adverb", "meaning_en": "for that reason (formal)", "meaning_ar": "لذلك (رسمية)", "note_ar": "", "note_en": "", "example": "It was late; therefore, we went home."},
+      {"word": "thus", "pos": "adverb", "meaning_en": "so, therefore (very formal)", "meaning_ar": "وهكذا / لذلك", "note_ar": "", "note_en": "", "example": "The road was closed; thus, we were late."},
+      {"word": "quietly", "pos": "adverb", "meaning_en": "without much noise", "meaning_ar": "بهدوء", "note_ar": "", "note_en": "", "example": "She moved so quietly, nobody noticed."}
+    ],
+    "fine_lines": [
+      {"title": "too hot vs so hot", "words": ["too", "so"], "explanation_ar": "too = تجاوز الحد، أكثر من المقبول، وغالبًا سلبي (لا أستطيع). so = درجة عالية جدًا لكن ضمن الحد، وغالبًا إيجابي أو للتوكيد. The soup was too hot = لم أستطع أكله. The soup was so hot = كان ساخنًا جدًا فانتظرت قليلًا.", "explanation_en": "\"Too\" = past the limit, more than is OK, usually negative (I can't). \"So\" = a very high degree but not past the limit, often positive or for emphasis. \"The soup was too hot\" = I couldn't eat it. \"The soup was so hot\" = very hot, so I waited a little.", "examples": [{"word": "too", "sentence": "It's too hot in Riyadh for me in summer."}, {"word": "so", "sentence": "The soup was so good, I asked for more."}]},
+      {"title": "too (excessive) vs too (also)", "words": ["too + adjective", "..., too."], "explanation_ar": "too قبل الصفة أو الظرف = أكثر من اللازم. too في آخر الجملة = أيضًا.", "explanation_en": "\"Too\" before an adjective/adverb = more than needed. \"Too\" at the end = also.", "examples": [{"word": "too + adjective", "sentence": "James talks too fast."}, {"word": "..., too.", "sentence": "He went, and I went, too."}]}
+    ],
+    "expressions": [
+      {"phrase": "You're too kind.", "meaning_ar": "أنت لطيف جدًا.", "meaning_en": "A polite thank-you: you are very kind (positive \"too\").", "example": "\"I brought you some coffee.\" \"You're too kind!\""},
+      {"phrase": "You're too generous.", "meaning_ar": "أنت كريم جدًا.", "meaning_en": "A polite reply when someone gives you something.", "example": "\"Would you like my seat?\" \"Oh, you're too generous.\""},
+      {"phrase": "I think so. / I thought so.", "meaning_ar": "أظن ذلك. / هذا ما ظننته.", "meaning_en": "I believe it is true.", "example": "\"Did he bring the book?\" \"I think so.\""}
+    ],
+    "grammar": [
+      {"title": "too = excessive (usually negative)", "explanation_ar": "too قبل صفة أو ظرف يعني أكثر مما تريد أو تحتاج أو مما هو مسموح، وعادة تكون النتيجة سلبية.", "explanation_en": "\"Too\" before an adjective or adverb means more than you want, need or is allowed, usually with a negative result.", "examples": ["James usually talks too fast, so I don't understand him.", "It's too hot for me there."]},
+      {"title": "too can be positive (polite phrases)", "explanation_ar": "في عبارات قليلة مثل You're too kind و You're too generous تكون too إيجابية وتعني \"جدًا\".", "explanation_en": "In a few polite phrases like \"You're too kind\" and \"You're too generous\", \"too\" is positive and means \"very\".", "examples": ["You're too kind.", "You're too generous."]},
+      {"title": "too = also (at the end)", "explanation_ar": "too في آخر الجملة تعني \"أيضًا\" وتأتي بعد مفعول أو فعل.", "explanation_en": "\"Too\" at the end of a sentence means \"also\"; it can follow an object or a verb.", "examples": ["Mr. E likes cake, and I like it, too.", "He went, and I went, too."]},
+      {"title": "so = extent and emphasis", "explanation_ar": "so ظرف يبين الدرجة (كم؟) ويعطي توكيدًا، ويأتي بعده غالبًا نتيجة: so quickly (that) it's hard to understand.", "explanation_en": "\"So\" is an adverb of extent (how much?) and emphasis, often followed by a result: so quickly (that) it's hard to understand.", "examples": ["He speaks so quickly, it's hard to understand him.", "She moved so quietly, nobody noticed."]},
+      {"title": "so = conjunction (therefore) and truth (I think so)", "explanation_ar": "so أداة ربط بمعنى \"لذلك\" (therefore / thus). وتُستعمل أيضًا في I think so / I thought so بمعنى أظن أنه صحيح. too لا تملك هذين المعنيين.", "explanation_en": "\"So\" is a conjunction meaning \"therefore\" (thus). It is also used in \"I think so / I thought so\" = I believe it's true. \"Too\" has neither of these meanings.", "examples": ["I wasn't feeling well, so I went to the doctor.", "It was cold out, so I got my jacket.", "\"Was it raining?\" \"I thought so.\""]}
+    ]
+  },
+  "questions": [
+    {"question": "\"James talks ___ fast, so I don't understand him.\"", "choices": ["so", "too", "very much", "also"], "answer": 1, "explanation_ar": "أكثر من اللازم بنتيجة سلبية: too.", "explanation_en": "More than OK, with a negative result: too."},
+    {"question": "\"The soup was ___ good, I asked for a second bowl.\"", "choices": ["too", "also", "so", "two"], "answer": 2, "explanation_ar": "توكيد إيجابي: so.", "explanation_en": "Positive emphasis: so."},
+    {"question": "\"It was cold out, ___ I got my jacket.\"", "choices": ["so", "too", "very", "also"], "answer": 0, "explanation_ar": "so أداة ربط بمعنى لذلك.", "explanation_en": "\"So\" as a conjunction: therefore."},
+    {"question": "\"Mr. E likes cake, and I like it, ___.\"", "choices": ["so", "too", "very", "therefore"], "answer": 1, "explanation_ar": "too في آخر الجملة = أيضًا.", "explanation_en": "\"Too\" at the end = also."},
+    {"question": "\"Would you like my seat?\" \"Thank you, you're ___ kind.\"", "choices": ["too", "so much", "also", "therefore"], "answer": 0, "explanation_ar": "You're too kind عبارة مهذبة إيجابية.", "explanation_en": "\"You're too kind\" is a polite, positive phrase."},
+    {"question": "\"Did he bring the book?\" \"I think ___.\"", "choices": ["too", "it", "so", "that so"], "answer": 2, "explanation_ar": "I think so = أظن ذلك.", "explanation_en": "\"I think so\" = I believe it's true."},
+    {"question": "\"This box is ___ heavy. I can't lift it.\"", "choices": ["so", "too", "also", "very much"], "answer": 1, "explanation_ar": "تجاوز الحد ولا أستطيع: too.", "explanation_en": "Past the limit, I can't: too."},
+    {"question": "Which meaning does \"too\" NOT have?", "choices": ["excessive", "also", "therefore", "very (in polite phrases)"], "answer": 2, "explanation_ar": "معنى \"لذلك\" خاص بـ so.", "explanation_en": "\"Therefore\" is a meaning of \"so\", not \"too\"."},
+    {"question": "\"She moved ___ quietly, nobody noticed.\"", "choices": ["too", "so", "also", "two"], "answer": 1, "explanation_ar": "درجة عالية مع نتيجة: so.", "explanation_en": "A high degree with a result: so."},
+    {"question": "What does \"excessive\" mean?", "choices": ["more than needed", "also", "very nice", "therefore"], "answer": 0, "explanation_ar": "excessive = أكثر من اللازم.", "explanation_en": "\"Excessive\" = more than needed."}
+  ]
+}

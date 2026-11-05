@@ -1,0 +1,345 @@
+{
+  "title": "Common Mistakes: I seen it, ain't, if I was",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "stereotype",
+        "pos": "noun",
+        "meaning_en": "a fixed, simple idea that all people of one group are the same",
+        "meaning_ar": "صورة نمطية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a stereotype that all Canadians like hockey."
+      },
+      {
+        "word": "uneducated",
+        "pos": "adjective",
+        "meaning_en": "having little education",
+        "meaning_ar": "غير متعلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In films, \"ain't\" is used to make a character sound uneducated."
+      },
+      {
+        "word": "accordingly",
+        "pos": "adverb",
+        "meaning_en": "in a way that matches the situation",
+        "meaning_ar": "وفقًا لذلك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They will think you are rude and treat you accordingly."
+      },
+      {
+        "word": "simple past",
+        "pos": "noun",
+        "meaning_en": "the tense for finished past actions (saw, went, ate)",
+        "meaning_ar": "الماضي البسيط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"I saw it\" is simple past."
+      },
+      {
+        "word": "past participle",
+        "pos": "noun",
+        "meaning_en": "the third verb form (seen, gone, eaten); it needs have/has/had or be",
+        "meaning_ar": "التصريف الثالث",
+        "note_ar": "لا يُستخدم وحده بعد الفاعل",
+        "note_en": "Not used alone after the subject.",
+        "example": "\"Seen\" is a past participle: I have seen it."
+      },
+      {
+        "word": "participate",
+        "pos": "verb",
+        "meaning_en": "to take part in something",
+        "meaning_ar": "يشارك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Everyone participated in the game."
+      },
+      {
+        "word": "ain't",
+        "pos": "contraction",
+        "meaning_en": "very informal, non-standard for am not / is not / are not (and have not)",
+        "meaning_ar": "صيغة عامية غير صحيحة لـ isn't / aren't",
+        "note_ar": "تجنّبها؛ تبدو غير متعلمة",
+        "note_en": "Avoid it; it sounds uneducated.",
+        "example": "Say \"It isn't good\", not \"It ain't good\"."
+      },
+      {
+        "word": "sarcastic",
+        "pos": "adjective",
+        "meaning_en": "saying the opposite of what you mean to make fun or show anger",
+        "meaning_ar": "ساخر / متهكم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He was being sarcastic when he said \"Great job\"."
+      },
+      {
+        "word": "smirk",
+        "pos": "verb / noun",
+        "meaning_en": "to smile in a proud or unkind way",
+        "meaning_ar": "يبتسم بتعالٍ / ابتسامة متعالية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He smirked when he won."
+      },
+      {
+        "word": "imaginary",
+        "pos": "adjective",
+        "meaning_en": "not real; only in your mind",
+        "meaning_ar": "متخيَّل / افتراضي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"If I were you\" is imaginary."
+      },
+      {
+        "word": "moron",
+        "pos": "noun",
+        "meaning_en": "a rude word for a stupid person",
+        "meaning_ar": "أحمق (كلمة مسيئة)",
+        "note_ar": "كلمة غير مهذبة",
+        "note_en": "Rude word.",
+        "example": "Don't call people names like \"moron\"."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I saw it vs I have seen it (not: I seen it)",
+        "words": [
+          "saw",
+          "have seen"
+        ],
+        "explanation_ar": "saw ماضٍ بسيط ويُستخدم وحده. seen تصريف ثالث يحتاج have/has/had قبله (أو be في المبني للمجهول). لا نقول I seen it.",
+        "explanation_en": "Saw is simple past and stands alone. Seen is a past participle and needs have/has/had before it (or be in the passive). Never say \"I seen it\".",
+        "examples": [
+          {
+            "word": "saw",
+            "sentence": "I saw the movie yesterday."
+          },
+          {
+            "word": "have seen",
+            "sentence": "I have seen this movie before."
+          }
+        ]
+      },
+      {
+        "title": "ain't vs isn't / aren't / am not",
+        "words": [
+          "ain't",
+          "isn't",
+          "aren't"
+        ],
+        "explanation_ar": "ain't صيغة عامية تُستخدم في الأفلام لإظهار شخصية غير متعلمة. الصحيح: I am not / he isn't / they aren't.",
+        "explanation_en": "Ain't is slang used in films to show an uneducated character. Correct: I am not / he isn't / they aren't.",
+        "examples": [
+          {
+            "word": "isn't",
+            "sentence": "It isn't that good."
+          },
+          {
+            "word": "aren't",
+            "sentence": "They aren't here."
+          }
+        ]
+      },
+      {
+        "title": "If I was vs If I were",
+        "words": [
+          "was",
+          "were"
+        ],
+        "explanation_ar": "was تدل على حقيقة حدثت في الماضي. if + would تدل على التخيّل، لذلك نستخدم were مع كل الضمائر: If I were you. تذكّر: if = imagine (يبدأ بحرف i).",
+        "explanation_en": "Was shows a past fact. If + would shows something imaginary, so use were with all subjects: If I were you. Remember: if = imagine (both start with i).",
+        "examples": [
+          {
+            "word": "was",
+            "sentence": "I was at home yesterday. (fact)"
+          },
+          {
+            "word": "were",
+            "sentence": "If I were you, I wouldn't watch it. (imaginary)"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "If I were you, I would...",
+        "meaning_ar": "لو كنتُ مكانك لـ...",
+        "meaning_en": "Giving advice (correct form).",
+        "example": "If I were you, I would do the lesson again."
+      },
+      {
+        "phrase": "It isn't that good.",
+        "meaning_ar": "ليس جيدًا إلى هذا الحد.",
+        "meaning_en": "It's not very good.",
+        "example": "I saw that film. It isn't that good."
+      },
+      {
+        "phrase": "with my own two eyes",
+        "meaning_ar": "بعينيّ هاتين",
+        "meaning_en": "I saw it myself.",
+        "example": "I saw it with my own two eyes."
+      },
+      {
+        "phrase": "set someone off",
+        "meaning_ar": "يُثير غضب شخص",
+        "meaning_en": "to make someone angry",
+        "example": "His rude words set her off."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Mistake 1: \"I seen it\"",
+        "explanation_ar": "الحل 1: استخدم الماضي البسيط: I saw it. الحل 2: التصريف الثالث يحتاج كلمتين: I have seen it / He has seen it / I had seen it. ويُستخدم أيضًا في المبني للمجهول: It was seen.",
+        "explanation_en": "Fix 1: use the simple past: I saw it. Fix 2: the past participle needs two words: I have seen it / He has seen it / I had seen it. It is also used in the passive: It was seen.",
+        "examples": [
+          "I saw you yesterday.",
+          "I have seen this before.",
+          "The cake was eaten by the kids. (passive)"
+        ]
+      },
+      {
+        "title": "Mistake 2: \"ain't\"",
+        "explanation_ar": "تعلّم نفي فعل be: I am not (I'm not)، he/she/it is not (isn't)، we/you/they are not (aren't). ain't قد تُستخدم عمدًا للسخرية، لكن تجنّبها.",
+        "explanation_en": "Learn the negative of be: I am not (I'm not), he/she/it is not (isn't), we/you/they are not (aren't). Ain't is sometimes used on purpose to be sarcastic, but avoid it.",
+        "examples": [
+          "He isn't here.",
+          "They aren't ready.",
+          "I'm not going."
+        ]
+      },
+      {
+        "title": "Mistake 3: \"If I was you\"",
+        "explanation_ar": "في الجمل الافتراضية (if ... would) نستخدم were لكل الضمائر. كثيرون يقولون was في الكلام، لكن were هي الصحيحة رسميًا.",
+        "explanation_en": "In imaginary sentences (if ... would) use were for every subject. Many people say was in speech, but were is the correct formal form.",
+        "examples": [
+          "If I were a millionaire, I would help my village.",
+          "If she were here, she would know."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I seen it yesterday.",
+        "I saw it yesterday.",
+        "I have saw it yesterday.",
+        "I seened it yesterday."
+      ],
+      "answer": 1,
+      "explanation_ar": "الماضي البسيط: saw.",
+      "explanation_en": "Simple past: saw."
+    },
+    {
+      "question": "\"I ___ this movie before.\"",
+      "choices": [
+        "have seen",
+        "seen",
+        "has saw",
+        "seeing"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: have + seen.",
+      "explanation_en": "Have + seen."
+    },
+    {
+      "question": "Correct \"It ain't good.\"",
+      "choices": [
+        "It aren't good.",
+        "It not good.",
+        "It isn't good.",
+        "It am not good."
+      ],
+      "answer": 2,
+      "explanation_ar": "مع it نستخدم isn't.",
+      "explanation_en": "With it, use isn't."
+    },
+    {
+      "question": "Correct \"They ain't here.\"",
+      "choices": [
+        "They isn't here.",
+        "They not here.",
+        "They am not here.",
+        "They aren't here."
+      ],
+      "answer": 3,
+      "explanation_ar": "مع they نستخدم aren't.",
+      "explanation_en": "With they, use aren't."
+    },
+    {
+      "question": "If I ___ you, I would study more.",
+      "choices": [
+        "were",
+        "was",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "explanation_ar": "افتراض: If I were you.",
+      "explanation_en": "Imaginary: If I were you."
+    },
+    {
+      "question": "A past participle like \"seen\" needs ___ before it.",
+      "choices": [
+        "nothing",
+        "have/has/had (or be)",
+        "to",
+        "did"
+      ],
+      "answer": 1,
+      "explanation_ar": "يحتاج have/has/had أو be.",
+      "explanation_en": "It needs have/has/had or be."
+    },
+    {
+      "question": "What is a \"stereotype\"?",
+      "choices": [
+        "a sound system",
+        "a true fact",
+        "a fixed idea that all people in a group are the same",
+        "a kind of grammar"
+      ],
+      "answer": 2,
+      "explanation_ar": "صورة نمطية.",
+      "explanation_en": "A fixed idea that a whole group is the same."
+    },
+    {
+      "question": "Why does \"if\" go with \"were\"?",
+      "choices": [
+        "It's a past fact.",
+        "It's a question.",
+        "It's the future.",
+        "It's imaginary, not real."
+      ],
+      "answer": 3,
+      "explanation_ar": "if تدل على التخيل.",
+      "explanation_en": "If shows something imaginary."
+    },
+    {
+      "question": "\"He ___ seen the film.\"",
+      "choices": [
+        "has",
+        "have",
+        "is",
+        "did"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع he: has seen.",
+      "explanation_en": "With he: has seen."
+    },
+    {
+      "question": "Someone who is \"sarcastic\" ___.",
+      "choices": [
+        "always tells facts",
+        "says the opposite of what they mean",
+        "never speaks",
+        "is very polite"
+      ],
+      "answer": 1,
+      "explanation_ar": "الساخر يقول عكس ما يقصد.",
+      "explanation_en": "A sarcastic person says the opposite of what they mean."
+    }
+  ]
+}

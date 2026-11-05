@@ -1,0 +1,44 @@
+{
+  "title": "Idioms with \"Eye\"",
+  "content": {
+    "vocabulary": [
+      {"word": "idiom", "pos": "noun", "meaning_en": "a group of words whose meaning is different from the meanings of each word", "meaning_ar": "تعبير اصطلاحي", "note_ar": "مثل It's raining cats and dogs = تمطر بغزارة", "note_en": "e.g. It's raining cats and dogs = it's raining a lot", "example": "\"Keep an eye on\" is a common idiom."},
+      {"word": "convey", "pos": "verb", "meaning_en": "to give or communicate a meaning", "meaning_ar": "ينقل (معنى)", "note_ar": "", "note_en": "", "example": "Idioms convey a lot of meaning in a few words."},
+      {"word": "sore", "pos": "adjective", "meaning_en": "painful, often after hard exercise", "meaning_ar": "متألّم / موجوع", "note_ar": "", "note_en": "", "example": "My legs are sore after the gym."},
+      {"word": "eyesore", "pos": "noun", "meaning_en": "something very ugly to look at", "meaning_ar": "شيء قبيح المنظر", "note_ar": "", "note_en": "", "example": "That old building is an eyesore."},
+      {"word": "deceive", "pos": "verb", "meaning_en": "to make someone believe something that is not true", "meaning_ar": "يخدع", "note_ar": "", "note_en": "", "example": "I would never try to deceive you."},
+      {"word": "peel", "pos": "verb", "meaning_en": "to take the skin off fruit or vegetables", "meaning_ar": "يقشّر", "note_ar": "", "note_en": "", "example": "Peel the banana before you eat it."},
+      {"word": "bashful", "pos": "adjective", "meaning_en": "shy", "meaning_ar": "خجول", "note_ar": "", "note_en": "", "example": "The little boy was bashful with visitors."},
+      {"word": "the public eye", "pos": "noun", "meaning_en": "the attention of the public", "meaning_ar": "أنظار الناس / دائرة الضوء", "note_ar": "", "note_en": "", "example": "Leaders and athletes are always in the public eye."}
+    ],
+    "fine_lines": [
+      {"title": "keep an eye on vs keep an eye out for vs keep your eyes peeled", "words": ["keep an eye on", "keep an eye out for", "keep your eyes peeled"], "explanation_ar": "keep an eye on: راقب شيئًا موجودًا بعناية. keep an eye out for: انتبه لشيء أو شخص سيصل. keep your eyes peeled: راقب بتركيز شديد.", "explanation_en": "Keep an eye on: watch something that is there. Keep an eye out for: watch for something that will arrive. Keep your eyes peeled: watch very carefully.", "examples": [{"word": "keep an eye on", "sentence": "Can you keep an eye on my bag?"}, {"word": "keep an eye out for", "sentence": "Keep an eye out for the waiter."}, {"word": "keep your eyes peeled", "sentence": "Keep your eyes peeled for the exit sign."}]},
+      {"title": "catch someone's eye vs have an eye for", "words": ["catch someone's eye", "have an eye for"], "explanation_ar": "catch someone's eye: يلفت انتباهه. have an eye for: لديه ذوق ويعرف الجيد من الرديء.", "explanation_en": "Catch someone's eye: get their attention. Have an eye for: be good at seeing quality.", "examples": [{"word": "catch someone's eye", "sentence": "A red dress in the window caught my eye."}, {"word": "have an eye for", "sentence": "She has a good eye for colours."}]}
+    ],
+    "expressions": [
+      {"phrase": "catch someone's eye", "meaning_ar": "يلفت انتباه شخص", "meaning_en": "attract someone's attention", "example": "The bright colour of the shirt caught my eye, so I bought it."},
+      {"phrase": "have an eye for", "meaning_ar": "لديه ذوق / عين خبيرة في", "meaning_en": "be good at judging quality", "example": "You've always had a good eye for clothing."},
+      {"phrase": "an eyesore", "meaning_ar": "منظر قبيح", "meaning_en": "something so ugly it hurts to look at it", "example": "The blue shirt I bought was an eyesore."},
+      {"phrase": "keep an eye on", "meaning_ar": "يراقب / ينتبه لـ", "meaning_en": "watch carefully", "example": "Keep an eye on the soup so it doesn't burn."},
+      {"phrase": "pull the wool over someone's eyes", "meaning_ar": "يخدع شخصًا", "meaning_en": "deceive or trick someone", "example": "I wouldn't try to pull the wool over your eyes."},
+      {"phrase": "more than meets the eye", "meaning_ar": "أكثر مما يبدو", "meaning_en": "more to it than is obvious", "example": "There is more to this old house than meets the eye."},
+      {"phrase": "keep your eyes peeled", "meaning_ar": "افتح عينيك جيدًا / راقب بانتباه", "meaning_en": "watch very carefully", "example": "Keep your eyes peeled for our bus."},
+      {"phrase": "keep an eye out for", "meaning_ar": "يترقّب", "meaning_en": "watch for someone or something arriving", "example": "Keep an eye out for a package for me."},
+      {"phrase": "in the public eye", "meaning_ar": "تحت أنظار الناس", "meaning_en": "well known and watched by the public", "example": "Famous athletes live in the public eye."},
+      {"phrase": "It's raining cats and dogs.", "meaning_ar": "إنها تمطر بغزارة.", "meaning_en": "It's raining very heavily.", "example": "Take an umbrella; it's raining cats and dogs."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"The bright colour of the shirt ___ my eye, so I bought it.\"", "choices": ["caught", "kept", "pulled", "peeled"], "answer": 0, "explanation_ar": "catch someone's eye = يلفت انتباهه.", "explanation_en": "Catch someone's eye = attract attention."},
+    {"question": "\"You've always had a good ___ for clothing.\" (good taste)", "choices": ["eyesore", "eye", "public eye", "wool"], "answer": 1, "explanation_ar": "have an eye for = لديه ذوق.", "explanation_en": "Have an eye for = good taste."},
+    {"question": "\"The shirt was so ugly. It was an ___.\"", "choices": ["eye for", "eye out", "eyesore", "eye on"], "answer": 2, "explanation_ar": "eyesore = منظر قبيح.", "explanation_en": "Eyesore = very ugly."},
+    {"question": "\"Can you ___ my bag while I buy a ticket?\" (watch it)", "choices": ["catch an eye", "pull the wool over", "give an eyesore", "keep an eye on"], "answer": 3, "explanation_ar": "keep an eye on = يراقب.", "explanation_en": "Keep an eye on = watch."},
+    {"question": "\"I wouldn't try to deceive you.\" =", "choices": ["I wouldn't pull the wool over your eyes.", "I wouldn't keep an eye on you.", "I wouldn't catch your eye.", "I wouldn't be in the public eye."], "answer": 0, "explanation_ar": "pull the wool over someone's eyes = يخدعه.", "explanation_en": "Pull the wool over someone's eyes = deceive."},
+    {"question": "\"There is a lot more to her than is obvious.\" =", "choices": ["She is an eyesore.", "There is more to her than meets the eye.", "She catches my eye.", "She keeps her eyes peeled."], "answer": 1, "explanation_ar": "more than meets the eye = أكثر مما يبدو.", "explanation_en": "More than meets the eye = more than is obvious."},
+    {"question": "Presidents and famous athletes are always ___.", "choices": ["eyesores", "peeled", "in the public eye", "pulling wool"], "answer": 2, "explanation_ar": "in the public eye = تحت أنظار الناس.", "explanation_en": "In the public eye = watched by the public."},
+    {"question": "\"Keep an eye ___ the waiter; I want to order.\" (watch for him to come)", "choices": ["on to", "over", "in", "out for"], "answer": 3, "explanation_ar": "keep an eye out for = يترقّب.", "explanation_en": "Keep an eye out for = watch for arrival."},
+    {"question": "\"Peel\" means:", "choices": ["take the skin off", "look quickly", "close your eyes", "hurt"], "answer": 0, "explanation_ar": "peel = يقشّر.", "explanation_en": "Peel = remove the skin."},
+    {"question": "\"It's raining cats and dogs\" means:", "choices": ["Animals are falling.", "It's raining very heavily.", "It's sunny.", "It's snowing a little."], "answer": 1, "explanation_ar": "تمطر بغزارة.", "explanation_en": "It's raining a lot."}
+  ]
+}

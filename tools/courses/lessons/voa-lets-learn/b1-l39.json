@@ -1,0 +1,622 @@
+{
+ "title": "It's Unbelievable!",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "winter",
+    "pos": "noun",
+    "meaning_en": "the coldest season of the year",
+    "meaning_ar": "الشتاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It snows here in winter."
+   },
+   {
+    "word": "weather",
+    "pos": "noun",
+    "meaning_en": "the conditions outside: sun, rain, wind, heat",
+    "meaning_ar": "الطقس",
+    "note_ar": "لا تخلط بينها وبين whether (إذا ما).",
+    "note_en": "Don't confuse with \"whether\".",
+    "example": "The weather is nice today."
+   },
+   {
+    "word": "windy",
+    "pos": "adjective",
+    "meaning_en": "with a lot of wind",
+    "meaning_ar": "عاصف، فيه رياح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It is really windy today."
+   },
+   {
+    "word": "wind",
+    "pos": "noun",
+    "meaning_en": "air that moves quickly outside",
+    "meaning_ar": "الريح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The wind is strong tonight."
+   },
+   {
+    "word": "mess up",
+    "pos": "phrasal verb",
+    "meaning_en": "make something untidy or spoil it",
+    "meaning_ar": "يُفسد، يبعثر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Wind messes up my hair."
+   },
+   {
+    "word": "tired of",
+    "pos": "phrase",
+    "meaning_en": "not wanting something any more because it annoys you",
+    "meaning_ar": "سئمت من، مللت من",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I am tired of my untidy hair."
+   },
+   {
+    "word": "tidy",
+    "pos": "adjective",
+    "meaning_en": "neat and in order",
+    "meaning_ar": "مرتّب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Make my untidy hair tidy!"
+   },
+   {
+    "word": "untidy",
+    "pos": "adjective",
+    "meaning_en": "not neat; messy",
+    "meaning_ar": "غير مرتب، أشعث",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My room is untidy."
+   },
+   {
+    "word": "comfortable",
+    "pos": "adjective",
+    "meaning_en": "feeling nice and relaxed; not causing pain",
+    "meaning_ar": "مريح",
+    "note_ar": "تُنطق غالباً بثلاثة مقاطع: KUMF-ta-bl.",
+    "note_en": "Usually said in three syllables: KUMF-ta-bl.",
+    "example": "This chair is comfortable."
+   },
+   {
+    "word": "uncomfortable",
+    "pos": "adjective",
+    "meaning_en": "not comfortable",
+    "meaning_ar": "غير مريح، مزعج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These shoes are uncomfortable."
+   },
+   {
+    "word": "perfect",
+    "pos": "adjective",
+    "meaning_en": "with no mistakes or problems",
+    "meaning_ar": "مثالي، كامل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Hair Be Good is the perfect product!"
+   },
+   {
+    "word": "imperfect",
+    "pos": "adjective",
+    "meaning_en": "not perfect; with problems",
+    "meaning_ar": "غير كامل، ناقص",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is not perfect. This is imperfect!"
+   },
+   {
+    "word": "product",
+    "pos": "noun",
+    "meaning_en": "something made to be sold",
+    "meaning_ar": "منتَج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This shop sells beauty products."
+   },
+   {
+    "word": "spray",
+    "pos": "verb",
+    "meaning_en": "put liquid on something in very small drops",
+    "meaning_ar": "يرشّ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Spray it on your hair."
+   },
+   {
+    "word": "wrap",
+    "pos": "verb",
+    "meaning_en": "cover something by putting material around it",
+    "meaning_ar": "يلفّ",
+    "note_ar": "حرف w صامت: تُنطق /ræp/.",
+    "note_en": "The w is silent: say /ræp/.",
+    "example": "Wrap your hair in a towel."
+   },
+   {
+    "word": "towel",
+    "pos": "noun",
+    "meaning_en": "a cloth for drying your body",
+    "meaning_ar": "منشفة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Here is a clean towel."
+   },
+   {
+    "word": "done",
+    "pos": "adjective",
+    "meaning_en": "finished",
+    "meaning_ar": "انتهى، منتهٍ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Wrap in a towel and you are done!"
+   },
+   {
+    "word": "expensive",
+    "pos": "adjective",
+    "meaning_en": "costing a lot of money",
+    "meaning_ar": "غالٍ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That car is very expensive."
+   },
+   {
+    "word": "inexpensive",
+    "pos": "adjective",
+    "meaning_en": "not expensive; cheap",
+    "meaning_ar": "غير مكلف، رخيص",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Hair Be Good is inexpensive."
+   },
+   {
+    "word": "can",
+    "pos": "noun",
+    "meaning_en": "a metal container",
+    "meaning_ar": "علبة معدنية",
+    "note_ar": "can اسم (علبة) وأيضاً فعل مساعد (يستطيع).",
+    "note_en": "\"Can\" is also a modal verb meaning \"be able to\".",
+    "example": "One can costs only $10."
+   },
+   {
+    "word": "cost",
+    "pos": "verb",
+    "meaning_en": "have a price",
+    "meaning_ar": "يكلّف، سعره",
+    "note_ar": "",
+    "note_en": "",
+    "example": "How much does it cost?"
+   },
+   {
+    "word": "online",
+    "pos": "adverb",
+    "meaning_en": "on the internet",
+    "meaning_ar": "عبر الإنترنت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I order books online."
+   },
+   {
+    "word": "order",
+    "pos": "verb",
+    "meaning_en": "ask to buy something",
+    "meaning_ar": "يطلب (شراء)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Go online and order it today!"
+   },
+   {
+    "word": "trust",
+    "pos": "verb",
+    "meaning_en": "believe someone is honest",
+    "meaning_ar": "يثق بـ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can trust Pete!"
+   },
+   {
+    "word": "credit card",
+    "pos": "noun",
+    "meaning_en": "a plastic card used to pay",
+    "meaning_ar": "بطاقة ائتمان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll pay with a credit card."
+   },
+   {
+    "word": "delivery",
+    "pos": "noun",
+    "meaning_en": "bringing things to someone's home",
+    "meaning_ar": "توصيل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My delivery will arrive in two days."
+   },
+   {
+    "word": "fabulous",
+    "pos": "adjective",
+    "meaning_en": "very good; wonderful",
+    "meaning_ar": "رائع، مذهل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Make my hair fabulous!"
+   },
+   {
+    "word": "different",
+    "pos": "adjective",
+    "meaning_en": "not the same",
+    "meaning_ar": "مختلف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Anna, you look different."
+   },
+   {
+    "word": "take care of",
+    "pos": "phrase",
+    "meaning_en": "deal with a problem; look after",
+    "meaning_ar": "يعتني بـ، يتولى أمر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Go home and take care of this."
+   },
+   {
+    "word": "ad",
+    "pos": "noun",
+    "meaning_en": "short for advertisement: a message that tries to sell a product",
+    "meaning_ar": "إعلان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I saw an ad for a new phone."
+   },
+   {
+    "word": "believe",
+    "pos": "verb",
+    "meaning_en": "think something is true",
+    "meaning_ar": "يصدّق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I believed your ad."
+   },
+   {
+    "word": "unbelievable",
+    "pos": "adjective",
+    "meaning_en": "very surprising; hard to believe",
+    "meaning_ar": "لا يُصدَّق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's unbelievable!"
+   },
+   {
+    "word": "honest",
+    "pos": "adjective",
+    "meaning_en": "telling the truth",
+    "meaning_ar": "صادق، أمين",
+    "note_ar": "حرف h صامت: an honest man.",
+    "note_en": "The h is silent: an honest man.",
+    "example": "He is an honest man."
+   },
+   {
+    "word": "dishonest",
+    "pos": "adjective",
+    "meaning_en": "not honest; not telling the truth",
+    "meaning_ar": "غير صادق، مخادع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Your ad was dishonest!"
+   },
+   {
+    "word": "wash",
+    "pos": "verb",
+    "meaning_en": "clean with water",
+    "meaning_ar": "يغسل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Wash your hands before you eat."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "un- / in- / im- / dis-",
+    "words": [
+     "un-",
+     "in-",
+     "im-",
+     "dis-"
+    ],
+    "explanation_ar": "كل هذه البادئات تعني «غير / لا» وتعطي عكس الصفة. un هي الأكثر شيوعاً: untidy, uncomfortable, unbelievable. in: inexpensive. im قبل p و m غالباً: imperfect, impossible. dis: dishonest, disagree. يجب حفظ كل كلمة مع بادئتها.",
+    "explanation_en": "All these prefixes mean \"not\" and make the opposite. un- is the most common: untidy, uncomfortable, unbelievable. in-: inexpensive. im- usually before p or m: imperfect, impossible. dis-: dishonest, disagree. Learn each word with its prefix.",
+    "examples": [
+     {
+      "word": "un-",
+      "sentence": "My hair is untidy."
+     },
+     {
+      "word": "in-",
+      "sentence": "This pen is inexpensive."
+     },
+     {
+      "word": "im-",
+      "sentence": "Nobody is perfect; we are all imperfect."
+     },
+     {
+      "word": "dis-",
+      "sentence": "Lying is dishonest."
+     }
+    ]
+   },
+   {
+    "title": "tired vs tired of",
+    "words": [
+     "tired",
+     "tired of"
+    ],
+    "explanation_ar": "tired وحدها = متعب (تحتاج للنوم أو الراحة). tired of + شيء = سئمت منه ولا أريده بعد الآن.",
+    "explanation_en": "\"Tired\" alone means you need rest. \"Tired of\" + something means you are bored or annoyed by it.",
+    "examples": [
+     {
+      "word": "tired",
+      "sentence": "I am tired. I want to sleep."
+     },
+     {
+      "word": "tired of",
+      "sentence": "I am tired of this rainy weather."
+     }
+    ]
+   },
+   {
+    "title": "unbelievable: good or bad?",
+    "words": [
+     "unbelievable"
+    ],
+    "explanation_ar": "unbelievable تعني «لا يُصدّق» وقد تُقال عن شيء جيد جداً أو سيئ جداً حسب السياق. بيت قالها متفاجئاً من شعر آنا.",
+    "explanation_en": "\"Unbelievable\" means very surprising. It can be very good or very bad, depending on the situation. Pete says it when he sees Anna's hair.",
+    "examples": [
+     {
+      "word": "unbelievable",
+      "sentence": "The view from the mountain was unbelievable!"
+     },
+     {
+      "word": "unbelievable",
+      "sentence": "Ten hours in traffic? Unbelievable!"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Will it be windy this weekend?",
+    "meaning_ar": "هل سيكون الجو عاصفاً في نهاية الأسبوع؟",
+    "meaning_en": "Asking about future weather.",
+    "example": "Will it be sunny tomorrow?"
+   },
+   {
+    "phrase": "I am tired of ...",
+    "meaning_ar": "سئمت من...",
+    "meaning_en": "I don't want this any more.",
+    "example": "I am tired of waiting."
+   },
+   {
+    "phrase": "You are done!",
+    "meaning_ar": "انتهيت!",
+    "meaning_en": "You have finished.",
+    "example": "Sign here and you are done!"
+   },
+   {
+    "phrase": "One can costs only $10.",
+    "meaning_ar": "العلبة الواحدة تكلّف 10 دولارات فقط.",
+    "meaning_en": "Talking about a price.",
+    "example": "One bottle costs only two dollars."
+   },
+   {
+    "phrase": "I'll pay with a credit card.",
+    "meaning_ar": "سأدفع ببطاقة الائتمان.",
+    "meaning_en": "Saying how you will pay.",
+    "example": "I'll pay with cash."
+   },
+   {
+    "phrase": "My delivery will arrive in 2 days.",
+    "meaning_ar": "سيصل طلبي خلال يومين.",
+    "meaning_en": "The order will come in two days.",
+    "example": "Your package will arrive in three days."
+   },
+   {
+    "phrase": "You look different.",
+    "meaning_ar": "تبدو مختلفاً.",
+    "meaning_en": "Your appearance has changed.",
+    "example": "You look different. Did you get new glasses?"
+   },
+   {
+    "phrase": "Why don't you go home?",
+    "meaning_ar": "لماذا لا تذهب إلى البيت؟",
+    "meaning_en": "A suggestion to go home.",
+    "example": "You're sick. Why don't you go home and rest?"
+   },
+   {
+    "phrase": "Good idea.",
+    "meaning_ar": "فكرة جيدة.",
+    "meaning_en": "I like your suggestion.",
+    "example": "\"Let's take the bus.\" \"Good idea.\""
+   },
+   {
+    "phrase": "Is something wrong?",
+    "meaning_ar": "هل هناك مشكلة؟",
+    "meaning_en": "Asking if there is a problem.",
+    "example": "You look sad. Is something wrong?"
+   },
+   {
+    "phrase": "What did you do to your hair?",
+    "meaning_ar": "ماذا فعلت بشعرك؟",
+    "meaning_en": "Asking about a change in someone's hair.",
+    "example": "What did you do to your bike? It looks new!"
+   },
+   {
+    "phrase": "It's unbelievable!",
+    "meaning_ar": "هذا لا يُصدَّق!",
+    "meaning_en": "It is very surprising.",
+    "example": "You finished in one hour? It's unbelievable!"
+   },
+   {
+    "phrase": "You don't believe everything you see in ads, do you?",
+    "meaning_ar": "أنت لا تصدّق كل ما تراه في الإعلانات، أليس كذلك؟",
+    "meaning_en": "Ads are not always true.",
+    "example": "Be careful online. Don't believe everything you see."
+   },
+   {
+    "phrase": "Thanks a lot!",
+    "meaning_ar": "شكراً جزيلاً! (وقد تُقال بسخرية)",
+    "meaning_en": "Thank you very much (sometimes said with sarcasm when you are not happy).",
+    "example": "Thanks a lot for your help!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Negative prefixes: un-, in-, im-, dis-",
+    "explanation_ar": "نضيف بادئة قبل الصفة لنعطي معناها المعاكس، دون تغيير الكلمة الأصلية: tidy → untidy، comfortable → uncomfortable، believable → unbelievable، expensive → inexpensive، perfect → imperfect، honest → dishonest. وأحياناً على الأفعال: agree → disagree.",
+    "explanation_en": "Add a prefix before an adjective to make the opposite meaning; the base word does not change: tidy → untidy, comfortable → uncomfortable, believable → unbelievable, expensive → inexpensive, perfect → imperfect, honest → dishonest. Also with some verbs: agree → disagree.",
+    "examples": [
+     "I am tired of my untidy hair.",
+     "Hair Be Good is inexpensive.",
+     "This is not perfect. This is imperfect!",
+     "Your ad was dishonest!"
+    ]
+   },
+   {
+    "title": "Future with will: questions and plans",
+    "explanation_ar": "نسأل عن المستقبل بـ Will + الفاعل + الفعل: Will it be windy this weekend? ونستخدم I'll لقرار في اللحظة: I'll listen to the news. I'll pay with a credit card. وwill لتوقع مؤكد: My delivery will arrive in 2 days. Your hair will be okay.",
+    "explanation_en": "Ask about the future with Will + subject + verb: Will it be windy this weekend? Use I'll for a decision made now: I'll listen to the news. Use will for a sure prediction: My delivery will arrive in 2 days.",
+    "examples": [
+     "Will it be windy this weekend?",
+     "I'll listen to the news.",
+     "I will order one can.",
+     "Your hair will be okay."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "What is the opposite of \"tidy\"?",
+   "choices": [
+    "distidy",
+    "untidy",
+    "intidy",
+    "imtidy"
+   ],
+   "answer": 1,
+   "explanation_ar": "عكس tidy هو untidy.",
+   "explanation_en": "The opposite of \"tidy\" is \"untidy\"."
+  },
+  {
+   "question": "Hair Be Good costs only $10. It is ___.",
+   "choices": [
+    "inexpensive",
+    "unexpensive",
+    "disexpensive",
+    "imexpensive"
+   ],
+   "answer": 0,
+   "explanation_ar": "عكس expensive هو inexpensive.",
+   "explanation_en": "The opposite of \"expensive\" is \"inexpensive\"."
+  },
+  {
+   "question": "This is not perfect. This is ___!",
+   "choices": [
+    "unperfect",
+    "disperfect",
+    "inperfect",
+    "imperfect"
+   ],
+   "answer": 3,
+   "explanation_ar": "قبل p نستخدم im: imperfect.",
+   "explanation_en": "Before p we use im-: imperfect."
+  },
+  {
+   "question": "The ad was not honest. It was ___.",
+   "choices": [
+    "unhonest",
+    "inhonest",
+    "dishonest",
+    "imhonest"
+   ],
+   "answer": 2,
+   "explanation_ar": "عكس honest هو dishonest.",
+   "explanation_en": "The opposite of \"honest\" is \"dishonest\"."
+  },
+  {
+   "question": "\"I am tired of my untidy hair\" means ___",
+   "choices": [
+    "I need to sleep.",
+    "I don't want my messy hair any more.",
+    "My hair is tired.",
+    "I like my hair."
+   ],
+   "answer": 1,
+   "explanation_ar": "tired of = سئمت من.",
+   "explanation_en": "\"Tired of\" means you are annoyed and want a change."
+  },
+  {
+   "question": "___ it be windy this weekend?",
+   "choices": [
+    "Does",
+    "Is",
+    "Will",
+    "Do"
+   ],
+   "answer": 2,
+   "explanation_ar": "سؤال عن المستقبل: Will it be...?",
+   "explanation_en": "A future question: Will it be...?"
+  },
+  {
+   "question": "What do you use to dry your hair after washing it?",
+   "choices": [
+    "a towel",
+    "a can",
+    "a spray",
+    "an ad"
+   ],
+   "answer": 0,
+   "explanation_ar": "المنشفة towel لتجفيف الشعر والجسم.",
+   "explanation_en": "You dry your hair with a towel."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "These shoes are discomfortable.",
+    "These shoes are imcomfortable.",
+    "These shoes are incomfortable.",
+    "These shoes are uncomfortable."
+   ],
+   "answer": 3,
+   "explanation_ar": "عكس comfortable هو uncomfortable.",
+   "explanation_en": "The opposite of \"comfortable\" is \"uncomfortable\"."
+  },
+  {
+   "question": "\"Unbelievable\" means ___",
+   "choices": [
+    "very easy to believe",
+    "very surprising, hard to believe",
+    "very cheap",
+    "not tidy"
+   ],
+   "answer": 1,
+   "explanation_ar": "unbelievable = لا يُصدّق.",
+   "explanation_en": "\"Unbelievable\" means hard to believe."
+  },
+  {
+   "question": "I'll pay with a credit card. My delivery ___ in 2 days.",
+   "choices": [
+    "arrive",
+    "arrived",
+    "will arrive",
+    "arriving"
+   ],
+   "answer": 2,
+   "explanation_ar": "توقع مستقبلي: will + الفعل في المصدر.",
+   "explanation_en": "Future prediction: will + base verb."
+  }
+ ]
+}

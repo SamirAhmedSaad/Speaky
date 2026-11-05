@@ -1,0 +1,419 @@
+{
+  "title": "Talking About Daily Routines",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "daily routine",
+        "pos": "noun",
+        "meaning_en": "the things you do every day",
+        "meaning_ar": "الروتين اليومي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is your daily routine?"
+      },
+      {
+        "word": "toast",
+        "pos": "noun",
+        "meaning_en": "bread made brown and hot",
+        "meaning_ar": "خبز محمّص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have toast and cheese for breakfast."
+      },
+      {
+        "word": "go for a walk",
+        "pos": "phrase",
+        "meaning_en": "walk outside for pleasure or exercise",
+        "meaning_ar": "يتمشّى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We go for a walk after dinner."
+      },
+      {
+        "word": "exercise",
+        "pos": "verb",
+        "meaning_en": "move your body to stay healthy",
+        "meaning_ar": "يمارس الرياضة",
+        "note_ar": "وأيضًا اسم: exercise",
+        "note_en": "Also a noun.",
+        "example": "I exercise three times a week."
+      },
+      {
+        "word": "gym",
+        "pos": "noun",
+        "meaning_en": "a place with machines for exercise",
+        "meaning_ar": "صالة رياضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He goes to the gym after work."
+      },
+      {
+        "word": "get dressed",
+        "pos": "phrase",
+        "meaning_en": "put on your clothes",
+        "meaning_ar": "يرتدي ملابسه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I get dressed at 7:15."
+      },
+      {
+        "word": "job",
+        "pos": "noun",
+        "meaning_en": "the work you do for money",
+        "meaning_ar": "وظيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like my job."
+      },
+      {
+        "word": "answer emails",
+        "pos": "phrase",
+        "meaning_en": "write back to emails",
+        "meaning_ar": "يردّ على الرسائل الإلكترونية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I answer emails every morning."
+      },
+      {
+        "word": "make phone calls",
+        "pos": "phrase",
+        "meaning_en": "call people on the phone",
+        "meaning_ar": "يُجري مكالمات هاتفية",
+        "note_ar": "نقول make a call وليس do a call",
+        "note_en": "Say \"make a call\", not \"do a call\".",
+        "example": "She makes phone calls to customers."
+      },
+      {
+        "word": "teach",
+        "pos": "verb",
+        "meaning_en": "help someone learn",
+        "meaning_ar": "يُعلّم / يدرّس",
+        "note_ar": "teach + اللغة/المادة + to + الشخص",
+        "note_en": "teach English to children",
+        "example": "I teach math to children."
+      },
+      {
+        "word": "stay fit",
+        "pos": "phrase",
+        "meaning_en": "keep your body healthy and strong",
+        "meaning_ar": "يحافظ على لياقته",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I swim to stay fit."
+      },
+      {
+        "word": "restaurant",
+        "pos": "noun",
+        "meaning_en": "a place where you buy and eat meals",
+        "meaning_ar": "مطعم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My uncle works in a restaurant."
+      },
+      {
+        "word": "chef",
+        "pos": "noun",
+        "meaning_en": "a professional cook",
+        "meaning_ar": "طاهٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The chef cooks for customers."
+      },
+      {
+        "word": "customer",
+        "pos": "noun",
+        "meaning_en": "a person who buys something",
+        "meaning_ar": "زبون / عميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The customers like the food."
+      },
+      {
+        "word": "go shopping",
+        "pos": "phrase",
+        "meaning_en": "go to shops to buy things",
+        "meaning_ar": "يتسوّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We go shopping on Thursday."
+      },
+      {
+        "word": "spend time",
+        "pos": "phrase",
+        "meaning_en": "be with people or do something for some time",
+        "meaning_ar": "يقضي وقتًا",
+        "note_ar": "spend time with family",
+        "note_en": "spend time with your family",
+        "example": "I spend time with my family on Friday."
+      },
+      {
+        "word": "go hiking",
+        "pos": "phrase",
+        "meaning_en": "take a long walk in nature",
+        "meaning_ar": "يمارس المشي في الطبيعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We go hiking in the mountains."
+      },
+      {
+        "word": "nature",
+        "pos": "noun",
+        "meaning_en": "trees, plants, animals, mountains and the sea",
+        "meaning_ar": "الطبيعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love nature."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "do vs make",
+        "words": [
+          "do",
+          "make"
+        ],
+        "explanation_ar": "نقول make phone calls و make dinner (نصنع شيئًا)، لكن do my homework و do exercise (نؤدي عملًا).",
+        "explanation_en": "We say make a call / make dinner, but do homework / do exercise.",
+        "examples": [
+          {
+            "word": "make",
+            "sentence": "I make phone calls at work."
+          },
+          {
+            "word": "do",
+            "sentence": "I do my homework after school."
+          }
+        ]
+      },
+      {
+        "title": "go + -ing activities",
+        "words": [
+          "go shopping",
+          "go hiking"
+        ],
+        "explanation_ar": "مع بعض الأنشطة نستخدم go + فعل بـ ing: go shopping, go hiking, go swimming. أما go for a walk فتأخذ for.",
+        "explanation_en": "We say go + -ing for activities: go shopping, go hiking. But: go for a walk.",
+        "examples": [
+          {
+            "word": "go shopping",
+            "sentence": "I go shopping on weekends."
+          },
+          {
+            "word": "go hiking",
+            "sentence": "They go hiking in spring."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What is your daily routine?",
+        "meaning_ar": "ما روتينك اليومي؟",
+        "meaning_en": "Ask about someone's day.",
+        "example": "What is your daily routine? I wake up at six."
+      },
+      {
+        "phrase": "What do you do after breakfast?",
+        "meaning_ar": "ماذا تفعل بعد الفطور؟",
+        "meaning_en": "Ask about the next part of the day.",
+        "example": "What do you do after breakfast? I go to work."
+      },
+      {
+        "phrase": "What do you do at your job?",
+        "meaning_ar": "ماذا تعمل في وظيفتك؟",
+        "meaning_en": "Ask about someone's work tasks.",
+        "example": "What do you do at your job? I help customers."
+      },
+      {
+        "phrase": "It is busy, but I like my job.",
+        "meaning_ar": "العمل مزدحم، لكني أحب وظيفتي.",
+        "meaning_en": "Say your job is busy but good.",
+        "example": "It is busy, but I like my job."
+      },
+      {
+        "phrase": "Do you like teaching? — Yes, I love it!",
+        "meaning_ar": "هل تحب التدريس؟ — نعم، أحبه كثيرًا!",
+        "meaning_en": "Ask and answer about likes.",
+        "example": "Do you like cooking? Yes, I love it!"
+      },
+      {
+        "phrase": "What are you talking about?",
+        "meaning_ar": "عمّ تتحدثون؟",
+        "meaning_en": "Ask about a conversation.",
+        "example": "Hello! What are you talking about?"
+      },
+      {
+        "phrase": "Do you go to the gym every day?",
+        "meaning_ar": "هل تذهب إلى الصالة الرياضية كل يوم؟",
+        "meaning_en": "Ask how often.",
+        "example": "Do you go to the gym every day? Not every day."
+      },
+      {
+        "phrase": "What do you do on weekends?",
+        "meaning_ar": "ماذا تفعل في عطلات نهاية الأسبوع؟",
+        "meaning_en": "Ask about free days.",
+        "example": "What do you do on weekends? I visit my parents."
+      },
+      {
+        "phrase": "That sounds like fun!",
+        "meaning_ar": "يبدو هذا ممتعًا!",
+        "meaning_en": "React to something nice.",
+        "example": "We play football together. That sounds like fun!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple: positive, negative, questions",
+        "explanation_ar": "المضارع البسيط للعادات. الإثبات: I wake up at 7. النفي: I do not (don't) exercise in the morning. السؤال: Do you go to the gym every day? / What do you do after work?",
+        "explanation_en": "Present simple for habits. Positive: I wake up. Negative: I do not exercise. Question: Do you...? / What do you...?",
+        "examples": [
+          "I wake up at 7 o'clock.",
+          "I do not exercise in the morning.",
+          "What do you do after work?"
+        ]
+      },
+      {
+        "title": "Time expressions: at, after, on",
+        "explanation_ar": "at مع الساعة (at 8:30)، after مع حدث (after breakfast, after work)، on مع الأيام (on weekends).",
+        "explanation_en": "Use at + clock time, after + an event, on + days.",
+        "examples": [
+          "I go to work at 8:30.",
+          "After breakfast, I take a shower.",
+          "On weekends, I relax."
+        ]
+      },
+      {
+        "title": "Frequency: every day, sometimes, not every day",
+        "explanation_ar": "every day = كل يوم، sometimes = أحيانًا، not every day = ليس كل يوم.",
+        "explanation_en": "every day, sometimes, not every day show how often.",
+        "examples": [
+          "I try to go every day.",
+          "Sometimes I meet friends.",
+          "Do you play games every day? Not every day."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What ___ your daily routine?",
+      "choices": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "answer": 0,
+      "explanation_ar": "routine مفرد، فنستخدم is.",
+      "explanation_en": "\"Routine\" is singular: is."
+    },
+    {
+      "question": "I ___ exercise in the morning. I go to the gym after work.",
+      "choices": [
+        "am not",
+        "do not",
+        "does not",
+        "not"
+      ],
+      "answer": 1,
+      "explanation_ar": "النفي مع I: do not + الفعل.",
+      "explanation_en": "Negative with I: do not + verb."
+    },
+    {
+      "question": "I go to work ___ 8:30.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer": 2,
+      "explanation_ar": "at مع الساعة.",
+      "explanation_en": "Use \"at\" with times."
+    },
+    {
+      "question": "___ weekends, I visit my parents.",
+      "choices": [
+        "On",
+        "In",
+        "At",
+        "By"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول on weekends.",
+      "explanation_en": "We say \"on weekends\"."
+    },
+    {
+      "question": "I am a chef. I cook food for ___.",
+      "choices": [
+        "teachers",
+        "children",
+        "customers",
+        "emails"
+      ],
+      "answer": 2,
+      "explanation_ar": "الشيف يطبخ للزبائن customers.",
+      "explanation_en": "A chef cooks for customers."
+    },
+    {
+      "question": "At work, I answer emails and ___ phone calls.",
+      "choices": [
+        "do",
+        "make",
+        "take",
+        "go"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول make phone calls.",
+      "explanation_en": "We say \"make phone calls\"."
+    },
+    {
+      "question": "I go to the gym because I like to stay ___.",
+      "choices": [
+        "fit",
+        "busy",
+        "late",
+        "fun"
+      ],
+      "answer": 0,
+      "explanation_ar": "stay fit = يحافظ على لياقته.",
+      "explanation_en": "\"Stay fit\" means keep healthy."
+    },
+    {
+      "question": "On weekends, I like to go ___.",
+      "choices": [
+        "hike",
+        "hiking",
+        "to hiking",
+        "hikes"
+      ],
+      "answer": 1,
+      "explanation_ar": "go + فعل بـ ing: go hiking.",
+      "explanation_en": "go + verb-ing: go hiking."
+    },
+    {
+      "question": "I teach English ___ children.",
+      "choices": [
+        "for",
+        "with",
+        "at",
+        "to"
+      ],
+      "answer": 3,
+      "explanation_ar": "نقول teach + الشيء + to + الشخص.",
+      "explanation_en": "teach something to someone."
+    },
+    {
+      "question": "Do you play games every day? — ___",
+      "choices": [
+        "Not every day.",
+        "At 7 o'clock.",
+        "I am a chef.",
+        "Toast and coffee."
+      ],
+      "answer": 0,
+      "explanation_ar": "الجواب المناسب عن التكرار: Not every day.",
+      "explanation_en": "\"Not every day\" answers how often."
+    }
+  ]
+}

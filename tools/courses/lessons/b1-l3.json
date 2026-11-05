@@ -32,7 +32,7 @@
       {
         "word": "dress",
         "pos": "noun / verb",
-        "meaning_en": "a one-piece piece of women's clothing; to put on clothes",
+        "meaning_en": "a one-piece item of women's clothing; to put on clothes",
         "meaning_ar": "فستان / يرتدي ملابسه",
         "note_ar": "get dressed = البس ملابسك",
         "example": "Get dressed, we're late!",
@@ -61,9 +61,9 @@
         "pos": "noun",
         "meaning_en": "a warm top, often made of wool",
         "meaning_ar": "بلوفر / كنزة صوف",
-        "note_ar": "من sweat = يعرق، لأنها ملابس ثقيلة تحفظ حرارة الجسم",
+        "note_ar": "من sweat = يعرق، لأنها كانت في الأصل تُلبس أثناء التمرين لتجعل الجسم يعرق",
         "example": "My grandmother knitted me a sweater.",
-        "note_en": "From \"sweat\", because it is warm clothing that keeps body heat in."
+        "note_en": "From \"sweat\": it was first worn during exercise to make the body sweat."
       },
       {
         "word": "T-shirt",
@@ -473,7 +473,7 @@
           "put on",
           "slip on"
         ],
-        "explanation_ar": "try on تعني تقيس الملابس لترى هل تناسبك (عادة في المحل). put on تعني تلبس ملابسك عموماً. slip on تعني تلبس الشيء بسرعة وسهولة، كما نقول بالعربية «نطّ في البنطلون». لا تقل try on your coat عن معطفك الذي تملكه، بل put on your coat.",
+        "explanation_ar": "try on تعني أن تقيس الملابس لترى هل تناسبك (عادة في المحل). put on تعني أن تلبس ملابسك عموماً. slip on تعني أن تلبس الشيء بسرعة وسهولة كأنه ينزلق عليك. لا تقل try on your coat عن معطفك الذي تملكه، بل put on your coat.",
         "examples": [
           {
             "word": "try on",
@@ -496,7 +496,7 @@
           "enter",
           "enter into"
         ],
-        "explanation_ar": "enter وحدها معناها «يدخل إلى» مكاناً حقيقياً له حدود (متجر، غرفة، حديقة)، فلا نضع بعدها حرف جر. enter into تُستخدم للدخول المعنوي (يدخل في نقاش، اتفاق، شراكة). ويمكن أن تعبّر into عن اختراق سطح، مثل رصاصة تدخل في الحائط.",
+        "explanation_ar": "enter وحدها معناها «يدخل» مكاناً حقيقياً له حدود (متجر، غرفة، حديقة)، فلا نضع بعدها حرف جر. أما enter into فتُستخدم للدخول المعنوي (يدخل في نقاش أو اتفاق أو شراكة).",
         "examples": [
           {
             "word": "enter",
@@ -511,7 +511,7 @@
             "sentence": "I entered into a long conversation with Sara."
           }
         ],
-        "explanation_en": "\"Enter\" alone means to go into a real place with limits (a shop, a room, a park), with no preposition after it. \"Enter into\" is used for non-physical things (a discussion, an agreement, a partnership). \"Into\" can also show going through a surface, like a bullet going into a wall."
+        "explanation_en": "\"Enter\" alone means to go into a real place with limits (a shop, a room, a park), with no preposition after it. \"Enter into\" is used for non-physical things (a discussion, an agreement, a partnership)."
       }
     ],
     "expressions": [
@@ -555,17 +555,17 @@
     "grammar": [
       {
         "title": "Adjective order: opinion before fact",
-        "explanation_ar": "في الإنجليزية الصفة التي تعبّر عن رأيك (جميل، قديم، رائع) تأتي قبل الصفة التي تعبّر عن حقيقة (لون، مادة). لذلك نقول a beautiful red dress وليس a red beautiful dress، عكس العربية «فستان أحمر جميل».",
+        "explanation_ar": "في الإنجليزية الصفة التي تعبّر عن رأيك (جميل، لطيف، رائع) تأتي قبل الصفة التي تعبّر عن حقيقة (عمر، لون، مادة). لذلك نقول a beautiful red dress وليس a red beautiful dress، عكس العربية «فستان أحمر جميل».",
         "examples": [
           "a beautiful red dress",
-          "an old metal box",
+          "a nice old metal box",
           "a lovely silver bracelet"
         ],
-        "explanation_en": "In English, an opinion adjective (beautiful, lovely, old) comes before a fact adjective (colour, material). So we say \"a beautiful red dress\", not \"a red beautiful dress\"."
+        "explanation_en": "In English, an opinion adjective (beautiful, lovely, nice) comes before a fact adjective (age, colour, material). So we say \"a beautiful red dress\", not \"a red beautiful dress\"."
       },
       {
         "title": "Adjective / verb + verb-ing (describing a state)",
-        "explanation_ar": "إذا جاء بعد صفة فعل، أو جاء فعلان وراء بعض مثل spend، فالفعل الثاني يأخذ ing ويصبح كالاسم، مهما كان زمن الجملة. فـ was busy picking ليست ماضياً مستمراً، بل تعني «كانت مشغولة بانتقاء».",
+        "explanation_ar": "إذا جاء فعل بعد صفة مثل busy، أو بعد أفعال مثل spend، فإنه يأخذ ing ويصبح كالاسم، مهما كان زمن الجملة. فـ was busy picking ليست ماضياً مستمراً، بل تعني «كانت مشغولة بانتقاء».",
         "examples": [
           "Sara was busy picking colourful socks.",
           "He is busy reading a book.",
@@ -675,7 +675,7 @@
       "choices": [
         "in",
         "over",
-        "on",
+        "of",
         "at"
       ],
       "answer": 1,

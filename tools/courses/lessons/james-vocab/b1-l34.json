@@ -1,0 +1,45 @@
+{
+  "title": "Medical Words in Business English",
+  "content": {
+    "vocabulary": [
+      {"word": "operation", "pos": "noun", "meaning_en": "(business) an activity or part of a company that is working; (medicine) surgery on a patient", "meaning_ar": "عملية / نشاط تجاري / عملية جراحية", "note_ar": "", "note_en": "", "example": "Who's running the Washington operation?"},
+      {"word": "surgery", "pos": "noun", "meaning_en": "when a doctor cuts open the body to repair it", "meaning_ar": "جراحة", "note_ar": "", "note_en": "", "example": "She needs heart surgery."},
+      {"word": "hemorrhage", "pos": "verb / noun", "meaning_en": "(medicine) to lose a lot of blood; (business) to lose a lot of money", "meaning_ar": "ينزف / نزيف (دم أو مال)", "note_ar": "UK: haemorrhage. hemo = دم", "note_en": "UK: haemorrhage. hemo = blood", "example": "The company is hemorrhaging money."},
+      {"word": "Band-Aid", "pos": "noun", "meaning_en": "(brand) a small bandage for cuts", "meaning_ar": "لاصق جروح", "note_ar": "اسم شركة صار اسمًا عامًّا", "note_en": "A brand name used as a general word.", "example": "Put a Band-Aid on your finger."},
+      {"word": "Band-Aid solution", "pos": "noun", "meaning_en": "(business) a quick, temporary fix that doesn't solve the real problem", "meaning_ar": "حلّ مؤقت / ترقيعي", "note_ar": "", "note_en": "", "example": "Band-Aid solutions never work for long."},
+      {"word": "solution", "pos": "noun", "meaning_en": "(medicine) a liquid mixture; (business) a way to deal with a difficult problem", "meaning_ar": "محلول / حلّ", "note_ar": "", "note_en": "", "example": "We need a real solution to this problem."},
+      {"word": "dose", "pos": "noun", "meaning_en": "an amount of medicine taken at one time", "meaning_ar": "جرعة", "note_ar": "a dose of strong medicine = إجراء قاسٍ لكنه ضروري", "note_en": "a dose of strong medicine = a hard but needed action", "example": "The company needs a dose of strong medicine."},
+      {"word": "DOA", "pos": "acronym", "meaning_en": "dead on arrival; (business) a plan that fails before it starts", "meaning_ar": "متوفّى عند الوصول / مشروع فاشل منذ البداية", "note_ar": "", "note_en": "", "example": "Without money, the deal was DOA."},
+      {"word": "admit", "pos": "verb", "meaning_en": "to let someone into a hospital as a patient", "meaning_ar": "يُدخِل (المستشفى)", "note_ar": "", "note_en": "", "example": "He was admitted to hospital last night."},
+      {"word": "checkup", "pos": "noun", "meaning_en": "a medical examination to check your health", "meaning_ar": "فحص طبي دوري", "note_ar": "كلمة واحدة = اسم", "note_en": "One word = noun.", "example": "I have a dental checkup next week."},
+      {"word": "check up on", "pos": "phrasal verb", "meaning_en": "to check how someone or something is doing", "meaning_ar": "يتفقّد / يتابع", "note_ar": "كلمتان = فعل مركّب", "note_en": "Two words = phrasal verb.", "example": "Check up on him by the end of the week."},
+      {"word": "triage", "pos": "noun / verb", "meaning_en": "deciding who or what needs help first, based on how serious it is", "meaning_ar": "الفرز حسب الأولوية", "note_ar": "تُنطق /ˈtriːɑːʒ/", "note_en": "Pronounced /ˈtriːɑːʒ/.", "example": "We need to triage these problems: the lawsuit comes first."},
+      {"word": "urgency", "pos": "noun", "meaning_en": "the need to deal with something quickly", "meaning_ar": "إلحاح / استعجال", "note_ar": "الصفة: urgent", "note_en": "Adjective: urgent.", "example": "Patients are seen in order of urgency."},
+      {"word": "DNR", "pos": "acronym", "meaning_en": "do not resuscitate; (business, joke) a career or project that will never be saved", "meaning_ar": "عدم الإنعاش / انتهاء مسيرة بلا رجعة", "note_ar": "", "note_en": "", "example": "After the scandal, they put a DNR on his career."},
+      {"word": "comprehension", "pos": "noun", "meaning_en": "understanding", "meaning_ar": "الفهم / الاستيعاب", "note_ar": "", "note_en": "", "example": "This lesson tests your listening comprehension."}
+    ],
+    "fine_lines": [
+      {"title": "checkup vs check up on", "words": ["checkup", "check up on"], "explanation_ar": "checkup (كلمة واحدة) اسم: فحص طبي. check up on (كلمات منفصلة) فعل: يتفقّد شخصًا أو شيئًا.", "explanation_en": "Checkup (one word) is a noun: a medical exam. Check up on (separate) is a verb: to see how someone is doing.", "examples": [{"word": "checkup", "sentence": "I have my yearly checkup tomorrow."}, {"word": "check up on", "sentence": "I'll check up on the car repair later."}]},
+      {"title": "Band-Aid solution vs real solution", "words": ["Band-Aid solution", "solution"], "explanation_ar": "Band-Aid solution حلّ مؤقت صغير لا يعالج أصل المشكلة. solution حلّ حقيقي.", "explanation_en": "A Band-Aid solution is a small temporary fix. A solution really solves the problem.", "examples": [{"word": "Band-Aid solution", "sentence": "Borrowing more money is just a Band-Aid solution."}, {"word": "solution", "sentence": "The real solution is to cut costs."}]}
+    ],
+    "expressions": [
+      {"phrase": "It's hemorrhaging money.", "meaning_ar": "إنه يخسر المال بكثرة.", "meaning_en": "It is losing a lot of money.", "example": "The new branch is hemorrhaging money."},
+      {"phrase": "a dose of strong medicine", "meaning_ar": "إجراء قاسٍ لكنه ضروري", "meaning_en": "a difficult but necessary action", "example": "The company needs a dose of strong medicine."},
+      {"phrase": "dead on arrival", "meaning_ar": "فاشل منذ البداية", "meaning_en": "it never had a chance", "example": "Their offer was dead on arrival."},
+      {"phrase": "Patience is the best medicine.", "meaning_ar": "الصبر خير دواء.", "meaning_en": "Waiting calmly helps more than anything.", "example": "Keep studying; patience is the best medicine."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"The ___ was a success, and the woman got a new heart.\"", "choices": ["operation", "checkup", "dose", "DOA"], "answer": 0, "explanation_ar": "operation = عملية جراحية.", "explanation_en": "Operation = surgery."},
+    {"question": "\"The difficult problem has two possible ___.\"", "choices": ["Band-Aids", "solutions", "hemorrhages", "doses"], "answer": 1, "explanation_ar": "solution = حلّ.", "explanation_en": "Solutions = ways to deal with a problem."},
+    {"question": "\"I have an annual dental ___.\"", "choices": ["check up on", "operation", "checkup", "triage"], "answer": 2, "explanation_ar": "checkup كلمة واحدة لأنها اسم.", "explanation_en": "Checkup is one word (a noun)."},
+    {"question": "\"___ solutions never work over a long period.\" (temporary)", "choices": ["Strong", "DNR", "Dose", "Band-Aid"], "answer": 3, "explanation_ar": "Band-Aid solution = حل مؤقت.", "explanation_en": "Band-Aid solution = temporary fix."},
+    {"question": "\"The company is ___ money.\" (losing a lot)", "choices": ["hemorrhaging", "triaging", "admitting", "dosing"], "answer": 0, "explanation_ar": "hemorrhage money = يخسر المال بكثرة.", "explanation_en": "Hemorrhaging money = losing a lot."},
+    {"question": "\"The ___ of medicine was too high.\" (amount at one time)", "choices": ["checkup", "dose", "solution", "operation"], "answer": 1, "explanation_ar": "dose = جرعة.", "explanation_en": "Dose = amount at one time."},
+    {"question": "A business plan that fails as soon as it is mentioned is ___.", "choices": ["a checkup", "triage", "DOA", "a solution"], "answer": 2, "explanation_ar": "DOA = فاشل منذ البداية.", "explanation_en": "DOA = dead on arrival."},
+    {"question": "\"Call the mechanic and ___ the car.\" (see how it's going)", "choices": ["checkup", "hemorrhage", "admit", "check up on"], "answer": 3, "explanation_ar": "check up on = يتفقّد.", "explanation_en": "Check up on = see how it's doing."},
+    {"question": "Deciding which problem to fix first, by how serious it is, is ___.", "choices": ["triage", "DNR", "a Band-Aid", "a dose"], "answer": 0, "explanation_ar": "triage = الفرز حسب الأولوية.", "explanation_en": "Triage = prioritizing by urgency."},
+    {"question": "\"You can't put a ___ on a broken heart.\" (small bandage)", "choices": ["dose", "Band-Aid", "checkup", "triage"], "answer": 1, "explanation_ar": "Band-Aid = لاصق جروح صغير.", "explanation_en": "A Band-Aid is a small bandage."}
+  ]
+}

@@ -1,0 +1,514 @@
+{
+ "title": "I Was Minding My Own Business",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "crime",
+    "pos": "noun",
+    "meaning_en": "an action that is against the law",
+    "meaning_ar": "جريمة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Stealing is a crime."
+   },
+   {
+    "word": "scene",
+    "pos": "noun",
+    "meaning_en": "the place where something happens",
+    "meaning_ar": "مكان الحادث",
+    "note_ar": "the scene of a crime = مسرح الجريمة.",
+    "note_en": "the scene of a crime = the place where a crime happened.",
+    "example": "The police are at the scene."
+   },
+   {
+    "word": "lunch break",
+    "pos": "noun",
+    "meaning_en": "a short time to stop work and eat lunch",
+    "meaning_ar": "استراحة الغداء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I go for a walk during my lunch break."
+   },
+   {
+    "word": "hurt",
+    "pos": "verb",
+    "meaning_en": "to cause pain to a body part",
+    "meaning_ar": "يؤذي / يصاب",
+    "note_ar": "الماضي والتصريف الثالث نفس الكلمة: hurt - hurt - hurt.",
+    "note_en": "Past and past participle are the same: hurt - hurt - hurt.",
+    "example": "I hurt my leg playing football."
+   },
+   {
+    "word": "arm",
+    "pos": "noun",
+    "meaning_en": "the part of the body between the shoulder and the hand",
+    "meaning_ar": "ذراع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She broke her arm last year."
+   },
+   {
+    "word": "mind your own business",
+    "pos": "phrase",
+    "meaning_en": "to pay attention to your own life, not other people's",
+    "meaning_ar": "يهتم بشؤونه الخاصة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I was just minding my own business when the phone rang."
+   },
+   {
+    "word": "yell",
+    "pos": "verb",
+    "meaning_en": "to shout loudly",
+    "meaning_ar": "يصرخ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't yell. I can hear you."
+   },
+   {
+    "word": "robber",
+    "pos": "noun",
+    "meaning_en": "a person who takes things from people, often using force",
+    "meaning_ar": "لص / سارق",
+    "note_ar": "الفعل: rob، والاسم: robbery (عملية سرقة).",
+    "note_en": "Verb: rob; noun: robbery (the crime).",
+    "example": "The robbers ran away with the money."
+   },
+   {
+    "word": "grab",
+    "pos": "verb",
+    "meaning_en": "to take something quickly and roughly",
+    "meaning_ar": "يخطف / يمسك بسرعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He grabbed his bag and ran to the bus."
+   },
+   {
+    "word": "umbrella",
+    "pos": "noun",
+    "meaning_en": "a thing you hold over your head to stay dry in the rain",
+    "meaning_ar": "مظلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Take an umbrella. It's raining."
+   },
+   {
+    "word": "fight",
+    "pos": "verb",
+    "meaning_en": "to use your body to hurt or stop someone",
+    "meaning_ar": "يقاتل / يتشاجر",
+    "note_ar": "الماضي: fought.",
+    "note_en": "Past: fought.",
+    "example": "The children should not fight."
+   },
+   {
+    "word": "run away",
+    "pos": "phrasal verb",
+    "meaning_en": "to leave a place quickly to escape",
+    "meaning_ar": "يهرب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The cat ran away when it saw the dog."
+   },
+   {
+    "word": "run after",
+    "pos": "phrasal verb",
+    "meaning_en": "to chase; to run to catch someone",
+    "meaning_ar": "يركض خلف / يطارد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I ran after the bus, but it didn't stop."
+   },
+   {
+    "word": "afraid",
+    "pos": "adjective",
+    "meaning_en": "feeling fear",
+    "meaning_ar": "خائف",
+    "note_ar": "afraid of + شيء.",
+    "note_en": "afraid of + something.",
+    "example": "My little brother is afraid of the dark."
+   },
+   {
+    "word": "rest",
+    "pos": "verb",
+    "meaning_en": "to relax or sleep after activity",
+    "meaning_ar": "يستريح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I rested on a bench in the park."
+   },
+   {
+    "word": "bench",
+    "pos": "noun",
+    "meaning_en": "a long seat for two or more people, often outside",
+    "meaning_ar": "مقعد طويل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We sat on a bench and ate our sandwiches."
+   },
+   {
+    "word": "trip",
+    "pos": "verb",
+    "meaning_en": "to hit your foot on something and almost fall",
+    "meaning_ar": "يتعثر",
+    "note_ar": "الماضي: tripped (نضاعف p).",
+    "note_en": "Past: tripped (double p).",
+    "example": "Be careful! Don't trip on the stairs."
+   },
+   {
+    "word": "fall",
+    "pos": "verb",
+    "meaning_en": "to go down to the ground suddenly",
+    "meaning_ar": "يسقط / يقع",
+    "note_ar": "fall - fell - fallen.",
+    "note_en": "fall - fell - fallen.",
+    "example": "The baby fell, but she is OK."
+   },
+   {
+    "word": "ground",
+    "pos": "noun",
+    "meaning_en": "the surface of the earth",
+    "meaning_ar": "الأرض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The book fell on the ground."
+   },
+   {
+    "word": "step on",
+    "pos": "phrasal verb",
+    "meaning_en": "to put your foot on something",
+    "meaning_ar": "يدوس على",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sorry, I stepped on your foot!"
+   },
+   {
+    "word": "apologize",
+    "pos": "verb",
+    "meaning_en": "to say you are sorry",
+    "meaning_ar": "يعتذر",
+    "note_ar": "بالبريطانية: apologise.",
+    "note_en": "UK spelling: apologise.",
+    "example": "He apologized for being late."
+   },
+   {
+    "word": "kick off",
+    "pos": "phrasal verb",
+    "meaning_en": "to make someone leave (informal)",
+    "meaning_ar": "يطرد",
+    "note_ar": "get kicked off = يُطرد.",
+    "note_en": "get kicked off = be made to leave.",
+    "example": "They got kicked off the bus because they didn't pay."
+   },
+   {
+    "word": "snack",
+    "pos": "noun",
+    "meaning_en": "a small amount of food between meals",
+    "meaning_ar": "وجبة خفيفة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I eat an apple as a snack."
+   },
+   {
+    "word": "co-worker",
+    "pos": "noun",
+    "meaning_en": "a person you work with",
+    "meaning_ar": "زميل في العمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My co-workers are very kind."
+   },
+   {
+    "word": "stuck",
+    "pos": "adjective",
+    "meaning_en": "not able to move",
+    "meaning_ar": "عالق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My hand is stuck in the jar!"
+   },
+   {
+    "word": "vending machine",
+    "pos": "noun",
+    "meaning_en": "a machine that sells drinks or snacks when you put in money",
+    "meaning_ar": "آلة البيع الذاتي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I bought water from the vending machine."
+   },
+   {
+    "word": "chips",
+    "pos": "noun",
+    "meaning_en": "thin, dry, fried slices of potato sold in a bag (US)",
+    "meaning_ar": "رقائق البطاطس (شيبس)",
+    "note_ar": "بالبريطانية: crisps. أما chips بالبريطانية فهي البطاطس المقلية.",
+    "note_en": "UK: crisps. In the UK, \"chips\" are French fries.",
+    "example": "Do you want a bag of chips?"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "was/were + -ing vs past simple",
+    "words": [
+     "was running",
+     "fell"
+    ],
+    "explanation_ar": "الماضي المستمر (was running) لحدث طويل كان مستمراً، والماضي البسيط (fell) لحدث قصير قطعه. while تأتي غالباً مع الحدث الطويل.",
+    "explanation_en": "Past continuous (was running) is for a longer action in progress; past simple (fell) is for a short action that happened in the middle of it. While usually goes with the longer action.",
+    "examples": [
+     {
+      "word": "past continuous",
+      "sentence": "While I was running, I tripped and fell."
+     },
+     {
+      "word": "past simple",
+      "sentence": "Someone stepped on my arm while I was lying on the ground."
+     }
+    ]
+   },
+   {
+    "title": "run away vs run after",
+    "words": [
+     "run away",
+     "run after"
+    ],
+    "explanation_ar": "run away = يهرب من مكان أو شخص. run after = يركض خلف شخص ليمسكه.",
+    "explanation_en": "Run away = leave quickly to escape. Run after = chase someone to catch them.",
+    "examples": [
+     {
+      "word": "run away",
+      "sentence": "The robbers ran away."
+     },
+     {
+      "word": "run after",
+      "sentence": "Anna ran after the robbers."
+     }
+    ]
+   },
+   {
+    "title": "hurt yourself / hurt your arm",
+    "words": [
+     "hurt myself",
+     "hurt my arm"
+    ],
+    "explanation_ar": "عندما نتحدث عن إصابة، يحتاج hurt إلى مفعول به: إما ضمير منعكس (I hurt myself) أو جزء من الجسم (I hurt my arm). أما إذا كان جزء الجسم هو الفاعل فلا يحتاج مفعولاً: My arm hurts = ذراعي تؤلمني.",
+    "explanation_en": "When you talk about an injury, hurt needs an object: a reflexive pronoun (I hurt myself) or a body part (I hurt my arm). When the body part is the subject, no object is needed: My arm hurts (= it is painful).",
+    "examples": [
+     {
+      "word": "hurt myself",
+      "sentence": "I hurt myself in the kitchen."
+     },
+     {
+      "word": "hurt my arm",
+      "sentence": "I hurt my arm in a vending machine."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "I was minding my own business.",
+    "meaning_ar": "كنت في حالي (لا أتدخل في شيء).",
+    "meaning_en": "I was not doing anything to cause the problem.",
+    "example": "I was minding my own business when a ball hit my window."
+   },
+   {
+    "phrase": "What happened to your arm?",
+    "meaning_ar": "ماذا حدث لذراعك؟",
+    "meaning_en": "Asking how someone got hurt.",
+    "example": "You have a bandage. What happened to your arm?"
+   },
+   {
+    "phrase": "So, what happened next?",
+    "meaning_ar": "إذن، ماذا حدث بعد ذلك؟",
+    "meaning_en": "Asking someone to continue a story.",
+    "example": "You lost your bag? So, what happened next?"
+   },
+   {
+    "phrase": "I had no time to be afraid.",
+    "meaning_ar": "لم يكن لدي وقت لأخاف.",
+    "meaning_en": "Things happened too fast to feel fear.",
+    "example": "It all happened so fast. I had no time to be afraid."
+   },
+   {
+    "phrase": "That's too bad.",
+    "meaning_ar": "هذا مؤسف.",
+    "meaning_en": "Used to show you are sorry about someone's bad news.",
+    "example": "You missed the bus? That's too bad."
+   },
+   {
+    "phrase": "Please come right away.",
+    "meaning_ar": "من فضلك تعال فوراً.",
+    "meaning_en": "Come now, without waiting.",
+    "example": "My friend is hurt. Please come right away."
+   },
+   {
+    "phrase": "I'm calling for help.",
+    "meaning_ar": "سأتصل لطلب المساعدة.",
+    "meaning_en": "I am phoning someone to come and help.",
+    "example": "Don't move. I'm calling for help right now."
+   },
+   {
+    "phrase": "You've got to pay when you get on a bus.",
+    "meaning_ar": "يجب أن تدفع عندما تركب الحافلة.",
+    "meaning_en": "You must pay (informal: have got to = have to).",
+    "example": "You've got to show your ticket when you get on the train."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Past continuous: was/were + verb-ing",
+    "explanation_ar": "نستخدم الماضي المستمر لنصف حدثاً كان مستمراً في وقت معين في الماضي. التكوين: I/he/she/it + was + فعل ing، و you/we/they + were + فعل ing. النفي: was not / were not. السؤال: Were you afraid? / What were you doing?",
+    "explanation_en": "Use the past continuous for an action that was in progress at a time in the past. Form: I/he/she/it + was + verb-ing; you/we/they + were + verb-ing. Negative: was not / were not. Question: Were you running? What were you doing?",
+    "examples": [
+     "She was yelling, \"Help! Help!\"",
+     "Two robbers were grabbing her bag.",
+     "At that time, I was not fighting the robbers."
+    ]
+   },
+   {
+    "title": "while + past continuous, past simple",
+    "explanation_ar": "نستخدم while مع الحدث الطويل (الماضي المستمر)، والحدث القصير المفاجئ يكون بالماضي البسيط. يمكن أن تأتي while في بداية الجملة (مع فاصلة) أو في وسطها.",
+    "explanation_en": "Use while with the long action (past continuous). The short, sudden action is in the past simple. While can start the sentence (use a comma) or come in the middle.",
+    "examples": [
+     "While I was running, I tripped and fell.",
+     "While I was lying on the ground, someone stepped on my arm.",
+     "She hurt herself while she was trying to stop the crime."
+    ]
+   },
+   {
+    "title": "Reflexive pronouns: myself, yourself, herself ...",
+    "explanation_ar": "نستخدم الضمير المنعكس عندما يكون الفاعل والمفعول به نفس الشخص. myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.",
+    "explanation_en": "Use a reflexive pronoun when the subject and the object are the same person: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.",
+    "examples": [
+     "It looks like she hurt herself.",
+     "When did you hurt yourself?",
+     "The robbers got themselves kicked off the bus.",
+     "We have to find ourselves another story."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Complete: \"Two robbers ____ her bag.\"",
+   "choices": [
+    "was grabbing",
+    "were grabbing",
+    "grabbing",
+    "is grab"
+   ],
+   "answer": 1,
+   "explanation_ar": "robbers جمع، فنستخدم were + ing.",
+   "explanation_en": "Robbers is plural, so use were + -ing."
+  },
+  {
+   "question": "Complete: \"While I ____, I tripped and fell.\"",
+   "choices": [
+    "run",
+    "am running",
+    "was running",
+    "were running"
+   ],
+   "answer": 2,
+   "explanation_ar": "مع I نستخدم was + ing للحدث الطويل.",
+   "explanation_en": "With I, use was + -ing for the longer action."
+  },
+  {
+   "question": "Choose the correct reflexive pronoun: \"She hurt ____.\"",
+   "choices": [
+    "herself",
+    "himself",
+    "itself",
+    "sheself"
+   ],
+   "answer": 0,
+   "explanation_ar": "مع she نستخدم herself.",
+   "explanation_en": "With she, use herself."
+  },
+  {
+   "question": "The robbers took the bag and left quickly. They ...",
+   "choices": [
+    "ran after",
+    "ran away",
+    "ran on",
+    "ran up"
+   ],
+   "answer": 1,
+   "explanation_ar": "run away = هرب.",
+   "explanation_en": "Run away = leave quickly to escape."
+  },
+  {
+   "question": "Which sentence is correct?",
+   "choices": [
+    "I was rest on a bench.",
+    "I resting on a bench.",
+    "I were resting on a bench.",
+    "I was resting on a bench."
+   ],
+   "answer": 3,
+   "explanation_ar": "مع I نستخدم was + resting.",
+   "explanation_en": "I + was + resting."
+  },
+  {
+   "question": "\"I was minding my own business\" means ...",
+   "choices": [
+    "I was working in my own company.",
+    "I was not doing anything to other people.",
+    "I was very busy.",
+    "I was talking about money."
+   ],
+   "answer": 1,
+   "explanation_ar": "mind my own business = كنت في حالي ولا أتدخل في شيء.",
+   "explanation_en": "It means I was not doing anything to cause trouble."
+  },
+  {
+   "question": "A machine that sells snacks and drinks is a ...",
+   "choices": [
+    "vending machine",
+    "washing machine",
+    "bench",
+    "chart"
+   ],
+   "answer": 0,
+   "explanation_ar": "vending machine آلة تبيع الوجبات الخفيفة والمشروبات.",
+   "explanation_en": "A vending machine sells snacks and drinks."
+  },
+  {
+   "question": "Someone stepped on Anna's arm, but they didn't say sorry. They didn't ...",
+   "choices": [
+    "trip",
+    "yell",
+    "rest",
+    "apologize"
+   ],
+   "answer": 3,
+   "explanation_ar": "apologize = يعتذر.",
+   "explanation_en": "Apologize = say sorry."
+  },
+  {
+   "question": "Complete the question: \"What ____ you doing at noon?\"",
+   "choices": [
+    "was",
+    "did",
+    "were",
+    "are being"
+   ],
+   "answer": 2,
+   "explanation_ar": "مع you نستخدم were في الماضي المستمر.",
+   "explanation_en": "With you, use were in the past continuous."
+  },
+  {
+   "question": "\"We have to find ____ another story.\"",
+   "choices": [
+    "ourself",
+    "ourselves",
+    "themselves",
+    "us self"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع we نستخدم ourselves.",
+   "explanation_en": "With we, use ourselves."
+  }
+ ]
+}

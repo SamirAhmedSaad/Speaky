@@ -1,0 +1,400 @@
+{
+  "title": "What did you do yesterday?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "yesterday",
+        "pos": "adverb",
+        "meaning_en": "the day before today",
+        "meaning_ar": "أمس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I visited my grandmother yesterday."
+      },
+      {
+        "word": "go shopping",
+        "pos": "phrase",
+        "meaning_en": "go to shops to buy things",
+        "meaning_ar": "يتسوّق",
+        "note_ar": "الماضي: went shopping",
+        "note_en": "Past: went shopping.",
+        "example": "I went shopping on Monday."
+      },
+      {
+        "word": "buy",
+        "pos": "verb",
+        "meaning_en": "get something by paying money",
+        "meaning_ar": "يشتري",
+        "note_ar": "الماضي: bought",
+        "note_en": "Past: bought.",
+        "example": "I bought a new bag."
+      },
+      {
+        "word": "clothes",
+        "pos": "noun",
+        "meaning_en": "things you wear",
+        "meaning_ar": "ملابس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She bought new clothes for Eid."
+      },
+      {
+        "word": "tennis",
+        "pos": "noun",
+        "meaning_en": "a sport with rackets and a ball",
+        "meaning_ar": "التنس",
+        "note_ar": "play tennis بدون the",
+        "note_en": "play tennis (no \"the\")",
+        "example": "We play tennis on Saturday."
+      },
+      {
+        "word": "win",
+        "pos": "verb",
+        "meaning_en": "be the best in a game",
+        "meaning_ar": "يفوز",
+        "note_ar": "الماضي: won",
+        "note_en": "Past: won.",
+        "example": "Our team won the match."
+      },
+      {
+        "word": "park",
+        "pos": "noun",
+        "meaning_en": "a public garden",
+        "meaning_ar": "حديقة عامة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We went to the park."
+      },
+      {
+        "word": "sunny",
+        "pos": "adjective",
+        "meaning_en": "with a lot of sunshine",
+        "meaning_ar": "مشمس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a sunny day."
+      },
+      {
+        "word": "alone",
+        "pos": "adverb",
+        "meaning_en": "without other people",
+        "meaning_ar": "وحيدًا / بمفرده",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Did you go alone?"
+      },
+      {
+        "word": "ice cream",
+        "pos": "noun",
+        "meaning_en": "a cold, sweet frozen food",
+        "meaning_ar": "آيس كريم / مثلجات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Children love ice cream."
+      },
+      {
+        "word": "flavor",
+        "pos": "noun",
+        "meaning_en": "the taste of food, like chocolate or vanilla",
+        "meaning_ar": "نكهة",
+        "note_ar": "في بريطانيا: flavour",
+        "note_en": "UK: flavour.",
+        "example": "Which flavor do you like?"
+      },
+      {
+        "word": "chocolate",
+        "pos": "noun",
+        "meaning_en": "a sweet brown food",
+        "meaning_ar": "شوكولاتة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I had chocolate ice cream."
+      },
+      {
+        "word": "vanilla",
+        "pos": "noun",
+        "meaning_en": "a sweet flavor used in cakes and ice cream",
+        "meaning_ar": "فانيليا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He likes vanilla."
+      },
+      {
+        "word": "yummy",
+        "pos": "adjective",
+        "meaning_en": "tasting very good (informal)",
+        "meaning_ar": "لذيذ (عامية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This cake is yummy!"
+      },
+      {
+        "word": "movie",
+        "pos": "noun",
+        "meaning_en": "a film",
+        "meaning_ar": "فيلم",
+        "note_ar": "في بريطانيا: film",
+        "note_en": "UK: film.",
+        "example": "We watched a movie about the sea."
+      },
+      {
+        "word": "last night",
+        "pos": "phrase",
+        "meaning_en": "the evening or night before today",
+        "meaning_ar": "الليلة الماضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I slept early last night."
+      },
+      {
+        "word": "amazing",
+        "pos": "adjective",
+        "meaning_en": "very good; surprising",
+        "meaning_ar": "مذهل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The view was amazing."
+      },
+      {
+        "word": "space travel",
+        "pos": "noun",
+        "meaning_en": "going into space in a rocket",
+        "meaning_ar": "السفر إلى الفضاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The movie is about space travel."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Regular vs irregular past verbs",
+        "words": [
+          "played",
+          "went"
+        ],
+        "explanation_ar": "الأفعال المنتظمة يضاف لها ed في الماضي: play → played، watch → watched. الأفعال الشاذة لها شكل خاص: go → went، buy → bought، have → had، win → won، do → did.",
+        "explanation_en": "Regular verbs add -ed (played, watched). Irregular verbs change (went, bought, had, won, did).",
+        "examples": [
+          {
+            "word": "played",
+            "sentence": "I played tennis with Tom."
+          },
+          {
+            "word": "went",
+            "sentence": "I went to the park."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What did you do yesterday?",
+        "meaning_ar": "ماذا فعلت أمس؟",
+        "meaning_en": "Ask about someone's past day.",
+        "example": "What did you do yesterday? I went shopping."
+      },
+      {
+        "phrase": "I did many things.",
+        "meaning_ar": "فعلت أشياء كثيرة.",
+        "meaning_en": "Say you were busy.",
+        "example": "Yesterday I did many things."
+      },
+      {
+        "phrase": "What else did you do?",
+        "meaning_ar": "ماذا فعلت أيضًا؟",
+        "meaning_en": "Ask for more information.",
+        "example": "You went shopping. What else did you do?"
+      },
+      {
+        "phrase": "Who did you play with?",
+        "meaning_ar": "مع من لعبت؟",
+        "meaning_en": "Ask about the people with you.",
+        "example": "Who did you play with? I played with Tom."
+      },
+      {
+        "phrase": "Did you win? — Yes, I won!",
+        "meaning_ar": "هل فزت؟ — نعم، فزت!",
+        "meaning_en": "Ask about a game result.",
+        "example": "Did you win? Yes, I won!"
+      },
+      {
+        "phrase": "Did you go alone?",
+        "meaning_ar": "هل ذهبت وحدك؟",
+        "meaning_en": "Ask if someone was with you.",
+        "example": "Did you go alone? No, I went with John."
+      },
+      {
+        "phrase": "Which flavor did you have?",
+        "meaning_ar": "أي نكهة أخذت؟",
+        "meaning_en": "Ask about choice of ice cream or food.",
+        "example": "Which flavor did you have? Chocolate."
+      },
+      {
+        "phrase": "What was it about?",
+        "meaning_ar": "عمّ كان؟",
+        "meaning_en": "Ask about the story of a film or book.",
+        "example": "I read a book. What was it about?"
+      },
+      {
+        "phrase": "That sounds interesting.",
+        "meaning_ar": "يبدو هذا مثيرًا للاهتمام.",
+        "meaning_en": "Show interest.",
+        "example": "A movie about space? That sounds interesting."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past simple questions: What did you...? / Did you...?",
+        "explanation_ar": "نسأل في الماضي بـ did + الفاعل + الفعل في أصله: What did you do? Did you win? والجواب القصير: Yes, I did. / No, I didn't. ولا نقول Did you won.",
+        "explanation_en": "Past questions: did + subject + base verb. Short answer: Yes, I did / No, I didn't.",
+        "examples": [
+          "What did you buy?",
+          "Did you watch the movie last night? Yes, I did.",
+          "Who did you watch it with?"
+        ]
+      },
+      {
+        "title": "Past simple: positive sentences",
+        "explanation_ar": "في الجملة المثبتة نستخدم الفعل في الماضي: I played tennis. I went to the park. I bought new clothes. It was a sunny day.",
+        "explanation_en": "In positive sentences use the past form: played, went, bought, was.",
+        "examples": [
+          "I went shopping.",
+          "I bought new clothes.",
+          "It was amazing!"
+        ]
+      },
+      {
+        "title": "was / were",
+        "explanation_ar": "was مع I/he/she/it، و were مع you/we/they: It was a sunny day. We were at the park.",
+        "explanation_en": "was with I/he/she/it; were with you/we/they.",
+        "examples": [
+          "It was a sunny day.",
+          "It was a movie about space travel.",
+          "We were very happy."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What did you do yesterday? — I ___ shopping.",
+      "choices": [
+        "go",
+        "went",
+        "goed",
+        "going"
+      ],
+      "answer": 1,
+      "explanation_ar": "ماضي go هو went.",
+      "explanation_en": "The past of go is went."
+    },
+    {
+      "question": "What did you ___? — I bought new clothes.",
+      "choices": [
+        "buy",
+        "bought",
+        "buys",
+        "buying"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد did نستخدم الفعل في أصله.",
+      "explanation_en": "After \"did\" use the base verb."
+    },
+    {
+      "question": "Did you win? — Yes, I ___!",
+      "choices": [
+        "win",
+        "winned",
+        "won",
+        "wins"
+      ],
+      "answer": 2,
+      "explanation_ar": "ماضي win هو won.",
+      "explanation_en": "The past of win is won."
+    },
+    {
+      "question": "Did you watch the movie? — Yes, I ___.",
+      "choices": [
+        "did",
+        "do",
+        "was",
+        "watched"
+      ],
+      "answer": 0,
+      "explanation_ar": "الجواب القصير: Yes, I did.",
+      "explanation_en": "Short answer: Yes, I did."
+    },
+    {
+      "question": "It ___ a sunny day.",
+      "choices": [
+        "were",
+        "is be",
+        "was",
+        "did"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع it نستخدم was.",
+      "explanation_en": "With \"it\" use \"was\"."
+    },
+    {
+      "question": "Which is the past of \"play\"?",
+      "choices": [
+        "plaied",
+        "played",
+        "plaid",
+        "playing"
+      ],
+      "answer": 1,
+      "explanation_ar": "play فعل منتظم: played.",
+      "explanation_en": "Play is regular: played."
+    },
+    {
+      "question": "Chocolate and vanilla are ice cream ___.",
+      "choices": [
+        "flavors",
+        "movies",
+        "parks",
+        "clothes"
+      ],
+      "answer": 0,
+      "explanation_ar": "flavors تعني نكهات.",
+      "explanation_en": "They are flavors."
+    },
+    {
+      "question": "Did you go alone? — No, I went ___ John.",
+      "choices": [
+        "at",
+        "with",
+        "to",
+        "on"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول went with للمرافق.",
+      "explanation_en": "We say \"with\" a person."
+    },
+    {
+      "question": "Choose the correct question.",
+      "choices": [
+        "Did you won?",
+        "Do you won?",
+        "Did you win?",
+        "Did you wins?"
+      ],
+      "answer": 2,
+      "explanation_ar": "Did + الفعل في أصله: Did you win?",
+      "explanation_en": "Did + base verb."
+    },
+    {
+      "question": "\"Last night\" means...",
+      "choices": [
+        "tomorrow evening",
+        "this morning",
+        "next week",
+        "the evening before today"
+      ],
+      "answer": 3,
+      "explanation_ar": "last night = الليلة الماضية.",
+      "explanation_en": "Last night = the evening before today."
+    }
+  ]
+}

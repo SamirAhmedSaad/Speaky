@@ -1,0 +1,47 @@
+{
+  "title": "Each, Every, Whole, Entire, All",
+  "content": {
+    "vocabulary": [
+      {"word": "whole", "pos": "adjective", "meaning_en": "complete, 100%, seen as one unit (countable nouns)", "meaning_ar": "كامل / بأكمله", "note_ar": "تُنطق مثل hole: /hoʊl/", "note_en": "Sounds like \"hole\": /hoʊl/.", "example": "I ate the whole apple."},
+      {"word": "entire", "pos": "adjective", "meaning_en": "the same as \"whole\", but more formal or stronger", "meaning_ar": "بأكمله / برمّته (أكثر رسمية)", "note_ar": "", "note_en": "", "example": "You ate the entire pizza?!"},
+      {"word": "all", "pos": "determiner", "meaning_en": "the whole amount; used with countable and uncountable nouns", "meaning_ar": "كل / جميع", "note_ar": "", "note_en": "", "example": "All of the water is gone."},
+      {"word": "every", "pos": "determiner", "meaning_en": "each member of a group, seen as similar", "meaning_ar": "كلّ (أفراد متشابهون في مجموعة)", "note_ar": "", "note_en": "", "example": "Every meal comes with a toy."},
+      {"word": "each", "pos": "determiner", "meaning_en": "every single one, seen as different and individual", "meaning_ar": "كلّ واحد (بشكل منفرد)", "note_ar": "", "note_en": "", "example": "Each toy has its own special number."},
+      {"word": "countable noun", "pos": "noun", "meaning_en": "a noun you can count: apple, room, pizza", "meaning_ar": "اسم معدود", "note_ar": "", "note_en": "", "example": "\"Pizza\" is a countable noun."},
+      {"word": "uncountable noun", "pos": "noun", "meaning_en": "a noun you can't count: water, salt, money, time", "meaning_ar": "اسم غير معدود", "note_ar": "", "note_en": "", "example": "\"Water\" is an uncountable noun."},
+      {"word": "unit", "pos": "noun", "meaning_en": "one complete thing", "meaning_ar": "وحدة", "note_ar": "", "note_en": "", "example": "\"Whole\" sees something as one unit."},
+      {"word": "similarity", "pos": "noun", "meaning_en": "being alike", "meaning_ar": "التشابه", "note_ar": "", "note_en": "", "example": "\"Every\" focuses on similarity."},
+      {"word": "uniqueness", "pos": "noun", "meaning_en": "being different from all others", "meaning_ar": "التفرد", "note_ar": "", "note_en": "", "example": "\"Each\" focuses on uniqueness."},
+      {"word": "exclamation", "pos": "noun", "meaning_en": "a strong, sudden expression of feeling (!)", "meaning_ar": "تعجب", "note_ar": "", "note_en": "", "example": "\"The entire pizza!\" is an exclamation."},
+      {"word": "collective", "pos": "noun", "meaning_en": "a group seen together", "meaning_ar": "المجموع / الجماعة", "note_ar": "", "note_en": "", "example": "\"Everyone\" talks about the collective."},
+      {"word": "topping", "pos": "noun", "meaning_en": "food put on top of a pizza or dessert", "meaning_ar": "إضافة فوق الطعام (حشوة علوية)", "note_ar": "", "note_en": "", "example": "Each pizza had a different topping."}
+    ],
+    "fine_lines": [
+      {"title": "whole vs entire", "words": ["whole", "entire"], "explanation_ar": "المعنى نفسه (100%، الشيء كاملًا) ومع الأسماء المعدودة. entire أكثر رسمية وأقوى، وتُستعمل للتعجب.", "explanation_en": "Same meaning (100%, the complete thing), with countable nouns. \"Entire\" is more formal and stronger, good for exclamations.", "examples": [{"word": "whole", "sentence": "I ate the whole pizza."}, {"word": "entire", "sentence": "You ate the entire pizza?!"}]},
+      {"title": "whole vs all", "words": ["whole", "all"], "explanation_ar": "whole للأسماء المعدودة فقط (the whole apple). all للمعدود وغير المعدود (all of the water, all of the money, all of the people). all أكثر شيوعًا.", "explanation_en": "\"Whole\" is only for countable nouns (the whole apple). \"All\" works with countable and uncountable nouns (all of the water, all of the money, all of the people). \"All\" is more common.", "examples": [{"word": "whole", "sentence": "We cleaned the whole room."}, {"word": "all", "sentence": "All of the salt is gone."}]},
+      {"title": "every vs each", "words": ["every", "each"], "explanation_ar": "كلاهما لأجزاء مجموعة من أشياء معدودة. every تركز على التشابه (المجموعة ككل). each تركز على الاختلاف والتفرد (كل واحد مختلف).", "explanation_en": "Both are for parts of a group of countable things. \"Every\" focuses on similarity (the group). \"Each\" focuses on differences (each one is unique).", "examples": [{"word": "every", "sentence": "Everyone in the room believes education is important."}, {"word": "each", "sentence": "Each one of you has different dreams."}]}
+    ],
+    "expressions": [
+      {"phrase": "the whole thing", "meaning_ar": "الشيء كله", "meaning_en": "all of it", "example": "I can eat the whole thing in two minutes."},
+      {"phrase": "all of the time", "meaning_ar": "طوال الوقت", "meaning_en": "always", "example": "I go to that café all of the time."},
+      {"phrase": "each one of you", "meaning_ar": "كل واحد منكم", "meaning_en": "every person, as an individual", "example": "Each one of you will get a certificate."}
+    ],
+    "grammar": [
+      {"title": "Complete things: whole, entire, all", "explanation_ar": "لنتكلم عن الشيء كاملًا كوحدة واحدة نستعمل whole أو entire (للمعدود فقط)، أو all (للمعدود وغير المعدود). all غالبًا مع of: all of the money.", "explanation_en": "To talk about something complete, as one unit: whole or entire (countable only), or all (countable and uncountable). \"All\" often takes \"of\": all of the money.", "examples": ["the whole apple / the entire room", "all of the water / all of the people"]},
+      {"title": "Parts of a group: every and each", "explanation_ar": "لنتكلم عن أجزاء المجموعة نستعمل every أو each مع الأسماء المعدودة فقط (لا نقول every water). every للأجزاء المتشابهة، و each للأجزاء المختلفة المميزة. يأتي بعدهما اسم مفرد.", "explanation_en": "To talk about the parts of a group, use every or each, only with countable nouns (not \"every water\"). \"Every\" for similar parts; \"each\" for different, special parts. Both take a singular noun.", "examples": ["Every meal comes with a toy.", "Each toy has its own special number."]},
+      {"title": "Common mistakes", "explanation_ar": "✗ every of the time → ✓ all of the time (الوقت غير معدود). ✗ the each thing → ✓ the whole thing. ✗ Whole meal comes... → ✓ Every meal comes... ✗ All one of them → ✓ Each one of them.", "explanation_en": "✗ every of the time → ✓ all of the time (time is uncountable). ✗ the each thing → ✓ the whole thing. ✗ Whole meal comes... → ✓ Every meal comes... ✗ All one of them → ✓ Each one of them.", "examples": ["I go there all of the time.", "I can eat the whole thing.", "Each one of them is different."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I go to that café ___ the time.\"", "choices": ["every of", "each of", "all of", "whole of"], "answer": 2, "explanation_ar": "الوقت غير معدود: all of the time.", "explanation_en": "Time is uncountable: all of the time."},
+    {"question": "\"I can eat the ___ thing in two minutes.\"", "choices": ["each", "every", "all", "whole"], "answer": 3, "explanation_ar": "الشيء كاملًا كوحدة: whole.", "explanation_en": "The complete thing as one unit: whole."},
+    {"question": "\"___ meal comes with a toy.\" (all the meals are the same)", "choices": ["Whole", "Every", "All", "Entire"], "answer": 1, "explanation_ar": "أجزاء متشابهة: every.", "explanation_en": "Similar parts: every."},
+    {"question": "\"The toys are all different. ___ one of them has its own number.\"", "choices": ["Each", "All", "Whole", "Every of"], "answer": 0, "explanation_ar": "أشياء مختلفة متفردة: each.", "explanation_en": "Different, unique things: each."},
+    {"question": "Which word is a more formal \"whole\"?", "choices": ["all", "every", "entire", "each"], "answer": 2, "explanation_ar": "entire أكثر رسمية.", "explanation_en": "\"Entire\" is more formal."},
+    {"question": "\"___ of the water is gone.\"", "choices": ["Whole", "Every", "Each", "All"], "answer": 3, "explanation_ar": "الماء غير معدود: all.", "explanation_en": "Water is uncountable: all."},
+    {"question": "Which is wrong?", "choices": ["the whole room", "every water", "all of the money", "each student"], "answer": 1, "explanation_ar": "every لا تأتي مع غير المعدود.", "explanation_en": "\"Every\" can't go with an uncountable noun."},
+    {"question": "\"Each\" focuses on ___.", "choices": ["similarity", "the whole unit", "uniqueness", "uncountable things"], "answer": 2, "explanation_ar": "each تركز على التفرد.", "explanation_en": "\"Each\" focuses on uniqueness."},
+    {"question": "\"You ate the ___ pizza?!\" (strong surprise)", "choices": ["entire", "each", "every", "all of"], "answer": 0, "explanation_ar": "للتعجب القوي: entire.", "explanation_en": "For strong exclamation: entire."},
+    {"question": "\"Whole\" is used with ___ nouns.", "choices": ["uncountable", "countable", "all", "no"], "answer": 1, "explanation_ar": "whole للمعدود فقط.", "explanation_en": "\"Whole\" is for countable nouns only."}
+  ]
+}

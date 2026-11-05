@@ -1,0 +1,479 @@
+{
+  "title": "Have and Has, Parts of the Body",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "have",
+        "pos": "verb",
+        "meaning_en": "to own something; also to eat a meal",
+        "meaning_ar": "يملك / عنده / يتناول",
+        "note_ar": "مع I, you, we, they والجمع",
+        "note_en": "With I, you, we, they and plural nouns.",
+        "example": "I have two hands."
+      },
+      {
+        "word": "has",
+        "pos": "verb",
+        "meaning_en": "the form of have for he, she, it and singular nouns",
+        "meaning_ar": "يملك / عنده (للمفرد)",
+        "note_ar": "مع he, she, it والاسم المفرد",
+        "note_en": "With he, she, it and singular nouns.",
+        "example": "She has blue eyes."
+      },
+      {
+        "word": "body",
+        "pos": "noun",
+        "meaning_en": "all of a person or animal",
+        "meaning_ar": "جسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my body."
+      },
+      {
+        "word": "head",
+        "pos": "noun",
+        "meaning_en": "the top part of your body, with your face and hair",
+        "meaning_ar": "رأس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have one head."
+      },
+      {
+        "word": "eye",
+        "pos": "noun",
+        "meaning_en": "the part of your face you see with",
+        "meaning_ar": "عين",
+        "note_ar": "تُنطق مثل الضمير I",
+        "note_en": "Sounds like the pronoun I.",
+        "example": "I have two eyes."
+      },
+      {
+        "word": "ear",
+        "pos": "noun",
+        "meaning_en": "the part of your head you hear with",
+        "meaning_ar": "أذن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Elephants have big ears."
+      },
+      {
+        "word": "nose",
+        "pos": "noun",
+        "meaning_en": "the part of your face you smell with",
+        "meaning_ar": "أنف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He has a small nose."
+      },
+      {
+        "word": "mouth",
+        "pos": "noun",
+        "meaning_en": "the part of your face you eat and speak with",
+        "meaning_ar": "فم",
+        "note_ar": "تنتهي بـ th، لا تخلطها مع mouse (فأر)",
+        "note_en": "It ends in th; do not confuse it with mouse.",
+        "example": "Open your mouth."
+      },
+      {
+        "word": "tongue",
+        "pos": "noun",
+        "meaning_en": "the soft part inside your mouth that tastes food",
+        "meaning_ar": "لسان",
+        "note_ar": "تُنطق /tʌŋ/ والحرفان ue صامتان",
+        "note_en": "Say /tʌŋ/; the ue is silent.",
+        "example": "The dog has a pink tongue."
+      },
+      {
+        "word": "hand",
+        "pos": "noun",
+        "meaning_en": "the part at the end of your arm with fingers",
+        "meaning_ar": "يد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have two hands."
+      },
+      {
+        "word": "arm",
+        "pos": "noun",
+        "meaning_en": "the long part of your body between your shoulder and hand",
+        "meaning_ar": "ذراع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has long arms."
+      },
+      {
+        "word": "leg",
+        "pos": "noun",
+        "meaning_en": "the part of your body you walk with",
+        "meaning_ar": "رِجل / ساق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Camels have four legs."
+      },
+      {
+        "word": "foot / feet",
+        "pos": "noun",
+        "meaning_en": "the part at the end of your leg that you stand on",
+        "meaning_ar": "قدم / أقدام",
+        "note_ar": "جمع غير منتظم",
+        "note_en": "Irregular plural.",
+        "example": "I have two feet."
+      },
+      {
+        "word": "hair",
+        "pos": "noun",
+        "meaning_en": "the thin things that grow on your head",
+        "meaning_ar": "شعر",
+        "note_ar": "لا تُجمع عادةً: long hair",
+        "note_en": "Usually no plural: long hair.",
+        "example": "She has long hair."
+      },
+      {
+        "word": "neck",
+        "pos": "noun",
+        "meaning_en": "the part between your head and your body",
+        "meaning_ar": "رقبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A giraffe has a long neck."
+      },
+      {
+        "word": "wing",
+        "pos": "noun",
+        "meaning_en": "the part a bird uses to fly",
+        "meaning_ar": "جناح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A bird has two wings."
+      },
+      {
+        "word": "beak",
+        "pos": "noun",
+        "meaning_en": "the hard mouth of a bird",
+        "meaning_ar": "منقار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The bird has a sharp beak."
+      },
+      {
+        "word": "fin",
+        "pos": "noun",
+        "meaning_en": "the flat part a fish uses to swim",
+        "meaning_ar": "زعنفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Fish have fins."
+      },
+      {
+        "word": "tail",
+        "pos": "noun",
+        "meaning_en": "the long part at the back of an animal",
+        "meaning_ar": "ذيل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The cat has a long tail."
+      },
+      {
+        "word": "sharp",
+        "pos": "adjective",
+        "meaning_en": "with a thin edge or point that can cut",
+        "meaning_ar": "حاد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "a sharp beak"
+      },
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "meaning_en": "the first meal of the day",
+        "meaning_ar": "الفطور / الإفطار",
+        "note_ar": "have breakfast = يتناول الفطور",
+        "note_en": "have breakfast = eat breakfast",
+        "example": "I have breakfast at seven."
+      },
+      {
+        "word": "sandwich",
+        "pos": "noun",
+        "meaning_en": "two pieces of bread with food between them",
+        "meaning_ar": "شطيرة / ساندويتش",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Heba has a sandwich."
+      },
+      {
+        "word": "camel",
+        "pos": "noun",
+        "meaning_en": "a desert animal with a hump",
+        "meaning_ar": "جمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A camel has a long neck."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "have vs has",
+        "words": [
+          "have",
+          "has"
+        ],
+        "explanation_ar": "الاثنان بمعنى «عنده / يملك». have مع I و you و we و they وأي اسم جمع. has مع he و she و it وأي اسم مفرد.",
+        "explanation_en": "Both mean own or possess. Have goes with I, you, we, they and plural nouns. Has goes with he, she, it and singular nouns.",
+        "examples": [
+          {
+            "word": "have",
+            "sentence": "We have a big house."
+          },
+          {
+            "word": "have",
+            "sentence": "Camels have four legs."
+          },
+          {
+            "word": "has",
+            "sentence": "She has a white cat."
+          },
+          {
+            "word": "has",
+            "sentence": "A camel has a long neck."
+          }
+        ]
+      },
+      {
+        "title": "is vs has",
+        "words": [
+          "is",
+          "has"
+        ],
+        "explanation_ar": "is = يكون (لوصف الشيء: The elephant is big). has = عنده (لما يملكه: The elephant has big ears). لا نجمع بينهما: She is has ... خطأ.",
+        "explanation_en": "Is describes what something is (The elephant is big). Has tells what it owns (The elephant has big ears). Never use both together: \"She is has\" is wrong.",
+        "examples": [
+          {
+            "word": "is",
+            "sentence": "The elephant is big."
+          },
+          {
+            "word": "has",
+            "sentence": "The elephant has big ears."
+          }
+        ]
+      },
+      {
+        "title": "mouth vs mouse",
+        "words": [
+          "mouth",
+          "mouse"
+        ],
+        "explanation_ar": "mouth (فم) تنتهي بصوت th. mouse (فأر) تنتهي بصوت s.",
+        "explanation_en": "Mouth ends with a th sound. Mouse ends with an s sound.",
+        "examples": [
+          {
+            "word": "mouth",
+            "sentence": "Close your mouth when you eat."
+          },
+          {
+            "word": "mouse",
+            "sentence": "The mouse is under the table."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I have two eyes.",
+        "meaning_ar": "عندي عينان.",
+        "meaning_en": "Talking about your body.",
+        "example": "I have two eyes, two ears and one nose."
+      },
+      {
+        "phrase": "She has blue eyes.",
+        "meaning_ar": "عيناها زرقاوان.",
+        "meaning_en": "Describing someone's eyes.",
+        "example": "Sama has blue eyes."
+      },
+      {
+        "phrase": "She has long hair.",
+        "meaning_ar": "شعرها طويل.",
+        "meaning_en": "Describing someone's hair.",
+        "example": "My sister has long hair."
+      },
+      {
+        "phrase": "have breakfast",
+        "meaning_ar": "يتناول الفطور",
+        "meaning_en": "eat the morning meal",
+        "example": "We have breakfast together."
+      },
+      {
+        "phrase": "My parents have a car.",
+        "meaning_ar": "والداي لديهما سيارة.",
+        "meaning_en": "Parents are plural, so we use have.",
+        "example": "My parents have a small white car."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Have / has: meaning",
+        "explanation_ar": "have فعل بمعنى يملك أو عنده، ويأتي أيضًا بمعنى يتناول (have breakfast). هو فعل بنفسه، لذلك لا نضع قبله am/is/are: I am have ✗ → I have ✓.",
+        "explanation_en": "Have is a verb meaning own or possess. It can also mean eat (have breakfast). It is already a verb, so we do not add am/is/are: I am have ✗ → I have ✓.",
+        "examples": [
+          "I have a bike.",
+          "I have breakfast at seven.",
+          "She is has long hair. ✗ → She has long hair. ✓"
+        ]
+      },
+      {
+        "title": "Have with I, you, we, they and plurals",
+        "explanation_ar": "نستخدم have مع I و you و we و they ومع أي اسم جمع (مثل the cats, my parents).",
+        "explanation_en": "Use have with I, you, we, they and plural nouns (the cats, my parents).",
+        "examples": [
+          "I have blue pants.",
+          "We have a big house.",
+          "Camels have four legs.",
+          "Fish have fins."
+        ]
+      },
+      {
+        "title": "Has with he, she, it and singular nouns",
+        "explanation_ar": "نستخدم has مع he و she و it ومع أي اسم مفرد (Heba, the cat). لاحظ: الكلمات التي تأخذ is مع be هي نفسها التي تأخذ has (لاحظ حرف s في الاثنين).",
+        "explanation_en": "Use has with he, she, it and singular nouns (Heba, the cat). The words that take is also take has (both end in s).",
+        "examples": [
+          "She has a white cat.",
+          "Hazem has a bike.",
+          "A bird has two wings.",
+          "The cat has a long tail."
+        ]
+      },
+      {
+        "title": "Be or have?",
+        "explanation_ar": "استخدم am/is/are عندما تصف الشيء أو تقول ما هو (يكون). واستخدم have/has عندما تتكلم عما يملكه (عنده).",
+        "explanation_en": "Use am/is/are to say what something is or describe it. Use have/has to say what it owns.",
+        "examples": [
+          "The elephant is big. It has big ears.",
+          "Elephants are big. They have big ears.",
+          "I am happy. I have a new bike."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "She ___ blue eyes.",
+      "choices": [
+        "have",
+        "is",
+        "has",
+        "are"
+      ],
+      "answer": 2,
+      "explanation_ar": "she تأخذ has.",
+      "explanation_en": "She takes has."
+    },
+    {
+      "question": "We ___ a big house.",
+      "choices": [
+        "have",
+        "has",
+        "is",
+        "am"
+      ],
+      "answer": 0,
+      "explanation_ar": "we تأخذ have.",
+      "explanation_en": "We takes have."
+    },
+    {
+      "question": "Camels ___ four legs.",
+      "choices": [
+        "has",
+        "is",
+        "am",
+        "have"
+      ],
+      "answer": 3,
+      "explanation_ar": "camels اسم جمع فيأخذ have.",
+      "explanation_en": "Camels is plural, so it takes have."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "She is has long hair.",
+        "She has long hair.",
+        "She have long hair.",
+        "She are long hair."
+      ],
+      "answer": 1,
+      "explanation_ar": "لا نجمع بين is و has، و she تأخذ has.",
+      "explanation_en": "Do not use is and has together; she takes has."
+    },
+    {
+      "question": "The elephant ___ big.",
+      "choices": [
+        "is",
+        "has",
+        "have",
+        "are"
+      ],
+      "answer": 0,
+      "explanation_ar": "نصف الفيل بأنه كبير، فنستخدم is (يكون).",
+      "explanation_en": "We describe the elephant, so we use is."
+    },
+    {
+      "question": "What is \"لسان\" in English?",
+      "choices": [
+        "neck",
+        "tongue",
+        "nose",
+        "mouth"
+      ],
+      "answer": 1,
+      "explanation_ar": "tongue = لسان.",
+      "explanation_en": "Your tongue is inside your mouth."
+    },
+    {
+      "question": "A bird uses its ___ to fly.",
+      "choices": [
+        "fins",
+        "beak",
+        "tail",
+        "wings"
+      ],
+      "answer": 3,
+      "explanation_ar": "الطائر يطير بجناحيه: wings.",
+      "explanation_en": "A bird flies with its wings."
+    },
+    {
+      "question": "What is the plural of \"foot\"?",
+      "choices": [
+        "foots",
+        "feets",
+        "feet",
+        "footes"
+      ],
+      "answer": 2,
+      "explanation_ar": "foot جمعها غير منتظم: feet.",
+      "explanation_en": "Foot has an irregular plural: feet."
+    },
+    {
+      "question": "\"I have breakfast at seven.\" Here \"have\" means ...",
+      "choices": [
+        "يتناول",
+        "يملك",
+        "يكون",
+        "يرى"
+      ],
+      "answer": 0,
+      "explanation_ar": "have breakfast = يتناول الفطور.",
+      "explanation_en": "Have breakfast means eat breakfast."
+    },
+    {
+      "question": "My parents ___ a small car.",
+      "choices": [
+        "has",
+        "have",
+        "is",
+        "am"
+      ],
+      "answer": 1,
+      "explanation_ar": "my parents جمع فيأخذ have.",
+      "explanation_en": "My parents is plural, so it takes have."
+    }
+  ]
+}

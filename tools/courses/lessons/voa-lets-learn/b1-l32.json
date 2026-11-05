@@ -1,0 +1,550 @@
+{
+ "title": "Welcome to the Treehouse!",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "children's show",
+    "pos": "noun",
+    "meaning_en": "a television program for kids",
+    "meaning_ar": "برنامج أطفال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My first children's show is on television!"
+   },
+   {
+    "word": "television",
+    "pos": "noun",
+    "meaning_en": "a machine that shows programs with pictures and sound",
+    "meaning_ar": "التلفزيون",
+    "note_ar": "اختصارها TV.",
+    "note_en": "Short form: TV.",
+    "example": "We watch television in the evening."
+   },
+   {
+    "word": "excited",
+    "pos": "adjective",
+    "meaning_en": "very happy and eager",
+    "meaning_ar": "متحمّس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm excited about the trip."
+   },
+   {
+    "word": "nervous",
+    "pos": "adjective",
+    "meaning_en": "a little worried or afraid",
+    "meaning_ar": "متوتر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm excited and nervous."
+   },
+   {
+    "word": "conference room",
+    "pos": "noun",
+    "meaning_en": "a room at work for meetings",
+    "meaning_ar": "قاعة الاجتماعات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They're in the conference room."
+   },
+   {
+    "word": "hope",
+    "pos": "verb",
+    "meaning_en": "to want something to happen",
+    "meaning_ar": "يأمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I hope you like it."
+   },
+   {
+    "word": "different",
+    "pos": "adjective",
+    "meaning_en": "not the same",
+    "meaning_ar": "مختلف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This children's show is different."
+   },
+   {
+    "word": "fix",
+    "pos": "verb",
+    "meaning_en": "to repair; to make something work again",
+    "meaning_ar": "يُصلح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can fix that later."
+   },
+   {
+    "word": "later",
+    "pos": "adverb",
+    "meaning_en": "at a time after now",
+    "meaning_ar": "لاحقاً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "See you later!"
+   },
+   {
+    "word": "oops",
+    "pos": "interjection",
+    "meaning_en": "a word you say when you make a small mistake",
+    "meaning_ar": "أوه! (عند خطأ صغير)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Oops! I dropped my pen."
+   },
+   {
+    "word": "treehouse",
+    "pos": "noun",
+    "meaning_en": "a small house built in a tree, often for children",
+    "meaning_ar": "بيت الشجرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The kids play in the treehouse."
+   },
+   {
+    "word": "usual",
+    "pos": "adjective",
+    "meaning_en": "normal; what happens most of the time",
+    "meaning_ar": "معتاد / عادي",
+    "note_ar": "عكسها: unusual.",
+    "note_en": "Opposite: unusual.",
+    "example": "This is not a usual treehouse."
+   },
+   {
+    "word": "time travel",
+    "pos": "noun / verb",
+    "meaning_en": "going to the past or the future",
+    "meaning_ar": "السفر عبر الزمن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Time travel is not real."
+   },
+   {
+    "word": "partner",
+    "pos": "noun",
+    "meaning_en": "a person you work with on something",
+    "meaning_ar": "شريك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is my partner, MINDY!"
+   },
+   {
+    "word": "information",
+    "pos": "noun",
+    "meaning_en": "facts about something",
+    "meaning_ar": "معلومات",
+    "note_ar": "غير معدود: لا نقول informations.",
+    "note_en": "Uncountable: no -s.",
+    "example": "The website has a lot of information."
+   },
+   {
+    "word": "device",
+    "pos": "noun",
+    "meaning_en": "a machine or tool made for a special job",
+    "meaning_ar": "جهاز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "A phone is a useful device."
+   },
+   {
+    "word": "navigation",
+    "pos": "noun",
+    "meaning_en": "finding the way from one place to another",
+    "meaning_ar": "الملاحة / تحديد الاتجاه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The car has a navigation system."
+   },
+   {
+    "word": "question",
+    "pos": "noun",
+    "meaning_en": "something you ask",
+    "meaning_ar": "سؤال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Kids ask us questions."
+   },
+   {
+    "word": "answer",
+    "pos": "noun / verb",
+    "meaning_en": "what you say or write back to a question",
+    "meaning_ar": "جواب / يجيب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We find them answers!"
+   },
+   {
+    "word": "snowy",
+    "pos": "adjective",
+    "meaning_en": "covered with snow",
+    "meaning_ar": "مُثلج / مغطى بالثلج",
+    "note_ar": "snow + y.",
+    "note_en": "snow + -y.",
+    "example": "I am on a snowy mountain!"
+   },
+   {
+    "word": "mountain",
+    "pos": "noun",
+    "meaning_en": "a very high hill",
+    "meaning_ar": "جبل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We climbed the mountain."
+   },
+   {
+    "word": "ski",
+    "pos": "verb",
+    "meaning_en": "to move over snow on long thin boards",
+    "meaning_ar": "يتزلّج على الثلج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I don't know how to ski."
+   },
+   {
+    "word": "ocean",
+    "pos": "noun",
+    "meaning_en": "a very large sea",
+    "meaning_ar": "محيط",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Now I am in the ocean!"
+   },
+   {
+    "word": "surfing",
+    "pos": "noun",
+    "meaning_en": "riding on waves on a board",
+    "meaning_ar": "ركوب الأمواج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The ocean can teach us about surfing."
+   },
+   {
+    "word": "shark",
+    "pos": "noun",
+    "meaning_en": "a large, dangerous fish with sharp teeth",
+    "meaning_ar": "سمك القرش",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Look out! A shark!"
+   },
+   {
+    "word": "lost",
+    "pos": "adjective",
+    "meaning_en": "not knowing where you are",
+    "meaning_ar": "تائه / ضائع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Is Anna going to be lost forever?"
+   },
+   {
+    "word": "forever",
+    "pos": "adverb",
+    "meaning_en": "for all time",
+    "meaning_ar": "إلى الأبد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I will remember this day forever."
+   },
+   {
+    "word": "ending",
+    "pos": "noun",
+    "meaning_en": "the last part of a story or show",
+    "meaning_ar": "النهاية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please tell me the ending!"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "excited vs nervous",
+    "words": [
+     "excited",
+     "nervous"
+    ],
+    "explanation_ar": "excited = متحمّس وسعيد لشيء قادم. nervous = متوتر وقلق قليلاً. يمكن أن تشعر بالاثنين معاً قبل حدث كبير.",
+    "explanation_en": "Excited = happy and eager about something coming. Nervous = a little worried. You can feel both before a big event.",
+    "examples": [
+     {
+      "word": "excited",
+      "sentence": "I'm excited about my new job."
+     },
+     {
+      "word": "nervous",
+      "sentence": "I'm nervous before the exam."
+     }
+    ]
+   },
+   {
+    "title": "going to vs will",
+    "words": [
+     "going to",
+     "will"
+    ],
+    "explanation_ar": "كلاهما للمستقبل. be going to للخطط أو لشيء نراه سيحدث (Some people are going to watch your show). will للتوقع أو القرار الآن أو الوعد (They'll tell me what they liked).",
+    "explanation_en": "Both talk about the future. Be going to is for plans or something we can see coming. Will is for predictions, quick decisions and promises.",
+    "examples": [
+     {
+      "word": "going to",
+      "sentence": "Today you are going to watch my new show."
+     },
+     {
+      "word": "will",
+      "sentence": "They'll tell me what they liked."
+     },
+     {
+      "word": "will",
+      "sentence": "Will Anna find the answer?"
+     }
+    ]
+   },
+   {
+    "title": "usual vs unusual",
+    "words": [
+     "usual",
+     "unusual"
+    ],
+    "explanation_ar": "usual = عادي ومعتاد. unusual = غير عادي. البادئة un تعني «غير».",
+    "explanation_en": "Usual = normal. Unusual = not normal, special. The prefix un- means \"not\".",
+    "examples": [
+     {
+      "word": "usual",
+      "sentence": "This is not a usual treehouse."
+     },
+     {
+      "word": "unusual",
+      "sentence": "It's an unusual treehouse. It can time travel!"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Today is a big day.",
+    "meaning_ar": "اليوم يوم مهم.",
+    "meaning_en": "Today something important happens.",
+    "example": "Today is a big day. I start my new job."
+   },
+   {
+    "phrase": "Oh, dear.",
+    "meaning_ar": "يا إلهي! (قلق بسيط)",
+    "meaning_en": "Said when you are a little worried or surprised.",
+    "example": "Oh, dear. I forgot my keys."
+   },
+   {
+    "phrase": "Thanks for coming!",
+    "meaning_ar": "شكراً لحضوركم!",
+    "meaning_en": "Thank you for being here.",
+    "example": "Hello, everyone, and thanks for coming!"
+   },
+   {
+    "phrase": "I hope you like it.",
+    "meaning_ar": "أتمنى أن يعجبك.",
+    "meaning_en": "I want you to enjoy it.",
+    "example": "I made this cake for you. I hope you like it."
+   },
+   {
+    "phrase": "What is the show about?",
+    "meaning_ar": "عن ماذا يتحدث البرنامج؟",
+    "meaning_en": "What is the topic of the show?",
+    "example": "\"What is the book about?\" \"It's about space.\""
+   },
+   {
+    "phrase": "Just give me one minute.",
+    "meaning_ar": "أعطني دقيقة واحدة فقط.",
+    "meaning_en": "Please wait a moment.",
+    "example": "Just give me one minute. I'm almost ready."
+   },
+   {
+    "phrase": "Do not forget me.",
+    "meaning_ar": "لا تنسَني.",
+    "meaning_en": "Remember me too.",
+    "example": "You're going to the park? Do not forget me!"
+   },
+   {
+    "phrase": "Of course not!",
+    "meaning_ar": "بالطبع لا!",
+    "meaning_en": "Certainly not.",
+    "example": "\"Are you angry with me?\" \"Of course not!\""
+   },
+   {
+    "phrase": "That is a great question!",
+    "meaning_ar": "هذا سؤال رائع!",
+    "meaning_en": "A kind answer to someone who asks something.",
+    "example": "\"Why is the sky blue?\" \"That is a great question!\""
+   },
+   {
+    "phrase": "Let's try again.",
+    "meaning_ar": "لنحاول مرة أخرى.",
+    "meaning_en": "Let's do it one more time.",
+    "example": "It didn't work. Let's try again."
+   },
+   {
+    "phrase": "Get me out of here!",
+    "meaning_ar": "أخرجني من هنا!",
+    "meaning_en": "Help me leave this place now!",
+    "example": "There's a shark! Get me out of here!"
+   },
+   {
+    "phrase": "Don't forget to watch next week!",
+    "meaning_ar": "لا تنسَ المشاهدة الأسبوع القادم!",
+    "meaning_en": "Remember to watch the next part.",
+    "example": "Don't forget to call me tomorrow!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Future with be going to",
+    "explanation_ar": "نستخدم am / is / are + going to + الفعل الأساسي للحديث عن الخطط والأشياء المؤكدة في المستقبل. السؤال: Is Anna going to be lost? النفي: I'm not going to...",
+    "explanation_en": "Use am / is / are + going to + base verb for plans and things we expect in the future. Question: Is Anna going to be lost? Negative: I'm not going to...",
+    "examples": [
+     "Some people are going to watch your children's show.",
+     "Today you are going to watch my new show.",
+     "Is Anna going to be lost forever?"
+    ]
+   },
+   {
+    "title": "Future with will",
+    "explanation_ar": "will + الفعل الأساسي للتوقعات والأسئلة عن المستقبل، مع كل الضمائر بدون s. الاختصار: they'll، I'll. السؤال: Will the shark eat her?",
+    "explanation_en": "Use will + base verb for predictions and future questions. It is the same for all subjects, with no -s. Short form: they'll, I'll. Question: Will the shark eat her?",
+    "examples": [
+     "After they watch it, they'll tell me what they liked.",
+     "Will the shark eat her?",
+     "Will Anna find the answer?"
+    ]
+   },
+   {
+    "title": "how to + verb",
+    "explanation_ar": "نستخدم how to + الفعل الأساسي بعد know / learn / teach للحديث عن طريقة فعل شيء: I don't know how to ski = لا أعرف كيف أتزلج.",
+    "explanation_en": "Use how to + base verb after know / learn / teach to talk about the way to do something.",
+    "examples": [
+     "Layla wants to know how to play baseball.",
+     "That is a good place to learn how to ski.",
+     "I don't know how to ski!"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Some people ___ going to watch your show.",
+   "choices": [
+    "is",
+    "am",
+    "are",
+    "be"
+   ],
+   "answer": 2,
+   "explanation_ar": "people جمع فنستخدم are.",
+   "explanation_en": "\"People\" is plural, so we use \"are\"."
+  },
+  {
+   "question": "After they watch it, they ___ tell me what they liked.",
+   "choices": [
+    "will",
+    "are",
+    "going",
+    "wills"
+   ],
+   "answer": 0,
+   "explanation_ar": "will + الفعل الأساسي للمستقبل.",
+   "explanation_en": "will + base verb for the future."
+  },
+  {
+   "question": "Which question is correct?",
+   "choices": [
+    "Will the shark eats her?",
+    "Will the shark eat her?",
+    "Does the shark will eat her?",
+    "Will eat the shark her?"
+   ],
+   "answer": 1,
+   "explanation_ar": "بعد will نستخدم الفعل الأساسي بدون s.",
+   "explanation_en": "After \"will\" use the base verb with no -s."
+  },
+  {
+   "question": "___ Anna going to be lost forever?",
+   "choices": [
+    "Are",
+    "Will",
+    "Does",
+    "Is"
+   ],
+   "answer": 3,
+   "explanation_ar": "Anna مفرد فنستخدم Is.",
+   "explanation_en": "\"Anna\" is singular, so we use \"Is\"."
+  },
+  {
+   "question": "I don't know how ___ ski.",
+   "choices": [
+    "to",
+    "for",
+    "can",
+    "-"
+   ],
+   "answer": 0,
+   "explanation_ar": "how to + الفعل الأساسي.",
+   "explanation_en": "how to + base verb."
+  },
+  {
+   "question": "Anna is happy and eager about her show. She is ___.",
+   "choices": [
+    "lost",
+    "excited",
+    "snowy",
+    "usual"
+   ],
+   "answer": 1,
+   "explanation_ar": "excited = متحمّس.",
+   "explanation_en": "Excited = happy and eager."
+  },
+  {
+   "question": "\"This is not a usual treehouse.\" It is:",
+   "choices": [
+    "normal",
+    "old",
+    "lost",
+    "special"
+   ],
+   "answer": 3,
+   "explanation_ar": "not usual = غير عادي، أي مميز.",
+   "explanation_en": "Not usual means special or different."
+  },
+  {
+   "question": "A large, dangerous fish with sharp teeth is a ___.",
+   "choices": [
+    "crab",
+    "partner",
+    "shark",
+    "device"
+   ],
+   "answer": 2,
+   "explanation_ar": "shark = سمك القرش.",
+   "explanation_en": "A shark is a large, dangerous fish."
+  },
+  {
+   "question": "What do you say after a small mistake?",
+   "choices": [
+    "Oops!",
+    "Woo-hoo!",
+    "Good job!",
+    "Of course not!"
+   ],
+   "answer": 0,
+   "explanation_ar": "oops تُقال عند خطأ صغير.",
+   "explanation_en": "We say \"oops\" after a small mistake."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I hope you likes it.",
+    "I hope you liking it.",
+    "I hopes you like it.",
+    "I hope you like it."
+   ],
+   "answer": 3,
+   "explanation_ar": "I hope + you like (بدون s مع you).",
+   "explanation_en": "With \"I\" and \"you\" there is no -s: I hope you like it."
+  }
+ ]
+}

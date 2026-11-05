@@ -1,0 +1,52 @@
+{
+  "title": "How to Recommend Things",
+  "content": {
+    "vocabulary": [
+      {"word": "recommend", "pos": "verb", "meaning_en": "say that something is good and that someone should try it", "meaning_ar": "يوصي بـ / ينصح بـ", "note_ar": "يُكتب بحرف c واحد وحرفي m. الاسم: recommendation", "note_en": "One c, double m. Noun: recommendation.", "example": "I recommend the fish soup."},
+      {"word": "recommendation", "pos": "noun", "meaning_en": "advice that something is good", "meaning_ar": "توصية", "note_ar": "", "note_en": "", "example": "Thanks for the recommendation."},
+      {"word": "regret", "pos": "verb", "meaning_en": "feel sorry about something you did or didn't do", "meaning_ar": "يندم", "note_ar": "", "note_en": "", "example": "Go to the show. You won't regret it."},
+      {"word": "a must-see", "pos": "noun", "meaning_en": "something so good that you must see it", "meaning_ar": "شيء لا بدّ من مشاهدته", "note_ar": "ويقال أيضًا a must-read, a must-have", "note_en": "Also: a must-read, a must-have.", "example": "This documentary is a must-see."},
+      {"word": "worth", "pos": "adjective", "meaning_en": "good or useful enough to do", "meaning_ar": "يستحق", "note_ar": "worth + ing: worth seeing, worth visiting", "note_en": "worth + -ing: worth seeing, worth visiting.", "example": "The museum is well worth visiting."},
+      {"word": "exhibition", "pos": "noun", "meaning_en": "a public show of art or interesting objects", "meaning_ar": "معرض", "note_ar": "", "note_en": "", "example": "There's a new exhibition at the museum."},
+      {"word": "ambience", "pos": "noun", "meaning_en": "the feeling or mood of a place", "meaning_ar": "الأجواء", "note_ar": "", "note_en": "", "example": "The restaurant has a lovely ambience."},
+      {"word": "good value", "pos": "phrase", "meaning_en": "worth the money you pay", "meaning_ar": "يستحق ثمنه / سعره مناسب", "note_ar": "", "note_en": "", "example": "The food is excellent and good value."},
+      {"word": "at your peril", "pos": "phrase", "meaning_en": "if you do it, something bad may happen to you", "meaning_ar": "على مسؤوليتك (قد تندم)", "note_ar": "", "note_en": "", "example": "Miss this film at your peril!"},
+      {"word": "give someone the heads-up", "pos": "phrase", "meaning_en": "(informal) tell someone useful information in advance", "meaning_ar": "يُنبّه شخصًا مسبقًا", "note_ar": "", "note_en": "", "example": "Thanks for the heads-up about the new café."},
+      {"word": "vote of confidence", "pos": "noun", "meaning_en": "a statement that you trust or like something", "meaning_ar": "تعبير عن الثقة / التزكية", "note_ar": "", "note_en": "", "example": "\"I highly recommend it\" is a strong vote of confidence."},
+      {"word": "membership fee", "pos": "noun", "meaning_en": "money you pay to join a club or gym", "meaning_ar": "رسوم الاشتراك", "note_ar": "", "note_en": "", "example": "The membership fee is very reasonable."}
+    ],
+    "fine_lines": [
+      {"title": "It's good ✗ → better ways to recommend", "words": ["It's good.", "I highly recommend it."], "explanation_ar": "بدلًا من It's good البسيطة، استخدم عبارات أقوى وأكثر طبيعية: It's a must-see / You won't regret it / I highly recommend it.", "explanation_en": "Instead of a simple \"It's good\", use stronger, more natural phrases: It's a must-see / You won't regret it / I highly recommend it.", "examples": [{"word": "It's good.", "sentence": "The film is good."}, {"word": "I highly recommend it.", "sentence": "The film is brilliant. I highly recommend it."}]},
+      {"title": "recommend + -ing / noun (not \"recommend you to\")", "words": ["recommend going", "recommend it"], "explanation_ar": "نقول I recommend going أو I recommend it. لا نقول I recommend you to go في الاستخدام الشائع.", "explanation_en": "Say \"I recommend going\" or \"I recommend it\". Avoid \"I recommend you to go\".", "examples": [{"word": "recommend going", "sentence": "I highly recommend going early."}, {"word": "recommend it", "sentence": "That pizza place? I highly recommend it."}]}
+    ],
+    "expressions": [
+      {"phrase": "It's a must-see.", "meaning_ar": "لا بدّ أن تشاهده.", "meaning_en": "Says a film, show or place is so good you must see it.", "example": "Have you seen the new nature film? It's a must-see."},
+      {"phrase": "You won't regret it.", "meaning_ar": "لن تندم.", "meaning_en": "Says the person will be happy they tried it.", "example": "Try the restaurant on the high street. You won't regret it."},
+      {"phrase": "It's well worth seeing.", "meaning_ar": "يستحق المشاهدة فعلًا.", "meaning_en": "Says it's a good idea to make time to see it.", "example": "The exhibition at the museum is well worth seeing."},
+      {"phrase": "Don't miss it!", "meaning_ar": "لا تفوّته!", "meaning_en": "A strong recommendation, often because it ends soon.", "example": "The show is only on for two more weeks. Don't miss it!"},
+      {"phrase": "You should definitely go.", "meaning_ar": "يجب أن تذهب بالتأكيد.", "meaning_en": "A clear, friendly recommendation.", "example": "The kids would love it. You should definitely go."},
+      {"phrase": "I really think you would like ...", "meaning_ar": "أظن حقًا أن ... سيعجبك.", "meaning_en": "Recommends something because you know the person's taste.", "example": "I really think you would like this book."},
+      {"phrase": "I highly recommend it.", "meaning_ar": "أوصي به بشدة.", "meaning_en": "A very strong recommendation.", "example": "The new sports centre is excellent. I highly recommend it."},
+      {"phrase": "You should definitely visit ...", "meaning_ar": "يجب أن تزور ... بالتأكيد.", "meaning_en": "Recommends a place.", "example": "You should definitely visit the old city when you're in Amman."},
+      {"phrase": "Make sure you ...", "meaning_ar": "احرص على أن ...", "meaning_en": "Tells someone not to forget to do something.", "example": "Make sure you take a walk around the city at night."},
+      {"phrase": "You have to watch / visit ...", "meaning_ar": "يجب أن تشاهد / تزور ...", "meaning_en": "An enthusiastic, informal recommendation.", "example": "You have to visit the new tower. The views are amazing."},
+      {"phrase": "Miss it at your peril!", "meaning_ar": "إن فوّتّه فستندم!", "meaning_en": "A funny, strong way to say \"don't miss it\".", "example": "The final episode is tonight. Miss it at your peril!"}
+    ],
+    "grammar": [
+      {"title": "worth + -ing", "explanation_ar": "بعد worth نستخدم الفعل بـ ing. ويمكن إضافة well للتأكيد: well worth seeing.", "explanation_en": "After \"worth\" use -ing. Add \"well\" for emphasis: well worth seeing.", "examples": ["It's well worth seeing.", "The museum is worth visiting.", "Is the book worth reading?"]},
+      {"title": "Modal verbs for recommendations: should, have to, must", "explanation_ar": "should = توصية لطيفة. have to / must = توصية قوية جدًا (لا تعني إلزامًا حقيقيًا هنا بل حماسًا). بعدها الفعل الأساسي.", "explanation_en": "\"Should\" = a gentle recommendation. \"Have to / must\" = a very strong, enthusiastic one (not a real rule). Use the base verb after them.", "examples": ["You should definitely go.", "You have to watch this programme.", "You must try their pizza."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"It's a must-see\" means:", "choices": ["You must not see it.", "It's so good you really should see it.", "It's boring.", "You have already seen it."], "answer": 1, "explanation_ar": "a must-see = لا بدّ من مشاهدته.", "explanation_en": "It means you really should see it."},
+    {"question": "The exhibition is well worth ___.", "choices": ["see", "to see", "seen", "seeing"], "answer": 3, "explanation_ar": "بعد worth نستخدم ing.", "explanation_en": "After \"worth\" use -ing."},
+    {"question": "\"You won't regret it\" means:", "choices": ["You'll be happy you did it.", "You'll be sorry.", "It's too late.", "Don't do it."], "answer": 0, "explanation_ar": "لن تندم، أي ستكون سعيدًا.", "explanation_en": "You'll be glad you did it."},
+    {"question": "Which is the STRONGEST recommendation?", "choices": ["It's OK.", "It's not bad.", "I highly recommend it.", "It's good."], "answer": 2, "explanation_ar": "I highly recommend it أقوى توصية.", "explanation_en": "\"I highly recommend it\" is the strongest."},
+    {"question": "Choose the correct sentence.", "choices": ["I recommend you to go there.", "I highly recommend going there.", "I recommend go there.", "I recommend to going there."], "answer": 1, "explanation_ar": "recommend + ing هو التركيب الصحيح الشائع.", "explanation_en": "\"Recommend + -ing\" is correct."},
+    {"question": "\"Don't miss it!\" is said when:", "choices": ["something is boring", "you want someone to arrive late", "you lost something", "something is very good and may end soon"], "answer": 3, "explanation_ar": "تُقال عن شيء رائع قد ينتهي قريبًا.", "explanation_en": "It's said about something great that may end soon."},
+    {"question": "Make sure you ___ some photos.", "choices": ["take", "taking", "to take", "took"], "answer": 0, "explanation_ar": "بعد make sure you نستخدم الفعل الأساسي.", "explanation_en": "After \"make sure you\" use the base verb."},
+    {"question": "\"The food is good value\" means:", "choices": ["The food is expensive.", "The food is worth the price.", "The food is free.", "The food is healthy."], "answer": 1, "explanation_ar": "good value = يستحق ثمنه.", "explanation_en": "\"Good value\" = worth the price."},
+    {"question": "Which word is spelled correctly?", "choices": ["reccomend", "recomend", "recommend", "reccommend"], "answer": 2, "explanation_ar": "التهجئة الصحيحة: recommend (c واحد وm مزدوج).", "explanation_en": "Correct: recommend (one c, double m)."},
+    {"question": "\"Thanks for the heads-up\" means:", "choices": ["Thanks for telling me in advance.", "Thanks for the hat.", "Thanks for waking me.", "Thanks for the present."], "answer": 0, "explanation_ar": "heads-up = تنبيه مسبق.", "explanation_en": "A heads-up is advance information."}
+  ]
+}

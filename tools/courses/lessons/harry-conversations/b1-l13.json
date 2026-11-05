@@ -1,0 +1,54 @@
+{
+  "title": "Expressing Doubt and Uncertainty",
+  "content": {
+    "vocabulary": [
+      {"word": "doubt", "pos": "noun", "meaning_en": "a feeling of not being sure", "meaning_ar": "شكّ", "note_ar": "حرف b صامت: /daʊt/", "note_en": "The b is silent: /daʊt/.", "example": "I have a few doubts about the plan."},
+      {"word": "uncertainty", "pos": "noun", "meaning_en": "the state of not knowing what will happen", "meaning_ar": "عدم اليقين", "note_ar": "الصفة: uncertain", "note_en": "Adjective: uncertain.", "example": "There is a lot of uncertainty at work."},
+      {"word": "debatable", "pos": "adjective", "meaning_en": "not certain; people may have different opinions about it", "meaning_ar": "قابل للنقاش / محلّ جدل", "note_ar": "", "note_en": "", "example": "Whether it's a good idea is debatable."},
+      {"word": "highly unlikely", "pos": "phrase", "meaning_en": "very probably not going to happen", "meaning_ar": "مستبعد جدًا", "note_ar": "", "note_en": "", "example": "It's highly unlikely that he forgot."},
+      {"word": "staycation", "pos": "noun", "meaning_en": "a holiday at home or in your own country", "meaning_ar": "عطلة داخل البلد / في المنزل", "note_ar": "stay + vacation", "note_en": "stay + vacation", "example": "This year we're having a staycation."},
+      {"word": "rumour", "pos": "noun", "meaning_en": "a story that people tell which may not be true", "meaning_ar": "إشاعة", "note_ar": "في الأمريكية: rumor", "note_en": "US spelling: rumor.", "example": "I heard a rumour about extra holidays."},
+      {"word": "be in two minds", "pos": "phrase", "meaning_en": "be unable to decide between two choices", "meaning_ar": "متردّد بين خيارين", "note_ar": "يقال أيضًا be of two minds", "note_en": "Also: be of two minds.", "example": "I'm in two minds about changing schools."},
+      {"word": "up in the air", "pos": "phrase", "meaning_en": "not decided yet; uncertain", "meaning_ar": "معلّق / غير محسوم", "note_ar": "", "note_en": "", "example": "Our holiday plans are still up in the air."},
+      {"word": "sleep on it", "pos": "phrase", "meaning_en": "wait until the next day before deciding", "meaning_ar": "يؤجّل القرار إلى الغد ليفكّر", "note_ar": "", "note_en": "", "example": "Let me sleep on it and tell you tomorrow."},
+      {"word": "pros and cons", "pos": "noun", "meaning_en": "the advantages and disadvantages", "meaning_ar": "الإيجابيات والسلبيات", "note_ar": "", "note_en": "", "example": "Let's look at the pros and cons."},
+      {"word": "postpone", "pos": "verb", "meaning_en": "move to a later time", "meaning_ar": "يؤجّل", "note_ar": "", "note_en": "", "example": "We don't want to postpone the launch again."},
+      {"word": "considered opinion", "pos": "noun", "meaning_en": "an opinion you give after careful thought", "meaning_ar": "رأي مدروس", "note_ar": "", "note_en": "", "example": "I'll give you my considered opinion next week."}
+    ],
+    "fine_lines": [
+      {"title": "How sure are you? A scale of doubt", "words": ["I'm not 100% sure", "I'm really not sure", "I find that highly unlikely"], "explanation_ar": "I'm not 100% sure but ... = أنا شبه متأكد. I don't know about that / I'm really not sure = لا أعرف ولديّ شك. I find that highly unlikely = أكاد أكون متأكدًا أنه لن يحدث.", "explanation_en": "\"I'm not 100% sure, but...\" = I'm almost sure. \"I don't know about that / I'm really not sure\" = I have doubts. \"I find that highly unlikely\" = I'm almost sure it won't happen.", "examples": [{"word": "I'm not 100% sure", "sentence": "I'm not 100% sure, but I think I saw Michael in town."}, {"word": "I find that highly unlikely", "sentence": "Two extra days off? I find that highly unlikely."}]},
+      {"title": "in two minds vs up in the air", "words": ["in two minds", "up in the air"], "explanation_ar": "in two minds تصف الشخص المتردد بين خيارين. up in the air تصف الموقف أو الخطة غير المحسومة.", "explanation_en": "\"In two minds\" describes a person who can't decide. \"Up in the air\" describes a situation or plan that isn't decided.", "examples": [{"word": "in two minds", "sentence": "I'm in two minds about selling my car."}, {"word": "up in the air", "sentence": "Things are up in the air at work right now."}]}
+    ],
+    "expressions": [
+      {"phrase": "I don't know about that.", "meaning_ar": "لا أعرف بخصوص ذلك.", "meaning_en": "Says you are not sure or have doubts.", "example": "Will you be here on Friday? — I don't know about that."},
+      {"phrase": "I'm really not sure about that.", "meaning_ar": "لست متأكدًا من ذلك حقًا.", "meaning_en": "Stronger doubt, with \"really\" for emphasis.", "example": "Sell the old furniture? I'm really not sure about that."},
+      {"phrase": "I'm not 100% sure, but ...", "meaning_ar": "لست متأكدًا مئة بالمئة، لكن ...", "meaning_en": "Says you are almost sure.", "example": "I'm not 100% sure, but I think the shop closes at six."},
+      {"phrase": "That's debatable.", "meaning_ar": "هذا قابل للنقاش.", "meaning_en": "Says people may disagree about it.", "example": "Staycations are better? Well, that's debatable."},
+      {"phrase": "I find that highly unlikely.", "meaning_ar": "أجد ذلك مستبعدًا جدًا.", "meaning_en": "Says you are almost sure it won't happen.", "example": "He came to the city without telling us? I find that highly unlikely."},
+      {"phrase": "I have a few doubts.", "meaning_ar": "لديّ بعض الشكوك.", "meaning_en": "Says you are not fully sure about a plan.", "example": "I have a few doubts about that hotel. The reviews aren't great."},
+      {"phrase": "Are you certain that would work?", "meaning_ar": "هل أنت متأكد أن ذلك سينجح؟", "meaning_en": "Asks someone to confirm their idea.", "example": "Use only social media? Are you certain that would work?"},
+      {"phrase": "I'm in two minds about this.", "meaning_ar": "أنا متردد بشأن هذا.", "meaning_en": "Says you can't decide between two options.", "example": "I'm in two minds about moving to a new school."},
+      {"phrase": "Things are up in the air at the moment.", "meaning_ar": "الأمور غير محسومة في الوقت الحالي.", "meaning_en": "Says nothing is decided yet.", "example": "There's a big review at work, so things are up in the air at the moment."},
+      {"phrase": "I want to sleep on it.", "meaning_ar": "أريد أن أفكر فيه حتى الغد.", "meaning_en": "Asks for time before deciding.", "example": "Don't push me. I want to sleep on it."},
+      {"phrase": "Just leave it with me.", "meaning_ar": "اترك الأمر لي.", "meaning_en": "Asks for time to think about or deal with something.", "example": "Just leave it with me, and I'll give you an answer tomorrow."},
+      {"phrase": "We'll have to wait and see.", "meaning_ar": "علينا أن ننتظر ونرى.", "meaning_en": "Says you can't know yet.", "example": "Which university will she go to? We'll have to wait and see."},
+      {"phrase": "I wouldn't be surprised if ...", "meaning_ar": "لن أستغرب إذا ...", "meaning_en": "Says you think something is quite possible.", "example": "I wouldn't be surprised if we got an announcement soon."}
+    ],
+    "grammar": [
+      {"title": "Adding emphasis with \"really\"", "explanation_ar": "نضع really قبل الصفة أو بعد الفعل المساعد لتقوية المعنى: I'm not sure ← I'm really not sure.", "explanation_en": "Put \"really\" before an adjective or after the auxiliary verb to make it stronger: I'm not sure → I'm really not sure.", "examples": ["I'm really not sure about that.", "I really need more time.", "It's really unlikely."]},
+      {"title": "I find it + adjective + that ...", "explanation_ar": "تركيب لإبداء الرأي: I find it hard / unlikely / strange that ... أي: أرى أنه ...", "explanation_en": "A structure to give your opinion: I find it hard / unlikely / strange that ...", "examples": ["I find it highly unlikely that he forgot.", "I find it strange that nobody called.", "I find that highly unlikely."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which shows you are ALMOST sure?", "choices": ["I find that highly unlikely.", "I'm not 100% sure, but I think so.", "I'm in two minds.", "Things are up in the air."], "answer": 1, "explanation_ar": "I'm not 100% sure but ... تعني شبه متأكد.", "explanation_en": "\"I'm not 100% sure, but...\" means almost sure."},
+    {"question": "\"I'm in two minds\" means:", "choices": ["I can't decide.", "I'm very clever.", "I agree completely.", "I'm angry."], "answer": 0, "explanation_ar": "in two minds = متردد بين خيارين.", "explanation_en": "It means you can't decide."},
+    {"question": "\"Things are up in the air\" means:", "choices": ["Things are flying.", "Things are finished.", "Things are not decided yet.", "Things are very good."], "answer": 2, "explanation_ar": "up in the air = غير محسوم.", "explanation_en": "\"Up in the air\" = not decided."},
+    {"question": "You need time before you decide. You say:", "choices": ["That's debatable.", "I have a few doubts.", "I don't know about that.", "I want to sleep on it."], "answer": 3, "explanation_ar": "sleep on it = تأجيل القرار حتى الغد.", "explanation_en": "\"Sleep on it\" = decide later."},
+    {"question": "\"That's debatable\" means:", "choices": ["That's certain.", "People may have different opinions about it.", "That's a lie.", "That's very funny."], "answer": 1, "explanation_ar": "debatable = محلّ جدل.", "explanation_en": "\"Debatable\" = people may disagree."},
+    {"question": "Which shows you think something will almost certainly NOT happen?", "choices": ["I find that highly unlikely.", "I wouldn't be surprised.", "I'm not 100% sure, but yes.", "That would be lovely."], "answer": 0, "explanation_ar": "highly unlikely = مستبعد جدًا.", "explanation_en": "\"Highly unlikely\" = almost certainly not."},
+    {"question": "I'm ___ not sure about that.", "choices": ["real", "reality", "realise", "really"], "answer": 3, "explanation_ar": "really ظرف يُستخدم للتأكيد.", "explanation_en": "\"Really\" is the adverb for emphasis."},
+    {"question": "Which word has a silent letter?", "choices": ["sure", "doubt", "plan", "mind"], "answer": 1, "explanation_ar": "حرف b في doubt صامت.", "explanation_en": "The b in \"doubt\" is silent."},
+    {"question": "\"Are you certain that would work?\" asks for:", "choices": ["a price", "a date", "confirmation", "a holiday"], "answer": 2, "explanation_ar": "السؤال يطلب التأكيد.", "explanation_en": "It asks for confirmation."},
+    {"question": "A \"staycation\" is:", "choices": ["a long stay in hospital", "a work trip", "a holiday abroad", "a holiday at home or in your own country"], "answer": 3, "explanation_ar": "staycation = عطلة داخل البلد.", "explanation_en": "A staycation is a holiday at home."}
+  ]
+}

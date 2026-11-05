@@ -1,0 +1,406 @@
+{
+  "title": "Complaining",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "complain",
+        "pos": "verb",
+        "meaning_en": "say that you are not happy with something",
+        "meaning_ar": "يشتكي",
+        "note_ar": "الاسم: complaint = شكوى",
+        "note_en": "Noun: complaint.",
+        "example": "I'd like to complain about the room."
+      },
+      {
+        "word": "complaint",
+        "pos": "noun",
+        "meaning_en": "a statement that something is wrong or not good enough",
+        "meaning_ar": "شكوى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We received a complaint from a customer."
+      },
+      {
+        "word": "disappointed",
+        "pos": "adjective",
+        "meaning_en": "sad because something was not as good as you hoped",
+        "meaning_ar": "خائب الأمل",
+        "note_ar": "نقول disappointed with/in",
+        "note_en": "We say disappointed with something.",
+        "example": "I'm very disappointed with your service."
+      },
+      {
+        "word": "service",
+        "pos": "noun",
+        "meaning_en": "the help and work a business gives its customers",
+        "meaning_ar": "خدمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The service at this hotel is excellent."
+      },
+      {
+        "word": "standard",
+        "pos": "noun",
+        "meaning_en": "a level of quality",
+        "meaning_ar": "مستوى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The standard of service is not good enough."
+      },
+      {
+        "word": "not good enough",
+        "pos": "phrase",
+        "meaning_en": "below the level you expect",
+        "meaning_ar": "ليس جيدًا بما يكفي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This report is not good enough. Please check it again."
+      },
+      {
+        "word": "expectations",
+        "pos": "noun",
+        "meaning_en": "what you believe something will be like",
+        "meaning_ar": "توقّعات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The room did not meet my expectations."
+      },
+      {
+        "word": "meet expectations",
+        "pos": "phrase",
+        "meaning_en": "be as good as people hoped",
+        "meaning_ar": "يرقى إلى مستوى التوقعات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new software met all our expectations."
+      },
+      {
+        "word": "matter",
+        "pos": "noun",
+        "meaning_en": "a subject or problem you need to deal with",
+        "meaning_ar": "مسألة / أمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I would like this matter resolved quickly."
+      },
+      {
+        "word": "resolve",
+        "pos": "verb",
+        "meaning_en": "find an answer to a problem (formal)",
+        "meaning_ar": "يحلّ (مشكلة)",
+        "note_ar": "مرادف أقل رسمية: sort out",
+        "note_en": "Less formal: sort out.",
+        "example": "We will resolve the problem today."
+      },
+      {
+        "word": "cancel",
+        "pos": "verb",
+        "meaning_en": "say that something planned will not happen",
+        "meaning_ar": "يُلغي",
+        "note_ar": "بريطانيا: cancelled، أمريكا: canceled",
+        "note_en": "UK: cancelled; US: canceled.",
+        "example": "I would like to cancel my reservation."
+      },
+      {
+        "word": "refund",
+        "pos": "noun / verb",
+        "meaning_en": "money given back to you",
+        "meaning_ar": "استرداد المبلغ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I would like a full refund."
+      },
+      {
+        "word": "requirements",
+        "pos": "noun",
+        "meaning_en": "things that you need or ask for",
+        "meaning_ar": "المتطلبات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The room did not meet our requirements."
+      },
+      {
+        "word": "insist on",
+        "pos": "phrasal verb",
+        "meaning_en": "say firmly that something must happen",
+        "meaning_ar": "يُصرّ على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He insists on a twin room."
+      },
+      {
+        "word": "sort out",
+        "pos": "phrasal verb",
+        "meaning_en": "deal with a problem successfully",
+        "meaning_ar": "يحلّ / يرتّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please sort out this mess quickly."
+      },
+      {
+        "word": "keep your cool",
+        "pos": "idiom",
+        "meaning_en": "stay calm in a difficult situation",
+        "meaning_ar": "يحافظ على هدوئه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep your cool and explain the problem politely."
+      },
+      {
+        "word": "bossy",
+        "pos": "adjective",
+        "meaning_en": "always telling other people what to do",
+        "meaning_ar": "متسلّط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My new manager is a bit bossy."
+      },
+      {
+        "word": "flustered",
+        "pos": "adjective",
+        "meaning_en": "nervous and confused",
+        "meaning_ar": "مرتبك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She was flustered before the big meeting."
+      },
+      {
+        "word": "freshly squeezed",
+        "pos": "adjective",
+        "meaning_en": "(juice) made just now from fruit",
+        "meaning_ar": "طازج معصور للتو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wants freshly squeezed orange juice."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "complain vs complaint",
+        "words": [
+          "complain",
+          "complaint"
+        ],
+        "explanation_ar": "complain فعل (يشتكي)، وcomplaint اسم (شكوى). نقول make a complaint أو complain about.",
+        "explanation_en": "Complain is a verb. Complaint is a noun. Say: complain about something / make a complaint.",
+        "examples": [
+          {
+            "word": "complain",
+            "sentence": "I want to complain about the noise."
+          },
+          {
+            "word": "complaint",
+            "sentence": "She made a complaint to the manager."
+          }
+        ]
+      },
+      {
+        "title": "disappointed vs disappointing",
+        "words": [
+          "disappointed",
+          "disappointing"
+        ],
+        "explanation_ar": "disappointed تصف شعور الشخص، وdisappointing تصف الشيء الذي يسبب خيبة الأمل.",
+        "explanation_en": "Disappointed describes how a person feels. Disappointing describes the thing that causes the feeling.",
+        "examples": [
+          {
+            "word": "disappointed",
+            "sentence": "I'm disappointed with the service."
+          },
+          {
+            "word": "disappointing",
+            "sentence": "The service was disappointing."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm very disappointed with your service.",
+        "meaning_ar": "أنا خائب الأمل جدًّا من خدمتكم.",
+        "meaning_en": "I am not happy with how you served me.",
+        "example": "I waited an hour for help. I'm very disappointed with your service."
+      },
+      {
+        "phrase": "The standard of service is not good enough.",
+        "meaning_ar": "مستوى الخدمة ليس جيدًا بما يكفي.",
+        "meaning_en": "The quality of the service is too low.",
+        "example": "The standard of service is not good enough for a five-star hotel."
+      },
+      {
+        "phrase": "The room I booked did not meet my expectations.",
+        "meaning_ar": "الغرفة التي حجزتها لم ترقَ إلى توقّعاتي.",
+        "meaning_en": "The room was worse than I expected.",
+        "example": "I'm sorry, but the room I booked did not meet my expectations."
+      },
+      {
+        "phrase": "I would like this matter resolved as quickly as possible.",
+        "meaning_ar": "أودّ أن تُحلّ هذه المسألة بأسرع ما يمكن.",
+        "meaning_en": "Please fix this problem fast.",
+        "example": "Please call me back. I would like this matter resolved as quickly as possible."
+      },
+      {
+        "phrase": "I would like to cancel my reservation and get a full refund.",
+        "meaning_ar": "أودّ إلغاء حجزي واسترداد المبلغ كاملًا.",
+        "meaning_en": "Stop the booking and give me all my money back.",
+        "example": "If you can't help, I would like to cancel my reservation and get a full refund."
+      },
+      {
+        "phrase": "I'd like to speak to your manager, please.",
+        "meaning_ar": "أودّ التحدث إلى مديرك من فضلك.",
+        "meaning_en": "Ask to talk to a more senior person.",
+        "example": "Thank you, but I'd like to speak to your manager, please."
+      },
+      {
+        "phrase": "Don't panic, it's all taken care of.",
+        "meaning_ar": "لا تقلق، كل شيء تم ترتيبه.",
+        "meaning_en": "Everything is already done.",
+        "example": "Don't panic, it's all taken care of. The room is ready."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Complaining politely and formally",
+        "explanation_ar": "عند الشكوى نبقى مهذبين ونستخدم لغة رسمية: I'm disappointed with... / ... is not good enough / ... did not meet my expectations بدلًا من كلمات غاضبة مثل terrible أو awful.",
+        "explanation_en": "When you complain, stay polite and formal. Use: I'm disappointed with..., ... is not good enough, ... did not meet my expectations, instead of angry words like terrible.",
+        "examples": [
+          "I'm disappointed with the delivery.",
+          "The quality is not good enough.",
+          "The product did not meet our expectations."
+        ]
+      },
+      {
+        "title": "would like + object + past participle",
+        "explanation_ar": "I would like this matter resolved تعني أريد أن تُحلّ هذه المسألة (من قِبَل شخص آخر). التركيب: would like + المفعول + التصريف الثالث للفعل.",
+        "explanation_en": "I would like this matter resolved = I want someone to resolve it. Pattern: would like + object + past participle.",
+        "examples": [
+          "I would like this matter resolved quickly.",
+          "I would like the room cleaned, please.",
+          "We would like the order delivered by Friday."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which sentence is a polite complaint?",
+      "choices": [
+        "Your hotel is awful!",
+        "I'm very disappointed with your service.",
+        "You are terrible.",
+        "Go away."
+      ],
+      "answer": 1,
+      "explanation_ar": "التعبير المهذب الرسمي هو I'm very disappointed with your service.",
+      "explanation_en": "The polite, formal phrase is I'm very disappointed with your service."
+    },
+    {
+      "question": "The room did not ___ my expectations.",
+      "choices": [
+        "meet",
+        "met",
+        "make",
+        "do"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول meet expectations، وبعد did not نستخدم الفعل المجرد.",
+      "explanation_en": "We say meet expectations; after did not use the base verb."
+    },
+    {
+      "question": "\"Refund\" means...",
+      "choices": [
+        "a new room",
+        "money given back",
+        "a complaint",
+        "a manager"
+      ],
+      "answer": 1,
+      "explanation_ar": "refund هو استرداد المبلغ.",
+      "explanation_en": "A refund is money given back."
+    },
+    {
+      "question": "I would like this matter ___ as quickly as possible.",
+      "choices": [
+        "resolve",
+        "resolving",
+        "resolved",
+        "resolves"
+      ],
+      "answer": 2,
+      "explanation_ar": "التركيب would like + مفعول + تصريف ثالث: resolved.",
+      "explanation_en": "Pattern: would like + object + past participle: resolved."
+    },
+    {
+      "question": "The standard of service is not good ___.",
+      "choices": [
+        "enough",
+        "much",
+        "very",
+        "too"
+      ],
+      "answer": 0,
+      "explanation_ar": "not good enough تعني ليس جيدًا بما يكفي.",
+      "explanation_en": "Not good enough = below the level you expect."
+    },
+    {
+      "question": "Choose the correct word: \"She made a ___ to the manager.\"",
+      "choices": [
+        "complain",
+        "complained",
+        "complaining",
+        "complaint"
+      ],
+      "answer": 3,
+      "explanation_ar": "بعد a نحتاج اسمًا: complaint.",
+      "explanation_en": "After 'a' we need the noun complaint."
+    },
+    {
+      "question": "The service was ___. (describes the service)",
+      "choices": [
+        "disappointed",
+        "disappointing",
+        "disappoint",
+        "disappoints"
+      ],
+      "answer": 1,
+      "explanation_ar": "disappointing تصف الشيء المسبب لخيبة الأمل.",
+      "explanation_en": "Disappointing describes the thing."
+    },
+    {
+      "question": "\"Keep your cool\" means...",
+      "choices": [
+        "stay calm",
+        "feel cold",
+        "keep a secret",
+        "leave quickly"
+      ],
+      "answer": 0,
+      "explanation_ar": "keep your cool تعني ابقَ هادئًا.",
+      "explanation_en": "It means stay calm."
+    },
+    {
+      "question": "What kind of room did Mr Socrates want?",
+      "choices": [
+        "a single room",
+        "a double room",
+        "a twin room",
+        "a meeting room"
+      ],
+      "answer": 2,
+      "explanation_ar": "أراد غرفة بسريرين twin room.",
+      "explanation_en": "He wanted a twin room."
+    },
+    {
+      "question": "I would like to ___ my reservation.",
+      "choices": [
+        "cancel",
+        "cancels",
+        "cancelling",
+        "to cancel"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد would like to نستخدم الفعل المجرد.",
+      "explanation_en": "After would like to use the base verb."
+    }
+  ]
+}

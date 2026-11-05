@@ -1,0 +1,395 @@
+{
+  "title": "Morning Routines",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "morning routine",
+        "pos": "noun",
+        "meaning_en": "the things you do every morning",
+        "meaning_ar": "الروتين الصباحي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My morning routine takes one hour."
+      },
+      {
+        "word": "ritual",
+        "pos": "noun",
+        "meaning_en": "something you always do in the same way",
+        "meaning_ar": "عادة ثابتة / طقس يومي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Drinking tea is my morning ritual."
+      },
+      {
+        "word": "get ready",
+        "pos": "phrase",
+        "meaning_en": "prepare yourself to go out",
+        "meaning_ar": "يستعدّ",
+        "note_ar": "get ready for work",
+        "note_en": "get ready for work/school",
+        "example": "I get ready for school at seven."
+      },
+      {
+        "word": "coding",
+        "pos": "noun",
+        "meaning_en": "writing computer programs",
+        "meaning_ar": "البرمجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He spends all day coding."
+      },
+      {
+        "word": "exhausting",
+        "pos": "adjective",
+        "meaning_en": "making you very tired",
+        "meaning_ar": "مُرهِق / متعب جدًا",
+        "note_ar": "exhausted = متعب جدًا (صفة للشخص)",
+        "note_en": "exhausted = very tired (the person)",
+        "example": "Working ten hours is exhausting."
+      },
+      {
+        "word": "stretching",
+        "pos": "noun",
+        "meaning_en": "making your arms, legs and body long to loosen muscles",
+        "meaning_ar": "تمارين الإطالة",
+        "note_ar": "الفعل: stretch",
+        "note_en": "Verb: stretch.",
+        "example": "I do some stretching after I wake up."
+      },
+      {
+        "word": "breathe",
+        "pos": "verb",
+        "meaning_en": "take air into your body and let it out",
+        "meaning_ar": "يتنفّس",
+        "note_ar": "الاسم breath /breθ/، الفعل breathe /briːð/",
+        "note_en": "Noun: breath /breθ/; verb: breathe /briːð/.",
+        "example": "Breathe slowly and relax."
+      },
+      {
+        "word": "helpful",
+        "pos": "adjective",
+        "meaning_en": "useful; making things easier",
+        "meaning_ar": "مفيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your advice was very helpful."
+      },
+      {
+        "word": "big fan of",
+        "pos": "phrase",
+        "meaning_en": "someone who likes something very much",
+        "meaning_ar": "من محبّي... جدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm a big fan of fresh juice."
+      },
+      {
+        "word": "avocado toast",
+        "pos": "noun",
+        "meaning_en": "toast with mashed avocado on top",
+        "meaning_ar": "خبز محمّص بالأفوكادو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I eat avocado toast for breakfast."
+      },
+      {
+        "word": "scrambled eggs",
+        "pos": "noun",
+        "meaning_en": "eggs mixed and cooked in a pan",
+        "meaning_ar": "بيض مخفوق مطبوخ (أومليت مخلوط)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My mother makes scrambled eggs."
+      },
+      {
+        "word": "delicious",
+        "pos": "adjective",
+        "meaning_en": "tasting very good",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These eggs are delicious."
+      },
+      {
+        "word": "protein shake",
+        "pos": "noun",
+        "meaning_en": "a drink with protein, often after sport",
+        "meaning_ar": "مخفوق البروتين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He drinks a protein shake after the gym."
+      },
+      {
+        "word": "take care of yourself",
+        "pos": "phrase",
+        "meaning_en": "look after your own health",
+        "meaning_ar": "يعتني بنفسه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Eat well and take care of yourself."
+      },
+      {
+        "word": "exercise",
+        "pos": "noun",
+        "meaning_en": "physical activity to stay healthy",
+        "meaning_ar": "تمارين رياضية",
+        "note_ar": "get some exercise = يمارس بعض الرياضة",
+        "note_en": "get some exercise",
+        "example": "I get some exercise every day."
+      },
+      {
+        "word": "advice",
+        "pos": "noun",
+        "meaning_en": "an idea about what someone should do",
+        "meaning_ar": "نصيحة",
+        "note_ar": "غير معدودة",
+        "note_en": "Uncountable.",
+        "example": "Thanks for the advice."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "exhausting vs exhausted",
+        "words": [
+          "exhausting",
+          "exhausted"
+        ],
+        "explanation_ar": "الصفة التي تنتهي بـ ing تصف الشيء المسبب للشعور (العمل مرهِق)، والتي تنتهي بـ ed تصف شعور الشخص (أنا متعَب).",
+        "explanation_en": "-ing describes the thing (work is exhausting). -ed describes how a person feels (I'm exhausted).",
+        "examples": [
+          {
+            "word": "exhausting",
+            "sentence": "Eight hours of coding is exhausting."
+          },
+          {
+            "word": "exhausted",
+            "sentence": "I'm exhausted after work."
+          }
+        ]
+      },
+      {
+        "title": "wake up vs get ready",
+        "words": [
+          "wake up",
+          "get ready"
+        ],
+        "explanation_ar": "wake up تعني تستيقظ من النوم، و get ready تعني تجهّز نفسك للخروج (تغتسل، تلبس...).",
+        "explanation_en": "Wake up = stop sleeping. Get ready = prepare to go out.",
+        "examples": [
+          {
+            "word": "wake up",
+            "sentence": "I wake up at six."
+          },
+          {
+            "word": "get ready",
+            "sentence": "Then I get ready for work."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What time do you usually wake up?",
+        "meaning_ar": "متى تستيقظ عادةً؟",
+        "meaning_en": "Ask about someone's wake-up time.",
+        "example": "What time do you usually wake up? At 6:00."
+      },
+      {
+        "phrase": "I have a morning routine that I like to follow.",
+        "meaning_ar": "لديّ روتين صباحي أحب أن ألتزم به.",
+        "meaning_en": "Say you have regular morning habits.",
+        "example": "I have a morning routine that I like to follow."
+      },
+      {
+        "phrase": "That sounds exhausting.",
+        "meaning_ar": "يبدو هذا مُرهقًا.",
+        "meaning_en": "React to something very tiring.",
+        "example": "You work twelve hours? That sounds exhausting."
+      },
+      {
+        "phrase": "start my day on the right foot",
+        "meaning_ar": "أبدأ يومي بداية جيدة",
+        "meaning_en": "Begin the day in a good way.",
+        "example": "A good breakfast helps me start my day on the right foot."
+      },
+      {
+        "phrase": "I can see how that would be helpful.",
+        "meaning_ar": "أفهم كيف يمكن أن يكون ذلك مفيدًا.",
+        "meaning_en": "Agree that an idea is useful.",
+        "example": "Walking in the morning? I can see how that would be helpful."
+      },
+      {
+        "phrase": "I'm a big fan of...",
+        "meaning_ar": "أنا من أشد محبّي...",
+        "meaning_en": "Say you like something very much.",
+        "example": "I'm a big fan of mint tea."
+      },
+      {
+        "phrase": "I'll keep that in mind.",
+        "meaning_ar": "سأتذكّر ذلك / سآخذه بعين الاعتبار.",
+        "meaning_en": "Say you will remember someone's advice.",
+        "example": "Drink more water. I'll keep that in mind."
+      },
+      {
+        "phrase": "No problem.",
+        "meaning_ar": "لا مشكلة / على الرحب والسعة.",
+        "meaning_en": "A friendly answer to \"thank you\".",
+        "example": "Thanks for the advice. No problem!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple + usually for routines",
+        "explanation_ar": "المضارع البسيط مع usually للعادات اليومية: I usually wake up around 9:00. وفي السؤال: What time do you usually wake up?",
+        "explanation_en": "Present simple + usually for daily habits.",
+        "examples": [
+          "What time do you usually wake up?",
+          "I usually make myself a big breakfast.",
+          "I usually just have a protein shake."
+        ]
+      },
+      {
+        "title": "Telling time: at / around",
+        "explanation_ar": "at 6:00 = في السادسة تمامًا. around 9:00 = حوالي التاسعة (تقريبًا).",
+        "explanation_en": "at = exact time; around = about, not exact.",
+        "examples": [
+          "I wake up at 6:00 in the morning.",
+          "I usually wake up around 9:00.",
+          "We have lunch around one o'clock."
+        ]
+      },
+      {
+        "title": "help + someone + verb",
+        "explanation_ar": "بعد help نستخدم المفعول ثم الفعل في أصله: A hot shower helps me wake up.",
+        "explanation_en": "help + person + base verb.",
+        "examples": [
+          "A hot shower helps me wake up.",
+          "Stretching helps me start my day.",
+          "My sister helps me cook."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What time do you usually ___ up?",
+      "choices": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد do you نستخدم الفعل في أصله: wake.",
+      "explanation_en": "After \"do you\" use the base verb."
+    },
+    {
+      "question": "I wake up ___ 6:00 in the morning.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": 2,
+      "explanation_ar": "at مع الساعة.",
+      "explanation_en": "Use \"at\" with times."
+    },
+    {
+      "question": "\"Around 9:00\" means...",
+      "choices": [
+        "exactly 9:00",
+        "about 9:00",
+        "after 10:00",
+        "never"
+      ],
+      "answer": 1,
+      "explanation_ar": "around تعني تقريبًا.",
+      "explanation_en": "Around means about."
+    },
+    {
+      "question": "Eight hours of coding is ___.",
+      "choices": [
+        "exhausted",
+        "exhausting",
+        "exhaust",
+        "exhausts"
+      ],
+      "answer": 1,
+      "explanation_ar": "نصف الشيء المسبب للتعب بـ ing: exhausting.",
+      "explanation_en": "Use -ing for the thing: exhausting."
+    },
+    {
+      "question": "A hot shower helps me ___ up.",
+      "choices": [
+        "wake",
+        "to waking",
+        "waking",
+        "woke"
+      ],
+      "answer": 0,
+      "explanation_ar": "help + شخص + الفعل في أصله.",
+      "explanation_en": "help + person + base verb."
+    },
+    {
+      "question": "Thanks for the advice! — ___",
+      "choices": [
+        "That sounds exhausting.",
+        "I wake up at six.",
+        "No problem.",
+        "I'm a big fan."
+      ],
+      "answer": 2,
+      "explanation_ar": "No problem رد ودّي على الشكر.",
+      "explanation_en": "\"No problem\" answers \"thanks\"."
+    },
+    {
+      "question": "\"I'll keep that in mind\" means...",
+      "choices": [
+        "I will forget it.",
+        "I will remember your advice.",
+        "I don't agree.",
+        "I am tired."
+      ],
+      "answer": 1,
+      "explanation_ar": "تعني سأتذكّر نصيحتك.",
+      "explanation_en": "It means I will remember it."
+    },
+    {
+      "question": "Stretching makes your body...",
+      "choices": [
+        "long and loose",
+        "hot and wet",
+        "small",
+        "hungry"
+      ],
+      "answer": 0,
+      "explanation_ar": "stretching تمارين إطالة لإرخاء العضلات.",
+      "explanation_en": "Stretching makes your muscles long and loose."
+    },
+    {
+      "question": "I'm a big ___ of avocado toast.",
+      "choices": [
+        "friend",
+        "fun",
+        "fan",
+        "food"
+      ],
+      "answer": 2,
+      "explanation_ar": "a big fan of = من محبّي.",
+      "explanation_en": "\"A big fan of\" = like very much."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I usually makes breakfast.",
+        "I make usually breakfast.",
+        "Usually I making breakfast.",
+        "I usually make breakfast."
+      ],
+      "answer": 3,
+      "explanation_ar": "usually قبل الفعل، والفعل مع I بدون s.",
+      "explanation_en": "Usually goes before the verb; no -s with I."
+    }
+  ]
+}

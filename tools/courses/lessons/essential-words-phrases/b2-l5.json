@@ -1,0 +1,497 @@
+{
+  "title": "Fast English: Reductions",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "gonna",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"going to\"",
+        "meaning_ar": "اختصار going to (سوف)",
+        "note_ar": "تُكتب في الرسائل غير الرسمية فقط، وفي الكتابة الرسمية اكتب going to",
+        "note_en": "Use it in speech and casual texts only; write \"going to\" in formal writing.",
+        "example": "I'm gonna call him later."
+      },
+      {
+        "word": "wanna",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"want to\"",
+        "meaning_ar": "اختصار want to (أريد أن)",
+        "note_ar": "لا تُستخدم مع he/she: نقول he wants to",
+        "note_en": "Not with he/she: say \"he wants to\".",
+        "example": "I wanna eat pizza."
+      },
+      {
+        "word": "gotta",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"have got to\" (must)",
+        "meaning_ar": "اختصار have got to (يجب أن)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I gotta finish my homework."
+      },
+      {
+        "word": "kinda",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"kind of\" (a little)",
+        "meaning_ar": "اختصار kind of (نوعًا ما)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm kinda busy right now."
+      },
+      {
+        "word": "a lotta",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"a lot of\"",
+        "meaning_ar": "اختصار a lot of (الكثير من)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a lotta work today."
+      },
+      {
+        "word": "gimme",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"give me\"",
+        "meaning_ar": "اختصار give me (أعطني)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Gimme that book, please."
+      },
+      {
+        "word": "dunno",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"I don't know\"",
+        "meaning_ar": "اختصار I don't know (لا أعرف)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where is he? - Dunno."
+      },
+      {
+        "word": "outta",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"out of\"",
+        "meaning_ar": "اختصار out of (خارج)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm outta here!"
+      },
+      {
+        "word": "whatcha",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"what are you\" / \"what have you\"",
+        "meaning_ar": "اختصار what are you",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Whatcha doing?"
+      },
+      {
+        "word": "whaddaya",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"what do you\"",
+        "meaning_ar": "اختصار what do you",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Whaddaya think?"
+      },
+      {
+        "word": "didja",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"did you\"",
+        "meaning_ar": "اختصار did you",
+        "note_ar": "صوت d + y يصبح \"ج\"",
+        "note_en": "The sounds d + y join and sound like \"j\".",
+        "example": "Didja eat the cake?"
+      },
+      {
+        "word": "wouldja",
+        "pos": "reduced form",
+        "meaning_en": "fast spoken form of \"would you\"",
+        "meaning_ar": "اختصار would you",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wouldja like some tea?"
+      },
+      {
+        "word": "let's",
+        "pos": "contraction",
+        "meaning_en": "short for \"let us\"",
+        "meaning_ar": "هيا بنا (اختصار let us)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's go!"
+      },
+      {
+        "word": "busy",
+        "pos": "adjective",
+        "meaning_en": "having a lot to do",
+        "meaning_ar": "مشغول",
+        "note_ar": "تُنطق /ˈbɪzi/",
+        "note_en": "Say /ˈbɪzi/.",
+        "example": "I'm kind of busy right now."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "gonna vs wanna vs gotta",
+        "words": [
+          "gonna",
+          "wanna",
+          "gotta"
+        ],
+        "explanation_ar": "gonna = going to (سوف). wanna = want to (أريد). gotta = have got to (يجب). ثلاث كلمات متشابهة في الصوت لكن معانيها مختلفة.",
+        "explanation_en": "gonna = going to (future). wanna = want to (wish). gotta = have got to (must). They sound similar but mean different things.",
+        "examples": [
+          {
+            "word": "gonna",
+            "sentence": "I'm gonna visit my aunt."
+          },
+          {
+            "word": "wanna",
+            "sentence": "I wanna eat pizza."
+          },
+          {
+            "word": "gotta",
+            "sentence": "I gotta go now."
+          }
+        ]
+      },
+      {
+        "title": "won't vs want",
+        "words": [
+          "won't",
+          "want"
+        ],
+        "explanation_ar": "won't = will not (لن) وتُنطق /woʊnt/ مثل don't. want = يريد وتُنطق /wɒnt/. انتبه للفرق في الصوت.",
+        "explanation_en": "\"Won't\" = will not, said /woʊnt/ like \"don't\". \"Want\" = wish, said /wɒnt/.",
+        "examples": [
+          {
+            "word": "won't",
+            "sentence": "I won't do it."
+          },
+          {
+            "word": "want",
+            "sentence": "I want to help."
+          }
+        ]
+      },
+      {
+        "title": "can vs can't",
+        "words": [
+          "can",
+          "can't"
+        ],
+        "explanation_ar": "في الكلام السريع can تُنطق ضعيفة /kən/، وcan't تُنطق قوية وأطول /kænt/ أو /kɑːnt/، وغالبًا لا تُسمع t.",
+        "explanation_en": "In fast speech \"can\" is weak /kən/; \"can't\" is strong and longer, and the t is often not heard.",
+        "examples": [
+          {
+            "word": "can",
+            "sentence": "I can swim."
+          },
+          {
+            "word": "can't",
+            "sentence": "I can't eat this."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What do you think? (Whaddaya think?)",
+        "meaning_ar": "ما رأيك؟",
+        "meaning_en": "Asking for someone's opinion.",
+        "example": "I bought a new bag. Whaddaya think?"
+      },
+      {
+        "phrase": "What are you doing? (Whatcha doing?)",
+        "meaning_ar": "ماذا تفعل؟",
+        "meaning_en": "Asking about someone's activity now.",
+        "example": "Hey, whatcha doing? - Just reading."
+      },
+      {
+        "phrase": "How are you? (Howaya?)",
+        "meaning_ar": "كيف حالك؟",
+        "meaning_en": "A greeting; in fast speech \"are you\" becomes \"aya\".",
+        "example": "Hi Sam, howaya?"
+      },
+      {
+        "phrase": "Do you want to...? (D'you wanna...?)",
+        "meaning_ar": "هل تريد أن...؟",
+        "meaning_en": "Inviting or offering.",
+        "example": "D'you wanna go to the park?"
+      },
+      {
+        "phrase": "Did you...? (Didja...?)",
+        "meaning_ar": "هل فعلت...؟",
+        "meaning_en": "Asking about the past.",
+        "example": "Didja eat the cake?"
+      },
+      {
+        "phrase": "Would you like...? (Wouldja like...?)",
+        "meaning_ar": "هل تود...؟",
+        "meaning_en": "A polite offer.",
+        "example": "Wouldja like some tea?"
+      },
+      {
+        "phrase": "I'm going to (I'm gonna)",
+        "meaning_ar": "سوف / سأقوم بـ",
+        "meaning_en": "Talking about a plan.",
+        "example": "I'm gonna visit my aunt this weekend."
+      },
+      {
+        "phrase": "I want to (I wanna)",
+        "meaning_ar": "أريد أن",
+        "meaning_en": "Saying what you wish.",
+        "example": "I wanna see the mountains again."
+      },
+      {
+        "phrase": "I have got to (I gotta)",
+        "meaning_ar": "يجب عليّ",
+        "meaning_en": "Saying you must do something.",
+        "example": "I gotta finish my homework."
+      },
+      {
+        "phrase": "Let's go! (Let us go)",
+        "meaning_ar": "هيا بنا!",
+        "meaning_en": "Suggesting we leave or start together.",
+        "example": "Come on, let's go!"
+      },
+      {
+        "phrase": "I would have (I'd've)",
+        "meaning_ar": "كنت سأفعل",
+        "meaning_en": "Talking about the past that didn't happen.",
+        "example": "I'd've helped you if you'd asked."
+      },
+      {
+        "phrase": "Don't go there. (Do not)",
+        "meaning_ar": "لا تذهب إلى هناك.",
+        "meaning_en": "A negative order.",
+        "example": "Don't go there, it's dangerous."
+      },
+      {
+        "phrase": "I can't eat this. (cannot)",
+        "meaning_ar": "لا أستطيع أكل هذا.",
+        "meaning_en": "Saying you are not able.",
+        "example": "I'm full. I can't eat this."
+      },
+      {
+        "phrase": "I won't do it. (will not)",
+        "meaning_ar": "لن أفعل ذلك.",
+        "meaning_en": "Saying you refuse in the future.",
+        "example": "Sorry, I won't do it again."
+      },
+      {
+        "phrase": "I haven't seen her. (have not)",
+        "meaning_ar": "لم أرها.",
+        "meaning_en": "Present perfect negative.",
+        "example": "I haven't seen her today."
+      },
+      {
+        "phrase": "He isn't here. (is not)",
+        "meaning_ar": "هو ليس هنا.",
+        "meaning_en": "Negative of \"is\".",
+        "example": "Sorry, he isn't here right now."
+      },
+      {
+        "phrase": "I don't know. (Dunno)",
+        "meaning_ar": "لا أعرف.",
+        "meaning_en": "Very common short answer.",
+        "example": "Where's the remote? - Dunno."
+      },
+      {
+        "phrase": "I don't know what to do.",
+        "meaning_ar": "لا أعرف ماذا أفعل.",
+        "meaning_en": "I have no idea what to do next.",
+        "example": "My phone is broken. I don't know what to do."
+      },
+      {
+        "phrase": "I'm out of here. (I'm outta here)",
+        "meaning_ar": "أنا ماشي / سأغادر.",
+        "meaning_en": "I'm leaving now (informal).",
+        "example": "Work is done. I'm outta here!"
+      },
+      {
+        "phrase": "I'm kind of busy. (kinda)",
+        "meaning_ar": "أنا مشغول نوعًا ما.",
+        "meaning_en": "I'm a little busy.",
+        "example": "Can we talk later? I'm kinda busy."
+      },
+      {
+        "phrase": "I have a lot of work. (a lotta)",
+        "meaning_ar": "عندي الكثير من العمل.",
+        "meaning_en": "I have much work.",
+        "example": "I can't come. I have a lotta work."
+      },
+      {
+        "phrase": "Give me that book. (Gimme)",
+        "meaning_ar": "أعطني ذلك الكتاب.",
+        "meaning_en": "Asking someone to hand you something (casual).",
+        "example": "Gimme that book, please."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Contractions with not: don't, can't, won't, haven't, isn't",
+        "explanation_ar": "نختصر not مع الفعل المساعد: do not = don't، cannot = can't، will not = won't، have not = haven't، is not = isn't. الاختصار طبيعي في الكلام، والصيغة الكاملة أقوى أو أكثر رسمية.",
+        "explanation_en": "We join \"not\" to a helping verb: do not = don't, cannot = can't, will not = won't, have not = haven't, is not = isn't. Short forms are normal in speech; full forms are stronger or more formal.",
+        "examples": [
+          "I don't know.",
+          "I can't eat this.",
+          "I won't do it.",
+          "I haven't seen her.",
+          "He isn't here."
+        ]
+      },
+      {
+        "title": "Fast speech: gonna, wanna, gotta",
+        "explanation_ar": "في الكلام السريع يدمج الأمريكيون الكلمات: going to = gonna، want to = wanna، have got to = gotta. تعلمها لتفهم الأجانب، لكن في الكتابة الرسمية اكتب الصيغة الكاملة.",
+        "explanation_en": "In fast speech words join: going to = gonna, want to = wanna, have got to = gotta. Learn them to understand natives, but write the full form in formal writing.",
+        "examples": [
+          "I'm gonna visit my aunt. = I'm going to visit my aunt.",
+          "I wanna eat pizza. = I want to eat pizza.",
+          "I gotta go. = I have got to go."
+        ]
+      },
+      {
+        "title": "Let's + verb",
+        "explanation_ar": "Let's اختصار let us، ونستخدمها لاقتراح فعل شيء معًا. بعدها فعل أصلي.",
+        "explanation_en": "\"Let's\" = let us. Use it to suggest doing something together. Follow it with a base verb.",
+        "examples": [
+          "Let's go!",
+          "Let's eat now.",
+          "Let's give someone else a chance."
+        ]
+      },
+      {
+        "title": "Linking sounds: d + y = j, t + y = ch",
+        "explanation_ar": "عندما تأتي كلمة تنتهي بـ d قبل you يندمج الصوتان ويصبحان \"ج\": did you = didja، would you = wouldja. وt + you تصبح \"تش\": what are you = whatcha.",
+        "explanation_en": "When d comes before \"you\", the sounds join into \"j\": did you = didja, would you = wouldja. t + you becomes \"ch\": whatcha.",
+        "examples": [
+          "Did you eat? = Didja eat?",
+          "Would you like tea? = Wouldja like tea?",
+          "What are you doing? = Whatcha doing?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"I'm gonna call you\" means:",
+      "choices": [
+        "I want to call you.",
+        "I'm going to call you.",
+        "I must call you.",
+        "I called you."
+      ],
+      "answer": 1,
+      "explanation_ar": "gonna هي الصيغة السريعة لـ going to وتعني سوف.",
+      "explanation_en": "\"Gonna\" = going to."
+    },
+    {
+      "question": "\"I gotta finish my homework\" means:",
+      "choices": [
+        "I want to finish it.",
+        "I finished it.",
+        "I must finish it.",
+        "I won't finish it."
+      ],
+      "answer": 2,
+      "explanation_ar": "gotta = have got to أي يجب.",
+      "explanation_en": "\"Gotta\" = have got to = must."
+    },
+    {
+      "question": "What is the full form of \"won't\"?",
+      "choices": [
+        "want not",
+        "would not",
+        "will not",
+        "was not"
+      ],
+      "answer": 2,
+      "explanation_ar": "won't اختصار will not وتعني لن.",
+      "explanation_en": "\"Won't\" is \"will not\"."
+    },
+    {
+      "question": "\"Wanna\" is the fast form of:",
+      "choices": [
+        "want to",
+        "going to",
+        "what do",
+        "would you"
+      ],
+      "answer": 0,
+      "explanation_ar": "wanna هي الصيغة السريعة لـ want to وتعني أريد أن.",
+      "explanation_en": "\"Wanna\" = want to."
+    },
+    {
+      "question": "Someone asks: \"Whatcha doing?\" They mean:",
+      "choices": [
+        "What do you think?",
+        "Where are you going?",
+        "What are you doing?",
+        "Why are you late?"
+      ],
+      "answer": 2,
+      "explanation_ar": "whatcha doing تعني what are you doing أي ماذا تفعل؟",
+      "explanation_en": "It means \"What are you doing?\""
+    },
+    {
+      "question": "Which sentence is correct in formal writing?",
+      "choices": [
+        "I wanna apply for this job.",
+        "I gotta apply for this job.",
+        "I'm gonna apply for this job.",
+        "I want to apply for this job."
+      ],
+      "answer": 3,
+      "explanation_ar": "في الكتابة الرسمية نكتب الصيغة الكاملة want to.",
+      "explanation_en": "In formal writing use the full form \"want to\"."
+    },
+    {
+      "question": "\"I'm kinda busy\" means:",
+      "choices": [
+        "I'm very busy.",
+        "I'm a little busy.",
+        "I'm not busy.",
+        "I'm kind."
+      ],
+      "answer": 1,
+      "explanation_ar": "kinda = kind of أي نوعًا ما.",
+      "explanation_en": "\"Kinda\" = kind of = a little."
+    },
+    {
+      "question": "\"Let's go\" is short for:",
+      "choices": [
+        "Let is go",
+        "Let us go",
+        "Let's to go",
+        "Lets going"
+      ],
+      "answer": 1,
+      "explanation_ar": "let's اختصار let us وتعني هيا بنا.",
+      "explanation_en": "\"Let's\" = let us."
+    },
+    {
+      "question": "Choose the correct contraction: \"He ___ here.\" (is not)",
+      "choices": [
+        "isn't",
+        "don't",
+        "haven't",
+        "won't"
+      ],
+      "answer": 0,
+      "explanation_ar": "اختصار is not هو isn't.",
+      "explanation_en": "\"Is not\" becomes \"isn't\"."
+    },
+    {
+      "question": "Where's my phone? - \"Dunno.\" This means:",
+      "choices": [
+        "I know.",
+        "I don't know.",
+        "Don't go.",
+        "Done."
+      ],
+      "answer": 1,
+      "explanation_ar": "dunno تعني I don't know أي لا أعرف.",
+      "explanation_en": "\"Dunno\" = I don't know."
+    }
+  ]
+}

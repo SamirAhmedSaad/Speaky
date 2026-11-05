@@ -1,0 +1,62 @@
+{
+  "title": "Welcome!",
+  "content": {
+    "vocabulary": [
+      {"word": "hi", "pos": "interjection", "meaning_en": "a friendly word you say when you see someone", "meaning_ar": "مرحبًا (تحية ودّية)", "note_ar": "أكثر عفوية من hello.", "note_en": "More informal than hello.", "example": "Hi, Sara! How are you?"},
+      {"word": "hello", "pos": "interjection", "meaning_en": "a word you say when you meet someone or answer the phone", "meaning_ar": "مرحبًا / أهلًا", "note_ar": "تصلح في كل المواقف، وتُقال عند الرد على الهاتف.", "note_en": "Good for every situation, and used when you answer the phone.", "example": "Hello, I'm your new teacher."},
+      {"word": "hi there", "pos": "phrase", "meaning_en": "a warm, friendly way to say hi", "meaning_ar": "أهلًا بك (تحية ودّية)", "note_ar": "", "note_en": "", "example": "Hi there! Come in, please."},
+      {"word": "yes", "pos": "adverb", "meaning_en": "a word to agree or say that something is true", "meaning_ar": "نعم", "note_ar": "", "note_en": "", "example": "Are you Omar? Yes, I am."},
+      {"word": "no", "pos": "adverb", "meaning_en": "a word to say that something is not true", "meaning_ar": "لا", "note_ar": "", "note_en": "", "example": "Is your name Ali? No, it is Adel."},
+      {"word": "I", "pos": "pronoun", "meaning_en": "the word you use for yourself", "meaning_ar": "أنا", "note_ar": "يُكتب دائمًا بحرف كبير.", "note_en": "Always write it with a capital letter.", "example": "I am a student."},
+      {"word": "you", "pos": "pronoun", "meaning_en": "the person you are talking to", "meaning_ar": "أنتَ / أنتِ / أنتم", "note_ar": "نفس الكلمة للمذكر والمؤنث والمفرد والجمع.", "note_en": "The same word for one person or many people.", "example": "Are you a new student?"},
+      {"word": "am", "pos": "verb", "meaning_en": "the form of 'be' used with I", "meaning_ar": "أكون (مع I فقط)", "note_ar": "I am = I'm", "note_en": "I am = I'm", "example": "I am Pete."},
+      {"word": "are", "pos": "verb", "meaning_en": "the form of 'be' used with you, we and they", "meaning_ar": "تكون / يكونون (مع you وwe وthey)", "note_ar": "", "note_en": "", "example": "You are my new neighbor."},
+      {"word": "name", "pos": "noun", "meaning_en": "the word that people call you", "meaning_ar": "اسم", "note_ar": "", "note_en": "", "example": "My name is Huda."},
+      {"word": "nice", "pos": "adjective", "meaning_en": "good, pleasant", "meaning_ar": "لطيف / جميل", "note_ar": "", "note_en": "", "example": "It is a nice day."},
+      {"word": "meet", "pos": "verb", "meaning_en": "to see and talk to someone for the first time", "meaning_ar": "يقابل / يتعرّف على", "note_ar": "", "note_en": "", "example": "I want to meet your brother."},
+      {"word": "try", "pos": "verb", "meaning_en": "to do something to see if it works", "meaning_ar": "يحاول / يجرّب", "note_ar": "", "note_en": "", "example": "Try the door again."},
+      {"word": "again", "pos": "adverb", "meaning_en": "one more time", "meaning_ar": "مرة أخرى", "note_ar": "", "note_en": "", "example": "Please say your name again."},
+      {"word": "welcome", "pos": "interjection", "meaning_en": "a word to greet someone who arrives", "meaning_ar": "أهلًا وسهلًا / مرحبًا بك", "note_ar": "Welcome to + المكان.", "note_en": "Welcome to + a place.", "example": "Welcome to our school!"},
+      {"word": "new", "pos": "adjective", "meaning_en": "not old; you have it for a short time", "meaning_ar": "جديد", "note_ar": "", "note_en": "", "example": "This is my new phone."},
+      {"word": "apartment", "pos": "noun", "meaning_en": "a home with rooms in a big building", "meaning_ar": "شقة", "note_ar": "في بريطانيا يقولون flat.", "note_en": "In British English: flat.", "example": "My apartment is on the third floor."},
+      {"word": "street", "pos": "noun", "meaning_en": "a road in a town or city", "meaning_ar": "شارع", "note_ar": "", "note_en": "", "example": "The bank is on Main Street."},
+      {"word": "my", "pos": "determiner", "meaning_en": "belonging to me", "meaning_ar": "ـي (ملكي)", "note_ar": "my book = كتابي", "note_en": "", "example": "This is my bag."},
+      {"word": "two", "pos": "number", "meaning_en": "the number 2", "meaning_ar": "اثنان", "note_ar": "تُنطق مثل too وto.", "note_en": "Sounds the same as too and to.", "example": "Anna has two n's in her name."},
+      {"word": "letter", "pos": "noun", "meaning_en": "one sign in the alphabet, like A or B", "meaning_ar": "حرف (من حروف الهجاء)", "note_ar": "وتعني أيضًا: رسالة.", "note_en": "It also means a written message.", "example": "The word 'cat' has three letters."},
+      {"word": "alphabet", "pos": "noun", "meaning_en": "all the letters of a language, from A to Z", "meaning_ar": "الأبجدية / حروف الهجاء", "note_ar": "في الإنجليزية ٢٦ حرفًا.", "note_en": "English has 26 letters.", "example": "Children learn the alphabet at school."},
+      {"word": "spell", "pos": "verb", "meaning_en": "to say or write the letters of a word in order", "meaning_ar": "يتهجّى", "note_ar": "", "note_en": "", "example": "How do you spell your name?"},
+      {"word": "well", "pos": "interjection", "meaning_en": "a word you say before you continue speaking", "meaning_ar": "حسنًا / إذن", "note_ar": "", "note_en": "", "example": "Well, let's start the lesson."}
+    ],
+    "fine_lines": [
+      {"title": "hi vs hello", "words": ["hi", "hello"], "explanation_ar": "الكلمتان للتحية. hi عفوية وتُقال للأصدقاء ومن في عمرك. hello تصلح في كل مكان، وهي الكلمة المعتادة عند الرد على الهاتف.", "explanation_en": "Both are greetings. Hi is informal, for friends and people your age. Hello is good everywhere and is the usual word when you answer the phone.", "examples": [{"word": "hi", "sentence": "Hi, Sam! See you at lunch."}, {"word": "hello", "sentence": "Hello, this is Nour speaking."}]},
+      {"title": "I am vs I'm", "words": ["I am", "I'm"], "explanation_ar": "المعنى واحد. I'm هي الصيغة المختصرة وتُستخدم كثيرًا في الكلام. نستخدم I am للتأكيد أو في الإجابة القصيرة: Yes, I am (ولا نقول Yes, I'm).", "explanation_en": "They mean the same. I'm is the short form and is common in speaking. Use I am for emphasis and in short answers: Yes, I am (not Yes, I'm).", "examples": [{"word": "I'm", "sentence": "I'm Anna. Nice to meet you."}, {"word": "I am", "sentence": "Are you Pete? Yes, I am."}]}
+    ],
+    "expressions": [
+      {"phrase": "Hi! Are you Anna?", "meaning_ar": "مرحبًا! هل أنتِ آنا؟", "meaning_en": "A friendly way to check someone's name.", "example": "Hi! Are you the new teacher?"},
+      {"phrase": "Hi there!", "meaning_ar": "أهلًا بك!", "meaning_en": "A warm, friendly hello.", "example": "Hi there! Can I help you?"},
+      {"phrase": "Nice to meet you.", "meaning_ar": "سُررت بلقائك / تشرّفنا.", "meaning_en": "What you say when you meet someone for the first time.", "example": "I'm Karim. Nice to meet you."},
+      {"phrase": "Let's try that again.", "meaning_ar": "لنجرّب ذلك مرة أخرى.", "meaning_en": "Let us do it one more time.", "example": "That was not right. Let's try that again."},
+      {"phrase": "I'm Pete.", "meaning_ar": "أنا بيت.", "meaning_en": "A simple way to say your name.", "example": "Hello, I'm Lina."},
+      {"phrase": "Is that A-N-A?", "meaning_ar": "هل يُكتب هكذا: A-N-A؟", "meaning_en": "A question to check how a name is spelled.", "example": "Your name is Sami? Is that S-A-M-I?"},
+      {"phrase": "with two n's", "meaning_ar": "بحرفَي n اثنين", "meaning_en": "A way to say a word has the same letter two times.", "example": "Anna is spelled with two n's."},
+      {"phrase": "Welcome to 1400 Irving Street!", "meaning_ar": "مرحبًا بك في ١٤٠٠ شارع إرفينغ!", "meaning_en": "A way to greet someone who arrives at a place.", "example": "Welcome to our home!"},
+      {"phrase": "My new apartment!", "meaning_ar": "شقتي الجديدة!", "meaning_en": "Said with happy surprise about your new home.", "example": "This is my new apartment. Come in!"}
+    ],
+    "grammar": [
+      {"title": "Verb 'be' with I and you", "explanation_ar": "١) مع I نستخدم am: I am Pete.\n٢) مع you نستخدم are: You are Anna.\n٣) الاختصار: I am = I'm، you are = you're.\n٤) للسؤال نضع الفعل أولًا: Are you Anna?\n٥) الإجابة القصيرة: Yes, I am. / No, I'm not.", "explanation_en": "1) With I, use am: I am Pete.\n2) With you, use are: You are Anna.\n3) Short forms: I am = I'm, you are = you're.\n4) For a question, put the verb first: Are you Anna?\n5) Short answers: Yes, I am. / No, I'm not.", "examples": ["I am a teacher.", "You're my new neighbor.", "Are you Ahmad? Yes, I am.", "Are you Sara? No, I'm not. I'm Mona."]},
+      {"title": "Spelling names with the alphabet", "explanation_ar": "١) لكي تتأكد من كتابة الاسم، اسأل: How do you spell that? أو Is that A-N-A?\n٢) نقول الحروف واحدًا واحدًا: A-N-N-A.\n٣) إذا تكرر الحرف نقول: with two n's أو double n.\n٤) أسماء الأشخاص والشوارع تبدأ بحرف كبير: Anna, Irving Street.", "explanation_en": "1) To check how to write a name, ask: How do you spell that? or Is that A-N-A?\n2) Say the letters one by one: A-N-N-A.\n3) If a letter comes two times, say: with two n's or double n.\n4) Names of people and streets start with a capital letter: Anna, Irving Street.", "examples": ["How do you spell your name? M-A-R-Y-A-M.", "Is that Ali with one L? Yes, A-L-I.", "Anna has two n's."]}
+    ]
+  },
+  "questions": [
+    {"question": "Choose the correct word: I ___ Pete.", "choices": ["am", "are", "is", "be"], "answer": 0, "explanation_ar": "مع I نستخدم am.", "explanation_en": "With I, we use am."},
+    {"question": "What do you say when you meet someone for the first time?", "choices": ["See you later.", "Nice to meet you.", "Welcome back.", "Try again."], "answer": 1, "explanation_ar": "Nice to meet you تُقال عند التعارف لأول مرة.", "explanation_en": "Nice to meet you is said when you meet someone for the first time."},
+    {"question": "Choose the correct question.", "choices": ["You are Anna?", "Am you Anna?", "Are you Anna?", "Is you Anna?"], "answer": 2, "explanation_ar": "في السؤال نضع are قبل you: Are you Anna?", "explanation_en": "In a question, are comes before you: Are you Anna?"},
+    {"question": "\"Are you Pete?\" — Choose the correct short answer.", "choices": ["Yes, I'm.", "Yes, you are.", "Yes, I is.", "Yes, I am."], "answer": 3, "explanation_ar": "في الإجابة القصيرة لا نختصر: Yes, I am.", "explanation_en": "We do not use the short form at the end: Yes, I am."},
+    {"question": "What does 'apartment' mean?", "choices": ["شقة", "شارع", "مدينة", "مكتب"], "answer": 0, "explanation_ar": "apartment تعني شقة.", "explanation_en": "An apartment is a home in a big building."},
+    {"question": "How do you spell Anna?", "choices": ["A-N-A", "A-N-N-A", "A-N-A-A", "A-A-N-A"], "answer": 1, "explanation_ar": "Anna تُكتب بحرفَي n: A-N-N-A.", "explanation_en": "Anna has two n's: A-N-N-A."},
+    {"question": "Which is the short form of 'I am'?", "choices": ["Im", "I'am", "I'm", "Am"], "answer": 2, "explanation_ar": "الاختصار الصحيح I'm مع الفاصلة العلوية مكان حرف a.", "explanation_en": "The short form is I'm; the apostrophe takes the place of the letter a."},
+    {"question": "Complete: ___ to 1400 Irving Street!", "choices": ["Hello", "Nice", "Meet", "Welcome"], "answer": 3, "explanation_ar": "Welcome to + المكان = مرحبًا بك في...", "explanation_en": "Welcome to + a place greets someone who arrives."},
+    {"question": "Which greeting is best when you answer the phone?", "choices": ["Hello.", "Nice to meet you.", "Welcome!", "Let's try that again."], "answer": 0, "explanation_ar": "Hello هي الكلمة المعتادة عند الرد على الهاتف.", "explanation_en": "Hello is the usual word when you answer the phone."},
+    {"question": "'Let's try that ___.' (one more time)", "choices": ["new", "again", "nice", "well"], "answer": 1, "explanation_ar": "again تعني مرة أخرى.", "explanation_en": "Again means one more time."}
+  ]
+}

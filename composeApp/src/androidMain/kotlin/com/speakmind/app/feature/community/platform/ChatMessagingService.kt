@@ -37,7 +37,20 @@ class ChatMessagingService : FirebaseMessagingService() {
 
     override fun onMessageReceived(message: RemoteMessage) {
         val data = message.data
+        Napier.i("push received: ${data["kind"]}")
+        // Admins and moderators: someone reported a user.
+        if (data["kind"] == "report") {
+            showReportNotification(this, data["title"].orEmpty(), data["body"].orEmpty())
+            return
+        }
         val roomId = data["room_id"] ?: return
+        // Someone started a Hub voice call (shown even when the Hub is open: it's an invitation).
+        if (data["kind"] == "hub_call") {
+            runCatching {
+                showCallNotification(this, roomId, data["room_title"].orEmpty(), data["call_id"].orEmpty(), data["title"].orEmpty(), data["body"].orEmpty())
+            }.onFailure { Napier.w("call notification failed", it) }
+            return
+        }
         // The chat is already open on screen.
         if (ActiveRoomTracker.activeRoomId.value == roomId) return
         if (data["kind"] == "hub") {
@@ -64,6 +77,12 @@ class ChatMessagingService : FirebaseMessagingService() {
     companion object {
         const val EXTRA_ROOM_ID = "community_room_id"
         const val EXTRA_ROOM_TITLE = "community_room_title"
+        /** Report notification: open the Reports screen. */
+        const val EXTRA_OPEN_REPORTS = "community_open_reports"
+        /** Voice call invitation: the call to check on tap (it may have ended by then). */
+        const val EXTRA_CALL_ID = "community_call_id"
+        private const val CALL_NOTIFICATION_ID = 0x5EA4_0003
+        private const val REPORT_NOTIFICATION_ID = 0x5EA4_0002
         /** Lets MainActivity ignore re-delivered (already handled) notification taps. */
         const val EXTRA_TAP_ID = "community_tap_id"
         private const val CHANNEL_ID = "community_messages"
@@ -100,6 +119,11 @@ class ChatMessagingService : FirebaseMessagingService() {
                 .build()
             createChannels(context)
             (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).notify(HUB_NOTIFICATION_ID, notification)
+        }
+
+        /** The user opened this private chat: its notification is read. */
+        fun clearChatNotification(context: Context, roomId: String) {
+            (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).cancel(roomId.hashCode())
         }
 
         /** The user opened Speaky Hub: remove its notification and start the next one fresh. */
@@ -164,6 +188,62 @@ class ChatMessagingService : FirebaseMessagingService() {
             val manager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
             // One notification per chat; newer messages replace older ones.
             manager.notify(roomId.hashCode(), notification)
+        }
+
+        /** "🎙️ Voice call in Speaky Hub": tap opens the Hub, which joins or says the call ended. */
+        private fun showCallNotification(context: Context, roomId: String, roomTitle: String, callId: String, title: String, body: String) {
+            createChannels(context)
+            val openIntent = Intent(context, Class.forName("com.speakmind.app.MainActivity")).apply {
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+                putExtra(EXTRA_ROOM_ID, roomId)
+                putExtra(EXTRA_ROOM_TITLE, roomTitle)
+                putExtra(EXTRA_CALL_ID, callId)
+                putExtra(EXTRA_TAP_ID, System.currentTimeMillis())
+            }
+            val pendingIntent = PendingIntent.getActivity(
+                context,
+                CALL_NOTIFICATION_ID,
+                openIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+            )
+            val notification = NotificationCompat.Builder(context, HUB_CHANNEL)
+                .setContentTitle(title)
+                .setContentText(body)
+                .setSmallIcon(R.drawable.ic_notification)
+                .setContentIntent(pendingIntent)
+                .setAutoCancel(true)
+                // Gone after 5 minutes: by then a call nobody joined has closed.
+                .setTimeoutAfter(5 * 60 * 1000L)
+                .setCategory(NotificationCompat.CATEGORY_SOCIAL)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .build()
+            (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).notify(CALL_NOTIFICATION_ID, notification)
+        }
+
+        /** "🚩 New report": one notification, replaced by newer reports; tapping it opens Reports. */
+        private fun showReportNotification(context: Context, title: String, body: String) {
+            createChannels(context)
+            val openIntent = Intent(context, Class.forName("com.speakmind.app.MainActivity")).apply {
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+                putExtra(EXTRA_OPEN_REPORTS, true)
+                putExtra(EXTRA_TAP_ID, System.currentTimeMillis())
+            }
+            val pendingIntent = PendingIntent.getActivity(
+                context,
+                REPORT_NOTIFICATION_ID,
+                openIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+            )
+            val notification = NotificationCompat.Builder(context, CHANNEL_ID)
+                .setContentTitle(title)
+                .setContentText(body)
+                .setStyle(NotificationCompat.BigTextStyle().bigText(body))
+                .setSmallIcon(R.drawable.ic_notification)
+                .setContentIntent(pendingIntent)
+                .setAutoCancel(true)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .build()
+            (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).notify(REPORT_NOTIFICATION_ID, notification)
         }
 
         private fun createChannels(context: Context) {

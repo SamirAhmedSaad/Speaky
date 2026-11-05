@@ -1,0 +1,378 @@
+{
+  "title": "Ordering Coffee: Size, Hot or Iced",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "latte",
+        "pos": "noun",
+        "meaning_en": "coffee made with espresso and a lot of hot milk",
+        "meaning_ar": "لاتيه (قهوة بالحليب)",
+        "note_ar": "تُنطق: لا-تيه /ˈlɑːteɪ/",
+        "note_en": "Say: /ˈlɑːteɪ/.",
+        "example": "I would like a latte, please."
+      },
+      {
+        "word": "mocha",
+        "pos": "noun",
+        "meaning_en": "coffee with chocolate and milk",
+        "meaning_ar": "موكا (قهوة بالشوكولاتة)",
+        "note_ar": "تُنطق: مو-كا /ˈmɒkə/",
+        "note_en": "Say: /ˈmɒkə/.",
+        "example": "She ordered a hot mocha."
+      },
+      {
+        "word": "small",
+        "pos": "adjective",
+        "meaning_en": "little in size",
+        "meaning_ar": "صغير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A small tea, please."
+      },
+      {
+        "word": "medium",
+        "pos": "adjective",
+        "meaning_en": "the middle size",
+        "meaning_ar": "متوسط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Medium, please."
+      },
+      {
+        "word": "large",
+        "pos": "adjective",
+        "meaning_en": "big in size",
+        "meaning_ar": "كبير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want a large orange juice."
+      },
+      {
+        "word": "hot",
+        "pos": "adjective",
+        "meaning_en": "very warm",
+        "meaning_ar": "ساخن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hot, please."
+      },
+      {
+        "word": "iced",
+        "pos": "adjective",
+        "meaning_en": "made cold with ice",
+        "meaning_ar": "مثلَّج / بارد بالثلج",
+        "note_ar": "تُنطق: آيسْت /aɪst/",
+        "note_en": "Say: /aɪst/.",
+        "example": "I like iced coffee in summer."
+      },
+      {
+        "word": "cream",
+        "pos": "noun",
+        "meaning_en": "the thick white part of milk",
+        "meaning_ar": "قشطة / كريمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Would you like cream with that?"
+      },
+      {
+        "word": "size",
+        "pos": "noun",
+        "meaning_en": "how big or small something is",
+        "meaning_ar": "حجم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What size do you want?"
+      },
+      {
+        "word": "order",
+        "pos": "noun",
+        "meaning_en": "what you ask to buy in a café",
+        "meaning_ar": "طلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your order will be ready soon."
+      },
+      {
+        "word": "pay",
+        "pos": "verb",
+        "meaning_en": "give money for something",
+        "meaning_ar": "يدفع",
+        "note_ar": "الماضي: paid",
+        "note_en": "Past: paid.",
+        "example": "I will pay with card."
+      },
+      {
+        "word": "card",
+        "pos": "noun",
+        "meaning_en": "a bank card for paying",
+        "meaning_ar": "بطاقة بنكية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I pay by card?"
+      },
+      {
+        "word": "got it",
+        "pos": "phrase",
+        "meaning_en": "I understand",
+        "meaning_ar": "فهمت / حسنًا",
+        "note_ar": "عبارة غير رسمية",
+        "note_en": "Informal.",
+        "example": "\"To go, please.\" \"Got it!\""
+      },
+      {
+        "word": "here you go",
+        "pos": "phrase",
+        "meaning_en": "said when you give something to someone",
+        "meaning_ar": "تفضل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here you go. Your coffee."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "hot vs iced",
+        "words": [
+          "hot",
+          "iced"
+        ],
+        "explanation_ar": "hot يعني ساخن، وiced يعني بارد بالثلج. نسأل: Would you like it hot or iced?",
+        "explanation_en": "\"Hot\" means very warm. \"Iced\" means cold with ice.",
+        "examples": [
+          {
+            "word": "hot",
+            "sentence": "A hot tea, please."
+          },
+          {
+            "word": "iced",
+            "sentence": "An iced latte, please."
+          }
+        ]
+      },
+      {
+        "title": "small, medium, large",
+        "words": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "explanation_ar": "ثلاثة أحجام للمشروبات: small صغير، medium متوسط، large كبير.",
+        "explanation_en": "Three drink sizes: small, medium and large.",
+        "examples": [
+          {
+            "word": "small",
+            "sentence": "A small water, please."
+          },
+          {
+            "word": "medium",
+            "sentence": "A medium latte, please."
+          },
+          {
+            "word": "large",
+            "sentence": "A large juice, please."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Welcome to Coffee Corner.",
+        "meaning_ar": "مرحبًا بك في مقهى كوفي كورنر.",
+        "meaning_en": "The worker greets the customer.",
+        "example": "Welcome to our shop."
+      },
+      {
+        "phrase": "What would you like?",
+        "meaning_ar": "ماذا تريد؟",
+        "meaning_en": "The worker asks what you want to order.",
+        "example": "What would you like to drink?"
+      },
+      {
+        "phrase": "What can I get for you?",
+        "meaning_ar": "ماذا أحضر لك؟",
+        "meaning_en": "Another way to ask for your order.",
+        "example": "Hi! What can I get for you today?"
+      },
+      {
+        "phrase": "I would like a latte, please.",
+        "meaning_ar": "أريد لاتيه من فضلك.",
+        "meaning_en": "A polite way to order.",
+        "example": "I would like a medium hot mocha, please."
+      },
+      {
+        "phrase": "What size do you want?",
+        "meaning_ar": "أي حجم تريد؟",
+        "meaning_en": "The worker asks about size.",
+        "example": "What size do you want? Large, please."
+      },
+      {
+        "phrase": "Would you like it hot or iced?",
+        "meaning_ar": "هل تريده ساخنًا أم مثلجًا؟",
+        "meaning_en": "The worker asks about the temperature.",
+        "example": "Would you like it hot or iced? Iced, please."
+      },
+      {
+        "phrase": "Is it for here or to go?",
+        "meaning_ar": "هل هو هنا أم سفري؟",
+        "meaning_en": "Will you stay or take it out?",
+        "example": "Is it for here or to go? To go, please."
+      },
+      {
+        "phrase": "Would you like cream with that?",
+        "meaning_ar": "هل تريد كريمة معه؟",
+        "meaning_en": "The worker offers something extra.",
+        "example": "Would you like sugar with that?"
+      },
+      {
+        "phrase": "Your order will be ready soon.",
+        "meaning_ar": "طلبك سيكون جاهزًا قريبًا.",
+        "meaning_en": "Please wait a little.",
+        "example": "Your coffee will be ready soon."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I would like = I want (polite)",
+        "explanation_ar": "I would like تعني أريد لكنها أكثر أدبًا من I want. نستخدمها عند الطلب في المقهى والمطعم. الاختصار: I'd like.",
+        "explanation_en": "\"I would like\" means \"I want\", but it is more polite. Short form: \"I'd like\".",
+        "examples": [
+          "I would like a latte, please.",
+          "I'd like a small tea.",
+          "I would like cream, please."
+        ]
+      },
+      {
+        "title": "Short answers when ordering",
+        "explanation_ar": "عند الإجابة عن سؤال البائع يمكن أن نقول كلمة واحدة مع please: Medium, please. / Hot, please. / To go, please.",
+        "explanation_en": "You can answer the worker with one word plus \"please\".",
+        "examples": [
+          "Medium, please.",
+          "Hot, please.",
+          "For here, please."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"Would you like it hot or iced?\" Which answer is correct?",
+      "choices": [
+        "Medium, please.",
+        "Iced, please.",
+        "To go, please.",
+        "By card."
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال عن ساخن أو مثلج، والإجابة: Iced, please.",
+      "explanation_en": "The question is about hot or iced."
+    },
+    {
+      "question": "Which is the most polite?",
+      "choices": [
+        "I want a latte.",
+        "Give me a latte.",
+        "Latte now.",
+        "I would like a latte, please."
+      ],
+      "answer": 3,
+      "explanation_ar": "I would like ... please مهذبة جدًا.",
+      "explanation_en": "\"I would like ..., please\" is very polite."
+    },
+    {
+      "question": "What is a mocha?",
+      "choices": [
+        "coffee with chocolate",
+        "a kind of cake",
+        "cold water",
+        "a cup size"
+      ],
+      "answer": 0,
+      "explanation_ar": "الموكا قهوة بالشوكولاتة والحليب.",
+      "explanation_en": "A mocha is coffee with chocolate and milk."
+    },
+    {
+      "question": "What size do you want? Small, medium, or ____?",
+      "choices": [
+        "big size",
+        "long",
+        "large",
+        "tall"
+      ],
+      "answer": 2,
+      "explanation_ar": "الأحجام: small, medium, large.",
+      "explanation_en": "The sizes are small, medium and large."
+    },
+    {
+      "question": "\"Got it!\" means ...",
+      "choices": [
+        "I understand.",
+        "I have it in my bag.",
+        "I don't know.",
+        "Goodbye."
+      ],
+      "answer": 0,
+      "explanation_ar": "Got it تعني فهمت.",
+      "explanation_en": "\"Got it\" means \"I understand\"."
+    },
+    {
+      "question": "\"Is it for here or to go?\" \"____\"",
+      "choices": [
+        "Hot, please.",
+        "To go, please.",
+        "Medium, please.",
+        "Cream, please."
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال عن المكان، والإجابة To go أو For here.",
+      "explanation_en": "The answer is \"to go\" or \"for here\"."
+    },
+    {
+      "question": "Would you like cream ____ that?",
+      "choices": [
+        "on",
+        "at",
+        "with",
+        "for"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول with that أي معه.",
+      "explanation_en": "We say \"with that\"."
+    },
+    {
+      "question": "I will pay ____ card, please.",
+      "choices": [
+        "with",
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول pay with card.",
+      "explanation_en": "We say \"pay with card\"."
+    },
+    {
+      "question": "What does \"iced\" mean?",
+      "choices": [
+        "very hot",
+        "with sugar",
+        "with milk",
+        "cold, with ice"
+      ],
+      "answer": 3,
+      "explanation_ar": "iced تعني بارد بالثلج.",
+      "explanation_en": "\"Iced\" means cold, with ice."
+    },
+    {
+      "question": "The worker says: \"Here you go.\" He is ...",
+      "choices": [
+        "asking a question",
+        "giving you something",
+        "saying goodbye",
+        "saying sorry"
+      ],
+      "answer": 1,
+      "explanation_ar": "Here you go تقال عند إعطاء شيء.",
+      "explanation_en": "We say \"Here you go\" when we give something."
+    }
+  ]
+}

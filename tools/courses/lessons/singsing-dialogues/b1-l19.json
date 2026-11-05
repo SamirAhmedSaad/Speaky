@@ -1,0 +1,266 @@
+{
+  "title": "What's wrong?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "wrong",
+        "pos": "adjective",
+        "meaning_en": "not good, there is a problem",
+        "meaning_ar": "خطأ / غير سليم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's wrong?"
+      },
+      {
+        "word": "hurt",
+        "pos": "verb",
+        "meaning_en": "feel pain",
+        "meaning_ar": "يؤلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My leg hurts."
+      },
+      {
+        "word": "toe",
+        "pos": "noun",
+        "meaning_en": "one of the five parts at the end of your foot",
+        "meaning_ar": "إصبع القدم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My toe hurts."
+      },
+      {
+        "word": "leg",
+        "pos": "noun",
+        "meaning_en": "the part of the body you walk with",
+        "meaning_ar": "ساق / رِجل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My leg hurts."
+      },
+      {
+        "word": "finger",
+        "pos": "noun",
+        "meaning_en": "one of the five parts at the end of your hand",
+        "meaning_ar": "إصبع اليد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My finger hurts."
+      },
+      {
+        "word": "ouch",
+        "pos": "interjection",
+        "meaning_en": "said when something hurts",
+        "meaning_ar": "آه! (عند الألم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ouch! My toe!"
+      },
+      {
+        "word": "too bad",
+        "pos": "phrase",
+        "meaning_en": "said when you are sorry about someone's problem",
+        "meaning_ar": "يا للأسف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My leg hurts. - That's too bad."
+      },
+      {
+        "word": "oops",
+        "pos": "interjection",
+        "meaning_en": "said after a small mistake",
+        "meaning_ar": "أوه! (عند خطأ صغير)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Oops, sorry."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "toe vs finger",
+        "words": [
+          "toe",
+          "finger"
+        ],
+        "explanation_ar": "toe إصبع القدم، و finger إصبع اليد.",
+        "explanation_en": "A toe is on your foot. A finger is on your hand.",
+        "examples": [
+          {
+            "word": "toe",
+            "sentence": "I have ten toes."
+          },
+          {
+            "word": "finger",
+            "sentence": "I write with my fingers."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What's wrong?",
+        "meaning_ar": "ما بك؟ / ما المشكلة؟",
+        "meaning_en": "Asking about someone's problem.",
+        "example": "You look sad. What's wrong?"
+      },
+      {
+        "phrase": "My toe hurts.",
+        "meaning_ar": "إصبع قدمي يؤلمني.",
+        "meaning_en": "Saying where you feel pain.",
+        "example": "What's wrong? - My toe hurts."
+      },
+      {
+        "phrase": "My leg hurts.",
+        "meaning_ar": "ساقي تؤلمني.",
+        "meaning_en": "Saying your leg has pain.",
+        "example": "I can't play. My leg hurts."
+      },
+      {
+        "phrase": "That's too bad.",
+        "meaning_ar": "يا للأسف.",
+        "meaning_en": "Showing you are sorry for someone.",
+        "example": "My finger hurts. - That's too bad."
+      },
+      {
+        "phrase": "Sorry, I can't.",
+        "meaning_ar": "آسف، لا أستطيع.",
+        "meaning_en": "Saying no politely.",
+        "example": "Let's play baseball. - Sorry, I can't."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Talking about pain: My ... hurts.",
+        "explanation_ar": "نقول My + جزء الجسم + hurts. نضيف s للفعل hurt لأن الفاعل مفرد (my toe = it).",
+        "explanation_en": "Say: My + body part + hurts. Add -s because \"my toe\" is one thing (it).",
+        "examples": [
+          "My toe hurts.",
+          "My leg hurts.",
+          "My finger hurts."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What's wrong? - ___",
+      "choices": [
+        "My leg hurts.",
+        "It's nine o'clock.",
+        "I'm seven.",
+        "It's a dog."
+      ],
+      "answer": 0,
+      "explanation_ar": "What's wrong? سؤال عن المشكلة.",
+      "explanation_en": "\"What's wrong?\" asks about a problem."
+    },
+    {
+      "question": "My finger ___.",
+      "choices": [
+        "hurt",
+        "hurts",
+        "hurting",
+        "is hurt it"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع المفرد نضيف s: hurts.",
+      "explanation_en": "With one thing, add -s: hurts."
+    },
+    {
+      "question": "A ___ is on your foot.",
+      "choices": [
+        "finger",
+        "hand",
+        "toe",
+        "nose"
+      ],
+      "answer": 2,
+      "explanation_ar": "إصبع القدم = toe.",
+      "explanation_en": "A toe is on your foot."
+    },
+    {
+      "question": "A ___ is on your hand.",
+      "choices": [
+        "toe",
+        "leg",
+        "foot",
+        "finger"
+      ],
+      "answer": 3,
+      "explanation_ar": "إصبع اليد = finger.",
+      "explanation_en": "A finger is on your hand."
+    },
+    {
+      "question": "My leg hurts. - ___",
+      "choices": [
+        "That's too bad.",
+        "Great!",
+        "Me too, I like it.",
+        "Let's play."
+      ],
+      "answer": 0,
+      "explanation_ar": "نعبّر عن التعاطف بـ That's too bad.",
+      "explanation_en": "Say \"That's too bad\" to show you are sorry."
+    },
+    {
+      "question": "Something hurts suddenly. You say: ___",
+      "choices": [
+        "Wow!",
+        "Ouch!",
+        "Thanks!",
+        "Hi!"
+      ],
+      "answer": 1,
+      "explanation_ar": "عند الألم نقول Ouch!",
+      "explanation_en": "Say \"Ouch!\" when it hurts."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "My toe hurt.",
+        "My toe hurts.",
+        "My toe hurting.",
+        "Me toe hurts."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح My toe hurts.",
+      "explanation_en": "Correct: My toe hurts."
+    },
+    {
+      "question": "\"leg\" in Arabic is ___.",
+      "choices": [
+        "يد",
+        "رأس",
+        "ساق",
+        "إصبع"
+      ],
+      "answer": 2,
+      "explanation_ar": "leg = ساق.",
+      "explanation_en": "We walk with our legs."
+    },
+    {
+      "question": "\"What's wrong?\" means ___.",
+      "choices": [
+        "What time is it?",
+        "What's the problem?",
+        "What's your name?",
+        "Where are you?"
+      ],
+      "answer": 1,
+      "explanation_ar": "What's wrong = ما المشكلة؟",
+      "explanation_en": "What's wrong = What's the problem?"
+    },
+    {
+      "question": "You step on your friend's foot. You say: ___",
+      "choices": [
+        "Oops, sorry.",
+        "That's too bad.",
+        "Let's go.",
+        "Here you are."
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد خطأ صغير نقول Oops, sorry.",
+      "explanation_en": "Say \"Oops, sorry.\""
+    }
+  ]
+}

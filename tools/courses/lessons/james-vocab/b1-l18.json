@@ -1,0 +1,44 @@
+{
+  "title": "Remember, Recall, Remind",
+  "content": {
+    "vocabulary": [
+      {"word": "memory", "pos": "noun", "meaning_en": "the ability to keep things in your mind; something you remember", "meaning_ar": "ذاكرة / ذكرى", "note_ar": "الجمع: memories", "note_en": "Plural: memories.", "example": "I have happy memories of my school."},
+      {"word": "re-", "pos": "prefix", "meaning_en": "back or again (return, repair, redo)", "meaning_ar": "بادئة بمعنى مرة أخرى أو عودة", "note_ar": "", "note_en": "", "example": "Redo means do again."},
+      {"word": "recall", "pos": "verb", "meaning_en": "to actively search your memory for stored information", "meaning_ar": "يستحضر / يسترجع من الذاكرة", "note_ar": "أنت من يبحث بنشاط في ذاكرتك", "note_en": "You actively search your memory.", "example": "Do you recall where I left the file?"},
+      {"word": "remind", "pos": "verb", "meaning_en": "(something or someone outside) to make you remember", "meaning_ar": "يذكّر", "note_ar": "remind someone of / about / to", "note_en": "remind someone of / about something; remind someone to do", "example": "This photo reminds me of my childhood."},
+      {"word": "remember", "pos": "verb", "meaning_en": "to have something in your memory, ready to use", "meaning_ar": "يتذكّر", "note_ar": "", "note_en": "", "example": "I remember my first teacher's name."},
+      {"word": "remember to", "pos": "phrase", "meaning_en": "to not forget to do something you need or promised to do", "meaning_ar": "لا تنسَ أن تفعل", "note_ar": "remember + to + فعل = تذكّر أن تفعل (واجب)", "note_en": "remember + to + verb = an action you must do", "example": "Remember to close the door before you leave."},
+      {"word": "obligation", "pos": "noun", "meaning_en": "something you must do", "meaning_ar": "واجب / التزام", "note_ar": "", "note_en": "", "example": "Paying taxes is an obligation."},
+      {"word": "in common", "pos": "phrase", "meaning_en": "shared by two or more people or things", "meaning_ar": "مشترك", "note_ar": "", "note_en": "", "example": "These three words have something in common."},
+      {"word": "stored", "pos": "adjective", "meaning_en": "kept and saved for later", "meaning_ar": "مخزَّن", "note_ar": "", "note_en": "", "example": "Old photos are stored in the box."}
+    ],
+    "fine_lines": [
+      {"title": "recall vs remind vs remember", "words": ["recall", "remind", "remember"], "explanation_ar": "recall: أنت تبحث بجهد في ذاكرتك عن معلومة قديمة. remind: شيء أو شخص من الخارج يُعيد الذكرى إلى ذهنك. remember: المعلومة جاهزة في ذاكرتك دون جهد.", "explanation_en": "Recall: you actively search your memory. Remind: something outside brings the memory back. Remember: the memory is already there, ready to use.", "examples": [{"word": "recall", "sentence": "I'm trying to recall his phone number."}, {"word": "remind", "sentence": "Please remind me to buy bread."}, {"word": "remember", "sentence": "I remember your birthday."}]},
+      {"title": "remember vs remember to", "words": ["remember", "remember to"], "explanation_ar": "remember وحدها تعني الذاكرة فقط. remember to + فعل تعني لا تنسَ أن تقوم بعمل واجب.", "explanation_en": "\"Remember\" alone is about memory. \"Remember to + verb\" means don't forget to do something you must do.", "examples": [{"word": "remember", "sentence": "I remember that day very well."}, {"word": "remember to", "sentence": "Remember to call your mother."}]},
+      {"title": "remind vs remember", "words": ["remind", "remember"], "explanation_ar": "لا تقل Remember me to call (بمعنى ذكّرني). الصحيح: Remind me to call. فـ remind يحتاج شخصًا يُذكَّر.", "explanation_en": "Don't say \"Remember me to call\". Say \"Remind me to call\". Remind needs a person: remind someone.", "examples": [{"word": "remind", "sentence": "Can you remind me to send the email?"}, {"word": "remember", "sentence": "I'll remember to send the email."}]}
+    ],
+    "expressions": [
+      {"phrase": "Do you recall...?", "meaning_ar": "هل تتذكّر...؟ (فكّر جيدًا)", "meaning_en": "Please search your memory.", "example": "Do you recall what time he arrived?"},
+      {"phrase": "I don't recall.", "meaning_ar": "لا أذكر.", "meaning_en": "I'm searching, but nothing comes.", "example": "I don't recall meeting him."},
+      {"phrase": "It reminds me of...", "meaning_ar": "إنه يذكّرني بـ...", "meaning_en": "It brings back a memory of...", "example": "This smell reminds me of my grandmother's kitchen."},
+      {"phrase": "Remind me to...", "meaning_ar": "ذكّرني أن...", "meaning_en": "Help me not forget to...", "example": "Remind me to buy milk."},
+      {"phrase": "Need I remind you...?", "meaning_ar": "هل أحتاج أن أذكّرك...؟", "meaning_en": "You should already remember this.", "example": "Need I remind you that the test is tomorrow?"},
+      {"phrase": "This isn't my first rodeo.", "meaning_ar": "لست مبتدئًا في هذا.", "meaning_en": "I have experience with this.", "example": "Don't worry, I can do it. This isn't my first rodeo."}
+    ],
+    "grammar": [
+      {"title": "remind + person + of / about / to", "explanation_ar": "remind يحتاج مفعولًا (شخصًا): remind someone of something (يذكّره بشيء يشبهه)، remind someone about something (يذكّره بأمر يجب ألا ينساه)، remind someone to do something (يذكّره أن يفعل).", "explanation_en": "Remind needs a person: remind someone of something (it brings back a memory), remind someone about something (a thing not to forget), remind someone to do something.", "examples": ["You remind me of my brother.", "Please remind me about the meeting.", "She reminded me to lock the door."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"This photo ___ me of my childhood.\"", "choices": ["reminds", "remembers", "recalls", "remember"], "answer": 0, "explanation_ar": "remind someone of = يذكّر شخصًا بـ.", "explanation_en": "Remind someone of something."},
+    {"question": "Which word means you ACTIVELY search your memory?", "choices": ["remind", "recall", "remember to", "memory"], "answer": 1, "explanation_ar": "recall = تبحث بجهد في ذاكرتك.", "explanation_en": "Recall = actively search your memory."},
+    {"question": "\"___ to close the door before you leave.\"", "choices": ["Remind", "Recall", "Remember", "Memory"], "answer": 2, "explanation_ar": "Remember to + فعل = لا تنسَ أن تفعل.", "explanation_en": "Remember to + verb = don't forget to do."},
+    {"question": "\"Can you ___ me to buy bread?\"", "choices": ["remember", "recall", "memory", "remind"], "answer": 3, "explanation_ar": "نقول remind someone to do something أي يذكّر شخصًا أن يفعل شيئًا.","explanation_en": "Remind someone to do something."},
+    {"question": "What does the prefix \"re-\" mean?", "choices": ["back or again", "not", "before", "very"], "answer": 0, "explanation_ar": "re- = عودة أو مرة أخرى.", "explanation_en": "Re- = back or again."},
+    {"question": "Which is correct?", "choices": ["Remember me to call him.", "Remind me to call him.", "Recall me to call him.", "Remind to me call him."], "answer": 1, "explanation_ar": "الصحيح Remind me to call him.", "explanation_en": "Correct: Remind me to call him."},
+    {"question": "In court: \"Do you ___ the night of July 17th?\"", "choices": ["remind", "remember to", "recall", "obligation"], "answer": 2, "explanation_ar": "recall شائعة في المحاكم للبحث في الذاكرة.", "explanation_en": "Recall is common in court."},
+    {"question": "Your own name is always ready in your memory. You ___ it.", "choices": ["remind", "recall", "remember to", "remember"], "answer": 3, "explanation_ar": "remember = المعلومة جاهزة دون جهد.", "explanation_en": "Remember = ready to use, no effort."},
+    {"question": "\"Remember to\" adds the idea of ___.", "choices": ["an obligation or action", "a photo", "a question", "the past"], "answer": 0, "explanation_ar": "remember to تعني واجبًا يجب فعله.", "explanation_en": "It adds something you must do."},
+    {"question": "What usually reminds you?", "choices": ["only your own effort", "something or someone outside you", "nothing", "a homophone"], "answer": 1, "explanation_ar": "remind يأتي من شيء خارجي.", "explanation_en": "Something outside reminds you."}
+  ]
+}

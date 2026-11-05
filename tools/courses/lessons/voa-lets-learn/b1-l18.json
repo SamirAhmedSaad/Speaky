@@ -1,0 +1,68 @@
+{
+  "title": "She Always Does That",
+  "content": {
+    "vocabulary": [
+      {"word": "news", "pos": "noun", "meaning_en": "information about things that are happening now", "meaning_ar": "الأخبار", "note_ar": "news اسم مفرد غير معدود رغم حرف s: The news is good", "note_en": "News is uncountable and takes a singular verb: The news is good.", "example": "I watch the news every evening."},
+      {"word": "nervous", "pos": "adjective", "meaning_en": "a little afraid or worried", "meaning_ar": "متوتر / قلق", "note_ar": "", "note_en": "", "example": "I'm nervous before my exam."},
+      {"word": "boss", "pos": "noun", "meaning_en": "the person who is in charge of you at work", "meaning_ar": "المدير / الرئيس في العمل", "note_ar": "", "note_en": "", "example": "My boss helps me at work."},
+      {"word": "fact", "pos": "noun", "meaning_en": "something that is true", "meaning_ar": "حقيقة / معلومة صحيحة", "note_ar": "", "note_en": "", "example": "It is a fact that water boils at 100 degrees."},
+      {"word": "feeling", "pos": "noun", "meaning_en": "an emotion, like happy, sad or angry", "meaning_ar": "شعور / إحساس", "note_ar": "الفعل: feel", "note_en": "Verb: feel.", "example": "Happy and sad are feelings."},
+      {"word": "show", "pos": "verb", "meaning_en": "to let people see something", "meaning_ar": "يُظهر / يُري", "note_ar": "show لها معنى آخر كاسم: برنامج", "note_en": "As a noun, show means a TV or radio program.", "example": "Don't show your feelings when you read the news."},
+      {"word": "ready", "pos": "adjective", "meaning_en": "prepared to start", "meaning_ar": "جاهز / مستعد", "note_ar": "", "note_en": "", "example": "Are you ready? Let's start."},
+      {"word": "story", "pos": "noun", "meaning_en": "a report in the news, or a tale about events", "meaning_ar": "قصة / خبر", "note_ar": "الجمع: stories", "note_en": "Plural: stories.", "example": "Let's read the first story."},
+      {"word": "popular", "pos": "adjective", "meaning_en": "liked by many people", "meaning_ar": "مشهور / محبوب لدى كثيرين", "note_ar": "", "note_en": "", "example": "This book is very popular with children."},
+      {"word": "duckling", "pos": "noun", "meaning_en": "a baby duck", "meaning_ar": "فرخ البط / بطّة صغيرة", "note_ar": "", "note_en": "", "example": "The duckling is looking for its mother."},
+      {"word": "lost", "pos": "adjective", "meaning_en": "not able to find the way; missing", "meaning_ar": "تائه / ضائع", "note_ar": "", "note_en": "", "example": "The little boy is lost in the market."},
+      {"word": "sad", "pos": "adjective", "meaning_en": "not happy", "meaning_ar": "حزين", "note_ar": "", "note_en": "", "example": "This story is very sad."},
+      {"word": "happy", "pos": "adjective", "meaning_en": "feeling good and pleased", "meaning_ar": "سعيد", "note_ar": "", "note_en": "", "example": "I am very happy for her."},
+      {"word": "angry", "pos": "adjective", "meaning_en": "feeling strong and bad about something wrong", "meaning_ar": "غاضب", "note_ar": "", "note_en": "", "example": "That makes me very angry."},
+      {"word": "win", "pos": "verb", "meaning_en": "to be first in a race or game", "meaning_ar": "يفوز", "note_ar": "الماضي: won", "note_en": "Past: won.", "example": "She wins the race."},
+      {"word": "race", "pos": "noun", "meaning_en": "a competition to see who is fastest", "meaning_ar": "سباق", "note_ar": "", "note_en": "", "example": "A grandmother wins the car race."},
+      {"word": "reporter", "pos": "noun", "meaning_en": "a person who gathers and tells the news", "meaning_ar": "مراسل صحفي", "note_ar": "", "note_en": "", "example": "She rarely talks to reporters."},
+      {"word": "rarely", "pos": "adverb", "meaning_en": "not often; almost never", "meaning_ar": "نادرًا", "note_ar": "", "note_en": "", "example": "She rarely talks to reporters."},
+      {"word": "often", "pos": "adverb", "meaning_en": "many times", "meaning_ar": "غالبًا / كثيرًا", "note_ar": "حرف t غالبًا صامت: /ˈɔːfən/", "note_en": "The t is often silent: /ˈɔːfən/.", "example": "She often says, 'Nothing can stop me now!'"},
+      {"word": "first", "pos": "adjective", "meaning_en": "number one in order", "meaning_ar": "الأول", "note_ar": "", "note_en": "", "example": "Let's try the first story."},
+      {"word": "second", "pos": "adjective", "meaning_en": "number two in order", "meaning_ar": "الثاني", "note_ar": "", "note_en": "", "example": "She's reading the second story."},
+      {"word": "third", "pos": "adjective", "meaning_en": "number three in order", "meaning_ar": "الثالث", "note_ar": "", "note_en": "", "example": "Let's try the third story."},
+      {"word": "politician", "pos": "noun", "meaning_en": "a person who works in government", "meaning_ar": "سياسي", "note_ar": "", "note_en": "", "example": "City politicians are using city money."},
+      {"word": "library", "pos": "noun", "meaning_en": "a place where you can borrow books", "meaning_ar": "مكتبة عامة", "note_ar": "لا تخلطها مع bookstore (محل بيع الكتب)", "note_en": "Not a bookstore: you borrow books, you do not buy them.", "example": "The money is from the children's library."},
+      {"word": "cruise ship", "pos": "noun", "meaning_en": "a big ship that people travel on for a holiday", "meaning_ar": "سفينة سياحية", "note_ar": "", "note_en": "", "example": "The cruise ship is very big."},
+      {"word": "repeat", "pos": "verb", "meaning_en": "to do or say something again", "meaning_ar": "يُكرّر / يُعيد", "note_ar": "", "note_en": "", "example": "Let's repeat the first story."},
+      {"word": "desk", "pos": "noun", "meaning_en": "a table where you work or study", "meaning_ar": "مكتب (طاولة)", "note_ar": "", "note_en": "", "example": "Put your books on the desk."}
+    ],
+    "fine_lines": [
+      {"title": "fact vs feeling", "words": ["fact", "feeling"], "explanation_ar": "fact شيء صحيح يمكن إثباته (امرأة عمرها 80 فازت بالسباق). feeling شيء نحسّه في داخلنا (أنا سعيد، أنا غاضب). قارئ الأخبار يقول الحقائق فقط.", "explanation_en": "A fact is something true (an 80-year-old woman wins the race). A feeling is what you feel inside (I'm happy, I'm angry). A news reader gives only facts.", "examples": [{"word": "fact", "sentence": "The book is popular with children."}, {"word": "feeling", "sentence": "I am very happy for her."}, {"word": "feeling", "sentence": "That makes me angry."}]},
+      {"title": "often vs rarely", "words": ["often", "rarely"], "explanation_ar": "often = مرات كثيرة. rarely = مرات قليلة جدًا (تقريبًا أبدًا). كلاهما قبل الفعل العادي.", "explanation_en": "Often means many times. Rarely means very few times (almost never). Both go before the main verb.", "examples": [{"word": "often", "sentence": "She often visits her grandmother."}, {"word": "rarely", "sentence": "He rarely eats fast food."}]}
+    ],
+    "expressions": [
+      {"phrase": "Sure thing.", "meaning_ar": "بالتأكيد / حاضر.", "meaning_en": "An informal way to say 'yes, of course'.", "example": "Can you help me? - Sure thing."},
+      {"phrase": "Are you ready?", "meaning_ar": "هل أنت جاهز؟", "meaning_en": "Asking if someone can start now.", "example": "Are you ready? Let's begin."},
+      {"phrase": "Hello, and welcome to The News.", "meaning_ar": "مرحبًا، وأهلًا بكم في نشرة الأخبار.", "meaning_en": "A way to start a news program.", "example": "Hello, and welcome to the morning show."},
+      {"phrase": "Let me try again.", "meaning_ar": "دعني أحاول مرة أخرى.", "meaning_en": "I want another chance.", "example": "Sorry, that's wrong. Let me try again."},
+      {"phrase": "You are doing it again.", "meaning_ar": "أنت تفعل ذلك مرة أخرى.", "meaning_en": "You are making the same mistake again.", "example": "Stop! You are doing it again."},
+      {"phrase": "I have an idea.", "meaning_ar": "لديّ فكرة.", "meaning_en": "I am thinking of a good plan.", "example": "I have an idea. Let's go to the park."},
+      {"phrase": "Just the facts.", "meaning_ar": "الحقائق فقط.", "meaning_en": "Tell only the true information, no feelings.", "example": "Don't tell me what you think. Just the facts."},
+      {"phrase": "I'm very happy for her.", "meaning_ar": "أنا سعيد جدًا من أجلها.", "meaning_en": "Her good news makes me happy.", "example": "My friend passed her exam. I'm very happy for her."},
+      {"phrase": "That makes me very angry.", "meaning_ar": "هذا يجعلني غاضبًا جدًا.", "meaning_en": "This causes me to feel angry.", "example": "People throw trash in the park. That makes me very angry."},
+      {"phrase": "Okay. I got it.", "meaning_ar": "حسنًا، فهمت.", "meaning_en": "I understand now.", "example": "Turn left at the bank. - Okay. I got it."},
+      {"phrase": "Now you've got it!", "meaning_ar": "الآن فهمتها! / الآن أصبت!", "meaning_en": "Now you are doing it right.", "example": "Yes, that's the right answer. Now you've got it!"}
+    ],
+    "grammar": [
+      {"title": "Adverbs of frequency: always, often, rarely, never", "explanation_ar": "1) ترتيبها من الأكثر للأقل: always (دائمًا) ← often (غالبًا) ← sometimes (أحيانًا) ← rarely (نادرًا) ← never (أبدًا). 2) تأتي قبل الفعل العادي: She rarely talks to reporters. 3) وبعد فعل be: She is often late.", "explanation_en": "1) From most to least: always, often, sometimes, rarely, never. 2) They go before a main verb: She rarely talks to reporters. 3) They go after be: She is often late.", "examples": ["We never show our feelings.", "She often says, 'Nothing can stop me now!'", "He rarely watches TV.", "Anna is always happy."]},
+      {"title": "Simple present with he/she/it: add -s", "explanation_ar": "في المضارع البسيط مع he و she و it نضيف s للفعل: she talks, she says, he wins. ومع do نقول does: She always does that. وبعض الأفعال نضيف لها es: watch → watches، go → goes.", "explanation_en": "In the simple present, add -s to the verb with he, she and it: she talks, she says, he wins. Do becomes does: She always does that. Some verbs add -es: watch → watches, go → goes.", "examples": ["She always does that.", "A grandmother wins the race.", "He watches the news every night.", "The duckling looks for its mother."]},
+      {"title": "Ordinal numbers: first, second, third", "explanation_ar": "الأعداد الترتيبية تقول الترتيب: first (الأول)، second (الثاني)، third (الثالث)، ثم نضيف th: fourth, fifth. ونضع قبلها the غالبًا: the first story.", "explanation_en": "Ordinal numbers show order: first, second, third, then add -th: fourth, fifth. We usually use the before them: the first story.", "examples": ["Let's try the first story.", "She's reading the second story.", "This is the third time I'm trying."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which one is a feeling?", "choices": ["A book is popular.", "She wins the race.", "I am angry.", "She is 80 years old."], "answer": 2, "explanation_ar": "angry (غاضب) شعور، والباقي حقائق.", "explanation_en": "Angry is a feeling; the others are facts."},
+    {"question": "She ___ talks to reporters. (almost never)", "choices": ["often", "always", "sometimes", "rarely"], "answer": 3, "explanation_ar": "rarely تعني نادرًا، تقريبًا أبدًا.", "explanation_en": "Rarely means almost never."},
+    {"question": "She always ___ that.", "choices": ["does", "do", "doing", "to do"], "answer": 0, "explanation_ar": "مع she نستخدم does في المضارع البسيط.", "explanation_en": "With she, do becomes does."},
+    {"question": "Choose the correct sentence.", "choices": ["We show never our feelings.", "We never show our feelings.", "Never we shows our feelings.", "We never shows our feelings."], "answer": 1, "explanation_ar": "never قبل الفعل، ومع we لا نضيف s.", "explanation_en": "Never goes before the verb; with we, no -s."},
+    {"question": "A baby duck is a ___.", "choices": ["duck", "puppy", "duckling", "reporter"], "answer": 2, "explanation_ar": "duckling هو فرخ البط.", "explanation_en": "A duckling is a baby duck."},
+    {"question": "One, two, three -> first, second, ___", "choices": ["third", "three", "thirth", "threeth"], "answer": 0, "explanation_ar": "العدد الترتيبي من three هو third.", "explanation_en": "The ordinal of three is third."},
+    {"question": "A grandmother ___ the car race.", "choices": ["win", "wins", "winning", "are win"], "answer": 1, "explanation_ar": "الفاعل مفرد (she)، فنضيف s: wins.", "explanation_en": "The subject is one person (she), so add -s: wins."},
+    {"question": "'I'm nervous' means:", "choices": ["I'm very happy.", "I'm hungry.", "I'm ready.", "I'm a little worried."], "answer": 3, "explanation_ar": "nervous تعني متوترًا أو قلقًا.", "explanation_en": "Nervous means a little worried or afraid."},
+    {"question": "'Okay. I got it.' means:", "choices": ["I understand.", "I have a gift.", "I am angry.", "I am lost."], "answer": 0, "explanation_ar": "I got it تعني: فهمت.", "explanation_en": "I got it means I understand."},
+    {"question": "Which is the correct order from most to least?", "choices": ["never, rarely, often, always", "always, rarely, often, never", "often, always, never, rarely", "always, often, rarely, never"], "answer": 3, "explanation_ar": "الترتيب: always ثم often ثم rarely ثم never.", "explanation_en": "Always, often, rarely, never: from most to least."}
+  ]
+}

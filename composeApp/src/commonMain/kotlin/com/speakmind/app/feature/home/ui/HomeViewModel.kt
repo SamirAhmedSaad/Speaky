@@ -31,7 +31,15 @@ import com.speakmind.app.navigation.MyGroupsDestination
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import com.speakmind.app.feature.voice.platform.TextToSpeechEngine
+import com.speakmind.app.ui.theme.TtsSpeedManager
+import com.speakmind.app.navigation.RoomDestination
+import com.speakmind.app.feature.community.data.model.SPEAKY_HUB_ROOM_ID
+import com.speakmind.app.ui.theme.AppTheme
 import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.todayIn
@@ -76,7 +84,17 @@ class HomeViewModel(
     private val dailyWordRepository: DailyWordRepository,
     private val notificationScheduler: DailyWordNotificationScheduler,
     private val communityRepository: CommunityRepository,
+    private val ttsEngine: TextToSpeechEngine,
+    private val ttsSpeedManager: TtsSpeedManager,
+    private val idiomRepository: com.speakmind.app.feature.games.data.IdiomRepository,
 ) : ViewModel() {
+
+    /** Theme choice for Settings. */
+    val theme: StateFlow<AppTheme> = themeManager.theme
+    val ttsSpeed: StateFlow<Float> = ttsSpeedManager.speed
+    val onlineCount: StateFlow<Int> = communityRepository.onlineUserIds
+        .map { it.size }
+        .stateIn(viewModelScope, SharingStarted.Eagerly, 0)
 
     private val _uiState = MutableStateFlow(HomeUiState())
     val uiState: StateFlow<HomeUiState> = _uiState.asStateFlow()
@@ -104,8 +122,14 @@ class HomeViewModel(
             val lastActive = progress?.last_active_date ?: ""
             val streak = progress?.streak_days ?: 0
 
+            // Local reads, done before the first frame so Daily Words never shows up half filled
+            val todayWord = dailyWordService.getOrCreateTodayWord(userLevel)
+            val recentWords = dailyWordRepository.getRecentWords()
+
             // Show UI immediately with loading topics indicator
             _uiState.value = HomeUiState(
+                todayWord = todayWord,
+                recentDailyWords = recentWords,
                 streakDays = streak.toInt(),
                 flashcardDueCount = dueCount,
                 userLevel = userLevel,
@@ -121,9 +145,6 @@ class HomeViewModel(
             // Load daily word + settings
             database.speakMindQueries.insertDefaultSettings()
             val settings = database.speakMindQueries.selectSettings().executeAsOneOrNull()
-            val todayWord = dailyWordService.getOrCreateTodayWord(userLevel)
-            val recentWords = dailyWordRepository.getRecentWords()
-
             val notifEnabled = settings?.notifications_enabled != 0L
             val notifHour = settings?.notification_hour?.toInt() ?: 22
             val notifMinute = settings?.notification_minute?.toInt() ?: 0
@@ -135,8 +156,6 @@ class HomeViewModel(
             val dialogCount = updatedSettings?.exact_alarm_dialog_count ?: 0L
 
             _uiState.value = _uiState.value.copy(
-                todayWord = todayWord,
-                recentDailyWords = recentWords,
                 notificationHour = notifHour,
                 notificationMinute = notifMinute,
                 notificationsEnabled = notifEnabled,
@@ -236,7 +255,22 @@ class HomeViewModel(
         }
     }
 
+    /** Back on Home: a new day may have started while the app was in the background. */
+    fun refreshDailyWords() {
+        viewModelScope.launch {
+            val state = _uiState.value
+            if (state.isLoading) return@launch
+            val todayWord = dailyWordService.getOrCreateTodayWord(state.userLevel)
+            if (todayWord?.id == state.todayWord?.id) return@launch
+            _uiState.value = _uiState.value.copy(
+                todayWord = todayWord,
+                recentDailyWords = dailyWordRepository.getRecentWords(),
+            )
+        }
+    }
+
     fun refreshFlashcardCount() {
+        viewModelScope.launch { com.speakmind.app.feature.games.data.GamesBadge.refresh(idiomRepository) }
         viewModelScope.launch {
             val dueCount = database.speakMindQueries
                 .countDueFlashcards(Clock.System.now().toEpochMilliseconds())
@@ -274,11 +308,24 @@ class HomeViewModel(
     fun onCloudChatClicked() = onFreeTalkClicked()
 
     fun onFlashcardsClicked() {
-        navigationManager.navigate(FlashcardReviewDestination(showAllWords = true))
+        navigationManager.navigate(FlashcardReviewDestination(showAllWords = false))
+    }
+
+    /** The flashcard review (it says "all caught up" when nothing is due). */
+    fun onReviewClicked() {
+        navigationManager.navigate(FlashcardReviewDestination(showAllWords = false))
     }
 
     fun onAllLearnedWordsClicked() {
         navigationManager.navigate(FlashcardReviewDestination(showAllWords = true))
+    }
+
+    fun onGamesClicked() {
+        navigationManager.navigate(com.speakmind.app.feature.games.ui.GamesDestination)
+    }
+
+    fun onPreviousWordsClicked() {
+        navigationManager.navigate(com.speakmind.app.feature.dailyword.ui.PreviousWordsDestination)
     }
 
     fun onVocabularyClicked() {
@@ -299,6 +346,17 @@ class HomeViewModel(
 
     fun onPrivacyPolicyClicked() {
         navigationManager.navigate(PrivacyPolicyDestination)
+    }
+
+    /** The Speaky Hub tile: straight into the Hub once the community profile exists, else the join flow. */
+    fun onHubClicked() {
+        viewModelScope.launch {
+            if (communityRepository.getLocalProfile() != null) {
+                navigationManager.navigate(RoomDestination(SPEAKY_HUB_ROOM_ID, "Speaky Hub"))
+            } else {
+                onCommunityClicked()
+            }
+        }
     }
 
     fun onCommunityClicked() {
@@ -379,6 +437,20 @@ class HomeViewModel(
 
     fun onLevelPickerDismissed() {
         _uiState.value = _uiState.value.copy(showLevelPicker = false)
+    }
+
+    fun onThemeSelected(theme: AppTheme) = themeManager.set(theme)
+
+    fun onTtsSpeedSelected(speed: Float) = ttsSpeedManager.setSpeed(speed)
+
+    fun onSpeakTodayWord() {
+        val word = _uiState.value.todayWord?.word ?: return
+        viewModelScope.launch { ttsEngine.speak(word, ttsSpeedManager.speed.value) }
+    }
+
+    override fun onCleared() {
+        ttsEngine.stop()
+        super.onCleared()
     }
 
     fun onThemeToggle(currentlyDark: Boolean) {

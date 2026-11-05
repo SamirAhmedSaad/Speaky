@@ -1,0 +1,53 @@
+{
+  "title": "Giving Feedback",
+  "content": {
+    "vocabulary": [
+      {"word": "feedback", "pos": "noun", "meaning_en": "comments about how well someone did something", "meaning_ar": "تقييم / ملاحظات حول الأداء", "note_ar": "اسم غير معدود: some feedback", "note_en": "Uncountable: \"some feedback\", not \"a feedback\".", "example": "My manager gave me some useful feedback."},
+      {"word": "concerned", "pos": "adjective", "meaning_en": "worried about something", "meaning_ar": "قلق / منزعج من أمر ما", "note_ar": "", "note_en": "", "example": "I'm a little bit concerned about the deadline."},
+      {"word": "telephone manner", "pos": "noun", "meaning_en": "the way you speak to people on the phone", "meaning_ar": "أسلوب التحدث على الهاتف", "note_ar": "", "note_en": "", "example": "She has a very friendly telephone manner."},
+      {"word": "work on", "pos": "phrasal verb", "meaning_en": "to try to improve something", "meaning_ar": "يعمل على تحسين", "note_ar": "", "note_en": "", "example": "You need to work on your writing skills."},
+      {"word": "improve", "pos": "verb", "meaning_en": "to make or become better", "meaning_ar": "يحسّن / يتحسّن", "note_ar": "الاسم: improvement", "note_en": "Noun: improvement.", "example": "I want to improve my English."},
+      {"word": "polite", "pos": "adjective", "meaning_en": "speaking or acting in a kind, respectful way", "meaning_ar": "مهذّب", "note_ar": "العكس: rude = وقح", "note_en": "Opposite: rude.", "example": "Please be polite to all our clients."},
+      {"word": "image", "pos": "noun", "meaning_en": "the way people see a person or company", "meaning_ar": "الصورة العامة / السمعة", "note_ar": "", "note_en": "", "example": "Good service is important for the image of the company."},
+      {"word": "boss", "pos": "noun", "meaning_en": "the person in charge of you at work", "meaning_ar": "المدير / الرئيس في العمل", "note_ar": "", "note_en": "", "example": "I need to talk to the boss about this."},
+      {"word": "Could I have a word?", "pos": "phrase", "meaning_en": "a polite way to ask to speak to someone privately", "meaning_ar": "هل يمكنني التحدث معك قليلًا؟", "note_ar": "", "note_en": "", "example": "Anna, could I have a word with you in my office?"},
+      {"word": "call back", "pos": "phrasal verb", "meaning_en": "to phone someone again later", "meaning_ar": "يعاود الاتصال", "note_ar": "", "note_en": "", "example": "He's busy. Could you call back later?"},
+      {"word": "deal", "pos": "noun", "meaning_en": "a business agreement", "meaning_ar": "صفقة", "note_ar": "", "note_en": "", "example": "We made a big deal with a new client."},
+      {"word": "order", "pos": "noun", "meaning_en": "a request to buy goods", "meaning_ar": "طلبية", "note_ar": "", "note_en": "", "example": "We are very busy with a large order."},
+      {"word": "pleased", "pos": "adjective", "meaning_en": "happy about something", "meaning_ar": "مسرور / راضٍ", "note_ar": "", "note_en": "", "example": "The manager is pleased with your work."},
+      {"word": "repeat", "pos": "verb", "meaning_en": "to say something again", "meaning_ar": "يكرّر", "note_ar": "", "note_en": "", "example": "Could you repeat that, please?"},
+      {"word": "expert", "pos": "noun", "meaning_en": "a person who knows a lot about something", "meaning_ar": "خبير", "note_ar": "", "note_en": "", "example": "She's an expert on computers."},
+      {"word": "practise", "pos": "verb", "meaning_en": "to do something many times to get better", "meaning_ar": "يتدرّب / يمارس", "note_ar": "بريطاني: practise (فعل)، أمريكي: practice", "note_en": "UK verb: practise; US: practice.", "example": "Let's practise before the others arrive."},
+      {"word": "gentle", "pos": "adjective", "meaning_en": "kind and calm, not hard", "meaning_ar": "لطيف / رقيق", "note_ar": "", "note_en": "", "example": "He was gentle when he explained the problem."},
+      {"word": "turn of phrase", "pos": "noun", "meaning_en": "a particular way of saying something", "meaning_ar": "أسلوب تعبير / صياغة", "note_ar": "", "note_en": "", "example": "\"I'm a little concerned\" is a polite turn of phrase."}
+    ],
+    "fine_lines": [
+      {"title": "You must vs Perhaps you should think about", "words": ["You must", "Perhaps you should think about"], "explanation_ar": "You must أمر مباشر وقوي، أما Perhaps you should think about + فعل ing فهي طريقة مهذبة وناعمة لطلب التغيير، وهي أفضل عند إعطاء التقييم.", "explanation_en": "\"You must\" is a strong, direct order. \"Perhaps you should think about + verb-ing\" is a soft, polite way to ask for change, better for feedback.", "examples": [{"word": "You must", "sentence": "You must arrive at nine."}, {"word": "Perhaps you should think about", "sentence": "Perhaps you should think about arriving a little earlier."}]},
+      {"title": "I'm unhappy vs I'm a little bit concerned", "words": ["I'm unhappy", "I'm a little bit concerned"], "explanation_ar": "عبارة I'm a little bit concerned about تخفّف النقد وتجعله مهذبًا، بينما I'm unhappy مباشرة أكثر.", "explanation_en": "\"I'm a little bit concerned about\" makes criticism softer and more polite than \"I'm unhappy\".", "examples": [{"word": "I'm unhappy", "sentence": "I'm unhappy with your report."}, {"word": "I'm a little bit concerned", "sentence": "I'm a little bit concerned about your report."}]}
+    ],
+    "expressions": [
+      {"phrase": "I'm a little bit concerned about...", "meaning_ar": "أنا قلق قليلًا بشأن...", "meaning_en": "a polite way to say there is a problem", "example": "I'm a little bit concerned about your timekeeping."},
+      {"phrase": "You need to work on...", "meaning_ar": "عليك أن تعمل على تحسين...", "meaning_en": "used to say something must get better", "example": "You need to work on your spelling."},
+      {"phrase": "Perhaps you should think about...", "meaning_ar": "ربما عليك أن تفكر في...", "meaning_en": "a polite way to tell someone to do something", "example": "Perhaps you should think about asking for help."},
+      {"phrase": "Could I have a word?", "meaning_ar": "هل يمكنني التحدث معك قليلًا؟", "meaning_en": "used to ask to speak to someone", "example": "Excuse me, could I have a word before lunch?"},
+      {"phrase": "Could you repeat what you said, please?", "meaning_ar": "هل يمكنك تكرار ما قلته من فضلك؟", "meaning_en": "a polite way to ask someone to say it again", "example": "Sorry, could you repeat what you said, please?"},
+      {"phrase": "Is everything all right?", "meaning_ar": "هل كل شيء على ما يرام؟", "meaning_en": "used to ask if someone is OK", "example": "You look worried. Is everything all right?"},
+      {"phrase": "That's very kind.", "meaning_ar": "هذا لطف كبير منك.", "meaning_en": "used to thank someone for help", "example": "Thank you for helping me, that's very kind."}
+    ],
+    "grammar": [
+      {"title": "Soft (polite) feedback patterns", "explanation_ar": "لتقديم ملاحظة سلبية بلطف: (1) I'm a little bit concerned about + اسم أو فعل ing. (2) You need to work on + اسم. (3) Perhaps you should think about + فعل ing. كلمات مثل a little bit و perhaps تخفّف الكلام.", "explanation_en": "To give negative feedback politely: (1) I'm a little bit concerned about + noun/verb-ing. (2) You need to work on + noun. (3) Perhaps you should think about + verb-ing. Words like \"a little bit\" and \"perhaps\" make it softer.", "examples": ["I'm a little bit concerned about your emails.", "You need to work on your presentation skills.", "Perhaps you should think about being more polite to clients."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I'm a little bit concerned about...\" usually means...", "choices": ["I am very happy", "There is a problem", "I am hungry", "You did very well"], "answer": 1, "explanation_ar": "هذه العبارة طريقة مهذبة لقول إن هناك مشكلة.", "explanation_en": "It is a polite way to say there is a problem."},
+    {"question": "Complete: You need to work ___ your telephone manner.", "choices": ["at", "in", "on", "for"], "answer": 2, "explanation_ar": "work on = يعمل على تحسين.", "explanation_en": "\"Work on\" means try to improve."},
+    {"question": "Choose the correct sentence.", "choices": ["Perhaps you should think about being more polite.", "Perhaps you should think about be more polite.", "Perhaps you should think about to be more polite.", "Perhaps you should thinking about being more polite."], "answer": 0, "explanation_ar": "بعد about يأتي الفعل بصيغة ing.", "explanation_en": "After \"about\" use verb-ing."},
+    {"question": "Which is the MOST polite feedback?", "choices": ["Your phone calls are terrible.", "Stop being rude on the phone!", "You must change now.", "Perhaps you should think about your telephone manner."], "answer": 3, "explanation_ar": "Perhaps you should think about أكثر العبارات تهذيبًا.", "explanation_en": "\"Perhaps you should think about\" is the softest."},
+    {"question": "What does \"telephone manner\" mean?", "choices": ["the price of a phone", "a phone number", "the way you speak on the phone", "a phone company"], "answer": 2, "explanation_ar": "telephone manner = أسلوب الحديث على الهاتف.", "explanation_en": "It is the way you speak on the phone."},
+    {"question": "\"Could I have a word?\" means...", "choices": ["Can I speak to you for a moment?", "Can I borrow a dictionary?", "Can you spell a word?", "Can I go home?"], "answer": 0, "explanation_ar": "تعني: هل يمكنني التحدث معك قليلًا؟", "explanation_en": "It means \"Can I speak to you for a moment?\""},
+    {"question": "Which sentence is correct?", "choices": ["He gave me a feedbacks.", "He gave me some feedback.", "He gave me feedbacks.", "He gave me a lot of feedbacks."], "answer": 1, "explanation_ar": "feedback اسم غير معدود.", "explanation_en": "\"Feedback\" is uncountable."},
+    {"question": "The opposite of \"polite\" is...", "choices": ["kind", "gentle", "pleased", "rude"], "answer": 3, "explanation_ar": "عكس polite هو rude.", "explanation_en": "The opposite of polite is rude."},
+    {"question": "Why did Paul use soft phrases?", "choices": ["To make Anna laugh", "To explain a problem gently", "To give her a prize", "To end her job"], "answer": 1, "explanation_ar": "ليشرح المشكلة بلطف وتهذيب.", "explanation_en": "To explain the problem in a gentle, polite way."},
+    {"question": "Complete: I'm a little bit concerned ___ the deadline.", "choices": ["about", "of", "to", "with"], "answer": 0, "explanation_ar": "نقول concerned about.", "explanation_en": "We say \"concerned about\"."}
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Rock Star",
+  "content": {
+    "vocabulary": [
+      {"word": "interview", "pos": "verb", "meaning_en": "to ask someone questions for a show or news story", "meaning_ar": "يُجري مقابلة", "note_ar": "وتأتي اسمًا: an interview", "note_en": "Also a noun.", "example": "Tomorrow, you'll be interviewing a famous chef."},
+      {"word": "musician", "pos": "noun", "meaning_en": "a person who plays or writes music", "meaning_ar": "موسيقي", "note_ar": "", "note_en": "", "example": "Anna will interview a musician."},
+      {"word": "in progress", "pos": "phrase", "meaning_en": "happening now; not finished", "meaning_ar": "جارٍ / قيد التنفيذ", "note_ar": "", "note_en": "", "example": "The meeting is in progress."},
+      {"word": "join", "pos": "verb", "meaning_en": "to come and be with someone", "meaning_ar": "ينضم إلى", "note_ar": "", "note_en": "", "example": "Our guest will be joining us today."},
+      {"word": "a warm welcome", "pos": "phrase", "meaning_en": "a friendly, happy greeting", "meaning_ar": "ترحيب حار", "note_ar": "", "note_en": "", "example": "Let's give a warm welcome to our guest!"},
+      {"word": "personal", "pos": "adjective", "meaning_en": "about one person and their feelings", "meaning_ar": "شخصي", "note_ar": "", "note_en": "", "example": "Reading can be a very personal experience."},
+      {"word": "scrapbook", "pos": "noun", "meaning_en": "a book where you keep photos and papers", "meaning_ar": "ألبوم ذكريات", "note_ar": "", "note_en": "", "example": "She made a scrapbook of her school trip."},
+      {"word": "friendship", "pos": "noun", "meaning_en": "the relationship between friends", "meaning_ar": "صداقة", "note_ar": "", "note_en": "", "example": "Our friendship began at school."},
+      {"word": "legal", "pos": "adjective", "meaning_en": "allowed by law", "meaning_ar": "قانوني", "note_ar": "عكسها illegal", "note_en": "Opposite: illegal.", "example": "Is that even legal?"},
+      {"word": "schedule", "pos": "noun", "meaning_en": "a plan of when things will happen", "meaning_ar": "جدول مواعيد", "note_ar": "في أمريكا /ˈskedʒuːl/ وفي بريطانيا /ˈʃedjuːl/", "note_en": "US /ˈskedʒuːl/, UK /ˈʃedjuːl/.", "example": "Let's talk about your schedule."},
+      {"word": "perform", "pos": "verb", "meaning_en": "to do a show for people", "meaning_ar": "يؤدّي عرضًا", "note_ar": "", "note_en": "", "example": "The children will be performing a play at school."},
+      {"word": "venue", "pos": "noun", "meaning_en": "a place where an event happens", "meaning_ar": "مكان الفعالية", "note_ar": "", "note_en": "", "example": "The venue for the conference is a big hotel."},
+      {"word": "tour", "pos": "verb", "meaning_en": "to visit places in a city or country", "meaning_ar": "يتجوّل في / يزور", "note_ar": "", "note_en": "", "example": "We can tour the city together."},
+      {"word": "camp", "pos": "noun", "meaning_en": "a place where young people go to learn and do activities", "meaning_ar": "مخيّم", "note_ar": "", "note_en": "", "example": "My son is going to a science camp."},
+      {"word": "hang out", "pos": "phrasal verb", "meaning_en": "to spend free time with someone (informal)", "meaning_ar": "يقضي الوقت مع (الأصدقاء)", "note_ar": "", "note_en": "", "example": "We could hang out after class."},
+      {"word": "background", "pos": "noun", "meaning_en": "the area behind the main thing you see or hear", "meaning_ar": "الخلفية", "note_ar": "", "note_en": "", "example": "I hear a voice in the background."},
+      {"word": "excited", "pos": "adjective", "meaning_en": "very happy and full of energy about something", "meaning_ar": "متحمّس", "note_ar": "", "note_en": "", "example": "I'm just so excited."},
+      {"word": "go ahead", "pos": "phrasal verb", "meaning_en": "to start or continue; you can do it", "meaning_ar": "تفضّل / استمر", "note_ar": "", "note_en": "", "example": "You go ahead. I'll wait."},
+      {"word": "wary", "pos": "adjective", "meaning_en": "careful because you think there may be danger", "meaning_ar": "حذِر", "note_ar": "", "note_en": "", "example": "Be wary of strangers online."}
+    ],
+    "fine_lines": [
+      {"title": "future simple vs future continuous", "words": ["will interview", "will be interviewing"], "explanation_ar": "will + فعل للمستقبل بشكل عام أو قرار: I will call you. will be + فعل ing لحدث سيكون جاريًا في وقت معين في المستقبل: At 10 tomorrow, I will be interviewing her.", "explanation_en": "Will + verb is for general future facts or decisions: I will call you. Will be + -ing is for an action in progress at a certain future time: At 10 tomorrow, I will be interviewing her.", "examples": [{"word": "will interview", "sentence": "Anna will interview a guest next week."}, {"word": "will be interviewing", "sentence": "This time tomorrow, Anna will be interviewing her guest."}]},
+      {"title": "will be -ing vs going to be -ing", "words": ["will be -ing", "going to be -ing"], "explanation_ar": "الصيغتان للمستقبل المستمر وبنفس المعنى تقريبًا: I'll be performing in Texas = I'm going to be performing in Texas.", "explanation_en": "Both make the future continuous with almost the same meaning: I'll be teaching = I'm going to be teaching.", "examples": [{"word": "will be -ing", "sentence": "In June, I'll be traveling across Texas."}, {"word": "going to be -ing", "sentence": "In July, I'm going to be teaching at a camp."}]}
+    ],
+    "expressions": [
+      {"phrase": "Are you there?", "meaning_ar": "هل أنت معي؟ (على الهاتف)", "meaning_en": "Can you hear me? (on the phone)", "example": "Hello? Are you there?"},
+      {"phrase": "Let's give a warm welcome to...", "meaning_ar": "لنرحّب ترحيبًا حارًا بـ...", "meaning_en": "Used to introduce a guest on a show.", "example": "Let's give a warm welcome to our teacher!"},
+      {"phrase": "Thank you for coming on the show.", "meaning_ar": "شكرًا على حضورك إلى البرنامج.", "meaning_en": "A host thanks a guest.", "example": "Thank you for coming on the show, Doctor."},
+      {"phrase": "It's great to be here.", "meaning_ar": "يسعدني أن أكون هنا.", "meaning_en": "A guest's polite reply.", "example": "Thanks for inviting me. It's great to be here."},
+      {"phrase": "I feel like I know you.", "meaning_ar": "أشعر وكأنني أعرفك.", "meaning_en": "You seem familiar to me.", "example": "I read all your books. I feel like I know you."},
+      {"phrase": "No problem.", "meaning_ar": "لا مشكلة.", "meaning_en": "It's okay; don't worry.", "example": "Sorry I'm late. — No problem."},
+      {"phrase": "No, I couldn't.", "meaning_ar": "لا، لا أستطيع (رفض بتواضع).", "meaning_en": "A shy, polite way to say no to an offer.", "example": "Take the last piece of cake. — No, I couldn't."},
+      {"phrase": "Come on. It'll be fun.", "meaning_ar": "هيا، سيكون ممتعًا.", "meaning_en": "Used to encourage someone to join.", "example": "Come and play with us. Come on. It'll be fun."}
+    ],
+    "grammar": [
+      {"title": "Future continuous", "explanation_ar": "نستخدم المستقبل المستمر لحدث سيكون جاريًا (في منتصف حدوثه) في وقت معين أو حوله في المستقبل. له صيغتان: 1) will be + فعل ing: Tomorrow, you'll be interviewing Emma G. 2) am/is/are + going to be + فعل ing: In July, I'm going to be teaching at a camp. نذكر غالبًا الوقت: tomorrow, in June, this time next week. النفي: won't be + ing.", "explanation_en": "Use the future continuous for an action that will be in progress at or around a time in the future. Two forms: 1) will be + -ing: Tomorrow, you'll be interviewing Emma G. 2) am/is/are + going to be + -ing: In July, I'm going to be teaching at a camp. We often give the time: tomorrow, in June, this time next week. Negative: won't be + -ing.", "examples": ["Tomorrow, you'll be interviewing musician Emma G.", "Today, musician Emma G will be joining us here!", "In early June, I'll be performing at several venues across Austin, Texas.", "I'll be visiting my sister then."]}
+    ]
+  },
+  "questions": [
+    {"question": "This time tomorrow, I ____ on the beach.", "choices": ["will be sitting", "sit", "was sitting", "have sat"], "answer": 0, "explanation_ar": "حدث جارٍ في وقت محدد في المستقبل: will be sitting.", "explanation_en": "In progress at a future time: will be sitting."},
+    {"question": "The future continuous is:", "choices": ["will + past participle", "had + -ing", "will be + -ing", "was + -ing"], "answer": 2, "explanation_ar": "المستقبل المستمر = will be + ing.", "explanation_en": "Future continuous = will be + -ing."},
+    {"question": "In July, I'm going to ____ at a camp.", "choices": ["teaching", "be teaching", "teach be", "been teaching"], "answer": 1, "explanation_ar": "الصيغة الثانية: going to be + ing.", "explanation_en": "Second form: going to be + -ing."},
+    {"question": "Which sentence is future continuous?", "choices": ["I visited my sister.", "I visit my sister.", "I have visited my sister.", "I'll be visiting my sister then."], "answer": 3, "explanation_ar": "الجملة I'll be visiting على صيغة will be + ing.", "explanation_en": "I'll be visiting = will be + -ing."},
+    {"question": "Don't call at 8. We ____ dinner then.", "choices": ["will have", "will be having", "had", "have had"], "answer": 1, "explanation_ar": "العشاء سيكون جاريًا عند الساعة 8.", "explanation_en": "Dinner will be in progress at 8."},
+    {"question": "A plan of when things will happen is a ____.", "choices": ["schedule", "venue", "scrapbook", "background"], "answer": 0, "explanation_ar": "schedule = جدول مواعيد.", "explanation_en": "A schedule is a time plan."},
+    {"question": "A place where an event happens is a ____.", "choices": ["camp", "friendship", "venue", "tour"], "answer": 2, "explanation_ar": "venue = مكان الفعالية.", "explanation_en": "A venue is where an event takes place."},
+    {"question": "'Hang out' means:", "choices": ["wash clothes", "spend free time together", "go to work", "hang up the phone"], "answer": 1, "explanation_ar": "hang out = يقضي الوقت مع الأصدقاء.", "explanation_en": "Hang out means spend free time with someone."},
+    {"question": "'Is that even legal?' — 'legal' means:", "choices": ["very fast", "very expensive", "very strange", "allowed by law"], "answer": 3, "explanation_ar": "legal = قانوني.", "explanation_en": "Legal means allowed by law."},
+    {"question": "The negative of 'I'll be working' is:", "choices": ["I won't be working.", "I will not working.", "I'm not be working.", "I won't working."], "answer": 0, "explanation_ar": "النفي: won't be + ing.", "explanation_en": "Negative: won't be + -ing."}
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "title": "Whose bike is this?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "whose",
+        "pos": "pronoun",
+        "meaning_en": "word to ask who owns something",
+        "meaning_ar": "لِمَن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Whose bike is this?"
+      },
+      {
+        "word": "mine",
+        "pos": "pronoun",
+        "meaning_en": "belonging to me",
+        "meaning_ar": "لي / مِلكي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's mine."
+      },
+      {
+        "word": "bike",
+        "pos": "noun",
+        "meaning_en": "a bicycle",
+        "meaning_ar": "دراجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Whose bike is this?"
+      },
+      {
+        "word": "ball",
+        "pos": "noun",
+        "meaning_en": "a round thing for games",
+        "meaning_ar": "كرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Whose ball is this?"
+      },
+      {
+        "word": "arm",
+        "pos": "noun",
+        "meaning_en": "the long part of your body from shoulder to hand",
+        "meaning_ar": "ذراع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My arm hurts!"
+      },
+      {
+        "word": "know",
+        "pos": "verb",
+        "meaning_en": "have the information in your head",
+        "meaning_ar": "يعرف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I don't know."
+      },
+      {
+        "word": "great",
+        "pos": "adjective",
+        "meaning_en": "very good",
+        "meaning_ar": "رائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wow, great!"
+      },
+      {
+        "word": "let's go",
+        "pos": "phrase",
+        "meaning_en": "we go now together",
+        "meaning_ar": "هيا بنا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bob, let's go!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "my vs mine",
+        "words": [
+          "my",
+          "mine"
+        ],
+        "explanation_ar": "my يأتي قبل الاسم: my bike. أما mine فيأتي وحده بدون اسم: It's mine.",
+        "explanation_en": "\"my\" comes before a noun: my bike. \"mine\" stands alone: It's mine.",
+        "examples": [
+          {
+            "word": "my",
+            "sentence": "It's my bike."
+          },
+          {
+            "word": "mine",
+            "sentence": "This bike is mine."
+          }
+        ]
+      },
+      {
+        "title": "who vs whose",
+        "words": [
+          "who",
+          "whose"
+        ],
+        "explanation_ar": "who للسؤال عن الشخص، و whose للسؤال عن صاحب الشيء.",
+        "explanation_en": "\"who\" asks about a person. \"whose\" asks who owns a thing.",
+        "examples": [
+          {
+            "word": "who",
+            "sentence": "Who is he? - He's my cousin."
+          },
+          {
+            "word": "whose",
+            "sentence": "Whose ball is this? - It's Momo's."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Whose bike is this?",
+        "meaning_ar": "لِمَن هذه الدراجة؟",
+        "meaning_en": "Asking who owns the bike.",
+        "example": "Whose bike is this? - It's mine."
+      },
+      {
+        "phrase": "It's mine.",
+        "meaning_ar": "إنها لي.",
+        "meaning_en": "Saying it belongs to you.",
+        "example": "Whose ball is this? - It's mine, Dad."
+      },
+      {
+        "phrase": "It's Momo's.",
+        "meaning_ar": "إنها لمومو.",
+        "meaning_en": "Saying it belongs to Momo.",
+        "example": "Whose ball is this? - It's Momo's."
+      },
+      {
+        "phrase": "I don't know.",
+        "meaning_ar": "لا أعرف.",
+        "meaning_en": "You don't have the answer.",
+        "example": "Whose bag is this? - I don't know."
+      },
+      {
+        "phrase": "My arm hurts!",
+        "meaning_ar": "ذراعي تؤلمني!",
+        "meaning_en": "Saying your arm has pain.",
+        "example": "Ouch! What's wrong? - My arm hurts!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Whose ...? - It's mine / It's + name's",
+        "explanation_ar": "نسأل عن المالك بـ Whose + اسم + is this? ونجيب It's mine أو It's + اسم الشخص + 's.",
+        "explanation_en": "Ask \"Whose + thing + is this?\" Answer \"It's mine\" or \"It's Momo's\" (name + 's).",
+        "examples": [
+          "Whose bike is this? - It's mine.",
+          "Whose ball is this? - It's Momo's.",
+          "Is this your ball? - No, it isn't."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Whose bike is this? - ___",
+      "choices": [
+        "It's mine.",
+        "It's a bike.",
+        "It's nine.",
+        "He's my cousin."
+      ],
+      "answer": 0,
+      "explanation_ar": "Whose سؤال عن المالك.",
+      "explanation_en": "\"Whose\" asks who owns it."
+    },
+    {
+      "question": "___ ball is this? - It's Momo's.",
+      "choices": [
+        "Who",
+        "Whose",
+        "What",
+        "Where"
+      ],
+      "answer": 1,
+      "explanation_ar": "نسأل عن المالك بـ Whose.",
+      "explanation_en": "Use \"Whose\" to ask about the owner."
+    },
+    {
+      "question": "This bike is ___. (belongs to me)",
+      "choices": [
+        "my",
+        "me",
+        "mine",
+        "I"
+      ],
+      "answer": 2,
+      "explanation_ar": "بدون اسم بعدها نقول mine.",
+      "explanation_en": "With no noun after it, use \"mine\"."
+    },
+    {
+      "question": "It's ___ ball. (belongs to me)",
+      "choices": [
+        "mine",
+        "I",
+        "me",
+        "my"
+      ],
+      "answer": 3,
+      "explanation_ar": "قبل الاسم نقول my.",
+      "explanation_en": "Before a noun, use \"my\"."
+    },
+    {
+      "question": "The ball belongs to Momo. It's ___.",
+      "choices": [
+        "Momo's",
+        "Momo",
+        "Momos",
+        "Momo is"
+      ],
+      "answer": 0,
+      "explanation_ar": "للملكية نضيف 's: Momo's.",
+      "explanation_en": "Add 's for owner: Momo's."
+    },
+    {
+      "question": "Whose bag is this? You don't have the answer. You say: ___",
+      "choices": [
+        "It's mine.",
+        "I don't know.",
+        "Yes, it is.",
+        "Let's go."
+      ],
+      "answer": 1,
+      "explanation_ar": "عندما لا نعرف نقول I don't know.",
+      "explanation_en": "Say \"I don't know.\""
+    },
+    {
+      "question": "Is this your ball? - No, it ___.",
+      "choices": [
+        "is",
+        "not",
+        "isn't",
+        "don't"
+      ],
+      "answer": 2,
+      "explanation_ar": "الإجابة بالنفي No, it isn't.",
+      "explanation_en": "No, it isn't."
+    },
+    {
+      "question": "\"arm\" in Arabic is ___.",
+      "choices": [
+        "ذراع",
+        "ساق",
+        "إصبع",
+        "رأس"
+      ],
+      "answer": 0,
+      "explanation_ar": "arm = ذراع.",
+      "explanation_en": "Your arm goes from shoulder to hand."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Whose is bike this?",
+        "Whose bike is this?",
+        "Who bike is this?",
+        "Whose this bike is?"
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح Whose bike is this?",
+      "explanation_en": "Correct: Whose bike is this?"
+    },
+    {
+      "question": "Wow, ___! (very good)",
+      "choices": [
+        "great",
+        "sorry",
+        "late",
+        "wrong"
+      ],
+      "answer": 0,
+      "explanation_ar": "great = رائع.",
+      "explanation_en": "great = very good."
+    }
+  ]
+}

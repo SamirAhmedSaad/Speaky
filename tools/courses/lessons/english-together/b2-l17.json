@@ -1,0 +1,379 @@
+{
+  "title": "Shopping for Jeans and Shoes",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "weather",
+        "pos": "noun",
+        "meaning_en": "how hot, cold, sunny or rainy it is",
+        "meaning_ar": "الطقس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The weather is getting cold."
+      },
+      {
+        "word": "a pair of",
+        "pos": "phrase",
+        "meaning_en": "two things used together (shoes) or one thing with two legs (jeans)",
+        "meaning_ar": "زوج من",
+        "note_ar": "نقول a pair of jeans / shoes / trousers",
+        "note_en": "Used with jeans, shoes, trousers, glasses.",
+        "example": "Jenny wants a new pair of jeans."
+      },
+      {
+        "word": "jeans",
+        "pos": "noun",
+        "meaning_en": "trousers made of strong blue cotton",
+        "meaning_ar": "بنطال جينز",
+        "note_ar": "دائمًا جمع: these jeans are",
+        "note_en": "Always plural: \"these jeans are\".",
+        "example": "These jeans are nice."
+      },
+      {
+        "word": "on sale",
+        "pos": "phrase",
+        "meaning_en": "sold at a lower price than usual",
+        "meaning_ar": "عليه تخفيض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are these jeans on sale?"
+      },
+      {
+        "word": "salesperson",
+        "pos": "noun",
+        "meaning_en": "a person who sells things in a shop",
+        "meaning_ar": "بائع / بائعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where's the salesperson?"
+      },
+      {
+        "word": "percent off",
+        "pos": "phrase",
+        "meaning_en": "a discount; the price is lower by that percent",
+        "meaning_ar": "خصم بنسبة ...",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Today they're 20 percent off."
+      },
+      {
+        "word": "price",
+        "pos": "noun",
+        "meaning_en": "how much money something costs",
+        "meaning_ar": "سعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's a good price."
+      },
+      {
+        "word": "fitting room",
+        "pos": "noun",
+        "meaning_en": "a small room in a shop to try on clothes",
+        "meaning_ar": "غرفة القياس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The fitting rooms are right over there."
+      },
+      {
+        "word": "too big",
+        "pos": "phrase",
+        "meaning_en": "bigger than you need",
+        "meaning_ar": "كبير جدًا (أكثر من اللازم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They're too big."
+      },
+      {
+        "word": "smaller",
+        "pos": "adjective",
+        "meaning_en": "less big",
+        "meaning_ar": "أصغر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have a smaller size?"
+      },
+      {
+        "word": "auntie",
+        "pos": "noun",
+        "meaning_en": "aunt (friendly word)",
+        "meaning_ar": "عمّة / خالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We want to buy shoes for my auntie."
+      },
+      {
+        "word": "collection",
+        "pos": "noun",
+        "meaning_en": "a group of new products from a shop or designer",
+        "meaning_ar": "تشكيلة / مجموعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is from the newest collection."
+      },
+      {
+        "word": "design",
+        "pos": "noun",
+        "meaning_en": "the shape and look of something",
+        "meaning_ar": "تصميم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This pair's design is cool!"
+      },
+      {
+        "word": "come in",
+        "pos": "phrasal verb",
+        "meaning_en": "be available in (a colour or size)",
+        "meaning_ar": "يتوفّر بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Does it come in other colors?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "too vs very",
+        "words": [
+          "too",
+          "very"
+        ],
+        "explanation_ar": "very = جدًا (ليست مشكلة). too = أكثر من اللازم (مشكلة).",
+        "explanation_en": "\"Very\" = a lot (OK). \"Too\" = more than you want (a problem).",
+        "examples": [
+          {
+            "word": "very",
+            "sentence": "These jeans are very nice."
+          },
+          {
+            "word": "too",
+            "sentence": "These jeans are too big for me."
+          }
+        ]
+      },
+      {
+        "title": "How much is vs How much are",
+        "words": [
+          "How much is",
+          "How much are"
+        ],
+        "explanation_ar": "مع المفرد: How much is it? مع الجمع (jeans, shoes): How much are they?",
+        "explanation_en": "Singular: \"How much is it?\" Plural (jeans, shoes): \"How much are they?\"",
+        "examples": [
+          {
+            "word": "How much is",
+            "sentence": "How much is this shirt?"
+          },
+          {
+            "word": "How much are",
+            "sentence": "How much are these jeans?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "We're just looking.",
+        "meaning_ar": "نحن نتفرج فقط.",
+        "meaning_en": "You don't need help now.",
+        "example": "Thanks, we're just looking."
+      },
+      {
+        "phrase": "What do you think of these jeans?",
+        "meaning_ar": "ما رأيك في هذا الجينز؟",
+        "meaning_en": "Asking for an opinion.",
+        "example": "What do you think of these shoes?"
+      },
+      {
+        "phrase": "Are these jeans on sale?",
+        "meaning_ar": "هل هذا الجينز عليه تخفيض؟",
+        "meaning_en": "Asking about a discount.",
+        "example": "Excuse me, is this jacket on sale?"
+      },
+      {
+        "phrase": "They're 20 percent off.",
+        "meaning_ar": "عليها خصم عشرين بالمئة.",
+        "meaning_en": "The price is lower.",
+        "example": "Today all shoes are 30 percent off."
+      },
+      {
+        "phrase": "Can I try them on?",
+        "meaning_ar": "هل يمكنني تجربتها؟",
+        "meaning_en": "Asking to try clothes.",
+        "example": "Can I try these jeans on?"
+      },
+      {
+        "phrase": "How do they look?",
+        "meaning_ar": "كيف تبدو؟",
+        "meaning_en": "Asking a friend's opinion.",
+        "example": "How do these shoes look?"
+      },
+      {
+        "phrase": "Do you have this in a smaller size?",
+        "meaning_ar": "هل لديكم هذا بمقاس أصغر؟",
+        "meaning_en": "Asking for another size.",
+        "example": "Do you have this in a bigger size?"
+      },
+      {
+        "phrase": "They look very nice on you.",
+        "meaning_ar": "تبدو جميلة جدًا عليك.",
+        "meaning_en": "Saying clothes suit someone.",
+        "example": "That jacket looks very nice on you."
+      },
+      {
+        "phrase": "Does it come in other colors?",
+        "meaning_ar": "هل يتوفر بألوان أخرى؟",
+        "meaning_en": "Asking about colours.",
+        "example": "Does this bag come in other colors?"
+      },
+      {
+        "phrase": "Great, I will take them.",
+        "meaning_ar": "رائع، سآخذها.",
+        "meaning_en": "Deciding to buy.",
+        "example": "They fit well. I'll take them."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Plural clothes: jeans, shoes → they / them",
+        "explanation_ar": "الكلمات مثل jeans وshoes وtrousers جمع دائمًا، لذا نقول they are / them.",
+        "explanation_en": "Words like jeans, shoes and trousers are plural: use \"they are\" and \"them\".",
+        "examples": [
+          "These jeans are nice.",
+          "They're too big.",
+          "I will take them."
+        ]
+      },
+      {
+        "title": "Comparatives: smaller, better",
+        "explanation_ar": "للمقارنة نضيف er للصفة القصيرة: small ← smaller. وgood ← better (شاذة).",
+        "explanation_en": "Add -er to short adjectives: small → smaller. \"Good\" → \"better\" (irregular).",
+        "examples": [
+          "Do you have a smaller size?",
+          "I think these are better.",
+          "This pair is cheaper."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "These jeans ____ too big.",
+      "choices": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer": 1,
+      "explanation_ar": "jeans جمع فنقول are.",
+      "explanation_en": "\"Jeans\" is plural: \"are\"."
+    },
+    {
+      "question": "\"They're 20 percent off.\" means ...",
+      "choices": [
+        "They cost 20 dollars.",
+        "They are 20 years old.",
+        "The shop closes at 20.",
+        "The price is 20% lower."
+      ],
+      "answer": 3,
+      "explanation_ar": "خصم بنسبة 20٪.",
+      "explanation_en": "The price is 20% lower."
+    },
+    {
+      "question": "Do you have this in a ____ size?",
+      "choices": [
+        "smaller",
+        "small",
+        "more small",
+        "smallest"
+      ],
+      "answer": 0,
+      "explanation_ar": "المقارنة: smaller.",
+      "explanation_en": "Comparative: smaller."
+    },
+    {
+      "question": "I think these are ____.",
+      "choices": [
+        "gooder",
+        "more good",
+        "better",
+        "best than"
+      ],
+      "answer": 2,
+      "explanation_ar": "الصفة good تصبح better.",
+      "explanation_en": "good → better."
+    },
+    {
+      "question": "Does it come ____ other colors?",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "with"
+      ],
+      "answer": 2,
+      "explanation_ar": "come in = يتوفر بـ.",
+      "explanation_en": "\"Come in\" = be available in."
+    },
+    {
+      "question": "They're ____ big. I need a smaller size.",
+      "choices": [
+        "too",
+        "very",
+        "so good",
+        "a"
+      ],
+      "answer": 0,
+      "explanation_ar": "too تعني أكثر من اللازم.",
+      "explanation_en": "\"Too\" shows a problem."
+    },
+    {
+      "question": "How much ____ these shoes?",
+      "choices": [
+        "is",
+        "does",
+        "do",
+        "are"
+      ],
+      "answer": 3,
+      "explanation_ar": "shoes جمع فنقول are.",
+      "explanation_en": "\"Shoes\" is plural: \"are\"."
+    },
+    {
+      "question": "\"Are these jeans on sale?\" The customer wants to know about ...",
+      "choices": [
+        "the size",
+        "a lower price",
+        "the color",
+        "the fitting room"
+      ],
+      "answer": 1,
+      "explanation_ar": "on sale تعني عليه تخفيض.",
+      "explanation_en": "\"On sale\" means a lower price."
+    },
+    {
+      "question": "Where do you try on clothes?",
+      "choices": [
+        "in the fitting room",
+        "at the checkout",
+        "in the window",
+        "in the collection"
+      ],
+      "answer": 0,
+      "explanation_ar": "في غرفة القياس.",
+      "explanation_en": "In the fitting room."
+    },
+    {
+      "question": "\"They look very nice on you.\" means ...",
+      "choices": [
+        "You see them well.",
+        "They are too small.",
+        "The clothes suit you.",
+        "You are looking."
+      ],
+      "answer": 2,
+      "explanation_ar": "الملابس تناسبك.",
+      "explanation_en": "The clothes suit you."
+    }
+  ]
+}

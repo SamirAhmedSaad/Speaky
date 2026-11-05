@@ -1,0 +1,54 @@
+{
+  "title": "He Said - She Said",
+  "content": {
+    "vocabulary": [
+      {"word": "consultant", "pos": "noun", "meaning_en": "an expert who gives advice to a business", "meaning_ar": "مستشار", "note_ar": "", "note_en": "", "example": "The company hired a consultant to help with sales."},
+      {"word": "on time", "pos": "phrase", "meaning_en": "at the correct time; not late", "meaning_ar": "في الموعد", "note_ar": "", "note_en": "", "example": "The bus came on time."},
+      {"word": "late", "pos": "adjective", "meaning_en": "after the expected time", "meaning_ar": "متأخر", "note_ar": "", "note_en": "", "example": "You are 20 minutes late."},
+      {"word": "promise", "pos": "verb", "meaning_en": "to say you will surely do something", "meaning_ar": "يَعِد", "note_ar": "وتأتي اسمًا: a promise = وعد", "note_en": "Also a noun.", "example": "He promised to call me."},
+      {"word": "take turns", "pos": "phrase", "meaning_en": "to do something one after another, not together", "meaning_ar": "يتناوب / كلٌّ في دوره", "note_ar": "", "note_en": "", "example": "The children take turns on the swing."},
+      {"word": "waste time", "pos": "phrase", "meaning_en": "to use time badly", "meaning_ar": "يضيّع الوقت", "note_ar": "", "note_en": "", "example": "Don't waste time on your phone."},
+      {"word": "message", "pos": "noun", "meaning_en": "words you send or leave for someone", "meaning_ar": "رسالة", "note_ar": "leave a message = يترك رسالة", "note_en": "leave a message", "example": "I left you a message this morning."},
+      {"word": "building", "pos": "noun", "meaning_en": "a structure with walls and a roof, like a house or office", "meaning_ar": "مبنى / عمارة", "note_ar": "", "note_en": "", "example": "We live in the same building."},
+      {"word": "scooter", "pos": "noun", "meaning_en": "a small vehicle you stand on or ride", "meaning_ar": "سكوتر / دراجة صغيرة", "note_ar": "", "note_en": "", "example": "She rides a scooter to school."},
+      {"word": "awful", "pos": "adjective", "meaning_en": "very bad", "meaning_ar": "فظيع / سيئ جدًا", "note_ar": "", "note_en": "", "example": "The weather was awful yesterday."},
+      {"word": "commute", "pos": "noun", "meaning_en": "the trip from home to work and back", "meaning_ar": "الذهاب اليومي إلى العمل", "note_ar": "وتأتي فعلًا: I commute by train.", "note_en": "Also a verb.", "example": "My commute takes thirty minutes."},
+      {"word": "pond", "pos": "noun", "meaning_en": "a small area of water, smaller than a lake", "meaning_ar": "بِركة", "note_ar": "", "note_en": "", "example": "There are ducks in the pond."},
+      {"word": "feed", "pos": "verb", "meaning_en": "to give food to a person or animal", "meaning_ar": "يُطعِم", "note_ar": "التصريف: feed - fed - fed", "note_en": "feed - fed - fed", "example": "She feeds her cat twice a day."},
+      {"word": "name after", "pos": "phrasal verb", "meaning_en": "to give someone or something the same name as another person", "meaning_ar": "يسمّي على اسم", "note_ar": "", "note_en": "", "example": "They named the baby after his grandfather."},
+      {"word": "yell", "pos": "verb", "meaning_en": "to shout loudly", "meaning_ar": "يصرخ", "note_ar": "", "note_en": "", "example": "Don't yell in the library."},
+      {"word": "event", "pos": "noun", "meaning_en": "something that happens", "meaning_ar": "حدث / واقعة", "note_ar": "", "note_en": "", "example": "We saw the same event differently."},
+      {"word": "point of view", "pos": "noun", "meaning_en": "a way of thinking about something", "meaning_ar": "وجهة نظر", "note_ar": "", "note_en": "", "example": "From my point of view, the plan is good."},
+      {"word": "hug", "pos": "verb", "meaning_en": "to hold someone or something in your arms", "meaning_ar": "يعانق / يحضن", "note_ar": "", "note_en": "", "example": "The boy hugged his mother."},
+      {"word": "dessert", "pos": "noun", "meaning_en": "sweet food eaten after a meal", "meaning_ar": "حلوى (بعد الطعام)", "note_ar": "انتبه: desert (بحرف s واحد) = صحراء", "note_en": "Don't confuse with desert (sand).", "example": "We had cake for dessert."},
+      {"word": "appointment", "pos": "noun", "meaning_en": "a planned meeting at a set time", "meaning_ar": "موعد", "note_ar": "", "note_en": "", "example": "I have a business appointment at ten."}
+    ],
+    "fine_lines": [
+      {"title": "past simple vs past perfect", "words": ["arrived", "had arrived"], "explanation_ar": "الماضي البسيط (arrived) لحدث في الماضي. الماضي التام (had arrived) للحدث الذي وقع أولًا عندما نتكلم عن حدثين في الماضي.", "explanation_en": "Past simple (arrived) is for a finished past action. Past perfect (had arrived) is for the earlier of two past actions.", "examples": [{"word": "arrived", "sentence": "Pete arrived at 8:15."}, {"word": "had arrived", "sentence": "When Anna came, Pete had already arrived."}]},
+      {"title": "dessert vs desert", "words": ["dessert", "desert"], "explanation_ar": "dessert (بحرفي s) = الحلوى بعد الطعام، ونبرتها على المقطع الثاني. desert (بحرف s واحد) = الصحراء، ونبرتها على المقطع الأول.", "explanation_en": "Dessert (double s) is sweet food after a meal; stress the second part. Desert (one s) is a dry sandy place; stress the first part.", "examples": [{"word": "dessert", "sentence": "Ice cream is my favorite dessert."}, {"word": "desert", "sentence": "Camels live in the desert."}]}
+    ],
+    "expressions": [
+      {"phrase": "What happened?", "meaning_ar": "ماذا حدث؟", "meaning_en": "Tell me what happened.", "example": "You look sad. What happened?"},
+      {"phrase": "You go first.", "meaning_ar": "ابدأ أنت أولًا.", "meaning_en": "You can start before me.", "example": "We can't both talk. You go first."},
+      {"phrase": "That's not why we're late.", "meaning_ar": "ليس هذا سبب تأخرنا.", "meaning_en": "That is not the reason we are late.", "example": "The traffic? No, that's not why we're late."},
+      {"phrase": "Does this happen often?", "meaning_ar": "هل يحدث هذا كثيرًا؟", "meaning_en": "Is this something that happens many times?", "example": "Your car stopped again. Does this happen often?"},
+      {"phrase": "Let's get to work!", "meaning_ar": "لنبدأ العمل!", "meaning_en": "Let's start working now.", "example": "We have a plan. Let's get to work!"},
+      {"phrase": "It's good to see things differently.", "meaning_ar": "من الجيد أن نرى الأمور بطرق مختلفة.", "meaning_en": "Different opinions can be useful.", "example": "We don't agree, but it's good to see things differently."}
+    ],
+    "grammar": [
+      {"title": "Past perfect tense", "explanation_ar": "نستخدم الماضي التام عندما نتكلم عن حدثين في الماضي، للحدث الذي وقع أولًا. التكوين: had + التصريف الثالث للفعل (past participle). مثال: I had waited 15 minutes when Pete arrived. الانتظار حدث أولًا ثم وصل بيت. كلمة had واحدة مع كل الضمائر.", "explanation_en": "Use the past perfect for the first of two past events. Form: had + past participle. Example: I had waited 15 minutes when Pete arrived. The waiting happened first. 'Had' is the same for all subjects.", "examples": ["Pete had promised to meet Anna at 8:00.", "I had waited 15 minutes when Pete arrived.", "After Pete had wasted time, we were late.", "We were late because she had fed the birds first."]}
+    ]
+  },
+  "questions": [
+    {"question": "How do we make the past perfect?", "choices": ["have + verb-ing", "had + past participle", "was + verb-ing", "did + verb"], "answer": 1, "explanation_ar": "الماضي التام = had + التصريف الثالث.", "explanation_en": "Past perfect = had + past participle."},
+    {"question": "I ____ waited 15 minutes when Pete arrived.", "choices": ["have", "has", "had", "was"], "answer": 2, "explanation_ar": "الانتظار حدث قبل الوصول، فنستخدم had waited.", "explanation_en": "The waiting came first, so use had waited."},
+    {"question": "Which action happened FIRST? 'When we got to the station, the train had left.'", "choices": ["The train left.", "We got to the station.", "They happened together.", "Nothing happened."], "answer": 0, "explanation_ar": "الحدث بصيغة had left وقع أولًا.", "explanation_en": "The action in the past perfect (had left) happened first."},
+    {"question": "'Take turns' means:", "choices": ["to turn around", "to do things one after another", "to drive a car", "to talk at the same time"], "answer": 1, "explanation_ar": "take turns أي كل شخص في دوره.", "explanation_en": "Take turns means one person, then the other."},
+    {"question": "The trip from home to work is your ____.", "choices": ["pond", "dessert", "consultant", "commute"], "answer": 3, "explanation_ar": "commute هي الرحلة اليومية إلى العمل.", "explanation_en": "Your commute is your trip to and from work."},
+    {"question": "Choose the correct sentence.", "choices": ["She had feed the birds.", "She had fed the birds.", "She has fed the birds yesterday.", "She had feeding the birds."], "answer": 1, "explanation_ar": "التصريف الثالث لـ feed هو fed.", "explanation_en": "The past participle of feed is fed."},
+    {"question": "Ice cream after dinner is a ____.", "choices": ["desert", "dessert", "pond", "message"], "answer": 1, "explanation_ar": "dessert بحرفي s تعني الحلوى.", "explanation_en": "Dessert (double s) is sweet food after a meal."},
+    {"question": "A 'point of view' is:", "choices": ["a way of thinking", "a beautiful place", "a TV screen", "a meeting time"], "answer": 0, "explanation_ar": "point of view = وجهة نظر.", "explanation_en": "A point of view is a way of thinking about something."},
+    {"question": "In the U.S., if you are late to a business meeting, you should ____.", "choices": ["say nothing", "go home", "call and explain", "bring coffee"], "answer": 2, "explanation_ar": "حسب الدرس، تتصل وتشرح سبب التأخر.", "explanation_en": "The lesson says you should call and explain why."},
+    {"question": "'Awful' means:", "choices": ["very good", "very fast", "very big", "very bad"], "answer": 3, "explanation_ar": "awful تعني سيئًا جدًا.", "explanation_en": "Awful means very bad."}
+  ]
+}

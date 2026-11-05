@@ -1,0 +1,47 @@
+{
+  "title": "No and Not",
+  "content": {
+    "vocabulary": [
+      {"word": "no", "pos": "determiner/adverb", "meaning_en": "1) the answer to a yes/no question; 2) not any (before a noun with no article)", "meaning_ar": "لا / لا يوجد أيّ", "note_ar": "", "note_en": "", "example": "He had no reason for being late."},
+      {"word": "not", "pos": "adverb", "meaning_en": "the word that makes a verb or sentence negative", "meaning_ar": "ليس / لا (للنفي مع الفعل)", "note_ar": "يختصر إلى n't: don't, isn't", "note_en": "Short form: n't (don't, isn't).", "example": "I do not like cake."},
+      {"word": "negative", "pos": "noun", "meaning_en": "a sentence or word that says no", "meaning_ar": "النفي", "note_ar": "", "note_en": "", "example": "\"I am not happy\" is a negative."},
+      {"word": "double negative", "pos": "noun", "meaning_en": "two negative words in one sentence (wrong in standard English)", "meaning_ar": "النفي المزدوج", "note_ar": "", "note_en": "", "example": "\"We don't have no time\" is a double negative."},
+      {"word": "reason", "pos": "noun", "meaning_en": "why something happens", "meaning_ar": "سبب", "note_ar": "", "note_en": "", "example": "He had no reason for being late."},
+      {"word": "worthy", "pos": "adjective", "meaning_en": "having value; good enough", "meaning_ar": "جدير / ذو قيمة", "note_ar": "", "note_en": "", "example": "He has no worthy opponents."},
+      {"word": "opponent", "pos": "noun", "meaning_en": "a person you play or compete against", "meaning_ar": "خصم / منافس", "note_ar": "", "note_en": "", "example": "The champion beat every opponent."},
+      {"word": "enough", "pos": "determiner", "meaning_en": "as much as you need", "meaning_ar": "كافٍ / ما يكفي", "note_ar": "تُنطق /ɪˈnʌf/", "note_en": "Pronounced /ɪˈnʌf/.", "example": "We do not have enough time."},
+      {"word": "auxiliary verb", "pos": "noun", "meaning_en": "a helping verb: do, be, have, can, could...", "meaning_ar": "فعل مساعد", "note_ar": "", "note_en": "", "example": "In \"I do not know\", \"do\" is an auxiliary verb."},
+      {"word": "yes/no question", "pos": "noun", "meaning_en": "a question you answer with yes or no", "meaning_ar": "سؤال جوابه نعم أو لا", "note_ar": "", "note_en": "", "example": "\"Would you like some cake?\" is a yes/no question."},
+      {"word": "memorization", "pos": "noun", "meaning_en": "learning something by heart", "meaning_ar": "الحفظ عن ظهر قلب", "note_ar": "", "note_en": "", "example": "No and not are not just memorization; there are rules."}
+    ],
+    "fine_lines": [
+      {"title": "no vs not", "words": ["no", "not"], "explanation_ar": "في كثير من اللغات كلمة واحدة للنفي، أما في الإنجليزية فهناك no و not. no: جواب سؤال نعم/لا، وقبل اسم بدون أداة. not: مع الفعل، وقبل اسم معه أداة (a/the)، وقبل many / any / much / enough. لا تقل I no happy بل I am not happy.", "explanation_en": "Many languages have one word, but English has two. \"No\": to answer a yes/no question, and before a noun with no article. \"Not\": with verbs, before a noun with an article (a/the), and before many / any / much / enough. Say \"I am not happy\", not \"I no happy\".", "examples": [{"word": "no", "sentence": "There is no milk."}, {"word": "not", "sentence": "This is not a house."}]},
+      {"title": "no reason vs not a reason", "words": ["no + noun", "not + a + noun"], "explanation_ar": "إذا لم توجد أداة نستعمل no: no reason. إذا وُجدت أداة نستعمل not: not a reason.", "explanation_en": "No article → no: \"no reason\". With an article → not: \"not a reason\".", "examples": [{"word": "no + noun", "sentence": "He had no reason to be late."}, {"word": "not + a + noun", "sentence": "That is not a good reason."}]}
+    ],
+    "expressions": [
+      {"phrase": "No, I don't want any cake.", "meaning_ar": "لا، لا أريد أي كعك.", "meaning_en": "A polite negative answer to an offer.", "example": "\"Would you like some cake?\" \"No, I don't want any cake, thank you.\""},
+      {"phrase": "We do not have enough time.", "meaning_ar": "ليس لدينا وقت كافٍ.", "meaning_en": "There is less time than we need.", "example": "Hurry up! We do not have enough time."},
+      {"phrase": "I am not happy.", "meaning_ar": "أنا لست سعيدًا.", "meaning_en": "The correct negative of \"I am happy\".", "example": "I am not happy with my test result."}
+    ],
+    "grammar": [
+      {"title": "Use \"no\" to answer yes/no questions", "explanation_ar": "عند الإجابة عن سؤال جوابه نعم أو لا نقول no (وليس not)، ثم نفصل بفاصلة ونكمل الجملة المنفية.", "explanation_en": "To answer a yes/no question, say \"no\" (not \"not\"), then a comma and the negative sentence.", "examples": ["\"Would you like some cake?\" \"No, I don't want any cake.\"", "\"Are you tired?\" \"No, I'm fine.\""]},
+      {"title": "Use \"no\" before a noun without an article", "explanation_ar": "نضع no قبل اسم ليس معه a أو the، حتى لو كان قبله صفة: no reason, no worthy opponents.", "explanation_en": "Put \"no\" before a noun with no article, even with an adjective: no reason, no worthy opponents.", "examples": ["He had no reason for being late.", "He has no worthy opponents.", "There is no milk in the fridge."]},
+      {"title": "Exceptions: not with many, any, much, enough", "explanation_ar": "لا نستعمل no مع many و any و much و enough، بل نستعمل not مع الفعل: I do not have enough money.", "explanation_en": "Don't use \"no\" with many, any, much or enough. Use \"not\" with the verb: \"I do not have enough money.\"", "examples": ["We do not have enough time.", "I don't have many friends here.", "She doesn't have much money."]},
+      {"title": "Use \"not\" before a noun with an article", "explanation_ar": "إذا كان قبل الاسم أداة (a/an/the) نستعمل not: This is not a house.", "explanation_en": "If the noun has an article (a/an/the), use \"not\": \"This is not a house.\"", "examples": ["This is not a house. It's a box.", "That is not the right answer."]},
+      {"title": "\"Not\" makes verbs negative", "explanation_ar": "not تنفي الأفعال، خاصة مع الأفعال المساعدة والأفعال الناقصة: do not like, could not go, is not here. no لا تنفي الأفعال.", "explanation_en": "\"Not\" makes verbs negative, especially with auxiliary and modal verbs: do not like, could not go, is not here. \"No\" cannot do this.", "examples": ["I do not like cake.", "She could not come.", "He is not at home."]},
+      {"title": "No double negatives", "explanation_ar": "لا نجمع no و not (أو كلمتي نفي) في الجملة نفسها، فهذا نفي مزدوج خاطئ: We don't have no time ✗ → We don't have any time ✓. لكن يمكن قول No, I'm not... لأن الفاصلة تفصل بين الفكرتين.", "explanation_en": "Don't put no and not (two negatives) in one sentence: \"We don't have no time\" ✗ → \"We don't have any time\" ✓. \"No, I'm not...\" is fine because a comma separates the ideas.", "examples": ["We don't have any time. ✓", "We have no time. ✓", "No, I'm not tired. ✓"]}
+    ]
+  },
+  "questions": [
+    {"question": "\"He had ___ reason for being late.\"", "choices": ["not", "no", "not a", "any not"], "answer": 1, "explanation_ar": "اسم بدون أداة: no reason.", "explanation_en": "Noun without an article: no reason."},
+    {"question": "\"This is ___ a house. It's a box.\"", "choices": ["no", "none", "not", "nothing"], "answer": 2, "explanation_ar": "قبل اسم معه أداة a نستعمل not.", "explanation_en": "Before a noun with \"a\", use \"not\"."},
+    {"question": "\"We do ___ have enough time.\"", "choices": ["no", "none", "nothing", "not"], "answer": 3, "explanation_ar": "not تنفي الفعل، و no لا تأتي مع enough.", "explanation_en": "\"Not\" makes the verb negative; \"no\" can't go with \"enough\"."},
+    {"question": "\"Would you like some cake?\" \"___, thank you.\"", "choices": ["No", "Not", "None", "Nothing"], "answer": 0, "explanation_ar": "جواب سؤال نعم/لا: No.", "explanation_en": "Answer to a yes/no question: No."},
+    {"question": "Choose the correct sentence.", "choices": ["I no happy.", "I am no happy.", "I am not happy.", "I not am happy."], "answer": 2, "explanation_ar": "نستعمل not بعد فعل be.", "explanation_en": "Use \"not\" after the verb \"be\"."},
+    {"question": "Which sentence has a double negative (wrong)?", "choices": ["We don't have any time.", "We don't have no time.", "We have no time.", "No, we don't have time."], "answer": 1, "explanation_ar": "don't + no نفي مزدوج.", "explanation_en": "\"don't\" + \"no\" is a double negative."},
+    {"question": "\"He has ___ worthy opponents.\"", "choices": ["no", "not", "not any of", "none"], "answer": 0, "explanation_ar": "صفة + اسم بدون أداة: no.", "explanation_en": "Adjective + noun, no article: no."},
+    {"question": "Which word can NOT come after \"no\"?", "choices": ["reason", "milk", "money", "enough"], "answer": 3, "explanation_ar": "enough من الاستثناءات: نقول not enough.", "explanation_en": "\"Enough\" is an exception: we say \"not enough\"."},
+    {"question": "\"She could ___ come to the party.\"", "choices": ["no", "none", "not", "nothing"], "answer": 2, "explanation_ar": "not بعد الفعل الناقص could.", "explanation_en": "\"Not\" after the modal \"could\"."},
+    {"question": "What does \"worthy\" mean?", "choices": ["angry", "of value, good enough", "late", "enough"], "answer": 1, "explanation_ar": "worthy = ذو قيمة، جدير.", "explanation_en": "\"Worthy\" = of value, good enough."}
+  ]
+}

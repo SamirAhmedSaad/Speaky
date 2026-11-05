@@ -1,0 +1,423 @@
+{
+ "title": "Describing things",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "big",
+    "pos": "adjective",
+    "meaning_en": "large in size",
+    "meaning_ar": "كبير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's a big TV."
+   },
+   {
+    "word": "small",
+    "pos": "adjective",
+    "meaning_en": "little in size",
+    "meaning_ar": "صغير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's a small phone."
+   },
+   {
+    "word": "new",
+    "pos": "adjective",
+    "meaning_en": "recently made or bought",
+    "meaning_ar": "جديد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's a new car."
+   },
+   {
+    "word": "old",
+    "pos": "adjective",
+    "meaning_en": "made or bought a long time ago",
+    "meaning_ar": "قديم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's an old bag."
+   },
+   {
+    "word": "expensive",
+    "pos": "adjective",
+    "meaning_en": "costing a lot of money",
+    "meaning_ar": "غالٍ / باهظ الثمن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's an expensive watch."
+   },
+   {
+    "word": "cheap",
+    "pos": "adjective",
+    "meaning_en": "not costing much money",
+    "meaning_ar": "رخيص",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This pen is cheap."
+   },
+   {
+    "word": "heavy",
+    "pos": "adjective",
+    "meaning_en": "weighing a lot",
+    "meaning_ar": "ثقيل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This box is heavy."
+   },
+   {
+    "word": "light",
+    "pos": "adjective",
+    "meaning_en": "not weighing much",
+    "meaning_ar": "خفيف",
+    "note_ar": "light أيضًا تعني ضوء",
+    "note_en": "\"Light\" also means the thing that helps you see.",
+    "example": "My laptop is light."
+   },
+   {
+    "word": "TV",
+    "pos": "noun",
+    "meaning_en": "television",
+    "meaning_ar": "تلفاز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's a big, expensive, new TV."
+   },
+   {
+    "word": "this",
+    "pos": "determiner / pronoun",
+    "meaning_en": "the thing near you",
+    "meaning_ar": "هذا / هذه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What's this?"
+   },
+   {
+    "word": "that",
+    "pos": "determiner / pronoun",
+    "meaning_en": "the thing far from you",
+    "meaning_ar": "ذلك / تلك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What's that?"
+   },
+   {
+    "word": "thing",
+    "pos": "noun",
+    "meaning_en": "an object",
+    "meaning_ar": "شيء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What's this thing?"
+   },
+   {
+    "word": "bag",
+    "pos": "noun",
+    "meaning_en": "a container for carrying things",
+    "meaning_ar": "حقيبة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This bag is heavy."
+   },
+   {
+    "word": "phone",
+    "pos": "noun",
+    "meaning_en": "a device for calling people",
+    "meaning_ar": "هاتف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My phone is new."
+   },
+   {
+    "word": "very",
+    "pos": "adverb",
+    "meaning_en": "makes an adjective stronger",
+    "meaning_ar": "جدًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's very expensive."
+   },
+   {
+    "word": "long",
+    "pos": "adjective",
+    "meaning_en": "large from one end to the other",
+    "meaning_ar": "طويل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's a long table."
+   },
+   {
+    "word": "short",
+    "pos": "adjective",
+    "meaning_en": "not long",
+    "meaning_ar": "قصير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's a short pencil."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "this / that",
+    "words": [
+     "this",
+     "that"
+    ],
+    "explanation_ar": "this للشيء القريب منك، و that للشيء البعيد عنك.",
+    "explanation_en": "\"This\" is for something near you; \"that\" is for something far away.",
+    "examples": [
+     {
+      "word": "this",
+      "sentence": "What's this in my hand?"
+     },
+     {
+      "word": "that",
+      "sentence": "What's that over there?"
+     }
+    ]
+   },
+   {
+    "title": "light / heavy, cheap / expensive",
+    "words": [
+     "light",
+     "heavy",
+     "cheap",
+     "expensive"
+    ],
+    "explanation_ar": "هذه أزواج متضادة: light ضد heavy (الوزن)، و cheap ضد expensive (السعر). كذلك big ضد small، و new ضد old.",
+    "explanation_en": "These are opposites: light ≠ heavy (weight), cheap ≠ expensive (price), big ≠ small, new ≠ old.",
+    "examples": [
+     {
+      "word": "light",
+      "sentence": "The bag is light."
+     },
+     {
+      "word": "heavy",
+      "sentence": "The box is heavy."
+     },
+     {
+      "word": "cheap",
+      "sentence": "The pen is cheap."
+     },
+     {
+      "word": "expensive",
+      "sentence": "The watch is expensive."
+     }
+    ]
+   },
+   {
+    "title": "old (thing) / old (person)",
+    "words": [
+     "old",
+     "new",
+     "young"
+    ],
+    "explanation_ar": "عكس old للأشياء هو new، أما للأشخاص فعكسها young.",
+    "explanation_en": "For things, the opposite of \"old\" is \"new\". For people, it is \"young\".",
+    "examples": [
+     {
+      "word": "new",
+      "sentence": "It's a new car."
+     },
+     {
+      "word": "young",
+      "sentence": "He's a young man."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What's this?",
+    "meaning_ar": "ما هذا؟",
+    "meaning_en": "ask about a thing near you",
+    "example": "What's this? - It's a TV."
+   },
+   {
+    "phrase": "It's big. / It's small.",
+    "meaning_ar": "إنه كبير / صغير.",
+    "meaning_en": "describe size",
+    "example": "It's big. It's a big box."
+   },
+   {
+    "phrase": "It's new. / It's old.",
+    "meaning_ar": "إنه جديد / قديم.",
+    "meaning_en": "describe age",
+    "example": "My phone is new, but my laptop is old."
+   },
+   {
+    "phrase": "It's expensive. / It's cheap.",
+    "meaning_ar": "إنه غالٍ / رخيص.",
+    "meaning_en": "describe price",
+    "example": "This watch is expensive."
+   },
+   {
+    "phrase": "It's heavy. / It's light.",
+    "meaning_ar": "إنه ثقيل / خفيف.",
+    "meaning_en": "describe weight",
+    "example": "This bag is light."
+   },
+   {
+    "phrase": "It's a big, expensive, new TV.",
+    "meaning_ar": "إنه تلفاز كبير وغالٍ وجديد.",
+    "meaning_en": "use several adjectives together",
+    "example": "It's a small, cheap, old car."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "It's + adjective / It's a + adjective + noun",
+    "explanation_ar": "الصفة في الإنجليزية تأتي بعد be (It's big) أو قبل الاسم (a big TV)، وليس بعد الاسم كما في العربية. الصفة لا تتغير مع الجمع: big TVs.",
+    "explanation_en": "Adjectives go after \"be\" (It's big) or before the noun (a big TV). They never take -s.",
+    "examples": [
+     "It's big.",
+     "It's a big TV.",
+     "They're cheap bags."
+    ]
+   },
+   {
+    "title": "Opposite adjectives",
+    "explanation_ar": "تعلّم الصفات في أزواج متضادة لتتذكرها بسهولة: big/small، new/old، expensive/cheap، heavy/light.",
+    "explanation_en": "Learn adjectives in pairs of opposites.",
+    "examples": [
+     "big ≠ small",
+     "new ≠ old",
+     "expensive ≠ cheap",
+     "heavy ≠ light"
+    ]
+   },
+   {
+    "title": "a / an with adjectives",
+    "explanation_ar": "نختار a أو an حسب أول صوت في الكلمة التي بعدها مباشرة: a TV لكن an expensive TV، و an old bag.",
+    "explanation_en": "Choose \"a\" or \"an\" by the first sound of the next word: an expensive TV, an old bag.",
+    "examples": [
+     "It's a new phone.",
+     "It's an old phone.",
+     "It's an expensive watch."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "The opposite of \"heavy\" is ...",
+   "choices": [
+    "big",
+    "light",
+    "cheap",
+    "old"
+   ],
+   "answer": 1,
+   "explanation_ar": "light عكس heavy.",
+   "explanation_en": "\"Light\" is the opposite of \"heavy\"."
+  },
+  {
+   "question": "It's ___ expensive TV.",
+   "choices": [
+    "a",
+    "the a",
+    "an",
+    "some"
+   ],
+   "answer": 2,
+   "explanation_ar": "expensive تبدأ بصوت متحرك، لذا an.",
+   "explanation_en": "\"Expensive\" starts with a vowel sound, so \"an\"."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "It's a big TV.",
+    "It's a TV big.",
+    "It's TV a big.",
+    "It's a bigs TV."
+   ],
+   "answer": 0,
+   "explanation_ar": "الصفة قبل الاسم: a big TV.",
+   "explanation_en": "The adjective goes before the noun."
+  },
+  {
+   "question": "This watch costs a lot of money. It's ___.",
+   "choices": [
+    "cheap",
+    "light",
+    "small",
+    "expensive"
+   ],
+   "answer": 3,
+   "explanation_ar": "expensive = غالٍ.",
+   "explanation_en": "\"Expensive\" means it costs a lot."
+  },
+  {
+   "question": "What's ___? (the thing in my hand)",
+   "choices": [
+    "that",
+    "this",
+    "those",
+    "they"
+   ],
+   "answer": 1,
+   "explanation_ar": "this للشيء القريب.",
+   "explanation_en": "\"This\" is for something near you."
+  },
+  {
+   "question": "The opposite of an \"old\" car is a ___ car.",
+   "choices": [
+    "new",
+    "young",
+    "big",
+    "cheap"
+   ],
+   "answer": 0,
+   "explanation_ar": "للأشياء: old عكس new.",
+   "explanation_en": "For things, the opposite of \"old\" is \"new\"."
+  },
+  {
+   "question": "They are ___.",
+   "choices": [
+    "cheaps bags",
+    "bags cheap",
+    "cheap bags",
+    "cheap bag"
+   ],
+   "answer": 2,
+   "explanation_ar": "الصفة لا تأخذ s وتأتي قبل الاسم.",
+   "explanation_en": "Adjectives don't take -s and go before the noun."
+  },
+  {
+   "question": "\"Cheap\" means ...",
+   "choices": [
+    "weighing a lot",
+    "very big",
+    "very new",
+    "not costing much"
+   ],
+   "answer": 3,
+   "explanation_ar": "cheap = رخيص.",
+   "explanation_en": "\"Cheap\" means not costing much."
+  },
+  {
+   "question": "It's ___ old bag.",
+   "choices": [
+    "an",
+    "a",
+    "the an",
+    "two"
+   ],
+   "answer": 0,
+   "explanation_ar": "old تبدأ بصوت متحرك.",
+   "explanation_en": "\"Old\" starts with a vowel sound, so \"an\"."
+  },
+  {
+   "question": "Which pair are opposites?",
+   "choices": [
+    "big - heavy",
+    "small - big",
+    "new - cheap",
+    "light - cheap"
+   ],
+   "answer": 1,
+   "explanation_ar": "small عكس big.",
+   "explanation_en": "\"Small\" and \"big\" are opposites."
+  }
+ ]
+}

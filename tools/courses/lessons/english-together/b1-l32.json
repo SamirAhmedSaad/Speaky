@@ -1,0 +1,425 @@
+{
+  "title": "Talking About Exams",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "upcoming",
+        "pos": "adjective",
+        "meaning_en": "happening soon",
+        "meaning_ar": "قادم / وشيك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How do you feel about the upcoming exams?"
+      },
+      {
+        "word": "worried",
+        "pos": "adjective",
+        "meaning_en": "feeling afraid that something bad may happen",
+        "meaning_ar": "قلق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm a bit worried about math."
+      },
+      {
+        "word": "stressful",
+        "pos": "adjective",
+        "meaning_en": "making you feel worried and tense",
+        "meaning_ar": "مُجهِد / مسبّب للتوتر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Exams can be stressful."
+      },
+      {
+        "word": "plan",
+        "pos": "noun",
+        "meaning_en": "a list of steps to do something",
+        "meaning_ar": "خطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need a study plan."
+      },
+      {
+        "word": "subject",
+        "pos": "noun",
+        "meaning_en": "something you study at school, like math",
+        "meaning_ar": "مادة دراسية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "English is my favorite subject."
+      },
+      {
+        "word": "schedule",
+        "pos": "noun",
+        "meaning_en": "a plan of times for doing things",
+        "meaning_ar": "جدول زمني",
+        "note_ar": "stick to a schedule = يلتزم بالجدول",
+        "note_en": "stick to a schedule",
+        "example": "I find it hard to stick to a study schedule."
+      },
+      {
+        "word": "break",
+        "pos": "noun",
+        "meaning_en": "a short rest",
+        "meaning_ar": "استراحة",
+        "note_ar": "take a break = يأخذ استراحة",
+        "note_en": "take a break",
+        "example": "Take short breaks to relax."
+      },
+      {
+        "word": "recharge",
+        "pos": "verb",
+        "meaning_en": "get your energy back",
+        "meaning_ar": "يستعيد نشاطه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A short walk helps me recharge."
+      },
+      {
+        "word": "concentrate",
+        "pos": "verb",
+        "meaning_en": "think carefully about one thing",
+        "meaning_ar": "يركّز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't concentrate when it's noisy."
+      },
+      {
+        "word": "tips",
+        "pos": "noun",
+        "meaning_en": "small pieces of useful advice",
+        "meaning_ar": "نصائح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thanks for the tips."
+      },
+      {
+        "word": "practice",
+        "pos": "verb",
+        "meaning_en": "do something again and again to improve",
+        "meaning_ar": "يتمرّن / يتدرّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Practice regularly to improve."
+      },
+      {
+        "word": "regularly",
+        "pos": "adverb",
+        "meaning_en": "often and at the same times",
+        "meaning_ar": "بانتظام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I study regularly."
+      },
+      {
+        "word": "stuck",
+        "pos": "adjective",
+        "meaning_en": "not able to continue",
+        "meaning_ar": "عالق / متوقّف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ask for help if you're stuck."
+      },
+      {
+        "word": "confident",
+        "pos": "adjective",
+        "meaning_en": "sure of yourself",
+        "meaning_ar": "واثق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I feel more confident now."
+      },
+      {
+        "word": "chemistry",
+        "pos": "noun",
+        "meaning_en": "the science of substances",
+        "meaning_ar": "الكيمياء",
+        "note_ar": "تُنطق /ˈkemɪstri/",
+        "note_en": "Say /ˈkemɪstri/.",
+        "example": "Chemistry is difficult for me."
+      },
+      {
+        "word": "prepositions",
+        "pos": "noun",
+        "meaning_en": "words like in, on, at",
+        "meaning_ar": "حروف الجرّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have trouble with prepositions."
+      },
+      {
+        "word": "reading comprehension",
+        "pos": "noun",
+        "meaning_en": "understanding what you read",
+        "meaning_ar": "فهم المقروء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Reading comprehension improves with practice."
+      },
+      {
+        "word": "revision",
+        "pos": "noun",
+        "meaning_en": "studying again before an exam",
+        "meaning_ar": "المراجعة",
+        "note_ar": "في أمريكا: review",
+        "note_en": "US: review.",
+        "example": "I need time for revision."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "worried vs stressful",
+        "words": [
+          "worried",
+          "stressful"
+        ],
+        "explanation_ar": "worried تصف شعور الشخص (أنا قلق)، و stressful تصف الشيء المسبب للتوتر (الامتحانات مجهدة).",
+        "explanation_en": "\"Worried\" describes how you feel. \"Stressful\" describes the thing.",
+        "examples": [
+          {
+            "word": "worried",
+            "sentence": "I'm a bit worried."
+          },
+          {
+            "word": "stressful",
+            "sentence": "Exams can be stressful."
+          }
+        ]
+      },
+      {
+        "title": "study vs practice",
+        "words": [
+          "study",
+          "practice"
+        ],
+        "explanation_ar": "study تعني تتعلّم وتقرأ عن موضوع، و practice تعني تكرّر شيئًا لتتحسّن فيه.",
+        "explanation_en": "Study = learn about something. Practice = do it again and again to get better.",
+        "examples": [
+          {
+            "word": "study",
+            "sentence": "I study history every evening."
+          },
+          {
+            "word": "practice",
+            "sentence": "Practice reading every day."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How do you feel about the upcoming exams?",
+        "meaning_ar": "ما شعورك تجاه الامتحانات القادمة؟",
+        "meaning_en": "Ask about someone's feelings.",
+        "example": "How do you feel about the upcoming exams? I'm a bit worried."
+      },
+      {
+        "phrase": "I don't know where to start.",
+        "meaning_ar": "لا أعرف من أين أبدأ.",
+        "meaning_en": "Say a task feels too big.",
+        "example": "There's so much to study. I don't know where to start."
+      },
+      {
+        "phrase": "Have you made a plan? — Not yet.",
+        "meaning_ar": "هل وضعت خطة؟ — ليس بعد.",
+        "meaning_en": "Ask if someone has done something.",
+        "example": "Have you made a plan? Not yet."
+      },
+      {
+        "phrase": "That makes sense. I'll do that.",
+        "meaning_ar": "هذا منطقي. سأفعل ذلك.",
+        "meaning_en": "Agree with advice.",
+        "example": "Write a list first. That makes sense. I'll do that."
+      },
+      {
+        "phrase": "Thanks for the tips.",
+        "meaning_ar": "شكرًا على النصائح.",
+        "meaning_en": "Thank someone for advice.",
+        "example": "Take breaks and sleep well. Thanks for the tips."
+      },
+      {
+        "phrase": "Don't be afraid to ask for help.",
+        "meaning_ar": "لا تخف من طلب المساعدة.",
+        "meaning_en": "Encourage someone.",
+        "example": "If you're stuck, don't be afraid to ask for help."
+      },
+      {
+        "phrase": "Let's support each other and do our best!",
+        "meaning_ar": "لندعم بعضنا ونبذل قصارى جهدنا!",
+        "meaning_en": "Encourage a friend.",
+        "example": "We have exams next week. Let's support each other and do our best!"
+      },
+      {
+        "phrase": "If you need any help, just ask.",
+        "meaning_ar": "إذا احتجت أي مساعدة، فقط اطلب.",
+        "meaning_en": "Offer help.",
+        "example": "Good luck! If you need any help, just ask."
+      },
+      {
+        "phrase": "How's your exam preparation going?",
+        "meaning_ar": "كيف يسير استعدادك للامتحان؟",
+        "meaning_en": "Ask about studying.",
+        "example": "How's your exam preparation going? Not too bad."
+      },
+      {
+        "phrase": "Good luck with your next exam!",
+        "meaning_ar": "حظًا موفقًا في امتحانك القادم!",
+        "meaning_en": "Wish someone success.",
+        "example": "Good luck with your next exam! Thanks, you too!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Giving advice with imperatives",
+        "explanation_ar": "نقدّم النصيحة بالأمر (الفعل في أصله في أول الجملة): Write down all the subjects. Take short breaks. والنفي: Don't be afraid. Don't forget to take breaks.",
+        "explanation_en": "Give advice with imperatives: Take breaks. Negative: Don't be afraid.",
+        "examples": [
+          "First, write down all the subjects you need to study.",
+          "Take short breaks to relax and recharge.",
+          "Don't be afraid to ask for help."
+        ]
+      },
+      {
+        "title": "Present perfect: Have you made one? — Not yet.",
+        "explanation_ar": "نسأل هل حدث شيء حتى الآن: Have you + التصريف الثالث؟ والجواب: Not yet (ليس بعد) أو Yes, I have.",
+        "explanation_en": "Ask: Have you + past participle? Answer: Not yet / Yes, I have.",
+        "examples": [
+          "Have you made one? Not yet.",
+          "Your advice has made me more confident.",
+          "Have you started studying?"
+        ]
+      },
+      {
+        "title": "Sequence words: First, Then",
+        "explanation_ar": "نرتّب الخطوات: First (أولًا)... Then (ثم)...",
+        "explanation_en": "Use First... Then... to order steps.",
+        "examples": [
+          "First, write down all the subjects.",
+          "Then, decide which ones are the most difficult.",
+          "Start with easy problems and move on to harder ones."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I'm a bit ___ about the exams.",
+      "choices": [
+        "worry",
+        "stressful",
+        "worried",
+        "worrying"
+      ],
+      "answer": 2,
+      "explanation_ar": "worried تصف شعور الشخص.",
+      "explanation_en": "\"Worried\" describes your feeling."
+    },
+    {
+      "question": "Exams can be ___.",
+      "choices": [
+        "stressful",
+        "worried",
+        "stress",
+        "stressed out"
+      ],
+      "answer": 0,
+      "explanation_ar": "stressful تصف الشيء المسبب للتوتر.",
+      "explanation_en": "\"Stressful\" describes the thing."
+    },
+    {
+      "question": "Have you made a plan? — Not ___.",
+      "choices": [
+        "yet",
+        "already",
+        "still",
+        "ever"
+      ],
+      "answer": 0,
+      "explanation_ar": "Not yet = ليس بعد.",
+      "explanation_en": "\"Not yet\" = not until now."
+    },
+    {
+      "question": "___ short breaks to relax and recharge.",
+      "choices": [
+        "Taking",
+        "Take",
+        "Takes",
+        "To taking"
+      ],
+      "answer": 1,
+      "explanation_ar": "نصيحة بالأمر: الفعل في أصله.",
+      "explanation_en": "Imperative: base verb."
+    },
+    {
+      "question": "Don't be afraid ___ ask for help.",
+      "choices": [
+        "for",
+        "at",
+        "of",
+        "to"
+      ],
+      "answer": 3,
+      "explanation_ar": "afraid to + الفعل.",
+      "explanation_en": "\"afraid to\" + verb."
+    },
+    {
+      "question": "Find a place where you can ___.",
+      "choices": [
+        "subject",
+        "stuck",
+        "worried",
+        "concentrate"
+      ],
+      "answer": 3,
+      "explanation_ar": "concentrate تعني يركّز.",
+      "explanation_en": "Concentrate = think carefully about one thing."
+    },
+    {
+      "question": "Math, English and chemistry are school ___.",
+      "choices": [
+        "subjects",
+        "breaks",
+        "tips",
+        "schedules"
+      ],
+      "answer": 0,
+      "explanation_ar": "subjects مواد دراسية.",
+      "explanation_en": "They are subjects."
+    },
+    {
+      "question": "Studying again before an exam is ___.",
+      "choices": [
+        "revision",
+        "recharge",
+        "chemistry",
+        "break"
+      ],
+      "answer": 0,
+      "explanation_ar": "revision المراجعة.",
+      "explanation_en": "Revision = studying again."
+    },
+    {
+      "question": "Your advice has ___ me more confident.",
+      "choices": [
+        "make",
+        "made",
+        "making",
+        "makes"
+      ],
+      "answer": 1,
+      "explanation_ar": "has + التصريف الثالث: made.",
+      "explanation_en": "has + past participle: made."
+    },
+    {
+      "question": "Good luck with your next exam! — Thanks! Good luck to you ___!",
+      "choices": [
+        "either",
+        "also to",
+        "too",
+        "so"
+      ],
+      "answer": 2,
+      "explanation_ar": "to you too = ولك أيضًا.",
+      "explanation_en": "\"To you too\" = for you also."
+    }
+  ]
+}

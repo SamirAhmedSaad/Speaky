@@ -1,0 +1,49 @@
+{
+  "title": "Articles: a, an, the",
+  "content": {
+    "vocabulary": [
+      {"word": "article", "pos": "noun", "meaning_en": "the small words a, an and the that come before a noun", "meaning_ar": "أداة (أداة التعريف أو التنكير)", "note_ar": "", "note_en": "", "example": "\"The\" is an article."},
+      {"word": "a", "pos": "article", "meaning_en": "one, any (not a specific one); before a consonant sound", "meaning_ar": "أداة نكرة: واحد / أيّ", "note_ar": "تُنطق غالبًا /ə/", "note_en": "Usually pronounced /ə/.", "example": "Can you get me a pen?"},
+      {"word": "an", "pos": "article", "meaning_en": "the same as \"a\", used before a vowel sound", "meaning_ar": "أداة نكرة تُستعمل قبل صوت متحرك", "note_ar": "", "note_en": "", "example": "I ate an apple."},
+      {"word": "the", "pos": "article", "meaning_en": "used for a specific thing that everyone knows about", "meaning_ar": "أداة التعريف (ال)", "note_ar": "تُنطق /ðə/ قبل الصوت الساكن و/ði/ قبل الصوت المتحرك", "note_en": "Say /ðə/ before a consonant sound, /ði/ before a vowel sound.", "example": "The pen is blue."},
+      {"word": "singular", "pos": "adjective", "meaning_en": "one only", "meaning_ar": "مفرد", "note_ar": "", "note_en": "", "example": "\"Pen\" is singular; \"pens\" is plural."},
+      {"word": "plural", "pos": "adjective", "meaning_en": "more than one", "meaning_ar": "جمع", "note_ar": "", "note_en": "", "example": "\"Apples\" is a plural noun."},
+      {"word": "general", "pos": "adjective", "meaning_en": "not a particular one; any one", "meaning_ar": "عام / غير محدد", "note_ar": "", "note_en": "", "example": "\"A pen\" means a general pen, any pen."},
+      {"word": "specific", "pos": "adjective", "meaning_en": "a particular one that we know", "meaning_ar": "محدد / معيّن", "note_ar": "", "note_en": "", "example": "I want the specific book on the table."},
+      {"word": "vowel", "pos": "noun", "meaning_en": "the letters/sounds a, e, i, o, u", "meaning_ar": "حرف متحرك (صوتي)", "note_ar": "", "note_en": "", "example": "\"Elephant\" starts with a vowel."},
+      {"word": "consonant", "pos": "noun", "meaning_en": "a letter/sound that is not a vowel, like b, t, p", "meaning_ar": "حرف ساكن", "note_ar": "", "note_en": "", "example": "\"Pen\" starts with a consonant."},
+      {"word": "mention", "pos": "verb", "meaning_en": "talk about something briefly", "meaning_ar": "يذكر", "note_ar": "", "note_en": "", "example": "The first time I mention a pen, I say \"a pen\"."},
+      {"word": "distinction", "pos": "noun", "meaning_en": "a difference between two things", "meaning_ar": "فرق / تمييز", "note_ar": "", "note_en": "", "example": "There is an important distinction between \"a\" and \"the\"."},
+      {"word": "have no idea", "pos": "phrase", "meaning_en": "not know at all", "meaning_ar": "لا يعرف إطلاقًا", "note_ar": "", "note_en": "", "example": "I have no idea where my keys are."},
+      {"word": "university", "pos": "noun", "meaning_en": "a place where people study after school", "meaning_ar": "جامعة", "note_ar": "تبدأ بصوت /juː/ (يو) لذلك نقول a university", "note_en": "It starts with a /juː/ sound, so we say \"a university\".", "example": "My brother goes to a university in Cairo."},
+      {"word": "European", "pos": "adjective", "meaning_en": "from Europe", "meaning_ar": "أوروبي", "note_ar": "تبدأ بصوت /jʊ/ لذلك نقول a European", "note_en": "Starts with a /jʊ/ sound, so: a European country.", "example": "France is a European country."}
+    ],
+    "fine_lines": [
+      {"title": "a vs the", "words": ["a", "the"], "explanation_ar": "a لشيء عام غير محدد، أو عندما نذكره أول مرة، أو عندما لا يعرف السامع ما نقصد. the لشيء محدد، أو ذكرناه من قبل، أو عندما يعرف الجميع ما نقصد.", "explanation_en": "Use \"a\" for a general thing, the first time you mention it, or when the listener doesn't know which one. Use \"the\" for a specific thing, something mentioned before, or when everyone knows which one.", "examples": [{"word": "a", "sentence": "I'm going to a party tonight."}, {"word": "the", "sentence": "I'm going to the party. Are you going too?"}]},
+      {"title": "a vs an", "words": ["a", "an"], "explanation_ar": "المهم هو الصوت الأول وليس الحرف. an قبل صوت متحرك (an apple, an elephant). a قبل صوت ساكن، ومنه صوت \"يو\" (a university, a European city).", "explanation_en": "Look at the first sound, not the letter. Use \"an\" before a vowel sound (an apple, an elephant). Use \"a\" before a consonant sound, including the \"you\" sound (a university, a European city).", "examples": [{"word": "an", "sentence": "There is an elephant at the zoo."}, {"word": "a", "sentence": "She studies at a university."}]}
+    ],
+    "expressions": [
+      {"phrase": "Can you get me a pen?", "meaning_ar": "هل يمكنك أن تحضر لي قلمًا؟", "meaning_en": "Please bring me any pen.", "example": "Can you get me a pen? I need to write something."},
+      {"phrase": "The pen's over there.", "meaning_ar": "القلم هناك.", "meaning_en": "The pen we both know is in that place.", "example": "\"Where's my pen?\" \"The pen's over there, on the desk.\""},
+      {"phrase": "What are you doing tonight?", "meaning_ar": "ماذا ستفعل الليلة؟", "meaning_en": "A question about someone's plans for this evening.", "example": "What are you doing tonight? I'm going to a party."}
+    ],
+    "grammar": [
+      {"title": "Articles go with singular nouns", "explanation_ar": "a و an تأتيان فقط مع الاسم المفرد المعدود: a pen وليس a pens. أما the فيمكن أن تأتي مع المفرد والجمع.", "explanation_en": "\"A\" and \"an\" go only with one (singular) countable thing: a pen, not a pens. \"The\" can go with singular or plural.", "examples": ["I have a pen.", "The pens are on the table."]},
+      {"title": "Use a/an for general things and first mention", "explanation_ar": "نستعمل a/an عندما نتكلم عن شيء عام (أي واحد)، أو عندما نذكر الشيء لأول مرة، أو عندما لا يعرف السامع أي شيء نقصد.", "explanation_en": "Use a/an for a general thing (any one), when you mention it for the first time, or when the listener doesn't know which one you mean.", "examples": ["This is a pen.", "I'm going to a party tonight."]},
+      {"title": "Use the for specific or known things", "explanation_ar": "نستعمل the عندما نتكلم عن شيء محدد، أو شيء ذكرناه من قبل، أو عندما يعرف المتكلم والسامع معًا ما المقصود.", "explanation_en": "Use \"the\" for a specific thing, something mentioned before, or when the speaker and the listener both know which one.", "examples": ["I have a pen. The pen is blue.", "I'm going to the party. Are you going?"]},
+      {"title": "a or an? Listen to the first sound", "explanation_ar": "قبل الصوت المتحرك نستعمل an: an apple, an elephant. الكلمات التي تبدأ بصوت \"يو\" مثل university و European نستعمل معها a لأن صوتها الأول ساكن. أداة the لا تتغير.", "explanation_en": "Before a vowel sound, use \"an\": an apple, an elephant. Words that start with a \"you\" sound, like university and European, take \"a\". \"The\" never changes.", "examples": ["an apple", "an elephant", "a university", "a European country"]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I'm going to ___ party tonight.\" (Your friend doesn't know about it.)", "choices": ["the", "a", "an", "–"], "answer": 1, "explanation_ar": "صديقك لا يعرف الحفلة، فهي غير محددة بالنسبة له: a.", "explanation_en": "Your friend doesn't know about it, so it is general: a."},
+    {"question": "\"I have a pen. ___ pen is blue.\"", "choices": ["A", "An", "Some", "The"], "answer": 3, "explanation_ar": "ذكرنا القلم من قبل، فأصبح محددًا: the.", "explanation_en": "We mentioned the pen before, so now it is specific: the."},
+    {"question": "Choose the correct one.", "choices": ["an elephant", "a elephant", "an pen", "a apple"], "answer": 0, "explanation_ar": "elephant تبدأ بصوت متحرك، لذلك an.", "explanation_en": "\"Elephant\" starts with a vowel sound, so we use \"an\"."},
+    {"question": "\"She studies at ___ university.\"", "choices": ["an", "a", "–", "some"], "answer": 1, "explanation_ar": "university تبدأ بصوت \"يو\" وهو صوت ساكن، لذلك a.", "explanation_en": "\"University\" starts with a \"you\" sound, so we use \"a\"."},
+    {"question": "Which sentence is wrong?", "choices": ["I have a pen.", "The pens are new.", "I have a pens.", "I ate an apple."], "answer": 2, "explanation_ar": "a لا تأتي مع الجمع.", "explanation_en": "\"A\" cannot go with a plural noun."},
+    {"question": "We use \"the\" when ___.", "choices": ["we talk about any one thing", "the word starts with a vowel", "the listener doesn't know which one", "everyone knows which thing we mean"], "answer": 3, "explanation_ar": "the لشيء محدد يعرفه الجميع.", "explanation_en": "\"The\" is for a specific thing that everyone knows."},
+    {"question": "\"France is ___ European country.\"", "choices": ["a", "an", "the", "–"], "answer": 0, "explanation_ar": "European تبدأ بصوت \"يو\" فنستعمل a.", "explanation_en": "\"European\" starts with a \"you\" sound, so we use \"a\"."},
+    {"question": "What does \"specific\" mean?", "choices": ["any one", "more than one", "a particular one", "a vowel"], "answer": 2, "explanation_ar": "specific تعني شيئًا معيّنًا محددًا.", "explanation_en": "\"Specific\" means a particular one."},
+    {"question": "\"Can you get me ___ pen? Any pen is fine.\"", "choices": ["the", "an", "a", "this"], "answer": 2, "explanation_ar": "أي قلم، أي شيء عام: a.", "explanation_en": "Any pen, a general thing: a."},
+    {"question": "Which word is plural?", "choices": ["apple", "pens", "pen", "elephant"], "answer": 1, "explanation_ar": "pens جمع لأنه أكثر من واحد.", "explanation_en": "\"Pens\" means more than one, so it is plural."}
+  ]
+}

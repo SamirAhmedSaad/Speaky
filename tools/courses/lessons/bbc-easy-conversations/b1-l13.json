@@ -1,0 +1,522 @@
+{
+ "title": "What you did last weekend",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "weekend",
+    "pos": "noun",
+    "meaning_en": "Saturday and Sunday",
+    "meaning_ar": "عطلة نهاية الأسبوع",
+    "note_ar": "في بريطانيا: at the weekend، وفي أمريكا: on the weekend.",
+    "note_en": "UK: at the weekend. US: on the weekend.",
+    "example": "What did you do at the weekend?"
+   },
+   {
+    "word": "went",
+    "pos": "verb",
+    "meaning_en": "past of go",
+    "meaning_ar": "ذهب (ماضي go)",
+    "note_ar": "فعل شاذ: go → went.",
+    "note_en": "Irregular: go → went.",
+    "example": "I went to the beach."
+   },
+   {
+    "word": "ate",
+    "pos": "verb",
+    "meaning_en": "past of eat",
+    "meaning_ar": "أكل (ماضي eat)",
+    "note_ar": "فعل شاذ: eat → ate.",
+    "note_en": "Irregular: eat → ate.",
+    "example": "We ate pasta."
+   },
+   {
+    "word": "had",
+    "pos": "verb",
+    "meaning_en": "past of have",
+    "meaning_ar": "تناول / كان لديه (ماضي have)",
+    "note_ar": "فعل شاذ: have → had.",
+    "note_en": "Irregular: have → had.",
+    "example": "I had a strawberry ice cream."
+   },
+   {
+    "word": "made",
+    "pos": "verb",
+    "meaning_en": "past of make",
+    "meaning_ar": "صنع / أعدّ (ماضي make)",
+    "note_ar": "فعل شاذ: make → made.",
+    "note_en": "Irregular: make → made.",
+    "example": "I made a chocolate cake."
+   },
+   {
+    "word": "read",
+    "pos": "verb",
+    "meaning_en": "past of read",
+    "meaning_ar": "قرأ (ماضي read)",
+    "note_ar": "في الماضي يُكتب read ويُنطق مثل red.",
+    "note_en": "Past read is spelled the same but sounds like \"red\".",
+    "example": "I read a detective story."
+   },
+   {
+    "word": "watched",
+    "pos": "verb",
+    "meaning_en": "past of watch",
+    "meaning_ar": "شاهد (ماضي watch)",
+    "note_ar": "فعل منتظم: نضيف ed.",
+    "note_en": "Regular: add -ed.",
+    "example": "I watched a film at home."
+   },
+   {
+    "word": "played",
+    "pos": "verb",
+    "meaning_en": "past of play",
+    "meaning_ar": "لعب (ماضي play)",
+    "note_ar": "فعل منتظم: نضيف ed.",
+    "note_en": "Regular: add -ed.",
+    "example": "I went to the park and played frisbee."
+   },
+   {
+    "word": "was",
+    "pos": "verb",
+    "meaning_en": "past of is",
+    "meaning_ar": "كان (ماضي is/am)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It was great, thanks."
+   },
+   {
+    "word": "go hiking",
+    "pos": "phrase",
+    "meaning_en": "walk a long way in the countryside or hills",
+    "meaning_ar": "يمارس المشي لمسافات طويلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I often go hiking."
+   },
+   {
+    "word": "beach",
+    "pos": "noun",
+    "meaning_en": "the sandy place next to the sea",
+    "meaning_ar": "الشاطئ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I went to the beach."
+   },
+   {
+    "word": "ice cream",
+    "pos": "noun",
+    "meaning_en": "a cold sweet food made from milk",
+    "meaning_ar": "آيس كريم / مثلجات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I had an ice cream at the beach."
+   },
+   {
+    "word": "flavour",
+    "pos": "noun",
+    "meaning_en": "the taste of a food",
+    "meaning_ar": "نكهة",
+    "note_ar": "في أمريكا تُكتب flavor.",
+    "note_en": "US spelling: flavor.",
+    "example": "What flavour ice cream did you have?"
+   },
+   {
+    "word": "strawberry",
+    "pos": "noun",
+    "meaning_en": "a small red fruit",
+    "meaning_ar": "فراولة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I had a strawberry ice cream."
+   },
+   {
+    "word": "chocolate cake",
+    "pos": "noun",
+    "meaning_en": "a cake made with chocolate",
+    "meaning_ar": "كعكة الشوكولاتة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She made a chocolate cake."
+   },
+   {
+    "word": "delicious",
+    "pos": "adjective",
+    "meaning_en": "very good to eat",
+    "meaning_ar": "لذيذ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sounds delicious!"
+   },
+   {
+    "word": "pasta",
+    "pos": "noun",
+    "meaning_en": "Italian food made from flour and water",
+    "meaning_ar": "المعكرونة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We ate pasta with our friends."
+   },
+   {
+    "word": "park",
+    "pos": "noun",
+    "meaning_en": "a public garden in a town",
+    "meaning_ar": "حديقة عامة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I went to the park."
+   },
+   {
+    "word": "frisbee",
+    "pos": "noun",
+    "meaning_en": "a flat round toy that you throw",
+    "meaning_ar": "قرص الطيران (فريزبي)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We played frisbee in the park."
+   },
+   {
+    "word": "swimming pool",
+    "pos": "noun",
+    "meaning_en": "a place with water for swimming",
+    "meaning_ar": "حوض السباحة / المسبح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I went swimming at the swimming pool."
+   },
+   {
+    "word": "detective story",
+    "pos": "noun",
+    "meaning_en": "a story about solving a crime",
+    "meaning_ar": "قصة بوليسية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I read a detective story."
+   },
+   {
+    "word": "cinema",
+    "pos": "noun",
+    "meaning_en": "a place where you watch films",
+    "meaning_ar": "السينما",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I went to the cinema."
+   },
+   {
+    "word": "cold",
+    "pos": "adjective",
+    "meaning_en": "not warm; low temperature",
+    "meaning_ar": "بارد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's usually too cold for the beach."
+   },
+   {
+    "word": "fun",
+    "pos": "adjective",
+    "meaning_en": "enjoyable",
+    "meaning_ar": "ممتع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My weekend was fun."
+   },
+   {
+    "word": "at work",
+    "pos": "phrase",
+    "meaning_en": "at your job, in your workplace",
+    "meaning_ar": "في العمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Where are you? I'm at work."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "went vs did ... go",
+    "words": [
+     "went",
+     "did ... go"
+    ],
+    "explanation_ar": "في الجملة المثبتة نستخدم الماضي: I went. وفي السؤال نستخدم did مع المصدر: Where did you go? (وليس Where did you went?)",
+    "explanation_en": "In positive sentences use the past form (went). In questions use did + base verb (go), not did + went.",
+    "examples": [
+     {
+      "word": "went",
+      "sentence": "I went swimming."
+     },
+     {
+      "word": "did ... go",
+      "sentence": "Where did you go swimming?"
+     }
+    ]
+   },
+   {
+    "title": "read (now) vs read (past)",
+    "words": [
+     "read /riːd/",
+     "read /red/"
+    ],
+    "explanation_ar": "الفعل read يُكتب بنفس الشكل في المضارع والماضي، لكن النطق يختلف: المضارع ريد، والماضي رِد مثل كلمة red.",
+    "explanation_en": "Read is spelled the same in present and past, but the past sounds like \"red\".",
+    "examples": [
+     {
+      "word": "read /riːd/",
+      "sentence": "I often read a book."
+     },
+     {
+      "word": "read /red/",
+      "sentence": "Last weekend I read a detective story."
+     }
+    ]
+   },
+   {
+    "title": "at the weekend vs on the weekend",
+    "words": [
+     "at the weekend",
+     "on the weekend"
+    ],
+    "explanation_ar": "البريطانيون يقولون at the weekend والأمريكيون يقولون on the weekend. وكلاهما صحيح.",
+    "explanation_en": "British English says at the weekend; American English says on the weekend. Both are correct.",
+    "examples": [
+     {
+      "word": "at the weekend",
+      "sentence": "What did you do at the weekend?"
+     },
+     {
+      "word": "on the weekend",
+      "sentence": "What did you do on the weekend?"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What did you do at the weekend?",
+    "meaning_ar": "ماذا فعلت في عطلة نهاية الأسبوع؟",
+    "meaning_en": "asking about someone's weekend",
+    "example": "What did you do at the weekend? I went hiking."
+   },
+   {
+    "phrase": "How was your weekend?",
+    "meaning_ar": "كيف كانت عطلتك؟",
+    "meaning_en": "asking if someone's weekend was good",
+    "example": "How was your weekend? It was great, thanks."
+   },
+   {
+    "phrase": "It was great, thanks.",
+    "meaning_ar": "كانت رائعة، شكرًا.",
+    "meaning_en": "saying your weekend was very good",
+    "example": "How was your weekend? It was great, thanks."
+   },
+   {
+    "phrase": "It was fun, thanks.",
+    "meaning_ar": "كانت ممتعة، شكرًا.",
+    "meaning_en": "saying you enjoyed it",
+    "example": "How was your weekend? It was fun, thanks."
+   },
+   {
+    "phrase": "What else did you do?",
+    "meaning_ar": "ماذا فعلت أيضًا؟",
+    "meaning_en": "asking for more activities",
+    "example": "I went to the park. What else did you do?"
+   },
+   {
+    "phrase": "Do you usually go hiking?",
+    "meaning_ar": "هل تذهب عادةً للمشي الطويل؟",
+    "meaning_en": "asking if something is a habit",
+    "example": "Do you usually go hiking? Yes, I often go hiking."
+   },
+   {
+    "phrase": "It's usually too cold.",
+    "meaning_ar": "عادةً يكون الجو باردًا جدًا.",
+    "meaning_en": "saying the weather is normally not good for it",
+    "example": "Do you go to the beach? No, it's usually too cold."
+   },
+   {
+    "phrase": "What flavour ice cream did you have?",
+    "meaning_ar": "ما نكهة الآيس كريم التي تناولتها؟",
+    "meaning_en": "asking about the taste you chose",
+    "example": "What flavour ice cream did you have? Strawberry."
+   },
+   {
+    "phrase": "Sounds delicious!",
+    "meaning_ar": "يبدو لذيذًا!",
+    "meaning_en": "reacting to food someone describes",
+    "example": "I made a chocolate cake. Sounds delicious!"
+   },
+   {
+    "phrase": "Sorry, my family ate it all.",
+    "meaning_ar": "آسف، عائلتي أكلته كله.",
+    "meaning_en": "saying there is nothing left",
+    "example": "Can I have some cake? Sorry, my family ate it all."
+   },
+   {
+    "phrase": "Where are you? I'm at work.",
+    "meaning_ar": "أين أنت؟ أنا في العمل.",
+    "meaning_en": "asking and saying where someone is",
+    "example": "Where are you? I'm at work."
+   },
+   {
+    "phrase": "Are you there?",
+    "meaning_ar": "هل أنت هناك؟ (هل تسمعني؟)",
+    "meaning_en": "checking if someone is listening on a call",
+    "example": "Sian? Are you there? Yes, I am."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Past simple: regular and irregular verbs",
+    "explanation_ar": "نستخدم الماضي البسيط لأشياء انتهت في الماضي (مثل عطلة نهاية الأسبوع الماضية). الأفعال المنتظمة نضيف لها ed: watch → watched, play → played. والأفعال الشاذة لها شكل خاص: go → went, eat → ate, have → had, make → made, read → read.",
+    "explanation_en": "Use the past simple for finished actions. Regular verbs add -ed (watched, played). Irregular verbs change: go → went, eat → ate, have → had, make → made, read → read.",
+    "examples": [
+     "I watched a film at home.",
+     "I played frisbee in the park.",
+     "I went to the beach.",
+     "We ate pasta.",
+     "I made a cake."
+    ]
+   },
+   {
+    "title": "Past simple questions with did",
+    "explanation_ar": "السؤال في الماضي: (كلمة سؤال) + did + الفاعل + الفعل في المصدر. What did you do? Where did you go? What did you eat? ولا نستخدم الماضي بعد did.",
+    "explanation_en": "Questions: (question word) + did + subject + base verb. Don't use the past form after did.",
+    "examples": [
+     "What did you do at the weekend?",
+     "Where did you go swimming?",
+     "What book did you read?",
+     "What kind of cake did you make?"
+    ]
+   },
+   {
+    "title": "was in the past",
+    "explanation_ar": "ماضي is/am هو was: How was your weekend? It was great.",
+    "explanation_en": "The past of is/am is was.",
+    "examples": [
+     "How was your weekend?",
+     "It was fun.",
+     "It was great, thanks."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "What is the past of \"go\"?",
+   "choices": [
+    "goed",
+    "went",
+    "gone",
+    "goes"
+   ],
+   "answer": 1,
+   "explanation_ar": "go فعل شاذ وماضيه went.",
+   "explanation_en": "Go is irregular: went."
+  },
+  {
+   "question": "Complete: \"We ___ pasta with our friends.\"",
+   "choices": [
+    "eated",
+    "eat",
+    "ate",
+    "eating"
+   ],
+   "answer": 2,
+   "explanation_ar": "ماضي eat هو ate.",
+   "explanation_en": "The past of eat is ate."
+  },
+  {
+   "question": "Choose the correct question.",
+   "choices": [
+    "Where did you went?",
+    "Where you went?",
+    "Where did you go?",
+    "Where went you?"
+   ],
+   "answer": 2,
+   "explanation_ar": "بعد did نستخدم المصدر: go.",
+   "explanation_en": "After did, use the base verb: go."
+  },
+  {
+   "question": "\"How was your weekend?\" Choose the best answer.",
+   "choices": [
+    "It was great, thanks.",
+    "I go to the beach.",
+    "Yes, I did.",
+    "It is Saturday."
+   ],
+   "answer": 0,
+   "explanation_ar": "الجواب المناسب: It was great, thanks.",
+   "explanation_en": "\"It was great, thanks\" answers how the weekend was."
+  },
+  {
+   "question": "Complete: \"I ___ a chocolate cake.\"",
+   "choices": [
+    "maked",
+    "made",
+    "make",
+    "did make it"
+   ],
+   "answer": 1,
+   "explanation_ar": "ماضي make هو made.",
+   "explanation_en": "The past of make is made."
+  },
+  {
+   "question": "\"I read a detective story\" (past). How do we say \"read\" here?",
+   "choices": [
+    "like \"reed\"",
+    "like \"red\"",
+    "like \"ride\"",
+    "like \"road\""
+   ],
+   "answer": 1,
+   "explanation_ar": "read في الماضي تُنطق مثل red.",
+   "explanation_en": "Past read sounds like \"red\"."
+  },
+  {
+   "question": "Someone says \"I made a chocolate cake.\" What is a good reply?",
+   "choices": [
+    "Sounds delicious!",
+    "It's usually too cold.",
+    "I'm at work.",
+    "What time is it?"
+   ],
+   "answer": 0,
+   "explanation_ar": "Sounds delicious! = يبدو لذيذًا!",
+   "explanation_en": "Sounds delicious! is a nice reply about food."
+  },
+  {
+   "question": "Complete: \"I went to the park and ___ frisbee.\"",
+   "choices": [
+    "play",
+    "playing",
+    "plaied",
+    "played"
+   ],
+   "answer": 3,
+   "explanation_ar": "play فعل منتظم: played.",
+   "explanation_en": "Play is regular: played."
+  },
+  {
+   "question": "\"What else did you do?\" means ...",
+   "choices": [
+    "What did you do again?",
+    "What other things did you do?",
+    "Why did you do it?",
+    "Where did you go?"
+   ],
+   "answer": 1,
+   "explanation_ar": "else = أيضًا / غير ذلك.",
+   "explanation_en": "It asks for other activities."
+  },
+  {
+   "question": "Which is British English?",
+   "choices": [
+    "on the weekend",
+    "in the weekend",
+    "at the weekend",
+    "to the weekend"
+   ],
+   "answer": 2,
+   "explanation_ar": "البريطانيون يقولون at the weekend.",
+   "explanation_en": "British English: at the weekend."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "5 Phrases to Be More Professional at Work",
+  "content": {
+    "vocabulary": [
+      {"word": "colleague", "pos": "noun", "meaning_en": "a person you work with (more professional than co-worker)", "meaning_ar": "زميل عمل", "note_ar": "co-worker أقل رسمية", "note_en": "Co-worker is more casual.", "example": "I'm having lunch with my colleagues."},
+      {"word": "professional", "pos": "adjective", "meaning_en": "behaving in a serious, skilled way at work", "meaning_ar": "مهني / محترف", "note_ar": "", "note_en": "", "example": "She always sounds very professional on the phone."},
+      {"word": "confirm", "pos": "verb", "meaning_en": "to make sure something is true or correct", "meaning_ar": "يتأكّد / يؤكّد", "note_ar": "", "note_en": "", "example": "I'd like to confirm the meeting time."},
+      {"word": "confrontation", "pos": "noun", "meaning_en": "an angry argument or fight", "meaning_ar": "مواجهة / صدام", "note_ar": "", "note_en": "", "example": "She solved the problem without confrontation."},
+      {"word": "screw up", "pos": "phrasal verb", "meaning_en": "(informal) to make a bad mistake", "meaning_ar": "يُخطئ خطأً فادحًا (عامية)", "note_ar": "غير رسمية، لا تقلها لمديرك", "note_en": "Informal; don't say it to your boss.", "example": "I screwed up the order."},
+      {"word": "perspective", "pos": "noun", "meaning_en": "your way of seeing something", "meaning_ar": "وجهة نظر", "note_ar": "", "note_en": "", "example": "My perspective is that we need more staff."},
+      {"word": "touch base", "pos": "idiom", "meaning_en": "to have a short conversation to get or give an update", "meaning_ar": "يتواصل سريعًا للاطلاع على المستجدات", "note_ar": "من لعبة البيسبول", "note_en": "From baseball.", "example": "I just want to touch base about the project."},
+      {"word": "previously", "pos": "adverb", "meaning_en": "before now", "meaning_ar": "سابقًا", "note_ar": "", "note_en": "", "example": "I did previously mention this problem."},
+      {"word": "rectify", "pos": "verb", "meaning_en": "to correct or fix something (formal)", "meaning_ar": "يُصحّح", "note_ar": "", "note_en": "", "example": "How will you rectify this mistake?"},
+      {"word": "resolve", "pos": "verb", "meaning_en": "to solve a problem", "meaning_ar": "يحلّ (مشكلة)", "note_ar": "", "note_en": "", "example": "How will we resolve this issue?"},
+      {"word": "issue", "pos": "noun", "meaning_en": "a problem or subject to deal with", "meaning_ar": "مسألة / مشكلة", "note_ar": "", "note_en": "", "example": "We have an issue in the lunchroom."},
+      {"word": "assertive", "pos": "adjective", "meaning_en": "confident and direct in a strong but polite way", "meaning_ar": "حازم / واثق", "note_ar": "", "note_en": "", "example": "Be assertive when you ask for a raise."},
+      {"word": "non-verbal communication", "pos": "noun", "meaning_en": "communication with your body, face and eyes, not words", "meaning_ar": "التواصل غير اللفظي", "note_ar": "", "note_en": "", "example": "A tilted head is non-verbal communication that shows you are listening."},
+      {"word": "beneficial", "pos": "adjective", "meaning_en": "good for you; helpful", "meaning_ar": "مفيد", "note_ar": "", "note_en": "", "example": "This plan could be beneficial for the team."}
+    ],
+    "fine_lines": [
+      {"title": "I think / I'm not sure vs I believe / My perspective is", "words": ["I think", "I believe"], "explanation_ar": "في العمل، I think وI'm not sure تبدوان ضعيفتين وتقلّلان ثقة الآخرين بك. I believe وMy perspective is أقوى وتجعلك تؤخذ بجدية.", "explanation_en": "At work, \"I think\" and \"I'm not sure\" sound weak. \"I believe\" and \"My perspective is\" sound stronger, so people take you seriously.", "examples": [{"word": "I think", "sentence": "I think... maybe... we could try this? (weak)"}, {"word": "I believe", "sentence": "I believe this plan will increase our profit. (strong)"}]},
+      {"title": "touch base vs make sure we're on the same page", "words": ["touch base", "on the same page"], "explanation_ar": "touch base: حديث قصير وسريع للتحديث. on the same page: التأكد من أننا نفهم الأمر بالطريقة نفسها، وقد يحتاج شرحًا.", "explanation_en": "Touch base: a short, quick update. On the same page: making sure we both understand the same thing; may need more explanation.", "examples": [{"word": "touch base", "sentence": "Can I touch base with you for two minutes?"}, {"word": "on the same page", "sentence": "Let me explain again so we're on the same page."}]}
+    ],
+    "expressions": [
+      {"phrase": "I want to make sure we're on the same page.", "meaning_ar": "أريد التأكد من أننا متفقان في الفهم.", "meaning_en": "I want to check we understand each other.", "example": "Before we start, I want to make sure we're on the same page."},
+      {"phrase": "I need your help.", "meaning_ar": "أحتاج مساعدتك.", "meaning_en": "a soft way to ask someone to fix a problem without confrontation", "example": "Mr. E, I need your help. There's a problem in the lunchroom."},
+      {"phrase": "I believe... / My perspective is...", "meaning_ar": "أعتقد بقوة... / من وجهة نظري...", "meaning_en": "strong ways to give your opinion", "example": "My perspective is that we should hire two more people."},
+      {"phrase": "I just want to touch base.", "meaning_ar": "أردت فقط أن أتواصل معك سريعًا.", "meaning_en": "I want a quick update.", "example": "I just want to touch base about the report."},
+      {"phrase": "I did previously mention that this might happen. How will you resolve this issue?", "meaning_ar": "سبق أن ذكرت أن هذا قد يحدث. كيف ستحلّ المشكلة؟", "meaning_en": "a professional way to say \"I told you so\" and ask for a solution", "example": "I did previously mention the risk. How will you resolve this issue?"},
+      {"phrase": "Don't say: I told you so.", "meaning_ar": "لا تقل: ألم أقل لك!", "meaning_en": "This sounds rude in English-speaking workplaces.", "example": "Instead of \"I told you so\", say \"I did previously mention...\""}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "Mr. E keeps cooking fish in the office microwave. Which phrase avoids confrontation?", "choices": ["I need your help.", "I told you so.", "I want to touch base.", "I'm not sure."], "answer": 0, "explanation_ar": "I need your help تدعوه للمساعدة دون صدام.", "explanation_en": "\"I need your help\" invites him in without a fight."},
+    {"question": "Mr. E looks confused after your explanation. You say:", "choices": ["I want to touch base.", "I want to make sure we're on the same page.", "I told you so.", "I'm not sure."], "answer": 1, "explanation_ar": "on the same page للتأكد من الفهم المشترك.", "explanation_en": "Make sure you both understand."},
+    {"question": "You warned him, and now there's a problem. The professional way is:", "choices": ["I told you so!", "I'm not sure.", "I did previously mention this might happen. How will you resolve it?", "I need your help."], "answer": 2, "explanation_ar": "هذه طريقة مهنية بدل I told you so.", "explanation_en": "This is the polite version of \"I told you so\"."},
+    {"question": "You want to be taken seriously. Start with:", "choices": ["I think maybe...", "I'm not sure, but...", "Sorry, I don't know...", "I believe..."], "answer": 3, "explanation_ar": "I believe أقوى من I think.", "explanation_en": "\"I believe\" is stronger than \"I think\"."},
+    {"question": "Your boss is busy; you want a very short update meeting. You say:", "choices": ["I want to touch base.", "I need your help.", "I told you so.", "I'm not sure."], "answer": 0, "explanation_ar": "touch base = حديث قصير سريع.", "explanation_en": "Touch base = a quick conversation."},
+    {"question": "\"Colleague\" is a more professional word for:", "choices": ["boss", "co-worker", "customer", "friend"], "answer": 1, "explanation_ar": "colleague = زميل عمل.", "explanation_en": "Colleague = co-worker."},
+    {"question": "\"Rectify\" and \"resolve\" both mean:", "choices": ["to mention", "to believe", "to fix a problem", "to touch"], "answer": 2, "explanation_ar": "تعنيان يصحّح ويحلّ.", "explanation_en": "Both mean fix or solve."},
+    {"question": "\"Previously\" means:", "choices": ["later", "never", "quickly", "before now"], "answer": 3, "explanation_ar": "previously = سابقًا.", "explanation_en": "Previously = before now."},
+    {"question": "When you say \"I did previously mention...\", James suggests you should then ___.", "choices": ["stay quiet and let them answer", "talk a lot", "laugh", "tilt your head and smile"], "answer": 0, "explanation_ar": "اصمت ودع الشخص يجيب.", "explanation_en": "Stay silent so they speak."},
+    {"question": "Which sentence should you NOT say at work?", "choices": ["I believe this will work.", "I told you so.", "I need your help.", "I want to touch base."], "answer": 1, "explanation_ar": "I told you so تبدو وقحة.", "explanation_en": "\"I told you so\" sounds rude."}
+  ]
+}

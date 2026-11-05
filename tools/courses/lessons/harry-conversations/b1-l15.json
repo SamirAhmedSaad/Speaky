@@ -1,0 +1,59 @@
+{
+  "title": "Asking for Permission: Can I, Could I, May I?",
+  "content": {
+    "vocabulary": [
+      {"word": "permission", "pos": "noun", "meaning_en": "when someone allows you to do something", "meaning_ar": "إذن", "note_ar": "الفعل: permit", "note_en": "Verb: permit.", "example": "You need permission to leave early."},
+      {"word": "request", "pos": "noun", "meaning_en": "a polite act of asking for something", "meaning_ar": "طلب", "note_ar": "", "note_en": "", "example": "That's a very polite request."},
+      {"word": "refuse", "pos": "verb", "meaning_en": "say no to something", "meaning_ar": "يرفض", "note_ar": "الاسم: refusal", "note_en": "Noun: refusal.", "example": "She refused my request politely."},
+      {"word": "grant", "pos": "verb", "meaning_en": "(formal) give or allow", "meaning_ar": "يمنح / يوافق على", "note_ar": "", "note_en": "", "example": "The manager granted permission."},
+      {"word": "possibly", "pos": "adverb", "meaning_en": "used to make a request more polite", "meaning_ar": "ربما (تُستخدم لتلطيف الطلب)", "note_ar": "", "note_en": "", "example": "Could I possibly borrow your pen?"},
+      {"word": "reference", "pos": "noun", "meaning_en": "a person who says good things about you to a new employer", "meaning_ar": "مرجع / مُزكٍّ (للتوظيف)", "note_ar": "", "note_en": "", "example": "Can I use your name as a reference?"},
+      {"word": "chilly", "pos": "adjective", "meaning_en": "a little cold", "meaning_ar": "بارد قليلًا", "note_ar": "", "note_en": "", "example": "It's a bit chilly in here."},
+      {"word": "out of the question", "pos": "phrase", "meaning_en": "not possible at all", "meaning_ar": "غير وارد إطلاقًا", "note_ar": "", "note_en": "", "example": "I'm afraid that's out of the question."},
+      {"word": "deadline", "pos": "noun", "meaning_en": "the time by which something must be finished", "meaning_ar": "موعد نهائي", "note_ar": "", "note_en": "", "example": "We have a tight deadline today."},
+      {"word": "pocket money", "pos": "noun", "meaning_en": "money parents give children regularly", "meaning_ar": "مصروف الجيب", "note_ar": "في الأمريكية: allowance", "note_en": "US English: allowance.", "example": "Can I have more pocket money?"}
+    ],
+    "fine_lines": [
+      {"title": "Can I vs Could I vs May I", "words": ["Can I", "Could I", "May I"], "explanation_ar": "Can I الأكثر شيوعًا وغير رسمية. Could I أكثر تهذيبًا. May I الأكثر رسمية وتهذيبًا.", "explanation_en": "\"Can I\" is the most common and informal. \"Could I\" is more polite. \"May I\" is the most formal and polite.", "examples": [{"word": "Can I", "sentence": "Can I have the last piece of cake, Mum?"}, {"word": "Could I", "sentence": "Could I possibly borrow your phone?"}, {"word": "May I", "sentence": "May I call you later?"}]},
+      {"title": "\"No, not at all\" means YES", "words": ["Do you mind if ...?", "No, not at all."], "explanation_ar": "عندما يسأل أحدهم Do you mind if...? (هل تمانع؟) فإن الجواب No, not at all يعني: لا أمانع، أي نعم تفضّل. انتبه ولا تفهمها رفضًا.", "explanation_en": "When someone asks \"Do you mind if...?\", the answer \"No, not at all\" means \"I don't mind\", so it is a YES.", "examples": [{"word": "Do you mind if ...?", "sentence": "Do you mind if I sit down?"}, {"word": "No, not at all.", "sentence": "No, not at all. Please make yourself comfortable."}]},
+      {"title": "Do you mind if I + present vs Would you mind if I + past", "words": ["Do you mind if I open", "Would you mind if I opened"], "explanation_ar": "مع Do you mind if نستخدم المضارع، ومع Would you mind if نستخدم الماضي البسيط وتكون أكثر تهذيبًا.", "explanation_en": "Use the present after \"Do you mind if I\" and the past simple after \"Would you mind if I\" (more polite).", "examples": [{"word": "Do you mind if I open", "sentence": "Do you mind if I open the window?"}, {"word": "Would you mind if I opened", "sentence": "Would you mind if I invited a friend for dinner?"}]}
+    ],
+    "expressions": [
+      {"phrase": "Do you mind if I ...?", "meaning_ar": "هل تمانع إذا ...؟", "meaning_en": "A polite way to ask for permission.", "example": "Do you mind if I take off my coat?"},
+      {"phrase": "Would you mind if I + past simple?", "meaning_ar": "هل تمانع لو ...؟", "meaning_en": "A very polite request for permission.", "example": "Would you mind if I invited a friend for dinner?"},
+      {"phrase": "May I ...?", "meaning_ar": "هل لي أن ...؟", "meaning_en": "A formal, polite way to ask permission.", "example": "May I call you later if you're not busy?"},
+      {"phrase": "Could I possibly ...?", "meaning_ar": "هل يمكنني ربما أن ...؟", "meaning_en": "A very polite request.", "example": "Could I possibly borrow your pen?"},
+      {"phrase": "Is it possible (for me) to ...?", "meaning_ar": "هل من الممكن أن ...؟", "meaning_en": "A polite, formal request.", "example": "Is it possible to move our meeting to another day?"},
+      {"phrase": "No, not at all.", "meaning_ar": "لا، على الإطلاق (أي لا أمانع).", "meaning_en": "Means \"I don't mind\" – a YES to \"Do you mind...?\"", "example": "Do you mind if I sit here? — No, not at all."},
+      {"phrase": "Yes, you may.", "meaning_ar": "نعم، يمكنك.", "meaning_en": "A formal way to give permission.", "example": "May I leave the room? — Yes, you may."},
+      {"phrase": "Of course. Be my guest.", "meaning_ar": "بالطبع. تفضّل.", "meaning_en": "A polite, friendly yes.", "example": "Could I use your phone? — Of course. Be my guest."},
+      {"phrase": "Please help yourself.", "meaning_ar": "تفضّل وخذ ما تريد.", "meaning_en": "Tells someone to take what they want.", "example": "There's tea and water on the table. Please help yourself."},
+      {"phrase": "Make yourself comfortable / at home.", "meaning_ar": "خذ راحتك / اعتبر نفسك في بيتك.", "meaning_en": "Tells a guest to relax.", "example": "Please sit down and make yourself at home."},
+      {"phrase": "Feel free.", "meaning_ar": "لا تتردد / تصرّف بحرية.", "meaning_en": "Says someone can do something without asking.", "example": "If you're cold, feel free to turn up the heating."},
+      {"phrase": "It's my pleasure.", "meaning_ar": "بكل سرور.", "meaning_en": "A polite way to agree to help.", "example": "Can you help me? — It's my pleasure."},
+      {"phrase": "I'm sorry, that won't be possible.", "meaning_ar": "آسف، لن يكون ذلك ممكنًا.", "meaning_en": "A polite refusal.", "example": "Can we meet on Wednesday? — I'm sorry, that won't be possible."},
+      {"phrase": "I'm afraid that's out of the question.", "meaning_ar": "أخشى أن هذا غير وارد إطلاقًا.", "meaning_en": "A polite but firm refusal.", "example": "Use the manager's parking space? I'm afraid that's out of the question."},
+      {"phrase": "I'd rather you didn't.", "meaning_ar": "أفضّل ألا تفعل.", "meaning_en": "A polite, firm \"no\".", "example": "Do you mind if I open the window? — I'd rather you didn't. It's cold."},
+      {"phrase": "I'm afraid not.", "meaning_ar": "للأسف لا.", "meaning_en": "A polite \"no\".", "example": "Can I leave early today? — I'm afraid not. We have a deadline."},
+      {"phrase": "Yes, sure. / Go ahead. / Why not?", "meaning_ar": "نعم بالتأكيد / تفضّل / ولِمَ لا؟", "meaning_en": "Informal ways to say yes.", "example": "Can I have the last piece of cake? — Go ahead."},
+      {"phrase": "Not a problem.", "meaning_ar": "لا مشكلة.", "meaning_en": "An informal yes.", "example": "Do you mind if I come in late tomorrow? — Not a problem."},
+      {"phrase": "Not a chance.", "meaning_ar": "مستحيل / ولا فرصة.", "meaning_en": "A strong, informal \"no\".", "example": "Can I go out before my homework? — Not a chance!"}
+    ],
+    "grammar": [
+      {"title": "Modal verbs for permission: can, could, may", "explanation_ar": "نسأل الإذن بـ Can/Could/May + I + الفعل الأساسي. could وmay أكثر تهذيبًا من can. نضيف possibly لزيادة التهذيب: Could I possibly...?", "explanation_en": "Ask for permission with Can/Could/May + I + base verb. \"Could\" and \"may\" are more polite than \"can\". Add \"possibly\" to be extra polite: Could I possibly...?", "examples": ["Can I borrow your pen?", "Could I possibly close the window?", "May I come in?"]},
+      {"title": "Polite refusals instead of a simple \"No\"", "explanation_ar": "قول No وحدها قد يبدو وقحًا، خاصة في العمل. استخدم: I'm sorry, that won't be possible / I'm afraid not / I'd rather you didn't / I'm afraid that's out of the question.", "explanation_en": "A simple \"No\" can sound rude, especially at work. Use: I'm sorry, that won't be possible / I'm afraid not / I'd rather you didn't / That's out of the question.", "examples": ["I'm sorry, that won't be possible today.", "I'm afraid not.", "I'd rather you didn't."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"Do you mind if I sit here?\" — \"No, not at all.\" This means:", "choices": ["You can't sit here.", "Yes, you can sit here.", "I'm not sure.", "Sit somewhere else."], "answer": 1, "explanation_ar": "No, not at all تعني لا أمانع، أي يمكنك الجلوس.", "explanation_en": "\"No, not at all\" means \"I don't mind\" – yes."},
+    {"question": "Which is the MOST formal?", "choices": ["Can I come in?", "May I come in?", "I'm coming in.", "Come in?"], "answer": 1, "explanation_ar": "May I الأكثر رسمية.", "explanation_en": "\"May I\" is the most formal."},
+    {"question": "Would you mind if I ___ a friend for dinner?", "choices": ["invite", "inviting", "will invite", "invited"], "answer": 3, "explanation_ar": "بعد Would you mind if I نستخدم الماضي البسيط.", "explanation_en": "Use the past simple after \"Would you mind if I\"."},
+    {"question": "Which is a POLITE refusal?", "choices": ["Go away.", "Not a chance.", "I'm sorry, that won't be possible.", "No!"], "answer": 2, "explanation_ar": "I'm sorry, that won't be possible رفض مهذب.", "explanation_en": "This is a polite refusal."},
+    {"question": "\"I'm afraid that's out of the question\" means:", "choices": ["That's not possible at all.", "That's a good question.", "I'm scared.", "Ask me later."], "answer": 0, "explanation_ar": "out of the question = غير وارد إطلاقًا.", "explanation_en": "It means it's not possible."},
+    {"question": "Could I ___ borrow your phone?", "choices": ["possible", "possibility", "possibly", "possibles"], "answer": 2, "explanation_ar": "possibly ظرف يزيد الطلب تهذيبًا.", "explanation_en": "\"Possibly\" (adverb) makes it more polite."},
+    {"question": "\"Do you mind if I open the window?\" — You DON'T want it open. You say:", "choices": ["No, not at all.", "Feel free.", "Go ahead.", "I'd rather you didn't."], "answer": 3, "explanation_ar": "I'd rather you didn't رفض مهذب.", "explanation_en": "\"I'd rather you didn't\" politely says no."},
+    {"question": "\"Not a chance!\" is:", "choices": ["an informal, strong no", "a formal yes", "a polite yes", "a question"], "answer": 0, "explanation_ar": "Not a chance رفض قوي وغير رسمي.", "explanation_en": "It is a strong, informal no."},
+    {"question": "A guest arrives. You want them to relax. You say:", "choices": ["Not a chance.", "Make yourself at home.", "I'm afraid not.", "That won't be possible."], "answer": 1, "explanation_ar": "Make yourself at home = اعتبر نفسك في بيتك.", "explanation_en": "\"Make yourself at home\" tells a guest to relax."},
+    {"question": "Is it possible ___ me to leave early today?", "choices": ["to", "for", "of", "at"], "answer": 1, "explanation_ar": "التركيب الصحيح: Is it possible for me to ... (هل من الممكن لي أن ...).","explanation_en": "Is it possible for me to ..."}
+  ]
+}

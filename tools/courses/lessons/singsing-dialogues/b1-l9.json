@@ -1,0 +1,266 @@
+{
+  "title": "What time is it?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "time",
+        "pos": "noun",
+        "meaning_en": "what the clock shows (hours and minutes)",
+        "meaning_ar": "الوقت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What time is it?"
+      },
+      {
+        "word": "o'clock",
+        "pos": "adverb",
+        "meaning_en": "used with a number to say the exact hour",
+        "meaning_ar": "الساعة (تمامًا)",
+        "note_ar": "تُستعمل مع الساعات الكاملة فقط",
+        "note_en": "Use it only for full hours.",
+        "example": "It's nine o'clock."
+      },
+      {
+        "word": "nine",
+        "pos": "number",
+        "meaning_en": "the number 9",
+        "meaning_ar": "تسعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's nine o'clock."
+      },
+      {
+        "word": "twelve",
+        "pos": "number",
+        "meaning_en": "the number 12",
+        "meaning_ar": "اثنا عشر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's twelve o'clock."
+      },
+      {
+        "word": "late",
+        "pos": "adjective",
+        "meaning_en": "after the right time",
+        "meaning_ar": "متأخر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's late! Hurry up."
+      },
+      {
+        "word": "wake up",
+        "pos": "phrasal verb",
+        "meaning_en": "stop sleeping",
+        "meaning_ar": "استيقظ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wake up, Coni!"
+      },
+      {
+        "word": "Mom",
+        "pos": "noun",
+        "meaning_en": "mother",
+        "meaning_ar": "أمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mom, what time is it?"
+      },
+      {
+        "word": "oh, no",
+        "pos": "phrase",
+        "meaning_en": "said when something bad happens",
+        "meaning_ar": "يا إلهي! / أوه لا!",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Oh, no! It's nine o'clock."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "late vs early",
+        "words": [
+          "late",
+          "early"
+        ],
+        "explanation_ar": "late يعني بعد الوقت المناسب (متأخر)، و early يعني قبل الوقت (مبكر).",
+        "explanation_en": "late = after the right time. early = before the right time.",
+        "examples": [
+          {
+            "word": "late",
+            "sentence": "It's nine o'clock. I'm late for school!"
+          },
+          {
+            "word": "early",
+            "sentence": "It's six o'clock. It's early."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What time is it?",
+        "meaning_ar": "كم الساعة؟",
+        "meaning_en": "Asking about the time.",
+        "example": "Mom, what time is it? - It's nine o'clock."
+      },
+      {
+        "phrase": "It's nine o'clock.",
+        "meaning_ar": "الساعة التاسعة.",
+        "meaning_en": "Saying the time.",
+        "example": "What time is it? - It's nine o'clock."
+      },
+      {
+        "phrase": "It's late!",
+        "meaning_ar": "لقد تأخّر الوقت!",
+        "meaning_en": "It is after the right time.",
+        "example": "It's late! Go to bed."
+      },
+      {
+        "phrase": "Wake up!",
+        "meaning_ar": "استيقظ!",
+        "meaning_en": "Stop sleeping.",
+        "example": "Wake up! It's seven o'clock."
+      },
+      {
+        "phrase": "Oh, no!",
+        "meaning_ar": "أوه، لا!",
+        "meaning_en": "Said when something is bad.",
+        "example": "Oh, no! I'm late."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Telling the time: It's ... o'clock",
+        "explanation_ar": "نسأل What time is it? ونجيب It's + الرقم + o'clock للساعة الكاملة. نستخدم it للوقت.",
+        "explanation_en": "Ask \"What time is it?\" Answer \"It's + number + o'clock\" for a full hour. We use \"it\" for time.",
+        "examples": [
+          "What time is it? - It's nine o'clock.",
+          "It's twelve o'clock.",
+          "It's eight o'clock."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What time is it? - ___",
+      "choices": [
+        "It's nine o'clock.",
+        "It's a clock.",
+        "I'm nine.",
+        "It's under the table."
+      ],
+      "answer": 0,
+      "explanation_ar": "نجيب عن الوقت بـ It's ... o'clock.",
+      "explanation_en": "Answer with \"It's ... o'clock\"."
+    },
+    {
+      "question": "The clock shows 12:00. It's ___ o'clock.",
+      "choices": [
+        "two",
+        "twelve",
+        "ten",
+        "eleven"
+      ],
+      "answer": 1,
+      "explanation_ar": "الرقم 12 = twelve.",
+      "explanation_en": "12 = twelve."
+    },
+    {
+      "question": "The clock shows 9:00. It's ___.",
+      "choices": [
+        "nine",
+        "nine o'clocks",
+        "o'clock nine",
+        "nine o'clock"
+      ],
+      "answer": 3,
+      "explanation_ar": "الصحيح nine o'clock.",
+      "explanation_en": "Correct: nine o'clock."
+    },
+    {
+      "question": "___ time is it?",
+      "choices": [
+        "Where",
+        "Who",
+        "What",
+        "How old"
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال الصحيح What time is it?",
+      "explanation_en": "The question is \"What time is it?\""
+    },
+    {
+      "question": "You are sleeping. Mom says: ___",
+      "choices": [
+        "Wake up!",
+        "Sit down!",
+        "Nice to meet you!",
+        "Have some cake!"
+      ],
+      "answer": 0,
+      "explanation_ar": "لإيقاظ النائم نقول Wake up!",
+      "explanation_en": "Say \"Wake up!\" to someone sleeping."
+    },
+    {
+      "question": "School starts at 8. Now it's 9. You are ___.",
+      "choices": [
+        "early",
+        "late",
+        "hungry",
+        "cute"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد الموعد = متأخر late.",
+      "explanation_en": "After the right time = late."
+    },
+    {
+      "question": "\"late\" means ___.",
+      "choices": [
+        "مبكر",
+        "جائع",
+        "متأخر",
+        "سعيد"
+      ],
+      "answer": 2,
+      "explanation_ar": "late = متأخر.",
+      "explanation_en": "late = after the right time."
+    },
+    {
+      "question": "Something bad happens. You say: ___",
+      "choices": [
+        "Thank you!",
+        "Me too!",
+        "Great!",
+        "Oh, no!"
+      ],
+      "answer": 3,
+      "explanation_ar": "نقول Oh, no! عند حدوث أمر سيئ.",
+      "explanation_en": "Say \"Oh, no!\" when something is bad."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Is nine o'clock.",
+        "It nine o'clock.",
+        "It's nine o'clock.",
+        "It's nine clock."
+      ],
+      "answer": 2,
+      "explanation_ar": "نحتاج It's و o'clock.",
+      "explanation_en": "We need \"It's\" and \"o'clock\"."
+    },
+    {
+      "question": "\"wake up\" means ___.",
+      "choices": [
+        "stop sleeping",
+        "go to bed",
+        "sit down",
+        "eat food"
+      ],
+      "answer": 0,
+      "explanation_ar": "wake up = استيقظ.",
+      "explanation_en": "wake up = stop sleeping."
+    }
+  ]
+}

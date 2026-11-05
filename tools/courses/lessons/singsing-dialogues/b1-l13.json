@@ -1,0 +1,300 @@
+{
+  "title": "Who is she?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "she",
+        "pos": "pronoun",
+        "meaning_en": "a girl or woman we talk about",
+        "meaning_ar": "هي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She's my sister."
+      },
+      {
+        "word": "she's",
+        "pos": "phrase",
+        "meaning_en": "short form of \"she is\"",
+        "meaning_ar": "هي (تكون)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She's very nice."
+      },
+      {
+        "word": "sister",
+        "pos": "noun",
+        "meaning_en": "a girl with the same parents as you",
+        "meaning_ar": "أخت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She's my sister."
+      },
+      {
+        "word": "teacher",
+        "pos": "noun",
+        "meaning_en": "a person who teaches at school",
+        "meaning_ar": "معلّم / معلّمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She's my teacher."
+      },
+      {
+        "word": "nice",
+        "pos": "adjective",
+        "meaning_en": "kind and good",
+        "meaning_ar": "لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She's very nice."
+      },
+      {
+        "word": "likes",
+        "pos": "verb",
+        "meaning_en": "thinks something is good (he/she form of \"like\")",
+        "meaning_ar": "تحب / يعجبها",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She likes books."
+      },
+      {
+        "word": "books",
+        "pos": "noun",
+        "meaning_en": "plural of book; things you read",
+        "meaning_ar": "كتب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She likes books."
+      },
+      {
+        "word": "good morning",
+        "pos": "phrase",
+        "meaning_en": "a greeting before 12 o'clock",
+        "meaning_ar": "صباح الخير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Good morning, Como!"
+      },
+      {
+        "word": "oops",
+        "pos": "interjection",
+        "meaning_en": "said after a small mistake",
+        "meaning_ar": "أوه! (عند خطأ صغير)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Oops, sorry."
+      },
+      {
+        "word": "wake up",
+        "pos": "phrasal verb",
+        "meaning_en": "stop sleeping",
+        "meaning_ar": "استيقظ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Lini, wake up!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "he vs she",
+        "words": [
+          "he",
+          "she"
+        ],
+        "explanation_ar": "he للمذكر (ولد، رجل)، و she للمؤنث (بنت، امرأة). He's = He is و She's = She is.",
+        "explanation_en": "\"he\" is for a boy or man. \"she\" is for a girl or woman. He's = He is. She's = She is.",
+        "examples": [
+          {
+            "word": "he",
+            "sentence": "Who is he? - He's my brother."
+          },
+          {
+            "word": "she",
+            "sentence": "Who is she? - She's my sister."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Who is she?",
+        "meaning_ar": "مَن هي؟",
+        "meaning_en": "Asking about a girl or woman.",
+        "example": "Who is she? - She's my teacher."
+      },
+      {
+        "phrase": "She's my sister.",
+        "meaning_ar": "إنها أختي.",
+        "meaning_en": "Telling who she is.",
+        "example": "Who is she? - She's my sister."
+      },
+      {
+        "phrase": "She's very nice.",
+        "meaning_ar": "إنها لطيفة جدًّا.",
+        "meaning_en": "Saying she is kind.",
+        "example": "This is my teacher. She's very nice."
+      },
+      {
+        "phrase": "She likes books.",
+        "meaning_ar": "هي تحب الكتب.",
+        "meaning_en": "Saying what she enjoys.",
+        "example": "My sister likes books."
+      },
+      {
+        "phrase": "Good morning!",
+        "meaning_ar": "صباح الخير!",
+        "meaning_en": "A greeting in the morning.",
+        "example": "Good morning, Lio!"
+      },
+      {
+        "phrase": "Oops, sorry.",
+        "meaning_ar": "أوه، آسف.",
+        "meaning_en": "Said after a small mistake.",
+        "example": "Oops, sorry. That's your seat."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Who is she? - She's my ...",
+        "explanation_ar": "نسأل عن أنثى بـ Who is she? ونجيب She's my + ... . She's = She is.",
+        "explanation_en": "Ask \"Who is she?\" Answer \"She's my ...\". She's = She is.",
+        "examples": [
+          "Who is she? - She's my sister.",
+          "Who is she? - She's my teacher.",
+          "She's very nice."
+        ]
+      },
+      {
+        "title": "she + likes",
+        "explanation_ar": "مع he و she نضيف s للفعل في المضارع: I like → she likes.",
+        "explanation_en": "With he and she, add -s to the verb: I like, she likes.",
+        "examples": [
+          "I like books.",
+          "She likes books.",
+          "My sister likes cake."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Who is she? - ___",
+      "choices": [
+        "She's my sister.",
+        "He's my brother.",
+        "It's a cat.",
+        "I'm seven."
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن أنثى فنجيب She's ...",
+      "explanation_en": "The question is about a girl: She's ..."
+    },
+    {
+      "question": "\"She's\" means ___.",
+      "choices": [
+        "She has",
+        "She is",
+        "She was",
+        "She are"
+      ],
+      "answer": 1,
+      "explanation_ar": "هذا اختصار: She's = She is.",
+      "explanation_en": "She's = She is."
+    },
+    {
+      "question": "She ___ books.",
+      "choices": [
+        "like",
+        "liking",
+        "likes",
+        "is like"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع she نضيف s: likes.",
+      "explanation_en": "With she, add -s: likes."
+    },
+    {
+      "question": "A person who teaches at school is a ___.",
+      "choices": [
+        "sister",
+        "friend",
+        "grandma",
+        "teacher"
+      ],
+      "answer": 3,
+      "explanation_ar": "المعلّم = teacher.",
+      "explanation_en": "A teacher teaches at school."
+    },
+    {
+      "question": "It's 8 in the morning. You say: ___",
+      "choices": [
+        "Good morning!",
+        "Good night!",
+        "Goodbye!",
+        "Oops!"
+      ],
+      "answer": 0,
+      "explanation_ar": "في الصباح نقول Good morning.",
+      "explanation_en": "In the morning, say \"Good morning\"."
+    },
+    {
+      "question": "Mimi is a girl. ___ is my friend.",
+      "choices": [
+        "He",
+        "She",
+        "It",
+        "I"
+      ],
+      "answer": 1,
+      "explanation_ar": "للأنثى نستخدم she.",
+      "explanation_en": "For a girl, use she."
+    },
+    {
+      "question": "You make a small mistake. You say: ___",
+      "choices": [
+        "Wow!",
+        "Oops, sorry.",
+        "Good morning.",
+        "She's nice."
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد خطأ صغير نقول Oops, sorry.",
+      "explanation_en": "Say \"Oops, sorry.\""
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "She my teacher.",
+        "She's my teacher.",
+        "She are my teacher.",
+        "Her is my teacher."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح She's my teacher.",
+      "explanation_en": "Correct: She's my teacher."
+    },
+    {
+      "question": "\"nice\" means ___.",
+      "choices": [
+        "لطيف",
+        "سيئ",
+        "كبير",
+        "جائع"
+      ],
+      "answer": 0,
+      "explanation_ar": "nice = لطيف.",
+      "explanation_en": "nice = kind and good."
+    },
+    {
+      "question": "Your sister is sleeping. It's late. You say: ___",
+      "choices": [
+        "Good night!",
+        "Have some cake!",
+        "Sit down!",
+        "Wake up!"
+      ],
+      "answer": 3,
+      "explanation_ar": "لإيقاظها نقول Wake up!",
+      "explanation_en": "Say \"Wake up!\""
+    }
+  ]
+}

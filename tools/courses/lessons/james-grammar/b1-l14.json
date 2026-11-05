@@ -1,0 +1,343 @@
+{
+  "title": "Apostrophes for Missing Letters",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "apostrophe",
+        "pos": "noun",
+        "meaning_en": "the mark ' that shows missing letters (or possession)",
+        "meaning_ar": "الفاصلة العليا (')",
+        "note_ar": "تُنطق /əˈpɒstrəfi/",
+        "note_en": "Pronounced /əˈpɒstrəfi/.",
+        "example": "In \"don't\", the apostrophe replaces the letter o."
+      },
+      {
+        "word": "contraction",
+        "pos": "noun",
+        "meaning_en": "two words joined into one short word, with missing letters",
+        "meaning_ar": "الاختصار (دمج كلمتين)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"We'll\" is a contraction of \"we will\"."
+      },
+      {
+        "word": "missing",
+        "pos": "adjective",
+        "meaning_en": "not there; lost",
+        "meaning_ar": "مفقود / ناقص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The apostrophe shows a missing letter."
+      },
+      {
+        "word": "drop",
+        "pos": "verb",
+        "meaning_en": "leave out; not say",
+        "meaning_ar": "يحذف / يُسقط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In speech, people sometimes drop the \"g\": doin'."
+      },
+      {
+        "word": "colloquial",
+        "pos": "adjective",
+        "meaning_en": "used in informal, everyday speech",
+        "meaning_ar": "عامّي / دارج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"How you doin'?\" is colloquial English."
+      },
+      {
+        "word": "slang",
+        "pos": "noun",
+        "meaning_en": "very informal words used by some groups",
+        "meaning_ar": "لغة عامية دارجة جدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Ya\" for \"you\" is slang."
+      },
+      {
+        "word": "formal",
+        "pos": "adjective",
+        "meaning_en": "serious and correct, for essays and official documents",
+        "meaning_ar": "رسمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't write \"goin'\" in a formal essay."
+      },
+      {
+        "word": "negation",
+        "pos": "noun",
+        "meaning_en": "making something negative with \"not\"",
+        "meaning_ar": "النفي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Aren't\" is \"are\" + negation (not)."
+      },
+      {
+        "word": "pronunciation",
+        "pos": "noun",
+        "meaning_en": "the way you say a word",
+        "meaning_ar": "النطق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Doin'\" and \"doing\" have different pronunciation but the same meaning."
+      },
+      {
+        "word": "possession",
+        "pos": "noun",
+        "meaning_en": "owning something (the apostrophe's other job: James's book)",
+        "meaning_ar": "الملكية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The apostrophe in \"James's park\" shows possession."
+      },
+      {
+        "word": "threads",
+        "pos": "noun",
+        "meaning_en": "clothes (informal)",
+        "meaning_ar": "ملابس (عامية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Nice threads! Is that a new shirt?"
+      },
+      {
+        "word": "shortcut",
+        "pos": "noun",
+        "meaning_en": "a quicker way of doing something",
+        "meaning_ar": "طريق مختصر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Contractions are a shortcut in speech."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "doing vs doin'",
+        "words": [
+          "doing",
+          "doin'"
+        ],
+        "explanation_ar": "المعنى نفسه، لكن doin' نطق عامّي يُحذف فيه حرف g. في doing ينزل اللسان إلى أسفل الفم، وفي doin' يرتفع إلى سقف الفم. لا تكتب doin' في الكتابة الرسمية.",
+        "explanation_en": "Same meaning; \"doin'\" is a colloquial pronunciation with the g dropped. In \"doing\" the tongue goes down; in \"doin'\" it touches the top of the mouth. Don't write \"doin'\" in formal writing.",
+        "examples": [
+          {
+            "word": "doing",
+            "sentence": "How are you doing?"
+          },
+          {
+            "word": "doin'",
+            "sentence": "How you doin'? (informal speech)"
+          }
+        ]
+      },
+      {
+        "title": "I'd = I would / I had",
+        "words": [
+          "I'd",
+          "I would"
+        ],
+        "explanation_ar": "I'd اختصار I would في هذا الدرس (I'd like). قد تعني أيضًا I had. في الكلام نقول I'd، وفي الأسلوب الرسمي I would.",
+        "explanation_en": "\"I'd\" is short for \"I would\" here (I'd like). It can also mean \"I had\". In speech we say I'd; in formal style, I would.",
+        "examples": [
+          {
+            "word": "I'd",
+            "sentence": "I'd like some coffee, please."
+          },
+          {
+            "word": "I would",
+            "sentence": "I would like some coffee, please. (formal)"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How you doin'?",
+        "meaning_ar": "كيف حالك؟ (عامية)",
+        "meaning_en": "A very informal way to say \"How are you doing?\"",
+        "example": "Hey, Sam! How you doin'?"
+      },
+      {
+        "phrase": "I'd like some coffee, please.",
+        "meaning_ar": "أريد بعض القهوة من فضلك.",
+        "meaning_en": "A polite way to order.",
+        "example": "I'd like some coffee and a sandwich, please."
+      },
+      {
+        "phrase": "Where've you been all day?",
+        "meaning_ar": "أين كنت طوال اليوم؟",
+        "meaning_en": "Where have you been all day?",
+        "example": "Where've you been all day? I called you three times."
+      },
+      {
+        "phrase": "We'll be back later.",
+        "meaning_ar": "سنعود لاحقًا.",
+        "meaning_en": "We will return later.",
+        "example": "We're going to the shop. We'll be back later."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "The apostrophe shows missing letters",
+        "explanation_ar": "الفاصلة العليا (') تخبرنا أن هناك حروفًا محذوفة. ولها وظيفة أخرى هي الملكية (James's book) وهي درس آخر.",
+        "explanation_en": "The apostrophe (') tells us some letters are missing. Its other job is possession (James's book), which is another lesson.",
+        "examples": [
+          "don't = do not",
+          "goin' = going"
+        ]
+      },
+      {
+        "title": "Dropping the g in -ing (spoken only)",
+        "explanation_ar": "في الكلام غير الرسمي قد يُحذف g من نهاية الفعل المستمر: going → goin', saying → sayin'. المعنى لا يتغير، يتغير النطق فقط. تراه في القصص والأغاني، لكن لا تستعمله في الكتابة الرسمية.",
+        "explanation_en": "In informal speech, people may drop the g of -ing: going → goin', saying → sayin'. The meaning stays the same; only the pronunciation changes. You see it in stories, but don't use it in formal writing.",
+        "examples": [
+          "Are you goin' to the party? = Are you going to the party?",
+          "What is she sayin'? = What is she saying?"
+        ]
+      },
+      {
+        "title": "Contractions: two words become one",
+        "explanation_ar": "في الاختصار تندمج كلمتان في كلمة واحدة وتُحذف بعض الحروف: are not → aren't، I would → I'd، they have → they've، we will → we'll، do not → don't. الكلمة الجديدة لها نطقها الخاص، فلا تحاول نطق الكلمتين كاملتين. نستعملها لأننا نقول هذه الكلمات كثيرًا جدًا.",
+        "explanation_en": "In a contraction, two words join into one and some letters go: are not → aren't, I would → I'd, they have → they've, we will → we'll, do not → don't. The new word has its own sound, so don't try to say both full words. We use them because we say these words very often.",
+        "examples": [
+          "Aren't you hot in that sweater?",
+          "They've gone home now.",
+          "I don't know if I'd help him."
+        ]
+      },
+      {
+        "title": "Pronunciation tips",
+        "explanation_ar": "I'll: قل eye ثم ارفع اللسان إلى سقف الفم: l. she'd: بياء طويلة. aren't: مثل حرف r ثم nt. don't: بحرف o طويل (دونت) وليس dun't.",
+        "explanation_en": "I'll: say \"eye\", then put your tongue up for \"l\". She'd: long \"ee\". Aren't: like the letter R + nt. Don't: long \"o\", not \"dun't\".",
+        "examples": [
+          "I'll have fries with my burger.",
+          "She'd be late.",
+          "Those aren't my shoes."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"I will have fries with my burger.\" Contraction:",
+      "choices": [
+        "I'd have",
+        "I'll have",
+        "I've have",
+        "Ill have"
+      ],
+      "answer": 1,
+      "explanation_ar": "الاختصار الصحيح: I will = I'll.",
+      "explanation_en": "I will = I'll."
+    },
+    {
+      "question": "\"Where have you been all day?\" Contraction:",
+      "choices": [
+        "Where've you been",
+        "Where'd you been",
+        "Where's you been",
+        "Wherev' you been"
+      ],
+      "answer": 0,
+      "explanation_ar": "الاختصار الصحيح: Where have = Where've.",
+      "explanation_en": "Where have = Where've."
+    },
+    {
+      "question": "\"If she walked, she would be late.\" Contraction:",
+      "choices": [
+        "she'll be late",
+        "she's be late",
+        "she'd be late",
+        "she've be late"
+      ],
+      "answer": 2,
+      "explanation_ar": "الاختصار الصحيح: she would = she'd.",
+      "explanation_en": "she would = she'd."
+    },
+    {
+      "question": "\"Those are not my shoes.\" Contraction:",
+      "choices": [
+        "Those'r not",
+        "Those aren't",
+        "Those arn't",
+        "Those isn't"
+      ],
+      "answer": 1,
+      "explanation_ar": "الاختصار الصحيح: are not = aren't.",
+      "explanation_en": "are not = aren't."
+    },
+    {
+      "question": "\"I do not know if I would help him.\" Contraction:",
+      "choices": [
+        "I don't know if I'll help him.",
+        "I didn't know if I'd help him.",
+        "I'd not know if I don't help him.",
+        "I don't know if I'd help him."
+      ],
+      "answer": 3,
+      "explanation_ar": "do not = don't، و I would = I'd.",
+      "explanation_en": "do not = don't; I would = I'd."
+    },
+    {
+      "question": "What does \"goin'\" mean?",
+      "choices": [
+        "gone",
+        "going",
+        "go in",
+        "goes"
+      ],
+      "answer": 1,
+      "explanation_ar": "goin' = going مع حذف g.",
+      "explanation_en": "\"Goin'\" = going with the g dropped."
+    },
+    {
+      "question": "Where should you NOT write \"doin'\"?",
+      "choices": [
+        "in a text to a friend",
+        "in a comic book",
+        "in a formal essay",
+        "in a story's dialogue"
+      ],
+      "answer": 2,
+      "explanation_ar": "لا يُكتب في الكتابة الرسمية.",
+      "explanation_en": "Not in formal writing."
+    },
+    {
+      "question": "\"They've gone home\" means ___.",
+      "choices": [
+        "They have gone home.",
+        "They would gone home.",
+        "They are gone home.",
+        "They will gone home."
+      ],
+      "answer": 0,
+      "explanation_ar": "الاختصار الصحيح: They've = They have.",
+      "explanation_en": "They've = They have."
+    },
+    {
+      "question": "A contraction is ___.",
+      "choices": [
+        "a punctuation mark at the end",
+        "a question word",
+        "a long formal word",
+        "two words joined, with letters missing"
+      ],
+      "answer": 3,
+      "explanation_ar": "الاختصار كلمتان مدمجتان مع حذف حروف.",
+      "explanation_en": "Two words joined into one with missing letters."
+    },
+    {
+      "question": "\"___ you hot in that sweater?\"",
+      "choices": [
+        "Aren't",
+        "Isn't",
+        "Don't",
+        "Amn't"
+      ],
+      "answer": 0,
+      "explanation_ar": "الاختصار الصحيح: you + are not = Aren't you.",
+      "explanation_en": "you + are not → Aren't you."
+    }
+  ]
+}

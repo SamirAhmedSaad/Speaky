@@ -1,0 +1,53 @@
+{
+  "title": "Asking Someone Not to Do Something",
+  "content": {
+    "vocabulary": [
+      {"word": "warehouse manager", "pos": "noun", "meaning_en": "the person in charge of a building where goods are stored", "meaning_ar": "مدير المستودع", "note_ar": "", "note_en": "", "example": "The warehouse manager checks all deliveries."},
+      {"word": "Would you mind...?", "pos": "phrase", "meaning_en": "a polite way to ask someone to do or not do something", "meaning_ar": "هل تمانع...؟", "note_ar": "يتبعها فعل بصيغة ing", "note_en": "Followed by verb-ing.", "example": "Would you mind closing the door?"},
+      {"word": "permitted", "pos": "adjective", "meaning_en": "allowed (formal)", "meaning_ar": "مسموح به (رسمي)", "note_ar": "الفعل: permit؛ الاسم: permission", "note_en": "Verb: permit; noun: permission.", "example": "Food is not permitted in the computer room."},
+      {"word": "company policy", "pos": "noun", "meaning_en": "the official rules of a company", "meaning_ar": "سياسة الشركة", "note_ar": "", "note_en": "", "example": "I'm afraid it's against company policy."},
+      {"word": "against the law", "pos": "phrase", "meaning_en": "illegal; not allowed by the law", "meaning_ar": "مخالف للقانون", "note_ar": "", "note_en": "", "example": "Parking here is against the law."},
+      {"word": "illegal", "pos": "adjective", "meaning_en": "not allowed by law", "meaning_ar": "غير قانوني", "note_ar": "العكس: legal", "note_en": "Opposite: legal.", "example": "It is illegal to smoke inside public buildings in the UK."},
+      {"word": "dangerous", "pos": "adjective", "meaning_en": "able to hurt people", "meaning_ar": "خطير", "note_ar": "", "note_en": "", "example": "Blocking the fire exit is dangerous."},
+      {"word": "firm", "pos": "adjective", "meaning_en": "showing clearly that you will not change your mind", "meaning_ar": "حازم", "note_ar": "", "note_en": "", "example": "Be polite but firm."},
+      {"word": "put out", "pos": "phrasal verb", "meaning_en": "to stop something from burning", "meaning_ar": "يُطفئ", "note_ar": "", "note_en": "", "example": "Please put out the candle before you leave."},
+      {"word": "extinguish", "pos": "verb", "meaning_en": "to stop a fire or flame (formal)", "meaning_ar": "يُخمد / يُطفئ (رسمي)", "note_ar": "الاسم: fire extinguisher = طفاية حريق", "note_en": "Noun: fire extinguisher.", "example": "Staff know how to extinguish a small fire."},
+      {"word": "cause a fire", "pos": "phrase", "meaning_en": "to make a fire start", "meaning_ar": "يتسبّب في حريق", "note_ar": "", "note_en": "", "example": "An old heater could cause a fire."},
+      {"word": "premises", "pos": "noun", "meaning_en": "the buildings and land of a business", "meaning_ar": "مقرّ / مباني الشركة", "note_ar": "تُستخدم دائمًا بصيغة الجمع", "note_en": "Always plural in this meaning.", "example": "Visitors must sign in when they enter the premises."},
+      {"word": "lunch break", "pos": "noun", "meaning_en": "the time when you stop work to eat lunch", "meaning_ar": "استراحة الغداء", "note_ar": "", "note_en": "", "example": "I take my lunch break at one o'clock."},
+      {"word": "keep your cool", "pos": "idiom", "meaning_en": "to stay calm in a difficult situation", "meaning_ar": "يحافظ على هدوئه", "note_ar": "", "note_en": "", "example": "She kept her cool when the customer shouted."},
+      {"word": "under pressure", "pos": "phrase", "meaning_en": "worried because you have a lot to do", "meaning_ar": "تحت الضغط", "note_ar": "", "note_en": "", "example": "We're all under pressure this week."},
+      {"word": "take something seriously", "pos": "phrase", "meaning_en": "to think something is important", "meaning_ar": "يأخذ الأمر بجدية", "note_ar": "", "note_en": "", "example": "We take safety very seriously."},
+      {"word": "overalls", "pos": "noun", "meaning_en": "a piece of work clothing that covers your body and legs", "meaning_ar": "ملابس العمل (الأفرول)", "note_ar": "", "note_en": "", "example": "Warehouse staff wear blue overalls."},
+      {"word": "tricky", "pos": "adjective", "meaning_en": "difficult to deal with", "meaning_ar": "صعب / محرج", "note_ar": "", "note_en": "", "example": "It was a tricky conversation."}
+    ],
+    "fine_lines": [
+      {"title": "You mustn't vs Would you mind not...?", "words": ["You mustn't", "Would you mind not"], "explanation_ar": "You mustn't أمر مباشر وقوي. Would you mind not + فعل ing طلب مهذب لكنه حازم.", "explanation_en": "\"You mustn't\" is a strong, direct order. \"Would you mind not + verb-ing?\" is polite but still firm.", "examples": [{"word": "You mustn't", "sentence": "You mustn't use your phone here."}, {"word": "Would you mind not", "sentence": "Would you mind not using your phone here, please?"}]},
+      {"title": "allowed vs permitted", "words": ["allowed", "permitted"], "explanation_ar": "المعنى واحد (مسموح)، لكن permitted أكثر رسمية وتُستخدم في القواعد واللافتات.", "explanation_en": "Same meaning, but \"permitted\" is more formal and used in rules and signs.", "examples": [{"word": "allowed", "sentence": "We're not allowed to park here."}, {"word": "permitted", "sentence": "Parking is not permitted."}]}
+    ],
+    "expressions": [
+      {"phrase": "Would you mind not doing that, please?", "meaning_ar": "هل تمانع ألا تفعل ذلك من فضلك؟", "meaning_en": "a polite way to ask someone to stop", "example": "Would you mind not talking so loudly, please?"},
+      {"phrase": "I'm afraid it's against company policy.", "meaning_ar": "للأسف هذا مخالف لسياسة الشركة.", "meaning_en": "used to give the rule as a reason", "example": "I'm afraid it's against company policy to share passwords."},
+      {"phrase": "I'm afraid it's not permitted.", "meaning_ar": "للأسف هذا غير مسموح به.", "meaning_en": "a formal way to say it isn't allowed", "example": "I'm afraid eating at your desk is not permitted."},
+      {"phrase": "Sorry to have to ask you this, but...", "meaning_ar": "آسف لأنني مضطر لأن أطلب منك هذا، لكن...", "meaning_en": "used before a difficult request", "example": "Sorry to have to ask you this, but could you move your car?"},
+      {"phrase": "Please don't do it again.", "meaning_ar": "من فضلك لا تكرر ذلك.", "meaning_en": "a polite but firm warning", "example": "It's OK this time, but please don't do it again."},
+      {"phrase": "We take this very seriously.", "meaning_ar": "نحن نأخذ هذا الأمر بجدية كبيرة.", "meaning_en": "used to say a rule is important", "example": "Safety is important. We take this very seriously."}
+    ],
+    "grammar": [
+      {"title": "Would you mind (not) + verb-ing", "explanation_ar": "بعد Would you mind نضع الفعل بصيغة ing. لطلب التوقف عن شيء نضع not قبل الفعل: Would you mind not smoking here? ولاحظ أن الجواب No, not at all يعني الموافقة.", "explanation_en": "After \"Would you mind\" use verb-ing. To ask someone to stop, add \"not\": \"Would you mind not doing that?\" The answer \"No, not at all\" means \"OK, I will\".", "examples": ["Would you mind opening the window?", "Would you mind not eating at the computer?", "Would you mind waiting a moment?"]},
+      {"title": "Softening with I'm afraid / Sorry to have to", "explanation_ar": "لجعل الرفض أو الطلب الصعب ألطف نبدأ بـ I'm afraid أو Sorry to have to ask you this, but ثم نذكر السبب.", "explanation_en": "To make a refusal or difficult request softer, start with \"I'm afraid\" or \"Sorry to have to ask you this, but\" and then give the reason.", "examples": ["I'm afraid it's not permitted.", "Sorry to have to ask you this, but you need to leave the room.", "I'm afraid it's against the law."]}
+    ]
+  },
+  "questions": [
+    {"question": "Complete: Would you mind not ___ that, please?", "choices": ["do", "to do", "doing", "did"], "answer": 2, "explanation_ar": "بعد mind يأتي الفعل بصيغة ing.", "explanation_en": "After \"mind\" use verb-ing."},
+    {"question": "\"It's not permitted\" means...", "choices": ["It's not allowed", "It's not possible to see", "It's very easy", "It's free"], "answer": 0, "explanation_ar": "permitted = مسموح.", "explanation_en": "\"Permitted\" means allowed."},
+    {"question": "Which word means \"put out a fire\" in a formal way?", "choices": ["exclude", "extend", "explain", "extinguish"], "answer": 3, "explanation_ar": "extinguish = يُطفئ.", "explanation_en": "\"Extinguish\" means put out a fire."},
+    {"question": "Which is polite but firm?", "choices": ["Stop it now!", "Would you mind not doing that, please?", "You're stupid.", "I don't care."], "answer": 1, "explanation_ar": "Would you mind not... مهذبة وحازمة.", "explanation_en": "\"Would you mind not...\" is polite but firm."},
+    {"question": "Complete: I'm afraid it's ___ company policy.", "choices": ["against", "under", "between", "behind"], "answer": 0, "explanation_ar": "against company policy = مخالف لسياسة الشركة.", "explanation_en": "\"Against company policy\" means not allowed by the rules."},
+    {"question": "\"Premises\" means...", "choices": ["promises", "prices", "the buildings of a business", "a lunch break"], "answer": 2, "explanation_ar": "premises = مقرّ الشركة ومبانيها.", "explanation_en": "\"Premises\" means a company's buildings and land."},
+    {"question": "Choose the correct sentence.", "choices": ["Would you mind to close the door?", "Would you mind close the door?", "Would you mind closed the door?", "Would you mind closing the door?"], "answer": 3, "explanation_ar": "Would you mind + فعل ing.", "explanation_en": "\"Would you mind + verb-ing\"."},
+    {"question": "\"Keep your cool\" means...", "choices": ["stay cold", "stay calm", "keep a secret", "open the window"], "answer": 1, "explanation_ar": "keep your cool = حافظ على هدوئك.", "explanation_en": "It means stay calm."},
+    {"question": "Which phrase do you say BEFORE a difficult request?", "choices": ["Sorry to have to ask you this, but...", "Thank you for calling.", "Best wishes.", "Any other business."], "answer": 0, "explanation_ar": "تُقال قبل طلب صعب.", "explanation_en": "It comes before a difficult request."},
+    {"question": "What is the opposite of \"illegal\"?", "choices": ["unlegal", "dislegal", "legal", "inlegal"], "answer": 2, "explanation_ar": "عكس illegal هو legal.", "explanation_en": "The opposite is legal."}
+  ]
+}

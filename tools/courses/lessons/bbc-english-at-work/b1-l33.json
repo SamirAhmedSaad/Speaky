@@ -1,0 +1,443 @@
+{
+  "title": "Booking a Flight",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "book a flight",
+        "pos": "phrase",
+        "meaning_en": "reserve a seat on a plane",
+        "meaning_ar": "يحجز رحلة طيران",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need to book a flight to Paris."
+      },
+      {
+        "word": "business trip",
+        "pos": "noun",
+        "meaning_en": "a journey made for work",
+        "meaning_ar": "رحلة عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is on a business trip in Dubai."
+      },
+      {
+        "word": "outbound",
+        "pos": "adjective",
+        "meaning_en": "going away from home",
+        "meaning_ar": "(رحلة) الذهاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is the outbound date?"
+      },
+      {
+        "word": "return",
+        "pos": "adjective / noun",
+        "meaning_en": "coming back; a ticket there and back",
+        "meaning_ar": "العودة / تذكرة ذهاب وإياب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The return flight is at 6pm."
+      },
+      {
+        "word": "business class",
+        "pos": "noun",
+        "meaning_en": "the more expensive, comfortable seats on a plane",
+        "meaning_ar": "درجة رجال الأعمال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The director always flies business class."
+      },
+      {
+        "word": "economy class",
+        "pos": "noun",
+        "meaning_en": "the cheapest seats on a plane",
+        "meaning_ar": "الدرجة السياحية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll fly economy to save money."
+      },
+      {
+        "word": "fixed ticket",
+        "pos": "noun",
+        "meaning_en": "a ticket you cannot change",
+        "meaning_ar": "تذكرة غير قابلة للتغيير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A fixed ticket is cheaper."
+      },
+      {
+        "word": "flexible ticket",
+        "pos": "noun",
+        "meaning_en": "a ticket you can change",
+        "meaning_ar": "تذكرة مرنة قابلة للتغيير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Buy a flexible ticket in case the meeting moves."
+      },
+      {
+        "word": "window seat",
+        "pos": "noun",
+        "meaning_en": "a seat next to the plane window",
+        "meaning_ar": "مقعد بجانب النافذة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like a window seat, please."
+      },
+      {
+        "word": "aisle seat",
+        "pos": "noun",
+        "meaning_en": "a seat next to the passage between rows",
+        "meaning_ar": "مقعد بجانب الممر",
+        "note_ar": "حرف s صامت: تُنطق /aɪl/",
+        "note_en": "The s is silent: /aɪl/.",
+        "example": "An aisle seat is easier if you need to stand up."
+      },
+      {
+        "word": "frequent flyer number",
+        "pos": "noun",
+        "meaning_en": "a membership number for people who fly often with an airline",
+        "meaning_ar": "رقم المسافر الدائم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have you got a frequent flyer number?"
+      },
+      {
+        "word": "e-ticket",
+        "pos": "noun",
+        "meaning_en": "an electronic ticket",
+        "meaning_ar": "تذكرة إلكترونية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your e-ticket has been sent by email."
+      },
+      {
+        "word": "passport",
+        "pos": "noun",
+        "meaning_en": "an official document for travelling to other countries",
+        "meaning_ar": "جواز السفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't forget your passport."
+      },
+      {
+        "word": "travel agent",
+        "pos": "noun",
+        "meaning_en": "a person or company that arranges travel for you",
+        "meaning_ar": "وكيل سفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I used to book my flights at a travel agent's."
+      },
+      {
+        "word": "online",
+        "pos": "adverb",
+        "meaning_en": "on the internet",
+        "meaning_ar": "عبر الإنترنت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We book everything online now."
+      },
+      {
+        "word": "log on",
+        "pos": "phrasal verb",
+        "meaning_en": "enter a computer system or website",
+        "meaning_ar": "يسجّل الدخول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's log on and look for flights."
+      },
+      {
+        "word": "overnight",
+        "pos": "adverb",
+        "meaning_en": "during the night; for one night",
+        "meaning_ar": "طوال الليل / لليلة واحدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are we staying overnight?"
+      },
+      {
+        "word": "duty-free shop",
+        "pos": "noun",
+        "meaning_en": "an airport shop where you pay no tax",
+        "meaning_ar": "السوق الحرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She bought biscuits in the duty-free shop."
+      },
+      {
+        "word": "clinch the deal",
+        "pos": "idiom",
+        "meaning_en": "finally win an agreement",
+        "meaning_ar": "يحسم الصفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They flew to France to clinch the deal."
+      },
+      {
+        "word": "company account",
+        "pos": "noun",
+        "meaning_en": "money or a card that the company pays with",
+        "meaning_ar": "حساب الشركة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Pay for the tickets using the company account."
+      },
+      {
+        "word": "select",
+        "pos": "verb",
+        "meaning_en": "choose (formal)",
+        "meaning_ar": "يختار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please select your seats."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "window seat vs aisle seat",
+        "words": [
+          "window",
+          "aisle"
+        ],
+        "explanation_ar": "window seat بجانب النافذة، وaisle seat بجانب الممر بين الصفوف.",
+        "explanation_en": "A window seat is next to the window. An aisle seat is next to the passage between rows.",
+        "examples": [
+          {
+            "word": "window",
+            "sentence": "I like a window seat to see the view."
+          },
+          {
+            "word": "aisle",
+            "sentence": "An aisle seat is good if you have long legs."
+          }
+        ]
+      },
+      {
+        "title": "fixed vs flexible",
+        "words": [
+          "fixed",
+          "flexible"
+        ],
+        "explanation_ar": "fixed ticket لا يمكن تغييرها وهي أرخص، وflexible ticket يمكن تغيير موعدها وهي أغلى.",
+        "explanation_en": "A fixed ticket cannot be changed and is cheaper. A flexible ticket can be changed and costs more.",
+        "examples": [
+          {
+            "word": "fixed",
+            "sentence": "This fixed ticket can't be changed."
+          },
+          {
+            "word": "flexible",
+            "sentence": "I bought a flexible ticket so I can change the date."
+          }
+        ]
+      },
+      {
+        "title": "business vs economy",
+        "words": [
+          "business",
+          "economy"
+        ],
+        "explanation_ar": "business class أغلى وأكثر راحة، وeconomy class هي الأرخص.",
+        "explanation_en": "Business class is more expensive and comfortable. Economy class is the cheapest.",
+        "examples": [
+          {
+            "word": "business",
+            "sentence": "The boss flies business class."
+          },
+          {
+            "word": "economy",
+            "sentence": "Our team flies economy."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What is the outbound and return date?",
+        "meaning_ar": "ما تاريخ الذهاب والعودة؟",
+        "meaning_en": "When do you go and when do you come back?",
+        "example": "What is the outbound and return date? Monday and Wednesday."
+      },
+      {
+        "phrase": "Do you want to fly business or economy?",
+        "meaning_ar": "هل تريد السفر على درجة رجال الأعمال أم الدرجة السياحية؟",
+        "meaning_en": "Which class of seat do you want?",
+        "example": "Do you want to fly business or economy? Economy, please."
+      },
+      {
+        "phrase": "Do you want a fixed or flexible ticket?",
+        "meaning_ar": "هل تريد تذكرة ثابتة أم مرنة؟",
+        "meaning_en": "Can the ticket be changed or not?",
+        "example": "Do you want a fixed or flexible ticket? Flexible, please, in case my plans change."
+      },
+      {
+        "phrase": "Would you like a window or aisle seat?",
+        "meaning_ar": "هل تفضّل مقعدًا بجانب النافذة أم بجانب الممر؟",
+        "meaning_en": "Where do you want to sit?",
+        "example": "Would you like a window or aisle seat? An aisle seat, please."
+      },
+      {
+        "phrase": "Have you got a frequent flyer number?",
+        "meaning_ar": "هل لديك رقم المسافر الدائم؟",
+        "meaning_en": "Are you a member of the airline's club?",
+        "example": "Have you got a frequent flyer number? Yes, here it is."
+      },
+      {
+        "phrase": "Don't forget your passports.",
+        "meaning_ar": "لا تنسوا جوازات سفركم.",
+        "meaning_en": "Remember to take your passports.",
+        "example": "Your flight is at 8am. Don't forget your passports."
+      },
+      {
+        "phrase": "Can you help me, please?",
+        "meaning_ar": "هل يمكنك مساعدتي من فضلك؟",
+        "meaning_en": "Ask for help politely.",
+        "example": "I've never booked online. Can you help me, please?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Choice questions with or",
+        "explanation_ar": "نعرض خيارين في سؤال واحد باستخدام or: Do you want X or Y? / Would you like X or Y? والجواب يكون بأحد الخيارين وليس yes أو no.",
+        "explanation_en": "Offer two choices with or: Do you want X or Y? / Would you like X or Y? Answer with one choice, not yes or no.",
+        "examples": [
+          "Would you like a window or aisle seat? — Aisle, please.",
+          "Do you want to fly business or economy? — Economy.",
+          "Do you want a fixed or flexible ticket? — Fixed."
+        ]
+      },
+      {
+        "title": "Would you like...? vs Do you want...?",
+        "explanation_ar": "Would you like أكثر تهذيبًا ورسمية من Do you want، لذا يستخدمها موظفو الخدمة مع العملاء.",
+        "explanation_en": "Would you like...? is more polite and formal than Do you want...?, so staff use it with customers.",
+        "examples": [
+          "Would you like a window seat?",
+          "Would you like to pay by card?",
+          "Do you want a coffee? (informal)"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "The \"outbound\" date is the date you...",
+      "choices": [
+        "come back",
+        "go away",
+        "pay",
+        "book"
+      ],
+      "answer": 1,
+      "explanation_ar": "outbound تعني الذهاب.",
+      "explanation_en": "Outbound means going away."
+    },
+    {
+      "question": "Which ticket can you change?",
+      "choices": [
+        "a fixed ticket",
+        "an e-ticket only",
+        "a flexible ticket",
+        "a cheap ticket"
+      ],
+      "answer": 2,
+      "explanation_ar": "flexible ticket يمكن تغييرها.",
+      "explanation_en": "A flexible ticket can be changed."
+    },
+    {
+      "question": "Which seat did Anna ask for?",
+      "choices": [
+        "window",
+        "middle",
+        "aisle",
+        "business"
+      ],
+      "answer": 2,
+      "explanation_ar": "طلبت آنا مقعدًا بجانب الممر.",
+      "explanation_en": "Anna asked for an aisle seat."
+    },
+    {
+      "question": "The cheapest seats on a plane are ___ class.",
+      "choices": [
+        "business",
+        "economy",
+        "first",
+        "gold"
+      ],
+      "answer": 1,
+      "explanation_ar": "economy class هي الأرخص.",
+      "explanation_en": "Economy is the cheapest class."
+    },
+    {
+      "question": "___ you like a window or aisle seat?",
+      "choices": [
+        "Would",
+        "Do",
+        "Are",
+        "Have"
+      ],
+      "answer": 0,
+      "explanation_ar": "Would you like هي الصيغة المهذبة.",
+      "explanation_en": "Would you like is the polite form."
+    },
+    {
+      "question": "How do you answer \"Business or economy?\"",
+      "choices": [
+        "Yes.",
+        "No.",
+        "Economy, please.",
+        "I do."
+      ],
+      "answer": 2,
+      "explanation_ar": "نجيب عن سؤال الاختيار بأحد الخيارين.",
+      "explanation_en": "Answer a choice question with one of the choices."
+    },
+    {
+      "question": "A membership number for people who fly often is a ___ number.",
+      "choices": [
+        "frequent flyer",
+        "passport",
+        "e-ticket",
+        "company account"
+      ],
+      "answer": 0,
+      "explanation_ar": "frequent flyer number رقم المسافر الدائم.",
+      "explanation_en": "Frequent flyer number."
+    },
+    {
+      "question": "Which question is the most polite?",
+      "choices": [
+        "Want window?",
+        "Do you want window?",
+        "Window or what?",
+        "Would you like a window seat?"
+      ],
+      "answer": 3,
+      "explanation_ar": "Would you like أكثر تهذيبًا.",
+      "explanation_en": "Would you like is most polite."
+    },
+    {
+      "question": "\"Clinch the deal\" means...",
+      "choices": [
+        "lose the deal",
+        "finally win the agreement",
+        "book a flight",
+        "change the date"
+      ],
+      "answer": 1,
+      "explanation_ar": "clinch the deal تعني حسم الصفقة.",
+      "explanation_en": "It means finally win the agreement."
+    },
+    {
+      "question": "A shop at the airport where you pay no tax is a ___ shop.",
+      "choices": [
+        "duty-free",
+        "tax-full",
+        "travel",
+        "free-time"
+      ],
+      "answer": 0,
+      "explanation_ar": "duty-free shop هي السوق الحرة.",
+      "explanation_en": "Duty-free shop = no tax."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "Is It Cold?",
+  "content": {
+    "vocabulary": [
+      {"word": "weather", "pos": "noun", "meaning_en": "how hot, cold, sunny, rainy or windy it is outside", "meaning_ar": "الطقس", "note_ar": "لا تخلط بينها وبين whether (إذا ما)، فالنطق متقارب جدًا.", "note_en": "Don't confuse it with whether; they sound the same.", "example": "The weather is nice today."},
+      {"word": "change", "pos": "verb", "meaning_en": "to become different", "meaning_ar": "يتغيّر", "note_ar": "", "note_en": "", "example": "The weather changes often in spring."},
+      {"word": "often", "pos": "adverb", "meaning_en": "many times", "meaning_ar": "غالبًا / كثيرًا", "note_ar": "حرف t غالبًا صامت: «أوفِن».", "note_en": "The t is usually silent: \"offen\".", "example": "It often rains in April."},
+      {"word": "cold", "pos": "adjective", "meaning_en": "having a low temperature", "meaning_ar": "بارد", "note_ar": "", "note_en": "", "example": "It is cold. Wear a coat."},
+      {"word": "warm", "pos": "adjective", "meaning_en": "a little hot, in a pleasant way", "meaning_ar": "دافئ", "note_ar": "تُنطق «وورم» وليس «وارم».", "note_en": "Say /wɔːrm/; it rhymes with \"form\", not \"farm\".", "example": "It is warm and sunny today."},
+      {"word": "hot", "pos": "adjective", "meaning_en": "having a high temperature", "meaning_ar": "حار", "note_ar": "", "note_en": "", "example": "Summer here is very hot."},
+      {"word": "cool", "pos": "adjective", "meaning_en": "a little cold, in a pleasant way", "meaning_ar": "منعش / بارد قليلًا", "note_ar": "", "note_en": "", "example": "The evening is cool."},
+      {"word": "windy", "pos": "adjective", "meaning_en": "with a lot of wind", "meaning_ar": "عاصف / فيه رياح", "note_ar": "wind (رياح) + y = windy", "note_en": "wind + y = windy", "example": "It is windy at the beach."},
+      {"word": "sunny", "pos": "adjective", "meaning_en": "with a lot of sun", "meaning_ar": "مشمس", "note_ar": "sun + n + y = sunny (نضاعف حرف n).", "note_en": "sun + n + y = sunny (double the n).", "example": "Tomorrow will be sunny."},
+      {"word": "snowy", "pos": "adjective", "meaning_en": "with snow falling or on the ground", "meaning_ar": "مثلج", "note_ar": "snow (ثلج) + y = snowy", "note_en": "snow + y = snowy", "example": "It is snowy in the mountains."},
+      {"word": "rainy", "pos": "adjective", "meaning_en": "with a lot of rain", "meaning_ar": "ممطر", "note_ar": "rain (مطر) + y = rainy", "note_en": "rain + y = rainy", "example": "Take an umbrella. It is rainy."},
+      {"word": "cloudy", "pos": "adjective", "meaning_en": "with many clouds in the sky", "meaning_ar": "غائم", "note_ar": "cloud (سحابة) + y = cloudy", "note_en": "cloud + y = cloudy", "example": "The sky is cloudy this morning."},
+      {"word": "forecast", "pos": "noun", "meaning_en": "a report that says what the weather will be", "meaning_ar": "النشرة الجوية / توقعات الطقس", "note_ar": "ويُقال أيضًا weather forecast.", "note_en": "Also: weather forecast.", "example": "I check the forecast every morning."},
+      {"word": "check", "pos": "verb", "meaning_en": "to look at something to learn about it", "meaning_ar": "يتحقّق / يطّلع على", "note_ar": "", "note_en": "", "example": "Check the time before you leave."},
+      {"word": "temperature", "pos": "noun", "meaning_en": "how hot or cold something is", "meaning_ar": "درجة الحرارة", "note_ar": "تُنطق عادة «تِمبرَتشَر».", "note_en": "Say /ˈtemprətʃər/.", "example": "What is today's temperature?"},
+      {"word": "degree", "pos": "noun", "meaning_en": "a unit for measuring temperature", "meaning_ar": "درجة", "note_ar": "تُكتب بالرمز °: 20°.", "note_en": "Written °: 20°.", "example": "It is 30 degrees today."},
+      {"word": "Celsius", "pos": "noun", "meaning_en": "a temperature scale where water freezes at 0°", "meaning_ar": "مئوي (سلسيوس)", "note_ar": "تستخدمه أغلب دول العالم.", "note_en": "Most countries use Celsius.", "example": "Water boils at 100 degrees Celsius."},
+      {"word": "Fahrenheit", "pos": "noun", "meaning_en": "a temperature scale where water freezes at 32°; used in the U.S.", "meaning_ar": "فهرنهايت", "note_ar": "تستخدمه الولايات المتحدة.", "note_en": "Used in the United States.", "example": "65 degrees Fahrenheit is warm."},
+      {"word": "remember", "pos": "verb", "meaning_en": "to keep something in your mind; not forget", "meaning_ar": "يتذكّر", "note_ar": "remember to + فعل = لا تنسَ أن تفعل.", "note_en": "remember to + verb = don't forget to do it.", "example": "Remember to take your keys."},
+      {"word": "right", "pos": "adjective", "meaning_en": "correct", "meaning_ar": "صحيح / الصحيح", "note_ar": "لها معنى آخر: يمين.", "note_en": "It can also mean the opposite of left.", "example": "Is this the right bus?"},
+      {"word": "next time", "pos": "phrase", "meaning_en": "the time when something happens again", "meaning_ar": "المرة القادمة", "note_ar": "", "note_en": "", "example": "Next time, call me first."},
+      {"word": "excuse me", "pos": "phrase", "meaning_en": "a polite way to get someone's attention", "meaning_ar": "عفوًا / لو سمحت", "note_ar": "", "note_en": "", "example": "Excuse me, what time is it?"}
+    ],
+    "fine_lines": [
+      {"title": "wind / windy, sun / sunny", "words": ["wind", "windy", "sun", "sunny"],
+       "explanation_ar": "wind و sun و snow و rain أسماء. لنصف الطقس نضيف y فتصبح صفات: windy, sunny, snowy, rainy. نقول: It is sunny (وليس It is sun).",
+       "explanation_en": "Wind, sun, snow and rain are nouns. Add -y to make adjectives for the weather: windy, sunny, snowy, rainy. Say \"It is sunny\", not \"It is sun\".",
+       "examples": [{"word": "sun", "sentence": "The sun is very bright."}, {"word": "sunny", "sentence": "It is sunny today."}, {"word": "wind", "sentence": "The wind is strong."}, {"word": "windy", "sentence": "It is windy this morning."}]},
+      {"title": "hot vs warm, cold vs cool", "words": ["hot", "warm", "cool", "cold"],
+       "explanation_ar": "من الأعلى حرارة إلى الأدنى: hot (حار) ← warm (دافئ) ← cool (منعش) ← cold (بارد). warm و cool غالبًا لطيفان.",
+       "explanation_en": "From high to low: hot → warm → cool → cold. Warm and cool are usually pleasant.",
+       "examples": [{"word": "hot", "sentence": "It is 40 degrees. It is hot!"}, {"word": "warm", "sentence": "It is warm in spring."}, {"word": "cool", "sentence": "The night is cool."}, {"word": "cold", "sentence": "It is 2 degrees. It is cold!"}]}
+    ],
+    "expressions": [
+      {"phrase": "What is today's temperature?", "meaning_ar": "ما درجة الحرارة اليوم؟", "meaning_en": "How hot or cold is it today?", "example": "What is today's temperature? It's 25 degrees."},
+      {"phrase": "Is it windy today?", "meaning_ar": "هل الجو عاصف اليوم؟", "meaning_en": "Is there a lot of wind today?", "example": "Is it windy today? Yes, it is."},
+      {"phrase": "It is not snowy.", "meaning_ar": "لا يوجد ثلج.", "meaning_en": "There is no snow.", "example": "It is cold, but it is not snowy."},
+      {"phrase": "The weather changes often.", "meaning_ar": "الطقس يتغيّر كثيرًا.", "meaning_en": "The weather is often different.", "example": "Bring a jacket. The weather changes often here."},
+      {"phrase": "Check the forecast.", "meaning_ar": "اطّلع على النشرة الجوية.", "meaning_en": "Look at the weather report.", "example": "Check the forecast before your trip."},
+      {"phrase": "That's warm.", "meaning_ar": "هذا دافئ.", "meaning_en": "That temperature is warm.", "example": "Twenty-five degrees? That's warm."},
+      {"phrase": "Oh. I see.", "meaning_ar": "آه، فهمت.", "meaning_en": "Now I understand.", "example": "Oh. I see. The forecast is for another city."},
+      {"phrase": "great for seeing the city", "meaning_ar": "ممتاز لرؤية المدينة", "meaning_en": "very good for visiting the city", "example": "Sunny days are great for seeing the city."}
+    ],
+    "grammar": [
+      {"title": "Talking about the weather: It is + adjective",
+       "explanation_ar": "١) في الإنجليزية لا بد للجملة من فاعل، فنستخدم It للطقس.\n٢) It is + صفة: It is cold. It is sunny.\n٣) يمكن جمع صفتين بـ and: It is warm and sunny.\n٤) نقول It's اختصارًا لـ It is.",
+       "explanation_en": "1) An English sentence needs a subject, so we use It for the weather.\n2) It is + adjective: It is cold. It is sunny.\n3) Join two adjectives with and: It is warm and sunny.\n4) It's = It is.",
+       "examples": ["It is rainy today.", "It's cold and windy.", "It is warm and sunny in summer."]},
+      {"title": "Questions and negatives: Is it ...? / It is not ...",
+       "explanation_ar": "١) للسؤال نقدّم is: Is it cold?\n٢) الإجابة: Yes, it is. / No, it isn't.\n٣) للنفي نضيف not بعد is: It is not windy = It isn't windy.",
+       "explanation_en": "1) For a question, put is first: Is it cold?\n2) Answers: Yes, it is. / No, it isn't.\n3) For the negative, add not after is: It is not windy = It isn't windy.",
+       "examples": ["Is it sunny? Yes, it is.", "Is it snowy? No, it isn't.", "It is not cold today."]}
+    ]
+  },
+  "questions": [
+    {"question": "What does \"forecast\" mean?", "choices": ["a report about the weather tomorrow", "a kind of coat", "a hot day", "a phone"], "answer": 0, "explanation_ar": "forecast هي النشرة التي تخبرنا بالطقس المتوقع.", "explanation_en": "A forecast tells you what the weather will be."},
+    {"question": "There is a lot of sun. It is ___.", "choices": ["sun", "sunny", "snowy", "suny"], "answer": 1, "explanation_ar": "الصفة من sun هي sunny بحرفي n.", "explanation_en": "The adjective is sunny, with double n."},
+    {"question": "Choose the correct question.", "choices": ["It is cold?", "Is cold it?", "Is it cold?", "Cold is it?"], "answer": 2, "explanation_ar": "في السؤال نقدّم is قبل it.", "explanation_en": "In a question, is comes before it."},
+    {"question": "\"Is it windy?\" \"No, ___.\"", "choices": ["it is", "it isn't", "is it", "it not"], "answer": 1, "explanation_ar": "الإجابة المنفية القصيرة: No, it isn't.", "explanation_en": "The short negative answer is: No, it isn't."},
+    {"question": "Which is the coldest?", "choices": ["warm", "hot", "cool", "cold"], "answer": 3, "explanation_ar": "cold هي الأبرد، ثم cool، ثم warm، ثم hot.", "explanation_en": "Cold is the coldest: hot → warm → cool → cold."},
+    {"question": "Which temperature scale do people use in the United States?", "choices": ["Fahrenheit", "Celsius", "degree", "forecast"], "answer": 0, "explanation_ar": "تستخدم أمريكا مقياس فهرنهايت.", "explanation_en": "The U.S. uses Fahrenheit."},
+    {"question": "Complete: The weather in Washington changes ___.", "choices": ["often", "cold", "right", "warm"], "answer": 0, "explanation_ar": "often تعني كثيرًا/غالبًا.", "explanation_en": "Often means many times."},
+    {"question": "Choose the correct sentence.", "choices": ["Is sunny today.", "It sunny today.", "Today sunny is.", "It is sunny today."], "answer": 3, "explanation_ar": "نحتاج It is قبل صفة الطقس.", "explanation_en": "We need It is before the weather adjective."},
+    {"question": "\"Remember to check the forecast\" means:", "choices": ["Forget the forecast.", "Don't forget to look at the forecast.", "Make a forecast.", "The forecast is wrong."], "answer": 1, "explanation_ar": "remember to = لا تنسَ أن.", "explanation_en": "Remember to = don't forget to."},
+    {"question": "It is 18 degrees Celsius. It is ___.", "choices": ["snowy", "very hot", "warm", "freezing"], "answer": 2, "explanation_ar": "١٨ درجة مئوية (٦٥ فهرنهايت) جو دافئ.", "explanation_en": "18°C (65°F) is warm."}
+  ]
+}

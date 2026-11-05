@@ -1,0 +1,385 @@
+{
+  "title": "At a Fast Food Restaurant",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "fast food",
+        "pos": "noun",
+        "meaning_en": "hot food that is cooked and served very quickly",
+        "meaning_ar": "وجبات سريعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We sometimes eat fast food on Fridays."
+      },
+      {
+        "word": "cheeseburger",
+        "pos": "noun",
+        "meaning_en": "a burger with cheese on the meat",
+        "meaning_ar": "برغر بالجبن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I have a cheeseburger, please?"
+      },
+      {
+        "word": "burger",
+        "pos": "noun",
+        "meaning_en": "a round piece of cooked meat in a bread roll",
+        "meaning_ar": "برغر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This burger is very big."
+      },
+      {
+        "word": "fries",
+        "pos": "noun",
+        "meaning_en": "long thin pieces of fried potato",
+        "meaning_ar": "بطاطس مقلية",
+        "note_ar": "في بريطانيا: chips",
+        "note_en": "UK: chips.",
+        "example": "I want fries with my burger."
+      },
+      {
+        "word": "combo meal",
+        "pos": "noun",
+        "meaning_en": "a burger with fries and a drink together, for one price",
+        "meaning_ar": "وجبة كاملة (كومبو)",
+        "note_ar": "",
+        "note_en": "Also called \"a meal\" or \"a meal deal\".",
+        "example": "The combo meal is cheaper."
+      },
+      {
+        "word": "drink",
+        "pos": "noun",
+        "meaning_en": "something you drink, like water or juice",
+        "meaning_ar": "مشروب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What drink do you want?"
+      },
+      {
+        "word": "cola",
+        "pos": "noun",
+        "meaning_en": "a sweet brown fizzy drink",
+        "meaning_ar": "مشروب غازي (كولا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I have a large cola, please?"
+      },
+      {
+        "word": "ice cream",
+        "pos": "noun",
+        "meaning_en": "a cold sweet food made from milk",
+        "meaning_ar": "آيس كريم / بوظة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "One small chocolate ice cream, please."
+      },
+      {
+        "word": "total",
+        "pos": "noun",
+        "meaning_en": "the full amount of money",
+        "meaning_ar": "المجموع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The total is nine dollars and fifty cents."
+      },
+      {
+        "word": "cent",
+        "pos": "noun",
+        "meaning_en": "a small coin; 100 cents = 1 dollar",
+        "meaning_ar": "سنت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It costs fifty cents."
+      },
+      {
+        "word": "credit card",
+        "pos": "noun",
+        "meaning_en": "a bank card you use to pay",
+        "meaning_ar": "بطاقة ائتمان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to pay with my credit card."
+      },
+      {
+        "word": "receipt",
+        "pos": "noun",
+        "meaning_en": "a paper that shows what you paid",
+        "meaning_ar": "إيصال",
+        "note_ar": "حرف p صامت",
+        "note_en": "The p is silent.",
+        "example": "Thank you. Here is your receipt."
+      },
+      {
+        "word": "wait",
+        "pos": "verb",
+        "meaning_en": "stay until something happens",
+        "meaning_ar": "ينتظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please wait over there for your food."
+      },
+      {
+        "word": "order",
+        "pos": "verb",
+        "meaning_en": "ask for food or drink in a restaurant",
+        "meaning_ar": "يطلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What would you like to order today?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Can I have vs I want",
+        "words": [
+          "Can I have",
+          "I want"
+        ],
+        "explanation_ar": "Can I have ...? سؤال مهذب. I want ... أكثر مباشرة، وهي مقبولة في المطاعم السريعة لكن الأفضل أن تضيف please.",
+        "explanation_en": "\"Can I have ...?\" is a polite question. \"I want ...\" is more direct; add \"please\" to sound polite.",
+        "examples": [
+          {
+            "word": "Can I have",
+            "sentence": "Can I have a cola, please?"
+          },
+          {
+            "word": "I want",
+            "sentence": "I want the combo meal, please."
+          }
+        ]
+      },
+      {
+        "title": "for here vs to go",
+        "words": [
+          "for here",
+          "to go"
+        ],
+        "explanation_ar": "for here = تأكل داخل المطعم. to go = تأخذ الطعام معك.",
+        "explanation_en": "\"For here\" = eat in the restaurant. \"To go\" = take the food away.",
+        "examples": [
+          {
+            "word": "for here",
+            "sentence": "For here, please. I want to eat here."
+          },
+          {
+            "word": "to go",
+            "sentence": "To go, please. I'll eat at home."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Welcome to Star Burgers.",
+        "meaning_ar": "مرحبًا بك في ستار برغرز.",
+        "meaning_en": "The worker greets you.",
+        "example": "Hello! Welcome to our restaurant."
+      },
+      {
+        "phrase": "What would you like to order today?",
+        "meaning_ar": "ماذا تريد أن تطلب اليوم؟",
+        "meaning_en": "The worker asks for your order.",
+        "example": "Hi! What would you like to order today?"
+      },
+      {
+        "phrase": "Can I have a cheeseburger, please?",
+        "meaning_ar": "هل يمكنني الحصول على برغر بالجبن من فضلك؟",
+        "meaning_en": "A polite order.",
+        "example": "Can I have a chicken sandwich, please?"
+      },
+      {
+        "phrase": "Would you like a meal with fries and a drink?",
+        "meaning_ar": "هل تريد وجبة مع بطاطس ومشروب؟",
+        "meaning_en": "The worker offers a combo.",
+        "example": "Would you like a meal with that?"
+      },
+      {
+        "phrase": "Anything else for you today?",
+        "meaning_ar": "هل تريد شيئًا آخر اليوم؟",
+        "meaning_en": "Do you want more?",
+        "example": "Anything else for you today? No, thanks."
+      },
+      {
+        "phrase": "Is that all? / Yes, that's all.",
+        "meaning_ar": "هل هذا كل شيء؟ / نعم، هذا كل شيء.",
+        "meaning_en": "Checking the order is finished.",
+        "example": "Is that all for your order? Yes, that's all."
+      },
+      {
+        "phrase": "How much is it?",
+        "meaning_ar": "كم السعر؟",
+        "meaning_en": "Asking the price.",
+        "example": "How much is it? It's six dollars."
+      },
+      {
+        "phrase": "For here or to go?",
+        "meaning_ar": "هنا أم سفري؟",
+        "meaning_en": "Will you eat here or take it away?",
+        "example": "For here or to go? For here, please."
+      },
+      {
+        "phrase": "How would you like to pay?",
+        "meaning_ar": "كيف تريد أن تدفع؟",
+        "meaning_en": "Asking cash or card.",
+        "example": "How would you like to pay? By card."
+      },
+      {
+        "phrase": "Please wait over there for your food.",
+        "meaning_ar": "من فضلك انتظر هناك من أجل طعامك.",
+        "meaning_en": "Telling you where to wait.",
+        "example": "Please wait over there. It will be ready soon."
+      },
+      {
+        "phrase": "It will be ready in three minutes.",
+        "meaning_ar": "سيكون جاهزًا خلال ثلاث دقائق.",
+        "meaning_en": "Telling you how long to wait.",
+        "example": "Your order will be ready in five minutes."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Saying prices",
+        "explanation_ar": "نقرأ السعر هكذا: $9.50 = nine dollars and fifty cents، أو بشكل أقصر: nine fifty.",
+        "explanation_en": "Say $9.50 as \"nine dollars and fifty cents\" or \"nine fifty\".",
+        "examples": [
+          "$2.25 = two dollars and twenty-five cents",
+          "$5.00 = five dollars",
+          "$9.50 = nine fifty"
+        ]
+      },
+      {
+        "title": "Future with will",
+        "explanation_ar": "نستخدم will + الفعل الأساسي للحديث عن المستقبل: It will be ready.",
+        "explanation_en": "Use \"will\" + base verb for the future.",
+        "examples": [
+          "It will be ready in three minutes.",
+          "I will pay by card.",
+          "The food will be hot."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What are \"fries\"?",
+      "choices": [
+        "thin fried potatoes",
+        "a cold drink",
+        "a kind of bread",
+        "a sweet cake"
+      ],
+      "answer": 0,
+      "explanation_ar": "fries هي البطاطس المقلية.",
+      "explanation_en": "Fries are thin fried potatoes."
+    },
+    {
+      "question": "A combo meal usually has ...",
+      "choices": [
+        "only a drink",
+        "a burger, fries and a drink",
+        "only ice cream",
+        "a salad and soup"
+      ],
+      "answer": 1,
+      "explanation_ar": "الكومبو فيه برغر وبطاطس ومشروب.",
+      "explanation_en": "A combo has a burger, fries and a drink."
+    },
+    {
+      "question": "How do we say $9.50?",
+      "choices": [
+        "nine dollars fifty",
+        "nine and fifty dollars",
+        "nine dollars and fifty cents",
+        "nine cents and fifty dollars"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول nine dollars and fifty cents.",
+      "explanation_en": "We say \"nine dollars and fifty cents\"."
+    },
+    {
+      "question": "\"For here or to go?\" \"For here, please.\" The customer will ...",
+      "choices": [
+        "take the food home",
+        "eat in the restaurant",
+        "not eat",
+        "pay later"
+      ],
+      "answer": 1,
+      "explanation_ar": "For here تعني يأكل في المطعم.",
+      "explanation_en": "\"For here\" means eat in the restaurant."
+    },
+    {
+      "question": "Choose the polite order:",
+      "choices": [
+        "Can I have a large cola, please?",
+        "Cola. Large. Now.",
+        "Give me cola.",
+        "You give me a cola."
+      ],
+      "answer": 0,
+      "explanation_ar": "Can I have ... please مهذبة.",
+      "explanation_en": "\"Can I have ..., please?\" is polite."
+    },
+    {
+      "question": "It ____ ready in three minutes.",
+      "choices": [
+        "is be",
+        "will be",
+        "will is",
+        "be will"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول will be (will ثم الفعل الأساسي).",
+      "explanation_en": "We say \"will be\"."
+    },
+    {
+      "question": "\"How would you like to pay?\" \"____\"",
+      "choices": [
+        "I want the combo.",
+        "Yes, that's all.",
+        "For here.",
+        "With my credit card."
+      ],
+      "answer": 3,
+      "explanation_ar": "السؤال عن طريقة الدفع.",
+      "explanation_en": "The question is about how you pay."
+    },
+    {
+      "question": "\"Is that all for your order?\" \"____\"",
+      "choices": [
+        "Yes, that's all.",
+        "It's nine dollars.",
+        "Here is my card.",
+        "You are welcome."
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة: Yes, that's all.",
+      "explanation_en": "The answer is \"Yes, that's all.\""
+    },
+    {
+      "question": "100 cents = ____",
+      "choices": [
+        "10 dollars",
+        "1 dollar",
+        "100 dollars",
+        "50 dollars"
+      ],
+      "answer": 1,
+      "explanation_ar": "مئة سنت = دولار واحد.",
+      "explanation_en": "100 cents = 1 dollar."
+    },
+    {
+      "question": "\"Thank you very much.\" \"____\"",
+      "choices": [
+        "Thank you.",
+        "Yes, please.",
+        "You are welcome.",
+        "For here."
+      ],
+      "answer": 2,
+      "explanation_ar": "الرد على الشكر: You are welcome.",
+      "explanation_en": "We answer \"You are welcome.\""
+    }
+  ]
+}

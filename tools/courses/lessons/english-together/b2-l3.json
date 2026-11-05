@@ -1,0 +1,402 @@
+{
+  "title": "Ordering Coffee at Starbucks",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "barista",
+        "pos": "noun",
+        "meaning_en": "a person who makes coffee in a café",
+        "meaning_ar": "صانع القهوة (باريستا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The barista made my cappuccino."
+      },
+      {
+        "word": "espresso",
+        "pos": "noun",
+        "meaning_en": "a small cup of very strong coffee",
+        "meaning_ar": "إسبريسو (قهوة مركّزة)",
+        "note_ar": "لا يوجد حرف x فيها: espresso وليس expresso",
+        "note_en": "No \"x\": espresso, not expresso.",
+        "example": "He drinks an espresso after lunch."
+      },
+      {
+        "word": "Americano",
+        "pos": "noun",
+        "meaning_en": "espresso with hot water added",
+        "meaning_ar": "أمريكانو (إسبريسو مع ماء ساخن)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll have an Americano, please."
+      },
+      {
+        "word": "latte",
+        "pos": "noun",
+        "meaning_en": "espresso with a lot of hot milk",
+        "meaning_ar": "لاتيه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A latte is soft and milky."
+      },
+      {
+        "word": "cappuccino",
+        "pos": "noun",
+        "meaning_en": "espresso with hot milk and foam",
+        "meaning_ar": "كابتشينو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll have a cappuccino, please."
+      },
+      {
+        "word": "mocha",
+        "pos": "noun",
+        "meaning_en": "coffee with chocolate and milk",
+        "meaning_ar": "موكا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My sister likes mocha."
+      },
+      {
+        "word": "popular",
+        "pos": "adjective",
+        "meaning_en": "liked by many people",
+        "meaning_ar": "مشهور / محبوب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Latte is a very popular drink."
+      },
+      {
+        "word": "Short, Tall, Grande, Venti",
+        "pos": "noun",
+        "meaning_en": "Starbucks cup sizes, from smallest to largest",
+        "meaning_ar": "أحجام الأكواب في ستاربكس من الأصغر إلى الأكبر",
+        "note_ar": "Grande كلمة إيطالية تعني كبير، لكنها في ستاربكس حجم متوسط",
+        "note_en": "These are Starbucks names; Grande is the middle-large size.",
+        "example": "I'll go for a Grande, please."
+      },
+      {
+        "word": "extra shot",
+        "pos": "noun",
+        "meaning_en": "one more small amount of espresso in your drink",
+        "meaning_ar": "جرعة إسبريسو إضافية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I have an extra shot of espresso?"
+      },
+      {
+        "word": "flavor",
+        "pos": "noun",
+        "meaning_en": "a taste added to a drink or food",
+        "meaning_ar": "نكهة",
+        "note_ar": "في بريطانيا: flavour",
+        "note_en": "UK spelling: flavour.",
+        "example": "I'd like caramel flavor, please."
+      },
+      {
+        "word": "caramel",
+        "pos": "noun",
+        "meaning_en": "a sweet brown flavor made from cooked sugar",
+        "meaning_ar": "كراميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She added caramel to her coffee."
+      },
+      {
+        "word": "hazelnut",
+        "pos": "noun",
+        "meaning_en": "a small round nut; also a coffee flavor",
+        "meaning_ar": "بندق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hazelnut coffee smells nice."
+      },
+      {
+        "word": "total",
+        "pos": "noun",
+        "meaning_en": "the full amount to pay",
+        "meaning_ar": "المجموع / الإجمالي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your total is $5.50."
+      },
+      {
+        "word": "shortly",
+        "pos": "adverb",
+        "meaning_en": "soon; in a short time",
+        "meaning_ar": "قريبًا / بعد قليل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your drink will be ready shortly."
+      },
+      {
+        "word": "go for",
+        "pos": "phrasal verb",
+        "meaning_en": "choose",
+        "meaning_ar": "يختار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll go for the large one."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Short / Tall / Grande / Venti vs small / medium / large",
+        "words": [
+          "Short",
+          "Tall",
+          "Grande",
+          "Venti",
+          "small",
+          "medium",
+          "large"
+        ],
+        "explanation_ar": "في أغلب المقاهي نقول small / medium / large. في ستاربكس للأحجام أسماء خاصة: Short (صغير جدًا) ثم Tall ثم Grande ثم Venti (الأكبر). انتبه: Tall في ستاربكس ليس كبيرًا!",
+        "explanation_en": "Most cafés use small, medium and large. Starbucks uses Short, Tall, Grande and Venti (biggest). Note: \"Tall\" is not big there!",
+        "examples": [
+          {
+            "word": "Tall",
+            "sentence": "A Tall latte is a small-medium cup."
+          },
+          {
+            "word": "Venti",
+            "sentence": "Venti is the biggest size."
+          },
+          {
+            "word": "medium",
+            "sentence": "In most cafés, ask for a medium."
+          }
+        ]
+      },
+      {
+        "title": "espresso vs Americano vs latte",
+        "words": [
+          "espresso",
+          "Americano",
+          "latte"
+        ],
+        "explanation_ar": "espresso قهوة قوية صغيرة. Americano إسبريسو مع ماء ساخن. latte إسبريسو مع حليب كثير.",
+        "explanation_en": "Espresso is small and strong. An Americano is espresso with hot water. A latte is espresso with lots of milk.",
+        "examples": [
+          {
+            "word": "espresso",
+            "sentence": "An espresso is very strong."
+          },
+          {
+            "word": "Americano",
+            "sentence": "An Americano is like black coffee."
+          },
+          {
+            "word": "latte",
+            "sentence": "A latte has a lot of milk."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What can I get for you today?",
+        "meaning_ar": "ماذا أحضر لك اليوم؟",
+        "meaning_en": "The barista asks for your order.",
+        "example": "Hi! What can I get for you today?"
+      },
+      {
+        "phrase": "I'd like to have a coffee, please.",
+        "meaning_ar": "أريد قهوة من فضلك.",
+        "meaning_en": "A polite way to order.",
+        "example": "I'd like to have a tea, please."
+      },
+      {
+        "phrase": "Which one would you like?",
+        "meaning_ar": "أيّها تريد؟",
+        "meaning_en": "Asking you to choose one.",
+        "example": "We have tea and coffee. Which one would you like?"
+      },
+      {
+        "phrase": "Great choice!",
+        "meaning_ar": "اختيار رائع!",
+        "meaning_en": "Saying your choice is good.",
+        "example": "The cappuccino? Great choice!"
+      },
+      {
+        "phrase": "What size would you like?",
+        "meaning_ar": "أي حجم تريد؟",
+        "meaning_en": "Asking about size.",
+        "example": "What size would you like? Tall, please."
+      },
+      {
+        "phrase": "I'll go for a Grande, please.",
+        "meaning_ar": "سأختار الحجم غراندي من فضلك.",
+        "meaning_en": "Choosing a size.",
+        "example": "I'll go for a large, please."
+      },
+      {
+        "phrase": "Can I have an extra shot of espresso?",
+        "meaning_ar": "هل يمكنني الحصول على جرعة إسبريسو إضافية؟",
+        "meaning_en": "Asking for stronger coffee.",
+        "example": "Can I have an extra shot, please?"
+      },
+      {
+        "phrase": "No, that's all. Thank you!",
+        "meaning_ar": "لا، هذا كل شيء. شكرًا!",
+        "meaning_en": "You don't want anything more.",
+        "example": "Anything else? No, that's all."
+      },
+      {
+        "phrase": "Can I have your name, please?",
+        "meaning_ar": "هل يمكنني معرفة اسمك من فضلك؟",
+        "meaning_en": "The barista writes your name on the cup.",
+        "example": "Can I have your name, please? Sure, it's Omar."
+      },
+      {
+        "phrase": "Your drink will be ready shortly.",
+        "meaning_ar": "مشروبك سيكون جاهزًا بعد قليل.",
+        "meaning_en": "Please wait a little.",
+        "example": "Your coffee will be ready shortly."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Can I have ...? / I'd like ...",
+        "explanation_ar": "لطلب شيء بأدب: Can I have + اسم + please? أو I'd like + اسم. وI'd like to have تعني أيضًا أريد.",
+        "explanation_en": "To ask politely: \"Can I have ... , please?\" or \"I'd like ...\".",
+        "examples": [
+          "Can I have a Grande latte, please?",
+          "I'd like a hot cappuccino.",
+          "Can I have caramel flavor?"
+        ]
+      },
+      {
+        "title": "Adjective order: size + hot/iced + drink",
+        "explanation_ar": "عند الطلب نضع الحجم أولًا، ثم ساخن أو مثلج، ثم اسم المشروب.",
+        "explanation_en": "When ordering, say the size first, then hot or iced, then the drink.",
+        "examples": [
+          "a Grande hot cappuccino",
+          "a medium iced latte",
+          "a large hot tea"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which Starbucks size is the biggest?",
+      "choices": [
+        "Short",
+        "Tall",
+        "Grande",
+        "Venti"
+      ],
+      "answer": 3,
+      "explanation_ar": "Venti هو الأكبر.",
+      "explanation_en": "Venti is the biggest."
+    },
+    {
+      "question": "What is an Americano?",
+      "choices": [
+        "espresso with hot water",
+        "coffee with chocolate",
+        "coffee with a lot of milk",
+        "a kind of nut"
+      ],
+      "answer": 0,
+      "explanation_ar": "Americano إسبريسو مع ماء ساخن.",
+      "explanation_en": "An Americano is espresso with hot water."
+    },
+    {
+      "question": "\"I'll go for a Grande.\" \"Go for\" means ...",
+      "choices": [
+        "walk to",
+        "choose",
+        "pay for",
+        "drink"
+      ],
+      "answer": 1,
+      "explanation_ar": "go for تعني يختار.",
+      "explanation_en": "\"Go for\" means \"choose\"."
+    },
+    {
+      "question": "Which word is spelled correctly?",
+      "choices": [
+        "expresso",
+        "espreso",
+        "espresso",
+        "exspresso"
+      ],
+      "answer": 2,
+      "explanation_ar": "الصحيح espresso بدون x.",
+      "explanation_en": "The correct spelling is \"espresso\"."
+    },
+    {
+      "question": "Choose the correct order:",
+      "choices": [
+        "a cappuccino hot Grande",
+        "a hot Grande cappuccino",
+        "a Grande cappuccino hot",
+        "a Grande hot cappuccino"
+      ],
+      "answer": 3,
+      "explanation_ar": "الحجم ثم ساخن ثم المشروب.",
+      "explanation_en": "Size, then hot/iced, then the drink."
+    },
+    {
+      "question": "\"Your drink will be ready shortly.\" \"Shortly\" means ...",
+      "choices": [
+        "soon",
+        "small",
+        "never",
+        "quickly drink"
+      ],
+      "answer": 0,
+      "explanation_ar": "shortly تعني قريبًا.",
+      "explanation_en": "\"Shortly\" means soon."
+    },
+    {
+      "question": "What is a barista?",
+      "choices": [
+        "a cup size",
+        "a kind of coffee",
+        "a person who makes coffee",
+        "a coffee flavor"
+      ],
+      "answer": 2,
+      "explanation_ar": "الباريستا هو صانع القهوة.",
+      "explanation_en": "A barista makes coffee."
+    },
+    {
+      "question": "Caramel and hazelnut are ...",
+      "choices": [
+        "sizes",
+        "flavors",
+        "prices",
+        "cups"
+      ],
+      "answer": 1,
+      "explanation_ar": "هما نكهتان تضافان للقهوة.",
+      "explanation_en": "They are flavors."
+    },
+    {
+      "question": "\"Anything else for you today?\" \"____\"",
+      "choices": [
+        "Yes, I'm fine.",
+        "No, that's all. Thank you!",
+        "Grande, please.",
+        "My name is John."
+      ],
+      "answer": 1,
+      "explanation_ar": "الرد المناسب: No, that's all.",
+      "explanation_en": "The right answer is \"No, that's all.\""
+    },
+    {
+      "question": "Can I have an extra ____ of espresso?",
+      "choices": [
+        "shot",
+        "cup size",
+        "flavor",
+        "total"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول an extra shot of espresso.",
+      "explanation_en": "We say \"an extra shot of espresso\"."
+    }
+  ]
+}

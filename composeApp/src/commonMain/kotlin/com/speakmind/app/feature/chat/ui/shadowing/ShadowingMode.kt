@@ -150,7 +150,8 @@ fun ShadowingOverlay(
                     colors = ButtonDefaults.buttonColors(
                         containerColor = if (state == ShadowingState.RECORDING_USER)
                             colors.magenta else colors.neonCyan,
-                        contentColor = colors.backgroundDark
+                        contentColor = if (state == ShadowingState.RECORDING_USER)
+                            colors.backgroundDark else colors.onPrimary
                     ),
                     modifier = Modifier.size(72.sdp),
                     contentPadding = PaddingValues(0.sdp)

@@ -1,0 +1,630 @@
+{
+ "title": "Let's Agree to Disagree",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "country",
+    "pos": "noun",
+    "meaning_en": "land outside cities and towns, with farms and nature",
+    "meaning_ar": "الريف",
+    "note_ar": "country تعني أيضاً «دولة»؛ the country = الريف.",
+    "note_en": "\"Country\" also means a nation; \"the country\" = the countryside.",
+    "example": "I am from the country."
+   },
+   {
+    "word": "city",
+    "pos": "noun",
+    "meaning_en": "a large town with many people and buildings",
+    "meaning_ar": "مدينة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I like life in the city."
+   },
+   {
+    "word": "miss",
+    "pos": "verb",
+    "meaning_en": "feel sad because someone or something is not with you",
+    "meaning_ar": "يفتقد، يشتاق إلى",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sometimes I miss my hometown."
+   },
+   {
+    "word": "lose",
+    "pos": "verb",
+    "meaning_en": "not be able to find something",
+    "meaning_ar": "يفقد، يضيّع",
+    "note_ar": "الماضي والتصريف الثالث: lost.",
+    "note_en": "Past: lost.",
+    "example": "Someone lost a bag."
+   },
+   {
+    "word": "lost",
+    "pos": "adjective",
+    "meaning_en": "not knowing where you are",
+    "meaning_ar": "تائه، ضائع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I feel a little lost in this big city."
+   },
+   {
+    "word": "mine",
+    "pos": "pronoun",
+    "meaning_en": "the one that belongs to me",
+    "meaning_ar": "لي، خاصتي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This bag is mine."
+   },
+   {
+    "word": "yours",
+    "pos": "pronoun",
+    "meaning_en": "the one that belongs to you",
+    "meaning_ar": "لك، خاصتك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Is this pen yours?"
+   },
+   {
+    "word": "his",
+    "pos": "pronoun",
+    "meaning_en": "the one that belongs to him",
+    "meaning_ar": "له، خاصته",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's not mine. It might be his."
+   },
+   {
+    "word": "hers",
+    "pos": "pronoun",
+    "meaning_en": "the one that belongs to her",
+    "meaning_ar": "لها، خاصتها",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That phone is hers."
+   },
+   {
+    "word": "ours",
+    "pos": "pronoun",
+    "meaning_en": "the one that belongs to us",
+    "meaning_ar": "لنا، خاصتنا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They have their opinions. We have ours."
+   },
+   {
+    "word": "theirs",
+    "pos": "pronoun",
+    "meaning_en": "the one that belongs to them",
+    "meaning_ar": "لهم، خاصتهم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Maybe it's theirs."
+   },
+   {
+    "word": "seem",
+    "pos": "verb",
+    "meaning_en": "look or appear to be",
+    "meaning_ar": "يبدو",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You seem nervous."
+   },
+   {
+    "word": "nervous",
+    "pos": "adjective",
+    "meaning_en": "worried and a little afraid",
+    "meaning_ar": "متوتر، قلق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I am nervous before exams."
+   },
+   {
+    "word": "travel",
+    "pos": "noun / verb",
+    "meaning_en": "going from place to place; to go on a trip",
+    "meaning_ar": "سفر / يسافر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These are my travel things."
+   },
+   {
+    "word": "visit",
+    "pos": "noun",
+    "meaning_en": "a time when you go to see a place or person",
+    "meaning_ar": "زيارة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is my first visit to Washington."
+   },
+   {
+    "word": "town",
+    "pos": "noun",
+    "meaning_en": "a place with houses and shops, smaller than a city",
+    "meaning_ar": "بلدة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm from a small town."
+   },
+   {
+    "word": "exciting",
+    "pos": "adjective",
+    "meaning_en": "making you feel happy and full of energy",
+    "meaning_ar": "مثير، ممتع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The city is exciting!"
+   },
+   {
+    "word": "culture",
+    "pos": "noun",
+    "meaning_en": "art, theater, food and the way of life of a people",
+    "meaning_ar": "ثقافة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The city has more culture than the country."
+   },
+   {
+    "word": "museum",
+    "pos": "noun",
+    "meaning_en": "a building where you can see art or old things",
+    "meaning_ar": "متحف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We visited a science museum."
+   },
+   {
+    "word": "theater",
+    "pos": "noun",
+    "meaning_en": "a building where people watch plays",
+    "meaning_ar": "مسرح",
+    "note_ar": "البريطانية تكتبها theatre.",
+    "note_en": "UK spelling: theatre.",
+    "example": "There is a play at the theater tonight."
+   },
+   {
+    "word": "nature",
+    "pos": "noun",
+    "meaning_en": "trees, mountains, rivers, animals and plants",
+    "meaning_ar": "الطبيعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The country has more nature."
+   },
+   {
+    "word": "peaceful",
+    "pos": "adjective",
+    "meaning_en": "quiet and calm",
+    "meaning_ar": "هادئ، مسالم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The village is peaceful."
+   },
+   {
+    "word": "mountain",
+    "pos": "noun",
+    "meaning_en": "a very high hill",
+    "meaning_ar": "جبل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There are mountains near my town."
+   },
+   {
+    "word": "air",
+    "pos": "noun",
+    "meaning_en": "what we breathe",
+    "meaning_ar": "هواء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The air is clean in the country."
+   },
+   {
+    "word": "hiking",
+    "pos": "noun",
+    "meaning_en": "walking a long way in nature",
+    "meaning_ar": "المشي لمسافات في الطبيعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We go hiking on weekends."
+   },
+   {
+    "word": "camping",
+    "pos": "noun",
+    "meaning_en": "sleeping in a tent outdoors",
+    "meaning_ar": "التخييم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Camping in the desert is fun."
+   },
+   {
+    "word": "noisy",
+    "pos": "adjective",
+    "meaning_en": "full of loud sounds",
+    "meaning_ar": "صاخب، مزعج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The street is very noisy."
+   },
+   {
+    "word": "dirty",
+    "pos": "adjective",
+    "meaning_en": "not clean",
+    "meaning_ar": "متّسخ، قذر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My shoes are dirty."
+   },
+   {
+    "word": "friendly",
+    "pos": "adjective",
+    "meaning_en": "kind and nice to other people",
+    "meaning_ar": "ودود، لطيف",
+    "note_ar": "رغم نهايتها ly فهي صفة وليست ظرفاً.",
+    "note_en": "It ends in -ly but it is an adjective, not an adverb.",
+    "example": "People in my village are friendly."
+   },
+   {
+    "word": "rude",
+    "pos": "adjective",
+    "meaning_en": "not polite",
+    "meaning_ar": "وقح، قليل الأدب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It is rude to talk with food in your mouth."
+   },
+   {
+    "word": "busy",
+    "pos": "adjective",
+    "meaning_en": "having a lot to do",
+    "meaning_ar": "مشغول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "City people are just busy."
+   },
+   {
+    "word": "agree",
+    "pos": "verb",
+    "meaning_en": "have the same opinion",
+    "meaning_ar": "يوافق، يتفق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I agree with you."
+   },
+   {
+    "word": "disagree",
+    "pos": "verb",
+    "meaning_en": "have a different opinion",
+    "meaning_ar": "يختلف في الرأي، لا يوافق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I disagree. I think the city is beautiful."
+   },
+   {
+    "word": "opinion",
+    "pos": "noun",
+    "meaning_en": "what you think about something",
+    "meaning_ar": "رأي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Everyone has an opinion."
+   },
+   {
+    "word": "point",
+    "pos": "noun",
+    "meaning_en": "an idea or reason in a discussion",
+    "meaning_ar": "فكرة، وجهة نظر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That's a good point."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "my vs mine",
+    "words": [
+     "my",
+     "mine"
+    ],
+    "explanation_ar": "my صفة ملكية يأتي بعدها اسم: my bag. mine ضمير ملكية يقف وحده بدون اسم: The bag is mine. وكذلك your/yours، her/hers، our/ours، their/theirs. أما his فهي نفسها في الحالتين.",
+    "explanation_en": "\"My\" comes before a noun: my bag. \"Mine\" stands alone: The bag is mine. The same with your/yours, her/hers, our/ours, their/theirs. \"His\" is the same in both cases.",
+    "examples": [
+     {
+      "word": "my",
+      "sentence": "These are my travel things."
+     },
+     {
+      "word": "mine",
+      "sentence": "That's mine."
+     },
+     {
+      "word": "his",
+      "sentence": "This is his bag."
+     },
+     {
+      "word": "his",
+      "sentence": "It might be his."
+     }
+    ]
+   },
+   {
+    "title": "its vs it's",
+    "words": [
+     "its",
+     "it's"
+    ],
+    "explanation_ar": "its بدون فاصلة علوية = ملكية لغير العاقل (له/لها). it's = it is. وضمائر الملكية لا تأخذ فاصلة علوية أبداً: yours, hers, ours, theirs.",
+    "explanation_en": "\"Its\" (no apostrophe) shows possession for a thing or animal. \"It's\" means \"it is\". Possessive pronouns never use an apostrophe: yours, hers, ours, theirs.",
+    "examples": [
+     {
+      "word": "its",
+      "sentence": "The city is famous for its museums."
+     },
+     {
+      "word": "it's",
+      "sentence": "It's not mine."
+     }
+    ]
+   },
+   {
+    "title": "agree vs disagree",
+    "words": [
+     "agree",
+     "disagree"
+    ],
+    "explanation_ar": "agree = لديك نفس الرأي. disagree = لديك رأي مختلف. البادئة dis تعطي العكس. نقول agree with someone ولا نقول I am agree.",
+    "explanation_en": "\"Agree\" means you have the same opinion; \"disagree\" means a different one. The prefix dis- makes the opposite. Say \"I agree\", not \"I am agree\".",
+    "examples": [
+     {
+      "word": "agree",
+      "sentence": "I agree with you."
+     },
+     {
+      "word": "disagree",
+      "sentence": "I disagree. I like the city."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Excuse me. Is this bag yours?",
+    "meaning_ar": "عفواً، هل هذه الحقيبة لك؟",
+    "meaning_en": "A polite way to ask who owns something.",
+    "example": "Excuse me. Is this umbrella yours?"
+   },
+   {
+    "phrase": "No. It's not mine.",
+    "meaning_ar": "لا، ليست لي.",
+    "meaning_en": "It doesn't belong to me.",
+    "example": "\"Is this your phone?\" \"No, it's not mine.\""
+   },
+   {
+    "phrase": "It might be hers / his.",
+    "meaning_ar": "ربما تكون لها / له.",
+    "meaning_en": "Maybe it belongs to her / him.",
+    "example": "Ask Sarah. It might be hers."
+   },
+   {
+    "phrase": "Yes, that's mine.",
+    "meaning_ar": "نعم، هذه لي.",
+    "meaning_en": "It belongs to me.",
+    "example": "\"Whose coat is this?\" \"Oh, that's mine. Thanks!\""
+   },
+   {
+    "phrase": "You seem nervous.",
+    "meaning_ar": "تبدو متوتراً.",
+    "meaning_en": "You look worried.",
+    "example": "Are you okay? You seem tired."
+   },
+   {
+    "phrase": "I feel a little lost.",
+    "meaning_ar": "أشعر بأنني تائه قليلاً.",
+    "meaning_en": "I don't know my way around.",
+    "example": "It's my first day at work. I feel a little lost."
+   },
+   {
+    "phrase": "That is why I'm here.",
+    "meaning_ar": "هذا هو سبب وجودي هنا.",
+    "meaning_en": "This is the reason I came.",
+    "example": "There are good schools here. That is why I'm here."
+   },
+   {
+    "phrase": "Well, I agree.",
+    "meaning_ar": "حسناً، أنا أوافق.",
+    "meaning_en": "I have the same opinion.",
+    "example": "\"The museum is great.\" \"Well, I agree.\""
+   },
+   {
+    "phrase": "I disagree.",
+    "meaning_ar": "أنا لا أوافق.",
+    "meaning_en": "I have a different opinion.",
+    "example": "I disagree. I think it's a good idea."
+   },
+   {
+    "phrase": "That's a good point.",
+    "meaning_ar": "هذه نقطة جيدة / فكرة وجيهة.",
+    "meaning_en": "Your idea is reasonable.",
+    "example": "\"We can take the bus.\" \"That's a good point.\""
+   },
+   {
+    "phrase": "I have an idea.",
+    "meaning_ar": "لديّ فكرة.",
+    "meaning_en": "I want to suggest something.",
+    "example": "I have an idea. Let's eat outside."
+   },
+   {
+    "phrase": "I'm glad you found my bag.",
+    "meaning_ar": "أنا سعيد لأنك وجدت حقيبتي.",
+    "meaning_en": "I'm happy you found it.",
+    "example": "I'm glad you came."
+   },
+   {
+    "phrase": "Come on. Let's go.",
+    "meaning_ar": "هيا، لنذهب.",
+    "meaning_en": "Let's start now.",
+    "example": "Come on. Let's go to the park."
+   },
+   {
+    "phrase": "Let's agree to disagree.",
+    "meaning_ar": "لنتفق على أن نختلف.",
+    "meaning_en": "We have different opinions and that's okay.",
+    "example": "You like tea and I like coffee. Let's agree to disagree!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Possessive pronouns: mine, yours, his, hers, ours, theirs",
+    "explanation_ar": "ضمائر الملكية تحل محل (صفة الملكية + الاسم) حتى لا نكرر الاسم: Is this your bag? → Is this bag yours? الجدول: I → my → mine، you → your → yours، he → his → his، she → her → hers، we → our → ours، they → their → theirs. لا تأتي بعدها أسماء ولا نضع معها فاصلة علوية.",
+    "explanation_en": "Possessive pronouns replace \"possessive adjective + noun\" so we don't repeat the noun: Is this your bag? → Is this bag yours? I → my → mine, you → your → yours, he → his → his, she → her → hers, we → our → ours, they → their → theirs. No noun comes after them and no apostrophe.",
+    "examples": [
+     "Is this bag yours?",
+     "No. It's not mine. It might be hers.",
+     "They have their opinions. We have ours.",
+     "Maybe it's theirs."
+    ]
+   },
+   {
+    "title": "Comparing with more ... than",
+    "explanation_ar": "للمقارنة بين الكميات نستخدم more + اسم + than: The city has more culture than the country. ونستخدم more بدون than عندما يكون الطرف الثاني واضحاً: There are more jobs.",
+    "explanation_en": "To compare amounts use more + noun + than: The city has more culture than the country. Leave out \"than\" when it is clear: There are more jobs.",
+    "examples": [
+     "The city has more culture than the country.",
+     "The country has more nature.",
+     "There are more trees and mountains."
+    ]
+   },
+   {
+    "title": "Agreeing and disagreeing politely",
+    "explanation_ar": "للموافقة: I agree. / That's a good point. للاعتراض: I disagree. / I don't think... ويمكن أن نوافق على جزء ونعترض على آخر: Well, I agree... But I don't think...",
+    "explanation_en": "To agree: I agree. / That's a good point. To disagree: I disagree. / I don't think... You can agree with one part and disagree with another: Well, I agree... But I don't think...",
+    "examples": [
+     "Well, I agree. Country people are friendly.",
+     "But I don't think city people are rude.",
+     "I disagree. I think the buildings are beautiful."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "This is my bag. This bag is ___.",
+   "choices": [
+    "my",
+    "mine",
+    "me",
+    "I"
+   ],
+   "answer": 1,
+   "explanation_ar": "بدون اسم بعدها نستخدم ضمير الملكية mine.",
+   "explanation_en": "With no noun after it, use the possessive pronoun \"mine\"."
+  },
+  {
+   "question": "That is Sarah's phone. It's ___.",
+   "choices": [
+    "her",
+    "she",
+    "hers",
+    "her's"
+   ],
+   "answer": 2,
+   "explanation_ar": "ضمير الملكية لـ she هو hers بدون فاصلة علوية.",
+   "explanation_en": "The possessive pronoun for \"she\" is \"hers\" (no apostrophe)."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "Is this bag yours?",
+    "Is this bag your?",
+    "Is this yours bag?",
+    "Is this bag you're?"
+   ],
+   "answer": 0,
+   "explanation_ar": "yours يقف وحده في آخر الجملة.",
+   "explanation_en": "\"Yours\" stands alone without a noun."
+  },
+  {
+   "question": "They have their opinions. We have ___.",
+   "choices": [
+    "our",
+    "us",
+    "we",
+    "ours"
+   ],
+   "answer": 3,
+   "explanation_ar": "نستخدم ours بدلاً من our opinions.",
+   "explanation_en": "\"Ours\" means \"our opinions\" here."
+  },
+  {
+   "question": "What is the opposite of \"agree\"?",
+   "choices": [
+    "unagree",
+    "disagree",
+    "misagree",
+    "inagree"
+   ],
+   "answer": 1,
+   "explanation_ar": "البادئة dis تعطي عكس agree.",
+   "explanation_en": "The prefix dis- makes the opposite: disagree."
+  },
+  {
+   "question": "\"The city is noisy.\" Noisy means ___.",
+   "choices": [
+    "full of loud sounds",
+    "very clean",
+    "quiet and calm",
+    "full of trees"
+   ],
+   "answer": 0,
+   "explanation_ar": "noisy = صاخب مليء بالأصوات العالية.",
+   "explanation_en": "Noisy means full of loud sounds."
+  },
+  {
+   "question": "\"City people are not polite.\" Another word for \"not polite\" is ___.",
+   "choices": [
+    "friendly",
+    "peaceful",
+    "rude",
+    "lost"
+   ],
+   "answer": 2,
+   "explanation_ar": "rude = وقح، أي غير مهذب.",
+   "explanation_en": "\"Rude\" means not polite."
+  },
+  {
+   "question": "The city has more culture ___ the country.",
+   "choices": [
+    "that",
+    "then",
+    "as",
+    "than"
+   ],
+   "answer": 3,
+   "explanation_ar": "في المقارنة نستخدم than.",
+   "explanation_en": "Use \"than\" in comparisons."
+  },
+  {
+   "question": "\"You seem nervous.\" means ___",
+   "choices": [
+    "You look worried.",
+    "You are very busy.",
+    "You are lost.",
+    "You are rude."
+   ],
+   "answer": 0,
+   "explanation_ar": "seem = يبدو، nervous = متوتر.",
+   "explanation_en": "\"Seem\" means look or appear; nervous means worried."
+  },
+  {
+   "question": "Which word is a possessive pronoun (it stands alone)?",
+   "choices": [
+    "their",
+    "your",
+    "theirs",
+    "our"
+   ],
+   "answer": 2,
+   "explanation_ar": "theirs ضمير ملكية يقف وحده؛ الباقي صفات ملكية تحتاج اسماً بعدها.",
+   "explanation_en": "\"Theirs\" stands alone; the others need a noun after them."
+  }
+ ]
+}

@@ -1,0 +1,2762 @@
+{
+ "A1": [
+  {
+   "q": "I get ___ at seven every morning.",
+   "a": "up",
+   "d": [
+    "apart",
+    "over",
+    "across"
+   ],
+   "v": "get up",
+   "m": "rise from bed"
+  },
+  {
+   "q": "Please sit ___ on this chair.",
+   "a": "down",
+   "d": [
+    "away",
+    "over",
+    "through"
+   ],
+   "v": "sit down",
+   "m": "take a seat"
+  },
+  {
+   "q": "I usually wake ___ early on school days.",
+   "a": "up",
+   "d": [
+    "down",
+    "off",
+    "through"
+   ],
+   "v": "wake up",
+   "m": "stop sleeping"
+  },
+  {
+   "q": "It's cold outside, so put ___ your coat.",
+   "a": "on",
+   "d": [
+    "after",
+    "through",
+    "ahead"
+   ],
+   "v": "put on",
+   "m": "start wearing clothes"
+  },
+  {
+   "q": "It's dark in here. Please turn ___ the light.",
+   "a": "on",
+   "d": [
+    "in",
+    "away",
+    "back"
+   ],
+   "v": "turn on",
+   "m": "start a machine or light"
+  },
+  {
+   "q": "Please stand ___ when the teacher comes in.",
+   "a": "up",
+   "d": [
+    "off",
+    "through",
+    "after"
+   ],
+   "v": "stand up",
+   "m": "rise to your feet"
+  },
+  {
+   "q": "Take ___ your shoes before you come inside.",
+   "a": "off",
+   "d": [
+    "ahead",
+    "through",
+    "for"
+   ],
+   "v": "take off",
+   "m": "remove clothes"
+  },
+  {
+   "q": "Come ___! The door is open.",
+   "a": "in",
+   "d": [
+    "apart",
+    "for",
+    "after"
+   ],
+   "v": "come in",
+   "m": "enter a room or building"
+  },
+  {
+   "q": "Please turn ___ your phone during the film.",
+   "a": "off",
+   "d": [
+    "into",
+    "for",
+    "ahead"
+   ],
+   "v": "turn off",
+   "m": "stop a machine or light"
+  },
+  {
+   "q": "Can you pick ___ the pen from the floor?",
+   "a": "up",
+   "d": [
+    "down",
+    "in",
+    "for"
+   ],
+   "v": "pick up",
+   "m": "lift from a surface"
+  },
+  {
+   "q": "Look ___! A car is coming.",
+   "a": "out",
+   "d": [
+    "apart",
+    "off",
+    "for"
+   ],
+   "v": "look out",
+   "m": "be careful of danger"
+  },
+  {
+   "q": "Please write ___ your name on the paper.",
+   "a": "down",
+   "d": [
+    "off",
+    "apart",
+    "through"
+   ],
+   "v": "write down",
+   "m": "put words on paper"
+  },
+  {
+   "q": "I'm tired, so I'm going to lie ___ on the sofa.",
+   "a": "down",
+   "d": [
+    "ahead",
+    "off",
+    "forward"
+   ],
+   "v": "lie down",
+   "m": "rest flat on your back"
+  },
+  {
+   "q": "This is our stop, so let's get ___ the bus.",
+   "a": "off",
+   "d": [
+    "apart",
+    "ahead",
+    "after"
+   ],
+   "v": "get off",
+   "m": "leave a bus or train"
+  },
+  {
+   "q": "The bus is here. Let's get ___.",
+   "a": "on",
+   "d": [
+    "apart",
+    "for",
+    "after"
+   ],
+   "v": "get on",
+   "m": "enter a bus or train"
+  },
+  {
+   "q": "Hurry ___! We are late.",
+   "a": "up",
+   "d": [
+    "apart",
+    "for",
+    "into"
+   ],
+   "v": "hurry up",
+   "m": "move faster"
+  },
+  {
+   "q": "I grew ___ in a small town by the sea.",
+   "a": "up",
+   "d": [
+    "down",
+    "off",
+    "for"
+   ],
+   "v": "grow up",
+   "m": "become an adult"
+  },
+  {
+   "q": "Please come ___ to my house after school.",
+   "a": "over",
+   "d": [
+    "apart",
+    "after",
+    "into"
+   ],
+   "v": "come over",
+   "m": "visit someone's home"
+  },
+  {
+   "q": "Don't give ___! You can do it.",
+   "a": "up",
+   "d": [
+    "on",
+    "after",
+    "ahead"
+   ],
+   "v": "give up",
+   "m": "stop trying"
+  },
+  {
+   "q": "Please give ___ my book when you finish it.",
+   "a": "back",
+   "d": [
+    "for",
+    "ahead",
+    "apart"
+   ],
+   "v": "give back",
+   "m": "return something to its owner"
+  },
+  {
+   "q": "Please tidy your room and put your toys ___.",
+   "a": "away",
+   "d": [
+    "for",
+    "through",
+    "ahead"
+   ],
+   "v": "put away",
+   "m": "store in its usual place"
+  },
+  {
+   "q": "I like to go ___ with my friends on Saturdays.",
+   "a": "out",
+   "d": [
+    "apart",
+    "for",
+    "after"
+   ],
+   "v": "go out",
+   "m": "leave home for fun"
+  },
+  {
+   "q": "The music is too loud. Please turn it ___.",
+   "a": "down",
+   "d": [
+    "for",
+    "after",
+    "apart"
+   ],
+   "v": "turn down",
+   "m": "make quieter"
+  },
+  {
+   "q": "I can't hear the TV. Can you turn it ___?",
+   "a": "up",
+   "d": [
+    "for",
+    "after",
+    "through"
+   ],
+   "v": "turn up",
+   "m": "make louder"
+  },
+  {
+   "q": "Please hang ___ your coat on the hook.",
+   "a": "up",
+   "d": [
+    "down",
+    "for",
+    "after"
+   ],
+   "v": "hang up",
+   "m": "put on a hook"
+  },
+  {
+   "q": "Can I try ___ these jeans before I buy them?",
+   "a": "on",
+   "d": [
+    "up",
+    "for",
+    "after"
+   ],
+   "v": "try on",
+   "m": "wear clothes to check fit"
+  },
+  {
+   "q": "Look ___ the word in your dictionary.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "off"
+   ],
+   "v": "look up",
+   "m": "search for information"
+  },
+  {
+   "q": "Let's eat ___ at a restaurant tonight.",
+   "a": "out",
+   "d": [
+    "down",
+    "for",
+    "apart"
+   ],
+   "v": "eat out",
+   "m": "have a meal at a restaurant"
+  },
+  {
+   "q": "My sister looks ___ our baby brother.",
+   "a": "after",
+   "d": [
+    "apart",
+    "ahead",
+    "across"
+   ],
+   "v": "look after",
+   "m": "take care of"
+  },
+  {
+   "q": "Come ___ soon! We miss you.",
+   "a": "back",
+   "d": [
+    "off",
+    "apart",
+    "after"
+   ],
+   "v": "come back",
+   "m": "return"
+  },
+  {
+   "q": "Please slow ___. You're driving too fast.",
+   "a": "down",
+   "d": [
+    "off",
+    "apart",
+    "after"
+   ],
+   "v": "slow down",
+   "m": "go less fast"
+  },
+  {
+   "q": "Sit ___ straight in your chair, please.",
+   "a": "up",
+   "d": [
+    "out",
+    "off",
+    "after"
+   ],
+   "v": "sit up",
+   "m": "hold your back straight"
+  },
+  {
+   "q": "It's late. Let's go ___ home now.",
+   "a": "back",
+   "d": [
+    "apart",
+    "for",
+    "through"
+   ],
+   "v": "go back",
+   "m": "return to a place"
+  },
+  {
+   "q": "Please plug ___ the TV so we can watch it.",
+   "a": "in",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "plug in",
+   "m": "connect to electricity"
+  },
+  {
+   "q": "That milk is bad. Throw it ___.",
+   "a": "away",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "throw away",
+   "m": "put in the rubbish"
+  },
+  {
+   "q": "Please put ___ your hand if you know the answer.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "across"
+   ],
+   "v": "put up",
+   "m": "raise"
+  },
+  {
+   "q": "Can you pick me ___ from school today?",
+   "a": "up",
+   "d": [
+    "down",
+    "apart",
+    "after"
+   ],
+   "v": "pick up",
+   "m": "collect someone by car"
+  },
+  {
+   "q": "Please calm ___. Everything is OK.",
+   "a": "down",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "calm down",
+   "m": "become less upset"
+  },
+  {
+   "q": "Put ___ your pencils and listen to me.",
+   "a": "down",
+   "d": [
+    "after",
+    "for",
+    "apart"
+   ],
+   "v": "put down",
+   "m": "place on a surface"
+  },
+  {
+   "q": "We're leaving now. Please get ___ the car.",
+   "a": "in",
+   "d": [
+    "for",
+    "apart",
+    "after"
+   ],
+   "v": "get in",
+   "m": "enter a car"
+  },
+  {
+   "q": "The plane takes ___ at nine o'clock.",
+   "a": "off",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "take off",
+   "m": "leave the ground"
+  },
+  {
+   "q": "Please clean ___ the kitchen after dinner.",
+   "a": "up",
+   "d": [
+    "after",
+    "apart",
+    "for"
+   ],
+   "v": "clean up",
+   "m": "make tidy"
+  },
+  {
+   "q": "When you finish, hand ___ your test to the teacher.",
+   "a": "in",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "hand in",
+   "m": "give work to a teacher"
+  },
+  {
+   "q": "Turn ___ and look at the board.",
+   "a": "around",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "turn around",
+   "m": "face the other way"
+  },
+  {
+   "q": "Come ___, it's time to go!",
+   "a": "on",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "come on",
+   "m": "hurry, let's go"
+  },
+  {
+   "q": "Please hold ___ a minute. I'm almost ready.",
+   "a": "on",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "hold on",
+   "m": "wait a short time"
+  },
+  {
+   "q": "Please fill ___ the gaps in the sentences.",
+   "a": "in",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "fill in",
+   "m": "write the missing words"
+  },
+  {
+   "q": "Get ___ of the pool now, it's raining.",
+   "a": "out",
+   "d": [
+    "on",
+    "apart",
+    "for"
+   ],
+   "v": "get out",
+   "m": "leave a place"
+  },
+  {
+   "q": "I stay ___ late on Fridays to watch films.",
+   "a": "up",
+   "d": [
+    "down",
+    "apart",
+    "after"
+   ],
+   "v": "stay up",
+   "m": "not go to bed"
+  },
+  {
+   "q": "Please shut ___ the computer before you leave.",
+   "a": "down",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "shut down",
+   "m": "turn off completely"
+  }
+ ],
+ "A2": [
+  {
+   "q": "I need to find ___ what time the train leaves.",
+   "a": "out",
+   "d": [
+    "up",
+    "over",
+    "along"
+   ],
+   "v": "find out",
+   "m": "learn a fact"
+  },
+  {
+   "q": "We ran ___ of milk, so I went to the shop.",
+   "a": "out",
+   "d": [
+    "apart",
+    "over",
+    "ahead"
+   ],
+   "v": "run out",
+   "m": "have none left"
+  },
+  {
+   "q": "I'm looking ___ my glasses. Have you seen them?",
+   "a": "for",
+   "d": [
+    "apart",
+    "by",
+    "forward"
+   ],
+   "v": "look for",
+   "m": "try to find"
+  },
+  {
+   "q": "I'm really looking ___ to the holidays.",
+   "a": "forward",
+   "d": [
+    "over",
+    "after",
+    "apart"
+   ],
+   "v": "look forward",
+   "m": "feel happy about the future"
+  },
+  {
+   "q": "Please carry ___ reading; I'll be back soon.",
+   "a": "on",
+   "d": [
+    "apart",
+    "by",
+    "across"
+   ],
+   "v": "carry on",
+   "m": "continue"
+  },
+  {
+   "q": "Can you fill ___ this form, please?",
+   "a": "out",
+   "d": [
+    "apart",
+    "by",
+    "across"
+   ],
+   "v": "fill out",
+   "m": "complete a form"
+  },
+  {
+   "q": "We set ___ early to avoid the traffic.",
+   "a": "off",
+   "d": [
+    "apart",
+    "by",
+    "after"
+   ],
+   "v": "set off",
+   "m": "start a journey"
+  },
+  {
+   "q": "Let's check ___ at the hotel and leave our bags.",
+   "a": "in",
+   "d": [
+    "up",
+    "apart",
+    "for"
+   ],
+   "v": "check in",
+   "m": "register on arrival"
+  },
+  {
+   "q": "We have to check ___ of the hotel by noon.",
+   "a": "out",
+   "d": [
+    "down",
+    "apart",
+    "for"
+   ],
+   "v": "check out",
+   "m": "pay and leave a hotel"
+  },
+  {
+   "q": "I'm busy now. Can I call you ___ later?",
+   "a": "back",
+   "d": [
+    "apart",
+    "off",
+    "for"
+   ],
+   "v": "call back",
+   "m": "phone again"
+  },
+  {
+   "q": "The match was called ___ because of the snow.",
+   "a": "off",
+   "d": [
+    "apart",
+    "by",
+    "for"
+   ],
+   "v": "call off",
+   "m": "cancel"
+  },
+  {
+   "q": "Can you show me how to set ___ this new printer?",
+   "a": "up",
+   "d": [
+    "by",
+    "for",
+    "after"
+   ],
+   "v": "set up",
+   "m": "prepare for use"
+  },
+  {
+   "q": "I took ___ tennis last summer.",
+   "a": "up",
+   "d": [
+    "apart",
+    "for",
+    "after"
+   ],
+   "v": "take up",
+   "m": "start a new hobby"
+  },
+  {
+   "q": "My son takes ___ his father; they look the same.",
+   "a": "after",
+   "d": [
+    "up",
+    "for",
+    "by"
+   ],
+   "v": "take after",
+   "m": "look or act like a parent"
+  },
+  {
+   "q": "Go ___ and start eating. I'll join you soon.",
+   "a": "ahead",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "go ahead",
+   "m": "start without waiting"
+  },
+  {
+   "q": "I get ___ well with my new neighbours.",
+   "a": "along",
+   "d": [
+    "apart",
+    "across",
+    "after"
+   ],
+   "v": "get along",
+   "m": "have a friendly relationship"
+  },
+  {
+   "q": "Our car broke ___ on the motorway.",
+   "a": "down",
+   "d": [
+    "after",
+    "for",
+    "ahead"
+   ],
+   "v": "break down",
+   "m": "stop working"
+  },
+  {
+   "q": "Thieves broke ___ our house last night.",
+   "a": "into",
+   "d": [
+    "apart",
+    "after",
+    "ahead"
+   ],
+   "v": "break into",
+   "m": "enter illegally by force"
+  },
+  {
+   "q": "I want to try ___ the new café on Main Street.",
+   "a": "out",
+   "d": [
+    "apart",
+    "for",
+    "after"
+   ],
+   "v": "try out",
+   "m": "test something new"
+  },
+  {
+   "q": "Watch ___! The floor is wet.",
+   "a": "out",
+   "d": [
+    "up",
+    "off",
+    "after"
+   ],
+   "v": "watch out",
+   "m": "be careful"
+  },
+  {
+   "q": "The doctor said I should cut ___ on sugar.",
+   "a": "down",
+   "d": [
+    "away",
+    "after",
+    "ahead"
+   ],
+   "v": "cut down",
+   "m": "reduce the amount"
+  },
+  {
+   "q": "Let's put ___ the meeting until Friday.",
+   "a": "off",
+   "d": [
+    "apart",
+    "after",
+    "by"
+   ],
+   "v": "put off",
+   "m": "delay to a later time"
+  },
+  {
+   "q": "He finally showed ___ two hours late.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "show up",
+   "m": "arrive"
+  },
+  {
+   "q": "Can you drop me ___ at the station?",
+   "a": "off",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "drop off",
+   "m": "take someone somewhere by car"
+  },
+  {
+   "q": "Feel free to drop ___ any time; I'm home all day.",
+   "a": "by",
+   "d": [
+    "apart",
+    "after",
+    "across"
+   ],
+   "v": "drop by",
+   "m": "visit briefly"
+  },
+  {
+   "q": "I work ___ at the gym three times a week.",
+   "a": "out",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "work out",
+   "m": "do exercise"
+  },
+  {
+   "q": "I can't figure ___ how this machine works.",
+   "a": "out",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "figure out",
+   "m": "understand after thinking"
+  },
+  {
+   "q": "The fire went ___ when it started raining.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "by"
+   ],
+   "v": "go out",
+   "m": "stop burning"
+  },
+  {
+   "q": "Let's go ___ the plan once more before we start.",
+   "a": "over",
+   "d": [
+    "apart",
+    "after",
+    "ahead"
+   ],
+   "v": "go over",
+   "m": "check carefully"
+  },
+  {
+   "q": "Please speak ___; I can't hear you at the back.",
+   "a": "up",
+   "d": [
+    "apart",
+    "across",
+    "after"
+   ],
+   "v": "speak up",
+   "m": "talk more loudly"
+  },
+  {
+   "q": "The kids dressed ___ as pirates for the party.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "by"
+   ],
+   "v": "dress up",
+   "m": "wear a costume"
+  },
+  {
+   "q": "I'll think about it and get ___ to you tomorrow.",
+   "a": "back",
+   "d": [
+    "apart",
+    "after",
+    "ahead"
+   ],
+   "v": "get back",
+   "m": "reply later"
+  },
+  {
+   "q": "She was sad, but the good news cheered her ___.",
+   "a": "up",
+   "d": [
+    "down",
+    "apart",
+    "ahead"
+   ],
+   "v": "cheer up",
+   "m": "make happier"
+  },
+  {
+   "q": "I need to sort ___ my clothes before the trip.",
+   "a": "out",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "sort out",
+   "m": "organize"
+  },
+  {
+   "q": "My best friend moved ___ to another country.",
+   "a": "away",
+   "d": [
+    "apart",
+    "across",
+    "after"
+   ],
+   "v": "move away",
+   "m": "go to live elsewhere"
+  },
+  {
+   "q": "My brother moved ___ of our parents' house last year.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "ahead"
+   ],
+   "v": "move out",
+   "m": "leave your home"
+  },
+  {
+   "q": "It's so hot. Could you switch ___ the fan?",
+   "a": "on",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "switch on",
+   "m": "start a machine"
+  },
+  {
+   "q": "The children were running ___ in the garden.",
+   "a": "around",
+   "d": [
+    "apart",
+    "for",
+    "after"
+   ],
+   "v": "run around",
+   "m": "play and move here and there"
+  },
+  {
+   "q": "I tripped, fell ___ and hurt my knee.",
+   "a": "over",
+   "d": [
+    "after",
+    "across",
+    "ahead"
+   ],
+   "v": "fall over",
+   "m": "drop to the ground"
+  },
+  {
+   "q": "Please let me ___; I forgot my key.",
+   "a": "in",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "let in",
+   "m": "allow to enter"
+  },
+  {
+   "q": "Thanks for the money. I'll pay you ___ next week.",
+   "a": "back",
+   "d": [
+    "apart",
+    "after",
+    "across"
+   ],
+   "v": "pay back",
+   "m": "return borrowed money"
+  },
+  {
+   "q": "Let's count ___ from ten to zero.",
+   "a": "down",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "count down",
+   "m": "say numbers backwards to zero"
+  },
+  {
+   "q": "Please log ___ to see your order.",
+   "a": "in",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "log in",
+   "m": "enter your account"
+  },
+  {
+   "q": "The price of bread has gone ___ again.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "go up",
+   "m": "increase"
+  },
+  {
+   "q": "The sun came ___ at six this morning.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "come up",
+   "m": "rise in the sky"
+  },
+  {
+   "q": "Please don't leave me ___ of the game.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "up"
+   ],
+   "v": "leave out",
+   "m": "not include"
+  },
+  {
+   "q": "He always shows ___ his new phone to everyone.",
+   "a": "off",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "show off",
+   "m": "try to impress people"
+  },
+  {
+   "q": "Hang ___! I'm almost ready.",
+   "a": "on",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "hang on",
+   "m": "wait a moment"
+  },
+  {
+   "q": "My grandfather passed ___ last year, aged ninety.",
+   "a": "away",
+   "d": [
+    "apart",
+    "across",
+    "after"
+   ],
+   "v": "pass away",
+   "m": "die"
+  },
+  {
+   "q": "I need to charge my phone; the battery has run ___.",
+   "a": "down",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "run down",
+   "m": "lose power"
+  }
+ ],
+ "B1": [
+  {
+   "q": "The police will look ___ the problem and call you.",
+   "a": "into",
+   "d": [
+    "apart",
+    "ahead",
+    "forward"
+   ],
+   "v": "look into",
+   "m": "investigate"
+  },
+  {
+   "q": "Our holiday plans fell ___ when the hotel cancelled.",
+   "a": "through",
+   "d": [
+    "across",
+    "ahead",
+    "after"
+   ],
+   "v": "fall through",
+   "m": "fail to happen"
+  },
+  {
+   "q": "We need to come ___ with a better idea.",
+   "a": "up",
+   "d": [
+    "apart",
+    "off",
+    "ahead"
+   ],
+   "v": "come up with",
+   "m": "think of an idea"
+  },
+  {
+   "q": "I came ___ an old photo while I was cleaning.",
+   "a": "across",
+   "d": [
+    "apart",
+    "ahead",
+    "forward"
+   ],
+   "v": "come across",
+   "m": "find by chance"
+  },
+  {
+   "q": "He offered me the job, but I turned it ___.",
+   "a": "down",
+   "d": [
+    "after",
+    "for",
+    "apart"
+   ],
+   "v": "turn down",
+   "m": "refuse an offer"
+  },
+  {
+   "q": "I was worried, but everything turned ___ fine.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "turn out",
+   "m": "end in a certain way"
+  },
+  {
+   "q": "I ran ___ an old friend at the station.",
+   "a": "into",
+   "d": [
+    "apart",
+    "ahead",
+    "forward"
+   ],
+   "v": "run into",
+   "m": "meet by chance"
+  },
+  {
+   "q": "Can you bring ___ the subject at the meeting?",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "bring up",
+   "m": "mention a topic"
+  },
+  {
+   "q": "She brought ___ three children on her own.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "bring up",
+   "m": "raise a child"
+  },
+  {
+   "q": "The teacher pointed ___ the mistakes in my essay.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "point out",
+   "m": "show or mention"
+  },
+  {
+   "q": "We had to put ___ with the noise all night.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "apart"
+   ],
+   "v": "put up with",
+   "m": "accept something unpleasant"
+  },
+  {
+   "q": "The firefighters put ___ the fire quickly.",
+   "a": "out",
+   "d": [
+    "up",
+    "apart",
+    "after"
+   ],
+   "v": "put out",
+   "m": "stop a fire burning"
+  },
+  {
+   "q": "He made ___ a story about his dog eating his homework.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "make up",
+   "m": "invent a story"
+  },
+  {
+   "q": "After the argument, they said sorry and made ___.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "make up",
+   "m": "become friends again"
+  },
+  {
+   "q": "I can't make ___ what he's saying; it's too noisy.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "make out",
+   "m": "manage to hear or see"
+  },
+  {
+   "q": "The factory laid ___ two hundred workers.",
+   "a": "off",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "lay off",
+   "m": "end jobs for lack of work"
+  },
+  {
+   "q": "She broke ___ with her boyfriend last month.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "break up",
+   "m": "end a relationship"
+  },
+  {
+   "q": "The meeting has been brought ___ from Friday to Monday.",
+   "a": "forward",
+   "d": [
+    "apart",
+    "across",
+    "after"
+   ],
+   "v": "bring forward",
+   "m": "move to an earlier time"
+  },
+  {
+   "q": "Your English is great. Keep ___ the good work!",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "keep up",
+   "m": "continue doing well"
+  },
+  {
+   "q": "Walk slowly so I can catch ___ with you.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "catch up",
+   "m": "reach someone ahead"
+  },
+  {
+   "q": "She stood ___ for her friend when others laughed at him.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "ahead"
+   ],
+   "v": "stand up for",
+   "m": "defend"
+  },
+  {
+   "q": "The letters 'UN' stand ___ United Nations.",
+   "a": "for",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "stand for",
+   "m": "be short for"
+  },
+  {
+   "q": "If I tell the boss, will you back me ___?",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "back up",
+   "m": "support"
+  },
+  {
+   "q": "We went to the airport to see her ___.",
+   "a": "off",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "see off",
+   "m": "say goodbye at departure"
+  },
+  {
+   "q": "He gave ___ his old clothes to charity.",
+   "a": "away",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "give away",
+   "m": "donate for free"
+  },
+  {
+   "q": "Don't let me ___; I'm counting on you.",
+   "a": "down",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "let down",
+   "m": "disappoint"
+  },
+  {
+   "q": "We were held ___ in traffic for an hour.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "hold up",
+   "m": "delay"
+  },
+  {
+   "q": "I'm trying to cut ___ coffee completely.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "cut out",
+   "m": "stop eating or drinking"
+  },
+  {
+   "q": "The plane touched ___ safely in Rome.",
+   "a": "down",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "touch down",
+   "m": "land"
+  },
+  {
+   "q": "Enough talking. Let's get ___ to work.",
+   "a": "down",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "get down to",
+   "m": "start seriously"
+  },
+  {
+   "q": "He dropped ___ of university after one year.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "drop out",
+   "m": "leave school early"
+  },
+  {
+   "q": "Can you work ___ how much we owe?",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "work out",
+   "m": "calculate"
+  },
+  {
+   "q": "Don't give ___ the ending of the film!",
+   "a": "away",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "give away",
+   "m": "reveal a secret"
+  },
+  {
+   "q": "Please look ___ the report before I send it.",
+   "a": "over",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "look over",
+   "m": "check quickly"
+  },
+  {
+   "q": "Please hand ___ your bag to the security guard.",
+   "a": "over",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "hand over",
+   "m": "give to someone in charge"
+  },
+  {
+   "q": "My alarm went ___ at six this morning.",
+   "a": "off",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "go off",
+   "m": "start ringing"
+  },
+  {
+   "q": "Two friends and I set ___ a small company.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "set up",
+   "m": "start a business"
+  },
+  {
+   "q": "She's so kind and brave; I really look ___ to her.",
+   "a": "up",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "look up to",
+   "m": "admire"
+  },
+  {
+   "q": "He looks ___ on people who have less money.",
+   "a": "down",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "look down on",
+   "m": "think you are better"
+  },
+  {
+   "q": "A taxi pulled ___ outside the house.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "pull up",
+   "m": "stop a vehicle"
+  },
+  {
+   "q": "I'll think it ___ and call you tomorrow.",
+   "a": "over",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "think over",
+   "m": "consider carefully"
+  },
+  {
+   "q": "Why don't you sleep ___ it and decide tomorrow?",
+   "a": "on",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "sleep on",
+   "m": "wait a night before deciding"
+  },
+  {
+   "q": "The teacher told me ___ for talking in class.",
+   "a": "off",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "tell off",
+   "m": "speak angrily to"
+  },
+  {
+   "q": "Let's split ___ into two teams.",
+   "a": "up",
+   "d": [
+    "after",
+    "across",
+    "ahead"
+   ],
+   "v": "split up",
+   "m": "divide into groups"
+  },
+  {
+   "q": "A storm is coming, so stock ___ on water.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "stock up",
+   "m": "buy a large supply"
+  },
+  {
+   "q": "Can you pass ___ my message to Anna?",
+   "a": "on",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "pass on",
+   "m": "give to another person"
+  },
+  {
+   "q": "It was so hot that he passed ___ at the concert.",
+   "a": "out",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "pass out",
+   "m": "faint"
+  },
+  {
+   "q": "After a bad start, things are looking ___ for the team.",
+   "a": "up",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "look up",
+   "m": "improve"
+  },
+  {
+   "q": "Always warm ___ before you go running.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "warm up",
+   "m": "prepare with light exercise"
+  },
+  {
+   "q": "Sales dropped ___ after the summer.",
+   "a": "off",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "drop off",
+   "m": "decrease"
+  }
+ ],
+ "B2": [
+  {
+   "q": "We need to iron ___ a few details before signing.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "iron out",
+   "m": "solve small problems"
+  },
+  {
+   "q": "Old diesel buses are being phased ___.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "phase out",
+   "m": "remove gradually"
+  },
+  {
+   "q": "She just brushed ___ my concerns as unimportant.",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "brush off",
+   "m": "ignore or dismiss"
+  },
+  {
+   "q": "The painkiller started to wear ___ after a few hours.",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "wear off",
+   "m": "slowly stop having an effect"
+  },
+  {
+   "q": "I'm completely worn ___ after that long trip.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "wear out",
+   "m": "make very tired"
+  },
+  {
+   "q": "He got ___ with cheating on the test.",
+   "a": "away",
+   "d": [
+    "up",
+    "after",
+    "apart"
+   ],
+   "v": "get away with",
+   "m": "escape punishment"
+  },
+  {
+   "q": "It took her weeks to get ___ the flu.",
+   "a": "over",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "get over",
+   "m": "recover"
+  },
+  {
+   "q": "I didn't want to go, but she talked me ___ it.",
+   "a": "into",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "talk into",
+   "m": "persuade to do"
+  },
+  {
+   "q": "My friends tried to talk me ___ of quitting.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "apart"
+   ],
+   "v": "talk out of",
+   "m": "persuade not to do"
+  },
+  {
+   "q": "Let's not rule ___ any options yet.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "rule out",
+   "m": "exclude as a possibility"
+  },
+  {
+   "q": "Nobody owned ___ to breaking the window.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "own up",
+   "m": "admit a mistake"
+  },
+  {
+   "q": "The school wants to do ___ with uniforms.",
+   "a": "away",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "do away with",
+   "m": "get rid of"
+  },
+  {
+   "q": "You can always count ___ me for help.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "apart"
+   ],
+   "v": "count on",
+   "m": "rely on"
+  },
+  {
+   "q": "This money will tide me ___ until payday.",
+   "a": "over",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "tide over",
+   "m": "help through a difficult time"
+  },
+  {
+   "q": "She stepped ___ as manager after ten years.",
+   "a": "down",
+   "d": [
+    "after",
+    "for",
+    "apart"
+   ],
+   "v": "step down",
+   "m": "leave an important job"
+  },
+  {
+   "q": "The police are cracking ___ on speeding drivers.",
+   "a": "down",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "crack down",
+   "m": "act strictly against"
+  },
+  {
+   "q": "He came ___ as a bit rude in the interview.",
+   "a": "across",
+   "d": [
+    "apart",
+    "ahead",
+    "after"
+   ],
+   "v": "come across",
+   "m": "seem a certain way"
+  },
+  {
+   "q": "The new app really caught ___ among teenagers.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "catch on",
+   "m": "become popular"
+  },
+  {
+   "q": "I'm saving ___ for a new laptop.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "apart"
+   ],
+   "v": "save up",
+   "m": "keep money for later"
+  },
+  {
+   "q": "She stood ___ from the crowd in her red dress.",
+   "a": "out",
+   "d": [
+    "after",
+    "across",
+    "ahead"
+   ],
+   "v": "stand out",
+   "m": "be easy to notice"
+  },
+  {
+   "q": "Several witnesses came ___ with new information.",
+   "a": "forward",
+   "d": [
+    "apart",
+    "after",
+    "into"
+   ],
+   "v": "come forward",
+   "m": "offer help or information"
+  },
+  {
+   "q": "All that hard work finally paid ___.",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "pay off",
+   "m": "bring good results"
+  },
+  {
+   "q": "Many people were taken ___ by the fake email.",
+   "a": "in",
+   "d": [
+    "across",
+    "after",
+    "for"
+   ],
+   "v": "take in",
+   "m": "deceive"
+  },
+  {
+   "q": "I need to brush ___ on my French before the trip.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "brush up",
+   "m": "improve forgotten skills"
+  },
+  {
+   "q": "I wear earplugs to block ___ the noise.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "block out",
+   "m": "stop from being heard"
+  },
+  {
+   "q": "They argued, but it will soon blow ___.",
+   "a": "over",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "blow over",
+   "m": "pass without serious effects"
+  },
+  {
+   "q": "I don't love the idea, but I'll go ___ with it.",
+   "a": "along",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "go along with",
+   "m": "agree to"
+  },
+  {
+   "q": "It took months before she opened ___ about her problems.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "open up",
+   "m": "talk honestly about feelings"
+  },
+  {
+   "q": "We need to cut ___ on spending this year.",
+   "a": "back",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "cut back",
+   "m": "spend less"
+  },
+  {
+   "q": "His story doesn't add ___; something is wrong.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "add up",
+   "m": "make sense"
+  },
+  {
+   "q": "She bounced ___ quickly after losing the final.",
+   "a": "back",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "bounce back",
+   "m": "recover quickly"
+  },
+  {
+   "q": "He's always putting me ___ in front of others.",
+   "a": "down",
+   "d": [
+    "after",
+    "for",
+    "apart"
+   ],
+   "v": "put down",
+   "m": "criticize unkindly"
+  },
+  {
+   "q": "We paid fifty euros for a short taxi ride. We were ripped ___!",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "rip off",
+   "m": "charge too much"
+  },
+  {
+   "q": "My laptop is acting ___ again; it keeps freezing.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "act up",
+   "m": "not work properly"
+  },
+  {
+   "q": "He wasn't fined; the police let him ___ with a warning.",
+   "a": "off",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "let off",
+   "m": "not punish"
+  },
+  {
+   "q": "He backed ___ of the deal at the last minute.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "apart"
+   ],
+   "v": "back out",
+   "m": "decide not to do"
+  },
+  {
+   "q": "The meeting dragged ___ for three boring hours.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "drag on",
+   "m": "last too long"
+  },
+  {
+   "q": "The government tried to play ___ the problem, saying it was minor.",
+   "a": "down",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "play down",
+   "m": "make seem less important"
+  },
+  {
+   "q": "She was passed ___ for promotion again.",
+   "a": "over",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "pass over",
+   "m": "not choose someone"
+  },
+  {
+   "q": "The company was taken ___ by a bigger rival.",
+   "a": "over",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "take over",
+   "m": "gain control of"
+  },
+  {
+   "q": "He tends to go ___ about his job for hours.",
+   "a": "on",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "go on",
+   "m": "talk for too long"
+  },
+  {
+   "q": "I think I'm coming ___ with a cold.",
+   "a": "down",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "come down with",
+   "m": "start to get ill"
+  },
+  {
+   "q": "It's getting late, so let's wrap ___ this meeting.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "wrap up",
+   "m": "finish"
+  },
+  {
+   "q": "A fire broke ___ in the kitchen last night.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "break out",
+   "m": "start suddenly"
+  },
+  {
+   "q": "I made my choice and I'll stand ___ it.",
+   "a": "by",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "stand by",
+   "m": "keep supporting"
+  },
+  {
+   "q": "When the reporters criticised her, she lashed ___ angrily.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "lash out",
+   "m": "attack with words"
+  },
+  {
+   "q": "Don't let one bad review put you ___ writing.",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "put off",
+   "m": "make you not want to"
+  },
+  {
+   "q": "He settled ___ quickly at his new school.",
+   "a": "in",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "settle in",
+   "m": "get used to a new place"
+  },
+  {
+   "q": "After years of travelling, she wants to settle ___.",
+   "a": "down",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "settle down",
+   "m": "start a calm, stable life"
+  },
+  {
+   "q": "The bakery is branching ___ into coffee and sandwiches.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "branch out",
+   "m": "start doing new things"
+  }
+ ],
+ "C1": [
+  {
+   "q": "When planning the budget, factor ___ the cost of transport.",
+   "a": "in",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "factor in",
+   "m": "include in a calculation"
+  },
+  {
+   "q": "Sooner or later, the truth will come ___.",
+   "a": "out",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "come out",
+   "m": "become known"
+  },
+  {
+   "q": "Her theory didn't hold ___ when experts tested it.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "hold up",
+   "m": "remain valid"
+  },
+  {
+   "q": "The report glossed ___ the most serious mistakes.",
+   "a": "over",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "gloss over",
+   "m": "treat as unimportant"
+  },
+  {
+   "q": "The talks got bogged ___ in small details.",
+   "a": "down",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "bog down",
+   "m": "slow progress"
+  },
+  {
+   "q": "The new evidence bears ___ her version of events.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "bear out",
+   "m": "show to be true"
+  },
+  {
+   "q": "After the protests, the minister was forced to back ___.",
+   "a": "down",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "back down",
+   "m": "stop insisting"
+  },
+  {
+   "q": "Volunteers are trying to drum ___ support for the campaign.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "drum up",
+   "m": "try to get support"
+  },
+  {
+   "q": "My proposal was shot ___ by the board.",
+   "a": "down",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "shoot down",
+   "m": "reject strongly"
+  },
+  {
+   "q": "I'll mull it ___ and give you an answer next week.",
+   "a": "over",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "mull over",
+   "m": "think about carefully"
+  },
+  {
+   "q": "She was singled ___ for praise by the director.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "single out",
+   "m": "choose one from a group"
+  },
+  {
+   "q": "The project petered ___ after the funding ended.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "peter out",
+   "m": "gradually stop"
+  },
+  {
+   "q": "Due to losses, the firm is scaling ___ its operations.",
+   "a": "back",
+   "d": [
+    "after",
+    "for",
+    "apart"
+   ],
+   "v": "scale back",
+   "m": "make smaller"
+  },
+  {
+   "q": "Don't fob me ___ with excuses; I want the truth.",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "fob off",
+   "m": "give an unsatisfying answer"
+  },
+  {
+   "q": "He tried to weasel ___ of his promise.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "apart"
+   ],
+   "v": "weasel out of",
+   "m": "avoid a duty dishonestly"
+  },
+  {
+   "q": "She has years of experience to draw ___.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "draw on",
+   "m": "use as a resource"
+  },
+  {
+   "q": "The deal was finally hammered ___ after weeks of talks.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "hammer out",
+   "m": "agree after long discussion"
+  },
+  {
+   "q": "The government must rein ___ public spending.",
+   "a": "in",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "rein in",
+   "m": "control or limit"
+  },
+  {
+   "q": "The excitement fizzled ___ after the first week.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "fizzle out",
+   "m": "end weakly"
+  },
+  {
+   "q": "She was narrowly edged ___ of the final by a younger rival.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "edge out",
+   "m": "beat by a small margin"
+  },
+  {
+   "q": "The press seized ___ his careless remark.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "seize on",
+   "m": "eagerly use something"
+  },
+  {
+   "q": "The struggling bank was bailed ___ by the state.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "bail out",
+   "m": "rescue financially"
+  },
+  {
+   "q": "The same problems crop ___ every year.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "crop up",
+   "m": "appear unexpectedly"
+  },
+  {
+   "q": "Don't let your older brother boss you ___.",
+   "a": "around",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "boss around",
+   "m": "keep giving orders"
+  },
+  {
+   "q": "The new director shook ___ the whole department.",
+   "a": "up",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "shake up",
+   "m": "make big changes"
+  },
+  {
+   "q": "Wait until your temper has cooled ___ before you reply.",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "cool off",
+   "m": "become calmer"
+  },
+  {
+   "q": "The comedian was booed ___ the stage.",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "boo off",
+   "m": "force to leave by jeering"
+  },
+  {
+   "q": "Let's not rake ___ old arguments from the past.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "rake up",
+   "m": "mention something unpleasant again"
+  },
+  {
+   "q": "The writer holed ___ in a cabin to finish her book.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "hole up",
+   "m": "hide or stay somewhere"
+  },
+  {
+   "q": "He frittered ___ his savings on gadgets.",
+   "a": "away",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "fritter away",
+   "m": "waste slowly"
+  },
+  {
+   "q": "The police are closing ___ on the suspect.",
+   "a": "in",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "close in",
+   "m": "get nearer to catch"
+  },
+  {
+   "q": "I tend to zone ___ during long meetings.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "zone out",
+   "m": "stop paying attention"
+  },
+  {
+   "q": "His lies will catch ___ with him eventually.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "catch up",
+   "m": "have bad consequences later"
+  },
+  {
+   "q": "The government has pledged to stamp ___ corruption.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "stamp out",
+   "m": "end completely"
+  },
+  {
+   "q": "We had to fork ___ a lot of money for repairs.",
+   "a": "out",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "fork out",
+   "m": "pay unwillingly"
+  },
+  {
+   "q": "The minister managed to fend ___ tough questions.",
+   "a": "off",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "fend off",
+   "m": "defend against"
+  },
+  {
+   "q": "He's buttering ___ his boss because he wants a raise.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "butter up",
+   "m": "flatter to gain something"
+  },
+  {
+   "q": "Everything hinges ___ the result of the vote.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "hinge on",
+   "m": "depend completely"
+  },
+  {
+   "q": "Her novel touches ___ themes of loss and hope.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "touch on",
+   "m": "mention briefly"
+  },
+  {
+   "q": "After rising for months, house prices have levelled ___.",
+   "a": "off",
+   "d": [
+    "apart",
+    "after",
+    "for"
+   ],
+   "v": "level off",
+   "m": "stop rising or falling"
+  },
+  {
+   "q": "The actor lapped ___ the applause.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "lap up",
+   "m": "enjoy eagerly"
+  },
+  {
+   "q": "The first interview helps weed ___ weak candidates.",
+   "a": "out",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "weed out",
+   "m": "remove unwanted ones"
+  },
+  {
+   "q": "He jumped into the cold lake, egged ___ by his friends.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "egg on",
+   "m": "encourage to do something risky"
+  },
+  {
+   "q": "A small disagreement blew ___ into a huge argument.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "blow up",
+   "m": "become suddenly serious"
+  },
+  {
+   "q": "She keeps harping ___ about my one mistake.",
+   "a": "on",
+   "d": [
+    "up",
+    "after",
+    "for"
+   ],
+   "v": "harp on",
+   "m": "talk about repeatedly"
+  },
+  {
+   "q": "Before the show, let's run ___ the main points once more.",
+   "a": "through",
+   "d": [
+    "apart",
+    "after",
+    "ahead"
+   ],
+   "v": "run through",
+   "m": "practise or review quickly"
+  },
+  {
+   "q": "Sadly, his work doesn't measure ___ to his brother's.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "measure up",
+   "m": "be good enough"
+  },
+  {
+   "q": "The two companies teamed ___ to build the bridge.",
+   "a": "up",
+   "d": [
+    "down",
+    "after",
+    "for"
+   ],
+   "v": "team up",
+   "m": "work together"
+  },
+  {
+   "q": "She saw ___ his lies immediately.",
+   "a": "through",
+   "d": [
+    "apart",
+    "across",
+    "ahead"
+   ],
+   "v": "see through",
+   "m": "recognise a deception"
+  },
+  {
+   "q": "Despite the criticism, the government is pressing ___ with its reforms.",
+   "a": "ahead",
+   "d": [
+    "apart",
+    "across",
+    "after"
+   ],
+   "v": "press ahead",
+   "m": "continue firmly"
+  }
+ ]
+}

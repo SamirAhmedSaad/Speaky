@@ -1,0 +1,51 @@
+{
+  "title": "Where, When, Why, How",
+  "content": {
+    "vocabulary": [
+      {"word": "where", "pos": "adverb", "meaning_en": "in or to what place", "meaning_ar": "أين", "note_ar": "", "note_en": "", "example": "Where did it happen?"},
+      {"word": "when", "pos": "adverb", "meaning_en": "at what time", "meaning_ar": "متى", "note_ar": "", "note_en": "", "example": "When did you speak to him?"},
+      {"word": "why", "pos": "adverb", "meaning_en": "for what reason", "meaning_ar": "لماذا", "note_ar": "", "note_en": "", "example": "Why did the accident happen?"},
+      {"word": "how", "pos": "adverb", "meaning_en": "in what way; also how much, how many, how difficult", "meaning_ar": "كيف / كم (مع much و many)", "note_ar": "", "note_en": "", "example": "How did you make the cake?"},
+      {"word": "interrogative adverb", "pos": "noun", "meaning_en": "a question word that asks about place, time, reason or way: where, when, why, how", "meaning_ar": "ظرف استفهام", "note_ar": "", "note_en": "", "example": "\"Where\" is an interrogative adverb."},
+      {"word": "context", "pos": "noun", "meaning_en": "the situation (time, place, reason) that helps people understand", "meaning_ar": "السياق", "note_ar": "", "note_en": "", "example": "Give the time and place so people understand the context."},
+      {"word": "communication", "pos": "noun", "meaning_en": "sharing information with other people", "meaning_ar": "التواصل", "note_ar": "", "note_en": "", "example": "Clear communication is important at work."},
+      {"word": "active listening", "pos": "noun", "meaning_en": "a way of communicating where you listen carefully and give clear details (when, where, how)", "meaning_ar": "الإصغاء الفعّال", "note_ar": "", "note_en": "", "example": "Active listening helps people understand each other."},
+      {"word": "reason", "pos": "noun", "meaning_en": "why something happens", "meaning_ar": "سبب", "note_ar": "", "note_en": "", "example": "What was the reason for the delay?"},
+      {"word": "process", "pos": "noun", "meaning_en": "the steps you take to do something", "meaning_ar": "عملية / خطوات", "note_ar": "", "note_en": "", "example": "Explain the process step by step."},
+      {"word": "quantity", "pos": "noun", "meaning_en": "how much or how many", "meaning_ar": "الكمية", "note_ar": "", "note_en": "", "example": "\"How much money?\" asks about quantity."},
+      {"word": "intensity", "pos": "noun", "meaning_en": "how strong something is", "meaning_ar": "الشدة / القوة", "note_ar": "", "note_en": "", "example": "\"How difficult is it?\" asks about intensity."},
+      {"word": "versatile", "pos": "adjective", "meaning_en": "able to be used in many ways", "meaning_ar": "متعدد الاستعمالات", "note_ar": "", "note_en": "", "example": "\"How\" is a very versatile word."},
+      {"word": "step by step", "pos": "phrase", "meaning_en": "one stage after another", "meaning_ar": "خطوة بخطوة", "note_ar": "", "note_en": "", "example": "She explained the process step by step."},
+      {"word": "refresher", "pos": "noun", "meaning_en": "a review to help you remember something", "meaning_ar": "مراجعة / تنشيط للذاكرة", "note_ar": "", "note_en": "", "example": "This lesson is a good refresher."},
+      {"word": "urgency", "pos": "noun", "meaning_en": "the need to act quickly", "meaning_ar": "إلحاح / استعجال", "note_ar": "", "note_en": "", "example": "Saying \"right now\" gives a sense of urgency."}
+    ],
+    "fine_lines": [
+      {"title": "when vs how much time", "words": ["when", "how much time"], "explanation_ar": "when تسأل عن وقت محدد (الماضي أو الحاضر أو المستقبل). how much time تسأل عن مقدار الوقت (المدة). لا نقول when time.", "explanation_en": "\"When\" asks for a point in time (past, present, future). \"How much time\" asks about the amount of time. Don't say \"when time\".", "examples": [{"word": "when", "sentence": "When does the meeting start?"}, {"word": "how much time", "sentence": "How much time do you need?"}]},
+      {"title": "why vs how", "words": ["why", "how"], "explanation_ar": "why تسأل عن السبب. how تسأل عن الطريقة والخطوات (العملية).", "explanation_en": "\"Why\" asks for the reason. \"How\" asks for the way or the steps (the process).", "examples": [{"word": "why", "sentence": "Why did he lose control of the car? He was very tired."}, {"word": "how", "sentence": "How did it happen? The car slid on the ice and hit a wall."}]}
+    ],
+    "expressions": [
+      {"phrase": "How much money do you need?", "meaning_ar": "كم من المال تحتاج؟", "meaning_en": "Asking about an amount of money.", "example": "How much money do you need for the trip?"},
+      {"phrase": "How difficult is it?", "meaning_ar": "ما مدى صعوبته؟", "meaning_en": "Asking how hard something is.", "example": "How difficult is the new job?"},
+      {"phrase": "Where did it happen?", "meaning_ar": "أين حدث ذلك؟", "meaning_en": "Asking about the place of an event.", "example": "I heard about the accident. Where did it happen?"},
+      {"phrase": "Why did it happen?", "meaning_ar": "لماذا حدث ذلك؟", "meaning_en": "Asking for the reason.", "example": "The train was late. Why did it happen?"}
+    ],
+    "grammar": [
+      {"title": "where + when = basic context", "explanation_ar": "عند الحديث أو الكتابة ابدأ بالمكان (where) والزمان (when) ليفهم السامع ما تقصده. كثير من الناس ينسونهما لأن المعلومة في رؤوسهم فقط.", "explanation_en": "When you speak or write, start with the place (where) and the time (when) so the listener understands. Many people forget them because the information is only in their head.", "examples": ["Yesterday (when), in the office (where), you spoke to me loudly."]},
+      {"title": "why = reason, how = process", "explanation_ar": "بعد المكان والزمان، يضيف why السبب، ويضيف how الخطوات والطريقة. السبب قد يغيّر رأينا تمامًا في ما حدث.", "explanation_en": "After place and time, \"why\" adds the reason and \"how\" adds the steps or the way. The reason can completely change how we see an event.", "examples": ["Why was he late? His bus broke down.", "How did you fix it? First I turned it off, then..."]},
+      {"title": "how for quantity and intensity", "explanation_ar": "how كلمة متعددة الاستعمالات: how much / how many للكمية، و how + صفة للشدة: how difficult, how bright, how large.", "explanation_en": "\"How\" is versatile: how much / how many for quantity; how + adjective for intensity: how difficult, how bright, how large.", "examples": ["How much time do you need?", "How many people came?", "How bright is it?"]},
+      {"title": "Question word + verb", "explanation_ar": "بعد أداة الاستفهام يأتي الفعل (أو الفعل المساعد) ثم الفاعل: Where is he? When are you leaving? How is your mother?", "explanation_en": "After the question word comes the verb (or helping verb), then the subject: Where is he? When are you leaving? How is your mother?", "examples": ["Where are you?", "Why are you late?", "How is the weather?"]}
+    ]
+  },
+  "questions": [
+    {"question": "Which two words give basic context?", "choices": ["why and how", "where and when", "how and what", "who and why"], "answer": 1, "explanation_ar": "المكان والزمان: where و when.", "explanation_en": "Place and time: where and when."},
+    {"question": "\"___ did the accident happen?\" \"On King Street.\"", "choices": ["When", "Why", "Where", "How much"], "answer": 2, "explanation_ar": "الجواب مكان: where.", "explanation_en": "The answer is a place: where."},
+    {"question": "\"___ did he leave?\" \"Yesterday at 5.\"", "choices": ["When", "Where", "Why", "How many"], "answer": 0, "explanation_ar": "الجواب زمن: when.", "explanation_en": "The answer is a time: when."},
+    {"question": "\"___ were you late?\" \"Because my bus broke down.\"", "choices": ["How", "Where", "When", "Why"], "answer": 3, "explanation_ar": "الجواب سبب: why.", "explanation_en": "The answer is a reason: why."},
+    {"question": "Which question word can ask about quantity or intensity?", "choices": ["where", "how", "when", "why"], "answer": 1, "explanation_ar": "how للكمية والشدة: how much / how difficult.","explanation_en": "how much / how difficult."},
+    {"question": "\"___ time do you need?\"", "choices": ["When", "How many", "How much", "Where"], "answer": 2, "explanation_ar": "time غير معدود: how much time.", "explanation_en": "\"Time\" is uncountable: how much time."},
+    {"question": "\"How\" can ask about the ___, the steps someone took.", "choices": ["process", "place", "reason", "owner"], "answer": 0, "explanation_ar": "how تسأل عن العملية والخطوات.", "explanation_en": "\"How\" asks about the process, the steps."},
+    {"question": "Which kind of communication uses when, where and how to give clear details?", "choices": ["a crossword", "active listening", "a double negative", "a refresher"], "answer": 1, "explanation_ar": "الإصغاء الفعّال.", "explanation_en": "Active listening."},
+    {"question": "Choose the correct question.", "choices": ["Where you are?", "Why you are late?", "How is your mother?", "When time is the class?"], "answer": 2, "explanation_ar": "أداة الاستفهام + الفعل + الفاعل.", "explanation_en": "Question word + verb + subject."},
+    {"question": "What does \"versatile\" mean?", "choices": ["very old", "useful in many ways", "difficult", "fast"], "answer": 1, "explanation_ar": "versatile = متعدد الاستعمالات.", "explanation_en": "\"Versatile\" = useful in many ways."}
+  ]
+}

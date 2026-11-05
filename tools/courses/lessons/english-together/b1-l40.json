@@ -1,0 +1,415 @@
+{
+  "title": "Health and Exercise",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "fit",
+        "pos": "adjective",
+        "meaning_en": "healthy and strong from exercise",
+        "meaning_ar": "لائق بدنيًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He looks very fit."
+      },
+      {
+        "word": "strong",
+        "pos": "adjective",
+        "meaning_en": "having a lot of power",
+        "meaning_ar": "قوي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Exercise makes you strong."
+      },
+      {
+        "word": "tired",
+        "pos": "adjective",
+        "meaning_en": "needing rest",
+        "meaning_ar": "متعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I feel tired every day."
+      },
+      {
+        "word": "healthy",
+        "pos": "adjective",
+        "meaning_en": "good for your body; not sick",
+        "meaning_ar": "صحّي",
+        "note_ar": "المقارنة: healthier",
+        "note_en": "Comparative: healthier.",
+        "example": "I want to be healthier."
+      },
+      {
+        "word": "fast food",
+        "pos": "noun",
+        "meaning_en": "quick, cheap food like burgers and fries",
+        "meaning_ar": "الوجبات السريعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Too much fast food is not healthy."
+      },
+      {
+        "word": "fried chicken",
+        "pos": "noun",
+        "meaning_en": "chicken cooked in hot oil",
+        "meaning_ar": "دجاج مقلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like fried chicken."
+      },
+      {
+        "word": "oatmeal",
+        "pos": "noun",
+        "meaning_en": "hot food made from oats and milk or water",
+        "meaning_ar": "الشوفان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sometimes I eat oatmeal."
+      },
+      {
+        "word": "vegetables",
+        "pos": "noun",
+        "meaning_en": "plants we eat, like carrots and beans",
+        "meaning_ar": "خضروات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Eat more vegetables."
+      },
+      {
+        "word": "salad",
+        "pos": "noun",
+        "meaning_en": "a dish of cold vegetables",
+        "meaning_ar": "سلطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I eat salad with lunch."
+      },
+      {
+        "word": "light meal",
+        "pos": "noun",
+        "meaning_en": "a small meal that is not heavy",
+        "meaning_ar": "وجبة خفيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "For dinner, I eat a light meal."
+      },
+      {
+        "word": "energy",
+        "pos": "noun",
+        "meaning_en": "the power to be active",
+        "meaning_ar": "طاقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Healthy food gives me energy."
+      },
+      {
+        "word": "exercise",
+        "pos": "noun",
+        "meaning_en": "physical activity for health",
+        "meaning_ar": "تمارين رياضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What exercise do you do?"
+      },
+      {
+        "word": "push-ups",
+        "pos": "noun",
+        "meaning_en": "an exercise where you push your body up from the floor",
+        "meaning_ar": "تمرين الضغط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I do push-ups at home."
+      },
+      {
+        "word": "heart",
+        "pos": "noun",
+        "meaning_en": "the organ that pumps blood",
+        "meaning_ar": "القلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Exercise makes my heart strong."
+      },
+      {
+        "word": "muscles",
+        "pos": "noun",
+        "meaning_en": "parts of the body that help you move",
+        "meaning_ar": "العضلات",
+        "note_ar": "حرف c صامت: /ˈmʌsəlz/",
+        "note_en": "The c is silent: /ˈmʌsəlz/.",
+        "example": "Running helps my muscles."
+      },
+      {
+        "word": "jog",
+        "pos": "verb",
+        "meaning_en": "run slowly",
+        "meaning_ar": "يهرول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "First we walk, then we jog a little."
+      },
+      {
+        "word": "sports shoes",
+        "pos": "noun",
+        "meaning_en": "shoes for running and sport",
+        "meaning_ar": "حذاء رياضي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will wear my sports shoes."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "healthy vs healthier",
+        "words": [
+          "healthy",
+          "healthier"
+        ],
+        "explanation_ar": "healthy صفة (صحي)، و healthier صيغة المقارنة (أكثر صحة). y تتحول إلى i ثم نضيف er.",
+        "explanation_en": "\"Healthy\" → \"healthier\" (y changes to i + er).",
+        "examples": [
+          {
+            "word": "healthy",
+            "sentence": "Fruit is healthy."
+          },
+          {
+            "word": "healthier",
+            "sentence": "I want to be healthier."
+          }
+        ]
+      },
+      {
+        "title": "walk vs jog vs run",
+        "words": [
+          "walk",
+          "jog",
+          "run"
+        ],
+        "explanation_ar": "walk يمشي، jog يهرول (ركض بطيء)، run يركض بسرعة.",
+        "explanation_en": "Walk (slow), jog (slow running), run (fast).",
+        "examples": [
+          {
+            "word": "walk",
+            "sentence": "First, we will walk."
+          },
+          {
+            "word": "jog",
+            "sentence": "Then we will jog a little."
+          },
+          {
+            "word": "run",
+            "sentence": "I run in the park every morning."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "You look very fit and strong.",
+        "meaning_ar": "تبدو لائقًا وقويًا جدًا.",
+        "meaning_en": "Compliment someone's health.",
+        "example": "You exercise a lot. You look very fit and strong."
+      },
+      {
+        "phrase": "I want to be healthier, but I don't know how.",
+        "meaning_ar": "أريد أن أكون أكثر صحة، لكني لا أعرف كيف.",
+        "meaning_en": "Ask for help with health.",
+        "example": "I want to be healthier, but I don't know how."
+      },
+      {
+        "phrase": "Can I ask you something?",
+        "meaning_ar": "هل يمكنني أن أسألك شيئًا؟",
+        "meaning_en": "Ask permission before a question.",
+        "example": "Can I ask you something? Sure."
+      },
+      {
+        "phrase": "Too much fast food is not healthy.",
+        "meaning_ar": "الإكثار من الوجبات السريعة غير صحي.",
+        "meaning_en": "Give health advice.",
+        "example": "Eat fruit. Too much fast food is not healthy."
+      },
+      {
+        "phrase": "Healthy food gives me energy.",
+        "meaning_ar": "الطعام الصحي يمنحني الطاقة.",
+        "meaning_en": "Say why you eat well.",
+        "example": "I eat vegetables. Healthy food gives me energy."
+      },
+      {
+        "phrase": "The important thing is to start.",
+        "meaning_ar": "المهم أن تبدأ.",
+        "meaning_en": "Encourage someone.",
+        "example": "Don't worry about being slow. The important thing is to start."
+      },
+      {
+        "phrase": "We can go slowly.",
+        "meaning_ar": "يمكننا أن نتقدّم ببطء.",
+        "meaning_en": "Make something easier.",
+        "example": "You get tired quickly? That's okay. We can go slowly."
+      },
+      {
+        "phrase": "Let's run together tomorrow morning.",
+        "meaning_ar": "لنركض معًا صباح الغد.",
+        "meaning_en": "Suggest exercising together.",
+        "example": "Let's walk together tomorrow morning."
+      },
+      {
+        "phrase": "Bring water too.",
+        "meaning_ar": "أحضر الماء أيضًا.",
+        "meaning_en": "Remind someone.",
+        "example": "Wear your sports shoes. Bring water too."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple with frequency: usually, sometimes, once a week",
+        "explanation_ar": "نستخدم المضارع البسيط مع كلمات التكرار للعادات: I usually eat fast food. Sometimes I eat oatmeal. Maybe once a week.",
+        "explanation_en": "Present simple + frequency words for habits.",
+        "examples": [
+          "I usually eat fast food.",
+          "Sometimes I eat oatmeal.",
+          "I run here three times a week."
+        ]
+      },
+      {
+        "title": "make / give / help + someone",
+        "explanation_ar": "Exercise makes my heart strong (make + اسم + صفة). Healthy food gives me energy (give + شخص + شيء). It helps my muscles.",
+        "explanation_en": "make + object + adjective; give + person + thing; help + object.",
+        "examples": [
+          "Exercise makes my heart strong.",
+          "Healthy food gives me energy.",
+          "Running helps my muscles."
+        ]
+      },
+      {
+        "title": "Comparatives: healthier",
+        "explanation_ar": "لنقارن: صفة قصيرة + er (strong → stronger). وإذا انتهت بـ y نحولها إلى i: healthy → healthier.",
+        "explanation_en": "Comparatives: add -er; y → i: healthier.",
+        "examples": [
+          "I want to be healthier.",
+          "Exercise makes you stronger.",
+          "Walking is easier than running."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I want to be ___. (more healthy)",
+      "choices": [
+        "healthy",
+        "more healthier",
+        "healthyer",
+        "healthier"
+      ],
+      "answer": 3,
+      "explanation_ar": "المقارنة من healthy هي healthier (تتحول y إلى i).",
+      "explanation_en": "healthy → healthier."
+    },
+    {
+      "question": "Too much fast food is not ___.",
+      "choices": [
+        "muscles",
+        "energy",
+        "healthy",
+        "jog"
+      ],
+      "answer": 2,
+      "explanation_ar": "healthy صحي.",
+      "explanation_en": "Healthy = good for your body."
+    },
+    {
+      "question": "Healthy food ___ me energy.",
+      "choices": [
+        "give",
+        "gives",
+        "giving",
+        "gave to"
+      ],
+      "answer": 1,
+      "explanation_ar": "food مفرد، فنضيف s: gives.",
+      "explanation_en": "Singular subject: gives."
+    },
+    {
+      "question": "Exercise makes my heart ___.",
+      "choices": [
+        "stronger than",
+        "strongly",
+        "strength",
+        "strong"
+      ],
+      "answer": 3,
+      "explanation_ar": "make + اسم + صفة.",
+      "explanation_en": "make + object + adjective."
+    },
+    {
+      "question": "I run here three times ___ week.",
+      "choices": [
+        "a",
+        "the",
+        "in",
+        "on"
+      ],
+      "answer": 0,
+      "explanation_ar": "three times a week = ثلاث مرات في الأسبوع.",
+      "explanation_en": "\"Three times a week\"."
+    },
+    {
+      "question": "To run slowly is to ___.",
+      "choices": [
+        "jog",
+        "walk",
+        "sit",
+        "eat"
+      ],
+      "answer": 0,
+      "explanation_ar": "jog يهرول.",
+      "explanation_en": "Jog = run slowly."
+    },
+    {
+      "question": "An exercise where you push your body up from the floor is a ___.",
+      "choices": [
+        "push-up",
+        "salad",
+        "heart",
+        "light meal"
+      ],
+      "answer": 0,
+      "explanation_ar": "push-up تمرين الضغط.",
+      "explanation_en": "That is a push-up."
+    },
+    {
+      "question": "For dinner, I try to eat a ___ meal.",
+      "choices": [
+        "tired",
+        "heavy fast",
+        "fried",
+        "light"
+      ],
+      "answer": 3,
+      "explanation_ar": "light meal وجبة خفيفة.",
+      "explanation_en": "A light meal is small."
+    },
+    {
+      "question": "I get tired quickly. — That is okay. We can go ___.",
+      "choices": [
+        "slow",
+        "slowly",
+        "slower than",
+        "slowing"
+      ],
+      "answer": 1,
+      "explanation_ar": "نحتاج ظرفًا: slowly.",
+      "explanation_en": "We need an adverb: slowly."
+    },
+    {
+      "question": "Which word has a silent \"c\"?",
+      "choices": [
+        "energy",
+        "vegetables",
+        "muscles",
+        "exercise"
+      ],
+      "answer": 2,
+      "explanation_ar": "muscles تُنطق /ˈmʌsəlz/.",
+      "explanation_en": "Muscles is said /ˈmʌsəlz/."
+    }
+  ]
+}

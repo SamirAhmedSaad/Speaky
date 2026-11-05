@@ -1,0 +1,575 @@
+{
+ "title": "Let's Make Dinner!",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "cook",
+    "pos": "verb",
+    "meaning_en": "make food ready to eat by heating it",
+    "meaning_ar": "يطبخ",
+    "note_ar": "cook أيضاً اسم بمعنى «طبّاخ».",
+    "note_en": "\"Cook\" is also a noun: a person who cooks.",
+    "example": "My father cooks on Fridays."
+   },
+   {
+    "word": "dinner",
+    "pos": "noun",
+    "meaning_en": "the main meal of the evening",
+    "meaning_ar": "العشاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We eat dinner at seven."
+   },
+   {
+    "word": "breakfast",
+    "pos": "noun",
+    "meaning_en": "the first meal of the day",
+    "meaning_ar": "الفطور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have eggs for breakfast."
+   },
+   {
+    "word": "guest",
+    "pos": "noun",
+    "meaning_en": "a person you invite to your home",
+    "meaning_ar": "ضيف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Our guests will be here soon."
+   },
+   {
+    "word": "shopping",
+    "pos": "noun",
+    "meaning_en": "buying things in shops",
+    "meaning_ar": "التسوّق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I do the shopping on Saturday."
+   },
+   {
+    "word": "shopping list",
+    "pos": "noun",
+    "meaning_en": "a list of things to buy",
+    "meaning_ar": "قائمة المشتريات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't forget the shopping list!"
+   },
+   {
+    "word": "ingredient",
+    "pos": "noun",
+    "meaning_en": "one of the foods you use to make a dish",
+    "meaning_ar": "مكوِّن (من مكونات الطبخة)",
+    "note_ar": "النطق: in-GREE-dee-ent.",
+    "note_en": "Say: in-GREE-dee-ent.",
+    "example": "Flour and eggs are the main ingredients."
+   },
+   {
+    "word": "spend",
+    "pos": "verb",
+    "meaning_en": "use money or time",
+    "meaning_ar": "ينفق (مالاً) / يقضي (وقتاً)",
+    "note_ar": "الماضي: spent.",
+    "note_en": "Past: spent.",
+    "example": "I spend an hour on homework every day."
+   },
+   {
+    "word": "worry",
+    "pos": "verb",
+    "meaning_en": "feel nervous about a problem",
+    "meaning_ar": "يقلق",
+    "note_ar": "worries مع he/she، والماضي worried.",
+    "note_en": "He worries; past: worried.",
+    "example": "Don't worry. Everything is fine."
+   },
+   {
+    "word": "return",
+    "pos": "verb",
+    "meaning_en": "go or come back",
+    "meaning_ar": "يعود، يرجع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have to return home now."
+   },
+   {
+    "word": "take so long",
+    "pos": "phrase",
+    "meaning_en": "need a lot of time",
+    "meaning_ar": "يستغرق وقتاً طويلاً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Why did the bus take so long?"
+   },
+   {
+    "word": "bunch",
+    "pos": "noun",
+    "meaning_en": "a group of things growing or held together",
+    "meaning_ar": "عنقود، حزمة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I bought a bunch of bananas."
+   },
+   {
+    "word": "banana",
+    "pos": "noun",
+    "meaning_en": "a long yellow fruit",
+    "meaning_ar": "موزة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Bananas are good for you."
+   },
+   {
+    "word": "box",
+    "pos": "noun",
+    "meaning_en": "a container with flat sides",
+    "meaning_ar": "علبة، صندوق",
+    "note_ar": "الجمع: boxes.",
+    "note_en": "Plural: boxes.",
+    "example": "a box of pancake mix"
+   },
+   {
+    "word": "pancake mix",
+    "pos": "noun",
+    "meaning_en": "a ready powder for making pancakes",
+    "meaning_ar": "خليط الفطائر الجاهز (البان كيك)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Add milk and eggs to the pancake mix."
+   },
+   {
+    "word": "bag",
+    "pos": "noun",
+    "meaning_en": "a soft container made of paper, plastic or cloth",
+    "meaning_ar": "كيس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "a bag of coffee"
+   },
+   {
+    "word": "coffee",
+    "pos": "noun",
+    "meaning_en": "a hot brown drink",
+    "meaning_ar": "قهوة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She drinks coffee every morning."
+   },
+   {
+    "word": "jar",
+    "pos": "noun",
+    "meaning_en": "a glass container with a lid",
+    "meaning_ar": "برطمان، مرطبان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "a jar of peanut butter"
+   },
+   {
+    "word": "peanut butter",
+    "pos": "noun",
+    "meaning_en": "a soft food made from peanuts",
+    "meaning_ar": "زبدة الفول السوداني",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I like bread with peanut butter."
+   },
+   {
+    "word": "loaf",
+    "pos": "noun",
+    "meaning_en": "bread baked in one piece",
+    "meaning_ar": "رغيف (خبز كامل)",
+    "note_ar": "الجمع غير قياسي: loaves.",
+    "note_en": "Irregular plural: loaves.",
+    "example": "a loaf of bread"
+   },
+   {
+    "word": "bread",
+    "pos": "noun",
+    "meaning_en": "a basic food made from flour and baked",
+    "meaning_ar": "خبز",
+    "note_ar": "bread اسم غير معدود: لا نقول a bread بل a loaf of bread.",
+    "note_en": "\"Bread\" is uncountable: say a loaf of bread, not a bread.",
+    "example": "We need some bread."
+   },
+   {
+    "word": "wrong",
+    "pos": "adjective",
+    "meaning_en": "not correct",
+    "meaning_ar": "خاطئ، غلط",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These are the wrong ingredients."
+   },
+   {
+    "word": "counter",
+    "pos": "noun",
+    "meaning_en": "a flat surface in a kitchen for preparing food",
+    "meaning_ar": "سطح المطبخ (الرخامة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Put the plates on the counter."
+   },
+   {
+    "word": "refrigerator",
+    "pos": "noun",
+    "meaning_en": "a cold box for keeping food fresh",
+    "meaning_ar": "ثلاجة",
+    "note_ar": "الاختصار الشائع: fridge.",
+    "note_en": "Short form: fridge.",
+    "example": "The milk is in the refrigerator."
+   },
+   {
+    "word": "floor",
+    "pos": "noun",
+    "meaning_en": "the surface you walk on in a room",
+    "meaning_ar": "أرضية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The list is on the floor."
+   },
+   {
+    "word": "arrive",
+    "pos": "verb",
+    "meaning_en": "come to a place",
+    "meaning_ar": "يصل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The guests arrive in 30 minutes."
+   },
+   {
+    "word": "fix",
+    "pos": "verb",
+    "meaning_en": "repair; solve a problem",
+    "meaning_ar": "يصلح، يحل (مشكلة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can fix this."
+   },
+   {
+    "word": "trust",
+    "pos": "verb",
+    "meaning_en": "believe that someone is good and honest",
+    "meaning_ar": "يثق بـ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you trust me?"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "loaf vs loaves",
+    "words": [
+     "loaf",
+     "loaves"
+    ],
+    "explanation_ar": "loaf مفرد، وجمعه loaves: نغيّر f إلى v ونضيف es. آنا صححت نفسها: a loaf of bread... two loaves of bread. مثلها: knife → knives، leaf → leaves.",
+    "explanation_en": "\"Loaf\" is singular; the plural is \"loaves\" (f changes to v + es). Anna corrected herself: two loaves of bread. Also: knife → knives, leaf → leaves.",
+    "examples": [
+     {
+      "word": "loaf",
+      "sentence": "I bought a loaf of bread."
+     },
+     {
+      "word": "loaves",
+      "sentence": "We need two loaves for the party."
+     }
+    ]
+   },
+   {
+    "title": "spend money vs spend time",
+    "words": [
+     "spend money",
+     "spend time"
+    ],
+    "explanation_ar": "spend تأتي مع المال (ينفق) ومع الوقت (يقضي). آنا لم تنفق مالاً كثيراً لكنها قضت وقتاً طويلاً. نقول spend time + فعل ing: spend time shopping.",
+    "explanation_en": "\"Spend\" works with money and with time. Anna did not spend too much money, but she spent too much time. Use spend time + -ing verb: spend time shopping.",
+    "examples": [
+     {
+      "word": "spend money",
+      "sentence": "Don't spend too much money on clothes."
+     },
+     {
+      "word": "spend time",
+      "sentence": "I spend a lot of time reading."
+     }
+    ]
+   },
+   {
+    "title": "bunch / box / bag / jar",
+    "words": [
+     "bunch",
+     "box",
+     "bag",
+     "jar"
+    ],
+    "explanation_ar": "كل منها وعاء أو مجموعة مختلفة: bunch لمجموعة متصلة (موز، عنب، زهور)، box علبة كرتون، bag كيس، jar برطمان زجاجي.",
+    "explanation_en": "Each is a different container or group: a bunch (bananas, grapes, flowers), a box (cardboard), a bag (paper or plastic), a jar (glass with a lid).",
+    "examples": [
+     {
+      "word": "bunch",
+      "sentence": "a bunch of grapes"
+     },
+     {
+      "word": "box",
+      "sentence": "a box of cereal"
+     },
+     {
+      "word": "bag",
+      "sentence": "a bag of rice"
+     },
+     {
+      "word": "jar",
+      "sentence": "a jar of honey"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Do you have the shopping list?",
+    "meaning_ar": "هل معك قائمة المشتريات؟",
+    "meaning_en": "Asking if someone has the list.",
+    "example": "Do you have the shopping list? I forgot mine."
+   },
+   {
+    "phrase": "Please buy all the ingredients on the list.",
+    "meaning_ar": "من فضلك اشترِ كل المكونات الموجودة في القائمة.",
+    "meaning_en": "A polite request to buy everything on the list.",
+    "example": "Please buy all the things on the list."
+   },
+   {
+    "phrase": "Yes, I will. / No, I won't.",
+    "meaning_ar": "نعم، سأفعل. / لا، لن أفعل.",
+    "meaning_en": "Short answers to promise or refuse something.",
+    "example": "\"Will you call me?\" \"Yes, I will.\""
+   },
+   {
+    "phrase": "Don't spend too much time.",
+    "meaning_ar": "لا تقضِ وقتاً طويلاً.",
+    "meaning_en": "Advice to be quick.",
+    "example": "Don't spend too much time on your phone."
+   },
+   {
+    "phrase": "See you later.",
+    "meaning_ar": "أراك لاحقاً.",
+    "meaning_en": "Goodbye for now.",
+    "example": "I have to go. See you later!"
+   },
+   {
+    "phrase": "I have to return home now.",
+    "meaning_ar": "يجب أن أعود إلى البيت الآن.",
+    "meaning_en": "I must go back home.",
+    "example": "It's late. I have to return home now."
+   },
+   {
+    "phrase": "What took you so long?",
+    "meaning_ar": "لماذا تأخرت كل هذا؟",
+    "meaning_en": "Why were you so slow?",
+    "example": "What took you so long? We waited an hour!"
+   },
+   {
+    "phrase": "Our guests will be here soon.",
+    "meaning_ar": "ضيوفنا سيصلون قريباً.",
+    "meaning_en": "The guests are coming very soon.",
+    "example": "Clean the table. Our guests will be here soon."
+   },
+   {
+    "phrase": "Let me see.",
+    "meaning_ar": "دعني أرى.",
+    "meaning_en": "Asking to look at something.",
+    "example": "\"I finished my homework.\" \"Let me see.\""
+   },
+   {
+    "phrase": "This is all wrong!",
+    "meaning_ar": "هذا كله خطأ!",
+    "meaning_en": "Everything here is not correct.",
+    "example": "These answers are all wrong!"
+   },
+   {
+    "phrase": "What do you mean?",
+    "meaning_ar": "ماذا تقصد؟",
+    "meaning_en": "Asking someone to explain.",
+    "example": "What do you mean, the shop is closed?"
+   },
+   {
+    "phrase": "What are we going to do?",
+    "meaning_ar": "ماذا سنفعل؟",
+    "meaning_en": "Asking for a plan when there is a problem.",
+    "example": "The bus left! What are we going to do?"
+   },
+   {
+    "phrase": "I can fix this.",
+    "meaning_ar": "أستطيع إصلاح هذا.",
+    "meaning_en": "I can solve this problem.",
+    "example": "Don't worry about the computer. I can fix this."
+   },
+   {
+    "phrase": "Do you trust me?",
+    "meaning_ar": "هل تثق بي؟",
+    "meaning_en": "Asking if someone believes in you.",
+    "example": "I know the way. Do you trust me?"
+   },
+   {
+    "phrase": "Do I have to?",
+    "meaning_ar": "هل يجب عليّ ذلك؟",
+    "meaning_en": "Asking if something is really necessary (often unwillingly).",
+    "example": "\"Clean your room.\" \"Do I have to?\""
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Containers and quantities: a ___ of + noun",
+    "explanation_ar": "مع الأسماء غير المعدودة (bread, coffee, peanut butter) أو مع مجموعات الأشياء، نستخدم وعاءً أو كمية لنعدّها: a bag of coffee، a jar of peanut butter، a loaf of bread، a box of pancake mix، a bunch of bananas. للجمع نجمع الوعاء وليس الطعام: two bags of coffee، two loaves of bread.",
+    "explanation_en": "To count uncountable foods (bread, coffee, peanut butter) or groups of things, use a container or amount: a bag of coffee, a jar of peanut butter, a loaf of bread, a box of pancake mix, a bunch of bananas. For plurals, make the container plural: two bags of coffee, two loaves of bread.",
+    "examples": [
+     "a bunch of bananas",
+     "a box of pancake mix",
+     "a bag of coffee",
+     "a jar of peanut butter",
+     "two loaves of bread"
+    ]
+   },
+   {
+    "title": "Count and noncount nouns",
+    "explanation_ar": "الاسم المعدود له مفرد وجمع: a banana, two bananas. الاسم غير المعدود ليس له جمع ولا نستخدم معه a/an: coffee, bread, flour, money, time. نقول too much مع غير المعدود: too much money, too much time، و too many مع المعدود: too many bananas.",
+    "explanation_en": "Count nouns have singular and plural: a banana, two bananas. Noncount nouns have no plural and no a/an: coffee, bread, money, time. Use \"too much\" with noncount nouns (too much time) and \"too many\" with count nouns (too many bananas).",
+    "examples": [
+     "I did not spend too much money.",
+     "But I did spend too much time!",
+     "There are too many bags in the car."
+    ]
+   },
+   {
+    "title": "Promises and requests with will",
+    "explanation_ar": "عندما يطلب منك شخص شيئاً تستطيع أن تعد بـ Yes, I will أو ترفض بـ No, I won't. وفي الجملة المنفية التي تطلب منك ألا تفعل شيئاً (Do not spend too much time) نجيب بـ No, I won't بمعنى «لن أفعل».",
+    "explanation_en": "When someone asks you to do something, promise with \"Yes, I will.\" When they ask you NOT to do something (Do not spend too much time), agree with \"No, I won't.\"",
+    "examples": [
+     "\"Please buy everything on the list.\" \"Yes, I will.\"",
+     "\"Don't be late.\" \"No, I won't.\""
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "I bought a ___ of bananas.",
+   "choices": [
+    "bunch",
+    "jar",
+    "loaf",
+    "bag"
+   ],
+   "answer": 0,
+   "explanation_ar": "نقول a bunch of bananas (عنقود موز).",
+   "explanation_en": "We say \"a bunch of bananas\"."
+  },
+  {
+   "question": "What is the plural of \"loaf\"?",
+   "choices": [
+    "loafs",
+    "loafes",
+    "loaf",
+    "loaves"
+   ],
+   "answer": 3,
+   "explanation_ar": "جمع loaf غير قياسي: loaves.",
+   "explanation_en": "The plural is irregular: loaves."
+  },
+  {
+   "question": "Peanut butter usually comes in a ___.",
+   "choices": [
+    "bunch",
+    "loaf",
+    "jar",
+    "floor"
+   ],
+   "answer": 2,
+   "explanation_ar": "زبدة الفول السوداني تأتي في برطمان: a jar of peanut butter.",
+   "explanation_en": "Peanut butter comes in a jar."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I bought a bread.",
+    "I bought two breads.",
+    "I bought a loaf of bread.",
+    "I bought a loaves of bread."
+   ],
+   "answer": 2,
+   "explanation_ar": "bread غير معدود، فنقول a loaf of bread.",
+   "explanation_en": "\"Bread\" is uncountable, so say \"a loaf of bread\"."
+  },
+  {
+   "question": "\"Do not spend too much time shopping.\" \"No, I ___.\"",
+   "choices": [
+    "won't",
+    "will",
+    "don't",
+    "am not"
+   ],
+   "answer": 0,
+   "explanation_ar": "الإجابة الموافقة على طلب منفي: No, I won't (لن أفعل).",
+   "explanation_en": "To agree not to do it, say \"No, I won't.\""
+  },
+  {
+   "question": "What is an \"ingredient\"?",
+   "choices": [
+    "a kitchen tool",
+    "a food you use to make a dish",
+    "a kind of shop",
+    "a guest"
+   ],
+   "answer": 1,
+   "explanation_ar": "ingredient هو أحد مكونات الطبخة.",
+   "explanation_en": "An ingredient is one of the foods you use to cook something."
+  },
+  {
+   "question": "I didn't spend too much ___. Only ten dollars!",
+   "choices": [
+    "time",
+    "shopping",
+    "guests",
+    "money"
+   ],
+   "answer": 3,
+   "explanation_ar": "السياق عن عشرة دولارات، أي المال.",
+   "explanation_en": "Ten dollars is money: spend money."
+  },
+  {
+   "question": "\"What took you so long?\" means ___",
+   "choices": [
+    "Why are you so tall?",
+    "What did you take?",
+    "Why were you so slow?",
+    "Where did you go?"
+   ],
+   "answer": 2,
+   "explanation_ar": "العبارة تسأل عن سبب التأخير.",
+   "explanation_en": "It asks why someone needed so much time."
+  },
+  {
+   "question": "Where do we keep milk cold?",
+   "choices": [
+    "in the counter",
+    "on the floor",
+    "in the cabinet",
+    "in the refrigerator"
+   ],
+   "answer": 3,
+   "explanation_ar": "الثلاجة refrigerator تحفظ الطعام بارداً.",
+   "explanation_en": "A refrigerator keeps food cold."
+  },
+  {
+   "question": "There is too ___ coffee in my cup.",
+   "choices": [
+    "many",
+    "much",
+    "a",
+    "bunch"
+   ],
+   "answer": 1,
+   "explanation_ar": "coffee غير معدود فنستخدم much.",
+   "explanation_en": "\"Coffee\" is noncount, so use \"much\"."
+  }
+ ]
+}

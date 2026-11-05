@@ -1,0 +1,367 @@
+{
+  "title": "Expressions with verb + -ing",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "contact",
+        "pos": "noun",
+        "meaning_en": "a person you have met or been near",
+        "meaning_ar": "مُخالِط / جهة اتصال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The nurse called all of his contacts."
+      },
+      {
+        "word": "trace",
+        "pos": "verb",
+        "meaning_en": "to find someone or something by following signs",
+        "meaning_ar": "يتتبّع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The police traced the phone call."
+      },
+      {
+        "word": "infected",
+        "pos": "adjective",
+        "meaning_en": "having a disease that can spread",
+        "meaning_ar": "مُصاب بعدوى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Infected people should stay at home."
+      },
+      {
+        "word": "ghost",
+        "pos": "noun",
+        "meaning_en": "the spirit of a dead person in stories",
+        "meaning_ar": "شبح",
+        "note_ar": "كفعل (to ghost) = يتوقف فجأة عن الرد على شخص.",
+        "note_en": "As a verb (to ghost) = suddenly stop replying to someone.",
+        "example": "Children love ghost stories."
+      },
+      {
+        "word": "reply",
+        "pos": "verb",
+        "meaning_en": "to answer a message or question",
+        "meaning_ar": "يردّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please reply to my email."
+      },
+      {
+        "word": "responsibility",
+        "pos": "noun",
+        "meaning_en": "a duty or job you must do",
+        "meaning_ar": "مسؤولية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Paying the bills is my responsibility."
+      },
+      {
+        "word": "grown-up",
+        "pos": "noun",
+        "meaning_en": "an adult",
+        "meaning_ar": "شخص بالغ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ask a grown-up to help you."
+      },
+      {
+        "word": "plate",
+        "pos": "noun",
+        "meaning_en": "a flat dish you eat from",
+        "meaning_ar": "صحن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Put the plates on the table."
+      },
+      {
+        "word": "spin",
+        "pos": "verb",
+        "meaning_en": "to turn round and round quickly",
+        "meaning_ar": "يدور / يُدير",
+        "note_ar": "الماضي: spun.",
+        "note_en": "Past: spun.",
+        "example": "The wheel was spinning fast."
+      },
+      {
+        "word": "crowd",
+        "pos": "noun",
+        "meaning_en": "a large group of people",
+        "meaning_ar": "حشد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A crowd waited outside the stadium."
+      },
+      {
+        "word": "source",
+        "pos": "verb / noun",
+        "meaning_en": "to get something from a place; the place it comes from",
+        "meaning_ar": "يحصل على / مصدر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We source our fruit from local farms."
+      },
+      {
+        "word": "raise money",
+        "pos": "phrase",
+        "meaning_en": "to collect money for a purpose",
+        "meaning_ar": "يجمع المال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The school raised money for new books."
+      },
+      {
+        "word": "flex",
+        "pos": "verb",
+        "meaning_en": "to tighten a muscle; (slang) to show off",
+        "meaning_ar": "يشدّ عضلاته / يتباهى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He flexed his arm to show his muscles."
+      },
+      {
+        "word": "show off",
+        "pos": "phrasal verb",
+        "meaning_en": "to try to make people admire you",
+        "meaning_ar": "يتباهى / يستعرض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Stop showing off your new shoes!"
+      },
+      {
+        "word": "deal",
+        "pos": "noun",
+        "meaning_en": "an agreement, often in business",
+        "meaning_ar": "صفقة / اتفاق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company signed a big deal."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Ghosting vs left on read",
+        "words": [
+          "ghosting",
+          "left on read"
+        ],
+        "explanation_ar": "ghosting أن يقطع شخص التواصل معك تماماً وفجأة دون تفسير. left on read أن يقرأ رسالتك ولا يرد عليها (رسالة واحدة).",
+        "explanation_en": "Ghosting = someone stops all contact suddenly with no explanation. 'Left on read' = someone reads one message but doesn't answer.",
+        "examples": [
+          {
+            "word": "ghosting",
+            "sentence": "My old classmate has been ghosting me for months."
+          },
+          {
+            "word": "left on read",
+            "sentence": "I asked a question in the group and got left on read."
+          }
+        ]
+      },
+      {
+        "title": "Flexing vs humblebrag",
+        "words": [
+          "flexing",
+          "humblebrag"
+        ],
+        "explanation_ar": "flexing تباهٍ صريح بالمال أو الأغراض. humblebrag تباهٍ مخفي في كلام متواضع.",
+        "explanation_en": "Flexing is openly showing off money or things. A humblebrag hides the showing off in modest words.",
+        "examples": [
+          {
+            "word": "flexing",
+            "sentence": "He's flexing his new watch again."
+          },
+          {
+            "word": "humblebrag",
+            "sentence": "'Ugh, my phone is too full of prize photos' - a humblebrag."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "contact tracing",
+        "meaning_ar": "تتبّع المخالطين",
+        "meaning_en": "finding and contacting people who were near someone with an infectious disease",
+        "example": "Contact tracing helped doctors stop the virus spreading."
+      },
+      {
+        "phrase": "ghosting",
+        "meaning_ar": "الاختفاء المفاجئ / قطع التواصل بلا تفسير",
+        "meaning_en": "suddenly stopping all contact with someone without explaining why",
+        "example": "The company interviewed me and then started ghosting me."
+      },
+      {
+        "phrase": "adulting",
+        "meaning_ar": "القيام بمهام الكبار (فواتير، تنظيف...)",
+        "meaning_en": "(informal, funny) doing boring grown-up jobs like paying bills",
+        "example": "I paid my bills and cleaned the kitchen today - so much adulting!"
+      },
+      {
+        "phrase": "have a lot of plates spinning",
+        "meaning_ar": "تقوم بأعمال كثيرة في وقت واحد",
+        "meaning_en": "to be dealing with many tasks at the same time",
+        "example": "With work, study and family, I have a lot of plates spinning."
+      },
+      {
+        "phrase": "crowdsourcing",
+        "meaning_ar": "التعهيد الجماعي (جمع أفكار أو مال من الناس)",
+        "meaning_en": "getting ideas, help or money from a large number of people, usually online",
+        "example": "We used crowdsourcing to choose the name of our new café."
+      },
+      {
+        "phrase": "laughing all the way to the bank",
+        "meaning_ar": "يربح كثيراً بسهولة (ويضحك)",
+        "meaning_en": "making a lot of money easily, especially when others thought you would fail",
+        "example": "People laughed at her idea, but now she's laughing all the way to the bank."
+      },
+      {
+        "phrase": "flexing",
+        "meaning_ar": "التباهي (عامية)",
+        "meaning_en": "(slang) showing off, especially online",
+        "example": "He's always flexing his expensive trainers on social media."
+      },
+      {
+        "phrase": "now you're talking!",
+        "meaning_ar": "الآن تتكلم كلاماً معقولاً! (هذا أفضل)",
+        "meaning_en": "said when someone suggests something better that you like",
+        "example": "Pizza instead of salad? Now you're talking!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "-ing words as nouns (gerunds)",
+        "explanation_ar": "عندما نضيف ing- إلى الفعل يمكن أن يصبح اسماً يدل على النشاط: ghost → ghosting، crowdsource → crowdsourcing. ويمكن أن يكون فاعلاً في الجملة: Ghosting is unkind.",
+        "explanation_en": "Add -ing to a verb and it can become a noun for the activity (a gerund): ghost → ghosting, crowdsource → crowdsourcing. It can be the subject: 'Ghosting is unkind.'",
+        "examples": [
+          "Ghosting is not polite.",
+          "Adulting can be tiring.",
+          "Crowdsourcing helped us raise money.",
+          "Stop flexing!"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Finding the people an ill person has met is called ___ .",
+      "choices": [
+        "contact tracing",
+        "crowdsourcing",
+        "flexing",
+        "adulting"
+      ],
+      "answer": 0,
+      "explanation_ar": "contact tracing = تتبّع المخالطين.",
+      "explanation_en": "Contact tracing = finding the contacts of an infected person."
+    },
+    {
+      "question": "My friend stopped answering all my messages with no reason. She is ___ me.",
+      "choices": [
+        "flexing",
+        "ghosting",
+        "adulting",
+        "crowdsourcing"
+      ],
+      "answer": 1,
+      "explanation_ar": "ghosting = قطع التواصل فجأة بلا تفسير.",
+      "explanation_en": "Ghosting = suddenly stopping contact."
+    },
+    {
+      "question": "'Adulting' means:",
+      "choices": [
+        "playing like a child",
+        "growing taller",
+        "doing grown-up jobs like paying bills",
+        "teaching adults"
+      ],
+      "answer": 2,
+      "explanation_ar": "adulting = القيام بمهام الكبار.",
+      "explanation_en": "Adulting = doing boring grown-up tasks."
+    },
+    {
+      "question": "'She has a lot of plates spinning' means she:",
+      "choices": [
+        "works in a restaurant",
+        "is dizzy",
+        "breaks plates",
+        "is doing many things at once"
+      ],
+      "answer": 3,
+      "explanation_ar": "have a lot of plates spinning = تقوم بأعمال كثيرة معاً.",
+      "explanation_en": "It means doing many tasks at the same time."
+    },
+    {
+      "question": "We asked thousands of people online to suggest ideas. This is ___ .",
+      "choices": [
+        "crowdsourcing",
+        "ghosting",
+        "contact tracing",
+        "flexing"
+      ],
+      "answer": 0,
+      "explanation_ar": "crowdsourcing = جمع الأفكار أو المال من عدد كبير من الناس.",
+      "explanation_en": "Crowdsourcing = getting ideas from many people."
+    },
+    {
+      "question": "After selling his company, he's ___ .",
+      "choices": [
+        "having plates spinning",
+        "laughing all the way to the bank",
+        "ghosting",
+        "adulting"
+      ],
+      "answer": 1,
+      "explanation_ar": "laughing all the way to the bank = يربح الكثير بسهولة.",
+      "explanation_en": "It means making a lot of money easily."
+    },
+    {
+      "question": "He posts photos of his expensive car every day. He's ___ .",
+      "choices": [
+        "tracing",
+        "spinning",
+        "flexing",
+        "sourcing"
+      ],
+      "answer": 2,
+      "explanation_ar": "flexing = التباهي.",
+      "explanation_en": "Flexing = showing off."
+    },
+    {
+      "question": "'Let's go to the beach instead.' - '___ !'",
+      "choices": [
+        "Ghosting",
+        "Adulting",
+        "Flexing",
+        "Now you're talking"
+      ],
+      "answer": 3,
+      "explanation_ar": "Now you're talking = هذا اقتراح أفضل يعجبني.",
+      "explanation_en": "'Now you're talking' = that's a better idea!"
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Ghosting are rude.",
+        "Ghosting is rude.",
+        "Ghost is rude people.",
+        "Ghostings is rude."
+      ],
+      "answer": 1,
+      "explanation_ar": "الاسم المنتهي بـ ing مفرد ويأخذ is.",
+      "explanation_en": "A gerund subject is singular: 'Ghosting is'."
+    },
+    {
+      "question": "Which one is about money, not people or tasks?",
+      "choices": [
+        "laughing all the way to the bank",
+        "ghosting",
+        "adulting",
+        "contact tracing"
+      ],
+      "answer": 0,
+      "explanation_ar": "laughing all the way to the bank يتعلق بكسب المال.",
+      "explanation_en": "It is about making money."
+    }
+  ]
+}

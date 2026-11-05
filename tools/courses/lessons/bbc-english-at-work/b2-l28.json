@@ -1,0 +1,467 @@
+{
+  "title": "Offering and Accepting a Promotion",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "promotion",
+        "pos": "noun",
+        "meaning_en": "a move to a higher position in your company",
+        "meaning_ar": "ترقية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She got a promotion after two years."
+      },
+      {
+        "word": "recognise",
+        "pos": "verb",
+        "meaning_en": "to show official thanks for someone's work",
+        "meaning_ar": "يقدّر؛ يعترف بـ (جهود شخص)",
+        "note_ar": "في الأمريكية recognize.",
+        "note_en": "US spelling: recognize.",
+        "example": "This award recognises your hard work."
+      },
+      {
+        "word": "achievement",
+        "pos": "noun",
+        "meaning_en": "something good that you did with effort",
+        "meaning_ar": "إنجاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Winning the contract was a great achievement."
+      },
+      {
+        "word": "opportunity of a lifetime",
+        "pos": "phrase",
+        "meaning_en": "a very rare and very good chance",
+        "meaning_ar": "فرصة العمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Working in the head office is the opportunity of a lifetime."
+      },
+      {
+        "word": "right-hand man / woman",
+        "pos": "idiom",
+        "meaning_en": "your most trusted helper at work",
+        "meaning_ar": "الذراع اليمنى؛ المساعد الأكثر ثقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is the director's right-hand woman."
+      },
+      {
+        "word": "trusted",
+        "pos": "adjective",
+        "meaning_en": "that people believe is honest and reliable",
+        "meaning_ar": "موثوق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is a trusted member of staff."
+      },
+      {
+        "word": "invaluable",
+        "pos": "adjective",
+        "meaning_en": "extremely useful; so useful you cannot measure its value",
+        "meaning_ar": "لا يُقدَّر بثمن؛ بالغ الأهمية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your help has been invaluable."
+      },
+      {
+        "word": "accept",
+        "pos": "verb",
+        "meaning_en": "to say yes to an offer",
+        "meaning_ar": "يقبل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd be delighted to accept the job."
+      },
+      {
+        "word": "delighted",
+        "pos": "adjective",
+        "meaning_en": "very pleased",
+        "meaning_ar": "مسرور جدًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm delighted to hear the news."
+      },
+      {
+        "word": "terms and conditions",
+        "pos": "noun",
+        "meaning_en": "the rules and details of an agreement, such as pay and hours",
+        "meaning_ar": "الشروط والأحكام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could we discuss the terms and conditions of the contract?"
+      },
+      {
+        "word": "consider",
+        "pos": "verb",
+        "meaning_en": "to think carefully about something before deciding",
+        "meaning_ar": "يفكّر مليًّا في؛ يدرس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I have some time to consider your offer?"
+      },
+      {
+        "word": "offer",
+        "pos": "noun",
+        "meaning_en": "something that someone says they will give you, e.g. a job",
+        "meaning_ar": "عرض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your offer."
+      },
+      {
+        "word": "kind words",
+        "pos": "phrase",
+        "meaning_en": "nice things someone says about you",
+        "meaning_ar": "كلمات لطيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your kind words."
+      },
+      {
+        "word": "take on",
+        "pos": "phrasal verb",
+        "meaning_en": "to accept a job or responsibility",
+        "meaning_ar": "يتولّى (مسؤولية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm not sure I can take on that much responsibility."
+      },
+      {
+        "word": "experienced",
+        "pos": "adjective",
+        "meaning_en": "having skill and knowledge from doing something for a long time",
+        "meaning_ar": "ذو خبرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need an experienced manager."
+      },
+      {
+        "word": "be up to the job",
+        "pos": "idiom",
+        "meaning_en": "to be good enough to do a job",
+        "meaning_ar": "على قدر المهمة؛ كفء للوظيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm sure you're up to the job."
+      },
+      {
+        "word": "replace",
+        "pos": "verb",
+        "meaning_en": "to take the place of someone or something",
+        "meaning_ar": "يحلّ محلّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna will replace Paul as manager."
+      },
+      {
+        "word": "official",
+        "pos": "adjective",
+        "meaning_en": "announced and approved by people in authority",
+        "meaning_ar": "رسمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't tell anyone until it's official."
+      },
+      {
+        "word": "tight-lipped",
+        "pos": "adjective",
+        "meaning_en": "not willing to talk about something",
+        "meaning_ar": "كتوم؛ لا يبوح بشيء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He stayed tight-lipped about the new project."
+      },
+      {
+        "word": "right up your street",
+        "pos": "idiom",
+        "meaning_en": "exactly the kind of thing you like or are good at",
+        "meaning_ar": "يناسبك تمامًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A job in design is right up your street."
+      },
+      {
+        "word": "dilemma",
+        "pos": "noun",
+        "meaning_en": "a difficult choice between two things",
+        "meaning_ar": "معضلة؛ موقف صعب الاختيار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Taking the job or staying in my city - what a dilemma!"
+      },
+      {
+        "word": "easy peasy",
+        "pos": "phrase",
+        "meaning_en": "(informal) very easy",
+        "meaning_ar": "سهل جدًّا (عامية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This task is easy peasy."
+      },
+      {
+        "word": "habit",
+        "pos": "noun",
+        "meaning_en": "something you do often, almost without thinking",
+        "meaning_ar": "عادة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a habit of changing my mind."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "valuable vs invaluable",
+        "words": [
+          "valuable",
+          "invaluable"
+        ],
+        "explanation_ar": "قد يظن المتعلم أن invaluable عكس valuable، لكنها في الحقيقة أقوى منها: invaluable تعني «بالغ الأهمية، لا يقدّر بثمن». أما عكس valuable فهو worthless أو of little value.",
+        "explanation_en": "Invaluable is NOT the opposite of valuable. It is stronger: extremely useful. The opposite of valuable is worthless.",
+        "examples": [
+          {
+            "word": "valuable",
+            "sentence": "This is a valuable painting."
+          },
+          {
+            "word": "invaluable",
+            "sentence": "Your advice has been invaluable to the team."
+          }
+        ]
+      },
+      {
+        "title": "experience vs experienced",
+        "words": [
+          "experience",
+          "experienced"
+        ],
+        "explanation_ar": "experience اسم معناه «الخبرة» (I have experience). experienced صفة معناها «ذو خبرة» تصف الشخص (an experienced manager).",
+        "explanation_en": "Experience is a noun (I have five years' experience). Experienced is an adjective that describes a person (an experienced manager).",
+        "examples": [
+          {
+            "word": "experience",
+            "sentence": "Tom has more sales experience."
+          },
+          {
+            "word": "experienced",
+            "sentence": "Tom is more experienced than me."
+          }
+        ]
+      },
+      {
+        "title": "accept vs except",
+        "words": [
+          "accept",
+          "except"
+        ],
+        "explanation_ar": "النطق متقارب لكن المعنى مختلف: accept فعل بمعنى «يقبل»، وexcept حرف بمعنى «ما عدا».",
+        "explanation_en": "They sound similar but are different: accept is a verb (say yes to); except means 'but not'.",
+        "examples": [
+          {
+            "word": "accept",
+            "sentence": "I'd be delighted to accept the offer."
+          },
+          {
+            "word": "except",
+            "sentence": "Everyone came to the meeting except Tom."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "This promotion recognises your achievements at the company.",
+        "meaning_ar": "هذه الترقية تقدير لإنجازاتك في الشركة.",
+        "meaning_en": "You get this promotion because of your good work.",
+        "example": "This promotion recognises your achievements over the last three years."
+      },
+      {
+        "phrase": "It's an opportunity of a lifetime.",
+        "meaning_ar": "إنها فرصة العمر.",
+        "meaning_en": "This is a very rare, very good chance.",
+        "example": "Working in our Tokyo office is an opportunity of a lifetime."
+      },
+      {
+        "phrase": "You would be my right-hand man / woman.",
+        "meaning_ar": "ستكون ذراعي اليمنى.",
+        "meaning_en": "You would be my most trusted helper.",
+        "example": "If you take the job, you would be my right-hand woman."
+      },
+      {
+        "phrase": "I'd be delighted to accept. Thank you.",
+        "meaning_ar": "يسعدني كثيرًا أن أقبل. شكرًا لك.",
+        "meaning_en": "A polite way to say yes to an offer.",
+        "example": "Thank you for the offer. I'd be delighted to accept."
+      },
+      {
+        "phrase": "When would I start?",
+        "meaning_ar": "متى سأبدأ؟",
+        "meaning_en": "A polite question about the start date.",
+        "example": "That sounds wonderful. When would I start?"
+      },
+      {
+        "phrase": "Could we discuss the terms and conditions of the new job?",
+        "meaning_ar": "هل يمكننا مناقشة شروط الوظيفة الجديدة وأحكامها؟",
+        "meaning_en": "Can we talk about pay, hours and other details?",
+        "example": "Before I say yes, could we discuss the terms and conditions of the new job?"
+      },
+      {
+        "phrase": "Thank you for your kind words, but could I have some time to consider your offer?",
+        "meaning_ar": "شكرًا على كلماتك اللطيفة، لكن هل يمكنني الحصول على بعض الوقت لدراسة عرضك؟",
+        "meaning_en": "A polite way to ask for time before deciding.",
+        "example": "Thank you for your kind words, but could I have some time to consider your offer?"
+      },
+      {
+        "phrase": "This news has come as a bit of a shock.",
+        "meaning_ar": "هذا الخبر كان مفاجئًا بعض الشيء.",
+        "meaning_en": "I did not expect this news.",
+        "example": "This news has come as a bit of a shock. I need to think."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "would for polite answers and questions about an offer",
+        "explanation_ar": "عند الحديث عن عرض لم نقبله بعد نستخدم would لأنه أمر افتراضي ومهذب: I'd (= I would) be delighted to accept، When would I start?، You would be my right-hand man.",
+        "explanation_en": "When we talk about an offer that is not final yet, we use 'would' - it is polite and hypothetical: I'd be delighted to accept. When would I start? You would be my right-hand man.",
+        "examples": [
+          "I'd be delighted to join your team.",
+          "What would my salary be?",
+          "Who would I report to?"
+        ]
+      },
+      {
+        "title": "Asking for time: Could I have some time to + verb?",
+        "explanation_ar": "إذا احتجت وقتًا للتفكير اطلب ذلك بأدب: Could I have some time to consider/think about…? ويمكن أن تبدأ بشكر: Thank you for your kind words, but…",
+        "explanation_en": "If you need time to decide, ask politely: Could I have some time to consider / think about...? You can start with thanks: Thank you for your kind words, but...",
+        "examples": [
+          "Could I have some time to think about it?",
+          "Could I have a few days to consider your offer?",
+          "Thank you, but could I have until Monday to decide?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which is the best way to accept a job offer politely?",
+      "choices": [
+        "OK, whatever.",
+        "I'd be delighted to accept. Thank you.",
+        "Maybe, I don't know.",
+        "Give me the job."
+      ],
+      "answer": 1,
+      "explanation_ar": "I'd be delighted to accept عبارة مهذبة للقبول.",
+      "explanation_en": "'I'd be delighted to accept' is polite."
+    },
+    {
+      "question": "'It's an opportunity of a lifetime' means…",
+      "choices": [
+        "it's a very rare, very good chance",
+        "it's a job for life",
+        "it's too late",
+        "it's a bad idea"
+      ],
+      "answer": 0,
+      "explanation_ar": "فرصة العمر أي فرصة نادرة جدًّا وجيدة.",
+      "explanation_en": "It is a very rare and good chance."
+    },
+    {
+      "question": "A 'right-hand man' is…",
+      "choices": [
+        "a man who writes with his right hand",
+        "a new employee",
+        "your most trusted helper",
+        "a person who leaves the company"
+      ],
+      "answer": 2,
+      "explanation_ar": "right-hand man هو المساعد الأكثر ثقة.",
+      "explanation_en": "It means your most trusted assistant."
+    },
+    {
+      "question": "Could we discuss the ___ of the new job?",
+      "choices": [
+        "terms and conditions",
+        "kind words",
+        "achievements",
+        "habits"
+      ],
+      "answer": 0,
+      "explanation_ar": "terms and conditions هي الشروط مثل الراتب وساعات العمل.",
+      "explanation_en": "Terms and conditions = pay, hours and other details."
+    },
+    {
+      "question": "'Your help has been invaluable' means your help has been…",
+      "choices": [
+        "useless",
+        "expensive",
+        "a little useful",
+        "extremely useful"
+      ],
+      "answer": 3,
+      "explanation_ar": "invaluable تعني بالغ الأهمية وليست عكس valuable.",
+      "explanation_en": "Invaluable means extremely useful."
+    },
+    {
+      "question": "Anna needs time to think. What should she say?",
+      "choices": [
+        "I refuse.",
+        "When would I start?",
+        "Could I have some time to consider your offer?",
+        "I'd be delighted to accept."
+      ],
+      "answer": 2,
+      "explanation_ar": "لطلب وقت للتفكير نقول Could I have some time to consider…",
+      "explanation_en": "To ask for time: 'Could I have some time to consider your offer?'"
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "He is more experience than me.",
+        "He is more experienced than me.",
+        "He has more experienced.",
+        "He is experiencing than me."
+      ],
+      "answer": 1,
+      "explanation_ar": "experienced صفة تصف الشخص.",
+      "explanation_en": "'Experienced' is the adjective describing a person."
+    },
+    {
+      "question": "Tom says he will be 'tight-lipped'. He means he will…",
+      "choices": [
+        "smile a lot",
+        "talk to everyone",
+        "eat less",
+        "not tell anyone"
+      ],
+      "answer": 3,
+      "explanation_ar": "tight-lipped أي لن يبوح بالسر.",
+      "explanation_en": "Tight-lipped means he won't say anything."
+    },
+    {
+      "question": "Everyone agreed ___ Tom.",
+      "choices": [
+        "accept",
+        "except",
+        "excepts",
+        "accepted"
+      ],
+      "answer": 1,
+      "explanation_ar": "except بمعنى «ما عدا».",
+      "explanation_en": "'Except' means 'but not'."
+    },
+    {
+      "question": "Paul's new job as Head Taster is 'right up his street'. This means…",
+      "choices": [
+        "it suits him perfectly",
+        "it is near his home",
+        "it is on a street",
+        "he doesn't like it"
+      ],
+      "answer": 0,
+      "explanation_ar": "right up your street أي يناسبك تمامًا.",
+      "explanation_en": "It means it's exactly the kind of thing he likes."
+    }
+  ]
+}

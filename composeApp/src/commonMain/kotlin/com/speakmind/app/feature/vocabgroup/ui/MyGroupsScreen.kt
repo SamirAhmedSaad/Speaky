@@ -32,6 +32,14 @@ import com.speakmind.app.feature.vocabgroup.domain.model.VocabGroup
 import com.speakmind.app.navigation.MyGroupsDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.speakmind.app.ui.components.SpeakyBackButton
+import com.speakmind.app.ui.components.SpeakyIconButton
+import com.speakmind.app.ui.components.SpeakyIcons
+import com.speakmind.app.ui.components.SpeakyPrimaryButton
+import com.speakmind.app.ui.components.displayStyle
 import org.koin.compose.viewmodel.koinViewModel
 
 fun NavGraphBuilder.myGroupsScreen() {
@@ -77,68 +85,49 @@ private fun MyGroupsContent(
         )
     }
 
-    Box(
+    Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(colors.backgroundGradient)
+            .background(colors.backgroundDark)
+            .windowInsetsPadding(WindowInsets.statusBars),
     ) {
-        Column(modifier = Modifier.fillMaxSize()) {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 48.sdp, bottom = 8.sdp)
-                    .padding(horizontal = 4.sdp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                IconButton(onClick = onBack) {
-                    Icon(
-                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
-                        tint = colors.textPrimary,
-                    )
-                }
-                Text(
-                    text = "My Groups",
-                    style = MaterialTheme.typography.titleLarge.copy(
-                        color = colors.textPrimary,
-                        fontWeight = FontWeight.Bold,
-                    ),
-                    modifier = Modifier.weight(1f),
-                )
-                IconButton(onClick = onShowCreate) {
-                    Icon(
-                        imageVector = Icons.Default.Add,
-                        contentDescription = "Create group",
-                        tint = colors.magenta,
-                        modifier = Modifier.size(28.sdp),
-                    )
-                }
-            }
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(start = 20.dp, end = 20.dp, top = 20.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            SpeakyBackButton(onClick = onBack)
+            Text("My groups", Modifier.weight(1f), style = displayStyle(26.sp), color = colors.textPrimary)
+            SpeakyIconButton(
+                icon = SpeakyIcons.Plus,
+                contentDescription = "Create group",
+                onClick = onShowCreate,
+                background = colors.neonCyan,
+                tint = colors.onPrimary,
+            )
+        }
 
-            if (uiState.isLoading) {
-                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    CircularProgressIndicator(color = colors.magenta)
+        if (uiState.isLoading) {
+            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator(color = colors.neonCyan)
+            }
+        } else if (uiState.groups.isEmpty()) {
+            EmptyGroupsState(onCreateClick = onShowCreate)
+        } else {
+            LazyColumn(
+                contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 24.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+                modifier = Modifier.weight(1f),
+            ) {
+                item {
+                    Text("Tap a group to manage its words.", color = colors.textSecondary, fontSize = 14.sp)
                 }
-            } else if (uiState.groups.isEmpty()) {
-                EmptyGroupsState(onCreateClick = onShowCreate)
-            } else {
-                Text(
-                    text = "Tap a group to manage its words",
-                    style = MaterialTheme.typography.bodyMedium.copy(color = colors.textSecondary),
-                    modifier = Modifier.padding(horizontal = 20.sdp, vertical = 4.sdp),
-                )
-                LazyColumn(
-                    contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 12.sdp),
-                    verticalArrangement = Arrangement.spacedBy(12.sdp),
-                    modifier = Modifier.weight(1f),
-                ) {
-                    items(uiState.groups, key = { it.id }) { group ->
-                        GroupCard(
-                            group = group,
-                            onClick = { onGroupClick(group) },
-                            onDelete = { onDeleteGroup(group.id) },
-                        )
-                    }
+                items(uiState.groups, key = { it.id }) { group ->
+                    GroupCard(
+                        group = group,
+                        onClick = { onGroupClick(group) },
+                        onDelete = { onDeleteGroup(group.id) },
+                    )
                 }
             }
         }
@@ -158,18 +147,13 @@ private fun GroupCard(
         AlertDialog(
             onDismissRequest = { showDeleteConfirm = false },
             containerColor = colors.surface,
-            title = {
-                Text(
-                    "Delete group?",
-                    style = MaterialTheme.typography.titleMedium.copy(
-                        color = colors.textPrimary, fontWeight = FontWeight.Bold,
-                    ),
-                )
-            },
+            shape = RoundedCornerShape(28.dp),
+            title = { Text("Delete group?", style = displayStyle(22.sp), color = colors.textPrimary) },
             text = {
                 Text(
                     "\"${group.name}\" and all its words will be deleted.",
-                    style = MaterialTheme.typography.bodyMedium.copy(color = colors.textSecondary),
+                    color = colors.textSecondary,
+                    fontSize = 15.sp,
                 )
             },
             confirmButton = {
@@ -179,7 +163,7 @@ private fun GroupCard(
             },
             dismissButton = {
                 TextButton(onClick = { showDeleteConfirm = false }) {
-                    Text("Cancel", color = colors.textMuted)
+                    Text("Cancel", color = colors.textMuted, fontWeight = FontWeight.Bold)
                 }
             },
         )
@@ -188,109 +172,67 @@ private fun GroupCard(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(16.sdp))
-            .background(colors.surfaceVariant.copy(alpha = 0.7f))
-            .border(1.sdp, colors.magenta.copy(alpha = 0.25f), RoundedCornerShape(16.sdp))
+            .clip(RoundedCornerShape(22.dp))
+            .background(colors.surface)
             .clickable(onClick = onClick)
-            .padding(16.sdp),
+            .padding(14.dp),
         verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         Box(
             contentAlignment = Alignment.Center,
-            modifier = Modifier
-                .size(48.sdp)
-                .clip(RoundedCornerShape(12.sdp))
-                .background(colors.magenta.copy(alpha = 0.15f)),
+            modifier = Modifier.size(52.dp).clip(RoundedCornerShape(16.dp)).background(colors.primarySoft),
         ) {
+            Text("${group.wordCount}", color = colors.onPrimarySoft, fontSize = 18.sp, fontWeight = FontWeight.ExtraBold)
+        }
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Text(group.name, color = colors.textPrimary, fontSize = 16.sp, fontWeight = FontWeight.Bold)
             Text(
-                text = "${group.wordCount}",
-                style = MaterialTheme.typography.titleMedium.copy(
-                    color = colors.magenta,
-                    fontWeight = FontWeight.Bold,
-                ),
+                if (group.wordCount == 1) "1 word" else "${group.wordCount} words",
+                color = colors.textMuted,
+                fontSize = 12.sp,
             )
         }
-        Spacer(modifier = Modifier.width(14.sdp))
-        Text(
-            text = group.name,
-            style = MaterialTheme.typography.titleMedium.copy(
-                color = colors.textPrimary,
-                fontWeight = FontWeight.Bold,
-            ),
-            modifier = Modifier.weight(1f),
-        )
-        IconButton(
+        SpeakyIconButton(
+            icon = SpeakyIcons.Trash,
+            contentDescription = "Delete group",
             onClick = { showDeleteConfirm = true },
-            modifier = Modifier.size(36.sdp),
-        ) {
-            Icon(
-                Icons.Default.Delete,
-                contentDescription = "Delete group",
-                tint = colors.textMuted,
-                modifier = Modifier.size(18.sdp),
-            )
-        }
-        Icon(
-            imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            contentDescription = null,
-            tint = colors.magenta.copy(alpha = 0.6f),
+            size = 40.dp,
+            iconSize = 18.dp,
+            background = colors.backgroundDark,
+            tint = colors.textMuted,
         )
+        Icon(SpeakyIcons.Chevron, contentDescription = null, tint = colors.faint, modifier = Modifier.size(20.dp))
     }
 }
 
 @Composable
 private fun EmptyGroupsState(onCreateClick: () -> Unit) {
     val colors = LocalSpeakMindColors.current
-    Box(
-        modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center,
+    Column(
+        modifier = Modifier.fillMaxSize().padding(horizontal = 40.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically),
     ) {
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(12.sdp),
-            modifier = Modifier.padding(horizontal = 40.sdp),
-        ) {
-            Icon(
-                imageVector = Icons.Default.Folder,
-                contentDescription = null,
-                tint = colors.magenta.copy(alpha = 0.4f),
-                modifier = Modifier.size(64.sdp),
-            )
-            Text(
-                text = "No groups yet",
-                style = MaterialTheme.typography.titleLarge.copy(
-                    color = colors.textPrimary, fontWeight = FontWeight.Bold,
-                ),
-                textAlign = TextAlign.Center,
-            )
-            Text(
-                text = "Create a group to start collecting words by topic, theme, or any category you like.",
-                style = MaterialTheme.typography.bodyMedium.copy(
-                    color = colors.textSecondary,
-                    lineHeight = 22.ssp,
-                ),
-                textAlign = TextAlign.Center,
-            )
-            Spacer(modifier = Modifier.height(4.sdp))
-            Row(
-                modifier = Modifier
-                    .clip(RoundedCornerShape(12.sdp))
-                    .background(colors.magenta.copy(alpha = 0.15f))
-                    .border(1.sdp, colors.magenta.copy(alpha = 0.4f), RoundedCornerShape(12.sdp))
-                    .clickable(onClick = onCreateClick)
-                    .padding(horizontal = 20.sdp, vertical = 12.sdp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(8.sdp),
-            ) {
-                Icon(Icons.Default.Add, contentDescription = null, tint = colors.magenta, modifier = Modifier.size(20.sdp))
-                Text(
-                    text = "Create First Group",
-                    style = MaterialTheme.typography.labelLarge.copy(
-                        color = colors.magenta, fontWeight = FontWeight.Bold,
-                    ),
-                )
-            }
+        Box(Modifier.size(96.dp).clip(CircleShape).background(colors.primarySoft), contentAlignment = Alignment.Center) {
+            Icon(SpeakyIcons.Cards, contentDescription = null, tint = colors.neonCyan, modifier = Modifier.size(40.dp))
         }
+        Text("No groups yet", style = displayStyle(24.sp), color = colors.textPrimary, textAlign = TextAlign.Center)
+        Text(
+            "Create a group to start collecting words by topic, theme, or any category you like.",
+            color = colors.textSecondary,
+            fontSize = 15.sp,
+            lineHeight = 22.sp,
+            textAlign = TextAlign.Center,
+        )
+        Spacer(Modifier.height(4.dp))
+        SpeakyPrimaryButton(
+            text = "Create first group",
+            onClick = onCreateClick,
+            leading = SpeakyIcons.Plus,
+            height = 54.dp,
+            radius = 16.dp,
+        )
     }
 }
 
@@ -305,6 +247,7 @@ private fun CreateGroupDialog(
     AlertDialog(
         onDismissRequest = onDismiss,
         containerColor = colors.surface,
+        shape = RoundedCornerShape(28.dp),
         title = {
             Text(
                 "New Group",
@@ -324,7 +267,7 @@ private fun CreateGroupDialog(
                         .fillMaxWidth()
                         .clip(RoundedCornerShape(12.sdp))
                         .background(colors.surfaceVariant.copy(alpha = 0.8f))
-                        .border(1.5.sdp, colors.magenta.copy(alpha = 0.4f), RoundedCornerShape(12.sdp))
+                        .border(1.5.sdp, colors.neonCyan.copy(alpha = 0.4f), RoundedCornerShape(12.sdp))
                         .padding(horizontal = 14.sdp, vertical = 12.sdp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
@@ -342,7 +285,7 @@ private fun CreateGroupDialog(
                             textStyle = MaterialTheme.typography.bodyMedium.copy(color = colors.textPrimary),
                             singleLine = true,
                             keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
-                            cursorBrush = SolidColor(colors.magenta),
+                            cursorBrush = SolidColor(colors.neonCyan),
                         )
                     }
                 }
@@ -353,7 +296,7 @@ private fun CreateGroupDialog(
                 onClick = { onCreate(name) },
                 enabled = name.isNotBlank(),
             ) {
-                Text("Create", color = if (name.isNotBlank()) colors.magenta else colors.textMuted, fontWeight = FontWeight.Bold)
+                Text("Create", color = if (name.isNotBlank()) colors.neonCyan else colors.textMuted, fontWeight = FontWeight.Bold)
             }
         },
         dismissButton = {

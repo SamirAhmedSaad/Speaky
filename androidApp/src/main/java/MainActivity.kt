@@ -1,5 +1,8 @@
 package com.speakmind.app
 
+import androidx.compose.ui.graphics.luminance
+import com.speakmind.app.feature.community.ui.components.openPrivateChat
+import com.speakmind.app.navigation.AdminReportsDestination
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -21,6 +24,7 @@ import androidx.lifecycle.lifecycleScope
 import com.speakmind.app.ads.AdConfig
 import com.speakmind.app.ads.AdManager
 import com.speakmind.app.premium.BillingManager
+import com.speakmind.app.config.ServerSettings
 import com.speakmind.app.premium.Premium
 import com.speakmind.app.db.SpeakyDatabase
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
@@ -89,17 +93,46 @@ class MainActivity : ComponentActivity() {
         AdManager.init(this)
         BillingManager.init(this)
         // Server-granted ad-free (admins): last known answer first, refreshed in onStart.
-        Premium.setServerAdFree(getSharedPreferences("premium", MODE_PRIVATE).getBoolean("server_ad_free", false))
+        getSharedPreferences("premium", MODE_PRIVATE).let { prefs ->
+            Premium.setServerAdFree(prefs.getBoolean("server_ad_free", false))
+            Premium.setAdsOff(prefs.getBoolean("ads_off", false))
+        }
+
+        // Device tests: adb shell am start -n <pkg>/.MainActivity --ez simulate_purchase true (debuggable builds only).
+        if (intent?.getBooleanExtra("simulate_purchase", false) == true) Premium.simulatePurchaseForTesting()
+        // Device tests: --ez seed_fun_avatars true uploads the fun avatar images once (debuggable builds only).
+        if (intent?.getBooleanExtra("seed_fun_avatars", false) == true && com.speakmind.app.platform.isDebugMode) {
+            lifecycleScope.launch {
+                val repo = getKoin().get<CommunityRepository>()
+                repo.hasSession()
+                val FunAvatars = com.speakmind.app.feature.community.ui.components.FunAvatars
+                FunAvatars.keys.forEach { key ->
+                    runCatching { repo.uploadPublicImage("${FunAvatars.STORAGE_FOLDER}/$key.png", FunAvatars.bytesOf(key)) }
+                        .onFailure { android.util.Log.w("SeedFunAvatars", "$key failed", it) }
+                        .onSuccess { android.util.Log.i("SeedFunAvatars", "$key uploaded") }
+                }
+            }
+        }
 
         setContent {
             val themeManager = getKoin().get<ThemeManager>()
-            val darkModeOverride by themeManager.darkModeOverride.collectAsState()
+            val theme by themeManager.theme.collectAsState()
+            val premium by Premium.active.collectAsState()
             val systemDark = isSystemInDarkTheme()
-            val isDark = darkModeOverride ?: systemDark
+            // Status bar icons follow the theme in use (Gold Luxe is dark; a lapsed gold pick falls back to light).
+            val isDark = when (theme) {
+                com.speakmind.app.ui.theme.AppTheme.System -> systemDark
+                com.speakmind.app.ui.theme.AppTheme.Dark -> true
+                com.speakmind.app.ui.theme.AppTheme.GoldLuxe -> premium
+                else -> false
+            }
+            // A coloured header (the Hub) gets light icons when its colour is dark.
+            val tint = com.speakmind.app.ui.components.StatusBarTint.color.value
+            val darkStatusBar = tint?.let { it.luminance() < 0.5f } ?: isDark
 
             SideEffect {
                 enableEdgeToEdge(
-                    statusBarStyle = if (isDark)
+                    statusBarStyle = if (darkStatusBar)
                         SystemBarStyle.dark(Color.TRANSPARENT)
                     else
                         SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT),
@@ -121,6 +154,8 @@ class MainActivity : ComponentActivity() {
             // Opening Speaky Hub clears its (growing) notification.
             ActiveRoomTracker.activeRoomId.collect { roomId ->
                 if (roomId == SPEAKY_HUB_ROOM_ID) ChatMessagingService.clearHubNotification(this@MainActivity)
+                // Opening a private chat (from the list or anywhere) clears its notification too.
+                else if (roomId != null) ChatMessagingService.clearChatNotification(this@MainActivity, roomId)
             }
         }
     }
@@ -141,7 +176,10 @@ class MainActivity : ComponentActivity() {
             }
             // Ad-free is decided on the server only; keep the last answer when offline.
             repo.isAdFree()?.let { adFree ->
-                getSharedPreferences("premium", MODE_PRIVATE).edit().putBoolean("server_ad_free", adFree).apply()
+                getSharedPreferences("premium", MODE_PRIVATE).edit()
+                    .putBoolean("server_ad_free", adFree)
+                    .putBoolean("ads_off", ServerSettings.adsOff)
+                    .apply()
                 Premium.setServerAdFree(adFree)
             }
         }
@@ -164,13 +202,29 @@ class MainActivity : ComponentActivity() {
 
     /** Opens the chat a community notification was about. */
     private fun handleChatIntent(intent: Intent?) {
+        if (intent?.getBooleanExtra(ChatMessagingService.EXTRA_OPEN_REPORTS, false) == true) {
+            intent.removeExtra(ChatMessagingService.EXTRA_OPEN_REPORTS)
+            if (!isFreshNotificationTap(intent)) return
+            lifecycleScope.launch { getKoin().get<NavigationManager>().navigateWhenReady(AdminReportsDestination) }
+            return
+        }
         val roomId = intent?.getStringExtra(ChatMessagingService.EXTRA_ROOM_ID) ?: return
         val title = intent.getStringExtra(ChatMessagingService.EXTRA_ROOM_TITLE).orEmpty()
+        val callId = intent.getStringExtra(ChatMessagingService.EXTRA_CALL_ID)
         intent.removeExtra(ChatMessagingService.EXTRA_ROOM_ID)
+        intent.removeExtra(ChatMessagingService.EXTRA_CALL_ID)
         if (!isFreshNotificationTap(intent)) return
-        lifecycleScope.launch {
-            getKoin().get<NavigationManager>().navigateWhenReady(RoomDestination(roomId, title))
+        // Voice call invitation: open the Hub; if the call already closed, say so there.
+        if (callId != null) getKoin().get<com.speakmind.app.feature.community.call.HubCallManager>().openedFromInvite(callId)
+        val open = {
+            lifecycleScope.launch {
+                getKoin().get<NavigationManager>().navigateWhenReady(RoomDestination(roomId, title))
+            }
+            Unit
         }
+        // Private chats: Premium, or free private messages left today (same rule as opening them in the app).
+        if (roomId == SPEAKY_HUB_ROOM_ID) open()
+        else lifecycleScope.launch { getKoin().get<CommunityRepository>().openPrivateChat("Private messages", open) }
     }
 
     /**

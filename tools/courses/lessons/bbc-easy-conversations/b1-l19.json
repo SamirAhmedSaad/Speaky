@@ -1,0 +1,554 @@
+{
+ "title": "Clothes shopping",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "clothes shopping",
+    "pos": "noun",
+    "meaning_en": "buying clothes",
+    "meaning_ar": "شراء الملابس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm doing some clothes shopping."
+   },
+   {
+    "word": "hat",
+    "pos": "noun",
+    "meaning_en": "a thing you wear on your head",
+    "meaning_ar": "قبعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "How does this hat look?"
+   },
+   {
+    "word": "t-shirt",
+    "pos": "noun",
+    "meaning_en": "a simple top with short sleeves",
+    "meaning_ar": "قميص قطني (تي شيرت)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I need a t-shirt."
+   },
+   {
+    "word": "dress",
+    "pos": "noun",
+    "meaning_en": "one piece of clothing for women and girls that covers the body and legs",
+    "meaning_ar": "فستان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "How does this dress look?"
+   },
+   {
+    "word": "shoes",
+    "pos": "noun",
+    "meaning_en": "things you wear on your feet",
+    "meaning_ar": "حذاء",
+    "note_ar": "تأتي غالبًا بالجمع: a pair of shoes.",
+    "note_en": "Usually plural: a pair of shoes.",
+    "example": "I need some shoes."
+   },
+   {
+    "word": "coat",
+    "pos": "noun",
+    "meaning_en": "a warm piece of clothing you wear outside",
+    "meaning_ar": "معطف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I need a coat."
+   },
+   {
+    "word": "gloves",
+    "pos": "noun",
+    "meaning_en": "things you wear on your hands",
+    "meaning_ar": "قفازات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "How do these gloves look?"
+   },
+   {
+    "word": "trousers",
+    "pos": "noun",
+    "meaning_en": "clothing for your legs, with two parts",
+    "meaning_ar": "بنطال / سروال",
+    "note_ar": "دائمًا بالجمع. وفي أمريكا: pants.",
+    "note_en": "Always plural. US: pants.",
+    "example": "I need some trousers."
+   },
+   {
+    "word": "socks",
+    "pos": "noun",
+    "meaning_en": "soft things you wear on your feet inside shoes",
+    "meaning_ar": "جوارب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I need some socks."
+   },
+   {
+    "word": "size",
+    "pos": "noun",
+    "meaning_en": "how big or small something is",
+    "meaning_ar": "مقاس / حجم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have this in a smaller size?"
+   },
+   {
+    "word": "smaller",
+    "pos": "adjective",
+    "meaning_en": "less big",
+    "meaning_ar": "أصغر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have it in a smaller size?"
+   },
+   {
+    "word": "larger",
+    "pos": "adjective",
+    "meaning_en": "bigger",
+    "meaning_ar": "أكبر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have these in a larger size?"
+   },
+   {
+    "word": "a bit big",
+    "pos": "phrase",
+    "meaning_en": "a little too big",
+    "meaning_ar": "كبير قليلًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's a bit big."
+   },
+   {
+    "word": "a bit small",
+    "pos": "phrase",
+    "meaning_en": "a little too small",
+    "meaning_ar": "صغير قليلًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They look a bit small."
+   },
+   {
+    "word": "perfect",
+    "pos": "adjective",
+    "meaning_en": "exactly right",
+    "meaning_ar": "مثالي / ممتاز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That's perfect. Thanks."
+   },
+   {
+    "word": "much better",
+    "pos": "phrase",
+    "meaning_en": "a lot better",
+    "meaning_ar": "أفضل بكثير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That's much better."
+   },
+   {
+    "word": "need",
+    "pos": "verb",
+    "meaning_en": "must have",
+    "meaning_ar": "يحتاج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What else do you need?"
+   },
+   {
+    "word": "want",
+    "pos": "verb",
+    "meaning_en": "would like to have",
+    "meaning_ar": "يريد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I want a hat and a t-shirt."
+   },
+   {
+    "word": "both",
+    "pos": "pronoun",
+    "meaning_en": "the two things together",
+    "meaning_ar": "كلاهما / الاثنان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll take them both."
+   },
+   {
+    "word": "blue",
+    "pos": "adjective",
+    "meaning_en": "the colour of the sky",
+    "meaning_ar": "أزرق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have this in blue?"
+   },
+   {
+    "word": "red",
+    "pos": "adjective",
+    "meaning_en": "the colour of strawberries",
+    "meaning_ar": "أحمر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do they have it in red?"
+   },
+   {
+    "word": "black",
+    "pos": "adjective",
+    "meaning_en": "the darkest colour",
+    "meaning_ar": "أسود",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have these in black?"
+   },
+   {
+    "word": "purple",
+    "pos": "adjective",
+    "meaning_en": "a mix of red and blue",
+    "meaning_ar": "بنفسجي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have these in purple?"
+   },
+   {
+    "word": "green",
+    "pos": "adjective",
+    "meaning_en": "the colour of grass",
+    "meaning_ar": "أخضر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have this in green?"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "this / it vs these / them",
+    "words": [
+     "this / it",
+     "these / them"
+    ],
+    "explanation_ar": "للشيء المفرد (hat, dress, coat) نستخدم this و it. للأشياء التي تأتي بالجمع (shoes, gloves, trousers, socks) نستخدم these و them.",
+    "explanation_en": "For one thing (a hat, a dress) use this and it. For plural things (shoes, gloves, trousers, socks) use these and them.",
+    "examples": [
+     {
+      "word": "this / it",
+      "sentence": "Do you have this in red? I'll take it."
+     },
+     {
+      "word": "these / them",
+      "sentence": "Do you have these in black? I'll take them."
+     }
+    ]
+   },
+   {
+    "title": "How does ... look? vs How do ... look?",
+    "words": [
+     "How does this ... look?",
+     "How do these ... look?"
+    ],
+    "explanation_ar": "مع المفرد: How does this hat look? ومع الجمع: How do these shoes look? وبشكل أقصر: How's this? / How are these?",
+    "explanation_en": "Singular: How does this hat look? Plural: How do these shoes look? Short forms: How's this? / How are these?",
+    "examples": [
+     {
+      "word": "How does this ... look?",
+      "sentence": "How does this dress look?"
+     },
+     {
+      "word": "How do these ... look?",
+      "sentence": "How do these trousers look?"
+     }
+    ]
+   },
+   {
+    "title": "smaller size vs larger size",
+    "words": [
+     "a smaller size",
+     "a larger size"
+    ],
+    "explanation_ar": "إذا كان الشيء كبيرًا نطلب a smaller size، وإذا كان صغيرًا نطلب a larger size.",
+    "explanation_en": "If it's too big, ask for a smaller size. If it's too small, ask for a larger size.",
+    "examples": [
+     {
+      "word": "a smaller size",
+      "sentence": "It's a bit big. Do you have it in a smaller size?"
+     },
+     {
+      "word": "a larger size",
+      "sentence": "They're a bit small. Do you have them in a larger size?"
+     }
+    ]
+   },
+   {
+    "title": "Do they have ...? vs Have they got ...?",
+    "words": [
+     "Do they have ...?",
+     "Have they got ...?"
+    ],
+    "explanation_ar": "الصيغتان بنفس المعنى. Have they got شائعة في الإنجليزية البريطانية.",
+    "explanation_en": "Both mean the same. \"Have they got\" is common in British English.",
+    "examples": [
+     {
+      "word": "Do they have ...?",
+      "sentence": "Do they have it in blue?"
+     },
+     {
+      "word": "Have they got ...?",
+      "sentence": "Have they got them in black?"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "I'm doing some clothes shopping.",
+    "meaning_ar": "أنا أتسوق لشراء بعض الملابس.",
+    "meaning_en": "saying you are buying clothes now",
+    "example": "What are you doing? I'm doing some clothes shopping."
+   },
+   {
+    "phrase": "What clothes do you want to buy?",
+    "meaning_ar": "ما الملابس التي تريد شراءها؟",
+    "meaning_en": "asking what someone wants to buy",
+    "example": "What clothes do you want to buy? A hat and a t-shirt."
+   },
+   {
+    "phrase": "How does this hat look?",
+    "meaning_ar": "كيف تبدو هذه القبعة؟",
+    "meaning_en": "asking for an opinion about one item",
+    "example": "How does this hat look? It's a bit big."
+   },
+   {
+    "phrase": "How do these shoes look?",
+    "meaning_ar": "كيف يبدو هذا الحذاء؟",
+    "meaning_en": "asking for an opinion about a plural item",
+    "example": "How do these shoes look? They look a bit big."
+   },
+   {
+    "phrase": "It's a bit big.",
+    "meaning_ar": "إنها كبيرة قليلًا.",
+    "meaning_en": "saying it doesn't fit well",
+    "example": "Hmm. It's a bit big."
+   },
+   {
+    "phrase": "Excuse me.",
+    "meaning_ar": "عفوًا / لو سمحت.",
+    "meaning_en": "getting a shop assistant's attention politely",
+    "example": "Excuse me. Do you have this in a smaller size?"
+   },
+   {
+    "phrase": "Do you have this in a smaller size?",
+    "meaning_ar": "هل لديكم هذا بمقاس أصغر؟",
+    "meaning_en": "asking for another size",
+    "example": "Excuse me. Do you have this in a smaller size?"
+   },
+   {
+    "phrase": "Do you have these in black?",
+    "meaning_ar": "هل لديكم هذه باللون الأسود؟",
+    "meaning_en": "asking for another colour",
+    "example": "Do you have these in black? Yes, we do."
+   },
+   {
+    "phrase": "Yes, we do.",
+    "meaning_ar": "نعم، لدينا.",
+    "meaning_en": "a shop assistant's short answer",
+    "example": "Do you have this in red? Yes, we do."
+   },
+   {
+    "phrase": "How's this? / How are these?",
+    "meaning_ar": "ما رأيك بهذا؟ / ما رأيك بهذه؟",
+    "meaning_en": "asking for an opinion (short form)",
+    "example": "How's this? That's much better."
+   },
+   {
+    "phrase": "That's perfect.",
+    "meaning_ar": "هذا مثالي.",
+    "meaning_en": "saying it is exactly right",
+    "example": "How's this? That's perfect. Thanks."
+   },
+   {
+    "phrase": "That's much better.",
+    "meaning_ar": "هذا أفضل بكثير.",
+    "meaning_en": "saying the new one is a lot better",
+    "example": "How are these? They're much better."
+   },
+   {
+    "phrase": "I'll take it. / I'll take them.",
+    "meaning_ar": "سآخذه. / سآخذها.",
+    "meaning_en": "saying you will buy it",
+    "example": "This is perfect. I'll take it."
+   },
+   {
+    "phrase": "I'll take them both.",
+    "meaning_ar": "سآخذ الاثنين.",
+    "meaning_en": "saying you will buy two things",
+    "example": "That's much better. I'll take them both."
+   },
+   {
+    "phrase": "What else do you need?",
+    "meaning_ar": "ماذا تحتاج أيضًا؟",
+    "meaning_en": "asking for the next item",
+    "example": "What else do you need? I need a coat."
+   },
+   {
+    "phrase": "I'll ask.",
+    "meaning_ar": "سأسأل.",
+    "meaning_en": "offering to ask someone",
+    "example": "Do they have a smaller size? I'll ask."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Singular and plural clothes",
+    "explanation_ar": "بعض الملابس مفردة: a hat, a dress, a coat, a t-shirt. وبعضها دائمًا بالجمع: shoes, gloves, trousers, socks. مع الجمع نستخدم these / them / are / they look.",
+    "explanation_en": "Some clothes are singular (a hat, a coat). Some are always plural (trousers, shoes, socks, gloves): use these, them, are, they.",
+    "examples": [
+     "How does this coat look? It's perfect. I'll take it.",
+     "How do these trousers look? They look a bit small.",
+     "How are these? They're much better. I'll take them."
+    ]
+   },
+   {
+    "title": "Do you have this in + size / colour?",
+    "explanation_ar": "لطلب مقاس أو لون آخر: Do you have this/these in + a smaller size / a larger size / blue? والجواب: Yes, we do.",
+    "explanation_en": "Ask for another size or colour: Do you have this/these in + size/colour? Answer: Yes, we do.",
+    "examples": [
+     "Do you have this in a smaller size?",
+     "Do you have these in a larger size?",
+     "Do you have this in green?",
+     "Do you have these in purple?"
+    ]
+   },
+   {
+    "title": "I'll for decisions",
+    "explanation_ar": "نستخدم I'll (= I will) عندما نقرر شيئًا في لحظة الكلام: I'll take it. I'll ask.",
+    "explanation_en": "Use I'll (I will) for a decision you make now.",
+    "examples": [
+     "I'll take it.",
+     "I'll take them both.",
+     "I'll ask."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Complete: \"How ___ these shoes look?\"",
+   "choices": [
+    "does",
+    "is",
+    "do",
+    "are"
+   ],
+   "answer": 2,
+   "explanation_ar": "shoes جمع، فنستخدم do.",
+   "explanation_en": "Shoes is plural: How do these shoes look?"
+  },
+  {
+   "question": "The hat is too big. You ask: \"Do you have this in a ___ size?\"",
+   "choices": [
+    "larger",
+    "smaller",
+    "bigger",
+    "longer"
+   ],
+   "answer": 1,
+   "explanation_ar": "الكبير نطلب له مقاسًا أصغر.",
+   "explanation_en": "Too big → a smaller size."
+  },
+  {
+   "question": "Which item is always plural?",
+   "choices": [
+    "trousers",
+    "coat",
+    "dress",
+    "hat"
+   ],
+   "answer": 0,
+   "explanation_ar": "trousers دائمًا بالجمع.",
+   "explanation_en": "Trousers is always plural."
+  },
+  {
+   "question": "Complete: \"These gloves are perfect. I'll take ___.\"",
+   "choices": [
+    "it",
+    "this",
+    "its",
+    "them"
+   ],
+   "answer": 3,
+   "explanation_ar": "gloves جمع: them.",
+   "explanation_en": "Gloves is plural: them."
+  },
+  {
+   "question": "\"That's much better\" means ...",
+   "choices": [
+    "It is a lot better.",
+    "It is a little worse.",
+    "It is the same.",
+    "It is too big."
+   ],
+   "answer": 0,
+   "explanation_ar": "much better = أفضل بكثير.",
+   "explanation_en": "Much better = a lot better."
+  },
+  {
+   "question": "\"Do you have this in red?\" The shop assistant says yes. What is the short answer?",
+   "choices": [
+    "Yes, we have.",
+    "Yes, we do.",
+    "Yes, we are.",
+    "Yes, we does."
+   ],
+   "answer": 1,
+   "explanation_ar": "الجواب القصير: Yes, we do.",
+   "explanation_en": "Short answer: Yes, we do."
+  },
+  {
+   "question": "Choose the correct question.",
+   "choices": [
+    "Do you have this in blue?",
+    "Do you have this on blue?",
+    "Do you have blue in this?",
+    "Have you this blue in?"
+   ],
+   "answer": 0,
+   "explanation_ar": "نقول in + اللون.",
+   "explanation_en": "Use in + colour."
+  },
+  {
+   "question": "You want to buy the hat and the t-shirt. You say ...",
+   "choices": [
+    "I'll take it both.",
+    "I take them both.",
+    "I'll take them both.",
+    "I'll take both them it."
+   ],
+   "answer": 2,
+   "explanation_ar": "I'll take them both = سآخذ الاثنين.",
+   "explanation_en": "\"I'll take them both.\""
+  },
+  {
+   "question": "Complete: \"How does this dress look?\" \"It ___ a bit big.\"",
+   "choices": [
+    "look",
+    "looks",
+    "are",
+    "do"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع it: looks.",
+   "explanation_en": "With it: looks."
+  },
+  {
+   "question": "Which is the polite way to get a shop assistant's attention?",
+   "choices": [
+    "Hey you!",
+    "Give me!",
+    "Excuse me.",
+    "Come here."
+   ],
+   "answer": 2,
+   "explanation_ar": "Excuse me طريقة مهذبة.",
+   "explanation_en": "\"Excuse me\" is polite."
+  }
+ ]
+}

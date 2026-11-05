@@ -1,0 +1,383 @@
+{
+  "title": "Easy Small Talk: How about you?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "traveling",
+        "pos": "noun",
+        "meaning_en": "going to other places or countries",
+        "meaning_ar": "السفر",
+        "note_ar": "في بريطانيا: travelling",
+        "note_en": "UK: travelling.",
+        "example": "I love traveling."
+      },
+      {
+        "word": "Italy",
+        "pos": "noun",
+        "meaning_en": "a country in southern Europe",
+        "meaning_ar": "إيطاليا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Rome is in Italy."
+      },
+      {
+        "word": "Canada",
+        "pos": "noun",
+        "meaning_en": "a big country in North America",
+        "meaning_ar": "كندا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My cousin lives in Canada."
+      },
+      {
+        "word": "cousin",
+        "pos": "noun",
+        "meaning_en": "the child of your uncle or aunt",
+        "meaning_ar": "ابن/ابنة العم أو الخال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My cousin is my age."
+      },
+      {
+        "word": "video call",
+        "pos": "noun",
+        "meaning_en": "a phone or computer call where you can see the person",
+        "meaning_ar": "مكالمة فيديو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I talk to my aunt on video calls."
+      },
+      {
+        "word": "holiday",
+        "pos": "noun",
+        "meaning_en": "a special day or a time when you don't work",
+        "meaning_ar": "عطلة / عيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We meet on holidays."
+      },
+      {
+        "word": "curry",
+        "pos": "noun",
+        "meaning_en": "a spicy dish with sauce, often with rice",
+        "meaning_ar": "كاري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My mother makes chicken curry."
+      },
+      {
+        "word": "delicious",
+        "pos": "adjective",
+        "meaning_en": "tasting very good",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The curry is delicious."
+      },
+      {
+        "word": "toast",
+        "pos": "noun",
+        "meaning_en": "bread made brown and hot",
+        "meaning_ar": "خبز محمّص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I had toast for breakfast."
+      },
+      {
+        "word": "study",
+        "pos": "verb",
+        "meaning_en": "learn about a subject",
+        "meaning_ar": "يدرس / يذاكر",
+        "note_ar": "مع he/she: studies",
+        "note_en": "With he/she: studies.",
+        "example": "I study English every day."
+      },
+      {
+        "word": "almost",
+        "pos": "adverb",
+        "meaning_en": "nearly; not completely",
+        "meaning_ar": "تقريبًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I study almost every day."
+      },
+      {
+        "word": "rest",
+        "pos": "noun",
+        "meaning_en": "time to relax and not work",
+        "meaning_ar": "راحة",
+        "note_ar": "take a rest = يأخذ قسطًا من الراحة",
+        "note_en": "take a rest",
+        "example": "I take a rest on Friday."
+      },
+      {
+        "word": "go shopping",
+        "pos": "phrase",
+        "meaning_en": "go to shops to buy things",
+        "meaning_ar": "يتسوّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "On Saturday, I go shopping."
+      },
+      {
+        "word": "park",
+        "pos": "noun",
+        "meaning_en": "a public garden",
+        "meaning_ar": "حديقة عامة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like going to the park."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "How about you? vs What about you?",
+        "words": [
+          "How about you?",
+          "What about you?"
+        ],
+        "explanation_ar": "العبارتان بنفس المعنى تقريبًا: نرد السؤال على الشخص الآخر (وماذا عنك؟).",
+        "explanation_en": "Both mean the same: we ask the other person the same question.",
+        "examples": [
+          {
+            "word": "How about you?",
+            "sentence": "I like tea. How about you?"
+          },
+          {
+            "word": "What about you?",
+            "sentence": "I want to visit Canada. What about you?"
+          }
+        ]
+      },
+      {
+        "title": "often vs not really",
+        "words": [
+          "often",
+          "not really"
+        ],
+        "explanation_ar": "often تعني كثيرًا. Not really جواب لطيف يعني \"ليس كثيرًا\" أو \"لا\".",
+        "explanation_en": "\"Often\" = many times. \"Not really\" is a soft way to say no.",
+        "examples": [
+          {
+            "word": "often",
+            "sentence": "Do you see your cousin often?"
+          },
+          {
+            "word": "not really",
+            "sentence": "Not really, only on video calls."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Do you like traveling?",
+        "meaning_ar": "هل تحب السفر؟",
+        "meaning_en": "Ask about likes.",
+        "example": "Do you like traveling? Yes, I love it."
+      },
+      {
+        "phrase": "Me too.",
+        "meaning_ar": "وأنا أيضًا.",
+        "meaning_en": "Say you agree or feel the same.",
+        "example": "I love tea. Me too."
+      },
+      {
+        "phrase": "I want to go to Italy one day.",
+        "meaning_ar": "أريد أن أذهب إلى إيطاليا يومًا ما.",
+        "meaning_en": "Talk about a dream.",
+        "example": "I want to visit Mecca one day."
+      },
+      {
+        "phrase": "How about you?",
+        "meaning_ar": "وماذا عنك؟",
+        "meaning_en": "Return the question.",
+        "example": "I'm a teacher. How about you?"
+      },
+      {
+        "phrase": "Not really.",
+        "meaning_ar": "ليس كثيرًا / لا، في الحقيقة.",
+        "meaning_en": "A soft \"no\".",
+        "example": "Do you like coffee? Not really."
+      },
+      {
+        "phrase": "Good food always makes me happy.",
+        "meaning_ar": "الطعام الجيد يُسعدني دائمًا.",
+        "meaning_en": "Say what makes you happy.",
+        "example": "A walk in the park always makes me happy."
+      },
+      {
+        "phrase": "How was your morning?",
+        "meaning_ar": "كيف كان صباحك؟",
+        "meaning_en": "Ask about someone's morning.",
+        "example": "How was your morning? Good, thanks!"
+      },
+      {
+        "phrase": "Almost every day.",
+        "meaning_ar": "تقريبًا كل يوم.",
+        "meaning_en": "Say how often.",
+        "example": "Do you study every day? Almost every day."
+      },
+      {
+        "phrase": "Both sound fun!",
+        "meaning_ar": "كلاهما يبدو ممتعًا!",
+        "meaning_en": "Say two ideas are good.",
+        "example": "Park or shopping? Both sound fun!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Do you like...? — Yes, I do. / Not really.",
+        "explanation_ar": "نسأل عن الذوق بـ Do you like + اسم أو فعل بـ ing؟ والجواب: Yes, I do. / No, I don't. / Not really.",
+        "explanation_en": "Ask: Do you like + noun / verb-ing? Answer: Yes, I do / Not really.",
+        "examples": [
+          "Do you like traveling? Yes, I love it.",
+          "Do you like eggs? Yes, I do!",
+          "Do you like coffee? Not really. I like tea."
+        ]
+      },
+      {
+        "title": "Past simple: How was...? / I had... / I ate...",
+        "explanation_ar": "للحديث عن الصباح الذي مضى: How was your morning? I had coffee. I ate rice and eggs. (have → had، eat → ate)",
+        "explanation_en": "Talk about the past: How was...? I had... I ate... (had, ate are irregular).",
+        "examples": [
+          "How was your morning?",
+          "I had coffee and toast.",
+          "I ate rice and eggs."
+        ]
+      },
+      {
+        "title": "want to + verb",
+        "explanation_ar": "want to + الفعل لنعبّر عن رغبة: I want to go to Italy. I want to visit Canada.",
+        "explanation_en": "want to + base verb for wishes.",
+        "examples": [
+          "I want to go to Italy one day.",
+          "I want to visit Canada.",
+          "I want to learn English."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Do you like traveling? — Yes, I ___.",
+      "choices": [
+        "does",
+        "am",
+        "like",
+        "do"
+      ],
+      "answer": 3,
+      "explanation_ar": "الجواب القصير: Yes, I do.",
+      "explanation_en": "Short answer: Yes, I do."
+    },
+    {
+      "question": "I want ___ Canada.",
+      "choices": [
+        "visit",
+        "visiting",
+        "to visit",
+        "visits"
+      ],
+      "answer": 2,
+      "explanation_ar": "want to + الفعل.",
+      "explanation_en": "want to + verb."
+    },
+    {
+      "question": "I like tea. — ___ (I like tea, too.)",
+      "choices": [
+        "Not really.",
+        "Me too.",
+        "How was your morning?",
+        "One day."
+      ],
+      "answer": 1,
+      "explanation_ar": "Me too تعني وأنا كذلك.",
+      "explanation_en": "\"Me too\" = I do too."
+    },
+    {
+      "question": "Do you like coffee? — ___ I like tea.",
+      "choices": [
+        "Not really.",
+        "Me too.",
+        "Yes, I do.",
+        "Always!"
+      ],
+      "answer": 0,
+      "explanation_ar": "Not really = لا ليس كثيرًا، لذلك يقول إنه يحب الشاي.",
+      "explanation_en": "\"Not really\" = no; so they prefer tea."
+    },
+    {
+      "question": "How was your morning? — Good! I ___ coffee and toast.",
+      "choices": [
+        "have",
+        "had",
+        "has",
+        "having"
+      ],
+      "answer": 1,
+      "explanation_ar": "الماضي من have هو had.",
+      "explanation_en": "Past of have: had."
+    },
+    {
+      "question": "I ___ rice and eggs this morning.",
+      "choices": [
+        "eat",
+        "eated",
+        "eating",
+        "ate"
+      ],
+      "answer": 3,
+      "explanation_ar": "ماضي eat هو ate.",
+      "explanation_en": "Past of eat: ate."
+    },
+    {
+      "question": "Do you study every day? — ___ every day.",
+      "choices": [
+        "Much",
+        "Most",
+        "Many",
+        "Almost"
+      ],
+      "answer": 3,
+      "explanation_ar": "almost every day = تقريبًا كل يوم.",
+      "explanation_en": "\"Almost every day\" = nearly every day."
+    },
+    {
+      "question": "A call where you can see the person is a ___.",
+      "choices": [
+        "video call",
+        "holiday",
+        "toast",
+        "curry"
+      ],
+      "answer": 0,
+      "explanation_ar": "video call مكالمة فيديو.",
+      "explanation_en": "That's a video call."
+    },
+    {
+      "question": "I take a rest ___ Sunday.",
+      "choices": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع الأيام نستخدم on.",
+      "explanation_en": "Use \"on\" with days."
+    },
+    {
+      "question": "My cousin lives in Canada. Your cousin is...",
+      "choices": [
+        "your sister",
+        "the child of your uncle or aunt",
+        "your father",
+        "your teacher"
+      ],
+      "answer": 1,
+      "explanation_ar": "cousin ابن العم أو الخال.",
+      "explanation_en": "A cousin is the child of your uncle or aunt."
+    }
+  ]
+}

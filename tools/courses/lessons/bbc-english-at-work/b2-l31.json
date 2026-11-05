@@ -1,0 +1,420 @@
+{
+  "title": "Getting Down to Business",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "get down to business",
+        "pos": "idiom",
+        "meaning_en": "to start working seriously on something",
+        "meaning_ar": "يبدأ العمل بجدية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "OK, everyone, let's get down to business."
+      },
+      {
+        "word": "advertise",
+        "pos": "verb",
+        "meaning_en": "to tell people about a job, product or event, e.g. online or in a newspaper",
+        "meaning_ar": "يُعلن (عن وظيفة أو منتج)",
+        "note_ar": "الاسم advertisement، ويُختصر advert (بريطاني) أو ad.",
+        "note_en": "Noun: advertisement (UK short: advert; also ad).",
+        "example": "We'll advertise the job online."
+      },
+      {
+        "word": "replacement",
+        "pos": "noun",
+        "meaning_en": "a person or thing that takes the place of another",
+        "meaning_ar": "بديل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need a replacement for Tom."
+      },
+      {
+        "word": "make changes",
+        "pos": "phrase",
+        "meaning_en": "to change things",
+        "meaning_ar": "يُجري تغييرات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new manager wants to make some changes in the office."
+      },
+      {
+        "word": "turn the business round",
+        "pos": "phrase",
+        "meaning_en": "to make a business successful again after a difficult time",
+        "meaning_ar": "يُنهض بالشركة من جديد؛ يقلب وضعها",
+        "note_ar": "في الأمريكية turn around.",
+        "note_en": "US English: turn around.",
+        "example": "She turned the business round in just two years."
+      },
+      {
+        "word": "keen to",
+        "pos": "phrase",
+        "meaning_en": "wanting very much to do something",
+        "meaning_ar": "حريص على؛ متشوّق إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm keen to hear your ideas."
+      },
+      {
+        "word": "gather round",
+        "pos": "phrasal verb",
+        "meaning_en": "to come together around someone",
+        "meaning_ar": "يتجمّعون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could we all gather round for a quick meeting?"
+      },
+      {
+        "word": "quick meeting",
+        "pos": "noun",
+        "meaning_en": "a short meeting",
+        "meaning_ar": "اجتماع قصير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's have a quick meeting before lunch."
+      },
+      {
+        "word": "valuable",
+        "pos": "adjective",
+        "meaning_en": "very useful or important",
+        "meaning_ar": "قيّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He was a valuable member of the team."
+      },
+      {
+        "word": "deal with",
+        "pos": "phrasal verb",
+        "meaning_en": "to take action to solve a problem",
+        "meaning_ar": "يتعامل مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "As the boss, you must deal with difficult situations."
+      },
+      {
+        "word": "leading",
+        "pos": "adjective",
+        "meaning_en": "most important or most successful",
+        "meaning_ar": "رائد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We want to be the leading company in our field."
+      },
+      {
+        "word": "successful",
+        "pos": "adjective",
+        "meaning_en": "achieving good results",
+        "meaning_ar": "ناجح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our new product was very successful."
+      },
+      {
+        "word": "swallow your pride",
+        "pos": "idiom",
+        "meaning_en": "to admit you were wrong, even if it is difficult",
+        "meaning_ar": "يتنازل عن كبريائه ويعترف بخطئه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He swallowed his pride and said sorry to his colleague."
+      },
+      {
+        "word": "admit",
+        "pos": "verb",
+        "meaning_en": "to agree that something bad is true, e.g. that you were wrong",
+        "meaning_ar": "يعترف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She admitted that she made a mistake."
+      },
+      {
+        "word": "in a huff",
+        "pos": "idiom",
+        "meaning_en": "in an angry, offended mood",
+        "meaning_ar": "غاضبًا ومستاءً",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He left the meeting in a huff."
+      },
+      {
+        "word": "storm out",
+        "pos": "phrasal verb",
+        "meaning_en": "to leave a place quickly and angrily",
+        "meaning_ar": "يخرج غاضبًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He stormed out of the office."
+      },
+      {
+        "word": "switched off",
+        "pos": "adjective",
+        "meaning_en": "(of a phone or machine) not on",
+        "meaning_ar": "مُطفأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "His phone is switched off."
+      },
+      {
+        "word": "head for",
+        "pos": "phrasal verb",
+        "meaning_en": "to go towards a place",
+        "meaning_ar": "يتّجه إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He was heading for the airport."
+      },
+      {
+        "word": "in a rage",
+        "pos": "phrase",
+        "meaning_en": "very angry",
+        "meaning_ar": "في حالة غضب شديد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He left in a rage."
+      },
+      {
+        "word": "work can wait",
+        "pos": "phrase",
+        "meaning_en": "work is not the most important thing right now",
+        "meaning_ar": "العمل يمكن أن ينتظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My family needs me - work can wait."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "advertise vs advertisement vs advert",
+        "words": [
+          "advertise",
+          "advertisement",
+          "advert"
+        ],
+        "explanation_ar": "advertise فعل (يُعلن). advertisement اسم (إعلان). advert اختصار بريطاني لـ advertisement، وفي الأمريكية يقولون ad.",
+        "explanation_en": "Advertise is the verb. Advertisement is the noun. Advert is the short British form; Americans say ad.",
+        "examples": [
+          {
+            "word": "advertise",
+            "sentence": "We'll advertise the job next week."
+          },
+          {
+            "word": "advertisement",
+            "sentence": "I saw an advertisement for a sales job."
+          },
+          {
+            "word": "advert",
+            "sentence": "Did you see our advert in the newspaper?"
+          }
+        ]
+      },
+      {
+        "title": "keen to vs keen on",
+        "words": [
+          "keen to",
+          "keen on"
+        ],
+        "explanation_ar": "keen to + فعل في المصدر: يريد بشدة أن يفعل (I'm keen to hear your ideas). keen on + اسم أو ing: يحب الشيء أو مهتم به (I'm keen on sales).",
+        "explanation_en": "Keen to + base verb = want very much to do something. Keen on + noun/-ing = like or be interested in something.",
+        "examples": [
+          {
+            "word": "keen to",
+            "sentence": "I'm keen to hear your ideas."
+          },
+          {
+            "word": "keen on",
+            "sentence": "She's keen on learning new software."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'll be advertising for a replacement for Tom today.",
+        "meaning_ar": "سأنشر اليوم إعلانًا للبحث عن بديل لتوم.",
+        "meaning_en": "Today I will advertise the job to find someone new.",
+        "example": "I'll be advertising for a replacement for Sara this week."
+      },
+      {
+        "phrase": "I want to make some changes in the office.",
+        "meaning_ar": "أريد أن أُجري بعض التغييرات في المكتب.",
+        "meaning_en": "I plan to change some things at work.",
+        "example": "As the new manager, I want to make some changes in the office."
+      },
+      {
+        "phrase": "I need to turn this business round.",
+        "meaning_ar": "أحتاج إلى النهوض بهذه الشركة من جديد.",
+        "meaning_en": "I must make this business successful again.",
+        "example": "Sales are falling. I need to turn this business round."
+      },
+      {
+        "phrase": "I'm keen to hear your ideas.",
+        "meaning_ar": "أنا متشوّق لسماع أفكاركم.",
+        "meaning_en": "I really want to hear what you think.",
+        "example": "Please speak freely - I'm keen to hear your ideas."
+      },
+      {
+        "phrase": "Could we gather round for a quick meeting, please?",
+        "meaning_ar": "هل يمكننا التجمّع لاجتماع قصير من فضلكم؟",
+        "meaning_en": "A polite way to start a short meeting.",
+        "example": "Excuse me, everyone. Could we gather round for a quick meeting, please?"
+      },
+      {
+        "phrase": "It's time to get down to business.",
+        "meaning_ar": "حان وقت البدء في العمل بجدية.",
+        "meaning_en": "Let's start the real work now.",
+        "example": "Coffee is finished - it's time to get down to business."
+      },
+      {
+        "phrase": "It's time to swallow your pride.",
+        "meaning_ar": "حان الوقت لأن تتنازل عن كبريائك وتعترف بخطئك.",
+        "meaning_en": "Admit you were wrong.",
+        "example": "You made a mistake. It's time to swallow your pride and say sorry."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Future continuous: I'll be + verb-ing",
+        "explanation_ar": "نستخدم will be + الفعل مع ing للحديث عن عمل سيكون جاريًا في وقت ما في المستقبل، أو عن خطة عادية مقررة. وهي تبدو ألطف وأكثر رسمية في إعلانات العمل: I'll be advertising for a replacement today.",
+        "explanation_en": "Use will be + verb-ing for an action that will be in progress in the future, or for a planned, routine future action. It sounds smooth and professional: I'll be advertising for a replacement today.",
+        "examples": [
+          "I'll be advertising the job today.",
+          "We'll be meeting the clients at ten.",
+          "She'll be working from home tomorrow."
+        ]
+      },
+      {
+        "title": "Stating intentions: I want to / I need to / I'm keen to + verb",
+        "explanation_ar": "عندما يعلن المدير خططه يستخدم: I want to (أريد)، I need to (يجب عليّ)، I'm keen to (أنا حريص على) + الفعل في المصدر.",
+        "explanation_en": "A manager states plans with: I want to (wish), I need to (must), I'm keen to (really want) + base verb.",
+        "examples": [
+          "I want to make some changes.",
+          "I need to turn this business round.",
+          "I'm keen to hear your ideas."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'Get down to business' means…",
+      "choices": [
+        "go downstairs",
+        "start working seriously",
+        "close the business",
+        "go on holiday"
+      ],
+      "answer": 1,
+      "explanation_ar": "get down to business تعني البدء بالعمل بجدية.",
+      "explanation_en": "It means start working seriously."
+    },
+    {
+      "question": "I'll be ___ for a replacement for Tom today.",
+      "choices": [
+        "advertise",
+        "advertised",
+        "advertising",
+        "advertisement"
+      ],
+      "answer": 2,
+      "explanation_ar": "المستقبل المستمر: will be + ing.",
+      "explanation_en": "Future continuous: will be + -ing."
+    },
+    {
+      "question": "'Turn this business round' means…",
+      "choices": [
+        "make it successful again",
+        "move the office",
+        "sell the company",
+        "close the doors"
+      ],
+      "answer": 0,
+      "explanation_ar": "turn round هنا تعني النهوض بالشركة من جديد.",
+      "explanation_en": "It means make the business successful again."
+    },
+    {
+      "question": "What phrase means to admit you are wrong?",
+      "choices": [
+        "get down to business",
+        "head for",
+        "storm out",
+        "swallow your pride"
+      ],
+      "answer": 3,
+      "explanation_ar": "swallow your pride أي الاعتراف بالخطأ رغم صعوبته.",
+      "explanation_en": "'Swallow your pride' means admit you were wrong."
+    },
+    {
+      "question": "I'm keen ___ your ideas.",
+      "choices": [
+        "on hear",
+        "to hear",
+        "hearing to",
+        "for hear"
+      ],
+      "answer": 1,
+      "explanation_ar": "keen to + فعل في المصدر.",
+      "explanation_en": "Keen to + base verb."
+    },
+    {
+      "question": "A 'replacement' is…",
+      "choices": [
+        "a person who takes someone else's place",
+        "a new office",
+        "a meeting",
+        "an advert"
+      ],
+      "answer": 0,
+      "explanation_ar": "replacement هو البديل.",
+      "explanation_en": "A replacement takes the place of another person."
+    },
+    {
+      "question": "Tom left the office quickly and angrily. He…",
+      "choices": [
+        "gathered round",
+        "got down to business",
+        "stormed out",
+        "advertised"
+      ],
+      "answer": 2,
+      "explanation_ar": "storm out تعني الخروج بغضب.",
+      "explanation_en": "'Storm out' means leave angrily."
+    },
+    {
+      "question": "Which word is the verb?",
+      "choices": [
+        "advertisement",
+        "advert",
+        "ad",
+        "advertise"
+      ],
+      "answer": 3,
+      "explanation_ar": "advertise هو الفعل.",
+      "explanation_en": "'Advertise' is the verb."
+    },
+    {
+      "question": "Anna's phone call fails because Tom's phone is…",
+      "choices": [
+        "switched off",
+        "in a huff",
+        "leading",
+        "valuable"
+      ],
+      "answer": 0,
+      "explanation_ar": "كان هاتفه مطفأً switched off.",
+      "explanation_en": "His phone is switched off."
+    },
+    {
+      "question": "Which sentence is the best way to invite ideas from your team?",
+      "choices": [
+        "Be quiet.",
+        "I'm keen to hear your ideas.",
+        "I don't need your ideas.",
+        "Work can wait."
+      ],
+      "answer": 1,
+      "explanation_ar": "I'm keen to hear your ideas دعوة لطيفة لمشاركة الأفكار.",
+      "explanation_en": "It shows you want to hear their ideas."
+    }
+  ]
+}

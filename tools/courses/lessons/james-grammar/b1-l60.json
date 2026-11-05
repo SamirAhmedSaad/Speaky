@@ -1,0 +1,390 @@
+{
+  "title": "Lie or Lay? Rise, Raise or Arise?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "arise",
+        "pos": "verb",
+        "meaning_en": "to happen; to come up (problems, questions)",
+        "meaning_ar": "ينشأ / يطرأ",
+        "note_ar": "فعل شاذ: arise – arose – arisen",
+        "note_en": "Irregular: arise – arose – arisen.",
+        "example": "A few problems have arisen since I started the project."
+      },
+      {
+        "word": "come up",
+        "pos": "phrasal verb",
+        "meaning_en": "to happen or appear (often unexpectedly)",
+        "meaning_ar": "يطرأ / يظهر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Something came up, so I can't come tonight."
+      },
+      {
+        "word": "rise",
+        "pos": "verb",
+        "meaning_en": "to go up or get higher by itself; to stand up",
+        "meaning_ar": "يرتفع / ينهض (من تلقاء نفسه)",
+        "note_ar": "فعل شاذ: rise – rose – risen",
+        "note_en": "Irregular: rise – rose – risen.",
+        "example": "The sun rises in the east."
+      },
+      {
+        "word": "raise",
+        "pos": "verb",
+        "meaning_en": "to make something higher; to bring up children",
+        "meaning_ar": "يرفع (شيئًا) / يُربّي (الأطفال)",
+        "note_ar": "فعل منتظم: raise – raised – raised",
+        "note_en": "Regular: raise – raised – raised.",
+        "example": "Raise your hand if you have a question."
+      },
+      {
+        "word": "a raise",
+        "pos": "noun",
+        "meaning_en": "an increase in pay (US); UK: a pay rise",
+        "meaning_ar": "زيادة في الراتب",
+        "note_ar": "بالأمريكية a raise وبالبريطانية a pay rise",
+        "note_en": "US: a raise; UK: a pay rise.",
+        "example": "I got a raise at work."
+      },
+      {
+        "word": "lie (down)",
+        "pos": "verb",
+        "meaning_en": "to put your body in a flat position (no object)",
+        "meaning_ar": "يستلقي",
+        "note_ar": "فعل شاذ: lie – lay – lain، والمستمر lying",
+        "note_en": "Irregular: lie – lay – lain; -ing: lying.",
+        "example": "I'm tired. I'm going to lie down."
+      },
+      {
+        "word": "lay",
+        "pos": "verb",
+        "meaning_en": "to put or place something down (needs an object)",
+        "meaning_ar": "يضع (شيئًا) / يُمدِّد",
+        "note_ar": "lay – laid – laid",
+        "note_en": "lay – laid – laid.",
+        "example": "Please lay the book on the table."
+      },
+      {
+        "word": "lie (not tell the truth)",
+        "pos": "verb / noun",
+        "meaning_en": "to say something that is not true; a false statement",
+        "meaning_ar": "يكذب / كِذبة",
+        "note_ar": "بهذا المعنى فعل منتظم: lie – lied – lied",
+        "note_en": "In this meaning it's regular: lie – lied – lied.",
+        "example": "Don't lie to me. / He told me a lie."
+      },
+      {
+        "word": "recline",
+        "pos": "verb",
+        "meaning_en": "to lean back or lie in a flat position",
+        "meaning_ar": "يتّكئ / يستلقي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She reclined on the sofa."
+      },
+      {
+        "word": "transitive verb",
+        "pos": "noun",
+        "meaning_en": "a verb that needs a direct object (lay something, raise something)",
+        "meaning_ar": "فعل متعدٍّ (يحتاج مفعولًا به)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Lay\" is a transitive verb."
+      },
+      {
+        "word": "intransitive verb",
+        "pos": "noun",
+        "meaning_en": "a verb that does not take a direct object (lie, rise, arise)",
+        "meaning_ar": "فعل لازم (لا يحتاج مفعولًا به)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Rise\" is an intransitive verb."
+      },
+      {
+        "word": "irregular verb",
+        "pos": "noun",
+        "meaning_en": "a verb that doesn't add -ed in the past (rise – rose)",
+        "meaning_ar": "فعل شاذ (غير منتظم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Arise\" is an irregular verb."
+      },
+      {
+        "word": "bring up (children)",
+        "pos": "phrasal verb",
+        "meaning_en": "to raise and care for children until they are adults",
+        "meaning_ar": "يُربّي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My grandparents brought me up."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "rise vs raise",
+        "words": [
+          "rise",
+          "raise"
+        ],
+        "explanation_ar": "rise: الشيء يرتفع بنفسه، فعل لازم بلا مفعول (The sun rises). raise: شخص يرفع شيئًا آخر، فعل متعدٍّ يحتاج مفعولًا (They raised the price).",
+        "explanation_en": "Rise: something goes up by itself; intransitive, no object (The sun rises). Raise: someone makes something else go up; transitive, needs an object (They raised the price).",
+        "examples": [
+          {
+            "word": "rise",
+            "sentence": "Prices rose last year."
+          },
+          {
+            "word": "raise",
+            "sentence": "The shop raised its prices."
+          }
+        ]
+      },
+      {
+        "title": "lie vs lay",
+        "words": [
+          "lie",
+          "lay"
+        ],
+        "explanation_ar": "lie (lay – lain): تستلقي أنت بنفسك، بلا مفعول. lay (laid – laid): تضع شيئًا، يحتاج مفعولًا. انتبه: lay هي أيضًا ماضي lie!",
+        "explanation_en": "Lie (lay – lain): you put yourself flat; no object. Lay (laid – laid): you put something down; needs an object. Careful: lay is also the past of lie!",
+        "examples": [
+          {
+            "word": "lie",
+            "sentence": "I lie on the bed. / Yesterday he lay on the bed for hours."
+          },
+          {
+            "word": "lay",
+            "sentence": "I lay my coat on the bed. / They laid the blanket on the floor."
+          }
+        ]
+      },
+      {
+        "title": "arise vs rise",
+        "words": [
+          "arise",
+          "rise"
+        ],
+        "explanation_ar": "arise = يحدث أو يطرأ (مشكلة، سؤال). rise = يرتفع أو ينهض.",
+        "explanation_en": "Arise = happen, come up (a problem, a question). Rise = go up or stand up.",
+        "examples": [
+          {
+            "word": "arise",
+            "sentence": "Some questions arose in the meeting."
+          },
+          {
+            "word": "rise",
+            "sentence": "Please rise when the judge enters."
+          }
+        ]
+      },
+      {
+        "title": "lie (recline) vs lie (not true)",
+        "words": [
+          "lie down",
+          "tell a lie"
+        ],
+        "explanation_ar": "lie لها معنيان: يستلقي (lay – lain) ويكذب (lied – lied). السياق يوضح المعنى.",
+        "explanation_en": "Lie has two meanings: recline (lay – lain) and say something untrue (lied – lied). Context tells you which.",
+        "examples": [
+          {
+            "word": "lie down",
+            "sentence": "You look tired. Go and lie down."
+          },
+          {
+            "word": "tell a lie",
+            "sentence": "You lied to me. You told me a lie."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Raise your hand.",
+        "meaning_ar": "ارفع يدك.",
+        "meaning_en": "Put your hand up (to ask a question).",
+        "example": "Please raise your hand if you have a question."
+      },
+      {
+        "phrase": "Something came up.",
+        "meaning_ar": "طرأ أمر ما.",
+        "meaning_en": "Something unexpected happened.",
+        "example": "Sorry, something came up and I can't come."
+      },
+      {
+        "phrase": "I'm going to lie down.",
+        "meaning_ar": "سأستلقي قليلًا.",
+        "meaning_en": "I'm going to rest in a flat position.",
+        "example": "I have a headache. I'm going to lie down."
+      },
+      {
+        "phrase": "I got a raise.",
+        "meaning_ar": "حصلتُ على زيادة في الراتب.",
+        "meaning_en": "My pay went up.",
+        "example": "Good news! I got a raise at work."
+      },
+      {
+        "phrase": "That raises a few questions.",
+        "meaning_ar": "هذا يثير بعض التساؤلات.",
+        "meaning_en": "That makes people want to ask questions.",
+        "example": "He said nothing about the money. That raises a few questions."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Transitive vs intransitive",
+        "explanation_ar": "الفعل المتعدّي يحتاج مفعولًا به (raise something, lay something). الفعل اللازم لا يأخذ مفعولًا (rise, lie, arise).",
+        "explanation_en": "A transitive verb needs a direct object (raise something, lay something). An intransitive verb takes no object (rise, lie, arise).",
+        "examples": [
+          "She raised her hand. (object: her hand)",
+          "The sun rose. (no object)",
+          "He laid the pen on the desk. (object: the pen)",
+          "He lay on the bed. (no object)"
+        ]
+      },
+      {
+        "title": "Verb forms to remember",
+        "explanation_ar": "arise – arose – arisen. rise – rose – risen. raise – raised – raised (منتظم). lie (يستلقي) – lay – lain. lay (يضع) – laid – laid. lie (يكذب) – lied – lied.",
+        "explanation_en": "arise – arose – arisen. rise – rose – risen. raise – raised – raised (regular). lie (recline) – lay – lain. lay (put) – laid – laid. lie (not true) – lied – lied.",
+        "examples": [
+          "Problems have arisen.",
+          "The price has risen.",
+          "They raised the price.",
+          "She lay down for an hour.",
+          "She laid the baby in the bed."
+        ]
+      },
+      {
+        "title": "Raise: noun and verb",
+        "explanation_ar": "raise كفعل = يرفع. a raise (مع أداة) اسم = زيادة في الراتب (بالأمريكية). الأداة a تساعدك على المعرفة.",
+        "explanation_en": "Raise as a verb = make higher. A raise (with an article) is a noun = more pay (US English). The article a helps you know.",
+        "examples": [
+          "They raised my salary. (verb)",
+          "I got a raise. (noun)"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Some questions about the new rules ___ in the meeting.",
+      "choices": [
+        "arose",
+        "raised",
+        "laid",
+        "rose up"
+      ],
+      "answer": 0,
+      "explanation_ar": "حدثت/طرأت: arose.",
+      "explanation_en": "Happened/came up: arose."
+    },
+    {
+      "question": "They ___ the blanket on the floor yesterday.",
+      "choices": [
+        "lied",
+        "lay",
+        "laid",
+        "lain"
+      ],
+      "answer": 2,
+      "explanation_ar": "وضعوا شيئًا (مفعول) في الماضي: laid.",
+      "explanation_en": "Put something (object), past: laid."
+    },
+    {
+      "question": "Please ___ your hand if you have a question.",
+      "choices": [
+        "rise",
+        "raise",
+        "arise",
+        "lie"
+      ],
+      "answer": 1,
+      "explanation_ar": "ترفع يدك (مفعول): raise.",
+      "explanation_en": "You move your hand (object): raise."
+    },
+    {
+      "question": "I'm tired. I'm going to ___ down.",
+      "choices": [
+        "lay",
+        "laid",
+        "raise",
+        "lie"
+      ],
+      "answer": 3,
+      "explanation_ar": "تستلقي بنفسك: lie.",
+      "explanation_en": "You put yourself flat: lie."
+    },
+    {
+      "question": "The sun ___ at 6 a.m. today.",
+      "choices": [
+        "rose",
+        "raised",
+        "arisen",
+        "laid"
+      ],
+      "answer": 0,
+      "explanation_ar": "ترتفع بنفسها: rose.",
+      "explanation_en": "Goes up by itself: rose."
+    },
+    {
+      "question": "Which verb is regular?",
+      "choices": [
+        "rise",
+        "raise",
+        "arise",
+        "lie (recline)"
+      ],
+      "answer": 1,
+      "explanation_ar": "الإجابة الصحيحة: raise – raised – raised.",
+      "explanation_en": "raise – raised – raised."
+    },
+    {
+      "question": "What is the past of \"lie\" (recline)?",
+      "choices": [
+        "lied",
+        "laid",
+        "lay",
+        "lain"
+      ],
+      "answer": 2,
+      "explanation_ar": "الإجابة الصحيحة: lie – lay – lain.",
+      "explanation_en": "lie – lay – lain."
+    },
+    {
+      "question": "\"He told me a lie.\" Here lie means ___.",
+      "choices": [
+        "a bed",
+        "a rest",
+        "a raise",
+        "something not true"
+      ],
+      "answer": 3,
+      "explanation_ar": "كذبة.",
+      "explanation_en": "Something not true."
+    },
+    {
+      "question": "A \"transitive\" verb ___.",
+      "choices": [
+        "needs an object",
+        "never has an object",
+        "is always in the past",
+        "is always irregular"
+      ],
+      "answer": 0,
+      "explanation_ar": "المتعدّي يحتاج مفعولًا.",
+      "explanation_en": "A transitive verb needs an object."
+    },
+    {
+      "question": "A few problems have ___ since we started.",
+      "choices": [
+        "arose",
+        "arisen",
+        "arised",
+        "raised"
+      ],
+      "answer": 1,
+      "explanation_ar": "التصريف الثالث: arisen.",
+      "explanation_en": "Past participle: arisen."
+    }
+  ]
+}

@@ -1,44 +1,42 @@
 package com.speakmind.app.feature.article.ui
 
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
-import androidx.compose.material.icons.automirrored.filled.VolumeUp
-import androidx.compose.material.icons.filled.AutoAwesome
-import androidx.compose.material.icons.filled.Stop
-import androidx.compose.animation.core.*
-import androidx.compose.material3.*
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
-import network.chaintech.sdpcomposemultiplatform.sdp
-import network.chaintech.sdpcomposemultiplatform.ssp
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
-import com.speakmind.app.feature.home.domain.model.getCategoryIcon
 import com.speakmind.app.navigation.ArticleDetailDestination
 import com.speakmind.app.ui.components.BannerAdView
-import com.speakmind.app.ui.components.TtsSpeedButton
-import com.speakmind.app.ui.components.animatedComposable
-import androidx.compose.ui.graphics.Color
-import com.speakmind.app.ui.theme.levelColorOf
+import com.speakmind.app.ui.components.SpeakyBackButton
+import com.speakmind.app.ui.components.SpeakyIcons
+import com.speakmind.app.ui.components.SpeakyPill
+import com.speakmind.app.ui.components.SpeakySpeedButton
 import com.speakmind.app.ui.components.WordAction
 import com.speakmind.app.ui.components.WordActionBottomSheet
+import com.speakmind.app.ui.components.animatedComposable
+import com.speakmind.app.ui.components.displayStyle
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
-import com.speakmind.app.ui.theme.SpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
@@ -73,8 +71,6 @@ private fun ArticleDetailContent(
     onActionSelected: (WordAction) -> Unit,
     onSpeakWord: () -> Unit,
 ) {
-
-
     if (uiState.selectedWord != null) {
         WordActionBottomSheet(
             word = uiState.selectedWord,
@@ -91,239 +87,113 @@ private fun ArticleDetailContent(
         )
     }
 
-    val colors = com.speakmind.app.ui.theme.LocalSpeakMindColors.current
-    Box(
+    val colors = LocalSpeakMindColors.current
+    Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(colors.backgroundGradient)
+            .background(colors.backgroundDark)
+            .windowInsetsPadding(WindowInsets.statusBars),
     ) {
-        when {
-            uiState.isLoading -> {
-                Box(
-                    modifier = Modifier.fillMaxSize(),
-                    contentAlignment = Alignment.Center,
-                ) {
+        Box(Modifier.weight(1f).fillMaxWidth()) {
+            when {
+                uiState.isLoading -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     CircularProgressIndicator(color = colors.neonCyan)
                 }
-            }
-            uiState.scenario == null -> {
-                Box(
-                    modifier = Modifier.fillMaxSize(),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    Text(
-                        text = "Article not found",
-                        style = MaterialTheme.typography.bodyLarge.copy(
-                            color = colors.textSecondary,
-                        ),
-                    )
+                uiState.scenario == null -> Column(Modifier.fillMaxSize().padding(20.dp)) {
+                    SpeakyBackButton(onClick = onBackClicked)
+                    Box(Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                        Text("Article not found", color = colors.textSecondary, fontSize = 15.sp)
+                    }
                 }
-            }
-            else -> {
-                val scenario = uiState.scenario
-                val levelColor = when (scenario.level) {
-                    "A1" -> levelColorOf("A1")
-                    "A2" -> levelColorOf("A1")
-                    "B1" -> levelColorOf("B1")
-                    "B2" -> levelColorOf("B1")
-                    "C1" -> levelColorOf("C1")
-                    else -> levelColorOf("A1")
-                }
-
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .verticalScroll(rememberScrollState())
-                        .padding(bottom = 80.sdp) // space for banner ad
-                ) {
-                    // Top bar
-                    Row(
+                else -> {
+                    val scenario = uiState.scenario
+                    Column(
                         modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(top = 52.sdp, bottom = 4.sdp)
-                            .padding(horizontal = 8.sdp),
-                        verticalAlignment = Alignment.CenterVertically,
+                            .fillMaxSize()
+                            .verticalScroll(rememberScrollState())
+                            .padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 24.dp),
+                        verticalArrangement = Arrangement.spacedBy(14.dp),
                     ) {
-                        IconButton(onClick = onBackClicked) {
-                            Icon(
-                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                                contentDescription = "Back",
-                                tint = colors.textPrimary,
-                            )
-                        }
-                        Spacer(modifier = Modifier.weight(1f))
-                        // Level & category badges
-                        Row(horizontalArrangement = Arrangement.spacedBy(6.sdp)) {
-                            Box(
-                                modifier = Modifier
-                                    .clip(RoundedCornerShape(8.sdp))
-                                    .background(levelColor.copy(alpha = 0.2f))
-                                    .padding(horizontal = 10.sdp, vertical = 4.sdp),
-                            ) {
-                                Text(
-                                    text = scenario.level,
-                                    style = MaterialTheme.typography.labelMedium.copy(
-                                        color = levelColor,
-                                        fontWeight = FontWeight.Bold,
-                                    ),
-                                )
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        ) {
+                            SpeakyBackButton(onClick = onBackClicked)
+                            Spacer(Modifier.weight(1f))
+                            val pillPadding = PaddingValues(horizontal = 12.dp, vertical = 6.dp)
+                            if (scenario.level.isNotBlank()) {
+                                SpeakyPill(scenario.level, colors.goldSoft, colors.onGoldSoft, fontSize = 12.sp, padding = pillPadding)
                             }
-                            Box(
-                                modifier = Modifier
-                                    .clip(RoundedCornerShape(8.sdp))
-                                    .background(colors.neonCyan.copy(alpha = 0.1f))
-                                    .padding(horizontal = 10.sdp, vertical = 4.sdp),
-                            ) {
-                                Text(
-                                    text = "${getCategoryIcon(scenario.category)} ${scenario.category}",
-                                    style = MaterialTheme.typography.labelMedium.copy(
-                                        color = colors.neonCyan,
-                                    ),
-                                )
+                            if (scenario.category.isNotBlank()) {
+                                SpeakyPill(scenario.category, colors.primarySoft, colors.onPrimarySoft, fontSize = 12.sp, padding = pillPadding)
                             }
                         }
-                        Spacer(modifier = Modifier.width(12.sdp))
-                    }
 
-                    // Title
-                    Text(
-                        text = scenario.title,
-                        style = MaterialTheme.typography.headlineSmall.copy(
-                            color = colors.textPrimary,
-                            fontWeight = FontWeight.Bold,
-                        ),
-                        modifier = Modifier.padding(horizontal = 20.sdp, vertical = 8.sdp),
-                    )
+                        Text(scenario.title, style = displayStyle(28.sp, lineHeight = 31.sp), color = colors.textPrimary)
 
-                    Spacer(modifier = Modifier.height(8.sdp))
-
-                    // Listen button row with speed control
-                    Row(
-                        modifier = Modifier.padding(horizontal = 20.sdp),
-                        horizontalArrangement = Arrangement.spacedBy(8.sdp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        ListenButton(
-                            isSpeaking = uiState.isSpeaking,
-                            onClick = onListenClicked,
-                            modifier = Modifier.weight(1f),
-                        )
-                        TtsSpeedButton()
-                    }
-
-                    Spacer(modifier = Modifier.height(20.sdp))
-
-                    // Article content card
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 16.sdp)
-                            .clip(RoundedCornerShape(20.sdp))
-                            .background(colors.surface.copy(alpha = 0.8f))
-                            .padding(horizontal = 20.sdp, vertical = 24.sdp),
-                    ) {
-                        Column {
-                            Text(
-                                text = "Tap any word for options",
-                                style = MaterialTheme.typography.labelSmall.copy(
-                                    color = colors.textMuted.copy(alpha = 0.5f),
-                                ),
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            ListenButton(
+                                isSpeaking = uiState.isSpeaking,
+                                onClick = onListenClicked,
+                                modifier = Modifier.weight(1f),
                             )
-                            Spacer(modifier = Modifier.height(12.sdp))
+                            SpeakySpeedButton(
+                                modifier = Modifier.width(56.dp),
+                                height = 50.dp,
+                                radius = 16.dp,
+                                fontSize = 14.sp,
+                            )
+                        }
+
+                        Column(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clip(RoundedCornerShape(24.dp))
+                                .background(colors.surface)
+                                .padding(horizontal = 18.dp, vertical = 16.dp),
+                            verticalArrangement = Arrangement.spacedBy(8.dp),
+                        ) {
+                            Text("Tap any word", color = colors.textMuted, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
                             TappableText(
                                 text = scenario.emotionalStakes,
+                                selectedWord = uiState.selectedWord,
                                 onWordClicked = onWordClicked,
                             )
                         }
-                    }
 
-                    Spacer(modifier = Modifier.height(24.sdp))
-
-                    // Discuss with Sage button
-                    val accentColor = Color(0xFF7C4DFF)
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 20.sdp)
-                            .clip(RoundedCornerShape(16.sdp))
-                            .background(colors.surfaceVariant.copy(alpha = 0.7f))
-                            .border(1.sdp, accentColor.copy(alpha = 0.4f), RoundedCornerShape(16.sdp))
-                            .clickable(onClick = onDiscussClicked)
-                            .padding(16.sdp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Icon(
-                            imageVector = Icons.Default.AutoAwesome,
-                            contentDescription = null,
-                            tint = accentColor,
-                            modifier = Modifier.size(32.sdp),
-                        )
-                        Spacer(modifier = Modifier.width(12.sdp))
-                        Column(modifier = Modifier.weight(1f)) {
-                            Row(verticalAlignment = Alignment.CenterVertically) {
-                                Text(
-                                    text = "Discuss with Sage",
-                                    style = MaterialTheme.typography.titleMedium.copy(
-                                        color = colors.textPrimary,
-                                        fontWeight = FontWeight.Bold,
-                                    ),
-                                )
-                                Spacer(modifier = Modifier.width(8.sdp))
-                                Text(
-                                    text = "AI",
-                                    style = MaterialTheme.typography.labelSmall.copy(
-                                        color = accentColor,
-                                        fontWeight = FontWeight.Bold,
-                                    ),
-                                    modifier = Modifier
-                                        .clip(RoundedCornerShape(4.sdp))
-                                        .background(accentColor.copy(alpha = 0.15f))
-                                        .padding(horizontal = 6.sdp, vertical = 2.sdp),
-                                )
-                            }
-                            Text(
-                                text = "Chat about this article with Sage",
-                                style = MaterialTheme.typography.bodySmall.copy(
-                                    color = colors.textSecondary,
-                                ),
-                            )
+                        if (com.speakmind.app.config.Features.AI_CHAT) {
+                            DiscussCard(onClick = onDiscussClicked)
                         }
-                        Icon(
-                            imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-                            contentDescription = null,
-                            tint = accentColor,
-                            modifier = Modifier.size(24.sdp),
-                        )
                     }
-
-                    Spacer(modifier = Modifier.height(32.sdp))
                 }
             }
         }
 
-        BannerAdView(modifier = Modifier.align(Alignment.BottomCenter))
+        BannerAdView(modifier = Modifier.align(Alignment.CenterHorizontally))
     }
 }
 
 @Composable
 private fun TappableText(
     text: String,
+    selectedWord: String?,
     onWordClicked: (String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val localColors = com.speakmind.app.ui.theme.LocalSpeakMindColors.current
+    val colors = LocalSpeakMindColors.current
     val words = text.split(Regex("(?<=\\s)|(?=\\s)"))
     val annotatedString = buildAnnotatedString {
         words.forEach { segment ->
             if (segment.isBlank()) {
                 append(segment)
             } else {
+                // The word open in the sheet is marked like the design's selected chip.
+                val selected = selectedWord != null &&
+                    segment.replace(Regex("[^a-zA-Z'-]"), "").equals(selectedWord, ignoreCase = true)
                 pushStringAnnotation(tag = "word", annotation = segment)
                 withStyle(
-                    SpanStyle(
-                        color = localColors.textPrimary,
-                        fontSize = 18.ssp,
-                    )
+                    if (selected) SpanStyle(color = colors.onPrimary, background = colors.neonCyan)
+                    else SpanStyle(color = colors.textPrimary),
                 ) {
                     append(segment)
                 }
@@ -335,15 +205,10 @@ private fun TappableText(
     ClickableText(
         text = annotatedString,
         modifier = modifier,
-        style = MaterialTheme.typography.bodyLarge.copy(
-            lineHeight = 32.ssp,
-            fontSize = 18.ssp,
-        ),
+        style = MaterialTheme.typography.bodyLarge.copy(fontSize = 18.sp, lineHeight = 30.sp),
         onClick = { offset ->
             annotatedString.getStringAnnotations("word", offset, offset)
-                .firstOrNull()?.let { annotation ->
-                    onWordClicked(annotation.item)
-                }
+                .firstOrNull()?.let { annotation -> onWordClicked(annotation.item) }
         },
     )
 }
@@ -354,38 +219,62 @@ private fun ListenButton(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val btnColors = com.speakmind.app.ui.theme.LocalSpeakMindColors.current
+    val colors = LocalSpeakMindColors.current
     val infiniteTransition = rememberInfiniteTransition()
     val pulseAlpha by infiniteTransition.animateFloat(
-        initialValue = 0.3f,
-        targetValue = 0.7f,
+        initialValue = 0.6f,
+        targetValue = 1f,
         animationSpec = infiniteRepeatable(
             animation = tween(1000, easing = EaseInOutSine),
             repeatMode = RepeatMode.Reverse,
         ),
     )
-
-    Button(
-        onClick = onClick,
-        modifier = modifier.fillMaxWidth().height(48.sdp),
-        shape = RoundedCornerShape(14.sdp),
-        colors = ButtonDefaults.buttonColors(
-            containerColor = if (isSpeaking) btnColors.neonCyan.copy(alpha = pulseAlpha)
-            else btnColors.neonCyan,
-            contentColor = btnColors.backgroundDark,
-        ),
+    Row(
+        modifier = modifier
+            .height(50.dp)
+            .clip(RoundedCornerShape(16.dp))
+            .background(if (isSpeaking) colors.neonCyan.copy(alpha = pulseAlpha) else colors.neonCyan)
+            .clickable(role = Role.Button, onClick = onClick),
+        horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
+        verticalAlignment = Alignment.CenterVertically,
     ) {
-        Icon(
-            imageVector = if (isSpeaking) Icons.Default.Stop
-            else Icons.AutoMirrored.Filled.VolumeUp,
-            contentDescription = null,
-            modifier = Modifier.size(22.sdp),
-        )
-        Spacer(modifier = Modifier.width(8.sdp))
+        if (isSpeaking) {
+            Box(Modifier.size(14.dp).clip(RoundedCornerShape(3.dp)).background(colors.onPrimary))
+        } else {
+            Icon(SpeakyIcons.Speaker, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(20.dp))
+        }
         Text(
-            text = if (isSpeaking) "Stop Listening" else "Listen to Article",
-            style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold),
+            if (isSpeaking) "Stop listening" else "Listen to article",
+            color = colors.onPrimary,
+            fontSize = 15.sp,
+            fontWeight = FontWeight.ExtraBold,
         )
     }
 }
 
+@Composable
+private fun DiscussCard(onClick: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(22.dp))
+            .background(colors.surface)
+            .clickable(onClick = onClick)
+            .padding(14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        Box(
+            Modifier.size(48.dp).clip(CircleShape).background(colors.primarySoft),
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(SpeakyIcons.Sparkle, contentDescription = null, tint = colors.neonCyan, modifier = Modifier.size(22.dp))
+        }
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Text("Discuss with Sage", color = colors.textPrimary, fontSize = 16.sp, fontWeight = FontWeight.ExtraBold)
+            Text("Chat about this article with Sage", color = colors.textMuted, fontSize = 13.sp)
+        }
+        Icon(SpeakyIcons.Chevron, contentDescription = null, tint = colors.faint, modifier = Modifier.size(20.dp))
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Modals for Asking: Permission and Help (SEAM)",
+  "content": {
+    "vocabulary": [
+      {"word": "pass", "pos": "noun", "meaning_en": "a card or ticket that allows you to go somewhere or do something", "meaning_ar": "تصريح / بطاقة مرور", "note_ar": "", "note_en": "", "example": "I use a metro pass to take the bus."},
+      {"word": "assistance", "pos": "noun", "meaning_en": "help", "meaning_ar": "مساعدة", "note_ar": "الفعل: assist", "note_en": "Verb: assist.", "example": "Do you need any assistance?"},
+      {"word": "assist", "pos": "verb", "meaning_en": "to help", "meaning_ar": "يساعد", "note_ar": "", "note_en": "", "example": "Can I assist you with your bags?"},
+      {"word": "permission", "pos": "noun", "meaning_en": "when someone allows you to do something", "meaning_ar": "إذن", "note_ar": "الفعل: permit", "note_en": "Verb: permit.", "example": "You need permission to enter."},
+      {"word": "borrow", "pos": "verb", "meaning_en": "to take something and give it back later", "meaning_ar": "يستعير / يقترض", "note_ar": "عكسها lend (يُعير)", "note_en": "Opposite: lend.", "example": "Can I borrow your pen?"},
+      {"word": "polite", "pos": "adjective", "meaning_en": "showing good manners and respect", "meaning_ar": "مهذَّب", "note_ar": "", "note_en": "", "example": "\"May I...?\" is very polite."},
+      {"word": "formal", "pos": "adjective", "meaning_en": "used in serious or official situations", "meaning_ar": "رسمي", "note_ar": "", "note_en": "", "example": "Use formal English with your manager."},
+      {"word": "casual", "pos": "adjective", "meaning_en": "relaxed and informal, like between friends", "meaning_ar": "غير رسمي / عفوي", "note_ar": "", "note_en": "", "example": "\"Can I...?\" is casual."},
+      {"word": "acquainted", "pos": "adjective", "meaning_en": "knowing someone a little", "meaning_ar": "على معرفة بـ", "note_ar": "", "note_en": "", "example": "We are acquainted; we work in the same office."},
+      {"word": "buddy", "pos": "noun", "meaning_en": "a friend (informal)", "meaning_ar": "صديق (عامية)", "note_ar": "", "note_en": "", "example": "He's my buddy from school."},
+      {"word": "disparity", "pos": "noun", "meaning_en": "a big difference", "meaning_ar": "تفاوت / فرق كبير", "note_ar": "", "note_en": "", "example": "There is a power disparity between a boss and a worker."},
+      {"word": "give someone a hand", "pos": "phrase", "meaning_en": "to help someone", "meaning_ar": "يمدّ يد العون / يساعد", "note_ar": "", "note_en": "", "example": "Could you give me a hand with this box?"},
+      {"word": "greeter", "pos": "noun", "meaning_en": "a person whose job is to welcome people at the door", "meaning_ar": "موظف الاستقبال / المرحِّب", "note_ar": "", "note_en": "", "example": "The greeter opened the door for us."},
+      {"word": "acronym", "pos": "noun", "meaning_en": "a word made from the first letters of other words", "meaning_ar": "اختصار من الحروف الأولى", "note_ar": "", "note_en": "", "example": "PASS and PAN are acronyms in this lesson."}
+    ],
+    "fine_lines": [
+      {"title": "may I vs could I vs can I (permission)", "words": ["may", "could", "can"], "explanation_ar": "may I: الأكثر رسمية، مع شخص لا تعرفه أو مع من له سلطة (مدير، بنك). could I: مهذّبة مع من تعرفهم (العمل، المدرسة، الوالدين). can I: عفوية بين الأصدقاء. ملاحظة: may في طلب الإذن تأتي مع I و we فقط.", "explanation_en": "may I: most formal, with strangers or people with power (a boss, a bank). could I: polite, with people you know (work, school, parents). can I: casual, with friends. Note: may for permission goes with I and we only.", "examples": [{"word": "may", "sentence": "May I borrow your phone, sir?"}, {"word": "could", "sentence": "Dad, could I borrow the car tonight?"}, {"word": "can", "sentence": "Hey, can I borrow that pen?"}]},
+      {"title": "can you vs could you vs would you (help)", "words": ["can you", "could you", "would you"], "explanation_ar": "can you: طلب عادي، خاصة من شخص عمله أن يساعدك. could you: أكثر تهذيبًا، عندما لا تعرف إن كان الشخص يستطيع (ليس عمله). would you (be able to): الأكثر تهذيبًا، عندما لا يجب على الشخص أن يساعدك. لا نقول May you help me?", "explanation_en": "can you: a normal request, especially when helping is the person's job. could you: more polite, when you're not sure they can (not their job). would you (be able to): most polite, when they don't have to help you. We never say \"May you help me?\"", "examples": [{"word": "can you", "sentence": "Can you help me find the milk?"}, {"word": "could you", "sentence": "I know it's not your job, but could you help me?"}, {"word": "would you", "sentence": "Would you be able to help me tomorrow?"}]}
+    ],
+    "expressions": [
+      {"phrase": "May I help you?", "meaning_ar": "هل يمكنني مساعدتك؟", "meaning_en": "A formal offer of help (shops, hotels).", "example": "Good morning. May I help you?"},
+      {"phrase": "Can I borrow that for a second?", "meaning_ar": "هل يمكنني استعارة هذا لحظة؟", "meaning_en": "A casual request.", "example": "Can I borrow that for a second? Thanks."},
+      {"phrase": "Could you give me a hand?", "meaning_ar": "هل يمكنك مساعدتي؟", "meaning_en": "A polite request for help.", "example": "This box is heavy. Could you give me a hand?"},
+      {"phrase": "Would you be able to...?", "meaning_ar": "هل سيكون بإمكانك أن...؟", "meaning_en": "A very polite request.", "example": "Would you be able to give me next Tuesday off?"},
+      {"phrase": "I can help you with that.", "meaning_ar": "أستطيع مساعدتك في ذلك.", "meaning_en": "Offering help.", "example": "Don't worry, I can help you with that."}
+    ],
+    "grammar": [
+      {"title": "A = Ask for a PASS", "explanation_ar": "في طريقة SEAM، حرف A يعني Ask for a PASS: نستخدم الأفعال الناقصة لطلب الإذن (Permission) أو المساعدة (ASSistance). التركيب: فعل ناقص + الفاعل + المصدر؟", "explanation_en": "In the SEAM method, A means Ask for a PASS: we use modals to ask for Permission and ASSistance. Structure: modal + subject + base verb?", "examples": ["May I go out?", "Could you help me?"]},
+      {"title": "Asking for permission: may, could, can", "explanation_ar": "Modal + I/we + المصدر؟ الترتيب من الأكثر رسمية إلى الأقل: may ← could ← can.", "explanation_en": "Modal + I/we + base verb? From most formal to least: may → could → can.", "examples": ["May I borrow $1,000, please? (bank)", "Could I leave early today? (boss you know)", "Can I have some water? (friend)"]},
+      {"title": "Asking for help: can, could, would", "explanation_ar": "Modal + you + المصدر؟ can you (عادي)، could you (أكثر تهذيبًا)، would you be able to (الأكثر تهذيبًا). لا نستخدم may مع you.", "explanation_en": "Modal + you + base verb? can you (normal), could you (more polite), would you be able to (most polite). Don't use may with you.", "examples": ["Can you help me?", "Could you open the window, please?", "Would you be able to check my essay?"]}
+    ]
+  },
+  "questions": [
+    {"question": "In \"Ask for a PASS\", what does ASS stand for?", "choices": ["assistance", "answers", "ability", "advice"], "answer": 0, "explanation_ar": "P = Permission و ASS = ASSistance.", "explanation_en": "P = Permission, ASS = ASSistance."},
+    {"question": "You are at the bank and speaking to a manager you don't know. \"___ I ask a question?\"", "choices": ["Can", "Would", "May", "Must"], "answer": 2, "explanation_ar": "may للمواقف الرسمية مع من لا تعرفه.", "explanation_en": "May for formal situations with people you don't know."},
+    {"question": "Which sentence is NOT correct?", "choices": ["Can you help me?", "May you help me?", "Could you help me?", "Would you help me?"], "answer": 1, "explanation_ar": "لا نستخدم may مع you في الطلب.", "explanation_en": "We don't use may with you in requests."},
+    {"question": "To a friend: \"___ I borrow your pen?\" (casual)", "choices": ["May", "Would", "Must", "Can"], "answer": 3, "explanation_ar": "can عفوية بين الأصدقاء.", "explanation_en": "Can is casual, for friends."},
+    {"question": "What does \"assistance\" mean?", "choices": ["help", "money", "permission", "a ticket"], "answer": 0, "explanation_ar": "assistance = مساعدة.", "explanation_en": "Assistance = help."},
+    {"question": "Which request is the most polite?", "choices": ["Help me.", "Can you help me?", "Would you be able to help me?", "Gimme help."], "answer": 2, "explanation_ar": "would you be able to الأكثر تهذيبًا.", "explanation_en": "Would you be able to is the most polite."},
+    {"question": "\"Could you give me a hand?\" means ___.", "choices": ["Could you clap?", "Could you help me?", "Could you shake my hand?", "Could you give me a gift?"], "answer": 1, "explanation_ar": "give me a hand = ساعدني.", "explanation_en": "Give me a hand = help me."},
+    {"question": "\"Casual\" language is for ___.", "choices": ["the bank manager", "a court", "a job interview", "friends"], "answer": 3, "explanation_ar": "casual = غير رسمي بين الأصدقاء.", "explanation_en": "Casual = informal, between friends."},
+    {"question": "What does \"borrow\" mean?", "choices": ["to give something forever", "to take something and give it back later", "to buy", "to sell"], "answer": 1, "explanation_ar": "borrow = يستعير.", "explanation_en": "Borrow = take and give back later."},
+    {"question": "Choose the correct question.", "choices": ["Could I to leave early?", "Could I leaving early?", "Could I left early?", "Could I leave early?"], "answer": 3, "explanation_ar": "Modal + الفاعل + المصدر.", "explanation_en": "Modal + subject + base verb."}
+  ]
+}

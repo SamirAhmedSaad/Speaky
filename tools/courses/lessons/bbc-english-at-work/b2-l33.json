@@ -1,0 +1,430 @@
+{
+  "title": "Declining an Offer and Saying Yes",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "decline",
+        "pos": "verb",
+        "meaning_en": "(formal) to politely say no to an offer or invitation",
+        "meaning_ar": "يعتذر عن القبول؛ يرفض بأدب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm afraid I will have to decline your invitation."
+      },
+      {
+        "word": "kind offer",
+        "pos": "phrase",
+        "meaning_en": "a generous offer from someone",
+        "meaning_ar": "عرض كريم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your kind offer."
+      },
+      {
+        "word": "It's a deal",
+        "pos": "phrase",
+        "meaning_en": "I agree; we have an agreement",
+        "meaning_ar": "اتفقنا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ten percent off? It's a deal!"
+      },
+      {
+        "word": "I do",
+        "pos": "phrase",
+        "meaning_en": "the answer someone gives in a wedding ceremony to say yes",
+        "meaning_ar": "نعم، أقبل (في مراسم الزواج)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "When asked the question, he said, 'I do.'"
+      },
+      {
+        "word": "ceremony",
+        "pos": "noun",
+        "meaning_en": "a formal event with fixed traditions",
+        "meaning_ar": "حفل رسمي؛ مراسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The award ceremony starts at seven."
+      },
+      {
+        "word": "wedding",
+        "pos": "noun",
+        "meaning_en": "the ceremony when two people get married",
+        "meaning_ar": "حفل زفاف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My cousin's wedding is next month."
+      },
+      {
+        "word": "colleague",
+        "pos": "noun",
+        "meaning_en": "a person you work with",
+        "meaning_ar": "زميل في العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "All my colleagues came to the party."
+      },
+      {
+        "word": "business acquaintance",
+        "pos": "noun",
+        "meaning_en": "a person you know through work, but not well",
+        "meaning_ar": "معارف العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I met a business acquaintance at the conference."
+      },
+      {
+        "word": "venue",
+        "pos": "noun",
+        "meaning_en": "the place where an event happens",
+        "meaning_ar": "مكان الفعالية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The office was the venue for the ceremony."
+      },
+      {
+        "word": "at short notice",
+        "pos": "phrase",
+        "meaning_en": "with very little time to prepare",
+        "meaning_ar": "في وقت قصير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was all we could get at short notice."
+      },
+      {
+        "word": "ideal",
+        "pos": "adjective",
+        "meaning_en": "perfect for a purpose",
+        "meaning_ar": "مثالي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This room is ideal for meetings."
+      },
+      {
+        "word": "be about to",
+        "pos": "phrase",
+        "meaning_en": "to be going to do something very soon",
+        "meaning_ar": "على وشك أن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The ceremony is about to begin."
+      },
+      {
+        "word": "take your seats",
+        "pos": "phrase",
+        "meaning_en": "please sit down (formal)",
+        "meaning_ar": "تفضّلوا بالجلوس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ladies and gentlemen, please take your seats."
+      },
+      {
+        "word": "fire",
+        "pos": "verb",
+        "meaning_en": "to end someone's job",
+        "meaning_ar": "يفصل (من العمل)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company fired him for stealing."
+      },
+      {
+        "word": "manage",
+        "pos": "verb",
+        "meaning_en": "to be in charge of an office, team or business",
+        "meaning_ar": "يدير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She manages the Paris office."
+      },
+      {
+        "word": "wedding present",
+        "pos": "noun",
+        "meaning_en": "a gift given to people who are getting married",
+        "meaning_ar": "هدية زفاف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We bought them a lamp as a wedding present."
+      },
+      {
+        "word": "congratulations",
+        "pos": "noun",
+        "meaning_en": "words you say when someone has done something good or has good news",
+        "meaning_ar": "تهانينا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Congratulations on your new job!"
+      },
+      {
+        "word": "happy ending",
+        "pos": "noun",
+        "meaning_en": "a good end to a story",
+        "meaning_ar": "نهاية سعيدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The story has a happy ending."
+      },
+      {
+        "word": "inspire",
+        "pos": "verb",
+        "meaning_en": "to make someone want to do something good",
+        "meaning_ar": "يُلهم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Her success inspired me to study harder."
+      },
+      {
+        "word": "contract",
+        "pos": "noun",
+        "meaning_en": "a formal written agreement",
+        "meaning_ar": "عقد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He signed the best contract of his career."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "decline vs refuse vs reject",
+        "words": [
+          "decline",
+          "refuse",
+          "reject"
+        ],
+        "explanation_ar": "الثلاثة تعني «يقول لا». decline أكثرها تهذيبًا ورسمية (للعروض والدعوات). refuse أقوى ومباشرة. reject قوية جدًّا وتعني عدم قبول شيء أو شخص بعد النظر فيه.",
+        "explanation_en": "All three mean say no. Decline is the most polite and formal (for offers and invitations). Refuse is stronger and direct. Reject is very strong: you don't accept something after looking at it.",
+        "examples": [
+          {
+            "word": "decline",
+            "sentence": "Thank you for your kind offer, but I will have to decline."
+          },
+          {
+            "word": "refuse",
+            "sentence": "He refused to sign the contract."
+          },
+          {
+            "word": "reject",
+            "sentence": "The manager rejected my plan."
+          }
+        ]
+      },
+      {
+        "title": "colleague vs acquaintance",
+        "words": [
+          "colleague",
+          "acquaintance"
+        ],
+        "explanation_ar": "colleague شخص تعمل معه في المكان نفسه. acquaintance شخص تعرفه معرفة سطحية، وbusiness acquaintance شخص تعرفه من خلال العمل لكنه ليس زميلًا.",
+        "explanation_en": "A colleague works with you. An acquaintance is someone you know, but not well; a business acquaintance is someone you know through work.",
+        "examples": [
+          {
+            "word": "colleague",
+            "sentence": "My colleague sits next to me."
+          },
+          {
+            "word": "acquaintance",
+            "sentence": "He's a business acquaintance from another company."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Thank you for your kind offer, but I will have to decline.",
+        "meaning_ar": "شكرًا على عرضك الكريم، لكنني مضطر إلى الاعتذار عن قبوله.",
+        "meaning_en": "A very polite way to say no to an offer.",
+        "example": "Thank you for your kind offer of a job in Paris, but I will have to decline."
+      },
+      {
+        "phrase": "It's a deal.",
+        "meaning_ar": "اتفقنا.",
+        "meaning_en": "I agree.",
+        "example": "You do the slides and I'll do the report? It's a deal."
+      },
+      {
+        "phrase": "I do!",
+        "meaning_ar": "نعم، أقبل!",
+        "meaning_en": "The answer to the question in a wedding ceremony.",
+        "example": "The registrar asked the question, and she answered, 'I do!'"
+      },
+      {
+        "phrase": "Please could you take your seats? The ceremony is about to begin.",
+        "meaning_ar": "هل تتفضلون بالجلوس من فضلكم؟ الحفل على وشك أن يبدأ.",
+        "meaning_en": "A formal request to sit down because an event is starting.",
+        "example": "Please could you take your seats? The awards ceremony is about to begin."
+      },
+      {
+        "phrase": "This is a nice surprise.",
+        "meaning_ar": "يا لها من مفاجأة سارة.",
+        "meaning_en": "I'm happy to see you; I didn't expect you.",
+        "example": "Mr Ahmed! This is a nice surprise. Please come in."
+      },
+      {
+        "phrase": "It's all we could get at short notice.",
+        "meaning_ar": "هذا كل ما استطعنا الحصول عليه في هذا الوقت القصير.",
+        "meaning_en": "We had little time, so this was the only choice.",
+        "example": "Sorry the room is small - it's all we could get at short notice."
+      },
+      {
+        "phrase": "Thanks to everyone for making this a special day.",
+        "meaning_ar": "شكرًا للجميع على جعل هذا اليوم مميزًا.",
+        "meaning_en": "Thanking guests at the end of an event.",
+        "example": "Thanks to everyone for making this a special day for our company."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "be about to + verb",
+        "explanation_ar": "نستخدم am/is/are about to + الفعل في المصدر لشيء سيحدث بعد قليل جدًّا: The ceremony is about to begin (الحفل على وشك أن يبدأ).",
+        "explanation_en": "Use am/is/are about to + base verb for something that will happen very soon: The ceremony is about to begin.",
+        "examples": [
+          "The meeting is about to start.",
+          "I'm about to leave the office.",
+          "We were about to call you."
+        ]
+      },
+      {
+        "title": "Polite refusal: Thank you for…, but I will have to / I'm afraid I…",
+        "explanation_ar": "لنرفض عرضًا بأدب نبدأ بالشكر ثم نستخدم but مع I will have to decline أو I'm afraid I can't، ويمكن ذكر السبب باختصار.",
+        "explanation_en": "To say no politely: thank the person first, then use 'but' + 'I will have to decline' or 'I'm afraid I can't', and give a short reason.",
+        "examples": [
+          "Thank you for your kind offer, but I will have to decline.",
+          "Thank you for inviting me, but I'm afraid I can't come.",
+          "It's very kind of you, but I'm happy in my current job."
+        ]
+      },
+      {
+        "title": "Short answers: Do you…? – I do.",
+        "explanation_ar": "في الإنجليزية نجيب عن سؤال يبدأ بـ Do you…? بإجابة قصيرة تكرّر الفعل المساعد: Yes, I do / No, I don't، ولا نكرّر الفعل الرئيسي. ومن ذلك عبارة الزفاف الشهيرة I do.",
+        "explanation_en": "We answer 'Do you...?' questions with a short answer using the helper verb: Yes, I do / No, I don't. The famous wedding answer 'I do' is this kind of short answer.",
+        "examples": [
+          "Do you agree? – Yes, I do.",
+          "Do you need help? – No, I don't, thanks.",
+          "Does she work here? – Yes, she does."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which is the most polite way to say no to an offer?",
+      "choices": [
+        "No way!",
+        "I refuse.",
+        "Thank you for your kind offer, but I will have to decline.",
+        "Forget it."
+      ],
+      "answer": 2,
+      "explanation_ar": "decline مع الشكر أكثر الطرق تهذيبًا.",
+      "explanation_en": "Thanking and using 'decline' is the most polite."
+    },
+    {
+      "question": "What does Mr Socrates offer Tom?",
+      "choices": [
+        "a job as manager of the Paris office",
+        "a wedding present of biscuits",
+        "a new car",
+        "a holiday"
+      ],
+      "answer": 0,
+      "explanation_ar": "عرض عليه إدارة مكتبه الجديد في باريس.",
+      "explanation_en": "He offers Tom a job managing the Paris office."
+    },
+    {
+      "question": "The ceremony is about ___ begin.",
+      "choices": [
+        "for",
+        "at",
+        "begin",
+        "to"
+      ],
+      "answer": 3,
+      "explanation_ar": "be about to + فعل.",
+      "explanation_en": "Be about to + base verb."
+    },
+    {
+      "question": "'It's a deal' means…",
+      "choices": [
+        "I disagree",
+        "I agree",
+        "it's expensive",
+        "it's a contract for sale"
+      ],
+      "answer": 1,
+      "explanation_ar": "It's a deal أي اتفقنا.",
+      "explanation_en": "It means I agree."
+    },
+    {
+      "question": "A person you work with every day is a…",
+      "choices": [
+        "business acquaintance",
+        "registrar",
+        "colleague",
+        "passenger"
+      ],
+      "answer": 2,
+      "explanation_ar": "colleague زميل العمل.",
+      "explanation_en": "A colleague works with you."
+    },
+    {
+      "question": "'Please take your seats' means…",
+      "choices": [
+        "please sit down",
+        "please leave",
+        "please take the chairs home",
+        "please stand up"
+      ],
+      "answer": 0,
+      "explanation_ar": "take your seats أي تفضلوا بالجلوس.",
+      "explanation_en": "It means please sit down."
+    },
+    {
+      "question": "Do you need help? – Yes, I ___.",
+      "choices": [
+        "need",
+        "am",
+        "does",
+        "do"
+      ],
+      "answer": 3,
+      "explanation_ar": "الإجابة القصيرة تكرر الفعل المساعد do.",
+      "explanation_en": "Short answer: Yes, I do."
+    },
+    {
+      "question": "Tom thanks Mr Socrates but says no. Which word means 'politely say no'?",
+      "choices": [
+        "fire",
+        "decline",
+        "inspire",
+        "manage"
+      ],
+      "answer": 1,
+      "explanation_ar": "decline تعني الرفض بأدب.",
+      "explanation_en": "Decline means politely say no."
+    },
+    {
+      "question": "'It's all we could get at short notice' means…",
+      "choices": [
+        "we had lots of time",
+        "we didn't want it",
+        "we had little time, so this was the only choice",
+        "it was very expensive"
+      ],
+      "answer": 2,
+      "explanation_ar": "at short notice تعني في وقت قصير.",
+      "explanation_en": "At short notice = with little time."
+    },
+    {
+      "question": "Which word means 'to end someone's job'?",
+      "choices": [
+        "fire",
+        "inspire",
+        "decline",
+        "congratulate"
+      ],
+      "answer": 0,
+      "explanation_ar": "fire تعني فصل شخص من العمل.",
+      "explanation_en": "Fire means end someone's job."
+    }
+  ]
+}

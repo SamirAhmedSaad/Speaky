@@ -1,0 +1,49 @@
+{
+  "title": "Homonyms: Words with Many Meanings",
+  "content": {
+    "vocabulary": [
+      {"word": "homonym", "pos": "noun", "meaning_en": "a word that has the same sound or spelling as another word but a different meaning", "meaning_ar": "كلمة متجانسة (نفس اللفظ أو الكتابة بمعنى مختلف)", "note_ar": "homo = نفس، nym = اسم", "note_en": "homo = same, nym = name.", "example": "\"Bear\" and \"bare\" are homonyms."},
+      {"word": "homophone", "pos": "noun", "meaning_en": "words that sound the same but have different spelling and meaning (bare/bear)", "meaning_ar": "كلمات متشابهة النطق مختلفة الكتابة والمعنى", "note_ar": "phone = صوت", "note_en": "phone = sound.", "example": "\"Write\" and \"right\" are homophones."},
+      {"word": "homograph", "pos": "noun", "meaning_en": "words that are written the same but have different meanings (bear the animal / bear = support)", "meaning_ar": "كلمات متشابهة الكتابة مختلفة المعنى", "note_ar": "graph = كتابة", "note_en": "graph = writing.", "example": "\"Bear\" (animal) and \"bear\" (support) are homographs."},
+      {"word": "bare", "pos": "adjective", "meaning_en": "with no covering; empty; open to view", "meaning_ar": "عارٍ / مكشوف / فارغ", "note_ar": "", "note_en": "", "example": "The cupboards were bare; there was no food."},
+      {"word": "bear (verb)", "pos": "verb", "meaning_en": "to support the weight of something; to accept something difficult", "meaning_ar": "يتحمّل / يحمل الوزن", "note_ar": "bear with me = اصبر عليّ", "note_en": "Bear with me = be patient with me.", "example": "The table can't bear the weight."},
+      {"word": "bear (noun)", "pos": "noun", "meaning_en": "a big wild animal with thick fur", "meaning_ar": "دُب", "note_ar": "", "note_en": "", "example": "We saw a bear in the forest."},
+      {"word": "hire", "pos": "verb", "meaning_en": "to give someone a job", "meaning_ar": "يوظّف", "note_ar": "", "note_en": "", "example": "The company is hiring new workers."},
+      {"word": "higher", "pos": "adjective", "meaning_en": "more high (comparative of high); more expensive (price)", "meaning_ar": "أعلى", "note_ar": "للأشخاص نقول taller وليس higher", "note_en": "For people's height use taller, not higher.", "example": "This price is higher than that one."},
+      {"word": "whole", "pos": "adjective", "meaning_en": "complete; all of something; not damaged", "meaning_ar": "كامل / بأكمله", "note_ar": "حرف w صامت: /həʊl/", "note_en": "The w is silent: /həʊl/.", "example": "Watch the whole video."},
+      {"word": "hole", "pos": "noun", "meaning_en": "an empty space or opening in something; (informal) a very bad place", "meaning_ar": "ثُقب / حفرة", "note_ar": "", "note_en": "", "example": "There's a hole in my shirt."},
+      {"word": "write", "pos": "verb", "meaning_en": "to put words on paper or a screen", "meaning_ar": "يكتب", "note_ar": "حرف w صامت", "note_en": "The w is silent.", "example": "Write your name here."},
+      {"word": "right", "pos": "noun / adjective", "meaning_en": "(noun) something you are allowed by law; (adjective) correct", "meaning_ar": "حقّ / صحيح", "note_ar": "حرف gh صامت", "note_en": "The gh is silent.", "example": "Everyone has the right to vote. / You are right."},
+      {"word": "know", "pos": "verb", "meaning_en": "to have information in your mind", "meaning_ar": "يعرف", "note_ar": "حرف k صامت، تُنطق مثل no", "note_en": "The k is silent; it sounds like \"no\".", "example": "Do you know the answer?"},
+      {"word": "no", "pos": "adverb / determiner", "meaning_en": "a negative answer; not any", "meaning_ar": "لا", "note_ar": "", "note_en": "", "example": "No, I don't want tea."}
+    ],
+    "fine_lines": [
+      {"title": "homophone vs homograph", "words": ["homophone", "homograph"], "explanation_ar": "homophone: نفس الصوت، كتابة مختلفة، معنى مختلف (bare/bear). homograph: نفس الكتابة، معنى مختلف (bear الحيوان / bear يتحمل).", "explanation_en": "Homophone: same sound, different spelling and meaning (bare/bear). Homograph: same spelling, different meaning (bear the animal / bear = support).", "examples": [{"word": "homophone", "sentence": "four / for, bye / buy"}, {"word": "homograph", "sentence": "I saw a bear. / I can't bear the noise."}]},
+      {"title": "bare vs bear", "words": ["bare", "bear"], "explanation_ar": "bare صفة = عارٍ أو فارغ. bear فعل = يتحمّل، واسم = دُب. نقول bear with me (اصبر عليّ).", "explanation_en": "Bare (adjective) = uncovered or empty. Bear (verb) = support; (noun) = the animal. We say bear with me.", "examples": [{"word": "bare", "sentence": "Don't walk with bare feet."}, {"word": "bear", "sentence": "Please bear with me for a minute."}]},
+      {"title": "whole vs hole", "words": ["whole", "hole"], "explanation_ar": "whole = كامل. hole = ثقب أو مكان سيئ.", "explanation_en": "Whole = complete. Hole = an opening, or a bad place.", "examples": [{"word": "whole", "sentence": "He ate the whole pizza."}, {"word": "hole", "sentence": "There's a hole in my sock."}]},
+      {"title": "write vs right; know vs no; hire vs higher", "words": ["write", "right", "know", "no", "hire", "higher"], "explanation_ar": "write يكتب / right صحيح أو حق. know يعرف / no لا. hire يوظّف / higher أعلى.", "explanation_en": "Write = put words down / right = correct or a legal freedom. Know = have information / no = negative. Hire = give a job / higher = more high.", "examples": [{"word": "write", "sentence": "Write like a native speaker."}, {"word": "know", "sentence": "You will know how to read."}, {"word": "higher", "sentence": "Go on to higher lessons."}]}
+    ],
+    "expressions": [
+      {"phrase": "Bear with me.", "meaning_ar": "اصبر عليّ.", "meaning_en": "Please be patient with me.", "example": "Bear with me while I find your file."},
+      {"phrase": "laid bare", "meaning_ar": "مكشوف للجميع", "meaning_en": "completely open for everyone to see", "example": "In the interview, his life was laid bare."},
+      {"phrase": "You are right.", "meaning_ar": "أنت محق.", "meaning_en": "You are correct.", "example": "You are right. The shop is closed today."},
+      {"phrase": "the right to vote", "meaning_ar": "حق التصويت", "meaning_en": "the legal freedom to vote", "example": "All adults have the right to vote."}
+    ],
+    "grammar": [
+      {"title": "Homonym, homophone, homograph", "explanation_ar": "homonym المصطلح العام: كلمات متشابهة باسم واحد. homophone: نفس النطق وكتابة مختلفة. homograph: نفس الكتابة ومعنى مختلف. في الكلام لا تظهر المشكلة، لكن في الكتابة يجب اختيار الكلمة الصحيحة.", "explanation_en": "Homonym is the general term: words with the same name. Homophone: same sound, different spelling. Homograph: same spelling, different meaning. In speech there's no problem, but in writing you must choose the correct word.", "examples": ["Those four things are for you. (four/for)", "Go to the store to buy milk, and say bye to John. (buy/bye)"]},
+      {"title": "Use context and part of speech", "explanation_ar": "لاختيار الكلمة الصحيحة اسأل: هل أحتاج فعلًا أم اسمًا أم صفة؟ مثال: bear (فعل) with me، watch the whole (صفة) video، write (فعل) a letter.", "explanation_en": "To choose the right word, ask: do I need a verb, a noun or an adjective? Example: bear (verb) with me, watch the whole (adjective) video, write (verb) a letter.", "examples": ["I want you to bear with me.", "Go on to the higher lessons.", "When you complete the whole video, you will know how to read and write."]}
+    ]
+  },
+  "questions": [
+    {"question": "I want you to ___ with me while I explain.", "choices": ["bear", "bare", "beer", "bar"], "answer": 0, "explanation_ar": "bear with me = اصبر عليّ.", "explanation_en": "Bear with me = be patient."},
+    {"question": "Go on to the ___ lessons on the website.", "choices": ["hire", "higher", "hair", "here"], "answer": 1, "explanation_ar": "أعلى مستوى: higher.", "explanation_en": "More advanced: higher."},
+    {"question": "When you complete the ___ video, you will be a better student.", "choices": ["hole", "hold", "whole", "wall"], "answer": 2, "explanation_ar": "كامل: whole.", "explanation_en": "Complete: whole."},
+    {"question": "You will ___ how to read like a native speaker.", "choices": ["no", "now", "knew", "know"], "answer": 3, "explanation_ar": "يعرف: know.", "explanation_en": "Have the information: know."},
+    {"question": "You will learn to read and ___ like a native speaker.", "choices": ["write", "right", "rite", "wright"], "answer": 0, "explanation_ar": "نحتاج فعل الكتابة: write.", "explanation_en": "We need the verb: write."},
+    {"question": "Words that sound the same but are spelled differently are called ___.", "choices": ["homographs", "homophones", "synonyms", "opposites"], "answer": 1, "explanation_ar": "نفس الصوت: homophones.", "explanation_en": "Same sound: homophones."},
+    {"question": "He is 190 cm. He is ___ than his brother.", "choices": ["higher", "hire", "taller", "bigger price"], "answer": 2, "explanation_ar": "للأشخاص نستخدم taller.", "explanation_en": "For people use taller."},
+    {"question": "There's a ___ in my shirt.", "choices": ["whole", "holy", "hold", "hole"], "answer": 3, "explanation_ar": "ثقب: hole.", "explanation_en": "An opening: hole."},
+    {"question": "\"The cupboards were bare.\" means ___.", "choices": ["They were empty.", "They had bears.", "They were full.", "They were broken."], "answer": 0, "explanation_ar": "bare = فارغ.", "explanation_en": "Bare = empty."},
+    {"question": "\"You are right.\" Here right means ___.", "choices": ["a legal freedom", "correct", "the opposite of left", "to write"], "answer": 1, "explanation_ar": "right = صحيح.", "explanation_en": "Right = correct."}
+  ]
+}

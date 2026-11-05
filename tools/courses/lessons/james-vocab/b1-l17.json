@@ -1,0 +1,47 @@
+{
+  "title": "Affect/Effect, Sympathy/Empathy, Imply/Infer",
+  "content": {
+    "vocabulary": [
+      {"word": "malapropism", "pos": "noun", "meaning_en": "using the wrong word that sounds similar to the right one", "meaning_ar": "استخدام كلمة خاطئة تشبه الصحيحة", "note_ar": "", "note_en": "", "example": "Saying \"affect\" instead of \"effect\" is a common malapropism."},
+      {"word": "homophone", "pos": "noun", "meaning_en": "a word that sounds the same as another but is spelled differently", "meaning_ar": "كلمة متجانسة اللفظ مختلفة الكتابة", "note_ar": "", "note_en": "", "example": "\"Sea\" and \"see\" are homophones."},
+      {"word": "affect", "pos": "verb", "meaning_en": "to change or make a difference to something (the action)", "meaning_ar": "يؤثّر في", "note_ar": "A = action (فعل)", "note_en": "A = action (verb)", "example": "How is the medicine affecting her?"},
+      {"word": "effect", "pos": "noun", "meaning_en": "the result; what happens in the end", "meaning_ar": "أثر / نتيجة", "note_ar": "E = end (اسم)", "note_en": "E = end result (noun)", "example": "The effect of the medicine was good: she felt better."},
+      {"word": "-fect", "pos": "root", "meaning_en": "Latin: to make or do (perfect, defect, affect, effect)", "meaning_ar": "جذر لاتيني بمعنى يصنع أو يفعل", "note_ar": "", "note_en": "", "example": "Perfect means made with no mistakes."},
+      {"word": "defect", "pos": "noun", "meaning_en": "a fault; something wrong with a product", "meaning_ar": "عيب / خلل", "note_ar": "", "note_en": "", "example": "The phone had a defect, so I returned it."},
+      {"word": "sympathy", "pos": "noun", "meaning_en": "seeing someone's pain and feeling sorry for them", "meaning_ar": "تعاطف / شفقة", "note_ar": "S = subject: أنت تشعر بالأسف لأجله لكنك لا تعيش ألمه", "note_en": "S = subject: you feel sorry, but you don't feel their pain.", "example": "I have sympathy for people who lose their jobs."},
+      {"word": "empathy", "pos": "noun", "meaning_en": "feeling and experiencing the emotions of another person", "meaning_ar": "التقمّص الوجداني / مشاركة المشاعر", "note_ar": "E = experience: تشعر بما يشعر به", "note_en": "E = experience the emotions.", "example": "I broke my arm once, so I have empathy for him."},
+      {"word": "-pathy", "pos": "root", "meaning_en": "Greek: suffering or feeling", "meaning_ar": "جذر يوناني بمعنى الشعور أو المعاناة", "note_ar": "", "note_en": "", "example": "Sympathy, empathy and apathy all contain \"pathy\"."},
+      {"word": "apathy / apathetic", "pos": "noun / adjective", "meaning_en": "having no feeling or interest in anything", "meaning_ar": "لامبالاة / غير مبالٍ", "note_ar": "", "note_en": "", "example": "He seemed apathetic about his exams."},
+      {"word": "imply", "pos": "verb", "meaning_en": "to suggest something without saying it directly", "meaning_ar": "يُلمّح", "note_ar": "المتكلّم هو من يلمّح", "note_en": "The speaker implies.", "example": "Are you implying that I'm lazy?"},
+      {"word": "infer", "pos": "verb", "meaning_en": "to reach a conclusion from information or evidence", "meaning_ar": "يستنتج", "note_ar": "infer تشبه information: تحتاج معلومات لتستنتج. الاسم: inference", "note_en": "infer looks like information. Noun: inference.", "example": "From the dark clouds, I infer that it will rain."},
+      {"word": "conclusion", "pos": "noun", "meaning_en": "a decision or idea you reach after thinking about facts", "meaning_ar": "استنتاج", "note_ar": "", "note_en": "", "example": "What conclusion did you reach?"},
+      {"word": "interchangeably", "pos": "adverb", "meaning_en": "in a way that one can be used in place of the other", "meaning_ar": "بالتبادل", "note_ar": "", "note_en": "", "example": "Some people use \"imply\" and \"infer\" interchangeably, but they are different."}
+    ],
+    "fine_lines": [
+      {"title": "affect vs effect", "words": ["affect", "effect"], "explanation_ar": "affect فعل يعني يؤثّر (A = action). effect اسم يعني النتيجة أو الأثر (E = end).", "explanation_en": "Affect is a verb: to change something (A = action). Effect is a noun: the result (E = end).", "examples": [{"word": "affect", "sentence": "The cold weather affects my mood."}, {"word": "effect", "sentence": "The cold weather has a bad effect on my mood."}]},
+      {"title": "sympathy vs empathy", "words": ["sympathy", "empathy"], "explanation_ar": "sympathy: ترى ألم الشخص وتشعر بالأسف لأجله (غالبًا للأشياء السلبية). empathy: تعيش مشاعره وكأنك مكانه، سلبية كانت أو إيجابية.", "explanation_en": "Sympathy: you see the pain and feel sorry (usually negative). Empathy: you experience the same emotions, good or bad.", "examples": [{"word": "sympathy", "sentence": "I have sympathy for you; that must hurt."}, {"word": "empathy", "sentence": "I've been there too, so I have empathy for you."}]},
+      {"title": "imply vs infer", "words": ["imply", "infer"], "explanation_ar": "imply: المتكلم يلمّح دون أن يقول مباشرة. infer: السامع يستنتج من المعلومات والأدلة.", "explanation_en": "Imply: the speaker suggests something indirectly. Infer: the listener reaches a conclusion from information.", "examples": [{"word": "imply", "sentence": "He said my pants were shrinking; he was implying I'm getting bigger."}, {"word": "infer", "sentence": "You're eating more doughnuts, so I infer you're gaining weight."}]}
+    ],
+    "expressions": [
+      {"phrase": "Are you implying that...?", "meaning_ar": "هل تلمّح إلى أن...؟", "meaning_en": "Are you suggesting (without saying it) that...?", "example": "Are you implying that I made a mistake?"},
+      {"phrase": "From this, I infer that...", "meaning_ar": "من هذا أستنتج أن...", "meaning_en": "Based on this information, I conclude...", "example": "Her coat is wet. From this, I infer that it's raining."},
+      {"phrase": "have sympathy for someone", "meaning_ar": "يتعاطف مع / يشفق على شخص", "meaning_en": "feel sorry for someone", "example": "We all have sympathy for the families."},
+      {"phrase": "have an effect on", "meaning_ar": "يكون له أثر في", "meaning_en": "cause a result in", "example": "Sleep has a big effect on your health."}
+    ],
+    "grammar": [
+      {"title": "affect (verb) vs effect (noun) in sentences", "explanation_ar": "affect فعل فتأتي بعده مفعول به مباشرة: X affects Y. أما effect فاسم يأتي بعد a/the أو صفة، ومعه on: X has an effect on Y.", "explanation_en": "Affect is a verb: X affects Y. Effect is a noun, used with a/the and \"on\": X has an effect on Y.", "examples": ["Noise affects my sleep.", "Noise has a bad effect on my sleep.", "What are the effects of this medicine?"]}
+    ]
+  },
+  "questions": [
+    {"question": "\"How is the medicine ___ her?\"", "choices": ["affecting", "effecting", "effect", "affection"], "answer": 0, "explanation_ar": "نحتاج فعلًا هنا: affect.", "explanation_en": "We need the verb: affect."},
+    {"question": "\"The ___ of the medicine was very good.\"", "choices": ["affect", "effect", "affected", "infer"], "answer": 1, "explanation_ar": "نحتاج اسمًا بمعنى النتيجة: effect.", "explanation_en": "We need the noun (result): effect."},
+    {"question": "You feel sorry for someone, but you have never felt their pain. You feel ___.", "choices": ["empathy", "apathy", "sympathy", "inference"], "answer": 2, "explanation_ar": "sympathy = الشفقة والأسف دون أن تعيش الألم.", "explanation_en": "Sympathy = feeling sorry without feeling their pain."},
+    {"question": "You had the same injury before, so you really feel his pain. This is ___.", "choices": ["sympathy", "apathy", "malapropism", "empathy"], "answer": 3, "explanation_ar": "empathy = أن تعيش مشاعره.", "explanation_en": "Empathy = experiencing the same emotions."},
+    {"question": "Mr. E said, \"Your dryer must be very strong; your pants keep getting smaller.\" He was ___ that James is getting bigger.", "choices": ["implying", "inferring", "affecting", "recalling"], "answer": 0, "explanation_ar": "المتكلم يلمّح: imply.", "explanation_en": "The speaker hints: imply."},
+    {"question": "\"I see wet umbrellas, so I ___ it's raining.\"", "choices": ["imply", "infer", "affect", "effect"], "answer": 1, "explanation_ar": "تستنتج من معلومات: infer.", "explanation_en": "You conclude from information: infer."},
+    {"question": "A teenager who doesn't care about anything is ___.", "choices": ["empathetic", "sympathetic", "apathetic", "perfect"], "answer": 2, "explanation_ar": "apathetic = غير مبالٍ.", "explanation_en": "Apathetic = no feeling or interest."},
+    {"question": "What does the Latin root \"-fect\" mean?", "choices": ["feeling", "suffering", "information", "to make or do"], "answer": 3, "explanation_ar": "-fect تعني يصنع أو يفعل.", "explanation_en": "-fect means to make or do."},
+    {"question": "Which memory trick is correct?", "choices": ["infer looks like information", "imply looks like information", "effect = action", "affect = end"], "answer": 0, "explanation_ar": "infer تشبه information.", "explanation_en": "Infer looks like information."},
+    {"question": "Choose the correct sentence.", "choices": ["The rain effected the match.", "The rain had a big effect on the match.", "The rain had a big affect on the match.", "The rain affect the match yesterday."], "answer": 1, "explanation_ar": "have an effect on مع الاسم effect.", "explanation_en": "\"Have an effect on\" uses the noun effect."}
+  ]
+}

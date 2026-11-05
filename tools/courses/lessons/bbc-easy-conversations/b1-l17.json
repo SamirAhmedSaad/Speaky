@@ -1,0 +1,532 @@
+{
+ "title": "Describing people",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "look like",
+    "pos": "phrase",
+    "meaning_en": "have a certain appearance",
+    "meaning_ar": "يبدو (في الشكل)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What does he look like?"
+   },
+   {
+    "word": "appearance",
+    "pos": "noun",
+    "meaning_en": "how someone looks",
+    "meaning_ar": "المظهر / الشكل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Let's describe his appearance."
+   },
+   {
+    "word": "man",
+    "pos": "noun",
+    "meaning_en": "an adult male",
+    "meaning_ar": "رجل",
+    "note_ar": "الجمع: men.",
+    "note_en": "Plural: men.",
+    "example": "Was it a man or a woman?"
+   },
+   {
+    "word": "woman",
+    "pos": "noun",
+    "meaning_en": "an adult female",
+    "meaning_ar": "امرأة",
+    "note_ar": "الجمع: women وتُنطق ويمِن.",
+    "note_en": "Plural: women (sounds like \"wimin\").",
+    "example": "It was a woman."
+   },
+   {
+    "word": "hair",
+    "pos": "noun",
+    "meaning_en": "the things that grow on your head",
+    "meaning_ar": "شَعر",
+    "note_ar": "hair غير معدودة: لا نقول hairs عن شعر الرأس.",
+    "note_en": "Hair (on your head) is uncountable: no -s.",
+    "example": "He had short hair."
+   },
+   {
+    "word": "eyes",
+    "pos": "noun",
+    "meaning_en": "the parts of your face you see with",
+    "meaning_ar": "العيون",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She had blue eyes."
+   },
+   {
+    "word": "short",
+    "pos": "adjective",
+    "meaning_en": "not long (hair) / not tall (person)",
+    "meaning_ar": "قصير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He had short hair. She was short."
+   },
+   {
+    "word": "long",
+    "pos": "adjective",
+    "meaning_en": "not short (hair)",
+    "meaning_ar": "طويل (للشعر والأشياء)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She had long hair."
+   },
+   {
+    "word": "tall",
+    "pos": "adjective",
+    "meaning_en": "high; not short (person)",
+    "meaning_ar": "طويل القامة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He was tall."
+   },
+   {
+    "word": "blond",
+    "pos": "adjective",
+    "meaning_en": "yellow or very light (hair)",
+    "meaning_ar": "أشقر",
+    "note_ar": "للمرأة تُكتب أحيانًا blonde.",
+    "note_en": "Sometimes spelled blonde for a woman.",
+    "example": "He had blond hair."
+   },
+   {
+    "word": "brown",
+    "pos": "adjective",
+    "meaning_en": "the colour of chocolate",
+    "meaning_ar": "بني",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She had brown hair."
+   },
+   {
+    "word": "black",
+    "pos": "adjective",
+    "meaning_en": "the darkest colour",
+    "meaning_ar": "أسود",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He has short, straight, black hair."
+   },
+   {
+    "word": "blue",
+    "pos": "adjective",
+    "meaning_en": "the colour of the sky",
+    "meaning_ar": "أزرق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have blue eyes."
+   },
+   {
+    "word": "green",
+    "pos": "adjective",
+    "meaning_en": "the colour of grass",
+    "meaning_ar": "أخضر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He had green eyes."
+   },
+   {
+    "word": "curly",
+    "pos": "adjective",
+    "meaning_en": "with lots of curves (hair)",
+    "meaning_ar": "مجعد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Did he have curly hair?"
+   },
+   {
+    "word": "straight",
+    "pos": "adjective",
+    "meaning_en": "not curly (hair)",
+    "meaning_ar": "ناعم / مستقيم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She had straight hair."
+   },
+   {
+    "word": "birthday",
+    "pos": "noun",
+    "meaning_en": "the day you were born, every year",
+    "meaning_ar": "عيد الميلاد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's my birthday today."
+   },
+   {
+    "word": "birthday cake",
+    "pos": "noun",
+    "meaning_en": "a cake for someone's birthday",
+    "meaning_ar": "كعكة عيد الميلاد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Where's my birthday cake?"
+   },
+   {
+    "word": "someone",
+    "pos": "pronoun",
+    "meaning_en": "a person (we don't know who)",
+    "meaning_ar": "شخص ما",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I saw someone with a cake."
+   },
+   {
+    "word": "took",
+    "pos": "verb",
+    "meaning_en": "past of take",
+    "meaning_ar": "أخذ (ماضي take)",
+    "note_ar": "فعل شاذ: take → took.",
+    "note_en": "Irregular: take → took.",
+    "example": "Someone took Buli's birthday cake."
+   },
+   {
+    "word": "saw",
+    "pos": "verb",
+    "meaning_en": "past of see",
+    "meaning_ar": "رأى (ماضي see)",
+    "note_ar": "فعل شاذ: see → saw.",
+    "note_en": "Irregular: see → saw.",
+    "example": "I saw someone with a cake."
+   },
+   {
+    "word": "picture",
+    "pos": "noun",
+    "meaning_en": "a drawing or photo",
+    "meaning_ar": "صورة / رسم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Wow, nice picture!"
+   },
+   {
+    "word": "metre",
+    "pos": "noun",
+    "meaning_en": "a measure of length (100 cm)",
+    "meaning_ar": "متر",
+    "note_ar": "في أمريكا: meter.",
+    "note_en": "US spelling: meter.",
+    "example": "I'm one metre 70."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "What does he look like? vs What is he like?",
+    "words": [
+     "What does he look like?",
+     "What is he like?"
+    ],
+    "explanation_ar": "What does he look like? تسأل عن الشكل (الشعر، العيون، الطول). أما What is he like? فتسأل عن الشخصية.",
+    "explanation_en": "\"What does he look like?\" asks about appearance. \"What is he like?\" asks about personality.",
+    "examples": [
+     {
+      "word": "What does he look like?",
+      "sentence": "What does he look like? He has short, blond hair."
+     },
+     {
+      "word": "What is he like?",
+      "sentence": "What is he like? He's very friendly."
+     }
+    ]
+   },
+   {
+    "title": "has vs is",
+    "words": [
+     "has",
+     "is"
+    ],
+    "explanation_ar": "نستخدم has مع الشعر والعيون (He has blue eyes)، ونستخدم is مع الطول (He is tall). وفي الماضي: had و was.",
+    "explanation_en": "Use has for hair and eyes; use is for height. In the past: had and was.",
+    "examples": [
+     {
+      "word": "has",
+      "sentence": "She has long, brown hair."
+     },
+     {
+      "word": "is",
+      "sentence": "She is short."
+     }
+    ]
+   },
+   {
+    "title": "short vs long vs tall",
+    "words": [
+     "short",
+     "long",
+     "tall"
+    ],
+    "explanation_ar": "short لها معنيان: شعر قصير (عكس long) وشخص قصير (عكس tall). نستخدم long للشعر وtall للأشخاص.",
+    "explanation_en": "Short has two opposites: long (for hair) and tall (for people).",
+    "examples": [
+     {
+      "word": "short",
+      "sentence": "He has short hair, and he is short."
+     },
+     {
+      "word": "long",
+      "sentence": "She has long hair."
+     },
+     {
+      "word": "tall",
+      "sentence": "Tim is tall."
+     }
+    ]
+   },
+   {
+    "title": "curly vs straight",
+    "words": [
+     "curly",
+     "straight"
+    ],
+    "explanation_ar": "curly = شعر مجعد، straight = شعر ناعم مستقيم.",
+    "explanation_en": "Curly hair has curves; straight hair has no curves.",
+    "examples": [
+     {
+      "word": "curly",
+      "sentence": "He had curly hair."
+     },
+     {
+      "word": "straight",
+      "sentence": "She had straight hair."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What does he look like?",
+    "meaning_ar": "كيف يبدو شكله؟",
+    "meaning_en": "asking about appearance",
+    "example": "What does he look like? He's tall with brown eyes."
+   },
+   {
+    "phrase": "What did he look like?",
+    "meaning_ar": "كيف كان شكله؟",
+    "meaning_en": "asking about appearance in the past",
+    "example": "What did he look like? He had short hair."
+   },
+   {
+    "phrase": "It's my birthday today.",
+    "meaning_ar": "اليوم عيد ميلادي.",
+    "meaning_en": "saying today is your birthday",
+    "example": "It's my birthday today. Happy birthday!"
+   },
+   {
+    "phrase": "Happy birthday!",
+    "meaning_ar": "عيد ميلاد سعيد!",
+    "meaning_en": "a greeting on someone's birthday",
+    "example": "Happy birthday, Buli!"
+   },
+   {
+    "phrase": "I saw someone with a cake.",
+    "meaning_ar": "رأيت شخصًا معه كعكة.",
+    "meaning_en": "saying what you saw",
+    "example": "I saw someone with a cake near the door."
+   },
+   {
+    "phrase": "Was it a man or a woman?",
+    "meaning_ar": "هل كان رجلًا أم امرأة؟",
+    "meaning_en": "asking a choice question",
+    "example": "Was it a man or a woman? It was a man."
+   },
+   {
+    "phrase": "What colour hair did he have?",
+    "meaning_ar": "ما لون شعره؟",
+    "meaning_en": "asking about hair colour",
+    "example": "What colour hair did he have? He had blond hair."
+   },
+   {
+    "phrase": "Did he have curly hair or straight hair?",
+    "meaning_ar": "هل كان شعره مجعدًا أم ناعمًا؟",
+    "meaning_en": "asking about hair type",
+    "example": "Did he have curly hair or straight hair? Curly hair."
+   },
+   {
+    "phrase": "Was he tall or short?",
+    "meaning_ar": "هل كان طويلًا أم قصيرًا؟",
+    "meaning_en": "asking about height",
+    "example": "Was he tall or short? He was tall."
+   },
+   {
+    "phrase": "Is this him? Yes, that's him.",
+    "meaning_ar": "هل هذا هو؟ نعم، هذا هو.",
+    "meaning_en": "checking a person in a picture",
+    "example": "Is this him? Yes, that's him!"
+   },
+   {
+    "phrase": "Is this her? Yes, that's her!",
+    "meaning_ar": "هل هذه هي؟ نعم، هذه هي!",
+    "meaning_en": "checking a woman in a picture",
+    "example": "Is this her? Yes, that's her!"
+   },
+   {
+    "phrase": "Why do you all look so sad?",
+    "meaning_ar": "لماذا تبدون جميعًا حزينين جدًا؟",
+    "meaning_en": "asking why people look unhappy",
+    "example": "Why do you all look so sad? Someone took the cake!"
+   },
+   {
+    "phrase": "It's over there!",
+    "meaning_ar": "إنها هناك!",
+    "meaning_en": "showing where something is",
+    "example": "Where is my cake? It's over there!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Describing appearance: has / is",
+    "explanation_ar": "للشعر والعيون نستخدم has (أو have مع I/you): He has blue eyes. وللطول نستخدم is: He is tall. ويمكن وضع عدة صفات قبل hair: short, blond, curly hair.",
+    "explanation_en": "Use has/have for hair and eyes, and be for height. You can put several adjectives before hair.",
+    "examples": [
+     "He has short, blond, curly hair.",
+     "She has long, straight, brown hair and blue eyes.",
+     "He is tall.",
+     "I have blue eyes. I'm short."
+    ]
+   },
+   {
+    "title": "Describing in the past: had / was",
+    "explanation_ar": "عندما نصف شخصًا رأيناه في الماضي نستخدم had بدل has، وwas بدل is. والسؤال: What did he look like? Did he have ...? Was he ...?",
+    "explanation_en": "For the past, use had (not has) and was (not is). Questions: What did he look like? Did he have ...? Was he ...?",
+    "examples": [
+     "What did she look like? She had long hair.",
+     "Did he have curly hair or straight hair? He had curly hair.",
+     "Was she tall or short? She was short."
+    ]
+   },
+   {
+    "title": "Choice questions with or",
+    "explanation_ar": "نسأل سؤال اختيار بـ or، والجواب يختار واحدًا: Was it a man or a woman? It was a man.",
+    "explanation_en": "Use or to give a choice; the answer picks one.",
+    "examples": [
+     "Was it a man or a woman?",
+     "Was he tall or short?",
+     "Did she have curly hair or straight hair?"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "\"What does he look like?\" asks about his ...",
+   "choices": [
+    "personality",
+    "appearance",
+    "job",
+    "hobbies"
+   ],
+   "answer": 1,
+   "explanation_ar": "look like تسأل عن الشكل.",
+   "explanation_en": "\"Look like\" asks about appearance."
+  },
+  {
+   "question": "Complete: \"She ___ blue eyes.\"",
+   "choices": [
+    "is",
+    "has",
+    "does",
+    "have got is"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع العيون نستخدم has.",
+   "explanation_en": "Use has for eyes."
+  },
+  {
+   "question": "Complete: \"He ___ tall.\"",
+   "choices": [
+    "has",
+    "have",
+    "is",
+    "does"
+   ],
+   "answer": 2,
+   "explanation_ar": "مع الطول نستخدم is.",
+   "explanation_en": "Use is for height."
+  },
+  {
+   "question": "What is the opposite of curly hair?",
+   "choices": [
+    "long hair",
+    "blond hair",
+    "short hair",
+    "straight hair"
+   ],
+   "answer": 3,
+   "explanation_ar": "عكس curly هو straight.",
+   "explanation_en": "The opposite of curly is straight."
+  },
+  {
+   "question": "Complete (past): \"What did she look like?\" \"She ___ long hair.\"",
+   "choices": [
+    "had",
+    "has",
+    "have",
+    "was"
+   ],
+   "answer": 0,
+   "explanation_ar": "في الماضي نستخدم had.",
+   "explanation_en": "In the past, use had."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "He has hairs short.",
+    "He is short hairs.",
+    "He has short hair.",
+    "He have short hair."
+   ],
+   "answer": 2,
+   "explanation_ar": "الصفة قبل الاسم، وhair بدون s.",
+   "explanation_en": "Adjective before the noun; hair has no -s."
+  },
+  {
+   "question": "For hair, the opposite of short is ...",
+   "choices": [
+    "tall",
+    "long",
+    "big",
+    "small"
+   ],
+   "answer": 1,
+   "explanation_ar": "للشعر: short ↔ long.",
+   "explanation_en": "For hair: short ↔ long."
+  },
+  {
+   "question": "\"Was it a man or a woman?\" Choose the best answer.",
+   "choices": [
+    "Yes, it was.",
+    "It is a man or woman.",
+    "No, it wasn't.",
+    "It was a woman."
+   ],
+   "answer": 3,
+   "explanation_ar": "سؤال اختيار، نختار واحدًا.",
+   "explanation_en": "It's a choice question; pick one."
+  },
+  {
+   "question": "What is the past of \"take\"?",
+   "choices": [
+    "taked",
+    "taken",
+    "took",
+    "takes"
+   ],
+   "answer": 2,
+   "explanation_ar": "الفعل take شاذ وماضيه took.",
+   "explanation_en": "Take → took."
+  },
+  {
+   "question": "Someone points at a picture: \"Is this him?\" You agree. You say ...",
+   "choices": [
+    "Yes, that's him.",
+    "Yes, he's this.",
+    "Yes, that's he's.",
+    "Yes, him is."
+   ],
+   "answer": 0,
+   "explanation_ar": "الجواب الطبيعي: Yes, that's him.",
+   "explanation_en": "The natural answer is \"Yes, that's him.\""
+  }
+ ]
+}

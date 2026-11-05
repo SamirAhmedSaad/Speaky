@@ -1,0 +1,530 @@
+{
+ "title": "Describing your home",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "house",
+    "pos": "noun",
+    "meaning_en": "a building where people live",
+    "meaning_ar": "منزل / بيت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Look at my new house."
+   },
+   {
+    "word": "room",
+    "pos": "noun",
+    "meaning_en": "a part of a house with walls",
+    "meaning_ar": "غرفة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What rooms have you got in your house?"
+   },
+   {
+    "word": "living room",
+    "pos": "noun",
+    "meaning_en": "the room where you sit and relax",
+    "meaning_ar": "غرفة المعيشة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is the living room."
+   },
+   {
+    "word": "bedroom",
+    "pos": "noun",
+    "meaning_en": "the room where you sleep",
+    "meaning_ar": "غرفة النوم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is the bedroom."
+   },
+   {
+    "word": "dining room",
+    "pos": "noun",
+    "meaning_en": "the room where you eat meals",
+    "meaning_ar": "غرفة الطعام",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is the dining room."
+   },
+   {
+    "word": "kitchen",
+    "pos": "noun",
+    "meaning_en": "the room where you cook",
+    "meaning_ar": "المطبخ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is the kitchen."
+   },
+   {
+    "word": "furniture",
+    "pos": "noun",
+    "meaning_en": "things like beds, tables and chairs",
+    "meaning_ar": "الأثاث",
+    "note_ar": "غير معدودة: لا نقول furnitures ولا a furniture.",
+    "note_en": "Uncountable: no -s, no a.",
+    "example": "I think you need some furniture."
+   },
+   {
+    "word": "empty",
+    "pos": "adjective",
+    "meaning_en": "with nothing inside",
+    "meaning_ar": "فارغ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The room is a bit empty."
+   },
+   {
+    "word": "sofa",
+    "pos": "noun",
+    "meaning_en": "a long soft seat for two or more people",
+    "meaning_ar": "أريكة / كنبة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I need a sofa."
+   },
+   {
+    "word": "bookshelf",
+    "pos": "noun",
+    "meaning_en": "shelves for books",
+    "meaning_ar": "رف كتب / مكتبة",
+    "note_ar": "الجمع: bookshelves.",
+    "note_en": "Plural: bookshelves.",
+    "example": "I need a bookshelf."
+   },
+   {
+    "word": "TV",
+    "pos": "noun",
+    "meaning_en": "television",
+    "meaning_ar": "تلفاز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I need a TV."
+   },
+   {
+    "word": "rug",
+    "pos": "noun",
+    "meaning_en": "a small carpet on the floor",
+    "meaning_ar": "سجادة صغيرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "And I need a rug."
+   },
+   {
+    "word": "bed",
+    "pos": "noun",
+    "meaning_en": "the thing you sleep on",
+    "meaning_ar": "سرير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need a bed."
+   },
+   {
+    "word": "lamp",
+    "pos": "noun",
+    "meaning_en": "a small light on a table",
+    "meaning_ar": "مصباح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need a lamp."
+   },
+   {
+    "word": "bedside table",
+    "pos": "noun",
+    "meaning_en": "a small table next to a bed",
+    "meaning_ar": "طاولة بجانب السرير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need a bedside table."
+   },
+   {
+    "word": "wardrobe",
+    "pos": "noun",
+    "meaning_en": "a tall cupboard for clothes",
+    "meaning_ar": "خزانة ملابس",
+    "note_ar": "في أمريكا غالبًا: closet.",
+    "note_en": "US often: closet.",
+    "example": "You need a wardrobe."
+   },
+   {
+    "word": "table",
+    "pos": "noun",
+    "meaning_en": "furniture with a flat top and legs",
+    "meaning_ar": "طاولة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need a table."
+   },
+   {
+    "word": "chair",
+    "pos": "noun",
+    "meaning_en": "a seat for one person",
+    "meaning_ar": "كرسي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need four chairs."
+   },
+   {
+    "word": "drawers",
+    "pos": "noun",
+    "meaning_en": "boxes in furniture that you pull out",
+    "meaning_ar": "أدراج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need some drawers."
+   },
+   {
+    "word": "fridge",
+    "pos": "noun",
+    "meaning_en": "a cold box for keeping food",
+    "meaning_ar": "ثلاجة",
+    "note_ar": "اختصار refrigerator.",
+    "note_en": "Short for refrigerator.",
+    "example": "You need a fridge."
+   },
+   {
+    "word": "cupboard",
+    "pos": "noun",
+    "meaning_en": "furniture with doors for keeping things like plates",
+    "meaning_ar": "خزانة (مطبخ)",
+    "note_ar": "تُنطق كَبِرد، والـ p صامتة.",
+    "note_en": "Sounds like \"cubberd\"; the p is silent.",
+    "example": "You need some cupboards."
+   },
+   {
+    "word": "oven",
+    "pos": "noun",
+    "meaning_en": "a hot box for cooking food",
+    "meaning_ar": "فرن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need an oven."
+   },
+   {
+    "word": "microwave",
+    "pos": "noun",
+    "meaning_en": "a small oven that heats food very fast",
+    "meaning_ar": "ميكروويف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "And you need a microwave."
+   },
+   {
+    "word": "agree",
+    "pos": "verb",
+    "meaning_en": "have the same opinion",
+    "meaning_ar": "يوافق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That looks much better. I agree."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "a / an vs some",
+    "words": [
+     "a / an",
+     "some"
+    ],
+    "explanation_ar": "نستخدم a أو an مع الشيء المفرد (a sofa, an oven)، ونستخدم some مع الجمع (some cupboards, some drawers) ومع furniture.",
+    "explanation_en": "Use a/an with one thing. Use some with plurals and with furniture.",
+    "examples": [
+     {
+      "word": "a / an",
+      "sentence": "You need a fridge and an oven."
+     },
+     {
+      "word": "some",
+      "sentence": "You need some cupboards."
+     }
+    ]
+   },
+   {
+    "title": "a vs an",
+    "words": [
+     "a",
+     "an"
+    ],
+    "explanation_ar": "نستخدم an قبل الكلمة التي تبدأ بصوت حرف علة: an oven. وa قبل الصوت الساكن: a lamp.",
+    "explanation_en": "Use an before a vowel sound (an oven), a before a consonant sound (a lamp).",
+    "examples": [
+     {
+      "word": "a",
+      "sentence": "You need a microwave."
+     },
+     {
+      "word": "an",
+      "sentence": "You need an oven."
+     }
+    ]
+   },
+   {
+    "title": "have got vs has got",
+    "words": [
+     "have got",
+     "has got"
+    ],
+    "explanation_ar": "مع I / you / we / they نستخدم have got، ومع he / she / it نستخدم has got. والاختصار: I've got / She's got.",
+    "explanation_en": "I/you/we/they + have got; he/she/it + has got. Short: I've got, she's got.",
+    "examples": [
+     {
+      "word": "have got",
+      "sentence": "I've got a sofa in my living room."
+     },
+     {
+      "word": "has got",
+      "sentence": "She's got a bed and a lamp in her bedroom."
+     }
+    ]
+   },
+   {
+    "title": "wardrobe vs cupboard",
+    "words": [
+     "wardrobe",
+     "cupboard"
+    ],
+    "explanation_ar": "wardrobe = خزانة الملابس في غرفة النوم، وcupboard = خزانة للأطباق والطعام (غالبًا في المطبخ).",
+    "explanation_en": "A wardrobe is for clothes; a cupboard is for things like plates and food.",
+    "examples": [
+     {
+      "word": "wardrobe",
+      "sentence": "My clothes are in the wardrobe."
+     },
+     {
+      "word": "cupboard",
+      "sentence": "The plates are in the cupboard."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What's in your house?",
+    "meaning_ar": "ماذا يوجد في بيتك؟",
+    "meaning_en": "asking about someone's home",
+    "example": "What's in your house? A sofa, a TV and a rug."
+   },
+   {
+    "phrase": "Look at my new house.",
+    "meaning_ar": "انظر إلى بيتي الجديد.",
+    "meaning_en": "showing someone your home",
+    "example": "Look at my new house. This is the living room."
+   },
+   {
+    "phrase": "This is the living room.",
+    "meaning_ar": "هذه غرفة المعيشة.",
+    "meaning_en": "showing a room",
+    "example": "This is the living room."
+   },
+   {
+    "phrase": "Why aren't you excited?",
+    "meaning_ar": "لماذا لست متحمسًا؟",
+    "meaning_en": "asking why someone is not happy about it",
+    "example": "This is my new house. Why aren't you excited?"
+   },
+   {
+    "phrase": "It's a bit empty.",
+    "meaning_ar": "إنه فارغ بعض الشيء.",
+    "meaning_en": "saying there isn't much in it",
+    "example": "Well, it's a bit empty."
+   },
+   {
+    "phrase": "I think you need some furniture.",
+    "meaning_ar": "أظن أنك تحتاج إلى بعض الأثاث.",
+    "meaning_en": "giving advice",
+    "example": "The room is empty. I think you need some furniture."
+   },
+   {
+    "phrase": "You're right.",
+    "meaning_ar": "أنت محق.",
+    "meaning_en": "agreeing with someone",
+    "example": "Yes. You're right."
+   },
+   {
+    "phrase": "What else do I need?",
+    "meaning_ar": "ماذا أحتاج أيضًا؟",
+    "meaning_en": "asking for more ideas",
+    "example": "I need a sofa. What else do I need?"
+   },
+   {
+    "phrase": "What furniture do I need?",
+    "meaning_ar": "ما الأثاث الذي أحتاجه؟",
+    "meaning_en": "asking for advice about furniture",
+    "example": "This is the bedroom. What furniture do I need?"
+   },
+   {
+    "phrase": "That looks much better!",
+    "meaning_ar": "هذا يبدو أفضل بكثير!",
+    "meaning_en": "saying something has improved",
+    "example": "That looks much better! I agree."
+   },
+   {
+    "phrase": "I agree.",
+    "meaning_ar": "أوافقك.",
+    "meaning_en": "saying you have the same opinion",
+    "example": "That looks much better. I agree."
+   },
+   {
+    "phrase": "What rooms have you got in your house?",
+    "meaning_ar": "ما الغرف الموجودة في بيتك؟",
+    "meaning_en": "asking about the rooms in a home",
+    "example": "What rooms have you got in your house?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "have got / has got",
+    "explanation_ar": "نستخدم have got / has got لنقول ما نملكه، وهي شائعة في الإنجليزية البريطانية. I've got a sofa. She's got a bed. والسؤال: What have you got? What's she got?",
+    "explanation_en": "Use have got / has got to say what you have (common in British English). Questions: What have you got? What's she got?",
+    "examples": [
+     "I've got a sofa, a bookshelf, a TV and a rug.",
+     "She's got a bed, a lamp, a bedside table and a wardrobe.",
+     "What has Georgie got in her living room?",
+     "You've got a fridge, some cupboards, an oven and a microwave."
+    ]
+   },
+   {
+    "title": "I need + a / an / some",
+    "explanation_ar": "نستخدم need + اسم لنقول ما نحتاجه: a/an مع المفرد، وsome مع الجمع.",
+    "explanation_en": "Use need + noun: a/an for one thing, some for plurals.",
+    "examples": [
+     "I need a sofa.",
+     "You need an oven.",
+     "You need some cupboards.",
+     "You need four chairs."
+    ]
+   },
+   {
+    "title": "Lists with commas and and",
+    "explanation_ar": "عند ذكر عدة أشياء نفصل بينها بفواصل ونضع and قبل آخر شيء.",
+    "explanation_en": "In a list, use commas and put and before the last item.",
+    "examples": [
+     "I've got a table, four chairs and some drawers.",
+     "She's got a sofa, a bookshelf, a TV and a rug."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Where do you cook?",
+   "choices": [
+    "in the bedroom",
+    "in the kitchen",
+    "in the living room",
+    "in the dining room"
+   ],
+   "answer": 1,
+   "explanation_ar": "نطبخ في المطبخ: kitchen.",
+   "explanation_en": "We cook in the kitchen."
+  },
+  {
+   "question": "Where do you keep your clothes?",
+   "choices": [
+    "in the fridge",
+    "in the oven",
+    "in the wardrobe",
+    "in the microwave"
+   ],
+   "answer": 2,
+   "explanation_ar": "الملابس في خزانة الملابس: wardrobe.",
+   "explanation_en": "Clothes go in a wardrobe."
+  },
+  {
+   "question": "Complete: \"You need ___ oven.\"",
+   "choices": [
+    "a",
+    "an",
+    "some",
+    "two"
+   ],
+   "answer": 1,
+   "explanation_ar": "oven تبدأ بصوت حرف علة: an.",
+   "explanation_en": "Oven starts with a vowel sound: an."
+  },
+  {
+   "question": "Complete: \"She ___ got a sofa.\"",
+   "choices": [
+    "have",
+    "is",
+    "has",
+    "does"
+   ],
+   "answer": 2,
+   "explanation_ar": "مع she: has got.",
+   "explanation_en": "With she: has got."
+  },
+  {
+   "question": "Which word is uncountable?",
+   "choices": [
+    "chair",
+    "furniture",
+    "lamp",
+    "table"
+   ],
+   "answer": 1,
+   "explanation_ar": "furniture غير معدودة.",
+   "explanation_en": "Furniture is uncountable."
+  },
+  {
+   "question": "A cold box for food is a ...",
+   "choices": [
+    "fridge",
+    "rug",
+    "lamp",
+    "sofa"
+   ],
+   "answer": 0,
+   "explanation_ar": "fridge = ثلاجة.",
+   "explanation_en": "A fridge keeps food cold."
+  },
+  {
+   "question": "Complete: \"You need ___ cupboards.\"",
+   "choices": [
+    "a",
+    "an",
+    "one",
+    "some"
+   ],
+   "answer": 3,
+   "explanation_ar": "cupboards جمع: some.",
+   "explanation_en": "Cupboards is plural: some."
+  },
+  {
+   "question": "\"It's a bit empty\" means ...",
+   "choices": [
+    "There is not much in it.",
+    "It is very full.",
+    "It is very small.",
+    "It is new."
+   ],
+   "answer": 0,
+   "explanation_ar": "empty = فارغ.",
+   "explanation_en": "Empty = with nothing inside."
+  },
+  {
+   "question": "Where do you eat meals with your family?",
+   "choices": [
+    "the bedroom",
+    "the dining room",
+    "the wardrobe",
+    "the bookshelf"
+   ],
+   "answer": 1,
+   "explanation_ar": "نأكل في غرفة الطعام: dining room.",
+   "explanation_en": "We eat in the dining room."
+  },
+  {
+   "question": "\"That looks much better!\" \"___\"",
+   "choices": [
+    "I agree.",
+    "I need a bed.",
+    "It's a bit empty.",
+    "This is the kitchen."
+   ],
+   "answer": 0,
+   "explanation_ar": "I agree = أوافقك.",
+   "explanation_en": "\"I agree\" means you have the same opinion."
+  }
+ ]
+}

@@ -1,0 +1,398 @@
+{
+ "title": "Asking for and giving directions",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "lost",
+    "pos": "adjective",
+    "meaning_en": "not knowing where you are",
+    "meaning_ar": "تائه / ضائع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Excuse me, I'm lost."
+   },
+   {
+    "word": "train station",
+    "pos": "noun",
+    "meaning_en": "a place where trains stop",
+    "meaning_ar": "محطة قطار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Where is the train station?"
+   },
+   {
+    "word": "go straight",
+    "pos": "phrase",
+    "meaning_en": "continue in the same direction",
+    "meaning_ar": "امشِ مباشرةً / إلى الأمام",
+    "note_ar": "يقال أيضًا go straight on (بريطانية) أو go straight ahead",
+    "note_en": "Also \"go straight on\" (UK) or \"go straight ahead\".",
+    "example": "Go straight for two minutes."
+   },
+   {
+    "word": "go past",
+    "pos": "phrase",
+    "meaning_en": "walk or drive beside something and continue",
+    "meaning_ar": "تجاوز / امرُر بـ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Go past the school."
+   },
+   {
+    "word": "turn left",
+    "pos": "phrase",
+    "meaning_en": "change direction to the left",
+    "meaning_ar": "انعطف يسارًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Turn left at the bank."
+   },
+   {
+    "word": "turn right",
+    "pos": "phrase",
+    "meaning_en": "change direction to the right",
+    "meaning_ar": "انعطف يمينًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Turn right at the park."
+   },
+   {
+    "word": "next to",
+    "pos": "preposition",
+    "meaning_en": "very near, at the side of",
+    "meaning_ar": "بجانب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's next to the bank."
+   },
+   {
+    "word": "opposite",
+    "pos": "preposition",
+    "meaning_en": "on the other side, facing",
+    "meaning_ar": "مقابل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's opposite the park."
+   },
+   {
+    "word": "park",
+    "pos": "noun",
+    "meaning_en": "a public garden",
+    "meaning_ar": "حديقة عامة / منتزه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The station is opposite the park."
+   },
+   {
+    "word": "school",
+    "pos": "noun",
+    "meaning_en": "a place where children learn",
+    "meaning_ar": "مدرسة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Go past the school."
+   },
+   {
+    "word": "bank",
+    "pos": "noun",
+    "meaning_en": "a place that keeps money for people",
+    "meaning_ar": "بنك / مصرف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's next to the bank."
+   },
+   {
+    "word": "corner",
+    "pos": "noun",
+    "meaning_en": "the place where two streets meet",
+    "meaning_ar": "زاوية / ناصية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Turn left at the corner."
+   },
+   {
+    "word": "street",
+    "pos": "noun",
+    "meaning_en": "a road in a town",
+    "meaning_ar": "شارع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's on this street."
+   },
+   {
+    "word": "excuse me",
+    "pos": "phrase",
+    "meaning_en": "a polite way to get someone's attention",
+    "meaning_ar": "عفوًا / لو سمحت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Excuse me, where is the station?"
+   },
+   {
+    "word": "near",
+    "pos": "preposition",
+    "meaning_en": "not far from",
+    "meaning_ar": "قريب من",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Is there a bank near here?"
+   },
+   {
+    "word": "far",
+    "pos": "adjective",
+    "meaning_en": "a long way away",
+    "meaning_ar": "بعيد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Is it far? - No, it's near."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "next to / opposite",
+    "words": [
+     "next to",
+     "opposite"
+    ],
+    "explanation_ar": "next to تعني بجانبه مباشرة على نفس الجهة، و opposite تعني في الجهة المقابلة ووجهًا لوجه.",
+    "explanation_en": "\"Next to\" means beside. \"Opposite\" means on the other side, facing.",
+    "examples": [
+     {
+      "word": "next to",
+      "sentence": "The café is next to the bank."
+     },
+     {
+      "word": "opposite",
+      "sentence": "The station is opposite the park."
+     }
+    ]
+   },
+   {
+    "title": "go straight / turn",
+    "words": [
+     "go straight",
+     "turn"
+    ],
+    "explanation_ar": "go straight تعني الاستمرار في نفس الاتجاه، و turn تعني تغيير الاتجاه يمينًا أو يسارًا.",
+    "explanation_en": "\"Go straight\" means keep going the same way. \"Turn\" means change direction.",
+    "examples": [
+     {
+      "word": "go straight",
+      "sentence": "Go straight to the end of the road."
+     },
+     {
+      "word": "turn",
+      "sentence": "Then turn right."
+     }
+    ]
+   },
+   {
+    "title": "go past / go to",
+    "words": [
+     "go past",
+     "go to"
+    ],
+    "explanation_ar": "go past تعني المرور بجانب المكان ومتابعة السير، أما go to فتعني الذهاب إليه والوصول.",
+    "explanation_en": "\"Go past\" means pass it and continue. \"Go to\" means arrive there.",
+    "examples": [
+     {
+      "word": "go past",
+      "sentence": "Go past the school and turn left."
+     },
+     {
+      "word": "go to",
+      "sentence": "Go to the school and wait there."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "I'm lost.",
+    "meaning_ar": "أنا تائه.",
+    "meaning_en": "say you don't know where you are",
+    "example": "Excuse me, I'm lost. Can you help me?"
+   },
+   {
+    "phrase": "Where is the train station?",
+    "meaning_ar": "أين محطة القطار؟",
+    "meaning_en": "ask the way to a place",
+    "example": "Excuse me, where is the train station?"
+   },
+   {
+    "phrase": "Go straight.",
+    "meaning_ar": "امشِ مباشرة.",
+    "meaning_en": "tell someone to continue the same way",
+    "example": "Go straight and turn left."
+   },
+   {
+    "phrase": "Go past the school.",
+    "meaning_ar": "امرُر بالمدرسة.",
+    "meaning_en": "tell someone to pass a place",
+    "example": "Go past the school and the park."
+   },
+   {
+    "phrase": "Turn left. / Turn right.",
+    "meaning_ar": "انعطف يسارًا / يمينًا.",
+    "meaning_en": "tell someone to change direction",
+    "example": "Turn right at the corner."
+   },
+   {
+    "phrase": "It's next to the bank.",
+    "meaning_ar": "إنها بجانب البنك.",
+    "meaning_en": "say where a place is",
+    "example": "The bank is next to the supermarket."
+   },
+   {
+    "phrase": "It's opposite the park.",
+    "meaning_ar": "إنها مقابل الحديقة.",
+    "meaning_en": "say where a place is",
+    "example": "The hospital is opposite the park."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Imperatives for directions",
+    "explanation_ar": "لإعطاء التوجيهات نستخدم صيغة الأمر: الفعل في بداية الجملة بدون فاعل: Go straight. Turn left. Go past the school.",
+    "explanation_en": "To give directions, use the imperative: start with the verb and no subject.",
+    "examples": [
+     "Go straight.",
+     "Turn left.",
+     "Go past the school, and turn right."
+    ]
+   },
+   {
+    "title": "Prepositions of place: next to, opposite",
+    "explanation_ar": "نستخدم it's + حرف جر لوصف مكان الشيء: It's next to the bank. It's opposite the park.",
+    "explanation_en": "Use \"It's + preposition + place\" to say where something is.",
+    "examples": [
+     "It's next to the bank.",
+     "It's opposite the park.",
+     "The café is next to the school."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "You don't know where you are. You say: \"I'm ___.\"",
+   "choices": [
+    "lost",
+    "late",
+    "left",
+    "last"
+   ],
+   "answer": 0,
+   "explanation_ar": "lost = تائه.",
+   "explanation_en": "\"Lost\" means you don't know where you are."
+  },
+  {
+   "question": "\"It's opposite the park\" means ...",
+   "choices": [
+    "it's inside the park",
+    "it's on the other side, facing the park",
+    "it's behind the park",
+    "it's far from the park"
+   ],
+   "answer": 1,
+   "explanation_ar": "opposite = في الجهة المقابلة.",
+   "explanation_en": "\"Opposite\" means on the other side, facing it."
+  },
+  {
+   "question": "Go ___ the school and turn left.",
+   "choices": [
+    "at",
+    "in",
+    "past",
+    "on"
+   ],
+   "answer": 2,
+   "explanation_ar": "go past = امرُر بجانب.",
+   "explanation_en": "\"Go past\" means pass it."
+  },
+  {
+   "question": "Choose the correct direction.",
+   "choices": [
+    "You turn to left.",
+    "Turning left.",
+    "Turn the left.",
+    "Turn left."
+   ],
+   "answer": 3,
+   "explanation_ar": "صيغة الأمر: Turn left.",
+   "explanation_en": "The imperative is \"Turn left.\""
+  },
+  {
+   "question": "The café is ___ the bank. (beside it)",
+   "choices": [
+    "next to",
+    "opposite",
+    "far",
+    "lost"
+   ],
+   "answer": 0,
+   "explanation_ar": "next to = بجانب.",
+   "explanation_en": "\"Next to\" means beside."
+  },
+  {
+   "question": "How do you politely start a question to a stranger?",
+   "choices": [
+    "Hey you!",
+    "Excuse me, ...",
+    "Listen!",
+    "Go straight."
+   ],
+   "answer": 1,
+   "explanation_ar": "Excuse me طريقة مهذبة لبدء الكلام.",
+   "explanation_en": "\"Excuse me\" is polite."
+  },
+  {
+   "question": "Where ___ the train station?",
+   "choices": [
+    "are",
+    "am",
+    "is",
+    "do"
+   ],
+   "answer": 2,
+   "explanation_ar": "station مفرد، لذا is.",
+   "explanation_en": "\"Station\" is singular, so \"is\"."
+  },
+  {
+   "question": "\"Go straight\" means ...",
+   "choices": [
+    "turn around",
+    "turn left",
+    "stop",
+    "continue the same way"
+   ],
+   "answer": 3,
+   "explanation_ar": "go straight = استمر في نفس الاتجاه.",
+   "explanation_en": "\"Go straight\" means continue the same way."
+  },
+  {
+   "question": "Which word is a place where two streets meet?",
+   "choices": [
+    "corner",
+    "bank",
+    "park",
+    "station"
+   ],
+   "answer": 0,
+   "explanation_ar": "corner = زاوية الشارع.",
+   "explanation_en": "A corner is where two streets meet."
+  },
+  {
+   "question": "Is it ___? - No, it's near.",
+   "choices": [
+    "next",
+    "far",
+    "straight",
+    "past"
+   ],
+   "answer": 1,
+   "explanation_ar": "far عكس near.",
+   "explanation_en": "\"Far\" is the opposite of \"near\"."
+  }
+ ]
+}

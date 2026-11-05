@@ -1,0 +1,424 @@
+{
+  "title": "Health and Safety",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "health and safety",
+        "pos": "noun",
+        "meaning_en": "rules and actions that protect people from injury at work",
+        "meaning_ar": "الصحة والسلامة المهنية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Health and safety is important in every workplace."
+      },
+      {
+        "word": "accident",
+        "pos": "noun",
+        "meaning_en": "something bad that happens by chance and causes injury or damage",
+        "meaning_ar": "حادث",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There was an accident in the office today."
+      },
+      {
+        "word": "take a tumble",
+        "pos": "idiom",
+        "meaning_en": "to fall over",
+        "meaning_ar": "يسقط / يتعثر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Tom took a tumble while chasing a mouse."
+      },
+      {
+        "word": "trip over",
+        "pos": "phrasal verb",
+        "meaning_en": "to hit your foot on something and fall",
+        "meaning_ar": "يتعثّر بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He tripped over a box on the floor."
+      },
+      {
+        "word": "injury",
+        "pos": "noun",
+        "meaning_en": "harm done to a person's body",
+        "meaning_ar": "إصابة",
+        "note_ar": "الفعل: injure، والصفة: injured.",
+        "note_en": "Verb: injure. Adjective: injured.",
+        "example": "Were there any injuries?"
+      },
+      {
+        "word": "sprain",
+        "pos": "verb",
+        "meaning_en": "to injure a joint by twisting it",
+        "meaning_ar": "يلوي / يُصاب بالتواء",
+        "note_ar": "sprain أخف من break (كسر).",
+        "note_en": "A sprain is less serious than a break.",
+        "example": "He sprained his wrist."
+      },
+      {
+        "word": "first-aider",
+        "pos": "noun",
+        "meaning_en": "a person at work trained to give basic medical help",
+        "meaning_ar": "مسعف (في مكان العمل)",
+        "note_ar": "first aid = الإسعافات الأولية.",
+        "note_en": "First aid = basic medical help.",
+        "example": "Call the first-aider, please."
+      },
+      {
+        "word": "fill in a form",
+        "pos": "phrase",
+        "meaning_en": "to write information in the spaces on a form",
+        "meaning_ar": "يملأ استمارة",
+        "note_ar": "في الأمريكية: fill out.",
+        "note_en": "US English: fill out.",
+        "example": "You have to fill in an accident report form."
+      },
+      {
+        "word": "accident report form",
+        "pos": "noun",
+        "meaning_en": "an official form to record what happened in an accident",
+        "meaning_ar": "استمارة الإبلاغ عن حادث",
+        "note_ar": "يسمى أيضًا incident report form.",
+        "note_en": "Also called an incident report form.",
+        "example": "The accident report form is on the intranet."
+      },
+      {
+        "word": "procedure",
+        "pos": "noun",
+        "meaning_en": "the official way of doing something",
+        "meaning_ar": "إجراء رسمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's procedure and it's the law."
+      },
+      {
+        "word": "the law",
+        "pos": "noun",
+        "meaning_en": "the rules of a country",
+        "meaning_ar": "القانون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Reporting accidents at work is the law."
+      },
+      {
+        "word": "workplace",
+        "pos": "noun",
+        "meaning_en": "the place where people work",
+        "meaning_ar": "مكان العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The workplace must be safe."
+      },
+      {
+        "word": "intranet",
+        "pos": "noun",
+        "meaning_en": "a private computer network inside a company",
+        "meaning_ar": "الشبكة الداخلية للشركة",
+        "note_ar": "لا تخلط بينها و internet.",
+        "note_en": "Don't confuse with internet.",
+        "example": "You'll find the form on the company intranet."
+      },
+      {
+        "word": "cause",
+        "pos": "noun",
+        "meaning_en": "the thing that makes something happen",
+        "meaning_ar": "سبب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What was the cause of the accident?"
+      },
+      {
+        "word": "avoid",
+        "pos": "verb",
+        "meaning_en": "to stop something from happening",
+        "meaning_ar": "يتجنّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How could the accident have been avoided?"
+      },
+      {
+        "word": "store",
+        "pos": "verb",
+        "meaning_en": "to put things away in a place to keep them",
+        "meaning_ar": "يخزّن / يحفظ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Store boxes in the cupboard, not on the floor."
+      },
+      {
+        "word": "tidy",
+        "pos": "adjective",
+        "meaning_en": "neat and in order",
+        "meaning_ar": "مرتب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep the office tidy."
+      },
+      {
+        "word": "put things away",
+        "pos": "phrasal verb",
+        "meaning_en": "to put things in their correct place",
+        "meaning_ar": "يعيد الأشياء إلى مكانها",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Always put things away after you use them."
+      },
+      {
+        "word": "pest control",
+        "pos": "noun",
+        "meaning_en": "a service that removes animals like mice from buildings",
+        "meaning_ar": "مكافحة الآفات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you call pest control, please?"
+      },
+      {
+        "word": "eventful",
+        "pos": "adjective",
+        "meaning_en": "full of interesting or important events",
+        "meaning_ar": "حافل بالأحداث",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's been an eventful day in the office."
+      },
+      {
+        "word": "hurt",
+        "pos": "verb",
+        "meaning_en": "to feel pain",
+        "meaning_ar": "يؤلم",
+        "note_ar": "hurt – hurt – hurt.",
+        "note_en": "hurt – hurt – hurt.",
+        "example": "My arm really hurts."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "injury vs damage",
+        "words": [
+          "injury",
+          "damage"
+        ],
+        "explanation_ar": "injury تُستخدم للأذى الذي يصيب الإنسان أو الحيوان، أما damage فتُستخدم للضرر الذي يصيب الأشياء.",
+        "explanation_en": "Injury is harm to a person or animal. Damage is harm to things.",
+        "examples": [
+          {
+            "word": "injury",
+            "sentence": "He had a small injury to his arm."
+          },
+          {
+            "word": "damage",
+            "sentence": "The fire caused damage to the building."
+          }
+        ]
+      },
+      {
+        "title": "sprain vs break",
+        "words": [
+          "sprain",
+          "break"
+        ],
+        "explanation_ar": "sprain التواء في المفصل (مثل الكاحل أو الرسغ) وهو أخف. break كسر في العظم وهو أشد.",
+        "explanation_en": "A sprain is a twisted joint and is less serious. A break means the bone is broken.",
+        "examples": [
+          {
+            "word": "sprain",
+            "sentence": "She sprained her ankle on the stairs."
+          },
+          {
+            "word": "break",
+            "sentence": "He broke his leg playing football."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How did the accident happen?",
+        "meaning_ar": "كيف وقع الحادث؟",
+        "meaning_en": "A question on an accident report form.",
+        "example": "How did the accident happen? Please describe it."
+      },
+      {
+        "phrase": "What was the cause of the accident?",
+        "meaning_ar": "ما سبب الحادث؟",
+        "meaning_en": "Asking why the accident happened.",
+        "example": "What was the cause of the accident? A wet floor."
+      },
+      {
+        "phrase": "Were there any injuries?",
+        "meaning_ar": "هل كانت هناك أي إصابات؟",
+        "meaning_en": "Asking if anyone was hurt.",
+        "example": "Were there any injuries? Yes, one person hurt his hand."
+      },
+      {
+        "phrase": "How could the accident have been avoided?",
+        "meaning_ar": "كيف كان يمكن تجنّب الحادث؟",
+        "meaning_en": "Asking how to stop it happening again.",
+        "example": "How could the accident have been avoided? By keeping the floor dry."
+      },
+      {
+        "phrase": "He's had an accident.",
+        "meaning_ar": "لقد تعرّض لحادث.",
+        "meaning_en": "Telling people someone is hurt.",
+        "example": "Call a first-aider – Tom's had an accident."
+      },
+      {
+        "phrase": "It's procedure and it's the law.",
+        "meaning_ar": "إنه إجراء رسمي وهو أيضًا القانون.",
+        "meaning_en": "Explaining why something must be done.",
+        "example": "We have to report it. It's procedure and it's the law."
+      },
+      {
+        "phrase": "Do you need a hand with this form?",
+        "meaning_ar": "هل تحتاج إلى مساعدة في هذه الاستمارة؟",
+        "meaning_en": "Offering help.",
+        "example": "Do you need a hand with this form?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past questions with did and was/were",
+        "explanation_ar": "لنسأل عن حدث في الماضي نستخدم did + الفعل في المصدر (How did it happen?)، ومع الصفات والأسماء نستخدم was/were (What was the cause? Were there any injuries?).",
+        "explanation_en": "To ask about the past use did + base verb (How did it happen?), and was/were with nouns and adjectives (What was the cause? Were there any injuries?).",
+        "examples": [
+          "How did the accident happen?",
+          "What was the cause of the accident?",
+          "Were there any injuries?"
+        ]
+      },
+      {
+        "title": "could have been + past participle",
+        "explanation_ar": "could have been + التصريف الثالث (مبني للمجهول) يتحدث عن شيء كان ممكنًا في الماضي لكنه لم يحدث: How could the accident have been avoided? أي: كيف كان يمكن تجنبه؟",
+        "explanation_en": "could have been + past participle talks about something that was possible in the past but did not happen: How could the accident have been avoided?",
+        "examples": [
+          "How could the accident have been avoided?",
+          "The accident could have been avoided.",
+          "The box could have been stored in the cupboard."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which question asks why the accident happened?",
+      "choices": [
+        "What was the cause of the accident?",
+        "Were there any injuries?",
+        "Do you need a hand?",
+        "Would a biscuit help?"
+      ],
+      "answer": 0,
+      "explanation_ar": "cause تعني السبب.",
+      "explanation_en": "'Cause' means the reason."
+    },
+    {
+      "question": "Complete: 'How ___ the accident happen?'",
+      "choices": [
+        "were",
+        "was",
+        "did",
+        "does"
+      ],
+      "answer": 2,
+      "explanation_ar": "سؤال في الماضي مع فعل عادي: did + المصدر.",
+      "explanation_en": "Past question with a main verb: did + base verb."
+    },
+    {
+      "question": "Complete: '___ there any injuries?'",
+      "choices": [
+        "Did",
+        "Were",
+        "Was",
+        "Do"
+      ],
+      "answer": 1,
+      "explanation_ar": "injuries جمع، فنستخدم Were.",
+      "explanation_en": "'Injuries' is plural, so 'Were'."
+    },
+    {
+      "question": "Complete: 'How could the accident have been ___?'",
+      "choices": [
+        "avoids",
+        "avoid",
+        "avoiding",
+        "avoided"
+      ],
+      "answer": 3,
+      "explanation_ar": "could have been + التصريف الثالث.",
+      "explanation_en": "could have been + past participle."
+    },
+    {
+      "question": "What does 'trip over' mean?",
+      "choices": [
+        "hit your foot on something and fall",
+        "go on a short journey",
+        "jump very high",
+        "run away"
+      ],
+      "answer": 0,
+      "explanation_ar": "trip over تعني التعثر والسقوط.",
+      "explanation_en": "Trip over means hit your foot and fall."
+    },
+    {
+      "question": "A person at work trained to give basic medical help is a ___.",
+      "choices": [
+        "sales executive",
+        "pest controller",
+        "first-aider",
+        "new recruit"
+      ],
+      "answer": 2,
+      "explanation_ar": "first-aider هو المسعف.",
+      "explanation_en": "A first-aider gives basic medical help."
+    },
+    {
+      "question": "Tom didn't break his arm. He ___ it.",
+      "choices": [
+        "tripped",
+        "stored",
+        "sprained",
+        "avoided"
+      ],
+      "answer": 2,
+      "explanation_ar": "sprain تعني التواء وهو أخف من الكسر.",
+      "explanation_en": "A sprain is less serious than a break."
+    },
+    {
+      "question": "Where did Anna find the accident report form?",
+      "choices": [
+        "on the company intranet",
+        "in the restaurant",
+        "in Paul's biscuit tin",
+        "in France"
+      ],
+      "answer": 0,
+      "explanation_ar": "وجدت الاستمارة على الشبكة الداخلية للشركة.",
+      "explanation_en": "She found it on the company intranet."
+    },
+    {
+      "question": "Choose the correct word: 'The fire caused a lot of ___ to the building.'",
+      "choices": [
+        "hurt",
+        "injury",
+        "injuries",
+        "damage"
+      ],
+      "answer": 3,
+      "explanation_ar": "damage للأشياء و injury للأشخاص.",
+      "explanation_en": "Damage is for things; injury is for people."
+    },
+    {
+      "question": "How could Tom's accident have been avoided?",
+      "choices": [
+        "by buying more biscuits",
+        "by storing things away and keeping the office tidy",
+        "by getting a new phone",
+        "by closing the window"
+      ],
+      "answer": 1,
+      "explanation_ar": "قالت دنيس: خزّنوا الأشياء بشكل صحيح وحافظوا على ترتيب المكتب.",
+      "explanation_en": "Denise says: store things away properly and keep the office tidy."
+    }
+  ]
+}

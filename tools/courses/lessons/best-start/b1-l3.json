@@ -1,0 +1,581 @@
+{
+  "title": "Subject Pronouns",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "pronoun",
+        "pos": "noun",
+        "meaning_en": "a word we use instead of a noun, like he, she or it",
+        "meaning_ar": "ضمير",
+        "note_ar": "pro + noun: كلمة بديلة عن الاسم",
+        "note_en": "A pronoun takes the place of a noun.",
+        "example": "\"She\" is a pronoun."
+      },
+      {
+        "word": "I",
+        "pos": "pronoun",
+        "meaning_en": "the person who is speaking",
+        "meaning_ar": "أنا",
+        "note_ar": "يُكتب دائمًا بحرف كبير",
+        "note_en": "Always write it as a capital letter.",
+        "example": "I am Ali."
+      },
+      {
+        "word": "you",
+        "pos": "pronoun",
+        "meaning_en": "the person or people you are talking to",
+        "meaning_ar": "أنتَ / أنتِ / أنتم",
+        "note_ar": "نفس الكلمة للمفرد والجمع، للمذكر والمؤنث",
+        "note_en": "The same word for one person or many, male or female.",
+        "example": "You are my friend."
+      },
+      {
+        "word": "he",
+        "pos": "pronoun",
+        "meaning_en": "one male person",
+        "meaning_ar": "هو (للإنسان المذكر)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is Omar. He is my brother."
+      },
+      {
+        "word": "she",
+        "pos": "pronoun",
+        "meaning_en": "one female person",
+        "meaning_ar": "هي (للإنسان المؤنث)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is Mona. She is my sister."
+      },
+      {
+        "word": "it",
+        "pos": "pronoun",
+        "meaning_en": "one thing or animal (not a person)",
+        "meaning_ar": "هو / هي (لغير الإنسان المفرد)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my car. It is new."
+      },
+      {
+        "word": "we",
+        "pos": "pronoun",
+        "meaning_en": "the speaker and one or more other people",
+        "meaning_ar": "نحن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Salma and I like English. We study every day."
+      },
+      {
+        "word": "they",
+        "pos": "pronoun",
+        "meaning_en": "two or more people, animals or things",
+        "meaning_ar": "هم / هن (للعاقل وغير العاقل)",
+        "note_ar": "th تُنطق بإخراج طرف اللسان",
+        "note_en": "Put your tongue between your teeth for th.",
+        "example": "The cats are hungry. They want milk."
+      },
+      {
+        "word": "king",
+        "pos": "noun",
+        "meaning_en": "a man who rules a country",
+        "meaning_ar": "ملك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The king is old."
+      },
+      {
+        "word": "queen",
+        "pos": "noun",
+        "meaning_en": "a woman who rules a country, or a king's wife",
+        "meaning_ar": "ملكة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The queen is kind."
+      },
+      {
+        "word": "prince",
+        "pos": "noun",
+        "meaning_en": "the son of a king or queen",
+        "meaning_ar": "أمير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The prince is young."
+      },
+      {
+        "word": "princess",
+        "pos": "noun",
+        "meaning_en": "the daughter of a king or queen",
+        "meaning_ar": "أميرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The princess has a white horse."
+      },
+      {
+        "word": "dad",
+        "pos": "noun",
+        "meaning_en": "an informal word for father",
+        "meaning_ar": "بابا / أبي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My dad is a teacher."
+      },
+      {
+        "word": "mom",
+        "pos": "noun",
+        "meaning_en": "an informal word for mother",
+        "meaning_ar": "ماما / أمي",
+        "note_ar": "في بريطانيا: mum",
+        "note_en": "British English: mum.",
+        "example": "My mom is at home."
+      },
+      {
+        "word": "brother",
+        "pos": "noun",
+        "meaning_en": "a boy or man with the same parents as you",
+        "meaning_ar": "أخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is my brother."
+      },
+      {
+        "word": "sister",
+        "pos": "noun",
+        "meaning_en": "a girl or woman with the same parents as you",
+        "meaning_ar": "أخت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is my sister."
+      },
+      {
+        "word": "uncle",
+        "pos": "noun",
+        "meaning_en": "the brother of your mother or father",
+        "meaning_ar": "عم / خال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My uncle lives in Giza."
+      },
+      {
+        "word": "aunt",
+        "pos": "noun",
+        "meaning_en": "the sister of your mother or father",
+        "meaning_ar": "عمة / خالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My aunt is a doctor."
+      },
+      {
+        "word": "grandfather",
+        "pos": "noun",
+        "meaning_en": "the father of your mother or father",
+        "meaning_ar": "جد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My grandfather is seventy."
+      },
+      {
+        "word": "grandmother",
+        "pos": "noun",
+        "meaning_en": "the mother of your mother or father",
+        "meaning_ar": "جدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My grandmother makes good bread."
+      },
+      {
+        "word": "parents",
+        "pos": "noun",
+        "meaning_en": "your mother and father",
+        "meaning_ar": "الوالدان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My parents are at work."
+      },
+      {
+        "word": "cousin",
+        "pos": "noun",
+        "meaning_en": "the child of your uncle or aunt",
+        "meaning_ar": "ابن/بنت العم أو الخال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My cousin and I are in the same class."
+      },
+      {
+        "word": "friend",
+        "pos": "noun",
+        "meaning_en": "a person you know well and like",
+        "meaning_ar": "صديق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is my friend."
+      },
+      {
+        "word": "family",
+        "pos": "noun",
+        "meaning_en": "parents, children, brothers and sisters",
+        "meaning_ar": "عائلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My family and I live in Cairo."
+      },
+      {
+        "word": "lion",
+        "pos": "noun",
+        "meaning_en": "a big wild cat; the male has long hair round its head",
+        "meaning_ar": "أسد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The lion is strong."
+      },
+      {
+        "word": "rooster",
+        "pos": "noun",
+        "meaning_en": "a male chicken",
+        "meaning_ar": "ديك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The rooster wakes us up."
+      },
+      {
+        "word": "hen",
+        "pos": "noun",
+        "meaning_en": "a female chicken",
+        "meaning_ar": "دجاجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The hen lays eggs."
+      },
+      {
+        "word": "crocodile",
+        "pos": "noun",
+        "meaning_en": "a big animal with a long body and sharp teeth that lives near rivers",
+        "meaning_ar": "تمساح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The crocodile is in the river."
+      },
+      {
+        "word": "frog",
+        "pos": "noun",
+        "meaning_en": "a small green animal that jumps and lives near water",
+        "meaning_ar": "ضفدع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The frog is on a leaf."
+      },
+      {
+        "word": "chair",
+        "pos": "noun",
+        "meaning_en": "a seat for one person",
+        "meaning_ar": "كرسي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sit on the chair."
+      },
+      {
+        "word": "scissors",
+        "pos": "noun",
+        "meaning_en": "a tool with two blades for cutting paper",
+        "meaning_ar": "مقص",
+        "note_ar": "دائمًا جمع لأنه من جزأين: they",
+        "note_en": "Always plural because it has two parts: they.",
+        "example": "The scissors are on the desk."
+      },
+      {
+        "word": "glasses",
+        "pos": "noun",
+        "meaning_en": "two pieces of glass you wear to see better",
+        "meaning_ar": "نظارة",
+        "note_ar": "دائمًا جمع لأنها من جزأين: they",
+        "note_en": "Always plural because it has two parts: they.",
+        "example": "My glasses are new."
+      },
+      {
+        "word": "shorts",
+        "pos": "noun",
+        "meaning_en": "short trousers",
+        "meaning_ar": "شورت / بنطال قصير",
+        "note_ar": "دائمًا جمع: they",
+        "note_en": "Always plural: they.",
+        "example": "His shorts are blue."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "he vs she vs it",
+        "words": [
+          "he",
+          "she",
+          "it"
+        ],
+        "explanation_ar": "he للإنسان المذكر المفرد (ولد، رجل، أب). she للإنسان المؤنث المفرد (بنت، امرأة، أم). it لأي شيء أو حيوان مفرد ليس إنسانًا. يمكن أن نقول he أو she لحيوان نعرف أنه ذكر أو أنثى مثل lion و hen.",
+        "explanation_en": "He is for one male person. She is for one female person. It is for one thing or animal. We can use he or she for an animal when we know it is male or female, like a lion or a hen.",
+        "examples": [
+          {
+            "word": "he",
+            "sentence": "My uncle is here. He is tall."
+          },
+          {
+            "word": "she",
+            "sentence": "My aunt is here. She is kind."
+          },
+          {
+            "word": "it",
+            "sentence": "The chair is old. It is brown."
+          }
+        ]
+      },
+      {
+        "title": "it vs they",
+        "words": [
+          "it",
+          "they"
+        ],
+        "explanation_ar": "it لشيء واحد فقط (مفرد). إذا كانوا أكثر من واحد، سواء ناسًا أو أشياء أو حيوانات، نقول they.",
+        "explanation_en": "It is for one thing only. For more than one person, thing or animal, use they.",
+        "examples": [
+          {
+            "word": "it",
+            "sentence": "The cat is small. It is white."
+          },
+          {
+            "word": "they",
+            "sentence": "The cats are small. They are white."
+          }
+        ]
+      },
+      {
+        "title": "you (one) vs you (many)",
+        "words": [
+          "you",
+          "you"
+        ],
+        "explanation_ar": "you كلمة واحدة تعني أنتَ وأنتِ وأنتم. نفهم المعنى من الموقف.",
+        "explanation_en": "You is the same word for one person or many people. The situation shows the meaning.",
+        "examples": [
+          {
+            "word": "you",
+            "sentence": "Ali, you are a good student."
+          },
+          {
+            "word": "you",
+            "sentence": "Class, you are all good students."
+          }
+        ]
+      },
+      {
+        "title": "we vs they",
+        "words": [
+          "we",
+          "they"
+        ],
+        "explanation_ar": "we تشمل المتكلم (أنا + غيري). they لا تشمل المتكلم (هم فقط).",
+        "explanation_en": "We includes the speaker (me + others). They does not include the speaker.",
+        "examples": [
+          {
+            "word": "we",
+            "sentence": "Mom and I are at home. We are happy."
+          },
+          {
+            "word": "they",
+            "sentence": "Mom and Dad are at home. They are happy."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "This is Omar. He is my brother.",
+        "meaning_ar": "هذا عمر. هو أخي.",
+        "meaning_en": "Introducing a boy, then using he.",
+        "example": "This is Omar. He is my brother."
+      },
+      {
+        "phrase": "This is Rudy. She is my friend.",
+        "meaning_ar": "هذه رودي. هي صديقتي.",
+        "meaning_en": "Introducing a girl, then using she.",
+        "example": "This is Rudy. She is my friend."
+      },
+      {
+        "phrase": "It is big.",
+        "meaning_ar": "إنه كبير.",
+        "meaning_en": "Describing one thing.",
+        "example": "Look at the screen. It is big."
+      },
+      {
+        "phrase": "my family and I",
+        "meaning_ar": "عائلتي وأنا",
+        "meaning_en": "Another person + I = we. Put I last.",
+        "example": "My family and I live in Alexandria."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "What is a pronoun?",
+        "explanation_ar": "الضمير (pronoun) كلمة نستخدمها بدلًا من الاسم حتى لا نكرره. بدلًا من: Ahmed is a clever boy. Ahmed gets up early. نقول: Ahmed is a clever boy. He gets up early.",
+        "explanation_en": "A pronoun is a word we use instead of a noun so we do not repeat the noun again and again.",
+        "examples": [
+          "Ahmed is a clever boy. He gets up early.",
+          "My car is red. It is fast."
+        ]
+      },
+      {
+        "title": "The seven subject pronouns",
+        "explanation_ar": "ضمائر الفاعل سبعة: I (أنا)، you (أنت/أنتِ/أنتم)، he (هو للمذكر)، she (هي للمؤنث)، it (لغير الإنسان المفرد)، we (نحن)، they (هم للعاقل وغير العاقل). تأتي في أول الجملة قبل الفعل. ويُكتب I دائمًا بحرف كبير.",
+        "explanation_en": "There are seven subject pronouns: I, you, he, she, it, we, they. They come at the start of a sentence, before the verb. Always write I as a capital letter.",
+        "examples": [
+          "I am a student.",
+          "You are kind.",
+          "He is my dad.",
+          "She is my mom.",
+          "It is a cat.",
+          "We are friends.",
+          "They are my parents."
+        ]
+      },
+      {
+        "title": "Choosing the right pronoun",
+        "explanation_ar": "اسأل: هل هو إنسان؟ مذكر → he، مؤنث → she. ليس إنسانًا ومفرد → it. أنا + شخص آخر → we. أكثر من واحد (بدوني) → they.",
+        "explanation_en": "Ask: Is it a person? Male → he, female → she. Not a person and one → it. Me + another person → we. More than one (not me) → they.",
+        "examples": [
+          "Seif → he",
+          "Laila → she",
+          "a mango → it",
+          "Rawan and I → we",
+          "the boys → they"
+        ]
+      },
+      {
+        "title": "Things with two parts use they",
+        "explanation_ar": "بعض الأشياء تتكون من جزأين متشابهين فتكون دائمًا جمعًا ونقول عنها they: scissors (مقص)، glasses (نظارة)، shorts (شورت)، والأحذية والجوارب.",
+        "explanation_en": "Some things have two matching parts, so they are always plural and we use they: scissors, glasses, shorts, shoes, socks.",
+        "examples": [
+          "My glasses are new. They are black.",
+          "The scissors are sharp. They are on the table."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which pronoun can replace \"my grandfather\"?",
+      "choices": [
+        "she",
+        "it",
+        "he",
+        "they"
+      ],
+      "answer": 2,
+      "explanation_ar": "الجد إنسان مذكر، فنقول he.",
+      "explanation_en": "A grandfather is a male person, so we use he."
+    },
+    {
+      "question": "Which pronoun can replace \"the chair\"?",
+      "choices": [
+        "it",
+        "he",
+        "she",
+        "we"
+      ],
+      "answer": 0,
+      "explanation_ar": "الكرسي شيء مفرد غير إنسان، فنقول it.",
+      "explanation_en": "A chair is one thing, so we use it."
+    },
+    {
+      "question": "Which pronoun can replace \"Mom and I\"?",
+      "choices": [
+        "they",
+        "you",
+        "she",
+        "we"
+      ],
+      "answer": 3,
+      "explanation_ar": "أنا + شخص آخر = we (نحن).",
+      "explanation_en": "Another person + I = we."
+    },
+    {
+      "question": "Which pronoun can replace \"the cats\"?",
+      "choices": [
+        "it",
+        "they",
+        "he",
+        "we"
+      ],
+      "answer": 1,
+      "explanation_ar": "القطط جمع، و they تُستخدم للجمع العاقل وغير العاقل.",
+      "explanation_en": "Cats are more than one, so we use they."
+    },
+    {
+      "question": "Which pronoun can replace \"Laila\"?",
+      "choices": [
+        "he",
+        "it",
+        "she",
+        "I"
+      ],
+      "answer": 2,
+      "explanation_ar": "ليلى بنت، فنقول she.",
+      "explanation_en": "Laila is a girl, so we use she."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "i am a student.",
+        "I am a student.",
+        "Me am a student.",
+        "I is a student."
+      ],
+      "answer": 1,
+      "explanation_ar": "الضمير I يُكتب دائمًا بحرف كبير.",
+      "explanation_en": "The pronoun I is always a capital letter."
+    },
+    {
+      "question": "\"My glasses are new. ___ are black.\"",
+      "choices": [
+        "They",
+        "It",
+        "She",
+        "He"
+      ],
+      "answer": 0,
+      "explanation_ar": "glasses تتكون من جزأين فهي جمع: they.",
+      "explanation_en": "Glasses has two parts, so it is plural: they."
+    },
+    {
+      "question": "What does \"you\" mean?",
+      "choices": [
+        "نحن",
+        "هم",
+        "هو",
+        "أنت / أنتم"
+      ],
+      "answer": 3,
+      "explanation_ar": "you تعني أنتَ أو أنتِ أو أنتم.",
+      "explanation_en": "You can mean one person or many people."
+    },
+    {
+      "question": "\"This is my car. ___ is red.\"",
+      "choices": [
+        "She",
+        "He",
+        "They",
+        "It"
+      ],
+      "answer": 3,
+      "explanation_ar": "السيارة شيء مفرد غير إنسان: it.",
+      "explanation_en": "A car is one thing: it."
+    },
+    {
+      "question": "Which pronoun can replace \"my parents\"?",
+      "choices": [
+        "we",
+        "they",
+        "he",
+        "it"
+      ],
+      "answer": 1,
+      "explanation_ar": "الوالدان شخصان (بدوني)، فنقول they.",
+      "explanation_en": "Parents are two people (not me), so we use they."
+    }
+  ]
+}

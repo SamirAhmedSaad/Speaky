@@ -1,0 +1,396 @@
+{
+  "title": "Shopping at the Supermarket",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "supermarket",
+        "pos": "noun",
+        "meaning_en": "a big shop that sells food and things for the home",
+        "meaning_ar": "سوبرماركت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This supermarket is so big."
+      },
+      {
+        "word": "groceries",
+        "pos": "noun",
+        "meaning_en": "food and things you buy for the home",
+        "meaning_ar": "البقالة / مشتريات الطعام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to buy groceries for the party."
+      },
+      {
+        "word": "welcome party",
+        "pos": "noun",
+        "meaning_en": "a party for someone who is new",
+        "meaning_ar": "حفلة ترحيب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's have a welcome party for Tom."
+      },
+      {
+        "word": "snacks",
+        "pos": "noun",
+        "meaning_en": "small foods you eat between meals",
+        "meaning_ar": "وجبات خفيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Buy some snacks and drinks."
+      },
+      {
+        "word": "checkout counter",
+        "pos": "noun",
+        "meaning_en": "the place where you pay in a shop",
+        "meaning_ar": "مكان الدفع (الكاشير)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll meet at the checkout counter."
+      },
+      {
+        "word": "aisle",
+        "pos": "noun",
+        "meaning_en": "a long passage between shelves in a shop",
+        "meaning_ar": "ممرّ (بين الرفوف)",
+        "note_ar": "حرف s صامت: /aɪl/",
+        "note_en": "The s is silent: /aɪl/.",
+        "example": "Where is the drink aisle?"
+      },
+      {
+        "word": "staff",
+        "pos": "noun",
+        "meaning_en": "the people who work in a place",
+        "meaning_ar": "الموظفون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's ask the staff."
+      },
+      {
+        "word": "turn right",
+        "pos": "phrase",
+        "meaning_en": "go to the right side",
+        "meaning_ar": "انعطف يمينًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Just turn right."
+      },
+      {
+        "word": "next to",
+        "pos": "preposition",
+        "meaning_en": "beside",
+        "meaning_ar": "بجانب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The drink aisle is next to the snack aisle."
+      },
+      {
+        "word": "chips",
+        "pos": "noun",
+        "meaning_en": "thin fried potato slices in a bag (US)",
+        "meaning_ar": "رقائق البطاطس (شيبس)",
+        "note_ar": "في بريطانيا: crisps",
+        "note_en": "UK: crisps.",
+        "example": "We need to get some chips."
+      },
+      {
+        "word": "prefer",
+        "pos": "verb",
+        "meaning_en": "like one thing more than another",
+        "meaning_ar": "يفضّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Which ones do you prefer?"
+      },
+      {
+        "word": "vanilla",
+        "pos": "noun",
+        "meaning_en": "a sweet flavour used in cakes and ice cream",
+        "meaning_ar": "فانيلا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Chocolate or vanilla?"
+      },
+      {
+        "word": "strawberries",
+        "pos": "noun",
+        "meaning_en": "small red sweet fruits",
+        "meaning_ar": "فراولة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's get some strawberries."
+      },
+      {
+        "word": "grapes",
+        "pos": "noun",
+        "meaning_en": "small round green or purple fruits",
+        "meaning_ar": "عنب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love green grapes."
+      },
+      {
+        "word": "watermelon",
+        "pos": "noun",
+        "meaning_en": "a big green fruit, red inside",
+        "meaning_ar": "بطيخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Watermelon is good in summer."
+      },
+      {
+        "word": "celery",
+        "pos": "noun",
+        "meaning_en": "a green vegetable with long stems",
+        "meaning_ar": "كرفس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Carrots and celery are a healthy snack."
+      },
+      {
+        "word": "refreshing",
+        "pos": "adjective",
+        "meaning_en": "making you feel cool and fresh",
+        "meaning_ar": "منعش",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Cold juice is refreshing."
+      },
+      {
+        "word": "team effort",
+        "pos": "noun",
+        "meaning_en": "work that a group does together",
+        "meaning_ar": "جهد جماعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a team effort."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "chips (US) vs crisps (UK)",
+        "words": [
+          "chips",
+          "crisps"
+        ],
+        "explanation_ar": "في أمريكا chips تعني رقائق البطاطس في الكيس. في بريطانيا تسمى crisps، وchips هناك تعني البطاطس المقلية.",
+        "explanation_en": "In the US, \"chips\" are thin potato slices in a bag. In the UK these are \"crisps\", and \"chips\" are fries.",
+        "examples": [
+          {
+            "word": "chips",
+            "sentence": "(US) A bag of cheese chips, please."
+          },
+          {
+            "word": "crisps",
+            "sentence": "(UK) A packet of crisps, please."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Who's up for some supermarket shopping? / I'm in!",
+        "meaning_ar": "من يريد التسوق في السوبرماركت؟ / أنا معكم!",
+        "meaning_en": "Asking who wants to join; saying yes.",
+        "example": "Who's up for a walk? I'm in!"
+      },
+      {
+        "phrase": "We'll meet at the checkout counter.",
+        "meaning_ar": "سنلتقي عند مكان الدفع.",
+        "meaning_en": "Planning where to meet.",
+        "example": "We'll meet at the front door."
+      },
+      {
+        "phrase": "Excuse me, where are the snack and drink aisles?",
+        "meaning_ar": "عفوًا، أين ممرات الوجبات الخفيفة والمشروبات؟",
+        "meaning_en": "Asking staff for directions in a shop.",
+        "example": "Excuse me, where is the bread?"
+      },
+      {
+        "phrase": "Which ones do you prefer?",
+        "meaning_ar": "أيّها تفضّل؟",
+        "meaning_en": "Asking someone to choose.",
+        "example": "We have red and green apples. Which ones do you prefer?"
+      },
+      {
+        "phrase": "Let's go with those.",
+        "meaning_ar": "لنختر تلك.",
+        "meaning_en": "Making a choice.",
+        "example": "The cheese ones? OK, let's go with those."
+      },
+      {
+        "phrase": "Why don't we get both?",
+        "meaning_ar": "لماذا لا نأخذ الاثنين؟",
+        "meaning_en": "A suggestion.",
+        "example": "Cola or lemonade? Why don't we get both?"
+      },
+      {
+        "phrase": "That should be enough for everyone.",
+        "meaning_ar": "يجب أن يكون هذا كافيًا للجميع.",
+        "meaning_en": "Saying you have enough.",
+        "example": "Four pizzas. That should be enough for everyone."
+      },
+      {
+        "phrase": "How about strawberries and grapes?",
+        "meaning_ar": "ما رأيك في الفراولة والعنب؟",
+        "meaning_en": "Suggesting something.",
+        "example": "How about a chocolate cake?"
+      },
+      {
+        "phrase": "It was a team effort.",
+        "meaning_ar": "كان جهدًا جماعيًا.",
+        "meaning_en": "We all worked together.",
+        "example": "Thanks, but it was a team effort."
+      },
+      {
+        "phrase": "It's always more fun to shop with friends.",
+        "meaning_ar": "التسوق مع الأصدقاء دائمًا أكثر متعة.",
+        "meaning_en": "Shopping together is nice.",
+        "example": "It's more fun to study with friends."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Suggestions: Let's / How about / Why don't we",
+        "explanation_ar": "ثلاث طرق للاقتراح: Let's + فعل، How about + اسم أو V-ing، Why don't we + فعل?",
+        "explanation_en": "Three ways to suggest: \"Let's + verb\", \"How about + noun/-ing\", \"Why don't we + verb?\".",
+        "examples": [
+          "Let's ask the staff.",
+          "How about two cheese pizzas?",
+          "Why don't we get both?"
+        ]
+      },
+      {
+        "title": "Giving directions in a shop",
+        "explanation_ar": "للإرشاد: Turn right / left، It's next to ...، It's not far.",
+        "explanation_en": "Directions: \"Turn right/left\", \"It's next to ...\", \"It's not far\".",
+        "examples": [
+          "Just turn right.",
+          "The drink aisle is next to the snack aisle.",
+          "The bread is not far."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is an \"aisle\"?",
+      "choices": [
+        "a shop worker",
+        "a passage between shelves",
+        "a kind of snack",
+        "a checkout"
+      ],
+      "answer": 1,
+      "explanation_ar": "aisle ممر بين الرفوف.",
+      "explanation_en": "An aisle is a passage between shelves."
+    },
+    {
+      "question": "Which letter is silent in \"aisle\"?",
+      "choices": [
+        "a",
+        "i",
+        "e",
+        "s"
+      ],
+      "answer": 3,
+      "explanation_ar": "حرف s صامت.",
+      "explanation_en": "The s is silent."
+    },
+    {
+      "question": "\"Who's up for shopping?\" \"____\"",
+      "choices": [
+        "I'm in!",
+        "I'm up.",
+        "I'm shopping up.",
+        "Yes, it's up."
+      ],
+      "answer": 0,
+      "explanation_ar": "I'm in تعني أنا مشارك.",
+      "explanation_en": "\"I'm in\" means \"I will join\"."
+    },
+    {
+      "question": "____ don't we get both?",
+      "choices": [
+        "What",
+        "How",
+        "Why",
+        "Where"
+      ],
+      "answer": 2,
+      "explanation_ar": "Why don't we للاقتراح.",
+      "explanation_en": "\"Why don't we ...?\" is a suggestion."
+    },
+    {
+      "question": "How about ____ some fruit?",
+      "choices": [
+        "buy",
+        "to buy",
+        "buying",
+        "bought"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد How about نستخدم ing أو اسمًا.",
+      "explanation_en": "After \"How about\" use -ing or a noun."
+    },
+    {
+      "question": "The drink aisle is ____ the snack aisle.",
+      "choices": [
+        "next to",
+        "next",
+        "near of",
+        "beside of"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول next to.",
+      "explanation_en": "We say \"next to\"."
+    },
+    {
+      "question": "In British English, potato \"chips\" in a bag are called ...",
+      "choices": [
+        "fries",
+        "snacks",
+        "flakes",
+        "crisps"
+      ],
+      "answer": 3,
+      "explanation_ar": "في بريطانيا تسمى crisps.",
+      "explanation_en": "In the UK they are \"crisps\"."
+    },
+    {
+      "question": "\"Groceries\" are ...",
+      "choices": [
+        "party guests",
+        "food and home things you buy",
+        "shop workers",
+        "desserts only"
+      ],
+      "answer": 1,
+      "explanation_ar": "groceries مشتريات الطعام والمنزل.",
+      "explanation_en": "Groceries are food and home items."
+    },
+    {
+      "question": "Which fruit is big, green outside and red inside?",
+      "choices": [
+        "watermelon",
+        "grape",
+        "strawberry",
+        "celery"
+      ],
+      "answer": 0,
+      "explanation_ar": "البطيخ أخضر من الخارج وأحمر من الداخل.",
+      "explanation_en": "A watermelon."
+    },
+    {
+      "question": "Which ones do you ____? I like the cheese ones.",
+      "choices": [
+        "prefers",
+        "preferring",
+        "prefer",
+        "to prefer"
+      ],
+      "answer": 2,
+      "explanation_ar": "do you + الفعل الأساسي.",
+      "explanation_en": "do you + base verb."
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "title": "My Night Routine",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "night routine",
+        "pos": "noun",
+        "meaning_en": "the things you do every evening before bed",
+        "meaning_ar": "روتين المساء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My night routine is simple."
+      },
+      {
+        "word": "usual",
+        "pos": "adjective",
+        "meaning_en": "normal; what happens most times",
+        "meaning_ar": "معتاد",
+        "note_ar": "usually = عادةً",
+        "note_en": "Adverb: usually.",
+        "example": "It was the usual day."
+      },
+      {
+        "word": "unwind",
+        "pos": "verb",
+        "meaning_en": "relax after work or stress",
+        "meaning_ar": "يسترخي / يُريح أعصابه",
+        "note_ar": "تُنطق /ʌnˈwaɪnd/",
+        "note_en": "Say /ʌnˈwaɪnd/.",
+        "example": "I read a book to unwind."
+      },
+      {
+        "word": "hot shower",
+        "pos": "noun",
+        "meaning_en": "washing your body under hot water",
+        "meaning_ar": "حمّام بماء ساخن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A hot shower helps me sleep."
+      },
+      {
+        "word": "comfy",
+        "pos": "adjective",
+        "meaning_en": "comfortable (informal)",
+        "meaning_ar": "مريح (عامية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wear comfy clothes at home."
+      },
+      {
+        "word": "episode",
+        "pos": "noun",
+        "meaning_en": "one part of a TV series",
+        "meaning_ar": "حلقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I watch one episode every night."
+      },
+      {
+        "word": "be into",
+        "pos": "phrase",
+        "meaning_en": "like something very much (informal)",
+        "meaning_ar": "مهتم جدًا بـ / مولع بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm really into history books."
+      },
+      {
+        "word": "separate",
+        "pos": "verb",
+        "meaning_en": "keep two things apart",
+        "meaning_ar": "يفصل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I separate my work life from my home life."
+      },
+      {
+        "word": "point",
+        "pos": "noun",
+        "meaning_en": "an idea or opinion",
+        "meaning_ar": "فكرة / نقطة",
+        "note_ar": "That's a good point = هذه فكرة صحيحة",
+        "note_en": "That's a good point = you are right",
+        "example": "That's a good point."
+      },
+      {
+        "word": "distraction",
+        "pos": "noun",
+        "meaning_en": "something that takes your mind away from your problems",
+        "meaning_ar": "شيء يُلهي / تسلية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A walk is a good distraction."
+      },
+      {
+        "word": "the news",
+        "pos": "noun",
+        "meaning_en": "reports about what is happening in the world",
+        "meaning_ar": "الأخبار",
+        "note_ar": "تُعامل كمفرد: The news is...",
+        "note_en": "Singular: The news is...",
+        "example": "My father watches the news at eight."
+      },
+      {
+        "word": "podcast",
+        "pos": "noun",
+        "meaning_en": "a talk or show you listen to on the internet",
+        "meaning_ar": "بودكاست / برنامج صوتي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I listen to a podcast about science."
+      },
+      {
+        "word": "catch up",
+        "pos": "phrasal verb",
+        "meaning_en": "talk with someone about recent news",
+        "meaning_ar": "يتبادل الأخبار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I call my cousin to catch up."
+      },
+      {
+        "word": "scroll",
+        "pos": "verb",
+        "meaning_en": "move up or down on a phone screen",
+        "meaning_ar": "يتصفح (بتمرير الشاشة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't scroll through your phone at night."
+      },
+      {
+        "word": "social media",
+        "pos": "noun",
+        "meaning_en": "websites and apps for sharing with people",
+        "meaning_ar": "وسائل التواصل الاجتماعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I spend too much time on social media."
+      },
+      {
+        "word": "overwhelming",
+        "pos": "adjective",
+        "meaning_en": "too much to deal with",
+        "meaning_ar": "مُرهِق / طاغٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "So much news can be overwhelming."
+      },
+      {
+        "word": "disconnect",
+        "pos": "verb",
+        "meaning_en": "stop using phones and the internet for a time",
+        "meaning_ar": "ينقطع / يبتعد عن الأجهزة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I disconnect for an hour every evening."
+      },
+      {
+        "word": "joy",
+        "pos": "noun",
+        "meaning_en": "great happiness",
+        "meaning_ar": "فرح / سعادة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Reading brings me joy."
+      },
+      {
+        "word": "mental health",
+        "pos": "noun",
+        "meaning_en": "the health of your mind and feelings",
+        "meaning_ar": "الصحة النفسية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sleep is good for your mental health."
+      },
+      {
+        "word": "self-care",
+        "pos": "noun",
+        "meaning_en": "things you do to look after your own health",
+        "meaning_ar": "العناية بالنفس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Self-care is important after a long day."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "relax vs unwind",
+        "words": [
+          "relax",
+          "unwind"
+        ],
+        "explanation_ar": "المعنى متقارب: الاسترخاء. unwind تُستخدم خصوصًا بعد يوم عمل متعب أو ضغط.",
+        "explanation_en": "Both mean rest. \"Unwind\" is used especially after work or stress.",
+        "examples": [
+          {
+            "word": "relax",
+            "sentence": "I relax on the sofa."
+          },
+          {
+            "word": "unwind",
+            "sentence": "I need to unwind after work."
+          }
+        ]
+      },
+      {
+        "title": "comfortable vs comfy",
+        "words": [
+          "comfortable",
+          "comfy"
+        ],
+        "explanation_ar": "comfy هي الصيغة غير الرسمية من comfortable.",
+        "explanation_en": "\"Comfy\" is the informal word for \"comfortable\".",
+        "examples": [
+          {
+            "word": "comfortable",
+            "sentence": "These are comfortable shoes."
+          },
+          {
+            "word": "comfy",
+            "sentence": "My hoodie is so comfy!"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How was your day? — It was good, thanks.",
+        "meaning_ar": "كيف كان يومك؟ — كان جيدًا، شكرًا.",
+        "meaning_en": "Ask and answer about someone's day.",
+        "example": "How was your day? It was good, thanks."
+      },
+      {
+        "phrase": "I know the feeling.",
+        "meaning_ar": "أعرف هذا الشعور.",
+        "meaning_en": "Say you understand because the same happens to you.",
+        "example": "I'm tired after work. I know the feeling."
+      },
+      {
+        "phrase": "What do you usually do to unwind after work?",
+        "meaning_ar": "ماذا تفعل عادةً لتسترخي بعد العمل؟",
+        "meaning_en": "Ask about relaxing habits.",
+        "example": "What do you usually do to unwind after work? I read."
+      },
+      {
+        "phrase": "That's a good point.",
+        "meaning_ar": "هذه نقطة جيدة / معك حق.",
+        "meaning_en": "Agree with someone's idea.",
+        "example": "Sleep is important. That's a good point."
+      },
+      {
+        "phrase": "It's important to have some time to unwind.",
+        "meaning_ar": "من المهم أن يكون لديك وقت للاسترخاء.",
+        "meaning_en": "Give advice about rest.",
+        "example": "Work is busy, but it's important to have some time to unwind."
+      },
+      {
+        "phrase": "Or I'll call a friend and catch up.",
+        "meaning_ar": "أو أتصل بصديق ونتبادل الأخبار.",
+        "meaning_en": "Say another way you relax.",
+        "example": "Sometimes I'll call a friend and catch up."
+      },
+      {
+        "phrase": "It's important to disconnect.",
+        "meaning_ar": "من المهم أن تبتعد عن الأجهزة.",
+        "meaning_en": "Advise less screen time.",
+        "example": "Put your phone away. It's important to disconnect."
+      },
+      {
+        "phrase": "Thanks for the advice.",
+        "meaning_ar": "شكرًا على النصيحة.",
+        "meaning_en": "Thank someone for helping with an idea.",
+        "example": "Thanks for the advice, Sarah."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple with \"usually\" for habits",
+        "explanation_ar": "نستخدم المضارع البسيط مع usually للعادات: I usually watch the news. وفي السؤال: What do you usually do? (usually بعد الفاعل وقبل الفعل).",
+        "explanation_en": "Present simple + usually for habits. Usually goes before the main verb.",
+        "examples": [
+          "What do you usually do after work?",
+          "I usually watch the news.",
+          "I usually call my mother in the evening."
+        ]
+      },
+      {
+        "title": "\"It's important to + verb\" for advice",
+        "explanation_ar": "لنقدّم نصيحة عامة: It's important to + الفعل في أصله: It's important to disconnect.",
+        "explanation_en": "Give advice with It's important to + base verb.",
+        "examples": [
+          "It's important to disconnect.",
+          "It's important to have time to unwind.",
+          "It's important to sleep early."
+        ]
+      },
+      {
+        "title": "\"I like to\" + verb / \"I find that...\"",
+        "explanation_ar": "I like to + الفعل للعادات المحبوبة: I like to take a hot shower. و I find that... تعني لاحظت من تجربتي أن...",
+        "explanation_en": "I like to + verb for things you enjoy. I find that... = from my experience...",
+        "examples": [
+          "I like to take a hot shower.",
+          "I find that reading helps me relax.",
+          "I like to put on comfy clothes."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What do you usually do to ___ after work?",
+      "choices": [
+        "unwind",
+        "separate",
+        "scroll",
+        "overwhelm"
+      ],
+      "answer": 0,
+      "explanation_ar": "unwind تعني يسترخي.",
+      "explanation_en": "\"Unwind\" means relax."
+    },
+    {
+      "question": "\"Comfy\" means...",
+      "choices": [
+        "cold",
+        "comfortable",
+        "expensive",
+        "messy"
+      ],
+      "answer": 1,
+      "explanation_ar": "comfy = comfortable بشكل غير رسمي.",
+      "explanation_en": "Comfy is informal for comfortable."
+    },
+    {
+      "question": "How was your day? — It ___ good, thanks.",
+      "choices": [
+        "is",
+        "were",
+        "was",
+        "be"
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال بالماضي was، فالجواب It was.",
+      "explanation_en": "The question is past, so: It was."
+    },
+    {
+      "question": "I'm tired after work. — I know the ___.",
+      "choices": [
+        "point",
+        "feeling",
+        "news",
+        "joy"
+      ],
+      "answer": 1,
+      "explanation_ar": "العبارة: I know the feeling.",
+      "explanation_en": "The phrase is \"I know the feeling\"."
+    },
+    {
+      "question": "It's important ___ and do something you enjoy.",
+      "choices": [
+        "disconnect",
+        "disconnecting",
+        "to disconnect",
+        "disconnects"
+      ],
+      "answer": 2,
+      "explanation_ar": "It's important to + الفعل.",
+      "explanation_en": "It's important to + verb."
+    },
+    {
+      "question": "One part of a TV series is an ___.",
+      "choices": [
+        "episode",
+        "podcast",
+        "app",
+        "advice"
+      ],
+      "answer": 0,
+      "explanation_ar": "episode تعني حلقة.",
+      "explanation_en": "An episode is one part of a series."
+    },
+    {
+      "question": "I ___ watch the news. (= most days)",
+      "choices": [
+        "usual",
+        "usually",
+        "use",
+        "usualy"
+      ],
+      "answer": 1,
+      "explanation_ar": "الظرف usually يأتي قبل الفعل.",
+      "explanation_en": "The adverb \"usually\" goes before the verb."
+    },
+    {
+      "question": "Too much social media can be ___.",
+      "choices": [
+        "comfy",
+        "usual",
+        "overwhelming",
+        "fit"
+      ],
+      "answer": 2,
+      "explanation_ar": "overwhelming تعني مرهق وكثير جدًا.",
+      "explanation_en": "Overwhelming means too much."
+    },
+    {
+      "question": "Taking care of your own health is called ___.",
+      "choices": [
+        "social media",
+        "distraction",
+        "the news",
+        "self-care"
+      ],
+      "answer": 3,
+      "explanation_ar": "self-care العناية بالنفس.",
+      "explanation_en": "Self-care is caring for yourself."
+    },
+    {
+      "question": "Sometimes I call a friend and ___.",
+      "choices": [
+        "catch up",
+        "pick up",
+        "wake up",
+        "get up"
+      ],
+      "answer": 0,
+      "explanation_ar": "catch up تعني نتبادل الأخبار.",
+      "explanation_en": "\"Catch up\" means talk about recent news."
+    }
+  ]
+}

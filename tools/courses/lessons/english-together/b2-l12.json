@@ -1,0 +1,430 @@
+{
+  "title": "Making Sushi with Friends",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "sushi",
+        "pos": "noun",
+        "meaning_en": "a Japanese food of rice with fish or vegetables",
+        "meaning_ar": "سوشي (طعام ياباني)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We made sushi at home."
+      },
+      {
+        "word": "ingredients",
+        "pos": "noun",
+        "meaning_en": "the things you need to cook a dish",
+        "meaning_ar": "مكوّنات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I got all the ingredients we need."
+      },
+      {
+        "word": "seaweed",
+        "pos": "noun",
+        "meaning_en": "a plant that grows in the sea",
+        "meaning_ar": "أعشاب بحرية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sushi is wrapped in seaweed."
+      },
+      {
+        "word": "rice cooker",
+        "pos": "noun",
+        "meaning_en": "a machine that cooks rice",
+        "meaning_ar": "طنجرة طهي الأرز الكهربائية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a rice cooker in the kitchen."
+      },
+      {
+        "word": "occasion",
+        "pos": "noun",
+        "meaning_en": "a special time or event",
+        "meaning_ar": "مناسبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Tonight is the perfect occasion."
+      },
+      {
+        "word": "raw",
+        "pos": "adjective",
+        "meaning_en": "not cooked",
+        "meaning_ar": "نيّء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sushi often has raw fish."
+      },
+      {
+        "word": "fishmonger",
+        "pos": "noun",
+        "meaning_en": "a person who sells fish",
+        "meaning_ar": "بائع السمك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ask the fishmonger for advice."
+      },
+      {
+        "word": "advice",
+        "pos": "noun",
+        "meaning_en": "ideas to help you decide what to do",
+        "meaning_ar": "نصيحة",
+        "note_ar": "غير معدودة: some advice وليس an advice",
+        "note_en": "Uncountable: \"some advice\", not \"an advice\".",
+        "example": "Can you give me some advice?"
+      },
+      {
+        "word": "prep work",
+        "pos": "noun",
+        "meaning_en": "getting food ready before cooking (prep = preparation)",
+        "meaning_ar": "التحضير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you need help with the prep work?"
+      },
+      {
+        "word": "recipe",
+        "pos": "noun",
+        "meaning_en": "instructions for cooking a dish",
+        "meaning_ar": "وصفة طبخ",
+        "note_ar": "تُنطق: /ˈresəpi/",
+        "note_en": "Say: /ˈresəpi/ (three syllables).",
+        "example": "Do you have a recipe we can follow?"
+      },
+      {
+        "word": "season",
+        "pos": "verb",
+        "meaning_en": "add salt, spices or vinegar to give flavour",
+        "meaning_ar": "يتبّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Season the rice with vinegar."
+      },
+      {
+        "word": "vinegar",
+        "pos": "noun",
+        "meaning_en": "a sour liquid used in cooking",
+        "meaning_ar": "خلّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Add some rice vinegar."
+      },
+      {
+        "word": "cool",
+        "pos": "verb",
+        "meaning_en": "become less hot",
+        "meaning_ar": "يبرد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let the rice cool."
+      },
+      {
+        "word": "slice",
+        "pos": "verb",
+        "meaning_en": "cut into thin flat pieces",
+        "meaning_ar": "يقطّع شرائح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Slice the fish into thin pieces."
+      },
+      {
+        "word": "arrange",
+        "pos": "verb",
+        "meaning_en": "put things in a neat order",
+        "meaning_ar": "يرتّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Arrange the fish on top of the rice."
+      },
+      {
+        "word": "avocado",
+        "pos": "noun",
+        "meaning_en": "a green fruit with soft flesh and a big seed",
+        "meaning_ar": "أفوكادو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can add some avocado."
+      },
+      {
+        "word": "cucumber",
+        "pos": "noun",
+        "meaning_en": "a long green vegetable eaten raw",
+        "meaning_ar": "خيار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I put cucumber in my salad."
+      },
+      {
+        "word": "sesame seeds",
+        "pos": "noun",
+        "meaning_en": "very small seeds used on food",
+        "meaning_ar": "بذور السمسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sprinkle sesame seeds on top."
+      },
+      {
+        "word": "effort",
+        "pos": "noun",
+        "meaning_en": "hard work",
+        "meaning_ar": "جهد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was worth the effort."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "raw vs cooked",
+        "words": [
+          "raw",
+          "cooked"
+        ],
+        "explanation_ar": "raw = نيّء لم يُطبخ. cooked = مطبوخ.",
+        "explanation_en": "\"Raw\" = not cooked. \"Cooked\" = made hot and ready.",
+        "examples": [
+          {
+            "word": "raw",
+            "sentence": "Sushi uses raw fish."
+          },
+          {
+            "word": "cooked",
+            "sentence": "The rice must be cooked first."
+          }
+        ]
+      },
+      {
+        "title": "slice vs chop",
+        "words": [
+          "slice",
+          "chop"
+        ],
+        "explanation_ar": "slice = تقطيع إلى شرائح رقيقة مسطحة. chop = تقطيع إلى قطع صغيرة.",
+        "explanation_en": "\"Slice\" = cut into thin flat pieces. \"Chop\" = cut into small pieces.",
+        "examples": [
+          {
+            "word": "slice",
+            "sentence": "Slice the fish thinly."
+          },
+          {
+            "word": "chop",
+            "sentence": "Chop the onion into small pieces."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What's for dinner tonight?",
+        "meaning_ar": "ماذا لدينا على العشاء الليلة؟",
+        "meaning_en": "Asking about the evening meal.",
+        "example": "Mum, what's for dinner tonight?"
+      },
+      {
+        "phrase": "Should I be worried?",
+        "meaning_ar": "هل يجب أن أقلق؟",
+        "meaning_en": "Asking if something is a problem (often a joke).",
+        "example": "A surprise? Should I be worried?"
+      },
+      {
+        "phrase": "I trust you.",
+        "meaning_ar": "أنا أثق بك.",
+        "meaning_en": "I believe you.",
+        "example": "OK, I trust you."
+      },
+      {
+        "phrase": "We've never made it before.",
+        "meaning_ar": "لم نصنعه من قبل أبدًا.",
+        "meaning_en": "This is our first time.",
+        "example": "We've never visited Japan before."
+      },
+      {
+        "phrase": "This could be interesting.",
+        "meaning_ar": "قد يكون هذا ممتعًا / مثيرًا.",
+        "meaning_en": "Something new and maybe fun.",
+        "example": "Cooking with friends? This could be interesting."
+      },
+      {
+        "phrase": "You're really going all out.",
+        "meaning_ar": "أنت تبذل كل جهدك حقًا.",
+        "meaning_en": "You are doing a lot of work for it.",
+        "example": "You cooked five dishes? You're really going all out!"
+      },
+      {
+        "phrase": "Deal.",
+        "meaning_ar": "اتفقنا.",
+        "meaning_en": "I agree to your offer.",
+        "example": "You cook and I wash the dishes. Deal."
+      },
+      {
+        "phrase": "Do you need any help?",
+        "meaning_ar": "هل تحتاج إلى مساعدة؟",
+        "meaning_en": "Offering to help.",
+        "example": "Do you need any help with the cooking?"
+      },
+      {
+        "phrase": "Sounds easy enough.",
+        "meaning_ar": "يبدو سهلًا بما يكفي.",
+        "meaning_en": "It doesn't seem difficult.",
+        "example": "Cook the rice and let it cool? Sounds easy enough."
+      },
+      {
+        "phrase": "It turned out better than I expected.",
+        "meaning_ar": "جاء أفضل مما توقعت.",
+        "meaning_en": "The result was very good.",
+        "example": "The cake turned out better than I expected."
+      },
+      {
+        "phrase": "It was worth the effort.",
+        "meaning_ar": "كان يستحق الجهد.",
+        "meaning_en": "The hard work was good because the result is good.",
+        "example": "The long trip was worth the effort."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect with never",
+        "explanation_ar": "نستخدم have/has + never + التصريف الثالث لنقول إننا لم نفعل شيئًا أبدًا حتى الآن.",
+        "explanation_en": "Use have/has + never + past participle for something you have not done in your life until now.",
+        "examples": [
+          "We've never made sushi before.",
+          "I have never eaten seaweed.",
+          "She has never used a rice cooker."
+        ]
+      },
+      {
+        "title": "Instructions: imperatives and \"We just need to ...\"",
+        "explanation_ar": "في الوصفات نستخدم صيغة الأمر (Cook, Slice, Add) أو We just need to + الفعل.",
+        "explanation_en": "Recipes use imperatives (Cook, Slice, Add) or \"We just need to + verb\".",
+        "examples": [
+          "Cook the rice and let it cool.",
+          "Slice the fish into thin pieces.",
+          "We just need to arrange it on top of the rice."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Fish that is not cooked is ...",
+      "choices": [
+        "fresh",
+        "raw",
+        "sliced",
+        "seasoned"
+      ],
+      "answer": 1,
+      "explanation_ar": "raw تعني نيّء.",
+      "explanation_en": "\"Raw\" means not cooked."
+    },
+    {
+      "question": "A \"fishmonger\" is ...",
+      "choices": [
+        "a fish cook",
+        "a kind of fish",
+        "a rice machine",
+        "a person who sells fish"
+      ],
+      "answer": 3,
+      "explanation_ar": "fishmonger بائع السمك.",
+      "explanation_en": "A fishmonger sells fish."
+    },
+    {
+      "question": "We've ____ made sushi before.",
+      "choices": [
+        "never",
+        "ever",
+        "not",
+        "no"
+      ],
+      "answer": 0,
+      "explanation_ar": "We've never made تعني لم نصنع أبدًا.",
+      "explanation_en": "\"We've never made\" = not one time."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "Can you give me an advice?",
+        "Can you give me some advices?",
+        "Can you give me some advice?",
+        "Can you give me a advice?"
+      ],
+      "answer": 2,
+      "explanation_ar": "advice غير معدودة.",
+      "explanation_en": "\"Advice\" is uncountable."
+    },
+    {
+      "question": "\"Slice the fish into thin pieces.\" Slice means ...",
+      "choices": [
+        "cook",
+        "wash",
+        "cut into thin flat pieces",
+        "buy"
+      ],
+      "answer": 2,
+      "explanation_ar": "slice يقطّع شرائح.",
+      "explanation_en": "Slice = cut into thin flat pieces."
+    },
+    {
+      "question": "\"Deal.\" means ...",
+      "choices": [
+        "I agree.",
+        "I don't know.",
+        "Goodbye.",
+        "I'm hungry."
+      ],
+      "answer": 0,
+      "explanation_ar": "Deal تعني اتفقنا.",
+      "explanation_en": "\"Deal\" means \"I agree.\""
+    },
+    {
+      "question": "What is a recipe?",
+      "choices": [
+        "a cooking machine",
+        "a kind of rice",
+        "a market",
+        "instructions for making a dish"
+      ],
+      "answer": 3,
+      "explanation_ar": "recipe وصفة طبخ.",
+      "explanation_en": "A recipe tells you how to cook."
+    },
+    {
+      "question": "\"It turned out better than I expected.\" means ...",
+      "choices": [
+        "It was bad.",
+        "The result was good.",
+        "It fell down.",
+        "It turned around."
+      ],
+      "answer": 1,
+      "explanation_ar": "النتيجة كانت أفضل من المتوقع.",
+      "explanation_en": "The result was better than expected."
+    },
+    {
+      "question": "Season the rice ____ some rice vinegar.",
+      "choices": [
+        "with",
+        "at",
+        "on",
+        "by"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول season ... with.",
+      "explanation_en": "We say \"season with\"."
+    },
+    {
+      "question": "\"It was worth the effort.\" means ...",
+      "choices": [
+        "It cost a lot of money.",
+        "We didn't try.",
+        "The hard work was a good idea.",
+        "It was too hard."
+      ],
+      "answer": 2,
+      "explanation_ar": "كان يستحق الجهد.",
+      "explanation_en": "The hard work gave a good result."
+    }
+  ]
+}

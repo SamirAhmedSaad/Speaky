@@ -1,0 +1,403 @@
+{
+  "title": "At the Airport Check-in",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "check-in",
+        "pos": "noun",
+        "meaning_en": "the desk at the airport where you show your ticket and give your bags",
+        "meaning_ar": "مكتب تسجيل الوصول (في المطار)",
+        "note_ar": "الفعل: check in",
+        "note_en": "Verb: check in.",
+        "example": "Go to the check-in desk first."
+      },
+      {
+        "word": "passport",
+        "pos": "noun",
+        "meaning_en": "an official document you need to travel to other countries",
+        "meaning_ar": "جواز السفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I see your passport, please?"
+      },
+      {
+        "word": "suitcase",
+        "pos": "noun",
+        "meaning_en": "a large bag for clothes when you travel",
+        "meaning_ar": "حقيبة سفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Just one suitcase."
+      },
+      {
+        "word": "check in (a bag)",
+        "pos": "phrasal verb",
+        "meaning_en": "give your bag to the airline to carry",
+        "meaning_ar": "يسلّم الحقيبة للشحن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How many suitcases are you checking in?"
+      },
+      {
+        "word": "scale",
+        "pos": "noun",
+        "meaning_en": "a machine that weighs things",
+        "meaning_ar": "ميزان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Place your bag on the scale."
+      },
+      {
+        "word": "heavy",
+        "pos": "adjective",
+        "meaning_en": "weighing a lot",
+        "meaning_ar": "ثقيل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your bag is a bit too heavy."
+      },
+      {
+        "word": "weight requirement",
+        "pos": "noun",
+        "meaning_en": "the most a bag can weigh",
+        "meaning_ar": "الحد المسموح للوزن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is over our weight requirement."
+      },
+      {
+        "word": "carry-on bag",
+        "pos": "noun",
+        "meaning_en": "a small bag you take into the plane with you",
+        "meaning_ar": "حقيبة اليد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Put it in your carry-on bag."
+      },
+      {
+        "word": "electronics",
+        "pos": "noun",
+        "meaning_en": "devices like laptops and phones",
+        "meaning_ar": "أجهزة إلكترونية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have any electronics?"
+      },
+      {
+        "word": "security check",
+        "pos": "noun",
+        "meaning_en": "the place where they check you and your bags",
+        "meaning_ar": "التفتيش الأمني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Take your laptop out at the security check."
+      },
+      {
+        "word": "window seat",
+        "pos": "noun",
+        "meaning_en": "a seat next to the window",
+        "meaning_ar": "مقعد بجانب النافذة",
+        "note_ar": "العكس: aisle seat",
+        "note_en": "Other option: aisle seat.",
+        "example": "I would like a window seat."
+      },
+      {
+        "word": "boarding pass",
+        "pos": "noun",
+        "meaning_en": "the card you need to get on the plane",
+        "meaning_ar": "بطاقة صعود الطائرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me print your boarding pass."
+      },
+      {
+        "word": "gate",
+        "pos": "noun",
+        "meaning_en": "the door where you get on the plane",
+        "meaning_ar": "البوابة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Follow the signs to Gate 32."
+      },
+      {
+        "word": "boarding",
+        "pos": "noun",
+        "meaning_en": "getting on the plane",
+        "meaning_ar": "الصعود إلى الطائرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Boarding starts at 7."
+      },
+      {
+        "word": "departure",
+        "pos": "noun",
+        "meaning_en": "when the plane leaves",
+        "meaning_ar": "المغادرة / الإقلاع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Be at the gate one hour before departure."
+      },
+      {
+        "word": "journey",
+        "pos": "noun",
+        "meaning_en": "travelling from one place to another",
+        "meaning_ar": "رحلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have a safe journey!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "window seat vs aisle seat",
+        "words": [
+          "window seat",
+          "aisle seat"
+        ],
+        "explanation_ar": "window seat = بجانب النافذة. aisle seat = بجانب الممر.",
+        "explanation_en": "A \"window seat\" is next to the window. An \"aisle seat\" is next to the passage.",
+        "examples": [
+          {
+            "word": "window seat",
+            "sentence": "I want a window seat to see the view."
+          },
+          {
+            "word": "aisle seat",
+            "sentence": "An aisle seat is easy to get out of."
+          }
+        ]
+      },
+      {
+        "title": "suitcase vs carry-on bag",
+        "words": [
+          "suitcase",
+          "carry-on bag"
+        ],
+        "explanation_ar": "suitcase حقيبة كبيرة تُشحن. carry-on bag حقيبة صغيرة تأخذها معك داخل الطائرة.",
+        "explanation_en": "A suitcase goes under the plane. A carry-on bag stays with you in the plane.",
+        "examples": [
+          {
+            "word": "suitcase",
+            "sentence": "I'm checking in one suitcase."
+          },
+          {
+            "word": "carry-on bag",
+            "sentence": "My laptop is in my carry-on bag."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can I see your passport, please?",
+        "meaning_ar": "هل يمكنني رؤية جواز سفرك؟",
+        "meaning_en": "The airline worker asks for your passport.",
+        "example": "Can I see your ticket, please?"
+      },
+      {
+        "phrase": "Thanks for flying with us.",
+        "meaning_ar": "شكرًا لسفرك معنا.",
+        "meaning_en": "The airline thanks the traveller.",
+        "example": "Thanks for flying with us today."
+      },
+      {
+        "phrase": "How long will you stay? / I'll be there for a week.",
+        "meaning_ar": "كم ستبقى؟ / سأبقى أسبوعًا.",
+        "meaning_en": "Asking about length of stay.",
+        "example": "How long will you stay in Cairo? For two weeks."
+      },
+      {
+        "phrase": "How many suitcases are you checking in?",
+        "meaning_ar": "كم حقيبة ستشحن؟",
+        "meaning_en": "Asking about bags.",
+        "example": "How many bags are you checking in? Two."
+      },
+      {
+        "phrase": "Your bag is a bit too heavy.",
+        "meaning_ar": "حقيبتك ثقيلة قليلًا.",
+        "meaning_en": "The bag is over the limit.",
+        "example": "Sorry, your suitcase is too heavy."
+      },
+      {
+        "phrase": "What should I do?",
+        "meaning_ar": "ماذا يجب أن أفعل؟",
+        "meaning_en": "Asking for advice.",
+        "example": "I missed my bus. What should I do?"
+      },
+      {
+        "phrase": "Is that okay? / Yes, that's fine.",
+        "meaning_ar": "هل هذا مقبول؟ / نعم، لا بأس.",
+        "meaning_en": "Checking something is allowed.",
+        "example": "Can I take water? Is that okay?"
+      },
+      {
+        "phrase": "When does boarding start?",
+        "meaning_ar": "متى يبدأ الصعود إلى الطائرة؟",
+        "meaning_en": "Asking about time.",
+        "example": "When does boarding start? At 7."
+      },
+      {
+        "phrase": "How do I get to the gate?",
+        "meaning_ar": "كيف أصل إلى البوابة؟",
+        "meaning_en": "Asking for directions.",
+        "example": "How do I get to Gate 32?"
+      },
+      {
+        "phrase": "Follow the signs to Gate 32.",
+        "meaning_ar": "اتبع اللافتات إلى البوابة 32.",
+        "meaning_en": "Giving directions.",
+        "example": "Follow the signs to the exit."
+      },
+      {
+        "phrase": "Have a safe and happy journey!",
+        "meaning_ar": "رحلة آمنة وسعيدة!",
+        "meaning_en": "A kind goodbye.",
+        "example": "Have a safe journey home!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Future: will for plans and facts",
+        "explanation_ar": "نستخدم will للحديث عن المستقبل: How long will you stay? I'll be there for a week.",
+        "explanation_en": "Use \"will\" for the future.",
+        "examples": [
+          "How long will you stay in Tokyo?",
+          "I'll be there for a week.",
+          "I'll take this big book out."
+        ]
+      },
+      {
+        "title": "too + adjective",
+        "explanation_ar": "too + صفة = أكثر من المسموح أو اللازم (مشكلة).",
+        "explanation_en": "\"Too\" + adjective = more than allowed or needed.",
+        "examples": [
+          "Your bag is too heavy.",
+          "This seat is too small.",
+          "It's too late."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "The card you need to get on the plane is the ...",
+      "choices": [
+        "passport",
+        "boarding pass",
+        "brochure",
+        "suitcase"
+      ],
+      "answer": 1,
+      "explanation_ar": "بطاقة الصعود: boarding pass.",
+      "explanation_en": "The boarding pass."
+    },
+    {
+      "question": "A seat next to the window is a ...",
+      "choices": [
+        "aisle seat",
+        "gate seat",
+        "check-in seat",
+        "window seat"
+      ],
+      "answer": 3,
+      "explanation_ar": "مقعد النافذة.",
+      "explanation_en": "A window seat."
+    },
+    {
+      "question": "Your bag is a bit ____ heavy.",
+      "choices": [
+        "too",
+        "to",
+        "two",
+        "very much"
+      ],
+      "answer": 0,
+      "explanation_ar": "too + صفة.",
+      "explanation_en": "too + adjective."
+    },
+    {
+      "question": "A small bag you take into the plane is a ...",
+      "choices": [
+        "suitcase",
+        "scale",
+        "carry-on bag",
+        "gate"
+      ],
+      "answer": 2,
+      "explanation_ar": "حقيبة اليد.",
+      "explanation_en": "A carry-on bag."
+    },
+    {
+      "question": "How long ____ you stay in Tokyo?",
+      "choices": [
+        "do will",
+        "are",
+        "will",
+        "does"
+      ],
+      "answer": 2,
+      "explanation_ar": "الإجابة الصحيحة: How long will you stay.",
+      "explanation_en": "We say \"How long will you stay?\""
+    },
+    {
+      "question": "You show your passport at the ...",
+      "choices": [
+        "check-in desk",
+        "gate only",
+        "coffee shop",
+        "window seat"
+      ],
+      "answer": 0,
+      "explanation_ar": "عند مكتب تسجيل الوصول.",
+      "explanation_en": "At the check-in desk."
+    },
+    {
+      "question": "\"Follow the signs to Gate 32.\" means ...",
+      "choices": [
+        "Write a sign.",
+        "Wait at the coffee shop.",
+        "Go home.",
+        "Walk where the signs show."
+      ],
+      "answer": 3,
+      "explanation_ar": "امشِ حيث تشير اللافتات.",
+      "explanation_en": "Go where the signs point."
+    },
+    {
+      "question": "At the security check, you take out your ...",
+      "choices": [
+        "boarding pass only",
+        "laptop",
+        "seat",
+        "ticket desk"
+      ],
+      "answer": 1,
+      "explanation_ar": "تُخرج الحاسوب عند التفتيش.",
+      "explanation_en": "You take out your laptop."
+    },
+    {
+      "question": "\"When does boarding start?\" \"____\"",
+      "choices": [
+        "At 7.",
+        "At Gate 32.",
+        "One suitcase.",
+        "For a week."
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن الوقت.",
+      "explanation_en": "The question asks about time."
+    },
+    {
+      "question": "It is over our weight ____.",
+      "choices": [
+        "window",
+        "journey",
+        "requirement",
+        "departure"
+      ],
+      "answer": 2,
+      "explanation_ar": "weight requirement الحد المسموح.",
+      "explanation_en": "The weight limit."
+    }
+  ]
+}

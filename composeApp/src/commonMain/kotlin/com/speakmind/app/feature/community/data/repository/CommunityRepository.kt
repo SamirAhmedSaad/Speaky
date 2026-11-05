@@ -1,5 +1,7 @@
 package com.speakmind.app.feature.community.data.repository
 
+import com.speakmind.app.feature.community.data.model.AdminChat
+import com.speakmind.app.feature.community.data.model.AdminChatMessage
 import com.speakmind.app.feature.community.data.model.AdminReport
 import com.speakmind.app.feature.community.data.model.ChatRoom
 import com.speakmind.app.feature.community.data.model.CommunityLocalProfile
@@ -32,9 +34,17 @@ interface CommunityRepository {
     suspend fun updateProfile(nickname: String, gender: String)
     /** Uploads a new profile photo (JPEG/PNG bytes) and returns its URL. */
     suspend fun uploadAvatar(bytes: ByteArray): String
+    /** Saves a fun avatar pick ("avatar:fox") as the profile photo. */
+    suspend fun setPhotoUrl(url: String)
+    /** Uploads a public image under the signed-in user's avatars folder; returns the path written. */
+    suspend fun uploadPublicImage(path: String, bytes: ByteArray)
     suspend fun getUser(userId: String): CommunityUser?
     /** Unread private messages, for the badge on Home (0 when not signed in). */
     suspend fun unreadPrivateCount(): Int
+    /** Free users' private messages in the last 24 hours, counted on the server; null if unknown (offline, guest). */
+    suspend fun freePrivateMessages(): FreeMessages?
+    /** AI fixes the message's English, or translates it to English from any language (server-side, limited per day). */
+    suspend fun correctMessage(text: String, premium: Boolean): AiCorrection
     suspend fun getLocalProfile(): CommunityLocalProfile?
     suspend fun getUserNickname(): String
     suspend fun updateUserName(name: String)
@@ -63,8 +73,14 @@ interface CommunityRepository {
     suspend fun getRoom(roomId: String): ChatRoom?
     suspend fun roomMembers(roomId: String): List<GroupMember>
     suspend fun setMuted(roomId: String, muted: Boolean)
+
+    /** Hides a private chat and its history for me only; a new message brings it back. */
+    suspend fun clearPrivateChat(roomId: String)
     /** Returns the private chat room id with [otherUserId], creating it if needed. */
     suspend fun openDirectChat(otherUserId: String): String
+
+    /** Our existing private chat with this person, without creating one. */
+    suspend fun findDirectChat(otherUserId: String): String?
     suspend fun markRead(roomId: String)
     /** Emits whenever a message lands in any room visible to the user. */
     fun observeRoomActivity(): Flow<Unit>
@@ -112,6 +128,10 @@ interface CommunityRepository {
     suspend fun adminUnban(userId: String)
     suspend fun adminModerators(): List<CommunityUser>
     suspend fun adminSetModerator(userId: String, on: Boolean)
+    /** Every private chat, newest first (read-only moderation). */
+    suspend fun adminPrivateChats(pageSize: Int, after: AdminChat?): List<AdminChat>
+    /** A private chat's messages, newest first; [before] pages back. */
+    suspend fun adminChatMessages(roomId: String, pageSize: Int, before: AdminChatMessage?): List<AdminChatMessage>
 }
 
 interface RoomConnection {
@@ -166,3 +186,18 @@ fun friendlyCommunityError(e: Throwable, fallback: String): String {
 }
 
 const val DAILY_MESSAGE_LIMIT = 50
+
+/** [used] of [limit] free private messages sent in the last 24 hours; one comes back after [waitMs]. */
+data class FreeMessages(val used: Int, val limit: Int, val waitMs: Long) {
+    val left: Int get() = (limit - used).coerceAtLeast(0)
+}
+
+sealed interface AiCorrection {
+    /** [left]: free corrections left in the last 24 hours; null for Premium. */
+    data class Fixed(val text: String, val left: Int?) : AiCorrection
+    data class LimitReached(val limit: Int, val waitMs: Long) : AiCorrection
+    data class TooLong(val maxChars: Int) : AiCorrection
+    /** Every AI provider (main and fallback) is out of free quota or busy right now. */
+    data object OutOfQuota : AiCorrection
+    data object Failed : AiCorrection
+}

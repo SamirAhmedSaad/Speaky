@@ -1,0 +1,57 @@
+{
+  "title": "I Feel Super!",
+  "content": {
+    "vocabulary": [
+      {"word": "superhero", "pos": "noun", "meaning_en": "a story character with special powers who helps people", "meaning_ar": "بطل خارق", "note_ar": "", "note_en": "", "example": "My son loves superhero films."},
+      {"word": "convention", "pos": "noun", "meaning_en": "a large meeting of people with the same interest", "meaning_ar": "مؤتمر / ملتقى", "note_ar": "", "note_en": "", "example": "Tonight I'm going to the superhero convention."},
+      {"word": "decide", "pos": "verb", "meaning_en": "to choose after thinking", "meaning_ar": "يقرّر", "note_ar": "الاسم decision", "note_en": "Noun: decision.", "example": "You'd better decide soon."},
+      {"word": "sold out", "pos": "adjective", "meaning_en": "with no tickets or items left to buy", "meaning_ar": "نفدت التذاكر / بيع بالكامل", "note_ar": "", "note_en": "", "example": "Sorry, the tickets are sold out."},
+      {"word": "by accident", "pos": "phrase", "meaning_en": "not planned; by chance", "meaning_ar": "بالصدفة / عن غير قصد", "note_ar": "", "note_en": "", "example": "I found the old photo by accident."},
+      {"word": "unexpected", "pos": "adjective", "meaning_en": "surprising; not expected", "meaning_ar": "غير متوقّع", "note_ar": "", "note_en": "", "example": "We had an unexpected visitor."},
+      {"word": "lightning", "pos": "noun", "meaning_en": "a bright flash of electricity in the sky during a storm", "meaning_ar": "برق", "note_ar": "struck by lightning = ضربته صاعقة", "note_en": "struck by lightning", "example": "Lightning lit up the sky."},
+      {"word": "struck", "pos": "verb", "meaning_en": "past of strike: hit", "meaning_ar": "ضَرَبَ / أصابَ (ماضي strike)", "note_ar": "strike - struck - struck", "note_en": "strike - struck - struck", "example": "The tree was struck by lightning."},
+      {"word": "origin story", "pos": "noun", "meaning_en": "the story of how a superhero began", "meaning_ar": "قصة البداية / الأصل", "note_ar": "", "note_en": "", "example": "Every superhero has an origin story."},
+      {"word": "make sense", "pos": "phrase", "meaning_en": "to be easy to understand; to be logical", "meaning_ar": "يكون منطقيًا / مفهومًا", "note_ar": "", "note_en": "", "example": "You're not making any sense."},
+      {"word": "superpower", "pos": "noun", "meaning_en": "a special power, like flying", "meaning_ar": "قوة خارقة", "note_ar": "", "note_en": "", "example": "Flying is not my superpower."},
+      {"word": "read someone's mind", "pos": "phrase", "meaning_en": "to know what someone is thinking", "meaning_ar": "يقرأ أفكار شخص", "note_ar": "", "note_en": "", "example": "I'll read your mind."},
+      {"word": "invisible", "pos": "adjective", "meaning_en": "impossible to see", "meaning_ar": "غير مرئي / خفي", "note_ar": "عكسها visible", "note_en": "Opposite: visible.", "example": "Air is invisible."},
+      {"word": "force field", "pos": "noun", "meaning_en": "(in stories) an invisible wall that protects you", "meaning_ar": "درع طاقة (في القصص الخيالية)", "note_ar": "", "note_en": "", "example": "The spaceship had a force field."},
+      {"word": "ordinary", "pos": "adjective", "meaning_en": "normal; not special", "meaning_ar": "عادي", "note_ar": "", "note_en": "", "example": "It was just an ordinary day."},
+      {"word": "quest", "pos": "noun", "meaning_en": "a long search for something important", "meaning_ar": "رحلة بحث / مَهمّة", "note_ar": "", "note_en": "", "example": "The hero went on a quest."},
+      {"word": "confused", "pos": "adjective", "meaning_en": "not able to understand", "meaning_ar": "مرتبك / حائر", "note_ar": "", "note_en": "", "example": "Every time you speak, I get more confused."},
+      {"word": "stranger", "pos": "noun", "meaning_en": "a person you don't know", "meaning_ar": "شخص غريب", "note_ar": "", "note_en": "", "example": "Don't open the door to strangers."},
+      {"word": "had better ('d better)", "pos": "phrase", "meaning_en": "should (strong advice)", "meaning_ar": "من الأفضل أن / يجب أن (نصيحة قوية)", "note_ar": "", "note_en": "", "example": "You'd better see a doctor."},
+      {"word": "would rather ('d rather)", "pos": "phrase", "meaning_en": "would prefer", "meaning_ar": "يفضّل", "note_ar": "", "note_en": "", "example": "I'd rather walk."}
+    ],
+    "fine_lines": [
+      {"title": "had better vs should", "words": ["had better", "should"], "explanation_ar": "الاثنان لإعطاء النصيحة. had better أقوى من should وغير رسمية، وفيها معنى أن شيئًا سيئًا قد يحدث إن لم تفعل. بعدها فعل بدون to: You'd better go (وليس to go).", "explanation_en": "Both give advice. Had better is stronger and informal; it suggests something bad may happen if you don't. Use the base verb with no to: You'd better go.", "examples": [{"word": "had better", "sentence": "You'd better decide soon. It might sell out."}, {"word": "should", "sentence": "You should eat more vegetables."}]},
+      {"title": "'d better vs 'd rather", "words": ["'d better", "'d rather"], "explanation_ar": "الاختصار 'd في you'd better = you had better (نصيحة). أما في I'd rather = I would rather (تفضيل). بعد الاثنين فعل بدون to.", "explanation_en": "'d in you'd better = had (advice). 'd in I'd rather = would (preference). Both take the base verb with no to.", "examples": [{"word": "'d better", "sentence": "You'd better see a doctor."}, {"word": "'d rather", "sentence": "I'd rather go by myself."}]},
+      {"title": "lightning vs lighting", "words": ["lightning", "lighting"], "explanation_ar": "lightning (بحرف n) = البرق في العاصفة. lighting = الإضاءة في مكان.", "explanation_en": "Lightning (with n) is the flash in a storm. Lighting is the lights in a room.", "examples": [{"word": "lightning", "sentence": "She was struck by lightning."}, {"word": "lighting", "sentence": "The lighting in this room is too dark."}]}
+    ],
+    "expressions": [
+      {"phrase": "You'd better decide soon.", "meaning_ar": "من الأفضل أن تقرر بسرعة.", "meaning_en": "Decide quickly or there may be a problem.", "example": "Tickets are almost gone. You'd better decide soon."},
+      {"phrase": "Take your time.", "meaning_ar": "خذ وقتك.", "meaning_en": "There's no hurry.", "example": "Take your time. I can wait."},
+      {"phrase": "If I had to choose, I'd rather...", "meaning_ar": "لو كان عليّ أن أختار، لفضّلت...", "meaning_en": "Used to give your choice between two things.", "example": "If I had to choose, I'd rather live by the sea."},
+      {"phrase": "I've never felt better!", "meaning_ar": "لم أشعر بحال أفضل من هذه قط!", "meaning_en": "I feel great.", "example": "After my vacation, I've never felt better!"},
+      {"phrase": "What are you talking about?", "meaning_ar": "عمَّ تتحدث؟", "meaning_en": "I don't understand what you mean.", "example": "Me? A superhero? What are you talking about?"},
+      {"phrase": "That wasn't very nice.", "meaning_ar": "لم يكن ذلك لطيفًا.", "meaning_en": "That was unkind.", "example": "You laughed at him. That wasn't very nice."},
+      {"phrase": "That's very nice of you.", "meaning_ar": "هذا لطف منك.", "meaning_en": "Thank you for being kind.", "example": "You carried my bags? That's very nice of you."},
+      {"phrase": "Stand back.", "meaning_ar": "ابتعد للخلف.", "meaning_en": "Move away to a safe distance.", "example": "Stand back. The door is opening."}
+    ],
+    "grammar": [
+      {"title": "Had better and would rather", "explanation_ar": "1) had better + فعل (بدون to): لإعطاء نصيحة قوية وغير رسمية، أقوى من should و ought to، وغالبًا تعني أن نتيجة سيئة قد تحدث: You'd better decide soon. نختصر had مع الضمائر: you'd better, I'd better. النفي: had better not: You'd better not be late. 2) would rather + فعل (بدون to): للتعبير عن التفضيل: I'd rather walk. ونختصر would مع الضمائر: I'd rather. وللمقارنة نستخدم than: I'd rather walk than take a taxi. انتبه: 'd قد تعني had أو would، والكلمة التي بعدها (better أو rather) تخبرك بالمعنى.", "explanation_en": "1) Had better + base verb (no to): strong, informal advice, stronger than should and ought to; it often means something bad could happen: You'd better decide soon. Shorten had with pronouns: you'd better. Negative: You'd better not be late. 2) Would rather + base verb: to say what you prefer: I'd rather walk. Shorten would: I'd rather. Compare with than: I'd rather walk than take a taxi. Note: 'd can mean had or would; the next word (better or rather) tells you which.", "examples": ["You'd better decide soon. Last year, it sold out.", "If I had to choose, I'd rather be born a superhero.", "You'd better see a doctor.", "I'd rather go by myself."]}
+    ]
+  },
+  "questions": [
+    {"question": "It's raining hard. You'd better ____ an umbrella.", "choices": ["to take", "take", "taking", "took"], "answer": 1, "explanation_ar": "بعد had better فعل بدون to.", "explanation_en": "After had better, use the base verb."},
+    {"question": "I'd rather ____ tea than coffee.", "choices": ["drinking", "to drink", "drank", "drink"], "answer": 3, "explanation_ar": "بعد would rather فعل بدون to.", "explanation_en": "After would rather, use the base verb."},
+    {"question": "In 'You'd better go,' 'd means:", "choices": ["had", "would", "did", "could"], "answer": 0, "explanation_ar": "الاختصار هنا يعني had: you had better.", "explanation_en": "You'd better = you had better."},
+    {"question": "In 'I'd rather stay home,' 'd means:", "choices": ["had", "did", "would", "should"], "answer": 2, "explanation_ar": "الاختصار هنا يعني would: I would rather.", "explanation_en": "I'd rather = I would rather."},
+    {"question": "Which is the strongest advice?", "choices": ["You could see a doctor.", "You'd better see a doctor.", "Maybe see a doctor.", "You might see a doctor."], "answer": 1, "explanation_ar": "had better أقوى نصيحة بين هذه الخيارات.", "explanation_en": "Had better is the strongest advice here."},
+    {"question": "You'd better ____ late for the test.", "choices": ["not be", "don't be", "not to be", "be not"], "answer": 0, "explanation_ar": "النفي: had better not + فعل.", "explanation_en": "Negative: had better not + verb."},
+    {"question": "'Sold out' means:", "choices": ["very cheap", "closed forever", "on sale", "nothing left to buy"], "answer": 3, "explanation_ar": "sold out = نفد كله.", "explanation_en": "Sold out means nothing is left."},
+    {"question": "Impossible to see means ____.", "choices": ["ordinary", "confused", "invisible", "unexpected"], "answer": 2, "explanation_ar": "invisible = غير مرئي.", "explanation_en": "Invisible means you can't see it."},
+    {"question": "A person you don't know is a ____.", "choices": ["stranger", "superhero", "quest", "convention"], "answer": 0, "explanation_ar": "stranger = شخص غريب.", "explanation_en": "A stranger is someone you don't know."},
+    {"question": "'Take your time' means:", "choices": ["Hurry up.", "There's no hurry.", "What time is it?", "Take my watch."], "answer": 1, "explanation_ar": "تعني لا داعي للعجلة.", "explanation_en": "It means there is no hurry."}
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "title": "A Busy Week: Errands",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "annoying",
+        "pos": "adjective",
+        "meaning_en": "making you a little angry",
+        "meaning_ar": "مزعج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The noise is annoying."
+      },
+      {
+        "word": "slow",
+        "pos": "adjective",
+        "meaning_en": "not fast",
+        "meaning_ar": "بطيء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My computer is very slow."
+      },
+      {
+        "word": "cost",
+        "pos": "verb",
+        "meaning_en": "have a price of",
+        "meaning_ar": "يكلّف",
+        "note_ar": "cost too much = غالٍ جدًا",
+        "note_en": "cost too much = be too expensive",
+        "example": "This bag costs fifty dollars."
+      },
+      {
+        "word": "expensive",
+        "pos": "adjective",
+        "meaning_en": "costing a lot of money",
+        "meaning_ar": "غالٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "New phones are expensive."
+      },
+      {
+        "word": "appointment",
+        "pos": "noun",
+        "meaning_en": "a fixed time to see someone",
+        "meaning_ar": "موعد",
+        "note_ar": "make an appointment = يحجز موعدًا",
+        "note_en": "make an appointment",
+        "example": "I made an appointment with the doctor."
+      },
+      {
+        "word": "battery",
+        "pos": "noun",
+        "meaning_en": "the part that gives power to a phone",
+        "meaning_ar": "بطارية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My phone battery is low."
+      },
+      {
+        "word": "dentist",
+        "pos": "noun",
+        "meaning_en": "a doctor for teeth",
+        "meaning_ar": "طبيب أسنان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I go to the dentist twice a year."
+      },
+      {
+        "word": "teeth cleaning",
+        "pos": "noun",
+        "meaning_en": "when a dentist cleans your teeth",
+        "meaning_ar": "تنظيف الأسنان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a teeth cleaning on Monday."
+      },
+      {
+        "word": "painful",
+        "pos": "adjective",
+        "meaning_en": "hurting",
+        "meaning_ar": "مؤلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The injection was painful."
+      },
+      {
+        "word": "sensitive",
+        "pos": "adjective",
+        "meaning_en": "easily hurt by cold or heat",
+        "meaning_ar": "حسّاس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My teeth are sensitive to cold water."
+      },
+      {
+        "word": "decayed tooth",
+        "pos": "noun",
+        "meaning_en": "a tooth that is bad and damaged",
+        "meaning_ar": "سنّ متسوّسة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The dentist found a decayed tooth."
+      },
+      {
+        "word": "take out",
+        "pos": "phrasal verb",
+        "meaning_en": "remove",
+        "meaning_ar": "يخلع / يُخرج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The dentist will take out the tooth."
+      },
+      {
+        "word": "cavity",
+        "pos": "noun",
+        "meaning_en": "a hole in a tooth",
+        "meaning_ar": "تسوّس / تجويف في السن",
+        "note_ar": "الجمع: cavities",
+        "note_en": "Plural: cavities.",
+        "example": "Sugar can cause cavities."
+      },
+      {
+        "word": "fill",
+        "pos": "verb",
+        "meaning_en": "put material into a hole in a tooth",
+        "meaning_ar": "يحشو (السن)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The dentist will fill the cavity."
+      },
+      {
+        "word": "soft food",
+        "pos": "noun",
+        "meaning_en": "food that is easy to eat, like soup",
+        "meaning_ar": "طعام ليّن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Eat soft food after the dentist."
+      },
+      {
+        "word": "errands",
+        "pos": "noun",
+        "meaning_en": "short trips to do small jobs, like the bank or shop",
+        "meaning_ar": "مشاوير / مهام خارجية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have some errands to run today."
+      },
+      {
+        "word": "deserve",
+        "pos": "verb",
+        "meaning_en": "should get something because of what you did",
+        "meaning_ar": "يستحق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You worked hard. You deserve a rest."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "expensive vs costs too much",
+        "words": [
+          "expensive",
+          "cost too much"
+        ],
+        "explanation_ar": "expensive صفة (The phone is expensive)، و cost فعل (It costs too much). المعنى متقارب.",
+        "explanation_en": "\"Expensive\" is an adjective. \"Cost\" is a verb: it costs too much.",
+        "examples": [
+          {
+            "word": "expensive",
+            "sentence": "New phones are very expensive."
+          },
+          {
+            "word": "cost too much",
+            "sentence": "I want a new phone, but it costs too much."
+          }
+        ]
+      },
+      {
+        "title": "painful vs sensitive",
+        "words": [
+          "painful",
+          "sensitive"
+        ],
+        "explanation_ar": "painful تعني مؤلم (يسبب ألمًا)، و sensitive تعني حسّاس (يتأثر بسهولة بالبرد أو الحر).",
+        "explanation_en": "Painful = it hurts. Sensitive = easily hurt by cold or heat.",
+        "examples": [
+          {
+            "word": "painful",
+            "sentence": "The cleaning was painful."
+          },
+          {
+            "word": "sensitive",
+            "sentence": "My teeth feel sensitive."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How are you doing this week?",
+        "meaning_ar": "كيف حالك هذا الأسبوع؟",
+        "meaning_en": "A friendly greeting.",
+        "example": "Hi Sara! How are you doing this week?"
+      },
+      {
+        "phrase": "That is annoying.",
+        "meaning_ar": "هذا مزعج.",
+        "meaning_en": "React to a small problem.",
+        "example": "My phone is slow. Oh no, that is annoying."
+      },
+      {
+        "phrase": "It costs too much.",
+        "meaning_ar": "إنه غالٍ جدًا.",
+        "meaning_en": "Say the price is too high.",
+        "example": "I like that bag, but it costs too much."
+      },
+      {
+        "phrase": "I made an appointment.",
+        "meaning_ar": "حجزت موعدًا.",
+        "meaning_en": "Say you booked a time.",
+        "example": "I made an appointment with the dentist."
+      },
+      {
+        "phrase": "That is good to know.",
+        "meaning_ar": "من الجيد معرفة ذلك.",
+        "meaning_en": "Say information is useful.",
+        "example": "A new battery helps. That is good to know."
+      },
+      {
+        "phrase": "That sounds hard.",
+        "meaning_ar": "يبدو هذا صعبًا.",
+        "meaning_en": "Show you understand a difficulty.",
+        "example": "I have two exams tomorrow. That sounds hard."
+      },
+      {
+        "phrase": "You should rest and eat soft food.",
+        "meaning_ar": "يجب أن ترتاح وتأكل طعامًا ليّنًا.",
+        "meaning_en": "Give advice.",
+        "example": "You should rest and eat soft food for a few days."
+      },
+      {
+        "phrase": "We deserve a relaxing weekend.",
+        "meaning_ar": "نستحق عطلة مريحة.",
+        "meaning_en": "Say you earned a rest.",
+        "example": "We worked hard. We deserve a relaxing weekend."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past simple: what happened",
+        "explanation_ar": "للحديث عن أحداث انتهت: I made an appointment. I went to the dentist yesterday. My brother got a new battery last month. (make → made، go → went، get → got، tell → told)",
+        "explanation_en": "Past simple for finished actions: made, went, got, told.",
+        "examples": [
+          "I made an appointment to get a new battery.",
+          "I went to see the dentist yesterday.",
+          "The dentist told me that I have a decayed tooth."
+        ]
+      },
+      {
+        "title": "Future with will",
+        "explanation_ar": "نستخدم will للخطط والمستقبل: I will go to the dentist next Wednesday. He will take it out.",
+        "explanation_en": "Use will + base verb for the future.",
+        "examples": [
+          "I will go to the dentist again next Wednesday.",
+          "He will take it out.",
+          "The dentist will fill them later."
+        ]
+      },
+      {
+        "title": "should for advice",
+        "explanation_ar": "should + الفعل في أصله للنصيحة: You should rest.",
+        "explanation_en": "should + base verb gives advice.",
+        "examples": [
+          "You should rest.",
+          "You should eat soft food for a few days.",
+          "You should get a new battery."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "My phone is very slow. — Oh no, that is ___.",
+      "choices": [
+        "annoyed",
+        "annoying",
+        "annoy",
+        "annoys"
+      ],
+      "answer": 1,
+      "explanation_ar": "نصف الشيء المزعج بـ annoying.",
+      "explanation_en": "The thing is annoying."
+    },
+    {
+      "question": "I want a new phone, but it ___ too much.",
+      "choices": [
+        "cost",
+        "costs",
+        "costing",
+        "expensive"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع it نضيف s: costs.",
+      "explanation_en": "With \"it\": costs."
+    },
+    {
+      "question": "I ___ an appointment to get a new battery.",
+      "choices": [
+        "did",
+        "took",
+        "made",
+        "had"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول make an appointment، والماضي made.",
+      "explanation_en": "We say \"make an appointment\": made."
+    },
+    {
+      "question": "A hole in a tooth is a ___.",
+      "choices": [
+        "battery",
+        "cavity",
+        "cleaning",
+        "errand"
+      ],
+      "answer": 1,
+      "explanation_ar": "cavity تجويف أو تسوّس في السن.",
+      "explanation_en": "A cavity is a hole in a tooth."
+    },
+    {
+      "question": "I will go to the dentist ___ Wednesday.",
+      "choices": [
+        "last",
+        "next",
+        "yesterday",
+        "ago"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع will نستخدم next للمستقبل.",
+      "explanation_en": "With \"will\" we use \"next\"."
+    },
+    {
+      "question": "The dentist ___ take out the tooth next week.",
+      "choices": [
+        "did",
+        "was",
+        "is",
+        "will"
+      ],
+      "answer": 3,
+      "explanation_ar": "المستقبل: will + الفعل.",
+      "explanation_en": "Future: will + verb."
+    },
+    {
+      "question": "You ___ rest and eat soft food.",
+      "choices": [
+        "should",
+        "shoulds",
+        "should to",
+        "shouldn't to"
+      ],
+      "answer": 0,
+      "explanation_ar": "should + الفعل في أصله للنصيحة.",
+      "explanation_en": "should + base verb."
+    },
+    {
+      "question": "\"Errands\" are...",
+      "choices": [
+        "school exams",
+        "kinds of food",
+        "phone apps",
+        "short trips to do small jobs"
+      ],
+      "answer": 3,
+      "explanation_ar": "errands مشاوير لقضاء مهام صغيرة.",
+      "explanation_en": "Errands are small jobs outside."
+    },
+    {
+      "question": "The teeth cleaning was quite ___. It hurt!",
+      "choices": [
+        "soft",
+        "cheap",
+        "painful",
+        "slow"
+      ],
+      "answer": 2,
+      "explanation_ar": "painful تعني مؤلم.",
+      "explanation_en": "Painful means it hurts."
+    },
+    {
+      "question": "We worked hard. We ___ a relaxing weekend.",
+      "choices": [
+        "cost",
+        "fill",
+        "take out",
+        "deserve"
+      ],
+      "answer": 3,
+      "explanation_ar": "deserve تعني يستحق.",
+      "explanation_en": "Deserve means should get."
+    }
+  ]
+}

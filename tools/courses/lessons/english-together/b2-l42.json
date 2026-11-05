@@ -1,0 +1,457 @@
+{
+  "title": "My Friends: A New Life in New York",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "backpack",
+        "pos": "noun",
+        "meaning_en": "a bag you carry on your back",
+        "meaning_ar": "حقيبة ظهر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is carrying a backpack."
+      },
+      {
+        "word": "neighbor",
+        "pos": "noun",
+        "meaning_en": "a person who lives next to you",
+        "meaning_ar": "جار",
+        "note_ar": "في بريطانيا: neighbour",
+        "note_en": "UK: neighbour.",
+        "example": "Tom and I were neighbors."
+      },
+      {
+        "word": "flatmate",
+        "pos": "noun",
+        "meaning_en": "a person who shares a flat with you",
+        "meaning_ar": "شريك السكن",
+        "note_ar": "في أمريكا: roommate",
+        "note_en": "US: roommate.",
+        "example": "He's going to be our flatmate."
+      },
+      {
+        "word": "likewise",
+        "pos": "adverb",
+        "meaning_en": "the same to you",
+        "meaning_ar": "وأنا كذلك / بالمثل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Great to meet you.\" \"Likewise.\""
+      },
+      {
+        "word": "settle in",
+        "pos": "phrasal verb",
+        "meaning_en": "become comfortable in a new place",
+        "meaning_ar": "يستقر / يتأقلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll help you settle in."
+      },
+      {
+        "word": "nervous",
+        "pos": "adjective",
+        "meaning_en": "a little worried",
+        "meaning_ar": "متوتر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm a bit nervous about this new chapter."
+      },
+      {
+        "word": "chapter",
+        "pos": "noun",
+        "meaning_en": "a part of a book; a period of your life",
+        "meaning_ar": "فصل / مرحلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a new chapter in my life."
+      },
+      {
+        "word": "apartment",
+        "pos": "noun",
+        "meaning_en": "a set of rooms to live in, in a building",
+        "meaning_ar": "شقة",
+        "note_ar": "في بريطانيا: flat",
+        "note_en": "UK: flat.",
+        "example": "They enter their cozy apartment."
+      },
+      {
+        "word": "furniture",
+        "pos": "noun",
+        "meaning_en": "tables, chairs, beds, etc.",
+        "meaning_ar": "أثاث",
+        "note_ar": "غير معدود",
+        "note_en": "Uncountable.",
+        "example": "We can go furniture shopping."
+      },
+      {
+        "word": "hobby",
+        "pos": "noun",
+        "meaning_en": "something you do for fun",
+        "meaning_ar": "هواية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What are your hobbies?"
+      },
+      {
+        "word": "overcook",
+        "pos": "verb",
+        "meaning_en": "cook food too long",
+        "meaning_ar": "يُفرط في الطهي (يحرق الطعام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It seems I overcooked it."
+      },
+      {
+        "word": "takeout",
+        "pos": "noun",
+        "meaning_en": "food you buy from a restaurant to eat at home",
+        "meaning_ar": "طعام سفري",
+        "note_ar": "في بريطانيا: takeaway",
+        "note_en": "UK: takeaway.",
+        "example": "We'll have to order takeout."
+      },
+      {
+        "word": "confidence",
+        "pos": "noun",
+        "meaning_en": "believing in yourself",
+        "meaning_ar": "الثقة بالنفس",
+        "note_ar": "",
+        "note_en": "Adjective: confident.",
+        "example": "I struggle with confidence."
+      },
+      {
+        "word": "gym",
+        "pos": "noun",
+        "meaning_en": "a place for exercise",
+        "meaning_ar": "صالة رياضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Join a gym!"
+      },
+      {
+        "word": "workout",
+        "pos": "noun",
+        "meaning_en": "a session of exercise",
+        "meaning_ar": "تمرين رياضي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was quite a workout."
+      },
+      {
+        "word": "lift weights",
+        "pos": "phrase",
+        "meaning_en": "pick up heavy weights for exercise",
+        "meaning_ar": "يرفع الأثقال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's go lift some weights."
+      },
+      {
+        "word": "keep up",
+        "pos": "phrasal verb",
+        "meaning_en": "move or work as fast as someone else",
+        "meaning_ar": "يُجاري / يواكب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't keep up!"
+      },
+      {
+        "word": "checkout counter",
+        "pos": "noun",
+        "meaning_en": "the place where you pay in a shop",
+        "meaning_ar": "مكان الدفع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll meet at the checkout counter."
+      },
+      {
+        "word": "gift",
+        "pos": "noun",
+        "meaning_en": "a present",
+        "meaning_ar": "هدية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What gift should we get her?"
+      },
+      {
+        "word": "puzzle",
+        "pos": "noun",
+        "meaning_en": "a game with pieces you put together",
+        "meaning_ar": "لغز / أحجية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Maya loves puzzles."
+      },
+      {
+        "word": "afraid of heights",
+        "pos": "phrase",
+        "meaning_en": "scared of high places",
+        "meaning_ar": "يخاف من الأماكن المرتفعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is afraid of heights."
+      },
+      {
+        "word": "backup plan",
+        "pos": "noun",
+        "meaning_en": "a second plan if the first one fails",
+        "meaning_ar": "خطة بديلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Good thing you had a backup plan."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "flatmate (UK) vs roommate (US)",
+        "words": [
+          "flatmate",
+          "roommate"
+        ],
+        "explanation_ar": "flatmate كلمة بريطانية لشخص يشاركك الشقة. roommate كلمة أمريكية بنفس المعنى تقريبًا.",
+        "explanation_en": "\"Flatmate\" (UK) and \"roommate\" (US) both mean a person you share a home with.",
+        "examples": [
+          {
+            "word": "flatmate",
+            "sentence": "Alex is my flatmate."
+          },
+          {
+            "word": "roommate",
+            "sentence": "Living with roommates is new to me."
+          }
+        ]
+      },
+      {
+        "title": "takeout (US) vs takeaway (UK)",
+        "words": [
+          "takeout",
+          "takeaway"
+        ],
+        "explanation_ar": "الكلمتان تعنيان طعامًا تشتريه من مطعم وتأكله في البيت.",
+        "explanation_en": "Both mean restaurant food you take home to eat.",
+        "examples": [
+          {
+            "word": "takeout",
+            "sentence": "Let's order takeout tonight."
+          },
+          {
+            "word": "takeaway",
+            "sentence": "We had a takeaway on Friday."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I haven't seen him in years.",
+        "meaning_ar": "لم أره منذ سنوات.",
+        "meaning_en": "A long time has passed.",
+        "example": "I haven't seen my cousin in years."
+      },
+      {
+        "phrase": "It's been so long!",
+        "meaning_ar": "مرّ وقت طويل!",
+        "meaning_en": "Greeting an old friend.",
+        "example": "Hi Tom! It's been so long!"
+      },
+      {
+        "phrase": "Nice to meet you. / Likewise.",
+        "meaning_ar": "تشرفت بمعرفتك. / وأنا كذلك.",
+        "meaning_en": "Meeting someone new.",
+        "example": "Nice to meet you, Alex. Likewise."
+      },
+      {
+        "phrase": "Emily has told me so much about you.",
+        "meaning_ar": "أخبرتني إيميلي الكثير عنك.",
+        "meaning_en": "A friendly thing to say when you meet someone.",
+        "example": "My brother has told me so much about you."
+      },
+      {
+        "phrase": "I couldn't have asked for better flatmates.",
+        "meaning_ar": "ما كنت لأحظى بشركاء سكن أفضل.",
+        "meaning_en": "You are very happy with people.",
+        "example": "I couldn't have asked for a better teacher."
+      },
+      {
+        "phrase": "We'll show you the best places and help you settle in.",
+        "meaning_ar": "سنريك أفضل الأماكن ونساعدك على الاستقرار.",
+        "meaning_en": "Offering help to a newcomer.",
+        "example": "Welcome! We'll help you settle in."
+      },
+      {
+        "phrase": "Change can be scary, but it's a chance to grow.",
+        "meaning_ar": "التغيير قد يكون مخيفًا، لكنه فرصة للنمو.",
+        "meaning_en": "Encouraging someone.",
+        "example": "A new school can be scary, but it's a chance to grow."
+      },
+      {
+        "phrase": "What do you do for fun?",
+        "meaning_ar": "ماذا تفعل للتسلية؟",
+        "meaning_en": "Asking about hobbies.",
+        "example": "What do you do for fun? I like reading."
+      },
+      {
+        "phrase": "It's always good to try before saying no.",
+        "meaning_ar": "من الجيد دائمًا أن تجرب قبل أن ترفض.",
+        "meaning_en": "Encouraging someone to try.",
+        "example": "Taste it first. It's always good to try before saying no."
+      },
+      {
+        "phrase": "I can't keep up!",
+        "meaning_ar": "لا أستطيع المجاراة!",
+        "meaning_en": "Someone is faster or stronger.",
+        "example": "You walk too fast. I can't keep up!"
+      },
+      {
+        "phrase": "It wasn't my cup of tea.",
+        "meaning_ar": "لم يكن على ذوقي.",
+        "meaning_en": "You didn't like it (polite, informal).",
+        "example": "Horror films are not my cup of tea."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "used to + verb (past habits)",
+        "explanation_ar": "used to + الفعل الأساسي لعادة في الماضي لم تعد موجودة.",
+        "explanation_en": "Use \"used to + verb\" for past habits that are not true now.",
+        "examples": [
+          "I used to take care of him.",
+          "We used to play together as kids.",
+          "He used to live in London."
+        ]
+      },
+      {
+        "title": "Present perfect: haven't seen / has told",
+        "explanation_ar": "have/has + التصريف الثالث لربط الماضي بالحاضر: I haven't seen him in years. Emily has told me about you.",
+        "explanation_en": "have/has + past participle connects past and now.",
+        "examples": [
+          "I haven't seen him in years.",
+          "Emily has told me so much about you.",
+          "I've always dreamed of living here."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "In American English, a \"flatmate\" is a ...",
+      "choices": [
+        "neighbor",
+        "roommate",
+        "backpack",
+        "classmate"
+      ],
+      "answer": 1,
+      "explanation_ar": "في أمريكا roommate.",
+      "explanation_en": "US: roommate."
+    },
+    {
+      "question": "\"Nice to meet you.\" \"____\"",
+      "choices": [
+        "Goodbye.",
+        "Long time.",
+        "I'm fine.",
+        "Likewise."
+      ],
+      "answer": 3,
+      "explanation_ar": "Likewise تعني وأنا كذلك.",
+      "explanation_en": "\"Likewise\" = the same to you."
+    },
+    {
+      "question": "I ____ take care of him when we were kids.",
+      "choices": [
+        "used to",
+        "use to",
+        "using to",
+        "am used"
+      ],
+      "answer": 0,
+      "explanation_ar": "used to لعادة في الماضي.",
+      "explanation_en": "\"Used to\" = past habit."
+    },
+    {
+      "question": "I haven't ____ him in years.",
+      "choices": [
+        "see",
+        "saw",
+        "seen",
+        "seeing"
+      ],
+      "answer": 2,
+      "explanation_ar": "have + التصريف الثالث: seen.",
+      "explanation_en": "have + past participle: seen."
+    },
+    {
+      "question": "A second plan if the first fails is a ...",
+      "choices": [
+        "workout",
+        "chapter",
+        "backup plan",
+        "hobby"
+      ],
+      "answer": 2,
+      "explanation_ar": "خطة بديلة: backup plan.",
+      "explanation_en": "A backup plan."
+    },
+    {
+      "question": "\"I can't keep up!\" means ...",
+      "choices": [
+        "I can't go as fast as you.",
+        "I can't stand up.",
+        "I can't wake up.",
+        "I can't pay."
+      ],
+      "answer": 0,
+      "explanation_ar": "لا أستطيع المجاراة.",
+      "explanation_en": "I can't go as fast as you."
+    },
+    {
+      "question": "\"It wasn't my cup of tea.\" means ...",
+      "choices": [
+        "I wanted tea.",
+        "It was cold.",
+        "I loved it.",
+        "I didn't like it."
+      ],
+      "answer": 3,
+      "explanation_ar": "لم يكن على ذوقي.",
+      "explanation_en": "I didn't like it."
+    },
+    {
+      "question": "Maya is afraid ____ heights.",
+      "choices": [
+        "from",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": 1,
+      "explanation_ar": "الإجابة الصحيحة: afraid of.",
+      "explanation_en": "We say \"afraid of\"."
+    },
+    {
+      "question": "Tables, chairs and beds are ...",
+      "choices": [
+        "furniture",
+        "takeout",
+        "puzzles",
+        "hobbies"
+      ],
+      "answer": 0,
+      "explanation_ar": "الأثاث: furniture.",
+      "explanation_en": "Furniture."
+    },
+    {
+      "question": "\"We'll help you settle in.\" means ...",
+      "choices": [
+        "We'll help you sit down.",
+        "We'll help you leave.",
+        "We'll help you feel at home in a new place.",
+        "We'll help you cook."
+      ],
+      "answer": 2,
+      "explanation_ar": "نساعدك على التأقلم.",
+      "explanation_en": "Help you feel at home."
+    }
+  ]
+}

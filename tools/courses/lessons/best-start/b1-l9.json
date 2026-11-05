@@ -1,0 +1,74 @@
+{
+  "title": "Possessive Adjectives",
+  "content": {
+    "vocabulary": [
+      {"word": "my", "pos": "possessive adjective", "meaning_en": "belonging to me (I)", "meaning_ar": "ـي (ملكي)", "note_ar": "تأتي من الضمير I، ويأتي بعدها اسم دائمًا: my book = كتابي", "note_en": "Comes from I. A noun always follows it: my book.", "example": "My name is Ali."},
+      {"word": "your", "pos": "possessive adjective", "meaning_en": "belonging to you (one person or more)", "meaning_ar": "ـكَ / ـكِ / ـكم (ملكك)", "note_ar": "تأتي من you، وتُستخدم للمفرد والجمع", "note_en": "Comes from you. Same word for one person or many people.", "example": "What's your name?"},
+      {"word": "his", "pos": "possessive adjective", "meaning_en": "belonging to him (he)", "meaning_ar": "ـه (ملكه، للمذكر)", "note_ar": "تأتي من he", "note_en": "Comes from he.", "example": "His name is Omar."},
+      {"word": "her", "pos": "possessive adjective", "meaning_en": "belonging to her (she)", "meaning_ar": "ـها (ملكها، للمؤنث)", "note_ar": "تأتي من she", "note_en": "Comes from she.", "example": "Her dress is white."},
+      {"word": "its", "pos": "possessive adjective", "meaning_en": "belonging to an animal or a thing (it)", "meaning_ar": "ـه / ـها (لغير الإنسان)", "note_ar": "تأتي من it، ولا تُكتب بفاصلة عليا: its وليس it's", "note_en": "Comes from it. No apostrophe: its, not it's.", "example": "The cat is playing with its ball."},
+      {"word": "our", "pos": "possessive adjective", "meaning_en": "belonging to us (we)", "meaning_ar": "ـنا (ملكنا)", "note_ar": "تأتي من we، وتُنطق تقريبًا مثل كلمة hour", "note_en": "Comes from we. It sounds like \"hour\".", "example": "Our house is old."},
+      {"word": "their", "pos": "possessive adjective", "meaning_en": "belonging to them (they)", "meaning_ar": "ـهم (ملكهم)", "note_ar": "تأتي من they، وتُستخدم للعاقل وغير العاقل", "note_en": "Comes from they. Use it for people, animals and things.", "example": "Their city is far."},
+      {"word": "possessive adjective", "pos": "phrase", "meaning_en": "a word before a noun that shows who owns it", "meaning_ar": "صفة الملكية", "note_ar": "my, your, his, her, its, our, their", "note_en": "my, your, his, her, its, our, their", "example": "\"My\" is a possessive adjective."},
+      {"word": "subject pronoun", "pos": "phrase", "meaning_en": "a word that does the action, before a verb", "meaning_ar": "ضمير الفاعل", "note_ar": "I, you, he, she, it, we, they", "note_en": "I, you, he, she, it, we, they", "example": "\"She\" is a subject pronoun."},
+      {"word": "name", "pos": "noun", "meaning_en": "what a person is called", "meaning_ar": "اسم", "note_ar": "", "note_en": "", "example": "Her name is Mona."},
+      {"word": "father", "pos": "noun", "meaning_en": "dad", "meaning_ar": "أب", "note_ar": "", "note_en": "", "example": "His father is a doctor."},
+      {"word": "book", "pos": "noun", "meaning_en": "pages with writing that you read", "meaning_ar": "كتاب", "note_ar": "الجمع books", "note_en": "Plural: books.", "example": "This is my book."},
+      {"word": "pen", "pos": "noun", "meaning_en": "a thing you write with ink", "meaning_ar": "قلم", "note_ar": "", "note_en": "", "example": "Your pen is blue."},
+      {"word": "car", "pos": "noun", "meaning_en": "a vehicle with four wheels", "meaning_ar": "سيارة", "note_ar": "", "note_en": "", "example": "My car is red."},
+      {"word": "dress", "pos": "noun", "meaning_en": "a piece of clothing for girls and women", "meaning_ar": "فستان", "note_ar": "", "note_en": "", "example": "Her dress is white."},
+      {"word": "friend", "pos": "noun", "meaning_en": "a person you like and know well", "meaning_ar": "صديق", "note_ar": "الجمع friends", "note_en": "Plural: friends.", "example": "Her friends are kind."},
+      {"word": "eye", "pos": "noun", "meaning_en": "the part of the body you see with", "meaning_ar": "عين", "note_ar": "الجمع eyes", "note_en": "Plural: eyes.", "example": "Its eyes are green."},
+      {"word": "school", "pos": "noun", "meaning_en": "a place where children learn", "meaning_ar": "مدرسة", "note_ar": "", "note_en": "", "example": "Your school is new."},
+      {"word": "house", "pos": "noun", "meaning_en": "a building where a family lives", "meaning_ar": "منزل / بيت", "note_ar": "", "note_en": "", "example": "Our house is old."},
+      {"word": "teacher", "pos": "noun", "meaning_en": "a person who teaches", "meaning_ar": "معلم", "note_ar": "", "note_en": "", "example": "Our teacher is Mr. Mostafa."},
+      {"word": "city", "pos": "noun", "meaning_en": "a big town", "meaning_ar": "مدينة", "note_ar": "", "note_en": "", "example": "Their city is far."},
+      {"word": "tail", "pos": "noun", "meaning_en": "the long part at the back of an animal", "meaning_ar": "ذيل", "note_ar": "", "note_en": "", "example": "The dog wags its tail."},
+      {"word": "bike", "pos": "noun", "meaning_en": "a bicycle", "meaning_ar": "دراجة", "note_ar": "", "note_en": "", "example": "Omar rides his bike."},
+      {"word": "doll", "pos": "noun", "meaning_en": "a toy that looks like a small person", "meaning_ar": "دمية / عروسة", "note_ar": "", "note_en": "", "example": "My doll is nice."},
+      {"word": "skirt", "pos": "noun", "meaning_en": "a piece of clothing that hangs from the waist", "meaning_ar": "تنورة / جيبة", "note_ar": "", "note_en": "", "example": "Her skirt is pink."},
+      {"word": "homework", "pos": "noun", "meaning_en": "school work you do at home", "meaning_ar": "واجب منزلي", "note_ar": "لا تُجمع: لا نقول homeworks", "note_en": "No plural: not \"homeworks\".", "example": "Sara writes her homework."},
+      {"word": "breakfast", "pos": "noun", "meaning_en": "the first meal of the day", "meaning_ar": "الفطور / الإفطار", "note_ar": "", "note_en": "", "example": "They eat their breakfast."},
+      {"word": "blonde hair", "pos": "phrase", "meaning_en": "light yellow hair", "meaning_ar": "شعر أشقر", "note_ar": "", "note_en": "", "example": "Sally has blonde hair."},
+      {"word": "kind", "pos": "adjective", "meaning_en": "nice and good to others", "meaning_ar": "طيب / لطيف", "note_ar": "", "note_en": "", "example": "Her friends are kind."},
+      {"word": "far", "pos": "adjective", "meaning_en": "a long way away", "meaning_ar": "بعيد", "note_ar": "عكسها near = قريب", "note_en": "Opposite: near.", "example": "Their city is far."},
+      {"word": "ride", "pos": "verb", "meaning_en": "to sit on and move a bike or a horse", "meaning_ar": "يركب", "note_ar": "", "note_en": "", "example": "I ride my bike."},
+      {"word": "wag", "pos": "verb", "meaning_en": "to move a tail from side to side", "meaning_ar": "يهزّ (الذيل)", "note_ar": "", "note_en": "", "example": "The dog wags its tail."}
+    ],
+    "fine_lines": [
+      {"title": "I vs my", "words": ["I", "my"], "explanation_ar": "I ضمير فاعل يأتي بعده فعل (I like). أما my فهي صفة ملكية يأتي بعدها اسم (my car). لا نقول I car.", "explanation_en": "I is a subject pronoun: a verb comes after it (I like). My is a possessive adjective: a noun comes after it (my car). Never say \"I car\".", "examples": [{"word": "I", "sentence": "I have a black cat."}, {"word": "my", "sentence": "My cat is black."}]},
+      {"title": "his vs her", "words": ["his", "her"], "explanation_ar": "his للمالك المذكر (ملكه)، و her للمالكة المؤنثة (ملكها). العبرة بالمالك وليس بالشيء المملوك.", "explanation_en": "Use his when the owner is a boy or a man, and her when the owner is a girl or a woman. Look at the owner, not the thing.", "examples": [{"word": "his", "sentence": "Adam rides his bike."}, {"word": "her", "sentence": "Fatma rides her bike."}]},
+      {"title": "its vs it's", "words": ["its", "it's"], "explanation_ar": "its صفة ملكية لغير الإنسان (ذيله، عيونه). it's اختصار it is (إنه يكون).", "explanation_en": "Its shows that something belongs to an animal or thing. It's is short for \"it is\".", "examples": [{"word": "its", "sentence": "The cat is licking its paw."}, {"word": "it's", "sentence": "It's a small cat."}]},
+      {"title": "they vs their", "words": ["they", "their"], "explanation_ar": "they ضمير فاعل يأتي بعده فعل، و their صفة ملكية يأتي بعدها اسم.", "explanation_en": "They is followed by a verb. Their is followed by a noun.", "examples": [{"word": "they", "sentence": "They play every day."}, {"word": "their", "sentence": "They play with their ball."}]},
+      {"title": "we vs our", "words": ["we", "our"], "explanation_ar": "we = نحن ويأتي بعده فعل، و our = ـنا ويأتي بعدها اسم.", "explanation_en": "We is followed by a verb. Our is followed by a noun.", "examples": [{"word": "we", "sentence": "We have a car."}, {"word": "our", "sentence": "Our car is blue."}]}
+    ],
+    "expressions": [
+      {"phrase": "What's your name?", "meaning_ar": "ما اسمك؟", "meaning_en": "Asking someone for their name.", "example": "What's your name? My name is Rana."},
+      {"phrase": "My name is ...", "meaning_ar": "اسمي ...", "meaning_en": "Telling someone your name.", "example": "My name is Adam."},
+      {"phrase": "His name is ...", "meaning_ar": "اسمه ...", "meaning_en": "Telling someone a boy's or man's name.", "example": "His name is Ali."},
+      {"phrase": "Her friends are kind.", "meaning_ar": "صديقاتها طيبات.", "meaning_en": "Describing someone's friends.", "example": "Mona is happy. Her friends are kind."},
+      {"phrase": "Its eyes are green.", "meaning_ar": "عيونها خضراء (لحيوان).", "meaning_en": "Describing an animal's eyes.", "example": "Look at the cat. Its eyes are green."},
+      {"phrase": "Our teacher is ...", "meaning_ar": "معلمنا هو ...", "meaning_en": "Saying who your teacher is.", "example": "Our teacher is Mr. Mostafa."},
+      {"phrase": "They eat their breakfast.", "meaning_ar": "هم يأكلون فطورهم.", "meaning_en": "A sentence with a subject pronoun and a possessive adjective together.", "example": "Every morning, they eat their breakfast."},
+      {"phrase": "The dog wags its tail.", "meaning_ar": "الكلب يهزّ ذيله.", "meaning_en": "Using its for an animal.", "example": "The dog is happy. The dog wags its tail."}
+    ],
+    "grammar": [
+      {"title": "Subject pronouns come before verbs", "explanation_ar": "ضمائر الفاعل سبعة: I (أنا)، he (هو)، she (هي)، it (لغير الإنسان)، you (أنت/أنتِ/أنتم)، we (نحن)، they (هم). يأتي بعدها فعل في أي زمن.", "explanation_en": "There are seven subject pronouns: I, he, she, it, you, we, they. A verb comes after them, in any tense.", "examples": ["I like apples.", "He runs.", "She eats an apple.", "They play football."]},
+      {"title": "Possessive adjectives come before nouns", "explanation_ar": "صفات الملكية تبيّن لمن الشيء، ويأتي بعدها اسم دائمًا: I ← my، you ← your، he ← his، she ← her، it ← its، we ← our، they ← their.", "explanation_en": "Possessive adjectives show who owns something, and a noun always comes after them: I → my, you → your, he → his, she → her, it → its, we → our, they → their.", "examples": ["my book", "your school", "his father", "her dress", "its tail", "our house", "their books"]},
+      {"title": "Possessive adjective + noun + is / are", "explanation_ar": "اختر الفعل حسب الاسم بعد صفة الملكية وليس حسب الصفة نفسها: اسم مفرد ← is، اسم جمع ← are. وابدأ الجملة بحرف كبير وانهها بنقطة.", "explanation_en": "Choose the verb by the noun after the possessive adjective: singular noun → is, plural noun → are. Start with a capital letter and end with a full stop.", "examples": ["My car is red.", "Her friends are kind.", "Its eyes are blue.", "Our teacher is Mr. Mostafa."]},
+      {"title": "Two ways to show possession: have/has and possessive adjectives", "explanation_ar": "يمكن التعبير عن الملكية بـ have/has بعد الفاعل، أو بصفة الملكية قبل الاسم. I have a black cat = My cat is black.", "explanation_en": "You can show possession with have/has after a subject, or with a possessive adjective before a noun.", "examples": ["I have a black cat. → My cat is black.", "Sally has blonde hair. → Her hair is blonde.", "We have a car. → Our car is blue."]}
+    ]
+  },
+  "questions": [
+    {"question": "Adam has a bike. It is ___ bike.", "choices": ["his", "her", "my", "their"], "answer": 0, "explanation_ar": "آدم ولد، فالشيء ملكه: his.", "explanation_en": "Adam is a boy, so we use his."},
+    {"question": "Choose the correct sentence.", "choices": ["I car is red.", "My car are red.", "My car is red.", "Me car is red."], "answer": 2, "explanation_ar": "صفة الملكية my يأتي بعدها اسم، و car مفرد فنستخدم is.", "explanation_en": "My comes before a noun, and car is singular, so we use is."},
+    {"question": "What is the possessive adjective for \"we\"?", "choices": ["us", "their", "your", "our"], "answer": 3, "explanation_ar": "we ← our (ـنا).", "explanation_en": "we → our."},
+    {"question": "The dog wags ___ tail.", "choices": ["it", "its", "it's", "his"], "answer": 1, "explanation_ar": "الكلب غير إنسان، فنستخدم its بدون فاصلة عليا.", "explanation_en": "A dog is an animal, so we use its (no apostrophe)."},
+    {"question": "Rofan is a girl. ___ dress is white.", "choices": ["His", "She", "Her", "Its"], "answer": 2, "explanation_ar": "روفان بنت، والشيء ملكها: her. أما she فضمير فاعل يأتي بعده فعل.", "explanation_en": "Rofan is a girl, so we use her. She is followed by a verb, not a noun."},
+    {"question": "Choose the correct sentence.", "choices": ["They play with their ball.", "They play with they ball.", "Their play with their ball.", "They play with there ball."], "answer": 0, "explanation_ar": "they قبل الفعل play، و their قبل الاسم ball.", "explanation_en": "They comes before the verb play; their comes before the noun ball."},
+    {"question": "Sara and I have a house. It is ___ house.", "choices": ["their", "your", "my", "our"], "answer": 3, "explanation_ar": "أنا وسارة = نحن we، فالصفة our.", "explanation_en": "Sara and I = we, so we use our."},
+    {"question": "\"What's ___ name?\" \"My name is Ali.\"", "choices": ["you", "your", "my", "his"], "answer": 1, "explanation_ar": "نسأل الشخص عن اسمه بـ your name.", "explanation_en": "We ask a person about their own name with your."},
+    {"question": "Her friends ___ kind.", "choices": ["is", "am", "are", "be"], "answer": 2, "explanation_ar": "friends جمع، فنستخدم are.", "explanation_en": "Friends is plural, so we use are."},
+    {"question": "What comes after a possessive adjective?", "choices": ["a noun", "a verb", "a subject pronoun", "nothing"], "answer": 0, "explanation_ar": "صفات الملكية يأتي بعدها اسم، وضمائر الفاعل يأتي بعدها فعل.", "explanation_en": "A noun comes after a possessive adjective; a verb comes after a subject pronoun."}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Trash to Treasure, Part 2",
+  "content": {
+    "vocabulary": [
+      {"word": "net", "pos": "noun", "meaning_en": "material made of string with holes, used to catch things", "meaning_ar": "شبكة", "note_ar": "", "note_en": "", "example": "The fishermen pulled in the net."},
+      {"word": "hole", "pos": "noun", "meaning_en": "an empty space or opening in something", "meaning_ar": "ثقب / حفرة", "note_ar": "", "note_en": "", "example": "My sock has a hole in it."},
+      {"word": "stuff", "pos": "noun", "meaning_en": "things (informal)", "meaning_ar": "أشياء / حاجيات", "note_ar": "اسم غير معدود", "note_en": "Uncountable.", "example": "There's a lot of stuff in my bag."},
+      {"word": "helmet", "pos": "noun", "meaning_en": "a hard hat that protects your head", "meaning_ar": "خوذة", "note_ar": "", "note_en": "", "example": "Wear a helmet when you ride a bike."},
+      {"word": "toy", "pos": "noun", "meaning_en": "an object for children to play with", "meaning_ar": "لعبة", "note_ar": "", "note_en": "", "example": "The child is playing with a broken toy."},
+      {"word": "garbage", "pos": "noun", "meaning_en": "trash; things to throw away", "meaning_ar": "قمامة", "note_ar": "في بريطانيا: rubbish", "note_en": "UK: rubbish.", "example": "Put the garbage outside."},
+      {"word": "decoupage", "pos": "noun", "meaning_en": "the art of gluing paper pictures onto objects", "meaning_ar": "فن تزيين الأشياء بلصق الصور الورقية", "note_ar": "كلمة فرنسية: /ˌdeɪkuːˈpɑːʒ/", "note_en": "A French word.", "example": "I made a box with decoupage."},
+      {"word": "shoe box", "pos": "noun", "meaning_en": "a box that held shoes", "meaning_ar": "علبة حذاء", "note_ar": "", "note_en": "", "example": "Bring a clean shoe box."},
+      {"word": "glue", "pos": "noun", "meaning_en": "a sticky liquid for joining things", "meaning_ar": "صمغ / غراء", "note_ar": "وتأتي فعلًا: to glue = يلصق", "note_en": "Also a verb: to glue.", "example": "Use glue to stick the picture on."},
+      {"word": "sticky", "pos": "adjective", "meaning_en": "staying on things you touch", "meaning_ar": "لزج / دبق", "note_ar": "", "note_en": "", "example": "Your glue is really sticky."},
+      {"word": "fix", "pos": "verb", "meaning_en": "to repair; to make something right again", "meaning_ar": "يصلح", "note_ar": "", "note_en": "", "example": "Okay, I can fix this."},
+      {"word": "actually", "pos": "adverb", "meaning_en": "in fact; used to correct someone", "meaning_ar": "في الحقيقة / في الواقع", "note_ar": "لا تعني «حاليًا»", "note_en": "It does not mean 'now'.", "example": "Actually, you told me not to start without you."},
+      {"word": "flier", "pos": "noun", "meaning_en": "a small printed paper with information", "meaning_ar": "منشور / نشرة إعلانية", "note_ar": "يُكتب أيضًا flyer", "note_en": "Also spelled flyer.", "example": "Here's a flier about the class."},
+      {"word": "lamp", "pos": "noun", "meaning_en": "a light you put on a table or floor", "meaning_ar": "مصباح", "note_ar": "", "note_en": "", "example": "Turn on the lamp, please."},
+      {"word": "plug in", "pos": "phrasal verb", "meaning_en": "to connect a machine to electricity", "meaning_ar": "يوصل بالكهرباء", "note_ar": "", "note_en": "", "example": "Let's just plug it in!"},
+      {"word": "electricity", "pos": "noun", "meaning_en": "power that makes lights and machines work", "meaning_ar": "الكهرباء", "note_ar": "", "note_en": "", "example": "The city lost electricity."},
+      {"word": "carefully", "pos": "adverb", "meaning_en": "with attention, to avoid mistakes", "meaning_ar": "بعناية / بحذر", "note_ar": "", "note_en": "", "example": "Read the instructions carefully."},
+      {"word": "tell", "pos": "verb", "meaning_en": "to give information to someone", "meaning_ar": "يُخبر", "note_ar": "tell - told - told", "note_en": "tell - told - told", "example": "Tell me about that."},
+      {"word": "say", "pos": "verb", "meaning_en": "to speak words", "meaning_ar": "يقول", "note_ar": "say - said - said", "note_en": "say - said - said", "example": "That's what it said."}
+    ],
+    "fine_lines": [
+      {"title": "tell vs say", "words": ["tell", "say"], "explanation_ar": "tell تعني يُخبر أو يأمر، وتأتي بعدها غالبًا الشخص الذي نخبره (مفعول غير مباشر): tell me, told you. say تعني يقول، والتركيز على الكلمات نفسها، ولا يأتي بعدها الشخص مباشرة؛ إذا أردنا ذكره نقول say to someone. نقول: tell someone to do something (أمر)، و say that...", "explanation_en": "Tell means to inform or instruct, and is almost always followed by the person (indirect object): tell me, told you. Say means to express words; it focuses on the words and is not followed directly by a person (use say to someone). Tell someone to do something; say that...", "examples": [{"word": "tell", "sentence": "I told you to wait for me!"}, {"word": "tell", "sentence": "Tell me about that."}, {"word": "say", "sentence": "It said, \"Use me, Anna.\""}, {"word": "say", "sentence": "I said to read the instructions carefully."}]},
+      {"title": "trash vs treasure", "words": ["trash", "treasure"], "explanation_ar": "trash = أشياء لا قيمة لها نرميها. treasure = شيء ثمين جدًا. Sometimes trash is treasure = أحيانًا يكون ما يرميه الناس ثمينًا.", "explanation_en": "Trash is worthless things we throw away. Treasure is something very valuable. Sometimes trash is treasure.", "examples": [{"word": "trash", "sentence": "This broken cup is just trash."}, {"word": "treasure", "sentence": "My grandmother's old photos are a treasure."}]}
+    ],
+    "expressions": [
+      {"phrase": "Tell me about that.", "meaning_ar": "أخبرني عن ذلك.", "meaning_en": "Please explain or give details.", "example": "You visited Egypt? Tell me about that."},
+      {"phrase": "That's fun to say.", "meaning_ar": "هذه كلمة ممتعة في النطق.", "meaning_en": "This word sounds funny when you say it.", "example": "Hippopotamus! That's fun to say."},
+      {"phrase": "I'll be right back.", "meaning_ar": "سأعود حالًا.", "meaning_en": "I will return very soon.", "example": "Wait here. I'll be right back."},
+      {"phrase": "Don't start without me.", "meaning_ar": "لا تبدأ بدوني.", "meaning_en": "Wait for me before you begin.", "example": "I'm getting my book. Don't start without me."},
+      {"phrase": "That might be your thing!", "meaning_ar": "ربما يكون هذا مجالك المفضل!", "meaning_en": "You might be good at this and enjoy it.", "example": "You cook so well. Cooking might be your thing!"},
+      {"phrase": "I did everything you told me to do.", "meaning_ar": "فعلت كل ما طلبت مني أن أفعله.", "meaning_en": "I followed all your instructions.", "example": "Teacher, I did everything you told me to do."},
+      {"phrase": "Sometimes trash is treasure.", "meaning_ar": "أحيانًا تكون القمامة كنزًا.", "meaning_en": "Old things people throw away can be valuable.", "example": "I made a lamp from an old bottle. Sometimes trash is treasure."}
+    ],
+    "grammar": [
+      {"title": "Tell and say", "explanation_ar": "tell (told): بمعنى يُخبر أو يأمر، ويأتي بعده دائمًا تقريبًا الشخص (مفعول غير مباشر): tell me, she told us. ومع الأمر: tell + شخص + to + فعل: I told you to wait. say (said): بمعنى يقول، والتركيز على الكلمات. يأتي بعده الكلام مباشرة أو that: It said, \"Use me.\" / She said that... وإذا ذكرنا الشخص نستخدم to: She said to me... خطأ شائع: لا نقول She said me، بل She told me أو She said to me.", "explanation_en": "Tell (told) means to inform or instruct and is almost always followed by the person: tell me, she told us. For orders: tell + person + to + verb: I told you to wait. Say (said) means to express words; the focus is on the words: It said, \"Use me.\" / She said that... To add the person, use to: She said to me... Common mistake: not She said me, but She told me or She said to me.", "examples": ["Tell me about that.", "I told you to wait for me!", "You told me not to start without you.", "But you said to bring in trash."]}
+    ]
+  },
+  "questions": [
+    {"question": "She ____ me a funny story.", "choices": ["said", "told", "says to", "say"], "answer": 1, "explanation_ar": "بعد الفعل شخص (me)، فنستخدم told.", "explanation_en": "A person (me) follows, so use told."},
+    {"question": "He ____, \"I'm hungry.\"", "choices": ["told", "told me that", "said", "tell"], "answer": 2, "explanation_ar": "مع الكلمات المقتبسة نستخدم said.", "explanation_en": "With exact words, use said."},
+    {"question": "Choose the correct sentence.", "choices": ["She said me to wait.", "She told to me wait.", "She said me wait.", "She told me to wait."], "answer": 3, "explanation_ar": "الأمر: tell + شخص + to + فعل.", "explanation_en": "Orders: tell + person + to + verb."},
+    {"question": "Anna, I ____ you to read the instructions!", "choices": ["told", "said", "say", "speak"], "answer": 0, "explanation_ar": "بعدها شخص (you) وأمر، فنستخدم told.", "explanation_en": "Person + order: told."},
+    {"question": "Things you throw away are ____.", "choices": ["treasure", "garbage", "fliers", "helmets"], "answer": 1, "explanation_ar": "garbage = قمامة.", "explanation_en": "Garbage is trash."},
+    {"question": "'Actually' means:", "choices": ["now", "quickly", "in fact", "never"], "answer": 2, "explanation_ar": "actually = في الحقيقة، وليس «حاليًا».", "explanation_en": "Actually means in fact."},
+    {"question": "To connect a lamp to electricity is to ____ it ____.", "choices": ["plug / in", "fix / up", "glue / on", "tell / about"], "answer": 0, "explanation_ar": "plug in = يوصل بالكهرباء.", "explanation_en": "Plug in = connect to electricity."},
+    {"question": "A hard hat that protects your head is a ____.", "choices": ["net", "lamp", "toy", "helmet"], "answer": 3, "explanation_ar": "helmet = خوذة.", "explanation_en": "A helmet protects your head."},
+    {"question": "'I'll be right back' means:", "choices": ["I'm leaving forever.", "I will return very soon.", "I am right.", "Go back."], "answer": 1, "explanation_ar": "تعني سأعود حالًا.", "explanation_en": "It means I will return very soon."},
+    {"question": "Which sentence is correct?", "choices": ["He said to me that he was tired.", "He said me that he was tired.", "He told that he was tired to me.", "He told to me he was tired."], "answer": 0, "explanation_ar": "say to + شخص صحيحة، و said me خطأ.", "explanation_en": "Say to + person is correct; said me is wrong."}
+  ]
+}

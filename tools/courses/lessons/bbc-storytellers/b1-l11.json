@@ -1,0 +1,320 @@
+{
+  "title": "Sick Day",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "sick",
+        "pos": "adjective",
+        "meaning_en": "not well; ill",
+        "meaning_ar": "مريض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm too sick to go to school."
+      },
+      {
+        "word": "ill",
+        "pos": "adjective",
+        "meaning_en": "not well; sick",
+        "meaning_ar": "مريض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm very, very ill!"
+      },
+      {
+        "word": "hurt",
+        "pos": "verb",
+        "meaning_en": "feel pain",
+        "meaning_ar": "يؤلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My tummy hurts."
+      },
+      {
+        "word": "tummy",
+        "pos": "noun",
+        "meaning_en": "stomach (child's word)",
+        "meaning_ar": "بطن / معدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella was holding her tummy."
+      },
+      {
+        "word": "elbow",
+        "pos": "noun",
+        "meaning_en": "the middle part of your arm where it bends",
+        "meaning_ar": "مِرفق / كوع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe had a sore elbow."
+      },
+      {
+        "word": "arm",
+        "pos": "noun",
+        "meaning_en": "the part of the body from shoulder to hand",
+        "meaning_ar": "ذراع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He couldn't move his arm."
+      },
+      {
+        "word": "sweets",
+        "pos": "noun",
+        "meaning_en": "small sweet foods like candy (UK)",
+        "meaning_ar": "حلويات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella ate all the sweets."
+      },
+      {
+        "word": "hospital",
+        "pos": "noun",
+        "meaning_en": "a place where doctors help sick people",
+        "meaning_ar": "مستشفى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They went to the hospital."
+      },
+      {
+        "word": "doctor",
+        "pos": "noun",
+        "meaning_en": "a person who helps sick people",
+        "meaning_ar": "طبيب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The doctor showed him the X-ray."
+      },
+      {
+        "word": "nurse",
+        "pos": "noun",
+        "meaning_en": "a person who looks after sick people",
+        "meaning_ar": "ممرّض / ممرّضة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A nurse put on a bandage."
+      },
+      {
+        "word": "kitchen",
+        "pos": "noun",
+        "meaning_en": "the room where you cook",
+        "meaning_ar": "مطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mum was in the kitchen."
+      },
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "meaning_en": "the first meal of the day",
+        "meaning_ar": "فطور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella didn't want breakfast."
+      },
+      {
+        "word": "worried",
+        "pos": "adjective",
+        "meaning_en": "feeling that something bad may happen",
+        "meaning_ar": "قلِق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mum was worried about Bella."
+      },
+      {
+        "word": "broken",
+        "pos": "adjective",
+        "meaning_en": "cracked or in pieces",
+        "meaning_ar": "مكسور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He had a broken elbow."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "sick vs ill",
+        "words": [
+          "sick",
+          "ill"
+        ],
+        "explanation_ar": "sick و ill تعنيان «مريض». sick قد تعني أيضًا الشعور بالغثيان.",
+        "explanation_en": "\"sick\" and \"ill\" both mean not well. \"sick\" can also mean you want to vomit.",
+        "examples": [
+          {
+            "word": "sick",
+            "sentence": "I'm too sick to go to school."
+          },
+          {
+            "word": "ill",
+            "sentence": "Bella said she was very ill."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "My tummy hurts.",
+        "meaning_ar": "بطني يؤلمني.",
+        "meaning_en": "Saying you have pain in your stomach.",
+        "example": "I ate too much. My tummy hurts."
+      },
+      {
+        "phrase": "I think there's something wrong with my elbow.",
+        "meaning_ar": "أظن أن هناك مشكلة في مرفقي.",
+        "meaning_en": "Telling someone about a pain.",
+        "example": "Mum, I think there's something wrong with my arm."
+      },
+      {
+        "phrase": "How do you feel now?",
+        "meaning_ar": "كيف تشعر الآن؟",
+        "meaning_en": "Asking a sick person about their health.",
+        "example": "How do you feel now? - A little better."
+      },
+      {
+        "phrase": "I hope Bella is better soon.",
+        "meaning_ar": "أتمنى أن تتحسن بيلا قريبًا.",
+        "meaning_en": "Wishing someone good health.",
+        "example": "I hope you are better soon."
+      },
+      {
+        "phrase": "Why didn't you tell me?",
+        "meaning_ar": "لماذا لم تخبرني؟",
+        "meaning_en": "Asking why someone didn't say something.",
+        "example": "Your arm is broken! Why didn't you tell me?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "My ... hurts / I have a sore ...",
+        "explanation_ar": "نتحدث عن الألم بـ My + جزء الجسم + hurts، أو I have a sore + جزء الجسم.",
+        "explanation_en": "Talk about pain: My + body part + hurts. / I have a sore + body part.",
+        "examples": [
+          "My tummy hurts.",
+          "Joe had a sore elbow.",
+          "My arm hurts."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Why did Bella have a bad tummy?",
+      "choices": [
+        "She ate all the sweets.",
+        "She played football.",
+        "She was cold.",
+        "She fell down."
+      ],
+      "answer": 0,
+      "explanation_ar": "أكلت كل الحلويات.",
+      "explanation_en": "She ate all the sweets."
+    },
+    {
+      "question": "What was wrong with Joe?",
+      "choices": [
+        "a bad tummy",
+        "a broken elbow",
+        "a cold",
+        "a bad tooth"
+      ],
+      "answer": 1,
+      "explanation_ar": "كان مرفقه مكسورًا.",
+      "explanation_en": "His elbow was broken."
+    },
+    {
+      "question": "Who noticed Joe's arm at school?",
+      "choices": [
+        "Bella",
+        "Dad",
+        "his teacher",
+        "a nurse"
+      ],
+      "answer": 2,
+      "explanation_ar": "لاحظت معلمته ذلك.",
+      "explanation_en": "His teacher noticed."
+    },
+    {
+      "question": "A place where doctors help sick people is a ___.",
+      "choices": [
+        "kitchen",
+        "school",
+        "park",
+        "hospital"
+      ],
+      "answer": 3,
+      "explanation_ar": "المستشفى = hospital.",
+      "explanation_en": "That is a hospital."
+    },
+    {
+      "question": "My tummy ___.",
+      "choices": [
+        "hurts",
+        "hurt it",
+        "hurting",
+        "is hurt me"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع المفرد: hurts.",
+      "explanation_en": "Use hurts."
+    },
+    {
+      "question": "\"worried\" means ___.",
+      "choices": [
+        "سعيد",
+        "قلِق",
+        "جائع",
+        "متعب"
+      ],
+      "answer": 1,
+      "explanation_ar": "worried = قلِق.",
+      "explanation_en": "worried = afraid something bad will happen."
+    },
+    {
+      "question": "Someone is sick. You ask: ___",
+      "choices": [
+        "How old are you?",
+        "What's that noise?",
+        "How do you feel now?",
+        "Good luck!"
+      ],
+      "answer": 2,
+      "explanation_ar": "نسأل المريض: How do you feel now?",
+      "explanation_en": "Ask \"How do you feel now?\""
+    },
+    {
+      "question": "The part of your arm that bends in the middle is the ___.",
+      "choices": [
+        "knee",
+        "tummy",
+        "finger",
+        "elbow"
+      ],
+      "answer": 3,
+      "explanation_ar": "elbow = المِرفق.",
+      "explanation_en": "The elbow is in the middle of the arm."
+    },
+    {
+      "question": "A ___ wrapped Joe's elbow in a bandage.",
+      "choices": [
+        "nurse",
+        "teacher",
+        "cook",
+        "referee"
+      ],
+      "answer": 0,
+      "explanation_ar": "الممرضة لفّت المرفق.",
+      "explanation_en": "A nurse did it."
+    },
+    {
+      "question": "\"sick\" and \"ill\" both mean ___.",
+      "choices": [
+        "very happy",
+        "not well",
+        "very hungry",
+        "late"
+      ],
+      "answer": 1,
+      "explanation_ar": "كلاهما يعني مريض.",
+      "explanation_en": "Both mean not well."
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "title": "Name, Age, How Are You and Numbers 1-10",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "name",
+        "pos": "noun",
+        "meaning_en": "what a person is called",
+        "meaning_ar": "اسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My name is Sara."
+      },
+      {
+        "word": "how",
+        "pos": "adverb",
+        "meaning_en": "a question word that asks about the way or condition",
+        "meaning_ar": "كيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How are you?"
+      },
+      {
+        "word": "fine",
+        "pos": "adjective",
+        "meaning_en": "well; in good health",
+        "meaning_ar": "بخير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm fine, thank you."
+      },
+      {
+        "word": "thank you",
+        "pos": "phrase",
+        "meaning_en": "words to show you are grateful",
+        "meaning_ar": "شكرًا لك",
+        "note_ar": "وبشكل أقل رسمية: thanks",
+        "note_en": "Informal: thanks.",
+        "example": "Thank you for your help."
+      },
+      {
+        "word": "thanks",
+        "pos": "interjection",
+        "meaning_en": "an informal way to say thank you",
+        "meaning_ar": "شكرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're fine, thanks."
+      },
+      {
+        "word": "how many",
+        "pos": "phrase",
+        "meaning_en": "a question about the number of things",
+        "meaning_ar": "كم عدد",
+        "note_ar": "يأتي بعدها اسم جمع",
+        "note_en": "A plural noun comes after it.",
+        "example": "How many cats are there?"
+      },
+      {
+        "word": "how old",
+        "pos": "phrase",
+        "meaning_en": "a question about age",
+        "meaning_ar": "كم عمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How old are you?"
+      },
+      {
+        "word": "year",
+        "pos": "noun",
+        "meaning_en": "twelve months",
+        "meaning_ar": "سنة",
+        "note_ar": "للعمر: years old",
+        "note_en": "For age: years old.",
+        "example": "I am six years old."
+      },
+      {
+        "word": "number",
+        "pos": "noun",
+        "meaning_en": "a word or sign like 1, 2, 3",
+        "meaning_ar": "رقم / عدد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Write the number ten."
+      },
+      {
+        "word": "one",
+        "pos": "number",
+        "meaning_en": "1",
+        "meaning_ar": "واحد",
+        "note_ar": "تُنطق مثل won /wʌn/",
+        "note_en": "Sounds like \"won\" /wʌn/.",
+        "example": "I have one brother."
+      },
+      {
+        "word": "two",
+        "pos": "number",
+        "meaning_en": "2",
+        "meaning_ar": "اثنان",
+        "note_ar": "حرف w صامت: /tuː/",
+        "note_en": "The w is silent: /tuː/.",
+        "example": "two cats"
+      },
+      {
+        "word": "three",
+        "pos": "number",
+        "meaning_en": "3",
+        "meaning_ar": "ثلاثة",
+        "note_ar": "th بإخراج اللسان (ث)",
+        "note_en": "Put your tongue between your teeth for th.",
+        "example": "three carrots"
+      },
+      {
+        "word": "four",
+        "pos": "number",
+        "meaning_en": "4",
+        "meaning_ar": "أربعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "four bags"
+      },
+      {
+        "word": "five",
+        "pos": "number",
+        "meaning_en": "5",
+        "meaning_ar": "خمسة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is five years old."
+      },
+      {
+        "word": "six",
+        "pos": "number",
+        "meaning_en": "6",
+        "meaning_ar": "ستة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "six eggs"
+      },
+      {
+        "word": "seven",
+        "pos": "number",
+        "meaning_en": "7",
+        "meaning_ar": "سبعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "seven cats"
+      },
+      {
+        "word": "eight",
+        "pos": "number",
+        "meaning_en": "8",
+        "meaning_ar": "ثمانية",
+        "note_ar": "gh صامتة: /eɪt/",
+        "note_en": "The gh is silent: /eɪt/.",
+        "example": "They are eight years old."
+      },
+      {
+        "word": "nine",
+        "pos": "number",
+        "meaning_en": "9",
+        "meaning_ar": "تسعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "nine fish"
+      },
+      {
+        "word": "ten",
+        "pos": "number",
+        "meaning_en": "10",
+        "meaning_ar": "عشرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "ten books"
+      },
+      {
+        "word": "candle",
+        "pos": "noun",
+        "meaning_en": "a stick of wax that gives light when it burns",
+        "meaning_ar": "شمعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There are six candles on the cake."
+      },
+      {
+        "word": "violin",
+        "pos": "noun",
+        "meaning_en": "a small wooden instrument with strings",
+        "meaning_ar": "كمان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How many violins are there?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "how vs how old vs how many",
+        "words": [
+          "how",
+          "how old",
+          "how many"
+        ],
+        "explanation_ar": "how وحدها = كيف (How are you? كيف حالك). how old = كم عمر. how many = كم عدد، ويأتي بعدها اسم جمع.",
+        "explanation_en": "How alone asks about condition (How are you?). How old asks about age. How many asks about number and takes a plural noun.",
+        "examples": [
+          {
+            "word": "how",
+            "sentence": "How are you? I'm fine, thanks."
+          },
+          {
+            "word": "how old",
+            "sentence": "How old are you? I'm ten."
+          },
+          {
+            "word": "how many",
+            "sentence": "How many books are there? Three."
+          }
+        ]
+      },
+      {
+        "title": "How are you? (one) vs (many)",
+        "words": [
+          "I'm fine",
+          "We're fine"
+        ],
+        "explanation_ar": "How are you? تُقال لشخص أو لمجموعة. الشخص يرد: I'm fine. والمجموعة ترد: We're fine.",
+        "explanation_en": "How are you? can be for one person or a group. One person answers I'm fine. A group answers We're fine.",
+        "examples": [
+          {
+            "word": "I'm fine",
+            "sentence": "How are you, Sami? I'm fine, thanks."
+          },
+          {
+            "word": "We're fine",
+            "sentence": "How are you, Tom and Lucy? We're fine, thanks."
+          }
+        ]
+      },
+      {
+        "title": "thank you vs thanks",
+        "words": [
+          "thank you",
+          "thanks"
+        ],
+        "explanation_ar": "الاثنان بمعنى شكرًا. thanks أقصر وأقل رسمية.",
+        "explanation_en": "Both mean the same. Thanks is shorter and more informal.",
+        "examples": [
+          {
+            "word": "thank you",
+            "sentence": "I'm fine, thank you."
+          },
+          {
+            "word": "thanks",
+            "sentence": "We're fine, thanks."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What's your name?",
+        "meaning_ar": "ما اسمك؟",
+        "meaning_en": "Asking someone's name.",
+        "example": "Hello! What's your name?"
+      },
+      {
+        "phrase": "My name is ... / I'm ...",
+        "meaning_ar": "اسمي ... / أنا ...",
+        "meaning_en": "Saying your name.",
+        "example": "My name is Mostafa. / I'm Mostafa."
+      },
+      {
+        "phrase": "How are you?",
+        "meaning_ar": "كيف حالك؟ / كيف حالكم؟",
+        "meaning_en": "Asking about someone's health or mood.",
+        "example": "Hi, Dina! How are you?"
+      },
+      {
+        "phrase": "I'm fine, thank you.",
+        "meaning_ar": "أنا بخير، شكرًا.",
+        "meaning_en": "A polite answer to How are you?",
+        "example": "How are you? I'm fine, thank you."
+      },
+      {
+        "phrase": "We're fine, thanks.",
+        "meaning_ar": "نحن بخير، شكرًا.",
+        "meaning_en": "A group's answer to How are you?",
+        "example": "How are you, boys? We're fine, thanks."
+      },
+      {
+        "phrase": "How old are you?",
+        "meaning_ar": "كم عمرك؟",
+        "meaning_en": "Asking someone's age.",
+        "example": "How old are you? I'm seven."
+      },
+      {
+        "phrase": "I'm six years old.",
+        "meaning_ar": "عمري ست سنوات.",
+        "meaning_en": "Saying your age (long answer).",
+        "example": "I'm six years old. My brother is four."
+      },
+      {
+        "phrase": "How old is he / she?",
+        "meaning_ar": "كم عمره / عمرها؟",
+        "meaning_en": "Asking the age of another person.",
+        "example": "How old is Mary? She's nine."
+      },
+      {
+        "phrase": "How many ... ?",
+        "meaning_ar": "كم عدد ...؟",
+        "meaning_en": "Asking about a number of things.",
+        "example": "How many eggs? Six eggs."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "What's your name?",
+        "explanation_ar": "What's = What is (ما يكون). your = الخاص بك. name = اسم. فالسؤال: ما اسمك؟ والإجابة: My name is ... أو I'm ... (أو الاسم فقط).",
+        "explanation_en": "What's = what is. Your = belonging to you. Answer: My name is ... or I'm ... (or just your name).",
+        "examples": [
+          "What's your name? My name is Karen.",
+          "What's your name? I'm Seif."
+        ]
+      },
+      {
+        "title": "How are you?",
+        "explanation_ar": "how = كيف. How are you? = كيف حالك/حالكم. الإجابة: I'm fine, thank you. أو للمجموعة: We're fine, thanks. ونضع فاصلة قبل thank you.",
+        "explanation_en": "How = in what condition. How are you? Answer: I'm fine, thank you. A group says: We're fine, thanks. Put a comma before thank you.",
+        "examples": [
+          "How are you, Sami? I'm fine, thanks.",
+          "How are you, Dina, Ola and Hazem? We're fine, thanks."
+        ]
+      },
+      {
+        "title": "How old ... ?",
+        "explanation_ar": "للسؤال عن العمر: How old + am/is/are + الفاعل؟ الإجابة القصيرة: I'm six. والإجابة الطويلة: I'm six years old. مع اسم مفرد نستخدم is: How old is Tom? He's five.",
+        "explanation_en": "To ask about age: How old + am/is/are + subject? Short answer: I'm six. Long answer: I'm six years old. With one name use is: How old is Tom? He's five.",
+        "examples": [
+          "How old are you? I'm ten.",
+          "How old is Amira? She's six years old.",
+          "How old are they? They're eight."
+        ]
+      },
+      {
+        "title": "How many + plural noun",
+        "explanation_ar": "how many = كم عدد، ويأتي بعدها اسم جمع دائمًا: How many cats? وليس How many cat. وفي الإجابة نذكر الرقم ثم الاسم جمعًا: three carrots.",
+        "explanation_en": "How many asks about number and is always followed by a plural noun: How many cats? (not cat). Answer with a number + plural noun: three carrots.",
+        "examples": [
+          "How many books? One book.",
+          "How many bags? Four bags.",
+          "How many children? Two children.",
+          "How many sheep? Five sheep."
+        ]
+      },
+      {
+        "title": "Numbers 1-10",
+        "explanation_ar": "الأرقام من 1 إلى 10: one, two, three, four, five, six, seven, eight, nine, ten. بعد one يكون الاسم مفردًا، وبعد بقية الأرقام يكون جمعًا.",
+        "explanation_en": "Numbers 1-10: one, two, three, four, five, six, seven, eight, nine, ten. After one, the noun is singular; after the others, it is plural.",
+        "examples": [
+          "one cat, two cats",
+          "seven cats",
+          "nine fish",
+          "ten books"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"What's your name?\" Choose the best answer.",
+      "choices": [
+        "I'm fine.",
+        "My name is Karen.",
+        "I'm six.",
+        "Thank you."
+      ],
+      "answer": 1,
+      "explanation_ar": "للسؤال عن الاسم نجيب My name is ...",
+      "explanation_en": "For a name question, answer My name is ..."
+    },
+    {
+      "question": "\"How are you?\" Choose the best answer.",
+      "choices": [
+        "I'm seven.",
+        "My name is Ali.",
+        "Two cats.",
+        "I'm fine, thank you."
+      ],
+      "answer": 3,
+      "explanation_ar": "How are you سؤال عن الحال: I'm fine, thank you.",
+      "explanation_en": "How are you asks about your condition: I'm fine, thank you."
+    },
+    {
+      "question": "\"How old are you?\" Choose the best answer.",
+      "choices": [
+        "I'm ten years old.",
+        "I'm fine.",
+        "Ten cats.",
+        "I'm Sara."
+      ],
+      "answer": 0,
+      "explanation_ar": "How old سؤال عن العمر.",
+      "explanation_en": "How old asks about age."
+    },
+    {
+      "question": "How many ___ are there?",
+      "choices": [
+        "cat",
+        "a cat",
+        "cats",
+        "an cat"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد how many يأتي اسم جمع.",
+      "explanation_en": "How many takes a plural noun."
+    },
+    {
+      "question": "How old ___ Tom?",
+      "choices": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": 1,
+      "explanation_ar": "Tom اسم مفرد فيأخذ is.",
+      "explanation_en": "Tom is one person, so we use is."
+    },
+    {
+      "question": "Tom and Lucy, how are you? — \"___ fine, thanks.\"",
+      "choices": [
+        "I'm",
+        "He's",
+        "She's",
+        "We're"
+      ],
+      "answer": 3,
+      "explanation_ar": "المجموعة ترد: We're fine.",
+      "explanation_en": "A group answers: We're fine."
+    },
+    {
+      "question": "Which number is \"eight\"?",
+      "choices": [
+        "8",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 0,
+      "explanation_ar": "eight = 8 (ثمانية).",
+      "explanation_en": "Eight is 8."
+    },
+    {
+      "question": "How do you write 3 in words?",
+      "choices": [
+        "tree",
+        "free",
+        "three",
+        "thre"
+      ],
+      "answer": 2,
+      "explanation_ar": "الرقم 3 يُكتب three.",
+      "explanation_en": "3 is written three."
+    },
+    {
+      "question": "\"How old is Mary?\" \"___ nine.\"",
+      "choices": [
+        "He's",
+        "She's",
+        "It's",
+        "They're"
+      ],
+      "answer": 1,
+      "explanation_ar": "Mary بنت فنستخدم She's.",
+      "explanation_en": "Mary is a girl: She's."
+    },
+    {
+      "question": "What does \"how many\" mean?",
+      "choices": [
+        "كيف",
+        "كم عمر",
+        "ما اسم",
+        "كم عدد"
+      ],
+      "answer": 3,
+      "explanation_ar": "how many = كم عدد.",
+      "explanation_en": "How many asks about a number of things."
+    }
+  ]
+}

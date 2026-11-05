@@ -1,0 +1,49 @@
+{
+  "title": "Stop Saying \"Okay\"",
+  "content": {
+    "vocabulary": [
+      {"word": "okay", "pos": "exclamation / adjective", "meaning_en": "used to agree, to ask or give permission, or to say something is acceptable but not great", "meaning_ar": "حسنًا / مقبول", "note_ar": "في الكتابة الرسمية اكتب okay، وفي الرسائل غير الرسمية يكثر OK", "note_en": "Write \"okay\" in formal writing; \"OK\" is common in casual texts.", "example": "Is it okay if I sit here?"},
+      {"word": "sufficient", "pos": "adjective", "meaning_en": "enough; it works but it is not the best", "meaning_ar": "كافٍ", "note_ar": "", "note_en": "", "example": "The food was sufficient, but not great."},
+      {"word": "permission", "pos": "noun", "meaning_en": "when someone says you are allowed to do something", "meaning_ar": "إذن", "note_ar": "ask for / give permission", "note_en": "ask for / give permission", "example": "You need permission to leave early."},
+      {"word": "commitment", "pos": "noun", "meaning_en": "a strong promise or wish to do something", "meaning_ar": "التزام", "note_ar": "", "note_en": "", "example": "\"Okay\" shows no real commitment."},
+      {"word": "for sure", "pos": "phrase", "meaning_en": "yes, definitely", "meaning_ar": "بالتأكيد", "note_ar": "", "note_en": "Informal.", "example": "Dinner tonight? - For sure!"},
+      {"word": "absolutely", "pos": "adverb", "meaning_en": "yes, completely", "meaning_ar": "بالتأكيد / تمامًا", "note_ar": "", "note_en": "", "example": "Can I call you later? - Absolutely."},
+      {"word": "brilliant", "pos": "adjective", "meaning_en": "excellent (British); also very clever", "meaning_ar": "رائع / ذكي جدًا", "note_ar": "شائعة جدًا في بريطانيا بمعنى ممتاز", "note_en": "Very common in British English for \"excellent\".", "example": "How's the weather? - Brilliant!"},
+      {"word": "fantastic", "pos": "adjective", "meaning_en": "extremely good", "meaning_ar": "رائع", "note_ar": "", "note_en": "", "example": "My day was fantastic."},
+      {"word": "interesting", "pos": "adjective", "meaning_en": "unusual and worth talking about", "meaning_ar": "مثير للاهتمام", "note_ar": "يفتح باب الحديث لأن السامع سيسأل: لماذا؟", "note_en": "It makes people ask more questions.", "example": "How was your day? - Interesting! I got a job offer."},
+      {"word": "authentic", "pos": "adjective", "meaning_en": "real; sincere", "meaning_ar": "حقيقي / صادق", "note_ar": "", "note_en": "", "example": "I want your authentic permission."},
+      {"word": "unnecessary", "pos": "adjective", "meaning_en": "not needed", "meaning_ar": "غير ضروري", "note_ar": "", "note_en": "", "example": "Saying \"I'm okay\" can create unnecessary worry."},
+      {"word": "concern", "pos": "noun", "meaning_en": "worry", "meaning_ar": "قلق", "note_ar": "", "note_en": "", "example": "There is no cause for concern."},
+      {"word": "social convention", "pos": "noun", "meaning_en": "something people do because it is normal and polite in society", "meaning_ar": "عُرف اجتماعي", "note_ar": "", "note_en": "", "example": "\"How are you?\" is a social convention."},
+      {"word": "unacceptable", "pos": "adjective", "meaning_en": "not allowed; very wrong", "meaning_ar": "غير مقبول", "note_ar": "That's not okay = غير مقبول إطلاقًا", "note_en": "\"That's not okay\" = unacceptable", "example": "Shouting at your mother is unacceptable."},
+      {"word": "enthusiasm", "pos": "noun", "meaning_en": "a strong feeling of excitement and interest", "meaning_ar": "حماس", "note_ar": "", "note_en": "", "example": "Say \"Why not?\" to show enthusiasm."}
+    ],
+    "fine_lines": [
+      {"title": "\"How are you?\" - \"I'm okay\" vs \"I'm good\"", "words": ["I'm okay", "I'm good"], "explanation_ar": "إذا سألك أحد How are you? لا تقل I'm okay لأن المتحدث الأصلي سيظن أن هناك مشكلة. قل I'm good / I'm great / I'm well / Fine, thank you. لكن بعد سقوط أو حادث تقول I'm okay أي لم أُصب بأذى.", "explanation_en": "When someone asks \"How are you?\", don't say \"I'm okay\"; it sounds like something is wrong. Say I'm good / great / well / fine, thanks. After a fall or accident, \"I'm okay\" is fine: it means \"I'm not hurt\".", "examples": [{"word": "I'm good", "sentence": "Hi Tom, how are you? - I'm good, thanks!"}, {"word": "I'm okay", "sentence": "Did you hurt yourself? - No, I'm okay."}]},
+      {"title": "\"I'm good\" (answer) vs \"I'm good\" (refusal)", "words": ["I'm good"], "explanation_ar": "I'm good جوابًا على How are you تعني أنا بخير. لكن جوابًا على دعوة (Do you want to see a movie?) تعني: لا، شكرًا.", "explanation_en": "\"I'm good\" after \"How are you?\" means I'm fine. After an invitation it means \"No, thanks\".", "examples": [{"word": "I'm good", "sentence": "How are you? - I'm good."}, {"word": "I'm good", "sentence": "Do you want more cake? - I'm good, thanks."}]}
+    ],
+    "expressions": [
+      {"phrase": "For sure! / Absolutely! / Why not?", "meaning_ar": "بالتأكيد! / طبعًا! / ولمَ لا؟", "meaning_en": "strong ways to say yes to an invitation", "example": "Do you want to see a film later? - Why not?"},
+      {"phrase": "It's great / fantastic / brilliant / interesting.", "meaning_ar": "إنه رائع / مذهل / ممتاز / مثير للاهتمام.", "meaning_en": "answers with emotion instead of \"okay\"", "example": "How was the trip? - Fantastic!"},
+      {"phrase": "Are you sure it's okay if...? / Is it alright if...?", "meaning_ar": "هل أنت متأكد أنه لا مانع إن...؟ / هل لا بأس إن...؟", "meaning_en": "asking for real permission", "example": "Is it alright if I take next Monday off?"},
+      {"phrase": "Go ahead. / Of course. / No problem.", "meaning_ar": "تفضّل. / بالطبع. / لا مشكلة.", "meaning_en": "giving permission happily", "example": "Can I leave 20 minutes early? - No problem. Go ahead."},
+      {"phrase": "I'm good / great / well.", "meaning_ar": "أنا بخير / ممتاز.", "meaning_en": "answers to \"How are you?\"", "example": "How are you today? - I'm great, thanks."},
+      {"phrase": "That is not okay.", "meaning_ar": "هذا غير مقبول إطلاقًا.", "meaning_en": "This is unacceptable.", "example": "Talking to people like that is not okay."},
+      {"phrase": "Okay... (slow tone)", "meaning_ar": "حسنًا... (سأفعل لكن على مضض) / آه فهمت الآن", "meaning_en": "I'll do it but I don't want to; or: now I understand", "example": "Clean your room. - Okay... (I don't want to.)"},
+      {"phrase": "Okay, okay, okay! (fast)", "meaning_ar": "حسنًا حسنًا! أسرع / فهمت", "meaning_en": "hurry up / I got it", "example": "Okay, okay, okay, I'm coming!"}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"How are you?\" Which answer is best?", "choices": ["I'm great, thanks.", "I'm okay.", "Interesting.", "Go ahead."], "answer": 0, "explanation_ar": "لا تقل I'm okay لأنها توحي بوجود مشكلة.", "explanation_en": "\"I'm okay\" sounds like something is wrong."},
+    {"question": "\"Do you want to see a movie later?\" Show enthusiasm:", "choices": ["I'm good.", "Why not?", "Interesting.", "That's not okay."], "answer": 1, "explanation_ar": "Why not? تُظهر الحماس للموافقة.", "explanation_en": "\"Why not?\" shows you're happy to go."},
+    {"question": "\"Can I leave 20 minutes early to get my child?\" A good boss says:", "choices": ["Interesting.", "Okay... (slowly)", "No problem. Go ahead.", "I'm good."], "answer": 2, "explanation_ar": "No problem. Go ahead تعطي إذنًا حقيقيًا.", "explanation_en": "\"No problem. Go ahead\" gives real permission."},
+    {"question": "\"How is the weather today?\" (British, very good)", "choices": ["Go ahead.", "Of course.", "Absolutely.", "Brilliant!"], "answer": 3, "explanation_ar": "brilliant تعني ممتاز في بريطانيا.", "explanation_en": "Brilliant means excellent in British English."},
+    {"question": "\"How was your day?\" Which answer makes people want to talk more?", "choices": ["Interesting!", "Okay.", "Absolutely.", "Go ahead."], "answer": 0, "explanation_ar": "interesting تجعل الآخر يسأل: ماذا حدث؟", "explanation_en": "\"Interesting\" makes people ask what happened."},
+    {"question": "\"That is not okay!\" means:", "choices": ["It's fine.", "It's unacceptable.", "It's sufficient.", "I'm not hurt."], "answer": 1, "explanation_ar": "That is not okay = غير مقبول.", "explanation_en": "It means unacceptable."},
+    {"question": "Tom falls down. \"Are you alright?\" The natural answer is:", "choices": ["I'm brilliant!", "Why not?", "Yeah, I'm okay.", "Absolutely!"], "answer": 2, "explanation_ar": "بعد حادث، I'm okay تعني لم أصب بأذى.", "explanation_en": "After an accident, \"I'm okay\" = not hurt."},
+    {"question": "\"Do you want more tea?\" - \"I'm good, thanks.\" This means:", "choices": ["Yes, please.", "I'm happy.", "I'm healthy.", "No, thank you."], "answer": 3, "explanation_ar": "I'm good جوابًا على عرض تعني لا شكرًا.", "explanation_en": "After an offer, \"I'm good\" means no, thanks."},
+    {"question": "Why is \"Okay\" a weak answer to an invitation?", "choices": ["It lacks strong commitment.", "It is rude.", "It is too formal.", "It means no."], "answer": 0, "explanation_ar": "okay لا تُظهر رغبة حقيقية.", "explanation_en": "It doesn't show you really want to go."},
+    {"question": "Which asks for real permission?", "choices": ["Okay, I take it.", "Is it alright if I take your book?", "I'm good with your book.", "Brilliant book."], "answer": 1, "explanation_ar": "Is it alright if...? طلب إذن حقيقي.", "explanation_en": "\"Is it alright if...?\" asks for real permission."}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Ago and From Now",
+  "content": {
+    "vocabulary": [
+      {"word": "ago", "pos": "adverb", "meaning_en": "before now; in the past (after a time period)", "meaning_ar": "منذ / قبل (في الماضي)", "note_ar": "يأتي بعد المدة: three days ago", "note_en": "Comes after the period: three days ago.", "example": "I got this paper three days ago."},
+      {"word": "from now", "pos": "phrase", "meaning_en": "after now; in the future (after a time period)", "meaning_ar": "من الآن (في المستقبل)", "note_ar": "f = future = from now", "note_en": "f = future = from now", "example": "Two days from now, it will be Tuesday."},
+      {"word": "in (+ time)", "pos": "preposition", "meaning_en": "after a period of time from now (future)", "meaning_ar": "بعد (مدة) في المستقبل", "note_ar": "", "note_en": "", "example": "In three days, it will be Tuesday."},
+      {"word": "a week ago", "pos": "phrase", "meaning_en": "seven days before today", "meaning_ar": "قبل أسبوع", "note_ar": "نقول a week ago وليس seven days ago", "note_en": "We say \"a week ago\", not \"seven days ago\".", "example": "A week ago, I started my new job."},
+      {"word": "accurately", "pos": "adverb", "meaning_en": "exactly and correctly", "meaning_ar": "بدقة", "note_ar": "", "note_en": "", "example": "We need to talk about time accurately."},
+      {"word": "past", "pos": "noun", "meaning_en": "the time before now", "meaning_ar": "الماضي", "note_ar": "", "note_en": "", "example": "\"Ago\" talks about the past."},
+      {"word": "future", "pos": "noun", "meaning_en": "the time after now", "meaning_ar": "المستقبل", "note_ar": "", "note_en": "", "example": "\"From now\" talks about the future."},
+      {"word": "forward", "pos": "adverb", "meaning_en": "towards the front; ahead", "meaning_ar": "إلى الأمام", "note_ar": "", "note_en": "", "example": "For the future, count forward: Monday, Tuesday..."},
+      {"word": "backwards", "pos": "adverb", "meaning_en": "towards the back", "meaning_ar": "إلى الخلف", "note_ar": "", "note_en": "", "example": "For the past, count backwards: Saturday, Friday..."},
+      {"word": "Tuesday", "pos": "noun", "meaning_en": "the second working day of the week", "meaning_ar": "الثلاثاء", "note_ar": "Tues تشبه صوت two (الثاني) للتمييز عن Thursday", "note_en": "\"Tues\" sounds like \"two\" – it helps you not confuse it with Thursday.", "example": "If today is Sunday, two days from now will be Tuesday."},
+      {"word": "Thursday", "pos": "noun", "meaning_en": "the day after Wednesday", "meaning_ar": "الخميس", "note_ar": "", "note_en": "", "example": "Thursday comes after Wednesday."},
+      {"word": "fluently", "pos": "adverb", "meaning_en": "easily and well, without stopping", "meaning_ar": "بطلاقة", "note_ar": "", "note_en": "", "example": "She speaks English fluently."}
+    ],
+    "fine_lines": [
+      {"title": "ago vs before", "words": ["ago", "before"], "explanation_ar": "للحديث عن وقت في الماضي محسوبًا من الآن نقول ago: two months ago. لا نقول two months before بهذا المعنى (خطأ شائع).", "explanation_en": "To talk about a past time counted from now, say \"ago\": two months ago. Don't say \"two months before\" for this (a common mistake).", "examples": [{"word": "ago", "sentence": "I was there two months ago."}, {"word": "before", "sentence": "✗ I was there two months before."}]},
+      {"title": "ago vs from now / in", "words": ["ago", "from now / in"], "explanation_ar": "ago للماضي مع was. from now و in للمستقبل مع will be. in تأتي في أول العبارة: in three days.", "explanation_en": "\"Ago\" for the past with \"was\". \"From now\" and \"in\" for the future with \"will be\". \"In\" comes first: in three days.", "examples": [{"word": "ago", "sentence": "Three days ago, it was Thursday."}, {"word": "from now / in", "sentence": "In three days, it will be Wednesday."}]}
+    ],
+    "expressions": [
+      {"phrase": "If today is Sunday, three days from now it will be Wednesday.", "meaning_ar": "إذا كان اليوم الأحد، فبعد ثلاثة أيام من الآن سيكون الأربعاء.", "meaning_en": "Counting forward three days from Sunday.", "example": "If today is Sunday, three days from now it will be Wednesday."},
+      {"phrase": "If today is Saturday, three days ago it was Wednesday.", "meaning_ar": "إذا كان اليوم السبت، فقبل ثلاثة أيام كان الأربعاء.", "meaning_en": "Counting back three days from Saturday.", "example": "If today is Saturday, three days ago it was Wednesday."},
+      {"phrase": "A week ago, ...", "meaning_ar": "قبل أسبوع...", "meaning_en": "On the same day last week...", "example": "A week ago, I was on holiday."}
+    ],
+    "grammar": [
+      {"title": "ago = past (with was / past tense)", "explanation_ar": "ago تأتي بعد المدة وتدل على الماضي محسوبًا من الآن، ونستعمل معها الماضي (was). لنعدّ الأيام نرجع إلى الخلف ولا نعدّ اليوم الحالي.", "explanation_en": "\"Ago\" comes after the time period and shows the past, counted from now. Use the past tense (was). Count backwards, and don't count today.", "examples": ["If today is Saturday, three days ago it was Wednesday.", "I bought this phone two months ago."]},
+      {"title": "from now = future (with will be)", "explanation_ar": "from now تأتي بعد المدة وتدل على المستقبل، ونستعمل معها will be. نعدّ إلى الأمام بدون حساب اليوم الحالي.", "explanation_en": "\"From now\" comes after the time period and shows the future; use \"will be\". Count forward, without counting today.", "examples": ["If today is Sunday, three days from now it will be Wednesday.", "Two weeks from now, I will be in Cairo."]},
+      {"title": "in + time = future", "explanation_ar": "صيغة أخرى للمستقبل: in + المدة في أول العبارة: In three days, it will be Tuesday.", "explanation_en": "Another future form: in + period, at the start: In three days, it will be Tuesday.", "examples": ["If today is Saturday, in three days it will be Tuesday.", "In two months, I will finish the course."]},
+      {"title": "Say \"a week ago\", not \"seven days ago\"", "explanation_ar": "للحديث عن اليوم نفسه من الأسبوع الماضي نقول a week ago. ويمكن استعمال الصيغ نفسها مع الأشهر: three months ago, two months from now.", "explanation_en": "For the same day last week, say \"a week ago\". The same patterns work with months: three months ago, two months from now.", "examples": ["A week ago, it was Saturday too.", "Three months from now, it will be summer."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I was there two months ___.\" (in the past)", "choices": ["before", "ago", "from now", "in"], "answer": 1, "explanation_ar": "للماضي من الآن: ago.", "explanation_en": "Past counted from now: ago."},
+    {"question": "If today is Sunday, three days from now it ___ Wednesday.", "choices": ["was", "is been", "will be", "were"], "answer": 2, "explanation_ar": "from now مستقبل: will be.", "explanation_en": "\"From now\" is future: will be."},
+    {"question": "If today is Saturday, three days ago it was ___.", "choices": ["Wednesday", "Tuesday", "Thursday", "Monday"], "answer": 0, "explanation_ar": "نرجع: الجمعة، الخميس، الأربعاء.", "explanation_en": "Count back: Friday, Thursday, Wednesday."},
+    {"question": "If today is Sunday, two days from now will be ___.", "choices": ["Monday", "Friday", "Wednesday", "Tuesday"], "answer": 3, "explanation_ar": "نتقدم: الاثنين، الثلاثاء.", "explanation_en": "Count forward: Monday, Tuesday."},
+    {"question": "How do native speakers say \"seven days ago\"?", "choices": ["a week before", "a week ago", "seven ago days", "a week from now"], "answer": 1, "explanation_ar": "نقول a week ago.", "explanation_en": "We say \"a week ago\"."},
+    {"question": "\"___ three days, it will be Tuesday.\"", "choices": ["Ago", "Before", "In", "From"], "answer": 2, "explanation_ar": "in + المدة للمستقبل.", "explanation_en": "in + period for the future."},
+    {"question": "\"Ago\" goes with ___.", "choices": ["the past", "the future", "now only", "every day"], "answer": 0, "explanation_ar": "ago للماضي.", "explanation_en": "\"Ago\" is for the past."},
+    {"question": "If today is Saturday, in three days it will be ___.", "choices": ["Wednesday", "Monday", "Thursday", "Tuesday"], "answer": 3, "explanation_ar": "الأحد، الاثنين، الثلاثاء.", "explanation_en": "Sunday, Monday, Tuesday."},
+    {"question": "Choose the correct sentence.", "choices": ["Two weeks ago, I will travel.", "Two weeks from now, I traveled.", "Two weeks ago, I traveled.", "Ago two weeks, I traveled."], "answer": 2, "explanation_ar": "ago مع الماضي، وبعد المدة.", "explanation_en": "\"Ago\" with the past, after the period."},
+    {"question": "When we count days for the past, we count ___.", "choices": ["backwards", "forward", "today first", "only weekends"], "answer": 0, "explanation_ar": "للماضي نعدّ إلى الخلف.", "explanation_en": "For the past, count backwards."}
+  ]
+}

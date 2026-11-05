@@ -1,0 +1,91 @@
+{
+  "title": "Yesterday Was Amazing!",
+  "content": {
+    "vocabulary": [
+      {"word": "yesterday", "pos": "adverb", "meaning_en": "the day before today", "meaning_ar": "أمس", "note_ar": "", "note_en": "", "example": "Yesterday was a busy day."},
+      {"word": "amazing", "pos": "adjective", "meaning_en": "very surprising and wonderful", "meaning_ar": "مُذهل / رائع جدًا", "note_ar": "", "note_en": "", "example": "The view from the mountain is amazing."},
+      {"word": "letter", "pos": "noun", "meaning_en": "a written message you send to someone", "meaning_ar": "رسالة (مكتوبة)", "note_ar": "letter تعني أيضًا حرفًا من حروف الأبجدية.", "note_en": "letter also means a letter of the alphabet (A, B, C).", "example": "I am writing a letter to my grandmother."},
+      {"word": "Dear ...", "pos": "phrase", "meaning_en": "the usual way to start a letter", "meaning_ar": "عزيزي / عزيزتي ... (بداية الرسالة)", "note_ar": "", "note_en": "", "example": "Dear Sara, how are you?"},
+      {"word": "life", "pos": "noun", "meaning_en": "the way a person lives", "meaning_ar": "الحياة", "note_ar": "الجمع: lives.", "note_en": "Plural: lives.", "example": "Life in a big city is busy."},
+      {"word": "interesting", "pos": "adjective", "meaning_en": "making you want to know more", "meaning_ar": "مثير للاهتمام", "note_ar": "تُنطق عادة بثلاثة مقاطع: IN-tres-ting.", "note_en": "Often said with three syllables: IN-tres-ting.", "example": "This book is very interesting."},
+      {"word": "usual", "pos": "adjective", "meaning_en": "normal; what happens most of the time", "meaning_ar": "معتاد / عادي", "note_ar": "عكسها unusual.", "note_en": "Opposite: unusual.", "example": "It started like a usual work day."},
+      {"word": "break", "pos": "noun", "meaning_en": "a short time of rest from work", "meaning_ar": "استراحة", "note_ar": "نقول take a break.", "note_en": "We say take a break.", "example": "Let's take a short break."},
+      {"word": "festival", "pos": "noun", "meaning_en": "a special event with food, shows and activities", "meaning_ar": "مهرجان", "note_ar": "", "note_en": "", "example": "There is a food festival in the park."},
+      {"word": "culture", "pos": "noun", "meaning_en": "the way of life, art and traditions of a group of people", "meaning_ar": "ثقافة", "note_ar": "الصفة: cultural.", "note_en": "Adjective: cultural.", "example": "I like learning about other cultures."},
+      {"word": "traditional", "pos": "adjective", "meaning_en": "done in the same way for a long time", "meaning_ar": "تقليدي", "note_ar": "الاسم: tradition.", "note_en": "Noun: tradition.", "example": "She is wearing traditional clothes."},
+      {"word": "dance", "pos": "verb / noun", "meaning_en": "to move your body to a rhythm; a set of such movements", "meaning_ar": "يرقص / رقصة", "note_ar": "الماضي: danced.", "note_en": "Past: danced.", "example": "They dance a traditional dance at the festival."},
+      {"word": "game", "pos": "noun", "meaning_en": "an activity with rules that you play for fun", "meaning_ar": "لعبة", "note_ar": "", "note_en": "", "example": "We played a game with a ball."},
+      {"word": "handball", "pos": "noun", "meaning_en": "a sport where players hit or throw a ball with their hands", "meaning_ar": "كرة اليد", "note_ar": "", "note_en": "", "example": "Pilota is a kind of handball."},
+      {"word": "a kind of", "pos": "phrase", "meaning_en": "a type of", "meaning_ar": "نوع من", "note_ar": "", "note_en": "", "example": "A rose is a kind of flower."},
+      {"word": "art", "pos": "noun", "meaning_en": "paintings, drawings and other beautiful things people make", "meaning_ar": "فن", "note_ar": "", "note_en": "", "example": "There is a lot of art in this museum."},
+      {"word": "ship", "pos": "noun", "meaning_en": "a large boat", "meaning_ar": "سفينة", "note_ar": "انتبه للفرق بين ship /ʃɪp/ و sheep /ʃiːp/ (خروف).", "note_en": "Don't confuse ship /ʃɪp/ with sheep /ʃiːp/.", "example": "They are making a model ship."},
+      {"word": "walk", "pos": "verb", "meaning_en": "to move on foot", "meaning_ar": "يمشي", "note_ar": "الماضي walked يُنطق /wɔːkt/ والحرف l صامت.", "note_en": "Past: walked /wɔːkt/; the l is silent.", "example": "I walked to the park."},
+      {"word": "see", "pos": "verb", "meaning_en": "to notice with your eyes", "meaning_ar": "يرى", "note_ar": "فعل شاذ: الماضي saw.", "note_en": "Irregular: past saw.", "example": "Then I saw something!"},
+      {"word": "cook", "pos": "verb", "meaning_en": "to make food ready to eat with heat", "meaning_ar": "يطبخ", "note_ar": "الماضي: cooked /kʊkt/.", "note_en": "Past: cooked /kʊkt/.", "example": "They cooked a lot of food."},
+      {"word": "play", "pos": "verb", "meaning_en": "to take part in a game", "meaning_ar": "يلعب", "note_ar": "الماضي: played /pleɪd/.", "note_en": "Past: played /pleɪd/.", "example": "The children played in the garden."},
+      {"word": "start", "pos": "verb", "meaning_en": "to begin", "meaning_ar": "يبدأ", "note_ar": "الماضي: started /ˈstɑːrtɪd/ بمقطع إضافي.", "note_en": "Past: started, with an extra syllable /ɪd/.", "example": "The day started like any other day."},
+      {"word": "whole", "pos": "adjective", "meaning_en": "all of something", "meaning_ar": "كامل / كلّه", "note_ar": "حرف w صامت: تُنطق مثل hole.", "note_en": "The w is silent: it sounds like hole.", "example": "The whole day was fun."},
+      {"word": "fun", "pos": "noun", "meaning_en": "enjoyment; a good time", "meaning_ar": "متعة", "note_ar": "نقول a lot of fun.", "note_en": "We say a lot of fun.", "example": "The festival was a lot of fun."},
+      {"word": "soon", "pos": "adverb", "meaning_en": "in a short time from now", "meaning_ar": "قريبًا", "note_ar": "", "note_en": "", "example": "Please come visit soon."}
+    ],
+    "fine_lines": [
+      {"title": "was vs were", "words": ["was", "were"],
+       "explanation_ar": "was و were هما ماضي فعل to be. was مع I / he / she / it واسم مفرد، و were مع you / we / they واسم جمع.",
+       "explanation_en": "was and were are the past of the verb be. Use was with I, he, she, it and singular nouns. Use were with you, we, they and plural nouns.",
+       "examples": [
+         {"word": "was", "sentence": "Yesterday was amazing."},
+         {"word": "was", "sentence": "I was at work."},
+         {"word": "were", "sentence": "There were many people at the festival."},
+         {"word": "were", "sentence": "We were very happy."}
+       ]},
+      {"title": "-ed sounds: /t/, /d/, /ɪd/", "words": ["walked", "played", "started"],
+       "explanation_ar": "لاحقة -ed لها ثلاثة أصوات: /t/ بعد الأصوات المهموسة مثل k و p و s و sh و ch (walked, cooked, danced). /d/ بعد الأصوات المجهورة وحروف العلة (played, called). /ɪd/ مقطع إضافي بعد t أو d فقط (started, wanted).",
+       "explanation_en": "-ed has three sounds: /t/ after voiceless sounds like k, p, s, sh, ch (walked, cooked, danced); /d/ after voiced sounds and vowels (played, called); /ɪd/, an extra syllable, only after t or d (started, wanted).",
+       "examples": [
+         {"word": "walked", "sentence": "I walked and walked."},
+         {"word": "played", "sentence": "They played a game."},
+         {"word": "started", "sentence": "Yesterday started like a usual day."}
+       ]},
+      {"title": "present continuous vs simple past", "words": ["I am dancing", "I danced"],
+       "explanation_ar": "في الدرس تتكلم Anna عن الحدث وهو يحدث: I am dancing (الآن)، ثم تكتب عنه في رسالتها بالماضي: I danced (أمس). المضارع المستمر لما يحدث الآن، والماضي البسيط لما انتهى.",
+       "explanation_en": "Anna says 'I am dancing' while it is happening. In her letter she writes 'I danced' because it is finished. Present continuous = now; simple past = finished in the past.",
+       "examples": [
+         {"word": "I am dancing", "sentence": "Look! I am dancing a Basque dance."},
+         {"word": "I danced", "sentence": "Yesterday I danced a Basque dance."}
+       ]}
+    ],
+    "expressions": [
+      {"phrase": "Yesterday was the most amazing day.", "meaning_ar": "كان الأمس أروع يوم.", "meaning_en": "saying a past day was wonderful", "example": "Last Friday was the most amazing day."},
+      {"phrase": "Dear Penelope, ...", "meaning_ar": "عزيزتي بينيلوبي، ...", "meaning_en": "starting a friendly letter", "example": "Dear Ali, I hope you are well."},
+      {"phrase": "I see something new every day.", "meaning_ar": "أرى شيئًا جديدًا كل يوم.", "meaning_en": "saying life is full of new things", "example": "In this city I see something new every day."},
+      {"phrase": "I wanted a break.", "meaning_ar": "أردتُ استراحة.", "meaning_en": "saying you needed rest", "example": "I was tired, so I wanted a break."},
+      {"phrase": "It's a kind of handball.", "meaning_ar": "إنها نوع من كرة اليد.", "meaning_en": "explaining what something is like", "example": "It's a kind of soup with rice."},
+      {"phrase": "What do they call it?", "meaning_ar": "ماذا يسمّونه؟", "meaning_en": "asking the name of something", "example": "What do they call this bread? — They call it pita."},
+      {"phrase": "This festival is a lot of fun!", "meaning_ar": "هذا المهرجان ممتع جدًا!", "meaning_en": "saying an event is very enjoyable", "example": "This trip is a lot of fun!"},
+      {"phrase": "Please come visit soon.", "meaning_ar": "أرجو أن تأتي للزيارة قريبًا.", "meaning_en": "inviting a friend to visit you", "example": "We miss you. Please come visit soon."},
+      {"phrase": "There is a lot to do!", "meaning_ar": "هناك الكثير لتفعله!", "meaning_en": "saying a place has many activities", "example": "Come to our town. There is a lot to do!"}
+    ],
+    "grammar": [
+      {"title": "Simple past of regular verbs (-ed)",
+       "explanation_ar": "1) نستخدم الماضي البسيط لحدث انتهى في الماضي (yesterday, last week). 2) الأفعال المنتظمة نضيف لها -ed: walk → walked, play → played. 3) إذا انتهى الفعل بـ e نضيف d فقط: dance → danced. 4) الفعل نفسه مع كل الضمائر: I walked, she walked. 5) بعض الأفعال شاذة: see → saw.",
+       "explanation_en": "1) Use the simple past for finished actions (yesterday, last week). 2) Regular verbs add -ed: walk → walked, play → played. 3) If the verb ends in e, add only d: dance → danced. 4) The form is the same for all subjects. 5) Some verbs are irregular: see → saw.",
+       "examples": ["I walked and walked.", "They cooked traditional food.", "I danced a Basque dance.", "Then I saw a festival."]},
+      {"title": "Past of be: was / were",
+       "explanation_ar": "1) I / he / she / it + was. 2) you / we / they + were. 3) There was + مفرد، There were + جمع. 4) النفي: wasn't / weren't. 5) السؤال: Was it fun? / Were you there?",
+       "explanation_en": "1) I/he/she/it + was. 2) you/we/they + were. 3) There was + singular; There were + plural. 4) Negative: wasn't / weren't. 5) Questions: Was it fun? / Were you there?",
+       "examples": ["I was at work.", "It was the Smithsonian Folklife Festival.", "There was dancing and food.", "Were you at the festival?"]}
+    ]
+  },
+  "questions": [
+    {"question": "Who is Anna writing to?", "choices": ["her boss", "her friend Penelope", "her mother", "Marsha"], "answer": 1, "explanation_ar": "تكتب Anna رسالة لصديقتها Penelope.", "explanation_en": "Anna writes a letter to her friend Penelope."},
+    {"question": "Yesterday ____ amazing.", "choices": ["were", "is", "was", "be"], "answer": 2, "explanation_ar": "مع اسم مفرد في الماضي نستخدم was.", "explanation_en": "Use was with a singular subject in the past."},
+    {"question": "What is the past of 'dance'?", "choices": ["danced", "danceed", "dancing", "danses"], "answer": 0, "explanation_ar": "الفعل ينتهي بـ e فنضيف d فقط: danced.", "explanation_en": "The verb ends in e, so add only d: danced."},
+    {"question": "What is the past of 'see'?", "choices": ["seed", "seen", "seeing", "saw"], "answer": 3, "explanation_ar": "see فعل شاذ وماضيه saw.", "explanation_en": "see is irregular; its past is saw."},
+    {"question": "In which word does -ed sound like /ɪd/ (an extra syllable)?", "choices": ["walked", "played", "started", "cooked"], "answer": 2, "explanation_ar": "نضيف مقطع /ɪd/ بعد t أو d فقط، مثل started.", "explanation_en": "We add the /ɪd/ syllable only after t or d, as in started."},
+    {"question": "There ____ many people at the festival.", "choices": ["were", "was", "is", "be"], "answer": 0, "explanation_ar": "مع اسم جمع نستخدم were.", "explanation_en": "Use were with a plural noun."},
+    {"question": "What was the culture at the festival this year?", "choices": ["Italian", "Basque", "Peruvian", "Chinese"], "answer": 1, "explanation_ar": "كانت الثقافة الباسكية (Basque).", "explanation_en": "It was the Basque culture."},
+    {"question": "What is pilota?", "choices": ["a dance", "a kind of food", "a ship", "a kind of handball"], "answer": 3, "explanation_ar": "pilota نوع من كرة اليد.", "explanation_en": "Pilota is a kind of handball."},
+    {"question": "Choose the correct sentence about yesterday.", "choices": ["Yesterday I walk to the park.", "Yesterday I walked to the park.", "Yesterday I am walking to the park.", "Yesterday I walks to the park."], "answer": 1, "explanation_ar": "مع yesterday نستخدم الماضي البسيط: walked.", "explanation_en": "With yesterday, use the simple past: walked."},
+    {"question": "'Traditional' means:", "choices": ["done the same way for a long time", "very new", "very expensive", "very fast"], "answer": 0, "explanation_ar": "traditional تعني تقليدي، يُفعل بنفس الطريقة منذ زمن طويل.", "explanation_en": "Traditional means done in the same way for a long time."}
+  ]
+}

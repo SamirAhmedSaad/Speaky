@@ -1,0 +1,443 @@
+{
+  "title": "Dealing with Difficult Staff",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "difficult colleague",
+        "pos": "noun",
+        "meaning_en": "a co-worker who is hard to work with",
+        "meaning_ar": "زميل صعب المراس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How do you deal with a difficult colleague?"
+      },
+      {
+        "word": "deal with",
+        "pos": "phrasal verb",
+        "meaning_en": "to take action to solve a problem",
+        "meaning_ar": "يتعامل مع / يعالج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have to deal with this problem today."
+      },
+      {
+        "word": "struggle",
+        "pos": "verb",
+        "meaning_en": "to find something very hard to do",
+        "meaning_ar": "يعاني / يجد صعوبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna is struggling to work with Rachel."
+      },
+      {
+        "word": "hinder",
+        "pos": "verb",
+        "meaning_en": "to make it harder for someone to do something",
+        "meaning_ar": "يعيق",
+        "note_ar": "الاسم: hindrance (عائق).",
+        "note_en": "Noun: hindrance.",
+        "example": "Too many meetings hinder our work."
+      },
+      {
+        "word": "annoy",
+        "pos": "verb",
+        "meaning_en": "to make someone a little angry",
+        "meaning_ar": "يزعج",
+        "note_ar": "الصفة: annoying / annoyed.",
+        "note_en": "Adjectives: annoying / annoyed.",
+        "example": "His loud phone calls annoy everyone."
+      },
+      {
+        "word": "concerned",
+        "pos": "adjective",
+        "meaning_en": "worried",
+        "meaning_ar": "قلق / مهتم بالأمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm concerned about the deadline."
+      },
+      {
+        "word": "mistake",
+        "pos": "noun",
+        "meaning_en": "something done wrongly",
+        "meaning_ar": "خطأ",
+        "note_ar": "make a mistake وليس do a mistake.",
+        "note_en": "Say make a mistake, not do a mistake.",
+        "example": "She made a mistake in the order."
+      },
+      {
+        "word": "affect",
+        "pos": "verb",
+        "meaning_en": "to change or have an influence on something",
+        "meaning_ar": "يؤثّر على",
+        "note_ar": "affect فعل، و effect اسم غالبًا.",
+        "note_en": "Affect is usually a verb; effect is usually a noun.",
+        "example": "The delay might affect the business."
+      },
+      {
+        "word": "pull your weight",
+        "pos": "idiom",
+        "meaning_en": "to do your fair share of the work",
+        "meaning_ar": "يقوم بنصيبه من العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Everyone in the team must pull their weight."
+      },
+      {
+        "word": "refer up",
+        "pos": "phrasal verb",
+        "meaning_en": "to send a problem to a more senior person",
+        "meaning_ar": "يرفع الأمر إلى المسؤول الأعلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you can't solve it, refer it up to your manager."
+      },
+      {
+        "word": "advice",
+        "pos": "noun",
+        "meaning_en": "an opinion about what someone should do",
+        "meaning_ar": "نصيحة",
+        "note_ar": "advice اسم غير معدود؛ الفعل advise.",
+        "note_en": "Advice is uncountable; the verb is advise.",
+        "example": "Ask your boss for advice."
+      },
+      {
+        "word": "Could I have a word?",
+        "pos": "phrase",
+        "meaning_en": "a polite way to ask to speak to someone privately",
+        "meaning_ar": "هل يمكنني التحدث معك قليلًا؟",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Paul, could I have a word, please?"
+      },
+      {
+        "word": "keep it under your hat",
+        "pos": "idiom",
+        "meaning_en": "keep it secret",
+        "meaning_ar": "احتفظ به سرًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is confidential, so keep it under your hat."
+      },
+      {
+        "word": "speaking personally",
+        "pos": "phrase",
+        "meaning_en": "giving your own opinion",
+        "meaning_ar": "من وجهة نظري الشخصية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Speaking personally, I think the plan is too expensive."
+      },
+      {
+        "word": "look into",
+        "pos": "phrasal verb",
+        "meaning_en": "to investigate or examine something",
+        "meaning_ar": "يبحث في / يتحرى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will look into this straight away."
+      },
+      {
+        "word": "straight away",
+        "pos": "adverb",
+        "meaning_en": "immediately",
+        "meaning_ar": "فورًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll call the client straight away."
+      },
+      {
+        "word": "bring something to someone's attention",
+        "pos": "phrase",
+        "meaning_en": "to tell someone about a problem so they know about it",
+        "meaning_ar": "يلفت انتباه شخص إلى أمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for bringing it to my attention."
+      },
+      {
+        "word": "that's just not on",
+        "pos": "idiom",
+        "meaning_en": "that is not acceptable",
+        "meaning_ar": "هذا غير مقبول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Arriving late every day? That's just not on."
+      },
+      {
+        "word": "investigate",
+        "pos": "verb",
+        "meaning_en": "to try to find out the facts about something",
+        "meaning_ar": "يحقق في",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The manager will investigate the problem."
+      },
+      {
+        "word": "complain",
+        "pos": "verb",
+        "meaning_en": "to say that something is wrong or not good enough",
+        "meaning_ar": "يشتكي",
+        "note_ar": "الاسم: complaint.",
+        "note_en": "Noun: complaint.",
+        "example": "You should only complain if you have a fair reason."
+      },
+      {
+        "word": "promotion",
+        "pos": "noun",
+        "meaning_en": "moving to a higher job in a company",
+        "meaning_ar": "ترقية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She got a promotion last year."
+      },
+      {
+        "word": "pay rise",
+        "pos": "noun",
+        "meaning_en": "an increase in the money you earn",
+        "meaning_ar": "زيادة في الراتب",
+        "note_ar": "في الأمريكية: raise.",
+        "note_en": "US English: raise.",
+        "example": "He asked for a pay rise."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "affect vs effect",
+        "words": [
+          "affect",
+          "effect"
+        ],
+        "explanation_ar": "affect فعل بمعنى (يؤثر على)، و effect اسم بمعنى (تأثير / نتيجة). تذكّر: A = Action (فعل)، E = End result (نتيجة).",
+        "explanation_en": "Affect is a verb (to influence). Effect is a noun (the result). Remember: A for action, E for end result.",
+        "examples": [
+          {
+            "word": "affect",
+            "sentence": "This mistake might affect the business."
+          },
+          {
+            "word": "effect",
+            "sentence": "The new rule had a good effect."
+          }
+        ]
+      },
+      {
+        "title": "advice vs advise",
+        "words": [
+          "advice",
+          "advise"
+        ],
+        "explanation_ar": "advice اسم غير معدود (نصيحة) ويُنطق بصوت s، و advise فعل (ينصح) ويُنطق بصوت z.",
+        "explanation_en": "Advice is an uncountable noun (said with an s sound). Advise is the verb (said with a z sound).",
+        "examples": [
+          {
+            "word": "advice",
+            "sentence": "Can I ask you for some advice?"
+          },
+          {
+            "word": "advise",
+            "sentence": "I advise you to talk to your manager."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm concerned that she's made a mistake that might affect the business.",
+        "meaning_ar": "أنا قلق من أنها ارتكبت خطأً قد يؤثّر على العمل.",
+        "meaning_en": "Telling your manager about a worrying mistake.",
+        "example": "I'm concerned that he's made a mistake that might affect the business."
+      },
+      {
+        "phrase": "She's not pulling her weight.",
+        "meaning_ar": "إنها لا تقوم بنصيبها من العمل.",
+        "meaning_en": "She isn't doing her fair share of work.",
+        "example": "The team is unhappy because one member is not pulling his weight."
+      },
+      {
+        "phrase": "I'm finding it very difficult to work with her.",
+        "meaning_ar": "أجد صعوبة كبيرة في العمل معها.",
+        "meaning_en": "Explaining a problem with a colleague.",
+        "example": "I'm finding it very difficult to work with him."
+      },
+      {
+        "phrase": "Could I have a word, please?",
+        "meaning_ar": "هل يمكنني التحدث معك قليلًا من فضلك؟",
+        "meaning_en": "Asking to speak to someone privately.",
+        "example": "Paul, could I have a word, please?"
+      },
+      {
+        "phrase": "I will look into this straight away.",
+        "meaning_ar": "سأنظر في الأمر فورًا.",
+        "meaning_en": "Promising to investigate immediately.",
+        "example": "Thank you. I will look into this straight away."
+      },
+      {
+        "phrase": "Thank you for bringing it to my attention.",
+        "meaning_ar": "شكرًا لأنك لفتّ انتباهي إلى هذا الأمر.",
+        "meaning_en": "Thanking someone for reporting a problem.",
+        "example": "Thank you for bringing it to my attention. I'll deal with it."
+      },
+      {
+        "phrase": "Well, that's just not on.",
+        "meaning_ar": "هذا غير مقبول إطلاقًا.",
+        "meaning_en": "That is not acceptable.",
+        "example": "He hasn't done any work all week? That's just not on."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present continuous for situations happening now: I'm finding…",
+        "explanation_ar": "نستخدم المضارع المستمر (am/is/are + ing) لوصف وضع يحدث الآن وقد يستمر، مثل الشعور بالصعوبة: I'm finding it difficult. و She's not pulling her weight.",
+        "explanation_en": "Use the present continuous (am/is/are + -ing) for a situation happening around now: I'm finding it difficult. She's not pulling her weight.",
+        "examples": [
+          "I'm finding it very difficult to work with her.",
+          "She's not pulling her weight.",
+          "Anna is struggling to work with Rachel."
+        ]
+      },
+      {
+        "title": "I'm concerned that… + present perfect",
+        "explanation_ar": "للتعبير عن القلق بلغة رسمية نقول I'm concerned that + جملة. ونستخدم المضارع التام لخطأ وقع وما زالت نتيجته قائمة: she's made a mistake.",
+        "explanation_en": "To express worry formally say 'I'm concerned that + clause'. Use the present perfect for a mistake with a result now: she's made a mistake.",
+        "examples": [
+          "I'm concerned that she's made a mistake.",
+          "I'm concerned that we've lost the client.",
+          "I'm concerned that the order hasn't arrived."
+        ]
+      },
+      {
+        "title": "might for possibility",
+        "explanation_ar": "نستخدم might + الفعل لاحتمال غير مؤكد: might affect the business (قد يؤثر).",
+        "explanation_en": "Use might + base verb for something that is possible but not certain.",
+        "examples": [
+          "The mistake might affect the business.",
+          "The client might cancel the order.",
+          "It might rain later."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'She's not pulling her weight' means…",
+      "choices": [
+        "she's losing weight",
+        "she's very weak",
+        "she's not doing her share of the work",
+        "she can't lift boxes"
+      ],
+      "answer": 2,
+      "explanation_ar": "pull your weight تعني القيام بنصيبك من العمل.",
+      "explanation_en": "It means doing your fair share of the work."
+    },
+    {
+      "question": "Complete: 'I'm ___ that she's made a mistake that might affect the business.'",
+      "choices": [
+        "concerned",
+        "concerning",
+        "concern",
+        "concerns"
+      ],
+      "answer": 0,
+      "explanation_ar": "الصفة concerned تعني قلقًا.",
+      "explanation_en": "'Concerned' is the adjective meaning worried."
+    },
+    {
+      "question": "Choose the correct word: 'This mistake might ___ the business.'",
+      "choices": [
+        "affection",
+        "effect",
+        "effective",
+        "affect"
+      ],
+      "answer": 3,
+      "explanation_ar": "affect فعل بمعنى يؤثر على.",
+      "explanation_en": "Affect is the verb."
+    },
+    {
+      "question": "How do you politely ask your boss to speak privately?",
+      "choices": [
+        "Give me your word.",
+        "Could I have a word, please?",
+        "Speak to me now.",
+        "Have a word."
+      ],
+      "answer": 1,
+      "explanation_ar": "Could I have a word? طريقة مهذبة لطلب الحديث.",
+      "explanation_en": "'Could I have a word?' is the polite way."
+    },
+    {
+      "question": "Paul says 'I will look into this.' What does he mean?",
+      "choices": [
+        "He will investigate the problem.",
+        "He will look out of the window.",
+        "He will forget it.",
+        "He will look at Anna."
+      ],
+      "answer": 0,
+      "explanation_ar": "look into تعني يحقق في الأمر.",
+      "explanation_en": "Look into means investigate."
+    },
+    {
+      "question": "'Keep that under your hat' means…",
+      "choices": [
+        "tell everyone",
+        "wear a hat",
+        "keep it secret",
+        "write it down"
+      ],
+      "answer": 2,
+      "explanation_ar": "التعبير يعني الاحتفاظ بالسر.",
+      "explanation_en": "It means keep it secret."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "Can you give me an advice?",
+        "Can you give me some advice?",
+        "Can you give me some advices?",
+        "Can you advice me some help?"
+      ],
+      "answer": 1,
+      "explanation_ar": "advice اسم غير معدود فلا نقول an advice ولا advices.",
+      "explanation_en": "Advice is uncountable: no 'an', no plural."
+    },
+    {
+      "question": "'Refer up' a problem means…",
+      "choices": [
+        "write it on the wall",
+        "forget about it",
+        "solve it yourself",
+        "take it to a more senior person"
+      ],
+      "answer": 3,
+      "explanation_ar": "refer up تعني رفع المشكلة إلى مسؤول أعلى.",
+      "explanation_en": "It means passing it to a more senior person."
+    },
+    {
+      "question": "Complete: 'I'm ___ it very difficult to work with her.'",
+      "choices": [
+        "finding",
+        "find",
+        "found to",
+        "finds"
+      ],
+      "answer": 0,
+      "explanation_ar": "المضارع المستمر: I'm finding.",
+      "explanation_en": "Present continuous: I'm finding."
+    },
+    {
+      "question": "'That's just not on' means…",
+      "choices": [
+        "the meeting is cancelled",
+        "the light is off",
+        "that is not acceptable",
+        "that is very good"
+      ],
+      "answer": 2,
+      "explanation_ar": "التعبير يعني أن الأمر غير مقبول.",
+      "explanation_en": "It means that is not acceptable."
+    }
+  ]
+}

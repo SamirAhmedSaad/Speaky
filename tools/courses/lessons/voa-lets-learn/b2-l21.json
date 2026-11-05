@@ -1,0 +1,55 @@
+{
+  "title": "It Speaks to Me",
+  "content": {
+    "vocabulary": [
+      {"word": "strange", "pos": "adjective", "meaning_en": "unusual; not normal", "meaning_ar": "غريب", "note_ar": "", "note_en": "", "example": "He is so strange."},
+      {"word": "promise", "pos": "verb", "meaning_en": "to say you will surely do or not do something", "meaning_ar": "يَعِد", "note_ar": "", "note_en": "", "example": "I promise. I won't tell anyone."},
+      {"word": "coming up", "pos": "phrase", "meaning_en": "happening soon", "meaning_ar": "قادم / قريب", "note_ar": "", "note_en": "", "example": "He has a birthday coming up."},
+      {"word": "present", "pos": "noun", "meaning_en": "a gift", "meaning_ar": "هدية", "note_ar": "", "note_en": "", "example": "I'm getting him a present."},
+      {"word": "unique", "pos": "adjective", "meaning_en": "the only one of its kind; very special", "meaning_ar": "فريد / مميز", "note_ar": "تُنطق /juˈniːk/", "note_en": "Say /juˈniːk/.", "example": "Do you know where I can buy something unique?"},
+      {"word": "definitely", "pos": "adverb", "meaning_en": "surely; without doubt", "meaning_ar": "بالتأكيد", "note_ar": "", "note_en": "", "example": "You will definitely find something there."},
+      {"word": "rent", "pos": "verb", "meaning_en": "to pay money to use something for a time", "meaning_ar": "يستأجر", "note_ar": "", "note_en": "", "example": "We rented a car for the trip."},
+      {"word": "clown", "pos": "noun", "meaning_en": "a funny performer with a painted face", "meaning_ar": "مهرّج", "note_ar": "", "note_en": "", "example": "The clown made the children laugh."},
+      {"word": "focus on", "pos": "phrasal verb", "meaning_en": "to give most of your attention to something", "meaning_ar": "يركّز على", "note_ar": "", "note_en": "", "example": "Our store focuses on handmade things."},
+      {"word": "handmade", "pos": "adjective", "meaning_en": "made by hand, not by a machine", "meaning_ar": "مصنوع يدويًا", "note_ar": "", "note_en": "", "example": "She sells handmade bags."},
+      {"word": "reclaimed", "pos": "adjective", "meaning_en": "taken from old things and used again", "meaning_ar": "مُستصلَح / مُعاد استخدامه", "note_ar": "", "note_en": "", "example": "The table is made of reclaimed wood."},
+      {"word": "recycled", "pos": "adjective", "meaning_en": "made new again from used material", "meaning_ar": "مُعاد تدويره", "note_ar": "", "note_en": "", "example": "This paper is recycled."},
+      {"word": "environment", "pos": "noun", "meaning_en": "the natural world: air, water, land", "meaning_ar": "البيئة", "note_ar": "", "note_en": "", "example": "Recycling is good for the environment."},
+      {"word": "one-of-a-kind", "pos": "adjective", "meaning_en": "the only one; there is no other like it", "meaning_ar": "فريد من نوعه", "note_ar": "", "note_en": "", "example": "Each piece is one-of-a-kind."},
+      {"word": "furniture", "pos": "noun", "meaning_en": "tables, chairs, beds and so on", "meaning_ar": "أثاث", "note_ar": "اسم غير معدود: a piece of furniture", "note_en": "Uncountable: a piece of furniture.", "example": "I paint most of the furniture."},
+      {"word": "look around", "pos": "phrasal verb", "meaning_en": "to walk and look at things in a place", "meaning_ar": "يتجوّل ويتفرّج", "note_ar": "", "note_en": "", "example": "Can I look around?"},
+      {"word": "dumpster", "pos": "noun", "meaning_en": "a very large metal trash container", "meaning_ar": "حاوية قمامة كبيرة", "note_ar": "", "note_en": "", "example": "I found this chair next to a dumpster."},
+      {"word": "trash", "pos": "noun", "meaning_en": "things people throw away", "meaning_ar": "قمامة / نفايات", "note_ar": "في بريطانيا: rubbish", "note_en": "UK: rubbish.", "example": "Please take out the trash."},
+      {"word": "treasure", "pos": "noun", "meaning_en": "something very valuable", "meaning_ar": "كنز", "note_ar": "", "note_en": "", "example": "Old letters can be a treasure."},
+      {"word": "private class", "pos": "noun", "meaning_en": "a lesson for one person or a small group", "meaning_ar": "درس خاص", "note_ar": "", "note_en": "", "example": "She takes private classes in art."}
+    ],
+    "fine_lines": [
+      {"title": "talk vs speak", "words": ["talk", "speak"], "explanation_ar": "الكلمتان بمعنى «يتكلم» وتُستخدمان غالبًا بنفس المعنى. talk أكثر للمحادثة بين شخصين أو أكثر وللمواقف غير الرسمية (مع الأصدقاء والعائلة). speak أكثر للكلام من طرف واحد (محاضرة)، وللمواقف الرسمية، وللتعبير عن معرفة اللغات (I speak Arabic)، وفي الطلبات المهذبة (May I speak to...?).", "explanation_en": "Both mean to say words, and often you can use either. Talk is usually for conversations between people and informal situations. Speak is usually for one-way talks like presentations, formal situations, language ability (I speak Arabic), and polite requests (May I speak to...?).", "examples": [{"word": "talk", "sentence": "Are you talking to yourself again?"}, {"word": "talk", "sentence": "I was talking to Pete on the phone."}, {"word": "speak", "sentence": "She speaks three languages."}, {"word": "speak", "sentence": "May I speak to the manager, please?"}]},
+      {"title": "unique vs one-of-a-kind", "words": ["unique", "one-of-a-kind"], "explanation_ar": "المعنى متقارب: شيء لا يوجد مثله. one-of-a-kind تُستخدم غالبًا قبل الاسم: a one-of-a-kind piece.", "explanation_en": "They mean almost the same: there is nothing else like it. One-of-a-kind is often used before a noun: a one-of-a-kind piece.", "examples": [{"word": "unique", "sentence": "This shop is really unique."}, {"word": "one-of-a-kind", "sentence": "Local artists made these one-of-a-kind pieces."}]}
+    ],
+    "expressions": [
+      {"phrase": "Got it.", "meaning_ar": "فهمت.", "meaning_en": "I understand.", "example": "Meet at five? Got it."},
+      {"phrase": "That sounds like Pete.", "meaning_ar": "هذا يشبه بيت تمامًا (هذا طبعه).", "meaning_en": "That is typical of Pete.", "example": "He forgot his keys again? That sounds like Sam."},
+      {"phrase": "Can I look around?", "meaning_ar": "هل يمكنني أن أتجوّل وأتفرّج؟", "meaning_en": "May I walk and look at things here?", "example": "What a nice shop! Can I look around?"},
+      {"phrase": "Please do.", "meaning_ar": "تفضّل (افعل ذلك).", "meaning_en": "Yes, of course you can.", "example": "Can I sit here? Please do."},
+      {"phrase": "Something goes wrong.", "meaning_ar": "يحدث خطأ ما.", "meaning_en": "There is a problem.", "example": "Every time I cook, something goes wrong."},
+      {"phrase": "It speaks to me.", "meaning_ar": "إنه يلامس قلبي / يعجبني بشدة.", "meaning_en": "I feel a strong connection to it; I really like it.", "example": "This old lamp speaks to me. I'll buy it."},
+      {"phrase": "turn trash into treasure", "meaning_ar": "تحويل القمامة إلى كنز", "meaning_en": "to make something valuable from things people threw away", "example": "She turns trash into treasure with paint and glue."}
+    ],
+    "grammar": [
+      {"title": "Talk or speak?", "explanation_ar": "talk و speak كلاهما بمعنى يتكلم. استخدم talk في: 1) المحادثة بين شخصين أو أكثر (talk to/with someone). 2) المواقف غير الرسمية بين الأصدقاء والعائلة. استخدم speak في: 1) الكلام من طرف واحد كالخطاب أو المحاضرة. 2) المواقف الرسمية (المدير يتحدث مع الموظفين). 3) القدرة على لغة: I speak English. 4) الطلبات المهذبة: Could I speak to Sue, please? وفي الدرس معنى مجازي: It speaks to me = يعجبني ويلامس قلبي.", "explanation_en": "Talk and speak both mean to say words. Use talk for: 1) conversations between people (talk to/with someone); 2) informal situations with friends and family. Use speak for: 1) one-way talks like speeches; 2) formal situations; 3) language ability: I speak English; 4) polite requests: Could I speak to Sue, please? Also a special meaning: It speaks to me = I feel a connection to it.", "examples": ["Are you talking to yourself again?", "From the way he was speaking, I don't think he likes cake.", "He'll never speak to you again.", "Pick some trash that speaks to you."]}
+    ]
+  },
+  "questions": [
+    {"question": "She ____ three languages.", "choices": ["talks", "speaks", "says", "tells"], "answer": 1, "explanation_ar": "للتعبير عن معرفة اللغات نستخدم speak.", "explanation_en": "For language ability, use speak."},
+    {"question": "Hello, may I ____ to the manager, please?", "choices": ["speak", "talk", "say", "tell"], "answer": 0, "explanation_ar": "في الطلبات المهذبة نستخدم speak غالبًا.", "explanation_en": "In polite requests, speak is usually used."},
+    {"question": "My sister and I ____ on the phone every night. (informal chat)", "choices": ["tell", "say", "talk", "speech"], "answer": 2, "explanation_ar": "المحادثة غير الرسمية بين شخصين: talk.", "explanation_en": "Informal conversation: talk."},
+    {"question": "'It speaks to me' means:", "choices": ["It makes noise.", "It is broken.", "It is a phone.", "I feel a strong connection to it."], "answer": 3, "explanation_ar": "معنى مجازي: يعجبني ويلامس قلبي.", "explanation_en": "It means you feel a connection to it."},
+    {"question": "Something made by hand, not by machine, is ____.", "choices": ["handmade", "recycled", "strange", "private"], "answer": 0, "explanation_ar": "handmade = مصنوع يدويًا.", "explanation_en": "Handmade means made by hand."},
+    {"question": "Tables, chairs and beds are ____.", "choices": ["trash", "treasure", "furniture", "presents"], "answer": 2, "explanation_ar": "furniture = أثاث.", "explanation_en": "Furniture means tables, chairs, beds and so on."},
+    {"question": "'Unique' means:", "choices": ["very old", "very cheap", "broken", "the only one of its kind"], "answer": 3, "explanation_ar": "unique = فريد لا مثيل له.", "explanation_en": "Unique means there is no other like it."},
+    {"question": "Recycling is good for the ____.", "choices": ["clown", "environment", "dumpster", "present"], "answer": 1, "explanation_ar": "environment = البيئة.", "explanation_en": "Environment = the natural world."},
+    {"question": "'Got it' means:", "choices": ["I bought it.", "I understand.", "I lost it.", "I don't know."], "answer": 1, "explanation_ar": "Got it = فهمت.", "explanation_en": "Got it means I understand."},
+    {"question": "Which is more formal?", "choices": ["The boss spoke to the workers.", "We talked about the game.", "Let's talk later.", "Are you talking to me?"], "answer": 0, "explanation_ar": "speak تُستخدم أكثر في المواقف الرسمية.", "explanation_en": "Speak is used more in formal situations."}
+  ]
+}

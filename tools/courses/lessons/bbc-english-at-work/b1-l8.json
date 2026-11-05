@@ -1,0 +1,391 @@
+{
+  "title": "Giving Praise",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "praise",
+        "pos": "noun / verb",
+        "meaning_en": "words that say someone did well; to say someone did well",
+        "meaning_ar": "مدح / ثناء؛ يمدح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna deserves praise for her work."
+      },
+      {
+        "word": "Well done.",
+        "pos": "phrase",
+        "meaning_en": "said to someone who has done something well",
+        "meaning_ar": "أحسنت.",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Well done, everyone!"
+      },
+      {
+        "word": "handle",
+        "pos": "verb",
+        "meaning_en": "deal with a situation",
+        "meaning_ar": "يتعامل مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You handled it well."
+      },
+      {
+        "word": "situation",
+        "pos": "noun",
+        "meaning_en": "what is happening at a certain time",
+        "meaning_ar": "موقف / وضع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You were in a difficult situation."
+      },
+      {
+        "word": "impressed",
+        "pos": "adjective",
+        "meaning_en": "feeling admiration for someone's work",
+        "meaning_ar": "معجب / منبهر",
+        "note_ar": "الصفة الأخرى: impressive = مثير للإعجاب",
+        "note_en": "Related: impressive.",
+        "example": "I'm really impressed."
+      },
+      {
+        "word": "great job",
+        "pos": "phrase",
+        "meaning_en": "informal: you did very well",
+        "meaning_ar": "عمل رائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Great job on the report!"
+      },
+      {
+        "word": "calm",
+        "pos": "adjective",
+        "meaning_en": "not worried or angry",
+        "meaning_ar": "هادئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She remained calm."
+      },
+      {
+        "word": "professional",
+        "pos": "adjective",
+        "meaning_en": "behaving in the correct way for work",
+        "meaning_ar": "مهني / محترف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is always very professional."
+      },
+      {
+        "word": "remain",
+        "pos": "verb",
+        "meaning_en": "stay in the same state",
+        "meaning_ar": "يبقى / يظلّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please remain calm."
+      },
+      {
+        "word": "satisfied",
+        "pos": "adjective",
+        "meaning_en": "happy because you got what you wanted",
+        "meaning_ar": "راضٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The client was satisfied."
+      },
+      {
+        "word": "resolve",
+        "pos": "verb",
+        "meaning_en": "find an answer to a problem",
+        "meaning_ar": "يحلّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The problem will be resolved soon."
+      },
+      {
+        "word": "responsible for",
+        "pos": "adjective",
+        "meaning_en": "being the cause of something, or in charge of it",
+        "meaning_ar": "مسؤول عن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Who was responsible for these errors?"
+      },
+      {
+        "word": "error",
+        "pos": "noun",
+        "meaning_en": "a mistake",
+        "meaning_ar": "خطأ",
+        "note_ar": "أكثر رسمية من mistake",
+        "note_en": "More formal than \"mistake\".",
+        "example": "There were two errors in the order."
+      },
+      {
+        "word": "tense",
+        "pos": "adjective",
+        "meaning_en": "nervous, worried, not relaxed",
+        "meaning_ar": "متوتّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Things are a bit tense today."
+      },
+      {
+        "word": "fire",
+        "pos": "verb",
+        "meaning_en": "tell someone to leave their job",
+        "meaning_ar": "يطرد (من العمل)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He nearly got fired."
+      },
+      {
+        "word": "proposal",
+        "pos": "noun",
+        "meaning_en": "a plan or idea you offer to someone",
+        "meaning_ar": "اقتراح / عرض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thanks to your proposal, we might get more business."
+      },
+      {
+        "word": "relief",
+        "pos": "noun",
+        "meaning_en": "a good feeling when a worry ends",
+        "meaning_ar": "ارتياح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What a relief!"
+      },
+      {
+        "word": "deserve",
+        "pos": "verb",
+        "meaning_en": "should get something because of what you did",
+        "meaning_ar": "يستحق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You deserve a break."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "impressed vs impressive",
+        "words": [
+          "impressed",
+          "impressive"
+        ],
+        "explanation_ar": "impressed تصف شعور الشخص (أنا معجب): I'm impressed. أما impressive فتصف الشيء الذي يثير الإعجاب: Your work is impressive.",
+        "explanation_en": "\"Impressed\" describes how a person feels. \"Impressive\" describes the thing that causes the feeling.",
+        "examples": [
+          {
+            "word": "impressed",
+            "sentence": "I'm really impressed with your presentation."
+          },
+          {
+            "word": "impressive",
+            "sentence": "Your presentation was impressive."
+          }
+        ]
+      },
+      {
+        "title": "mistake vs error",
+        "words": [
+          "mistake",
+          "error"
+        ],
+        "explanation_ar": "المعنى واحد تقريبًا. error أكثر رسمية وتُستخدم في العمل والتقنية، وmistake أشيع في الكلام اليومي. نقول make a mistake.",
+        "explanation_en": "They mean almost the same. \"Error\" is more formal; \"mistake\" is more common. We say \"make a mistake\".",
+        "examples": [
+          {
+            "word": "mistake",
+            "sentence": "Everyone makes mistakes."
+          },
+          {
+            "word": "error",
+            "sentence": "There was an error in the invoice."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Well done.",
+        "meaning_ar": "أحسنت.",
+        "meaning_en": "Short praise for good work.",
+        "example": "Well done! The client is very happy."
+      },
+      {
+        "phrase": "You were in a difficult situation and you handled it well.",
+        "meaning_ar": "كنت في موقف صعب وتعاملت معه بشكل جيد.",
+        "meaning_en": "Praise how someone dealt with a problem.",
+        "example": "You were in a difficult situation and you handled it well, Sami."
+      },
+      {
+        "phrase": "Great job. I'm really impressed.",
+        "meaning_ar": "عمل رائع. أنا معجب حقًا.",
+        "meaning_en": "Strong, warm praise.",
+        "example": "Great job on the sales report. I'm really impressed."
+      },
+      {
+        "phrase": "You remained calm, friendly and professional.",
+        "meaning_ar": "بقيت هادئًا ولطيفًا ومهنيًا.",
+        "meaning_en": "Explain why the work was good.",
+        "example": "With that angry customer, you remained calm, friendly and professional."
+      },
+      {
+        "phrase": "Mistakes happen.",
+        "meaning_ar": "الأخطاء تحدث.",
+        "meaning_en": "Say that mistakes are normal, but should be fixed.",
+        "example": "Mistakes happen, but we must learn from them."
+      },
+      {
+        "phrase": "What a relief!",
+        "meaning_ar": "يا له من ارتياح!",
+        "meaning_en": "Said when a worry ends.",
+        "example": "The file is safe? What a relief!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Adverbs of manner: well",
+        "explanation_ar": "لوصف طريقة القيام بالفعل نستخدم ظرفًا بعد الفعل. ظرف good هو well: You handled it well (وليس good). ومعظم الظروف الأخرى تُكوَّن بإضافة -ly: calm → calmly.",
+        "explanation_en": "To describe how you do something, use an adverb after the verb. The adverb of \"good\" is \"well\": You handled it well (not \"good\"). Most others add -ly: calm → calmly.",
+        "examples": [
+          "You handled it well.",
+          "She spoke calmly.",
+          "He works very professionally."
+        ]
+      },
+      {
+        "title": "remain / stay + adjective",
+        "explanation_ar": "الأفعال remain وstay تأتي بعدها صفة (وليس ظرفًا): remain calm، stay friendly.",
+        "explanation_en": "After \"remain\" and \"stay\" we use an adjective, not an adverb: remain calm, stay friendly.",
+        "examples": [
+          "You remained calm.",
+          "Please stay calm.",
+          "She remained professional all day."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "You handled it ___.",
+      "choices": [
+        "good",
+        "well",
+        "goodly",
+        "nice"
+      ],
+      "answer": 1,
+      "explanation_ar": "نستخدم الظرف well بعد الفعل.",
+      "explanation_en": "Use the adverb \"well\" after the verb."
+    },
+    {
+      "question": "I'm really ___ with your work.",
+      "choices": [
+        "impressive",
+        "impressing",
+        "impressed",
+        "impress"
+      ],
+      "answer": 2,
+      "explanation_ar": "impressed لوصف شعور الشخص.",
+      "explanation_en": "\"Impressed\" describes how you feel."
+    },
+    {
+      "question": "You remained ___ and professional.",
+      "choices": [
+        "calmly",
+        "calm",
+        "calmness",
+        "calming"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد remain نستخدم صفة: calm.",
+      "explanation_en": "After \"remain\" use an adjective."
+    },
+    {
+      "question": "Which phrase gives praise?",
+      "choices": [
+        "That's unacceptable.",
+        "Great job!",
+        "I disagree.",
+        "Give me a shout."
+      ],
+      "answer": 1,
+      "explanation_ar": "Great job! عبارة مدح.",
+      "explanation_en": "\"Great job!\" is praise."
+    },
+    {
+      "question": "\"Responsible for the errors\" means...",
+      "choices": [
+        "the person who caused the mistakes",
+        "the person who found the mistakes",
+        "the person who likes mistakes",
+        "the client"
+      ],
+      "answer": 0,
+      "explanation_ar": "responsible for تعني المسؤول عن (المتسبب في) الأخطاء.",
+      "explanation_en": "It means the person who caused them."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Your presentation was impressed.",
+        "Your presentation was impressive.",
+        "I was impressive by your presentation.",
+        "Your presentation impressed was."
+      ],
+      "answer": 1,
+      "explanation_ar": "الشيء يكون impressive.",
+      "explanation_en": "A thing is \"impressive\"."
+    },
+    {
+      "question": "\"Mistakes happen\" means...",
+      "choices": [
+        "mistakes are normal",
+        "never make mistakes",
+        "mistakes are funny",
+        "you are fired"
+      ],
+      "answer": 0,
+      "explanation_ar": "Mistakes happen تعني أن الأخطاء أمر طبيعي.",
+      "explanation_en": "It means mistakes are normal."
+    },
+    {
+      "question": "A more formal word for \"mistake\" is...",
+      "choices": [
+        "error",
+        "praise",
+        "relief",
+        "proposal"
+      ],
+      "answer": 0,
+      "explanation_ar": "error أكثر رسمية.",
+      "explanation_en": "\"Error\" is more formal."
+    },
+    {
+      "question": "Where is the big boss of Tip Top Trading?",
+      "choices": [
+        "London",
+        "Australia",
+        "India",
+        "America"
+      ],
+      "answer": 3,
+      "explanation_ar": "المدير الكبير في أمريكا.",
+      "explanation_en": "The big boss is in America."
+    },
+    {
+      "question": "\"What a relief!\" shows that you feel...",
+      "choices": [
+        "angry",
+        "bored",
+        "happy that a worry has ended",
+        "tired"
+      ],
+      "answer": 2,
+      "explanation_ar": "relief تعني الارتياح بعد القلق.",
+      "explanation_en": "Relief is the good feeling when a worry ends."
+    }
+  ]
+}

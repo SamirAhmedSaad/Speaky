@@ -1,0 +1,451 @@
+{
+ "title": "Talking about your daily routine",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "wake up",
+    "pos": "phrasal verb",
+    "meaning_en": "stop sleeping",
+    "meaning_ar": "يستيقظ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I wake up at seven."
+   },
+   {
+    "word": "eat breakfast",
+    "pos": "phrase",
+    "meaning_en": "have the first meal of the day",
+    "meaning_ar": "يتناول الفطور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I eat breakfast with my family."
+   },
+   {
+    "word": "go jogging",
+    "pos": "phrase",
+    "meaning_en": "run slowly for exercise",
+    "meaning_ar": "يمارس الجري الخفيف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I go jogging in the park."
+   },
+   {
+    "word": "get the bus",
+    "pos": "phrase",
+    "meaning_en": "travel by bus",
+    "meaning_ar": "يركب الحافلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I get the bus to work."
+   },
+   {
+    "word": "drive",
+    "pos": "verb",
+    "meaning_en": "control a car",
+    "meaning_ar": "يقود (سيارة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My father drives to work."
+   },
+   {
+    "word": "walk",
+    "pos": "verb",
+    "meaning_en": "move on foot",
+    "meaning_ar": "يمشي",
+    "note_ar": "حرف l صامت",
+    "note_en": "The l is silent.",
+    "example": "I walk to school."
+   },
+   {
+    "word": "work",
+    "pos": "noun / verb",
+    "meaning_en": "a job, or do a job",
+    "meaning_ar": "عمل / يعمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I go to work at eight."
+   },
+   {
+    "word": "read",
+    "pos": "verb",
+    "meaning_en": "look at and understand words",
+    "meaning_ar": "يقرأ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I read the news on my phone."
+   },
+   {
+    "word": "the news",
+    "pos": "noun",
+    "meaning_en": "information about what is happening in the world",
+    "meaning_ar": "الأخبار",
+    "note_ar": "تُعامل كمفرد: The news is ...",
+    "note_en": "It is singular: \"The news is ...\"",
+    "example": "I read the news every morning."
+   },
+   {
+    "word": "listen to",
+    "pos": "verb",
+    "meaning_en": "pay attention to a sound",
+    "meaning_ar": "يستمع إلى",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I listen to a podcast on the bus."
+   },
+   {
+    "word": "podcast",
+    "pos": "noun",
+    "meaning_en": "a recorded talk you can listen to online",
+    "meaning_ar": "بودكاست / تسجيل صوتي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I listen to an English podcast."
+   },
+   {
+    "word": "eat lunch",
+    "pos": "phrase",
+    "meaning_en": "have the meal in the middle of the day",
+    "meaning_ar": "يتناول الغداء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I eat lunch at one o'clock."
+   },
+   {
+    "word": "go home",
+    "pos": "phrase",
+    "meaning_en": "return to your house",
+    "meaning_ar": "يعود إلى البيت",
+    "note_ar": "لا نقول go to home",
+    "note_en": "Don't say \"go to home\".",
+    "example": "I go home at five."
+   },
+   {
+    "word": "finish",
+    "pos": "verb",
+    "meaning_en": "end, complete",
+    "meaning_ar": "ينهي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "After I finish work, I swim."
+   },
+   {
+    "word": "swim",
+    "pos": "verb",
+    "meaning_en": "move through water using your arms and legs",
+    "meaning_ar": "يسبح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I swim in the sea."
+   },
+   {
+    "word": "do some exercise",
+    "pos": "phrase",
+    "meaning_en": "do physical activity to stay healthy",
+    "meaning_ar": "يمارس بعض التمارين",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I do some exercise in the evening."
+   },
+   {
+    "word": "cook dinner",
+    "pos": "phrase",
+    "meaning_en": "make the evening meal",
+    "meaning_ar": "يطبخ العشاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My mother cooks dinner."
+   },
+   {
+    "word": "watch a film",
+    "pos": "phrase",
+    "meaning_en": "look at a film",
+    "meaning_ar": "يشاهد فيلمًا",
+    "note_ar": "film بريطانية، movie أمريكية",
+    "note_en": "\"Film\" is British, \"movie\" is American.",
+    "example": "I watch a film on Friday."
+   },
+   {
+    "word": "play video games",
+    "pos": "phrase",
+    "meaning_en": "play games on a computer or console",
+    "meaning_ar": "يلعب ألعاب الفيديو",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My brother plays video games."
+   },
+   {
+    "word": "have a shower",
+    "pos": "phrase",
+    "meaning_en": "wash your body under running water",
+    "meaning_ar": "يستحم",
+    "note_ar": "في أمريكا: take a shower",
+    "note_en": "US: take a shower.",
+    "example": "I have a shower in the morning."
+   },
+   {
+    "word": "go to sleep",
+    "pos": "phrase",
+    "meaning_en": "start sleeping",
+    "meaning_ar": "يخلد إلى النوم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I go to sleep at eleven."
+   },
+   {
+    "word": "every day",
+    "pos": "phrase",
+    "meaning_en": "on all days",
+    "meaning_ar": "كل يوم",
+    "note_ar": "everyday كلمة واحدة صفة: everyday life",
+    "note_en": "\"Everyday\" (one word) is an adjective: everyday life.",
+    "example": "What do you do every day?"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "go home / go to work",
+    "words": [
+     "go home",
+     "go to work"
+    ],
+    "explanation_ar": "نقول go to work و go to school مع to، لكن go home بدون to.",
+    "explanation_en": "We say \"go to work\" but \"go home\" (no \"to\").",
+    "examples": [
+     {
+      "word": "go to work",
+      "sentence": "I go to work by bus."
+     },
+     {
+      "word": "go home",
+      "sentence": "I go home at six."
+     }
+    ]
+   },
+   {
+    "title": "eat / have",
+    "words": [
+     "eat",
+     "have"
+    ],
+    "explanation_ar": "مع الوجبات يمكن استخدام eat أو have: eat breakfast = have breakfast. ومع shower نستخدم have (بريطانية) أو take (أمريكية)، ولا نستخدم eat.",
+    "explanation_en": "With meals you can say \"eat\" or \"have\". With a shower, use \"have\" (UK) or \"take\" (US).",
+    "examples": [
+     {
+      "word": "eat",
+      "sentence": "I eat lunch at work."
+     },
+     {
+      "word": "have",
+      "sentence": "I have a shower and have breakfast."
+     }
+    ]
+   },
+   {
+    "title": "listen to / hear",
+    "words": [
+     "listen to",
+     "hear"
+    ],
+    "explanation_ar": "listen to تعني الاستماع بانتباه وقصد، أما hear فتعني سماع الصوت دون قصد.",
+    "explanation_en": "\"Listen to\" is on purpose; \"hear\" is when a sound comes to your ears.",
+    "examples": [
+     {
+      "word": "listen to",
+      "sentence": "I listen to the radio on the bus."
+     },
+     {
+      "word": "hear",
+      "sentence": "I can hear the rain."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What do you do every day?",
+    "meaning_ar": "ماذا تفعل كل يوم؟",
+    "meaning_en": "ask about someone's routine",
+    "example": "What do you do every day? - I wake up and eat breakfast."
+   },
+   {
+    "phrase": "I wake up.",
+    "meaning_ar": "أستيقظ.",
+    "meaning_en": "the start of the day",
+    "example": "I wake up at six thirty."
+   },
+   {
+    "phrase": "I get the bus to work.",
+    "meaning_ar": "أركب الحافلة إلى العمل.",
+    "meaning_en": "say how you travel",
+    "example": "I get the bus / drive / walk to work."
+   },
+   {
+    "phrase": "I listen to a podcast.",
+    "meaning_ar": "أستمع إلى بودكاست.",
+    "meaning_en": "talk about listening",
+    "example": "I listen to the news or a podcast."
+   },
+   {
+    "phrase": "After I finish work, I swim in the sea.",
+    "meaning_ar": "بعد أن أنهي العمل أسبح في البحر.",
+    "meaning_en": "say what you do after work",
+    "example": "After I finish work, I go to the gym."
+   },
+   {
+    "phrase": "I have a shower.",
+    "meaning_ar": "أستحم.",
+    "meaning_en": "talk about washing",
+    "example": "I have a shower before bed."
+   },
+   {
+    "phrase": "I go to sleep.",
+    "meaning_ar": "أنام.",
+    "meaning_en": "the end of the day",
+    "example": "I go to sleep at ten."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Present simple for routines",
+    "explanation_ar": "نستخدم المضارع البسيط للأشياء التي نفعلها كل يوم: I wake up, I eat, I go. مع he/she/it نضيف s: He wakes up. She goes.",
+    "explanation_en": "Use the present simple for things you do every day. Add -s with he/she/it.",
+    "examples": [
+     "I wake up at seven.",
+     "She goes to work by bus.",
+     "He watches a film in the evening."
+    ]
+   },
+   {
+    "title": "Ordering your day: after",
+    "explanation_ar": "نستخدم after لترتيب الأحداث: After I finish work, I swim. يمكن أيضًا استخدام then: I eat lunch, then I go home.",
+    "explanation_en": "Use \"after\" and \"then\" to put your day in order.",
+    "examples": [
+     "After I finish work, I swim in the sea.",
+     "I eat breakfast, then I go to work."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "What do you do ___ day?",
+   "choices": [
+    "many",
+    "every",
+    "each of",
+    "any"
+   ],
+   "answer": 1,
+   "explanation_ar": "التعبير الصحيح every day = كل يوم.",
+   "explanation_en": "The phrase is \"every day\"."
+  },
+  {
+   "question": "I go ___ at five o'clock.",
+   "choices": [
+    "to home",
+    "at home",
+    "home",
+    "in home"
+   ],
+   "answer": 2,
+   "explanation_ar": "نقول go home بدون to.",
+   "explanation_en": "We say \"go home\" with no \"to\"."
+  },
+  {
+   "question": "\"Wake up\" means ...",
+   "choices": [
+    "stop sleeping",
+    "go to bed",
+    "eat breakfast",
+    "have a shower"
+   ],
+   "answer": 0,
+   "explanation_ar": "wake up = يستيقظ.",
+   "explanation_en": "\"Wake up\" means stop sleeping."
+  },
+  {
+   "question": "She ___ to work.",
+   "choices": [
+    "walk",
+    "walking",
+    "is walk",
+    "walks"
+   ],
+   "answer": 3,
+   "explanation_ar": "مع she نضيف s في المضارع البسيط.",
+   "explanation_en": "With \"she\" add -s in the present simple."
+  },
+  {
+   "question": "I listen ___ the radio on the bus.",
+   "choices": [
+    "at",
+    "to",
+    "on",
+    "for"
+   ],
+   "answer": 1,
+   "explanation_ar": "نقول listen to.",
+   "explanation_en": "We say \"listen to\"."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "After I finish work, I swim.",
+    "After I finishing work, I swim.",
+    "After finish I work, swim.",
+    "I after finish work swim."
+   ],
+   "answer": 0,
+   "explanation_ar": "after + فاعل + فعل: After I finish work.",
+   "explanation_en": "Use \"after + subject + verb\"."
+  },
+  {
+   "question": "Which is the last thing in the day?",
+   "choices": [
+    "wake up",
+    "eat breakfast",
+    "go to sleep",
+    "get the bus"
+   ],
+   "answer": 2,
+   "explanation_ar": "go to sleep = النوم في آخر اليوم.",
+   "explanation_en": "\"Go to sleep\" is at the end of the day."
+  },
+  {
+   "question": "In American English, \"have a shower\" is ...",
+   "choices": [
+    "make a shower",
+    "do a shower",
+    "get a shower",
+    "take a shower"
+   ],
+   "answer": 3,
+   "explanation_ar": "الأمريكيون يقولون take a shower.",
+   "explanation_en": "Americans say \"take a shower\"."
+  },
+  {
+   "question": "I ___ some exercise in the evening.",
+   "choices": [
+    "do",
+    "make",
+    "play",
+    "go"
+   ],
+   "answer": 0,
+   "explanation_ar": "نقول do some exercise.",
+   "explanation_en": "We say \"do some exercise\"."
+  },
+  {
+   "question": "What is a \"podcast\"?",
+   "choices": [
+    "a bus",
+    "a meal",
+    "a recorded talk you listen to",
+    "a video game"
+   ],
+   "answer": 2,
+   "explanation_ar": "podcast تسجيل صوتي تستمع إليه عبر الإنترنت.",
+   "explanation_en": "A podcast is a recorded talk you listen to online."
+  }
+ ]
+}

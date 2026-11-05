@@ -1,0 +1,56 @@
+{
+  "title": "Setting an Agenda",
+  "content": {
+    "vocabulary": [
+      {"word": "agenda", "pos": "noun", "meaning_en": "a list of things to talk about in a meeting", "meaning_ar": "جدول أعمال الاجتماع", "note_ar": "", "note_en": "", "example": "There are four items on the agenda today."},
+      {"word": "item", "pos": "noun", "meaning_en": "one thing on a list", "meaning_ar": "بند", "note_ar": "", "note_en": "", "example": "The first item is the new budget."},
+      {"word": "meeting", "pos": "noun", "meaning_en": "a time when people come together to discuss things", "meaning_ar": "اجتماع", "note_ar": "", "note_en": "", "example": "The meeting starts at ten o'clock."},
+      {"word": "schedule", "pos": "verb", "meaning_en": "to plan something for a certain time", "meaning_ar": "يحدّد موعدًا / يجدول", "note_ar": "بريطاني /ˈʃedjuːl/، أمريكي /ˈskedʒuːl/", "note_en": "UK: /ˈʃedjuːl/; US: /ˈskedʒuːl/.", "example": "A meeting has been scheduled for Monday."},
+      {"word": "run late", "pos": "phrase", "meaning_en": "to be later than planned", "meaning_ar": "يتأخّر عن الموعد", "note_ar": "", "note_en": "", "example": "Sorry, I'm running late. Please start without me."},
+      {"word": "take charge", "pos": "phrase", "meaning_en": "to become responsible and lead", "meaning_ar": "يتولّى المسؤولية / القيادة", "note_ar": "", "note_en": "", "example": "Can you take charge of the meeting today?"},
+      {"word": "print-out", "pos": "noun", "meaning_en": "a paper copy printed from a computer", "meaning_ar": "نسخة مطبوعة", "note_ar": "", "note_en": "", "example": "Here's a print-out of the agenda."},
+      {"word": "any other business (AOB)", "pos": "phrase", "meaning_en": "other topics not on the agenda, usually at the end", "meaning_ar": "ما يستجد من أعمال / أمور أخرى", "note_ar": "يُختصر كتابيًا AOB", "note_en": "Often written AOB.", "example": "Finally, is there any other business?"},
+      {"word": "wrap up", "pos": "phrasal verb", "meaning_en": "to finish (a meeting or talk)", "meaning_ar": "يختتم / ينهي", "note_ar": "", "note_en": "", "example": "Let's wrap up. Thanks, everyone."},
+      {"word": "gather", "pos": "verb", "meaning_en": "to come together in one place", "meaning_ar": "يجتمع / يتجمّع", "note_ar": "", "note_en": "", "example": "Everyone is gathering in the meeting room."},
+      {"word": "open the meeting", "pos": "phrase", "meaning_en": "to start the meeting formally", "meaning_ar": "يفتتح الاجتماع", "note_ar": "", "note_en": "", "example": "I'd just opened the meeting when he arrived."},
+      {"word": "team-building activity", "pos": "noun", "meaning_en": "an activity that helps colleagues work better together", "meaning_ar": "نشاط لبناء روح الفريق", "note_ar": "", "note_en": "", "example": "We're planning a team-building activity next month."},
+      {"word": "announce", "pos": "verb", "meaning_en": "to tell people something officially", "meaning_ar": "يعلن", "note_ar": "الاسم: announcement", "note_en": "Noun: announcement.", "example": "The manager announced a new project."},
+      {"word": "lead on", "pos": "phrasal verb", "meaning_en": "to be the person in charge of a task", "meaning_ar": "يقود / يتولى (مهمة)", "note_ar": "", "note_en": "", "example": "I'd like you to lead on this project."},
+      {"word": "in charge of", "pos": "phrase", "meaning_en": "responsible for", "meaning_ar": "مسؤول عن", "note_ar": "", "note_en": "", "example": "She is in charge of stock control."},
+      {"word": "meet demand", "pos": "phrase", "meaning_en": "to supply as much as people want to buy", "meaning_ar": "يلبّي الطلب", "note_ar": "", "note_en": "", "example": "We need more staff to meet demand."},
+      {"word": "warehouse", "pos": "noun", "meaning_en": "a large building for storing goods", "meaning_ar": "مستودع", "note_ar": "", "note_en": "", "example": "The boxes are in the warehouse."},
+      {"word": "remind", "pos": "verb", "meaning_en": "to help someone remember", "meaning_ar": "يذكّر", "note_ar": "", "note_en": "", "example": "Remind me what the first item is."}
+    ],
+    "fine_lines": [
+      {"title": "Firstly / Secondly / After that / Finally", "words": ["Firstly", "Secondly", "After that", "Finally"], "explanation_ar": "كلمات ترتيب لعرض بنود جدول الأعمال بالتسلسل: أولًا، ثانيًا، بعد ذلك، وأخيرًا.", "explanation_en": "Sequence words to list agenda items in order: first, second, next, last.", "examples": [{"word": "Firstly", "sentence": "Firstly, the sales report."}, {"word": "Secondly", "sentence": "Secondly, the new office."}, {"word": "After that", "sentence": "After that, the summer plans."}, {"word": "Finally", "sentence": "And finally, any other business."}]},
+      {"title": "remind vs remember", "words": ["remind", "remember"], "explanation_ar": "remember = تتذكر أنت بنفسك. remind = تجعل شخصًا آخر يتذكر. نقول Remind me وليس Remember me بمعنى ذكّرني.", "explanation_en": "\"Remember\" = you keep it in your mind. \"Remind\" = you help another person remember. Say \"Remind me\", not \"Remember me\".", "examples": [{"word": "remember", "sentence": "I remember the first item."}, {"word": "remind", "sentence": "Can you remind me what the first item is?"}]}
+    ],
+    "expressions": [
+      {"phrase": "Thank you for coming.", "meaning_ar": "شكرًا على حضوركم.", "meaning_en": "a polite way to start a meeting", "example": "Good morning, everyone. Thank you for coming."},
+      {"phrase": "There are four items on the agenda today.", "meaning_ar": "هناك أربعة بنود على جدول الأعمال اليوم.", "meaning_en": "used to tell people how many topics there are", "example": "There are three items on the agenda today."},
+      {"phrase": "Firstly...", "meaning_ar": "أولًا...", "meaning_en": "introduces the first item", "example": "Firstly, let's look at last month's sales."},
+      {"phrase": "Secondly...", "meaning_ar": "ثانيًا...", "meaning_en": "introduces the second item", "example": "Secondly, we'll discuss the training day."},
+      {"phrase": "After that... / Then...", "meaning_ar": "بعد ذلك... / ثم...", "meaning_en": "introduces the next item", "example": "After that, we'll talk about the new website."},
+      {"phrase": "And finally...", "meaning_ar": "وأخيرًا...", "meaning_en": "introduces the last item", "example": "And finally, any other business."},
+      {"phrase": "Any other business.", "meaning_ar": "أمور أخرى.", "meaning_en": "other topics people want to raise", "example": "Is there any other business before we finish?"},
+      {"phrase": "And then we can wrap up.", "meaning_ar": "ثم يمكننا أن نختتم.", "meaning_en": "used to say the meeting will then finish", "example": "Let's agree on the date, and then we can wrap up."},
+      {"phrase": "Sorry I'm late.", "meaning_ar": "آسف على التأخير.", "meaning_en": "an apology for arriving late", "example": "Hello everyone. Sorry I'm late."}
+    ],
+    "grammar": [
+      {"title": "There is / There are + items", "explanation_ar": "نستخدم There is مع المفرد و There are مع الجمع لنقول كم بندًا في جدول الأعمال: There are four items...", "explanation_en": "Use \"There is\" with one thing and \"There are\" with more than one: \"There are four items on the agenda.\"", "examples": ["There is one item on the agenda.", "There are five items on the agenda today.", "Are there any questions?"]},
+      {"title": "Sequencing words", "explanation_ar": "لترتيب البنود: Firstly ثم Secondly ثم After that أو Then ثم Finally. ضع فاصلة بعد الكلمة في الكتابة.", "explanation_en": "To order items: Firstly, Secondly, After that / Then, Finally. In writing, put a comma after the word.", "examples": ["Firstly, the stock management system.", "Secondly, plans for a team-building activity.", "Finally, any other business."]}
+    ]
+  },
+  "questions": [
+    {"question": "What is an \"agenda\"?", "choices": ["a list of topics for a meeting", "a type of computer", "a meeting room", "a holiday plan"], "answer": 0, "explanation_ar": "agenda = جدول أعمال الاجتماع.", "explanation_en": "An agenda is a list of topics for a meeting."},
+    {"question": "Complete: There ___ four items on the agenda today.", "choices": ["is", "be", "are", "am"], "answer": 2, "explanation_ar": "مع الجمع نستخدم are.", "explanation_en": "Use \"are\" with plural nouns."},
+    {"question": "\"Let's wrap up\" means...", "choices": ["Let's start", "Let's finish", "Let's eat", "Let's give presents"], "answer": 1, "explanation_ar": "wrap up = نختتم.", "explanation_en": "\"Wrap up\" means finish."},
+    {"question": "\"Any other business\" is...", "choices": ["the first item", "a new company", "the coffee break", "extra topics not on the agenda"], "answer": 3, "explanation_ar": "هي الأمور الإضافية غير المدرجة.", "explanation_en": "It is extra topics not on the list."},
+    {"question": "Put in order: Secondly / Firstly / Finally", "choices": ["Secondly, Firstly, Finally", "Finally, Firstly, Secondly", "Firstly, Secondly, Finally", "Firstly, Finally, Secondly"], "answer": 2, "explanation_ar": "الترتيب: أولًا، ثانيًا، أخيرًا.", "explanation_en": "The order is Firstly, Secondly, Finally."},
+    {"question": "Choose the correct sentence.", "choices": ["Can you remind me what the first item is?", "Can you remember me what the first item is?", "Can you reminding me what the first item is?", "Can you remind I what the first item is?"], "answer": 0, "explanation_ar": "remind me = ذكّرني.", "explanation_en": "\"Remind me\" is correct."},
+    {"question": "\"Paul is running late\" means...", "choices": ["He is jogging", "He is early", "He is later than planned", "He is leaving"], "answer": 2, "explanation_ar": "run late = يتأخر.", "explanation_en": "\"Running late\" means later than planned."},
+    {"question": "What is a good first sentence for a meeting?", "choices": ["Let's wrap up.", "Any other business.", "And finally...", "Thank you for coming."], "answer": 3, "explanation_ar": "نبدأ بشكر الحضور.", "explanation_en": "Start by thanking people for coming."},
+    {"question": "\"Item\" in a meeting means...", "choices": ["a person", "one topic on the list", "a chair", "a gift"], "answer": 1, "explanation_ar": "item = بند.", "explanation_en": "\"Item\" means one topic on the list."},
+    {"question": "\"I'd like you to lead on that\" means...", "choices": ["I want you to be in charge of it", "I want you to stop it", "I want you to read it", "I want you to leave"], "answer": 0, "explanation_ar": "تعني أريدك أن تتولى المسؤولية.", "explanation_en": "It means be in charge of it."}
+  ]
+}

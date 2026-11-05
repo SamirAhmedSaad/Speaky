@@ -1,0 +1,490 @@
+{
+ "title": "May I Borrow That?",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "borrow",
+    "pos": "verb",
+    "meaning_en": "to take something from someone and give it back later",
+    "meaning_ar": "يستعير / يقترض",
+    "note_ar": "borrow from = يستعير من.",
+    "note_en": "borrow something from someone.",
+    "example": "May I borrow your pen?"
+   },
+   {
+    "word": "lend",
+    "pos": "verb",
+    "meaning_en": "to give something to someone for a short time",
+    "meaning_ar": "يُعير / يُقرض",
+    "note_ar": "lend - lent - lent.",
+    "note_en": "lend - lent - lent.",
+    "example": "I can lend you my book."
+   },
+   {
+    "word": "loan",
+    "pos": "verb / noun",
+    "meaning_en": "to lend (verb, mostly US); money or a thing that is lent (noun)",
+    "meaning_ar": "يُقرض / قرض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I loaned my stapler to a friend."
+   },
+   {
+    "word": "return",
+    "pos": "verb",
+    "meaning_en": "to give something back",
+    "meaning_ar": "يُرجِع / يُعيد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please return the book on Monday."
+   },
+   {
+    "word": "bring back",
+    "pos": "phrasal verb",
+    "meaning_en": "to return something to where it came from",
+    "meaning_ar": "يُرجِع (شيئاً)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll bring them back tomorrow."
+   },
+   {
+    "word": "restaurant",
+    "pos": "noun",
+    "meaning_en": "a place where you buy and eat meals",
+    "meaning_ar": "مطعم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We are meeting at a restaurant tonight."
+   },
+   {
+    "word": "celebrate",
+    "pos": "verb",
+    "meaning_en": "to do something special for a happy day",
+    "meaning_ar": "يحتفل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We celebrate my birthday with a cake."
+   },
+   {
+    "word": "birthday",
+    "pos": "noun",
+    "meaning_en": "the day of the year you were born",
+    "meaning_ar": "عيد ميلاد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Today is my sister's birthday."
+   },
+   {
+    "word": "paycheck",
+    "pos": "noun",
+    "meaning_en": "the money you get from your job, usually as a check",
+    "meaning_ar": "الراتب / شيك الراتب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I get my paycheck every two weeks."
+   },
+   {
+    "word": "gift",
+    "pos": "noun",
+    "meaning_en": "something you give to someone; a present",
+    "meaning_ar": "هدية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Thank you for the gift!"
+   },
+   {
+    "word": "a couple of",
+    "pos": "phrase",
+    "meaning_en": "two, or a small number",
+    "meaning_ar": "اثنان / عدد قليل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I need a couple of things from the store."
+   },
+   {
+    "word": "stapler",
+    "pos": "noun",
+    "meaning_en": "a tool that joins papers with small metal pieces",
+    "meaning_ar": "دبّاسة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can I use your stapler?"
+   },
+   {
+    "word": "scissors",
+    "pos": "noun",
+    "meaning_en": "a tool with two blades for cutting paper",
+    "meaning_ar": "مقص",
+    "note_ar": "دائماً جمع: these scissors, a pair of scissors.",
+    "note_en": "Always plural: these scissors, a pair of scissors.",
+    "example": "These scissors are very sharp."
+   },
+   {
+    "word": "sharp",
+    "pos": "adjective",
+    "meaning_en": "able to cut easily",
+    "meaning_ar": "حاد",
+    "note_ar": "التفضيل: sharper, the sharpest.",
+    "note_en": "sharper, the sharpest.",
+    "example": "Be careful. The knife is sharp."
+   },
+   {
+    "word": "careful",
+    "pos": "adjective",
+    "meaning_en": "giving attention so you don't make mistakes or get hurt",
+    "meaning_ar": "حذر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Be careful when you cross the street."
+   },
+   {
+    "word": "trust",
+    "pos": "verb",
+    "meaning_en": "to believe that someone is honest and will do the right thing",
+    "meaning_ar": "يثق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You can trust me."
+   },
+   {
+    "word": "bother",
+    "pos": "verb",
+    "meaning_en": "to annoy or interrupt someone",
+    "meaning_ar": "يُزعج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sorry to bother you, but can I ask a question?"
+   },
+   {
+    "word": "office supplies",
+    "pos": "noun",
+    "meaning_en": "things used in an office: pens, paper, tape and so on",
+    "meaning_ar": "أدوات مكتبية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We need more office supplies."
+   },
+   {
+    "word": "share",
+    "pos": "verb",
+    "meaning_en": "to let someone use something that is yours too",
+    "meaning_ar": "يشارك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My brother and I share a room."
+   },
+   {
+    "word": "tape",
+    "pos": "noun",
+    "meaning_en": "a sticky strip used to hold things together",
+    "meaning_ar": "شريط لاصق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Fix the paper with tape."
+   },
+   {
+    "word": "eraser",
+    "pos": "noun",
+    "meaning_en": "a small thing used to remove pencil marks",
+    "meaning_ar": "ممحاة",
+    "note_ar": "بالبريطانية: rubber.",
+    "note_en": "UK: rubber.",
+    "example": "Can I use your eraser?"
+   },
+   {
+    "word": "rubber band",
+    "pos": "noun",
+    "meaning_en": "a thin ring of rubber to hold things together",
+    "meaning_ar": "شريط مطاطي (أستك)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Put a rubber band around the cards."
+   },
+   {
+    "word": "paper clip",
+    "pos": "noun",
+    "meaning_en": "a small bent wire to hold papers together",
+    "meaning_ar": "مشبك ورق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Use a paper clip, not the stapler."
+   },
+   {
+    "word": "balloon",
+    "pos": "noun",
+    "meaning_en": "a thin rubber bag filled with air",
+    "meaning_ar": "بالون",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The children love balloons."
+   },
+   {
+    "word": "interesting",
+    "pos": "adjective",
+    "meaning_en": "unusual and makes you want to know more",
+    "meaning_ar": "مثير للاهتمام",
+    "note_ar": "أحياناً تُقال بتردد لتعني «غريب» بلطف، كما فعلت Marsha.",
+    "note_en": "Said slowly, it can be a polite way to say \"strange\", as Marsha does.",
+    "example": "That is an interesting idea."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "borrow vs lend",
+    "words": [
+     "borrow",
+     "lend"
+    ],
+    "explanation_ar": "borrow = تأخذ شيئاً من شخص لفترة (أنت تستلم). lend = تعطي شيئاً لشخص لفترة (أنت تعطي). نقول: May I borrow your stapler? و I can lend you my stapler. لا نقول: Can you borrow me...",
+    "explanation_en": "Borrow = you take something for a short time. Lend = you give something for a short time. Say \"May I borrow your stapler?\" and \"I can lend you my stapler.\" Don't say \"Can you borrow me...\".",
+    "examples": [
+     {
+      "word": "borrow",
+      "sentence": "Can I borrow your scissors?"
+     },
+     {
+      "word": "lend",
+      "sentence": "I can lend them to you."
+     },
+     {
+      "word": "borrow",
+      "sentence": "I borrowed a pen from Anna."
+     },
+     {
+      "word": "lend",
+      "sentence": "Anna lent me a pen."
+     }
+    ]
+   },
+   {
+    "title": "lend vs loan",
+    "words": [
+     "lend",
+     "loan"
+    ],
+    "explanation_ar": "loan كفعل تعني lend (في الإنجليزية الأمريكية). وكاسم: a loan = قرض (مال تقترضه من البنك).",
+    "explanation_en": "As a verb, loan means lend (mostly American English). As a noun, a loan is money you borrow, often from a bank.",
+    "examples": [
+     {
+      "word": "loan",
+      "sentence": "I loaned my stapler to the wrong person."
+     },
+     {
+      "word": "lend",
+      "sentence": "Could you lend me your eraser?"
+     },
+     {
+      "word": "loan",
+      "sentence": "He got a loan from the bank."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Have a nice day at work!",
+    "meaning_ar": "أتمنى لك يوماً جميلاً في العمل!",
+    "meaning_en": "A kind goodbye in the morning.",
+    "example": "Have a nice day at work, Dad!"
+   },
+   {
+    "phrase": "Do you have a pen I can borrow?",
+    "meaning_ar": "هل لديك قلم أستطيع استعارته؟",
+    "meaning_en": "Asking to use someone's pen for a short time.",
+    "example": "Do you have a pen I can borrow? Mine is broken."
+   },
+   {
+    "phrase": "Of course.",
+    "meaning_ar": "بالطبع.",
+    "meaning_en": "Yes, certainly.",
+    "example": "Can I sit here? - Of course."
+   },
+   {
+    "phrase": "Did you forget?",
+    "meaning_ar": "هل نسيت؟",
+    "meaning_en": "Asking if someone did not remember.",
+    "example": "We had a meeting today. Did you forget?"
+   },
+   {
+    "phrase": "May I borrow your stapler?",
+    "meaning_ar": "هل يمكنني استعارة دبّاستك؟",
+    "meaning_en": "A polite way to ask to use something.",
+    "example": "May I borrow your phone charger?"
+   },
+   {
+    "phrase": "You can trust me.",
+    "meaning_ar": "يمكنك أن تثق بي.",
+    "meaning_en": "I will do the right thing.",
+    "example": "I'll bring it back tomorrow. You can trust me."
+   },
+   {
+    "phrase": "Don't mention it.",
+    "meaning_ar": "لا شكر على واجب.",
+    "meaning_en": "A reply to \"thank you\".",
+    "example": "Thanks for your help! - Don't mention it."
+   },
+   {
+    "phrase": "Sorry to bother you.",
+    "meaning_ar": "آسف على الإزعاج.",
+    "meaning_en": "Said before asking someone who is busy for something.",
+    "example": "Sorry to bother you, but where is the bathroom?"
+   },
+   {
+    "phrase": "I'll bring them back tomorrow.",
+    "meaning_ar": "سأرجعها غداً.",
+    "meaning_en": "I will return them tomorrow.",
+    "example": "Thanks for the books. I'll bring them back tomorrow."
+   },
+   {
+    "phrase": "What is it for?",
+    "meaning_ar": "ما فائدته؟ / لأي شيء هو؟",
+    "meaning_en": "Asking about the use of something.",
+    "example": "What is this button for?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Asking permission: May I / Can I + verb?",
+    "explanation_ar": "لطلب الإذن نستخدم May I + الفعل (أكثر رسمية وأدباً) أو Can I + الفعل (عادية وشائعة). بعدهما الفعل في المصدر. الرد بالموافقة: Sure. / Of course. / Yes, you can.",
+    "explanation_en": "To ask for permission use May I + base verb (more formal and polite) or Can I + base verb (normal, common). Answers: Sure. / Of course. / Yes, you can.",
+    "examples": [
+     "May I borrow your stapler?",
+     "Can I borrow your scissors?",
+     "May I sit here? - Of course."
+    ]
+   },
+   {
+    "title": "borrow something / lend someone something",
+    "explanation_ar": "borrow + الشيء (+ from + الشخص): I borrowed a pen from Amelia. lend + الشخص + الشيء أو lend + الشيء + to + الشخص: She lent me a pen / She lent a pen to me. ومع ضمير المفعول نستخدم to: I can lend them to you.",
+    "explanation_en": "Borrow + thing (+ from + person): I borrowed a pen from Amelia. Lend + person + thing, or lend + thing + to + person: She lent me a pen / She lent a pen to me. With a pronoun object use to: I can lend them to you.",
+    "examples": [
+     "I can lend you my stapler.",
+     "I can lend them to you.",
+     "I'll just have to borrow a couple of things."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "Can you borrow me your pen?",
+    "Can I lend your pen?",
+    "Can I borrow your pen?",
+    "Can I borrowing your pen?"
+   ],
+   "answer": 2,
+   "explanation_ar": "أنت تأخذ الشيء، فنستخدم borrow: Can I borrow your pen?",
+   "explanation_en": "You are taking it, so use borrow: Can I borrow your pen?"
+  },
+  {
+   "question": "Complete: \"Sure. I can ____ you my stapler.\"",
+   "choices": [
+    "lend",
+    "borrow",
+    "return",
+    "trust"
+   ],
+   "answer": 0,
+   "explanation_ar": "المتكلم هو الذي يعطي الدبّاسة، فنستخدم lend.",
+   "explanation_en": "The speaker gives the stapler, so use lend."
+  },
+  {
+   "question": "Which request is the most formal and polite?",
+   "choices": [
+    "Give me your scissors.",
+    "Scissors?",
+    "I want your scissors.",
+    "May I borrow your scissors?"
+   ],
+   "answer": 3,
+   "explanation_ar": "May I ... أكثر رسمية وأدباً.",
+   "explanation_en": "May I... is the most formal and polite."
+  },
+  {
+   "question": "Someone says \"Thank you.\" A good reply is ...",
+   "choices": [
+    "Don't mention it.",
+    "Sorry to bother you.",
+    "Did you forget?",
+    "Of course not."
+   ],
+   "answer": 0,
+   "explanation_ar": "Don't mention it = لا شكر على واجب.",
+   "explanation_en": "\"Don't mention it\" is a reply to thank you."
+  },
+  {
+   "question": "\"Please return it\" means ...",
+   "choices": [
+    "please buy it",
+    "please give it back",
+    "please share it",
+    "please cut it"
+   ],
+   "answer": 1,
+   "explanation_ar": "return = يُعيد.",
+   "explanation_en": "Return = give back."
+  },
+  {
+   "question": "Which tool do you use to cut paper?",
+   "choices": [
+    "a stapler",
+    "an eraser",
+    "tape",
+    "scissors"
+   ],
+   "answer": 3,
+   "explanation_ar": "scissors مقص للقص.",
+   "explanation_en": "Scissors are for cutting."
+  },
+  {
+   "question": "I don't get my ____ until next week, so I have no money for a gift.",
+   "choices": [
+    "paycheck",
+    "balloon",
+    "loan",
+    "stapler"
+   ],
+   "answer": 0,
+   "explanation_ar": "paycheck = الراتب.",
+   "explanation_en": "A paycheck is the money from your job."
+  },
+  {
+   "question": "Complete: \"I can lend ____ to you.\" (the scissors)",
+   "choices": [
+    "it",
+    "them",
+    "they",
+    "its"
+   ],
+   "answer": 1,
+   "explanation_ar": "scissors جمع، والمفعول به them.",
+   "explanation_en": "Scissors is plural; the object pronoun is them."
+  },
+  {
+   "question": "\"Sorry to bother you\" is said ...",
+   "choices": [
+    "after a party",
+    "when you say goodbye",
+    "before you ask a busy person for something",
+    "when you are angry"
+   ],
+   "answer": 2,
+   "explanation_ar": "نقولها قبل أن نطلب شيئاً من شخص مشغول.",
+   "explanation_en": "Say it before you ask a busy person for something."
+  },
+  {
+   "question": "Pens, paper, tape and paper clips are ...",
+   "choices": [
+    "birthday gifts",
+    "office supplies",
+    "costumes",
+    "balloons"
+   ],
+   "answer": 1,
+   "explanation_ar": "office supplies = أدوات مكتبية.",
+   "explanation_en": "These are office supplies."
+  }
+ ]
+}

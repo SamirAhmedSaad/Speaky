@@ -1,0 +1,52 @@
+{
+  "title": "Stop Saying \"Bad\"",
+  "content": {
+    "vocabulary": [
+      {"word": "dowdy", "pos": "adjective", "meaning_en": "old-fashioned and not stylish (usually about a woman's clothes)", "meaning_ar": "قديم الطراز / غير أنيق", "note_ar": "يُستخدم غالبًا للنساء", "note_en": "Usually used about women.", "example": "Her coat looked a bit dowdy."},
+      {"word": "snazzy", "pos": "adjective", "meaning_en": "stylish and looking good", "meaning_ar": "أنيق ولافت", "note_ar": "عكس dowdy، كلمة غير رسمية", "note_en": "Informal. Opposite of dowdy.", "example": "That's a snazzy jacket!"},
+      {"word": "cheesy", "pos": "adjective", "meaning_en": "cheap, not sincere, trying too hard and so unpleasant", "meaning_ar": "مبتذل / رخيص", "note_ar": "", "note_en": "", "example": "The film had a cheesy ending."},
+      {"word": "inauthentic", "pos": "adjective", "meaning_en": "not real or genuine", "meaning_ar": "غير أصيل / مزيّف", "note_ar": "", "note_en": "", "example": "The actors seemed inauthentic."},
+      {"word": "insincere", "pos": "adjective", "meaning_en": "not honest about your real feelings", "meaning_ar": "غير صادق", "note_ar": "عكسها sincere", "note_en": "Opposite: sincere.", "example": "His smile was insincere."},
+      {"word": "elegant", "pos": "adjective", "meaning_en": "beautiful in a simple, stylish way", "meaning_ar": "أنيق / راقٍ", "note_ar": "عكس cheesy", "note_en": "Opposite of cheesy.", "example": "We ate at an elegant restaurant."},
+      {"word": "dusty", "pos": "adjective", "meaning_en": "(slang, about a man) dirty, poor and unattractive", "meaning_ar": "رثّ المظهر (عامية)", "note_ar": "المعنى الأصلي: مغطّى بالغبار", "note_en": "Basic meaning: covered in dust.", "example": "He hadn't washed for days and looked dusty."},
+      {"word": "successful", "pos": "adjective", "meaning_en": "having achieved a lot, often with money and a good position", "meaning_ar": "ناجح", "note_ar": "", "note_en": "", "example": "She is a successful businesswoman."},
+      {"word": "affluent", "pos": "adjective", "meaning_en": "rich; having a lot of money", "meaning_ar": "ثري / ميسور", "note_ar": "", "note_en": "", "example": "They live in an affluent area."},
+      {"word": "nasty", "pos": "adjective", "meaning_en": "disgusting, awful, or rude", "meaning_ar": "كريه / بغيض / فظ", "note_ar": "", "note_en": "", "example": "The shop assistant was nasty to me."},
+      {"word": "pleasant", "pos": "adjective", "meaning_en": "nice, charming and likable", "meaning_ar": "لطيف / مريح", "note_ar": "عكس nasty", "note_en": "Opposite of nasty.", "example": "We had a pleasant evening."},
+      {"word": "gross", "pos": "adjective", "meaning_en": "disgusting or very ugly", "meaning_ar": "مقرف", "note_ar": "عامية شائعة: Ew, gross!", "note_en": "Informal: \"Ew, gross!\"", "example": "There's old food under the sofa. Gross!"},
+      {"word": "lovely", "pos": "adjective", "meaning_en": "beautiful, very nice", "meaning_ar": "جميل / رائع", "note_ar": "عكس gross", "note_en": "Opposite of gross.", "example": "You look lovely today."},
+      {"word": "corny", "pos": "adjective", "meaning_en": "too simple and obvious; used too often (jokes, stories)", "meaning_ar": "سخيف ومستهلك", "note_ar": "corny joke = نكتة سخيفة مكررة", "note_en": "a corny joke", "example": "My uncle always tells corny jokes."},
+      {"word": "sophisticated", "pos": "adjective", "meaning_en": "worldly and knowing a lot; complex", "meaning_ar": "متطوّر / راقٍ / واسع الاطلاع", "note_ar": "", "note_en": "", "example": "She has sophisticated taste in books."},
+      {"word": "worldly", "pos": "adjective", "meaning_en": "having experience of the world from travel and reading", "meaning_ar": "ذو خبرة بالدنيا", "note_ar": "", "note_en": "", "example": "He is a worldly man who has lived in five countries."},
+      {"word": "complex", "pos": "adjective", "meaning_en": "having many details or parts", "meaning_ar": "معقّد / مفصّل", "note_ar": "", "note_en": "", "example": "The story is complex and interesting."},
+      {"word": "tacky", "pos": "adjective", "meaning_en": "cheap, loud and in bad taste", "meaning_ar": "ذو ذوق رديء / مبتذل", "note_ar": "", "note_en": "", "example": "The gold plastic decorations looked tacky."},
+      {"word": "tasteful", "pos": "adjective", "meaning_en": "modest and showing good taste", "meaning_ar": "ذو ذوق رفيع / لائق", "note_ar": "عكس tacky", "note_en": "Opposite of tacky.", "example": "Their home is simple and tasteful."},
+      {"word": "sketchy", "pos": "adjective", "meaning_en": "not safe, or possibly dishonest", "meaning_ar": "مريب / غير آمن", "note_ar": "", "note_en": "", "example": "That old bridge looks sketchy."},
+      {"word": "dodgy", "pos": "adjective", "meaning_en": "(British) dishonest, unreliable or possibly dangerous", "meaning_ar": "مشبوه / غير موثوق (بريطانية)", "note_ar": "", "note_en": "British English.", "example": "Don't buy a phone from that dodgy shop."},
+      {"word": "grotty", "pos": "adjective", "meaning_en": "(British) unpleasant or of poor quality", "meaning_ar": "رديء / كريه (بريطانية)", "note_ar": "من grotesque", "note_en": "From grotesque. British English.", "example": "We stayed in a grotty little room."}
+    ],
+    "fine_lines": [
+      {"title": "cheesy vs corny vs tacky", "words": ["cheesy", "corny", "tacky"], "explanation_ar": "cheesy: رخيص وغير صادق ومتكلّف. corny: بسيط جدًا ومستهلك، خاصة النكت. tacky: صاخب وذو ذوق رديء.", "explanation_en": "Cheesy: cheap and not sincere. Corny: too simple and used too often, especially jokes. Tacky: loud and in bad taste.", "examples": [{"word": "cheesy", "sentence": "The advert was so cheesy."}, {"word": "corny", "sentence": "That joke is corny."}, {"word": "tacky", "sentence": "Plastic flowers on the table look tacky."}]},
+      {"title": "sketchy vs dodgy vs grotty", "words": ["sketchy", "dodgy", "grotty"], "explanation_ar": "sketchy: غير آمن أو مريب. dodgy (بريطانية): غير أمين أو خطير محتمل. grotty (بريطانية): رديء الجودة وكريه.", "explanation_en": "Sketchy: not safe or dishonest. Dodgy (UK): dishonest, unreliable, maybe dangerous. Grotty (UK): poor quality and unpleasant.", "examples": [{"word": "sketchy", "sentence": "That website looks sketchy."}, {"word": "dodgy", "sentence": "He sold me a dodgy watch."}, {"word": "grotty", "sentence": "What a grotty old shirt!"}]}
+    ],
+    "expressions": [
+      {"phrase": "Bad word → good opposite", "meaning_ar": "dowdy ↔ snazzy، cheesy ↔ elegant، dusty ↔ successful/affluent، nasty ↔ pleasant، gross ↔ lovely، corny ↔ sophisticated، tacky ↔ tasteful", "meaning_en": "dowdy/snazzy, cheesy/elegant, dusty/affluent, nasty/pleasant, gross/lovely, corny/sophisticated, tacky/tasteful", "example": "The hotel wasn't nasty at all; it was very pleasant."},
+      {"phrase": "You don't have to be nasty.", "meaning_ar": "لا داعي لأن تكون فظًّا.", "meaning_en": "Please don't be rude.", "example": "I only asked a question. You don't have to be nasty."},
+      {"phrase": "across the pond / the other side of the pond", "meaning_ar": "على الضفة الأخرى من المحيط (بريطانيا أو أمريكا)", "meaning_en": "on the other side of the Atlantic Ocean (UK or North America)", "example": "My cousin lives across the pond in London."},
+      {"phrase": "a gimme", "meaning_ar": "شيء سهل جدًا / هدية مجانية", "meaning_en": "something very easy that you get for free", "example": "The first question was a gimme."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "What is the opposite of \"nasty\"?", "choices": ["pleasant", "gross", "tacky", "dodgy"], "answer": 0, "explanation_ar": "عكس nasty هو pleasant.", "explanation_en": "Pleasant is the opposite of nasty."},
+    {"question": "\"Her stylish green dress looked ___.\"", "choices": ["dowdy", "snazzy", "grotty", "corny"], "answer": 1, "explanation_ar": "snazzy = أنيق، وdowdy = قديم الطراز.", "explanation_en": "Snazzy means stylish."},
+    {"question": "A joke that is too simple and old is ___.", "choices": ["elegant", "affluent", "corny", "tasteful"], "answer": 2, "explanation_ar": "corny joke = نكتة سخيفة مستهلكة.", "explanation_en": "A corny joke is simple and obvious."},
+    {"question": "The opposite of \"tacky\" is ___.", "choices": ["gross", "nasty", "cheesy", "tasteful"], "answer": 3, "explanation_ar": "tasteful = ذو ذوق رفيع، عكس tacky.", "explanation_en": "Tasteful is the opposite of tacky."},
+    {"question": "\"The hotel had insects everywhere. It was ___.\"", "choices": ["nasty", "elegant", "lovely", "snazzy"], "answer": 0, "explanation_ar": "فندق مليء بالحشرات = nasty.", "explanation_en": "A hotel with insects is nasty."},
+    {"question": "\"Affluent\" means:", "choices": ["poor", "rich", "dirty", "funny"], "answer": 1, "explanation_ar": "affluent = ثري.", "explanation_en": "Affluent means rich."},
+    {"question": "\"I liked ___ restaurants with excellent food and a great atmosphere.\"", "choices": ["cheesy", "grotty", "elegant", "sketchy"], "answer": 2, "explanation_ar": "elegant = راقٍ وأنيق.", "explanation_en": "Elegant restaurants are stylish and nice."},
+    {"question": "Which word is British and means \"poor quality and unpleasant\"?", "choices": ["snazzy", "worldly", "pleasant", "grotty"], "answer": 3, "explanation_ar": "grotty كلمة بريطانية تعني رديء وكريه.", "explanation_en": "Grotty (UK) = poor quality, unpleasant."},
+    {"question": "\"That bridge looks ___. I don't think it's safe.\"", "choices": ["sketchy", "lovely", "elegant", "affluent"], "answer": 0, "explanation_ar": "sketchy = غير آمن أو مريب.", "explanation_en": "Sketchy = not safe."},
+    {"question": "\"Across the pond\" (said in Canada) means:", "choices": ["in the next town", "in England", "near a lake", "in the desert"], "answer": 1, "explanation_ar": "across the pond تعني الجهة الأخرى من المحيط الأطلسي.", "explanation_en": "It means the other side of the Atlantic."}
+  ]
+}

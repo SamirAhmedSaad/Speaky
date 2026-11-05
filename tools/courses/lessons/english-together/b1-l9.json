@@ -1,0 +1,455 @@
+{
+  "title": "Talking About Your Family",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "family",
+        "pos": "noun",
+        "meaning_en": "parents, children, brothers, sisters and other relatives",
+        "meaning_ar": "عائلة / أسرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a big family."
+      },
+      {
+        "word": "parents",
+        "pos": "noun",
+        "meaning_en": "your mother and father",
+        "meaning_ar": "الوالدان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My parents live in Riyadh."
+      },
+      {
+        "word": "only child",
+        "pos": "noun",
+        "meaning_en": "a child with no brothers or sisters",
+        "meaning_ar": "الطفل الوحيد (بلا إخوة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is an only child."
+      },
+      {
+        "word": "siblings",
+        "pos": "noun",
+        "meaning_en": "brothers and sisters",
+        "meaning_ar": "الإخوة والأخوات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have three siblings."
+      },
+      {
+        "word": "older",
+        "pos": "adjective",
+        "meaning_en": "born before someone (more age)",
+        "meaning_ar": "أكبر سنًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My older brother is twenty."
+      },
+      {
+        "word": "younger",
+        "pos": "adjective",
+        "meaning_en": "born after someone (less age)",
+        "meaning_ar": "أصغر سنًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My younger sister is six."
+      },
+      {
+        "word": "brother",
+        "pos": "noun",
+        "meaning_en": "a boy or man with the same parents as you",
+        "meaning_ar": "أخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My brother is my best friend."
+      },
+      {
+        "word": "sister",
+        "pos": "noun",
+        "meaning_en": "a girl or woman with the same parents as you",
+        "meaning_ar": "أخت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My sister studies medicine."
+      },
+      {
+        "word": "cousin",
+        "pos": "noun",
+        "meaning_en": "the child of your uncle or aunt",
+        "meaning_ar": "ابن/ابنة العم أو الخال",
+        "note_ar": "كلمة واحدة للذكر والأنثى",
+        "note_en": "Same word for a boy or a girl.",
+        "example": "I play with my cousins on Fridays."
+      },
+      {
+        "word": "peaceful",
+        "pos": "adjective",
+        "meaning_en": "quiet and calm",
+        "meaning_ar": "هادئ / مسالم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our village is very peaceful."
+      },
+      {
+        "word": "noisy",
+        "pos": "adjective",
+        "meaning_en": "making a lot of loud sound",
+        "meaning_ar": "صاخب / مزعج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The street is noisy at night."
+      },
+      {
+        "word": "grow up",
+        "pos": "phrasal verb",
+        "meaning_en": "change from a child to an adult",
+        "meaning_ar": "يكبر / ينشأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I grew up in a small town."
+      },
+      {
+        "word": "pilot",
+        "pos": "noun",
+        "meaning_en": "a person who flies a plane",
+        "meaning_ar": "طيّار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The pilot flies to Paris every week."
+      },
+      {
+        "word": "chef",
+        "pos": "noun",
+        "meaning_en": "a professional cook in a restaurant",
+        "meaning_ar": "طاهٍ / شيف",
+        "note_ar": "تُنطق /ʃef/",
+        "note_en": "Say /ʃef/.",
+        "example": "The chef makes great rice."
+      },
+      {
+        "word": "restaurant",
+        "pos": "noun",
+        "meaning_en": "a place where you buy and eat meals",
+        "meaning_ar": "مطعم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's eat at a restaurant."
+      },
+      {
+        "word": "downtown",
+        "pos": "adverb",
+        "meaning_en": "in or to the center of a city",
+        "meaning_ar": "في وسط المدينة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She works downtown."
+      },
+      {
+        "word": "impressive",
+        "pos": "adjective",
+        "meaning_en": "very good, making people admire it",
+        "meaning_ar": "مثير للإعجاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your drawing is impressive."
+      },
+      {
+        "word": "bank",
+        "pos": "noun",
+        "meaning_en": "a place that keeps and lends money",
+        "meaning_ar": "بنك / مصرف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My uncle works at a bank."
+      },
+      {
+        "word": "high school",
+        "pos": "noun",
+        "meaning_en": "a school for students aged about 14 to 18",
+        "meaning_ar": "مدرسة ثانوية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My sister is in high school."
+      },
+      {
+        "word": "gardening",
+        "pos": "noun",
+        "meaning_en": "growing plants and flowers",
+        "meaning_ar": "البستنة / العناية بالحديقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My grandmother loves gardening."
+      },
+      {
+        "word": "grow",
+        "pos": "verb",
+        "meaning_en": "make plants get bigger",
+        "meaning_ar": "يزرع / يُنمّي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We grow tomatoes in our garden."
+      },
+      {
+        "word": "barbecue",
+        "pos": "noun",
+        "meaning_en": "a meal cooked outside over fire",
+        "meaning_ar": "حفلة شواء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are having a barbecue on Friday."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "older vs younger",
+        "words": [
+          "older",
+          "younger"
+        ],
+        "explanation_ar": "older أكبر سنًّا، و younger أصغر سنًّا. نقول: my older brother (أخي الأكبر).",
+        "explanation_en": "Older means more age. Younger means less age.",
+        "examples": [
+          {
+            "word": "older",
+            "sentence": "My older sister is a doctor."
+          },
+          {
+            "word": "younger",
+            "sentence": "My younger brother is in primary school."
+          }
+        ]
+      },
+      {
+        "title": "siblings vs cousins",
+        "words": [
+          "siblings",
+          "cousins"
+        ],
+        "explanation_ar": "siblings هم إخوتك وأخواتك (لهم نفس والديك). cousins هم أبناء أعمامك وأخوالك.",
+        "explanation_en": "Siblings are your brothers and sisters. Cousins are children of your uncles and aunts.",
+        "examples": [
+          {
+            "word": "siblings",
+            "sentence": "I have two siblings: a brother and a sister."
+          },
+          {
+            "word": "cousins",
+            "sentence": "My cousins visit us every Eid."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Do you have a big family?",
+        "meaning_ar": "هل عائلتك كبيرة؟",
+        "meaning_en": "Ask about someone's family.",
+        "example": "Do you have a big family? Yes, I have five siblings."
+      },
+      {
+        "phrase": "I'm an only child.",
+        "meaning_ar": "أنا الطفل الوحيد (ليس لي إخوة).",
+        "meaning_en": "Say you have no brothers or sisters.",
+        "example": "I'm an only child, so I play with my cousins."
+      },
+      {
+        "phrase": "Do you have any siblings?",
+        "meaning_ar": "هل لديك إخوة؟",
+        "meaning_en": "Ask if someone has brothers or sisters.",
+        "example": "Do you have any siblings? Yes, one sister."
+      },
+      {
+        "phrase": "That sounds like a big family.",
+        "meaning_ar": "يبدو أنها عائلة كبيرة.",
+        "meaning_en": "React to what someone says about their family.",
+        "example": "You have six siblings? That sounds like a big family."
+      },
+      {
+        "phrase": "We always have fun together.",
+        "meaning_ar": "نستمتع دائمًا معًا.",
+        "meaning_en": "Say you enjoy time together.",
+        "example": "My brothers and I always have fun together."
+      },
+      {
+        "phrase": "What do your parents do?",
+        "meaning_ar": "ما عمل والديك؟",
+        "meaning_en": "Ask about parents' jobs.",
+        "example": "What do your parents do? My father is a pilot."
+      },
+      {
+        "phrase": "That's impressive!",
+        "meaning_ar": "هذا مثير للإعجاب!",
+        "meaning_en": "Show you think something is great.",
+        "example": "Your mother is a chef? That's impressive!"
+      },
+      {
+        "phrase": "Would you like to come?",
+        "meaning_ar": "هل تودّ أن تأتي؟",
+        "meaning_en": "Invite someone politely.",
+        "example": "We're having lunch on Friday. Would you like to come?"
+      },
+      {
+        "phrase": "I'd love to!",
+        "meaning_ar": "يسعدني ذلك!",
+        "meaning_en": "Accept an invitation happily.",
+        "example": "Would you like to come? I'd love to!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "have / has and do / does for family",
+        "explanation_ar": "نستخدم have مع I/you/we/they و has مع he/she/it: I have one brother. She has two sisters. وفي السؤال: Do you have...? / Does she have...? والجواب: Yes, I do. / No, I don't.",
+        "explanation_en": "Use have with I/you/we/they and has with he/she/it. Questions: Do you have...? Does she...?",
+        "examples": [
+          "Do you have a big family? No, I don't.",
+          "I have one older brother and two younger sisters.",
+          "Does she cook at home? Yes, she does."
+        ]
+      },
+      {
+        "title": "Talking about jobs: \"My father is a pilot\"",
+        "explanation_ar": "للحديث عن المهنة: is + a/an + المهنة (My father is a pilot) أو works at + المكان (My father works at a bank). ومع he/she نضيف s للفعل: He flies, She works.",
+        "explanation_en": "Jobs: is + a/an + job, or works at + place. Add -s with he/she: he flies, she works.",
+        "examples": [
+          "My father is a pilot.",
+          "She is a chef. She works at a restaurant downtown.",
+          "My mother is a high school teacher."
+        ]
+      },
+      {
+        "title": "Possessive adjectives: my, your, his, her, our",
+        "explanation_ar": "my (لي)، your (لك)، his (له)، her (لها)، our (لنا)، their (لهم). تأتي قبل الاسم: my brother, your parents.",
+        "explanation_en": "Possessive adjectives go before a noun: my, your, his, her, our, their.",
+        "examples": [
+          "My brother is my best friend.",
+          "What do your parents do?",
+          "You can meet my family."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A child with no brothers or sisters is an ___.",
+      "choices": [
+        "older brother",
+        "only child",
+        "cousin",
+        "parent"
+      ],
+      "answer": 1,
+      "explanation_ar": "only child هو الطفل الوحيد بلا إخوة.",
+      "explanation_en": "An only child has no brothers or sisters."
+    },
+    {
+      "question": "Brothers and sisters are called ___.",
+      "choices": [
+        "cousins",
+        "parents",
+        "siblings",
+        "chefs"
+      ],
+      "answer": 2,
+      "explanation_ar": "siblings تعني الإخوة والأخوات.",
+      "explanation_en": "Siblings means brothers and sisters."
+    },
+    {
+      "question": "Do you have any siblings? — Yes, I ___.",
+      "choices": [
+        "do",
+        "does",
+        "have",
+        "am"
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال بـ Do، فالجواب Yes, I do.",
+      "explanation_en": "The question uses \"do\", so answer \"Yes, I do\"."
+    },
+    {
+      "question": "My father is a ___. He flies airplanes.",
+      "choices": [
+        "chef",
+        "pilot",
+        "teacher",
+        "bank"
+      ],
+      "answer": 1,
+      "explanation_ar": "pilot هو الطيار.",
+      "explanation_en": "A pilot flies planes."
+    },
+    {
+      "question": "___ she cook at home, too? — Yes, she does.",
+      "choices": [
+        "Do",
+        "Is",
+        "Does",
+        "Are"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع she نستخدم Does.",
+      "explanation_en": "With \"she\" use \"Does\"."
+    },
+    {
+      "question": "I ___ one older brother and two younger sisters.",
+      "choices": [
+        "has",
+        "have",
+        "having",
+        "am"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع I نستخدم have.",
+      "explanation_en": "With \"I\" use \"have\"."
+    },
+    {
+      "question": "She ___ at a restaurant downtown.",
+      "choices": [
+        "work",
+        "working",
+        "works",
+        "to work"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع she نضيف s: works.",
+      "explanation_en": "With \"she\" add -s: works."
+    },
+    {
+      "question": "My mom loves ___. She grows beautiful tomatoes.",
+      "choices": [
+        "gardening",
+        "cooking",
+        "flying",
+        "reading"
+      ],
+      "answer": 0,
+      "explanation_ar": "gardening تعني العناية بالحديقة وزراعة النباتات.",
+      "explanation_en": "Gardening is growing plants."
+    },
+    {
+      "question": "Would you like to come? — ___",
+      "choices": [
+        "I'm an only child.",
+        "Sometimes it's noisy.",
+        "My dad enjoys reading.",
+        "I'd love to!"
+      ],
+      "answer": 3,
+      "explanation_ar": "I'd love to رد لقبول الدعوة.",
+      "explanation_en": "\"I'd love to!\" accepts an invitation."
+    },
+    {
+      "question": "The children of your uncle are your ___.",
+      "choices": [
+        "cousins",
+        "siblings",
+        "parents",
+        "sisters"
+      ],
+      "answer": 0,
+      "explanation_ar": "أبناء العم أو الخال هم cousins.",
+      "explanation_en": "Your uncle's children are your cousins."
+    }
+  ]
+}

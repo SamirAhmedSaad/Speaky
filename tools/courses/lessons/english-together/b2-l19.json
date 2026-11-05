@@ -1,0 +1,373 @@
+{
+  "title": "Shopping for a Birthday Gift",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "birthday",
+        "pos": "noun",
+        "meaning_en": "the day each year when you were born",
+        "meaning_ar": "عيد ميلاد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My friend's birthday is tomorrow."
+      },
+      {
+        "word": "gift",
+        "pos": "noun",
+        "meaning_en": "something you give to someone; a present",
+        "meaning_ar": "هدية",
+        "note_ar": "مرادف: present",
+        "note_en": "Same as \"present\".",
+        "example": "I want to buy a birthday gift."
+      },
+      {
+        "word": "friend",
+        "pos": "noun",
+        "meaning_en": "a person you like and know well",
+        "meaning_ar": "صديق / صديقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is my best friend."
+      },
+      {
+        "word": "book",
+        "pos": "noun",
+        "meaning_en": "pages with writing, to read",
+        "meaning_ar": "كتاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She likes books."
+      },
+      {
+        "word": "flowers",
+        "pos": "noun",
+        "meaning_en": "the colourful parts of a plant",
+        "meaning_ar": "زهور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She likes flowers."
+      },
+      {
+        "word": "bookstore",
+        "pos": "noun",
+        "meaning_en": "a shop that sells books",
+        "meaning_ar": "مكتبة (لبيع الكتب)",
+        "note_ar": "في بريطانيا: bookshop",
+        "note_en": "UK: bookshop.",
+        "example": "Let's go to the bookstore."
+      },
+      {
+        "word": "beautiful",
+        "pos": "adjective",
+        "meaning_en": "very nice to look at",
+        "meaning_ar": "جميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Yes, it is beautiful."
+      },
+      {
+        "word": "pictures",
+        "pos": "noun",
+        "meaning_en": "drawings or photos",
+        "meaning_ar": "صور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It has pictures too."
+      },
+      {
+        "word": "cost",
+        "pos": "verb",
+        "meaning_en": "have a price",
+        "meaning_ar": "يكلّف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It costs 15 dollars."
+      },
+      {
+        "word": "bouquet",
+        "pos": "noun",
+        "meaning_en": "a group of flowers tied together",
+        "meaning_ar": "باقة زهور",
+        "note_ar": "تُنطق: بو-كيه /buˈkeɪ/",
+        "note_en": "Say: /buˈkeɪ/.",
+        "example": "Maybe a small bouquet."
+      },
+      {
+        "word": "roses",
+        "pos": "noun",
+        "meaning_en": "flowers, often red, with a nice smell",
+        "meaning_ar": "ورود",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like the red roses."
+      },
+      {
+        "word": "pretty",
+        "pos": "adjective",
+        "meaning_en": "nice to look at",
+        "meaning_ar": "جميل / لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These flowers are pretty."
+      },
+      {
+        "word": "choice",
+        "pos": "noun",
+        "meaning_en": "something you choose",
+        "meaning_ar": "اختيار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Red roses are a good choice."
+      },
+      {
+        "word": "hope",
+        "pos": "verb",
+        "meaning_en": "want something to happen",
+        "meaning_ar": "يأمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I hope your friend likes the gift."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "gift vs present",
+        "words": [
+          "gift",
+          "present"
+        ],
+        "explanation_ar": "الكلمتان بمعنى هدية. present أكثر شيوعًا في الكلام اليومي، وgift أكثر في المتاجر والكتابة.",
+        "explanation_en": "Both mean something you give. \"Present\" is common in speech; \"gift\" is common in shops and writing.",
+        "examples": [
+          {
+            "word": "gift",
+            "sentence": "a gift shop"
+          },
+          {
+            "word": "present",
+            "sentence": "a birthday present"
+          }
+        ]
+      },
+      {
+        "title": "How much is it? vs It costs ...",
+        "words": [
+          "How much is it",
+          "costs"
+        ],
+        "explanation_ar": "نسأل عن السعر: How much is it? / How much does it cost? والجواب: It costs 15 dollars. / It's 15 dollars.",
+        "explanation_en": "Ask: \"How much is it?\" or \"How much does it cost?\" Answer: \"It costs ...\" or \"It's ...\".",
+        "examples": [
+          {
+            "word": "How much is it",
+            "sentence": "How much is this book?"
+          },
+          {
+            "word": "costs",
+            "sentence": "It costs 15 dollars."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I want to buy a birthday gift for my friend.",
+        "meaning_ar": "أريد شراء هدية عيد ميلاد لصديقتي.",
+        "meaning_en": "Saying what you need.",
+        "example": "I want to buy a gift for my brother."
+      },
+      {
+        "phrase": "Can you help me? / Yes, I can help.",
+        "meaning_ar": "هل يمكنك مساعدتي؟ / نعم، أستطيع المساعدة.",
+        "meaning_en": "Asking a friend for help.",
+        "example": "Can you help me with my homework?"
+      },
+      {
+        "phrase": "What does your friend like?",
+        "meaning_ar": "ماذا تحب صديقتك؟",
+        "meaning_en": "Asking about someone's interests.",
+        "example": "What does your father like?"
+      },
+      {
+        "phrase": "I am not sure. Maybe a book is better.",
+        "meaning_ar": "لست متأكدًا. ربما الكتاب أفضل.",
+        "meaning_en": "Thinking about a choice.",
+        "example": "I'm not sure. Maybe the blue one is better."
+      },
+      {
+        "phrase": "Let's go to the bookstore.",
+        "meaning_ar": "لنذهب إلى المكتبة.",
+        "meaning_en": "A suggestion.",
+        "example": "Let's go to the market."
+      },
+      {
+        "phrase": "Do you want to buy it? / Yes, I do.",
+        "meaning_ar": "هل تريد شراءه؟ / نعم.",
+        "meaning_en": "A yes/no question and short answer.",
+        "example": "Do you want to buy it? No, I don't."
+      },
+      {
+        "phrase": "Red roses are a good choice.",
+        "meaning_ar": "الورود الحمراء اختيار جيد.",
+        "meaning_en": "Agreeing with a choice.",
+        "example": "A book is a good choice."
+      },
+      {
+        "phrase": "You helped me a lot.",
+        "meaning_ar": "لقد ساعدتني كثيرًا.",
+        "meaning_en": "Thanking someone.",
+        "example": "Thank you! You helped me a lot."
+      },
+      {
+        "phrase": "I hope your friend likes the gift.",
+        "meaning_ar": "أتمنى أن تعجب صديقتك الهدية.",
+        "meaning_en": "A kind wish.",
+        "example": "I hope you like it."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple: likes / does ... like?",
+        "explanation_ar": "مع he / she / it نضيف s للفعل: She likes books. وفي السؤال: What does she like? (بدون s).",
+        "explanation_en": "With he/she/it, add -s: \"She likes\". Question: \"What does she like?\" (no -s).",
+        "examples": [
+          "She likes books and flowers.",
+          "What does your friend like?",
+          "Does she like roses?"
+        ]
+      },
+      {
+        "title": "Short answers: Yes, I do / Yes, it is",
+        "explanation_ar": "نجيب باختصار بنفس الفعل المساعد: Do you ...? Yes, I do. / Is it ...? Yes, it is.",
+        "explanation_en": "Answer with the same helping verb: \"Do you ...? Yes, I do.\" \"Is it ...? Yes, it is.\"",
+        "examples": [
+          "Do you want to buy it? Yes, I do.",
+          "Is it beautiful? Yes, it is.",
+          "Can you help? Yes, I can."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What does your friend ____?",
+      "choices": [
+        "likes",
+        "like",
+        "liking",
+        "to like"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد does نستخدم الفعل بدون s.",
+      "explanation_en": "After \"does\", use the base verb."
+    },
+    {
+      "question": "She ____ books and flowers.",
+      "choices": [
+        "like",
+        "is like",
+        "liking",
+        "likes"
+      ],
+      "answer": 3,
+      "explanation_ar": "مع she نضيف s.",
+      "explanation_en": "With \"she\", add -s."
+    },
+    {
+      "question": "A \"bouquet\" is ...",
+      "choices": [
+        "a group of flowers",
+        "a book shop",
+        "a birthday cake",
+        "a gift card"
+      ],
+      "answer": 0,
+      "explanation_ar": "bouquet باقة زهور.",
+      "explanation_en": "A bouquet is a group of flowers."
+    },
+    {
+      "question": "\"Do you want to buy it?\" \"Yes, I ____.\"",
+      "choices": [
+        "want",
+        "am",
+        "do",
+        "buy"
+      ],
+      "answer": 2,
+      "explanation_ar": "الجواب المختصر: Yes, I do.",
+      "explanation_en": "Short answer: \"Yes, I do.\""
+    },
+    {
+      "question": "It ____ 15 dollars.",
+      "choices": [
+        "cost",
+        "costing",
+        "costs",
+        "is cost"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع it نقول costs.",
+      "explanation_en": "\"It costs\"."
+    },
+    {
+      "question": "Where do you buy books?",
+      "choices": [
+        "at the bookstore",
+        "at the bouquet",
+        "at the roses",
+        "at the gift"
+      ],
+      "answer": 0,
+      "explanation_ar": "نشتري الكتب من المكتبة.",
+      "explanation_en": "At the bookstore."
+    },
+    {
+      "question": "Which word means the same as \"gift\"?",
+      "choices": [
+        "choice",
+        "picture",
+        "bouquet",
+        "present"
+      ],
+      "answer": 3,
+      "explanation_ar": "gift تعني present أي هدية.",
+      "explanation_en": "\"Gift\" = \"present\"."
+    },
+    {
+      "question": "\"I hope your friend likes the gift.\" \"____\"",
+      "choices": [
+        "I'm not.",
+        "Me too!",
+        "Yes, it costs.",
+        "Let's go."
+      ],
+      "answer": 1,
+      "explanation_ar": "الرد: Me too!",
+      "explanation_en": "The answer is \"Me too!\""
+    },
+    {
+      "question": "\"These flowers are pretty.\" Pretty means ...",
+      "choices": [
+        "nice to look at",
+        "expensive",
+        "very big",
+        "old"
+      ],
+      "answer": 0,
+      "explanation_ar": "pretty تعني جميل.",
+      "explanation_en": "\"Pretty\" means nice to look at."
+    },
+    {
+      "question": "\"I am not sure. Maybe a book is ____.\"",
+      "choices": [
+        "good than",
+        "more good",
+        "better",
+        "best"
+      ],
+      "answer": 2,
+      "explanation_ar": "المقارنة من good هي better.",
+      "explanation_en": "The comparative of \"good\" is \"better\"."
+    }
+  ]
+}

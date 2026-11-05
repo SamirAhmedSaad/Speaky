@@ -1,0 +1,453 @@
+{
+ "title": "Time for Plan B",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "far away",
+    "pos": "adverb",
+    "meaning_en": "at a long distance",
+    "meaning_ar": "بعيد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My school is far away, so I take the bus."
+   },
+   {
+    "word": "ride",
+    "pos": "verb",
+    "meaning_en": "to travel on a bus, train, bike, etc.",
+    "meaning_ar": "يركب",
+    "note_ar": "ride - rode - ridden.",
+    "note_en": "ride - rode - ridden.",
+    "example": "I ride the train to work."
+   },
+   {
+    "word": "Metro",
+    "pos": "noun",
+    "meaning_en": "the underground train in Washington, D.C. and other cities",
+    "meaning_ar": "المترو",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Let's take the Metro downtown."
+   },
+   {
+    "word": "lose",
+    "pos": "verb",
+    "meaning_en": "to not be able to find something",
+    "meaning_ar": "يفقد / يُضيّع",
+    "note_ar": "lose - lost - lost. لا تخلط بين lose (يفقد) و loose (فضفاض).",
+    "note_en": "lose - lost - lost. Don't confuse lose with loose (not tight).",
+    "example": "I lost my keys yesterday."
+   },
+   {
+    "word": "wallet",
+    "pos": "noun",
+    "meaning_en": "a small flat case for money and cards",
+    "meaning_ar": "محفظة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I keep my bank card in my wallet."
+   },
+   {
+    "word": "credit card",
+    "pos": "noun",
+    "meaning_en": "a plastic card you use to pay and pay back later",
+    "meaning_ar": "بطاقة ائتمان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can I pay with a credit card?"
+   },
+   {
+    "word": "emergency",
+    "pos": "noun",
+    "meaning_en": "a sudden, serious situation that needs fast action",
+    "meaning_ar": "حالة طارئة",
+    "note_ar": "emergency money = مال للطوارئ.",
+    "note_en": "emergency money = money for a bad situation.",
+    "example": "In an emergency, call 911."
+   },
+   {
+    "word": "envelope",
+    "pos": "noun",
+    "meaning_en": "a paper cover for a letter or money",
+    "meaning_ar": "ظرف (رسالة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She put the money in an envelope."
+   },
+   {
+    "word": "empty",
+    "pos": "adjective",
+    "meaning_en": "with nothing inside",
+    "meaning_ar": "فارغ",
+    "note_ar": "عكسها: full.",
+    "note_en": "Opposite: full.",
+    "example": "The box is empty."
+   },
+   {
+    "word": "Plan B",
+    "pos": "phrase",
+    "meaning_en": "a second plan, used when the first plan does not work",
+    "meaning_ar": "الخطة البديلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "If it rains, our Plan B is to watch a movie at home."
+   },
+   {
+    "word": "stuck",
+    "pos": "adjective",
+    "meaning_en": "not able to leave or move from a place or situation",
+    "meaning_ar": "عالق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm stuck at work until eight."
+   },
+   {
+    "word": "downtown",
+    "pos": "adverb / noun",
+    "meaning_en": "in or to the center of a city",
+    "meaning_ar": "وسط المدينة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We are going downtown to shop."
+   },
+   {
+    "word": "presentation",
+    "pos": "noun",
+    "meaning_en": "a talk you give to show information to a group",
+    "meaning_ar": "عرض تقديمي",
+    "note_ar": "give a presentation = يقدم عرضاً.",
+    "note_en": "give a presentation.",
+    "example": "I have to give a presentation at work tomorrow."
+   },
+   {
+    "word": "flight",
+    "pos": "noun",
+    "meaning_en": "a trip on a plane",
+    "meaning_ar": "رحلة جوية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Our flight leaves at six."
+   },
+   {
+    "word": "airport",
+    "pos": "noun",
+    "meaning_en": "a place where planes take off and land",
+    "meaning_ar": "مطار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll meet you at the airport."
+   },
+   {
+    "word": "serious",
+    "pos": "adjective",
+    "meaning_en": "bad or worrying; important",
+    "meaning_ar": "خطير / جاد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is a serious problem."
+   },
+   {
+    "word": "babysit",
+    "pos": "verb",
+    "meaning_en": "to take care of children while their parents are out",
+    "meaning_ar": "يرعى الأطفال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm babysitting my little cousin tonight."
+   },
+   {
+    "word": "niece",
+    "pos": "noun",
+    "meaning_en": "the daughter of your brother or sister",
+    "meaning_ar": "ابنة الأخ / ابنة الأخت",
+    "note_ar": "للذكر: nephew.",
+    "note_en": "For a boy: nephew.",
+    "example": "My niece is five years old."
+   },
+   {
+    "word": "pay back",
+    "pos": "phrasal verb",
+    "meaning_en": "to return money that you borrowed",
+    "meaning_ar": "يرد (المال)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll pay you back tomorrow."
+   },
+   {
+    "word": "promise",
+    "pos": "verb / noun",
+    "meaning_en": "to say that you will certainly do something",
+    "meaning_ar": "يَعِد / وعد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I promise I will help you."
+   },
+   {
+    "word": "worried",
+    "pos": "adjective",
+    "meaning_en": "unhappy because you think something bad may happen",
+    "meaning_ar": "قلق",
+    "note_ar": "worried about + شيء.",
+    "note_en": "worried about + something.",
+    "example": "Mom is worried about the test."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "can / could / would you be able to",
+    "words": [
+     "Can you",
+     "Could you",
+     "Would you be able to",
+     "I was wondering if you could"
+    ],
+    "explanation_ar": "كلها طلبات، لكن درجة الأدب تختلف: Can you أبسطها، Could you أكثر أدباً، Would you be able to و I was wondering if you could أكثر أدباً وتُستخدم لطلب كبير.",
+    "explanation_en": "All are requests, but the politeness grows: Can you is simple; Could you is more polite; Would you be able to and I was wondering if you could are very polite, good for big requests.",
+    "examples": [
+     {
+      "word": "Can you",
+      "sentence": "Can you help me?"
+     },
+     {
+      "word": "Could you",
+      "sentence": "Could you give me $20?"
+     },
+     {
+      "word": "Would you be able to",
+      "sentence": "Would you be able to come downtown?"
+     },
+     {
+      "word": "I was wondering if you could",
+      "sentence": "I was wondering if you could give me some money."
+     }
+    ]
+   },
+   {
+    "title": "I can't vs I wish I could",
+    "words": [
+     "I can't",
+     "I wish I could"
+    ],
+    "explanation_ar": "I can't رفض مباشر. I wish I could رفض لطيف معناه «أتمنى أن أستطيع لكنني لا أستطيع».",
+    "explanation_en": "I can't is a direct no. I wish I could is a kind no: \"I want to, but I can't.\"",
+    "examples": [
+     {
+      "word": "I can't",
+      "sentence": "Anna, I can't. I'm too busy."
+     },
+     {
+      "word": "I wish I could",
+      "sentence": "Anna, I wish I could. I'm at the airport."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Oh, no! I lost my wallet!",
+    "meaning_ar": "يا إلهي! أضعت محفظتي!",
+    "meaning_en": "A cry when you find you lost your wallet.",
+    "example": "Oh, no! I lost my phone!"
+   },
+   {
+    "phrase": "Time for Plan B.",
+    "meaning_ar": "حان وقت الخطة البديلة.",
+    "meaning_en": "The first plan didn't work, so try the second.",
+    "example": "The shop is closed. Time for Plan B."
+   },
+   {
+    "phrase": "What's up?",
+    "meaning_ar": "ما الأخبار؟ / ما الأمر؟",
+    "meaning_en": "An informal way to say hello or ask what is happening.",
+    "example": "Hi, Sam. What's up?"
+   },
+   {
+    "phrase": "Would you be able to ...?",
+    "meaning_ar": "هل يمكنك أن ...؟ (بأدب)",
+    "meaning_en": "A very polite way to ask someone to do something.",
+    "example": "Would you be able to help me move this table?"
+   },
+   {
+    "phrase": "I was wondering if you could ...",
+    "meaning_ar": "كنت أتساءل إن كان بإمكانك ...",
+    "meaning_en": "A very polite, soft way to ask for something.",
+    "example": "I was wondering if you could drive me to the station."
+   },
+   {
+    "phrase": "I wish I could.",
+    "meaning_ar": "أتمنى لو أستطيع.",
+    "meaning_en": "A kind way to say no.",
+    "example": "Can you come to the meeting? - I wish I could, but I'm busy."
+   },
+   {
+    "phrase": "Good luck with your presentation!",
+    "meaning_ar": "حظاً موفقاً في عرضك!",
+    "meaning_en": "I hope your talk goes well.",
+    "example": "Good luck with your exam!"
+   },
+   {
+    "phrase": "I'll pay you back. I promise.",
+    "meaning_ar": "سأرد لك المال. أعدك.",
+    "meaning_en": "I will return the money for sure.",
+    "example": "Can I borrow five dollars? I'll pay you back, I promise."
+   },
+   {
+    "phrase": "It's not the end of the world.",
+    "meaning_ar": "ليست نهاية العالم.",
+    "meaning_en": "It's a problem, but not a very big one.",
+    "example": "You missed the bus, but it's not the end of the world."
+   },
+   {
+    "phrase": "Thanks anyway.",
+    "meaning_ar": "شكراً على كل حال.",
+    "meaning_en": "Thank you, even though you couldn't help.",
+    "example": "You don't have a pen? That's OK. Thanks anyway."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Polite requests: can, could, would you be able to",
+    "explanation_ar": "لطلب شيء من شخص نستخدم: Can you + فعل؟ (عادي)، Could you + فعل؟ (أكثر أدباً)، Would you be able to + فعل؟ (مؤدب جداً). وطريقة أخرى ناعمة: I was wondering if you could + فعل. بعد هذه التعبيرات يأتي الفعل في المصدر (give, come).",
+    "explanation_en": "To ask someone to do something: Can you + verb? (normal), Could you + verb? (more polite), Would you be able to + verb? (very polite). Another soft way: I was wondering if you could + verb. Use the base verb after them (give, come).",
+    "examples": [
+     "Would you be able to come downtown?",
+     "Could you give me $20?",
+     "I was wondering if you could give me some money.",
+     "Can you wait for me?"
+    ]
+   },
+   {
+    "title": "Saying no politely",
+    "explanation_ar": "عند الرفض نعتذر ونذكر السبب: I can't. I'm too busy. أو I wish I could, but ... ونستخدم too + صفة لنقول إن الشيء أكثر من اللازم (too busy).",
+    "explanation_en": "To say no, say sorry and give a reason: I can't. I'm too busy. Or: I wish I could, but... Use too + adjective to say something is more than it should be (too busy).",
+    "examples": [
+     "Anna, I can't. I'm too busy.",
+     "I wish I could. I'm at the airport.",
+     "Sorry, I can't. I'm babysitting."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Which request is the MOST polite?",
+   "choices": [
+    "Give me $20.",
+    "Can you give me $20?",
+    "I was wondering if you could give me $20.",
+    "You give me $20?"
+   ],
+   "answer": 2,
+   "explanation_ar": "I was wondering if you could ... من أكثر الطرق أدباً.",
+   "explanation_en": "\"I was wondering if you could...\" is the most polite."
+  },
+  {
+   "question": "Complete: \"Would you be able ____ downtown?\"",
+   "choices": [
+    "come",
+    "to come",
+    "coming",
+    "came"
+   ],
+   "answer": 1,
+   "explanation_ar": "بعد be able نستخدم to + الفعل.",
+   "explanation_en": "After \"be able\" use to + verb."
+  },
+  {
+   "question": "\"I wish I could\" means ...",
+   "choices": [
+    "Yes, I will.",
+    "I want to, but I can't.",
+    "I don't want to.",
+    "Maybe later."
+   ],
+   "answer": 1,
+   "explanation_ar": "I wish I could رفض لطيف: أريد لكن لا أستطيع.",
+   "explanation_en": "It's a kind no: I want to, but I can't."
+  },
+  {
+   "question": "The envelope has no money in it. It is ...",
+   "choices": [
+    "empty",
+    "full",
+    "stuck",
+    "serious"
+   ],
+   "answer": 0,
+   "explanation_ar": "empty = فارغ.",
+   "explanation_en": "Empty = with nothing inside."
+  },
+  {
+   "question": "Your sister's daughter is your ...",
+   "choices": [
+    "nephew",
+    "aunt",
+    "cousin",
+    "niece"
+   ],
+   "answer": 3,
+   "explanation_ar": "ابنة الأخت أو الأخ هي niece.",
+   "explanation_en": "Your brother's or sister's daughter is your niece."
+  },
+  {
+   "question": "What is \"Plan B\"?",
+   "choices": [
+    "the best plan",
+    "a plan for a bus",
+    "a second plan when the first doesn't work",
+    "a plan for buying things"
+   ],
+   "answer": 2,
+   "explanation_ar": "Plan B هي الخطة البديلة.",
+   "explanation_en": "Plan B is a second plan."
+  },
+  {
+   "question": "Choose the correct past form: \"I ____ my wallet yesterday.\"",
+   "choices": [
+    "lose",
+    "losed",
+    "loose",
+    "lost"
+   ],
+   "answer": 3,
+   "explanation_ar": "الماضي من lose هو lost.",
+   "explanation_en": "The past of lose is lost."
+  },
+  {
+   "question": "She is taking care of her sister's little girl tonight. She is ...",
+   "choices": [
+    "babysitting",
+    "presenting",
+    "flying",
+    "riding"
+   ],
+   "answer": 0,
+   "explanation_ar": "babysitting = رعاية الأطفال.",
+   "explanation_en": "Babysitting = taking care of children."
+  },
+  {
+   "question": "\"I'll pay you back\" means ...",
+   "choices": [
+    "I'll pay for you.",
+    "I'll return your money.",
+    "I'll go back.",
+    "I'll come back later."
+   ],
+   "answer": 1,
+   "explanation_ar": "pay back = يرد المال الذي اقترضه.",
+   "explanation_en": "Pay back = return money you borrowed."
+  },
+  {
+   "question": "\"Sorry, I can't help you. I'm ____ busy.\"",
+   "choices": [
+    "too",
+    "enough",
+    "very much",
+    "so much"
+   ],
+   "answer": 0,
+   "explanation_ar": "too busy = مشغول أكثر من اللازم لدرجة أنه لا يستطيع المساعدة.",
+   "explanation_en": "Too busy = so busy that I can't help."
+  }
+ ]
+}

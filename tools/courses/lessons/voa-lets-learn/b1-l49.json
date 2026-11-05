@@ -1,0 +1,497 @@
+{
+ "title": "Operation Spy!",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "secret",
+    "pos": "noun / adjective",
+    "meaning_en": "something that other people must not know",
+    "meaning_ar": "سر / سرّي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can you keep a secret?"
+   },
+   {
+    "word": "spy",
+    "pos": "noun / verb",
+    "meaning_en": "a person who secretly collects information; to do this",
+    "meaning_ar": "جاسوس / يتجسس",
+    "note_ar": "spying = التجسس",
+    "note_en": "spying = the activity of a spy",
+    "example": "The spy wore dark glasses."
+   },
+   {
+    "word": "collection",
+    "pos": "noun",
+    "meaning_en": "a group of things that someone has gathered",
+    "meaning_ar": "مجموعة (مقتنيات)",
+    "note_ar": "الفعل: collect",
+    "note_en": "Verb: collect.",
+    "example": "The museum has a large collection of old coins."
+   },
+   {
+    "word": "mission",
+    "pos": "noun",
+    "meaning_en": "an important job that someone is sent to do",
+    "meaning_ar": "مهمة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Your mission is to find the key."
+   },
+   {
+    "word": "agent",
+    "pos": "noun",
+    "meaning_en": "a spy; a person who works for a secret service",
+    "meaning_ar": "عميل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Agent Flamingo is ready."
+   },
+   {
+    "word": "peacock",
+    "pos": "noun",
+    "meaning_en": "a large bird with long, colorful tail feathers",
+    "meaning_ar": "طاووس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The peacock opened its beautiful tail."
+   },
+   {
+    "word": "flamingo",
+    "pos": "noun",
+    "meaning_en": "a tall pink bird with long legs",
+    "meaning_ar": "طائر الفلامنغو (النحام)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Flamingos stand on one leg."
+   },
+   {
+    "word": "report for duty",
+    "pos": "phrase",
+    "meaning_en": "to say you are at work and ready to start",
+    "meaning_ar": "يبلّغ عن حضوره للعمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The soldier reported for duty at 7 a.m."
+   },
+   {
+    "word": "intelligence",
+    "pos": "noun",
+    "meaning_en": "secret information about other countries or people (also: being smart)",
+    "meaning_ar": "معلومات استخباراتية / ذكاء",
+    "note_ar": "لها معنيان: ذكاء، ومعلومات سرية",
+    "note_en": "Two meanings: being smart, and secret information.",
+    "example": "Spies collect intelligence."
+   },
+   {
+    "word": "air duct",
+    "pos": "noun",
+    "meaning_en": "a pipe or tunnel that carries air through a building",
+    "meaning_ar": "مجرى الهواء (فتحة التهوية)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Cold air comes out of the air duct."
+   },
+   {
+    "word": "sneak",
+    "pos": "verb",
+    "meaning_en": "to go somewhere quietly so nobody sees you",
+    "meaning_ar": "يتسلل",
+    "note_ar": "الماضي: sneaked أو snuck (أمريكية)",
+    "note_en": "Past: sneaked, or snuck (American).",
+    "example": "The cat sneaked into the kitchen."
+   },
+   {
+    "word": "afraid of",
+    "pos": "adjective",
+    "meaning_en": "feeling fear about something",
+    "meaning_ar": "خائف من",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My little brother is afraid of the dark."
+   },
+   {
+    "word": "darkness",
+    "pos": "noun",
+    "meaning_en": "the state of having no light",
+    "meaning_ar": "الظلام",
+    "note_ar": "dark (صفة) → darkness (اسم)",
+    "note_en": "dark (adjective) → darkness (noun)",
+    "example": "I can't see anything in the darkness."
+   },
+   {
+    "word": "breathe",
+    "pos": "verb",
+    "meaning_en": "to take air in and out of your body",
+    "meaning_ar": "يتنفس",
+    "note_ar": "الاسم breath ويُنطق /breθ/، والفعل breathe ويُنطق /briːð/.",
+    "note_en": "Noun: breath /breθ/. Verb: breathe /briːð/.",
+    "example": "Breathe slowly and relax."
+   },
+   {
+    "word": "trouble",
+    "pos": "noun",
+    "meaning_en": "a problem or difficulty",
+    "meaning_ar": "صعوبة، مشكلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm having trouble with my homework."
+   },
+   {
+    "word": "uncomfortable",
+    "pos": "adjective",
+    "meaning_en": "not feeling relaxed or easy",
+    "meaning_ar": "غير مريح",
+    "note_ar": "un + comfortable",
+    "note_en": "un + comfortable",
+    "example": "These shoes are uncomfortable."
+   },
+   {
+    "word": "crack a code",
+    "pos": "phrase",
+    "meaning_en": "to find the meaning of a secret message",
+    "meaning_ar": "يفكّ شفرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It took him an hour to crack the code."
+   },
+   {
+    "word": "brain",
+    "pos": "noun",
+    "meaning_en": "the part of your head that you think with",
+    "meaning_ar": "دماغ، عقل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Spies use their brains."
+   },
+   {
+    "word": "hurt",
+    "pos": "verb",
+    "meaning_en": "to feel pain",
+    "meaning_ar": "يؤلم",
+    "note_ar": "الماضي والتصريف الثالث: hurt",
+    "note_en": "Past and past participle: hurt.",
+    "example": "My head hurts."
+   },
+   {
+    "word": "in good shape",
+    "pos": "phrase",
+    "meaning_en": "healthy and strong; fit",
+    "meaning_ar": "بلياقة بدنية جيدة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He runs every day to stay in good shape."
+   },
+   {
+    "word": "break up",
+    "pos": "phrasal verb",
+    "meaning_en": "(of a voice on the phone) to become hard to hear",
+    "meaning_ar": "يتقطع (الصوت في الاتصال)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sorry, you're breaking up. Can you call again?"
+   },
+   {
+    "word": "complete",
+    "pos": "verb",
+    "meaning_en": "to finish",
+    "meaning_ar": "يُكمل، يُنهي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I completed the mission."
+   },
+   {
+    "word": "H.Q.",
+    "pos": "noun",
+    "meaning_en": "headquarters; the main office",
+    "meaning_ar": "المقر الرئيسي",
+    "note_ar": "اختصار headquarters",
+    "note_en": "Short for headquarters.",
+    "example": "See you back at H.Q.!"
+   },
+   {
+    "word": "yummy",
+    "pos": "adjective",
+    "meaning_en": "tasting very good (informal)",
+    "meaning_ar": "لذيذ (عامية)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This soup is yummy!"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "sneaked vs snuck",
+    "words": [
+     "sneaked",
+     "snuck"
+    ],
+    "explanation_ar": "الكلمتان صحيحتان كماضٍ للفعل sneak. sneaked هي الشكل الأقدم والأشهر في بريطانيا، وsnuck شائعة جدًا في أمريكا. في الدرس قالت آنا: I have never snuck … ثم: I sneaked down an air duct.",
+    "explanation_en": "Both are correct past forms of \"sneak\". \"Sneaked\" is older and common in British English; \"snuck\" is very common in American English. Anna says both: \"I have never snuck …\" and \"I sneaked down an air duct.\"",
+    "examples": [
+     {
+      "word": "snuck",
+      "sentence": "He snuck out of the room."
+     },
+     {
+      "word": "sneaked",
+      "sentence": "She sneaked a look at the answers."
+     }
+    ]
+   },
+   {
+    "title": "I did it vs I've done it",
+    "words": [
+     "I did it",
+     "I've done it"
+    ],
+    "explanation_ar": "I did it = الماضي البسيط، حدث وانتهى (وغالبًا يُذكر الوقت). I've done it = المضارع التام، النتيجة مهمة الآن ولا نذكر وقتًا محددًا. لا نستخدم المضارع التام مع yesterday أو last week.",
+    "explanation_en": "\"I did it\" = past simple: finished, often with a time. \"I've done it\" = present perfect: the result matters now; no specific time. Don't use the present perfect with \"yesterday\" or \"last week\".",
+    "examples": [
+     {
+      "word": "I did it",
+      "sentence": "I cracked the code yesterday."
+     },
+     {
+      "word": "I've done it",
+      "sentence": "I've cracked the code! My brain hurts."
+     }
+    ]
+   },
+   {
+    "title": "breath vs breathe",
+    "words": [
+     "breath",
+     "breathe"
+    ],
+    "explanation_ar": "breath اسم (نَفَس) وتُنطق /breθ/. breathe فعل (يتنفس) وتُنطق /briːð/.",
+    "explanation_en": "\"Breath\" is a noun, said /breθ/. \"Breathe\" is a verb, said /briːð/.",
+    "examples": [
+     {
+      "word": "breath",
+      "sentence": "Take a deep breath."
+     },
+     {
+      "word": "breathe",
+      "sentence": "I can't breathe in this small place."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "It is no secret that …",
+    "meaning_ar": "ليس سرًا أن…",
+    "meaning_en": "everybody knows that …",
+    "example": "It is no secret that she loves chocolate."
+   },
+   {
+    "phrase": "reporting for duty",
+    "meaning_ar": "أبلّغ عن حضوري للعمل",
+    "meaning_en": "I am here and ready to work",
+    "example": "Agent Flamingo, reporting for duty!"
+   },
+   {
+    "phrase": "You've got it.",
+    "meaning_ar": "حاضر، فهمت.",
+    "meaning_en": "OK, I will do it",
+    "example": "\"Bring the report by noon.\" \"You've got it.\""
+   },
+   {
+    "phrase": "The mission is safe with me.",
+    "meaning_ar": "المهمة في أمان معي.",
+    "meaning_en": "you can trust me with this job",
+    "example": "Don't worry. Your secret is safe with me."
+   },
+   {
+    "phrase": "Just be back by noon.",
+    "meaning_ar": "فقط عُد قبل الظهر.",
+    "meaning_en": "return before 12 o'clock",
+    "example": "You can go out, but be back by six."
+   },
+   {
+    "phrase": "I'm afraid of dark, small places.",
+    "meaning_ar": "أخاف من الأماكن المظلمة الضيقة.",
+    "meaning_en": "dark, small places make me feel fear",
+    "example": "I'm afraid of high places."
+   },
+   {
+    "phrase": "I'm having a little trouble breathing.",
+    "meaning_ar": "أجد صعوبة قليلة في التنفس.",
+    "meaning_en": "it is a little hard for me to breathe",
+    "example": "I'm having trouble sleeping."
+   },
+   {
+    "phrase": "Think of the team!",
+    "meaning_ar": "فكّر في الفريق!",
+    "meaning_en": "remember the people who need you",
+    "example": "Keep going. Think of the team!"
+   },
+   {
+    "phrase": "Got it!",
+    "meaning_ar": "فهمت!",
+    "meaning_en": "I understand",
+    "example": "\"Turn left at the bank.\" \"Got it!\""
+   },
+   {
+    "phrase": "You're breaking up.",
+    "meaning_ar": "صوتك يتقطع.",
+    "meaning_en": "I can't hear you well on the phone",
+    "example": "Hello? You're breaking up. I'll call you back."
+   },
+   {
+    "phrase": "Mission completed.",
+    "meaning_ar": "تمت المهمة.",
+    "meaning_en": "the job is finished",
+    "example": "I bought all the food. Mission completed!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Present perfect vs past simple",
+    "explanation_ar": "• المضارع التام (have/has + p.p.) للتجربة في الحياة أو لنتيجة مهمة الآن، بدون وقت محدد: I have never snuck down an air duct. Have you ever cracked a code? I've cracked the code!\n• الماضي البسيط لحدث انتهى في وقت معروف أو في قصة: I did it! I sneaked down an air duct. That was a little uncomfortable.\nقاعدة سهلة: إذا ذكرت متى (yesterday, at 10, last week) استخدم الماضي البسيط.",
+    "explanation_en": "• Present perfect (have/has + past participle) for life experience or a result that matters now, with no specific time: I have never snuck down an air duct. Have you ever cracked a code? I've cracked the code!\n• Past simple for a finished action at a known time or in a story: I did it! I sneaked down an air duct. That was a little uncomfortable.\nEasy rule: if you say when (yesterday, at 10, last week), use the past simple.",
+    "examples": [
+     "I have never snuck down an air duct.",
+     "Have you ever cracked a code?",
+     "I've cracked the code!",
+     "I did it! I sneaked down an air duct.",
+     "You brought my lunch!"
+    ]
+   },
+   {
+    "title": "have to: necessity",
+    "explanation_ar": "have to / has to + الفعل الأساسي = يجب، لابد (ضرورة). Spies have to be in good shape. مع he/she/it نقول has to. السؤال: Do spies have to …? النفي: You don't have to …",
+    "explanation_en": "have to / has to + base verb = it is necessary. Spies have to be in good shape. Use \"has to\" with he/she/it. Question: Do spies have to …? Negative: You don't have to … (= it is not necessary).",
+    "examples": [
+     "Spies have to be in really good shape.",
+     "She has to be back by noon.",
+     "Do spies have to be in good shape?",
+     "You don't have to come early."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I have never cracked a code before.",
+    "I never have crack a code before.",
+    "I have never crack a code before.",
+    "I has never cracked a code before."
+   ],
+   "answer": 0,
+   "explanation_ar": "have + never + التصريف الثالث: I have never cracked.",
+   "explanation_en": "have + never + past participle: I have never cracked."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I have sneaked down an air duct yesterday.",
+    "I sneaked down an air duct yesterday.",
+    "I have sneak down an air duct yesterday.",
+    "I sneaking down an air duct yesterday."
+   ],
+   "answer": 1,
+   "explanation_ar": "مع yesterday نستخدم الماضي البسيط.",
+   "explanation_en": "With \"yesterday\" we use the past simple."
+  },
+  {
+   "question": "What does \"crack a code\" mean?",
+   "choices": [
+    "break a phone",
+    "write a letter",
+    "find the meaning of a secret message",
+    "walk quietly"
+   ],
+   "answer": 2,
+   "explanation_ar": "crack a code = فك الشفرة.",
+   "explanation_en": "To crack a code is to find the meaning of a secret message."
+  },
+  {
+   "question": "\"Spies ___ be in good shape.\"",
+   "choices": [
+    "has to",
+    "having to",
+    "to have",
+    "have to"
+   ],
+   "answer": 3,
+   "explanation_ar": "مع الجمع spies نقول have to + الفعل الأساسي.",
+   "explanation_en": "With the plural \"spies\" use \"have to\" + base verb."
+  },
+  {
+   "question": "On the phone you can't hear your friend well. You say:",
+   "choices": [
+    "You're breaking up.",
+    "You're breaking down.",
+    "You're taking off.",
+    "You're picking up."
+   ],
+   "answer": 0,
+   "explanation_ar": "You're breaking up = صوتك يتقطع.",
+   "explanation_en": "\"You're breaking up\" means I can't hear you well."
+  },
+  {
+   "question": "To go somewhere quietly so nobody sees you is to …",
+   "choices": [
+    "breathe",
+    "sneak",
+    "report",
+    "collect"
+   ],
+   "answer": 1,
+   "explanation_ar": "sneak = يتسلل.",
+   "explanation_en": "\"Sneak\" means to go quietly so nobody sees you."
+  },
+  {
+   "question": "Which word is a verb?",
+   "choices": [
+    "breath",
+    "darkness",
+    "breathe",
+    "trouble"
+   ],
+   "answer": 2,
+   "explanation_ar": "breathe فعل، أما breath فاسم.",
+   "explanation_en": "\"Breathe\" is a verb; \"breath\" is a noun."
+  },
+  {
+   "question": "She is afraid ___ dark, small places.",
+   "choices": [
+    "from",
+    "at",
+    "with",
+    "of"
+   ],
+   "answer": 3,
+   "explanation_ar": "نقول afraid of.",
+   "explanation_en": "We say \"afraid of\"."
+  },
+  {
+   "question": "\"Have you ever cracked a code?\" — \"No, I ___.\"",
+   "choices": [
+    "haven't",
+    "didn't",
+    "don't",
+    "wasn't"
+   ],
+   "answer": 0,
+   "explanation_ar": "الإجابة القصيرة: No, I haven't.",
+   "explanation_en": "The short answer is \"No, I haven't.\""
+  },
+  {
+   "question": "H.Q. is short for …",
+   "choices": [
+    "high quality",
+    "headquarters",
+    "home quiet",
+    "head question"
+   ],
+   "answer": 1,
+   "explanation_ar": "H.Q. اختصار headquarters أي المقر الرئيسي.",
+   "explanation_en": "H.Q. means headquarters, the main office."
+  }
+ ]
+}

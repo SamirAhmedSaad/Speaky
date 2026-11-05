@@ -1,0 +1,259 @@
+{
+  "title": "Where's my dog?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "where",
+        "pos": "adverb",
+        "meaning_en": "word we use to ask about a place",
+        "meaning_ar": "أين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where's my dog?"
+      },
+      {
+        "word": "dog",
+        "pos": "noun",
+        "meaning_en": "an animal that people keep; it barks",
+        "meaning_ar": "كلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where's my dog?"
+      },
+      {
+        "word": "under",
+        "pos": "preposition",
+        "meaning_en": "below something",
+        "meaning_ar": "تحت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's under the table."
+      },
+      {
+        "word": "in",
+        "pos": "preposition",
+        "meaning_en": "inside something",
+        "meaning_ar": "في / داخل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The cat is in the box."
+      },
+      {
+        "word": "on",
+        "pos": "preposition",
+        "meaning_en": "on top of something",
+        "meaning_ar": "على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The book is on the table."
+      },
+      {
+        "word": "table",
+        "pos": "noun",
+        "meaning_en": "a piece of furniture with legs and a flat top",
+        "meaning_ar": "طاولة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The dog is under the table."
+      },
+      {
+        "word": "mom",
+        "pos": "noun",
+        "meaning_en": "mother",
+        "meaning_ar": "أمّي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mom, where's my dog?"
+      },
+      {
+        "word": "yes",
+        "pos": "adverb",
+        "meaning_en": "a word to say something is true",
+        "meaning_ar": "نعم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Oh, yes! It's a dog."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "in, on, under",
+        "words": [
+          "in",
+          "on",
+          "under"
+        ],
+        "explanation_ar": "in = داخل الشيء، on = فوق الشيء ملامسًا له، under = تحت الشيء.",
+        "explanation_en": "in = inside. on = on top of. under = below.",
+        "examples": [
+          {
+            "word": "in",
+            "sentence": "The ball is in the box."
+          },
+          {
+            "word": "on",
+            "sentence": "The cup is on the table."
+          },
+          {
+            "word": "under",
+            "sentence": "The dog is under the table."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Where's my dog?",
+        "meaning_ar": "أين كلبي؟",
+        "meaning_en": "Asking about the place of your dog.",
+        "example": "Mom, where's my dog?"
+      },
+      {
+        "phrase": "It's under the table.",
+        "meaning_ar": "إنه تحت الطاولة.",
+        "meaning_en": "Saying the place.",
+        "example": "Where's my cat? - It's under the table."
+      },
+      {
+        "phrase": "Oh, yes!",
+        "meaning_ar": "آه، نعم!",
+        "meaning_en": "Said when you see or understand something.",
+        "example": "Oh, yes! There it is."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Where's ...? - It's in / on / under the ...",
+        "explanation_ar": "Where's = Where is. نسأل عن المكان بـ Where's + الشيء؟ ونجيب It's + حرف جر + the + المكان.",
+        "explanation_en": "Where's = Where is. Answer: It's + in / on / under + the + place.",
+        "examples": [
+          "Where's my dog? - It's under the table.",
+          "Where's my book? - It's on the table.",
+          "Where's the ball? - It's in the box."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where's my dog? - ___",
+      "choices": [
+        "It's under the table.",
+        "It's a dog.",
+        "It's my grandpa.",
+        "I'm seven."
+      ],
+      "answer": 0,
+      "explanation_ar": "Where سؤال عن المكان.",
+      "explanation_en": "\"Where\" asks about a place."
+    },
+    {
+      "question": "\"Where's\" means ___.",
+      "choices": [
+        "Where are",
+        "Where is",
+        "Who is",
+        "What is"
+      ],
+      "answer": 1,
+      "explanation_ar": "اختصار: Where's = Where is.",
+      "explanation_en": "Where's = Where is."
+    },
+    {
+      "question": "The ball is inside the box. The ball is ___ the box.",
+      "choices": [
+        "on",
+        "under",
+        "in",
+        "at"
+      ],
+      "answer": 2,
+      "explanation_ar": "داخل الشيء = in.",
+      "explanation_en": "Inside = in."
+    },
+    {
+      "question": "The cup is on top of the table. The cup is ___ the table.",
+      "choices": [
+        "on",
+        "in",
+        "under",
+        "where"
+      ],
+      "answer": 0,
+      "explanation_ar": "فوق الشيء = on.",
+      "explanation_en": "On top = on."
+    },
+    {
+      "question": "The cat is below the chair. The cat is ___ the chair.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "under"
+      ],
+      "answer": 3,
+      "explanation_ar": "تحت = under.",
+      "explanation_en": "Below = under."
+    },
+    {
+      "question": "___ is my bag? - It's on the table.",
+      "choices": [
+        "Who",
+        "What",
+        "Where",
+        "How old"
+      ],
+      "answer": 2,
+      "explanation_ar": "نسأل عن المكان بـ Where.",
+      "explanation_en": "Use \"Where\" for places."
+    },
+    {
+      "question": "\"table\" in Arabic is ___.",
+      "choices": [
+        "كرسي",
+        "طاولة",
+        "سرير",
+        "باب"
+      ],
+      "answer": 1,
+      "explanation_ar": "table = طاولة.",
+      "explanation_en": "A table has legs and a flat top."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "It under the table.",
+        "It's under the table.",
+        "It's the under table.",
+        "Under it's the table."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح It's under the table.",
+      "explanation_en": "Correct: It's under the table."
+    },
+    {
+      "question": "\"under\" means ___.",
+      "choices": [
+        "تحت",
+        "فوق",
+        "داخل",
+        "بجانب"
+      ],
+      "answer": 0,
+      "explanation_ar": "under = تحت.",
+      "explanation_en": "under = below."
+    },
+    {
+      "question": "Mom, ___ my dog?",
+      "choices": [
+        "what's",
+        "who's",
+        "where's",
+        "how's old"
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال عن المكان Where's my dog?",
+      "explanation_en": "\"Where's my dog?\" asks about a place."
+    }
+  ]
+}

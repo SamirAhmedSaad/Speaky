@@ -1,0 +1,53 @@
+{
+  "title": "Colour Expressions for Emotions",
+  "content": {
+    "vocabulary": [
+      {"word": "mood", "pos": "noun", "meaning_en": "the way you feel at a particular time", "meaning_ar": "المزاج", "note_ar": "", "note_en": "", "example": "She's in a good mood today."},
+      {"word": "behaviour", "pos": "noun", "meaning_en": "the way you act", "meaning_ar": "السلوك", "note_ar": "US: behavior", "note_en": "US: behavior.", "example": "His behaviour at work was excellent."},
+      {"word": "white (as a sheet)", "pos": "adjective", "meaning_en": "very pale because you are scared", "meaning_ar": "شاحب من الخوف", "note_ar": "", "note_en": "", "example": "He went as white as a sheet when he heard the noise."},
+      {"word": "yellow-bellied / a yellow belly", "pos": "adjective / noun", "meaning_en": "a coward; always afraid", "meaning_ar": "جبان", "note_ar": "", "note_en": "", "example": "Don't be a yellow belly; help your friend!"},
+      {"word": "coward", "pos": "noun", "meaning_en": "a person who is not brave", "meaning_ar": "جبان", "note_ar": "", "note_en": "", "example": "Only a coward runs away from a friend in trouble."},
+      {"word": "red in the face", "pos": "phrase", "meaning_en": "very angry", "meaning_ar": "محمرّ الوجه من الغضب", "note_ar": "", "note_en": "", "example": "The manager was red in the face with anger."},
+      {"word": "turn red", "pos": "phrase", "meaning_en": "become embarrassed", "meaning_ar": "يحمرّ خجلًا", "note_ar": "", "note_en": "", "example": "She turned red when everyone looked at her."},
+      {"word": "embarrassed", "pos": "adjective", "meaning_en": "feeling shy or ashamed in front of others", "meaning_ar": "محرَج", "note_ar": "", "note_en": "", "example": "I was embarrassed when I fell on the stairs."},
+      {"word": "tickled pink", "pos": "phrase", "meaning_en": "very happy and pleased", "meaning_ar": "مسرور جدًا", "note_ar": "tickle = يدغدغ", "note_en": "tickle = make someone laugh by touching them", "example": "Peter was tickled pink about his promotion."},
+      {"word": "in the pink (of health)", "pos": "phrase", "meaning_en": "very healthy", "meaning_ar": "في صحة ممتازة", "note_ar": "", "note_en": "", "example": "Grandpa is 80 and still in the pink."},
+      {"word": "green with envy", "pos": "phrase", "meaning_en": "wanting what someone else has", "meaning_ar": "يتآكله الحسد", "note_ar": "", "note_en": "", "example": "Greg was green with envy when he saw Josh's new car."},
+      {"word": "envy", "pos": "noun / verb", "meaning_en": "wanting something similar to what another person has", "meaning_ar": "غِبطة / حسد (أن تريد مثله)", "note_ar": "", "note_en": "", "example": "I envy your free time."},
+      {"word": "jealous", "pos": "adjective", "meaning_en": "wanting the exact thing that another person has", "meaning_ar": "غيور / حاسد (يريد الشيء نفسه)", "note_ar": "الاسم: jealousy", "note_en": "Noun: jealousy.", "example": "He was jealous of his brother's success."},
+      {"word": "green-eyed monster", "pos": "phrase", "meaning_en": "jealousy (described as a monster)", "meaning_ar": "الغيرة / الحسد", "note_ar": "", "note_en": "", "example": "Don't let the green-eyed monster control you."},
+      {"word": "feel blue", "pos": "phrase", "meaning_en": "feel sad", "meaning_ar": "يشعر بالحزن", "note_ar": "", "note_en": "", "example": "I'm feeling a bit blue today."},
+      {"word": "talk until you're blue in the face", "pos": "phrase", "meaning_en": "talk for a long time with no result", "meaning_ar": "يتكلّم حتى ينقطع نفَسه دون فائدة", "note_ar": "", "note_en": "", "example": "You can talk until you're blue in the face; he won't change his mind."},
+      {"word": "green", "pos": "adjective", "meaning_en": "new and without experience", "meaning_ar": "قليل الخبرة / مبتدئ", "note_ar": "", "note_en": "", "example": "Mr. E is still green at his new job."},
+      {"word": "caught red-handed", "pos": "phrase", "meaning_en": "caught while doing something wrong", "meaning_ar": "ضُبط متلبّسًا", "note_ar": "", "note_en": "", "example": "The thief was caught red-handed."},
+      {"word": "alliteration", "pos": "noun", "meaning_en": "using the same first sound in several words, e.g. Peter, pink", "meaning_ar": "الجناس الاستهلالي (تكرار الحرف الأول)", "note_ar": "حيلة تساعد على الحفظ", "note_en": "A trick to help you remember.", "example": "\"Greg was green\" is alliteration."}
+    ],
+    "fine_lines": [
+      {"title": "red in the face vs turn red", "words": ["red in the face", "turn red"], "explanation_ar": "red in the face تعني غاضبًا جدًا. turn red تعني محرجًا وخجلًا.", "explanation_en": "Red in the face = very angry. Turn red = embarrassed.", "examples": [{"word": "red in the face", "sentence": "He shouted until he was red in the face."}, {"word": "turn red", "sentence": "She turned red when the teacher praised her."}]},
+      {"title": "red in the face vs blue in the face", "words": ["red in the face", "blue in the face"], "explanation_ar": "red in the face غضب. blue in the face تعب من كثرة الكلام دون نتيجة.", "explanation_en": "Red in the face = anger. Blue in the face = exhausted from talking with no result.", "examples": [{"word": "red in the face", "sentence": "Dad was red in the face when he saw the broken window."}, {"word": "blue in the face", "sentence": "I explained it until I was blue in the face."}]},
+      {"title": "envy vs jealousy", "words": ["envy", "jealous"], "explanation_ar": "envy أن تريد شيئًا مثل ما عند غيرك. jealous أن تريد الشيء نفسه الذي يملكه غيرك.", "explanation_en": "Envy: you want something like what another person has. Jealous: you want the exact thing they have.", "examples": [{"word": "envy", "sentence": "I envy your job; I want a good job too."}, {"word": "jealous", "sentence": "He's jealous; he wants your house, not one like it."}]},
+      {"title": "white as a sheet vs yellow belly", "words": ["white as a sheet", "yellow belly"], "explanation_ar": "white as a sheet: خائف الآن لأن شيئًا أخافه. yellow belly: جبان دائمًا.", "explanation_en": "White as a sheet: scared now because something frightened you. Yellow belly: always a coward.", "examples": [{"word": "white as a sheet", "sentence": "She went white as a sheet after the accident."}, {"word": "yellow belly", "sentence": "He never helps in a fight; he's a yellow belly."}]}
+    ],
+    "expressions": [
+      {"phrase": "as white as a sheet", "meaning_ar": "شاحب كالشرشف (من الخوف)", "meaning_en": "very pale with fear", "example": "Will turned as white as a sheet when he heard the gunshot."},
+      {"phrase": "tickled pink", "meaning_ar": "في غاية السرور", "meaning_en": "very happy", "example": "I'm tickled pink to meet you."},
+      {"phrase": "green with envy", "meaning_ar": "يتآكله الحسد", "meaning_en": "wanting what others have", "example": "My friends were green with envy when they saw my new phone."},
+      {"phrase": "feeling blue", "meaning_ar": "حزين", "meaning_en": "sad", "example": "You look a little blue. What's wrong?"},
+      {"phrase": "blue in the face", "meaning_ar": "منهك من الكلام دون جدوى", "meaning_en": "tired from talking with no effect", "example": "Bobby talked until he was blue in the face, but she said no."},
+      {"phrase": "caught red-handed", "meaning_ar": "ضُبط متلبّسًا", "meaning_en": "caught while doing something wrong", "example": "He was caught red-handed taking money from the till."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"Peter was tickled ___ at the promotion.\"", "choices": ["pink", "white", "green", "blue"], "answer": 0, "explanation_ar": "tickled pink = مسرور جدًا.", "explanation_en": "Tickled pink = very happy."},
+    {"question": "\"Will turned ___ as a sheet when he heard the gunshot.\"", "choices": ["red", "white", "green", "pink"], "answer": 1, "explanation_ar": "white as a sheet = شاحب من الخوف.", "explanation_en": "White as a sheet = pale with fear."},
+    {"question": "\"Greg was ___ with envy when he saw Josh's new car.\"", "choices": ["blue", "pink", "green", "yellow"], "answer": 2, "explanation_ar": "green with envy = يتآكله الحسد.", "explanation_en": "Green with envy."},
+    {"question": "\"Bobby talked until he was ___ in the face, but she didn't change her mind.\"", "choices": ["pink", "white", "green", "blue"], "answer": 3, "explanation_ar": "blue in the face = منهك من الكلام بلا نتيجة.", "explanation_en": "Blue in the face = exhausted from talking."},
+    {"question": "\"Rose turned ___ with embarrassment.\"", "choices": ["red", "green", "blue", "yellow"], "answer": 0, "explanation_ar": "turn red = يحمرّ خجلًا.", "explanation_en": "Turn red = embarrassed."},
+    {"question": "\"Mr. E is still ___ at his job.\" (new, no experience)", "choices": ["blue", "green", "pink", "white"], "answer": 1, "explanation_ar": "green = مبتدئ قليل الخبرة.", "explanation_en": "Green = new, inexperienced."},
+    {"question": "The thief was caught ___ while taking the money.", "choices": ["green-eyed", "tickled pink", "red-handed", "blue in the face"], "answer": 2, "explanation_ar": "caught red-handed = ضُبط متلبّسًا.", "explanation_en": "Caught red-handed = caught in the act."},
+    {"question": "\"I'm feeling a bit ___ today.\" (sad)", "choices": ["pink", "green", "red", "blue"], "answer": 3, "explanation_ar": "feel blue = يشعر بالحزن.", "explanation_en": "Feel blue = feel sad."},
+    {"question": "A person who is always too afraid to help is a ___.", "choices": ["yellow belly", "green-eyed monster", "red face", "pink one"], "answer": 0, "explanation_ar": "yellow belly = جبان.", "explanation_en": "Yellow belly = coward."},
+    {"question": "\"Red in the face\" usually means:", "choices": ["happy", "angry", "sad", "healthy"], "answer": 1, "explanation_ar": "red in the face = غاضب جدًا.", "explanation_en": "Red in the face = angry."}
+  ]
+}

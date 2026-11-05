@@ -1,0 +1,432 @@
+{
+  "title": "Writing an Email",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "email",
+        "pos": "noun / verb",
+        "meaning_en": "a message sent by computer; to send such a message",
+        "meaning_ar": "بريد إلكتروني؛ يراسل بالبريد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll email you the details today."
+      },
+      {
+        "word": "regarding",
+        "pos": "preposition",
+        "meaning_en": "about (formal)",
+        "meaning_ar": "بخصوص / فيما يتعلق بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am writing regarding your order."
+      },
+      {
+        "word": "confirm",
+        "pos": "verb",
+        "meaning_en": "to say that something is definitely true",
+        "meaning_ar": "يؤكّد",
+        "note_ar": "الاسم: confirmation",
+        "note_en": "Noun: confirmation.",
+        "example": "Please could you confirm the date of the meeting?"
+      },
+      {
+        "word": "request",
+        "pos": "noun",
+        "meaning_en": "the act of asking for something politely",
+        "meaning_ar": "طلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your request for more information."
+      },
+      {
+        "word": "supply",
+        "pos": "verb",
+        "meaning_en": "to provide goods that someone needs",
+        "meaning_ar": "يورّد / يزوّد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We will be able to supply the boxes."
+      },
+      {
+        "word": "copy in",
+        "pos": "phrasal verb",
+        "meaning_en": "to add someone to an email so they get it too (CC)",
+        "meaning_ar": "يضيف في النسخة (CC)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You copied me in on that email."
+      },
+      {
+        "word": "re-send",
+        "pos": "verb",
+        "meaning_en": "to send again",
+        "meaning_ar": "يعيد الإرسال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please re-send the message with the file."
+      },
+      {
+        "word": "rewrite",
+        "pos": "verb",
+        "meaning_en": "to write again in a better way",
+        "meaning_ar": "يعيد الكتابة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll rewrite my message before I send it."
+      },
+      {
+        "word": "read through",
+        "pos": "phrasal verb",
+        "meaning_en": "to read something carefully from start to end",
+        "meaning_ar": "يقرأ بعناية من البداية للنهاية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you read this through before I send it?"
+      },
+      {
+        "word": "text message (SMS)",
+        "pos": "noun",
+        "meaning_en": "a short written message sent by phone",
+        "meaning_ar": "رسالة نصية قصيرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Short forms are OK in a text message to a friend."
+      },
+      {
+        "word": "text-speak",
+        "pos": "noun",
+        "meaning_en": "short forms like \"pls\" and \"u\" used in text messages",
+        "meaning_ar": "لغة الرسائل المختصرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't use text-speak in a business email."
+      },
+      {
+        "word": "style",
+        "pos": "noun",
+        "meaning_en": "the way something is written or done",
+        "meaning_ar": "أسلوب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That is the wrong style for an email to a client."
+      },
+      {
+        "word": "business-related",
+        "pos": "adjective",
+        "meaning_en": "connected with work and business",
+        "meaning_ar": "متعلق بالعمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is a business-related email."
+      },
+      {
+        "word": "make sense",
+        "pos": "phrase",
+        "meaning_en": "to be clear and easy to understand",
+        "meaning_ar": "يكون مفهومًا / منطقيًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Use real words that make sense."
+      },
+      {
+        "word": "professional",
+        "pos": "adjective",
+        "meaning_en": "suitable for work; serious and correct",
+        "meaning_ar": "مهني / احترافي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's important to stay professional with clients."
+      },
+      {
+        "word": "keyboard",
+        "pos": "noun",
+        "meaning_en": "the keys you type on",
+        "meaning_ar": "لوحة المفاتيح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Someone sat on my keyboard by mistake!"
+      },
+      {
+        "word": "by mistake",
+        "pos": "phrase",
+        "meaning_en": "without meaning to",
+        "meaning_ar": "بالخطأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I sent the email to the wrong person by mistake."
+      },
+      {
+        "word": "indeed",
+        "pos": "adverb",
+        "meaning_en": "really; certainly (formal)",
+        "meaning_ar": "بالفعل / حقًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We will indeed be able to help."
+      },
+      {
+        "word": "Yours sincerely",
+        "pos": "phrase",
+        "meaning_en": "a formal way to end a letter or email",
+        "meaning_ar": "المخلص (ختام رسمي)",
+        "note_ar": "يُستخدم عادة عندما تعرف اسم المستلِم",
+        "note_en": "Used when you know the person's name.",
+        "example": "Yours sincerely, Anna Smith"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "about vs regarding",
+        "words": [
+          "about",
+          "regarding"
+        ],
+        "explanation_ar": "كلاهما بمعنى \"بخصوص\"، لكن regarding أكثر رسمية وتناسب بريد العمل.",
+        "explanation_en": "Both mean \"on the subject of\", but \"regarding\" is more formal and good for work emails.",
+        "examples": [
+          {
+            "word": "about",
+            "sentence": "I'm writing to you about the party."
+          },
+          {
+            "word": "regarding",
+            "sentence": "I am writing regarding your invoice."
+          }
+        ]
+      },
+      {
+        "title": "Best wishes vs Yours sincerely",
+        "words": [
+          "Best wishes",
+          "Yours sincerely"
+        ],
+        "explanation_ar": "Best wishes ختام ودود ونصف رسمي، و Yours sincerely ختام رسمي جدًا.",
+        "explanation_en": "\"Best wishes\" is a friendly, semi-formal ending. \"Yours sincerely\" is very formal.",
+        "examples": [
+          {
+            "word": "Best wishes",
+            "sentence": "See you on Monday. Best wishes, Sara"
+          },
+          {
+            "word": "Yours sincerely",
+            "sentence": "I look forward to your reply. Yours sincerely, Sara Ali"
+          }
+        ]
+      },
+      {
+        "title": "Text-speak vs full words",
+        "words": [
+          "pls",
+          "please"
+        ],
+        "explanation_ar": "في بريد العمل اكتب الكلمات كاملة: please وليس pls، و you وليس u.",
+        "explanation_en": "In a work email write full words: \"please\" not \"pls\", \"you\" not \"u\".",
+        "examples": [
+          {
+            "word": "pls",
+            "sentence": "pls cfirm (wrong in a business email)"
+          },
+          {
+            "word": "please",
+            "sentence": "Please could you confirm?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Dear Mr Lime,",
+        "meaning_ar": "عزيزي السيد لايم،",
+        "meaning_en": "a formal way to start an email",
+        "example": "Dear Ms Brown,"
+      },
+      {
+        "phrase": "I hope you are well.",
+        "meaning_ar": "أرجو أن تكون بخير.",
+        "meaning_en": "a polite opening line",
+        "example": "Dear Mr Ali, I hope you are well."
+      },
+      {
+        "phrase": "I am writing regarding...",
+        "meaning_ar": "أكتب إليك بخصوص...",
+        "meaning_en": "used to give the reason for the email",
+        "example": "I am writing regarding our meeting next week."
+      },
+      {
+        "phrase": "Please could you confirm...?",
+        "meaning_ar": "هل يمكنك من فضلك تأكيد...؟",
+        "meaning_en": "a polite request to check something",
+        "example": "Please could you confirm the number of guests?"
+      },
+      {
+        "phrase": "Best wishes,",
+        "meaning_ar": "مع أطيب التمنيات،",
+        "meaning_en": "a friendly way to end an email",
+        "example": "Thank you for your help. Best wishes, Omar"
+      },
+      {
+        "phrase": "Yours sincerely,",
+        "meaning_ar": "المخلص،",
+        "meaning_en": "a formal way to end an email",
+        "example": "Yours sincerely, Layla Hassan"
+      },
+      {
+        "phrase": "Could you read this through before I send it?",
+        "meaning_ar": "هل يمكنك مراجعة هذا قبل أن أرسله؟",
+        "meaning_en": "asking a colleague to check your writing",
+        "example": "Could you read this through before I send it to the client?"
+      },
+      {
+        "phrase": "We will indeed be able to supply them.",
+        "meaning_ar": "سنتمكن بالفعل من توريدها.",
+        "meaning_en": "a formal way to say yes, we can provide them",
+        "example": "We will indeed be able to supply the chairs by Friday."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Formal email structure",
+        "explanation_ar": "البريد الرسمي له ترتيب: (1) التحية: Dear + اللقب + اسم العائلة. (2) جملة لطيفة: I hope you are well. (3) السبب: I am writing regarding... (4) الطلب: Please could you confirm... (5) الختام: Best wishes / Yours sincerely + اسمك. لا تستخدم الاختصارات.",
+        "explanation_en": "A formal email has an order: (1) greeting: Dear + title + surname. (2) friendly line: I hope you are well. (3) reason: I am writing regarding... (4) request: Please could you confirm... (5) ending: Best wishes / Yours sincerely + your name. Do not use short forms.",
+        "examples": [
+          "Dear Mrs Khan,",
+          "I am writing regarding the delivery of your order.",
+          "Please could you confirm the address?",
+          "Best wishes, Anna"
+        ]
+      },
+      {
+        "title": "Please could you + base verb",
+        "explanation_ar": "Please could you + فعل أساسي صيغة مهذبة شائعة في الإنجليزية البريطانية لطلب شيء في بريد العمل.",
+        "explanation_en": "\"Please could you + base verb\" is a common polite British form for requests in work emails.",
+        "examples": [
+          "Please could you send me the report?",
+          "Please could you confirm that you want 300?",
+          "Please could you call me tomorrow?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which is the best way to start a formal email?",
+      "choices": [
+        "Hey Lime!",
+        "Dear Mr Lime,",
+        "Yo Mr Lime",
+        "Hi u"
+      ],
+      "answer": 1,
+      "explanation_ar": "Dear + اللقب + الاسم هي البداية الرسمية.",
+      "explanation_en": "\"Dear + title + name\" is the formal start."
+    },
+    {
+      "question": "Complete: I am writing ___ your request for boxes.",
+      "choices": [
+        "regard",
+        "regards",
+        "regarded",
+        "regarding"
+      ],
+      "answer": 3,
+      "explanation_ar": "الصيغة الصحيحة regarding بمعنى بخصوص.",
+      "explanation_en": "\"Regarding\" means about."
+    },
+    {
+      "question": "Which sentence is correct for a business email?",
+      "choices": [
+        "pls c-d-u cfirm",
+        "plz confirm thx",
+        "Please could you confirm?",
+        "u confirm ok?"
+      ],
+      "answer": 2,
+      "explanation_ar": "اكتب كلمات كاملة في بريد العمل.",
+      "explanation_en": "Use full words in a work email."
+    },
+    {
+      "question": "\"Regarding\" means...",
+      "choices": [
+        "about",
+        "after",
+        "without",
+        "before"
+      ],
+      "answer": 0,
+      "explanation_ar": "regarding = about بشكل رسمي.",
+      "explanation_en": "\"Regarding\" is a formal word for \"about\"."
+    },
+    {
+      "question": "Which is a friendly way to END an email?",
+      "choices": [
+        "Dear Sir,",
+        "I am writing regarding...",
+        "Best wishes,",
+        "I hope you are well."
+      ],
+      "answer": 2,
+      "explanation_ar": "Best wishes عبارة ختام.",
+      "explanation_en": "\"Best wishes\" is an ending."
+    },
+    {
+      "question": "Complete: Dear Mr Lime, I hope you ___ well.",
+      "choices": [
+        "is",
+        "are",
+        "be",
+        "am"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع you نستخدم are.",
+      "explanation_en": "With \"you\" we use \"are\"."
+    },
+    {
+      "question": "\"Could you read this through?\" means...",
+      "choices": [
+        "Could you check it carefully?",
+        "Could you delete it?",
+        "Could you print it?",
+        "Could you send it?"
+      ],
+      "answer": 0,
+      "explanation_ar": "read through = يقرأ بعناية.",
+      "explanation_en": "\"Read through\" means read it carefully."
+    },
+    {
+      "question": "What is \"text-speak\"?",
+      "choices": [
+        "formal business words",
+        "a phone call",
+        "a spoken presentation",
+        "short forms like \"pls\" and \"u\""
+      ],
+      "answer": 3,
+      "explanation_ar": "text-speak هي الاختصارات المستخدمة في الرسائل النصية.",
+      "explanation_en": "Text-speak is short forms used in phone messages."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Please could you to confirm the date?",
+        "Please could you confirming the date?",
+        "Please could you confirmed the date?",
+        "Please could you confirm the date?"
+      ],
+      "answer": 3,
+      "explanation_ar": "بعد could you يأتي الفعل الأساسي.",
+      "explanation_en": "After \"could you\" use the base verb."
+    },
+    {
+      "question": "Which ending is the MOST formal?",
+      "choices": [
+        "Yours sincerely,",
+        "Bye!",
+        "Cheers,",
+        "See ya,"
+      ],
+      "answer": 0,
+      "explanation_ar": "Yours sincerely هي الأكثر رسمية.",
+      "explanation_en": "\"Yours sincerely\" is the most formal."
+    }
+  ]
+}

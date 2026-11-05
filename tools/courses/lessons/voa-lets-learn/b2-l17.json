@@ -1,0 +1,53 @@
+{
+  "title": "Flour Baby, Part 1",
+  "content": {
+    "vocabulary": [
+      {"word": "single parent", "pos": "noun", "meaning_en": "a mother or father who raises a child alone", "meaning_ar": "والد أو والدة يربّي الطفل وحده", "note_ar": "", "note_en": "", "example": "She is a single parent with two children."},
+      {"word": "raise", "pos": "verb", "meaning_en": "to take care of a child until it grows up", "meaning_ar": "يربّي", "note_ar": "", "note_en": "", "example": "My grandmother raised six children."},
+      {"word": "experience", "pos": "noun", "meaning_en": "something that happens to you; knowledge from doing things", "meaning_ar": "تجربة / خبرة", "note_ar": "وتأتي فعلًا: to experience = يجرّب / يعيش", "note_en": "Also a verb.", "example": "They can share their experiences."},
+      {"word": "parenthood", "pos": "noun", "meaning_en": "being a parent", "meaning_ar": "الأبوة والأمومة", "note_ar": "", "note_en": "", "example": "Parenthood is hard but beautiful."},
+      {"word": "flour", "pos": "noun", "meaning_en": "white powder made from wheat, used for bread and cakes", "meaning_ar": "دقيق / طحين", "note_ar": "تُنطق مثل flower (زهرة)", "note_en": "Sounds the same as flower.", "example": "We need flour to make bread."},
+      {"word": "instructions", "pos": "noun", "meaning_en": "information that tells you what to do", "meaning_ar": "تعليمات", "note_ar": "", "note_en": "", "example": "Read the instructions first."},
+      {"word": "take care of", "pos": "phrase", "meaning_en": "to look after; to keep safe and well", "meaning_ar": "يعتني بـ", "note_ar": "", "note_en": "", "example": "A baby cannot take care of itself."},
+      {"word": "by yourself", "pos": "phrase", "meaning_en": "alone; without help", "meaning_ar": "بنفسك / وحدك", "note_ar": "الجمع by yourselves", "note_en": "Plural: by yourselves.", "example": "You must do everything by yourselves."},
+      {"word": "research", "pos": "noun", "meaning_en": "careful study to find information", "meaning_ar": "بحث", "note_ar": "اسم غير معدود", "note_en": "Uncountable.", "example": "The best research will win a prize."},
+      {"word": "extra", "pos": "adjective", "meaning_en": "more than usual", "meaning_ar": "إضافي", "note_ar": "", "note_en": "", "example": "You will get an extra day of vacation."},
+      {"word": "organic", "pos": "adjective", "meaning_en": "grown without chemicals", "meaning_ar": "عضوي", "note_ar": "", "note_en": "", "example": "I buy organic vegetables."},
+      {"word": "whole grain", "pos": "adjective", "meaning_en": "made with the whole seed of wheat or other grain", "meaning_ar": "من الحبوب الكاملة", "note_ar": "", "note_en": "", "example": "Whole grain bread is healthy."},
+      {"word": "ordinary", "pos": "adjective", "meaning_en": "normal; not special", "meaning_ar": "عادي", "note_ar": "", "note_en": "", "example": "It was an ordinary day."},
+      {"word": "monster", "pos": "noun", "meaning_en": "a scary creature; a very cruel person (often a joke)", "meaning_ar": "وحش", "note_ar": "", "note_en": "", "example": "The children drew a monster with three eyes."},
+      {"word": "terrible", "pos": "adjective", "meaning_en": "very bad", "meaning_ar": "فظيع / سيئ جدًا", "note_ar": "", "note_en": "", "example": "This is a terrible idea."},
+      {"word": "stroller", "pos": "noun", "meaning_en": "a small chair on wheels for pushing a baby", "meaning_ar": "عربة أطفال", "note_ar": "في بريطانيا: pushchair", "note_en": "UK: pushchair.", "example": "She pushed the baby in a stroller."},
+      {"word": "jog", "pos": "verb", "meaning_en": "to run slowly for exercise", "meaning_ar": "يهرول", "note_ar": "", "note_en": "", "example": "I jog in the park every morning."},
+      {"word": "episode", "pos": "noun", "meaning_en": "one part of a TV or video series", "meaning_ar": "حلقة", "note_ar": "", "note_en": "", "example": "We'll see Pete in the next episode."}
+    ],
+    "fine_lines": [
+      {"title": "me vs myself", "words": ["me", "myself"], "explanation_ar": "نستخدم myself عندما يكون الفاعل والمفعول به نفس الشخص: I asked myself. ونستخدم me عندما يكون المفعول به شخصًا آخر غير الفاعل: She asked me.", "explanation_en": "Use myself when the subject and object are the same person: I asked myself. Use me when someone else is the subject: She asked me.", "examples": [{"word": "myself", "sentence": "I asked myself the same question."}, {"word": "me", "sentence": "Ms. Weaver asked me a question."}]},
+      {"title": "-self vs -selves", "words": ["yourself", "yourselves"], "explanation_ar": "الضمائر المفردة تنتهي بـ self: myself, yourself, himself, herself, itself. والجمع ينتهي بـ selves: ourselves, yourselves, themselves.", "explanation_en": "Singular reflexive pronouns end in -self: myself, yourself, himself, herself, itself. Plural ones end in -selves: ourselves, yourselves, themselves.", "examples": [{"word": "yourself", "sentence": "Anna, help yourself to a cookie."}, {"word": "yourselves", "sentence": "Anna and Pete, you must do it by yourselves."}]},
+      {"title": "flour vs flower", "words": ["flour", "flower"], "explanation_ar": "الكلمتان تُنطقان بنفس الطريقة. flour = طحين، flower = زهرة.", "explanation_en": "They sound the same. Flour is for baking; a flower is a plant.", "examples": [{"word": "flour", "sentence": "Mix the flour and the eggs."}, {"word": "flower", "sentence": "She picked a red flower."}]}
+    ],
+    "expressions": [
+      {"phrase": "What is it like to...?", "meaning_ar": "كيف يكون الشعور / الحال عندما...؟", "meaning_en": "How does it feel to...?", "example": "What is it like to live in a big city?"},
+      {"phrase": "I asked myself the same question.", "meaning_ar": "سألت نفسي السؤال نفسه.", "meaning_en": "I had the same question.", "example": "Why is the shop closed? I asked myself the same question."},
+      {"phrase": "Help yourself.", "meaning_ar": "تفضّل وخذ بنفسك.", "meaning_en": "Please take some; you don't need to ask.", "example": "There's tea in the kitchen. Help yourself."},
+      {"phrase": "Speak for yourself!", "meaning_ar": "تكلّم عن نفسك! (أنا لا أوافق)", "meaning_en": "That's your opinion, not mine.", "example": "This film is boring. — Speak for yourself! I like it."},
+      {"phrase": "throw yourself into something", "meaning_ar": "ينغمس في شيء / يكرّس نفسه له", "meaning_en": "to start doing something with lots of energy", "example": "She threw herself into her new job."},
+      {"phrase": "Come to mama!", "meaning_ar": "تعال إلى ماما!", "meaning_en": "A playful way to call a baby or something you love.", "example": "Come to mama, little one!"}
+    ],
+    "grammar": [
+      {"title": "Reflexive pronouns", "explanation_ar": "الضمائر الانعكاسية تعود على الفاعل، ونستخدمها عندما يكون الفاعل والمفعول به نفس الشخص أو الشيء. الضمائر: I → myself، you → yourself، he → himself، she → herself، it → itself، we → ourselves، you (جمع) → yourselves، they → themselves. المفرد ينتهي بـ self والجمع بـ selves. ونستخدم by + الضمير الانعكاسي بمعنى «وحدك / بدون مساعدة»: by yourselves.", "explanation_en": "Reflexive pronouns refer back to the subject. Use them when the subject and object are the same: I → myself, you → yourself, he → himself, she → herself, it → itself, we → ourselves, you (plural) → yourselves, they → themselves. Singular ones end in -self, plural ones in -selves. By + reflexive pronoun means alone, without help.", "examples": ["I asked myself the same question.", "A baby cannot take care of itself.", "You two must do everything by yourselves.", "We need to throw ourselves into the research!"]}
+    ]
+  },
+  "questions": [
+    {"question": "She looked at ____ in the mirror.", "choices": ["her", "herself", "hers", "she"], "answer": 1, "explanation_ar": "الفاعل والمفعول نفس الشخص، فنستخدم herself.", "explanation_en": "Subject and object are the same: herself."},
+    {"question": "We need to throw ____ into the research.", "choices": ["ourself", "us", "ourselves", "we"], "answer": 2, "explanation_ar": "we جمع، فنستخدم ourselves.", "explanation_en": "We is plural: ourselves."},
+    {"question": "A baby cannot take care of ____.", "choices": ["itself", "its", "it", "themselves"], "answer": 0, "explanation_ar": "baby هنا يُشار إليه بـ it، فالانعكاسي itself.", "explanation_en": "The baby is 'it' here, so: itself."},
+    {"question": "Anna and Pete, you must do it by ____.", "choices": ["yourself", "you", "themselves", "yourselves"], "answer": 3, "explanation_ar": "الخطاب لشخصين، فنستخدم yourselves.", "explanation_en": "Speaking to two people: yourselves."},
+    {"question": "Which pronoun is plural?", "choices": ["himself", "myself", "themselves", "itself"], "answer": 2, "explanation_ar": "الجمع ينتهي بـ selves.", "explanation_en": "Plural reflexive pronouns end in -selves."},
+    {"question": "'Help yourself' means:", "choices": ["Please take some.", "Call for help.", "Do your homework.", "Help me, please."], "answer": 0, "explanation_ar": "تعني تفضّل وخذ بنفسك.", "explanation_en": "It means please take some."},
+    {"question": "White powder for making bread is ____.", "choices": ["flower", "flour", "grain", "milk"], "answer": 1, "explanation_ar": "flour = طحين.", "explanation_en": "Flour is used to make bread."},
+    {"question": "'Ordinary' means:", "choices": ["very special", "very expensive", "normal", "organic"], "answer": 2, "explanation_ar": "ordinary = عادي.", "explanation_en": "Ordinary means normal, not special."},
+    {"question": "Choose the correct sentence.", "choices": ["He hurt hisself.", "He hurt himself.", "He hurt him self.", "He hurt themself."], "answer": 1, "explanation_ar": "الصحيح himself.", "explanation_en": "The correct form is himself."},
+    {"question": "A chair on wheels for pushing a baby is a ____.", "choices": ["binder", "monster", "episode", "stroller"], "answer": 3, "explanation_ar": "stroller = عربة أطفال.", "explanation_en": "A stroller is for pushing a baby."}
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "title": "Auxiliary Verbs in Conversation",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "auxiliary verb",
+        "pos": "noun",
+        "meaning_en": "a helping verb (be, do, have, will) used with a main verb",
+        "meaning_ar": "فعل مساعد",
+        "note_ar": "تُنطق /ɔːɡˈzɪliəri/",
+        "note_en": "Pronounced /ɔːɡˈzɪliəri/.",
+        "example": "In \"I am eating\", am is an auxiliary verb."
+      },
+      {
+        "word": "helper verb",
+        "pos": "noun",
+        "meaning_en": "another name for an auxiliary verb",
+        "meaning_ar": "فعل مساعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Have\" is a helper verb in \"I have eaten\"."
+      },
+      {
+        "word": "short answer",
+        "pos": "noun",
+        "meaning_en": "an answer with only yes/no + subject + auxiliary",
+        "meaning_ar": "إجابة قصيرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Yes, I do\" is a short answer."
+      },
+      {
+        "word": "emphasis",
+        "pos": "noun",
+        "meaning_en": "special importance given to something",
+        "meaning_ar": "تأكيد / توكيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"I did call you!\" uses did for emphasis."
+      },
+      {
+        "word": "affirm",
+        "pos": "verb",
+        "meaning_en": "to say that something is true; to say yes",
+        "meaning_ar": "يُؤكِّد / يُثبِت",
+        "note_ar": "الاسم: affirmation",
+        "note_en": "Noun: affirmation.",
+        "example": "\"Yes, I have\" affirms that I ate."
+      },
+      {
+        "word": "feign",
+        "pos": "verb",
+        "meaning_en": "to pretend",
+        "meaning_ar": "يتظاهر بـ",
+        "note_ar": "حرف g صامت: /feɪn/",
+        "note_en": "The g is silent: /feɪn/.",
+        "example": "He feigned interest in the story."
+      },
+      {
+        "word": "polite interest",
+        "pos": "noun",
+        "meaning_en": "showing you care about what someone says, to be polite",
+        "meaning_ar": "اهتمام مهذَّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Oh, are they?\" shows polite interest."
+      },
+      {
+        "word": "matter of fact",
+        "pos": "adjective",
+        "meaning_en": "plain, without feeling",
+        "meaning_ar": "بنبرة عادية بلا مشاعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He answered in a matter-of-fact way."
+      },
+      {
+        "word": "valid",
+        "pos": "adjective",
+        "meaning_en": "correct and acceptable",
+        "meaning_ar": "صحيح / مقبول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Short answers are completely valid in English."
+      },
+      {
+        "word": "present continuous",
+        "pos": "noun",
+        "meaning_en": "the tense am/is/are + verb-ing for actions happening now",
+        "meaning_ar": "المضارع المستمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"I am going to the store\" is present continuous."
+      },
+      {
+        "word": "manners",
+        "pos": "noun",
+        "meaning_en": "polite ways of behaving",
+        "meaning_ar": "آداب / أخلاق التعامل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has very good manners."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "full answer vs short answer",
+        "words": [
+          "Yes, I do like ice cream.",
+          "Yes, I do."
+        ],
+        "explanation_ar": "المبتدئون يكرّرون الجملة كاملة للتدريب، لكن المتحدثين الأصليين يكتفون بـ yes/no + الفاعل + الفعل المساعد. لا نكرر بقية الجملة.",
+        "explanation_en": "Beginners repeat the whole sentence to practise, but native speakers just say yes/no + subject + auxiliary. We don't repeat the rest.",
+        "examples": [
+          {
+            "word": "Yes, I do like ice cream.",
+            "sentence": "Do you like ice cream? Yes, I do like ice cream. (correct but long)"
+          },
+          {
+            "word": "Yes, I do.",
+            "sentence": "Do you like ice cream? Yes, I do. (natural)"
+          }
+        ]
+      },
+      {
+        "title": "That's nice. vs Are they?",
+        "words": [
+          "That's nice.",
+          "Are they?"
+        ],
+        "explanation_ar": "That's nice جواب عادي بلا مشاعر. أما ردّ الفعل المساعد + الضمير (Are they? / Is he?) فيُظهر اهتمامًا ومفاجأة.",
+        "explanation_en": "\"That's nice\" is plain, matter of fact. Auxiliary + pronoun (Are they? / Is he?) shows interest and surprise.",
+        "examples": [
+          {
+            "word": "That's nice.",
+            "sentence": "Sam and Ali are moving to Dubai. That's nice."
+          },
+          {
+            "word": "Are they?",
+            "sentence": "Sam and Ali are moving to Dubai. Are they? Wow!"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Yes, I do.",
+        "meaning_ar": "نعم.",
+        "meaning_en": "Short answer to a Do...? question.",
+        "example": "Do you know the address? Yes, I do."
+      },
+      {
+        "phrase": "Yes, I have.",
+        "meaning_ar": "نعم، فعلت.",
+        "meaning_en": "Short answer to a Have you...? question.",
+        "example": "Have you had dinner? Yes, I have."
+      },
+      {
+        "phrase": "No, I haven't.",
+        "meaning_ar": "لا، لم أفعل.",
+        "meaning_en": "Negative short answer.",
+        "example": "Have you finished? No, I haven't."
+      },
+      {
+        "phrase": "Are they?",
+        "meaning_ar": "حقًا؟ (هل هم كذلك؟)",
+        "meaning_en": "Shows interest in news about people.",
+        "example": "My parents are visiting Japan. Are they? How exciting!"
+      },
+      {
+        "phrase": "Is he?",
+        "meaning_ar": "حقًا؟ (هل هو كذلك؟)",
+        "meaning_en": "Shows interest or surprise.",
+        "example": "Omar is the new manager. Is he? Great!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "General jobs of auxiliary verbs: action and time",
+        "explanation_ar": "be + ing يدل على حدث يجري الآن (I am going). did للماضي والتوكيد (It did work). will للمستقبل (I will go). have + التصريف الثالث للربط بزمن آخر (I have gone).",
+        "explanation_en": "be + -ing shows action happening now (I am going). did shows the past and emphasis (It did work). will shows the future (I will go). have + past participle connects to another time (I have gone).",
+        "examples": [
+          "I am going to the store.",
+          "It did work!",
+          "I will call you.",
+          "I have finished my homework."
+        ]
+      },
+      {
+        "title": "Short answers: yes/no + subject + auxiliary",
+        "explanation_ar": "نجيب بنفس الفعل المساعد الموجود في السؤال: Do → do، Have → have، Are → am/are، Can → can. لا نكرر الفعل الرئيسي.",
+        "explanation_en": "Answer with the same auxiliary as the question: Do → do, Have → have, Are → am/are, Can → can. Don't repeat the main verb.",
+        "examples": [
+          "Do you like tea? Yes, I do. / No, I don't.",
+          "Have you eaten? Yes, I have.",
+          "Are you tired? Yes, I am.",
+          "Can she swim? No, she can't."
+        ]
+      },
+      {
+        "title": "Showing polite interest: auxiliary + pronoun?",
+        "explanation_ar": "عندما يخبرك أحد بخبر، ردّ بالفعل المساعد + الضمير كسؤال قصير لإظهار الاهتمام: He is? / Are they? / Did she? / Have you?",
+        "explanation_en": "When someone tells you news, reply with auxiliary + pronoun as a short question to show interest: Is he? / Are they? / Did she? / Have you?",
+        "examples": [
+          "I'm learning Chinese. Are you? That's great!",
+          "Sara passed her driving test. Did she? Wonderful!",
+          "I've been to Canada. Have you? When?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"Have you had dinner?\" Short answer:",
+      "choices": [
+        "Yes, I have.",
+        "Yes, I do.",
+        "Yes, I am.",
+        "Yes, I had."
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال بـ Have فالجواب بـ have.",
+      "explanation_en": "The question uses have, so answer with have."
+    },
+    {
+      "question": "\"Do you know the address?\" Short answer:",
+      "choices": [
+        "Yes, I know.",
+        "Yes, I am.",
+        "Yes, I do.",
+        "Yes, I does."
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال بـ Do فالجواب بـ do.",
+      "explanation_en": "Do → do."
+    },
+    {
+      "question": "Your friend says: \"My brothers are moving to Canada.\" Show interest:",
+      "choices": [
+        "Do they?",
+        "Are they?",
+        "Is he?",
+        "Have they?"
+      ],
+      "answer": 1,
+      "explanation_ar": "are في الخبر → Are they?",
+      "explanation_en": "The news uses are → Are they?"
+    },
+    {
+      "question": "What does \"feign\" mean?",
+      "choices": [
+        "to forget",
+        "to explain",
+        "to agree",
+        "to pretend"
+      ],
+      "answer": 3,
+      "explanation_ar": "feign = يتظاهر.",
+      "explanation_en": "Feign = pretend."
+    },
+    {
+      "question": "\"Sara passed her test.\" Show interest:",
+      "choices": [
+        "Did she?",
+        "Does she?",
+        "Is she?",
+        "Has he?"
+      ],
+      "answer": 0,
+      "explanation_ar": "الفعل passed في الماضي → Did she?",
+      "explanation_en": "Passed is past simple → Did she?"
+    },
+    {
+      "question": "Which auxiliary makes the future?",
+      "choices": [
+        "did",
+        "will",
+        "have",
+        "am"
+      ],
+      "answer": 1,
+      "explanation_ar": "will للمستقبل.",
+      "explanation_en": "Will makes the future."
+    },
+    {
+      "question": "In \"It did work!\", did is used for ___.",
+      "choices": [
+        "the future",
+        "a question",
+        "emphasis",
+        "a negative"
+      ],
+      "answer": 2,
+      "explanation_ar": "did هنا للتوكيد.",
+      "explanation_en": "Here did adds emphasis."
+    },
+    {
+      "question": "\"Can your sister drive?\" Short answer:",
+      "choices": [
+        "No, she doesn't.",
+        "No, she isn't.",
+        "No, she hasn't.",
+        "No, she can't."
+      ],
+      "answer": 3,
+      "explanation_ar": "السؤال بـ Can فالنفي can't.",
+      "explanation_en": "Can → can't."
+    },
+    {
+      "question": "\"Are you tired?\" Short answer:",
+      "choices": [
+        "Yes, I am.",
+        "Yes, I do.",
+        "Yes, I are.",
+        "Yes, I tired."
+      ],
+      "answer": 0,
+      "explanation_ar": "Are you ← الجواب I am.",
+      "explanation_en": "Are you → I am."
+    },
+    {
+      "question": "\"I've been to Japan.\" Show interest:",
+      "choices": [
+        "Did you?",
+        "Have you?",
+        "Are you?",
+        "Do you?"
+      ],
+      "answer": 1,
+      "explanation_ar": "I've تعني I have، فنقول Have you?",
+      "explanation_en": "I've = I have → Have you?"
+    }
+  ]
+}

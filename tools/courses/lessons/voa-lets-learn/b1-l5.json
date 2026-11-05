@@ -1,0 +1,58 @@
+{
+  "title": "Where Are You?",
+  "content": {
+    "vocabulary": [
+      {"word": "house", "pos": "noun", "meaning_en": "a building where a family lives", "meaning_ar": "منزل / بيت", "note_ar": "", "note_en": "", "example": "Their house has a small garden."},
+      {"word": "beautiful", "pos": "adjective", "meaning_en": "very nice to look at", "meaning_ar": "جميل", "note_ar": "تُنطق /ˈbjuːtɪfəl/.", "note_en": "Say /ˈbjuːtɪfəl/.", "example": "What a beautiful room!"},
+      {"word": "see", "pos": "verb", "meaning_en": "to look at something with your eyes", "meaning_ar": "يرى", "note_ar": "", "note_en": "", "example": "I want to see your new car."},
+      {"word": "kitchen", "pos": "noun", "meaning_en": "the room where you cook", "meaning_ar": "المطبخ", "note_ar": "", "note_en": "", "example": "My mother is in the kitchen."},
+      {"word": "living room", "pos": "noun", "meaning_en": "the room where a family sits and relaxes", "meaning_ar": "غرفة المعيشة / الصالة", "note_ar": "", "note_en": "", "example": "We watch TV in the living room."},
+      {"word": "bathroom", "pos": "noun", "meaning_en": "the room where you wash", "meaning_ar": "الحمّام", "note_ar": "", "note_en": "", "example": "The bathroom is next to my bedroom."},
+      {"word": "bedroom", "pos": "noun", "meaning_en": "the room where you sleep", "meaning_ar": "غرفة النوم", "note_ar": "", "note_en": "", "example": "My bedroom has a big window."},
+      {"word": "upstairs", "pos": "adverb", "meaning_en": "on or to a higher floor of a building", "meaning_ar": "في الطابق العلوي / إلى الأعلى", "note_ar": "عكسها downstairs.", "note_en": "Opposite: downstairs.", "example": "The bedrooms are upstairs."},
+      {"word": "downstairs", "pos": "adverb", "meaning_en": "on or to a lower floor of a building", "meaning_ar": "في الطابق السفلي / إلى الأسفل", "note_ar": "", "note_en": "", "example": "The kitchen is downstairs."},
+      {"word": "cook", "pos": "verb", "meaning_en": "to make food ready to eat", "meaning_ar": "يطبخ", "note_ar": "", "note_en": "", "example": "We cook in the kitchen."},
+      {"word": "eat", "pos": "verb", "meaning_en": "to put food in your mouth", "meaning_ar": "يأكل", "note_ar": "", "note_en": "", "example": "I eat breakfast at seven."},
+      {"word": "relax", "pos": "verb", "meaning_en": "to rest and feel calm", "meaning_ar": "يسترخي / يرتاح", "note_ar": "", "note_en": "", "example": "I relax after work."},
+      {"word": "wash", "pos": "verb", "meaning_en": "to clean with water", "meaning_ar": "يغسل / يغتسل", "note_ar": "", "note_en": "", "example": "Wash your hands before you eat."},
+      {"word": "sleep", "pos": "verb", "meaning_en": "to rest with your eyes closed, usually at night", "meaning_ar": "ينام", "note_ar": "", "note_en": "", "example": "Children sleep early."},
+      {"word": "today", "pos": "adverb", "meaning_en": "on this day", "meaning_ar": "اليوم", "note_ar": "", "note_en": "", "example": "Today is Monday."},
+      {"word": "everyone", "pos": "pronoun", "meaning_en": "all people", "meaning_ar": "الجميع / كل الناس", "note_ar": "Hello, everyone = مرحبًا بالجميع.", "note_en": "", "example": "Hello, everyone! Welcome to class."},
+      {"word": "her", "pos": "determiner", "meaning_en": "belonging to a woman or girl", "meaning_ar": "ـها (ملكها)", "note_ar": "her friend = صديقتها.", "note_en": "", "example": "Marsha is at her friend's house."},
+      {"word": "we", "pos": "pronoun", "meaning_en": "I and another person or people", "meaning_ar": "نحن", "note_ar": "", "note_en": "", "example": "We relax in the living room."},
+      {"word": "let's", "pos": "phrase", "meaning_en": "let us; used to suggest doing something together", "meaning_ar": "هيا بنا / دعنا", "note_ar": "let's + فعل.", "note_en": "let's + verb.", "example": "Let's go upstairs!"},
+      {"word": "here we are", "pos": "phrase", "meaning_en": "we have arrived", "meaning_ar": "ها قد وصلنا", "note_ar": "", "note_en": "", "example": "Here we are! This is my school."},
+      {"word": "room", "pos": "noun", "meaning_en": "a part of a house with walls and a door", "meaning_ar": "غرفة", "note_ar": "", "note_en": "", "example": "The house has five rooms."}
+    ],
+    "fine_lines": [
+      {"title": "upstairs vs downstairs", "words": ["upstairs", "downstairs"], "explanation_ar": "upstairs = في الطابق الأعلى أو إلى الأعلى. downstairs = في الطابق الأسفل أو إلى الأسفل. لا نضع قبلهما to: نقول go upstairs وليس go to upstairs.", "explanation_en": "Upstairs means on or to a higher floor. Downstairs means on or to a lower floor. Do not use to before them: go upstairs, not go to upstairs.", "examples": [{"word": "upstairs", "sentence": "Let's go upstairs to the bedroom."}, {"word": "downstairs", "sentence": "The living room is downstairs."}]},
+      {"title": "bathroom vs bedroom", "words": ["bathroom", "bedroom"], "explanation_ar": "كلمتان متشابهتان في النطق. bedroom (bed = سرير) هي غرفة النوم. bathroom (bath = استحمام) هي الحمّام حيث تغتسل.", "explanation_en": "These words sound similar. A bedroom (bed) is where you sleep. A bathroom (bath) is where you wash.", "examples": [{"word": "bedroom", "sentence": "I sleep in the bedroom."}, {"word": "bathroom", "sentence": "I wash in the bathroom."}]}
+    ],
+    "expressions": [
+      {"phrase": "Hello, everyone!", "meaning_ar": "مرحبًا بالجميع!", "meaning_en": "A greeting to a group of people.", "example": "Hello, everyone! Today we learn about rooms."},
+      {"phrase": "I want to see this house!", "meaning_ar": "أريد أن أرى هذا المنزل!", "meaning_en": "You wish to look at the house.", "example": "I want to see your new bedroom!"},
+      {"phrase": "Here we are!", "meaning_ar": "ها قد وصلنا!", "meaning_en": "We have arrived.", "example": "Here we are! This is the park."},
+      {"phrase": "I am in the kitchen!", "meaning_ar": "أنا في المطبخ!", "meaning_en": "Telling someone which room you are in.", "example": "Mom, I am in the living room!"},
+      {"phrase": "It is a beautiful kitchen!", "meaning_ar": "إنه مطبخ جميل!", "meaning_en": "Saying you like a room.", "example": "It is a beautiful garden!"},
+      {"phrase": "Let's go upstairs!", "meaning_ar": "هيا نصعد إلى الطابق العلوي!", "meaning_en": "A suggestion to go to the higher floor together.", "example": "The bedrooms are up there. Let's go upstairs!"},
+      {"phrase": "Where are you?", "meaning_ar": "أين أنت؟", "meaning_en": "A question about where someone is.", "example": "Where are you? I am in the bathroom."},
+      {"phrase": "We sleep in the bedroom.", "meaning_ar": "ننام في غرفة النوم.", "meaning_en": "Saying what we do in a room.", "example": "We eat in the kitchen."}
+    ],
+    "grammar": [
+      {"title": "in + the + room", "explanation_ar": "١) نستخدم in للقول إن شخصًا أو شيئًا داخل مكان: in the kitchen.\n٢) نضع the قبل اسم الغرفة: in the bedroom.\n٣) السؤال: Where are you? والجواب: I am in the + غرفة.\n٤) يمكن أن نضيف ما نفعله: I cook in the kitchen.", "explanation_en": "1) Use in to say someone or something is inside a place: in the kitchen.\n2) Put the before the room: in the bedroom.\n3) Question: Where are you? Answer: I am in the + room.\n4) You can add what you do there: I cook in the kitchen.", "examples": ["Where are you? I am in the living room.", "Marsha is in the bedroom.", "We wash in the bathroom.", "The books are in the kitchen."]},
+      {"title": "Simple present for everyday actions (I / we)", "explanation_ar": "١) نستخدم المضارع البسيط لما نفعله عادة: We cook in the kitchen.\n٢) مع I وwe يبقى الفعل بدون s: I eat, we relax.\n٣) الترتيب: الفاعل + الفعل + المكان: I + sleep + in the bedroom.\n٤) مع he/she نضيف s: She sleeps in the bedroom.", "explanation_en": "1) Use the simple present for things we usually do: We cook in the kitchen.\n2) With I and we, the verb has no s: I eat, we relax.\n3) Order: subject + verb + place: I + sleep + in the bedroom.\n4) With he/she, add s: She sleeps in the bedroom.", "examples": ["I eat in the kitchen.", "We relax in the living room.", "I wash in the bathroom.", "She sleeps upstairs."]}
+    ]
+  },
+  "questions": [
+    {"question": "Where do you cook?", "choices": ["in the bedroom", "in the bathroom", "in the kitchen", "in the living room"], "answer": 2, "explanation_ar": "نطبخ في المطبخ (kitchen).", "explanation_en": "We cook in the kitchen."},
+    {"question": "Where do you sleep?", "choices": ["in the bedroom", "in the kitchen", "in the bathroom", "upstairs kitchen"], "answer": 0, "explanation_ar": "ننام في غرفة النوم (bedroom).", "explanation_en": "We sleep in the bedroom."},
+    {"question": "What does 'relax' mean?", "choices": ["يطبخ", "يغسل", "ينام", "يسترخي"], "answer": 3, "explanation_ar": "relax = يسترخي / يرتاح.", "explanation_en": "Relax means to rest and feel calm."},
+    {"question": "Complete: I am ___ the bathroom.", "choices": ["on", "in", "at", "to"], "answer": 1, "explanation_ar": "داخل غرفة نستخدم in.", "explanation_en": "Inside a room, we use in."},
+    {"question": "Choose the correct sentence.", "choices": ["Let's go to upstairs!", "Let's upstairs go!", "Let's go upstairs!", "Let's going upstairs!"], "answer": 2, "explanation_ar": "لا نضع to قبل upstairs، وبعد let's يأتي الفعل الأساسي.", "explanation_en": "No to before upstairs, and let's is followed by the base verb."},
+    {"question": "\"We ___ in the living room.\"", "choices": ["relax", "relaxes", "relaxing", "are relax"], "answer": 0, "explanation_ar": "مع we يبقى الفعل بدون s.", "explanation_en": "With we, the verb has no s."},
+    {"question": "Which room is for washing?", "choices": ["the bedroom", "the living room", "the kitchen", "the bathroom"], "answer": 3, "explanation_ar": "bathroom = الحمّام، حيث نغتسل.", "explanation_en": "The bathroom is where we wash."},
+    {"question": "The opposite of 'upstairs' is:", "choices": ["outside", "downstairs", "inside", "here"], "answer": 1, "explanation_ar": "عكس upstairs هو downstairs.", "explanation_en": "The opposite of upstairs is downstairs."},
+    {"question": "\"Marsha, where are you?\" — Choose the best answer.", "choices": ["I am in the bedroom.", "I sleep.", "It is a bedroom.", "Yes, I am."], "answer": 0, "explanation_ar": "سؤال Where يُجاب عنه بالمكان: I am in the bedroom.", "explanation_en": "A where question is answered with a place: I am in the bedroom."},
+    {"question": "\"Marsha is at ___ friend's house.\" (the friend of Marsha)", "choices": ["she", "hers", "her", "she's"], "answer": 2, "explanation_ar": "لمارشا (مؤنث) نستخدم her.", "explanation_en": "For Marsha (a woman), we use her."}
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "title": "Would: Preferences and Opinions (SEAM)",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "state",
+        "pos": "verb",
+        "meaning_en": "to say something clearly",
+        "meaning_ar": "يُصرِّح / يذكر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please state your name."
+      },
+      {
+        "word": "preference",
+        "pos": "noun",
+        "meaning_en": "a thing you like more than another",
+        "meaning_ar": "تفضيل",
+        "note_ar": "الفعل: prefer (التشديد على المقطع الثاني)",
+        "note_en": "Verb: prefer /prɪˈfɜː/ (stress on the second part).",
+        "example": "My preference is tea, not coffee."
+      },
+      {
+        "word": "opinion",
+        "pos": "noun",
+        "meaning_en": "what you think or believe about something",
+        "meaning_ar": "رأي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In my opinion, the plan is good."
+      },
+      {
+        "word": "would",
+        "pos": "modal verb",
+        "meaning_en": "used for imaginary or conditional ideas, polite wishes and opinions",
+        "meaning_ar": "فعل ناقص للشرط والتخيّل والتعبير المهذّب",
+        "note_ar": "حرف l صامت؛ الاختصار 'd",
+        "note_en": "Silent l; short form 'd (I'd).",
+        "example": "I would like a cup of tea."
+      },
+      {
+        "word": "would like to",
+        "pos": "phrase",
+        "meaning_en": "want to (polite)",
+        "meaning_ar": "أودّ أن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like to go to the store."
+      },
+      {
+        "word": "would prefer",
+        "pos": "phrase",
+        "meaning_en": "would like more (choice between things)",
+        "meaning_ar": "أُفضِّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd prefer to stay at home tonight."
+      },
+      {
+        "word": "would rather",
+        "pos": "phrase",
+        "meaning_en": "would prefer to (followed by the base verb)",
+        "meaning_ar": "أُفضِّل أن (يتبعها المصدر بدون to)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd rather walk than take the bus."
+      },
+      {
+        "word": "conditional",
+        "pos": "adjective",
+        "meaning_en": "true only if something else happens",
+        "meaning_ar": "شرطي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Would\" is often conditional."
+      },
+      {
+        "word": "imaginary",
+        "pos": "adjective",
+        "meaning_en": "not real; only in your mind",
+        "meaning_ar": "خيالي / متخيَّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is an imaginary situation."
+      },
+      {
+        "word": "gerund",
+        "pos": "noun",
+        "meaning_en": "a verb + -ing used like a noun (swimming, reading)",
+        "meaning_ar": "اسم الفعل (الفعل + ing كاسم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In \"I like reading\", reading is a gerund."
+      },
+      {
+        "word": "infinitive",
+        "pos": "noun",
+        "meaning_en": "the base form of a verb, often with to (to go)",
+        "meaning_ar": "المصدر (to + الفعل)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"To go\" is an infinitive."
+      },
+      {
+        "word": "fact",
+        "pos": "noun",
+        "meaning_en": "something you can prove is true",
+        "meaning_ar": "حقيقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's my opinion, not a fact."
+      },
+      {
+        "word": "disbelief",
+        "pos": "noun",
+        "meaning_en": "the feeling that something is not true",
+        "meaning_ar": "عدم تصديق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She looked at me in disbelief."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "would like vs would prefer vs would rather",
+        "words": [
+          "would like",
+          "would prefer",
+          "would rather"
+        ],
+        "explanation_ar": "would like + to + المصدر. would prefer + to + المصدر (أو اسم). would rather + المصدر بدون to، ومع المقارنة نستخدم than.",
+        "explanation_en": "would like + to + base verb. would prefer + to + base verb (or a noun). would rather + base verb with no to; to compare, use than.",
+        "examples": [
+          {
+            "word": "would like",
+            "sentence": "I would like to go home."
+          },
+          {
+            "word": "would prefer",
+            "sentence": "I would prefer to go by train."
+          },
+          {
+            "word": "would rather",
+            "sentence": "I would rather sleep than watch TV."
+          }
+        ]
+      },
+      {
+        "title": "opinion vs fact",
+        "words": [
+          "opinion",
+          "fact"
+        ],
+        "explanation_ar": "الحقيقة يمكن إثباتها. الرأي هو ما تعتقده ولا تستطيع إثباته؛ لذلك نستخدم would لتليين الرأي.",
+        "explanation_en": "A fact can be proved. An opinion is what you think and can't prove, so we often use would to state it softly.",
+        "examples": [
+          {
+            "word": "fact",
+            "sentence": "Water boils at 100°C."
+          },
+          {
+            "word": "opinion",
+            "sentence": "I wouldn't believe anything he says."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'd like to...",
+        "meaning_ar": "أودّ أن...",
+        "meaning_en": "A polite way to say what you want.",
+        "example": "I'd like to ask a question."
+      },
+      {
+        "phrase": "I'd rather... than...",
+        "meaning_ar": "أُفضِّل... على...",
+        "meaning_en": "I prefer one action to another.",
+        "example": "I'd rather read a book than watch TV."
+      },
+      {
+        "phrase": "I'd prefer...",
+        "meaning_ar": "أُفضِّل...",
+        "meaning_en": "Saying your choice politely.",
+        "example": "I'd prefer the blue one."
+      },
+      {
+        "phrase": "I wouldn't believe anything he says.",
+        "meaning_ar": "لن أصدّق أي شيء يقوله.",
+        "meaning_en": "An opinion: I think he does not tell the truth.",
+        "example": "Be careful. I wouldn't believe anything he says."
+      },
+      {
+        "phrase": "I would think that...",
+        "meaning_ar": "أظن أنّ...",
+        "meaning_en": "A soft way to give your opinion.",
+        "example": "I would think that the shop is closed now."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "S = State POP (Preference and Opinion)",
+        "explanation_ar": "في طريقة SEAM، حرف S يعني State POP: التعبير عن التفضيل (Preference) والرأي (OPinion). نستخدم would لأنها تعبّر عن الشرط والتخيّل، أي ما نتمنّاه أو نتخيله وليس حقيقة مؤكدة 100%.",
+        "explanation_en": "In the SEAM method, S means State POP: Preference and OPinion. We use would because it is conditional and imaginary: what we wish or imagine, not a 100% fact.",
+        "examples": [
+          "I would like to go out. (preference)",
+          "I wouldn't trust that website. (opinion)"
+        ]
+      },
+      {
+        "title": "Preference: would like / would prefer / would rather",
+        "explanation_ar": "would like + to + المصدر. would prefer + to + المصدر أو اسم؛ وللمقارنة بين نشاطين: prefer + -ing + to + -ing. would rather + المصدر (بدون to) + than + المصدر.",
+        "explanation_en": "would like + to + base verb. would prefer + to + base verb, or a noun; to compare two activities: prefer + -ing + to + -ing. would rather + base verb (no to) + than + base verb.",
+        "examples": [
+          "I would like to visit Cairo.",
+          "I'd prefer the blue dress to the red one.",
+          "I prefer running to sitting at home.",
+          "I'd rather stay home than go out in the rain."
+        ]
+      },
+      {
+        "title": "Opinion: would / wouldn't + base verb",
+        "explanation_ar": "نستخدم would أو wouldn't + المصدر لإبداء رأي ليس حقيقة مؤكدة، وغالبًا مع believe و think.",
+        "explanation_en": "Use would / wouldn't + base verb to give an opinion that is not a proven fact, often with believe and think.",
+        "examples": [
+          "I wouldn't believe that story.",
+          "I would think he is at home now.",
+          "I would think that he wouldn't do something like that."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "In SEAM, \"State POP\" means stating your ___.",
+      "choices": [
+        "preference and opinion",
+        "past and present",
+        "plans and promises",
+        "permission and prohibition"
+      ],
+      "answer": 0,
+      "explanation_ar": "POP = Preference و OPinion.",
+      "explanation_en": "POP = Preference and OPinion."
+    },
+    {
+      "question": "I'd rather ___ at home tonight.",
+      "choices": [
+        "to stay",
+        "staying",
+        "stay",
+        "stayed"
+      ],
+      "answer": 2,
+      "explanation_ar": "would rather + المصدر بدون to.",
+      "explanation_en": "would rather + base verb, no to."
+    },
+    {
+      "question": "I would like ___ a question.",
+      "choices": [
+        "ask",
+        "to ask",
+        "asking",
+        "asked"
+      ],
+      "answer": 1,
+      "explanation_ar": "would like + to + المصدر.",
+      "explanation_en": "would like + to + base verb."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I'd rather to walk than drive.",
+        "I'd rather walking than driving.",
+        "I'd rather walked than drove.",
+        "I'd rather walk than drive."
+      ],
+      "answer": 3,
+      "explanation_ar": "would rather + المصدر + than + المصدر.",
+      "explanation_en": "would rather + base verb + than + base verb."
+    },
+    {
+      "question": "\"I wouldn't believe anything he says.\" This is ___.",
+      "choices": [
+        "a fact",
+        "an opinion",
+        "a past event",
+        "a question"
+      ],
+      "answer": 1,
+      "explanation_ar": "هذا رأي لا يمكن إثباته.",
+      "explanation_en": "It is an opinion; it can't be proved."
+    },
+    {
+      "question": "Why do we use \"would\" for preferences?",
+      "choices": [
+        "It is always past.",
+        "It is 100% sure.",
+        "It shows something imaginary or conditional.",
+        "It is a noun."
+      ],
+      "answer": 2,
+      "explanation_ar": "would تعبّر عن التخيل والشرط.",
+      "explanation_en": "Would shows something imaginary or conditional."
+    },
+    {
+      "question": "I prefer swimming ___ running.",
+      "choices": [
+        "to",
+        "than",
+        "of",
+        "from"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول prefer + -ing + to + -ing.",
+      "explanation_en": "prefer + -ing + to + -ing."
+    },
+    {
+      "question": "What is a gerund?",
+      "choices": [
+        "a verb with to",
+        "a past verb",
+        "an adjective",
+        "a verb + -ing used as a noun"
+      ],
+      "answer": 3,
+      "explanation_ar": "gerund = الفعل + ing كاسم.",
+      "explanation_en": "A gerund is a verb + -ing used as a noun."
+    },
+    {
+      "question": "What does \"I'd\" mean in \"I'd prefer tea\"?",
+      "choices": [
+        "I did",
+        "I would",
+        "I had",
+        "I do"
+      ],
+      "answer": 1,
+      "explanation_ar": "هنا 'd = would.",
+      "explanation_en": "Here 'd = would."
+    },
+    {
+      "question": "What is a \"preference\"?",
+      "choices": [
+        "a rule",
+        "a fact",
+        "something you like more",
+        "a promise"
+      ],
+      "answer": 2,
+      "explanation_ar": "preference = تفضيل.",
+      "explanation_en": "A preference is something you like more."
+    }
+  ]
+}

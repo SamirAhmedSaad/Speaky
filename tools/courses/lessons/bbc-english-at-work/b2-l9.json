@@ -1,0 +1,458 @@
+{
+  "title": "Business Proposals",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "proposal",
+        "pos": "noun",
+        "meaning_en": "a written plan or idea that you ask others to accept",
+        "meaning_ar": "مقترح / عرض مكتوب",
+        "note_ar": "الفعل: propose.",
+        "note_en": "Verb: propose.",
+        "example": "We need to write a proposal for the boss."
+      },
+      {
+        "word": "put together",
+        "pos": "phrasal verb",
+        "meaning_en": "to prepare or create something from different parts",
+        "meaning_ar": "يُعدّ / يجمّع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's put together a proposal."
+      },
+      {
+        "word": "stand out",
+        "pos": "phrasal verb",
+        "meaning_en": "to be easy to notice because it is better or different",
+        "meaning_ar": "يتميّز / يلفت النظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Use positive words to make your proposal stand out."
+      },
+      {
+        "word": "exceptional",
+        "pos": "adjective",
+        "meaning_en": "much better than usual",
+        "meaning_ar": "استثنائي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is an exceptional product."
+      },
+      {
+        "word": "fantastic",
+        "pos": "adjective",
+        "meaning_en": "extremely good",
+        "meaning_ar": "رائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It has fantastic potential."
+      },
+      {
+        "word": "quality",
+        "pos": "noun",
+        "meaning_en": "how good something is",
+        "meaning_ar": "جودة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our customers expect high quality."
+      },
+      {
+        "word": "profit",
+        "pos": "noun",
+        "meaning_en": "money a business earns after paying its costs",
+        "meaning_ar": "ربح",
+        "note_ar": "الصفة: profitable.",
+        "note_en": "Adjective: profitable.",
+        "example": "Our profits will increase."
+      },
+      {
+        "word": "efficiency",
+        "pos": "noun",
+        "meaning_en": "working well without wasting time, money or effort",
+        "meaning_ar": "كفاءة",
+        "note_ar": "الصفة: efficient.",
+        "note_en": "Adjective: efficient.",
+        "example": "The new machine will improve efficiency."
+      },
+      {
+        "word": "efficient",
+        "pos": "adjective",
+        "meaning_en": "working well without waste",
+        "meaning_ar": "فعّال / كفؤ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Making production more efficient saves money."
+      },
+      {
+        "word": "value for money",
+        "pos": "phrase",
+        "meaning_en": "worth the price you pay",
+        "meaning_ar": "يستحق ثمنه / قيمة مقابل السعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our products are good value for money."
+      },
+      {
+        "word": "potential",
+        "pos": "noun",
+        "meaning_en": "the possibility of becoming successful in the future",
+        "meaning_ar": "إمكانات / فرص نجاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This idea has great potential."
+      },
+      {
+        "word": "benefit",
+        "pos": "verb / noun",
+        "meaning_en": "to help or be good for someone; an advantage",
+        "meaning_ar": "يفيد / فائدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This plan will benefit the business."
+      },
+      {
+        "word": "brief",
+        "pos": "adjective",
+        "meaning_en": "short",
+        "meaning_ar": "موجز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your proposal should be brief but clear."
+      },
+      {
+        "word": "positive language",
+        "pos": "noun",
+        "meaning_en": "words that sound good and hopeful",
+        "meaning_ar": "لغة إيجابية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Use positive language in a proposal."
+      },
+      {
+        "word": "target",
+        "pos": "verb",
+        "meaning_en": "to aim a product at a particular group of customers",
+        "meaning_ar": "يستهدف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We could target restaurants and cafes."
+      },
+      {
+        "word": "demand",
+        "pos": "noun",
+        "meaning_en": "how much people want to buy something",
+        "meaning_ar": "الطلب (على منتج)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Demand for this product is growing."
+      },
+      {
+        "word": "production",
+        "pos": "noun",
+        "meaning_en": "the process of making goods",
+        "meaning_ar": "الإنتاج",
+        "note_ar": "الفعل: produce.",
+        "note_en": "Verb: produce.",
+        "example": "Production costs are too high."
+      },
+      {
+        "word": "decoration",
+        "pos": "noun",
+        "meaning_en": "something that makes a place look nicer",
+        "meaning_ar": "زينة / ديكور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Plastic fruit is often used as a decoration."
+      },
+      {
+        "word": "switch off",
+        "pos": "phrasal verb",
+        "meaning_en": "to stop thinking about something, such as work",
+        "meaning_ar": "يتوقف عن التفكير في العمل / يرتاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you not switch off from work for one minute?"
+      },
+      {
+        "word": "be on to something",
+        "pos": "idiom",
+        "meaning_en": "to have found an idea that could be successful",
+        "meaning_ar": "وجد فكرة واعدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You could be on to something here."
+      },
+      {
+        "word": "pitch",
+        "pos": "verb",
+        "meaning_en": "to present an idea to persuade someone",
+        "meaning_ar": "يعرض فكرة لإقناع الآخرين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can pitch this to Paul on Monday."
+      },
+      {
+        "word": "first thing",
+        "pos": "phrase",
+        "meaning_en": "very early, before doing anything else",
+        "meaning_ar": "أول شيء / في الصباح الباكر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll call you first thing tomorrow."
+      },
+      {
+        "word": "come up with",
+        "pos": "phrasal verb",
+        "meaning_en": "to think of an idea",
+        "meaning_ar": "يبتكر / يتوصل إلى فكرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We came up with a great idea."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "efficient vs effective",
+        "words": [
+          "efficient",
+          "effective"
+        ],
+        "explanation_ar": "effective تعني أنه يحقق النتيجة المطلوبة. efficient تعني أنه يحققها دون هدر للوقت أو المال أو الجهد.",
+        "explanation_en": "Effective means it gets the result you want. Efficient means it gets the result without wasting time, money or effort.",
+        "examples": [
+          {
+            "word": "efficient",
+            "sentence": "The new system is more efficient – it saves an hour a day."
+          },
+          {
+            "word": "effective",
+            "sentence": "The advert was effective – sales went up."
+          }
+        ]
+      },
+      {
+        "title": "profit vs benefit",
+        "words": [
+          "profit",
+          "benefit"
+        ],
+        "explanation_ar": "profit هو المال الذي تربحه الشركة بعد طرح التكاليف. benefit أي فائدة أو ميزة، وقد لا تكون مالية.",
+        "explanation_en": "Profit is money a business makes after costs. Benefit is any advantage or good result, not only money.",
+        "examples": [
+          {
+            "word": "profit",
+            "sentence": "The company made a profit of $1 million."
+          },
+          {
+            "word": "benefit",
+            "sentence": "One benefit of this job is flexible hours."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Exceptional!",
+        "meaning_ar": "استثنائي!",
+        "meaning_en": "A strong positive word for a proposal.",
+        "example": "This is an exceptional product."
+      },
+      {
+        "phrase": "Fantastic!",
+        "meaning_ar": "رائع!",
+        "meaning_en": "A strong positive word for a proposal.",
+        "example": "It has fantastic potential."
+      },
+      {
+        "phrase": "Quality.",
+        "meaning_ar": "الجودة.",
+        "meaning_en": "A key word showing the product is good.",
+        "example": "We offer top quality at a low price."
+      },
+      {
+        "phrase": "Profit.",
+        "meaning_ar": "الربح.",
+        "meaning_en": "A key word showing how the business will gain money.",
+        "example": "This product will increase our profit."
+      },
+      {
+        "phrase": "Efficiency.",
+        "meaning_ar": "الكفاءة.",
+        "meaning_en": "A key word showing how the business will save time or money.",
+        "example": "The new process will improve efficiency."
+      },
+      {
+        "phrase": "Value for money.",
+        "meaning_ar": "قيمة تستحق السعر.",
+        "meaning_en": "A key phrase showing customers get a good deal.",
+        "example": "Our customers will get value for money."
+      },
+      {
+        "phrase": "Your proposal needs to be brief but clear.",
+        "meaning_ar": "يجب أن يكون مقترحك موجزًا لكن واضحًا.",
+        "meaning_en": "Advice for writing a proposal.",
+        "example": "Remember, your proposal needs to be brief but clear."
+      },
+      {
+        "phrase": "You could be on to something here.",
+        "meaning_ar": "قد تكون توصلت إلى فكرة واعدة هنا.",
+        "meaning_en": "Saying an idea might be successful.",
+        "example": "That's a clever idea – you could be on to something here."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Future predictions with will",
+        "explanation_ar": "في المقترحات نستخدم will + الفعل للتنبؤ بالنتائج الإيجابية بثقة: our profits will increase، customers will get value for money.",
+        "explanation_en": "In proposals use will + base verb to predict good results with confidence: our profits will increase.",
+        "examples": [
+          "Our profits will increase.",
+          "Our customers will get value for money.",
+          "This product will benefit the business."
+        ]
+      },
+      {
+        "title": "By + verb-ing to show how",
+        "explanation_ar": "نستخدم by + الفعل مع ing لشرح الطريقة التي نحقق بها شيئًا: By making production more efficient, we will save money.",
+        "explanation_en": "Use by + -ing to explain the method or how something happens: By making production more efficient, we will save money.",
+        "examples": [
+          "By making production more efficient, our profits will increase.",
+          "By targeting cafes, we can sell more.",
+          "You can save time by planning ahead."
+        ]
+      },
+      {
+        "title": "Adjective + noun with positive words",
+        "explanation_ar": "الصفة في الإنجليزية تأتي قبل الاسم، عكس العربية: an exceptional product (منتج استثنائي)، fantastic potential.",
+        "explanation_en": "In English the adjective comes before the noun (the opposite of Arabic): an exceptional product, fantastic potential.",
+        "examples": [
+          "an exceptional product",
+          "fantastic potential",
+          "a quality service"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which word means 'working well without wasting time or money'?",
+      "choices": [
+        "decoration",
+        "profit",
+        "efficiency",
+        "demand"
+      ],
+      "answer": 2,
+      "explanation_ar": "efficiency تعني الكفاءة.",
+      "explanation_en": "Efficiency means working without waste."
+    },
+    {
+      "question": "Complete: 'Our customers will get value for ___.'",
+      "choices": [
+        "quality",
+        "money",
+        "profit",
+        "time"
+      ],
+      "answer": 1,
+      "explanation_ar": "التعبير: value for money.",
+      "explanation_en": "The phrase is 'value for money'."
+    },
+    {
+      "question": "What is a 'proposal'?",
+      "choices": [
+        "a phone call",
+        "a pizza",
+        "an accident report",
+        "a written plan you ask others to accept"
+      ],
+      "answer": 3,
+      "explanation_ar": "proposal هو مقترح مكتوب.",
+      "explanation_en": "A proposal is a written plan."
+    },
+    {
+      "question": "Choose the correct order.",
+      "choices": [
+        "This is an exceptional product.",
+        "This is a product exceptional.",
+        "This is exceptional an product.",
+        "This is an product exceptional."
+      ],
+      "answer": 0,
+      "explanation_ar": "الصفة تأتي قبل الاسم.",
+      "explanation_en": "The adjective comes before the noun."
+    },
+    {
+      "question": "Complete: '___ making production more efficient, our profits will increase.'",
+      "choices": [
+        "For",
+        "With",
+        "By",
+        "At"
+      ],
+      "answer": 2,
+      "explanation_ar": "by + ing لبيان الطريقة.",
+      "explanation_en": "by + -ing shows how."
+    },
+    {
+      "question": "The narrator says the proposal should be 'brief but clear'. 'Brief' means…",
+      "choices": [
+        "secret",
+        "long",
+        "short",
+        "expensive"
+      ],
+      "answer": 2,
+      "explanation_ar": "brief كصفة تعني موجزًا.",
+      "explanation_en": "Brief means short."
+    },
+    {
+      "question": "Which word is about money a business earns after costs?",
+      "choices": [
+        "profit",
+        "benefit",
+        "quality",
+        "potential"
+      ],
+      "answer": 0,
+      "explanation_ar": "profit هو الربح.",
+      "explanation_en": "Profit is money earned after costs."
+    },
+    {
+      "question": "Choose the correct word: 'The new software is very ___ – it does the job in half the time.'",
+      "choices": [
+        "profit",
+        "efficiency",
+        "effect",
+        "efficient"
+      ],
+      "answer": 3,
+      "explanation_ar": "نحتاج إلى صفة: efficient.",
+      "explanation_en": "We need the adjective: efficient."
+    },
+    {
+      "question": "What is Anna's new idea?",
+      "choices": [
+        "plastic lemons",
+        "plastic aubergines",
+        "plastic peaches",
+        "plastic mice"
+      ],
+      "answer": 1,
+      "explanation_ar": "فكرة آنا الجديدة هي الباذنجان البلاستيكي.",
+      "explanation_en": "Anna's idea is plastic aubergines."
+    },
+    {
+      "question": "'You could be on to something here' means…",
+      "choices": [
+        "your idea might be successful",
+        "you are standing on something",
+        "you are late",
+        "you made a mistake"
+      ],
+      "answer": 0,
+      "explanation_ar": "التعبير يعني أن الفكرة واعدة.",
+      "explanation_en": "It means the idea could be successful."
+    }
+  ]
+}

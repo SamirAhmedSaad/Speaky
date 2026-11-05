@@ -1,0 +1,64 @@
+{
+  "title": "What Are You Doing?",
+  "content": {
+    "vocabulary": [
+      {"word": "boss", "pos": "noun", "meaning_en": "the person who is in charge of you at work", "meaning_ar": "المدير / رئيس العمل", "note_ar": "", "note_en": "", "example": "My boss is very kind."},
+      {"word": "co-worker", "pos": "noun", "meaning_en": "a person you work with", "meaning_ar": "زميل العمل", "note_ar": "ويُقال أيضًا colleague.", "note_en": "Also: colleague.", "example": "My co-workers help me a lot."},
+      {"word": "Ms.", "pos": "noun", "meaning_en": "a polite title before a woman's family name", "meaning_ar": "السيدة / الآنسة (لقب احترام)", "note_ar": "تُنطق /mɪz/. للرجل: Mr.", "note_en": "Say /mɪz/. For a man: Mr.", "example": "Good morning, Ms. Weaver."},
+      {"word": "call", "pos": "verb", "meaning_en": "to use a name for someone", "meaning_ar": "يُنادي / يُسمّي", "note_ar": "call me Caty = نادِني كيتي.", "note_en": "call me Caty = use the name Caty for me.", "example": "Please call me Sam."},
+      {"word": "excited", "pos": "adjective", "meaning_en": "very happy and full of energy about something", "meaning_ar": "متحمّس", "note_ar": "", "note_en": "", "example": "I am excited about my new job."},
+      {"word": "busy", "pos": "adjective", "meaning_en": "having a lot to do", "meaning_ar": "مشغول", "note_ar": "تُنطق /ˈbɪzi/.", "note_en": "Say /ˈbɪzi/.", "example": "Sorry, I am busy right now."},
+      {"word": "write", "pos": "verb", "meaning_en": "to put words on paper or a screen", "meaning_ar": "يكتب", "note_ar": "w لا تُنطق. writing بحرف t واحد.", "note_en": "The w is silent. Writing has one t.", "example": "She is writing an email."},
+      {"word": "a lot", "pos": "phrase", "meaning_en": "very much; many", "meaning_ar": "كثيرًا", "note_ar": "", "note_en": "", "example": "You are writing a lot!"},
+      {"word": "read", "pos": "verb", "meaning_en": "to look at words and understand them", "meaning_ar": "يقرأ", "note_ar": "", "note_en": "", "example": "I am reading the news."},
+      {"word": "record", "pos": "verb", "meaning_en": "to save sound or pictures to hear or watch later", "meaning_ar": "يسجّل", "note_ar": "الفعل: reCORD، والاسم: REcord.", "note_en": "Verb: reCORD; noun: REcord.", "example": "They are recording a TV show."},
+      {"word": "show", "pos": "noun", "meaning_en": "a program on TV, radio or the internet", "meaning_ar": "برنامج", "note_ar": "", "note_en": "", "example": "I am doing my show."},
+      {"word": "news", "pos": "noun", "meaning_en": "new information about what is happening", "meaning_ar": "الأخبار", "note_ar": "تُعامل كمفرد: The news is...", "note_en": "Use a singular verb: The news is...", "example": "My father watches the news every evening."},
+      {"word": "studio", "pos": "noun", "meaning_en": "a room where TV or radio shows are made", "meaning_ar": "استوديو", "note_ar": "", "note_en": "", "example": "The red light is on in the studio."},
+      {"word": "word of the day", "pos": "phrase", "meaning_en": "one word that a show teaches each day", "meaning_ar": "كلمة اليوم", "note_ar": "", "note_en": "", "example": "The word of the day is 'kind'."},
+      {"word": "adjective", "pos": "noun", "meaning_en": "a word that describes a noun, like big or nice", "meaning_ar": "صفة", "note_ar": "", "note_en": "", "example": "'Busy' is an adjective."},
+      {"word": "social", "pos": "adjective", "meaning_en": "about people being and doing things together", "meaning_ar": "اجتماعي", "note_ar": "", "note_en": "", "example": "Anna is a very social person."},
+      {"word": "bother", "pos": "verb", "meaning_en": "to stop someone from working; to annoy", "meaning_ar": "يُزعج", "note_ar": "", "note_en": "", "example": "Please don't bother your brother. He is studying."},
+      {"word": "office", "pos": "noun", "meaning_en": "a room where people work at desks", "meaning_ar": "مكتب", "note_ar": "", "note_en": "", "example": "Let's talk in my office."},
+      {"word": "talk", "pos": "verb", "meaning_en": "to speak with someone", "meaning_ar": "يتحدث", "note_ar": "حرف l لا يُنطق: /tɔːk/.", "note_en": "The l is silent: /tɔːk/.", "example": "I like to talk with you."},
+      {"word": "stop", "pos": "verb", "meaning_en": "to not continue", "meaning_ar": "يتوقف", "note_ar": "", "note_en": "", "example": "Please stop. It's okay."},
+      {"word": "come in", "pos": "phrase", "meaning_en": "to enter a room", "meaning_ar": "يدخل (Come in = تفضّل بالدخول)", "note_ar": "", "note_en": "", "example": "Come in and sit down."},
+      {"word": "remember", "pos": "verb", "meaning_en": "to keep in your mind", "meaning_ar": "يتذكّر", "note_ar": "Remember me? = هل تتذكّرني؟", "note_en": "", "example": "Remember me? I'm in your class."},
+      {"word": "building", "pos": "noun", "meaning_en": "a structure with walls and a roof, like a house or office", "meaning_ar": "مبنى / عمارة", "note_ar": "", "note_en": "", "example": "I live in your building."},
+      {"word": "president", "pos": "noun", "meaning_en": "the leader of a country", "meaning_ar": "رئيس (دولة)", "note_ar": "", "note_en": "", "example": "The president speaks on TV tonight."}
+    ],
+    "fine_lines": [
+      {"title": "I write vs I am writing", "words": ["write", "am writing"], "explanation_ar": "I write (المضارع البسيط) = شيء أفعله عادة أو دائمًا. I am writing (المضارع المستمر) = أفعله الآن، في هذه اللحظة. سؤال What are you doing? يسأل عن الآن.", "explanation_en": "I write (simple present) = something I do usually. I am writing (present continuous) = I am doing it now, at this moment. 'What are you doing?' asks about now.", "examples": [{"word": "write", "sentence": "Anne writes for a morning show every day."}, {"word": "am writing", "sentence": "Shh, I am writing right now."}]},
+      {"title": "sorry vs excuse me (at work)", "words": ["sorry", "excuse me"], "explanation_ar": "قبل أن تقاطع شخصًا مشغولًا قل Excuse me. إذا أزعجته أو أخطأت قل Sorry أو I am sorry.", "explanation_en": "Before you interrupt a busy person, say Excuse me. If you bother them or make a mistake, say Sorry or I am sorry.", "examples": [{"word": "excuse me", "sentence": "Excuse me, can I ask a question?"}, {"word": "sorry", "sentence": "Oh, sorry! I dropped your papers."}]}
+    ],
+    "expressions": [
+      {"phrase": "Come in.", "meaning_ar": "تفضّل بالدخول.", "meaning_en": "Please enter.", "example": "Someone is at the door. Come in!"},
+      {"phrase": "Please call me Caty.", "meaning_ar": "من فضلك نادِني كيتي.", "meaning_en": "Use my first name; you don't need to be formal.", "example": "I'm Mr. Adams, but please call me John."},
+      {"phrase": "Sure thing.", "meaning_ar": "بالتأكيد.", "meaning_en": "Yes, of course (informal).", "example": "Can you help me? Sure thing."},
+      {"phrase": "Are you excited?", "meaning_ar": "هل أنت متحمّس؟", "meaning_en": "A question about how someone feels about something new.", "example": "It's your first day. Are you excited?"},
+      {"phrase": "What are you doing?", "meaning_ar": "ماذا تفعل (الآن)؟", "meaning_en": "A question about what someone is doing at this moment.", "example": "What are you doing? I'm reading."},
+      {"phrase": "Oh dear.", "meaning_ar": "يا إلهي! / يا للأسف.", "meaning_en": "Said when something small goes wrong.", "example": "Oh dear, I forgot my keys."},
+      {"phrase": "That's okay. Really.", "meaning_ar": "لا بأس. حقًا.", "meaning_en": "It is not a problem.", "example": "Sorry I'm late. That's okay. Really."},
+      {"phrase": "Remember me?", "meaning_ar": "هل تتذكّرني؟", "meaning_en": "A question to see if someone knows you from before.", "example": "Hi, Sami! Remember me? We were in the same school."},
+      {"phrase": "Have a good show.", "meaning_ar": "أتمنى لك برنامجًا موفّقًا.", "meaning_en": "A wish for someone's show to go well.", "example": "Good luck today. Have a good show!"},
+      {"phrase": "This day is not going well.", "meaning_ar": "هذا اليوم لا يسير على ما يرام.", "meaning_en": "Many small problems are happening today.", "example": "I lost my phone and missed the bus. This day is not going well."},
+      {"phrase": "Let's go to my office and talk.", "meaning_ar": "لنذهب إلى مكتبي ونتحدث.", "meaning_en": "Let us talk in my office.", "example": "We have a problem. Let's go to my office and talk."}
+    ],
+    "grammar": [
+      {"title": "Present continuous: am / is / are + verb-ing", "explanation_ar": "١) نستخدمه لشيء يحدث الآن، في هذه اللحظة.\n٢) التركيب: الفاعل + am/is/are + الفعل + ing.\n٣) I am writing. / She is reading. / They are recording.\n٤) الاختصارات: I'm, she's, we're.\n٥) تهجئة ing: write → writing (نحذف e)، record → recording، stop → stopping (نضاعف الحرف الأخير).", "explanation_en": "1) Use it for something that is happening now, at this moment.\n2) Form: subject + am/is/are + verb + ing.\n3) I am writing. / She is reading. / They are recording.\n4) Short forms: I'm, she's, we're.\n5) Spelling: write → writing (drop e), record → recording, stop → stopping (double the last letter).", "examples": ["I'm writing.", "Amelia is reading for her show.", "Jonathan is recording his show.", "We are talking in the office."]},
+      {"title": "Questions: What are you doing? / Are you recording?", "explanation_ar": "١) سؤال بكلمة استفهام: What + am/is/are + الفاعل + doing?\n٢) What are you doing? — I'm reading.\n٣) سؤال نعم/لا: نضع am/is/are أولًا: Are you recording?\n٤) الإجابة القصيرة: Yes, I am. / No, I'm not.\n٥) في الكلام السريع: What're you doing?", "explanation_en": "1) Wh- question: What + am/is/are + subject + doing?\n2) What are you doing? — I'm reading.\n3) Yes/no question: put am/is/are first: Are you recording?\n4) Short answers: Yes, I am. / No, I'm not.\n5) In fast speech: What're you doing?", "examples": ["What are you doing? I'm writing.", "What is she doing? She's reading.", "Are you reading the news? No, I'm not.", "Is he recording? Yes, he is."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"What are you doing?\" — Choose the best answer.", "choices": ["I write.", "I'm writing.", "I am write.", "I writing."], "answer": 1, "explanation_ar": "سؤال عن الآن، فنجيب بالمضارع المستمر: I'm writing.", "explanation_en": "The question is about now, so use the present continuous: I'm writing."},
+    {"question": "Complete: Amelia ___ reading for her show.", "choices": ["am", "are", "is", "be"], "answer": 2, "explanation_ar": "مع she (Amelia) نستخدم is.", "explanation_en": "With she (Amelia), use is."},
+    {"question": "What is a 'co-worker'?", "choices": ["a person you work with", "your boss", "a TV show", "a roommate"], "answer": 0, "explanation_ar": "co-worker = زميل العمل.", "explanation_en": "A co-worker is a person you work with."},
+    {"question": "Choose the correct spelling.", "choices": ["writeing", "writting", "wrighting", "writing"], "answer": 3, "explanation_ar": "نحذف e ونضيف ing: writing.", "explanation_en": "Drop the e and add ing: writing."},
+    {"question": "\"Are you recording?\" — \"Yes, ___.\"", "choices": ["I'm", "I am", "I recording", "you are"], "answer": 1, "explanation_ar": "الإجابة القصيرة: Yes, I am (بدون اختصار).", "explanation_en": "Short answer: Yes, I am (no short form at the end)."},
+    {"question": "What does 'busy' mean?", "choices": ["متحمّس", "مشغول", "اجتماعي", "متعب"], "answer": 1, "explanation_ar": "busy = مشغول، لديه أعمال كثيرة.", "explanation_en": "Busy means having a lot to do."},
+    {"question": "Which sentence is about now?", "choices": ["Jonathan does a show every evening.", "Jonathan likes his job.", "Jonathan is recording his show.", "Jonathan lives in Anna's building."], "answer": 2, "explanation_ar": "is recording مضارع مستمر يدل على الآن.", "explanation_en": "Is recording is present continuous; it is about now."},
+    {"question": "Your boss says \"Please call me Caty.\" She means:", "choices": ["Phone me later.", "Use my first name.", "Call the office.", "Stop talking."], "answer": 1, "explanation_ar": "call me + اسم = نادِني بهذا الاسم.", "explanation_en": "Call me + name = use this name for me."},
+    {"question": "\"Social\" is an ___.", "choices": ["adjective", "office", "verb", "studio"], "answer": 0, "explanation_ar": "social صفة (adjective).", "explanation_en": "Social is an adjective; it describes a noun."},
+    {"question": "Choose the correct question.", "choices": ["What you are doing?", "What are doing you?", "What doing are you?", "What are you doing?"], "answer": 3, "explanation_ar": "الترتيب: What + are + you + doing?", "explanation_en": "The order is: What + are + you + doing?"}
+  ]
+}

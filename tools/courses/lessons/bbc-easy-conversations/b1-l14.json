@@ -1,0 +1,493 @@
+{
+ "title": "Talking about your feelings",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "feel",
+    "pos": "verb",
+    "meaning_en": "have an emotion or a feeling in your body",
+    "meaning_ar": "يشعر",
+    "note_ar": "مع he/she: feels.",
+    "note_en": "With he/she: feels.",
+    "example": "I feel happy."
+   },
+   {
+    "word": "feeling",
+    "pos": "noun",
+    "meaning_en": "an emotion, like happy or sad",
+    "meaning_ar": "شعور / إحساس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "How are you feeling?"
+   },
+   {
+    "word": "excited",
+    "pos": "adjective",
+    "meaning_en": "very happy about something good that will happen",
+    "meaning_ar": "متحمس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm so excited! I have tickets for a trip."
+   },
+   {
+    "word": "tired",
+    "pos": "adjective",
+    "meaning_en": "needing rest",
+    "meaning_ar": "متعب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm tired because I went jogging."
+   },
+   {
+    "word": "scared",
+    "pos": "adjective",
+    "meaning_en": "afraid",
+    "meaning_ar": "خائف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She feels scared."
+   },
+   {
+    "word": "sleepy",
+    "pos": "adjective",
+    "meaning_en": "wanting to sleep",
+    "meaning_ar": "نعسان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm feeling sleepy."
+   },
+   {
+    "word": "happy",
+    "pos": "adjective",
+    "meaning_en": "feeling good",
+    "meaning_ar": "سعيد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I feel happy now."
+   },
+   {
+    "word": "sad",
+    "pos": "adjective",
+    "meaning_en": "not happy",
+    "meaning_ar": "حزين",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm sad because I wanted that sandwich."
+   },
+   {
+    "word": "angry",
+    "pos": "adjective",
+    "meaning_en": "feeling very annoyed",
+    "meaning_ar": "غاضب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Hey! That's mine! I'm so angry."
+   },
+   {
+    "word": "hungry",
+    "pos": "adjective",
+    "meaning_en": "wanting food",
+    "meaning_ar": "جائع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can I have some? I'm really hungry."
+   },
+   {
+    "word": "thirsty",
+    "pos": "adjective",
+    "meaning_en": "wanting a drink",
+    "meaning_ar": "عطشان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm really thirsty."
+   },
+   {
+    "word": "full",
+    "pos": "adjective",
+    "meaning_en": "not hungry after eating",
+    "meaning_ar": "شبعان / ممتلئ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "No more, thanks. I'm full."
+   },
+   {
+    "word": "ghost",
+    "pos": "noun",
+    "meaning_en": "the spirit of a dead person in stories",
+    "meaning_ar": "شبح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There's a ghost outside!"
+   },
+   {
+    "word": "ticket",
+    "pos": "noun",
+    "meaning_en": "a paper that lets you go in or travel",
+    "meaning_ar": "تذكرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have tickets for the football match."
+   },
+   {
+    "word": "go jogging",
+    "pos": "phrase",
+    "meaning_en": "run slowly for exercise",
+    "meaning_ar": "يمارس الجري الخفيف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I went jogging this morning."
+   },
+   {
+    "word": "last night",
+    "pos": "phrase",
+    "meaning_en": "the night before today",
+    "meaning_ar": "الليلة الماضية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I couldn't sleep last night."
+   },
+   {
+    "word": "couldn't",
+    "pos": "modal verb",
+    "meaning_en": "could not; was not able to",
+    "meaning_ar": "لم أستطع",
+    "note_ar": "ماضي can't.",
+    "note_en": "The past of can't.",
+    "example": "I couldn't sleep last night."
+   },
+   {
+    "word": "because",
+    "pos": "conjunction",
+    "meaning_en": "used to give a reason",
+    "meaning_ar": "لأن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm tired because I went jogging."
+   },
+   {
+    "word": "really",
+    "pos": "adverb",
+    "meaning_en": "very",
+    "meaning_ar": "حقًا / جدًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm really hungry."
+   },
+   {
+    "word": "so",
+    "pos": "adverb",
+    "meaning_en": "very (to make a feeling stronger)",
+    "meaning_ar": "جدًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm so excited!"
+   },
+   {
+    "word": "delicious",
+    "pos": "adjective",
+    "meaning_en": "very good to eat",
+    "meaning_ar": "لذيذ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That sandwich looks delicious!"
+   },
+   {
+    "word": "mine",
+    "pos": "pronoun",
+    "meaning_en": "belonging to me",
+    "meaning_ar": "مِلكي / لي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Hey! That's mine!"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "tired vs sleepy",
+    "words": [
+     "tired",
+     "sleepy"
+    ],
+    "explanation_ar": "tired = متعب، تحتاج إلى راحة (مثلًا بعد الرياضة). sleepy = نعسان، تريد أن تنام.",
+    "explanation_en": "Tired = you need rest (after work or sport). Sleepy = you want to sleep.",
+    "examples": [
+     {
+      "word": "tired",
+      "sentence": "I'm tired because I went jogging."
+     },
+     {
+      "word": "sleepy",
+      "sentence": "I'm sleepy because I couldn't sleep last night."
+     }
+    ]
+   },
+   {
+    "title": "hungry vs full",
+    "words": [
+     "hungry",
+     "full"
+    ],
+    "explanation_ar": "hungry = جائع تريد الطعام، وfull = شبعان بعد الأكل. وكلمة thirsty = عطشان تريد الشرب.",
+    "explanation_en": "Hungry = you want food. Full = you ate enough. Thirsty = you want a drink.",
+    "examples": [
+     {
+      "word": "hungry",
+      "sentence": "I'm really hungry. Can I have some?"
+     },
+     {
+      "word": "full",
+      "sentence": "I ate the sandwich. Now I'm full."
+     }
+    ]
+   },
+   {
+    "title": "I'm tired / I feel tired / I'm feeling tired",
+    "words": [
+     "I'm",
+     "I feel",
+     "I'm feeling"
+    ],
+    "explanation_ar": "الصيغ الثلاث صحيحة ولها نفس المعنى تقريبًا: I'm tired / I feel tired / I'm feeling tired. ومع he/she: He's tired / He feels tired / He's feeling tired.",
+    "explanation_en": "All three are correct and mean almost the same. With he/she: he's, he feels, he's feeling.",
+    "examples": [
+     {
+      "word": "I'm",
+      "sentence": "I'm tired."
+     },
+     {
+      "word": "I feel",
+      "sentence": "I feel tired."
+     },
+     {
+      "word": "I'm feeling",
+      "sentence": "I'm feeling tired."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "How are you feeling?",
+    "meaning_ar": "كيف تشعر؟",
+    "meaning_en": "asking about someone's feelings",
+    "example": "How are you feeling, Sian? I'm tired."
+   },
+   {
+    "phrase": "How's it going?",
+    "meaning_ar": "كيف الحال؟",
+    "meaning_en": "an informal way to say how are you",
+    "example": "Hi. How's it going?"
+   },
+   {
+    "phrase": "Hiya!",
+    "meaning_ar": "مرحبًا! (غير رسمي)",
+    "meaning_en": "an informal British hello",
+    "example": "Hiya! How are you?"
+   },
+   {
+    "phrase": "I'm so excited!",
+    "meaning_ar": "أنا متحمس جدًا!",
+    "meaning_en": "saying you are very excited",
+    "example": "I have tickets for the match. I'm so excited!"
+   },
+   {
+    "phrase": "Why are you tired?",
+    "meaning_ar": "لماذا أنت متعب؟",
+    "meaning_en": "asking for the reason of a feeling",
+    "example": "Why are you tired? Because I went jogging."
+   },
+   {
+    "phrase": "Because I went jogging this morning.",
+    "meaning_ar": "لأنني ذهبت للجري هذا الصباح.",
+    "meaning_en": "giving a reason",
+    "example": "I'm tired because I went jogging this morning."
+   },
+   {
+    "phrase": "I couldn't sleep last night.",
+    "meaning_ar": "لم أستطع النوم الليلة الماضية.",
+    "meaning_en": "explaining why you are sleepy",
+    "example": "I'm sleepy. I couldn't sleep last night."
+   },
+   {
+    "phrase": "That drink looks great! Can I have some?",
+    "meaning_ar": "هذا المشروب يبدو رائعًا! هل يمكنني أن آخذ قليلًا؟",
+    "meaning_en": "asking politely to share",
+    "example": "That drink looks great! Can I have some? I'm really thirsty."
+   },
+   {
+    "phrase": "Sure! Here you are.",
+    "meaning_ar": "بالتأكيد! تفضل.",
+    "meaning_en": "giving something to someone",
+    "example": "Can I have some? Sure! Here you are."
+   },
+   {
+    "phrase": "Hey! That's mine!",
+    "meaning_ar": "هيه! هذا لي!",
+    "meaning_en": "saying something belongs to you",
+    "example": "Hey! That's mine! I wanted that sandwich."
+   },
+   {
+    "phrase": "I'm full.",
+    "meaning_ar": "أنا شبعان.",
+    "meaning_en": "saying you ate enough",
+    "example": "No, thank you. I'm full."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Talking about feelings: be / feel / be feeling",
+    "explanation_ar": "نعبّر عن الشعور بثلاث طرق: I'm + صفة، أو I feel + صفة، أو I'm feeling + صفة. ومع he/she: He's excited / He feels excited / He's feeling excited.",
+    "explanation_en": "Three ways: be + adjective, feel + adjective, be feeling + adjective. With he/she: he's / he feels / he's feeling.",
+    "examples": [
+     "I'm tired.",
+     "She feels scared.",
+     "He's feeling sleepy.",
+     "How does Tim feel? He's excited.",
+     "How is Sian feeling? She's feeling tired."
+    ]
+   },
+   {
+    "title": "Why ...? Because ...",
+    "explanation_ar": "نسأل عن السبب بـ Why؟ ونجيب بـ Because + جملة.",
+    "explanation_en": "Ask for a reason with Why? Answer with Because + sentence.",
+    "examples": [
+     "Why are you tired? Because I went jogging this morning.",
+     "Why are you scared? Because there's a ghost outside!",
+     "She's sad because she wanted that sandwich."
+    ]
+   },
+   {
+    "title": "looks + adjective",
+    "explanation_ar": "نستخدم looks + صفة لنقول كيف يبدو الشيء: That sandwich looks delicious.",
+    "explanation_en": "Use looks + adjective to say how something seems.",
+    "examples": [
+     "That drink looks great!",
+     "That sandwich looks delicious!",
+     "You look happy."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "You want a drink. You are ...",
+   "choices": [
+    "hungry",
+    "thirsty",
+    "full",
+    "scared"
+   ],
+   "answer": 1,
+   "explanation_ar": "thirsty = عطشان تريد الشرب.",
+   "explanation_en": "Thirsty = you want a drink."
+  },
+  {
+   "question": "You ate a big lunch. Now you are ...",
+   "choices": [
+    "hungry",
+    "sleepy",
+    "full",
+    "thirsty"
+   ],
+   "answer": 2,
+   "explanation_ar": "full = شبعان بعد الأكل.",
+   "explanation_en": "Full = you ate enough."
+  },
+  {
+   "question": "\"There's a ghost outside!\" How does Georgie feel?",
+   "choices": [
+    "scared",
+    "full",
+    "hungry",
+    "bored"
+   ],
+   "answer": 0,
+   "explanation_ar": "خافت من الشبح: scared.",
+   "explanation_en": "She is afraid: scared."
+  },
+  {
+   "question": "Complete: \"How does Tim feel?\" \"He ___ excited.\"",
+   "choices": [
+    "feel",
+    "feeling",
+    "feels",
+    "is feel"
+   ],
+   "answer": 2,
+   "explanation_ar": "مع he: feels.",
+   "explanation_en": "With he, use feels."
+  },
+  {
+   "question": "Which sentence is NOT correct?",
+   "choices": [
+    "She's tired.",
+    "She feels tired.",
+    "She's feeling tired.",
+    "She feeling tired."
+   ],
+   "answer": 3,
+   "explanation_ar": "ينقصها is: She's feeling tired.",
+   "explanation_en": "It needs is: She's feeling tired."
+  },
+  {
+   "question": "\"Why are you sleepy?\" Choose the best answer.",
+   "choices": [
+    "Because I couldn't sleep last night.",
+    "Yes, I am sleepy.",
+    "I'm sleepy at night.",
+    "Sure! Here you are."
+   ],
+   "answer": 0,
+   "explanation_ar": "نجيب عن Why بـ Because.",
+   "explanation_en": "Answer Why with Because."
+  },
+  {
+   "question": "\"I'm tired\" means ...",
+   "choices": [
+    "I want food.",
+    "I need rest.",
+    "I am afraid.",
+    "I am very happy."
+   ],
+   "answer": 1,
+   "explanation_ar": "tired = متعب يحتاج إلى راحة.",
+   "explanation_en": "Tired = you need rest."
+  },
+  {
+   "question": "Complete: \"That sandwich ___ delicious!\"",
+   "choices": [
+    "look",
+    "looks",
+    "is look",
+    "looking"
+   ],
+   "answer": 1,
+   "explanation_ar": "looks + صفة مع المفرد.",
+   "explanation_en": "That sandwich looks delicious."
+  },
+  {
+   "question": "Someone eats your sandwich. You say: \"Hey! That's ___!\"",
+   "choices": [
+    "me",
+    "my",
+    "I",
+    "mine"
+   ],
+   "answer": 3,
+   "explanation_ar": "mine = ملكي.",
+   "explanation_en": "Mine = belonging to me."
+  },
+  {
+   "question": "\"How's it going?\" is ...",
+   "choices": [
+    "a way to ask the time",
+    "an informal way to say how are you",
+    "a way to ask for food",
+    "a way to say goodbye"
+   ],
+   "answer": 1,
+   "explanation_ar": "How's it going? = كيف الحال؟",
+   "explanation_en": "It's an informal \"How are you?\""
+  }
+ ]
+}

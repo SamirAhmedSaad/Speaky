@@ -1,0 +1,425 @@
+{
+  "title": "Language for Emergencies",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "emergency",
+        "pos": "noun",
+        "meaning_en": "a sudden dangerous situation that needs fast action",
+        "meaning_ar": "حالة طوارئ",
+        "note_ar": "الجمع: emergencies",
+        "note_en": "Plural: emergencies.",
+        "example": "In an emergency, stay calm and follow the instructions."
+      },
+      {
+        "word": "panic",
+        "pos": "verb / noun",
+        "meaning_en": "suddenly feel so afraid that you cannot think clearly",
+        "meaning_ar": "يذعر / ذعر",
+        "note_ar": "الماضي: panicked بإضافة k",
+        "note_en": "Past tense: panicked (add k).",
+        "example": "There's no need to panic."
+      },
+      {
+        "word": "drill",
+        "pos": "noun",
+        "meaning_en": "a practice of what to do in an emergency",
+        "meaning_ar": "تمرين / تدريب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That was just a fire drill, not a real fire."
+      },
+      {
+        "word": "practice",
+        "pos": "noun",
+        "meaning_en": "doing something to get ready for the real thing",
+        "meaning_ar": "تدريب / ممارسة",
+        "note_ar": "في بريطانيا practice اسم وpractise فعل",
+        "note_en": "UK: practice (noun), practise (verb).",
+        "example": "The drill is a practice for a real fire."
+      },
+      {
+        "word": "leave the building",
+        "pos": "phrase",
+        "meaning_en": "go out of the building",
+        "meaning_ar": "يغادر المبنى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please leave the building by the nearest exit."
+      },
+      {
+        "word": "stairs",
+        "pos": "noun",
+        "meaning_en": "steps that go from one floor to another",
+        "meaning_ar": "الدَّرَج / السلالم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Use the stairs, not the lift."
+      },
+      {
+        "word": "lift / elevator",
+        "pos": "noun",
+        "meaning_en": "a machine that carries people between floors",
+        "meaning_ar": "المصعد",
+        "note_ar": "lift في بريطانيا، elevator في أمريكا",
+        "note_en": "Lift is British; elevator is American.",
+        "example": "Never use the lift during a fire."
+      },
+      {
+        "word": "missing",
+        "pos": "adjective",
+        "meaning_en": "not here; we cannot find them",
+        "meaning_ar": "مفقود / غائب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is anybody missing?"
+      },
+      {
+        "word": "take charge",
+        "pos": "phrase",
+        "meaning_en": "become the person who controls a situation",
+        "meaning_ar": "يتولّى القيادة / المسؤولية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "When the manager was out, Anna took charge."
+      },
+      {
+        "word": "attention",
+        "pos": "noun",
+        "meaning_en": "listening to or looking at something carefully",
+        "meaning_ar": "انتباه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I have your attention, please?"
+      },
+      {
+        "word": "informed",
+        "pos": "adjective",
+        "meaning_en": "having the latest information",
+        "meaning_ar": "على اطلاع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please keep everyone informed."
+      },
+      {
+        "word": "smoke",
+        "pos": "noun",
+        "meaning_en": "the grey cloud that comes from something burning",
+        "meaning_ar": "دخان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can anyone smell smoke?"
+      },
+      {
+        "word": "put out (a fire)",
+        "pos": "phrasal verb",
+        "meaning_en": "stop a fire burning",
+        "meaning_ar": "يُطفئ (حريقًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Tom put out the fire in the warehouse."
+      },
+      {
+        "word": "hero",
+        "pos": "noun",
+        "meaning_en": "a brave person who helps others",
+        "meaning_ar": "بطل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The man who saved his colleague was a hero."
+      },
+      {
+        "word": "in the unlikely event of",
+        "pos": "phrase",
+        "meaning_en": "if something that probably won't happen does happen (formal)",
+        "meaning_ar": "في حال حدوث (أمر غير متوقع)",
+        "note_ar": "تعبير رسمي يُستخدم في التعليمات",
+        "note_en": "A formal phrase used in instructions.",
+        "example": "In the unlikely event of a fire, use the stairs."
+      },
+      {
+        "word": "urgent",
+        "pos": "adjective",
+        "meaning_en": "needing quick action",
+        "meaning_ar": "عاجل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Louder, please. This is urgent!"
+      },
+      {
+        "word": "calm",
+        "pos": "adjective",
+        "meaning_en": "quiet and not worried",
+        "meaning_ar": "هادئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please stay calm."
+      },
+      {
+        "word": "in serious trouble",
+        "pos": "phrase",
+        "meaning_en": "in a very bad situation because of a mistake",
+        "meaning_ar": "في ورطة كبيرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is in serious trouble for breaking the rules."
+      },
+      {
+        "word": "head of the company",
+        "pos": "noun",
+        "meaning_en": "the most important boss of the company",
+        "meaning_ar": "رئيس الشركة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The head of the company is visiting today."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "lift vs elevator",
+        "words": [
+          "lift",
+          "elevator"
+        ],
+        "explanation_ar": "الكلمتان بمعنى المصعد؛ lift بريطانية وelevator أمريكية.",
+        "explanation_en": "Both mean the machine that carries people up and down. Lift is British, elevator is American.",
+        "examples": [
+          {
+            "word": "lift",
+            "sentence": "Take the lift to the fifth floor."
+          },
+          {
+            "word": "elevator",
+            "sentence": "The elevator is next to reception."
+          }
+        ]
+      },
+      {
+        "title": "stairs vs steps",
+        "words": [
+          "stairs",
+          "steps"
+        ],
+        "explanation_ar": "stairs هي السلالم داخل المبنى بين الطوابق، وsteps درجات قليلة غالبًا خارج المبنى أو كل درجة منفردة.",
+        "explanation_en": "Stairs go between floors inside a building. Steps are single steps, often a few outside a door.",
+        "examples": [
+          {
+            "word": "stairs",
+            "sentence": "Walk down the stairs to the ground floor."
+          },
+          {
+            "word": "steps",
+            "sentence": "There are three steps at the front door."
+          }
+        ]
+      },
+      {
+        "title": "anybody vs nobody",
+        "words": [
+          "anybody",
+          "nobody"
+        ],
+        "explanation_ar": "anybody في الأسئلة والنفي (Is anybody missing?)، وnobody تعني لا أحد وتأتي مع فعل مثبت.",
+        "explanation_en": "Use anybody in questions and negatives. Nobody means 'no person' and goes with a positive verb.",
+        "examples": [
+          {
+            "word": "anybody",
+            "sentence": "Is anybody missing?"
+          },
+          {
+            "word": "nobody",
+            "sentence": "Nobody is missing. Everyone is here."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "There's no need to panic.",
+        "meaning_ar": "لا داعي للذعر.",
+        "meaning_en": "Don't be afraid; stay calm.",
+        "example": "There's no need to panic. Everything is under control."
+      },
+      {
+        "phrase": "Please leave the building and meet outside.",
+        "meaning_ar": "يُرجى مغادرة المبنى والتجمع في الخارج.",
+        "meaning_en": "Go out and wait outside together.",
+        "example": "The alarm is ringing. Please leave the building and meet outside."
+      },
+      {
+        "phrase": "Use the stairs not the lift.",
+        "meaning_ar": "استخدموا الدرج لا المصعد.",
+        "meaning_en": "Do not take the lift in a fire.",
+        "example": "Use the stairs not the lift, and walk calmly."
+      },
+      {
+        "phrase": "Is anybody missing?",
+        "meaning_ar": "هل هناك أحد مفقود؟",
+        "meaning_en": "Is everyone here?",
+        "example": "We're all outside now. Is anybody missing?"
+      },
+      {
+        "phrase": "Could I have your attention, please?",
+        "meaning_ar": "هل يمكنني أن أحظى بانتباهكم من فضلكم؟",
+        "meaning_en": "A polite way to ask people to listen.",
+        "example": "Could I have your attention, please? We need to leave now."
+      },
+      {
+        "phrase": "Please stay calm.",
+        "meaning_ar": "يُرجى البقاء هادئين.",
+        "meaning_en": "Don't worry or rush.",
+        "example": "Please stay calm and follow me."
+      },
+      {
+        "phrase": "That was just a drill.",
+        "meaning_ar": "كان ذلك مجرد تمرين.",
+        "meaning_en": "It was a practice, not a real emergency.",
+        "example": "Don't worry, that was just a drill."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Giving instructions politely: Please + imperative",
+        "explanation_ar": "لإعطاء تعليمات مهذبة في الطوارئ نضع please قبل فعل الأمر: Please leave the building. ونستخدم Use ... not ... لبيان البديل الصحيح.",
+        "explanation_en": "Put please before an imperative to give polite instructions: Please leave the building. Use 'X not Y' to show the right choice.",
+        "examples": [
+          "Please leave the building.",
+          "Please stay calm.",
+          "Use the stairs not the lift."
+        ]
+      },
+      {
+        "title": "There's no need to + verb",
+        "explanation_ar": "نستخدم There's no need to + فعل مجرد لنقول إن شيئًا ما غير ضروري، وهي طريقة لطيفة لتهدئة الناس.",
+        "explanation_en": "Use There's no need to + base verb to say something is not necessary. It is a kind way to calm people.",
+        "examples": [
+          "There's no need to panic.",
+          "There's no need to run.",
+          "There's no need to call me back."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What can you say to keep people calm?",
+      "choices": [
+        "Run!",
+        "There's no need to panic.",
+        "Panic now!",
+        "Use the lift quickly."
+      ],
+      "answer": 1,
+      "explanation_ar": "There's no need to panic تعني لا داعي للذعر.",
+      "explanation_en": "This phrase tells people not to be afraid."
+    },
+    {
+      "question": "Use the ___ not the lift.",
+      "choices": [
+        "stairs",
+        "window",
+        "car",
+        "phone"
+      ],
+      "answer": 0,
+      "explanation_ar": "في الحريق نستخدم الدرج.",
+      "explanation_en": "In a fire, use the stairs."
+    },
+    {
+      "question": "\"Is anybody ___?\" (Is everyone here?)",
+      "choices": [
+        "missed",
+        "missing",
+        "miss",
+        "misses"
+      ],
+      "answer": 1,
+      "explanation_ar": "missing صفة بمعنى مفقود.",
+      "explanation_en": "Missing is the adjective meaning 'not here'."
+    },
+    {
+      "question": "A fire drill is...",
+      "choices": [
+        "a real fire",
+        "a type of lift",
+        "a practice",
+        "a fire exit"
+      ],
+      "answer": 2,
+      "explanation_ar": "drill تعني تمرين.",
+      "explanation_en": "A drill is a practice."
+    },
+    {
+      "question": "Which word is American English for 'lift'?",
+      "choices": [
+        "stair",
+        "escalator",
+        "elevator",
+        "floor"
+      ],
+      "answer": 2,
+      "explanation_ar": "elevator هي الكلمة الأمريكية.",
+      "explanation_en": "Americans say elevator."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "There's no need panic.",
+        "There's no need to panic.",
+        "There's no need panicking.",
+        "There no need to panic."
+      ],
+      "answer": 1,
+      "explanation_ar": "التركيب الصحيح: There's no need to + فعل.",
+      "explanation_en": "The pattern is There's no need to + verb."
+    },
+    {
+      "question": "\"Take charge\" means...",
+      "choices": [
+        "pay money",
+        "become the person in control",
+        "charge your phone",
+        "leave the office"
+      ],
+      "answer": 1,
+      "explanation_ar": "take charge تعني تولي القيادة.",
+      "explanation_en": "Take charge means become the leader in a situation."
+    },
+    {
+      "question": "Could I have your ___, please?",
+      "choices": [
+        "attention",
+        "attend",
+        "attentive",
+        "attending"
+      ],
+      "answer": 0,
+      "explanation_ar": "نحتاج اسمًا: attention.",
+      "explanation_en": "We need the noun attention."
+    },
+    {
+      "question": "Tom ___ the fire in the warehouse.",
+      "choices": [
+        "put on",
+        "put off",
+        "put up",
+        "put out"
+      ],
+      "answer": 3,
+      "explanation_ar": "put out a fire تعني أطفأ الحريق.",
+      "explanation_en": "Put out a fire means stop it burning."
+    },
+    {
+      "question": "Which is a polite instruction?",
+      "choices": [
+        "You leaving now.",
+        "Please leave the building.",
+        "Leaves the building.",
+        "Left the building please."
+      ],
+      "answer": 1,
+      "explanation_ar": "Please + فعل الأمر طريقة مهذبة للتعليمات.",
+      "explanation_en": "Please + imperative is a polite instruction."
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "title": "What's that?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "what",
+        "pos": "pronoun",
+        "meaning_en": "word we use to ask about a thing",
+        "meaning_ar": "ماذا / ما",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's that?"
+      },
+      {
+        "word": "that",
+        "pos": "pronoun",
+        "meaning_en": "a thing far from you",
+        "meaning_ar": "ذلك / تلك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's that on the tree?"
+      },
+      {
+        "word": "it",
+        "pos": "pronoun",
+        "meaning_en": "a thing or an animal (not a person)",
+        "meaning_ar": "هو / هي (لغير العاقل)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a cat."
+      },
+      {
+        "word": "bird",
+        "pos": "noun",
+        "meaning_en": "an animal with wings that can fly",
+        "meaning_ar": "طائر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a bird."
+      },
+      {
+        "word": "cat",
+        "pos": "noun",
+        "meaning_en": "a small animal that lives in many homes",
+        "meaning_ar": "قطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a cat."
+      },
+      {
+        "word": "dog",
+        "pos": "noun",
+        "meaning_en": "an animal that people keep at home; it barks",
+        "meaning_ar": "كلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a dog."
+      },
+      {
+        "word": "no",
+        "pos": "adverb",
+        "meaning_en": "the opposite of yes",
+        "meaning_ar": "لا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "No, it's a cat."
+      },
+      {
+        "word": "for you",
+        "pos": "phrase",
+        "meaning_en": "we give it to you",
+        "meaning_ar": "لك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is for you."
+      },
+      {
+        "word": "thank you",
+        "pos": "phrase",
+        "meaning_en": "polite words when someone gives or helps",
+        "meaning_ar": "شكرًا لك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for the book."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "this vs that",
+        "words": [
+          "this",
+          "that"
+        ],
+        "explanation_ar": "this للشيء القريب منك، و that للشيء البعيد عنك.",
+        "explanation_en": "\"this\" is for a thing near you. \"that\" is for a thing far from you.",
+        "examples": [
+          {
+            "word": "this",
+            "sentence": "This is my bag."
+          },
+          {
+            "word": "that",
+            "sentence": "What's that in the sky?"
+          }
+        ]
+      },
+      {
+        "title": "a + noun",
+        "words": [
+          "a cat",
+          "a dog"
+        ],
+        "explanation_ar": "نضع a قبل الاسم المفرد عندما نذكره أول مرة: a cat, a dog, a bird.",
+        "explanation_en": "Put \"a\" before one thing: a cat, a dog, a bird.",
+        "examples": [
+          {
+            "word": "a cat",
+            "sentence": "It's a cat."
+          },
+          {
+            "word": "a dog",
+            "sentence": "It's a dog."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What's that?",
+        "meaning_ar": "ما ذلك؟",
+        "meaning_en": "What is that thing?",
+        "example": "What's that? - It's a bird."
+      },
+      {
+        "phrase": "It's a cat.",
+        "meaning_ar": "إنها قطة.",
+        "meaning_en": "That thing is a cat.",
+        "example": "What's that? - It's a cat."
+      },
+      {
+        "phrase": "It's for you.",
+        "meaning_ar": "إنه لك.",
+        "meaning_en": "I am giving it to you.",
+        "example": "Here is a book. It's for you."
+      },
+      {
+        "phrase": "Thank you.",
+        "meaning_ar": "شكرًا لك.",
+        "meaning_en": "Polite words when you get something.",
+        "example": "It's for you. - Thank you."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "What's that? - It's a ...",
+        "explanation_ar": "What's = What is. نسأل What's that? عن شيء بعيد، ونجيب It's a + اسم الشيء. It's = It is.",
+        "explanation_en": "What's = What is. Ask \"What's that?\" Answer \"It's a ...\" (It's = It is).",
+        "examples": [
+          "What's that? - It's a bird.",
+          "What's that? - It's a dog.",
+          "It's a cat."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What's that? - ___",
+      "choices": [
+        "It's a cat.",
+        "I'm seven.",
+        "Thank you.",
+        "Me too."
+      ],
+      "answer": 0,
+      "explanation_ar": "نجيب عن What's that? بـ It's a ...",
+      "explanation_en": "Answer \"What's that?\" with \"It's a ...\"."
+    },
+    {
+      "question": "\"What's\" is short for ___.",
+      "choices": [
+        "What are",
+        "What is",
+        "What am",
+        "What it"
+      ],
+      "answer": 1,
+      "explanation_ar": "هذا اختصار: What's = What is.",
+      "explanation_en": "What's = What is."
+    },
+    {
+      "question": "Which animal can fly?",
+      "choices": [
+        "cat",
+        "dog",
+        "bird",
+        "table"
+      ],
+      "answer": 2,
+      "explanation_ar": "الطائر bird يطير.",
+      "explanation_en": "A bird can fly."
+    },
+    {
+      "question": "It's a book. It's for you. - ___",
+      "choices": [
+        "No, no.",
+        "How old?",
+        "What's that?",
+        "Thank you."
+      ],
+      "answer": 3,
+      "explanation_ar": "عندما يعطيك أحد شيئًا تقول Thank you.",
+      "explanation_en": "Say \"Thank you\" when someone gives you something."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "It's cat.",
+        "It a cat.",
+        "It's a cat.",
+        "Its a cat"
+      ],
+      "answer": 2,
+      "explanation_ar": "نحتاج It's ثم a قبل الاسم المفرد.",
+      "explanation_en": "We need \"It's\" and \"a\" before the noun."
+    },
+    {
+      "question": "The ball is far from you. You ask: ___",
+      "choices": [
+        "What's this?",
+        "What's that?",
+        "Who is that?",
+        "How old is that?"
+      ],
+      "answer": 1,
+      "explanation_ar": "that للشيء البعيد.",
+      "explanation_en": "\"that\" is for a thing far away."
+    },
+    {
+      "question": "\"dog\" in Arabic is ___.",
+      "choices": [
+        "كلب",
+        "قطة",
+        "طائر",
+        "سمكة"
+      ],
+      "answer": 0,
+      "explanation_ar": "dog = كلب.",
+      "explanation_en": "dog = كلب."
+    },
+    {
+      "question": "It's a bird. - ___, it's a cat.",
+      "choices": [
+        "Yes",
+        "Wow",
+        "Hi",
+        "No"
+      ],
+      "answer": 3,
+      "explanation_ar": "نصحح المعلومة بقول No.",
+      "explanation_en": "We use \"No\" to correct someone."
+    },
+    {
+      "question": "\"It's\" means ___.",
+      "choices": [
+        "It is",
+        "It has",
+        "I am",
+        "It was"
+      ],
+      "answer": 0,
+      "explanation_ar": "هذا اختصار: It's = It is.",
+      "explanation_en": "It's = It is."
+    },
+    {
+      "question": "What's ___? - It's a dog.",
+      "choices": [
+        "you",
+        "that",
+        "how",
+        "old"
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال الصحيح What's that?",
+      "explanation_en": "The question is \"What's that?\""
+    }
+  ]
+}

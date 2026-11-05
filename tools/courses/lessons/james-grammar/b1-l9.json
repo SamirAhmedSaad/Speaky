@@ -1,0 +1,51 @@
+{
+  "title": "The Many Uses of Some",
+  "content": {
+    "vocabulary": [
+      {"word": "some", "pos": "determiner/pronoun/adjective/adverb", "meaning_en": "an unspecified amount: more than one or two, but less than many", "meaning_ar": "بعض / عدد أو كمية غير محددة", "note_ar": "", "note_en": "", "example": "Can you give me some money?"},
+      {"word": "unspecified", "pos": "adjective", "meaning_en": "not said exactly", "meaning_ar": "غير محدد", "note_ar": "", "note_en": "", "example": "I made an unspecified amount of money."},
+      {"word": "approximate", "pos": "adjective", "meaning_en": "close to the exact number, but not exact", "meaning_ar": "تقريبي", "note_ar": "", "note_en": "", "example": "The approximate price is 50 dollars."},
+      {"word": "sum", "pos": "noun", "meaning_en": "1) an amount of money; 2) the total when you add numbers", "meaning_ar": "مبلغ / مجموع", "note_ar": "تُنطق مثل some تمامًا", "note_en": "Sounds exactly like \"some\".", "example": "Two plus two: the sum is four."},
+      {"word": "a large sum", "pos": "phrase", "meaning_en": "a lot of money", "meaning_ar": "مبلغ كبير", "note_ar": "", "note_en": "", "example": "He asked a large sum for a bottle of water."},
+      {"word": "homophone", "pos": "noun", "meaning_en": "a word that sounds the same as another word but has a different meaning", "meaning_ar": "كلمة متشابهة في النطق مختلفة في المعنى", "note_ar": "", "note_en": "", "example": "\"Some\" and \"sum\" are homophones."},
+      {"word": "determiner", "pos": "noun", "meaning_en": "a word before a noun that tells which or how many: a, the, some", "meaning_ar": "محدِّد (كلمة تسبق الاسم)", "note_ar": "", "note_en": "", "example": "In \"some chairs\", \"some\" is a determiner."},
+      {"word": "and then some", "pos": "phrase", "meaning_en": "and a lot more", "meaning_ar": "وأكثر من ذلك بكثير", "note_ar": "", "note_en": "", "example": "You will make your money back, and then some."},
+      {"word": "somewhat", "pos": "adverb", "meaning_en": "a little; to a moderate degree", "meaning_ar": "إلى حدٍّ ما / قليلًا", "note_ar": "", "note_en": "", "example": "The lesson was somewhat difficult."},
+      {"word": "tiresome", "pos": "adjective", "meaning_en": "boring or annoying, making you tired", "meaning_ar": "مُتعِب / مُمِلّ", "note_ar": "", "note_en": "", "example": "His long speech was tiresome."},
+      {"word": "moderate", "pos": "adjective", "meaning_en": "not too much and not too little; medium", "meaning_ar": "معتدل / متوسط", "note_ar": "", "note_en": "", "example": "He has grown a moderate amount."},
+      {"word": "grow", "pos": "verb", "meaning_en": "become bigger or taller", "meaning_ar": "ينمو / يكبر", "note_ar": "grow – grew – grown", "note_en": "grow – grew – grown", "example": "Your son has grown some since last year."},
+      {"word": "plenty", "pos": "pronoun", "meaning_en": "a lot; more than enough", "meaning_ar": "الكثير / وفرة", "note_ar": "", "note_en": "", "example": "We have plenty of food."},
+      {"word": "equal", "pos": "adjective", "meaning_en": "the same in value or rights", "meaning_ar": "متساوٍ", "note_ar": "", "note_en": "", "example": "All students are equal in this class."}
+    ],
+    "fine_lines": [
+      {"title": "some vs sum", "words": ["some", "sum"], "explanation_ar": "تُنطقان بالطريقة نفسها. some = عدد/كمية غير محددة. sum = مبلغ من المال أو مجموع الأرقام.", "explanation_en": "They sound the same. \"Some\" = an unspecified amount. \"Sum\" = an amount of money, or the total of numbers added together.", "examples": [{"word": "some", "sentence": "Please bring some chairs."}, {"word": "sum", "sentence": "The sum of 5 and 3 is 8."}]},
+      {"title": "and then some vs somewhat", "words": ["and then some", "somewhat"], "explanation_ar": "and then some = أكثر بكثير (كمية كبيرة). somewhat = قليلًا، إلى حدٍّ ما.", "explanation_en": "\"And then some\" = a lot more. \"Somewhat\" = a little.", "examples": [{"word": "and then some", "sentence": "He worked all day, and then some."}, {"word": "somewhat", "sentence": "He has changed somewhat."}]},
+      {"title": "tired vs tiresome", "words": ["tired", "tiresome"], "explanation_ar": "tired تصف شعورك (متعب). tiresome تصف الشيء الذي يُتعبك لأنه ممل أو مزعج.", "explanation_en": "\"Tired\" describes how you feel. \"Tiresome\" describes a thing that makes you tired because it is boring or annoying.", "examples": [{"word": "tired", "sentence": "I'm tired after work."}, {"word": "tiresome", "sentence": "The meeting was tiresome."}]}
+    ],
+    "expressions": [
+      {"phrase": "Can you give me some money?", "meaning_ar": "هل يمكنك أن تعطيني بعض المال؟", "meaning_en": "Asking for an amount of money (not exact).", "example": "I forgot my wallet. Can you give me some money?"},
+      {"phrase": "Some have left already.", "meaning_ar": "بعضهم غادر بالفعل.", "meaning_en": "Some of the people have gone.", "example": "The meeting is almost over. Some have left already."},
+      {"phrase": "Some may say...", "meaning_ar": "قد يقول البعض...", "meaning_en": "Some people might say...", "example": "Some may say this is a good idea."}
+    ],
+    "grammar": [
+      {"title": "Some = an unspecified amount", "explanation_ar": "some تعني كمية أو عددًا غير محدد: أكثر من واحد أو اثنين، وأقل من \"كثير\".", "explanation_en": "\"Some\" means an amount we don't state exactly: more than one or two, but less than many.", "examples": ["Please bring some chairs. (maybe 3 or 4)", "Can you give me some money?"]},
+      {"title": "Some as a determiner", "explanation_ar": "يأتي some قبل الاسم ليحدد كميته: some chairs, some money.", "explanation_en": "\"Some\" comes before a noun to tell how many or how much: some chairs, some money.", "examples": ["I made some money.", "Please bring some chairs."]},
+      {"title": "Some as a pronoun", "explanation_ar": "يمكن أن يقف some وحده بدل الاسم (بمعنى بعض الناس أو بعض الأشياء): Some have left = بعضهم غادر.", "explanation_en": "\"Some\" can stand alone and replace a noun (some people, some things): \"Some have left already.\"", "examples": ["Some have left already.", "Some may say this is a good idea."]},
+      {"title": "Some as an adjective", "explanation_ar": "some قبل اسم لتعني مجموعة غير محددة من نوع ما: some animals = بعض الحيوانات (مجموعة معينة لم نذكرها).", "explanation_en": "\"Some\" before a noun can mean a certain group that we don't name: \"some animals\".", "examples": ["All animals are equal, but some animals are more equal."]},
+      {"title": "Some as an adverb (informal)", "explanation_ar": "في الكلام غير الرسمي يأتي some بعد الفعل بمعنى \"قليلًا / بقدر معتدل\": He has grown some.", "explanation_en": "In informal speech, \"some\" after a verb means \"a moderate amount\": \"He has grown some.\"", "examples": ["He has grown some since last year."]},
+      {"title": "Words made with some", "explanation_ar": "somewhat (ظرف) = قليلًا. tiresome (صفة) = مُتعِب ممل. and then some (عبارة) = وأكثر بكثير.", "explanation_en": "somewhat (adverb) = a little. tiresome (adjective) = boring/annoying. and then some (phrase) = and a lot more.", "examples": ["The test was somewhat easy.", "It was a tiresome trip.", "You'll get your money back, and then some."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"Some\" means ___.", "choices": ["exactly one", "an unspecified amount", "all of them", "none"], "answer": 1, "explanation_ar": "some = كمية غير محددة.", "explanation_en": "\"Some\" = an unspecified amount."},
+    {"question": "\"Two plus two: the ___ is four.\"", "choices": ["some", "sum", "same", "somewhat"], "answer": 1, "explanation_ar": "sum = مجموع الأرقام.", "explanation_en": "\"Sum\" = the total of numbers."},
+    {"question": "In \"Some have left already\", \"some\" is a ___.", "choices": ["pronoun", "determiner", "adverb", "verb"], "answer": 0, "explanation_ar": "تقف وحدها بدل الاسم، فهي ضمير.", "explanation_en": "It stands alone instead of a noun, so it is a pronoun."},
+    {"question": "In \"Please bring some chairs\", \"some\" is a ___.", "choices": ["pronoun", "adverb", "determiner", "noun"], "answer": 2, "explanation_ar": "تأتي قبل الاسم chairs لتحدد العدد.", "explanation_en": "It comes before \"chairs\" and tells how many: a determiner."},
+    {"question": "In \"He has grown some since last year\", \"some\" is an ___.", "choices": ["article", "adjective", "pronoun", "adverb"], "answer": 3, "explanation_ar": "تصف الفعل grown، فهي ظرف.", "explanation_en": "It describes the verb \"grown\", so it is an adverb."},
+    {"question": "\"You will make your money back, and then ___.\" (= a lot more)", "choices": ["some", "sum", "somewhat", "same"], "answer": 0, "explanation_ar": "التعبير: and then some.", "explanation_en": "The expression is \"and then some\"."},
+    {"question": "\"He has changed ___.\" (= a little)", "choices": ["and then some", "somewhat", "tiresome", "sum"], "answer": 1, "explanation_ar": "somewhat = قليلًا.", "explanation_en": "\"Somewhat\" = a little."},
+    {"question": "\"The two-hour speech was very ___.\" (boring)", "choices": ["somewhat", "tired", "tiresome", "some"], "answer": 2, "explanation_ar": "tiresome تصف الشيء الممل.", "explanation_en": "\"Tiresome\" describes a boring thing."},
+    {"question": "\"He asked a large ___ for a bottle of water.\"", "choices": ["some", "somewhat", "sun", "sum"], "answer": 3, "explanation_ar": "a large sum = مبلغ كبير من المال.", "explanation_en": "\"A large sum\" = a lot of money."},
+    {"question": "\"Some\" and \"sum\" are ___.", "choices": ["homophones", "verbs", "opposites", "plurals"], "answer": 0, "explanation_ar": "لهما النطق نفسه ومعنى مختلف.", "explanation_en": "They sound the same but have different meanings."}
+  ]
+}

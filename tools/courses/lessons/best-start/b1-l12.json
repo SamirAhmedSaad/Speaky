@@ -1,0 +1,71 @@
+{
+  "title": "Prepositions of Place, Where and There is/are",
+  "content": {
+    "vocabulary": [
+      {"word": "preposition", "pos": "noun", "meaning_en": "a small word that shows place, time or direction", "meaning_ar": "حرف جر", "note_ar": "", "note_en": "", "example": "\"On\" and \"under\" are prepositions."},
+      {"word": "behind", "pos": "preposition", "meaning_en": "at the back of something", "meaning_ar": "خلف / وراء", "note_ar": "", "note_en": "", "example": "The cat is behind the box."},
+      {"word": "on", "pos": "preposition", "meaning_en": "touching the top of something", "meaning_ar": "على", "note_ar": "", "note_en": "", "example": "The cat is on the chair."},
+      {"word": "under", "pos": "preposition", "meaning_en": "below something", "meaning_ar": "تحت", "note_ar": "", "note_en": "", "example": "The cat is under the table."},
+      {"word": "in", "pos": "preposition", "meaning_en": "inside something", "meaning_ar": "في / داخل", "note_ar": "", "note_en": "", "example": "The apple is in the dish."},
+      {"word": "between", "pos": "preposition", "meaning_en": "in the middle of two things", "meaning_ar": "بين", "note_ar": "يأتي بعدها شيئان دائمًا: between A and B", "note_en": "It always needs two things: between A and B.", "example": "The hen is between the duck and the sheep."},
+      {"word": "where", "pos": "question word", "meaning_en": "in what place", "meaning_ar": "أين", "note_ar": "أدوات استفهام أخذناها: what (ما/ماذا)، how many (كم عدد)، where (أين)", "note_en": "Question words so far: what, how many, where.", "example": "Where is the cat?"},
+      {"word": "there is", "pos": "phrase", "meaning_en": "used to say one thing exists in a place", "meaning_ar": "يوجد (للمفرد)", "note_ar": "الاختصار there's", "note_en": "Short form: there's.", "example": "There is a tree in the garden."},
+      {"word": "there are", "pos": "phrase", "meaning_en": "used to say many things exist in a place", "meaning_ar": "يوجد (للجمع)", "note_ar": "", "note_en": "", "example": "There are cars in the street."},
+      {"word": "chair", "pos": "noun", "meaning_en": "a seat for one person", "meaning_ar": "كرسي", "note_ar": "", "note_en": "", "example": "The bag is on the chair."},
+      {"word": "table", "pos": "noun", "meaning_en": "furniture with a flat top and legs", "meaning_ar": "طاولة / ترابيزة", "note_ar": "", "note_en": "", "example": "The ball is under the table."},
+      {"word": "box", "pos": "noun", "meaning_en": "a container with flat sides", "meaning_ar": "صندوق", "note_ar": "الجمع boxes", "note_en": "Plural: boxes.", "example": "The books are in the box."},
+      {"word": "room", "pos": "noun", "meaning_en": "a part of a house with walls", "meaning_ar": "غرفة", "note_ar": "", "note_en": "", "example": "The cat is in the room."},
+      {"word": "basket", "pos": "noun", "meaning_en": "a container made of thin sticks", "meaning_ar": "سلة", "note_ar": "", "note_en": "", "example": "The eggs are in the basket."},
+      {"word": "scissors", "pos": "noun", "meaning_en": "a tool with two blades for cutting", "meaning_ar": "مقص", "note_ar": "دائمًا جمع لأنه من جزأين: the scissors are", "note_en": "Always plural because it has two parts: the scissors are.", "example": "Where are the scissors?"},
+      {"word": "dish", "pos": "noun", "meaning_en": "a plate or bowl for food", "meaning_ar": "طبق", "note_ar": "", "note_en": "", "example": "The apple is in the dish."},
+      {"word": "bowl", "pos": "noun", "meaning_en": "a round deep dish", "meaning_ar": "وعاء / سلطانية", "note_ar": "", "note_en": "", "example": "The fish is in the bowl."},
+      {"word": "rabbit", "pos": "noun", "meaning_en": "a small animal with long ears", "meaning_ar": "أرنب", "note_ar": "", "note_en": "", "example": "Where is the rabbit?"},
+      {"word": "hen", "pos": "noun", "meaning_en": "a female chicken", "meaning_ar": "دجاجة", "note_ar": "", "note_en": "", "example": "The hen is between the duck and the sheep."},
+      {"word": "duck", "pos": "noun", "meaning_en": "a water bird with a flat beak", "meaning_ar": "بطة", "note_ar": "", "note_en": "", "example": "The duck is next to the hen."},
+      {"word": "sheep", "pos": "noun", "meaning_en": "a farm animal with wool", "meaning_ar": "خروف / خراف", "note_ar": "المفرد والجمع نفس الكلمة: one sheep, two sheep", "note_en": "Same word for one and many: one sheep, two sheep.", "example": "The sheep is behind the hen."},
+      {"word": "cow", "pos": "noun", "meaning_en": "a big farm animal that gives milk", "meaning_ar": "بقرة", "note_ar": "الجمع cows", "note_en": "Plural: cows.", "example": "The cows are in the field."},
+      {"word": "shoes", "pos": "noun", "meaning_en": "things you wear on your feet", "meaning_ar": "حذاء", "note_ar": "", "note_en": "", "example": "Where are the shoes?"},
+      {"word": "tree", "pos": "noun", "meaning_en": "a tall plant with a trunk and leaves", "meaning_ar": "شجرة", "note_ar": "", "note_en": "", "example": "There is a tree near my house."},
+      {"word": "street", "pos": "noun", "meaning_en": "a road in a town", "meaning_ar": "شارع", "note_ar": "", "note_en": "", "example": "There are cars in the street."},
+      {"word": "glass", "pos": "noun", "meaning_en": "a cup made of glass", "meaning_ar": "كوب / كوباية", "note_ar": "", "note_en": "", "example": "There is some milk in the glass."},
+      {"word": "milk", "pos": "noun", "meaning_en": "a white drink from cows", "meaning_ar": "لبن / حليب", "note_ar": "اسم لا يُعد، فنعامله كمفرد: there is some milk", "note_en": "Uncountable, so treat it as singular: there is some milk.", "example": "There is some milk in the glass."},
+      {"word": "rice", "pos": "noun", "meaning_en": "small white grains we cook and eat", "meaning_ar": "أرز", "note_ar": "اسم لا يُعد", "note_en": "Uncountable.", "example": "There is some rice on the plate."},
+      {"word": "some", "pos": "determiner", "meaning_en": "a little or a few", "meaning_ar": "بعض", "note_ar": "", "note_en": "", "example": "There is some rice on the plate."},
+      {"word": "noun / pronoun / verb / adjective", "pos": "phrase", "meaning_en": "kinds of words: name, word instead of a name, action, describing word", "meaning_ar": "اسم / ضمير / فعل / صفة", "note_ar": "مع preposition (حرف جر) هذه أقسام الكلام", "note_en": "With prepositions, these are the parts of speech.", "example": "\"Tall\" is an adjective."}
+    ],
+    "fine_lines": [
+      {"title": "in vs on", "words": ["in", "on"], "explanation_ar": "in = داخل الشيء، و on = فوق سطح الشيء.", "explanation_en": "In means inside something; on means on top of its surface.", "examples": [{"word": "in", "sentence": "The cat is in the box."}, {"word": "on", "sentence": "The cat is on the box."}]},
+      {"title": "on vs under", "words": ["on", "under"], "explanation_ar": "on = على، و under = تحت. هما عكس بعض.", "explanation_en": "On and under are opposites.", "examples": [{"word": "on", "sentence": "The book is on the table."}, {"word": "under", "sentence": "The ball is under the table."}]},
+      {"title": "where is vs where are", "words": ["where is", "where are"], "explanation_ar": "Where is للسؤال عن مكان شيء مفرد، و Where are لشيء جمع. والاختصار Where's.", "explanation_en": "Use Where is for one thing and Where are for plural things. Short form: Where's.", "examples": [{"word": "where is", "sentence": "Where is the ball?"}, {"word": "where are", "sentence": "Where are the books?"}]},
+      {"title": "there is vs there are", "words": ["there is", "there are"], "explanation_ar": "there is (يوجد) للمفرد والاسم الذي لا يُعد مثل milk و rice، و there are للجمع.", "explanation_en": "Use there is for one thing and uncountable nouns like milk and rice. Use there are for plural nouns.", "examples": [{"word": "there is", "sentence": "There is a white cat."}, {"word": "there are", "sentence": "There are white cats."}]},
+      {"title": "behind vs between", "words": ["behind", "between"], "explanation_ar": "behind = خلف شيء واحد، أما between = بين شيئين ولا بد أن نذكر الاثنين.", "explanation_en": "Behind means at the back of one thing. Between needs two things.", "examples": [{"word": "behind", "sentence": "The cat is behind the box."}, {"word": "between", "sentence": "The cat is between the chair and the table."}]}
+    ],
+    "expressions": [
+      {"phrase": "Where is the cat?", "meaning_ar": "أين القطة؟", "meaning_en": "Asking about the place of one thing.", "example": "Where is the cat? It's on the chair."},
+      {"phrase": "It's on the chair.", "meaning_ar": "إنها على الكرسي.", "meaning_en": "Answering a where question about one thing.", "example": "Where is my bag? It's on the chair."},
+      {"phrase": "Where are the books?", "meaning_ar": "أين الكتب؟", "meaning_en": "Asking about the place of plural things.", "example": "Where are the books? They're in the box."},
+      {"phrase": "They're in the box.", "meaning_ar": "إنها في الصندوق.", "meaning_en": "Answering a where question about plural things.", "example": "Where are the shoes? They're under the bed."},
+      {"phrase": "There is a tree.", "meaning_ar": "توجد شجرة.", "meaning_en": "Saying one thing exists.", "example": "There is a tree in front of our school."},
+      {"phrase": "There are cars in the street.", "meaning_ar": "توجد سيارات في الشارع.", "meaning_en": "Saying many things exist.", "example": "It's busy. There are cars in the street."},
+      {"phrase": "There is some milk in the glass.", "meaning_ar": "يوجد بعض اللبن في الكوب.", "meaning_en": "Using there is with an uncountable noun.", "example": "There is some milk in the glass. Drink it!"}
+    ],
+    "grammar": [
+      {"title": "Parts of speech", "explanation_ar": "الكلمات في الإنجليزية أنواع: noun اسم (hen, Ahmed, book)، pronoun ضمير (I, he, she)، verb فعل (play)، adjective صفة (tall, short, fat)، و preposition حرف جر (on, in, under).", "explanation_en": "English words have types: noun (hen, Ahmed, book), pronoun (I, he, she), verb (play), adjective (tall, short, fat) and preposition (on, in, under).", "examples": ["The cat (noun) is on (preposition) the chair (noun).", "He (pronoun) is tall (adjective)."]},
+      {"title": "Prepositions of place", "explanation_ar": "حروف الجر الخاصة بالمكان تبيّن أين يوجد الشيء: behind خلف، on على، under تحت، in في، between بين. ولا ننسى is/are لأن الجملة تحتاج فعلًا: The cat is on the chair.", "explanation_en": "Prepositions of place tell us where something is: behind, on, under, in, between. Don't forget is/are, because every sentence needs a verb.", "examples": ["The cat is behind the box.", "The cat is on the chair.", "The cat is under the table.", "The cat is in the basket.", "The cat is between the two chairs."]},
+      {"title": "Asking with Where", "explanation_ar": "للسؤال عن المكان: Where + is + اسم مفرد؟ أو Where + are + اسم جمع؟ ونبدأ بحرف كبير وننهي بعلامة استفهام. في الإجابة نستخدم it للمفرد و they للجمع.", "explanation_en": "To ask about place: Where + is + singular noun? or Where + are + plural noun? Answer with it (singular) or they (plural).", "examples": ["Where is the rabbit? It's under the table.", "Where are the scissors? They're on the desk.", "Where is the hen? It's between the duck and the sheep."]},
+      {"title": "There is / There are", "explanation_ar": "There is و There are تعنيان (يوجد). there is + مفرد (مع a/an) أو اسم لا يُعد مثل milk و rice. there are + جمع.", "explanation_en": "There is / there are mean that something exists. There is + singular (with a/an) or uncountable (milk, rice). There are + plural.", "examples": ["There is a cat.", "There is an apple on the plate.", "There are four trees.", "There is some rice on the plate."]}
+    ]
+  },
+  "questions": [
+    {"question": "The cat is ___ the box. (inside it)", "choices": ["on", "under", "in", "behind"], "answer": 2, "explanation_ar": "داخل الصندوق = in.", "explanation_en": "Inside the box = in."},
+    {"question": "What does \"behind\" mean?", "choices": ["خلف", "أمام", "بين", "تحت"], "answer": 0, "explanation_ar": "behind = خلف.", "explanation_en": "Behind means at the back of something."},
+    {"question": "___ are the books?", "choices": ["What", "Where", "How many", "Who"], "answer": 1, "explanation_ar": "نسأل عن المكان بـ Where.", "explanation_en": "We ask about place with Where."},
+    {"question": "Where ___ the scissors?", "choices": ["is", "am", "be", "are"], "answer": 3, "explanation_ar": "scissors جمع دائمًا لأنه من جزأين، فنستخدم are.", "explanation_en": "Scissors is always plural, so we use are."},
+    {"question": "There ___ a tree in the garden.", "choices": ["is", "are", "am", "be"], "answer": 0, "explanation_ar": "a tree مفرد فنستخدم there is.", "explanation_en": "A tree is singular, so we use there is."},
+    {"question": "There ___ cars in the street.", "choices": ["is", "am", "are", "has"], "answer": 2, "explanation_ar": "cars جمع فنستخدم there are.", "explanation_en": "Cars is plural, so we use there are."},
+    {"question": "Choose the correct sentence.", "choices": ["The hen between the duck and the sheep.", "The hen is between the duck.", "The hen is between the duck and the sheep.", "The hen are between the duck and the sheep."], "answer": 2, "explanation_ar": "between تحتاج شيئين، والجملة تحتاج الفعل is.", "explanation_en": "Between needs two things, and the sentence needs the verb is."},
+    {"question": "There ___ some milk in the glass.", "choices": ["are", "am", "be", "is"], "answer": 3, "explanation_ar": "milk اسم لا يُعد فنعامله كمفرد: there is.", "explanation_en": "Milk is uncountable, so we use there is."},
+    {"question": "What type of word is \"under\"?", "choices": ["preposition", "verb", "adjective", "pronoun"], "answer": 0, "explanation_ar": "under حرف جر يدل على المكان.", "explanation_en": "Under is a preposition of place."},
+    {"question": "\"Where is the apple?\" \"___ on the book.\"", "choices": ["They're", "It's", "Its", "There"], "answer": 1, "explanation_ar": "التفاحة مفردة وغير إنسان: It's = It is.", "explanation_en": "The apple is one thing, so we answer It's (It is)."}
+  ]
+}

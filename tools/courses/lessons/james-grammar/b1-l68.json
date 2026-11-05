@@ -1,0 +1,326 @@
+{
+  "title": "Three Small Words: a/an, the, to",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "article",
+        "pos": "noun",
+        "meaning_en": "the words a, an and the, used before nouns",
+        "meaning_ar": "أداة (تعريف أو تنكير)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"The\" is an article."
+      },
+      {
+        "word": "indefinite article",
+        "pos": "noun",
+        "meaning_en": "a / an: one thing, general, not special",
+        "meaning_ar": "أداة النكرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want a marker (any marker)."
+      },
+      {
+        "word": "definite article",
+        "pos": "noun",
+        "meaning_en": "the: a specific or special thing that we both know",
+        "meaning_ar": "أداة التعريف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Give me the red marker."
+      },
+      {
+        "word": "vowel sound",
+        "pos": "noun",
+        "meaning_en": "a sound like a, e, i, o, u at the start of a word",
+        "meaning_ar": "صوت حرف علّة",
+        "note_ar": "المهم هو الصوت لا الحرف: an hour",
+        "note_en": "It's the sound that matters, not the letter: an hour.",
+        "example": "\"Apple\" starts with a vowel sound, so we say an apple."
+      },
+      {
+        "word": "specific",
+        "pos": "adjective",
+        "meaning_en": "exact; this one and no other",
+        "meaning_ar": "محدد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I mean a specific man: the man in the yellow jacket."
+      },
+      {
+        "word": "infinitive",
+        "pos": "noun",
+        "meaning_en": "to + base verb (to go, to eat)",
+        "meaning_ar": "المصدر مع to",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"To eat\" is an infinitive."
+      },
+      {
+        "word": "preposition",
+        "pos": "noun",
+        "meaning_en": "a word like to, in, at that shows direction, place or time",
+        "meaning_ar": "حرف جر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In \"go to the store\", to is a preposition."
+      },
+      {
+        "word": "syntax",
+        "pos": "noun",
+        "meaning_en": "word order; how words are arranged in a sentence",
+        "meaning_ar": "ترتيب الكلمات (بناء الجملة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "English syntax puts the subject before the verb."
+      },
+      {
+        "word": "awkward",
+        "pos": "adjective",
+        "meaning_en": "difficult and not natural at first",
+        "meaning_ar": "محرج / غير مريح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It may feel awkward at first, but keep practising."
+      },
+      {
+        "word": "on the same wavelength",
+        "pos": "phrase",
+        "meaning_en": "having the same idea or understanding",
+        "meaning_ar": "على نفس الموجة (متفاهمان)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "When I say \"the car\", we're on the same wavelength."
+      },
+      {
+        "word": "instantly",
+        "pos": "adverb",
+        "meaning_en": "immediately",
+        "meaning_ar": "فورًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your English will sound better instantly."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "a vs an",
+        "words": [
+          "a",
+          "an"
+        ],
+        "explanation_ar": "نستخدم an قبل الكلمة التي تبدأ بصوت حرف علّة (an apple, an hour)، و a قبل الصوت الساكن (a car, a university). المهم الصوت لا الحرف.",
+        "explanation_en": "Use an before a vowel sound (an apple, an hour) and a before a consonant sound (a car, a university). The sound matters, not the letter.",
+        "examples": [
+          {
+            "word": "a",
+            "sentence": "I bought a car."
+          },
+          {
+            "word": "an",
+            "sentence": "I'll be there in an hour."
+          }
+        ]
+      },
+      {
+        "title": "a/an vs the",
+        "words": [
+          "a",
+          "the"
+        ],
+        "explanation_ar": "a/an = واحد عام غير محدد (أي واحد). the = واحد محدد أو خاص نعرفه نحن الاثنين. Give me a marker = أي قلم. Give me the marker = القلم الذي نعرفه.",
+        "explanation_en": "A/an = one, general, not special (any one). The = a specific or special one that we both know. Give me a marker = any marker. Give me the marker = the one we both know.",
+        "examples": [
+          {
+            "word": "a",
+            "sentence": "Tell a woman I said hello. (any woman)"
+          },
+          {
+            "word": "the",
+            "sentence": "Tell the man in the yellow jacket I said hello. (that man)"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I need to go to work.",
+        "meaning_ar": "عليّ أن أذهب إلى العمل.",
+        "meaning_en": "Correct form (not \"I need go work\").",
+        "example": "It's late. I need to go to work."
+      },
+      {
+        "phrase": "It's a nice day.",
+        "meaning_ar": "إنه يوم جميل.",
+        "meaning_en": "General statement with a.",
+        "example": "Let's go out. It's a nice day."
+      },
+      {
+        "phrase": "the most important person",
+        "meaning_ar": "أهم شخص",
+        "meaning_en": "Superlatives take the.",
+        "example": "My mother is the most important person in my life."
+      },
+      {
+        "phrase": "I'm going to...",
+        "meaning_ar": "سوف... (خطة)",
+        "meaning_en": "A planned future.",
+        "example": "I'm going to visit my uncle this summer."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Articles: a/an and the",
+        "explanation_ar": "الأدوات نوع خاص من الصفات: تخبرنا أن الاسم واحد (أو مجموعة واحدة)، وهل هو عام (a/an) أو محدد (the). تقريبًا معظم الجمل فيها أداة، فاستخدمها قبل الاسم المفرد المعدود.",
+        "explanation_en": "Articles are a special kind of adjective: they tell us the noun is one (or one group), and whether it's general (a/an) or specific (the). Most sentences have one, so use one before a singular countable noun.",
+        "examples": [
+          "I bought an apple. (not: I bought apple)",
+          "The machine broke down on Wednesday.",
+          "I had a pizza last night. The pizza was very good."
+        ]
+      },
+      {
+        "title": "To: direction, infinitive, future",
+        "explanation_ar": "(1) اتجاه: go to the store. (2) بين فعلين: فعل + to + المصدر (I want to go, I need to eat). (3) المستقبل: be going to + المصدر. لا تضع to بعد الأفعال الناقصة: must go وليس must to go.",
+        "explanation_en": "(1) Direction: go to the store. (2) Between two verbs: verb + to + base verb (I want to go, I need to eat). (3) Future: be going to + base verb. Never put to after modals: must go, not must to go.",
+        "examples": [
+          "Can we go to the zoo tomorrow?",
+          "I like to help people.",
+          "I'm going to travel next month.",
+          "You must study. (not: must to study)"
+        ]
+      },
+      {
+        "title": "Practice technique",
+        "explanation_ar": "اختر من فيديو تحبه جملتين أو ثلاثًا فيها a/the/to، وكرّرها بصوت عالٍ حتى تصبح طبيعية، ثم أضف جملًا جديدة.",
+        "explanation_en": "From a video you like, choose two or three sentences with a/the/to and repeat them aloud until they feel natural; then add new ones.",
+        "examples": [
+          "They brought an elephant from Africa.",
+          "Go to my house and get the keys."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "___ man who called you is my brother.",
+      "choices": [
+        "The",
+        "A",
+        "An",
+        "To"
+      ],
+      "answer": 0,
+      "explanation_ar": "رجل محدد نعرفه: the.",
+      "explanation_en": "A specific man we both know: the."
+    },
+    {
+      "question": "It's ___ good day when I get free money.",
+      "choices": [
+        "the",
+        "a",
+        "an",
+        "to"
+      ],
+      "answer": 1,
+      "explanation_ar": "عام وغير محدد: a.",
+      "explanation_en": "General, not specific: a."
+    },
+    {
+      "question": "She is ___ most important person in my life.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "to"
+      ],
+      "answer": 2,
+      "explanation_ar": "صيغة التفضيل مع the.",
+      "explanation_en": "Superlatives use the."
+    },
+    {
+      "question": "Can we go ___ the zoo tomorrow?",
+      "choices": [
+        "a",
+        "the",
+        "an",
+        "to"
+      ],
+      "answer": 3,
+      "explanation_ar": "اتجاه: to.",
+      "explanation_en": "Direction: to."
+    },
+    {
+      "question": "I'll be back in ___ hour.",
+      "choices": [
+        "an",
+        "a",
+        "the",
+        "to"
+      ],
+      "answer": 0,
+      "explanation_ar": "hour تبدأ بصوت علّة: an.",
+      "explanation_en": "Hour starts with a vowel sound: an."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I need go work tonight.",
+        "I need to go to work tonight.",
+        "I need to go work tonight.",
+        "I need go to work tonight."
+      ],
+      "answer": 1,
+      "explanation_ar": "الإجابة الصحيحة: need to + go to work.",
+      "explanation_en": "Need to + go to work."
+    },
+    {
+      "question": "Which is wrong?",
+      "choices": [
+        "I want to eat.",
+        "I have to go.",
+        "You must to go.",
+        "I like to help."
+      ],
+      "answer": 2,
+      "explanation_ar": "لا نضع to بعد must.",
+      "explanation_en": "No to after must."
+    },
+    {
+      "question": "\"Give me a marker\" means ___.",
+      "choices": [
+        "the red marker only",
+        "no marker",
+        "all the markers",
+        "any marker"
+      ],
+      "answer": 3,
+      "explanation_ar": "a = أي واحد.",
+      "explanation_en": "A = any one."
+    },
+    {
+      "question": "___ letter \"A\" is ___ first letter of the alphabet.",
+      "choices": [
+        "The / the",
+        "A / a",
+        "A / the",
+        "The / a"
+      ],
+      "answer": 0,
+      "explanation_ar": "محدد وخاص في الحالتين: the.",
+      "explanation_en": "Specific in both cases: the."
+    },
+    {
+      "question": "What does \"syntax\" mean?",
+      "choices": [
+        "spelling",
+        "word order",
+        "pronunciation",
+        "vocabulary"
+      ],
+      "answer": 1,
+      "explanation_ar": "syntax = ترتيب الكلمات.",
+      "explanation_en": "Syntax = word order."
+    }
+  ]
+}

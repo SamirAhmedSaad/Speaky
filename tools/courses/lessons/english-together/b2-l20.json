@@ -1,0 +1,373 @@
+{
+  "title": "Talking About Clothes",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "dress",
+        "pos": "noun",
+        "meaning_en": "a piece of women's clothing from the shoulders down",
+        "meaning_ar": "فستان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like your dress!"
+      },
+      {
+        "word": "mall",
+        "pos": "noun",
+        "meaning_en": "a big building with many shops",
+        "meaning_ar": "مركز تسوق (مول)",
+        "note_ar": "في بريطانيا: shopping centre",
+        "note_en": "UK: shopping centre.",
+        "example": "I got it at the mall."
+      },
+      {
+        "word": "cost",
+        "pos": "verb",
+        "meaning_en": "have a price",
+        "meaning_ar": "يكلّف",
+        "note_ar": "الماضي: cost (لا يتغير)",
+        "note_en": "Past: cost (same form).",
+        "example": "How much did it cost?"
+      },
+      {
+        "word": "good deal",
+        "pos": "noun",
+        "meaning_en": "a good price for something",
+        "meaning_ar": "صفقة جيدة / سعر مناسب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I think it's a good deal."
+      },
+      {
+        "word": "often",
+        "pos": "adverb",
+        "meaning_en": "many times",
+        "meaning_ar": "غالبًا / كثيرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you wear dresses often?"
+      },
+      {
+        "word": "summer",
+        "pos": "noun",
+        "meaning_en": "the hottest season of the year",
+        "meaning_ar": "الصيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wear light clothes in the summer."
+      },
+      {
+        "word": "style",
+        "pos": "noun",
+        "meaning_en": "a way of dressing",
+        "meaning_ar": "أسلوب / طراز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What style do you prefer?"
+      },
+      {
+        "word": "simple",
+        "pos": "adjective",
+        "meaning_en": "not fancy; easy",
+        "meaning_ar": "بسيط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like simple styles."
+      },
+      {
+        "word": "comfort",
+        "pos": "noun",
+        "meaning_en": "feeling relaxed and not hurting",
+        "meaning_ar": "الراحة",
+        "note_ar": "",
+        "note_en": "Adjective: comfortable.",
+        "example": "Comfort is important."
+      },
+      {
+        "word": "earrings",
+        "pos": "noun",
+        "meaning_en": "jewelry you wear on your ears",
+        "meaning_ar": "أقراط (حَلَق)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you like to wear earrings?"
+      },
+      {
+        "word": "jewelry",
+        "pos": "noun",
+        "meaning_en": "rings, necklaces, earrings, etc.",
+        "meaning_ar": "مجوهرات / حُلي",
+        "note_ar": "في بريطانيا: jewellery",
+        "note_en": "UK: jewellery.",
+        "example": "I like to wear jewelry."
+      },
+      {
+        "word": "watch",
+        "pos": "noun",
+        "meaning_en": "a small clock you wear on your wrist",
+        "meaning_ar": "ساعة يد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you like to wear a watch?"
+      },
+      {
+        "word": "gift",
+        "pos": "noun",
+        "meaning_en": "a present",
+        "meaning_ar": "هدية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a gift from my dad."
+      },
+      {
+        "word": "special",
+        "pos": "adjective",
+        "meaning_en": "more important than usual",
+        "meaning_ar": "مميّز / خاص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's really special to me."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "wear vs put on",
+        "words": [
+          "wear",
+          "put on"
+        ],
+        "explanation_ar": "wear = يرتدي (حالة مستمرة). put on = يلبس (فعل اللبس نفسه).",
+        "explanation_en": "\"Wear\" = have clothes on your body. \"Put on\" = the action of dressing.",
+        "examples": [
+          {
+            "word": "wear",
+            "sentence": "I wear a watch every day."
+          },
+          {
+            "word": "put on",
+            "sentence": "Put on your coat, it's cold."
+          }
+        ]
+      },
+      {
+        "title": "buy vs get",
+        "words": [
+          "buy",
+          "get"
+        ],
+        "explanation_ar": "في الكلام اليومي get تعني غالبًا buy: I got it at the mall = I bought it at the mall.",
+        "explanation_en": "In everyday English, \"get\" often means \"buy\".",
+        "examples": [
+          {
+            "word": "buy",
+            "sentence": "I just bought it."
+          },
+          {
+            "word": "get",
+            "sentence": "I got it at the mall."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I like your dress!",
+        "meaning_ar": "يعجبني فستانك!",
+        "meaning_en": "A compliment.",
+        "example": "I like your watch!"
+      },
+      {
+        "phrase": "Thanks! It's new. I just bought it.",
+        "meaning_ar": "شكرًا! إنه جديد. اشتريته للتو.",
+        "meaning_en": "Answering a compliment.",
+        "example": "Thanks! I just bought it last week."
+      },
+      {
+        "phrase": "Where did you buy it?",
+        "meaning_ar": "من أين اشتريته؟",
+        "meaning_en": "Asking about a shop.",
+        "example": "Where did you buy your bag?"
+      },
+      {
+        "phrase": "How much did it cost?",
+        "meaning_ar": "كم كلّف؟",
+        "meaning_en": "Asking the price (past).",
+        "example": "How much did your shoes cost?"
+      },
+      {
+        "phrase": "That didn't cost too much at all!",
+        "meaning_ar": "لم يكلف كثيرًا على الإطلاق!",
+        "meaning_en": "Saying the price was low.",
+        "example": "Only $10? That didn't cost much at all!"
+      },
+      {
+        "phrase": "I think it's a good deal.",
+        "meaning_ar": "أظن أنها صفقة جيدة.",
+        "meaning_en": "The price is good.",
+        "example": "$25 for a watch? That's a good deal."
+      },
+      {
+        "phrase": "What style do you prefer?",
+        "meaning_ar": "أي أسلوب تفضّل؟",
+        "meaning_en": "Asking about taste.",
+        "example": "What colors do you prefer?"
+      },
+      {
+        "phrase": "Comfort is important.",
+        "meaning_ar": "الراحة مهمة.",
+        "meaning_en": "Saying what matters to you.",
+        "example": "For shoes, comfort is important."
+      },
+      {
+        "phrase": "It's really special to me.",
+        "meaning_ar": "إنها مميزة جدًا بالنسبة لي.",
+        "meaning_en": "Something has a special meaning for you.",
+        "example": "This book was my grandfather's. It's really special to me."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past simple questions: Where did you ...?",
+        "explanation_ar": "السؤال في الماضي: did + الفاعل + الفعل الأساسي. Where did you buy it? (وليس bought).",
+        "explanation_en": "Past questions: did + subject + base verb. \"Where did you buy it?\" (not \"bought\").",
+        "examples": [
+          "Where did you buy it?",
+          "How much did it cost?",
+          "Did you get anything else?"
+        ]
+      },
+      {
+        "title": "like to + verb / wear for clothes",
+        "explanation_ar": "نقول I like to wear ... للحديث عن العادة. ومع الملابس والحلي والساعة نستخدم الفعل wear.",
+        "explanation_en": "Say \"I like to wear ...\" for habits. Use \"wear\" with clothes, jewelry and watches.",
+        "examples": [
+          "I like to wear a watch.",
+          "Do you like to wear earrings?",
+          "I wear dresses in the summer."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where did you ____ it?",
+      "choices": [
+        "bought",
+        "buy",
+        "buying",
+        "buys"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد did الفعل الأساسي.",
+      "explanation_en": "After \"did\", use the base verb."
+    },
+    {
+      "question": "\"I got it at the mall.\" Here \"got\" means ...",
+      "choices": [
+        "sold",
+        "lost",
+        "wore",
+        "bought"
+      ],
+      "answer": 3,
+      "explanation_ar": "got هنا تعني اشتريت.",
+      "explanation_en": "Here \"got\" means bought."
+    },
+    {
+      "question": "How much did it ____?",
+      "choices": [
+        "cost",
+        "costs",
+        "costed",
+        "costing"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد did الفعل الأساسي cost.",
+      "explanation_en": "After \"did\": cost."
+    },
+    {
+      "question": "\"I think it's a good deal.\" means ...",
+      "choices": [
+        "it is a game",
+        "it is too expensive",
+        "the price is good",
+        "it is broken"
+      ],
+      "answer": 2,
+      "explanation_ar": "سعر مناسب.",
+      "explanation_en": "The price is good."
+    },
+    {
+      "question": "You wear ____ on your ears.",
+      "choices": [
+        "a watch",
+        "a dress",
+        "earrings",
+        "jewelry box"
+      ],
+      "answer": 2,
+      "explanation_ar": "الأقراط تلبس في الأذن.",
+      "explanation_en": "Earrings are for ears."
+    },
+    {
+      "question": "Which is the UK spelling?",
+      "choices": [
+        "jewellery",
+        "jewelry",
+        "jewlery",
+        "jewelery"
+      ],
+      "answer": 0,
+      "explanation_ar": "في بريطانيا jewellery.",
+      "explanation_en": "UK: jewellery."
+    },
+    {
+      "question": "\"It was a gift from my dad.\" A gift is ...",
+      "choices": [
+        "a shop",
+        "a price",
+        "a style",
+        "a present"
+      ],
+      "answer": 3,
+      "explanation_ar": "gift تعني هدية.",
+      "explanation_en": "A gift is a present."
+    },
+    {
+      "question": "I ____ a watch every day.",
+      "choices": [
+        "put on wearing",
+        "wear",
+        "dress",
+        "get on"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول wear a watch.",
+      "explanation_en": "We say \"wear a watch\"."
+    },
+    {
+      "question": "\"What style do you prefer?\" \"____\"",
+      "choices": [
+        "I like simple styles.",
+        "It was $25.",
+        "At the mall.",
+        "Yes, I did."
+      ],
+      "answer": 0,
+      "explanation_ar": "الجواب عن الأسلوب.",
+      "explanation_en": "The answer is about style."
+    },
+    {
+      "question": "\"That didn't cost too much at all!\" The speaker thinks the price is ...",
+      "choices": [
+        "very high",
+        "wrong",
+        "low",
+        "secret"
+      ],
+      "answer": 2,
+      "explanation_ar": "السعر منخفض.",
+      "explanation_en": "The price is low."
+    }
+  ]
+}

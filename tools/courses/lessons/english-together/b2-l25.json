@@ -1,0 +1,397 @@
+{
+  "title": "At the Post Office",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "post office",
+        "pos": "noun",
+        "meaning_en": "a place where you send letters and packages",
+        "meaning_ar": "مكتب البريد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I went to the post office."
+      },
+      {
+        "word": "send",
+        "pos": "verb",
+        "meaning_en": "make something go to another place",
+        "meaning_ar": "يرسل",
+        "note_ar": "الماضي: sent",
+        "note_en": "Past: sent.",
+        "example": "I want to send this package."
+      },
+      {
+        "word": "package",
+        "pos": "noun",
+        "meaning_en": "a box or something wrapped to send",
+        "meaning_ar": "طرد",
+        "note_ar": "في بريطانيا أيضًا: parcel",
+        "note_en": "UK also: parcel.",
+        "example": "I want to send this package to Los Angeles."
+      },
+      {
+        "word": "scale",
+        "pos": "noun",
+        "meaning_en": "a machine to find how heavy something is",
+        "meaning_ar": "ميزان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please put it on the scale."
+      },
+      {
+        "word": "weigh",
+        "pos": "verb",
+        "meaning_en": "have a certain weight",
+        "meaning_ar": "يزن",
+        "note_ar": "الاسم: weight",
+        "note_en": "Noun: weight.",
+        "example": "It weighs about four pounds."
+      },
+      {
+        "word": "express",
+        "pos": "adjective",
+        "meaning_en": "very fast (delivery)",
+        "meaning_ar": "سريع (بريد مستعجل)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Express is overnight."
+      },
+      {
+        "word": "regular",
+        "pos": "adjective",
+        "meaning_en": "normal; not special",
+        "meaning_ar": "عادي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Regular delivery is cheaper."
+      },
+      {
+        "word": "delivery",
+        "pos": "noun",
+        "meaning_en": "taking things to a person or place",
+        "meaning_ar": "توصيل",
+        "note_ar": "",
+        "note_en": "Verb: deliver.",
+        "example": "Do you want express or regular delivery?"
+      },
+      {
+        "word": "overnight",
+        "pos": "adverb",
+        "meaning_en": "during the night; by the next day",
+        "meaning_ar": "خلال الليل (يصل في اليوم التالي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Express arrives overnight."
+      },
+      {
+        "word": "business days",
+        "pos": "noun",
+        "meaning_en": "working days, Monday to Friday",
+        "meaning_ar": "أيام العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Regular is two to three business days."
+      },
+      {
+        "word": "fill out",
+        "pos": "phrasal verb",
+        "meaning_en": "write information in a form",
+        "meaning_ar": "يملأ (استمارة)",
+        "note_ar": "في بريطانيا أيضًا: fill in",
+        "note_en": "UK also: fill in.",
+        "example": "Please fill out this address label."
+      },
+      {
+        "word": "address label",
+        "pos": "noun",
+        "meaning_en": "a sticker with the address on it",
+        "meaning_ar": "ملصق العنوان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Write on the address label."
+      },
+      {
+        "word": "destination",
+        "pos": "noun",
+        "meaning_en": "the place something is going to",
+        "meaning_ar": "الوجهة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Write the destination here."
+      },
+      {
+        "word": "return address",
+        "pos": "noun",
+        "meaning_en": "the sender's address",
+        "meaning_ar": "عنوان المرسل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't forget your return address."
+      },
+      {
+        "word": "charge",
+        "pos": "noun",
+        "meaning_en": "the price for a service",
+        "meaning_ar": "رسوم / تكلفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The delivery charge is $40."
+      },
+      {
+        "word": "stamp",
+        "pos": "noun",
+        "meaning_en": "a small paper you stick on a letter to pay for post",
+        "meaning_ar": "طابع بريدي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you sell stamps?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "express vs regular",
+        "words": [
+          "express",
+          "regular"
+        ],
+        "explanation_ar": "express = سريع وأغلى. regular = عادي وأبطأ وأرخص.",
+        "explanation_en": "\"Express\" is fast and costs more. \"Regular\" is slower and cheaper.",
+        "examples": [
+          {
+            "word": "express",
+            "sentence": "Express is overnight."
+          },
+          {
+            "word": "regular",
+            "sentence": "Regular takes two to three days."
+          }
+        ]
+      },
+      {
+        "title": "destination vs return address",
+        "words": [
+          "destination",
+          "return address"
+        ],
+        "explanation_ar": "destination = المكان الذي سيذهب إليه الطرد. return address = عنوانك أنت (المرسل).",
+        "explanation_en": "\"Destination\" = where it goes. \"Return address\" = your address (the sender).",
+        "examples": [
+          {
+            "word": "destination",
+            "sentence": "The destination is Los Angeles."
+          },
+          {
+            "word": "return address",
+            "sentence": "Write your return address in the corner."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I want to send this package to Los Angeles.",
+        "meaning_ar": "أريد إرسال هذا الطرد إلى لوس أنجلوس.",
+        "meaning_en": "Saying what you want to send.",
+        "example": "I want to send this letter to Cairo."
+      },
+      {
+        "phrase": "Please put it on the scale.",
+        "meaning_ar": "من فضلك ضعه على الميزان.",
+        "meaning_en": "Asking to weigh the package.",
+        "example": "Please put your bag on the scale."
+      },
+      {
+        "phrase": "It weighs about four pounds.",
+        "meaning_ar": "وزنه حوالي أربعة أرطال.",
+        "meaning_en": "Saying the weight.",
+        "example": "It weighs about two kilos."
+      },
+      {
+        "phrase": "Do you want express or regular delivery?",
+        "meaning_ar": "هل تريد التوصيل السريع أم العادي؟",
+        "meaning_en": "Asking about the type of delivery.",
+        "example": "Express or regular? Regular, please."
+      },
+      {
+        "phrase": "How long is express?",
+        "meaning_ar": "كم يستغرق البريد السريع؟",
+        "meaning_en": "Asking about time.",
+        "example": "How long is regular delivery?"
+      },
+      {
+        "phrase": "Please fill out this address label.",
+        "meaning_ar": "من فضلك املأ ملصق العنوان هذا.",
+        "meaning_en": "Asking to write the address.",
+        "example": "Please fill out this form."
+      },
+      {
+        "phrase": "Okay, I've finished.",
+        "meaning_ar": "حسنًا، انتهيت.",
+        "meaning_en": "Saying you are done.",
+        "example": "I've finished. Here you go."
+      },
+      {
+        "phrase": "Do you sell stamps?",
+        "meaning_ar": "هل تبيعون الطوابع؟",
+        "meaning_en": "Asking if a shop sells something.",
+        "example": "Do you sell envelopes?"
+      },
+      {
+        "phrase": "How many do you need?",
+        "meaning_ar": "كم تحتاج؟",
+        "meaning_en": "Asking about number.",
+        "example": "How many stamps do you need?"
+      },
+      {
+        "phrase": "Is there anything else? / No, that's all.",
+        "meaning_ar": "هل هناك شيء آخر؟ / لا، هذا كل شيء.",
+        "meaning_en": "Finishing the service.",
+        "example": "Is there anything else? No, that's all, thanks."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "How long / How many / How much",
+        "explanation_ar": "How long للمدة، How many للعدد المعدود، How much للسعر أو غير المعدود.",
+        "explanation_en": "\"How long\" = time. \"How many\" = number. \"How much\" = price or uncountable amount.",
+        "examples": [
+          "How long is express?",
+          "How many stamps do you need?",
+          "How much is the delivery charge?"
+        ]
+      },
+      {
+        "title": "Present perfect: I've finished",
+        "explanation_ar": "I've finished تعني انتهيت الآن للتو (have + التصريف الثالث).",
+        "explanation_en": "\"I've finished\" = I am done now (have + past participle).",
+        "examples": [
+          "I've finished.",
+          "I've written the address.",
+          "She has sent the package."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "You put a package on the ____ to know how heavy it is.",
+      "choices": [
+        "stamp",
+        "scale",
+        "label",
+        "desk"
+      ],
+      "answer": 1,
+      "explanation_ar": "الميزان: scale.",
+      "explanation_en": "A scale shows weight."
+    },
+    {
+      "question": "Express delivery is ...",
+      "choices": [
+        "slow and cheap",
+        "only on Sunday",
+        "free",
+        "fast"
+      ],
+      "answer": 3,
+      "explanation_ar": "express سريع.",
+      "explanation_en": "Express is fast."
+    },
+    {
+      "question": "____ stamps do you need?",
+      "choices": [
+        "How many",
+        "How much",
+        "How long",
+        "What many"
+      ],
+      "answer": 0,
+      "explanation_ar": "الطوابع معدودة: How many.",
+      "explanation_en": "Stamps are countable: How many."
+    },
+    {
+      "question": "____ is express? It's overnight.",
+      "choices": [
+        "How many",
+        "How much",
+        "How long",
+        "What time"
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال عن المدة: How long.",
+      "explanation_en": "Ask about time with \"How long\"."
+    },
+    {
+      "question": "The place where the package is going is the ...",
+      "choices": [
+        "return address",
+        "scale",
+        "destination",
+        "charge"
+      ],
+      "answer": 2,
+      "explanation_ar": "الوجهة: destination.",
+      "explanation_en": "The destination."
+    },
+    {
+      "question": "Please ____ out this address label.",
+      "choices": [
+        "fill",
+        "write",
+        "full",
+        "make"
+      ],
+      "answer": 0,
+      "explanation_ar": "fill out = يملأ.",
+      "explanation_en": "\"Fill out\" = complete a form."
+    },
+    {
+      "question": "It ____ about four pounds.",
+      "choices": [
+        "weight",
+        "weigh",
+        "is weigh",
+        "weighs"
+      ],
+      "answer": 3,
+      "explanation_ar": "الإجابة الصحيحة: it + weighs.",
+      "explanation_en": "\"It weighs\"."
+    },
+    {
+      "question": "You stick a ____ on a letter to pay for post.",
+      "choices": [
+        "scale",
+        "stamp",
+        "package",
+        "towel"
+      ],
+      "answer": 1,
+      "explanation_ar": "الطابع البريدي.",
+      "explanation_en": "A stamp."
+    },
+    {
+      "question": "\"Business days\" are ...",
+      "choices": [
+        "working days, Monday to Friday",
+        "weekend days",
+        "holidays",
+        "nights"
+      ],
+      "answer": 0,
+      "explanation_ar": "أيام العمل من الاثنين إلى الجمعة.",
+      "explanation_en": "Working days."
+    },
+    {
+      "question": "\"Okay, I've ____.\"",
+      "choices": [
+        "finish",
+        "finishing",
+        "finished",
+        "finishes"
+      ],
+      "answer": 2,
+      "explanation_ar": "have + التصريف الثالث finished.",
+      "explanation_en": "have + past participle: finished."
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "title": "Expressions with 'I', 'me' and 'my'",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "ruin",
+        "pos": "verb",
+        "meaning_en": "to spoil or destroy something",
+        "meaning_ar": "يُفسد / يدمّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The rain ruined our picnic."
+      },
+      {
+        "word": "annoyance",
+        "pos": "noun",
+        "meaning_en": "the feeling of being a little angry",
+        "meaning_ar": "انزعاج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She couldn't hide her annoyance."
+      },
+      {
+        "word": "mind",
+        "pos": "verb",
+        "meaning_en": "to be bothered by something; to care about",
+        "meaning_ar": "يمانع / ينزعج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you mind if I sit here?"
+      },
+      {
+        "word": "distract",
+        "pos": "verb",
+        "meaning_en": "to take someone's attention away",
+        "meaning_ar": "يُلهي / يشتّت الانتباه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't distract me while I'm driving."
+      },
+      {
+        "word": "interrupt",
+        "pos": "verb",
+        "meaning_en": "to stop someone while they are speaking or doing something",
+        "meaning_ar": "يقاطع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry to interrupt, but you have a call."
+      },
+      {
+        "word": "polite",
+        "pos": "adjective",
+        "meaning_en": "showing good manners",
+        "meaning_ar": "مهذّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's polite to say 'please'."
+      },
+      {
+        "word": "believe",
+        "pos": "verb",
+        "meaning_en": "to think something is true",
+        "meaning_ar": "يصدّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I don't believe his story."
+      },
+      {
+        "word": "buy",
+        "pos": "verb",
+        "meaning_en": "to pay for something; (informal) to believe",
+        "meaning_ar": "يشتري / (عامية) يصدّق",
+        "note_ar": "الماضي: bought.",
+        "note_en": "Past: bought.",
+        "example": "I don't buy that excuse."
+      },
+      {
+        "word": "cramp",
+        "pos": "noun / verb",
+        "meaning_en": "a sudden pain in a muscle; to limit or restrict",
+        "meaning_ar": "تشنّج / يقيّد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I got a cramp in my leg."
+      },
+      {
+        "word": "style",
+        "pos": "noun",
+        "meaning_en": "a way of doing things; fashion",
+        "meaning_ar": "أسلوب / طراز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like her style."
+      },
+      {
+        "word": "escape",
+        "pos": "verb",
+        "meaning_en": "to get away from a place; to be forgotten by someone",
+        "meaning_ar": "يهرب / يُنسى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The bird escaped from its cage."
+      },
+      {
+        "word": "recall",
+        "pos": "verb",
+        "meaning_en": "to remember",
+        "meaning_ar": "يتذكّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't recall his name."
+      },
+      {
+        "word": "run out of",
+        "pos": "phrasal verb",
+        "meaning_en": "to have no more of something",
+        "meaning_ar": "ينفد منه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've run out of milk."
+      },
+      {
+        "word": "again",
+        "pos": "adverb",
+        "meaning_en": "one more time",
+        "meaning_ar": "مرة أخرى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I failed again!"
+      },
+      {
+        "word": "freedom",
+        "pos": "noun",
+        "meaning_en": "being free to do what you want",
+        "meaning_ar": "حرية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Teenagers want more freedom."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "It beats me vs it escapes me",
+        "words": [
+          "it beats me",
+          "it escapes me"
+        ],
+        "explanation_ar": "it beats me تعني: لا أعرف أو لا أفهم (لم أعرفه أصلاً). it escapes me تعني: نسيت، كنت أعرفه لكنني لا أتذكره الآن.",
+        "explanation_en": "'It beats me' = I don't know or understand it. 'It escapes me' = I knew it, but I can't remember it now.",
+        "examples": [
+          {
+            "word": "it beats me",
+            "sentence": "It beats me why he left so early."
+          },
+          {
+            "word": "it escapes me",
+            "sentence": "I met her last year, but her name escapes me."
+          }
+        ]
+      },
+      {
+        "title": "I don't buy it vs it beats me",
+        "words": [
+          "I don't buy it",
+          "it beats me"
+        ],
+        "explanation_ar": "I don't buy it تعني: لا أصدّق ما تقوله. it beats me تعني: لا أعرف الجواب.",
+        "explanation_en": "'I don't buy it' = I don't believe what you say. 'It beats me' = I don't know the answer.",
+        "examples": [
+          {
+            "word": "I don't buy it",
+            "sentence": "You finished the book in one hour? I don't buy it."
+          },
+          {
+            "word": "it beats me",
+            "sentence": "How does this machine work? It beats me."
+          }
+        ]
+      },
+      {
+        "title": "Excuse me vs sorry",
+        "words": [
+          "excuse me",
+          "sorry"
+        ],
+        "explanation_ar": "excuse me تُقال قبل أن تزعج أحداً (لجذب الانتباه، أو لتمرّ، أو لتسأل). sorry تُقال بعد أن تخطئ. وexcuse me? بنبرة صاعدة تعني: ماذا قلت؟ أو استغراب.",
+        "explanation_en": "Say 'excuse me' before you disturb someone (to get attention, to pass, to ask). Say 'sorry' after you do something wrong. 'Excuse me?' with rising tone = what did you say? / surprise.",
+        "examples": [
+          {
+            "word": "excuse me",
+            "sentence": "Excuse me, is this seat free?"
+          },
+          {
+            "word": "sorry",
+            "sentence": "Sorry, I stepped on your foot."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "it's the story of my life",
+        "meaning_ar": "هذا ما يحدث لي دائماً",
+        "meaning_en": "said when something bad that often happens to you happens again",
+        "example": "It rained on my day off again - it's the story of my life."
+      },
+      {
+        "phrase": "don't mind me",
+        "meaning_ar": "لا تهتم بي / تابع ما تفعله",
+        "meaning_en": "please continue; don't let me disturb you",
+        "example": "Don't mind me - I'm just getting my coat."
+      },
+      {
+        "phrase": "excuse me",
+        "meaning_ar": "عفواً / المعذرة",
+        "meaning_en": "used to get attention, to pass someone, to say sorry for a small noise, or to show surprise",
+        "example": "Excuse me, could you tell me where the station is?"
+      },
+      {
+        "phrase": "I don't buy it",
+        "meaning_ar": "لا أصدّق ذلك",
+        "meaning_en": "I don't believe it",
+        "example": "He says the dog ate his homework? I don't buy it."
+      },
+      {
+        "phrase": "cramp my style",
+        "meaning_ar": "يقيّد حريتي / يحدّ من أسلوبي",
+        "meaning_en": "to stop me from doing what I want or acting freely",
+        "example": "Having to wear a uniform really cramps my style."
+      },
+      {
+        "phrase": "it beats me",
+        "meaning_ar": "لا أعرف / لا أفهم",
+        "meaning_en": "I don't know or understand",
+        "example": "It beats me how she finishes so much work every day."
+      },
+      {
+        "phrase": "it escapes me",
+        "meaning_ar": "نسيته / لا أتذكره",
+        "meaning_en": "I can't remember it",
+        "example": "The name of that film escapes me right now."
+      },
+      {
+        "phrase": "I'm out",
+        "meaning_ar": "نفد ما عندي",
+        "meaning_en": "I have none left of something",
+        "example": "Can I have some sugar? - Sorry, I'm out."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Subject and object pronouns: I / me / my",
+        "explanation_ar": "I ضمير فاعل يأتي قبل الفعل: I don't buy it. me ضمير مفعول يأتي بعد الفعل أو حرف الجر: it beats me، excuse me. my صفة ملكية تأتي قبل الاسم: my style، my life.",
+        "explanation_en": "'I' is the subject before the verb: 'I don't buy it.' 'Me' is the object after a verb or preposition: 'It beats me', 'Excuse me'. 'My' shows possession before a noun: 'my style', 'my life'.",
+        "examples": [
+          "I don't buy it.",
+          "It escapes me.",
+          "Don't mind me.",
+          "You're cramping my style."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I missed the bus again. ___ !",
+      "choices": [
+        "It's the story of my life",
+        "Don't mind me",
+        "I'm out",
+        "Excuse me"
+      ],
+      "answer": 0,
+      "explanation_ar": "it's the story of my life = هذا يحدث لي دائماً.",
+      "explanation_en": "Bad things like this always happen to me."
+    },
+    {
+      "question": "'Don't mind me' means:",
+      "choices": [
+        "I'm angry",
+        "Please continue, ignore me",
+        "Remember me",
+        "Help me"
+      ],
+      "answer": 1,
+      "explanation_ar": "don't mind me = تابع ولا تهتم بي.",
+      "explanation_en": "Continue; don't let me disturb you."
+    },
+    {
+      "question": "To ask a stranger for directions, start with: ___",
+      "choices": [
+        "I'm out",
+        "It beats me",
+        "Excuse me",
+        "I don't buy it"
+      ],
+      "answer": 2,
+      "explanation_ar": "excuse me لجذب الانتباه بأدب.",
+      "explanation_en": "'Excuse me' politely gets attention."
+    },
+    {
+      "question": "'He says he's a famous footballer.' - 'I don't ___ it.'",
+      "choices": [
+        "mind",
+        "beat",
+        "escape",
+        "buy"
+      ],
+      "answer": 3,
+      "explanation_ar": "I don't buy it = لا أصدّق.",
+      "explanation_en": "I don't believe it."
+    },
+    {
+      "question": "My little brother follows me everywhere. He ___ !",
+      "choices": [
+        "cramps my style",
+        "escapes me",
+        "beats me",
+        "is out"
+      ],
+      "answer": 0,
+      "explanation_ar": "cramp my style = يقيّد حريتي.",
+      "explanation_en": "He stops me acting freely."
+    },
+    {
+      "question": "'What's the answer?' - 'It ___ me.' (= I don't know)",
+      "choices": [
+        "escapes",
+        "beats",
+        "minds",
+        "cramps"
+      ],
+      "answer": 1,
+      "explanation_ar": "it beats me = لا أعرف.",
+      "explanation_en": "I don't know."
+    },
+    {
+      "question": "I know his face, but his name ___ me.",
+      "choices": [
+        "buys",
+        "beats",
+        "escapes",
+        "minds"
+      ],
+      "answer": 2,
+      "explanation_ar": "it escapes me = نسيته.",
+      "explanation_en": "I can't remember it."
+    },
+    {
+      "question": "'Have you got any coins?' - 'Sorry, ___ .'",
+      "choices": [
+        "don't mind me",
+        "it beats me",
+        "excuse me",
+        "I'm out"
+      ],
+      "answer": 3,
+      "explanation_ar": "I'm out = نفد ما عندي.",
+      "explanation_en": "I have none left."
+    },
+    {
+      "question": "Which one means you FORGOT something you knew?",
+      "choices": [
+        "it escapes me",
+        "it beats me",
+        "I don't buy it",
+        "don't mind me"
+      ],
+      "answer": 0,
+      "explanation_ar": "it escapes me = نسيت شيئاً كنت أعرفه.",
+      "explanation_en": "You knew it but can't remember now."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "It beats I.",
+        "It beats me.",
+        "Me don't buy it.",
+        "Excuse my, please."
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد الفعل نستخدم ضمير المفعول me.",
+      "explanation_en": "After a verb use 'me'."
+    }
+  ]
+}

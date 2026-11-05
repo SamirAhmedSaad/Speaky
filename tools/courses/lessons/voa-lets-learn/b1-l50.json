@@ -1,0 +1,474 @@
+{
+ "title": "Back to School",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "university",
+    "pos": "noun",
+    "meaning_en": "a place where people study after high school to get a degree",
+    "meaning_ar": "جامعة",
+    "note_ar": "تبدأ بصوت /j/ لذلك نقول a university",
+    "note_en": "Starts with a /j/ sound, so we say \"a university\".",
+    "example": "My brother studies at a university in Cairo."
+   },
+   {
+    "word": "go back to school",
+    "pos": "phrase",
+    "meaning_en": "to start studying again after some years",
+    "meaning_ar": "يعود إلى الدراسة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My mother went back to school at 40."
+   },
+   {
+    "word": "report",
+    "pos": "noun",
+    "meaning_en": "a piece of writing about a subject",
+    "meaning_ar": "تقرير، بحث",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have to finish my report tonight."
+   },
+   {
+    "word": "re-write",
+    "pos": "verb",
+    "meaning_en": "to write something again to make it better",
+    "meaning_ar": "يعيد كتابة",
+    "note_ar": "البادئة re تعني «مرة أخرى»",
+    "note_en": "The prefix re- means \"again\".",
+    "example": "I wrote and re-wrote my report."
+   },
+   {
+    "word": "subject",
+    "pos": "noun",
+    "meaning_en": "the thing you talk or write about",
+    "meaning_ar": "موضوع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The subject of my report is water."
+   },
+   {
+    "word": "topic",
+    "pos": "noun",
+    "meaning_en": "a subject that you talk or write about",
+    "meaning_ar": "موضوع",
+    "note_ar": "topic = subject",
+    "note_en": "topic = subject",
+    "example": "Today's topic is healthy food."
+   },
+   {
+    "word": "late",
+    "pos": "adjective",
+    "meaning_en": "after the usual or expected time",
+    "meaning_ar": "متأخر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sorry I'm late."
+   },
+   {
+    "word": "professor",
+    "pos": "noun",
+    "meaning_en": "a teacher at a university",
+    "meaning_ar": "أستاذ جامعي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The professor isn't here yet."
+   },
+   {
+    "word": "pencil sharpener",
+    "pos": "noun",
+    "meaning_en": "a small tool that makes a pencil sharp",
+    "meaning_ar": "مبراة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can I borrow your pencil sharpener?"
+   },
+   {
+    "word": "borrow",
+    "pos": "verb",
+    "meaning_en": "to take something and give it back later",
+    "meaning_ar": "يستعير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can I borrow your pen?"
+   },
+   {
+    "word": "extra",
+    "pos": "adjective",
+    "meaning_en": "more than you usually need",
+    "meaning_ar": "إضافي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I found my extra one!"
+   },
+   {
+    "word": "that was close",
+    "pos": "phrase",
+    "meaning_en": "something bad almost happened, but it didn't",
+    "meaning_ar": "كانت على وشك! (نجوت بصعوبة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The bus almost left without me. That was close!"
+   },
+   {
+    "word": "nervous",
+    "pos": "adjective",
+    "meaning_en": "a little afraid or worried",
+    "meaning_ar": "متوتر، قلق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm nervous about the exam."
+   },
+   {
+    "word": "advice",
+    "pos": "noun",
+    "meaning_en": "an idea about what someone should do",
+    "meaning_ar": "نصيحة",
+    "note_ar": "لا تُجمع: نقول some advice وليس advices",
+    "note_en": "Uncountable: say \"some advice\", not \"advices\".",
+    "example": "That is great advice."
+   },
+   {
+    "word": "pay attention",
+    "pos": "phrase",
+    "meaning_en": "to listen or watch carefully",
+    "meaning_ar": "ينتبه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please pay attention to the teacher."
+   },
+   {
+    "word": "do your best",
+    "pos": "phrase",
+    "meaning_en": "to try as hard as you can",
+    "meaning_ar": "يبذل قصارى جهده",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't worry. Just do your best."
+   },
+   {
+    "word": "draft",
+    "pos": "noun",
+    "meaning_en": "a first version of a piece of writing",
+    "meaning_ar": "مسودة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Bring your draft to class tomorrow."
+   },
+   {
+    "word": "giraffe",
+    "pos": "noun",
+    "meaning_en": "a tall African animal with a very long neck",
+    "meaning_ar": "زرافة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The giraffe is eating leaves from the tree."
+   },
+   {
+    "word": "snow storm",
+    "pos": "noun",
+    "meaning_en": "a storm with a lot of snow and wind",
+    "meaning_ar": "عاصفة ثلجية",
+    "note_ar": "تُكتب أيضًا snowstorm",
+    "note_en": "Also written snowstorm.",
+    "example": "The schools closed because of the snow storm."
+   },
+   {
+    "word": "patiently",
+    "pos": "adverb",
+    "meaning_en": "calmly, without getting angry when you wait",
+    "meaning_ar": "بصبر",
+    "note_ar": "الصفة: patient",
+    "note_en": "Adjective: patient.",
+    "example": "The students waited patiently."
+   },
+   {
+    "word": "give a talk",
+    "pos": "phrase",
+    "meaning_en": "to speak about a subject in front of people",
+    "meaning_ar": "يلقي كلمة/عرضًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Who wants to give their talk first?"
+   },
+   {
+    "word": "violence",
+    "pos": "noun",
+    "meaning_en": "actions that hurt people",
+    "meaning_ar": "عنف",
+    "note_ar": "تُنطق /ˈvaɪələns/ والنبرة على المقطع الأول.",
+    "note_en": "Stress at the start: VI-o-lence.",
+    "example": "Violence is a big problem in some cities."
+   },
+   {
+    "word": "solution",
+    "pos": "noun",
+    "meaning_en": "an answer to a problem",
+    "meaning_ar": "حل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We need a solution to this problem."
+   },
+   {
+    "word": "problem",
+    "pos": "noun",
+    "meaning_en": "something difficult that needs to be fixed",
+    "meaning_ar": "مشكلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Traffic is a problem in big cities."
+   },
+   {
+    "word": "hope",
+    "pos": "noun",
+    "meaning_en": "a feeling that good things will happen",
+    "meaning_ar": "أمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Good news fills us with hope."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "for vs since",
+    "words": [
+     "for",
+     "since"
+    ],
+    "explanation_ar": "for + مدة (for 10 minutes, for a long time, for several years). since + نقطة البداية (since 2015, since last night, since Monday).",
+    "explanation_en": "for + a period of time (for 10 minutes, for a long time, for several years). since + the starting point (since 2015, since last night, since Monday).",
+    "examples": [
+     {
+      "word": "for",
+      "sentence": "We've been waiting for about 10 minutes."
+     },
+     {
+      "word": "since",
+      "sentence": "I've been studying here since 2015."
+     },
+     {
+      "word": "since",
+      "sentence": "I have been writing since last night."
+     }
+    ]
+   },
+   {
+    "title": "borrow vs lend",
+    "words": [
+     "borrow",
+     "lend"
+    ],
+    "explanation_ar": "borrow = تأخذ شيئًا من شخص لتعيده لاحقًا. lend = تعطي شيئًا لشخص ليعيده لك. Can I borrow your pen? = Can you lend me your pen?",
+    "explanation_en": "Borrow = take something from someone and give it back later. Lend = give something to someone for a short time. \"Can I borrow your pen?\" = \"Can you lend me your pen?\"",
+    "examples": [
+     {
+      "word": "borrow",
+      "sentence": "Do you have a pencil sharpener I can borrow?"
+     },
+     {
+      "word": "lend",
+      "sentence": "Can you lend me your pencil sharpener?"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Are you finished with your report?",
+    "meaning_ar": "هل انتهيت من تقريرك؟",
+    "meaning_en": "have you finished your report?",
+    "example": "Are you finished with your homework?"
+   },
+   {
+    "phrase": "Am I late?",
+    "meaning_ar": "هل تأخرت؟",
+    "meaning_en": "asking if you came after the start time",
+    "example": "Am I late? Has the class started?"
+   },
+   {
+    "phrase": "Don't worry.",
+    "meaning_ar": "لا تقلق.",
+    "meaning_en": "it's OK; there is no problem",
+    "example": "Don't worry. You have time."
+   },
+   {
+    "phrase": "How long has the class been waiting?",
+    "meaning_ar": "منذ متى والصف ينتظر؟",
+    "meaning_en": "asking about the length of time of an action",
+    "example": "How long have you been waiting?"
+   },
+   {
+    "phrase": "Do you have a … I can borrow?",
+    "meaning_ar": "هل لديك … أستطيع استعارته؟",
+    "meaning_en": "a polite way to ask to borrow something",
+    "example": "Do you have a pen I can borrow?"
+   },
+   {
+    "phrase": "Whew, that was close.",
+    "meaning_ar": "يا للراحة، كانت على وشك!",
+    "meaning_en": "something bad almost happened",
+    "example": "Whew, that was close. I almost missed the train."
+   },
+   {
+    "phrase": "Don't be nervous.",
+    "meaning_ar": "لا تكن متوترًا.",
+    "meaning_en": "don't be worried",
+    "example": "Don't be nervous. You know the answers."
+   },
+   {
+    "phrase": "Just pay attention and do your best!",
+    "meaning_ar": "فقط انتبه وابذل قصارى جهدك!",
+    "meaning_en": "listen carefully and try hard",
+    "example": "Just pay attention and do your best in the exam!"
+   },
+   {
+    "phrase": "Here comes the professor.",
+    "meaning_ar": "ها هو الأستاذ قادم.",
+    "meaning_en": "the professor is arriving now",
+    "example": "Here comes the bus!"
+   },
+   {
+    "phrase": "Let's get started!",
+    "meaning_ar": "لنبدأ!",
+    "meaning_en": "let's begin",
+    "example": "Everyone is here. Let's get started!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Present perfect continuous: have/has been + verb-ing",
+    "explanation_ar": "نستخدم المضارع التام المستمر لفعل بدأ في الماضي وما زال مستمرًا حتى الآن، مع التركيز على المدة.\nالتركيب: have/has + been + الفعل + ing.\n• I have been writing since last night.\n• We've been waiting for about 10 minutes.\n• Students have been studying here since 1792.\nالسؤال عن المدة: How long have you been + ing? → How long have you been studying at Georgetown?\nالنفي: I haven't been sleeping well.",
+    "explanation_en": "Use the present perfect continuous for an action that started in the past and is still going on now. It focuses on how long.\nForm: have/has + been + verb-ing.\n• I have been writing since last night.\n• We've been waiting for about 10 minutes.\n• Students have been studying here since 1792.\nAsk about time: How long have you been + verb-ing? → How long have you been studying at Georgetown?\nNegative: I haven't been sleeping well.",
+    "examples": [
+     "How long have you been studying at Georgetown?",
+     "I've been studying here since 2015.",
+     "We've only been waiting for about 10 minutes.",
+     "I've been working for several years now.",
+     "I've been wanting to go back to school for a long time."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Complete: \"I've been studying here ___ 2015.\"",
+   "choices": [
+    "for",
+    "since",
+    "ago",
+    "from"
+   ],
+   "answer": 1,
+   "explanation_ar": "since مع نقطة البداية: since 2015.",
+   "explanation_en": "Use \"since\" with a starting point: since 2015."
+  },
+  {
+   "question": "Complete: \"We've been waiting ___ about 10 minutes.\"",
+   "choices": [
+    "for",
+    "since",
+    "at",
+    "during"
+   ],
+   "answer": 0,
+   "explanation_ar": "for مع المدة: for 10 minutes.",
+   "explanation_en": "Use \"for\" with a period of time."
+  },
+  {
+   "question": "Choose the correct question.",
+   "choices": [
+    "How long you have been studying?",
+    "How long have you being studying?",
+    "How long have you been studying?",
+    "How long are you been studying?"
+   ],
+   "answer": 2,
+   "explanation_ar": "السؤال: How long + have + you + been + ing?",
+   "explanation_en": "The question form is: How long + have + you + been + verb-ing?"
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "She have been writing since last night.",
+    "She has be writing since last night.",
+    "She is been writing since last night.",
+    "She has been writing since last night."
+   ],
+   "answer": 3,
+   "explanation_ar": "مع she نقول has been + ing.",
+   "explanation_en": "With \"she\" use \"has been\" + verb-ing."
+  },
+  {
+   "question": "What is a \"draft\"?",
+   "choices": [
+    "a tall animal",
+    "a first version of a piece of writing",
+    "a kind of pencil",
+    "a teacher"
+   ],
+   "answer": 1,
+   "explanation_ar": "draft = مسودة، النسخة الأولى من الكتابة.",
+   "explanation_en": "A draft is the first version of a piece of writing."
+  },
+  {
+   "question": "\"Violence\" means …",
+   "choices": [
+    "a school subject",
+    "a quiet place",
+    "actions that hurt people",
+    "a big storm"
+   ],
+   "answer": 2,
+   "explanation_ar": "violence = العنف، أي أفعال تؤذي الناس.",
+   "explanation_en": "Violence is actions that hurt people."
+  },
+  {
+   "question": "Which is correct?",
+   "choices": [
+    "Can I lend your pencil sharpener?",
+    "Can I borrow your pencil sharpener?",
+    "Can you borrow me your pencil sharpener?",
+    "Can I borrowing your pencil sharpener?"
+   ],
+   "answer": 1,
+   "explanation_ar": "نأخذ الشيء → borrow: Can I borrow …?",
+   "explanation_en": "When you take something, use \"borrow\": Can I borrow …?"
+  },
+  {
+   "question": "Someone tells you: \"Pay attention and do your best!\" This is …",
+   "choices": [
+    "advice",
+    "a draft",
+    "a problem",
+    "a topic"
+   ],
+   "answer": 0,
+   "explanation_ar": "هذه نصيحة advice.",
+   "explanation_en": "This is advice: an idea about what you should do."
+  },
+  {
+   "question": "You almost missed the bus, but you caught it. You say:",
+   "choices": [
+    "Here comes the professor.",
+    "Let's get started.",
+    "Don't be nervous.",
+    "Whew, that was close!"
+   ],
+   "answer": 3,
+   "explanation_ar": "That was close = كاد أن يحدث شيء سيئ.",
+   "explanation_en": "\"That was close\" means something bad almost happened."
+  },
+  {
+   "question": "\"Topic\" has the same meaning as …",
+   "choices": [
+    "subject",
+    "report",
+    "talk",
+    "class"
+   ],
+   "answer": 0,
+   "explanation_ar": "topic = subject = موضوع.",
+   "explanation_en": "Topic means subject."
+  }
+ ]
+}

@@ -1,0 +1,426 @@
+{
+  "title": "Prepositions of Place: Where is my wallet?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "kitchen",
+        "pos": "noun",
+        "meaning_en": "the room where you cook",
+        "meaning_ar": "مطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mom is in the kitchen."
+      },
+      {
+        "word": "wallet",
+        "pos": "noun",
+        "meaning_en": "a small case for money and cards",
+        "meaning_ar": "محفظة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I lost my wallet."
+      },
+      {
+        "word": "table",
+        "pos": "noun",
+        "meaning_en": "furniture with a flat top and legs",
+        "meaning_ar": "طاولة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The keys are on the table."
+      },
+      {
+        "word": "lose",
+        "pos": "verb",
+        "meaning_en": "not be able to find something",
+        "meaning_ar": "يفقد / يُضيّع",
+        "note_ar": "الماضي: lost",
+        "note_en": "Past: lost.",
+        "example": "Don't lose your phone."
+      },
+      {
+        "word": "living room",
+        "pos": "noun",
+        "meaning_en": "the room where a family sits and relaxes",
+        "meaning_ar": "غرفة المعيشة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We watch TV in the living room."
+      },
+      {
+        "word": "sofa",
+        "pos": "noun",
+        "meaning_en": "a long soft seat for two or more people",
+        "meaning_ar": "أريكة / كنبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The cat is on the sofa."
+      },
+      {
+        "word": "check",
+        "pos": "verb",
+        "meaning_en": "look to find out",
+        "meaning_ar": "يتحقّق / يفحص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Check your bag again."
+      },
+      {
+        "word": "garden",
+        "pos": "noun",
+        "meaning_en": "land near a house with grass and plants",
+        "meaning_ar": "حديقة (منزلية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The children play in the garden."
+      },
+      {
+        "word": "box",
+        "pos": "noun",
+        "meaning_en": "a container with flat sides",
+        "meaning_ar": "صندوق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The ball is in front of the box."
+      },
+      {
+        "word": "ball",
+        "pos": "noun",
+        "meaning_en": "a round thing for playing",
+        "meaning_ar": "كرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Throw me the ball."
+      },
+      {
+        "word": "tree",
+        "pos": "noun",
+        "meaning_en": "a tall plant with a trunk and branches",
+        "meaning_ar": "شجرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The wallet is under the tree."
+      },
+      {
+        "word": "find",
+        "pos": "verb",
+        "meaning_en": "see or get something you were looking for",
+        "meaning_ar": "يجد",
+        "note_ar": "الماضي: found",
+        "note_en": "Past: found.",
+        "example": "I found my keys!"
+      },
+      {
+        "word": "celebrate",
+        "pos": "verb",
+        "meaning_en": "do something nice for a happy event",
+        "meaning_ar": "يحتفل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's celebrate your success."
+      },
+      {
+        "word": "in",
+        "pos": "preposition",
+        "meaning_en": "inside something",
+        "meaning_ar": "في / داخل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The pen is in the bag."
+      },
+      {
+        "word": "on",
+        "pos": "preposition",
+        "meaning_en": "touching the top of something",
+        "meaning_ar": "على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The book is on the table."
+      },
+      {
+        "word": "under",
+        "pos": "preposition",
+        "meaning_en": "below something",
+        "meaning_ar": "تحت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The cat is under the table."
+      },
+      {
+        "word": "behind",
+        "pos": "preposition",
+        "meaning_en": "at the back of something",
+        "meaning_ar": "خلف / وراء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The ball is behind the door."
+      },
+      {
+        "word": "in front of",
+        "pos": "preposition",
+        "meaning_en": "before something; facing it",
+        "meaning_ar": "أمام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The car is in front of the house."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "in vs on",
+        "words": [
+          "in",
+          "on"
+        ],
+        "explanation_ar": "in تعني داخل شيء (in the bag)، و on تعني فوق سطح شيء وملامس له (on the table).",
+        "explanation_en": "In = inside. On = on the top surface.",
+        "examples": [
+          {
+            "word": "in",
+            "sentence": "My wallet is in my bag."
+          },
+          {
+            "word": "on",
+            "sentence": "My wallet is on the table."
+          }
+        ]
+      },
+      {
+        "title": "behind vs in front of",
+        "words": [
+          "behind",
+          "in front of"
+        ],
+        "explanation_ar": "behind تعني خلف، و in front of تعني أمام. هما عكس بعضهما.",
+        "explanation_en": "Behind = at the back. In front of = before, facing. They are opposites.",
+        "examples": [
+          {
+            "word": "behind",
+            "sentence": "The ball is behind the TV."
+          },
+          {
+            "word": "in front of",
+            "sentence": "The ball is in front of the box."
+          }
+        ]
+      },
+      {
+        "title": "under vs on",
+        "words": [
+          "under",
+          "on"
+        ],
+        "explanation_ar": "under تعني تحت، و on تعني فوق.",
+        "explanation_en": "Under = below. On = on top.",
+        "examples": [
+          {
+            "word": "under",
+            "sentence": "The wallet is under the sofa."
+          },
+          {
+            "word": "on",
+            "sentence": "The phone is on the sofa."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Where are you? — I'm in the kitchen!",
+        "meaning_ar": "أين أنت؟ — أنا في المطبخ!",
+        "meaning_en": "Ask and say where someone is.",
+        "example": "Where are you? I'm in the living room."
+      },
+      {
+        "phrase": "Have you seen my wallet?",
+        "meaning_ar": "هل رأيت محفظتي؟",
+        "meaning_en": "Ask about a lost thing.",
+        "example": "Have you seen my keys?"
+      },
+      {
+        "phrase": "Is it on the table? — No, it's not on the table.",
+        "meaning_ar": "هل هي على الطاولة؟ — لا، ليست على الطاولة.",
+        "meaning_en": "Ask and answer about place.",
+        "example": "Is it in your bag? No, it's not in the bag."
+      },
+      {
+        "phrase": "What's going on?",
+        "meaning_ar": "ماذا يحدث؟",
+        "meaning_en": "Ask what is happening.",
+        "example": "Everyone is looking! What's going on?"
+      },
+      {
+        "phrase": "Where did you last have it?",
+        "meaning_ar": "أين كانت معك آخر مرة؟",
+        "meaning_en": "Help someone find a lost thing.",
+        "example": "You lost your phone? Where did you last have it?"
+      },
+      {
+        "phrase": "Let's check.",
+        "meaning_ar": "لنتحقّق.",
+        "meaning_en": "Suggest looking.",
+        "example": "Maybe it's under the sofa. Let's check."
+      },
+      {
+        "phrase": "I'm glad we found it!",
+        "meaning_ar": "أنا سعيد أننا وجدناها!",
+        "meaning_en": "Say you are happy something was found.",
+        "example": "Here's your wallet! I'm glad we found it!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Prepositions of place: in, on, under, behind, in front of",
+        "explanation_ar": "نستخدم حروف الجر لنقول أين الشيء: in (في/داخل)، on (على)، under (تحت)، behind (خلف)، in front of (أمام). الصيغة: It's + حرف الجر + the + المكان.",
+        "explanation_en": "Prepositions of place: in, on, under, behind, in front of. Pattern: It's + preposition + the + place.",
+        "examples": [
+          "Is it on the table?",
+          "Maybe it's under the sofa.",
+          "There is only a ball in front of the box."
+        ]
+      },
+      {
+        "title": "Yes/No questions with \"Is it...?\"",
+        "explanation_ar": "نسأل عن المكان: Is it in your bag? والجواب: Yes, it is. / No, it's not (it isn't).",
+        "explanation_en": "Ask: Is it + place? Answer: Yes, it is. / No, it's not.",
+        "examples": [
+          "Is it in your bag? No, it's not in the bag.",
+          "Is it in front of the box? No, it's not there.",
+          "Is it under the tree? Yes, it is."
+        ]
+      },
+      {
+        "title": "Present perfect: Have you seen...? / Have you checked...?",
+        "explanation_ar": "نستخدم Have you + التصريف الثالث لنسأل إن كان شيء قد حدث حتى الآن: Have you seen my wallet? والجواب: No, I haven't. / Yes, I have.",
+        "explanation_en": "Have you + past participle asks about experience up to now. Answer: Yes, I have / No, I haven't.",
+        "examples": [
+          "Have you seen my wallet?",
+          "Have you checked the garden? No, I haven't.",
+          "Have you seen it? No, I haven't."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "The cat is ___ the table. (below it)",
+      "choices": [
+        "on",
+        "in",
+        "under",
+        "behind"
+      ],
+      "answer": 2,
+      "explanation_ar": "under تعني تحت.",
+      "explanation_en": "Under means below."
+    },
+    {
+      "question": "The book is ___ the table. (on top of it)",
+      "choices": [
+        "behind",
+        "under",
+        "on",
+        "in front of"
+      ],
+      "answer": 2,
+      "explanation_ar": "on تعني على.",
+      "explanation_en": "On means on top."
+    },
+    {
+      "question": "My wallet is ___ my bag. (inside it)",
+      "choices": [
+        "on",
+        "behind",
+        "under",
+        "in"
+      ],
+      "answer": 3,
+      "explanation_ar": "in تعني داخل.",
+      "explanation_en": "In means inside."
+    },
+    {
+      "question": "The opposite of \"behind\" is ___.",
+      "choices": [
+        "in front of",
+        "in",
+        "under",
+        "on"
+      ],
+      "answer": 0,
+      "explanation_ar": "عكس behind هو in front of.",
+      "explanation_en": "The opposite is \"in front of\"."
+    },
+    {
+      "question": "Have you seen my wallet? — No, I ___.",
+      "choices": [
+        "didn't",
+        "haven't",
+        "don't",
+        "isn't"
+      ],
+      "answer": 1,
+      "explanation_ar": "الجواب على Have you: No, I haven't.",
+      "explanation_en": "Answer \"Have you...?\" with \"No, I haven't\"."
+    },
+    {
+      "question": "Is it in your bag? — No, it's ___ in the bag.",
+      "choices": [
+        "not",
+        "no",
+        "don't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation_ar": "it's not اختصار it is not (ليس).",
+      "explanation_en": "it's not = it is not."
+    },
+    {
+      "question": "Where was it? — It ___ under the tree.",
+      "choices": [
+        "is",
+        "were",
+        "be",
+        "was"
+      ],
+      "answer": 3,
+      "explanation_ar": "الماضي مع it: was.",
+      "explanation_en": "Past with \"it\": was."
+    },
+    {
+      "question": "I ___ my wallet. I can't find it.",
+      "choices": [
+        "lose",
+        "lost",
+        "losed",
+        "losing"
+      ],
+      "answer": 1,
+      "explanation_ar": "ماضي lose هو lost.",
+      "explanation_en": "The past of lose is lost."
+    },
+    {
+      "question": "We watch TV in the ___.",
+      "choices": [
+        "living room",
+        "garden",
+        "box",
+        "wallet"
+      ],
+      "answer": 0,
+      "explanation_ar": "غرفة المعيشة living room.",
+      "explanation_en": "We watch TV in the living room."
+    },
+    {
+      "question": "Look ___ the TV! (at the back of it)",
+      "choices": [
+        "behind",
+        "in front of",
+        "on",
+        "in"
+      ],
+      "answer": 0,
+      "explanation_ar": "behind تعني خلف.",
+      "explanation_en": "Behind = at the back of."
+    }
+  ]
+}

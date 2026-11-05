@@ -1,0 +1,391 @@
+{
+ "title": "Eight everyday idioms",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "loss",
+    "pos": "noun",
+    "meaning_en": "the fact of no longer having something",
+    "meaning_ar": "خسارة، فقدان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The loss of my keys was annoying."
+   },
+   {
+    "word": "opportunity",
+    "pos": "noun",
+    "meaning_en": "a chance to do something",
+    "meaning_ar": "فرصة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This job is a great opportunity."
+   },
+   {
+    "word": "mechanic",
+    "pos": "noun",
+    "meaning_en": "a person who repairs cars and machines",
+    "meaning_ar": "ميكانيكي",
+    "note_ar": "ch تُنطق k: /məˈkænɪk/.",
+    "note_en": "'ch' sounds like 'k': /məˈkænɪk/.",
+    "example": "The mechanic fixed my car."
+   },
+   {
+    "word": "steal",
+    "pos": "verb",
+    "meaning_en": "to take something that is not yours",
+    "meaning_ar": "يسرق",
+    "note_ar": "التصريف: steal – stole – stolen.",
+    "note_en": "Forms: steal – stole – stolen.",
+    "example": "Someone stole my bike."
+   },
+   {
+    "word": "thief",
+    "pos": "noun",
+    "meaning_en": "a person who steals",
+    "meaning_ar": "لصّ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The police caught the thief."
+   },
+   {
+    "word": "caught",
+    "pos": "verb",
+    "meaning_en": "past of 'catch': to find someone doing something",
+    "meaning_ar": "قُبض عليه، ضُبط (ماضي catch)",
+    "note_ar": "تُنطق /kɔːt/ مثل court.",
+    "note_en": "Say /kɔːt/; it sounds like 'court'.",
+    "example": "He was caught taking sweets."
+   },
+   {
+    "word": "admit",
+    "pos": "verb",
+    "meaning_en": "to agree that something bad is true",
+    "meaning_ar": "يعترف، يُقِرّ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He admitted that he was wrong."
+   },
+   {
+    "word": "regret",
+    "pos": "verb",
+    "meaning_en": "to feel sorry about something you did",
+    "meaning_ar": "يندم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I regret saying that."
+   },
+   {
+    "word": "criticise",
+    "pos": "verb",
+    "meaning_en": "to say what is wrong with someone or something",
+    "meaning_ar": "ينتقد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My father criticised my messy room."
+   },
+   {
+    "word": "attempt",
+    "pos": "noun",
+    "meaning_en": "a try",
+    "meaning_ar": "محاولة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She passed on her first attempt."
+   },
+   {
+    "word": "boots",
+    "pos": "noun",
+    "meaning_en": "strong shoes that cover your ankles",
+    "meaning_ar": "أحذية طويلة (جزمة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Wear boots – it's muddy outside."
+   },
+   {
+    "word": "thunder",
+    "pos": "noun",
+    "meaning_en": "the loud noise after lightning in a storm",
+    "meaning_ar": "رعد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The thunder woke the baby."
+   },
+   {
+    "word": "praise",
+    "pos": "noun",
+    "meaning_en": "words that show you admire someone",
+    "meaning_ar": "مديح، ثناء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The team got a lot of praise."
+   },
+   {
+    "word": "hoop",
+    "pos": "noun",
+    "meaning_en": "a large ring of metal, wood or plastic",
+    "meaning_ar": "طوق، حلقة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The dog jumped through a hoop at the show."
+   },
+   {
+    "word": "unnecessary",
+    "pos": "adjective",
+    "meaning_en": "not needed",
+    "meaning_ar": "غير ضروري",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't buy unnecessary things."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "have a go vs have a go at someone",
+    "words": [
+     "have a go",
+     "have a go at someone"
+    ],
+    "explanation_ar": "have a go (at something) = يجرّب أو يحاول: Have a go at this puzzle. أما have a go at someone (بعدها شخص) = ينتقده أو يوبّخه بغضب.",
+    "explanation_en": "'Have a go (at something)' means try: Have a go at this puzzle. 'Have a go at someone' (followed by a person) means criticise them angrily.",
+    "examples": [
+     {
+      "word": "have a go",
+      "sentence": "I've never made bread, but I'll have a go."
+     },
+     {
+      "word": "have a go at someone",
+      "sentence": "The coach had a go at us for being late."
+     }
+    ]
+   },
+   {
+    "title": "kiss something goodbye vs call it a day",
+    "words": [
+     "kiss something goodbye",
+     "call it a day"
+    ],
+    "explanation_ar": "kiss something goodbye = تقبل أنك ستخسر شيئاً أو فرصة. call it a day = تقرّر التوقف عن العمل لبقية اليوم (أو نهائياً).",
+    "explanation_en": "'Kiss something goodbye' = accept that you will lose something or a chance. 'Call it a day' = decide to stop working for now (or for good).",
+    "examples": [
+     {
+      "word": "kiss something goodbye",
+      "sentence": "If you miss the deadline, you can kiss the prize goodbye."
+     },
+     {
+      "word": "call it a day",
+      "sentence": "We've worked for eight hours – let's call it a day."
+     }
+    ]
+   },
+   {
+    "title": "steal someone's thunder vs eat your words",
+    "words": [
+     "steal someone's thunder",
+     "eat your words"
+    ],
+    "explanation_ar": "steal someone's thunder = تأخذ الانتباه أو المديح الذي كان لشخص آخر. eat your words = تعترف بأن ما قلته كان خطأً.",
+    "explanation_en": "'Steal someone's thunder' = take attention or praise away from another person. 'Eat your words' = admit that what you said was wrong.",
+    "examples": [
+     {
+      "word": "steal someone's thunder",
+      "sentence": "She stole my thunder by sharing my news first."
+     },
+     {
+      "word": "eat your words",
+      "sentence": "You said I'd fail – now you'll have to eat your words!"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "kiss something goodbye",
+    "meaning_ar": "يتقبّل خسارة شيء أو ضياع فرصة",
+    "meaning_en": "to accept that you have lost something or a chance",
+    "example": "The rain started, so we kissed our picnic goodbye."
+   },
+   {
+    "phrase": "(be) caught red-handed",
+    "meaning_ar": "يُضبط متلبّساً أثناء فعل شيء خاطئ",
+    "meaning_en": "to be caught while doing something wrong",
+    "example": "My brother was caught red-handed eating my chocolate."
+   },
+   {
+    "phrase": "call it a day",
+    "meaning_ar": "يتوقف عن العمل (لهذا اليوم)",
+    "meaning_en": "to decide to stop what you are doing for now",
+    "example": "I'm tired. Let's call it a day and finish tomorrow."
+   },
+   {
+    "phrase": "eat your words",
+    "meaning_ar": "يعترف بأن ما قاله كان خطأً",
+    "meaning_en": "to admit that something you said was wrong",
+    "example": "He said our team would lose, but he had to eat his words."
+   },
+   {
+    "phrase": "have a go at someone",
+    "meaning_ar": "ينتقد شخصاً أو يوبّخه بغضب",
+    "meaning_en": "to criticise someone angrily",
+    "example": "Why do you always have a go at me?"
+   },
+   {
+    "phrase": "have a go (at something)",
+    "meaning_ar": "يجرّب، يحاول",
+    "meaning_en": "to try to do something",
+    "example": "Can I have a go at riding your bike?"
+   },
+   {
+    "phrase": "fill your boots",
+    "meaning_ar": "خذ ما شئت؛ استفد إلى أقصى حد",
+    "meaning_en": "take as much as you want; make the most of a situation",
+    "example": "There's lots of food left – fill your boots!"
+   },
+   {
+    "phrase": "steal someone's thunder",
+    "meaning_ar": "يسرق الأضواء أو المديح من شخص آخر",
+    "meaning_en": "to take attention or praise away from someone else",
+    "example": "I was going to announce the plan, but Ali stole my thunder."
+   },
+   {
+    "phrase": "jump through hoops",
+    "meaning_ar": "يمرّ بخطوات صعبة كثيرة (وأحياناً غير ضرورية) للحصول على شيء",
+    "meaning_en": "to do many difficult, often unnecessary things to get something",
+    "example": "We had to jump through hoops to get a refund."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Passive with 'get' and 'be': caught red-handed",
+    "explanation_ar": "نقول be caught أو get caught (مبني للمجهول) عندما يُكتشف الشخص: He was caught red-handed. She got caught cheating. التركيب: be/get + التصريف الثالث للفعل (caught).",
+    "explanation_en": "We use 'be caught' or 'get caught' (passive) when someone is discovered doing something: He was caught red-handed. She got caught cheating. Pattern: be/get + past participle.",
+    "examples": [
+     "He was caught red-handed.",
+     "Don't get caught!",
+     "The thief was caught by the police."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "'Let's call it a day.' What does it mean?",
+   "choices": [
+    "Let's start now.",
+    "Let's stop working for today.",
+    "Let's phone someone.",
+    "Let's name the day."
+   ],
+   "answer": 1,
+   "explanation_ar": "call it a day = نتوقف عن العمل اليوم.",
+   "explanation_en": "'Call it a day' means stop for today."
+  },
+  {
+   "question": "The thief was ___ taking money from the till.",
+   "choices": [
+    "caught red-handed",
+    "filled his boots",
+    "called it a day",
+    "jumped through hoops"
+   ],
+   "answer": 0,
+   "explanation_ar": "caught red-handed = ضُبط متلبّساً.",
+   "explanation_en": "'Caught red-handed' means caught doing something wrong."
+  },
+  {
+   "question": "'I'll have a go at fixing it.' The speaker will...",
+   "choices": [
+    "criticise it",
+    "throw it away",
+    "try to fix it",
+    "buy a new one"
+   ],
+   "answer": 2,
+   "explanation_ar": "have a go at + شيء = يحاول.",
+   "explanation_en": "'Have a go at' + thing means try."
+  },
+  {
+   "question": "'My manager had a go at me.' The manager...",
+   "choices": [
+    "praised me",
+    "tried my job",
+    "helped me",
+    "criticised me angrily"
+   ],
+   "answer": 3,
+   "explanation_ar": "have a go at + شخص = ينتقده بغضب.",
+   "explanation_en": "'Have a go at' + person means criticise angrily."
+  },
+  {
+   "question": "You said I couldn't cook, but this cake is perfect. Now you must ___.",
+   "choices": [
+    "eat your words",
+    "fill your boots",
+    "kiss it goodbye",
+    "steal my thunder"
+   ],
+   "answer": 0,
+   "explanation_ar": "eat your words = تعترف بخطئك.",
+   "explanation_en": "'Eat your words' means admit you were wrong."
+  },
+  {
+   "question": "It was my big day, but my cousin announced his news first and ___.",
+   "choices": [
+    "called it a day",
+    "stole my thunder",
+    "ate his words",
+    "had a go"
+   ],
+   "answer": 1,
+   "explanation_ar": "steal someone's thunder = يسرق الأضواء.",
+   "explanation_en": "'Steal someone's thunder' means take attention from someone."
+  },
+  {
+   "question": "To get a visa, we had to fill in many forms and visit many offices. We had to ___.",
+   "choices": [
+    "fill our boots",
+    "kiss it goodbye",
+    "jump through hoops",
+    "call it a day"
+   ],
+   "answer": 2,
+   "explanation_ar": "jump through hoops = يمرّ بخطوات صعبة كثيرة.",
+   "explanation_en": "'Jump through hoops' means do many difficult steps."
+  },
+  {
+   "question": "'Free fruit for everyone – fill your boots!' This means...",
+   "choices": [
+    "Put fruit in your shoes.",
+    "Don't take any.",
+    "Wait for later.",
+    "Take as much as you want."
+   ],
+   "answer": 3,
+   "explanation_ar": "fill your boots = خذ ما شئت.",
+   "explanation_en": "'Fill your boots' means take as much as you want."
+  },
+  {
+   "question": "If you lose the receipt, you can ___ your refund ___.",
+   "choices": [
+    "kiss / goodbye",
+    "eat / words",
+    "call / a day",
+    "steal / thunder"
+   ],
+   "answer": 0,
+   "explanation_ar": "kiss something goodbye = تقبّل خسارته.",
+   "explanation_en": "'Kiss something goodbye' means accept you've lost it."
+  },
+  {
+   "question": "Which sentence is a correct passive?",
+   "choices": [
+    "He caught red-handed.",
+    "He was caught red-handed.",
+    "He was catch red-handed.",
+    "He catching red-handed."
+   ],
+   "answer": 1,
+   "explanation_ar": "المبني للمجهول: was + caught.",
+   "explanation_en": "Passive: was + caught."
+  }
+ ]
+}

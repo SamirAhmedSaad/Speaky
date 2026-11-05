@@ -1,0 +1,442 @@
+{
+  "title": "Presenting a New Product",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "launch",
+        "pos": "verb",
+        "meaning_en": "to show or sell a new product for the first time",
+        "meaning_ar": "يطلق (منتجًا جديدًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company will launch its new phone next month."
+      },
+      {
+        "word": "product",
+        "pos": "noun",
+        "meaning_en": "something that a company makes and sells",
+        "meaning_ar": "منتَج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is our newest product."
+      },
+      {
+        "word": "prototype",
+        "pos": "noun",
+        "meaning_en": "the first model of a new product",
+        "meaning_ar": "نموذج أولي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We tested the prototype before making a thousand of them."
+      },
+      {
+        "word": "presentation",
+        "pos": "noun",
+        "meaning_en": "a talk that shows and explains something to a group",
+        "meaning_ar": "عرض تقديمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our presentation is about to begin."
+      },
+      {
+        "word": "slide",
+        "pos": "noun",
+        "meaning_en": "one page of a computer presentation",
+        "meaning_ar": "شريحة (في العرض التقديمي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The next slide shows our sales figures."
+      },
+      {
+        "word": "made of",
+        "pos": "phrase",
+        "meaning_en": "used to say what material something is",
+        "meaning_ar": "مصنوع من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The chair is made of wood."
+      },
+      {
+        "word": "high quality",
+        "pos": "adjective",
+        "meaning_en": "very good, made well",
+        "meaning_ar": "عالي الجودة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We only use high quality materials."
+      },
+      {
+        "word": "specifications",
+        "pos": "noun",
+        "meaning_en": "detailed technical descriptions of how something is made",
+        "meaning_ar": "المواصفات",
+        "note_ar": "تُختصر في الكلام specs.",
+        "note_en": "Often shortened to 'specs'.",
+        "example": "The machine was built to the highest specifications."
+      },
+      {
+        "word": "tough",
+        "pos": "adjective",
+        "meaning_en": "strong; not easily broken",
+        "meaning_ar": "متين؛ قوي",
+        "note_ar": "تُنطق /tʌf/.",
+        "note_en": "Say /tʌf/.",
+        "example": "This bag is tough enough to carry books."
+      },
+      {
+        "word": "durable",
+        "pos": "adjective",
+        "meaning_en": "lasting a long time",
+        "meaning_ar": "يدوم طويلًا؛ معمّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These shoes are very durable."
+      },
+      {
+        "word": "decoration",
+        "pos": "noun",
+        "meaning_en": "something that makes a place look nicer",
+        "meaning_ar": "زينة؛ ديكور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Flowers are a nice decoration for a table."
+      },
+      {
+        "word": "discount",
+        "pos": "noun",
+        "meaning_en": "an amount taken off the normal price",
+        "meaning_ar": "خصم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We offer a 10% discount on large orders."
+      },
+      {
+        "word": "generous",
+        "pos": "adjective",
+        "meaning_en": "larger or kinder than usual",
+        "meaning_ar": "سخيّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company gave us a generous discount."
+      },
+      {
+        "word": "money-back guarantee",
+        "pos": "noun",
+        "meaning_en": "a promise to return your money if you are not happy",
+        "meaning_ar": "ضمان استرداد المال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "All our products come with a money-back guarantee."
+      },
+      {
+        "word": "place an order",
+        "pos": "phrase",
+        "meaning_en": "to officially ask to buy goods",
+        "meaning_ar": "يقدّم طلبية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you place an order today, delivery is free."
+      },
+      {
+        "word": "convinced",
+        "pos": "adjective",
+        "meaning_en": "completely sure that something is true",
+        "meaning_ar": "مقتنع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm convinced this product will sell well."
+      },
+      {
+        "word": "on the market",
+        "pos": "phrase",
+        "meaning_en": "available for people to buy",
+        "meaning_ar": "في السوق؛ متاح للبيع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's the best product on the market."
+      },
+      {
+        "word": "take orders",
+        "pos": "phrase",
+        "meaning_en": "to accept requests from customers to buy",
+        "meaning_ar": "يستقبل الطلبات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're taking orders from today."
+      },
+      {
+        "word": "enthusiastic",
+        "pos": "adjective",
+        "meaning_en": "showing a lot of interest and excitement",
+        "meaning_ar": "متحمّس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She sounded enthusiastic about the new design."
+      },
+      {
+        "word": "gather round",
+        "pos": "phrasal verb",
+        "meaning_en": "to come together around someone",
+        "meaning_ar": "يتجمّعون حول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you all gather round, please?"
+      },
+      {
+        "word": "client",
+        "pos": "noun",
+        "meaning_en": "a person or company that buys services or goods from a business",
+        "meaning_ar": "عميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Many clients came to the launch."
+      },
+      {
+        "word": "illustrate",
+        "pos": "verb",
+        "meaning_en": "to show or explain something with pictures or examples",
+        "meaning_ar": "يوضّح (بالصور أو الأمثلة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These slides illustrate how the product works."
+      },
+      {
+        "word": "mouldy",
+        "pos": "adjective",
+        "meaning_en": "covered in mould (old food goes mouldy)",
+        "meaning_ar": "متعفّن",
+        "note_ar": "في الأمريكية moldy.",
+        "note_en": "US spelling: moldy.",
+        "example": "Plastic fruit never goes mouldy."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "made of vs made from",
+        "words": [
+          "made of",
+          "made from"
+        ],
+        "explanation_ar": "made of نستخدمها عندما تبقى المادة واضحة في الشيء (طاولة من خشب). made from عندما تتغير المادة فلا تُرى بسهولة (الورق مصنوع من الخشب).",
+        "explanation_en": "Use 'made of' when you can still see the material (a wooden table). Use 'made from' when the material has changed (paper is made from wood).",
+        "examples": [
+          {
+            "word": "made of",
+            "sentence": "This aubergine is made of plastic."
+          },
+          {
+            "word": "made from",
+            "sentence": "Paper is made from wood."
+          }
+        ]
+      },
+      {
+        "title": "convinced vs convincing",
+        "words": [
+          "convinced",
+          "convincing"
+        ],
+        "explanation_ar": "convinced تصف الشخص المقتنع (I'm convinced). أما convincing فتصف الشيء الذي يُقنع الآخرين (a convincing presentation).",
+        "explanation_en": "Convinced describes the person who is sure. Convincing describes the thing that makes people sure.",
+        "examples": [
+          {
+            "word": "convinced",
+            "sentence": "I'm convinced our clients will love it."
+          },
+          {
+            "word": "convincing",
+            "sentence": "She gave a very convincing presentation."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "It is made of the highest quality plastic and I'm convinced it's something your business needs.",
+        "meaning_ar": "إنه مصنوع من أجود أنواع البلاستيك، وأنا مقتنع بأنه شيء تحتاجه شركتكم.",
+        "meaning_en": "It is very good quality and I'm sure you need it.",
+        "example": "Our new chair is made of the highest quality materials and I'm convinced it's something your office needs."
+      },
+      {
+        "phrase": "This product has been designed to the highest specifications. It's tough and durable.",
+        "meaning_ar": "صُمّم هذا المنتج وفق أعلى المواصفات. إنه متين ويدوم طويلًا.",
+        "meaning_en": "It was designed very carefully; it is strong and lasts a long time.",
+        "example": "This laptop has been designed to the highest specifications. It's tough and durable."
+      },
+      {
+        "phrase": "It is the perfect decoration on any café or restaurant table.",
+        "meaning_ar": "إنه الزينة المثالية لأي طاولة في مقهى أو مطعم.",
+        "meaning_en": "It looks great on café and restaurant tables.",
+        "example": "This lamp is the perfect decoration for any office desk."
+      },
+      {
+        "phrase": "We can offer you a generous discount. Plus, all our products come with a money-back guarantee.",
+        "meaning_ar": "يمكننا أن نقدّم لكم خصمًا سخيًّا، كما أن جميع منتجاتنا مرفقة بضمان استرداد المال.",
+        "meaning_en": "We give a big discount and you can get your money back if you're not happy.",
+        "example": "If you order more than 500, we can offer you a generous discount. Plus, all our products come with a money-back guarantee."
+      },
+      {
+        "phrase": "Could you all gather round? Our presentation is about to begin.",
+        "meaning_ar": "هل يمكنكم جميعًا التجمّع هنا؟ عرضنا التقديمي على وشك أن يبدأ.",
+        "meaning_en": "Please come closer; we are starting now.",
+        "example": "Could you all gather round? Our presentation is about to begin."
+      },
+      {
+        "phrase": "Ladies and gentlemen, thank you for coming to our presentation.",
+        "meaning_ar": "سيداتي وسادتي، شكرًا لحضوركم عرضنا التقديمي.",
+        "meaning_en": "A formal way to begin a presentation.",
+        "example": "Ladies and gentlemen, thank you for coming to our presentation this morning."
+      },
+      {
+        "phrase": "Thanks for listening.",
+        "meaning_ar": "شكرًا لاستماعكم.",
+        "meaning_en": "A polite way to finish a talk.",
+        "example": "That's all from me. Thanks for listening."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "The passive for describing products: is made of / has been designed",
+        "explanation_ar": "عند وصف المنتج نهتم بالمنتج لا بمن صنعه، لذلك نستخدم المبني للمجهول: is/are + التصريف الثالث (It is made of plastic)، وhas/have been + التصريف الثالث للحديث عن عمل اكتمل وأثره باقٍ (It has been designed to the highest specifications).",
+        "explanation_en": "When we describe a product, the product is more important than the maker, so we use the passive: is/are + past participle (It is made of plastic), and has/have been + past participle for a finished action with a result now (It has been designed...).",
+        "examples": [
+          "The bottle is made of glass.",
+          "This phone has been designed for business users.",
+          "All our products are tested in the factory."
+        ]
+      },
+      {
+        "title": "Making a sales offer: If you…, we can… / Plus,…",
+        "explanation_ar": "لتقديم عرض للعملاء نستخدم: If you + مضارع، we can + فعل. ولإضافة ميزة أخرى نبدأ الجملة بـ Plus بمعنى «إضافةً إلى ذلك».",
+        "explanation_en": "To make an offer, use: If you + present simple, we can + verb. To add another good point, start with 'Plus' (= also, in addition).",
+        "examples": [
+          "If you place an order today, we can deliver next week.",
+          "If you buy 100, we can give you 15% off.",
+          "Plus, delivery is free."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is a 'prototype'?",
+      "choices": [
+        "a type of discount",
+        "a slide in a presentation",
+        "a client's order",
+        "the first model of a new product"
+      ],
+      "answer": 3,
+      "explanation_ar": "prototype هو النموذج الأولي للمنتج.",
+      "explanation_en": "A prototype is the first model of a product."
+    },
+    {
+      "question": "'Tough and durable' means…",
+      "choices": [
+        "strong and lasts a long time",
+        "cheap and small",
+        "soft and new",
+        "beautiful and expensive"
+      ],
+      "answer": 0,
+      "explanation_ar": "tough متين وdurable يدوم طويلًا.",
+      "explanation_en": "Tough = strong; durable = lasts a long time."
+    },
+    {
+      "question": "This product has ___ designed to the highest specifications.",
+      "choices": [
+        "be",
+        "being",
+        "been",
+        "is"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول has been + التصريف الثالث (مبني للمجهول).",
+      "explanation_en": "Present perfect passive: has been + past participle."
+    },
+    {
+      "question": "The aubergine is made ___ the highest quality plastic.",
+      "choices": [
+        "by",
+        "of",
+        "for",
+        "at"
+      ],
+      "answer": 1,
+      "explanation_ar": "made of عندما تبقى المادة ظاهرة.",
+      "explanation_en": "We say 'made of' plastic."
+    },
+    {
+      "question": "A 'money-back guarantee' is…",
+      "choices": [
+        "a big discount",
+        "a free sample",
+        "a promise to return your money if you're not happy",
+        "a bill"
+      ],
+      "answer": 2,
+      "explanation_ar": "ضمان استرداد المال إذا لم تكن راضيًا.",
+      "explanation_en": "It's a promise to give your money back."
+    },
+    {
+      "question": "What did Anna suggest using the plastic aubergine for?",
+      "choices": [
+        "as a table decoration in cafés and restaurants",
+        "as food",
+        "as a toy",
+        "as a computer part"
+      ],
+      "answer": 0,
+      "explanation_ar": "قالت إنه الزينة المثالية لطاولات المقاهي والمطاعم.",
+      "explanation_en": "She said it is the perfect decoration on café or restaurant tables."
+    },
+    {
+      "question": "I'm ___ it's something your business needs.",
+      "choices": [
+        "convincing",
+        "convince",
+        "convinces",
+        "convinced"
+      ],
+      "answer": 3,
+      "explanation_ar": "convinced تصف الشخص المقتنع.",
+      "explanation_en": "'Convinced' describes the person who is sure."
+    },
+    {
+      "question": "If you place an order for more than 1,000, we ___ offer you a generous discount.",
+      "choices": [
+        "can",
+        "did",
+        "were",
+        "has"
+      ],
+      "answer": 0,
+      "explanation_ar": "النمط: If you + مضارع، we can + فعل.",
+      "explanation_en": "Pattern: If you + present, we can + verb."
+    },
+    {
+      "question": "Which is a good way to start a formal presentation?",
+      "choices": [
+        "Hey guys, look at this.",
+        "Ladies and gentlemen, thank you for coming.",
+        "Buy this now!",
+        "Is anyone listening?"
+      ],
+      "answer": 1,
+      "explanation_ar": "Ladies and gentlemen بداية رسمية مهذبة.",
+      "explanation_en": "'Ladies and gentlemen, thank you for coming' is formal and polite."
+    },
+    {
+      "question": "Paper is made ___ wood.",
+      "choices": [
+        "of",
+        "at",
+        "from",
+        "in"
+      ],
+      "answer": 2,
+      "explanation_ar": "made from لأن الخشب تغيّر شكله ولم يعد ظاهرًا.",
+      "explanation_en": "'Made from' - the wood has changed into paper."
+    }
+  ]
+}

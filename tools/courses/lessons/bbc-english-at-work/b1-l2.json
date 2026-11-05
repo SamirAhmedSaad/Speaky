@@ -1,0 +1,391 @@
+{
+  "title": "Answering Interview Questions",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "firstly",
+        "pos": "adverb",
+        "meaning_en": "used to introduce the first point in a list",
+        "meaning_ar": "أولًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Firstly, I have the right skills for this job."
+      },
+      {
+        "word": "secondly",
+        "pos": "adverb",
+        "meaning_en": "used to introduce the second point",
+        "meaning_ar": "ثانيًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Secondly, I enjoy working with people."
+      },
+      {
+        "word": "above all",
+        "pos": "phrase",
+        "meaning_en": "most importantly; used for the strongest point",
+        "meaning_ar": "وفوق كل شيء / والأهم من ذلك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Above all, I want to learn and grow with your company."
+      },
+      {
+        "word": "reason",
+        "pos": "noun",
+        "meaning_en": "why something happens or why you do something",
+        "meaning_ar": "سبب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The main reason I applied is the training."
+      },
+      {
+        "word": "structure",
+        "pos": "verb",
+        "meaning_en": "organise your ideas in a clear order",
+        "meaning_ar": "يُنظّم / يرتّب",
+        "note_ar": "وتأتي اسمًا أيضًا: a clear structure",
+        "note_en": "Also a noun: a clear structure.",
+        "example": "Try to structure your answers in an interview."
+      },
+      {
+        "word": "ideal match",
+        "pos": "phrase",
+        "meaning_en": "a perfect fit between two things",
+        "meaning_ar": "تطابق مثالي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This job is an ideal match for my skills."
+      },
+      {
+        "word": "skills",
+        "pos": "noun",
+        "meaning_en": "abilities you have learned",
+        "meaning_ar": "مهارات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has good computer skills."
+      },
+      {
+        "word": "motivated",
+        "pos": "adjective",
+        "meaning_en": "very keen and wanting very much to succeed",
+        "meaning_ar": "متحمّس / لديه دافع قوي",
+        "note_ar": "الاسم: motivation = دافع",
+        "note_en": "Noun: motivation.",
+        "example": "I am really motivated to do this job."
+      },
+      {
+        "word": "willing",
+        "pos": "adjective",
+        "meaning_en": "happy and ready to do something",
+        "meaning_ar": "مستعدّ / راغب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am willing to work very hard."
+      },
+      {
+        "word": "enthusiastic",
+        "pos": "adjective",
+        "meaning_en": "showing a lot of interest and energy",
+        "meaning_ar": "متحمّس",
+        "note_ar": "النطق: /ɪnˌθjuːziˈæstɪk/",
+        "note_en": "Say: in-THOO-zee-AS-tik.",
+        "example": "Be enthusiastic when you answer."
+      },
+      {
+        "word": "get on with",
+        "pos": "phrasal verb",
+        "meaning_en": "have a friendly relationship with someone",
+        "meaning_ar": "يتوافق مع / علاقته جيدة مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I get on with people easily."
+      },
+      {
+        "word": "fast-growing",
+        "pos": "adjective",
+        "meaning_en": "becoming bigger very quickly",
+        "meaning_ar": "سريع النمو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is one of the fastest-growing companies in the city."
+      },
+      {
+        "word": "company",
+        "pos": "noun",
+        "meaning_en": "a business that makes or sells things",
+        "meaning_ar": "شركة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Which company do you work for?"
+      },
+      {
+        "word": "be part of",
+        "pos": "phrase",
+        "meaning_en": "belong to a group or a project",
+        "meaning_ar": "يكون جزءًا من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to be part of your team."
+      },
+      {
+        "word": "sector",
+        "pos": "noun",
+        "meaning_en": "one area of business",
+        "meaning_ar": "قطاع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He works in the technology sector."
+      },
+      {
+        "word": "interview",
+        "pos": "verb",
+        "meaning_en": "ask someone questions to decide if they get a job",
+        "meaning_ar": "يُجري مقابلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They interviewed six people for the job."
+      },
+      {
+        "word": "pale",
+        "pos": "adjective",
+        "meaning_en": "with less colour in the face than usual, often because you feel ill or afraid",
+        "meaning_ar": "شاحب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You look pale. Sit down, please."
+      },
+      {
+        "word": "Where were we?",
+        "pos": "phrase",
+        "meaning_en": "said after a stop, to go back to what you were talking about",
+        "meaning_ar": "أين توقّفنا؟",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry about that. Now, where were we?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "firstly / secondly vs first / second",
+        "words": [
+          "firstly",
+          "first"
+        ],
+        "explanation_ar": "يمكن قول Firstly أو First في بداية الجملة لترتيب الأفكار، وكلاهما صحيح. Firstly أكثر رسمية قليلًا. وننهي القائمة بـ Above all أو Finally.",
+        "explanation_en": "Both \"Firstly\" and \"First\" can start a list of points. \"Firstly\" is a little more formal. End with \"Above all\" or \"Finally\".",
+        "examples": [
+          {
+            "word": "firstly",
+            "sentence": "Firstly, I have five years of experience."
+          },
+          {
+            "word": "first",
+            "sentence": "First, let me tell you about my studies."
+          }
+        ]
+      },
+      {
+        "title": "motivated vs willing",
+        "words": [
+          "motivated",
+          "willing"
+        ],
+        "explanation_ar": "motivated: لديك رغبة قوية وحماس للنجاح. willing: مستعدّ أن تفعل شيئًا إن طُلب منك. بعد willing نستخدم to + فعل.",
+        "explanation_en": "Motivated = you really want to succeed. Willing = you are ready to do something if needed. Use \"willing to + verb\".",
+        "examples": [
+          {
+            "word": "motivated",
+            "sentence": "She is very motivated to learn English."
+          },
+          {
+            "word": "willing",
+            "sentence": "I am willing to travel for work."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Firstly, this job is an ideal match for my skills and experience.",
+        "meaning_ar": "أولًا، هذه الوظيفة تتطابق تمامًا مع مهاراتي وخبرتي.",
+        "meaning_en": "Your first reason: the job fits you well.",
+        "example": "Firstly, this job is an ideal match for my skills and experience in sales."
+      },
+      {
+        "phrase": "Secondly, ...",
+        "meaning_ar": "ثانيًا، ...",
+        "meaning_en": "Introduce your second reason.",
+        "example": "Secondly, I know your company is growing fast."
+      },
+      {
+        "phrase": "Above all, the reason I want this job is...",
+        "meaning_ar": "وفوق كل شيء، السبب الذي يجعلني أريد هذه الوظيفة هو...",
+        "meaning_en": "Give your strongest, final reason.",
+        "example": "Above all, the reason I want this job is that I love helping customers."
+      },
+      {
+        "phrase": "I am willing to work very hard.",
+        "meaning_ar": "أنا مستعدّ للعمل بجدّ كبير.",
+        "meaning_en": "You are ready to put in a lot of effort.",
+        "example": "If I get the job, I am willing to work very hard."
+      },
+      {
+        "phrase": "So you're very motivated, then?",
+        "meaning_ar": "إذن أنت متحمّس جدًا؟",
+        "meaning_en": "A question to check what someone means.",
+        "example": "So you're very motivated, then? That's great."
+      },
+      {
+        "phrase": "I get on with people easily.",
+        "meaning_ar": "أتعامل مع الناس بسهولة.",
+        "meaning_en": "You make friends and work well with others.",
+        "example": "I get on with people easily, so I enjoy team work."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Sequencing words: firstly, secondly, above all",
+        "explanation_ar": "لتنظيم إجابتك في المقابلة رتّب أسبابك: ابدأ بـ Firstly ثم Secondly، واختم بأقوى سبب مع Above all. نضع فاصلة بعد كل كلمة منها في بداية الجملة.",
+        "explanation_en": "To organise your answer, list your reasons: Firstly..., Secondly..., and finish with your best reason: Above all... Put a comma after each word at the start of the sentence.",
+        "examples": [
+          "Firstly, I have the right experience.",
+          "Secondly, I enjoy working in a team.",
+          "Above all, I really believe in your products."
+        ]
+      },
+      {
+        "title": "Saying it another way (paraphrasing)",
+        "explanation_ar": "إذا نسيت كلمة فلا تتوقف؛ اشرح المعنى بكلمات أبسط. مثلًا بدل motivated يمكن أن تقول: I really want this job and I am willing to work hard.",
+        "explanation_en": "If you forget a word, don't stop. Explain the idea in simpler words. Instead of \"motivated\" you can say: I really want this job and I am willing to work hard.",
+        "examples": [
+          "I can't remember the word, but it's a person who manages money.",
+          "I really, really want this job (= I am motivated).",
+          "It's a thing you use to save files (= a USB stick)."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which word introduces your strongest, final reason?",
+      "choices": [
+        "Firstly",
+        "Secondly",
+        "Above all",
+        "Before"
+      ],
+      "answer": 2,
+      "explanation_ar": "Above all تأتي مع السبب الأهم والأخير.",
+      "explanation_en": "\"Above all\" introduces the most important reason."
+    },
+    {
+      "question": "___, this job is an ideal match for my skills.",
+      "choices": [
+        "Firstly",
+        "Above",
+        "Lastly all",
+        "Secondary"
+      ],
+      "answer": 0,
+      "explanation_ar": "نبدأ قائمة الأسباب بـ Firstly.",
+      "explanation_en": "Start a list of reasons with \"Firstly\"."
+    },
+    {
+      "question": "What does \"motivated\" mean?",
+      "choices": [
+        "very tired",
+        "very keen and wanting to succeed",
+        "late for work",
+        "angry"
+      ],
+      "answer": 1,
+      "explanation_ar": "motivated تعني متحمّس ولديه دافع للنجاح.",
+      "explanation_en": "It means keen and wanting very much to succeed."
+    },
+    {
+      "question": "I am willing ___ very hard.",
+      "choices": [
+        "work",
+        "working",
+        "to work",
+        "worked"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد willing نستخدم to + الفعل.",
+      "explanation_en": "We say \"willing to + verb\"."
+    },
+    {
+      "question": "\"I get on with people easily\" means...",
+      "choices": [
+        "I get on the bus with people",
+        "I have good relationships with people",
+        "I don't like people",
+        "I leave people easily"
+      ],
+      "answer": 1,
+      "explanation_ar": "get on with تعني يتوافق مع الآخرين.",
+      "explanation_en": "\"Get on with\" means have a good relationship."
+    },
+    {
+      "question": "If you forget a word in an interview, you should...",
+      "choices": [
+        "stop talking",
+        "leave the room",
+        "explain the idea in other words",
+        "speak your own language"
+      ],
+      "answer": 2,
+      "explanation_ar": "الحل هو شرح المعنى بكلمات أخرى.",
+      "explanation_en": "Say the idea in another way."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Secondly I know, your company grow fast.",
+        "Secondly, I know your company is growing fast.",
+        "Second the, I know your company growing fast.",
+        "Secondly, I knowing your company is growing fast."
+      ],
+      "answer": 1,
+      "explanation_ar": "الجملة الصحيحة: فاصلة بعد Secondly واستخدام is growing.",
+      "explanation_en": "Comma after \"Secondly\" and the correct verb \"is growing\"."
+    },
+    {
+      "question": "An \"ideal match\" is...",
+      "choices": [
+        "a sports game",
+        "a perfect fit",
+        "a small problem",
+        "a type of interview"
+      ],
+      "answer": 1,
+      "explanation_ar": "ideal match تعني تطابق مثالي.",
+      "explanation_en": "It means a perfect fit."
+    },
+    {
+      "question": "\"Where were we?\" is used to...",
+      "choices": [
+        "ask for directions",
+        "go back to the topic after a stop",
+        "end a meeting",
+        "ask about the past"
+      ],
+      "answer": 1,
+      "explanation_ar": "تُقال للعودة إلى الموضوع بعد مقاطعة.",
+      "explanation_en": "You say it to return to the topic after an interruption."
+    },
+    {
+      "question": "Which word means \"ready to do something if it is needed\"?",
+      "choices": [
+        "motivated",
+        "willing",
+        "enthusiastic",
+        "nervous"
+      ],
+      "answer": 1,
+      "explanation_ar": "willing تعني مستعدّ لفعل شيء إذا لزم الأمر، أما motivated فتعني لديه دافع قوي للنجاح.",
+      "explanation_en": "\"Willing\" means ready to do something if needed; \"motivated\" means wanting very much to succeed."
+    }
+  ]
+}

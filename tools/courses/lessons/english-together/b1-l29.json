@@ -1,0 +1,443 @@
+{
+  "title": "Long Time No See!",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "seat",
+        "pos": "noun",
+        "meaning_en": "a place to sit",
+        "meaning_ar": "مقعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I think you're sitting in my seat."
+      },
+      {
+        "word": "surprise",
+        "pos": "noun",
+        "meaning_en": "something you did not expect",
+        "meaning_ar": "مفاجأة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What a surprise!"
+      },
+      {
+        "word": "high school",
+        "pos": "noun",
+        "meaning_en": "a school for students aged about 14 to 18",
+        "meaning_ar": "المدرسة الثانوية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We went to high school together."
+      },
+      {
+        "word": "different",
+        "pos": "adjective",
+        "meaning_en": "not the same",
+        "meaning_ar": "مختلف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You look different now."
+      },
+      {
+        "word": "used to",
+        "pos": "phrase",
+        "meaning_en": "did something often in the past but not now",
+        "meaning_ar": "اعتاد أن (في الماضي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I used to live in Cairo."
+      },
+      {
+        "word": "short hair",
+        "pos": "noun",
+        "meaning_en": "hair that is not long",
+        "meaning_ar": "شعر قصير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He has short hair now."
+      },
+      {
+        "word": "glasses",
+        "pos": "noun",
+        "meaning_en": "two lenses you wear to see better",
+        "meaning_ar": "نظّارة",
+        "note_ar": "دائمًا جمع",
+        "note_en": "Always plural.",
+        "example": "She wears glasses."
+      },
+      {
+        "word": "professional",
+        "pos": "adjective",
+        "meaning_en": "looking right for work",
+        "meaning_ar": "مهني / لائق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He looks very professional."
+      },
+      {
+        "word": "graduation",
+        "pos": "noun",
+        "meaning_en": "finishing school or university",
+        "meaning_ar": "التخرّج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What did you do after graduation?"
+      },
+      {
+        "word": "degree",
+        "pos": "noun",
+        "meaning_en": "the certificate you get from a university",
+        "meaning_ar": "شهادة جامعية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has a degree in nursing."
+      },
+      {
+        "word": "nursing",
+        "pos": "noun",
+        "meaning_en": "the job of caring for sick people",
+        "meaning_ar": "التمريض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He studied nursing."
+      },
+      {
+        "word": "nurse",
+        "pos": "noun",
+        "meaning_en": "a person who cares for sick people",
+        "meaning_ar": "ممرّض / ممرّضة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The nurse helped my father."
+      },
+      {
+        "word": "rewarding",
+        "pos": "adjective",
+        "meaning_en": "giving you a good feeling because it is useful",
+        "meaning_ar": "مُجزٍ / يمنح الرضا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Teaching is a rewarding job."
+      },
+      {
+        "word": "admirable",
+        "pos": "adjective",
+        "meaning_en": "deserving respect",
+        "meaning_ar": "جدير بالإعجاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your hard work is admirable."
+      },
+      {
+        "word": "sales",
+        "pos": "noun",
+        "meaning_en": "the job of selling things",
+        "meaning_ar": "المبيعات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He works in sales."
+      },
+      {
+        "word": "basketball",
+        "pos": "noun",
+        "meaning_en": "a game where players throw a ball through a high ring",
+        "meaning_ar": "كرة السلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you still play basketball?"
+      },
+      {
+        "word": "half-marathon",
+        "pos": "noun",
+        "meaning_en": "a running race of about 21 kilometers",
+        "meaning_ar": "نصف ماراثون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She ran a half-marathon."
+      },
+      {
+        "word": "training",
+        "pos": "noun",
+        "meaning_en": "practice to get better at something",
+        "meaning_ar": "تدريب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Running needs a lot of training."
+      },
+      {
+        "word": "keep in touch",
+        "pos": "phrase",
+        "meaning_en": "continue to talk or write to someone",
+        "meaning_ar": "يبقى على تواصل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's keep in touch."
+      },
+      {
+        "word": "organize",
+        "pos": "verb",
+        "meaning_en": "plan and arrange",
+        "meaning_ar": "ينظّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's organize a dinner."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "used to vs past simple",
+        "words": [
+          "used to",
+          "past simple"
+        ],
+        "explanation_ar": "used to لعادة أو حالة كانت في الماضي ولم تعد (You used to have long hair). الماضي البسيط لحدث واحد انتهى (I ran a half-marathon last year).",
+        "explanation_en": "\"Used to\" = a past habit or state that is not true now. Past simple = one finished event.",
+        "examples": [
+          {
+            "word": "used to",
+            "sentence": "You used to have long hair."
+          },
+          {
+            "word": "past simple",
+            "sentence": "I ran a half-marathon last year."
+          }
+        ]
+      },
+      {
+        "title": "still vs not anymore",
+        "words": [
+          "still",
+          "not anymore"
+        ],
+        "explanation_ar": "still تعني ما زال (Do you still run?). not ... anymore تعني لم يعد.",
+        "explanation_en": "\"Still\" = continuing. \"Not anymore\" = it stopped.",
+        "examples": [
+          {
+            "word": "still",
+            "sentence": "Do you still play basketball?"
+          },
+          {
+            "word": "not anymore",
+            "sentence": "I don't play anymore."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Excuse me, but I think you're sitting in my seat.",
+        "meaning_ar": "عفوًا، أظن أنك تجلس في مقعدي.",
+        "meaning_en": "Politely tell someone they are in your seat.",
+        "example": "Excuse me, but I think you're sitting in my seat."
+      },
+      {
+        "phrase": "Oh, sorry about that.",
+        "meaning_ar": "آسف على ذلك.",
+        "meaning_en": "Apologize.",
+        "example": "Oh, sorry about that. Here you are."
+      },
+      {
+        "phrase": "What a surprise!",
+        "meaning_ar": "يا لها من مفاجأة!",
+        "meaning_en": "Say you didn't expect to see someone.",
+        "example": "Ahmed! What a surprise!"
+      },
+      {
+        "phrase": "Long time no see!",
+        "meaning_ar": "لم أرك منذ زمن طويل!",
+        "meaning_en": "An informal greeting after a long time.",
+        "example": "Long time no see! How are you?"
+      },
+      {
+        "phrase": "You look different now.",
+        "meaning_ar": "تبدو مختلفًا الآن.",
+        "meaning_en": "Notice a change in someone.",
+        "example": "You look different now. You have glasses."
+      },
+      {
+        "phrase": "What have you been up to since graduation?",
+        "meaning_ar": "ماذا كنت تفعل منذ التخرّج؟",
+        "meaning_en": "Ask about someone's life since school.",
+        "example": "What have you been up to since graduation?"
+      },
+      {
+        "phrase": "How do you like it?",
+        "meaning_ar": "كيف تجده؟ (هل يعجبك؟)",
+        "meaning_en": "Ask someone's opinion about their job or place.",
+        "example": "You're a nurse now? How do you like it?"
+      },
+      {
+        "phrase": "It's been challenging but rewarding.",
+        "meaning_ar": "كان صعبًا لكنه مُجزٍ.",
+        "meaning_en": "Describe a hard but good experience.",
+        "example": "My new job has been challenging but rewarding."
+      },
+      {
+        "phrase": "Do you still keep in touch with any of our high school friends?",
+        "meaning_ar": "هل ما زلت على تواصل مع أي من أصدقائنا في الثانوية؟",
+        "meaning_en": "Ask about old friends.",
+        "example": "Do you still keep in touch with your old classmates?"
+      },
+      {
+        "phrase": "Let's organize a dinner and invite everyone.",
+        "meaning_ar": "لننظّم عشاءً وندعو الجميع.",
+        "meaning_en": "Suggest meeting with friends.",
+        "example": "Let's organize a dinner and invite everyone."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "used to + verb for past habits",
+        "explanation_ar": "used to + الفعل في أصله لعادة أو حالة في الماضي لم تعد: You used to have long hair. I don't play as much as I used to.",
+        "explanation_en": "used to + base verb = a past habit or state that has changed.",
+        "examples": [
+          "You used to have long hair in high school.",
+          "Not as much as I used to.",
+          "I used to live near the school."
+        ]
+      },
+      {
+        "title": "Present perfect continuous: I've been working...",
+        "explanation_ar": "have been + فعل بـ ing لشيء بدأ في الماضي وما زال مستمرًا: I've been working as a nurse for the past few years.",
+        "explanation_en": "have been + verb-ing for something that started in the past and continues now.",
+        "examples": [
+          "I've been working as a nurse for the past few years.",
+          "I've been working in sales.",
+          "What have you been up to?"
+        ]
+      },
+      {
+        "title": "Comparatives: shorter, more muscular",
+        "explanation_ar": "لمقارنة الحاضر بالماضي: صفة قصيرة + er (short → shorter)، وصفة طويلة more + الصفة (more professional).",
+        "explanation_en": "Short adjectives + -er (shorter). Long adjectives: more + adjective (more professional).",
+        "examples": [
+          "Your hair is shorter.",
+          "Glasses make me look more professional.",
+          "He is taller than before."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I haven't seen you for years! — Long time no ___!",
+      "choices": [
+        "look",
+        "see",
+        "watch",
+        "meet"
+      ],
+      "answer": 1,
+      "explanation_ar": "العبارة الثابتة: Long time no see.",
+      "explanation_en": "The phrase is \"Long time no see\"."
+    },
+    {
+      "question": "You ___ to have long hair in high school.",
+      "choices": [
+        "use",
+        "used",
+        "using",
+        "uses"
+      ],
+      "answer": 1,
+      "explanation_ar": "used to للعادة في الماضي.",
+      "explanation_en": "\"Used to\" for past habits."
+    },
+    {
+      "question": "I've been ___ as a nurse for the past few years.",
+      "choices": [
+        "working",
+        "worked",
+        "work",
+        "works"
+      ],
+      "answer": 0,
+      "explanation_ar": "have been + فعل بـ ing.",
+      "explanation_en": "have been + verb-ing."
+    },
+    {
+      "question": "Your hair is ___ now.",
+      "choices": [
+        "short",
+        "shortest",
+        "shorter",
+        "more short"
+      ],
+      "answer": 2,
+      "explanation_ar": "صفة قصيرة + er: shorter.",
+      "explanation_en": "Short adjective + -er."
+    },
+    {
+      "question": "Glasses make me look more ___.",
+      "choices": [
+        "profession",
+        "professionaler",
+        "professionally",
+        "professional"
+      ],
+      "answer": 3,
+      "explanation_ar": "صفة طويلة: more professional.",
+      "explanation_en": "Long adjective: more professional."
+    },
+    {
+      "question": "A person who cares for sick people is a ___.",
+      "choices": [
+        "degree",
+        "sales",
+        "nurse",
+        "seat"
+      ],
+      "answer": 2,
+      "explanation_ar": "nurse ممرّض.",
+      "explanation_en": "A nurse cares for sick people."
+    },
+    {
+      "question": "The job is hard but gives me a good feeling. It's ___.",
+      "choices": [
+        "admirable",
+        "different",
+        "rewarding",
+        "short"
+      ],
+      "answer": 2,
+      "explanation_ar": "rewarding مُجزٍ.",
+      "explanation_en": "Rewarding = gives a good feeling."
+    },
+    {
+      "question": "Do you still ___ in touch with your old friends?",
+      "choices": [
+        "keep",
+        "take",
+        "get",
+        "make"
+      ],
+      "answer": 0,
+      "explanation_ar": "keep in touch = يبقى على تواصل.",
+      "explanation_en": "\"Keep in touch\" = stay in contact."
+    },
+    {
+      "question": "Excuse me, I think you're sitting in my seat. — Oh, ___ about that.",
+      "choices": [
+        "sure",
+        "thanks",
+        "great",
+        "sorry"
+      ],
+      "answer": 3,
+      "explanation_ar": "نعتذر بـ sorry about that.",
+      "explanation_en": "We apologize: sorry about that."
+    },
+    {
+      "question": "Let's ___ a dinner and invite everyone.",
+      "choices": [
+        "organize",
+        "graduate",
+        "surprise",
+        "train"
+      ],
+      "answer": 0,
+      "explanation_ar": "organize ينظّم.",
+      "explanation_en": "Organize = plan and arrange."
+    }
+  ]
+}

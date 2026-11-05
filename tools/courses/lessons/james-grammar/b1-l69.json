@@ -1,0 +1,346 @@
+{
+  "title": "Writing Numbers: Words or Digits?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "numerical form",
+        "pos": "noun",
+        "meaning_en": "writing a number with digits (687)",
+        "meaning_ar": "الكتابة بالأرقام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Write large numbers in numerical form: 687."
+      },
+      {
+        "word": "spell out",
+        "pos": "phrasal verb",
+        "meaning_en": "to write a number as a word (seven, sixty)",
+        "meaning_ar": "يكتب (العدد) بالحروف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Spell out numbers under ten: three, seven."
+      },
+      {
+        "word": "digit",
+        "pos": "noun",
+        "meaning_en": "one of the symbols 0 to 9",
+        "meaning_ar": "رقم (خانة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "687 has three digits."
+      },
+      {
+        "word": "divisible by",
+        "pos": "adjective",
+        "meaning_en": "can be divided by a number with no remainder",
+        "meaning_ar": "يقبل القسمة على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sixty is divisible by ten."
+      },
+      {
+        "word": "rounded number",
+        "pos": "noun",
+        "meaning_en": "an approximate number made simpler (60,000 instead of 59,872)",
+        "meaning_ar": "عدد مُقرَّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sixty thousand people is a rounded number."
+      },
+      {
+        "word": "approximation",
+        "pos": "noun",
+        "meaning_en": "a number that is close but not exact",
+        "meaning_ar": "تقريب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"About sixty thousand\" is an approximation."
+      },
+      {
+        "word": "ordinal number",
+        "pos": "noun",
+        "meaning_en": "a number that shows order: first, second, third, 47th",
+        "meaning_ar": "عدد ترتيبي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"First\" is an ordinal number."
+      },
+      {
+        "word": "cardinal number",
+        "pos": "noun",
+        "meaning_en": "a number for counting: one, two, three",
+        "meaning_ar": "عدد أصلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Five\" is a cardinal number."
+      },
+      {
+        "word": "age",
+        "pos": "noun",
+        "meaning_en": "how old someone is",
+        "meaning_ar": "العمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is your son's age? He's seven."
+      },
+      {
+        "word": "scholarly writing",
+        "pos": "noun",
+        "meaning_en": "academic writing for universities and journals",
+        "meaning_ar": "الكتابة الأكاديمية",
+        "note_ar": "لها قواعد خاصة قد تختلف",
+        "note_en": "It has its own rules that may differ.",
+        "example": "Check your university's rules for scholarly writing."
+      },
+      {
+        "word": "spontaneous",
+        "pos": "adjective",
+        "meaning_en": "done without planning",
+        "meaning_ar": "عفوي / تلقائي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "James likes to be spontaneous in his lessons."
+      },
+      {
+        "word": "century",
+        "pos": "noun",
+        "meaning_en": "a period of 100 years",
+        "meaning_ar": "قرن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We live in the twenty-first century."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "spell it out vs write the digits",
+        "words": [
+          "three",
+          "687"
+        ],
+        "explanation_ar": "قاعدة العشرة: إذا كان العدد أقل من عشرة أو يقبل القسمة على عشرة فاكتبه بالحروف (three, sixty). غير ذلك اكتبه بالأرقام (687). هذه قاعدة عامة، وبعض الجامعات والمجلات لها قواعد مختلفة.",
+        "explanation_en": "Rule of ten: if a number is under ten or divisible by ten, spell it out (three, sixty). Otherwise use digits (687). This is a general rule; some universities and magazines have different rules.",
+        "examples": [
+          {
+            "word": "three",
+            "sentence": "I will give you three examples."
+          },
+          {
+            "word": "687",
+            "sentence": "The book has 687 pages."
+          }
+        ]
+      },
+      {
+        "title": "ordinal vs cardinal",
+        "words": [
+          "first",
+          "one"
+        ],
+        "explanation_ar": "العدد الأصلي للعدّ (one, two). الترتيبي للترتيب (first, second). الترتيبي يتبع قاعدة العشرة: first... ninth بالحروف، و 47th بالأرقام.",
+        "explanation_en": "Cardinal numbers count (one, two). Ordinal numbers show order (first, second). Ordinals follow the rule of ten: first ... ninth in words, 47th in digits.",
+        "examples": [
+          {
+            "word": "first",
+            "sentence": "He came first in the race."
+          },
+          {
+            "word": "47th",
+            "sentence": "He was the 47th person in the line."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "sixty thousand people",
+        "meaning_ar": "ستون ألف شخص",
+        "meaning_en": "A rounded number, spelled out.",
+        "example": "About sixty thousand people came to the match."
+      },
+      {
+        "phrase": "3.5 million",
+        "meaning_ar": "3.5 مليون",
+        "meaning_en": "Large numbers: digits + word.",
+        "example": "The city has 3.5 million people."
+      },
+      {
+        "phrase": "He's seven.",
+        "meaning_ar": "عمره سبع سنوات.",
+        "meaning_en": "An exact age, spelled out.",
+        "example": "How old is your son? He's seven."
+      },
+      {
+        "phrase": "the twentieth century",
+        "meaning_ar": "القرن العشرون",
+        "meaning_en": "An ordinal that is divisible by ten, spelled out.",
+        "example": "Cars became common in the twentieth century."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "The rule of ten",
+        "explanation_ar": "اكتب العدد بالحروف إذا كان أقل من عشرة أو يقبل القسمة على عشرة (one, nine, ten, sixty). اكتب الأعداد الأخرى بالأرقام (12, 47, 687).",
+        "explanation_en": "Spell out a number if it is under ten or divisible by ten (one, nine, ten, sixty). Write other numbers in digits (12, 47, 687).",
+        "examples": [
+          "Three examples (not 3 examples)",
+          "Sixty people came to the party.",
+          "There are 23 students in my class."
+        ]
+      },
+      {
+        "title": "R-O-A: Rounded numbers, Ordinals, Ages",
+        "explanation_ar": "R: الأعداد المقرّبة تُكتب بالحروف (sixty thousand)، والكبيرة جدًا بمزيج من الأرقام والكلمة (3.5 million). O: الأعداد الترتيبية تتبع قاعدة العشرة (first, second / 47th). A: العمر الدقيق يُكتب بالحروف (He's seven)، والعمر التقريبي يصح بالحروف أو الأرقام.",
+        "explanation_en": "R: rounded numbers are spelled out (sixty thousand); very large ones mix digits and a word (3.5 million). O: ordinals follow the rule of ten (first, second / 47th). A: exact ages are spelled out (He's seven); approximate ages can be words or digits.",
+        "examples": [
+          "About sixty thousand people were there.",
+          "The country has 3.5 billion trees.",
+          "She finished second.",
+          "The 47th president",
+          "My child is seven.",
+          "He's about twenty (or 20)."
+        ]
+      },
+      {
+        "title": "Ordinal endings",
+        "explanation_ar": "1st، 2nd، 3rd، ثم th للباقي: 4th, 5th, 21st, 22nd, 23rd, 47th.",
+        "explanation_en": "1st, 2nd, 3rd, then -th for the rest: 4th, 5th... but 21st, 22nd, 23rd, 47th.",
+        "examples": [
+          "1st, 2nd, 3rd, 4th",
+          "21st, 32nd, 43rd, 47th"
+        ]
+      },
+      {
+        "title": "Check the rules for your purpose",
+        "explanation_ar": "الكتابة الجامعية والتجارية والصحفية قد تختلف قواعدها، فراجع دليل الأسلوب الخاص بها. القاعدة هنا عامة وصحيحة غالبًا.",
+        "explanation_en": "University, business and magazine writing may have different rules, so check their style guide. These rules are general and usually correct.",
+        "examples": [
+          "Louis the Fourteenth",
+          "the twentieth century"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How should you write it? \"I have ___ brothers.\"",
+      "choices": [
+        "three",
+        "3",
+        "3rd",
+        "third"
+      ],
+      "answer": 0,
+      "explanation_ar": "أقل من عشرة: بالحروف.",
+      "explanation_en": "Under ten: spell it out."
+    },
+    {
+      "question": "Which follows the rule of ten?",
+      "choices": [
+        "Sixty people came.",
+        "60 people came.",
+        "Six zero people came.",
+        "Sixtieth people came."
+      ],
+      "answer": 0,
+      "explanation_ar": "60 يقبل القسمة على 10: بالحروف.",
+      "explanation_en": "60 is divisible by ten: spell it out."
+    },
+    {
+      "question": "\"The book has ___ pages.\"",
+      "choices": [
+        "six hundred eighty-seven",
+        "687",
+        "687th",
+        "sixty"
+      ],
+      "answer": 1,
+      "explanation_ar": "ليس أقل من عشرة ولا يقبل القسمة عليها: بالأرقام.",
+      "explanation_en": "Not under ten, not divisible by ten: digits."
+    },
+    {
+      "question": "How do we write very large rounded numbers?",
+      "choices": [
+        "3,500,000 only",
+        "three point five million",
+        "3.5 million",
+        "3.5 M only"
+      ],
+      "answer": 2,
+      "explanation_ar": "مزيج من الأرقام والكلمة.",
+      "explanation_en": "A mix of digits and a word."
+    },
+    {
+      "question": "Which is an ordinal number?",
+      "choices": [
+        "seven",
+        "ten",
+        "sixty",
+        "second"
+      ],
+      "answer": 3,
+      "explanation_ar": "second يدل على الترتيب.",
+      "explanation_en": "Second shows order."
+    },
+    {
+      "question": "Write the ordinal for 22.",
+      "choices": [
+        "22nd",
+        "22th",
+        "22st",
+        "22rd"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: 22nd.",
+      "explanation_en": "22nd."
+    },
+    {
+      "question": "An exact age: \"My son is ___.\"",
+      "choices": [
+        "7th",
+        "seven",
+        "seventh",
+        "the seven"
+      ],
+      "answer": 1,
+      "explanation_ar": "العمر الدقيق بالحروف.",
+      "explanation_en": "Exact age: spell it out."
+    },
+    {
+      "question": "\"Divisible by ten\" means ___.",
+      "choices": [
+        "smaller than ten",
+        "bigger than ten",
+        "ten goes into it with nothing left",
+        "it has ten digits"
+      ],
+      "answer": 2,
+      "explanation_ar": "يقبل القسمة على عشرة بدون باقٍ.",
+      "explanation_en": "Ten goes into it exactly."
+    },
+    {
+      "question": "\"He came ___ in the race.\" (number 1 in order)",
+      "choices": [
+        "one",
+        "1",
+        "once",
+        "first"
+      ],
+      "answer": 3,
+      "explanation_ar": "ترتيبي أقل من عشرة: first بالحروف.",
+      "explanation_en": "An ordinal under ten: first, in words."
+    },
+    {
+      "question": "\"About sixty thousand people were there.\" This is a ___ number.",
+      "choices": [
+        "rounded",
+        "ordinal",
+        "exact",
+        "negative"
+      ],
+      "answer": 0,
+      "explanation_ar": "عدد مقرّب.",
+      "explanation_en": "A rounded (approximate) number."
+    }
+  ]
+}

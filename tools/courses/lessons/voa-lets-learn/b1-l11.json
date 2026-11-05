@@ -1,0 +1,83 @@
+{
+  "title": "This Is My Neighborhood",
+  "content": {
+    "vocabulary": [
+      {"word": "neighborhood", "pos": "noun", "meaning_en": "the area around your home", "meaning_ar": "الحيّ", "note_ar": "حرفا gh صامتان. في بريطانيا تُكتب neighbourhood.", "note_en": "The gh is silent. UK spelling: neighbourhood.", "example": "There is a nice park in my neighborhood."},
+      {"word": "errand", "pos": "noun", "meaning_en": "a short trip to do a small job, like buying something", "meaning_ar": "مشوار / مهمة صغيرة (كشراء غرض)", "note_ar": "نقول: do errands / run errands.", "note_en": "do errands / run errands", "example": "I do my errands on Saturday."},
+      {"word": "library", "pos": "noun", "meaning_en": "a place where you can borrow books", "meaning_ar": "مكتبة عامة (للاستعارة)", "note_ar": "المكتبة التي تبيع الكتب اسمها bookstore.", "note_en": "A shop that sells books is a bookstore.", "example": "I borrow books from the library."},
+      {"word": "return", "pos": "verb", "meaning_en": "to give or bring something back", "meaning_ar": "يُعيد / يُرجِع", "note_ar": "", "note_en": "", "example": "Please return the book on Monday."},
+      {"word": "corner", "pos": "noun", "meaning_en": "the place where two streets meet", "meaning_ar": "زاوية / ناصية", "note_ar": "on the corner = على الناصية.", "note_en": "on the corner", "example": "The shop is on the corner."},
+      {"word": "letter", "pos": "noun", "meaning_en": "a written message you send by mail", "meaning_ar": "رسالة", "note_ar": "تعني أيضًا: حرف من حروف الهجاء.", "note_en": "It also means a letter of the alphabet (A, B, C).", "example": "I write a letter to my grandmother."},
+      {"word": "family", "pos": "noun", "meaning_en": "parents, children, brothers, sisters and other relatives", "meaning_ar": "عائلة / أسرة", "note_ar": "", "note_en": "", "example": "My family lives far from here."},
+      {"word": "back home", "pos": "phrase", "meaning_en": "in the place you come from", "meaning_ar": "في الوطن / في البلد الأصلي", "note_ar": "", "note_en": "", "example": "My friends back home call me every week."},
+      {"word": "post office", "pos": "noun", "meaning_en": "a place where you send letters and buy stamps", "meaning_ar": "مكتب البريد", "note_ar": "", "note_en": "", "example": "The post office opens at 9 a.m."},
+      {"word": "far from", "pos": "preposition", "meaning_en": "a long way from", "meaning_ar": "بعيد عن", "note_ar": "عكسها near.", "note_en": "Opposite: near", "example": "The airport is far from the city."},
+      {"word": "mailbox", "pos": "noun", "meaning_en": "a box on the street where you put letters to send", "meaning_ar": "صندوق البريد", "note_ar": "في بريطانيا: postbox.", "note_en": "UK: postbox", "example": "Put the letter in the mailbox."},
+      {"word": "stamp", "pos": "noun", "meaning_en": "a small paper you put on a letter to pay for sending it", "meaning_ar": "طابع بريدي", "note_ar": "", "note_en": "", "example": "I need two stamps for these letters."},
+      {"word": "cash", "pos": "noun", "meaning_en": "money in coins and paper notes", "meaning_ar": "نقود / كاش", "note_ar": "اسم غير معدود: لا نقول a cash.", "note_en": "Uncountable: say some cash, not a cash.", "example": "Do you have cash or a card?"},
+      {"word": "bank", "pos": "noun", "meaning_en": "a place that keeps and gives money", "meaning_ar": "بنك / مصرف", "note_ar": "", "note_en": "", "example": "There is a bank behind the school."},
+      {"word": "behind", "pos": "preposition", "meaning_en": "at the back of", "meaning_ar": "خلف / وراء", "note_ar": "عكسها in front of.", "note_en": "Opposite: in front of", "example": "The car is behind the house."},
+      {"word": "store", "pos": "noun", "meaning_en": "a shop", "meaning_ar": "متجر / محل", "note_ar": "store أمريكية، و shop بريطانية أكثر.", "note_en": "store is American; shop is common in the UK.", "example": "That store sells fruit."},
+      {"word": "sell", "pos": "verb", "meaning_en": "to give something for money", "meaning_ar": "يبيع", "note_ar": "عكسها buy.", "note_en": "Opposite: buy", "example": "The store sells stamps."},
+      {"word": "buy", "pos": "verb", "meaning_en": "to get something by paying money", "meaning_ar": "يشتري", "note_ar": "تُنطق «باي».", "note_en": "Sounds like bye.", "example": "I need to buy bread."},
+      {"word": "need", "pos": "verb", "meaning_en": "to require something; it is necessary for you", "meaning_ar": "يحتاج", "note_ar": "need to + فعل = يحتاج أن يفعل.", "note_en": "need to + verb", "example": "I need to go to the bank."},
+      {"word": "fast", "pos": "adjective", "meaning_en": "quick", "meaning_ar": "سريع", "note_ar": "", "note_en": "", "example": "Wow, you're fast!"},
+      {"word": "ice cream", "pos": "noun", "meaning_en": "a sweet, cold, frozen food", "meaning_ar": "آيس كريم / مثلجات", "note_ar": "", "note_en": "", "example": "Let's get ice cream after lunch."},
+      {"word": "hair salon", "pos": "noun", "meaning_en": "a shop where people get their hair cut", "meaning_ar": "صالون تصفيف الشعر", "note_ar": "", "note_en": "", "example": "The hair salon is next to the bank."},
+      {"word": "everything", "pos": "pronoun", "meaning_en": "all things", "meaning_ar": "كل شيء", "note_ar": "يأخذ فعلًا مفردًا: everything is.", "note_en": "Use a singular verb: everything is.", "example": "Everything is near my home."},
+      {"word": "wait", "pos": "verb", "meaning_en": "to stay in a place until something happens", "meaning_ar": "ينتظر", "note_ar": "wait for someone = ينتظر شخصًا.", "note_en": "wait for someone", "example": "Wait here. I'll be back."}
+    ],
+    "fine_lines": [
+      {"title": "library vs bookstore", "words": ["library", "bookstore"],
+       "explanation_ar": "library مكان تستعير منه الكتب وتعيدها مجانًا. bookstore متجر تشتري منه الكتب.",
+       "explanation_en": "At a library you borrow books and return them. At a bookstore you buy books.",
+       "examples": [{"word": "library", "sentence": "I return my books to the library."}, {"word": "bookstore", "sentence": "I buy a new dictionary at the bookstore."}]},
+      {"title": "these vs those", "words": ["these", "those"],
+       "explanation_ar": "these للأشياء الجمع القريبة منك (هذه/هؤلاء)، those للأشياء الجمع البعيدة (تلك/أولئك). المفرد: this و that.",
+       "explanation_en": "These = plural things near you. Those = plural things far from you. Singular: this and that.",
+       "examples": [{"word": "these", "sentence": "These are letters to my family."}, {"word": "those", "sentence": "What are those on the shelf over there?"}]},
+      {"title": "near vs far from", "words": ["near", "far from"],
+       "explanation_ar": "near = قريب من، far from = بعيد عن.",
+       "explanation_en": "Near = close to. Far from = a long way from.",
+       "examples": [{"word": "near", "sentence": "The library is near our apartment."}, {"word": "far from", "sentence": "The post office is far from here."}]}
+    ],
+    "expressions": [
+      {"phrase": "Where is the library?", "meaning_ar": "أين المكتبة؟", "meaning_en": "Asking for the place of the library.", "example": "Excuse me, where is the library?"},
+      {"phrase": "It is on this street on the corner.", "meaning_ar": "إنها في هذا الشارع على الناصية.", "meaning_en": "It is on this street where it meets another street.", "example": "The bank? It is on this street on the corner."},
+      {"phrase": "Is there a post office near here?", "meaning_ar": "هل يوجد مكتب بريد قريب من هنا؟", "meaning_en": "Asking if a post office is close.", "example": "Is there a bank near here?"},
+      {"phrase": "There is a bank behind you.", "meaning_ar": "يوجد بنك خلفك.", "meaning_en": "A bank is at your back.", "example": "Look! There is a bank behind you."},
+      {"phrase": "Do you have cash?", "meaning_ar": "هل معك نقود؟", "meaning_en": "Do you have money in coins and notes?", "example": "The shop doesn't take cards. Do you have cash?"},
+      {"phrase": "You know our neighborhood so well.", "meaning_ar": "أنت تعرف حيّنا جيدًا جدًا.", "meaning_en": "You know this area very well.", "example": "Thanks! You know our neighborhood so well."},
+      {"phrase": "Wait here.", "meaning_ar": "انتظر هنا.", "meaning_en": "Stay here for a short time.", "example": "Wait here. I'll be back in a minute."},
+      {"phrase": "Wow, you're fast.", "meaning_ar": "واو، أنت سريع.", "meaning_en": "You did it very quickly.", "example": "You finished already? Wow, you're fast."},
+      {"phrase": "I can do all my errands.", "meaning_ar": "أستطيع أن أقضي كل مشاويري.", "meaning_en": "I can do all my small jobs and shopping.", "example": "In my neighborhood I can do all my errands on foot."},
+      {"phrase": "Everything is near our apartment!", "meaning_ar": "كل شيء قريب من شقتنا!", "meaning_en": "All the places we need are close to our home.", "example": "I love it here. Everything is near our apartment!"}
+    ],
+    "grammar": [
+      {"title": "There is / There are",
+       "explanation_ar": "١) نستخدم There is مع المفرد لنقول إن شيئًا موجودًا: There is a bank.\n٢) نستخدم There are مع الجمع: There are three coffee shops.\n٣) للسؤال نقدّم is/are: Is there a post office near here?\n٤) الإجابة: Yes, there is. / No, there isn't.",
+       "explanation_en": "1) There is + singular, to say something exists: There is a bank.\n2) There are + plural: There are three coffee shops.\n3) Question: Is there a post office near here?\n4) Answer: Yes, there is. / No, there isn't.",
+       "examples": ["There is a mailbox across from the store.", "There are two parks in my neighborhood.", "Is there a library near here? Yes, there is."]},
+      {"title": "can for ability and possibility",
+       "explanation_ar": "١) can + الفعل الأساسي (بدون to) = يستطيع.\n٢) لا يتغير can مع he/she: She can buy stamps.\n٣) النفي: cannot أو can't.\n٤) السؤال: Can I return the books here?",
+       "explanation_en": "1) can + base verb (no to) = be able to.\n2) can does not change with he/she: She can buy stamps.\n3) Negative: cannot / can't.\n4) Question: Can I return the books here?",
+       "examples": ["I can return the books here.", "Now I have cash. I can buy stamps.", "You can't buy stamps at the library."]},
+      {"title": "need to + verb",
+       "explanation_ar": "١) need to + فعل = يجب/يحتاج أن يفعل.\n٢) مع he/she نضيف s: She needs to go.\n٣) need + اسم = يحتاج شيئًا: I need stamps.",
+       "explanation_en": "1) need to + verb = it is necessary to do it.\n2) With he/she add s: She needs to go.\n3) need + noun: I need stamps.",
+       "examples": ["I need to return three books.", "She needs to buy stamps.", "We need cash."]}
+    ]
+  },
+  "questions": [
+    {"question": "Where can you borrow books?", "choices": ["a bank", "a library", "a hair salon", "a mailbox"], "answer": 1, "explanation_ar": "نستعير الكتب من المكتبة العامة (library).", "explanation_en": "You borrow books at a library."},
+    {"question": "___ a bank behind you.", "choices": ["There are", "It are", "There is", "Is there"], "answer": 2, "explanation_ar": "There is مع المفرد (a bank).", "explanation_en": "Use There is with a singular noun."},
+    {"question": "___ three coffee shops on this street.", "choices": ["There are", "There is", "It is", "Is there"], "answer": 0, "explanation_ar": "There are مع الجمع.", "explanation_en": "Use There are with a plural noun."},
+    {"question": "What do you put on a letter before you send it?", "choices": ["cash", "a corner", "ice cream", "a stamp"], "answer": 3, "explanation_ar": "نضع طابعًا بريديًا (stamp) على الرسالة.", "explanation_en": "You put a stamp on a letter."},
+    {"question": "Choose the correct sentence.", "choices": ["I can to buy stamps.", "I can buy stamps.", "I can buys stamps.", "I cans buy stamps."], "answer": 1, "explanation_ar": "can + فعل أساسي بدون to.", "explanation_en": "can + base verb, without to."},
+    {"question": "\"Is there a post office near here?\" \"No, ___.\"", "choices": ["there isn't", "it isn't", "there aren't", "isn't there"], "answer": 0, "explanation_ar": "الإجابة: No, there isn't.", "explanation_en": "The answer is: No, there isn't."},
+    {"question": "\"___ are letters to my family.\" (in my hand)", "choices": ["That", "Those", "This", "These"], "answer": 3, "explanation_ar": "these للجمع القريب.", "explanation_en": "These is for plural things near you."},
+    {"question": "What is an errand?", "choices": ["a big party", "a kind of letter", "a short trip to do a small job", "a place to eat"], "answer": 2, "explanation_ar": "errand مشوار قصير لقضاء حاجة.", "explanation_en": "An errand is a short trip to do a small job, like buying something."},
+    {"question": "The post office is not near. It is ___ here.", "choices": ["far from", "behind", "on", "across"], "answer": 0, "explanation_ar": "far from تعني بعيدًا عن.", "explanation_en": "Far from means a long way from."},
+    {"question": "She ___ to go to the bank.", "choices": ["need", "needs", "can", "is need"], "answer": 1, "explanation_ar": "مع she نقول needs.", "explanation_en": "With she we say needs."}
+  ]
+}

@@ -1,0 +1,384 @@
+{
+ "title": "Talking about ability",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "can",
+    "pos": "modal verb",
+    "meaning_en": "be able to",
+    "meaning_ar": "يستطيع",
+    "note_ar": "تُنطق ضعيفة /kən/ في الجملة",
+    "note_en": "In sentences it's often weak: /kən/.",
+    "example": "I can swim."
+   },
+   {
+    "word": "can't",
+    "pos": "modal verb",
+    "meaning_en": "cannot, not able to",
+    "meaning_ar": "لا يستطيع",
+    "note_ar": "بريطانيًا /kɑːnt/ بصوت a طويل",
+    "note_en": "British: long /ɑː/ sound.",
+    "example": "I can't juggle."
+   },
+   {
+    "word": "play",
+    "pos": "verb",
+    "meaning_en": "do a sport or a game",
+    "meaning_ar": "يلعب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can play football."
+   },
+   {
+    "word": "chess",
+    "pos": "noun",
+    "meaning_en": "a board game for two players",
+    "meaning_ar": "الشطرنج",
+    "note_ar": "نقول play chess بدون the",
+    "note_en": "Say \"play chess\" with no \"the\".",
+    "example": "Can you play chess?"
+   },
+   {
+    "word": "ski",
+    "pos": "verb",
+    "meaning_en": "move over snow on two long boards",
+    "meaning_ar": "يتزلّج على الثلج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can snowboard, but I can't ski."
+   },
+   {
+    "word": "snowboard",
+    "pos": "verb",
+    "meaning_en": "go down snowy mountains on a board",
+    "meaning_ar": "يتزلج على لوح الثلج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can snowboard."
+   },
+   {
+    "word": "cook",
+    "pos": "verb",
+    "meaning_en": "make food",
+    "meaning_ar": "يطبخ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can cook rice."
+   },
+   {
+    "word": "rock-climb",
+    "pos": "verb",
+    "meaning_en": "climb up big rocks",
+    "meaning_ar": "يتسلق الصخور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can't rock-climb."
+   },
+   {
+    "word": "juggle",
+    "pos": "verb",
+    "meaning_en": "throw and catch several things in the air",
+    "meaning_ar": "يلعب بالكرات (يرميها ويلتقطها)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can't juggle."
+   },
+   {
+    "word": "swim",
+    "pos": "verb",
+    "meaning_en": "move through water",
+    "meaning_ar": "يسبح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can you swim? - Yes, I can."
+   },
+   {
+    "word": "drive",
+    "pos": "verb",
+    "meaning_en": "control a car",
+    "meaning_ar": "يقود",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My sister can drive."
+   },
+   {
+    "word": "speak",
+    "pos": "verb",
+    "meaning_en": "say words in a language",
+    "meaning_ar": "يتكلم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can speak Arabic and English."
+   },
+   {
+    "word": "ride a bike",
+    "pos": "phrase",
+    "meaning_en": "travel on a bicycle",
+    "meaning_ar": "يركب دراجة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My son can ride a bike."
+   },
+   {
+    "word": "draw",
+    "pos": "verb",
+    "meaning_en": "make pictures with a pen or pencil",
+    "meaning_ar": "يرسم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can he draw?"
+   },
+   {
+    "word": "well",
+    "pos": "adverb",
+    "meaning_en": "in a good way",
+    "meaning_ar": "جيدًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She can cook very well."
+   },
+   {
+    "word": "a little",
+    "pos": "phrase",
+    "meaning_en": "not much",
+    "meaning_ar": "قليلًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can speak French a little."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "can / can't",
+    "words": [
+     "can",
+     "can't"
+    ],
+    "explanation_ar": "can للقدرة و can't (cannot) لعدم القدرة. في الكلام can ضعيفة النطق /kən/ أما can't فقوية وواضحة، فاستمع للفرق.",
+    "explanation_en": "\"Can\" = able; \"can't\" = not able. In speech \"can\" is weak and \"can't\" is strong.",
+    "examples": [
+     {
+      "word": "can",
+      "sentence": "I can swim."
+     },
+     {
+      "word": "can't",
+      "sentence": "I can't juggle."
+     }
+    ]
+   },
+   {
+    "title": "well / good",
+    "words": [
+     "well",
+     "good"
+    ],
+    "explanation_ar": "well ظرف يأتي بعد الفعل ليصف كيف نفعل الشيء: She can cook well. أما good فصفة تأتي قبل الاسم أو بعد be: She is a good cook. لا نقول She can cook good.",
+    "explanation_en": "\"Well\" is an adverb; it goes after a verb: She can cook well. \"Good\" is an adjective; it goes before a noun or after \"be\": She's a good cook. Don't say \"She can cook good.\"",
+    "examples": [
+     {
+      "word": "well",
+      "sentence": "He can swim very well."
+     },
+     {
+      "word": "good",
+      "sentence": "He is a good swimmer."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What can you do?",
+    "meaning_ar": "ماذا تستطيع أن تفعل؟",
+    "meaning_en": "ask about someone's abilities",
+    "example": "What can you do? - I can cook and swim."
+   },
+   {
+    "phrase": "Can you play chess?",
+    "meaning_ar": "هل تستطيع لعب الشطرنج؟",
+    "meaning_en": "a yes/no question about ability",
+    "example": "Can you play tennis?"
+   },
+   {
+    "phrase": "Yes, I can play chess.",
+    "meaning_ar": "نعم، أستطيع لعب الشطرنج.",
+    "meaning_en": "a full positive answer",
+    "example": "Yes, I can. I play every day."
+   },
+   {
+    "phrase": "No, I can't play chess.",
+    "meaning_ar": "لا، لا أستطيع لعب الشطرنج.",
+    "meaning_en": "a full negative answer",
+    "example": "No, I can't. It's difficult."
+   },
+   {
+    "phrase": "I can swim.",
+    "meaning_ar": "أستطيع السباحة.",
+    "meaning_en": "say an ability",
+    "example": "I can swim and cook."
+   },
+   {
+    "phrase": "I can snowboard.",
+    "meaning_ar": "أستطيع التزلج على لوح الثلج.",
+    "meaning_en": "say an ability",
+    "example": "I can snowboard, but I can't ski."
+   },
+   {
+    "phrase": "I can't rock-climb.",
+    "meaning_ar": "لا أستطيع تسلق الصخور.",
+    "meaning_en": "say something you can't do",
+    "example": "I can't rock-climb. I'm afraid of heights."
+   },
+   {
+    "phrase": "I can't juggle.",
+    "meaning_ar": "لا أستطيع رمي الكرات والتقاطها.",
+    "meaning_en": "say something you can't do",
+    "example": "I can't juggle at all."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Can / can't + base verb",
+    "explanation_ar": "can لا تتغير مع الفاعل (I can, he can, they can) ويأتي بعدها الفعل في صيغته الأصلية بدون to وبدون s: She can swim (وليس She can swims).",
+    "explanation_en": "\"Can\" is the same for all subjects. After it, use the base verb (no \"to\", no -s).",
+    "examples": [
+     "I can swim.",
+     "He can cook.",
+     "They can't juggle."
+    ]
+   },
+   {
+    "title": "Questions and short answers with can",
+    "explanation_ar": "للسؤال نقدّم can على الفاعل: Can you swim? والجواب القصير: Yes, I can. / No, I can't.",
+    "explanation_en": "To ask, put \"can\" first. Short answers: Yes, I can. / No, I can't.",
+    "examples": [
+     "Can you snowboard? - Yes, I can.",
+     "Can he drive? - No, he can't."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "___ you play chess?",
+   "choices": [
+    "Do",
+    "Are",
+    "Can",
+    "Is"
+   ],
+   "answer": 2,
+   "explanation_ar": "للسؤال عن القدرة نبدأ بـ Can.",
+   "explanation_en": "Start ability questions with \"Can\"."
+  },
+  {
+   "question": "She can ___.",
+   "choices": [
+    "swims",
+    "swim",
+    "to swim",
+    "swimming"
+   ],
+   "answer": 1,
+   "explanation_ar": "بعد can الفعل في صيغته الأصلية.",
+   "explanation_en": "After \"can\" use the base verb."
+  },
+  {
+   "question": "Can you juggle? - No, I ___.",
+   "choices": [
+    "can't",
+    "don't",
+    "am not",
+    "not"
+   ],
+   "answer": 0,
+   "explanation_ar": "الجواب القصير المنفي No, I can't.",
+   "explanation_en": "Short negative answer: \"No, I can't.\""
+  },
+  {
+   "question": "She can cook very ___.",
+   "choices": [
+    "good",
+    "nice",
+    "a little",
+    "well"
+   ],
+   "answer": 3,
+   "explanation_ar": "بعد الفعل cook نستخدم الظرف well وليس الصفة good.",
+   "explanation_en": "After the verb \"cook\", use the adverb \"well\", not \"good\"."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "He cans cook.",
+    "He can to cook.",
+    "He can cook.",
+    "He can cooks."
+   ],
+   "answer": 2,
+   "explanation_ar": "can + فعل أصلي، و can لا تأخذ s.",
+   "explanation_en": "\"Can\" never takes -s; use the base verb after it."
+  },
+  {
+   "question": "What does \"juggle\" mean?",
+   "choices": [
+    "climb a rock",
+    "throw and catch things in the air",
+    "cook a meal",
+    "ride a bike"
+   ],
+   "answer": 1,
+   "explanation_ar": "juggle = رمي عدة أشياء والتقاطها.",
+   "explanation_en": "Juggle = throw and catch several things."
+  },
+  {
+   "question": "I can speak English ___. (not very well)",
+   "choices": [
+    "a little",
+    "a lot of",
+    "very",
+    "too"
+   ],
+   "answer": 0,
+   "explanation_ar": "a little = قليلًا.",
+   "explanation_en": "\"A little\" means not much."
+  },
+  {
+   "question": "I can play ___. (a sport)",
+   "choices": [
+    "the football",
+    "a football",
+    "football",
+    "footballs"
+   ],
+   "answer": 2,
+   "explanation_ar": "مع الرياضات لا نستخدم the.",
+   "explanation_en": "No \"the\" with sports."
+  },
+  {
+   "question": "Can she drive? - Yes, she ___.",
+   "choices": [
+    "does",
+    "is",
+    "drives",
+    "can"
+   ],
+   "answer": 3,
+   "explanation_ar": "الجواب القصير Yes, she can.",
+   "explanation_en": "Short answer: \"Yes, she can.\""
+  },
+  {
+   "question": "Which sentence talks about ability?",
+   "choices": [
+    "I can rock-climb.",
+    "I'm climbing.",
+    "I climbed.",
+    "I like climbing."
+   ],
+   "answer": 0,
+   "explanation_ar": "can تعبر عن القدرة.",
+   "explanation_en": "\"Can\" talks about ability."
+  }
+ ]
+}

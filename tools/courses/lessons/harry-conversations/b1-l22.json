@@ -1,0 +1,61 @@
+{
+  "title": "Accepting and Declining Invitations",
+  "content": {
+    "vocabulary": [
+      {"word": "invitation", "pos": "noun", "meaning_en": "a request to come to an event", "meaning_ar": "دعوة", "note_ar": "الفعل: invite. وفي العامية: an invite", "note_en": "Verb: invite. Informal noun: an invite.", "example": "Thanks for the invitation."},
+      {"word": "accept", "pos": "verb", "meaning_en": "say yes to an invitation or offer", "meaning_ar": "يقبل", "note_ar": "", "note_en": "", "example": "I'm happy to accept your invitation."},
+      {"word": "decline", "pos": "verb", "meaning_en": "(formal) say no politely", "meaning_ar": "يعتذر عن / يرفض بأدب", "note_ar": "", "note_en": "", "example": "She declined the invitation politely."},
+      {"word": "turn down", "pos": "phrasal verb", "meaning_en": "refuse an offer or invitation", "meaning_ar": "يرفض", "note_ar": "", "note_en": "", "example": "I had to turn down the invitation."},
+      {"word": "reunion", "pos": "noun", "meaning_en": "a meeting of people who haven't seen each other for a long time", "meaning_ar": "لمّ شمل / لقاء الأصدقاء القدامى", "note_ar": "", "note_en": "", "example": "Our college reunion is next month."},
+      {"word": "gathering", "pos": "noun", "meaning_en": "a meeting of people, often family and friends", "meaning_ar": "تجمّع / لقاء", "note_ar": "", "note_en": "", "example": "We're having a small family gathering."},
+      {"word": "chuffed", "pos": "adjective", "meaning_en": "(UK, informal) very pleased", "meaning_ar": "مسرور جدًا (عامية بريطانية)", "note_ar": "", "note_en": "", "example": "I was really chuffed to be invited."},
+      {"word": "be up for", "pos": "phrase", "meaning_en": "(informal) want to do something", "meaning_ar": "مستعد ومتحمّس لـ", "note_ar": "", "note_en": "", "example": "A hike on Saturday? I'm up for that!"},
+      {"word": "clash", "pos": "verb", "meaning_en": "(events) happen at the same time", "meaning_ar": "يتعارض (موعدان)", "note_ar": "", "note_en": "", "example": "The dinner clashes with my exam."},
+      {"word": "excuse", "pos": "noun", "meaning_en": "a reason you give for not doing something", "meaning_ar": "عذر", "note_ar": "الاسم يُنطق /ɪkˈskjuːs/ والفعل /ɪkˈskjuːz/", "note_en": "Noun /ɪkˈskjuːs/; verb /ɪkˈskjuːz/.", "example": "He always has an excuse."},
+      {"word": "let someone down gently", "pos": "phrase", "meaning_en": "say no in a kind way so the person isn't hurt", "meaning_ar": "يرفض بلطف دون أن يجرح", "note_ar": "", "note_en": "", "example": "Give a reason and let them down gently."},
+      {"word": "browned off", "pos": "adjective", "meaning_en": "(UK, informal) annoyed and fed up", "meaning_ar": "منزعج / ضجِر", "note_ar": "", "note_en": "", "example": "People get browned off if you always say no."},
+      {"word": "clear your diary", "pos": "phrase", "meaning_en": "cancel or move plans to make free time", "meaning_ar": "يُفرّغ جدوله", "note_ar": "", "note_en": "", "example": "I'll try to clear my diary for Friday."}
+    ],
+    "fine_lines": [
+      {"title": "Positive, negative and neutral replies", "words": ["I'm looking forward to it.", "I'm sorry, I can't make it.", "I'll see what I can do."], "explanation_ar": "إيجابي = تقبل الدعوة. سلبي = ترفض بلطف وتذكر سببًا. محايد = لا تقول نعم أو لا الآن.", "explanation_en": "Positive = you accept. Negative = you refuse politely with a reason. Neutral = you don't say yes or no yet.", "examples": [{"word": "I'm looking forward to it.", "sentence": "A family dinner on Friday? I'm looking forward to it."}, {"word": "I'll see what I can do.", "sentence": "Leave it with me. I'll see what I can do."}]},
+      {"title": "I'd love to vs I'd hate to", "words": ["I'd love to go, but ...", "I'd hate to miss it, but ..."], "explanation_ar": "كلتاهما تُستخدمان للرفض المهذب: تُظهر أنك تريد الحضور، ثم تذكر السبب بعد but.", "explanation_en": "Both are polite refusals: they show you want to go, then give a reason after \"but\".", "examples": [{"word": "I'd love to go, but ...", "sentence": "I'd love to go, but I'm away on business."}, {"word": "I'd hate to miss it, but ...", "sentence": "I'd hate to miss it, but I have to work that day."}]}
+    ],
+    "expressions": [
+      {"phrase": "Great, I'll see you there.", "meaning_ar": "رائع، أراك هناك.", "meaning_en": "A simple, friendly yes.", "example": "Dinner at eight? Great, I'll see you there."},
+      {"phrase": "I'm looking forward to it.", "meaning_ar": "أنا متشوّق لذلك.", "meaning_en": "Accepts and shows you're happy.", "example": "Thanks for the invitation. I'm looking forward to it."},
+      {"phrase": "I wouldn't miss it for the world.", "meaning_ar": "لن أفوّته مهما حدث.", "meaning_en": "Says you will definitely come.", "example": "Your graduation? I wouldn't miss it for the world."},
+      {"phrase": "I can't wait!", "meaning_ar": "لا أطيق الانتظار!", "meaning_en": "A very excited yes.", "example": "A college reunion? I can't wait!"},
+      {"phrase": "I'm chuffed.", "meaning_ar": "أنا مسرور جدًا.", "meaning_en": "Informal British: very pleased (and honoured) to be asked.", "example": "You want me to give the speech? I'm really chuffed."},
+      {"phrase": "It's great to be included.", "meaning_ar": "يسعدني أن أكون من المدعوّين.", "meaning_en": "A calm, polite yes.", "example": "Thanks for asking me. It's great to be included."},
+      {"phrase": "Count me in.", "meaning_ar": "احسبني معكم.", "meaning_en": "Informal: I'll join.", "example": "Football on Sunday? Count me in."},
+      {"phrase": "I'm up for that.", "meaning_ar": "أنا موافق ومتحمّس.", "meaning_en": "Informal: I want to do it.", "example": "A hike in the mountains? I'm up for that."},
+      {"phrase": "I'd love to go, but ...", "meaning_ar": "أودّ كثيرًا أن أذهب، لكن ...", "meaning_en": "A polite refusal with a reason.", "example": "I'd love to go, but I have a business trip."},
+      {"phrase": "Perhaps next time.", "meaning_ar": "ربما في المرة القادمة.", "meaning_en": "Softens a refusal.", "example": "I can't come this time. Perhaps next time."},
+      {"phrase": "I'm sorry, I can't make it.", "meaning_ar": "آسف، لا أستطيع الحضور.", "meaning_en": "A clear, polite no.", "example": "I'm sorry, I can't make it, but thanks for the invitation anyway."},
+      {"phrase": "Thanks for the invitation anyway.", "meaning_ar": "شكرًا على الدعوة على أي حال.", "meaning_en": "Thanks the person even though you can't come.", "example": "I can't come, but thanks for the invitation anyway."},
+      {"phrase": "I hate to say no, but ...", "meaning_ar": "أكره أن أقول لا، لكن ...", "meaning_en": "Prepares the person for a refusal.", "example": "I hate to say no, but it clashes with another event."},
+      {"phrase": "I'd hate to miss it, but I'm afraid I'll have to.", "meaning_ar": "يحزنني أن يفوتني، لكن أخشى أنني مضطر.", "meaning_en": "A warm, polite refusal.", "example": "I'd hate to miss the reunion, but I'm afraid I'll have to."},
+      {"phrase": "Keep me in mind for next time.", "meaning_ar": "تذكّرني في المرة القادمة.", "meaning_en": "Asks to be invited again.", "example": "I'm busy this week, but keep me in mind for next time."},
+      {"phrase": "I'll do my best, but I can't promise.", "meaning_ar": "سأبذل جهدي، لكن لا أستطيع أن أعد.", "meaning_en": "A neutral reply: you'll try.", "example": "I'll do my best to come, but I can't promise."},
+      {"phrase": "When is it again?", "meaning_ar": "متى موعده مرة أخرى؟", "meaning_en": "Asks for the date again, gives you time to think.", "example": "Sorry, when is it again?"},
+      {"phrase": "Does it have to be that day?", "meaning_ar": "هل يجب أن يكون في ذلك اليوم؟", "meaning_en": "Asks if the date can change.", "example": "Does it have to be that day? I'm away until Tuesday."},
+      {"phrase": "Leave it with me. I'll see what I can do.", "meaning_ar": "اترك الأمر لي. سأرى ما يمكنني فعله.", "meaning_en": "A neutral reply; you'll answer later.", "example": "Leave it with me. I'll see what I can do and call you tomorrow."}
+    ],
+    "grammar": [
+      {"title": "I'd love to / I'd hate to + verb, but ...", "explanation_ar": "I'd = I would. بعد love to / hate to نستخدم الفعل الأساسي، ثم but والسبب. هذا التركيب يجعل الرفض مهذبًا.", "explanation_en": "I'd = I would. After \"love to / hate to\" use the base verb, then \"but\" and a reason. This makes a refusal polite.", "examples": ["I'd love to go, but I'm working.", "I'd hate to miss it, but I have an exam.", "I'd love to come, but I'm away that weekend."]},
+      {"title": "look forward to + noun / -ing", "explanation_ar": "to هنا حرف جر، فيأتي بعدها اسم أو فعل بـ ing.", "explanation_en": "Here \"to\" is a preposition, so use a noun or -ing.", "examples": ["I'm looking forward to it.", "I'm looking forward to seeing everyone.", "We look forward to the reunion."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which reply ACCEPTS an invitation?", "choices": ["I'm sorry, I can't make it.", "I'll see what I can do.", "Count me in!", "Does it have to be that day?"], "answer": 2, "explanation_ar": "Count me in = احسبني معكم، أي قبول.", "explanation_en": "\"Count me in\" accepts."},
+    {"question": "I'm looking forward to ___ everyone.", "choices": ["seeing", "see", "saw", "to see"], "answer": 0, "explanation_ar": "بعد look forward to نستخدم ing.", "explanation_en": "After \"look forward to\" use -ing."},
+    {"question": "\"I'm chuffed\" means:", "choices": ["I'm tired.", "I'm very pleased.", "I'm busy.", "I'm angry."], "answer": 1, "explanation_ar": "chuffed = مسرور جدًا.", "explanation_en": "\"Chuffed\" = very pleased."},
+    {"question": "Which is a NEUTRAL reply?", "choices": ["I can't wait!", "I wouldn't miss it for the world.", "I'm sorry, I can't make it.", "I'll do my best, but I can't promise."], "answer": 3, "explanation_ar": "هذه العبارة لا تقول نعم أو لا.", "explanation_en": "It says neither yes nor no."},
+    {"question": "\"The party clashes with my exam\" means:", "choices": ["They are at the same time.", "The party is noisy.", "The exam is easy.", "The party is after the exam."], "answer": 0, "explanation_ar": "clash = يتعارض في الموعد.", "explanation_en": "\"Clash\" = happen at the same time."},
+    {"question": "I'd love ___, but I'm away that weekend.", "choices": ["going", "to go", "go", "went"], "answer": 1, "explanation_ar": "I'd love to + الفعل الأساسي.", "explanation_en": "I'd love to + base verb."},
+    {"question": "\"I wouldn't miss it for the world\" means:", "choices": ["I won't come.", "I might come.", "I will definitely come.", "I don't like it."], "answer": 2, "explanation_ar": "تعني أنك ستحضر بالتأكيد.", "explanation_en": "It means you will definitely come."},
+    {"question": "Why should you give a reason when you say no?", "choices": ["To sound rude.", "To make the invitation longer.", "To get a present.", "To let the person down gently."], "answer": 3, "explanation_ar": "لكي ترفض بلطف ولا تجرح مشاعر الشخص.", "explanation_en": "To refuse kindly without hurting feelings."},
+    {"question": "\"I'm up for that\" means:", "choices": ["I want to do it.", "I'm awake.", "I'm against it.", "I'm upstairs."], "answer": 0, "explanation_ar": "be up for = متحمّس ويريد المشاركة.", "explanation_en": "\"Be up for\" = want to do it."},
+    {"question": "Which word means \"refuse an invitation\"?", "choices": ["accept", "turn down", "count in", "look forward"], "answer": 1, "explanation_ar": "turn down = يرفض.", "explanation_en": "\"Turn down\" = refuse."}
+  ]
+}

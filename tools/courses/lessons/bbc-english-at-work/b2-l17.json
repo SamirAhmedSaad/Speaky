@@ -1,0 +1,466 @@
+{
+  "title": "Making Someone Redundant",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "redundant",
+        "pos": "adjective",
+        "meaning_en": "no longer needed for a job, so you lose it",
+        "meaning_ar": "مُستغنى عنه (فائض عن الحاجة في العمل)",
+        "note_ar": "make someone redundant = يستغني عن موظف لعدم الحاجة إلى وظيفته.",
+        "note_en": "Make someone redundant = end their job because it's not needed.",
+        "example": "Fifty workers were made redundant."
+      },
+      {
+        "word": "redundancy",
+        "pos": "noun",
+        "meaning_en": "losing your job because your job is no longer needed",
+        "meaning_ar": "الاستغناء عن الوظيفة / التسريح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Many staff are facing redundancy."
+      },
+      {
+        "word": "face redundancy",
+        "pos": "phrase",
+        "meaning_en": "to be in danger of losing your job",
+        "meaning_ar": "يواجه خطر التسريح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I never thought I would be facing redundancy."
+      },
+      {
+        "word": "let someone go",
+        "pos": "phrase",
+        "meaning_en": "(polite) to end someone's job",
+        "meaning_ar": "يستغني عن موظف (بأسلوب مهذب)",
+        "note_ar": "أسلوب ألطف من sack أو fire.",
+        "note_en": "Softer than sack or fire.",
+        "example": "I'm afraid we have to let you go."
+      },
+      {
+        "word": "sack",
+        "pos": "verb / noun",
+        "meaning_en": "(informal) to end someone's job; get the sack = lose your job",
+        "meaning_ar": "يطرد / الطرد من العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He got the sack for being rude to customers."
+      },
+      {
+        "word": "get the chop",
+        "pos": "idiom",
+        "meaning_en": "(informal) to lose your job",
+        "meaning_ar": "يُفصل من العمل (عامية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I hope I don't get the chop."
+      },
+      {
+        "word": "terminate",
+        "pos": "verb",
+        "meaning_en": "(formal) to end something officially",
+        "meaning_ar": "يُنهي (رسميًا)",
+        "note_ar": "الاسم: termination.",
+        "note_en": "Noun: termination.",
+        "example": "The company terminated his contract."
+      },
+      {
+        "word": "employment",
+        "pos": "noun",
+        "meaning_en": "having a paid job",
+        "meaning_ar": "العمل / التوظيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your employment will end on Friday."
+      },
+      {
+        "word": "employer",
+        "pos": "noun",
+        "meaning_en": "a person or company that pays people to work",
+        "meaning_ar": "صاحب العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My employer pays me every month."
+      },
+      {
+        "word": "employee",
+        "pos": "noun",
+        "meaning_en": "a person who works for a company",
+        "meaning_ar": "موظف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company has 200 employees."
+      },
+      {
+        "word": "notice",
+        "pos": "noun",
+        "meaning_en": "a warning that a job will end after a set time",
+        "meaning_ar": "إشعار (بانتهاء العمل)",
+        "note_ar": "notice period = مدة الإشعار.",
+        "note_en": "Notice period = the time between the warning and the end.",
+        "example": "He gave me seven days' notice."
+      },
+      {
+        "word": "notice period",
+        "pos": "noun",
+        "meaning_en": "the time between being told your job will end and the last day",
+        "meaning_ar": "فترة الإشعار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My notice period is one month."
+      },
+      {
+        "word": "restructure",
+        "pos": "verb",
+        "meaning_en": "to change the way a company is organised",
+        "meaning_ar": "يعيد الهيكلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company is restructuring its sales team."
+      },
+      {
+        "word": "move the furniture around",
+        "pos": "idiom",
+        "meaning_en": "(euphemism) to restructure or change a business",
+        "meaning_ar": "يعيد ترتيب الأمور (تعبير ملطّف عن إعادة الهيكلة)",
+        "note_ar": "تعبير ملطّف، لا علاقة له بالأثاث الحقيقي.",
+        "note_en": "A soft way of saying 'restructure'.",
+        "example": "We've got to move the furniture around."
+      },
+      {
+        "word": "afford",
+        "pos": "verb",
+        "meaning_en": "to have enough money to pay for something",
+        "meaning_ar": "يقدر على تحمّل التكلفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can't afford a new office."
+      },
+      {
+        "word": "role",
+        "pos": "noun",
+        "meaning_en": "a person's job or position",
+        "meaning_ar": "دور / منصب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My role is no longer needed."
+      },
+      {
+        "word": "tough",
+        "pos": "adjective",
+        "meaning_en": "difficult",
+        "meaning_ar": "صعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a tough economic situation."
+      },
+      {
+        "word": "sympathetic",
+        "pos": "adjective",
+        "meaning_en": "showing you understand and care about someone's problem",
+        "meaning_ar": "متعاطف",
+        "note_ar": "لا تعني «لطيف» (nice)؛ هذا خطأ شائع.",
+        "note_en": "It does not mean 'nice'.",
+        "example": "Be sympathetic when a colleague is upset."
+      },
+      {
+        "word": "a shoulder to cry on",
+        "pos": "idiom",
+        "meaning_en": "someone who listens and comforts you",
+        "meaning_ar": "شخص يواسيك ويستمع إليك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She was a shoulder to cry on when I lost my job."
+      },
+      {
+        "word": "cheer someone up",
+        "pos": "phrasal verb",
+        "meaning_en": "to make someone feel happier",
+        "meaning_ar": "يُدخل البهجة على شخص / يرفع معنوياته",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's buy her flowers to cheer her up."
+      },
+      {
+        "word": "break the news",
+        "pos": "phrase",
+        "meaning_en": "to tell someone bad news",
+        "meaning_ar": "يُبلغ الخبر (السيئ)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How will he break the news to the team?"
+      },
+      {
+        "word": "clear out your desk",
+        "pos": "phrase",
+        "meaning_en": "to empty your desk because you are leaving",
+        "meaning_ar": "يُفرغ مكتبه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She cleared out her desk on her last day."
+      },
+      {
+        "word": "stapler",
+        "pos": "noun",
+        "meaning_en": "an office tool that joins papers with small metal pins",
+        "meaning_ar": "دبّاسة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I borrow your stapler?"
+      },
+      {
+        "word": "notepad",
+        "pos": "noun",
+        "meaning_en": "a small pad of paper for writing notes",
+        "meaning_ar": "مفكرة ملاحظات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bring a notepad to the meeting."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "employer vs employee",
+        "words": [
+          "employer",
+          "employee"
+        ],
+        "explanation_ar": "employer صاحب العمل الذي يدفع الراتب. employee الموظف الذي يعمل ويتقاضى الراتب. لاحظ النهاية: er-ـ للذي يُوظِّف، و ee-ـ للذي يُوظَّف.",
+        "explanation_en": "The employer gives the job and pays. The employee does the job. -er = the one who does it, -ee = the one it is done to.",
+        "examples": [
+          {
+            "word": "employer",
+            "sentence": "My employer gave me a laptop."
+          },
+          {
+            "word": "employee",
+            "sentence": "Every employee gets 30 days' holiday."
+          }
+        ]
+      },
+      {
+        "title": "let go vs sack vs make redundant",
+        "words": [
+          "let go",
+          "sack",
+          "make redundant"
+        ],
+        "explanation_ar": "let someone go أسلوب مهذب لإنهاء العمل. sack عامية وتُستخدم غالبًا عند الطرد بسبب خطأ. make redundant تعني أن الوظيفة نفسها لم تعد ضرورية، وليس خطأ الموظف.",
+        "explanation_en": "'Let go' is polite. 'Sack' is informal, often for bad behaviour. 'Make redundant' means the job is not needed – it's not the worker's fault.",
+        "examples": [
+          {
+            "word": "let go",
+            "sentence": "I'm afraid we have to let you go."
+          },
+          {
+            "word": "sack",
+            "sentence": "He was sacked for stealing."
+          },
+          {
+            "word": "make redundant",
+            "sentence": "Ten people were made redundant when the factory closed."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "We've got to move the furniture around.",
+        "meaning_ar": "علينا أن نعيد ترتيب الأمور (إعادة هيكلة).",
+        "meaning_en": "We need to restructure the business.",
+        "example": "Business is slow, so we've got to move the furniture around."
+      },
+      {
+        "phrase": "I'm afraid I've got to let you go.",
+        "meaning_ar": "يؤسفني أن عليّ الاستغناء عنك.",
+        "meaning_en": "I'm sorry, but your job is ending.",
+        "example": "I'm afraid I've got to let you go. It's not about your work."
+      },
+      {
+        "phrase": "I'm giving you seven days' notice.",
+        "meaning_ar": "أمنحك إشعارًا مدته سبعة أيام.",
+        "meaning_en": "Your job will end in seven days.",
+        "example": "I'm giving you one month's notice."
+      },
+      {
+        "phrase": "I'm really sorry to hear this.",
+        "meaning_ar": "أنا آسف حقًا لسماع ذلك.",
+        "meaning_en": "A kind reply to bad news.",
+        "example": "You lost your job? I'm really sorry to hear this."
+      },
+      {
+        "phrase": "My role is no longer needed.",
+        "meaning_ar": "لم يعد هناك حاجة إلى منصبي.",
+        "meaning_en": "My job is not necessary any more.",
+        "example": "The company bought a machine, so my role is no longer needed."
+      },
+      {
+        "phrase": "Could I have a word with you in my office, please?",
+        "meaning_ar": "هل يمكنني التحدث معك في مكتبي من فضلك؟",
+        "meaning_en": "I want to talk to you privately.",
+        "example": "Denise, could I have a word with you in my office, please?"
+      },
+      {
+        "phrase": "You've got to think positively.",
+        "meaning_ar": "يجب أن تفكر بإيجابية.",
+        "meaning_en": "Try to look at the good side.",
+        "example": "It's hard, but you've got to think positively."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I'm afraid + bad news (softening)",
+        "explanation_ar": "نبدأ بـ I'm afraid لتلطيف خبر سيئ أو رفض بطريقة مهذبة. لا تعني هنا «أنا خائف»، بل «يؤسفني».",
+        "explanation_en": "Start with 'I'm afraid' to give bad news politely. It means 'I'm sorry to say', not 'I'm scared'.",
+        "examples": [
+          "I'm afraid I've got to let you go.",
+          "I'm afraid the manager is busy.",
+          "I'm afraid we can't accept your offer."
+        ]
+      },
+      {
+        "title": "have got to = must",
+        "explanation_ar": "have got to + الفعل الأساسي تعني «يجب»، وهي شائعة في الإنجليزية البريطانية المنطوقة: I've got to = I have to.",
+        "explanation_en": "'Have got to' means 'have to / must', common in spoken British English.",
+        "examples": [
+          "We've got to move the furniture around.",
+          "I've got to let you go.",
+          "You've got to think positively."
+        ]
+      },
+      {
+        "title": "Possessive with time: seven days' notice",
+        "explanation_ar": "مع المدد الزمنية نستخدم الملكية: one week's notice، two weeks' notice (الفاصلة العليا بعد s في الجمع).",
+        "explanation_en": "Use the possessive with periods of time: one week's, seven days'.",
+        "examples": [
+          "I'm giving you seven days' notice.",
+          "She has one month's holiday.",
+          "We'll deliver in two weeks' time."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'I'm afraid I've got to let you go' means ___.",
+      "choices": [
+        "You can go home early.",
+        "Your job is ending.",
+        "You can take a holiday.",
+        "I'm scared of you."
+      ],
+      "answer": 1,
+      "explanation_ar": "let you go تعني إنهاء عملك بأسلوب مهذب.",
+      "explanation_en": "It politely means your job is ending."
+    },
+    {
+      "question": "If a boss says 'We've got to move the furniture around', he means ___.",
+      "choices": [
+        "the business is being restructured",
+        "the office needs new chairs",
+        "they are moving house",
+        "it's cleaning day"
+      ],
+      "answer": 0,
+      "explanation_ar": "تعبير ملطّف عن إعادة الهيكلة.",
+      "explanation_en": "It's a soft way to say restructure."
+    },
+    {
+      "question": "I'm giving you seven ___ notice.",
+      "choices": [
+        "day",
+        "days",
+        "days'",
+        "day's"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع الجمع نضع الفاصلة العليا بعد s: seven days'.",
+      "explanation_en": "Plural possessive: days'."
+    },
+    {
+      "question": "The person who pays you to work is your ___.",
+      "choices": [
+        "employee",
+        "employer",
+        "employment",
+        "colleague"
+      ],
+      "answer": 1,
+      "explanation_ar": "employer صاحب العمل.",
+      "explanation_en": "The employer pays you."
+    },
+    {
+      "question": "Which phrase is the most informal?",
+      "choices": [
+        "terminate your employment",
+        "let you go",
+        "make you redundant",
+        "get the sack"
+      ],
+      "answer": 3,
+      "explanation_ar": "get the sack عامية.",
+      "explanation_en": "'Get the sack' is informal."
+    },
+    {
+      "question": "Anna tells Tom to be more ___ to Denise.",
+      "choices": [
+        "sympathetic",
+        "redundant",
+        "tough",
+        "bossy"
+      ],
+      "answer": 0,
+      "explanation_ar": "sympathetic = متعاطف.",
+      "explanation_en": "Sympathetic means caring."
+    },
+    {
+      "question": "A 'notice period' is ___.",
+      "choices": [
+        "a time to read notices",
+        "a holiday",
+        "the time between being told your job ends and your last day",
+        "a training course"
+      ],
+      "answer": 2,
+      "explanation_ar": "فترة الإشعار قبل انتهاء العمل.",
+      "explanation_en": "It's the time before your job ends."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I'm afraid we can't to keep you.",
+        "I afraid we can't keep you.",
+        "I'm afraid we can't keep you.",
+        "I'm afraid we not keep you."
+      ],
+      "answer": 2,
+      "explanation_ar": "I'm afraid + جملة صحيحة: can't + الفعل الأساسي.",
+      "explanation_en": "I'm afraid + can't + base verb."
+    },
+    {
+      "question": "Denise needs 'a shoulder to cry on'. She needs ___.",
+      "choices": [
+        "someone to comfort her",
+        "a new desk",
+        "a doctor",
+        "more work"
+      ],
+      "answer": 0,
+      "explanation_ar": "شخص يواسيها.",
+      "explanation_en": "Someone to comfort her."
+    },
+    {
+      "question": "'We can't ___ to keep everyone' means we don't have enough money.",
+      "choices": [
+        "arrange",
+        "allow",
+        "agree",
+        "afford"
+      ],
+      "answer": 3,
+      "explanation_ar": "afford = يقدر على تحمّل التكلفة.",
+      "explanation_en": "Afford means have enough money."
+    }
+  ]
+}

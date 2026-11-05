@@ -108,7 +108,7 @@ class AdManager(private val context: Context) {
 
     /** The shared banner, created for [activity] (recreated if the activity was recreated). */
     private fun bannerFor(activity: Activity): LevelPlayBannerAdView? {
-        if (!AdConfig.adsReady || AdConfig.BANNER_AD_UNIT_ID.isBlank() || Premium.active.value) return null
+        if (!AdConfig.adsReady || AdConfig.BANNER_AD_UNIT_ID.isBlank() || Premium.noAds.value) return null
         banner?.let { existing ->
             if (existing.context === activity) return existing
             (existing.parent as? ViewGroup)?.removeView(existing)
@@ -182,11 +182,25 @@ class AdManager(private val context: Context) {
     }
 
     fun loadInterstitial() {
-        if (!AdConfig.adsEnabled || pendingDismiss != null || onRewardFinished != null) return
+        if (!AdConfig.adsEnabled || Premium.noAds.value || pendingDismiss != null || onRewardFinished != null) return
         val ad = interstitial ?: return
         if (!ad.isAdReady() && !interstitialLoading) {
             interstitialLoading = true
             ad.loadAd()
+        }
+    }
+
+    /**
+     * While the app is open, keep a rewarded and an interstitial loaded in the background, so an
+     * ad is ready when the user taps "Watch". Also replaces ads that expired while sitting loaded,
+     * and doesn't wait for the long no-fill back-off. Loads are skipped when one is ready or running.
+     */
+    private val keepWarm = object : Runnable {
+        override fun run() {
+            if (foregroundSince == 0L) return
+            loadRewarded()
+            loadInterstitial()
+            handler.postDelayed(this, KEEP_WARM_MS)
         }
     }
 
@@ -198,9 +212,12 @@ class AdManager(private val context: Context) {
             usedMs = 0L
         }
         foregroundSince = now
+        handler.removeCallbacks(keepWarm)
+        handler.post(keepWarm)
     }
 
     fun onAppBackground() {
+        handler.removeCallbacks(keepWarm)
         val now = System.currentTimeMillis()
         if (foregroundSince > 0) usedMs += now - foregroundSince
         foregroundSince = 0L
@@ -212,7 +229,7 @@ class AdManager(private val context: Context) {
 
     fun showInterstitial(activity: Activity, onDismissed: () -> Unit = {}) {
         // Once per visit, after a minute of use. Never for Premium.
-        if (Premium.active.value || shownThisVisit || usedThisVisitMs() < FIRST_AD_AFTER_MS) {
+        if (Premium.noAds.value || shownThisVisit || usedThisVisitMs() < FIRST_AD_AFTER_MS) {
             onDismissed()
             return
         }
@@ -237,7 +254,10 @@ class AdManager(private val context: Context) {
      * With no rewarded ad available it falls back to the interstitial, or simply opens.
      */
     fun unlock(activity: Activity, key: String, title: String, everyTime: Boolean, onUnlocked: () -> Unit) {
-        if (Premium.active.value || (!everyTime && key in unlocked)) return onUnlocked()
+        if (Premium.noAds.value || (!everyTime && key in unlocked)) return onUnlocked()
+        // Start loading now, while the user reads the dialog, not after they tap "Watch".
+        loadRewarded()
+        loadInterstitial()
         val unlock = {
             if (!everyTime) unlocked += key
             onUnlocked()
@@ -253,25 +273,33 @@ class AdManager(private val context: Context) {
                     pendingDismiss = unlock
                     fallback.showAd(activity)
                 }
-                else -> waitForAd(activity, unlock)
+                else -> {
+                    unlock()
+                    showWhenReady(activity)
+                }
             }
         }
         Premium.askBeforeAd(AdChoice(onWatchAd = watch, onContinue = unlock, unlockLesson = true, title = title))
     }
 
     /**
-     * The user asked for a video but none is loaded: show "Loading video…" and keep trying for a
-     * few seconds. If nothing arrives, unlock anyway - never block the user.
+     * The user asked for a video but none is loaded: they're already let in (no waiting screen).
+     * If an ad arrives within a few seconds, show it over the screen they opened; otherwise skip it.
      */
-    private fun waitForAd(activity: Activity, unlock: () -> Unit) {
-        Premium.setLoadingAd(true)
+    private fun showWhenReady(activity: Activity) {
         val start = System.currentTimeMillis()
         var lastRequest = 0L
         handler.post(object : Runnable {
             override fun run() {
-                // Back pressed on "Loading video…": stay where we are.
-                if (!Premium.loadingAd.value) return
                 val now = System.currentTimeMillis()
+                // Left the app, the screen closed, or another ad is on screen: forget this one.
+                if (foregroundSince == 0L || activity.isFinishing || activity.isDestroyed ||
+                    Premium.noAds.value || pendingDismiss != null || onRewardFinished != null
+                ) return
+                if (now - start > LATE_AD_MS) {
+                    Napier.w { "No video arrived in time; skipped" }
+                    return
+                }
                 if (now - lastRequest >= RETRY_WHILE_WAITING_MS) {
                     // Ask again right away instead of waiting for the background retry delay.
                     lastRequest = now
@@ -281,20 +309,11 @@ class AdManager(private val context: Context) {
                 val video = rewarded
                 val fallback = interstitial
                 when {
-                    video != null && video.isAdReady() -> {
-                        Premium.setLoadingAd(false)
-                        showRewarded(activity, video) { earned -> if (earned) unlock() }
-                    }
+                    video != null && video.isAdReady() -> showRewarded(activity, video) {}
                     fallback != null && fallback.isAdReady() -> {
-                        Premium.setLoadingAd(false)
                         shownThisVisit = true
-                        pendingDismiss = unlock
+                        pendingDismiss = {}
                         fallback.showAd(activity)
-                    }
-                    now - start > WAIT_FOR_AD_MS -> {
-                        Premium.setLoadingAd(false)
-                        Napier.w { "No video available; unlocking without one" }
-                        unlock()
                     }
                     else -> handler.postDelayed(this, 300)
                 }
@@ -361,7 +380,7 @@ class AdManager(private val context: Context) {
 
     private fun loadRewarded() {
         // LevelPlay rejects loads while a full-screen ad is on screen.
-        if (!AdConfig.adsEnabled || Premium.active.value || pendingDismiss != null || onRewardFinished != null) return
+        if (!AdConfig.adsEnabled || Premium.noAds.value || pendingDismiss != null || onRewardFinished != null) return
         val ad = rewarded ?: return
         if (!ad.isAdReady() && !rewardedLoading) {
             rewardedLoading = true
@@ -370,8 +389,8 @@ class AdManager(private val context: Context) {
     }
 
     /**
-     * Before a full-screen ad: "Remove ads" (subscribe) or "Watch ad". Without prices from Play
-     * (billing unavailable) the ad shows directly.
+     * Shows the visit's full-screen ad straight away. Subscribing is offered only where it's needed
+     * (free lessons, messages or AI corrections used up), not before everyday ads.
      */
     private fun offerPremiumThenShow(activity: Activity, onDismissed: () -> Unit, onShown: () -> Unit) {
         val watch = {
@@ -384,7 +403,7 @@ class AdManager(private val context: Context) {
                 onDismissed()
             }
         }
-        if (Premium.canBuy) Premium.askBeforeAd(AdChoice(onWatchAd = watch, onContinue = onDismissed)) else watch()
+        watch()
     }
 
     private fun finishShow() {
@@ -399,9 +418,10 @@ class AdManager(private val context: Context) {
         private const val INITIAL_RETRY_MS = 15_000L
         private const val FIRST_AD_AFTER_MS = 60_000L
         private const val NEW_VISIT_AFTER_MS = 5 * 60_000L
-        private const val WAIT_FOR_AD_MS = 15_000L
+        private const val LATE_AD_MS = 10_000L
         private const val RETRY_WHILE_WAITING_MS = 2_000L
         private const val MAX_RETRY_MS = 5 * 60_000L
+        private const val KEEP_WARM_MS = 30_000L
 
         @Volatile
         var instance: AdManager? = null

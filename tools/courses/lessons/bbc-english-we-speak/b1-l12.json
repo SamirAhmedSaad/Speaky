@@ -1,0 +1,360 @@
+{
+  "title": "Expressions with 'out'",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "replace",
+        "pos": "verb",
+        "meaning_en": "to put something new in place of something old",
+        "meaning_ar": "يستبدل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need to replace my old phone."
+      },
+      {
+        "word": "get rid of",
+        "pos": "phrasal verb",
+        "meaning_en": "to throw away or remove something you don't want",
+        "meaning_ar": "يتخلّص من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's get rid of these old boxes."
+      },
+      {
+        "word": "depth",
+        "pos": "noun",
+        "meaning_en": "how deep something is",
+        "meaning_ar": "عُمق",
+        "note_ar": "الصفة: deep.",
+        "note_en": "Adjective: deep.",
+        "example": "The depth of the pool is two metres."
+      },
+      {
+        "word": "cope",
+        "pos": "verb",
+        "meaning_en": "to deal with something difficult successfully",
+        "meaning_ar": "يتأقلم / يتعامل مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She coped well with the new job."
+      },
+      {
+        "word": "behaviour",
+        "pos": "noun",
+        "meaning_en": "the way someone acts",
+        "meaning_ar": "سلوك",
+        "note_ar": "في أمريكا: behavior.",
+        "note_en": "US: behavior.",
+        "example": "His behaviour in class was good."
+      },
+      {
+        "word": "unacceptable",
+        "pos": "adjective",
+        "meaning_en": "not allowed; too bad to accept",
+        "meaning_ar": "غير مقبول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Shouting at staff is unacceptable."
+      },
+      {
+        "word": "queue",
+        "pos": "noun / verb",
+        "meaning_en": "a line of people waiting; to wait in a line",
+        "meaning_ar": "طابور / يقف في الطابور",
+        "note_ar": "في أمريكا line. تُنطق /kjuː/.",
+        "note_en": "US: line. Say /kjuː/.",
+        "example": "There was a long queue at the bank."
+      },
+      {
+        "word": "loop",
+        "pos": "noun",
+        "meaning_en": "a circle made by a line or rope",
+        "meaning_ar": "حلقة / دائرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Tie the rope in a loop."
+      },
+      {
+        "word": "informed",
+        "pos": "adjective",
+        "meaning_en": "having the latest information",
+        "meaning_ar": "على اطّلاع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep me informed about the plan."
+      },
+      {
+        "word": "supply",
+        "pos": "noun",
+        "meaning_en": "an amount of something ready to use",
+        "meaning_ar": "مخزون / إمدادات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a supply of water for three days."
+      },
+      {
+        "word": "survive",
+        "pos": "verb",
+        "meaning_en": "to stay alive or continue in a hard situation",
+        "meaning_ar": "ينجو / يصمد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Plants can't survive without water."
+      },
+      {
+        "word": "jealous",
+        "pos": "adjective",
+        "meaning_en": "unhappy because someone has something you want",
+        "meaning_ar": "غيور / حاسد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He was jealous of his brother's new bike."
+      },
+      {
+        "word": "praise",
+        "pos": "verb / noun",
+        "meaning_en": "to say good things about someone",
+        "meaning_ar": "يمدح / مدح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The teacher praised her work."
+      },
+      {
+        "word": "publicly",
+        "pos": "adverb",
+        "meaning_en": "in front of other people",
+        "meaning_ar": "علناً",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He thanked them publicly."
+      },
+      {
+        "word": "volunteer",
+        "pos": "noun",
+        "meaning_en": "a person who works for free to help",
+        "meaning_ar": "متطوّع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Volunteers cleaned the beach."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Out of order (behaviour) vs out of order (machine)",
+        "words": [
+          "out of order (behaviour)",
+          "out of order (machine)"
+        ],
+        "explanation_ar": "out of order لها معنيان: عن السلوك (في بريطانيا) تعني تصرفاً غير مقبول وغير عادل. وعن الآلة تعني أنها معطّلة. السياق يحدد المعنى.",
+        "explanation_en": "'Out of order' has two meanings: about behaviour (UK) it means unfair or unacceptable; about a machine it means not working. Context tells you which.",
+        "examples": [
+          {
+            "word": "out of order (behaviour)",
+            "sentence": "Pushing in the queue was totally out of order."
+          },
+          {
+            "word": "out of order (machine)",
+            "sentence": "The lift is out of order, so use the stairs."
+          }
+        ]
+      },
+      {
+        "title": "Out of your depth vs out of the loop",
+        "words": [
+          "out of your depth",
+          "out of the loop"
+        ],
+        "explanation_ar": "out of your depth تعني أن الأمر أصعب من قدرتك أو معرفتك. out of the loop تعني أنك لا تعرف آخر الأخبار أو القرارات لأن أحداً لم يخبرك.",
+        "explanation_en": "'Out of your depth' = something is too difficult for your skills or knowledge. 'Out of the loop' = you don't have the latest news because nobody told you.",
+        "examples": [
+          {
+            "word": "out of your depth",
+            "sentence": "In the advanced class I felt out of my depth."
+          },
+          {
+            "word": "out of the loop",
+            "sentence": "I was off sick, so I'm out of the loop - what happened?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "out with the old, in with the new",
+        "meaning_ar": "تخلّص من القديم ورحّب بالجديد",
+        "meaning_en": "said when you replace old things with new ones, often at New Year",
+        "example": "I bought new shoes and gave my old ones away - out with the old, in with the new!"
+      },
+      {
+        "phrase": "out of your depth",
+        "meaning_ar": "فوق قدرتك / خارج نطاق معرفتك",
+        "meaning_en": "in a situation that is too difficult for you",
+        "example": "When they started talking about engineering, I was out of my depth."
+      },
+      {
+        "phrase": "out of order",
+        "meaning_ar": "غير مقبول (تصرّف) / معطّل (آلة)",
+        "meaning_en": "(UK, of behaviour) unfair or unacceptable; (of a machine) not working",
+        "example": "It was out of order to read her messages without asking."
+      },
+      {
+        "phrase": "out of the loop",
+        "meaning_ar": "غير مطّلع على آخر الأخبار",
+        "meaning_en": "not knowing what is happening because you haven't been told",
+        "example": "I've been away for a week, so I'm out of the loop."
+      },
+      {
+        "phrase": "eke out",
+        "meaning_ar": "يقتصد / بالكاد يُدبّر",
+        "meaning_en": "to make a small amount of something last as long as possible; to just manage to earn enough",
+        "example": "We eked out the last of the bread until the shops opened."
+      },
+      {
+        "phrase": "eat your heart out!",
+        "meaning_ar": "مُتْ من الغيرة يا ...! (تُقال مزاحاً)",
+        "meaning_en": "said jokingly when you think you did something as well as a famous person",
+        "example": "Look at my cake! Eat your heart out, famous chefs!"
+      },
+      {
+        "phrase": "shout-out",
+        "meaning_ar": "إشادة / تحية علنية",
+        "meaning_en": "a public thank-you or praise for someone",
+        "example": "I want to give a shout-out to my teacher for her help."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Phrases with 'out of'",
+        "explanation_ar": "نستخدم out of + اسم في تعابير كثيرة تعني 'خارج' حالة ما: out of your depth (خارج قدرتك)، out of the loop (خارج دائرة المعلومات)، out of order (خارج النظام). ويتغير الضمير: I'm out of my depth، She's out of her depth.",
+        "explanation_en": "We use 'out of' + noun in many expressions meaning 'outside' a situation: out of your depth, out of the loop, out of order. Change the possessive: I'm out of my depth, she's out of her depth.",
+        "examples": [
+          "I'm out of my depth.",
+          "They kept me out of the loop.",
+          "The machine is out of order."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "At New Year she threw away old clothes and bought new ones: ___ .",
+      "choices": [
+        "out of the loop",
+        "out with the old, in with the new",
+        "eat your heart out",
+        "out of order"
+      ],
+      "answer": 1,
+      "explanation_ar": "out with the old, in with the new = استبدال القديم بالجديد.",
+      "explanation_en": "Replacing old things with new."
+    },
+    {
+      "question": "'I'm out of my depth' means:",
+      "choices": [
+        "The task is too difficult for me",
+        "I'm swimming",
+        "I'm very happy",
+        "I'm leaving"
+      ],
+      "answer": 0,
+      "explanation_ar": "out of your depth = فوق قدرتك.",
+      "explanation_en": "Something is too difficult for you."
+    },
+    {
+      "question": "He pushed to the front of the queue. That was ___ !",
+      "choices": [
+        "out of the loop",
+        "a shout-out",
+        "out of order",
+        "eke out"
+      ],
+      "answer": 2,
+      "explanation_ar": "out of order (عن السلوك) = غير مقبول.",
+      "explanation_en": "Unacceptable behaviour."
+    },
+    {
+      "question": "Nobody told me about the meeting. I'm ___ .",
+      "choices": [
+        "out of order",
+        "out of my depth",
+        "eating my heart out",
+        "out of the loop"
+      ],
+      "answer": 3,
+      "explanation_ar": "out of the loop = غير مطلع على الأخبار.",
+      "explanation_en": "Not informed."
+    },
+    {
+      "question": "'Eke out' means:",
+      "choices": [
+        "make a little last a long time",
+        "throw away",
+        "eat quickly",
+        "shout loudly"
+      ],
+      "answer": 0,
+      "explanation_ar": "eke out = يقتصد ليكفي القليل أطول مدة.",
+      "explanation_en": "Make a small amount last."
+    },
+    {
+      "question": "I scored a great goal. ___, Messi!",
+      "choices": [
+        "Out of the loop",
+        "Eat your heart out",
+        "Shout-out",
+        "Out of order"
+      ],
+      "answer": 1,
+      "explanation_ar": "eat your heart out = مزاح بأنك جيد مثل المشهور.",
+      "explanation_en": "A joke saying you're as good as the star."
+    },
+    {
+      "question": "A 'shout-out' is:",
+      "choices": [
+        "a loud argument",
+        "a fire alarm",
+        "public thanks or praise",
+        "a way out"
+      ],
+      "answer": 2,
+      "explanation_ar": "shout-out = إشادة علنية.",
+      "explanation_en": "Public thanks or praise."
+    },
+    {
+      "question": "'The ticket machine is out of order' means it is:",
+      "choices": [
+        "rude",
+        "new",
+        "too difficult",
+        "not working"
+      ],
+      "answer": 3,
+      "explanation_ar": "عن الآلة: out of order = معطّلة.",
+      "explanation_en": "For machines it means not working."
+    },
+    {
+      "question": "Which expression is about NOT KNOWING the news?",
+      "choices": [
+        "out of the loop",
+        "out of your depth",
+        "shout-out",
+        "eke out"
+      ],
+      "answer": 0,
+      "explanation_ar": "out of the loop = لا تعرف آخر الأخبار.",
+      "explanation_en": "Out of the loop = not informed."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "She is out of my depth.",
+        "She is out of her depth.",
+        "She is out her depth.",
+        "She is out of depth her."
+      ],
+      "answer": 1,
+      "explanation_ar": "الضمير يتبع الفاعل: she → her.",
+      "explanation_en": "Use 'her' with 'she'."
+    }
+  ]
+}

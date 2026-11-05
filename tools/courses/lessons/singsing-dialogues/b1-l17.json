@@ -1,0 +1,275 @@
+{
+  "title": "Let's play baseball",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "let's",
+        "pos": "phrase",
+        "meaning_en": "short for \"let us\"; we use it to invite",
+        "meaning_ar": "هيا بنا (لِنـ...)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's play baseball."
+      },
+      {
+        "word": "play",
+        "pos": "verb",
+        "meaning_en": "do a sport or game for fun",
+        "meaning_ar": "يلعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's play soccer."
+      },
+      {
+        "word": "baseball",
+        "pos": "noun",
+        "meaning_en": "a game with a small ball and a bat",
+        "meaning_ar": "البيسبول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like baseball."
+      },
+      {
+        "word": "soccer",
+        "pos": "noun",
+        "meaning_en": "football; a game where you kick a ball (US word)",
+        "meaning_ar": "كرة القدم",
+        "note_ar": "في بريطانيا يقولون football",
+        "note_en": "In British English: football.",
+        "example": "Let's play soccer."
+      },
+      {
+        "word": "together",
+        "pos": "adverb",
+        "meaning_en": "with each other",
+        "meaning_ar": "معًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's play together."
+      },
+      {
+        "word": "sorry",
+        "pos": "adjective",
+        "meaning_en": "a word to say no politely or after a mistake",
+        "meaning_ar": "آسف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry, I can't."
+      },
+      {
+        "word": "can't",
+        "pos": "modal verb",
+        "meaning_en": "not able to",
+        "meaning_ar": "لا أستطيع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry, I can't."
+      },
+      {
+        "word": "OK",
+        "pos": "interjection",
+        "meaning_en": "yes, all right",
+        "meaning_ar": "حسنًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's play! - OK."
+      },
+      {
+        "word": "come on",
+        "pos": "phrase",
+        "meaning_en": "said to make someone join or hurry",
+        "meaning_ar": "هيا!",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Come on, Dumpy!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "OK vs Sorry, I can't",
+        "words": [
+          "OK",
+          "Sorry, I can't"
+        ],
+        "explanation_ar": "نقبل الدعوة بقول OK، ونرفضها بأدب بقول Sorry, I can't.",
+        "explanation_en": "Say \"OK\" to say yes to an invitation. Say \"Sorry, I can't\" to say no politely.",
+        "examples": [
+          {
+            "word": "OK",
+            "sentence": "Let's play baseball. - OK!"
+          },
+          {
+            "word": "Sorry, I can't",
+            "sentence": "Let's play baseball. - Sorry, I can't."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Let's play baseball.",
+        "meaning_ar": "هيا نلعب البيسبول.",
+        "meaning_en": "Inviting someone to play.",
+        "example": "Let's play baseball, Toto."
+      },
+      {
+        "phrase": "Sorry, I can't.",
+        "meaning_ar": "آسف، لا أستطيع.",
+        "meaning_en": "Saying no politely.",
+        "example": "Let's play. - Sorry, I can't. I'm busy."
+      },
+      {
+        "phrase": "Let's play soccer.",
+        "meaning_ar": "هيا نلعب كرة القدم.",
+        "meaning_en": "Inviting someone to play football.",
+        "example": "Let's play soccer after school."
+      },
+      {
+        "phrase": "I like baseball.",
+        "meaning_ar": "أحب البيسبول.",
+        "meaning_en": "Saying what game you like.",
+        "example": "I like baseball. Let's play!"
+      },
+      {
+        "phrase": "Come on!",
+        "meaning_ar": "هيا!",
+        "meaning_en": "Asking someone to join or be quick.",
+        "example": "Come on! Let's play."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Inviting: Let's + verb",
+        "explanation_ar": "نستخدم Let's + الفعل الأساسي لدعوة شخص لفعل شيء معًا. الرد: OK أو Sorry, I can't.",
+        "explanation_en": "Use Let's + verb to invite someone. Answer: OK! / Sorry, I can't.",
+        "examples": [
+          "Let's play baseball.",
+          "Let's play soccer.",
+          "Let's play together."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Let's play baseball. - ___ (yes)",
+      "choices": [
+        "OK!",
+        "Ouch!",
+        "Who?",
+        "Sorry, I can't."
+      ],
+      "answer": 0,
+      "explanation_ar": "للقبول نقول OK.",
+      "explanation_en": "Say \"OK\" to say yes."
+    },
+    {
+      "question": "Let's play soccer. - ___ (no)",
+      "choices": [
+        "OK!",
+        "Sorry, I can't.",
+        "Come on!",
+        "Me too."
+      ],
+      "answer": 1,
+      "explanation_ar": "للرفض بأدب نقول Sorry, I can't.",
+      "explanation_en": "Say \"Sorry, I can't\" to say no politely."
+    },
+    {
+      "question": "___ play baseball.",
+      "choices": [
+        "Let",
+        "Lets is",
+        "Let's",
+        "Let us to"
+      ],
+      "answer": 2,
+      "explanation_ar": "الصحيح Let's play.",
+      "explanation_en": "Correct: Let's play."
+    },
+    {
+      "question": "\"Let's\" is short for ___.",
+      "choices": [
+        "Let is",
+        "Let as",
+        "Lets us",
+        "Let us"
+      ],
+      "answer": 3,
+      "explanation_ar": "هذا اختصار: Let's = Let us.",
+      "explanation_en": "Let's = Let us."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Let's play soccer.",
+        "Let's to play soccer.",
+        "Let's playing soccer.",
+        "Let's plays soccer."
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد Let's الفعل الأساسي.",
+      "explanation_en": "After Let's, use the base verb."
+    },
+    {
+      "question": "In soccer, you kick the ball with your ___.",
+      "choices": [
+        "hands",
+        "head only",
+        "foot",
+        "nose"
+      ],
+      "answer": 2,
+      "explanation_ar": "في كرة القدم نركل الكرة بالقدم.",
+      "explanation_en": "You kick with your foot."
+    },
+    {
+      "question": "\"soccer\" in British English is ___.",
+      "choices": [
+        "football",
+        "baseball",
+        "tennis",
+        "basketball"
+      ],
+      "answer": 0,
+      "explanation_ar": "في بريطانيا: football.",
+      "explanation_en": "British English: football."
+    },
+    {
+      "question": "Your friend is slow to join. You say: ___",
+      "choices": [
+        "Sorry!",
+        "Come on!",
+        "Ouch!",
+        "Thank you!"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول Come on! لنحثه.",
+      "explanation_en": "Say \"Come on!\""
+    },
+    {
+      "question": "\"together\" means ___.",
+      "choices": [
+        "alone",
+        "with each other",
+        "quickly",
+        "later"
+      ],
+      "answer": 1,
+      "explanation_ar": "together = معًا.",
+      "explanation_en": "together = with each other."
+    },
+    {
+      "question": "I ___ baseball. It's my favorite game.",
+      "choices": [
+        "like",
+        "can't",
+        "am",
+        "let's"
+      ],
+      "answer": 0,
+      "explanation_ar": "I like = أحب.",
+      "explanation_en": "I like baseball."
+    }
+  ]
+}

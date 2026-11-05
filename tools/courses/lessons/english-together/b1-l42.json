@@ -1,0 +1,370 @@
+{
+  "title": "Feeling Sick: Making a Doctor's Appointment",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "feel well",
+        "pos": "phrase",
+        "meaning_en": "feel healthy",
+        "meaning_ar": "يشعر بصحة جيدة",
+        "note_ar": "not feeling well = متوعّك",
+        "note_en": "not feeling well = a little sick",
+        "example": "I'm not feeling well today."
+      },
+      {
+        "word": "cold",
+        "pos": "noun",
+        "meaning_en": "a common illness with a runny nose and cough",
+        "meaning_ar": "زكام / نزلة برد",
+        "note_ar": "have a cold",
+        "note_en": "have a cold",
+        "example": "I have a bad cold."
+      },
+      {
+        "word": "awful",
+        "pos": "adjective",
+        "meaning_en": "very bad",
+        "meaning_ar": "فظيع / سيئ جدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That sounds awful."
+      },
+      {
+        "word": "fever",
+        "pos": "noun",
+        "meaning_en": "a body temperature higher than normal",
+        "meaning_ar": "حُمّى / سخونة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have a fever?"
+      },
+      {
+        "word": "rest",
+        "pos": "verb",
+        "meaning_en": "relax and not work",
+        "meaning_ar": "يرتاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You should rest at home."
+      },
+      {
+        "word": "health",
+        "pos": "noun",
+        "meaning_en": "the condition of your body",
+        "meaning_ar": "الصحة",
+        "note_ar": "الصفة: healthy",
+        "note_en": "Adjective: healthy.",
+        "example": "Your health is more important."
+      },
+      {
+        "word": "take a break",
+        "pos": "phrase",
+        "meaning_en": "stop working for a short time",
+        "meaning_ar": "يأخذ استراحة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take a break."
+      },
+      {
+        "word": "doctor",
+        "pos": "noun",
+        "meaning_en": "a person who treats sick people",
+        "meaning_ar": "طبيب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have you seen a doctor?"
+      },
+      {
+        "word": "soup",
+        "pos": "noun",
+        "meaning_en": "hot liquid food",
+        "meaning_ar": "حساء / شوربة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Eat some chicken soup."
+      },
+      {
+        "word": "stay warm",
+        "pos": "phrase",
+        "meaning_en": "keep your body warm",
+        "meaning_ar": "يبقى دافئًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Stay warm and wear a sweater."
+      },
+      {
+        "word": "sweater",
+        "pos": "noun",
+        "meaning_en": "a warm knitted top",
+        "meaning_ar": "كنزة صوف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wear a sweater."
+      },
+      {
+        "word": "appointment",
+        "pos": "noun",
+        "meaning_en": "a fixed time to see someone",
+        "meaning_ar": "موعد",
+        "note_ar": "make an appointment = يحجز موعدًا",
+        "note_en": "make an appointment",
+        "example": "I want to make an appointment, please."
+      },
+      {
+        "word": "cough",
+        "pos": "noun",
+        "meaning_en": "a loud sound when air comes out of your throat",
+        "meaning_ar": "سعال / كحّة",
+        "note_ar": "تُنطق /kɒf/",
+        "note_en": "Say /kɒf/.",
+        "example": "I have a cough."
+      },
+      {
+        "word": "tired",
+        "pos": "adjective",
+        "meaning_en": "needing rest",
+        "meaning_ar": "متعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I feel very tired."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I'm sick vs I have a cold",
+        "words": [
+          "I'm sick",
+          "I have a cold"
+        ],
+        "explanation_ar": "مع المرض نستخدم be مع الصفة (I'm sick / I'm tired)، ونستخدم have مع اسم المرض (I have a cold / I have a fever / I have a cough).",
+        "explanation_en": "Use be + adjective (I'm sick, I'm tired) and have + illness (I have a cold, a fever, a cough).",
+        "examples": [
+          {
+            "word": "I'm sick",
+            "sentence": "I'm sick today."
+          },
+          {
+            "word": "I have a cold",
+            "sentence": "I have a bad cold."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm not feeling well.",
+        "meaning_ar": "لست على ما يرام.",
+        "meaning_en": "Say you are a little sick.",
+        "example": "I'm not feeling well. I have a headache."
+      },
+      {
+        "phrase": "That sounds awful.",
+        "meaning_ar": "يبدو هذا فظيعًا.",
+        "meaning_en": "React to bad news.",
+        "example": "I have a fever. That sounds awful."
+      },
+      {
+        "phrase": "You should rest at home.",
+        "meaning_ar": "يجب أن ترتاح في البيت.",
+        "meaning_en": "Give health advice.",
+        "example": "You have a cold. You should rest at home."
+      },
+      {
+        "phrase": "Work can wait. Your health is more important!",
+        "meaning_ar": "العمل يمكن أن ينتظر. صحتك أهم!",
+        "meaning_en": "Tell someone to rest.",
+        "example": "Go home. Work can wait. Your health is more important!"
+      },
+      {
+        "phrase": "Have you seen a doctor? — No, I haven't.",
+        "meaning_ar": "هل زرت طبيبًا؟ — لا.",
+        "meaning_en": "Ask if someone saw a doctor.",
+        "example": "Have you seen a doctor? Not yet."
+      },
+      {
+        "phrase": "Take care of yourself.",
+        "meaning_ar": "اعتنِ بنفسك.",
+        "meaning_en": "Wish someone well.",
+        "example": "Feel better soon. Take care of yourself."
+      },
+      {
+        "phrase": "I want to make an appointment, please.",
+        "meaning_ar": "أريد أن أحجز موعدًا من فضلك.",
+        "meaning_en": "Book a time at a clinic.",
+        "example": "Hello. I want to make an appointment, please."
+      },
+      {
+        "phrase": "Why do you need to see the doctor?",
+        "meaning_ar": "لماذا تحتاج إلى رؤية الطبيب؟",
+        "meaning_en": "What a receptionist asks.",
+        "example": "Why do you need to see the doctor? I have a cough."
+      },
+      {
+        "phrase": "When would you like to come in?",
+        "meaning_ar": "متى تودّ أن تأتي؟",
+        "meaning_en": "Ask for a time.",
+        "example": "When would you like to come in? Tomorrow morning."
+      },
+      {
+        "phrase": "How about 10:00 a.m.? Does that work for you?",
+        "meaning_ar": "ما رأيك بالساعة العاشرة صباحًا؟ هل يناسبك ذلك؟",
+        "meaning_en": "Suggest a time.",
+        "example": "How about 3 p.m.? Does that work for you? Yes, that's good."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Talking about illness: have + illness",
+        "explanation_ar": "نقول I have + a + اسم المرض: I have a cold. I have a fever. I have a cough. وفي السؤال: Do you have a fever? Yes, I do.",
+        "explanation_en": "Use have + illness: I have a cold. Question: Do you have a fever?",
+        "examples": [
+          "I have a bad cold.",
+          "Do you have a fever? Yes, I do.",
+          "I have a cough."
+        ]
+      },
+      {
+        "title": "Advice: should / It's important to",
+        "explanation_ar": "للنصيحة: You should + الفعل، أو It's important to + الفعل.",
+        "explanation_en": "Advice: You should + verb / It's important to + verb.",
+        "examples": [
+          "You should rest at home.",
+          "It's important to get a lot of sleep.",
+          "Maybe I should go."
+        ]
+      },
+      {
+        "title": "Making appointments: polite questions",
+        "explanation_ar": "أسئلة مهذبة لحجز موعد: When would you like to come in? How about 10:00 a.m.? Does that work for you? Can I come tomorrow morning?",
+        "explanation_en": "Polite questions for appointments: When would you like...? How about...? Does that work for you?",
+        "examples": [
+          "When would you like to come in?",
+          "Can I come tomorrow morning?",
+          "How about 10:00 a.m.? Does that work for you?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I'm not feeling ___.",
+      "choices": [
+        "good at",
+        "well",
+        "fine to",
+        "healthy at"
+      ],
+      "answer": 1,
+      "explanation_ar": "not feeling well = متوعّك.",
+      "explanation_en": "\"Not feeling well\" = a little sick."
+    },
+    {
+      "question": "I ___ a bad cold.",
+      "choices": [
+        "do",
+        "am",
+        "have",
+        "feel"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع المرض نستخدم have.",
+      "explanation_en": "Use \"have\" with an illness."
+    },
+    {
+      "question": "A body temperature higher than normal is a ___.",
+      "choices": [
+        "soup",
+        "cough",
+        "fever",
+        "sweater"
+      ],
+      "answer": 2,
+      "explanation_ar": "fever حُمّى.",
+      "explanation_en": "A fever is a high temperature."
+    },
+    {
+      "question": "You should ___ at home.",
+      "choices": [
+        "rests",
+        "resting",
+        "to rest",
+        "rest"
+      ],
+      "answer": 3,
+      "explanation_ar": "should + الفعل في أصله.",
+      "explanation_en": "should + base verb."
+    },
+    {
+      "question": "Have you seen a doctor? — No, I ___.",
+      "choices": [
+        "haven't",
+        "didn't",
+        "don't",
+        "am not"
+      ],
+      "answer": 0,
+      "explanation_ar": "الجواب على Have you: No, I haven't.",
+      "explanation_en": "Answer: No, I haven't."
+    },
+    {
+      "question": "I want to make an ___, please.",
+      "choices": [
+        "break",
+        "fever",
+        "awful",
+        "appointment"
+      ],
+      "answer": 3,
+      "explanation_ar": "make an appointment يحجز موعدًا.",
+      "explanation_en": "\"Make an appointment\"."
+    },
+    {
+      "question": "When would you like to come ___?",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "answer": 0,
+      "explanation_ar": "come in = تأتي (إلى العيادة).",
+      "explanation_en": "\"Come in\" = come to the clinic."
+    },
+    {
+      "question": "How about 10:00 a.m.? Does that ___ for you?",
+      "choices": [
+        "works",
+        "work",
+        "working",
+        "worked"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد does الفعل في أصله: work.",
+      "explanation_en": "After \"does\" use the base verb."
+    },
+    {
+      "question": "It's important ___ a lot of sleep.",
+      "choices": [
+        "to get",
+        "get",
+        "getting",
+        "gets"
+      ],
+      "answer": 0,
+      "explanation_ar": "It's important to + الفعل.",
+      "explanation_en": "It's important to + verb."
+    },
+    {
+      "question": "Work can wait. Your ___ is more important!",
+      "choices": [
+        "cold",
+        "healthy",
+        "cough",
+        "health"
+      ],
+      "answer": 3,
+      "explanation_ar": "health الصحة (اسم).",
+      "explanation_en": "Health is the noun."
+    }
+  ]
+}

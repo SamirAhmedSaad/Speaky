@@ -1,0 +1,285 @@
+{
+  "title": "Are you OK?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "OK",
+        "pos": "adjective",
+        "meaning_en": "all right, not hurt",
+        "meaning_ar": "بخير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you OK?"
+      },
+      {
+        "word": "happy",
+        "pos": "adjective",
+        "meaning_en": "feeling good",
+        "meaning_ar": "سعيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you happy? - Yes, I am."
+      },
+      {
+        "word": "sleepy",
+        "pos": "adjective",
+        "meaning_en": "wanting to sleep",
+        "meaning_ar": "نعسان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you sleepy? - No, I'm not."
+      },
+      {
+        "word": "tired",
+        "pos": "adjective",
+        "meaning_en": "needing rest",
+        "meaning_ar": "متعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you tired? - Yes, I am."
+      },
+      {
+        "word": "pretty",
+        "pos": "adjective",
+        "meaning_en": "nice to look at",
+        "meaning_ar": "جميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wow, pretty!"
+      },
+      {
+        "word": "for you",
+        "pos": "phrase",
+        "meaning_en": "we give it to you",
+        "meaning_ar": "لك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is for you."
+      },
+      {
+        "word": "ouch",
+        "pos": "interjection",
+        "meaning_en": "said when something hurts",
+        "meaning_ar": "آه! (عند الألم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ouch! - Are you OK?"
+      },
+      {
+        "word": "thanks",
+        "pos": "interjection",
+        "meaning_en": "thank you",
+        "meaning_ar": "شكرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wow, thanks, Mom!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Yes, I am vs No, I'm not",
+        "words": [
+          "Yes, I am",
+          "No, I'm not"
+        ],
+        "explanation_ar": "نجيب عن Are you ...? بـ Yes, I am أو No, I'm not. لا نقول Yes, I'm.",
+        "explanation_en": "Answer \"Are you ...?\" with \"Yes, I am\" or \"No, I'm not\". Don't say \"Yes, I'm.\"",
+        "examples": [
+          {
+            "word": "Yes, I am",
+            "sentence": "Are you tired? - Yes, I am."
+          },
+          {
+            "word": "No, I'm not",
+            "sentence": "Are you sleepy? - No, I'm not."
+          }
+        ]
+      },
+      {
+        "title": "sleepy vs tired",
+        "words": [
+          "sleepy",
+          "tired"
+        ],
+        "explanation_ar": "sleepy = تريد أن تنام، و tired = تحتاج إلى راحة بعد عمل أو لعب.",
+        "explanation_en": "sleepy = you want to sleep. tired = you need rest after work or play.",
+        "examples": [
+          {
+            "word": "sleepy",
+            "sentence": "It's late. I'm sleepy."
+          },
+          {
+            "word": "tired",
+            "sentence": "I played football. I'm tired."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Are you OK?",
+        "meaning_ar": "هل أنت بخير؟",
+        "meaning_en": "Asking if someone is all right.",
+        "example": "Ouch! - Are you OK?"
+      },
+      {
+        "phrase": "Yes, I am.",
+        "meaning_ar": "نعم، أنا كذلك.",
+        "meaning_en": "A short yes answer.",
+        "example": "Are you happy? - Yes, I am."
+      },
+      {
+        "phrase": "No, I'm not.",
+        "meaning_ar": "لا، لستُ كذلك.",
+        "meaning_en": "A short no answer.",
+        "example": "Are you sleepy? - No, I'm not."
+      },
+      {
+        "phrase": "This is for you.",
+        "meaning_ar": "هذا لك.",
+        "meaning_en": "Giving a gift.",
+        "example": "This is for you. - Wow, thanks, Mom!"
+      },
+      {
+        "phrase": "Wow, pretty!",
+        "meaning_ar": "واو، جميل!",
+        "meaning_en": "Saying something looks nice.",
+        "example": "Look at the flowers. - Wow, pretty!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Are you + feeling? - Yes, I am. / No, I'm not.",
+        "explanation_ar": "نسأل عن الشعور بـ Are you + صفة؟ ونجيب Yes, I am أو No, I'm not.",
+        "explanation_en": "Ask \"Are you + adjective?\" Answer \"Yes, I am\" or \"No, I'm not.\"",
+        "examples": [
+          "Are you OK? - Yes, I am.",
+          "Are you happy? - Yes, I am.",
+          "Are you sleepy? - No, I'm not."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Are you OK? - Yes, I ___.",
+      "choices": [
+        "am",
+        "do",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة Yes, I am.",
+      "explanation_en": "The answer is \"Yes, I am.\""
+    },
+    {
+      "question": "Are you sleepy? - No, I'm ___.",
+      "choices": [
+        "no",
+        "not",
+        "don't",
+        "isn't"
+      ],
+      "answer": 1,
+      "explanation_ar": "النفي No, I'm not.",
+      "explanation_en": "The negative: No, I'm not."
+    },
+    {
+      "question": "You want to sleep. You are ___.",
+      "choices": [
+        "happy",
+        "pretty",
+        "sleepy",
+        "hungry"
+      ],
+      "answer": 2,
+      "explanation_ar": "تريد النوم = sleepy.",
+      "explanation_en": "Want to sleep = sleepy."
+    },
+    {
+      "question": "You played for a long time. You need rest. You are ___.",
+      "choices": [
+        "pretty",
+        "OK",
+        "happy",
+        "tired"
+      ],
+      "answer": 3,
+      "explanation_ar": "تحتاج راحة = tired.",
+      "explanation_en": "Need rest = tired."
+    },
+    {
+      "question": "___ you happy?",
+      "choices": [
+        "Are",
+        "Is",
+        "Do",
+        "Am"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع you نستخدم Are.",
+      "explanation_en": "With you, use Are."
+    },
+    {
+      "question": "Your friend falls down. You ask: ___",
+      "choices": [
+        "Are you OK?",
+        "Are you pretty?",
+        "What color?",
+        "Whose is this?"
+      ],
+      "answer": 0,
+      "explanation_ar": "نسأل عن سلامته: Are you OK?",
+      "explanation_en": "Ask \"Are you OK?\""
+    },
+    {
+      "question": "Choose the correct answer: Are you tired?",
+      "choices": [
+        "Yes, I'm.",
+        "Yes, I am.",
+        "Yes, I do.",
+        "Yes, am I."
+      ],
+      "answer": 1,
+      "explanation_ar": "لا نختصر في الإجابة القصيرة: Yes, I am.",
+      "explanation_en": "Don't use the short form: Yes, I am."
+    },
+    {
+      "question": "You give a gift. You say: ___",
+      "choices": [
+        "Are you OK?",
+        "Ouch!",
+        "This is for you.",
+        "No, I'm not."
+      ],
+      "answer": 2,
+      "explanation_ar": "عند إعطاء هدية نقول This is for you.",
+      "explanation_en": "Say \"This is for you.\""
+    },
+    {
+      "question": "\"happy\" means ___.",
+      "choices": [
+        "حزين",
+        "سعيد",
+        "متعب",
+        "جائع"
+      ],
+      "answer": 1,
+      "explanation_ar": "happy = سعيد.",
+      "explanation_en": "happy = feeling good."
+    },
+    {
+      "question": "Wow, ___! The flowers are nice.",
+      "choices": [
+        "tired",
+        "sleepy",
+        "pretty",
+        "ouch"
+      ],
+      "answer": 2,
+      "explanation_ar": "pretty = جميل.",
+      "explanation_en": "pretty = nice to look at."
+    }
+  ]
+}

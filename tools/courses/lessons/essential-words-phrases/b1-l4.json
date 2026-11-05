@@ -1,0 +1,790 @@
+{
+  "title": "Top 50 English Adjectives",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "good",
+        "pos": "adjective",
+        "meaning_en": "of high quality; nice",
+        "meaning_ar": "جيد",
+        "note_ar": "المقارن: better",
+        "note_en": "Comparative: better.",
+        "example": "I heard some good news."
+      },
+      {
+        "word": "great",
+        "pos": "adjective",
+        "meaning_en": "very good; very big",
+        "meaning_ar": "رائع / عظيم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You did a great job."
+      },
+      {
+        "word": "bad",
+        "pos": "adjective",
+        "meaning_en": "not good",
+        "meaning_ar": "سيء",
+        "note_ar": "المقارن: worse",
+        "note_en": "Comparative: worse.",
+        "example": "The weather is very bad today."
+      },
+      {
+        "word": "difficult",
+        "pos": "adjective",
+        "meaning_en": "not easy",
+        "meaning_ar": "صعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This question is difficult for me."
+      },
+      {
+        "word": "easy",
+        "pos": "adjective",
+        "meaning_en": "not difficult",
+        "meaning_ar": "سهل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The test was easy."
+      },
+      {
+        "word": "major",
+        "pos": "adjective",
+        "meaning_en": "very important; big",
+        "meaning_ar": "رئيسي / كبير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There are two major problems."
+      },
+      {
+        "word": "special",
+        "pos": "adjective",
+        "meaning_en": "different from normal; for a particular purpose",
+        "meaning_ar": "خاص / مميّز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a suit for special occasions."
+      },
+      {
+        "word": "real",
+        "pos": "adjective",
+        "meaning_en": "true; not imaginary",
+        "meaning_ar": "حقيقي",
+        "note_ar": "انتبه: تُنطق /rɪəl/ وليس «ريال»",
+        "note_en": "Say /rɪəl/, not \"riyal\".",
+        "example": "This is a real story."
+      },
+      {
+        "word": "important",
+        "pos": "adjective",
+        "meaning_en": "having great value or effect",
+        "meaning_ar": "مهم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is important to learn more than one language."
+      },
+      {
+        "word": "small",
+        "pos": "adjective",
+        "meaning_en": "little in size",
+        "meaning_ar": "صغير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This shirt is too small for you."
+      },
+      {
+        "word": "little",
+        "pos": "adjective",
+        "meaning_en": "small; not much",
+        "meaning_ar": "صغير / قليل",
+        "note_ar": "في النطق الأمريكي t تُنطق خفيفة مثل d",
+        "note_en": "In American English the t sounds like a soft d.",
+        "example": "She cooked a little food."
+      },
+      {
+        "word": "large",
+        "pos": "adjective",
+        "meaning_en": "big",
+        "meaning_ar": "كبير / واسع",
+        "note_ar": "المقارن: larger",
+        "note_en": "Comparative: larger.",
+        "example": "We need a larger car."
+      },
+      {
+        "word": "whole",
+        "pos": "adjective",
+        "meaning_en": "all of something",
+        "meaning_ar": "كامل / بأكمله",
+        "note_ar": "تُنطق مثل hole",
+        "note_en": "Sounds like \"hole\".",
+        "example": "He will stay for a whole month."
+      },
+      {
+        "word": "full",
+        "pos": "adjective",
+        "meaning_en": "with no empty space",
+        "meaning_ar": "ممتلئ",
+        "note_ar": "العكس: empty",
+        "note_en": "Opposite: empty.",
+        "example": "My phone battery is full."
+      },
+      {
+        "word": "short",
+        "pos": "adjective",
+        "meaning_en": "small in length or time",
+        "meaning_ar": "قصير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a short distance to the station."
+      },
+      {
+        "word": "long",
+        "pos": "adjective",
+        "meaning_en": "big in length or time",
+        "meaning_ar": "طويل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has long black hair."
+      },
+      {
+        "word": "big",
+        "pos": "adjective",
+        "meaning_en": "large",
+        "meaning_ar": "كبير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has big blue eyes."
+      },
+      {
+        "word": "single",
+        "pos": "adjective",
+        "meaning_en": "only one",
+        "meaning_ar": "واحد / فردي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is for single use only."
+      },
+      {
+        "word": "only",
+        "pos": "adjective",
+        "meaning_en": "just one; no other",
+        "meaning_ar": "الوحيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have only one brother."
+      },
+      {
+        "word": "first",
+        "pos": "adjective",
+        "meaning_en": "before all others",
+        "meaning_ar": "الأول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my first visit to New York."
+      },
+      {
+        "word": "last",
+        "pos": "adjective",
+        "meaning_en": "after all others",
+        "meaning_ar": "الأخير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He was the last student to arrive."
+      },
+      {
+        "word": "next",
+        "pos": "adjective",
+        "meaning_en": "coming right after",
+        "meaning_ar": "القادم / التالي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She will be on holiday for the next few days."
+      },
+      {
+        "word": "late",
+        "pos": "adjective",
+        "meaning_en": "after the usual time",
+        "meaning_ar": "متأخر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She was late for work."
+      },
+      {
+        "word": "old",
+        "pos": "adjective",
+        "meaning_en": "having lived or existed a long time",
+        "meaning_ar": "قديم / كبير في السن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is an old joke."
+      },
+      {
+        "word": "new",
+        "pos": "adjective",
+        "meaning_en": "recently made or bought",
+        "meaning_ar": "جديد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I bought a new phone."
+      },
+      {
+        "word": "certain",
+        "pos": "adjective",
+        "meaning_en": "sure; with no doubt",
+        "meaning_ar": "مؤكد / متأكد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's certain that they will agree."
+      },
+      {
+        "word": "main",
+        "pos": "adjective",
+        "meaning_en": "most important",
+        "meaning_ar": "رئيسي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is the main goal."
+      },
+      {
+        "word": "right",
+        "pos": "adjective",
+        "meaning_en": "correct",
+        "meaning_ar": "صحيح",
+        "note_ar": "تأتي أيضاً بمعنى «يمين»",
+        "note_en": "It also means the opposite of left.",
+        "example": "Your answer is right."
+      },
+      {
+        "word": "same",
+        "pos": "adjective",
+        "meaning_en": "not different",
+        "meaning_ar": "نفس / مماثل",
+        "note_ar": "تأتي دائماً مع the: the same",
+        "note_en": "Always \"the same\".",
+        "example": "Fahad is the same age as me."
+      },
+      {
+        "word": "able",
+        "pos": "adjective",
+        "meaning_en": "having the power or skill to do something",
+        "meaning_ar": "قادر",
+        "note_ar": "be able to = can",
+        "note_en": "be able to = can",
+        "example": "He wasn't able to call me."
+      },
+      {
+        "word": "sure",
+        "pos": "adjective",
+        "meaning_en": "certain",
+        "meaning_ar": "متأكد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm sure he is coming."
+      },
+      {
+        "word": "possible",
+        "pos": "adjective",
+        "meaning_en": "able to happen",
+        "meaning_ar": "ممكن / محتمل",
+        "note_ar": "انطق p بنفخة هواء قوية",
+        "note_en": "Say the p with a strong puff of air.",
+        "example": "It's possible that it will rain."
+      },
+      {
+        "word": "free",
+        "pos": "adjective",
+        "meaning_en": "costing no money; not busy",
+        "meaning_ar": "مجاني / متفرغ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Entry is free for children under 12."
+      },
+      {
+        "word": "clear",
+        "pos": "adjective",
+        "meaning_en": "easy to see or understand; clean",
+        "meaning_ar": "واضح / صافٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The sky is clear today."
+      },
+      {
+        "word": "open",
+        "pos": "adjective",
+        "meaning_en": "not closed",
+        "meaning_ar": "مفتوح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The market is open now."
+      },
+      {
+        "word": "well",
+        "pos": "adjective",
+        "meaning_en": "healthy",
+        "meaning_ar": "بخير / بصحة جيدة",
+        "note_ar": "كظرف تعني «بشكل جيد»: study well",
+        "note_en": "As an adverb it means \"in a good way\".",
+        "example": "He is well today."
+      },
+      {
+        "word": "lead",
+        "pos": "adjective",
+        "meaning_en": "main; most important",
+        "meaning_ar": "رئيسي / قائد",
+        "note_ar": "كفعل: lead = يقود",
+        "note_en": "As a verb, lead = guide.",
+        "example": "He is the lead engineer on this design."
+      },
+      {
+        "word": "young",
+        "pos": "adjective",
+        "meaning_en": "not old",
+        "meaning_ar": "صغير السن / شاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My brother is very young."
+      },
+      {
+        "word": "public",
+        "pos": "adjective",
+        "meaning_en": "for everyone",
+        "meaning_ar": "عام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is a public place."
+      },
+      {
+        "word": "social",
+        "pos": "adjective",
+        "meaning_en": "about society and people; liking to be with people",
+        "meaning_ar": "اجتماعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is very social."
+      },
+      {
+        "word": "political",
+        "pos": "adjective",
+        "meaning_en": "about government and politics",
+        "meaning_ar": "سياسي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He talked about political problems."
+      },
+      {
+        "word": "general",
+        "pos": "adjective",
+        "meaning_en": "about most people or things",
+        "meaning_ar": "عام",
+        "note_ar": "in general = بشكل عام",
+        "note_en": "in general = usually, mostly",
+        "example": "What is the general feeling of the crowd?"
+      },
+      {
+        "word": "human",
+        "pos": "adjective",
+        "meaning_en": "about people",
+        "meaning_ar": "بشري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The problem was caused by human error."
+      },
+      {
+        "word": "low",
+        "pos": "adjective",
+        "meaning_en": "not high",
+        "meaning_ar": "منخفض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Vegetables are low in calories."
+      },
+      {
+        "word": "light",
+        "pos": "adjective",
+        "meaning_en": "not heavy",
+        "meaning_ar": "خفيف",
+        "note_ar": "تأتي أيضاً بمعنى ضوء أو فاتح اللون",
+        "note_en": "It can also mean bright or pale.",
+        "example": "This bag is light."
+      },
+      {
+        "word": "private",
+        "pos": "adjective",
+        "meaning_en": "for one person or group only",
+        "meaning_ar": "خاص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wanted to live in his own private flat."
+      },
+      {
+        "word": "own",
+        "pos": "adjective",
+        "meaning_en": "belonging to you",
+        "meaning_ar": "خاص بـ (ملك)",
+        "note_ar": "تأتي بعد my/your/his: my own",
+        "note_en": "Used after my/your/his: my own.",
+        "example": "I want my own room."
+      },
+      {
+        "word": "different",
+        "pos": "adjective",
+        "meaning_en": "not the same",
+        "meaning_ar": "مختلف",
+        "note_ar": "different from = مختلف عن",
+        "note_en": "different from",
+        "example": "She has a different opinion."
+      },
+      {
+        "word": "true",
+        "pos": "adjective",
+        "meaning_en": "correct; real",
+        "meaning_ar": "صحيح / حقيقي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is it true that you are moving?"
+      },
+      {
+        "word": "tiny",
+        "pos": "adjective",
+        "meaning_en": "very small",
+        "meaning_ar": "صغير جداً",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The baby has tiny hands."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "big vs large",
+        "words": [
+          "big",
+          "large"
+        ],
+        "explanation_ar": "الكلمتان بمعنى كبير. big أكثر استخداماً في الكلام اليومي، و large أكثر رسمية وتُستخدم كثيراً للمقاسات (size large).",
+        "explanation_en": "Both mean not small. \"Big\" is more common in everyday speech; \"large\" is more formal and used for sizes.",
+        "examples": [
+          {
+            "word": "big",
+            "sentence": "He lives in a big house."
+          },
+          {
+            "word": "large",
+            "sentence": "Can I have a large coffee?"
+          }
+        ]
+      },
+      {
+        "title": "small vs little",
+        "words": [
+          "small",
+          "little"
+        ],
+        "explanation_ar": "small تصف الحجم فقط. little تصف الحجم مع إحساس بالعاطفة (a little girl)، وa little تعني «قليل من» مع غير المعدود.",
+        "explanation_en": "\"Small\" is about size. \"Little\" can show feeling (a little girl), and \"a little\" means a small amount.",
+        "examples": [
+          {
+            "word": "small",
+            "sentence": "This room is small."
+          },
+          {
+            "word": "little",
+            "sentence": "She cooked a little food."
+          }
+        ]
+      },
+      {
+        "title": "good vs well",
+        "words": [
+          "good",
+          "well"
+        ],
+        "explanation_ar": "good صفة تصف الاسم (a good student)، و well ظرف يصف الفعل (study well). لكن well صفة أيضاً بمعنى «بصحة جيدة».",
+        "explanation_en": "\"Good\" is an adjective for nouns. \"Well\" is an adverb for verbs, but also an adjective meaning healthy.",
+        "examples": [
+          {
+            "word": "good",
+            "sentence": "He is a good student."
+          },
+          {
+            "word": "well",
+            "sentence": "You have to study well."
+          }
+        ]
+      },
+      {
+        "title": "sure vs certain",
+        "words": [
+          "sure",
+          "certain"
+        ],
+        "explanation_ar": "الكلمتان بمعنى متأكد، و certain أكثر رسمية قليلاً.",
+        "explanation_en": "Both mean you have no doubt. \"Certain\" is a little more formal.",
+        "examples": [
+          {
+            "word": "sure",
+            "sentence": "I'm sure he will come."
+          },
+          {
+            "word": "certain",
+            "sentence": "It's certain that they will agree."
+          }
+        ]
+      },
+      {
+        "title": "private vs own",
+        "words": [
+          "private",
+          "own"
+        ],
+        "explanation_ar": "private تعني خاص (ليس للعامة)، و own تعني ملكك أنت وتأتي بعد my/your.",
+        "explanation_en": "\"Private\" means not public. \"Own\" means it belongs to you and comes after my/your.",
+        "examples": [
+          {
+            "word": "private",
+            "sentence": "This is a private beach."
+          },
+          {
+            "word": "own",
+            "sentence": "She has her own car."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "good news",
+        "meaning_ar": "أخبار جيدة / بشرى",
+        "meaning_en": "news that makes you happy",
+        "example": "I have some good news for you!"
+      },
+      {
+        "phrase": "You did a great job!",
+        "meaning_ar": "لقد قمت بعمل رائع!",
+        "meaning_en": "praise for good work",
+        "example": "You did a great job on the report."
+      },
+      {
+        "phrase": "special occasions",
+        "meaning_ar": "المناسبات الخاصة",
+        "meaning_en": "important events like weddings or Eid",
+        "example": "I wear this suit only on special occasions."
+      },
+      {
+        "phrase": "a whole month",
+        "meaning_ar": "شهر كامل",
+        "meaning_en": "all of one month",
+        "example": "He will stay with us for a whole month."
+      },
+      {
+        "phrase": "for single use only",
+        "meaning_ar": "للاستخدام مرة واحدة فقط",
+        "meaning_en": "use it once and throw it away",
+        "example": "These cups are for single use only."
+      },
+      {
+        "phrase": "the same age as",
+        "meaning_ar": "في نفس عمر",
+        "meaning_en": "having the same age",
+        "example": "Fahad is the same age as me."
+      },
+      {
+        "phrase": "Entry is free.",
+        "meaning_ar": "الدخول مجاني.",
+        "meaning_en": "you don't pay to go in",
+        "example": "Entry is free for children under 12."
+      },
+      {
+        "phrase": "human error",
+        "meaning_ar": "خطأ بشري",
+        "meaning_en": "a mistake made by a person, not a machine",
+        "example": "The accident was caused by human error."
+      },
+      {
+        "phrase": "a different opinion",
+        "meaning_ar": "رأي مختلف",
+        "meaning_en": "thinking in another way",
+        "example": "She has a different opinion about this."
+      },
+      {
+        "phrase": "in general",
+        "meaning_ar": "بشكل عام",
+        "meaning_en": "usually; mostly",
+        "example": "In general, people here are friendly."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Adjective before the noun",
+        "explanation_ar": "في العربية تأتي الصفة بعد الموصوف (مشكلة كبيرة)، أما في الإنجليزية فتأتي الصفة قبل الاسم: a big problem. ولا نجمع الصفة أبداً: two major problems وليس majors.",
+        "explanation_en": "In Arabic the adjective comes after the noun. In English it comes before the noun: a big problem. Adjectives have no plural: two major problems.",
+        "examples": [
+          "two major problems",
+          "a special suit",
+          "a red car"
+        ]
+      },
+      {
+        "title": "Adjective after be",
+        "explanation_ar": "تأتي الصفة أيضاً بعد فعل be لتصف الفاعل: The test is easy. Your answer is right.",
+        "explanation_en": "An adjective can also come after the verb \"be\" to describe the subject: The test is easy.",
+        "examples": [
+          "The weather is bad.",
+          "The market is open now.",
+          "This bag is light."
+        ]
+      },
+      {
+        "title": "Comparatives: -er and more",
+        "explanation_ar": "للمقارنة نضيف er للصفات القصيرة (large → larger, small → smaller)، ونستخدم more مع الصفات الطويلة (more important). وهناك شواذ: good → better، bad → worse.",
+        "explanation_en": "To compare, add -er to short adjectives (larger) and use \"more\" with long ones (more important). Irregular: good → better, bad → worse.",
+        "examples": [
+          "We need a larger car.",
+          "Health is more important than money.",
+          "Today is better than yesterday."
+        ]
+      },
+      {
+        "title": "a or an depends on the adjective",
+        "explanation_ar": "نختار a أو an حسب أول صوت في الكلمة التي تليها مباشرة، وقد تكون صفة: a joke لكن an old joke؛ an apple لكن a new apple.",
+        "explanation_en": "Choose a or an by the first sound of the next word, which may be an adjective: a joke, but an old joke.",
+        "examples": [
+          "an old joke",
+          "a new idea",
+          "an easy question"
+        ]
+      },
+      {
+        "title": "Adjective vs adverb",
+        "explanation_ar": "الصفة تصف الاسم (a good student)، والظرف يصف الفعل (study well). كثير من الظروف نصنعها بإضافة ly للصفة: quick → quickly. لكن good تصبح well.",
+        "explanation_en": "An adjective describes a noun; an adverb describes a verb. Many adverbs add -ly: quick → quickly. But good → well.",
+        "examples": [
+          "She is a good driver.",
+          "She drives well.",
+          "He speaks quickly."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How do we say «مشكلة كبيرة» in English?",
+      "choices": [
+        "a problem big",
+        "a big problem",
+        "a problem bigs",
+        "big a problem"
+      ],
+      "answer": 1,
+      "explanation_ar": "في الإنجليزية الصفة تأتي قبل الاسم.",
+      "explanation_en": "In English the adjective comes before the noun."
+    },
+    {
+      "question": "This is ___ old joke.",
+      "choices": [
+        "a",
+        "an",
+        "the an",
+        "a an"
+      ],
+      "answer": 1,
+      "explanation_ar": "old تبدأ بصوت متحرك فنستخدم an.",
+      "explanation_en": "\"Old\" starts with a vowel sound, so we use \"an\"."
+    },
+    {
+      "question": "What is the opposite of \"difficult\"?",
+      "choices": [
+        "easy",
+        "hard",
+        "major",
+        "clear"
+      ],
+      "answer": 0,
+      "explanation_ar": "عكس difficult هو easy.",
+      "explanation_en": "The opposite of \"difficult\" is \"easy\"."
+    },
+    {
+      "question": "We need a ___ car. This one is too small.",
+      "choices": [
+        "large",
+        "more large",
+        "largest",
+        "larger"
+      ],
+      "answer": 3,
+      "explanation_ar": "للمقارنة نضيف er: larger.",
+      "explanation_en": "To compare, add -er: larger."
+    },
+    {
+      "question": "What does \"free\" mean in \"Entry is free\"?",
+      "choices": [
+        "مفتوح",
+        "واضح",
+        "مجاني",
+        "خاص"
+      ],
+      "answer": 2,
+      "explanation_ar": "free هنا تعني مجاني.",
+      "explanation_en": "Here \"free\" means costing no money."
+    },
+    {
+      "question": "You have to study ___.",
+      "choices": [
+        "good",
+        "well",
+        "goodly",
+        "better than"
+      ],
+      "answer": 1,
+      "explanation_ar": "نستخدم الظرف well لوصف الفعل study.",
+      "explanation_en": "We use the adverb \"well\" to describe the verb."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "There are two majors problems.",
+        "There are two problems majors.",
+        "There are two major problems.",
+        "There are major two problems."
+      ],
+      "answer": 2,
+      "explanation_ar": "الصفة لا تُجمع وتأتي قبل الاسم.",
+      "explanation_en": "Adjectives have no plural and come before the noun."
+    },
+    {
+      "question": "Which word means «منخفض»?",
+      "choices": [
+        "light",
+        "low",
+        "late",
+        "long"
+      ],
+      "answer": 1,
+      "explanation_ar": "low تعني منخفض.",
+      "explanation_en": "\"Low\" means not high."
+    },
+    {
+      "question": "Fahad is ___ age as me.",
+      "choices": [
+        "same",
+        "the same",
+        "a same",
+        "same the"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول دائماً the same.",
+      "explanation_en": "We always say \"the same\"."
+    },
+    {
+      "question": "This bag is not heavy. It is ___.",
+      "choices": [
+        "light",
+        "full",
+        "tiny",
+        "whole"
+      ],
+      "answer": 0,
+      "explanation_ar": "light تعني خفيف وهي عكس heavy.",
+      "explanation_en": "\"Light\" is the opposite of \"heavy\"."
+    }
+  ]
+}

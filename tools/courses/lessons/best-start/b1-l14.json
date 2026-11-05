@@ -1,0 +1,64 @@
+{
+  "title": "Months of the Year",
+  "content": {
+    "vocabulary": [
+      {"word": "month", "pos": "noun", "meaning_en": "one of the twelve parts of a year", "meaning_ar": "شهر", "note_ar": "تُنطق /mʌnθ/ وآخرها صوت th (ث)", "note_en": "Say /mʌnθ/; it ends with a th sound.", "example": "May is my favourite month."},
+      {"word": "months", "pos": "noun", "meaning_en": "more than one month", "meaning_ar": "شهور", "note_ar": "انتبه للنطق: /mʌnθs/ بصوت ث ثم س", "note_en": "Careful with pronunciation: /mʌnθs/, th then s.", "example": "There are twelve months in a year."},
+      {"word": "year", "pos": "noun", "meaning_en": "twelve months", "meaning_ar": "سنة", "note_ar": "", "note_en": "", "example": "There are twelve months in a year."},
+      {"word": "January", "pos": "noun", "meaning_en": "the first month", "meaning_ar": "يناير", "note_ar": "أسماء الشهور تبدأ دائمًا بحرف كبير", "note_en": "Months always start with a capital letter.", "example": "January is a winter month."},
+      {"word": "February", "pos": "noun", "meaning_en": "the second month", "meaning_ar": "فبراير", "note_ar": "تُنطق غالبًا /ˈfebjuəri/ والحرف r الأول خفيف", "note_en": "Usually said /ˈfebjuəri/; the first r is often soft.", "example": "February comes after January."},
+      {"word": "March", "pos": "noun", "meaning_en": "the third month", "meaning_ar": "مارس", "note_ar": "", "note_en": "", "example": "Spring starts in March."},
+      {"word": "April", "pos": "noun", "meaning_en": "the fourth month", "meaning_ar": "أبريل", "note_ar": "", "note_en": "", "example": "April comes after March."},
+      {"word": "May", "pos": "noun", "meaning_en": "the fifth month", "meaning_ar": "مايو", "note_ar": "", "note_en": "", "example": "My birthday is in May."},
+      {"word": "June", "pos": "noun", "meaning_en": "the sixth month", "meaning_ar": "يونيو", "note_ar": "", "note_en": "", "example": "June comes after May."},
+      {"word": "July", "pos": "noun", "meaning_en": "the seventh month", "meaning_ar": "يوليو", "note_ar": "النبر على المقطع الثاني: ju-LY", "note_en": "Stress the second part: ju-LY.", "example": "It's very hot in July."},
+      {"word": "August", "pos": "noun", "meaning_en": "the eighth month", "meaning_ar": "أغسطس", "note_ar": "", "note_en": "", "example": "I like eating mangoes in August."},
+      {"word": "September", "pos": "noun", "meaning_en": "the ninth month", "meaning_ar": "سبتمبر", "note_ar": "", "note_en": "", "example": "We start school in September."},
+      {"word": "October", "pos": "noun", "meaning_en": "the tenth month", "meaning_ar": "أكتوبر", "note_ar": "", "note_en": "", "example": "October is a fall month."},
+      {"word": "November", "pos": "noun", "meaning_en": "the eleventh month", "meaning_ar": "نوفمبر", "note_ar": "", "note_en": "", "example": "November comes before December."},
+      {"word": "December", "pos": "noun", "meaning_en": "the twelfth and last month", "meaning_ar": "ديسمبر", "note_ar": "الشهور من September إلى December تنتهي بـ ber", "note_en": "September to December all end in -ber.", "example": "December is the last month of the year."},
+      {"word": "snow", "pos": "noun", "meaning_en": "soft white ice that falls from the sky", "meaning_ar": "ثلج / جليد", "note_ar": "", "note_en": "", "example": "The snow is white."},
+      {"word": "snowy", "pos": "adjective", "meaning_en": "with a lot of snow", "meaning_ar": "مثلج", "note_ar": "snow + y = snowy", "note_en": "snow + y = snowy", "example": "It's sometimes snowy in winter."},
+      {"word": "sometimes", "pos": "adverb", "meaning_en": "not always, at some times", "meaning_ar": "أحيانًا", "note_ar": "", "note_en": "", "example": "It's sometimes snowy in January."},
+      {"word": "start", "pos": "verb", "meaning_en": "begin", "meaning_ar": "يبدأ", "note_ar": "", "note_en": "", "example": "We start school in September."},
+      {"word": "flowers", "pos": "noun", "meaning_en": "the colourful parts of plants", "meaning_ar": "زهور", "note_ar": "", "note_en": "", "example": "There are a lot of flowers in spring."},
+      {"word": "mango", "pos": "noun", "meaning_en": "a sweet yellow-orange fruit", "meaning_ar": "مانجو", "note_ar": "الجمع mangoes", "note_en": "Plural: mangoes.", "example": "I like eating mangoes in summer."},
+      {"word": "winter months", "pos": "phrase", "meaning_en": "December, January and February", "meaning_ar": "شهور الشتاء", "note_ar": "", "note_en": "", "example": "The winter months are December, January and February."},
+      {"word": "spring months", "pos": "phrase", "meaning_en": "March, April and May", "meaning_ar": "شهور الربيع", "note_ar": "", "note_en": "", "example": "The spring months are March, April and May."},
+      {"word": "summer months", "pos": "phrase", "meaning_en": "June, July and August", "meaning_ar": "شهور الصيف", "note_ar": "", "note_en": "", "example": "The summer months are June, July and August."},
+      {"word": "fall months", "pos": "phrase", "meaning_en": "September, October and November", "meaning_ar": "شهور الخريف", "note_ar": "", "note_en": "", "example": "The fall months are September, October and November."}
+    ],
+    "fine_lines": [
+      {"title": "month vs months", "words": ["month", "months"], "explanation_ar": "month مفرد ينتهي بصوت ث، و months جمع ينتهي بصوت ث ثم س. لا تنطقها (مانس) فقط.", "explanation_en": "Month ends with a th sound; months ends with th + s. Say both sounds.", "examples": [{"word": "month", "sentence": "May is a spring month."}, {"word": "months", "sentence": "There are twelve months in a year."}]},
+      {"title": "March vs May", "words": ["March", "May"], "explanation_ar": "March شهر 3 (مارس)، و May شهر 5 (مايو). كلاهما يبدأ بحرف M ومن شهور الربيع.", "explanation_en": "March is month 3 and May is month 5. Both start with M and are spring months.", "examples": [{"word": "March", "sentence": "Spring starts in March."}, {"word": "May", "sentence": "My birthday is in May."}]},
+      {"title": "June vs July", "words": ["June", "July"], "explanation_ar": "June شهر 6 (يونيو)، و July شهر 7 (يوليو). كلاهما يبدأ بـ Ju ومن شهور الصيف.", "explanation_en": "June is month 6 and July is month 7. Both start with Ju and are summer months.", "examples": [{"word": "June", "sentence": "June comes after May."}, {"word": "July", "sentence": "July comes after June."}]},
+      {"title": "before vs after", "words": ["before", "after"], "explanation_ar": "before = قبل، و after = بعد. نستخدمهما لترتيب الشهور.", "explanation_en": "Before means earlier and after means later. Use them for the order of months.", "examples": [{"word": "before", "sentence": "January comes before February."}, {"word": "after", "sentence": "February comes after January."}]}
+    ],
+    "expressions": [
+      {"phrase": "There are twelve months in a year.", "meaning_ar": "توجد اثنا عشر شهرًا في السنة.", "meaning_en": "A fact about the year.", "example": "There are twelve months in a year. January is the first."},
+      {"phrase": "February comes after January.", "meaning_ar": "فبراير يأتي بعد يناير.", "meaning_en": "Talking about the order of months.", "example": "February comes after January and before March."},
+      {"phrase": "We start school in September.", "meaning_ar": "نبدأ الدراسة في سبتمبر.", "meaning_en": "Saying when school starts.", "example": "We start school in September and finish in June."},
+      {"phrase": "My birthday is in May.", "meaning_ar": "عيد ميلادي في مايو.", "meaning_en": "Saying the month of your birthday.", "example": "My birthday is in May. It's in spring."},
+      {"phrase": "The winter months are December, January and February.", "meaning_ar": "شهور الشتاء هي ديسمبر ويناير وفبراير.", "meaning_en": "Naming the months of a season.", "example": "The winter months are December, January and February. It's cold and rainy."},
+      {"phrase": "It's very hot and sunny in July.", "meaning_ar": "الجو حار جدًا ومشمس في يوليو.", "meaning_en": "Describing the weather in a month.", "example": "It's very hot and sunny in July, so we go to the beach."}
+    ],
+    "grammar": [
+      {"title": "Months start with a capital letter", "explanation_ar": "أسماء الشهور في الإنجليزية تبدأ دائمًا بحرف كبير، حتى في وسط الجملة.", "explanation_en": "Months always start with a capital letter, even in the middle of a sentence.", "examples": ["My birthday is in October.", "Wrong: in october. Right: in October."]},
+      {"title": "in + month", "explanation_ar": "نستخدم in قبل اسم الشهر وقبل اسم الفصل.", "explanation_en": "Use in before a month and before a season.", "examples": ["in May", "in September", "in winter", "We start school in September."]},
+      {"title": "The months in order with before and after", "explanation_ar": "ترتيب الشهور: January, February, March, April, May, June, July, August, September, October, November, December. ترتيبها حقيقة فنستخدم المضارع البسيط comes لأن الشهر مفرد.", "explanation_en": "Order: January to December. The order is a fact, so use the present simple: comes (a month is singular).", "examples": ["March comes after February.", "November comes before December.", "December is the last month."]},
+      {"title": "Months and seasons", "explanation_ar": "لكل فصل ثلاثة شهور: الشتاء December, January, February، الربيع March, April, May، الصيف June, July, August، الخريف September, October, November. ونصف الطقس بـ It's.", "explanation_en": "Each season has three months: winter (Dec–Feb), spring (Mar–May), summer (Jun–Aug), fall (Sep–Nov). Describe the weather with It's.", "examples": ["The spring months are March, April and May.", "It's warm and sunny in April.", "It's cool and cloudy in October."]}
+    ]
+  },
+  "questions": [
+    {"question": "How many months are there in a year?", "choices": ["ten", "four", "twelve", "seven"], "answer": 2, "explanation_ar": "في السنة اثنا عشر شهرًا.", "explanation_en": "There are twelve months in a year."},
+    {"question": "Which month comes after June?", "choices": ["July", "May", "August", "January"], "answer": 0, "explanation_ar": "بعد يونيو يأتي يوليو July.", "explanation_en": "July comes after June."},
+    {"question": "Choose the correct sentence.", "choices": ["My birthday is in march.", "My birthday is in March.", "My birthday is on march.", "my birthday is March in."], "answer": 1, "explanation_ar": "الشهر يبدأ بحرف كبير ونستخدم in قبله.", "explanation_en": "Months start with a capital letter, and we use in."},
+    {"question": "What does \"August\" mean?", "choices": ["أبريل", "أكتوبر", "يونيو", "أغسطس"], "answer": 3, "explanation_ar": "August = أغسطس، الشهر الثامن.", "explanation_en": "August is the eighth month."},
+    {"question": "November comes ___ December.", "choices": ["after", "before", "in", "on"], "answer": 1, "explanation_ar": "نوفمبر قبل ديسمبر: before.", "explanation_en": "November is earlier than December, so before."},
+    {"question": "Which are the spring months?", "choices": ["June, July, August", "December, January, February", "September, October, November", "March, April, May"], "answer": 3, "explanation_ar": "شهور الربيع: مارس وأبريل ومايو.", "explanation_en": "The spring months are March, April and May."},
+    {"question": "We start school ___ September.", "choices": ["in", "on", "at", "to"], "answer": 0, "explanation_ar": "نستخدم in قبل اسم الشهر.", "explanation_en": "We use in before a month."},
+    {"question": "It's snowy in ___.", "choices": ["August", "January", "July", "June"], "answer": 1, "explanation_ar": "يناير من شهور الشتاء، أما البقية فمن شهور الصيف.", "explanation_en": "January is a winter month; the others are summer months."},
+    {"question": "What is the last month of the year?", "choices": ["November", "October", "December", "January"], "answer": 2, "explanation_ar": "آخر شهر في السنة ديسمبر.", "explanation_en": "December is the last month."},
+    {"question": "\"Snowy\" means ___", "choices": ["مثلج", "ممطر", "مشمس", "حار"], "answer": 0, "explanation_ar": "snowy من snow (ثلج) = مثلج.", "explanation_en": "Snowy comes from snow: with a lot of snow."}
+  ]
+}

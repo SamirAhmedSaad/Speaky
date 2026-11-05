@@ -1,0 +1,352 @@
+{
+  "title": "Little Monsters",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "scarecrow",
+        "pos": "noun",
+        "meaning_en": "a model of a man in a field to scare birds",
+        "meaning_ar": "فزّاعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The scarecrow stood in a field."
+      },
+      {
+        "word": "field",
+        "pos": "noun",
+        "meaning_en": "an area of land on a farm",
+        "meaning_ar": "حقل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The scarecrow stood in the field."
+      },
+      {
+        "word": "farmer",
+        "pos": "noun",
+        "meaning_en": "a person who works on a farm",
+        "meaning_ar": "مزارع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The farmer gave him a hat."
+      },
+      {
+        "word": "straw",
+        "pos": "noun",
+        "meaning_en": "dry yellow stems of plants",
+        "meaning_ar": "قشّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The scarecrow was made of straw."
+      },
+      {
+        "word": "crow",
+        "pos": "noun",
+        "meaning_en": "a big black bird",
+        "meaning_ar": "غراب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Three crows sat on a fence."
+      },
+      {
+        "word": "nest",
+        "pos": "noun",
+        "meaning_en": "a home that birds build",
+        "meaning_ar": "عُشّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The crows were building nests."
+      },
+      {
+        "word": "steal",
+        "pos": "verb",
+        "meaning_en": "take something that is not yours",
+        "meaning_ar": "يسرق",
+        "note_ar": "الماضي: stole",
+        "note_en": "Past: stole.",
+        "example": "The crows stole the straw."
+      },
+      {
+        "word": "scare",
+        "pos": "verb",
+        "meaning_en": "make someone afraid",
+        "meaning_ar": "يُخيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can scare the crows away."
+      },
+      {
+        "word": "mouse",
+        "pos": "noun",
+        "meaning_en": "a very small animal with a long tail",
+        "meaning_ar": "فأر",
+        "note_ar": "الجمع: mice",
+        "note_en": "Plural: mice.",
+        "example": "There was a mouse on his belt."
+      },
+      {
+        "word": "monster",
+        "pos": "noun",
+        "meaning_en": "a big, scary animal in stories",
+        "meaning_ar": "وحش",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A monster attacked me!"
+      },
+      {
+        "word": "coat",
+        "pos": "noun",
+        "meaning_en": "a warm piece of clothing you wear outside",
+        "meaning_ar": "معطف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He had a long brown coat."
+      },
+      {
+        "word": "pocket",
+        "pos": "noun",
+        "meaning_en": "a small bag sewn into clothes",
+        "meaning_ar": "جيب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The mice lived in his pockets."
+      },
+      {
+        "word": "hat",
+        "pos": "noun",
+        "meaning_en": "a thing you wear on your head",
+        "meaning_ar": "قبّعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He had a brown hat."
+      },
+      {
+        "word": "kind",
+        "pos": "adjective",
+        "meaning_en": "nice and helpful",
+        "meaning_ar": "لطيف / طيّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That is very kind of you."
+      },
+      {
+        "word": "home",
+        "pos": "noun",
+        "meaning_en": "the place where you live",
+        "meaning_ar": "بيت / مأوى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your pockets are a good home."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "mouse vs mice",
+        "words": [
+          "mouse",
+          "mice"
+        ],
+        "explanation_ar": "mouse فأر واحد، و mice فئران (جمع غير منتظم).",
+        "explanation_en": "One mouse, two mice. \"mice\" is an irregular plural.",
+        "examples": [
+          {
+            "word": "mouse",
+            "sentence": "A mouse sat on his belt."
+          },
+          {
+            "word": "mice",
+            "sentence": "Twenty mice jumped out."
+          }
+        ]
+      },
+      {
+        "title": "scared vs scary",
+        "words": [
+          "scared",
+          "scary"
+        ],
+        "explanation_ar": "scared = خائف (شعور)، و scary = مخيف (صفة للشيء).",
+        "explanation_en": "\"scared\" = afraid. \"scary\" = making you afraid.",
+        "examples": [
+          {
+            "word": "scared",
+            "sentence": "The crow was scared."
+          },
+          {
+            "word": "scary",
+            "sentence": "The mice looked scary."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What am I going to do?",
+        "meaning_ar": "ماذا سأفعل؟",
+        "meaning_en": "Said when you have a problem.",
+        "example": "The crows took my straw! What am I going to do?"
+      },
+      {
+        "phrase": "I can help.",
+        "meaning_ar": "أستطيع أن أساعد.",
+        "meaning_en": "Offering help.",
+        "example": "You have a problem? I can help."
+      },
+      {
+        "phrase": "That is very kind of you.",
+        "meaning_ar": "هذا لطف كبير منك.",
+        "meaning_en": "Thanking someone for help.",
+        "example": "I can carry your bag. - That is very kind of you."
+      },
+      {
+        "phrase": "I have an idea!",
+        "meaning_ar": "لديّ فكرة!",
+        "meaning_en": "Saying you know a way to solve a problem.",
+        "example": "I have an idea! Let's ask Mum."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past simple: irregular verbs",
+        "explanation_ar": "بعض الأفعال لها ماضٍ غير منتظم: fly → flew، take → took، steal → stole، say → said.",
+        "explanation_en": "Some verbs have an irregular past: fly → flew, take → took, steal → stole, say → said.",
+        "examples": [
+          "The crow flew to the scarecrow.",
+          "He took some straw.",
+          "They stole more straw."
+        ]
+      },
+      {
+        "title": "can for help and ability",
+        "explanation_ar": "نستخدم can + فعل للقدرة أو لعرض المساعدة: I can help. ونستخدم can't لعدم القدرة.",
+        "explanation_en": "Use can + verb for ability or to offer help. can't = not able.",
+        "examples": [
+          "I can help.",
+          "He couldn't run after them.",
+          "I can scare the crows away."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "The scarecrow was made of ___.",
+      "choices": [
+        "straw",
+        "wood only",
+        "metal",
+        "paper"
+      ],
+      "answer": 0,
+      "explanation_ar": "الفزاعة مصنوعة من القش.",
+      "explanation_en": "He was made of straw."
+    },
+    {
+      "question": "Why did the crows take the straw?",
+      "choices": [
+        "to eat it",
+        "to build nests",
+        "to play",
+        "to sell it"
+      ],
+      "answer": 1,
+      "explanation_ar": "أخذوها لبناء أعشاشهم.",
+      "explanation_en": "They used it for their nests."
+    },
+    {
+      "question": "Who helped the scarecrow?",
+      "choices": [
+        "the farmer",
+        "a dog",
+        "the mice",
+        "the crows"
+      ],
+      "answer": 2,
+      "explanation_ar": "الفئران ساعدت الفزاعة.",
+      "explanation_en": "The mice helped him."
+    },
+    {
+      "question": "One mouse, twenty ___.",
+      "choices": [
+        "mouses",
+        "mousies",
+        "meese",
+        "mice"
+      ],
+      "answer": 3,
+      "explanation_ar": "جمع mouse هو mice.",
+      "explanation_en": "The plural of mouse is mice."
+    },
+    {
+      "question": "The crow ___ to the scarecrow. (fly, past)",
+      "choices": [
+        "flew",
+        "flied",
+        "flyed",
+        "flown"
+      ],
+      "answer": 0,
+      "explanation_ar": "ماضي fly هو flew.",
+      "explanation_en": "The past of fly is flew."
+    },
+    {
+      "question": "What did the mice want as a gift?",
+      "choices": [
+        "food",
+        "a home in his pockets",
+        "a hat",
+        "straw"
+      ],
+      "answer": 1,
+      "explanation_ar": "أرادت الفئران بيتًا في جيوبه.",
+      "explanation_en": "They wanted to live in his pockets."
+    },
+    {
+      "question": "Someone helps you. You say: ___",
+      "choices": [
+        "What am I going to do?",
+        "I have an idea!",
+        "That is very kind of you.",
+        "Monster!"
+      ],
+      "answer": 2,
+      "explanation_ar": "نشكر بقول That is very kind of you.",
+      "explanation_en": "Say \"That is very kind of you.\""
+    },
+    {
+      "question": "The crow was afraid. He was ___.",
+      "choices": [
+        "scary",
+        "scare",
+        "scaring",
+        "scared"
+      ],
+      "answer": 3,
+      "explanation_ar": "الشعور بالخوف = scared.",
+      "explanation_en": "Feeling afraid = scared."
+    },
+    {
+      "question": "Birds live in a ___.",
+      "choices": [
+        "nest",
+        "pocket",
+        "field",
+        "coat"
+      ],
+      "answer": 0,
+      "explanation_ar": "تعيش الطيور في العش.",
+      "explanation_en": "Birds live in a nest."
+    },
+    {
+      "question": "\"steal\" means ___.",
+      "choices": [
+        "يسرق",
+        "يساعد",
+        "يطير",
+        "يخيف"
+      ],
+      "answer": 0,
+      "explanation_ar": "steal = يسرق.",
+      "explanation_en": "steal = take what is not yours."
+    }
+  ]
+}

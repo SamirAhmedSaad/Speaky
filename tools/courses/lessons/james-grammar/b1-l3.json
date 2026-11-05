@@ -1,0 +1,50 @@
+{
+  "title": "Prepositions: at, on, in, by",
+  "content": {
+    "vocabulary": [
+      {"word": "preposition", "pos": "noun", "meaning_en": "a small word that shows place, time or direction, like at, on, in, by", "meaning_ar": "حرف جر", "note_ar": "", "note_en": "", "example": "\"On\" is a preposition."},
+      {"word": "transportation", "pos": "noun", "meaning_en": "ways of travelling, like car, bus, plane", "meaning_ar": "المواصلات / وسائل النقل", "note_ar": "في بريطانيا: transport", "note_en": "UK: transport.", "example": "The bus is cheap transportation."},
+      {"word": "vehicle", "pos": "noun", "meaning_en": "a car, bus, train or other machine that carries people", "meaning_ar": "مركبة", "note_ar": "حرف h صامت تقريبًا: /ˈviːəkəl/", "note_en": "The h is usually silent: /ˈviːəkəl/.", "example": "A bus is a large vehicle."},
+      {"word": "location", "pos": "noun", "meaning_en": "a place or position", "meaning_ar": "موقع / مكان", "note_ar": "", "note_en": "", "example": "What is the location of the hotel?"},
+      {"word": "exception", "pos": "noun", "meaning_en": "something that does not follow the rule", "meaning_ar": "استثناء", "note_ar": "", "note_en": "", "example": "\"Bicycle\" is an exception: we say \"on a bicycle\"."},
+      {"word": "train", "pos": "noun", "meaning_en": "a long vehicle that runs on rails", "meaning_ar": "قطار", "note_ar": "", "note_en": "", "example": "I read a book on the train."},
+      {"word": "plane", "pos": "noun", "meaning_en": "a machine that flies and carries people", "meaning_ar": "طائرة", "note_ar": "", "note_en": "", "example": "We were on the plane for five hours."},
+      {"word": "boat", "pos": "noun", "meaning_en": "a vehicle that travels on water", "meaning_ar": "قارب", "note_ar": "", "note_en": "", "example": "He is in a small boat on the lake."},
+      {"word": "bicycle", "pos": "noun", "meaning_en": "a vehicle with two wheels that you ride with your legs", "meaning_ar": "دراجة هوائية", "note_ar": "يُختصر: bike", "note_en": "Short form: bike.", "example": "My son goes to school on his bicycle."},
+      {"word": "taxi", "pos": "noun", "meaning_en": "a car with a driver that you pay to take you somewhere", "meaning_ar": "سيارة أجرة", "note_ar": "", "note_en": "", "example": "I'm in a taxi now."},
+      {"word": "surface", "pos": "noun", "meaning_en": "the top or outside part of something", "meaning_ar": "سطح", "note_ar": "", "note_en": "", "example": "The book is on the surface of the table."},
+      {"word": "near", "pos": "preposition", "meaning_en": "not far from", "meaning_ar": "قريب من", "note_ar": "", "note_en": "", "example": "The shop is near my house."},
+      {"word": "close to", "pos": "phrase", "meaning_en": "near", "meaning_ar": "قريب من", "note_ar": "close هنا تُنطق /kloʊs/ بصوت s", "note_en": "Here \"close\" is said with an /s/ sound.", "example": "The school is close to the park."},
+      {"word": "limit", "pos": "noun", "meaning_en": "the greatest amount or the latest time allowed", "meaning_ar": "حدّ / مهلة", "note_ar": "", "note_en": "", "example": "Friday is the time limit for the homework."},
+      {"word": "address", "pos": "noun", "meaning_en": "the number and street where a place is", "meaning_ar": "عنوان", "note_ar": "", "note_en": "", "example": "Meet me at 51 King Street. That's the address."}
+    ],
+    "fine_lines": [
+      {"title": "in a car vs on a bus", "words": ["in", "on"], "explanation_ar": "نقول in مع السيارة والتاكسي (مركبة صغيرة خاصة). ونقول on مع الحافلة والقطار والطائرة والسفينة الكبيرة (مركبات كبيرة نتشاركها مع الناس). الدراجة استثناء: on a bicycle. والقارب الصغير: in a boat.", "explanation_en": "Use \"in\" for a car or taxi (small, private). Use \"on\" for a bus, train, plane or big boat (large, shared). Exceptions: on a bicycle; in a small boat.", "examples": [{"word": "in", "sentence": "I'm in my car."}, {"word": "on", "sentence": "She is on the bus."}]},
+      {"title": "by car vs in the car", "words": ["by", "in"], "explanation_ar": "by + وسيلة النقل (بدون the) تخبر كيف وصلت: by car, by plane. أما in/on فتخبر أين أنت داخل المركبة الآن.", "explanation_en": "\"By\" + transport (no \"the\") tells how you travelled: by car, by plane. \"In/on\" tells where you are: in the car, on the plane.", "examples": [{"word": "by", "sentence": "I came here by car."}, {"word": "in", "sentence": "My bag is in the car."}]},
+      {"title": "on the table vs in the box", "words": ["on", "in"], "explanation_ar": "on: فوق سطح ويمكنك رؤيته. in: داخل شيء له جدران أو حدود.", "explanation_en": "\"On\": on top of a surface, you can see it. \"In\": inside something with walls around it.", "examples": [{"word": "on", "sentence": "The pen is on the table."}, {"word": "in", "sentence": "The pen is in the box."}]}
+    ],
+    "expressions": [
+      {"phrase": "How did you get here?", "meaning_ar": "كيف وصلت إلى هنا؟", "meaning_en": "Which transport did you use to come?", "example": "\"How did you get here?\" \"By bus.\""},
+      {"phrase": "Meet me at my house.", "meaning_ar": "قابلني في بيتي.", "meaning_en": "Come to my house to meet me.", "example": "Meet me at my house at six."},
+      {"phrase": "I need it done by tonight.", "meaning_ar": "أحتاجه منجزًا قبل الليلة (الليلة كحد أقصى).", "meaning_en": "Finish it tonight or before.", "example": "Please send the report. I need it done by tonight."},
+      {"phrase": "What time will I meet you?", "meaning_ar": "في أي ساعة سأقابلك؟", "meaning_en": "Asking for the time of a meeting.", "example": "\"What time will I meet you?\" \"At 10:30.\""}
+    ],
+    "grammar": [
+      {"title": "Transportation: on, in, by", "explanation_ar": "on مع المركبات الكبيرة المشتركة: on the bus, on the train, on the plane, on a (big) boat. in مع السيارة والتاكسي: in my car, in a taxi. استثناءات: on a bicycle دائمًا، و in a small boat. by + وسيلة النقل للتعبير عن طريقة السفر: by car, by train.", "explanation_en": "\"On\" for large shared vehicles: on the bus, train, plane, big boat. \"In\" for a car or taxi. Exceptions: always \"on a bicycle\"; \"in a small boat\". \"By\" + transport tells how you travel: by car, by train.", "examples": ["I'm on the train.", "She is in a taxi.", "He rides on his bicycle.", "We came by plane."]},
+      {"title": "Location: at, on, in, by", "explanation_ar": "at لمكان محدد كنقطة أو عنوان: at my house, at 51 King Street. on فوق سطح أو مساحة: on the table, on the floor. in داخل مكان له جدران: in a room, in a box. by بمعنى قريب من (near / close to): by the door.", "explanation_en": "\"At\" for an exact point or address: at my house. \"On\" for a surface: on the table, on the floor. \"In\" for inside something with walls: in a room, in a box. \"By\" means near / close to: by the door.", "examples": ["Meet me at my house.", "The book is on the table.", "I'm in the room.", "The chair is by the window."]},
+      {"title": "Time: at, on, in, by", "explanation_ar": "at لوقت محدد بالساعة: at 9:15. on للأيام وكل ما فيه كلمة day: on Monday, on my birthday. in للفترات الطويلة: الأشهر والسنوات والأسابيع: in September, in 1992. by لآخر موعد (لا بعده): by tonight.", "explanation_en": "\"At\" for clock times: at 9:15. \"On\" for days (anything with \"day\"): on Monday, on my birthday. \"In\" for longer periods: months, years, weeks: in September, in 1992. \"By\" for a deadline, not later than: by tonight.", "examples": ["The class starts at 10:30.", "I'll see you on Monday.", "I came to Canada in 1992.", "Finish it by Friday."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I read a book ___ the train.\"", "choices": ["at", "on", "by", "in"], "answer": 1, "explanation_ar": "القطار مركبة كبيرة مشتركة: on the train.", "explanation_en": "A train is a large shared vehicle: on the train."},
+    {"question": "\"She is ___ a taxi right now.\"", "choices": ["in", "on", "at", "by"], "answer": 0, "explanation_ar": "نستعمل in مع السيارة والتاكسي.", "explanation_en": "We use \"in\" with a car or taxi."},
+    {"question": "Choose the correct sentence.", "choices": ["He is in his bicycle.", "He is at his bicycle.", "He is by his bicycle to school.", "He goes to school on his bicycle."], "answer": 3, "explanation_ar": "الدراجة استثناء: نقول دائمًا on a bicycle.", "explanation_en": "Bicycle is an exception: always \"on a bicycle\"."},
+    {"question": "\"How did you get here?\" \"___ car.\"", "choices": ["In", "On", "At", "By"], "answer": 3, "explanation_ar": "by + وسيلة النقل تخبر كيف وصلت.", "explanation_en": "\"By\" + transport tells how you travelled."},
+    {"question": "\"The class starts ___ 9:15.\"", "choices": ["on", "at", "in", "by"], "answer": 1, "explanation_ar": "at مع الوقت المحدد بالساعة.", "explanation_en": "\"At\" is for clock times."},
+    {"question": "\"I'll see you ___ Monday.\"", "choices": ["on", "in", "at", "by"], "answer": 0, "explanation_ar": "on مع الأيام.", "explanation_en": "\"On\" is for days."},
+    {"question": "\"I came to Canada ___ 1992.\"", "choices": ["on", "at", "in", "by"], "answer": 2, "explanation_ar": "in مع السنوات والأشهر.", "explanation_en": "\"In\" is for years and months."},
+    {"question": "\"I need the report ___ tonight.\" (not later than tonight)", "choices": ["in", "on", "at", "by"], "answer": 3, "explanation_ar": "by تعني آخر موعد.", "explanation_en": "\"By\" means the latest time, a deadline."},
+    {"question": "\"The chair is ___ the window.\" (= near)", "choices": ["by", "on", "in", "at"], "answer": 0, "explanation_ar": "by هنا بمعنى قريب من.", "explanation_en": "Here \"by\" means near."},
+    {"question": "\"The markers are ___ the box. I can't see them.\"", "choices": ["on", "by", "in", "at"], "answer": 2, "explanation_ar": "داخل الصندوق: in.", "explanation_en": "Inside the box: in."}
+  ]
+}

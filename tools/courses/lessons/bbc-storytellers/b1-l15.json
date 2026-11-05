@@ -1,0 +1,320 @@
+{
+  "title": "Shopping Trip",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "furniture",
+        "pos": "noun",
+        "meaning_en": "tables, chairs, beds and desks",
+        "meaning_ar": "أثاث",
+        "note_ar": "غير معدود: لا نقول furnitures",
+        "note_en": "Uncountable: no plural -s.",
+        "example": "We need new furniture."
+      },
+      {
+        "word": "desk",
+        "pos": "noun",
+        "meaning_en": "a table where you work or study",
+        "meaning_ar": "مكتب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe's desk broke."
+      },
+      {
+        "word": "bed",
+        "pos": "noun",
+        "meaning_en": "a thing you sleep on",
+        "meaning_ar": "سرير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella needs a new bed."
+      },
+      {
+        "word": "sofa",
+        "pos": "noun",
+        "meaning_en": "a long soft seat for two or more people",
+        "meaning_ar": "أريكة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella jumped on the sofa."
+      },
+      {
+        "word": "chair",
+        "pos": "noun",
+        "meaning_en": "a seat for one person",
+        "meaning_ar": "كرسي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The chair could spin."
+      },
+      {
+        "word": "table",
+        "pos": "noun",
+        "meaning_en": "furniture with a flat top and legs",
+        "meaning_ar": "طاولة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She crawled under a table."
+      },
+      {
+        "word": "cupboard",
+        "pos": "noun",
+        "meaning_en": "furniture with doors to keep things in",
+        "meaning_ar": "خزانة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They bought a cupboard."
+      },
+      {
+        "word": "store",
+        "pos": "noun",
+        "meaning_en": "a shop, often a big one",
+        "meaning_ar": "متجر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The furniture store was huge."
+      },
+      {
+        "word": "cafe",
+        "pos": "noun",
+        "meaning_en": "a place to buy drinks and small meals",
+        "meaning_ar": "مقهى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There's a cafe in the store."
+      },
+      {
+        "word": "milkshake",
+        "pos": "noun",
+        "meaning_en": "a cold drink of milk and fruit or ice cream",
+        "meaning_ar": "ميلك شيك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella chose a strawberry milkshake."
+      },
+      {
+        "word": "big",
+        "pos": "adjective",
+        "meaning_en": "large",
+        "meaning_ar": "كبير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's too big."
+      },
+      {
+        "word": "small",
+        "pos": "adjective",
+        "meaning_en": "little, not big",
+        "meaning_ar": "صغير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's too small."
+      },
+      {
+        "word": "asleep",
+        "pos": "adjective",
+        "meaning_en": "sleeping",
+        "meaning_ar": "نائم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella was fast asleep."
+      },
+      {
+        "word": "worried",
+        "pos": "adjective",
+        "meaning_en": "afraid something bad happened",
+        "meaning_ar": "قلِق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mum and Dad were worried."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "too big vs too small",
+        "words": [
+          "too big",
+          "too small"
+        ],
+        "explanation_ar": "too + صفة تعني «أكثر من اللازم»: too big = كبير جدًّا (أكثر من المناسب)، too small = صغير جدًّا.",
+        "explanation_en": "\"too\" + adjective = more than is good. too big / too small.",
+        "examples": [
+          {
+            "word": "too big",
+            "sentence": "The desk is too big for his room."
+          },
+          {
+            "word": "too small",
+            "sentence": "The desk is too small for his books."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What's the matter?",
+        "meaning_ar": "ما الأمر؟",
+        "meaning_en": "Asking about a problem.",
+        "example": "I heard a shout. What's the matter?"
+      },
+      {
+        "phrase": "You do look funny!",
+        "meaning_ar": "تبدو مضحكًا حقًّا!",
+        "meaning_en": "Saying someone looks funny.",
+        "example": "Joe sat on the floor. You do look funny!"
+      },
+      {
+        "phrase": "Careful!",
+        "meaning_ar": "احذر!",
+        "meaning_en": "Be careful.",
+        "example": "Careful, Bella! You'll fall."
+      },
+      {
+        "phrase": "Where is she?",
+        "meaning_ar": "أين هي؟",
+        "meaning_en": "Asking where a girl or woman is.",
+        "example": "Where is Bella? - I don't know."
+      },
+      {
+        "phrase": "I think it's just right!",
+        "meaning_ar": "أظن أنه مناسب تمامًا!",
+        "meaning_en": "Not too big and not too small.",
+        "example": "Is this desk OK? - I think it's just right!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "too + adjective / enough",
+        "explanation_ar": "too big = أكبر من اللازم. big enough = كبير بما يكفي. not enough space = لا توجد مساحة كافية.",
+        "explanation_en": "too big = more than good. big enough = as big as needed. not enough space.",
+        "examples": [
+          "It's too big.",
+          "There's not enough space.",
+          "Is the desk big enough to play houses?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Why did the family go shopping?",
+      "choices": [
+        "Joe's desk broke.",
+        "They were bored.",
+        "It was a birthday.",
+        "Bella was sick."
+      ],
+      "answer": 0,
+      "explanation_ar": "انكسر مكتب جو.",
+      "explanation_en": "Joe's desk broke."
+    },
+    {
+      "question": "Where was Bella?",
+      "choices": [
+        "on the sofa",
+        "under Joe's new desk",
+        "in the cafe",
+        "in the car"
+      ],
+      "answer": 1,
+      "explanation_ar": "كانت تحت المكتب الجديد.",
+      "explanation_en": "She was under Joe's new desk."
+    },
+    {
+      "question": "What was Bella doing?",
+      "choices": [
+        "eating",
+        "playing football",
+        "sleeping",
+        "crying"
+      ],
+      "answer": 2,
+      "explanation_ar": "كانت نائمة.",
+      "explanation_en": "She was asleep."
+    },
+    {
+      "question": "Tables, chairs and beds are ___.",
+      "choices": [
+        "clothes",
+        "food",
+        "toys",
+        "furniture"
+      ],
+      "answer": 3,
+      "explanation_ar": "هذه أثاث furniture.",
+      "explanation_en": "They are furniture."
+    },
+    {
+      "question": "The desk is ___ big for the room. (more than good)",
+      "choices": [
+        "too",
+        "to",
+        "two",
+        "very good"
+      ],
+      "answer": 0,
+      "explanation_ar": "too big = أكبر من اللازم.",
+      "explanation_en": "too big = more than good."
+    },
+    {
+      "question": "Mum said the desk was too ___. Dad said it was too small.",
+      "choices": [
+        "small",
+        "big",
+        "old",
+        "cheap"
+      ],
+      "answer": 1,
+      "explanation_ar": "قالت الأم إنه كبير جدًّا.",
+      "explanation_en": "Mum said it was too big."
+    },
+    {
+      "question": "You sleep on a ___.",
+      "choices": [
+        "sofa only",
+        "cupboard",
+        "bed",
+        "desk"
+      ],
+      "answer": 2,
+      "explanation_ar": "ننام على السرير.",
+      "explanation_en": "You sleep on a bed."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "We need some furnitures.",
+        "We need a furnitures.",
+        "We need furnitures new.",
+        "We need some new furniture."
+      ],
+      "answer": 3,
+      "explanation_ar": "furniture غير معدود.",
+      "explanation_en": "furniture has no plural -s."
+    },
+    {
+      "question": "What did Joe drink in the cafe?",
+      "choices": [
+        "a banana milkshake",
+        "tea",
+        "coffee",
+        "water"
+      ],
+      "answer": 0,
+      "explanation_ar": "شرب جو ميلك شيك بالموز.",
+      "explanation_en": "A banana milkshake."
+    },
+    {
+      "question": "\"asleep\" means ___.",
+      "choices": [
+        "awake",
+        "sleeping",
+        "hungry",
+        "lost"
+      ],
+      "answer": 1,
+      "explanation_ar": "asleep = نائم.",
+      "explanation_en": "asleep = sleeping."
+    }
+  ]
+}

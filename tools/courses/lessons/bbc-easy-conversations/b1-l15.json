@@ -1,0 +1,505 @@
+{
+ "title": "Describing your family",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "family",
+    "pos": "noun",
+    "meaning_en": "parents, children and other relatives",
+    "meaning_ar": "العائلة / الأسرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Who's in your family?"
+   },
+   {
+    "word": "family tree",
+    "pos": "noun",
+    "meaning_en": "a drawing that shows all the people in a family",
+    "meaning_ar": "شجرة العائلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is my family tree."
+   },
+   {
+    "word": "parents",
+    "pos": "noun",
+    "meaning_en": "your mother and father",
+    "meaning_ar": "الوالدان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These are my parents."
+   },
+   {
+    "word": "mum",
+    "pos": "noun",
+    "meaning_en": "mother (informal, UK)",
+    "meaning_ar": "أمي / ماما",
+    "note_ar": "في أمريكا: mom.",
+    "note_en": "US: mom.",
+    "example": "This is my mum."
+   },
+   {
+    "word": "dad",
+    "pos": "noun",
+    "meaning_en": "father (informal)",
+    "meaning_ar": "أبي / بابا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "And this is my dad."
+   },
+   {
+    "word": "daughter",
+    "pos": "noun",
+    "meaning_en": "a female child",
+    "meaning_ar": "ابنة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These are my daughters."
+   },
+   {
+    "word": "son",
+    "pos": "noun",
+    "meaning_en": "a male child",
+    "meaning_ar": "ابن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have any sons?"
+   },
+   {
+    "word": "husband",
+    "pos": "noun",
+    "meaning_en": "the man a woman is married to",
+    "meaning_ar": "زوج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That's my husband."
+   },
+   {
+    "word": "wife",
+    "pos": "noun",
+    "meaning_en": "the woman a man is married to",
+    "meaning_ar": "زوجة",
+    "note_ar": "الجمع: wives.",
+    "note_en": "Plural: wives.",
+    "example": "This is my wife."
+   },
+   {
+    "word": "brother",
+    "pos": "noun",
+    "meaning_en": "a boy or man with the same parents as you",
+    "meaning_ar": "أخ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have two younger brothers."
+   },
+   {
+    "word": "sister",
+    "pos": "noun",
+    "meaning_en": "a girl or woman with the same parents as you",
+    "meaning_ar": "أخت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have one younger sister."
+   },
+   {
+    "word": "older",
+    "pos": "adjective",
+    "meaning_en": "born before someone",
+    "meaning_ar": "أكبر سنًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have one older brother."
+   },
+   {
+    "word": "younger",
+    "pos": "adjective",
+    "meaning_en": "born after someone",
+    "meaning_ar": "أصغر سنًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have one younger sister."
+   },
+   {
+    "word": "grandparents",
+    "pos": "noun",
+    "meaning_en": "the parents of your mother or father",
+    "meaning_ar": "الجد والجدة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These are my grandparents."
+   },
+   {
+    "word": "grandma",
+    "pos": "noun",
+    "meaning_en": "grandmother (informal)",
+    "meaning_ar": "جدتي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is my grandma."
+   },
+   {
+    "word": "grandpa",
+    "pos": "noun",
+    "meaning_en": "grandfather (informal)",
+    "meaning_ar": "جدي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is my grandpa."
+   },
+   {
+    "word": "aunt",
+    "pos": "noun",
+    "meaning_en": "the sister of your mother or father",
+    "meaning_ar": "عمة / خالة",
+    "note_ar": "aunt تعني العمة والخالة معًا.",
+    "note_en": "Aunt is used for both sides of the family.",
+    "example": "This is my aunt."
+   },
+   {
+    "word": "uncle",
+    "pos": "noun",
+    "meaning_en": "the brother of your mother or father",
+    "meaning_ar": "عم / خال",
+    "note_ar": "uncle تعني العم والخال معًا.",
+    "note_en": "Uncle is used for both sides of the family.",
+    "example": "This is my uncle."
+   },
+   {
+    "word": "niece",
+    "pos": "noun",
+    "meaning_en": "the daughter of your brother or sister",
+    "meaning_ar": "ابنة الأخ / ابنة الأخت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These are my two nieces."
+   },
+   {
+    "word": "nephew",
+    "pos": "noun",
+    "meaning_en": "the son of your brother or sister",
+    "meaning_ar": "ابن الأخ / ابن الأخت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is my nephew."
+   },
+   {
+    "word": "only child",
+    "pos": "noun",
+    "meaning_en": "a person with no brothers or sisters",
+    "meaning_ar": "الطفل الوحيد (ليس له إخوة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "No, I'm an only child."
+   },
+   {
+    "word": "look at",
+    "pos": "phrasal verb",
+    "meaning_en": "turn your eyes to something",
+    "meaning_ar": "ينظر إلى",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What are you looking at?"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "this vs these",
+    "words": [
+     "this",
+     "these"
+    ],
+    "explanation_ar": "this للمفرد (شخص واحد)، وthese للجمع (أكثر من شخص). This is my mum. / These are my parents.",
+    "explanation_en": "This is for one person; these is for two or more. This is ... / These are ...",
+    "examples": [
+     {
+      "word": "this",
+      "sentence": "This is my aunt."
+     },
+     {
+      "word": "these",
+      "sentence": "These are my grandparents."
+     }
+    ]
+   },
+   {
+    "title": "niece vs nephew",
+    "words": [
+     "niece",
+     "nephew"
+    ],
+    "explanation_ar": "niece = بنت الأخ أو الأخت، وnephew = ابن الأخ أو الأخت.",
+    "explanation_en": "Niece = your brother's or sister's daughter. Nephew = their son.",
+    "examples": [
+     {
+      "word": "niece",
+      "sentence": "This is my niece, my sister's daughter."
+     },
+     {
+      "word": "nephew",
+      "sentence": "This is my nephew, my brother's son."
+     }
+    ]
+   },
+   {
+    "title": "aunt vs uncle",
+    "words": [
+     "aunt",
+     "uncle"
+    ],
+    "explanation_ar": "aunt = العمة أو الخالة (أنثى)، وuncle = العم أو الخال (ذكر).",
+    "explanation_en": "Aunt is a woman (your parent's sister). Uncle is a man (your parent's brother).",
+    "examples": [
+     {
+      "word": "aunt",
+      "sentence": "This is my aunt."
+     },
+     {
+      "word": "uncle",
+      "sentence": "This is my uncle."
+     }
+    ]
+   },
+   {
+    "title": "older vs younger",
+    "words": [
+     "older",
+     "younger"
+    ],
+    "explanation_ar": "older = أكبر سنًا، وyounger = أصغر سنًا. نضعهما قبل brother/sister.",
+    "explanation_en": "Older = born before you. Younger = born after you.",
+    "examples": [
+     {
+      "word": "older",
+      "sentence": "I have one older brother."
+     },
+     {
+      "word": "younger",
+      "sentence": "I have two younger brothers."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Who's in your family?",
+    "meaning_ar": "من في عائلتك؟",
+    "meaning_en": "asking about someone's family",
+    "example": "Who's in your family? This is my mum and this is my dad."
+   },
+   {
+    "phrase": "What are you looking at?",
+    "meaning_ar": "إلى ماذا تنظر؟",
+    "meaning_en": "asking what someone is looking at",
+    "example": "What are you looking at? This is my family tree."
+   },
+   {
+    "phrase": "Who are they?",
+    "meaning_ar": "من هؤلاء؟",
+    "meaning_en": "asking about two or more people",
+    "example": "Who are they? These are my two nieces."
+   },
+   {
+    "phrase": "Who is that?",
+    "meaning_ar": "من ذاك؟",
+    "meaning_en": "asking about one person",
+    "example": "Who is that? That's my husband."
+   },
+   {
+    "phrase": "These are my daughters.",
+    "meaning_ar": "هاتان / هؤلاء بناتي.",
+    "meaning_en": "introducing more than one person",
+    "example": "These are my daughters."
+   },
+   {
+    "phrase": "Do you have any brothers or sisters?",
+    "meaning_ar": "هل لديك إخوة أو أخوات؟",
+    "meaning_en": "asking about brothers and sisters",
+    "example": "Do you have any brothers or sisters? Yes, I have one younger sister."
+   },
+   {
+    "phrase": "Do you have any sons?",
+    "meaning_ar": "هل لديك أبناء؟",
+    "meaning_en": "asking about male children",
+    "example": "Do you have any sons? No, I don't."
+   },
+   {
+    "phrase": "No, I don't.",
+    "meaning_ar": "لا، ليس لدي.",
+    "meaning_en": "short negative answer to Do you have ...?",
+    "example": "Do you have any nieces or nephews? No, I don't."
+   },
+   {
+    "phrase": "No, I'm an only child.",
+    "meaning_ar": "لا، أنا الطفل الوحيد.",
+    "meaning_en": "saying you have no brothers or sisters",
+    "example": "Do you have any brothers or sisters? No, I'm an only child."
+   },
+   {
+    "phrase": "We're talking about our family trees.",
+    "meaning_ar": "نحن نتحدث عن أشجار عائلاتنا.",
+    "meaning_en": "saying what you are doing now",
+    "example": "What are you doing? We're talking about our family trees."
+   },
+   {
+    "phrase": "Do you remember who this is?",
+    "meaning_ar": "هل تتذكر من هذا؟",
+    "meaning_en": "asking someone to recall a person",
+    "example": "Do you remember who this is? This is Sian's daughter."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "This is ... / These are ...",
+    "explanation_ar": "نقدّم شخصًا واحدًا بـ This is، وأكثر من شخص بـ These are. ولشخص بعيد نقول That's.",
+    "explanation_en": "Introduce one person with This is, two or more with These are. For someone further away: That's.",
+    "examples": [
+     "This is my mum.",
+     "These are my parents: my mum and dad.",
+     "That's my husband."
+    ]
+   },
+   {
+    "title": "Possessive 's",
+    "explanation_ar": "لنقول إن شخصًا ينتمي إلى شخص آخر نضيف 's إلى الاسم: Sian's daughter = ابنة شيان.",
+    "explanation_en": "Add 's to a name to show family or ownership: Sian's daughter.",
+    "examples": [
+     "This is Sian's daughter.",
+     "This is Tim's wife.",
+     "This is Buli's uncle."
+    ]
+   },
+   {
+    "title": "Do you have any ...? Yes, I have ... / No, I don't.",
+    "explanation_ar": "نسأل عن أفراد العائلة بـ Do you have any + جمع؟ والجواب: Yes, I have ... أو No, I don't.",
+    "explanation_en": "Ask Do you have any + plural noun? Answer: Yes, I have ... / No, I don't.",
+    "examples": [
+     "Do you have any sons? No, I don't.",
+     "Do you have any brothers or sisters? Yes, I have one older brother and two sisters.",
+     "Do you have any nieces or nephews? No, I don't."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Your mother's sister is your ...",
+   "choices": [
+    "uncle",
+    "niece",
+    "aunt",
+    "grandma"
+   ],
+   "answer": 2,
+   "explanation_ar": "أخت الأم = الخالة = aunt.",
+   "explanation_en": "Your mother's sister is your aunt."
+  },
+  {
+   "question": "Your brother's son is your ...",
+   "choices": [
+    "nephew",
+    "niece",
+    "uncle",
+    "son"
+   ],
+   "answer": 0,
+   "explanation_ar": "ابن الأخ = nephew.",
+   "explanation_en": "Your brother's son is your nephew."
+  },
+  {
+   "question": "Your father's father is your ...",
+   "choices": [
+    "uncle",
+    "dad",
+    "grandpa",
+    "brother"
+   ],
+   "answer": 2,
+   "explanation_ar": "والد الأب = الجد = grandpa.",
+   "explanation_en": "Your father's father is your grandpa."
+  },
+  {
+   "question": "Complete: \"___ are my parents.\"",
+   "choices": [
+    "This",
+    "These",
+    "That",
+    "Is"
+   ],
+   "answer": 1,
+   "explanation_ar": "parents جمع، فنستخدم These are.",
+   "explanation_en": "Parents is plural: These are."
+  },
+  {
+   "question": "\"I'm an only child\" means ...",
+   "choices": [
+    "I have no brothers or sisters.",
+    "I am very young.",
+    "I have one sister.",
+    "I have no parents."
+   ],
+   "answer": 0,
+   "explanation_ar": "only child = ليس له إخوة.",
+   "explanation_en": "An only child has no brothers or sisters."
+  },
+  {
+   "question": "Complete: \"This is ___ wife.\" (the wife of Tim)",
+   "choices": [
+    "Tim",
+    "Tims",
+    "Tim's",
+    "of Tim"
+   ],
+   "answer": 2,
+   "explanation_ar": "نضيف 's للملكية: Tim's wife.",
+   "explanation_en": "Add 's: Tim's wife."
+  },
+  {
+   "question": "\"Do you have any sons?\" Choose the correct answer.",
+   "choices": [
+    "No, I am not.",
+    "No, I don't.",
+    "No, I not.",
+    "No, I doesn't."
+   ],
+   "answer": 1,
+   "explanation_ar": "الجواب القصير: No, I don't.",
+   "explanation_en": "The short answer is No, I don't."
+  },
+  {
+   "question": "Your sister's daughter is your ...",
+   "choices": [
+    "nephew",
+    "aunt",
+    "daughter",
+    "niece"
+   ],
+   "answer": 3,
+   "explanation_ar": "ابنة الأخت = niece.",
+   "explanation_en": "Your sister's daughter is your niece."
+  },
+  {
+   "question": "Your sister was born after you. She is your ___ sister.",
+   "choices": [
+    "older",
+    "younger",
+    "only",
+    "grand"
+   ],
+   "answer": 1,
+   "explanation_ar": "وُلدت بعدك فهي أصغر: younger.",
+   "explanation_en": "Born after you = younger."
+  },
+  {
+   "question": "Which word is British English for mother (informal)?",
+   "choices": [
+    "mom",
+    "mum",
+    "mather",
+    "mumy"
+   ],
+   "answer": 1,
+   "explanation_ar": "mum بريطانية، وmom أمريكية.",
+   "explanation_en": "Mum is British; mom is American."
+  }
+ ]
+}

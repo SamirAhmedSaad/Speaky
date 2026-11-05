@@ -22,49 +22,46 @@ import androidx.compose.ui.text.font.FontWeight
 import network.chaintech.sdpcomposemultiplatform.ssp
 import org.jetbrains.compose.resources.Font
 import speaky.composeapp.generated.resources.Res
-import speaky.composeapp.generated.resources.roboto_bold
-import speaky.composeapp.generated.resources.roboto_medium
-import speaky.composeapp.generated.resources.roboto_regular
+import speaky.composeapp.generated.resources.bricolage_bold
+import speaky.composeapp.generated.resources.bricolage_extrabold
+import speaky.composeapp.generated.resources.jakarta_bold
+import speaky.composeapp.generated.resources.jakarta_extrabold
+import speaky.composeapp.generated.resources.jakarta_medium
+import speaky.composeapp.generated.resources.jakarta_regular
+import speaky.composeapp.generated.resources.jakarta_semibold
 
-// Fantasy Dark Color Palette
+// Dark palette (night mode of the Speaky redesign)
 object SpeakMindColors {
-    // Backgrounds
-    val backgroundDark = Color(0xFF0D0B1E)
-    val backgroundMid = Color(0xFF1A1147)
-    val surface = Color(0xFF1E1A3A)
-    val surfaceVariant = Color(0xFF2A2450)
-    val cardSurface = Color(0xFF2A2450)
+    val backgroundDark = Color(0xFF0F0D1F)
+    val backgroundMid = Color(0xFF0F0D1F)
+    val surface = Color(0xFF1C1934)
+    val surfaceVariant = Color(0xFF2A2550)
+    val cardSurface = Color(0xFF1C1934)
 
-    // Primary accents
-    val neonCyan = Color(0xFF00E5FF)
-    val neonCyanDark = Color(0xFF00B8D4)
-    val neonCyanLight = Color(0xFF80F0FF)
+    val neonCyan = Color(0xFFB9AEFF)
+    val neonCyanDark = Color(0xFF7B61FF)
+    val neonCyanLight = Color(0xFF2A2550)
 
-    // Secondary accents
-    val magenta = Color(0xFFFF2D95)
-    val magentaLight = Color(0xFFFF6DB5)
+    val magenta = Color(0xFFFF8A6B)
+    val magentaLight = Color(0xFF3A2330)
 
-    // Tertiary accents
-    val gold = Color(0xFFFFD700)
-    val goldLight = Color(0xFFFFE566)
+    val gold = Color(0xFFF5D27A)
+    val goldLight = Color(0xFF3A3016)
 
-    // Text
-    val textPrimary = Color(0xFFFFFFFF)
-    val textSecondary = Color(0xFFB0A8D0)
-    val textMuted = Color(0xFF7B7394)
+    val textPrimary = Color(0xFFF3F1FF)
+    val textSecondary = Color(0xFFD6D3EA)
+    val textMuted = Color(0xFFA9A5C4)
 
-    // Chat bubbles
-    val userBubbleStart = Color(0xFF00B8D4)
-    val userBubbleEnd = Color(0xFF00E5FF)
-    val aiBubbleStart = Color(0xFF3D2C6E)
-    val aiBubbleEnd = Color(0xFF5A3E9E)
+    val userBubbleStart = Color(0xFF7B61FF)
+    val userBubbleEnd = Color(0xFF7B61FF)
+    val aiBubbleStart = Color(0xFF1C1934)
+    val aiBubbleEnd = Color(0xFF1C1934)
 
-    // Status
-    val success = Color(0xFF00FF88)
-    val successDark = Color(0xFF00CC6A)
-    val error = Color(0xFFFF4444)
-    val errorDark = Color(0xFFCC3636)
-    val warning = Color(0xFFFFB020)
+    val success = Color(0xFF7EE8C4)
+    val successDark = Color(0xFF12302A)
+    val error = Color(0xFFFF8A8A)
+    val errorDark = Color(0xFF3A2330)
+    val warning = Color(0xFFF5D27A)
 
     // Levels
     val levelA1 = Color(0xFF4CAF50)
@@ -73,89 +70,52 @@ object SpeakMindColors {
     val levelB2 = Color(0xFFFF9800)
     val levelC1 = Color(0xFFF44336)
 
-    // Gradients
-    val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(backgroundDark, backgroundMid)
-    )
-    val userBubbleGradient = Brush.horizontalGradient(
-        colors = listOf(userBubbleStart, userBubbleEnd)
-    )
-    val aiBubbleGradient = Brush.horizontalGradient(
-        colors = listOf(aiBubbleStart, aiBubbleEnd)
-    )
-    val cardGradient = Brush.verticalGradient(
-        colors = listOf(
-            surfaceVariant.copy(alpha = 0.8f),
-            surface.copy(alpha = 0.6f)
-        )
-    )
-    val glowCyan = Brush.radialGradient(
-        colors = listOf(
-            neonCyan.copy(alpha = 0.3f),
-            Color.Transparent
-        )
-    )
+    val backgroundGradient = Brush.verticalGradient(listOf(backgroundDark, backgroundMid))
+    val userBubbleGradient = Brush.horizontalGradient(listOf(userBubbleStart, userBubbleEnd))
+    val aiBubbleGradient = Brush.horizontalGradient(listOf(aiBubbleStart, aiBubbleEnd))
+    val cardGradient = Brush.verticalGradient(listOf(surface, surface))
+    val glowCyan = Brush.radialGradient(listOf(neonCyan.copy(alpha = 0.2f), Color.Transparent))
 }
 
-// Light Color Palette — neutral base so brand colors read as accents, not a purple wash
+// Light palette of the Speaky redesign: flat soft-grey background, white cards, violet brand
 object SpeakMindLightColors {
-    val backgroundDark = Color(0xFFF8F7FF)   // near-white, ~2% purple tint — not fatiguing
-    val backgroundMid  = Color(0xFFF0EBFF)   // subtle lavender depth at gradient end
-    val surface        = Color(0xFFFFFFFF)   // pure white for header, bottom bar
-    val surfaceVariant = Color(0xFFECE6F4)   // soft lavender for cards
-    val cardSurface    = Color(0xFFECE6F4)
+    val backgroundDark = Color(0xFFF6F5FB)
+    val backgroundMid  = Color(0xFFF6F5FB)
+    val surface        = Color(0xFFFFFFFF)
+    val surfaceVariant = Color(0xFFF1EFF8)
+    val cardSurface    = Color(0xFFFFFFFF)
 
-    val neonCyan       = Color(0xFF00677A)   // deep teal — high contrast on white
-    val neonCyanDark   = Color(0xFF004D5C)
-    val neonCyanLight  = Color(0xFF4DD0E1)
+    val neonCyan       = Color(0xFF5B3DF5)
+    val neonCyanDark   = Color(0xFF4129D6)
+    val neonCyanLight  = Color(0xFFECE8FF)
 
-    val magenta        = Color(0xFFC0185A)
-    val magentaLight   = Color(0xFFE84080)
+    val magenta        = Color(0xFFFF6B4A)
+    val magentaLight   = Color(0xFFFFE9E2)
 
-    val gold           = Color(0xFF9A6800)
-    val goldLight      = Color(0xFFC88A00)
+    val gold           = Color(0xFFB7791F)
+    val goldLight      = Color(0xFFFFF4D6)
 
-    // Material You text — neutral grays, proven easy on eyes
-    val textPrimary    = Color(0xFF1C1B1F)
-    val textSecondary  = Color(0xFF49454F)
-    val textMuted      = Color(0xFF79747E)
+    val textPrimary    = Color(0xFF17142B)
+    val textSecondary  = Color(0xFF3B3852)
+    val textMuted      = Color(0xFF6B6880)
 
-    // User bubble: teal brand color, white text at 5.9:1 contrast ✓
-    val userBubbleStart = Color(0xFF006D7A)
-    val userBubbleEnd   = Color(0xFF0097A7)
-    // AI bubble: white — pops cleanly on the barely-tinted background
+    val userBubbleStart = Color(0xFF5B3DF5)
+    val userBubbleEnd   = Color(0xFF5B3DF5)
     val aiBubbleStart   = Color(0xFFFFFFFF)
-    val aiBubbleEnd     = Color(0xFFF8F5FF)  // barely tinted bottom
-    // Border gives AI bubbles visual definition without adding color weight
-    val aiBubbleBorder  = Color(0xFFCFC6E4)
+    val aiBubbleEnd     = Color(0xFFFFFFFF)
+    val aiBubbleBorder  = Color.Transparent
 
-    val success     = Color(0xFF2E7D32)
-    val successDark = Color(0xFF1B5E20)
-    val error       = Color(0xFFB71C1C)
-    val errorDark   = Color(0xFF7F0000)
-    val warning     = Color(0xFF8D4E00)
+    val success     = Color(0xFF0B7A57)
+    val successDark = Color(0xFFDDF6EC)
+    val error       = Color(0xFFB42318)
+    val errorDark   = Color(0xFFFDE2E2)
+    val warning     = Color(0xFF7A5200)
 
-    val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(backgroundDark, backgroundMid)
-    )
-    val userBubbleGradient = Brush.horizontalGradient(
-        colors = listOf(userBubbleStart, userBubbleEnd)
-    )
-    val aiBubbleGradient = Brush.horizontalGradient(
-        colors = listOf(aiBubbleStart, aiBubbleEnd)
-    )
-    val cardGradient = Brush.verticalGradient(
-        colors = listOf(
-            surfaceVariant.copy(alpha = 0.8f),
-            surface.copy(alpha = 0.6f)
-        )
-    )
-    val glowCyan = Brush.radialGradient(
-        colors = listOf(
-            neonCyan.copy(alpha = 0.15f),
-            Color.Transparent
-        )
-    )
+    val backgroundGradient = Brush.verticalGradient(listOf(backgroundDark, backgroundMid))
+    val userBubbleGradient = Brush.horizontalGradient(listOf(userBubbleStart, userBubbleEnd))
+    val aiBubbleGradient = Brush.horizontalGradient(listOf(aiBubbleStart, aiBubbleEnd))
+    val cardGradient = Brush.verticalGradient(listOf(surface, surface))
+    val glowCyan = Brush.radialGradient(listOf(neonCyan.copy(alpha = 0.12f), Color.Transparent))
 }
 
 @Immutable
@@ -180,14 +140,38 @@ data class SpeakMindThemeColors(
     val aiBubbleGradient: Brush = SpeakMindColors.aiBubbleGradient,
     val cardGradient: Brush = SpeakMindColors.cardGradient,
     val glowCyan: Brush = SpeakMindColors.glowCyan,
+    /** Soft tint of the brand colour (chips, icon circles). */
+    val primarySoft: Color = SpeakMindColors.neonCyanLight,
+    /** Text/icons on [primarySoft]. */
+    val onPrimarySoft: Color = Color(0xFFD9D2FF),
+    val coral: Color = SpeakMindColors.magenta,
+    val coralSoft: Color = SpeakMindColors.magentaLight,
+    val onCoralSoft: Color = Color(0xFFFFB4A1),
+    val mintSoft: Color = SpeakMindColors.successDark,
+    val onMintSoft: Color = SpeakMindColors.success,
+    val goldSoft: Color = SpeakMindColors.goldLight,
+    val onGoldSoft: Color = SpeakMindColors.gold,
+    val track: Color = SpeakMindColors.surfaceVariant,
+    val faint: Color = Color(0xFF8A87A0),
+    /** Text and icons on a brand-filled background (buttons, my bubbles). */
+    val onPrimary: Color = Color.White,
+    /** Text on my chat bubbles ([userBubbleGradient]). */
+    val onBubble: Color = Color.White,
+    val isDark: Boolean = true,
+    /** Gold Luxe / Rose Gold, the Premium themes. */
+    val isGold: Boolean = false,
 )
 
 val LocalSpeakMindColors = staticCompositionLocalOf { SpeakMindThemeColors() }
 
+/** Bricolage Grotesque, for big titles and numbers. */
+val LocalDisplayFont = staticCompositionLocalOf<FontFamily> { FontFamily.Default }
+
 private val DarkColorScheme = darkColorScheme(
     primary = SpeakMindColors.neonCyan,
     onPrimary = SpeakMindColors.backgroundDark,
-    primaryContainer = SpeakMindColors.neonCyanDark,
+    primaryContainer = SpeakMindColors.neonCyanLight,
+    onPrimaryContainer = SpeakMindColors.textPrimary,
     secondary = SpeakMindColors.magenta,
     onSecondary = Color.White,
     tertiary = SpeakMindColors.gold,
@@ -197,6 +181,11 @@ private val DarkColorScheme = darkColorScheme(
     onSurface = SpeakMindColors.textPrimary,
     surfaceVariant = SpeakMindColors.surfaceVariant,
     onSurfaceVariant = SpeakMindColors.textSecondary,
+    surfaceContainer = SpeakMindColors.surface,
+    surfaceContainerHigh = SpeakMindColors.surface,
+    surfaceContainerLow = SpeakMindColors.surface,
+    outline = Color(0xFF4A4570),
+    outlineVariant = Color(0xFF2E2A4A),
     error = SpeakMindColors.error,
     onError = Color.White,
 )
@@ -205,6 +194,12 @@ private val LightColorScheme = lightColorScheme(
     primary = SpeakMindLightColors.neonCyan,
     onPrimary = Color.White,
     primaryContainer = SpeakMindLightColors.neonCyanLight,
+    onPrimaryContainer = Color(0xFF2E1E9E),
+    surfaceContainer = SpeakMindLightColors.surface,
+    surfaceContainerHigh = SpeakMindLightColors.surface,
+    surfaceContainerLow = SpeakMindLightColors.surface,
+    outline = Color(0xFFC9C5E0),
+    outlineVariant = Color(0xFFEAE7F4),
     secondary = SpeakMindLightColors.magenta,
     onSecondary = Color.White,
     tertiary = SpeakMindLightColors.gold,
@@ -238,6 +233,7 @@ private val DarkSpeakMindThemeColors = SpeakMindThemeColors(
     aiBubbleGradient = SpeakMindColors.aiBubbleGradient,
     cardGradient = SpeakMindColors.cardGradient,
     glowCyan = SpeakMindColors.glowCyan,
+    onPrimary = Color(0xFF17142B),
 )
 
 private val LightSpeakMindThemeColors = SpeakMindThemeColors(
@@ -261,40 +257,152 @@ private val LightSpeakMindThemeColors = SpeakMindThemeColors(
     aiBubbleGradient = SpeakMindLightColors.aiBubbleGradient,
     cardGradient = SpeakMindLightColors.cardGradient,
     glowCyan = SpeakMindLightColors.glowCyan,
+    primarySoft = SpeakMindLightColors.neonCyanLight,
+    onPrimarySoft = Color(0xFF2E1E9E),
+    coral = SpeakMindLightColors.magenta,
+    coralSoft = SpeakMindLightColors.magentaLight,
+    onCoralSoft = Color(0xFF9A3412),
+    mintSoft = Color(0xFFDDF6EC),
+    onMintSoft = Color(0xFF0B5E45),
+    goldSoft = SpeakMindLightColors.goldLight,
+    onGoldSoft = SpeakMindLightColors.warning,
+    track = Color(0xFFEFEDF7),
+    faint = Color(0xFF8A87A0),
+    isDark = false,
+)
+
+// Gold Luxe: warm black with gold (Premium)
+private val GoldLuxeThemeColors = SpeakMindThemeColors(
+    backgroundDark = Color(0xFF121008),
+    backgroundMid = Color(0xFF121008),
+    surface = Color(0xFF1E1A10),
+    surfaceVariant = Color(0xFF2A2312),
+    neonCyan = Color(0xFFD4A017),
+    neonCyanDark = Color(0xFFF5D27A),
+    magenta = Color(0xFFFF8A6B),
+    gold = Color(0xFFF5D27A),
+    textPrimary = Color(0xFFF7F1DE),
+    textSecondary = Color(0xFFD9CFAE),
+    textMuted = Color(0xFFB8AE8E),
+    success = Color(0xFF7EE8C4),
+    error = Color(0xFFFF8A8A),
+    warning = Color(0xFFF5D27A),
+    backgroundGradient = Brush.verticalGradient(listOf(Color(0xFF121008), Color(0xFF121008))),
+    userBubbleGradient = Brush.linearGradient(listOf(Color(0xFFF5D27A), Color(0xFFD4A017), Color(0xFFA87A0C))),
+    aiBubbleGradient = Brush.horizontalGradient(listOf(Color(0xFF1E1A10), Color(0xFF1E1A10))),
+    cardGradient = Brush.verticalGradient(listOf(Color(0xFF1E1A10), Color(0xFF1E1A10))),
+    glowCyan = Brush.radialGradient(listOf(Color(0x33D4A017), Color.Transparent)),
+    primarySoft = Color(0xFF2E2714),
+    onPrimarySoft = Color(0xFFF5D27A),
+    coral = Color(0xFFFF8A6B),
+    coralSoft = Color(0xFF3A2318),
+    onCoralSoft = Color(0xFFFFB4A1),
+    mintSoft = Color(0xFF12302A),
+    onMintSoft = Color(0xFF7EE8C4),
+    goldSoft = Color(0xFF3A3016),
+    onGoldSoft = Color(0xFFF5D27A),
+    track = Color(0xFF2A2312),
+    faint = Color(0xFF8F866B),
+    onPrimary = Color(0xFF2B1D00),
+    onBubble = Color(0xFF2B1D00),
+    isDark = true,
+    isGold = true,
+)
+
+// Rose Gold: warm light with copper accents (Premium)
+private val RoseGoldThemeColors = SpeakMindThemeColors(
+    backgroundDark = Color(0xFFFFF5F1),
+    backgroundMid = Color(0xFFFFF5F1),
+    surface = Color(0xFFFFFFFF),
+    surfaceVariant = Color(0xFFF8EBE5),
+    neonCyan = Color(0xFFB0664F),
+    neonCyanDark = Color(0xFF8E4B37),
+    magenta = Color(0xFFE5674A),
+    gold = Color(0xFFB7791F),
+    textPrimary = Color(0xFF2A1A15),
+    textSecondary = Color(0xFF4A3530),
+    textMuted = Color(0xFF7D6660),
+    success = Color(0xFF0B7A57),
+    error = Color(0xFFB42318),
+    warning = Color(0xFF7A5200),
+    backgroundGradient = Brush.verticalGradient(listOf(Color(0xFFFFF5F1), Color(0xFFFFF5F1))),
+    userBubbleGradient = Brush.linearGradient(listOf(Color(0xFFC27A63), Color(0xFFA85F49))),
+    aiBubbleGradient = Brush.horizontalGradient(listOf(Color.White, Color.White)),
+    cardGradient = Brush.verticalGradient(listOf(Color.White, Color.White)),
+    glowCyan = Brush.radialGradient(listOf(Color(0x1FC27A63), Color.Transparent)),
+    primarySoft = Color(0xFFF8E4DC),
+    onPrimarySoft = Color(0xFF7A3E2C),
+    coral = Color(0xFFE5674A),
+    coralSoft = Color(0xFFFFE9E2),
+    onCoralSoft = Color(0xFF9A3412),
+    mintSoft = Color(0xFFDDF6EC),
+    onMintSoft = Color(0xFF0B5E45),
+    goldSoft = Color(0xFFFFF4D6),
+    onGoldSoft = Color(0xFF7A5200),
+    track = Color(0xFFF3E6E0),
+    faint = Color(0xFF9C8780),
+    isDark = false,
+    isGold = true,
 )
 
 @Composable
 fun SpeakMindTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    appTheme: AppTheme = if (isSystemInDarkTheme()) AppTheme.Dark else AppTheme.Violet,
     content: @Composable () -> Unit,
 ) {
     val fontFamily = FontFamily(
-        Font(Res.font.roboto_regular, FontWeight.Normal),
-        Font(Res.font.roboto_medium, FontWeight.Medium),
-        Font(Res.font.roboto_bold, FontWeight.Bold),
+        Font(Res.font.jakarta_regular, FontWeight.Normal),
+        Font(Res.font.jakarta_medium, FontWeight.Medium),
+        Font(Res.font.jakarta_semibold, FontWeight.SemiBold),
+        Font(Res.font.jakarta_bold, FontWeight.Bold),
+        Font(Res.font.jakarta_extrabold, FontWeight.ExtraBold),
+    )
+    val displayFamily = FontFamily(
+        Font(Res.font.bricolage_bold, FontWeight.Bold),
+        Font(Res.font.bricolage_extrabold, FontWeight.ExtraBold),
     )
 
-    val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
-    val speakMindColors = if (darkTheme) DarkSpeakMindThemeColors else LightSpeakMindThemeColors
+    val speakMindColors = when (appTheme) {
+        AppTheme.Dark -> DarkSpeakMindThemeColors
+        AppTheme.GoldLuxe -> GoldLuxeThemeColors
+        AppTheme.RoseGold -> RoseGoldThemeColors
+        else -> LightSpeakMindThemeColors
+    }
+    val base = if (speakMindColors.isDark) DarkColorScheme else LightColorScheme
+    val colorScheme = if (!speakMindColors.isGold) base else base.copy(
+        primary = speakMindColors.neonCyan,
+        onPrimary = speakMindColors.onPrimary,
+        primaryContainer = speakMindColors.primarySoft,
+        onPrimaryContainer = speakMindColors.onPrimarySoft,
+        background = speakMindColors.backgroundDark,
+        onBackground = speakMindColors.textPrimary,
+        surface = speakMindColors.surface,
+        onSurface = speakMindColors.textPrimary,
+        surfaceVariant = speakMindColors.surfaceVariant,
+        onSurfaceVariant = speakMindColors.textSecondary,
+        surfaceContainer = speakMindColors.surface,
+        surfaceContainerHigh = speakMindColors.surface,
+        surfaceContainerLow = speakMindColors.surface,
+    )
 
     val typography = Typography(
         displayLarge = TextStyle(
-            fontFamily = fontFamily,
-            fontWeight = FontWeight.Bold,
+            fontFamily = displayFamily,
+            fontWeight = FontWeight.ExtraBold,
             fontSize = 32.ssp,
             lineHeight = 40.ssp,
             color = speakMindColors.textPrimary
         ),
         headlineLarge = TextStyle(
-            fontFamily = fontFamily,
-            fontWeight = FontWeight.Bold,
+            fontFamily = displayFamily,
+            fontWeight = FontWeight.ExtraBold,
             fontSize = 28.ssp,
             lineHeight = 36.ssp,
             color = speakMindColors.textPrimary
         ),
         headlineMedium = TextStyle(
-            fontFamily = fontFamily,
-            fontWeight = FontWeight.Bold,
+            fontFamily = displayFamily,
+            fontWeight = FontWeight.ExtraBold,
             fontSize = 24.ssp,
             lineHeight = 32.ssp,
             color = speakMindColors.textPrimary
@@ -364,6 +472,7 @@ fun SpeakMindTheme(
 
     CompositionLocalProvider(
         LocalSpeakMindColors provides speakMindColors,
+        LocalDisplayFont provides displayFamily,
         LocalLayoutDirection provides LayoutDirection.Ltr,
     ) {
         MaterialTheme(

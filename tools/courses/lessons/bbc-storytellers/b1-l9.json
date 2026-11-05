@@ -1,0 +1,329 @@
+{
+  "title": "Camping",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "camping",
+        "pos": "noun",
+        "meaning_en": "sleeping in a tent outside",
+        "meaning_ar": "التخييم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was Bella's first camping trip."
+      },
+      {
+        "word": "tent",
+        "pos": "noun",
+        "meaning_en": "a cloth house you sleep in outside",
+        "meaning_ar": "خيمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They put up the tent."
+      },
+      {
+        "word": "sleeping bag",
+        "pos": "noun",
+        "meaning_en": "a warm bag you sleep in",
+        "meaning_ar": "كيس نوم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They crawled into their sleeping bags."
+      },
+      {
+        "word": "blanket",
+        "pos": "noun",
+        "meaning_en": "a big warm cover for a bed",
+        "meaning_ar": "بطانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's cold at night. Bring a blanket."
+      },
+      {
+        "word": "wind",
+        "pos": "noun",
+        "meaning_en": "moving air",
+        "meaning_ar": "ريح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What if the wind blows it away?"
+      },
+      {
+        "word": "wolf",
+        "pos": "noun",
+        "meaning_en": "a wild animal like a big dog",
+        "meaning_ar": "ذئب",
+        "note_ar": "الجمع: wolves",
+        "note_en": "Plural: wolves.",
+        "example": "There aren't any wolves in Britain."
+      },
+      {
+        "word": "zoo",
+        "pos": "noun",
+        "meaning_en": "a place where people go to see animals",
+        "meaning_ar": "حديقة حيوان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wolves live in zoos."
+      },
+      {
+        "word": "hill",
+        "pos": "noun",
+        "meaning_en": "high land, smaller than a mountain",
+        "meaning_ar": "تلّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look at the hills!"
+      },
+      {
+        "word": "field",
+        "pos": "noun",
+        "meaning_en": "open land with grass, often on a farm",
+        "meaning_ar": "حقل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The campsite was in a big field."
+      },
+      {
+        "word": "tree",
+        "pos": "noun",
+        "meaning_en": "a tall plant with a trunk and leaves",
+        "meaning_ar": "شجرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There were trees to climb."
+      },
+      {
+        "word": "rabbit",
+        "pos": "noun",
+        "meaning_en": "a small animal with long ears",
+        "meaning_ar": "أرنب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's just a rabbit."
+      },
+      {
+        "word": "cow",
+        "pos": "noun",
+        "meaning_en": "a big farm animal that gives milk",
+        "meaning_ar": "بقرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A cow looked at him."
+      },
+      {
+        "word": "noise",
+        "pos": "noun",
+        "meaning_en": "a sound",
+        "meaning_ar": "صوت / ضجيج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's that noise?"
+      },
+      {
+        "word": "nervous",
+        "pos": "adjective",
+        "meaning_en": "a little afraid",
+        "meaning_ar": "متوتّر / قلِق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She was excited but nervous too."
+      },
+      {
+        "word": "dark",
+        "pos": "adjective",
+        "meaning_en": "with no light",
+        "meaning_ar": "مظلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was getting dark."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "excited vs nervous",
+        "words": [
+          "excited",
+          "nervous"
+        ],
+        "explanation_ar": "excited = متحمّس وسعيد، و nervous = قلق وخائف قليلًا. يمكن أن تشعر بالاثنين معًا.",
+        "explanation_en": "\"excited\" = happy and can't wait. \"nervous\" = a little afraid. You can feel both.",
+        "examples": [
+          {
+            "word": "excited",
+            "sentence": "Joe was excited about the hike."
+          },
+          {
+            "word": "nervous",
+            "sentence": "Bella was nervous about wolves."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What if the tent falls over?",
+        "meaning_ar": "ماذا لو سقطت الخيمة؟",
+        "meaning_en": "Talking about a worry.",
+        "example": "What if it rains? - Don't worry. We have a tent."
+      },
+      {
+        "phrase": "Let's get ready!",
+        "meaning_ar": "هيا نستعد!",
+        "meaning_en": "Start preparing now.",
+        "example": "Let's get ready, kids! We're going camping."
+      },
+      {
+        "phrase": "I can't wait.",
+        "meaning_ar": "لا أطيق الانتظار.",
+        "meaning_en": "You are very excited.",
+        "example": "Tomorrow we go on a hike. - I can't wait!"
+      },
+      {
+        "phrase": "What's that noise?",
+        "meaning_ar": "ما هذا الصوت؟",
+        "meaning_en": "Asking about a sound.",
+        "example": "What's that noise? - It's just the wind."
+      },
+      {
+        "phrase": "Time for bed.",
+        "meaning_ar": "حان وقت النوم.",
+        "meaning_en": "It's time to sleep.",
+        "example": "It's nine o'clock. Time for bed."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "There is / There are + any",
+        "explanation_ar": "نقول There is لمفرد، و There are لجمع. في النفي نقول There aren't any: There aren't any wolves.",
+        "explanation_en": "There is (one) / There are (many). Negative: There aren't any ...",
+        "examples": [
+          "There aren't any wolves in Britain.",
+          "There were trees to climb.",
+          "There is a cow next to the tent."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What was Bella afraid of?",
+      "choices": [
+        "a wolf",
+        "a cow",
+        "the car",
+        "the rain"
+      ],
+      "answer": 0,
+      "explanation_ar": "كانت بيلا خائفة من الذئب.",
+      "explanation_en": "She was afraid of a wolf."
+    },
+    {
+      "question": "What did Joe see outside the tent?",
+      "choices": [
+        "a wolf",
+        "a cow",
+        "a rabbit",
+        "a dog"
+      ],
+      "answer": 1,
+      "explanation_ar": "رأى جو بقرة.",
+      "explanation_en": "He saw a cow."
+    },
+    {
+      "question": "You sleep in a ___ when you go camping.",
+      "choices": [
+        "shop",
+        "zoo",
+        "sleeping bag",
+        "car only"
+      ],
+      "answer": 2,
+      "explanation_ar": "ننام في كيس النوم.",
+      "explanation_en": "You sleep in a sleeping bag."
+    },
+    {
+      "question": "There ___ any wolves in Britain.",
+      "choices": [
+        "isn't",
+        "is",
+        "are",
+        "aren't"
+      ],
+      "answer": 3,
+      "explanation_ar": "النفي مع الجمع: aren't any.",
+      "explanation_en": "Plural negative: aren't any."
+    },
+    {
+      "question": "Bella was happy but a little afraid. She was excited and ___.",
+      "choices": [
+        "nervous",
+        "bored",
+        "hungry",
+        "dark"
+      ],
+      "answer": 0,
+      "explanation_ar": "قليل من الخوف = nervous.",
+      "explanation_en": "A little afraid = nervous."
+    },
+    {
+      "question": "A big farm animal that gives milk is a ___.",
+      "choices": [
+        "wolf",
+        "cow",
+        "rabbit",
+        "tent"
+      ],
+      "answer": 1,
+      "explanation_ar": "البقرة تعطي الحليب.",
+      "explanation_en": "A cow gives milk."
+    },
+    {
+      "question": "Tomorrow is a fun day. You say: ___",
+      "choices": [
+        "Time for bed.",
+        "What's that noise?",
+        "I can't wait.",
+        "Don't worry."
+      ],
+      "answer": 2,
+      "explanation_ar": "للتعبير عن الحماس: I can't wait.",
+      "explanation_en": "Say \"I can't wait.\""
+    },
+    {
+      "question": "One wolf, two ___.",
+      "choices": [
+        "wolfs",
+        "wolf",
+        "wolfes",
+        "wolves"
+      ],
+      "answer": 3,
+      "explanation_ar": "جمع wolf هو wolves.",
+      "explanation_en": "The plural of wolf is wolves."
+    },
+    {
+      "question": "It was getting ___. The sun went down.",
+      "choices": [
+        "dark",
+        "light",
+        "hot",
+        "wet"
+      ],
+      "answer": 0,
+      "explanation_ar": "عندما تغيب الشمس يصبح الجو مظلمًا.",
+      "explanation_en": "No sun = dark."
+    },
+    {
+      "question": "\"tent\" in Arabic is ___.",
+      "choices": [
+        "خيمة",
+        "بطانية",
+        "شجرة",
+        "حقل"
+      ],
+      "answer": 0,
+      "explanation_ar": "tent = خيمة.",
+      "explanation_en": "A tent is a cloth house."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "title": "The Four Seasons and the Weather",
+  "content": {
+    "vocabulary": [
+      {"word": "season", "pos": "noun", "meaning_en": "one of the four parts of the year", "meaning_ar": "فصل (من فصول السنة)", "note_ar": "الجمع seasons", "note_en": "Plural: seasons.", "example": "There are four seasons in a year."},
+      {"word": "year", "pos": "noun", "meaning_en": "twelve months", "meaning_ar": "سنة", "note_ar": "", "note_en": "", "example": "There are four seasons in a year."},
+      {"word": "winter", "pos": "noun", "meaning_en": "the coldest season", "meaning_ar": "الشتاء", "note_ar": "", "note_en": "", "example": "It's rainy and cold in winter."},
+      {"word": "spring", "pos": "noun", "meaning_en": "the season after winter, when flowers grow", "meaning_ar": "الربيع", "note_ar": "", "note_en": "", "example": "It's windy and warm in spring."},
+      {"word": "summer", "pos": "noun", "meaning_en": "the hottest season", "meaning_ar": "الصيف", "note_ar": "", "note_en": "", "example": "It's hot and sunny in summer."},
+      {"word": "fall / autumn", "pos": "noun", "meaning_en": "the season after summer, when leaves fall", "meaning_ar": "الخريف", "note_ar": "fall أشيع في أمريكا، و autumn أشيع في بريطانيا", "note_en": "\"Fall\" is American English; \"autumn\" is British English.", "example": "It's cloudy and cool in fall."},
+      {"word": "weather", "pos": "noun", "meaning_en": "how hot, cold, rainy or windy it is outside", "meaning_ar": "الطقس", "note_ar": "غالبًا نضع قبلها the: the weather", "note_en": "We usually say \"the weather\".", "example": "What's the weather like today?"},
+      {"word": "rain", "pos": "noun", "meaning_en": "water that falls from clouds", "meaning_ar": "مطر", "note_ar": "", "note_en": "", "example": "I like the sound of rain."},
+      {"word": "rainy", "pos": "adjective", "meaning_en": "with a lot of rain", "meaning_ar": "ممطر", "note_ar": "rain + y = rainy", "note_en": "rain + y = rainy", "example": "It's rainy in winter."},
+      {"word": "cold", "pos": "adjective", "meaning_en": "very low in temperature", "meaning_ar": "بارد", "note_ar": "", "note_en": "", "example": "It's cold in winter."},
+      {"word": "wind", "pos": "noun", "meaning_en": "moving air", "meaning_ar": "رياح / هواء", "note_ar": "", "note_en": "", "example": "The wind is strong today."},
+      {"word": "windy", "pos": "adjective", "meaning_en": "with a lot of wind", "meaning_ar": "عاصف / به رياح", "note_ar": "wind + y = windy", "note_en": "wind + y = windy", "example": "It's windy in spring."},
+      {"word": "warm", "pos": "adjective", "meaning_en": "a little hot, nice", "meaning_ar": "دافئ", "note_ar": "تُنطق /wɔːrm/", "note_en": "Say /wɔːrm/.", "example": "It's warm in spring."},
+      {"word": "hot", "pos": "adjective", "meaning_en": "very high in temperature", "meaning_ar": "حار", "note_ar": "", "note_en": "", "example": "It's hot in summer."},
+      {"word": "sun", "pos": "noun", "meaning_en": "the big star that gives us light", "meaning_ar": "الشمس", "note_ar": "", "note_en": "", "example": "The sun is strong in summer."},
+      {"word": "sunny", "pos": "adjective", "meaning_en": "with a lot of sunshine", "meaning_ar": "مشمس", "note_ar": "نكرر حرف n ثم نضيف y: sun → sunny", "note_en": "Double the n, then add y: sun → sunny.", "example": "It's hot and sunny."},
+      {"word": "cloud", "pos": "noun", "meaning_en": "a white or grey shape in the sky", "meaning_ar": "سحابة", "note_ar": "", "note_en": "", "example": "There is a big cloud in the sky."},
+      {"word": "cloudy", "pos": "adjective", "meaning_en": "with many clouds", "meaning_ar": "غائم / مغيم", "note_ar": "cloud + y = cloudy", "note_en": "cloud + y = cloudy", "example": "It's cloudy and cool in fall."},
+      {"word": "cool", "pos": "adjective", "meaning_en": "a little cold, fresh", "meaning_ar": "مائل للبرودة / منعش", "note_ar": "", "note_en": "", "example": "It's cool in the evening."},
+      {"word": "before", "pos": "preposition", "meaning_en": "earlier than", "meaning_ar": "قبل", "note_ar": "", "note_en": "", "example": "Fall comes before winter."},
+      {"word": "after", "pos": "preposition", "meaning_en": "later than", "meaning_ar": "بعد", "note_ar": "", "note_en": "", "example": "Summer comes after spring."},
+      {"word": "come", "pos": "verb", "meaning_en": "arrive, happen", "meaning_ar": "يأتي", "note_ar": "مع اسم مفرد: comes (مضارع بسيط لأنها حقيقة)", "note_en": "With a singular noun: comes (present simple, because it's a fact).", "example": "Spring comes after winter."},
+      {"word": "favourite", "pos": "adjective", "meaning_en": "the one you like the most", "meaning_ar": "مفضل", "note_ar": "في الأمريكية تُكتب favorite", "note_en": "American spelling: favorite.", "example": "Fall is my favourite season."},
+      {"word": "and", "pos": "conjunction", "meaning_en": "a word that joins two things", "meaning_ar": "و", "note_ar": "", "note_en": "", "example": "It's rainy and cold."}
+    ],
+    "fine_lines": [
+      {"title": "cold vs cool", "words": ["cold", "cool"], "explanation_ar": "cold = بارد جدًا مثل الشتاء، أما cool = بارد قليلًا ومنعش.", "explanation_en": "Cold is very low in temperature; cool is only a little cold and pleasant.", "examples": [{"word": "cold", "sentence": "It's cold in winter. Wear a coat."}, {"word": "cool", "sentence": "It's cool in the evening in fall."}]},
+      {"title": "hot vs warm", "words": ["hot", "warm"], "explanation_ar": "hot = حار جدًا مثل الصيف، و warm = دافئ ولطيف مثل الربيع.", "explanation_en": "Hot is very high in temperature; warm is nicely hot.", "examples": [{"word": "hot", "sentence": "It's hot in summer."}, {"word": "warm", "sentence": "It's warm in spring."}]},
+      {"title": "before vs after", "words": ["before", "after"], "explanation_ar": "before = قبل، و after = بعد. ترتيب الفصول: winter ثم spring ثم summer ثم fall.", "explanation_en": "Before means earlier; after means later. Order: winter, spring, summer, fall.", "examples": [{"word": "before", "sentence": "Spring comes before summer."}, {"word": "after", "sentence": "Summer comes after spring."}]},
+      {"title": "noun vs adjective: rain / rainy", "words": ["rain", "rainy", "sun", "sunny"], "explanation_ar": "نضيف y للاسم فيصبح صفة للطقس: rain ← rainy، wind ← windy، cloud ← cloudy، و sun ← sunny مع تكرار n.", "explanation_en": "Add y to a weather noun to make an adjective: rain → rainy, wind → windy, cloud → cloudy, sun → sunny (double n).", "examples": [{"word": "rain", "sentence": "The rain is heavy."}, {"word": "rainy", "sentence": "It's rainy today."}, {"word": "sun", "sentence": "The sun is bright."}, {"word": "sunny", "sentence": "It's sunny today."}]}
+    ],
+    "expressions": [
+      {"phrase": "What's the weather like?", "meaning_ar": "ما حالة الطقس؟ / كيف الجو؟", "meaning_en": "Asking about the weather.", "example": "What's the weather like today? It's sunny."},
+      {"phrase": "It's rainy and cold in winter.", "meaning_ar": "الجو ممطر وبارد في الشتاء.", "meaning_en": "Describing winter weather.", "example": "It's rainy and cold in winter, so I stay at home."},
+      {"phrase": "It's windy and warm in spring.", "meaning_ar": "الجو عاصف ودافئ في الربيع.", "meaning_en": "Describing spring weather.", "example": "It's windy and warm in spring."},
+      {"phrase": "It's hot and sunny in summer.", "meaning_ar": "الجو حار ومشمس في الصيف.", "meaning_en": "Describing summer weather.", "example": "It's hot and sunny in summer. Let's go to the beach."},
+      {"phrase": "It's cloudy and cool in fall.", "meaning_ar": "الجو غائم ومائل للبرودة في الخريف.", "meaning_en": "Describing fall weather.", "example": "It's cloudy and cool in fall."},
+      {"phrase": "There are four seasons in a year.", "meaning_ar": "توجد أربعة فصول في السنة.", "meaning_en": "A fact about the year.", "example": "There are four seasons in a year: winter, spring, summer and fall."},
+      {"phrase": "Fall is my favourite season.", "meaning_ar": "الخريف فصلي المفضل.", "meaning_en": "Saying which season you like most.", "example": "I like cool weather. Fall is my favourite season."},
+      {"phrase": "Summer comes after spring.", "meaning_ar": "الصيف يأتي بعد الربيع.", "meaning_en": "Talking about the order of seasons.", "example": "Summer comes after spring and before fall."}
+    ],
+    "grammar": [
+      {"title": "It's + weather adjective", "explanation_ar": "للحديث عن الطقس نستخدم It's (اختصار It is)، لأن الطقس غير إنسان فنستخدم it. ثم نضيف صفة الطقس، ويمكن ربط صفتين بـ and وإضافة الفصل بـ in.", "explanation_en": "Use It's (It is) for weather, because weather is not a person. Add a weather adjective; join two with and; add the season with in.", "examples": ["It's rainy.", "It's cold in winter.", "It's hot and sunny in summer.", "It's windy and warm in spring."]},
+      {"title": "Asking about the weather", "explanation_ar": "السؤال: What's the weather like? (ما حالة الطقس؟). يبدأ بحرف W كبير وينتهي بعلامة استفهام، والإجابة تبدأ بـ It's.", "explanation_en": "Ask: What's the weather like? Start with a capital W and end with a question mark. Answer with It's.", "examples": ["What's the weather like? It's cloudy and cool.", "What's the weather like in summer? It's hot."]},
+      {"title": "Making weather adjectives with -y", "explanation_ar": "كثير من صفات الطقس تأتي من اسم + y: rain ← rainy، wind ← windy، cloud ← cloudy. في sun نكرر n: sunny.", "explanation_en": "Many weather adjectives are noun + y: rainy, windy, cloudy. For sun, double the n: sunny.", "examples": ["rain → rainy", "wind → windy", "cloud → cloudy", "sun → sunny"]},
+      {"title": "Facts about seasons: present simple with before / after", "explanation_ar": "ترتيب الفصول حقيقة ثابتة، فنستخدم المضارع البسيط. الفصل اسم مفرد (من أصحاب الـ s) فنقول comes. ونستخدم There are four seasons لأن seasons جمع.", "explanation_en": "The order of seasons is a fact, so use the present simple. A season is singular, so say comes. Use There are with the plural seasons.", "examples": ["There are four seasons in a year.", "Spring comes after winter.", "Fall comes before winter."]}
+    ]
+  },
+  "questions": [
+    {"question": "What does \"winter\" mean?", "choices": ["الصيف", "الربيع", "الخريف", "الشتاء"], "answer": 3, "explanation_ar": "winter = الشتاء.", "explanation_en": "Winter is the coldest season."},
+    {"question": "___ the weather like?", "choices": ["What's", "Where's", "How many", "Who's"], "answer": 0, "explanation_ar": "السؤال عن الطقس: What's the weather like?", "explanation_en": "We ask: What's the weather like?"},
+    {"question": "It's hot and ___ in summer.", "choices": ["cold", "snowy", "sunny", "cool"], "answer": 2, "explanation_ar": "الصيف حار ومشمس.", "explanation_en": "Summer is hot and sunny."},
+    {"question": "Which word means \"a little cold\"?", "choices": ["hot", "cool", "warm", "windy"], "answer": 1, "explanation_ar": "cool = مائل للبرودة.", "explanation_en": "Cool means a little cold."},
+    {"question": "Summer comes ___ spring.", "choices": ["after", "before", "in", "on"], "answer": 0, "explanation_ar": "الصيف يأتي بعد الربيع: after.", "explanation_en": "Summer is later than spring, so after."},
+    {"question": "There ___ four seasons in a year.", "choices": ["is", "am", "be", "are"], "answer": 3, "explanation_ar": "seasons جمع فنستخدم there are.", "explanation_en": "Seasons is plural, so there are."},
+    {"question": "Choose the correct spelling.", "choices": ["suny", "sunny", "sunnie", "sunney"], "answer": 1, "explanation_ar": "sun + y مع تكرار n: sunny.", "explanation_en": "Double the n and add y: sunny."},
+    {"question": "Choose the correct sentence.", "choices": ["Fall come before winter.", "Fall comes after winter.", "Fall comes before winter.", "Fall coming before winter."], "answer": 2, "explanation_ar": "الخريف قبل الشتاء، و fall مفرد فنقول comes.", "explanation_en": "Fall is before winter, and fall is singular, so comes."},
+    {"question": "\"Windy\" means ___", "choices": ["ممطر", "مغيم", "عاصف / به رياح", "دافئ"], "answer": 2, "explanation_ar": "windy من wind (رياح) = عاصف.", "explanation_en": "Windy comes from wind: with a lot of wind."},
+    {"question": "It's rainy and ___ in winter.", "choices": ["cold", "hot", "warm", "sunny"], "answer": 0, "explanation_ar": "الشتاء ممطر وبارد.", "explanation_en": "Winter is rainy and cold."}
+  ]
+}

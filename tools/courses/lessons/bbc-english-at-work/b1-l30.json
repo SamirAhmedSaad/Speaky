@@ -1,0 +1,415 @@
+{
+  "title": "Negotiating",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "negotiate",
+        "pos": "verb",
+        "meaning_en": "talk with someone to reach an agreement",
+        "meaning_ar": "يتفاوض",
+        "note_ar": "الاسم: negotiation",
+        "note_en": "Noun: negotiation.",
+        "example": "We need to negotiate a better price."
+      },
+      {
+        "word": "deal",
+        "pos": "noun",
+        "meaning_en": "a business agreement",
+        "meaning_ar": "صفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We closed a big deal with a French company."
+      },
+      {
+        "word": "willing",
+        "pos": "adjective",
+        "meaning_en": "ready and happy to do something",
+        "meaning_ar": "مستعد / راغب",
+        "note_ar": "willing to + فعل",
+        "note_en": "Willing to + verb.",
+        "example": "What kind of price are you willing to pay?"
+      },
+      {
+        "word": "go that low",
+        "pos": "phrase",
+        "meaning_en": "accept such a small price",
+        "meaning_ar": "ينزل إلى هذا الحد (في السعر)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm sorry, I don't think we can go that low."
+      },
+      {
+        "word": "stock",
+        "pos": "noun",
+        "meaning_en": "goods a company has ready to sell",
+        "meaning_ar": "مخزون / بضاعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have plenty in stock."
+      },
+      {
+        "word": "in stock",
+        "pos": "phrase",
+        "meaning_en": "available to sell now",
+        "meaning_ar": "متوفر في المخزون",
+        "note_ar": "العكس: out of stock",
+        "note_en": "Opposite: out of stock.",
+        "example": "Is this model in stock?"
+      },
+      {
+        "word": "discount",
+        "pos": "noun",
+        "meaning_en": "money taken off the normal price",
+        "meaning_ar": "خصم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you buy more, I can offer you a bigger discount."
+      },
+      {
+        "word": "meet someone halfway",
+        "pos": "idiom",
+        "meaning_en": "agree to a compromise; each side gives a little",
+        "meaning_ar": "يلتقي في منتصف الطريق / يتوصّل إلى حلّ وسط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You want £3, I want £4. I'll meet you halfway at £3.50."
+      },
+      {
+        "word": "per unit",
+        "pos": "phrase",
+        "meaning_en": "for each single item",
+        "meaning_ar": "للقطعة الواحدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They're £4 per unit."
+      },
+      {
+        "word": "quality",
+        "pos": "noun",
+        "meaning_en": "how good something is",
+        "meaning_ar": "الجودة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These are good quality products."
+      },
+      {
+        "word": "place an order",
+        "pos": "phrase",
+        "meaning_en": "ask a company to supply goods",
+        "meaning_ar": "يقدّم طلبية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They want to place an order for 5,000 lemons."
+      },
+      {
+        "word": "call back",
+        "pos": "phrasal verb",
+        "meaning_en": "phone someone who phoned you earlier",
+        "meaning_ar": "يعاود الاتصال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The client called me back this afternoon."
+      },
+      {
+        "word": "agree a price",
+        "pos": "phrase",
+        "meaning_en": "decide on a price together",
+        "meaning_ar": "يتّفق على سعر",
+        "note_ar": "في الإنجليزية الأمريكية: agree on a price",
+        "note_en": "US English: agree on a price.",
+        "example": "We finally agreed a price."
+      },
+      {
+        "word": "full price",
+        "pos": "noun",
+        "meaning_en": "the normal price with no discount",
+        "meaning_ar": "السعر الكامل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They paid the full price."
+      },
+      {
+        "word": "contract",
+        "pos": "noun",
+        "meaning_en": "a written legal agreement",
+        "meaning_ar": "عقد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please send them the contract today."
+      },
+      {
+        "word": "envelope",
+        "pos": "noun",
+        "meaning_en": "a paper cover for a letter",
+        "meaning_ar": "ظرف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Put the contract in an envelope."
+      },
+      {
+        "word": "stationery cupboard",
+        "pos": "noun",
+        "meaning_en": "a small room or cupboard for pens, paper and envelopes",
+        "meaning_ar": "خزانة القرطاسية",
+        "note_ar": "stationery = أدوات مكتبية، stationary = ثابت",
+        "note_en": "Stationery (paper) vs stationary (not moving).",
+        "example": "The envelopes are in the stationery cupboard."
+      },
+      {
+        "word": "owe someone one",
+        "pos": "phrase",
+        "meaning_en": "need to return a favour to someone",
+        "meaning_ar": "مدين لك بمعروف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thanks for your help; I owe you one."
+      },
+      {
+        "word": "know your stuff",
+        "pos": "idiom",
+        "meaning_en": "know a lot about your job or subject",
+        "meaning_ar": "يعرف عمله جيدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She really knows her stuff about sales."
+      },
+      {
+        "word": "get a move on",
+        "pos": "idiom",
+        "meaning_en": "hurry up",
+        "meaning_ar": "أسرِع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Get a move on, the meeting starts in five minutes."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "discount vs refund",
+        "words": [
+          "discount",
+          "refund"
+        ],
+        "explanation_ar": "discount خصم من السعر قبل الدفع، وrefund مبلغ يُعاد إليك بعد الدفع.",
+        "explanation_en": "A discount is money off before you pay. A refund is money given back after you pay.",
+        "examples": [
+          {
+            "word": "discount",
+            "sentence": "We give a 10% discount on large orders."
+          },
+          {
+            "word": "refund",
+            "sentence": "The product was broken, so I got a refund."
+          }
+        ]
+      },
+      {
+        "title": "stationery vs stationary",
+        "words": [
+          "stationery",
+          "stationary"
+        ],
+        "explanation_ar": "stationery بحرف e = أدوات مكتبية، وstationary بحرف a = ثابت لا يتحرك. النطق واحد.",
+        "explanation_en": "Stationery (with e) = paper, pens, envelopes. Stationary (with a) = not moving. Same sound.",
+        "examples": [
+          {
+            "word": "stationery",
+            "sentence": "We need to order more stationery."
+          },
+          {
+            "word": "stationary",
+            "sentence": "The car was stationary at the lights."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What kind of price are you willing to pay?",
+        "meaning_ar": "ما السعر الذي أنت مستعد لدفعه؟",
+        "meaning_en": "Ask the buyer about their budget.",
+        "example": "Before we talk numbers, what kind of price are you willing to pay?"
+      },
+      {
+        "phrase": "I don't think we can go that low.",
+        "meaning_ar": "لا أظن أننا نستطيع أن ننزل إلى هذا الحد.",
+        "meaning_en": "Politely refuse a very low price.",
+        "example": "£2 per unit? I'm sorry, I don't think we can go that low."
+      },
+      {
+        "phrase": "If you buy more stock, I can offer you a bigger discount.",
+        "meaning_ar": "إذا اشتريت كمية أكبر يمكنني أن أقدّم لك خصمًا أكبر.",
+        "meaning_en": "Link a bigger order to a better price.",
+        "example": "If you buy more stock, I can offer you a bigger discount, say 15%."
+      },
+      {
+        "phrase": "I'll meet you halfway.",
+        "meaning_ar": "سألتقي معك في منتصف الطريق.",
+        "meaning_en": "Let's agree on a price between yours and mine.",
+        "example": "OK, I'll meet you halfway: £3.50 per unit."
+      },
+      {
+        "phrase": "We have plenty in stock.",
+        "meaning_ar": "لدينا كمية وافرة في المخزون.",
+        "meaning_en": "We have lots ready to sell.",
+        "example": "Don't worry, we have plenty in stock."
+      },
+      {
+        "phrase": "Thanks for calling back.",
+        "meaning_ar": "شكرًا لمعاودة الاتصال.",
+        "meaning_en": "Thank someone for returning your call.",
+        "example": "Thanks for calling back so quickly."
+      },
+      {
+        "phrase": "I owe you one.",
+        "meaning_ar": "أنا مدين لك بمعروف.",
+        "meaning_en": "I will help you in return one day.",
+        "example": "Thanks for finishing my report. I owe you one."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "First conditional for offers: If + present, I can/will...",
+        "explanation_ar": "في التفاوض نربط عرضًا بشرط: If + مضارع بسيط، ثم can/will + فعل مجرد. If you buy more, I can offer a discount.",
+        "explanation_en": "In negotiations, link an offer to a condition: If + present simple, then can/will + base verb.",
+        "examples": [
+          "If you buy more stock, I can offer you a bigger discount.",
+          "If you order today, we will deliver on Monday.",
+          "If you pay now, I can give you 5% off."
+        ]
+      },
+      {
+        "title": "Softening a 'no': I don't think we can...",
+        "explanation_ar": "لرفض طلب بلطف نقول I don't think we can... بدلًا من No أو We can't المباشرة.",
+        "explanation_en": "To refuse politely, say I don't think we can... instead of a direct No.",
+        "examples": [
+          "I don't think we can go that low.",
+          "I don't think we can deliver by Friday.",
+          "I don't think we can accept that offer."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What does \"I'll meet you halfway\" mean in a negotiation?",
+      "choices": [
+        "I'll travel to see you",
+        "Let's agree on a price in the middle",
+        "I'll pay the full price",
+        "I won't agree"
+      ],
+      "answer": 1,
+      "explanation_ar": "تعني أن نتّفق على حلّ وسط في السعر.",
+      "explanation_en": "It means a compromise price in the middle."
+    },
+    {
+      "question": "What kind of price are you ___ to pay?",
+      "choices": [
+        "willing",
+        "will",
+        "wanted",
+        "wish"
+      ],
+      "answer": 0,
+      "explanation_ar": "willing to تعني مستعد لـ.",
+      "explanation_en": "Willing to = ready to."
+    },
+    {
+      "question": "I don't think we can go that ___.",
+      "choices": [
+        "down",
+        "low",
+        "small",
+        "little"
+      ],
+      "answer": 1,
+      "explanation_ar": "go that low تعني ننزل بالسعر إلى هذا الحد.",
+      "explanation_en": "Go that low = accept such a low price."
+    },
+    {
+      "question": "If you ___ more stock, I can offer you a bigger discount.",
+      "choices": [
+        "will buy",
+        "bought",
+        "buy",
+        "buying"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد if في الشرط الأول نستخدم المضارع البسيط.",
+      "explanation_en": "After if (first conditional) use the present simple."
+    },
+    {
+      "question": "\"£4 per unit\" means...",
+      "choices": [
+        "£4 for all items",
+        "£4 for each item",
+        "£4 discount",
+        "£4 a month"
+      ],
+      "answer": 1,
+      "explanation_ar": "per unit تعني لكل قطعة.",
+      "explanation_en": "Per unit = for each item."
+    },
+    {
+      "question": "Goods a company has ready to sell are its...",
+      "choices": [
+        "stock",
+        "stationery",
+        "contract",
+        "envelope"
+      ],
+      "answer": 0,
+      "explanation_ar": "stock هو المخزون.",
+      "explanation_en": "Stock = goods ready to sell."
+    },
+    {
+      "question": "Which word means paper, pens and envelopes?",
+      "choices": [
+        "stationary",
+        "stationery",
+        "station",
+        "statement"
+      ],
+      "answer": 1,
+      "explanation_ar": "stationery بحرف e تعني الأدوات المكتبية.",
+      "explanation_en": "Stationery with e means office supplies."
+    },
+    {
+      "question": "Which is a polite refusal?",
+      "choices": [
+        "No way!",
+        "Never.",
+        "I don't think we can go that low.",
+        "That's stupid."
+      ],
+      "answer": 2,
+      "explanation_ar": "I don't think we can... رفض مهذب.",
+      "explanation_en": "I don't think we can... is a polite refusal."
+    },
+    {
+      "question": "How many Imperial Lemons did the French company agree to buy?",
+      "choices": [
+        "500",
+        "50",
+        "50,000",
+        "5,000"
+      ],
+      "answer": 3,
+      "explanation_ar": "وافقت الشركة على شراء 5000 ليمونة.",
+      "explanation_en": "They agreed to buy 5,000."
+    },
+    {
+      "question": "\"Get a move on\" means...",
+      "choices": [
+        "move house",
+        "hurry up",
+        "stand up",
+        "slow down"
+      ],
+      "answer": 1,
+      "explanation_ar": "get a move on تعني أسرِع.",
+      "explanation_en": "It means hurry up."
+    }
+  ]
+}

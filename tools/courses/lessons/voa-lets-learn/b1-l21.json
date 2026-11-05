@@ -1,0 +1,92 @@
+{
+  "title": "Can You Come to the Party?",
+  "content": {
+    "vocabulary": [
+      {"word": "coffee shop", "pos": "noun", "meaning_en": "a small place that sells coffee, tea and snacks", "meaning_ar": "مقهى", "note_ar": "", "note_en": "", "example": "We meet at the coffee shop every morning."},
+      {"word": "favorite", "pos": "adjective", "meaning_en": "liked more than all the others", "meaning_ar": "مفضَّل", "note_ar": "تُكتب في بريطانيا favourite.", "note_en": "UK spelling: favourite.", "example": "Green is my favorite color."},
+      {"word": "bookstore", "pos": "noun", "meaning_en": "a shop that sells books", "meaning_ar": "مكتبة لبيع الكتب", "note_ar": "انتبه: library مكتبة للاستعارة، و bookstore لشراء الكتب.", "note_en": "A library lends books; a bookstore sells them.", "example": "I bought a new dictionary at the bookstore."},
+      {"word": "restaurant", "pos": "noun", "meaning_en": "a place where you buy and eat meals", "meaning_ar": "مطعم", "note_ar": "تُنطق /ˈres.tə.rɑːnt/ والحرف الأخير t خفيف.", "note_en": "Say RES-tuh-rahnt.", "example": "The restaurant opens at noon."},
+      {"word": "theater", "pos": "noun", "meaning_en": "a building where people watch plays and shows", "meaning_ar": "مسرح", "note_ar": "تُكتب في بريطانيا theatre.", "note_en": "UK spelling: theatre.", "example": "The school play is at the theater tonight."},
+      {"word": "party", "pos": "noun", "meaning_en": "a time when friends meet to eat, talk and have fun", "meaning_ar": "حفلة / تجمّع", "note_ar": "", "note_en": "", "example": "We are having a small party for my brother's graduation."},
+      {"word": "driver's license", "pos": "noun", "meaning_en": "an official card that says you can drive a car", "meaning_ar": "رخصة القيادة", "note_ar": "في بريطانيا: driving licence.", "note_en": "UK: driving licence.", "example": "My sister has her driver's license now."},
+      {"word": "test", "pos": "noun", "meaning_en": "a set of questions or tasks to check what you know or can do", "meaning_ar": "اختبار", "note_ar": "نقول take a test أي يخضع لاختبار.", "note_en": "We say take a test.", "example": "I have a math test on Monday."},
+      {"word": "computer", "pos": "noun", "meaning_en": "an electronic machine for working with information", "meaning_ar": "حاسوب / كمبيوتر", "note_ar": "", "note_en": "", "example": "The first part of the test is on the computer."},
+      {"word": "during the day", "pos": "phrase", "meaning_en": "in the hours when it is light", "meaning_ar": "أثناء النهار", "note_ar": "", "note_en": "", "example": "The shop is open during the day."},
+      {"word": "night", "pos": "noun", "meaning_en": "the time when it is dark", "meaning_ar": "الليل", "note_ar": "نقول at night بدون the.", "note_en": "We say at night (no 'the').", "example": "The stars are bright at night."},
+      {"word": "bring", "pos": "verb", "meaning_en": "to take something with you to a place", "meaning_ar": "يُحضِر / يجلب", "note_ar": "الماضي: brought.", "note_en": "Past: brought.", "example": "Please bring your book to class."},
+      {"word": "food", "pos": "noun", "meaning_en": "things that people eat", "meaning_ar": "طعام", "note_ar": "", "note_en": "", "example": "Everyone can bring some food."},
+      {"word": "perform", "pos": "verb", "meaning_en": "to do something in front of people to entertain them", "meaning_ar": "يؤدّي عرضًا أمام الناس", "note_ar": "الاسم: performance (عرض/أداء).", "note_en": "Noun: performance.", "example": "The children perform a short play at school."},
+      {"word": "recite", "pos": "verb", "meaning_en": "to say a poem or text from memory in front of people", "meaning_ar": "يُلقي (شعرًا) / يُسمِّع من الذاكرة", "note_ar": "", "note_en": "", "example": "He can recite a long poem."},
+      {"word": "poetry", "pos": "noun", "meaning_en": "poems in general", "meaning_ar": "الشِّعر", "note_ar": "poem قصيدة واحدة، poetry الشعر عمومًا، poet الشاعر.", "note_en": "poem = one piece; poetry = poems in general; poet = the writer.", "example": "My grandfather loves Arabic poetry."},
+      {"word": "card trick", "pos": "noun", "meaning_en": "a small magic act with playing cards", "meaning_ar": "خدعة بأوراق اللعب", "note_ar": "", "note_en": "", "example": "My cousin showed us a card trick."},
+      {"word": "pick", "pos": "verb", "meaning_en": "to choose", "meaning_ar": "يختار", "note_ar": "", "note_en": "", "example": "Pick a number from one to ten."},
+      {"word": "anything else", "pos": "phrase", "meaning_en": "any other thing", "meaning_ar": "أي شيء آخر", "note_ar": "", "note_en": "", "example": "Do you need anything else from the store?"},
+      {"word": "nobody", "pos": "pronoun", "meaning_en": "no person", "meaning_ar": "لا أحد", "note_ar": "يأتي بعدها فعل مفرد: Nobody knows.", "note_en": "Use a singular verb: Nobody knows.", "example": "Nobody is at home right now."},
+      {"word": "cook", "pos": "verb", "meaning_en": "to make food hot and ready to eat", "meaning_ar": "يطبخ", "note_ar": "cook أيضًا اسم بمعنى الطبّاخ.", "note_en": "cook is also a noun: a person who cooks.", "example": "I can't cook, but I can make tea."},
+      {"word": "sing", "pos": "verb", "meaning_en": "to make music with your voice", "meaning_ar": "يغنّي", "note_ar": "الماضي: sang.", "note_en": "Past: sang.", "example": "The children sing a song at the school event."},
+      {"word": "practice", "pos": "verb", "meaning_en": "to do something again and again to get better", "meaning_ar": "يتدرّب / يمارس", "note_ar": "في بريطانيا الفعل practise والاسم practice.", "note_en": "UK: practise (verb), practice (noun).", "example": "I practice my English every day."},
+      {"word": "go shopping", "pos": "phrase", "meaning_en": "to go to shops to buy things", "meaning_ar": "يذهب للتسوّق", "note_ar": "", "note_en": "", "example": "We go shopping on Saturday mornings."},
+      {"word": "help", "pos": "verb", "meaning_en": "to make things easier for someone", "meaning_ar": "يساعد", "note_ar": "help someone with something.", "note_en": "help someone with something.", "example": "Can you help me with my bags?"},
+      {"word": "busy", "pos": "adjective", "meaning_en": "having a lot to do", "meaning_ar": "مشغول", "note_ar": "تُنطق /ˈbɪzi/ مثل bizzy.", "note_en": "Say BIZ-ee.", "example": "I'm not busy right now."}
+    ],
+    "fine_lines": [
+      {"title": "can vs have to", "words": ["can", "have to"],
+       "explanation_ar": "can تعني «أستطيع» (قدرة أو إمكانية أو إذن). have to تعني «يجب عليّ / مضطر» (شيء ضروري). Marsha تقول You can bring food أي تستطيع أن تُحضر طعامًا إن أردت، وAnna تقول I have to get my driver's license أي هذا أمر لا بد منه.",
+       "explanation_en": "can = you are able to or you may (ability, possibility, permission). have to = it is necessary. 'You can bring food' means it is possible. 'I have to take a test' means it is necessary.",
+       "examples": [
+         {"word": "can", "sentence": "You can sit here if you want."},
+         {"word": "have to", "sentence": "I have to go to work at eight."},
+         {"word": "can", "sentence": "She can speak three languages."},
+         {"word": "have to", "sentence": "Students have to wear a uniform."}
+       ]},
+      {"title": "can vs can't (pronunciation)", "words": ["can", "can't"],
+       "explanation_ar": "في الجملة الموجبة تُنطق can خفيفة وسريعة /kən/، أما can't فتُنطق قوية وطويلة /kænt/ (وفي بريطانيا /kɑːnt/). الصوت القوي يساعدك على تمييز النفي.",
+       "explanation_en": "In a positive sentence, can is short and weak: /kən/. can't is strong and long: /kænt/ (UK /kɑːnt/). Listen for the strong vowel to hear the negative.",
+       "examples": [
+         {"word": "can", "sentence": "I can come on Saturday night."},
+         {"word": "can't", "sentence": "Sorry, I can't come with you."}
+       ]},
+      {"title": "with vs to", "words": ["come with", "come to"],
+       "explanation_ar": "come with + شخص (يأتي مع شخص)، و come to + مكان أو حدث (يأتي إلى مكان). في الدرس: Can you come with me? و Can you come to the party?",
+       "explanation_en": "come with + a person; come to + a place or an event. 'Can you come with me?' / 'Can you come to the party?'",
+       "examples": [
+         {"word": "come with", "sentence": "Can you come with me to the bank?"},
+         {"word": "come to", "sentence": "Can you come to my house on Friday?"}
+       ]}
+    ],
+    "expressions": [
+      {"phrase": "Can you come with me?", "meaning_ar": "هل تستطيع أن تأتي معي؟", "meaning_en": "a polite way to invite someone to go with you", "example": "I'm going to the market. Can you come with me?"},
+      {"phrase": "Sorry, I can't.", "meaning_ar": "آسف، لا أستطيع.", "meaning_en": "a polite way to say no to an invitation", "example": "Sorry, I can't. I have to study tonight."},
+      {"phrase": "I have to ...", "meaning_ar": "يجب عليّ أن ... / أنا مضطر أن ...", "meaning_en": "used to say something is necessary for you", "example": "I have to call my mother."},
+      {"phrase": "Will you be busy all day?", "meaning_ar": "هل ستكون مشغولًا طوال اليوم؟", "meaning_en": "asking if someone has free time on a day", "example": "Will you be busy all day on Sunday?"},
+      {"phrase": "Can you help me?", "meaning_ar": "هل يمكنك مساعدتي؟", "meaning_en": "asking someone for help", "example": "Can you help me carry this box?"},
+      {"phrase": "That sounds like fun.", "meaning_ar": "يبدو هذا ممتعًا.", "meaning_en": "saying an idea seems enjoyable", "example": "A picnic in the park? That sounds like fun."},
+      {"phrase": "Can you do anything else?", "meaning_ar": "هل تستطيع فعل أي شيء آخر؟", "meaning_en": "asking about another skill or option", "example": "You can draw. Can you do anything else?"},
+      {"phrase": "That's it!", "meaning_ar": "هذا هو! / وجدتُها!", "meaning_en": "said when you find the right answer or idea", "example": "That's it! We can meet at the library."},
+      {"phrase": "I'm not busy right now.", "meaning_ar": "لستُ مشغولًا الآن.", "meaning_en": "saying you have free time at this moment", "example": "I'm not busy right now. How can I help?"},
+      {"phrase": "Let's go!", "meaning_ar": "هيّا بنا!", "meaning_en": "an invitation to start going together", "example": "The bus is here. Let's go!"}
+    ],
+    "grammar": [
+      {"title": "can / can't for ability and possibility",
+       "explanation_ar": "1) نستخدم can + الفعل في صيغته الأصلية للتعبير عن القدرة: I can sing. 2) لا نضيف s ولا to بعد can: She can cook (وليس cans أو can to cook). 3) النفي: can't أو cannot: I can't cook. 4) السؤال: نقدّم can على الفاعل: Can you perform? والإجابة القصيرة: Yes, I can. / No, I can't. 5) نستخدمها أيضًا للإمكانية أو الإذن: You can bring food.",
+       "explanation_en": "1) Use can + base verb for ability: I can sing. 2) No -s and no 'to' after can: She can cook. 3) Negative: can't / cannot. 4) Question: put can before the subject: Can you perform? Short answers: Yes, I can. / No, I can't. 5) can also shows possibility or permission: You can bring food.",
+       "examples": ["I can recite a poem.", "He can't drive a car.", "Can you do a card trick? — Yes, I can.", "You can sit here."]},
+      {"title": "have to / has to for necessity",
+       "explanation_ar": "1) have to + الفعل الأصلي تعني أن الشيء ضروري: I have to take a test. 2) مع he / she / it نقول has to: She has to work. 3) النفي: don't / doesn't have to تعني «ليس ضروريًا»: You don't have to bring anything. 4) السؤال: Do you have to ...?",
+       "explanation_en": "1) have to + base verb means something is necessary: I have to take a test. 2) With he/she/it use has to. 3) Negative: don't/doesn't have to = it is not necessary. 4) Question: Do you have to ...?",
+       "examples": ["I have to get my driver's license.", "Marsha has to help her friend.", "You don't have to bring food.", "Do you have to work on Saturday?"]}
+    ]
+  },
+  "questions": [
+    {"question": "Why can't Anna go to the party during the day?", "choices": ["She has to work at the coffee shop", "She has to get her driver's license", "She has to cook dinner", "She has to visit her family"], "answer": 1, "explanation_ar": "قالت Anna إنها يجب أن تحصل على رخصة القيادة.", "explanation_en": "Anna says she has to get her driver's license."},
+    {"question": "Choose the correct sentence.", "choices": ["She can sings.", "She cans sing.", "She can sing.", "She can to sing."], "answer": 2, "explanation_ar": "بعد can يأتي الفعل الأصلي بدون s وبدون to.", "explanation_en": "After can, use the base verb with no -s and no 'to'."},
+    {"question": "Can you cook? — No, I ____.", "choices": ["can't", "don't", "not can", "am not"], "answer": 0, "explanation_ar": "الإجابة القصيرة المنفية لسؤال Can you ...? هي No, I can't.", "explanation_en": "The short negative answer to 'Can you ...?' is 'No, I can't.'"},
+    {"question": "What does 'recite poetry' mean?", "choices": ["write a letter", "read a newspaper", "sing a song", "say poems from memory"], "answer": 3, "explanation_ar": "recite poetry تعني إلقاء الشعر من الذاكرة.", "explanation_en": "To recite poetry means to say poems from memory in front of people."},
+    {"question": "Marsha ____ help her friend with the party.", "choices": ["have to", "has to", "can to", "haves to"], "answer": 1, "explanation_ar": "مع she نستخدم has to.", "explanation_en": "With he/she/it, use has to."},
+    {"question": "Which sentence shows something is NECESSARY?", "choices": ["You can bring food.", "I can sing.", "Can you help me?", "I have to take a test."], "answer": 3, "explanation_ar": "have to تعبّر عن الضرورة، أما can فتعبّر عن القدرة أو الإمكانية.", "explanation_en": "have to shows necessity; can shows ability or possibility."},
+    {"question": "Can you come ____ me to the store?", "choices": ["with", "to", "at", "on"], "answer": 0, "explanation_ar": "come with + شخص.", "explanation_en": "Use come with + a person."},
+    {"question": "When is the party?", "choices": ["Saturday morning", "Friday night", "Saturday night", "Sunday afternoon"], "answer": 2, "explanation_ar": "الحفلة ليلة السبت.", "explanation_en": "The party is on Saturday night."},
+    {"question": "What will Anna do at the party in the end?", "choices": ["bring food", "do a card trick", "recite poetry", "sing"], "answer": 3, "explanation_ar": "قالت Marsha في النهاية: You can sing at the party.", "explanation_en": "At the end Marsha says, 'You can sing at the party.'"},
+    {"question": "Choose the correct question.", "choices": ["Can you perform?", "Do you can perform?", "You can perform?", "Can you to perform?"], "answer": 0, "explanation_ar": "في السؤال نضع can قبل الفاعل ثم الفعل الأصلي.", "explanation_en": "In a question, put can before the subject, then the base verb."}
+  ]
+}

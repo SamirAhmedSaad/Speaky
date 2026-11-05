@@ -1,0 +1,55 @@
+{
+  "title": "Making Predictions",
+  "content": {
+    "vocabulary": [
+      {"word": "prediction", "pos": "noun", "meaning_en": "a guess about what will happen in the future", "meaning_ar": "تنبؤ / توقع", "note_ar": "الفعل: predict", "note_en": "Verb: predict.", "example": "My prediction is that it will rain tomorrow."},
+      {"word": "likelihood", "pos": "noun", "meaning_en": "how probable something is", "meaning_ar": "احتمال / إمكانية", "note_ar": "", "note_en": "", "example": "There's no likelihood of snow this winter."},
+      {"word": "unlikely", "pos": "adjective", "meaning_en": "probably not going to happen", "meaning_ar": "غير محتمل / مستبعد", "note_ar": "العكس: likely", "note_en": "Opposite: likely.", "example": "It's unlikely that I'll be in town this week."},
+      {"word": "for the foreseeable future", "pos": "phrase", "meaning_en": "for as long as we can imagine now", "meaning_ar": "في المستقبل المنظور", "note_ar": "", "note_en": "", "example": "Prices will stay high for the foreseeable future."},
+      {"word": "salary", "pos": "noun", "meaning_en": "the money you are paid for your job, usually monthly", "meaning_ar": "راتب", "note_ar": "", "note_en": "", "example": "He asked for a higher salary."},
+      {"word": "take a rain check", "pos": "phrase", "meaning_en": "say no to an invitation now but hope to accept it later", "meaning_ar": "يؤجّل قبول دعوة إلى وقت لاحق", "note_ar": "", "note_en": "", "example": "I can't come tonight. Can I take a rain check?"},
+      {"word": "chance", "pos": "noun", "meaning_en": "how possible something is", "meaning_ar": "فرصة / احتمال", "note_ar": "", "note_en": "", "example": "There's a good chance I'll be there."},
+      {"word": "slim", "pos": "adjective", "meaning_en": "(chances) very small", "meaning_ar": "ضئيل", "note_ar": "", "note_en": "", "example": "The chances of winning are pretty slim."},
+      {"word": "get the green light", "pos": "phrase", "meaning_en": "receive permission to start", "meaning_ar": "يحصل على الضوء الأخضر / الموافقة", "note_ar": "", "note_en": "", "example": "The new building got the green light."},
+      {"word": "inevitable", "pos": "adjective", "meaning_en": "certain to happen; impossible to avoid", "meaning_ar": "حتمي / لا مفرّ منه", "note_ar": "", "note_en": "", "example": "It seems inevitable that prices will rise."},
+      {"word": "ominous", "pos": "adjective", "meaning_en": "showing that something bad will happen", "meaning_ar": "مُنذر بالسوء", "note_ar": "", "note_en": "", "example": "The signs are ominous."},
+      {"word": "drop out", "pos": "phrasal verb", "meaning_en": "leave a course or school before finishing", "meaning_ar": "يترك الدراسة / ينسحب", "note_ar": "", "note_en": "", "example": "He might drop out of college."},
+      {"word": "bound to", "pos": "phrase", "meaning_en": "certain to", "meaning_ar": "لا بدّ أن / من المؤكد أن", "note_ar": "", "note_en": "", "example": "The weather is bound to improve."},
+      {"word": "pick up", "pos": "phrasal verb", "meaning_en": "(economy, business) improve", "meaning_ar": "يتحسّن / ينتعش", "note_ar": "", "note_en": "", "example": "The economy is bound to pick up."}
+    ],
+    "fine_lines": [
+      {"title": "How likely? From impossible to certain", "words": ["There's absolutely no way", "It's unlikely that", "There's a good chance that", "It's bound to / There's no doubt"], "explanation_ar": "There's absolutely no way / no likelihood = مستحيل تقريبًا. It's unlikely = مستبعد. There's a good chance / The chances are / As likely as not = محتمل جدًا. It seems inevitable / is bound to / There's no doubt = شبه مؤكد.", "explanation_en": "No way / no likelihood = almost impossible. Unlikely = probably not. A good chance / the chances are / as likely as not = probably yes. Inevitable / bound to / no doubt = almost certain.", "examples": [{"word": "There's absolutely no way", "sentence": "There's absolutely no way he'll agree."}, {"word": "It's bound to / There's no doubt", "sentence": "The weather is bound to improve next week."}]},
+      {"title": "Formal vs neutral/informal prediction phrases", "words": ["There's no likelihood of", "There's a good chance that"], "explanation_ar": "There's no likelihood of وAs likely as not أكثر رسمية. It's unlikely that محايدة. There's a good chance that غير رسمية/محايدة.", "explanation_en": "\"There's no likelihood of\" and \"As likely as not\" are more formal. \"It's unlikely that\" is neutral. \"There's a good chance that\" is neutral or informal.", "examples": [{"word": "There's no likelihood of", "sentence": "There's no likelihood of prices coming down soon."}, {"word": "There's a good chance that", "sentence": "There's a good chance that I'll join you on Saturday."}]}
+    ],
+    "expressions": [
+      {"phrase": "There's no likelihood of ...", "meaning_ar": "لا يوجد احتمال لـ ...", "meaning_en": "A formal way to say something won't happen.", "example": "There's no likelihood of snow this winter."},
+      {"phrase": "It's unlikely that ...", "meaning_ar": "من غير المحتمل أن ...", "meaning_en": "A neutral way to say something probably won't happen.", "example": "It's unlikely that I'll be able to come to the dinner."},
+      {"phrase": "There's absolutely no way (that) ...", "meaning_ar": "مستحيل تمامًا أن ...", "meaning_en": "A strong way to say something won't happen.", "example": "There's absolutely no way the boss will agree to that."},
+      {"phrase": "As likely as not, ...", "meaning_ar": "على الأرجح ...", "meaning_en": "A formal way to say something will probably happen.", "example": "As likely as not, he'll call and cancel."},
+      {"phrase": "There's a good chance (that) ...", "meaning_ar": "هناك احتمال كبير أن ...", "meaning_en": "Says something will probably happen.", "example": "There's a good chance I'll have to travel for work next month."},
+      {"phrase": "The chances are (that) ...", "meaning_ar": "على الأرجح أن ...", "meaning_en": "Says something is probable.", "example": "The chances are that they'll get planning permission."},
+      {"phrase": "The chances are pretty slim.", "meaning_ar": "الاحتمالات ضئيلة جدًا.", "meaning_en": "Says something is not very likely.", "example": "Will we win? The chances are pretty slim."},
+      {"phrase": "It seems inevitable that ...", "meaning_ar": "يبدو حتميًا أن ...", "meaning_en": "Says something is almost certain to happen.", "example": "It seems inevitable that prices will go up."},
+      {"phrase": "... is bound to ...", "meaning_ar": "... لا بدّ أن ...", "meaning_en": "Says something will definitely happen.", "example": "The weather is bound to improve next week."},
+      {"phrase": "There's no doubt (in my mind) that ...", "meaning_ar": "لا شك (لديّ) أن ...", "meaning_en": "Says you are almost 100% sure.", "example": "There's no doubt in my mind that it's the right decision."},
+      {"phrase": "Can I take a rain check?", "meaning_ar": "هل يمكن أن نؤجّل ذلك لوقت آخر؟", "meaning_en": "Politely says no to an invitation for now.", "example": "I'm busy on Friday. Can I take a rain check?"},
+      {"phrase": "I'll let you know for definite.", "meaning_ar": "سأخبرك بشكل مؤكد.", "meaning_en": "Promises to confirm later.", "example": "I'll probably come, but I'll let you know for definite on Thursday."}
+    ],
+    "grammar": [
+      {"title": "Prediction phrases + that-clause / of + noun / to + verb", "explanation_ar": "بعض العبارات يأتي بعدها that + جملة (It's unlikely that..., There's a good chance that..., The chances are that...). بعضها يأتي بعده of + اسم أو ing (There's no likelihood of snow). وbound to يأتي بعدها الفعل الأساسي.", "explanation_en": "Some phrases take \"that + clause\" (It's unlikely that..., There's a good chance that...). Some take \"of + noun / -ing\" (There's no likelihood of snow). \"Bound to\" takes the base verb.", "examples": ["It's unlikely that he'll come.", "There's no likelihood of prices coming down.", "The weather is bound to improve."]},
+      {"title": "will / going to for predictions", "explanation_ar": "بعد عبارات التنبؤ نستخدم غالبًا will أو going to للحديث عن المستقبل.", "explanation_en": "After prediction phrases we often use \"will\" or \"going to\" for the future.", "examples": ["There's a good chance I'll be there.", "It's unlikely that he's going to win.", "There's no doubt that prices will rise."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which phrase means something is almost CERTAIN?", "choices": ["It's unlikely that ...", "The chances are pretty slim.", "It's bound to happen.", "There's no likelihood of ..."], "answer": 2, "explanation_ar": "bound to = من المؤكد.", "explanation_en": "\"Bound to\" = certain."},
+    {"question": "There's no likelihood ___ snow this winter.", "choices": ["of", "that", "to", "for"], "answer": 0, "explanation_ar": "no likelihood of + اسم.", "explanation_en": "no likelihood of + noun."},
+    {"question": "The weather is bound ___ next week.", "choices": ["improving", "to improve", "improve", "improved"], "answer": 1, "explanation_ar": "bound to + الفعل الأساسي.", "explanation_en": "bound to + base verb."},
+    {"question": "\"The chances are pretty slim\" means:", "choices": ["It will surely happen.", "It's very likely.", "It's a good idea.", "It's not very likely."], "answer": 3, "explanation_ar": "slim = ضئيل.", "explanation_en": "\"Slim\" = very small."},
+    {"question": "\"As likely as not, he'll cancel\" means:", "choices": ["He will probably cancel.", "He will never cancel.", "He cancelled yesterday.", "He likes cancelling."], "answer": 0, "explanation_ar": "As likely as not = على الأرجح.", "explanation_en": "\"As likely as not\" = probably."},
+    {"question": "\"It seems inevitable\" means:", "choices": ["It can be avoided easily.", "It seems certain to happen.", "It seems strange.", "It seems funny."], "answer": 1, "explanation_ar": "inevitable = حتمي.", "explanation_en": "\"Inevitable\" = certain to happen."},
+    {"question": "Which is the strongest way to say something WON'T happen?", "choices": ["It's unlikely.", "There's a good chance.", "As likely as not.", "There's absolutely no way."], "answer": 3, "explanation_ar": "There's absolutely no way أقوى عبارة للنفي.", "explanation_en": "\"There's absolutely no way\" is the strongest."},
+    {"question": "\"Can I take a rain check?\" means:", "choices": ["Can we do it another time?", "Is it raining?", "Can I check the forecast?", "Can I pay now?"], "answer": 0, "explanation_ar": "take a rain check = تأجيل الدعوة لوقت لاحق.", "explanation_en": "It means \"can we do it another time?\""},
+    {"question": "There's a good chance ___ I'll be there on Saturday.", "choices": ["of", "to", "that", "for"], "answer": 2, "explanation_ar": "There's a good chance that + جملة.", "explanation_en": "There's a good chance that + clause."},
+    {"question": "\"The project got the green light\" means:", "choices": ["It was stopped.", "It was given permission to start.", "It was finished.", "It became cheaper."], "answer": 1, "explanation_ar": "get the green light = يحصل على الموافقة.", "explanation_en": "It means it was allowed to start."}
+  ]
+}

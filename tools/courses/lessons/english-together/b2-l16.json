@@ -1,0 +1,376 @@
+{
+  "title": "Shopping for Clothes with a Friend",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "clothes",
+        "pos": "noun",
+        "meaning_en": "things you wear, like shirts and trousers",
+        "meaning_ar": "ملابس",
+        "note_ar": "دائمًا جمع، تُنطق /kləʊðz/",
+        "note_en": "Always plural. Say /kləʊðz/.",
+        "example": "They want to buy some new clothes."
+      },
+      {
+        "word": "outfit",
+        "pos": "noun",
+        "meaning_en": "a set of clothes you wear together",
+        "meaning_ar": "طقم ملابس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want the perfect outfit for the party."
+      },
+      {
+        "word": "jumper",
+        "pos": "noun",
+        "meaning_en": "a warm piece of clothing with long sleeves, for the top of the body",
+        "meaning_ar": "كنزة صوفية",
+        "note_ar": "في أمريكا: sweater",
+        "note_en": "US: sweater.",
+        "example": "What do you think of this jumper?"
+      },
+      {
+        "word": "dress",
+        "pos": "noun",
+        "meaning_en": "a piece of clothing for women, from the shoulders down",
+        "meaning_ar": "فستان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have this dress in a size 8?"
+      },
+      {
+        "word": "style",
+        "pos": "noun",
+        "meaning_en": "the kind of clothes a person likes",
+        "meaning_ar": "أسلوب / ذوق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's not really my style."
+      },
+      {
+        "word": "try on",
+        "pos": "phrasal verb",
+        "meaning_en": "put on clothes to see if they fit",
+        "meaning_ar": "يجرّب (الملابس)",
+        "note_ar": "try it on (الضمير في الوسط)",
+        "note_en": "Pronoun goes in the middle: try it on.",
+        "example": "Can I try it on?"
+      },
+      {
+        "word": "fitting room",
+        "pos": "noun",
+        "meaning_en": "a small room in a shop where you try on clothes",
+        "meaning_ar": "غرفة القياس",
+        "note_ar": "",
+        "note_en": "US also: dressing room.",
+        "example": "The fitting rooms are over there."
+      },
+      {
+        "word": "size",
+        "pos": "noun",
+        "meaning_en": "how big clothes are",
+        "meaning_ar": "مقاس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What size do you need?"
+      },
+      {
+        "word": "extra small",
+        "pos": "adjective",
+        "meaning_en": "the smallest clothes size (XS)",
+        "meaning_ar": "مقاس صغير جدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Extra small, please."
+      },
+      {
+        "word": "formal",
+        "pos": "adjective",
+        "meaning_en": "for serious or special occasions, not casual",
+        "meaning_ar": "رسمي",
+        "note_ar": "",
+        "note_en": "Opposite: casual.",
+        "example": "It's a bit too formal for a party."
+      },
+      {
+        "word": "stunning",
+        "pos": "adjective",
+        "meaning_en": "very beautiful",
+        "meaning_ar": "رائع الجمال / مذهل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The view is stunning."
+      },
+      {
+        "word": "successful",
+        "pos": "adjective",
+        "meaning_en": "having a good result",
+        "meaning_ar": "ناجح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That was a successful shopping trip!"
+      },
+      {
+        "word": "show off",
+        "pos": "phrasal verb",
+        "meaning_en": "show something proudly to other people",
+        "meaning_ar": "يتباهى بـ / يستعرض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't wait to show off my new jumper."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "look vs look like",
+        "words": [
+          "look",
+          "look like"
+        ],
+        "explanation_ar": "look + صفة: You look amazing. look like + اسم: It looks like a jumper.",
+        "explanation_en": "\"Look\" + adjective: You look great. \"Look like\" + noun: She looks like her mother.",
+        "examples": [
+          {
+            "word": "look",
+            "sentence": "You look amazing!"
+          },
+          {
+            "word": "look like",
+            "sentence": "This looks like my old jumper."
+          }
+        ]
+      },
+      {
+        "title": "try vs try on",
+        "words": [
+          "try",
+          "try on"
+        ],
+        "explanation_ar": "try = يحاول أو يجرّب طعامًا. try on = يجرّب الملابس على جسمه.",
+        "explanation_en": "\"Try\" = attempt or taste. \"Try on\" = put on clothes to check them.",
+        "examples": [
+          {
+            "word": "try",
+            "sentence": "Try this cake!"
+          },
+          {
+            "word": "try on",
+            "sentence": "Try on this jumper."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "We're just looking.",
+        "meaning_ar": "نحن نتفرج فقط.",
+        "meaning_en": "You don't need help now.",
+        "example": "Can I help you? No, thanks. We're just looking."
+      },
+      {
+        "phrase": "Please let me know if there's anything I can do for you.",
+        "meaning_ar": "من فضلك أخبرني إن كان هناك ما أستطيع فعله لك.",
+        "meaning_en": "The shop assistant offers help.",
+        "example": "Let me know if you need anything."
+      },
+      {
+        "phrase": "What do you think of this jumper?",
+        "meaning_ar": "ما رأيك في هذه الكنزة؟",
+        "meaning_en": "Asking for an opinion.",
+        "example": "What do you think of these shoes?"
+      },
+      {
+        "phrase": "It's not really my style.",
+        "meaning_ar": "إنها ليست من ذوقي حقًا.",
+        "meaning_en": "You don't like it for yourself.",
+        "example": "Thanks, but red is not really my style."
+      },
+      {
+        "phrase": "It would look great on you!",
+        "meaning_ar": "ستبدو رائعة عليك!",
+        "meaning_en": "It suits you.",
+        "example": "That colour would look great on you."
+      },
+      {
+        "phrase": "Do you have this jumper in black?",
+        "meaning_ar": "هل لديكم هذه الكنزة باللون الأسود؟",
+        "meaning_en": "Asking for another colour.",
+        "example": "Do you have this shirt in blue?"
+      },
+      {
+        "phrase": "What size do you need?",
+        "meaning_ar": "أي مقاس تحتاج؟",
+        "meaning_en": "Asking about size.",
+        "example": "What size do you need? Medium, please."
+      },
+      {
+        "phrase": "Can I try it on?",
+        "meaning_ar": "هل يمكنني تجربتها؟",
+        "meaning_en": "Asking to try clothes.",
+        "example": "Can I try these trousers on?"
+      },
+      {
+        "phrase": "How much is it? / I will take it.",
+        "meaning_ar": "كم سعرها؟ / سآخذها.",
+        "meaning_en": "Asking the price and deciding to buy.",
+        "example": "How much is it? $30. Great, I'll take it."
+      },
+      {
+        "phrase": "Did you find everything you were looking for?",
+        "meaning_ar": "هل وجدت كل ما كنت تبحث عنه؟",
+        "meaning_en": "The cashier asks at the end.",
+        "example": "Did you find everything you were looking for? Yes, thanks."
+      },
+      {
+        "phrase": "Will you be paying by cash or credit card?",
+        "meaning_ar": "هل ستدفع نقدًا أم بالبطاقة؟",
+        "meaning_en": "Asking about payment.",
+        "example": "Will you be paying by card today?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "try it on (separable phrasal verbs)",
+        "explanation_ar": "في بعض الأفعال المركبة يأتي الضمير (it / them) بين الفعل والحرف: try it on وليس try on it.",
+        "explanation_en": "With some phrasal verbs, a pronoun goes in the middle: \"try it on\", not \"try on it\".",
+        "examples": [
+          "Can I try it on?",
+          "Let's try them on.",
+          "I'll try on the dress. / I'll try the dress on."
+        ]
+      },
+      {
+        "title": "too + adjective",
+        "explanation_ar": "too + صفة تعني أكثر من اللازم (مشكلة): too formal, too big.",
+        "explanation_en": "\"Too\" + adjective = more than you want (a problem).",
+        "examples": [
+          "It's a bit too formal for a party.",
+          "This jumper is too big.",
+          "The dress is too long."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"Can I help you?\" \"No, thank you. We're just ____.\"",
+      "choices": [
+        "looking",
+        "buying",
+        "trying",
+        "paying"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول We're just looking.",
+      "explanation_en": "We say \"We're just looking\"."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "Can I try on it?",
+        "Can I try it on?",
+        "Can I on try it?",
+        "Can I try it in?"
+      ],
+      "answer": 1,
+      "explanation_ar": "الضمير بين try وon.",
+      "explanation_en": "The pronoun goes between \"try\" and \"on\"."
+    },
+    {
+      "question": "A \"fitting room\" is ...",
+      "choices": [
+        "where you pay",
+        "where you try on clothes",
+        "a kind of shirt",
+        "a big shop"
+      ],
+      "answer": 1,
+      "explanation_ar": "غرفة القياس.",
+      "explanation_en": "A room to try on clothes."
+    },
+    {
+      "question": "In American English, a \"jumper\" is called a ...",
+      "choices": [
+        "jacket",
+        "dress",
+        "sweater",
+        "coat"
+      ],
+      "answer": 2,
+      "explanation_ar": "في أمريكا sweater.",
+      "explanation_en": "In the US: sweater."
+    },
+    {
+      "question": "\"It's not really my style.\" means ...",
+      "choices": [
+        "I don't like it for me.",
+        "It's too expensive.",
+        "It's very nice.",
+        "I will buy it."
+      ],
+      "answer": 0,
+      "explanation_ar": "لا يناسب ذوقي.",
+      "explanation_en": "I don't like it for myself."
+    },
+    {
+      "question": "It's a bit ____ formal for a party.",
+      "choices": [
+        "to",
+        "too",
+        "two",
+        "very much"
+      ],
+      "answer": 1,
+      "explanation_ar": "too + صفة = أكثر من اللازم.",
+      "explanation_en": "\"Too\" = more than you want."
+    },
+    {
+      "question": "You ____ amazing!",
+      "choices": [
+        "look",
+        "look like",
+        "looks",
+        "looking like"
+      ],
+      "answer": 0,
+      "explanation_ar": "look + صفة.",
+      "explanation_en": "look + adjective."
+    },
+    {
+      "question": "Do you have this jumper ____ black?",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "with"
+      ],
+      "answer": 2,
+      "explanation_ar": "in black = باللون الأسود.",
+      "explanation_en": "We say \"in black\"."
+    },
+    {
+      "question": "\"Formal\" is the opposite of ...",
+      "choices": [
+        "casual",
+        "stunning",
+        "big",
+        "extra small"
+      ],
+      "answer": 0,
+      "explanation_ar": "عكس formal هو casual.",
+      "explanation_en": "The opposite is \"casual\"."
+    },
+    {
+      "question": "Will you be paying ____ cash or credit card?",
+      "choices": [
+        "at",
+        "for",
+        "on",
+        "by"
+      ],
+      "answer": 3,
+      "explanation_ar": "نقول pay by cash / by card.",
+      "explanation_en": "We say \"pay by cash / by card\"."
+    }
+  ]
+}

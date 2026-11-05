@@ -1,0 +1,391 @@
+{
+  "title": "Politely Refusing",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "refuse",
+        "pos": "verb",
+        "meaning_en": "to say no to something",
+        "meaning_ar": "يرفض",
+        "note_ar": "الاسم: refusal",
+        "note_en": "Noun: refusal.",
+        "example": "It's hard to refuse an offer from a client."
+      },
+      {
+        "word": "offer",
+        "pos": "noun / verb",
+        "meaning_en": "something kindly suggested to you; to suggest giving something",
+        "meaning_ar": "عرض؛ يعرض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your offer."
+      },
+      {
+        "word": "politely",
+        "pos": "adverb",
+        "meaning_en": "in a kind and respectful way",
+        "meaning_ar": "بأدب",
+        "note_ar": "الصفة: polite",
+        "note_en": "Adjective: polite.",
+        "example": "She said no politely."
+      },
+      {
+        "word": "company policy",
+        "pos": "noun",
+        "meaning_en": "the official rules of a company",
+        "meaning_ar": "سياسة الشركة / لوائحها",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is company policy to wear a badge."
+      },
+      {
+        "word": "against",
+        "pos": "preposition",
+        "meaning_en": "not allowed by (a rule)",
+        "meaning_ar": "مخالف لـ / ضد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Smoking in the office is against the rules."
+      },
+      {
+        "word": "appropriate",
+        "pos": "adjective",
+        "meaning_en": "right or suitable for the situation",
+        "meaning_ar": "مناسب / لائق",
+        "note_ar": "العكس: inappropriate",
+        "note_en": "Opposite: inappropriate.",
+        "example": "Jeans are not appropriate for the meeting."
+      },
+      {
+        "word": "with regret",
+        "pos": "phrase",
+        "meaning_en": "feeling sorry (formal)",
+        "meaning_ar": "مع الأسف (رسمي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "With regret, we cannot accept your request."
+      },
+      {
+        "word": "allowed",
+        "pos": "adjective",
+        "meaning_en": "permitted",
+        "meaning_ar": "مسموح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're not allowed to use our phones in the meeting."
+      },
+      {
+        "word": "business lunch",
+        "pos": "noun",
+        "meaning_en": "a lunch to talk about work",
+        "meaning_ar": "غداء عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We had a business lunch with our new partners."
+      },
+      {
+        "word": "client",
+        "pos": "noun",
+        "meaning_en": "a person or company that buys your services",
+        "meaning_ar": "عميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is one of our biggest clients."
+      },
+      {
+        "word": "excuse",
+        "pos": "noun",
+        "meaning_en": "a reason you give for not doing something",
+        "meaning_ar": "عذر / حجة",
+        "note_ar": "الاسم يُنطق بـ s، والفعل excuse بـ z",
+        "note_en": "Noun ends with an /s/ sound; verb with a /z/ sound.",
+        "example": "What excuse did she give?"
+      },
+      {
+        "word": "promise",
+        "pos": "verb",
+        "meaning_en": "to say you will certainly do or not do something",
+        "meaning_ar": "يعِد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I promise I won't tell anyone."
+      },
+      {
+        "word": "mention",
+        "pos": "verb",
+        "meaning_en": "to talk about something briefly",
+        "meaning_ar": "يذكر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please don't mention this to anyone."
+      },
+      {
+        "word": "write down",
+        "pos": "phrasal verb",
+        "meaning_en": "to write something on paper",
+        "meaning_ar": "يدوّن / يكتب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hang on, let me write it down."
+      },
+      {
+        "word": "Hang on",
+        "pos": "phrase",
+        "meaning_en": "wait a moment (informal)",
+        "meaning_ar": "انتظر لحظة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hang on, I need a pen."
+      },
+      {
+        "word": "tedious",
+        "pos": "adjective",
+        "meaning_en": "long and boring",
+        "meaning_ar": "مُملّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Checking all these numbers is tedious."
+      },
+      {
+        "word": "Pardon?",
+        "pos": "phrase",
+        "meaning_en": "a polite way to ask someone to repeat",
+        "meaning_ar": "عفوًا؟ (لطلب التكرار)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Pardon? Could you say that again?"
+      },
+      {
+        "word": "invite",
+        "pos": "verb",
+        "meaning_en": "to ask someone to come to an event",
+        "meaning_ar": "يدعو",
+        "note_ar": "الاسم: invitation",
+        "note_en": "Noun: invitation.",
+        "example": "They invited us to the opening of their new office."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I can't vs I won't be able to",
+        "words": [
+          "I can't",
+          "I won't be able to"
+        ],
+        "explanation_ar": "I won't be able to أكثر تهذيبًا ورسمية من I can't، خاصة عند رفض دعوة في المستقبل.",
+        "explanation_en": "\"I won't be able to\" is softer and more formal than \"I can't\", especially to refuse a future invitation.",
+        "examples": [
+          {
+            "word": "I can't",
+            "sentence": "I can't come tomorrow."
+          },
+          {
+            "word": "I won't be able to",
+            "sentence": "I'm really sorry, I won't be able to come tomorrow."
+          }
+        ]
+      },
+      {
+        "title": "appropriate vs inappropriate",
+        "words": [
+          "appropriate",
+          "inappropriate"
+        ],
+        "explanation_ar": "appropriate = مناسب، و inappropriate = غير مناسب. البادئة in- تعطي المعنى العكسي.",
+        "explanation_en": "\"Appropriate\" means suitable; \"inappropriate\" means not suitable. The prefix in- makes the opposite.",
+        "examples": [
+          {
+            "word": "appropriate",
+            "sentence": "A suit is appropriate for an interview."
+          },
+          {
+            "word": "inappropriate",
+            "sentence": "Shouting at colleagues is inappropriate."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Thank you for your offer. But I'm really sorry, I won't be able to.",
+        "meaning_ar": "شكرًا على عرضك، لكنني آسف حقًا، لن أتمكن من ذلك.",
+        "meaning_en": "a polite way to say no to an offer",
+        "example": "Thank you for your offer. But I'm really sorry, I won't be able to join you on Friday."
+      },
+      {
+        "phrase": "I'm afraid it is against company policy...",
+        "meaning_ar": "للأسف هذا مخالف لسياسة الشركة...",
+        "meaning_en": "used to refuse because of a company rule",
+        "example": "I'm afraid it is against company policy to accept gifts from clients."
+      },
+      {
+        "phrase": "It wouldn't be appropriate.",
+        "meaning_ar": "لن يكون ذلك لائقًا / مناسبًا.",
+        "meaning_en": "used to say something is not suitable",
+        "example": "I'm sorry, but it wouldn't be appropriate."
+      },
+      {
+        "phrase": "With regret, I'm going to have to say no.",
+        "meaning_ar": "مع الأسف، سأضطر إلى الرفض.",
+        "meaning_en": "a formal and polite final \"no\"",
+        "example": "With regret, I'm going to have to say no to your request."
+      },
+      {
+        "phrase": "Please promise me you won't mention this to anyone.",
+        "meaning_ar": "أرجوك عِدني ألا تذكر هذا لأحد.",
+        "meaning_en": "used to ask someone to keep a secret",
+        "example": "Please promise me you won't mention this to anyone yet."
+      },
+      {
+        "phrase": "I think I've got that all down.",
+        "meaning_ar": "أظن أنني دوّنت كل ذلك.",
+        "meaning_en": "I have written everything",
+        "example": "Thanks, I think I've got that all down."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Structure of a polite refusal",
+        "explanation_ar": "الرفض المهذب له خطوات: (1) اشكر: Thank you for your offer. (2) اعتذر وارفض بلطف: I'm really sorry, I won't be able to. (3) اذكر السبب: I'm afraid... (4) اختم: With regret, I'm going to have to say no.",
+        "explanation_en": "A polite refusal has steps: (1) thank: \"Thank you for your offer.\" (2) apologise and say no softly: \"I'm really sorry, I won't be able to.\" (3) give a reason: \"I'm afraid...\" (4) close: \"With regret, I'm going to have to say no.\"",
+        "examples": [
+          "Thank you for your offer, but I'm really sorry, I won't be able to.",
+          "I'm afraid it's against company policy.",
+          "So, with regret, I'm going to have to say no."
+        ]
+      },
+      {
+        "title": "would for softer statements",
+        "explanation_ar": "نستخدم wouldn't + الفعل الأساسي لجعل الجملة أقل حدة: It wouldn't be appropriate أكثر لطفًا من It isn't appropriate.",
+        "explanation_en": "Use \"wouldn't + base verb\" to make a statement softer: \"It wouldn't be appropriate\" is gentler than \"It isn't appropriate\".",
+        "examples": [
+          "It wouldn't be appropriate.",
+          "That wouldn't be possible, I'm afraid.",
+          "It would be better to meet in the office."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which is the most polite way to say no?",
+      "choices": [
+        "No way!",
+        "Go away.",
+        "Never.",
+        "Thank you for your offer, but I won't be able to."
+      ],
+      "answer": 3,
+      "explanation_ar": "الشكر ثم الرفض بلطف هو الأسلوب المهذب.",
+      "explanation_en": "Thanking and then refusing softly is polite."
+    },
+    {
+      "question": "\"It is against company policy\" means...",
+      "choices": [
+        "The company rules don't allow it",
+        "The company likes it",
+        "The boss is away",
+        "It is a new policy"
+      ],
+      "answer": 0,
+      "explanation_ar": "تعني أن قواعد الشركة لا تسمح به.",
+      "explanation_en": "It means the company's rules don't allow it."
+    },
+    {
+      "question": "Complete: It wouldn't be ___.",
+      "choices": [
+        "appropriately",
+        "appropriate",
+        "appropriation",
+        "approve"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد be نحتاج صفة: appropriate.",
+      "explanation_en": "After \"be\" we need an adjective: appropriate."
+    },
+    {
+      "question": "Complete: With ___, I'm going to have to say no.",
+      "choices": [
+        "sorry",
+        "sad",
+        "regret",
+        "please"
+      ],
+      "answer": 2,
+      "explanation_ar": "التعبير الصحيح with regret.",
+      "explanation_en": "The phrase is \"with regret\"."
+    },
+    {
+      "question": "What is the opposite of \"appropriate\"?",
+      "choices": [
+        "unappropriate",
+        "disappropriate",
+        "nonappropriate",
+        "inappropriate"
+      ],
+      "answer": 3,
+      "explanation_ar": "العكس هو inappropriate.",
+      "explanation_en": "The opposite is inappropriate."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I'm sorry, I won't be able to come.",
+        "I'm sorry, I won't able to come.",
+        "I'm sorry, I won't be able come.",
+        "I'm sorry, I not be able to come."
+      ],
+      "answer": 0,
+      "explanation_ar": "الصيغة: won't be able to + فعل.",
+      "explanation_en": "The form is \"won't be able to + verb\"."
+    },
+    {
+      "question": "In \"I'm afraid it's against company policy\", \"I'm afraid\" shows...",
+      "choices": [
+        "fear",
+        "polite regret",
+        "anger",
+        "happiness"
+      ],
+      "answer": 1,
+      "explanation_ar": "هنا تعبّر عن الأسف المهذب.",
+      "explanation_en": "It shows polite regret."
+    },
+    {
+      "question": "What should you usually do FIRST when refusing an offer?",
+      "choices": [
+        "Give a long excuse",
+        "Say no loudly",
+        "Thank the person for the offer",
+        "Hang up"
+      ],
+      "answer": 2,
+      "explanation_ar": "ابدأ بشكر الشخص على عرضه.",
+      "explanation_en": "Start by thanking the person."
+    },
+    {
+      "question": "\"Hang on\" means...",
+      "choices": [
+        "wait a moment",
+        "hang up the phone",
+        "go away",
+        "hold the pen"
+      ],
+      "answer": 0,
+      "explanation_ar": "Hang on = انتظر لحظة.",
+      "explanation_en": "\"Hang on\" means wait a moment."
+    },
+    {
+      "question": "Which word means \"long and boring\"?",
+      "choices": [
+        "polite",
+        "tedious",
+        "allowed",
+        "appropriate"
+      ],
+      "answer": 1,
+      "explanation_ar": "tedious = مملّ.",
+      "explanation_en": "\"Tedious\" means long and boring."
+    }
+  ]
+}

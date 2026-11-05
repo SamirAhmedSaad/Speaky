@@ -1,0 +1,364 @@
+{
+  "title": "Everyday or Every Day?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "everyday",
+        "pos": "adjective",
+        "meaning_en": "normal, common, part of daily life (one word)",
+        "meaning_ar": "يومي / عادي",
+        "note_ar": "كلمة واحدة، صفة تأتي قبل الاسم",
+        "note_en": "One word; an adjective before a noun.",
+        "example": "These are my everyday clothes."
+      },
+      {
+        "word": "every day",
+        "pos": "phrase",
+        "meaning_en": "each day; daily (two words)",
+        "meaning_ar": "كل يوم",
+        "note_ar": "كلمتان، تأتي غالبًا بعد الفعل",
+        "note_en": "Two words; usually after the verb.",
+        "example": "I go to the gym every day."
+      },
+      {
+        "word": "routine",
+        "pos": "noun",
+        "meaning_en": "the things you do regularly in the same order",
+        "meaning_ar": "روتين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm tired of my everyday routine."
+      },
+      {
+        "word": "chores",
+        "pos": "noun",
+        "meaning_en": "jobs at home, like cleaning",
+        "meaning_ar": "أعمال المنزل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Work, chores, that kind of thing."
+      },
+      {
+        "word": "be up to",
+        "pos": "phrase",
+        "meaning_en": "be doing (informal)",
+        "meaning_ar": "يفعل / مشغول بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What are you up to today?"
+      },
+      {
+        "word": "lately",
+        "pos": "adverb",
+        "meaning_en": "recently; in the last few days or weeks",
+        "meaning_ar": "مؤخرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm so tired lately."
+      },
+      {
+        "word": "boring",
+        "pos": "adjective",
+        "meaning_en": "not interesting",
+        "meaning_ar": "مملّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My life has been feeling boring."
+      },
+      {
+        "word": "at least",
+        "pos": "phrase",
+        "meaning_en": "not less than",
+        "meaning_ar": "على الأقل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Try something new at least once a week."
+      },
+      {
+        "word": "change things up",
+        "pos": "phrase",
+        "meaning_en": "do things in a new way (informal)",
+        "meaning_ar": "يغيّر الروتين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to change things up."
+      },
+      {
+        "word": "break out of",
+        "pos": "phrasal verb",
+        "meaning_en": "escape from (a habit or pattern)",
+        "meaning_ar": "يكسر / يخرج من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's break out of our everyday pattern."
+      },
+      {
+        "word": "pattern",
+        "pos": "noun",
+        "meaning_en": "the usual way something happens",
+        "meaning_ar": "نمط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have the same pattern every week."
+      },
+      {
+        "word": "daily",
+        "pos": "adjective / adverb",
+        "meaning_en": "happening every day",
+        "meaning_ar": "يومي / يوميًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Exercise is part of my daily life."
+      },
+      {
+        "word": "practice makes perfect",
+        "pos": "phrase",
+        "meaning_en": "if you practise a lot, you become very good",
+        "meaning_ar": "التكرار يعلّم / الممارسة تصنع الإتقان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep trying. Practice makes perfect."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "everyday vs every day",
+        "words": [
+          "everyday",
+          "every day"
+        ],
+        "explanation_ar": "everyday (كلمة واحدة) صفة تعني عادي أو يومي وتأتي قبل الاسم: everyday clothes. every day (كلمتان) تعني كل يوم وتأتي غالبًا بعد الفعل: I study every day.",
+        "explanation_en": "\"Everyday\" (one word) is an adjective = normal; it comes before a noun. \"Every day\" (two words) = each day; it usually comes after the verb.",
+        "examples": [
+          {
+            "word": "everyday",
+            "sentence": "These are my everyday shoes."
+          },
+          {
+            "word": "every day",
+            "sentence": "I wear these shoes every day."
+          }
+        ]
+      },
+      {
+        "title": "every day vs once a week",
+        "words": [
+          "every day",
+          "once a week"
+        ],
+        "explanation_ar": "every day = كل يوم. once a week = مرة في الأسبوع.",
+        "explanation_en": "\"Every day\" = 7 times a week. \"Once a week\" = 1 time a week.",
+        "examples": [
+          {
+            "word": "every day",
+            "sentence": "I go to the gym every day."
+          },
+          {
+            "word": "once a week",
+            "sentence": "We eat out once a week."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What are you up to today?",
+        "meaning_ar": "ماذا تفعل اليوم؟",
+        "meaning_en": "Asking a friend about their plans.",
+        "example": "Hey, what are you up to this weekend?"
+      },
+      {
+        "phrase": "Just the usual everyday routine.",
+        "meaning_ar": "فقط الروتين اليومي المعتاد.",
+        "meaning_en": "Saying nothing special.",
+        "example": "Nothing new. Just the usual everyday routine."
+      },
+      {
+        "phrase": "Same here.",
+        "meaning_ar": "وأنا كذلك.",
+        "meaning_en": "Me too.",
+        "example": "\"I'm tired.\" \"Same here.\""
+      },
+      {
+        "phrase": "I'm so tired of my everyday routine.",
+        "meaning_ar": "لقد مللت من روتيني اليومي.",
+        "meaning_en": "Saying you are bored of the same things.",
+        "example": "I'm tired of eating the same food."
+      },
+      {
+        "phrase": "It's good to do different things sometimes.",
+        "meaning_ar": "من الجيد أن تفعل أشياء مختلفة أحيانًا.",
+        "meaning_en": "Giving advice.",
+        "example": "It's good to visit new places sometimes."
+      },
+      {
+        "phrase": "We need to change things up.",
+        "meaning_ar": "نحتاج أن نغير الروتين.",
+        "meaning_en": "Suggesting something new.",
+        "example": "Same café every day? We need to change things up."
+      },
+      {
+        "phrase": "How about we do something new this week?",
+        "meaning_ar": "ما رأيك أن نفعل شيئًا جديدًا هذا الأسبوع؟",
+        "meaning_en": "A suggestion.",
+        "example": "How about we try a new restaurant?"
+      },
+      {
+        "phrase": "Let's do it!",
+        "meaning_ar": "لنفعلها!",
+        "meaning_en": "Agreeing with energy.",
+        "example": "A walk in the park? Let's do it!"
+      },
+      {
+        "phrase": "I'm looking forward to it.",
+        "meaning_ar": "أنا أتطلع إلى ذلك.",
+        "meaning_en": "You are happy about a future plan.",
+        "example": "The trip is next week. I'm looking forward to it."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "everyday (adjective) + noun",
+        "explanation_ar": "everyday صفة، لذلك تأتي قبل الاسم: everyday life, everyday clothes, everyday chores.",
+        "explanation_en": "\"Everyday\" is an adjective, so it goes before a noun.",
+        "examples": [
+          "my everyday life",
+          "everyday clothes",
+          "the everyday routine"
+        ]
+      },
+      {
+        "title": "verb + every day (time phrase)",
+        "explanation_ar": "every day عبارة زمنية تعني كل يوم، وتأتي عادة بعد الفعل أو في آخر الجملة.",
+        "explanation_en": "\"Every day\" is a time phrase; it usually goes after the verb or at the end.",
+        "examples": [
+          "I go to the gym every day.",
+          "We do the same things every day.",
+          "She reads every day."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I go to the gym ____.",
+      "choices": [
+        "everyday",
+        "every day",
+        "every-day",
+        "everydays"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد الفعل: every day (كلمتان).",
+      "explanation_en": "After the verb: \"every day\" (two words)."
+    },
+    {
+      "question": "These are my ____ clothes.",
+      "choices": [
+        "every day",
+        "every days",
+        "each day",
+        "everyday"
+      ],
+      "answer": 3,
+      "explanation_ar": "قبل الاسم: everyday (صفة).",
+      "explanation_en": "Before a noun: \"everyday\"."
+    },
+    {
+      "question": "\"Everyday\" is ...",
+      "choices": [
+        "an adjective",
+        "a verb",
+        "a time phrase of two words",
+        "a noun only"
+      ],
+      "answer": 0,
+      "explanation_ar": "everyday صفة.",
+      "explanation_en": "\"Everyday\" is an adjective."
+    },
+    {
+      "question": "\"What are you up to today?\" means ...",
+      "choices": [
+        "How tall are you?",
+        "What time is it?",
+        "What are you doing today?",
+        "Where are you going up?"
+      ],
+      "answer": 2,
+      "explanation_ar": "ماذا تفعل اليوم؟",
+      "explanation_en": "What are you doing today?"
+    },
+    {
+      "question": "\"Same here.\" means ...",
+      "choices": [
+        "Come here.",
+        "I'm here.",
+        "Me too.",
+        "Not the same."
+      ],
+      "answer": 2,
+      "explanation_ar": "وأنا كذلك.",
+      "explanation_en": "Me too."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "I practice English every day.",
+        "I practice English everyday.",
+        "I practice every-day English.",
+        "I everyday practice English."
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد الفعل نستخدم every day.",
+      "explanation_en": "After the verb: \"every day\"."
+    },
+    {
+      "question": "We should try something new at least ____ a week.",
+      "choices": [
+        "one",
+        "one time of",
+        "ones",
+        "once"
+      ],
+      "answer": 3,
+      "explanation_ar": "الإجابة الصحيحة: once a week.",
+      "explanation_en": "We say \"once a week\"."
+    },
+    {
+      "question": "\"Practice makes perfect.\" means ...",
+      "choices": [
+        "Practice is boring.",
+        "If you practise a lot, you get very good.",
+        "Perfect people don't practise.",
+        "Don't practise."
+      ],
+      "answer": 1,
+      "explanation_ar": "الممارسة تصنع الإتقان.",
+      "explanation_en": "Practising a lot makes you very good."
+    },
+    {
+      "question": "Cleaning and washing are everyday ____.",
+      "choices": [
+        "chores",
+        "days",
+        "routines a",
+        "boring"
+      ],
+      "answer": 0,
+      "explanation_ar": "أعمال المنزل: chores.",
+      "explanation_en": "Everyday chores."
+    },
+    {
+      "question": "\"I'm tired of my everyday routine lately.\" \"Lately\" means ...",
+      "choices": [
+        "late at night",
+        "tomorrow",
+        "recently",
+        "never"
+      ],
+      "answer": 2,
+      "explanation_ar": "lately تعني مؤخرًا.",
+      "explanation_en": "\"Lately\" means recently."
+    }
+  ]
+}

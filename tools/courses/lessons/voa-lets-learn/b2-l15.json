@@ -1,0 +1,55 @@
+{
+  "title": "Before and After",
+  "content": {
+    "vocabulary": [
+      {"word": "speed walking", "pos": "noun", "meaning_en": "a sport of walking very fast", "meaning_ar": "رياضة المشي السريع", "note_ar": "", "note_en": "", "example": "We both love speed walking."},
+      {"word": "slow down", "pos": "phrasal verb", "meaning_en": "to go less fast", "meaning_ar": "يبطئ", "note_ar": "عكسها speed up", "note_en": "Opposite: speed up.", "example": "Please slow down a bit."},
+      {"word": "take a break", "pos": "phrase", "meaning_en": "to stop for a short rest", "meaning_ar": "يأخذ استراحة", "note_ar": "", "note_en": "", "example": "Let's take a break and drink some water."},
+      {"word": "competitive", "pos": "adjective", "meaning_en": "always wanting to win", "meaning_ar": "يحب المنافسة", "note_ar": "", "note_en": "", "example": "You're so competitive!"},
+      {"word": "medal", "pos": "noun", "meaning_en": "a round metal prize for winning", "meaning_ar": "ميدالية", "note_ar": "", "note_en": "", "example": "She won a gold medal."},
+      {"word": "trophy", "pos": "noun", "meaning_en": "a cup or other prize for winning", "meaning_ar": "كأس / جائزة", "note_ar": "الجمع trophies", "note_en": "Plural: trophies.", "example": "Our team won the trophy."},
+      {"word": "out of shape", "pos": "phrase", "meaning_en": "not fit; your body is not strong", "meaning_ar": "غير لائق بدنيًا", "note_ar": "عكسها in shape", "note_en": "Opposite: in shape.", "example": "I'm out of shape because I don't exercise."},
+      {"word": "catch up", "pos": "phrasal verb", "meaning_en": "to reach someone who is ahead of you", "meaning_ar": "يلحق بـ", "note_ar": "", "note_en": "", "example": "Walk faster and catch up with us."},
+      {"word": "personal trainer", "pos": "noun", "meaning_en": "a person who helps you exercise", "meaning_ar": "مدرّب شخصي", "note_ar": "", "note_en": "", "example": "Maybe you should hire a personal trainer."},
+      {"word": "hire", "pos": "verb", "meaning_en": "to pay someone to work for you", "meaning_ar": "يوظّف / يستأجر", "note_ar": "", "note_en": "", "example": "The company hired three new workers."},
+      {"word": "fill out", "pos": "phrasal verb", "meaning_en": "to write information in a form", "meaning_ar": "يملأ (استمارة)", "note_ar": "", "note_en": "", "example": "Fill out this form, please."},
+      {"word": "application", "pos": "noun", "meaning_en": "a form you fill out to ask for something", "meaning_ar": "طلب / استمارة", "note_ar": "", "note_en": "", "example": "I sent my application online."},
+      {"word": "wilderness", "pos": "noun", "meaning_en": "wild land with no towns", "meaning_ar": "البرية", "note_ar": "", "note_en": "", "example": "Bears live in the wilderness."},
+      {"word": "outdoor", "pos": "adjective", "meaning_en": "done outside", "meaning_ar": "في الهواء الطلق", "note_ar": "", "note_en": "", "example": "He loves outdoor activities."},
+      {"word": "workout", "pos": "noun", "meaning_en": "a session of exercise", "meaning_ar": "حصة تمارين", "note_ar": "الفعل work out = يتمرّن", "note_en": "Verb: work out.", "example": "I do a short workout every morning."},
+      {"word": "cancel", "pos": "verb", "meaning_en": "to decide that a planned event will not happen", "meaning_ar": "يلغي", "note_ar": "", "note_en": "", "example": "We'll have to cancel the training."},
+      {"word": "windy", "pos": "adjective", "meaning_en": "with a lot of wind", "meaning_ar": "عاصف / كثير الرياح", "note_ar": "", "note_en": "", "example": "It's too cold and too windy."},
+      {"word": "extreme", "pos": "adjective", "meaning_en": "very great or very difficult", "meaning_ar": "شديد / متطرف", "note_ar": "", "note_en": "", "example": "This is an extreme sport."},
+      {"word": "challenge", "pos": "noun", "meaning_en": "something difficult that tests your ability", "meaning_ar": "تحدٍّ", "note_ar": "", "note_en": "", "example": "Climbing the mountain was a big challenge."},
+      {"word": "advice", "pos": "noun", "meaning_en": "an opinion about what someone should do", "meaning_ar": "نصيحة", "note_ar": "اسم غير معدود", "note_en": "Uncountable.", "example": "If you follow my advice, you will be faster."}
+    ],
+    "fine_lines": [
+      {"title": "because vs even though", "words": ["because", "even though"], "explanation_ar": "because تعطي السبب. even though تعني «رغم أن» وتعرض شيئًا متوقعًا لم يحدث.", "explanation_en": "Because gives a reason. Even though means 'although': it shows a surprising contrast.", "examples": [{"word": "because", "sentence": "We can't train because it's too cold."}, {"word": "even though", "sentence": "Even though you're trying hard, you're bad at it."}]},
+      {"title": "as soon as vs as long as", "words": ["as soon as", "as long as"], "explanation_ar": "as soon as = فور / بمجرد (للوقت). as long as = بشرط أن.", "explanation_en": "As soon as = right after (time). As long as = only if (condition).", "examples": [{"word": "as soon as", "sentence": "As soon as I get home, I'll do it."}, {"word": "as long as", "sentence": "That's great, as long as the trainer understands speed walking."}]}
+    ],
+    "expressions": [
+      {"phrase": "No way!", "meaning_ar": "مستحيل! / أبدًا!", "meaning_en": "Certainly not!", "example": "Stop now? No way!"},
+      {"phrase": "Come on!", "meaning_ar": "هيا! / بالله عليك!", "meaning_en": "Used to ask someone to do something or to stop being difficult.", "example": "Come on, let's go home."},
+      {"phrase": "Wait for me!", "meaning_ar": "انتظرني!", "meaning_en": "Don't go without me.", "example": "Wait for me! I'm coming."},
+      {"phrase": "No pain, no gain!", "meaning_ar": "لا نجاح بدون تعب.", "meaning_en": "You must work hard to get good results.", "example": "The training is hard, but no pain, no gain!"},
+      {"phrase": "Let's get started!", "meaning_ar": "لنبدأ!", "meaning_en": "Let's begin now.", "example": "Everyone is here. Let's get started!"},
+      {"phrase": "Forget it.", "meaning_ar": "انسَ الأمر.", "meaning_en": "It doesn't matter; stop talking about it.", "example": "You didn't read it? Forget it."},
+      {"phrase": "It's part of who I am.", "meaning_ar": "إنه جزء من شخصيتي.", "meaning_en": "It is very important to me and my identity.", "example": "I love reading. It's part of who I am."}
+    ],
+    "grammar": [
+      {"title": "Adverb clauses", "explanation_ar": "جملة الظرف (adverb clause) جزء من الجملة يخبرنا متى أو لماذا أو كيف أو بأي شرط. تبدأ بكلمات مثل: when, before, after, since, as soon as (للوقت)، because (للسبب)، if, as long as (للشرط)، even though (للتناقض). هي جملة تابعة لا تكتمل وحدها، فيجب أن تأتي مع جملة رئيسية. إذا بدأنا بها نضع فاصلة: Because it's cold, we can't train. وإذا جاءت في الآخر فلا فاصلة غالبًا.", "explanation_en": "An adverb clause tells when, why, how or under what condition. It starts with words like when, before, after, since, as soon as (time), because (reason), if, as long as (condition), even though (contrast). It is a dependent clause, so it needs a main clause. Put a comma if it comes first: Because it's cold, we can't train.", "examples": ["Since I've been working in an office, my speed walking has been slower.", "After you fill out an online application, they will match you to a trainer.", "We can't train today because it's too cold.", "Even though you're trying hard, you're really bad at parkour."]}
+    ]
+  },
+  "questions": [
+    {"question": "We can't go out ____ it's raining.", "choices": ["because", "even though", "so", "before"], "answer": 0, "explanation_ar": "because لإعطاء السبب.", "explanation_en": "Because gives the reason."},
+    {"question": "____ he is tired, he keeps walking.", "choices": ["Because", "Even though", "As soon as", "If"], "answer": 1, "explanation_ar": "even though = رغم أن (تناقض).", "explanation_en": "Even though shows contrast."},
+    {"question": "____ I get home, I'll call you. (right after)", "choices": ["Even though", "Because", "As soon as", "As long as"], "answer": 2, "explanation_ar": "as soon as = فور / بمجرد.", "explanation_en": "As soon as means right after."},
+    {"question": "An adverb clause is:", "choices": ["a full sentence alone", "a type of noun", "a question", "a dependent clause that needs a main clause"], "answer": 3, "explanation_ar": "جملة الظرف تابعة وتحتاج جملة رئيسية.", "explanation_en": "It is dependent; it needs a main clause."},
+    {"question": "'Out of shape' means:", "choices": ["not fit", "very strong", "very thin", "very fast"], "answer": 0, "explanation_ar": "out of shape = غير لائق بدنيًا.", "explanation_en": "Out of shape means not fit."},
+    {"question": "You write your information on a form. You ____ the form.", "choices": ["cancel", "hire", "fill out", "catch up"], "answer": 2, "explanation_ar": "fill out = يملأ استمارة.", "explanation_en": "Fill out means write information in a form."},
+    {"question": "'No pain, no gain' means:", "choices": ["Exercise is bad.", "You must work hard to get results.", "Rest is better than work.", "Don't feel any pain."], "answer": 1, "explanation_ar": "لا نجاح بدون تعب.", "explanation_en": "Hard work brings good results."},
+    {"question": "You can come ____ you are quiet. (only if)", "choices": ["as long as", "because", "even though", "since"], "answer": 0, "explanation_ar": "as long as = بشرط أن.", "explanation_en": "As long as means only if."},
+    {"question": "A cup you win as a prize is a ____.", "choices": ["medal", "workout", "challenge", "trophy"], "answer": 3, "explanation_ar": "trophy = كأس الفوز.", "explanation_en": "A trophy is a prize cup."},
+    {"question": "Which sentence has the comma in the right place?", "choices": ["Because, it's cold we stay home.", "Because it's cold we, stay home.", "Because it's cold, we stay home.", "Because it's, cold we stay home."], "answer": 2, "explanation_ar": "نضع الفاصلة بعد جملة الظرف عندما تأتي أولًا.", "explanation_en": "Put the comma after the adverb clause when it comes first."}
+  ]
+}

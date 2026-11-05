@@ -26,7 +26,7 @@ import io.github.aakira.napier.Napier
 
 @Composable
 actual fun BannerAdView(modifier: Modifier) {
-    val premium by Premium.active.collectAsState()
+    val premium by Premium.noAds.collectAsState()
     if (!AdConfig.adsEnabled || !AdConfig.showBannerAds || premium) return
     DisposableEffect(Unit) {
         AdConfig.bannerRequests++
@@ -38,7 +38,7 @@ actual fun BannerAdView(modifier: Modifier) {
 
 @Composable
 actual fun AppBannerHost(modifier: Modifier) {
-    val premium by Premium.active.collectAsState()
+    val premium by Premium.noAds.collectAsState()
     if (!AdConfig.adsEnabled || !AdConfig.showBannerAds || !AdConfig.adsReady || premium) return
     val activity = LocalContext.current as? Activity ?: return
     val manager = AdManager.instance ?: return

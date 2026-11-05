@@ -2,6 +2,7 @@ package com.speakmind.app.ads
 
 import android.content.Context
 import android.telephony.TelephonyManager
+import com.unity3d.mediation.LevelPlay
 import com.unity3d.mediation.LevelPlayPrivacySettings
 import java.util.Locale
 
@@ -13,8 +14,11 @@ object AdPrivacy {
 
     fun apply(context: Context) {
         if (needsConsent(context)) LevelPlayPrivacySettings.setGDPRConsent(false)
-        // Speaky is for ages 13+, not a children's app.
-        LevelPlayPrivacySettings.setCOPPA(false)
+        // Speaky is for ages 13+, but every request is flagged child-directed on purpose: the networks
+        // then serve only family-safe, non-targeted ads (Sharia-friendly ads matter more than revenue).
+        LevelPlayPrivacySettings.setCOPPA(true)
+        LevelPlay.setMetaData("is_child_directed", "true") // ironSource Ads
+        LevelPlay.setMetaData("UnityAds_coppa", "true") // Unity Ads adapter
     }
 
     private fun needsConsent(context: Context): Boolean {

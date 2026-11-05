@@ -1,0 +1,304 @@
+{
+  "title": "Past Simple and Present Perfect",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "simple past",
+        "pos": "noun",
+        "meaning_en": "the tense for finished actions at a specific time: I read it yesterday",
+        "meaning_ar": "الماضي البسيط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I ate dinner at five o'clock."
+      },
+      {
+        "word": "present perfect",
+        "pos": "noun",
+        "meaning_en": "have/has + past participle: a past action with an effect now, no specific time",
+        "meaning_ar": "المضارع التام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've read this article before."
+      },
+      {
+        "word": "specific",
+        "pos": "adjective",
+        "meaning_en": "exact, clearly stated",
+        "meaning_ar": "محدد",
+        "note_ar": "حيلة: Simple past = Specific time",
+        "note_en": "Trick: Simple past = Specific time.",
+        "example": "\"Yesterday\" is a specific time."
+      },
+      {
+        "word": "completed",
+        "pos": "adjective",
+        "meaning_en": "finished",
+        "meaning_ar": "منتهٍ / مكتمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The simple past shows a completed action."
+      },
+      {
+        "word": "effect",
+        "pos": "noun",
+        "meaning_en": "a result or change caused by something",
+        "meaning_ar": "أثر / تأثير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A past action can have an effect now."
+      },
+      {
+        "word": "article",
+        "pos": "noun",
+        "meaning_en": "a piece of writing in a newspaper or website",
+        "meaning_ar": "مقال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I read an interesting article yesterday."
+      },
+      {
+        "word": "I've",
+        "pos": "contraction",
+        "meaning_en": "I have",
+        "meaning_ar": "اختصار I have",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've seen this film before."
+      },
+      {
+        "word": "before",
+        "pos": "adverb",
+        "meaning_en": "at some time in the past (not specific)",
+        "meaning_ar": "من قبل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have you been here before?"
+      },
+      {
+        "word": "how long",
+        "pos": "phrase",
+        "meaning_en": "for what period of time",
+        "meaning_ar": "منذ متى / كم من الوقت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How long have you lived here?"
+      },
+      {
+        "word": "how many times",
+        "pos": "phrase",
+        "meaning_en": "what number of times",
+        "meaning_ar": "كم مرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How many times have you visited Cairo?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I read it yesterday vs I've read it",
+        "words": [
+          "simple past",
+          "present perfect"
+        ],
+        "explanation_ar": "الماضي البسيط مع وقت محدد (yesterday, at five, two hours ago). المضارع التام بدون وقت محدد: حدث في الماضي وله أثر الآن. لا نقول I've read it yesterday.",
+        "explanation_en": "Simple past with a specific time (yesterday, at five, two hours ago). Present perfect with no specific time: it happened in the past and matters now. Don't say \"I've read it yesterday\".",
+        "examples": [
+          {
+            "word": "simple past",
+            "sentence": "I read the article yesterday."
+          },
+          {
+            "word": "present perfect",
+            "sentence": "I've read the article."
+          }
+        ]
+      },
+      {
+        "title": "When? vs How long? / How many times?",
+        "words": [
+          "When?",
+          "How long? / How many times?"
+        ],
+        "explanation_ar": "When? يحتاج وقتًا محددًا → الماضي البسيط. How long? و How many times? → المضارع التام.",
+        "explanation_en": "\"When?\" needs a specific time → simple past. \"How long?\" and \"How many times?\" → present perfect.",
+        "examples": [
+          {
+            "word": "When?",
+            "sentence": "When did you see him? I saw him two hours ago."
+          },
+          {
+            "word": "How long? / How many times?",
+            "sentence": "How many times have you read it? I've read it three times."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I've read this before.",
+        "meaning_ar": "قرأت هذا من قبل.",
+        "meaning_en": "I read it at some time in the past.",
+        "example": "This story sounds familiar. I've read this before."
+      },
+      {
+        "phrase": "Have I read this before?",
+        "meaning_ar": "هل قرأت هذا من قبل؟",
+        "meaning_en": "Asking yourself about past experience.",
+        "example": "Have I read this before? I'm not sure."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Simple past: specific time or completed action",
+        "explanation_ar": "نستعمل الماضي البسيط لحدث في وقت محدد في الماضي، أو لحدث انتهى. حيلة: S = Simple = Specific.",
+        "explanation_en": "Use the simple past for an action at a specific past time, or a completed action. Trick: S = Simple = Specific.",
+        "examples": [
+          "I read the book yesterday.",
+          "I saw the man two hours ago.",
+          "I ate dinner at five o'clock."
+        ]
+      },
+      {
+        "title": "Present perfect: past with an effect now, no specific time",
+        "explanation_ar": "المضارع التام (have/has + التصريف الثالث) لحدث في الماضي له أثر الآن، ولا نذكر وقتًا محددًا. لا نستعمل معه yesterday أو ago.",
+        "explanation_en": "The present perfect (have/has + past participle) is for a past action that matters now, with no specific time. Don't use it with \"yesterday\" or \"ago\".",
+        "examples": [
+          "I've read the article.",
+          "She has visited London."
+        ]
+      },
+      {
+        "title": "Simple rule",
+        "explanation_ar": "المضارع التام: كم من الوقت (how long) أو كم مرة (how many times). الماضي البسيط: متى بالتحديد (when).",
+        "explanation_en": "Present perfect: how long or how many times. Simple past: exactly when.",
+        "examples": [
+          "I've lived here for five years. (how long)",
+          "I've been to Paris twice. (how many times)",
+          "I went to Paris in 2019. (when)"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"I ___ the article yesterday.\"",
+      "choices": [
+        "have read",
+        "read",
+        "have readed",
+        "has read"
+      ],
+      "answer": 1,
+      "explanation_ar": "yesterday وقت محدد: الماضي البسيط.",
+      "explanation_en": "\"Yesterday\" is specific: simple past."
+    },
+    {
+      "question": "Which sentence is wrong?",
+      "choices": [
+        "I read it yesterday.",
+        "I've read it.",
+        "I've read it yesterday.",
+        "I've read it three times."
+      ],
+      "answer": 2,
+      "explanation_ar": "لا نستعمل المضارع التام مع yesterday.",
+      "explanation_en": "Don't use the present perfect with \"yesterday\"."
+    },
+    {
+      "question": "\"How many times ___ this film?\"",
+      "choices": [
+        "have you seen",
+        "did you saw",
+        "you have seen",
+        "do you saw"
+      ],
+      "answer": 0,
+      "explanation_ar": "how many times مع المضارع التام.",
+      "explanation_en": "\"How many times\" with the present perfect."
+    },
+    {
+      "question": "\"When ___ him?\" \"Two hours ago.\"",
+      "choices": [
+        "have you seen",
+        "did you see",
+        "you saw",
+        "have you see"
+      ],
+      "answer": 1,
+      "explanation_ar": "When مع الماضي البسيط.",
+      "explanation_en": "\"When\" with the simple past."
+    },
+    {
+      "question": "The simple past is used for ___.",
+      "choices": [
+        "how long",
+        "how many times",
+        "no time",
+        "a specific time"
+      ],
+      "answer": 3,
+      "explanation_ar": "الماضي البسيط لوقت محدد.",
+      "explanation_en": "Simple past is for a specific time."
+    },
+    {
+      "question": "\"I ___ here for five years.\" (and I still live here)",
+      "choices": [
+        "lived",
+        "have lived",
+        "live since",
+        "did live"
+      ],
+      "answer": 1,
+      "explanation_ar": "how long مع المضارع التام.",
+      "explanation_en": "How long → present perfect."
+    },
+    {
+      "question": "\"I ___ dinner at five o'clock.\"",
+      "choices": [
+        "have eaten",
+        "has eaten",
+        "ate",
+        "eaten"
+      ],
+      "answer": 2,
+      "explanation_ar": "وقت محدد: ate.",
+      "explanation_en": "Specific time: ate."
+    },
+    {
+      "question": "The present perfect shows ___.",
+      "choices": [
+        "a past action with an effect now",
+        "only future plans",
+        "a specific past time",
+        "habits only"
+      ],
+      "answer": 0,
+      "explanation_ar": "حدث ماضٍ له أثر الآن.",
+      "explanation_en": "A past action that matters now."
+    },
+    {
+      "question": "\"I've\" = ___.",
+      "choices": [
+        "I will",
+        "I would",
+        "I had",
+        "I have"
+      ],
+      "answer": 3,
+      "explanation_ar": "الإجابة الصحيحة: I've = I have.",
+      "explanation_en": "I've = I have."
+    },
+    {
+      "question": "\"___ you ever been to Cairo?\"",
+      "choices": [
+        "Did",
+        "Have",
+        "Were",
+        "Do"
+      ],
+      "answer": 1,
+      "explanation_ar": "تجربة بدون وقت محدد: Have.",
+      "explanation_en": "Experience, no time: Have."
+    }
+  ]
+}

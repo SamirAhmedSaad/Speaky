@@ -1,0 +1,65 @@
+{
+  "title": "When Do I Start?",
+  "content": {
+    "vocabulary": [
+      {"word": "summer", "pos": "noun", "meaning_en": "the hottest season of the year", "meaning_ar": "الصيف", "note_ar": "in summer / in the summer", "note_en": "in summer / in the summer", "example": "Summer in Washington is hot and sunny."},
+      {"word": "ride", "pos": "verb", "meaning_en": "to travel on a bus, train, bike or horse", "meaning_ar": "يركب", "note_ar": "الماضي: rode", "note_en": "Past: rode.", "example": "I always ride the Metro to work."},
+      {"word": "Metro", "pos": "noun", "meaning_en": "the underground train in a city", "meaning_ar": "المترو (قطار الأنفاق)", "note_ar": "في لندن يسمونه the Underground، وفي نيويورك the subway.", "note_en": "In London it is the Underground; in New York, the subway.", "example": "The Metro is cool and fast."},
+      {"word": "closed", "pos": "adjective", "meaning_en": "not open", "meaning_ar": "مُغلق", "note_ar": "عكسها: open", "note_en": "Opposite: open.", "example": "The Metro is closed today."},
+      {"word": "late", "pos": "adjective", "meaning_en": "after the right time", "meaning_ar": "متأخر", "note_ar": "عكسها: early", "note_en": "Opposite: early.", "example": "I am late this morning."},
+      {"word": "arrive", "pos": "verb", "meaning_en": "to get to a place", "meaning_ar": "يصل", "note_ar": "arrive at + مكان صغير، arrive in + مدينة/بلد", "note_en": "arrive at a building, arrive in a city", "example": "When you arrive, please come to my office."},
+      {"word": "office", "pos": "noun", "meaning_en": "a room or building where people work at desks", "meaning_ar": "مكتب", "note_ar": "", "note_en": "", "example": "Please come to my office."},
+      {"word": "important", "pos": "adjective", "meaning_en": "having great value or meaning", "meaning_ar": "مهم", "note_ar": "", "note_en": "", "example": "I have important news to tell you."},
+      {"word": "good news", "pos": "noun", "meaning_en": "information that makes you happy", "meaning_ar": "خبر سار", "note_ar": "news غير معدود: نقول good news وليس a good news", "note_en": "News is uncountable: not 'a good news'.", "example": "I have good news: you have a new job!"},
+      {"word": "bad news", "pos": "noun", "meaning_en": "information that makes you sad or worried", "meaning_ar": "خبر سيئ", "note_ar": "", "note_en": "", "example": "The bad news is the shop is closed."},
+      {"word": "fire", "pos": "verb", "meaning_en": "to tell someone they cannot work for you anymore", "meaning_ar": "يطرد من العمل / يفصل", "note_ar": "fire لها معنى آخر: نار", "note_en": "Fire also means flames.", "example": "Don't worry. I am not firing you."},
+      {"word": "July", "pos": "noun", "meaning_en": "the seventh month of the year", "meaning_ar": "يوليو / تمّوز", "note_ar": "أسماء الشهور تبدأ بحرف كبير", "note_en": "Months start with a capital letter.", "example": "Next month is July."},
+      {"word": "August", "pos": "noun", "meaning_en": "the eighth month of the year", "meaning_ar": "أغسطس / آب", "note_ar": "", "note_en": "", "example": "It is very hot in August."},
+      {"word": "September", "pos": "noun", "meaning_en": "the ninth month of the year", "meaning_ar": "سبتمبر / أيلول", "note_ar": "", "note_en": "", "example": "School starts in September."},
+      {"word": "month", "pos": "noun", "meaning_en": "one of the twelve parts of a year", "meaning_ar": "شهر", "note_ar": "next month = الشهر القادم", "note_en": "next month, last month", "example": "You start next month."},
+      {"word": "be good at", "pos": "phrase", "meaning_en": "to do something well", "meaning_ar": "يُجيد / ماهر في", "note_ar": "بعدها اسم أو فعل بـ ing", "note_en": "Followed by a noun or a verb + -ing.", "example": "You are good at talking to people."},
+      {"word": "silly", "pos": "adjective", "meaning_en": "funny in a childish way; not serious", "meaning_ar": "سخيف / مرح بطريقة طفولية", "note_ar": "", "note_en": "", "example": "The children make silly faces."},
+      {"word": "mean", "pos": "verb", "meaning_en": "to have a meaning; to want to say", "meaning_ar": "يعني", "note_ar": "What does it mean? = ماذا يعني ذلك؟", "note_en": "What does it mean?", "example": "What does this word mean?"},
+      {"word": "assignment", "pos": "noun", "meaning_en": "a job or piece of work that someone gives you", "meaning_ar": "مهمّة / تكليف", "note_ar": "حرف g صامت: /əˈsaɪnmənt/", "note_en": "The g is silent: /əˈsaɪnmənt/.", "example": "I have a new assignment for you."},
+      {"word": "skill", "pos": "noun", "meaning_en": "an ability to do something well", "meaning_ar": "مهارة", "note_ar": "", "note_en": "", "example": "Your skills are perfect for this job."},
+      {"word": "perfect", "pos": "adjective", "meaning_en": "very good; exactly right", "meaning_ar": "مثالي / ممتاز", "note_ar": "", "note_en": "", "example": "This weather is perfect for a walk."},
+      {"word": "children's show", "pos": "noun", "meaning_en": "a TV program made for children", "meaning_ar": "برنامج أطفال", "note_ar": "", "note_en": "", "example": "Anna will work on a children's show."},
+      {"word": "idea", "pos": "noun", "meaning_en": "a thought or plan", "meaning_ar": "فكرة", "note_ar": "tons of ideas = أفكار كثيرة جدًا", "note_en": "tons of ideas = very many ideas", "example": "I have tons of ideas!"},
+      {"word": "outer space", "pos": "noun", "meaning_en": "the area far above the Earth, where the stars are", "meaning_ar": "الفضاء الخارجي", "note_ar": "", "note_en": "", "example": "Astronauts travel to outer space."},
+      {"word": "ocean", "pos": "noun", "meaning_en": "a very large area of salt water", "meaning_ar": "محيط", "note_ar": "", "note_en": "", "example": "Many fish live in the deep, dark ocean."}
+    ],
+    "fine_lines": [
+      {"title": "good at vs good for", "words": ["good at", "good for"], "explanation_ar": "good at = ماهر في شيء: She is good at math. أما good for = مفيد لشيء: Walking is good for you.", "explanation_en": "Good at means you do something well: She is good at math. Good for means helpful or healthy: Walking is good for you.", "examples": [{"word": "good at", "sentence": "You are good at asking questions."}, {"word": "good for", "sentence": "Vegetables are good for you."}]},
+      {"title": "late vs early", "words": ["late", "early"], "explanation_ar": "late = بعد الوقت المطلوب. early = قبل الوقت المطلوب.", "explanation_en": "Late is after the right time. Early is before the right time.", "examples": [{"word": "late", "sentence": "I am late because the Metro is closed."}, {"word": "early", "sentence": "She arrives early every day."}]}
+    ],
+    "expressions": [
+      {"phrase": "That's too bad.", "meaning_ar": "هذا مؤسف.", "meaning_en": "I'm sorry that happened.", "example": "The museum is closed today. - That's too bad."},
+      {"phrase": "I have important news to tell you.", "meaning_ar": "لديّ خبر مهم أريد أن أخبرك به.", "meaning_en": "I need to tell you something big.", "example": "Sit down. I have important news to tell you."},
+      {"phrase": "I have good news and bad news.", "meaning_ar": "لديّ خبر سار وخبر سيئ.", "meaning_en": "Some of my news is good and some is bad.", "example": "I have good news and bad news. Which do you want first?"},
+      {"phrase": "Which do you want to hear first?", "meaning_ar": "أيّهما تريد أن تسمع أولًا؟", "meaning_en": "Asking someone to choose one first.", "example": "Good news or bad news: which do you want to hear first?"},
+      {"phrase": "I am very sorry to hear that.", "meaning_ar": "يؤسفني جدًا سماع ذلك.", "meaning_en": "A polite answer to bad news.", "example": "My brother is sick. - I'm very sorry to hear that."},
+      {"phrase": "What does all that mean?", "meaning_ar": "ماذا يعني كل ذلك؟", "meaning_en": "Please explain what you are saying.", "example": "You say I'm good at many things. What does all that mean?"},
+      {"phrase": "When do I start?", "meaning_ar": "متى أبدأ؟", "meaning_en": "Asking the start time of a new job or task.", "example": "I love this new job! When do I start?"},
+      {"phrase": "Of course.", "meaning_ar": "بالطبع.", "meaning_en": "Yes, certainly.", "example": "Can you come to my office? - Of course."},
+      {"phrase": "I have tons of ideas!", "meaning_ar": "لديّ أفكار كثيرة جدًا!", "meaning_en": "I have very many ideas.", "example": "A school trip? I have tons of ideas!"},
+      {"phrase": "The important thing is to know what you are good at.", "meaning_ar": "الشيء المهم أن تعرف ما الذي تُجيده.", "meaning_en": "It matters to know your skills.", "example": "Everyone has skills. The important thing is to know what you are good at."}
+    ],
+    "grammar": [
+      {"title": "be good at + noun / verb-ing", "explanation_ar": "1) نستخدم be good at لنقول إن شخصًا ماهر في شيء. 2) بعد at نضع اسمًا: good at math، أو فعلًا بـ ing: good at asking questions. 3) لا نضع المصدر مع to بعد at (لا نقول good at to ask). 4) يمكن قول great at أو not good at.", "explanation_en": "1) Use be good at to say someone does something well. 2) After at, use a noun (good at math) or a verb + -ing (good at asking questions). 3) Never use to + verb after at. 4) You can also say great at or not good at.", "examples": ["You are good at talking to people.", "You are great at being silly.", "You are not good at reading the news.", "My sister is good at drawing."]},
+      {"title": "Months of the year and 'in' + month", "explanation_ar": "الشهور: January, February, March, April, May, June, July, August, September, October, November, December. تبدأ بحرف كبير، ونستخدم in قبلها: in July. ونقول next month و last month بدون حرف جر.", "explanation_en": "The months are January, February, March, April, May, June, July, August, September, October, November, December. They start with a capital letter. Use in: in July. Say next month and last month with no preposition.", "examples": ["I am not firing you in July.", "School starts in September.", "You start next month."]},
+      {"title": "Talking about the future: You start / You will not read", "explanation_ar": "للحديث عن المستقبل المخطط يمكن استخدام المضارع البسيط لجدول ثابت (You start next month) أو will not + فعل للنفي (You will not read the news). ونسأل: When do I start?", "explanation_en": "To talk about a planned future, use the simple present for a timetable (You start next month) or will / will not + verb (You will not read the news). Ask: When do I start?", "examples": ["When do I start? - You start next month.", "Starting next month, you will not read the news.", "What will I be doing?"]}
+    ]
+  },
+  "questions": [
+    {"question": "You are good at ___ questions.", "choices": ["ask", "to ask", "asking", "asks"], "answer": 2, "explanation_ar": "بعد good at نضع فعلًا بـ ing.", "explanation_en": "After good at, use verb + -ing."},
+    {"question": "Which month comes after July?", "choices": ["August", "June", "September", "May"], "answer": 0, "explanation_ar": "بعد يوليو يأتي أغسطس August.", "explanation_en": "August comes after July."},
+    {"question": "'The Metro is closed' means:", "choices": ["The Metro is fast.", "The Metro is cool.", "The Metro is full.", "The Metro is not open."], "answer": 3, "explanation_ar": "closed تعني مغلقًا وليس مفتوحًا.", "explanation_en": "Closed means not open."},
+    {"question": "Your friend says, 'I lost my job.' You say:", "choices": ["Of course.", "I'm very sorry to hear that.", "That sounds fun!", "Have fun!"], "answer": 1, "explanation_ar": "نردّ على الخبر السيئ بـ I'm very sorry to hear that.", "explanation_en": "We answer bad news with I'm very sorry to hear that."},
+    {"question": "School starts ___ September.", "choices": ["on", "at", "in", "to"], "answer": 2, "explanation_ar": "مع الشهور نستخدم in.", "explanation_en": "Use in with months."},
+    {"question": "A job or piece of work that someone gives you is an ___.", "choices": ["assignment", "ocean", "idea", "office"], "answer": 0, "explanation_ar": "assignment تعني مهمة أو تكليفًا.", "explanation_en": "An assignment is a job someone gives you."},
+    {"question": "Choose the correct sentence.", "choices": ["I have a good news.", "I have good newses.", "I have a good new.", "I have good news."], "answer": 3, "explanation_ar": "news غير معدود، فلا نقول a news.", "explanation_en": "News is uncountable: not 'a news'."},
+    {"question": "Walking every day is good ___ you.", "choices": ["at", "for", "in", "on"], "answer": 1, "explanation_ar": "good for = مفيد لـ. good at = ماهر في.", "explanation_en": "Good for means healthy or helpful; good at means skilled."},
+    {"question": "'Fire' in 'I am not firing you' means:", "choices": ["make you leave your job", "give you a new job", "make you late", "call you"], "answer": 0, "explanation_ar": "fire هنا تعني يطرد من العمل.", "explanation_en": "Here fire means to make someone leave their job."},
+    {"question": "Anna is not on time. She is ___.", "choices": ["early", "silly", "perfect", "late"], "answer": 3, "explanation_ar": "late تعني متأخرًا.", "explanation_en": "Late means after the right time."}
+  ]
+}

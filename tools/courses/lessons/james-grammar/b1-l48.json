@@ -1,0 +1,342 @@
+{
+  "title": "Say, Tell, Hear, Listen",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "say",
+        "pos": "verb",
+        "meaning_en": "to speak words; we use it to repeat exactly what someone said",
+        "meaning_ar": "يقول",
+        "note_ar": "الماضي والتصريف الثالث: said /sed/",
+        "note_en": "Past and past participle: said /sed/.",
+        "example": "He said he was sorry."
+      },
+      {
+        "word": "tell",
+        "pos": "verb",
+        "meaning_en": "to give someone information, instructions or orders",
+        "meaning_ar": "يُخبر / يُخبِر بـ / يأمر",
+        "note_ar": "الماضي والتصريف الثالث: told. غالبًا يتبعها شخص: tell me",
+        "note_en": "Past and past participle: told. Usually followed by a person: tell me.",
+        "example": "Tell me about your trip."
+      },
+      {
+        "word": "hear",
+        "pos": "verb",
+        "meaning_en": "to notice a sound with your ears without trying (passive)",
+        "meaning_ar": "يسمع (بدون قصد)",
+        "note_ar": "الماضي: heard /hɜːd/",
+        "note_en": "Past: heard /hɜːd/.",
+        "example": "Did you hear the door close?"
+      },
+      {
+        "word": "listen (to)",
+        "pos": "verb",
+        "meaning_en": "to pay attention to a sound on purpose (active)",
+        "meaning_ar": "يستمع / يُنصت (بقصد)",
+        "note_ar": "حرف t صامت: /ˈlɪsn/، ونقول listen to someone",
+        "note_en": "The t is silent: /ˈlɪsn/. We say \"listen to someone\".",
+        "example": "Please listen to the teacher."
+      },
+      {
+        "word": "information",
+        "pos": "noun",
+        "meaning_en": "facts or details about something",
+        "meaning_ar": "معلومات",
+        "note_ar": "غير معدودة: لا نقول informations",
+        "note_en": "Uncountable: not \"informations\".",
+        "example": "Can you give me some information about the course?"
+      },
+      {
+        "word": "instructions",
+        "pos": "noun",
+        "meaning_en": "words that tell you how to do something",
+        "meaning_ar": "تعليمات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Read the instructions before you start."
+      },
+      {
+        "word": "order",
+        "pos": "noun",
+        "meaning_en": "a command; words that tell you to do something",
+        "meaning_ar": "أمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The officer gave an order to stop."
+      },
+      {
+        "word": "active",
+        "pos": "adjective",
+        "meaning_en": "you do it on purpose",
+        "meaning_ar": "نَشِط / فاعل (بقصد)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Listening is active."
+      },
+      {
+        "word": "passive",
+        "pos": "adjective",
+        "meaning_en": "it happens to you; you don't try",
+        "meaning_ar": "سلبي / بدون قصد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hearing is passive."
+      },
+      {
+        "word": "focus (on)",
+        "pos": "verb",
+        "meaning_en": "to give all your attention to something",
+        "meaning_ar": "يركّز على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Focus on the teacher's voice."
+      },
+      {
+        "word": "You know the drill.",
+        "pos": "phrase",
+        "meaning_en": "You already know what happens next / what to do.",
+        "meaning_ar": "أنت تعرف ما سيحدث / ما عليك فعله.",
+        "note_ar": "تعبير غير رسمي",
+        "note_en": "Informal idiom.",
+        "example": "It's quiz time. You know the drill."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "say vs tell",
+        "words": [
+          "say",
+          "tell"
+        ],
+        "explanation_ar": "say لتكرار كلام شخص كما هو، ولا يأتي بعدها الشخص مباشرة (say to me وليس say me). tell لإعطاء معلومات أو تعليمات أو أوامر، ويأتي بعدها الشخص: tell me.",
+        "explanation_en": "Say repeats exactly what someone said, and it is not followed directly by a person (say to me, not say me). Tell gives information, instructions or orders, and is followed by a person: tell me.",
+        "examples": [
+          {
+            "word": "say",
+            "sentence": "What did he say? He said he was happy."
+          },
+          {
+            "word": "tell",
+            "sentence": "Tell me where you were last night."
+          },
+          {
+            "word": "tell",
+            "sentence": "She told me to go home."
+          }
+        ]
+      },
+      {
+        "title": "hear vs listen",
+        "words": [
+          "hear",
+          "listen"
+        ],
+        "explanation_ar": "listen فعل نشط: تركّز على صوت بقصد (في الصف تستمع للمعلم). hear فعل غير مقصود: الصوت يصل إليك وأنت لا تركّز (تسمع طائرًا أو باب سيارة).",
+        "explanation_en": "Listen is active: you focus on a sound on purpose (in class you listen to the teacher). Hear is passive: the sound just comes to you (you hear a bird or a car door).",
+        "examples": [
+          {
+            "word": "listen",
+            "sentence": "I'm listening to you. Go on."
+          },
+          {
+            "word": "hear",
+            "sentence": "Did you hear the bird outside?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Did he really say that?",
+        "meaning_ar": "هل قال ذلك حقًا؟",
+        "meaning_en": "Showing surprise about someone's words.",
+        "example": "He wants to quit? Did he really say that?"
+      },
+      {
+        "phrase": "Tell me...",
+        "meaning_ar": "أخبرني...",
+        "meaning_en": "Asking for information.",
+        "example": "Tell me about your new job."
+      },
+      {
+        "phrase": "What did I tell you?",
+        "meaning_ar": "ماذا قلتُ لك؟ (ألم أخبرك؟)",
+        "meaning_en": "Said by a parent or boss when you didn't follow their order.",
+        "example": "Your room is a mess again. What did I tell you?"
+      },
+      {
+        "phrase": "Were you listening?",
+        "meaning_ar": "هل كنت تستمع؟",
+        "meaning_en": "Asking if someone paid attention.",
+        "example": "I just explained it. Were you listening?"
+      },
+      {
+        "phrase": "Did you hear me?",
+        "meaning_ar": "هل سمعتني؟",
+        "meaning_en": "Checking if the sound reached someone.",
+        "example": "Dinner is ready! Did you hear me?"
+      },
+      {
+        "phrase": "You know the drill.",
+        "meaning_ar": "أنت تعرف ما عليك فعله.",
+        "meaning_en": "You know what happens next.",
+        "example": "Phones off, books open. You know the drill."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Say: repeat the words",
+        "explanation_ar": "say (said) + الكلام المنقول. إذا أردت ذكر الشخص استخدم to: He said to me... . لا نقول He said me.",
+        "explanation_en": "say (said) + the words. To mention the person, use to: He said to me... . Never \"He said me\".",
+        "examples": [
+          "He said, \"I'm tired.\"",
+          "She said she was busy.",
+          "What did he say to you?"
+        ]
+      },
+      {
+        "title": "Tell: information, instructions, orders",
+        "explanation_ar": "tell + شخص + معلومة: Tell me your name. tell + شخص + how/where + ...: للتعليمات. tell + شخص + to + المصدر: للأوامر.",
+        "explanation_en": "tell + person + information: Tell me your name. tell + person + how/where...: instructions. tell + person + to + base verb: orders.",
+        "examples": [
+          "He told me about his holiday. (information)",
+          "Can you tell me how to get to the station? (instructions)",
+          "My father told me to come home early. (order)"
+        ]
+      },
+      {
+        "title": "Listen (active) vs hear (passive)",
+        "explanation_ar": "listen to + شيء: تركيز مقصود. hear + شيء: يصل الصوت إليك. نقول listen to the news و hear a noise.",
+        "explanation_en": "listen to + something: focus on purpose. hear + something: the sound reaches you. We say listen to the news, hear a noise.",
+        "examples": [
+          "I listen to the news every morning.",
+          "I heard a strange noise last night.",
+          "Listen! Can you hear the rain?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Can you ___ me where the bank is?",
+      "choices": [
+        "say",
+        "tell",
+        "hear",
+        "listen"
+      ],
+      "answer": 1,
+      "explanation_ar": "نطلب معلومات وبعدها شخص: tell me.",
+      "explanation_en": "We want information, followed by a person: tell me."
+    },
+    {
+      "question": "What did he ___? He ___ he was sorry.",
+      "choices": [
+        "say / said",
+        "tell / told",
+        "hear / heard",
+        "listen / listened"
+      ],
+      "answer": 0,
+      "explanation_ar": "نكرّر كلامه كما هو: say/said.",
+      "explanation_en": "We repeat his exact words: say/said."
+    },
+    {
+      "question": "In class, you should ___ to the teacher.",
+      "choices": [
+        "hear",
+        "say",
+        "tell",
+        "listen"
+      ],
+      "answer": 3,
+      "explanation_ar": "التركيز المقصود: listen to.",
+      "explanation_en": "Focus on purpose: listen to."
+    },
+    {
+      "question": "Did you ___ that loud noise outside?",
+      "choices": [
+        "listen",
+        "hear",
+        "tell",
+        "say"
+      ],
+      "answer": 1,
+      "explanation_ar": "صوت وصل إليك بدون قصد: hear.",
+      "explanation_en": "A sound came to you: hear."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "She said me the answer.",
+        "She told to me the answer.",
+        "She told me the answer.",
+        "She said me to go."
+      ],
+      "answer": 2,
+      "explanation_ar": "tell + شخص مباشرة.",
+      "explanation_en": "Tell + person directly."
+    },
+    {
+      "question": "My boss ___ me to finish the report today. (an order)",
+      "choices": [
+        "told",
+        "said",
+        "heard",
+        "listened"
+      ],
+      "answer": 0,
+      "explanation_ar": "الأوامر: tell someone to do.",
+      "explanation_en": "Orders: tell someone to do something."
+    },
+    {
+      "question": "Which one is passive?",
+      "choices": [
+        "listen",
+        "tell",
+        "say",
+        "hear"
+      ],
+      "answer": 3,
+      "explanation_ar": "hear غير مقصود.",
+      "explanation_en": "Hear is passive."
+    },
+    {
+      "question": "What is the past of \"tell\"?",
+      "choices": [
+        "telled",
+        "told",
+        "tolled",
+        "tell"
+      ],
+      "answer": 1,
+      "explanation_ar": "الماضي من tell هو told.",
+      "explanation_en": "tell → told."
+    },
+    {
+      "question": "\"You know the drill\" means ___.",
+      "choices": [
+        "You have a tool.",
+        "You must work hard.",
+        "You know what happens next.",
+        "You are bored."
+      ],
+      "answer": 2,
+      "explanation_ar": "تعرف ما سيحدث.",
+      "explanation_en": "You know what happens next."
+    },
+    {
+      "question": "Which word is NOT correct? \"Read the ___ before you use the machine.\"",
+      "choices": [
+        "instructions",
+        "information",
+        "manual",
+        "informations"
+      ],
+      "answer": 3,
+      "explanation_ar": "information غير معدودة: لا نقول informations.",
+      "explanation_en": "Information is uncountable: \"informations\" is wrong."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Level 1 Wrap-Up: Reading Skills",
+  "content": {
+    "vocabulary": [
+      {"word": "years old", "pos": "phrase", "meaning_en": "used to say your age", "meaning_ar": "عمري ... سنوات", "note_ar": "نقول I'm 7 years old وليس I have 7 years", "note_en": "Say \"I'm 7 years old\", not \"I have 7 years\".", "example": "I'm seven years old."},
+      {"word": "birthday", "pos": "noun", "meaning_en": "the day you were born, every year", "meaning_ar": "عيد ميلاد", "note_ar": "", "note_en": "", "example": "My birthday is in May."},
+      {"word": "grade", "pos": "noun", "meaning_en": "a school year or class level", "meaning_ar": "صف / سنة دراسية", "note_ar": "", "note_en": "", "example": "I'm in grade one."},
+      {"word": "by bus", "pos": "phrase", "meaning_en": "using a bus", "meaning_ar": "بالحافلة", "note_ar": "", "note_en": "", "example": "Hany goes to school by bus."},
+      {"word": "by taxi", "pos": "phrase", "meaning_en": "using a taxi", "meaning_ar": "بالتاكسي", "note_ar": "", "note_en": "", "example": "Jana goes to school by taxi."},
+      {"word": "by bike", "pos": "phrase", "meaning_en": "using a bicycle", "meaning_ar": "بالدراجة", "note_ar": "", "note_en": "", "example": "Amir goes to school by bike."},
+      {"word": "by car", "pos": "phrase", "meaning_en": "using a car", "meaning_ar": "بالسيارة", "note_ar": "", "note_en": "", "example": "My father goes to work by car."},
+      {"word": "on foot", "pos": "phrase", "meaning_en": "walking", "meaning_ar": "سيرًا على الأقدام", "note_ar": "نقول on foot وليس by foot", "note_en": "Say \"on foot\", not \"by foot\".", "example": "I go to school on foot."},
+      {"word": "favourite", "pos": "adjective", "meaning_en": "liked the most", "meaning_ar": "مفضل", "note_ar": "في الأمريكية favorite بدون u، وكذلك color بدل colour", "note_en": "American spelling: favorite (and color for colour).", "example": "My favourite food is pizza."},
+      {"word": "colour", "pos": "noun", "meaning_en": "red, blue, green and so on", "meaning_ar": "لون", "note_ar": "", "note_en": "", "example": "My favourite colour is blue."},
+      {"word": "food", "pos": "noun", "meaning_en": "things we eat", "meaning_ar": "طعام", "note_ar": "", "note_en": "", "example": "What's your favourite food?"},
+      {"word": "pizza", "pos": "noun", "meaning_en": "flat bread with cheese and tomato on top", "meaning_ar": "بيتزا", "note_ar": "", "note_en": "", "example": "Hany's favourite food is pizza."},
+      {"word": "chicken", "pos": "noun", "meaning_en": "meat from a hen", "meaning_ar": "دجاج / فراخ", "note_ar": "", "note_en": "", "example": "Jana's favourite food is chicken."},
+      {"word": "meat", "pos": "noun", "meaning_en": "food from animals", "meaning_ar": "لحم", "note_ar": "", "note_en": "", "example": "Do you like meat?"},
+      {"word": "fries", "pos": "noun", "meaning_en": "long pieces of fried potato", "meaning_ar": "بطاطس مقلية", "note_ar": "", "note_en": "", "example": "I eat fries with chicken."},
+      {"word": "pasta", "pos": "noun", "meaning_en": "food made from flour, like macaroni", "meaning_ar": "مكرونة", "note_ar": "", "note_en": "", "example": "My favourite food is pasta."},
+      {"word": "soup", "pos": "noun", "meaning_en": "hot liquid food", "meaning_ar": "شوربة", "note_ar": "", "note_en": "", "example": "I have soup in winter."},
+      {"word": "fish and rice", "pos": "phrase", "meaning_en": "a meal of fish with rice", "meaning_ar": "سمك وأرز", "note_ar": "", "note_en": "", "example": "My favourite food is fish and rice."},
+      {"word": "eggs and cheese", "pos": "phrase", "meaning_en": "a common breakfast", "meaning_ar": "بيض وجبن", "note_ar": "", "note_en": "", "example": "Amir eats eggs and cheese for breakfast."},
+      {"word": "brother", "pos": "noun", "meaning_en": "a boy with the same parents as you", "meaning_ar": "أخ", "note_ar": "", "note_en": "", "example": "I have one brother."},
+      {"word": "sister", "pos": "noun", "meaning_en": "a girl with the same parents as you", "meaning_ar": "أخت", "note_ar": "", "note_en": "", "example": "I have two sisters."},
+      {"word": "when", "pos": "question word", "meaning_en": "at what time", "meaning_ar": "متى", "note_ar": "", "note_en": "", "example": "When is your birthday?"},
+      {"word": "how", "pos": "question word", "meaning_en": "in what way", "meaning_ar": "كيف", "note_ar": "", "note_en": "", "example": "How do you go to school?"},
+      {"word": "purple", "pos": "adjective", "meaning_en": "a colour between red and blue", "meaning_ar": "بنفسجي", "note_ar": "", "note_en": "", "example": "My favourite colour is purple."},
+      {"word": "pink", "pos": "adjective", "meaning_en": "a light red colour", "meaning_ar": "وردي", "note_ar": "", "note_en": "", "example": "Her favourite colour is pink."},
+      {"word": "octopus", "pos": "noun", "meaning_en": "a sea animal with eight arms", "meaning_ar": "أخطبوط", "note_ar": "", "note_en": "", "example": "The octopus lives in the sea."},
+      {"word": "arm", "pos": "noun", "meaning_en": "a long part of the body (or of an octopus)", "meaning_ar": "ذراع", "note_ar": "", "note_en": "", "example": "It has eight arms."},
+      {"word": "crab", "pos": "noun", "meaning_en": "a sea animal with a hard shell and claws", "meaning_ar": "كابوريا / سلطعون", "note_ar": "", "note_en": "", "example": "The octopus eats crabs."},
+      {"word": "sea", "pos": "noun", "meaning_en": "a large area of salt water", "meaning_ar": "بحر", "note_ar": "", "note_en": "", "example": "Fish live in the sea."},
+      {"word": "forest", "pos": "noun", "meaning_en": "a large area with many trees", "meaning_ar": "غابة", "note_ar": "", "note_en": "", "example": "The elephant lives in the forest."},
+      {"word": "elephant", "pos": "noun", "meaning_en": "a very big grey animal with a trunk", "meaning_ar": "فيل", "note_ar": "", "note_en": "", "example": "The elephant is an amazing animal."},
+      {"word": "trunk", "pos": "noun", "meaning_en": "the long nose of an elephant", "meaning_ar": "خرطوم الفيل", "note_ar": "", "note_en": "", "example": "It has a long trunk."},
+      {"word": "leaves", "pos": "noun", "meaning_en": "the green parts of a tree", "meaning_ar": "أوراق الشجر", "note_ar": "المفرد leaf، و f تتحول إلى ves في الجمع", "note_en": "Singular: leaf (f changes to ves).", "example": "It eats leaves."},
+      {"word": "live", "pos": "verb", "meaning_en": "have your home in a place", "meaning_ar": "يعيش", "note_ar": "مع it: lives", "note_en": "With it: lives.", "example": "It lives in the forest."},
+      {"word": "amazing", "pos": "adjective", "meaning_en": "very surprising and wonderful", "meaning_ar": "مذهل", "note_ar": "", "note_en": "", "example": "The elephant is an amazing animal."},
+      {"word": "true / false", "pos": "phrase", "meaning_en": "right / wrong", "meaning_ar": "صح / خطأ", "note_ar": "", "note_en": "", "example": "Read and write true or false."}
+    ],
+    "fine_lines": [
+      {"title": "by vs on (transport)", "words": ["by", "on"], "explanation_ar": "نقول by + وسيلة المواصلات (by bus, by taxi, by bike, by car)، لكن المشي on foot.", "explanation_en": "Use by + transport (by bus, by taxi, by bike, by car), but on foot for walking.", "examples": [{"word": "by", "sentence": "I go to school by bus."}, {"word": "on", "sentence": "I go to school on foot."}]},
+      {"title": "I'm 10 vs I have 10", "words": ["I'm 10 years old", "I have 10 years"], "explanation_ar": "للتعبير عن العمر نستخدم am/is/are وليس have: I'm 10 years old.", "explanation_en": "For age, use am/is/are, not have: I'm 10 years old.", "examples": [{"word": "I'm 10 years old", "sentence": "I'm 10 years old and I'm in grade 4."}, {"word": "I have 10 years", "sentence": "Wrong: I have 10 years."}]},
+      {"title": "When vs How", "words": ["when", "how"], "explanation_ar": "When تسأل عن الوقت (متى)، و How تسأل عن الطريقة (كيف). When is your birthday? In May. How do you go to school? By bus.", "explanation_en": "When asks about time; How asks about the way.", "examples": [{"word": "when", "sentence": "When is your birthday? It's in October."}, {"word": "how", "sentence": "How do you go to school? On foot."}]},
+      {"title": "favourite vs favorite", "words": ["favourite", "favorite"], "explanation_ar": "الكلمة نفسها بمعنى (مفضل): favourite بالإنجليزية البريطانية، و favorite بالأمريكية. وكذلك colour و color.", "explanation_en": "Same word: favourite is British spelling and favorite is American. The same with colour and color.", "examples": [{"word": "favourite", "sentence": "My favourite colour is blue."}, {"word": "favorite", "sentence": "My favorite color is blue."}]}
+    ],
+    "expressions": [
+      {"phrase": "I'm seven years old.", "meaning_ar": "عمري سبع سنوات.", "meaning_en": "Saying your age.", "example": "Hi, I'm Hany. I'm seven years old."},
+      {"phrase": "I'm in grade one.", "meaning_ar": "أنا في الصف الأول.", "meaning_en": "Saying your school year.", "example": "I'm Amir. I'm in grade one."},
+      {"phrase": "My birthday is in May.", "meaning_ar": "عيد ميلادي في مايو.", "meaning_en": "Saying the month of your birthday.", "example": "When is your birthday? My birthday is in May."},
+      {"phrase": "I go to school by bus.", "meaning_ar": "أذهب إلى المدرسة بالحافلة.", "meaning_en": "Saying how you go to school.", "example": "I go to school by bus every day."},
+      {"phrase": "My favourite food is pizza.", "meaning_ar": "طعامي المفضل هو البيتزا.", "meaning_en": "Talking about the food you like most.", "example": "What's your favourite food? My favourite food is pizza."},
+      {"phrase": "What's your favourite colour?", "meaning_ar": "ما لونك المفضل؟", "meaning_en": "Asking about someone's favourite colour.", "example": "What's your favourite colour? It's pink."},
+      {"phrase": "When is your birthday?", "meaning_ar": "متى عيد ميلادك؟", "meaning_en": "Asking about someone's birthday.", "example": "When is your birthday? It's in January."},
+      {"phrase": "How do you go to school?", "meaning_ar": "كيف تذهب إلى المدرسة؟", "meaning_en": "Asking about transport.", "example": "How do you go to school? I go on foot."},
+      {"phrase": "On Friday, I help my mum.", "meaning_ar": "يوم الجمعة أساعد أمي.", "meaning_en": "Talking about your weekend routine.", "example": "On Friday, I help my mum and watch TV."},
+      {"phrase": "I have two brothers and one sister.", "meaning_ar": "عندي أخوان وأخت واحدة.", "meaning_en": "Talking about your family.", "example": "I have two brothers and one sister."}
+    ],
+    "grammar": [
+      {"title": "How to read a passage", "explanation_ar": "اقرأ القطعة جملة جملة وعبارة عبارة وافهم معناها، ثم أجب عن الأسئلة. ابحث في القطعة عن الكلمة المفتاحية في السؤال (birthday, school, favourite).", "explanation_en": "Read the text sentence by sentence and understand it, then answer. Look for the key word from the question in the text (birthday, school, favourite).", "examples": ["Text: My birthday is in May. → Q: When is Hany's birthday? A: In May.", "Text: I go to school by bike. → True or false: Amir goes to school by bus. → False"]},
+      {"title": "Talking about yourself", "explanation_ar": "جمل أساسية للتعريف بنفسك: I'm + الاسم، I'm + العمر + years old، I'm in grade + رقم، My birthday is in + الشهر، I go to school by/on ...، My favourite ... is ....", "explanation_en": "Key sentences about yourself: I'm + name, I'm + age + years old, I'm in grade + number, My birthday is in + month, I go to school by/on ..., My favourite ... is ....", "examples": ["I'm Mazen.", "I'm seven years old.", "I'm in grade one.", "My birthday is in October.", "My favourite season is summer."]},
+      {"title": "Changing I to he/she (present simple review)", "explanation_ar": "عندما نكتب عن شخص آخر نغيّر I إلى he/she، و my إلى his/her، ونضيف s للفعل، ونستخدم doesn't في النفي. am تصبح is.", "explanation_en": "When you write about another person, change I to he/she and my to his/her, add -s to the verb, and use doesn't for negatives. Am becomes is.", "examples": ["I help my mum. → Hany helps his mum.", "I don't go to school on Friday. → He doesn't go to school on Friday.", "I'm six. → Jana is six.", "My favourite food is chicken. → Her favourite food is chicken."]},
+      {"title": "Describing an animal with it", "explanation_ar": "نستخدم it للحيوان، ومعه is و has و can والفعل بـ s: It lives / It has / It can / It eats. ونضع الصفة قبل الاسم: big ears.", "explanation_en": "Use it for an animal with is, has, can, and verbs with -s: It lives, It has, It can, It eats. Put the adjective before the noun: big ears.", "examples": ["It lives in the sea.", "It has eight arms.", "It can swim.", "It eats fish and crabs.", "The fox has big ears."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"When is your birthday?\" Choose the best answer.", "choices": ["I'm ten.", "It's in October.", "By bus.", "It's blue."], "answer": 1, "explanation_ar": "When تسأل عن الوقت، فالإجابة بالشهر.", "explanation_en": "When asks about time, so we answer with a month."},
+    {"question": "I go to school ___ foot.", "choices": ["on", "by", "in", "at"], "answer": 0, "explanation_ar": "نقول on foot، وبقية الوسائل بـ by.", "explanation_en": "We say on foot; other transport uses by."},
+    {"question": "Choose the correct sentence.", "choices": ["I have seven years.", "I seven years old.", "I'm seven years old.", "I am seven year."], "answer": 2, "explanation_ar": "للعمر نستخدم am: I'm seven years old.", "explanation_en": "For age we use am: I'm seven years old."},
+    {"question": "Hany ___ his mum on Friday.", "choices": ["help", "helping", "is help", "helps"], "answer": 3, "explanation_ar": "Hany اسم مفرد (من أصحاب الـ s) فنضيف s.", "explanation_en": "Hany is singular, so the verb takes -s."},
+    {"question": "Hany ___ go to school on Friday.", "choices": ["don't", "doesn't", "isn't", "not"], "answer": 1, "explanation_ar": "مع اسم مفرد ننفي بـ doesn't + فعل في المصدر.", "explanation_en": "With a singular name, use doesn't + infinitive."},
+    {"question": "\"How do you go to school?\" Choose the best answer.", "choices": ["On Monday.", "In grade 3.", "By taxi.", "It's pizza."], "answer": 2, "explanation_ar": "How تسأل عن الطريقة، فالإجابة بوسيلة المواصلات.", "explanation_en": "How asks about the way, so we answer with transport."},
+    {"question": "Jana's birthday is in February. Is it in winter or summer?", "choices": ["winter", "summer", "spring", "fall"], "answer": 0, "explanation_ar": "فبراير من شهور الشتاء.", "explanation_en": "February is a winter month."},
+    {"question": "The octopus ___ in the sea.", "choices": ["live", "living", "are live", "lives"], "answer": 3, "explanation_ar": "الأخطبوط مفرد (it) فنقول lives.", "explanation_en": "The octopus is it, so the verb is lives."},
+    {"question": "What does \"trunk\" mean?", "choices": ["خرطوم الفيل", "غابة", "أوراق الشجر", "ذراع"], "answer": 0, "explanation_ar": "trunk = خرطوم الفيل.", "explanation_en": "A trunk is the long nose of an elephant."},
+    {"question": "Amir: \"My favourite colour is blue.\" True or false: Amir likes blue.", "choices": ["false", "true", "not in the text", "Amir likes red"], "answer": 1, "explanation_ar": "لونه المفضل الأزرق، إذن هو يحب الأزرق: صح.", "explanation_en": "His favourite colour is blue, so he likes blue: true."}
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "title": "The Best Job in the World",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "job",
+        "pos": "noun",
+        "meaning_en": "the work you do to get money",
+        "meaning_ar": "وظيفة / عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What job do you want?"
+      },
+      {
+        "word": "inventor",
+        "pos": "noun",
+        "meaning_en": "a person who makes new machines or things",
+        "meaning_ar": "مخترع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Elli's father was an inventor."
+      },
+      {
+        "word": "doctor",
+        "pos": "noun",
+        "meaning_en": "a person who helps sick people",
+        "meaning_ar": "طبيب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A doctor works in a hospital."
+      },
+      {
+        "word": "teacher",
+        "pos": "noun",
+        "meaning_en": "a person who teaches",
+        "meaning_ar": "معلّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My teacher is kind."
+      },
+      {
+        "word": "firefighter",
+        "pos": "noun",
+        "meaning_en": "a person who stops fires",
+        "meaning_ar": "رجل إطفاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The firefighter cleaned the equipment."
+      },
+      {
+        "word": "fire engine",
+        "pos": "noun",
+        "meaning_en": "a big red truck for firefighters",
+        "meaning_ar": "سيارة إطفاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The fire engine is in the garage."
+      },
+      {
+        "word": "helmet",
+        "pos": "noun",
+        "meaning_en": "a hard hat that keeps your head safe",
+        "meaning_ar": "خوذة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Firefighters wear a helmet."
+      },
+      {
+        "word": "boat",
+        "pos": "noun",
+        "meaning_en": "a small ship",
+        "meaning_ar": "قارب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Elli liked boats."
+      },
+      {
+        "word": "sea",
+        "pos": "noun",
+        "meaning_en": "a very big area of salt water",
+        "meaning_ar": "بحر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The sea was dark blue."
+      },
+      {
+        "word": "rain",
+        "pos": "noun / verb",
+        "meaning_en": "water that falls from the sky",
+        "meaning_ar": "مطر / تمطر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It began to rain."
+      },
+      {
+        "word": "cold",
+        "pos": "adjective",
+        "meaning_en": "not warm",
+        "meaning_ar": "بارد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was very cold on the boat."
+      },
+      {
+        "word": "sick",
+        "pos": "adjective",
+        "meaning_en": "feeling you want to vomit; ill",
+        "meaning_ar": "يشعر بالغثيان / مريض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Elli started to feel sick."
+      },
+      {
+        "word": "bored",
+        "pos": "adjective",
+        "meaning_en": "not interested; nothing fun to do",
+        "meaning_ar": "يشعر بالملل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Elli was bored."
+      },
+      {
+        "word": "author",
+        "pos": "noun",
+        "meaning_en": "a person who writes books",
+        "meaning_ar": "مؤلّف / كاتب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am going to be an author."
+      },
+      {
+        "word": "grow up",
+        "pos": "phrasal verb",
+        "meaning_en": "become an adult",
+        "meaning_ar": "يكبر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What do you want to be when you grow up?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "bored vs boring",
+        "words": [
+          "bored",
+          "boring"
+        ],
+        "explanation_ar": "bored يصف شعورك (أشعر بالملل)، و boring يصف الشيء الممل.",
+        "explanation_en": "\"bored\" is how you feel. \"boring\" describes the thing.",
+        "examples": [
+          {
+            "word": "bored",
+            "sentence": "Elli was bored."
+          },
+          {
+            "word": "boring",
+            "sentence": "The movie was boring."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What do you want to be when you grow up?",
+        "meaning_ar": "ماذا تريد أن تصبح عندما تكبر؟",
+        "meaning_en": "Asking about a future job.",
+        "example": "What do you want to be when you grow up? - A doctor."
+      },
+      {
+        "phrase": "That sounds exciting!",
+        "meaning_ar": "يبدو ذلك مثيرًا!",
+        "meaning_en": "Saying an idea seems fun.",
+        "example": "A firefighter? That sounds exciting!"
+      },
+      {
+        "phrase": "I'm not going to be a trawler worker!",
+        "meaning_ar": "لن أكون عاملة على سفينة صيد!",
+        "meaning_en": "Saying no to a future plan.",
+        "example": "It's cold and wet. I'm not going to be a fisherman!"
+      },
+      {
+        "phrase": "This is the best job in the world.",
+        "meaning_ar": "هذه أفضل وظيفة في العالم.",
+        "meaning_en": "Saying a job is the very best.",
+        "example": "I love books. This is the best job in the world."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I want to be + a job / I am going to be + a job",
+        "explanation_ar": "نتحدث عن المستقبل: I want to be a doctor (رغبة)، I am going to be an author (خطة). نستخدم a أو an قبل الوظيفة.",
+        "explanation_en": "Talk about the future: I want to be a doctor. I am going to be an author. Use a/an before the job.",
+        "examples": [
+          "I want to be a teacher.",
+          "I am going to be an author.",
+          "She wants to be a firefighter."
+        ]
+      },
+      {
+        "title": "Past simple: was / were and -ed verbs",
+        "explanation_ar": "القصة في الماضي. نستخدم was مع I/he/she/it و were مع you/we/they. والأفعال المنتظمة نضيف لها ed: look → looked.",
+        "explanation_en": "The story is in the past. Use was (I/he/she/it) and were (you/we/they). Regular verbs add -ed: look → looked.",
+        "examples": [
+          "Amy was very excited.",
+          "They were in the shop.",
+          "She smiled her biggest smile."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Elli's father was an ___.",
+      "choices": [
+        "inventor",
+        "author",
+        "doctor",
+        "firefighter"
+      ],
+      "answer": 0,
+      "explanation_ar": "والد إيلي كان مخترعًا.",
+      "explanation_en": "Her father was an inventor."
+    },
+    {
+      "question": "What did the firefighter do in the movie?",
+      "choices": [
+        "He saved a cat.",
+        "He cleaned metal things.",
+        "He drove fast.",
+        "He climbed a ladder."
+      ],
+      "answer": 1,
+      "explanation_ar": "كان ينظّف أشياء معدنية.",
+      "explanation_en": "He cleaned and polished metal things."
+    },
+    {
+      "question": "Why did Elli stop the trawler movie?",
+      "choices": [
+        "It was boring.",
+        "She was hungry.",
+        "She felt sick and it was cold.",
+        "She liked it."
+      ],
+      "answer": 2,
+      "explanation_ar": "شعرت بالغثيان وكان الجو باردًا.",
+      "explanation_en": "She felt sick; it was cold and rainy."
+    },
+    {
+      "question": "In the end, Elli wants to be an ___.",
+      "choices": [
+        "inventor",
+        "firefighter",
+        "teacher",
+        "author"
+      ],
+      "answer": 3,
+      "explanation_ar": "أرادت أن تصبح مؤلّفة.",
+      "explanation_en": "She wants to be an author."
+    },
+    {
+      "question": "A person who writes books is an ___.",
+      "choices": [
+        "author",
+        "doctor",
+        "engine",
+        "inventor"
+      ],
+      "answer": 0,
+      "explanation_ar": "author = مؤلّف.",
+      "explanation_en": "An author writes books."
+    },
+    {
+      "question": "Nothing fun is happening. I am ___.",
+      "choices": [
+        "boring",
+        "bored",
+        "bore",
+        "boredly"
+      ],
+      "answer": 1,
+      "explanation_ar": "شعورك = bored.",
+      "explanation_en": "Your feeling = bored."
+    },
+    {
+      "question": "What do you want to be when you ___?",
+      "choices": [
+        "grow down",
+        "grown",
+        "grow up",
+        "growing"
+      ],
+      "answer": 2,
+      "explanation_ar": "grow up = يكبر.",
+      "explanation_en": "grow up = become an adult."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I want be a doctor.",
+        "I want to a doctor.",
+        "I want to be doctor.",
+        "I want to be a doctor."
+      ],
+      "answer": 3,
+      "explanation_ar": "الصحيح I want to be a doctor.",
+      "explanation_en": "Correct: I want to be a doctor."
+    },
+    {
+      "question": "Firefighters ride in a ___.",
+      "choices": [
+        "fire engine",
+        "boat",
+        "helmet",
+        "sea"
+      ],
+      "answer": 0,
+      "explanation_ar": "سيارة الإطفاء = fire engine.",
+      "explanation_en": "Firefighters ride in a fire engine."
+    },
+    {
+      "question": "\"sea\" in Arabic is ___.",
+      "choices": [
+        "سماء",
+        "بحر",
+        "نهر",
+        "مطر"
+      ],
+      "answer": 1,
+      "explanation_ar": "sea = بحر.",
+      "explanation_en": "The sea is big salt water."
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "title": "Disagreeing Politely",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "disagree",
+        "pos": "verb",
+        "meaning_en": "have a different opinion",
+        "meaning_ar": "يختلف في الرأي / لا يوافق",
+        "note_ar": "عكسها: agree",
+        "note_en": "Opposite: agree.",
+        "example": "I'm sorry, but I disagree."
+      },
+      {
+        "word": "disagreement",
+        "pos": "noun",
+        "meaning_en": "a situation where people have different opinions",
+        "meaning_ar": "خلاف / اختلاف في الرأي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There was a lot of disagreement in the meeting."
+      },
+      {
+        "word": "point of view / viewpoint",
+        "pos": "noun",
+        "meaning_en": "what someone thinks about something",
+        "meaning_ar": "وجهة نظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I understand your point of view."
+      },
+      {
+        "word": "point",
+        "pos": "noun",
+        "meaning_en": "an idea or opinion in a discussion",
+        "meaning_ar": "فكرة / نقطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's a good point."
+      },
+      {
+        "word": "brainstorm",
+        "pos": "verb",
+        "meaning_en": "share many ideas quickly in a group",
+        "meaning_ar": "يتبادل الأفكار بسرعة (عصف ذهني)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's brainstorm ideas for the launch."
+      },
+      {
+        "word": "launch",
+        "pos": "noun",
+        "meaning_en": "the start of selling a new product",
+        "meaning_ar": "إطلاق (منتج)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The launch is next month."
+      },
+      {
+        "word": "product",
+        "pos": "noun",
+        "meaning_en": "something a company makes to sell",
+        "meaning_ar": "منتج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our latest product is the Imperial Lemon."
+      },
+      {
+        "word": "colour scheme",
+        "pos": "noun",
+        "meaning_en": "the set of colours used in a design",
+        "meaning_ar": "مجموعة الألوان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The colour scheme will be green and yellow."
+      },
+      {
+        "word": "special offer",
+        "pos": "noun",
+        "meaning_en": "a lower price for a short time",
+        "meaning_ar": "عرض خاص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We could make a special opening offer."
+      },
+      {
+        "word": "discount",
+        "pos": "noun",
+        "meaning_en": "money taken off the normal price",
+        "meaning_ar": "خصم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They offered 20% off: a big discount."
+      },
+      {
+        "word": "% off",
+        "pos": "phrase",
+        "meaning_en": "a discount of that percentage",
+        "meaning_ar": "خصم بنسبة ...",
+        "note_ar": "",
+        "note_en": "",
+        "example": "20% off all orders this month."
+      },
+      {
+        "word": "risk",
+        "pos": "noun",
+        "meaning_en": "the chance that something bad may happen",
+        "meaning_ar": "مخاطرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That would be a big risk."
+      },
+      {
+        "word": "bankrupt",
+        "pos": "adjective",
+        "meaning_en": "without money to pay what you owe",
+        "meaning_ar": "مفلس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If we do that, we'll be bankrupt!"
+      },
+      {
+        "word": "regular client",
+        "pos": "noun",
+        "meaning_en": "a client who buys from you often",
+        "meaning_ar": "عميل دائم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll give the offer to all regular clients."
+      },
+      {
+        "word": "final decision",
+        "pos": "noun",
+        "meaning_en": "the last choice that ends a discussion",
+        "meaning_ar": "القرار النهائي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm taking the final decision."
+      },
+      {
+        "word": "aggressive",
+        "pos": "adjective",
+        "meaning_en": "angry and ready to attack or argue",
+        "meaning_ar": "عدواني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't be aggressive in meetings."
+      },
+      {
+        "word": "frustrated",
+        "pos": "adjective",
+        "meaning_en": "annoyed because you can't do what you want",
+        "meaning_ar": "محبط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm so frustrated! I can't find the words."
+      },
+      {
+        "word": "desperate",
+        "pos": "adjective",
+        "meaning_en": "needing something very much",
+        "meaning_ar": "يائس / بحاجة ماسّة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They're desperate to sell their lemons."
+      },
+      {
+        "word": "get rid of",
+        "pos": "phrase",
+        "meaning_en": "throw away or sell something you don't want",
+        "meaning_ar": "يتخلّص من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to get rid of these old boxes."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "No, you're wrong vs I see your point, but...",
+        "words": [
+          "You're wrong",
+          "I see your point, but"
+        ],
+        "explanation_ar": "قول No, you're wrong أو I disagree مباشرة قد يبدو عدوانيًا. الأفضل أن تُظهر احترامك لرأي الآخر ثم تقول رأيك: I see your point, but actually I think...",
+        "explanation_en": "\"No, you're wrong\" can sound aggressive. It is better to accept the other idea first, then give yours: I see your point, but actually I think...",
+        "examples": [
+          {
+            "word": "You're wrong",
+            "sentence": "No, you're wrong. (rude)"
+          },
+          {
+            "word": "I see your point, but",
+            "sentence": "I see your point, but actually I think 10% is better. (polite)"
+          }
+        ]
+      },
+      {
+        "title": "disagree vs disagreement",
+        "words": [
+          "disagree",
+          "disagreement"
+        ],
+        "explanation_ar": "disagree فعل: I disagree with you. أما disagreement فاسم: There is a disagreement.",
+        "explanation_en": "\"Disagree\" is a verb; \"disagreement\" is a noun.",
+        "examples": [
+          {
+            "word": "disagree",
+            "sentence": "I disagree with that idea."
+          },
+          {
+            "word": "disagreement",
+            "sentence": "We had a small disagreement about the price."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Well, I'm not so sure about that...",
+        "meaning_ar": "حسنًا، لست متأكدًا من ذلك...",
+        "meaning_en": "A soft way to disagree. Then give your reason.",
+        "example": "Well, I'm not so sure about that. The price may be too high."
+      },
+      {
+        "phrase": "I see your point, but actually I think...",
+        "meaning_ar": "أفهم وجهة نظرك، لكنني في الواقع أعتقد...",
+        "meaning_en": "Accept the other idea, then politely give yours.",
+        "example": "I see your point, but actually I think we should wait."
+      },
+      {
+        "phrase": "But...",
+        "meaning_ar": "لكن...",
+        "meaning_en": "Start a sentence with \"But\" to disagree with what was just said.",
+        "example": "But having three colours would work better."
+      },
+      {
+        "phrase": "That's a good point.",
+        "meaning_ar": "هذه نقطة جيدة.",
+        "meaning_en": "Agree with part of someone's idea.",
+        "example": "That's a good point. Let's think about it."
+      },
+      {
+        "phrase": "That would be a big risk.",
+        "meaning_ar": "سيكون ذلك مخاطرة كبيرة.",
+        "meaning_en": "Say an idea could be dangerous for the business.",
+        "example": "Giving everyone 50% off would be a big risk."
+      },
+      {
+        "phrase": "Why don't we offer a special offer?",
+        "meaning_ar": "لماذا لا نقدّم عرضًا خاصًا؟",
+        "meaning_en": "Suggest an idea in a meeting.",
+        "example": "Why don't we offer new clients a special offer?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite disagreement: soften, then give a reason",
+        "explanation_ar": "لتختلف بأدب: 1) ابدأ بعبارة لطيفة: Well, I'm not so sure about that / I see your point, but... 2) قل رأيك مع actually أو I think. 3) اذكر السبب. ولا تكن عدوانيًا.",
+        "explanation_en": "To disagree politely: 1) start softly (Well, I'm not so sure about that / I see your point, but...), 2) give your idea with \"actually\" or \"I think\", 3) give a reason.",
+        "examples": [
+          "Well, I'm not so sure about that. I think it will be too expensive.",
+          "I see your point, but actually I think the clients will like it.",
+          "But if we wait, we might lose the client."
+        ]
+      },
+      {
+        "title": "First conditional for results",
+        "explanation_ar": "نستخدم If + مضارع بسيط، ثم will + فعل لنتحدث عن نتيجة محتملة في المستقبل: If we do that, all our clients will ask for 20% off.",
+        "explanation_en": "Use If + present simple, then will + verb, to talk about a likely future result.",
+        "examples": [
+          "If we do that, we'll be bankrupt.",
+          "If the clients are happy, they will come back.",
+          "If we give a discount, we will sell more."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which is the most polite way to disagree?",
+      "choices": [
+        "No, you're wrong.",
+        "I see your point, but actually I think...",
+        "That's stupid.",
+        "I disagree. Next."
+      ],
+      "answer": 1,
+      "explanation_ar": "I see your point, but... هي الطريقة المهذبة.",
+      "explanation_en": "\"I see your point, but...\" is polite."
+    },
+    {
+      "question": "Well, I'm not so sure ___ that.",
+      "choices": [
+        "about",
+        "to",
+        "for",
+        "at"
+      ],
+      "answer": 0,
+      "explanation_ar": "العبارة: not so sure about that.",
+      "explanation_en": "The phrase is \"not so sure about that\"."
+    },
+    {
+      "question": "If we ___ 20% off, all clients will want it.",
+      "choices": [
+        "will offer",
+        "offer",
+        "offered",
+        "offering"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد if في الشرط الأول نستخدم المضارع البسيط.",
+      "explanation_en": "After \"if\" use the present simple."
+    },
+    {
+      "question": "\"Brainstorm\" means...",
+      "choices": [
+        "a bad storm",
+        "share many ideas in a group",
+        "a final decision",
+        "a headache"
+      ],
+      "answer": 1,
+      "explanation_ar": "brainstorm تعني تبادل الأفكار في مجموعة.",
+      "explanation_en": "It means share many ideas in a group."
+    },
+    {
+      "question": "Choose the noun.",
+      "choices": [
+        "disagree",
+        "disagreeable",
+        "disagreement",
+        "disagreed"
+      ],
+      "answer": 2,
+      "explanation_ar": "disagreement هي الاسم.",
+      "explanation_en": "\"Disagreement\" is the noun."
+    },
+    {
+      "question": "What discount did Anna suggest?",
+      "choices": [
+        "5%",
+        "10%",
+        "50%",
+        "20%"
+      ],
+      "answer": 3,
+      "explanation_ar": "اقترحت آنا خصم 20%.",
+      "explanation_en": "She suggested 20%."
+    },
+    {
+      "question": "After you disagree, you should...",
+      "choices": [
+        "shout",
+        "give a reason",
+        "leave the room",
+        "say nothing"
+      ],
+      "answer": 1,
+      "explanation_ar": "يجب أن تذكر سبب رأيك.",
+      "explanation_en": "Give a reason for your opinion."
+    },
+    {
+      "question": "\"That would be a big risk\" means...",
+      "choices": [
+        "it is a safe idea",
+        "something bad could happen",
+        "it is cheap",
+        "it is a good point"
+      ],
+      "answer": 1,
+      "explanation_ar": "risk تعني مخاطرة.",
+      "explanation_en": "A risk means something bad could happen."
+    },
+    {
+      "question": "If we're not careful, we ___ bankrupt.",
+      "choices": [
+        "will be",
+        "are be",
+        "be",
+        "would been"
+      ],
+      "answer": 0,
+      "explanation_ar": "النتيجة في المستقبل: will be.",
+      "explanation_en": "Use \"will be\" for the result."
+    },
+    {
+      "question": "A word you can start a sentence with to disagree:",
+      "choices": [
+        "And",
+        "So",
+        "But",
+        "Also"
+      ],
+      "answer": 2,
+      "explanation_ar": "يمكن البدء بـ But للتعبير عن الاختلاف.",
+      "explanation_en": "Start with \"But\" to disagree."
+    }
+  ]
+}

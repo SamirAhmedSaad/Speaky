@@ -1,0 +1,508 @@
+{
+ "title": "Teamwork Works Best With a Team",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "boss",
+    "pos": "noun",
+    "meaning_en": "the person who is in charge of you at work",
+    "meaning_ar": "المدير / الرئيس في العمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My boss gave me a new project."
+   },
+   {
+    "word": "review",
+    "pos": "noun",
+    "meaning_en": "a meeting or report where someone checks how well you did",
+    "meaning_ar": "تقييم / مراجعة",
+    "note_ar": "work review = تقييم الأداء الوظيفي.",
+    "note_en": "A work review checks how well you did your job.",
+    "example": "I have my work review on Monday."
+   },
+   {
+    "word": "chart",
+    "pos": "noun",
+    "meaning_en": "a picture that shows numbers, often with lines or bars",
+    "meaning_ar": "رسم بياني / مخطط",
+    "note_ar": "تُنطق /tʃɑːrt/.",
+    "note_en": "Say /tʃɑːrt/.",
+    "example": "This chart shows our sales for each month."
+   },
+   {
+    "word": "audience",
+    "pos": "noun",
+    "meaning_en": "the people who watch or listen to a show",
+    "meaning_ar": "الجمهور / المشاهدون",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The audience clapped at the end of the show."
+   },
+   {
+    "word": "go down",
+    "pos": "phrasal verb",
+    "meaning_en": "to become lower or smaller",
+    "meaning_ar": "ينخفض / يقل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The price of bread went down this week."
+   },
+   {
+    "word": "go up",
+    "pos": "phrasal verb",
+    "meaning_en": "to become higher or bigger",
+    "meaning_ar": "يرتفع / يزيد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I want these numbers to go up."
+   },
+   {
+    "word": "upside down",
+    "pos": "adjective / adverb",
+    "meaning_en": "with the top part at the bottom",
+    "meaning_ar": "مقلوب (رأساً على عقب)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You are holding the map upside down."
+   },
+   {
+    "word": "right-side up",
+    "pos": "adjective / adverb",
+    "meaning_en": "with the top part at the top, the correct way",
+    "meaning_ar": "في وضعه الصحيح (غير مقلوب)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Turn the picture right-side up."
+   },
+   {
+    "word": "flip",
+    "pos": "verb",
+    "meaning_en": "to turn something over quickly",
+    "meaning_ar": "يقلب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Flip the paper over and write your name."
+   },
+   {
+    "word": "numbers",
+    "pos": "noun",
+    "meaning_en": "figures; here, how many people watch",
+    "meaning_ar": "الأرقام",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Our numbers are better this year."
+   },
+   {
+    "word": "poster",
+    "pos": "noun",
+    "meaning_en": "a large printed picture or notice that you put on a wall",
+    "meaning_ar": "ملصق / بوستر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There is a poster of a cat on the wall."
+   },
+   {
+    "word": "seriously",
+    "pos": "adverb",
+    "meaning_en": "carefully and with real attention",
+    "meaning_ar": "بجدية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please think seriously about my idea."
+   },
+   {
+    "word": "succeed",
+    "pos": "verb",
+    "meaning_en": "to do what you tried to do",
+    "meaning_ar": "ينجح",
+    "note_ar": "الاسم: success (نجاح)، الصفة: successful.",
+    "note_en": "Noun: success; adjective: successful.",
+    "example": "If you work hard, you will succeed."
+   },
+   {
+    "word": "success",
+    "pos": "noun",
+    "meaning_en": "the result of doing well",
+    "meaning_ar": "نجاح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The new show was a big success."
+   },
+   {
+    "word": "hard",
+    "pos": "adjective / adverb",
+    "meaning_en": "difficult; or with a lot of effort",
+    "meaning_ar": "صعب / بجد",
+    "note_ar": "hard ظرف بدون ly. أما hardly فمعناها «بالكاد».",
+    "note_en": "Hard is also an adverb, with no -ly. \"Hardly\" means \"almost not\".",
+    "example": "This test is hard. I need to work hard."
+   },
+   {
+    "word": "teamwork",
+    "pos": "noun",
+    "meaning_en": "people working together well as a group",
+    "meaning_ar": "العمل الجماعي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Good teamwork helps us finish on time."
+   },
+   {
+    "word": "team",
+    "pos": "noun",
+    "meaning_en": "a group of people who work or play together",
+    "meaning_ar": "فريق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Our team has five people."
+   },
+   {
+    "word": "favorite",
+    "pos": "adjective / noun",
+    "meaning_en": "the one you like best",
+    "meaning_ar": "المفضل",
+    "note_ar": "بالبريطانية: favourite.",
+    "note_en": "UK spelling: favourite.",
+    "example": "Blue is my favorite color."
+   },
+   {
+    "word": "cute",
+    "pos": "adjective",
+    "meaning_en": "pretty and nice to look at (often small things or animals)",
+    "meaning_ar": "لطيف / ظريف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What a cute little cat!"
+   },
+   {
+    "word": "worry",
+    "pos": "verb",
+    "meaning_en": "to feel that something bad may happen",
+    "meaning_ar": "يقلق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't worry. Everything will be fine."
+   },
+   {
+    "word": "plan",
+    "pos": "noun",
+    "meaning_en": "an idea of what you are going to do",
+    "meaning_ar": "خطة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Here's the plan for today."
+   },
+   {
+    "word": "exactly",
+    "pos": "adverb",
+    "meaning_en": "completely; in every way",
+    "meaning_ar": "تماماً / بالضبط",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is exactly what I need."
+   },
+   {
+    "word": "popular",
+    "pos": "adjective",
+    "meaning_en": "liked by many people",
+    "meaning_ar": "محبوب / شائع (يحبه كثير من الناس)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Football is very popular in my country."
+   },
+   {
+    "word": "pet",
+    "pos": "noun",
+    "meaning_en": "an animal you keep at home",
+    "meaning_ar": "حيوان أليف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have a pet?"
+   },
+   {
+    "word": "whisper",
+    "pos": "verb",
+    "meaning_en": "to speak very quietly",
+    "meaning_ar": "يهمس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She whispered the answer to me."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "enough before a noun vs after an adjective",
+    "words": [
+     "enough cats",
+     "big enough"
+    ],
+    "explanation_ar": "enough تأتي قبل الاسم (enough cats) لكنها تأتي بعد الصفة (big enough).",
+    "explanation_en": "Enough comes before a noun (enough cats) but after an adjective (big enough).",
+    "examples": [
+     {
+      "word": "enough + noun",
+      "sentence": "Did I give you enough cats?"
+     },
+     {
+      "word": "adjective + enough",
+      "sentence": "Your audience is big, but not big enough."
+     }
+    ]
+   },
+   {
+    "title": "go up vs go down",
+    "words": [
+     "go up",
+     "go down"
+    ],
+    "explanation_ar": "go up = يرتفع أو يزيد. go down = ينخفض أو يقل. نستخدمهما مع الأرقام والأسعار.",
+    "explanation_en": "Go up = become higher or more. Go down = become lower or less. We use them with numbers and prices.",
+    "examples": [
+     {
+      "word": "go up",
+      "sentence": "Prices go up every year."
+     },
+     {
+      "word": "go down",
+      "sentence": "The temperature goes down at night."
+     }
+    ]
+   },
+   {
+    "title": "succeed vs success",
+    "words": [
+     "succeed",
+     "success",
+     "successful"
+    ],
+    "explanation_ar": "succeed فعل (ينجح)، success اسم (نجاح)، successful صفة (ناجح).",
+    "explanation_en": "Succeed is a verb, success is a noun, successful is an adjective.",
+    "examples": [
+     {
+      "word": "succeed",
+      "sentence": "I want to succeed."
+     },
+     {
+      "word": "success",
+      "sentence": "The party was a success."
+     },
+     {
+      "word": "successful",
+      "sentence": "She is a successful teacher."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Time for work.",
+    "meaning_ar": "حان وقت العمل.",
+    "meaning_en": "It is now the time to work.",
+    "example": "It's eight o'clock. Time for work!"
+   },
+   {
+    "phrase": "It's time for mine.",
+    "meaning_ar": "حان دوري (حان وقت الخاص بي).",
+    "meaning_en": "Now it is my turn.",
+    "example": "Everyone had a review. Now it's time for mine."
+   },
+   {
+    "phrase": "Not big enough.",
+    "meaning_ar": "ليس كبيراً بما يكفي.",
+    "meaning_en": "Big, but we need it to be bigger.",
+    "example": "The room is nice, but it's not big enough."
+   },
+   {
+    "phrase": "You really ought to think seriously about ...",
+    "meaning_ar": "عليك فعلاً أن تفكر بجدية في ...",
+    "meaning_en": "You should think carefully about something.",
+    "example": "You really ought to think seriously about your future."
+   },
+   {
+    "phrase": "This is my favorite.",
+    "meaning_ar": "هذا المفضل لدي.",
+    "meaning_en": "This is the one I like best.",
+    "example": "I like all these books, but this is my favorite."
+   },
+   {
+    "phrase": "Do you understand what I want?",
+    "meaning_ar": "هل تفهم ما أريده؟",
+    "meaning_en": "Asking if the other person knows what you want.",
+    "example": "Do you understand what I want you to do?"
+   },
+   {
+    "phrase": "What's the problem?",
+    "meaning_ar": "ما المشكلة؟",
+    "meaning_en": "Asking what is wrong.",
+    "example": "You look worried. What's the problem?"
+   },
+   {
+    "phrase": "Please don't worry.",
+    "meaning_ar": "من فضلك لا تقلق.",
+    "meaning_en": "A kind way to tell someone not to be afraid.",
+    "example": "Please don't worry. I can help you."
+   },
+   {
+    "phrase": "Here's the plan.",
+    "meaning_ar": "إليك الخطة.",
+    "meaning_en": "Used before you explain what you will do.",
+    "example": "Here's the plan: we meet at nine and leave at ten."
+   },
+   {
+    "phrase": "Let's get to work!",
+    "meaning_ar": "هيا نبدأ العمل!",
+    "meaning_en": "Let's start working now.",
+    "example": "We have a lot to do. Let's get to work!"
+   },
+   {
+    "phrase": "Good job!",
+    "meaning_ar": "عمل جيد! / أحسنت!",
+    "meaning_en": "You did well.",
+    "example": "You finished everything. Good job!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "If + present simple, will + verb (real conditions)",
+    "explanation_ar": "نستخدم هذا التركيب للحديث عن نتيجة حقيقية أو محتملة: إذا حدث شيء، سيحدث شيء آخر. في جملة if نستخدم المضارع البسيط (look وليس will look)، وفي النتيجة نستخدم will + الفعل. يمكن أن تبدأ الجملة بـ if (مع فاصلة) أو تأتي if في الوسط (بدون فاصلة).",
+    "explanation_en": "Use this form to talk about a real or likely result: if one thing happens, another thing will happen. In the if-part use the present simple (look, not will look). In the result part use will + verb. Start with if (and use a comma), or put if in the middle (no comma).",
+    "examples": [
+     "If you look at this chart, you will see something good.",
+     "If you work hard, you will succeed.",
+     "You will see the problem if you look carefully."
+    ]
+   },
+   {
+    "title": "ought to = should (advice)",
+    "explanation_ar": "ought to تعني نفس should تقريباً: نصيحة أو الشيء الصحيح الذي يجب فعله. بعدها الفعل في المصدر بدون to إضافية: ought to think. النفي: ought not to (قليل الاستخدام؛ shouldn't أشيع).",
+    "explanation_en": "Ought to means almost the same as should: advice, or the right thing to do. Use the base verb after it: ought to think. Negative: ought not to (not common; shouldn't is more usual).",
+    "examples": [
+     "You really ought to think seriously about them.",
+     "We ought to leave now.",
+     "You ought to drink more water."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Complete: \"If you look at this chart, you ____ something good.\"",
+   "choices": [
+    "see",
+    "will see",
+    "saw",
+    "seeing"
+   ],
+   "answer": 1,
+   "explanation_ar": "في النتيجة نستخدم will + الفعل: will see.",
+   "explanation_en": "The result part uses will + verb: will see."
+  },
+  {
+   "question": "Which sentence is correct?",
+   "choices": [
+    "If you will work hard, you succeed.",
+    "If you work hard, you will succeed.",
+    "If you worked hard, you will succeed.",
+    "If you work hard, you succeeding."
+   ],
+   "answer": 1,
+   "explanation_ar": "بعد if المضارع البسيط، وفي النتيجة will.",
+   "explanation_en": "Use the present simple after if, and will in the result."
+  },
+  {
+   "question": "\"You ought to think seriously about it.\" \"ought to\" means ...",
+   "choices": [
+    "can't",
+    "don't have to",
+    "must not",
+    "should"
+   ],
+   "answer": 3,
+   "explanation_ar": "ought to تعني تقريباً should (نصيحة).",
+   "explanation_en": "Ought to means about the same as should (advice)."
+  },
+  {
+   "question": "The chart is \"upside down\". What should you do?",
+   "choices": [
+    "Flip it over.",
+    "Throw it away.",
+    "Read it loudly.",
+    "Make it bigger."
+   ],
+   "answer": 0,
+   "explanation_ar": "إذا كان مقلوباً نقلبه ليصبح right-side up.",
+   "explanation_en": "If it's upside down, flip it so it is right-side up."
+  },
+  {
+   "question": "The people who watch a TV show are its ...",
+   "choices": [
+    "team",
+    "boss",
+    "audience",
+    "poster"
+   ],
+   "answer": 2,
+   "explanation_ar": "audience هم الجمهور أو المشاهدون.",
+   "explanation_en": "The audience is the people who watch."
+  },
+  {
+   "question": "Choose the correct word: \"Your audience is big, but not big ____.\"",
+   "choices": [
+    "too",
+    "enough",
+    "very",
+    "more"
+   ],
+   "answer": 1,
+   "explanation_ar": "enough تأتي بعد الصفة: big enough.",
+   "explanation_en": "Enough comes after the adjective: big enough."
+  },
+  {
+   "question": "\"I want these numbers to go ____.\" (We want more people to watch.)",
+   "choices": [
+    "down",
+    "off",
+    "up",
+    "out"
+   ],
+   "answer": 2,
+   "explanation_ar": "go up = يرتفع أو يزيد.",
+   "explanation_en": "Go up = become higher, more."
+  },
+  {
+   "question": "Which word is a noun?",
+   "choices": [
+    "succeed",
+    "successful",
+    "succeeds",
+    "success"
+   ],
+   "answer": 3,
+   "explanation_ar": "success اسم بمعنى نجاح.",
+   "explanation_en": "Success is a noun."
+  },
+  {
+   "question": "\"Teamwork\" means ...",
+   "choices": [
+    "people working together well",
+    "working alone",
+    "a work review",
+    "a cat poster"
+   ],
+   "answer": 0,
+   "explanation_ar": "teamwork هو العمل الجماعي.",
+   "explanation_en": "Teamwork is people working well together."
+  },
+  {
+   "question": "What do you say when your team does well?",
+   "choices": [
+    "What's the problem?",
+    "Not good.",
+    "Good job, team!",
+    "Time for work."
+   ],
+   "answer": 2,
+   "explanation_ar": "Good job تعني أحسنتم.",
+   "explanation_en": "\"Good job\" means you did well."
+  }
+ ]
+}

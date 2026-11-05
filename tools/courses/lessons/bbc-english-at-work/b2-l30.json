@@ -1,0 +1,417 @@
+{
+  "title": "Persuading Someone to Change Their Mind",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "hasty",
+        "pos": "adjective",
+        "meaning_en": "done too quickly, without enough thought",
+        "meaning_ar": "متسرّع",
+        "note_ar": "الظرف hastily.",
+        "note_en": "Adverb: hastily.",
+        "example": "Don't make a hasty decision."
+      },
+      {
+        "word": "rush into",
+        "pos": "phrasal verb",
+        "meaning_en": "to do something too quickly without thinking",
+        "meaning_ar": "يندفع إلى؛ يتسرّع في",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't rush into buying a new car."
+      },
+      {
+        "word": "work out",
+        "pos": "phrasal verb",
+        "meaning_en": "to find a solution to a problem",
+        "meaning_ar": "يجد حلًّا؛ يسوّي (مشكلة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can work this out together."
+      },
+      {
+        "word": "change your mind",
+        "pos": "phrase",
+        "meaning_en": "to make a different decision",
+        "meaning_ar": "يغيّر رأيه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you change your mind, call me."
+      },
+      {
+        "word": "persuade",
+        "pos": "verb",
+        "meaning_en": "to make someone agree to do something by talking to them",
+        "meaning_ar": "يُقنع",
+        "note_ar": "الاسم persuasion.",
+        "note_en": "Noun: persuasion.",
+        "example": "She persuaded her manager to give her more time."
+      },
+      {
+        "word": "get the wrong end of the stick",
+        "pos": "idiom",
+        "meaning_en": "to understand something in the wrong way",
+        "meaning_ar": "يفهم الأمر بشكل خاطئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I think you've got the wrong end of the stick - I didn't mean that."
+      },
+      {
+        "word": "misunderstanding",
+        "pos": "noun",
+        "meaning_en": "a failure to understand something correctly",
+        "meaning_ar": "سوء فهم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's clear up this misunderstanding."
+      },
+      {
+        "word": "the penny drops",
+        "pos": "idiom",
+        "meaning_en": "someone finally understands something",
+        "meaning_ar": "يفهم أخيرًا؛ يستوعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "After I explained it twice, the penny dropped."
+      },
+      {
+        "word": "tantrum",
+        "pos": "noun",
+        "meaning_en": "a sudden, angry and childish reaction",
+        "meaning_ar": "نوبة غضب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please don't have a tantrum - let's talk."
+      },
+      {
+        "word": "quit",
+        "pos": "verb",
+        "meaning_en": "(informal) to leave your job",
+        "meaning_ar": "يستقيل؛ يترك العمل",
+        "note_ar": "الماضي والتصريف الثالث quit كما هي.",
+        "note_en": "Past and past participle: quit.",
+        "example": "He quit his job and moved to another city."
+      },
+      {
+        "word": "calm down",
+        "pos": "phrasal verb",
+        "meaning_en": "to become less angry or upset",
+        "meaning_ar": "يهدأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Calm down and tell me what happened."
+      },
+      {
+        "word": "upset",
+        "pos": "adjective",
+        "meaning_en": "unhappy and worried or angry",
+        "meaning_ar": "منزعج؛ مستاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He was upset when he heard the news."
+      },
+      {
+        "word": "fix a date",
+        "pos": "phrase",
+        "meaning_en": "to choose a day for an event",
+        "meaning_ar": "يحدّد موعدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's fix a date for the next meeting."
+      },
+      {
+        "word": "hang about",
+        "pos": "phrasal verb",
+        "meaning_en": "(informal) to wait or waste time",
+        "meaning_ar": "يتلكّأ؛ ينتظر بلا فائدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can't hang about - the client is waiting."
+      },
+      {
+        "word": "I've had enough",
+        "pos": "phrase",
+        "meaning_en": "I can't accept this any more",
+        "meaning_ar": "طفح الكيل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've had enough of these delays."
+      },
+      {
+        "word": "free spirit",
+        "pos": "noun",
+        "meaning_en": "a person who does what they want, not what others expect",
+        "meaning_ar": "شخص متحرّر لا يتقيّد بالقيود",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's a free spirit and doesn't like office rules."
+      },
+      {
+        "word": "sort this out",
+        "pos": "phrase",
+        "meaning_en": "to solve this problem",
+        "meaning_ar": "يحلّ هذه المشكلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've got to sort this out today."
+      },
+      {
+        "word": "hold on",
+        "pos": "phrasal verb",
+        "meaning_en": "to wait a moment",
+        "meaning_ar": "انتظر لحظة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hold on, please - I'll get my manager."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "quit vs resign vs leave",
+        "words": [
+          "quit",
+          "resign",
+          "leave"
+        ],
+        "explanation_ar": "الثلاثة تعني ترك العمل. quit غير رسمية وتدل غالبًا على قرار مفاجئ. resign رسمية (عادةً مع خطاب استقالة). leave عامة ومحايدة.",
+        "explanation_en": "All three mean stop working for a company. Quit is informal and often sudden. Resign is formal (often with a letter). Leave is general and neutral.",
+        "examples": [
+          {
+            "word": "quit",
+            "sentence": "I've had enough - I quit!"
+          },
+          {
+            "word": "resign",
+            "sentence": "The director resigned in a formal letter."
+          },
+          {
+            "word": "leave",
+            "sentence": "She is leaving the company next month."
+          }
+        ]
+      },
+      {
+        "title": "work out: solve vs exercise",
+        "words": [
+          "work out"
+        ],
+        "explanation_ar": "work out لها معنيان: «يجد حلًّا لمشكلة» (We can work this out)، و«يمارس الرياضة» (I work out at the gym). يتضح المعنى من السياق.",
+        "explanation_en": "Work out has two common meanings: find a solution (We can work this out) and do exercise (I work out at the gym). The context tells you which.",
+        "examples": [
+          {
+            "word": "work out",
+            "sentence": "Don't worry, we'll work out a solution."
+          },
+          {
+            "word": "work out",
+            "sentence": "He works out three times a week."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Don't be too hasty.",
+        "meaning_ar": "لا تتسرّع كثيرًا.",
+        "meaning_en": "Don't decide too quickly.",
+        "example": "Don't be too hasty - let's look at the figures again."
+      },
+      {
+        "phrase": "Don't rush into making a decision.",
+        "meaning_ar": "لا تتعجّل في اتخاذ القرار.",
+        "meaning_en": "Take time before you decide.",
+        "example": "Don't rush into making a decision. Sleep on it."
+      },
+      {
+        "phrase": "We can work this out.",
+        "meaning_ar": "يمكننا أن نجد حلًّا لهذا.",
+        "meaning_en": "We can solve this problem together.",
+        "example": "I know you're unhappy, but we can work this out."
+      },
+      {
+        "phrase": "Let's talk about this.",
+        "meaning_ar": "لنتحدّث في هذا الأمر.",
+        "meaning_en": "Let's discuss it before deciding.",
+        "example": "Please sit down. Let's talk about this."
+      },
+      {
+        "phrase": "I think there's been a misunderstanding.",
+        "meaning_ar": "أظن أنه حدث سوء فهم.",
+        "meaning_en": "We understood different things.",
+        "example": "I think there's been a misunderstanding about the delivery date."
+      },
+      {
+        "phrase": "I think you've got the wrong end of the stick.",
+        "meaning_ar": "أظن أنك فهمت الأمر بشكل خاطئ.",
+        "meaning_en": "You have understood the situation wrongly.",
+        "example": "No, I didn't say we were closing. I think you've got the wrong end of the stick."
+      },
+      {
+        "phrase": "You're my best sales executive.",
+        "meaning_ar": "أنت أفضل مسؤول مبيعات لديّ.",
+        "meaning_en": "A compliment to persuade someone to stay.",
+        "example": "Please stay - you're my best sales executive."
+      },
+      {
+        "phrase": "I've had enough. I quit!",
+        "meaning_ar": "طفح الكيل، أنا أستقيل!",
+        "meaning_en": "An angry, informal way of leaving a job (not recommended at work!).",
+        "example": "He shouted 'I've had enough. I quit!' and left the office."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Negative imperatives: Don't + verb",
+        "explanation_ar": "لنصح شخص بعدم فعل شيء نستخدم Don't + الفعل في المصدر: Don't rush. ومع الصفات نستخدم Don't be + صفة: Don't be too hasty. ويمكن إضافة please لتصبح ألطف.",
+        "explanation_en": "To tell someone not to do something, use Don't + base verb: Don't rush. With adjectives use Don't be + adjective: Don't be too hasty. Add 'please' to sound softer.",
+        "examples": [
+          "Don't be too hasty.",
+          "Don't rush into making a decision.",
+          "Please don't leave yet."
+        ]
+      },
+      {
+        "title": "Verb + preposition + -ing: rush into making",
+        "explanation_ar": "بعد حرف الجر (into, about, of…) يأتي الفعل بصيغة ing: rush into making a decision، think about leaving.",
+        "explanation_en": "After a preposition (into, about, of...), use the -ing form of the verb: rush into making a decision, think about leaving.",
+        "examples": [
+          "Don't rush into signing the contract.",
+          "He's thinking about leaving the company.",
+          "I'm tired of waiting."
+        ]
+      },
+      {
+        "title": "Persuading with Let's and can",
+        "explanation_ar": "لإقناع شخص بلطف نقترح بـ Let's + فعل (Let's talk about this)، ونعطي أملًا بـ can (We can work this out).",
+        "explanation_en": "To persuade gently, suggest with Let's + verb (Let's talk about this) and give hope with can (We can work this out).",
+        "examples": [
+          "Let's talk about this tomorrow.",
+          "We can find a solution together.",
+          "Let's not make any decisions today."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'Don't be too hasty' means…",
+      "choices": [
+        "don't be late",
+        "don't decide too quickly",
+        "don't be angry",
+        "don't work too hard"
+      ],
+      "answer": 1,
+      "explanation_ar": "hasty تعني متسرّعًا.",
+      "explanation_en": "Hasty means too quick, without thinking."
+    },
+    {
+      "question": "Don't rush into ___ a decision.",
+      "choices": [
+        "make",
+        "made",
+        "making",
+        "to make"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد حرف الجر into يأتي الفعل بصيغة ing.",
+      "explanation_en": "After a preposition, use -ing."
+    },
+    {
+      "question": "'We can work this out' means…",
+      "choices": [
+        "we can find a solution",
+        "we can go to the gym",
+        "we can leave",
+        "we can stop working"
+      ],
+      "answer": 0,
+      "explanation_ar": "work out هنا تعني إيجاد حل.",
+      "explanation_en": "Here 'work out' means find a solution."
+    },
+    {
+      "question": "What word does Tom use to say he is leaving the company?",
+      "choices": [
+        "fire",
+        "sack",
+        "retire",
+        "quit"
+      ],
+      "answer": 3,
+      "explanation_ar": "قال توم: I quit!",
+      "explanation_en": "Tom says 'I quit!'"
+    },
+    {
+      "question": "'You've got the wrong end of the stick' means…",
+      "choices": [
+        "you are holding a stick",
+        "you have understood wrongly",
+        "you are very clever",
+        "you are late"
+      ],
+      "answer": 1,
+      "explanation_ar": "تعني أنك فهمت الأمر خطأً.",
+      "explanation_en": "It means you have misunderstood."
+    },
+    {
+      "question": "Tom suddenly gets very angry and shouts. He is having a…",
+      "choices": [
+        "tantrum",
+        "promotion",
+        "meeting",
+        "free spirit"
+      ],
+      "answer": 0,
+      "explanation_ar": "tantrum نوبة غضب.",
+      "explanation_en": "A tantrum is a sudden angry reaction."
+    },
+    {
+      "question": "Which is the formal word for leaving your job, usually with a letter?",
+      "choices": [
+        "quit",
+        "hang about",
+        "resign",
+        "calm down"
+      ],
+      "answer": 2,
+      "explanation_ar": "resign كلمة رسمية للاستقالة.",
+      "explanation_en": "'Resign' is the formal word."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Not be too hasty.",
+        "Don't hasty.",
+        "Don't to be hasty.",
+        "Don't be too hasty."
+      ],
+      "answer": 3,
+      "explanation_ar": "Don't be + صفة.",
+      "explanation_en": "Use Don't be + adjective."
+    },
+    {
+      "question": "'The penny drops' means…",
+      "choices": [
+        "someone loses money",
+        "someone finally understands",
+        "prices go down",
+        "someone drops a coin"
+      ],
+      "answer": 1,
+      "explanation_ar": "the penny drops تعني أن الشخص فهم أخيرًا.",
+      "explanation_en": "It means someone finally understands."
+    },
+    {
+      "question": "Which sentence is persuading someone to stay?",
+      "choices": [
+        "Please don't rush into a decision - we can work this out.",
+        "Goodbye and good luck.",
+        "I quit!",
+        "Hang about."
+      ],
+      "answer": 0,
+      "explanation_ar": "هذه الجملة تحاول إقناعه بالبقاء.",
+      "explanation_en": "This sentence tries to make him change his mind."
+    }
+  ]
+}

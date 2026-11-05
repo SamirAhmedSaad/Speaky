@@ -1,0 +1,421 @@
+{
+  "title": "Booking a Trip with a Travel Agent",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "travel agent",
+        "pos": "noun",
+        "meaning_en": "a person whose job is to plan and book trips",
+        "meaning_ar": "وكيل سفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I booked my trip with a travel agent."
+      },
+      {
+        "word": "time off",
+        "pos": "noun",
+        "meaning_en": "days when you don't go to work",
+        "meaning_ar": "إجازة (من العمل)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have some time off next month."
+      },
+      {
+        "word": "vacation",
+        "pos": "noun",
+        "meaning_en": "a time of rest away from work or school",
+        "meaning_ar": "عطلة / إجازة",
+        "note_ar": "في بريطانيا: holiday",
+        "note_en": "UK: holiday.",
+        "example": "How long is your vacation?"
+      },
+      {
+        "word": "brochure",
+        "pos": "noun",
+        "meaning_en": "a small book with pictures and information",
+        "meaning_ar": "كتيّب دعائي",
+        "note_ar": "تُنطق: /ˈbrəʊʃə/",
+        "note_en": "Say: /ˈbrəʊʃə/.",
+        "example": "Here's our Tokyo brochure."
+      },
+      {
+        "word": "high-class",
+        "pos": "adjective",
+        "meaning_en": "of very good quality and usually expensive",
+        "meaning_ar": "راقٍ / فاخر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a high-class hotel."
+      },
+      {
+        "word": "booking",
+        "pos": "noun",
+        "meaning_en": "arranging a room, seat or ticket before",
+        "meaning_ar": "حجز",
+        "note_ar": "الفعل: book",
+        "note_en": "Verb: book.",
+        "example": "Would you like me to make the booking?"
+      },
+      {
+        "word": "personal information",
+        "pos": "noun",
+        "meaning_en": "facts about you, like your name and number",
+        "meaning_ar": "معلومات شخصية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please give some personal information."
+      },
+      {
+        "word": "reach",
+        "pos": "verb",
+        "meaning_en": "contact someone by phone",
+        "meaning_ar": "يتواصل مع / يصل إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You can reach me at this number."
+      },
+      {
+        "word": "return flight",
+        "pos": "noun",
+        "meaning_en": "a flight back home",
+        "meaning_ar": "رحلة العودة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need a return flight on the 31st."
+      },
+      {
+        "word": "availability",
+        "pos": "noun",
+        "meaning_en": "whether something is free to use or buy",
+        "meaning_ar": "التوفّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me check the availability."
+      },
+      {
+        "word": "layover",
+        "pos": "noun",
+        "meaning_en": "a stop between two flights",
+        "meaning_ar": "توقّف (ترانزيت)",
+        "note_ar": "",
+        "note_en": "Also: stopover.",
+        "example": "There is a layover in Hong Kong."
+      },
+      {
+        "word": "direct flight",
+        "pos": "noun",
+        "meaning_en": "a flight with no stops",
+        "meaning_ar": "رحلة مباشرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I was hoping for a direct flight."
+      },
+      {
+        "word": "depart",
+        "pos": "verb",
+        "meaning_en": "leave (formal)",
+        "meaning_ar": "يغادر",
+        "note_ar": "الاسم: departure",
+        "note_en": "Noun: departure.",
+        "example": "It departs at 9:00 am."
+      },
+      {
+        "word": "arrive",
+        "pos": "verb",
+        "meaning_en": "reach a place",
+        "meaning_ar": "يصل",
+        "note_ar": "الاسم: arrival",
+        "note_en": "Noun: arrival.",
+        "example": "It arrives at 2:30 pm."
+      },
+      {
+        "word": "local time",
+        "pos": "noun",
+        "meaning_en": "the time in that place",
+        "meaning_ar": "التوقيت المحلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It arrives at 2:30 pm local time."
+      },
+      {
+        "word": "single room",
+        "pos": "noun",
+        "meaning_en": "a hotel room for one person",
+        "meaning_ar": "غرفة مفردة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A single room will be fine."
+      },
+      {
+        "word": "double room",
+        "pos": "noun",
+        "meaning_en": "a hotel room for two people",
+        "meaning_ar": "غرفة مزدوجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you prefer a single or a double room?"
+      },
+      {
+        "word": "confirmation",
+        "pos": "noun",
+        "meaning_en": "making a booking final",
+        "meaning_ar": "تأكيد",
+        "note_ar": "",
+        "note_en": "Verb: confirm.",
+        "example": "Shall I make the confirmation?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "direct flight vs layover",
+        "words": [
+          "direct flight",
+          "layover"
+        ],
+        "explanation_ar": "direct flight = بدون توقف. layover = توقف في مدينة أخرى قبل الوصول.",
+        "explanation_en": "A direct flight has no stops. A layover is a stop in another city on the way.",
+        "examples": [
+          {
+            "word": "direct flight",
+            "sentence": "I'll take the direct flight."
+          },
+          {
+            "word": "layover",
+            "sentence": "There is a three-hour layover in Dubai."
+          }
+        ]
+      },
+      {
+        "title": "depart vs arrive",
+        "words": [
+          "depart",
+          "arrive"
+        ],
+        "explanation_ar": "depart = يغادر (يبدأ الرحلة). arrive = يصل (نهاية الرحلة). نقول arrive in + مدينة، arrive at + مكان.",
+        "explanation_en": "\"Depart\" = leave. \"Arrive\" = reach. Say \"arrive in\" a city, \"arrive at\" a place.",
+        "examples": [
+          {
+            "word": "depart",
+            "sentence": "It departs at 9:00 am."
+          },
+          {
+            "word": "arrive",
+            "sentence": "It arrives in Tokyo at 2:30 pm."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How can I assist you today?",
+        "meaning_ar": "كيف يمكنني مساعدتك اليوم؟",
+        "meaning_en": "A formal greeting at work.",
+        "example": "Good morning, how can I assist you today?"
+      },
+      {
+        "phrase": "I was thinking of visiting Tokyo.",
+        "meaning_ar": "كنت أفكر في زيارة طوكيو.",
+        "meaning_en": "Sharing a plan softly.",
+        "example": "I was thinking of visiting my aunt."
+      },
+      {
+        "phrase": "How long is your vacation?",
+        "meaning_ar": "كم مدة عطلتك؟",
+        "meaning_en": "Asking about time.",
+        "example": "How long is your holiday? Two weeks."
+      },
+      {
+        "phrase": "Take a look and see if there's a hotel that you like.",
+        "meaning_ar": "ألقِ نظرة وانظر إن كان هناك فندق يعجبك.",
+        "meaning_en": "Inviting someone to choose.",
+        "example": "Take a look at the menu."
+      },
+      {
+        "phrase": "Would you like me to make the booking now?",
+        "meaning_ar": "هل تريدني أن أحجز الآن؟",
+        "meaning_en": "Offering to book.",
+        "example": "Would you like me to book a taxi?"
+      },
+      {
+        "phrase": "You can reach me at 555-1234.",
+        "meaning_ar": "يمكنك التواصل معي على الرقم 555-1234.",
+        "meaning_en": "Giving a phone number.",
+        "example": "You can reach me at this number during the day."
+      },
+      {
+        "phrase": "Will you be traveling alone? / Yes, it will be just me.",
+        "meaning_ar": "هل ستسافر وحدك؟ / نعم، أنا فقط.",
+        "meaning_en": "Asking about other travellers.",
+        "example": "Will you be traveling alone? No, with my family."
+      },
+      {
+        "phrase": "Is that acceptable to you?",
+        "meaning_ar": "هل هذا مقبول لديك؟",
+        "meaning_en": "Checking if something is OK.",
+        "example": "The flight has one stop. Is that acceptable to you?"
+      },
+      {
+        "phrase": "I was hoping for a direct flight.",
+        "meaning_ar": "كنت آمل في رحلة مباشرة.",
+        "meaning_en": "Politely saying you wanted something else.",
+        "example": "I was hoping for a window seat."
+      },
+      {
+        "phrase": "That sounds much better.",
+        "meaning_ar": "هذا يبدو أفضل بكثير.",
+        "meaning_en": "Liking a new option.",
+        "example": "A direct flight? That sounds much better."
+      },
+      {
+        "phrase": "Have a wonderful trip!",
+        "meaning_ar": "رحلة سعيدة!",
+        "meaning_en": "A kind goodbye to a traveller.",
+        "example": "Have a wonderful trip to Paris!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Shall I ...? (offers)",
+        "explanation_ar": "نستخدم Shall I + فعل لنعرض أن نفعل شيئًا بأدب.",
+        "explanation_en": "Use \"Shall I + verb?\" to offer to do something politely.",
+        "examples": [
+          "Shall I book your flight for the next day?",
+          "Shall I make the confirmation?",
+          "Shall I call you at work?"
+        ]
+      },
+      {
+        "title": "Dates: on the 24th of December",
+        "explanation_ar": "نقول on مع التاريخ واليوم: on the 24th of December / on Friday.",
+        "explanation_en": "Use \"on\" with dates and days: on the 24th of December, on Friday.",
+        "examples": [
+          "My last day at work is on the 24th of December.",
+          "I'll be returning on the 31st.",
+          "It departs on Saturday morning."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A flight with no stops is a ...",
+      "choices": [
+        "layover",
+        "direct flight",
+        "return flight",
+        "brochure"
+      ],
+      "answer": 1,
+      "explanation_ar": "رحلة مباشرة: direct flight.",
+      "explanation_en": "A direct flight."
+    },
+    {
+      "question": "____ I book your flight for the next day?",
+      "choices": [
+        "Will you",
+        "Do",
+        "Am",
+        "Shall"
+      ],
+      "answer": 3,
+      "explanation_ar": "Shall I للعرض.",
+      "explanation_en": "\"Shall I ...?\" is an offer."
+    },
+    {
+      "question": "My last day at work is ____ the 24th of December.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع التاريخ نستخدم on.",
+      "explanation_en": "Use \"on\" with dates."
+    },
+    {
+      "question": "A \"layover\" is ...",
+      "choices": [
+        "a hotel room",
+        "a booking",
+        "a stop between flights",
+        "a passport"
+      ],
+      "answer": 2,
+      "explanation_ar": "توقف بين رحلتين.",
+      "explanation_en": "A stop between flights."
+    },
+    {
+      "question": "It arrives ____ Tokyo at 2:30 pm.",
+      "choices": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع المدن: arrive in.",
+      "explanation_en": "With cities: arrive in."
+    },
+    {
+      "question": "A room for one person is a ...",
+      "choices": [
+        "single room",
+        "double room",
+        "high-class room",
+        "direct room"
+      ],
+      "answer": 0,
+      "explanation_ar": "غرفة مفردة.",
+      "explanation_en": "A single room."
+    },
+    {
+      "question": "\"You can reach me at 555-1234.\" means ...",
+      "choices": [
+        "I live at number 555.",
+        "My room is 1234.",
+        "I arrive at 5:55.",
+        "You can call me at this number."
+      ],
+      "answer": 3,
+      "explanation_ar": "يمكنك الاتصال بي على هذا الرقم.",
+      "explanation_en": "You can call me at this number."
+    },
+    {
+      "question": "\"Is that acceptable to you?\" means ...",
+      "choices": [
+        "Do you want to pay?",
+        "Is that OK for you?",
+        "Are you alone?",
+        "Is that your name?"
+      ],
+      "answer": 1,
+      "explanation_ar": "هل هذا مقبول؟",
+      "explanation_en": "Is that OK for you?"
+    },
+    {
+      "question": "In British English, a \"vacation\" is a ...",
+      "choices": [
+        "holiday",
+        "trip",
+        "booking",
+        "weekend"
+      ],
+      "answer": 0,
+      "explanation_ar": "في بريطانيا holiday.",
+      "explanation_en": "UK: holiday."
+    },
+    {
+      "question": "The plane ____ at 9:00 am. (leaves)",
+      "choices": [
+        "arrives",
+        "books",
+        "departs",
+        "reaches"
+      ],
+      "answer": 2,
+      "explanation_ar": "depart يغادر.",
+      "explanation_en": "\"Depart\" = leave."
+    }
+  ]
+}

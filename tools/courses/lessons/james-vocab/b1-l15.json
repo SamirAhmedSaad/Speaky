@@ -1,0 +1,44 @@
+{
+  "title": "8 Words for Intermediate Learners",
+  "content": {
+    "vocabulary": [
+      {"word": "enhance", "pos": "verb", "meaning_en": "to improve something or make it better", "meaning_ar": "يُحسّن / يعزّز", "note_ar": "الاسم: enhancement", "note_en": "Noun: enhancement.", "example": "A little lemon will enhance the taste of the soup."},
+      {"word": "contribute", "pos": "verb", "meaning_en": "to give time, energy or money to help achieve a goal", "meaning_ar": "يساهم", "note_ar": "contribute to + شيء. الاسم: contribution", "note_en": "contribute to something. Noun: contribution.", "example": "Everyone in the team contributed to the project."},
+      {"word": "adapt", "pos": "verb", "meaning_en": "to change or adjust because of new conditions", "meaning_ar": "يتكيّف", "note_ar": "adapt to + شيء. لا تخلطها مع adopt (يتبنّى)", "note_en": "adapt to something. Don't confuse with adopt.", "example": "I can adapt to new situations easily."},
+      {"word": "efficient", "pos": "adjective", "meaning_en": "working well without wasting time, effort or money", "meaning_ar": "فعّال / كفء", "note_ar": "الاسم: efficiency", "note_en": "Noun: efficiency.", "example": "The new system is more efficient."},
+      {"word": "convey", "pos": "verb", "meaning_en": "to communicate or make an idea or feeling known", "meaning_ar": "ينقل (فكرة أو شعورًا)", "note_ar": "", "note_en": "", "example": "I'd like to convey my thanks for your hard work."},
+      {"word": "furthermore", "pos": "adverb", "meaning_en": "in addition; more importantly", "meaning_ar": "علاوة على ذلك", "note_ar": "رسمية بعض الشيء، تأتي في بداية الجملة غالبًا", "note_en": "A little formal; often starts a sentence.", "example": "The flat is cheap. Furthermore, it's close to my work."},
+      {"word": "consequently", "pos": "adverb", "meaning_en": "as a result; because of that", "meaning_ar": "نتيجةً لذلك", "note_ar": "يدل على السبب والنتيجة", "note_en": "Shows cause and effect.", "example": "He missed the bus. Consequently, he was late for work."},
+      {"word": "conversely", "pos": "adverb", "meaning_en": "looking at it the opposite way; on the other hand", "meaning_ar": "على العكس / من جهة أخرى", "note_ar": "", "note_en": "", "example": "John's idea is good. Conversely, if we wait a week, we might get a better result."},
+      {"word": "cumbersome", "pos": "adjective", "meaning_en": "long, heavy or difficult to use", "meaning_ar": "مُرهق / ثقيل", "note_ar": "", "note_en": "", "example": "That sentence is cumbersome; use one word instead."},
+      {"word": "repertoire", "pos": "noun", "meaning_en": "all the things (words, skills) a person can use", "meaning_ar": "الرصيد / الحصيلة", "note_ar": "تُنطق /ˈrepətwɑː/", "note_en": "Pronounced /ˈrepətwɑː/.", "example": "Add these words to your repertoire."},
+      {"word": "without further ado", "pos": "phrase", "meaning_en": "without waiting any longer; let's start", "meaning_ar": "دون مزيد من التأخير", "note_ar": "", "note_en": "", "example": "And now, without further ado, here is our speaker."}
+    ],
+    "fine_lines": [
+      {"title": "furthermore vs consequently vs conversely", "words": ["furthermore", "consequently", "conversely"], "explanation_ar": "furthermore يضيف معلومة (علاوة على ذلك). consequently يذكر نتيجة (لذلك). conversely يقدّم وجهة نظر معاكسة (على العكس).", "explanation_en": "Furthermore adds information. Consequently gives a result. Conversely gives the opposite view.", "examples": [{"word": "furthermore", "sentence": "The hotel is clean. Furthermore, it has a great view."}, {"word": "consequently", "sentence": "It rained all day. Consequently, the match was cancelled."}, {"word": "conversely", "sentence": "Some people like the city; conversely, others prefer the countryside."}]},
+      {"title": "adapt vs adopt", "words": ["adapt", "adopt"], "explanation_ar": "adapt = يتكيّف مع ظروف جديدة. adopt = يتبنّى (فكرة أو طفلًا).", "explanation_en": "Adapt = change to fit new conditions. Adopt = take as your own (an idea or a child).", "examples": [{"word": "adapt", "sentence": "She adapted quickly to life in Canada."}, {"word": "adopt", "sentence": "The company adopted a new plan."}]},
+      {"title": "efficient vs effective", "words": ["efficient", "effective"], "explanation_ar": "efficient: ينجز العمل دون إهدار وقت أو جهد أو مال. effective: يحقّق النتيجة المطلوبة.", "explanation_en": "Efficient: does the job without wasting time, effort or money. Effective: gets the result you want.", "examples": [{"word": "efficient", "sentence": "An efficient worker finishes quickly."}, {"word": "effective", "sentence": "This medicine is very effective."}]}
+    ],
+    "expressions": [
+      {"phrase": "What would enhance...?", "meaning_ar": "ما الذي قد يحسّن...؟", "meaning_en": "What could make ... better?", "example": "What would enhance our website?"},
+      {"phrase": "How can I contribute?", "meaning_ar": "كيف يمكنني المساهمة؟", "meaning_en": "How can I help the group?", "example": "I'm new on the team. How can I contribute?"},
+      {"phrase": "I can adapt to new situations easily.", "meaning_ar": "أستطيع التكيّف مع المواقف الجديدة بسهولة.", "meaning_en": "a strong sentence for a job interview", "example": "In the interview I said, \"I can adapt to new situations easily.\""},
+      {"phrase": "I'd like to convey my appreciation...", "meaning_ar": "أودّ أن أعبّر عن تقديري...", "meaning_en": "a formal way to say thank you", "example": "I'd like to convey my appreciation for all your help."}
+    ],
+    "grammar": [
+      {"title": "Linking adverbs: furthermore, consequently, conversely", "explanation_ar": "هذه الظروف تربط بين جملتين، وعادةً تأتي في بداية الجملة الثانية وبعدها فاصلة: Sentence 1. Furthermore, sentence 2. وهي أكثر رسمية من also وso وon the other hand.", "explanation_en": "These adverbs link two sentences. Put them at the start of the second sentence with a comma: Sentence 1. Furthermore, sentence 2. They are more formal than also, so and on the other hand.", "examples": ["The job pays well. Furthermore, it's near my home.", "I didn't study. Consequently, I failed the test.", "Cars are fast. Conversely, bikes are cheap."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which word means \"to improve or make better\"?", "choices": ["enhance", "convey", "adapt", "contribute"], "answer": 0, "explanation_ar": "enhance = يحسّن.", "explanation_en": "Enhance = make better."},
+    {"question": "\"I can ___ to new situations easily.\"", "choices": ["convey", "adapt", "enhance", "contribute"], "answer": 1, "explanation_ar": "adapt to = يتكيّف مع.", "explanation_en": "Adapt to = adjust to."},
+    {"question": "\"He told his boss where to go. ___, he lost his job.\"", "choices": ["Furthermore", "Conversely", "Consequently", "Efficiently"], "answer": 2, "explanation_ar": "consequently تعني نتيجة لذلك.", "explanation_en": "Consequently shows the result."},
+    {"question": "\"The apartment is a great price. ___, it's close to my work.\"", "choices": ["Conversely", "Consequently", "Cumbersome", "Furthermore"], "answer": 3, "explanation_ar": "furthermore تضيف معلومة.", "explanation_en": "Furthermore adds information."},
+    {"question": "Work done well without wasting time is ___.", "choices": ["efficient", "cumbersome", "conversely", "adapted"], "answer": 0, "explanation_ar": "efficient = فعّال دون إهدار.", "explanation_en": "Efficient = no wasted time or effort."},
+    {"question": "\"I'd like to ___ my thanks to the whole team.\"", "choices": ["adapt", "convey", "enhance", "consequently"], "answer": 1, "explanation_ar": "convey = ينقل أو يعبّر عن.", "explanation_en": "Convey = communicate a feeling."},
+    {"question": "Which word gives the opposite point of view?", "choices": ["furthermore", "consequently", "conversely", "contribute"], "answer": 2, "explanation_ar": "conversely = على العكس.", "explanation_en": "Conversely = from the opposite view."},
+    {"question": "\"Everyone ___ some money for the gift.\"", "choices": ["adapted", "conveyed", "enhanced", "contributed"], "answer": 3, "explanation_ar": "contribute = يساهم بمال أو وقت.", "explanation_en": "Contribute = give money or time."},
+    {"question": "Which sentence is correct?", "choices": ["She adapted to her new school quickly.", "She adopted to her new school quickly.", "She adapted her new school to quickly.", "She adapt to her new school quickly yesterday."], "answer": 0, "explanation_ar": "adapt to = يتكيّف مع.", "explanation_en": "Adapt to = adjust to."},
+    {"question": "\"Furthermore\", \"consequently\" and \"conversely\" usually ___.", "choices": ["end a sentence", "start the second sentence with a comma", "come after \"the\"", "are nouns"], "answer": 1, "explanation_ar": "تأتي في بداية الجملة الثانية وبعدها فاصلة.", "explanation_en": "They start the second sentence, followed by a comma."}
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "title": "On the Plane",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "plane",
+        "pos": "noun",
+        "meaning_en": "a machine that flies and carries people",
+        "meaning_ar": "طائرة",
+        "note_ar": "أيضًا: airplane / aeroplane",
+        "note_en": "Also: airplane (US), aeroplane (UK).",
+        "example": "We are on the plane."
+      },
+      {
+        "word": "welcome aboard",
+        "pos": "phrase",
+        "meaning_en": "welcome onto the plane",
+        "meaning_ar": "مرحبًا بكم على متن الطائرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Welcome aboard!"
+      },
+      {
+        "word": "seat",
+        "pos": "noun",
+        "meaning_en": "a place to sit",
+        "meaning_ar": "مقعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please find your seat."
+      },
+      {
+        "word": "row",
+        "pos": "noun",
+        "meaning_en": "a line of seats",
+        "meaning_ar": "صفّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are in row 12."
+      },
+      {
+        "word": "take off",
+        "pos": "phrasal verb",
+        "meaning_en": "leave the ground and start flying",
+        "meaning_ar": "تُقلع",
+        "note_ar": "",
+        "note_en": "Noun: takeoff.",
+        "example": "We will take off soon."
+      },
+      {
+        "word": "seatbelt",
+        "pos": "noun",
+        "meaning_en": "a belt that keeps you safe in your seat",
+        "meaning_ar": "حزام الأمان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please fasten your seatbelts."
+      },
+      {
+        "word": "clouds",
+        "pos": "noun",
+        "meaning_en": "white or grey shapes in the sky",
+        "meaning_ar": "غيوم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look at the clouds!"
+      },
+      {
+        "word": "orange juice",
+        "pos": "noun",
+        "meaning_en": "a drink made from oranges",
+        "meaning_ar": "عصير برتقال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I would like orange juice, please."
+      },
+      {
+        "word": "ice",
+        "pos": "noun",
+        "meaning_en": "frozen water",
+        "meaning_ar": "ثلج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Just ice, please."
+      },
+      {
+        "word": "lemon",
+        "pos": "noun",
+        "meaning_en": "a yellow sour fruit",
+        "meaning_ar": "ليمون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ice and lemon?"
+      },
+      {
+        "word": "serve",
+        "pos": "verb",
+        "meaning_en": "give food or drink",
+        "meaning_ar": "يقدّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are serving lunch now."
+      },
+      {
+        "word": "full",
+        "pos": "adjective",
+        "meaning_en": "not hungry because you have eaten enough",
+        "meaning_ar": "شبعان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I feel full now."
+      },
+      {
+        "word": "land",
+        "pos": "verb",
+        "meaning_en": "come down to the ground (a plane)",
+        "meaning_ar": "تهبط",
+        "note_ar": "",
+        "note_en": "Noun: landing.",
+        "example": "We are ready to land."
+      },
+      {
+        "word": "remain seated",
+        "pos": "phrase",
+        "meaning_en": "stay in your seat",
+        "meaning_ar": "ابقوا في مقاعدكم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please remain seated until we stop."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "take off vs land",
+        "words": [
+          "take off",
+          "land"
+        ],
+        "explanation_ar": "take off = تُقلع الطائرة (تبدأ الطيران). land = تهبط (تنزل على الأرض).",
+        "explanation_en": "\"Take off\" = start flying. \"Land\" = come down to the ground.",
+        "examples": [
+          {
+            "word": "take off",
+            "sentence": "We will take off soon."
+          },
+          {
+            "word": "land",
+            "sentence": "We are ready to land."
+          }
+        ]
+      },
+      {
+        "title": "Here you are vs Here is",
+        "words": [
+          "Here you are",
+          "Here is"
+        ],
+        "explanation_ar": "Here you are تقال عند إعطاء شيء لشخص. Here is + الشيء تقدّم شيئًا محددًا.",
+        "explanation_en": "\"Here you are\" = when you give something. \"Here is ...\" names the thing.",
+        "examples": [
+          {
+            "word": "Here you are",
+            "sentence": "Sure, here you are."
+          },
+          {
+            "word": "Here is",
+            "sentence": "Here is your lunch!"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Welcome aboard! Please find your seat.",
+        "meaning_ar": "مرحبًا بكم على متن الطائرة! من فضلكم ابحثوا عن مقاعدكم.",
+        "meaning_en": "The flight attendant greets passengers.",
+        "example": "Welcome aboard! Your seat is in row 5."
+      },
+      {
+        "phrase": "Ladies and gentlemen, we will take off soon.",
+        "meaning_ar": "سيداتي وسادتي، سنقلع قريبًا.",
+        "meaning_en": "An announcement on the plane.",
+        "example": "Ladies and gentlemen, we will land in ten minutes."
+      },
+      {
+        "phrase": "Please fasten your seatbelts.",
+        "meaning_ar": "من فضلكم اربطوا أحزمة الأمان.",
+        "meaning_en": "A safety instruction.",
+        "example": "Please fasten your seatbelts and sit down."
+      },
+      {
+        "phrase": "I'm excited for this trip!",
+        "meaning_ar": "أنا متحمس لهذه الرحلة!",
+        "meaning_en": "You are happy about travelling.",
+        "example": "I'm excited for the holiday!"
+      },
+      {
+        "phrase": "What would you like to drink?",
+        "meaning_ar": "ماذا تريد أن تشرب؟",
+        "meaning_en": "Asking about drinks.",
+        "example": "What would you like to drink? Water, please."
+      },
+      {
+        "phrase": "Ice and lemon? / Just ice, please.",
+        "meaning_ar": "ثلج وليمون؟ / ثلج فقط من فضلك.",
+        "meaning_en": "Choosing extras for a drink.",
+        "example": "Sugar and milk? Just milk, please."
+      },
+      {
+        "phrase": "Would you like the chicken or the fish?",
+        "meaning_ar": "هل تريد الدجاج أم السمك؟",
+        "meaning_en": "Choosing a meal.",
+        "example": "Would you like rice or bread?"
+      },
+      {
+        "phrase": "I'll have the fish, please.",
+        "meaning_ar": "سآخذ السمك من فضلك.",
+        "meaning_en": "Ordering a meal.",
+        "example": "I'll take the chicken, please."
+      },
+      {
+        "phrase": "I feel full now.",
+        "meaning_ar": "أشعر بالشبع الآن.",
+        "meaning_en": "You have eaten enough.",
+        "example": "No more, thank you. I feel full."
+      },
+      {
+        "phrase": "Please remain seated until we stop.",
+        "meaning_ar": "من فضلكم ابقوا جالسين حتى نتوقف.",
+        "meaning_en": "A safety instruction.",
+        "example": "Please remain seated until the bus stops."
+      },
+      {
+        "phrase": "I can't wait to see the city!",
+        "meaning_ar": "لا أطيق الانتظار لرؤية المدينة!",
+        "meaning_en": "You are very excited.",
+        "example": "I can't wait to see my family!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite choices: Would you like A or B?",
+        "explanation_ar": "نعرض خيارين: Would you like + A + or + B? والجواب: I'll have ... / I'll take ...",
+        "explanation_en": "Offer two choices: \"Would you like A or B?\" Answer: \"I'll have ...\" / \"I'll take ...\".",
+        "examples": [
+          "Would you like the chicken or the fish?",
+          "I'll have the fish, please.",
+          "Would you like tea or coffee?"
+        ]
+      },
+      {
+        "title": "Present continuous for now: We are serving lunch",
+        "explanation_ar": "نستخدم am/is/are + ing لما يحدث الآن.",
+        "explanation_en": "Use am/is/are + -ing for what is happening now.",
+        "examples": [
+          "We are serving lunch now.",
+          "We are flying over the sea.",
+          "She is reading her book."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "When a plane leaves the ground, it ...",
+      "choices": [
+        "lands",
+        "takes off",
+        "remains",
+        "serves"
+      ],
+      "answer": 1,
+      "explanation_ar": "تُقلع: takes off.",
+      "explanation_en": "It takes off."
+    },
+    {
+      "question": "When a plane comes down to the ground, it ...",
+      "choices": [
+        "takes off",
+        "flies up",
+        "boards",
+        "lands"
+      ],
+      "answer": 3,
+      "explanation_ar": "تهبط: lands.",
+      "explanation_en": "It lands."
+    },
+    {
+      "question": "\"I feel full now.\" means ...",
+      "choices": [
+        "I have eaten enough.",
+        "I am very hungry.",
+        "I am tired.",
+        "The plane is full of people."
+      ],
+      "answer": 0,
+      "explanation_ar": "شبعان.",
+      "explanation_en": "I have eaten enough."
+    },
+    {
+      "question": "Would you like the chicken ____ the fish?",
+      "choices": [
+        "and",
+        "but",
+        "or",
+        "so"
+      ],
+      "answer": 2,
+      "explanation_ar": "للاختيار نستخدم or.",
+      "explanation_en": "Use \"or\" for a choice."
+    },
+    {
+      "question": "We ____ lunch now.",
+      "choices": [
+        "serve are",
+        "serving",
+        "are serving",
+        "is serve"
+      ],
+      "answer": 2,
+      "explanation_ar": "المضارع المستمر: are serving.",
+      "explanation_en": "Present continuous: are serving."
+    },
+    {
+      "question": "\"Ice and lemon?\" \"____\"",
+      "choices": [
+        "Just ice, please.",
+        "Row 12.",
+        "Welcome aboard.",
+        "We land soon."
+      ],
+      "answer": 0,
+      "explanation_ar": "الجواب عن إضافات المشروب.",
+      "explanation_en": "The answer is about drink extras."
+    },
+    {
+      "question": "A line of seats on a plane is a ...",
+      "choices": [
+        "gate",
+        "cloud",
+        "belt",
+        "row"
+      ],
+      "answer": 3,
+      "explanation_ar": "صف: row.",
+      "explanation_en": "A row."
+    },
+    {
+      "question": "Please ____ seated until we stop.",
+      "choices": [
+        "stay to",
+        "remain",
+        "sitting",
+        "rest on"
+      ],
+      "answer": 1,
+      "explanation_ar": "remain seated = ابقوا جالسين.",
+      "explanation_en": "\"Remain seated\" = stay in your seat."
+    },
+    {
+      "question": "\"Welcome aboard!\" is said ...",
+      "choices": [
+        "on the plane",
+        "at home",
+        "in a shop",
+        "at school"
+      ],
+      "answer": 0,
+      "explanation_ar": "تُقال على متن الطائرة.",
+      "explanation_en": "It is said on a plane."
+    },
+    {
+      "question": "When you give something, you can say:",
+      "choices": [
+        "Here are you.",
+        "There you are it.",
+        "Here you are.",
+        "You are here."
+      ],
+      "answer": 2,
+      "explanation_ar": "Here you are عند إعطاء شيء.",
+      "explanation_en": "\"Here you are\" when giving."
+    }
+  ]
+}

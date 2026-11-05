@@ -1,0 +1,449 @@
+{
+  "title": "Doing Customer Research",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "research",
+        "pos": "noun",
+        "meaning_en": "careful study to find out new facts",
+        "meaning_ar": "بحث / دراسة",
+        "note_ar": "do research وليس make research.",
+        "note_en": "Say do research, not make research.",
+        "example": "We need to do some research before we start."
+      },
+      {
+        "word": "customer survey",
+        "pos": "noun",
+        "meaning_en": "a set of questions asked to many customers to learn their opinions",
+        "meaning_ar": "استبيان العملاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We sent a customer survey to 200 shops."
+      },
+      {
+        "word": "questionnaire",
+        "pos": "noun",
+        "meaning_en": "a written list of questions",
+        "meaning_ar": "استبيان / قائمة أسئلة",
+        "note_ar": "تُنطق /ˌkwestʃəˈneə/.",
+        "note_en": "Pronounced /ˌkwestʃəˈneə/.",
+        "example": "Please fill in this short questionnaire."
+      },
+      {
+        "word": "opinion",
+        "pos": "noun",
+        "meaning_en": "what someone thinks about something",
+        "meaning_ar": "رأي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I ask for your opinion?"
+      },
+      {
+        "word": "develop",
+        "pos": "verb",
+        "meaning_en": "to create and improve a new product",
+        "meaning_ar": "يطوّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are hoping to develop a new product."
+      },
+      {
+        "word": "currently",
+        "pos": "adverb",
+        "meaning_en": "now; at the present time",
+        "meaning_ar": "حاليًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What products do you currently use?"
+      },
+      {
+        "word": "in the future",
+        "pos": "phrase",
+        "meaning_en": "at a time after now",
+        "meaning_ar": "في المستقبل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What would you like us to sell in the future?"
+      },
+      {
+        "word": "particular",
+        "pos": "adjective",
+        "meaning_en": "one specific thing",
+        "meaning_ar": "معيّن / محدّد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Any particular product you would like to see?"
+      },
+      {
+        "word": "launch",
+        "pos": "verb / noun",
+        "meaning_en": "to start selling a new product; the start of selling it",
+        "meaning_ar": "يطلق (منتجًا) / إطلاق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We will launch the product in spring."
+      },
+      {
+        "word": "competition",
+        "pos": "noun",
+        "meaning_en": "other companies that sell similar things",
+        "meaning_ar": "المنافسة / المنافسون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Check out the competition first."
+      },
+      {
+        "word": "costs",
+        "pos": "noun",
+        "meaning_en": "the money needed to make or do something",
+        "meaning_ar": "التكاليف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Work out the costs before you decide."
+      },
+      {
+        "word": "work out",
+        "pos": "phrasal verb",
+        "meaning_en": "to calculate or find the answer",
+        "meaning_ar": "يحسب / يستنتج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you work out the total cost?"
+      },
+      {
+        "word": "cold calling",
+        "pos": "noun",
+        "meaning_en": "phoning people you don't know to sell or ask questions",
+        "meaning_ar": "الاتصال بعملاء محتملين دون موعد مسبق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need to do some cold calling again."
+      },
+      {
+        "word": "business directory",
+        "pos": "noun",
+        "meaning_en": "a list or book of companies and their contact details",
+        "meaning_ar": "دليل الشركات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look them up in the business directory."
+      },
+      {
+        "word": "existing customers",
+        "pos": "noun",
+        "meaning_en": "people who already buy from you",
+        "meaning_ar": "العملاء الحاليون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Call our existing customers first."
+      },
+      {
+        "word": "contacts",
+        "pos": "noun",
+        "meaning_en": "people you know who can help you in business",
+        "meaning_ar": "معارف / جهات اتصال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Tom has loads of contacts."
+      },
+      {
+        "word": "database",
+        "pos": "noun",
+        "meaning_en": "organised information stored on a computer",
+        "meaning_ar": "قاعدة بيانات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I put all the information in a database."
+      },
+      {
+        "word": "spare",
+        "pos": "verb",
+        "meaning_en": "to give some of your time",
+        "meaning_ar": "يخصّص (وقتًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you spare a few minutes?"
+      },
+      {
+        "word": "range",
+        "pos": "noun",
+        "meaning_en": "a set of different products a company sells",
+        "meaning_ar": "تشكيلة منتجات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It would be a great addition to their range."
+      },
+      {
+        "word": "addition",
+        "pos": "noun",
+        "meaning_en": "something added",
+        "meaning_ar": "إضافة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This product is a great addition to our range."
+      },
+      {
+        "word": "confusion",
+        "pos": "noun",
+        "meaning_en": "when people don't understand each other",
+        "meaning_ar": "التباس / سوء فهم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I think there might be some confusion here."
+      },
+      {
+        "word": "keen",
+        "pos": "adjective",
+        "meaning_en": "wanting to do something; interested",
+        "meaning_ar": "متحمّس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Tom doesn't seem so keen."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "survey vs questionnaire",
+        "words": [
+          "survey",
+          "questionnaire"
+        ],
+        "explanation_ar": "survey هو الدراسة أو عملية جمع الآراء من أشخاص كثيرين. questionnaire هو قائمة الأسئلة نفسها المستخدمة في هذه الدراسة.",
+        "explanation_en": "A survey is the whole study of people's opinions. A questionnaire is the list of questions used in it.",
+        "examples": [
+          {
+            "word": "survey",
+            "sentence": "We did a customer survey last month."
+          },
+          {
+            "word": "questionnaire",
+            "sentence": "Please fill in this questionnaire."
+          }
+        ]
+      },
+      {
+        "title": "currently vs actually",
+        "words": [
+          "currently",
+          "actually"
+        ],
+        "explanation_ar": "currently تعني (حاليًا / الآن). أما actually فتعني (في الواقع / في الحقيقة) وليست (حاليًا)، وهذا خطأ شائع عند المتعلمين العرب.",
+        "explanation_en": "Currently means now. Actually means 'in fact', not 'now' – a common mistake.",
+        "examples": [
+          {
+            "word": "currently",
+            "sentence": "What products do you currently use?"
+          },
+          {
+            "word": "actually",
+            "sentence": "It's lemons, actually, not oranges."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Could I ask for your opinion on a new product we are hoping to develop?",
+        "meaning_ar": "هل يمكنني أن أسألك عن رأيك في منتج جديد نأمل في تطويره؟",
+        "meaning_en": "Politely starting a research call.",
+        "example": "Could I ask for your opinion on a new product we are hoping to develop?"
+      },
+      {
+        "phrase": "What plastic products do you currently use?",
+        "meaning_ar": "ما المنتجات البلاستيكية التي تستخدمونها حاليًا؟",
+        "meaning_en": "Asking about what customers use now.",
+        "example": "What office products do you currently use?"
+      },
+      {
+        "phrase": "What products would you like to see us sell in the future?",
+        "meaning_ar": "ما المنتجات التي تودّون أن نبيعها في المستقبل؟",
+        "meaning_en": "Asking about future needs.",
+        "example": "What products would you like to see us sell in the future?"
+      },
+      {
+        "phrase": "How do you feel about the idea of selling plastic vegetables?",
+        "meaning_ar": "ما شعورك تجاه فكرة بيع خضراوات بلاستيكية؟",
+        "meaning_en": "Asking for an opinion on a new idea.",
+        "example": "How do you feel about the idea of opening on Saturdays?"
+      },
+      {
+        "phrase": "Any particular vegetable you would like to see?",
+        "meaning_ar": "هل هناك نوع معيّن من الخضراوات تودّ أن تراه؟",
+        "meaning_en": "A short, informal follow-up question.",
+        "example": "Any particular colour you would like to see?"
+      },
+      {
+        "phrase": "Can you spare a few minutes to help me?",
+        "meaning_ar": "هل يمكنك أن تخصّص بضع دقائق لمساعدتي؟",
+        "meaning_en": "Asking for someone's time politely.",
+        "example": "Hello, can you spare a few minutes to help me with a short survey?"
+      },
+      {
+        "phrase": "I'll be as quick as I can.",
+        "meaning_ar": "سأكون سريعًا قدر الإمكان.",
+        "meaning_en": "Promising not to take much time.",
+        "example": "Thank you. I'll be as quick as I can."
+      },
+      {
+        "phrase": "Thanks for your time anyway.",
+        "meaning_ar": "شكرًا على وقتك على أي حال.",
+        "meaning_en": "Ending a call politely, even if it didn't help.",
+        "example": "Sorry, you're not the right company. Thanks for your time anyway."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Would like + to + verb / would like + object + to + verb",
+        "explanation_ar": "would like تعبير مهذب بمعنى (يودّ). نقول would like to + الفعل، أو would like + شخص + to + الفعل: What would you like us to sell? ومع see نقول would like to see us sell (بعد see يأتي الفعل بدون to).",
+        "explanation_en": "'Would like' is a polite way to say want: would like to + verb, or would like + person + to + verb: What would you like us to sell? After 'see us' use the base verb: like to see us sell.",
+        "examples": [
+          "What products would you like us to make?",
+          "What would you like to see us sell in the future?",
+          "I would like to ask you a few questions."
+        ]
+      },
+      {
+        "title": "How do you feel about + noun / verb-ing?",
+        "explanation_ar": "لسؤال شخص عن رأيه نقول How do you feel about + اسم أو فعل مع ing: How do you feel about the idea of selling…?",
+        "explanation_en": "To ask for an opinion use 'How do you feel about + noun / -ing?'",
+        "examples": [
+          "How do you feel about the idea of selling plastic vegetables?",
+          "How do you feel about working on Saturdays?",
+          "How do you feel about the new design?"
+        ]
+      },
+      {
+        "title": "Present continuous for plans: we are hoping to…",
+        "explanation_ar": "نستخدم المضارع المستمر للتحدث عن خطط ومشاريع جارية: a new product we are hoping to develop، we're trying to develop.",
+        "explanation_en": "Use the present continuous for ongoing plans and projects: a product we are hoping to develop.",
+        "examples": [
+          "We are hoping to develop a new product.",
+          "We're trying to get some opinions.",
+          "I'm doing some research this week."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How does Anna politely start her research call?",
+      "choices": [
+        "Buy our new product now!",
+        "Could I ask for your opinion on a new product we are hoping to develop?",
+        "Why don't you use plastic?",
+        "Who is your boss?"
+      ],
+      "answer": 1,
+      "explanation_ar": "هذه طريقة مهذبة لبدء مكالمة بحثية.",
+      "explanation_en": "This is a polite way to start a research call."
+    },
+    {
+      "question": "Complete: 'What plastic products do you ___ use?'",
+      "choices": [
+        "future",
+        "actually",
+        "particular",
+        "currently"
+      ],
+      "answer": 3,
+      "explanation_ar": "currently تعني حاليًا.",
+      "explanation_en": "Currently means now."
+    },
+    {
+      "question": "Complete: 'How do you feel about the idea of ___ plastic vegetables?'",
+      "choices": [
+        "selling",
+        "sell",
+        "to sell",
+        "sold"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد of نستخدم الفعل مع ing.",
+      "explanation_en": "After 'of' use the -ing form."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "What would you like that we sell?",
+        "What would you like us sell?",
+        "What would you like us to sell?",
+        "What would you like us selling to?"
+      ],
+      "answer": 2,
+      "explanation_ar": "would like + شخص + to + الفعل.",
+      "explanation_en": "would like + person + to + verb."
+    },
+    {
+      "question": "What is a questionnaire?",
+      "choices": [
+        "a database",
+        "a business directory",
+        "a written list of questions",
+        "a new product"
+      ],
+      "answer": 2,
+      "explanation_ar": "questionnaire قائمة أسئلة مكتوبة.",
+      "explanation_en": "A questionnaire is a list of questions."
+    },
+    {
+      "question": "'Existing customers' are…",
+      "choices": [
+        "people who already buy from you",
+        "people who have never heard of you",
+        "your competitors",
+        "your colleagues"
+      ],
+      "answer": 0,
+      "explanation_ar": "existing customers هم العملاء الحاليون.",
+      "explanation_en": "They already buy from you."
+    },
+    {
+      "question": "Which sentence means 'in fact'?",
+      "choices": [
+        "It's lemons, early.",
+        "It's lemons, currently.",
+        "It's lemons, particularly.",
+        "It's lemons, actually."
+      ],
+      "answer": 3,
+      "explanation_ar": "actually تعني في الواقع.",
+      "explanation_en": "Actually means 'in fact'."
+    },
+    {
+      "question": "What did the first company Anna called sell?",
+      "choices": [
+        "plastic vegetables",
+        "plastic toys for cats",
+        "plastic lemons",
+        "computers"
+      ],
+      "answer": 1,
+      "explanation_ar": "كانت الشركة تبيع ألعابًا بلاستيكية للقطط.",
+      "explanation_en": "They sold plastic toys for cats."
+    },
+    {
+      "question": "Complete: 'Can you ___ a few minutes to help me?'",
+      "choices": [
+        "spare",
+        "spend to",
+        "save",
+        "take to"
+      ],
+      "answer": 0,
+      "explanation_ar": "spare a few minutes: تخصيص بضع دقائق.",
+      "explanation_en": "'Spare a few minutes' means give some time."
+    },
+    {
+      "question": "The narrator's advice: before a survey, you should check…",
+      "choices": [
+        "your lunch",
+        "the weather",
+        "what type of business you are calling",
+        "the time in France"
+      ],
+      "answer": 2,
+      "explanation_ar": "النصيحة: تأكد من نوع الشركة قبل إجراء الاستبيان.",
+      "explanation_en": "Check what type of business you are calling."
+    }
+  ]
+}

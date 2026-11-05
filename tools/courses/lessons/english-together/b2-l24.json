@@ -1,0 +1,393 @@
+{
+  "title": "At the Barbershop",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "barbershop",
+        "pos": "noun",
+        "meaning_en": "a shop where men get their hair cut",
+        "meaning_ar": "محل حلاقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Welcome to the City Barbershop."
+      },
+      {
+        "word": "barber",
+        "pos": "noun",
+        "meaning_en": "a person who cuts men's hair",
+        "meaning_ar": "حلاق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The barber is very friendly."
+      },
+      {
+        "word": "haircut",
+        "pos": "noun",
+        "meaning_en": "cutting hair",
+        "meaning_ar": "قصّة شعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want a haircut."
+      },
+      {
+        "word": "shave",
+        "pos": "noun / verb",
+        "meaning_en": "cutting hair from the face very close to the skin",
+        "meaning_ar": "حلاقة (الذقن) / يحلق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I would like a clean shave."
+      },
+      {
+        "word": "look",
+        "pos": "noun",
+        "meaning_en": "the way someone appears; a style",
+        "meaning_ar": "مظهر / إطلالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want a modern look."
+      },
+      {
+        "word": "fade",
+        "pos": "noun",
+        "meaning_en": "a haircut that is very short at the bottom and gets longer on top",
+        "meaning_ar": "قصّة متدرّجة (فيد)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I get a fade on the sides?"
+      },
+      {
+        "word": "clippers",
+        "pos": "noun",
+        "meaning_en": "an electric tool for cutting hair short",
+        "meaning_ar": "ماكينة الحلاقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will use the clippers."
+      },
+      {
+        "word": "beard",
+        "pos": "noun",
+        "meaning_en": "hair on a man's chin and cheeks",
+        "meaning_ar": "لحية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He has a long beard."
+      },
+      {
+        "word": "smooth",
+        "pos": "adjective",
+        "meaning_en": "soft and even, with no hair or bumps",
+        "meaning_ar": "ناعم / أملس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My face feels so smooth."
+      },
+      {
+        "word": "towel",
+        "pos": "noun",
+        "meaning_en": "a piece of cloth for drying",
+        "meaning_ar": "منشفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Would you like a hot towel?"
+      },
+      {
+        "word": "mirror",
+        "pos": "noun",
+        "meaning_en": "glass where you can see yourself",
+        "meaning_ar": "مرآة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look in the mirror."
+      },
+      {
+        "word": "gel",
+        "pos": "noun",
+        "meaning_en": "a thick product to style hair",
+        "meaning_ar": "جل الشعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can add some gel."
+      },
+      {
+        "word": "stylish",
+        "pos": "adjective",
+        "meaning_en": "fashionable and attractive",
+        "meaning_ar": "أنيق / عصري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My hair looks stylish."
+      },
+      {
+        "word": "mint",
+        "pos": "noun",
+        "meaning_en": "a plant with a fresh smell and taste",
+        "meaning_ar": "نعناع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The gel smells like fresh mint."
+      },
+      {
+        "word": "service",
+        "pos": "noun",
+        "meaning_en": "the work a shop does for customers",
+        "meaning_ar": "خدمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for the excellent service."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "short vs long",
+        "words": [
+          "short",
+          "long"
+        ],
+        "explanation_ar": "short = قصير. long = طويل. Short on the sides and long on the top = قصير على الجانبين وطويل في الأعلى.",
+        "explanation_en": "\"Short\" is not long. \"Short on the sides, long on top\" is a common haircut.",
+        "examples": [
+          {
+            "word": "short",
+            "sentence": "Make it short on the sides."
+          },
+          {
+            "word": "long",
+            "sentence": "Keep it long on the top."
+          }
+        ]
+      },
+      {
+        "title": "feel vs look vs smell",
+        "words": [
+          "feels",
+          "looks",
+          "smells"
+        ],
+        "explanation_ar": "feels = الإحساس باللمس. looks = الشكل. smells = الرائحة.",
+        "explanation_en": "\"Feels\" = touch. \"Looks\" = eyes. \"Smells\" = nose.",
+        "examples": [
+          {
+            "word": "feels",
+            "sentence": "My face feels smooth."
+          },
+          {
+            "word": "looks",
+            "sentence": "The fade looks great."
+          },
+          {
+            "word": "smells",
+            "sentence": "The gel smells like mint."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How can I help you today?",
+        "meaning_ar": "كيف يمكنني مساعدتك اليوم؟",
+        "meaning_en": "The barber greets you.",
+        "example": "Hello! How can I help you today?"
+      },
+      {
+        "phrase": "I want a haircut and a shave.",
+        "meaning_ar": "أريد قص شعري وحلاقة ذقني.",
+        "meaning_en": "Saying what you want.",
+        "example": "I just want a haircut, please."
+      },
+      {
+        "phrase": "Please sit in this chair.",
+        "meaning_ar": "من فضلك اجلس على هذا الكرسي.",
+        "meaning_en": "Asking the customer to sit.",
+        "example": "Please sit in this chair. It won't take long."
+      },
+      {
+        "phrase": "What kind of haircut do you want?",
+        "meaning_ar": "أي نوع من القصات تريد؟",
+        "meaning_en": "Asking about the style.",
+        "example": "What kind of haircut do you want today?"
+      },
+      {
+        "phrase": "Make it short on the sides and long on the top.",
+        "meaning_ar": "اجعله قصيرًا على الجانبين وطويلًا في الأعلى.",
+        "meaning_en": "Explaining the style.",
+        "example": "Make it short on the back, please."
+      },
+      {
+        "phrase": "Do you want a wash too?",
+        "meaning_ar": "هل تريد غسل الشعر أيضًا؟",
+        "meaning_en": "Offering another service.",
+        "example": "Do you want a wash too? No, thank you."
+      },
+      {
+        "phrase": "Look at the mirror. / Take a look now.",
+        "meaning_ar": "انظر في المرآة. / ألقِ نظرة الآن.",
+        "meaning_en": "Asking the customer to check.",
+        "example": "It's finished. Take a look now."
+      },
+      {
+        "phrase": "I am glad you like it.",
+        "meaning_ar": "أنا سعيد أنه أعجبك.",
+        "meaning_en": "Answering a happy customer.",
+        "example": "\"This is perfect!\" \"I am glad you like it.\""
+      },
+      {
+        "phrase": "Would you like me to do that?",
+        "meaning_ar": "هل تريدني أن أفعل ذلك؟",
+        "meaning_en": "Offering to do something.",
+        "example": "I can add some gel. Would you like me to do that?"
+      },
+      {
+        "phrase": "Thank you for the excellent service today.",
+        "meaning_ar": "شكرًا على الخدمة الممتازة اليوم.",
+        "meaning_en": "Thanking the barber.",
+        "example": "Thank you for the excellent service."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "make + object + adjective",
+        "explanation_ar": "نستخدم make + الشيء + صفة لنقول كيف نريد أن يصبح: Make it short.",
+        "explanation_en": "Use \"make + object + adjective\" to say how you want something to become.",
+        "examples": [
+          "Make it short on the sides.",
+          "I will make your face smooth.",
+          "The gel makes my hair look fresh."
+        ]
+      },
+      {
+        "title": "Would you like (me to) ...?",
+        "explanation_ar": "لعرض شيء: Would you like a hot towel? ولعرض أن تفعل شيئًا: Would you like me to + فعل?",
+        "explanation_en": "Offer a thing: \"Would you like a hot towel?\" Offer to do something: \"Would you like me to + verb?\"",
+        "examples": [
+          "Would you like a hot towel?",
+          "Would you like me to do that?",
+          "Would you like me to style your hair?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A \"barbershop\" is a place where men ...",
+      "choices": [
+        "buy food",
+        "get their hair cut",
+        "send letters",
+        "buy clothes"
+      ],
+      "answer": 1,
+      "explanation_ar": "محل حلاقة الرجال.",
+      "explanation_en": "Men get haircuts there."
+    },
+    {
+      "question": "I will use the ____ for that. (an electric tool for short hair)",
+      "choices": [
+        "mirror",
+        "towel",
+        "gel",
+        "clippers"
+      ],
+      "answer": 3,
+      "explanation_ar": "الماكينة: clippers.",
+      "explanation_en": "Clippers cut hair short."
+    },
+    {
+      "question": "My face feels so ____. (no hair, soft)",
+      "choices": [
+        "smooth",
+        "long",
+        "hot",
+        "modern"
+      ],
+      "answer": 0,
+      "explanation_ar": "ناعم: smooth.",
+      "explanation_en": "Smooth = soft and even."
+    },
+    {
+      "question": "____ it short on the sides.",
+      "choices": [
+        "Do",
+        "Have",
+        "Make",
+        "Take"
+      ],
+      "answer": 2,
+      "explanation_ar": "make + الشيء + صفة.",
+      "explanation_en": "make + object + adjective."
+    },
+    {
+      "question": "Would you like ____ to do that?",
+      "choices": [
+        "I",
+        "my",
+        "me",
+        "mine"
+      ],
+      "answer": 2,
+      "explanation_ar": "الإجابة الصحيحة: Would you like me to.",
+      "explanation_en": "We say \"Would you like me to ...?\""
+    },
+    {
+      "question": "The gel ____ like fresh mint.",
+      "choices": [
+        "smells",
+        "looks",
+        "feels",
+        "sounds"
+      ],
+      "answer": 0,
+      "explanation_ar": "الرائحة: smells.",
+      "explanation_en": "For the nose: smells."
+    },
+    {
+      "question": "\"Do you want a wash too?\" \"____\"",
+      "choices": [
+        "It's twenty dollars.",
+        "Look at the mirror.",
+        "A fade, please.",
+        "No, thank you."
+      ],
+      "answer": 3,
+      "explanation_ar": "الرد بنعم أو لا.",
+      "explanation_en": "Answer yes or no."
+    },
+    {
+      "question": "You use ____ to style your hair.",
+      "choices": [
+        "a towel",
+        "gel",
+        "a mirror",
+        "a beard"
+      ],
+      "answer": 1,
+      "explanation_ar": "الجل لتصفيف الشعر.",
+      "explanation_en": "Gel styles hair."
+    },
+    {
+      "question": "The haircut is $20 and the gel is $10. The total is ...",
+      "choices": [
+        "$30",
+        "$10",
+        "$20",
+        "$40"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: 20 + 10 = 30.",
+      "explanation_en": "20 + 10 = 30."
+    },
+    {
+      "question": "\"Stylish\" means ...",
+      "choices": [
+        "old and dirty",
+        "wet",
+        "fashionable",
+        "very long"
+      ],
+      "answer": 2,
+      "explanation_ar": "stylish أنيق وعصري.",
+      "explanation_en": "Stylish = fashionable."
+    }
+  ]
+}

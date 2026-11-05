@@ -1,0 +1,294 @@
+{
+  "title": "Wash your face",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "wash",
+        "pos": "verb",
+        "meaning_en": "clean with water",
+        "meaning_ar": "يغسل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wash your face."
+      },
+      {
+        "word": "face",
+        "pos": "noun",
+        "meaning_en": "the front of your head",
+        "meaning_ar": "وجه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wash your face, Wolfy."
+      },
+      {
+        "word": "brush",
+        "pos": "verb",
+        "meaning_en": "clean or make tidy with a brush",
+        "meaning_ar": "يفرّش / يمشّط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Brush your teeth."
+      },
+      {
+        "word": "teeth",
+        "pos": "noun",
+        "meaning_en": "the hard white things in your mouth",
+        "meaning_ar": "أسنان",
+        "note_ar": "المفرد tooth والجمع teeth",
+        "note_en": "Singular: tooth. Plural: teeth.",
+        "example": "Brush your teeth every morning."
+      },
+      {
+        "word": "hair",
+        "pos": "noun",
+        "meaning_en": "what grows on your head",
+        "meaning_ar": "شَعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Brush your hair."
+      },
+      {
+        "word": "hurry up",
+        "pos": "phrasal verb",
+        "meaning_en": "be quick",
+        "meaning_ar": "أسرِع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hurry up! It's late."
+      },
+      {
+        "word": "goodbye",
+        "pos": "interjection",
+        "meaning_en": "what you say when you leave",
+        "meaning_ar": "مع السلامة / وداعًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Goodbye, Mom!"
+      },
+      {
+        "word": "eight",
+        "pos": "number",
+        "meaning_en": "the number 8",
+        "meaning_ar": "ثمانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's eight o'clock."
+      },
+      {
+        "word": "ouch",
+        "pos": "interjection",
+        "meaning_en": "said when something hurts",
+        "meaning_ar": "آه! (عند الألم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ouch! My hand!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "brush your teeth vs brush your hair",
+        "words": [
+          "teeth",
+          "hair"
+        ],
+        "explanation_ar": "نستخدم الفعل brush مع الأسنان (تنظيف بالفرشاة) ومع الشعر (تمشيط).",
+        "explanation_en": "We use \"brush\" for teeth (to clean them) and for hair (to make it tidy).",
+        "examples": [
+          {
+            "word": "teeth",
+            "sentence": "Brush your teeth after breakfast."
+          },
+          {
+            "word": "hair",
+            "sentence": "Brush your hair before school."
+          }
+        ]
+      },
+      {
+        "title": "tooth vs teeth",
+        "words": [
+          "tooth",
+          "teeth"
+        ],
+        "explanation_ar": "tooth سنّ واحدة، و teeth أسنان (جمع غير قياسي).",
+        "explanation_en": "One tooth, many teeth.",
+        "examples": [
+          {
+            "word": "tooth",
+            "sentence": "My tooth hurts."
+          },
+          {
+            "word": "teeth",
+            "sentence": "Brush your teeth."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Wash your face.",
+        "meaning_ar": "اغسل وجهك.",
+        "meaning_en": "Clean your face with water.",
+        "example": "Wake up! Wash your face."
+      },
+      {
+        "phrase": "Brush your teeth.",
+        "meaning_ar": "نظّف أسنانك بالفرشاة.",
+        "meaning_en": "Clean your teeth.",
+        "example": "Brush your teeth before bed."
+      },
+      {
+        "phrase": "Brush your hair.",
+        "meaning_ar": "مشّط شعرك.",
+        "meaning_en": "Make your hair tidy.",
+        "example": "Brush your hair, Wolfy!"
+      },
+      {
+        "phrase": "Hurry up!",
+        "meaning_ar": "أسرِع!",
+        "meaning_en": "Be quick.",
+        "example": "Hurry up! It's late."
+      },
+      {
+        "phrase": "Oh, it's late. Goodbye!",
+        "meaning_ar": "أوه، تأخّر الوقت. مع السلامة!",
+        "meaning_en": "Leaving quickly because it's late.",
+        "example": "Oh, it's late. Goodbye, Mom!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Instructions with your: Wash your face",
+        "explanation_ar": "نعطي تعليمات بالفعل في البداية ثم your + جزء الجسم: Wash your face. Brush your teeth.",
+        "explanation_en": "Give instructions: verb + your + body part. Wash your face. Brush your teeth.",
+        "examples": [
+          "Wash your face.",
+          "Brush your teeth.",
+          "Brush your hair."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "You use water to clean your face. ___ your face.",
+      "choices": [
+        "Wash",
+        "Brush",
+        "Hurry",
+        "Come"
+      ],
+      "answer": 0,
+      "explanation_ar": "نغسل الوجه: Wash your face.",
+      "explanation_en": "We wash our face."
+    },
+    {
+      "question": "Brush your ___. (in your mouth)",
+      "choices": [
+        "hair",
+        "teeth",
+        "face",
+        "hands"
+      ],
+      "answer": 1,
+      "explanation_ar": "الأسنان في الفم: teeth.",
+      "explanation_en": "Teeth are in your mouth."
+    },
+    {
+      "question": "Brush your ___. (on your head)",
+      "choices": [
+        "teeth",
+        "face",
+        "hair",
+        "eyes"
+      ],
+      "answer": 2,
+      "explanation_ar": "الشعر على الرأس: hair.",
+      "explanation_en": "Hair is on your head."
+    },
+    {
+      "question": "It's late! ___!",
+      "choices": [
+        "Hurry up",
+        "Sit down",
+        "Ouch",
+        "Nice to meet you"
+      ],
+      "answer": 0,
+      "explanation_ar": "عند التأخر نقول Hurry up!",
+      "explanation_en": "When it's late, say \"Hurry up!\""
+    },
+    {
+      "question": "One tooth, two ___.",
+      "choices": [
+        "tooths",
+        "teeths",
+        "toothes",
+        "teeth"
+      ],
+      "answer": 3,
+      "explanation_ar": "جمع tooth هو teeth.",
+      "explanation_en": "The plural of tooth is teeth."
+    },
+    {
+      "question": "Something hurts you. You say: ___",
+      "choices": [
+        "Goodbye!",
+        "Ouch!",
+        "Wow!",
+        "Thanks!"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول Ouch! عند الألم.",
+      "explanation_en": "Say \"Ouch!\" when it hurts."
+    },
+    {
+      "question": "You leave the house. You say: ___",
+      "choices": [
+        "Hello!",
+        "Wake up!",
+        "Goodbye!",
+        "Come here!"
+      ],
+      "answer": 2,
+      "explanation_ar": "عند المغادرة نقول Goodbye.",
+      "explanation_en": "Say \"Goodbye\" when you leave."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Brush you teeth.",
+        "Your brush teeth.",
+        "Brush your teeth.",
+        "Brushing teeth your."
+      ],
+      "answer": 2,
+      "explanation_ar": "الصحيح Brush your teeth.",
+      "explanation_en": "Correct: Brush your teeth."
+    },
+    {
+      "question": "\"face\" in Arabic is ___.",
+      "choices": [
+        "وجه",
+        "يد",
+        "شعر",
+        "سن"
+      ],
+      "answer": 0,
+      "explanation_ar": "face = وجه.",
+      "explanation_en": "face = the front of your head."
+    },
+    {
+      "question": "What time is it? - It's ___ o'clock. (8:00)",
+      "choices": [
+        "eight",
+        "eighty",
+        "ate",
+        "nine"
+      ],
+      "answer": 0,
+      "explanation_ar": "الرقم 8 = eight.",
+      "explanation_en": "8 = eight."
+    }
+  ]
+}

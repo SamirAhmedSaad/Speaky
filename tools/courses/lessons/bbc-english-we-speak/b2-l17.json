@@ -1,0 +1,390 @@
+{
+ "title": "Two-word expressions 3",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "notch",
+    "pos": "noun",
+    "meaning_en": "a small V-shaped cut; a level",
+    "meaning_ar": "حزّ، شقّ؛ درجة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He cut a notch in the stick."
+   },
+   {
+    "word": "quality",
+    "pos": "noun",
+    "meaning_en": "how good or bad something is",
+    "meaning_ar": "جودة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These shoes are good quality."
+   },
+   {
+    "word": "standard",
+    "pos": "noun",
+    "meaning_en": "a level of quality",
+    "meaning_ar": "مستوى",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The hotel has a high standard."
+   },
+   {
+    "word": "productivity",
+    "pos": "noun",
+    "meaning_en": "how much work someone produces",
+    "meaning_ar": "إنتاجية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Short breaks can improve productivity."
+   },
+   {
+    "word": "theatre",
+    "pos": "noun",
+    "meaning_en": "a building for plays; (figurative) behaviour that is just for show",
+    "meaning_ar": "مسرح؛ تمثيل واستعراض",
+    "note_ar": "في أمريكا: theater.",
+    "note_en": "US spelling: theater.",
+    "example": "We saw a play at the theatre."
+   },
+   {
+    "word": "insincere",
+    "pos": "adjective",
+    "meaning_en": "pretending to feel something you don't",
+    "meaning_ar": "غير صادق، متصنّع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "His smile seemed insincere."
+   },
+   {
+    "word": "drip",
+    "pos": "verb",
+    "meaning_en": "to fall in small drops",
+    "meaning_ar": "يقطر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Water is dripping from the tap."
+   },
+   {
+    "word": "gradually",
+    "pos": "adverb",
+    "meaning_en": "slowly, little by little",
+    "meaning_ar": "تدريجياً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The weather gradually got warmer."
+   },
+   {
+    "word": "downhill",
+    "pos": "adverb",
+    "meaning_en": "towards the bottom of a hill",
+    "meaning_ar": "نزولاً، إلى أسفل التل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Cycling downhill is easy."
+   },
+   {
+    "word": "neutral",
+    "pos": "adjective",
+    "meaning_en": "not good and not bad; not taking sides",
+    "meaning_ar": "محايد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Grey is a neutral colour."
+   },
+   {
+    "word": "warning",
+    "pos": "noun",
+    "meaning_en": "something that tells you about possible danger",
+    "meaning_ar": "تحذير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The red light is a warning."
+   },
+   {
+    "word": "botch",
+    "pos": "verb",
+    "meaning_en": "to do a job badly and carelessly",
+    "meaning_ar": "يُفسد العمل، يُنجزه بإهمال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He botched the repair and the tap still leaks."
+   },
+   {
+    "word": "careless",
+    "pos": "adjective",
+    "meaning_en": "not paying enough attention, so you make mistakes",
+    "meaning_ar": "مهمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "A careless mistake cost us the match."
+   },
+   {
+    "word": "quote",
+    "pos": "verb",
+    "meaning_en": "to repeat the exact words someone said or wrote",
+    "meaning_ar": "يقتبس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The article quoted the minister."
+   },
+   {
+    "word": "bonus",
+    "pos": "noun",
+    "meaning_en": "extra money added to your pay",
+    "meaning_ar": "مكافأة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We got a bonus at the end of the year."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "all downhill: two meanings",
+    "words": [
+     "all downhill (easier)",
+     "all downhill (worse)"
+    ],
+    "explanation_ar": "be all downhill (from here) قد تعني أن الأمور ستصبح أسهل من الآن (كالنزول على دراجة). لكن go downhill / it's all downhill from there قد تعني أيضاً أن الأمور تسوء تدريجياً. السياق يحدد المعنى.",
+    "explanation_en": "'It's all downhill from here' can mean things will be easier now, like riding a bike downhill. But 'it went downhill' / 'it was all downhill from there' can mean things got worse. The context tells you.",
+    "examples": [
+     {
+      "word": "all downhill (easier)",
+      "sentence": "The hardest exam is finished – it's all downhill from here."
+     },
+     {
+      "word": "all downhill (worse)",
+      "sentence": "The match started well, but it was all downhill after the first goal."
+     }
+    ]
+   },
+   {
+    "title": "beige flag vs red flag vs green flag",
+    "words": [
+     "beige flag",
+     "red flag",
+     "green flag"
+    ],
+    "explanation_ar": "red flag = علامة تحذير من شيء سيئ. green flag = علامة إيجابية مطمئنة. beige flag = عادة غريبة أو مملة قليلاً، ليست سيئة ولا جيدة (محايدة).",
+    "explanation_en": "A 'red flag' is a warning sign. A 'green flag' is a good sign. A 'beige flag' is a slightly strange or boring habit – not good, not bad, just neutral.",
+    "examples": [
+     {
+      "word": "red flag",
+      "sentence": "A job that asks for money first is a red flag."
+     },
+     {
+      "word": "green flag",
+      "sentence": "A friend who listens to you is a green flag."
+     },
+     {
+      "word": "beige flag",
+      "sentence": "He irons his socks – that's a beige flag."
+     }
+    ]
+   },
+   {
+    "title": "top-notch vs botch job",
+    "words": [
+     "top-notch",
+     "botch job"
+    ],
+    "explanation_ar": "top-notch = جودة عالية جداً، ممتاز. botch job = عمل رديء أُنجز بإهمال. هما عكس بعضهما.",
+    "explanation_en": "'Top-notch' means excellent, very high quality. A 'botch job' is work done badly and carelessly. They are opposites.",
+    "examples": [
+     {
+      "word": "top-notch",
+      "sentence": "The service in this hotel is top-notch."
+     },
+     {
+      "word": "botch job",
+      "sentence": "The painter did a botch job – there's paint on the windows."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "top-notch",
+    "meaning_ar": "ممتاز، عالي الجودة",
+    "meaning_en": "excellent; of very high quality",
+    "example": "The food at the school fair was top-notch."
+   },
+   {
+    "phrase": "happy days",
+    "meaning_ar": "رائع! (رد على خبر سعيد)",
+    "meaning_en": "informal: said in reply to good news",
+    "example": "We've got Monday off? Happy days!"
+   },
+   {
+    "phrase": "productivity theatre",
+    "meaning_ar": "التظاهر بالانشغال في العمل دون إنتاج حقيقي",
+    "meaning_en": "pretending to be busy at work without doing much real work",
+    "example": "Typing loudly and walking around with papers is just productivity theatre."
+   },
+   {
+    "phrase": "drip-feed",
+    "meaning_ar": "يعطي شيئاً على دفعات صغيرة تدريجياً",
+    "meaning_en": "to give something in small amounts, little by little",
+    "example": "The company is drip-feeding information about the new phone."
+   },
+   {
+    "phrase": "(be) all downhill (from here)",
+    "meaning_ar": "ستصبح الأمور أسهل من الآن؛ أو: ستسوء الأمور",
+    "meaning_en": "things will be easier from now; or, things will get worse",
+    "example": "The hardest part is done – it's all downhill from here."
+   },
+   {
+    "phrase": "beige flag",
+    "meaning_ar": "عادة غريبة أو مملة قليلاً، ليست سيئة ولا جيدة",
+    "meaning_en": "a slightly strange or boring habit that is neither good nor bad",
+    "example": "Eating pizza with a knife and fork is my beige flag."
+   },
+   {
+    "phrase": "botch job",
+    "meaning_ar": "عمل رديء أُنجز بإهمال",
+    "meaning_en": "a piece of work done badly and carelessly",
+    "example": "The new shelf fell down – what a botch job!"
+   },
+   {
+    "phrase": "quote ... unquote",
+    "meaning_ar": "تُقال لتوضيح أنك تنقل كلام غيرك حرفياً (وأحياناً بسخرية)",
+    "meaning_en": "used to show you are repeating someone's exact words, sometimes doubtfully",
+    "example": "He said he was, quote, unquote, 'too busy' to help."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Hyphens: adjective before a noun vs after a verb",
+    "explanation_ar": "التعابير المركّبة تأخذ شرطة عندما تأتي قبل الاسم كصفة: a top-notch hotel، a drip-feed approach. وبعد فعل be نكتبها غالباً بشرطة أيضاً إن كانت صفة ثابتة: The hotel is top-notch. أما الاسم botch job فيُكتب منفصلاً: a botch job.",
+    "explanation_en": "Compound adjectives take a hyphen before a noun: a top-notch hotel. Some keep the hyphen after 'be' too: The hotel is top-notch. The noun 'botch job' is written as two words.",
+    "examples": [
+     "a top-notch teacher",
+     "The service is top-notch.",
+     "It was a botch job."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "'The service was top-notch.' The service was...",
+   "choices": [
+    "very bad",
+    "excellent",
+    "slow",
+    "expensive"
+   ],
+   "answer": 1,
+   "explanation_ar": "top-notch = ممتاز.",
+   "explanation_en": "'Top-notch' means excellent."
+  },
+  {
+   "question": "'We're all getting a bonus!' – '___!'",
+   "choices": [
+    "Botch job",
+    "Beige flag",
+    "Happy days",
+    "Quote unquote"
+   ],
+   "answer": 2,
+   "explanation_ar": "happy days = رد على خبر سعيد.",
+   "explanation_en": "'Happy days' is a reply to good news."
+  },
+  {
+   "question": "She looks busy all day but finishes nothing. It's ___.",
+   "choices": [
+    "productivity theatre",
+    "a green flag",
+    "top-notch",
+    "drip-feed"
+   ],
+   "answer": 0,
+   "explanation_ar": "productivity theatre = التظاهر بالانشغال.",
+   "explanation_en": "It means pretending to be busy."
+  },
+  {
+   "question": "The builder did a quick, careless repair. It was a ___.",
+   "choices": [
+    "happy day",
+    "beige flag",
+    "top notch",
+    "botch job"
+   ],
+   "answer": 3,
+   "explanation_ar": "botch job = عمل رديء.",
+   "explanation_en": "A 'botch job' is careless work."
+  },
+  {
+   "question": "'The hard part is over – it's all downhill from here.' This means...",
+   "choices": [
+    "things will be easier now",
+    "we must walk down a hill",
+    "we will fail",
+    "it's the end of the day"
+   ],
+   "answer": 0,
+   "explanation_ar": "all downhill هنا = ستصبح الأمور أسهل.",
+   "explanation_en": "Here 'all downhill' means things will be easier."
+  },
+  {
+   "question": "The school gives us the exam results ___, one subject each day.",
+   "choices": [
+    "top-notch",
+    "drip-fed",
+    "botched",
+    "happy days"
+   ],
+   "answer": 1,
+   "explanation_ar": "drip-feed = يعطي على دفعات صغيرة.",
+   "explanation_en": "'Drip-feed' means give little by little."
+  },
+  {
+   "question": "Which habit is a 'beige flag'?",
+   "choices": [
+    "lying to friends",
+    "helping your neighbours",
+    "always wearing the same colour socks",
+    "stealing"
+   ],
+   "answer": 2,
+   "explanation_ar": "beige flag = عادة غريبة لكنها ليست سيئة.",
+   "explanation_en": "A 'beige flag' is a strange but harmless habit."
+  },
+  {
+   "question": "'He said he was, quote, unquote, \"working from home\".' The speaker...",
+   "choices": [
+    "is repeating his exact words with doubt",
+    "is asking a question",
+    "is happy",
+    "is making a promise"
+   ],
+   "answer": 0,
+   "explanation_ar": "quote unquote = نقل كلام حرفي، وأحياناً بشك.",
+   "explanation_en": "'Quote unquote' repeats exact words, often doubtfully."
+  },
+  {
+   "question": "Which is the opposite of 'top-notch'?",
+   "choices": [
+    "happy days",
+    "green flag",
+    "productivity",
+    "a botch job"
+   ],
+   "answer": 3,
+   "explanation_ar": "botch job عكس top-notch.",
+   "explanation_en": "A 'botch job' is the opposite of top-notch."
+  },
+  {
+   "question": "Which sentence is correct?",
+   "choices": [
+    "a top notch's hotel",
+    "a top-notch hotel",
+    "a hotel top-notch's",
+    "an top-notch hotel"
+   ],
+   "answer": 1,
+   "explanation_ar": "قبل الاسم: a top-notch hotel.",
+   "explanation_en": "Before a noun: a top-notch hotel."
+  }
+ ]
+}

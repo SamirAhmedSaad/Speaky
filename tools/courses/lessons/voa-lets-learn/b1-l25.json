@@ -1,0 +1,81 @@
+{
+  "title": "Watch Out!",
+  "content": {
+    "vocabulary": [
+      {"word": "monument", "pos": "noun", "meaning_en": "a building or statue made to remember a person or event", "meaning_ar": "نُصب تذكاري", "note_ar": "", "note_en": "", "example": "The Washington Monument is very tall."},
+      {"word": "memorial", "pos": "noun", "meaning_en": "a place or object that helps people remember someone who died", "meaning_ar": "نُصب أو مَعلم تذكاري", "note_ar": "يأتي من الفعل remember والاسم memory.", "note_en": "Related to remember and memory.", "example": "We visited the Lincoln Memorial."},
+      {"word": "in memory of", "pos": "phrase", "meaning_en": "to remember a person who has died", "meaning_ar": "تخليدًا لذكرى", "note_ar": "", "note_en": "", "example": "They planted a tree in memory of their grandfather."},
+      {"word": "president", "pos": "noun", "meaning_en": "the leader of a country like the U.S.", "meaning_ar": "رئيس (دولة)", "note_ar": "", "note_en": "", "example": "Thomas Jefferson was a U.S. president."},
+      {"word": "learn", "pos": "verb", "meaning_en": "to get new knowledge", "meaning_ar": "يتعلّم", "note_ar": "learn about = يتعلّم عن.", "note_en": "learn about something.", "example": "I want to learn more about history."},
+      {"word": "watch out", "pos": "phrasal verb", "meaning_en": "be careful! (a warning about danger)", "meaning_ar": "انتبه! / احترس!", "note_ar": "", "note_en": "", "example": "Watch out! The floor is wet."},
+      {"word": "careful", "pos": "adjective", "meaning_en": "giving attention so you do not have problems or accidents", "meaning_ar": "حذِر / منتبه", "note_ar": "عكسها careless. الظرف: carefully.", "note_en": "Opposite: careless. Adverb: carefully.", "example": "Be careful when you cross the street."},
+      {"word": "game", "pos": "noun", "meaning_en": "an activity with rules that you play for fun", "meaning_ar": "لعبة", "note_ar": "", "note_en": "", "example": "This game is really fun."},
+      {"word": "scavenger hunt", "pos": "noun", "meaning_en": "a game where you look for a list of things", "meaning_ar": "لعبة البحث عن الأشياء (البحث عن الكنز)", "note_ar": "", "note_en": "", "example": "The children had a scavenger hunt in the garden."},
+      {"word": "symbol", "pos": "noun", "meaning_en": "a picture or thing that represents an idea", "meaning_ar": "رمز", "note_ar": "", "note_en": "", "example": "The bald eagle is a symbol of the U.S."},
+      {"word": "points", "pos": "noun", "meaning_en": "numbers you win in a game", "meaning_ar": "نقاط", "note_ar": "المفرد: point.", "note_en": "Singular: point.", "example": "I won 60 points."},
+      {"word": "fun fact", "pos": "noun", "meaning_en": "an interesting and surprising piece of information", "meaning_ar": "معلومة طريفة", "note_ar": "", "note_en": "", "example": "Here is a fun fact: an octopus has three hearts."},
+      {"word": "catch", "pos": "verb", "meaning_en": "to take and hold something that is moving; to find", "meaning_ar": "يمسك / يلتقط", "note_ar": "فعل شاذ: الماضي caught.", "note_en": "Irregular: past caught.", "example": "Here are the symbols that I caught."},
+      {"word": "statue", "pos": "noun", "meaning_en": "a figure of a person made of stone or metal", "meaning_ar": "تمثال", "note_ar": "", "note_en": "", "example": "The Statue of Liberty is in New York."},
+      {"word": "flag", "pos": "noun", "meaning_en": "a piece of cloth with colors that represents a country", "meaning_ar": "علَم", "note_ar": "", "note_en": "", "example": "The American flag has stars and stripes."},
+      {"word": "bald eagle", "pos": "noun", "meaning_en": "a large American bird with a white head", "meaning_ar": "النسر الأصلع (رمز أمريكا)", "note_ar": "bald تعني أصلع، لكن رأس هذا النسر مغطّى بريش أبيض.", "note_en": "bald means without hair; this bird has white feathers on its head.", "example": "The bald eagle is worth 100 points."},
+      {"word": "app", "pos": "noun", "meaning_en": "a program on a phone or computer", "meaning_ar": "تطبيق", "note_ar": "اختصار application.", "note_en": "Short for application.", "example": "You ought to buy the app."},
+      {"word": "sign", "pos": "verb", "meaning_en": "to write your name on a paper", "meaning_ar": "يوقّع", "note_ar": "حرف g صامت: تُنطق /saɪn/.", "note_en": "The g is silent: /saɪn/.", "example": "Please sign your name here."},
+      {"word": "independence", "pos": "noun", "meaning_en": "freedom from control by another country", "meaning_ar": "استقلال", "note_ar": "الصفة: independent.", "note_en": "Adjective: independent.", "example": "Independence Day in the U.S. is July 4th."},
+      {"word": "win", "pos": "verb", "meaning_en": "to get points or be first in a game", "meaning_ar": "يفوز / يكسب", "note_ar": "فعل شاذ: الماضي won ويُنطق مثل one.", "note_en": "Irregular: past won (sounds like one).", "example": "I won 60 points!"},
+      {"word": "lifetime", "pos": "noun", "meaning_en": "the time a person is alive", "meaning_ar": "مدى الحياة / طوال العمر", "note_ar": "", "note_en": "", "example": "In his lifetime he wrote many letters."},
+      {"word": "good luck", "pos": "phrase", "meaning_en": "said to wish someone success", "meaning_ar": "حظًا سعيدًا", "note_ar": "", "note_en": "", "example": "Good luck on your test!"},
+      {"word": "work well", "pos": "phrase", "meaning_en": "to fit or match nicely", "meaning_ar": "يناسب جيدًا", "note_ar": "", "note_en": "", "example": "A flag works well for Independence Day."}
+    ],
+    "fine_lines": [
+      {"title": "should vs ought to", "words": ["should", "ought to"],
+       "explanation_ar": "الاثنان بمعنى «ينبغي» لإعطاء نصيحة، والمعنى تقريبًا واحد. should أكثر شيوعًا وبدون to: You should be careful. أما ought to فلها to دائمًا: You ought to buy the app. وفي النفي والسؤال نستخدم should غالبًا.",
+       "explanation_en": "Both give advice and mean almost the same. should is more common and has no 'to': You should be careful. ought to always has 'to': You ought to buy the app. For negatives and questions, use should.",
+       "examples": [
+         {"word": "should", "sentence": "You should drink more water."},
+         {"word": "ought to", "sentence": "You ought to see a doctor."},
+         {"word": "should", "sentence": "You shouldn't play games on the street."}
+       ]},
+      {"title": "watch out vs look out", "words": ["watch out", "look out"],
+       "explanation_ar": "التعبيران بنفس المعنى: «انتبه!» تحذير سريع من خطر. Anna تقول Watch out! وفي الدرس التالي يقول Dan: Look out!",
+       "explanation_en": "Both mean 'Be careful! There is danger!' Anna says 'Watch out!' and Dan later says 'Look out!'",
+       "examples": [
+         {"word": "watch out", "sentence": "Watch out! There's a car!"},
+         {"word": "look out", "sentence": "Look out for that tree!"}
+       ]}
+    ],
+    "expressions": [
+      {"phrase": "Watch out!", "meaning_ar": "انتبه!", "meaning_en": "a quick warning about danger", "example": "Watch out! The stairs are wet."},
+      {"phrase": "Sorry! I didn't see you.", "meaning_ar": "آسف! لم أرَك.", "meaning_en": "apologizing after you hit someone by accident", "example": "Oh, sorry! I didn't see you there."},
+      {"phrase": "You should be more careful.", "meaning_ar": "ينبغي أن تكون أكثر حذرًا.", "meaning_en": "giving advice to someone who is not careful", "example": "You dropped your phone again. You should be more careful."},
+      {"phrase": "What kind of game?", "meaning_ar": "أي نوع من الألعاب؟", "meaning_en": "asking for more details about the type", "example": "I play a game every day. — What kind of game?"},
+      {"phrase": "I don't have time for games.", "meaning_ar": "ليس لدي وقت للألعاب.", "meaning_en": "saying you are too busy to play", "example": "I have to study. I don't have time for games."},
+      {"phrase": "You ought to buy the app.", "meaning_ar": "ينبغي أن تشتري التطبيق.", "meaning_en": "giving advice", "example": "This book is great. You ought to read it."},
+      {"phrase": "Got it.", "meaning_ar": "فهمت.", "meaning_en": "saying you understand", "example": "Turn left at the bank. — Got it."},
+      {"phrase": "Good luck to you too!", "meaning_ar": "حظًا سعيدًا لك أيضًا!", "meaning_en": "wishing luck back to someone", "example": "Good luck on your test! — Good luck to you too!"},
+      {"phrase": "Here it is!", "meaning_ar": "ها هو!", "meaning_en": "said when you find something", "example": "Where is my phone? Here it is!"},
+      {"phrase": "I did not know that.", "meaning_ar": "لم أكن أعرف ذلك.", "meaning_en": "saying a fact is new for you", "example": "Camels can drink a lot of water quickly? I did not know that."}
+    ],
+    "grammar": [
+      {"title": "should / ought to for advice",
+       "explanation_ar": "1) should + الفعل الأصلي لإعطاء النصيحة: You should be careful. 2) لا نضيف s ولا to بعد should: She should rest. 3) ought to + الفعل الأصلي بنفس المعنى: You ought to buy the app. 4) النفي: shouldn't: You shouldn't run here. 5) السؤال: Should I ...?",
+       "explanation_en": "1) should + base verb gives advice: You should be careful. 2) No -s and no 'to' after should: She should rest. 3) ought to + base verb has the same meaning. 4) Negative: shouldn't. 5) Question: Should I ...?",
+       "examples": ["You should be more careful.", "You ought to buy the app.", "You shouldn't play on the street.", "Should I take an umbrella?"]},
+      {"title": "Simple past negative: didn't + verb",
+       "explanation_ar": "1) لنفي الماضي نستخدم didn't (did not) + الفعل الأصلي: I didn't see you. 2) لا نستخدم الماضي بعد didn't: (didn't saw خطأ). 3) في الدرس أيضًا أفعال ماضية: caught, won, signed, wrote.",
+       "explanation_en": "1) To make the past negative, use didn't (did not) + base verb: I didn't see you. 2) Don't use the past form after didn't (not 'didn't saw'). 3) Other past forms in the lesson: caught, won, signed, wrote.",
+       "examples": ["Sorry! I didn't see you.", "I did not know that.", "Jefferson signed the Declaration of Independence.", "I won 60 points!"]}
+    ]
+  },
+  "questions": [
+    {"question": "Dan almost hits Anna. What does Anna say?", "choices": ["Good luck!", "Watch out!", "Got it.", "Here it is!"], "answer": 1, "explanation_ar": "Watch out! تحذير من خطر.", "explanation_en": "Watch out! is a warning about danger."},
+    {"question": "You ____ be more careful.", "choices": ["should", "should to", "ought", "shoulds"], "answer": 0, "explanation_ar": "should + فعل أصلي بدون to.", "explanation_en": "should + base verb, with no 'to'."},
+    {"question": "Choose the correct sentence.", "choices": ["You ought buy the app.", "You ought to buys the app.", "You ought to buy the app.", "You oughts to buy the app."], "answer": 2, "explanation_ar": "ought to + الفعل الأصلي.", "explanation_en": "ought to + base verb."},
+    {"question": "Sorry! I didn't ____ you.", "choices": ["saw", "seen", "seeing", "see"], "answer": 3, "explanation_ar": "بعد didn't نستخدم الفعل الأصلي: see.", "explanation_en": "After didn't, use the base verb: see."},
+    {"question": "What do players look for in the game 'Catch Americana'?", "choices": ["American symbols", "money", "food trucks", "books"], "answer": 0, "explanation_ar": "يبحث اللاعبون عن رموز أمريكية.", "explanation_en": "Players look for American symbols."},
+    {"question": "How many points is the bald eagle?", "choices": ["20", "40", "60", "100"], "answer": 3, "explanation_ar": "النسر الأصلع يساوي 100 نقطة.", "explanation_en": "The bald eagle is 100 points."},
+    {"question": "Which symbol does Anna find at the Jefferson Memorial?", "choices": ["Uncle Sam", "the American flag", "the Statue of Liberty", "the bald eagle"], "answer": 1, "explanation_ar": "وجدت Anna العلم الأمريكي وربحت 60 نقطة.", "explanation_en": "She finds the American flag and wins 60 points."},
+    {"question": "Which word means the same as 'watch out'?", "choices": ["look at", "look for", "look out", "look up"], "answer": 2, "explanation_ar": "look out بنفس معنى watch out: انتبه!", "explanation_en": "look out means the same as watch out: Be careful!"},
+    {"question": "What is a 'fun fact'?", "choices": ["an interesting, surprising piece of information", "a game on a phone", "a kind of monument", "a funny picture"], "answer": 0, "explanation_ar": "fun fact معلومة طريفة ومثيرة.", "explanation_en": "A fun fact is an interesting and surprising piece of information."},
+    {"question": "Your friend is tired. Which is good advice?", "choices": ["You should to sleep.", "You should sleeping.", "You shoulds sleep.", "You should sleep early."], "answer": 3, "explanation_ar": "should + الفعل الأصلي: You should sleep early.", "explanation_en": "should + base verb: You should sleep early."}
+  ]
+}

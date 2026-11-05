@@ -1,0 +1,394 @@
+{
+  "title": "At the Hair Salon",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "hair salon",
+        "pos": "noun",
+        "meaning_en": "a shop where people get their hair cut and styled",
+        "meaning_ar": "صالون تصفيف الشعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They went to the hair salon together."
+      },
+      {
+        "word": "food court",
+        "pos": "noun",
+        "meaning_en": "an area in a mall with many food stands",
+        "meaning_ar": "ساحة المطاعم (في المول)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We had lunch at the food court."
+      },
+      {
+        "word": "contact lenses",
+        "pos": "noun",
+        "meaning_en": "small thin lenses you put on your eyes to see better",
+        "meaning_ar": "عدسات لاصقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wears contact lenses for football."
+      },
+      {
+        "word": "haircut",
+        "pos": "noun",
+        "meaning_en": "cutting someone's hair; the style after cutting",
+        "meaning_ar": "قصّة شعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You need a haircut."
+      },
+      {
+        "word": "hairstyle",
+        "pos": "noun",
+        "meaning_en": "the way your hair is cut and arranged",
+        "meaning_ar": "تسريحة شعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want a different hairstyle."
+      },
+      {
+        "word": "hairdresser",
+        "pos": "noun",
+        "meaning_en": "a person whose job is cutting hair",
+        "meaning_ar": "مصفّف الشعر / حلاق",
+        "note_ar": "للرجال أيضًا: barber",
+        "note_en": "For men also: barber.",
+        "example": "Vincent is a good hairdresser."
+      },
+      {
+        "word": "fade haircut",
+        "pos": "noun",
+        "meaning_en": "a style with short hair on the sides and back and longer hair on top",
+        "meaning_ar": "قصّة الفيد (قصير على الجانبين)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want a fade haircut?"
+      },
+      {
+        "word": "sides",
+        "pos": "noun",
+        "meaning_en": "the left and right parts of something",
+        "meaning_ar": "الجانبان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Short on the sides, please."
+      },
+      {
+        "word": "trendy",
+        "pos": "adjective",
+        "meaning_en": "modern and popular now",
+        "meaning_ar": "عصري / على الموضة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That looks trendy."
+      },
+      {
+        "word": "dye",
+        "pos": "verb",
+        "meaning_en": "change the colour of hair or cloth",
+        "meaning_ar": "يصبغ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I would like to get my hair dyed."
+      },
+      {
+        "word": "wash",
+        "pos": "noun",
+        "meaning_en": "cleaning with water and shampoo",
+        "meaning_ar": "غسل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You need a wash first."
+      },
+      {
+        "word": "conditioning",
+        "pos": "noun",
+        "meaning_en": "using a cream to make hair soft and healthy",
+        "meaning_ar": "ترطيب الشعر (بالبلسم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It needs deep conditioning."
+      },
+      {
+        "word": "trim",
+        "pos": "noun",
+        "meaning_en": "a small cut to keep the same style",
+        "meaning_ar": "تشذيب / قصّ خفيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Just a trim, please."
+      },
+      {
+        "word": "smart",
+        "pos": "adjective",
+        "meaning_en": "neat and good-looking",
+        "meaning_ar": "أنيق / مرتب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wants to look smarter."
+      },
+      {
+        "word": "incredible",
+        "pos": "adjective",
+        "meaning_en": "very, very good",
+        "meaning_ar": "مذهل / لا يُصدَّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You are incredible!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "haircut vs trim",
+        "words": [
+          "haircut",
+          "trim"
+        ],
+        "explanation_ar": "haircut = قصّة شعر قد تغير الشكل. trim = قص قليل للحفاظ على نفس الشكل.",
+        "explanation_en": "A \"haircut\" can change your style. A \"trim\" cuts only a little and keeps the same style.",
+        "examples": [
+          {
+            "word": "haircut",
+            "sentence": "I want a new haircut."
+          },
+          {
+            "word": "trim",
+            "sentence": "Just a trim, please."
+          }
+        ]
+      },
+      {
+        "title": "have / get my hair cut",
+        "words": [
+          "have my hair cut",
+          "cut my hair"
+        ],
+        "explanation_ar": "عندما يقص لك شخص آخر شعرك نقول I have / get my hair cut. أما I cut my hair فتعني أنك قصصته بنفسك.",
+        "explanation_en": "When someone else does it: \"I have/get my hair cut\". \"I cut my hair\" means you did it yourself.",
+        "examples": [
+          {
+            "word": "have my hair cut",
+            "sentence": "We would like to have our hair cut."
+          },
+          {
+            "word": "cut my hair",
+            "sentence": "I cut my hair myself at home."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How are things going? / Everything is great.",
+        "meaning_ar": "كيف تسير الأمور؟ / كل شيء رائع.",
+        "meaning_en": "Asking a friend how life is.",
+        "example": "So, how are things going? Everything is fine."
+      },
+      {
+        "phrase": "You need to get a haircut.",
+        "meaning_ar": "تحتاج أن تقص شعرك.",
+        "meaning_en": "Giving advice.",
+        "example": "Your hair is long. You need to get a haircut."
+      },
+      {
+        "phrase": "Why don't we go together?",
+        "meaning_ar": "لماذا لا نذهب معًا؟",
+        "meaning_en": "A suggestion.",
+        "example": "I'm going to the market. Why don't we go together?"
+      },
+      {
+        "phrase": "Haven't seen you in a while.",
+        "meaning_ar": "لم أرك منذ مدة.",
+        "meaning_en": "Greeting someone after a long time.",
+        "example": "Hi Sam! Haven't seen you in a while."
+      },
+      {
+        "phrase": "How would you like your haircut?",
+        "meaning_ar": "كيف تريد قصّة شعرك؟",
+        "meaning_en": "The hairdresser asks what you want.",
+        "example": "How would you like your haircut, sir?"
+      },
+      {
+        "phrase": "Let me show you a picture.",
+        "meaning_ar": "دعني أريك صورة.",
+        "meaning_en": "Showing an example.",
+        "example": "I'll explain. Let me show you a picture."
+      },
+      {
+        "phrase": "I'll go for it then.",
+        "meaning_ar": "سأختارها إذن.",
+        "meaning_en": "Deciding to choose something.",
+        "example": "That looks good. I'll go for it then."
+      },
+      {
+        "phrase": "Please have a seat.",
+        "meaning_ar": "تفضّل بالجلوس.",
+        "meaning_en": "Asking someone to sit.",
+        "example": "Please have a seat. The doctor will see you soon."
+      },
+      {
+        "phrase": "I totally trust you.",
+        "meaning_ar": "أثق بك تمامًا.",
+        "meaning_en": "You believe someone will do it well.",
+        "example": "Do what you think is best. I totally trust you."
+      },
+      {
+        "phrase": "I want to try something new.",
+        "meaning_ar": "أريد أن أجرّب شيئًا جديدًا.",
+        "meaning_en": "You want a change.",
+        "example": "I always order pasta. Today I want to try something new."
+      },
+      {
+        "phrase": "This is what I want.",
+        "meaning_ar": "هذا ما أريده.",
+        "meaning_en": "Saying you found the right thing.",
+        "example": "Yes! This is exactly what I want."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "have/get something done (causative)",
+        "explanation_ar": "نستخدم have/get + الشيء + التصريف الثالث عندما يقوم شخص آخر بالعمل لنا.",
+        "explanation_en": "Use have/get + object + past participle when another person does it for you.",
+        "examples": [
+          "We would like to have our hair cut.",
+          "I would like to get my hair dyed.",
+          "I get my car washed every week."
+        ]
+      },
+      {
+        "title": "Suggestions: Why don't you / How about",
+        "explanation_ar": "للاقتراح: Why don't you + فعل? أو How about + اسم؟",
+        "explanation_en": "Suggest with \"Why don't you + verb?\" or \"How about + noun?\".",
+        "examples": [
+          "Why don't you have a new hairstyle?",
+          "How about a fade haircut?",
+          "Why don't we go together?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"Just a trim, please.\" The customer wants ...",
+      "choices": [
+        "a very short new style",
+        "only a small cut",
+        "a hair wash only",
+        "new hair colour"
+      ],
+      "answer": 1,
+      "explanation_ar": "trim قص قليل.",
+      "explanation_en": "A trim is a small cut."
+    },
+    {
+      "question": "I would like to get my hair ____.",
+      "choices": [
+        "dye",
+        "dyeing",
+        "to dye",
+        "dyed"
+      ],
+      "answer": 3,
+      "explanation_ar": "get + الشيء + التصريف الثالث.",
+      "explanation_en": "get + object + past participle."
+    },
+    {
+      "question": "A person whose job is cutting hair is a ...",
+      "choices": [
+        "hairdresser",
+        "shopkeeper",
+        "waiter",
+        "cook"
+      ],
+      "answer": 0,
+      "explanation_ar": "الحلاق أو مصفف الشعر.",
+      "explanation_en": "A hairdresser."
+    },
+    {
+      "question": "\"Haven't seen you in a while.\" means ...",
+      "choices": [
+        "I see you every day.",
+        "I can't see you.",
+        "I haven't seen you for a long time.",
+        "I will see you later."
+      ],
+      "answer": 2,
+      "explanation_ar": "لم أرك منذ مدة طويلة.",
+      "explanation_en": "Not for a long time."
+    },
+    {
+      "question": "A fade haircut has short hair ____.",
+      "choices": [
+        "on the top only",
+        "everywhere long",
+        "on the sides and back",
+        "only at the front"
+      ],
+      "answer": 2,
+      "explanation_ar": "قصير على الجانبين والخلف.",
+      "explanation_en": "Short on the sides and back."
+    },
+    {
+      "question": "\"That looks trendy.\" Trendy means ...",
+      "choices": [
+        "modern and popular",
+        "old",
+        "dirty",
+        "long"
+      ],
+      "answer": 0,
+      "explanation_ar": "عصري ورائج.",
+      "explanation_en": "Modern and popular."
+    },
+    {
+      "question": "____ don't you have a new hairstyle?",
+      "choices": [
+        "How",
+        "What",
+        "Who",
+        "Why"
+      ],
+      "answer": 3,
+      "explanation_ar": "Why don't you للاقتراح.",
+      "explanation_en": "\"Why don't you ...?\" is a suggestion."
+    },
+    {
+      "question": "\"Please have a seat.\" means ...",
+      "choices": [
+        "Please buy a chair.",
+        "Please sit down.",
+        "Please stand up.",
+        "Please leave."
+      ],
+      "answer": 1,
+      "explanation_ar": "تفضل بالجلوس.",
+      "explanation_en": "Please sit down."
+    },
+    {
+      "question": "We would like to have our hair ____.",
+      "choices": [
+        "cut",
+        "cutting",
+        "cuts",
+        "to cut"
+      ],
+      "answer": 0,
+      "explanation_ar": "التصريف الثالث من cut هو cut.",
+      "explanation_en": "The past participle of \"cut\" is \"cut\"."
+    },
+    {
+      "question": "He wants to look ____. (neat and good-looking)",
+      "choices": [
+        "more smart than",
+        "smartly",
+        "smarter",
+        "smartest of"
+      ],
+      "answer": 2,
+      "explanation_ar": "المقارنة smarter.",
+      "explanation_en": "The comparative is \"smarter\"."
+    }
+  ]
+}

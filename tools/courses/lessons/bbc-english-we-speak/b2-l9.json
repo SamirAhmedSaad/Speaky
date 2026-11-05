@@ -1,0 +1,415 @@
+{
+ "title": "The human body",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "skilled",
+    "pos": "adjective",
+    "meaning_en": "able to do something well because of training or practice",
+    "meaning_ar": "ماهر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He is a skilled carpenter."
+   },
+   {
+    "word": "experienced",
+    "pos": "adjective",
+    "meaning_en": "having done something many times",
+    "meaning_ar": "ذو خبرة، متمرّس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We need an experienced driver."
+   },
+   {
+    "word": "practical",
+    "pos": "adjective",
+    "meaning_en": "dealing with real situations in a sensible way",
+    "meaning_ar": "عملي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She gave me some practical advice."
+   },
+   {
+    "word": "determined",
+    "pos": "adjective",
+    "meaning_en": "not letting anything stop you",
+    "meaning_ar": "مصمّم، عازم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He is determined to pass the exam."
+   },
+   {
+    "word": "stubborn",
+    "pos": "adjective",
+    "meaning_en": "not willing to change your mind",
+    "meaning_ar": "عنيد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My little brother is very stubborn."
+   },
+   {
+    "word": "knee",
+    "pos": "noun",
+    "meaning_en": "the joint in the middle of your leg",
+    "meaning_ar": "رُكبة",
+    "note_ar": "حرف k صامت: /niː/.",
+    "note_en": "The 'k' is silent: /niː/.",
+    "example": "I hurt my knee playing football."
+   },
+   {
+    "word": "skeleton",
+    "pos": "noun",
+    "meaning_en": "all the bones of a body",
+    "meaning_ar": "هيكل عظمي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There is a dinosaur skeleton in the museum."
+   },
+   {
+    "word": "crew",
+    "pos": "noun",
+    "meaning_en": "a group of people who work together, e.g. on a ship or plane",
+    "meaning_ar": "طاقم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The crew welcomed us on the plane."
+   },
+   {
+    "word": "minimum",
+    "pos": "noun",
+    "meaning_en": "the smallest amount possible",
+    "meaning_ar": "الحد الأدنى",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need a minimum of five players."
+   },
+   {
+    "word": "celebrity",
+    "pos": "noun",
+    "meaning_en": "a famous person",
+    "meaning_ar": "مشهور، شخصية معروفة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "A celebrity chef opened the restaurant."
+   },
+   {
+    "word": "brain",
+    "pos": "noun",
+    "meaning_en": "the organ in your head that you think with",
+    "meaning_ar": "دماغ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Reading is good for your brain."
+   },
+   {
+    "word": "wool",
+    "pos": "noun",
+    "meaning_en": "the soft hair of sheep, used to make clothes",
+    "meaning_ar": "صوف",
+    "note_ar": "تُنطق /wʊl/ مثل full.",
+    "note_en": "Say /wʊl/; it rhymes with 'full'.",
+    "example": "This jumper is made of wool."
+   },
+   {
+    "word": "trick",
+    "pos": "verb",
+    "meaning_en": "to make someone believe something that is not true",
+    "meaning_ar": "يخدع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He tricked me into paying for his lunch."
+   },
+   {
+    "word": "lazy",
+    "pos": "adjective",
+    "meaning_en": "not wanting to work or make an effort",
+    "meaning_ar": "كسول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't be lazy – help me clean up."
+   },
+   {
+    "word": "idle",
+    "pos": "adjective",
+    "meaning_en": "not working; lazy",
+    "meaning_ar": "خامل، عاطل",
+    "note_ar": "تُنطق مثل idol تماماً.",
+    "note_en": "It sounds exactly like 'idol'.",
+    "example": "The machines were idle during the holiday."
+   },
+   {
+    "word": "nail",
+    "pos": "noun",
+    "meaning_en": "the hard part at the end of your finger; also a thin metal pin",
+    "meaning_ar": "ظُفر؛ مسمار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She cut her nails."
+   },
+   {
+    "word": "charge",
+    "pos": "verb",
+    "meaning_en": "to ask a price for something",
+    "meaning_ar": "يتقاضى (سعراً)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They charged me £50 for the repair."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "an old hand vs bone idle",
+    "words": [
+     "an old hand",
+     "bone idle"
+    ],
+    "explanation_ar": "an old hand = شخص ماهر ومتمرّس في عمل ما (مديح). bone idle = كسول جداً (ذمّ). لاحظ: an old hand at + اسم/فعل بـ ing.",
+    "explanation_en": "'An old hand' is a skilled, experienced person (praise). 'Bone idle' means extremely lazy (criticism). Note: an old hand at + noun / -ing.",
+    "examples": [
+     {
+      "word": "an old hand",
+      "sentence": "Ask Mona – she's an old hand at fixing bikes."
+     },
+     {
+      "word": "bone idle",
+      "sentence": "He's bone idle; he never helps at home."
+     }
+    ]
+   },
+   {
+    "title": "hard-nosed: two sides",
+    "words": [
+     "hard-nosed (positive)",
+     "hard-nosed (negative)"
+    ],
+    "explanation_ar": "hard-nosed قد تكون مديحاً: عملي ومصمّم وصلب. وقد تكون ذماً: عنيد وقاسٍ لا يراعي المشاعر. السياق يحدد المعنى.",
+    "explanation_en": "'Hard-nosed' can be positive: practical, determined and tough. It can also be negative: stubborn and insensitive. The context tells you which.",
+    "examples": [
+     {
+      "word": "hard-nosed (positive)",
+      "sentence": "A hard-nosed reporter found the true story."
+     },
+     {
+      "word": "hard-nosed (negative)",
+      "sentence": "The hard-nosed manager refused to listen to anyone."
+     }
+    ]
+   },
+   {
+    "title": "pull the wool over someone's eyes vs bleed someone dry",
+    "words": [
+     "pull the wool over someone's eyes",
+     "bleed someone dry"
+    ],
+    "explanation_ar": "pull the wool over someone's eyes = يخدع شخصاً ويخفي الحقيقة عنه. bleed someone dry = يأخذ كل مال شخص تدريجياً (بأسعار عالية أو تكاليف مستمرة).",
+    "explanation_en": "'Pull the wool over someone's eyes' = trick someone and hide the truth. 'Bleed someone dry' = take all of someone's money, usually by charging too much.",
+    "examples": [
+     {
+      "word": "pull the wool over someone's eyes",
+      "sentence": "You can't pull the wool over my eyes – I know you didn't do your homework."
+     },
+     {
+      "word": "bleed someone dry",
+      "sentence": "The repairs on this old house are bleeding us dry."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "an old hand (at something)",
+    "meaning_ar": "شخص ماهر ومتمرّس في شيء",
+    "meaning_en": "a very skilled and experienced person",
+    "example": "My grandmother is an old hand at baking bread."
+   },
+   {
+    "phrase": "hard-nosed",
+    "meaning_ar": "عملي وصلب ومصمّم؛ أو عنيد وقاسٍ",
+    "meaning_en": "practical, determined and tough; sometimes stubborn and insensitive",
+    "example": "She's a hard-nosed businesswoman who always gets a good price."
+   },
+   {
+    "phrase": "a knees-up",
+    "meaning_ar": "حفلة مرحة صاخبة فيها رقص",
+    "meaning_en": "a lively party, often with dancing",
+    "example": "We had a big knees-up for Grandad's 80th birthday."
+   },
+   {
+    "phrase": "skeleton crew",
+    "meaning_ar": "أقل عدد من الموظفين يكفي لتشغيل العمل",
+    "meaning_en": "the smallest number of workers needed to keep a business running",
+    "example": "Over the holiday, the hospital office runs with a skeleton crew."
+   },
+   {
+    "phrase": "eat your heart out, (famous person)",
+    "meaning_ar": "عبارة مازحة بعد عمل جيد: «انظر يا فلان المشهور، أنا بمستواك!»",
+    "meaning_en": "a joke after doing something well, comparing yourself to someone famous",
+    "example": "Look at my cake! Eat your heart out, famous bakers!"
+   },
+   {
+    "phrase": "brain fade",
+    "meaning_ar": "لحظة نسيان أو عدم قدرة على التفكير بوضوح",
+    "meaning_en": "a short moment when you can't think clearly or remember something",
+    "example": "I forgot my own phone number – total brain fade!"
+   },
+   {
+    "phrase": "pull the wool over someone's eyes",
+    "meaning_ar": "يخدع شخصاً ويخفي عنه الحقيقة",
+    "meaning_en": "to trick someone or hide the truth from them",
+    "example": "The seller tried to pull the wool over my eyes about the car's age."
+   },
+   {
+    "phrase": "bone idle",
+    "meaning_ar": "كسول جداً",
+    "meaning_en": "extremely lazy",
+    "example": "My cat is bone idle – she sleeps all day."
+   },
+   {
+    "phrase": "fight tooth and nail",
+    "meaning_ar": "يقاتل بكل قوته وإصراره للحصول على شيء",
+    "meaning_en": "to use all your effort and determination to get or keep something",
+    "example": "The villagers fought tooth and nail to save their library."
+   },
+   {
+    "phrase": "bleed someone dry",
+    "meaning_ar": "يستنزف مال شخص كله",
+    "meaning_en": "to take all of someone's money, often by charging too much",
+    "example": "That old car is bleeding me dry with repairs."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Compound adjectives with hyphens: hard-nosed, bone idle",
+    "explanation_ar": "الصفة المركّبة من كلمتين تُكتب غالباً بشرطة قبل الاسم: a hard-nosed reporter. نمط شائع: صفة + اسم + ed: hard + nose + ed = hard-nosed، kind-hearted، blue-eyed. أما bone idle فكلمة bone هنا تقوّي المعنى بمعنى «جداً»، كما في bone dry.",
+    "explanation_en": "Two-word adjectives often use a hyphen: a hard-nosed reporter. A common pattern is adjective + noun + -ed: hard-nosed, kind-hearted, blue-eyed. In 'bone idle', 'bone' just makes it stronger (= very), like 'bone dry'.",
+    "examples": [
+     "a hard-nosed reporter",
+     "a kind-hearted neighbour",
+     "bone idle / bone dry"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "'He's an old hand at fixing computers.' He is...",
+   "choices": [
+    "old and tired",
+    "very experienced",
+    "bad at it",
+    "new to it"
+   ],
+   "answer": 1,
+   "explanation_ar": "an old hand = ماهر ومتمرّس.",
+   "explanation_en": "'An old hand' is very experienced."
+  },
+  {
+   "question": "Which is a 'knees-up'?",
+   "choices": [
+    "an injury",
+    "a lively party",
+    "a type of exercise",
+    "a meeting"
+   ],
+   "answer": 1,
+   "explanation_ar": "a knees-up = حفلة مرحة.",
+   "explanation_en": "A 'knees-up' is a lively party."
+  },
+  {
+   "question": "During the holiday, only three people worked in the office. It had a ___.",
+   "choices": [
+    "skeleton crew",
+    "brain fade",
+    "knees-up",
+    "hard nose"
+   ],
+   "answer": 0,
+   "explanation_ar": "skeleton crew = أقل عدد من الموظفين.",
+   "explanation_en": "A 'skeleton crew' is the minimum number of workers."
+  },
+  {
+   "question": "I forgot my best friend's name for a second! What a ___!",
+   "choices": [
+    "skeleton crew",
+    "knees-up",
+    "old hand",
+    "brain fade"
+   ],
+   "answer": 3,
+   "explanation_ar": "brain fade = لحظة نسيان.",
+   "explanation_en": "'Brain fade' is a moment when you can't remember."
+  },
+  {
+   "question": "'You can't pull the wool over my eyes.' The speaker means...",
+   "choices": [
+    "You can't trick me.",
+    "My eyes hurt.",
+    "I need a hat.",
+    "I can't see you."
+   ],
+   "answer": 0,
+   "explanation_ar": "pull the wool over someone's eyes = يخدع.",
+   "explanation_en": "It means to trick someone."
+  },
+  {
+   "question": "He never does anything. He just lies on the sofa. He's ___.",
+   "choices": [
+    "hard-nosed",
+    "an old hand",
+    "bone idle",
+    "a skeleton crew"
+   ],
+   "answer": 2,
+   "explanation_ar": "bone idle = كسول جداً.",
+   "explanation_en": "'Bone idle' means extremely lazy."
+  },
+  {
+   "question": "Complete: 'They fought ___ to keep the park open.'",
+   "choices": [
+    "hand and foot",
+    "tooth and nail",
+    "heart and soul",
+    "nose and eyes"
+   ],
+   "answer": 1,
+   "explanation_ar": "التعبير: fight tooth and nail.",
+   "explanation_en": "The idiom is 'fight tooth and nail'."
+  },
+  {
+   "question": "'This old house is bleeding us dry.' What is the problem?",
+   "choices": [
+    "The house is wet.",
+    "Someone is hurt.",
+    "The house is too dry.",
+    "It costs us too much money."
+   ],
+   "answer": 3,
+   "explanation_ar": "bleed someone dry = يستنزف المال.",
+   "explanation_en": "It means taking all your money."
+  },
+  {
+   "question": "After painting a nice picture, Sara laughs: '___, Picasso!'",
+   "choices": [
+    "Eat your heart out",
+    "Bleed dry",
+    "Bone idle",
+    "Pull the wool"
+   ],
+   "answer": 0,
+   "explanation_ar": "eat your heart out + اسم مشهور: مزاح بعد عمل جيد.",
+   "explanation_en": "'Eat your heart out' + famous name is a joke after doing well."
+  },
+  {
+   "question": "Which sentence uses 'hard-nosed' in a positive way?",
+   "choices": [
+    "He is hard-nosed and never listens.",
+    "Her hard-nosed attitude hurt everyone.",
+    "A hard-nosed reporter found the truth.",
+    "He has a hard nose from the accident."
+   ],
+   "answer": 2,
+   "explanation_ar": "هنا hard-nosed بمعنى عملي ومصمّم.",
+   "explanation_en": "Here 'hard-nosed' means practical and determined."
+  }
+ ]
+}

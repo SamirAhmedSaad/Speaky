@@ -1,0 +1,449 @@
+{
+  "title": "Ordering Food for a Party",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "catering",
+        "pos": "noun",
+        "meaning_en": "the service of making and bringing food for an event",
+        "meaning_ar": "خدمة تقديم الطعام (التموين)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need catering for 50 people."
+      },
+      {
+        "word": "event",
+        "pos": "noun",
+        "meaning_en": "a planned occasion, like a party or meeting",
+        "meaning_ar": "مناسبة / حدث",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The event is on Sunday."
+      },
+      {
+        "word": "guest",
+        "pos": "noun",
+        "meaning_en": "a person you invite to your home or party",
+        "meaning_ar": "ضيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have 15 guests."
+      },
+      {
+        "word": "celebration",
+        "pos": "noun",
+        "meaning_en": "a happy event for a special day",
+        "meaning_ar": "احتفال",
+        "note_ar": "",
+        "note_en": "Verb: celebrate.",
+        "example": "It's a birthday celebration."
+      },
+      {
+        "word": "finger food",
+        "pos": "noun",
+        "meaning_en": "small pieces of food you can eat with your hand",
+        "meaning_ar": "أطعمة صغيرة تؤكل باليد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Finger food is good for parties."
+      },
+      {
+        "word": "appetizer",
+        "pos": "noun",
+        "meaning_en": "a small dish you eat before the main meal",
+        "meaning_ar": "مقبّلات",
+        "note_ar": "في بريطانيا: starter",
+        "note_en": "UK: starter.",
+        "example": "We ordered bite-sized appetizers."
+      },
+      {
+        "word": "bite-sized",
+        "pos": "adjective",
+        "meaning_en": "small enough to eat in one bite",
+        "meaning_ar": "بحجم اللقمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The cakes are bite-sized."
+      },
+      {
+        "word": "skewer",
+        "pos": "noun",
+        "meaning_en": "a long thin stick with pieces of food on it",
+        "meaning_ar": "سيخ (أسياخ مشوية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Chicken skewers are a big hit."
+      },
+      {
+        "word": "suggestion",
+        "pos": "noun",
+        "meaning_en": "an idea you offer to someone",
+        "meaning_ar": "اقتراح",
+        "note_ar": "الفعل: suggest",
+        "note_en": "Verb: suggest.",
+        "example": "I have some wonderful suggestions."
+      },
+      {
+        "word": "variety",
+        "pos": "noun",
+        "meaning_en": "many different kinds",
+        "meaning_ar": "تشكيلة / تنوّع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Guests can try a variety of flavors."
+      },
+      {
+        "word": "dessert",
+        "pos": "noun",
+        "meaning_en": "sweet food at the end of a meal",
+        "meaning_ar": "حلوى (بعد الطعام)",
+        "note_ar": "لا تخلط مع desert (صحراء)",
+        "note_en": "Don't confuse with \"desert\" (sand).",
+        "example": "What about dessert?"
+      },
+      {
+        "word": "cheesecake",
+        "pos": "noun",
+        "meaning_en": "a sweet cake made with soft cheese",
+        "meaning_ar": "كعكة الجبن (تشيز كيك)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The mini cheesecakes sound delicious."
+      },
+      {
+        "word": "cupcake",
+        "pos": "noun",
+        "meaning_en": "a small cake baked in a paper cup",
+        "meaning_ar": "كب كيك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The children love cupcakes."
+      },
+      {
+        "word": "combination",
+        "pos": "noun",
+        "meaning_en": "two or more things together",
+        "meaning_ar": "مزيج / تركيبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's a great combination."
+      },
+      {
+        "word": "lemonade",
+        "pos": "noun",
+        "meaning_en": "a cold drink made from lemon juice, water and sugar",
+        "meaning_ar": "عصير الليمون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll have soda and lemonade."
+      },
+      {
+        "word": "preference",
+        "pos": "noun",
+        "meaning_en": "something you like more than other things",
+        "meaning_ar": "تفضيل",
+        "note_ar": "",
+        "note_en": "Verb: prefer.",
+        "example": "Do you have any preferences?"
+      },
+      {
+        "word": "quantity",
+        "pos": "noun",
+        "meaning_en": "how much or how many",
+        "meaning_ar": "كمية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's talk about quantities."
+      },
+      {
+        "word": "budget",
+        "pos": "noun",
+        "meaning_en": "the money you plan to spend",
+        "meaning_ar": "ميزانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our budget is $30 per person."
+      },
+      {
+        "word": "allergy",
+        "pos": "noun",
+        "meaning_en": "a condition where some food makes you ill",
+        "meaning_ar": "حساسية",
+        "note_ar": "",
+        "note_en": "Adjective: allergic.",
+        "example": "One guest has a nut allergy."
+      },
+      {
+        "word": "nut-free",
+        "pos": "adjective",
+        "meaning_en": "with no nuts in it",
+        "meaning_ar": "خالٍ من المكسرات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Everything will be nut-free."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "dessert vs desert",
+        "words": [
+          "dessert",
+          "desert"
+        ],
+        "explanation_ar": "dessert (بحرفين s) حلوى بعد الطعام وتُنطق /dɪˈzɜːt/. desert (بحرف s واحد) صحراء وتُنطق /ˈdezət/.",
+        "explanation_en": "\"Dessert\" (double s) is sweet food. \"Desert\" (one s) is a hot dry place with sand.",
+        "examples": [
+          {
+            "word": "dessert",
+            "sentence": "For dessert, I'd like a cupcake."
+          },
+          {
+            "word": "desert",
+            "sentence": "The Sahara is a big desert."
+          }
+        ]
+      },
+      {
+        "title": "per person vs in total",
+        "words": [
+          "per person",
+          "in total"
+        ],
+        "explanation_ar": "per person = لكل شخص. in total = المجموع الكلي.",
+        "explanation_en": "\"Per person\" = for each person. \"In total\" = all together.",
+        "examples": [
+          {
+            "word": "per person",
+            "sentence": "It's $30 per person."
+          },
+          {
+            "word": "in total",
+            "sentence": "For 15 guests, it's $450 in total."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How can I assist you today?",
+        "meaning_ar": "كيف يمكنني مساعدتك اليوم؟",
+        "meaning_en": "A formal \"How can I help you?\"",
+        "example": "Good morning. How can I assist you today?"
+      },
+      {
+        "phrase": "We're planning a birthday party for 15 guests.",
+        "meaning_ar": "نخطط لحفلة عيد ميلاد لخمسة عشر ضيفًا.",
+        "meaning_en": "Explaining your event.",
+        "example": "We're planning a dinner for ten guests."
+      },
+      {
+        "phrase": "What kind of food were you thinking of?",
+        "meaning_ar": "ما نوع الطعام الذي كنت تفكر فيه؟",
+        "meaning_en": "Asking about food ideas.",
+        "example": "What kind of food were you thinking of for the meeting?"
+      },
+      {
+        "phrase": "They're always a big hit.",
+        "meaning_ar": "إنها تنجح دائمًا (الجميع يحبها).",
+        "meaning_en": "Everyone always likes them.",
+        "example": "Mini sandwiches are always a big hit."
+      },
+      {
+        "phrase": "That sounds perfect.",
+        "meaning_ar": "يبدو هذا مثاليًا.",
+        "meaning_en": "Agreeing happily.",
+        "example": "A party on Sunday? That sounds perfect."
+      },
+      {
+        "phrase": "What about dessert?",
+        "meaning_ar": "ماذا عن الحلوى؟",
+        "meaning_en": "Asking about another part.",
+        "example": "We have the food. What about drinks?"
+      },
+      {
+        "phrase": "Do you have any preferences?",
+        "meaning_ar": "هل لديك أي تفضيلات؟",
+        "meaning_en": "Asking what someone likes.",
+        "example": "For the drinks, do you have any preferences?"
+      },
+      {
+        "phrase": "Does that sound about right?",
+        "meaning_ar": "هل يبدو هذا مناسبًا تقريبًا؟",
+        "meaning_en": "Checking that someone agrees.",
+        "example": "Three pieces per person. Does that sound about right?"
+      },
+      {
+        "phrase": "That works for us.",
+        "meaning_ar": "هذا يناسبنا.",
+        "meaning_en": "Saying yes to a plan or price.",
+        "example": "Sunday at 7? That works for us."
+      },
+      {
+        "phrase": "Can you make sure none of the dishes contain nuts?",
+        "meaning_ar": "هل يمكنك التأكد من أن الأطباق لا تحتوي على مكسرات؟",
+        "meaning_en": "Asking for special care with food.",
+        "example": "Can you make sure the food is not too spicy?"
+      },
+      {
+        "phrase": "We're really looking forward to this party!",
+        "meaning_ar": "نحن نتطلع حقًا إلى هذه الحفلة!",
+        "meaning_en": "You are excited about a future event.",
+        "example": "I'm looking forward to the trip."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I'd recommend / I'd suggest + noun or -ing",
+        "explanation_ar": "للنصح بأدب: I'd recommend + اسم، أو I'd suggest + V-ing / اسم. (I'd = I would)",
+        "explanation_en": "To give advice politely: \"I'd recommend + noun\" or \"I'd suggest + noun / -ing\".",
+        "examples": [
+          "I'd recommend our mini cheesecakes.",
+          "I'd suggest ordering 5 pieces per person.",
+          "I'd recommend a budget of $30."
+        ]
+      },
+      {
+        "title": "We'd love to / We'd like to + verb",
+        "explanation_ar": "للتعبير عن رغبة بأدب: We'd like to have ... / We'd love to have ... (we'd = we would)",
+        "explanation_en": "Say what you want politely: \"We'd like to ...\" / \"We'd love to ...\".",
+        "examples": [
+          "We'd like to have something sweet.",
+          "We'd love to have some finger food.",
+          "We'd love to have some options."
+        ]
+      },
+      {
+        "title": "look forward to + noun / -ing",
+        "explanation_ar": "بعد look forward to نضع اسمًا أو فعلًا بـ ing، وليس الفعل الأساسي.",
+        "explanation_en": "After \"look forward to\", use a noun or an -ing verb, not the base verb.",
+        "examples": [
+          "We're looking forward to this party.",
+          "I look forward to seeing you.",
+          "She is looking forward to the trip."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is \"catering\"?",
+      "choices": [
+        "a kind of cake",
+        "a service that makes and brings food for events",
+        "a birthday gift",
+        "a restaurant bill"
+      ],
+      "answer": 1,
+      "explanation_ar": "catering هو خدمة تقديم الطعام للمناسبات.",
+      "explanation_en": "Catering is a food service for events."
+    },
+    {
+      "question": "\"Finger food\" is ...",
+      "choices": [
+        "small food you eat with your hand",
+        "food for fingers only",
+        "a big hot meal",
+        "soup"
+      ],
+      "answer": 0,
+      "explanation_ar": "أطعمة صغيرة تؤكل باليد.",
+      "explanation_en": "Small food you eat with your hand."
+    },
+    {
+      "question": "Choose the correct word: \"For ____, I'd like a cupcake.\"",
+      "choices": [
+        "desert",
+        "dessert",
+        "dissert",
+        "desart"
+      ],
+      "answer": 1,
+      "explanation_ar": "dessert حلوى، desert صحراء.",
+      "explanation_en": "\"Dessert\" is the sweet food."
+    },
+    {
+      "question": "I'd suggest ____ 5 pieces per person.",
+      "choices": [
+        "order",
+        "to ordering",
+        "ordering",
+        "ordered"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد suggest نستخدم ing.",
+      "explanation_en": "After \"suggest\" use -ing."
+    },
+    {
+      "question": "We're looking forward ____ this party.",
+      "choices": [
+        "for",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": 3,
+      "explanation_ar": "التعبير هو look forward to.",
+      "explanation_en": "The phrase is \"look forward to\"."
+    },
+    {
+      "question": "\"Mini sandwiches are always a big hit.\" This means ...",
+      "choices": [
+        "people hit them",
+        "they are very big",
+        "everyone likes them",
+        "nobody eats them"
+      ],
+      "answer": 2,
+      "explanation_ar": "a big hit يعني ناجح ومحبوب جدًا.",
+      "explanation_en": "\"A big hit\" means very popular."
+    },
+    {
+      "question": "A guest has a nut allergy. So the food must be ...",
+      "choices": [
+        "nut-free",
+        "spicy",
+        "sweet",
+        "cold"
+      ],
+      "answer": 0,
+      "explanation_ar": "يجب أن يكون الطعام خاليًا من المكسرات.",
+      "explanation_en": "The food must have no nuts."
+    },
+    {
+      "question": "\"$30 per person\" means ...",
+      "choices": [
+        "$30 for everyone together",
+        "$30 for each person",
+        "$30 for the cake",
+        "$30 for one guest only"
+      ],
+      "answer": 1,
+      "explanation_ar": "per person تعني لكل شخص.",
+      "explanation_en": "\"Per person\" means for each person."
+    },
+    {
+      "question": "\"That works for us.\" means ...",
+      "choices": [
+        "We work there.",
+        "We don't agree.",
+        "That is good for us; we agree.",
+        "We are busy."
+      ],
+      "answer": 2,
+      "explanation_ar": "That works for us تعني هذا يناسبنا.",
+      "explanation_en": "It means \"That is fine for us.\""
+    },
+    {
+      "question": "What is a \"budget\"?",
+      "choices": [
+        "a plan for how much money to spend",
+        "a type of dessert",
+        "a party guest",
+        "a drink"
+      ],
+      "answer": 0,
+      "explanation_ar": "budget تعني الميزانية.",
+      "explanation_en": "A budget is the money you plan to spend."
+    }
+  ]
+}

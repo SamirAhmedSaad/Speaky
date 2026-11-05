@@ -1,0 +1,412 @@
+{
+ "title": "Expressions with adjectives",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "chance",
+    "pos": "noun",
+    "meaning_en": "the possibility that something will happen",
+    "meaning_ar": "فرصة، احتمال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There's a good chance of rain today."
+   },
+   {
+    "word": "possibility",
+    "pos": "noun",
+    "meaning_en": "something that might happen",
+    "meaning_ar": "احتمال، إمكانية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Is there any possibility of a discount?"
+   },
+   {
+    "word": "programme",
+    "pos": "noun",
+    "meaning_en": "a show on TV or radio",
+    "meaning_ar": "برنامج",
+    "note_ar": "في أمريكا تُكتب program.",
+    "note_en": "US spelling: program.",
+    "example": "I watched a programme about the ocean."
+   },
+   {
+    "word": "skill",
+    "pos": "noun",
+    "meaning_en": "an ability to do something well",
+    "meaning_ar": "مهارة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Cooking is a useful skill."
+   },
+   {
+    "word": "communicate",
+    "pos": "verb",
+    "meaning_en": "to share information or ideas with others",
+    "meaning_ar": "يتواصل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Good leaders communicate clearly."
+   },
+   {
+    "word": "impressed",
+    "pos": "adjective",
+    "meaning_en": "admiring something because it is good",
+    "meaning_ar": "معجب، منبهر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I was impressed by her English."
+   },
+   {
+    "word": "fuss",
+    "pos": "noun",
+    "meaning_en": "too much excitement or worry about something small",
+    "meaning_ar": "ضجّة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Why all the fuss about a small mistake?"
+   },
+   {
+    "word": "apologise",
+    "pos": "verb",
+    "meaning_en": "to say sorry",
+    "meaning_ar": "يعتذر",
+    "note_ar": "في أمريكا: apologize.",
+    "note_en": "US spelling: apologize.",
+    "example": "He apologised for being late."
+   },
+   {
+    "word": "responsibility",
+    "pos": "noun",
+    "meaning_en": "something that is your duty or fault",
+    "meaning_ar": "مسؤولية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Cleaning the room is your responsibility."
+   },
+   {
+    "word": "insignificant",
+    "pos": "adjective",
+    "meaning_en": "not important at all",
+    "meaning_ar": "تافه، ضئيل الأهمية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The difference in price is insignificant."
+   },
+   {
+    "word": "coins",
+    "pos": "noun",
+    "meaning_en": "small round pieces of metal money",
+    "meaning_ar": "عملات معدنية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I need some coins for the parking machine."
+   },
+   {
+    "word": "intelligent",
+    "pos": "adjective",
+    "meaning_en": "clever; able to learn and understand quickly",
+    "meaning_ar": "ذكي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She is an intelligent student."
+   },
+   {
+    "word": "sarcastic",
+    "pos": "adjective",
+    "meaning_en": "saying the opposite of what you mean to criticise or joke",
+    "meaning_ar": "ساخر، تهكّمي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "\"Great weather!\" he said in a sarcastic voice when it rained."
+   },
+   {
+    "word": "conversation",
+    "pos": "noun",
+    "meaning_en": "a talk between people",
+    "meaning_ar": "محادثة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We had a nice conversation on the train."
+   },
+   {
+    "word": "show-off",
+    "pos": "noun",
+    "meaning_en": "a person who tries to make others admire them",
+    "meaning_ar": "متباهٍ، متفاخر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't be a show-off."
+   },
+   {
+    "word": "clogs",
+    "pos": "noun",
+    "meaning_en": "heavy shoes made of wood",
+    "meaning_ar": "قباقيب (أحذية خشبية)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "In the Netherlands, some people wear wooden clogs."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "small change vs small talk",
+    "words": [
+     "small change",
+     "small talk"
+    ],
+    "explanation_ar": "small change: النقود المعدنية الصغيرة، أو شيء تافه غير مهم مقارنة بغيره. small talk: حديث خفيف عن أمور غير مهمة (الطقس مثلاً) مع أشخاص لا تعرفهم جيداً.",
+    "explanation_en": "'Small change' means coins, or something unimportant compared with something else. 'Small talk' is polite, light conversation about unimportant things, like the weather.",
+    "examples": [
+     {
+      "word": "small change",
+      "sentence": "My cold is small change compared with your broken arm."
+     },
+     {
+      "word": "small talk",
+      "sentence": "We made small talk while we waited for the lift."
+     }
+    ]
+   },
+   {
+    "title": "a bright spark vs clever clogs",
+    "words": [
+     "a bright spark",
+     "clever clogs"
+    ],
+    "explanation_ar": "a bright spark: شخص ذكي ونشيط، لكنها تُستخدم كثيراً بسخرية لمن جاء بفكرة غبية: Which bright spark...? أما clever clogs: شخص مزعج يتصرف وكأنه يعرف أكثر من الجميع.",
+    "explanation_en": "'A bright spark' is a clever, lively person, but it is often used sarcastically for someone with a silly idea: 'Which bright spark...?' A 'clever clogs' is an annoying person who acts as if they know more than everyone.",
+    "examples": [
+     {
+      "word": "a bright spark",
+      "sentence": "Which bright spark left the door open in the rain?"
+     },
+     {
+      "word": "clever clogs",
+      "sentence": "OK, clever clogs, you answer the question then."
+     }
+    ]
+   },
+   {
+    "title": "big deal: two uses",
+    "words": [
+     "big deal (not impressed)",
+     "make a big deal"
+    ],
+    "explanation_ar": "Big deal! وحدها تعني «وماذا في ذلك؟ لست منبهراً». أما make a big deal about something فتعني يثير ضجة كبيرة حول أمر صغير.",
+    "explanation_en": "'Big deal!' on its own means 'So what? I'm not impressed.' 'Make a big deal about something' means make a big fuss.",
+    "examples": [
+     {
+      "word": "big deal (not impressed)",
+      "sentence": "You got a new phone? Big deal – everyone has one."
+     },
+     {
+      "word": "make a big deal",
+      "sentence": "Don't make a big deal about it – it was only a small mistake."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "fat chance",
+    "meaning_ar": "احتمال ضعيف جداً (تقال بسخرية: «مستحيل!»)",
+    "meaning_en": "very little chance; often said to mean 'no way'",
+    "example": "He'll clean his room without being asked? Fat chance!"
+   },
+   {
+    "phrase": "slow TV",
+    "meaning_ar": "برامج تلفزيونية طويلة وهادئة تعرض حدثاً عادياً كاملاً (رحلة قطار مثلاً)",
+    "meaning_en": "long, calm TV programmes that show an ordinary event from start to finish",
+    "example": "I watched four hours of slow TV about a boat trip – it was very relaxing."
+   },
+   {
+    "phrase": "soft skills",
+    "meaning_ar": "مهارات التواصل والتعامل والعمل مع الآخرين",
+    "meaning_en": "the ability to communicate and work well with other people",
+    "example": "The job needs good soft skills, like teamwork and listening."
+   },
+   {
+    "phrase": "big deal",
+    "meaning_ar": "وماذا في ذلك؟ (لست منبهراً)؛ وأيضاً: أمر مهم",
+    "meaning_en": "said to show you are not impressed; also something important",
+    "example": "You ran 2 km? Big deal – I ran 10!"
+   },
+   {
+    "phrase": "make a big deal (about something)",
+    "meaning_ar": "يثير ضجة كبيرة حول شيء",
+    "meaning_en": "to make a big fuss about something",
+    "example": "She made a big deal about her birthday."
+   },
+   {
+    "phrase": "dead (+ adjective)",
+    "meaning_ar": "جداً (عامية بريطانية)",
+    "meaning_en": "informal British: very, really",
+    "example": "I'm dead hungry – let's eat."
+   },
+   {
+    "phrase": "my bad",
+    "meaning_ar": "خطئي، آسف (اعتذار غير رسمي)",
+    "meaning_en": "informal: sorry, it was my mistake",
+    "example": "My bad – I took your pen by mistake."
+   },
+   {
+    "phrase": "small change",
+    "meaning_ar": "نقود معدنية صغيرة؛ أو شيء تافه غير مهم",
+    "meaning_en": "coins; or something not important compared with something else",
+    "example": "This problem is small change compared with last year's."
+   },
+   {
+    "phrase": "a bright spark",
+    "meaning_ar": "شخص ذكي ونشيط؛ وغالباً بسخرية لمن فعل شيئاً غبياً",
+    "meaning_en": "a clever, lively person; often used sarcastically",
+    "example": "Which bright spark turned off the fridge?"
+   },
+   {
+    "phrase": "small talk",
+    "meaning_ar": "حديث خفيف عن أمور عامة غير مهمة",
+    "meaning_en": "polite conversation about unimportant things",
+    "example": "I'm not good at small talk with people I don't know."
+   },
+   {
+    "phrase": "clever clogs",
+    "meaning_ar": "شخص يتظاهر بأنه يعرف أكثر من الجميع (مزعج)",
+    "meaning_en": "an annoying person who acts as if they know everything",
+    "example": "All right, clever clogs, you can do the maths yourself."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "'Dead' as an informal intensifier",
+    "explanation_ar": "في العامية البريطانية تأتي dead قبل الصفة بمعنى very: dead tired، dead easy، dead hungry. لا تستخدمها في الكتابة الرسمية. وكلمات أخرى تقوّي الصفة: really، very، so.",
+    "explanation_en": "In informal British English, 'dead' before an adjective means 'very': dead tired, dead easy, dead hungry. Don't use it in formal writing. Other intensifiers: really, very, so.",
+    "examples": [
+     "I'm dead tired.",
+     "The test was dead easy.",
+     "Formal: The test was very easy."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "'I'm dead tired.' What does 'dead' mean here?",
+   "choices": [
+    "not alive",
+    "very",
+    "a little",
+    "never"
+   ],
+   "answer": 1,
+   "explanation_ar": "dead هنا بمعنى very.",
+   "explanation_en": "Here 'dead' means 'very'."
+  },
+  {
+   "question": "You step on your friend's foot by accident. You say: '___!'",
+   "choices": [
+    "My bad",
+    "Big deal",
+    "Fat chance",
+    "Clever clogs"
+   ],
+   "answer": 0,
+   "explanation_ar": "my bad = خطئي، آسف.",
+   "explanation_en": "'My bad' means sorry, my mistake."
+  },
+  {
+   "question": "'Will the bus come on time? Fat chance!' The speaker thinks...",
+   "choices": [
+    "it will be early.",
+    "it will be on time.",
+    "there's a big chance.",
+    "it almost certainly won't."
+   ],
+   "answer": 3,
+   "explanation_ar": "fat chance = احتمال ضعيف جداً.",
+   "explanation_en": "'Fat chance' means very little chance."
+  },
+  {
+   "question": "Talking about the weather with a stranger is ___.",
+   "choices": [
+    "small change",
+    "small talk",
+    "soft skills",
+    "slow TV"
+   ],
+   "answer": 1,
+   "explanation_ar": "small talk = حديث خفيف عن أمور عامة.",
+   "explanation_en": "'Small talk' is light conversation."
+  },
+  {
+   "question": "Teamwork and good listening are examples of ___.",
+   "choices": [
+    "soft skills",
+    "small change",
+    "big deals",
+    "slow TV"
+   ],
+   "answer": 0,
+   "explanation_ar": "soft skills = مهارات التعامل مع الآخرين.",
+   "explanation_en": "'Soft skills' are people skills."
+  },
+  {
+   "question": "'Which bright spark put salt in the sugar bowl?' The speaker is...",
+   "choices": [
+    "praising someone",
+    "asking for help",
+    "being sarcastic",
+    "very happy"
+   ],
+   "answer": 2,
+   "explanation_ar": "a bright spark تستخدم هنا بسخرية.",
+   "explanation_en": "'Bright spark' is used sarcastically here."
+  },
+  {
+   "question": "'You've got a new bag? Big deal.' The speaker is...",
+   "choices": [
+    "very excited",
+    "jealous",
+    "not impressed",
+    "sad"
+   ],
+   "answer": 2,
+   "explanation_ar": "Big deal = لست منبهراً.",
+   "explanation_en": "'Big deal' shows you are not impressed."
+  },
+  {
+   "question": "A four-hour programme showing a train journey is an example of ___.",
+   "choices": [
+    "small talk",
+    "clever clogs",
+    "fat chance",
+    "slow TV"
+   ],
+   "answer": 3,
+   "explanation_ar": "slow TV = برامج طويلة هادئة.",
+   "explanation_en": "'Slow TV' shows a whole ordinary event slowly."
+  },
+  {
+   "question": "A person who always shows they know more than you is a ___.",
+   "choices": [
+    "clever clogs",
+    "bright spark",
+    "small change",
+    "soft skill"
+   ],
+   "answer": 0,
+   "explanation_ar": "clever clogs = شخص يتظاهر بمعرفة كل شيء.",
+   "explanation_en": "A 'clever clogs' acts as if they know everything."
+  },
+  {
+   "question": "'Losing my umbrella is small change compared with losing my passport.' 'Small change' means...",
+   "choices": [
+    "coins",
+    "not important",
+    "a new plan",
+    "cheap"
+   ],
+   "answer": 1,
+   "explanation_ar": "small change هنا = شيء غير مهم.",
+   "explanation_en": "Here 'small change' means not important."
+  }
+ ]
+}

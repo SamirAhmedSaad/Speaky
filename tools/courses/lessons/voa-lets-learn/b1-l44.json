@@ -1,0 +1,478 @@
+{
+ "title": "Making Healthy Choices",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "hungry",
+    "pos": "adjective",
+    "meaning_en": "wanting or needing food",
+    "meaning_ar": "جائع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm hungry. Let's eat."
+   },
+   {
+    "word": "junk food",
+    "pos": "noun",
+    "meaning_en": "food that is not healthy, with a lot of fat, sugar or salt",
+    "meaning_ar": "أطعمة غير صحية (كثيرة الدهون والسكر والملح)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Chips and candy are junk food."
+   },
+   {
+    "word": "healthy",
+    "pos": "adjective",
+    "meaning_en": "good for your body",
+    "meaning_ar": "صحي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Fruit is a healthy snack."
+   },
+   {
+    "word": "supermarket",
+    "pos": "noun",
+    "meaning_en": "a large shop that sells food and things for the home",
+    "meaning_ar": "سوبر ماركت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We buy our food at the supermarket."
+   },
+   {
+    "word": "huge",
+    "pos": "adjective",
+    "meaning_en": "very, very big",
+    "meaning_ar": "ضخم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Their house is huge!"
+   },
+   {
+    "word": "vegetables",
+    "pos": "noun",
+    "meaning_en": "plants we eat, like carrots, peas and potatoes",
+    "meaning_ar": "خضروات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I should eat more vegetables."
+   },
+   {
+    "word": "fruit",
+    "pos": "noun",
+    "meaning_en": "the sweet part of a plant we eat, like apples and bananas",
+    "meaning_ar": "فاكهة",
+    "note_ar": "غالباً غير معدود: some fruit.",
+    "note_en": "Usually uncountable: some fruit.",
+    "example": "Do you want some fruit?"
+   },
+   {
+    "word": "celery",
+    "pos": "noun",
+    "meaning_en": "a green vegetable with long stems",
+    "meaning_ar": "كرفس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Celery is mostly water."
+   },
+   {
+    "word": "percent",
+    "pos": "noun",
+    "meaning_en": "out of every hundred (%)",
+    "meaning_ar": "بالمئة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Fifty percent of the students are girls."
+   },
+   {
+    "word": "silly",
+    "pos": "adjective",
+    "meaning_en": "not serious; a little foolish",
+    "meaning_ar": "سخيف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't be silly!"
+   },
+   {
+    "word": "ice cream",
+    "pos": "noun",
+    "meaning_en": "a cold, sweet frozen food made from milk",
+    "meaning_ar": "آيس كريم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'd like a chocolate ice cream."
+   },
+   {
+    "word": "cart",
+    "pos": "noun",
+    "meaning_en": "a large metal basket on wheels used in a supermarket",
+    "meaning_ar": "عربة التسوق",
+    "note_ar": "بالبريطانية: trolley.",
+    "note_en": "UK: trolley.",
+    "example": "Put the bags in the cart."
+   },
+   {
+    "word": "frozen",
+    "pos": "adjective",
+    "meaning_en": "made very cold so it becomes hard like ice",
+    "meaning_ar": "مجمّد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We bought frozen peas."
+   },
+   {
+    "word": "aisle",
+    "pos": "noun",
+    "meaning_en": "a passage between rows of shelves in a shop",
+    "meaning_ar": "ممر (بين الرفوف)",
+    "note_ar": "حرف s صامت: /aɪl/.",
+    "note_en": "The s is silent: /aɪl/.",
+    "example": "The bread is in aisle three."
+   },
+   {
+    "word": "peas",
+    "pos": "noun",
+    "meaning_en": "small round green vegetables",
+    "meaning_ar": "بازلاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Frozen peas are easy to cook."
+   },
+   {
+    "word": "fresh",
+    "pos": "adjective",
+    "meaning_en": "recently made or picked; not old",
+    "meaning_ar": "طازج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I love fresh bread."
+   },
+   {
+    "word": "bakery",
+    "pos": "noun",
+    "meaning_en": "a shop or place where bread and cakes are made",
+    "meaning_ar": "مخبز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There is a bakery near my house."
+   },
+   {
+    "word": "loaf",
+    "pos": "noun",
+    "meaning_en": "bread baked in one piece",
+    "meaning_ar": "رغيف",
+    "note_ar": "الجمع: loaves.",
+    "note_en": "Plural: loaves.",
+    "example": "Can I have a loaf of bread, please?"
+   },
+   {
+    "word": "whole wheat",
+    "pos": "adjective",
+    "meaning_en": "made from all of the wheat grain; healthier",
+    "meaning_ar": "قمح كامل (أسمر)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I like whole wheat bread."
+   },
+   {
+    "word": "organic",
+    "pos": "adjective",
+    "meaning_en": "grown without chemicals",
+    "meaning_ar": "عضوي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These apples are organic."
+   },
+   {
+    "word": "donut",
+    "pos": "noun",
+    "meaning_en": "a small round sweet cake, often with a hole in the middle",
+    "meaning_ar": "دونات",
+    "note_ar": "تُكتب أيضاً doughnut.",
+    "note_en": "Also spelled doughnut.",
+    "example": "He had a donut with his coffee."
+   },
+   {
+    "word": "fat",
+    "pos": "noun",
+    "meaning_en": "the oily part of food",
+    "meaning_ar": "دهون",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This food has a lot of fat."
+   },
+   {
+    "word": "sugar",
+    "pos": "noun",
+    "meaning_en": "a sweet white or brown food",
+    "meaning_ar": "سكر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't put too much sugar in your tea."
+   },
+   {
+    "word": "cholesterol",
+    "pos": "noun",
+    "meaning_en": "a fatty substance in the blood; too much is bad for the heart",
+    "meaning_ar": "كوليسترول",
+    "note_ar": "تُنطق /kəˈlɛstərɒl/.",
+    "note_en": "Say /kəˈlɛstərɒl/.",
+    "example": "My doctor checked my cholesterol."
+   },
+   {
+    "word": "cool off",
+    "pos": "phrasal verb",
+    "meaning_en": "to become calm again (or less hot)",
+    "meaning_ar": "يهدأ / يبرد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You two are angry. Go cool off."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "must not vs don't have to",
+    "words": [
+     "mustn't",
+     "don't have to"
+    ],
+    "explanation_ar": "mustn't = ممنوع، لا تفعل ذلك. don't have to = ليس ضرورياً، أنت حر أن تفعل أو لا تفعل.",
+    "explanation_en": "Mustn't = it's not allowed; don't do it. Don't have to = it's not necessary; you can choose.",
+    "examples": [
+     {
+      "word": "mustn't",
+      "sentence": "You mustn't buy donuts."
+     },
+     {
+      "word": "don't have to",
+      "sentence": "You don't have to buy bread."
+     }
+    ]
+   },
+   {
+    "title": "should vs must",
+    "words": [
+     "should",
+     "must"
+    ],
+    "explanation_ar": "should نصيحة (فكرة جيدة). must أقوى: ضرورة أو قاعدة.",
+    "explanation_en": "Should is advice (a good idea). Must is stronger: it is necessary, or a rule.",
+    "examples": [
+     {
+      "word": "should",
+      "sentence": "I should eat more vegetables."
+     },
+     {
+      "word": "must",
+      "sentence": "You must eat more vegetables."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Where are you going?",
+    "meaning_ar": "إلى أين أنت ذاهب؟",
+    "meaning_en": "Asking about someone's destination.",
+    "example": "Hi, Sara! Where are you going?"
+   },
+   {
+    "phrase": "I should eat healthy food.",
+    "meaning_ar": "ينبغي أن آكل طعاماً صحياً.",
+    "meaning_en": "It's a good idea for me to eat healthy food.",
+    "example": "I should eat more fruit and drink more water."
+   },
+   {
+    "phrase": "Good idea!",
+    "meaning_ar": "فكرة جيدة!",
+    "meaning_en": "I agree with your idea.",
+    "example": "Let's walk to school. - Good idea!"
+   },
+   {
+    "phrase": "See you later!",
+    "meaning_ar": "أراك لاحقاً!",
+    "meaning_en": "A friendly goodbye.",
+    "example": "I have to go now. See you later!"
+   },
+   {
+    "phrase": "Be nice to each other.",
+    "meaning_ar": "كونا لطيفَين مع بعضكما.",
+    "meaning_en": "Don't fight; be kind.",
+    "example": "Please be nice to each other, children."
+   },
+   {
+    "phrase": "That does sound good.",
+    "meaning_ar": "هذا يبدو جيداً فعلاً.",
+    "meaning_en": "I really like that idea (does adds emphasis).",
+    "example": "Pizza for dinner? That does sound good."
+   },
+   {
+    "phrase": "You are no fun at all.",
+    "meaning_ar": "أنت ممل جداً.",
+    "meaning_en": "You never want to do anything enjoyable.",
+    "example": "You never want to play. You're no fun at all!"
+   },
+   {
+    "phrase": "It's none of your business.",
+    "meaning_ar": "ليس من شأنك.",
+    "meaning_en": "This is private; don't ask about it.",
+    "example": "How much money do I have? That's none of your business."
+   },
+   {
+    "phrase": "I'm sick and tired of ...",
+    "meaning_ar": "سئمت من ...",
+    "meaning_en": "I am very annoyed by something that happens again and again.",
+    "example": "I'm sick and tired of this noise."
+   },
+   {
+    "phrase": "Stop it!",
+    "meaning_ar": "توقف!",
+    "meaning_en": "Stop doing that now.",
+    "example": "Stop it! You are being silly."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "should for advice",
+    "explanation_ar": "نستخدم should + الفعل في المصدر لنقول إن شيئاً ما فكرة جيدة (نصيحة). النفي: shouldn't. لا نضيف s مع he/she: He should eat. ويمكن أن نقول should be able to = من المفروض أن تستطيع.",
+    "explanation_en": "Use should + base verb to say something is a good idea (advice). Negative: shouldn't. No -s with he/she: He should eat. Should be able to = it's likely you can.",
+    "examples": [
+     "I know I should eat healthy food.",
+     "You should eat healthy food.",
+     "You should be able to find all kinds of food there."
+    ]
+   },
+   {
+    "title": "must / mustn't / don't have to",
+    "explanation_ar": "must + الفعل = ضروري جداً (أقوى من should). mustn't (must not) = ممنوع. أما don't have to فمعناها «ليس ضرورياً». انتبه: mustn't و don't have to مختلفان تماماً.",
+    "explanation_en": "Must + base verb = very necessary (stronger than should). Mustn't (must not) = do not do it. Don't have to = it's not necessary. Careful: mustn't and don't have to are very different.",
+    "examples": [
+     "You must eat more vegetables.",
+     "You mustn't eat junk food.",
+     "You don't have to buy bread."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "\"You mustn't eat junk food\" means ...",
+   "choices": [
+    "Don't eat it.",
+    "You can eat it if you want.",
+    "You should eat it.",
+    "You need to eat it."
+   ],
+   "answer": 0,
+   "explanation_ar": "mustn't = ممنوع، لا تفعل.",
+   "explanation_en": "Mustn't = do not do it."
+  },
+  {
+   "question": "\"You don't have to buy bread\" means ...",
+   "choices": [
+    "You must not buy bread.",
+    "Buying bread is not necessary.",
+    "You should buy bread.",
+    "Bread is bad."
+   ],
+   "answer": 1,
+   "explanation_ar": "don't have to = ليس ضرورياً.",
+   "explanation_en": "Don't have to = it's not necessary."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "She shoulds eat fruit.",
+    "She should to eat fruit.",
+    "She should eat fruit.",
+    "She should eating fruit."
+   ],
+   "answer": 2,
+   "explanation_ar": "should + الفعل في المصدر بدون to وبدون s.",
+   "explanation_en": "Should + base verb, no to and no -s."
+  },
+  {
+   "question": "Chips, candy and donuts are ...",
+   "choices": [
+    "vegetables",
+    "organic",
+    "frozen peas",
+    "junk food"
+   ],
+   "answer": 3,
+   "explanation_ar": "هذه أطعمة غير صحية: junk food.",
+   "explanation_en": "These are unhealthy foods: junk food."
+  },
+  {
+   "question": "Where can you smell fresh bread?",
+   "choices": [
+    "in a bakery",
+    "in the frozen food aisle",
+    "at the airport",
+    "in a vending machine"
+   ],
+   "answer": 0,
+   "explanation_ar": "المخبز bakery يصنع الخبز.",
+   "explanation_en": "A bakery makes bread."
+  },
+  {
+   "question": "Complete: \"Can I have a ____ of bread, please?\"",
+   "choices": [
+    "cart",
+    "aisle",
+    "loaf",
+    "percent"
+   ],
+   "answer": 2,
+   "explanation_ar": "a loaf of bread = رغيف خبز.",
+   "explanation_en": "A loaf of bread."
+  },
+  {
+   "question": "Which word means \"very, very big\"?",
+   "choices": [
+    "silly",
+    "fresh",
+    "healthy",
+    "huge"
+   ],
+   "answer": 3,
+   "explanation_ar": "huge = ضخم.",
+   "explanation_en": "Huge = very, very big."
+  },
+  {
+   "question": "\"My cholesterol is none of your business!\" means ...",
+   "choices": [
+    "You are my business partner.",
+    "Don't ask about it; it's private.",
+    "Please help me with it.",
+    "I don't know about it."
+   ],
+   "answer": 1,
+   "explanation_ar": "none of your business = ليس من شأنك.",
+   "explanation_en": "None of your business = it's private, don't ask."
+  },
+  {
+   "question": "Which is the strongest?",
+   "choices": [
+    "You should eat vegetables.",
+    "You could eat vegetables.",
+    "You must eat vegetables.",
+    "You might eat vegetables."
+   ],
+   "answer": 2,
+   "explanation_ar": "must أقوى من should و could و might.",
+   "explanation_en": "Must is stronger than should, could and might."
+  },
+  {
+   "question": "Food that is grown without chemicals is ...",
+   "choices": [
+    "frozen",
+    "organic",
+    "junky",
+    "whole"
+   ],
+   "answer": 1,
+   "explanation_ar": "organic = عضوي، بدون مواد كيميائية.",
+   "explanation_en": "Organic = grown without chemicals."
+  }
+ ]
+}

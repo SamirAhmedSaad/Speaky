@@ -1,0 +1,391 @@
+{
+  "title": "Ordering at a Coffee Shop",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "coffee",
+        "pos": "noun",
+        "meaning_en": "a hot brown drink made from roasted beans",
+        "meaning_ar": "قهوة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I drink a coffee every morning."
+      },
+      {
+        "word": "cappuccino",
+        "pos": "noun",
+        "meaning_en": "coffee made with espresso and hot milk with foam on top",
+        "meaning_ar": "كابتشينو",
+        "note_ar": "تُنطق: كا-بو-تشي-نو",
+        "note_en": "Say: /ˌkæpʊˈtʃiːnəʊ/.",
+        "example": "I'll have a cappuccino, please."
+      },
+      {
+        "word": "medium",
+        "pos": "adjective",
+        "meaning_en": "not big and not small; the middle size",
+        "meaning_ar": "متوسط (الحجم)",
+        "note_ar": "الأحجام: small - medium - large",
+        "note_en": "Sizes: small, medium, large.",
+        "example": "A medium coffee, please."
+      },
+      {
+        "word": "size",
+        "pos": "noun",
+        "meaning_en": "how big or small something is",
+        "meaning_ar": "حجم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What size would you like?"
+      },
+      {
+        "word": "type",
+        "pos": "noun",
+        "meaning_en": "a kind or sort of something",
+        "meaning_ar": "نوع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What type of coffee do you like?"
+      },
+      {
+        "word": "muffin",
+        "pos": "noun",
+        "meaning_en": "a small sweet cake",
+        "meaning_ar": "كعكة صغيرة (مافن)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She bought a blueberry muffin."
+      },
+      {
+        "word": "chocolate chip",
+        "pos": "noun",
+        "meaning_en": "small pieces of chocolate inside a cake or cookie",
+        "meaning_ar": "رقائق الشوكولاتة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like cookies with chocolate chips."
+      },
+      {
+        "word": "cash",
+        "pos": "noun",
+        "meaning_en": "money in coins and paper notes",
+        "meaning_ar": "نقدًا / مال نقدي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I pay in cash?"
+      },
+      {
+        "word": "card",
+        "pos": "noun",
+        "meaning_en": "a bank card you use to pay",
+        "meaning_ar": "بطاقة (بنكية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll pay by card."
+      },
+      {
+        "word": "receipt",
+        "pos": "noun",
+        "meaning_en": "a paper that shows what you bought and paid",
+        "meaning_ar": "إيصال / فاتورة",
+        "note_ar": "حرف p صامت: /rɪˈsiːt/",
+        "note_en": "The p is silent: /rɪˈsiːt/.",
+        "example": "Here's your receipt."
+      },
+      {
+        "word": "order",
+        "pos": "noun",
+        "meaning_en": "the food or drinks you ask for in a shop or café",
+        "meaning_ar": "طلب",
+        "note_ar": "",
+        "note_en": "Also a verb: to order.",
+        "example": "Your order is ready."
+      },
+      {
+        "word": "ready",
+        "pos": "adjective",
+        "meaning_en": "prepared and available to use",
+        "meaning_ar": "جاهز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your coffee will be ready soon."
+      },
+      {
+        "word": "absolutely",
+        "pos": "adverb",
+        "meaning_en": "a strong way to say yes",
+        "meaning_ar": "بالتأكيد / طبعًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Can I sit here?\" \"Absolutely.\""
+      },
+      {
+        "word": "actually",
+        "pos": "adverb",
+        "meaning_en": "used to add or change something you said",
+        "meaning_ar": "في الحقيقة / بالمناسبة",
+        "note_ar": "",
+        "note_en": "It does not mean \"now\".",
+        "example": "Actually, can I also have some water?"
+      },
+      {
+        "word": "to go",
+        "pos": "phrase",
+        "meaning_en": "to take away and eat or drink outside the shop",
+        "meaning_ar": "للأخذ معك (سفري)",
+        "note_ar": "في بريطانيا يقولون أيضًا: to take away",
+        "note_en": "UK also: takeaway.",
+        "example": "A coffee to go, please."
+      },
+      {
+        "word": "for here",
+        "pos": "phrase",
+        "meaning_en": "to eat or drink inside the shop",
+        "meaning_ar": "للتناول في المحل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is it for here or to go?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "for here vs to go",
+        "words": [
+          "for here",
+          "to go"
+        ],
+        "explanation_ar": "for here: تشرب أو تأكل داخل المقهى. to go: تأخذ الطلب معك إلى الخارج.",
+        "explanation_en": "\"For here\" means you stay in the café. \"To go\" means you take it with you.",
+        "examples": [
+          {
+            "word": "for here",
+            "sentence": "I'll have it for here, please."
+          },
+          {
+            "word": "to go",
+            "sentence": "A tea to go, please."
+          }
+        ]
+      },
+      {
+        "title": "cash vs card",
+        "words": [
+          "cash",
+          "card"
+        ],
+        "explanation_ar": "cash هو المال الورقي والمعدني، وcard هي البطاقة البنكية. نقول: pay in cash و pay by card / with card.",
+        "explanation_en": "Cash is coins and notes. A card is a bank card. We say \"pay in cash\" and \"pay by card\" or \"pay with card\".",
+        "examples": [
+          {
+            "word": "cash",
+            "sentence": "I'll pay in cash."
+          },
+          {
+            "word": "card",
+            "sentence": "Can I pay by card?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can I get a coffee, please?",
+        "meaning_ar": "هل يمكنني الحصول على قهوة من فضلك؟",
+        "meaning_en": "A polite way to ask for something in a shop.",
+        "example": "Can I get a tea, please?"
+      },
+      {
+        "phrase": "What type of coffee would you like?",
+        "meaning_ar": "أي نوع من القهوة تريد؟",
+        "meaning_en": "The worker asks which kind of coffee you want.",
+        "example": "What type of tea would you like?"
+      },
+      {
+        "phrase": "I'll have a cappuccino, please.",
+        "meaning_ar": "سآخذ كابتشينو من فضلك.",
+        "meaning_en": "A polite way to order.",
+        "example": "I'll have an orange juice, please."
+      },
+      {
+        "phrase": "Sure thing.",
+        "meaning_ar": "بالتأكيد.",
+        "meaning_en": "An informal way to say \"yes, of course\".",
+        "example": "\"Can you help me?\" \"Sure thing.\""
+      },
+      {
+        "phrase": "Would you like it for here or to go?",
+        "meaning_ar": "هل تريده هنا أم سفري؟",
+        "meaning_en": "The worker asks if you will stay or take it out.",
+        "example": "Would you like your sandwich for here or to go?"
+      },
+      {
+        "phrase": "Anything else?",
+        "meaning_ar": "هل تريد شيئًا آخر؟",
+        "meaning_en": "The worker asks if you want more.",
+        "example": "Anything else? No, thank you."
+      },
+      {
+        "phrase": "That will be $8.",
+        "meaning_ar": "المجموع ثمانية دولارات.",
+        "meaning_en": "The worker tells you the price.",
+        "example": "That will be five dollars, please."
+      },
+      {
+        "phrase": "Cash or card?",
+        "meaning_ar": "نقدًا أم بالبطاقة؟",
+        "meaning_en": "The worker asks how you will pay.",
+        "example": "Cash or card? Card, please."
+      },
+      {
+        "phrase": "Your order will be ready in just a few minutes.",
+        "meaning_ar": "سيكون طلبك جاهزًا خلال دقائق قليلة.",
+        "meaning_en": "The worker tells you to wait a little.",
+        "example": "Your food will be ready in a few minutes."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Ordering politely: I'll have / Can I get",
+        "explanation_ar": "للطلب بأدب نستخدم: I'll have + الشيء + please، أو Can I get + الشيء + please? كلمة please تجعل الطلب مهذبًا.",
+        "explanation_en": "To order politely, say \"I'll have ... , please\" or \"Can I get ... , please?\". \"Please\" makes it polite.",
+        "examples": [
+          "I'll have a tea, please.",
+          "Can I get a muffin, please?",
+          "Can I also get a water, please?"
+        ]
+      },
+      {
+        "title": "Would you like ...?",
+        "explanation_ar": "نستخدم Would you like لنعرض شيئًا أو نسأل عن رغبة شخص بأدب. بعدها اسم أو to + فعل.",
+        "explanation_en": "We use \"Would you like ...?\" to offer something or ask what someone wants, politely.",
+        "examples": [
+          "Would you like a muffin?",
+          "Would you like it hot or iced?",
+          "Would you like to sit here?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What does \"to go\" mean in a coffee shop?",
+      "choices": [
+        "to drink it in the shop",
+        "to take it with you",
+        "to go home now",
+        "to pay later"
+      ],
+      "answer": 1,
+      "explanation_ar": "to go تعني أن تأخذ الطلب معك إلى الخارج.",
+      "explanation_en": "\"To go\" means you take your order out of the shop."
+    },
+    {
+      "question": "Choose the polite order:",
+      "choices": [
+        "Give me coffee.",
+        "I want coffee now.",
+        "I'll have a coffee, please.",
+        "Coffee!"
+      ],
+      "answer": 2,
+      "explanation_ar": "I'll have ... please هي الطريقة المهذبة للطلب.",
+      "explanation_en": "\"I'll have ..., please\" is polite."
+    },
+    {
+      "question": "\"Cash or card?\" The worker wants to know ...",
+      "choices": [
+        "how you will pay",
+        "your name",
+        "the size",
+        "what you want to eat"
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن طريقة الدفع.",
+      "explanation_en": "The question is about how you will pay."
+    },
+    {
+      "question": "Small, ____, or large?",
+      "choices": [
+        "middle",
+        "half",
+        "centre",
+        "medium"
+      ],
+      "answer": 3,
+      "explanation_ar": "الأحجام هي small, medium, large.",
+      "explanation_en": "The sizes are small, medium and large."
+    },
+    {
+      "question": "What is a \"receipt\"?",
+      "choices": [
+        "a paper that shows what you paid",
+        "a kind of coffee",
+        "a small cake",
+        "a bank card"
+      ],
+      "answer": 0,
+      "explanation_ar": "receipt هو الإيصال الذي يبين ما دفعته.",
+      "explanation_en": "A receipt is a paper that shows what you bought and paid."
+    },
+    {
+      "question": "____ you like it for here or to go?",
+      "choices": [
+        "Do",
+        "Would",
+        "Are",
+        "Will"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول Would you like للعرض المهذب.",
+      "explanation_en": "We say \"Would you like ...?\" to ask politely."
+    },
+    {
+      "question": "\"Actually, can I also get a muffin?\" Here \"actually\" is used to ...",
+      "choices": [
+        "say no",
+        "say goodbye",
+        "add something to the order",
+        "pay"
+      ],
+      "answer": 2,
+      "explanation_ar": "actually هنا لإضافة شيء جديد إلى الطلب.",
+      "explanation_en": "Here \"actually\" adds something new to the order."
+    },
+    {
+      "question": "Which letter is silent in \"receipt\"?",
+      "choices": [
+        "r",
+        "p",
+        "t",
+        "c"
+      ],
+      "answer": 1,
+      "explanation_ar": "حرف p في receipt لا يُنطق.",
+      "explanation_en": "The p in \"receipt\" is silent."
+    },
+    {
+      "question": "\"Absolutely.\" means ...",
+      "choices": [
+        "No, sorry.",
+        "Maybe.",
+        "I don't know.",
+        "Yes, of course."
+      ],
+      "answer": 3,
+      "explanation_ar": "absolutely هنا تعني نعم بالتأكيد.",
+      "explanation_en": "\"Absolutely\" here means \"yes, of course\"."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "I'll pay with card, please.",
+        "I'll pay on card, please.",
+        "I'll pay at card, please.",
+        "I'll pay in card, please."
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول pay with card أو pay by card.",
+      "explanation_en": "We say \"pay with card\" or \"pay by card\"."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Body Language Expressions",
+  "content": {
+    "vocabulary": [
+      {"word": "jaw", "pos": "noun", "meaning_en": "the lower part of your face that moves when you open your mouth", "meaning_ar": "الفك", "note_ar": "", "note_en": "", "example": "He opened his jaw wide."},
+      {"word": "jerk", "pos": "verb / noun", "meaning_en": "a quick, sudden movement; to pull suddenly", "meaning_ar": "يشدّ فجأة / حركة مفاجئة", "note_ar": "", "note_en": "", "example": "The bus stopped with a jerk."},
+      {"word": "pop", "pos": "verb", "meaning_en": "to make a small explosion sound; to come out suddenly", "meaning_ar": "يفرقع / يبرز فجأة", "note_ar": "", "note_en": "", "example": "Popcorn pops in the pan."},
+      {"word": "slap", "pos": "verb", "meaning_en": "to hit with the open hand", "meaning_ar": "يضرب بكفّ اليد / يصفع", "note_ar": "", "note_en": "", "example": "He slapped his knee and laughed."},
+      {"word": "clench", "pos": "verb", "meaning_en": "to close or hold something very tightly", "meaning_ar": "يُطبق / يقبض بقوة", "note_ar": "clench your fist = يقبض يده", "note_en": "clench your fist / jaw", "example": "She clenched her fist in anger."},
+      {"word": "knuckle", "pos": "noun", "meaning_en": "the joint in your finger", "meaning_ar": "مفصل الإصبع", "note_ar": "", "note_en": "", "example": "Her knuckles went white as she held the rail."},
+      {"word": "nail-biting", "pos": "adjective", "meaning_en": "very stressful and exciting; it makes you nervous", "meaning_ar": "مثير للتوتر / يحبس الأنفاس", "note_ar": "", "note_en": "", "example": "Waiting for the exam results was nail-biting."},
+      {"word": "jaw-clenching", "pos": "adjective", "meaning_en": "showing anger you hold back, or strong determination", "meaning_ar": "يدلّ على غضب مكبوت أو عزيمة", "note_ar": "", "note_en": "", "example": "It was a jaw-clenching moment when he insulted my work."},
+      {"word": "head-shaking", "pos": "noun / adjective", "meaning_en": "showing disagreement or rejection", "meaning_ar": "هزّ الرأس رفضًا / عدم موافقة", "note_ar": "", "note_en": "", "example": "His idea was met with a lot of head-shaking."},
+      {"word": "head-scratching", "pos": "adjective", "meaning_en": "confusing; puzzling", "meaning_ar": "محيّر", "note_ar": "", "note_en": "", "example": "The instructions were head-scratching."},
+      {"word": "knee-slapping", "pos": "adjective", "meaning_en": "extremely funny (or used sarcastically for not funny)", "meaning_ar": "مضحك جدًا", "note_ar": "انتبه للنبرة: قد تكون سخرية", "note_en": "Listen to the tone; it can be sarcastic.", "example": "He told a knee-slapping joke."},
+      {"word": "heart-warming", "pos": "adjective", "meaning_en": "making you feel happy and full of love", "meaning_ar": "يُدفئ القلب / مؤثّر بشكل جميل", "note_ar": "", "note_en": "", "example": "Seeing the kitten and the puppy play was heart-warming."},
+      {"word": "tear-jerking", "pos": "adjective", "meaning_en": "very sad; making you cry", "meaning_ar": "مُبكٍ / يستدرّ الدموع", "note_ar": "a tear-jerker = فيلم أو قصة مُبكية", "note_en": "a tear-jerker = a sad film or story", "example": "The ending of the film was tear-jerking."},
+      {"word": "mouth-watering", "pos": "adjective", "meaning_en": "(food) looking or smelling delicious; very exciting", "meaning_ar": "يسيل له اللعاب", "note_ar": "", "note_en": "", "example": "The smell of the bread was mouth-watering."},
+      {"word": "jaw-dropping", "pos": "adjective", "meaning_en": "so amazing that your mouth falls open", "meaning_ar": "مذهل جدًا", "note_ar": "", "note_en": "", "example": "The view from the tower was jaw-dropping."},
+      {"word": "eye-popping", "pos": "adjective", "meaning_en": "astonishing, impressive, or very bright", "meaning_ar": "مُبهِر / لافت للنظر", "note_ar": "", "note_en": "", "example": "The special effects were eye-popping."},
+      {"word": "white-knuckle", "pos": "adjective", "meaning_en": "very frightening", "meaning_ar": "مرعب", "note_ar": "", "note_en": "", "example": "The plane landing was a white-knuckle experience."},
+      {"word": "finger-pointing", "pos": "noun", "meaning_en": "blaming someone", "meaning_ar": "إلقاء اللوم / توجيه أصابع الاتهام", "note_ar": "", "note_en": "", "example": "After the mistake, there was a lot of finger-pointing."},
+      {"word": "fist-shaking", "pos": "noun", "meaning_en": "showing anger or frustration", "meaning_ar": "هزّ القبضة غضبًا", "note_ar": "", "note_en": "", "example": "There was fist-shaking when the computer crashed again."},
+      {"word": "finger-wag", "pos": "noun", "meaning_en": "moving your finger to say \"no\" or to warn someone", "meaning_ar": "هزّ الإصبع (رفضًا أو تحذيرًا)", "note_ar": "", "note_en": "", "example": "Mum gave me a finger-wag when I reached for the cake."},
+      {"word": "involuntarily", "pos": "adverb", "meaning_en": "without choosing to; automatically", "meaning_ar": "لا إراديًا", "note_ar": "", "note_en": "", "example": "My eyes opened wide involuntarily."}
+    ],
+    "fine_lines": [
+      {"title": "heart-warming vs tear-jerking", "words": ["heart-warming", "tear-jerking"], "explanation_ar": "heart-warming يجعلك تشعر بالسعادة والدفء. tear-jerking يجعلك حزينًا وتبكي.", "explanation_en": "Heart-warming makes you feel happy and warm. Tear-jerking makes you sad and cry.", "examples": [{"word": "heart-warming", "sentence": "The baby's first smile was heart-warming."}, {"word": "tear-jerking", "sentence": "The story of the lost dog was tear-jerking."}]},
+      {"title": "jaw-dropping vs jaw-clenching", "words": ["jaw-dropping", "jaw-clenching"], "explanation_ar": "jaw-dropping: مذهل يجعل فمك ينفتح. jaw-clenching: غضب مكبوت أو عزيمة قوية.", "explanation_en": "Jaw-dropping: amazing, your mouth falls open. Jaw-clenching: holding back anger, or strong determination.", "examples": [{"word": "jaw-dropping", "sentence": "The price was jaw-dropping: only one dollar!"}, {"word": "jaw-clenching", "sentence": "His rude words caused a jaw-clenching silence."}]},
+      {"title": "head-shaking vs head-scratching", "words": ["head-shaking", "head-scratching"], "explanation_ar": "head-shaking: رفض أو عدم موافقة. head-scratching: حيرة وارتباك.", "explanation_en": "Head-shaking: disagreement or rejection. Head-scratching: confusion.", "examples": [{"word": "head-shaking", "sentence": "My plan got only head-shaking from the team."}, {"word": "head-scratching", "sentence": "Building the furniture was a head-scratching job."}]}
+    ],
+    "expressions": [
+      {"phrase": "It was a real tear-jerker.", "meaning_ar": "كان مُبكيًا حقًا.", "meaning_en": "It was a very sad film or story.", "example": "Bring tissues; the film is a real tear-jerker."},
+      {"phrase": "a white-knuckle ride", "meaning_ar": "رحلة مرعبة", "meaning_en": "a very scary ride or experience", "example": "The mountain road was a white-knuckle ride."},
+      {"phrase": "a nail-biting finish", "meaning_ar": "نهاية تحبس الأنفاس", "meaning_en": "a very close, exciting end", "example": "The match had a nail-biting finish."}
+    ],
+    "grammar": [
+      {"title": "Compound adjectives: noun + -ing", "explanation_ar": "تُصنع هذه الصفات من اسم (جزء من الجسم) + فعل بـ -ing وغالبًا بينهما شَرطة: nail-biting, jaw-dropping, eye-popping. وتأتي قبل الاسم أو بعد was/is.", "explanation_en": "These adjectives are made from a noun (body part) + verb-ing, often with a hyphen: nail-biting, jaw-dropping, eye-popping. Use them before a noun or after be.", "examples": ["It was a jaw-dropping view.", "The ending was heart-warming.", "We watched a nail-biting game."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"Josh's wife looked amazing in her wedding dress.\" Stronger:", "choices": ["She looked jaw-clenching.", "She looked jaw-dropping.", "She looked head-scratching.", "She looked nail-biting."], "answer": 1, "explanation_ar": "jaw-dropping = مذهل.", "explanation_en": "Jaw-dropping = amazing."},
+    {"question": "\"Her joke was very good.\" Stronger: It was ___.", "choices": ["knee-slapping", "head-shaking", "tear-jerking", "white-knuckle"], "answer": 0, "explanation_ar": "knee-slapping = مضحك جدًا.", "explanation_en": "Knee-slapping = very funny."},
+    {"question": "A confusing tweet that nobody understood was ___.", "choices": ["heart-warming", "mouth-watering", "head-scratching", "eye-popping"], "answer": 2, "explanation_ar": "head-scratching = محيّر.", "explanation_en": "Head-scratching = confusing."},
+    {"question": "Waiting to find out if I got the job was ___.", "choices": ["knee-slapping", "heart-warming", "mouth-watering", "nail-biting"], "answer": 3, "explanation_ar": "nail-biting = مثير للتوتر.", "explanation_en": "Nail-biting = very stressful."},
+    {"question": "\"The special effects in the movie were great.\" Stronger:", "choices": ["eye-popping", "tear-jerking", "head-shaking", "finger-pointing"], "answer": 0, "explanation_ar": "eye-popping = مُبهِر.", "explanation_en": "Eye-popping = astonishing."},
+    {"question": "\"Seeing the kitten and the puppy play was nice.\" Stronger:", "choices": ["jaw-clenching", "heart-warming", "white-knuckle", "fist-shaking"], "answer": 1, "explanation_ar": "heart-warming = يُدفئ القلب.", "explanation_en": "Heart-warming = makes you feel happy and warm."},
+    {"question": "The smell of the fresh bread was ___.", "choices": ["finger-pointing", "head-shaking", "mouth-watering", "tear-jerking"], "answer": 2, "explanation_ar": "mouth-watering = يسيل له اللعاب.", "explanation_en": "Mouth-watering = looks/smells delicious."},
+    {"question": "After the project failed, everyone blamed each other. There was a lot of ___.", "choices": ["knee-slapping", "heart-warming", "mouth-watering", "finger-pointing"], "answer": 3, "explanation_ar": "finger-pointing = إلقاء اللوم.", "explanation_en": "Finger-pointing = blaming."},
+    {"question": "A very scary roller coaster is a ___ ride.", "choices": ["white-knuckle", "heart-warming", "knee-slapping", "mouth-watering"], "answer": 0, "explanation_ar": "white-knuckle = مرعب.", "explanation_en": "White-knuckle = very scary."},
+    {"question": "\"Clench\" means:", "choices": ["to open wide", "to hold tightly", "to hit with an open hand", "to cry"], "answer": 1, "explanation_ar": "clench = يُطبق بقوة.", "explanation_en": "Clench = hold tightly."}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Flour Baby, Part 2",
+  "content": {
+    "vocabulary": [
+      {"word": "instruct", "pos": "verb", "meaning_en": "to tell someone what to do", "meaning_ar": "يوجّه / يأمر بالتعليمات", "note_ar": "الاسم instructions", "note_en": "Noun: instructions.", "example": "She instructed them to work alone."},
+      {"word": "experiment", "pos": "noun", "meaning_en": "a test to learn something", "meaning_ar": "تجربة", "note_ar": "", "note_en": "", "example": "The flour baby was an experiment."},
+      {"word": "binder", "pos": "noun", "meaning_en": "a hard cover that holds papers together", "meaning_ar": "ملف / حافظة أوراق", "note_ar": "", "note_en": "", "example": "That's a heavy binder."},
+      {"word": "heavy", "pos": "adjective", "meaning_en": "weighing a lot", "meaning_ar": "ثقيل", "note_ar": "عكسها light", "note_en": "Opposite: light.", "example": "This box is too heavy to lift."},
+      {"word": "bottle", "pos": "noun", "meaning_en": "a container for drinks, like milk for a baby", "meaning_ar": "زجاجة / رضّاعة", "note_ar": "", "note_en": "", "example": "Here's your bottle."},
+      {"word": "accident", "pos": "noun", "meaning_en": "something bad that happens by mistake", "meaning_ar": "حادث", "note_ar": "accidentally = عن غير قصد", "note_en": "Adverb: accidentally.", "example": "I had a little accident in the kitchen."},
+      {"word": "accidentally", "pos": "adverb", "meaning_en": "by mistake; not on purpose", "meaning_ar": "عن غير قصد / بالخطأ", "note_ar": "", "note_en": "", "example": "I accidentally dropped my cup."},
+      {"word": "first aid", "pos": "noun", "meaning_en": "simple medical help given quickly", "meaning_ar": "الإسعافات الأولية", "note_ar": "", "note_en": "", "example": "Every office needs a first aid kit."},
+      {"word": "bandage", "pos": "noun", "meaning_en": "a strip of cloth to cover a cut", "meaning_ar": "ضمادة", "note_ar": "", "note_en": "", "example": "Put a bandage on your finger."},
+      {"word": "burn", "pos": "noun", "meaning_en": "a hurt place on the skin from fire or heat", "meaning_ar": "حرق", "note_ar": "وتأتي فعلًا: to burn", "note_en": "Also a verb.", "example": "Cold water helps a small burn."},
+      {"word": "sink", "pos": "noun", "meaning_en": "a basin with taps for washing", "meaning_ar": "حوض المغسلة", "note_ar": "", "note_en": "", "example": "Put the dirty dishes in the sink."},
+      {"word": "microwave", "pos": "noun", "meaning_en": "an oven that heats food very fast", "meaning_ar": "فرن الميكروويف", "note_ar": "", "note_en": "", "example": "Heat the soup in the microwave."},
+      {"word": "catch fire", "pos": "phrase", "meaning_en": "to start burning", "meaning_ar": "يشتعل / تشتعل فيه النار", "note_ar": "catch - caught - caught", "note_en": "catch - caught - caught", "example": "The paper caught fire."},
+      {"word": "proud of", "pos": "adjective", "meaning_en": "pleased about something good you did", "meaning_ar": "فخور بـ", "note_ar": "", "note_en": "", "example": "You should be very proud of yourself."},
+      {"word": "ashamed of", "pos": "adjective", "meaning_en": "feeling bad about something wrong you did", "meaning_ar": "خَجِل من / يشعر بالخزي من", "note_ar": "عكس proud of", "note_en": "Opposite of proud of.", "example": "You should be ashamed of yourself!"},
+      {"word": "weight", "pos": "noun", "meaning_en": "how heavy something is", "meaning_ar": "وزن", "note_ar": "lose weight = يفقد الوزن", "note_en": "lose weight", "example": "Your baby has lost some weight."},
+      {"word": "bake", "pos": "verb", "meaning_en": "to cook in an oven", "meaning_ar": "يخبز", "note_ar": "", "note_en": "", "example": "I baked cookies this morning."},
+      {"word": "crazy", "pos": "adjective", "meaning_en": "very strange or not sensible", "meaning_ar": "مجنون / غير معقول", "note_ar": "", "note_en": "", "example": "This whole idea is crazy!"},
+      {"word": "chew", "pos": "verb", "meaning_en": "to crush food with your teeth", "meaning_ar": "يمضغ", "note_ar": "", "note_en": "", "example": "Chew your food slowly."}
+    ],
+    "fine_lines": [
+      {"title": "myself vs me after prepositions of place", "words": ["myself", "me"], "explanation_ar": "نستخدم الضمير الانعكاسي عندما يعود على الفاعل: I was making myself dinner. لكن بعد حروف جر المكان (next to, in front of, behind, near) نستخدم الضمير العادي: I put the baby next to me (وليس next to myself).", "explanation_en": "Use a reflexive pronoun when it refers to the subject: I was making myself dinner. But after prepositions of place (next to, in front of, behind, near), use a normal pronoun: I put the baby next to me (not next to myself).", "examples": [{"word": "myself", "sentence": "I made these cookies myself."}, {"word": "me", "sentence": "I put my bag in front of me."}]},
+      {"title": "proud of vs ashamed of", "words": ["proud of", "ashamed of"], "explanation_ar": "proud of = فخور بشيء جيد. ashamed of = خجلان من شيء سيئ فعلته. الاثنان يأتيان مع of.", "explanation_en": "Proud of = happy about something good. Ashamed of = feeling bad about something wrong. Both take of.", "examples": [{"word": "proud of", "sentence": "I am proud of my daughter."}, {"word": "ashamed of", "sentence": "He was ashamed of his bad words."}]}
+    ],
+    "expressions": [
+      {"phrase": "You're next.", "meaning_ar": "دورك الآن.", "meaning_en": "It's your turn now.", "example": "Sara, you're next. Please come in."},
+      {"phrase": "What happened there?", "meaning_ar": "ماذا حدث هنا؟", "meaning_en": "How did this happen?", "example": "Your arm has a bandage. What happened there?"},
+      {"phrase": "You should be proud of yourself.", "meaning_ar": "يجب أن تكون فخورًا بنفسك.", "meaning_en": "You did something good.", "example": "You finished the race! You should be proud of yourself."},
+      {"phrase": "You should be ashamed of yourself!", "meaning_ar": "يجب أن تخجل من نفسك!", "meaning_en": "You did something bad.", "example": "You took his lunch? You should be ashamed of yourself!"},
+      {"phrase": "Will you listen to yourself?", "meaning_ar": "هلّا سمعت ما تقوله؟", "meaning_en": "What you are saying sounds silly.", "example": "Will you listen to yourself? It's just a game!"},
+      {"phrase": "Is there something else you want to share?", "meaning_ar": "هل هناك شيء آخر تريد مشاركته؟", "meaning_en": "Do you have more to tell or show us?", "example": "Thanks for your report. Is there something else you want to share?"},
+      {"phrase": "That is good.", "meaning_ar": "هذا لذيذ / جيد.", "meaning_en": "This tastes good.", "example": "Mmm, that is good. Can I have another?"}
+    ],
+    "grammar": [
+      {"title": "Reflexive pronouns: when to use them and when not to", "explanation_ar": "1) نستخدم الضمير الانعكاسي عندما يعود على فاعل الجملة: I was making myself a salad. 2) يمكن استخدامه للتأكيد بمعنى «بنفسي»: I made them myself. 3) لا نستخدمه بعد حروف جر المكان مثل next to, in front of, behind؛ نستخدم الضمير العادي: I put my baby in front of me. مثال يجمع الحالتين: While I was making myself dinner, I put Baby next to me.", "explanation_en": "1) Use a reflexive pronoun when it refers to the subject: I was making myself a salad. 2) Use it for emphasis (I did it, not someone else): I made them myself. 3) Don't use it after prepositions of place like next to, in front of, behind; use a normal pronoun: I put my baby in front of me. Both in one sentence: While I was making myself dinner, I put Baby next to me.", "examples": ["I was making myself a salad.", "I put my flour baby in front of me.", "I made them myself this morning.", "Ms. Weaver instructed them to do everything by themselves."]}
+    ]
+  },
+  "questions": [
+    {"question": "I put my bag next to ____.", "choices": ["myself", "me", "mine", "I"], "answer": 1, "explanation_ar": "بعد حرف جر المكان next to نستخدم me.", "explanation_en": "After a preposition of place, use me."},
+    {"question": "I made these cookies ____.", "choices": ["me", "mine", "myself", "my"], "answer": 2, "explanation_ar": "للتأكيد أنني صنعتها بنفسي: myself.", "explanation_en": "For emphasis: myself."},
+    {"question": "Which sentence is correct?", "choices": ["She put the box behind herself.", "She put the box behind she.", "She put the box behind hers.", "She put the box behind her."], "answer": 3, "explanation_ar": "بعد behind (حرف جر مكان) نستخدم her.", "explanation_en": "After behind, use her."},
+    {"question": "You did something very good. You should be ____ yourself.", "choices": ["proud of", "ashamed of", "afraid of", "tired of"], "answer": 0, "explanation_ar": "proud of = فخور بـ.", "explanation_en": "Proud of = happy about something good."},
+    {"question": "'Accidentally' means:", "choices": ["on purpose", "by mistake", "very fast", "carefully"], "answer": 1, "explanation_ar": "accidentally = بالخطأ.", "explanation_en": "Accidentally means by mistake."},
+    {"question": "Simple medical help given quickly is ____.", "choices": ["first aid", "a binder", "a bottle", "an experiment"], "answer": 0, "explanation_ar": "first aid = الإسعافات الأولية.", "explanation_en": "First aid is quick, simple medical help."},
+    {"question": "The past of 'catch fire' is:", "choices": ["catched fire", "caught fire", "catch fired", "cought fire"], "answer": 1, "explanation_ar": "تصريف الفعل الشاذ: catch - caught - caught.", "explanation_en": "catch - caught - caught."},
+    {"question": "While Anna was making ____ dinner, she put the baby next to ____.", "choices": ["her / herself", "me / myself", "herself / her", "she / her"], "answer": 2, "explanation_ar": "herself تعود على الفاعل، و her بعد next to.", "explanation_en": "Herself refers to the subject; her comes after next to."},
+    {"question": "To cook bread or cookies in an oven is to ____.", "choices": ["chew", "burn", "sink", "bake"], "answer": 3, "explanation_ar": "bake = يخبز.", "explanation_en": "Bake means to cook in an oven."},
+    {"question": "'Will you listen to yourself?' means:", "choices": ["What you are saying sounds silly.", "Please speak louder.", "Turn on the radio.", "I can't hear you."], "answer": 0, "explanation_ar": "تقال عندما يبدو كلام الشخص غير معقول.", "explanation_en": "We say it when someone's words sound silly."}
+  ]
+}

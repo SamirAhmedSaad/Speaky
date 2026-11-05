@@ -1,0 +1,3012 @@
+{
+ "A1": [
+  {
+   "place": "Street",
+   "e": "👋",
+   "s": "You meet your new neighbour in the morning.",
+   "o": [
+    "Good morning! Nice to meet you.",
+    "Good night! Nice to meet you.",
+    "Morning. Who are you?"
+   ],
+   "n": [
+    "Friendly and correct.",
+    "'Good night' is for going to bed.",
+    "Sounds rude to a new person."
+   ]
+  },
+  {
+   "place": "Café",
+   "e": "☕",
+   "s": "You want a coffee. The waiter looks at you.",
+   "o": [
+    "A coffee, please.",
+    "Give me coffee.",
+    "Coffee me, please."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Too direct, it sounds rude.",
+    "Not English. Say 'A coffee, please'."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🛍️",
+   "s": "You want to know the price of a T-shirt.",
+   "o": [
+    "How much is this, please?",
+    "How many is this?",
+    "Price. Tell me."
+   ],
+   "n": [
+    "Correct and polite.",
+    "Use 'how much' for prices.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🏨",
+   "s": "You arrive at the hotel. You have a booking.",
+   "o": [
+    "Hello, I have a reservation.",
+    "Hello, I am a reservation.",
+    "Give me my room."
+   ],
+   "n": [
+    "Natural and polite.",
+    "Wrong verb: say 'I have'.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "School",
+   "e": "🏫",
+   "s": "Your teacher says something, but you don't understand.",
+   "o": [
+    "Sorry, can you repeat that?",
+    "What? Again!",
+    "Sorry, can you repeat me?"
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too direct, it sounds rude.",
+    "Say 'repeat that', not 'repeat me'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🧑‍🤝‍🧑",
+   "s": "A friend says, 'How are you?'",
+   "o": [
+    "I'm fine, thanks. And you?",
+    "I have fine.",
+    "Why do you ask?"
+   ],
+   "n": [
+    "Natural, friendly reply.",
+    "Grammar mistake: say 'I'm fine'.",
+    "Sounds strange and unfriendly."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "🗺️",
+   "s": "You are lost. You want the train station.",
+   "o": [
+    "Excuse me, where is the station?",
+    "Where is station? Tell.",
+    "Hey you, station where?"
+   ],
+   "n": [
+    "Polite and correct.",
+    "Missing 'the', and it sounds rude.",
+    "Rude and not a full sentence."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍽️",
+   "s": "You finished your meal. You want to pay.",
+   "o": [
+    "Can I have the bill, please?",
+    "Bring money paper.",
+    "I pay now. Go."
+   ],
+   "n": [
+    "Natural and polite.",
+    "Not English. Say 'the bill'.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📞",
+   "s": "You call a friend. Someone else answers.",
+   "o": [
+    "Hi, is Anna there, please?",
+    "Who are you?",
+    "Give phone to Anna."
+   ],
+   "n": [
+    "Polite and natural.",
+    "A rude way to start a call.",
+    "Too direct, and words are missing."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🛍️",
+   "s": "The assistant asks, 'Can I help you?' You are just looking.",
+   "o": [
+    "No, thanks. I'm just looking.",
+    "No. Go away.",
+    "I am only see."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Very rude.",
+    "Grammar mistake: say 'just looking'."
+   ]
+  },
+  {
+   "place": "Airport",
+   "e": "✈️",
+   "s": "At check-in, the worker asks for your passport.",
+   "o": [
+    "Sure, here you are.",
+    "Take.",
+    "Yes, here you go are."
+   ],
+   "n": [
+    "Natural and polite.",
+    "Too short, it sounds rude.",
+    "Mixed phrases. Say 'here you are'."
+   ]
+  },
+  {
+   "place": "Café",
+   "e": "☕",
+   "s": "You want some water with your lunch.",
+   "o": [
+    "Can I have some water, please?",
+    "Water. Now.",
+    "Can I have some waters, please?"
+   ],
+   "n": [
+    "Polite and correct.",
+    "Too direct, it sounds rude.",
+    "'Water' has no plural here."
+   ]
+  },
+  {
+   "place": "School",
+   "e": "🏫",
+   "s": "You arrive late to class.",
+   "o": [
+    "Sorry I'm late.",
+    "I am late, so what?",
+    "Sorry for my late."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Rude to the teacher.",
+    "Not natural. Say 'Sorry I'm late'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🎂",
+   "s": "It's your friend's birthday today.",
+   "o": [
+    "Happy birthday!",
+    "Happy birthday day!",
+    "Good birthday to you."
+   ],
+   "n": [
+    "The normal greeting.",
+    "Don't repeat 'day'.",
+    "Not used. Say 'Happy birthday'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🏨",
+   "s": "You need the Wi-Fi password at the hotel.",
+   "o": [
+    "What's the Wi-Fi password, please?",
+    "Wi-Fi password. Give.",
+    "How is the Wi-Fi password?"
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too direct, it sounds rude.",
+    "Use 'what', not 'how'."
+   ]
+  },
+  {
+   "place": "Bus",
+   "e": "🚌",
+   "s": "You want to know if this bus goes to the centre.",
+   "o": [
+    "Does this bus go to the centre?",
+    "This bus go centre?",
+    "Bus! Centre! Yes?"
+   ],
+   "n": [
+    "Correct question.",
+    "Grammar: say 'Does this bus go'.",
+    "Not a sentence, sounds rude."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "🚶",
+   "s": "You walk into someone by accident.",
+   "o": [
+    "Oh, sorry!",
+    "Watch out!",
+    "Oh, excuse!"
+   ],
+   "n": [
+    "A natural quick apology.",
+    "Blames the other person.",
+    "Say 'excuse me' or 'sorry'."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍽️",
+   "s": "The waiter asks, 'Ready to order?' You need more time.",
+   "o": [
+    "Not yet, sorry. One minute, please.",
+    "No. Go.",
+    "I am not ready for order you."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Very rude.",
+    "Wrong words and word order."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🛒",
+   "s": "You can't find the milk in the supermarket.",
+   "o": [
+    "Excuse me, where's the milk?",
+    "Where you put milk?",
+    "Milk is where, please?"
+   ],
+   "n": [
+    "Polite and natural.",
+    "Sounds like blame, and grammar errors.",
+    "Wrong word order."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "💼",
+   "s": "It's your first day. You meet a new colleague.",
+   "o": [
+    "Hi, I'm Sam. I'm new here.",
+    "Hi, my name Sam. I new.",
+    "Who is the boss?"
+   ],
+   "n": [
+    "Friendly and natural.",
+    "Missing 'is' and 'am'.",
+    "Doesn't introduce you."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📞",
+   "s": "You call a restaurant to book a table for two.",
+   "o": [
+    "Can I book a table for two?",
+    "Table. Two people. Tonight.",
+    "Can I book two tables for me?"
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too short, it sounds rude.",
+    "Wrong meaning: you need one table."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "👋",
+   "s": "You are leaving a party.",
+   "o": [
+    "Bye! See you soon.",
+    "Hello! See you soon.",
+    "I go. Bye bye forever."
+   ],
+   "n": [
+    "A natural goodbye.",
+    "'Hello' is for arriving.",
+    "Strange, it sounds dramatic."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🩺",
+   "s": "The doctor asks, 'What's the problem?' Your head hurts.",
+   "o": [
+    "I have a headache.",
+    "My head is hurt me.",
+    "Head. Bad."
+   ],
+   "n": [
+    "Correct and clear.",
+    "Grammar: say 'My head hurts'.",
+    "Too short, not a sentence."
+   ]
+  },
+  {
+   "place": "Taxi",
+   "e": "🚕",
+   "s": "You get in a taxi. You want to go to the airport.",
+   "o": [
+    "The airport, please.",
+    "Drive airport fast.",
+    "I go to airport, please?"
+   ],
+   "n": [
+    "Polite and natural.",
+    "Too direct, it sounds rude.",
+    "Missing 'the', strange question."
+   ]
+  },
+  {
+   "place": "Café",
+   "e": "🥐",
+   "s": "You want a croissant, and you want to take it away.",
+   "o": [
+    "One croissant to take away, please.",
+    "One croissant to take out from here.",
+    "Croissant. Bag."
+   ],
+   "n": [
+    "Natural and polite.",
+    "Not natural. Say 'to take away'.",
+    "Too short, it sounds rude."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🔑",
+   "s": "You lost your room key.",
+   "o": [
+    "Sorry, I lost my room key.",
+    "Key is lost. Fix.",
+    "Sorry, I losed my key."
+   ],
+   "n": [
+    "Clear and polite.",
+    "Sounds rude and demanding.",
+    "The past of 'lose' is 'lost'."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "⏰",
+   "s": "You want to know the time. You ask a stranger.",
+   "o": [
+    "Excuse me, what time is it?",
+    "Excuse me, what hour is it?",
+    "Time? Quick."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Literal translation. Say 'what time'.",
+    "Rude and too short."
+   ]
+  },
+  {
+   "place": "School",
+   "e": "📚",
+   "s": "You need to borrow a pen from a classmate.",
+   "o": [
+    "Can I borrow a pen, please?",
+    "Can I lend your pen?",
+    "Pen. Give me."
+   ],
+   "n": [
+    "Polite and correct.",
+    "Wrong verb: you 'borrow' it.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "💳",
+   "s": "You want to pay by card.",
+   "o": [
+    "Can I pay by card?",
+    "Can I pay with card of me?",
+    "Card. OK?"
+   ],
+   "n": [
+    "Natural and correct.",
+    "Not natural. Say 'by card'.",
+    "Too short, it sounds rude."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🎁",
+   "s": "A friend gives you a small present.",
+   "o": [
+    "Thank you so much!",
+    "Why? What do you want?",
+    "Thank you very many!"
+   ],
+   "n": [
+    "Warm and natural.",
+    "Sounds suspicious and rude.",
+    "Say 'Thank you very much'."
+   ]
+  },
+  {
+   "place": "Airport",
+   "e": "🧳",
+   "s": "You can't find your gate at the airport.",
+   "o": [
+    "Excuse me, where is gate 12?",
+    "Where gate 12 is?",
+    "Gate 12! Where?!"
+   ],
+   "n": [
+    "Polite and correct.",
+    "Wrong word order in a question.",
+    "Sounds rude and panicky."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "📋",
+   "s": "You want to see the menu.",
+   "o": [
+    "Can I see the menu, please?",
+    "Can I watch the menu?",
+    "Menu, quick."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Wrong verb: say 'see'.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "☎️",
+   "s": "You call someone, but it's the wrong number.",
+   "o": [
+    "Oh, sorry. Wrong number.",
+    "Who are you? Bye.",
+    "Sorry, I have a wrong phone."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Rude and unclear.",
+    "Say 'wrong number', not 'wrong phone'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "💼",
+   "s": "Your colleague says, 'Have a nice weekend!'",
+   "o": [
+    "Thanks, you too!",
+    "Thanks, me too!",
+    "Why?"
+   ],
+   "n": [
+    "The natural reply.",
+    "Wrong: say 'you too'.",
+    "Strange and unfriendly."
+   ]
+  },
+  {
+   "place": "Bank",
+   "e": "🏦",
+   "s": "You want to change dollars to euros.",
+   "o": [
+    "Hi, can I change money here?",
+    "Hi, can I change monies here?",
+    "Money. Change it."
+   ],
+   "n": [
+    "Polite and clear.",
+    "'Money' has no plural.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🩺",
+   "s": "The receptionist asks your name.",
+   "o": [
+    "My name is Ali Khan.",
+    "I am calling Ali Khan.",
+    "Why you need my name?"
+   ],
+   "n": [
+    "Correct and clear.",
+    "Literal translation. Say 'My name is'.",
+    "Rude, with a grammar mistake."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "🐶",
+   "s": "A woman has a cute dog. You want to say something nice.",
+   "o": [
+    "What a lovely dog!",
+    "What a lovely dog have you!",
+    "Your dog is very fat."
+   ],
+   "n": [
+    "A friendly compliment.",
+    "Wrong word order.",
+    "Not nice, it sounds rude."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🍳",
+   "s": "You want to know what time breakfast starts.",
+   "o": [
+    "What time is breakfast?",
+    "When breakfast is?",
+    "Breakfast time, tell me."
+   ],
+   "n": [
+    "Correct and natural.",
+    "Wrong word order.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "👕",
+   "s": "You want to try on a jacket.",
+   "o": [
+    "Can I try this on, please?",
+    "Can I test this jacket on me?",
+    "I wear this now."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Not natural. Say 'try on'.",
+    "Sounds like an order."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🍕",
+   "s": "Your friend asks, 'Pizza or pasta?' You want pizza.",
+   "o": [
+    "Pizza, please!",
+    "Pizza is me.",
+    "I don't care. Whatever."
+   ],
+   "n": [
+    "Clear and friendly.",
+    "Not English. Say 'Pizza for me'.",
+    "Sounds rude, and you want pizza."
+   ]
+  }
+ ],
+ "A2": [
+  {
+   "place": "Shop",
+   "e": "🛍️",
+   "s": "The shirt is too small. You want a bigger one.",
+   "o": [
+    "Do you have this in a larger size?",
+    "This is small. Bring other.",
+    "Do you have this in more big?"
+   ],
+   "n": [
+    "Polite and natural.",
+    "Too direct, it sounds rude.",
+    "Say 'larger' or 'bigger'."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍰",
+   "s": "You are allergic to nuts. You want to order a cake.",
+   "o": [
+    "Does this cake have nuts in it?",
+    "Is there nuts or no?",
+    "I hope no nuts. Bring cake."
+   ],
+   "n": [
+    "Clear and polite.",
+    "Grammar: 'Are there any nuts?'",
+    "Unclear and too direct."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📞",
+   "s": "You call the dentist to make an appointment.",
+   "o": [
+    "Hi, I'd like to make an appointment, please.",
+    "Hi, I want to do an appointment.",
+    "Give me a time tomorrow."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Say 'make', not 'do'.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "💼",
+   "s": "You will be late for work because the bus is late.",
+   "o": [
+    "Hi, sorry, my bus is late. I'll be there soon.",
+    "The bus is late. Not my problem.",
+    "Sorry, I will be late because bus late."
+   ],
+   "n": [
+    "Polite and informative.",
+    "Sounds rude and uncaring.",
+    "Grammar: 'because the bus is late'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🏨",
+   "s": "Your hotel room is very cold.",
+   "o": [
+    "Excuse me, my room is very cold. Can you help?",
+    "My room is freezing. Fix it now.",
+    "Excuse me, my room has cold."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too demanding, it sounds rude.",
+    "Say 'my room is cold'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🎬",
+   "s": "A friend invites you to the cinema, but you're busy.",
+   "o": [
+    "Sorry, I can't tonight. Maybe next time?",
+    "No. I don't want.",
+    "Sorry, I am not possible tonight."
+   ],
+   "n": [
+    "Polite, and keeps the door open.",
+    "Sounds cold and rude.",
+    "Literal translation. Say 'I can't'."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "🗺️",
+   "s": "A tourist asks you for directions. You don't know the way.",
+   "o": [
+    "Sorry, I'm not from here.",
+    "I don't know. Use your phone.",
+    "Sorry, I am not knowing."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Unhelpful and rude.",
+    "Say 'I don't know'."
+   ]
+  },
+  {
+   "place": "Café",
+   "e": "☕",
+   "s": "Your coffee is cold.",
+   "o": [
+    "Sorry, my coffee's a bit cold. Could you warm it up?",
+    "This coffee is terrible. Again.",
+    "Excuse me, can you make my coffee more hot?"
+   ],
+   "n": [
+    "Polite, softened with 'a bit'.",
+    "Rude and unclear.",
+    "Say 'hotter' or 'warm it up'."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🩺",
+   "s": "The doctor asks how long you've had a cough.",
+   "o": [
+    "For about three days.",
+    "Since three days.",
+    "Long time. I don't count."
+   ],
+   "n": [
+    "Correct and clear.",
+    "Use 'for' with a period of time.",
+    "Unhelpful and vague."
+   ]
+  },
+  {
+   "place": "School",
+   "e": "🏫",
+   "s": "You missed class yesterday. You want to know about homework.",
+   "o": [
+    "Sorry, I was absent yesterday. Was there any homework?",
+    "Give me the homework from yesterday.",
+    "Sorry, I was missing yesterday. Is homework?"
+   ],
+   "n": [
+    "Polite and complete.",
+    "Too direct, it sounds rude.",
+    "Not natural. Say 'Was there any homework?'"
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🧾",
+   "s": "You want to return a broken lamp. You have the receipt.",
+   "o": [
+    "Hi, I'd like to return this. It's broken.",
+    "This lamp is rubbish. Money back.",
+    "Hi, I want to give back this broken."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Rude and demanding.",
+    "Not natural. Say 'return this'."
+   ]
+  },
+  {
+   "place": "Neighbours",
+   "e": "🏠",
+   "s": "Your neighbour's music is loud at midnight.",
+   "o": [
+    "Hi, sorry, could you turn the music down a bit?",
+    "Stop the music! People are sleeping!",
+    "Hi, can you make the music more small?"
+   ],
+   "n": [
+    "A polite request.",
+    "Shouting, it sounds aggressive.",
+    "Say 'turn it down'."
+   ]
+  },
+  {
+   "place": "Airport",
+   "e": "✈️",
+   "s": "You want a window seat on the plane.",
+   "o": [
+    "Could I have a window seat, please?",
+    "I sit at window. OK?",
+    "Can I have a seat of window?"
+   ],
+   "n": [
+    "Polite and natural.",
+    "Demanding, with grammar errors.",
+    "Say 'a window seat'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "☕",
+   "s": "A colleague offers you a coffee. You don't want one.",
+   "o": [
+    "No, thanks. I'm fine.",
+    "No. The coffee here is horrible.",
+    "No, I don't want, thanks."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Unnecessary and rude.",
+    "Missing 'one' or 'any'."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍽️",
+   "s": "You and a friend want to pay for your meals separately.",
+   "o": [
+    "Could we pay separately, please?",
+    "We pay two times, please.",
+    "Separate! Each one pays!"
+   ],
+   "n": [
+    "Polite and natural.",
+    "Literal translation, confusing.",
+    "Sounds loud and rude."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📱",
+   "s": "The line is bad. You can't hear the person.",
+   "o": [
+    "Sorry, you're breaking up. Can you say that again?",
+    "What? Speak better!",
+    "Sorry, I can't listen to you."
+   ],
+   "n": [
+    "A natural phone phrase.",
+    "Rude and blaming.",
+    "Say 'hear', not 'listen to'."
+   ]
+  },
+  {
+   "place": "Bank",
+   "e": "🏦",
+   "s": "You want to open a bank account.",
+   "o": [
+    "Hi, I'd like to open an account, please.",
+    "Hi, I want to make open an account.",
+    "Account. I need one now."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Extra word: remove 'make'.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🎉",
+   "s": "Your friend passed her driving test.",
+   "o": [
+    "Congratulations! That's great news!",
+    "Finally! It took you forever.",
+    "Congratulation for your pass!"
+   ],
+   "n": [
+    "Warm and natural.",
+    "Sounds unkind.",
+    "Say 'Congratulations on passing'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🧳",
+   "s": "You want to leave your bags after checking out.",
+   "o": [
+    "Could I leave my bags here until 3?",
+    "I leave bags here. Bye.",
+    "Can I let my bags here until 3?"
+   ],
+   "n": [
+    "Polite and clear.",
+    "Doesn't ask, it sounds rude.",
+    "Use 'leave', not 'let'."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "💰",
+   "s": "The cashier gave you the wrong change.",
+   "o": [
+    "Sorry, I think this is the wrong change.",
+    "You stole my money!",
+    "Sorry, the change is not correctly."
+   ],
+   "n": [
+    "Polite, softened with 'I think'.",
+    "Accusing and very rude.",
+    "Use 'correct', not 'correctly'."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "💊",
+   "s": "The pharmacist gives you medicine. You don't know when to take it.",
+   "o": [
+    "How often should I take this?",
+    "How many times I take this?",
+    "Medicine when? Tell me."
+   ],
+   "n": [
+    "A correct question.",
+    "Missing 'do' or 'should'.",
+    "Too short, it sounds rude."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "📸",
+   "s": "You want a stranger to take a photo of you and your friend.",
+   "o": [
+    "Excuse me, could you take a photo of us?",
+    "Excuse me, can you make a photo to us?",
+    "Hey, take photo. Quick."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Say 'take a photo of'.",
+    "Rude and demanding."
+   ]
+  },
+  {
+   "place": "School",
+   "e": "📝",
+   "s": "You need one more day to finish your homework.",
+   "o": [
+    "Could I have one more day for my homework, please?",
+    "I didn't do it. Tomorrow.",
+    "Can you give me more days for do homework?"
+   ],
+   "n": [
+    "A polite request.",
+    "Sounds rude and lazy.",
+    "Say 'to do' or 'for my homework'."
+   ]
+  },
+  {
+   "place": "Café",
+   "e": "🥤",
+   "s": "The barista calls the wrong name, but it's your drink.",
+   "o": [
+    "I think that's mine. It's Sara, not Tara.",
+    "That's wrong! Can't you write?",
+    "This is my, but the name is bad."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Rude and insulting.",
+    "Say 'mine' and 'wrong'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "📊",
+   "s": "Your manager asks you to finish a report today. You can.",
+   "o": [
+    "Sure, no problem. I'll send it this afternoon.",
+    "Fine. If I must.",
+    "Sure, I finish it in the afternoon."
+   ],
+   "n": [
+    "Positive and clear.",
+    "Sounds unwilling and rude.",
+    "Use 'I'll finish' for the future."
+   ]
+  },
+  {
+   "place": "Neighbours",
+   "e": "📦",
+   "s": "Your neighbour took in a parcel for you.",
+   "o": [
+    "Thanks so much for taking my parcel!",
+    "Why did you take my parcel?",
+    "Thanks for take my parcel!"
+   ],
+   "n": [
+    "Grateful and natural.",
+    "Sounds suspicious and rude.",
+    "Say 'for taking'."
+   ]
+  },
+  {
+   "place": "Taxi",
+   "e": "🚕",
+   "s": "The taxi driver is going too fast. You feel scared.",
+   "o": [
+    "Could you slow down a little, please?",
+    "Slow down! Are you crazy?",
+    "Could you drive more slowly little?"
+   ],
+   "n": [
+    "A polite request.",
+    "Rude and aggressive.",
+    "Wrong word order."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍝",
+   "s": "There's a hair in your food.",
+   "o": [
+    "Excuse me, there's a hair in my food.",
+    "Disgusting! I'm not paying!",
+    "Excuse me, there is hair in the my food."
+   ],
+   "n": [
+    "Clear and calm.",
+    "Too angry; stay calm first.",
+    "Don't use 'the' with 'my'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🚻",
+   "s": "You're at a friend's home. You need the toilet.",
+   "o": [
+    "Can I use your bathroom?",
+    "Where do you do toilet?",
+    "I need toilet. Now."
+   ],
+   "n": [
+    "Polite and natural.",
+    "Not natural, and strange.",
+    "Too direct, it sounds rude."
+   ]
+  },
+  {
+   "place": "Airport",
+   "e": "🛂",
+   "s": "Passport control asks, 'What's the purpose of your visit?'",
+   "o": [
+    "I'm here on holiday.",
+    "I'm here for holiday make.",
+    "Why do you want to know?"
+   ],
+   "n": [
+    "Clear and correct.",
+    "Wrong word order.",
+    "Rude to an officer."
+   ]
+  },
+  {
+   "place": "Bus",
+   "e": "🚌",
+   "s": "An old man needs a seat on the bus.",
+   "o": [
+    "Please, have my seat.",
+    "Sit here if you want, old man.",
+    "Please, take my sit."
+   ],
+   "n": [
+    "Kind and polite.",
+    "'Old man' sounds rude.",
+    "'Sit' is a verb. Say 'seat'."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📞",
+   "s": "Someone calls for your colleague, but she isn't here.",
+   "o": [
+    "Sorry, she's not here right now. Can I take a message?",
+    "She's not here. Call later. Bye.",
+    "Sorry, she's out. Can I leave a message?"
+   ],
+   "n": [
+    "Polite and helpful.",
+    "Rude and unhelpful.",
+    "You 'take' a message; the caller 'leaves' one."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🛎️",
+   "s": "You want to check out of the hotel later than usual.",
+   "o": [
+    "Would it be possible to check out a bit later?",
+    "I check out late tomorrow.",
+    "Can I check out more late?"
+   ],
+   "n": [
+    "A polite request.",
+    "Sounds like an order.",
+    "Say 'later', not 'more late'."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🎁",
+   "s": "You're buying a gift. You want it wrapped.",
+   "o": [
+    "Could you gift-wrap this, please?",
+    "Make it pretty for me.",
+    "Could you pack it like present?"
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too casual and unclear.",
+    "Say 'gift-wrap' or 'wrap it'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "🤒",
+   "s": "You are sick. You call your boss in the morning.",
+   "o": [
+    "Hi, I'm not feeling well, so I can't come in today.",
+    "I'm sick. Bye.",
+    "Hi, I am illness today, so I don't come."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too short, it sounds rude.",
+    "Say 'I'm ill' and 'I can't come'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🐱",
+   "s": "Your friend tells you her cat died.",
+   "o": [
+    "Oh no, I'm so sorry to hear that.",
+    "It's only a cat. Get a new one.",
+    "Oh no, I'm so sorry for hear that."
+   ],
+   "n": [
+    "Kind and caring.",
+    "Unkind and hurtful.",
+    "Say 'sorry to hear'."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🩺",
+   "s": "The doctor's advice is not clear to you.",
+   "o": [
+    "Sorry, could you explain that again?",
+    "That makes no sense.",
+    "Sorry, can you explain me again?"
+   ],
+   "n": [
+    "Polite and clear.",
+    "Sounds rude to the doctor.",
+    "Say 'explain it to me'."
+   ]
+  },
+  {
+   "place": "Bank",
+   "e": "💳",
+   "s": "The cash machine kept your card.",
+   "o": [
+    "Hi, the cash machine kept my card. Can you help?",
+    "Your machine ate my card! Terrible!",
+    "Hi, the machine eated my card."
+   ],
+   "n": [
+    "Clear and polite.",
+    "Rude and dramatic.",
+    "The past of 'eat' is 'ate'."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "🚲",
+   "s": "Someone's bike is blocking your front door.",
+   "o": [
+    "Excuse me, is this your bike? It's blocking my door.",
+    "Move your bike! Now!",
+    "Excuse me, your bike is closing my door."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too aggressive.",
+    "Use 'blocking', not 'closing'."
+   ]
+  },
+  {
+   "place": "School",
+   "e": "🎓",
+   "s": "You don't understand why you got a low mark.",
+   "o": [
+    "Could you explain why I got this mark?",
+    "This mark is wrong. Change it.",
+    "Why you give me this bad mark?"
+   ],
+   "n": [
+    "Polite and open.",
+    "Too direct, it sounds rude.",
+    "Missing 'did', and sounds accusing."
+   ]
+  }
+ ],
+ "B1": [
+  {
+   "place": "Airport",
+   "e": "✈️",
+   "s": "Your flight is delayed. You ask a staff member for information.",
+   "o": [
+    "Excuse me, do you know how long the delay will be?",
+    "Why is everything always late here?",
+    "Excuse me, how long will be the delay?"
+   ],
+   "n": [
+    "A polite indirect question.",
+    "Complaining doesn't help.",
+    "Word order: 'will the delay be'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🏨",
+   "s": "You booked a double room, but they give you a single.",
+   "o": [
+    "Sorry, I think there's a mistake. I booked a double room.",
+    "You gave me the wrong room. Typical.",
+    "Sorry, I reserved a room for double."
+   ],
+   "n": [
+    "Polite, softened with 'I think'.",
+    "Sarcastic and rude.",
+    "Say 'a double room'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "💬",
+   "s": "You meet a friend you haven't seen for months.",
+   "o": [
+    "Hey! It's been ages! How have you been?",
+    "Hey! You look much older.",
+    "Hey! Long time no seeing! How you are?"
+   ],
+   "n": [
+    "Warm and natural.",
+    "Can sound unkind.",
+    "Say 'no see' and 'how are you'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "🏢",
+   "s": "A new colleague looks lost in the office kitchen.",
+   "o": [
+    "Hi, are you looking for something? I can help.",
+    "You're new, right? Don't touch my milk.",
+    "Hi, what are you searching? I help you."
+   ],
+   "n": [
+    "Friendly and helpful.",
+    "An unfriendly first impression.",
+    "Say 'looking for' and 'I can help'."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍽️",
+   "s": "You've waited 40 minutes and your food still hasn't come.",
+   "o": [
+    "Excuse me, we ordered quite a while ago. Will our food be long?",
+    "This is ridiculous. Where's our food?",
+    "Excuse me, we are waiting since 40 minutes."
+   ],
+   "n": [
+    "Polite but clear.",
+    "Too angry for a first complaint.",
+    "Say 'have been waiting for'."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "🗺️",
+   "s": "Someone gives you directions, but they speak too fast.",
+   "o": [
+    "Sorry, could you say that a bit more slowly?",
+    "Stop! You talk too fast.",
+    "Sorry, could you speak more slow?"
+   ],
+   "n": [
+    "Polite and natural.",
+    "Rude and blaming.",
+    "Use the adverb 'slowly'."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📞",
+   "s": "You call a hotel to ask if they have rooms this weekend.",
+   "o": [
+    "Hi, do you have any rooms available this weekend?",
+    "Rooms this weekend? How much? Quickly.",
+    "Hi, is there some rooms available for this weekend?"
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too demanding.",
+    "Say 'are there any rooms'."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "👟",
+   "s": "The shoes you bought last week are already broken.",
+   "o": [
+    "Hi, I bought these last week and they've already broken.",
+    "These shoes are garbage. I want my money.",
+    "Hi, I bought these last week and since they broke."
+   ],
+   "n": [
+    "Clear and calm.",
+    "Rude, starts with an insult.",
+    "'Since' doesn't fit here."
+   ]
+  },
+  {
+   "place": "Taxi",
+   "e": "🚕",
+   "s": "The taxi driver seems to take a much longer route.",
+   "o": [
+    "Sorry, isn't it quicker to go along the main road?",
+    "You're cheating me. Stop the car.",
+    "I think you go the long way on purpose."
+   ],
+   "n": [
+    "A polite question, not an accusation.",
+    "Accusing, too aggressive.",
+    "Accusing, and the wrong tense."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🩺",
+   "s": "The receptionist says the next appointment is in two weeks.",
+   "o": [
+    "Is there anything sooner? It's quite urgent.",
+    "Two weeks? I could die by then!",
+    "Is there something more early? It's urgent."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Overdramatic.",
+    "Say 'earlier' or 'sooner'."
+   ]
+  },
+  {
+   "place": "Neighbours",
+   "e": "🏡",
+   "s": "A new family moves in next door.",
+   "o": [
+    "Hi, I'm Tom from number 12. Welcome to the street!",
+    "Hi. Please don't be noisy like the last people.",
+    "Hi, I'm Tom. Welcome in the street!"
+   ],
+   "n": [
+    "Warm and friendly.",
+    "A negative first impression.",
+    "Say 'welcome to'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "💼",
+   "s": "A colleague asks for help, but you're very busy.",
+   "o": [
+    "I'd love to help, but I'm swamped. Could we do it later?",
+    "Not my job. Ask someone else.",
+    "I would like help, but I am very busy now."
+   ],
+   "n": [
+    "Kind, and offers another time.",
+    "Rude and unhelpful.",
+    "'Like help' means you need help."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🍲",
+   "s": "A friend cooked you dinner. You didn't like it much.",
+   "o": [
+    "Thanks for dinner! It was really kind of you.",
+    "Honestly, it wasn't very good.",
+    "Thanks! The food was a very interesting taste."
+   ],
+   "n": [
+    "Kind and still honest.",
+    "Too honest, it hurts.",
+    "Unnatural, and sounds strange."
+   ]
+  },
+  {
+   "place": "Airport",
+   "e": "🧳",
+   "s": "Your suitcase didn't arrive after the flight.",
+   "o": [
+    "Hi, my suitcase didn't arrive. Where can I report it?",
+    "You lost my bag! I want compensation now!",
+    "Hi, my suitcase didn't come out. Who I tell?"
+   ],
+   "n": [
+    "Clear and practical.",
+    "Too aggressive at the start.",
+    "Word order: 'Who do I tell?'"
+   ]
+  },
+  {
+   "place": "School",
+   "e": "📚",
+   "s": "A classmate keeps talking while you're trying to study.",
+   "o": [
+    "Sorry, would you mind keeping it down? I'm trying to focus.",
+    "Shut up, please.",
+    "Sorry, would you mind to be quiet?"
+   ],
+   "n": [
+    "A polite request.",
+    "'Shut up' is rude.",
+    "Say 'mind being quiet'."
+   ]
+  },
+  {
+   "place": "Bank",
+   "e": "🏦",
+   "s": "There's a payment on your account you don't recognise.",
+   "o": [
+    "Hi, there's a payment here I don't recognise. Could you check it?",
+    "Someone stole my money. It's your fault.",
+    "Hi, there is a payment that I don't know him."
+   ],
+   "n": [
+    "Calm and clear.",
+    "Blaming without facts.",
+    "Don't use 'him' for a payment."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🔊",
+   "s": "The room next to yours is very noisy at night.",
+   "o": [
+    "Hi, the room next door is really noisy. Could you do something?",
+    "I can't sleep! Throw them out!",
+    "Hi, the next room is making many noises."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too dramatic and demanding.",
+    "Not natural. Say 'very noisy'."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📱",
+   "s": "You missed a call from a friend. You call back.",
+   "o": [
+    "Hi, sorry I missed your call. What's up?",
+    "Why did you call me?",
+    "Hi, sorry I lost your call."
+   ],
+   "n": [
+    "Friendly and natural.",
+    "Sounds annoyed.",
+    "Use 'missed', not 'lost'."
+   ]
+  },
+  {
+   "place": "Café",
+   "e": "💻",
+   "s": "The café is full. You see an empty chair at a stranger's table.",
+   "o": [
+    "Excuse me, is anyone sitting here?",
+    "I'm sitting here. OK?",
+    "Excuse me, is this place busy?"
+   ],
+   "n": [
+    "Polite and natural.",
+    "Doesn't ask, it sounds rude.",
+    "Literal. Say 'Is anyone sitting here?'"
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🎂",
+   "s": "You forgot your friend's birthday yesterday.",
+   "o": [
+    "I'm so sorry I forgot your birthday! Let me buy you lunch.",
+    "Birthdays aren't important anyway.",
+    "Sorry, I forgot your birthday. It happens."
+   ],
+   "n": [
+    "Apologises and makes up for it.",
+    "Dismissive and hurtful.",
+    "Sounds like you don't care."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🛒",
+   "s": "Someone pushes in front of you in the queue.",
+   "o": [
+    "Excuse me, I think I was next.",
+    "Hey! Back of the queue, idiot!",
+    "Excuse me, I was here first before you."
+   ],
+   "n": [
+    "Polite but firm.",
+    "Insulting.",
+    "Repetitive: 'first' and 'before' overlap."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "🗓️",
+   "s": "Your manager asks if you can work on Saturday. You can't.",
+   "o": [
+    "I'm afraid I can't this Saturday. I already have plans.",
+    "No way. Weekends are mine.",
+    "I'm afraid I can't. I have plan."
+   ],
+   "n": [
+    "A polite refusal with a reason.",
+    "Too direct for your manager.",
+    "Use the plural: 'plans'."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "🌧️",
+   "s": "A stranger at the bus stop says, 'Terrible weather, isn't it?'",
+   "o": [
+    "I know! I hope it clears up soon.",
+    "It's just rain. Relax.",
+    "Yes, the weather is very terrible."
+   ],
+   "n": [
+    "Natural small talk.",
+    "Dismissive, ends the chat.",
+    "Don't use 'very' with 'terrible'."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍷",
+   "s": "You can't choose a dish. You ask the waiter for help.",
+   "o": [
+    "What would you recommend?",
+    "What's not disgusting here?",
+    "What do you recommend me to eat?"
+   ],
+   "n": [
+    "Polite and natural.",
+    "Rude to the restaurant.",
+    "Not natural. Just 'What do you recommend?'"
+   ]
+  },
+  {
+   "place": "Train",
+   "e": "🚆",
+   "s": "Someone is sitting in your reserved seat on the train.",
+   "o": [
+    "Sorry, I think this might be my seat. Is it 24B?",
+    "Get up. That's my seat.",
+    "Sorry, I think you are in my place reserved."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too direct, it sounds rude.",
+    "Wrong word order."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "💊",
+   "s": "You want to know if a new medicine has side effects.",
+   "o": [
+    "Are there any side effects I should know about?",
+    "Will this medicine kill me?",
+    "Is there side effects?"
+   ],
+   "n": [
+    "Clear and polite.",
+    "Overdramatic.",
+    "Grammar: 'Are there any'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🥳",
+   "s": "A friend invites you to a party. You'd like to bring a friend.",
+   "o": [
+    "Sounds fun! Is it OK if I bring a friend?",
+    "I'll come, but only if it's a good party.",
+    "Sounds fun! Can I bring with me a friend?"
+   ],
+   "n": [
+    "Positive and polite.",
+    "Sounds picky and rude.",
+    "Word order: 'bring a friend with me'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🧹",
+   "s": "You don't want your hotel room cleaned today.",
+   "o": [
+    "Could you skip my room today, please? It's fine as it is.",
+    "Don't come in my room.",
+    "Please don't make my room today."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Too direct, it sounds rude.",
+    "Literal. Rooms are 'cleaned', not 'made'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "💻",
+   "s": "Your laptop stops working just before a meeting.",
+   "o": [
+    "Sorry, my laptop's just crashed. Could I borrow yours for a minute?",
+    "My laptop died. Give me yours.",
+    "Sorry, my laptop is broken. Can you lend me your?"
+   ],
+   "n": [
+    "Polite, and explains why.",
+    "Demanding, it sounds rude.",
+    "Say 'yours', not 'your'."
+   ]
+  },
+  {
+   "place": "Airport",
+   "e": "⏱️",
+   "s": "You might miss your next flight. The security queue is long.",
+   "o": [
+    "Excuse me, my flight leaves in 30 minutes. Could I go ahead?",
+    "Move! I'm missing my flight!",
+    "Excuse me, my flight goes in 30 minutes. Let me pass first."
+   ],
+   "n": [
+    "Polite, and explains the hurry.",
+    "Rude and pushy.",
+    "Sounds like an order."
+   ]
+  },
+  {
+   "place": "School",
+   "e": "🎓",
+   "s": "You don't understand the grammar the teacher explained.",
+   "o": [
+    "Sorry, could you give another example? I'm not sure I got it.",
+    "That explanation was confusing.",
+    "Sorry, I don't understand. Can you explain more easy?"
+   ],
+   "n": [
+    "Polite, and asks for help.",
+    "Blames the teacher.",
+    "Say 'more simply'."
+   ]
+  },
+  {
+   "place": "Neighbours",
+   "e": "🍂",
+   "s": "Leaves from your neighbour's tree keep falling into your garden.",
+   "o": [
+    "Would you mind trimming your tree? The leaves fall into our garden.",
+    "Your tree is a problem. Cut it.",
+    "Hi, can you cut your tree because it is making leaves?"
+   ],
+   "n": [
+    "Polite, and explains why.",
+    "Too direct, it sounds rude.",
+    "Not natural: trees 'drop' leaves."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "☎️",
+   "s": "You were on hold for 20 minutes. Finally, someone answers.",
+   "o": [
+    "Hi, thanks for picking up. I'm calling about my internet.",
+    "Finally! Twenty minutes! Unbelievable!",
+    "Hi, I call because of my internet is not working."
+   ],
+   "n": [
+    "Polite, and gets to the point.",
+    "Angry at the wrong person.",
+    "Grammar: 'because my internet isn't working'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "💸",
+   "s": "A friend still hasn't paid back the money you lent them.",
+   "o": [
+    "Hey, just a quick reminder about the money from last month.",
+    "Where's my money? You always forget.",
+    "Hey, you must give me back my money now."
+   ],
+   "n": [
+    "Friendly and gentle.",
+    "Accusing and harsh.",
+    "'Must' sounds too strong here."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🏷️",
+   "s": "The price on the shelf is lower than at the till.",
+   "o": [
+    "Sorry, the shelf said €5. Could you check it?",
+    "You're trying to trick me.",
+    "Sorry, on the shelf it was writing €5."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Accusing, too aggressive.",
+    "Use 'said', not 'was writing'."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🥩",
+   "s": "The waiter asks, 'How is everything?' Your steak is overcooked.",
+   "o": [
+    "It's nice, but the steak's a bit overcooked, actually.",
+    "Terrible. The steak is like a shoe.",
+    "It's fine, but the steak is cooked too much time."
+   ],
+   "n": [
+    "Honest but polite.",
+    "Rude and exaggerated.",
+    "Not natural. Say 'overcooked'."
+   ]
+  },
+  {
+   "place": "Street",
+   "e": "🚗",
+   "s": "A driver almost hits you on the crossing.",
+   "o": [
+    "Hey, careful! That was close.",
+    "Learn to drive, you idiot!",
+    "Hey, be careful! You almost crashed me."
+   ],
+   "n": [
+    "Firm but not insulting.",
+    "Insulting, it could cause trouble.",
+    "Say 'You almost hit me'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🥐",
+   "s": "You want to know if breakfast is included.",
+   "o": [
+    "Is breakfast included in the price?",
+    "Breakfast is free, yes?",
+    "Is breakfast inclusive the price?"
+   ],
+   "n": [
+    "Clear and natural.",
+    "Sounds demanding and unclear.",
+    "Say 'included in'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "🎉",
+   "s": "Your colleague just got a promotion.",
+   "o": [
+    "Congratulations! You really deserve it.",
+    "Wow, I'm surprised they chose you.",
+    "Congratulations for your promote!"
+   ],
+   "n": [
+    "Warm and supportive.",
+    "Sounds jealous and rude.",
+    "Say 'on your promotion'."
+   ]
+  },
+  {
+   "place": "Train",
+   "e": "🚉",
+   "s": "Your train is cancelled. You ask about the next one.",
+   "o": [
+    "Excuse me, when's the next train to Leeds?",
+    "Your trains never work. When's the next one?",
+    "Excuse me, when comes the next train to Leeds?"
+   ],
+   "n": [
+    "Polite and clear.",
+    "Blames the staff.",
+    "Word order: 'when does the next train come'."
+   ]
+  }
+ ],
+ "B2": [
+  {
+   "place": "Meeting",
+   "e": "💼",
+   "s": "A colleague suggests an idea you think won't work.",
+   "o": [
+    "I see your point, but I'm not sure it'll work with our budget.",
+    "That's a bad idea.",
+    "I am agree with you, but it will not work."
+   ],
+   "n": [
+    "Polite disagreement with a reason.",
+    "Too blunt for a meeting.",
+    "Say 'I agree', not 'I am agree'."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "📧",
+   "s": "Your manager hasn't answered your request from Monday.",
+   "o": [
+    "Just following up on my email from Monday. Any update?",
+    "Why haven't you answered my email yet?",
+    "I remember you about my email from Monday."
+   ],
+   "n": [
+    "A polite, standard follow-up.",
+    "Sounds accusing to a manager.",
+    "Use 'remind', not 'remember'."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🧾",
+   "s": "The bill includes a dessert you didn't order.",
+   "o": [
+    "Sorry, I think there's a mistake. We didn't have the dessert.",
+    "You're overcharging us on purpose.",
+    "Sorry, but you charged us something we didn't eat it."
+   ],
+   "n": [
+    "Polite and specific.",
+    "Accusing without proof.",
+    "Remove the extra 'it'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "🤝",
+   "s": "A colleague keeps interrupting you in meetings.",
+   "o": [
+    "Sorry, could I just finish my point?",
+    "Stop interrupting me all the time!",
+    "Wait, I am not finished to speak."
+   ],
+   "n": [
+    "Polite but firm.",
+    "Too aggressive in public.",
+    "Not natural. Say 'I haven't finished'."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "📦",
+   "s": "Your online order arrived damaged. You call customer service.",
+   "o": [
+    "Hi, my order arrived damaged. I'd like a replacement, please.",
+    "Your delivery people are useless.",
+    "Hi, my order arrived damaging. I want a change."
+   ],
+   "n": [
+    "Clear, and says what you want.",
+    "Insulting, and won't help.",
+    "Say 'damaged' and 'replacement'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🗣️",
+   "s": "A friend shares an opinion you strongly disagree with.",
+   "o": [
+    "Hmm, I actually see it a bit differently.",
+    "That's the stupidest thing I've heard.",
+    "I disagree you completely."
+   ],
+   "n": [
+    "Soft, respectful disagreement.",
+    "Insulting and hurtful.",
+    "Say 'disagree with you'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🏨",
+   "s": "Your hotel room looks nothing like the photos online.",
+   "o": [
+    "The room's quite different from the photos. Is there another one available?",
+    "This is false advertising. I'll sue you.",
+    "The room doesn't look like the photos. Change me the room."
+   ],
+   "n": [
+    "Calm, and asks for a solution.",
+    "Threatening too soon.",
+    "Not natural. Say 'Could I change rooms?'"
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📞",
+   "s": "A salesperson calls you. You're not interested.",
+   "o": [
+    "Thanks, but I'm not interested. Have a good day.",
+    "Don't ever call me again!",
+    "Thanks, but I don't have interest for this."
+   ],
+   "n": [
+    "Polite and clear.",
+    "Unnecessarily aggressive.",
+    "Say 'I'm not interested'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "⏳",
+   "s": "Your manager gives you a task with an impossible deadline.",
+   "o": [
+    "I'll do my best, but realistically I'll need until Thursday.",
+    "That's impossible. Forget it.",
+    "OK, no problem, it'll be done today."
+   ],
+   "n": [
+    "Honest, and offers a realistic date.",
+    "Refuses without a solution.",
+    "Promises something you can't deliver."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "📋",
+   "s": "You didn't understand a point your boss made.",
+   "o": [
+    "Sorry, could you clarify what you meant by 'phase two'?",
+    "That made no sense at all.",
+    "Sorry, could you clear what you meant?"
+   ],
+   "n": [
+    "Polite and specific.",
+    "Sounds rude to your boss.",
+    "Say 'clarify', not 'clear'."
+   ]
+  },
+  {
+   "place": "Neighbours",
+   "e": "🚗",
+   "s": "Your neighbour often parks in your parking space.",
+   "o": [
+    "Hi, would you mind not parking in my space? I need it in the mornings.",
+    "If you park there again, I'll call the police.",
+    "Hi, please stop to park in my place."
+   ],
+   "n": [
+    "Polite, with a reason.",
+    "Threatening too soon.",
+    "Say 'stop parking' and 'space'."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "✉️",
+   "s": "You're writing to a company for the first time.",
+   "o": [
+    "Dear Sir or Madam, I'm writing to enquire about your courses.",
+    "Hey guys, quick question about your courses.",
+    "Dear Sir or Madam, I write you for asking about courses."
+   ],
+   "n": [
+    "The correct formal opening.",
+    "Too casual for a first email.",
+    "Grammar: 'I'm writing to ask'."
+   ]
+  },
+  {
+   "place": "Bank",
+   "e": "🏦",
+   "s": "The bank charged you a fee you think is unfair.",
+   "o": [
+    "Could you explain this fee? I wasn't told about it.",
+    "Give me my money back or I'm leaving this bank.",
+    "Could you explain me this fee? Nobody said me."
+   ],
+   "n": [
+    "Calm, and asks for information.",
+    "Threatening, not constructive.",
+    "Say 'explain it to me' and 'told me'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "⌚",
+   "s": "A friend always arrives late when you meet.",
+   "o": [
+    "It'd be great if you could let me know when you're running late.",
+    "You're always late. It's so selfish.",
+    "Please come in time next times."
+   ],
+   "n": [
+    "Gentle and constructive.",
+    "Personal criticism, hurtful.",
+    "Say 'on time' and 'next time'."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🩺",
+   "s": "The doctor prescribes antibiotics. You're not sure they're necessary.",
+   "o": [
+    "Could I ask why antibiotics are needed in this case?",
+    "I don't trust antibiotics. No.",
+    "Why you give me antibiotics? Is it necessary?"
+   ],
+   "n": [
+    "A respectful question.",
+    "Dismissive and closed.",
+    "Missing 'are', and sounds accusing."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🛍️",
+   "s": "The shop won't give a refund without a receipt.",
+   "o": [
+    "I understand, but could you offer store credit instead?",
+    "That's a stupid rule.",
+    "I understand, but can you make an exception for one time?"
+   ],
+   "n": [
+    "Accepts, and offers an alternative.",
+    "Rude to the staff.",
+    "Not natural. Say 'just this once'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "🧑‍💻",
+   "s": "A colleague's mistake has affected your work.",
+   "o": [
+    "I noticed a couple of issues in the figures. Could we go through them?",
+    "You messed up my work again.",
+    "There are mistakes from you in the numbers."
+   ],
+   "n": [
+    "Focuses on the problem, not the person.",
+    "Blaming and personal.",
+    "Unnatural and accusing."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "💡",
+   "s": "You want to add an idea after a colleague finishes speaking.",
+   "o": [
+    "Can I just add something to that?",
+    "No, here's what we should actually do.",
+    "Can I add to this one thing?"
+   ],
+   "n": [
+    "A polite way to join in.",
+    "Dismisses the other person.",
+    "Wrong word order."
+   ]
+  },
+  {
+   "place": "Airport",
+   "e": "✈️",
+   "s": "The airline overbooked your flight and offers you a later one.",
+   "o": [
+    "I understand. What compensation can you offer for the delay?",
+    "This is your problem, not mine. Put me on this flight.",
+    "I understand. What can you give me for compensate?"
+   ],
+   "n": [
+    "Calm, and asks about your rights.",
+    "Aggressive and unrealistic.",
+    "Say 'as compensation'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🧥",
+   "s": "A friend asks your opinion on a jacket you don't like.",
+   "o": [
+    "It's not really my style, but if you love it, go for it!",
+    "It's ugly. Don't buy it.",
+    "It doesn't suit to you, I think."
+   ],
+   "n": [
+    "Honest but kind.",
+    "Too blunt and hurtful.",
+    "'Suit' doesn't need 'to'."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "📧",
+   "s": "You must tell a client their delivery will be late.",
+   "o": [
+    "Unfortunately, there's been a delay. Your order should arrive by Friday.",
+    "Your order is late. Sorry, not our fault.",
+    "Unfortunately, your order will arrive with delay of three days."
+   ],
+   "n": [
+    "Professional and clear.",
+    "Defensive and unprofessional.",
+    "Not natural. Say 'three days late'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🛎️",
+   "s": "You arrive early. Your room is still being cleaned.",
+   "o": [
+    "That's fine. Could I leave my bags and come back later?",
+    "Seriously? I paid for a clean room now.",
+    "That's fine. Can I leave my bags and come back more late?"
+   ],
+   "n": [
+    "Flexible and practical.",
+    "Overreacts to a small delay.",
+    "Say 'later', not 'more late'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "📈",
+   "s": "Your manager asks for your honest opinion on a new plan.",
+   "o": [
+    "Overall I like it, but I have a few concerns about the timeline.",
+    "Honestly? It's a disaster.",
+    "I like it, but I have some worries for the timeline."
+   ],
+   "n": [
+    "Balanced and constructive.",
+    "Too harsh, and gives no detail.",
+    "Say 'about the timeline'."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "☎️",
+   "s": "The customer service agent can't solve your problem.",
+   "o": [
+    "I appreciate your help. Could I speak to a supervisor, please?",
+    "You're useless. Get me your boss.",
+    "Thanks. Could I talk with your chief?"
+   ],
+   "n": [
+    "A polite way to escalate.",
+    "Insults the agent.",
+    "'Chief' is unnatural. Say 'supervisor'."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "🗓️",
+   "s": "The meeting is running late and you have another one.",
+   "o": [
+    "Sorry, I've got another meeting at three. Could we wrap up soon?",
+    "I'm leaving. This is taking forever.",
+    "Sorry, I must go because I have other meeting."
+   ],
+   "n": [
+    "Polite, and gives a reason.",
+    "Rude and impatient.",
+    "Say 'another meeting'."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍷",
+   "s": "You booked a quiet table, but they seat you by the kitchen.",
+   "o": [
+    "We did ask for a quiet table. Is there anything else available?",
+    "This is the worst table. Unacceptable.",
+    "We asked a quiet table. Is there other?"
+   ],
+   "n": [
+    "Firm but polite.",
+    "Overreacts, sounds rude.",
+    "Say 'asked for' and 'another one'."
+   ]
+  },
+  {
+   "place": "Neighbours",
+   "e": "🔨",
+   "s": "Your neighbour does loud building work early every Sunday.",
+   "o": [
+    "I know you're renovating, but could you avoid early Sunday mornings?",
+    "Some of us want to sleep, you know.",
+    "Could you please make your works less early on Sundays?"
+   ],
+   "n": [
+    "Understanding and specific.",
+    "Sarcastic, starts a conflict.",
+    "'Work' isn't plural here."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "💰",
+   "s": "You want to ask your manager for a pay rise.",
+   "o": [
+    "Could we discuss my salary? I've taken on a lot more recently.",
+    "I want more money or I'll quit.",
+    "Could we discuss about my salary?"
+   ],
+   "n": [
+    "Professional, with a reason.",
+    "An ultimatum, too aggressive.",
+    "'Discuss' doesn't need 'about'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🏖️",
+   "s": "Your friends plan a trip you can't afford.",
+   "o": [
+    "It sounds amazing, but it's a bit out of my budget this time.",
+    "That's way too expensive. Who has that money?",
+    "It sounds amazing, but my pocket is not enough."
+   ],
+   "n": [
+    "Honest and friendly.",
+    "Sounds judgmental.",
+    "Literal translation, unnatural."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "📎",
+   "s": "You sent a client the wrong file by mistake.",
+   "o": [
+    "Apologies, I attached the wrong file. Please find the correct one attached.",
+    "Oops, wrong file lol. Here.",
+    "Sorry, I have attached wrong file. Here is the right."
+   ],
+   "n": [
+    "Professional and clear.",
+    "Too casual for a client.",
+    "Missing 'the' and 'one'."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🕐",
+   "s": "You've waited an hour past your appointment time.",
+   "o": [
+    "Sorry to bother you. Do you know how much longer it'll be?",
+    "I've been here an hour. This is a joke.",
+    "Sorry, how much time still I must wait?"
+   ],
+   "n": [
+    "Polite, and asks for information.",
+    "Rude to the receptionist.",
+    "Wrong word order."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "💻",
+   "s": "The salesperson pushes an expensive warranty you don't want.",
+   "o": [
+    "Thanks, but I'll pass on the warranty.",
+    "Stop trying to sell me things.",
+    "Thanks, but I don't need warranty, no."
+   ],
+   "n": [
+    "A polite, clear refusal.",
+    "Rude to the salesperson.",
+    "Missing 'the', and an extra 'no'."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "🤝",
+   "s": "Two colleagues are arguing. You want to calm things down.",
+   "o": [
+    "You both make valid points. Maybe we could find a middle ground?",
+    "You're both wrong. Stop arguing.",
+    "Both of you have reason. Let's find a middle."
+   ],
+   "n": [
+    "Calm and constructive.",
+    "Makes it worse.",
+    "Literal. Say 'you both have a point'."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "📅",
+   "s": "A colleague asks you to cover their shift again.",
+   "o": [
+    "I covered last time, so I'm afraid I can't this time.",
+    "No. You always do this.",
+    "I did it last time, so this time I don't can."
+   ],
+   "n": [
+    "A fair, polite refusal.",
+    "Accusing and harsh.",
+    "Say 'I can't', not 'I don't can'."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "💳",
+   "s": "The hotel charged you twice for the same night.",
+   "o": [
+    "I think I've been charged twice for Tuesday. Could you check?",
+    "You double-charged me. Are you trying to steal?",
+    "I think you charged me two times the same night."
+   ],
+   "n": [
+    "Calm and specific.",
+    "Accusing, very rude.",
+    "Missing 'for'; say 'twice'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🎈",
+   "s": "A friend asks why you didn't come to their party.",
+   "o": [
+    "I'm really sorry. Something came up at the last minute.",
+    "I just didn't feel like it.",
+    "Sorry, something came up on the last minute."
+   ],
+   "n": [
+    "Apologises, and gives a reason.",
+    "Honest but hurtful.",
+    "Say 'at the last minute'."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "📧",
+   "s": "A colleague often sends you urgent work late on Fridays.",
+   "o": [
+    "Could you send things by Thursday where possible? It helps me plan.",
+    "Stop sending me work on Fridays. It's annoying.",
+    "Please send the works before Friday for my planning."
+   ],
+   "n": [
+    "Polite, with a reason.",
+    "Too blunt and irritated.",
+    "'Work' has no plural here."
+   ]
+  },
+  {
+   "place": "Bank",
+   "e": "📄",
+   "s": "Your loan application was rejected. You want to know why.",
+   "o": [
+    "Could you tell me what the main reasons for the decision were?",
+    "Why did you reject me? It's unfair.",
+    "Could you tell me what were the reasons?"
+   ],
+   "n": [
+    "Polite and specific.",
+    "Emotional and accusing.",
+    "Word order: 'what the reasons were'."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "🏆",
+   "s": "A colleague presents your idea as their own.",
+   "o": [
+    "I'm glad you liked the idea I shared. Shall we develop it together?",
+    "That's my idea. You stole it.",
+    "That was my idea. Why you took it?"
+   ],
+   "n": [
+    "Claims credit tactfully.",
+    "A public accusation, risky.",
+    "Grammar error, and accusing."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📱",
+   "s": "Your internet provider promised a fix, but nothing happened.",
+   "o": [
+    "I was told this would be fixed by Monday. What's the next step?",
+    "You people never keep your promises.",
+    "I was told it would be fixed until Monday."
+   ],
+   "n": [
+    "Firm and solution-focused.",
+    "Generalising and rude.",
+    "Use 'by', not 'until'."
+   ]
+  }
+ ],
+ "C1": [
+  {
+   "place": "Work",
+   "e": "💼",
+   "s": "You must tell a team member their work isn't good enough yet.",
+   "o": [
+    "There are some strong points here, but a few areas need more work. Shall we go through them?",
+    "This isn't good enough. Redo it.",
+    "Your work is quite bad, but don't worry about it."
+   ],
+   "n": [
+    "Balanced and constructive.",
+    "Too harsh and demotivating.",
+    "Contradictory and unhelpful."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "📧",
+   "s": "You're politely declining a job offer.",
+   "o": [
+    "Thank you for the offer. After careful consideration, I've decided to accept another position.",
+    "Thanks, but I got something better.",
+    "Thank you. Unfortunately I must refuse your offer because I don't want it."
+   ],
+   "n": [
+    "Gracious and professional.",
+    "Implies they're worse.",
+    "A blunt reason, it sounds rude."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "🗣️",
+   "s": "Your boss's plan has a serious flaw. Everyone else is silent.",
+   "o": [
+    "Could I raise one concern? I'm worried the timeline might not leave room for testing.",
+    "This plan won't work, and everyone here knows it.",
+    "With all respect, your plan is simply wrong."
+   ],
+   "n": [
+    "Tactful, with a specific concern.",
+    "Confrontational, and drags others in.",
+    "Polite formula, but still blunt."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍽️",
+   "s": "At a business lunch, your guest's card is declined.",
+   "o": [
+    "Please, let me get this one. You can get the next.",
+    "Oh dear, your card doesn't work?",
+    "Your card has been refused. Do you have another way to pay?"
+   ],
+   "n": [
+    "Smooth, and saves face.",
+    "Draws attention to it.",
+    "Embarrassing and too direct."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "💑",
+   "s": "A friend asks if you like her new partner. You have doubts.",
+   "o": [
+    "I don't know him well yet, but if he makes you happy, that's what matters.",
+    "Honestly, I think he's bad for you.",
+    "He seems nice, I suppose, if you like that type."
+   ],
+   "n": [
+    "Honest yet supportive.",
+    "Too blunt, it may hurt.",
+    "Sounds sarcastic."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📞",
+   "s": "A client calls, angry about an error your company made.",
+   "o": [
+    "I completely understand your frustration, and I'm sorry. Let me sort this out right away.",
+    "Please calm down. Shouting won't help.",
+    "These things happen sometimes. It's not a big deal."
+   ],
+   "n": [
+    "Empathy plus action.",
+    "Can sound dismissive.",
+    "Minimises their problem."
+   ]
+  },
+  {
+   "place": "Neighbours",
+   "e": "🐕",
+   "s": "Your neighbour's dog barks all day while she's out.",
+   "o": [
+    "I wondered if you knew Max barks quite a lot while you're out? He might be lonely.",
+    "Your dog is driving everyone crazy.",
+    "Excuse me, your dog makes a big noise always."
+   ],
+   "n": [
+    "Gentle, and shows concern.",
+    "Blunt and blaming.",
+    "Unnatural words and word order."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🏨",
+   "s": "You're the hotel manager. A guest's room isn't ready yet.",
+   "o": [
+    "I'm terribly sorry, your room isn't quite ready. May I offer you a drink while you wait?",
+    "Your room isn't ready. Come back later.",
+    "Sorry, the room is not ready yet, but it's not our fault."
+   ],
+   "n": [
+    "Apologises and offers comfort.",
+    "Cold and unhelpful.",
+    "Defensive; the guest doesn't care whose fault."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "💶",
+   "s": "You need to chase a senior client for an overdue payment.",
+   "o": [
+    "I'm writing regarding invoice 214, which appears to be outstanding. Could you look into it?",
+    "You still haven't paid. Please pay immediately.",
+    "Hey, did you forget to pay us, by any chance?"
+   ],
+   "n": [
+    "Formal, neutral and face-saving.",
+    "Too blunt for a senior client.",
+    "Too casual for a formal matter."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "🤝",
+   "s": "In a negotiation, the other side's offer is far too low.",
+   "o": [
+    "I appreciate the offer, but it's quite a way off what we had in mind.",
+    "That's insulting. Try again.",
+    "OK, fine, we accept. No problem."
+   ],
+   "n": [
+    "Firm but respectful.",
+    "Hostile, may end the talks.",
+    "Gives up without negotiating."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "📉",
+   "s": "You have to tell your team about upcoming budget cuts.",
+   "o": [
+    "I'll be honest: we're facing some cuts, but I'll keep you informed at every step.",
+    "Bad news: there's no money. Deal with it.",
+    "Don't worry, nothing will change for anyone."
+   ],
+   "n": [
+    "Honest and reassuring.",
+    "Harsh and dismissive.",
+    "Misleading; it damages trust."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🎤",
+   "s": "A friend practises his wedding speech for you. It's far too long.",
+   "o": [
+    "It's lovely! Maybe trim it a little so the best stories really stand out.",
+    "It's way too long. People will get bored.",
+    "It's perfect, don't change a thing!"
+   ],
+   "n": [
+    "Kind, with useful advice.",
+    "Too blunt and discouraging.",
+    "Unhelpful; he needs honest feedback."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🩺",
+   "s": "As a doctor, you must tell a patient their results need more checks.",
+   "o": [
+    "The results show something we'd like to look at more closely. It's a precaution.",
+    "Something's wrong. We need more tests.",
+    "Don't worry, it's probably nothing, but maybe it's something."
+   ],
+   "n": [
+    "Calm, clear and reassuring.",
+    "Alarming and vague.",
+    "Confusing and contradictory."
+   ]
+  },
+  {
+   "place": "School",
+   "e": "🎓",
+   "s": "As a teacher, you tell a parent their child is struggling with maths.",
+   "o": [
+    "Emma's a lovely student. She's finding maths tricky, so let's work on it together.",
+    "Your daughter is bad at maths.",
+    "Emma is a lovely student, but her maths is a disaster."
+   ],
+   "n": [
+    "A positive start, then a plan.",
+    "Blunt and hurtful.",
+    "Starts well, then too harsh."
+   ]
+  },
+  {
+   "place": "Bank",
+   "e": "🏦",
+   "s": "As a bank adviser, you have to reject a customer's loan.",
+   "o": [
+    "I'm afraid we're unable to approve it at this stage, but let's look at other options.",
+    "Rejected. Your credit score is too low.",
+    "Sadly, the computer said no, so nothing can be done."
+   ],
+   "n": [
+    "A soft no, plus alternatives.",
+    "Cold and blunt.",
+    "Unprofessional; avoids responsibility."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🛍️",
+   "s": "As the manager, you must refuse a refund that's against policy.",
+   "o": [
+    "I understand your disappointment. While I can't refund it, I can offer an exchange.",
+    "Rules are rules. No refund.",
+    "Sorry, it's impossible. Please understand me."
+   ],
+   "n": [
+    "Empathy plus an alternative.",
+    "Rigid and cold.",
+    "Closes the conversation; no solution."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "📊",
+   "s": "A senior colleague shows wrong figures in front of a client.",
+   "o": [
+    "Just to add, I believe the latest figure is 12%. I'll double-check afterwards.",
+    "Those numbers are wrong.",
+    "Sorry, but you're making a big mistake there."
+   ],
+   "n": [
+    "Corrects gently, saves face.",
+    "Embarrasses them publicly.",
+    "Too blunt in front of a client."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "📨",
+   "s": "You're replying to a colleague's angry and unfair email.",
+   "o": [
+    "Thanks for your email. I think there may be a misunderstanding; could we discuss it by phone?",
+    "How dare you write to me like that?",
+    "I am not agree with anything in your email."
+   ],
+   "n": [
+    "Calm, and moves it off email.",
+    "Escalates the conflict.",
+    "Grammar: say 'I don't agree'."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🛋️",
+   "s": "A friend has been staying with you for weeks. You need your space back.",
+   "o": [
+    "It's been lovely having you, but I'll need my space back soon. How are your plans looking?",
+    "You need to leave. This is too much.",
+    "So, when are you finally going home?"
+   ],
+   "n": [
+    "Kind but clear.",
+    "Too abrupt, it may hurt.",
+    "'Finally' sounds impatient."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "👔",
+   "s": "Your manager offers you a project you really don't want.",
+   "o": [
+    "Thanks for thinking of me. I'd like to focus on the launch right now, though. Could someone else take it?",
+    "No thanks, it sounds boring.",
+    "Thank you, but I prefer not to do it. It's not interesting."
+   ],
+   "n": [
+    "Grateful, with a positive reason.",
+    "Dismissive and rude.",
+    "Too direct, it sounds lazy."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "☎️",
+   "s": "You must cancel a meeting with an important client at short notice.",
+   "o": [
+    "I'm so sorry for the short notice, but I'll have to reschedule. Would Thursday suit you?",
+    "Can't make it today. Another time.",
+    "Sorry, the meeting is cancelled. I'm busy."
+   ],
+   "n": [
+    "Apologises and offers a new date.",
+    "Too casual for a client.",
+    "Implies they're not a priority."
+   ]
+  },
+  {
+   "place": "Restaurant",
+   "e": "🍷",
+   "s": "At a work dinner, your host offers you wine. You don't drink.",
+   "o": [
+    "That's very kind, but I'll stick to water tonight, thanks.",
+    "I don't drink. Alcohol is bad for you.",
+    "No. Take it away, please."
+   ],
+   "n": [
+    "Gracious and simple.",
+    "Sounds preachy.",
+    "Too blunt to your host."
+   ]
+  },
+  {
+   "place": "Neighbours",
+   "e": "🌳",
+   "s": "A neighbour wants to cut down a tree you love.",
+   "o": [
+    "I can see why the shade bothers you. Could we look at trimming it instead?",
+    "Absolutely not. It's my tree.",
+    "OK, do what you want with it."
+   ],
+   "n": [
+    "Acknowledges them, offers a compromise.",
+    "Shuts the conversation down.",
+    "Gives up something you care about."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🛎️",
+   "s": "As the manager, you see a VIP guest complaining loudly in the lobby.",
+   "o": [
+    "I'm so sorry about this. Shall we step into my office so I can help properly?",
+    "Please lower your voice. There are other guests here.",
+    "Calm down, sir. It's not so bad."
+   ],
+   "n": [
+    "Calm, and moves it somewhere private.",
+    "Sounds like a telling-off.",
+    "Dismissive, makes it worse."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "📅",
+   "s": "You must tell your boss you'll miss an important deadline.",
+   "o": [
+    "I wanted to flag early that we're behind. I can deliver by Monday; would that work?",
+    "We won't make it. Sorry.",
+    "The deadline was unrealistic from the start, so we'll miss it."
+   ],
+   "n": [
+    "An early warning plus a solution.",
+    "Bad news with no plan.",
+    "Blames the boss."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "✉️",
+   "s": "In a formal email, you need to decline a supplier's proposal.",
+   "o": [
+    "Thank you for your proposal. Unfortunately, it doesn't quite meet our needs at present.",
+    "Not interested. Thanks anyway.",
+    "Hi! Thanks, but nah, it's not really for us."
+   ],
+   "n": [
+    "Formal and courteous.",
+    "Curt and cold.",
+    "Far too informal."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "🗨️",
+   "s": "One person keeps talking, and others can't get a word in.",
+   "o": [
+    "Great points. I'd love to hear what others think too. Sara?",
+    "Can you let someone else talk for once?",
+    "OK, enough. Next person."
+   ],
+   "n": [
+    "Redirects tactfully.",
+    "Sarcastic and embarrassing.",
+    "Abrupt and dismissive."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "💸",
+   "s": "A friend asks to borrow a large sum of money. You'd rather not.",
+   "o": [
+    "I'm really sorry, but I have a rule about not lending money to friends. Can I help another way?",
+    "No way. You'd never pay it back.",
+    "Sorry, I am not in the position for lend money."
+   ],
+   "n": [
+    "Kind, firm, and offers help.",
+    "Insulting and hurtful.",
+    "Grammar: 'in a position to lend'."
+   ]
+  },
+  {
+   "place": "Doctor",
+   "e": "🩺",
+   "s": "You think the doctor misunderstood where your pain is.",
+   "o": [
+    "Sorry, I may not have been clear. The pain is actually on the left side.",
+    "You're not listening. I said left.",
+    "You understood wrong, it's on the left."
+   ],
+   "n": [
+    "Takes responsibility, corrects gently.",
+    "Accusing and rude.",
+    "Blunt and blaming."
+   ]
+  },
+  {
+   "place": "Shop",
+   "e": "🧾",
+   "s": "You're a cashier. An elderly customer is slow to pay and the queue is restless.",
+   "o": [
+    "Take your time. Would you like a hand with the card machine?",
+    "Hurry up, please, people are waiting.",
+    "Can someone help her? She's too slow."
+   ],
+   "n": [
+    "Patient and helpful.",
+    "Adds pressure, sounds rude.",
+    "Humiliating for the customer."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "🙊",
+   "s": "A new colleague's joke upset someone on the team.",
+   "o": [
+    "Have you got a minute? I think that joke may have landed badly with a few people.",
+    "That was offensive. Apologise to everyone now.",
+    "Haha, OK, but maybe don't, you know?"
+   ],
+   "n": [
+    "Private and constructive.",
+    "Public and confrontational.",
+    "Vague; doesn't deal with it."
+   ]
+  },
+  {
+   "place": "Phone",
+   "e": "📱",
+   "s": "A friend calls while you're busy at work.",
+   "o": [
+    "Hey! I'm just in the middle of something. Can I call you back in an hour?",
+    "I'm busy. Bye.",
+    "Sorry, now is not good moment for me."
+   ],
+   "n": [
+    "Friendly, and gives a time.",
+    "Abrupt and cold.",
+    "Missing 'a'; unnatural."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "📧",
+   "s": "You're writing to your company's CEO for the first time.",
+   "o": [
+    "Dear Ms Patel, I hope you're well. I'm writing to propose a new idea.",
+    "Hi Sarah! Hope you're good! Quick idea for you.",
+    "Dear Madam CEO, I am writing for proposing a new idea."
+   ],
+   "n": [
+    "Formal yet warm.",
+    "Too casual for a CEO.",
+    "Odd title; say 'to propose'."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "🎨",
+   "s": "You need to disagree with a client's choice of design.",
+   "o": [
+    "I can see the appeal. Could I show you an alternative that might suit your audience better?",
+    "With respect, that design is ugly.",
+    "As you wish. It's your money."
+   ],
+   "n": [
+    "Respectful, and offers an option.",
+    "Insults their taste.",
+    "Passive-aggressive."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "🧑‍💼",
+   "s": "You must tell an employee they didn't get the promotion.",
+   "o": [
+    "It was a tough decision. You weren't selected this time, but I'd like to plan your next step together.",
+    "Sorry, they picked someone better.",
+    "You didn't get it. Maybe next year."
+   ],
+   "n": [
+    "Honest, supportive, forward-looking.",
+    "A hurtful comparison.",
+    "Too blunt, with no support."
+   ]
+  },
+  {
+   "place": "Friends",
+   "e": "🖼️",
+   "s": "A friend proudly shows you a painting that isn't very good.",
+   "o": [
+    "I love the colours you've used! How long did it take?",
+    "Did a child paint this?",
+    "It's... interesting. Maybe painting isn't your thing."
+   ],
+   "n": [
+    "Finds something real to praise.",
+    "Mocking and hurtful.",
+    "Discouraging and unkind."
+   ]
+  },
+  {
+   "place": "Hotel",
+   "e": "🛏️",
+   "s": "As the manager, you must refuse a guest's request for a free upgrade.",
+   "o": [
+    "I'm afraid we're fully booked tonight, but I'd be happy to note it for your next stay.",
+    "No free upgrades. Sorry.",
+    "Unfortunately this is not possible, you must pay for upgrade."
+   ],
+   "n": [
+    "A soft no, plus goodwill.",
+    "Curt and cold.",
+    "Blunt, and missing 'an'."
+   ]
+  },
+  {
+   "place": "Meeting",
+   "e": "📽️",
+   "s": "Your boss interrupts your presentation with a wrong assumption.",
+   "o": [
+    "That's a good question. I'll actually be covering that on the next slide, if that's OK.",
+    "You're wrong, and you'd know if you let me finish.",
+    "No, no, no. Wait, please."
+   ],
+   "n": [
+    "Gracious, and keeps control.",
+    "Rude and confrontational.",
+    "Abrupt and dismissive."
+   ]
+  },
+  {
+   "place": "Email",
+   "e": "📝",
+   "s": "A colleague asks you to check their draft to a client. It's too aggressive.",
+   "o": [
+    "It's really clear. I wonder if softening the second paragraph might get a better response?",
+    "This email is rude. You can't send it.",
+    "Your email is very aggressive. The client will hate you."
+   ],
+   "n": [
+    "Praise first, then a gentle suggestion.",
+    "Blunt; may make them defensive.",
+    "Harsh and exaggerated."
+   ]
+  },
+  {
+   "place": "Work",
+   "e": "👋",
+   "s": "You're leaving the company. You tell your supportive manager.",
+   "o": [
+    "I wanted you to hear it first: I've accepted another offer. I'm really grateful for your support.",
+    "I quit. My last day is the 30th.",
+    "I'm leaving because here there is no future for me."
+   ],
+   "n": [
+    "Grateful and professional.",
+    "Too abrupt for a good manager.",
+    "Unkind, and wrong word order."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+{
+  "title": "Small Talk with a Friend",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "happy",
+        "pos": "adjective",
+        "meaning_en": "feeling good",
+        "meaning_ar": "سعيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You look really happy today."
+      },
+      {
+        "word": "new job",
+        "pos": "noun",
+        "meaning_en": "work you have just started",
+        "meaning_ar": "وظيفة جديدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I just got a new job."
+      },
+      {
+        "word": "exciting",
+        "pos": "adjective",
+        "meaning_en": "making you feel happy and full of energy",
+        "meaning_ar": "مثير / مشوّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's exciting news!"
+      },
+      {
+        "word": "bookstore",
+        "pos": "noun",
+        "meaning_en": "a shop that sells books",
+        "meaning_ar": "مكتبة لبيع الكتب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She works in a bookstore."
+      },
+      {
+        "word": "favorite",
+        "pos": "adjective",
+        "meaning_en": "liked most",
+        "meaning_ar": "المفضّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is your favorite book?"
+      },
+      {
+        "word": "adventure story",
+        "pos": "noun",
+        "meaning_en": "a story about exciting and dangerous trips",
+        "meaning_ar": "قصة مغامرات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like adventure stories."
+      },
+      {
+        "word": "coffee shop",
+        "pos": "noun",
+        "meaning_en": "a small place to drink coffee",
+        "meaning_ar": "مقهى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's meet at the coffee shop."
+      },
+      {
+        "word": "often",
+        "pos": "adverb",
+        "meaning_en": "many times",
+        "meaning_ar": "كثيرًا / غالبًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you come here often?"
+      },
+      {
+        "word": "sit together",
+        "pos": "phrase",
+        "meaning_en": "sit next to each other",
+        "meaning_ar": "نجلس معًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want to sit together?"
+      },
+      {
+        "word": "work hours",
+        "pos": "noun",
+        "meaning_en": "the time you spend at work",
+        "meaning_ar": "ساعات العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My work hours are long."
+      },
+      {
+        "word": "tired",
+        "pos": "adjective",
+        "meaning_en": "needing rest or sleep",
+        "meaning_ar": "متعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I get tired after work."
+      },
+      {
+        "word": "relax",
+        "pos": "verb",
+        "meaning_en": "rest and feel calm",
+        "meaning_ar": "يسترخي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How do you relax after work?"
+      },
+      {
+        "word": "gym",
+        "pos": "noun",
+        "meaning_en": "a place for exercise",
+        "meaning_ar": "صالة رياضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's go to the gym together."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "exciting vs excited",
+        "words": [
+          "exciting",
+          "excited"
+        ],
+        "explanation_ar": "exciting تصف الشيء (خبر مثير)، و excited تصف شعور الشخص (أنا متحمّس).",
+        "explanation_en": "\"Exciting\" describes the thing. \"Excited\" describes how a person feels.",
+        "examples": [
+          {
+            "word": "exciting",
+            "sentence": "A new job! That's exciting!"
+          },
+          {
+            "word": "excited",
+            "sentence": "I'm excited about my new job."
+          }
+        ]
+      },
+      {
+        "title": "I just got vs I get",
+        "words": [
+          "I just got",
+          "I get"
+        ],
+        "explanation_ar": "I just got تعني حصلت للتوّ (منذ وقت قصير). I get tired تعني أصبح متعبًا (عادة).",
+        "explanation_en": "\"I just got\" = a very short time ago. \"I get tired\" = I become tired (habit).",
+        "examples": [
+          {
+            "word": "I just got",
+            "sentence": "I just got a new job."
+          },
+          {
+            "word": "I get",
+            "sentence": "I get tired after long days."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "You look really happy today. What's up?",
+        "meaning_ar": "تبدو سعيدًا جدًا اليوم. ما الأمر؟",
+        "meaning_en": "Notice someone's mood and ask why.",
+        "example": "You look really happy today. What's up?"
+      },
+      {
+        "phrase": "I just got a new job.",
+        "meaning_ar": "حصلت للتوّ على وظيفة جديدة.",
+        "meaning_en": "Share good news.",
+        "example": "Guess what? I just got a new job!"
+      },
+      {
+        "phrase": "Wow, that's exciting!",
+        "meaning_ar": "واو، هذا مثير!",
+        "meaning_en": "React to good news.",
+        "example": "You're going to Japan? Wow, that's exciting!"
+      },
+      {
+        "phrase": "What is your favorite book?",
+        "meaning_ar": "ما كتابك المفضّل؟",
+        "meaning_en": "Ask about favorites.",
+        "example": "What is your favorite book? I like adventure stories."
+      },
+      {
+        "phrase": "Do you come to this coffee shop often?",
+        "meaning_ar": "هل تأتي إلى هذا المقهى كثيرًا؟",
+        "meaning_en": "Small talk in a place.",
+        "example": "Do you come here often? Every Saturday."
+      },
+      {
+        "phrase": "Do you want to sit together? — Yes, I would like that!",
+        "meaning_ar": "هل تريد أن نجلس معًا؟ — نعم، يسعدني ذلك!",
+        "meaning_en": "Invite someone to sit with you.",
+        "example": "Do you want to sit together? Yes, I would like that!"
+      },
+      {
+        "phrase": "How's work going?",
+        "meaning_ar": "كيف يسير العمل؟",
+        "meaning_en": "Ask about someone's job.",
+        "example": "How's work going? It's okay."
+      },
+      {
+        "phrase": "How do you relax after work?",
+        "meaning_ar": "كيف تسترخي بعد العمل؟",
+        "meaning_en": "Ask about relaxing habits.",
+        "example": "How do you relax after work? I read books."
+      },
+      {
+        "phrase": "Maybe we can go to the gym together one day.",
+        "meaning_ar": "ربما يمكننا الذهاب إلى الصالة الرياضية معًا يومًا ما.",
+        "meaning_en": "Suggest a plan.",
+        "example": "Maybe we can go to the park together one day."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Future with will: What will you do?",
+        "explanation_ar": "نسأل عن المستقبل بـ What will you do? ونجيب: I will work in a bookstore. وأيضًا يمكن استخدام المضارع البسيط لموعد ثابت: I start next week.",
+        "explanation_en": "Use will for the future. The present simple can show a fixed start time: I start next week.",
+        "examples": [
+          "What will you do?",
+          "I will work in a bookstore.",
+          "I start next week."
+        ]
+      },
+      {
+        "title": "Present simple for habits + frequency",
+        "explanation_ar": "المضارع البسيط مع كلمات التكرار: I come here every Saturday. Sometimes the work hours are too long.",
+        "explanation_en": "Present simple with every Saturday, sometimes, often.",
+        "examples": [
+          "I come here every Saturday.",
+          "Sometimes I get tired.",
+          "Do you come to this coffee shop often?"
+        ]
+      },
+      {
+        "title": "help + someone + verb",
+        "explanation_ar": "help + شخص + الفعل في أصله: It helps me feel good.",
+        "explanation_en": "help + person + base verb.",
+        "examples": [
+          "It helps me feel good.",
+          "Reading helps me relax.",
+          "My friend helps me study."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "You look really happy today. What's ___?",
+      "choices": [
+        "in",
+        "on",
+        "up",
+        "at"
+      ],
+      "answer": 2,
+      "explanation_ar": "What's up? تعني ما الأمر؟",
+      "explanation_en": "\"What's up?\" = What is happening?"
+    },
+    {
+      "question": "I just ___ a new job.",
+      "choices": [
+        "get",
+        "getting",
+        "got",
+        "gets"
+      ],
+      "answer": 2,
+      "explanation_ar": "just got = حصلت للتوّ (ماضي).",
+      "explanation_en": "\"Just got\" uses the past."
+    },
+    {
+      "question": "A new job? That's ___!",
+      "choices": [
+        "excited",
+        "exciting",
+        "excite",
+        "excites"
+      ],
+      "answer": 1,
+      "explanation_ar": "نصف الخبر بـ exciting.",
+      "explanation_en": "The news is exciting."
+    },
+    {
+      "question": "What will you do? — I ___ work in a bookstore.",
+      "choices": [
+        "am",
+        "will",
+        "do",
+        "was"
+      ],
+      "answer": 1,
+      "explanation_ar": "الجواب بالمستقبل: I will work.",
+      "explanation_en": "Answer with will."
+    },
+    {
+      "question": "Do you come here often? — Yes, I come here ___ Saturday.",
+      "choices": [
+        "all",
+        "many",
+        "each of",
+        "every"
+      ],
+      "answer": 3,
+      "explanation_ar": "every Saturday = كل سبت.",
+      "explanation_en": "\"Every Saturday\" = each Saturday."
+    },
+    {
+      "question": "Do you want to sit together? — Yes, I would ___ that!",
+      "choices": [
+        "like",
+        "likes",
+        "liking",
+        "liked"
+      ],
+      "answer": 0,
+      "explanation_ar": "I would like that = يسعدني ذلك.",
+      "explanation_en": "\"I would like that\" = yes, happily."
+    },
+    {
+      "question": "Sometimes the work hours are too long. I get ___.",
+      "choices": [
+        "tired",
+        "happy",
+        "exciting",
+        "favorite"
+      ],
+      "answer": 0,
+      "explanation_ar": "tired تعني متعب.",
+      "explanation_en": "Tired = needing rest."
+    },
+    {
+      "question": "Reading helps me ___ good.",
+      "choices": [
+        "feel",
+        "feeling",
+        "to feeling",
+        "feels"
+      ],
+      "answer": 0,
+      "explanation_ar": "help + شخص + الفعل في أصله.",
+      "explanation_en": "help + person + base verb."
+    },
+    {
+      "question": "How's work ___? — It is okay.",
+      "choices": [
+        "go",
+        "went",
+        "goes",
+        "going"
+      ],
+      "answer": 3,
+      "explanation_ar": "How's work going? كيف يسير العمل؟",
+      "explanation_en": "\"How's work going?\" is correct."
+    },
+    {
+      "question": "A story about exciting trips is an ___ story.",
+      "choices": [
+        "often",
+        "favorite",
+        "tired",
+        "adventure"
+      ],
+      "answer": 3,
+      "explanation_ar": "adventure story قصة مغامرات.",
+      "explanation_en": "An adventure story."
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+ "title": "Idiomatic expressions",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "bubble",
+    "pos": "noun",
+    "meaning_en": "a ball of air or gas inside a liquid or soap",
+    "meaning_ar": "فقاعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The children blew soap bubbles."
+   },
+   {
+    "word": "medicine",
+    "pos": "noun",
+    "meaning_en": "something you take to treat an illness",
+    "meaning_ar": "دواء",
+    "note_ar": "تُنطق غالباً /ˈmedsən/ بمقطعين في بريطانيا.",
+    "note_en": "In the UK it's often said in two syllables: MED-sin.",
+    "example": "Take this medicine twice a day."
+   },
+   {
+    "word": "treatment",
+    "pos": "noun",
+    "meaning_en": "the way you behave towards someone",
+    "meaning_ar": "معاملة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Everyone deserves fair treatment."
+   },
+   {
+    "word": "fortune",
+    "pos": "noun",
+    "meaning_en": "luck; also a large amount of money",
+    "meaning_ar": "حظ؛ ثروة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Good fortune came our way this year."
+   },
+   {
+    "word": "nose",
+    "pos": "noun",
+    "meaning_en": "the part of the face you smell with; (figurative) a natural ability to find something",
+    "meaning_ar": "أنف؛ حاسّة/موهبة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She has a nose for good stories."
+   },
+   {
+    "word": "collar",
+    "pos": "noun",
+    "meaning_en": "the part of a shirt around your neck",
+    "meaning_ar": "ياقة القميص",
+    "note_ar": "",
+    "note_en": "",
+    "example": "His shirt collar was too tight."
+   },
+   {
+    "word": "straw",
+    "pos": "noun",
+    "meaning_en": "a thin tube for drinking; a dry plant stem",
+    "meaning_ar": "ماصّة؛ قشّة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can I have a straw for my juice?"
+   },
+   {
+    "word": "unpleasant",
+    "pos": "adjective",
+    "meaning_en": "not nice; not enjoyable",
+    "meaning_ar": "غير سار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Cleaning the toilets is an unpleasant job."
+   },
+   {
+    "word": "shade",
+    "pos": "noun",
+    "meaning_en": "an area out of the sun; (slang) quiet disrespect",
+    "meaning_ar": "ظلّ؛ (عامية) انتقاد خفي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Let's sit in the shade."
+   },
+   {
+    "word": "publicly",
+    "pos": "adverb",
+    "meaning_en": "in front of other people",
+    "meaning_ar": "علناً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He thanked his team publicly."
+   },
+   {
+    "word": "giant",
+    "pos": "noun",
+    "meaning_en": "a very big, strong person or thing",
+    "meaning_ar": "عملاق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The company is a giant in technology."
+   },
+   {
+    "word": "cough",
+    "pos": "verb",
+    "meaning_en": "to push air out of your throat with a sudden noise",
+    "meaning_ar": "يسعل",
+    "note_ar": "تُنطق /kɒf/ و gh هنا تُنطق f.",
+    "note_en": "Say /kɒf/; 'gh' sounds like 'f'.",
+    "example": "The smoke made me cough."
+   },
+   {
+    "word": "improvise",
+    "pos": "verb",
+    "meaning_en": "to do something without preparing it",
+    "meaning_ar": "يرتجل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I forgot my notes, so I improvised."
+   },
+   {
+    "word": "reluctantly",
+    "pos": "adverb",
+    "meaning_en": "without wanting to",
+    "meaning_ar": "على مضض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He reluctantly agreed to help."
+   },
+   {
+    "word": "unexpected",
+    "pos": "adjective",
+    "meaning_en": "surprising; not expected",
+    "meaning_ar": "غير متوقع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We had an unexpected visitor."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "a taste of your own medicine vs get the short straw",
+    "words": [
+     "a taste of your own medicine",
+     "get the short straw"
+    ],
+    "explanation_ar": "a taste of your own medicine = تتلقى نفس المعاملة السيئة التي كنت تعامل بها الآخرين (تستحقها). get/draw the short straw = تكون الشخص الذي يحصل على المهمة أو النتيجة الأسوأ في المجموعة (حظ سيئ).",
+    "explanation_en": "'A taste of your own medicine' = receiving the same bad treatment you gave others (you deserve it). 'Get (or draw) the short straw' = being the one in a group who gets the worst job or result (bad luck).",
+    "examples": [
+     {
+      "word": "a taste of your own medicine",
+      "sentence": "He always interrupts – today someone interrupted him. A taste of his own medicine!"
+     },
+     {
+      "word": "get the short straw",
+      "sentence": "I got the short straw and had to clean the bathroom."
+     }
+    ]
+   },
+   {
+    "title": "throw shade vs hot under the collar",
+    "words": [
+     "throw shade",
+     "hot under the collar"
+    ],
+    "explanation_ar": "throw shade (at someone) = تنتقد شخصاً أو تقلّل من شأنه بطريقة خفية أو علنية. hot under the collar = تصبح غاضباً أو منزعجاً جداً.",
+    "explanation_en": "'Throw shade (at someone)' = criticise or disrespect someone, often in a quiet, clever way. 'Hot under the collar' = becoming very annoyed or angry.",
+    "examples": [
+     {
+      "word": "throw shade",
+      "sentence": "She threw shade at my shoes by saying 'Nice... for a museum'."
+     },
+     {
+      "word": "hot under the collar",
+      "sentence": "He gets hot under the collar when people are late."
+     }
+    ]
+   },
+   {
+    "title": "wing it vs cough up",
+    "words": [
+     "wing it",
+     "cough up"
+    ],
+    "explanation_ar": "wing it = تفعل شيئاً دون تحضير وترتجل. cough up = تدفع المال (غالباً وأنت لا تريد).",
+    "explanation_en": "'Wing it' = do something without preparing, improvise. 'Cough up' = pay money, usually when you don't want to.",
+    "examples": [
+     {
+      "word": "wing it",
+      "sentence": "I didn't study, so I'll have to wing it."
+     },
+     {
+      "word": "cough up",
+      "sentence": "We had to cough up £20 for parking."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "living in a bubble",
+    "meaning_ar": "يعيش في عزلة فكرية مع أشخاص يفكرون مثله ولا يتقبّل الأفكار المختلفة",
+    "meaning_en": "to live only with people who think like you and not accept different ideas",
+    "example": "He only reads news that agrees with him – he's living in a bubble."
+   },
+   {
+    "phrase": "a taste of your own medicine",
+    "meaning_ar": "تتلقى نفس المعاملة السيئة التي عاملت بها غيرك",
+    "meaning_en": "the same bad treatment that you have given to others",
+    "example": "She always laughs at others, so it was a taste of her own medicine when they laughed at her."
+   },
+   {
+    "phrase": "have all your Christmases come at once",
+    "meaning_ar": "يحصل على حظ سعيد كثير دفعة واحدة",
+    "meaning_en": "to have a lot of good luck at the same time",
+    "example": "A new job and a new flat in one week – all my Christmases have come at once!"
+   },
+   {
+    "phrase": "have a good nose (for something)",
+    "meaning_ar": "عنده موهبة طبيعية في إيجاد شيء",
+    "meaning_en": "to have a natural ability to find something",
+    "example": "My aunt has a good nose for bargains."
+   },
+   {
+    "phrase": "hot under the collar",
+    "meaning_ar": "غاضب أو منزعج جداً",
+    "meaning_en": "very annoyed or angry",
+    "example": "He got hot under the collar when the train was cancelled again."
+   },
+   {
+    "phrase": "get / draw the short straw",
+    "meaning_ar": "يحصل على المهمة أو النتيجة الأسوأ في المجموعة",
+    "meaning_en": "to be the person in a group who gets the worst job or result",
+    "example": "I drew the short straw – I'm working on the holiday."
+   },
+   {
+    "phrase": "throw shade (at someone)",
+    "meaning_ar": "ينتقد شخصاً أو يقلّل من شأنه، غالباً بأسلوب خفي",
+    "meaning_en": "to criticise or disrespect someone, often in a quiet or clever way",
+    "example": "Was that comment about my cooking throwing shade?"
+   },
+   {
+    "phrase": "giant killer / giant-killing",
+    "meaning_ar": "فريق أو شخص صغير يهزم منافساً أكبر وأقوى بكثير",
+    "meaning_en": "a small team or person that beats a much bigger, stronger one",
+    "example": "The village team were the giant killers of the cup this year."
+   },
+   {
+    "phrase": "cough up",
+    "meaning_ar": "يدفع المال على مضض",
+    "meaning_en": "to pay money, especially when you don't want to",
+    "example": "I had to cough up £50 to fix my phone screen."
+   },
+   {
+    "phrase": "wing it",
+    "meaning_ar": "يرتجل دون تحضير",
+    "meaning_en": "to do something without preparing; improvise",
+    "example": "I forgot my notes, so I just winged it."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Phrasal verbs with an object: cough up",
+    "explanation_ar": "cough up فعل مركّب يمكن أن يأخذ مفعولاً: cough up the money / cough the money up. لكن مع الضمير يجب أن يأتي في الوسط: cough it up (وليس cough up it).",
+    "explanation_en": "'Cough up' is a phrasal verb that can take an object: cough up the money / cough the money up. With a pronoun, it must go in the middle: cough it up (not 'cough up it').",
+    "examples": [
+     "He coughed up the money.",
+     "He coughed the money up.",
+     "Come on, cough it up!"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "'I had to wing it.' What did the speaker do?",
+   "choices": [
+    "prepared carefully",
+    "improvised without preparing",
+    "flew home",
+    "cancelled it"
+   ],
+   "answer": 1,
+   "explanation_ar": "wing it = يرتجل.",
+   "explanation_en": "'Wing it' means improvise."
+  },
+  {
+   "question": "He always shouts at others. Today someone shouted at him. He got ___.",
+   "choices": [
+    "a taste of his own medicine",
+    "a good nose",
+    "all his Christmases",
+    "the giant killer"
+   ],
+   "answer": 0,
+   "explanation_ar": "a taste of your own medicine = نفس المعاملة السيئة.",
+   "explanation_en": "It's the same bad treatment he gives others."
+  },
+  {
+   "question": "Which is correct?",
+   "choices": [
+    "Cough up it!",
+    "Cough it up!",
+    "It cough up!",
+    "Up cough it!"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع الضمير: cough it up.",
+   "explanation_en": "With a pronoun: cough it up."
+  },
+  {
+   "question": "Everyone else went home, but I had to stay late. I ___.",
+   "choices": [
+    "threw shade",
+    "winged it",
+    "got the short straw",
+    "lived in a bubble"
+   ],
+   "answer": 2,
+   "explanation_ar": "get the short straw = تحصل على المهمة الأسوأ.",
+   "explanation_en": "'Get the short straw' means getting the worst job."
+  },
+  {
+   "question": "A small football club beat the champions. They were ___.",
+   "choices": [
+    "hot under the collar",
+    "giant killers",
+    "in a bubble",
+    "short straws"
+   ],
+   "answer": 1,
+   "explanation_ar": "giant killer = فريق صغير يهزم فريقاً كبيراً.",
+   "explanation_en": "A 'giant killer' beats a much bigger team."
+  },
+  {
+   "question": "'She has a good nose for news.' This means she...",
+   "choices": [
+    "can smell well",
+    "has a big nose",
+    "is good at finding news stories",
+    "doesn't like news"
+   ],
+   "answer": 2,
+   "explanation_ar": "have a good nose for = موهبة في إيجاد شيء.",
+   "explanation_en": "It means she's good at finding news."
+  },
+  {
+   "question": "He got ___ when the shop refused to help him.",
+   "choices": [
+    "hot under the collar",
+    "a short straw",
+    "a good nose",
+    "all his Christmases"
+   ],
+   "answer": 0,
+   "explanation_ar": "hot under the collar = غاضب جداً.",
+   "explanation_en": "'Hot under the collar' means very angry."
+  },
+  {
+   "question": "'I won a prize and got a promotion on the same day!' Which idiom fits?",
+   "choices": [
+    "A taste of my own medicine",
+    "Living in a bubble",
+    "Cough up",
+    "All my Christmases have come at once"
+   ],
+   "answer": 3,
+   "explanation_ar": "have all your Christmases come at once = حظ سعيد كثير مرة واحدة.",
+   "explanation_en": "It means lots of good luck at once."
+  },
+  {
+   "question": "She only talks to people who agree with her. She's ___.",
+   "choices": [
+    "throwing shade",
+    "winging it",
+    "living in a bubble",
+    "a giant killer"
+   ],
+   "answer": 2,
+   "explanation_ar": "living in a bubble = يعيش في عزلة فكرية.",
+   "explanation_en": "'Living in a bubble' means not hearing different ideas."
+  },
+  {
+   "question": "'Nice dress... very brave colour.' The speaker is probably ___.",
+   "choices": [
+    "coughing up",
+    "throwing shade",
+    "drawing the short straw",
+    "winging it"
+   ],
+   "answer": 1,
+   "explanation_ar": "throw shade = انتقاد خفي.",
+   "explanation_en": "'Throw shade' is quiet, clever criticism."
+  }
+ ]
+}

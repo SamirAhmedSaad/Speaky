@@ -1,0 +1,80 @@
+{
+  "title": "Are You Busy?",
+  "content": {
+    "vocabulary": [
+      {"word": "busy", "pos": "adjective", "meaning_en": "having a lot of work to do; not free", "meaning_ar": "مشغول", "note_ar": "تُنطق /ˈbɪzi/ مثل «بِزي»، وليس «بَسي».", "note_en": "Say /ˈbɪzi/ (\"bizzy\"). The noun is business.", "example": "I can't talk now. I'm busy."},
+      {"word": "job", "pos": "noun", "meaning_en": "the work you do to get money", "meaning_ar": "وظيفة / عمل", "note_ar": "", "note_en": "", "example": "She has a new job at a bank."},
+      {"word": "yesterday", "pos": "adverb", "meaning_en": "the day before today", "meaning_ar": "أمس", "note_ar": "", "note_en": "", "example": "Yesterday was my first day at school."},
+      {"word": "today", "pos": "adverb", "meaning_en": "this day", "meaning_ar": "اليوم", "note_ar": "", "note_en": "", "example": "Today is a new day."},
+      {"word": "apologize", "pos": "verb", "meaning_en": "to say you are sorry", "meaning_ar": "يعتذر", "note_ar": "نقول: apologize for something (يعتذر عن شيء). الاسم: apology.", "note_en": "apologize for something. Noun: apology. UK spelling: apologise.", "example": "I want to apologize for my mistake."},
+      {"word": "co-worker", "pos": "noun", "meaning_en": "a person you work with", "meaning_ar": "زميل عمل", "note_ar": "ويُقال أيضًا colleague.", "note_en": "Also: colleague.", "example": "My co-workers are very kind."},
+      {"word": "morning", "pos": "noun", "meaning_en": "the early part of the day, before 12 noon", "meaning_ar": "الصباح", "note_ar": "in the morning = في الصباح", "note_en": "in the morning", "example": "I drink tea in the morning."},
+      {"word": "afternoon", "pos": "noun", "meaning_en": "the time from 12 noon until about 6 p.m.", "meaning_ar": "بعد الظهر", "note_ar": "in the afternoon = بعد الظهر، this afternoon = بعد ظهر اليوم", "note_en": "in the afternoon, this afternoon", "example": "Come by this afternoon."},
+      {"word": "evening", "pos": "noun", "meaning_en": "the time from about 6 p.m. until night", "meaning_ar": "المساء", "note_ar": "", "note_en": "", "example": "He reads in the evening."},
+      {"word": "a.m.", "pos": "abbreviation", "meaning_en": "used after a time to mean before 12 noon", "meaning_ar": "صباحًا (قبل الظهر)", "note_ar": "تُنطق حرفًا حرفًا: «إي إم».", "note_en": "Say the letters: \"ay em\".", "example": "The class starts at 9 a.m."},
+      {"word": "p.m.", "pos": "abbreviation", "meaning_en": "used after a time to mean after 12 noon", "meaning_ar": "مساءً (بعد الظهر)", "note_ar": "تُنطق: «بي إم».", "note_en": "Say the letters: \"pee em\".", "example": "The meeting is at 5 p.m."},
+      {"word": "later", "pos": "adverb", "meaning_en": "at a time after now", "meaning_ar": "لاحقًا / فيما بعد", "note_ar": "", "note_en": "", "example": "I'll call you later."},
+      {"word": "maybe", "pos": "adverb", "meaning_en": "possibly; perhaps", "meaning_ar": "ربما", "note_ar": "تأتي عادة في أول الجملة.", "note_en": "It usually comes at the start of a sentence.", "example": "Maybe I'll see you tomorrow."},
+      {"word": "studio", "pos": "noun", "meaning_en": "a room where people make and record TV or radio shows", "meaning_ar": "استوديو", "note_ar": "", "note_en": "", "example": "The news show is in studio 3."},
+      {"word": "record", "pos": "verb", "meaning_en": "to put sound or pictures on a tape, phone or computer", "meaning_ar": "يسجّل", "note_ar": "الفعل: reCORD (النبرة على المقطع الثاني)، والاسم: REcord.", "note_en": "Verb: re-CORD. Noun: RE-cord.", "example": "They are recording a show now."},
+      {"word": "show", "pos": "noun", "meaning_en": "a program on TV or radio", "meaning_ar": "برنامج / عرض", "note_ar": "", "note_en": "", "example": "Her morning show is very popular."},
+      {"word": "office", "pos": "noun", "meaning_en": "a room where a person works at a desk", "meaning_ar": "مكتب", "note_ar": "", "note_en": "", "example": "Please come to my office."},
+      {"word": "party", "pos": "noun", "meaning_en": "a time when people meet to eat and have fun together", "meaning_ar": "حفلة", "note_ar": "", "note_en": "", "example": "We have a party for our new co-worker."},
+      {"word": "surprise", "pos": "noun / interjection", "meaning_en": "something you did not expect", "meaning_ar": "مفاجأة", "note_ar": "يقولها الناس بصوت عالٍ في حفلة مفاجئة: Surprise!", "note_en": "People shout \"Surprise!\" at a surprise party.", "example": "The gift was a big surprise."},
+      {"word": "still", "pos": "adverb", "meaning_en": "continuing until now", "meaning_ar": "ما زال / لا يزال", "note_ar": "", "note_en": "", "example": "I still have my old phone."},
+      {"word": "awesome", "pos": "adjective", "meaning_en": "very good; great (informal)", "meaning_ar": "رائع", "note_ar": "كلمة عامية شائعة جدًا في أمريكا.", "note_en": "Informal, very common in American English.", "example": "This cake is awesome!"},
+      {"word": "phew", "pos": "interjection", "meaning_en": "a sound that shows you feel relieved, tired or hot", "meaning_ar": "صوت يعبّر عن الارتياح أو التعب (يا للراحة!)", "note_ar": "", "note_en": "", "example": "Phew! The test is finished."},
+      {"word": "every day", "pos": "phrase", "meaning_en": "on all days", "meaning_ar": "كل يوم", "note_ar": "every day (كلمتان) = كل يوم، أما everyday (كلمة واحدة) فصفة بمعنى «يومي».", "note_en": "every day (two words) = each day; everyday (one word) = normal, daily.", "example": "I walk to work every day."},
+      {"word": "light", "pos": "noun", "meaning_en": "something that gives light, like a lamp", "meaning_ar": "ضوء / مصباح", "note_ar": "", "note_en": "", "example": "When the red light is on, be quiet."}
+    ],
+    "fine_lines": [
+      {"title": "a.m. vs p.m.", "words": ["a.m.", "p.m."],
+       "explanation_ar": "a.m. للوقت من منتصف الليل حتى الظهر، و p.m. للوقت من الظهر حتى منتصف الليل. نضعهما بعد الرقم فقط، ولا نقول «in the morning» معها.",
+       "explanation_en": "a.m. is from midnight to 12 noon. p.m. is from 12 noon to midnight. Put them after the number. Don't add \"in the morning\" too.",
+       "examples": [{"word": "a.m.", "sentence": "I wake up at 6 a.m."}, {"word": "p.m.", "sentence": "We eat dinner at 7 p.m."}]},
+      {"title": "morning / afternoon / evening", "words": ["morning", "afternoon", "evening"],
+       "explanation_ar": "morning من الصباح حتى الظهر، afternoon من الظهر حتى نحو السادسة، evening من السادسة حتى وقت النوم. نقول: in the morning / in the afternoon / in the evening، لكن at night.",
+       "explanation_en": "Morning is before noon, afternoon is from noon to about 6, evening is from about 6 to bedtime. Say in the morning, in the afternoon, in the evening, but at night.",
+       "examples": [{"word": "morning", "sentence": "She runs in the morning."}, {"word": "afternoon", "sentence": "I have a class this afternoon."}, {"word": "evening", "sentence": "We watch the news in the evening."}]}
+    ],
+    "expressions": [
+      {"phrase": "Are you busy?", "meaning_ar": "هل أنت مشغول؟", "meaning_en": "Do you have time now, or are you working?", "example": "Hi, Sam. Are you busy?"},
+      {"phrase": "I'm a little busy.", "meaning_ar": "أنا مشغول قليلًا.", "meaning_en": "I have some work now.", "example": "I'm a little busy. Can we talk later?"},
+      {"phrase": "See you later.", "meaning_ar": "أراك لاحقًا.", "meaning_en": "Goodbye for now.", "example": "OK, see you later!"},
+      {"phrase": "Sorry about yesterday.", "meaning_ar": "آسف بشأن ما حدث أمس.", "meaning_en": "I apologize for what happened yesterday.", "example": "Sorry about yesterday. I was very tired."},
+      {"phrase": "No worries.", "meaning_ar": "لا بأس / لا تقلق.", "meaning_en": "It's okay; don't worry (informal).", "example": "\"I'm late.\" \"No worries.\""},
+      {"phrase": "May I see the studio?", "meaning_ar": "هل يمكنني أن أرى الاستوديو؟", "meaning_en": "A polite way to ask for permission.", "example": "May I see your new office?"},
+      {"phrase": "Maybe another time.", "meaning_ar": "ربما في وقت آخر.", "meaning_en": "Not now, but perhaps later.", "example": "I can't come today. Maybe another time."},
+      {"phrase": "Right now I am busy.", "meaning_ar": "الآن أنا مشغول.", "meaning_en": "At this moment I have work.", "example": "Right now I am busy, sorry."},
+      {"phrase": "Come by this afternoon.", "meaning_ar": "مُرّ عليّ بعد ظهر اليوم.", "meaning_en": "Visit me for a short time this afternoon.", "example": "I have the book. Come by this afternoon."},
+      {"phrase": "Today is a new day!", "meaning_ar": "اليوم يوم جديد!", "meaning_en": "Forget the bad things; start again today.", "example": "Yesterday was bad, but today is a new day!"},
+      {"phrase": "Until next time!", "meaning_ar": "إلى اللقاء في المرة القادمة!", "meaning_en": "Goodbye until we meet again.", "example": "Thanks for watching. Until next time!"}
+    ],
+    "grammar": [
+      {"title": "Telling the time with at",
+       "explanation_ar": "١) لنسأل عن الوقت نقول: What time is it?\n٢) نذكر الساعة ثم الدقائق: 5:00 = five o'clock، 10:30 = ten thirty.\n٣) نضيف a.m. للصباح و p.m. لبعد الظهر والمساء.\n٤) نستخدم at قبل وقت محدد: at 10 a.m.، at 5 p.m.",
+       "explanation_en": "1) Ask: What time is it?\n2) Say the hour, then the minutes: 5:00 = five o'clock, 10:30 = ten thirty.\n3) Add a.m. (morning) or p.m. (afternoon/evening).\n4) Use at before an exact time: at 10 a.m., at 5 p.m.",
+       "examples": ["What time is it? It's nine o'clock.", "My class starts at 8 a.m.", "Come to my office at 5:00 p.m."]},
+      {"title": "Yes/No questions with be: Are you busy?",
+       "explanation_ar": "١) لنصنع سؤالًا بنعم أو لا مع فعل be نضع am / is / are قبل الفاعل: You are busy → Are you busy?\n٢) الإجابة القصيرة: Yes, I am. / No, I'm not.\n٣) مع he/she/it نستخدم is: Is she busy? Yes, she is.",
+       "explanation_en": "1) To make a yes/no question with be, put am / is / are before the subject: You are busy → Are you busy?\n2) Short answers: Yes, I am. / No, I'm not.\n3) With he/she/it use is: Is she busy? Yes, she is.",
+       "examples": ["Are you busy? Yes, I am.", "Is he at work? No, he isn't.", "Are they in the studio? Yes, they are."]},
+      {"title": "Present continuous for actions happening now",
+       "explanation_ar": "١) نستخدم am / is / are + الفعل مع ing لحدث يجري الآن.\n٢) I am writing (أنا أكتب الآن).\n٣) نستخدم المضارع البسيط للعادات: Every day I do my morning show.",
+       "explanation_en": "1) Use am / is / are + verb-ing for an action happening now.\n2) I am writing. He is recording.\n3) Use the simple present for habits: Every day I do my morning show.",
+       "examples": ["Right now I am writing a report.", "He is recording his show.", "Every day she reads the news."]}
+    ]
+  },
+  "questions": [
+    {"question": "What does \"busy\" mean?", "choices": ["having a lot to do", "very happy", "very tired", "late"], "answer": 0, "explanation_ar": "busy تعني مشغولًا لديه عمل كثير.", "explanation_en": "Busy means you have a lot to do and are not free."},
+    {"question": "Choose the correct question: ___ you busy?", "choices": ["Is", "Am", "Are", "Do"], "answer": 2, "explanation_ar": "مع you نستخدم are: Are you busy?", "explanation_en": "With you we use are: Are you busy?"},
+    {"question": "The meeting is at 5:00 ___. (in the afternoon)", "choices": ["a.m.", "p.m.", "morning", "night"], "answer": 1, "explanation_ar": "p.m. للوقت بعد الظهر.", "explanation_en": "p.m. is for times after 12 noon."},
+    {"question": "\"Sorry about yesterday.\" \"___\"", "choices": ["See you later.", "Surprise!", "Are you busy?", "No worries."], "answer": 3, "explanation_ar": "No worries تعني لا بأس، وهي رد مناسب على الاعتذار.", "explanation_en": "No worries means it's okay. It is a good answer to an apology."},
+    {"question": "What does \"apologize\" mean?", "choices": ["to say you are sorry", "to say thank you", "to say hello", "to ask a question"], "answer": 0, "explanation_ar": "apologize يعني يعتذر، أي يقول إنه آسف.", "explanation_en": "To apologize is to say you are sorry."},
+    {"question": "Choose the correct sentence.", "choices": ["I am write now.", "I writing now.", "I am writing now.", "I am writes now."], "answer": 2, "explanation_ar": "المضارع المستمر: am + الفعل مع ing.", "explanation_en": "Present continuous: am + verb-ing."},
+    {"question": "\"Are you busy?\" \"No, ___.\"", "choices": ["I'm not", "I am", "you aren't", "I not"], "answer": 0, "explanation_ar": "الإجابة القصيرة بالنفي: No, I'm not.", "explanation_en": "The short negative answer is: No, I'm not."},
+    {"question": "Which word means \"the day before today\"?", "choices": ["today", "tomorrow", "later", "yesterday"], "answer": 3, "explanation_ar": "yesterday تعني أمس.", "explanation_en": "Yesterday is the day before today."},
+    {"question": "Come by this ___. (between 12 and 6)", "choices": ["morning", "afternoon", "night", "a.m."], "answer": 1, "explanation_ar": "afternoon هو الوقت من الظهر حتى نحو السادسة.", "explanation_en": "Afternoon is from noon until about 6."},
+    {"question": "Your co-workers have a party for you, and you did not expect it. They shout:", "choices": ["Phew!", "Maybe!", "Surprise!", "Sorry!"], "answer": 2, "explanation_ar": "Surprise! تعني مفاجأة، تُقال في الحفلة المفاجئة.", "explanation_en": "People shout \"Surprise!\" at a surprise party."}
+  ]
+}

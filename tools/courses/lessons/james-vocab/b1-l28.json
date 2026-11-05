@@ -1,0 +1,44 @@
+{
+  "title": "Phrasal Verbs with \"Fill\"",
+  "content": {
+    "vocabulary": [
+      {"word": "fill", "pos": "verb", "meaning_en": "to put something into a space or container until it is full", "meaning_ar": "يملأ", "note_ar": "", "note_en": "", "example": "Fill the glass with water."},
+      {"word": "fill up", "pos": "phrasal verb", "meaning_en": "to make something completely full", "meaning_ar": "يملأ تمامًا", "note_ar": "", "note_en": "", "example": "Fill up the gas tank before a long trip."},
+      {"word": "fill up on", "pos": "phrasal verb", "meaning_en": "to eat or get as much of something as possible", "meaning_ar": "يملأ نفسه بـ / يكثر من", "note_ar": "", "note_en": "", "example": "Don't fill up on bread before the main course."},
+      {"word": "fill out (a form)", "pos": "phrasal verb", "meaning_en": "to complete all the information on a form", "meaning_ar": "يملأ استمارة", "note_ar": "يركّز على الاستمارة كلها", "note_en": "Focus on the whole form.", "example": "Please fill out this form."},
+      {"word": "fill out (grow)", "pos": "phrasal verb", "meaning_en": "to grow bigger or stronger (body, muscles)", "meaning_ar": "يمتلئ جسمه / تكبر عضلاته", "note_ar": "", "note_en": "", "example": "After three months at the gym, his arms filled out."},
+      {"word": "fill in (the blanks)", "pos": "phrasal verb", "meaning_en": "to write information in the empty spaces", "meaning_ar": "يملأ الفراغات", "note_ar": "يركّز على الفراغات", "note_en": "Focus on the blanks.", "example": "Fill in the blanks with the correct word."},
+      {"word": "fill someone in", "pos": "phrasal verb", "meaning_en": "to give someone information they missed", "meaning_ar": "يُطلع شخصًا على ما فاته", "note_ar": "", "note_en": "", "example": "I missed the meeting. Can you fill me in?"},
+      {"word": "fill in for", "pos": "phrasal verb", "meaning_en": "to do someone's job for a short time as a substitute", "meaning_ar": "يحلّ محلّ / ينوب عن", "note_ar": "الاسم: a fill-in = بديل", "note_en": "Noun: a fill-in.", "example": "Can you fill in for John? He's sick today."},
+      {"word": "fill in (a hole)", "pos": "phrasal verb", "meaning_en": "to complete something by filling a hole or gap", "meaning_ar": "يسدّ / يملأ ثغرة", "note_ar": "", "note_en": "", "example": "I need to fill in the hole in the wall."},
+      {"word": "substitute", "pos": "noun", "meaning_en": "a person or thing that replaces another", "meaning_ar": "بديل", "note_ar": "", "note_en": "", "example": "We need a substitute teacher tomorrow."},
+      {"word": "have your fill of", "pos": "idiom", "meaning_en": "to have had enough of something; you want no more", "meaning_ar": "اكتفى من / سئم من", "note_ar": "", "note_en": "", "example": "I've had my fill of bad news today."},
+      {"word": "filling", "pos": "noun", "meaning_en": "material a dentist puts into a hole in a tooth", "meaning_ar": "حشوة (سنّ)", "note_ar": "", "note_en": "", "example": "I had two fillings at the dentist."},
+      {"word": "fill your face", "pos": "idiom", "meaning_en": "(informal) to eat a lot of food quickly", "meaning_ar": "يحشو فمه بالطعام", "note_ar": "", "note_en": "", "example": "He filled his face with chocolate bars."},
+      {"word": "tooth decay", "pos": "noun", "meaning_en": "damage to a tooth that makes a hole", "meaning_ar": "تسوّس الأسنان", "note_ar": "", "note_en": "", "example": "Too much sugar causes tooth decay."}
+    ],
+    "fine_lines": [
+      {"title": "fill out vs fill in (forms)", "words": ["fill out", "fill in"], "explanation_ar": "كلاهما بمعنى إكمال المعلومات. fill out يُقال عن الاستمارة كاملة، وfill in يُقال غالبًا عن الفراغات (the blanks).", "explanation_en": "Both mean complete information. Fill out is for the whole form; fill in is usually for the blanks.", "examples": [{"word": "fill out", "sentence": "Fill out this application form."}, {"word": "fill in", "sentence": "Fill in your name and address here."}]},
+      {"title": "fill someone in vs fill in for someone", "words": ["fill someone in", "fill in for someone"], "explanation_ar": "fill me in = أخبرني بما فاتني. fill in for me = خذ مكاني في العمل.", "explanation_en": "Fill me in = tell me what I missed. Fill in for me = do my job while I'm away.", "examples": [{"word": "fill someone in", "sentence": "Can you fill me in on the meeting?"}, {"word": "fill in for someone", "sentence": "Can you fill in for me tomorrow?"}]}
+    ],
+    "expressions": [
+      {"phrase": "Fill it up, please.", "meaning_ar": "املأه من فضلك.", "meaning_en": "Make it full (e.g. at a gas station).", "example": "Fill it up, please. I'm driving far."},
+      {"phrase": "Can you fill me in?", "meaning_ar": "هل تخبرني بما فاتني؟", "meaning_en": "Can you tell me what happened?", "example": "I was late. Can you fill me in?"},
+      {"phrase": "Please fill out this form.", "meaning_ar": "من فضلك املأ هذه الاستمارة.", "meaning_en": "Please complete this form.", "example": "Welcome to the clinic. Please fill out this form."},
+      {"phrase": "I've had my fill of...", "meaning_ar": "اكتفيت من...", "meaning_en": "I don't want any more...", "example": "I've had my fill of this conversation."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"Mr. E asked James to ___ for him at work because he was sick.\"", "choices": ["fill in", "fill up", "fill out", "fill your face"], "answer": 0, "explanation_ar": "fill in for = ينوب عن.", "explanation_en": "Fill in for = be a substitute."},
+    {"question": "\"James likes to ___ with chocolate bars.\" (eat a lot at once)", "choices": ["fill in", "fill his face", "fill out", "have a filling"], "answer": 1, "explanation_ar": "fill your face = يحشو فمه بالطعام.", "explanation_en": "Fill your face = eat a lot."},
+    {"question": "\"Before a long trip, you should ___ the gas tank.\"", "choices": ["fill in", "fill out", "fill up", "fill someone in"], "answer": 2, "explanation_ar": "fill up = يملأ تمامًا.", "explanation_en": "Fill up = make completely full."},
+    {"question": "\"After three months at the gym, her muscles started to ___.\"", "choices": ["fill in", "fill up on", "have a filling", "fill out"], "answer": 3, "explanation_ar": "fill out = تكبر العضلات.", "explanation_en": "Fill out = grow bigger."},
+    {"question": "\"I went to the dentist and got two ___.\"", "choices": ["fillings", "fill-ups", "fill outs", "fills in"], "answer": 0, "explanation_ar": "filling = حشوة السن.", "explanation_en": "A filling repairs a hole in a tooth."},
+    {"question": "\"I missed the meeting. Can you ___?\"", "choices": ["fill up", "fill me in", "fill out", "fill your face"], "answer": 1, "explanation_ar": "fill me in = أخبرني بما فاتني.", "explanation_en": "Fill me in = tell me what happened."},
+    {"question": "At the doctor's: \"Please ___ this form.\"", "choices": ["fill up on", "fill your face", "fill out", "fill in for"], "answer": 2, "explanation_ar": "fill out a form = يملأ استمارة.", "explanation_en": "Fill out a form."},
+    {"question": "\"I've had my ___ of bad news today.\"", "choices": ["filling", "fill-in", "fill up", "fill"], "answer": 3, "explanation_ar": "have your fill of = اكتفى من.", "explanation_en": "Have your fill = have enough."},
+    {"question": "\"Don't ___ bread before the main meal.\"", "choices": ["fill up on", "fill in for", "fill out", "fill someone in"], "answer": 0, "explanation_ar": "fill up on = يُكثر من ويمتلئ.", "explanation_en": "Fill up on = eat a lot of one thing."},
+    {"question": "\"I need to ___ the hole in the wall.\"", "choices": ["fill out", "fill in", "fill up on", "fill your face"], "answer": 1, "explanation_ar": "fill in a hole = يسدّ ثغرة.", "explanation_en": "Fill in a hole = complete it."}
+  ]
+}

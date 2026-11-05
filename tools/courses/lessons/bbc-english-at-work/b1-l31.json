@@ -1,0 +1,424 @@
+{
+  "title": "Project Management",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "project management",
+        "pos": "noun",
+        "meaning_en": "planning and controlling a piece of work from start to finish",
+        "meaning_ar": "إدارة المشاريع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She took a course in project management."
+      },
+      {
+        "word": "strategy",
+        "pos": "noun",
+        "meaning_en": "a plan to reach a goal",
+        "meaning_ar": "استراتيجية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need a clear strategy for Europe."
+      },
+      {
+        "word": "compete on price",
+        "pos": "phrase",
+        "meaning_en": "try to win customers by offering lower prices",
+        "meaning_ar": "ينافس من خلال السعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Small shops can't always compete on price."
+      },
+      {
+        "word": "rival",
+        "pos": "noun",
+        "meaning_en": "a company or person you compete against",
+        "meaning_ar": "منافس",
+        "note_ar": "مرادف: competitor",
+        "note_en": "Synonym: competitor.",
+        "example": "Our main rival is targeting the same market."
+      },
+      {
+        "word": "price someone out of the market",
+        "pos": "idiom",
+        "meaning_en": "offer prices so low that competitors cannot sell",
+        "meaning_ar": "يُخرج المنافسين من السوق بالأسعار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to price our rivals out of the market."
+      },
+      {
+        "word": "corner the market",
+        "pos": "idiom",
+        "meaning_en": "control most of the sales of a product",
+        "meaning_ar": "يستحوذ على السوق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They cornered the market in mobile phones."
+      },
+      {
+        "word": "build relationships",
+        "pos": "phrase",
+        "meaning_en": "develop good connections with people over time",
+        "meaning_ar": "يبني علاقات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to build good relationships with our customers."
+      },
+      {
+        "word": "touch base",
+        "pos": "idiom",
+        "meaning_en": "talk briefly to check how things are going",
+        "meaning_ar": "يتواصل للاطمئنان على سير العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's touch base next week about the project."
+      },
+      {
+        "word": "catch up",
+        "pos": "phrasal verb",
+        "meaning_en": "talk to someone to learn the latest news",
+        "meaning_ar": "يتبادل آخر المستجدات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's catch up after the meeting."
+      },
+      {
+        "word": "sign on the dotted line",
+        "pos": "idiom",
+        "meaning_en": "sign a contract officially",
+        "meaning_ar": "يوقّع العقد رسميًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The client hasn't signed on the dotted line yet."
+      },
+      {
+        "word": "target",
+        "pos": "verb",
+        "meaning_en": "aim a product or service at a group",
+        "meaning_ar": "يستهدف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They are targeting the European market."
+      },
+      {
+        "word": "keep your head above water",
+        "pos": "idiom",
+        "meaning_en": "just manage to survive, especially with money",
+        "meaning_ar": "يصمد / بالكاد ينجو ماليًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company is trying to keep its head above water."
+      },
+      {
+        "word": "in charge",
+        "pos": "phrase",
+        "meaning_en": "responsible for something or someone",
+        "meaning_ar": "مسؤول عن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've put you in charge of the project."
+      },
+      {
+        "word": "not have a clue",
+        "pos": "idiom",
+        "meaning_en": "know nothing about something",
+        "meaning_ar": "ليست لديه أدنى فكرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I don't have a clue how this machine works."
+      },
+      {
+        "word": "dominate",
+        "pos": "verb",
+        "meaning_en": "be the strongest or most important",
+        "meaning_ar": "يهيمن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company dominates the market."
+      },
+      {
+        "word": "value",
+        "pos": "noun",
+        "meaning_en": "how much something is worth for its price",
+        "meaning_ar": "قيمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our products are good quality and good value."
+      },
+      {
+        "word": "face to face",
+        "pos": "adverb",
+        "meaning_en": "meeting in person, not by phone",
+        "meaning_ar": "وجهًا لوجه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's discuss this face to face."
+      },
+      {
+        "word": "bonus",
+        "pos": "noun",
+        "meaning_en": "extra money paid for good work",
+        "meaning_ar": "مكافأة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Everyone got a bonus at the end of the year."
+      },
+      {
+        "word": "convincing",
+        "pos": "adjective",
+        "meaning_en": "making people believe something",
+        "meaning_ar": "مُقنِع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Her plan was very convincing."
+      },
+      {
+        "word": "rip someone off",
+        "pos": "phrasal verb",
+        "meaning_en": "charge too much or give poor quality (informal)",
+        "meaning_ar": "يحتال / يبالغ في السعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That shop tried to rip me off."
+      },
+      {
+        "word": "overcharge",
+        "pos": "verb",
+        "meaning_en": "ask someone to pay too much",
+        "meaning_ar": "يفرض سعرًا زائدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please check the bill; I think they overcharged us."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "rival vs partner",
+        "words": [
+          "rival",
+          "partner"
+        ],
+        "explanation_ar": "rival منافس تحاول التغلّب عليه، وpartner شريك تعمل معه.",
+        "explanation_en": "A rival competes against you. A partner works with you.",
+        "examples": [
+          {
+            "word": "rival",
+            "sentence": "Our rival lowered its prices."
+          },
+          {
+            "word": "partner",
+            "sentence": "We signed a deal with a new partner in Spain."
+          }
+        ]
+      },
+      {
+        "title": "touch base vs catch up",
+        "words": [
+          "touch base",
+          "catch up"
+        ],
+        "explanation_ar": "كلاهما للحديث عن المستجدات؛ touch base قصير ورسمي في العمل غالبًا، وcatch up أعمّ ويُستخدم مع الأصدقاء أيضًا.",
+        "explanation_en": "Both mean talk about the latest news. Touch base is a short work check-in; catch up is more general, also with friends.",
+        "examples": [
+          {
+            "word": "touch base",
+            "sentence": "I'll touch base with you on Monday."
+          },
+          {
+            "word": "catch up",
+            "sentence": "Let's catch up over lunch."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "We've got to compete on price.",
+        "meaning_ar": "يجب أن ننافس من خلال السعر.",
+        "meaning_en": "We must win customers with lower prices.",
+        "example": "Our rivals are cheaper, so we've got to compete on price."
+      },
+      {
+        "phrase": "We need to price our rivals out of the market.",
+        "meaning_ar": "علينا إخراج منافسينا من السوق بأسعارنا.",
+        "meaning_en": "Our prices must be so low that rivals can't sell.",
+        "example": "To win, we need to price our rivals out of the market."
+      },
+      {
+        "phrase": "We need to corner the market.",
+        "meaning_ar": "علينا أن نستحوذ على السوق.",
+        "meaning_en": "We must control most of the sales.",
+        "example": "With this new product, we can corner the market."
+      },
+      {
+        "phrase": "We need to build good relationships with our customers.",
+        "meaning_ar": "علينا بناء علاقات جيدة مع عملائنا.",
+        "meaning_en": "We must give customers good service and keep in contact.",
+        "example": "We need to build good relationships with our customers, so let's call them regularly."
+      },
+      {
+        "phrase": "We need to touch base about the project.",
+        "meaning_ar": "نحتاج إلى التواصل بشأن سير المشروع.",
+        "meaning_en": "Let's talk briefly about progress.",
+        "example": "Could you come to my office? We need to touch base about the project."
+      },
+      {
+        "phrase": "Have they signed on the dotted line yet?",
+        "meaning_ar": "هل وقّعوا العقد بعد؟",
+        "meaning_en": "Have they signed the contract?",
+        "example": "Good news, but have they signed on the dotted line yet?"
+      },
+      {
+        "phrase": "Any thoughts?",
+        "meaning_ar": "هل لديك أي أفكار؟",
+        "meaning_en": "Do you have any ideas?",
+        "example": "That's the problem. Any thoughts?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "need to / have got to for strategy and obligation",
+        "explanation_ar": "نستخدم need to + فعل مجرد وhave got to + فعل مجرد للتعبير عمّا هو ضروري في الخطة. We need to... / We've got to...",
+        "explanation_en": "Use need to + base verb and have got to + base verb to say what is necessary in a plan.",
+        "examples": [
+          "We need to corner the market.",
+          "We've got to compete on price.",
+          "We need to talk to our customers regularly."
+        ]
+      },
+      {
+        "title": "so that for purpose",
+        "explanation_ar": "نستخدم so that لبيان الهدف: الجملة الأولى + so that + جملة كاملة.",
+        "explanation_en": "Use so that to give a purpose: clause + so that + full clause.",
+        "examples": [
+          "We need to corner the market so that everyone knows us.",
+          "Call clients often so that they feel valued.",
+          "Lower the price so that more people buy."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"Touch base\" at work means...",
+      "choices": [
+        "play baseball",
+        "talk briefly to check progress",
+        "go to the office",
+        "sign a contract"
+      ],
+      "answer": 1,
+      "explanation_ar": "touch base تعني التواصل للاطمئنان على سير العمل.",
+      "explanation_en": "It means a short talk to check progress."
+    },
+    {
+      "question": "We need to ___ the market (control most of the sales).",
+      "choices": [
+        "corner",
+        "circle",
+        "cross",
+        "cover"
+      ],
+      "answer": 0,
+      "explanation_ar": "corner the market تعني الاستحواذ على السوق.",
+      "explanation_en": "Corner the market = control most sales."
+    },
+    {
+      "question": "A company you compete against is a...",
+      "choices": [
+        "partner",
+        "client",
+        "rival",
+        "bonus"
+      ],
+      "answer": 2,
+      "explanation_ar": "rival هو المنافس.",
+      "explanation_en": "A rival is a competitor."
+    },
+    {
+      "question": "\"Sign on the dotted line\" means...",
+      "choices": [
+        "draw a line",
+        "sign a contract officially",
+        "write a letter",
+        "cancel a deal"
+      ],
+      "answer": 1,
+      "explanation_ar": "تعني توقيع العقد رسميًّا.",
+      "explanation_en": "It means officially sign a contract."
+    },
+    {
+      "question": "We've got ___ compete on price.",
+      "choices": [
+        "to",
+        "for",
+        "with",
+        "-"
+      ],
+      "answer": 0,
+      "explanation_ar": "have got to + فعل.",
+      "explanation_en": "Have got to + verb."
+    },
+    {
+      "question": "\"Price our rivals out of the market\" means...",
+      "choices": [
+        "raise our prices",
+        "make prices so low rivals can't sell",
+        "buy our rivals",
+        "copy our rivals"
+      ],
+      "answer": 1,
+      "explanation_ar": "تعني خفض الأسعار حتى لا يستطيع المنافسون البيع.",
+      "explanation_en": "Prices so low that rivals cannot sell."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "We need build good relationships.",
+        "We need to build good relationships.",
+        "We need to building good relationships.",
+        "We needs to build good relationships."
+      ],
+      "answer": 1,
+      "explanation_ar": "we need to + فعل مجرد.",
+      "explanation_en": "We need to + base verb."
+    },
+    {
+      "question": "\"Rip someone off\" means...",
+      "choices": [
+        "tear paper",
+        "charge too much",
+        "give a bonus",
+        "help someone"
+      ],
+      "answer": 1,
+      "explanation_ar": "rip off تعني المبالغة في السعر أو الاحتيال.",
+      "explanation_en": "Rip off = charge too much or give poor goods."
+    },
+    {
+      "question": "Lower the price ___ more people buy it.",
+      "choices": [
+        "so that",
+        "because of",
+        "although",
+        "unless"
+      ],
+      "answer": 0,
+      "explanation_ar": "so that تعبّر عن الهدف.",
+      "explanation_en": "So that shows purpose."
+    },
+    {
+      "question": "Extra money for good work is a...",
+      "choices": [
+        "value",
+        "target",
+        "rival",
+        "bonus"
+      ],
+      "answer": 3,
+      "explanation_ar": "bonus هي المكافأة.",
+      "explanation_en": "A bonus is extra money for good work."
+    }
+  ]
+}

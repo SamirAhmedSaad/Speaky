@@ -18,6 +18,7 @@ import com.speakmind.app.feature.wordlookup.di.wordLookupModule
 import com.speakmind.app.feature.voice.di.voiceModule
 import com.speakmind.app.feature.vocabgroup.di.vocabGroupModule
 import com.speakmind.app.feature.course.di.courseModule
+import com.speakmind.app.feature.games.di.gamesModule
 import com.speakmind.app.navigation.navigationModule
 import org.koin.core.KoinApplication
 import org.koin.core.context.startKoin
@@ -47,6 +48,7 @@ fun initKoin(config: (KoinApplication.() -> Unit)? = null) {
             communityModule,
             courseModule,
             vocabGroupModule,
+            gamesModule,
         )
     }
 }

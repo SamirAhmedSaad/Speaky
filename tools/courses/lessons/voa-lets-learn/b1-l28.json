@@ -1,0 +1,536 @@
+{
+ "title": "I Passed It!",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "driver's license",
+    "pos": "noun",
+    "meaning_en": "an official card that says you can drive a car",
+    "meaning_ar": "رخصة القيادة",
+    "note_ar": "في بريطانيا: driving licence.",
+    "note_en": "UK: driving licence.",
+    "example": "You need a driver's license to drive a car."
+   },
+   {
+    "word": "pass",
+    "pos": "verb",
+    "meaning_en": "to succeed in a test or exam",
+    "meaning_ar": "ينجح (في اختبار)",
+    "note_ar": "عكسها: fail = يرسب.",
+    "note_en": "Opposite: fail.",
+    "example": "She passed her English exam."
+   },
+   {
+    "word": "driving test",
+    "pos": "noun",
+    "meaning_en": "a test to see if you can drive safely",
+    "meaning_ar": "اختبار القيادة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have my driving test tomorrow."
+   },
+   {
+    "word": "rent",
+    "pos": "verb",
+    "meaning_en": "to pay money to use something for a time",
+    "meaning_ar": "يستأجر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We rented a car for the weekend."
+   },
+   {
+    "word": "drive",
+    "pos": "verb",
+    "meaning_en": "to control a car and make it move",
+    "meaning_ar": "يقود (سيارة)",
+    "note_ar": "الماضي: drove.",
+    "note_en": "Past: drove.",
+    "example": "My father drives to work every day."
+   },
+   {
+    "word": "farm equipment",
+    "pos": "noun",
+    "meaning_en": "machines used on a farm, like tractors",
+    "meaning_ar": "معدات زراعية",
+    "note_ar": "equipment اسم غير معدود: لا نقول equipments.",
+    "note_en": "\"Equipment\" is uncountable: no -s.",
+    "example": "Anna can drive farm equipment very well."
+   },
+   {
+    "word": "nervous",
+    "pos": "adjective",
+    "meaning_en": "a little afraid or worried",
+    "meaning_ar": "متوتر / قلق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm always nervous before a test."
+   },
+   {
+    "word": "traffic",
+    "pos": "noun",
+    "meaning_en": "the cars and buses on a road",
+    "meaning_ar": "حركة المرور / زحمة السير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There is a lot of traffic in the city in the morning."
+   },
+   {
+    "word": "happen",
+    "pos": "verb",
+    "meaning_en": "to take place",
+    "meaning_ar": "يحدث",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What happened at school today?"
+   },
+   {
+    "word": "seatbelt",
+    "pos": "noun",
+    "meaning_en": "a belt in a car that keeps you safe in your seat",
+    "meaning_ar": "حزام الأمان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Always wear your seatbelt."
+   },
+   {
+    "word": "buckle",
+    "pos": "verb",
+    "meaning_en": "to close a belt",
+    "meaning_ar": "يربط (الحزام)",
+    "note_ar": "buckled = مربوط.",
+    "note_en": "buckled = closed (for a belt).",
+    "example": "Is your seatbelt buckled?"
+   },
+   {
+    "word": "engine",
+    "pos": "noun",
+    "meaning_en": "the machine that makes a car move",
+    "meaning_ar": "المحرّك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The car's engine is very loud."
+   },
+   {
+    "word": "gas pedal",
+    "pos": "noun",
+    "meaning_en": "the part you push with your foot to make a car go faster",
+    "meaning_ar": "دواسة البنزين",
+    "note_ar": "gas أمريكي = petrol بريطاني.",
+    "note_en": "\"Gas\" (US) = \"petrol\" (UK).",
+    "example": "Don't push the gas pedal too hard."
+   },
+   {
+    "word": "turn",
+    "pos": "verb",
+    "meaning_en": "to change direction",
+    "meaning_ar": "ينعطف / يستدير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Turn left at the bank."
+   },
+   {
+    "word": "almost",
+    "pos": "adverb",
+    "meaning_en": "nearly; but not completely",
+    "meaning_ar": "تقريباً / كاد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I almost missed the bus."
+   },
+   {
+    "word": "hit",
+    "pos": "verb",
+    "meaning_en": "to touch something hard and fast",
+    "meaning_ar": "يصطدم / يضرب",
+    "note_ar": "الماضي: hit.",
+    "note_en": "Past: hit.",
+    "example": "The ball hit the window."
+   },
+   {
+    "word": "yell",
+    "pos": "verb",
+    "meaning_en": "to shout loudly",
+    "meaning_ar": "يصرخ",
+    "note_ar": "yell at someone = يصرخ في وجه أحد.",
+    "note_en": "yell at someone = shout angrily at someone.",
+    "example": "Please don't yell at me."
+   },
+   {
+    "word": "afraid",
+    "pos": "adjective",
+    "meaning_en": "feeling fear",
+    "meaning_ar": "خائف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I was afraid of the big dog."
+   },
+   {
+    "word": "brake",
+    "pos": "verb / noun",
+    "meaning_en": "to make a car slow down or stop; the part that does this",
+    "meaning_ar": "يفرمل / الفرامل",
+    "note_ar": "تُنطق مثل break (يكسر) لكن المعنى مختلف.",
+    "note_en": "Sounds like \"break\" but the meaning is different.",
+    "example": "Brake! There is a car in front of us!"
+   },
+   {
+    "word": "honk",
+    "pos": "verb",
+    "meaning_en": "to make a loud sound with a car horn",
+    "meaning_ar": "يزمّر (بالسيارة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Why is that driver honking?"
+   },
+   {
+    "word": "slow",
+    "pos": "adjective / adverb",
+    "meaning_en": "not fast",
+    "meaning_ar": "بطيء / ببطء",
+    "note_ar": "في الكلام اليومي يقولون drive slow، والأصح نحوياً drive slowly.",
+    "note_en": "In everyday speech people say \"drive slow\"; \"slowly\" is the standard adverb.",
+    "example": "You were driving too slow."
+   },
+   {
+    "word": "wheel",
+    "pos": "noun",
+    "meaning_en": "the round part you hold to drive a car (steering wheel)",
+    "meaning_ar": "عجلة القيادة / المقود",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Keep both hands on the wheel."
+   },
+   {
+    "word": "police",
+    "pos": "noun",
+    "meaning_en": "the people whose job is to keep order and stop crime",
+    "meaning_ar": "الشرطة",
+    "note_ar": "police اسم جمع: The police are here.",
+    "note_en": "\"Police\" takes a plural verb: The police are here.",
+    "example": "The police stopped the car."
+   },
+   {
+    "word": "awful",
+    "pos": "adjective",
+    "meaning_en": "very bad",
+    "meaning_ar": "سيّئ جداً / فظيع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The weather was awful yesterday."
+   },
+   {
+    "word": "practice",
+    "pos": "verb",
+    "meaning_en": "to do something many times to get better",
+    "meaning_ar": "يتمرّن",
+    "note_ar": "في بريطانيا الفعل practise والاسم practice.",
+    "note_en": "UK: the verb is \"practise\", the noun is \"practice\".",
+    "example": "I practiced every day and passed the test."
+   },
+   {
+    "word": "guess",
+    "pos": "verb",
+    "meaning_en": "to give an answer when you are not sure",
+    "meaning_ar": "يخمّن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Guess what? I got the job!"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "brake vs break",
+    "words": [
+     "brake",
+     "break"
+    ],
+    "explanation_ar": "الكلمتان تُنطقان بنفس الطريقة. brake = يفرمل / الفرامل في السيارة. break = يكسر، أو استراحة قصيرة.",
+    "explanation_en": "The two words sound the same. Brake = stop or slow a car (or the part that does it). Break = make something go into pieces, or a short rest.",
+    "examples": [
+     {
+      "word": "brake",
+      "sentence": "Brake! The light is red."
+     },
+     {
+      "word": "break",
+      "sentence": "Don't break the glass."
+     },
+     {
+      "word": "break",
+      "sentence": "Let's take a short break."
+     }
+    ]
+   },
+   {
+    "title": "almost vs most",
+    "words": [
+     "almost",
+     "most"
+    ],
+    "explanation_ar": "almost = تقريباً / كاد (الشيء لم يحدث تماماً). most = معظم / أغلب. You almost hit that car = كدتِ تصطدمين بتلك السيارة (لكنك لم تصطدمي).",
+    "explanation_en": "Almost = nearly, but not really. Most = the biggest part of something. \"You almost hit that car\" means you nearly hit it but did not.",
+    "examples": [
+     {
+      "word": "almost",
+      "sentence": "I almost forgot my keys."
+     },
+     {
+      "word": "most",
+      "sentence": "Most students passed the test."
+     }
+    ]
+   },
+   {
+    "title": "yell vs yell at",
+    "words": [
+     "yell",
+     "yell at"
+    ],
+    "explanation_ar": "yell = يصرخ بصوت عالٍ (مثلاً لينادي أحداً بعيداً). yell at someone = يصرخ في وجه شخص، غالباً بغضب.",
+    "explanation_en": "Yell = shout loudly (for example, to call someone far away). Yell at someone = shout at a person, usually in anger.",
+    "examples": [
+     {
+      "word": "yell",
+      "sentence": "He yelled, \"Come here!\""
+     },
+     {
+      "word": "yell at",
+      "sentence": "Please don't yell at me."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Guess what?",
+    "meaning_ar": "خمّن ماذا حدث!",
+    "meaning_en": "Said before you tell someone surprising news.",
+    "example": "Guess what? I passed my test!"
+   },
+   {
+    "phrase": "I passed my driving test!",
+    "meaning_ar": "نجحت في اختبار القيادة!",
+    "meaning_en": "I succeeded in the driving test.",
+    "example": "My brother passed his driving test on the first try."
+   },
+   {
+    "phrase": "What happened?",
+    "meaning_ar": "ماذا حدث؟",
+    "meaning_en": "Asking about an event.",
+    "example": "You look sad. What happened?"
+   },
+   {
+    "phrase": "Did you pass the test the first time?",
+    "meaning_ar": "هل نجحت في الاختبار من أول مرة؟",
+    "meaning_en": "Asking if someone succeeded on their first try.",
+    "example": "\"Did you pass the test the first time?\" \"No, the second time.\""
+   },
+   {
+    "phrase": "Good job!",
+    "meaning_ar": "أحسنت!",
+    "meaning_en": "Well done!",
+    "example": "You finished your homework. Good job!"
+   },
+   {
+    "phrase": "You don't need to be nervous.",
+    "meaning_ar": "لا داعي لأن تتوتّر.",
+    "meaning_en": "There is no reason to worry.",
+    "example": "It's an easy test. You don't need to be nervous."
+   },
+   {
+    "phrase": "Look out!",
+    "meaning_ar": "انتبه!",
+    "meaning_en": "Be careful! There is danger.",
+    "example": "Look out! There's a car!"
+   },
+   {
+    "phrase": "Please don't yell at me.",
+    "meaning_ar": "من فضلك لا تصرخ في وجهي.",
+    "meaning_en": "Please don't shout at me.",
+    "example": "I'm trying my best. Please don't yell at me."
+   },
+   {
+    "phrase": "That sounds awful.",
+    "meaning_ar": "يبدو هذا سيئاً جداً.",
+    "meaning_en": "That seems very bad.",
+    "example": "\"I lost my bag on the bus.\" \"That sounds awful.\""
+   },
+   {
+    "phrase": "It did not go well.",
+    "meaning_ar": "لم تسر الأمور على ما يرام.",
+    "meaning_en": "It was not a success.",
+    "example": "My first interview did not go well."
+   },
+   {
+    "phrase": "I guess we walk from here!",
+    "meaning_ar": "أظن أننا سنمشي من هنا!",
+    "meaning_en": "I think we must walk now.",
+    "example": "The road is closed. I guess we walk from here!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Simple past questions with did",
+    "explanation_ar": "لسؤال في الماضي البسيط نستخدم: Did + الفاعل + الفعل الأساسي؟ لا نضع الفعل في الماضي بعد did، لأن did تحمل معنى الماضي. Did you pass? (وليس Did you passed?). والإجابة القصيرة: Yes, I did. / No, I didn't. ومع أدوات الاستفهام: What happened? / Where did you go?",
+    "explanation_en": "To ask a question in the simple past use: Did + subject + base verb? Do not put the main verb in the past after did, because did already shows the past: Did you pass? (not Did you passed?). Short answers: Yes, I did. / No, I didn't. With question words: Where did you go? (But with \"What happened?\" what is the subject, so there is no did.)",
+    "examples": [
+     "Did you get your driver's license? - I did!",
+     "Did you pass the test the first time? - No.",
+     "What happened during the first test?",
+     "Where did you drive?"
+    ]
+   },
+   {
+    "title": "Negative simple past: didn't + base verb",
+    "explanation_ar": "النفي في الماضي: didn't (did not) + الفعل الأساسي. I didn't know (وليس I didn't knew).",
+    "explanation_en": "For the negative, use didn't (did not) + base verb: I didn't know (not I didn't knew).",
+    "examples": [
+     "I didn't know.",
+     "It did not go well.",
+     "She didn't pass the first time."
+    ]
+   },
+   {
+    "title": "did for emphasis",
+    "explanation_ar": "في الجملة المثبتة يمكن أن نضع did قبل الفعل الأساسي للتأكيد، خاصة عندما نصحّح فكرة سابقة: But I did pass the second time = لكني فعلاً نجحت في المرة الثانية. ننطق did بقوة.",
+    "explanation_en": "In a positive sentence we can put did before the base verb to make it stronger, often to correct an idea: \"But I did pass the second time.\" We say \"did\" strongly.",
+    "examples": [
+     "I didn't pass the first time, but I did pass the second time.",
+     "I did call you! Check your phone."
+    ]
+   },
+   {
+    "title": "Past continuous: was/were + -ing",
+    "explanation_ar": "لوصف حدث كان مستمراً في لحظة في الماضي: was/were + فعل ينتهي بـ ing. You were yelling = كنتَ تصرخ. You were driving too slow = كنتِ تقودين ببطء شديد.",
+    "explanation_en": "To talk about an action in progress at a time in the past: was/were + verb-ing.",
+    "examples": [
+     "You were yelling.",
+     "You were driving too slow!",
+     "I was driving in heavy traffic."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "___ you pass the test the first time?",
+   "choices": [
+    "Do",
+    "Did",
+    "Was",
+    "Does"
+   ],
+   "answer": 1,
+   "explanation_ar": "سؤال في الماضي يبدأ بـ Did.",
+   "explanation_en": "A simple past question starts with \"Did\"."
+  },
+  {
+   "question": "Which question is correct?",
+   "choices": [
+    "Did you got your license?",
+    "Did you gets your license?",
+    "Did you getting your license?",
+    "Did you get your license?"
+   ],
+   "answer": 3,
+   "explanation_ar": "بعد did نستخدم الفعل الأساسي get.",
+   "explanation_en": "After \"did\" we use the base verb \"get\"."
+  },
+  {
+   "question": "\"Did you pass?\" \"Yes, I ___.\"",
+   "choices": [
+    "did",
+    "do",
+    "passed did",
+    "was"
+   ],
+   "answer": 0,
+   "explanation_ar": "الإجابة القصيرة: Yes, I did.",
+   "explanation_en": "The short answer is \"Yes, I did.\""
+  },
+  {
+   "question": "Choose the correct negative.",
+   "choices": [
+    "I didn't knew.",
+    "I not knew.",
+    "I didn't know.",
+    "I don't knew."
+   ],
+   "answer": 2,
+   "explanation_ar": "النفي في الماضي: didn't + الفعل الأساسي.",
+   "explanation_en": "Past negative: didn't + base verb."
+  },
+  {
+   "question": "\"I didn't pass the first time, but I ___ pass the second time.\" (emphasis)",
+   "choices": [
+    "was",
+    "do",
+    "does",
+    "did"
+   ],
+   "answer": 3,
+   "explanation_ar": "did قبل الفعل الأساسي للتأكيد.",
+   "explanation_en": "\"Did\" before the base verb adds emphasis."
+  },
+  {
+   "question": "What do you wear in a car to stay safe?",
+   "choices": [
+    "a seatbelt",
+    "a wheel",
+    "a gas pedal",
+    "an engine"
+   ],
+   "answer": 0,
+   "explanation_ar": "حزام الأمان seatbelt.",
+   "explanation_en": "A seatbelt keeps you safe in your seat."
+  },
+  {
+   "question": "\"Brake!\" means:",
+   "choices": [
+    "Go faster!",
+    "Stop or slow down the car!",
+    "Break the glass!",
+    "Turn left!"
+   ],
+   "answer": 1,
+   "explanation_ar": "brake = يفرمل ليوقف السيارة أو يبطئها.",
+   "explanation_en": "Brake means slow down or stop the car."
+  },
+  {
+   "question": "\"You almost hit that car.\" Did Anna hit the car?",
+   "choices": [
+    "Yes, she did.",
+    "Yes, twice.",
+    "No, but she came very close.",
+    "We can't say."
+   ],
+   "answer": 2,
+   "explanation_ar": "almost = كادت، أي لم يحدث فعلاً.",
+   "explanation_en": "\"Almost\" means it nearly happened, but it did not."
+  },
+  {
+   "question": "\"I'm worried about my driving test. I'm very ___.\"",
+   "choices": [
+    "nervous",
+    "awful",
+    "slow",
+    "sick"
+   ],
+   "answer": 0,
+   "explanation_ar": "nervous = متوتر وقلق، وهي تناسب القلق من الاختبار.",
+   "explanation_en": "\"Nervous\" means a little afraid or worried, like before a test."
+  },
+  {
+   "question": "John: \"You were ___ too slow!\"",
+   "choices": [
+    "drive",
+    "drove",
+    "driving",
+    "drives"
+   ],
+   "answer": 2,
+   "explanation_ar": "الماضي المستمر: were + driving.",
+   "explanation_en": "Past continuous: were + verb-ing."
+  }
+ ]
+}

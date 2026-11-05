@@ -1,0 +1,285 @@
+{
+  "title": "I'm hungry",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "hungry",
+        "pos": "adjective",
+        "meaning_en": "wanting to eat",
+        "meaning_ar": "جائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm hungry. Can I have some bread?"
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "meaning_en": "here: take and eat or drink",
+        "meaning_ar": "تناوَل / خُذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some cake."
+      },
+      {
+        "word": "some",
+        "pos": "determiner",
+        "meaning_en": "a little, a few",
+        "meaning_ar": "بعض / قليل من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some biscuits."
+      },
+      {
+        "word": "cake",
+        "pos": "noun",
+        "meaning_en": "a sweet food you bake",
+        "meaning_ar": "كعكة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some cake."
+      },
+      {
+        "word": "biscuits",
+        "pos": "noun",
+        "meaning_en": "small, dry, sweet things to eat",
+        "meaning_ar": "بسكويت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some biscuits."
+      },
+      {
+        "word": "pudding",
+        "pos": "noun",
+        "meaning_en": "a soft sweet food you eat at the end of a meal",
+        "meaning_ar": "حلوى (بودينغ)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some pudding."
+      },
+      {
+        "word": "daddy",
+        "pos": "noun",
+        "meaning_en": "father (child's word)",
+        "meaning_ar": "بابا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hi, Daddy."
+      },
+      {
+        "word": "great",
+        "pos": "adjective",
+        "meaning_en": "very good",
+        "meaning_ar": "رائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Umm, great!"
+      },
+      {
+        "word": "good",
+        "pos": "adjective",
+        "meaning_en": "nice, tasty",
+        "meaning_ar": "جيد / لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's good."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I'm hungry vs I'm full",
+        "words": [
+          "hungry",
+          "full"
+        ],
+        "explanation_ar": "hungry = جائع (تريد أن تأكل)، و full = شبعان (لا تريد أن تأكل).",
+        "explanation_en": "hungry = you want to eat. full = you don't want to eat more.",
+        "examples": [
+          {
+            "word": "hungry",
+            "sentence": "I'm hungry. Have some cake."
+          },
+          {
+            "word": "full",
+            "sentence": "No, thank you. I'm full."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm hungry.",
+        "meaning_ar": "أنا جائع.",
+        "meaning_en": "I want to eat.",
+        "example": "Mom, I'm hungry."
+      },
+      {
+        "phrase": "Have some cake.",
+        "meaning_ar": "تفضّل بعض الكعك.",
+        "meaning_en": "A kind way to offer food.",
+        "example": "You're hungry? Have some cake."
+      },
+      {
+        "phrase": "Have some biscuits.",
+        "meaning_ar": "تفضّل بعض البسكويت.",
+        "meaning_en": "Offering biscuits.",
+        "example": "Have some biscuits, Daddy."
+      },
+      {
+        "phrase": "Daddy's home.",
+        "meaning_ar": "بابا وصل إلى البيت.",
+        "meaning_en": "Father is back home.",
+        "example": "Look! Daddy's home."
+      },
+      {
+        "phrase": "It's good.",
+        "meaning_ar": "إنه لذيذ.",
+        "meaning_en": "The food tastes nice.",
+        "example": "Umm, it's good. Thank you."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Offering food: Have some ...",
+        "explanation_ar": "لتقديم الطعام نقول Have some + اسم الطعام. هذه جملة أمر مهذبة تعني «تفضّل».",
+        "explanation_en": "To offer food, say: Have some + food. It is a kind invitation.",
+        "examples": [
+          "Have some cake.",
+          "Have some biscuits.",
+          "Have some pudding."
+        ]
+      },
+      {
+        "title": "Feelings with I'm",
+        "explanation_ar": "نعبّر عن حالتنا بـ I'm + صفة: I'm hungry.",
+        "explanation_en": "Say how you feel: I'm + adjective.",
+        "examples": [
+          "I'm hungry.",
+          "I'm seven.",
+          "I'm home."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I'm hungry. - ___",
+      "choices": [
+        "Have some cake.",
+        "Nice to meet you.",
+        "Who is this?",
+        "Watch out!"
+      ],
+      "answer": 0,
+      "explanation_ar": "عندما يكون أحد جائعًا نقدم له الطعام.",
+      "explanation_en": "When someone is hungry, offer food."
+    },
+    {
+      "question": "\"hungry\" means ___.",
+      "choices": [
+        "تعبان",
+        "جائع",
+        "سعيد",
+        "عطشان"
+      ],
+      "answer": 1,
+      "explanation_ar": "hungry = جائع.",
+      "explanation_en": "hungry = wanting to eat."
+    },
+    {
+      "question": "Have ___ biscuits.",
+      "choices": [
+        "a",
+        "an",
+        "some",
+        "is"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول Have some biscuits لأنها جمع.",
+      "explanation_en": "Use \"some\" with plural food: some biscuits."
+    },
+    {
+      "question": "Which one is food?",
+      "choices": [
+        "cake",
+        "table",
+        "bike",
+        "doll"
+      ],
+      "answer": 0,
+      "explanation_ar": "الكعكة طعام.",
+      "explanation_en": "Cake is food."
+    },
+    {
+      "question": "Umm, it's ___. (tasty)",
+      "choices": [
+        "hungry",
+        "good",
+        "sorry",
+        "old"
+      ],
+      "answer": 1,
+      "explanation_ar": "It's good = إنه لذيذ.",
+      "explanation_en": "\"It's good\" = it tastes nice."
+    },
+    {
+      "question": "Father comes back. The child says: ___",
+      "choices": [
+        "Daddy's home!",
+        "I'm hungry!",
+        "Have some!",
+        "Sorry!"
+      ],
+      "answer": 0,
+      "explanation_ar": "Daddy's home = بابا وصل.",
+      "explanation_en": "\"Daddy's home\" = father is back."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I hungry.",
+        "I'm hungry.",
+        "I'm hunger.",
+        "I are hungry."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح I'm hungry.",
+      "explanation_en": "Correct: I'm hungry."
+    },
+    {
+      "question": "\"Daddy's home\" means \"Daddy ___ home.\"",
+      "choices": [
+        "has",
+        "is",
+        "was",
+        "are"
+      ],
+      "answer": 1,
+      "explanation_ar": "هذا اختصار: Daddy's = Daddy is.",
+      "explanation_en": "Daddy's = Daddy is."
+    },
+    {
+      "question": "\"great\" means ___.",
+      "choices": [
+        "very bad",
+        "very small",
+        "very good",
+        "very old"
+      ],
+      "answer": 2,
+      "explanation_ar": "great = رائع.",
+      "explanation_en": "great = very good."
+    },
+    {
+      "question": "I'm full. I don't want to eat. Which word is the opposite of \"full\"?",
+      "choices": [
+        "good",
+        "great",
+        "cute",
+        "hungry"
+      ],
+      "answer": 3,
+      "explanation_ar": "عكس full (شبعان) هو hungry (جائع).",
+      "explanation_en": "The opposite of full is hungry."
+    }
+  ]
+}

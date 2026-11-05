@@ -1,0 +1,597 @@
+{
+  "title": "English at Work: 25 Phrases",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "schedule",
+        "pos": "verb",
+        "meaning_en": "to plan something for a certain time",
+        "meaning_ar": "يحدد موعدًا / يجدول",
+        "note_ar": "أمريكية /ˈskedʒuːl/، بريطانية /ˈʃedjuːl/",
+        "note_en": "US /ˈskedʒuːl/, UK /ˈʃedjuːl/.",
+        "example": "Can we schedule a meeting for Monday?"
+      },
+      {
+        "word": "discuss",
+        "pos": "verb",
+        "meaning_en": "to talk about something",
+        "meaning_ar": "يناقش",
+        "note_ar": "لا نقول discuss about",
+        "note_en": "Don't say \"discuss about\".",
+        "example": "We need to discuss the budget."
+      },
+      {
+        "word": "details",
+        "pos": "noun",
+        "meaning_en": "small facts about something",
+        "meaning_ar": "التفاصيل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's go over the details."
+      },
+      {
+        "word": "assist",
+        "pos": "verb",
+        "meaning_en": "to help (more formal)",
+        "meaning_ar": "يساعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How can I assist you?"
+      },
+      {
+        "word": "terms",
+        "pos": "noun",
+        "meaning_en": "conditions of an agreement",
+        "meaning_ar": "الشروط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What terms do you propose?"
+      },
+      {
+        "word": "propose",
+        "pos": "verb",
+        "meaning_en": "to suggest a plan or idea",
+        "meaning_ar": "يقترح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We propose a two-year contract."
+      },
+      {
+        "word": "agreement",
+        "pos": "noun",
+        "meaning_en": "a decision that both sides accept",
+        "meaning_ar": "اتفاق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We came to an agreement."
+      },
+      {
+        "word": "middle ground",
+        "pos": "noun",
+        "meaning_en": "a solution between two opinions",
+        "meaning_ar": "حل وسط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's find a middle ground."
+      },
+      {
+        "word": "discount",
+        "pos": "noun",
+        "meaning_en": "money taken off the price",
+        "meaning_ar": "خصم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you offer a discount?"
+      },
+      {
+        "word": "bulk order",
+        "pos": "noun",
+        "meaning_en": "an order of a large amount",
+        "meaning_ar": "طلب بالجملة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We get a better price for bulk orders."
+      },
+      {
+        "word": "provide",
+        "pos": "verb",
+        "meaning_en": "to give something that is needed",
+        "meaning_ar": "يقدّم / يوفّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you provide more information?"
+      },
+      {
+        "word": "deadline",
+        "pos": "noun",
+        "meaning_en": "the last time to finish something",
+        "meaning_ar": "الموعد النهائي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The deadline is Friday."
+      },
+      {
+        "word": "extend",
+        "pos": "verb",
+        "meaning_en": "to make longer",
+        "meaning_ar": "يمدّد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can we extend the deadline?"
+      },
+      {
+        "word": "resources",
+        "pos": "noun",
+        "meaning_en": "people, money and tools you can use",
+        "meaning_ar": "الموارد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What resources will be available?"
+      },
+      {
+        "word": "input",
+        "pos": "noun",
+        "meaning_en": "ideas or opinions someone gives",
+        "meaning_ar": "مساهمة / رأي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thanks for your input."
+      },
+      {
+        "word": "presentation",
+        "pos": "noun",
+        "meaning_en": "a talk where you show information to a group",
+        "meaning_ar": "عرض تقديمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Great job on the presentation."
+      },
+      {
+        "word": "unnoticed",
+        "pos": "adjective",
+        "meaning_en": "not seen or noticed",
+        "meaning_ar": "غير ملحوظ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your hard work did not go unnoticed."
+      },
+      {
+        "word": "encounter",
+        "pos": "verb",
+        "meaning_en": "to meet or face (a problem)",
+        "meaning_ar": "يواجه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've encountered an issue."
+      },
+      {
+        "word": "issue",
+        "pos": "noun",
+        "meaning_en": "a problem",
+        "meaning_ar": "مشكلة / قضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is an issue with the printer."
+      },
+      {
+        "word": "resolve",
+        "pos": "verb",
+        "meaning_en": "to solve",
+        "meaning_ar": "يحل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How can we resolve this matter?"
+      },
+      {
+        "word": "brainstorm",
+        "pos": "verb",
+        "meaning_en": "to share many ideas quickly in a group",
+        "meaning_ar": "يتبادل الأفكار / عصف ذهني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's brainstorm some solutions."
+      },
+      {
+        "word": "address",
+        "pos": "verb",
+        "meaning_en": "to deal with a problem",
+        "meaning_ar": "يعالج / يتعامل مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to address this issue."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "help vs assist",
+        "words": [
+          "help",
+          "assist"
+        ],
+        "explanation_ar": "المعنى واحد: يساعد. assist أكثر رسمية وتُستخدم كثيرًا في العمل وخدمة العملاء.",
+        "explanation_en": "Same meaning. \"Assist\" is more formal and common at work and in customer service.",
+        "examples": [
+          {
+            "word": "help",
+            "sentence": "Can you help me with this box?"
+          },
+          {
+            "word": "assist",
+            "sentence": "How can I assist you today?"
+          }
+        ]
+      },
+      {
+        "title": "by vs until",
+        "words": [
+          "by",
+          "until"
+        ],
+        "explanation_ar": "by = في موعد أقصاه (قبل أو عند هذا الوقت). until = حتى (يستمر الشيء إلى هذا الوقت).",
+        "explanation_en": "\"By\" = not later than. \"Until\" = continuing up to that time.",
+        "examples": [
+          {
+            "word": "by",
+            "sentence": "I need the report by the end of the day."
+          },
+          {
+            "word": "until",
+            "sentence": "I'll be in the office until five."
+          }
+        ]
+      },
+      {
+        "title": "problem vs issue vs matter",
+        "words": [
+          "problem",
+          "issue",
+          "matter"
+        ],
+        "explanation_ar": "كلها تشير إلى مشكلة أو موضوع. issue وmatter أكثر لطفًا ورسمية في العمل من problem.",
+        "explanation_en": "All can mean a problem or topic. \"Issue\" and \"matter\" sound softer and more professional than \"problem\".",
+        "examples": [
+          {
+            "word": "problem",
+            "sentence": "My car has a problem."
+          },
+          {
+            "word": "issue",
+            "sentence": "We've encountered an issue with the system."
+          },
+          {
+            "word": "matter",
+            "sentence": "How can we resolve this matter?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can we set up a quick meeting to discuss this project?",
+        "meaning_ar": "هل يمكننا ترتيب اجتماع سريع لمناقشة هذا المشروع؟",
+        "meaning_en": "Asking for a short meeting.",
+        "example": "Can we set up a quick meeting to discuss this project?"
+      },
+      {
+        "phrase": "Do you have a minute?",
+        "meaning_ar": "هل لديك دقيقة؟",
+        "meaning_en": "Asking for a little of someone's time.",
+        "example": "Do you have a minute? I have a question."
+      },
+      {
+        "phrase": "Let's go over the details.",
+        "meaning_ar": "دعنا نراجع التفاصيل.",
+        "meaning_en": "Let's check the small points together.",
+        "example": "Before we start, let's go over the details."
+      },
+      {
+        "phrase": "How can I assist you?",
+        "meaning_ar": "كيف يمكنني مساعدتك؟",
+        "meaning_en": "A professional way to offer help.",
+        "example": "Good morning. How can I assist you?"
+      },
+      {
+        "phrase": "Please let me know if you have any questions.",
+        "meaning_ar": "من فضلك أخبرني إن كانت لديك أي أسئلة.",
+        "meaning_en": "Inviting questions.",
+        "example": "That's the plan. Please let me know if you have any questions."
+      },
+      {
+        "phrase": "I'll get back to you as soon as possible.",
+        "meaning_ar": "سأعود إليك بالرد في أقرب وقت ممكن.",
+        "meaning_en": "I will reply soon.",
+        "example": "I'm waiting for the manager. I'll get back to you as soon as possible."
+      },
+      {
+        "phrase": "What terms do you propose?",
+        "meaning_ar": "ما الشروط التي تقترحها؟",
+        "meaning_en": "Asking the other side for their conditions.",
+        "example": "Before we sign, what terms do you propose?"
+      },
+      {
+        "phrase": "Can we come to an agreement on this?",
+        "meaning_ar": "هل يمكننا التوصل إلى اتفاق بشأن هذا؟",
+        "meaning_en": "Trying to agree with the other side.",
+        "example": "Can we come to an agreement on this today?"
+      },
+      {
+        "phrase": "It's worth a try.",
+        "meaning_ar": "يستحق المحاولة.",
+        "meaning_en": "We should try it.",
+        "example": "The idea is new, but it's worth a try."
+      },
+      {
+        "phrase": "Let's find a middle ground.",
+        "meaning_ar": "دعنا نجد حلًا وسطًا.",
+        "meaning_en": "Let's find a solution good for both sides.",
+        "example": "You want ten days, I want five. Let's find a middle ground."
+      },
+      {
+        "phrase": "Can you offer a discount for bulk orders?",
+        "meaning_ar": "هل يمكنكم تقديم خصم على الطلبات بالجملة؟",
+        "meaning_en": "Asking for a lower price for a big order.",
+        "example": "We need 500 units. Can you offer a discount for bulk orders?"
+      },
+      {
+        "phrase": "I need to discuss this with my team.",
+        "meaning_ar": "أحتاج أن أناقش هذا مع فريقي.",
+        "meaning_en": "I can't decide alone now.",
+        "example": "It sounds good, but I need to discuss this with my team."
+      },
+      {
+        "phrase": "Could you please provide more information about this?",
+        "meaning_ar": "هل يمكنك تقديم مزيد من المعلومات حول هذا؟",
+        "meaning_en": "Asking for more details.",
+        "example": "Could you please provide more information about the new rules?"
+      },
+      {
+        "phrase": "What's the deadline for this task?",
+        "meaning_ar": "ما الموعد النهائي لهذه المهمة؟",
+        "meaning_en": "Asking when the task must be finished.",
+        "example": "What's the deadline for this task? This week?"
+      },
+      {
+        "phrase": "I need the report by the end of the day.",
+        "meaning_ar": "أحتاج التقرير قبل نهاية اليوم.",
+        "meaning_en": "The report must be ready today.",
+        "example": "I need the report by the end of the day, please."
+      },
+      {
+        "phrase": "Can we extend the deadline?",
+        "meaning_ar": "هل يمكننا تمديد الموعد النهائي؟",
+        "meaning_en": "Asking for more time.",
+        "example": "The task got bigger. Can we extend the deadline?"
+      },
+      {
+        "phrase": "What resources will be available?",
+        "meaning_ar": "ما الموارد التي ستكون متاحة؟",
+        "meaning_en": "Asking about people, money and tools for a project.",
+        "example": "Before we start, what resources will be available?"
+      },
+      {
+        "phrase": "Thank you for your hard work.",
+        "meaning_ar": "شكرًا لك على مجهودك الكبير.",
+        "meaning_en": "Thanking someone who worked hard.",
+        "example": "The project is finished. Thank you for your hard work."
+      },
+      {
+        "phrase": "I appreciate your input.",
+        "meaning_ar": "أقدّر مساهمتك / رأيك.",
+        "meaning_en": "Thanking someone for their ideas.",
+        "example": "That's a useful idea. I appreciate your input."
+      },
+      {
+        "phrase": "Great job on the presentation!",
+        "meaning_ar": "عمل رائع في العرض التقديمي!",
+        "meaning_en": "Praising someone's presentation.",
+        "example": "Great job on the presentation! Everyone loved it."
+      },
+      {
+        "phrase": "Your efforts have not gone unnoticed.",
+        "meaning_ar": "جهودك لم تمر دون ملاحظة.",
+        "meaning_en": "We see and value your work.",
+        "example": "I want you to know your efforts have not gone unnoticed."
+      },
+      {
+        "phrase": "Keep up the good work!",
+        "meaning_ar": "استمر في العمل الجيد!",
+        "meaning_en": "Continue doing well.",
+        "example": "Your sales are great this month. Keep up the good work!"
+      },
+      {
+        "phrase": "We've encountered an issue with...",
+        "meaning_ar": "واجهنا مشكلة في...",
+        "meaning_en": "Reporting a problem politely.",
+        "example": "We've encountered an issue with the new software."
+      },
+      {
+        "phrase": "How can we resolve this matter?",
+        "meaning_ar": "كيف يمكننا حل هذه المسألة؟",
+        "meaning_en": "Asking for a solution.",
+        "example": "The client is unhappy. How can we resolve this matter?"
+      },
+      {
+        "phrase": "I'll look into it right away.",
+        "meaning_ar": "سأنظر في الأمر فورًا.",
+        "meaning_en": "I will check the problem now.",
+        "example": "Thanks for telling me. I'll look into it right away."
+      },
+      {
+        "phrase": "Let's brainstorm some solutions.",
+        "meaning_ar": "دعنا نتبادل الأفكار لإيجاد حلول.",
+        "meaning_en": "Let's share ideas to solve it.",
+        "example": "We have a problem. Let's brainstorm some solutions."
+      },
+      {
+        "phrase": "We need to address this issue immediately.",
+        "meaning_ar": "نحتاج إلى معالجة هذه المشكلة فورًا.",
+        "meaning_en": "This problem is urgent.",
+        "example": "The website is down. We need to address this issue immediately."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Could you please + verb",
+        "explanation_ar": "Could you please + الفعل الأصلي طريقة مهذبة جدًا للطلب في العمل. أكثر أدبًا من Can you.",
+        "explanation_en": "\"Could you please + base verb\" is a very polite request at work, softer than \"Can you\".",
+        "examples": [
+          "Could you please provide more information?",
+          "Could you please send me the file?",
+          "Could you please check this report?"
+        ]
+      },
+      {
+        "title": "Let's + verb (suggestions)",
+        "explanation_ar": "Let's + الفعل الأصلي لاقتراح فعل شيء مع الفريق.",
+        "explanation_en": "\"Let's + base verb\" suggests doing something together with the team.",
+        "examples": [
+          "Let's find a middle ground.",
+          "Let's brainstorm some solutions.",
+          "Let's go over the details."
+        ]
+      },
+      {
+        "title": "I'll + verb (promises at work)",
+        "explanation_ar": "I'll = I will. نستخدمها لنعد بفعل شيء: I'll get back to you، I'll look into it.",
+        "explanation_en": "\"I'll\" = I will. Use it to promise action: I'll get back to you, I'll look into it.",
+        "examples": [
+          "I'll get back to you as soon as possible.",
+          "I'll look into it right away.",
+          "I'll send it today."
+        ]
+      },
+      {
+        "title": "Present perfect for news: We've encountered...",
+        "explanation_ar": "We've = We have + التصريف الثالث للفعل. نستخدمه لخبر حدث مؤخرًا وله أثر الآن.",
+        "explanation_en": "\"We've\" = we have + past participle. Use it for recent news that matters now.",
+        "examples": [
+          "We've encountered an issue.",
+          "Your efforts have not gone unnoticed.",
+          "I've finished the report."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A client comes to your desk. The most professional question is:",
+      "choices": [
+        "What?",
+        "How can I assist you?",
+        "What do you want?",
+        "Why are you here?"
+      ],
+      "answer": 1,
+      "explanation_ar": "How can I assist you? طريقة مهنية لعرض المساعدة.",
+      "explanation_en": "\"How can I assist you?\" is professional."
+    },
+    {
+      "question": "\"I need the report ___ the end of the day.\" (not later than)",
+      "choices": [
+        "until",
+        "by",
+        "on",
+        "at"
+      ],
+      "answer": 1,
+      "explanation_ar": "by = في موعد أقصاه.",
+      "explanation_en": "\"By\" means not later than."
+    },
+    {
+      "question": "You and a client want different things. You say:",
+      "choices": [
+        "Let's find a middle ground.",
+        "Keep up the good work.",
+        "Great job on the presentation.",
+        "I'll look into it."
+      ],
+      "answer": 0,
+      "explanation_ar": "middle ground = حل وسط.",
+      "explanation_en": "\"Middle ground\" is a solution between two sides."
+    },
+    {
+      "question": "What does \"extend the deadline\" mean?",
+      "choices": [
+        "finish early",
+        "cancel the task",
+        "give more time",
+        "start the task"
+      ],
+      "answer": 2,
+      "explanation_ar": "extend = يمدد، أي يعطي وقتًا أكثر.",
+      "explanation_en": "\"Extend\" means make longer: more time."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "We need to discuss about the plan.",
+        "We need discuss the plan.",
+        "We need to discussing the plan.",
+        "We need to discuss the plan."
+      ],
+      "answer": 3,
+      "explanation_ar": "discuss لا تحتاج about، وبعد need to فعل أصلي.",
+      "explanation_en": "\"Discuss\" takes no \"about\"; use \"need to + base verb\"."
+    },
+    {
+      "question": "Your colleague worked very hard. You say:",
+      "choices": [
+        "Thank you for your hard work.",
+        "We've encountered an issue.",
+        "Can we extend the deadline?",
+        "What terms do you propose?"
+      ],
+      "answer": 0,
+      "explanation_ar": "Thank you for your hard work = شكرًا على مجهودك.",
+      "explanation_en": "It thanks someone for working hard."
+    },
+    {
+      "question": "\"Let's ___ some solutions.\" (share many ideas)",
+      "choices": [
+        "propose",
+        "encounter",
+        "brainstorm",
+        "provide"
+      ],
+      "answer": 2,
+      "explanation_ar": "brainstorm = تبادل الأفكار.",
+      "explanation_en": "\"Brainstorm\" means share many ideas."
+    },
+    {
+      "question": "You can't reply now. You say:",
+      "choices": [
+        "Keep up the good work.",
+        "I appreciate your input.",
+        "Let's find a middle ground.",
+        "I'll get back to you as soon as possible."
+      ],
+      "answer": 3,
+      "explanation_ar": "I'll get back to you = سأرد عليك لاحقًا.",
+      "explanation_en": "It means I will reply later."
+    },
+    {
+      "question": "\"We need to ___ this issue immediately.\" (deal with)",
+      "choices": [
+        "assist",
+        "address",
+        "propose",
+        "schedule"
+      ],
+      "answer": 1,
+      "explanation_ar": "address an issue = يعالج مشكلة.",
+      "explanation_en": "\"Address an issue\" means deal with it."
+    },
+    {
+      "question": "\"Your efforts have not gone ___.\"",
+      "choices": [
+        "unnotice",
+        "noticing",
+        "unnoticed",
+        "notice"
+      ],
+      "answer": 2,
+      "explanation_ar": "have not gone unnoticed = لم تمر دون ملاحظة.",
+      "explanation_en": "The phrase is \"have not gone unnoticed\"."
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "title": "The Elevator Pitch",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "elevator pitch",
+        "pos": "noun",
+        "meaning_en": "a very short talk to sell an idea, short enough for a ride in a lift",
+        "meaning_ar": "عرض موجز لفكرة (يُقدَّم في وقت قصير جدًا، كمدة ركوب المصعد)",
+        "note_ar": "elevator كلمة أمريكية، والبريطانيون يقولون lift.",
+        "note_en": "Elevator is American English; British people say lift.",
+        "example": "I had only two minutes, so I gave him my elevator pitch."
+      },
+      {
+        "word": "lift",
+        "pos": "noun",
+        "meaning_en": "a machine that carries people up and down in a building",
+        "meaning_ar": "مصعد",
+        "note_ar": "في الإنجليزية الأمريكية: elevator.",
+        "note_en": "US English: elevator.",
+        "example": "Let's take the lift to the fifth floor."
+      },
+      {
+        "word": "pitch",
+        "pos": "noun / verb",
+        "meaning_en": "a talk to persuade someone to accept an idea or buy something; to give this talk",
+        "meaning_ar": "عرض ترويجي / يعرض فكرة لإقناع الآخرين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She pitched her idea to the manager."
+      },
+      {
+        "word": "come up with",
+        "pos": "phrasal verb",
+        "meaning_en": "to think of a new idea or plan",
+        "meaning_ar": "يبتكر / يتوصل إلى (فكرة)",
+        "note_ar": "التصريف: come – came – come.",
+        "note_en": "Forms: come – came – come.",
+        "example": "Our team came up with a great plan."
+      },
+      {
+        "word": "product",
+        "pos": "noun",
+        "meaning_en": "something a company makes and sells",
+        "meaning_ar": "منتَج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is our best-selling product."
+      },
+      {
+        "word": "addition",
+        "pos": "noun",
+        "meaning_en": "something new that is added and makes a group better",
+        "meaning_ar": "إضافة",
+        "note_ar": "الفعل: add (يضيف).",
+        "note_en": "Verb: add.",
+        "example": "The new printer is a useful addition to the office."
+      },
+      {
+        "word": "market",
+        "pos": "noun",
+        "meaning_en": "the group of people or businesses who might buy a product",
+        "meaning_ar": "سوق (فئة المشترين المستهدفة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our market is small cafes and restaurants."
+      },
+      {
+        "word": "profit",
+        "pos": "noun",
+        "meaning_en": "money a business earns after paying its costs",
+        "meaning_ar": "ربح",
+        "note_ar": "الصفة: profitable (مربح).",
+        "note_en": "Adjective: profitable.",
+        "example": "The company made a big profit this year."
+      },
+      {
+        "word": "profitable",
+        "pos": "adjective",
+        "meaning_en": "making money",
+        "meaning_ar": "مربح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is this a profitable business?"
+      },
+      {
+        "word": "efficiency",
+        "pos": "noun",
+        "meaning_en": "doing work well without wasting time or money",
+        "meaning_ar": "كفاءة",
+        "note_ar": "الصفة: efficient.",
+        "note_en": "Adjective: efficient.",
+        "example": "New machines will increase efficiency."
+      },
+      {
+        "word": "quality",
+        "pos": "noun",
+        "meaning_en": "how good something is",
+        "meaning_ar": "جودة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We never reduce the quality of our products."
+      },
+      {
+        "word": "maintain",
+        "pos": "verb",
+        "meaning_en": "to keep something at the same level",
+        "meaning_ar": "يحافظ على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We must maintain high standards."
+      },
+      {
+        "word": "increase",
+        "pos": "verb / noun",
+        "meaning_en": "to become or make bigger; a rise",
+        "meaning_ar": "يزيد / زيادة",
+        "note_ar": "نبرة الفعل على المقطع الثاني: inCREASE، والاسم على الأول: INcrease.",
+        "note_en": "Verb stress: inCREASE; noun stress: INcrease.",
+        "example": "Sales increased by 10% last month."
+      },
+      {
+        "word": "calculation",
+        "pos": "noun",
+        "meaning_en": "working out an answer with numbers",
+        "meaning_ar": "حساب / عملية حسابية",
+        "note_ar": "الفعل: calculate.",
+        "note_en": "Verb: calculate.",
+        "example": "By my calculations, the project will cost less."
+      },
+      {
+        "word": "value for money",
+        "pos": "phrase",
+        "meaning_en": "worth the price you pay",
+        "meaning_ar": "يستحق ثمنه / قيمة مقابل المال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These chairs are good value for money."
+      },
+      {
+        "word": "exceptional",
+        "pos": "adjective",
+        "meaning_en": "much better than usual",
+        "meaning_ar": "استثنائي / ممتاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She did an exceptional job."
+      },
+      {
+        "word": "survey",
+        "pos": "noun",
+        "meaning_en": "a set of questions you ask many people to find information",
+        "meaning_ar": "استطلاع / استبيان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We did a survey of 200 customers."
+      },
+      {
+        "word": "conduct",
+        "pos": "verb",
+        "meaning_en": "to organise and do something, e.g. a survey",
+        "meaning_ar": "يُجري (استطلاعًا أو بحثًا)",
+        "note_ar": "نبرة الفعل: conDUCT.",
+        "note_en": "Verb stress: conDUCT.",
+        "example": "We conducted a survey last month."
+      },
+      {
+        "word": "existing customer",
+        "pos": "noun",
+        "meaning_en": "a customer who already buys from you",
+        "meaning_ar": "عميل حالي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We sent the offer to all existing customers."
+      },
+      {
+        "word": "evidence",
+        "pos": "noun",
+        "meaning_en": "facts that show something is true",
+        "meaning_ar": "دليل / أدلة",
+        "note_ar": "اسم غير معدود: لا نقول evidences.",
+        "note_en": "Uncountable: not 'evidences'.",
+        "example": "Do you have any evidence that it will sell?"
+      },
+      {
+        "word": "concisely",
+        "pos": "adverb",
+        "meaning_en": "using few words, clearly",
+        "meaning_ar": "بإيجاز",
+        "note_ar": "الصفة: concise.",
+        "note_en": "Adjective: concise.",
+        "example": "Please explain your idea concisely."
+      },
+      {
+        "word": "confident",
+        "pos": "adjective",
+        "meaning_en": "sure that something will happen or be good",
+        "meaning_ar": "واثق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm confident we will finish on time."
+      },
+      {
+        "word": "portfolio",
+        "pos": "noun",
+        "meaning_en": "the range of products a company sells",
+        "meaning_ar": "مجموعة المنتجات (محفظة المنتجات)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This new item will add to our product portfolio."
+      },
+      {
+        "word": "do your homework",
+        "pos": "idiom",
+        "meaning_en": "to prepare well by finding information before something",
+        "meaning_ar": "يستعد جيدًا / يجمع المعلومات مسبقًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You've really done your homework on this market."
+      },
+      {
+        "word": "chew it over",
+        "pos": "idiom",
+        "meaning_en": "to think carefully about something before deciding",
+        "meaning_ar": "يفكر في الأمر بتمعّن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me chew it over and I'll call you tomorrow."
+      },
+      {
+        "word": "get back to someone",
+        "pos": "phrasal verb",
+        "meaning_en": "to contact someone later with an answer",
+        "meaning_ar": "يعود إليه بالرد لاحقًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll get back to you by Friday."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "lift vs elevator",
+        "words": [
+          "lift",
+          "elevator"
+        ],
+        "explanation_ar": "الكلمتان بمعنى واحد: المصعد. lift هي الكلمة البريطانية، و elevator هي الكلمة الأمريكية. أما elevator pitch فهو تعبير ثابت يُستخدم في الإنجليزيتين.",
+        "explanation_en": "Both mean the machine that carries people between floors. Lift is British, elevator is American. 'Elevator pitch' is a fixed phrase used everywhere.",
+        "examples": [
+          {
+            "word": "lift",
+            "sentence": "The lift is out of order, so take the stairs."
+          },
+          {
+            "word": "elevator",
+            "sentence": "The elevator stopped on the tenth floor."
+          }
+        ]
+      },
+      {
+        "title": "profit vs benefit",
+        "words": [
+          "profit",
+          "benefit"
+        ],
+        "explanation_ar": "profit هو المال الذي تربحه الشركة بعد طرح التكاليف. benefit فائدة أو ميزة بشكل عام، وليس مالًا بالضرورة.",
+        "explanation_en": "Profit is money a business makes after costs. Benefit is any advantage or good result, not only money.",
+        "examples": [
+          {
+            "word": "profit",
+            "sentence": "We made a profit of $5,000."
+          },
+          {
+            "word": "benefit",
+            "sentence": "One benefit of the plan is that it saves time."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "We've come up with an exciting new product.",
+        "meaning_ar": "توصلنا إلى منتج جديد ومثير.",
+        "meaning_en": "We have created a new and interesting product.",
+        "example": "We've come up with an exciting new app for students."
+      },
+      {
+        "phrase": "This fantastic product will be a great addition to ...",
+        "meaning_ar": "هذا المنتج الرائع سيكون إضافة ممتازة إلى ...",
+        "meaning_en": "This product will make ... better.",
+        "example": "This fantastic chair will be a great addition to any office."
+      },
+      {
+        "phrase": "We can increase efficiency but maintain quality.",
+        "meaning_ar": "يمكننا رفع الكفاءة مع المحافظة على الجودة.",
+        "meaning_en": "We can work faster and cheaper without making the product worse.",
+        "example": "With the new software, we can increase efficiency but maintain quality."
+      },
+      {
+        "phrase": "By my calculations, we can increase profits by 20%.",
+        "meaning_ar": "حسب حساباتي، يمكننا زيادة الأرباح بنسبة 20٪.",
+        "meaning_en": "According to my numbers, profits can grow by 20%.",
+        "example": "By my calculations, we can save 15% on costs."
+      },
+      {
+        "phrase": "I'm confident this new product will be a huge success.",
+        "meaning_ar": "أنا واثق أن هذا المنتج الجديد سيحقق نجاحًا كبيرًا.",
+        "meaning_en": "I strongly believe this product will do very well.",
+        "example": "I'm confident this course will be a huge success."
+      },
+      {
+        "phrase": "There's no time like the present.",
+        "meaning_ar": "لا وقت أفضل من الآن (لا تؤجّل).",
+        "meaning_en": "It's best to do it now, not later.",
+        "example": "Let's send the report today – there's no time like the present."
+      },
+      {
+        "phrase": "You've certainly done your homework.",
+        "meaning_ar": "لقد استعددت جيدًا بالفعل.",
+        "meaning_en": "You prepared very well.",
+        "example": "Great report – you've certainly done your homework."
+      },
+      {
+        "phrase": "Let me chew it over and I'll get back to you.",
+        "meaning_ar": "دعني أفكر في الأمر وسأعود إليك بالرد.",
+        "meaning_en": "Let me think about it and I'll answer you later.",
+        "example": "It's a good offer. Let me chew it over and I'll get back to you."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "increase / reduce by + amount",
+        "explanation_ar": "نستخدم by بعد increase أو reduce أو rise أو fall لنذكر مقدار التغيير: increase profits by 20% أي بمقدار 20٪. أما to فتذكر الرقم النهائي: increase to 500.",
+        "explanation_en": "Use 'by' after increase, reduce, rise or fall to give the size of the change. Use 'to' to give the final number.",
+        "examples": [
+          "We can increase profits by 20%.",
+          "Sales rose by 5% this year.",
+          "Prices went up to $30."
+        ]
+      },
+      {
+        "title": "will for confident predictions",
+        "explanation_ar": "نستخدم will + الفعل الأساسي للتنبؤ بالمستقبل عندما نكون واثقين، وغالبًا بعد I'm confident / I'm sure / I think.",
+        "explanation_en": "Use will + base verb to make predictions, often after I'm confident, I'm sure or I think.",
+        "examples": [
+          "I'm confident this product will be a huge success.",
+          "It will be a great addition to the range.",
+          "I'm sure customers will love it."
+        ]
+      },
+      {
+        "title": "Present perfect for recent results",
+        "explanation_ar": "نستخدم have/has + التصريف الثالث للحديث عن عمل انتهى حديثًا ونتيجته مهمة الآن: We've come up with... / We've conducted a survey.",
+        "explanation_en": "Use have/has + past participle for recent actions with a result now.",
+        "examples": [
+          "We've come up with a new idea.",
+          "We've conducted a survey.",
+          "She has found ten new customers."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is an 'elevator pitch'?",
+      "choices": [
+        "a very short talk to sell an idea",
+        "a long written report",
+        "a meeting in a lift about safety",
+        "a price list"
+      ],
+      "answer": 0,
+      "explanation_ar": "elevator pitch عرض قصير جدًا لفكرة في وقت قليل.",
+      "explanation_en": "It's a very short talk to sell an idea."
+    },
+    {
+      "question": "We've ___ an exciting new product.",
+      "choices": [
+        "come in with",
+        "come up to",
+        "come up with",
+        "came up"
+      ],
+      "answer": 2,
+      "explanation_ar": "come up with تعني ابتكر فكرة، و We've تحتاج التصريف الثالث come.",
+      "explanation_en": "'Come up with' means think of; after 'we've' we use 'come'."
+    },
+    {
+      "question": "By my calculations, we can increase profits ___ 20%.",
+      "choices": [
+        "with",
+        "at",
+        "by",
+        "of"
+      ],
+      "answer": 2,
+      "explanation_ar": "نستخدم by لذكر مقدار الزيادة.",
+      "explanation_en": "Use 'by' for the size of a change."
+    },
+    {
+      "question": "What does 'efficiency' mean?",
+      "choices": [
+        "doing work well without wasting time or money",
+        "being very expensive",
+        "a type of survey",
+        "a large profit"
+      ],
+      "answer": 0,
+      "explanation_ar": "efficiency تعني الكفاءة: إنجاز العمل دون هدر.",
+      "explanation_en": "Efficiency means working well without waste."
+    },
+    {
+      "question": "Which word is British English for 'elevator'?",
+      "choices": [
+        "stairs",
+        "floor",
+        "hall",
+        "lift"
+      ],
+      "answer": 3,
+      "explanation_ar": "lift هي الكلمة البريطانية للمصعد.",
+      "explanation_en": "Lift is the British word."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I'm confident this product is being a success.",
+        "I'm confident this product will be a huge success.",
+        "I'm confident this product will is a success.",
+        "I'm confident this product be a huge success."
+      ],
+      "answer": 1,
+      "explanation_ar": "will + الفعل الأساسي be.",
+      "explanation_en": "Use will + base verb."
+    },
+    {
+      "question": "Paul says 'Let me chew it over.' What does he mean?",
+      "choices": [
+        "He wants to think about it carefully.",
+        "He wants to eat a biscuit.",
+        "He says no.",
+        "He wants to sign now."
+      ],
+      "answer": 0,
+      "explanation_ar": "chew it over تعني يفكر في الأمر بتمعّن.",
+      "explanation_en": "It means to think carefully before deciding."
+    },
+    {
+      "question": "'You've certainly done your homework' means you have ___.",
+      "choices": [
+        "worked late",
+        "finished school",
+        "prepared well",
+        "made a mistake"
+      ],
+      "answer": 2,
+      "explanation_ar": "do your homework هنا تعني الاستعداد الجيد وجمع المعلومات.",
+      "explanation_en": "It means you prepared well."
+    },
+    {
+      "question": "Anna conducted a ___ and found ten new companies who would buy the product.",
+      "choices": [
+        "profit",
+        "survey",
+        "lift",
+        "portfolio"
+      ],
+      "answer": 1,
+      "explanation_ar": "survey استطلاع آراء، وconduct a survey أي أجرى استطلاعًا.",
+      "explanation_en": "We conduct a survey to collect information."
+    },
+    {
+      "question": "Which word best completes: 'These chairs are good value for ___.'",
+      "choices": [
+        "profit",
+        "cost",
+        "price",
+        "money"
+      ],
+      "answer": 3,
+      "explanation_ar": "التعبير الثابت هو value for money.",
+      "explanation_en": "The fixed phrase is 'value for money'."
+    }
+  ]
+}

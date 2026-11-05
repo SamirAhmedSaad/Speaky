@@ -1,0 +1,471 @@
+{
+  "title": "What clothes do you like to wear?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "clothes",
+        "pos": "noun",
+        "meaning_en": "things you wear, like shirts and trousers",
+        "meaning_ar": "ملابس",
+        "note_ar": "دائمًا جمع، تُنطق /kloʊðz/",
+        "note_en": "Always plural. Say /kloʊðz/.",
+        "example": "I bought new clothes for school."
+      },
+      {
+        "word": "comfortable",
+        "pos": "adjective",
+        "meaning_en": "nice to wear; not tight or hard",
+        "meaning_ar": "مريح",
+        "note_ar": "تُنطق غالبًا /ˈkʌmftəbəl/ (ثلاثة مقاطع)",
+        "note_en": "Often said /ˈkʌmftəbəl/ (3 syllables).",
+        "example": "These shoes are very comfortable."
+      },
+      {
+        "word": "jeans",
+        "pos": "noun",
+        "meaning_en": "trousers made of strong blue cotton",
+        "meaning_ar": "بنطال جينز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wears jeans on Saturday."
+      },
+      {
+        "word": "sneakers",
+        "pos": "noun",
+        "meaning_en": "soft shoes for sport or everyday use",
+        "meaning_ar": "حذاء رياضي",
+        "note_ar": "في بريطانيا: trainers",
+        "note_en": "UK: trainers.",
+        "example": "I run in my sneakers."
+      },
+      {
+        "word": "pants",
+        "pos": "noun",
+        "meaning_en": "clothing that covers each leg separately",
+        "meaning_ar": "بنطال",
+        "note_ar": "في أمريكا pants، وفي بريطانيا trousers",
+        "note_en": "US: pants; UK: trousers.",
+        "example": "My pants are too long."
+      },
+      {
+        "word": "button-up shirt",
+        "pos": "noun",
+        "meaning_en": "a shirt that closes with buttons at the front",
+        "meaning_ar": "قميص بأزرار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wears a white button-up shirt to work."
+      },
+      {
+        "word": "cozy",
+        "pos": "adjective",
+        "meaning_en": "warm and comfortable",
+        "meaning_ar": "دافئ ومريح",
+        "note_ar": "في بريطانيا: cosy",
+        "note_en": "UK spelling: cosy.",
+        "example": "My room is small but cozy."
+      },
+      {
+        "word": "hoodie",
+        "pos": "noun",
+        "meaning_en": "a warm top with a hood for your head",
+        "meaning_ar": "سترة بقلنسوة (هودي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wear a hoodie when it's cold."
+      },
+      {
+        "word": "slippers",
+        "pos": "noun",
+        "meaning_en": "soft shoes you wear at home",
+        "meaning_ar": "شبشب / خُفّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Put on your slippers in the house."
+      },
+      {
+        "word": "casual",
+        "pos": "adjective",
+        "meaning_en": "relaxed, not formal",
+        "meaning_ar": "غير رسمي / عادي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "On Friday I wear casual clothes."
+      },
+      {
+        "word": "professional",
+        "pos": "adjective",
+        "meaning_en": "looking right for work",
+        "meaning_ar": "مهني / لائق بالعمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She looks very professional in her suit."
+      },
+      {
+        "word": "suit",
+        "pos": "noun",
+        "meaning_en": "a jacket and trousers of the same cloth",
+        "meaning_ar": "بدلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My father wears a suit to the office."
+      },
+      {
+        "word": "formal",
+        "pos": "adjective",
+        "meaning_en": "serious and correct, for work or special events",
+        "meaning_ar": "رسمي",
+        "note_ar": "الضد: casual / informal",
+        "note_en": "Opposite: casual / informal.",
+        "example": "We wear formal clothes to important meetings."
+      },
+      {
+        "word": "sweater",
+        "pos": "noun",
+        "meaning_en": "a warm knitted top with long sleeves",
+        "meaning_ar": "كنزة صوف",
+        "note_ar": "في بريطانيا أيضًا: jumper",
+        "note_en": "UK also: jumper.",
+        "example": "Wear a sweater. It's cold."
+      },
+      {
+        "word": "scarf",
+        "pos": "noun",
+        "meaning_en": "a long piece of cloth you wear around your neck",
+        "meaning_ar": "وشاح / لفحة",
+        "note_ar": "الجمع: scarves",
+        "note_en": "Plural: scarves.",
+        "example": "I wear a scarf in winter."
+      },
+      {
+        "word": "jacket",
+        "pos": "noun",
+        "meaning_en": "a short coat",
+        "meaning_ar": "سترة / جاكيت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Take your jacket with you."
+      },
+      {
+        "word": "coat",
+        "pos": "noun",
+        "meaning_en": "a long warm piece of clothing you wear outside",
+        "meaning_ar": "معطف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My winter coat is black."
+      },
+      {
+        "word": "boots",
+        "pos": "noun",
+        "meaning_en": "shoes that cover your foot and part of your leg",
+        "meaning_ar": "حذاء طويل (بوت)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wear boots when it rains."
+      },
+      {
+        "word": "cotton",
+        "pos": "noun",
+        "meaning_en": "a soft natural cloth",
+        "meaning_ar": "قطن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This shirt is made of cotton."
+      },
+      {
+        "word": "style",
+        "pos": "noun",
+        "meaning_en": "a way of dressing",
+        "meaning_ar": "أسلوب / طراز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like your style."
+      },
+      {
+        "word": "bright",
+        "pos": "adjective",
+        "meaning_en": "strong and full of light (colors)",
+        "meaning_ar": "زاهٍ / فاتح ولامع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Children like bright colors."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "comfortable vs cozy",
+        "words": [
+          "comfortable",
+          "cozy"
+        ],
+        "explanation_ar": "comfortable تعني مريح (ليس ضيقًا ولا مؤلمًا). cozy تعني دافئ ومريح معًا، وتُستخدم للملابس الدافئة والبيت.",
+        "explanation_en": "Comfortable means nice to wear or use. Cozy means warm and comfortable.",
+        "examples": [
+          {
+            "word": "comfortable",
+            "sentence": "These sneakers are comfortable for walking."
+          },
+          {
+            "word": "cozy",
+            "sentence": "My hoodie is so cozy in winter."
+          }
+        ]
+      },
+      {
+        "title": "casual vs formal",
+        "words": [
+          "casual",
+          "formal"
+        ],
+        "explanation_ar": "casual ملابس عادية للبيت والخروج، و formal ملابس رسمية للعمل والمناسبات.",
+        "explanation_en": "Casual clothes are relaxed. Formal clothes are for work and special events.",
+        "examples": [
+          {
+            "word": "casual",
+            "sentence": "At home I wear casual clothes."
+          },
+          {
+            "word": "formal",
+            "sentence": "At the office I wear formal clothes."
+          }
+        ]
+      },
+      {
+        "title": "wear vs put on",
+        "words": [
+          "wear",
+          "put on"
+        ],
+        "explanation_ar": "wear تعني يرتدي (الحالة)، و put on تعني يلبس (حركة لبس الشيء الآن).",
+        "explanation_en": "\"Wear\" is having clothes on you. \"Put on\" is the action of dressing.",
+        "examples": [
+          {
+            "word": "wear",
+            "sentence": "I wear a suit at work."
+          },
+          {
+            "word": "put on",
+            "sentence": "Put on your coat. We're leaving."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What clothes do you like to wear?",
+        "meaning_ar": "ما الملابس التي تحب أن ترتديها؟",
+        "meaning_en": "Ask about someone's clothes and style.",
+        "example": "What clothes do you like to wear? I like jeans and t-shirts."
+      },
+      {
+        "phrase": "I like to wear easy, comfortable clothes.",
+        "meaning_ar": "أحب أن أرتدي ملابس سهلة ومريحة.",
+        "meaning_en": "Say what clothes you like.",
+        "example": "I like to wear easy, comfortable clothes every day."
+      },
+      {
+        "phrase": "I agree with you.",
+        "meaning_ar": "أنا أتفق معك.",
+        "meaning_en": "Say you have the same opinion.",
+        "example": "I agree with you. Comfort is important."
+      },
+      {
+        "phrase": "Same for me.",
+        "meaning_ar": "وأنا كذلك.",
+        "meaning_en": "Say the same is true for you.",
+        "example": "I wear slippers at home. Same for me."
+      },
+      {
+        "phrase": "For work, I have to dress a bit nicer.",
+        "meaning_ar": "للعمل، يجب أن ألبس بشكل أفضل قليلًا.",
+        "meaning_en": "Say work needs better clothes.",
+        "example": "For work, I have to dress a bit nicer."
+      },
+      {
+        "phrase": "I need to look sharp and formal.",
+        "meaning_ar": "أحتاج أن أبدو أنيقًا ورسميًا.",
+        "meaning_en": "\"Look sharp\" means look neat and smart.",
+        "example": "I have a meeting today, so I need to look sharp."
+      },
+      {
+        "phrase": "That makes sense.",
+        "meaning_ar": "هذا منطقي.",
+        "meaning_en": "Say you understand the reason.",
+        "example": "I wear boots in the rain. That makes sense."
+      },
+      {
+        "phrase": "They go with a lot of things.",
+        "meaning_ar": "تتناسب مع أشياء كثيرة.",
+        "meaning_en": "\"Go with\" means look good together.",
+        "example": "Black shoes go with a lot of things."
+      },
+      {
+        "phrase": "There's no right or wrong way to dress.",
+        "meaning_ar": "لا توجد طريقة صحيحة أو خاطئة للّبس.",
+        "meaning_en": "Everyone can choose their own style.",
+        "example": "Wear what you like. There's no right or wrong way to dress."
+      },
+      {
+        "phrase": "We should do this again sometime!",
+        "meaning_ar": "يجب أن نكرر هذا في وقت ما!",
+        "meaning_en": "Say you enjoyed something and want to do it again.",
+        "example": "That was a nice talk. We should do this again sometime!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple for habits: \"I usually wear...\"",
+        "explanation_ar": "نستخدم المضارع البسيط للعادات. ونضع كلمات التكرار مثل usually و always قبل الفعل: I usually wear jeans. ومع he/she نضيف s: She wears a suit.",
+        "explanation_en": "Use the present simple for habits. Put usually/always before the verb. With he/she add -s: she wears.",
+        "examples": [
+          "I usually wear pants and button-up shirts.",
+          "At home, I wear cozy clothes.",
+          "He always wears a suit at the office."
+        ]
+      },
+      {
+        "title": "Time and place: \"When it's cold, I...\" / \"At home, I...\"",
+        "explanation_ar": "نبدأ الجملة بـ When أو بمكان لنقول متى أو أين نلبس شيئًا: When it's cold, I wear a sweater. At home, I wear slippers. لاحظ الفاصلة بعد الجزء الأول.",
+        "explanation_en": "Start with \"When...\" or a place to say when or where. Use a comma after the first part.",
+        "examples": [
+          "When it's cold, I add layers.",
+          "In the winter, I have coats and boots.",
+          "At work, I wear formal clothes."
+        ]
+      },
+      {
+        "title": "like to + verb / love + verb-ing",
+        "explanation_ar": "بعد like و love يمكن أن نستخدم to + الفعل أو الفعل مع ing: I like to wear... / I love wearing...",
+        "explanation_en": "After like and love, use to + verb or verb-ing.",
+        "examples": [
+          "I like to wear comfortable clothes.",
+          "I love wearing sneakers.",
+          "What do you like to wear?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What do you wear on your feet at home?",
+      "choices": [
+        "a scarf",
+        "slippers",
+        "a suit",
+        "a hoodie"
+      ],
+      "answer": 1,
+      "explanation_ar": "slippers هي الخُفّ الذي نلبسه في البيت.",
+      "explanation_en": "Slippers are soft shoes for home."
+    },
+    {
+      "question": "At the office, I wear ___. I need to look formal.",
+      "choices": [
+        "slippers",
+        "joggers",
+        "a suit",
+        "a hoodie"
+      ],
+      "answer": 2,
+      "explanation_ar": "البدلة suit ملابس رسمية للعمل.",
+      "explanation_en": "A suit is formal clothing for work."
+    },
+    {
+      "question": "Which word is the opposite of \"formal\"?",
+      "choices": [
+        "professional",
+        "sharp",
+        "casual",
+        "bright"
+      ],
+      "answer": 2,
+      "explanation_ar": "عكس formal هو casual.",
+      "explanation_en": "The opposite of formal is casual."
+    },
+    {
+      "question": "When it's cold, I ___ a sweater.",
+      "choices": [
+        "wear",
+        "wears",
+        "wearing",
+        "to wear"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع I نستخدم wear بدون s.",
+      "explanation_en": "With \"I\" use \"wear\"."
+    },
+    {
+      "question": "My brother always ___ jeans.",
+      "choices": [
+        "wear",
+        "wears",
+        "wearing",
+        "is wear"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع he/she/my brother نضيف s: wears.",
+      "explanation_en": "With he/she add -s: wears."
+    },
+    {
+      "question": "I love ___ sneakers.",
+      "choices": [
+        "wear",
+        "wears",
+        "wearing",
+        "wore"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد love يمكن استخدام الفعل مع ing.",
+      "explanation_en": "After \"love\" we can use verb-ing."
+    },
+    {
+      "question": "\"Cozy\" clothes are...",
+      "choices": [
+        "warm and comfortable",
+        "very formal",
+        "very expensive",
+        "too small"
+      ],
+      "answer": 0,
+      "explanation_ar": "cozy تعني دافئ ومريح.",
+      "explanation_en": "Cozy means warm and comfortable."
+    },
+    {
+      "question": "In American English \"pants\" are ___ in British English.",
+      "choices": [
+        "shorts",
+        "boots",
+        "jackets",
+        "trousers"
+      ],
+      "answer": 3,
+      "explanation_ar": "pants بالأمريكية = trousers بالبريطانية.",
+      "explanation_en": "US pants = UK trousers."
+    },
+    {
+      "question": "I wear boots in the rain. — That makes ___.",
+      "choices": [
+        "sense",
+        "fun",
+        "style",
+        "time"
+      ],
+      "answer": 0,
+      "explanation_ar": "العبارة: That makes sense = هذا منطقي.",
+      "explanation_en": "The phrase is \"That makes sense\"."
+    },
+    {
+      "question": "Navy, gray and black ___ a lot of things.",
+      "choices": [
+        "go to",
+        "go with",
+        "go on",
+        "go for"
+      ],
+      "answer": 1,
+      "explanation_ar": "go with تعني يتناسب مع.",
+      "explanation_en": "\"Go with\" means look good together."
+    }
+  ]
+}

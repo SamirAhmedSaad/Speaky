@@ -1,0 +1,391 @@
+{
+  "title": "Small Talk on a Plane",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "small talk",
+        "pos": "noun",
+        "meaning_en": "friendly, light conversation with someone you don't know well",
+        "meaning_ar": "حديث ودّي قصير (دردشة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We made small talk on the plane."
+      },
+      {
+        "word": "seatmate",
+        "pos": "noun",
+        "meaning_en": "the person in the seat next to you",
+        "meaning_ar": "جار المقعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I think we're seatmates."
+      },
+      {
+        "word": "nervous",
+        "pos": "adjective",
+        "meaning_en": "a little worried or afraid",
+        "meaning_ar": "متوتر / قلق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm excited but a little nervous."
+      },
+      {
+        "word": "vacation",
+        "pos": "noun",
+        "meaning_en": "a holiday; time off for travel or rest",
+        "meaning_ar": "عطلة",
+        "note_ar": "في بريطانيا: holiday",
+        "note_en": "UK: holiday.",
+        "example": "I'm going on vacation."
+      },
+      {
+        "word": "business trip",
+        "pos": "noun",
+        "meaning_en": "a trip for work",
+        "meaning_ar": "رحلة عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm going home after my business trip."
+      },
+      {
+        "word": "grow up",
+        "pos": "phrasal verb",
+        "meaning_en": "change from a child to an adult in a place",
+        "meaning_ar": "ينشأ / يكبر",
+        "note_ar": "الماضي: grew up",
+        "note_en": "Past: grew up.",
+        "example": "I grew up in New York."
+      },
+      {
+        "word": "famous",
+        "pos": "adjective",
+        "meaning_en": "known by many people",
+        "meaning_ar": "مشهور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to see the famous buildings."
+      },
+      {
+        "word": "energy",
+        "pos": "noun",
+        "meaning_en": "strong, lively feeling",
+        "meaning_ar": "حيوية / طاقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love the energy of the city."
+      },
+      {
+        "word": "flight",
+        "pos": "noun",
+        "meaning_en": "a trip by plane",
+        "meaning_ar": "رحلة جوية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How long is the flight?"
+      },
+      {
+        "word": "usually",
+        "pos": "adverb",
+        "meaning_en": "most of the time",
+        "meaning_ar": "عادةً",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I usually read on planes."
+      },
+      {
+        "word": "by the way",
+        "pos": "phrase",
+        "meaning_en": "used to start a new topic",
+        "meaning_ar": "بالمناسبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "By the way, what do you do?"
+      },
+      {
+        "word": "high school teacher",
+        "pos": "noun",
+        "meaning_en": "a teacher of students aged about 14 to 18",
+        "meaning_ar": "مدرّس في المرحلة الثانوية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm a high school teacher."
+      },
+      {
+        "word": "software company",
+        "pos": "noun",
+        "meaning_en": "a company that makes computer programs",
+        "meaning_ar": "شركة برمجيات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I work at a software company."
+      },
+      {
+        "word": "practice",
+        "pos": "verb",
+        "meaning_en": "do something again and again to get better",
+        "meaning_ar": "يتدرّب / يمارس",
+        "note_ar": "في بريطانيا الفعل: practise",
+        "note_en": "UK verb spelling: practise.",
+        "example": "I practice English every day."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Where are you from? vs Where do you live?",
+        "words": [
+          "Where are you from",
+          "Where do you live"
+        ],
+        "explanation_ar": "Where are you from? = ما بلدك الأصلي؟ Where do you live? = أين تسكن الآن؟",
+        "explanation_en": "\"Where are you from?\" = your home country. \"Where do you live?\" = your home now.",
+        "examples": [
+          {
+            "word": "Where are you from",
+            "sentence": "I'm from Japan."
+          },
+          {
+            "word": "Where do you live",
+            "sentence": "I live in Tokyo."
+          }
+        ]
+      },
+      {
+        "title": "What do you do? vs What are you doing?",
+        "words": [
+          "What do you do",
+          "What are you doing"
+        ],
+        "explanation_ar": "What do you do? = ما عملك؟ What are you doing? = ماذا تفعل الآن؟",
+        "explanation_en": "\"What do you do?\" asks about your job. \"What are you doing?\" asks about now.",
+        "examples": [
+          {
+            "word": "What do you do",
+            "sentence": "I'm a teacher."
+          },
+          {
+            "word": "What are you doing",
+            "sentence": "I'm reading a book."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Hi. I think we're seatmates. I'm Alex.",
+        "meaning_ar": "مرحبًا. أظن أننا جاران في المقعد. أنا أليكس.",
+        "meaning_en": "Starting a conversation on a plane.",
+        "example": "Hi, I think this is my seat. I'm Omar."
+      },
+      {
+        "phrase": "Nice to meet you. / Nice to meet you, too.",
+        "meaning_ar": "تشرفت بمعرفتك. / وأنا أيضًا.",
+        "meaning_en": "Meeting someone new.",
+        "example": "Nice to meet you, Yuki. Nice to meet you, too."
+      },
+      {
+        "phrase": "Is this your first time going to New York?",
+        "meaning_ar": "هل هذه أول مرة تذهب إلى نيويورك؟",
+        "meaning_en": "Asking about experience.",
+        "example": "Is this your first time in London?"
+      },
+      {
+        "phrase": "Where are you from? / I'm from Japan.",
+        "meaning_ar": "من أين أنت؟ / أنا من اليابان.",
+        "meaning_en": "Asking about home country.",
+        "example": "Where are you from? I'm from Egypt."
+      },
+      {
+        "phrase": "What made you decide to visit New York?",
+        "meaning_ar": "ما الذي جعلك تقرر زيارة نيويورك؟",
+        "meaning_en": "Asking the reason.",
+        "example": "What made you decide to learn English?"
+      },
+      {
+        "phrase": "I've always wanted to see the famous buildings.",
+        "meaning_ar": "لطالما أردت رؤية المباني المشهورة.",
+        "meaning_en": "A wish you had for a long time.",
+        "example": "I've always wanted to visit Mecca."
+      },
+      {
+        "phrase": "What do you like most about living there?",
+        "meaning_ar": "ما أكثر ما تحبه في العيش هناك؟",
+        "meaning_en": "Asking about someone's city.",
+        "example": "What do you like most about your job?"
+      },
+      {
+        "phrase": "How long is the flight? / About 13 hours.",
+        "meaning_ar": "كم مدة الرحلة؟ / حوالي 13 ساعة.",
+        "meaning_en": "Asking about time.",
+        "example": "How long is the flight to Dubai?"
+      },
+      {
+        "phrase": "Do you usually sleep on planes? / Not really.",
+        "meaning_ar": "هل تنام عادةً في الطائرات؟ / ليس كثيرًا.",
+        "meaning_en": "Asking about habits.",
+        "example": "Do you usually eat breakfast? Not really."
+      },
+      {
+        "phrase": "By the way, what do you do?",
+        "meaning_ar": "بالمناسبة، ما عملك؟",
+        "meaning_en": "Asking about someone's job.",
+        "example": "By the way, what do you do? I'm a nurse."
+      },
+      {
+        "phrase": "Your English is very good. / Thank you. I practice every day.",
+        "meaning_ar": "لغتك الإنجليزية جيدة جدًا. / شكرًا، أتدرب كل يوم.",
+        "meaning_en": "A compliment and answer.",
+        "example": "Your Arabic is very good!"
+      },
+      {
+        "phrase": "That would be amazing.",
+        "meaning_ar": "سيكون ذلك رائعًا.",
+        "meaning_en": "Happy about an offer.",
+        "example": "You can show me the city? That would be amazing."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect: I've always wanted to ...",
+        "explanation_ar": "نستخدم I've always wanted to + فعل لرغبة قديمة مستمرة حتى الآن.",
+        "explanation_en": "Use \"I've always wanted to + verb\" for a wish you have had for a long time.",
+        "examples": [
+          "I've always wanted to see New York.",
+          "She has always wanted to be a doctor.",
+          "I've always wanted to learn Japanese."
+        ]
+      },
+      {
+        "title": "Adverbs of frequency: usually, always, never",
+        "explanation_ar": "ظروف التكرار تأتي قبل الفعل الأساسي: I usually read. وبعد فعل be: I am always late.",
+        "explanation_en": "Frequency adverbs go before the main verb, but after \"be\".",
+        "examples": [
+          "I usually watch films or read.",
+          "I always practice English.",
+          "He is never late."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"What do you do?\" asks about your ...",
+      "choices": [
+        "hobby now",
+        "job",
+        "country",
+        "flight"
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال عن العمل.",
+      "explanation_en": "It asks about your job."
+    },
+    {
+      "question": "The person in the seat next to you is your ...",
+      "choices": [
+        "teacher",
+        "pilot",
+        "host",
+        "seatmate"
+      ],
+      "answer": 3,
+      "explanation_ar": "جار المقعد: seatmate.",
+      "explanation_en": "Your seatmate."
+    },
+    {
+      "question": "I ____ wanted to see the famous buildings.",
+      "choices": [
+        "'ve always",
+        "have always",
+        "always have",
+        "am always"
+      ],
+      "answer": 0,
+      "explanation_ar": "الصيغة I've always wanted.",
+      "explanation_en": "The form is \"I've always wanted\"."
+    },
+    {
+      "question": "I ____ read on planes.",
+      "choices": [
+        "usual",
+        "am usually",
+        "usually",
+        "usually am"
+      ],
+      "answer": 2,
+      "explanation_ar": "ظرف التكرار قبل الفعل.",
+      "explanation_en": "The adverb goes before the verb."
+    },
+    {
+      "question": "\"Where are you from?\" \"____\"",
+      "choices": [
+        "I'm a teacher.",
+        "About 13 hours.",
+        "I'm from Japan.",
+        "I'm reading."
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال عن البلد.",
+      "explanation_en": "It asks about your country."
+    },
+    {
+      "question": "\"By the way\" is used to ...",
+      "choices": [
+        "start a new topic",
+        "end a call",
+        "say sorry",
+        "say goodbye"
+      ],
+      "answer": 0,
+      "explanation_ar": "لبدء موضوع جديد.",
+      "explanation_en": "To start a new topic."
+    },
+    {
+      "question": "I grew ____ in New York.",
+      "choices": [
+        "in",
+        "on",
+        "out",
+        "up"
+      ],
+      "answer": 3,
+      "explanation_ar": "grow up = ينشأ.",
+      "explanation_en": "\"Grow up\" = become an adult."
+    },
+    {
+      "question": "\"I'm a little nervous.\" means ...",
+      "choices": [
+        "I'm very happy.",
+        "I'm a bit worried.",
+        "I'm very tired.",
+        "I'm hungry."
+      ],
+      "answer": 1,
+      "explanation_ar": "متوتر قليلًا.",
+      "explanation_en": "A bit worried."
+    },
+    {
+      "question": "A trip for work is a ...",
+      "choices": [
+        "business trip",
+        "vacation",
+        "small talk",
+        "flight attendant"
+      ],
+      "answer": 0,
+      "explanation_ar": "رحلة عمل.",
+      "explanation_en": "A business trip."
+    },
+    {
+      "question": "\"Your English is very good.\" The best answer is:",
+      "choices": [
+        "No, you are bad.",
+        "I'm from Japan.",
+        "Thank you. I practice every day.",
+        "About 13 hours."
+      ],
+      "answer": 2,
+      "explanation_ar": "الرد المهذب على المديح.",
+      "explanation_en": "A polite answer to a compliment."
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "title": "No Pets Here",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "pet",
+        "pos": "noun",
+        "meaning_en": "an animal you keep at home",
+        "meaning_ar": "حيوان أليف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe and Bella wanted a pet."
+      },
+      {
+        "word": "hamster",
+        "pos": "noun",
+        "meaning_en": "a small furry animal with a round body",
+        "meaning_ar": "هامستر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Izzy has a hamster."
+      },
+      {
+        "word": "puppy",
+        "pos": "noun",
+        "meaning_en": "a baby dog",
+        "meaning_ar": "جرو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like a puppy."
+      },
+      {
+        "word": "kitten",
+        "pos": "noun",
+        "meaning_en": "a baby cat",
+        "meaning_ar": "قطّ صغير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe got a kitten."
+      },
+      {
+        "word": "busy",
+        "pos": "adjective",
+        "meaning_en": "having a lot to do",
+        "meaning_ar": "مشغول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're too busy."
+      },
+      {
+        "word": "mess",
+        "pos": "noun",
+        "meaning_en": "a lot of things in the wrong place; dirty",
+        "meaning_ar": "فوضى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Pets make too much mess."
+      },
+      {
+        "word": "cage",
+        "pos": "noun",
+        "meaning_en": "a box with bars for keeping animals",
+        "meaning_ar": "قفص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Put her back in her cage."
+      },
+      {
+        "word": "escape",
+        "pos": "verb",
+        "meaning_en": "get away from a place",
+        "meaning_ar": "يهرب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Make sure she doesn't escape."
+      },
+      {
+        "word": "look for",
+        "pos": "phrasal verb",
+        "meaning_en": "try to find",
+        "meaning_ar": "يبحث عن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've got to look for her."
+      },
+      {
+        "word": "find",
+        "pos": "verb",
+        "meaning_en": "see something you were looking for",
+        "meaning_ar": "يجد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We couldn't find her."
+      },
+      {
+        "word": "cute",
+        "pos": "adjective",
+        "meaning_en": "small and nice to look at",
+        "meaning_ar": "لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She's cute."
+      },
+      {
+        "word": "garden",
+        "pos": "noun",
+        "meaning_en": "land near a house with grass",
+        "meaning_ar": "حديقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The boys played in the garden."
+      },
+      {
+        "word": "kitchen",
+        "pos": "noun",
+        "meaning_en": "the room where you cook",
+        "meaning_ar": "مطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Harriet was on the kitchen floor."
+      },
+      {
+        "word": "scared",
+        "pos": "adjective",
+        "meaning_en": "afraid",
+        "meaning_ar": "خائف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Harriet was scared of the noise."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "look for vs find",
+        "words": [
+          "look for",
+          "find"
+        ],
+        "explanation_ar": "look for = يبحث (يحاول أن يجد)، و find = يجد فعلًا.",
+        "explanation_en": "\"look for\" = try to find. \"find\" = you see it at last.",
+        "examples": [
+          {
+            "word": "look for",
+            "sentence": "They looked for Harriet everywhere."
+          },
+          {
+            "word": "find",
+            "sentence": "Joe found Harriet in the kitchen."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "No pets here!",
+        "meaning_ar": "لا حيوانات أليفة هنا!",
+        "meaning_en": "Pets are not allowed in this house.",
+        "example": "Can I have a cat? - No pets here!"
+      },
+      {
+        "phrase": "I'd like a puppy.",
+        "meaning_ar": "أودّ أن يكون عندي جرو.",
+        "meaning_en": "A polite way to say what you want.",
+        "example": "I'd like a kitten, please."
+      },
+      {
+        "phrase": "Isn't she lovely?",
+        "meaning_ar": "أليست جميلة؟",
+        "meaning_en": "Asking someone to agree she is nice.",
+        "example": "Look at my hamster. Isn't she lovely?"
+      },
+      {
+        "phrase": "What's the matter?",
+        "meaning_ar": "ما الأمر؟",
+        "meaning_en": "Asking about a problem.",
+        "example": "Why are you crying? What's the matter?"
+      },
+      {
+        "phrase": "Please can I?",
+        "meaning_ar": "من فضلك، هل يمكنني؟",
+        "meaning_en": "Asking for permission.",
+        "example": "Can I keep the hamster? Please can I?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I wish I could / I'd like",
+        "explanation_ar": "I wish I could have a hamster = أتمنى لو كان بإمكاني. I'd like a puppy = أودّ. I'd = I would.",
+        "explanation_en": "I wish I could + verb = a wish. I'd like + noun = what you want (polite). I'd = I would.",
+        "examples": [
+          "I wish I could have a hamster!",
+          "I'd like a puppy.",
+          "How about a kitten?"
+        ]
+      },
+      {
+        "title": "too + adjective",
+        "explanation_ar": "too busy = مشغولون أكثر من اللازم (لا نستطيع).",
+        "explanation_en": "\"too busy\" = so busy that you can't do it.",
+        "examples": [
+          "We're too busy.",
+          "Pets make too much mess."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What pet does Izzy have?",
+      "choices": [
+        "a hamster",
+        "a kitten",
+        "a puppy",
+        "a rabbit"
+      ],
+      "answer": 0,
+      "explanation_ar": "عند إيزي هامستر.",
+      "explanation_en": "Izzy has a hamster."
+    },
+    {
+      "question": "What is the hamster's name?",
+      "choices": [
+        "Caspar",
+        "Harriet",
+        "Izzy",
+        "Selby"
+      ],
+      "answer": 1,
+      "explanation_ar": "اسمها هارييت.",
+      "explanation_en": "Her name is Harriet."
+    },
+    {
+      "question": "Where did Joe find Harriet?",
+      "choices": [
+        "in the garden",
+        "in her ball",
+        "on the kitchen floor",
+        "under the bed"
+      ],
+      "answer": 2,
+      "explanation_ar": "وجدها على أرضية المطبخ.",
+      "explanation_en": "On the kitchen floor."
+    },
+    {
+      "question": "What pet did Joe get at the end?",
+      "choices": [
+        "a hamster",
+        "a puppy",
+        "a parrot",
+        "a kitten"
+      ],
+      "answer": 3,
+      "explanation_ar": "حصل جو على قطة صغيرة.",
+      "explanation_en": "He got a kitten."
+    },
+    {
+      "question": "Why did the parents say no to pets?",
+      "choices": [
+        "They were too busy.",
+        "They had a dog.",
+        "Pets are expensive.",
+        "Joe was too young."
+      ],
+      "answer": 0,
+      "explanation_ar": "قالا إنهما مشغولان جدًّا.",
+      "explanation_en": "They said they were too busy."
+    },
+    {
+      "question": "You try to find something. You ___ it.",
+      "choices": [
+        "find",
+        "look for",
+        "escape",
+        "keep"
+      ],
+      "answer": 1,
+      "explanation_ar": "look for = يبحث عن.",
+      "explanation_en": "look for = try to find."
+    },
+    {
+      "question": "Animals like hamsters live in a ___.",
+      "choices": [
+        "kitchen",
+        "garden",
+        "cage",
+        "desk"
+      ],
+      "answer": 2,
+      "explanation_ar": "يعيش الهامستر في قفص.",
+      "explanation_en": "A hamster lives in a cage."
+    },
+    {
+      "question": "I wish I ___ have a hamster.",
+      "choices": [
+        "can to",
+        "will",
+        "am",
+        "could"
+      ],
+      "answer": 3,
+      "explanation_ar": "I wish I could + فعل.",
+      "explanation_en": "I wish I could + verb."
+    },
+    {
+      "question": "A baby dog is a ___.",
+      "choices": [
+        "puppy",
+        "kitten",
+        "hamster",
+        "cage"
+      ],
+      "answer": 0,
+      "explanation_ar": "صغير الكلب = puppy.",
+      "explanation_en": "A baby dog is a puppy."
+    },
+    {
+      "question": "\"busy\" means ___.",
+      "choices": [
+        "خائف",
+        "مشغول",
+        "لطيف",
+        "تائه"
+      ],
+      "answer": 1,
+      "explanation_ar": "busy = مشغول.",
+      "explanation_en": "busy = having a lot to do."
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+ "title": "Animal expressions",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "rat",
+    "pos": "noun",
+    "meaning_en": "an animal like a big mouse",
+    "meaning_ar": "جُرذ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We saw a rat near the rubbish bins."
+   },
+   {
+    "word": "peacock",
+    "pos": "noun",
+    "meaning_en": "a large male bird with beautiful blue and green tail feathers",
+    "meaning_ar": "طاووس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The peacock opened its colourful tail."
+   },
+   {
+    "word": "sheep",
+    "pos": "noun",
+    "meaning_en": "a farm animal with thick wool; the plural is also 'sheep'",
+    "meaning_ar": "خروف، غنم",
+    "note_ar": "الجمع لا يتغيّر: one sheep, two sheep.",
+    "note_en": "The plural is the same: one sheep, ten sheep.",
+    "example": "The farmer has fifty sheep."
+   },
+   {
+    "word": "goat",
+    "pos": "noun",
+    "meaning_en": "a farm animal with horns",
+    "meaning_ar": "ماعز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Goats can climb steep rocks."
+   },
+   {
+    "word": "sting",
+    "pos": "noun",
+    "meaning_en": "a sharp pain from an insect such as a bee",
+    "meaning_ar": "لدغة، لسعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "A bee sting can be very painful."
+   },
+   {
+    "word": "cuckoo",
+    "pos": "noun",
+    "meaning_en": "a bird known for the sound 'coo-coo'",
+    "meaning_ar": "طائر الوقواق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We heard a cuckoo in the forest."
+   },
+   {
+    "word": "bark",
+    "pos": "verb",
+    "meaning_en": "to make the loud sound a dog makes",
+    "meaning_ar": "ينبح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The dog barks at every visitor."
+   },
+   {
+    "word": "competitive",
+    "pos": "adjective",
+    "meaning_en": "wanting very much to win or be better than others",
+    "meaning_ar": "تنافسي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sport can make children competitive."
+   },
+   {
+    "word": "show off",
+    "pos": "phrasal verb",
+    "meaning_en": "to try to make people admire you",
+    "meaning_ar": "يتباهى، يستعرض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He likes to show off his new car."
+   },
+   {
+    "word": "sympathy",
+    "pos": "noun",
+    "meaning_en": "feeling sorry for someone",
+    "meaning_ar": "تعاطف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She got a lot of sympathy after her accident."
+   },
+   {
+    "word": "exaggerated",
+    "pos": "adjective",
+    "meaning_en": "made to seem bigger or worse than it really is",
+    "meaning_ar": "مُبالَغ فيه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "His story was very exaggerated."
+   },
+   {
+    "word": "assumption",
+    "pos": "noun",
+    "meaning_en": "something you believe is true without proof",
+    "meaning_ar": "افتراض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't make assumptions about people."
+   },
+   {
+    "word": "strict",
+    "pos": "adjective",
+    "meaning_en": "making people follow rules carefully",
+    "meaning_ar": "صارم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Our maths teacher is very strict."
+   },
+   {
+    "word": "upbringing",
+    "pos": "noun",
+    "meaning_en": "the way a child is cared for and taught at home",
+    "meaning_ar": "تربية، تنشئة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She had a happy upbringing in a small village."
+   },
+   {
+    "word": "unrealistic",
+    "pos": "adjective",
+    "meaning_en": "not sensible; not likely to happen",
+    "meaning_ar": "غير واقعي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's unrealistic to learn a language in one week."
+   },
+   {
+    "word": "fuss",
+    "pos": "noun",
+    "meaning_en": "unnecessary worry or excitement about something small",
+    "meaning_ar": "ضجّة، جلبة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please don't make a fuss about it."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "let sleeping dogs lie vs barking up the wrong tree",
+    "words": [
+     "let sleeping dogs lie",
+     "barking up the wrong tree"
+    ],
+    "explanation_ar": "الاثنان فيهما كلاب لكن معناهما مختلف: let sleeping dogs lie = لا تُثِر مشكلة قديمة واتركها كما هي. barking up the wrong tree = أنت مخطئ في افتراضك أو تلوم الشخص الخطأ.",
+    "explanation_en": "Both have dogs, but different meanings. 'Let sleeping dogs lie' = don't restart an old problem. 'Barking up the wrong tree' = you have the wrong idea or are blaming the wrong person.",
+    "examples": [
+     {
+      "word": "let sleeping dogs lie",
+      "sentence": "They've stopped arguing – let sleeping dogs lie."
+     },
+     {
+      "word": "barking up the wrong tree",
+      "sentence": "If you think I broke it, you're barking up the wrong tree."
+     }
+    ]
+   },
+   {
+    "title": "peacocking vs sadfishing",
+    "words": [
+     "peacocking",
+     "sadfishing"
+    ],
+    "explanation_ar": "كلاهما لجذب الانتباه: peacocking = التباهي بالملابس اللافتة أو السلوك الصاخب كي يُعجَب بك الناس. sadfishing = نشر مشاعر حزينة مبالغ فيها على الإنترنت لكسب التعاطف.",
+    "explanation_en": "Both are about getting attention. 'Peacocking' is showing off with bright clothes or loud behaviour. 'Sadfishing' is posting exaggerated sad feelings online to get sympathy.",
+    "examples": [
+     {
+      "word": "peacocking",
+      "sentence": "He wore a gold suit to the office – that's peacocking!"
+     },
+     {
+      "word": "sadfishing",
+      "sentence": "She posted 'Nobody cares about me' to get likes – classic sadfishing."
+     }
+    ]
+   },
+   {
+    "title": "rat race vs tiger mother",
+    "words": [
+     "rat race",
+     "tiger mother"
+    ],
+    "explanation_ar": "rat race: نمط حياة العمل الشاق والتنافس على المال والترقية. tiger mother: أمّ صارمة جداً تدفع أطفالها بقوة للنجاح الدراسي.",
+    "explanation_en": "The 'rat race' is a busy, competitive working life focused on money and promotion. A 'tiger mother' is a very strict mother who pushes her children to succeed at school.",
+    "examples": [
+     {
+      "word": "rat race",
+      "sentence": "He left the rat race and moved to the countryside."
+     },
+     {
+      "word": "tiger mother",
+      "sentence": "My tiger mother made me study every evening."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "let sleeping dogs lie",
+    "meaning_ar": "لا تُثِر مشكلة قديمة؛ اترك الأمور كما هي",
+    "meaning_en": "to leave a situation as it is, to avoid restarting an old problem",
+    "example": "I wanted to ask about the old argument, but I decided to let sleeping dogs lie."
+   },
+   {
+    "phrase": "the rat race",
+    "meaning_ar": "حياة العمل المرهقة والتنافس على المال والترقيات",
+    "meaning_en": "a busy, competitive way of life where people work hard for money and success",
+    "example": "Many people dream of escaping the rat race."
+   },
+   {
+    "phrase": "peacocking",
+    "meaning_ar": "التباهي بالملابس اللافتة أو السلوك لجذب الإعجاب",
+    "meaning_en": "showing off with your clothes or behaviour to get attention",
+    "example": "Stop peacocking in your new shoes and help me carry these bags!"
+   },
+   {
+    "phrase": "sheeple",
+    "meaning_ar": "أناس يتبعون الآخرين دون تفكير، كالقطيع (كلمة غير مهذبة)",
+    "meaning_en": "people who follow the crowd without thinking for themselves (rude)",
+    "example": "He calls people who buy every new phone 'sheeple'."
+   },
+   {
+    "phrase": "barking up the wrong tree",
+    "meaning_ar": "مخطئ في افتراضه أو يلوم الشخص الخطأ",
+    "meaning_en": "to have the wrong idea or blame the wrong person",
+    "example": "If you think I took your pen, you're barking up the wrong tree."
+   },
+   {
+    "phrase": "a sting in the tail",
+    "meaning_ar": "مفاجأة سيئة في نهاية شيء جيد",
+    "meaning_en": "an unpleasant surprise at the end of something",
+    "example": "The holiday was great, but there was a sting in the tail – our flight home was cancelled."
+   },
+   {
+    "phrase": "sadfishing",
+    "meaning_ar": "نشر مشاعر حزينة مبالغ فيها على الإنترنت لطلب التعاطف والانتباه",
+    "meaning_en": "posting exaggerated sad feelings online to get attention or sympathy",
+    "example": "Some people think his sad posts are just sadfishing."
+   },
+   {
+    "phrase": "GOAT",
+    "meaning_ar": "الأفضل على الإطلاق (اختصار greatest of all time)",
+    "meaning_en": "short for 'greatest of all time'",
+    "example": "Many fans say he is the GOAT of tennis."
+   },
+   {
+    "phrase": "(living in) cloud cuckoo land",
+    "meaning_ar": "يعيش في الأوهام؛ يظن المستحيل ممكناً",
+    "meaning_en": "to believe something impossible or unrealistic",
+    "example": "If he thinks he can finish the project in one day, he's living in cloud cuckoo land."
+   },
+   {
+    "phrase": "tiger mother",
+    "meaning_ar": "أمّ صارمة جداً تدفع أطفالها للنجاح",
+    "meaning_en": "a very strict mother who pushes her children to succeed",
+    "example": "Her tiger mother made her do extra maths every day."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Blended words: sheep + people = sheeple",
+    "explanation_ar": "بعض الكلمات الجديدة تُصنع بدمج كلمتين: sheep + people = sheeple، sad + catfishing → sadfishing. ونحوِّل الاسم إلى فعل بإضافة ing: peacock → peacocking (يتصرف كالطاووس). وGOAT اختصار من الحروف الأولى: Greatest Of All Time.",
+    "explanation_en": "Some new words join two words: sheep + people = sheeple. We can make a noun into an action with -ing: peacock → peacocking. GOAT is an acronym from first letters: Greatest Of All Time.",
+    "examples": [
+     "sheep + people → sheeple",
+     "peacock → peacocking",
+     "Greatest Of All Time → GOAT"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "What does 'GOAT' mean?",
+   "choices": [
+    "a stubborn person",
+    "greatest of all time",
+    "a farm worker",
+    "a good old athlete"
+   ],
+   "answer": 1,
+   "explanation_ar": "GOAT اختصار لعبارة greatest of all time أي الأفضل على الإطلاق.",
+   "explanation_en": "GOAT stands for 'greatest of all time'."
+  },
+  {
+   "question": "'If you think I told the boss, you're barking up the wrong tree.' The speaker means...",
+   "choices": [
+    "You are wrong about me.",
+    "You are too loud.",
+    "You should climb a tree.",
+    "You are right."
+   ],
+   "answer": 0,
+   "explanation_ar": "barking up the wrong tree = مخطئ في افتراضك.",
+   "explanation_en": "It means you are wrong / blaming the wrong person."
+  },
+  {
+   "question": "He left his stressful city job to escape the ___.",
+   "choices": [
+    "sting in the tail",
+    "tiger mother",
+    "rat race",
+    "GOAT"
+   ],
+   "answer": 2,
+   "explanation_ar": "rat race = حياة العمل التنافسية المرهقة.",
+   "explanation_en": "The 'rat race' is a stressful, competitive working life."
+  },
+  {
+   "question": "Which word describes people who copy the crowd without thinking?",
+   "choices": [
+    "peacocking",
+    "sadfishing",
+    "cuckoo",
+    "sheeple"
+   ],
+   "answer": 3,
+   "explanation_ar": "sheeple = أناس يتبعون القطيع.",
+   "explanation_en": "'Sheeple' are people who follow the crowd."
+  },
+  {
+   "question": "The film was happy until the end, when there was a ___.",
+   "choices": [
+    "sting in the tail",
+    "rat race",
+    "GOAT",
+    "sleeping dog"
+   ],
+   "answer": 0,
+   "explanation_ar": "a sting in the tail = مفاجأة سيئة في النهاية.",
+   "explanation_en": "'A sting in the tail' is a bad surprise at the end."
+  },
+  {
+   "question": "The argument finished last year. It's best to ___.",
+   "choices": [
+    "bark up the wrong tree",
+    "let sleeping dogs lie",
+    "live in cloud cuckoo land",
+    "go peacocking"
+   ],
+   "answer": 1,
+   "explanation_ar": "let sleeping dogs lie = لا تثر مشكلة قديمة.",
+   "explanation_en": "'Let sleeping dogs lie' means don't restart an old problem."
+  },
+  {
+   "question": "Posting 'I'm so sad, nobody loves me' to get attention is called ___.",
+   "choices": [
+    "peacocking",
+    "the rat race",
+    "sadfishing",
+    "cloud cuckoo land"
+   ],
+   "answer": 2,
+   "explanation_ar": "sadfishing = نشر الحزن المبالغ فيه لكسب التعاطف.",
+   "explanation_en": "'Sadfishing' is posting exaggerated sadness for attention."
+  },
+  {
+   "question": "'He thinks he'll be a millionaire next week? He's living in ___!'",
+   "choices": [
+    "the rat race",
+    "a tiger mother",
+    "a dog's tree",
+    "cloud cuckoo land"
+   ],
+   "answer": 3,
+   "explanation_ar": "cloud cuckoo land = يعيش في الأوهام.",
+   "explanation_en": "'Cloud cuckoo land' means believing something impossible."
+  },
+  {
+   "question": "Which word is the correct plural? 'There are ten ___ in the field.'",
+   "choices": [
+    "sheep",
+    "sheeps",
+    "sheepes",
+    "sheeple"
+   ],
+   "answer": 0,
+   "explanation_ar": "جمع sheep هو sheep.",
+   "explanation_en": "The plural of 'sheep' is 'sheep'."
+  },
+  {
+   "question": "Wearing a very bright suit to get attention at a party is ___.",
+   "choices": [
+    "sadfishing",
+    "peacocking",
+    "barking",
+    "a sting"
+   ],
+   "answer": 1,
+   "explanation_ar": "peacocking = التباهي لجذب الانتباه.",
+   "explanation_en": "'Peacocking' is showing off to get attention."
+  }
+ ]
+}

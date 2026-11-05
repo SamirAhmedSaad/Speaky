@@ -1,0 +1,498 @@
+{
+ "title": "How Can I Help?",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "fix",
+    "pos": "verb",
+    "meaning_en": "to repair something that is broken",
+    "meaning_ar": "يصلح",
+    "note_ar": "بمعنى repair.",
+    "note_en": "Same as \"repair\".",
+    "example": "My father can fix the kitchen door."
+   },
+   {
+    "word": "spark plug",
+    "pos": "noun",
+    "meaning_en": "a small part of a car engine that makes a spark to start it",
+    "meaning_ar": "شمعة الاحتراق (البوجيه)",
+    "note_ar": "تأتي غالباً بالجمع: spark plugs.",
+    "note_en": "Usually plural: spark plugs.",
+    "example": "The mechanic changed the spark plugs."
+   },
+   {
+    "word": "engine",
+    "pos": "noun",
+    "meaning_en": "the machine that makes a car move",
+    "meaning_ar": "محرك",
+    "note_ar": "تُنطق /ˈen.dʒɪn/",
+    "note_en": "Say /ˈen.dʒɪn/.",
+    "example": "The engine is under the front of the car."
+   },
+   {
+    "word": "extra",
+    "pos": "adjective",
+    "meaning_en": "more than you need; additional",
+    "meaning_ar": "إضافي، زائد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I always carry an extra pen."
+   },
+   {
+    "word": "online",
+    "pos": "adjective",
+    "meaning_en": "on the internet",
+    "meaning_ar": "عبر الإنترنت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She is taking an online English class."
+   },
+   {
+    "word": "video course",
+    "pos": "noun",
+    "meaning_en": "a set of lessons you watch as videos",
+    "meaning_ar": "دورة بالفيديو",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I learned to cook from a video course."
+   },
+   {
+    "word": "course",
+    "pos": "noun",
+    "meaning_en": "a series of lessons about one subject",
+    "meaning_ar": "دورة، مقرر دراسي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He finished a computer course last year."
+   },
+   {
+    "word": "lesson",
+    "pos": "noun",
+    "meaning_en": "one part of a course; a time when you learn something",
+    "meaning_ar": "درس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Lesson 11 is about gas."
+   },
+   {
+    "word": "tool",
+    "pos": "noun",
+    "meaning_en": "a thing you hold in your hand to do work, like a hammer",
+    "meaning_ar": "أداة",
+    "note_ar": "مجموعة الأدوات = toolbox / toolkit.",
+    "note_en": "A set of tools = a toolbox / toolkit.",
+    "example": "Put the tools back in the box."
+   },
+   {
+    "word": "in a flash",
+    "pos": "phrase",
+    "meaning_en": "very quickly",
+    "meaning_ar": "في لمح البصر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Wait here. I'll be back in a flash."
+   },
+   {
+    "word": "teenager",
+    "pos": "noun",
+    "meaning_en": "a person between 13 and 19 years old",
+    "meaning_ar": "مراهق",
+    "note_ar": "من الأعداد thirteen إلى nineteen التي تنتهي بـ teen.",
+    "note_en": "From the numbers thirTEEN to nineTEEN.",
+    "example": "When I was a teenager, I played football every day."
+   },
+   {
+    "word": "master",
+    "pos": "noun",
+    "meaning_en": "a person who is very good at something and can teach it",
+    "meaning_ar": "معلّم ماهر، أستاذ في حرفة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He learned to make bread from a master baker."
+   },
+   {
+    "word": "trust",
+    "pos": "verb",
+    "meaning_en": "to believe that someone is honest and good",
+    "meaning_ar": "يثق بـ",
+    "note_ar": "بدون حرف جر: trust someone (وليس trust to someone).",
+    "note_en": "No preposition: trust someone (not trust to someone).",
+    "example": "You can trust me. I will help you."
+   },
+   {
+    "word": "teamwork",
+    "pos": "noun",
+    "meaning_en": "people working together",
+    "meaning_ar": "العمل الجماعي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We finished the project with good teamwork."
+   },
+   {
+    "word": "start",
+    "pos": "verb",
+    "meaning_en": "to make a machine begin to work",
+    "meaning_ar": "يشغّل (محرك)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Start the engine when I say go."
+   },
+   {
+    "word": "tire",
+    "pos": "noun",
+    "meaning_en": "the rubber ring around a car wheel",
+    "meaning_ar": "إطار السيارة",
+    "note_ar": "الأمريكية: tire، والبريطانية: tyre.",
+    "note_en": "US: tire / UK: tyre.",
+    "example": "One of my tires is flat."
+   },
+   {
+    "word": "kick",
+    "pos": "verb",
+    "meaning_en": "to hit something with your foot",
+    "meaning_ar": "يركل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't kick the door!"
+   },
+   {
+    "word": "key",
+    "pos": "noun",
+    "meaning_en": "a small metal thing that opens a lock or starts a car",
+    "meaning_ar": "مفتاح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can't find my car keys."
+   },
+   {
+    "word": "ignition",
+    "pos": "noun",
+    "meaning_en": "the place where you put the key to start a car",
+    "meaning_ar": "مفتاح الإشعال (المكان الذي نضع فيه المفتاح لتشغيل السيارة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Put the key in the ignition and turn it."
+   },
+   {
+    "word": "turn",
+    "pos": "verb",
+    "meaning_en": "to move something around in a circle",
+    "meaning_ar": "يدير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Turn the key to the right."
+   },
+   {
+    "word": "gas",
+    "pos": "noun",
+    "meaning_en": "fuel for a car (gasoline)",
+    "meaning_ar": "وقود، بنزين",
+    "note_ar": "الأمريكية: gas، والبريطانية: petrol.",
+    "note_en": "US: gas / UK: petrol.",
+    "example": "We need to buy gas before the trip."
+   },
+   {
+    "word": "tank",
+    "pos": "noun",
+    "meaning_en": "a container for gas or water",
+    "meaning_ar": "خزان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The tank is empty."
+   },
+   {
+    "word": "gauge",
+    "pos": "noun",
+    "meaning_en": "a tool that shows how much of something there is",
+    "meaning_ar": "عدّاد، مؤشر",
+    "note_ar": "تُنطق /ɡeɪdʒ/ مثل page",
+    "note_en": "Say /ɡeɪdʒ/, like \"page\".",
+    "example": "The gas gauge shows the tank is almost empty."
+   },
+   {
+    "word": "relax",
+    "pos": "verb",
+    "meaning_en": "to rest and stop worrying",
+    "meaning_ar": "يرتاح، يسترخي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sit down and relax. I'll make tea."
+   },
+   {
+    "word": "stupid",
+    "pos": "adjective",
+    "meaning_en": "not smart (not polite to say about people)",
+    "meaning_ar": "غبي",
+    "note_ar": "كلمة غير مهذبة إذا قيلت عن شخص",
+    "note_en": "Not polite when you say it about a person.",
+    "example": "It was a stupid mistake."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "myself vs by myself",
+    "words": [
+     "myself",
+     "by myself"
+    ],
+    "explanation_ar": "myself وحدها تعني «أنا بنفسي» وتؤكد من قام بالفعل: I can fix it myself. أما by myself فتعني «وحدي، بدون مساعدة أحد أو بدون صحبة». في هذا الدرس المعنيان متقاربان، لكن by myself أوضح في معنى «بدون مساعدة».",
+    "explanation_en": "\"Myself\" alone stresses who does the action: I can fix it myself. \"By myself\" means alone, with no help or no company. In this lesson the meanings are close, but \"by myself\" clearly means \"without help\".",
+    "examples": [
+     {
+      "word": "myself",
+      "sentence": "I made this cake myself."
+     },
+     {
+      "word": "by myself",
+      "sentence": "I live by myself."
+     },
+     {
+      "word": "by myself",
+      "sentence": "He carried the box by himself."
+     }
+    ]
+   },
+   {
+    "title": "help vs helping",
+    "words": [
+     "help",
+     "helping"
+    ],
+    "explanation_ar": "بعد can وwill وmust نستخدم الفعل الأساسي: I can help. بعد like وenjoy وstop نستخدم الفعل + ing: I like helping.",
+    "explanation_en": "After can, will and must, use the base verb: I can help. After like, enjoy and stop, use verb + ing: I like helping.",
+    "examples": [
+     {
+      "word": "help",
+      "sentence": "I can help you with your homework."
+     },
+     {
+      "word": "helping",
+      "sentence": "She likes helping her grandmother."
+     }
+    ]
+   },
+   {
+    "title": "out of gas vs out of time",
+    "words": [
+     "out of gas",
+     "out of"
+    ],
+    "explanation_ar": "out of + اسم = «نفد منه الشيء». You are out of gas = نفد منك البنزين. ويمكن استخدامها مع أشياء كثيرة: out of milk, out of time.",
+    "explanation_en": "Out of + noun means you have none left. \"You are out of gas\" = your car has no gas. You can use it with many things: out of milk, out of time.",
+    "examples": [
+     {
+      "word": "out of gas",
+      "sentence": "We can't drive. We're out of gas."
+     },
+     {
+      "word": "out of",
+      "sentence": "Sorry, we are out of bread today."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "How can I help?",
+    "meaning_ar": "كيف يمكنني المساعدة؟",
+    "meaning_en": "a polite way to offer help",
+    "example": "You look lost. How can I help?"
+   },
+   {
+    "phrase": "How's it going?",
+    "meaning_ar": "كيف تسير الأمور؟",
+    "meaning_en": "how is your work or day going",
+    "example": "How's it going with your new job?"
+   },
+   {
+    "phrase": "I can fix it myself.",
+    "meaning_ar": "أستطيع إصلاحه بنفسي.",
+    "meaning_en": "I don't need help; I can do it alone",
+    "example": "Thanks, but I can fix it myself."
+   },
+   {
+    "phrase": "I'll be back in a flash!",
+    "meaning_ar": "سأعود في لمح البصر!",
+    "meaning_en": "I will come back very quickly",
+    "example": "I'm going to the shop. I'll be back in a flash!"
+   },
+   {
+    "phrase": "You can trust me.",
+    "meaning_ar": "يمكنك أن تثق بي.",
+    "meaning_en": "believe me; I know what I am doing",
+    "example": "Don't worry. You can trust me."
+   },
+   {
+    "phrase": "What's wrong?",
+    "meaning_ar": "ما المشكلة؟",
+    "meaning_en": "asking what the problem is",
+    "example": "You look sad. What's wrong?"
+   },
+   {
+    "phrase": "Pull yourself together.",
+    "meaning_ar": "تمالك نفسك، اهدأ.",
+    "meaning_en": "calm down and control your feelings",
+    "example": "Pull yourself together. We can fix this."
+   },
+   {
+    "phrase": "You are out of gas.",
+    "meaning_ar": "نفد منك البنزين.",
+    "meaning_en": "your car has no gas left",
+    "example": "The car stopped because we were out of gas."
+   },
+   {
+    "phrase": "Until next time …",
+    "meaning_ar": "إلى اللقاء في المرة القادمة…",
+    "meaning_en": "goodbye until we meet again",
+    "example": "That's all for today. Until next time!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Reflexive pronouns: myself, yourself, himself …",
+    "explanation_ar": "الضمائر الانعكاسية تنتهي بـ self (مفرد) أو selves (جمع): myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.\n1) نستخدمها عندما يكون الفاعل والمفعول نفس الشخص: Clean yourself up.\n2) ونستخدمها للتأكيد بمعنى «بنفسي/بنفسك»: I can fix it myself. Can you fix a car yourself?\n3) Pull yourself together تعبير ثابت بمعنى «تمالك نفسك».",
+    "explanation_en": "Reflexive pronouns end in -self (singular) or -selves (plural): myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.\n1) Use them when the subject and the object are the same person: Clean yourself up.\n2) Use them to stress that a person does something without help: I can fix it myself. Can you fix a car yourself?\n3) \"Pull yourself together\" is a fixed expression meaning \"calm down\".",
+    "examples": [
+     "I can fix it myself.",
+     "Can you fix a car yourself?",
+     "She taught herself English.",
+     "We painted the room ourselves.",
+     "They made dinner themselves."
+    ]
+   },
+   {
+    "title": "Past continuous: was/were + verb-ing",
+    "explanation_ar": "نستخدم الماضي المستمر لفعل كان مستمرًا في وقت معين في الماضي: was/were + الفعل + ing.\nLast night I was watching an online course. When I was a teenager, I was fixing cars.\nللسؤال: Were you watching TV? للنفي: I wasn't sleeping.",
+    "explanation_en": "Use the past continuous for an action in progress at a time in the past: was/were + verb-ing.\nLast night I was watching an online course. When I was a teenager, I was fixing cars.\nQuestion: Were you watching TV? Negative: I wasn't sleeping.",
+    "examples": [
+     "Last night I was watching a video course.",
+     "When I was a teenager, I was fixing cars.",
+     "I was planning to visit some friends.",
+     "They were playing football at 5 o'clock."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Choose the correct word: \"I can fix it ___.\"",
+   "choices": [
+    "myself",
+    "me",
+    "mine",
+    "my"
+   ],
+   "answer": 0,
+   "explanation_ar": "نستخدم الضمير الانعكاسي myself للتأكيد أنني أفعل الشيء بنفسي.",
+   "explanation_en": "Use the reflexive pronoun \"myself\" to say you do it without help."
+  },
+  {
+   "question": "Choose the correct word: \"Can you fix a car ___?\"",
+   "choices": [
+    "yours",
+    "yourself",
+    "you",
+    "itself"
+   ],
+   "answer": 1,
+   "explanation_ar": "الفاعل you فالضمير الانعكاسي yourself.",
+   "explanation_en": "The subject is \"you\", so the reflexive pronoun is \"yourself\"."
+  },
+  {
+   "question": "Which reflexive pronoun goes with \"they\"?",
+   "choices": [
+    "theirselves",
+    "themself",
+    "himself",
+    "themselves"
+   ],
+   "answer": 3,
+   "explanation_ar": "الضمير الانعكاسي لـ they هو themselves.",
+   "explanation_en": "The reflexive pronoun for \"they\" is \"themselves\"."
+  },
+  {
+   "question": "What does \"in a flash\" mean?",
+   "choices": [
+    "very slowly",
+    "very quickly",
+    "with a light",
+    "at night"
+   ],
+   "answer": 1,
+   "explanation_ar": "in a flash تعني بسرعة كبيرة.",
+   "explanation_en": "\"In a flash\" means very quickly."
+  },
+  {
+   "question": "What starts a car engine?",
+   "choices": [
+    "a tire",
+    "a tank",
+    "a spark plug",
+    "a gauge"
+   ],
+   "answer": 2,
+   "explanation_ar": "شمعة الاحتراق spark plug تشعل المحرك.",
+   "explanation_en": "Spark plugs start the engine."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "Last night I was watch a video.",
+    "Last night I watching a video.",
+    "Last night I were watching a video.",
+    "Last night I was watching a video."
+   ],
+   "answer": 3,
+   "explanation_ar": "الماضي المستمر: I was + الفعل + ing.",
+   "explanation_en": "Past continuous: I was + verb-ing."
+  },
+  {
+   "question": "\"You are out of gas.\" This means …",
+   "choices": [
+    "the car has no gas left",
+    "the car has a lot of gas",
+    "the gas is outside",
+    "you must go outside"
+   ],
+   "answer": 0,
+   "explanation_ar": "out of gas = نفد البنزين.",
+   "explanation_en": "\"Out of gas\" means there is no gas left."
+  },
+  {
+   "question": "Someone is very upset. What can you say?",
+   "choices": [
+    "Pull yourself together.",
+    "Pull your together.",
+    "Pull you together.",
+    "Pull himself together."
+   ],
+   "answer": 0,
+   "explanation_ar": "عندما نخاطب شخصًا واحدًا نقول: Pull yourself together.",
+   "explanation_en": "When you talk to one person, say \"Pull yourself together.\""
+  },
+  {
+   "question": "Complete: \"I like ___ people.\"",
+   "choices": [
+    "help",
+    "to helped",
+    "helping",
+    "helps"
+   ],
+   "answer": 2,
+   "explanation_ar": "بعد like نستخدم الفعل + ing: I like helping.",
+   "explanation_en": "After \"like\" we can use verb + ing: I like helping."
+  },
+  {
+   "question": "A person between 13 and 19 years old is a …",
+   "choices": [
+    "master",
+    "teenager",
+    "tourist",
+    "teacher"
+   ],
+   "answer": 1,
+   "explanation_ar": "teenager هو من عمره بين 13 و19 سنة.",
+   "explanation_en": "A teenager is 13 to 19 years old."
+  }
+ ]
+}

@@ -1,5 +1,11 @@
 package com.speakmind.app.feature.community.ui.room
 
+import com.speakmind.app.premium.Paywall
+import com.speakmind.app.feature.community.data.repository.AiCorrection
+import com.speakmind.app.feature.community.data.repository.BlockedException
+import com.speakmind.app.premium.Premium
+import com.speakmind.app.feature.community.ui.components.freeMessagesPaywall
+import com.speakmind.app.feature.community.ui.components.openPrivateChat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.feature.community.data.ActiveRoomTracker
@@ -35,6 +41,8 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
 import kotlin.uuid.ExperimentalUuidApi
@@ -53,7 +61,6 @@ data class RoomChatUiState(
     val onlineCount: Int = 0,
     val typingText: String? = null,
     val messages: List<RoomMessage> = emptyList(),
-    val inputText: String = "",
     val currentUserId: String = "",
     val isGuest: Boolean = false,
     val isSigningIn: Boolean = false,
@@ -84,11 +91,16 @@ data class RoomChatUiState(
     val deleteTarget: RoomMessage? = null,
     val error: String? = null,
     val info: String? = null,
+    /** AI is fixing / translating the message being typed. */
+    val isCorrecting: Boolean = false,
+    /** What the user typed before the AI fixed it, for Undo; null when nothing was fixed. */
+    val correctionOriginal: String? = null,
     val blockedUserIds: Set<String> = emptySet(),
     val onlineUserIds: Set<String> = emptySet(),
     /** Private chat only: either side has blocked the other. */
     val isDirectBlocked: Boolean = false,
     val reportTarget: ReportTarget? = null,
+    val confirmDeleteChat: Boolean = false,
     val blockTarget: ReportTarget? = null,
 ) {
     /** Visitors who aren't signed in with Google can only read. */
@@ -111,6 +123,11 @@ data class RoomChatUiState(
         }?.id
 }
 
+/** Opens a private chat with [userId]; the chat itself is created only with the first message. */
+fun draftDirectRoomId(userId: String) = DRAFT_DM_PREFIX + userId
+
+private const val DRAFT_DM_PREFIX = "dm:"
+
 data class ReportTarget(
     val userId: String,
     val nickname: String,
@@ -119,7 +136,7 @@ data class ReportTarget(
 
 @OptIn(ExperimentalUuidApi::class)
 class RoomChatViewModel(
-    private val roomId: String,
+    initialRoomId: String,
     initialTitle: String,
     private val repository: CommunityRepository,
     private val navigationManager: NavigationManager,
@@ -129,13 +146,23 @@ class RoomChatViewModel(
 
     private val _uiState = MutableStateFlow(
         RoomChatUiState(
-            roomId = roomId,
+            roomId = initialRoomId,
             title = initialTitle,
             currentUserId = repository.currentUserId() ?: "",
             isGuest = repository.isGuest(),
         )
     )
     val uiState: StateFlow<RoomChatUiState> = _uiState.asStateFlow()
+
+    /** The message being typed: its own flow, so a keystroke doesn't redraw the whole chat. */
+    private val _input = MutableStateFlow("")
+    val input: StateFlow<String> = _input.asStateFlow()
+
+    private var roomId: String = initialRoomId
+
+    /** Set while this is a private chat that doesn't exist yet (nothing has been sent). */
+    private var draftOtherUserId: String? = initialRoomId.removePrefix(DRAFT_DM_PREFIX).takeIf { initialRoomId.startsWith(DRAFT_DM_PREFIX) }
+    private val createRoomLock = Mutex()
 
     private var connection: RoomConnection? = null
     private var memberIds: Set<String> = emptySet()
@@ -155,7 +182,64 @@ class RoomChatViewModel(
             _uiState.update {
                 it.copy(currentUserId = repository.currentUserId() ?: "", isGuest = repository.isGuest(), authReady = true)
             }
+            val draftUser = draftOtherUserId
+            if (draftUser != null) openDraft(draftUser) else startSession()
+        }
+    }
+
+    /** Uses our existing chat with this person, or shows an empty one that isn't saved until the first message. */
+    private suspend fun openDraft(otherUserId: String) {
+        val existing = try { repository.findDirectChat(otherUserId) } catch (e: Exception) {
+            Napier.w("findDirectChat failed", e)
+            null
+        }
+        if (existing != null) {
+            useRoom(existing)
+            loadCached()
             startSession()
+            return
+        }
+        val other = try { repository.getUser(otherUserId) } catch (_: Exception) { null }
+        _uiState.update {
+            it.copy(
+                kind = RoomKind.DIRECT,
+                otherUser = other,
+                title = other?.nickname?.ifEmpty { null } ?: it.title,
+                isInitialLoading = false,
+                hasMore = false,
+            )
+        }
+        observeOnline()
+        observePlayback()
+        observeBlocks()
+        checkBan()
+        refreshDirectBlock()
+    }
+
+    private fun useRoom(id: String) {
+        val old = roomId
+        roomId = id
+        draftOtherUserId = null
+        _uiState.update { s -> s.copy(roomId = id, messages = s.messages.map { if (it.roomId == old) it.copy(roomId = id) else it }) }
+        if (ActiveRoomTracker.activeRoomId.value == old) ActiveRoomTracker.activeRoomId.value = id
+    }
+
+    /** A draft private chat becomes a real one right before its first message is sent. */
+    private suspend fun ensureRoomCreated(): Boolean = createRoomLock.withLock {
+        val otherUserId = draftOtherUserId ?: return@withLock true
+        try {
+            useRoom(repository.openDirectChat(otherUserId))
+            loadRoom()
+            connectRealtime()
+            true
+        } catch (e: BlockedException) {
+            val name = _uiState.value.otherUser?.nickname ?: "this person"
+            _uiState.update { it.copy(error = "You can't message $name.", isDirectBlocked = true) }
+            false
+        } catch (e: Exception) {
+            Napier.w("openDirectChat failed", e)
+            _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't open the chat.")) }
+            false
         }
     }
 
@@ -358,6 +442,7 @@ class RoomChatViewModel(
 
     /** Also for Speaky Hub: reading it re-arms its "one notification until you open the Hub" alert. */
     private fun scheduleMarkRead() {
+        if (draftOtherUserId != null) return
         markReadJob?.cancel()
         markReadJob = viewModelScope.launch {
             delay(800)
@@ -368,7 +453,9 @@ class RoomChatViewModel(
     // ---------- Text ----------
 
     fun onInputChanged(text: String) {
-        _uiState.update { it.copy(inputText = text) }
+        // Editing by hand after an AI fix: Undo would bring back old text over the new, so drop it.
+        _input.value = text
+        if (_uiState.value.correctionOriginal != null) _uiState.update { it.copy(correctionOriginal = null) }
         if (_uiState.value.editingMessage != null) return
         if (text.isBlank()) {
             sendTyping(false)
@@ -397,7 +484,8 @@ class RoomChatViewModel(
 
     fun onSendClicked() {
         val state = _uiState.value
-        val text = state.inputText.trim()
+        val typed = _input.value
+        val text = typed.trim()
         if (text.isEmpty() || !state.canPost) return
         val moderation = ContentModerator.check(text)
         if (!moderation.isAllowed) {
@@ -414,15 +502,21 @@ class RoomChatViewModel(
             submitEdit(editing, text)
             return
         }
+        // Shown at once; the quota and first-message checks run after, and undo it if they say no.
+        val replyTo = state.replyingTo
+        val pending = pendingMessage(MessageKind.TEXT, text = text).copy(
+            replyTo = replyTo?.let { ReplyPreview(it.id, it.senderNickname, it.text, it.kind == MessageKind.VOICE) },
+        )
+        _input.value = ""
+        _uiState.update { it.copy(replyingTo = null, correctionOriginal = null, messages = it.messages + pending) }
+        sendTyping(false)
         viewModelScope.launch {
-            if (!checkQuota()) return@launch
-            sendTyping(false)
-            val replyTo = _uiState.value.replyingTo
-            val pending = pendingMessage(MessageKind.TEXT, text = text).copy(
-                replyTo = replyTo?.let { ReplyPreview(it.id, it.senderNickname, it.text, it.kind == MessageKind.VOICE) },
-            )
-            _uiState.update { it.copy(inputText = "", replyingTo = null, messages = it.messages + pending) }
-            sendPendingText(pending)
+            if (!checkQuota() || !ensureRoomCreated()) {
+                _uiState.update { s -> s.copy(messages = s.messages.filterNot { it.id == pending.id }, replyingTo = replyTo) }
+                if (_input.value.isEmpty()) _input.value = typed
+                return@launch
+            }
+            sendPendingText(pending.copy(roomId = roomId))
         }
     }
 
@@ -461,13 +555,90 @@ class RoomChatViewModel(
 
     /** The public Speaky Hub has a daily limit (also enforced on the server). */
     private suspend fun checkQuota(): Boolean {
+        if (_uiState.value.kind == RoomKind.DIRECT) return useFreePrivateMessage()
         if (_uiState.value.kind != RoomKind.CHANNEL) return true
         val allowed = repository.checkAndIncrementDailyQuota()
         if (!allowed) _uiState.update { it.copy(dailyLimitReached = true) }
         return allowed
     }
 
+    /** ✨: AI fixes the English, or translates the message to English; Undo restores what was typed. */
+    fun onFixClicked() {
+        val state = _uiState.value
+        val text = _input.value.trim()
+        if (text.isEmpty() || state.isCorrecting) return
+        _uiState.update { it.copy(isCorrecting = true) }
+        viewModelScope.launch {
+            val result = repository.correctMessage(text, Premium.active.value)
+            _uiState.update { it.copy(isCorrecting = false) }
+            when (result) {
+                // Typed more meanwhile: keep that instead of overwriting it.
+                is AiCorrection.Fixed -> if (_input.value.trim() == text) {
+                    _input.value = result.text
+                    _uiState.update {
+                        it.copy(
+                            correctionOriginal = if (result.text == text) null else text,
+                            info = if (result.text == text) "✨ Looks good, no changes needed" else null,
+                        )
+                    }
+                }
+                is AiCorrection.LimitReached -> Premium.showPaywall(
+                    Paywall(
+                        title = "Your free AI corrections are used up",
+                        message = "You get ${result.limit} free AI corrections every 24 hours. Subscribe to fix and " +
+                            "translate all your messages, or come back when the timer ends.",
+                        waitMs = result.waitMs,
+                        freeThing = "free corrections",
+                        emoji = "✨",
+                        onUnlocked = ::onFixClicked,
+                    ),
+                )
+                is AiCorrection.TooLong -> _uiState.update {
+                    it.copy(info = "AI can fix up to ${result.maxChars} characters. Please shorten your message.")
+                }
+                // Main and fallback AI both out of quota or busy: offer Premium straight away, even on a first try.
+                AiCorrection.OutOfQuota -> if (Premium.active.value) {
+                    _uiState.update { it.copy(info = "AI is busy right now. Please try again in a moment.") }
+                } else {
+                    Premium.showPaywall(
+                        Paywall(
+                            title = "AI corrections",
+                            message = "Free AI corrections are busy right now. Subscribe to Speaky Premium to fix " +
+                                "and translate your messages any time.",
+                            emoji = "✨",
+                            onUnlocked = ::onFixClicked,
+                        ),
+                    )
+                }
+                AiCorrection.Failed -> _uiState.update {
+                    it.copy(info = "AI is busy right now. Please try again in a moment.")
+                }
+            }
+        }
+    }
+
+    fun onUndoFix() {
+        val original = _uiState.value.correctionOriginal ?: return
+        _input.value = original
+        _uiState.update { it.copy(correctionOriginal = null) }
+    }
+
+    /** Free users: one of their daily free private messages, or the subscribe screen when none are left. */
+    private suspend fun useFreePrivateMessage(): Boolean {
+        if (Premium.active.value) return true
+        // Offline or unknown: let it through rather than block a paying-to-be user on a network hiccup.
+        val free = repository.freePrivateMessages() ?: return true
+        if (free.left <= 0) {
+            Premium.showPaywall(freeMessagesPaywall("Your free messages are used up", free) {})
+            return false
+        }
+        return true
+    }
+
     // ---------- Replies, reactions, profiles ----------
+
+    /** A quoted message was tapped but it was deleted, or is older than the history we can load. */
+    fun onReplyNotFound() = _uiState.update { it.copy(info = "The original message is no longer available.") }
 
     fun onReplyRequested(message: RoomMessage) {
         if (!_uiState.value.canPost) return
@@ -535,13 +706,18 @@ class RoomChatViewModel(
             _uiState.update { it.copy(error = "Messages can only be edited for 24 hours.") }
             return
         }
-        _uiState.update { it.copy(editingMessage = message, replyingTo = null, inputText = message.text) }
+        _input.value = message.text
+        _uiState.update { it.copy(editingMessage = message, replyingTo = null) }
     }
 
-    fun onCancelEdit() = _uiState.update { it.copy(editingMessage = null, inputText = "") }
+    fun onCancelEdit() {
+        _input.value = ""
+        _uiState.update { it.copy(editingMessage = null) }
+    }
 
     private fun submitEdit(original: RoomMessage, newText: String) {
-        _uiState.update { it.copy(editingMessage = null, inputText = "") }
+        _input.value = ""
+        _uiState.update { it.copy(editingMessage = null) }
         if (newText == original.text) return
         replaceMessage(original.copy(text = newText, isEdited = true))
         viewModelScope.launch {
@@ -632,7 +808,7 @@ class RoomChatViewModel(
         _uiState.update { it.copy(isRecording = false, recordingElapsedMs = 0L) }
         if (duration < MIN_VOICE_MS || audio.isEmpty()) return
         viewModelScope.launch {
-            if (!checkQuota()) return@launch
+            if (!checkQuota() || !ensureRoomCreated()) return@launch
             val pending = pendingMessage(MessageKind.VOICE, durationMs = duration).copy(voiceWaveform = waveform)
             _uiState.update { it.copy(messages = it.messages + pending) }
             try {
@@ -758,24 +934,43 @@ class RoomChatViewModel(
     }
 
     /** Opens (or starts) a private chat with someone from Speaky Hub. */
+    /** Premium, or free private messages left today. */
+    fun onMessageUserClicked(userId: String, nickname: String) {
+        viewModelScope.launch { repository.openPrivateChat("Message $nickname") { onMessageUser(userId, nickname) } }
+    }
+
     fun onMessageUser(userId: String, nickname: String) {
         if (userId == _uiState.value.currentUserId || userId.isEmpty()) return
         if (_uiState.value.isGuest) {
             _uiState.update { it.copy(error = "Sign in with Google first to send private messages.") }
             return
         }
+        navigationManager.navigate(RoomDestination(draftDirectRoomId(userId), nickname))
+    }
+
+    fun onDeleteChatRequested() = _uiState.update { it.copy(confirmDeleteChat = true) }
+    fun onDeleteChatDismissed() = _uiState.update { it.copy(confirmDeleteChat = false) }
+
+    /** Deletes this private chat for me only, then leaves it. */
+    fun onConfirmDeleteChat() {
+        _uiState.update { it.copy(confirmDeleteChat = false) }
+        if (draftOtherUserId != null) {
+            navigationManager.back()
+            return
+        }
         viewModelScope.launch {
             try {
-                val dm = repository.openDirectChat(userId)
-                navigationManager.navigate(RoomDestination(dm, nickname))
+                repository.clearPrivateChat(roomId)
+                navigationManager.back()
             } catch (e: Exception) {
-                Napier.w("openDirectChat failed", e)
-                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't open the chat.")) }
+                Napier.w("clearPrivateChat failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't delete the chat.")) }
             }
         }
     }
 
     fun onToggleMute() {
+        if (draftOtherUserId != null) return
         val muted = !_uiState.value.muted
         _uiState.update { it.copy(muted = muted) }
         viewModelScope.launch {

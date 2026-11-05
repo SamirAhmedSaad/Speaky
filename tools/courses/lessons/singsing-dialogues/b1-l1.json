@@ -1,0 +1,293 @@
+{
+  "title": "How old are you?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "hi",
+        "pos": "interjection",
+        "meaning_en": "a friendly way to say hello",
+        "meaning_ar": "مرحبًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hi, I'm Sara."
+      },
+      {
+        "word": "I'm",
+        "pos": "phrase",
+        "meaning_en": "short form of \"I am\"",
+        "meaning_ar": "أنا",
+        "note_ar": "I'm = I am",
+        "note_en": "I'm = I am",
+        "example": "I'm seven."
+      },
+      {
+        "word": "how old",
+        "pos": "phrase",
+        "meaning_en": "words we use to ask about age",
+        "meaning_ar": "كم عمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How old is your brother?"
+      },
+      {
+        "word": "one",
+        "pos": "number",
+        "meaning_en": "the number 1",
+        "meaning_ar": "واحد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm one."
+      },
+      {
+        "word": "three",
+        "pos": "number",
+        "meaning_en": "the number 3",
+        "meaning_ar": "ثلاثة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My sister is three."
+      },
+      {
+        "word": "seven",
+        "pos": "number",
+        "meaning_en": "the number 7",
+        "meaning_ar": "سبعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm seven."
+      },
+      {
+        "word": "me too",
+        "pos": "phrase",
+        "meaning_en": "the same is true for me",
+        "meaning_ar": "وأنا أيضًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"I'm seven.\" \"Me too.\""
+      },
+      {
+        "word": "really",
+        "pos": "adverb",
+        "meaning_en": "said when you are surprised",
+        "meaning_ar": "حقًّا؟",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Really? You are one?"
+      },
+      {
+        "word": "wow",
+        "pos": "interjection",
+        "meaning_en": "said when you are surprised or happy",
+        "meaning_ar": "واو! (للتعجب)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wow! You are big!"
+      },
+      {
+        "word": "you",
+        "pos": "pronoun",
+        "meaning_en": "the person you are talking to",
+        "meaning_ar": "أنت / أنتِ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How old are you?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "How old are you? vs How are you?",
+        "words": [
+          "How old are you?",
+          "How are you?"
+        ],
+        "explanation_ar": "How old are you? سؤال عن العمر، والجواب رقم: I'm seven. أما How are you? فسؤال عن الحال، والجواب: I'm fine.",
+        "explanation_en": "\"How old are you?\" asks about age. Answer with a number: I'm seven. \"How are you?\" asks how you feel. Answer: I'm fine.",
+        "examples": [
+          {
+            "word": "How old are you?",
+            "sentence": "How old are you? - I'm seven."
+          },
+          {
+            "word": "How are you?",
+            "sentence": "How are you? - I'm fine, thank you."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Hi, I'm Mimi.",
+        "meaning_ar": "مرحبًا، أنا ميمي.",
+        "meaning_en": "Hello, my name is Mimi.",
+        "example": "Hi, I'm Ali."
+      },
+      {
+        "phrase": "How old are you?",
+        "meaning_ar": "كم عمرك؟",
+        "meaning_en": "What is your age?",
+        "example": "How old are you? - I'm seven."
+      },
+      {
+        "phrase": "I'm seven.",
+        "meaning_ar": "عمري سبع سنوات.",
+        "meaning_en": "My age is seven.",
+        "example": "I'm seven. My brother is three."
+      },
+      {
+        "phrase": "Me too.",
+        "meaning_ar": "وأنا كذلك.",
+        "meaning_en": "The same for me.",
+        "example": "\"I'm one.\" \"Me too.\""
+      },
+      {
+        "phrase": "How about you?",
+        "meaning_ar": "وماذا عنك؟",
+        "meaning_en": "Asking the other person the same question.",
+        "example": "I'm seven. How about you?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Asking about age",
+        "explanation_ar": "نسأل عن العمر بـ How old are you? ونجيب بـ I'm + الرقم. لا نحتاج كلمة years، ويمكن قول I'm seven years old.",
+        "explanation_en": "Ask: How old are you? Answer: I'm + number. You can also say: I'm seven years old.",
+        "examples": [
+          "How old are you? - I'm seven.",
+          "I'm three.",
+          "I'm seven years old."
+        ]
+      },
+      {
+        "title": "I am = I'm",
+        "explanation_ar": "I am تعني «أنا». في الكلام نختصرها إلى I'm.",
+        "explanation_en": "\"I am\" is often short: I'm.",
+        "examples": [
+          "I am Amy. = I'm Amy.",
+          "I'm one."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How old are you? - ___",
+      "choices": [
+        "I'm seven.",
+        "I'm fine.",
+        "I'm Amy.",
+        "Me too."
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن العمر، والجواب رقم.",
+      "explanation_en": "The question is about age, so answer with a number."
+    },
+    {
+      "question": "What does \"How old are you?\" ask about?",
+      "choices": [
+        "your name",
+        "your age",
+        "your home",
+        "your friend"
+      ],
+      "answer": 1,
+      "explanation_ar": "How old سؤال عن العمر.",
+      "explanation_en": "\"How old\" asks about age."
+    },
+    {
+      "question": "\"I'm\" is short for ___.",
+      "choices": [
+        "I is",
+        "I are",
+        "I am",
+        "I have"
+      ],
+      "answer": 2,
+      "explanation_ar": "هذا اختصار: I'm = I am.",
+      "explanation_en": "I'm = I am."
+    },
+    {
+      "question": "\"I'm seven.\" \"___ I'm seven, too.\"",
+      "choices": [
+        "Me too.",
+        "How old?",
+        "Hi.",
+        "Really old."
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول Me too عندما نكون مثل الشخص الآخر.",
+      "explanation_en": "We say \"Me too\" when the same is true for us."
+    },
+    {
+      "question": "Which number is \"three\"?",
+      "choices": [
+        "1",
+        "7",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "explanation_ar": "three = ثلاثة = 3.",
+      "explanation_en": "three = 3."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I seven.",
+        "I'm seven.",
+        "I are seven.",
+        "Me seven."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح I'm seven بفعل to be.",
+      "explanation_en": "We need \"am\": I'm seven."
+    },
+    {
+      "question": "I'm one. How ___ you?",
+      "choices": [
+        "about",
+        "old about",
+        "is",
+        "am"
+      ],
+      "answer": 0,
+      "explanation_ar": "How about you? = وماذا عنك؟",
+      "explanation_en": "\"How about you?\" asks the same question back."
+    },
+    {
+      "question": "Hi, ___ Mimi.",
+      "choices": [
+        "I",
+        "I'm",
+        "my",
+        "me"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقدّم أنفسنا بـ I'm + الاسم.",
+      "explanation_en": "Introduce yourself with I'm + name."
+    },
+    {
+      "question": "Someone says \"I'm one.\" You are surprised. You say: ___",
+      "choices": [
+        "Bye!",
+        "Thank you.",
+        "Seven.",
+        "Really?"
+      ],
+      "answer": 3,
+      "explanation_ar": "Really? للتعبير عن الدهشة.",
+      "explanation_en": "\"Really?\" shows surprise."
+    },
+    {
+      "question": "Which number is \"seven\"?",
+      "choices": [
+        "7",
+        "1",
+        "3",
+        "5"
+      ],
+      "answer": 0,
+      "explanation_ar": "seven = سبعة = 7.",
+      "explanation_en": "seven = 7."
+    }
+  ]
+}

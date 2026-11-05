@@ -1,0 +1,425 @@
+{
+  "title": "Ordering at a Restaurant",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "restaurant",
+        "pos": "noun",
+        "meaning_en": "a place where you buy and eat meals",
+        "meaning_ar": "مطعم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's try the new restaurant."
+      },
+      {
+        "word": "fresh",
+        "pos": "adjective",
+        "meaning_en": "newly made, not old",
+        "meaning_ar": "طازج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The bread is fresh."
+      },
+      {
+        "word": "tasty",
+        "pos": "adjective",
+        "meaning_en": "having a good taste",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This soup is very tasty."
+      },
+      {
+        "word": "smell",
+        "pos": "verb",
+        "meaning_en": "have a smell",
+        "meaning_ar": "تفوح منه رائحة",
+        "note_ar": "It smells good = رائحته طيبة",
+        "note_en": "\"It smells good\" = it has a nice smell.",
+        "example": "It smells really good here."
+      },
+      {
+        "word": "menu",
+        "pos": "noun",
+        "meaning_en": "a list of food and drinks in a restaurant",
+        "meaning_ar": "قائمة الطعام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here is the menu."
+      },
+      {
+        "word": "green tea",
+        "pos": "noun",
+        "meaning_en": "a light tea made from green leaves",
+        "meaning_ar": "شاي أخضر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I would like a green tea, please."
+      },
+      {
+        "word": "soda",
+        "pos": "noun",
+        "meaning_en": "a sweet fizzy drink",
+        "meaning_ar": "مشروب غازي",
+        "note_ar": "في بريطانيا: fizzy drink",
+        "note_en": "UK: fizzy drink.",
+        "example": "We have tea, coffee, and soda."
+      },
+      {
+        "word": "yummy",
+        "pos": "adjective",
+        "meaning_en": "very tasty (informal)",
+        "meaning_ar": "لذيذ جدًا (عامية)",
+        "note_ar": "كلمة غير رسمية",
+        "note_en": "Informal word.",
+        "example": "Everything looks yummy!"
+      },
+      {
+        "word": "decide",
+        "pos": "verb",
+        "meaning_en": "choose after thinking",
+        "meaning_ar": "يقرّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't decide what to order."
+      },
+      {
+        "word": "recommend",
+        "pos": "verb",
+        "meaning_en": "say that something is good and someone should try it",
+        "meaning_ar": "ينصح بـ / يوصي بـ",
+        "note_ar": "الاسم: recommendation",
+        "note_en": "Noun: recommendation.",
+        "example": "What do you recommend?"
+      },
+      {
+        "word": "veggie burger",
+        "pos": "noun",
+        "meaning_en": "a burger made without meat, from vegetables or beans",
+        "meaning_ar": "برغر نباتي",
+        "note_ar": "veggie = vegetable / vegetarian",
+        "note_en": "\"Veggie\" is short for vegetable or vegetarian.",
+        "example": "I will try the veggie burger."
+      },
+      {
+        "word": "pasta",
+        "pos": "noun",
+        "meaning_en": "Italian food made from flour and water, like spaghetti",
+        "meaning_ar": "معكرونة (باستا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will have the pasta."
+      },
+      {
+        "word": "bean",
+        "pos": "noun",
+        "meaning_en": "a seed of a plant that we cook and eat",
+        "meaning_ar": "فاصوليا / حبة فول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The patty is made of beans."
+      },
+      {
+        "word": "patty",
+        "pos": "noun",
+        "meaning_en": "a flat round piece of cooked food, like in a burger",
+        "meaning_ar": "قرص (لحم أو خضار)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It has a bean patty."
+      },
+      {
+        "word": "lettuce",
+        "pos": "noun",
+        "meaning_en": "a green leaf vegetable used in salads",
+        "meaning_ar": "خس",
+        "note_ar": "تُنطق: /ˈletɪs/",
+        "note_en": "Say: /ˈletɪs/.",
+        "example": "Put some lettuce in the sandwich."
+      },
+      {
+        "word": "sauce",
+        "pos": "noun",
+        "meaning_en": "a thick liquid you put on food",
+        "meaning_ar": "صلصة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The burger has a special sauce."
+      },
+      {
+        "word": "share",
+        "pos": "verb",
+        "meaning_en": "give part of something to another person",
+        "meaning_ar": "يتشارك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can share the pasta."
+      },
+      {
+        "word": "taste",
+        "pos": "verb",
+        "meaning_en": "try food to know its flavour",
+        "meaning_ar": "يتذوّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't wait to taste the food!"
+      },
+      {
+        "word": "dish",
+        "pos": "noun",
+        "meaning_en": "food cooked in a special way; a meal",
+        "meaning_ar": "طبق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Trying new dishes is fun."
+      },
+      {
+        "word": "adventure",
+        "pos": "noun",
+        "meaning_en": "an exciting new experience",
+        "meaning_ar": "مغامرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Trying new food is an adventure."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "look vs smell vs taste",
+        "words": [
+          "look",
+          "smell",
+          "taste"
+        ],
+        "explanation_ar": "نستخدم هذه الأفعال مع صفة: It looks nice (شكله)، It smells good (رائحته)، It tastes great (طعمه).",
+        "explanation_en": "Use these verbs + adjective: looks (how it seems to the eyes), smells (to the nose), tastes (to the mouth).",
+        "examples": [
+          {
+            "word": "look",
+            "sentence": "Everything looks yummy!"
+          },
+          {
+            "word": "smell",
+            "sentence": "It smells really good here."
+          },
+          {
+            "word": "taste",
+            "sentence": "The pasta tastes great."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I am excited to try this new restaurant!",
+        "meaning_ar": "أنا متحمس لتجربة هذا المطعم الجديد!",
+        "meaning_en": "You are happy to try a new place.",
+        "example": "I am excited to try this new café!"
+      },
+      {
+        "phrase": "I'll be taking care of you today.",
+        "meaning_ar": "سأقوم بخدمتكم اليوم.",
+        "meaning_en": "The waiter introduces himself or herself.",
+        "example": "Hello! I'm Sam and I'll be taking care of you today."
+      },
+      {
+        "phrase": "Can I start you off with some drinks?",
+        "meaning_ar": "هل أبدأ معكم بالمشروبات؟",
+        "meaning_en": "The waiter asks about drinks first.",
+        "example": "Can I start you off with some water?"
+      },
+      {
+        "phrase": "Here is the menu for you to look at.",
+        "meaning_ar": "تفضلوا القائمة لتطّلعوا عليها.",
+        "meaning_en": "Giving the menu.",
+        "example": "Here is the menu. Take your time."
+      },
+      {
+        "phrase": "I can't decide what to order.",
+        "meaning_ar": "لا أستطيع أن أقرر ماذا أطلب.",
+        "meaning_en": "You don't know what to choose.",
+        "example": "Everything looks good. I can't decide!"
+      },
+      {
+        "phrase": "Are you ready to order?",
+        "meaning_ar": "هل أنتم مستعدون للطلب؟",
+        "meaning_en": "The waiter asks if you have chosen.",
+        "example": "Are you ready to order? Yes, we are."
+      },
+      {
+        "phrase": "What do you recommend?",
+        "meaning_ar": "بماذا تنصح؟",
+        "meaning_en": "Asking the waiter for a good dish.",
+        "example": "This is our first time here. What do you recommend?"
+      },
+      {
+        "phrase": "What is in the veggie burger?",
+        "meaning_ar": "ماذا يوجد في البرغر النباتي؟",
+        "meaning_en": "Asking about the ingredients.",
+        "example": "What is in this salad?"
+      },
+      {
+        "phrase": "That sounds good!",
+        "meaning_ar": "يبدو ذلك جيدًا!",
+        "meaning_en": "You like the idea.",
+        "example": "Pasta? That sounds good!"
+      },
+      {
+        "phrase": "coming right up",
+        "meaning_ar": "سيصل حالًا",
+        "meaning_en": "The food will come very soon.",
+        "example": "One pasta coming right up!"
+      },
+      {
+        "phrase": "I can't wait to taste the food!",
+        "meaning_ar": "لا أستطيع الانتظار لتذوق الطعام!",
+        "meaning_en": "You are very excited.",
+        "example": "I can't wait to try it!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "will for decisions",
+        "explanation_ar": "نستخدم will عندما نقرر الآن أثناء الكلام: I will have the pasta. I will try the veggie burger.",
+        "explanation_en": "Use \"will\" for decisions you make at the moment of speaking.",
+        "examples": [
+          "I will have a coffee with milk.",
+          "I will try the veggie burger.",
+          "I will get your drinks."
+        ]
+      },
+      {
+        "title": "I would like / I will have",
+        "explanation_ar": "للطلب في المطعم: I would like + الشيء، أو I will have + the + الشيء.",
+        "explanation_en": "To order: \"I would like ...\" or \"I will have ...\".",
+        "examples": [
+          "I would like a green tea, please.",
+          "I will have the pasta.",
+          "I'll have the soup."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"What do you recommend?\" means ...",
+      "choices": [
+        "What do you want to eat?",
+        "Which dish do you think is good?",
+        "How much is it?",
+        "Where is the menu?"
+      ],
+      "answer": 1,
+      "explanation_ar": "recommend تعني ينصح.",
+      "explanation_en": "\"Recommend\" means say something is good to try."
+    },
+    {
+      "question": "Everything ____ yummy!",
+      "choices": [
+        "looks",
+        "look",
+        "looking",
+        "is look"
+      ],
+      "answer": 0,
+      "explanation_ar": "Everything مفرد فنقول looks.",
+      "explanation_en": "\"Everything\" is singular, so \"looks\"."
+    },
+    {
+      "question": "What is lettuce?",
+      "choices": [
+        "a drink",
+        "a green leaf vegetable",
+        "a kind of bread",
+        "a sauce"
+      ],
+      "answer": 1,
+      "explanation_ar": "lettuce هو الخس.",
+      "explanation_en": "Lettuce is a green leaf vegetable."
+    },
+    {
+      "question": "A veggie burger has no ...",
+      "choices": [
+        "bread",
+        "sauce",
+        "meat",
+        "lettuce"
+      ],
+      "answer": 2,
+      "explanation_ar": "البرغر النباتي بدون لحم.",
+      "explanation_en": "A veggie burger has no meat."
+    },
+    {
+      "question": "\"One veggie burger coming right up.\" The food will come ...",
+      "choices": [
+        "tomorrow",
+        "very soon",
+        "never",
+        "next week"
+      ],
+      "answer": 1,
+      "explanation_ar": "coming right up تعني حالًا.",
+      "explanation_en": "\"Coming right up\" means very soon."
+    },
+    {
+      "question": "It ____ really good here. (about the nose)",
+      "choices": [
+        "tastes",
+        "looks",
+        "sounds",
+        "smells"
+      ],
+      "answer": 3,
+      "explanation_ar": "الأنف يعني الرائحة: smells.",
+      "explanation_en": "The nose = smells."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "I will have the pasta.",
+        "I will having the pasta.",
+        "I will to have the pasta.",
+        "I wills have the pasta."
+      ],
+      "answer": 0,
+      "explanation_ar": "will + الفعل الأساسي.",
+      "explanation_en": "will + base verb."
+    },
+    {
+      "question": "\"Are you ready to order?\" \"____\"",
+      "choices": [
+        "Yes. I'd like the soup, please.",
+        "Yes, it smells good.",
+        "I'm Emily.",
+        "We have tea."
+      ],
+      "answer": 0,
+      "explanation_ar": "الزبون يجيب بطلبه.",
+      "explanation_en": "The customer answers with an order."
+    },
+    {
+      "question": "\"We can share the pasta.\" \"Share\" means ...",
+      "choices": [
+        "eat it all alone",
+        "each person eats part of it",
+        "send it back",
+        "cook it"
+      ],
+      "answer": 1,
+      "explanation_ar": "share تعني نتقاسم.",
+      "explanation_en": "\"Share\" means each person has part of it."
+    },
+    {
+      "question": "\"Can I start you off with some drinks?\" Who says this?",
+      "choices": [
+        "the customer",
+        "the cook",
+        "the waiter",
+        "a friend at home"
+      ],
+      "answer": 2,
+      "explanation_ar": "النادل يسأل عن المشروبات أولًا.",
+      "explanation_en": "The waiter asks about drinks first."
+    }
+  ]
+}

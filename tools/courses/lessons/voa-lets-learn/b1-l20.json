@@ -1,0 +1,67 @@
+{
+  "title": "What Can You Do?",
+  "content": {
+    "vocabulary": [
+      {"word": "job", "pos": "noun", "meaning_en": "the work you do to earn money", "meaning_ar": "وظيفة / عمل", "note_ar": "", "note_en": "", "example": "Pete doesn't have a job."},
+      {"word": "government", "pos": "noun", "meaning_en": "the group of people who run a country", "meaning_ar": "الحكومة", "note_ar": "", "note_en": "", "example": "Many people in Washington work in government."},
+      {"word": "hospital", "pos": "noun", "meaning_en": "a place where sick people get care from doctors and nurses", "meaning_ar": "مستشفى", "note_ar": "", "note_en": "", "example": "My aunt works at a hospital."},
+      {"word": "university", "pos": "noun", "meaning_en": "a place where people study after high school", "meaning_ar": "جامعة", "note_ar": "نقول a university وليس an university لأنها تبدأ بصوت /j/", "note_en": "Say a university (it starts with a /j/ sound).", "example": "He teaches at a university."},
+      {"word": "beard", "pos": "noun", "meaning_en": "hair that grows on a man's chin and face", "meaning_ar": "لحية", "note_ar": "", "note_en": "", "example": "Pete's beard is really big."},
+      {"word": "skill", "pos": "noun", "meaning_en": "something you can do well", "meaning_ar": "مهارة", "note_ar": "", "note_en": "", "example": "Everyone has a skill."},
+      {"word": "code", "pos": "noun / verb", "meaning_en": "instructions for computers; to write those instructions", "meaning_ar": "برمجة / شيفرة / يبرمج", "note_ar": "لا تخلطها مع cold (بارد)", "note_en": "Do not confuse code with cold.", "example": "She can write code for phone apps."},
+      {"word": "app", "pos": "noun", "meaning_en": "a program on a phone or computer", "meaning_ar": "تطبيق", "note_ar": "اختصار application", "note_en": "Short for application.", "example": "This app helps me learn English."},
+      {"word": "website", "pos": "noun", "meaning_en": "a group of pages on the internet", "meaning_ar": "موقع إلكتروني", "note_ar": "", "note_en": "", "example": "The school has a new website."},
+      {"word": "tons of", "pos": "phrase", "meaning_en": "a very large amount of (informal)", "meaning_ar": "كمية كبيرة جدًا من", "note_ar": "", "note_en": "", "example": "You can make tons of money writing code."},
+      {"word": "drive", "pos": "verb", "meaning_en": "to control a car, bus or taxi", "meaning_ar": "يقود (سيارة)", "note_ar": "driver = سائق", "note_en": "driver = the person who drives", "example": "Can you drive a bus?"},
+      {"word": "taxi", "pos": "noun", "meaning_en": "a car you pay to take you somewhere", "meaning_ar": "سيارة أجرة", "note_ar": "", "note_en": "", "example": "Let's take a taxi to the airport."},
+      {"word": "fall asleep", "pos": "phrase", "meaning_en": "to start sleeping", "meaning_ar": "يغفو / ينام", "note_ar": "الماضي: fell asleep", "note_en": "Past: fell asleep.", "example": "I fall asleep when I read in bed."},
+      {"word": "teach", "pos": "verb", "meaning_en": "to help people learn", "meaning_ar": "يُدرّس / يُعلّم", "note_ar": "teacher = معلم", "note_en": "teacher = a person who teaches", "example": "Can you teach? You can be a teacher."},
+      {"word": "school", "pos": "noun", "meaning_en": "a place where children learn", "meaning_ar": "مدرسة", "note_ar": "", "note_en": "", "example": "My brother goes to school by bus."},
+      {"word": "cook", "pos": "verb", "meaning_en": "to make food", "meaning_ar": "يطبخ", "note_ar": "cook كاسم أيضًا = طبّاخ", "note_en": "A cook is also a person who cooks.", "example": "Can you cook rice?"},
+      {"word": "chef", "pos": "noun", "meaning_en": "a professional cook in a restaurant", "meaning_ar": "طاهٍ / شيف", "note_ar": "ch تُنطق /ʃ/ مثل ش", "note_en": "Ch sounds like sh: /ʃef/.", "example": "The chef makes delicious soup."},
+      {"word": "restaurant", "pos": "noun", "meaning_en": "a place where you buy and eat meals", "meaning_ar": "مطعم", "note_ar": "", "note_en": "", "example": "We eat at a restaurant on Fridays."},
+      {"word": "blog", "pos": "noun", "meaning_en": "a website where a person writes regularly about their life or ideas", "meaning_ar": "مدوّنة", "note_ar": "", "note_en": "", "example": "Pete writes about his feelings in his blog."},
+      {"word": "follower", "pos": "noun", "meaning_en": "a person who reads or watches your posts online", "meaning_ar": "متابِع", "note_ar": "", "note_en": "", "example": "She has many followers."},
+      {"word": "easy", "pos": "adjective", "meaning_en": "not hard", "meaning_ar": "سهل", "note_ar": "عكسها: hard / difficult", "note_en": "Opposite: hard, difficult.", "example": "This exercise is easy."},
+      {"word": "hard", "pos": "adjective", "meaning_en": "difficult; not easy", "meaning_ar": "صعب", "note_ar": "", "note_en": "", "example": "It's really hard to be a race car driver."},
+      {"word": "well", "pos": "adverb", "meaning_en": "in a good way", "meaning_ar": "جيدًا", "note_ar": "good صفة، well ظرف: She is a good writer / She writes well", "note_en": "Good is an adjective; well is an adverb.", "example": "Not everyone can write well."},
+      {"word": "writer", "pos": "noun", "meaning_en": "a person who writes books, articles or stories", "meaning_ar": "كاتب", "note_ar": "حرف w صامت: /ˈraɪtər/", "note_en": "The w is silent.", "example": "Pete wants to be a writer."},
+      {"word": "luck", "pos": "noun", "meaning_en": "good things that happen by chance", "meaning_ar": "حظ", "note_ar": "Good luck! = حظًا سعيدًا", "note_en": "Good luck! = I hope things go well.", "example": "Good luck with your exam!"}
+    ],
+    "fine_lines": [
+      {"title": "can vs can't", "words": ["can", "can't"], "explanation_ar": "can = يستطيع، can't (cannot) = لا يستطيع. في النطق الأمريكي can تكون قصيرة وغير منبورة /kən/، و can't تكون قوية وواضحة /kænt/.", "explanation_en": "Can means you are able; can't (cannot) means you are not able. In American English, can is short and weak /kən/, and can't is strong /kænt/.", "examples": [{"word": "can", "sentence": "I can write well."}, {"word": "can't", "sentence": "I can't cook."}, {"word": "can't", "sentence": "Pete can't drive."}]},
+      {"title": "good vs well", "words": ["good", "well"], "explanation_ar": "good صفة تصف الاسم: a good writer. well ظرف يصف الفعل: write well.", "explanation_en": "Good is an adjective; it describes a noun: a good writer. Well is an adverb; it describes a verb: write well.", "examples": [{"word": "good", "sentence": "He is a good writer."}, {"word": "well", "sentence": "He writes well."}]},
+      {"title": "code vs cold", "words": ["code", "cold"], "explanation_ar": "Pete خلط بينهما. code = شيفرة الكمبيوتر /koʊd/. cold = بارد /koʊld/ وفيها صوت l.", "explanation_en": "Pete mixes them up. Code is computer instructions /koʊd/. Cold means not warm /koʊld/, with an l sound.", "examples": [{"word": "code", "sentence": "She writes code for websites."}, {"word": "cold", "sentence": "The water is cold."}]}
+    ],
+    "expressions": [
+      {"phrase": "Is that you?", "meaning_ar": "هل هذا أنت؟", "meaning_en": "Asking if the person you see is someone you know.", "example": "Sara? Is that you? I didn't recognize you!"},
+      {"phrase": "You look different.", "meaning_ar": "تبدو مختلفًا.", "meaning_en": "Your appearance is not the same as before.", "example": "You look different. Is that a new haircut?"},
+      {"phrase": "What's wrong?", "meaning_ar": "ما المشكلة؟ / ما بك؟", "meaning_en": "Asking why someone is sad or has a problem.", "example": "You look sad. What's wrong?"},
+      {"phrase": "Sorry, I can't hear you.", "meaning_ar": "آسف، لا أستطيع سماعك.", "meaning_en": "Please speak louder.", "example": "Sorry, I can't hear you. It's very noisy here."},
+      {"phrase": "I'm sorry to hear that.", "meaning_ar": "يؤسفني سماع ذلك.", "meaning_en": "A kind answer to bad news.", "example": "I don't have a job. - I'm sorry to hear that."},
+      {"phrase": "Let me help.", "meaning_ar": "دعني أساعد.", "meaning_en": "I want to help you.", "example": "That bag is heavy. Let me help."},
+      {"phrase": "Can you write code?", "meaning_ar": "هل تستطيع البرمجة؟", "meaning_en": "Asking about someone's ability.", "example": "Can you write code? - Yes, I can."},
+      {"phrase": "I can't do anything.", "meaning_ar": "لا أستطيع فعل أي شيء.", "meaning_en": "I am not able to do any useful thing.", "example": "Don't say 'I can't do anything.' Everyone has a skill."},
+      {"phrase": "Everyone has a skill.", "meaning_ar": "كل شخص لديه مهارة.", "meaning_en": "All people are good at something.", "example": "Everyone has a skill. You need to find yours."},
+      {"phrase": "Good luck!", "meaning_ar": "حظًا سعيدًا!", "meaning_en": "I hope things go well for you.", "example": "You have a job interview? Good luck!"},
+      {"phrase": "Excuse me, I have to go.", "meaning_ar": "اعذرني، يجب أن أذهب.", "meaning_en": "A polite way to leave.", "example": "Excuse me, I have to go. My bus is here."}
+    ],
+    "grammar": [
+      {"title": "can / can't for ability", "explanation_ar": "1) نستخدم can + فعل مجرد للتعبير عن القدرة: I can write. 2) النفي: can't أو cannot: I can't cook. 3) لا نضيف s للفعل بعد can حتى مع he/she: She can drive (وليس She can drives). 4) لا نضع to بعد can: can swim وليس can to swim.", "explanation_en": "1) Use can + base verb to talk about ability: I can write. 2) Negative: can't or cannot: I can't cook. 3) No -s after can, even with he/she: She can drive. 4) No to after can: can swim, not can to swim.", "examples": ["I can be a writer.", "Pete can't teach.", "She can write code.", "We cannot drive a race car."]},
+      {"title": "Questions with can", "explanation_ar": "للسؤال نضع can قبل الفاعل: Can you drive? والجواب القصير: Yes, I can. / No, I can't. ومع أداة استفهام: What can you do?", "explanation_en": "To ask, put can before the subject: Can you drive? Short answers: Yes, I can. / No, I can't. With a question word: What can you do?", "examples": ["Can you cook? - No, I can't.", "Can you help me? - Yes, I can.", "What can you do?"]},
+      {"title": "You can be a ... (talking about jobs)", "explanation_ar": "نستخدم can be + a/an + وظيفة لنقترح عملًا: You can be a teacher. ونستخدم a قبل الكلمة التي تبدأ بصوت ساكن: a chef, a writer، و an قبل صوت متحرك: an engineer.", "explanation_en": "Use can be + a/an + job to suggest work: You can be a teacher. Use a before a consonant sound (a chef, a writer) and an before a vowel sound (an engineer).", "examples": ["You can be a teacher in a school.", "You can be a chef in a restaurant.", "I can be a writer!"]}
+    ]
+  },
+  "questions": [
+    {"question": "Choose the correct sentence.", "choices": ["She can drives a bus.", "She can to drive a bus.", "She can drive a bus.", "She cans drive a bus."], "answer": 2, "explanation_ar": "بعد can نضع الفعل المجرد بدون s وبدون to.", "explanation_en": "After can, use the base verb: no -s, no to."},
+    {"question": "'Can you cook?' - 'No, I ___.'", "choices": ["can't", "don't", "am not", "not can"], "answer": 0, "explanation_ar": "الجواب القصير بالنفي: No, I can't.", "explanation_en": "The short negative answer is No, I can't."},
+    {"question": "A professional cook in a restaurant is a ___.", "choices": ["writer", "teacher", "driver", "chef"], "answer": 3, "explanation_ar": "chef هو الطاهي المحترف.", "explanation_en": "A chef is a professional cook."},
+    {"question": "Instructions for making apps and websites are ___.", "choices": ["cold", "code", "blog", "beard"], "answer": 1, "explanation_ar": "code هي البرمجة. cold تعني بارد.", "explanation_en": "Code is computer instructions; cold means not warm."},
+    {"question": "Not everyone can write ___.", "choices": ["good", "well", "easy", "goodly"], "answer": 1, "explanation_ar": "نصف الفعل write بالظرف well.", "explanation_en": "Use the adverb well to describe the verb write."},
+    {"question": "Your friend says, 'I don't have a job.' You say:", "choices": ["I'm sorry to hear that.", "Good job!", "Is that you?", "You look different."], "answer": 0, "explanation_ar": "نردّ على الخبر السيئ بـ I'm sorry to hear that.", "explanation_en": "We answer bad news with I'm sorry to hear that."},
+    {"question": "___ you write code?", "choices": ["Do can", "Are", "Does", "Can"], "answer": 3, "explanation_ar": "في السؤال نضع can قبل الفاعل.", "explanation_en": "In a question, can comes before the subject."},
+    {"question": "'Writing is easy.' The opposite of easy is:", "choices": ["well", "hard", "free", "big"], "answer": 1, "explanation_ar": "عكس easy هو hard (صعب).", "explanation_en": "The opposite of easy is hard."},
+    {"question": "People who read your blog are your ___.", "choices": ["chefs", "drivers", "followers", "skills"], "answer": 2, "explanation_ar": "followers هم المتابعون.", "explanation_en": "Followers are people who read or watch your posts."},
+    {"question": "You can be ___ teacher in a school.", "choices": ["an", "the", "a", "-"], "answer": 2, "explanation_ar": "teacher تبدأ بصوت ساكن، فنستخدم a.", "explanation_en": "Teacher starts with a consonant sound, so use a."}
+  ]
+}

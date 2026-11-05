@@ -1,0 +1,320 @@
+{
+  "title": "Exam Time",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "exam",
+        "pos": "noun",
+        "meaning_en": "an important test at school",
+        "meaning_ar": "امتحان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was exam time at Joe's school."
+      },
+      {
+        "word": "test",
+        "pos": "noun",
+        "meaning_en": "questions to check what you know",
+        "meaning_ar": "اختبار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe did well in the maths test."
+      },
+      {
+        "word": "maths",
+        "pos": "noun",
+        "meaning_en": "the study of numbers (UK)",
+        "meaning_ar": "الرياضيات",
+        "note_ar": "في أمريكا: math",
+        "note_en": "US: math.",
+        "example": "Finn went home to do some maths."
+      },
+      {
+        "word": "homework",
+        "pos": "noun",
+        "meaning_en": "school work you do at home",
+        "meaning_ar": "واجب منزلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The teacher gave them homework."
+      },
+      {
+        "word": "revise",
+        "pos": "verb",
+        "meaning_en": "study again before a test (UK)",
+        "meaning_ar": "يراجع (الدروس)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need to revise."
+      },
+      {
+        "word": "pencil",
+        "pos": "noun",
+        "meaning_en": "a thing for writing, made of wood",
+        "meaning_ar": "قلم رصاص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella has a magic pencil."
+      },
+      {
+        "word": "magic",
+        "pos": "adjective",
+        "meaning_en": "with special powers",
+        "meaning_ar": "سحري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a magic pencil."
+      },
+      {
+        "word": "answer",
+        "pos": "noun",
+        "meaning_en": "what you say or write to a question",
+        "meaning_ar": "إجابة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It always gets the right answer."
+      },
+      {
+        "word": "question",
+        "pos": "noun",
+        "meaning_en": "something you ask",
+        "meaning_ar": "سؤال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He looked at the maths question."
+      },
+      {
+        "word": "desk",
+        "pos": "noun",
+        "meaning_en": "a table where you study",
+        "meaning_ar": "مكتب / طاولة دراسة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He sat down at his desk."
+      },
+      {
+        "word": "kitten",
+        "pos": "noun",
+        "meaning_en": "a baby cat",
+        "meaning_ar": "قطّ صغير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella came in with the kitten."
+      },
+      {
+        "word": "work hard",
+        "pos": "phrase",
+        "meaning_en": "put a lot of effort into work",
+        "meaning_ar": "يجتهد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe worked hard every evening."
+      },
+      {
+        "word": "important",
+        "pos": "adjective",
+        "meaning_en": "very necessary",
+        "meaning_ar": "مهمّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Maths is important."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "exam vs test",
+        "words": [
+          "exam",
+          "test"
+        ],
+        "explanation_ar": "exam امتحان كبير ومهم، و test اختبار قد يكون أصغر. كثيرًا ما يُستخدمان بنفس المعنى.",
+        "explanation_en": "An exam is a big important test. A test can be smaller. They are often similar.",
+        "examples": [
+          {
+            "word": "exam",
+            "sentence": "We have exams in June."
+          },
+          {
+            "word": "test",
+            "sentence": "We have a spelling test today."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Shall we go to the park?",
+        "meaning_ar": "هل نذهب إلى الحديقة؟",
+        "meaning_en": "A suggestion.",
+        "example": "It's sunny. Shall we go to the park?"
+      },
+      {
+        "phrase": "I need to revise.",
+        "meaning_ar": "أحتاج إلى المراجعة.",
+        "meaning_en": "You must study for a test.",
+        "example": "I can't play now. I need to revise."
+      },
+      {
+        "phrase": "Just you wait and see!",
+        "meaning_ar": "انتظر وسترى!",
+        "meaning_en": "Said when you are sure something will happen.",
+        "example": "I will win. Just you wait and see!"
+      },
+      {
+        "phrase": "Well done!",
+        "meaning_ar": "أحسنت!",
+        "meaning_en": "Said when someone does something well.",
+        "example": "You got 10 out of 10. Well done!"
+      },
+      {
+        "phrase": "I knew you could do well if you tried.",
+        "meaning_ar": "كنت أعرف أنك ستنجح إن حاولت.",
+        "meaning_en": "Praising someone's effort.",
+        "example": "Good result! I knew you could do it."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "should / need to",
+        "explanation_ar": "نستخدم should + فعل للنصيحة، و need to + فعل للضرورة.",
+        "explanation_en": "Use should + verb for advice. Use need to + verb for something necessary.",
+        "examples": [
+          "You should work harder.",
+          "I need to revise.",
+          "You should do your homework."
+        ]
+      },
+      {
+        "title": "better than",
+        "explanation_ar": "better صيغة المقارنة من good: Joe did better than Finn.",
+        "explanation_en": "\"better\" is the comparative of \"good\".",
+        "examples": [
+          "Joe did better than Finn.",
+          "Football is better than maths, Joe thought."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What did Joe want to do instead of studying?",
+      "choices": [
+        "play football",
+        "read books",
+        "sleep",
+        "watch TV"
+      ],
+      "answer": 0,
+      "explanation_ar": "أراد جو أن يلعب كرة القدم.",
+      "explanation_en": "He wanted to play football."
+    },
+    {
+      "question": "What did Bella give Joe?",
+      "choices": [
+        "a kitten",
+        "a magic pencil",
+        "a book",
+        "a football"
+      ],
+      "answer": 1,
+      "explanation_ar": "أعطته قلمًا سحريًّا.",
+      "explanation_en": "She gave him a magic pencil."
+    },
+    {
+      "question": "Who did better in the test?",
+      "choices": [
+        "Finn",
+        "Bella",
+        "Joe",
+        "Nobody"
+      ],
+      "answer": 2,
+      "explanation_ar": "جو تفوّق على فين.",
+      "explanation_en": "Joe did better than Finn."
+    },
+    {
+      "question": "You study again before a test. You ___.",
+      "choices": [
+        "play",
+        "sleep",
+        "forget",
+        "revise"
+      ],
+      "answer": 3,
+      "explanation_ar": "revise = يراجع.",
+      "explanation_en": "revise = study again."
+    },
+    {
+      "question": "Someone gets a good result. You say: ___",
+      "choices": [
+        "Well done!",
+        "Oh no!",
+        "I need to revise.",
+        "Shall we?"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول Well done!",
+      "explanation_en": "Say \"Well done!\""
+    },
+    {
+      "question": "You ___ work harder. (advice)",
+      "choices": [
+        "need",
+        "should",
+        "can to",
+        "are"
+      ],
+      "answer": 1,
+      "explanation_ar": "للنصيحة نستخدم should.",
+      "explanation_en": "Use should for advice."
+    },
+    {
+      "question": "Joe did ___ than Finn.",
+      "choices": [
+        "good",
+        "best",
+        "better",
+        "more good"
+      ],
+      "answer": 2,
+      "explanation_ar": "المقارنة من good هي better.",
+      "explanation_en": "Comparative of good: better."
+    },
+    {
+      "question": "In American English, \"maths\" is ___.",
+      "choices": [
+        "mathes",
+        "numbers",
+        "mathematic",
+        "math"
+      ],
+      "answer": 3,
+      "explanation_ar": "في أمريكا: math.",
+      "explanation_en": "US: math."
+    },
+    {
+      "question": "A baby cat is a ___.",
+      "choices": [
+        "kitten",
+        "puppy",
+        "pencil",
+        "desk"
+      ],
+      "answer": 0,
+      "explanation_ar": "صغير القطة = kitten.",
+      "explanation_en": "A baby cat is a kitten."
+    },
+    {
+      "question": "\"important\" means ___.",
+      "choices": [
+        "مهمّ",
+        "سحري",
+        "سهل",
+        "ممل"
+      ],
+      "answer": 0,
+      "explanation_ar": "important = مهمّ.",
+      "explanation_en": "important = very necessary."
+    }
+  ]
+}

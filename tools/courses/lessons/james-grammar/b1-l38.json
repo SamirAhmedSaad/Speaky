@@ -1,0 +1,49 @@
+{
+  "title": "Need to vs Have to",
+  "content": {
+    "vocabulary": [
+      {"word": "need to", "pos": "phrase", "meaning_en": "it is important for me; I will get a benefit if I do it", "meaning_ar": "يحتاج إلى أن (لمصلحته)", "note_ar": "يتبعها المصدر: need to go", "note_en": "Followed by the base verb: need to go.", "example": "I need to drink more water."},
+      {"word": "have to", "pos": "phrase", "meaning_en": "it is necessary; there will be a problem if I don't do it", "meaning_ar": "يجب عليه / مضطر إلى", "note_ar": "تُنطق غالبًا /ˈhæftə/", "note_en": "Often pronounced /ˈhæftə/ (\"hafta\").", "example": "I have to pay my bills today."},
+      {"word": "must", "pos": "modal verb", "meaning_en": "it is necessary (often a rule or strong feeling)", "meaning_ar": "يجب", "note_ar": "", "note_en": "", "example": "You must wear a seat belt."},
+      {"word": "necessity", "pos": "noun", "meaning_en": "something you must have or do", "meaning_ar": "ضرورة", "note_ar": "", "note_en": "", "example": "Food and water are necessities."},
+      {"word": "obligation", "pos": "noun", "meaning_en": "something you must do because of a rule, a duty or a promise", "meaning_ar": "التزام / واجب", "note_ar": "", "note_en": "", "example": "Paying taxes is an obligation."},
+      {"word": "consequence", "pos": "noun", "meaning_en": "a result of an action, often a bad one", "meaning_ar": "عاقبة / نتيجة", "note_ar": "", "note_en": "", "example": "If you are late, the consequence is a fine."},
+      {"word": "benefit", "pos": "noun", "meaning_en": "something good that you get", "meaning_ar": "فائدة / منفعة", "note_ar": "", "note_en": "", "example": "Exercise has many benefits."},
+      {"word": "urgency", "pos": "noun", "meaning_en": "the feeling that something must be done quickly", "meaning_ar": "إلحاح / استعجال", "note_ar": "الصفة: urgent", "note_en": "Adjective: urgent.", "example": "He spoke with urgency."},
+      {"word": "possess", "pos": "verb", "meaning_en": "to have or own something", "meaning_ar": "يملك", "note_ar": "", "note_en": "", "example": "Have means possess: I have a book."},
+      {"word": "goal", "pos": "noun", "meaning_en": "something you want to reach or get", "meaning_ar": "هدف", "note_ar": "", "note_en": "", "example": "My goal is to speak English well."},
+      {"word": "direction", "pos": "noun", "meaning_en": "the way something goes", "meaning_ar": "اتجاه", "note_ar": "", "note_en": "", "example": "The word \"to\" shows direction: go to school."},
+      {"word": "taxes", "pos": "noun", "meaning_en": "money people must pay to the government", "meaning_ar": "الضرائب", "note_ar": "", "note_en": "", "example": "Everyone has to pay taxes."},
+      {"word": "washroom", "pos": "noun", "meaning_en": "a room with a toilet (Canadian English)", "meaning_ar": "دورة المياه", "note_ar": "في بريطانيا toilet وفي أمريكا restroom/bathroom", "note_en": "UK: toilet; US: restroom, bathroom.", "example": "Where is the washroom, please?"},
+      {"word": "miss out", "pos": "phrasal verb", "meaning_en": "to lose a chance to get something good", "meaning_ar": "يفوّت (فرصة)", "note_ar": "", "note_en": "", "example": "Come early, or you will miss out."}
+    ],
+    "fine_lines": [
+      {"title": "need to vs have to", "words": ["need to", "have to"], "explanation_ar": "المعنى متقارب، لكن need to تركّز على الفائدة لي (سأكون أفضل إذا فعلت)، أما have to فتركّز على العاقبة (ستحدث مشكلة إذا لم أفعل). تذكّر: need = me (فائدة لي).", "explanation_en": "Both are similar, but need to thinks about the benefit for me (I will feel better), and have to thinks about the consequence (there will be a problem if I don't). Remember: \"need\" rhymes with \"me\" (good for me).", "examples": [{"word": "need to", "sentence": "I need to rest. I will feel better."}, {"word": "have to", "sentence": "I have to finish this report today, or my boss will be angry."}]},
+      {"title": "teacher's view vs student's view", "words": ["You have to", "I need to"], "explanation_ar": "المعلم يقول للطالب: You have to do your homework (عليك واجب وستحدث عاقبة). والطالب يقول: I need to do my homework (لمصلحتي). الاثنان صحيحان من زاويتين مختلفتين.", "explanation_en": "The teacher says \"You have to do your homework\" (an obligation with a consequence). The student says \"I need to do my homework\" (for my benefit). Both are correct, from two points of view.", "examples": [{"word": "You have to", "sentence": "You have to do your homework."}, {"word": "I need to", "sentence": "I need to do my homework to improve."}]}
+    ],
+    "expressions": [
+      {"phrase": "I have to go.", "meaning_ar": "يجب أن أذهب.", "meaning_en": "I must leave now; I don't have a choice.", "example": "Sorry, I have to go. My bus is here."},
+      {"phrase": "I need to go.", "meaning_ar": "أحتاج أن أذهب.", "meaning_en": "It is a good idea for me to leave now.", "example": "It's late. I need to go and sleep."},
+      {"phrase": "You need to stop right now.", "meaning_ar": "عليك أن تتوقف الآن.", "meaning_en": "Strong advice to stop.", "example": "You are very tired. You need to stop right now."},
+      {"phrase": "I don't have to...", "meaning_ar": "لستُ مضطرًا إلى...", "meaning_en": "It is not necessary for me.", "example": "It's Friday. I don't have to work."},
+      {"phrase": "What's the difference?", "meaning_ar": "ما الفرق؟", "meaning_en": "Asking how two things are not the same.", "example": "Need to and have to: what's the difference?"}
+    ],
+    "grammar": [
+      {"title": "Have to + base verb (obligation and consequence)", "explanation_ar": "have to + المصدر تعني أنك مضطر لفعل شيء، وإن لم تفعله ستحدث عاقبة. have = تملك، to = اتجاه/هدف. لذلك نشعر بالاستعجال. مع he/she/it نقول has to.", "explanation_en": "have to + base verb means you must do something, or there will be a consequence. Have = possess, to = goal/direction. People feel urgency. With he/she/it use has to.", "examples": ["I have to go to the bank before it closes.", "She has to pay her taxes this month.", "We have to leave now, or we will miss the train."]},
+      {"title": "Need to + base verb (benefit for me)", "explanation_ar": "need to + المصدر: الأمر مهم لي وأحصل منه على فائدة، والاستعجال أقل. مع he/she/it نقول needs to.", "explanation_en": "need to + base verb: it is important to me and I get a benefit; less urgency. With he/she/it use needs to.", "examples": ["I need to study tonight.", "He needs to sleep more.", "You need to drink water."]},
+      {"title": "Negatives and questions", "explanation_ar": "النفي: don't/doesn't have to (غير ضروري)، don't/doesn't need to (غير ضروري). السؤال: Do you have to...? / Do you need to...?", "explanation_en": "Negative: don't/doesn't have to (not necessary), don't/doesn't need to (not necessary). Question: Do you have to...? / Do you need to...?", "examples": ["I don't have to work on Friday.", "You don't need to bring anything.", "Do you have to go now?"]}
+    ]
+  },
+  "questions": [
+    {"question": "Which one focuses on the benefit for me?", "choices": ["need to", "have to", "has to", "must not"], "answer": 0, "explanation_ar": "need to = فائدة لي.", "explanation_en": "Need to = a benefit for me."},
+    {"question": "\"I have to go to the bank now, or it will close.\" Why \"have to\"?", "choices": ["it's a benefit only", "it's a hobby", "there is a consequence", "it's in the past"], "answer": 2, "explanation_ar": "هناك عاقبة: البنك سيغلق.", "explanation_en": "There is a consequence: the bank will close."},
+    {"question": "She ___ finish her work before five.", "choices": ["have to", "has to", "have", "having to"], "answer": 1, "explanation_ar": "مع she نقول has to.", "explanation_en": "With she, use has to."},
+    {"question": "Choose the correct sentence.", "choices": ["I need go home.", "I need going home.", "I need to going home.", "I need to go home."], "answer": 3, "explanation_ar": "need to + المصدر.", "explanation_en": "need to + base verb."},
+    {"question": "What does \"obligation\" mean?", "choices": ["a hobby", "something you must do", "a gift", "a holiday"], "answer": 1, "explanation_ar": "obligation = التزام/واجب.", "explanation_en": "An obligation is something you must do."},
+    {"question": "It's Saturday. I ___ go to work.", "choices": ["don't have to", "has to", "have to not", "doesn't need"], "answer": 0, "explanation_ar": "don't have to = ليس ضروريًا.", "explanation_en": "don't have to = it is not necessary."},
+    {"question": "What does \"consequence\" mean?", "choices": ["a question", "a plan", "a result of an action", "a reason"], "answer": 2, "explanation_ar": "consequence = عاقبة/نتيجة.", "explanation_en": "A consequence is a result of an action."},
+    {"question": "A teacher says to a student: \"You ___ do your homework.\"", "choices": ["has to", "needs", "having to", "have to"], "answer": 3, "explanation_ar": "المعلم يفرض واجبًا وله عاقبة: have to.", "explanation_en": "The teacher gives an obligation with a consequence: have to."},
+    {"question": "In \"have to\", what does \"to\" show?", "choices": ["the past", "goal or direction", "a question", "a person"], "answer": 1, "explanation_ar": "to تدل على الهدف أو الاتجاه.", "explanation_en": "To shows goal or direction."},
+    {"question": "___ you have to work tomorrow?", "choices": ["Are", "Have", "Do", "Is"], "answer": 2, "explanation_ar": "السؤال مع have to يكون بـ Do.", "explanation_en": "Questions with have to use Do."}
+  ]
+}

@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.speakmind.app.feature.dailyword.data.DailyWordRepository
 import com.speakmind.app.feature.dailyword.domain.model.DailyWordData
 import com.speakmind.app.feature.voice.platform.TextToSpeechEngine
+import com.speakmind.app.feature.wordlookup.data.TranslationApiClient
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.ui.theme.TtsSpeedManager
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -15,6 +16,8 @@ import kotlinx.coroutines.launch
 data class WordDetailUiState(
     val word: DailyWordData? = null,
     val isLoading: Boolean = true,
+    /** Arabic for the word, fetched after it shows; null until (or unless) the service answers. */
+    val arabic: String? = null,
 )
 
 class WordDetailViewModel(
@@ -24,6 +27,7 @@ class WordDetailViewModel(
     private val repository: DailyWordRepository,
     private val tts: TextToSpeechEngine,
     private val ttsSpeedManager: TtsSpeedManager,
+    private val translationClient: TranslationApiClient,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(WordDetailUiState())
@@ -42,6 +46,10 @@ class WordDetailViewModel(
             }
             word?.let { repository.markAsRead(it.id) }
             _uiState.value = WordDetailUiState(word = word, isLoading = false)
+            if (word != null) {
+                val arabic = translationClient.translate(word.word)
+                _uiState.value = _uiState.value.copy(arabic = arabic)
+            }
         }
     }
 

@@ -1,0 +1,443 @@
+{
+  "title": "Dealing with IT Support",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "IT support",
+        "pos": "noun",
+        "meaning_en": "the team that fixes computer problems in a company",
+        "meaning_ar": "الدعم الفني لتقنية المعلومات",
+        "note_ar": "IT اختصار information technology، وتُنطق آي تي.",
+        "note_en": "IT = information technology; say the letters I-T.",
+        "example": "Call IT support if your computer stops working."
+      },
+      {
+        "word": "information technology",
+        "pos": "noun",
+        "meaning_en": "the use of computers to store and send information",
+        "meaning_ar": "تقنية المعلومات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She works in information technology."
+      },
+      {
+        "word": "freeze",
+        "pos": "verb",
+        "meaning_en": "when a computer screen stops and nothing moves",
+        "meaning_ar": "يتجمّد / يعلق",
+        "note_ar": "freeze – froze – frozen.",
+        "note_en": "freeze – froze – frozen.",
+        "example": "The screen keeps freezing."
+      },
+      {
+        "word": "crash",
+        "pos": "verb / noun",
+        "meaning_en": "when a computer suddenly stops working",
+        "meaning_ar": "ينهار / يتعطل فجأة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My computer crashed and I lost my work."
+      },
+      {
+        "word": "documents",
+        "pos": "noun",
+        "meaning_en": "files with writing on a computer",
+        "meaning_ar": "مستندات / ملفات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I seem to have lost some documents."
+      },
+      {
+        "word": "disappear",
+        "pos": "verb",
+        "meaning_en": "to go away so you can't see it",
+        "meaning_ar": "يختفي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "All my files have disappeared."
+      },
+      {
+        "word": "switch off / turn off",
+        "pos": "phrasal verb",
+        "meaning_en": "to stop a machine working with a button",
+        "meaning_ar": "يُطفئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Switch the computer off and on again."
+      },
+      {
+        "word": "reboot",
+        "pos": "verb",
+        "meaning_en": "to turn a computer off and on again",
+        "meaning_ar": "يعيد التشغيل",
+        "note_ar": "يُقال أيضًا restart.",
+        "note_en": "Also called restart.",
+        "example": "Try rebooting your laptop."
+      },
+      {
+        "word": "fix",
+        "pos": "verb",
+        "meaning_en": "to repair",
+        "meaning_ar": "يُصلح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Turning it off and on hasn't fixed it."
+      },
+      {
+        "word": "system",
+        "pos": "noun",
+        "meaning_en": "the type of computer and software you use",
+        "meaning_ar": "النظام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What system are you using?"
+      },
+      {
+        "word": "laptop",
+        "pos": "noun",
+        "meaning_en": "a small computer you can carry",
+        "meaning_ar": "حاسوب محمول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm using a laptop."
+      },
+      {
+        "word": "application",
+        "pos": "noun",
+        "meaning_en": "a computer program",
+        "meaning_ar": "تطبيق / برنامج",
+        "note_ar": "يختصر غالبًا app.",
+        "note_en": "Often shortened to app.",
+        "example": "Were you using many applications?"
+      },
+      {
+        "word": "spreadsheet",
+        "pos": "noun",
+        "meaning_en": "a document with numbers in rows and columns",
+        "meaning_ar": "جدول بيانات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I keep the sales figures in a spreadsheet."
+      },
+      {
+        "word": "software",
+        "pos": "noun",
+        "meaning_en": "programs that run on a computer",
+        "meaning_ar": "البرمجيات",
+        "note_ar": "اسم غير معدود.",
+        "note_en": "Uncountable noun.",
+        "example": "We need to update the software."
+      },
+      {
+        "word": "screen",
+        "pos": "noun",
+        "meaning_en": "the flat part of a computer where you see pictures and words",
+        "meaning_ar": "الشاشة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The screen has gone blank."
+      },
+      {
+        "word": "go blank",
+        "pos": "phrase",
+        "meaning_en": "when a screen shows nothing",
+        "meaning_ar": "تصبح فارغة / سوداء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My computer's gone blank."
+      },
+      {
+        "word": "back up",
+        "pos": "phrasal verb",
+        "meaning_en": "to make a copy of computer files in case they are lost",
+        "meaning_ar": "ينسخ احتياطيًا",
+        "note_ar": "الاسم: a backup.",
+        "note_en": "Noun: a backup.",
+        "example": "Always back up your important files."
+      },
+      {
+        "word": "memory stick",
+        "pos": "noun",
+        "meaning_en": "a small device for storing computer files",
+        "meaning_ar": "ذاكرة فلاش",
+        "note_ar": "يسمى أيضًا USB stick / flash drive.",
+        "note_en": "Also called a USB stick or flash drive.",
+        "example": "Save a copy on a memory stick."
+      },
+      {
+        "word": "unplug",
+        "pos": "verb",
+        "meaning_en": "to take a plug out of the electric socket",
+        "meaning_ar": "يفصل القابس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Unplug the screen and plug it in again."
+      },
+      {
+        "word": "upgrade",
+        "pos": "verb",
+        "meaning_en": "to make software or a machine newer or better",
+        "meaning_ar": "يرقّي / يحدّث",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to upgrade our software."
+      },
+      {
+        "word": "press",
+        "pos": "verb",
+        "meaning_en": "to push a button or key",
+        "meaning_ar": "يضغط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Press control, alt, delete at the same time."
+      },
+      {
+        "word": "Don't panic!",
+        "pos": "phrase",
+        "meaning_en": "stay calm",
+        "meaning_ar": "لا تقلق / لا تذعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't panic! I'll come and have a look."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Windows vs windows",
+        "words": [
+          "Windows",
+          "windows"
+        ],
+        "explanation_ar": "Windows بحرف كبير هو اسم نظام تشغيل الحاسوب. windows بحرف صغير هي النوافذ في الجدار. هذا ما سبّب سوء الفهم في الحلقة.",
+        "explanation_en": "Windows with a capital W is a computer operating system. Windows with a small w are the glass openings in a wall. This caused the joke in the episode.",
+        "examples": [
+          {
+            "word": "Windows",
+            "sentence": "Open Windows 7 on your computer."
+          },
+          {
+            "word": "windows",
+            "sentence": "Could you open the windows? It's hot."
+          }
+        ]
+      },
+      {
+        "title": "turn off vs turn on",
+        "words": [
+          "turn off",
+          "turn on"
+        ],
+        "explanation_ar": "turn on يعني تشغيل الجهاز، و turn off يعني إطفاءه. ويمكن قول switch on / switch off بنفس المعنى.",
+        "explanation_en": "Turn on means start a machine; turn off means stop it. Switch on/off means the same.",
+        "examples": [
+          {
+            "word": "turn off",
+            "sentence": "Turn off your computer before you go home."
+          },
+          {
+            "word": "turn on",
+            "sentence": "Turn on the light, please."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I am having problems with my computer.",
+        "meaning_ar": "أواجه مشاكل في حاسوبي.",
+        "meaning_en": "Starting a call to IT support.",
+        "example": "Hello, IT? I am having problems with my computer."
+      },
+      {
+        "phrase": "The screen keeps freezing.",
+        "meaning_ar": "الشاشة تتجمّد باستمرار.",
+        "meaning_en": "Describing a repeated problem.",
+        "example": "The screen keeps freezing when I open my email."
+      },
+      {
+        "phrase": "I seem to have lost some documents.",
+        "meaning_ar": "يبدو أنني فقدت بعض المستندات.",
+        "meaning_en": "Describing lost files politely and carefully.",
+        "example": "I seem to have lost some documents from yesterday."
+      },
+      {
+        "phrase": "I have turned the computer off and on but that hasn't fixed it.",
+        "meaning_ar": "أطفأت الحاسوب وأعدت تشغيله لكن ذلك لم يحل المشكلة.",
+        "meaning_en": "Saying what you have already tried.",
+        "example": "I have turned the computer off and on but that hasn't fixed it."
+      },
+      {
+        "phrase": "Can you help, please?",
+        "meaning_ar": "هل يمكنك المساعدة من فضلك؟",
+        "meaning_en": "Asking for help politely.",
+        "example": "My printer isn't working. Can you help, please?"
+      },
+      {
+        "phrase": "How can I help?",
+        "meaning_ar": "كيف يمكنني المساعدة؟",
+        "meaning_en": "How support staff answer the phone.",
+        "example": "IT, Dave speaking, how can I help?"
+      },
+      {
+        "phrase": "I'll come and have a look.",
+        "meaning_ar": "سآتي وألقي نظرة.",
+        "meaning_en": "Offering to check a problem in person.",
+        "example": "Don't panic! I'll come and have a look."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "keep + verb-ing for repeated actions",
+        "explanation_ar": "keep + الفعل مع ing تعني أن الشيء يتكرر باستمرار، وغالبًا بشكل مزعج: The screen keeps freezing (الشاشة تتجمد مرارًا).",
+        "explanation_en": "keep + -ing means something happens again and again, often annoyingly: The screen keeps freezing.",
+        "examples": [
+          "The screen keeps freezing.",
+          "My laptop keeps crashing.",
+          "The printer keeps stopping."
+        ]
+      },
+      {
+        "title": "seem to have + past participle",
+        "explanation_ar": "seem to have + التصريف الثالث تُستخدم لوصف شيء حدث في الماضي دون تأكد تام، وهي أكثر تهذيبًا وحذرًا: I seem to have lost some documents.",
+        "explanation_en": "seem to have + past participle describes a past event when you are not completely sure. It sounds careful and polite: I seem to have lost some documents.",
+        "examples": [
+          "I seem to have lost some documents.",
+          "The file seems to have disappeared.",
+          "I seem to have deleted the wrong email."
+        ]
+      },
+      {
+        "title": "Present perfect for what you have tried",
+        "explanation_ar": "نستخدم المضارع التام لشرح ما جرّبناه قبل طلب المساعدة: I have turned it off and on, but that hasn't fixed it.",
+        "explanation_en": "Use the present perfect to say what you have already tried: I have turned it off and on, but that hasn't fixed it.",
+        "examples": [
+          "I have turned the computer off and on.",
+          "That hasn't fixed it.",
+          "I've already tried rebooting it."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the technical word for turning a computer off and on again?",
+      "choices": [
+        "unplug",
+        "freeze",
+        "crash",
+        "reboot"
+      ],
+      "answer": 3,
+      "explanation_ar": "reboot تعني إعادة تشغيل الحاسوب.",
+      "explanation_en": "Reboot means turn it off and on again."
+    },
+    {
+      "question": "Complete: 'The screen keeps ___.'",
+      "choices": [
+        "freezing",
+        "freeze",
+        "frozen",
+        "to freeze"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد keep نستخدم الفعل مع ing.",
+      "explanation_en": "After 'keep' use the -ing form."
+    },
+    {
+      "question": "Complete: 'I seem to have ___ some documents.'",
+      "choices": [
+        "losing",
+        "lose",
+        "lost",
+        "loses"
+      ],
+      "answer": 2,
+      "explanation_ar": "seem to have + التصريف الثالث: lost.",
+      "explanation_en": "seem to have + past participle: lost."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I turned the computer off and on but that hasn't fixing it.",
+        "I have turn the computer off and on but that hasn't fix it.",
+        "I have turned the computer off and on but that hasn't fixed it.",
+        "I have turning the computer off and on but that didn't fixed it."
+      ],
+      "answer": 2,
+      "explanation_ar": "المضارع التام: have + turned، hasn't + fixed.",
+      "explanation_en": "Present perfect: have + turned, hasn't + fixed."
+    },
+    {
+      "question": "What does IT stand for?",
+      "choices": [
+        "information technology",
+        "internet telephone",
+        "international trade",
+        "important task"
+      ],
+      "answer": 0,
+      "explanation_ar": "IT اختصار information technology.",
+      "explanation_en": "IT stands for information technology."
+    },
+    {
+      "question": "To make a copy of your files in case you lose them is to ___ them.",
+      "choices": [
+        "press",
+        "freeze",
+        "crash",
+        "back up"
+      ],
+      "answer": 3,
+      "explanation_ar": "back up تعني النسخ الاحتياطي.",
+      "explanation_en": "Back up means make a safe copy."
+    },
+    {
+      "question": "In the episode, 'open the windows' caused confusion. What did Dave from IT really mean?",
+      "choices": [
+        "open the office windows",
+        "open Windows 7 on the computer",
+        "buy new windows",
+        "close the computer"
+      ],
+      "answer": 1,
+      "explanation_ar": "كان يقصد نظام التشغيل Windows وليس نوافذ المكتب.",
+      "explanation_en": "He meant the Windows operating system."
+    },
+    {
+      "question": "A document with numbers in rows and columns is a ___.",
+      "choices": [
+        "spreadsheet",
+        "memory stick",
+        "screen",
+        "laptop"
+      ],
+      "answer": 0,
+      "explanation_ar": "spreadsheet هو جدول البيانات.",
+      "explanation_en": "A spreadsheet has rows and columns of numbers."
+    },
+    {
+      "question": "How does Dave answer the phone?",
+      "choices": [
+        "What do you want?",
+        "Who are you?",
+        "IT, Dave speaking, how can I help?",
+        "Go away, I'm busy."
+      ],
+      "answer": 2,
+      "explanation_ar": "هذه طريقة مهنية لبدء مكالمة الدعم.",
+      "explanation_en": "This is the professional way to answer."
+    },
+    {
+      "question": "'My computer has gone blank' means…",
+      "choices": [
+        "the computer is very fast",
+        "the screen shows nothing",
+        "the computer is new",
+        "it is printing"
+      ],
+      "answer": 1,
+      "explanation_ar": "go blank تعني أن الشاشة أصبحت فارغة.",
+      "explanation_en": "Go blank means the screen shows nothing."
+    }
+  ]
+}

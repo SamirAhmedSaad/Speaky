@@ -1,0 +1,424 @@
+{
+  "title": "Having an Appraisal",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "appraisal",
+        "pos": "noun",
+        "meaning_en": "a meeting where a manager reviews your work and plans the next year",
+        "meaning_ar": "تقييم الأداء السنوي",
+        "note_ar": "الفعل: appraise. في أمريكا يقولون غالبًا performance review.",
+        "note_en": "Verb: appraise. In the US often called a performance review.",
+        "example": "I have my appraisal with my manager on Monday."
+      },
+      {
+        "word": "review",
+        "pos": "verb / noun",
+        "meaning_en": "to look again at something to judge it",
+        "meaning_ar": "يراجع / مراجعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's review your performance this year."
+      },
+      {
+        "word": "performance",
+        "pos": "noun",
+        "meaning_en": "how well you do your work",
+        "meaning_ar": "أداء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Her performance this year was excellent."
+      },
+      {
+        "word": "objectives",
+        "pos": "noun",
+        "meaning_en": "goals you plan to achieve",
+        "meaning_ar": "أهداف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's set some objectives for next year."
+      },
+      {
+        "word": "set objectives",
+        "pos": "phrase",
+        "meaning_en": "to decide on goals",
+        "meaning_ar": "يحدد أهدافًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We set three objectives for the team."
+      },
+      {
+        "word": "look ahead",
+        "pos": "phrasal verb",
+        "meaning_en": "to think about the future",
+        "meaning_ar": "يتطلع إلى المستقبل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's look ahead to next year."
+      },
+      {
+        "word": "highs and lows",
+        "pos": "phrase",
+        "meaning_en": "the good and bad times",
+        "meaning_ar": "الأوقات الجيدة والسيئة / النجاحات والإخفاقات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Every year has its highs and lows."
+      },
+      {
+        "word": "the final straw",
+        "pos": "idiom",
+        "meaning_en": "the last of several bad things, after which you must act",
+        "meaning_ar": "القشة التي قصمت ظهر البعير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Stealing the pens was the final straw."
+      },
+      {
+        "word": "let someone go",
+        "pos": "phrase",
+        "meaning_en": "a polite way to say you have dismissed someone",
+        "meaning_ar": "يستغني عن موظف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company had to let two people go."
+      },
+      {
+        "word": "sack",
+        "pos": "verb",
+        "meaning_en": "to dismiss someone from their job (informal)",
+        "meaning_ar": "يطرد من العمل",
+        "note_ar": "get the sack = يُطرد.",
+        "note_en": "Get the sack = be dismissed.",
+        "example": "He was sacked for stealing."
+      },
+      {
+        "word": "sell yourself",
+        "pos": "phrase",
+        "meaning_en": "to show other people your good qualities",
+        "meaning_ar": "يُبرز نقاط قوته",
+        "note_ar": "",
+        "note_en": "",
+        "example": "An interview is your chance to sell yourself."
+      },
+      {
+        "word": "compliment",
+        "pos": "noun",
+        "meaning_en": "something nice said about someone",
+        "meaning_ar": "إطراء / مديح",
+        "note_ar": "لا تخلط بينها و complement (يكمّل).",
+        "note_en": "Don't confuse with complement (to complete).",
+        "example": "She received many compliments for her work."
+      },
+      {
+        "word": "improve",
+        "pos": "verb",
+        "meaning_en": "to make or become better",
+        "meaning_ar": "يحسّن",
+        "note_ar": "الاسم: improvement.",
+        "note_en": "Noun: improvement.",
+        "example": "I want to improve my presentation skills."
+      },
+      {
+        "word": "admit",
+        "pos": "verb",
+        "meaning_en": "to say that something is true, often something bad",
+        "meaning_ar": "يعترف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't be ashamed to admit your mistakes."
+      },
+      {
+        "word": "sales target",
+        "pos": "noun",
+        "meaning_en": "the amount you are expected to sell",
+        "meaning_ar": "هدف المبيعات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to reach our sales target this month."
+      },
+      {
+        "word": "develop",
+        "pos": "verb",
+        "meaning_en": "to create a new product or idea over time",
+        "meaning_ar": "يطوّر",
+        "note_ar": "الاسم: development.",
+        "note_en": "Noun: development.",
+        "example": "I'd like you to develop a new product."
+      },
+      {
+        "word": "marketing strategy",
+        "pos": "noun",
+        "meaning_en": "a plan for selling and advertising products",
+        "meaning_ar": "استراتيجية تسويق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need a new marketing strategy for Europe."
+      },
+      {
+        "word": "write up",
+        "pos": "phrasal verb",
+        "meaning_en": "to write a full report from notes",
+        "meaning_ar": "يكتب (تقريرًا) بشكل نهائي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you write up your appraisal by Friday?"
+      },
+      {
+        "word": "have your work cut out",
+        "pos": "idiom",
+        "meaning_en": "to have a very difficult job to do",
+        "meaning_ar": "أمامه عمل شاق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has her work cut out this year."
+      },
+      {
+        "word": "put someone out of a job",
+        "pos": "phrase",
+        "meaning_en": "to make someone lose their job",
+        "meaning_ar": "يجعله يفقد وظيفته",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Robots might put some people out of a job."
+      },
+      {
+        "word": "make a start",
+        "pos": "phrase",
+        "meaning_en": "to begin",
+        "meaning_ar": "يبدأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you've time, we could make a start now."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "compliment vs complement",
+        "words": [
+          "compliment",
+          "complement"
+        ],
+        "explanation_ar": "compliment (بحرف i) تعني مديحًا أو كلامًا لطيفًا. complement (بحرف e) تعني شيئًا يكمّل شيئًا آخر ويجعله أفضل. وتُنطق الكلمتان بالطريقة نفسها.",
+        "explanation_en": "A compliment (with i) is something nice you say. A complement (with e) is something that completes or goes well with something else.",
+        "examples": [
+          {
+            "word": "compliment",
+            "sentence": "Paul gave Anna a compliment on her sales."
+          },
+          {
+            "word": "complement",
+            "sentence": "The new designer is a good complement to the team."
+          }
+        ]
+      },
+      {
+        "title": "let someone go vs sack",
+        "words": [
+          "let someone go",
+          "sack"
+        ],
+        "explanation_ar": "المعنى واحد: إنهاء عمل الموظف. let someone go أسلوب مهذب وغير مباشر، أما sack فهي كلمة غير رسمية ومباشرة.",
+        "explanation_en": "Both mean ending someone's job. 'Let someone go' is polite and indirect; 'sack' is informal and direct.",
+        "examples": [
+          {
+            "word": "let someone go",
+            "sentence": "We've had to let her go."
+          },
+          {
+            "word": "sack",
+            "sentence": "He was sacked last week."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What has gone well for you this year? Give me some examples.",
+        "meaning_ar": "ما الأمور التي نجحت فيها هذا العام؟ أعطني بعض الأمثلة.",
+        "meaning_en": "A typical appraisal question about successes.",
+        "example": "What has gone well for you this year? Give me some examples."
+      },
+      {
+        "phrase": "And what didn't go so well?",
+        "meaning_ar": "وما الأمور التي لم تسِر على ما يرام؟",
+        "meaning_en": "Asking about problems and weaknesses.",
+        "example": "And what didn't go so well this year?"
+      },
+      {
+        "phrase": "What should you do more of?",
+        "meaning_ar": "ما الأشياء التي ينبغي أن تُكثر منها؟",
+        "meaning_en": "Asking about areas to develop.",
+        "example": "What should you do more of next year?"
+      },
+      {
+        "phrase": "Let's look ahead and set some objectives.",
+        "meaning_ar": "لنتطلع إلى المستقبل ونحدد بعض الأهداف.",
+        "meaning_en": "Moving on to plans for the next year.",
+        "example": "Now let's look ahead and set some objectives."
+      },
+      {
+        "phrase": "If you've time, we could make a start now.",
+        "meaning_ar": "إن كان لديك وقت، يمكننا أن نبدأ الآن.",
+        "meaning_en": "Politely suggesting to begin.",
+        "example": "If you've time, we could make a start now."
+      },
+      {
+        "phrase": "Could you have it back to me by Friday?",
+        "meaning_ar": "هل يمكنك إعادته إليّ بحلول يوم الجمعة؟",
+        "meaning_en": "Giving a polite deadline.",
+        "example": "Could you write up the report and have it back to me by Friday?"
+      },
+      {
+        "phrase": "Leave it with me.",
+        "meaning_ar": "اترك الأمر لي.",
+        "meaning_en": "I will deal with it.",
+        "example": "Don't worry about the client. Leave it with me."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect vs past simple in reviews",
+        "explanation_ar": "نستخدم المضارع التام لفترة لم تنتهِ بعد (this year): What has gone well this year? ونستخدم الماضي البسيط لحدث منتهٍ في وقت محدد: I completed two contracts in March.",
+        "explanation_en": "Use the present perfect for a time period that is not finished (this year): What has gone well this year? Use the past simple for a finished event: I completed two contracts in March.",
+        "examples": [
+          "What has gone well for you this year?",
+          "I completed two big contracts in the spring.",
+          "You've had plenty of compliments."
+        ]
+      },
+      {
+        "title": "should for advice",
+        "explanation_ar": "should + الفعل تُستخدم للنصيحة أو لما هو مستحسن: What should you do more of? You should improve your sales.",
+        "explanation_en": "Use should + base verb for advice or what is a good idea: What should you do more of?",
+        "examples": [
+          "What should you do more of?",
+          "You should ask for help.",
+          "We should check the figures."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is an appraisal?",
+      "choices": [
+        "a party for new staff",
+        "a meeting to review your work and set goals",
+        "a business trip",
+        "a job advert"
+      ],
+      "answer": 1,
+      "explanation_ar": "appraisal هو اجتماع تقييم الأداء.",
+      "explanation_en": "An appraisal reviews your performance and sets goals."
+    },
+    {
+      "question": "Complete: 'Let's look ahead and ___ some objectives.'",
+      "choices": [
+        "set",
+        "sell",
+        "sack",
+        "sign"
+      ],
+      "answer": 0,
+      "explanation_ar": "set objectives تعني تحديد أهداف.",
+      "explanation_en": "'Set objectives' means decide goals."
+    },
+    {
+      "question": "Complete: 'What ___ gone well for you this year?'",
+      "choices": [
+        "did",
+        "have",
+        "has",
+        "is"
+      ],
+      "answer": 2,
+      "explanation_ar": "المضارع التام مع what (مفرد): has gone.",
+      "explanation_en": "Present perfect with a singular subject: has gone."
+    },
+    {
+      "question": "'Stealing the pens was the final straw.' What does 'the final straw' mean?",
+      "choices": [
+        "a drinking straw",
+        "the last bad thing that makes you act",
+        "the end of the year",
+        "a small mistake"
+      ],
+      "answer": 1,
+      "explanation_ar": "the final straw هو آخر خطأ بعد سلسلة أخطاء يستدعي التحرك.",
+      "explanation_en": "It's the last bad thing after which you must act."
+    },
+    {
+      "question": "Which is the polite way to say someone was dismissed?",
+      "choices": [
+        "We threw her away.",
+        "We kicked her out.",
+        "She's gone forever.",
+        "We've had to let her go."
+      ],
+      "answer": 3,
+      "explanation_ar": "let someone go أسلوب مهذب.",
+      "explanation_en": "'Let someone go' is the polite phrase."
+    },
+    {
+      "question": "Paul gave Anna a ___ on her selling.",
+      "choices": [
+        "compliment",
+        "complement",
+        "complain",
+        "competition"
+      ],
+      "answer": 0,
+      "explanation_ar": "compliment بحرف i تعني مديحًا.",
+      "explanation_en": "Compliment (with i) means praise."
+    },
+    {
+      "question": "'Anna has her work cut out' means…",
+      "choices": [
+        "she has no work",
+        "she cut her work into pieces",
+        "she has a very difficult job ahead",
+        "she lost her job"
+      ],
+      "answer": 2,
+      "explanation_ar": "التعبير يعني أن أمامها عملًا شاقًا.",
+      "explanation_en": "It means she has a very hard job to do."
+    },
+    {
+      "question": "Which question is NOT an appraisal question from the episode?",
+      "choices": [
+        "What should you do more of?",
+        "What didn't go so well?",
+        "Where did you buy your biscuits?",
+        "What has gone well for you this year?"
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال عن البسكويت ليس من أسئلة التقييم.",
+      "explanation_en": "The biscuit question is not an appraisal question."
+    },
+    {
+      "question": "Complete: 'Could you write ___ your appraisal and have it back to me by Friday?'",
+      "choices": [
+        "up",
+        "in",
+        "off",
+        "on"
+      ],
+      "answer": 0,
+      "explanation_ar": "write up تعني كتابة التقرير بشكل نهائي.",
+      "explanation_en": "'Write up' means write a full report."
+    },
+    {
+      "question": "What does 'sell yourself' mean in an appraisal?",
+      "choices": [
+        "work for free",
+        "sell your things",
+        "leave the company",
+        "show your good qualities and successes"
+      ],
+      "answer": 3,
+      "explanation_ar": "sell yourself تعني إبراز نقاط قوتك.",
+      "explanation_en": "It means showing your strengths."
+    }
+  ]
+}

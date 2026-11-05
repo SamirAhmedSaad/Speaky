@@ -1,0 +1,421 @@
+{
+  "title": "At the Hotel",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "reservation",
+        "pos": "noun",
+        "meaning_en": "a booking for a room",
+        "meaning_ar": "حجز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a reservation under the name Smith."
+      },
+      {
+        "word": "under the name",
+        "pos": "phrase",
+        "meaning_en": "booked with that name",
+        "meaning_ar": "باسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The table is under the name Ali."
+      },
+      {
+        "word": "ID card",
+        "pos": "noun",
+        "meaning_en": "an official card that shows who you are",
+        "meaning_ar": "بطاقة الهوية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I have your ID card?"
+      },
+      {
+        "word": "check in",
+        "pos": "phrasal verb",
+        "meaning_en": "arrive and register at a hotel",
+        "meaning_ar": "يسجّل الوصول",
+        "note_ar": "",
+        "note_en": "Noun: check-in.",
+        "example": "Let me process your check-in."
+      },
+      {
+        "word": "all set",
+        "pos": "phrase",
+        "meaning_en": "ready; everything is done",
+        "meaning_ar": "كل شيء جاهز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "OK, you are all set."
+      },
+      {
+        "word": "room key",
+        "pos": "noun",
+        "meaning_en": "the key or card to open your room",
+        "meaning_ar": "مفتاح الغرفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here's your room key."
+      },
+      {
+        "word": "floor",
+        "pos": "noun",
+        "meaning_en": "a level of a building",
+        "meaning_ar": "طابق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your room is on the 4th floor."
+      },
+      {
+        "word": "king-sized bed",
+        "pos": "noun",
+        "meaning_en": "a very big bed",
+        "meaning_ar": "سرير كبير جدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The room has a king-sized bed."
+      },
+      {
+        "word": "bathtub",
+        "pos": "noun",
+        "meaning_en": "a long container you fill with water to wash in",
+        "meaning_ar": "حوض الاستحمام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is a big bathtub."
+      },
+      {
+        "word": "starving",
+        "pos": "adjective",
+        "meaning_en": "very hungry (informal)",
+        "meaning_ar": "جائع جدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Dad, I'm starving."
+      },
+      {
+        "word": "room service",
+        "pos": "noun",
+        "meaning_en": "a hotel service that brings food to your room",
+        "meaning_ar": "خدمة الغرف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's order room service."
+      },
+      {
+        "word": "extras",
+        "pos": "noun",
+        "meaning_en": "additional things",
+        "meaning_ar": "إضافات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Would you like any extras?"
+      },
+      {
+        "word": "gym",
+        "pos": "noun",
+        "meaning_en": "a room with machines for exercise",
+        "meaning_ar": "صالة رياضية",
+        "note_ar": "",
+        "note_en": "Also: fitness facility / fitness centre.",
+        "example": "Where is the gym?"
+      },
+      {
+        "word": "lobby",
+        "pos": "noun",
+        "meaning_en": "the big entrance hall of a hotel",
+        "meaning_ar": "بهو الفندق / الردهة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The gym is just below the lobby."
+      },
+      {
+        "word": "elevator",
+        "pos": "noun",
+        "meaning_en": "a machine that carries people between floors",
+        "meaning_ar": "مصعد",
+        "note_ar": "في بريطانيا: lift",
+        "note_en": "UK: lift.",
+        "example": "You can take the elevator."
+      },
+      {
+        "word": "surcharge",
+        "pos": "noun",
+        "meaning_en": "an extra charge",
+        "meaning_ar": "رسوم إضافية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is there a surcharge for the gym?"
+      },
+      {
+        "word": "check out",
+        "pos": "phrasal verb",
+        "meaning_en": "pay and leave a hotel",
+        "meaning_ar": "يغادر الفندق (يسجّل المغادرة)",
+        "note_ar": "",
+        "note_en": "Noun: check-out.",
+        "example": "I am checking out."
+      },
+      {
+        "word": "stay",
+        "pos": "noun",
+        "meaning_en": "the time you spend at a place",
+        "meaning_ar": "إقامة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How did you enjoy your stay?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "check in vs check out",
+        "words": [
+          "check in",
+          "check out"
+        ],
+        "explanation_ar": "check in = تصل وتسجّل في الفندق. check out = تدفع وتغادر الفندق.",
+        "explanation_en": "\"Check in\" = arrive and register. \"Check out\" = pay and leave.",
+        "examples": [
+          {
+            "word": "check in",
+            "sentence": "We checked in at 2 pm."
+          },
+          {
+            "word": "check out",
+            "sentence": "I am checking out now."
+          }
+        ]
+      },
+      {
+        "title": "elevator vs stairs",
+        "words": [
+          "elevator",
+          "stairs"
+        ],
+        "explanation_ar": "elevator (lift في بريطانيا) آلة تنقلك بين الطوابق. stairs درج تصعده بقدميك.",
+        "explanation_en": "An elevator (UK: lift) carries you. You walk up the stairs.",
+        "examples": [
+          {
+            "word": "elevator",
+            "sentence": "Take the elevator to the 4th floor."
+          },
+          {
+            "word": "stairs",
+            "sentence": "You can take the stairs."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I have a reservation under the name Smith.",
+        "meaning_ar": "لدي حجز باسم سميث.",
+        "meaning_en": "Checking in at a hotel.",
+        "example": "I have a reservation under the name Hassan."
+      },
+      {
+        "phrase": "Can I have your ID card, please?",
+        "meaning_ar": "هل يمكنني أخذ بطاقة هويتك؟",
+        "meaning_en": "The receptionist asks for ID.",
+        "example": "Can I have your passport, please?"
+      },
+      {
+        "phrase": "You are all set.",
+        "meaning_ar": "كل شيء جاهز.",
+        "meaning_en": "Everything is done.",
+        "example": "Here's your key. You are all set."
+      },
+      {
+        "phrase": "Your room is on the 4th floor.",
+        "meaning_ar": "غرفتك في الطابق الرابع.",
+        "meaning_en": "Giving the room location.",
+        "example": "Your room is on the second floor."
+      },
+      {
+        "phrase": "This room is exactly what I was hoping for.",
+        "meaning_ar": "هذه الغرفة هي بالضبط ما كنت آمله.",
+        "meaning_en": "You are very happy with something.",
+        "example": "This bag is exactly what I wanted."
+      },
+      {
+        "phrase": "I would like to order room service.",
+        "meaning_ar": "أريد طلب خدمة الغرف.",
+        "meaning_en": "Ordering food to your room.",
+        "example": "Hello, I would like to order room service."
+      },
+      {
+        "phrase": "Your order will be with you in 45 minutes.",
+        "meaning_ar": "سيصلك طلبك خلال 45 دقيقة.",
+        "meaning_en": "Telling the wait time.",
+        "example": "Your food will be with you in 20 minutes."
+      },
+      {
+        "phrase": "Where is your fitness facility located?",
+        "meaning_ar": "أين تقع صالة الرياضة لديكم؟",
+        "meaning_en": "Asking where something is (formal).",
+        "example": "Where is the restaurant located?"
+      },
+      {
+        "phrase": "What time does it open and close?",
+        "meaning_ar": "متى يفتح ومتى يغلق؟",
+        "meaning_en": "Asking about opening hours.",
+        "example": "What time does the pool open?"
+      },
+      {
+        "phrase": "I am checking out.",
+        "meaning_ar": "أنا أغادر الفندق.",
+        "meaning_en": "Telling reception you are leaving.",
+        "example": "Good morning. I am checking out."
+      },
+      {
+        "phrase": "How did you enjoy your stay?",
+        "meaning_ar": "كيف كانت إقامتك؟",
+        "meaning_en": "Asking about the guest's experience.",
+        "example": "How did you enjoy your stay with us?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Prepositions of place: on the 4th floor, below the lobby",
+        "explanation_ar": "on + الطابق (on the 4th floor)، below = تحت، in + المكان.",
+        "explanation_en": "Use \"on\" for floors (on the 4th floor), \"below\" = under.",
+        "examples": [
+          "Your room is on the 4th floor.",
+          "The gym is just below the lobby.",
+          "The restaurant is on the first floor."
+        ]
+      },
+      {
+        "title": "Ordinal numbers for floors",
+        "explanation_ar": "للطوابق نستخدم الأعداد الترتيبية: first, second, third, fourth (4th).",
+        "explanation_en": "Use ordinal numbers for floors: first, second, third, fourth.",
+        "examples": [
+          "the 1st (first) floor",
+          "the 4th (fourth) floor",
+          "the 7th (seventh) floor"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "When you arrive at a hotel, you ...",
+      "choices": [
+        "check out",
+        "check in",
+        "check up",
+        "check off"
+      ],
+      "answer": 1,
+      "explanation_ar": "عند الوصول: check in.",
+      "explanation_en": "When you arrive: check in."
+    },
+    {
+      "question": "In British English, an \"elevator\" is a ...",
+      "choices": [
+        "stairs",
+        "lobby",
+        "gym",
+        "lift"
+      ],
+      "answer": 3,
+      "explanation_ar": "في بريطانيا lift.",
+      "explanation_en": "UK: lift."
+    },
+    {
+      "question": "\"Dad, I'm starving.\" means ...",
+      "choices": [
+        "I'm very hungry.",
+        "I'm very tired.",
+        "I'm cold.",
+        "I'm bored."
+      ],
+      "answer": 0,
+      "explanation_ar": "جائع جدًا.",
+      "explanation_en": "Very hungry."
+    },
+    {
+      "question": "Your room is ____ the 4th floor.",
+      "choices": [
+        "in",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": 2,
+      "explanation_ar": "الإجابة الصحيحة: on the 4th floor.",
+      "explanation_en": "We say \"on the 4th floor\"."
+    },
+    {
+      "question": "Food brought to your hotel room is ...",
+      "choices": [
+        "check-in",
+        "surcharge",
+        "room service",
+        "lobby"
+      ],
+      "answer": 2,
+      "explanation_ar": "خدمة الغرف.",
+      "explanation_en": "Room service."
+    },
+    {
+      "question": "\"You are all set.\" means ...",
+      "choices": [
+        "Everything is ready.",
+        "Please sit down.",
+        "You must pay more.",
+        "You are late."
+      ],
+      "answer": 0,
+      "explanation_ar": "كل شيء جاهز.",
+      "explanation_en": "Everything is ready."
+    },
+    {
+      "question": "\"Is there a surcharge?\" asks about ...",
+      "choices": [
+        "a big bed",
+        "the floor",
+        "breakfast time",
+        "an extra charge"
+      ],
+      "answer": 3,
+      "explanation_ar": "رسوم إضافية.",
+      "explanation_en": "An extra charge."
+    },
+    {
+      "question": "I have a reservation ____ the name Smith.",
+      "choices": [
+        "on",
+        "under",
+        "with",
+        "by"
+      ],
+      "answer": 1,
+      "explanation_ar": "الإجابة الصحيحة: under the name.",
+      "explanation_en": "We say \"under the name\"."
+    },
+    {
+      "question": "The big entrance hall of a hotel is the ...",
+      "choices": [
+        "lobby",
+        "gym",
+        "bathtub",
+        "floor"
+      ],
+      "answer": 0,
+      "explanation_ar": "بهو الفندق: lobby.",
+      "explanation_en": "The lobby."
+    },
+    {
+      "question": "How did you enjoy your ____? I enjoyed the hotel.",
+      "choices": [
+        "staying at",
+        "stayed",
+        "stay",
+        "stays"
+      ],
+      "answer": 2,
+      "explanation_ar": "your stay = إقامتك.",
+      "explanation_en": "\"Your stay\" (noun)."
+    }
+  ]
+}

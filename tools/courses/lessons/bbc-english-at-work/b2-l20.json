@@ -1,0 +1,452 @@
+{
+  "title": "Taking Telephone Messages",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "take a message",
+        "pos": "phrase",
+        "meaning_en": "to write down what a caller wants to tell someone",
+        "meaning_ar": "يأخذ رسالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I take a message?"
+      },
+      {
+        "word": "call someone back",
+        "pos": "phrasal verb",
+        "meaning_en": "to phone someone who phoned you earlier",
+        "meaning_ar": "يعاود الاتصال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll call you back in ten minutes."
+      },
+      {
+        "word": "convenient",
+        "pos": "adjective",
+        "meaning_en": "suitable, not causing problems",
+        "meaning_ar": "مناسب (من حيث الوقت)",
+        "note_ar": "الاسم: convenience.",
+        "note_en": "Noun: convenience.",
+        "example": "When is a convenient time to call?"
+      },
+      {
+        "word": "caller",
+        "pos": "noun",
+        "meaning_en": "a person who makes a phone call",
+        "meaning_ar": "المتصل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The caller didn't leave a name."
+      },
+      {
+        "word": "pass on",
+        "pos": "phrasal verb",
+        "meaning_en": "to give a message to another person",
+        "meaning_ar": "يبلّغ / ينقل الرسالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll pass that on to him."
+      },
+      {
+        "word": "hold on",
+        "pos": "phrasal verb",
+        "meaning_en": "to wait for a short time (on the phone)",
+        "meaning_ar": "انتظر قليلًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hold on, I'll get a pen."
+      },
+      {
+        "word": "patience",
+        "pos": "noun",
+        "meaning_en": "the ability to wait calmly",
+        "meaning_ar": "صبر",
+        "note_ar": "الصفة: patient.",
+        "note_en": "Adjective: patient.",
+        "example": "Thanks for your patience."
+      },
+      {
+        "word": "at the moment",
+        "pos": "phrase",
+        "meaning_en": "now",
+        "meaning_ar": "في الوقت الحالي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's not here at the moment."
+      },
+      {
+        "word": "run out of",
+        "pos": "phrasal verb",
+        "meaning_en": "to have none left",
+        "meaning_ar": "ينفد منه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've run out of paper."
+      },
+      {
+        "word": "stapler",
+        "pos": "noun",
+        "meaning_en": "a tool that joins papers with metal pins",
+        "meaning_ar": "دبّاسة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Has anyone seen the stapler?"
+      },
+      {
+        "word": "invoice",
+        "pos": "noun",
+        "meaning_en": "a document asking a customer to pay for goods or work",
+        "meaning_ar": "فاتورة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please send the invoice to the client."
+      },
+      {
+        "word": "paperwork",
+        "pos": "noun",
+        "meaning_en": "office work with documents and forms",
+        "meaning_ar": "الأعمال الورقية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Denise usually does the paperwork."
+      },
+      {
+        "word": "send out",
+        "pos": "phrasal verb",
+        "meaning_en": "to send something to many people or to a customer",
+        "meaning_ar": "يرسل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Has the invoice been sent out?"
+      },
+      {
+        "word": "chaotic",
+        "pos": "adjective",
+        "meaning_en": "in a state of complete confusion",
+        "meaning_ar": "فوضوي",
+        "note_ar": "الاسم: chaos (تُنطق /ˈkeɪɒs/).",
+        "note_en": "Noun: chaos, said /ˈkeɪɒs/.",
+        "example": "The office has been chaotic all week."
+      },
+      {
+        "word": "hectic",
+        "pos": "adjective",
+        "meaning_en": "very busy and full of activity",
+        "meaning_ar": "مزدحم بالعمل / محموم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a hectic day at the office."
+      },
+      {
+        "word": "remain professional",
+        "pos": "phrase",
+        "meaning_en": "to keep behaving in a correct work manner",
+        "meaning_ar": "يحافظ على الاحترافية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Even when you're busy, remain professional."
+      },
+      {
+        "word": "attitude",
+        "pos": "noun",
+        "meaning_en": "the way you think and behave",
+        "meaning_ar": "موقف / طريقة تعامل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He has a good attitude to work."
+      },
+      {
+        "word": "rude",
+        "pos": "adjective",
+        "meaning_en": "not polite",
+        "meaning_ar": "وقح / غير مهذب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't be rude to callers."
+      },
+      {
+        "word": "cope",
+        "pos": "verb",
+        "meaning_en": "to deal successfully with a difficult situation",
+        "meaning_ar": "يتأقلم / يتدبّر الأمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How will the team cope without Denise?"
+      },
+      {
+        "word": "a pair of hands",
+        "pos": "idiom",
+        "meaning_en": "a person to help with work",
+        "meaning_ar": "شخص إضافي للمساعدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We could do with another pair of hands."
+      },
+      {
+        "word": "could do with",
+        "pos": "phrase",
+        "meaning_en": "would benefit from having something",
+        "meaning_ar": "بحاجة إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The office could do with more staff."
+      },
+      {
+        "word": "potential client",
+        "pos": "noun",
+        "meaning_en": "a person or company that might buy from you",
+        "meaning_ar": "عميل محتمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That caller could be a potential client."
+      },
+      {
+        "word": "teabags",
+        "pos": "noun",
+        "meaning_en": "small paper bags with tea inside",
+        "meaning_ar": "أكياس الشاي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've run out of teabags."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "call back vs call again",
+        "words": [
+          "call back",
+          "call again"
+        ],
+        "explanation_ar": "call back تعني أن تتصل بشخص ردًا على اتصاله السابق. call again تعني أن يتصل الشخص نفسه مرة أخرى.",
+        "explanation_en": "'Call back' = return someone's call. 'Call again' = phone another time yourself.",
+        "examples": [
+          {
+            "word": "call back",
+            "sentence": "I'll make sure he calls you back."
+          },
+          {
+            "word": "call again",
+            "sentence": "He's busy. Could you call again later?"
+          }
+        ]
+      },
+      {
+        "title": "hectic vs chaotic",
+        "words": [
+          "hectic",
+          "chaotic"
+        ],
+        "explanation_ar": "hectic يعني مزدحمًا جدًا بالعمل لكنه قد يكون منظمًا. chaotic يعني فوضويًا بلا تنظيم.",
+        "explanation_en": "Hectic = very busy. Chaotic = disorganised and confused.",
+        "examples": [
+          {
+            "word": "hectic",
+            "sentence": "It's a hectic week, but we're managing."
+          },
+          {
+            "word": "chaotic",
+            "sentence": "Nobody knew what to do – it was chaotic."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "We're a bit busy at the moment; could I take your name and number and we'll call you back?",
+        "meaning_ar": "نحن مشغولون قليلًا الآن؛ هل يمكنني أخذ اسمك ورقمك وسنعاود الاتصال بك؟",
+        "meaning_en": "A polite way to deal with a call when you're busy.",
+        "example": "We're a bit busy at the moment; could I take your name and number and we'll call you back?"
+      },
+      {
+        "phrase": "When would be a convenient time to call you?",
+        "meaning_ar": "متى يكون الوقت المناسب للاتصال بك؟",
+        "meaning_en": "What time is good for you?",
+        "example": "When would be a convenient time to call you tomorrow?"
+      },
+      {
+        "phrase": "Could I take a message please and I'll make sure he calls you back?",
+        "meaning_ar": "هل يمكنني أخذ رسالة وسأتأكد من أنه سيعاود الاتصال بك؟",
+        "meaning_en": "Let me write your message and he will phone you.",
+        "example": "She's in a meeting. Could I take a message, and I'll make sure she calls you back?"
+      },
+      {
+        "phrase": "Thanks for your patience.",
+        "meaning_ar": "شكرًا على صبرك.",
+        "meaning_en": "Thank you for waiting.",
+        "example": "Thanks for your patience. I have your file now."
+      },
+      {
+        "phrase": "He doesn't seem to be here at the moment.",
+        "meaning_ar": "يبدو أنه ليس موجودًا في الوقت الحالي.",
+        "meaning_en": "He is not here now.",
+        "example": "I'm sorry, he doesn't seem to be here at the moment."
+      },
+      {
+        "phrase": "I'll pass that on.",
+        "meaning_ar": "سأبلّغه بذلك.",
+        "meaning_en": "I'll give him the message.",
+        "example": "Call Bob about the order? OK, I'll pass that on."
+      },
+      {
+        "phrase": "Hello, Tip Top Trading, Anna speaking.",
+        "meaning_ar": "مرحبًا، تيب توب تريدينغ، آنا تتحدث.",
+        "meaning_en": "A professional way to answer the phone at work.",
+        "example": "Good morning, Star Hotel, Omar speaking."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "would for polite questions",
+        "explanation_ar": "When would be a convenient time? أكثر تهذيبًا من When is a good time? استخدام would و could يجعل السؤال ألطف.",
+        "explanation_en": "Using would and could makes questions more polite.",
+        "examples": [
+          "When would be a convenient time to call you?",
+          "Could I take your name and number?",
+          "Would you like to leave a message?"
+        ]
+      },
+      {
+        "title": "make sure + subject + verb",
+        "explanation_ar": "make sure تعني «أتأكد من أن»، وبعدها جملة كاملة بالمضارع حتى للمستقبل: I'll make sure he calls you back.",
+        "explanation_en": "'Make sure' is followed by a full clause in the present simple, even for the future.",
+        "examples": [
+          "I'll make sure he calls you back.",
+          "Make sure you write down the number.",
+          "I'll make sure the invoice is sent today."
+        ]
+      },
+      {
+        "title": "Present perfect passive: has been sent",
+        "explanation_ar": "للسؤال عن عمل يجب أن يكون قد تم: Has the invoice been sent out yet? (has/have + been + التصريف الثالث).",
+        "explanation_en": "Use has/have + been + past participle to ask if a job is done.",
+        "examples": [
+          "Has that invoice been sent out yet?",
+          "The order has been delivered.",
+          "Have the messages been passed on?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "When would be a ___ time to call you?",
+      "choices": [
+        "comfortable",
+        "convenient",
+        "busy",
+        "rude"
+      ],
+      "answer": 1,
+      "explanation_ar": "convenient = مناسب.",
+      "explanation_en": "Convenient means suitable."
+    },
+    {
+      "question": "Could I take a ___ please and I'll make sure he calls you back?",
+      "choices": [
+        "letter box",
+        "massage",
+        "note book",
+        "message"
+      ],
+      "answer": 3,
+      "explanation_ar": "take a message = يأخذ رسالة.",
+      "explanation_en": "We say 'take a message'."
+    },
+    {
+      "question": "I'll make sure he ___ you back.",
+      "choices": [
+        "calls",
+        "will calls",
+        "calling",
+        "to call"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد make sure نستخدم المضارع: he calls.",
+      "explanation_en": "After 'make sure' use the present simple."
+    },
+    {
+      "question": "Tom says 'We're very busy, so call back later. Bye.' Why is this bad?",
+      "choices": [
+        "It's too long",
+        "It's too formal",
+        "It's rude – the caller could be a client",
+        "He says the wrong number"
+      ],
+      "answer": 2,
+      "explanation_ar": "يجب أن نبقى مهذبين؛ قد يكون المتصل عميلًا.",
+      "explanation_en": "It's rude; the caller might be a client."
+    },
+    {
+      "question": "We've ___ pens and paper.",
+      "choices": [
+        "run over",
+        "run into",
+        "run out of",
+        "run away"
+      ],
+      "answer": 2,
+      "explanation_ar": "run out of = نفد.",
+      "explanation_en": "'Run out of' means have none left."
+    },
+    {
+      "question": "Has the invoice ___ out yet?",
+      "choices": [
+        "been sent",
+        "sent",
+        "be sent",
+        "sending"
+      ],
+      "answer": 0,
+      "explanation_ar": "المبني للمجهول: has been sent.",
+      "explanation_en": "Passive: has been sent."
+    },
+    {
+      "question": "What is an 'invoice'?",
+      "choices": [
+        "a newspaper",
+        "a phone message",
+        "a business card",
+        "a document asking for payment"
+      ],
+      "answer": 3,
+      "explanation_ar": "invoice فاتورة.",
+      "explanation_en": "An invoice asks for payment."
+    },
+    {
+      "question": "'Hold on' on the phone means ___.",
+      "choices": [
+        "hang up",
+        "wait a moment",
+        "speak louder",
+        "call back"
+      ],
+      "answer": 1,
+      "explanation_ar": "hold on = انتظر قليلًا.",
+      "explanation_en": "It means wait a moment."
+    },
+    {
+      "question": "Which is the best way to answer a work phone?",
+      "choices": [
+        "Hello, Tip Top Trading, Anna speaking.",
+        "What do you want?",
+        "Yeah?",
+        "Who's this?"
+      ],
+      "answer": 0,
+      "explanation_ar": "الرد المهني يذكر اسم الشركة واسمك.",
+      "explanation_en": "Say the company and your name."
+    },
+    {
+      "question": "The office is very busy and full of activity. It's ___.",
+      "choices": [
+        "patient",
+        "convenient",
+        "hectic",
+        "polite"
+      ],
+      "answer": 2,
+      "explanation_ar": "hectic = مزدحم بالعمل.",
+      "explanation_en": "Hectic means very busy."
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "title": "Shopping for Food at the Grocery Store",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "grocery store",
+        "pos": "noun",
+        "meaning_en": "a shop that sells food",
+        "meaning_ar": "محل بقالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I buy bread at the grocery store."
+      },
+      {
+        "word": "picnic",
+        "pos": "noun",
+        "meaning_en": "a meal you eat outside, for example in a park",
+        "meaning_ar": "نزهة (مع طعام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need food for a family picnic."
+      },
+      {
+        "word": "sandwich",
+        "pos": "noun",
+        "meaning_en": "two pieces of bread with food between them",
+        "meaning_ar": "شطيرة (ساندويتش)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are making big sandwiches."
+      },
+      {
+        "word": "bread",
+        "pos": "noun",
+        "meaning_en": "a basic food made from flour and baked",
+        "meaning_ar": "خبز",
+        "note_ar": "غير معدود: some bread",
+        "note_en": "Uncountable: some bread.",
+        "example": "Some good bread, please."
+      },
+      {
+        "word": "bake",
+        "pos": "verb",
+        "meaning_en": "cook in an oven",
+        "meaning_ar": "يخبز",
+        "note_ar": "الماضي: baked",
+        "note_en": "Past: baked.",
+        "example": "It was baked this morning."
+      },
+      {
+        "word": "loaf",
+        "pos": "noun",
+        "meaning_en": "one whole bread",
+        "meaning_ar": "رغيف",
+        "note_ar": "الجمع: loaves",
+        "note_en": "Plural: loaves.",
+        "example": "I'll take two loaves."
+      },
+      {
+        "word": "cheese",
+        "pos": "noun",
+        "meaning_en": "food made from milk, often yellow",
+        "meaning_ar": "جبن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have any cheese?"
+      },
+      {
+        "word": "cheddar",
+        "pos": "noun",
+        "meaning_en": "a hard yellow cheese",
+        "meaning_ar": "جبن شيدر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have fresh cheddar cheese."
+      },
+      {
+        "word": "block",
+        "pos": "noun",
+        "meaning_en": "a solid piece with flat sides",
+        "meaning_ar": "قالب / قطعة كبيرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take a block of cheese."
+      },
+      {
+        "word": "sliced",
+        "pos": "adjective",
+        "meaning_en": "cut into thin pieces",
+        "meaning_ar": "مقطّع شرائح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take some sliced turkey."
+      },
+      {
+        "word": "turkey",
+        "pos": "noun",
+        "meaning_en": "the meat of a big bird",
+        "meaning_ar": "لحم الديك الرومي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take a pound of turkey."
+      },
+      {
+        "word": "pound",
+        "pos": "noun",
+        "meaning_en": "a unit of weight (about 450 grams)",
+        "meaning_ar": "رطل (حوالي 450 غرامًا)",
+        "note_ar": "أيضًا اسم عملة بريطانيا",
+        "note_en": "Also the money of the UK.",
+        "example": "A pound of chicken, please."
+      },
+      {
+        "word": "bottle",
+        "pos": "noun",
+        "meaning_en": "a tall container for drinks",
+        "meaning_ar": "زجاجة / قنينة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take a large bottle."
+      },
+      {
+        "word": "change",
+        "pos": "noun",
+        "meaning_en": "the money you get back when you pay too much",
+        "meaning_ar": "الباقي (من المال)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep the change."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "loaf vs slice",
+        "words": [
+          "loaf",
+          "slice"
+        ],
+        "explanation_ar": "loaf = رغيف كامل. slice = شريحة واحدة من الرغيف.",
+        "explanation_en": "A \"loaf\" is a whole bread. A \"slice\" is one thin piece of it.",
+        "examples": [
+          {
+            "word": "loaf",
+            "sentence": "two loaves of bread"
+          },
+          {
+            "word": "slice",
+            "sentence": "a slice of bread"
+          }
+        ]
+      },
+      {
+        "title": "Food units: a loaf, a block, a bottle, a pound",
+        "words": [
+          "loaf",
+          "block",
+          "bottle",
+          "pound"
+        ],
+        "explanation_ar": "نستخدم وحدات مع الطعام غير المعدود: a loaf of bread، a block of cheese، a bottle of juice، a pound of meat.",
+        "explanation_en": "Use units with uncountable food: a loaf of bread, a block of cheese, a bottle of juice, a pound of meat.",
+        "examples": [
+          {
+            "word": "loaf",
+            "sentence": "a loaf of bread"
+          },
+          {
+            "word": "block",
+            "sentence": "a block of cheese"
+          },
+          {
+            "word": "bottle",
+            "sentence": "a bottle of orange juice"
+          },
+          {
+            "word": "pound",
+            "sentence": "a pound of turkey"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm doing well.",
+        "meaning_ar": "أنا بخير.",
+        "meaning_en": "Another way to say \"I'm fine\".",
+        "example": "How are you? I'm doing well, thanks."
+      },
+      {
+        "phrase": "What can I get for you today?",
+        "meaning_ar": "ماذا أحضر لك اليوم؟",
+        "meaning_en": "The seller asks what you want.",
+        "example": "Good morning! What can I get for you today?"
+      },
+      {
+        "phrase": "I need a few things for a family picnic.",
+        "meaning_ar": "أحتاج بعض الأشياء لنزهة عائلية.",
+        "meaning_en": "Explaining why you are shopping.",
+        "example": "I need a few things for dinner."
+      },
+      {
+        "phrase": "What do you need first?",
+        "meaning_ar": "ماذا تحتاج أولًا؟",
+        "meaning_en": "Starting the order.",
+        "example": "OK. What do you need first?"
+      },
+      {
+        "phrase": "I'll take two loaves.",
+        "meaning_ar": "سآخذ رغيفين.",
+        "meaning_en": "Choosing an amount.",
+        "example": "I'll take one loaf, please."
+      },
+      {
+        "phrase": "Do you have any cheese?",
+        "meaning_ar": "هل لديك أي جبن؟",
+        "meaning_en": "Asking if they sell something.",
+        "example": "Do you have any eggs?"
+      },
+      {
+        "phrase": "Would you like any meat?",
+        "meaning_ar": "هل تريد أي لحم؟",
+        "meaning_en": "Offering more items.",
+        "example": "Would you like any fruit?"
+      },
+      {
+        "phrase": "Anything to drink?",
+        "meaning_ar": "أي شيء للشرب؟",
+        "meaning_en": "Asking about drinks.",
+        "example": "Anything to drink? Water, please."
+      },
+      {
+        "phrase": "Keep the change.",
+        "meaning_ar": "احتفظ بالباقي.",
+        "meaning_en": "You don't want the extra money back.",
+        "example": "Here's twenty-five dollars. Keep the change."
+      },
+      {
+        "phrase": "Have a great picnic!",
+        "meaning_ar": "استمتع بنزهتك!",
+        "meaning_en": "A kind goodbye.",
+        "example": "Have a great weekend!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "any in questions, some in answers",
+        "explanation_ar": "نستخدم any في الأسئلة والنفي، وsome في الإثبات: Do you have any cheese? Yes, I have some.",
+        "explanation_en": "Use \"any\" in questions and negatives, \"some\" in positive sentences.",
+        "examples": [
+          "Do you have any cheese?",
+          "I'll take some sliced turkey.",
+          "We don't have any milk."
+        ]
+      },
+      {
+        "title": "Passive: It was baked this morning",
+        "explanation_ar": "المبني للمجهول في الماضي: was/were + التصريف الثالث. نستخدمه عندما لا يهم من فعل الشيء.",
+        "explanation_en": "Past passive: was/were + past participle. Use it when who did it is not important.",
+        "examples": [
+          "It was baked this morning.",
+          "The bread was made today.",
+          "The fish was caught yesterday."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the plural of \"loaf\"?",
+      "choices": [
+        "loafs",
+        "loaves",
+        "loafes",
+        "loafies"
+      ],
+      "answer": 1,
+      "explanation_ar": "الجمع loaves.",
+      "explanation_en": "The plural is \"loaves\"."
+    },
+    {
+      "question": "Do you have ____ cheese?",
+      "choices": [
+        "some",
+        "a",
+        "many",
+        "any"
+      ],
+      "answer": 3,
+      "explanation_ar": "في السؤال نستخدم any.",
+      "explanation_en": "In questions, use \"any\"."
+    },
+    {
+      "question": "\"Keep the change.\" means ...",
+      "choices": [
+        "You can keep the extra money.",
+        "Give me my money back.",
+        "Change the cheese.",
+        "Keep the bread."
+      ],
+      "answer": 0,
+      "explanation_ar": "احتفظ بالباقي من المال.",
+      "explanation_en": "Keep the extra money."
+    },
+    {
+      "question": "A \"pound\" is about ...",
+      "choices": [
+        "45 grams",
+        "4 kilos",
+        "450 grams",
+        "1 gram"
+      ],
+      "answer": 2,
+      "explanation_ar": "الرطل حوالي 450 غرامًا.",
+      "explanation_en": "About 450 grams."
+    },
+    {
+      "question": "It ____ baked this morning.",
+      "choices": [
+        "is",
+        "were",
+        "was",
+        "did"
+      ],
+      "answer": 2,
+      "explanation_ar": "it + was في الماضي.",
+      "explanation_en": "it + was (past)."
+    },
+    {
+      "question": "a ____ of orange juice",
+      "choices": [
+        "bottle",
+        "loaf",
+        "block",
+        "slice"
+      ],
+      "answer": 0,
+      "explanation_ar": "زجاجة عصير: a bottle of juice.",
+      "explanation_en": "a bottle of juice."
+    },
+    {
+      "question": "A picnic is a meal ...",
+      "choices": [
+        "in a restaurant",
+        "in bed",
+        "at school only",
+        "outside, for example in a park"
+      ],
+      "answer": 3,
+      "explanation_ar": "النزهة وجبة في الخارج.",
+      "explanation_en": "A picnic is eaten outside."
+    },
+    {
+      "question": "\"How are you?\" \"____\"",
+      "choices": [
+        "I'm a picnic.",
+        "I'm doing well.",
+        "I'll take two.",
+        "Keep the change."
+      ],
+      "answer": 1,
+      "explanation_ar": "الرد على السؤال عن الحال.",
+      "explanation_en": "The answer to \"How are you?\""
+    },
+    {
+      "question": "I'll take a ____ of cheese.",
+      "choices": [
+        "block",
+        "bottle",
+        "loaf",
+        "drink"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول a block of cheese.",
+      "explanation_en": "We say \"a block of cheese\"."
+    },
+    {
+      "question": "\"Sliced\" means ...",
+      "choices": [
+        "cooked in an oven",
+        "very cold",
+        "cut into thin pieces",
+        "very big"
+      ],
+      "answer": 2,
+      "explanation_ar": "sliced مقطع شرائح.",
+      "explanation_en": "Sliced = cut into thin pieces."
+    }
+  ]
+}

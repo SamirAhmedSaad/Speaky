@@ -1,0 +1,60 @@
+{
+  "title": "Cleaning the House",
+  "content": {
+    "vocabulary": [
+      {"word": "spill", "pos": "verb / noun", "meaning_en": "to let a liquid (or rice, sugar...) fall out by accident; the mess it makes", "meaning_ar": "يسكب (بالخطأ) / انسكاب", "note_ar": "الماضي: spilled أو spilt", "note_en": "Past: spilled (US) / spilt (UK).", "example": "He spilled his tea on the floor."},
+      {"word": "wipe", "pos": "verb", "meaning_en": "to clean a surface gently with a cloth or paper", "meaning_ar": "يمسح", "note_ar": "حركة خفيفة لتنظيف شيء غير متّسخ كثيرًا", "note_en": "A soft movement for light dirt.", "example": "Please wipe the table after dinner."},
+      {"word": "rag / cloth", "pos": "noun", "meaning_en": "a piece of soft material used for cleaning", "meaning_ar": "خرقة / قطعة قماش", "note_ar": "", "note_en": "", "example": "I cleaned the window with a dry cloth."},
+      {"word": "wash", "pos": "verb", "meaning_en": "to clean with water and soap", "meaning_ar": "يغسل", "note_ar": "", "note_en": "", "example": "Wash your hands before you eat."},
+      {"word": "sink", "pos": "noun", "meaning_en": "the bowl in a kitchen or bathroom with taps, where you wash things", "meaning_ar": "حوض المغسلة", "note_ar": "", "note_en": "", "example": "Put the dirty dishes in the sink."},
+      {"word": "washing machine", "pos": "noun", "meaning_en": "a machine that washes clothes", "meaning_ar": "غسّالة الملابس", "note_ar": "", "note_en": "", "example": "The washing machine is in the bathroom."},
+      {"word": "laundry", "pos": "noun", "meaning_en": "clothes that need washing or have just been washed", "meaning_ar": "الغسيل (الملابس)", "note_ar": "do the laundry = يغسل الملابس", "note_en": "do the laundry", "example": "I have a big pile of laundry."},
+      {"word": "scrub", "pos": "verb", "meaning_en": "to clean something hard with a brush because it is very dirty", "meaning_ar": "يفرك بقوة", "note_ar": "نفرك الأرضيات والأحواض والمراحيض والجدران", "note_en": "We scrub floors, sinks, toilets and walls.", "example": "She scrubbed the floor with a brush."},
+      {"word": "brush", "pos": "noun", "meaning_en": "a tool with hairs or bristles for cleaning", "meaning_ar": "فرشاة", "note_ar": "", "note_en": "", "example": "Use a brush to clean the bathroom."},
+      {"word": "sweep", "pos": "verb", "meaning_en": "to clean a hard floor with a broom", "meaning_ar": "يكنس (بالمكنسة اليدوية)", "note_ar": "الماضي: swept", "note_en": "Past: swept.", "example": "I swept the kitchen floor."},
+      {"word": "broom", "pos": "noun", "meaning_en": "a brush with a long handle for sweeping floors", "meaning_ar": "مكنسة يدوية", "note_ar": "", "note_en": "", "example": "The broom is behind the door."},
+      {"word": "vacuum", "pos": "verb / noun", "meaning_en": "to clean carpets with a machine that sucks up dirt; the machine itself", "meaning_ar": "يكنس بالمكنسة الكهربائية / مكنسة كهربائية", "note_ar": "الآلة: vacuum cleaner", "note_en": "The machine: vacuum cleaner.", "example": "I vacuum the carpets every Saturday."},
+      {"word": "carpet", "pos": "noun", "meaning_en": "a soft floor covering, usually from wall to wall", "meaning_ar": "سجّاد يغطي الأرضية كلها", "note_ar": "", "note_en": "", "example": "The bedroom has a blue carpet."},
+      {"word": "rug", "pos": "noun", "meaning_en": "a small carpet that covers only part of a floor", "meaning_ar": "سجّادة صغيرة / بساط", "note_ar": "", "note_en": "", "example": "There is a small rug next to the bed."},
+      {"word": "mop", "pos": "noun / verb", "meaning_en": "a stick with strings or cloth for washing floors; to clean with it", "meaning_ar": "ممسحة أرضيات / يمسح الأرض", "note_ar": "mop up = يمسح سائلًا مسكوبًا", "note_en": "mop up a spill", "example": "Mop up that water before someone slips."},
+      {"word": "bucket", "pos": "noun", "meaning_en": "an open container with a handle for carrying water", "meaning_ar": "دلو / سطل", "note_ar": "", "note_en": "", "example": "Fill the bucket with warm water."},
+      {"word": "dryer", "pos": "noun", "meaning_en": "a machine that dries clothes", "meaning_ar": "مجفّف الملابس", "note_ar": "", "note_en": "", "example": "Put the wet clothes in the dryer."},
+      {"word": "fold", "pos": "verb", "meaning_en": "to bend clothes or paper neatly so they are flat", "meaning_ar": "يطوي", "note_ar": "", "note_en": "", "example": "Please fold the towels."},
+      {"word": "put away", "pos": "phrasal verb", "meaning_en": "to put something back in its usual place", "meaning_ar": "يعيد الشيء إلى مكانه", "note_ar": "", "note_en": "", "example": "Put the plates away in the cupboard."},
+      {"word": "rinse", "pos": "verb", "meaning_en": "to wash with clean water to remove soap", "meaning_ar": "يشطف", "note_ar": "", "note_en": "", "example": "Rinse the dishes after you wash them."},
+      {"word": "dishwasher", "pos": "noun", "meaning_en": "a machine that washes dishes", "meaning_ar": "غسّالة الصحون", "note_ar": "", "note_en": "", "example": "We put the cups in the dishwasher."},
+      {"word": "trash / garbage", "pos": "noun", "meaning_en": "things you throw away", "meaning_ar": "القمامة", "note_ar": "trash أمريكية، garbage كندية وأمريكية، rubbish بريطانية", "note_en": "trash (US), garbage (US/Canada), rubbish (UK)", "example": "The garbage smells bad; let's take it out."},
+      {"word": "chores", "pos": "noun", "meaning_en": "jobs you do at home without pay, like washing dishes", "meaning_ar": "الأعمال المنزلية", "note_ar": "", "note_en": "", "example": "I have chores to do before I go out."},
+      {"word": "dust", "pos": "noun / verb", "meaning_en": "fine grey dirt on furniture; to clean it off", "meaning_ar": "غبار / يزيل الغبار", "note_ar": "dust bunny = كرة غبار صغيرة", "note_en": "dust bunny = a small ball of dust", "example": "I dust the shelves once a week."},
+      {"word": "shorthand", "pos": "noun", "meaning_en": "a short way of saying something long", "meaning_ar": "اختصار في الكلام", "note_ar": "", "note_en": "", "example": "\"Do the dishes\" is shorthand for washing, drying and putting away the dishes."}
+    ],
+    "fine_lines": [
+      {"title": "wipe vs scrub", "words": ["wipe", "scrub"], "explanation_ar": "wipe مسح خفيف بقطعة قماش للأوساخ البسيطة. scrub فرك قوي بفرشاة للأوساخ الصعبة.", "explanation_en": "Wipe = clean gently with a cloth (light dirt). Scrub = clean hard with a brush (heavy dirt).", "examples": [{"word": "wipe", "sentence": "Wipe the table with a cloth."}, {"word": "scrub", "sentence": "Scrub the toilet with a brush."}]},
+      {"title": "sweep vs vacuum vs mop", "words": ["sweep", "vacuum", "mop"], "explanation_ar": "sweep بالمكنسة اليدوية للأرضيات الصلبة. vacuum بالمكنسة الكهربائية للسجاد. mop بالممسحة والدلو للسوائل والأرضيات المبلّلة.", "explanation_en": "Sweep hard floors with a broom. Vacuum carpets and rugs. Mop wet floors and spills.", "examples": [{"word": "sweep", "sentence": "Sweep the sugar off the kitchen floor."}, {"word": "vacuum", "sentence": "Vacuum the carpet in the living room."}, {"word": "mop", "sentence": "Mop up the water you spilled."}]},
+      {"title": "carpet vs rug", "words": ["carpet", "rug"], "explanation_ar": "carpet يغطي الأرضية كلها من جدار إلى جدار. rug سجّادة صغيرة تغطي جزءًا فقط.", "explanation_en": "A carpet covers the whole floor, wall to wall. A rug covers only a small area.", "examples": [{"word": "carpet", "sentence": "The whole room has a grey carpet."}, {"word": "rug", "sentence": "There is a round rug under the table."}]}
+    ],
+    "expressions": [
+      {"phrase": "do the laundry", "meaning_ar": "يغسل الملابس (ويجفّفها ويطويها ويرتّبها)", "meaning_en": "wash, dry, fold and put away clothes", "example": "I can't go out; I have to do the laundry."},
+      {"phrase": "do the dishes", "meaning_ar": "يغسل الصحون (ويشطفها ويجفّفها ويرتّبها)", "meaning_en": "wash, rinse, dry and put away the dishes", "example": "It's my turn to do the dishes tonight."},
+      {"phrase": "take out the trash", "meaning_ar": "يُخرج القمامة", "meaning_en": "collect the rubbish, tie the bag, take it outside and put in a new bag", "example": "Can you take out the trash, please?"},
+      {"phrase": "mop up a mess", "meaning_ar": "يمسح الفوضى / السائل المسكوب", "meaning_en": "clean up liquid with a mop", "example": "Get a mop and mop up this mess."},
+      {"phrase": "I've got chores to do.", "meaning_ar": "عندي أعمال منزلية يجب أن أنجزها.", "meaning_en": "I have housework to do.", "example": "Sorry, I can't come; I've got chores to do."},
+      {"phrase": "clean up", "meaning_ar": "ينظّف / يرتّب", "meaning_en": "make a place clean and tidy", "example": "Let's clean up the kitchen after lunch."}
+    ],
+    "grammar": [
+      {"title": "Shorthand phrases with \"do\": do the laundry, do the dishes", "explanation_ar": "في الإنجليزية نستخدم do مع بعض الأعمال المنزلية لنختصر عدة أفعال: do the laundry تعني نغسل الملابس ونجففها ونطويها ونرتبها. do the dishes تعني نغسل الصحون ونشطفها ونجففها ونرتبها. ونستخدم take out مع the trash.", "explanation_en": "English uses \"do\" with some chores as shorthand for many steps: do the laundry (wash, dry, fold, put away), do the dishes (wash, rinse, dry, put away). With rubbish we say \"take out the trash\".", "examples": ["I'm doing the laundry now.", "Who did the dishes yesterday?", "He takes out the trash every evening."]}
+    ]
+  },
+  "questions": [
+    {"question": "Water is on the kitchen floor. What should you use?", "choices": ["a mop", "a broom", "a vacuum", "a rug"], "answer": 0, "explanation_ar": "للسوائل نستخدم mop (الممسحة).", "explanation_en": "For liquid, use a mop."},
+    {"question": "To clean a carpet, you ___ it.", "choices": ["sweep", "vacuum", "rinse", "fold"], "answer": 1, "explanation_ar": "نكنس السجاد بالمكنسة الكهربائية: vacuum.", "explanation_en": "We vacuum carpets and rugs."},
+    {"question": "The toilet is very dirty. You need to ___ it with a brush.", "choices": ["wipe", "fold", "scrub", "dust"], "answer": 2, "explanation_ar": "scrub فرك قوي بفرشاة.", "explanation_en": "Scrub = clean hard with a brush."},
+    {"question": "\"I'm doing the laundry\" means I'm ___.", "choices": ["washing dishes", "cooking dinner", "taking out the trash", "washing and drying clothes"], "answer": 3, "explanation_ar": "do the laundry = غسل الملابس وتجفيفها وطيّها.", "explanation_en": "Laundry = clothes; do the laundry = wash, dry and fold them."},
+    {"question": "A small carpet that covers only part of the floor is a ___.", "choices": ["rug", "sink", "bucket", "mop"], "answer": 0, "explanation_ar": "rug سجادة صغيرة.", "explanation_en": "A rug is a small carpet."},
+    {"question": "After washing dishes with soap, you ___ them with clean water.", "choices": ["sweep", "rinse", "vacuum", "spill"], "answer": 1, "explanation_ar": "rinse = يشطف بالماء لإزالة الصابون.", "explanation_en": "Rinse = wash with clean water to remove soap."},
+    {"question": "Which word means \"housework you don't get paid for\"?", "choices": ["laundry", "dust", "chores", "shorthand"], "answer": 2, "explanation_ar": "chores هي الأعمال المنزلية.", "explanation_en": "Chores are jobs at home."},
+    {"question": "Choose the correct phrase.", "choices": ["make the dishes", "take the laundry", "do the trash", "take out the trash"], "answer": 3, "explanation_ar": "الصحيح: take out the trash وdo the dishes وdo the laundry.", "explanation_en": "We say take out the trash, do the dishes, do the laundry."},
+    {"question": "You ___ a hard floor with a broom.", "choices": ["sweep", "mop", "scrub", "wash"], "answer": 0, "explanation_ar": "sweep = يكنس بالمكنسة اليدوية broom.", "explanation_en": "You sweep with a broom."},
+    {"question": "\"Oh no! I ___ my tea on the table.\"", "choices": ["wiped", "spilled", "folded", "swept"], "answer": 1, "explanation_ar": "spill = يسكب سائلًا بالخطأ.", "explanation_en": "Spill = let liquid fall by accident."}
+  ]
+}

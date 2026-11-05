@@ -1,0 +1,47 @@
+{
+  "title": "Stuff vs Staff, Will vs Would, Near vs Close to",
+  "content": {
+    "vocabulary": [
+      {"word": "stuff (noun)", "pos": "noun", "meaning_en": "things in general (books, pens, clothes...)", "meaning_ar": "أغراض / أشياء", "note_ar": "تُنطق /stʌf/ مثل tough و bluff، وهي غير معدودة", "note_en": "Pronounced /stʌf/, like tough and bluff. Uncountable.", "example": "Whose stuff is this on the table?"},
+      {"word": "stuff (verb)", "pos": "verb", "meaning_en": "to push something into a space quickly, without order", "meaning_ar": "يحشو / يحشر", "note_ar": "", "note_en": "", "example": "He stuffed his clothes into the bag."},
+      {"word": "staff", "pos": "noun", "meaning_en": "the people who work in an office, shop or restaurant", "meaning_ar": "الموظفون / طاقم العمل", "note_ar": "تُنطق /stæf/ (بريطانيًا /stɑːf/) مثل laugh و math", "note_en": "Pronounced /stæf/ (UK /stɑːf/), like laugh and math.", "example": "The restaurant staff were very friendly."},
+      {"word": "walking staff", "pos": "noun", "meaning_en": "a long stick that helps a person walk", "meaning_ar": "عصا للمشي", "note_ar": "", "note_en": "", "example": "The old man walked with a staff."},
+      {"word": "tutor", "pos": "noun", "meaning_en": "a private teacher", "meaning_ar": "مدرّس خصوصي", "note_ar": "", "note_en": "", "example": "My tutor helps me with grammar."},
+      {"word": "tough", "pos": "adjective", "meaning_en": "strong; hard to break", "meaning_ar": "متين / صلب", "note_ar": "", "note_en": "", "example": "This bag is tough."},
+      {"word": "bluff", "pos": "verb", "meaning_en": "to pretend you will do something or have something", "meaning_ar": "يخادع / يتظاهر", "note_ar": "", "note_en": "", "example": "Don't worry, he's just bluffing."},
+      {"word": "conditional", "pos": "adjective", "meaning_en": "depending on something else happening", "meaning_ar": "شرطي", "note_ar": "", "note_en": "", "example": "\"Would\" is often conditional."},
+      {"word": "close to", "pos": "phrase", "meaning_en": "near (distance); about (number); having a strong relationship with", "meaning_ar": "قريب من / حوالي / مقرّب من", "note_ar": "", "note_en": "", "example": "The bank is close to my house."},
+      {"word": "near", "pos": "preposition / verb", "meaning_en": "not far from; (verb) to come closer", "meaning_ar": "قرب / يقترب", "note_ar": "", "note_en": "", "example": "The school is near the park. / The day is nearing."},
+      {"word": "approximate", "pos": "adjective", "meaning_en": "not exact; about", "meaning_ar": "تقريبي", "note_ar": "", "note_en": "", "example": "Close to 15 people came; it's an approximate number."},
+      {"word": "bond", "pos": "noun", "meaning_en": "a strong connection between people", "meaning_ar": "رابطة", "note_ar": "", "note_en": "", "example": "There is a strong bond between them."}
+    ],
+    "fine_lines": [
+      {"title": "stuff vs staff", "words": ["stuff", "staff"], "explanation_ar": "stuff /ʌ/ = أشياء عامة (أو يحشر). staff /æ/ = الموظفون الذين يعملون أو يقدمون المساعدة. الفرق الأكبر في النطق: uh مقابل ah.", "explanation_en": "Stuff /ʌ/ = general things (or to push in). Staff /æ/ = the people who work or offer help. The big difference is the sound: \"uh\" vs \"ah\".", "examples": [{"word": "stuff", "sentence": "Please take your stuff off my desk."}, {"word": "staff", "sentence": "The hotel staff helped us with our bags."}]},
+      {"title": "will vs would", "words": ["will", "would"], "explanation_ar": "will = وعد أو مستقبل حقيقي نؤمن أنه سيحدث. would = متخيَّل أو مشروط، لا وعد فيه. إذا قلت If I won a million dollars فقل I would buy... وليس I will buy.", "explanation_en": "Will = a promise or a real future we believe in. Would = imaginary or conditional, no promise. If you say \"If I won a million dollars\", say \"I would buy...\", not \"I will buy\".", "examples": [{"word": "will", "sentence": "I will help you tomorrow. (promise)"}, {"word": "would", "sentence": "If I won a million dollars, I would buy a house. (imaginary)"}]},
+      {"title": "near vs close to (not \"near to\")", "words": ["near", "close to"], "explanation_ar": "يقول جيمس: لا تجمع بينهما فتقول near to؛ قل near أو close to. close to تعني أيضًا: حوالي (للأعداد) وعلاقة قوية. near يمكن أن تكون فعلًا (يقترب).", "explanation_en": "James says: don't mix them into \"near to\"; say near or close to. Close to also means about (numbers) and a strong relationship. Near can also be a verb (come closer).", "examples": [{"word": "near", "sentence": "My house is near the station."}, {"word": "close to", "sentence": "He is very close to his mother."}]}
+    ],
+    "expressions": [
+      {"phrase": "Whose stuff is this?", "meaning_ar": "لمن هذه الأغراض؟", "meaning_en": "Who do these things belong to?", "example": "Whose stuff is this on the floor?"},
+      {"phrase": "close to 15 people", "meaning_ar": "حوالي 15 شخصًا", "meaning_en": "about 15 people", "example": "Close to 15 people came to the meeting."},
+      {"phrase": "as the day drew near", "meaning_ar": "مع اقتراب اليوم", "meaning_en": "as the day came closer", "example": "As the day drew near, we got more excited."},
+      {"phrase": "He's just bluffing.", "meaning_ar": "إنه يتظاهر فقط.", "meaning_en": "He doesn't really mean it.", "example": "He says he'll quit, but he's just bluffing."}
+    ],
+    "grammar": [
+      {"title": "Stuff: uncountable noun and verb", "explanation_ar": "stuff كاسم غير معدود لأشياء كثيرة (my stuff وليس a stuff). وكفعل: stuff something into something.", "explanation_en": "Stuff as a noun is uncountable for many things (my stuff, not a stuff). As a verb: stuff something into something.", "examples": ["This is my stuff.", "She stuffed the papers into her bag."]},
+      {"title": "Will for promises and the future; would for imaginary conditions", "explanation_ar": "will + المصدر: وعد أو مستقبل حقيقي. If + ماضٍ ... would + المصدر: حالة متخيلة مشروطة.", "explanation_en": "will + base verb: a promise or a real future. If + past ... would + base verb: an imaginary condition.", "examples": ["I will go to the store in five minutes.", "If I saved a dollar a day, I would have a million dollars in a million days."]},
+      {"title": "Close to vs near", "explanation_ar": "close to: (1) حوالي للكمية، (2) علاقة عاطفية قوية، (3) مسافة قريبة. near: مسافة أو وقت قريب، ويمكن أن تكون فعلًا. لا تقل near to؛ قل near.", "explanation_en": "Close to: (1) about, for quantity; (2) a strong emotional relationship; (3) a short distance. Near: a short distance or time; it can also be a verb. Don't say \"near to\"; say near.", "examples": ["Close to 20 people came.", "She is close to her sister.", "It's near 5 o'clock.", "The plane neared the airport."]}
+    ]
+  },
+  "questions": [
+    {"question": "Whose ___ is this on my desk? (things)", "choices": ["stuff", "staff", "stiff", "stuffs"], "answer": 0, "explanation_ar": "أشياء: stuff.", "explanation_en": "Things: stuff."},
+    {"question": "The restaurant ___ were very helpful.", "choices": ["stuff", "staff", "stuffing", "staffs of"], "answer": 1, "explanation_ar": "الموظفون: staff.", "explanation_en": "The workers: staff."},
+    {"question": "\"Stuff\" rhymes with ___.", "choices": ["laugh", "math", "tough", "half"], "answer": 2, "explanation_ar": "stuff مثل tough (صوت uh).", "explanation_en": "Stuff rhymes with tough (\"uh\" sound)."},
+    {"question": "If I won a million dollars, I ___ buy a big house.", "choices": ["will", "am", "shall", "would"], "answer": 3, "explanation_ar": "حالة متخيلة: would.", "explanation_en": "Imaginary: would."},
+    {"question": "\"I ___ help you tomorrow, I promise.\"", "choices": ["will", "would", "wouldn't", "were"], "answer": 0, "explanation_ar": "وعد: will.", "explanation_en": "A promise: will."},
+    {"question": "Which is correct according to the lesson?", "choices": ["My house is near to the park.", "My house is near the park.", "My house is close the park.", "My house is near of the park."], "answer": 1, "explanation_ar": "near بدون to، أو close to.", "explanation_en": "Near without to, or close to."},
+    {"question": "\"He is very close to his mother.\" means ___.", "choices": ["He lives next door.", "He is standing near her.", "They have a strong relationship.", "He is about her age."], "answer": 2, "explanation_ar": "علاقة عاطفية قوية.", "explanation_en": "A strong relationship."},
+    {"question": "\"Close to 15 people came.\" means ___.", "choices": ["exactly 15", "no one", "more than 100", "about 15"], "answer": 3, "explanation_ar": "حوالي 15.", "explanation_en": "About 15."},
+    {"question": "Which word can be a verb meaning \"come closer\"?", "choices": ["near", "close to", "staff", "tough"], "answer": 0, "explanation_ar": "near كفعل: يقترب.", "explanation_en": "Near as a verb: come closer."},
+    {"question": "\"He stuffed his clothes into the bag.\" means he ___.", "choices": ["folded them carefully", "pushed them in without order", "washed them", "sold them"], "answer": 1, "explanation_ar": "حشرها بلا ترتيب.", "explanation_en": "He pushed them in without order."}
+  ]
+}

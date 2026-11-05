@@ -1,0 +1,839 @@
+{
+  "title": "Pronouncing All English Letters",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "sell",
+        "pos": "verb",
+        "meaning_en": "to give something for money",
+        "meaning_ar": "يبيع",
+        "note_ar": "s = /s/",
+        "note_en": "s = /s/",
+        "example": "They sell fruit here."
+      },
+      {
+        "word": "was",
+        "pos": "verb",
+        "meaning_en": "past of \"is\"",
+        "meaning_ar": "كان",
+        "note_ar": "s هنا = /z/",
+        "note_en": "s sounds /z/ here",
+        "example": "He was at home."
+      },
+      {
+        "word": "rose",
+        "pos": "noun",
+        "meaning_en": "a flower with a sweet smell",
+        "meaning_ar": "وردة",
+        "note_ar": "s = /z/",
+        "note_en": "s = /z/",
+        "example": "She gave her mother a rose."
+      },
+      {
+        "word": "cat",
+        "pos": "noun",
+        "meaning_en": "a small pet animal",
+        "meaning_ar": "قطة",
+        "note_ar": "a = /æ/",
+        "note_en": "a = /æ/",
+        "example": "The cat is sleeping."
+      },
+      {
+        "word": "date",
+        "pos": "noun",
+        "meaning_en": "a day of the month; a sweet fruit",
+        "meaning_ar": "تاريخ / تمرة",
+        "note_ar": "a = /eɪ/ مثل اسم الحرف",
+        "note_en": "a = /eɪ/, like its name",
+        "example": "What's the date today?"
+      },
+      {
+        "word": "game",
+        "pos": "noun",
+        "meaning_en": "an activity you play",
+        "meaning_ar": "لعبة",
+        "note_ar": "a = /eɪ/",
+        "note_en": "a = /eɪ/",
+        "example": "Let's play a game."
+      },
+      {
+        "word": "ball",
+        "pos": "noun",
+        "meaning_en": "a round object for games",
+        "meaning_ar": "كرة",
+        "note_ar": "a قبل l = /ɔː/",
+        "note_en": "a before l = /ɔː/",
+        "example": "Kick the ball."
+      },
+      {
+        "word": "saw",
+        "pos": "verb",
+        "meaning_en": "past of \"see\"",
+        "meaning_ar": "رأى",
+        "note_ar": "a قبل w = /ɔː/",
+        "note_en": "a before w = /ɔː/",
+        "example": "I saw him yesterday."
+      },
+      {
+        "word": "cup",
+        "pos": "noun",
+        "meaning_en": "a small container for drinking",
+        "meaning_ar": "كوب",
+        "note_ar": "c = /k/",
+        "note_en": "c = /k/",
+        "example": "A cup of tea, please."
+      },
+      {
+        "word": "city",
+        "pos": "noun",
+        "meaning_en": "a large town",
+        "meaning_ar": "مدينة",
+        "note_ar": "c قبل i = /s/",
+        "note_en": "c before i = /s/",
+        "example": "Riyadh is a big city."
+      },
+      {
+        "word": "cycle",
+        "pos": "verb",
+        "meaning_en": "to ride a bicycle",
+        "meaning_ar": "يركب الدراجة",
+        "note_ar": "c قبل y = /s/، والثانية = /k/",
+        "note_en": "c before y = /s/; the second c = /k/",
+        "example": "I cycle to school."
+      },
+      {
+        "word": "bed",
+        "pos": "noun",
+        "meaning_en": "a thing you sleep on",
+        "meaning_ar": "سرير",
+        "note_ar": "e = /e/",
+        "note_en": "e = /e/",
+        "example": "Go to bed early."
+      },
+      {
+        "word": "email",
+        "pos": "noun",
+        "meaning_en": "a message sent by computer",
+        "meaning_ar": "بريد إلكتروني",
+        "note_ar": "e = /iː/ مثل اسم الحرف",
+        "note_en": "e = /iː/, like its name",
+        "example": "I sent you an email."
+      },
+      {
+        "word": "bad",
+        "pos": "adjective",
+        "meaning_en": "not good",
+        "meaning_ar": "سيء",
+        "note_ar": "a = /æ/ وليست /e/: قارن bad و bed",
+        "note_en": "a = /æ/, not /e/: bad vs bed",
+        "example": "The weather is bad."
+      },
+      {
+        "word": "fine",
+        "pos": "adjective",
+        "meaning_en": "good; okay",
+        "meaning_ar": "بخير / جيد",
+        "note_ar": "f = /f/",
+        "note_en": "f = /f/",
+        "example": "I'm fine, thanks."
+      },
+      {
+        "word": "gift",
+        "pos": "noun",
+        "meaning_en": "a present",
+        "meaning_ar": "هدية",
+        "note_ar": "g = /ɡ/",
+        "note_en": "g = /ɡ/",
+        "example": "Thank you for the gift."
+      },
+      {
+        "word": "giraffe",
+        "pos": "noun",
+        "meaning_en": "a tall African animal with a long neck",
+        "meaning_ar": "زرافة",
+        "note_ar": "g قبل i = /dʒ/",
+        "note_en": "g before i = /dʒ/",
+        "example": "The giraffe eats leaves."
+      },
+      {
+        "word": "gym",
+        "pos": "noun",
+        "meaning_en": "a place for exercise",
+        "meaning_ar": "نادي رياضي",
+        "note_ar": "g قبل y = /dʒ/",
+        "note_en": "g before y = /dʒ/",
+        "example": "I go to the gym."
+      },
+      {
+        "word": "geography",
+        "pos": "noun",
+        "meaning_en": "the study of the earth and countries",
+        "meaning_ar": "جغرافيا",
+        "note_ar": "g قبل e = /dʒ/",
+        "note_en": "g before e = /dʒ/",
+        "example": "I like geography."
+      },
+      {
+        "word": "give",
+        "pos": "verb",
+        "meaning_en": "to hand something to someone",
+        "meaning_ar": "يعطي",
+        "note_ar": "استثناء: g = /ɡ/ رغم أن بعدها i",
+        "note_en": "Exception: g = /ɡ/ before i",
+        "example": "Give me the book."
+      },
+      {
+        "word": "hand",
+        "pos": "noun",
+        "meaning_en": "the part at the end of the arm",
+        "meaning_ar": "يد",
+        "note_ar": "h = /h/",
+        "note_en": "h = /h/",
+        "example": "Raise your hand."
+      },
+      {
+        "word": "insect",
+        "pos": "noun",
+        "meaning_en": "a small animal with six legs",
+        "meaning_ar": "حشرة",
+        "note_ar": "i = /ɪ/",
+        "note_en": "i = /ɪ/",
+        "example": "An ant is an insect."
+      },
+      {
+        "word": "idea",
+        "pos": "noun",
+        "meaning_en": "a thought",
+        "meaning_ar": "فكرة",
+        "note_ar": "i = /aɪ/",
+        "note_en": "i = /aɪ/",
+        "example": "That's a good idea."
+      },
+      {
+        "word": "police",
+        "pos": "noun",
+        "meaning_en": "people who keep law and order",
+        "meaning_ar": "الشرطة",
+        "note_ar": "i = /iː/",
+        "note_en": "i = /iː/",
+        "example": "Call the police."
+      },
+      {
+        "word": "machine",
+        "pos": "noun",
+        "meaning_en": "a thing with parts that does work",
+        "meaning_ar": "آلة",
+        "note_ar": "i = /iː/ و ch = /ʃ/",
+        "note_en": "i = /iː/, ch = /ʃ/",
+        "example": "The washing machine is new."
+      },
+      {
+        "word": "jam",
+        "pos": "noun",
+        "meaning_en": "sweet fruit spread",
+        "meaning_ar": "مربى",
+        "note_ar": "j = /dʒ/",
+        "note_en": "j = /dʒ/",
+        "example": "Bread and jam, please."
+      },
+      {
+        "word": "kite",
+        "pos": "noun",
+        "meaning_en": "a toy that flies in the wind",
+        "meaning_ar": "طائرة ورقية",
+        "note_ar": "k = /k/",
+        "note_en": "k = /k/",
+        "example": "The kite is high in the sky."
+      },
+      {
+        "word": "knee",
+        "pos": "noun",
+        "meaning_en": "the middle joint of the leg",
+        "meaning_ar": "ركبة",
+        "note_ar": "k صامتة قبل n",
+        "note_en": "k is silent before n",
+        "example": "I hurt my knee."
+      },
+      {
+        "word": "knife",
+        "pos": "noun",
+        "meaning_en": "a tool for cutting",
+        "meaning_ar": "سكين",
+        "note_ar": "k صامتة",
+        "note_en": "k is silent",
+        "example": "Cut the bread with a knife."
+      },
+      {
+        "word": "light",
+        "pos": "noun",
+        "meaning_en": "what lets us see; a lamp",
+        "meaning_ar": "ضوء",
+        "note_ar": "l = /l/ لا تحذفها",
+        "note_en": "l = /l/, don't drop it",
+        "example": "Turn on the light."
+      },
+      {
+        "word": "night",
+        "pos": "noun",
+        "meaning_en": "the time when it is dark",
+        "meaning_ar": "ليل",
+        "note_ar": "n = /n/",
+        "note_en": "n = /n/",
+        "example": "Good night!"
+      },
+      {
+        "word": "sing",
+        "pos": "verb",
+        "meaning_en": "to make music with your voice",
+        "meaning_ar": "يغني",
+        "note_ar": "ng = /ŋ/ صوت أنفي والـ g خفيفة جداً",
+        "note_en": "ng = /ŋ/, a nose sound; the g is very light",
+        "example": "Birds sing in the morning."
+      },
+      {
+        "word": "hot",
+        "pos": "adjective",
+        "meaning_en": "very warm",
+        "meaning_ar": "حار",
+        "note_ar": "o = /ɒ/",
+        "note_en": "o = /ɒ/",
+        "example": "It's hot today."
+      },
+      {
+        "word": "move",
+        "pos": "verb",
+        "meaning_en": "to change place",
+        "meaning_ar": "يتحرك",
+        "note_ar": "o = /uː/",
+        "note_en": "o = /uː/",
+        "example": "Don't move."
+      },
+      {
+        "word": "son",
+        "pos": "noun",
+        "meaning_en": "a male child",
+        "meaning_ar": "ابن",
+        "note_ar": "o = /ʌ/",
+        "note_en": "o = /ʌ/",
+        "example": "Their son is five."
+      },
+      {
+        "word": "money",
+        "pos": "noun",
+        "meaning_en": "coins and notes",
+        "meaning_ar": "مال",
+        "note_ar": "o = /ʌ/",
+        "note_en": "o = /ʌ/",
+        "example": "I need some money."
+      },
+      {
+        "word": "boy",
+        "pos": "noun",
+        "meaning_en": "a young male",
+        "meaning_ar": "ولد",
+        "note_ar": "b بدون نفخة هواء",
+        "note_en": "b, no puff of air",
+        "example": "The boy is tall."
+      },
+      {
+        "word": "paper",
+        "pos": "noun",
+        "meaning_en": "material for writing",
+        "meaning_ar": "ورق",
+        "note_ar": "p مع نفخة هواء",
+        "note_en": "p with a puff of air",
+        "example": "Write on this paper."
+      },
+      {
+        "word": "quick",
+        "pos": "adjective",
+        "meaning_en": "fast",
+        "meaning_ar": "سريع",
+        "note_ar": "qu = /kw/",
+        "note_en": "qu = /kw/",
+        "example": "Be quick!"
+      },
+      {
+        "word": "run",
+        "pos": "verb",
+        "meaning_en": "to move fast on foot",
+        "meaning_ar": "يركض",
+        "note_ar": "r: اللسان يرجع للخلف",
+        "note_en": "r: pull the tongue back",
+        "example": "I run every morning."
+      },
+      {
+        "word": "table",
+        "pos": "noun",
+        "meaning_en": "furniture with a flat top",
+        "meaning_ar": "طاولة",
+        "note_ar": "t = /t/ حادة قليلاً",
+        "note_en": "t = /t/, a little sharp",
+        "example": "Put it on the table."
+      },
+      {
+        "word": "uniform",
+        "pos": "noun",
+        "meaning_en": "special clothes for school or work",
+        "meaning_ar": "زي موحّد",
+        "note_ar": "u = /juː/ مثل اسم الحرف",
+        "note_en": "u = /juː/, like its name",
+        "example": "Students wear a uniform."
+      },
+      {
+        "word": "blue",
+        "pos": "adjective",
+        "meaning_en": "the colour of the sky",
+        "meaning_ar": "أزرق",
+        "note_ar": "u = /uː/",
+        "note_en": "u = /uː/",
+        "example": "The sky is blue."
+      },
+      {
+        "word": "van",
+        "pos": "noun",
+        "meaning_en": "a small truck",
+        "meaning_ar": "شاحنة صغيرة",
+        "note_ar": "v: الأسنان على الشفة مع صوت",
+        "note_en": "v: teeth on lip, with voice",
+        "example": "The van is white."
+      },
+      {
+        "word": "wow",
+        "pos": "exclamation",
+        "meaning_en": "a word that shows surprise",
+        "meaning_ar": "واو! (تعجب)",
+        "note_ar": "w = /w/",
+        "note_en": "w = /w/",
+        "example": "Wow, that's beautiful!"
+      },
+      {
+        "word": "fix",
+        "pos": "verb",
+        "meaning_en": "to repair",
+        "meaning_ar": "يصلح",
+        "note_ar": "x = /ks/",
+        "note_en": "x = /ks/",
+        "example": "Can you fix my phone?"
+      },
+      {
+        "word": "exam",
+        "pos": "noun",
+        "meaning_en": "a test",
+        "meaning_ar": "امتحان",
+        "note_ar": "x = /ɡz/",
+        "note_en": "x = /ɡz/",
+        "example": "I have an exam tomorrow."
+      },
+      {
+        "word": "example",
+        "pos": "noun",
+        "meaning_en": "something that shows what others are like",
+        "meaning_ar": "مثال",
+        "note_ar": "x = /ɡz/",
+        "note_en": "x = /ɡz/",
+        "example": "Give me an example."
+      },
+      {
+        "word": "yes",
+        "pos": "adverb",
+        "meaning_en": "the opposite of no",
+        "meaning_ar": "نعم",
+        "note_ar": "y = /j/",
+        "note_en": "y = /j/",
+        "example": "Yes, please."
+      },
+      {
+        "word": "my",
+        "pos": "determiner",
+        "meaning_en": "belonging to me",
+        "meaning_ar": "لي / ـي",
+        "note_ar": "y = /aɪ/",
+        "note_en": "y = /aɪ/",
+        "example": "This is my book."
+      },
+      {
+        "word": "cry",
+        "pos": "verb",
+        "meaning_en": "to have tears coming from your eyes",
+        "meaning_ar": "يبكي",
+        "note_ar": "y = /aɪ/",
+        "note_en": "y = /aɪ/",
+        "example": "The baby is crying."
+      },
+      {
+        "word": "happy",
+        "pos": "adjective",
+        "meaning_en": "feeling good",
+        "meaning_ar": "سعيد",
+        "note_ar": "y في آخر الكلمة = /i/",
+        "note_en": "final y = /i/",
+        "example": "I'm happy today."
+      },
+      {
+        "word": "baby",
+        "pos": "noun",
+        "meaning_en": "a very young child",
+        "meaning_ar": "طفل رضيع",
+        "note_ar": "y = /i/",
+        "note_en": "y = /i/",
+        "example": "The baby is sleeping."
+      },
+      {
+        "word": "zebra",
+        "pos": "noun",
+        "meaning_en": "an animal with black and white stripes",
+        "meaning_ar": "حمار وحشي",
+        "note_ar": "z = /z/",
+        "note_en": "z = /z/",
+        "example": "Look at the zebra."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "s as /s/ vs s as /z/",
+        "words": [
+          "sell",
+          "was"
+        ],
+        "explanation_ar": "الحرف s ينطق غالباً /s/ (sell, sun)، لكنه كثيراً ينطق /z/ خاصة بين حرفين متحركين أو في آخر بعض الكلمات (was, rose, is).",
+        "explanation_en": "S usually sounds /s/ (sell), but often /z/, especially between vowels or at the end of some words (was, rose, is).",
+        "examples": [
+          {
+            "word": "sell",
+            "sentence": "They sell fruit."
+          },
+          {
+            "word": "was",
+            "sentence": "He was late."
+          }
+        ]
+      },
+      {
+        "title": "hard c/g vs soft c/g",
+        "words": [
+          "cake",
+          "city",
+          "go",
+          "gym"
+        ],
+        "explanation_ar": "c و g قبل e أو i أو y تصبحان «لينتين»: c = /s/ (city) و g = /dʒ/ (gym). وفي غير ذلك c = /k/ و g = /ɡ/. توجد استثناءات مثل give و get.",
+        "explanation_en": "Before e, i or y, c and g are soft: c = /s/ (city), g = /dʒ/ (gym). Otherwise c = /k/ and g = /ɡ/. Exceptions: give, get.",
+        "examples": [
+          {
+            "word": "cake",
+            "sentence": "I made a cake."
+          },
+          {
+            "word": "city",
+            "sentence": "I live in a city."
+          },
+          {
+            "word": "go",
+            "sentence": "Let's go."
+          },
+          {
+            "word": "gym",
+            "sentence": "I go to the gym."
+          }
+        ]
+      },
+      {
+        "title": "p vs b",
+        "words": [
+          "p",
+          "b"
+        ],
+        "explanation_ar": "الفرق في الهواء: p نجمع الهواء ونطلقه بقوة (الورقة أمام الفم تتحرك)، و b بدون هواء.",
+        "explanation_en": "The difference is air: p has a strong puff (a paper in front of your mouth moves); b has none.",
+        "examples": [
+          {
+            "word": "p",
+            "sentence": "paper, pen"
+          },
+          {
+            "word": "b",
+            "sentence": "boy, ball"
+          }
+        ]
+      },
+      {
+        "title": "a in bad vs e in bed",
+        "words": [
+          "bad",
+          "bed"
+        ],
+        "explanation_ar": "a في bad تُنطق /æ/ والفم مفتوح أكثر (بين الفتحة والكسرة)، و e في bed تُنطق /e/ والفم أقل انفتاحاً.",
+        "explanation_en": "A in \"bad\" is /æ/ with the mouth more open. E in \"bed\" is /e/ with the mouth less open.",
+        "examples": [
+          {
+            "word": "bad",
+            "sentence": "The weather is bad."
+          },
+          {
+            "word": "bed",
+            "sentence": "Go to bed early."
+          }
+        ]
+      },
+      {
+        "title": "i: /ɪ/ vs /aɪ/ vs /iː/",
+        "words": [
+          "insect",
+          "idea",
+          "police"
+        ],
+        "explanation_ar": "للحرف i ثلاثة أصوات شائعة: قصير /ɪ/ (insect)، ومثل اسمه /aɪ/ (idea, ice)، وطويل /iː/ (police, machine).",
+        "explanation_en": "I has three common sounds: short /ɪ/ (insect), /aɪ/ like its name (idea), long /iː/ (police).",
+        "examples": [
+          {
+            "word": "insect",
+            "sentence": "An ant is an insect."
+          },
+          {
+            "word": "idea",
+            "sentence": "Good idea!"
+          },
+          {
+            "word": "police",
+            "sentence": "Call the police."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Say it with me.",
+        "meaning_ar": "قلها معي.",
+        "meaning_en": "repeat after me",
+        "example": "Giraffe. Say it with me: giraffe."
+      },
+      {
+        "phrase": "Practice makes perfect.",
+        "meaning_ar": "التمرين يصنع الإتقان.",
+        "meaning_en": "you get better by practising",
+        "example": "Keep reading aloud. Practice makes perfect."
+      },
+      {
+        "phrase": "Put your hand in front of your mouth.",
+        "meaning_ar": "ضع يدك أمام فمك.",
+        "meaning_en": "a way to check the puff of air in p",
+        "example": "Put your hand in front of your mouth and say \"pen\"."
+      },
+      {
+        "phrase": "How do you say this word?",
+        "meaning_ar": "كيف تقول هذه الكلمة؟",
+        "meaning_en": "asking for the pronunciation",
+        "example": "How do you say this word? Is it /dʒɪm/?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "A has three main sounds",
+        "explanation_ar": "الحرف a: /æ/ كما في apple و cat؛ و/eɪ/ مثل اسمه كما في date و game؛ و/ɔː/ عندما يأتي بعده l أو w كما في ball و saw.",
+        "explanation_en": "A: /æ/ as in apple, cat; /eɪ/ like its name as in date, game; /ɔː/ before l or w as in ball, saw.",
+        "examples": [
+          "cat /æ/",
+          "date /eɪ/",
+          "ball /ɔː/"
+        ]
+      },
+      {
+        "title": "Soft C: /s/ before e, i, y",
+        "explanation_ar": "الحرف c ينطق /k/ في أغلب الكلمات (cake, cup). لكن إذا جاء بعده e أو i أو y ينطق /s/ (city, cycle, cent).",
+        "explanation_en": "C is usually /k/ (cake, cup). Before e, i or y it sounds /s/ (city, cycle, cent).",
+        "examples": [
+          "cup /k/",
+          "city /s/",
+          "cycle /s/ ... /k/"
+        ]
+      },
+      {
+        "title": "Soft G: /dʒ/ before e, i, y",
+        "explanation_ar": "الحرف g ينطق /ɡ/ غالباً (go, gift). وقبل e أو i أو y ينطق /dʒ/ (giraffe, gym, geography). هناك استثناءات مثل give و get تُتعلم بالممارسة.",
+        "explanation_en": "G is usually /ɡ/ (go, gift). Before e, i or y it is /dʒ/ (giraffe, gym). Exceptions like give and get are learned by practice.",
+        "examples": [
+          "gift /ɡ/",
+          "gym /dʒ/",
+          "give /ɡ/ (exception)"
+        ]
+      },
+      {
+        "title": "E and I sounds",
+        "explanation_ar": "e: /e/ (bed) أو /iː/ مثل اسمه (email, he). i: /ɪ/ (insect) أو /aɪ/ (idea, ice) أو /iː/ (police, machine).",
+        "explanation_en": "E: /e/ (bed) or /iː/ (email). I: /ɪ/ (insect), /aɪ/ (idea), or /iː/ (police).",
+        "examples": [
+          "bed, email",
+          "insect, idea, police"
+        ]
+      },
+      {
+        "title": "O and U sounds",
+        "explanation_ar": "o: /ɒ/ (hot)، /uː/ (move)، /ʌ/ (son, money). u: /ʌ/ (umbrella, run)، /juː/ مثل اسمه (uniform)، /uː/ (blue).",
+        "explanation_en": "O: /ɒ/ (hot), /uː/ (move), /ʌ/ (son, money). U: /ʌ/ (run), /juː/ (uniform), /uː/ (blue).",
+        "examples": [
+          "hot, move, son",
+          "run, uniform, blue"
+        ]
+      },
+      {
+        "title": "S: /s/ or /z/",
+        "explanation_ar": "s ينطق /s/ في معظم الحالات (sell, sun)، ويُنطق /z/ في كلمات كثيرة مثل was, is, rose.",
+        "explanation_en": "S is mostly /s/ (sell), but /z/ in many words like was, is, rose.",
+        "examples": [
+          "sell /s/",
+          "was /z/",
+          "rose /z/"
+        ]
+      },
+      {
+        "title": "Silent K and the NG sound",
+        "explanation_ar": "k تكون صامتة قبل n في بداية الكلمة: know, knee, knife. و ng تنطق /ŋ/ صوتاً أنفياً واحداً، ولا نضغط على g: sing.",
+        "explanation_en": "K is silent before n at the start of a word: know, knee, knife. NG is one nose sound /ŋ/; don't push the g: sing.",
+        "examples": [
+          "knee, knife",
+          "sing, long"
+        ]
+      },
+      {
+        "title": "X and Y sounds",
+        "explanation_ar": "x: /ks/ (box, fix) أو /ɡz/ (exam, example). y: /j/ في البداية (yes)، /aɪ/ (my, cry)، /i/ في آخر الكلمات الطويلة (happy, baby).",
+        "explanation_en": "X: /ks/ (fix) or /ɡz/ (exam). Y: /j/ at the start (yes), /aɪ/ (my, cry), /i/ at the end of longer words (happy).",
+        "examples": [
+          "fix /ks/, exam /ɡz/",
+          "yes, my, happy"
+        ]
+      },
+      {
+        "title": "General rules first, exceptions later",
+        "explanation_ar": "القواعد العامة تحل معظم مشاكل النطق (حوالي ٩٥٪). ركّز عليها أولاً، والاستثناءات مثل give ستتعلمها مع الممارسة والتعود.",
+        "explanation_en": "General rules solve most pronunciation problems. Learn them first; you will learn exceptions like \"give\" with practice.",
+        "examples": [
+          "gym (rule), give (exception)"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How is \"c\" pronounced in \"city\"?",
+      "choices": [
+        "/k/",
+        "/s/",
+        "/tʃ/",
+        "/ʃ/"
+      ],
+      "answer": 1,
+      "explanation_ar": "c قبل i تنطق /s/.",
+      "explanation_en": "C before i sounds /s/."
+    },
+    {
+      "question": "How is \"g\" pronounced in \"gym\"?",
+      "choices": [
+        "/dʒ/",
+        "/ɡ/",
+        "/j/",
+        "/ʒ/"
+      ],
+      "answer": 0,
+      "explanation_ar": "g قبل y تنطق /dʒ/.",
+      "explanation_en": "G before y sounds /dʒ/."
+    },
+    {
+      "question": "Which word has a silent letter?",
+      "choices": [
+        "kite",
+        "knife",
+        "king",
+        "kick"
+      ],
+      "answer": 1,
+      "explanation_ar": "k صامتة في knife.",
+      "explanation_en": "The k in \"knife\" is silent."
+    },
+    {
+      "question": "In which word does \"s\" sound like /z/?",
+      "choices": [
+        "sell",
+        "sun",
+        "was",
+        "sit"
+      ],
+      "answer": 2,
+      "explanation_ar": "s في was تنطق /z/.",
+      "explanation_en": "The s in \"was\" sounds /z/."
+    },
+    {
+      "question": "How is \"x\" pronounced in \"exam\"?",
+      "choices": [
+        "/ks/",
+        "/z/",
+        "/eks/",
+        "/ɡz/"
+      ],
+      "answer": 3,
+      "explanation_ar": "x في exam تنطق /ɡz/.",
+      "explanation_en": "X in \"exam\" sounds /ɡz/."
+    },
+    {
+      "question": "Which word has the /aɪ/ sound?",
+      "choices": [
+        "insect",
+        "police",
+        "idea",
+        "machine"
+      ],
+      "answer": 2,
+      "explanation_ar": "i في idea تنطق /aɪ/.",
+      "explanation_en": "I in \"idea\" sounds /aɪ/."
+    },
+    {
+      "question": "How is \"y\" pronounced at the end of \"happy\"?",
+      "choices": [
+        "/i/",
+        "/aɪ/",
+        "/j/",
+        "/eɪ/"
+      ],
+      "answer": 0,
+      "explanation_ar": "y في آخر happy تنطق /i/.",
+      "explanation_en": "Final y in \"happy\" sounds /i/."
+    },
+    {
+      "question": "Which word is an exception to the soft g rule?",
+      "choices": [
+        "giraffe",
+        "give",
+        "gym",
+        "geography"
+      ],
+      "answer": 1,
+      "explanation_ar": "give استثناء: g فيها /ɡ/ رغم أن بعدها i.",
+      "explanation_en": "\"Give\" is an exception: g is /ɡ/ before i."
+    },
+    {
+      "question": "The \"a\" in \"ball\" sounds like...",
+      "choices": [
+        "/æ/",
+        "/eɪ/",
+        "/ʌ/",
+        "/ɔː/"
+      ],
+      "answer": 3,
+      "explanation_ar": "a قبل l تنطق /ɔː/.",
+      "explanation_en": "A before l sounds /ɔː/."
+    },
+    {
+      "question": "Which word has the /juː/ sound?",
+      "choices": [
+        "run",
+        "blue",
+        "uniform",
+        "umbrella"
+      ],
+      "answer": 2,
+      "explanation_ar": "u في uniform تنطق /juː/ مثل اسمها.",
+      "explanation_en": "U in \"uniform\" sounds /juː/."
+    }
+  ]
+}

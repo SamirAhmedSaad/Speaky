@@ -1,0 +1,53 @@
+{
+  "title": "Placing an Order",
+  "content": {
+    "vocabulary": [
+      {"word": "place an order", "pos": "phrase", "meaning_en": "to officially ask a company to supply goods", "meaning_ar": "يقدّم طلبية", "note_ar": "", "note_en": "", "example": "I'd like to place an order for printer paper."},
+      {"word": "order", "pos": "noun / verb", "meaning_en": "a request to buy goods; to ask for goods", "meaning_ar": "طلبية؛ يطلب", "note_ar": "", "note_en": "", "example": "We'll have to order more boxes."},
+      {"word": "in stock", "pos": "phrase", "meaning_en": "available in the shop or store now", "meaning_ar": "متوفر في المخزون", "note_ar": "العكس: out of stock", "note_en": "Opposite: out of stock.", "example": "We don't have many green boxes in stock."},
+      {"word": "deliver", "pos": "verb", "meaning_en": "to take goods to a place", "meaning_ar": "يسلّم / يوصِل", "note_ar": "الاسم: delivery", "note_en": "Noun: delivery.", "example": "They will deliver the boxes on Monday."},
+      {"word": "receive", "pos": "verb", "meaning_en": "to get something that is sent to you", "meaning_ar": "يستلم", "note_ar": "انتبه للإملاء: ei بعد c", "note_en": "Spelling: \"ei\" after c.", "example": "When can we expect to receive them?"},
+      {"word": "expect", "pos": "verb", "meaning_en": "to think something will happen", "meaning_ar": "يتوقّع", "note_ar": "", "note_en": "", "example": "We expect the delivery next week."},
+      {"word": "luxury", "pos": "adjective", "meaning_en": "expensive and of very high quality", "meaning_ar": "فاخر", "note_ar": "", "note_en": "", "example": "Each product comes in a luxury box."},
+      {"word": "supplier", "pos": "noun", "meaning_en": "a company that sells goods to other companies", "meaning_ar": "مورّد", "note_ar": "الفعل: supply", "note_en": "Verb: supply.", "example": "I'll call our supplier and order more."},
+      {"word": "confirm", "pos": "verb", "meaning_en": "to say that something is definitely true or will happen", "meaning_ar": "يؤكّد", "note_ar": "", "note_en": "", "example": "Please phone the client to confirm the order."},
+      {"word": "quite a few", "pos": "phrase", "meaning_en": "a fairly large number", "meaning_ar": "عدد لا بأس به / كثير نسبيًا", "note_ar": "", "note_en": "", "example": "We're going to need quite a few boxes."},
+      {"word": "recognise", "pos": "verb", "meaning_en": "to know someone or something because you saw or heard it before", "meaning_ar": "يتعرّف على", "note_ar": "بريطاني: recognise، أمريكي: recognize", "note_en": "UK: recognise; US: recognize.", "example": "I recognise this phone number."},
+      {"word": "pass on", "pos": "phrasal verb", "meaning_en": "to give a message to someone else", "meaning_ar": "يوصل (رسالة) / ينقل", "note_ar": "", "note_en": "", "example": "I'll pass that on to her."},
+      {"word": "copy in", "pos": "phrasal verb", "meaning_en": "to add someone to an email so they see it too", "meaning_ar": "يضيف شخصًا في نسخة البريد (CC)", "note_ar": "", "note_en": "", "example": "Please copy me in on the email."},
+      {"word": "client", "pos": "noun", "meaning_en": "a customer of a business", "meaning_ar": "عميل", "note_ar": "", "note_en": "", "example": "He's your client, so you should call him."},
+      {"word": "sides", "pos": "noun", "meaning_en": "the outer surfaces of a box", "meaning_ar": "جوانب", "note_ar": "", "note_en": "", "example": "Could we have our logo on the sides of the box?"},
+      {"word": "obsessed with", "pos": "adjective", "meaning_en": "thinking about something all the time", "meaning_ar": "مهووس بـ", "note_ar": "", "note_en": "", "example": "He's obsessed with being on time."},
+      {"word": "safer", "pos": "adjective", "meaning_en": "more safe; with less risk", "meaning_ar": "أكثر أمانًا", "note_ar": "", "note_en": "", "example": "An email is safer than a phone call for some things."}
+    ],
+    "fine_lines": [
+      {"title": "I want vs I'd like", "words": ["I want", "I'd like"], "explanation_ar": "I want مباشرة وقد تبدو غير مهذبة مع العملاء والموردين. I'd like (= I would like) أكثر تهذيبًا عند الطلب.", "explanation_en": "\"I want\" is direct and can sound rude in business. \"I'd like\" (= I would like) is the polite way to order.", "examples": [{"word": "I want", "sentence": "I want some boxes. (too direct)"}, {"word": "I'd like", "sentence": "I'd like to place an order for some boxes, please."}]},
+      {"title": "receive vs deliver", "words": ["receive", "deliver"], "explanation_ar": "deliver يقوم بها المورّد (يوصل البضاعة)، و receive يقوم بها الزبون (يستلمها).", "explanation_en": "The supplier delivers the goods; the customer receives them.", "examples": [{"word": "deliver", "sentence": "They deliver every Tuesday."}, {"word": "receive", "sentence": "We received the order this morning."}]}
+    ],
+    "expressions": [
+      {"phrase": "I'd like to place an order for...", "meaning_ar": "أودّ أن أقدّم طلبية لـ...", "meaning_en": "a polite way to start an order", "example": "I'd like to place an order for fifty chairs, please."},
+      {"phrase": "We're going to need...", "meaning_ar": "سنحتاج إلى...", "meaning_en": "used to say how much you need", "example": "We're going to need about two hundred."},
+      {"phrase": "Could you send...?", "meaning_ar": "هل يمكنكم إرسال...؟", "meaning_en": "a polite request for goods", "example": "Could you send 300 boxes, please?"},
+      {"phrase": "Could we also have...?", "meaning_ar": "هل يمكننا أيضًا الحصول على...؟", "meaning_en": "a polite way to add a request", "example": "Could we also have our company name on the boxes?"},
+      {"phrase": "When can we expect to receive them?", "meaning_ar": "متى يمكننا أن نتوقع استلامها؟", "meaning_en": "used to ask about the delivery date", "example": "Thank you. When can we expect to receive them?"},
+      {"phrase": "Can I take a message?", "meaning_ar": "هل يمكنني أخذ رسالة؟", "meaning_en": "used when the person called is not available", "example": "She's busy at the moment. Can I take a message?"},
+      {"phrase": "I'll pass that on to her.", "meaning_ar": "سأوصل ذلك إليها.", "meaning_en": "I will give her the message", "example": "Thank you, I'll pass that on to her."}
+    ],
+    "grammar": [
+      {"title": "Polite requests: I'd like / Could you / Could we", "explanation_ar": "عند الطلب من مورّد استخدم صيغًا مهذبة: I'd like to + فعل أو I'd like + اسم، و Could you + فعل أساسي...? و Could we also have + اسم...? وأضف please.", "explanation_en": "When ordering, use polite forms: \"I'd like to + verb\" or \"I'd like + noun\", \"Could you + base verb...?\", \"Could we also have + noun...?\" and add \"please\".", "examples": ["I'd like to place an order for paper.", "Could you send it by Friday, please?", "Could we also have a receipt?"]},
+      {"title": "be going to need", "explanation_ar": "We're going to need تعبّر عن حاجة مستقبلية مخطط لها: subject + am/is/are + going to + need.", "explanation_en": "\"We're going to need\" talks about a planned future need: subject + am/is/are + going to + need.", "examples": ["We're going to need more boxes.", "I'm going to need your help tomorrow.", "They're going to need a bigger room."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which is the most polite way to start an order?", "choices": ["Give me some boxes.", "I want boxes.", "I'd like to place an order for some boxes.", "Boxes now."], "answer": 2, "explanation_ar": "I'd like to place an order هي الصيغة المهذبة.", "explanation_en": "\"I'd like to place an order\" is polite."},
+    {"question": "Complete: When can we expect to ___ them?", "choices": ["receive", "send", "deliver", "place"], "answer": 0, "explanation_ar": "الزبون يستلم: receive.", "explanation_en": "The customer receives them."},
+    {"question": "\"We don't have many in stock\" means...", "choices": ["They are very cheap", "We have only a few available", "They are broken", "We sold none"], "answer": 1, "explanation_ar": "in stock = متوفر في المخزون.", "explanation_en": "\"In stock\" means available in the store."},
+    {"question": "Complete: Could we ___ have our name on the sides?", "choices": ["too", "else", "either", "also"], "answer": 3, "explanation_ar": "Could we also have = هل يمكننا أيضًا.", "explanation_en": "\"Could we also have\" adds a request."},
+    {"question": "Choose the correct sentence.", "choices": ["Could you sending 300, please?", "Could you send 300, please?", "Could you to send 300, please?", "Could you sent 300, please?"], "answer": 1, "explanation_ar": "بعد Could you يأتي الفعل الأساسي.", "explanation_en": "After \"Could you\" use the base verb."},
+    {"question": "Who \"delivers\" the goods?", "choices": ["the supplier", "the customer", "the boss's friend", "nobody"], "answer": 0, "explanation_ar": "المورّد هو من يوصل البضاعة.", "explanation_en": "The supplier delivers the goods."},
+    {"question": "Complete: We're going ___ need quite a few.", "choices": ["for", "at", "to", "on"], "answer": 2, "explanation_ar": "الصيغة going to + فعل.", "explanation_en": "The form is \"going to + verb\"."},
+    {"question": "\"Copy me in on the email\" means...", "choices": ["Print the email for me", "Delete the email", "Write the email for me", "Add me so I also get the email"], "answer": 3, "explanation_ar": "تعني أضفني إلى نسخة البريد.", "explanation_en": "It means add me so I receive it too."},
+    {"question": "What is the opposite of \"in stock\"?", "choices": ["out of stock", "off stock", "no stock in", "under stock"], "answer": 0, "explanation_ar": "العكس هو out of stock.", "explanation_en": "The opposite is \"out of stock\"."},
+    {"question": "\"I'll pass that on to her\" means...", "choices": ["I'll walk past her", "I'll give her the message", "I'll forget it", "I'll call her boss"], "answer": 1, "explanation_ar": "pass on = يوصل الرسالة.", "explanation_en": "\"Pass on\" means give the message to her."}
+  ]
+}

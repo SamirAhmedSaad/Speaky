@@ -1,0 +1,504 @@
+{
+  "title": "Casual and Formal Greetings",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "greeting",
+        "pos": "noun",
+        "meaning_en": "words you say when you meet someone",
+        "meaning_ar": "تحية",
+        "note_ar": "الفعل: greet",
+        "note_en": "Verb: greet.",
+        "example": "\"Good morning\" is a polite greeting."
+      },
+      {
+        "word": "casual",
+        "pos": "adjective",
+        "meaning_en": "relaxed and friendly, not formal",
+        "meaning_ar": "غير رسمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Hey!\" is a casual greeting."
+      },
+      {
+        "word": "formal",
+        "pos": "adjective",
+        "meaning_en": "polite and serious, for work or new people",
+        "meaning_ar": "رسمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Use formal English with your manager."
+      },
+      {
+        "word": "busy",
+        "pos": "adjective",
+        "meaning_en": "having a lot to do",
+        "meaning_ar": "مشغول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm busy with school this week."
+      },
+      {
+        "word": "relax",
+        "pos": "verb",
+        "meaning_en": "rest and feel calm",
+        "meaning_ar": "يرتاح / يسترخي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to relax today."
+      },
+      {
+        "word": "coffee shop",
+        "pos": "noun",
+        "meaning_en": "a small place where you buy and drink coffee",
+        "meaning_ar": "مقهى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's meet at the coffee shop."
+      },
+      {
+        "word": "choice",
+        "pos": "noun",
+        "meaning_en": "something you choose",
+        "meaning_ar": "اختيار",
+        "note_ar": "الفعل: choose",
+        "note_en": "Verb: choose.",
+        "example": "Tea is a good choice."
+      },
+      {
+        "word": "weekend",
+        "pos": "noun",
+        "meaning_en": "Saturday and Sunday, or the days off work",
+        "meaning_ar": "عطلة نهاية الأسبوع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What are your plans for the weekend?"
+      },
+      {
+        "word": "catch up",
+        "pos": "phrasal verb",
+        "meaning_en": "talk with someone about what happened since you last met",
+        "meaning_ar": "يتبادل الأخبار (بعد غياب)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's nice to catch up with old friends."
+      },
+      {
+        "word": "pet",
+        "pos": "noun",
+        "meaning_en": "an animal that lives with you at home",
+        "meaning_ar": "حيوان أليف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have a pet?"
+      },
+      {
+        "word": "friendly",
+        "pos": "adjective",
+        "meaning_en": "kind and nice to people",
+        "meaning_ar": "ودود",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our neighbor is very friendly."
+      },
+      {
+        "word": "playful",
+        "pos": "adjective",
+        "meaning_en": "liking to play",
+        "meaning_ar": "مَرِح / يحب اللعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The kitten is very playful."
+      },
+      {
+        "word": "pleasure",
+        "pos": "noun",
+        "meaning_en": "a happy feeling",
+        "meaning_ar": "سرور / متعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a pleasure to meet you."
+      },
+      {
+        "word": "conference",
+        "pos": "noun",
+        "meaning_en": "a big formal meeting with talks",
+        "meaning_ar": "مؤتمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is speaking at a conference."
+      },
+      {
+        "word": "speaker",
+        "pos": "noun",
+        "meaning_en": "a person who gives a talk",
+        "meaning_ar": "متحدث / محاضر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The first speaker was very good."
+      },
+      {
+        "word": "presentation",
+        "pos": "noun",
+        "meaning_en": "a talk that explains something to a group",
+        "meaning_ar": "عرض تقديمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He gave a presentation about his project."
+      },
+      {
+        "word": "role",
+        "pos": "noun",
+        "meaning_en": "your job or position in a group",
+        "meaning_ar": "دور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is your role in the team?"
+      },
+      {
+        "word": "director",
+        "pos": "noun",
+        "meaning_en": "a manager of a company department",
+        "meaning_ar": "مدير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is the sales director."
+      },
+      {
+        "word": "client",
+        "pos": "noun",
+        "meaning_en": "a person who buys services from a company",
+        "meaning_ar": "عميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a meeting with a new client."
+      },
+      {
+        "word": "business card",
+        "pos": "noun",
+        "meaning_en": "a small card with your name, job and phone number",
+        "meaning_ar": "بطاقة عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here is my business card."
+      },
+      {
+        "word": "agenda",
+        "pos": "noun",
+        "meaning_en": "a list of things to talk about in a meeting",
+        "meaning_ar": "جدول الأعمال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The first item on the agenda is the budget."
+      },
+      {
+        "word": "suggestion",
+        "pos": "noun",
+        "meaning_en": "an idea about what to do",
+        "meaning_ar": "اقتراح",
+        "note_ar": "الفعل: suggest",
+        "note_en": "Verb: suggest.",
+        "example": "I have a suggestion for the project."
+      },
+      {
+        "word": "budget",
+        "pos": "noun",
+        "meaning_en": "the money you can spend on something",
+        "meaning_ar": "ميزانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to plan the budget carefully."
+      },
+      {
+        "word": "timeline",
+        "pos": "noun",
+        "meaning_en": "a plan that shows when things will happen",
+        "meaning_ar": "جدول زمني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The timeline for the project is three months."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Casual vs formal greetings",
+        "words": [
+          "Hey!",
+          "Good afternoon."
+        ],
+        "explanation_ar": "مع الأصدقاء نستخدم تحيات غير رسمية: Hey! / Good to see you! / How have you been? ومع الأشخاص في العمل أو الغرباء نستخدم تحيات رسمية: Good morning, Mr Smith. / It is a pleasure to meet you.",
+        "explanation_en": "With friends: Hey! / Good to see you! With work people: Good morning, Mr Smith. / It is a pleasure to meet you.",
+        "examples": [
+          {
+            "word": "Hey!",
+            "sentence": "Hey, Mia! Good to see you!"
+          },
+          {
+            "word": "Good afternoon.",
+            "sentence": "Good afternoon, Ms Patel."
+          }
+        ]
+      },
+      {
+        "title": "Mr vs Ms",
+        "words": [
+          "Mr",
+          "Ms"
+        ],
+        "explanation_ar": "في المواقف الرسمية نضع Mr قبل اسم عائلة الرجل، و Ms قبل اسم عائلة المرأة.",
+        "explanation_en": "In formal situations: Mr + a man's family name, Ms + a woman's family name.",
+        "examples": [
+          {
+            "word": "Mr",
+            "sentence": "Good morning, Mr Johnson."
+          },
+          {
+            "word": "Ms",
+            "sentence": "Thank you, Ms Lee."
+          }
+        ]
+      },
+      {
+        "title": "Good morning vs Good afternoon",
+        "words": [
+          "Good morning",
+          "Good afternoon"
+        ],
+        "explanation_ar": "Good morning من الصباح حتى الظهر، و Good afternoon من الظهر حتى المساء تقريبًا.",
+        "explanation_en": "Good morning is for before 12 o'clock. Good afternoon is for after 12 until the evening.",
+        "examples": [
+          {
+            "word": "Good morning",
+            "sentence": "Good morning, everyone. Let's start."
+          },
+          {
+            "word": "Good afternoon",
+            "sentence": "Good afternoon. How are you today?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Good to see you! / You too!",
+        "meaning_ar": "سعيد برؤيتك! / وأنا كذلك!",
+        "meaning_en": "A casual greeting for a friend.",
+        "example": "Hey, Jake! Good to see you! You too!"
+      },
+      {
+        "phrase": "How have you been? — I've been good, thanks!",
+        "meaning_ar": "كيف كانت أحوالك؟ — كنت بخير، شكرًا!",
+        "meaning_en": "Ask a friend about the time since you last met.",
+        "example": "How have you been? I've been good, thanks. Just busy."
+      },
+      {
+        "phrase": "Same here!",
+        "meaning_ar": "وأنا كذلك!",
+        "meaning_en": "Casual: the same is true for me.",
+        "example": "I'm tired. Same here!"
+      },
+      {
+        "phrase": "What can I get for you today?",
+        "meaning_ar": "ماذا أحضر لك اليوم؟",
+        "meaning_en": "What a waiter or shop worker says.",
+        "example": "Hello! What can I get for you today?"
+      },
+      {
+        "phrase": "I'll have a latte, please.",
+        "meaning_ar": "سآخذ لاتيه من فضلك.",
+        "meaning_en": "Order food or drinks politely.",
+        "example": "I'll have a tea, please."
+      },
+      {
+        "phrase": "It's nice to catch up!",
+        "meaning_ar": "من الجميل أن نتبادل الأخبار!",
+        "meaning_en": "Say you enjoyed talking with an old friend.",
+        "example": "It was nice to catch up, Mia!"
+      },
+      {
+        "phrase": "It is a pleasure to meet you. — The pleasure is mine.",
+        "meaning_ar": "سُررت بلقائك. — السرور لي.",
+        "meaning_en": "A formal greeting and its reply.",
+        "example": "It is a pleasure to meet you, Mr Smith. The pleasure is mine."
+      },
+      {
+        "phrase": "I am doing well, thank you for asking.",
+        "meaning_ar": "أنا بخير، شكرًا على سؤالك.",
+        "meaning_en": "A polite, formal answer to \"How are you?\".",
+        "example": "How are you, Ms Lee? I am doing well, thank you for asking."
+      },
+      {
+        "phrase": "I look forward to...",
+        "meaning_ar": "أتطلّع إلى...",
+        "meaning_en": "Formal: say you are waiting happily for something.",
+        "example": "I look forward to your message."
+      },
+      {
+        "phrase": "Would you like to exchange business cards?",
+        "meaning_ar": "هل تودّ أن نتبادل بطاقات العمل؟",
+        "meaning_en": "A formal offer at work.",
+        "example": "Would you like to exchange business cards? Yes, that would be great!"
+      },
+      {
+        "phrase": "Thank you for inviting me.",
+        "meaning_ar": "شكرًا لدعوتك لي.",
+        "meaning_en": "Thank someone for asking you to come.",
+        "example": "Thank you for inviting me to the meeting."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "\"How are you?\" vs \"How have you been?\"",
+        "explanation_ar": "How are you? نسأل بها عن الحال الآن. How have you been? نسأل بها صديقًا لم نره منذ مدة، عن الفترة الماضية حتى الآن، والجواب: I've been good. (المضارع التام: have/has + التصريف الثالث)",
+        "explanation_en": "\"How are you?\" asks about now. \"How have you been?\" asks about the time since you last met (present perfect: have + past participle).",
+        "examples": [
+          "How are you? I am fine, thank you.",
+          "How have you been? I've been good, thanks!",
+          "I haven't seen them in a while."
+        ]
+      },
+      {
+        "title": "Polite forms: would like / I'll have / May I ask",
+        "explanation_ar": "في الكلام الرسمي والمهذب نستخدم: Would you like...? (هل تودّ) و I would like that (أودّ ذلك) و May I ask...? (هل لي أن أسأل) و I'll have... لطلب الطعام.",
+        "explanation_en": "Polite forms: Would you like...? / I would like... / May I ask...? / I'll have... (ordering).",
+        "examples": [
+          "Would you like to exchange business cards?",
+          "May I ask, what is your role in your company?",
+          "I will have a mocha, please."
+        ]
+      },
+      {
+        "title": "Present simple: talking about yourself",
+        "explanation_ar": "نستخدم المضارع البسيط للحقائق والعادات: I come here every week. I like to read. ومع he/she نضيف s: He focuses on clients. She likes to play.",
+        "explanation_en": "Use the present simple for facts and habits. Add -s with he/she.",
+        "examples": [
+          "I come here every week.",
+          "I focus on client relations.",
+          "She likes to play in the park."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which greeting is formal?",
+      "choices": [
+        "Hey, Jake!",
+        "Good to see you!",
+        "Good afternoon, Mr Smith.",
+        "What's up?"
+      ],
+      "answer": 2,
+      "explanation_ar": "Good afternoon, Mr Smith تحية رسمية.",
+      "explanation_en": "\"Good afternoon, Mr Smith\" is formal."
+    },
+    {
+      "question": "It is a pleasure to meet you. — ___",
+      "choices": [
+        "The pleasure is mine.",
+        "Same here, man!",
+        "Good choice!",
+        "I'm busy."
+      ],
+      "answer": 0,
+      "explanation_ar": "الرد الرسمي: The pleasure is mine.",
+      "explanation_en": "The formal reply is \"The pleasure is mine\"."
+    },
+    {
+      "question": "How have you been? — I've ___ good, thanks!",
+      "choices": [
+        "be",
+        "was",
+        "been",
+        "being"
+      ],
+      "answer": 2,
+      "explanation_ar": "I've been هي اختصار I have been (المضارع التام).",
+      "explanation_en": "\"I've been\" = I have been."
+    },
+    {
+      "question": "What can I get for you today? — I'll ___ a latte, please.",
+      "choices": [
+        "have",
+        "has",
+        "having",
+        "had"
+      ],
+      "answer": 0,
+      "explanation_ar": "I'll have... لطلب مشروب أو طعام.",
+      "explanation_en": "\"I'll have...\" is used to order."
+    },
+    {
+      "question": "A small card with your name and phone number is a ___.",
+      "choices": [
+        "agenda",
+        "business card",
+        "budget",
+        "timeline"
+      ],
+      "answer": 1,
+      "explanation_ar": "business card هي بطاقة العمل.",
+      "explanation_en": "It is a business card."
+    },
+    {
+      "question": "What is an \"agenda\"?",
+      "choices": [
+        "a list of things to talk about in a meeting",
+        "a kind of coffee",
+        "a pet",
+        "a weekend plan"
+      ],
+      "answer": 0,
+      "explanation_ar": "agenda هو جدول أعمال الاجتماع.",
+      "explanation_en": "An agenda is a list of meeting topics."
+    },
+    {
+      "question": "We use \"Ms\" before the name of...",
+      "choices": [
+        "a man",
+        "a child",
+        "a company",
+        "a woman"
+      ],
+      "answer": 3,
+      "explanation_ar": "Ms تُستخدم قبل اسم المرأة.",
+      "explanation_en": "Ms is used for a woman."
+    },
+    {
+      "question": "I look forward ___ your message.",
+      "choices": [
+        "for",
+        "at",
+        "to",
+        "on"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول look forward to بمعنى أتطلّع إلى.",
+      "explanation_en": "We say \"look forward to\"."
+    },
+    {
+      "question": "Choose the polite question.",
+      "choices": [
+        "What your job?",
+        "May I ask, what is your role in your company?",
+        "You job what?",
+        "Tell me job."
+      ],
+      "answer": 1,
+      "explanation_ar": "May I ask... سؤال مهذب.",
+      "explanation_en": "\"May I ask...\" is polite."
+    },
+    {
+      "question": "My cat is very ___. She likes to play.",
+      "choices": [
+        "formal",
+        "busy",
+        "playful",
+        "director"
+      ],
+      "answer": 2,
+      "explanation_ar": "playful تعني يحب اللعب.",
+      "explanation_en": "Playful means liking to play."
+    }
+  ]
+}

@@ -2,6 +2,7 @@ package com.speakmind.app.feature.course.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.speakmind.app.config.ServerSettings
 import com.speakmind.app.feature.course.data.Course
 import com.speakmind.app.feature.course.data.CourseOutline
 import com.speakmind.app.feature.course.data.CourseRepository
@@ -9,9 +10,12 @@ import com.speakmind.app.feature.course.data.Lesson
 import com.speakmind.app.feature.course.data.LessonResult
 import com.speakmind.app.navigation.CourseBookDestination
 import com.speakmind.app.navigation.CourseDestination
+import com.speakmind.app.navigation.CoursesDestination
 import com.speakmind.app.navigation.LessonDestination
 import com.speakmind.app.navigation.LessonExamDestination
 import com.speakmind.app.navigation.NavigationManager
+import com.speakmind.app.premium.Paywall
+import com.speakmind.app.premium.Premium
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -29,9 +33,12 @@ class CoursesHomeViewModel(
     private val _cards = MutableStateFlow<List<CourseCard>>(emptyList())
     val cards: StateFlow<List<CourseCard>> = _cards.asStateFlow()
 
-    init { refresh() }
+    // Again when the server's courses_version arrives: it decides whether the saved copy is still current.
+    init { viewModelScope.launch { ServerSettings.coursesVersionFlow.collect { refresh() } } }
 
     fun refresh() {
+        // Server time for the free-lesson limit, ready before a lesson is tapped.
+        viewModelScope.launch { repository.syncServerClock() }
         viewModelScope.launch {
             // Saved copy first so Home doesn't jump when the section appears, then fresh data.
             run {
@@ -52,7 +59,30 @@ class CoursesHomeViewModel(
         }
     }
 
-    fun onCourseClicked(course: Course) = navigationManager.navigate(CourseDestination(course.id, course.title))
+    /** A course with a single part opens straight on its lessons (outlines are saved by [refresh]). */
+    fun onCourseClicked(course: Course) {
+        viewModelScope.launch {
+            val onlyBook = repository.savedOutline(course.id)?.books?.singleOrNull()
+            navigationManager.navigate(
+                if (onlyBook != null) CourseBookDestination(course.id, onlyBook.id, course.title)
+                else CourseDestination(course.id, course.title)
+            )
+        }
+    }
+    fun onAllCoursesClicked() = navigationManager.navigate(CoursesDestination)
+
+    /** "Start lesson 1" / "Continue": straight into the first lesson without a result, in book order. */
+    fun onContinueCourse(course: Course) {
+        viewModelScope.launch {
+            val outline = repository.savedOutline(course.id) ?: repository.outline(course.id)
+            val results = repository.results()
+            val next = outline?.books?.sortedBy { it.number }
+                ?.flatMap { outline.lessonsOf(it.id) }
+                ?.let { lessons -> lessons.firstOrNull { it.id !in results } ?: lessons.firstOrNull() }
+            if (next == null) onCourseClicked(course) else openLesson(repository, navigationManager, next.id)
+        }
+    }
+    fun onBack() = navigationManager.back()
 }
 
 // ---------------- Course (books) and book (lessons) ----------------
@@ -86,9 +116,34 @@ class CourseOutlineViewModel(
     fun onBookClicked(bookId: String, title: String) =
         navigationManager.navigate(CourseBookDestination(courseId, bookId, title))
 
-    fun onLessonClicked(lessonId: String) = navigationManager.navigate(LessonDestination(lessonId))
+    /** The course turned out to have one part: show its lessons instead, so Back goes to the course list. */
+    fun onSingleBook(bookId: String, courseTitle: String) =
+        navigationManager.navigate(CourseBookDestination(courseId, bookId, courseTitle)) {
+            popUpTo<CourseDestination> { inclusive = true }
+        }
+
+    /** Premium: any lesson. Free: [CourseRepository.FREE_LESSONS_PER_DAY] a day, then the subscribe screen with a countdown. */
+    fun onLessonClicked(lessonId: String) {
+        viewModelScope.launch { openLesson(repository, navigationManager, lessonId) }
+    }
 
     fun onBack() = navigationManager.back()
+}
+
+/** Premium: any lesson. Free: [CourseRepository.FREE_LESSONS_PER_DAY] a day, then the subscribe screen with a countdown. */
+internal suspend fun openLesson(repository: CourseRepository, navigationManager: NavigationManager, lessonId: String) {
+    val open = { navigationManager.navigate(LessonDestination(lessonId)) }
+    if (Premium.active.value) return open()
+    val waitMs = repository.useFreeLesson(lessonId) ?: return open()
+    Premium.showPaywall(
+        Paywall(
+            title = "Your free lessons are used up",
+            message = "You get ${CourseRepository.FREE_LESSONS_PER_DAY} free lessons every 24 hours. " +
+                "Subscribe for unlimited lessons, or come back when the timer ends.",
+            waitMs = waitMs,
+            onUnlocked = open,
+        ),
+    )
 }
 
 // ---------------- Explanation language (Arabic / English) ----------------
@@ -158,6 +213,8 @@ data class ExamUiState(
     val picked: Int? = null,
     val score: Int = 0,
     val finished: Boolean = false,
+    /** Questions answered wrong, listed on the result screen. */
+    val missed: List<Int> = emptyList(),
 )
 
 class ExamViewModel(
@@ -179,7 +236,12 @@ class ExamViewModel(
         val state = _uiState.value
         val question = state.lesson?.questions?.getOrNull(state.index) ?: return
         if (state.picked != null) return
-        _uiState.value = state.copy(picked = choice, score = state.score + if (choice == question.answer) 1 else 0)
+        val right = choice == question.answer
+        _uiState.value = state.copy(
+            picked = choice,
+            score = state.score + if (right) 1 else 0,
+            missed = if (right) state.missed else state.missed + state.index,
+        )
     }
 
     fun onNext() {

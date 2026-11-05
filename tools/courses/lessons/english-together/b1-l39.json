@@ -1,0 +1,410 @@
+{
+  "title": "A Rainy Day: Talking About Weather",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "sky",
+        "pos": "noun",
+        "meaning_en": "the space above the earth where clouds are",
+        "meaning_ar": "السماء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The sky is dark today."
+      },
+      {
+        "word": "dark",
+        "pos": "adjective",
+        "meaning_en": "with little light",
+        "meaning_ar": "مظلم / داكن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It looks very dark today."
+      },
+      {
+        "word": "weather",
+        "pos": "noun",
+        "meaning_en": "rain, sun, wind, heat or cold",
+        "meaning_ar": "الطقس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is the weather like?"
+      },
+      {
+        "word": "rain",
+        "pos": "verb",
+        "meaning_en": "when water falls from clouds",
+        "meaning_ar": "تمطر",
+        "note_ar": "It is raining = إنها تمطر",
+        "note_en": "It is raining.",
+        "example": "It is raining outside."
+      },
+      {
+        "word": "cold",
+        "pos": "adjective",
+        "meaning_en": "not warm",
+        "meaning_ar": "بارد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is very cold today."
+      },
+      {
+        "word": "windy",
+        "pos": "adjective",
+        "meaning_en": "with a lot of wind",
+        "meaning_ar": "عاصف / كثير الرياح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is very windy."
+      },
+      {
+        "word": "careful",
+        "pos": "adjective",
+        "meaning_en": "paying attention to avoid danger",
+        "meaning_ar": "حذِر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Be careful on the wet road."
+      },
+      {
+        "word": "wet",
+        "pos": "adjective",
+        "meaning_en": "covered with water",
+        "meaning_ar": "مبلّل",
+        "note_ar": "الضد: dry",
+        "note_en": "Opposite: dry.",
+        "example": "The streets are very wet."
+      },
+      {
+        "word": "warm jacket",
+        "pos": "noun",
+        "meaning_en": "a jacket that keeps you warm",
+        "meaning_ar": "سترة دافئة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wear a warm jacket."
+      },
+      {
+        "word": "closet",
+        "pos": "noun",
+        "meaning_en": "a cupboard for clothes",
+        "meaning_ar": "خزانة الملابس",
+        "note_ar": "في بريطانيا: wardrobe",
+        "note_en": "UK: wardrobe.",
+        "example": "My jacket is in the closet."
+      },
+      {
+        "word": "boots",
+        "pos": "noun",
+        "meaning_en": "shoes that cover the ankle",
+        "meaning_ar": "حذاء طويل (بوت)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Boots keep your feet dry."
+      },
+      {
+        "word": "dry",
+        "pos": "adjective",
+        "meaning_en": "not wet",
+        "meaning_ar": "جافّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep your feet dry."
+      },
+      {
+        "word": "deep",
+        "pos": "adjective",
+        "meaning_en": "going far down",
+        "meaning_ar": "عميق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The water is deep."
+      },
+      {
+        "word": "car keys",
+        "pos": "noun",
+        "meaning_en": "keys that open and start a car",
+        "meaning_ar": "مفاتيح السيارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where are my car keys?"
+      },
+      {
+        "word": "umbrella",
+        "pos": "noun",
+        "meaning_en": "a thing that keeps rain off you",
+        "meaning_ar": "مظلّة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't forget your umbrella."
+      },
+      {
+        "word": "front door",
+        "pos": "noun",
+        "meaning_en": "the main door of a house",
+        "meaning_ar": "الباب الأمامي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The umbrella is next to the front door."
+      },
+      {
+        "word": "safe trip",
+        "pos": "noun",
+        "meaning_en": "a journey without problems",
+        "meaning_ar": "رحلة آمنة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have a safe trip!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "wet vs dry",
+        "words": [
+          "wet",
+          "dry"
+        ],
+        "explanation_ar": "wet مبلّل بالماء، و dry جافّ.",
+        "explanation_en": "Wet = covered with water. Dry = no water.",
+        "examples": [
+          {
+            "word": "wet",
+            "sentence": "The streets are very wet."
+          },
+          {
+            "word": "dry",
+            "sentence": "Boots will keep your feet dry."
+          }
+        ]
+      },
+      {
+        "title": "rain vs rainy",
+        "words": [
+          "rain",
+          "rainy"
+        ],
+        "explanation_ar": "rain اسم (المطر) أو فعل (تمطر: It is raining). rainy صفة (ممطر: a rainy day).",
+        "explanation_en": "\"Rain\" is a noun or verb. \"Rainy\" is an adjective.",
+        "examples": [
+          {
+            "word": "rain",
+            "sentence": "It is raining outside."
+          },
+          {
+            "word": "rainy",
+            "sentence": "I always forget my umbrella on rainy days."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What is the weather like outside?",
+        "meaning_ar": "كيف الطقس في الخارج؟",
+        "meaning_en": "Ask about the weather.",
+        "example": "What is the weather like today? It's sunny."
+      },
+      {
+        "phrase": "It is raining outside.",
+        "meaning_ar": "إنها تمطر في الخارج.",
+        "meaning_en": "Describe rain now.",
+        "example": "Take your umbrella. It is raining outside."
+      },
+      {
+        "phrase": "That is bad news.",
+        "meaning_ar": "هذا خبر سيئ.",
+        "meaning_en": "React to bad news.",
+        "example": "The shop is closed? That is bad news."
+      },
+      {
+        "phrase": "You must be careful.",
+        "meaning_ar": "يجب أن تكون حذرًا.",
+        "meaning_en": "Warn someone.",
+        "example": "The road is wet. You must be careful."
+      },
+      {
+        "phrase": "What should I wear today?",
+        "meaning_ar": "ماذا يجب أن ألبس اليوم؟",
+        "meaning_en": "Ask for advice about clothes.",
+        "example": "It's cold. What should I wear today?"
+      },
+      {
+        "phrase": "You should wear a warm jacket.",
+        "meaning_ar": "يجب أن تلبس سترة دافئة.",
+        "meaning_en": "Give clothes advice.",
+        "example": "It's windy. You should wear a warm jacket."
+      },
+      {
+        "phrase": "Don't forget your umbrella.",
+        "meaning_ar": "لا تنسَ مظلّتك.",
+        "meaning_en": "Remind someone.",
+        "example": "Don't forget your umbrella. It's raining."
+      },
+      {
+        "phrase": "Drive slowly and have a safe trip.",
+        "meaning_ar": "قُد ببطء وأتمنى لك رحلة آمنة.",
+        "meaning_en": "Say goodbye to someone driving.",
+        "example": "Drive slowly and have a safe trip!"
+      },
+      {
+        "phrase": "See you in one hour!",
+        "meaning_ar": "أراك بعد ساعة!",
+        "meaning_en": "Say when you will return.",
+        "example": "I'm going to the shop. See you in one hour!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Describing weather: It is + adjective / It is raining",
+        "explanation_ar": "نصف الطقس بـ It is + صفة: It is cold. It is windy. ولما يحدث الآن نستخدم المضارع المستمر: It is raining.",
+        "explanation_en": "Weather: It is + adjective (cold, windy). Now: It is raining.",
+        "examples": [
+          "It is raining outside.",
+          "It is also very cold and windy.",
+          "It looks very dark today."
+        ]
+      },
+      {
+        "title": "should / must for advice",
+        "explanation_ar": "should + الفعل للنصيحة (You should wear a jacket)، و must + الفعل لنصيحة قوية أو ضرورة (You must be careful).",
+        "explanation_en": "should = advice; must = strong advice / necessary.",
+        "examples": [
+          "You should wear a warm jacket.",
+          "You must be careful.",
+          "Then I should wear my boots too."
+        ]
+      },
+      {
+        "title": "Prepositions of place: in, on, next to",
+        "explanation_ar": "in the closet (داخل الخزانة)، on the kitchen table (على طاولة المطبخ)، next to the front door (بجانب الباب الأمامي).",
+        "explanation_en": "in = inside; on = on top; next to = beside.",
+        "examples": [
+          "I have a big jacket in the closet.",
+          "Your keys are on the kitchen table.",
+          "It is next to the front door."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the weather ___ outside?",
+      "choices": [
+        "for",
+        "as",
+        "about",
+        "like"
+      ],
+      "answer": 3,
+      "explanation_ar": "What is the weather like? سؤال عن الطقس.",
+      "explanation_en": "\"What is the weather like?\""
+    },
+    {
+      "question": "Look! It is ___ outside.",
+      "choices": [
+        "rain",
+        "raining",
+        "rains",
+        "rained"
+      ],
+      "answer": 1,
+      "explanation_ar": "المضارع المستمر: is raining.",
+      "explanation_en": "Present continuous: is raining."
+    },
+    {
+      "question": "There is a lot of wind. It is ___.",
+      "choices": [
+        "dry",
+        "wet",
+        "windy",
+        "dark"
+      ],
+      "answer": 2,
+      "explanation_ar": "windy عاصف.",
+      "explanation_en": "Windy = a lot of wind."
+    },
+    {
+      "question": "You ___ wear a warm jacket.",
+      "choices": [
+        "shoulds",
+        "should to",
+        "should",
+        "are should"
+      ],
+      "answer": 2,
+      "explanation_ar": "should + الفعل.",
+      "explanation_en": "should + base verb."
+    },
+    {
+      "question": "Boots will keep your feet ___.",
+      "choices": [
+        "dry",
+        "wet",
+        "deep",
+        "dark"
+      ],
+      "answer": 0,
+      "explanation_ar": "dry جاف.",
+      "explanation_en": "Dry = not wet."
+    },
+    {
+      "question": "Your keys are ___ the kitchen table.",
+      "choices": [
+        "at on",
+        "in",
+        "under the",
+        "on"
+      ],
+      "answer": 3,
+      "explanation_ar": "on = على سطح الطاولة.",
+      "explanation_en": "On = on top of."
+    },
+    {
+      "question": "The umbrella is ___ the front door.",
+      "choices": [
+        "next to",
+        "in front",
+        "on top",
+        "between"
+      ],
+      "answer": 0,
+      "explanation_ar": "next to = بجانب.",
+      "explanation_en": "Next to = beside."
+    },
+    {
+      "question": "I always forget my umbrella on ___ days.",
+      "choices": [
+        "rain",
+        "rainy",
+        "raining",
+        "rains"
+      ],
+      "answer": 1,
+      "explanation_ar": "rainy صفة: a rainy day.",
+      "explanation_en": "\"Rainy\" is the adjective."
+    },
+    {
+      "question": "The streets are wet. You ___ be careful.",
+      "choices": [
+        "must to",
+        "musts",
+        "must",
+        "are must"
+      ],
+      "answer": 2,
+      "explanation_ar": "must + الفعل في أصله.",
+      "explanation_en": "must + base verb."
+    },
+    {
+      "question": "Drive slowly and have a safe ___.",
+      "choices": [
+        "umbrella",
+        "trip",
+        "closet",
+        "sky"
+      ],
+      "answer": 1,
+      "explanation_ar": "have a safe trip = رحلة آمنة.",
+      "explanation_en": "\"Have a safe trip\"."
+    }
+  ]
+}

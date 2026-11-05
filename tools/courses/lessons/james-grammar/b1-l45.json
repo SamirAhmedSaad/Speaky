@@ -1,0 +1,45 @@
+{
+  "title": "Could have, Would have, Should have",
+  "content": {
+    "vocabulary": [
+      {"word": "lost opportunity", "pos": "noun", "meaning_en": "a chance you had in the past but did not use", "meaning_ar": "فرصة ضائعة", "note_ar": "", "note_en": "", "example": "Not studying abroad was a lost opportunity."},
+      {"word": "opportunity", "pos": "noun", "meaning_en": "a chance to do something", "meaning_ar": "فرصة", "note_ar": "", "note_en": "", "example": "This job is a great opportunity."},
+      {"word": "miss out (on)", "pos": "phrasal verb", "meaning_en": "to lose the chance to do or have something good", "meaning_ar": "يفوّت (فرصة)", "note_ar": "", "note_en": "", "example": "Don't miss out on this free course."},
+      {"word": "mess up", "pos": "phrasal verb", "meaning_en": "to make a mistake; to do something badly (informal)", "meaning_ar": "يُخطئ / يُفسد الأمر", "note_ar": "", "note_en": "", "example": "I messed up my exam."},
+      {"word": "feel sorry about", "pos": "phrase", "meaning_en": "to feel sad because of something you did or didn't do", "meaning_ar": "يشعر بالندم/الأسف على", "note_ar": "", "note_en": "", "example": "He feels sorry about his mistake."},
+      {"word": "imaginary", "pos": "adjective", "meaning_en": "not real; only in your mind", "meaning_ar": "خيالي / متخيَّل", "note_ar": "", "note_en": "", "example": "\"Would\" talks about imaginary situations."},
+      {"word": "guarantee", "pos": "noun", "meaning_en": "a promise that something will certainly happen", "meaning_ar": "ضمان", "note_ar": "حرف u صامت: /ˌɡærənˈtiː/", "note_en": "The u is silent: /ˌɡærənˈtiː/.", "example": "It's possible, but there's no guarantee."},
+      {"word": "denote", "pos": "verb", "meaning_en": "to show or mean something", "meaning_ar": "يدلّ على", "note_ar": "", "note_en": "", "example": "The red light denotes danger."},
+      {"word": "excuse", "pos": "noun", "meaning_en": "a reason you give for not doing something", "meaning_ar": "عذر", "note_ar": "الاسم /ɪkˈskjuːs/ والفعل /ɪkˈskjuːz/", "note_en": "Noun ends with /s/; the verb ends with /z/.", "example": "He always makes an excuse."},
+      {"word": "past participle", "pos": "noun", "meaning_en": "the third form of a verb (helped, done, gone)", "meaning_ar": "التصريف الثالث", "note_ar": "", "note_en": "", "example": "\"Gone\" is the past participle of \"go\"."},
+      {"word": "schedule", "pos": "noun", "meaning_en": "a plan of times for doing things", "meaning_ar": "جدول مواعيد", "note_ar": "بريطاني /ˈʃedjuːl/، أمريكي /ˈskedʒuːl/", "note_en": "UK /ˈʃedjuːl/, US /ˈskedʒuːl/.", "example": "Let me check my schedule."}
+    ],
+    "fine_lines": [
+      {"title": "could have vs would have vs should have", "words": ["could have", "would have", "should have"], "explanation_ar": "could have + PP: كان ممكنًا في الماضي ولم يحدث. would have + PP: تخيّلتُ أنني سأفعله (غالبًا مع شرط) ولم يحدث. should have + PP: كان هو الصواب أو الأفضل ولم يحدث (ندم أو لوم).", "explanation_en": "could have + PP: it was possible, but it didn't happen. would have + PP: I imagined doing it (often with a condition), but it didn't happen. should have + PP: it was the right or best thing, but it didn't happen (regret or criticism).", "examples": [{"word": "could have", "sentence": "I could have helped you on Tuesday, but now it's Thursday."}, {"word": "would have", "sentence": "I would have come if I had known."}, {"word": "should have", "sentence": "I should have studied more for the test."}]},
+      {"title": "could vs could have", "words": ["could", "could have"], "explanation_ar": "could + المصدر: احتمال في المستقبل (ما زالت الفرصة موجودة). could have + PP: احتمال في الماضي (ضاعت الفرصة).", "explanation_en": "could + base verb: a possible future (the chance is still there). could have + PP: a past possibility (the chance is gone).", "examples": [{"word": "could", "sentence": "I could help you tomorrow."}, {"word": "could have", "sentence": "I could have helped you yesterday."}]}
+    ],
+    "expressions": [
+      {"phrase": "Coulda, woulda, shoulda", "meaning_ar": "كان بالإمكان، كنتُ سأفعل، كان يجب... (لكن لم يحدث)", "meaning_en": "An idiom: talking about chances you missed; it's too late now.", "example": "Coulda, woulda, shoulda. It's too late to change it now."},
+      {"phrase": "I would love to help you.", "meaning_ar": "يسعدني كثيرًا أن أساعدك.", "meaning_en": "A polite, positive answer (maybe not certain).", "example": "I would love to help you. I just have to check my schedule."},
+      {"phrase": "I would do it if I were you.", "meaning_ar": "لو كنتُ مكانك لفعلتُها.", "meaning_en": "Advice using would.", "example": "Take the job. I would do it if I were you."},
+      {"phrase": "Don't miss out.", "meaning_ar": "لا تفوّت الفرصة.", "meaning_en": "Don't lose this chance.", "example": "The sale ends today. Don't miss out!"}
+    ],
+    "grammar": [
+      {"title": "Could, would, should: possible futures", "explanation_ar": "could = ممكن، would = متخيَّل (وأيضًا ماضي will)، should = الصواب أو الأفضل. معها المصدر، وهي تتحدث عن مستقبل ممكن، أي شيء لا نفعله الآن.", "explanation_en": "could = possible, would = imaginary (also the past of will), should = the right or best thing. With a base verb, they talk about a possible future, something we are not doing now.", "examples": ["I could help you tomorrow if I'm free.", "I would help you, but I'm busy.", "I should help you because you need it."]},
+      {"title": "Modal + have + past participle = lost opportunity", "explanation_ar": "عندما نضيف have + التصريف الثالث بعد could/would/should يصبح الكلام عن الماضي: الفرصة كانت موجودة لكنها ضاعت. have تعني الربط بالماضي.", "explanation_en": "When we add have + past participle after could/would/should, we talk about the past: the chance was there but now it is gone. Have shows a connection to the past.", "examples": ["I could have gone to the meeting. (It was possible; I didn't go.)", "I would have called, but I lost my phone.", "You should have told me earlier."]},
+      {"title": "After should have: use necessity now", "explanation_ar": "عندما تضيع الفرصة (should have)، غالبًا نحتاج الآن لفعل شيء آخر، فنستخدم أفعال الضرورة must / have to / need to.", "explanation_en": "When the chance is gone (should have), we often need to do something else now, so we use necessity modals: must / have to / need to.", "examples": ["I should have studied. Now I have to take the test again.", "You should have left earlier. Now you need to take a taxi."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I could have helped you\" means ___.", "choices": ["I will help you.", "It was possible, but I didn't help.", "I am helping you now.", "I must help you."], "answer": 1, "explanation_ar": "could have + PP = كان ممكنًا ولم يحدث.", "explanation_en": "Could have + PP = it was possible, but it didn't happen."},
+    {"question": "You failed the test. \"I ___ studied more.\"", "choices": ["should have", "should", "would", "can have"], "answer": 0, "explanation_ar": "ندم على الماضي: should have + PP.", "explanation_en": "Regret about the past: should have + PP."},
+    {"question": "Choose the correct sentence.", "choices": ["You should have call me.", "You should has called me.", "You should have called me.", "You should called me."], "answer": 2, "explanation_ar": "should + have + التصريف الثالث.", "explanation_en": "should + have + past participle."},
+    {"question": "What does \"have\" add to the modal?", "choices": ["a future meaning", "a question", "politeness only", "a connection to the past"], "answer": 3, "explanation_ar": "have تربط بالماضي.", "explanation_en": "Have connects to the past."},
+    {"question": "Which modal is about something imaginary?", "choices": ["would", "must", "should", "can"], "answer": 0, "explanation_ar": "would = متخيَّل.", "explanation_en": "Would = imaginary."},
+    {"question": "\"I ___ come if I had known about the party.\"", "choices": ["will", "would have", "should", "can"], "answer": 1, "explanation_ar": "would have + PP مع شرط في الماضي.", "explanation_en": "would have + PP with a past condition."},
+    {"question": "What is a \"lost opportunity\"?", "choices": ["a new job", "a lost bag", "a chance you did not use", "a future plan"], "answer": 2, "explanation_ar": "فرصة ضائعة.", "explanation_en": "A chance you did not use."},
+    {"question": "\"I could help you tomorrow.\" The chance is ___.", "choices": ["gone", "in the past", "impossible", "still there (future)"], "answer": 3, "explanation_ar": "could + المصدر = احتمال في المستقبل.", "explanation_en": "Could + base verb = a possible future."},
+    {"question": "What does \"miss out\" mean?", "choices": ["to lose a good chance", "to arrive early", "to find something", "to win"], "answer": 0, "explanation_ar": "miss out = يفوّت الفرصة.", "explanation_en": "Miss out = to lose a good chance."},
+    {"question": "\"You should have left earlier. Now you ___ take a taxi.\"", "choices": ["could have", "should have", "have to", "would have"], "answer": 2, "explanation_ar": "الآن ضرورة: have to.", "explanation_en": "Now it's a necessity: have to."}
+  ]
+}

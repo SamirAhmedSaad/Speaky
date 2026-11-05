@@ -1,0 +1,55 @@
+{
+  "title": "Talking on the Phone",
+  "content": {
+    "vocabulary": [
+      {"word": "answer the phone", "pos": "phrase", "meaning_en": "to pick up the phone when it rings and speak", "meaning_ar": "يرد على الهاتف", "note_ar": "", "note_en": "", "example": "Please answer the phone with the company name."},
+      {"word": "call", "pos": "noun / verb", "meaning_en": "a phone conversation; to phone someone", "meaning_ar": "مكالمة؛ يتصل", "note_ar": "", "note_en": "", "example": "I had a call from a client this morning."},
+      {"word": "dial", "pos": "verb", "meaning_en": "to press the numbers on a phone", "meaning_ar": "يطلب الرقم", "note_ar": "", "note_en": "", "example": "Dial 9 first to get an outside line."},
+      {"word": "available", "pos": "adjective", "meaning_en": "free to talk or meet now", "meaning_ar": "متاح / متفرّغ", "note_ar": "العكس: not available / unavailable", "note_en": "Opposite: not available / unavailable.", "example": "The manager is not available at the moment."},
+      {"word": "at the moment", "pos": "phrase", "meaning_en": "now", "meaning_ar": "في الوقت الحالي", "note_ar": "", "note_en": "", "example": "She's in a meeting at the moment."},
+      {"word": "take a message", "pos": "phrase", "meaning_en": "to write down information for someone who isn't there", "meaning_ar": "يأخذ رسالة (لشخص غائب)", "note_ar": "", "note_en": "", "example": "He's out. Can I take a message?"},
+      {"word": "call back", "pos": "phrasal verb", "meaning_en": "to phone someone again, or return their call", "meaning_ar": "يعاود الاتصال", "note_ar": "", "note_en": "", "example": "Shall I ask him to call you back?"},
+      {"word": "busy", "pos": "adjective", "meaning_en": "having a lot to do; not free", "meaning_ar": "مشغول", "note_ar": "", "note_en": "", "example": "I'm afraid she's busy right now."},
+      {"word": "rude", "pos": "adjective", "meaning_en": "not polite", "meaning_ar": "غير مهذّب / وقح", "note_ar": "", "note_en": "", "example": "Just saying \"Yes?\" when you answer is rude."},
+      {"word": "training session", "pos": "noun", "meaning_en": "a time when you learn and practise a skill", "meaning_ar": "جلسة تدريب", "note_ar": "", "note_en": "", "example": "We have a training session on customer service today."},
+      {"word": "practice", "pos": "noun", "meaning_en": "doing something again and again to improve", "meaning_ar": "تمرين / تدريب", "note_ar": "بريطاني: practice اسم و practise فعل", "note_en": "UK: practice (noun), practise (verb).", "example": "Let's do another practice."},
+      {"word": "introduce yourself", "pos": "phrase", "meaning_en": "to say your name and who you are", "meaning_ar": "يعرّف بنفسه", "note_ar": "", "note_en": "", "example": "When you call, first introduce yourself."},
+      {"word": "on first name terms", "pos": "phrase", "meaning_en": "friendly enough to use each other's first names", "meaning_ar": "على علاقة تسمح بالمناداة بالاسم الأول", "note_ar": "", "note_en": "", "example": "We've worked together for years, so we're on first name terms."},
+      {"word": "personal", "pos": "adjective", "meaning_en": "about your private life, not work", "meaning_ar": "شخصي", "note_ar": "تُنطق /ˈpɜːsənəl/ والنبر على المقطع الأول", "note_en": "Stress on the first part: PER-son-al.", "example": "Please don't make personal calls during work time."},
+      {"word": "personnel", "pos": "noun", "meaning_en": "the people who work for a company; staff", "meaning_ar": "الموظفون / شؤون الموظفين", "note_ar": "تُنطق /ˌpɜːsəˈnel/ والنبر على المقطع الأخير", "note_en": "Stress on the last part: per-son-NEL.", "example": "Talk to personnel about your holiday days."},
+      {"word": "nervous", "pos": "adjective", "meaning_en": "a little afraid", "meaning_ar": "متوتر", "note_ar": "", "note_en": "", "example": "I get nervous when I speak on the phone in English."},
+      {"word": "stressed", "pos": "adjective", "meaning_en": "worried because of too much pressure", "meaning_ar": "متوتر / تحت الضغط", "note_ar": "", "note_en": "", "example": "She's stressed because of all the work."},
+      {"word": "phone manner", "pos": "noun", "meaning_en": "the way you speak to people on the phone", "meaning_ar": "أسلوب الحديث على الهاتف", "note_ar": "", "note_en": "", "example": "Anna had an excellent phone manner this time."}
+    ],
+    "fine_lines": [
+      {"title": "personal vs personnel", "words": ["personal", "personnel"], "explanation_ar": "personal صفة تعني شخصي/خاص، والنبر على أولها. personnel اسم يعني الموظفين أو قسم شؤون الموظفين، والنبر على آخرها. خلطت آنا بينهما في الحلقة.", "explanation_en": "\"Personal\" (adjective) means private, stress at the start. \"Personnel\" (noun) means the staff of a company, stress at the end. Anna mixed them up in this episode.", "examples": [{"word": "personal", "sentence": "This is a personal question."}, {"word": "personnel", "sentence": "All personnel must wear a badge."}]},
+      {"title": "I'm sorry vs I'm afraid", "words": ["I'm really sorry", "I'm afraid"], "explanation_ar": "كلتاهما طريقة مهذبة لإعطاء خبر غير مرغوب. I'm afraid هنا لا تعني الخوف بل تعني \"للأسف\".", "explanation_en": "Both politely give unwelcome news. Here \"I'm afraid\" does not mean fear; it means \"unfortunately\".", "examples": [{"word": "I'm really sorry", "sentence": "I'm really sorry, he's not available."}, {"word": "I'm afraid", "sentence": "I'm afraid she's busy."}]}
+    ],
+    "expressions": [
+      {"phrase": "Hello? Tip Top Trading. This is Anna speaking.", "meaning_ar": "مرحبًا؟ شركة تِب توب تريدينغ. معك آنا.", "meaning_en": "answering with the company name and your name", "example": "Hello? Green Office Supplies. This is Omar speaking."},
+      {"phrase": "Hello? Anna speaking.", "meaning_ar": "مرحبًا؟ معك آنا.", "meaning_en": "a short way to answer with your name", "example": "Hello? Layla speaking."},
+      {"phrase": "Hello Mrs Smith, how can I help you?", "meaning_ar": "مرحبًا سيدة سميث، كيف يمكنني مساعدتك؟", "meaning_en": "used after the caller says who they are", "example": "Hello Mr Khan, how can I help you?"},
+      {"phrase": "Hello Mrs Smith, how are you?", "meaning_ar": "مرحبًا سيدة سميث، كيف حالك؟", "meaning_en": "used when you already know the caller", "example": "Oh, hello Mr Brown, how are you?"},
+      {"phrase": "I'm really sorry, he's not available at the moment. Can I take a message?", "meaning_ar": "أنا آسف جدًا، هو غير متاح حاليًا. هل يمكنني أخذ رسالة؟", "meaning_en": "used when the person the caller wants isn't there", "example": "I'm really sorry, she's not available at the moment. Can I take a message?"},
+      {"phrase": "I'm afraid he's busy – shall I ask him to call you back?", "meaning_ar": "للأسف هو مشغول، هل أطلب منه أن يعاود الاتصال بك؟", "meaning_en": "offering a call back when someone is busy", "example": "I'm afraid she's busy – shall I ask her to call you back?"},
+      {"phrase": "Thank you for calling, goodbye.", "meaning_ar": "شكرًا على اتصالك، مع السلامة.", "meaning_en": "a polite way to end a call", "example": "OK, I'll tell him. Thank you for calling, goodbye."},
+      {"phrase": "I'd like to speak to... please.", "meaning_ar": "أودّ التحدث إلى... من فضلك.", "meaning_en": "used by the caller to ask for someone", "example": "I'd like to speak to the manager, please."},
+      {"phrase": "I'll try again later.", "meaning_ar": "سأحاول مرة أخرى لاحقًا.", "meaning_en": "said by a caller who will phone again", "example": "That's OK, I'll try again later."}
+    ],
+    "grammar": [
+      {"title": "Offers with Shall I...? and Can I...?", "explanation_ar": "لعرض المساعدة بأدب على الهاتف نستخدم Shall I + الفعل الأساسي أو Can I + الفعل الأساسي. Shall I أكثر رسمية وتستخدم كثيرًا في الإنجليزية البريطانية.", "explanation_en": "To offer help politely on the phone, use \"Shall I + base verb?\" or \"Can I + base verb?\". \"Shall I\" is a little more formal and common in British English.", "examples": ["Can I take a message?", "Shall I ask him to call you back?", "Shall I give you her email address?"]}
+    ]
+  },
+  "questions": [
+    {"question": "What is the best way to answer the phone at work?", "choices": ["Yes?", "What do you want?", "Hello? Tip Top Trading. Anna speaking.", "Who is it?"], "answer": 2, "explanation_ar": "اذكر اسم الشركة واسمك بأدب.", "explanation_en": "Say the company name and your name politely."},
+    {"question": "Complete: He's not available at the moment. Can I ___ a message?", "choices": ["take", "make", "do", "have"], "answer": 0, "explanation_ar": "نقول take a message.", "explanation_en": "We say \"take a message\"."},
+    {"question": "\"I'm afraid he's busy\" means...", "choices": ["I am scared of him", "Unfortunately he is busy", "He is afraid", "He is not busy"], "answer": 1, "explanation_ar": "I'm afraid هنا تعني للأسف.", "explanation_en": "Here \"I'm afraid\" means unfortunately."},
+    {"question": "Complete: ___ I ask him to call you back?", "choices": ["Will", "Do", "Am", "Shall"], "answer": 3, "explanation_ar": "Shall I...? لعرض المساعدة.", "explanation_en": "\"Shall I...?\" is used to offer help."},
+    {"question": "Which word means \"the staff of a company\"?", "choices": ["personal", "person", "personnel", "personality"], "answer": 2, "explanation_ar": "personnel = الموظفون.", "explanation_en": "\"Personnel\" means the staff."},
+    {"question": "Which phrase ends a phone call politely?", "choices": ["Thank you for calling, goodbye.", "How can I help you?", "Can I take a message?", "Anna speaking."], "answer": 0, "explanation_ar": "هذه عبارة إنهاء المكالمة.", "explanation_en": "This phrase ends the call."},
+    {"question": "You already know the caller. What do you say?", "choices": ["Who are you?", "Hello Mrs Smith, how are you?", "Yes?", "Call back later. Bye."], "answer": 1, "explanation_ar": "إذا كنت تعرف المتصل تسأله عن حاله.", "explanation_en": "If you know the caller, ask how they are."},
+    {"question": "Why did Denise say \"Yes?\" was wrong?", "choices": ["It is too long", "It is too formal", "It is in the wrong language", "It is rude"], "answer": 3, "explanation_ar": "قول Yes فقط عند الرد غير مهذب.", "explanation_en": "Just saying \"Yes?\" is rude."},
+    {"question": "\"We're on first name terms\" means...", "choices": ["We use each other's first names", "We have the same name", "We never speak", "We write our names first"], "answer": 0, "explanation_ar": "تعني أننا نتنادى بالأسماء الأولى.", "explanation_en": "It means we call each other by first names."},
+    {"question": "Choose the correct sentence.", "choices": ["Shall I to take a message?", "Shall I taking a message?", "Shall I take a message?", "Shall I took a message?"], "answer": 2, "explanation_ar": "بعد Shall I يأتي الفعل الأساسي.", "explanation_en": "After \"Shall I\" use the base verb."}
+  ]
+}

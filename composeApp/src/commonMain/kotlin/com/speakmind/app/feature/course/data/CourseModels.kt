@@ -10,6 +10,13 @@ data class Course(
     val title: String,
     val subtitle: String? = null,
     val sort: Int = 0,
+    /** "Beginner", "Intermediate", "Beginner → Advanced"... shown as a badge. */
+    val level: String? = null,
+    /** The YouTube creator whose lessons the course follows. */
+    @SerialName("channel_name") val channelName: String? = null,
+    @SerialName("channel_url") val channelUrl: String? = null,
+    /** The YouTube channel's logo, shown on the course card. */
+    @SerialName("image_url") val imageUrl: String? = null,
 )
 
 @Serializable

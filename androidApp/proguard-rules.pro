@@ -75,3 +75,7 @@
     public static void d(...);
     public static void v(...);
 }
+
+# Agora voice SDK: its native code looks classes up by name (JNI), so R8 must keep them.
+-keep class io.agora.** { *; }
+-dontwarn io.agora.**

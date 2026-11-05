@@ -1,0 +1,503 @@
+{
+ "title": "Talking about the time",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "time",
+    "pos": "noun",
+    "meaning_en": "the hour and minutes on a clock",
+    "meaning_ar": "الوقت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What time is it?"
+   },
+   {
+    "word": "o'clock",
+    "pos": "adverb",
+    "meaning_en": "used for exact hours",
+    "meaning_ar": "تمامًا (للساعة الكاملة)",
+    "note_ar": "تُستخدم مع الساعات الكاملة فقط: one o'clock, two o'clock.",
+    "note_en": "Only for exact hours: one o'clock, two o'clock.",
+    "example": "It's three o'clock."
+   },
+   {
+    "word": "past",
+    "pos": "preposition",
+    "meaning_en": "after the hour (when telling the time)",
+    "meaning_ar": "بعد (في قراءة الساعة)",
+    "note_ar": "نستخدمها للدقائق من 1 إلى 30 بعد الساعة.",
+    "note_en": "Use it for 1-30 minutes after the hour.",
+    "example": "It's ten past two. (2:10)"
+   },
+   {
+    "word": "to",
+    "pos": "preposition",
+    "meaning_en": "before the hour (when telling the time)",
+    "meaning_ar": "إلا / قبل (في قراءة الساعة)",
+    "note_ar": "نستخدمها للدقائق الباقية قبل الساعة التالية.",
+    "note_en": "Use it for the minutes before the next hour.",
+    "example": "It's ten to three. (2:50)"
+   },
+   {
+    "word": "half",
+    "pos": "noun",
+    "meaning_en": "one of two equal parts; 30 minutes",
+    "meaning_ar": "نصف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You can have half of the pizza."
+   },
+   {
+    "word": "quarter",
+    "pos": "noun",
+    "meaning_en": "one of four equal parts; 15 minutes",
+    "meaning_ar": "ربع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Let's all have a quarter."
+   },
+   {
+    "word": "half past",
+    "pos": "phrase",
+    "meaning_en": "30 minutes after the hour",
+    "meaning_ar": "والنصف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's half past nine. (9:30)"
+   },
+   {
+    "word": "quarter past",
+    "pos": "phrase",
+    "meaning_en": "15 minutes after the hour",
+    "meaning_ar": "والربع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's quarter past four. (4:15)"
+   },
+   {
+    "word": "quarter to",
+    "pos": "phrase",
+    "meaning_en": "15 minutes before the hour",
+    "meaning_ar": "إلا ربعًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's quarter to three. (2:45)"
+   },
+   {
+    "word": "five past",
+    "pos": "phrase",
+    "meaning_en": "5 minutes after the hour",
+    "meaning_ar": "وخمس دقائق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's five past two. (2:05)"
+   },
+   {
+    "word": "ten past",
+    "pos": "phrase",
+    "meaning_en": "10 minutes after the hour",
+    "meaning_ar": "وعشر دقائق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's ten past two. (2:10)"
+   },
+   {
+    "word": "twenty past",
+    "pos": "phrase",
+    "meaning_en": "20 minutes after the hour",
+    "meaning_ar": "والثلث / وعشرون دقيقة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's twenty past two. (2:20)"
+   },
+   {
+    "word": "twenty-five past",
+    "pos": "phrase",
+    "meaning_en": "25 minutes after the hour",
+    "meaning_ar": "وخمس وعشرون دقيقة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's twenty-five past two. (2:25)"
+   },
+   {
+    "word": "twenty-five to",
+    "pos": "phrase",
+    "meaning_en": "25 minutes before the hour",
+    "meaning_ar": "إلا خمسًا وعشرين دقيقة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's twenty-five to three. (2:35)"
+   },
+   {
+    "word": "twenty to",
+    "pos": "phrase",
+    "meaning_en": "20 minutes before the hour",
+    "meaning_ar": "إلا ثلثًا / إلا عشرين دقيقة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's twenty to three. (2:40)"
+   },
+   {
+    "word": "ten to",
+    "pos": "phrase",
+    "meaning_en": "10 minutes before the hour",
+    "meaning_ar": "إلا عشر دقائق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's ten to three. (2:50)"
+   },
+   {
+    "word": "five to",
+    "pos": "phrase",
+    "meaning_en": "5 minutes before the hour",
+    "meaning_ar": "إلا خمس دقائق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's five to three. (2:55)"
+   },
+   {
+    "word": "get up",
+    "pos": "phrasal verb",
+    "meaning_en": "leave your bed in the morning",
+    "meaning_ar": "يستيقظ وينهض من السرير",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I get up at seven o'clock."
+   },
+   {
+    "word": "have breakfast",
+    "pos": "phrase",
+    "meaning_en": "eat the morning meal",
+    "meaning_ar": "يتناول الفطور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have breakfast at half past seven."
+   },
+   {
+    "word": "have lunch",
+    "pos": "phrase",
+    "meaning_en": "eat the midday meal",
+    "meaning_ar": "يتناول الغداء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have lunch at quarter past one."
+   },
+   {
+    "word": "go to bed",
+    "pos": "phrase",
+    "meaning_en": "go to sleep at night",
+    "meaning_ar": "يذهب إلى النوم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I go to bed at ten o'clock."
+   },
+   {
+    "word": "at",
+    "pos": "preposition",
+    "meaning_en": "used before a clock time",
+    "meaning_ar": "في (قبل الوقت المحدد)",
+    "note_ar": "نقول at قبل الساعة: at 7:00, at half past six.",
+    "note_en": "Use at before a clock time.",
+    "example": "We have lunch at one o'clock."
+   },
+   {
+    "word": "correct",
+    "pos": "adjective",
+    "meaning_en": "right, with no mistakes",
+    "meaning_ar": "صحيح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Correct! It's quarter past four."
+   },
+   {
+    "word": "sure",
+    "pos": "adjective",
+    "meaning_en": "certain; you know it",
+    "meaning_ar": "متأكد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm not sure. Can you tell me?"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "past vs to",
+    "words": [
+     "past",
+     "to"
+    ],
+    "explanation_ar": "نستخدم past للدقائق بعد الساعة (حتى النصف)، ونستخدم to للدقائق قبل الساعة التالية. 2:20 = twenty past two، و2:40 = twenty to three.",
+    "explanation_en": "Use past for minutes after the hour (up to half past). Use to for minutes before the next hour.",
+    "examples": [
+     {
+      "word": "past",
+      "sentence": "It's twenty past two. (2:20)"
+     },
+     {
+      "word": "to",
+      "sentence": "It's twenty to three. (2:40)"
+     }
+    ]
+   },
+   {
+    "title": "half past vs quarter past",
+    "words": [
+     "half past",
+     "quarter past"
+    ],
+    "explanation_ar": "half = نصف ساعة (30 دقيقة)، وquarter = ربع ساعة (15 دقيقة). لاحظ: لا نقول half to.",
+    "explanation_en": "Half = 30 minutes; quarter = 15 minutes. We say half past, but never \"half to\".",
+    "examples": [
+     {
+      "word": "half past",
+      "sentence": "It's half past seven. (7:30)"
+     },
+     {
+      "word": "quarter past",
+      "sentence": "It's quarter past seven. (7:15)"
+     }
+    ]
+   },
+   {
+    "title": "What time is it? vs What time do you ...?",
+    "words": [
+     "What time is it?",
+     "What time do you ...?"
+    ],
+    "explanation_ar": "What time is it? تسأل عن الوقت الآن. أما What time do you get up? فتسأل عن موعد عادة يومية، والجواب بـ at.",
+    "explanation_en": "\"What time is it?\" asks about the time now. \"What time do you get up?\" asks about a habit; answer with at + time.",
+    "examples": [
+     {
+      "word": "What time is it?",
+      "sentence": "What time is it? It's five to three."
+     },
+     {
+      "word": "What time do you ...?",
+      "sentence": "What time do you get up? I get up at seven."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What time is it?",
+    "meaning_ar": "كم الساعة؟",
+    "meaning_en": "asking for the time now",
+    "example": "What time is it? It's one o'clock."
+   },
+   {
+    "phrase": "What's the time?",
+    "meaning_ar": "كم الساعة؟ (صيغة أخرى)",
+    "meaning_en": "another way to ask the time",
+    "example": "Hello, what's the time? It's seven o'clock."
+   },
+   {
+    "phrase": "It's ... o'clock.",
+    "meaning_ar": "الساعة ... تمامًا.",
+    "meaning_en": "giving an exact hour",
+    "example": "It's twelve o'clock."
+   },
+   {
+    "phrase": "Time for pizza!",
+    "meaning_ar": "حان وقت البيتزا!",
+    "meaning_en": "it is the right time to do or eat something",
+    "example": "It's two o'clock. Time for lunch!"
+   },
+   {
+    "phrase": "Can I have some?",
+    "meaning_ar": "هل يمكنني أن آخذ قليلًا؟",
+    "meaning_en": "asking politely for part of something",
+    "example": "That pizza looks good. Can I have some?"
+   },
+   {
+    "phrase": "You can have half.",
+    "meaning_ar": "يمكنك أن تأخذ النصف.",
+    "meaning_en": "offering half of something",
+    "example": "Yes, you can have half."
+   },
+   {
+    "phrase": "Let's all have a quarter.",
+    "meaning_ar": "فليأخذ كل واحد منا ربعًا.",
+    "meaning_en": "sharing something in four parts",
+    "example": "There are four of us. Let's all have a quarter."
+   },
+   {
+    "phrase": "I'm not sure. Can you tell me?",
+    "meaning_ar": "لست متأكدًا. هل يمكنك أن تخبرني؟",
+    "meaning_en": "you don't know and ask for help",
+    "example": "What time is it? I'm not sure. Can you tell me?"
+   },
+   {
+    "phrase": "That's right.",
+    "meaning_ar": "هذا صحيح.",
+    "meaning_en": "saying an answer is correct",
+    "example": "It's three o'clock. That's right."
+   },
+   {
+    "phrase": "What time do you get up?",
+    "meaning_ar": "متى تستيقظ؟",
+    "meaning_en": "asking about someone's morning routine",
+    "example": "What time do you get up? I get up at seven o'clock."
+   },
+   {
+    "phrase": "I have breakfast at twenty past seven.",
+    "meaning_ar": "أتناول الفطور في السابعة وعشرين دقيقة.",
+    "meaning_en": "saying the time of a daily meal",
+    "example": "I have breakfast at twenty past seven."
+   },
+   {
+    "phrase": "What time do you go to bed?",
+    "meaning_ar": "متى تذهب إلى النوم؟",
+    "meaning_en": "asking about someone's bedtime",
+    "example": "What time do you go to bed? At half past ten."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Telling the time: o'clock, past, to",
+    "explanation_ar": "للساعة الكاملة: It's two o'clock. للدقائق بعد الساعة (1-30) نستخدم past: It's ten past two. للدقائق قبل الساعة التالية نستخدم to: It's ten to three. و15 دقيقة = quarter، و30 دقيقة = half.",
+    "explanation_en": "Exact hours: o'clock. Minutes after the hour (1-30): past. Minutes before the next hour: to. 15 minutes = quarter, 30 minutes = half.",
+    "examples": [
+     "It's two o'clock.",
+     "It's five past two.",
+     "It's quarter past two.",
+     "It's half past two.",
+     "It's twenty-five to three.",
+     "It's quarter to three."
+    ]
+   },
+   {
+    "title": "at + time for daily routines",
+    "explanation_ar": "نسأل عن العادات بـ What time do you + فعل؟ ونجيب بـ I + فعل + at + الوقت.",
+    "explanation_en": "Ask: What time do you + verb? Answer: I + verb + at + time.",
+    "examples": [
+     "What time do you get up? I get up at seven o'clock.",
+     "What time do you have lunch? I have lunch at quarter past one.",
+     "I go to bed at half past ten."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "2:15 is ...",
+   "choices": [
+    "quarter to two",
+    "half past two",
+    "quarter past two",
+    "two quarter"
+   ],
+   "answer": 2,
+   "explanation_ar": "2:15 تعني الثانية والربع = quarter past two.",
+   "explanation_en": "2:15 is quarter past two."
+  },
+  {
+   "question": "2:45 is ...",
+   "choices": [
+    "quarter to three",
+    "quarter past three",
+    "quarter past two",
+    "half to three"
+   ],
+   "answer": 0,
+   "explanation_ar": "2:45 = الثالثة إلا ربعًا = quarter to three.",
+   "explanation_en": "2:45 is quarter to three: 15 minutes before three."
+  },
+  {
+   "question": "9:30 is ...",
+   "choices": [
+    "half to nine",
+    "half past nine",
+    "nine half",
+    "thirty to ten"
+   ],
+   "answer": 1,
+   "explanation_ar": "9:30 = التاسعة والنصف = half past nine.",
+   "explanation_en": "9:30 is half past nine."
+  },
+  {
+   "question": "2:50 is ...",
+   "choices": [
+    "ten past two",
+    "ten past three",
+    "fifty past two",
+    "ten to three"
+   ],
+   "answer": 3,
+   "explanation_ar": "2:50 = الثالثة إلا عشر دقائق = ten to three.",
+   "explanation_en": "2:50 is ten to three."
+  },
+  {
+   "question": "Complete: \"I get up ___ seven o'clock.\"",
+   "choices": [
+    "in",
+    "on",
+    "at",
+    "to"
+   ],
+   "answer": 2,
+   "explanation_ar": "نستخدم at قبل الوقت.",
+   "explanation_en": "Use at before a clock time."
+  },
+  {
+   "question": "Which question asks for the time now?",
+   "choices": [
+    "What time do you get up?",
+    "What's the time?",
+    "What time do you go to bed?",
+    "What do you have for lunch?"
+   ],
+   "answer": 1,
+   "explanation_ar": "What's the time? تسأل عن الوقت الآن.",
+   "explanation_en": "\"What's the time?\" asks about the time now."
+  },
+  {
+   "question": "2:35 is ...",
+   "choices": [
+    "twenty-five to three",
+    "twenty-five past two",
+    "thirty-five to three",
+    "twenty-five past three"
+   ],
+   "answer": 0,
+   "explanation_ar": "2:35 = الثالثة إلا خمسًا وعشرين = twenty-five to three.",
+   "explanation_en": "2:35 is twenty-five to three."
+  },
+  {
+   "question": "Which sentence is correct?",
+   "choices": [
+    "It's three o'clock.",
+    "It's o'clock three.",
+    "It's three o'clocks.",
+    "It's at three o'clock now."
+   ],
+   "answer": 0,
+   "explanation_ar": "o'clock تأتي بعد الرقم ولا تُجمع.",
+   "explanation_en": "O'clock comes after the number and has no -s."
+  },
+  {
+   "question": "\"What time do you have lunch?\" Choose the best answer.",
+   "choices": [
+    "It's quarter past one.",
+    "I have lunch at quarter past one.",
+    "Yes, I have lunch.",
+    "I have lunch in one."
+   ],
+   "answer": 1,
+   "explanation_ar": "السؤال عن عادة، فنجيب بـ I have lunch at + الوقت.",
+   "explanation_en": "The question is about a habit: I have lunch at + time."
+  },
+  {
+   "question": "\"I'm not sure. Can you tell me?\" means ...",
+   "choices": [
+    "I know the answer.",
+    "I don't know. Please help me.",
+    "I am very happy.",
+    "I want some pizza."
+   ],
+   "answer": 1,
+   "explanation_ar": "تعني: لا أعرف، هل تساعدني؟",
+   "explanation_en": "It means: I don't know; please give me the answer."
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "The Big Snow",
+  "content": {
+    "vocabulary": [
+      {"word": "weather", "pos": "noun", "meaning_en": "how hot, cold, wet or windy it is outside", "meaning_ar": "الطقس", "note_ar": "لا تخلط مع whether (هل/ما إذا)", "note_en": "Don't confuse with whether.", "example": "The weather is cold today."},
+      {"word": "affect", "pos": "verb", "meaning_en": "to change or have an influence on something", "meaning_ar": "يؤثّر في", "note_ar": "", "note_en": "", "example": "Weather affects people's lives."},
+      {"word": "blizzard", "pos": "noun", "meaning_en": "a big storm with lots of snow and strong wind", "meaning_ar": "عاصفة ثلجية", "note_ar": "", "note_en": "", "example": "The blizzard closed the schools."},
+      {"word": "event", "pos": "noun", "meaning_en": "something important that happens", "meaning_ar": "حدث", "note_ar": "", "note_en": "", "example": "The storm was a big weather event."},
+      {"word": "volunteer", "pos": "verb", "meaning_en": "to offer to do something; (here, jokingly) to choose someone to help", "meaning_ar": "يتطوّع / يقدّم شخصًا للمساعدة", "note_ar": "", "note_en": "", "example": "She volunteered to clean the classroom."},
+      {"word": "supplies", "pos": "noun", "meaning_en": "things you need, like food and water", "meaning_ar": "مؤن / لوازم", "note_ar": "", "note_en": "", "example": "We bought supplies before the storm."},
+      {"word": "blanket", "pos": "noun", "meaning_en": "a warm cover for a bed", "meaning_ar": "بطانية", "note_ar": "", "note_en": "", "example": "Bring a blanket. It's cold."},
+      {"word": "century", "pos": "noun", "meaning_en": "one hundred years", "meaning_ar": "قرن", "note_ar": "", "note_en": "", "example": "This could be the storm of the century."},
+      {"word": "forecast", "pos": "noun", "meaning_en": "a report about what the weather will be", "meaning_ar": "توقّعات (الطقس)", "note_ar": "weather forecast = النشرة الجوية", "note_en": "weather forecast", "example": "The forecast says snow tomorrow."},
+      {"word": "software", "pos": "noun", "meaning_en": "programs that run on a computer", "meaning_ar": "برمجيات / برنامج", "note_ar": "اسم غير معدود", "note_en": "Uncountable.", "example": "I bought new weather software."},
+      {"word": "temperature", "pos": "noun", "meaning_en": "how hot or cold something is", "meaning_ar": "درجة الحرارة", "note_ar": "", "note_en": "", "example": "The temperature is below zero."},
+      {"word": "wind speed", "pos": "noun", "meaning_en": "how fast the wind is moving", "meaning_ar": "سرعة الرياح", "note_ar": "", "note_en": "", "example": "The wind speed is very high today."},
+      {"word": "snowfall", "pos": "noun", "meaning_en": "the amount of snow that falls", "meaning_ar": "كمية الثلج المتساقط", "note_ar": "", "note_en": "", "example": "There was heavy snowfall last night."},
+      {"word": "in real time", "pos": "phrase", "meaning_en": "at the same moment that it happens", "meaning_ar": "في الوقت الفعلي / مباشرة", "note_ar": "", "note_en": "", "example": "The app shows the bus location in real time."},
+      {"word": "record", "pos": "noun", "meaning_en": "the highest or best amount ever", "meaning_ar": "رقم قياسي", "note_ar": "break a record = يحطّم رقمًا قياسيًا", "note_en": "break a record", "example": "We just broke the wind speed record!"},
+      {"word": "straight", "pos": "adverb", "meaning_en": "one after another with no break", "meaning_ar": "متواصلًا / دون توقف", "note_ar": "", "note_en": "", "example": "It snowed for 30 hours straight."},
+      {"word": "run out (of)", "pos": "phrasal verb", "meaning_en": "to have no more of something", "meaning_ar": "ينفد / ينتهي ما لديه", "note_ar": "", "note_en": "", "example": "We ran out of milk."},
+      {"word": "popcorn", "pos": "noun", "meaning_en": "corn that pops open when heated", "meaning_ar": "فشار", "note_ar": "", "note_en": "", "example": "Where is my bag of popcorn?"},
+      {"word": "team-building", "pos": "adjective", "meaning_en": "helping people learn to work well together", "meaning_ar": "لبناء روح الفريق", "note_ar": "", "note_en": "", "example": "We did a team-building game at work."}
+    ],
+    "fine_lines": [
+      {"title": "present perfect vs past perfect", "words": ["have reported", "had reported"], "explanation_ar": "المضارع التام (have/has + التصريف الثالث) يربط الماضي بالحاضر: Have you ever reported on a storm? الماضي التام (had + التصريف الثالث) لحدث وقع قبل وقت آخر في الماضي: By Saturday night, stores had closed.", "explanation_en": "Present perfect (have/has + past participle) connects the past to now: Have you ever reported on a storm? Past perfect (had + past participle) is for an action before another past time: By Saturday night, stores had closed.", "examples": [{"word": "have reported", "sentence": "I have reported on a blizzard."}, {"word": "had reported", "sentence": "We had reported for 48 hours straight."}]},
+      {"title": "weather vs whether", "words": ["weather", "whether"], "explanation_ar": "الكلمتان تُنطقان تقريبًا بنفس الطريقة. weather = الطقس. whether = ما إذا / هل.", "explanation_en": "They sound almost the same. Weather = rain, sun, snow. Whether = if.", "examples": [{"word": "weather", "sentence": "The weather is snowy."}, {"word": "whether", "sentence": "I don't know whether it will snow."}]}
+    ],
+    "expressions": [
+      {"phrase": "Have you ever...?", "meaning_ar": "هل سبق أن...؟", "meaning_en": "Did you do this at any time in your life?", "example": "Have you ever seen snow?"},
+      {"phrase": "Who hasn't?", "meaning_ar": "ومَن لم يفعل ذلك؟ (الكل فعله)", "meaning_en": "Everyone has done that, of course.", "example": "Have you ever been late for work? Who hasn't?"},
+      {"phrase": "You know it.", "meaning_ar": "بالتأكيد / أكيد.", "meaning_en": "Yes, that's right (informal).", "example": "Is that the new phone? You know it."},
+      {"phrase": "I can't wait.", "meaning_ar": "لا أطيق الانتظار.", "meaning_en": "I'm very excited (or, said with a flat voice, I'm not excited).", "example": "The trip is tomorrow. I can't wait!"},
+      {"phrase": "It'll be fine.", "meaning_ar": "ستكون الأمور بخير.", "meaning_en": "Don't worry.", "example": "Don't worry about the test. It'll be fine."},
+      {"phrase": "You could say that.", "meaning_ar": "يمكنك قول ذلك (نوعًا ما).", "meaning_en": "That is partly true.", "example": "Was it a hard day? You could say that."}
+    ],
+    "grammar": [
+      {"title": "Present perfect and past perfect (review)", "explanation_ar": "المضارع التام: have/has + التصريف الثالث. نستخدمه لتجربة في أي وقت من الحياة (Have you ever...?) أو لشيء بدأ في الماضي ومستمر (I have wanted this my whole life). الماضي التام: had + التصريف الثالث. نستخدمه لحدث وقع قبل حدث أو وقت آخر في الماضي. ومنه الماضي التام المستمر: had been + فعل ing لفعل استمر مدة قبل وقت في الماضي (I had been waiting for years).", "explanation_en": "Present perfect: have/has + past participle, for life experience (Have you ever...?) or something from the past until now. Past perfect: had + past participle, for an action before another past time. Past perfect continuous: had been + -ing for an action that continued before a past time.", "examples": ["Have you ever reported on a big weather event?", "I have wanted to report on a big weather event my whole life.", "By Saturday night, stores and restaurants had closed.", "I had been waiting for that blizzard for years."]}
+    ]
+  },
+  "questions": [
+    {"question": "____ you ever seen a blizzard?", "choices": ["Have", "Had", "Did", "Has"], "answer": 0, "explanation_ar": "سؤال عن تجربة في الحياة: Have you ever...?", "explanation_en": "Life experience question: Have you ever...?"},
+    {"question": "By Saturday night, the stores ____.", "choices": ["have closed", "had closed", "has closed", "closing"], "answer": 1, "explanation_ar": "الإغلاق حدث قبل وقت في الماضي: had closed.", "explanation_en": "Before a past time: had closed."},
+    {"question": "A big storm with snow and strong wind is a ____.", "choices": ["forecast", "record", "blizzard", "blanket"], "answer": 2, "explanation_ar": "blizzard = عاصفة ثلجية.", "explanation_en": "A blizzard is a big snowstorm."},
+    {"question": "'We ran out of food' means:", "choices": ["We ran with food.", "We had too much food.", "We bought food.", "We had no more food."], "answer": 3, "explanation_ar": "run out of = نفد.", "explanation_en": "Run out of means have no more."},
+    {"question": "I ____ waiting for that blizzard for years.", "choices": ["had been", "have be", "was been", "had being"], "answer": 0, "explanation_ar": "الماضي التام المستمر: had been + ing.", "explanation_en": "Past perfect continuous: had been + -ing."},
+    {"question": "'Snow has been falling for 30 hours straight' means:", "choices": ["with breaks", "without stopping", "in a straight line", "very lightly"], "answer": 1, "explanation_ar": "straight هنا = متواصل دون توقف.", "explanation_en": "Straight here means without a break."},
+    {"question": "The highest amount ever is a ____.", "choices": ["century", "record", "supply", "forecast"], "answer": 1, "explanation_ar": "record = رقم قياسي.", "explanation_en": "A record is the highest or best ever."},
+    {"question": "Which word means 'if'?", "choices": ["weather", "wether", "whether", "whither"], "answer": 2, "explanation_ar": "whether = ما إذا.", "explanation_en": "Whether means if."},
+    {"question": "Food, water and blankets are ____.", "choices": ["records", "events", "forecasts", "supplies"], "answer": 3, "explanation_ar": "supplies = المؤن واللوازم.", "explanation_en": "Supplies are things you need."},
+    {"question": "The past perfect is made with:", "choices": ["have + past participle", "had + past participle", "was + -ing", "will have"], "answer": 1, "explanation_ar": "الماضي التام = had + التصريف الثالث.", "explanation_en": "Past perfect = had + past participle."}
+  ]
+}

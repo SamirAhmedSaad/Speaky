@@ -1,0 +1,48 @@
+{
+  "title": "Body Parts as Verbs",
+  "content": {
+    "vocabulary": [
+      {"word": "hand it to someone", "pos": "idiom", "meaning_en": "to give someone credit; admit they did well", "meaning_ar": "يعترف بفضل شخص / يشهد له", "note_ar": "في الكلام: I gotta hand it to you = I have got to hand it to you", "note_en": "Spoken: I gotta hand it to you (written: I have got to).", "example": "I've got to hand it to you; you tried hard."},
+      {"word": "gotta", "pos": "slang", "meaning_en": "spoken short form of \"have got to\"", "meaning_ar": "صيغة عامية لـ have got to (يجب)", "note_ar": "للكلام فقط، لا تكتبها في الرسمي", "note_en": "Speech only; write \"have got to\".", "example": "I gotta go now."},
+      {"word": "head (to / for)", "pos": "verb", "meaning_en": "to go in a direction", "meaning_ar": "يتّجه إلى", "note_ar": "Where are you heading? = إلى أين أنت ذاهب؟", "note_en": "Where are you heading?", "example": "She was heading to the store."},
+      {"word": "eyeball", "pos": "verb", "meaning_en": "to look at someone hard, often in an unfriendly way", "meaning_ar": "يحدّق في (بعدائية)", "note_ar": "", "note_en": "Informal.", "example": "Why is that man eyeballing me?"},
+      {"word": "mouth off", "pos": "phrasal verb", "meaning_en": "to speak rudely, especially to someone in authority", "meaning_ar": "يتكلّم بوقاحة / يردّ بقلة أدب", "note_ar": "", "note_en": "", "example": "Don't mouth off to your father."},
+      {"word": "shoulder", "pos": "verb", "meaning_en": "to accept and carry a responsibility or burden", "meaning_ar": "يتحمّل (مسؤولية)", "note_ar": "shoulder a burden = يتحمّل عبئًا", "note_en": "shoulder a burden / responsibility", "example": "She shoulders a lot of responsibility at work and at home."},
+      {"word": "burden", "pos": "noun", "meaning_en": "something heavy or difficult you have to carry or deal with", "meaning_ar": "عبء", "note_ar": "", "note_en": "", "example": "Debt can be a heavy burden."},
+      {"word": "armed", "pos": "adjective", "meaning_en": "carrying a weapon, like a gun or knife", "meaning_ar": "مسلّح", "note_ar": "armed to the teeth = مدجّج بالسلاح", "note_en": "armed to the teeth = with many weapons", "example": "The robbers were armed."},
+      {"word": "elbow", "pos": "verb", "meaning_en": "to push or hit someone with your elbow to get past", "meaning_ar": "يدفع بمرفقه / يشقّ طريقه بالمرفق", "note_ar": "elbow past someone", "note_en": "elbow past someone", "example": "He elbowed past the people at the door."},
+      {"word": "butt in line", "pos": "phrase", "meaning_en": "to go in front of people who are waiting in a line", "meaning_ar": "يتخطّى الطابور", "note_ar": "في بريطانيا: jump the queue", "note_en": "UK: jump the queue.", "example": "Don't butt in line; go to the back."},
+      {"word": "queue", "pos": "noun", "meaning_en": "(British) a line of people waiting", "meaning_ar": "طابور", "note_ar": "تُنطق /kjuː/", "note_en": "Pronounced /kjuː/.", "example": "There was a long queue at the bank."},
+      {"word": "skin someone alive", "pos": "idiom", "meaning_en": "to punish or hurt someone very badly (used as an exaggeration)", "meaning_ar": "يعاقب بشدّة (مبالغة)", "note_ar": "تعبير مبالغة للدلالة على ألم أو عقاب شديد", "note_en": "An exaggeration for extreme pain or punishment.", "example": "If I break Dad's phone, he'll skin me alive!"},
+      {"word": "foot the bill", "pos": "idiom", "meaning_en": "to pay for something", "meaning_ar": "يدفع الفاتورة / يتحمّل التكلفة", "note_ar": "", "note_en": "", "example": "Who's footing the bill for dinner?"},
+      {"word": "face (the) facts", "pos": "idiom", "meaning_en": "to accept the truth about a difficult situation", "meaning_ar": "يواجه الحقائق", "note_ar": "", "note_en": "", "example": "It's time to face facts: we need to save money."},
+      {"word": "knee", "pos": "verb", "meaning_en": "to hit someone with your knee", "meaning_ar": "يضرب بركبته", "note_ar": "", "note_en": "", "example": "He got kneed in the stomach during the football match."}
+    ],
+    "fine_lines": [
+      {"title": "head vs elbow vs shoulder (as verbs)", "words": ["head", "elbow", "shoulder"], "explanation_ar": "head = يتّجه. elbow = يدفع بمرفقه ليمرّ. shoulder = يتحمّل مسؤولية.", "explanation_en": "Head = go in a direction. Elbow = push past with your elbow. Shoulder = carry a responsibility.", "examples": [{"word": "head", "sentence": "We're heading home."}, {"word": "elbow", "sentence": "She elbowed her way to the front."}, {"word": "shoulder", "sentence": "He shouldered the blame."}]},
+      {"title": "foot the bill vs face the facts", "words": ["foot the bill", "face the facts"], "explanation_ar": "foot the bill = يدفع التكلفة. face the facts = يتقبّل الحقيقة الصعبة.", "explanation_en": "Foot the bill = pay. Face the facts = accept a hard truth.", "examples": [{"word": "foot the bill", "sentence": "The company footed the bill for the trip."}, {"word": "face the facts", "sentence": "Face the facts: the car is too old to fix."}]}
+    ],
+    "expressions": [
+      {"phrase": "I gotta hand it to you.", "meaning_ar": "يجب أن أعترف لك بالفضل.", "meaning_en": "You deserve credit.", "example": "I gotta hand it to you; that was a great meal."},
+      {"phrase": "Where are you heading?", "meaning_ar": "إلى أين تتّجه؟", "meaning_en": "Where are you going?", "example": "Where are you heading? - To the library."},
+      {"phrase": "Are you eyeballing me?", "meaning_ar": "هل تحدّق بي؟", "meaning_en": "Why are you staring at me?", "example": "Hey, are you eyeballing me?"},
+      {"phrase": "Stop mouthing off.", "meaning_ar": "كفّ عن الوقاحة في الكلام.", "meaning_en": "Stop being rude.", "example": "Stop mouthing off to your teacher."},
+      {"phrase": "Who's footing the bill?", "meaning_ar": "من سيدفع؟", "meaning_en": "Who is paying?", "example": "Great dinner! Who's footing the bill?"}
+    ],
+    "grammar": [
+      {"title": "Nouns used as verbs", "explanation_ar": "في الإنجليزية يمكن استخدام أسماء أجزاء الجسم كأفعال، وتتغيّر صيغتها مثل أي فعل: head → heading / headed، elbow → elbowed، shoulder → shouldering، foot → footed.", "explanation_en": "In English, many body-part nouns can be verbs and change form like normal verbs: head → heading/headed, elbow → elbowed, shoulder → shouldering, foot → footed.", "examples": ["Mr. E was heading to the movies.", "He elbowed past them.", "My parents footed the bill."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"One day, Mr. E was ___ to the movies.\" (going in that direction)", "choices": ["heading", "eyeballing", "shouldering", "footing"], "answer": 0, "explanation_ar": "head to = يتّجه إلى.", "explanation_en": "Head to = go in a direction."},
+    {"question": "\"Mr. E thought he could ___ in line.\" (go in front of others)", "choices": ["arm", "butt", "face", "skin"], "answer": 1, "explanation_ar": "butt in line = يتخطّى الطابور.", "explanation_en": "Butt in line = cut in."},
+    {"question": "\"Mr. E ___ past them.\" (pushed with his elbow)", "choices": ["headed", "mouthed", "elbowed", "footed"], "answer": 2, "explanation_ar": "elbow past = يمرّ دافعًا بمرفقه.", "explanation_en": "Elbow past = push past."},
+    {"question": "\"Other people saw him and ___ him.\" (stared at him angrily)", "choices": ["footed", "shouldered", "armed", "eyeballed"], "answer": 3, "explanation_ar": "eyeball = يحدّق بعدائية.", "explanation_en": "Eyeball = stare in an unfriendly way."},
+    {"question": "\"He ran away because they were ___.\" (had weapons)", "choices": ["armed", "headed", "kneed", "footed"], "answer": 0, "explanation_ar": "armed = مسلّح.", "explanation_en": "Armed = with weapons."},
+    {"question": "\"Who's going to ___ the bill?\" (pay)", "choices": ["hand", "foot", "face", "head"], "answer": 1, "explanation_ar": "foot the bill = يدفع.", "explanation_en": "Foot the bill = pay."},
+    {"question": "\"Stop ___ off to your father!\" (being rude)", "choices": ["heading", "elbowing", "mouthing", "shouldering"], "answer": 2, "explanation_ar": "mouth off = يتكلّم بوقاحة.", "explanation_en": "Mouth off = talk rudely."},
+    {"question": "\"She ___ a lot of responsibility.\" (carries)", "choices": ["eyeballs", "heads", "elbows", "shoulders"], "answer": 3, "explanation_ar": "shoulder = يتحمّل.", "explanation_en": "Shoulder = carry a responsibility."},
+    {"question": "\"It's time to ___ facts. We can't afford a new car.\"", "choices": ["face", "foot", "hand", "arm"], "answer": 0, "explanation_ar": "face facts = يواجه الحقائق.", "explanation_en": "Face facts = accept the truth."},
+    {"question": "\"I gotta hand it to you\" means:", "choices": ["Give me your hand.", "You deserve credit.", "I have to leave.", "Pay the bill."], "answer": 1, "explanation_ar": "تعني: أعترف لك بالفضل.", "explanation_en": "It means you deserve credit."}
+  ]
+}

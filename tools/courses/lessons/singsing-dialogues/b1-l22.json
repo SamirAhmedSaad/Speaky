@@ -1,0 +1,266 @@
+{
+  "title": "May I help you?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "may",
+        "pos": "modal verb",
+        "meaning_en": "a polite word for asking",
+        "meaning_ar": "هل يمكنني (للاستئذان بأدب)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "May I help you?"
+      },
+      {
+        "word": "help",
+        "pos": "verb",
+        "meaning_en": "do something to make things easier for someone",
+        "meaning_ar": "يساعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "May I help you?"
+      },
+      {
+        "word": "I'd like",
+        "pos": "phrase",
+        "meaning_en": "a polite way to say \"I want\" (I would like)",
+        "meaning_ar": "أودّ / أريد (بأدب)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like a hat."
+      },
+      {
+        "word": "hat",
+        "pos": "noun",
+        "meaning_en": "a thing you wear on your head",
+        "meaning_ar": "قبعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like a hat."
+      },
+      {
+        "word": "dress",
+        "pos": "noun",
+        "meaning_en": "a long piece of clothing for girls and women",
+        "meaning_ar": "فستان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want a dress?"
+      },
+      {
+        "word": "clean",
+        "pos": "verb",
+        "meaning_en": "make something not dirty",
+        "meaning_ar": "ينظّف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Clean the house!"
+      },
+      {
+        "word": "house",
+        "pos": "noun",
+        "meaning_en": "a building where a family lives",
+        "meaning_ar": "بيت / منزل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Clean the house, please."
+      },
+      {
+        "word": "bye",
+        "pos": "interjection",
+        "meaning_en": "short for goodbye",
+        "meaning_ar": "مع السلامة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you! Bye!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I want vs I'd like",
+        "words": [
+          "I want",
+          "I'd like"
+        ],
+        "explanation_ar": "I'd like أكثر أدبًا من I want، ونستخدمها في المتاجر. I'd = I would.",
+        "explanation_en": "\"I'd like\" is more polite than \"I want\". Use it in shops. I'd = I would.",
+        "examples": [
+          {
+            "word": "I want",
+            "sentence": "I want a hat. (less polite)"
+          },
+          {
+            "word": "I'd like",
+            "sentence": "I'd like a hat, please. (polite)"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "May I help you?",
+        "meaning_ar": "هل يمكنني مساعدتك؟",
+        "meaning_en": "A shop worker offers help.",
+        "example": "May I help you? - Yes, I'd like a hat."
+      },
+      {
+        "phrase": "I'd like a hat.",
+        "meaning_ar": "أودّ قبعة.",
+        "meaning_en": "Asking politely for something.",
+        "example": "May I help you? - I'd like a hat, please."
+      },
+      {
+        "phrase": "Do you want a dress?",
+        "meaning_ar": "هل تريدين فستانًا؟",
+        "meaning_en": "Asking what someone wants.",
+        "example": "Do you want a dress? - No, I don't."
+      },
+      {
+        "phrase": "Clean the house!",
+        "meaning_ar": "نظّف البيت!",
+        "meaning_en": "Telling someone to clean.",
+        "example": "Clean the house, please. - Yes, Mom."
+      },
+      {
+        "phrase": "Thank you! Bye!",
+        "meaning_ar": "شكرًا! مع السلامة!",
+        "meaning_en": "Thanking and leaving.",
+        "example": "Here is your hat. - Thank you! Bye!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite offers and requests: May I ...? / I'd like ...",
+        "explanation_ar": "يعرض البائع المساعدة بقول May I help you? ويرد الزبون بأدب: I'd like a + اسم.",
+        "explanation_en": "Offer help: May I help you? Answer politely: I'd like a + thing.",
+        "examples": [
+          "May I help you? - I'd like a hat.",
+          "May I help you? - I'd like a dress.",
+          "I'd like a hat, please."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "May I help you? - ___",
+      "choices": [
+        "I'd like a hat.",
+        "I'm seven.",
+        "It's mine.",
+        "My leg hurts."
+      ],
+      "answer": 0,
+      "explanation_ar": "نجيب البائع بما نريد: I'd like ...",
+      "explanation_en": "Tell the worker what you want: I'd like ..."
+    },
+    {
+      "question": "\"I'd like\" means ___.",
+      "choices": [
+        "I did like",
+        "I would like",
+        "I do like",
+        "I had like"
+      ],
+      "answer": 1,
+      "explanation_ar": "هذا اختصار: I'd like = I would like.",
+      "explanation_en": "I'd like = I would like."
+    },
+    {
+      "question": "___ I help you?",
+      "choices": [
+        "Do",
+        "Am",
+        "May",
+        "Is"
+      ],
+      "answer": 2,
+      "explanation_ar": "عرض المساعدة: May I help you?",
+      "explanation_en": "The offer is \"May I help you?\""
+    },
+    {
+      "question": "You wear a ___ on your head.",
+      "choices": [
+        "dress",
+        "sock",
+        "shoe",
+        "hat"
+      ],
+      "answer": 3,
+      "explanation_ar": "القبعة على الرأس.",
+      "explanation_en": "A hat goes on your head."
+    },
+    {
+      "question": "Which is more polite in a shop?",
+      "choices": [
+        "I'd like a hat, please.",
+        "Give hat.",
+        "I want hat.",
+        "Hat!"
+      ],
+      "answer": 0,
+      "explanation_ar": "I'd like ... please أكثر أدبًا.",
+      "explanation_en": "\"I'd like ..., please\" is polite."
+    },
+    {
+      "question": "Do you want a dress? - No, I ___.",
+      "choices": [
+        "do",
+        "don't",
+        "am",
+        "isn't"
+      ],
+      "answer": 1,
+      "explanation_ar": "النفي: No, I don't.",
+      "explanation_en": "The negative: No, I don't."
+    },
+    {
+      "question": "The house is dirty. Mom says: ___",
+      "choices": [
+        "May I help you?",
+        "Bye!",
+        "Clean the house!",
+        "I'd like a hat."
+      ],
+      "answer": 2,
+      "explanation_ar": "لطلب التنظيف: Clean the house!",
+      "explanation_en": "Mom says \"Clean the house!\""
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I'd like a hat.",
+        "I'd likes a hat.",
+        "I like would a hat.",
+        "I'd liking a hat."
+      ],
+      "answer": 0,
+      "explanation_ar": "الصحيح I'd like a hat.",
+      "explanation_en": "Correct: I'd like a hat."
+    },
+    {
+      "question": "\"help\" in Arabic is ___.",
+      "choices": [
+        "ينظّف",
+        "يساعد",
+        "يشتري",
+        "يلبس"
+      ],
+      "answer": 1,
+      "explanation_ar": "help = يساعد.",
+      "explanation_en": "help = make things easier for someone."
+    },
+    {
+      "question": "You leave the shop. You say: ___",
+      "choices": [
+        "May I help you?",
+        "Thank you! Bye!",
+        "Clean the house!",
+        "Do you want a dress?"
+      ],
+      "answer": 1,
+      "explanation_ar": "عند المغادرة نشكر ونودّع.",
+      "explanation_en": "Say thanks and goodbye."
+    }
+  ]
+}

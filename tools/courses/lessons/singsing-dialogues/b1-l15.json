@@ -1,0 +1,275 @@
+{
+  "title": "Do you have a pet?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "pet",
+        "pos": "noun",
+        "meaning_en": "an animal you keep at home",
+        "meaning_ar": "حيوان أليف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have a pet?"
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "meaning_en": "own something",
+        "meaning_ar": "يملك / عنده",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a hamster."
+      },
+      {
+        "word": "hamster",
+        "pos": "noun",
+        "meaning_en": "a small furry animal, like a little mouse",
+        "meaning_ar": "هامستر (قارض صغير)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a hamster."
+      },
+      {
+        "word": "frog",
+        "pos": "noun",
+        "meaning_en": "a small green animal that jumps and lives near water",
+        "meaning_ar": "ضفدع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's my frog."
+      },
+      {
+        "word": "bird",
+        "pos": "noun",
+        "meaning_en": "an animal with wings and feathers",
+        "meaning_ar": "طائر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a bird."
+      },
+      {
+        "word": "snake",
+        "pos": "noun",
+        "meaning_en": "a long animal with no legs",
+        "meaning_ar": "ثعبان / أفعى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Paul has a snake."
+      },
+      {
+        "word": "cute",
+        "pos": "adjective",
+        "meaning_en": "small and nice to look at",
+        "meaning_ar": "لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's very cute!"
+      },
+      {
+        "word": "sure",
+        "pos": "adverb",
+        "meaning_en": "yes, of course",
+        "meaning_ar": "بالتأكيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sure! I have a snake."
+      },
+      {
+        "word": "look",
+        "pos": "verb",
+        "meaning_en": "use your eyes",
+        "meaning_ar": "انظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mimi, look!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Yes, I do vs No, I don't",
+        "words": [
+          "Yes, I do",
+          "No, I don't"
+        ],
+        "explanation_ar": "نجيب عن سؤال Do you ...? بـ Yes, I do أو No, I don't. don't = do not.",
+        "explanation_en": "Answer \"Do you ...?\" with \"Yes, I do\" or \"No, I don't\" (don't = do not).",
+        "examples": [
+          {
+            "word": "Yes, I do",
+            "sentence": "Do you have a pet? - Yes, I do."
+          },
+          {
+            "word": "No, I don't",
+            "sentence": "Do you have a cat? - No, I don't."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Do you have a pet?",
+        "meaning_ar": "هل عندك حيوان أليف؟",
+        "meaning_en": "Asking if someone has a pet.",
+        "example": "Do you have a pet? - Yes, I do."
+      },
+      {
+        "phrase": "Yes, I do.",
+        "meaning_ar": "نعم، عندي.",
+        "meaning_en": "A short yes answer.",
+        "example": "Do you have a pet? - Yes, I do."
+      },
+      {
+        "phrase": "I have a hamster.",
+        "meaning_ar": "عندي هامستر.",
+        "meaning_en": "Saying what pet you have.",
+        "example": "I have a hamster. It's very cute."
+      },
+      {
+        "phrase": "It's very cute!",
+        "meaning_ar": "إنه لطيف جدًّا!",
+        "meaning_en": "Saying something looks nice.",
+        "example": "Look at the bird. It's very cute!"
+      },
+      {
+        "phrase": "Sure!",
+        "meaning_ar": "بالتأكيد!",
+        "meaning_en": "A happy way to say yes.",
+        "example": "Do you have a pet? - Sure! I have a bird."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Do you have a ...? - Yes, I do. / No, I don't.",
+        "explanation_ar": "نسأل عن الملكية بـ Do you have a + اسم؟ ونجيب Yes, I do. I have a ... أو No, I don't.",
+        "explanation_en": "Ask \"Do you have a ...?\" Answer \"Yes, I do. I have a ...\" or \"No, I don't.\"",
+        "examples": [
+          "Do you have a pet? - Yes, I do. I have a bird.",
+          "Do you have a frog? - No, I don't.",
+          "I have a hamster."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Do you have a pet? - ___",
+      "choices": [
+        "Yes, I do.",
+        "Yes, I am.",
+        "Yes, it is.",
+        "Yes, I have."
+      ],
+      "answer": 0,
+      "explanation_ar": "نجيب عن Do you ...? بـ Yes, I do.",
+      "explanation_en": "Answer \"Do you ...?\" with \"Yes, I do.\""
+    },
+    {
+      "question": "An animal you keep at home is a ___.",
+      "choices": [
+        "friend",
+        "pet",
+        "toy",
+        "teacher"
+      ],
+      "answer": 1,
+      "explanation_ar": "الحيوان الأليف = pet.",
+      "explanation_en": "A pet lives with you at home."
+    },
+    {
+      "question": "Which animal has no legs?",
+      "choices": [
+        "frog",
+        "bird",
+        "snake",
+        "hamster"
+      ],
+      "answer": 2,
+      "explanation_ar": "الثعبان ليس له أرجل.",
+      "explanation_en": "A snake has no legs."
+    },
+    {
+      "question": "Which animal can fly?",
+      "choices": [
+        "bird",
+        "frog",
+        "snake",
+        "hamster"
+      ],
+      "answer": 0,
+      "explanation_ar": "الطائر يطير.",
+      "explanation_en": "A bird can fly."
+    },
+    {
+      "question": "Do you have a cat? - No, I ___.",
+      "choices": [
+        "do",
+        "am not",
+        "isn't",
+        "don't"
+      ],
+      "answer": 3,
+      "explanation_ar": "الإجابة بالنفي: No, I don't.",
+      "explanation_en": "The negative answer is \"No, I don't.\""
+    },
+    {
+      "question": "___ you have a pet?",
+      "choices": [
+        "Are",
+        "Is",
+        "Do",
+        "Does it"
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال يبدأ بـ Do you have ...?",
+      "explanation_en": "The question starts with \"Do you\"."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I has a bird.",
+        "I have a bird.",
+        "I having a bird.",
+        "I am have a bird."
+      ],
+      "answer": 1,
+      "explanation_ar": "مع I نقول have.",
+      "explanation_en": "With I, use have."
+    },
+    {
+      "question": "\"frog\" in Arabic is ___.",
+      "choices": [
+        "ضفدع",
+        "ثعبان",
+        "طائر",
+        "قطة"
+      ],
+      "answer": 0,
+      "explanation_ar": "frog = ضفدع.",
+      "explanation_en": "A frog is small and green; it jumps."
+    },
+    {
+      "question": "\"Sure!\" means ___.",
+      "choices": [
+        "No, never.",
+        "Sorry.",
+        "Yes, of course.",
+        "Goodbye."
+      ],
+      "answer": 2,
+      "explanation_ar": "Sure = بالتأكيد، نعم.",
+      "explanation_en": "Sure = yes, of course."
+    },
+    {
+      "question": "I have a ___. It's small and furry.",
+      "choices": [
+        "snake",
+        "frog",
+        "bike",
+        "hamster"
+      ],
+      "answer": 3,
+      "explanation_ar": "الهامستر صغير وفروه ناعم.",
+      "explanation_en": "A hamster is small and furry."
+    }
+  ]
+}

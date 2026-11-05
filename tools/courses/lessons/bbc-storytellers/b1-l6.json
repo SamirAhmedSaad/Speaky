@@ -1,0 +1,339 @@
+{
+  "title": "Back to School",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "school",
+        "pos": "noun",
+        "meaning_en": "a place where children learn",
+        "meaning_ar": "مدرسة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was time to go back to school."
+      },
+      {
+        "word": "holidays",
+        "pos": "noun",
+        "meaning_en": "days with no school or work",
+        "meaning_ar": "العطلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The holidays are over."
+      },
+      {
+        "word": "homework",
+        "pos": "noun",
+        "meaning_en": "school work you do at home",
+        "meaning_ar": "واجب منزلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't forget your homework."
+      },
+      {
+        "word": "uniform",
+        "pos": "noun",
+        "meaning_en": "the same clothes all students wear",
+        "meaning_ar": "زيّ مدرسي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe put on his new uniform."
+      },
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "meaning_en": "the first meal of the day",
+        "meaning_ar": "فطور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Eat a good breakfast."
+      },
+      {
+        "word": "cereal",
+        "pos": "noun",
+        "meaning_en": "a breakfast food eaten with milk",
+        "meaning_ar": "حبوب الإفطار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mum put cereal into bowls."
+      },
+      {
+        "word": "pencil case",
+        "pos": "noun",
+        "meaning_en": "a small bag for pens and pencils",
+        "meaning_ar": "مقلمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella had a new pencil case."
+      },
+      {
+        "word": "bag",
+        "pos": "noun",
+        "meaning_en": "a thing you carry your books in",
+        "meaning_ar": "حقيبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a new school bag."
+      },
+      {
+        "word": "water bottle",
+        "pos": "noun",
+        "meaning_en": "a bottle for drinking water",
+        "meaning_ar": "قارورة ماء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She showed everyone her water bottle."
+      },
+      {
+        "word": "playground",
+        "pos": "noun",
+        "meaning_en": "an area outside school where children play",
+        "meaning_ar": "ساحة اللعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Children were everywhere in the playground."
+      },
+      {
+        "word": "classroom",
+        "pos": "noun",
+        "meaning_en": "a room where students learn",
+        "meaning_ar": "فصل دراسي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mum took Bella to her classroom."
+      },
+      {
+        "word": "headteacher",
+        "pos": "noun",
+        "meaning_en": "the person in charge of a school",
+        "meaning_ar": "مدير / مديرة المدرسة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The headteacher called Joe."
+      },
+      {
+        "word": "snack",
+        "pos": "noun",
+        "meaning_en": "a small amount of food between meals",
+        "meaning_ar": "وجبة خفيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Raisins are her snack."
+      },
+      {
+        "word": "story",
+        "pos": "noun",
+        "meaning_en": "words about things that happen, real or not",
+        "meaning_ar": "قصة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella loved stories."
+      },
+      {
+        "word": "little sister",
+        "pos": "noun",
+        "meaning_en": "a sister who is younger than you",
+        "meaning_ar": "أخت صغرى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella is Joe's little sister."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "teacher vs headteacher",
+        "words": [
+          "teacher",
+          "headteacher"
+        ],
+        "explanation_ar": "teacher يعلّم الفصل، و headteacher هو المسؤول عن المدرسة كلها.",
+        "explanation_en": "A teacher teaches a class. The headteacher is in charge of the whole school.",
+        "examples": [
+          {
+            "word": "teacher",
+            "sentence": "Mrs Wolfe is Bella's teacher."
+          },
+          {
+            "word": "headteacher",
+            "sentence": "Mrs Smailes is the headteacher."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Come on, kids! Let's be quick!",
+        "meaning_ar": "هيا يا أولاد! لنكن سريعين!",
+        "meaning_en": "Telling children to hurry.",
+        "example": "Come on, kids! Let's be quick! The bus is here."
+      },
+      {
+        "phrase": "How are you?",
+        "meaning_ar": "كيف حالك؟",
+        "meaning_en": "A friendly question when you meet.",
+        "example": "Hey, Finn! How are you?"
+      },
+      {
+        "phrase": "What's the matter?",
+        "meaning_ar": "ما الأمر؟ / ما بك؟",
+        "meaning_en": "Asking about a problem.",
+        "example": "You're crying. What's the matter?"
+      },
+      {
+        "phrase": "I want to go home!",
+        "meaning_ar": "أريد أن أذهب إلى البيت!",
+        "meaning_en": "Saying you don't want to stay.",
+        "example": "I don't like it here. I want to go home!"
+      },
+      {
+        "phrase": "Why don't you come and listen to a story?",
+        "meaning_ar": "لماذا لا تأتين وتستمعين إلى قصة؟",
+        "meaning_en": "A kind invitation.",
+        "example": "Why don't you come and play with us?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "like / don't like",
+        "explanation_ar": "نعبّر عن الحب والكره: I like ... / I don't like ... ومع he/she: She likes ... / She doesn't like ...",
+        "explanation_en": "Say what you like: I like / I don't like. With he/she: likes / doesn't like.",
+        "examples": [
+          "Bella loved raisins.",
+          "I don't like her!",
+          "She doesn't like her new teacher."
+        ]
+      },
+      {
+        "title": "have got / hasn't got",
+        "explanation_ar": "في الإنجليزية البريطانية نقول she's got = she has، و she hasn't got = she doesn't have.",
+        "explanation_en": "In British English: she's got = she has. She hasn't got = she doesn't have.",
+        "examples": [
+          "She's got big teeth.",
+          "She hasn't got a tail.",
+          "I've got work too."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How old is Bella?",
+      "choices": [
+        "four",
+        "ten",
+        "six",
+        "two"
+      ],
+      "answer": 0,
+      "explanation_ar": "بيلا عمرها أربع سنوات.",
+      "explanation_en": "Bella is four."
+    },
+    {
+      "question": "Why was Bella scared of her teacher?",
+      "choices": [
+        "She was angry.",
+        "Her name is Mrs Wolfe.",
+        "She shouted.",
+        "She had a tail."
+      ],
+      "answer": 1,
+      "explanation_ar": "اسم المعلمة Mrs Wolfe فظنتها ذئبًا.",
+      "explanation_en": "Her name sounded like \"wolf\"."
+    },
+    {
+      "question": "Where was Bella hiding?",
+      "choices": [
+        "in the playground",
+        "in the bus",
+        "under a table",
+        "behind Mum"
+      ],
+      "answer": 2,
+      "explanation_ar": "كانت مختبئة تحت طاولة.",
+      "explanation_en": "She was under a table."
+    },
+    {
+      "question": "The person in charge of a school is the ___.",
+      "choices": [
+        "teacher",
+        "uniform",
+        "classroom",
+        "headteacher"
+      ],
+      "answer": 3,
+      "explanation_ar": "المسؤول عن المدرسة = headteacher.",
+      "explanation_en": "The headteacher is in charge of the school."
+    },
+    {
+      "question": "Someone looks sad. You ask: ___",
+      "choices": [
+        "What's the matter?",
+        "How old are you?",
+        "Let's be quick!",
+        "I want to go home!"
+      ],
+      "answer": 0,
+      "explanation_ar": "نسأل عن المشكلة: What's the matter?",
+      "explanation_en": "Ask \"What's the matter?\""
+    },
+    {
+      "question": "She ___ a tail. (British English, negative)",
+      "choices": [
+        "has got",
+        "hasn't got",
+        "haven't got",
+        "don't got"
+      ],
+      "answer": 1,
+      "explanation_ar": "النفي مع she: hasn't got.",
+      "explanation_en": "With she: hasn't got."
+    },
+    {
+      "question": "Children play outside in the ___.",
+      "choices": [
+        "classroom",
+        "pencil case",
+        "playground",
+        "uniform"
+      ],
+      "answer": 2,
+      "explanation_ar": "اللعب في ساحة اللعب playground.",
+      "explanation_en": "They play in the playground."
+    },
+    {
+      "question": "Bella ___ her new teacher at first.",
+      "choices": [
+        "like",
+        "don't like",
+        "not like",
+        "didn't like"
+      ],
+      "answer": 3,
+      "explanation_ar": "في البداية لم تحب معلمتها (ماضٍ).",
+      "explanation_en": "At first she didn't like her."
+    },
+    {
+      "question": "What did Bella love?",
+      "choices": [
+        "stories",
+        "wolves",
+        "homework",
+        "buses"
+      ],
+      "answer": 0,
+      "explanation_ar": "بيلا تحب القصص.",
+      "explanation_en": "Bella loved stories."
+    },
+    {
+      "question": "\"homework\" is school work you do ___.",
+      "choices": [
+        "at school",
+        "at home",
+        "in the bus",
+        "at night only"
+      ],
+      "answer": 1,
+      "explanation_ar": "homework = واجب في البيت.",
+      "explanation_en": "Homework is done at home."
+    }
+  ]
+}

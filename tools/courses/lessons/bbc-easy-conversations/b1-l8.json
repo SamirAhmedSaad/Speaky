@@ -1,0 +1,398 @@
+{
+ "title": "Describing the weather",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "weather",
+    "pos": "noun",
+    "meaning_en": "how hot, cold, wet or windy it is outside",
+    "meaning_ar": "الطقس",
+    "note_ar": "لا تخلطها مع whether (إذا)",
+    "note_en": "Don't confuse with \"whether\" (if).",
+    "example": "How's the weather today?"
+   },
+   {
+    "word": "hot",
+    "pos": "adjective",
+    "meaning_en": "very warm",
+    "meaning_ar": "حار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's hot in summer."
+   },
+   {
+    "word": "cold",
+    "pos": "adjective",
+    "meaning_en": "not warm",
+    "meaning_ar": "بارد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's windy and cold."
+   },
+   {
+    "word": "warm",
+    "pos": "adjective",
+    "meaning_en": "a little hot, pleasant",
+    "meaning_ar": "دافئ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's warm today."
+   },
+   {
+    "word": "sunny",
+    "pos": "adjective",
+    "meaning_en": "with a lot of sun",
+    "meaning_ar": "مشمس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's hot and sunny."
+   },
+   {
+    "word": "rain",
+    "pos": "verb / noun",
+    "meaning_en": "water falling from the sky",
+    "meaning_ar": "يمطر / مطر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's raining."
+   },
+   {
+    "word": "snow",
+    "pos": "verb / noun",
+    "meaning_en": "soft white ice falling from the sky",
+    "meaning_ar": "يتساقط الثلج / ثلج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's snowing."
+   },
+   {
+    "word": "windy",
+    "pos": "adjective",
+    "meaning_en": "with a lot of wind",
+    "meaning_ar": "عاصف / فيه رياح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's windy today."
+   },
+   {
+    "word": "cloudy",
+    "pos": "adjective",
+    "meaning_en": "with a lot of clouds",
+    "meaning_ar": "غائم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's cloudy."
+   },
+   {
+    "word": "sun",
+    "pos": "noun",
+    "meaning_en": "the star that gives us light and heat",
+    "meaning_ar": "الشمس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The sun is hot."
+   },
+   {
+    "word": "wind",
+    "pos": "noun",
+    "meaning_en": "moving air",
+    "meaning_ar": "رياح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The wind is strong."
+   },
+   {
+    "word": "cloud",
+    "pos": "noun",
+    "meaning_en": "a white or grey shape in the sky",
+    "meaning_ar": "سحابة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There are lots of clouds."
+   },
+   {
+    "word": "umbrella",
+    "pos": "noun",
+    "meaning_en": "a thing you hold over your head in the rain",
+    "meaning_ar": "مظلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Take an umbrella. It's raining."
+   },
+   {
+    "word": "today",
+    "pos": "adverb",
+    "meaning_en": "on this day",
+    "meaning_ar": "اليوم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's sunny today."
+   },
+   {
+    "word": "summer",
+    "pos": "noun",
+    "meaning_en": "the hottest season",
+    "meaning_ar": "الصيف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's very hot in summer."
+   },
+   {
+    "word": "winter",
+    "pos": "noun",
+    "meaning_en": "the coldest season",
+    "meaning_ar": "الشتاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It snows in winter."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "sun / sunny",
+    "words": [
+     "sun",
+     "sunny"
+    ],
+    "explanation_ar": "sun اسم (الشمس)، و sunny صفة (مشمس). نضيف y للاسم لنكوّن الصفة: wind → windy، cloud → cloudy.",
+    "explanation_en": "\"Sun\" is a noun; \"sunny\" is an adjective. Add -y: wind → windy, cloud → cloudy.",
+    "examples": [
+     {
+      "word": "sun",
+      "sentence": "The sun is very strong."
+     },
+     {
+      "word": "sunny",
+      "sentence": "It's sunny today."
+     }
+    ]
+   },
+   {
+    "title": "It's raining / It's rainy",
+    "words": [
+     "It's raining",
+     "It's rainy"
+    ],
+    "explanation_ar": "It's raining = تمطر الآن (فعل). أما rainy فصفة تصف يومًا أو مكانًا: a rainy day.",
+    "explanation_en": "\"It's raining\" means rain is falling now. \"Rainy\" describes a day or place.",
+    "examples": [
+     {
+      "word": "It's raining",
+      "sentence": "Take an umbrella. It's raining."
+     },
+     {
+      "word": "It's rainy",
+      "sentence": "It's a rainy day."
+     }
+    ]
+   },
+   {
+    "title": "hot / warm",
+    "words": [
+     "hot",
+     "warm"
+    ],
+    "explanation_ar": "hot أقوى من warm. warm دافئ ولطيف، و hot حار جدًا.",
+    "explanation_en": "\"Hot\" is stronger than \"warm\". Warm is pleasant; hot is very warm.",
+    "examples": [
+     {
+      "word": "hot",
+      "sentence": "It's 40 degrees. It's hot!"
+     },
+     {
+      "word": "warm",
+      "sentence": "It's warm and nice in spring."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "How's the weather?",
+    "meaning_ar": "كيف الطقس؟",
+    "meaning_en": "ask about the weather",
+    "example": "How's the weather in Cairo? - It's hot and sunny."
+   },
+   {
+    "phrase": "It's hot and sunny.",
+    "meaning_ar": "الجو حار ومشمس.",
+    "meaning_en": "describe good hot weather",
+    "example": "It's hot and sunny in summer."
+   },
+   {
+    "phrase": "It's raining.",
+    "meaning_ar": "إنها تمطر.",
+    "meaning_en": "say rain is falling now",
+    "example": "It's raining. Take an umbrella."
+   },
+   {
+    "phrase": "It's snowing.",
+    "meaning_ar": "الثلج يتساقط.",
+    "meaning_en": "say snow is falling now",
+    "example": "Look! It's snowing."
+   },
+   {
+    "phrase": "It's windy and cold.",
+    "meaning_ar": "الجو عاصف وبارد.",
+    "meaning_en": "describe bad cold weather",
+    "example": "It's windy and cold today."
+   },
+   {
+    "phrase": "It's cloudy.",
+    "meaning_ar": "الجو غائم.",
+    "meaning_en": "say there are many clouds",
+    "example": "It's cloudy, but it's not raining."
+   },
+   {
+    "phrase": "It's not raining.",
+    "meaning_ar": "إنها لا تمطر.",
+    "meaning_en": "the negative",
+    "example": "It's cloudy, but it's not raining."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "It's + weather adjective",
+    "explanation_ar": "في الإنجليزية نستخدم it للحديث عن الطقس: It's hot. It's sunny. It's cloudy. لا نحذف it كما في العربية «الجو حار».",
+    "explanation_en": "Use \"it\" to talk about the weather: It's hot. It's cloudy. Don't leave out \"it\".",
+    "examples": [
+     "It's hot and sunny.",
+     "It's windy and cold.",
+     "It's cloudy."
+    ]
+   },
+   {
+    "title": "It's raining / It's snowing (present continuous)",
+    "explanation_ar": "rain و snow أفعال، فنستخدم المضارع المستمر لما يحدث الآن: It's raining. It's snowing. والنفي: It's not raining.",
+    "explanation_en": "\"Rain\" and \"snow\" are verbs. Use the present continuous for now: It's raining.",
+    "examples": [
+     "It's raining.",
+     "It's snowing.",
+     "It's not raining."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "How's the ___?",
+   "choices": [
+    "whether",
+    "weather",
+    "wheather",
+    "wether"
+   ],
+   "answer": 1,
+   "explanation_ar": "التهجئة الصحيحة weather.",
+   "explanation_en": "The correct spelling is \"weather\"."
+  },
+  {
+   "question": "Look! It's ___. Take an umbrella.",
+   "choices": [
+    "sunny",
+    "hot",
+    "raining",
+    "snow"
+   ],
+   "answer": 2,
+   "explanation_ar": "نحتاج مظلة عندما تمطر.",
+   "explanation_en": "You need an umbrella when it's raining."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "It's cloudy.",
+    "Is cloudy.",
+    "Cloudy it.",
+    "It cloudy."
+   ],
+   "answer": 0,
+   "explanation_ar": "نحتاج It's قبل الصفة.",
+   "explanation_en": "We need \"It's\" before the adjective."
+  },
+  {
+   "question": "The adjective from \"wind\" is ...",
+   "choices": [
+    "winding",
+    "winded",
+    "windly",
+    "windy"
+   ],
+   "answer": 3,
+   "explanation_ar": "نضيف y إلى wind فتصبح windy.",
+   "explanation_en": "wind + y = windy."
+  },
+  {
+   "question": "Which is colder?",
+   "choices": [
+    "hot",
+    "snowing",
+    "warm",
+    "sunny"
+   ],
+   "answer": 1,
+   "explanation_ar": "الثلج يعني بردًا شديدًا.",
+   "explanation_en": "Snow means it is very cold."
+  },
+  {
+   "question": "It's cloudy, but it's ___ raining.",
+   "choices": [
+    "not",
+    "no",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation_ar": "النفي: it's not raining.",
+   "explanation_en": "The negative is \"it's not raining\"."
+  },
+  {
+   "question": "\"It's raining\" means ...",
+   "choices": [
+    "it rains every day",
+    "it was raining",
+    "rain is falling now",
+    "it is a rainy country"
+   ],
+   "answer": 2,
+   "explanation_ar": "المضارع المستمر = الآن.",
+   "explanation_en": "Present continuous means now."
+  },
+  {
+   "question": "It snows in ___.",
+   "choices": [
+    "summer",
+    "the sun",
+    "a beach",
+    "winter"
+   ],
+   "answer": 3,
+   "explanation_ar": "الثلج يتساقط في الشتاء.",
+   "explanation_en": "It snows in winter."
+  },
+  {
+   "question": "\"Hot\" is stronger than ...",
+   "choices": [
+    "warm",
+    "very hot",
+    "sunny",
+    "boiling"
+   ],
+   "answer": 0,
+   "explanation_ar": "warm أخفّ من hot.",
+   "explanation_en": "\"Warm\" is less strong than \"hot\"."
+  },
+  {
+   "question": "Which word describes a sky with a lot of clouds?",
+   "choices": [
+    "sunny",
+    "cloudy",
+    "windy",
+    "snowing"
+   ],
+   "answer": 1,
+   "explanation_ar": "cloudy = غائم.",
+   "explanation_en": "\"Cloudy\" means a lot of clouds."
+  }
+ ]
+}

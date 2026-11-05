@@ -1,0 +1,50 @@
+{
+  "title": "10 Advanced Everyday Expressions",
+  "content": {
+    "vocabulary": [
+      {"word": "assume", "pos": "verb", "meaning_en": "think something is true without checking", "meaning_ar": "يفترض", "note_ar": "", "note_en": "", "example": "Don't assume everything will stay the same."},
+      {"word": "contrast", "pos": "noun", "meaning_en": "a clear difference between two things", "meaning_ar": "تباين / تضاد", "note_ar": "", "note_en": "", "example": "There's a big contrast between the two cities."},
+      {"word": "clear the air", "pos": "phrase", "meaning_en": "talk openly to end a problem or bad feeling", "meaning_ar": "يُصفّي الأجواء", "note_ar": "", "note_en": "", "example": "Let's talk to the teacher and clear the air."},
+      {"word": "wrap up", "pos": "phrasal verb", "meaning_en": "finish (work for the day, a meeting)", "meaning_ar": "ينهي / يختم", "note_ar": "", "note_en": "", "example": "I was just wrapping up for the day."},
+      {"word": "boil over", "pos": "phrasal verb", "meaning_en": "(liquid) rise and flow over the side of the pot", "meaning_ar": "يفور (السائل)", "note_ar": "", "note_en": "", "example": "Watch the milk so it doesn't boil over."},
+      {"word": "relegation", "pos": "noun", "meaning_en": "moving a sports team down to a lower division", "meaning_ar": "الهبوط إلى درجة أدنى", "note_ar": "", "note_en": "", "example": "The team is fighting relegation."},
+      {"word": "finishing touches", "pos": "noun", "meaning_en": "the last small details that make something complete", "meaning_ar": "اللمسات الأخيرة", "note_ar": "", "note_en": "", "example": "We added a few finishing touches to the room."},
+      {"word": "godsend", "pos": "noun", "meaning_en": "something or someone that arrives just when you need it", "meaning_ar": "نعمة جاءت في وقتها", "note_ar": "", "note_en": "", "example": "The new manager has been a godsend."},
+      {"word": "workforce", "pos": "noun", "meaning_en": "all the workers in a company", "meaning_ar": "القوى العاملة", "note_ar": "", "note_en": "", "example": "Half of the workforce lost their jobs."}
+    ],
+    "fine_lines": [
+      {"title": "taken aback vs pleasantly surprised", "words": ["taken aback", "pleasantly surprised"], "explanation_ar": "taken aback = متفاجئ بشكل سلبي غالبًا (صُدم). pleasantly surprised = متفاجئ بشكل إيجابي.", "explanation_en": "\"Taken aback\" = surprised, usually in a negative way (shocked). \"Pleasantly surprised\" = surprised in a good way.", "examples": [{"word": "taken aback", "sentence": "I was taken aback by the job cuts."}, {"word": "pleasantly surprised", "sentence": "I was pleasantly surprised by the food."}]},
+      {"title": "on the point of vs turn out to be", "words": ["on the point of", "turn out to be"], "explanation_ar": "on the point of + ing = على وشك أن تفعل شيئًا. turn out to be = تبيّن في النهاية أنه كذا.", "explanation_en": "\"On the point of + -ing\" = just about to do something. \"Turn out to be\" = finally be shown to be.", "examples": [{"word": "on the point of", "sentence": "I was on the point of calling you."}, {"word": "turn out to be", "sentence": "The weather turned out to be great."}]}
+    ],
+    "expressions": [
+      {"phrase": "take something / someone for granted", "meaning_ar": "يعتبر الشيء أمرًا مسلّمًا به (ولا يقدّره)", "meaning_en": "Expect something will always be there and not value it.", "example": "We shouldn't take our parents for granted."},
+      {"phrase": "Having said that, ...", "meaning_ar": "ومع ذلك، ...", "meaning_en": "Introduces a contrasting point.", "example": "The next months will be hard. Having said that, sales have been good."},
+      {"phrase": "have something in mind", "meaning_ar": "لديه فكرة معيّنة", "meaning_en": "Have an idea or plan already.", "example": "Let's go out on Saturday. — Do you have something in mind?"},
+      {"phrase": "be on the point of ...ing", "meaning_ar": "على وشك أن ...", "meaning_en": "Be just about to do something.", "example": "I was just on the point of leaving when he knocked."},
+      {"phrase": "keep an eye on ...", "meaning_ar": "يراقب / ينتبه إلى ...", "meaning_en": "Watch someone or something carefully.", "example": "Can you keep an eye on the soup? Don't let it boil over."},
+      {"phrase": "by no means certain", "meaning_ar": "ليس مؤكدًا على الإطلاق", "meaning_en": "Not at all sure.", "example": "It's by no means certain that I'll get the promotion."},
+      {"phrase": "turn out to be ...", "meaning_ar": "يتبيّن أنه ...", "meaning_en": "Be found to be, in the end (often a surprise).", "example": "The meal turned out to be delicious."},
+      {"phrase": "Contrary to popular belief, ...", "meaning_ar": "على عكس الاعتقاد السائد، ...", "meaning_en": "Says the truth is different from what most people think.", "example": "Contrary to popular belief, I can actually cook quite well."},
+      {"phrase": "be taken aback (by)", "meaning_ar": "يُصدم / يتفاجأ (سلبًا) بـ", "meaning_en": "Be surprised, usually in a negative way.", "example": "I was taken aback by their reaction."},
+      {"phrase": "keep in touch", "meaning_ar": "يبقى على تواصل", "meaning_en": "Stay in contact with someone.", "example": "Please keep in touch, and don't leave it so long next time."},
+      {"phrase": "I'll be in touch.", "meaning_ar": "سأتواصل معك.", "meaning_en": "Says you will contact someone later.", "example": "I'll be in touch when I have more news."},
+      {"phrase": "I won't be going there again in a hurry.", "meaning_ar": "لن أذهب إلى هناك ثانية في وقت قريب.", "meaning_en": "Says you didn't like a place.", "example": "The hotel was awful. I won't be going there again in a hurry."}
+    ],
+    "grammar": [
+      {"title": "Expressions followed by -ing: on the point of", "explanation_ar": "on the point of تنتهي بحرف الجر of، لذلك يأتي بعدها الفعل بـ ing.", "explanation_en": "\"On the point of\" ends in the preposition \"of\", so use -ing after it.", "examples": ["I was on the point of calling you.", "She was on the point of leaving.", "We were on the point of giving up."]},
+      {"title": "Negative use: shouldn't take ... for granted", "explanation_ar": "take for granted تُستخدم غالبًا في النفي كنصيحة: We shouldn't take it for granted that... ويمكن وضع الشيء بين take وfor granted.", "explanation_en": "\"Take for granted\" is often used in the negative as advice: We shouldn't take it for granted that... The object goes between \"take\" and \"for granted\".", "examples": ["We shouldn't take our health for granted.", "Don't take your friends for granted.", "We shouldn't take it for granted that prices will fall."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"We shouldn't take our parents for granted\" means:", "choices": ["We should value our parents.", "We should give our parents money.", "We should leave our parents.", "We should obey everyone."], "answer": 0, "explanation_ar": "تعني أنه يجب أن نقدّر والدينا ولا نعتبر وجودهم أمرًا مسلّمًا.", "explanation_en": "It means we should value them."},
+    {"question": "I was just on the point of ___ you.", "choices": ["call", "to call", "calling", "called"], "answer": 2, "explanation_ar": "بعد on the point of نستخدم ing.", "explanation_en": "After \"on the point of\" use -ing."},
+    {"question": "Can you keep an ___ on the children?", "choices": ["eye", "ear", "hand", "head"], "answer": 0, "explanation_ar": "keep an eye on = يراقب.", "explanation_en": "\"Keep an eye on\" = watch."},
+    {"question": "\"It's by no means certain\" means:", "choices": ["It's 100% sure.", "It's not at all sure.", "It's very easy.", "It's finished."], "answer": 1, "explanation_ar": "by no means = إطلاقًا لا.", "explanation_en": "\"By no means\" = not at all."},
+    {"question": "\"I was taken aback by the news\" means I was:", "choices": ["bored", "happy", "sleepy", "surprised and shocked"], "answer": 3, "explanation_ar": "taken aback = متفاجئ بشكل سلبي.", "explanation_en": "\"Taken aback\" = shocked."},
+    {"question": "The forecast said rain, but the day turned ___ to be lovely.", "choices": ["up", "in", "out", "off"], "answer": 2, "explanation_ar": "turn out to be = تبيّن أنه.", "explanation_en": "\"Turn out to be\"."},
+    {"question": "\"Do you have something in mind?\" asks:", "choices": ["Are you thinking?", "Do you have an idea or plan?", "Are you sad?", "Did you forget?"], "answer": 1, "explanation_ar": "تسأل إن كانت لديك فكرة معيّنة.", "explanation_en": "It asks if you have a particular idea."},
+    {"question": "\"Contrary to popular belief\" introduces:", "choices": ["something everyone already thinks", "a question", "a truth that is different from what most people think", "a joke only"], "answer": 2, "explanation_ar": "تقدّم حقيقة تخالف الاعتقاد السائد.", "explanation_en": "It introduces a truth different from common belief."},
+    {"question": "Which phrase means \"however\"?", "choices": ["keep in touch", "having said that", "by no means", "in mind"], "answer": 1, "explanation_ar": "Having said that تعني ومع ذلك.", "explanation_en": "\"Having said that\" = however."},
+    {"question": "At the end of a visit, you want to stay in contact. You say:", "choices": ["Let's keep in touch.", "I was taken aback.", "Keep an eye on it.", "Take it for granted."], "answer": 0, "explanation_ar": "keep in touch = نبقى على تواصل.", "explanation_en": "\"Keep in touch\" = stay in contact."}
+  ]
+}

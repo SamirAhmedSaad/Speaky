@@ -1,0 +1,324 @@
+{
+  "title": "Milly and the Rainbow",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "rainbow",
+        "pos": "noun",
+        "meaning_en": "a curve of colours in the sky after rain",
+        "meaning_ar": "قوس قزح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Milly saw a rainbow."
+      },
+      {
+        "word": "rain",
+        "pos": "noun",
+        "meaning_en": "water that falls from clouds",
+        "meaning_ar": "مطر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She waited for the rain to stop."
+      },
+      {
+        "word": "cloud",
+        "pos": "noun",
+        "meaning_en": "a white or grey thing in the sky",
+        "meaning_ar": "سحابة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The rain clouds went over the hills."
+      },
+      {
+        "word": "sky",
+        "pos": "noun",
+        "meaning_en": "the space above the earth",
+        "meaning_ar": "سماء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The sky turned blue."
+      },
+      {
+        "word": "sun",
+        "pos": "noun",
+        "meaning_en": "the big star that gives us light and heat",
+        "meaning_ar": "الشمس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The Sun shone, warm and golden."
+      },
+      {
+        "word": "garden",
+        "pos": "noun",
+        "meaning_en": "land near a house with grass and flowers",
+        "meaning_ar": "حديقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The rainbow landed in the garden."
+      },
+      {
+        "word": "apple tree",
+        "pos": "noun",
+        "meaning_en": "a tree that grows apples",
+        "meaning_ar": "شجرة تفاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Milly sat under the apple tree."
+      },
+      {
+        "word": "wet",
+        "pos": "adjective",
+        "meaning_en": "covered with water",
+        "meaning_ar": "مبلّل / ماطر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What a wet day!"
+      },
+      {
+        "word": "dig",
+        "pos": "verb",
+        "meaning_en": "make a hole in the ground",
+        "meaning_ar": "يحفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She started to dig."
+      },
+      {
+        "word": "gold",
+        "pos": "noun",
+        "meaning_en": "a yellow, expensive metal",
+        "meaning_ar": "ذهب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is gold at the end of a rainbow."
+      },
+      {
+        "word": "coin",
+        "pos": "noun",
+        "meaning_en": "a round piece of metal money",
+        "meaning_ar": "عملة معدنية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a golden coin."
+      },
+      {
+        "word": "wish",
+        "pos": "noun / verb",
+        "meaning_en": "something you hope for",
+        "meaning_ar": "أمنية / يتمنّى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Make a wish."
+      },
+      {
+        "word": "beautiful",
+        "pos": "adjective",
+        "meaning_en": "very nice to look at",
+        "meaning_ar": "جميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a beautiful day."
+      },
+      {
+        "word": "lucky",
+        "pos": "adjective",
+        "meaning_en": "having good things happen to you",
+        "meaning_ar": "محظوظ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am a very lucky girl."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "up vs down",
+        "words": [
+          "up",
+          "down"
+        ],
+        "explanation_ar": "up = إلى أعلى، و down = إلى أسفل.",
+        "explanation_en": "\"up\" = to a higher place. \"down\" = to a lower place.",
+        "examples": [
+          {
+            "word": "up",
+            "sentence": "Up, up, up she went."
+          },
+          {
+            "word": "down",
+            "sentence": "Down, down she came."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What a wet day!",
+        "meaning_ar": "يا له من يوم ماطر!",
+        "meaning_en": "Said when it rains a lot.",
+        "example": "Look at the rain. What a wet day!"
+      },
+      {
+        "phrase": "Make a wish.",
+        "meaning_ar": "تمنَّ أمنية.",
+        "meaning_en": "Hope for something special.",
+        "example": "Close your eyes and make a wish."
+      },
+      {
+        "phrase": "Please wait!",
+        "meaning_ar": "انتظر من فضلك!",
+        "meaning_en": "Asking someone or something to stop for a moment.",
+        "example": "Please wait! I'm coming."
+      },
+      {
+        "phrase": "I am a very lucky girl.",
+        "meaning_ar": "أنا فتاة محظوظة جدًّا.",
+        "meaning_en": "Saying good things happen to you.",
+        "example": "I have a kind family. I am very lucky."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past simple in a story",
+        "explanation_ar": "نحكي القصة بالماضي: الأفعال المنتظمة + ed (stopped, landed)، وبعض الأفعال غير منتظمة (see → saw، sit → sat، go → went).",
+        "explanation_en": "Stories use the past simple: regular -ed (stopped, landed) and irregular verbs (see → saw, sit → sat, go → went).",
+        "examples": [
+          "Milly sat under the apple tree.",
+          "She saw the rainbow.",
+          "The rain stopped."
+        ]
+      },
+      {
+        "title": "What a + adjective + noun!",
+        "explanation_ar": "نتعجب بـ What a + صفة + اسم مفرد: What a wet day!",
+        "explanation_en": "Show surprise: What a + adjective + noun!",
+        "examples": [
+          "What a wet day!",
+          "What a beautiful day!",
+          "What a big rainbow!"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where did the rainbow land?",
+      "choices": [
+        "in the garden",
+        "on the house",
+        "in the river",
+        "at school"
+      ],
+      "answer": 0,
+      "explanation_ar": "هبط قوس قزح في الحديقة.",
+      "explanation_en": "It landed in the garden."
+    },
+    {
+      "question": "What did Milly find in the ground?",
+      "choices": [
+        "an apple",
+        "a golden coin",
+        "a stone house",
+        "a rainbow"
+      ],
+      "answer": 1,
+      "explanation_ar": "وجدت عملة ذهبية.",
+      "explanation_en": "She found a golden coin."
+    },
+    {
+      "question": "The coin said: \"Make a ___ before the rainbow fades.\"",
+      "choices": [
+        "cake",
+        "coin",
+        "wish",
+        "garden"
+      ],
+      "answer": 2,
+      "explanation_ar": "كان مكتوبًا: تمنَّ أمنية.",
+      "explanation_en": "Make a wish."
+    },
+    {
+      "question": "Milly ___ under the apple tree. (sit, past)",
+      "choices": [
+        "sitted",
+        "sits",
+        "sat",
+        "sitting"
+      ],
+      "answer": 2,
+      "explanation_ar": "ماضي sit هو sat.",
+      "explanation_en": "The past of sit is sat."
+    },
+    {
+      "question": "___ a wet day!",
+      "choices": [
+        "How",
+        "What a",
+        "What",
+        "So a"
+      ],
+      "answer": 1,
+      "explanation_ar": "What a + صفة + اسم.",
+      "explanation_en": "What a + adjective + noun."
+    },
+    {
+      "question": "A rainbow comes after the ___.",
+      "choices": [
+        "rain",
+        "night",
+        "snow only",
+        "wind"
+      ],
+      "answer": 0,
+      "explanation_ar": "قوس قزح يظهر بعد المطر.",
+      "explanation_en": "A rainbow comes after rain."
+    },
+    {
+      "question": "The opposite of \"up\" is ___.",
+      "choices": [
+        "in",
+        "on",
+        "under",
+        "down"
+      ],
+      "answer": 3,
+      "explanation_ar": "عكس up هو down.",
+      "explanation_en": "The opposite of up is down."
+    },
+    {
+      "question": "Good things happen to you. You are ___.",
+      "choices": [
+        "wet",
+        "lucky",
+        "tired",
+        "bored"
+      ],
+      "answer": 1,
+      "explanation_ar": "lucky = محظوظ.",
+      "explanation_en": "lucky = good things happen to you."
+    },
+    {
+      "question": "\"dig\" means ___.",
+      "choices": [
+        "يطير",
+        "يحفر",
+        "يأكل",
+        "يرى"
+      ],
+      "answer": 1,
+      "explanation_ar": "dig = يحفر.",
+      "explanation_en": "dig = make a hole."
+    },
+    {
+      "question": "At the end, how did Milly feel?",
+      "choices": [
+        "angry",
+        "sad",
+        "lucky and happy",
+        "sick"
+      ],
+      "answer": 2,
+      "explanation_ar": "شعرت أنها محظوظة وابتسمت.",
+      "explanation_en": "She felt lucky and smiled."
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "title": "Getting Things Done Quickly",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "pull out all the stops",
+        "pos": "idiom",
+        "meaning_en": "to do everything you can to make something succeed",
+        "meaning_ar": "يبذل قصارى جهده",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We pulled out all the stops to finish the project on time."
+      },
+      {
+        "word": "process",
+        "pos": "verb",
+        "meaning_en": "to deal with an order or document in the usual way",
+        "meaning_ar": "يعالج؛ ينجز (طلبًا أو معاملة)",
+        "note_ar": "يُنطق في البريطانية /ˈprəʊses/ وفي الأمريكية /ˈprɑːses/.",
+        "note_en": "UK /ˈprəʊses/, US /ˈprɑːses/.",
+        "example": "We process most orders within two days."
+      },
+      {
+        "word": "order",
+        "pos": "noun",
+        "meaning_en": "a request to buy goods",
+        "meaning_ar": "طلبية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The customer placed a large order."
+      },
+      {
+        "word": "urgently",
+        "pos": "adverb",
+        "meaning_en": "very quickly because it is very important",
+        "meaning_ar": "بشكل عاجل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to send these documents urgently."
+      },
+      {
+        "word": "number one priority",
+        "pos": "phrase",
+        "meaning_en": "the most important thing to do",
+        "meaning_ar": "الأولوية القصوى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Customer safety is our number one priority."
+      },
+      {
+        "word": "sort out",
+        "pos": "phrasal verb",
+        "meaning_en": "to solve a problem or organise something",
+        "meaning_ar": "يحلّ (مشكلة)؛ ينظّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you sort out the problem with the delivery?"
+      },
+      {
+        "word": "pull your weight",
+        "pos": "idiom",
+        "meaning_en": "to do your fair share of the work",
+        "meaning_ar": "يقوم بنصيبه من العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Everyone on the team must pull their weight."
+      },
+      {
+        "word": "hectic",
+        "pos": "adjective",
+        "meaning_en": "very busy and full of activity",
+        "meaning_ar": "مزدحم بالعمل؛ محموم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Monday mornings are always hectic in the office."
+      },
+      {
+        "word": "paperwork",
+        "pos": "noun",
+        "meaning_en": "documents and forms for a job",
+        "meaning_ar": "الأوراق والمستندات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll sort out the paperwork while you pack the goods."
+      },
+      {
+        "word": "warehouse",
+        "pos": "noun",
+        "meaning_en": "a large building where goods are stored",
+        "meaning_ar": "مستودع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The boxes are in the warehouse downstairs."
+      },
+      {
+        "word": "hand deliver",
+        "pos": "verb",
+        "meaning_en": "to take something to a person yourself, not by post",
+        "meaning_ar": "يسلّم باليد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll hand deliver the contract this afternoon."
+      },
+      {
+        "word": "exhibition",
+        "pos": "noun",
+        "meaning_en": "a public show of products or art",
+        "meaning_ar": "معرض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company will show its products at the exhibition."
+      },
+      {
+        "word": "delay",
+        "pos": "noun",
+        "meaning_en": "a time when something happens later than planned",
+        "meaning_ar": "تأخير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're sorry about the delay to your order."
+      },
+      {
+        "word": "competitive",
+        "pos": "adjective",
+        "meaning_en": "(of a price) as good as or better than other companies' prices",
+        "meaning_ar": "منافس (سعر)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our prices are very competitive."
+      },
+      {
+        "word": "customer care",
+        "pos": "noun",
+        "meaning_en": "looking after customers well",
+        "meaning_ar": "العناية بالعملاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Good customer care keeps clients happy."
+      },
+      {
+        "word": "save the day",
+        "pos": "idiom",
+        "meaning_en": "to solve a problem when everything seemed to be going wrong",
+        "meaning_ar": "ينقذ الموقف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna saved the day by delivering the order herself."
+      },
+      {
+        "word": "on the other line",
+        "pos": "phrase",
+        "meaning_en": "talking on another phone call",
+        "meaning_ar": "على الخط الآخر (في مكالمة أخرى)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry, she's on the other line. Can you hold?"
+      },
+      {
+        "word": "right away",
+        "pos": "phrase",
+        "meaning_en": "immediately, now",
+        "meaning_ar": "فورًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll send someone round right away."
+      },
+      {
+        "word": "in safe hands",
+        "pos": "phrase",
+        "meaning_en": "being looked after by someone you can trust",
+        "meaning_ar": "في أيدٍ أمينة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't worry, the project is in safe hands."
+      },
+      {
+        "word": "get onto something",
+        "pos": "phrasal verb",
+        "meaning_en": "to start dealing with something",
+        "meaning_ar": "يبدأ العمل على أمر ما",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've got to get onto this order now."
+      },
+      {
+        "word": "free to talk",
+        "pos": "phrase",
+        "meaning_en": "not busy, able to have a conversation",
+        "meaning_ar": "متفرّغ للحديث",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you free to talk in my office now?"
+      },
+      {
+        "word": "keep a clear head",
+        "pos": "phrase",
+        "meaning_en": "to stay calm and think clearly",
+        "meaning_ar": "يحافظ على هدوئه وصفاء ذهنه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Try to keep a clear head before the big meeting."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "urgent vs important",
+        "words": [
+          "urgent",
+          "important"
+        ],
+        "explanation_ar": "urgent يعني أن الأمر يجب أن يُنجز فورًا لأن الوقت ضيق. important يعني أن له قيمة كبيرة، لكن قد لا يكون عاجلًا. بعض المهام عاجلة ومهمة معًا فتصبح number one priority.",
+        "explanation_en": "Urgent means it must be done now because time is short. Important means it matters a lot, but maybe not today. A task that is urgent and important is your number one priority.",
+        "examples": [
+          {
+            "word": "urgent",
+            "sentence": "This order is urgent - the client needs it by tomorrow."
+          },
+          {
+            "word": "important",
+            "sentence": "Learning new skills is important for your career."
+          }
+        ]
+      },
+      {
+        "title": "urgent vs urgently",
+        "words": [
+          "urgent",
+          "urgently"
+        ],
+        "explanation_ar": "urgent صفة تصف الاسم (an urgent order)، وurgently ظرف يصف الفعل (process it urgently).",
+        "explanation_en": "Urgent is an adjective (it describes a noun). Urgently is an adverb (it describes a verb).",
+        "examples": [
+          {
+            "word": "urgent",
+            "sentence": "We have an urgent order."
+          },
+          {
+            "word": "urgently",
+            "sentence": "We need to process this order urgently."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "We've got to pull out all the stops.",
+        "meaning_ar": "يجب أن نبذل قصارى جهدنا.",
+        "meaning_en": "We must do everything we can.",
+        "example": "The client is unhappy, so we've got to pull out all the stops."
+      },
+      {
+        "phrase": "We have an order we need to process urgently.",
+        "meaning_ar": "لدينا طلبية يجب أن ننجزها بشكل عاجل.",
+        "meaning_en": "There is an order that must be done very quickly.",
+        "example": "Team, we have an order we need to process urgently before Friday."
+      },
+      {
+        "phrase": "We need to pull out all the stops to get this sorted.",
+        "meaning_ar": "علينا أن نبذل كل ما بوسعنا لحلّ هذا الأمر.",
+        "meaning_en": "We must do everything possible to solve this.",
+        "example": "We need to pull out all the stops to get this delivery sorted."
+      },
+      {
+        "phrase": "This is our number one priority.",
+        "meaning_ar": "هذه أولويتنا القصوى.",
+        "meaning_en": "This is the most important thing now.",
+        "example": "Forget the other tasks for now - this is our number one priority."
+      },
+      {
+        "phrase": "Could someone answer that, please? I'm on the other line.",
+        "meaning_ar": "هل يمكن لأحدكم الرد على الهاتف من فضلك؟ أنا في مكالمة أخرى.",
+        "meaning_en": "Ask a colleague to answer the phone because you are busy.",
+        "example": "Could someone answer that, please? I'm on the other line with a client."
+      },
+      {
+        "phrase": "We're really sorry about the delay, and it won't happen again.",
+        "meaning_ar": "نعتذر كثيرًا عن التأخير، ولن يتكرر ذلك.",
+        "meaning_en": "A polite apology to a customer.",
+        "example": "We're really sorry about the delay, and it won't happen again."
+      },
+      {
+        "phrase": "We'll send someone round right away.",
+        "meaning_ar": "سنرسل أحدًا إليكم فورًا.",
+        "meaning_en": "Someone will come to you immediately.",
+        "example": "Your printer isn't working? We'll send someone round right away."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "get + something + past participle (get this sorted, get things done)",
+        "explanation_ar": "نستخدم get + مفعول + التصريف الثالث للفعل للحديث عن إنجاز شيء حتى ينتهي، وغالبًا بجهد أو بسرعة: get this sorted (نحلّ هذا)، get things done (ننجز الأعمال).",
+        "explanation_en": "Use get + object + past participle to talk about completing something, often with effort or speed: get this sorted, get things done.",
+        "examples": [
+          "We need to get this order sorted today.",
+          "She always gets things done quickly.",
+          "Let's get the paperwork finished before lunch."
+        ]
+      },
+      {
+        "title": "must have + past participle (guessing about the past)",
+        "explanation_ar": "عندما نستنتج شيئًا عن الماضي ونحن شبه متأكدين نستخدم must have + التصريف الثالث. قال توم: I must have forgotten أي «لا بد أنني نسيت».",
+        "explanation_en": "When we are almost sure about something in the past, we use must have + past participle. Tom says 'I must have forgotten'.",
+        "examples": [
+          "I must have left my keys at home.",
+          "The client must have received our email.",
+          "He must have forgotten the paperwork."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'Pull out all the stops' means…",
+      "choices": [
+        "stop working",
+        "do everything you can",
+        "take a long break",
+        "close the office"
+      ],
+      "answer": 1,
+      "explanation_ar": "pull out all the stops يعني بذل أقصى جهد.",
+      "explanation_en": "It means do everything you can."
+    },
+    {
+      "question": "We have an order we need to process ___.",
+      "choices": [
+        "urgent",
+        "urgency",
+        "urgently",
+        "urge"
+      ],
+      "answer": 2,
+      "explanation_ar": "نحتاج ظرفًا يصف الفعل process، وهو urgently.",
+      "explanation_en": "We need an adverb after the verb: urgently."
+    },
+    {
+      "question": "'This is our number one priority' means it is…",
+      "choices": [
+        "the most important thing",
+        "the last thing to do",
+        "a small problem",
+        "a cheap product"
+      ],
+      "answer": 0,
+      "explanation_ar": "number one priority هي الأولوية القصوى.",
+      "explanation_en": "It is the most important thing."
+    },
+    {
+      "question": "Tom did not send the paperwork. He says, 'I must ___ forgotten.'",
+      "choices": [
+        "has",
+        "had",
+        "having",
+        "have"
+      ],
+      "answer": 3,
+      "explanation_ar": "نقول must have + التصريف الثالث.",
+      "explanation_en": "We say 'must have + past participle'."
+    },
+    {
+      "question": "Where are the plastic grapes stored?",
+      "choices": [
+        "in the exhibition",
+        "in the warehouse",
+        "in the taxi",
+        "in the paperwork"
+      ],
+      "answer": 1,
+      "explanation_ar": "البضائع تُخزّن في المستودع warehouse.",
+      "explanation_en": "Goods are kept in a warehouse."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "We need to get this sorting.",
+        "We need to get sorted this.",
+        "We need to get this sorted.",
+        "We need get this sort."
+      ],
+      "answer": 2,
+      "explanation_ar": "الترتيب: get + مفعول + تصريف ثالث.",
+      "explanation_en": "The pattern is get + object + past participle."
+    },
+    {
+      "question": "An 'urgent' task is one that…",
+      "choices": [
+        "must be done immediately",
+        "is not important",
+        "can wait until next month",
+        "is very easy"
+      ],
+      "answer": 0,
+      "explanation_ar": "urgent يعني يجب إنجازه فورًا.",
+      "explanation_en": "Urgent means it must be done now."
+    },
+    {
+      "question": "Everyone must do their fair share of the work. Everyone must ___.",
+      "choices": [
+        "save the day",
+        "keep a clear head",
+        "be on the other line",
+        "pull their weight"
+      ],
+      "answer": 3,
+      "explanation_ar": "pull your weight تعني أن تقوم بنصيبك من العمل.",
+      "explanation_en": "'Pull your weight' means do your share of the work."
+    },
+    {
+      "question": "What does Anna say to the client at Nice'n'Cheesy?",
+      "choices": [
+        "It's your fault.",
+        "We're really sorry about the delay.",
+        "The price is very high.",
+        "Call us next year."
+      ],
+      "answer": 1,
+      "explanation_ar": "اعتذرت آنا عن التأخير: We're really sorry about the delay.",
+      "explanation_en": "She apologised for the delay."
+    },
+    {
+      "question": "'Hectic' means…",
+      "choices": [
+        "quiet and calm",
+        "cheap",
+        "very busy",
+        "dangerous"
+      ],
+      "answer": 2,
+      "explanation_ar": "hectic تعني مزدحمًا بالعمل.",
+      "explanation_en": "Hectic means very busy."
+    }
+  ]
+}

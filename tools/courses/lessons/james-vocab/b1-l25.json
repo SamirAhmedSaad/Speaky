@@ -1,0 +1,43 @@
+{
+  "title": "7 Everyday Phrasal Verbs",
+  "content": {
+    "vocabulary": [
+      {"word": "run out of", "pos": "phrasal verb", "meaning_en": "to have no more of something", "meaning_ar": "ينفد منه", "note_ar": "الماضي: ran out of", "note_en": "Past: ran out of.", "example": "We ran out of coffee this morning."},
+      {"word": "look for", "pos": "phrasal verb", "meaning_en": "to try to find something", "meaning_ar": "يبحث عن", "note_ar": "", "note_en": "", "example": "I'm looking for my keys."},
+      {"word": "pick up", "pos": "phrasal verb", "meaning_en": "to lift something; to collect someone and take them in a car; to answer the phone", "meaning_ar": "يلتقط / يُقِلّ شخصًا بالسيارة / يرد على الهاتف", "note_ar": "pick someone up = يمرّ ليأخذه", "note_en": "pick someone up = collect them", "example": "Josh will pick me up at eight."},
+      {"word": "show up", "pos": "phrasal verb", "meaning_en": "to arrive (often at an expected place or time)", "meaning_ar": "يحضر / يصل", "note_ar": "", "note_en": "", "example": "What time did you show up for work?"},
+      {"word": "come up", "pos": "phrasal verb", "meaning_en": "(a situation) to happen unexpectedly", "meaning_ar": "يطرأ (أمر غير متوقع)", "note_ar": "Something came up = طرأ أمر", "note_en": "Something came up.", "example": "Sorry, I can't come tonight. Something came up."},
+      {"word": "head out", "pos": "phrasal verb", "meaning_en": "to leave", "meaning_ar": "يغادر / ينطلق", "note_ar": "", "note_en": "Informal.", "example": "I'm going to head out now. See you tomorrow."},
+      {"word": "get back", "pos": "phrasal verb", "meaning_en": "to return", "meaning_ar": "يعود", "note_ar": "", "note_en": "", "example": "What time will you get back from the gym?"},
+      {"word": "fluency", "pos": "noun", "meaning_en": "the ability to speak a language easily and naturally", "meaning_ar": "الطلاقة", "note_ar": "", "note_en": "", "example": "Using words in real life builds fluency."},
+      {"word": "unexpected", "pos": "adjective", "meaning_en": "not planned or expected", "meaning_ar": "غير متوقع", "note_ar": "", "note_en": "", "example": "An unexpected problem came up at work."},
+      {"word": "context", "pos": "noun", "meaning_en": "the situation in which something happens", "meaning_ar": "سياق", "note_ar": "", "note_en": "", "example": "Learn words in context, not from lists."}
+    ],
+    "fine_lines": [
+      {"title": "head out vs get back", "words": ["head out", "get back"], "explanation_ar": "head out = تغادر المكان. get back = تعود إليه.", "explanation_en": "Head out = leave. Get back = return.", "examples": [{"word": "head out", "sentence": "I'll head out for lunch at 12:30."}, {"word": "get back", "sentence": "I'll get back at 1:30."}]},
+      {"title": "look for vs find", "words": ["look for", "find"], "explanation_ar": "look for = تبحث (لم تجد بعد). find = تجد.", "explanation_en": "Look for = try to find (not yet). Find = get it after looking.", "examples": [{"word": "look for", "sentence": "I'm looking for my phone."}, {"word": "find", "sentence": "I found it on the sofa."}]}
+    ],
+    "expressions": [
+      {"phrase": "We ran out of...", "meaning_ar": "نفد منّا...", "meaning_en": "We have no more...", "example": "We ran out of milk."},
+      {"phrase": "I'm here to pick you up.", "meaning_ar": "جئت لأُقِلّك.", "meaning_en": "I came to take you in my car.", "example": "It's eight o'clock. I'm here to pick you up."},
+      {"phrase": "Something came up.", "meaning_ar": "طرأ أمر ما.", "meaning_en": "Something unexpected happened.", "example": "Sorry, I can't make lunch. Something came up at work."},
+      {"phrase": "I'll catch you when you head out.", "meaning_ar": "سألقاك عندما تغادر.", "meaning_en": "I'll meet you when you leave.", "example": "No problem. I'll catch you when you head out."},
+      {"phrase": "I can't make it.", "meaning_ar": "لا أستطيع الحضور.", "meaning_en": "I can't come.", "example": "Sorry, I can't make it today."}
+    ],
+    "grammar": [
+      {"title": "Learn phrasal verbs around your day", "explanation_ar": "لا تحفظ القوائم فقط؛ اربط كل فعل مركب بوقت وموقف من يومك: صباحًا run out of / look for، ثم pick up / show up، ظهرًا come up، مساءً head out / get back. فكّر في الموقف ثم اختر الإنجليزية المناسبة.", "explanation_en": "Don't just memorize lists. Connect each phrasal verb to a time and situation in your day: morning (run out of, look for), then pick up / show up, noon (come up), evening (head out, get back).", "examples": ["7 a.m.: We ran out of coffee.", "9 a.m.: I showed up for work on time.", "5 p.m.: I'm heading out. I'll get back at 7."]}
+    ]
+  },
+  "questions": [
+    {"question": "7 a.m., no coffee at home. You say: \"We ___ coffee.\"", "choices": ["ran out of", "showed up", "headed out", "came up"], "answer": 0, "explanation_ar": "run out of = نفد.", "explanation_en": "Run out of = have no more."},
+    {"question": "\"What time did you ___ for work?\" (arrive)", "choices": ["look for", "show up", "run out of", "head out"], "answer": 1, "explanation_ar": "show up = يصل / يحضر.", "explanation_en": "Show up = arrive."},
+    {"question": "You can't go to lunch because the boss gave you work. \"Sorry, something ___.\"", "choices": ["picked up", "ran out", "came up", "got back"], "answer": 2, "explanation_ar": "something came up = طرأ أمر.", "explanation_en": "Something came up = something unexpected."},
+    {"question": "\"Guys, I'm going to ___ now. See you tomorrow.\" (leave)", "choices": ["get back", "come up", "look for", "head out"], "answer": 3, "explanation_ar": "head out = يغادر.", "explanation_en": "Head out = leave."},
+    {"question": "\"I can't find my keys. I need to ___ them.\"", "choices": ["look for", "pick up", "show up", "head out"], "answer": 0, "explanation_ar": "look for = يبحث عن.", "explanation_en": "Look for = try to find."},
+    {"question": "\"Josh will ___ me ___ at 8 and drive me to work.\"", "choices": ["look / for", "pick / up", "run / out", "head / out"], "answer": 1, "explanation_ar": "pick someone up = يمرّ ليأخذه.", "explanation_en": "Pick someone up = collect them."},
+    {"question": "\"What time will you ___ from the gym?\" (return)", "choices": ["run out", "come up", "get back", "look for"], "answer": 2, "explanation_ar": "get back = يعود.", "explanation_en": "Get back = return."},
+    {"question": "James says the best way to learn phrasal verbs is to ___.", "choices": ["memorize long lists", "never use them", "only read them", "connect them to situations in your day"], "answer": 3, "explanation_ar": "اربطها بمواقف يومك.", "explanation_en": "Connect them to your daily situations."},
+    {"question": "Which one can also mean \"answer the phone\"?", "choices": ["pick up", "show up", "head out", "run out of"], "answer": 0, "explanation_ar": "pick up the phone = يرد على الهاتف.", "explanation_en": "Pick up the phone = answer it."},
+    {"question": "\"We've run out of time\" means:", "choices": ["We have a lot of time.", "We have no more time.", "We are early.", "We are running."], "answer": 1, "explanation_ar": "لم يبقَ لدينا وقت.", "explanation_en": "There is no time left."}
+  ]
+}

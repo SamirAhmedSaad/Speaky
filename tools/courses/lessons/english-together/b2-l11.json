@@ -1,0 +1,430 @@
+{
+  "title": "Food and Mood",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "mood",
+        "pos": "noun",
+        "meaning_en": "the way you feel at a time",
+        "meaning_ar": "مزاج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Good food can lift your mood."
+      },
+      {
+        "word": "bad day",
+        "pos": "noun",
+        "meaning_en": "a day when things go wrong",
+        "meaning_ar": "يوم سيئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Jack was having a bad day."
+      },
+      {
+        "word": "lose your job",
+        "pos": "phrase",
+        "meaning_en": "stop having your job because the company ends it",
+        "meaning_ar": "يفقد وظيفته",
+        "note_ar": "الماضي: lost",
+        "note_en": "Past: lost.",
+        "example": "He just lost his job."
+      },
+      {
+        "word": "give up",
+        "pos": "phrasal verb",
+        "meaning_en": "stop trying",
+        "meaning_ar": "يستسلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't give up!"
+      },
+      {
+        "word": "food truck",
+        "pos": "noun",
+        "meaning_en": "a big vehicle that cooks and sells food in the street",
+        "meaning_ar": "شاحنة طعام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is a food truck in the park."
+      },
+      {
+        "word": "catch your eye",
+        "pos": "phrase",
+        "meaning_en": "make you notice it",
+        "meaning_ar": "يلفت نظرك",
+        "note_ar": "الماضي: caught",
+        "note_en": "Past: caught.",
+        "example": "A coffee shop caught his eye."
+      },
+      {
+        "word": "hot dog",
+        "pos": "noun",
+        "meaning_en": "a long sausage in a bread roll",
+        "meaning_ar": "نقانق في خبز (هوت دوغ)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He bought a hot dog."
+      },
+      {
+        "word": "toppings",
+        "pos": "noun",
+        "meaning_en": "sauces or food you put on top of other food",
+        "meaning_ar": "إضافات (توضع فوق الطعام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want any toppings?"
+      },
+      {
+        "word": "ketchup",
+        "pos": "noun",
+        "meaning_en": "a thick red tomato sauce",
+        "meaning_ar": "كاتشب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll have some ketchup."
+      },
+      {
+        "word": "mustard",
+        "pos": "noun",
+        "meaning_en": "a thick yellow sauce with a strong taste",
+        "meaning_ar": "خردل (مسطردة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He put mustard on his hot dog."
+      },
+      {
+        "word": "take a bite",
+        "pos": "phrase",
+        "meaning_en": "eat a small piece with your teeth",
+        "meaning_ar": "يأخذ قضمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He took a bite of the chicken."
+      },
+      {
+        "word": "remind",
+        "pos": "verb",
+        "meaning_en": "make you remember something",
+        "meaning_ar": "يذكّر",
+        "note_ar": "remind me of = يذكرني بـ",
+        "note_en": "remind me of + noun.",
+        "example": "It reminds me of my family."
+      },
+      {
+        "word": "fried chicken",
+        "pos": "noun",
+        "meaning_en": "chicken cooked in hot oil",
+        "meaning_ar": "دجاج مقلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I have some fried chicken, please?"
+      },
+      {
+        "word": "take pride in",
+        "pos": "phrase",
+        "meaning_en": "be proud of and care about something",
+        "meaning_ar": "يفتخر بـ / يعتني بإتقان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I take pride in my cooking."
+      },
+      {
+        "word": "cozy",
+        "pos": "adjective",
+        "meaning_en": "warm and comfortable",
+        "meaning_ar": "دافئ ومريح",
+        "note_ar": "في بريطانيا: cosy",
+        "note_en": "UK: cosy.",
+        "example": "The café had a cozy atmosphere."
+      },
+      {
+        "word": "atmosphere",
+        "pos": "noun",
+        "meaning_en": "the feeling of a place",
+        "meaning_ar": "جوّ (المكان)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The shop has a nice atmosphere."
+      },
+      {
+        "word": "take a sip",
+        "pos": "phrase",
+        "meaning_en": "drink a very small amount",
+        "meaning_ar": "يرتشف رشفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He took a sip of the coffee."
+      },
+      {
+        "word": "memory",
+        "pos": "noun",
+        "meaning_en": "something you remember from the past",
+        "meaning_ar": "ذكرى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The taste brought back a happy memory."
+      },
+      {
+        "word": "study abroad",
+        "pos": "phrase",
+        "meaning_en": "study in another country",
+        "meaning_ar": "يدرس في الخارج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She studied abroad in Italy."
+      },
+      {
+        "word": "treat",
+        "pos": "noun / verb",
+        "meaning_en": "something nice you give yourself or others",
+        "meaning_ar": "مكافأة صغيرة / يدلّل نفسه",
+        "note_ar": "treat yourself = دلّل نفسك",
+        "note_en": "\"Treat yourself\" = give yourself something nice.",
+        "example": "A little treat can improve your mood."
+      },
+      {
+        "word": "moral",
+        "pos": "noun",
+        "meaning_en": "the lesson of a story",
+        "meaning_ar": "العبرة (من القصة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is the moral of the story?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "take a bite vs take a sip",
+        "words": [
+          "take a bite",
+          "take a sip"
+        ],
+        "explanation_ar": "bite للطعام (بالأسنان)، sip للمشروبات (كمية صغيرة).",
+        "explanation_en": "\"Bite\" is for food (with teeth). \"Sip\" is for drinks (a small amount).",
+        "examples": [
+          {
+            "word": "take a bite",
+            "sentence": "He took a bite of the hot dog."
+          },
+          {
+            "word": "take a sip",
+            "sentence": "He took a sip of the cappuccino."
+          }
+        ]
+      },
+      {
+        "title": "remind vs remember",
+        "words": [
+          "remind",
+          "remember"
+        ],
+        "explanation_ar": "remember = أنت تتذكر. remind = شيء يجعلك تتذكر. نقول: It reminds me of ... ولا نقول It remembers me.",
+        "explanation_en": "\"Remember\" = you think of the past. \"Remind\" = something makes you remember. Say \"It reminds me of ...\", not \"It remembers me\".",
+        "examples": [
+          {
+            "word": "remind",
+            "sentence": "This food reminds me of my mother."
+          },
+          {
+            "word": "remember",
+            "sentence": "I remember my first day at school."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Why does everything have to go wrong today?",
+        "meaning_ar": "لماذا يجب أن يسوء كل شيء اليوم؟",
+        "meaning_en": "Complaining about a bad day.",
+        "example": "My bus is late and it's raining. Why does everything go wrong today?"
+      },
+      {
+        "phrase": "It caught his eye.",
+        "meaning_ar": "لفت نظره.",
+        "meaning_en": "He noticed it.",
+        "example": "The red bag caught my eye."
+      },
+      {
+        "phrase": "Do you want any toppings?",
+        "meaning_ar": "هل تريد أي إضافات؟",
+        "meaning_en": "Asking about extras on food.",
+        "example": "Do you want any toppings on your pizza?"
+      },
+      {
+        "phrase": "Glad you like it.",
+        "meaning_ar": "سعيد أنه أعجبك.",
+        "meaning_en": "Answering when someone likes your food.",
+        "example": "\"This cake is great!\" \"Glad you like it.\""
+      },
+      {
+        "phrase": "You really know how to make fried chicken.",
+        "meaning_ar": "أنت حقًا تعرف كيف تصنع الدجاج المقلي.",
+        "meaning_en": "Praising a cook.",
+        "example": "You really know how to make good tea!"
+      },
+      {
+        "phrase": "That's great to hear.",
+        "meaning_ar": "يسعدني سماع ذلك.",
+        "meaning_en": "Happy about someone's news.",
+        "example": "You passed the test? That's great to hear."
+      },
+      {
+        "phrase": "Maybe today wasn't so bad after all.",
+        "meaning_ar": "ربما لم يكن اليوم سيئًا إلى هذا الحد في النهاية.",
+        "meaning_en": "Changing your mind about something.",
+        "example": "The trip wasn't so bad after all."
+      },
+      {
+        "phrase": "A little treat can go a long way.",
+        "meaning_ar": "شيء صغير لطيف قد يُحدث فرقًا كبيرًا.",
+        "meaning_en": "Small nice things help a lot.",
+        "example": "A kind word can go a long way."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past simple in a story",
+        "explanation_ar": "القصص تُحكى بالماضي البسيط. أفعال منتظمة تنتهي بـ ed (walked, decided) وأفعال شاذة (saw, took, felt, lost, caught).",
+        "explanation_en": "Stories use the past simple. Regular verbs end in -ed; irregular verbs change.",
+        "examples": [
+          "Jack saw a food truck.",
+          "He took a bite and felt better.",
+          "He decided to keep walking."
+        ]
+      },
+      {
+        "title": "remind someone of something",
+        "explanation_ar": "الفعل remind يأتي بعده شخص ثم of ثم الشيء: It reminds me of happy times.",
+        "explanation_en": "Pattern: remind + person + of + thing.",
+        "examples": [
+          "The hot dog reminds me of happy times.",
+          "This smell reminds me of my grandmother's kitchen.",
+          "It reminded him of a trip to Japan."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the past of \"catch\"?",
+      "choices": [
+        "catched",
+        "caught",
+        "cought",
+        "catching"
+      ],
+      "answer": 1,
+      "explanation_ar": "الماضي caught.",
+      "explanation_en": "The past is \"caught\"."
+    },
+    {
+      "question": "He took a ____ of the cappuccino.",
+      "choices": [
+        "bite",
+        "topping",
+        "mood",
+        "sip"
+      ],
+      "answer": 3,
+      "explanation_ar": "مع المشروبات نقول sip.",
+      "explanation_en": "For drinks we say \"sip\"."
+    },
+    {
+      "question": "The coffee smell reminds me ____ Italy.",
+      "choices": [
+        "of",
+        "about",
+        "to",
+        "at"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول remind me of.",
+      "explanation_en": "We say \"remind me of\"."
+    },
+    {
+      "question": "Ketchup and mustard are ...",
+      "choices": [
+        "drinks",
+        "desserts",
+        "toppings",
+        "trucks"
+      ],
+      "answer": 2,
+      "explanation_ar": "هما إضافات توضع على الطعام.",
+      "explanation_en": "They are toppings."
+    },
+    {
+      "question": "\"I just want to give up.\" Jack wants to ...",
+      "choices": [
+        "go up",
+        "give a gift",
+        "stop trying",
+        "eat more"
+      ],
+      "answer": 2,
+      "explanation_ar": "give up تعني يستسلم.",
+      "explanation_en": "\"Give up\" means stop trying."
+    },
+    {
+      "question": "What is the moral of the story?",
+      "choices": [
+        "A little treat can improve your mood.",
+        "Coffee is bad.",
+        "Never eat fast food.",
+        "Don't walk in the city."
+      ],
+      "answer": 0,
+      "explanation_ar": "العبرة: شيء صغير لطيف يحسن المزاج.",
+      "explanation_en": "A small treat can improve your mood."
+    },
+    {
+      "question": "A \"cozy\" place is ...",
+      "choices": [
+        "cold and dark",
+        "very noisy",
+        "very expensive",
+        "warm and comfortable"
+      ],
+      "answer": 3,
+      "explanation_ar": "cozy دافئ ومريح.",
+      "explanation_en": "Cozy means warm and comfortable."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "This food remembers me of home.",
+        "This food reminds me of home.",
+        "This food reminds me home.",
+        "This food remind me of home."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح: reminds me of.",
+      "explanation_en": "Correct: \"reminds me of\"."
+    },
+    {
+      "question": "As he walked, he ____ a coffee shop.",
+      "choices": [
+        "saw",
+        "see",
+        "seed",
+        "seeing"
+      ],
+      "answer": 0,
+      "explanation_ar": "الماضي من see هو saw.",
+      "explanation_en": "The past of \"see\" is \"saw\"."
+    },
+    {
+      "question": "\"I take pride in my cooking.\" The cook ...",
+      "choices": [
+        "doesn't like cooking",
+        "wants to stop cooking",
+        "is proud of his cooking",
+        "is hungry"
+      ],
+      "answer": 2,
+      "explanation_ar": "يفتخر بطبخه ويتقنه.",
+      "explanation_en": "He is proud of his cooking."
+    }
+  ]
+}

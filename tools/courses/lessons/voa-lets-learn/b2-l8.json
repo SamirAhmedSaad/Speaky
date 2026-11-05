@@ -1,0 +1,55 @@
+{
+  "title": "The Best Barbecue",
+  "content": {
+    "vocabulary": [
+      {"word": "advice", "pos": "noun", "meaning_en": "an opinion about what someone should do", "meaning_ar": "نصيحة", "note_ar": "اسم غير معدود: some advice وليس advices", "note_en": "Uncountable: some advice, not advices.", "example": "Can I get your advice on my project?"},
+      {"word": "project", "pos": "noun", "meaning_en": "a planned piece of work", "meaning_ar": "مشروع", "note_ar": "", "note_en": "", "example": "My latest project is a video about food."},
+      {"word": "cover", "pos": "verb", "meaning_en": "to report on an event for the news", "meaning_ar": "يغطّي (إعلاميًا)", "note_ar": "", "note_en": "", "example": "Anna was sent to cover a food festival."},
+      {"word": "barbecue", "pos": "noun", "meaning_en": "meat cooked over an open fire or on a grill", "meaning_ar": "شواء / باربكيو", "note_ar": "تُكتب أحيانًا BBQ", "note_en": "Often written BBQ.", "example": "We had chicken barbecue for dinner."},
+      {"word": "grill", "pos": "noun", "meaning_en": "a metal frame for cooking food over fire", "meaning_ar": "شوّاية", "note_ar": "وتأتي فعلًا: to grill = يشوي", "note_en": "Also a verb: to grill.", "example": "Put the meat on the grill."},
+      {"word": "be held", "pos": "verb", "meaning_en": "to take place (for an event)", "meaning_ar": "يُقام / يُعقد", "note_ar": "مبني للمجهول من hold", "note_en": "Passive of hold.", "example": "The meeting will be held on Monday."},
+      {"word": "be known as", "pos": "phrase", "meaning_en": "to be called or famous as", "meaning_ar": "يُعرَف باسم", "note_ar": "", "note_en": "", "example": "This city is known as the city of lights."},
+      {"word": "be known for", "pos": "phrase", "meaning_en": "to be famous because of something", "meaning_ar": "مشهور بـ", "note_ar": "", "note_en": "", "example": "Texas is known for its barbecue."},
+      {"word": "beef", "pos": "noun", "meaning_en": "meat from a cow", "meaning_ar": "لحم البقر", "note_ar": "", "note_en": "", "example": "I'd like a beef sandwich."},
+      {"word": "sauce", "pos": "noun", "meaning_en": "a thick liquid you put on food for flavor", "meaning_ar": "صلصة", "note_ar": "", "note_en": "", "example": "This sauce is made with tomatoes."},
+      {"word": "seriously", "pos": "adverb", "meaning_en": "in a careful, important way", "meaning_ar": "بجدّية", "note_ar": "take something seriously = يأخذ الأمر بجدية", "note_en": "take something seriously", "example": "She takes her work seriously."},
+      {"word": "ingredient", "pos": "noun", "meaning_en": "one of the foods used to make a dish", "meaning_ar": "مكوّن", "note_ar": "", "note_en": "", "example": "What is the secret ingredient?"},
+      {"word": "secret", "pos": "adjective", "meaning_en": "known by only a few people", "meaning_ar": "سرّي", "note_ar": "وتأتي اسمًا: a secret = سر", "note_en": "Also a noun: a secret.", "example": "The recipe is kept secret."},
+      {"word": "chef", "pos": "noun", "meaning_en": "a professional cook", "meaning_ar": "طاهٍ / شيف", "note_ar": "", "note_en": "", "example": "The chef cooked a great meal."},
+      {"word": "vinegar", "pos": "noun", "meaning_en": "a sour liquid used in cooking", "meaning_ar": "خلّ", "note_ar": "", "note_en": "", "example": "Add a little vinegar to the salad."},
+      {"word": "spices", "pos": "noun", "meaning_en": "dried plant parts used to add flavor", "meaning_ar": "توابل / بهارات", "note_ar": "", "note_en": "", "example": "Cumin and pepper are spices."},
+      {"word": "tasty", "pos": "adjective", "meaning_en": "having a good flavor", "meaning_ar": "لذيذ", "note_ar": "", "note_en": "", "example": "The soup is very tasty."},
+      {"word": "loyal", "pos": "adjective", "meaning_en": "always supporting someone or something", "meaning_ar": "وفيّ / مخلص", "note_ar": "", "note_en": "", "example": "He is loyal to his favorite team."},
+      {"word": "battle", "pos": "noun", "meaning_en": "a fight or strong competition", "meaning_ar": "معركة / منافسة", "note_ar": "", "note_en": "", "example": "The festival is called a barbecue battle."},
+      {"word": "unbelievable", "pos": "adjective", "meaning_en": "very surprising; hard to believe", "meaning_ar": "لا يُصدَّق", "note_ar": "", "note_en": "", "example": "Twenty people for one sandwich? Unbelievable!"}
+    ],
+    "fine_lines": [
+      {"title": "active vs passive", "words": ["active", "passive"], "explanation_ar": "في الجملة المبنية للمعلوم (active) الفاعل يقوم بالفعل: Chefs make the sauce. في الجملة المبنية للمجهول (passive) يأتي الشيء الذي وقع عليه الفعل في أول الجملة: The sauce is made by chefs.", "explanation_en": "In an active sentence, the subject does the action: Chefs make the sauce. In a passive sentence, the subject receives the action: The sauce is made by chefs.", "examples": [{"word": "active", "sentence": "Professor Bot loves barbecue."}, {"word": "passive", "sentence": "Barbecue is loved by Professor Bot."}]},
+      {"title": "known as vs known for", "words": ["known as", "known for"], "explanation_ar": "known as + اسم أو لقب (يُسمّى). known for + الشيء الذي يشتهر به.", "explanation_en": "Known as + a name or title. Known for + the thing that makes it famous.", "examples": [{"word": "known as", "sentence": "These states are known as the Barbecue Belt."}, {"word": "known for", "sentence": "Memphis is known for its tasty barbecue."}]}
+    ],
+    "expressions": [
+      {"phrase": "Thanks for meeting me.", "meaning_ar": "شكرًا لأنك قابلتني.", "meaning_en": "Thank you for taking time to meet.", "example": "Thanks for meeting me so early."},
+      {"phrase": "I'd like to get your advice.", "meaning_ar": "أودّ أن أطلب نصيحتك.", "meaning_en": "I want to hear your opinion.", "example": "I'd like to get your advice on my essay."},
+      {"phrase": "How did it go?", "meaning_ar": "كيف سارت الأمور؟", "meaning_en": "Was it good or bad?", "example": "You had a test today. How did it go?"},
+      {"phrase": "Things started out great.", "meaning_ar": "بدأت الأمور بشكل رائع.", "meaning_en": "The beginning was very good.", "example": "Things started out great, but then it rained."},
+      {"phrase": "No matter which...", "meaning_ar": "مهما كان... / أيًّا كان...", "meaning_en": "It is not important which one.", "example": "No matter which road you take, you will arrive."},
+      {"phrase": "There is no way...", "meaning_ar": "مستحيل أن...", "meaning_en": "It is not possible that...", "example": "There is no way I can finish this today."},
+      {"phrase": "This is Anna Matteo reporting.", "meaning_ar": "معكم آنا ماتيو من موقع الحدث.", "meaning_en": "A news reporter's way to end a report.", "example": "This is Sam Lee reporting from the city."}
+    ],
+    "grammar": [
+      {"title": "Passive voice", "explanation_ar": "نستخدم المبني للمجهول عندما يكون الفعل أو الشيء أهم من الفاعل، أو عندما لا نعرف الفاعل. التكوين: فعل be (is/are/was/were) + التصريف الثالث. يمكن ذكر الفاعل بعد by. للمضارع المستمر: is being + التصريف الثالث (A battle is being held).", "explanation_en": "Use the passive when the action or the thing is more important than who did it, or when we don't know who did it. Form: be (is/are/was/were) + past participle. Add 'by' + doer if needed. Present continuous passive: is being + past participle.", "examples": ["Anna was sent to cover a food festival.", "A Barbecue Battle is being held in Washington, D.C.", "Sauces are taken very seriously by chefs.", "Most ingredients are kept secret."]}
+    ]
+  },
+  "questions": [
+    {"question": "Change to passive: 'Chefs make the sauces.'", "choices": ["The sauces make chefs.", "The sauces are made by chefs.", "The sauces is made by chefs.", "The sauces were making chefs."], "answer": 1, "explanation_ar": "المجهول: are + made + by chefs.", "explanation_en": "Passive: are made by chefs."},
+    {"question": "The passive is formed with:", "choices": ["be + past participle", "have + verb-ing", "will + verb", "do + verb"], "answer": 0, "explanation_ar": "المبني للمجهول = be + التصريف الثالث.", "explanation_en": "Passive = be + past participle."},
+    {"question": "Today, a festival ____ in Washington.", "choices": ["is holding", "holds being", "is being held", "has hold"], "answer": 2, "explanation_ar": "مجهول المضارع المستمر: is being held.", "explanation_en": "Present continuous passive: is being held."},
+    {"question": "Which sentence is passive?", "choices": ["Kelly loves barbecue.", "Anna asked the chef.", "The chef cooked beef.", "Most ingredients are kept secret."], "answer": 3, "explanation_ar": "are kept = be + التصريف الثالث، فالجملة مبنية للمجهول.", "explanation_en": "Are kept = be + past participle, so it is passive."},
+    {"question": "Kansas City is known ____ its tasty barbecue.", "choices": ["as", "for", "by", "to"], "answer": 1, "explanation_ar": "known for + الشيء الذي يشتهر به.", "explanation_en": "Known for + the reason it is famous."},
+    {"question": "One of the foods used to make a dish is an ____.", "choices": ["ingredient", "advice", "battle", "grill"], "answer": 0, "explanation_ar": "ingredient = مكوّن.", "explanation_en": "An ingredient is one food in a recipe."},
+    {"question": "Choose the correct sentence.", "choices": ["Can you give me an advice?", "Can you give me some advices?", "Can you give me some advice?", "Can you give me a advices?"], "answer": 2, "explanation_ar": "advice اسم غير معدود: some advice.", "explanation_en": "Advice is uncountable: some advice."},
+    {"question": "Meat from a cow is ____.", "choices": ["vinegar", "chicken", "sauce", "beef"], "answer": 3, "explanation_ar": "beef = لحم البقر.", "explanation_en": "Beef is meat from a cow."},
+    {"question": "'Loyal' people ____.", "choices": ["always support their favorite thing", "change their minds often", "never eat meat", "work as chefs"], "answer": 0, "explanation_ar": "loyal = وفيّ يدعم الشيء دائمًا.", "explanation_en": "Loyal people always support someone or something."},
+    {"question": "Anna ____ to cover a food festival.", "choices": ["sent", "was sent", "is send", "were sent"], "answer": 1, "explanation_ar": "آنا استقبلت الفعل، فنقول was sent.", "explanation_en": "Anna received the action: was sent."}
+  ]
+}

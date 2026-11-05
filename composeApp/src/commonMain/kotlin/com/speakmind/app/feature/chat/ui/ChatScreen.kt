@@ -272,7 +272,7 @@ private fun ChatBubble(message: ChatMessage, onSpeakMessage: (String) -> Unit) {
                 Text(
                     text = message.content,
                     style = MaterialTheme.typography.bodyMedium.copy(
-                        color = if (isUser) Color.White else colors.textPrimary,
+                        color = if (isUser) colors.onBubble else colors.textPrimary,
                         lineHeight = 22.ssp
                     )
                 )
@@ -456,7 +456,7 @@ private fun ChatInput(
             Icon(
                 imageVector = Icons.AutoMirrored.Filled.Send,
                 contentDescription = "Send",
-                tint = if (inputText.isNotBlank()) colors.backgroundDark
+                tint = if (inputText.isNotBlank()) colors.onPrimary
                 else colors.textMuted,
                 modifier = Modifier.size(20.sdp)
             )

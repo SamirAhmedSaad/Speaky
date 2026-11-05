@@ -1,0 +1,524 @@
+{
+ "title": "A Long Time Ago",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "history",
+    "pos": "noun",
+    "meaning_en": "the study of things that happened in the past",
+    "meaning_ar": "التاريخ",
+    "note_ar": "الصفة: historic / historical.",
+    "note_en": "Adjectives: historic, historical.",
+    "example": "I love reading about the history of my country."
+   },
+   {
+    "word": "bring to life",
+    "pos": "phrase",
+    "meaning_en": "to make something feel real and interesting",
+    "meaning_ar": "يُحيي / يجعله ينبض بالحياة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This museum brings history to life."
+   },
+   {
+    "word": "busy",
+    "pos": "adjective",
+    "meaning_en": "having a lot to do",
+    "meaning_ar": "مشغول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She is too busy with work to visit."
+   },
+   {
+    "word": "outdoors",
+    "pos": "adverb",
+    "meaning_en": "outside, not in a building",
+    "meaning_ar": "في الهواء الطلق / خارج المبنى",
+    "note_ar": "الصفة: outdoor (outdoor market).",
+    "note_en": "Adjective: outdoor (an outdoor market).",
+    "example": "We like working outdoors in spring."
+   },
+   {
+    "word": "tired",
+    "pos": "adjective",
+    "meaning_en": "needing rest or sleep",
+    "meaning_ar": "متعب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm tired after a long day at work."
+   },
+   {
+    "word": "advertisement",
+    "pos": "noun",
+    "meaning_en": "a picture, film or text that tells people about a product or event",
+    "meaning_ar": "إعلان",
+    "note_ar": "اختصارها ad. النطق الأمريكي: /ˌædvərˈtaɪzmənt/، والبريطاني: /ədˈvɜːtɪsmənt/.",
+    "note_en": "Short form: ad. US: /ˌædvərˈtaɪzmənt/, UK: /ədˈvɜːtɪsmənt/.",
+    "example": "I saw an advertisement for a new phone."
+   },
+   {
+    "word": "theater",
+    "pos": "noun",
+    "meaning_en": "a building where people watch plays and shows",
+    "meaning_ar": "مسرح",
+    "note_ar": "theater أمريكي، theatre بريطاني (وفي اسم Ford's Theatre).",
+    "note_en": "theater (US) = theatre (UK).",
+    "example": "We saw a show at the theater."
+   },
+   {
+    "word": "museum",
+    "pos": "noun",
+    "meaning_en": "a building where people can see important old or special things",
+    "meaning_ar": "متحف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The museum is open every day."
+   },
+   {
+    "word": "show",
+    "pos": "noun",
+    "meaning_en": "a play or performance people watch",
+    "meaning_ar": "عرض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The new show starts at eight."
+   },
+   {
+    "word": "die",
+    "pos": "verb",
+    "meaning_en": "to stop living",
+    "meaning_ar": "يموت",
+    "note_ar": "الماضي: died.",
+    "note_en": "Past: died.",
+    "example": "Abraham Lincoln died in 1865."
+   },
+   {
+    "word": "remind (of)",
+    "pos": "verb",
+    "meaning_en": "to make you remember something",
+    "meaning_ar": "يُذكّر بـ",
+    "note_ar": "remind someone of something.",
+    "note_en": "Pattern: remind someone of something.",
+    "example": "This photo reminds me of my school days."
+   },
+   {
+    "word": "serious",
+    "pos": "adjective",
+    "meaning_en": "quiet and thoughtful; not joking",
+    "meaning_ar": "جادّ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He was a serious child."
+   },
+   {
+    "word": "playground",
+    "pos": "noun",
+    "meaning_en": "an outdoor place where children play",
+    "meaning_ar": "ملعب أطفال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The kids are at the playground."
+   },
+   {
+    "word": "silly",
+    "pos": "adjective",
+    "meaning_en": "funny in a childish way; not serious",
+    "meaning_ar": "سخيف / طفولي (غير جادّ)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Stop making silly faces!"
+   },
+   {
+    "word": "swings",
+    "pos": "noun",
+    "meaning_en": "seats that hang from ropes or chains for children to move back and forth",
+    "meaning_ar": "أراجيح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My little sister loves the swings."
+   },
+   {
+    "word": "slide",
+    "pos": "noun",
+    "meaning_en": "a smooth slope children go down at a playground",
+    "meaning_ar": "زحليقة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The children went down the slide."
+   },
+   {
+    "word": "teeter-totter",
+    "pos": "noun",
+    "meaning_en": "a long board that goes up and down with a child on each end",
+    "meaning_ar": "أرجوحة التوازن (السيسو)",
+    "note_ar": "يُسمّى أيضاً seesaw.",
+    "note_en": "Also called a seesaw.",
+    "example": "Two kids played on the teeter-totter."
+   },
+   {
+    "word": "president",
+    "pos": "noun",
+    "meaning_en": "the leader of a country (or a company)",
+    "meaning_ar": "رئيس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Abraham Lincoln was the 16th president of the United States."
+   },
+   {
+    "word": "childhood",
+    "pos": "noun",
+    "meaning_en": "the time when you are a child",
+    "meaning_ar": "الطفولة",
+    "note_ar": "child + hood.",
+    "note_en": "child + -hood.",
+    "example": "I had a happy childhood."
+   },
+   {
+    "word": "dream",
+    "pos": "noun",
+    "meaning_en": "a hope or plan for the future",
+    "meaning_ar": "حُلم",
+    "note_ar": "dream come true = حلم يتحقق.",
+    "note_en": "A dream come true = something you hoped for that really happens.",
+    "example": "Her dream is to be a doctor."
+   },
+   {
+    "word": "astronaut",
+    "pos": "noun",
+    "meaning_en": "a person who travels into space",
+    "meaning_ar": "رائد فضاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The astronaut flew to the space station."
+   },
+   {
+    "word": "planet",
+    "pos": "noun",
+    "meaning_en": "a large round object that moves around a star",
+    "meaning_ar": "كوكب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Earth is a planet."
+   },
+   {
+    "word": "outer space",
+    "pos": "noun",
+    "meaning_en": "the area outside the Earth's air",
+    "meaning_ar": "الفضاء الخارجي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He wants to fly into outer space."
+   },
+   {
+    "word": "important",
+    "pos": "adjective",
+    "meaning_en": "having great value",
+    "meaning_ar": "مهم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Sleep is important for your health."
+   },
+   {
+    "word": "honestly",
+    "pos": "adverb",
+    "meaning_en": "truly; used to show you are telling the truth",
+    "meaning_ar": "بصراحة / حقاً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Honestly, I didn't know."
+   },
+   {
+    "word": "shoot",
+    "pos": "verb",
+    "meaning_en": "to hurt or kill with a gun",
+    "meaning_ar": "يطلق النار",
+    "note_ar": "الماضي: shot.",
+    "note_en": "Past: shot.",
+    "example": "A man shot President Lincoln at Ford's Theatre."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "outdoors vs outdoor",
+    "words": [
+     "outdoors",
+     "outdoor"
+    ],
+    "explanation_ar": "outdoors ظرف يأتي بعد الفعل: work outdoors (يعمل في الخارج). outdoor صفة تأتي قبل الاسم: an outdoor market.",
+    "explanation_en": "Outdoors is an adverb; it comes after a verb: work outdoors. Outdoor is an adjective; it comes before a noun: an outdoor market.",
+    "examples": [
+     {
+      "word": "outdoors",
+      "sentence": "Working outdoors is nice."
+     },
+     {
+      "word": "outdoor",
+      "sentence": "We ate at an outdoor café."
+     }
+    ]
+   },
+   {
+    "title": "silly vs serious",
+    "words": [
+     "silly",
+     "serious"
+    ],
+    "explanation_ar": "متضادتان. silly = غير جاد / طفولي ومضحك. serious = جاد ويفكر كثيراً.",
+    "explanation_en": "They are opposites. Silly = not serious, childish and funny. Serious = thoughtful, not joking.",
+    "examples": [
+     {
+      "word": "silly",
+      "sentence": "The children played silly games."
+     },
+     {
+      "word": "serious",
+      "sentence": "Anna was a tall, serious child."
+     }
+    ]
+   },
+   {
+    "title": "history vs story",
+    "words": [
+     "history",
+     "story"
+    ],
+    "explanation_ar": "history = أحداث حقيقية من الماضي أو مادة دراسة التاريخ. story = قصة (حقيقية أو خيالية).",
+    "explanation_en": "History = real events of the past, or the school subject. Story = a tale, true or not.",
+    "examples": [
+     {
+      "word": "history",
+      "sentence": "I studied the history of Washington, D.C."
+     },
+     {
+      "word": "story",
+      "sentence": "My grandmother told me a story."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Have a seat.",
+    "meaning_ar": "تفضّل بالجلوس.",
+    "meaning_en": "Please sit down.",
+    "example": "Come in and have a seat."
+   },
+   {
+    "phrase": "That's too bad.",
+    "meaning_ar": "هذا مؤسف.",
+    "meaning_en": "I'm sorry about that.",
+    "example": "\"I have to work late.\" \"That's too bad.\""
+   },
+   {
+    "phrase": "How are you these days?",
+    "meaning_ar": "كيف حالك هذه الأيام؟",
+    "meaning_en": "How is your life lately?",
+    "example": "Hi, Sam! How are you these days?"
+   },
+   {
+    "phrase": "Let's get to work.",
+    "meaning_ar": "هيا نبدأ العمل.",
+    "meaning_en": "Let's start working.",
+    "example": "We have a lot to do. Let's get to work."
+   },
+   {
+    "phrase": "That reminds me of something.",
+    "meaning_ar": "هذا يذكّرني بشيء.",
+    "meaning_en": "That makes me remember something.",
+    "example": "That smell reminds me of my mother's kitchen."
+   },
+   {
+    "phrase": "When I was a little girl…",
+    "meaning_ar": "عندما كنت طفلة صغيرة...",
+    "meaning_en": "A way to start talking about your childhood.",
+    "example": "When I was a little boy, I loved trains."
+   },
+   {
+    "phrase": "Don't laugh!",
+    "meaning_ar": "لا تضحك!",
+    "meaning_en": "Please don't make fun of what I say.",
+    "example": "Don't laugh! I really wanted to be a pilot."
+   },
+   {
+    "phrase": "I can believe that.",
+    "meaning_ar": "أصدّق ذلك (هذا متوقع منك).",
+    "meaning_en": "That is not surprising.",
+    "example": "\"I read every book in the library.\" \"I can believe that.\""
+   },
+   {
+    "phrase": "Guess what I wanted to be?",
+    "meaning_ar": "خمّن ماذا كنت أريد أن أصبح؟",
+    "meaning_en": "Try to guess my childhood dream.",
+    "example": "Guess what I wanted to be? A teacher!"
+   },
+   {
+    "phrase": "make our dreams come true",
+    "meaning_ar": "نحقّق أحلامنا",
+    "meaning_en": "do what we always hoped to do",
+    "example": "Hard work can help you make your dreams come true."
+   },
+   {
+    "phrase": "Good point.",
+    "meaning_ar": "معك حق / نقطة جيدة.",
+    "meaning_en": "You are right about that.",
+    "example": "\"It's raining. Take a coat.\" \"Good point.\""
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Simple past: was / were",
+    "explanation_ar": "ماضي الفعل be: was مع I / he / she / it، و were مع you / we / they. النفي: wasn't / weren't. نستخدمه لوصف الأشخاص والأشياء في الماضي: I was a tall, serious child.",
+    "explanation_en": "The past of be: was with I / he / she / it, and were with you / we / they. Negative: wasn't / weren't. Use it to describe people and things in the past.",
+    "examples": [
+     "I was a tall, serious child.",
+     "I was not like other children.",
+     "They were very busy.",
+     "Today was a busy day at work."
+    ]
+   },
+   {
+    "title": "Simple past: regular verbs with -ed",
+    "explanation_ar": "معظم الأفعال تأخذ ed في الماضي: play → played، love → loved، want → wanted. إذا انتهى الفعل بحرف ساكن + y نحوّلها إلى ied: study → studied. والفعل نفسه مع كل الضمائر. انتبه للنطق: played /d/، wanted /ɪd/، laughed /t/.",
+    "explanation_en": "Most verbs add -ed in the past: play → played, love → loved, want → wanted. Consonant + y becomes -ied: study → studied. Same form for all subjects. Pronunciation: played /d/, wanted /ɪd/, laughed /t/.",
+    "examples": [
+     "The other children played silly games.",
+     "I loved to read serious books.",
+     "I studied the stars and planets.",
+     "Lincoln visited Ford's Theatre in 1865."
+    ]
+   },
+   {
+    "title": "When + past: talking about childhood",
+    "explanation_ar": "نستخدم When I was a kid / a little girl لنتحدث عن الطفولة، ثم فعل في الماضي. ومع wanted to be + مهنة نتحدث عن أحلامنا القديمة.",
+    "explanation_en": "Use \"When I was a kid / a little girl\" + a past verb to talk about childhood. Use \"wanted to be\" + a job to talk about old dreams.",
+    "examples": [
+     "When I was a kid, I studied the stars.",
+     "I wanted to be President of the United States.",
+     "When I was young, I wanted to be an astronaut."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "When I ___ a little girl, I loved books.",
+   "choices": [
+    "were",
+    "am",
+    "was",
+    "be"
+   ],
+   "answer": 2,
+   "explanation_ar": "مع I في الماضي نستخدم was.",
+   "explanation_en": "With \"I\" in the past we use \"was\"."
+  },
+  {
+   "question": "The other children ___ silly games.",
+   "choices": [
+    "played",
+    "plaied",
+    "playing",
+    "plays"
+   ],
+   "answer": 0,
+   "explanation_ar": "نضيف ed إلى play فتصبح played.",
+   "explanation_en": "play + -ed = played."
+  },
+  {
+   "question": "What is the past of \"study\"?",
+   "choices": [
+    "studyed",
+    "studys",
+    "studed",
+    "studied"
+   ],
+   "answer": 3,
+   "explanation_ar": "حرف ساكن + y → ied.",
+   "explanation_en": "Consonant + y changes to -ied: studied."
+  },
+  {
+   "question": "When I was a kid, I ___ to be an astronaut.",
+   "choices": [
+    "want",
+    "wanted",
+    "wanting",
+    "wants"
+   ],
+   "answer": 1,
+   "explanation_ar": "نتحدث عن الطفولة في الماضي، فنستخدم wanted to be.",
+   "explanation_en": "We talk about childhood in the past, so we use \"wanted to be\"."
+  },
+  {
+   "question": "An astronaut travels into ___.",
+   "choices": [
+    "outer space",
+    "the ocean",
+    "a museum",
+    "a playground"
+   ],
+   "answer": 0,
+   "explanation_ar": "رائد الفضاء يسافر إلى الفضاء الخارجي.",
+   "explanation_en": "An astronaut travels into outer space."
+  },
+  {
+   "question": "A building where you can see important old things is a ___.",
+   "choices": [
+    "playground",
+    "park",
+    "school",
+    "museum"
+   ],
+   "answer": 3,
+   "explanation_ar": "المتحف museum مبنى نرى فيه أشياء قديمة ومهمة.",
+   "explanation_en": "A museum is a building where people see important old things."
+  },
+  {
+   "question": "Choose the opposite of \"silly\".",
+   "choices": [
+    "funny",
+    "serious",
+    "tired",
+    "busy"
+   ],
+   "answer": 1,
+   "explanation_ar": "silly عكس serious.",
+   "explanation_en": "\"Silly\" is the opposite of \"serious\"."
+  },
+  {
+   "question": "We ate lunch at an ___ market.",
+   "choices": [
+    "outdoors",
+    "outdoor",
+    "outside of",
+    "out"
+   ],
+   "answer": 1,
+   "explanation_ar": "قبل الاسم نستخدم الصفة outdoor.",
+   "explanation_en": "Before a noun we use the adjective \"outdoor\"."
+  },
+  {
+   "question": "\"That advertisement reminds me of something\" means:",
+   "choices": [
+    "It makes me remember something.",
+    "It makes me forget something.",
+    "It is very expensive.",
+    "I don't like it."
+   ],
+   "answer": 0,
+   "explanation_ar": "remind me of = يذكّرني بـ.",
+   "explanation_en": "\"Remind me of\" = make me remember."
+  },
+  {
+   "question": "Which sentence is correct?",
+   "choices": [
+    "They was very busy.",
+    "I were a serious child.",
+    "She were tired.",
+    "We were tired after work."
+   ],
+   "answer": 3,
+   "explanation_ar": "were مع we / you / they.",
+   "explanation_en": "We use \"were\" with we, you and they."
+  }
+ ]
+}

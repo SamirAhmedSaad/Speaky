@@ -1,0 +1,505 @@
+{
+ "title": "Have You Ever...?",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "tourist",
+    "pos": "noun",
+    "meaning_en": "a person who visits a place for fun",
+    "meaning_ar": "سائح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Many tourists visit the pyramids every year."
+   },
+   {
+    "word": "fly in",
+    "pos": "phrasal verb",
+    "meaning_en": "to arrive by plane",
+    "meaning_ar": "يصل بالطائرة",
+    "note_ar": "التصريفات: fly – flew – flown",
+    "note_en": "Forms: fly – flew – flown.",
+    "example": "My uncle flew in from Cairo this morning."
+   },
+   {
+    "word": "museum",
+    "pos": "noun",
+    "meaning_en": "a building where people can see art, history or science objects",
+    "meaning_ar": "متحف",
+    "note_ar": "النبرة على المقطع الثاني: mu-SE-um",
+    "note_en": "Stress the second syllable: mu-SE-um.",
+    "example": "The science museum is free on Fridays."
+   },
+   {
+    "word": "interesting",
+    "pos": "adjective",
+    "meaning_en": "making you want to know more",
+    "meaning_ar": "مثير للاهتمام",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This book is very interesting."
+   },
+   {
+    "word": "unusual",
+    "pos": "adjective",
+    "meaning_en": "not common; different from most things",
+    "meaning_ar": "غير عادي، غريب",
+    "note_ar": "un + usual = عكس usual",
+    "note_en": "un + usual: the opposite of usual.",
+    "example": "It's an unusual museum with gardens."
+   },
+   {
+    "word": "science",
+    "pos": "noun",
+    "meaning_en": "the study of nature and the physical world",
+    "meaning_ar": "علم، علوم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My sister loves science."
+   },
+   {
+    "word": "history",
+    "pos": "noun",
+    "meaning_en": "the study of past events",
+    "meaning_ar": "تاريخ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We visited the history museum."
+   },
+   {
+    "word": "culture",
+    "pos": "noun",
+    "meaning_en": "the art, ideas and way of life of a group of people",
+    "meaning_ar": "ثقافة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I want to learn about Japanese culture."
+   },
+   {
+    "word": "sculpture",
+    "pos": "noun",
+    "meaning_en": "a piece of art made from stone, metal or wood",
+    "meaning_ar": "تمثال، منحوتة",
+    "note_ar": "تُنطق /ˈskʌlp.tʃər/",
+    "note_en": "Say /ˈskʌlp.tʃər/.",
+    "example": "There is a big sculpture in the park."
+   },
+   {
+    "word": "garden",
+    "pos": "noun",
+    "meaning_en": "a piece of land with plants and flowers",
+    "meaning_ar": "حديقة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My grandmother grows vegetables in her garden."
+   },
+   {
+    "word": "artistic",
+    "pos": "adjective",
+    "meaning_en": "related to art; showing skill in art",
+    "meaning_ar": "فنّي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Her room is very artistic."
+   },
+   {
+    "word": "peaceful",
+    "pos": "adjective",
+    "meaning_en": "quiet and calm",
+    "meaning_ar": "هادئ، يبعث على السكينة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The park is peaceful in the morning."
+   },
+   {
+    "word": "suggestion",
+    "pos": "noun",
+    "meaning_en": "an idea about what someone can do",
+    "meaning_ar": "اقتراح",
+    "note_ar": "الفعل: suggest",
+    "note_en": "Verb: suggest.",
+    "example": "Do you have any suggestions for dinner?"
+   },
+   {
+    "word": "plant",
+    "pos": "noun",
+    "meaning_en": "a living thing that grows in the ground, like a tree or flower",
+    "meaning_ar": "نبات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Water the plants every day."
+   },
+   {
+    "word": "botanic garden",
+    "pos": "noun",
+    "meaning_en": "a garden where many kinds of plants are grown and studied",
+    "meaning_ar": "حديقة نباتية",
+    "note_ar": "وتُقال أيضًا botanical garden",
+    "note_en": "Also: botanical garden.",
+    "example": "We saw rare plants at the botanic garden."
+   },
+   {
+    "word": "organic",
+    "pos": "adjective",
+    "meaning_en": "natural; from living things",
+    "meaning_ar": "عضوي، طبيعي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They sell organic vegetables."
+   },
+   {
+    "word": "lucky",
+    "pos": "adjective",
+    "meaning_en": "having good things happen to you",
+    "meaning_ar": "محظوظ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You are lucky to live near the sea."
+   },
+   {
+    "word": "zoo",
+    "pos": "noun",
+    "meaning_en": "a place where people can see wild animals",
+    "meaning_ar": "حديقة حيوانات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The children saw lions at the zoo."
+   },
+   {
+    "word": "farm",
+    "pos": "noun",
+    "meaning_en": "land where people grow food and keep animals",
+    "meaning_ar": "مزرعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Anna grew up on a farm."
+   },
+   {
+    "word": "lion",
+    "pos": "noun",
+    "meaning_en": "a large wild cat",
+    "meaning_ar": "أسد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The lion is sleeping in the sun."
+   },
+   {
+    "word": "elephant",
+    "pos": "noun",
+    "meaning_en": "a very large gray animal with a long nose (trunk)",
+    "meaning_ar": "فيل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Elephants are very big and strong."
+   },
+   {
+    "word": "zebra",
+    "pos": "noun",
+    "meaning_en": "an African animal like a horse with black and white stripes",
+    "meaning_ar": "حمار وحشي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "A zebra has black and white stripes."
+   },
+   {
+    "word": "majestic",
+    "pos": "adjective",
+    "meaning_en": "very beautiful and impressive",
+    "meaning_ar": "مهيب، رائع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The mountains look majestic."
+   },
+   {
+    "word": "list",
+    "pos": "noun",
+    "meaning_en": "words or names written one under another",
+    "meaning_ar": "قائمة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll write that on my list."
+   },
+   {
+    "word": "must-see",
+    "pos": "adjective",
+    "meaning_en": "so good that you should see it",
+    "meaning_ar": "يجب رؤيته",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The old city is a must-see place."
+   },
+   {
+    "word": "awesome",
+    "pos": "adjective",
+    "meaning_en": "very good (informal)",
+    "meaning_ar": "رائع (عامية)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This has been awesome!"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "ever vs never",
+    "words": [
+     "ever",
+     "never"
+    ],
+    "explanation_ar": "ever تعني «في أي وقت من حياتك» وتأتي غالبًا في السؤال: Have you ever seen a zebra? أما never فتعني «أبدًا، ولا مرة» وتأتي في الجملة المنفية بدون not: I have never been to a zoo. لا تقل: I haven't never.",
+    "explanation_en": "\"Ever\" means \"at any time in your life\" and is mostly used in questions: Have you ever seen a zebra? \"Never\" means \"not at any time\" and makes the sentence negative without \"not\": I have never been to a zoo. Don't say \"I haven't never\".",
+    "examples": [
+     {
+      "word": "ever",
+      "sentence": "Have you ever been to a museum?"
+     },
+     {
+      "word": "never",
+      "sentence": "I have never seen an elephant."
+     },
+     {
+      "word": "never",
+      "sentence": "She has never flown in a plane."
+     }
+    ]
+   },
+   {
+    "title": "been to vs gone to",
+    "words": [
+     "been to",
+     "gone to"
+    ],
+    "explanation_ar": "have been to = ذهبت وعُدت (زيارة في حياتي). has gone to = ذهب وما زال هناك.",
+    "explanation_en": "\"Have been to\" = you visited and came back. \"Has gone to\" = the person went and is still there.",
+    "examples": [
+     {
+      "word": "been to",
+      "sentence": "I have been to the zoo three times."
+     },
+     {
+      "word": "gone to",
+      "sentence": "Pete isn't here. He has gone to the store."
+     }
+    ]
+   },
+   {
+    "title": "for vs since (with present perfect)",
+    "words": [
+     "for",
+     "since"
+    ],
+    "explanation_ar": "for + مدة زمنية (for a year, for a long time). since + بداية الزمن (since 2015, since Monday).",
+    "explanation_en": "Use \"for\" with a period of time (for a year, for a long time). Use \"since\" with the starting point (since 2015, since Monday).",
+    "examples": [
+     {
+      "word": "for",
+      "sentence": "I have lived here for over a year."
+     },
+     {
+      "word": "since",
+      "sentence": "I have lived here since last May."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Have we met before?",
+    "meaning_ar": "هل التقينا من قبل؟",
+    "meaning_en": "Do I know you from another time?",
+    "example": "Excuse me, have we met before?"
+   },
+   {
+    "phrase": "I've just flown in from Boston.",
+    "meaning_ar": "وصلتُ للتو بالطائرة من بوسطن.",
+    "meaning_en": "I have arrived by plane a short time ago",
+    "example": "I've just flown in from Dubai."
+   },
+   {
+    "phrase": "How can I help?",
+    "meaning_ar": "كيف يمكنني المساعدة؟",
+    "meaning_en": "a polite offer of help",
+    "example": "Hello! How can I help?"
+   },
+   {
+    "phrase": "Have you ever seen …?",
+    "meaning_ar": "هل سبق أن رأيت…؟",
+    "meaning_en": "asking if someone saw something at any time in their life",
+    "example": "Have you ever seen the sea?"
+   },
+   {
+    "phrase": "Have you been to …?",
+    "meaning_ar": "هل زرت…؟",
+    "meaning_en": "asking if someone visited a place",
+    "example": "Have you been to the new library?"
+   },
+   {
+    "phrase": "Do you have any other suggestions?",
+    "meaning_ar": "هل لديك اقتراحات أخرى؟",
+    "meaning_en": "asking for more ideas",
+    "example": "These are good places. Do you have any other suggestions?"
+   },
+   {
+    "phrase": "I'll write that on my list!",
+    "meaning_ar": "سأكتب ذلك في قائمتي!",
+    "meaning_en": "I will remember to do that",
+    "example": "A boat trip? I'll write that on my list!"
+   },
+   {
+    "phrase": "I grew up on a farm.",
+    "meaning_ar": "نشأتُ في مزرعة.",
+    "meaning_en": "I lived on a farm when I was a child",
+    "example": "My father grew up on a farm."
+   },
+   {
+    "phrase": "Have fun at the zoo!",
+    "meaning_ar": "استمتع في حديقة الحيوان!",
+    "meaning_en": "enjoy your time at the zoo",
+    "example": "Have fun at the museum!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Present perfect with ever and never",
+    "explanation_ar": "المضارع التام = have/has + التصريف الثالث (past participle). نستخدمه للحديث عن تجارب في حياتنا دون ذكر وقت محدد.\n• السؤال: Have you ever + p.p.? → Have you ever seen sculptures in a garden?\n• الإجابة بالإثبات: Yes, I have. I've visited that museum many times.\n• النفي بـ never: I have never seen a garden of sculptures. I've never been to any zoos!\nأفعال الدرس: live → lived, see → seen, fly → flown, be → been, know → known, write → written.",
+    "explanation_en": "Present perfect = have/has + past participle. We use it to talk about experiences in our life, without a specific time.\n• Question: Have you ever + past participle? → Have you ever seen sculptures in a garden?\n• Yes: Yes, I have. I've visited that museum many times.\n• Negative with never: I have never seen a garden of sculptures. I've never been to any zoos!\nVerbs from the lesson: live → lived, see → seen, fly → flown, be → been, know → known, write → written.",
+    "examples": [
+     "Have you ever seen a real elephant?",
+     "I have never been to D.C.'s zoo.",
+     "I've visited that museum many times.",
+     "Jean has always liked American Indian culture."
+    ]
+   },
+   {
+    "title": "Present perfect for life until now: for, always",
+    "explanation_ar": "نستخدم المضارع التام أيضًا لشيء بدأ في الماضي وما زال مستمرًا: I have lived in Washington for a long time. ومع always: I have always loved plants (منذ زمن وحتى الآن).",
+    "explanation_en": "We also use the present perfect for something that started in the past and is still true: I have lived in Washington for a long time. With \"always\": I have always loved plants (from the past until now).",
+    "examples": [
+     "I have lived here for over a year.",
+     "I have always loved plants.",
+     "I've known farm animals my whole life."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Complete: \"Have you ___ seen sculptures in a garden?\"",
+   "choices": [
+    "never",
+    "ever",
+    "yet",
+    "since"
+   ],
+   "answer": 1,
+   "explanation_ar": "في سؤال التجربة نستخدم ever: Have you ever …?",
+   "explanation_en": "In questions about experience we use \"ever\": Have you ever …?"
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I have never been to a zoo.",
+    "I haven't never been to a zoo.",
+    "I never have be to a zoo.",
+    "I have never went to a zoo."
+   ],
+   "answer": 0,
+   "explanation_ar": "never تكفي للنفي، والتصريف الثالث لـ be هو been.",
+   "explanation_en": "\"Never\" already makes it negative, and the past participle of \"be\" is \"been\"."
+  },
+  {
+   "question": "What is the past participle of \"fly\"?",
+   "choices": [
+    "flied",
+    "flew",
+    "flown",
+    "flying"
+   ],
+   "answer": 2,
+   "explanation_ar": "تصريفات الفعل: fly – flew – flown.",
+   "explanation_en": "fly – flew – flown."
+  },
+  {
+   "question": "Complete: \"I have lived here ___ over a year.\"",
+   "choices": [
+    "since",
+    "ago",
+    "at",
+    "for"
+   ],
+   "answer": 3,
+   "explanation_ar": "for مع المدة الزمنية: for over a year.",
+   "explanation_en": "Use \"for\" with a period of time."
+  },
+  {
+   "question": "A place where you can see lions and elephants is a …",
+   "choices": [
+    "zoo",
+    "museum",
+    "farm",
+    "garden"
+   ],
+   "answer": 0,
+   "explanation_ar": "zoo هي حديقة الحيوانات.",
+   "explanation_en": "A zoo is where you see wild animals."
+  },
+  {
+   "question": "\"Have you ever seen a zebra?\" — \"No, I ___.\"",
+   "choices": [
+    "didn't",
+    "haven't",
+    "don't",
+    "wasn't"
+   ],
+   "answer": 1,
+   "explanation_ar": "الإجابة القصيرة على Have you…? هي Yes, I have / No, I haven't.",
+   "explanation_en": "The short answer to \"Have you …?\" is \"Yes, I have\" or \"No, I haven't\"."
+  },
+  {
+   "question": "What does \"majestic\" mean?",
+   "choices": [
+    "very small and funny",
+    "very old and broken",
+    "very beautiful and impressive",
+    "very loud and fast"
+   ],
+   "answer": 2,
+   "explanation_ar": "majestic تعني مهيب ورائع.",
+   "explanation_en": "\"Majestic\" means very beautiful and impressive."
+  },
+  {
+   "question": "Pete went to Boston yesterday and he is still there. Pete ___ to Boston.",
+   "choices": [
+    "has been",
+    "is been",
+    "have gone",
+    "has gone"
+   ],
+   "answer": 3,
+   "explanation_ar": "has gone to = ذهب وما زال هناك.",
+   "explanation_en": "\"Has gone to\" means he went and is still there."
+  },
+  {
+   "question": "\"Do you have any other ___?\" (= ideas for what to do)",
+   "choices": [
+    "suggestions",
+    "sculptures",
+    "tourists",
+    "plants"
+   ],
+   "answer": 0,
+   "explanation_ar": "suggestions = اقتراحات.",
+   "explanation_en": "Suggestions are ideas about what someone can do."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "She have always loved plants.",
+    "She has always love plants.",
+    "She has always loved plants.",
+    "She always has loving plants."
+   ],
+   "answer": 2,
+   "explanation_ar": "مع she نستخدم has + التصريف الثالث loved.",
+   "explanation_en": "With \"she\" use has + past participle: has loved."
+  }
+ ]
+}

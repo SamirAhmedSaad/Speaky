@@ -1,0 +1,55 @@
+{
+  "title": "Greatest Vacation of All Time",
+  "content": {
+    "vocabulary": [
+      {"word": "vacation", "pos": "noun", "meaning_en": "time away from work or school for rest or travel", "meaning_ar": "إجازة / عطلة", "note_ar": "في بريطانيا: holiday", "note_en": "UK: holiday.", "example": "We need a vacation."},
+      {"word": "travel agency", "pos": "noun", "meaning_en": "a business that plans and sells trips", "meaning_ar": "وكالة سفر", "note_ar": "travel agent = موظف وكالة السفر", "note_en": "travel agent = the person", "example": "I booked my trip at a travel agency."},
+      {"word": "congratulations", "pos": "interjection", "meaning_en": "words you say when someone does something good", "meaning_ar": "تهانينا / مبروك", "note_ar": "", "note_en": "", "example": "Congratulations on your new job!"},
+      {"word": "expensive", "pos": "adjective", "meaning_en": "costing a lot of money", "meaning_ar": "غالٍ", "note_ar": "more expensive / the most expensive", "note_en": "more expensive, the most expensive", "example": "This hotel is very expensive."},
+      {"word": "pricey", "pos": "adjective", "meaning_en": "expensive (informal)", "meaning_ar": "غالي الثمن (كلمة غير رسمية)", "note_ar": "pricier / the priciest", "note_en": "pricier, the priciest", "example": "That restaurant is a little pricey."},
+      {"word": "getaway", "pos": "noun", "meaning_en": "a short vacation away from home", "meaning_ar": "رحلة استجمام قصيرة", "note_ar": "", "note_en": "", "example": "We planned a weekend getaway."},
+      {"word": "adventure", "pos": "noun", "meaning_en": "an exciting and unusual experience", "meaning_ar": "مغامرة", "note_ar": "", "note_en": "", "example": "Camping in the desert was an adventure."},
+      {"word": "shark", "pos": "noun", "meaning_en": "a large sea fish with sharp teeth", "meaning_ar": "سمك القرش", "note_ar": "", "note_en": "", "example": "Sharks live in the ocean."},
+      {"word": "safari", "pos": "noun", "meaning_en": "a trip to see wild animals, often in Africa", "meaning_ar": "رحلة سفاري", "note_ar": "", "note_en": "", "example": "On safari, we saw lions and giraffes."},
+      {"word": "the latest", "pos": "adjective", "meaning_en": "the newest", "meaning_ar": "الأحدث", "note_ar": "", "note_en": "", "example": "This is the latest phone."},
+      {"word": "technology", "pos": "noun", "meaning_en": "machines and tools made with science", "meaning_ar": "تقنية / تكنولوجيا", "note_ar": "", "note_en": "", "example": "New technology makes life easier."},
+      {"word": "cozy", "pos": "adjective", "meaning_en": "warm, small and comfortable", "meaning_ar": "دافئ ومريح", "note_ar": "في بريطانيا: cosy", "note_en": "UK spelling: cosy.", "example": "The small room was cozy."},
+      {"word": "exciting", "pos": "adjective", "meaning_en": "making you feel happy and full of energy", "meaning_ar": "مثير / ممتع", "note_ar": "", "note_en": "", "example": "The trip was exciting."},
+      {"word": "scary", "pos": "adjective", "meaning_en": "making you feel afraid", "meaning_ar": "مخيف", "note_ar": "scarier / the scariest", "note_en": "scarier, the scariest", "example": "Helicopters are scarier than planes."},
+      {"word": "afraid of", "pos": "adjective", "meaning_en": "feeling fear about something", "meaning_ar": "خائف من", "note_ar": "", "note_en": "", "example": "Anna is afraid of high places."},
+      {"word": "slow", "pos": "adjective", "meaning_en": "not fast", "meaning_ar": "بطيء", "note_ar": "slower / the slowest", "note_en": "slower, the slowest", "example": "Biking is the slowest way to travel."},
+      {"word": "on fire", "pos": "phrase", "meaning_en": "burning", "meaning_ar": "يحترق / مشتعل", "note_ar": "", "note_en": "", "example": "Call for help! The machine is on fire!"},
+      {"word": "deserve", "pos": "verb", "meaning_en": "to earn something because of what you did", "meaning_ar": "يستحق", "note_ar": "", "note_en": "", "example": "You worked hard. You deserve a rest."},
+      {"word": "helicopter", "pos": "noun", "meaning_en": "an aircraft with long blades on top", "meaning_ar": "مروحية / هليكوبتر", "note_ar": "", "note_en": "", "example": "The helicopter landed on the roof."},
+      {"word": "camel", "pos": "noun", "meaning_en": "a large desert animal with a hump", "meaning_ar": "جمل", "note_ar": "", "note_en": "", "example": "I rode a camel in the desert."}
+    ],
+    "fine_lines": [
+      {"title": "-er/-est vs more/most", "words": ["pricier", "more expensive"], "explanation_ar": "الصفات القصيرة (مقطع واحد، أو مقطعان تنتهي بـ y) تأخذ -er و-est: slow → slower → slowest، pricey → pricier → priciest. الصفات الطويلة تأخذ more و most: expensive → more expensive → the most expensive.", "explanation_en": "Short adjectives (one syllable, or two ending in y) add -er/-est: slow, slower, slowest; pricey, pricier, priciest. Long adjectives use more/most: more expensive, the most expensive.", "examples": [{"word": "pricier", "sentence": "The sea trip is pricier than the mountain trip."}, {"word": "more expensive", "sentence": "A plane ticket is more expensive than a bus ticket."}]},
+      {"title": "good / better / best", "words": ["good", "better", "best"], "explanation_ar": "صفات غير قياسية: good → better (للمقارنة بين شيئين) → the best (الأفضل بين الكل). ومثلها bad → worse → the worst.", "explanation_en": "Irregular: good → better (two things) → the best (all things). Also bad → worse → the worst.", "examples": [{"word": "better", "sentence": "A beach is better than an office."}, {"word": "best", "sentence": "This is the best vacation ever."}]}
+    ],
+    "expressions": [
+      {"phrase": "I need a vacation!", "meaning_ar": "أحتاج إلى إجازة!", "meaning_en": "I am tired and need a rest.", "example": "So much work! I need a vacation!"},
+      {"phrase": "Have a seat.", "meaning_ar": "تفضّل بالجلوس.", "meaning_en": "Please sit down.", "example": "Hello, have a seat. I'll be with you soon."},
+      {"phrase": "Hold my calls.", "meaning_ar": "لا تحوّل لي المكالمات الآن.", "meaning_en": "Don't connect phone calls to me for now.", "example": "I'm in a meeting. Please hold my calls."},
+      {"phrase": "Sure thing.", "meaning_ar": "بالتأكيد.", "meaning_en": "Of course; yes.", "example": "Can you help me? Sure thing."},
+      {"phrase": "I'm afraid of high places.", "meaning_ar": "أخاف من الأماكن المرتفعة.", "meaning_en": "High places make me feel fear.", "example": "I won't climb the tower. I'm afraid of high places."},
+      {"phrase": "Tell me more.", "meaning_ar": "أخبرني المزيد.", "meaning_en": "Please give more details.", "example": "That's interesting. Tell me more."},
+      {"phrase": "You deserve it.", "meaning_ar": "أنت تستحق ذلك.", "meaning_en": "You earned this.", "example": "You got the prize? You deserve it!"}
+    ],
+    "grammar": [
+      {"title": "Comparative and superlative adjectives", "explanation_ar": "الصفة المقارنة (comparative) نقارن بها بين شيئين، وتأتي بعدها than: Planes are scarier than trains. صفة التفضيل (superlative) تعني أن شيئًا واحدًا هو الأكثر بين الكل، وقبلها the: the scariest. القواعد: صفة قصيرة + er/est (slow → slower → the slowest). صفة تنتهي بـ y: نحوّل y إلى i (pricey → pricier → the priciest). صفة طويلة: more/the most (more comfortable, the most expensive). وهناك صفات شاذة: good → better → best، bad → worse → worst.", "explanation_en": "Comparatives compare two things and use than: Helicopters are scarier than planes. Superlatives show one thing is the most of all and use the: the scariest. Short adjectives: -er/-est. Ending in y: change y to i (pricier, priciest). Long adjectives: more/most. Irregular: good-better-best, bad-worse-worst.", "examples": ["A beach is much better than here.", "The Deep Sea Adventure is pricier than the Mountain Getaway.", "The Safari Camp Out is our priciest vacation.", "Biking is the slowest and least comfortable way to travel."]}
+    ]
+  },
+  "questions": [
+    {"question": "Helicopters are ____ than planes.", "choices": ["scary", "scarier", "scariest", "most scary"], "answer": 1, "explanation_ar": "للمقارنة بين شيئين نستخدم scarier + than.", "explanation_en": "Comparing two things: scarier than."},
+    {"question": "This is the ____ vacation of all time!", "choices": ["good", "better", "best", "goodest"], "answer": 2, "explanation_ar": "صفة التفضيل من good هي the best.", "explanation_en": "The superlative of good is the best."},
+    {"question": "The superlative of 'expensive' is:", "choices": ["the expensivest", "the more expensive", "expensiver", "the most expensive"], "answer": 3, "explanation_ar": "الصفة الطويلة تأخذ the most.", "explanation_en": "Long adjectives use the most."},
+    {"question": "The comparative of 'pricey' is:", "choices": ["pricier", "pricyer", "pricer", "priciest"], "answer": 0, "explanation_ar": "نحوّل y إلى i ونضيف er: pricier.", "explanation_en": "Change y to i and add -er: pricier."},
+    {"question": "The opposite of 'better' is:", "choices": ["bad", "worse", "worst", "good"], "answer": 1, "explanation_ar": "bad → worse → worst. فـ worse عكس better.", "explanation_en": "bad - worse - worst. Worse is the opposite of better."},
+    {"question": "'Cozy' means:", "choices": ["warm and comfortable", "cold and big", "fast and loud", "dangerous"], "answer": 0, "explanation_ar": "cozy = دافئ ومريح.", "explanation_en": "Cozy means warm and comfortable."},
+    {"question": "A trip to see wild animals like lions is a ____.", "choices": ["getaway", "shark", "camel", "safari"], "answer": 3, "explanation_ar": "safari رحلة لمشاهدة الحيوانات البرية.", "explanation_en": "A safari is a trip to see wild animals."},
+    {"question": "Choose the correct sentence.", "choices": ["Biking is the slowest way to travel.", "Biking is the most slow way to travel.", "Biking is slowest than walking.", "Biking is the slower way of all."], "answer": 0, "explanation_ar": "slow صفة قصيرة: the slowest.", "explanation_en": "Slow is short: the slowest."},
+    {"question": "'Hold my calls' means:", "choices": ["Answer the phone.", "Call me later.", "Don't connect calls to me now.", "Give me your phone."], "answer": 2, "explanation_ar": "أي لا تحوّل لي أي مكالمة الآن.", "explanation_en": "It means don't put any phone calls through to me now."},
+    {"question": "You worked very hard. You ____ a rest.", "choices": ["deserve", "admit", "afraid", "travel"], "answer": 0, "explanation_ar": "deserve = يستحق.", "explanation_en": "Deserve means you earned it."}
+  ]
+}

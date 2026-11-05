@@ -1,0 +1,440 @@
+{
+  "title": "Booking a Venue",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "venue",
+        "pos": "noun",
+        "meaning_en": "the place where an event, meeting or party happens",
+        "meaning_ar": "مكان إقامة الفعالية",
+        "note_ar": "تُنطق /ˈvenjuː/.",
+        "note_en": "Say /ˈvenjuː/.",
+        "example": "The hotel is a good venue for our conference."
+      },
+      {
+        "word": "availability",
+        "pos": "noun",
+        "meaning_en": "whether something is free to use or book",
+        "meaning_ar": "التوفّر؛ إمكانية الحجز",
+        "note_ar": "الصفة available: متاح.",
+        "note_en": "Adjective: available.",
+        "example": "Could I check availability for next Tuesday?"
+      },
+      {
+        "word": "book",
+        "pos": "verb",
+        "meaning_en": "to arrange to use a room, seat or service at a future time",
+        "meaning_ar": "يحجز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I booked a meeting room for 10 o'clock."
+      },
+      {
+        "word": "business facilities",
+        "pos": "noun",
+        "meaning_en": "equipment for work, such as Wi-Fi, a projector or a printer",
+        "meaning_ar": "التجهيزات الخاصة بالأعمال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The hotel has excellent business facilities."
+      },
+      {
+        "word": "conference room",
+        "pos": "noun",
+        "meaning_en": "a large room for meetings",
+        "meaning_ar": "قاعة المؤتمرات / قاعة الاجتماعات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The conference room can hold fifty people."
+      },
+      {
+        "word": "hold",
+        "pos": "verb",
+        "meaning_en": "to have space for a number of people",
+        "meaning_ar": "يتّسع لـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How many people can this room hold?"
+      },
+      {
+        "word": "hospitality",
+        "pos": "noun",
+        "meaning_en": "food and drink given to guests at an event",
+        "meaning_ar": "الضيافة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hospitality includes tea, coffee and sandwiches."
+      },
+      {
+        "word": "projector",
+        "pos": "noun",
+        "meaning_en": "a machine that shows pictures or slides on a wall or screen",
+        "meaning_ar": "جهاز العرض (البروجكتور)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please connect your laptop to the projector."
+      },
+      {
+        "word": "plug in",
+        "pos": "phrasal verb",
+        "meaning_en": "to connect a machine to the electricity or another machine",
+        "meaning_ar": "يوصّل (جهازًا بالكهرباء)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is there somewhere to plug in my laptop?"
+      },
+      {
+        "word": "at short notice",
+        "pos": "phrase",
+        "meaning_en": "with very little time to prepare",
+        "meaning_ar": "في وقت قصير؛ دون إشعار مسبق كافٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's hard to find a venue at short notice."
+      },
+      {
+        "word": "recommendation",
+        "pos": "noun",
+        "meaning_en": "advice about what is good to choose",
+        "meaning_ar": "توصية؛ ترشيح",
+        "note_ar": "الفعل recommend.",
+        "note_en": "Verb: recommend.",
+        "example": "Do you have any recommendations for a good hotel?"
+      },
+      {
+        "word": "invitation",
+        "pos": "noun",
+        "meaning_en": "a letter or message that asks someone to come to an event",
+        "meaning_ar": "دعوة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We sent invitations to all our clients."
+      },
+      {
+        "word": "invoice",
+        "pos": "noun",
+        "meaning_en": "a document that shows how much money you must pay",
+        "meaning_ar": "فاتورة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please send us an invoice and we'll pay this week."
+      },
+      {
+        "word": "throw in",
+        "pos": "phrasal verb",
+        "meaning_en": "to add something extra for free",
+        "meaning_ar": "يضيف شيئًا مجانًا (هدية مع الصفقة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you book the room, we'll throw in free coffee."
+      },
+      {
+        "word": "have your work cut out",
+        "pos": "idiom",
+        "meaning_en": "to have a very difficult job to do",
+        "meaning_ar": "أمامه مهمة صعبة جدًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "With only two days left, we have our work cut out."
+      },
+      {
+        "word": "turn something round",
+        "pos": "phrase",
+        "meaning_en": "to finish a piece of work quickly",
+        "meaning_ar": "ينجز (عملًا) بسرعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you turn this report round by Friday?"
+      },
+      {
+        "word": "give it a go",
+        "pos": "phrase",
+        "meaning_en": "to try something",
+        "meaning_ar": "يجرّب؛ يحاول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've never organised a launch, but I'll give it a go."
+      },
+      {
+        "word": "go down well",
+        "pos": "phrase",
+        "meaning_en": "to be liked by people",
+        "meaning_ar": "يلقى استحسانًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new menu went down well with our guests."
+      },
+      {
+        "word": "squeeze in",
+        "pos": "phrasal verb",
+        "meaning_en": "to fit people or things into a small space or time",
+        "meaning_ar": "يحشر؛ يُدخل بصعوبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can squeeze in two more chairs."
+      },
+      {
+        "word": "deal",
+        "pos": "noun",
+        "meaning_en": "a business agreement, often with a good price",
+        "meaning_ar": "صفقة؛ عرض جيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She gave us a good deal on the room."
+      },
+      {
+        "word": "payment",
+        "pos": "noun",
+        "meaning_en": "money that is paid",
+        "meaning_ar": "دفعة؛ سداد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll sort out payment as soon as possible."
+      },
+      {
+        "word": "decorate",
+        "pos": "verb",
+        "meaning_en": "to paint a room or make it look nice",
+        "meaning_ar": "يزيّن؛ يطلي (غرفة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The conference room is being decorated this week."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "invite vs invitation",
+        "words": [
+          "invite",
+          "invitation"
+        ],
+        "explanation_ar": "invite فعل معناه «يدعو»، وinvitation اسم معناه «دعوة». في الكلام غير الرسمي يستخدم الناس invite اسمًا أيضًا، لكن في العمل الأفضل invitation.",
+        "explanation_en": "Invite is the verb; invitation is the noun. In casual speech people say 'an invite', but in business writing use 'invitation'.",
+        "examples": [
+          {
+            "word": "invite",
+            "sentence": "We will invite all our clients."
+          },
+          {
+            "word": "invitation",
+            "sentence": "Did you receive the invitation to the launch?"
+          }
+        ]
+      },
+      {
+        "title": "throw vs throw in",
+        "words": [
+          "throw",
+          "throw in"
+        ],
+        "explanation_ar": "throw وحدها تعني «يرمي» شيئًا بيده. أما throw in في سياق البيع فتعني «يضيف شيئًا مجانًا». لذلك أخطأت آنا في الحلقة حين ظنّت أن الطعام سيُرمى!",
+        "explanation_en": "Throw means to send something through the air with your hand. Throw in (in business) means add something extra for free. Anna thought the food would be thrown - a funny mistake!",
+        "examples": [
+          {
+            "word": "throw",
+            "sentence": "Please don't throw the ball in the office."
+          },
+          {
+            "word": "throw in",
+            "sentence": "If you buy two, we'll throw in a third one free."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Could I check availability for your venue, please?",
+        "meaning_ar": "هل يمكنني الاستفسار عن توفّر القاعة لديكم من فضلك؟",
+        "meaning_en": "Is your venue free on the date I need?",
+        "example": "Could I check availability for your venue on the 3rd of May, please?"
+      },
+      {
+        "phrase": "What business facilities do you have?",
+        "meaning_ar": "ما التجهيزات الخاصة بالأعمال المتوفرة لديكم؟",
+        "meaning_en": "What equipment for work does the venue have?",
+        "example": "What business facilities do you have? We need Wi-Fi and a projector."
+      },
+      {
+        "phrase": "How many people can the room hold?",
+        "meaning_ar": "كم شخصًا تتّسع القاعة؟",
+        "meaning_en": "What is the room's capacity?",
+        "example": "How many people can the room hold? We're expecting forty guests."
+      },
+      {
+        "phrase": "Can you provide hospitality?",
+        "meaning_ar": "هل يمكنكم تقديم الضيافة؟",
+        "meaning_en": "Can you give our guests food and drink?",
+        "example": "Can you provide hospitality, such as tea and sandwiches?"
+      },
+      {
+        "phrase": "How much does it cost?",
+        "meaning_ar": "كم التكلفة؟",
+        "meaning_en": "What is the price?",
+        "example": "How much does it cost to book the room for two hours?"
+      },
+      {
+        "phrase": "If you can send us an invoice, we'll sort payment out as soon as possible.",
+        "meaning_ar": "إذا أرسلتم لنا فاتورة فسنسدّد المبلغ في أقرب وقت ممكن.",
+        "meaning_en": "Send the bill and we will pay quickly.",
+        "example": "Thank you. If you can send us an invoice, we'll sort payment out as soon as possible."
+      },
+      {
+        "phrase": "If I can help in any way, just let me know.",
+        "meaning_ar": "إن كان بإمكاني المساعدة بأي شكل، فأخبرني فقط.",
+        "meaning_en": "A friendly offer of help.",
+        "example": "That sounds like a lot of work. If I can help in any way, just let me know."
+      },
+      {
+        "phrase": "I'll give it a go.",
+        "meaning_ar": "سأجرّب / سأحاول.",
+        "meaning_en": "I will try.",
+        "example": "I'm not sure I can finish by Friday, but I'll give it a go."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Asking for information politely: Could I…? / Can you…? / How many…? / How much…?",
+        "explanation_ar": "عند الاتصال لحجز مكان نسأل بأسئلة واضحة: Could I + فعل (أكثر تهذيبًا)، Can you + فعل، How many + اسم جمع + can…، How much does it cost? لاحظ أن الفعل يبقى في المصدر بعد can/could، ونستخدم does مع it في المضارع.",
+        "explanation_en": "To ask about a venue, use clear questions: Could I + verb (very polite), Can you + verb, How many + plural noun + can..., How much does it cost? After can/could use the base verb; use 'does' with 'it' in the present simple.",
+        "examples": [
+          "Could I check availability for Friday?",
+          "Can you provide lunch for twenty people?",
+          "How many people can the hall hold?",
+          "How much does it cost per day?"
+        ]
+      },
+      {
+        "title": "First conditional for arrangements: If you…, we'll…",
+        "explanation_ar": "لنعرض أو نتفق على خطوة مستقبلية نستخدم الشرط الأول: If + مضارع بسيط، will + فعل. مثال: If you send an invoice, we'll pay.",
+        "explanation_en": "To agree on a future action, use the first conditional: If + present simple, will + verb.",
+        "examples": [
+          "If you send us an invoice, we'll pay this week.",
+          "If you book today, we'll throw in free coffee.",
+          "If the room is free, we'll take it."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is a 'venue'?",
+      "choices": [
+        "a place where an event happens",
+        "a type of invoice",
+        "a meeting agenda",
+        "a kind of food"
+      ],
+      "answer": 0,
+      "explanation_ar": "venue هو المكان الذي تُقام فيه الفعالية.",
+      "explanation_en": "A venue is the place where an event takes place."
+    },
+    {
+      "question": "How many people can the room ___?",
+      "choices": [
+        "keep",
+        "hold",
+        "carry",
+        "take on"
+      ],
+      "answer": 1,
+      "explanation_ar": "hold هنا تعني «يتّسع لـ».",
+      "explanation_en": "'Hold' means have space for."
+    },
+    {
+      "question": "'Hospitality' at an event means…",
+      "choices": [
+        "the hotel staff",
+        "the price of the room",
+        "food and drink for guests",
+        "the projector and Wi-Fi"
+      ],
+      "answer": 2,
+      "explanation_ar": "hospitality تعني الضيافة من طعام وشراب.",
+      "explanation_en": "Hospitality is food and drink for guests."
+    },
+    {
+      "question": "Marge says she will 'throw in' the food. She means she will…",
+      "choices": [
+        "throw the food away",
+        "sell the food at a high price",
+        "cook the food herself",
+        "give the food for free"
+      ],
+      "answer": 3,
+      "explanation_ar": "throw in تعني إضافة الشيء مجانًا.",
+      "explanation_en": "'Throw in' means add it for free."
+    },
+    {
+      "question": "Which question is correct?",
+      "choices": [
+        "How much does it cost?",
+        "How much it costs?",
+        "How much does it costs?",
+        "How much is it cost?"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع does يبقى الفعل في المصدر: does it cost.",
+      "explanation_en": "After 'does', use the base verb: 'does it cost'."
+    },
+    {
+      "question": "'At short notice' means…",
+      "choices": [
+        "with a long time to plan",
+        "with very little time to prepare",
+        "with a small note",
+        "very cheaply"
+      ],
+      "answer": 1,
+      "explanation_ar": "at short notice أي في وقت قصير دون استعداد كافٍ.",
+      "explanation_en": "At short notice = with little time to prepare."
+    },
+    {
+      "question": "If you send us an invoice, we ___ payment out quickly.",
+      "choices": [
+        "sorted",
+        "sorting",
+        "'ll sort",
+        "sorts"
+      ],
+      "answer": 2,
+      "explanation_ar": "الشرط الأول: If + مضارع، will + فعل.",
+      "explanation_en": "First conditional: If + present, will + verb."
+    },
+    {
+      "question": "Wi-Fi, a projector and a place to plug in your laptop are…",
+      "choices": [
+        "hospitality",
+        "invitations",
+        "invoices",
+        "business facilities"
+      ],
+      "answer": 3,
+      "explanation_ar": "هذه تجهيزات الأعمال business facilities.",
+      "explanation_en": "These are business facilities."
+    },
+    {
+      "question": "'You have your work cut out' means…",
+      "choices": [
+        "you have a difficult job to do",
+        "you have lost your job",
+        "your work is finished",
+        "you cut paper at work"
+      ],
+      "answer": 0,
+      "explanation_ar": "have your work cut out تعني أن أمامك مهمة صعبة.",
+      "explanation_en": "It means you have a difficult job to do."
+    },
+    {
+      "question": "Which word is the noun?",
+      "choices": [
+        "invite (verb)",
+        "invitation",
+        "invited",
+        "inviting"
+      ],
+      "answer": 1,
+      "explanation_ar": "invitation هو الاسم، وinvite هو الفعل.",
+      "explanation_en": "'Invitation' is the noun."
+    }
+  ]
+}

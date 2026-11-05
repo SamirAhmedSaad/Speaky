@@ -1,0 +1,284 @@
+{
+  "title": "I need a ruler",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "need",
+        "pos": "verb",
+        "meaning_en": "must have something",
+        "meaning_ar": "يحتاج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need a ruler."
+      },
+      {
+        "word": "ruler",
+        "pos": "noun",
+        "meaning_en": "a flat stick for drawing straight lines and measuring",
+        "meaning_ar": "مسطرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need a ruler."
+      },
+      {
+        "word": "book",
+        "pos": "noun",
+        "meaning_en": "pages with words, for reading",
+        "meaning_ar": "كتاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my English book."
+      },
+      {
+        "word": "notebook",
+        "pos": "noun",
+        "meaning_en": "a book with empty pages for writing",
+        "meaning_ar": "دفتر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Write in your notebook."
+      },
+      {
+        "word": "crayon",
+        "pos": "noun",
+        "meaning_en": "a stick of colored wax for drawing",
+        "meaning_ar": "قلم تلوين شمعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I draw with a red crayon."
+      },
+      {
+        "word": "marker",
+        "pos": "noun",
+        "meaning_en": "a thick colored pen",
+        "meaning_ar": "قلم ماركر / قلم تخطيط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need a marker."
+      },
+      {
+        "word": "ready",
+        "pos": "adjective",
+        "meaning_en": "prepared to go",
+        "meaning_ar": "جاهز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm ready."
+      },
+      {
+        "word": "let's go",
+        "pos": "phrase",
+        "meaning_en": "we go now together",
+        "meaning_ar": "هيا بنا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "OK. Let's go."
+      },
+      {
+        "word": "hurry up",
+        "pos": "phrasal verb",
+        "meaning_en": "be quick",
+        "meaning_ar": "أسرِع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hurry up. It's late."
+      },
+      {
+        "word": "come on",
+        "pos": "phrase",
+        "meaning_en": "said to make someone hurry",
+        "meaning_ar": "هيا!",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Come on! Let's go."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "book vs notebook",
+        "words": [
+          "book",
+          "notebook"
+        ],
+        "explanation_ar": "book كتاب فيه كلام نقرؤه، و notebook دفتر صفحاته فارغة نكتب فيها.",
+        "explanation_en": "A book has words to read. A notebook has empty pages to write in.",
+        "examples": [
+          {
+            "word": "book",
+            "sentence": "I read my book."
+          },
+          {
+            "word": "notebook",
+            "sentence": "I write in my notebook."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I need a ruler.",
+        "meaning_ar": "أحتاج إلى مسطرة.",
+        "meaning_en": "I must have a ruler.",
+        "example": "I need a ruler for my math lesson."
+      },
+      {
+        "phrase": "Where's my ruler?",
+        "meaning_ar": "أين مسطرتي؟",
+        "meaning_en": "Asking where your ruler is.",
+        "example": "Where's my ruler? - It's in your bag."
+      },
+      {
+        "phrase": "I'm ready.",
+        "meaning_ar": "أنا جاهز.",
+        "meaning_en": "I can start or go now.",
+        "example": "Are you ready? - Yes, I'm ready."
+      },
+      {
+        "phrase": "Let's go.",
+        "meaning_ar": "هيا بنا.",
+        "meaning_en": "We go now.",
+        "example": "I'm ready. - OK, let's go."
+      },
+      {
+        "phrase": "Come on!",
+        "meaning_ar": "هيا!",
+        "meaning_en": "Be quick, join me.",
+        "example": "Come on! It's late."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I need a + thing",
+        "explanation_ar": "نعبّر عن الحاجة بـ I need + a + اسم مفرد: I need a ruler.",
+        "explanation_en": "Say what you must have: I need + a + thing.",
+        "examples": [
+          "I need a ruler.",
+          "I need a marker.",
+          "I need a notebook."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I want to draw a straight line. I need a ___.",
+      "choices": [
+        "ruler",
+        "cake",
+        "bike",
+        "dog"
+      ],
+      "answer": 0,
+      "explanation_ar": "نرسم الخط المستقيم بالمسطرة.",
+      "explanation_en": "A ruler makes straight lines."
+    },
+    {
+      "question": "I need ___ marker.",
+      "choices": [
+        "an",
+        "a",
+        "some",
+        "two"
+      ],
+      "answer": 1,
+      "explanation_ar": "marker تبدأ بصوت ساكن فنستخدم a.",
+      "explanation_en": "Use \"a\" before marker."
+    },
+    {
+      "question": "You write your homework in a ___.",
+      "choices": [
+        "ruler",
+        "crayon",
+        "notebook",
+        "marker"
+      ],
+      "answer": 2,
+      "explanation_ar": "نكتب في الدفتر notebook.",
+      "explanation_en": "We write in a notebook."
+    },
+    {
+      "question": "\"need\" means ___.",
+      "choices": [
+        "يحتاج",
+        "يحب",
+        "يرى",
+        "يلعب"
+      ],
+      "answer": 0,
+      "explanation_ar": "need = يحتاج.",
+      "explanation_en": "need = must have."
+    },
+    {
+      "question": "Are you ready? - Yes, I'm ___.",
+      "choices": [
+        "late",
+        "hungry",
+        "ready",
+        "sorry"
+      ],
+      "answer": 2,
+      "explanation_ar": "I'm ready = أنا جاهز.",
+      "explanation_en": "I'm ready."
+    },
+    {
+      "question": "Your friend is slow. You say: ___",
+      "choices": [
+        "Thank you.",
+        "Nice to meet you.",
+        "Hurry up!",
+        "Sit down."
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول Hurry up للاستعجال.",
+      "explanation_en": "Say \"Hurry up!\" to someone slow."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I need ruler.",
+        "I needs a ruler.",
+        "I need a ruler.",
+        "I a need ruler."
+      ],
+      "answer": 2,
+      "explanation_ar": "الصحيح I need a ruler.",
+      "explanation_en": "Correct: I need a ruler."
+    },
+    {
+      "question": "A stick of colored wax for drawing is a ___.",
+      "choices": [
+        "book",
+        "crayon",
+        "ruler",
+        "notebook"
+      ],
+      "answer": 1,
+      "explanation_ar": "قلم التلوين الشمعي = crayon.",
+      "explanation_en": "A crayon is colored wax."
+    },
+    {
+      "question": "I'm ready. - OK. ___",
+      "choices": [
+        "Let's go.",
+        "Ouch!",
+        "Who is this?",
+        "I'm hungry."
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد الاستعداد نقول Let's go.",
+      "explanation_en": "When you are ready, say \"Let's go.\""
+    },
+    {
+      "question": "___ my ruler? - It's on the table.",
+      "choices": [
+        "What's",
+        "Who's",
+        "How old",
+        "Where's"
+      ],
+      "answer": 3,
+      "explanation_ar": "السؤال عن المكان Where's.",
+      "explanation_en": "Ask about a place with Where's."
+    }
+  ]
+}

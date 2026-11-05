@@ -1,0 +1,467 @@
+{
+  "title": "Clearing Up Confusion",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "rumour",
+        "pos": "noun",
+        "meaning_en": "a story people pass around that may not be true",
+        "meaning_ar": "إشاعة",
+        "note_ar": "الأمريكية: rumor.",
+        "note_en": "US spelling: rumor.",
+        "example": "There's a rumour that the office is moving."
+      },
+      {
+        "word": "spread rumours",
+        "pos": "phrase",
+        "meaning_en": "to tell rumours to many people",
+        "meaning_ar": "ينشر الإشاعات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please don't spread rumours about your colleagues."
+      },
+      {
+        "word": "pass on",
+        "pos": "phrasal verb",
+        "meaning_en": "to tell information to another person",
+        "meaning_ar": "ينقل (الخبر) إلى غيره",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please don't pass the rumours on."
+      },
+      {
+        "word": "go around",
+        "pos": "phrasal verb",
+        "meaning_en": "(of a story or illness) to move from person to person",
+        "meaning_ar": "ينتشر / يدور بين الناس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There's a story going around about job cuts."
+      },
+      {
+        "word": "ignore",
+        "pos": "verb",
+        "meaning_en": "to pay no attention to something",
+        "meaning_ar": "يتجاهل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ignore the rumours and keep working."
+      },
+      {
+        "word": "establish the facts",
+        "pos": "phrase",
+        "meaning_en": "to find out what is really true",
+        "meaning_ar": "يتحقق من الحقائق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "First, we need to establish the facts."
+      },
+      {
+        "word": "straight away",
+        "pos": "adverb",
+        "meaning_en": "immediately",
+        "meaning_ar": "فورًا",
+        "note_ar": "الأمريكية غالبًا: right away.",
+        "note_en": "US English: right away.",
+        "example": "I'll call you straight away."
+      },
+      {
+        "word": "carry on",
+        "pos": "phrasal verb",
+        "meaning_en": "to continue",
+        "meaning_ar": "يستمر / يواصل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please carry on with your work."
+      },
+      {
+        "word": "as normal",
+        "pos": "phrase",
+        "meaning_en": "in the usual way",
+        "meaning_ar": "كالمعتاد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The shop will open as normal tomorrow."
+      },
+      {
+        "word": "gather round",
+        "pos": "phrasal verb",
+        "meaning_en": "to come and stand close together in a group",
+        "meaning_ar": "يتجمّعون حول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could everyone gather round, please?"
+      },
+      {
+        "word": "job cuts",
+        "pos": "noun",
+        "meaning_en": "when a company reduces the number of workers",
+        "meaning_ar": "تقليص الوظائف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company announced job cuts."
+      },
+      {
+        "word": "sack",
+        "pos": "verb",
+        "meaning_en": "(informal) to dismiss someone from their job",
+        "meaning_ar": "يطرد من العمل",
+        "note_ar": "رسميًا: dismiss. وتعبير get the sack = يُطرد.",
+        "note_en": "Formal: dismiss. Also 'get the sack'.",
+        "example": "He was sacked for being late every day."
+      },
+      {
+        "word": "panic",
+        "pos": "verb / noun",
+        "meaning_en": "to feel sudden fear and not think clearly",
+        "meaning_ar": "يهلع / ذعر",
+        "note_ar": "الماضي: panicked (نضيف k).",
+        "note_en": "Past: panicked (add k).",
+        "example": "Don't panic – the news is not true."
+      },
+      {
+        "word": "in private",
+        "pos": "phrase",
+        "meaning_en": "without other people listening",
+        "meaning_ar": "على انفراد / بشكل خاص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I speak to you in private?"
+      },
+      {
+        "word": "bother",
+        "pos": "verb",
+        "meaning_en": "to disturb or interrupt someone",
+        "meaning_ar": "يُزعج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry to bother you, but the printer isn't working."
+      },
+      {
+        "word": "conference",
+        "pos": "noun",
+        "meaning_en": "a large formal meeting for many people from an industry",
+        "meaning_ar": "مؤتمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is speaking at a conference in Dubai."
+      },
+      {
+        "word": "award",
+        "pos": "noun",
+        "meaning_en": "a prize given for doing something well",
+        "meaning_ar": "جائزة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our team won an award for the best design."
+      },
+      {
+        "word": "final",
+        "pos": "noun / adjective",
+        "meaning_en": "the last stage of a competition; last",
+        "meaning_ar": "النهائي / الأخير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're in the final for the best product award."
+      },
+      {
+        "word": "acceptance speech",
+        "pos": "noun",
+        "meaning_en": "a short talk you give when you receive a prize",
+        "meaning_ar": "كلمة قبول الجائزة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He thanked his team in his acceptance speech."
+      },
+      {
+        "word": "urgent",
+        "pos": "adjective",
+        "meaning_en": "needing to be done immediately",
+        "meaning_ar": "عاجل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is urgent – please reply today."
+      },
+      {
+        "word": "have a lot on your plate",
+        "pos": "idiom",
+        "meaning_en": "to be very busy with many things to do",
+        "meaning_ar": "لديه مشاغل كثيرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't help this week; I have a lot on my plate."
+      },
+      {
+        "word": "mum's the word",
+        "pos": "idiom",
+        "meaning_en": "I will keep it secret",
+        "meaning_ar": "سأكتم السر",
+        "note_ar": "تعبير بريطاني غير رسمي.",
+        "note_en": "Informal British idiom.",
+        "example": "Don't worry, mum's the word."
+      },
+      {
+        "word": "keep your voice down",
+        "pos": "phrase",
+        "meaning_en": "speak more quietly",
+        "meaning_ar": "اخفض صوتك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep your voice down – people are working."
+      },
+      {
+        "word": "give it a go",
+        "pos": "idiom",
+        "meaning_en": "to try to do something",
+        "meaning_ar": "يجرّب / يحاول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've never written a speech, but I'll give it a go."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "carry on vs keep on",
+        "words": [
+          "carry on",
+          "keep on"
+        ],
+        "explanation_ar": "carry on تعني استمر أو واصل، وتأتي غالبًا مع with + اسم. keep on + فعل بـ ing تعني الاستمرار في فعل الشيء مرارًا، وأحيانًا بطريقة مزعجة.",
+        "explanation_en": "'Carry on (with)' means continue. 'Keep on + -ing' means continue doing something, often again and again.",
+        "examples": [
+          {
+            "word": "carry on",
+            "sentence": "Please carry on with your work as normal."
+          },
+          {
+            "word": "keep on",
+            "sentence": "He keeps on asking the same question."
+          }
+        ]
+      },
+      {
+        "title": "straight away vs soon",
+        "words": [
+          "straight away",
+          "soon"
+        ],
+        "explanation_ar": "straight away تعني فورًا بلا تأخير. soon تعني بعد وقت قصير، وليس بالضرورة الآن.",
+        "explanation_en": "'Straight away' means immediately. 'Soon' means after a short time.",
+        "examples": [
+          {
+            "word": "straight away",
+            "sentence": "I will let you know straight away."
+          },
+          {
+            "word": "soon",
+            "sentence": "The results will be ready soon."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "There are some rumours going around that are not true.",
+        "meaning_ar": "هناك بعض الإشاعات المنتشرة وهي غير صحيحة.",
+        "meaning_en": "Some stories people are telling are false.",
+        "example": "There are some rumours going around that are not true. The office is not closing."
+      },
+      {
+        "phrase": "Please don't listen to rumours.",
+        "meaning_ar": "من فضلكم لا تستمعوا إلى الإشاعات.",
+        "meaning_en": "Do not believe stories that are not confirmed.",
+        "example": "Please don't listen to rumours about the new manager."
+      },
+      {
+        "phrase": "I am trying to establish the facts and if I get any information I will let you know straight away.",
+        "meaning_ar": "أحاول التحقق من الحقائق، وإذا حصلت على أي معلومات فسأخبركم فورًا.",
+        "meaning_en": "I'm finding out what's true and will tell you immediately.",
+        "example": "I am trying to establish the facts. If I get any information, I will let you know straight away."
+      },
+      {
+        "phrase": "Ignore the rumours and please don't pass them on.",
+        "meaning_ar": "تجاهلوا الإشاعات ومن فضلكم لا تنقلوها لغيركم.",
+        "meaning_en": "Don't believe the stories and don't tell others.",
+        "example": "Ignore the rumours and please don't pass them on to customers."
+      },
+      {
+        "phrase": "Please just carry on with your work as normal. Thank you.",
+        "meaning_ar": "من فضلكم واصلوا عملكم كالمعتاد. شكرًا لكم.",
+        "meaning_en": "Continue working in the usual way.",
+        "example": "Please just carry on with your work as normal. Thank you."
+      },
+      {
+        "phrase": "Could everyone gather round, please?",
+        "meaning_ar": "هل يمكن للجميع أن يتجمعوا هنا من فضلكم؟",
+        "meaning_en": "Please come and stand together near me.",
+        "example": "Could everyone gather round, please? I have an announcement."
+      },
+      {
+        "phrase": "Sorry to bother you.",
+        "meaning_ar": "آسف على الإزعاج.",
+        "meaning_en": "I'm sorry for disturbing you.",
+        "example": "Sorry to bother you, but do you have a minute?"
+      },
+      {
+        "phrase": "I've got quite a lot on my plate.",
+        "meaning_ar": "لدي الكثير من المشاغل.",
+        "meaning_en": "I'm very busy.",
+        "example": "I'd love to help, but I've got quite a lot on my plate this week."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Negative imperatives with please",
+        "explanation_ar": "لطلب عدم فعل شيء بأدب نستخدم Please + don't + الفعل الأساسي. وللأمر الإيجابي المهذب: Please + الفعل.",
+        "explanation_en": "For polite negative instructions use Please don't + base verb. For positive ones use Please + base verb.",
+        "examples": [
+          "Please don't listen to rumours.",
+          "Please don't pass them on.",
+          "Please carry on with your work."
+        ]
+      },
+      {
+        "title": "First conditional: if + present, will + verb",
+        "explanation_ar": "If + المضارع البسيط، ثم will + الفعل للحديث عن نتيجة ممكنة في المستقبل. لا نستخدم will بعد if.",
+        "explanation_en": "If + present simple, will + base verb, for a likely future result. Don't use 'will' after 'if'.",
+        "examples": [
+          "If I get any information, I will let you know.",
+          "If the boss calls, I'll tell you.",
+          "If we win, we will celebrate."
+        ]
+      },
+      {
+        "title": "There is / There are + -ing / that clause",
+        "explanation_ar": "There are some rumours going around = هناك إشاعات تنتشر. نستخدم there is مع المفرد و there are مع الجمع.",
+        "explanation_en": "Use 'there is' with singular and 'there are' with plural nouns to say something exists. You can add an -ing phrase after the noun: There are some rumours going around.",
+        "examples": [
+          "There are some rumours going around.",
+          "There is an award for the best product.",
+          "There are ten people in the meeting."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is a 'rumour'?",
+      "choices": [
+        "a prize",
+        "an official email",
+        "a story people pass around that may not be true",
+        "a type of meeting"
+      ],
+      "answer": 2,
+      "explanation_ar": "rumour إشاعة قد لا تكون صحيحة.",
+      "explanation_en": "A rumour is a story that may not be true."
+    },
+    {
+      "question": "Ignore the rumours and please don't ___ them on.",
+      "choices": [
+        "pass",
+        "carry",
+        "go",
+        "give"
+      ],
+      "answer": 0,
+      "explanation_ar": "pass on تعني ينقل الخبر.",
+      "explanation_en": "'Pass on' means tell others."
+    },
+    {
+      "question": "If I get any information, I ___ you know straight away.",
+      "choices": [
+        "let",
+        "am letting",
+        "would let",
+        "will let"
+      ],
+      "answer": 3,
+      "explanation_ar": "الشرط الأول: if + مضارع، will + فعل.",
+      "explanation_en": "First conditional: will + verb."
+    },
+    {
+      "question": "'Straight away' means ___.",
+      "choices": [
+        "later",
+        "immediately",
+        "never",
+        "slowly"
+      ],
+      "answer": 1,
+      "explanation_ar": "straight away = فورًا.",
+      "explanation_en": "It means immediately."
+    },
+    {
+      "question": "Please just ___ with your work as normal.",
+      "choices": [
+        "carry on",
+        "carry out",
+        "go out",
+        "put on"
+      ],
+      "answer": 0,
+      "explanation_ar": "carry on with = يواصل.",
+      "explanation_en": "'Carry on with' means continue."
+    },
+    {
+      "question": "What does 'I've got a lot on my plate' mean?",
+      "choices": [
+        "I'm hungry",
+        "I'm cooking",
+        "I'm very busy",
+        "I'm happy"
+      ],
+      "answer": 2,
+      "explanation_ar": "تعبير يعني لدي مشاغل كثيرة.",
+      "explanation_en": "It means I'm very busy."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Please don't listen rumours.",
+        "Please don't listen to rumours.",
+        "Please not listen to rumours.",
+        "Please don't listening to rumours."
+      ],
+      "answer": 1,
+      "explanation_ar": "Please don't + الفعل الأساسي + to.",
+      "explanation_en": "Please don't + base verb; 'listen to'."
+    },
+    {
+      "question": "Anna asks everyone to 'gather round'. She wants them to ___.",
+      "choices": [
+        "go home",
+        "sit at their desks",
+        "send an email",
+        "come and stand together near her"
+      ],
+      "answer": 3,
+      "explanation_ar": "gather round تعني يتجمعون قريبًا.",
+      "explanation_en": "It means come together in a group."
+    },
+    {
+      "question": "'Establish the facts' means ___.",
+      "choices": [
+        "find out what is really true",
+        "start a new company",
+        "write a speech",
+        "spread a story"
+      ],
+      "answer": 0,
+      "explanation_ar": "establish the facts = التحقق من الحقيقة.",
+      "explanation_en": "It means find out what is true."
+    },
+    {
+      "question": "What is an 'acceptance speech'?",
+      "choices": [
+        "a talk you give when you get a job",
+        "a letter of complaint",
+        "a talk you give when you receive a prize",
+        "a phone message"
+      ],
+      "answer": 2,
+      "explanation_ar": "acceptance speech كلمة تُلقى عند استلام جائزة.",
+      "explanation_en": "It's a talk given when you receive an award."
+    }
+  ]
+}

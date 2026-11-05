@@ -39,6 +39,7 @@ class WordLookupViewModel(
     private val navigationManager: NavigationManager,
     private val ttsSpeedManager: TtsSpeedManager,
     private val dailyWordRepository: DailyWordRepository,
+    private val database: com.speakmind.app.db.SpeakyDatabase,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<WordLookupUiState>(WordLookupUiState.Idle)
@@ -150,6 +151,22 @@ class WordLookupViewModel(
                 sentDate = today,
                 createdAt = Clock.System.now().toEpochMilliseconds(),
             )
+            // Also a flashcard, so the word shows under "Saved words" and comes up for review.
+            val now = Clock.System.now().toEpochMilliseconds()
+            database.speakMindQueries.insertFlashcard(
+                word = result.word,
+                sentence = result.examples.firstOrNull() ?: result.meaning,
+                context = "Look-up",
+                grammar_note = "",
+                error_type = "",
+                next_review = now,
+                interval_days = 1.0,
+                ease_factor = 2.5,
+                repetitions = 0,
+                created_at = now,
+                source_scenario_id = null,
+            )
+            database.speakMindQueries.incrementVocab()
             _uiState.value = state.copy(isSaved = true)
         }
     }

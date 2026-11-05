@@ -1,0 +1,82 @@
+{
+  "title": "This Game Is Fun!",
+  "content": {
+    "vocabulary": [
+      {"word": "memorial", "pos": "noun", "meaning_en": "a place or object that helps people remember someone", "meaning_ar": "نُصب تذكاري", "note_ar": "", "note_en": "", "example": "This is the Roosevelt Memorial."},
+      {"word": "symbol", "pos": "noun", "meaning_en": "a picture or thing that represents an idea", "meaning_ar": "رمز", "note_ar": "", "note_en": "", "example": "Where is the symbol?"},
+      {"word": "remember", "pos": "verb", "meaning_en": "to keep something in your mind", "meaning_ar": "يتذكّر", "note_ar": "", "note_en": "", "example": "Anna remembers what Dan said."},
+      {"word": "find", "pos": "verb", "meaning_en": "to see or get something you are looking for", "meaning_ar": "يجد", "note_ar": "فعل شاذ: الماضي found.", "note_en": "Irregular: past found.", "example": "I found my keys under the table."},
+      {"word": "win", "pos": "verb", "meaning_en": "to get points or be first in a game", "meaning_ar": "يفوز / يكسب", "note_ar": "فعل شاذ: الماضي won.", "note_en": "Irregular: past won.", "example": "I won another 40 points!"},
+      {"word": "points", "pos": "noun", "meaning_en": "numbers you win in a game", "meaning_ar": "نقاط", "note_ar": "", "note_en": "", "example": "She has 120 points."},
+      {"word": "another", "pos": "determiner", "meaning_en": "one more", "meaning_ar": "آخر / واحد إضافي", "note_ar": "يأتي بعدها اسم مفرد: another day.", "note_en": "Use a singular noun after it: another day.", "example": "Can I have another apple?"},
+      {"word": "fun fact", "pos": "noun", "meaning_en": "an interesting and surprising piece of information", "meaning_ar": "معلومة طريفة", "note_ar": "", "note_en": "", "example": "What is the fun fact?"},
+      {"word": "fly", "pos": "verb", "meaning_en": "to travel in the air, for example in a plane", "meaning_ar": "يطير / يسافر بالطائرة", "note_ar": "الماضي: flew.", "note_en": "Past: flew.", "example": "We fly to Cairo next week."},
+      {"word": "plane", "pos": "noun", "meaning_en": "a machine with wings that flies", "meaning_ar": "طائرة", "note_ar": "", "note_en": "", "example": "The plane leaves at nine."},
+      {"word": "wrestler", "pos": "noun", "meaning_en": "a person who fights by holding and pushing in a sport", "meaning_ar": "مصارع", "note_ar": "حرف w صامت: تُنطق /ˈreslər/.", "note_en": "The w is silent: say RES-ler.", "example": "Lincoln was a great wrestler."},
+      {"word": "freedom", "pos": "noun", "meaning_en": "being free to do what you want", "meaning_ar": "الحرية", "note_ar": "من الصفة free.", "note_en": "From the adjective free.", "example": "Lincoln wanted freedom for all people."},
+      {"word": "liberty", "pos": "noun", "meaning_en": "freedom", "meaning_ar": "الحرية", "note_ar": "كلمة رسمية بمعنى freedom.", "note_en": "A formal word for freedom.", "example": "The Statue of Liberty is a famous symbol."},
+      {"word": "beautiful", "pos": "adjective", "meaning_en": "very nice to look at", "meaning_ar": "جميل", "note_ar": "", "note_en": "", "example": "This is a really beautiful memorial."},
+      {"word": "look out", "pos": "phrasal verb", "meaning_en": "be careful! (a warning)", "meaning_ar": "انتبه!", "note_ar": "", "note_en": "", "example": "Look out! The road is busy."},
+      {"word": "careful", "pos": "adjective", "meaning_en": "giving attention so you do not have accidents", "meaning_ar": "حذِر", "note_ar": "", "note_en": "", "example": "I should be more careful."},
+      {"word": "guess", "pos": "verb", "meaning_en": "to give an answer when you are not sure", "meaning_ar": "يخمّن / يظن", "note_ar": "حرف u صامت: تُنطق /ɡes/.", "note_en": "The u is silent: /ɡes/.", "example": "I guess so."},
+      {"word": "first", "pos": "adjective", "meaning_en": "before all the others", "meaning_ar": "الأول", "note_ar": "", "note_en": "", "example": "Roosevelt was the first president to fly in a plane."},
+      {"word": "tree", "pos": "noun", "meaning_en": "a tall plant with a trunk and branches", "meaning_ar": "شجرة", "note_ar": "", "note_en": "", "example": "Look out for that tree!"},
+      {"word": "learn", "pos": "verb", "meaning_en": "to get new knowledge", "meaning_ar": "يتعلّم", "note_ar": "الماضي: learned (وفي بريطانيا أيضًا learnt).", "note_en": "Past: learned (UK also learnt).", "example": "I learned a lot about presidents."},
+      {"word": "say", "pos": "verb", "meaning_en": "to speak words", "meaning_ar": "يقول", "note_ar": "فعل شاذ: الماضي said ويُنطق /sed/.", "note_en": "Irregular: past said, pronounced /sed/.", "example": "Dan said the game is fun."},
+      {"word": "ought to", "pos": "modal", "meaning_en": "should; used to give advice", "meaning_ar": "ينبغي", "note_ar": "", "note_en": "", "example": "I ought to be more careful."},
+      {"word": "yay", "pos": "interjection", "meaning_en": "a word that shows you are happy", "meaning_ar": "يَيه! (كلمة فرح)", "note_ar": "", "note_en": "", "example": "Yay! We won!"}
+    ],
+    "fine_lines": [
+      {"title": "find vs found", "words": ["find", "found"],
+       "explanation_ar": "find فعل شاذ: المضارع find والماضي found. نقول: I found it! (وجدته) ولكن في السؤال والنفي نعود للأصل: Did you find it? / I didn't find it.",
+       "explanation_en": "find is irregular: present find, past found. We say I found it! But in past questions and negatives use the base form: Did you find it? / I didn't find it.",
+       "examples": [
+         {"word": "found", "sentence": "I found Uncle Sam!"},
+         {"word": "find", "sentence": "Did you find the bald eagle?"},
+         {"word": "find", "sentence": "No, I didn't find it."}
+       ]},
+      {"title": "should vs ought to", "words": ["should", "ought to"],
+       "explanation_ar": "الاثنان لإعطاء النصيحة لنفسك أو لغيرك وبالمعنى نفسه تقريبًا. Anna تقول: I should be more careful ثم I ought to be more careful.",
+       "explanation_en": "Both give advice, to yourself or others, with almost the same meaning. Anna says 'I should be more careful' and later 'I ought to be more careful.'",
+       "examples": [
+         {"word": "should", "sentence": "I should be more careful."},
+         {"word": "ought to", "sentence": "I ought to be more careful."}
+       ]}
+    ],
+    "expressions": [
+      {"phrase": "Where is the symbol?", "meaning_ar": "أين الرمز؟", "meaning_en": "asking where something is", "example": "Where is the symbol? I can't see it."},
+      {"phrase": "I found it!", "meaning_ar": "وجدته!", "meaning_en": "said happily when you find something", "example": "I found it! My phone was in my bag."},
+      {"phrase": "I didn't know that.", "meaning_ar": "لم أكن أعرف ذلك.", "meaning_en": "saying a fact is new to you", "example": "Lincoln was a wrestler? I didn't know that."},
+      {"phrase": "Time to find the next symbol.", "meaning_ar": "حان وقت إيجاد الرمز التالي.", "meaning_en": "saying it is time for the next step", "example": "Time to do the next exercise."},
+      {"phrase": "Look out!", "meaning_ar": "انتبه!", "meaning_en": "a quick warning about danger", "example": "Look out! There's a bike behind you."},
+      {"phrase": "Hey, it's you!", "meaning_ar": "هذا أنت!", "meaning_en": "said when you see someone you met before", "example": "Hey, it's you! We met at the library."},
+      {"phrase": "What's your name? — What's yours?", "meaning_ar": "ما اسمك؟ — وما اسمك أنت؟", "meaning_en": "asking a name and asking the same question back", "example": "My name is Omar. What's yours?"},
+      {"phrase": "I guess so.", "meaning_ar": "أظن ذلك.", "meaning_en": "saying yes when you are not completely sure", "example": "Is the shop open now? — I guess so."},
+      {"phrase": "Me too.", "meaning_ar": "وأنا أيضًا.", "meaning_en": "saying the same is true for you", "example": "I'm hungry. — Me too."},
+      {"phrase": "First one to find it wins?", "meaning_ar": "أول من يجده يفوز؟", "meaning_en": "suggesting a friendly race", "example": "First one to finish the puzzle wins?"},
+      {"phrase": "This game is a lot of fun.", "meaning_ar": "هذه اللعبة ممتعة جدًا.", "meaning_en": "saying a game is very enjoyable", "example": "This puzzle game is a lot of fun."}
+    ],
+    "grammar": [
+      {"title": "Simple past: irregular verbs",
+       "explanation_ar": "1) بعض الأفعال لا تأخذ -ed في الماضي ولها شكل خاص يجب حفظه. 2) من الدرس: find → found, win → won, say → said, fly → flew, see → saw. 3) الشكل نفسه مع كل الضمائر: I found, she found.",
+       "explanation_en": "1) Some verbs do not take -ed in the past; they have a special form you must learn. 2) From the lesson: find → found, win → won, say → said, fly → flew, see → saw. 3) The form is the same for all subjects.",
+       "examples": ["I found Uncle Sam.", "I won 40 points.", "Dan said the game is fun.", "Roosevelt flew in a plane."]},
+      {"title": "Past questions and short answers with did",
+       "explanation_ar": "1) سؤال الماضي: Did + الفاعل + الفعل الأصلي: Did you find the bald eagle? 2) لا نستخدم الماضي بعد did: (Did you found خطأ). 3) الإجابة القصيرة: Yes, I did. / No, I didn't. 4) ويمكن أن نسأل نفس السؤال للشخص الآخر: No. Did you?",
+       "explanation_en": "1) Past question: Did + subject + base verb: Did you find the bald eagle? 2) Don't use the past form after did (not 'Did you found'). 3) Short answers: Yes, I did. / No, I didn't. 4) You can ask back: No. Did you?",
+       "examples": ["Did you find any symbols? — Yes, I did.", "Did you find the bald eagle? — No. Did you?", "I didn't know that.", "Did Lincoln want freedom? — Yes, he did."]}
+    ]
+  },
+  "questions": [
+    {"question": "What is the past of 'find'?", "choices": ["finded", "found", "fond", "finding"], "answer": 1, "explanation_ar": "find فعل شاذ وماضيه found.", "explanation_en": "find is irregular; its past is found."},
+    {"question": "Did you find the bald eagle? — No, I ____.", "choices": ["don't", "didn't", "not", "wasn't"], "answer": 1, "explanation_ar": "الإجابة القصيرة المنفية لسؤال Did you ...? هي No, I didn't.", "explanation_en": "The short negative answer to 'Did you ...?' is 'No, I didn't.'"},
+    {"question": "Choose the correct question.", "choices": ["Did you found any symbols?", "Do you found any symbols?", "Did you find any symbols?", "You did find any symbols?"], "answer": 2, "explanation_ar": "بعد did نستخدم الفعل الأصلي find.", "explanation_en": "After did, use the base verb find."},
+    {"question": "What was the fun fact about Franklin Roosevelt?", "choices": ["He was the first to fly in a plane as president.", "He was a great wrestler.", "He wrote 19,000 letters.", "He signed the Declaration of Independence."], "answer": 0, "explanation_ar": "كان روزفلت أول رئيس يطير بالطائرة أثناء رئاسته.", "explanation_en": "Roosevelt was the first to fly in a plane as president."},
+    {"question": "What was the fun fact about Abraham Lincoln?", "choices": ["He loved planes.", "He made spoons.", "He was a chef.", "He was a great wrestler."], "answer": 3, "explanation_ar": "كان لينكولن مصارعًا ماهرًا.", "explanation_en": "Lincoln was a great wrestler."},
+    {"question": "How many points did Anna win in total?", "choices": ["60", "100", "120", "40"], "answer": 2, "explanation_ar": "قالت: I found three and won 120 points.", "explanation_en": "She says, 'I found three and won 120 points.'"},
+    {"question": "'I guess so' means:", "choices": ["I think yes, but I'm not sure.", "No, never.", "I don't understand.", "I am very angry."], "answer": 0, "explanation_ar": "I guess so تعني أظن ذلك، بدون تأكد كامل.", "explanation_en": "I guess so means yes, but you are not completely sure."},
+    {"question": "Yesterday I ____ 40 points.", "choices": ["win", "winned", "wins", "won"], "answer": 3, "explanation_ar": "ماضي win هو won.", "explanation_en": "The past of win is won."},
+    {"question": "Dan says 'Look out for that tree!' He means:", "choices": ["Look at the beautiful tree.", "Be careful, you may hit the tree.", "Find a tree.", "Climb the tree."], "answer": 1, "explanation_ar": "Look out تحذير: انتبه للشجرة.", "explanation_en": "Look out is a warning: be careful of the tree."},
+    {"question": "Which word means the same as 'liberty'?", "choices": ["symbol", "memorial", "freedom", "president"], "answer": 2, "explanation_ar": "liberty تعني الحرية مثل freedom.", "explanation_en": "Liberty means freedom."}
+  ]
+}

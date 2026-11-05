@@ -1,0 +1,385 @@
+{
+  "title": "Single-word expressions",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "obvious",
+        "pos": "adjective",
+        "meaning_en": "easy to see or understand",
+        "meaning_ar": "واضح",
+        "note_ar": "الظرف: obviously.",
+        "note_en": "Adverb: obviously.",
+        "example": "The answer was obvious."
+      },
+      {
+        "word": "informal",
+        "pos": "adjective",
+        "meaning_en": "relaxed, used with friends, not in official writing",
+        "meaning_ar": "غير رسمي",
+        "note_ar": "عكسها: formal.",
+        "note_en": "Opposite: formal.",
+        "example": "'Obvs' is very informal."
+      },
+      {
+        "word": "lie",
+        "pos": "noun / verb",
+        "meaning_en": "something you say that is not true; to say it",
+        "meaning_ar": "كذبة / يكذب",
+        "note_ar": "ماضي الفعل: lied.",
+        "note_en": "Past of the verb: lied.",
+        "example": "Don't tell lies."
+      },
+      {
+        "word": "improve",
+        "pos": "verb",
+        "meaning_en": "to make something better",
+        "meaning_ar": "يحسّن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Some flowers will improve the room."
+      },
+      {
+        "word": "stylish",
+        "pos": "adjective",
+        "meaning_en": "looking fashionable and attractive",
+        "meaning_ar": "أنيق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She wore a stylish jacket."
+      },
+      {
+        "word": "excessive",
+        "pos": "adjective",
+        "meaning_en": "too much; more than is normal",
+        "meaning_ar": "مفرط / زائد عن الحد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Excessive noise is not allowed after 10 p.m."
+      },
+      {
+        "word": "approximately",
+        "pos": "adverb",
+        "meaning_en": "close to a number or amount, but not exact",
+        "meaning_ar": "تقريباً",
+        "note_ar": "بشكل غير رسمي: -ish مثل fiveish.",
+        "note_en": "Informal: -ish (fiveish).",
+        "example": "It's approximately five kilometres."
+      },
+      {
+        "word": "aware",
+        "pos": "adjective",
+        "meaning_en": "knowing about something",
+        "meaning_ar": "على علم / مدرك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you aware of the new rules?"
+      },
+      {
+        "word": "detail",
+        "pos": "noun",
+        "meaning_en": "a small fact or piece of information",
+        "meaning_ar": "تفصيلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Read all the details before you sign."
+      },
+      {
+        "word": "shock",
+        "pos": "noun",
+        "meaning_en": "a strong feeling of surprise, often bad",
+        "meaning_ar": "صدمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The news was a shock to everyone."
+      },
+      {
+        "word": "surprise",
+        "pos": "noun",
+        "meaning_en": "something you did not expect",
+        "meaning_ar": "مفاجأة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What a nice surprise!"
+      },
+      {
+        "word": "embarrassed",
+        "pos": "adjective",
+        "meaning_en": "feeling shy and uncomfortable in front of others",
+        "meaning_ar": "محرَج",
+        "note_ar": "الصفة للسبب: embarrassing.",
+        "note_en": "Adj. for the cause: embarrassing.",
+        "example": "I felt embarrassed when I fell over."
+      },
+      {
+        "word": "uncomfortable",
+        "pos": "adjective",
+        "meaning_en": "not relaxed; slightly unpleasant",
+        "meaning_ar": "غير مرتاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The silence was uncomfortable."
+      },
+      {
+        "word": "revision",
+        "pos": "noun",
+        "meaning_en": "studying again before an exam (UK)",
+        "meaning_ar": "مراجعة الدروس",
+        "note_ar": "في أمريكا: review.",
+        "note_en": "US: review.",
+        "example": "I need to do some revision tonight."
+      },
+      {
+        "word": "cushion",
+        "pos": "noun",
+        "meaning_en": "a soft bag used on a sofa or chair",
+        "meaning_ar": "وسادة (للأريكة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She put new cushions on the sofa."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Obvs vs obviously",
+        "words": [
+          "obvs",
+          "obviously"
+        ],
+        "explanation_ar": "obvs اختصار عامي جداً لـ obviously، يُقال بين الأصدقاء فقط. في الكتابة الرسمية أو العمل استخدم obviously.",
+        "explanation_en": "'Obvs' is a very informal short form of 'obviously'. Use it only with friends. In formal speech or writing, use 'obviously'.",
+        "examples": [
+          {
+            "word": "obvs",
+            "sentence": "Of course I'm coming to your party - obvs!"
+          },
+          {
+            "word": "obviously",
+            "sentence": "Obviously, all students must bring their ID."
+          }
+        ]
+      },
+      {
+        "title": "Yikes vs cringe",
+        "words": [
+          "yikes",
+          "cringe"
+        ],
+        "explanation_ar": "yikes كلمة تعجّب تعبّر عن صدمة أو خوف مفاجئ. cringe تصف شيئاً يجعلك تشعر بالإحراج وعدم الارتياح.",
+        "explanation_en": "'Yikes!' shows sudden shock or worry. 'Cringe' describes something that makes you feel embarrassed and uncomfortable.",
+        "examples": [
+          {
+            "word": "yikes",
+            "sentence": "Yikes! The exam is tomorrow!"
+          },
+          {
+            "word": "cringe",
+            "sentence": "His old school photos are so cringe."
+          }
+        ]
+      },
+      {
+        "title": "Fib vs lie",
+        "words": [
+          "fib",
+          "lie"
+        ],
+        "explanation_ar": "fib كذبة صغيرة غير مهمة غالباً، وهي كلمة غير رسمية. lie كلمة عامة لأي كذبة، صغيرة أو كبيرة.",
+        "explanation_en": "A fib is a small, unimportant lie (informal). 'Lie' is the general word for any untrue statement.",
+        "examples": [
+          {
+            "word": "fib",
+            "sentence": "I told a little fib - I said I liked the cake."
+          },
+          {
+            "word": "lie",
+            "sentence": "Telling lies to the police is a crime."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "obvs",
+        "meaning_ar": "طبعاً / بديهي (عامية)",
+        "meaning_en": "very informal short form of 'obvious' or 'obviously'",
+        "example": "Do I want ice cream? Obvs!"
+      },
+      {
+        "phrase": "fib",
+        "meaning_ar": "كذبة صغيرة / يكذب كذبة صغيرة",
+        "meaning_en": "a small lie that is not very serious; to tell one",
+        "example": "He fibbed that he had finished his homework."
+      },
+      {
+        "phrase": "zhuzh (up)",
+        "meaning_ar": "يضيف لمسة جمال ولمعان لشيء",
+        "meaning_en": "to make something a little more stylish or attractive (say /ʒʊʒ/)",
+        "example": "Let's zhuzh up this plain room with some plants."
+      },
+      {
+        "phrase": "extra",
+        "meaning_ar": "مبالغ فيه / زيادة عن اللزوم",
+        "meaning_en": "(of a person or thing) too much, over the top, trying too hard",
+        "example": "Wearing a suit to a picnic? You're so extra!"
+      },
+      {
+        "phrase": "-ish / ish",
+        "meaning_ar": "تقريباً / إلى حد ما",
+        "meaning_en": "approximately, more or less; can be added to words or used alone",
+        "example": "Let's meet at sevenish. - Are you ready? - Ish."
+      },
+      {
+        "phrase": "across (something)",
+        "meaning_ar": "مُلمّ بـ / متابع لتفاصيل شيء",
+        "meaning_en": "knowing all the details about something",
+        "example": "Ask Maha about the project - she's across everything."
+      },
+      {
+        "phrase": "yikes!",
+        "meaning_ar": "يا للهول! (تعجّب من صدمة)",
+        "meaning_en": "an exclamation of shock or worry",
+        "example": "Yikes! I left my keys inside the car."
+      },
+      {
+        "phrase": "cringe",
+        "meaning_ar": "مُحرج جداً / يجعلك تتقلص من الحرج",
+        "meaning_en": "(adjective, informal) very embarrassing; (verb) to feel embarrassed",
+        "example": "That advert is so cringe. I cringed when I heard my recorded voice."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "The suffix -ish",
+        "explanation_ar": "نضيف ish- إلى الأرقام والأوقات والصفات لنعني 'تقريباً' أو 'إلى حد ما': sevenish (حوالي السابعة)، tallish (طويل نوعاً ما). ويمكن قول Ish وحدها كجواب يعني 'نوعاً ما'.",
+        "explanation_en": "Add -ish to numbers, times and adjectives to mean 'about' or 'quite': sevenish, tallish, goodish. 'Ish' alone can be an answer meaning 'sort of'.",
+        "examples": [
+          "Come round at eightish.",
+          "The film was goodish.",
+          "Are you hungry? - Ish."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'Obvs' is a short form of:",
+      "choices": [
+        "obvious / obviously",
+        "observe",
+        "obey",
+        "object"
+      ],
+      "answer": 0,
+      "explanation_ar": "obvs اختصار obvious / obviously.",
+      "explanation_en": "'Obvs' = obvious / obviously."
+    },
+    {
+      "question": "A 'fib' is:",
+      "choices": [
+        "a big crime",
+        "a small lie",
+        "a joke",
+        "a secret"
+      ],
+      "answer": 1,
+      "explanation_ar": "fib = كذبة صغيرة.",
+      "explanation_en": "A fib is a small lie."
+    },
+    {
+      "question": "I want to ___ my old jacket with new buttons.",
+      "choices": [
+        "yikes",
+        "fib",
+        "zhuzh up",
+        "cringe"
+      ],
+      "answer": 2,
+      "explanation_ar": "zhuzh up = يجعل الشيء أجمل وأكثر أناقة.",
+      "explanation_en": "'Zhuzh up' = make more stylish."
+    },
+    {
+      "question": "'She's so extra' means she is:",
+      "choices": [
+        "very kind",
+        "very quiet",
+        "very late",
+        "over the top"
+      ],
+      "answer": 3,
+      "explanation_ar": "extra = مبالغ فيه.",
+      "explanation_en": "'Extra' = excessive, over the top."
+    },
+    {
+      "question": "'Let's meet at fiveish' means:",
+      "choices": [
+        "at about five",
+        "at exactly five",
+        "after six",
+        "five times"
+      ],
+      "answer": 0,
+      "explanation_ar": "ish- = تقريباً.",
+      "explanation_en": "-ish = approximately."
+    },
+    {
+      "question": "'Are you across the new plan?' means:",
+      "choices": [
+        "Did you cross it?",
+        "Do you know the details of it?",
+        "Do you dislike it?",
+        "Did you write it?"
+      ],
+      "answer": 1,
+      "explanation_ar": "across something = مُلمّ بتفاصيله.",
+      "explanation_en": "Being 'across' something = knowing the details."
+    },
+    {
+      "question": "Which word shows sudden shock?",
+      "choices": [
+        "ish",
+        "extra",
+        "yikes",
+        "zhuzh"
+      ],
+      "answer": 2,
+      "explanation_ar": "yikes كلمة تعجّب للصدمة.",
+      "explanation_en": "'Yikes!' expresses shock."
+    },
+    {
+      "question": "My dad's jokes in front of my friends were so ___ ! Everyone looked away.",
+      "choices": [
+        "obvs",
+        "across",
+        "fib",
+        "cringe"
+      ],
+      "answer": 3,
+      "explanation_ar": "cringe = مُحرج جداً.",
+      "explanation_en": "'Cringe' = very embarrassing."
+    },
+    {
+      "question": "Where is 'obvs' NOT a good choice?",
+      "choices": [
+        "a text to a friend",
+        "a chat with your brother",
+        "a formal job application",
+        "a joke with classmates"
+      ],
+      "answer": 2,
+      "explanation_ar": "obvs عامية جداً ولا تصلح للكتابة الرسمية.",
+      "explanation_en": "'Obvs' is too informal for formal writing."
+    },
+    {
+      "question": "Choose the correct answer: 'Is the soup hot?' - '___ . It's warm.'",
+      "choices": [
+        "Yikes",
+        "Ish",
+        "Cringe",
+        "Extra"
+      ],
+      "answer": 1,
+      "explanation_ar": "Ish وحدها تعني: نوعاً ما.",
+      "explanation_en": "'Ish' alone means 'sort of'."
+    }
+  ]
+}

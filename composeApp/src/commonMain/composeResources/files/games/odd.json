@@ -1,0 +1,2762 @@
+{
+ "A1": [
+  {
+   "t": "Colours",
+   "e": "🎨",
+   "w": [
+    "red",
+    "blue",
+    "green"
+   ],
+   "o": "apple",
+   "y": "Red, blue and green are colours. Apple is a fruit."
+  },
+  {
+   "t": "Animals",
+   "e": "🐾",
+   "w": [
+    "cat",
+    "dog",
+    "cow"
+   ],
+   "o": "chair",
+   "y": "Cat, dog and cow are animals. A chair is furniture."
+  },
+  {
+   "t": "Numbers",
+   "e": "🔢",
+   "w": [
+    "one",
+    "two",
+    "three"
+   ],
+   "o": "blue",
+   "y": "One, two and three are numbers. Blue is a colour."
+  },
+  {
+   "t": "Fruit",
+   "e": "🍎",
+   "w": [
+    "apple",
+    "banana",
+    "orange"
+   ],
+   "o": "carrot",
+   "y": "Apple, banana and orange are fruit. A carrot is a vegetable."
+  },
+  {
+   "t": "Days",
+   "e": "📅",
+   "w": [
+    "Monday",
+    "Friday",
+    "Sunday"
+   ],
+   "o": "June",
+   "y": "Monday, Friday and Sunday are days of the week. June is a month."
+  },
+  {
+   "t": "Family",
+   "e": "👪",
+   "w": [
+    "mother",
+    "father",
+    "sister"
+   ],
+   "o": "teacher",
+   "y": "Mother, father and sister are family members. A teacher works at a school."
+  },
+  {
+   "t": "Body",
+   "e": "🖐️",
+   "w": [
+    "hand",
+    "foot",
+    "nose"
+   ],
+   "o": "shoe",
+   "y": "Hand, foot and nose are parts of the body. A shoe is clothing."
+  },
+  {
+   "t": "Drinks",
+   "e": "🥤",
+   "w": [
+    "milk",
+    "water",
+    "juice"
+   ],
+   "o": "bread",
+   "y": "Milk, water and juice are drinks. Bread is food you eat."
+  },
+  {
+   "t": "Clothes",
+   "e": "👕",
+   "w": [
+    "shirt",
+    "dress",
+    "coat"
+   ],
+   "o": "spoon",
+   "y": "Shirt, dress and coat are clothes. A spoon is for eating."
+  },
+  {
+   "t": "Months",
+   "e": "🗓️",
+   "w": [
+    "January",
+    "March",
+    "July"
+   ],
+   "o": "Tuesday",
+   "y": "January, March and July are months. Tuesday is a day of the week."
+  },
+  {
+   "t": "Vegetables",
+   "e": "🥕",
+   "w": [
+    "carrot",
+    "potato",
+    "onion"
+   ],
+   "o": "banana",
+   "y": "Carrot, potato and onion are vegetables. A banana is a fruit."
+  },
+  {
+   "t": "Transport",
+   "e": "🚗",
+   "w": [
+    "car",
+    "bus",
+    "train"
+   ],
+   "o": "tree",
+   "y": "Car, bus and train are transport. A tree is a plant."
+  },
+  {
+   "t": "Kitchen",
+   "e": "🍴",
+   "w": [
+    "knife",
+    "fork",
+    "spoon"
+   ],
+   "o": "sock",
+   "y": "Knife, fork and spoon are for eating. A sock is clothing."
+  },
+  {
+   "t": "Shapes",
+   "e": "🔷",
+   "w": [
+    "circle",
+    "square",
+    "triangle"
+   ],
+   "o": "purple",
+   "y": "Circle, square and triangle are shapes. Purple is a colour."
+  },
+  {
+   "t": "School",
+   "e": "✏️",
+   "w": [
+    "pen",
+    "pencil",
+    "ruler"
+   ],
+   "o": "pillow",
+   "y": "Pen, pencil and ruler are school things. A pillow is for your bed."
+  },
+  {
+   "t": "Furniture",
+   "e": "🛋️",
+   "w": [
+    "bed",
+    "table",
+    "chair"
+   ],
+   "o": "cup",
+   "y": "Bed, table and chair are furniture. A cup is for drinking."
+  },
+  {
+   "t": "Weather",
+   "e": "☀️",
+   "w": [
+    "sunny",
+    "rainy",
+    "windy"
+   ],
+   "o": "hungry",
+   "y": "Sunny, rainy and windy describe the weather. Hungry describes how you feel."
+  },
+  {
+   "t": "Rooms",
+   "e": "🏠",
+   "w": [
+    "kitchen",
+    "bedroom",
+    "bathroom"
+   ],
+   "o": "garden",
+   "y": "Kitchen, bedroom and bathroom are rooms in a house. A garden is outside."
+  },
+  {
+   "t": "Birds",
+   "e": "🐦",
+   "w": [
+    "eagle",
+    "parrot",
+    "owl"
+   ],
+   "o": "dolphin",
+   "y": "Eagle, parrot and owl are birds. A dolphin lives in the sea."
+  },
+  {
+   "t": "Jobs",
+   "e": "👷",
+   "w": [
+    "doctor",
+    "nurse",
+    "cook"
+   ],
+   "o": "sister",
+   "y": "Doctor, nurse and cook are jobs. Sister is a family word."
+  },
+  {
+   "t": "Seasons",
+   "e": "🍂",
+   "w": [
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "o": "morning",
+   "y": "Spring, summer and winter are seasons. Morning is a time of day."
+  },
+  {
+   "t": "Sports",
+   "e": "⚽",
+   "w": [
+    "football",
+    "tennis",
+    "golf"
+   ],
+   "o": "piano",
+   "y": "Football, tennis and golf are sports. A piano is a musical instrument."
+  },
+  {
+   "t": "Music",
+   "e": "🎵",
+   "w": [
+    "piano",
+    "guitar",
+    "drum"
+   ],
+   "o": "hammer",
+   "y": "Piano, guitar and drum are musical instruments. A hammer is a tool."
+  },
+  {
+   "t": "Feelings",
+   "e": "😊",
+   "w": [
+    "happy",
+    "sad",
+    "angry"
+   ],
+   "o": "tall",
+   "y": "Happy, sad and angry are feelings. Tall describes how big someone is."
+  },
+  {
+   "t": "Farm",
+   "e": "🐄",
+   "w": [
+    "cow",
+    "sheep",
+    "pig"
+   ],
+   "o": "lion",
+   "y": "Cow, sheep and pig live on a farm. A lion is a wild animal."
+  },
+  {
+   "t": "Wild animals",
+   "e": "🦁",
+   "w": [
+    "lion",
+    "tiger",
+    "zebra"
+   ],
+   "o": "hen",
+   "y": "Lion, tiger and zebra are wild animals. A hen lives on a farm."
+  },
+  {
+   "t": "Sea animals",
+   "e": "🐟",
+   "w": [
+    "fish",
+    "shark",
+    "whale"
+   ],
+   "o": "horse",
+   "y": "Fish, shark and whale live in the sea. A horse lives on land."
+  },
+  {
+   "t": "Meals",
+   "e": "🍽️",
+   "w": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "o": "kitchen",
+   "y": "Breakfast, lunch and dinner are meals. A kitchen is a room."
+  },
+  {
+   "t": "Face",
+   "e": "👀",
+   "w": [
+    "eyes",
+    "mouth",
+    "ears"
+   ],
+   "o": "knees",
+   "y": "Eyes, mouth and ears are on your face. Knees are on your legs."
+  },
+  {
+   "t": "Actions",
+   "e": "🏃",
+   "w": [
+    "run",
+    "jump",
+    "swim"
+   ],
+   "o": "table",
+   "y": "Run, jump and swim are actions. A table is a thing."
+  },
+  {
+   "t": "Toys",
+   "e": "🧸",
+   "w": [
+    "doll",
+    "ball",
+    "kite"
+   ],
+   "o": "soup",
+   "y": "Doll, ball and kite are toys. Soup is food."
+  },
+  {
+   "t": "Buildings",
+   "e": "🏢",
+   "w": [
+    "bank",
+    "school",
+    "hospital"
+   ],
+   "o": "cloud",
+   "y": "Bank, school and hospital are buildings. A cloud is in the sky."
+  },
+  {
+   "t": "Sweets",
+   "e": "🍰",
+   "w": [
+    "cake",
+    "candy",
+    "chocolate"
+   ],
+   "o": "salt",
+   "y": "Cake, candy and chocolate are sweet. Salt is not sweet."
+  },
+  {
+   "t": "Insects",
+   "e": "🐞",
+   "w": [
+    "bee",
+    "ant",
+    "butterfly"
+   ],
+   "o": "frog",
+   "y": "Bee, ant and butterfly are insects. A frog is not an insect."
+  },
+  {
+   "t": "Plants",
+   "e": "🌳",
+   "w": [
+    "tree",
+    "flower",
+    "grass"
+   ],
+   "o": "stone",
+   "y": "Tree, flower and grass are plants. A stone is not alive."
+  },
+  {
+   "t": "Colours",
+   "e": "🌈",
+   "w": [
+    "pink",
+    "brown",
+    "grey"
+   ],
+   "o": "round",
+   "y": "Pink, brown and grey are colours. Round is a shape word."
+  },
+  {
+   "t": "Order",
+   "e": "🥇",
+   "w": [
+    "first",
+    "second",
+    "third"
+   ],
+   "o": "three",
+   "y": "First, second and third show order. Three is a number for counting."
+  },
+  {
+   "t": "Family",
+   "e": "👵",
+   "w": [
+    "grandma",
+    "grandpa",
+    "uncle"
+   ],
+   "o": "neighbour",
+   "y": "Grandma, grandpa and uncle are family. A neighbour lives near you."
+  },
+  {
+   "t": "Shoes",
+   "e": "👟",
+   "w": [
+    "shoes",
+    "boots",
+    "sandals"
+   ],
+   "o": "gloves",
+   "y": "Shoes, boots and sandals go on your feet. Gloves go on your hands."
+  },
+  {
+   "t": "Hot drinks",
+   "e": "☕",
+   "w": [
+    "tea",
+    "coffee",
+    "hot chocolate"
+   ],
+   "o": "lemonade",
+   "y": "Tea, coffee and hot chocolate are hot drinks. Lemonade is a cold drink."
+  },
+  {
+   "t": "Questions",
+   "e": "❓",
+   "w": [
+    "what",
+    "where",
+    "when"
+   ],
+   "o": "because",
+   "y": "What, where and when are question words. Because gives a reason."
+  },
+  {
+   "t": "Position",
+   "e": "📦",
+   "w": [
+    "in",
+    "on",
+    "under"
+   ],
+   "o": "jump",
+   "y": "In, on and under tell you where something is. Jump is an action."
+  },
+  {
+   "t": "Sky",
+   "e": "🌙",
+   "w": [
+    "sun",
+    "moon",
+    "stars"
+   ],
+   "o": "grass",
+   "y": "Sun, moon and stars are in the sky. Grass is on the ground."
+  },
+  {
+   "t": "Kitchen",
+   "e": "🍳",
+   "w": [
+    "fridge",
+    "oven",
+    "microwave"
+   ],
+   "o": "sofa",
+   "y": "Fridge, oven and microwave are in the kitchen. A sofa is in the living room."
+  },
+  {
+   "t": "Tastes",
+   "e": "👅",
+   "w": [
+    "sweet",
+    "salty",
+    "sour"
+   ],
+   "o": "loud",
+   "y": "Sweet, salty and sour are tastes. Loud describes a sound."
+  },
+  {
+   "t": "Bathroom",
+   "e": "🛁",
+   "w": [
+    "soap",
+    "towel",
+    "toothbrush"
+   ],
+   "o": "pillow",
+   "y": "Soap, towel and toothbrush are bathroom things. A pillow is for the bed."
+  },
+  {
+   "t": "Fruit",
+   "e": "🍇",
+   "w": [
+    "grape",
+    "cherry",
+    "lemon"
+   ],
+   "o": "rice",
+   "y": "Grape, cherry and lemon are fruit. Rice is a grain."
+  },
+  {
+   "t": "Technology",
+   "e": "💻",
+   "w": [
+    "phone",
+    "laptop",
+    "television"
+   ],
+   "o": "blanket",
+   "y": "Phone, laptop and television are electronic. A blanket is not."
+  },
+  {
+   "t": "Homes",
+   "e": "🏡",
+   "w": [
+    "house",
+    "flat",
+    "apartment"
+   ],
+   "o": "office",
+   "y": "House, flat and apartment are homes. An office is a place of work."
+  },
+  {
+   "t": "Size",
+   "e": "📏",
+   "w": [
+    "big",
+    "small",
+    "long"
+   ],
+   "o": "green",
+   "y": "Big, small and long describe size. Green is a colour."
+  }
+ ],
+ "A2": [
+  {
+   "t": "Big",
+   "e": "🐘",
+   "w": [
+    "big",
+    "large",
+    "huge"
+   ],
+   "o": "tiny",
+   "y": "Big, large and huge mean not small. Tiny means very small."
+  },
+  {
+   "t": "Sad",
+   "e": "😢",
+   "w": [
+    "sad",
+    "unhappy",
+    "upset"
+   ],
+   "o": "glad",
+   "y": "Sad, unhappy and upset mean feeling bad. Glad means happy."
+  },
+  {
+   "t": "Fast",
+   "e": "🏎️",
+   "w": [
+    "fast",
+    "quick",
+    "speedy"
+   ],
+   "o": "slow",
+   "y": "Fast, quick and speedy mean moving with speed. Slow is the opposite."
+  },
+  {
+   "t": "Love",
+   "e": "❤️",
+   "w": [
+    "love",
+    "like",
+    "enjoy"
+   ],
+   "o": "hate",
+   "y": "Love, like and enjoy are positive feelings. Hate is a strong negative feeling."
+  },
+  {
+   "t": "Easy",
+   "e": "🧩",
+   "w": [
+    "easy",
+    "simple",
+    "basic"
+   ],
+   "o": "difficult",
+   "y": "Easy, simple and basic mean not hard. Difficult means hard."
+  },
+  {
+   "t": "Wet",
+   "e": "💧",
+   "w": [
+    "wet",
+    "damp",
+    "soaked"
+   ],
+   "o": "dry",
+   "y": "Wet, damp and soaked describe water on something. Dry means no water."
+  },
+  {
+   "t": "Finish",
+   "e": "🏁",
+   "w": [
+    "finish",
+    "end",
+    "stop"
+   ],
+   "o": "begin",
+   "y": "Finish, end and stop mean something is over. Begin means start."
+  },
+  {
+   "t": "Tired",
+   "e": "😴",
+   "w": [
+    "tired",
+    "sleepy",
+    "exhausted"
+   ],
+   "o": "energetic",
+   "y": "Tired, sleepy and exhausted mean you need rest. Energetic means full of energy."
+  },
+  {
+   "t": "Messy",
+   "e": "🧦",
+   "w": [
+    "dirty",
+    "messy",
+    "untidy"
+   ],
+   "o": "neat",
+   "y": "Dirty, messy and untidy mean not in order. Neat means clean and tidy."
+  },
+  {
+   "t": "Rich",
+   "e": "💎",
+   "w": [
+    "rich",
+    "wealthy",
+    "well-off"
+   ],
+   "o": "poor",
+   "y": "Rich, wealthy and well-off mean having lots of money. Poor means having little."
+  },
+  {
+   "t": "Old",
+   "e": "🏛️",
+   "w": [
+    "old",
+    "ancient",
+    "elderly"
+   ],
+   "o": "young",
+   "y": "Old, ancient and elderly mean having lived a long time. Young is the opposite."
+  },
+  {
+   "t": "Loud",
+   "e": "📢",
+   "w": [
+    "loud",
+    "noisy",
+    "deafening"
+   ],
+   "o": "quiet",
+   "y": "Loud, noisy and deafening mean making lots of sound. Quiet means little sound."
+  },
+  {
+   "t": "Kind",
+   "e": "🤝",
+   "w": [
+    "kind",
+    "friendly",
+    "helpful"
+   ],
+   "o": "rude",
+   "y": "Kind, friendly and helpful are good qualities. Rude is a bad quality."
+  },
+  {
+   "t": "Bad habits",
+   "e": "😠",
+   "w": [
+    "lazy",
+    "rude",
+    "selfish"
+   ],
+   "o": "generous",
+   "y": "Lazy, rude and selfish are negative qualities. Generous is a positive quality."
+  },
+  {
+   "t": "Shops",
+   "e": "🛒",
+   "w": [
+    "bakery",
+    "pharmacy",
+    "bookshop"
+   ],
+   "o": "library",
+   "y": "At a bakery, pharmacy and bookshop you buy things. At a library you borrow books."
+  },
+  {
+   "t": "Hospital",
+   "e": "🏥",
+   "w": [
+    "doctor",
+    "nurse",
+    "surgeon"
+   ],
+   "o": "pilot",
+   "y": "Doctors, nurses and surgeons work in hospitals. A pilot flies planes."
+  },
+  {
+   "t": "Restaurant",
+   "e": "🍽️",
+   "w": [
+    "menu",
+    "waiter",
+    "bill"
+   ],
+   "o": "patient",
+   "y": "Menu, waiter and bill are restaurant words. A patient is in a hospital."
+  },
+  {
+   "t": "Illness",
+   "e": "🤒",
+   "w": [
+    "headache",
+    "cough",
+    "fever"
+   ],
+   "o": "holiday",
+   "y": "Headache, cough and fever are signs of illness. A holiday is time off."
+  },
+  {
+   "t": "Cold weather",
+   "e": "❄️",
+   "w": [
+    "snow",
+    "ice",
+    "frost"
+   ],
+   "o": "sunshine",
+   "y": "Snow, ice and frost come with cold weather. Sunshine is warm and bright."
+  },
+  {
+   "t": "Grey weather",
+   "e": "🌫️",
+   "w": [
+    "cloudy",
+    "foggy",
+    "stormy"
+   ],
+   "o": "sunny",
+   "y": "Cloudy, foggy and stormy describe grey, dark weather. Sunny describes bright weather."
+  },
+  {
+   "t": "Money",
+   "e": "💰",
+   "w": [
+    "cash",
+    "coin",
+    "banknote"
+   ],
+   "o": "receipt",
+   "y": "Cash, coin and banknote are money. A receipt is paper showing what you paid."
+  },
+  {
+   "t": "Airport",
+   "e": "🛫",
+   "w": [
+    "runway",
+    "gate",
+    "check-in"
+   ],
+   "o": "platform",
+   "y": "Runway, gate and check-in are at an airport. A platform is at a train station."
+  },
+  {
+   "t": "Hobbies",
+   "e": "🎨",
+   "w": [
+    "painting",
+    "reading",
+    "dancing"
+   ],
+   "o": "ironing",
+   "y": "Painting, reading and dancing are hobbies. Ironing is housework."
+  },
+  {
+   "t": "Housework",
+   "e": "🧹",
+   "w": [
+    "tidy",
+    "sweep",
+    "dust"
+   ],
+   "o": "sunbathe",
+   "y": "Tidy, sweep and dust are housework. Sunbathe means relax in the sun."
+  },
+  {
+   "t": "Music styles",
+   "e": "🎸",
+   "w": [
+    "jazz",
+    "rock",
+    "pop"
+   ],
+   "o": "ballet",
+   "y": "Jazz, rock and pop are music styles. Ballet is a type of dance."
+  },
+  {
+   "t": "Ball sports",
+   "e": "🎾",
+   "w": [
+    "tennis",
+    "golf",
+    "basketball"
+   ],
+   "o": "swimming",
+   "y": "Tennis, golf and basketball use a ball. Swimming does not."
+  },
+  {
+   "t": "Water sports",
+   "e": "🏄",
+   "w": [
+    "surfing",
+    "sailing",
+    "diving"
+   ],
+   "o": "skiing",
+   "y": "Surfing, sailing and diving happen on or in water. Skiing happens on snow."
+  },
+  {
+   "t": "Containers",
+   "e": "🫙",
+   "w": [
+    "bottle",
+    "jar",
+    "can"
+   ],
+   "o": "spoon",
+   "y": "Bottle, jar and can hold things inside. A spoon is for eating."
+  },
+  {
+   "t": "Materials",
+   "e": "🧱",
+   "w": [
+    "wood",
+    "glass",
+    "metal"
+   ],
+   "o": "circle",
+   "y": "Wood, glass and metal are materials. A circle is a shape."
+  },
+  {
+   "t": "Time",
+   "e": "⏰",
+   "w": [
+    "minute",
+    "hour",
+    "second"
+   ],
+   "o": "metre",
+   "y": "Minute, hour and second measure time. A metre measures length."
+  },
+  {
+   "t": "Length",
+   "e": "📐",
+   "w": [
+    "metre",
+    "kilometre",
+    "centimetre"
+   ],
+   "o": "kilogram",
+   "y": "Metre, kilometre and centimetre measure length. A kilogram measures weight."
+  },
+  {
+   "t": "Compass",
+   "e": "🧭",
+   "w": [
+    "north",
+    "south",
+    "west"
+   ],
+   "o": "middle",
+   "y": "North, south and west are compass directions. Middle means the centre."
+  },
+  {
+   "t": "Hair",
+   "e": "💇",
+   "w": [
+    "blond",
+    "curly",
+    "straight"
+   ],
+   "o": "slim",
+   "y": "Blond, curly and straight describe hair. Slim describes a body."
+  },
+  {
+   "t": "Boats",
+   "e": "🚢",
+   "w": [
+    "boat",
+    "ship",
+    "ferry"
+   ],
+   "o": "truck",
+   "y": "Boat, ship and ferry travel on water. A truck travels on roads."
+  },
+  {
+   "t": "Flying",
+   "e": "🛩️",
+   "w": [
+    "plane",
+    "helicopter",
+    "jet"
+   ],
+   "o": "submarine",
+   "y": "Plane, helicopter and jet fly in the air. A submarine goes under water."
+  },
+  {
+   "t": "Relatives",
+   "e": "👨‍👩‍👧",
+   "w": [
+    "cousin",
+    "aunt",
+    "nephew"
+   ],
+   "o": "colleague",
+   "y": "Cousin, aunt and nephew are relatives. A colleague is someone you work with."
+  },
+  {
+   "t": "Workplaces",
+   "e": "🏭",
+   "w": [
+    "office",
+    "factory",
+    "warehouse"
+   ],
+   "o": "playground",
+   "y": "Office, factory and warehouse are places of work. A playground is for children to play."
+  },
+  {
+   "t": "Cooking",
+   "e": "🍳",
+   "w": [
+    "boil",
+    "fry",
+    "bake"
+   ],
+   "o": "sew",
+   "y": "Boil, fry and bake are ways of cooking. Sew means make clothes with a needle."
+  },
+  {
+   "t": "Writing",
+   "e": "✍️",
+   "w": [
+    "pen",
+    "marker",
+    "crayon"
+   ],
+   "o": "eraser",
+   "y": "Pen, marker and crayon are for writing or drawing. An eraser removes marks."
+  },
+  {
+   "t": "Jewellery",
+   "e": "💍",
+   "w": [
+    "ring",
+    "necklace",
+    "bracelet"
+   ],
+   "o": "belt",
+   "y": "Ring, necklace and bracelet are jewellery. A belt is clothing."
+  },
+  {
+   "t": "Celebrations",
+   "e": "🎉",
+   "w": [
+    "birthday",
+    "wedding",
+    "party"
+   ],
+   "o": "exam",
+   "y": "Birthday, wedding and party are celebrations. An exam is a test."
+  },
+  {
+   "t": "Tools",
+   "e": "🔨",
+   "w": [
+    "hammer",
+    "saw",
+    "screwdriver"
+   ],
+   "o": "towel",
+   "y": "Hammer, saw and screwdriver are tools. A towel is for drying."
+  },
+  {
+   "t": "Camping",
+   "e": "⛺",
+   "w": [
+    "tent",
+    "campfire",
+    "sleeping bag"
+   ],
+   "o": "dishwasher",
+   "y": "Tent, campfire and sleeping bag are for camping. A dishwasher is a kitchen machine."
+  },
+  {
+   "t": "Shopping",
+   "e": "🛍️",
+   "w": [
+    "price",
+    "discount",
+    "sale"
+   ],
+   "o": "passport",
+   "y": "Price, discount and sale are shopping words. A passport is for travel."
+  },
+  {
+   "t": "Coming in",
+   "e": "🚪",
+   "w": [
+    "arrive",
+    "come",
+    "enter"
+   ],
+   "o": "leave",
+   "y": "Arrive, come and enter mean getting to a place. Leave means going away."
+  },
+  {
+   "t": "Getting",
+   "e": "🎁",
+   "w": [
+    "receive",
+    "get",
+    "accept"
+   ],
+   "o": "give",
+   "y": "Receive, get and accept mean something comes to you. Give means you hand it to someone."
+  },
+  {
+   "t": "Smiling",
+   "e": "😄",
+   "w": [
+    "smile",
+    "laugh",
+    "grin"
+   ],
+   "o": "cry",
+   "y": "Smile, laugh and grin show you are happy. Cry usually shows you are sad."
+  },
+  {
+   "t": "Hurrying",
+   "e": "🏃",
+   "w": [
+    "run",
+    "rush",
+    "hurry"
+   ],
+   "o": "stroll",
+   "y": "Run, rush and hurry mean moving fast. Stroll means walking slowly."
+  },
+  {
+   "t": "Loud voice",
+   "e": "🗣️",
+   "w": [
+    "shout",
+    "scream",
+    "yell"
+   ],
+   "o": "whisper",
+   "y": "Shout, scream and yell mean speaking very loudly. Whisper means speaking very quietly."
+  },
+  {
+   "t": "Seeing",
+   "e": "👁️",
+   "w": [
+    "look",
+    "watch",
+    "stare"
+   ],
+   "o": "listen",
+   "y": "Look, watch and stare use your eyes. Listen uses your ears."
+  }
+ ],
+ "B1": [
+  {
+   "t": "Make",
+   "e": "🛠️",
+   "w": [
+    "mistake",
+    "decision",
+    "noise"
+   ],
+   "o": "homework",
+   "y": "We make a mistake, a decision and a noise. But we do homework."
+  },
+  {
+   "t": "Do",
+   "e": "🧺",
+   "w": [
+    "dishes",
+    "shopping",
+    "laundry"
+   ],
+   "o": "bed",
+   "y": "We do the dishes, shopping and laundry. But we make the bed."
+  },
+  {
+   "t": "Take",
+   "e": "📸",
+   "w": [
+    "photo",
+    "shower",
+    "break"
+   ],
+   "o": "promise",
+   "y": "We take a photo, a shower and a break. But we make a promise."
+  },
+  {
+   "t": "Catch",
+   "e": "🚌",
+   "w": [
+    "bus",
+    "cold",
+    "fish"
+   ],
+   "o": "decision",
+   "y": "You catch a bus, a cold and a fish. You make a decision."
+  },
+  {
+   "t": "Clever",
+   "e": "🧠",
+   "w": [
+    "clever",
+    "smart",
+    "intelligent"
+   ],
+   "o": "foolish",
+   "y": "Clever, smart and intelligent mean quick to learn. Foolish means silly."
+  },
+  {
+   "t": "Brave",
+   "e": "🦸",
+   "w": [
+    "brave",
+    "bold",
+    "fearless"
+   ],
+   "o": "cowardly",
+   "y": "Brave, bold and fearless mean not afraid. Cowardly means easily afraid."
+  },
+  {
+   "t": "Angry",
+   "e": "😠",
+   "w": [
+    "angry",
+    "cross",
+    "annoyed"
+   ],
+   "o": "calm",
+   "y": "Angry, cross and annoyed mean not pleased. Calm means peaceful and relaxed."
+  },
+  {
+   "t": "Scared",
+   "e": "😨",
+   "w": [
+    "afraid",
+    "frightened",
+    "terrified"
+   ],
+   "o": "relaxed",
+   "y": "Afraid, frightened and terrified mean full of fear. Relaxed means calm."
+  },
+  {
+   "t": "Strange",
+   "e": "👽",
+   "w": [
+    "strange",
+    "odd",
+    "weird"
+   ],
+   "o": "normal",
+   "y": "Strange, odd and weird mean unusual. Normal means usual."
+  },
+  {
+   "t": "Polite",
+   "e": "🎩",
+   "w": [
+    "polite",
+    "courteous",
+    "respectful"
+   ],
+   "o": "rude",
+   "y": "Polite, courteous and respectful mean good manners. Rude means bad manners."
+  },
+  {
+   "t": "Ill",
+   "e": "🤧",
+   "w": [
+    "ill",
+    "sick",
+    "unwell"
+   ],
+   "o": "healthy",
+   "y": "Ill, sick and unwell mean not feeling well. Healthy means well."
+  },
+  {
+   "t": "Huge",
+   "e": "🦕",
+   "w": [
+    "enormous",
+    "gigantic",
+    "massive"
+   ],
+   "o": "miniature",
+   "y": "Enormous, gigantic and massive mean very big. Miniature means very small."
+  },
+  {
+   "t": "Famous",
+   "e": "🌟",
+   "w": [
+    "famous",
+    "well-known",
+    "celebrated"
+   ],
+   "o": "unknown",
+   "y": "Famous, well-known and celebrated mean many people know you. Unknown means nobody does."
+  },
+  {
+   "t": "Honest",
+   "e": "🤞",
+   "w": [
+    "honest",
+    "truthful",
+    "sincere"
+   ],
+   "o": "dishonest",
+   "y": "Honest, truthful and sincere mean telling the truth. Dishonest means lying."
+  },
+  {
+   "t": "Tasty",
+   "e": "😋",
+   "w": [
+    "delicious",
+    "tasty",
+    "yummy"
+   ],
+   "o": "disgusting",
+   "y": "Delicious, tasty and yummy mean food tastes good. Disgusting means it tastes bad."
+  },
+  {
+   "t": "Expensive",
+   "e": "💸",
+   "w": [
+    "expensive",
+    "costly",
+    "pricey"
+   ],
+   "o": "affordable",
+   "y": "Expensive, costly and pricey mean it costs a lot. Affordable means you can pay for it."
+  },
+  {
+   "t": "Mean",
+   "e": "🪙",
+   "w": [
+    "mean",
+    "stingy",
+    "tight-fisted"
+   ],
+   "o": "generous",
+   "y": "Mean, stingy and tight-fisted mean not liking to give. Generous means happy to give."
+  },
+  {
+   "t": "Increase",
+   "e": "📈",
+   "w": [
+    "rise",
+    "grow",
+    "increase"
+   ],
+   "o": "fall",
+   "y": "Rise, grow and increase mean go up. Fall means go down."
+  },
+  {
+   "t": "Cold",
+   "e": "🥶",
+   "w": [
+    "freezing",
+    "chilly",
+    "cool"
+   ],
+   "o": "boiling",
+   "y": "Freezing, chilly and cool describe cold temperatures. Boiling means very hot."
+  },
+  {
+   "t": "Shy",
+   "e": "🙈",
+   "w": [
+    "shy",
+    "timid",
+    "quiet"
+   ],
+   "o": "outgoing",
+   "y": "Shy, timid and quiet describe people who avoid attention. Outgoing means sociable."
+  },
+  {
+   "t": "Positive",
+   "e": "🌞",
+   "w": [
+    "cheerful",
+    "positive",
+    "optimistic"
+   ],
+   "o": "pessimistic",
+   "y": "Cheerful, positive and optimistic mean expecting good things. Pessimistic means expecting bad things."
+  },
+  {
+   "t": "Work",
+   "e": "💼",
+   "w": [
+    "job",
+    "career",
+    "profession"
+   ],
+   "o": "hobby",
+   "y": "Job, career and profession are work you are paid for. A hobby is for fun."
+  },
+  {
+   "t": "Travel",
+   "e": "🧳",
+   "w": [
+    "trip",
+    "journey",
+    "voyage"
+   ],
+   "o": "destination",
+   "y": "Trip, journey and voyage mean travelling. A destination is the place you travel to."
+  },
+  {
+   "t": "Income",
+   "e": "💵",
+   "w": [
+    "salary",
+    "wage",
+    "income"
+   ],
+   "o": "bill",
+   "y": "Salary, wage and income are money you receive. A bill is money you must pay."
+  },
+  {
+   "t": "Heavy ___",
+   "e": "🌧️",
+   "w": [
+    "rain",
+    "traffic",
+    "smoker"
+   ],
+   "o": "sunshine",
+   "y": "We say heavy rain, heavy traffic and heavy smoker. But we say bright sunshine."
+  },
+  {
+   "t": "Strong ___",
+   "e": "☕",
+   "w": [
+    "coffee",
+    "wind",
+    "opinion"
+   ],
+   "o": "rain",
+   "y": "We say strong coffee, strong wind and strong opinion. But we say heavy rain."
+  },
+  {
+   "t": "Fast ___",
+   "e": "🍔",
+   "w": [
+    "food",
+    "car",
+    "train"
+   ],
+   "o": "glance",
+   "y": "We say fast food, fast car and fast train. But we say a quick glance."
+  },
+  {
+   "t": "Pay ___",
+   "e": "👂",
+   "w": [
+    "attention",
+    "a visit",
+    "a compliment"
+   ],
+   "o": "a speech",
+   "y": "We pay attention, pay a visit and pay a compliment. But we give a speech."
+  },
+  {
+   "t": "Keep ___",
+   "e": "🤫",
+   "w": [
+    "a secret",
+    "a promise",
+    "calm"
+   ],
+   "o": "a shower",
+   "y": "We keep a secret, a promise and calm. But we take a shower."
+  },
+  {
+   "t": "Break ___",
+   "e": "💔",
+   "w": [
+    "a record",
+    "a promise",
+    "the law"
+   ],
+   "o": "the bed",
+   "y": "We break a record, a promise and the law. But we make the bed."
+  },
+  {
+   "t": "Go ___",
+   "e": "🎣",
+   "w": [
+    "shopping",
+    "fishing",
+    "camping"
+   ],
+   "o": "cooking",
+   "y": "We go shopping, fishing and camping. But we do the cooking."
+  },
+  {
+   "t": "Stopping",
+   "e": "✋",
+   "w": [
+    "give up",
+    "quit",
+    "stop"
+   ],
+   "o": "carry on",
+   "y": "Give up, quit and stop mean not continue. Carry on means continue."
+  },
+  {
+   "t": "Qualifications",
+   "e": "🎓",
+   "w": [
+    "degree",
+    "diploma",
+    "certificate"
+   ],
+   "o": "exam",
+   "y": "Degree, diploma and certificate are qualifications you receive. An exam is a test."
+  },
+  {
+   "t": "University",
+   "e": "🏫",
+   "w": [
+    "lecturer",
+    "professor",
+    "tutor"
+   ],
+   "o": "landlord",
+   "y": "Lecturer, professor and tutor teach students. A landlord rents out homes."
+  },
+  {
+   "t": "Crime",
+   "e": "🚔",
+   "w": [
+    "burglar",
+    "thief",
+    "robber"
+   ],
+   "o": "judge",
+   "y": "Burglar, thief and robber are criminals who steal. A judge works in a court."
+  },
+  {
+   "t": "Environment",
+   "e": "🌍",
+   "w": [
+    "pollution",
+    "litter",
+    "smog"
+   ],
+   "o": "recycling",
+   "y": "Pollution, litter and smog harm the environment. Recycling helps it."
+  },
+  {
+   "t": "Car parts",
+   "e": "🚘",
+   "w": [
+    "brake",
+    "gear",
+    "steering wheel"
+   ],
+   "o": "propeller",
+   "y": "Brake, gear and steering wheel are car parts. A propeller moves planes and boats."
+  },
+  {
+   "t": "Mouth",
+   "e": "👄",
+   "w": [
+    "chew",
+    "swallow",
+    "bite"
+   ],
+   "o": "sniff",
+   "y": "Chew, swallow and bite are things you do with your mouth. Sniff uses your nose."
+  },
+  {
+   "t": "Walking",
+   "e": "🚶",
+   "w": [
+    "stroll",
+    "wander",
+    "march"
+   ],
+   "o": "sprint",
+   "y": "Stroll, wander and march are ways of walking. Sprint means run very fast."
+  },
+  {
+   "t": "Laughing",
+   "e": "🤭",
+   "w": [
+    "giggle",
+    "chuckle",
+    "laugh"
+   ],
+   "o": "sob",
+   "y": "Giggle, chuckle and laugh show amusement. Sob means cry loudly."
+  },
+  {
+   "t": "Looking",
+   "e": "👀",
+   "w": [
+    "glance",
+    "peek",
+    "gaze"
+   ],
+   "o": "overhear",
+   "y": "Glance, peek and gaze are ways of looking. Overhear is about hearing."
+  },
+  {
+   "t": "Holding",
+   "e": "✊",
+   "w": [
+    "grab",
+    "grip",
+    "hold"
+   ],
+   "o": "release",
+   "y": "Grab, grip and hold mean keep something in your hand. Release means let it go."
+  },
+  {
+   "t": "Agree",
+   "e": "👍",
+   "w": [
+    "agree",
+    "accept",
+    "approve"
+   ],
+   "o": "refuse",
+   "y": "Agree, accept and approve mean saying yes. Refuse means saying no."
+  },
+  {
+   "t": "Allow",
+   "e": "🚦",
+   "w": [
+    "allow",
+    "let",
+    "permit"
+   ],
+   "o": "forbid",
+   "y": "Allow, let and permit mean say yes to something. Forbid means say no."
+  },
+  {
+   "t": "Damage",
+   "e": "🔧",
+   "w": [
+    "damage",
+    "harm",
+    "ruin"
+   ],
+   "o": "repair",
+   "y": "Damage, harm and ruin mean make something worse. Repair means fix it."
+  },
+  {
+   "t": "___ of",
+   "e": "🔗",
+   "w": [
+    "afraid",
+    "proud",
+    "fond"
+   ],
+   "o": "interested",
+   "y": "We say afraid of, proud of and fond of. But we say interested in."
+  },
+  {
+   "t": "___ at",
+   "e": "🎯",
+   "w": [
+    "good",
+    "bad",
+    "excellent"
+   ],
+   "o": "keen",
+   "y": "We say good at, bad at and excellent at. But we say keen on."
+  },
+  {
+   "t": "People",
+   "e": "🧑",
+   "w": [
+    "teacher",
+    "actor",
+    "driver"
+   ],
+   "o": "movement",
+   "y": "Teacher, actor and driver are people. Movement is an action, not a person."
+  },
+  {
+   "t": "Adverbs",
+   "e": "⚙️",
+   "w": [
+    "quickly",
+    "slowly",
+    "carefully"
+   ],
+   "o": "friendly",
+   "y": "Quickly, slowly and carefully are adverbs. Friendly ends in -ly but is an adjective."
+  },
+  {
+   "t": "Uncountable",
+   "e": "🧮",
+   "w": [
+    "advice",
+    "information",
+    "furniture"
+   ],
+   "o": "suggestion",
+   "y": "Advice, information and furniture are uncountable. Suggestion is countable: one suggestion, two suggestions."
+  }
+ ],
+ "B2": [
+  {
+   "t": "Do ___",
+   "e": "📚",
+   "w": [
+    "research",
+    "business",
+    "harm"
+   ],
+   "o": "progress",
+   "y": "We do research, business and harm. But we make progress."
+  },
+  {
+   "t": "Make ___",
+   "e": "💡",
+   "w": [
+    "an effort",
+    "a profit",
+    "sense"
+   ],
+   "o": "a favour",
+   "y": "We make an effort, a profit and sense. But we do someone a favour."
+  },
+  {
+   "t": "Draw ___",
+   "e": "✏️",
+   "w": [
+    "attention",
+    "a conclusion",
+    "a line"
+   ],
+   "o": "a decision",
+   "y": "We draw attention, a conclusion and a line. But we make a decision."
+  },
+  {
+   "t": "Reach ___",
+   "e": "🤝",
+   "w": [
+    "a decision",
+    "an agreement",
+    "a conclusion"
+   ],
+   "o": "a speech",
+   "y": "We reach a decision, an agreement and a conclusion. But we give a speech."
+  },
+  {
+   "t": "Raise ___",
+   "e": "🙋",
+   "w": [
+    "a question",
+    "awareness",
+    "prices"
+   ],
+   "o": "attention",
+   "y": "We raise a question, awareness and prices. But we pay or draw attention."
+  },
+  {
+   "t": "Run ___",
+   "e": "🏃",
+   "w": [
+    "a business",
+    "a risk",
+    "a marathon"
+   ],
+   "o": "a decision",
+   "y": "We run a business, a risk and a marathon. But we make a decision."
+  },
+  {
+   "t": "Commit ___",
+   "e": "⚖️",
+   "w": [
+    "a crime",
+    "fraud",
+    "an offence"
+   ],
+   "o": "research",
+   "y": "We commit a crime, fraud and an offence. But we do research."
+  },
+  {
+   "t": "Highly ___",
+   "e": "⭐",
+   "w": [
+    "likely",
+    "recommended",
+    "successful"
+   ],
+   "o": "tired",
+   "y": "We say highly likely, recommended and successful. But we say extremely tired."
+  },
+  {
+   "t": "Deeply ___",
+   "e": "💭",
+   "w": [
+    "moved",
+    "concerned",
+    "rooted"
+   ],
+   "o": "expensive",
+   "y": "We say deeply moved, concerned and rooted. But we say very expensive."
+  },
+  {
+   "t": "Bitterly ___",
+   "e": "🥶",
+   "w": [
+    "cold",
+    "disappointed",
+    "opposed"
+   ],
+   "o": "happy",
+   "y": "We say bitterly cold, disappointed and opposed. Bitterly goes with negative words, not happy."
+  },
+  {
+   "t": "Formal",
+   "e": "🎩",
+   "w": [
+    "commence",
+    "purchase",
+    "assist"
+   ],
+   "o": "grab",
+   "y": "Commence, purchase and assist are formal words. Grab is informal."
+  },
+  {
+   "t": "Informal",
+   "e": "🧢",
+   "w": [
+    "kid",
+    "guy",
+    "mate"
+   ],
+   "o": "gentleman",
+   "y": "Kid, guy and mate are informal words. Gentleman is formal and polite."
+  },
+  {
+   "t": "Relaxing",
+   "e": "🛋️",
+   "w": [
+    "hang out",
+    "chill out",
+    "mess about"
+   ],
+   "o": "deliberate",
+   "y": "Hang out, chill out and mess about are informal and relaxed. Deliberate means think carefully."
+  },
+  {
+   "t": "Important",
+   "e": "❗",
+   "w": [
+    "crucial",
+    "vital",
+    "essential"
+   ],
+   "o": "trivial",
+   "y": "Crucial, vital and essential mean very important. Trivial means unimportant."
+  },
+  {
+   "t": "Obvious",
+   "e": "🔍",
+   "w": [
+    "obvious",
+    "evident",
+    "apparent"
+   ],
+   "o": "obscure",
+   "y": "Obvious, evident and apparent mean easy to see. Obscure means hard to see or understand."
+  },
+  {
+   "t": "Careful",
+   "e": "⚠️",
+   "w": [
+    "cautious",
+    "wary",
+    "prudent"
+   ],
+   "o": "reckless",
+   "y": "Cautious, wary and prudent mean careful. Reckless means not caring about danger."
+  },
+  {
+   "t": "Enough",
+   "e": "🥣",
+   "w": [
+    "sufficient",
+    "adequate",
+    "ample"
+   ],
+   "o": "scarce",
+   "y": "Sufficient, adequate and ample mean enough. Scarce means not enough."
+  },
+  {
+   "t": "Outdated",
+   "e": "📼",
+   "w": [
+    "obsolete",
+    "outdated",
+    "antiquated"
+   ],
+   "o": "cutting-edge",
+   "y": "Obsolete, outdated and antiquated mean old-fashioned. Cutting-edge means very modern."
+  },
+  {
+   "t": "Very angry",
+   "e": "😡",
+   "w": [
+    "furious",
+    "livid",
+    "enraged"
+   ],
+   "o": "irritated",
+   "y": "Furious, livid and enraged mean extremely angry. Irritated means only slightly annoyed."
+  },
+  {
+   "t": "Exhausted",
+   "e": "🔋",
+   "w": [
+    "exhausted",
+    "drained",
+    "worn out"
+   ],
+   "o": "refreshed",
+   "y": "Exhausted, drained and worn out mean very tired. Refreshed means full of energy again."
+  },
+  {
+   "t": "Nervous",
+   "e": "😬",
+   "w": [
+    "anxious",
+    "uneasy",
+    "apprehensive"
+   ],
+   "o": "serene",
+   "y": "Anxious, uneasy and apprehensive mean worried. Serene means calm and peaceful."
+  },
+  {
+   "t": "Thin",
+   "e": "🧍",
+   "w": [
+    "slim",
+    "slender",
+    "lean"
+   ],
+   "o": "scrawny",
+   "y": "Slim, slender and lean are positive ways to say thin. Scrawny is negative."
+  },
+  {
+   "t": "Confident",
+   "e": "🦁",
+   "w": [
+    "confident",
+    "self-assured",
+    "assertive"
+   ],
+   "o": "arrogant",
+   "y": "Confident, self-assured and assertive are positive. Arrogant is negative: too proud."
+  },
+  {
+   "t": "Careful spender",
+   "e": "🐷",
+   "w": [
+    "thrifty",
+    "frugal",
+    "economical"
+   ],
+   "o": "stingy",
+   "y": "Thrifty, frugal and economical mean careful with money. Stingy is negative: unwilling to share."
+  },
+  {
+   "t": "Curious",
+   "e": "🧐",
+   "w": [
+    "curious",
+    "inquisitive",
+    "interested"
+   ],
+   "o": "nosy",
+   "y": "Curious, inquisitive and interested are neutral or positive. Nosy is negative: too interested in others."
+  },
+  {
+   "t": "Determined",
+   "e": "🧗",
+   "w": [
+    "determined",
+    "persistent",
+    "tenacious"
+   ],
+   "o": "stubborn",
+   "y": "Determined, persistent and tenacious are positive. Stubborn is negative: refusing to change."
+  },
+  {
+   "t": "Money in",
+   "e": "📊",
+   "w": [
+    "revenue",
+    "turnover",
+    "income"
+   ],
+   "o": "expenditure",
+   "y": "Revenue, turnover and income are money coming in. Expenditure is money going out."
+  },
+  {
+   "t": "Borrowing",
+   "e": "🏦",
+   "w": [
+    "loan",
+    "mortgage",
+    "debt"
+   ],
+   "o": "savings",
+   "y": "Loan, mortgage and debt are money you owe. Savings are money you keep."
+  },
+  {
+   "t": "Quitting",
+   "e": "🚪",
+   "w": [
+    "resign",
+    "quit",
+    "step down"
+   ],
+   "o": "hire",
+   "y": "Resign, quit and step down mean leave a job. Hire means give someone a job."
+  },
+  {
+   "t": "Dismissal",
+   "e": "📉",
+   "w": [
+    "fire",
+    "sack",
+    "dismiss"
+   ],
+   "o": "promote",
+   "y": "Fire, sack and dismiss mean remove from a job. Promote means give a higher position."
+  },
+  {
+   "t": "Adding",
+   "e": "➕",
+   "w": [
+    "moreover",
+    "furthermore",
+    "in addition"
+   ],
+   "o": "however",
+   "y": "Moreover, furthermore and in addition add a point. However introduces a contrast."
+  },
+  {
+   "t": "Contrast",
+   "e": "↔️",
+   "w": [
+    "however",
+    "nevertheless",
+    "nonetheless"
+   ],
+   "o": "therefore",
+   "y": "However, nevertheless and nonetheless show contrast. Therefore shows a result."
+  },
+  {
+   "t": "Result",
+   "e": "➡️",
+   "w": [
+    "therefore",
+    "consequently",
+    "thus"
+   ],
+   "o": "although",
+   "y": "Therefore, consequently and thus show a result. Although shows contrast."
+  },
+  {
+   "t": "Postpone",
+   "e": "⏳",
+   "w": [
+    "put off",
+    "postpone",
+    "delay"
+   ],
+   "o": "bring forward",
+   "y": "Put off, postpone and delay mean move to later. Bring forward means move earlier."
+  },
+  {
+   "t": "Cancel",
+   "e": "❌",
+   "w": [
+    "call off",
+    "cancel",
+    "scrap"
+   ],
+   "o": "go ahead",
+   "y": "Call off, cancel and scrap mean stop a plan. Go ahead means it happens."
+  },
+  {
+   "t": "Finding",
+   "e": "🔦",
+   "w": [
+    "come across",
+    "stumble upon",
+    "bump into"
+   ],
+   "o": "look for",
+   "y": "Come across, stumble upon and bump into mean find by chance. Look for means search."
+  },
+  {
+   "t": "Tolerate",
+   "e": "😤",
+   "w": [
+    "tolerate",
+    "endure",
+    "bear"
+   ],
+   "o": "object to",
+   "y": "Tolerate, endure and bear mean accept something unpleasant. Object to means protest."
+  },
+  {
+   "t": "Rain",
+   "e": "🌦️",
+   "w": [
+    "drizzle",
+    "shower",
+    "downpour"
+   ],
+   "o": "drought",
+   "y": "Drizzle, shower and downpour are types of rain. Drought is a long time without rain."
+  },
+  {
+   "t": "Wind",
+   "e": "🌬️",
+   "w": [
+    "breeze",
+    "gale",
+    "gust"
+   ],
+   "o": "hail",
+   "y": "Breeze, gale and gust are types of wind. Hail is frozen rain."
+  },
+  {
+   "t": "Complaining",
+   "e": "😒",
+   "w": [
+    "grumble",
+    "moan",
+    "whinge"
+   ],
+   "o": "praise",
+   "y": "Grumble, moan and whinge mean complain. Praise means say good things."
+  },
+  {
+   "t": "Praising",
+   "e": "👏",
+   "w": [
+    "compliment",
+    "praise",
+    "applaud"
+   ],
+   "o": "criticise",
+   "y": "Compliment, praise and applaud show approval. Criticise shows disapproval."
+  },
+  {
+   "t": "Asking",
+   "e": "❔",
+   "w": [
+    "inquire",
+    "query",
+    "question"
+   ],
+   "o": "reply",
+   "y": "Inquire, query and question mean ask. Reply means answer."
+  },
+  {
+   "t": "Saying",
+   "e": "📣",
+   "w": [
+    "claim",
+    "state",
+    "assert"
+   ],
+   "o": "deny",
+   "y": "Claim, state and assert mean say something is true. Deny means say it is not true."
+  },
+  {
+   "t": "Noises",
+   "e": "💥",
+   "w": [
+    "crash",
+    "bang",
+    "thud"
+   ],
+   "o": "whisper",
+   "y": "Crash, bang and thud are loud, sudden noises. A whisper is soft and quiet."
+  },
+  {
+   "t": "Light",
+   "e": "✨",
+   "w": [
+    "glow",
+    "sparkle",
+    "glitter"
+   ],
+   "o": "rumble",
+   "y": "Glow, sparkle and glitter describe light. Rumble describes a deep sound."
+  },
+  {
+   "t": "Liquids",
+   "e": "🚰",
+   "w": [
+    "drip",
+    "trickle",
+    "seep"
+   ],
+   "o": "gush",
+   "y": "Drip, trickle and seep mean liquid flows slowly. Gush means it flows fast and strongly."
+  },
+  {
+   "t": "Gestures",
+   "e": "🤷",
+   "w": [
+    "nod",
+    "shrug",
+    "wink"
+   ],
+   "o": "hum",
+   "y": "Nod, shrug and wink are body movements. Hum is a sound you make."
+  },
+  {
+   "t": "Unhappy faces",
+   "e": "😣",
+   "w": [
+    "frown",
+    "scowl",
+    "grimace"
+   ],
+   "o": "grin",
+   "y": "Frown, scowl and grimace show displeasure. Grin is a big smile."
+  },
+  {
+   "t": "Quiet speech",
+   "e": "🤐",
+   "w": [
+    "mutter",
+    "mumble",
+    "murmur"
+   ],
+   "o": "bellow",
+   "y": "Mutter, mumble and murmur mean speak quietly. Bellow means shout loudly."
+  },
+  {
+   "t": "Media",
+   "e": "📰",
+   "w": [
+    "headline",
+    "article",
+    "editorial"
+   ],
+   "o": "sitcom",
+   "y": "Headline, article and editorial are found in newspapers. A sitcom is a TV comedy."
+  }
+ ],
+ "C1": [
+  {
+   "t": "Conduct ___",
+   "e": "🔬",
+   "w": [
+    "research",
+    "an interview",
+    "an experiment"
+   ],
+   "o": "a mistake",
+   "y": "We conduct research, an interview and an experiment. But we make a mistake."
+  },
+  {
+   "t": "Pose ___",
+   "e": "⚠️",
+   "w": [
+    "a threat",
+    "a question",
+    "a challenge"
+   ],
+   "o": "an effort",
+   "y": "Something can pose a threat, a question or a challenge. But we make an effort."
+  },
+  {
+   "t": "Ending",
+   "e": "🛑",
+   "w": [
+    "terminate",
+    "conclude",
+    "cease"
+   ],
+   "o": "initiate",
+   "y": "Terminate, conclude and cease mean end. Initiate means begin."
+  },
+  {
+   "t": "Easing",
+   "e": "🩹",
+   "w": [
+    "alleviate",
+    "mitigate",
+    "ease"
+   ],
+   "o": "intensify",
+   "y": "Alleviate, mitigate and ease mean make less severe. Intensify means make stronger."
+  },
+  {
+   "t": "Worsening",
+   "e": "🔥",
+   "w": [
+    "exacerbate",
+    "aggravate",
+    "worsen"
+   ],
+   "o": "alleviate",
+   "y": "Exacerbate, aggravate and worsen mean make worse. Alleviate means make better."
+  },
+  {
+   "t": "Blocking",
+   "e": "🚧",
+   "w": [
+    "hinder",
+    "impede",
+    "hamper"
+   ],
+   "o": "facilitate",
+   "y": "Hinder, impede and hamper mean make harder. Facilitate means make easier."
+  },
+  {
+   "t": "Wordy",
+   "e": "📜",
+   "w": [
+    "verbose",
+    "long-winded",
+    "wordy"
+   ],
+   "o": "concise",
+   "y": "Verbose, long-winded and wordy mean using too many words. Concise means brief and clear."
+  },
+  {
+   "t": "Brief",
+   "e": "✂️",
+   "w": [
+    "succinct",
+    "terse",
+    "pithy"
+   ],
+   "o": "rambling",
+   "y": "Succinct, terse and pithy mean short and to the point. Rambling means long and unfocused."
+  },
+  {
+   "t": "Honest",
+   "e": "🗨️",
+   "w": [
+    "candid",
+    "frank",
+    "forthright"
+   ],
+   "o": "evasive",
+   "y": "Candid, frank and forthright mean speaking openly. Evasive means avoiding direct answers."
+  },
+  {
+   "t": "Everywhere",
+   "e": "🌐",
+   "w": [
+    "ubiquitous",
+    "pervasive",
+    "omnipresent"
+   ],
+   "o": "scarce",
+   "y": "Ubiquitous, pervasive and omnipresent mean found everywhere. Scarce means hard to find."
+  },
+  {
+   "t": "Short-lived",
+   "e": "🦋",
+   "w": [
+    "ephemeral",
+    "fleeting",
+    "transient"
+   ],
+   "o": "enduring",
+   "y": "Ephemeral, fleeting and transient mean lasting a short time. Enduring means lasting long."
+  },
+  {
+   "t": "Thorough",
+   "e": "🔎",
+   "w": [
+    "meticulous",
+    "scrupulous",
+    "painstaking"
+   ],
+   "o": "slapdash",
+   "y": "Meticulous, scrupulous and painstaking mean very careful. Slapdash means careless and hurried."
+  },
+  {
+   "t": "Sluggish",
+   "e": "🐌",
+   "w": [
+    "lethargic",
+    "sluggish",
+    "listless"
+   ],
+   "o": "vigorous",
+   "y": "Lethargic, sluggish and listless mean lacking energy. Vigorous means strong and energetic."
+  },
+  {
+   "t": "Kindness",
+   "e": "🕊️",
+   "w": [
+    "benevolent",
+    "magnanimous",
+    "altruistic"
+   ],
+   "o": "malevolent",
+   "y": "Benevolent, magnanimous and altruistic mean kind and generous. Malevolent means wanting to harm."
+  },
+  {
+   "t": "Fame",
+   "e": "🏆",
+   "w": [
+    "renowned",
+    "acclaimed",
+    "eminent"
+   ],
+   "o": "notorious",
+   "y": "Renowned, acclaimed and eminent mean famous for good things. Notorious means famous for bad things."
+  },
+  {
+   "t": "Trusting",
+   "e": "🎣",
+   "w": [
+    "naive",
+    "gullible",
+    "credulous"
+   ],
+   "o": "shrewd",
+   "y": "Naive, gullible and credulous mean too easily fooled. Shrewd means clever and hard to fool."
+  },
+  {
+   "t": "Doubtful",
+   "e": "🤨",
+   "w": [
+    "sceptical",
+    "dubious",
+    "wary"
+   ],
+   "o": "trusting",
+   "y": "Sceptical, dubious and wary mean doubting or not trusting. Trusting means believing easily."
+  },
+  {
+   "t": "Stubborn",
+   "e": "🧱",
+   "w": [
+    "obstinate",
+    "intransigent",
+    "unyielding"
+   ],
+   "o": "compliant",
+   "y": "Obstinate, intransigent and unyielding mean refusing to change. Compliant means willing to obey."
+  },
+  {
+   "t": "Praising",
+   "e": "🎖️",
+   "w": [
+    "laud",
+    "extol",
+    "commend"
+   ],
+   "o": "disparage",
+   "y": "Laud, extol and commend mean praise. Disparage means speak badly of."
+  },
+  {
+   "t": "Scolding",
+   "e": "☝️",
+   "w": [
+    "reprimand",
+    "rebuke",
+    "admonish"
+   ],
+   "o": "commend",
+   "y": "Reprimand, rebuke and admonish mean criticise formally. Commend means praise."
+  },
+  {
+   "t": "Secret",
+   "e": "🕵️",
+   "w": [
+    "clandestine",
+    "covert",
+    "surreptitious"
+   ],
+   "o": "overt",
+   "y": "Clandestine, covert and surreptitious mean secret. Overt means done openly."
+  },
+  {
+   "t": "Gloomy",
+   "e": "🌧️",
+   "w": [
+    "melancholy",
+    "despondent",
+    "forlorn"
+   ],
+   "o": "elated",
+   "y": "Melancholy, despondent and forlorn mean sad. Elated means extremely happy."
+  },
+  {
+   "t": "Talkative",
+   "e": "💬",
+   "w": [
+    "garrulous",
+    "loquacious",
+    "voluble"
+   ],
+   "o": "taciturn",
+   "y": "Garrulous, loquacious and voluble mean talking a lot. Taciturn means saying very little."
+  },
+  {
+   "t": "Poverty",
+   "e": "🪙",
+   "w": [
+    "destitute",
+    "impoverished",
+    "penniless"
+   ],
+   "o": "affluent",
+   "y": "Destitute, impoverished and penniless mean very poor. Affluent means wealthy."
+  },
+  {
+   "t": "Hostile",
+   "e": "🥊",
+   "w": [
+    "belligerent",
+    "combative",
+    "pugnacious"
+   ],
+   "o": "conciliatory",
+   "y": "Belligerent, combative and pugnacious mean eager to fight. Conciliatory means trying to make peace."
+  },
+  {
+   "t": "Unclear",
+   "e": "🌀",
+   "w": [
+    "ambiguous",
+    "equivocal",
+    "cryptic"
+   ],
+   "o": "explicit",
+   "y": "Ambiguous, equivocal and cryptic mean unclear in meaning. Explicit means stated clearly."
+  },
+  {
+   "t": "Abundance",
+   "e": "🌾",
+   "w": [
+    "plethora",
+    "myriad",
+    "abundance"
+   ],
+   "o": "dearth",
+   "y": "Plethora, myriad and abundance mean a large amount. Dearth means a lack."
+  },
+  {
+   "t": "Shortage",
+   "e": "🏜️",
+   "w": [
+    "dearth",
+    "paucity",
+    "scarcity"
+   ],
+   "o": "surplus",
+   "y": "Dearth, paucity and scarcity mean too little. Surplus means more than needed."
+  },
+  {
+   "t": "Fake",
+   "e": "🎭",
+   "w": [
+    "spurious",
+    "bogus",
+    "counterfeit"
+   ],
+   "o": "authentic",
+   "y": "Spurious, bogus and counterfeit mean false or fake. Authentic means genuine."
+  },
+  {
+   "t": "Calm",
+   "e": "🧘",
+   "w": [
+    "composed",
+    "unflappable",
+    "level-headed"
+   ],
+   "o": "flustered",
+   "y": "Composed, unflappable and level-headed mean calm under pressure. Flustered means confused and agitated."
+  },
+  {
+   "t": "Indecision",
+   "e": "⚖️",
+   "w": [
+    "waver",
+    "vacillate",
+    "dither"
+   ],
+   "o": "decide",
+   "y": "Waver, vacillate and dither mean be unable to choose. Decide means make a choice."
+  },
+  {
+   "t": "Deceiving",
+   "e": "🃏",
+   "w": [
+    "hoodwink",
+    "dupe",
+    "swindle"
+   ],
+   "o": "level with",
+   "y": "Hoodwink, dupe and swindle mean trick someone. Level with means be honest with someone."
+  },
+  {
+   "t": "Grumpy",
+   "e": "😾",
+   "w": [
+    "irritable",
+    "cantankerous",
+    "testy"
+   ],
+   "o": "genial",
+   "y": "Irritable, cantankerous and testy mean easily annoyed. Genial means friendly and cheerful."
+  },
+  {
+   "t": "Flattery",
+   "e": "🙇",
+   "w": [
+    "obsequious",
+    "servile",
+    "sycophantic"
+   ],
+   "o": "defiant",
+   "y": "Obsequious, servile and sycophantic mean too eager to please. Defiant means openly resisting."
+  },
+  {
+   "t": "Rash",
+   "e": "🎲",
+   "w": [
+    "rash",
+    "impetuous",
+    "foolhardy"
+   ],
+   "o": "circumspect",
+   "y": "Rash, impetuous and foolhardy mean acting without thinking. Circumspect means cautious."
+  },
+  {
+   "t": "Dull",
+   "e": "🥱",
+   "w": [
+    "mundane",
+    "humdrum",
+    "monotonous"
+   ],
+   "o": "riveting",
+   "y": "Mundane, humdrum and monotonous mean boring. Riveting means extremely interesting."
+  },
+  {
+   "t": "Courage",
+   "e": "🛡️",
+   "w": [
+    "intrepid",
+    "valiant",
+    "dauntless"
+   ],
+   "o": "craven",
+   "y": "Intrepid, valiant and dauntless mean very brave. Craven means cowardly."
+  },
+  {
+   "t": "Approval",
+   "e": "✅",
+   "w": [
+    "ratify",
+    "endorse",
+    "approve"
+   ],
+   "o": "veto",
+   "y": "Ratify, endorse and approve mean officially support. Veto means officially reject."
+  },
+  {
+   "t": "Abolish",
+   "e": "📜",
+   "w": [
+    "abolish",
+    "repeal",
+    "revoke"
+   ],
+   "o": "enact",
+   "y": "Abolish, repeal and revoke mean officially end a law. Enact means make it law."
+  },
+  {
+   "t": "Smell",
+   "e": "🌸",
+   "w": [
+    "fragrant",
+    "aromatic",
+    "perfumed"
+   ],
+   "o": "fetid",
+   "y": "Fragrant, aromatic and perfumed mean smelling pleasant. Fetid means smelling very bad."
+  },
+  {
+   "t": "Shaking",
+   "e": "🫨",
+   "w": [
+    "quiver",
+    "tremble",
+    "shudder"
+   ],
+   "o": "saunter",
+   "y": "Quiver, tremble and shudder mean shake. Saunter means walk in a relaxed way."
+  },
+  {
+   "t": "Laziness",
+   "e": "🛌",
+   "w": [
+    "indolent",
+    "slothful",
+    "idle"
+   ],
+   "o": "industrious",
+   "y": "Indolent, slothful and idle mean lazy. Industrious means hard-working."
+  },
+  {
+   "t": "Showy",
+   "e": "🦚",
+   "w": [
+    "ostentatious",
+    "flamboyant",
+    "showy"
+   ],
+   "o": "understated",
+   "y": "Ostentatious, flamboyant and showy mean designed to impress. Understated means modest and subtle."
+  },
+  {
+   "t": "Obedient",
+   "e": "🐕",
+   "w": [
+    "obedient",
+    "docile",
+    "submissive"
+   ],
+   "o": "unruly",
+   "y": "Obedient, docile and submissive mean easily controlled. Unruly means hard to control."
+  },
+  {
+   "t": "Skilled",
+   "e": "🎻",
+   "w": [
+    "adept",
+    "proficient",
+    "deft"
+   ],
+   "o": "inept",
+   "y": "Adept, proficient and deft mean skilful. Inept means clumsy and unskilled."
+  },
+  {
+   "t": "Arrogant",
+   "e": "👑",
+   "w": [
+    "haughty",
+    "condescending",
+    "supercilious"
+   ],
+   "o": "humble",
+   "y": "Haughty, condescending and supercilious mean acting superior. Humble means modest."
+  },
+  {
+   "t": "Indirect",
+   "e": "🤫",
+   "w": [
+    "imply",
+    "insinuate",
+    "allude"
+   ],
+   "o": "proclaim",
+   "y": "Imply, insinuate and allude mean suggest indirectly. Proclaim means announce openly."
+  },
+  {
+   "t": "Bear ___",
+   "e": "🐻",
+   "w": [
+    "a resemblance",
+    "a grudge",
+    "the brunt"
+   ],
+   "o": "a conclusion",
+   "y": "We bear a resemblance, a grudge and the brunt. But we draw a conclusion."
+  },
+  {
+   "t": "Harbour ___",
+   "e": "⚓",
+   "w": [
+    "a grudge",
+    "doubts",
+    "suspicions"
+   ],
+   "o": "a profit",
+   "y": "We harbour a grudge, doubts and suspicions. But we make a profit."
+  },
+  {
+   "t": "Levy ___",
+   "e": "🏛️",
+   "w": [
+    "a tax",
+    "a fine",
+    "a charge"
+   ],
+   "o": "a reward",
+   "y": "Governments levy a tax, a fine or a charge. A reward is offered, not levied."
+  }
+ ]
+}

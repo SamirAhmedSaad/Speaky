@@ -1,0 +1,44 @@
+{
+  "title": "Time Expressions Around the Clock",
+  "content": {
+    "vocabulary": [
+      {"word": "rare / rarely", "pos": "adjective / adverb", "meaning_en": "not happening often", "meaning_ar": "نادر / نادرًا", "note_ar": "", "note_en": "", "example": "Snow is rare in this city."},
+      {"word": "charm", "pos": "noun", "meaning_en": "luck; something that brings good luck", "meaning_ar": "حظّ / تميمة حظ", "note_ar": "", "note_en": "", "example": "Third time's the charm!"},
+      {"word": "wink", "pos": "noun", "meaning_en": "closing one eye quickly; \"forty winks\" = a short sleep", "meaning_ar": "غمزة / إغفاءة قصيرة (forty winks)", "note_ar": "", "note_en": "", "example": "I'll catch forty winks before dinner."},
+      {"word": "lamb", "pos": "noun", "meaning_en": "a young sheep", "meaning_ar": "حَمَل / خروف صغير", "note_ar": "", "note_en": "", "example": "The lamb's tail moves very quickly."},
+      {"word": "stitch", "pos": "noun", "meaning_en": "one pass of a needle and thread when sewing", "meaning_ar": "غُرزة", "note_ar": "", "note_en": "", "example": "A stitch in time saves nine."},
+      {"word": "clockwork", "pos": "noun", "meaning_en": "the machinery inside a clock; \"like clockwork\" = very regularly", "meaning_ar": "آلية الساعة / بانتظام دقيق", "note_ar": "", "note_en": "", "example": "The bus comes every ten minutes, like clockwork."},
+      {"word": "Daylight Saving Time", "pos": "noun", "meaning_en": "the time of year when clocks move one hour forward", "meaning_ar": "التوقيت الصيفي", "note_ar": "", "note_en": "James says \"Daylight Savings Time\", which is common in speech.", "example": "In spring, Daylight Saving Time starts and we lose an hour of sleep."}
+    ],
+    "fine_lines": [
+      {"title": "at the eleventh hour vs around the clock", "words": ["at the eleventh hour", "around the clock"], "explanation_ar": "at the eleventh hour تعني في آخر لحظة. around the clock تعني ليلًا ونهارًا دون توقّف.", "explanation_en": "At the eleventh hour = at the last possible moment. Around the clock = all day and all night, without stopping.", "examples": [{"word": "at the eleventh hour", "sentence": "He handed in his project at the eleventh hour."}, {"word": "around the clock", "sentence": "Nurses work around the clock in the hospital."}]},
+      {"title": "take five vs forty winks", "words": ["take five", "forty winks"], "explanation_ar": "take five استراحة قصيرة (نحو خمس دقائق). forty winks نوم قصير أو قيلولة.", "explanation_en": "Take five = a short break (about five minutes). Forty winks = a short sleep, a nap.", "examples": [{"word": "take five", "sentence": "We've worked for two hours. Let's take five."}, {"word": "forty winks", "sentence": "I'm tired; I need forty winks."}]}
+    ],
+    "expressions": [
+      {"phrase": "once in a blue moon", "meaning_ar": "نادرًا جدًا", "meaning_en": "very rarely (1)", "example": "My cousin visits us once in a blue moon."},
+      {"phrase": "in two shakes of a lamb's tail", "meaning_ar": "في لمح البصر / بسرعة كبيرة", "meaning_en": "very quickly (2)", "example": "Wait here; I'll be back in two shakes of a lamb's tail."},
+      {"phrase": "third time's the charm", "meaning_ar": "المحاولة الثالثة هي الناجحة", "meaning_en": "after two failures, the third try will work (3)", "example": "I failed the driving test twice, but third time's the charm."},
+      {"phrase": "catch forty winks", "meaning_ar": "يأخذ غفوة قصيرة", "meaning_en": "have a short sleep (4)", "example": "Grandpa catches forty winks after lunch."},
+      {"phrase": "take five", "meaning_ar": "خذ استراحة قصيرة", "meaning_en": "take a short break (5)", "example": "OK everyone, take five, then we'll continue."},
+      {"phrase": "do time", "meaning_ar": "يقضي فترة في السجن", "meaning_en": "spend time in prison (6)", "example": "The thief did time for robbery."},
+      {"phrase": "an eight-hour day", "meaning_ar": "يوم عمل من ثماني ساعات", "meaning_en": "a normal full working day (8)", "example": "After an eight-hour day, I just want to rest."},
+      {"phrase": "a stitch in time saves nine", "meaning_ar": "درهم وقاية خير من قنطار علاج", "meaning_en": "fixing a small problem early saves a lot of work later (9)", "example": "Fix that small leak now; a stitch in time saves nine."},
+      {"phrase": "like clockwork", "meaning_ar": "بانتظام شديد / بدقة الساعة", "meaning_en": "very regularly and smoothly", "example": "Every morning at seven, like clockwork, he goes for a walk."},
+      {"phrase": "at the eleventh hour", "meaning_ar": "في آخر لحظة", "meaning_en": "at the last possible moment (11)", "example": "They cancelled the trip at the eleventh hour."},
+      {"phrase": "around the clock", "meaning_ar": "على مدار الساعة", "meaning_en": "all day and night (12)", "example": "The shop is open around the clock."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"Once in a blue moon\" means:", "choices": ["very rarely", "every night", "very quickly", "at the last minute"], "answer": 0, "explanation_ar": "once in a blue moon = نادرًا جدًا.", "explanation_en": "It means very rarely."},
+    {"question": "\"I'll be back in two shakes of a lamb's tail.\" I'll be back ___.", "choices": ["next year", "very quickly", "never", "at midnight"], "answer": 1, "explanation_ar": "in two shakes of a lamb's tail = بسرعة كبيرة.", "explanation_en": "It means very quickly."},
+    {"question": "You failed twice. Your friend says: \"Try again. ___!\"", "choices": ["Take five", "Do time", "Third time's the charm", "Around the clock"], "answer": 2, "explanation_ar": "third time's the charm = المحاولة الثالثة ستنجح.", "explanation_en": "The third try will work."},
+    {"question": "\"I'm sleepy. I'll catch ___ before the meeting.\"", "choices": ["a blue moon", "a stitch", "five", "forty winks"], "answer": 3, "explanation_ar": "forty winks = غفوة قصيرة.", "explanation_en": "Forty winks = a short sleep."},
+    {"question": "\"We've worked hard. Let's ___.\" (short break)", "choices": ["take five", "do time", "catch the clock", "be a blue moon"], "answer": 0, "explanation_ar": "take five = استراحة قصيرة.", "explanation_en": "Take five = a short break."},
+    {"question": "\"He did time\" means he ___.", "choices": ["worked overtime", "was in prison", "was very fast", "took a nap"], "answer": 1, "explanation_ar": "do time = يقضي مدة في السجن.", "explanation_en": "Do time = spend time in prison."},
+    {"question": "\"They changed the plan ___.\" (at the last possible moment)", "choices": ["like clockwork", "around the clock", "at the eleventh hour", "once in a blue moon"], "answer": 2, "explanation_ar": "at the eleventh hour = في آخر لحظة.", "explanation_en": "At the eleventh hour = at the last moment."},
+    {"question": "\"The hospital works ___.\" (24 hours a day)", "choices": ["at the eleventh hour", "in two shakes", "like a stitch", "around the clock"], "answer": 3, "explanation_ar": "around the clock = على مدار الساعة.", "explanation_en": "Around the clock = all day and night."},
+    {"question": "\"A stitch in time saves nine\" means:", "choices": ["Fix small problems early.", "Sewing is boring.", "Always be late.", "Nine is a lucky number."], "answer": 0, "explanation_ar": "إصلاح المشكلة مبكرًا يوفّر جهدًا كبيرًا لاحقًا.", "explanation_en": "Fixing a problem early saves work later."},
+    {"question": "\"The train arrives at 8:00 every day, ___.\"", "choices": ["at the eleventh hour", "like clockwork", "forty winks", "do time"], "answer": 1, "explanation_ar": "like clockwork = بانتظام دقيق.", "explanation_en": "Like clockwork = very regularly."}
+  ]
+}

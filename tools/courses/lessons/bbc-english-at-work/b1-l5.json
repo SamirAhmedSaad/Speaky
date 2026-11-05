@@ -1,0 +1,377 @@
+{
+  "title": "Making Polite Requests",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "request",
+        "pos": "noun",
+        "meaning_en": "the act of politely asking for something",
+        "meaning_ar": "طلب",
+        "note_ar": "يأتي فعلًا أيضًا: to request",
+        "note_en": "Also a verb: to request.",
+        "example": "She made a polite request for help."
+      },
+      {
+        "word": "polite",
+        "pos": "adjective",
+        "meaning_en": "speaking or acting in a kind, respectful way",
+        "meaning_ar": "مهذّب",
+        "note_ar": "عكسها: rude",
+        "note_en": "Opposite: rude.",
+        "example": "Please be polite to our clients."
+      },
+      {
+        "word": "rude",
+        "pos": "adjective",
+        "meaning_en": "not polite",
+        "meaning_ar": "غير مهذّب / وقح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It sounds rude to give orders to colleagues."
+      },
+      {
+        "word": "bossy",
+        "pos": "adjective",
+        "meaning_en": "always telling other people what to do",
+        "meaning_ar": "متسلّط / يحب إصدار الأوامر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't be bossy with your colleagues."
+      },
+      {
+        "word": "upset",
+        "pos": "verb",
+        "meaning_en": "make someone unhappy or angry",
+        "meaning_ar": "يُزعج / يُحزن",
+        "note_ar": "الماضي والتصريف الثالث: upset",
+        "note_en": "Past: upset.",
+        "example": "I didn't want to upset Denise."
+      },
+      {
+        "word": "print out",
+        "pos": "phrasal verb",
+        "meaning_en": "make a paper copy of a computer document",
+        "meaning_ar": "يطبع",
+        "note_ar": "الاسم: printout = نسخة مطبوعة",
+        "note_en": "Noun: a printout.",
+        "example": "Could you print out this file for me?"
+      },
+      {
+        "word": "printer",
+        "pos": "noun",
+        "meaning_en": "a machine that prints documents",
+        "meaning_ar": "طابعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The printer isn't working."
+      },
+      {
+        "word": "set up",
+        "pos": "phrasal verb",
+        "meaning_en": "prepare a machine or system so it is ready to use",
+        "meaning_ar": "يُجهّز / يُعِدّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you help me set up the printer?"
+      },
+      {
+        "word": "file",
+        "pos": "noun",
+        "meaning_en": "a document on a computer or in a folder",
+        "meaning_ar": "ملف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The file should be on the system."
+      },
+      {
+        "word": "document",
+        "pos": "noun",
+        "meaning_en": "a piece of written or printed information",
+        "meaning_ar": "وثيقة / مستند",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please sign this document."
+      },
+      {
+        "word": "supplier",
+        "pos": "noun",
+        "meaning_en": "a company that sells goods to another company",
+        "meaning_ar": "مورّد",
+        "note_ar": "الفعل: supply = يورّد",
+        "note_en": "Verb: supply.",
+        "example": "They are one of our suppliers."
+      },
+      {
+        "word": "system",
+        "pos": "noun",
+        "meaning_en": "the computer network a company uses",
+        "meaning_ar": "النظام (الحاسوبي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "All files are saved on the system."
+      },
+      {
+        "word": "urgent",
+        "pos": "adjective",
+        "meaning_en": "needing to be done immediately",
+        "meaning_ar": "عاجل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry, it's really urgent."
+      },
+      {
+        "word": "within",
+        "pos": "preposition",
+        "meaning_en": "before the end of a period of time",
+        "meaning_ar": "خلال / في غضون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I have it within ten minutes, please?"
+      },
+      {
+        "word": "background",
+        "pos": "noun",
+        "meaning_en": "information about the history of a situation or company",
+        "meaning_ar": "معلومات خلفية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please read the background file on this client."
+      },
+      {
+        "word": "possibly",
+        "pos": "adverb",
+        "meaning_en": "used in requests to make them more polite",
+        "meaning_ar": "من فضلك إن أمكن (للتهذيب)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you possibly help me?"
+      },
+      {
+        "word": "since you asked so nicely",
+        "pos": "phrase",
+        "meaning_en": "because you asked in a kind, polite way",
+        "meaning_ar": "بما أنك طلبت بلطف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "OK, since you asked so nicely, I'll help."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "could vs would in requests",
+        "words": [
+          "could",
+          "would"
+        ],
+        "explanation_ar": "كلاهما يجعل الطلب مهذبًا. Could you...? تسأل عن القدرة، Would you...? تسأل عن الرغبة. وبعد Would you mind نستخدم -ing.",
+        "explanation_en": "Both make requests polite. \"Could you...?\" asks about ability; \"Would you...?\" asks about willingness. After \"Would you mind\" use -ing.",
+        "examples": [
+          {
+            "word": "could",
+            "sentence": "Could you send me the file?"
+          },
+          {
+            "word": "would",
+            "sentence": "Would you mind sending me the file?"
+          }
+        ]
+      },
+      {
+        "title": "please alone vs could you please",
+        "words": [
+          "please",
+          "could you"
+        ],
+        "explanation_ar": "كلمة please وحدها مع فعل أمر قد تبدو كأمر وتبدو غير مهذبة بين الزملاء. الأفضل: Could you possibly... أو Would you mind...",
+        "explanation_en": "Using only \"please\" with an order can sound rude. It is better to use \"Could you possibly...?\" or \"Would you mind...?\"",
+        "examples": [
+          {
+            "word": "please",
+            "sentence": "Please email me the file. (can sound bossy)"
+          },
+          {
+            "word": "could you",
+            "sentence": "Could you possibly email me the file? (polite)"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I was wondering if you could do something for me.",
+        "meaning_ar": "كنت أتساءل إن كان بإمكانك أن تفعل شيئًا لي.",
+        "meaning_en": "A very polite way to start a request.",
+        "example": "I was wondering if you could check this report for me."
+      },
+      {
+        "phrase": "Would you be able to print out a file for me?",
+        "meaning_ar": "هل بإمكانك أن تطبع لي ملفًا؟",
+        "meaning_en": "Politely ask if someone can do a task.",
+        "example": "Would you be able to print out the agenda for me?"
+      },
+      {
+        "phrase": "Could I have it within ten minutes, please?",
+        "meaning_ar": "هل يمكنني الحصول عليه خلال عشر دقائق من فضلك؟",
+        "meaning_en": "Politely give a time limit.",
+        "example": "Could I have the report within an hour, please?"
+      },
+      {
+        "phrase": "Could you possibly help me with the printer?",
+        "meaning_ar": "هل يمكنك من فضلك أن تساعدني في الطابعة؟",
+        "meaning_en": "A polite request for help; \"possibly\" makes it softer.",
+        "example": "Could you possibly help me with this form?"
+      },
+      {
+        "phrase": "Would you mind writing your email later?",
+        "meaning_ar": "هل تمانع أن تكتب بريدك الإلكتروني لاحقًا؟",
+        "meaning_en": "Politely ask someone to change what they are doing.",
+        "example": "Would you mind closing the window?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite request patterns",
+        "explanation_ar": "للطلب المهذب نستخدم could وwould بدل الأمر المباشر:\n- Could you (possibly) + فعل مجرد?\n- Would you be able to + فعل مجرد?\n- Would you mind + فعل بـ -ing?\n- I was wondering if you could + فعل مجرد.\nكلما كانت الجملة أطول كانت أكثر تهذيبًا.",
+        "explanation_en": "Use could and would instead of a direct order:\n- Could you (possibly) + base verb?\n- Would you be able to + base verb?\n- Would you mind + -ing?\n- I was wondering if you could + base verb.\nLonger forms sound more polite.",
+        "examples": [
+          "Could you possibly send me the file?",
+          "Would you be able to call the supplier?",
+          "Would you mind waiting a moment?",
+          "I was wondering if you could help me."
+        ]
+      },
+      {
+        "title": "Answering \"Would you mind...?\"",
+        "explanation_ar": "Would you mind...? تعني: هل تمانع؟ لذا للموافقة نقول No, not at all أو Of course not (أي لا أمانع)، لا نقول Yes.",
+        "explanation_en": "\"Would you mind...?\" asks if you object. To agree, say \"No, not at all\" or \"Of course not\" (= I don't mind).",
+        "examples": [
+          "A: Would you mind closing the door? B: No, not at all.",
+          "A: Would you mind waiting? B: Of course not.",
+          "A: Would you mind helping me? B: Not at all. What do you need?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Would you mind ___ me the file?",
+      "choices": [
+        "send",
+        "sending",
+        "to send",
+        "sent"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد Would you mind نستخدم -ing.",
+      "explanation_en": "After \"Would you mind\" use -ing."
+    },
+    {
+      "question": "Which request is the most polite?",
+      "choices": [
+        "Send me the file.",
+        "Please send me the file now.",
+        "Could you possibly send me the file?",
+        "File, please."
+      ],
+      "answer": 2,
+      "explanation_ar": "Could you possibly... هي الأكثر تهذيبًا.",
+      "explanation_en": "\"Could you possibly...\" is the most polite."
+    },
+    {
+      "question": "I was wondering if you ___ help me.",
+      "choices": [
+        "can to",
+        "could",
+        "would to",
+        "are"
+      ],
+      "answer": 1,
+      "explanation_ar": "العبارة الصحيحة: I was wondering if you could.",
+      "explanation_en": "The phrase is \"I was wondering if you could\"."
+    },
+    {
+      "question": "\"Would you mind waiting?\" To agree politely, you answer:",
+      "choices": [
+        "Yes, I mind.",
+        "No, not at all.",
+        "Yes, very much.",
+        "I wait not."
+      ],
+      "answer": 1,
+      "explanation_ar": "للموافقة على Would you mind نقول No, not at all.",
+      "explanation_en": "Say \"No, not at all\" to agree."
+    },
+    {
+      "question": "Why was Denise upset?",
+      "choices": [
+        "Anna was too bossy",
+        "Anna was late",
+        "Anna lost the file",
+        "Anna cooked lunch"
+      ],
+      "answer": 0,
+      "explanation_ar": "انزعجت دينيس لأن طلب آنا بدا كأمر.",
+      "explanation_en": "Anna sounded bossy."
+    },
+    {
+      "question": "\"Within ten minutes\" means...",
+      "choices": [
+        "after ten minutes",
+        "in ten minutes or less",
+        "for ten hours",
+        "ten minutes ago"
+      ],
+      "answer": 1,
+      "explanation_ar": "within تعني خلال أو في غضون.",
+      "explanation_en": "Within means in that time or less."
+    },
+    {
+      "question": "A supplier is a company that...",
+      "choices": [
+        "buys from you",
+        "sells goods to you",
+        "cleans the office",
+        "prints documents"
+      ],
+      "answer": 1,
+      "explanation_ar": "supplier هو المورّد الذي يبيع لنا.",
+      "explanation_en": "A supplier sells goods to another company."
+    },
+    {
+      "question": "Would you be able ___ the report?",
+      "choices": [
+        "print out",
+        "printing out",
+        "to print out",
+        "printed out"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد be able نستخدم to + فعل.",
+      "explanation_en": "After \"be able\" use \"to + verb\"."
+    },
+    {
+      "question": "Choose the sentence that sounds bossy.",
+      "choices": [
+        "Could you help me, please?",
+        "Please do this now.",
+        "Would you mind helping me?",
+        "I was wondering if you could help."
+      ],
+      "answer": 1,
+      "explanation_ar": "الأمر المباشر مع please قد يبدو متسلطًا.",
+      "explanation_en": "A direct order with only \"please\" can sound bossy."
+    },
+    {
+      "question": "\"Print out\" means...",
+      "choices": [
+        "delete a file",
+        "make a paper copy",
+        "send an email",
+        "switch off"
+      ],
+      "answer": 1,
+      "explanation_ar": "print out يطبع نسخة ورقية.",
+      "explanation_en": "It means make a paper copy."
+    }
+  ]
+}

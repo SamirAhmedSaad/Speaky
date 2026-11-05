@@ -1,0 +1,398 @@
+{
+  "title": "It's Been a Long Time!",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "married",
+        "pos": "adjective",
+        "meaning_en": "having a husband or wife",
+        "meaning_ar": "متزوّج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My brother is married."
+      },
+      {
+        "word": "kids",
+        "pos": "noun",
+        "meaning_en": "children (informal)",
+        "meaning_ar": "أطفال",
+        "note_ar": "المفرد: kid",
+        "note_en": "Singular: kid.",
+        "example": "They have two kids."
+      },
+      {
+        "word": "cut",
+        "pos": "verb",
+        "meaning_en": "make shorter with scissors",
+        "meaning_ar": "يقصّ",
+        "note_ar": "الماضي: cut (لا يتغير)",
+        "note_en": "Past: cut (same).",
+        "example": "I cut my hair last year."
+      },
+      {
+        "word": "basketball",
+        "pos": "noun",
+        "meaning_en": "a game where players throw a ball through a ring",
+        "meaning_ar": "كرة السلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you still play basketball?"
+      },
+      {
+        "word": "dentist",
+        "pos": "noun",
+        "meaning_en": "a doctor for teeth",
+        "meaning_ar": "طبيب أسنان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm a dentist."
+      },
+      {
+        "word": "healthy",
+        "pos": "adjective",
+        "meaning_en": "well; not sick",
+        "meaning_ar": "صحّي / سليم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Eat fruit to stay healthy."
+      },
+      {
+        "word": "teeth",
+        "pos": "noun",
+        "meaning_en": "the hard white things in your mouth (plural of tooth)",
+        "meaning_ar": "أسنان",
+        "note_ar": "المفرد: tooth",
+        "note_en": "Singular: tooth.",
+        "example": "Brush your teeth twice a day."
+      },
+      {
+        "word": "cafe",
+        "pos": "noun",
+        "meaning_en": "a small place to drink coffee",
+        "meaning_ar": "مقهى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I work in a cafe."
+      },
+      {
+        "word": "class reunion",
+        "pos": "noun",
+        "meaning_en": "a meeting of old classmates after many years",
+        "meaning_ar": "لقاء زملاء الدراسة القدامى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are planning a class reunion."
+      },
+      {
+        "word": "college",
+        "pos": "noun",
+        "meaning_en": "a place to study after school",
+        "meaning_ar": "كلية / جامعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you remember college?"
+      },
+      {
+        "word": "stay up",
+        "pos": "phrasal verb",
+        "meaning_en": "not go to bed",
+        "meaning_ar": "يسهر",
+        "note_ar": "stay up all night = يسهر طوال الليل",
+        "note_en": "stay up all night",
+        "example": "We stayed up all night."
+      },
+      {
+        "word": "project",
+        "pos": "noun",
+        "meaning_en": "a piece of school or work planned over time",
+        "meaning_ar": "مشروع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We worked on a science project."
+      },
+      {
+        "word": "fall asleep",
+        "pos": "phrase",
+        "meaning_en": "start to sleep",
+        "meaning_ar": "يغفو",
+        "note_ar": "الماضي: fell asleep",
+        "note_en": "Past: fell asleep.",
+        "example": "She fell asleep at the table."
+      },
+      {
+        "word": "funny",
+        "pos": "adjective",
+        "meaning_en": "making you laugh",
+        "meaning_ar": "مضحك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was very funny."
+      },
+      {
+        "word": "stay in touch",
+        "pos": "phrase",
+        "meaning_en": "continue to talk to someone",
+        "meaning_ar": "يبقى على تواصل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's stay in touch."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "tooth vs teeth",
+        "words": [
+          "tooth",
+          "teeth"
+        ],
+        "explanation_ar": "tooth مفرد (سنّ)، و teeth جمع (أسنان). جمع شاذ.",
+        "explanation_en": "Tooth is singular; teeth is the irregular plural.",
+        "examples": [
+          {
+            "word": "tooth",
+            "sentence": "I have a bad tooth."
+          },
+          {
+            "word": "teeth",
+            "sentence": "I help people keep their teeth healthy."
+          }
+        ]
+      },
+      {
+        "title": "stay up vs fall asleep",
+        "words": [
+          "stay up",
+          "fall asleep"
+        ],
+        "explanation_ar": "stay up تعني تبقى مستيقظًا ولا تنام، و fall asleep تعني تبدأ بالنوم.",
+        "explanation_en": "Stay up = not go to bed. Fall asleep = start sleeping.",
+        "examples": [
+          {
+            "word": "stay up",
+            "sentence": "We stayed up all night."
+          },
+          {
+            "word": "fall asleep",
+            "sentence": "Angela fell asleep at the table."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Is that you?",
+        "meaning_ar": "هل هذا أنت؟",
+        "meaning_en": "Say this when you think you see someone you know.",
+        "example": "Emily! Is that you?"
+      },
+      {
+        "phrase": "Wow, it's been a long time! — Yes, it has!",
+        "meaning_ar": "واو، مرّ وقت طويل! — نعم، بالفعل!",
+        "meaning_en": "Greet an old friend.",
+        "example": "Wow, it's been a long time! Yes, it has!"
+      },
+      {
+        "phrase": "Do you have kids? — Yes, I have two kids.",
+        "meaning_ar": "هل لديك أطفال؟ — نعم، لديّ طفلان.",
+        "meaning_en": "Ask about family.",
+        "example": "Do you have kids? Yes, I have one son."
+      },
+      {
+        "phrase": "Hey, your hair is short now.",
+        "meaning_ar": "شعرك قصير الآن.",
+        "meaning_en": "Notice a change.",
+        "example": "Your hair is short now! Yes, I cut it."
+      },
+      {
+        "phrase": "What do you do now?",
+        "meaning_ar": "ماذا تعمل الآن؟",
+        "meaning_en": "Ask about someone's job now.",
+        "example": "What do you do now? I'm a teacher."
+      },
+      {
+        "phrase": "Do you see our old friends?",
+        "meaning_ar": "هل ترى أصدقاءنا القدامى؟",
+        "meaning_en": "Ask about old friends.",
+        "example": "Do you see our old friends? I saw Tom last week."
+      },
+      {
+        "phrase": "Do you remember college?",
+        "meaning_ar": "هل تتذكّر أيام الكلية؟",
+        "meaning_en": "Talk about shared memories.",
+        "example": "Do you remember college? We studied a lot!"
+      },
+      {
+        "phrase": "Maybe next month? — Yes, that is good for me.",
+        "meaning_ar": "ربما الشهر القادم؟ — نعم، هذا مناسب لي.",
+        "meaning_en": "Agree on a time.",
+        "example": "When can we meet? Maybe Friday? Yes, that is good for me."
+      },
+      {
+        "phrase": "Let's stay in touch.",
+        "meaning_ar": "لنبقَ على تواصل.",
+        "meaning_en": "Say you want to keep talking.",
+        "example": "It was great to see you. Let's stay in touch."
+      },
+      {
+        "phrase": "Nice to see you too! Take care!",
+        "meaning_ar": "سعدت برؤيتك أيضًا! اعتنِ بنفسك!",
+        "meaning_en": "Say goodbye.",
+        "example": "It is nice to see you. Nice to see you too! Take care!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect: It's been a long time!",
+        "explanation_ar": "It's been = It has been. نستخدمها لنقول إن وقتًا طويلًا مرّ حتى الآن: It's been a long time! والرد: Yes, it has!",
+        "explanation_en": "It's been = It has been. Use it for time up to now. Reply: Yes, it has!",
+        "examples": [
+          "Wow, it's been a long time!",
+          "Yes, it has!",
+          "It's been two years since college."
+        ]
+      },
+      {
+        "title": "Past simple: what happened",
+        "explanation_ar": "للأحداث الماضية: I cut my hair last year. I saw Tom last week. We stayed up all night. Angela fell asleep. (see → saw، fall → fell، cut → cut)",
+        "explanation_en": "Past simple for past events. Irregular: saw, fell, cut.",
+        "examples": [
+          "I cut my hair last year.",
+          "I saw Tom last week.",
+          "Angela fell asleep at the table!"
+        ]
+      },
+      {
+        "title": "Present simple: jobs now",
+        "explanation_ar": "نتحدث عن العمل الآن بالمضارع البسيط: I'm a dentist. I work in a cafe. I make coffee.",
+        "explanation_en": "Present simple for your job now.",
+        "examples": [
+          "I'm a dentist.",
+          "I work in a cafe.",
+          "I help people keep their teeth healthy."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Wow, it's been a long time! — Yes, it ___!",
+      "choices": [
+        "has",
+        "was",
+        "is",
+        "does"
+      ],
+      "answer": 0,
+      "explanation_ar": "It's been = It has been، فالرد Yes, it has.",
+      "explanation_en": "It's been = it has been, so reply \"Yes, it has\"."
+    },
+    {
+      "question": "I ___ Tom last week.",
+      "choices": [
+        "see",
+        "seeing",
+        "seen",
+        "saw"
+      ],
+      "answer": 3,
+      "explanation_ar": "ماضي see هو saw.",
+      "explanation_en": "Past of see: saw."
+    },
+    {
+      "question": "I'm a ___. I help people keep their teeth healthy.",
+      "choices": [
+        "dentist",
+        "cafe",
+        "project",
+        "kid"
+      ],
+      "answer": 0,
+      "explanation_ar": "dentist طبيب الأسنان.",
+      "explanation_en": "A dentist cares for teeth."
+    },
+    {
+      "question": "The plural of \"tooth\" is ___.",
+      "choices": [
+        "tooths",
+        "teeths",
+        "toothes",
+        "teeth"
+      ],
+      "answer": 3,
+      "explanation_ar": "جمع tooth هو teeth.",
+      "explanation_en": "Plural: teeth."
+    },
+    {
+      "question": "We ___ up all night working on a project.",
+      "choices": [
+        "stay",
+        "stayed",
+        "staying",
+        "stays"
+      ],
+      "answer": 1,
+      "explanation_ar": "الماضي: stayed.",
+      "explanation_en": "Past: stayed."
+    },
+    {
+      "question": "Angela ___ asleep at the table!",
+      "choices": [
+        "fall",
+        "falled",
+        "fell",
+        "falls"
+      ],
+      "answer": 2,
+      "explanation_ar": "ماضي fall هو fell.",
+      "explanation_en": "Past of fall: fell."
+    },
+    {
+      "question": "A meeting of old classmates is a class ___.",
+      "choices": [
+        "project",
+        "cafe",
+        "college",
+        "reunion"
+      ],
+      "answer": 3,
+      "explanation_ar": "class reunion لقاء زملاء الدراسة.",
+      "explanation_en": "A class reunion."
+    },
+    {
+      "question": "Let's stay in ___.",
+      "choices": [
+        "tired",
+        "time",
+        "touch",
+        "table"
+      ],
+      "answer": 2,
+      "explanation_ar": "stay in touch = نبقى على تواصل.",
+      "explanation_en": "\"Stay in touch\" = keep talking."
+    },
+    {
+      "question": "Do you still play basketball? — Not ___. I'm busy with work.",
+      "choices": [
+        "many",
+        "much time",
+        "often",
+        "every"
+      ],
+      "answer": 2,
+      "explanation_ar": "Not often = ليس كثيرًا.",
+      "explanation_en": "\"Not often\" = not many times."
+    },
+    {
+      "question": "Maybe next month? — Yes, that is good ___ me.",
+      "choices": [
+        "to",
+        "for",
+        "with",
+        "at"
+      ],
+      "answer": 1,
+      "explanation_ar": "good for me = مناسب لي.",
+      "explanation_en": "\"Good for me\" = it works for me."
+    }
+  ]
+}

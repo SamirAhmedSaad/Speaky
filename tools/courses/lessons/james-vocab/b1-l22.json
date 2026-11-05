@@ -1,0 +1,49 @@
+{
+  "title": "Time Words: Nowadays, Lately, Outdated",
+  "content": {
+    "vocabulary": [
+      {"word": "recently", "pos": "adverb", "meaning_en": "not long ago", "meaning_ar": "مؤخرًا", "note_ar": "", "note_en": "", "example": "I recently started a new job."},
+      {"word": "old-fashioned", "pos": "adjective", "meaning_en": "not modern; from an older style", "meaning_ar": "قديم الطراز / تقليدي", "note_ar": "ليس بالضرورة سيئًا", "note_en": "Not always bad.", "example": "My grandfather has old-fashioned manners."},
+      {"word": "outdated", "pos": "adjective", "meaning_en": "no longer useful or modern", "meaning_ar": "عفا عليه الزمن / قديم", "note_ar": "يُكتب outdated أو out-dated", "note_en": "Also written out-dated.", "example": "My phone is outdated; some apps don't work."},
+      {"word": "obsolete", "pos": "adjective", "meaning_en": "not used by anyone any more", "meaning_ar": "مهجور / لم يعد يُستخدم", "note_ar": "أقوى من outdated", "note_en": "Stronger than outdated.", "example": "Nobody uses a slide rule now; that technology is obsolete."},
+      {"word": "nowadays", "pos": "adverb", "meaning_en": "in the present time, which is different from the past", "meaning_ar": "في هذه الأيام / في الوقت الحاضر", "note_ar": "فترة طويلة نسبيًا وليست لحظة", "note_en": "A period of time, not one moment.", "example": "Nowadays, most people pay by card."},
+      {"word": "lately", "pos": "adverb", "meaning_en": "recently; in the last few days or weeks", "meaning_ar": "مؤخرًا / في الآونة الأخيرة", "note_ar": "يكثر مع المضارع التام: I haven't seen him lately", "note_en": "Often with present perfect: I haven't seen him lately.", "example": "I haven't seen E lately."},
+      {"word": "latest", "pos": "adjective", "meaning_en": "newest; most recent", "meaning_ar": "الأحدث / الأخير", "note_ar": "", "note_en": "", "example": "Have you heard the latest news?"},
+      {"word": "the next day", "pos": "phrase", "meaning_en": "the day after the day you are talking about", "meaning_ar": "في اليوم التالي", "note_ar": "", "note_en": "", "example": "We arrived on Monday and visited the museum the next day."},
+      {"word": "a week from now", "pos": "phrase", "meaning_en": "seven days after today", "meaning_ar": "بعد أسبوع من الآن", "note_ar": "", "note_en": "", "example": "Today is Friday; a week from now is next Friday."},
+      {"word": "the day after tomorrow", "pos": "phrase", "meaning_en": "two days from today", "meaning_ar": "بعد غد", "note_ar": "", "note_en": "", "example": "Today is Monday, so the day after tomorrow is Wednesday."},
+      {"word": "the week after next", "pos": "phrase", "meaning_en": "two weeks from now", "meaning_ar": "الأسبوع بعد القادم", "note_ar": "", "note_en": "", "example": "The party is the week after next."},
+      {"word": "two weeks from now", "pos": "phrase", "meaning_en": "fourteen days after today", "meaning_ar": "بعد أسبوعين من الآن", "note_ar": "", "note_en": "", "example": "My exam is two weeks from now."},
+      {"word": "this Wednesday", "pos": "phrase", "meaning_en": "the Wednesday of this week, which has not come yet", "meaning_ar": "الأربعاء القادم في هذا الأسبوع", "note_ar": "", "note_en": "", "example": "It's Monday. I'll see you this Wednesday."},
+      {"word": "next Wednesday", "pos": "phrase", "meaning_en": "usually: the Wednesday of the following week", "meaning_ar": "الأربعاء من الأسبوع القادم", "note_ar": "قد يسبّب لبسًا حتى عند المتحدثين الأصليين، فاسأل للتأكد", "note_en": "Can be confusing even for native speakers; check the date.", "example": "The meeting isn't this Wednesday; it's next Wednesday."},
+      {"word": "of late", "pos": "phrase", "meaning_en": "recently (a little formal)", "meaning_ar": "مؤخرًا (رسمية قليلًا)", "note_ar": "", "note_en": "", "example": "I haven't seen him of late."},
+      {"word": "these days", "pos": "phrase", "meaning_en": "now, in contrast to the past", "meaning_ar": "هذه الأيام", "note_ar": "", "note_en": "", "example": "These days it's easy to call people anywhere."},
+      {"word": "throw a monkey wrench", "pos": "idiom", "meaning_en": "to do something that causes problems or confusion", "meaning_ar": "يُربك / يُعرقل الخطة", "note_ar": "في بريطانيا: throw a spanner in the works", "note_en": "UK: throw a spanner in the works.", "example": "The rain threw a monkey wrench into our picnic plans."}
+    ],
+    "fine_lines": [
+      {"title": "old-fashioned vs outdated vs obsolete", "words": ["old-fashioned", "outdated", "obsolete"], "explanation_ar": "old-fashioned: من طراز قديم وليس عصريًا. outdated: قديم ولم يعد مفيدًا كالجديد. obsolete: لم يعد أحد يستخدمه أبدًا.", "explanation_en": "Old-fashioned: from an older style. Outdated: old and not as useful as new things. Obsolete: nobody uses it any more.", "examples": [{"word": "old-fashioned", "sentence": "She likes old-fashioned furniture."}, {"word": "outdated", "sentence": "This map is outdated."}, {"word": "obsolete", "sentence": "Typewriters are almost obsolete."}]},
+      {"title": "nowadays vs lately vs latest", "words": ["nowadays", "lately", "latest"], "explanation_ar": "nowadays: الحاضر مقارنة بالماضي (فترة طويلة، سنوات). lately: مؤخرًا (أيام أو أسابيع). latest: صفة بمعنى الأحدث.", "explanation_en": "Nowadays: the present compared with the past (a long period). Lately: recently (days or weeks). Latest: adjective = the newest.", "examples": [{"word": "nowadays", "sentence": "Nowadays, children have phones."}, {"word": "lately", "sentence": "I've been very busy lately."}, {"word": "latest", "sentence": "This is the latest model."}]},
+      {"title": "this Wednesday vs next Wednesday", "words": ["this Wednesday", "next Wednesday"], "explanation_ar": "this Wednesday: الأربعاء في هذا الأسبوع ولم يأتِ بعد. next Wednesday: غالبًا الأربعاء في الأسبوع التالي.", "explanation_en": "This Wednesday: the Wednesday of this week (not yet here). Next Wednesday: usually the Wednesday of the following week.", "examples": [{"word": "this Wednesday", "sentence": "Today is Monday. The test is this Wednesday, in two days."}, {"word": "next Wednesday", "sentence": "The trip is next Wednesday, in nine days."}]}
+    ],
+    "expressions": [
+      {"phrase": "Have you heard the latest news?", "meaning_ar": "هل سمعت آخر الأخبار؟", "meaning_en": "Do you know the newest news?", "example": "Have you heard the latest news? The road is closed."},
+      {"phrase": "I haven't seen you lately.", "meaning_ar": "لم أرك مؤخرًا.", "meaning_en": "We haven't met recently.", "example": "Hi! I haven't seen you lately. Where have you been?"},
+      {"phrase": "in the old days", "meaning_ar": "في الأيام الخوالي / في الماضي", "meaning_en": "a long time ago", "example": "In the old days, phones were on the kitchen wall."}
+    ],
+    "grammar": [
+      {"title": "Counting forward: the day after tomorrow, the week after next", "explanation_ar": "اليوم = 1، غدًا = 2، بعد غد = 3، أي the day after tomorrow بعد يومين من اليوم. وبالطريقة نفسها: هذا الأسبوع، الأسبوع القادم (next week)، ثم the week after next = بعد أسبوعين.", "explanation_en": "Today, tomorrow, then the day after tomorrow = two days from now. This week, next week, then the week after next = two weeks from now.", "examples": ["Today is Monday; the day after tomorrow is Wednesday.", "It's the 1st; the week after next starts on the 15th.", "We'll finish two weeks from now."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"Nobody uses a slide rule any more. That technology is ___.\"", "choices": ["obsolete", "latest", "nowadays", "lately"], "answer": 0, "explanation_ar": "obsolete = لم يعد يُستخدم.", "explanation_en": "Obsolete = no longer used."},
+    {"question": "\"___, kids spend a lot of time on phones.\" (present vs past)", "choices": ["Latest", "Nowadays", "Obsolete", "The next day"], "answer": 1, "explanation_ar": "nowadays = هذه الأيام مقارنة بالماضي.", "explanation_en": "Nowadays = these days, unlike the past."},
+    {"question": "\"Did you hear the ___ news?\"", "choices": ["lately", "nowadays", "latest", "outdated"], "answer": 2, "explanation_ar": "latest = الأحدث.", "explanation_en": "Latest = newest."},
+    {"question": "Today is Monday. \"The day after tomorrow\" is ___.", "choices": ["Tuesday", "Thursday", "next Monday", "Wednesday"], "answer": 3, "explanation_ar": "بعد غد = بعد يومين.", "explanation_en": "Two days from Monday is Wednesday."},
+    {"question": "\"The week after next\" means:", "choices": ["two weeks from now", "this week", "last week", "one day from now"], "answer": 0, "explanation_ar": "الأسبوع بعد القادم = بعد أسبوعين.", "explanation_en": "Two weeks from now."},
+    {"question": "\"I haven't seen him ___.\" (recently)", "choices": ["latest", "lately", "obsolete", "old-fashioned"], "answer": 1, "explanation_ar": "lately = مؤخرًا.", "explanation_en": "Lately = recently."},
+    {"question": "My phone works, but it's old and can't use new apps. It's ___.", "choices": ["latest", "nowadays", "outdated", "the next day"], "answer": 2, "explanation_ar": "outdated = قديم لم يعد مفيدًا كالجديد.", "explanation_en": "Outdated = not as useful as new ones."},
+    {"question": "It's Monday. \"I'll see you this Thursday\" means:", "choices": ["Thursday next week", "last Thursday", "every Thursday", "Thursday of this week"], "answer": 3, "explanation_ar": "this Thursday = خميس هذا الأسبوع.", "explanation_en": "Thursday of this week."},
+    {"question": "\"Of late\" means:", "choices": ["recently", "too late", "tomorrow", "always"], "answer": 0, "explanation_ar": "of late = مؤخرًا.", "explanation_en": "Of late = recently."},
+    {"question": "\"Grandpa has ___ ideas about clothes.\" (older style)", "choices": ["latest", "old-fashioned", "lately", "nowadays"], "answer": 1, "explanation_ar": "old-fashioned = تقليدي قديم الطراز.", "explanation_en": "Old-fashioned = from an older style."}
+  ]
+}

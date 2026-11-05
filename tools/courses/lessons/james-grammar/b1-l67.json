@@ -1,0 +1,47 @@
+{
+  "title": "3 Quick Grammar Fixes (80% Rules)",
+  "content": {
+    "vocabulary": [
+      {"word": "naysayer", "pos": "noun", "meaning_en": "a person who always says no or says an idea won't work", "meaning_ar": "شخص متشائم يعترض دائمًا", "note_ar": "", "note_en": "", "example": "Don't listen to the naysayers; keep trying."},
+      {"word": "exception", "pos": "noun", "meaning_en": "something that does not follow the rule", "meaning_ar": "استثناء", "note_ar": "", "note_en": "", "example": "Every grammar rule has exceptions."},
+      {"word": "say", "pos": "verb", "meaning_en": "to speak words (no person directly after it)", "meaning_ar": "يقول", "note_ar": "say – said – said", "note_en": "say – said – said.", "example": "He said he was busy."},
+      {"word": "say to", "pos": "phrase", "meaning_en": "say + to + a person", "meaning_ar": "يقول لـ", "note_ar": "", "note_en": "", "example": "What did you say to him?"},
+      {"word": "tell", "pos": "verb", "meaning_en": "to give information to a person (person follows directly)", "meaning_ar": "يُخبر", "note_ar": "tell – told – told", "note_en": "tell – told – told.", "example": "I told him the news."},
+      {"word": "third person singular", "pos": "noun", "meaning_en": "he, she, it (and one person or thing)", "meaning_ar": "ضمير الغائب المفرد (هو، هي، للمفرد غير العاقل)", "note_ar": "", "note_en": "", "example": "In the present simple, the third person singular adds -s: she works."},
+      {"word": "subject", "pos": "noun", "meaning_en": "the person or thing that does the action", "meaning_ar": "الفاعل", "note_ar": "", "note_en": "", "example": "In \"I told him\", I is the subject."},
+      {"word": "object", "pos": "noun", "meaning_en": "the person or thing that receives the action", "meaning_ar": "المفعول به", "note_ar": "", "note_en": "", "example": "In \"I told him\", him is the object."},
+      {"word": "no", "pos": "determiner", "meaning_en": "not any; used before nouns", "meaning_ar": "لا (قبل الاسم)", "note_ar": "", "note_en": "", "example": "I have no money."},
+      {"word": "not", "pos": "adverb", "meaning_en": "makes a verb negative", "meaning_ar": "لا / ليس (مع الفعل)", "note_ar": "", "note_en": "", "example": "I am not going."},
+      {"word": "rely on", "pos": "phrasal verb", "meaning_en": "to trust or depend on", "meaning_ar": "يعتمد على", "note_ar": "", "note_en": "", "example": "You can rely on these rules most of the time."},
+      {"word": "forevermore", "pos": "adverb", "meaning_en": "from now on, always (old-fashioned)", "meaning_ar": "إلى الأبد", "note_ar": "", "note_en": "", "example": "Remember this rule forevermore."}
+    ],
+    "fine_lines": [
+      {"title": "say vs say to vs tell", "words": ["say", "say to", "tell"], "explanation_ar": "say وحدها: S = single (المتكلم فقط، بدون شخص بعدها). إذا أردت ذكر الشخص أضف to: say to him. أو استخدم tell: T = two (فاعل ومفعول): tell him. لا تقل I say him.", "explanation_en": "Say alone: S = single (just the speaker, no person after it). To add the person, use to: say to him. Or use tell: T = two (subject and object): tell him. Never \"I say him\".", "examples": [{"word": "say", "sentence": "He says he is tired."}, {"word": "say to", "sentence": "What did he say to you?"}, {"word": "tell", "sentence": "What did he tell you?"}]},
+      {"title": "no vs not", "words": ["no", "not"], "explanation_ar": "no مع الأسماء (no = noun): no money, no one. not مع الأفعال (T = tense): not going, not working, I'm not a good boy.", "explanation_en": "No goes with nouns (no ↔ noun): no money, no one. Not goes with verbs (t = tense): not going, not working, I'm not a bad student.", "examples": [{"word": "no", "sentence": "No one came yesterday."}, {"word": "not", "sentence": "This is not working for me."}]}
+    ],
+    "expressions": [
+      {"phrase": "What did you say to him?", "meaning_ar": "ماذا قلتَ له؟", "meaning_en": "Asking about words you spoke to a person.", "example": "He looks angry. What did you say to him?"},
+      {"phrase": "What did he tell you?", "meaning_ar": "ماذا أخبرك؟", "meaning_en": "Asking for the information someone gave.", "example": "You talked to the doctor. What did he tell you?"},
+      {"phrase": "It doesn't work for me.", "meaning_ar": "لا يناسبني / لا ينفع معي.", "meaning_en": "It is not good for me.", "example": "This plan doesn't work for me."},
+      {"phrase": "You're good to go.", "meaning_ar": "أنت جاهز.", "meaning_en": "You are ready.", "example": "You know the rules now. You're good to go."}
+    ],
+    "grammar": [
+      {"title": "Rule 1: say (single) / say to, tell (two)", "explanation_ar": "say أو said وحدها لكلام شخص واحد. لذكر الشخص الآخر: say + to + الشخص، أو tell + الشخص مباشرة (tell – told).", "explanation_en": "Say/said alone is for one person speaking. To mention the other person: say + to + person, or tell + person directly (tell – told).", "examples": ["I say it all the time.", "He said to me, \"Go home.\"", "She told me to go home."]},
+      {"title": "Rule 2: third person singular -s", "explanation_ar": "في المضارع البسيط نضيف s للفعل مع he/she/it فقط (S = single). مع I/you/we/they لا نضيف s. ومع I نقول I am.", "explanation_en": "In the present simple, add -s to the verb only with he/she/it (S = single). With I/you/we/they, no -s. With be: I am.", "examples": ["It works. (not: It work)", "She works in a bank.", "They work together."]},
+      {"title": "Rule 3: no + noun, not + verb", "explanation_ar": "no قبل الاسم: no food, no one. not بعد الفعل المساعد أو be: I am not / It does not work. لا نقول I no understand؛ نقول I don't understand.", "explanation_en": "No before a noun: no food, no one. Not after an auxiliary or be: I am not / It does not work. Don't say \"I no understand\"; say \"I don't understand\".", "examples": ["There is no food in the fridge.", "This does not work for me.", "I'm not a bad student."]},
+      {"title": "The 80% idea", "explanation_ar": "هذه قواعد سريعة صحيحة في حوالي 80% من الحالات. لكل قاعدة استثناءات تتعلمها لاحقًا.", "explanation_en": "These are quick rules that are right about 80% of the time. Every rule has exceptions you can learn later.", "examples": ["Master the basic rule first, then learn the exceptions."]}
+    ]
+  },
+  "questions": [
+    {"question": "Choose the correct sentence.", "choices": ["I said him to go.", "I told him to go.", "I said to him go.", "I told to him go."], "answer": 1, "explanation_ar": "tell + شخص + to + فعل.", "explanation_en": "Tell + person + to + verb."},
+    {"question": "What did he ___ you? (person after the verb)", "choices": ["tell", "say", "said", "says"], "answer": 0, "explanation_ar": "tell + شخص مباشرة.", "explanation_en": "Tell + person directly."},
+    {"question": "What did you say ___ him?", "choices": ["at", "for", "to", "with"], "answer": 2, "explanation_ar": "say to + شخص.", "explanation_en": "Say to + person."},
+    {"question": "It ___ very well.", "choices": ["work", "working", "are work", "works"], "answer": 3, "explanation_ar": "مع it نضيف s.", "explanation_en": "With it, add -s."},
+    {"question": "Which subject does NOT take -s in the present simple?", "choices": ["they", "she", "he", "it"], "answer": 0, "explanation_ar": "they جمع، لا نضيف s.", "explanation_en": "They is plural: no -s."},
+    {"question": "There is ___ money in my wallet.", "choices": ["not", "no", "don't", "none of"], "answer": 1, "explanation_ar": "no قبل الاسم.", "explanation_en": "No before a noun."},
+    {"question": "This machine is ___ working.", "choices": ["no", "none", "not", "nothing"], "answer": 2, "explanation_ar": "not مع الفعل.", "explanation_en": "Not with a verb."},
+    {"question": "Choose the correct sentence.", "choices": ["I no understand.", "I not understand.", "I understand no.", "I don't understand."], "answer": 3, "explanation_ar": "النفي بالفعل المساعد: don't.", "explanation_en": "Negative with the auxiliary: don't."},
+    {"question": "\"___ one came to the meeting.\"", "choices": ["No", "Not", "Don't", "Never"], "answer": 0, "explanation_ar": "no + one (اسم).", "explanation_en": "No + one (a noun)."},
+    {"question": "What is an \"exception\"?", "choices": ["a rule", "something that doesn't follow the rule", "a verb", "a test"], "answer": 1, "explanation_ar": "استثناء.", "explanation_en": "Something that doesn't follow the rule."}
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "title": "At the Shoe Shop",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "in need of",
+        "pos": "phrase",
+        "meaning_en": "needing",
+        "meaning_ar": "بحاجة إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm in need of new shoes."
+      },
+      {
+        "word": "assist",
+        "pos": "verb",
+        "meaning_en": "help (formal)",
+        "meaning_ar": "يساعد",
+        "note_ar": "الاسم: assistance",
+        "note_en": "Noun: assistance.",
+        "example": "Can you assist me, please?"
+      },
+      {
+        "word": "interested in",
+        "pos": "phrase",
+        "meaning_en": "wanting to know about or buy",
+        "meaning_ar": "مهتم بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What type of shoes are you interested in?"
+      },
+      {
+        "word": "formal shoes",
+        "pos": "noun",
+        "meaning_en": "smart shoes for work or special events",
+        "meaning_ar": "أحذية رسمية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm looking for formal shoes."
+      },
+      {
+        "word": "occasion",
+        "pos": "noun",
+        "meaning_en": "a special event",
+        "meaning_ar": "مناسبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They are for a special occasion."
+      },
+      {
+        "word": "recommendation",
+        "pos": "noun",
+        "meaning_en": "advice about what is good",
+        "meaning_ar": "توصية / اقتراح",
+        "note_ar": "",
+        "note_en": "Verb: recommend.",
+        "example": "Any recommendations?"
+      },
+      {
+        "word": "elegant",
+        "pos": "adjective",
+        "meaning_en": "beautiful and stylish",
+        "meaning_ar": "أنيق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have some elegant shoes."
+      },
+      {
+        "word": "shoe size",
+        "pos": "noun",
+        "meaning_en": "the number that shows how big your shoes are",
+        "meaning_ar": "مقاس الحذاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's your shoe size?"
+      },
+      {
+        "word": "option",
+        "pos": "noun",
+        "meaning_en": "a choice",
+        "meaning_ar": "خيار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me bring a few options."
+      },
+      {
+        "word": "tight",
+        "pos": "adjective",
+        "meaning_en": "too small; pressing on your body",
+        "meaning_ar": "ضيّق",
+        "note_ar": "",
+        "note_en": "Opposite: loose.",
+        "example": "These shoes feel a bit tight."
+      },
+      {
+        "word": "comfortable",
+        "pos": "adjective",
+        "meaning_en": "nice to wear; not hurting",
+        "meaning_ar": "مريح",
+        "note_ar": "تُنطق غالبًا بثلاثة مقاطع: /ˈkʌmftəbl/",
+        "note_en": "Often said /ˈkʌmftəbl/.",
+        "example": "These ones feel more comfortable."
+      },
+      {
+        "word": "available",
+        "pos": "adjective",
+        "meaning_en": "that you can get or buy",
+        "meaning_ar": "متوفر / متاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me check if we have that size available."
+      },
+      {
+        "word": "priced at",
+        "pos": "phrase",
+        "meaning_en": "having a price of",
+        "meaning_ar": "سعره ...",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These shoes are priced at $80."
+      },
+      {
+        "word": "budget",
+        "pos": "noun",
+        "meaning_en": "the money you can spend",
+        "meaning_ar": "ميزانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is that within your budget?"
+      },
+      {
+        "word": "ring up",
+        "pos": "phrasal verb",
+        "meaning_en": "put a sale into the cash register",
+        "meaning_ar": "يسجّل الحساب (على آلة الدفع)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me ring them up for you."
+      },
+      {
+        "word": "payment",
+        "pos": "noun",
+        "meaning_en": "paying money",
+        "meaning_ar": "الدفع / عملية الدفع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me process the payment."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "tight vs loose",
+        "words": [
+          "tight",
+          "loose"
+        ],
+        "explanation_ar": "tight = ضيق جدًا. loose = واسع وفضفاض.",
+        "explanation_en": "\"Tight\" = too small, pressing. \"Loose\" = too big, not close to your body.",
+        "examples": [
+          {
+            "word": "tight",
+            "sentence": "These shoes feel tight."
+          },
+          {
+            "word": "loose",
+            "sentence": "My belt is loose."
+          }
+        ]
+      },
+      {
+        "title": "feel vs look",
+        "words": [
+          "feel",
+          "look"
+        ],
+        "explanation_ar": "feel + صفة = الإحساس بها على الجسم (مريح، ضيق). look + صفة = شكلها.",
+        "explanation_en": "\"Feel\" = how it is on your body. \"Look\" = how it seems to the eyes.",
+        "examples": [
+          {
+            "word": "feel",
+            "sentence": "They feel comfortable."
+          },
+          {
+            "word": "look",
+            "sentence": "They look perfect."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm in need of new shoes. Can you assist me?",
+        "meaning_ar": "أحتاج حذاءً جديدًا. هل يمكنك مساعدتي؟",
+        "meaning_en": "Asking a shop assistant for help.",
+        "example": "I'm in need of a new bag. Can you help me?"
+      },
+      {
+        "phrase": "What type of shoes are you interested in?",
+        "meaning_ar": "ما نوع الأحذية التي تهتم بها؟",
+        "meaning_en": "Asking what you want.",
+        "example": "What type of phone are you interested in?"
+      },
+      {
+        "phrase": "I'm looking for a pair of formal shoes.",
+        "meaning_ar": "أبحث عن زوج أحذية رسمية.",
+        "meaning_en": "Saying what you want.",
+        "example": "I'm looking for a pair of sports shoes."
+      },
+      {
+        "phrase": "Any recommendations?",
+        "meaning_ar": "هل لديك أي اقتراحات؟",
+        "meaning_en": "Asking for advice.",
+        "example": "I need a gift. Any recommendations?"
+      },
+      {
+        "phrase": "What's your shoe size? / I wear a size 7.",
+        "meaning_ar": "ما مقاس حذائك؟ / مقاسي 7.",
+        "meaning_en": "Talking about shoe size.",
+        "example": "What's your shoe size? I wear a size 42."
+      },
+      {
+        "phrase": "These shoes feel a bit tight.",
+        "meaning_ar": "هذا الحذاء ضيق قليلًا.",
+        "meaning_en": "Saying they are too small.",
+        "example": "This shirt feels a bit tight."
+      },
+      {
+        "phrase": "Do you have a size 8?",
+        "meaning_ar": "هل لديكم مقاس 8؟",
+        "meaning_en": "Asking for another size.",
+        "example": "Do you have these in a size 9?"
+      },
+      {
+        "phrase": "I think I'll go with this size.",
+        "meaning_ar": "أظن أنني سأختار هذا المقاس.",
+        "meaning_en": "Making a choice.",
+        "example": "I'll go with the black ones."
+      },
+      {
+        "phrase": "Can I see them in a different color?",
+        "meaning_ar": "هل يمكنني رؤيتها بلون مختلف؟",
+        "meaning_en": "Asking for another colour.",
+        "example": "Can I see this bag in a different color?"
+      },
+      {
+        "phrase": "Is that within your budget? / Yes, that works for me.",
+        "meaning_ar": "هل هذا ضمن ميزانيتك؟ / نعم، هذا يناسبني.",
+        "meaning_en": "Checking the price is OK.",
+        "example": "$50? Yes, that works for me."
+      },
+      {
+        "phrase": "Thank you for shopping with us!",
+        "meaning_ar": "شكرًا لتسوقك معنا!",
+        "meaning_en": "The shop thanks the customer.",
+        "example": "Thank you for shopping with us. Have a nice day!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "more + adjective (comparatives)",
+        "explanation_ar": "للصفات الطويلة نستخدم more قبل الصفة: more comfortable، more elegant.",
+        "explanation_en": "For long adjectives, use \"more\" + adjective.",
+        "examples": [
+          "These ones feel more comfortable.",
+          "This pair is more elegant.",
+          "The black shoes are more expensive."
+        ]
+      },
+      {
+        "title": "Let me + verb (offering help)",
+        "explanation_ar": "نعرض المساعدة بـ Let me + الفعل الأساسي.",
+        "explanation_en": "Offer help with \"Let me + base verb\".",
+        "examples": [
+          "Let me bring a few options.",
+          "Let me check if we have that size.",
+          "Let me ring them up for you."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Shoes that are too small feel ...",
+      "choices": [
+        "loose",
+        "tight",
+        "elegant",
+        "available"
+      ],
+      "answer": 1,
+      "explanation_ar": "الضيق: tight.",
+      "explanation_en": "Small shoes feel tight."
+    },
+    {
+      "question": "These ones feel ____.",
+      "choices": [
+        "comfortabler",
+        "most comfortable than",
+        "comfortable more",
+        "more comfortable"
+      ],
+      "answer": 3,
+      "explanation_ar": "الصفات الطويلة: more + صفة.",
+      "explanation_en": "Long adjectives: more + adjective."
+    },
+    {
+      "question": "\"Can you assist me?\" means ...",
+      "choices": [
+        "Can you help me?",
+        "Can you pay me?",
+        "Can you see me?",
+        "Can you sell me?"
+      ],
+      "answer": 0,
+      "explanation_ar": "assist تعني يساعد.",
+      "explanation_en": "\"Assist\" means help."
+    },
+    {
+      "question": "Let me ____ if we have that size.",
+      "choices": [
+        "checking",
+        "to check",
+        "check",
+        "checks"
+      ],
+      "answer": 2,
+      "explanation_ar": "Let me + الفعل الأساسي.",
+      "explanation_en": "Let me + base verb."
+    },
+    {
+      "question": "\"Let me ring them up for you.\" The worker will ...",
+      "choices": [
+        "phone you",
+        "bring other shoes",
+        "make the sale at the till",
+        "give you a ring"
+      ],
+      "answer": 2,
+      "explanation_ar": "ring up تعني يسجّل البيع للدفع.",
+      "explanation_en": "\"Ring up\" = put the sale in the till."
+    },
+    {
+      "question": "\"Is that within your budget?\" asks if ...",
+      "choices": [
+        "you can pay that price",
+        "the shoes fit",
+        "you like black",
+        "the shop is open"
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن القدرة على دفع السعر.",
+      "explanation_en": "It asks if the price is OK for you."
+    },
+    {
+      "question": "\"These shoes are priced ____ $80.\"",
+      "choices": [
+        "on",
+        "for",
+        "in",
+        "at"
+      ],
+      "answer": 3,
+      "explanation_ar": "نقول priced at.",
+      "explanation_en": "We say \"priced at\"."
+    },
+    {
+      "question": "Which word means \"you can get it now\"?",
+      "choices": [
+        "elegant",
+        "available",
+        "tight",
+        "formal"
+      ],
+      "answer": 1,
+      "explanation_ar": "available = متوفر.",
+      "explanation_en": "\"Available\" = you can get it."
+    },
+    {
+      "question": "\"What's your shoe size?\" \"____\"",
+      "choices": [
+        "I wear a size 7.",
+        "I'm size shoes.",
+        "It's black.",
+        "$80, please."
+      ],
+      "answer": 0,
+      "explanation_ar": "الجواب: I wear a size 7.",
+      "explanation_en": "The answer gives the size."
+    },
+    {
+      "question": "They ____ perfect! (to the eyes)",
+      "choices": [
+        "feel",
+        "taste",
+        "look",
+        "sound"
+      ],
+      "answer": 2,
+      "explanation_ar": "الشكل: look.",
+      "explanation_en": "For the eyes: look."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "By vs Until (till, 'til)",
+  "content": {
+    "vocabulary": [
+      {"word": "until", "pos": "preposition", "meaning_en": "from now and continuing up to a time, then it stops", "meaning_ar": "حتى (مع الاستمرار حتى وقت معيّن)", "note_ar": "", "note_en": "", "example": "I work until 5 o'clock."},
+      {"word": "till", "pos": "preposition", "meaning_en": "the same as until, a little informal", "meaning_ar": "حتى (غير رسمية)", "note_ar": "تُكتب بحرفي l", "note_en": "Spelled with two l's.", "example": "I'll be up till 10 p.m."},
+      {"word": "'til", "pos": "preposition", "meaning_en": "a short form of until (the apostrophe shows letters are missing)", "meaning_ar": "اختصار until", "note_ar": "الفاصلة العليا تدل على حذف un", "note_en": "The apostrophe shows \"un\" is missing.", "example": "Wait 'til I get home."},
+      {"word": "by", "pos": "preposition", "meaning_en": "at or before a time in the future (a deadline)", "meaning_ar": "في موعد أقصاه / قبل أو عند", "note_ar": "", "note_en": "", "example": "Please finish the report by Friday."},
+      {"word": "by the time", "pos": "conjunction", "meaning_en": "the same as by, but used before a subject + verb", "meaning_ar": "بحلول الوقت الذي", "note_ar": "", "note_en": "", "example": "By the time I get home, dinner will be ready."},
+      {"word": "deadline", "pos": "noun", "meaning_en": "the last time or date to finish something", "meaning_ar": "الموعد النهائي", "note_ar": "", "note_en": "", "example": "The deadline is June 1st."},
+      {"word": "preposition of time", "pos": "noun", "meaning_en": "a preposition that talks about time (at, on, in, by, until)", "meaning_ar": "حرف جر للزمن", "note_ar": "", "note_en": "", "example": "\"By\" and \"until\" are prepositions of time."},
+      {"word": "Venn diagram", "pos": "noun", "meaning_en": "a picture of two circles that shows what is the same and what is different", "meaning_ar": "مخطط فِن (دائرتان متقاطعتان)", "note_ar": "", "note_en": "", "example": "The Venn diagram shows what by and until share."},
+      {"word": "intersect", "pos": "verb", "meaning_en": "to cross or meet each other", "meaning_ar": "يتقاطع", "note_ar": "", "note_en": "", "example": "The two roads intersect here."},
+      {"word": "context", "pos": "noun", "meaning_en": "the situation that helps you understand the meaning", "meaning_ar": "السياق", "note_ar": "", "note_en": "", "example": "You need context to choose by or until."},
+      {"word": "up until now", "pos": "phrase", "meaning_en": "from the past to this moment (and now it has changed)", "meaning_ar": "حتى الآن", "note_ar": "مثلها: till now / up to this point", "note_en": "Same as: till now / up to this point.", "example": "Up until now, the weather was bad. Now it's sunny."}
+    ],
+    "fine_lines": [
+      {"title": "until vs by", "words": ["until", "by"], "explanation_ar": "until = الحدث يستمر من الآن حتى وقت معيّن ثم يتوقف (استمرار). by = لا يهمنا الاستمرار، فقط نقطة نهائية في المستقبل: قبلها أو عندها (موعد نهائي).", "explanation_en": "until = the action continues from now up to a time, then stops (continuation). by = we don't care about continuing; it's just an end point in the future: at or before that time (a deadline).", "examples": [{"word": "until", "sentence": "You have until May 13th to bring the book back."}, {"word": "by", "sentence": "You must bring the book back by May 13th."}]},
+      {"title": "until vs till vs 'til", "words": ["until", "till", "'til"], "explanation_ar": "المعنى واحد. until الأكثر رسمية، till غير رسمية، و'til اختصار. الفرق في الكتابة فقط.", "explanation_en": "Same meaning. Until is the most formal, till is informal, 'til is a short form. Only the spelling is different.", "examples": [{"word": "until", "sentence": "I work until 5 p.m."}, {"word": "till", "sentence": "I work till 5 p.m."}, {"word": "'til", "sentence": "I work 'til 5 p.m."}]},
+      {"title": "by vs bye vs buy", "words": ["by", "bye", "buy"], "explanation_ar": "ثلاث كلمات تُنطق بنفس الطريقة: by حرف جر، bye تحية وداع (goodbye)، buy فعل بمعنى يشتري.", "explanation_en": "Three words with the same sound: by (preposition), bye (short for goodbye), buy (verb: to pay for something).", "examples": [{"word": "by", "sentence": "Finish it by Monday."}, {"word": "bye", "sentence": "Bye! See you tomorrow."}, {"word": "buy", "sentence": "I need to buy bread."}]}
+    ],
+    "expressions": [
+      {"phrase": "You have until ... to ...", "meaning_ar": "لديك حتى ... لكي ...", "meaning_en": "You have time from now to that time.", "example": "You have until Friday to hand in your essay."},
+      {"phrase": "By the time I get home, ...", "meaning_ar": "بحلول وقت وصولي إلى البيت ...", "meaning_en": "At or before the moment I arrive.", "example": "By the time I get home, the children will be asleep."},
+      {"phrase": "up until now", "meaning_ar": "حتى الآن", "meaning_en": "until this moment (something changes now)", "example": "You've been very helpful up until now."},
+      {"phrase": "It always seems impossible until it's done.", "meaning_ar": "يبدو الأمر دائمًا مستحيلًا حتى يتم إنجازه.", "meaning_en": "A famous quote by Nelson Mandela.", "example": "Don't give up. It always seems impossible until it's done."}
+    ],
+    "grammar": [
+      {"title": "Until = continue, then stop", "explanation_ar": "until + وقت: الحدث يستمر حتى ذلك الوقت. كثيرًا ما يأتي مع أفعال الاستمرار (-ing) أو أفعال مثل wait, stay, work.", "explanation_en": "until + time: the action continues up to that time. It often goes with continuous verbs (-ing) or verbs like wait, stay, work.", "examples": ["I will be studying English until dinner time.", "I'll wait until 6 p.m., then I'm leaving.", "I work till 5 o'clock tomorrow."]},
+      {"title": "By = deadline in the future", "explanation_ar": "by + وقت: الحدث يحدث عند هذا الوقت أو قبله. غالبًا مع will / must / have to. by the time + فاعل + فعل.", "explanation_en": "by + time: the action happens at or before that time. Often with will / must / have to. by the time + subject + verb.", "examples": ["I have to finish my website by June 1st.", "We have to leave by 8 a.m.", "I will be finished work by 5 o'clock tomorrow."]},
+      {"title": "Context: arriving or leaving?", "explanation_ar": "أحيانًا تصح الكلمتان، والمعنى يتغير: I will be at the hospital by 5 p.m. = سأصل قبل الخامسة. I will be at the hospital until 5 p.m. = أنا هناك وسأغادر في الخامسة.", "explanation_en": "Sometimes both are correct but the meaning changes: I will be at the hospital by 5 p.m. = I will arrive by 5. I will be at the hospital until 5 p.m. = I'm there and I'll leave at 5.", "examples": ["She'll be at the office by 12. (arriving)", "She'll be at the office until 12. (leaving at 12)"]}
+    ]
+  },
+  "questions": [
+    {"question": "I have to finish my project ___ June 1st.", "choices": ["by", "until", "till", "'til"], "answer": 0, "explanation_ar": "موعد نهائي: by.", "explanation_en": "A deadline: by."},
+    {"question": "I will be studying ___ dinner time.", "choices": ["by", "by the time", "until", "buy"], "answer": 2, "explanation_ar": "استمرار (-ing): until.", "explanation_en": "Continuation (-ing): until."},
+    {"question": "He's late. I'll wait ___ 6 p.m., then I'm leaving.", "choices": ["by", "till", "bye", "by the time"], "answer": 1, "explanation_ar": "الانتظار مستمر حتى السادسة: till.", "explanation_en": "Waiting continues up to 6: till."},
+    {"question": "___ I get home, dinner will be ready.", "choices": ["Until", "By", "Till", "By the time"], "answer": 3, "explanation_ar": "قبل فاعل + فعل: by the time.", "explanation_en": "Before subject + verb: by the time."},
+    {"question": "\"I'll be at the hospital until 5 p.m.\" means ___.", "choices": ["I'm there now and will leave at 5.", "I will arrive at 5.", "I will arrive before 5.", "I was there yesterday."], "answer": 0, "explanation_ar": "until = سأبقى ثم أغادر في الخامسة.", "explanation_en": "Until = I stay, then leave at 5."},
+    {"question": "Which is the short form of \"until\"?", "choices": ["untl", "'til", "tel", "unti"], "answer": 1, "explanation_ar": "'til مع فاصلة عليا.", "explanation_en": "'til with an apostrophe."},
+    {"question": "Which word is a verb meaning \"to pay for something\"?", "choices": ["by", "bye", "buy", "be"], "answer": 2, "explanation_ar": "buy = يشتري.", "explanation_en": "Buy = to pay for something."},
+    {"question": "\"Please pay this bill ___ May 1st.\"", "choices": ["until", "till", "up until", "by"], "answer": 3, "explanation_ar": "موعد نهائي للدفع: by.", "explanation_en": "A payment deadline: by."},
+    {"question": "What is a \"deadline\"?", "choices": ["the last time to finish something", "a long line", "the start of a project", "a holiday"], "answer": 0, "explanation_ar": "الموعد النهائي.", "explanation_en": "The last time to finish something."},
+    {"question": "\"The weather was bad up until now.\" What happened?", "choices": ["It is still bad.", "It has changed now.", "It will be bad tomorrow.", "It was always good."], "answer": 1, "explanation_ar": "up until now = تغيّر الأمر الآن.", "explanation_en": "Up until now = it changed now."}
+  ]
+}

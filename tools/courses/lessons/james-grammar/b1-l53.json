@@ -1,0 +1,344 @@
+{
+  "title": "Correlative Conjunctions: either...or, neither...nor, both...and",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "conjunction",
+        "pos": "noun",
+        "meaning_en": "a word that joins words, phrases or clauses (and, or, but, so, because)",
+        "meaning_ar": "أداة ربط / حرف عطف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"And\" is the most common conjunction."
+      },
+      {
+        "word": "correlative conjunctions",
+        "pos": "noun",
+        "meaning_en": "pairs of words that work together to join two related ideas",
+        "meaning_ar": "أدوات الربط المزدوجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Either...or is a correlative conjunction."
+      },
+      {
+        "word": "either ... or",
+        "pos": "conjunction",
+        "meaning_en": "used to give a choice between two things",
+        "meaning_ar": "إمّا ... أو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You can either walk or take the bus."
+      },
+      {
+        "word": "neither ... nor",
+        "pos": "conjunction",
+        "meaning_en": "not this and not that",
+        "meaning_ar": "لا ... ولا",
+        "note_ar": "تُنطق /ˈnaɪðə/ أو /ˈniːðə/ وكلاهما صحيح",
+        "note_en": "Pronounced /ˈnaɪðə/ or /ˈniːðə/; both are correct.",
+        "example": "Neither my brother nor my sister can drive."
+      },
+      {
+        "word": "both ... and",
+        "pos": "conjunction",
+        "meaning_en": "the first thing and the second thing together",
+        "meaning_ar": "كلٌّ من ... و",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Both my father and my uncle are doctors."
+      },
+      {
+        "word": "not only ... but also",
+        "pos": "conjunction",
+        "meaning_en": "used to add a second, more surprising fact",
+        "meaning_ar": "ليس فقط ... بل أيضًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is not only smart but also kind."
+      },
+      {
+        "word": "choice",
+        "pos": "noun",
+        "meaning_en": "the chance to pick between things",
+        "meaning_ar": "اختيار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You have a choice: tea or coffee."
+      },
+      {
+        "word": "negation",
+        "pos": "noun",
+        "meaning_en": "making something negative; saying no",
+        "meaning_ar": "نفي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Neither...nor\" shows negation."
+      },
+      {
+        "word": "inclusion",
+        "pos": "noun",
+        "meaning_en": "including something with something else",
+        "meaning_ar": "شمول / ضمّ",
+        "note_ar": "الصفة: inclusive",
+        "note_en": "Adjective: inclusive.",
+        "example": "\"Both...and\" shows inclusion."
+      },
+      {
+        "word": "surprise",
+        "pos": "noun",
+        "meaning_en": "something you did not expect",
+        "meaning_ar": "مفاجأة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Not only was it good, but it was also cheap. What a surprise!"
+      },
+      {
+        "word": "smell",
+        "pos": "verb",
+        "meaning_en": "to have a smell; \"it smells\" often means a bad smell",
+        "meaning_ar": "تنبعث منه رائحة (غالبًا كريهة)",
+        "note_ar": "للرائحة الطيبة نقول scent",
+        "note_en": "For a nice smell we say scent.",
+        "example": "This milk smells. Throw it away."
+      },
+      {
+        "word": "scent",
+        "pos": "noun",
+        "meaning_en": "a pleasant smell",
+        "meaning_ar": "رائحة طيبة / عِطر",
+        "note_ar": "حرف c صامت: /sent/",
+        "note_en": "The c is silent: /sent/.",
+        "example": "These flowers have a lovely scent."
+      },
+      {
+        "word": "modest",
+        "pos": "adjective",
+        "meaning_en": "not talking too much about your own success",
+        "meaning_ar": "متواضع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is both funny and modest."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "either...or vs neither...nor",
+        "words": [
+          "either ... or",
+          "neither ... nor"
+        ],
+        "explanation_ar": "either...or = اختيار: واحد من الاثنين. neither...nor = نفي: لا هذا ولا ذاك. انتبه: neither نفسها منفية فلا نضع معها not.",
+        "explanation_en": "either...or = a choice: one of the two. neither...nor = negation: not this and not that. Note: neither is already negative, so don't add not.",
+        "examples": [
+          {
+            "word": "either ... or",
+            "sentence": "Either buy the shoes or put them back."
+          },
+          {
+            "word": "neither ... nor",
+            "sentence": "The dog neither ate nor slept that night."
+          }
+        ]
+      },
+      {
+        "title": "both...and vs not only...but also",
+        "words": [
+          "both ... and",
+          "not only ... but also"
+        ],
+        "explanation_ar": "both...and = شمول: الأمران صحيحان معًا (أقوى من and وحدها). not only...but also = مفاجأة ثم مفاجأة أكبر.",
+        "explanation_en": "both...and = inclusion: both things are true (stronger than and alone). not only...but also = a surprise, then a bigger surprise.",
+        "examples": [
+          {
+            "word": "both ... and",
+            "sentence": "He was both funny and modest."
+          },
+          {
+            "word": "not only ... but also",
+            "sentence": "Not only was it great quality, but it was also cheap."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Either you ... or ...",
+        "meaning_ar": "إمّا أن ... أو ...",
+        "meaning_en": "Giving someone two options.",
+        "example": "Either you finish your homework or you stay home."
+      },
+      {
+        "phrase": "Neither ... nor ... were happy.",
+        "meaning_ar": "لم يكن ... ولا ... سعيدًا.",
+        "meaning_en": "Both were not happy.",
+        "example": "Neither the teacher nor the students were happy with the result."
+      },
+      {
+        "phrase": "Not only did it smell, but it also tasted funny.",
+        "meaning_ar": "لم تكن رائحته سيئة فحسب، بل كان طعمه غريبًا أيضًا.",
+        "meaning_en": "Two surprises, the second one bigger.",
+        "example": "The soup was old. Not only did it smell, but it also tasted funny."
+      },
+      {
+        "phrase": "One picture is worth a thousand words.",
+        "meaning_ar": "صورة واحدة تغني عن ألف كلمة.",
+        "meaning_en": "A picture explains more than many words.",
+        "example": "Show me a photo. One picture is worth a thousand words."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Conjunctions join ideas",
+        "explanation_ar": "أدوات الربط البسيطة (and, or, but, so, for, because) تربط الكلمات والعبارات والجمل. أدوات الربط المزدوجة تعمل كزوج لتربط فكرتين مرتبطتين.",
+        "explanation_en": "Simple conjunctions (and, or, but, so, for, because) join words, phrases and clauses. Correlative conjunctions work as a pair to join two related ideas.",
+        "examples": [
+          "My friend and I went shopping.",
+          "Either you or your brother must come."
+        ]
+      },
+      {
+        "title": "Four pairs and their meanings",
+        "explanation_ar": "either...or = اختيار. not only...but also = مفاجأة + مفاجأة أكبر. neither...nor = نفي الاثنين. both...and = شمول الاثنين.",
+        "explanation_en": "either...or = choice. not only...but also = surprise + bigger surprise. neither...nor = negation of both. both...and = inclusion of both.",
+        "examples": [
+          "Either you watch the program or we turn off the TV. (choice)",
+          "Not only was it high quality, but it was also cheap. (surprise)",
+          "Neither the woman nor the man was happy. (negation)",
+          "Both the man and his dog were tired. (inclusion)"
+        ]
+      },
+      {
+        "title": "Word order",
+        "explanation_ar": "ضع كل جزء من الزوج قبل نفس نوع الكلمة: either + فعل ... or + فعل؛ both + صفة ... and + صفة. إذا بدأت الجملة بـ Not only نقدّم الفعل المساعد: Not only was it... / Not only did it...",
+        "explanation_en": "Put each part of the pair before the same kind of word: either + verb ... or + verb; both + adjective ... and + adjective. If a sentence starts with Not only, put the auxiliary first: Not only was it... / Not only did it...",
+        "examples": [
+          "You can either call or write to us.",
+          "He was both tired and hungry.",
+          "Not only did he come late, but he also forgot his book."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which pair gives a choice?",
+      "choices": [
+        "neither...nor",
+        "both...and",
+        "either...or",
+        "not only...but also"
+      ],
+      "answer": 2,
+      "explanation_ar": "either...or = اختيار.",
+      "explanation_en": "Either...or = choice."
+    },
+    {
+      "question": "\"___ my brother nor my sister likes fish.\"",
+      "choices": [
+        "Neither",
+        "Either",
+        "Both",
+        "Not only"
+      ],
+      "answer": 0,
+      "explanation_ar": "nor تأتي مع neither.",
+      "explanation_en": "Nor goes with neither."
+    },
+    {
+      "question": "\"Both my father ___ my uncle are teachers.\"",
+      "choices": [
+        "or",
+        "nor",
+        "but",
+        "and"
+      ],
+      "answer": 3,
+      "explanation_ar": "التركيب الصحيح: both ... and.",
+      "explanation_en": "Both ... and."
+    },
+    {
+      "question": "\"Not only was it cheap, ___ it was also good.\"",
+      "choices": [
+        "and",
+        "but",
+        "or",
+        "nor"
+      ],
+      "answer": 1,
+      "explanation_ar": "التركيب الصحيح: not only ... but also.",
+      "explanation_en": "Not only ... but also."
+    },
+    {
+      "question": "\"The dog neither ate nor slept.\" What happened?",
+      "choices": [
+        "It didn't eat and didn't sleep.",
+        "It ate but didn't sleep.",
+        "It slept but didn't eat.",
+        "It ate and slept."
+      ],
+      "answer": 0,
+      "explanation_ar": "neither...nor = لا هذا ولا ذاك.",
+      "explanation_en": "Neither...nor = not this and not that."
+    },
+    {
+      "question": "Which pair shows surprise?",
+      "choices": [
+        "both...and",
+        "either...or",
+        "not only...but also",
+        "neither...nor"
+      ],
+      "answer": 2,
+      "explanation_ar": "not only...but also = مفاجأة.",
+      "explanation_en": "Not only...but also = surprise."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Neither he not she came.",
+        "Neither he or she came.",
+        "Either he nor she came.",
+        "Neither he nor she came."
+      ],
+      "answer": 3,
+      "explanation_ar": "neither + nor، وبدون not.",
+      "explanation_en": "Neither + nor, with no not."
+    },
+    {
+      "question": "\"Both...and\" shows ___.",
+      "choices": [
+        "inclusion",
+        "choice",
+        "negation",
+        "surprise"
+      ],
+      "answer": 0,
+      "explanation_ar": "شمول الاثنين.",
+      "explanation_en": "Inclusion of both."
+    },
+    {
+      "question": "Which word means a pleasant smell?",
+      "choices": [
+        "smell",
+        "scent",
+        "taste",
+        "noise"
+      ],
+      "answer": 1,
+      "explanation_ar": "scent = رائحة طيبة.",
+      "explanation_en": "Scent = a pleasant smell."
+    },
+    {
+      "question": "\"Not only ___ late, but he also forgot his book.\"",
+      "choices": [
+        "he came",
+        "came he",
+        "did he come",
+        "he did come"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد Not only في أول الجملة نقدّم الفعل المساعد: did he come.",
+      "explanation_en": "After Not only at the start, put the auxiliary first: did he come."
+    }
+  ]
+}

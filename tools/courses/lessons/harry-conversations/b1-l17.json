@@ -1,0 +1,66 @@
+{
+  "title": "Giving and Responding to Advice",
+  "content": {
+    "vocabulary": [
+      {"word": "a piece of advice", "pos": "phrase", "meaning_en": "one suggestion about what to do", "meaning_ar": "نصيحة واحدة", "note_ar": "advice غير معدودة، فلا نقول an advice أو advices", "note_en": "\"Advice\" is uncountable: not \"an advice\" or \"advices\".", "example": "Let me give you a piece of advice."},
+      {"word": "bare infinitive", "pos": "noun", "meaning_en": "the base form of a verb without \"to\" (go, talk, seek)", "meaning_ar": "المصدر المجرد (الفعل بدون to)", "note_ar": "", "note_en": "", "example": "After \"would\" we use the bare infinitive: I would go."},
+      {"word": "nervous wreck", "pos": "noun", "meaning_en": "a person who is extremely worried and stressed", "meaning_ar": "شخص منهار الأعصاب", "note_ar": "", "note_en": "", "example": "If you keep worrying, you'll be a nervous wreck."},
+      {"word": "retrain", "pos": "verb", "meaning_en": "learn new skills for a different job", "meaning_ar": "يعيد التدرّب / يتأهّل لمهنة جديدة", "note_ar": "", "note_en": "", "example": "Have you ever considered retraining as a teacher?"},
+      {"word": "face to face", "pos": "phrase", "meaning_en": "in person, not by phone or message", "meaning_ar": "وجهًا لوجه", "note_ar": "", "note_en": "", "example": "Have you tried discussing it face to face?"},
+      {"word": "put your head down", "pos": "phrase", "meaning_en": "start working or studying hard", "meaning_ar": "ينكبّ على العمل أو الدراسة", "note_ar": "", "note_en": "", "example": "Put your head down and study for a few hours."},
+      {"word": "buddy up", "pos": "phrasal verb", "meaning_en": "(informal) do an activity together with a friend", "meaning_ar": "يتشارك النشاط مع صديق", "note_ar": "", "note_en": "", "example": "Let's buddy up and go to the gym together."},
+      {"word": "make sense", "pos": "phrase", "meaning_en": "be reasonable or easy to understand", "meaning_ar": "منطقي / له معنى", "note_ar": "", "note_en": "", "example": "That actually makes a lot of sense."},
+      {"word": "sit on it", "pos": "phrase", "meaning_en": "(informal) wait and not decide or act for a while", "meaning_ar": "يؤجّل البتّ فيه", "note_ar": "", "note_en": "", "example": "I'll sit on it for a little while before I decide."},
+      {"word": "bend the rules", "pos": "phrase", "meaning_en": "do something that is not quite allowed", "meaning_ar": "يتحايل على القواعد", "note_ar": "", "note_en": "", "example": "I won't bend the rules, even a little."},
+      {"word": "fed up with", "pos": "adjective", "meaning_en": "bored or annoyed with something that has gone on too long", "meaning_ar": "ضجِر / سئم من", "note_ar": "", "note_en": "", "example": "She was fed up with all the advice."}
+    ],
+    "fine_lines": [
+      {"title": "Have you ever considered + -ing vs + question word", "words": ["considered + -ing", "considered + what/how"], "explanation_ar": "بعد consider نستخدم عادة ing، لكن يمكن أن يأتي بعدها سؤال بأداة استفهام مثل what أو how.", "explanation_en": "After \"consider\" we usually use -ing, but it can also be followed by a question word like \"what\" or \"how\".", "examples": [{"word": "considered + -ing", "sentence": "Have you ever considered studying abroad?"}, {"word": "considered + what/how", "sentence": "Have you considered what your parents will think?"}]},
+      {"title": "Positive vs negative responses to advice", "words": ["It's worth a try.", "That's easier said than done."], "explanation_ar": "الرد الإيجابي يعني أنك ستجرّب النصيحة، والرد السلبي يعني أنك تشك فيها أو ترفضها.", "explanation_en": "A positive response means you will try the advice; a negative one shows doubt or refusal.", "examples": [{"word": "It's worth a try.", "sentence": "Talk to him directly? OK, it's worth a try."}, {"word": "That's easier said than done.", "sentence": "Just stop worrying? That's easier said than done."}]}
+    ],
+    "expressions": [
+      {"phrase": "If I were in your shoes, I'd ...", "meaning_ar": "لو كنت في مكانك لـ ...", "meaning_en": "Gives advice by imagining your situation.", "example": "If I were in your shoes, I'd ask for help."},
+      {"phrase": "If I were you, I would ...", "meaning_ar": "لو كنت مكانك لـ ...", "meaning_en": "Classic advice phrase.", "example": "If I were you, I would see a doctor today."},
+      {"phrase": "Have you ever thought of / about ...ing?", "meaning_ar": "هل فكّرت يومًا في ...؟", "meaning_en": "Suggests a new idea.", "example": "Have you ever thought about training to be a nurse?"},
+      {"phrase": "Have you ever considered ...?", "meaning_ar": "هل فكّرت في ...؟", "meaning_en": "Asks someone to think about an option.", "example": "Have you ever considered retraining?"},
+      {"phrase": "If I had that problem, I would ...", "meaning_ar": "لو كانت لديّ هذه المشكلة لـ ...", "meaning_en": "Advice by saying what you would do.", "example": "If I had that problem, I would talk to a friend."},
+      {"phrase": "Have you ever tried ...ing?", "meaning_ar": "هل جرّبت ...؟", "meaning_en": "Suggests something to try.", "example": "Have you ever tried explaining exactly what you want?"},
+      {"phrase": "How about ...ing?", "meaning_ar": "ما رأيك في ...؟", "meaning_en": "An informal suggestion.", "example": "How about coming to the gym with me next week?"},
+      {"phrase": "Why don't you ...?", "meaning_ar": "لماذا لا ...؟", "meaning_en": "Friendly advice.", "example": "Why don't you stop complaining and do something about it?"},
+      {"phrase": "I think it would be a good idea to ...", "meaning_ar": "أظن أنها فكرة جيدة أن ...", "meaning_en": "Polite advice.", "example": "I think it would be a good idea to call an electrician."},
+      {"phrase": "The sooner you ..., the better.", "meaning_ar": "كلما أسرعت ... كان أفضل.", "meaning_en": "Advises acting quickly.", "example": "The sooner you start studying, the better you'll feel."},
+      {"phrase": "You have no choice but to ...", "meaning_ar": "ليس لديك خيار إلا أن ...", "meaning_en": "Strong advice.", "example": "You have no choice but to tell your manager."},
+      {"phrase": "Oh yeah, that's a thought.", "meaning_ar": "آه نعم، هذه فكرة!", "meaning_en": "Positive: \"Why didn't I think of that?\"", "example": "Ask my brother to help? Oh yeah, that's a thought."},
+      {"phrase": "I think I'll take you up on that.", "meaning_ar": "أظن أنني سأقبل عرضك.", "meaning_en": "Accepts an offer.", "example": "You'll come with me the first time? I think I'll take you up on that."},
+      {"phrase": "I think I'll give it a go / a try.", "meaning_ar": "أظن أنني سأجرّبه.", "meaning_en": "Says you will try the advice.", "example": "Running in the mornings? I think I'll give it a go."},
+      {"phrase": "Nothing ventured, nothing gained.", "meaning_ar": "من لم يجرّب لم يكسب.", "meaning_en": "You must try to get anything.", "example": "Apply anyway. Nothing ventured, nothing gained."},
+      {"phrase": "I hadn't thought of that. That makes a lot of sense.", "meaning_ar": "لم أفكر في ذلك. هذا منطقي جدًا.", "meaning_en": "Accepts useful new advice.", "example": "Talk to her after the holidays? I hadn't thought of that. That makes a lot of sense."},
+      {"phrase": "Well, it's worth a try.", "meaning_ar": "حسنًا، يستحق المحاولة.", "meaning_en": "Not sure it will work, but you'll try.", "example": "It might not work, but it's worth a try."},
+      {"phrase": "That's a great idea. I really appreciate your advice.", "meaning_ar": "فكرة رائعة. أقدّر نصيحتك حقًا.", "meaning_en": "A very positive reply.", "example": "That's a great idea. I really appreciate your advice."},
+      {"phrase": "That's easier said than done.", "meaning_ar": "القول أسهل من الفعل.", "meaning_en": "Negative: the advice is hard to follow.", "example": "Talk to my boss? That's easier said than done."},
+      {"phrase": "That's all very well, but I'm not sure it would work.", "meaning_ar": "هذا جميل، لكنني لست متأكدًا أنه سينجح.", "meaning_en": "Doubts the advice.", "example": "That's all very well, but I'm not sure it would work."},
+      {"phrase": "You have a point, but ...", "meaning_ar": "معك حق، لكن ...", "meaning_en": "Agrees a little, then disagrees.", "example": "You have a point, but I'll wait a bit longer."},
+      {"phrase": "I can see where you're coming from.", "meaning_ar": "أفهم وجهة نظرك.", "meaning_en": "Shows you understand the other person's view.", "example": "I can see where you're coming from, but I disagree."},
+      {"phrase": "I think I'll just sit on it for a while.", "meaning_ar": "أظن أنني سأؤجّل الأمر قليلًا.", "meaning_en": "Says you won't act yet.", "example": "Thanks for the advice. I think I'll just sit on it for a while."},
+      {"phrase": "I prefer to do it my way.", "meaning_ar": "أفضّل أن أفعلها على طريقتي.", "meaning_en": "Refuses advice.", "example": "That's an interesting opinion, but I prefer to do it my way."},
+      {"phrase": "That's not in line with my values.", "meaning_ar": "هذا لا يتوافق مع مبادئي.", "meaning_en": "Refuses advice that feels wrong.", "example": "I won't bend the rules. That's not in line with my values."},
+      {"phrase": "Thanks, but no thanks.", "meaning_ar": "شكرًا، لكن لا.", "meaning_en": "A short refusal.", "example": "Work this weekend? Thanks, but no thanks."}
+    ],
+    "grammar": [
+      {"title": "Second conditional for advice: If I were you, I would + verb", "explanation_ar": "نستخدم If + الماضي (were مع كل الضمائر) ثم would + الفعل الأساسي. If I were you أصح من If I was you في الإنجليزية الرسمية.", "explanation_en": "Use If + past (\"were\" with all subjects), then would + base verb. \"If I were you\" is more correct than \"If I was you\" in formal English.", "examples": ["If I were you, I would talk to him.", "If I had that problem, I'd ask for help.", "If she were in your shoes, she would apply."]},
+      {"title": "Which form comes next? -ing, base verb or to + verb", "explanation_ar": "ing بعد: حروف الجر (of, about)، tried، considered، How about. الفعل الأساسي بعد: would، Why don't you. to + الفعل بعد: It would be a good idea، no choice but.", "explanation_en": "-ing after prepositions (of, about), \"tried\", \"considered\", \"How about\". Base verb after \"would\" and \"Why don't you\". To + verb after \"It would be a good idea\" and \"no choice but\".", "examples": ["Have you ever tried talking to her?", "Why don't you go home early?", "You have no choice but to wait."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which is correct?", "choices": ["She gave me two advices.", "She gave me an advice.", "She gave me some good advice.", "She gave me a advices."], "answer": 2, "explanation_ar": "advice غير معدودة، فنقول some advice.", "explanation_en": "\"Advice\" is uncountable: \"some advice\"."},
+    {"question": "If I ___ in your shoes, I'd apologise.", "choices": ["am", "were", "be", "being"], "answer": 1, "explanation_ar": "في الشرط الثاني نقول If I were.", "explanation_en": "Second conditional: If I were."},
+    {"question": "Have you ever tried ___ to her face to face?", "choices": ["talking", "talk", "to talked", "talks"], "answer": 0, "explanation_ar": "بعد tried (بمعنى جرّب) نستخدم ing.", "explanation_en": "After \"tried\" (= experimented) use -ing."},
+    {"question": "If I had that problem, I would ___ a friend.", "choices": ["asking", "to ask", "asked", "ask"], "answer": 3, "explanation_ar": "بعد would نستخدم الفعل الأساسي.", "explanation_en": "After \"would\" use the base verb."},
+    {"question": "Which response ACCEPTS the advice?", "choices": ["Thanks, but no thanks.", "That's easier said than done.", "I think I'll give it a go.", "I prefer to do it my way."], "answer": 2, "explanation_ar": "I'll give it a go تعني أنك ستجرّب النصيحة.", "explanation_en": "\"I'll give it a go\" accepts the advice."},
+    {"question": "\"I can see where you're coming from\" means:", "choices": ["I know your hometown.", "I understand your point of view.", "I can see you arriving.", "I don't agree at all."], "answer": 1, "explanation_ar": "تعني: أفهم وجهة نظرك.", "explanation_en": "It means \"I understand your view\"."},
+    {"question": "\"Nothing ventured, nothing gained\" means:", "choices": ["Don't take any risks.", "Never try new things.", "Money is not important.", "If you don't try, you can't win anything."], "answer": 3, "explanation_ar": "إذا لم تجرّب فلن تكسب شيئًا.", "explanation_en": "If you don't try, you can't gain anything."},
+    {"question": "\"I'll sit on it for a while\" means:", "choices": ["I'll wait before deciding.", "I'll sit down.", "I'll decide now.", "I'll break it."], "answer": 0, "explanation_ar": "sit on it = يؤجّل القرار.", "explanation_en": "It means wait before deciding."},
+    {"question": "Why don't you ___ for another job?", "choices": ["looking", "look", "to look", "looked"], "answer": 1, "explanation_ar": "بعد Why don't you نستخدم الفعل الأساسي.", "explanation_en": "After \"Why don't you\" use the base verb."},
+    {"question": "\"That's not in line with my values\" is used to:", "choices": ["accept advice", "ask for advice", "refuse advice because it feels wrong", "say thank you"], "answer": 2, "explanation_ar": "تُستخدم لرفض نصيحة تخالف المبادئ.", "explanation_en": "It refuses advice that feels morally wrong."}
+  ]
+}

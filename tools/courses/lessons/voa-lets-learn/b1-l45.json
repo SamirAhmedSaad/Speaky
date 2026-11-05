@@ -1,0 +1,488 @@
+{
+ "title": "This Land is Your Land",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "roommate",
+    "pos": "noun",
+    "meaning_en": "a person who lives in the same apartment or room as you",
+    "meaning_ar": "شريك السكن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My roommate and I share the kitchen."
+   },
+   {
+    "word": "vacation",
+    "pos": "noun",
+    "meaning_en": "time away from work or school to rest or travel",
+    "meaning_ar": "إجازة",
+    "note_ar": "بالبريطانية: holiday.",
+    "note_en": "UK: holiday.",
+    "example": "We are on vacation next week."
+   },
+   {
+    "word": "road trip",
+    "pos": "noun",
+    "meaning_en": "a long trip by car",
+    "meaning_ar": "رحلة بالسيارة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We went on a road trip across the country."
+   },
+   {
+    "word": "pack",
+    "pos": "verb",
+    "meaning_en": "to put things in a bag for a trip",
+    "meaning_ar": "يحزم (الأمتعة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Did you pack your bags?"
+   },
+   {
+    "word": "list",
+    "pos": "noun",
+    "meaning_en": "things written one after another",
+    "meaning_ar": "قائمة",
+    "note_ar": "make a list = يكتب قائمة.",
+    "note_en": "make a list.",
+    "example": "I made a list of things to buy."
+   },
+   {
+    "word": "Statue of Liberty",
+    "pos": "noun",
+    "meaning_en": "a famous statue in New York harbor",
+    "meaning_ar": "تمثال الحرية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We took a boat to the Statue of Liberty."
+   },
+   {
+    "word": "Mount Rushmore",
+    "pos": "noun",
+    "meaning_en": "a mountain in South Dakota with the faces of four U.S. presidents",
+    "meaning_ar": "جبل راشمور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Mount Rushmore has four huge faces."
+   },
+   {
+    "word": "Grand Canyon",
+    "pos": "noun",
+    "meaning_en": "a very large, deep valley in Arizona",
+    "meaning_ar": "الأخدود العظيم (غراند كانيون)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The Grand Canyon is very deep."
+   },
+   {
+    "word": "redwood forest",
+    "pos": "noun",
+    "meaning_en": "a forest of very tall red trees in California",
+    "meaning_ar": "غابة الخشب الأحمر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Redwood trees can be very old."
+   },
+   {
+    "word": "bored",
+    "pos": "adjective",
+    "meaning_en": "not interested because nothing exciting is happening",
+    "meaning_ar": "يشعر بالملل",
+    "note_ar": "bored = الشخص يشعر بالملل. boring = الشيء ممل.",
+    "note_en": "bored = how you feel; boring = the thing that makes you feel that way.",
+    "example": "I'm bored. Let's play a game."
+   },
+   {
+    "word": "famous",
+    "pos": "adjective",
+    "meaning_en": "known by many people",
+    "meaning_ar": "مشهور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "New York is a famous American city."
+   },
+   {
+    "word": "island",
+    "pos": "noun",
+    "meaning_en": "land with water all around it",
+    "meaning_ar": "جزيرة",
+    "note_ar": "حرف s صامت: /ˈaɪlənd/.",
+    "note_en": "The s is silent: /ˈaɪlənd/.",
+    "example": "We took a boat to the island."
+   },
+   {
+    "word": "arrive",
+    "pos": "verb",
+    "meaning_en": "to get to a place",
+    "meaning_ar": "يصل",
+    "note_ar": "arrive in + مدينة/دولة، arrive at + مكان محدد.",
+    "note_en": "arrive in a city/country; arrive at a place.",
+    "example": "We will arrive at noon."
+   },
+   {
+    "word": "rocking chair",
+    "pos": "noun",
+    "meaning_en": "a chair that moves forward and back",
+    "meaning_ar": "كرسي هزاز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Grandpa sits in his rocking chair."
+   },
+   {
+    "word": "roadside",
+    "pos": "noun / adjective",
+    "meaning_en": "the area next to a road",
+    "meaning_ar": "جانب الطريق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We bought fruit at a roadside shop."
+   },
+   {
+    "word": "sights",
+    "pos": "noun",
+    "meaning_en": "interesting places that tourists visit",
+    "meaning_ar": "معالم سياحية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We saw all the sights in Rome."
+   },
+   {
+    "word": "litter",
+    "pos": "verb / noun",
+    "meaning_en": "to leave trash on the ground in a public place",
+    "meaning_ar": "يرمي القمامة في الشارع / قمامة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please don't litter in the park."
+   },
+   {
+    "word": "listener",
+    "pos": "noun",
+    "meaning_en": "a person who listens",
+    "meaning_ar": "مستمع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My mom is a good listener."
+   },
+   {
+    "word": "enter",
+    "pos": "verb",
+    "meaning_en": "to go into a place",
+    "meaning_ar": "يدخل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We are entering the city now."
+   },
+   {
+    "word": "direction",
+    "pos": "noun",
+    "meaning_en": "the way something is going: north, south, east, west",
+    "meaning_ar": "اتجاه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We are going in the wrong direction."
+   },
+   {
+    "word": "exit",
+    "pos": "verb / noun",
+    "meaning_en": "to leave; a way out",
+    "meaning_ar": "يخرج / مخرج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Take the next exit off the highway."
+   },
+   {
+    "word": "highway",
+    "pos": "noun",
+    "meaning_en": "a big, fast road between cities",
+    "meaning_ar": "طريق سريع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Cars drive fast on the highway."
+   },
+   {
+    "word": "gas",
+    "pos": "noun",
+    "meaning_en": "fuel for a car",
+    "meaning_ar": "بنزين / وقود",
+    "note_ar": "بالبريطانية: petrol.",
+    "note_en": "UK: petrol.",
+    "example": "We need to stop for gas."
+   },
+   {
+    "word": "president",
+    "pos": "noun",
+    "meaning_en": "the leader of a country like the U.S.",
+    "meaning_ar": "رئيس (دولة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "George Washington was the first U.S. president."
+   },
+   {
+    "word": "make it (to)",
+    "pos": "phrase",
+    "meaning_en": "to succeed in getting to a place",
+    "meaning_ar": "يصل (بنجاح)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We made it to the station on time!"
+   },
+   {
+    "word": "busy",
+    "pos": "adjective",
+    "meaning_en": "having a lot to do",
+    "meaning_ar": "مشغول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We'll be very busy tomorrow."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "bored vs boring",
+    "words": [
+     "bored",
+     "boring"
+    ],
+    "explanation_ar": "bored تصف شعور الشخص (أنا أشعر بالملل). boring تصف الشيء الذي يسبب الملل.",
+    "explanation_en": "Bored describes how a person feels. Boring describes the thing that causes that feeling.",
+    "examples": [
+     {
+      "word": "bored",
+      "sentence": "We might get bored."
+     },
+     {
+      "word": "boring",
+      "sentence": "The long drive is boring."
+     }
+    ]
+   },
+   {
+    "title": "will + verb vs will be + verb-ing",
+    "words": [
+     "will stop",
+     "will be stopping"
+    ],
+    "explanation_ar": "will stop = قرار أو حدث في المستقبل. will be stopping = حدث سيكون مستمراً في وقت محدد في المستقبل، أو خطة عادية مرتبة.",
+    "explanation_en": "Will stop = a future action or decision. Will be stopping = an action in progress at a time in the future, or a normal planned event.",
+    "examples": [
+     {
+      "word": "will",
+      "sentence": "I will exit the highway."
+     },
+     {
+      "word": "will be + -ing",
+      "sentence": "We will be stopping for gas in about an hour."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "We are going on a road trip together!",
+    "meaning_ar": "سنذهب في رحلة بالسيارة معاً!",
+    "meaning_en": "We are going to travel by car together.",
+    "example": "This summer, my family is going on a road trip."
+   },
+   {
+    "phrase": "I packed my bags and I am ready to go!",
+    "meaning_ar": "حزمت حقائبي وأنا جاهز للانطلاق!",
+    "meaning_en": "Everything is ready for the trip.",
+    "example": "The taxi is here. I packed my bags and I'm ready to go!"
+   },
+   {
+    "phrase": "Don't forget ...",
+    "meaning_ar": "لا تنسَ ...",
+    "meaning_en": "Remember to do or include something.",
+    "example": "Don't forget your passport!"
+   },
+   {
+    "phrase": "No way!",
+    "meaning_ar": "مستحيل! / أبداً!",
+    "meaning_en": "A strong \"no\", or surprise.",
+    "example": "Bored? No way! This trip is fun."
+   },
+   {
+    "phrase": "Can you wait?",
+    "meaning_ar": "هل يمكنك الانتظار؟",
+    "meaning_en": "Asking someone to be patient.",
+    "example": "Lunch is in an hour. Can you wait?"
+   },
+   {
+    "phrase": "I can't wait to ...",
+    "meaning_ar": "لا أطيق الانتظار لـ ...",
+    "meaning_en": "I am very excited about something.",
+    "example": "I can't wait to see my grandparents."
+   },
+   {
+    "phrase": "Guess what?",
+    "meaning_ar": "خمّن ماذا؟",
+    "meaning_en": "Used before you share surprising news.",
+    "example": "Guess what? We're going to the beach!"
+   },
+   {
+    "phrase": "any minute now",
+    "meaning_ar": "في أي لحظة الآن",
+    "meaning_en": "very soon",
+    "example": "The bus will be here any minute now."
+   },
+   {
+    "phrase": "We did it!",
+    "meaning_ar": "لقد نجحنا!",
+    "meaning_en": "We succeeded.",
+    "example": "We finished the project. We did it!"
+   },
+   {
+    "phrase": "What do you mean ...?",
+    "meaning_ar": "ماذا تقصد بـ ...؟",
+    "meaning_en": "Asking someone to explain.",
+    "example": "What do you mean, \"we're lost\"?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Future continuous: will be + verb-ing",
+    "explanation_ar": "نستخدم المستقبل المستمر لحدث سيكون مستمراً في وقت معين في المستقبل، أو لحدث مخطط له في المستقبل. التكوين: will be + الفعل مع ing لكل الضمائر. الاختصار: we'll be, I'll be.",
+    "explanation_en": "Use the future continuous for an action that will be in progress at a time in the future, or for a planned future event. Form: will be + verb-ing, for every subject. Short form: we'll be, I'll be.",
+    "examples": [
+     "We will be driving for a long time.",
+     "We'll be eating lunch in about 2 hours.",
+     "We will be arriving in New York City very soon!",
+     "We will be entering North Dakota any minute now!"
+    ]
+   },
+   {
+    "title": "Negatives and questions: won't be + -ing / Will ... be + -ing?",
+    "explanation_ar": "النفي: won't be (will not be) + ing. السؤال: نضع will قبل الفاعل: Will we be stopping soon?",
+    "explanation_en": "Negative: won't be (will not be) + verb-ing. Question: put will before the subject: Will we be stopping soon?",
+    "examples": [
+     "Will we be stopping soon?",
+     "We won't be stopping soon.",
+     "No, we won't be seeing that."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Complete: \"We ____ lunch in about 2 hours.\"",
+   "choices": [
+    "will eating",
+    "will be eat",
+    "will be eating",
+    "are be eating"
+   ],
+   "answer": 2,
+   "explanation_ar": "المستقبل المستمر: will be + ing.",
+   "explanation_en": "Future continuous: will be + -ing."
+  },
+  {
+   "question": "Make a question: \"____ we be stopping soon?\"",
+   "choices": [
+    "Will",
+    "Are",
+    "Do",
+    "Did"
+   ],
+   "answer": 0,
+   "explanation_ar": "السؤال يبدأ بـ will: Will we be stopping?",
+   "explanation_en": "The question starts with will: Will we be stopping?"
+  },
+  {
+   "question": "Choose the correct negative.",
+   "choices": [
+    "We don't will be stopping.",
+    "We won't be stopping.",
+    "We will not stopping.",
+    "We won't stopping be."
+   ],
+   "answer": 1,
+   "explanation_ar": "النفي: won't be + ing.",
+   "explanation_en": "Negative: won't be + -ing."
+  },
+  {
+   "question": "\"We will be driving for a long time. So, we might get ____.\"",
+   "choices": [
+    "boring",
+    "busy",
+    "famous",
+    "bored"
+   ],
+   "answer": 3,
+   "explanation_ar": "bored تصف شعور الشخص.",
+   "explanation_en": "Bored describes how a person feels."
+  },
+  {
+   "question": "A long trip by car is a ...",
+   "choices": [
+    "road trip",
+    "flight",
+    "highway",
+    "roadside"
+   ],
+   "answer": 0,
+   "explanation_ar": "road trip = رحلة بالسيارة.",
+   "explanation_en": "A road trip is a long trip by car."
+  },
+  {
+   "question": "Someone throws a paper bag out of the car window onto the road. They ____.",
+   "choices": [
+    "packed",
+    "littered",
+    "exited",
+    "entered"
+   ],
+   "answer": 1,
+   "explanation_ar": "litter = يرمي القمامة في مكان عام، والماضي littered.",
+   "explanation_en": "Litter = leave trash in a public place. Past: littered."
+  },
+  {
+   "question": "\"We will be entering North Dakota any minute now.\" \"any minute now\" means ...",
+   "choices": [
+    "in a year",
+    "never",
+    "very soon",
+    "a long time ago"
+   ],
+   "answer": 2,
+   "explanation_ar": "any minute now = في أي لحظة، قريباً جداً.",
+   "explanation_en": "Any minute now = very soon."
+  },
+  {
+   "question": "They want to go south, but they are going north. They are going in the wrong ...",
+   "choices": [
+    "exit",
+    "island",
+    "sights",
+    "direction"
+   ],
+   "answer": 3,
+   "explanation_ar": "direction = اتجاه.",
+   "explanation_en": "Direction = the way you are going."
+  },
+  {
+   "question": "\"I can't wait to see New York!\" This means I am ...",
+   "choices": [
+    "very excited",
+    "tired of waiting",
+    "not able to go",
+    "angry"
+   ],
+   "answer": 0,
+   "explanation_ar": "I can't wait = متحمس جداً.",
+   "explanation_en": "\"I can't wait\" means very excited."
+  },
+  {
+   "question": "Which sentence is correct?",
+   "choices": [
+    "They will be arrive soon.",
+    "They will be arriving soon.",
+    "They will arriving soon.",
+    "They be will arriving soon."
+   ],
+   "answer": 1,
+   "explanation_ar": "التركيب الصحيح: will be + arriving.",
+   "explanation_en": "will be + arriving."
+  }
+ ]
+}

@@ -91,6 +91,32 @@ data class TypingUser(
     val nickname: String,
 )
 
+/** A private chat as seen by community admins (moderation). */
+data class AdminChat(
+    val roomId: String,
+    val lastMessageAtMillis: Long,
+    /** Exact server timestamp, the page cursor. */
+    val lastMessageAtRaw: String,
+    val lastMessagePreview: String,
+    val messageCount: Int,
+    val userA: CommunityUser,
+    /** Null when the other person deleted their account. */
+    val userB: CommunityUser?,
+)
+
+/** A message in a private chat, read-only for admins. */
+data class AdminChatMessage(
+    val id: String,
+    val senderId: String,
+    val isVoice: Boolean,
+    val text: String,
+    val voiceDurationMs: Long,
+    val createdAtMillis: Long,
+    /** Exact server timestamp, the page cursor. */
+    val createdAtRaw: String,
+    val isEdited: Boolean,
+)
+
 /** A report as seen by community admins. */
 data class AdminReport(
     val id: String,

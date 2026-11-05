@@ -1,0 +1,403 @@
+{
+ "title": "Two-word expressions",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "discussion",
+    "pos": "noun",
+    "meaning_en": "a conversation about a subject",
+    "meaning_ar": "نقاش",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We had a long discussion about the plan."
+   },
+   {
+    "word": "insensitive",
+    "pos": "adjective",
+    "meaning_en": "not noticing or caring about other people's feelings",
+    "meaning_ar": "غير مراعٍ لمشاعر الآخرين",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It was insensitive to laugh at his mistake."
+   },
+   {
+    "word": "unaware",
+    "pos": "adjective",
+    "meaning_en": "not knowing about something",
+    "meaning_ar": "غير مدرك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He was unaware of the problem."
+   },
+   {
+    "word": "data",
+    "pos": "noun",
+    "meaning_en": "facts and numbers, often stored on computers",
+    "meaning_ar": "بيانات",
+    "note_ar": "تُنطق /ˈdeɪtə/ في بريطانيا وغالباً /ˈdætə/ في أمريكا.",
+    "note_en": "UK: /ˈdeɪtə/; US often /ˈdætə/.",
+    "example": "The app collects data about how we use it."
+   },
+   {
+    "word": "negotiation",
+    "pos": "noun",
+    "meaning_en": "talks to reach an agreement",
+    "meaning_ar": "مفاوضات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The negotiations lasted three days."
+   },
+   {
+    "word": "agreement",
+    "pos": "noun",
+    "meaning_en": "a decision that two or more people accept",
+    "meaning_ar": "اتفاق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They finally reached an agreement."
+   },
+   {
+    "word": "progress",
+    "pos": "noun",
+    "meaning_en": "movement towards a goal",
+    "meaning_ar": "تقدّم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We are making good progress with the project."
+   },
+   {
+    "word": "disaster",
+    "pos": "noun",
+    "meaning_en": "something very bad that happens",
+    "meaning_ar": "كارثة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The party was a disaster – it rained all day."
+   },
+   {
+    "word": "refund",
+    "pos": "noun",
+    "meaning_en": "money given back when you return something",
+    "meaning_ar": "استرداد المال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I returned the shoes and got a full refund."
+   },
+   {
+    "word": "return",
+    "pos": "verb",
+    "meaning_en": "to give or send something back",
+    "meaning_ar": "يُرجِع، يعيد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please return the book to the library."
+   },
+   {
+    "word": "lockdown",
+    "pos": "noun",
+    "meaning_en": "a time when people must stay at home",
+    "meaning_ar": "إغلاق عام، حظر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Many people worked from home during lockdown."
+   },
+   {
+    "word": "anxious",
+    "pos": "adjective",
+    "meaning_en": "worried and nervous",
+    "meaning_ar": "قلق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I always feel anxious before exams."
+   },
+   {
+    "word": "decisive",
+    "pos": "adjective",
+    "meaning_en": "very important for the final result",
+    "meaning_ar": "حاسم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is a decisive moment for the team."
+   },
+   {
+    "word": "deadline",
+    "pos": "noun",
+    "meaning_en": "the time by which you must finish something",
+    "meaning_ar": "الموعد النهائي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The deadline for the essay is Friday."
+   },
+   {
+    "word": "colleague",
+    "pos": "noun",
+    "meaning_en": "a person you work with",
+    "meaning_ar": "زميل في العمل",
+    "note_ar": "تُنطق /ˈkɒliːɡ/ والنبر على المقطع الأول.",
+    "note_en": "Stress the first syllable: COL-league.",
+    "example": "My colleagues are very friendly."
+   },
+   {
+    "word": "trivial",
+    "pos": "adjective",
+    "meaning_en": "not important",
+    "meaning_ar": "تافه، غير مهم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't argue about trivial things."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "sticking point vs slippery slope",
+    "words": [
+     "sticking point",
+     "slippery slope"
+    ],
+    "explanation_ar": "sticking point: نقطة خلاف تمنع التقدم أو الاتفاق (الأمور متوقفة). slippery slope: وضع يسوء تدريجياً وقد ينتهي بكارثة إن لم يتوقف (الأمور تنحدر).",
+    "explanation_en": "A 'sticking point' is a problem that stops progress or agreement – things are stuck. A 'slippery slope' is a situation that keeps getting worse and could end in disaster.",
+    "examples": [
+     {
+      "word": "sticking point",
+      "sentence": "The price was the main sticking point in the talks."
+     },
+     {
+      "word": "slippery slope",
+      "sentence": "Skipping one class is a slippery slope – soon you skip them all."
+     }
+    ]
+   },
+   {
+    "title": "tone deaf: two meanings",
+    "words": [
+     "tone deaf (singing)",
+     "tone deaf (insensitive)"
+    ],
+    "explanation_ar": "المعنى الحرفي: شخص لا يميّز النغمات فلا يستطيع الغناء بشكل صحيح. المعنى المجازي: شخص لا يدرك حساسية الموقف فيقول أو يفعل شيئاً غير مناسب.",
+    "explanation_en": "Literally, a tone-deaf person can't hear the difference between notes. Figuratively, a tone-deaf person doesn't understand how sensitive a situation is.",
+    "examples": [
+     {
+      "word": "tone deaf (insensitive)",
+      "sentence": "Complaining about your small problem at the hospital sounded tone deaf."
+     }
+    ]
+   },
+   {
+    "title": "crunch time vs deadline",
+    "words": [
+     "crunch time",
+     "deadline"
+    ],
+    "explanation_ar": "deadline تاريخ أو وقت محدد يجب إنهاء العمل قبله. crunch time الفترة الحرجة التي يجب فيها اتخاذ قرار مهم أو بذل أكبر جهد، وغالباً قبل الـ deadline.",
+    "explanation_en": "A 'deadline' is the date or time when something must be finished. 'Crunch time' is the critical period when an important decision or big effort is needed.",
+    "examples": [
+     {
+      "word": "deadline",
+      "sentence": "The deadline is 5 pm on Monday."
+     },
+     {
+      "word": "crunch time",
+      "sentence": "It's crunch time – the final exam is tomorrow."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "mic drop",
+    "meaning_ar": "عبارة تُقال بعد كلام قوي ينهي النقاش (كأنك تُسقط الميكروفون)",
+    "meaning_en": "said after making a point so strong that the discussion is over",
+    "example": "And that's why I'm right. Mic drop!"
+   },
+   {
+    "phrase": "tone deaf",
+    "meaning_ar": "لا يراعي حساسية الموقف؛ أو لا يميّز النغمات",
+    "meaning_en": "insensitive to a situation; also unable to hear musical notes correctly",
+    "example": "The manager's joke about money was tone deaf after people lost their jobs."
+   },
+   {
+    "phrase": "talk shop",
+    "meaning_ar": "يتحدث عن العمل خارج وقت العمل",
+    "meaning_en": "to talk about work when you are not at work",
+    "example": "Let's not talk shop at lunch – tell me about your weekend!"
+   },
+   {
+    "phrase": "big data",
+    "meaning_ar": "كميات ضخمة من البيانات الرقمية تُحلَّل بالحاسوب",
+    "meaning_en": "very large amounts of digital information that computers analyse",
+    "example": "The company uses big data to understand what customers want."
+   },
+   {
+    "phrase": "sticking point",
+    "meaning_ar": "نقطة خلاف تمنع التقدم أو الاتفاق",
+    "meaning_en": "a problem that stops progress or agreement",
+    "example": "Working hours were the sticking point in the discussion."
+   },
+   {
+    "phrase": "new normal",
+    "meaning_ar": "وضع جديد أصبح معتاداً بعد تغيير كبير",
+    "meaning_en": "a new situation that has become usual after a big change",
+    "example": "Online meetings are the new normal for our team."
+   },
+   {
+    "phrase": "(a) slippery slope",
+    "meaning_ar": "طريق يقود إلى وضع أسوأ فأسوأ",
+    "meaning_en": "a situation that will get worse and end badly unless it is stopped",
+    "example": "Buying things you don't need on credit is a slippery slope."
+   },
+   {
+    "phrase": "serial returner",
+    "meaning_ar": "زبون يُرجع المشتريات مرات كثيرة",
+    "meaning_en": "a customer who often sends back things they bought",
+    "example": "The shop has new rules for serial returners."
+   },
+   {
+    "phrase": "cabin fever",
+    "meaning_ar": "الضيق والقلق من البقاء في مكان مغلق مدة طويلة",
+    "meaning_en": "feeling stressed and restless after staying inside for too long",
+    "example": "After a week of rain, the kids had cabin fever."
+   },
+   {
+    "phrase": "crunch time",
+    "meaning_ar": "الوقت الحرج الذي يجب فيه اتخاذ قرار مهم",
+    "meaning_en": "a critical time when an important decision or effort is needed",
+    "example": "It's crunch time for the team – they must win this match."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Compound nouns: noun + noun / adjective + noun",
+    "explanation_ar": "كثير من التعابير الثنائية أسماء مركّبة: الكلمة الأولى تصف الثانية. النبر غالباً على الكلمة الأولى في (اسم + اسم): CRUNCH time، CABIN fever، TALK shop. وفي (صفة + اسم) يكون النبر غالباً على الثانية: big DATA، new NORMAL.",
+    "explanation_en": "Many two-word expressions are compound nouns: the first word describes the second. With noun + noun the stress is usually on the first word: CRUNCH time, CABIN fever. With adjective + noun it is often on the second: big DATA, new NORMAL.",
+    "examples": [
+     "crunch time",
+     "cabin fever",
+     "a sticking point",
+     "the new normal"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "'Let's not talk shop tonight.' What does it mean?",
+   "choices": [
+    "Let's not go shopping.",
+    "Let's not talk about work.",
+    "Let's not talk at all.",
+    "Let's not buy anything."
+   ],
+   "answer": 1,
+   "explanation_ar": "talk shop = يتحدث عن العمل.",
+   "explanation_en": "'Talk shop' means talking about work."
+  },
+  {
+   "question": "Which word completes it? 'Money was the main ___ point in the negotiations.'",
+   "choices": [
+    "slippery",
+    "crunch",
+    "sticking",
+    "serial"
+   ],
+   "answer": 2,
+   "explanation_ar": "sticking point = نقطة خلاف تمنع الاتفاق.",
+   "explanation_en": "A 'sticking point' stops an agreement."
+  },
+  {
+   "question": "A customer who sends back clothes again and again is a ___.",
+   "choices": [
+    "serial returner",
+    "big data",
+    "mic drop",
+    "new normal"
+   ],
+   "answer": 0,
+   "explanation_ar": "serial returner = زبون يُرجع المشتريات كثيراً.",
+   "explanation_en": "A 'serial returner' often returns things."
+  },
+  {
+   "question": "After two weeks at home, Ali felt bored and restless. He had ___.",
+   "choices": [
+    "crunch time",
+    "a sticking point",
+    "a slippery slope",
+    "cabin fever"
+   ],
+   "answer": 3,
+   "explanation_ar": "cabin fever = ضيق من البقاء في مكان مغلق.",
+   "explanation_en": "'Cabin fever' is feeling restless from staying inside."
+  },
+  {
+   "question": "Which sentence uses 'tone deaf' to mean insensitive?",
+   "choices": [
+    "He is tone deaf, so he never sings.",
+    "Her comment about expensive holidays was tone deaf when people were losing jobs.",
+    "The piano was tone deaf.",
+    "Tone deaf people can't hear."
+   ],
+   "answer": 1,
+   "explanation_ar": "المعنى المجازي: لا يراعي حساسية الموقف.",
+   "explanation_en": "The figurative meaning is not understanding a sensitive situation."
+  },
+  {
+   "question": "'It's crunch time.' What does it mean?",
+   "choices": [
+    "It's time to eat crisps.",
+    "It's a relaxing time.",
+    "It's a critical time for a decision.",
+    "It's late at night."
+   ],
+   "answer": 2,
+   "explanation_ar": "crunch time = الوقت الحرج.",
+   "explanation_en": "'Crunch time' is a critical moment."
+  },
+  {
+   "question": "When do people say 'mic drop'?",
+   "choices": [
+    "after a strong point that ends the discussion",
+    "when they are tired",
+    "when a microphone breaks",
+    "at the start of a meeting"
+   ],
+   "answer": 0,
+   "explanation_ar": "mic drop تقال بعد كلام قوي ينهي النقاش.",
+   "explanation_en": "'Mic drop' comes after a point that ends the discussion."
+  },
+  {
+   "question": "Wearing masks became the ___ for many people.",
+   "choices": [
+    "big data",
+    "cabin fever",
+    "talk shop",
+    "new normal"
+   ],
+   "answer": 3,
+   "explanation_ar": "new normal = وضع جديد صار معتاداً.",
+   "explanation_en": "'New normal' is a new usual situation."
+  },
+  {
+   "question": "Which describes a situation that keeps getting worse?",
+   "choices": [
+    "a sticking point",
+    "a slippery slope",
+    "crunch time",
+    "big data"
+   ],
+   "answer": 1,
+   "explanation_ar": "slippery slope = وضع يسوء تدريجياً.",
+   "explanation_en": "A 'slippery slope' keeps getting worse."
+  },
+  {
+   "question": "What is 'big data'?",
+   "choices": [
+    "a large hard drive",
+    "a very long book",
+    "huge amounts of digital information",
+    "a big mistake"
+   ],
+   "answer": 2,
+   "explanation_ar": "big data = كميات ضخمة من البيانات الرقمية.",
+   "explanation_en": "'Big data' is huge amounts of digital information."
+  }
+ ]
+}

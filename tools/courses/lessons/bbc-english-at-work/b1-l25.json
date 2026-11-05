@@ -1,0 +1,420 @@
+{
+  "title": "Booking a Hotel Room",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "book",
+        "pos": "verb",
+        "meaning_en": "arrange to have a room, seat or ticket for a later time",
+        "meaning_ar": "يحجز",
+        "note_ar": "booking = حجز (اسم)",
+        "note_en": "Noun: booking.",
+        "example": "I need to book a hotel room for our visitor."
+      },
+      {
+        "word": "reservation",
+        "pos": "noun",
+        "meaning_en": "an arrangement to keep a room or table for you",
+        "meaning_ar": "حجز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like to make a reservation, please."
+      },
+      {
+        "word": "availability",
+        "pos": "noun",
+        "meaning_en": "whether something is free to use",
+        "meaning_ar": "التوفّر",
+        "note_ar": "صفة: available = متاح",
+        "note_en": "Adjective: available.",
+        "example": "Could you check availability for next Monday?"
+      },
+      {
+        "word": "rate",
+        "pos": "noun",
+        "meaning_en": "the price for a period of time, for example one night",
+        "meaning_ar": "السعر / التعرفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The nightly rate is £100."
+      },
+      {
+        "word": "special rate",
+        "pos": "noun",
+        "meaning_en": "a lower price than usual",
+        "meaning_ar": "سعر خاص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you offer a special rate for companies?"
+      },
+      {
+        "word": "include",
+        "pos": "verb",
+        "meaning_en": "have something as part of the total",
+        "meaning_ar": "يشمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Does the price include breakfast?"
+      },
+      {
+        "word": "continental breakfast",
+        "pos": "noun",
+        "meaning_en": "a light breakfast of bread, cereal, tea or coffee",
+        "meaning_ar": "فطور خفيف (كونتيننتال)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The hotel serves a continental breakfast."
+      },
+      {
+        "word": "facilities",
+        "pos": "noun",
+        "meaning_en": "rooms, equipment or services provided for people",
+        "meaning_ar": "مرافق / خدمات",
+        "note_ar": "تُستخدم غالبًا بصيغة الجمع",
+        "note_en": "Usually plural.",
+        "example": "Are there any business facilities?"
+      },
+      {
+        "word": "wi-fi",
+        "pos": "noun",
+        "meaning_en": "a wireless internet connection",
+        "meaning_ar": "الإنترنت اللاسلكي (واي فاي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is there free wi-fi in the rooms?"
+      },
+      {
+        "word": "single room",
+        "pos": "noun",
+        "meaning_en": "a hotel room for one person",
+        "meaning_ar": "غرفة مفردة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wants a single room with one bed."
+      },
+      {
+        "word": "twin room",
+        "pos": "noun",
+        "meaning_en": "a hotel room with two single beds",
+        "meaning_ar": "غرفة بسريرين منفصلين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We only have twin rooms left."
+      },
+      {
+        "word": "five-star",
+        "pos": "adjective",
+        "meaning_en": "of the highest quality (for hotels)",
+        "meaning_ar": "خمس نجوم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The boss always stays in a five-star hotel."
+      },
+      {
+        "word": "guest",
+        "pos": "noun",
+        "meaning_en": "a person who stays in a hotel",
+        "meaning_ar": "نزيل / ضيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The guest asked for an extra towel."
+      },
+      {
+        "word": "receptionist",
+        "pos": "noun",
+        "meaning_en": "the person who answers phones and greets visitors at a hotel or office",
+        "meaning_ar": "موظف الاستقبال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The receptionist confirmed my booking."
+      },
+      {
+        "word": "go ahead",
+        "pos": "phrasal verb",
+        "meaning_en": "start or continue doing something that was planned",
+        "meaning_ar": "يمضي قدمًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like to go ahead and make the reservation."
+      },
+      {
+        "word": "fussy",
+        "pos": "adjective",
+        "meaning_en": "difficult to please; wanting things exactly right",
+        "meaning_ar": "صعب الإرضاء / متطلّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our manager is very fussy about his coffee."
+      },
+      {
+        "word": "unexpectedly",
+        "pos": "adverb",
+        "meaning_en": "in a way that surprises people",
+        "meaning_ar": "بشكل غير متوقّع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The director arrived unexpectedly."
+      },
+      {
+        "word": "in the nick of time",
+        "pos": "idiom",
+        "meaning_en": "just in time, at the last moment",
+        "meaning_ar": "في اللحظة الأخيرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We finished the report in the nick of time."
+      },
+      {
+        "word": "recommendation",
+        "pos": "noun",
+        "meaning_en": "advice that something is good",
+        "meaning_ar": "توصية / ترشيح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thanks for the hotel recommendation."
+      },
+      {
+        "word": "pay",
+        "pos": "verb",
+        "meaning_en": "give money for something",
+        "meaning_ar": "يدفع",
+        "note_ar": "الماضي: paid",
+        "note_en": "Past: paid.",
+        "example": "How would you like to pay?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "single room vs twin room vs double room",
+        "words": [
+          "single",
+          "twin",
+          "double"
+        ],
+        "explanation_ar": "single غرفة لشخص واحد، twin غرفة بسريرين منفصلين، double غرفة بسرير واحد كبير لشخصين.",
+        "explanation_en": "Single: one bed for one person. Twin: two separate beds. Double: one big bed for two people.",
+        "examples": [
+          {
+            "word": "single",
+            "sentence": "I'd like a single room for one night."
+          },
+          {
+            "word": "twin",
+            "sentence": "Two colleagues can share a twin room."
+          },
+          {
+            "word": "double",
+            "sentence": "A double room has one large bed."
+          }
+        ]
+      },
+      {
+        "title": "book vs reserve",
+        "words": [
+          "book",
+          "reserve"
+        ],
+        "explanation_ar": "الفعلان بمعنى يحجز، وreserve أكثر رسمية قليلًا. والاسم منهما booking وreservation.",
+        "explanation_en": "Both mean arrange to have a room or seat. Reserve is a little more formal. Nouns: booking, reservation.",
+        "examples": [
+          {
+            "word": "book",
+            "sentence": "Can you book a table for four?"
+          },
+          {
+            "word": "reserve",
+            "sentence": "I'd like to reserve a room for Friday."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Hello, I'd like to check availability and prices for a room, please.",
+        "meaning_ar": "مرحبًا، أودّ الاستعلام عن توفّر غرفة وأسعارها من فضلك.",
+        "meaning_en": "Ask if a room is free and how much it costs.",
+        "example": "Hello, I'd like to check availability and prices for a room, please, for two nights."
+      },
+      {
+        "phrase": "Does the price include breakfast?",
+        "meaning_ar": "هل يشمل السعر الفطور؟",
+        "meaning_en": "Ask if breakfast is in the price.",
+        "example": "The room is £90. Does the price include breakfast?"
+      },
+      {
+        "phrase": "Are there any business facilities such as internet and wi-fi?",
+        "meaning_ar": "هل توجد مرافق للأعمال مثل الإنترنت والواي فاي؟",
+        "meaning_en": "Ask about services for working.",
+        "example": "I need to work there. Are there any business facilities such as internet and wi-fi?"
+      },
+      {
+        "phrase": "I'd like to go ahead and make the reservation, please.",
+        "meaning_ar": "أودّ إتمام الحجز من فضلك.",
+        "meaning_en": "Confirm that you want to book.",
+        "example": "That sounds perfect. I'd like to go ahead and make the reservation, please."
+      },
+      {
+        "phrase": "Could you offer me a special rate?",
+        "meaning_ar": "هل يمكنكم أن تقدموا لي سعرًا خاصًا؟",
+        "meaning_en": "Ask politely for a lower price.",
+        "example": "We book with you often. Could you offer me a special rate?"
+      },
+      {
+        "phrase": "How would you like to pay?",
+        "meaning_ar": "كيف تودّ أن تدفع؟",
+        "meaning_en": "The hotel asks about the payment method.",
+        "example": "How would you like to pay, by card or in cash?"
+      },
+      {
+        "phrase": "For three nights from tonight.",
+        "meaning_ar": "لثلاث ليالٍ ابتداءً من الليلة.",
+        "meaning_en": "Say how long you will stay.",
+        "example": "I need a room for three nights from tonight."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I'd like to + verb (polite requests)",
+        "explanation_ar": "I'd like to اختصار I would like to، وهي طريقة مهذبة ورسمية للطلب بدلًا من I want. بعدها فعل مجرد.",
+        "explanation_en": "I'd like to = I would like to. It is a polite, formal way to say what you want (better than I want). Use the base verb after it.",
+        "examples": [
+          "I'd like to check availability.",
+          "I'd like to make a reservation.",
+          "I'd like to pay by card."
+        ]
+      },
+      {
+        "title": "Questions with Does / Are there",
+        "explanation_ar": "للسؤال عن الخدمات: Does + الفاعل المفرد + فعل مجرد (Does the price include...?)، وAre there any + اسم جمع؟ للسؤال عن وجود أشياء.",
+        "explanation_en": "To ask about services: Does + singular subject + base verb? Are there any + plural noun? asks if things exist.",
+        "examples": [
+          "Does the room have a desk?",
+          "Does the price include breakfast?",
+          "Are there any meeting rooms?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which phrase asks if a room is free?",
+      "choices": [
+        "I'd like to check availability.",
+        "I'd like to pay now.",
+        "How would you like to pay?",
+        "It's £100 a night."
+      ],
+      "answer": 0,
+      "explanation_ar": "check availability تعني الاستعلام عن التوفّر.",
+      "explanation_en": "Check availability means ask if a room is free."
+    },
+    {
+      "question": "Does the price ___ breakfast?",
+      "choices": [
+        "includes",
+        "include",
+        "including",
+        "included"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد does نستخدم الفعل المجرد include.",
+      "explanation_en": "After does we use the base verb: include."
+    },
+    {
+      "question": "A room with two separate beds is a...",
+      "choices": [
+        "single room",
+        "double room",
+        "twin room",
+        "suite"
+      ],
+      "answer": 2,
+      "explanation_ar": "twin room غرفة بسريرين منفصلين.",
+      "explanation_en": "A twin room has two single beds."
+    },
+    {
+      "question": "\"I'd like to go ahead and make the ___.\"",
+      "choices": [
+        "reserve",
+        "reservation",
+        "reserving",
+        "reserved"
+      ],
+      "answer": 1,
+      "explanation_ar": "نحتاج اسمًا بعد the: reservation.",
+      "explanation_en": "After 'the' we need a noun: reservation."
+    },
+    {
+      "question": "What does \"I'd\" mean in \"I'd like\"?",
+      "choices": [
+        "I had",
+        "I did",
+        "I would",
+        "I should"
+      ],
+      "answer": 2,
+      "explanation_ar": "I'd هي اختصار I would.",
+      "explanation_en": "I'd like = I would like."
+    },
+    {
+      "question": "Internet, wi-fi and meeting rooms are business...",
+      "choices": [
+        "guests",
+        "rates",
+        "facilities",
+        "receptions"
+      ],
+      "answer": 2,
+      "explanation_ar": "facilities تعني المرافق والخدمات.",
+      "explanation_en": "Facilities are services and equipment."
+    },
+    {
+      "question": "The nightly ___ is £100.",
+      "choices": [
+        "rate",
+        "rat",
+        "rent",
+        "rest"
+      ],
+      "answer": 0,
+      "explanation_ar": "rate هو السعر لكل ليلة.",
+      "explanation_en": "Rate is the price per night."
+    },
+    {
+      "question": "Choose the most polite request.",
+      "choices": [
+        "Give me a room.",
+        "I want a room now.",
+        "I'd like to book a room, please.",
+        "Room, please, quickly."
+      ],
+      "answer": 2,
+      "explanation_ar": "I'd like to ... please هي الصيغة المهذبة.",
+      "explanation_en": "I'd like to ..., please is the polite form."
+    },
+    {
+      "question": "\"Are there ___ business facilities?\"",
+      "choices": [
+        "every",
+        "much",
+        "a",
+        "any"
+      ],
+      "answer": 3,
+      "explanation_ar": "في الأسئلة نستخدم any.",
+      "explanation_en": "In questions we use any."
+    },
+    {
+      "question": "\"Fussy\" means...",
+      "choices": [
+        "very happy",
+        "difficult to please",
+        "very tired",
+        "very fast"
+      ],
+      "answer": 1,
+      "explanation_ar": "fussy تعني صعب الإرضاء.",
+      "explanation_en": "Fussy means difficult to please."
+    }
+  ]
+}

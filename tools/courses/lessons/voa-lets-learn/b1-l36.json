@@ -1,0 +1,571 @@
+{
+ "title": "I Can Fix This!",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "invite",
+    "pos": "verb",
+    "meaning_en": "ask someone to come to an event or your home",
+    "meaning_ar": "يدعو",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We invited our neighbors to dinner."
+   },
+   {
+    "word": "dinner party",
+    "pos": "noun",
+    "meaning_en": "an evening event where guests come to eat dinner",
+    "meaning_ar": "حفلة عشاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They are having a dinner party on Friday."
+   },
+   {
+    "word": "worried",
+    "pos": "adjective",
+    "meaning_en": "feeling nervous about a problem",
+    "meaning_ar": "قلق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Marsha is worried about the guests."
+   },
+   {
+    "word": "a couple of",
+    "pos": "phrase",
+    "meaning_en": "two, or a small number of",
+    "meaning_ar": "اثنان، أو عدد قليل من",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I just need a couple of ingredients."
+   },
+   {
+    "word": "hand",
+    "pos": "verb",
+    "meaning_en": "give something to someone with your hand",
+    "meaning_ar": "يناول",
+    "note_ar": "hand اسم بمعنى «يد» وفعل بمعنى «يناول».",
+    "note_en": "\"Hand\" is a noun (part of the body) and a verb (give).",
+    "example": "Please hand me the flour."
+   },
+   {
+    "word": "flour",
+    "pos": "noun",
+    "meaning_en": "a white powder made from wheat, used to make bread and cakes",
+    "meaning_ar": "طحين، دقيق",
+    "note_ar": "تُنطق مثل flower (زهرة) تماماً.",
+    "note_en": "Sounds exactly like \"flower\".",
+    "example": "Put the flour in a cold, dry place."
+   },
+   {
+    "word": "cabinet",
+    "pos": "noun",
+    "meaning_en": "a cupboard with doors for keeping things",
+    "meaning_ar": "خزانة (في المطبخ)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The plates are in the cabinet."
+   },
+   {
+    "word": "refrigerator",
+    "pos": "noun",
+    "meaning_en": "a cold box for keeping food fresh",
+    "meaning_ar": "ثلاجة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I put the flour inside the refrigerator."
+   },
+   {
+    "word": "cold",
+    "pos": "adjective",
+    "meaning_en": "having a low temperature",
+    "meaning_ar": "بارد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The water is very cold."
+   },
+   {
+    "word": "dry",
+    "pos": "adjective",
+    "meaning_en": "not wet",
+    "meaning_ar": "جاف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Keep the bread in a dry place."
+   },
+   {
+    "word": "place",
+    "pos": "noun",
+    "meaning_en": "a position or area",
+    "meaning_ar": "مكان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is a good place for the table."
+   },
+   {
+    "word": "egg",
+    "pos": "noun",
+    "meaning_en": "an oval food that a chicken lays",
+    "meaning_ar": "بيضة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I eat two eggs for breakfast."
+   },
+   {
+    "word": "sink",
+    "pos": "noun",
+    "meaning_en": "a bowl in the kitchen with water taps, for washing",
+    "meaning_ar": "حوض المغسلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The cups are in the sink."
+   },
+   {
+    "word": "inside",
+    "pos": "preposition",
+    "meaning_en": "in; within something",
+    "meaning_ar": "داخل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The eggs are inside the cabinet."
+   },
+   {
+    "word": "under",
+    "pos": "preposition",
+    "meaning_en": "below something",
+    "meaning_ar": "تحت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The cat is under the table."
+   },
+   {
+    "word": "farm",
+    "pos": "noun",
+    "meaning_en": "land where people grow food and keep animals",
+    "meaning_ar": "مزرعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Anna grew up on a farm."
+   },
+   {
+    "word": "chicken",
+    "pos": "noun",
+    "meaning_en": "a bird kept on farms for eggs and meat",
+    "meaning_ar": "دجاجة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The chickens are in the yard."
+   },
+   {
+    "word": "clean",
+    "pos": "verb / adjective",
+    "meaning_en": "make something free of dirt / not dirty",
+    "meaning_ar": "ينظّف / نظيف",
+    "note_ar": "clean فعل وصفة بنفس الشكل.",
+    "note_en": "\"Clean\" is both a verb and an adjective.",
+    "example": "You clean the living room. The apartment is clean."
+   },
+   {
+    "word": "living room",
+    "pos": "noun",
+    "meaning_en": "the room in a home where people sit and relax",
+    "meaning_ar": "غرفة المعيشة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We watch TV in the living room."
+   },
+   {
+    "word": "apartment",
+    "pos": "noun",
+    "meaning_en": "a home with rooms on one floor of a building",
+    "meaning_ar": "شقة",
+    "note_ar": "في بريطانيا: flat.",
+    "note_en": "UK: flat.",
+    "example": "Anna and Marsha live in an apartment."
+   },
+   {
+    "word": "kitchen",
+    "pos": "noun",
+    "meaning_en": "the room where you cook",
+    "meaning_ar": "مطبخ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The kitchen is not clean."
+   },
+   {
+    "word": "recipe",
+    "pos": "noun",
+    "meaning_en": "instructions for cooking a dish",
+    "meaning_ar": "وصفة طبخ",
+    "note_ar": "تُنطق RES-i-pee (ثلاثة مقاطع).",
+    "note_en": "Say: RES-i-pee (three syllables).",
+    "example": "This is my mother's recipe."
+   },
+   {
+    "word": "favorite",
+    "pos": "adjective",
+    "meaning_en": "liked more than all others",
+    "meaning_ar": "المفضّل",
+    "note_ar": "البريطانية تكتبها favourite.",
+    "note_en": "UK spelling: favourite.",
+    "example": "Blue is my favorite color."
+   },
+   {
+    "word": "pancake",
+    "pos": "noun",
+    "meaning_en": "a thin, flat, round cake cooked in a pan",
+    "meaning_ar": "فطيرة مسطحة (بان كيك)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We had pancakes with honey."
+   },
+   {
+    "word": "taste",
+    "pos": "verb",
+    "meaning_en": "have a certain flavor",
+    "meaning_ar": "يكون طعمه...",
+    "note_ar": "مع he/she/it: tastes.",
+    "note_en": "With he/she/it: tastes.",
+    "example": "This soup tastes good."
+   },
+   {
+    "word": "make it work",
+    "pos": "phrase",
+    "meaning_en": "find a way to succeed",
+    "meaning_ar": "يجعل الأمر ينجح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We don't have much time, but we can make it work."
+   },
+   {
+    "word": "answer the door",
+    "pos": "phrase",
+    "meaning_en": "open the door when someone knocks or rings",
+    "meaning_ar": "يفتح الباب (للطارق)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can you answer the door, please?"
+   },
+   {
+    "word": "finish",
+    "pos": "verb",
+    "meaning_en": "complete; end",
+    "meaning_ar": "يُنهي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll finish my homework first."
+   },
+   {
+    "word": "plan",
+    "pos": "noun",
+    "meaning_en": "an idea of what to do",
+    "meaning_ar": "خطة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have a plan."
+   },
+   {
+    "word": "change",
+    "pos": "verb",
+    "meaning_en": "make something different",
+    "meaning_ar": "يغيّر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "If your plan doesn't work, change the plan."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "in / inside / under / on",
+    "words": [
+     "in",
+     "inside",
+     "under",
+     "on"
+    ],
+    "explanation_ar": "in و inside تعني «داخل» شيء (inside تؤكد أنه داخله تماماً). under تعني «تحت». on تعني «على» سطح الشيء.",
+    "explanation_en": "\"In\" and \"inside\" mean within something (\"inside\" is a little stronger). \"Under\" means below. \"On\" means on top of a surface.",
+    "examples": [
+     {
+      "word": "in",
+      "sentence": "The milk is in the refrigerator."
+     },
+     {
+      "word": "inside",
+      "sentence": "The eggs are inside the box."
+     },
+     {
+      "word": "under",
+      "sentence": "The bag is under the sink."
+     },
+     {
+      "word": "on",
+      "sentence": "The list is on the counter."
+     }
+    ]
+   },
+   {
+    "title": "flour vs flower",
+    "words": [
+     "flour",
+     "flower"
+    ],
+    "explanation_ar": "الكلمتان تُنطقان بنفس الطريقة لكن المعنى مختلف: flour طحين للخبز والكيك، flower زهرة.",
+    "explanation_en": "They sound the same but have different meanings: flour is a powder for baking; a flower is a plant with colorful petals.",
+    "examples": [
+     {
+      "word": "flour",
+      "sentence": "We need flour to make pancakes."
+     },
+     {
+      "word": "flower",
+      "sentence": "She gave her teacher a flower."
+     }
+    ]
+   },
+   {
+    "title": "I will vs I'm going to",
+    "words": [
+     "I'll",
+     "I'm going to"
+    ],
+    "explanation_ar": "نستخدم I'll عندما نقرر الآن في لحظة الكلام أو نعرض المساعدة (I'll answer the door). ونستخدم going to لخطة مقررة مسبقاً (What are you going to make?).",
+    "explanation_en": "Use \"I'll\" for a decision or offer made right now (I'll answer the door). Use \"going to\" for a plan you already have (What are you going to make?).",
+    "examples": [
+     {
+      "word": "I'll",
+      "sentence": "The phone is ringing. I'll get it."
+     },
+     {
+      "word": "I'm going to",
+      "sentence": "I'm going to visit my aunt tomorrow."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Please hand me the flour.",
+    "meaning_ar": "من فضلك ناولني الطحين.",
+    "meaning_en": "Please give me the flour.",
+    "example": "Please hand me the salt."
+   },
+   {
+    "phrase": "Put in a cold, dry place.",
+    "meaning_ar": "يُحفظ في مكان بارد وجاف.",
+    "meaning_en": "A storage instruction on food packets.",
+    "example": "The box says: \"Put in a cold, dry place.\""
+   },
+   {
+    "phrase": "Where is the ...?",
+    "meaning_ar": "أين الـ...؟",
+    "meaning_en": "Asking where something is.",
+    "example": "Where is the sugar?"
+   },
+   {
+    "phrase": "I have a plan.",
+    "meaning_ar": "لديّ خطة.",
+    "meaning_en": "I know what to do.",
+    "example": "Don't worry. I have a plan."
+   },
+   {
+    "phrase": "What are you going to make?",
+    "meaning_ar": "ماذا ستعدّ (من طعام)؟",
+    "meaning_en": "Asking about someone's cooking plan.",
+    "example": "What are you going to make for lunch?"
+   },
+   {
+    "phrase": "What are you cooking?",
+    "meaning_ar": "ماذا تطبخ؟",
+    "meaning_en": "Asking what food someone is preparing.",
+    "example": "It smells good! What are you cooking?"
+   },
+   {
+    "phrase": "This tastes good!",
+    "meaning_ar": "طعم هذا جيد! / هذا لذيذ!",
+    "meaning_en": "The food has a nice flavor.",
+    "example": "Mmm, this soup tastes good!"
+   },
+   {
+    "phrase": "You made it work!",
+    "meaning_ar": "لقد نجحت في ذلك!",
+    "meaning_en": "You found a way to succeed.",
+    "example": "The car is running again. You made it work!"
+   },
+   {
+    "phrase": "I'll answer the door.",
+    "meaning_ar": "سأفتح الباب.",
+    "meaning_en": "An offer to open the door for a visitor.",
+    "example": "Someone is knocking. I'll answer the door."
+   },
+   {
+    "phrase": "I'll finish here.",
+    "meaning_ar": "سأكمل هنا.",
+    "meaning_en": "I will complete the work here.",
+    "example": "You go and rest. I'll finish here."
+   },
+   {
+    "phrase": "When something goes wrong, just change the plan!",
+    "meaning_ar": "عندما يحدث خطأ، فقط غيّر الخطة!",
+    "meaning_en": "Be flexible when there are problems.",
+    "example": "The park was closed, so we changed the plan."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Prepositions of place: in, inside, under, on",
+    "explanation_ar": "حروف الجر المكانية تقول أين يوجد الشيء. في الدرس: The flour is inside the refrigerator. The eggs are inside the cabinet under the sink. نسأل بـ Where is/are...? ونجيب بـ It is / They are + حرف الجر + المكان.",
+    "explanation_en": "Prepositions of place tell where something is. In the lesson: The flour is inside the refrigerator. The eggs are inside the cabinet under the sink. Ask \"Where is/are...?\" and answer \"It is / They are + preposition + place\".",
+    "examples": [
+     "Where is the flour? It's in the refrigerator.",
+     "Where are the eggs? They're inside the cabinet.",
+     "The cabinet is under the sink.",
+     "The list is on the floor."
+    ]
+   },
+   {
+    "title": "I'll for offers and quick decisions",
+    "explanation_ar": "نستخدم I will (I'll) + الفعل عندما نعرض المساعدة أو نقرر شيئاً في لحظة الكلام: I'll answer the door. I'll finish here. You clean the living room; I will make dinner.",
+    "explanation_en": "Use I will (I'll) + base verb to offer help or make a decision at the moment of speaking: I'll answer the door. I'll finish here.",
+    "examples": [
+     "I'll answer the door.",
+     "I'll finish here.",
+     "You clean the living room. I will make dinner.",
+     "It's heavy. I'll help you."
+    ]
+   },
+   {
+    "title": "Simple past in the story",
+    "explanation_ar": "تحكي آنا ما حدث بالماضي البسيط: الأفعال المنتظمة تأخذ ed: invited, shopped (نضاعف p). وبعض الأفعال شاذة: put → put، make → made.",
+    "explanation_en": "Anna tells the story in the simple past. Regular verbs add -ed: invited, shopped (double the p). Some verbs are irregular: put → put, make → made.",
+    "examples": [
+     "We invited friends to a dinner party.",
+     "I shopped with the wrong list.",
+     "I put the flour inside the refrigerator.",
+     "I made my favorite recipe."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Anna put the eggs inside the cabinet ___ the sink.",
+   "choices": [
+    "on",
+    "under",
+    "at",
+    "to"
+   ],
+   "answer": 1,
+   "explanation_ar": "الخزانة تحت الحوض: under the sink.",
+   "explanation_en": "The cabinet is below the sink: under the sink."
+  },
+  {
+   "question": "What is \"flour\"?",
+   "choices": [
+    "a white powder for bread and cakes",
+    "a plant with petals",
+    "a kind of egg",
+    "a kitchen cabinet"
+   ],
+   "answer": 0,
+   "explanation_ar": "flour طحين أبيض نصنع منه الخبز والكيك.",
+   "explanation_en": "Flour is a white powder used for bread and cakes."
+  },
+  {
+   "question": "The doorbell rings. What do you say?",
+   "choices": [
+    "I'm answering the door yesterday.",
+    "I answer the door last week.",
+    "I'll answer the door.",
+    "I answered the door tomorrow."
+   ],
+   "answer": 2,
+   "explanation_ar": "نعرض المساعدة بقرار لحظي باستخدام I'll.",
+   "explanation_en": "Use \"I'll\" for a quick decision or offer."
+  },
+  {
+   "question": "\"Please hand me the eggs\" means ___",
+   "choices": [
+    "Please wash the eggs.",
+    "Please cook the eggs.",
+    "Please hide the eggs.",
+    "Please give me the eggs."
+   ],
+   "answer": 3,
+   "explanation_ar": "hand هنا فعل بمعنى «يناول».",
+   "explanation_en": "Here \"hand\" means \"give\"."
+  },
+  {
+   "question": "The flour bag says, \"Put in a cold, dry place.\" This means:",
+   "choices": [
+    "Cook it right now.",
+    "Keep it somewhere cool and not wet.",
+    "Put it in hot water.",
+    "Give it to a guest."
+   ],
+   "answer": 1,
+   "explanation_ar": "cold = بارد، dry = جاف: أي احفظه في مكان بارد وليس رطباً.",
+   "explanation_en": "Cold, dry place = a cool place that is not wet."
+  },
+  {
+   "question": "Which word sounds the same as \"flour\"?",
+   "choices": [
+    "floor",
+    "four",
+    "flower",
+    "fly"
+   ],
+   "answer": 2,
+   "explanation_ar": "flour و flower تُنطقان بنفس الطريقة.",
+   "explanation_en": "\"Flour\" and \"flower\" sound the same."
+  },
+  {
+   "question": "What is a \"recipe\"?",
+   "choices": [
+    "instructions for cooking a dish",
+    "a room in the house",
+    "a kind of pancake",
+    "a shopping list"
+   ],
+   "answer": 0,
+   "explanation_ar": "recipe هي وصفة الطبخ.",
+   "explanation_en": "A recipe tells you how to cook a dish."
+  },
+  {
+   "question": "Choose the correct past form: \"Last week, we ___ friends to dinner.\"",
+   "choices": [
+    "invite",
+    "inviting",
+    "invites",
+    "invited"
+   ],
+   "answer": 3,
+   "explanation_ar": "الماضي البسيط لفعل منتظم: invited.",
+   "explanation_en": "Regular past: invited."
+  },
+  {
+   "question": "Hmm, this soup ___ good!",
+   "choices": [
+    "taste",
+    "tastes",
+    "tasting",
+    "is taste"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع it/this (مفرد غائب) نضيف s: tastes.",
+   "explanation_en": "With \"this\" (he/she/it), add -s: tastes."
+  },
+  {
+   "question": "Where do people usually sit and relax at home?",
+   "choices": [
+    "the sink",
+    "the cabinet",
+    "the living room",
+    "the farm"
+   ],
+   "answer": 2,
+   "explanation_ar": "غرفة المعيشة living room للجلوس والراحة.",
+   "explanation_en": "People relax in the living room."
+  }
+ ]
+}

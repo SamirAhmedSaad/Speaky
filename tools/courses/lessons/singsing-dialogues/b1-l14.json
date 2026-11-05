@@ -1,0 +1,266 @@
+{
+  "title": "Who is he?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "he",
+        "pos": "pronoun",
+        "meaning_en": "a boy or man we talk about",
+        "meaning_ar": "هو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's my cousin."
+      },
+      {
+        "word": "he's",
+        "pos": "phrase",
+        "meaning_en": "short form of \"he is\"",
+        "meaning_ar": "هو (يكون)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's very nice."
+      },
+      {
+        "word": "cousin",
+        "pos": "noun",
+        "meaning_en": "the child of your uncle or aunt",
+        "meaning_ar": "ابن العم / ابن الخال (أو بنتهما)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's my cousin."
+      },
+      {
+        "word": "brother",
+        "pos": "noun",
+        "meaning_en": "a boy with the same parents as you",
+        "meaning_ar": "أخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's my brother."
+      },
+      {
+        "word": "nice",
+        "pos": "adjective",
+        "meaning_en": "kind and good",
+        "meaning_ar": "لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's very nice."
+      },
+      {
+        "word": "very",
+        "pos": "adverb",
+        "meaning_en": "used to make a word stronger",
+        "meaning_ar": "جدًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's very nice."
+      },
+      {
+        "word": "who",
+        "pos": "pronoun",
+        "meaning_en": "word to ask about a person",
+        "meaning_ar": "مَن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Who is he?"
+      },
+      {
+        "word": "hi",
+        "pos": "interjection",
+        "meaning_en": "hello",
+        "meaning_ar": "مرحبًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hi, I'm Windy."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "he vs she",
+        "words": [
+          "he",
+          "she"
+        ],
+        "explanation_ar": "he للمذكر (ولد، رجل)، و she للمؤنث (بنت، امرأة). He's = He is و She's = She is.",
+        "explanation_en": "\"he\" is for a boy or man. \"she\" is for a girl or woman. He's = He is. She's = She is.",
+        "examples": [
+          {
+            "word": "he",
+            "sentence": "Who is he? - He's my brother."
+          },
+          {
+            "word": "she",
+            "sentence": "Who is she? - She's my sister."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Who is he?",
+        "meaning_ar": "مَن هو؟",
+        "meaning_en": "Asking about a boy or man.",
+        "example": "Who is he? - He's my cousin."
+      },
+      {
+        "phrase": "He's my cousin.",
+        "meaning_ar": "إنه ابن عمي / ابن خالي.",
+        "meaning_en": "Telling who he is.",
+        "example": "Who is he? - He's my cousin."
+      },
+      {
+        "phrase": "He's my brother.",
+        "meaning_ar": "إنه أخي.",
+        "meaning_en": "Telling who he is.",
+        "example": "Who is he? - He's my brother."
+      },
+      {
+        "phrase": "He's very nice.",
+        "meaning_ar": "إنه لطيف جدًّا.",
+        "meaning_en": "Saying he is kind.",
+        "example": "This is David. He's very nice."
+      },
+      {
+        "phrase": "Hi, I'm Sam.",
+        "meaning_ar": "مرحبًا، أنا سام.",
+        "meaning_en": "Saying your name.",
+        "example": "Hi, I'm Sam. - Hi, I'm Windy."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Who is he? - He's my ...",
+        "explanation_ar": "نسأل عن ذكر بـ Who is he? ونجيب He's my + ... . He's = He is.",
+        "explanation_en": "Ask \"Who is he?\" Answer \"He's my ...\". He's = He is.",
+        "examples": [
+          "Who is he? - He's my cousin.",
+          "Who is he? - He's my brother.",
+          "He's very nice."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Who is he? - ___",
+      "choices": [
+        "He's my cousin.",
+        "She's my sister.",
+        "It's a dog.",
+        "I'm Sam."
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن ذكر فنجيب He's ...",
+      "explanation_en": "The question is about a boy: He's ..."
+    },
+    {
+      "question": "\"He's\" means ___.",
+      "choices": [
+        "He are",
+        "He has",
+        "He is",
+        "He am"
+      ],
+      "answer": 2,
+      "explanation_ar": "هذا اختصار: He's = He is.",
+      "explanation_en": "He's = He is."
+    },
+    {
+      "question": "Your uncle's son is your ___.",
+      "choices": [
+        "brother",
+        "cousin",
+        "grandpa",
+        "teacher"
+      ],
+      "answer": 1,
+      "explanation_ar": "ابن العم أو الخال = cousin.",
+      "explanation_en": "Your uncle's son is your cousin."
+    },
+    {
+      "question": "David is a boy. ___ is my cousin.",
+      "choices": [
+        "She",
+        "It",
+        "He",
+        "They"
+      ],
+      "answer": 2,
+      "explanation_ar": "للذكر نستخدم he.",
+      "explanation_en": "For a boy, use he."
+    },
+    {
+      "question": "Who is ___? - She's my sister.",
+      "choices": [
+        "he",
+        "she",
+        "it",
+        "you"
+      ],
+      "answer": 1,
+      "explanation_ar": "الجواب She فالسؤال عن she.",
+      "explanation_en": "The answer uses She, so ask \"Who is she?\""
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "He my brother.",
+        "He's my brother.",
+        "He are my brother.",
+        "His is my brother."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح He's my brother.",
+      "explanation_en": "Correct: He's my brother."
+    },
+    {
+      "question": "\"cousin\" in Arabic is ___.",
+      "choices": [
+        "جدّ",
+        "أخ",
+        "معلّم",
+        "ابن العم / ابن الخال"
+      ],
+      "answer": 3,
+      "explanation_ar": "cousin = ابن العم أو الخال.",
+      "explanation_en": "cousin = child of your uncle or aunt."
+    },
+    {
+      "question": "He's ___ nice. (very much)",
+      "choices": [
+        "very",
+        "too much",
+        "so much",
+        "much"
+      ],
+      "answer": 0,
+      "explanation_ar": "very nice = لطيف جدًّا.",
+      "explanation_en": "very nice."
+    },
+    {
+      "question": "You meet someone new. You say: ___",
+      "choices": [
+        "Who is he?",
+        "He's nice.",
+        "Hi, I'm Sam.",
+        "Oh my!"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقدم أنفسنا بـ Hi, I'm + الاسم.",
+      "explanation_en": "Introduce yourself: Hi, I'm + name."
+    },
+    {
+      "question": "Which word is for a boy?",
+      "choices": [
+        "she",
+        "he",
+        "her",
+        "it"
+      ],
+      "answer": 1,
+      "explanation_ar": "he للذكر.",
+      "explanation_en": "\"he\" is for a boy."
+    }
+  ]
+}

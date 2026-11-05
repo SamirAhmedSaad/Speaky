@@ -1,0 +1,388 @@
+{
+  "title": "Checking Into a Hotel",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "reservation",
+        "pos": "noun",
+        "meaning_en": "a booking",
+        "meaning_ar": "حجز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a reservation."
+      },
+      {
+        "word": "book",
+        "pos": "verb",
+        "meaning_en": "arrange a room or seat before you go",
+        "meaning_ar": "يحجز",
+        "note_ar": "الماضي: booked",
+        "note_en": "Past: booked.",
+        "example": "You booked one single room."
+      },
+      {
+        "word": "single room",
+        "pos": "noun",
+        "meaning_en": "a room for one person",
+        "meaning_ar": "غرفة مفردة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "One single room for two nights."
+      },
+      {
+        "word": "night",
+        "pos": "noun",
+        "meaning_en": "a time you sleep at a hotel; the dark part of the day",
+        "meaning_ar": "ليلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm staying for two nights."
+      },
+      {
+        "word": "passport",
+        "pos": "noun",
+        "meaning_en": "an official travel document",
+        "meaning_ar": "جواز سفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "May I see your passport?"
+      },
+      {
+        "word": "room number",
+        "pos": "noun",
+        "meaning_en": "the number of your room",
+        "meaning_ar": "رقم الغرفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your room number is 705."
+      },
+      {
+        "word": "floor",
+        "pos": "noun",
+        "meaning_en": "a level of a building",
+        "meaning_ar": "طابق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is on the seventh floor."
+      },
+      {
+        "word": "check-out",
+        "pos": "noun",
+        "meaning_en": "the time you must leave the hotel",
+        "meaning_ar": "موعد المغادرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Check-out is at eleven o'clock."
+      },
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "meaning_en": "the first meal of the day",
+        "meaning_ar": "الفطور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is breakfast included?"
+      },
+      {
+        "word": "included",
+        "pos": "adjective",
+        "meaning_en": "part of the price; you don't pay extra",
+        "meaning_ar": "مشمول / ضمن السعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Yes, breakfast is included."
+      },
+      {
+        "word": "served",
+        "pos": "adjective",
+        "meaning_en": "given to people to eat",
+        "meaning_ar": "يُقدَّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is served from seven to ten."
+      },
+      {
+        "word": "Wi-Fi",
+        "pos": "noun",
+        "meaning_en": "wireless internet",
+        "meaning_ar": "الإنترنت اللاسلكي (واي فاي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Does the hotel offer free Wi-Fi?"
+      },
+      {
+        "word": "password",
+        "pos": "noun",
+        "meaning_en": "a secret word to open something",
+        "meaning_ar": "كلمة المرور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is the Wi-Fi password?"
+      },
+      {
+        "word": "deliver",
+        "pos": "verb",
+        "meaning_en": "bring something to a place",
+        "meaning_ar": "يوصل",
+        "note_ar": "",
+        "note_en": "Noun: delivery.",
+        "example": "Your order will be delivered to your room."
+      },
+      {
+        "word": "madam",
+        "pos": "noun",
+        "meaning_en": "a polite way to speak to a woman",
+        "meaning_ar": "سيدتي",
+        "note_ar": "",
+        "note_en": "For a man: sir.",
+        "example": "Of course, madam."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "sir vs madam",
+        "words": [
+          "sir",
+          "madam"
+        ],
+        "explanation_ar": "sir للرجل، madam للمرأة. كلمات مهذبة يستخدمها الموظفون.",
+        "explanation_en": "Staff say \"sir\" to a man and \"madam\" to a woman.",
+        "examples": [
+          {
+            "word": "sir",
+            "sentence": "Of course, sir."
+          },
+          {
+            "word": "madam",
+            "sentence": "Enjoy your meal, madam."
+          }
+        ]
+      },
+      {
+        "title": "from ... to ...",
+        "words": [
+          "from",
+          "to"
+        ],
+        "explanation_ar": "نستخدم from ... to ... لبداية ونهاية الوقت.",
+        "explanation_en": "Use \"from ... to ...\" for start and end times.",
+        "examples": [
+          {
+            "word": "from",
+            "sentence": "Breakfast is from seven to ten."
+          },
+          {
+            "word": "to",
+            "sentence": "The shop is open from 9 to 5."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Welcome to Sunny Hotel. How can I help you?",
+        "meaning_ar": "مرحبًا بك في فندق صني. كيف يمكنني مساعدتك؟",
+        "meaning_en": "The receptionist greets you.",
+        "example": "Good evening. Welcome to our hotel."
+      },
+      {
+        "phrase": "I have a reservation.",
+        "meaning_ar": "لدي حجز.",
+        "meaning_en": "Starting check-in.",
+        "example": "Hello, I have a reservation for tonight."
+      },
+      {
+        "phrase": "May I have your name, please?",
+        "meaning_ar": "هل لي أن أعرف اسمك من فضلك؟",
+        "meaning_en": "Asking politely for a name.",
+        "example": "May I have your name, please? It's Sara."
+      },
+      {
+        "phrase": "You booked one single room for two nights. Is that right?",
+        "meaning_ar": "حجزت غرفة مفردة لليلتين. هل هذا صحيح؟",
+        "meaning_en": "Checking the booking.",
+        "example": "You booked a double room for three nights. Is that right?"
+      },
+      {
+        "phrase": "May I see your passport, please? / Here you are.",
+        "meaning_ar": "هل يمكنني رؤية جواز سفرك؟ / تفضل.",
+        "meaning_en": "Asking for a document and giving it.",
+        "example": "May I see your ID? Here you are."
+      },
+      {
+        "phrase": "Here is your room key.",
+        "meaning_ar": "هذا مفتاح غرفتك.",
+        "meaning_en": "Giving the key.",
+        "example": "Here is your key. Room 210."
+      },
+      {
+        "phrase": "What time is check-out?",
+        "meaning_ar": "متى موعد المغادرة؟",
+        "meaning_en": "Asking when to leave.",
+        "example": "What time is check-out? At noon."
+      },
+      {
+        "phrase": "Is breakfast included?",
+        "meaning_ar": "هل الفطور مشمول؟",
+        "meaning_en": "Asking if you pay extra.",
+        "example": "Is Wi-Fi included in the price?"
+      },
+      {
+        "phrase": "Does the hotel offer free Wi-Fi?",
+        "meaning_ar": "هل يقدم الفندق إنترنت مجانيًا؟",
+        "meaning_en": "Asking about a service.",
+        "example": "Does the hotel offer free parking?"
+      },
+      {
+        "phrase": "Have a nice day. / Thank you. You too.",
+        "meaning_ar": "يومك سعيد. / شكرًا، ولك أيضًا.",
+        "meaning_en": "A friendly goodbye and reply.",
+        "example": "Have a nice day! You too."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "May I ...? (polite requests)",
+        "explanation_ar": "May I + فعل? طريقة رسمية ومهذبة جدًا للطلب، تُستخدم كثيرًا في الفنادق.",
+        "explanation_en": "\"May I + verb?\" is a very polite, formal request. Hotels use it a lot.",
+        "examples": [
+          "May I have your name, please?",
+          "May I see your passport?",
+          "May I help you?"
+        ]
+      },
+      {
+        "title": "Passive: is included / is served / will be delivered",
+        "explanation_ar": "المبني للمجهول: be + التصريف الثالث، عندما يكون الشيء أهم من الفاعل.",
+        "explanation_en": "Passive: be + past participle, when the thing is more important than who does it.",
+        "examples": [
+          "Breakfast is included.",
+          "It is served from seven to ten.",
+          "Your order will be delivered to your room."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "____ I see your passport, please?",
+      "choices": [
+        "Do",
+        "May",
+        "Am",
+        "Will"
+      ],
+      "answer": 1,
+      "explanation_ar": "May I للطلب المهذب.",
+      "explanation_en": "\"May I ...?\" is polite."
+    },
+    {
+      "question": "\"Is breakfast included?\" asks if ...",
+      "choices": [
+        "breakfast is tasty",
+        "breakfast is late",
+        "there is no breakfast",
+        "breakfast is free with the room"
+      ],
+      "answer": 3,
+      "explanation_ar": "هل الفطور ضمن السعر.",
+      "explanation_en": "If breakfast is part of the price."
+    },
+    {
+      "question": "Breakfast is served ____ seven to ten.",
+      "choices": [
+        "from",
+        "at",
+        "on",
+        "since"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: from ... to.",
+      "explanation_en": "We say \"from ... to\"."
+    },
+    {
+      "question": "Room 705 is on the ____ floor.",
+      "choices": [
+        "seven",
+        "seventy",
+        "seventh",
+        "sevens"
+      ],
+      "answer": 2,
+      "explanation_ar": "العدد الترتيبي seventh.",
+      "explanation_en": "Ordinal: seventh."
+    },
+    {
+      "question": "A staff member speaks to a woman. She says: \"Of course, ____.\"",
+      "choices": [
+        "sir",
+        "mister",
+        "madam",
+        "boy"
+      ],
+      "answer": 2,
+      "explanation_ar": "للمرأة: madam.",
+      "explanation_en": "For a woman: madam."
+    },
+    {
+      "question": "Your order will be ____ to your room.",
+      "choices": [
+        "delivered",
+        "deliver",
+        "delivering",
+        "delivers"
+      ],
+      "answer": 0,
+      "explanation_ar": "will be + التصريف الثالث.",
+      "explanation_en": "will be + past participle."
+    },
+    {
+      "question": "A secret word for the Wi-Fi is the ...",
+      "choices": [
+        "room key",
+        "check-out",
+        "passport",
+        "password"
+      ],
+      "answer": 3,
+      "explanation_ar": "كلمة المرور.",
+      "explanation_en": "The password."
+    },
+    {
+      "question": "\"Have a nice day.\" \"____\"",
+      "choices": [
+        "Yes, I do.",
+        "Thank you. You too.",
+        "It's 705.",
+        "From seven to ten."
+      ],
+      "answer": 1,
+      "explanation_ar": "الرد: Thank you. You too.",
+      "explanation_en": "We answer \"Thank you. You too.\""
+    },
+    {
+      "question": "\"What time is check-out?\" \"____\"",
+      "choices": [
+        "At eleven o'clock.",
+        "On the seventh floor.",
+        "Two nights.",
+        "Room 705."
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن الوقت.",
+      "explanation_en": "The question asks about time."
+    },
+    {
+      "question": "A room for one person is a ...",
+      "choices": [
+        "double room",
+        "lobby",
+        "single room",
+        "floor"
+      ],
+      "answer": 2,
+      "explanation_ar": "غرفة مفردة.",
+      "explanation_en": "A single room."
+    }
+  ]
+}

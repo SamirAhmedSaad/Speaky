@@ -1,0 +1,52 @@
+{
+  "title": "Some and Any",
+  "content": {
+    "vocabulary": [
+      {"word": "some", "pos": "determiner", "meaning_en": "an amount or number of something (not exact); used in positive sentences and offers", "meaning_ar": "بعض / شيء من", "note_ar": "", "note_en": "", "example": "I would like some money, please."},
+      {"word": "any", "pos": "determiner", "meaning_en": "used in negative sentences, general questions and with \"if\"", "meaning_ar": "أيّ / (في النفي) أيّ شيء", "note_ar": "", "note_en": "", "example": "I don't have any money."},
+      {"word": "something", "pos": "pronoun", "meaning_en": "a thing (not named)", "meaning_ar": "شيء ما", "note_ar": "", "note_en": "", "example": "I'm hungry. I want something to eat."},
+      {"word": "anything", "pos": "pronoun", "meaning_en": "any thing at all (negatives and questions)", "meaning_ar": "أيّ شيء", "note_ar": "", "note_en": "", "example": "I don't want anything to eat."},
+      {"word": "somebody / someone", "pos": "pronoun", "meaning_en": "a person (we don't say who)", "meaning_ar": "شخص ما", "note_ar": "مفرد: someone is", "note_en": "Singular: someone is...", "example": "Someone is at the door."},
+      {"word": "anybody / anyone", "pos": "pronoun", "meaning_en": "any person at all", "meaning_ar": "أيّ أحد", "note_ar": "مفرد: anyone has", "note_en": "Singular: anyone has...", "example": "Has anybody seen my shoes?"},
+      {"word": "anytime", "pos": "adverb", "meaning_en": "at any time; whenever you want", "meaning_ar": "في أي وقت", "note_ar": "تُكتب أيضًا any time", "note_en": "Also written \"any time\".", "example": "Anytime you're in town, come and visit me."},
+      {"word": "positive", "pos": "adjective", "meaning_en": "(of a sentence) not negative; saying yes", "meaning_ar": "مثبت / إيجابي", "note_ar": "", "note_en": "", "example": "\"I want some tea\" is a positive sentence."},
+      {"word": "negative", "pos": "adjective", "meaning_en": "(of a sentence) with not / don't", "meaning_ar": "منفي / سلبي", "note_ar": "", "note_en": "", "example": "\"I don't want any tea\" is a negative sentence."},
+      {"word": "offer", "pos": "verb", "meaning_en": "ask if someone wants something you can give", "meaning_ar": "يعرض", "note_ar": "", "note_en": "", "example": "She offered me some food."},
+      {"word": "expect", "pos": "verb", "meaning_en": "think something will happen", "meaning_ar": "يتوقع", "note_ar": "", "note_en": "", "example": "I expect a \"yes\" answer."},
+      {"word": "general question", "pos": "noun", "meaning_en": "an open question where we don't expect a special answer", "meaning_ar": "سؤال عام", "note_ar": "", "note_en": "", "example": "\"Have you seen anyone at school?\" is a general question."},
+      {"word": "hungry", "pos": "adjective", "meaning_en": "wanting food", "meaning_ar": "جائع", "note_ar": "", "note_en": "", "example": "You look hungry. Would you like some food?"},
+      {"word": "exception", "pos": "noun", "meaning_en": "something that does not follow the rule", "meaning_ar": "استثناء", "note_ar": "", "note_en": "", "example": "There are exceptions to every English rule."}
+    ],
+    "fine_lines": [
+      {"title": "some vs any", "words": ["some", "any"], "explanation_ar": "some في الجمل المثبتة وفي الأسئلة التي نعرض فيها شيئًا أو نطلبه أو نتوقع فيها الجواب نعم. any في الجمل المنفية والأسئلة العامة ومع if.", "explanation_en": "\"Some\": positive sentences, and questions where we offer, ask for something, or expect \"yes\". \"Any\": negative sentences, general questions, and with \"if\".", "examples": [{"word": "some", "sentence": "Would you like some tea?"}, {"word": "any", "sentence": "I don't have any tea."}]},
+      {"title": "something vs anything", "words": ["something", "anything"], "explanation_ar": "I want something to eat (مثبت). I don't want anything to eat (منفي). لا نقول I don't want something.", "explanation_en": "\"I want something to eat\" (positive). \"I don't want anything to eat\" (negative). Not \"I don't want something\".", "examples": [{"word": "something", "sentence": "I want something to drink."}, {"word": "anything", "sentence": "I don't want anything to drink."}]},
+      {"title": "someone vs anyone in questions", "words": ["someone", "anyone"], "explanation_ar": "Have you seen anyone? سؤال عام مفتوح. Is someone looking for me? سؤال نتوقع فيه الجواب نعم.", "explanation_en": "\"Have you seen anyone?\" is a general, open question. \"Is someone looking for me?\" expects a yes answer.", "examples": [{"word": "someone", "sentence": "Is someone waiting for me?"}, {"word": "anyone", "sentence": "Did you see anyone at school today?"}]}
+    ],
+    "expressions": [
+      {"phrase": "Would you like some food?", "meaning_ar": "هل تريد بعض الطعام؟", "meaning_en": "A polite offer of food.", "example": "You look hungry. Would you like some food?"},
+      {"phrase": "Has anybody seen my shoes?", "meaning_ar": "هل رأى أحدٌ حذائي؟", "meaning_en": "A general question to everyone.", "example": "Has anybody seen my shoes? I can't find them."},
+      {"phrase": "If anybody wants help, let me know.", "meaning_ar": "إذا احتاج أيّ أحد المساعدة فأخبروني.", "meaning_en": "Tell me if any person needs help.", "example": "If anybody wants help with the homework, let me know."},
+      {"phrase": "Anytime you're in town, come and visit me.", "meaning_ar": "متى كنت في المدينة، تعال وزرني.", "meaning_en": "Whenever you are in my city, visit me.", "example": "Anytime you're in town, come and visit me."},
+      {"phrase": "Give me a call anytime.", "meaning_ar": "اتصل بي في أي وقت.", "meaning_en": "You can phone me whenever you want.", "example": "If you need help, give me a call anytime."}
+    ],
+    "grammar": [
+      {"title": "some in positive sentences, any in negative sentences", "explanation_ar": "في الجملة المثبتة نستعمل some (و something / someone). في الجملة المنفية نستعمل any (و anything / anyone).", "explanation_en": "In positive sentences use some (something, someone). In negative sentences use any (anything, anyone).", "examples": ["I want some money.", "I don't want any money.", "I'm hungry. I want something to eat.", "I don't want anything to eat."]},
+      {"title": "Questions: any for general questions, some for offers and requests", "explanation_ar": "في السؤال العام الذي لا نعرض فيه شيئًا ولا نتوقع نعم، نستعمل any. أما إذا كنا نعرض شيئًا أو نطلبه أو نتوقع الجواب نعم فنستعمل some.", "explanation_en": "In a general question (no offer, no special answer expected), use any. When you offer, ask for something, or expect \"yes\", use some.", "examples": ["Has anybody seen my shoes?", "Would you like some food?", "Can I have some water, please?"]},
+      {"title": "any with if (and the idea of if)", "explanation_ar": "مع if نستعمل any عادةً، خاصة عندما لا يهمنا من هو أو متى: If anybody wants help, let me know. وكلمة anytime تحمل معنى if: Anytime you're in town = If you are in town.", "explanation_en": "With \"if\" we usually use any, especially when it doesn't matter who or when: \"If anybody wants help, let me know.\" \"Anytime\" carries the idea of if: \"Anytime you're in town\" = \"If you are in town\".", "examples": ["If anybody calls, take a message.", "Anytime you want, give me a call."]},
+      {"title": "someone, anyone, somebody, anybody are singular", "explanation_ar": "هذه الكلمات مفردة وتأخذ فعلًا مفردًا: Someone is here. Has anyone seen it?", "explanation_en": "These words are singular and take a singular verb: \"Someone is here.\" \"Has anyone seen it?\"", "examples": ["Someone is at the door.", "Has anyone seen my keys?"]},
+      {"title": "James's 80% rule", "explanation_ar": "هذه قواعد عامة صحيحة في معظم الحالات، وقد تجد استثناءات (مثل: If you want some, take it).", "explanation_en": "These are general rules that work most of the time. You may find exceptions (e.g. \"If you want some, take it\").", "examples": ["If you'd like some tea, just ask."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I'm hungry. I want ___ to eat.\"", "choices": ["anything", "something", "anyone", "any"], "answer": 1, "explanation_ar": "جملة مثبتة: something.", "explanation_en": "Positive sentence: something."},
+    {"question": "\"I don't want ___ to eat.\"", "choices": ["something", "some", "someone", "anything"], "answer": 3, "explanation_ar": "جملة منفية: anything.", "explanation_en": "Negative sentence: anything."},
+    {"question": "\"You look hungry. Would you like ___ food?\"", "choices": ["some", "any", "anything", "anyone"], "answer": 0, "explanation_ar": "نعرض طعامًا ونتوقع نعم: some.", "explanation_en": "An offer, we expect yes: some."},
+    {"question": "\"Has ___ seen my shoes?\" (general question)", "choices": ["something", "anybody", "some", "somewhere"], "answer": 1, "explanation_ar": "سؤال عام: anybody.", "explanation_en": "A general question: anybody."},
+    {"question": "\"If ___ wants help, let me know.\"", "choices": ["anybody", "some", "something", "sometime"], "answer": 0, "explanation_ar": "مع if نستعمل any: anybody.", "explanation_en": "With \"if\" we use any: anybody."},
+    {"question": "\"___ you're in town, come and visit me.\"", "choices": ["Sometime", "Something", "Anytime", "Anything"], "answer": 2, "explanation_ar": "anytime = في أي وقت (فكرة if).", "explanation_en": "\"Anytime\" = whenever (the idea of if)."},
+    {"question": "Choose the correct sentence.", "choices": ["I don't have some money.", "I want any money.", "Someone are at the door.", "I don't have any money."], "answer": 3, "explanation_ar": "النفي مع any، و someone مفرد.", "explanation_en": "Negative takes any; someone is singular."},
+    {"question": "\"Someone ___ waiting for you.\"", "choices": ["are", "is", "were", "have"], "answer": 1, "explanation_ar": "someone مفرد: is.", "explanation_en": "\"Someone\" is singular: is."},
+    {"question": "\"Can I have ___ water, please?\" (a request)", "choices": ["any", "anything", "some", "anyone"], "answer": 2, "explanation_ar": "طلب نتوقع فيه نعم: some.", "explanation_en": "A request expecting yes: some."},
+    {"question": "\"Did you see ___ at school today?\" \"No.\"", "choices": ["anyone", "some", "something", "someone are"], "answer": 0, "explanation_ar": "سؤال عام مفتوح: anyone.", "explanation_en": "A general open question: anyone."}
+  ]
+}

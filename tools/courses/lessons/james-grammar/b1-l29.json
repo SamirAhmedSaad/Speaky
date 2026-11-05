@@ -1,0 +1,44 @@
+{
+  "title": "Modifying Comparatives: a lot, far, a little, slightly",
+  "content": {
+    "vocabulary": [
+      {"word": "comparative", "pos": "noun", "meaning_en": "the form of an adjective used to compare two things: bigger, more expensive", "meaning_ar": "صيغة المقارنة (اسم التفضيل للمقارنة)", "note_ar": "", "note_en": "", "example": "\"Bigger\" is a comparative."},
+      {"word": "degree", "pos": "noun", "meaning_en": "how much; the amount of difference", "meaning_ar": "درجة", "note_ar": "", "note_en": "", "example": "\"A lot\" and \"slightly\" show the degree of difference."},
+      {"word": "a lot", "pos": "phrase", "meaning_en": "much; by a big amount (before a comparative)", "meaning_ar": "بكثير", "note_ar": "", "note_en": "", "example": "He is a lot bigger than his brother."},
+      {"word": "much", "pos": "adverb", "meaning_en": "by a big amount (before a comparative)", "meaning_ar": "بكثير", "note_ar": "", "note_en": "", "example": "This book is much different from that one."},
+      {"word": "far more", "pos": "phrase", "meaning_en": "much more", "meaning_ar": "أكثر بكثير", "note_ar": "", "note_en": "", "example": "This phone is far more expensive."},
+      {"word": "by far", "pos": "phrase", "meaning_en": "by a big amount (after the comparative or with superlatives)", "meaning_ar": "بفارق كبير", "note_ar": "", "note_en": "", "example": "He is taller by far."},
+      {"word": "a little", "pos": "phrase", "meaning_en": "by a small amount", "meaning_ar": "قليلًا / بقليل", "note_ar": "", "note_en": "", "example": "The red one is a little more expensive."},
+      {"word": "slightly", "pos": "adverb", "meaning_en": "by a small amount; a little", "meaning_ar": "بشكل طفيف / قليلًا", "note_ar": "انتبه: تنتهي بـ ly", "note_en": "Don't forget the -ly.", "example": "Sill is slightly smaller than Mr. E."},
+      {"word": "confident", "pos": "adjective", "meaning_en": "sure of yourself", "meaning_ar": "واثق", "note_ar": "", "note_en": "", "example": "I feel a little more confident in English now."},
+      {"word": "expensive", "pos": "adjective", "meaning_en": "costing a lot of money", "meaning_ar": "غالٍ", "note_ar": "المقارنة: more expensive", "note_en": "Comparative: more expensive.", "example": "This hotel is more expensive than that one."}
+    ],
+    "fine_lines": [
+      {"title": "big difference vs small difference", "words": ["a lot / much / far", "a little / slightly"], "explanation_ar": "للفرق الكبير: a lot, much, far + صيغة المقارنة. للفرق الصغير: a little, slightly + صيغة المقارنة.", "explanation_en": "Big difference: a lot, much, far + comparative. Small difference: a little, slightly + comparative.", "examples": [{"word": "a lot / much / far", "sentence": "My new flat is a lot bigger than my old one."}, {"word": "a little / slightly", "sentence": "Today is slightly warmer than yesterday."}]},
+      {"title": "far more vs by far", "words": ["far more", "by far"], "explanation_ar": "far تأتي قبل صيغة المقارنة (far more expensive, far happier). by far تأتي بعدها (larger by far) أو مع صيغة التفضيل (by far the best).", "explanation_en": "\"Far\" goes before the comparative (far more expensive, far happier). \"By far\" goes after it (larger by far) or with superlatives (by far the best).", "examples": [{"word": "far more", "sentence": "He is far happier now."}, {"word": "by far", "sentence": "This bag is bigger by far."}]}
+    ],
+    "expressions": [
+      {"phrase": "a lot bigger than", "meaning_ar": "أكبر بكثير من", "meaning_en": "much bigger than", "example": "Toronto is a lot bigger than my town."},
+      {"phrase": "slightly different", "meaning_ar": "مختلف قليلًا", "meaning_en": "a little different", "example": "This book is slightly different from what I usually read."},
+      {"phrase": "a little more confident", "meaning_ar": "أكثر ثقة قليلًا", "meaning_en": "a bit more sure of yourself", "example": "After the lesson, I felt a little more confident."}
+    ],
+    "grammar": [
+      {"title": "Comparatives (review)", "explanation_ar": "للصفات القصيرة نضيف er (bigger, smaller)، وللطويلة نستعمل more (more expensive)، ثم than.", "explanation_en": "Short adjectives take -er (bigger, smaller); long ones take \"more\" (more expensive), then \"than\".", "examples": ["He is bigger than his brother.", "This is more expensive than that."]},
+      {"title": "Big difference: a lot / much / far + comparative", "explanation_ar": "نضع a lot أو much أو far قبل صيغة المقارنة لنبيّن أن الفرق كبير. لا نقول bigger a lot.", "explanation_en": "Put a lot, much or far before the comparative to show a big difference. Don't say \"bigger a lot\".", "examples": ["He is a lot bigger than his brother.", "This phone is far more expensive."]},
+      {"title": "by far: after the comparative", "explanation_ar": "by far تأتي بعد صيغة المقارنة، بعكس a lot و far: He is larger by far.", "explanation_en": "\"By far\" comes after the comparative, unlike \"a lot\" and \"far\": He is larger by far.", "examples": ["She is faster by far."]},
+      {"title": "Small difference: a little / slightly + comparative", "explanation_ar": "نضع a little أو slightly قبل صيغة المقارنة لنبيّن أن الفرق صغير.", "explanation_en": "Put a little or slightly before the comparative to show a small difference.", "examples": ["The red bag is a little more expensive.", "Sill is slightly smaller than Mr. E."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"He is ___ bigger than his brother.\" (big difference)", "choices": ["slightly", "a lot", "a little", "by far"], "answer": 1, "explanation_ar": "فرق كبير قبل المقارنة: a lot.", "explanation_en": "Big difference before the comparative: a lot."},
+    {"question": "\"Today is ___ warmer than yesterday.\" (small difference)", "choices": ["far", "a lot", "slightly", "much"], "answer": 2, "explanation_ar": "فرق صغير: slightly.", "explanation_en": "Small difference: slightly."},
+    {"question": "Choose the correct sentence.", "choices": ["He is bigger a lot than me.", "He is a lot bigger than me.", "He is a lot big than me.", "He is bigger lot than me."], "answer": 1, "explanation_ar": "a lot + صيغة المقارنة + than.", "explanation_en": "a lot + comparative + than."},
+    {"question": "\"She is faster ___.\"", "choices": ["by far", "far more", "a lot", "slightly"], "answer": 0, "explanation_ar": "by far تأتي بعد المقارنة.", "explanation_en": "\"By far\" comes after the comparative."},
+    {"question": "\"This phone is ___ more expensive.\" (much more)", "choices": ["slight", "by far", "far", "little"], "answer": 2, "explanation_ar": "far more = أكثر بكثير.", "explanation_en": "\"Far more\" = much more."},
+    {"question": "\"Slightly\" means ___.", "choices": ["a lot", "by far", "never", "a little"], "answer": 3, "explanation_ar": "slightly = قليلًا.", "explanation_en": "\"Slightly\" = a little."},
+    {"question": "\"The red one is ___ more expensive.\" (small difference)", "choices": ["a little", "far", "a lot", "much"], "answer": 0, "explanation_ar": "فرق صغير: a little.", "explanation_en": "Small difference: a little."},
+    {"question": "Which word shows a BIG difference?", "choices": ["slightly", "a little", "much", "a bit"], "answer": 2, "explanation_ar": "much = بكثير.", "explanation_en": "\"Much\" shows a big difference."},
+    {"question": "What is a \"comparative\"?", "choices": ["a word that joins sentences", "a form for comparing two things", "a past verb", "a question word"], "answer": 1, "explanation_ar": "صيغة للمقارنة بين شيئين.", "explanation_en": "A form for comparing two things."},
+    {"question": "\"He is ___ happier now than last year.\" (much)", "choices": ["slightly by", "far", "by far more", "little"], "answer": 1, "explanation_ar": "far + صيغة المقارنة: far happier.", "explanation_en": "far + comparative: far happier."}
+  ]
+}

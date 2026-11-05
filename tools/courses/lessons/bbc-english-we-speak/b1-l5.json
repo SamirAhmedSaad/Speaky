@@ -1,0 +1,366 @@
+{
+  "title": "Five-word expressions",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "team",
+        "pos": "noun",
+        "meaning_en": "a group of people working or playing together",
+        "meaning_ar": "فريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our team won the match."
+      },
+      {
+        "word": "sacrifice",
+        "pos": "noun / verb",
+        "meaning_en": "giving up something for others",
+        "meaning_ar": "تضحية / يضحّي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She made a sacrifice for her family."
+      },
+      {
+        "word": "famous",
+        "pos": "adjective",
+        "meaning_en": "known by many people",
+        "meaning_ar": "مشهور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The town is famous for its cheese."
+      },
+      {
+        "word": "map",
+        "pos": "noun",
+        "meaning_en": "a drawing of an area showing roads, towns etc.",
+        "meaning_ar": "خريطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's check the map."
+      },
+      {
+        "word": "step",
+        "pos": "noun",
+        "meaning_en": "one movement of your foot; one stage of a process",
+        "meaning_ar": "خطوة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Follow the steps in the guide."
+      },
+      {
+        "word": "gradually",
+        "pos": "adverb",
+        "meaning_en": "slowly, little by little",
+        "meaning_ar": "تدريجياً",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The weather gradually got warmer."
+      },
+      {
+        "word": "advantage",
+        "pos": "noun",
+        "meaning_en": "something good that helps you",
+        "meaning_ar": "ميزة",
+        "note_ar": "عكسها: disadvantage.",
+        "note_en": "Opposite: disadvantage.",
+        "example": "Living near work is a big advantage."
+      },
+      {
+        "word": "sieve",
+        "pos": "noun",
+        "meaning_en": "a kitchen tool with many small holes for separating liquid from food",
+        "meaning_ar": "مصفاة / غربال",
+        "note_ar": "تُنطق /sɪv/.",
+        "note_en": "Say /sɪv/.",
+        "example": "Drain the rice in a sieve."
+      },
+      {
+        "word": "forgetful",
+        "pos": "adjective",
+        "meaning_en": "often forgetting things",
+        "meaning_ar": "كثير النسيان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My grandad is getting forgetful."
+      },
+      {
+        "word": "joke",
+        "pos": "noun",
+        "meaning_en": "something funny you say or do",
+        "meaning_ar": "نكتة / مزحة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He told a funny joke."
+      },
+      {
+        "word": "simple",
+        "pos": "adjective",
+        "meaning_en": "easy; not complicated",
+        "meaning_ar": "بسيط / سهل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The instructions are simple."
+      },
+      {
+        "word": "disappointed",
+        "pos": "adjective",
+        "meaning_en": "sad because something wasn't as good as you hoped",
+        "meaning_ar": "خائب الأمل",
+        "note_ar": "الاسم: disappointment.",
+        "note_en": "Noun: disappointment.",
+        "example": "I was disappointed with my score."
+      },
+      {
+        "word": "parrot",
+        "pos": "noun",
+        "meaning_en": "a colourful bird that can copy words",
+        "meaning_ar": "ببغاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The parrot said 'hello'."
+      },
+      {
+        "word": "instructions",
+        "pos": "noun",
+        "meaning_en": "information about how to do something",
+        "meaning_ar": "تعليمات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Read the instructions first."
+      },
+      {
+        "word": "injure",
+        "pos": "verb",
+        "meaning_en": "to hurt a part of the body",
+        "meaning_ar": "يُصيب / يجرح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He injured his knee playing football."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "There's nothing to it vs one step at a time",
+        "words": [
+          "there's nothing to it",
+          "one step at a time"
+        ],
+        "explanation_ar": "there's nothing to it تعني أن العمل سهل جداً. one step at a time تعني أن تفعل الشيء ببطء وخطوة بخطوة، غالباً لأنه صعب أو جديد.",
+        "explanation_en": "'There's nothing to it' = it's very easy. 'One step at a time' = do it slowly, stage by stage, often because it is hard or new.",
+        "examples": [
+          {
+            "word": "there's nothing to it",
+            "sentence": "Making tea? There's nothing to it."
+          },
+          {
+            "word": "one step at a time",
+            "sentence": "Learning a language is hard - take it one step at a time."
+          }
+        ]
+      },
+      {
+        "title": "Take one for the team vs the joke is on you",
+        "words": [
+          "take one for the team",
+          "the joke is on you"
+        ],
+        "explanation_ar": "take one for the team أن تقبل شيئاً غير مريح من أجل مصلحة المجموعة. the joke is on you أن الشخص الذي سخر من غيره صار هو المضحوك عليه.",
+        "explanation_en": "'Take one for the team' = accept something unpleasant to help the group. 'The joke is on you' = the person who laughed at others now looks silly.",
+        "examples": [
+          {
+            "word": "take one for the team",
+            "sentence": "I'll take one for the team and work on Saturday."
+          },
+          {
+            "word": "the joke is on you",
+            "sentence": "You laughed at my old phone, but yours is broken - the joke's on you!"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "take one for the team",
+        "meaning_ar": "يضحّي من أجل الفريق / المجموعة",
+        "meaning_en": "to do something unpleasant so the group can benefit",
+        "example": "There weren't enough seats, so I took one for the team and stood."
+      },
+      {
+        "phrase": "put someone/something on the map",
+        "meaning_ar": "يجعل شخصاً أو مكاناً مشهوراً",
+        "meaning_en": "to make a person or place famous or well known",
+        "example": "That festival put our small town on the map."
+      },
+      {
+        "phrase": "one step at a time",
+        "meaning_ar": "خطوة بخطوة",
+        "meaning_en": "slowly and carefully, doing one part before the next",
+        "example": "Don't rush the project - do it one step at a time."
+      },
+      {
+        "phrase": "the best of both worlds",
+        "meaning_ar": "أفضل ما في الأمرين",
+        "meaning_en": "the benefits of two different things at the same time",
+        "example": "Working from home two days a week gives me the best of both worlds."
+      },
+      {
+        "phrase": "a memory like a sieve",
+        "meaning_ar": "ذاكرة كالغربال (كثير النسيان)",
+        "meaning_en": "a very bad memory; you forget things easily",
+        "example": "I've got a memory like a sieve - I forgot my keys again!"
+      },
+      {
+        "phrase": "the joke is on you",
+        "meaning_ar": "انقلب السحر على الساحر / أنت المضحوك عليه",
+        "meaning_en": "the person who tried to laugh at others now looks silly",
+        "example": "You said I'd never pass, but I got full marks - the joke's on you!"
+      },
+      {
+        "phrase": "there's nothing to it",
+        "meaning_ar": "إنه سهل جداً",
+        "meaning_en": "it's very easy to do",
+        "example": "Riding this scooter is easy - there's nothing to it."
+      },
+      {
+        "phrase": "as sick as a parrot",
+        "meaning_ar": "خائب الأمل جداً",
+        "meaning_en": "(UK, informal) very disappointed - it does not mean ill",
+        "example": "He was as sick as a parrot when his team lost the final."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Comparisons with as ... as",
+        "explanation_ar": "نستخدم as + صفة + as للمقارنة والتشبيه: as sick as a parrot. ويوجد في الإنجليزية تشبيهات ثابتة كثيرة مثل: as busy as a bee، as cold as ice. وأحياناً لا يكون المعنى حرفياً.",
+        "explanation_en": "We use as + adjective + as to compare: 'as sick as a parrot'. English has many fixed similes like 'as busy as a bee', 'as cold as ice'. The meaning is not always literal.",
+        "examples": [
+          "I was as sick as a parrot about the result.",
+          "She is as busy as a bee.",
+          "This water is as cold as ice."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'As sick as a parrot' means:",
+      "choices": [
+        "very ill",
+        "very disappointed",
+        "very noisy",
+        "very colourful"
+      ],
+      "answer": 1,
+      "explanation_ar": "as sick as a parrot = خائب الأمل جداً، وليس مريضاً.",
+      "explanation_en": "It means very disappointed, not ill."
+    },
+    {
+      "question": "I keep forgetting my passwords. I've got ___ .",
+      "choices": [
+        "a memory like a sieve",
+        "the best of both worlds",
+        "nothing to it",
+        "one for the team"
+      ],
+      "answer": 0,
+      "explanation_ar": "a memory like a sieve = ذاكرة ضعيفة جداً.",
+      "explanation_en": "A memory like a sieve = a very bad memory."
+    },
+    {
+      "question": "Her first book ___ as a writer.",
+      "choices": [
+        "took her one step",
+        "put her on the map",
+        "was nothing to it",
+        "was a sieve"
+      ],
+      "answer": 1,
+      "explanation_ar": "put someone on the map = يجعله مشهوراً.",
+      "explanation_en": "'Put someone on the map' = make them famous."
+    },
+    {
+      "question": "A flat in the city with a big garden gives you ___ .",
+      "choices": [
+        "a memory like a sieve",
+        "the joke on you",
+        "the best of both worlds",
+        "a sick parrot"
+      ],
+      "answer": 2,
+      "explanation_ar": "the best of both worlds = مزايا الأمرين معاً.",
+      "explanation_en": "You get the benefits of both."
+    },
+    {
+      "question": "Nobody wanted to clean up, so Omar ___ and did it.",
+      "choices": [
+        "put it on the map",
+        "was as sick as a parrot",
+        "had nothing to it",
+        "took one for the team"
+      ],
+      "answer": 3,
+      "explanation_ar": "take one for the team = يضحي من أجل المجموعة.",
+      "explanation_en": "He did the unpleasant job for the group."
+    },
+    {
+      "question": "'Making a sandwich? There's nothing to it!' means making a sandwich is:",
+      "choices": [
+        "very easy",
+        "impossible",
+        "expensive",
+        "boring"
+      ],
+      "answer": 0,
+      "explanation_ar": "there's nothing to it = سهل جداً.",
+      "explanation_en": "It means it's very easy."
+    },
+    {
+      "question": "Learning to drive is hard. Take it ___ .",
+      "choices": [
+        "the best of both worlds",
+        "one step at a time",
+        "on the map",
+        "for the team"
+      ],
+      "answer": 1,
+      "explanation_ar": "one step at a time = خطوة بخطوة.",
+      "explanation_en": "Do it slowly, stage by stage."
+    },
+    {
+      "question": "He laughed at my plan, but it worked. Now ___ .",
+      "choices": [
+        "it's nothing to it",
+        "it's on the map",
+        "the joke is on him",
+        "he took one for the team"
+      ],
+      "answer": 2,
+      "explanation_ar": "the joke is on him = صار هو المضحوك عليه.",
+      "explanation_en": "Now he looks silly, not me."
+    },
+    {
+      "question": "Which expression is about being EASY?",
+      "choices": [
+        "a memory like a sieve",
+        "as sick as a parrot",
+        "take one for the team",
+        "there's nothing to it"
+      ],
+      "answer": 3,
+      "explanation_ar": "there's nothing to it تعني السهولة.",
+      "explanation_en": "'There's nothing to it' means it's easy."
+    },
+    {
+      "question": "Complete: 'I was as ___ as a parrot when the trip was cancelled.'",
+      "choices": [
+        "sick",
+        "happy",
+        "green",
+        "loud"
+      ],
+      "answer": 0,
+      "explanation_ar": "التعبير الثابت هو as sick as a parrot.",
+      "explanation_en": "The fixed expression is 'as sick as a parrot'."
+    }
+  ]
+}

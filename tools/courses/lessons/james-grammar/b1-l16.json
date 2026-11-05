@@ -1,0 +1,47 @@
+{
+  "title": "'s or s': The Possessive Apostrophe",
+  "content": {
+    "vocabulary": [
+      {"word": "possession", "pos": "noun", "meaning_en": "owning something; something belongs to someone", "meaning_ar": "الملكية", "note_ar": "", "note_en": "", "example": "John's hat shows possession: the hat belongs to John."},
+      {"word": "possessive", "pos": "adjective", "meaning_en": "showing that something belongs to someone", "meaning_ar": "دالّ على الملكية", "note_ar": "", "note_en": "", "example": "\"The boys'\" is a possessive form."},
+      {"word": "belong to", "pos": "phrasal verb", "meaning_en": "be owned by", "meaning_ar": "يخصّ / ينتمي إلى", "note_ar": "", "note_en": "", "example": "This sock belongs to me."},
+      {"word": "singular", "pos": "adjective", "meaning_en": "one only", "meaning_ar": "مفرد", "note_ar": "", "note_en": "", "example": "\"Boy\" is singular."},
+      {"word": "plural", "pos": "adjective", "meaning_en": "more than one", "meaning_ar": "جمع", "note_ar": "", "note_en": "", "example": "\"Boys\" is plural."},
+      {"word": "compound", "pos": "adjective", "meaning_en": "made of two or more parts joined together (e.g. Bill and Hillary)", "meaning_ar": "مركّب", "note_ar": "", "note_en": "", "example": "\"Bill and Hillary\" is a compound subject."},
+      {"word": "possessive pronoun", "pos": "noun", "meaning_en": "a word that shows possession without an apostrophe: mine, his, hers, ours, theirs (and my, your...)", "meaning_ar": "ضمير الملكية", "note_ar": "لا يأخذ فاصلة عليا", "note_en": "Never takes an apostrophe.", "example": "This book is hers."},
+      {"word": "opinion", "pos": "noun", "meaning_en": "what you think about something", "meaning_ar": "رأي", "note_ar": "", "note_en": "", "example": "Alice's opinion of the house was different from mine."},
+      {"word": "children", "pos": "noun", "meaning_en": "plural of child", "meaning_ar": "أطفال", "note_ar": "جمع غير قياسي: لا نقول childrens", "note_en": "Irregular plural: not \"childrens\".", "example": "This is the children's room."},
+      {"word": "people", "pos": "noun", "meaning_en": "plural of person", "meaning_ar": "ناس", "note_ar": "", "note_en": "", "example": "The people's choice was clear."},
+      {"word": "expensive", "pos": "adjective", "meaning_en": "costing a lot of money", "meaning_ar": "غالٍ", "note_ar": "", "note_en": "", "example": "I thought his house was too expensive."},
+      {"word": "cheap", "pos": "adjective", "meaning_en": "not costing much money", "meaning_ar": "رخيص", "note_ar": "", "note_en": "", "example": "Alice thought the house was cheap."}
+    ],
+    "fine_lines": [
+      {"title": "boy's vs boys'", "words": ["boy's", "boys'"], "explanation_ar": "boy's = يخص ولدًا واحدًا. boys' = يخص عدة أولاد (نضع الفاصلة العليا بعد s الجمع فقط).", "explanation_en": "boy's = belonging to one boy. boys' = belonging to several boys (add only the apostrophe after the plural s).", "examples": [{"word": "boy's", "sentence": "The boy's hat is red. (one boy)"}, {"word": "boys'", "sentence": "The boys' hats are blue. (two boys)"}]},
+      {"title": "Bill and Hillary's vs Barbara's and George's", "words": ["A and B's", "A's and B's"], "explanation_ar": "إذا كان الشيء مشتركًا بينهما نضع 's على الاسم الأخير فقط: Bill and Hillary's house. إذا كان لكلٍّ منهما شيء مختلف نضع 's على الاسمين: Barbara's and George's opinions.", "explanation_en": "If they share one thing, add 's only to the last name: Bill and Hillary's house. If each has a different thing, add 's to both: Barbara's and George's opinions.", "examples": [{"word": "A and B's", "sentence": "Sam and Lina's car is new. (one car)"}, {"word": "A's and B's", "sentence": "Sam's and Lina's answers were different."}]},
+      {"title": "hers (not her's)", "words": ["hers", "her's"], "explanation_ar": "ضمائر الملكية مثل his, hers, ours, theirs, its لا تأخذ فاصلة عليا أبدًا.", "explanation_en": "Possessive pronouns like his, hers, ours, theirs, its never take an apostrophe.", "examples": [{"word": "hers", "sentence": "The red bag is hers."}, {"word": "her's", "sentence": "✗ The red bag is her's."}]}
+    ],
+    "expressions": [
+      {"phrase": "Is this yours?", "meaning_ar": "هل هذا لك؟", "meaning_en": "Does this belong to you?", "example": "I found a pen on the floor. Is this yours?"},
+      {"phrase": "This sock is mine.", "meaning_ar": "هذا الجورب لي.", "meaning_en": "This sock belongs to me.", "example": "Don't take it. This sock is mine."}
+    ],
+    "grammar": [
+      {"title": "Singular owner: add 's", "explanation_ar": "إذا كان المالك شخصًا واحدًا نضيف 's للاسم. هذا لا يجعله جمعًا: John's hat = قبعة جون. (مع الأسماء المنتهية بـ s يجوز James' أو James's).", "explanation_en": "For one owner, add 's to the noun. It does not make it plural: John's hat = the hat of John. (Names ending in s can take James' or James's.)", "examples": ["John's hat is red.", "Mr. E's sock is blue."]},
+      {"title": "Plural owner ending in s: add ' only", "explanation_ar": "إذا كان الاسم جمعًا منتهيًا بـ s نضيف الفاصلة العليا فقط بعد s: the boys' hats.", "explanation_en": "If the plural noun already ends in s, add only an apostrophe after the s: the boys' hats.", "examples": ["The boys' hats are blue.", "All of the rooms' colours were great."]},
+      {"title": "Irregular plurals: add 's", "explanation_ar": "الجموع التي لا تنتهي بـ s (children, people, men, women) نضيف لها 's: the children's room.", "explanation_en": "Plurals that don't end in s (children, people, men, women) take 's: the children's room.", "examples": ["the children's room", "the people's choice"]},
+      {"title": "Compound owners", "explanation_ar": "شيء مشترك: 's على الاسم الأخير (Bill and Hillary's house). أشياء منفصلة مختلفة: 's على كل اسم (Barbara's and George's opinions).", "explanation_en": "Shared thing: 's on the last name (Bill and Hillary's house). Separate, different things: 's on each name (Barbara's and George's opinions).", "examples": ["Bill and Hillary's house is nice.", "Barbara's and George's opinions were different."]},
+      {"title": "The \"of\" test and possessive pronouns", "explanation_ar": "إذا استطعت أن تقول \"the ... of ...\" فأنت تحتاج فاصلة عليا: the hat of John → John's hat. أما ضمائر الملكية (my, his, hers, ours, theirs, mine) فلا تأخذ فاصلة عليا.", "explanation_en": "If you can say \"the ... of ...\", you need an apostrophe: the hat of John → John's hat. Possessive pronouns (my, his, hers, ours, theirs, mine) never take one.", "examples": ["the opinion of Alice → Alice's opinion", "Her opinion was different from mine."]}
+    ]
+  },
+  "questions": [
+    {"question": "The hat belongs to John. Write:", "choices": ["Johns hat", "John's hat", "Johns' hat", "John hat's"], "answer": 1, "explanation_ar": "مالك واحد: 's.", "explanation_en": "One owner: 's."},
+    {"question": "Two boys have blue hats. \"The ___ hats are blue.\"", "choices": ["boy's", "boys's", "boys'", "boys"], "answer": 2, "explanation_ar": "جمع ينتهي بـ s: نضيف ' فقط.", "explanation_en": "Plural ending in s: add only '."},
+    {"question": "Bill and Hillary share one house. Write:", "choices": ["Bill and Hillary's house", "Bill's and Hillary's house", "Bills and Hillarys house", "Bill's and Hillary house"], "answer": 0, "explanation_ar": "شيء مشترك: 's على الاسم الأخير.", "explanation_en": "Shared thing: 's on the last name only."},
+    {"question": "Barbara and George have different opinions. Write:", "choices": ["Barbara and George's opinions", "Barbaras and Georges opinions", "Barbara's and George opinions", "Barbara's and George's opinions"], "answer": 3, "explanation_ar": "أشياء مختلفة: 's على الاسمين.", "explanation_en": "Different things: 's on both names."},
+    {"question": "Which is correct?", "choices": ["The bag is her's.", "The bag is hers.", "The bag is hers'.", "The bag is she's."], "answer": 1, "explanation_ar": "ضمير الملكية hers لا يأخذ فاصلة عليا.", "explanation_en": "The possessive pronoun \"hers\" takes no apostrophe."},
+    {"question": "\"This is the ___ room.\" (many children)", "choices": ["childrens'", "childrens", "children's", "childs'"], "answer": 2, "explanation_ar": "children جمع لا ينتهي بـ s: نضيف 's.", "explanation_en": "\"Children\" doesn't end in s: add 's."},
+    {"question": "\"I thought all of the ___ colours were great.\" (many rooms)", "choices": ["rooms'", "room's", "rooms", "roomes'"], "answer": 0, "explanation_ar": "all تعني عدة غرف: rooms'.", "explanation_en": "\"All\" means many rooms: rooms'."},
+    {"question": "\"She thought only the ___ colour was nice.\" (one bedroom)", "choices": ["bedrooms'", "bedrooms", "bedroom", "bedroom's"], "answer": 3, "explanation_ar": "غرفة واحدة: bedroom's.", "explanation_en": "One bedroom: bedroom's."},
+    {"question": "\"Alice's opinion\" = ___.", "choices": ["the opinion of Alice", "Alice is opinion", "many Alices", "Alice has opinions about Alice"], "answer": 0, "explanation_ar": "اختبار of: the opinion of Alice.", "explanation_en": "The \"of\" test: the opinion of Alice."},
+    {"question": "Which word never takes an apostrophe for possession?", "choices": ["John", "boys", "theirs", "children"], "answer": 2, "explanation_ar": "theirs ضمير ملكية.", "explanation_en": "\"Theirs\" is a possessive pronoun."}
+  ]
+}

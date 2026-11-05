@@ -1,0 +1,527 @@
+{
+ "title": "I Can't Come In",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "sick",
+    "pos": "adjective",
+    "meaning_en": "not healthy; having an illness",
+    "meaning_ar": "مريض",
+    "note_ar": "sick و ill بنفس المعنى تقريباً؛ sick أشيع في الكلام الأمريكي.",
+    "note_en": "sick and ill mean almost the same; sick is more common in American speech.",
+    "example": "I can't go to school today. I'm sick."
+   },
+   {
+    "word": "come in (to work)",
+    "pos": "phrasal verb",
+    "meaning_en": "to go to your workplace",
+    "meaning_ar": "يحضر إلى العمل",
+    "note_ar": "",
+    "note_en": "Used when you talk to your boss: \"I can't come in today.\"",
+    "example": "I can't come in today. I have a fever."
+   },
+   {
+    "word": "boss",
+    "pos": "noun",
+    "meaning_en": "the person who is in charge of you at work",
+    "meaning_ar": "المدير / الرئيس في العمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My boss is very kind."
+   },
+   {
+    "word": "paint",
+    "pos": "verb",
+    "meaning_en": "to put color on something with a brush",
+    "meaning_ar": "يدهن / يرسم بالألوان",
+    "note_ar": "الماضي منتظم: painted.",
+    "note_en": "Regular past: painted.",
+    "example": "We painted the kitchen white."
+   },
+   {
+    "word": "cut",
+    "pos": "verb",
+    "meaning_en": "to divide something with a knife or a tool",
+    "meaning_ar": "يقطع",
+    "note_ar": "الماضي نفس الكلمة: cut → cut.",
+    "note_en": "The past form is the same: cut → cut.",
+    "example": "He cut the bread into four pieces."
+   },
+   {
+    "word": "wood",
+    "pos": "noun",
+    "meaning_en": "the hard material that trees are made of",
+    "meaning_ar": "خشب",
+    "note_ar": "تُنطق مثل would.",
+    "note_en": "Sounds the same as \"would\".",
+    "example": "This table is made of wood."
+   },
+   {
+    "word": "build",
+    "pos": "verb",
+    "meaning_en": "to make something by putting parts together",
+    "meaning_ar": "يبني",
+    "note_ar": "الماضي: built.",
+    "note_en": "Past: built.",
+    "example": "They built a new school in our town."
+   },
+   {
+    "word": "fire",
+    "pos": "noun",
+    "meaning_en": "flames and heat from something burning",
+    "meaning_ar": "نار",
+    "note_ar": "build a fire = يُشعل ناراً (يجمع الحطب ويشعله).",
+    "note_en": "build a fire = make a fire with wood.",
+    "example": "We sat near the fire to get warm."
+   },
+   {
+    "word": "feel",
+    "pos": "verb",
+    "meaning_en": "to have a feeling in your body or mind",
+    "meaning_ar": "يشعر",
+    "note_ar": "الماضي: felt.",
+    "note_en": "Past: felt.",
+    "example": "I felt tired after the long day."
+   },
+   {
+    "word": "well",
+    "pos": "adjective",
+    "meaning_en": "healthy; not sick",
+    "meaning_ar": "بصحة جيدة",
+    "note_ar": "well هنا صفة بمعنى «بصحة جيدة».",
+    "note_en": "Here \"well\" is an adjective meaning healthy.",
+    "example": "I don't feel well today."
+   },
+   {
+    "word": "flu",
+    "pos": "noun",
+    "meaning_en": "a common illness with fever, cough and pain",
+    "meaning_ar": "الإنفلونزا",
+    "note_ar": "نقول: the flu (مع the).",
+    "note_en": "We usually say \"the flu\".",
+    "example": "She had the flu last winter."
+   },
+   {
+    "word": "sleep",
+    "pos": "verb",
+    "meaning_en": "to rest with your eyes closed",
+    "meaning_ar": "ينام",
+    "note_ar": "الماضي: slept.",
+    "note_en": "Past: slept.",
+    "example": "I slept for ten hours last night."
+   },
+   {
+    "word": "drink",
+    "pos": "verb",
+    "meaning_en": "to take water or another liquid into your mouth",
+    "meaning_ar": "يشرب",
+    "note_ar": "الماضي: drank.",
+    "note_en": "Past: drank.",
+    "example": "He drank a big glass of water."
+   },
+   {
+    "word": "doctor",
+    "pos": "noun",
+    "meaning_en": "a person whose job is to help sick people",
+    "meaning_ar": "طبيب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You should see a doctor."
+   },
+   {
+    "word": "rest",
+    "pos": "noun",
+    "meaning_en": "time when you relax or sleep and do no work",
+    "meaning_ar": "راحة",
+    "note_ar": "get lots of rest = ارتح كثيراً.",
+    "note_en": "get lots of rest = rest a lot.",
+    "example": "After the trip, I need some rest."
+   },
+   {
+    "word": "sore throat",
+    "pos": "noun",
+    "meaning_en": "pain in your throat",
+    "meaning_ar": "التهاب / ألم الحلق",
+    "note_ar": "sore = مؤلم.",
+    "note_en": "sore = painful.",
+    "example": "I have a sore throat, so I can't talk much."
+   },
+   {
+    "word": "cough",
+    "pos": "noun / verb",
+    "meaning_en": "a loud push of air from your throat when you are sick",
+    "meaning_ar": "سعال / يسعل",
+    "note_ar": "تُنطق /kɒf/ مثل «كُف».",
+    "note_en": "Say /kɒf/ (\"koff\").",
+    "example": "He has a bad cough."
+   },
+   {
+    "word": "fever",
+    "pos": "noun",
+    "meaning_en": "a body temperature that is higher than normal",
+    "meaning_ar": "حُمّى / سخونة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The child has a fever."
+   },
+   {
+    "word": "thermometer",
+    "pos": "noun",
+    "meaning_en": "a tool that measures temperature",
+    "meaning_ar": "مقياس الحرارة (ترمومتر)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Put the thermometer under your tongue."
+   },
+   {
+    "word": "degree",
+    "pos": "noun",
+    "meaning_en": "a unit for measuring temperature",
+    "meaning_ar": "درجة",
+    "note_ar": "في أمريكا تُقاس الحرارة بالفهرنهايت؛ 100.5 فهرنهايت ≈ 38 مئوية.",
+    "note_en": "The US uses Fahrenheit: 100.5°F is about 38°C.",
+    "example": "It is 30 degrees today."
+   },
+   {
+    "word": "high",
+    "pos": "adjective",
+    "meaning_en": "above the normal level",
+    "meaning_ar": "مرتفع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "His temperature is very high."
+   },
+   {
+    "word": "co-worker",
+    "pos": "noun",
+    "meaning_en": "a person you work with",
+    "meaning_ar": "زميل عمل",
+    "note_ar": "",
+    "note_en": "Also: colleague.",
+    "example": "My co-workers helped me with the project."
+   },
+   {
+    "word": "a couple of",
+    "pos": "phrase",
+    "meaning_en": "two, or a small number",
+    "meaning_ar": "اثنان / بضعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll be back in a couple of days."
+   },
+   {
+    "word": "hurt",
+    "pos": "verb",
+    "meaning_en": "to cause pain or harm",
+    "meaning_ar": "يؤذي / يؤلم",
+    "note_ar": "it can't hurt = لن يضر.",
+    "note_en": "\"It can't hurt\" = it will not do any harm.",
+    "example": "My leg hurts."
+   },
+   {
+    "word": "sneeze",
+    "pos": "verb",
+    "meaning_en": "to push air out of your nose suddenly and loudly",
+    "meaning_ar": "يعطس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Dust makes me sneeze."
+   },
+   {
+    "word": "movie",
+    "pos": "noun",
+    "meaning_en": "a film you watch",
+    "meaning_ar": "فيلم",
+    "note_ar": "movie أمريكي، film بريطاني.",
+    "note_en": "movie (US) = film (UK).",
+    "example": "Let's watch a movie tonight."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "sick vs ill",
+    "words": [
+     "sick",
+     "ill"
+    ],
+    "explanation_ar": "كلاهما يعني «مريض». sick أشيع في الكلام اليومي الأمريكي ويأتي قبل الاسم (a sick child). ill أشيع في بريطانيا ويأتي غالباً بعد الفعل (He is ill).",
+    "explanation_en": "Both mean not healthy. Sick is more common in everyday American English and can go before a noun (a sick child). Ill is more common in British English and usually comes after the verb (He is ill).",
+    "examples": [
+     {
+      "word": "sick",
+      "sentence": "I'm sick. I can't come to work."
+     },
+     {
+      "word": "sick",
+      "sentence": "She is taking care of her sick mother."
+     },
+     {
+      "word": "ill",
+      "sentence": "He was ill for a week."
+     }
+    ]
+   },
+   {
+    "title": "feel well vs feel good",
+    "words": [
+     "feel well",
+     "feel good"
+    ],
+    "explanation_ar": "feel well = أشعر أني بصحة جيدة (عن المرض). feel good = أشعر بالراحة أو السعادة، وقد تُستخدم للصحة أيضاً. في النفي عن المرض نقول عادة: I don't feel well.",
+    "explanation_en": "\"Feel well\" is about health: not sick. \"Feel good\" is about being happy or comfortable, and sometimes health too. To say you are sick, we often say \"I don't feel well.\"",
+    "examples": [
+     {
+      "word": "feel well",
+      "sentence": "I don't feel well. I think I have a cold."
+     },
+     {
+      "word": "feel good",
+      "sentence": "I feel good after my morning walk."
+     }
+    ]
+   },
+   {
+    "title": "flu vs fever",
+    "words": [
+     "flu",
+     "fever"
+    ],
+    "explanation_ar": "flu اسم المرض (الإنفلونزا). fever عَرَض: ارتفاع حرارة الجسم. قد يسبّب الـ flu حُمّى fever.",
+    "explanation_en": "Flu is an illness. A fever is a sign of illness: a high body temperature. The flu can give you a fever.",
+    "examples": [
+     {
+      "word": "flu",
+      "sentence": "I had the flu last week."
+     },
+     {
+      "word": "fever",
+      "sentence": "Do you have a fever?"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "I can't come to work today.",
+    "meaning_ar": "لا أستطيع الحضور إلى العمل اليوم.",
+    "meaning_en": "I am not able to go to work today.",
+    "example": "Hello, Ms. Lee. I can't come to work today. I'm sick."
+   },
+   {
+    "phrase": "What is wrong?",
+    "meaning_ar": "ما المشكلة؟ / ما بك؟",
+    "meaning_en": "What is the problem?",
+    "example": "You look tired. What is wrong?"
+   },
+   {
+    "phrase": "I don't feel well.",
+    "meaning_ar": "لا أشعر أني بخير.",
+    "meaning_en": "I feel sick.",
+    "example": "I don't feel well. I want to go home."
+   },
+   {
+    "phrase": "I'm sorry to hear that.",
+    "meaning_ar": "يؤسفني سماع ذلك.",
+    "meaning_en": "A polite answer to bad news.",
+    "example": "\"My cat is sick.\" \"I'm sorry to hear that.\""
+   },
+   {
+    "phrase": "You should call your doctor.",
+    "meaning_ar": "يجب أن تتصل بطبيبك.",
+    "meaning_en": "Advice: it is a good idea to call your doctor.",
+    "example": "You have a high fever. You should call your doctor."
+   },
+   {
+    "phrase": "Get lots of rest!",
+    "meaning_ar": "ارتح كثيراً!",
+    "meaning_en": "Rest a lot so you get better.",
+    "example": "Drink water and get lots of rest!"
+   },
+   {
+    "phrase": "How can I help you?",
+    "meaning_ar": "كيف أستطيع مساعدتك؟",
+    "meaning_en": "A polite question from someone who wants to help.",
+    "example": "Good morning. How can I help you?"
+   },
+   {
+    "phrase": "Do you have a sore throat?",
+    "meaning_ar": "هل عندك التهاب في الحلق؟",
+    "meaning_en": "A doctor's question about pain in the throat.",
+    "example": "Do you have a sore throat or a cough?"
+   },
+   {
+    "phrase": "When did you start feeling sick?",
+    "meaning_ar": "متى بدأت تشعر بالمرض؟",
+    "meaning_en": "When did your illness begin?",
+    "example": "\"When did you start feeling sick?\" \"Last night.\""
+   },
+   {
+    "phrase": "Call me back in a couple of days.",
+    "meaning_ar": "اتصل بي مرة أخرى بعد يومين.",
+    "meaning_en": "Phone me again after two or three days.",
+    "example": "I'm busy now. Call me back in a couple of days."
+   },
+   {
+    "phrase": "It can't hurt!",
+    "meaning_ar": "لن يضرّ!",
+    "meaning_en": "It will not cause any problem, so you can try it.",
+    "example": "Drink some hot tea. It can't hurt!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Simple past: irregular verbs",
+    "explanation_ar": "نستخدم الماضي البسيط لحدث انتهى في الماضي (yesterday, last week). الأفعال المنتظمة تأخذ ed (paint → painted). لكن أفعالاً كثيرة شاذة ولها شكل خاص يجب حفظه: feel → felt، cut → cut، build → built، have → had، sleep → slept، drink → drank، hear → heard، say → said. الشكل نفسه مع كل الضمائر (I/you/he/she/we/they).",
+    "explanation_en": "We use the simple past for actions that finished in the past (yesterday, last week). Regular verbs add -ed (paint → painted). Many verbs are irregular and have a special past form you must learn: feel → felt, cut → cut, build → built, have → had, sleep → slept, drink → drank, hear → heard, say → said. The form is the same for every subject.",
+    "examples": [
+     "Yesterday I felt fine.",
+     "In the afternoon, I cut wood. Then I built a fire.",
+     "I had the flu last week.",
+     "I slept a lot and drank a lot of water."
+    ]
+   },
+   {
+    "title": "Talking about illness: have + a/an + problem",
+    "explanation_ar": "للحديث عن المرض نستخدم have: I have a cough / a fever / a sore throat / the flu. والسؤال: Do you have a fever? والإجابة: Yes, I do. / No, I don't. ومع he/she نقول has.",
+    "explanation_en": "To talk about illness we use have: I have a cough / a fever / a sore throat / the flu. Question: Do you have a fever? Short answers: Yes, I do. / No, I don't. With he/she/it use has.",
+    "examples": [
+     "Do you have a cough? - Yes, I do.",
+     "She has a sore throat.",
+     "I have the flu."
+    ]
+   },
+   {
+    "title": "Should for advice",
+    "explanation_ar": "نستخدم should + الفعل الأساسي لإعطاء نصيحة. لا نضيف to ولا s: You should call your doctor (وليس should to call / should calls). النفي: shouldn't.",
+    "explanation_en": "Use should + base verb to give advice. Do not add \"to\" or -s: You should call your doctor. Negative: shouldn't.",
+    "examples": [
+     "You should call your doctor.",
+     "He should drink lots of water.",
+     "You shouldn't go to work today."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "What is the past form of \"feel\"?",
+   "choices": [
+    "feeled",
+    "felt",
+    "fell",
+    "feels"
+   ],
+   "answer": 1,
+   "explanation_ar": "الماضي الشاذ من feel هو felt.",
+   "explanation_en": "The irregular past of \"feel\" is \"felt\"."
+  },
+  {
+   "question": "Yesterday I ___ a fire.",
+   "choices": [
+    "build",
+    "builded",
+    "builds",
+    "built"
+   ],
+   "answer": 3,
+   "explanation_ar": "build فعل شاذ وماضيه built.",
+   "explanation_en": "\"Build\" is irregular: the past is \"built\"."
+  },
+  {
+   "question": "In the afternoon, I ___ wood.",
+   "choices": [
+    "cut",
+    "cutted",
+    "cuts",
+    "cutting"
+   ],
+   "answer": 0,
+   "explanation_ar": "ماضي cut هو cut نفسه.",
+   "explanation_en": "The past of \"cut\" is \"cut\"."
+  },
+  {
+   "question": "Caty was sick last week. She ___ the flu.",
+   "choices": [
+    "has",
+    "have",
+    "had",
+    "having"
+   ],
+   "answer": 2,
+   "explanation_ar": "الماضي من have هو had.",
+   "explanation_en": "The past of \"have\" is \"had\"."
+  },
+  {
+   "question": "A thermometer measures:",
+   "choices": [
+    "time",
+    "temperature",
+    "money",
+    "distance"
+   ],
+   "answer": 1,
+   "explanation_ar": "الترمومتر يقيس الحرارة.",
+   "explanation_en": "A thermometer measures temperature."
+  },
+  {
+   "question": "Which sentence gives correct advice?",
+   "choices": [
+    "You should to rest.",
+    "You should rests.",
+    "You should rest.",
+    "You should resting."
+   ],
+   "answer": 2,
+   "explanation_ar": "بعد should يأتي الفعل الأساسي بدون to.",
+   "explanation_en": "After \"should\" we use the base verb without \"to\"."
+  },
+  {
+   "question": "\"I have a sore throat\" means:",
+   "choices": [
+    "My throat hurts.",
+    "I am hungry.",
+    "I have a cold nose.",
+    "I can't sleep."
+   ],
+   "answer": 0,
+   "explanation_ar": "sore throat = ألم في الحلق.",
+   "explanation_en": "A sore throat is pain in your throat."
+  },
+  {
+   "question": "\"Don't go to work for a couple of days.\" A couple of days is about:",
+   "choices": [
+    "two weeks",
+    "one hour",
+    "a year",
+    "two days"
+   ],
+   "answer": 3,
+   "explanation_ar": "a couple of = اثنان أو عدد قليل.",
+   "explanation_en": "\"A couple of\" means two or a small number."
+  },
+  {
+   "question": "Your friend says, \"I'm sick.\" What is a polite answer?",
+   "choices": [
+    "That's great!",
+    "I'm sorry to hear that.",
+    "Guess what?",
+    "Until next time!"
+   ],
+   "answer": 1,
+   "explanation_ar": "نقول I'm sorry to hear that عند سماع خبر سيئ.",
+   "explanation_en": "We say \"I'm sorry to hear that\" when we hear bad news."
+  },
+  {
+   "question": "I don't feel ___. I think I have the flu.",
+   "choices": [
+    "good job",
+    "fine wood",
+    "busy",
+    "well"
+   ],
+   "answer": 3,
+   "explanation_ar": "I don't feel well = لا أشعر أني بصحة جيدة.",
+   "explanation_en": "\"I don't feel well\" means I feel sick."
+  }
+ ]
+}

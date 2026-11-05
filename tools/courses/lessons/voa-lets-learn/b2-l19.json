@@ -1,0 +1,56 @@
+{
+  "title": "Movie Night",
+  "content": {
+    "vocabulary": [
+      {"word": "movie theater", "pos": "noun", "meaning_en": "a building where you watch films", "meaning_ar": "دار السينما", "note_ar": "في بريطانيا: cinema", "note_en": "UK: cinema.", "example": "Can you tell me how to get to the movie theater?"},
+      {"word": "invitation", "pos": "noun", "meaning_en": "a request to come to an event", "meaning_ar": "دعوة", "note_ar": "الفعل invite", "note_en": "Verb: invite.", "example": "Thanks for the invitation."},
+      {"word": "plot", "pos": "noun", "meaning_en": "the story of a film or book", "meaning_ar": "حبكة / أحداث القصة", "note_ar": "", "note_en": "", "example": "The plot of this film is exciting."},
+      {"word": "set design", "pos": "noun", "meaning_en": "the look of the place where a film is made", "meaning_ar": "تصميم الديكور", "note_ar": "", "note_en": "", "example": "I love the set design of old films."},
+      {"word": "seriously", "pos": "adverb", "meaning_en": "in a careful, important way", "meaning_ar": "بجدية", "note_ar": "", "note_en": "", "example": "I take movies very seriously."},
+      {"word": "polite", "pos": "adjective", "meaning_en": "having good manners", "meaning_ar": "مهذّب", "note_ar": "عكسها rude", "note_en": "Opposite: rude.", "example": "Indirect questions are more polite."},
+      {"word": "indirect question", "pos": "noun", "meaning_en": "a question inside a polite phrase", "meaning_ar": "سؤال غير مباشر", "note_ar": "", "note_en": "", "example": "'Do you know where the bank is?' is an indirect question."},
+      {"word": "formal", "pos": "adjective", "meaning_en": "serious and correct, used in official situations", "meaning_ar": "رسمي", "note_ar": "عكسها informal", "note_en": "Opposite: informal.", "example": "Use formal English in a job interview."},
+      {"word": "rock", "pos": "verb", "meaning_en": "to move gently back and forth", "meaning_ar": "يتأرجح / يهتز", "note_ar": "", "note_en": "", "example": "The chair rocks back and forth."},
+      {"word": "previews", "pos": "noun", "meaning_en": "short videos of new films shown before the main film", "meaning_ar": "إعلانات الأفلام القادمة", "note_ar": "تسمى أيضًا trailers", "note_en": "Also called trailers.", "example": "The previews are starting."},
+      {"word": "come out", "pos": "phrasal verb", "meaning_en": "to be shown or sold for the first time", "meaning_ar": "يصدر / يُعرض لأول مرة", "note_ar": "", "note_en": "", "example": "A new film comes out next week."},
+      {"word": "milkshake", "pos": "noun", "meaning_en": "a cold, thick drink made with milk and ice cream", "meaning_ar": "ميلك شيك", "note_ar": "", "note_en": "", "example": "I'd like a chocolate milkshake."},
+      {"word": "thick", "pos": "adjective", "meaning_en": "not flowing easily, like a heavy drink", "meaning_ar": "كثيف / ثخين", "note_ar": "", "note_en": "", "example": "This soup is very thick."},
+      {"word": "straw", "pos": "noun", "meaning_en": "a thin tube for drinking", "meaning_ar": "شفّاطة / مصّاصة", "note_ar": "", "note_en": "", "example": "Can I have a straw for my juice?"},
+      {"word": "audience", "pos": "noun", "meaning_en": "the people who watch a show or film", "meaning_ar": "الجمهور", "note_ar": "", "note_en": "", "example": "The audience laughed at the joke."},
+      {"word": "shush", "pos": "verb", "meaning_en": "to tell someone to be quiet by saying 'shh'", "meaning_ar": "يُسكِت (بقول: شش)", "note_ar": "", "note_en": "", "example": "A man shushed the noisy children."},
+      {"word": "candy bar", "pos": "noun", "meaning_en": "a long piece of chocolate or sweets", "meaning_ar": "لوح شوكولاتة", "note_ar": "", "note_en": "", "example": "She bought a candy bar."},
+      {"word": "noisy", "pos": "adjective", "meaning_en": "making a lot of noise", "meaning_ar": "صاخب / مزعج", "note_ar": "عكسها quiet", "note_en": "Opposite: quiet.", "example": "I'm not the noisy one here!"},
+      {"word": "lend", "pos": "verb", "meaning_en": "to let someone use something for a short time", "meaning_ar": "يُعير / يُقرِض", "note_ar": "lend - lent - lent", "note_en": "lend - lent - lent", "example": "Would you mind lending me your pen?"},
+      {"word": "security guard", "pos": "noun", "meaning_en": "a person whose job is to keep a place safe", "meaning_ar": "حارس أمن", "note_ar": "", "note_en": "", "example": "The security guard asked him to leave."},
+      {"word": "kick out", "pos": "phrasal verb", "meaning_en": "to force someone to leave", "meaning_ar": "يطرد", "note_ar": "", "note_en": "", "example": "They kicked him out of the theater."}
+    ],
+    "fine_lines": [
+      {"title": "direct vs indirect questions", "words": ["Where is...?", "Can you tell me where... is?"], "explanation_ar": "في السؤال المباشر يأتي الفعل قبل الفاعل: Where is the theater? في السؤال غير المباشر نعود إلى ترتيب الجملة العادي (الفاعل ثم الفعل): Can you tell me where the theater is? السؤال غير المباشر أكثر أدبًا ورسمية.", "explanation_en": "In a direct question, the verb comes before the subject: Where is the theater? In an indirect question, use normal sentence order (subject then verb): Can you tell me where the theater is? Indirect questions are more polite.", "examples": [{"word": "Where is...?", "sentence": "Where is your movie theater?"}, {"word": "Can you tell me where... is?", "sentence": "Can you tell me how to get to your movie theater?"}]},
+      {"title": "lend vs borrow", "words": ["lend", "borrow"], "explanation_ar": "lend = تعطي شيئًا لشخص ليستخدمه ثم يرده. borrow = تأخذ شيئًا من شخص لتستخدمه ثم ترده.", "explanation_en": "Lend = give something to someone for a short time. Borrow = take something from someone for a short time.", "examples": [{"word": "lend", "sentence": "Would you mind lending me your phone light?"}, {"word": "borrow", "sentence": "Can I borrow your pen?"}]}
+    ],
+    "expressions": [
+      {"phrase": "Can you tell me how to get to...?", "meaning_ar": "هل يمكنك أن تخبرني كيف أصل إلى...؟", "meaning_en": "A polite way to ask for directions.", "example": "Can you tell me how to get to the station?"},
+      {"phrase": "Would you mind not talking?", "meaning_ar": "هل تمانع ألا تتكلم؟", "meaning_en": "A polite way to ask someone to stop talking.", "example": "The film is starting. Would you mind not talking?"},
+      {"phrase": "Do you mind...?", "meaning_ar": "هل تمانع...؟", "meaning_en": "A polite way to ask someone to do or stop something.", "example": "Do you mind closing the window?"},
+      {"phrase": "I was wondering...", "meaning_ar": "كنت أتساءل...", "meaning_en": "A soft, polite way to start a question.", "example": "I was wondering if you are free on Friday."},
+      {"phrase": "I'm done now.", "meaning_ar": "انتهيت الآن.", "meaning_en": "I have finished.", "example": "I'm done now. You can use the computer."},
+      {"phrase": "Would you mind coming with me?", "meaning_ar": "هل تتفضل بالمجيء معي؟", "meaning_en": "A polite order to follow someone.", "example": "Sir, would you mind coming with me?"},
+      {"phrase": "He should know better.", "meaning_ar": "كان يجب أن يكون أعقل من ذلك.", "meaning_en": "He is old or wise enough not to do that.", "example": "He shouted in the library. He should know better."}
+    ],
+    "grammar": [
+      {"title": "Indirect questions", "explanation_ar": "السؤال غير المباشر طريقة أكثر أدبًا ورسمية لطرح السؤال. يبدأ بعبارات مثل: Can/Could you tell me...؟ / Do you know...؟ / Would/Do you mind...؟ / Would it be possible...؟ بعد هذه العبارات نستخدم ترتيب الجملة العادي (فاعل + فعل) وليس ترتيب السؤال: Where is the bank? → Do you know where the bank is? مع الأسئلة التي جوابها نعم أو لا نستخدم if: Do you know if Anna will stop talking? وبعد Would you mind / Do you mind يأتي الفعل بصيغة ing: Would you mind opening that quietly?", "explanation_en": "Indirect questions are more polite and formal. They start with: Can/Could you tell me...? Do you know...? Would/Do you mind...? Would it be possible...? After these, use normal sentence order (subject + verb): Where is the bank? → Do you know where the bank is? For yes/no questions use if: Do you know if Anna will stop talking? After Would you mind / Do you mind, use the -ing form: Would you mind opening that quietly?", "examples": ["Can you tell me how to get to your movie theater?", "Would you mind not talking?", "Do you mind not drinking so loudly?", "Would you mind turning down your phone light?"]}
+    ]
+  },
+  "questions": [
+    {"question": "Change to an indirect question: 'Where is the bank?'", "choices": ["Can you tell me where is the bank?", "Can you tell me where the bank is?", "Can you tell me the bank where is?", "Can you tell where me the bank is?"], "answer": 1, "explanation_ar": "في السؤال غير المباشر: الفاعل ثم الفعل (the bank is).", "explanation_en": "Indirect questions use normal order: the bank is."},
+    {"question": "Would you mind ____ the door?", "choices": ["close", "to close", "closed", "closing"], "answer": 3, "explanation_ar": "بعد Would you mind نستخدم ing.", "explanation_en": "After would you mind, use -ing."},
+    {"question": "Indirect questions are:", "choices": ["more polite", "always rude", "only for children", "shorter"], "answer": 0, "explanation_ar": "الأسئلة غير المباشرة أكثر أدبًا.", "explanation_en": "Indirect questions are more polite."},
+    {"question": "Do you know ____ the film starts at eight?", "choices": ["what", "if", "does", "is"], "answer": 1, "explanation_ar": "لأسئلة نعم/لا غير المباشرة نستخدم if.", "explanation_en": "For yes/no indirect questions, use if."},
+    {"question": "The people who watch a film together are the ____.", "choices": ["plot", "previews", "audience", "set design"], "answer": 2, "explanation_ar": "audience = الجمهور.", "explanation_en": "The audience watches the film."},
+    {"question": "Can you ____ me your umbrella? I'll give it back tomorrow.", "choices": ["borrow", "lend", "rock", "shush"], "answer": 1, "explanation_ar": "lend = يعير (تعطي شيئًا لشخص).", "explanation_en": "Lend = give something for a short time."},
+    {"question": "'Kick someone out' means:", "choices": ["play football", "invite them in", "help them", "force them to leave"], "answer": 3, "explanation_ar": "kick out = يطرد.", "explanation_en": "Kick out means force someone to leave."},
+    {"question": "Short videos of new films shown before the movie are ____.", "choices": ["previews", "straws", "invitations", "plots"], "answer": 0, "explanation_ar": "previews = إعلانات الأفلام القادمة.", "explanation_en": "Previews show films that are coming out."},
+    {"question": "Which is an indirect question?", "choices": ["What time is it?", "Is the shop open?", "Do you know what time it is?", "Where are you going?"], "answer": 2, "explanation_ar": "تبدأ بـ Do you know وبعدها ترتيب الجملة العادي.", "explanation_en": "It starts with Do you know and uses normal word order."},
+    {"question": "The opposite of 'noisy' is:", "choices": ["thick", "polite", "formal", "quiet"], "answer": 3, "explanation_ar": "عكس noisy هو quiet.", "explanation_en": "The opposite of noisy is quiet."}
+  ]
+}

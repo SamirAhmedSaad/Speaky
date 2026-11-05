@@ -1,0 +1,384 @@
+{
+ "title": "Talking about likes and dislikes",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "like",
+    "pos": "verb",
+    "meaning_en": "think something is nice or good",
+    "meaning_ar": "يحب / يعجبه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I like fish."
+   },
+   {
+    "word": "don't like",
+    "pos": "verb phrase",
+    "meaning_en": "not like",
+    "meaning_ar": "لا يحب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I don't like nuts."
+   },
+   {
+    "word": "love",
+    "pos": "verb",
+    "meaning_en": "like very much",
+    "meaning_ar": "يحب كثيرًا / يحب جدًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I love chocolate."
+   },
+   {
+    "word": "hate",
+    "pos": "verb",
+    "meaning_en": "really not like",
+    "meaning_ar": "يكره",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I hate cold weather."
+   },
+   {
+    "word": "food",
+    "pos": "noun",
+    "meaning_en": "things people eat",
+    "meaning_ar": "طعام",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What food don't you like?"
+   },
+   {
+    "word": "fish",
+    "pos": "noun",
+    "meaning_en": "an animal that lives in water, eaten as food",
+    "meaning_ar": "سمك",
+    "note_ar": "الجمع غالبًا fish أيضًا",
+    "note_en": "The plural is usually also \"fish\".",
+    "example": "I like fish and rice."
+   },
+   {
+    "word": "fruit",
+    "pos": "noun",
+    "meaning_en": "apples, bananas, oranges and similar food",
+    "meaning_ar": "فاكهة",
+    "note_ar": "غالبًا غير معدود: some fruit",
+    "note_en": "Usually uncountable: some fruit.",
+    "example": "I like fruit."
+   },
+   {
+    "word": "chocolate",
+    "pos": "noun",
+    "meaning_en": "a sweet brown food",
+    "meaning_ar": "شوكولاتة",
+    "note_ar": "تُنطق بمقطعين غالبًا: CHOC-lit",
+    "note_en": "Often said in two syllables: CHOC-lit.",
+    "example": "I like fruit and chocolate."
+   },
+   {
+    "word": "nuts",
+    "pos": "noun",
+    "meaning_en": "small hard fruits from trees, like almonds",
+    "meaning_ar": "مكسرات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I don't like nuts."
+   },
+   {
+    "word": "jelly",
+    "pos": "noun",
+    "meaning_en": "a soft sweet food that shakes",
+    "meaning_ar": "جيلي / هلام",
+    "note_ar": "في أمريكا تُسمى Jell-O، و jelly تعني المربى",
+    "note_en": "In the US this is Jell-O; \"jelly\" means jam.",
+    "example": "I don't like jelly."
+   },
+   {
+    "word": "vegetables",
+    "pos": "noun",
+    "meaning_en": "plants we eat, like carrots",
+    "meaning_ar": "خضروات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I like vegetables."
+   },
+   {
+    "word": "rice",
+    "pos": "noun",
+    "meaning_en": "small white grains we cook and eat",
+    "meaning_ar": "أرز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I like rice with fish."
+   },
+   {
+    "word": "cheese",
+    "pos": "noun",
+    "meaning_en": "a food made from milk",
+    "meaning_ar": "جبن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you like cheese?"
+   },
+   {
+    "word": "eggs",
+    "pos": "noun",
+    "meaning_en": "oval food from chickens",
+    "meaning_ar": "بيض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I don't like eggs."
+   },
+   {
+    "word": "sweet",
+    "pos": "adjective",
+    "meaning_en": "tasting of sugar",
+    "meaning_ar": "حلو المذاق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Chocolate is sweet."
+   },
+   {
+    "word": "favourite",
+    "pos": "adjective",
+    "meaning_en": "the one you like most",
+    "meaning_ar": "المفضّل",
+    "note_ar": "التهجئة الأمريكية favorite",
+    "note_en": "US spelling: favorite.",
+    "example": "My favourite food is fish."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "like / love / hate",
+    "words": [
+     "like",
+     "love",
+     "hate"
+    ],
+    "explanation_ar": "love أقوى من like، و hate أقوى من don't like. ترتيبها: love > like > don't like > hate.",
+    "explanation_en": "\"Love\" is stronger than \"like\"; \"hate\" is stronger than \"don't like\".",
+    "examples": [
+     {
+      "word": "love",
+      "sentence": "I love chocolate."
+     },
+     {
+      "word": "like",
+      "sentence": "I like fish."
+     },
+     {
+      "word": "hate",
+      "sentence": "I hate jelly."
+     }
+    ]
+   },
+   {
+    "title": "like / would like",
+    "words": [
+     "like",
+     "would like"
+    ],
+    "explanation_ar": "like تعني تحب شيئًا بشكل عام، أما would like (I'd like) فتعني تريده الآن بأدب.",
+    "explanation_en": "\"I like\" is about things you enjoy in general. \"I'd like\" means \"I want\" (polite).",
+    "examples": [
+     {
+      "word": "like",
+      "sentence": "I like fruit."
+     },
+     {
+      "word": "would like",
+      "sentence": "I'd like an apple, please."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What do you like?",
+    "meaning_ar": "ماذا تحب؟",
+    "meaning_en": "ask about someone's likes",
+    "example": "What do you like? - I like fish."
+   },
+   {
+    "phrase": "I like fish.",
+    "meaning_ar": "أحب السمك.",
+    "meaning_en": "say something you like",
+    "example": "I like fish and rice."
+   },
+   {
+    "phrase": "I like fruit and chocolate.",
+    "meaning_ar": "أحب الفاكهة والشوكولاتة.",
+    "meaning_en": "say two things you like",
+    "example": "I like tea and cake."
+   },
+   {
+    "phrase": "What food don't you like?",
+    "meaning_ar": "ما الطعام الذي لا تحبه؟",
+    "meaning_en": "ask about dislikes",
+    "example": "What food don't you like? - I don't like nuts."
+   },
+   {
+    "phrase": "I don't like nuts.",
+    "meaning_ar": "لا أحب المكسرات.",
+    "meaning_en": "say something you don't like",
+    "example": "I don't like nuts or eggs."
+   },
+   {
+    "phrase": "Do you like cheese?",
+    "meaning_ar": "هل تحب الجبن؟",
+    "meaning_en": "a yes/no question about likes",
+    "example": "Do you like cheese? - Yes, I do."
+   },
+   {
+    "phrase": "Yes, I do. / No, I don't.",
+    "meaning_ar": "نعم، أحبه. / لا، لا أحبه.",
+    "meaning_en": "short answers",
+    "example": "Do you like jelly? - No, I don't."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Like / don't like + noun",
+    "explanation_ar": "نقول I like + اسم للتعبير عن الحب، و I don't like + اسم للنفي. don't = do not. مع he/she: He likes / She doesn't like.",
+    "explanation_en": "Say \"I like ...\" and \"I don't like ...\". With he/she: likes / doesn't like.",
+    "examples": [
+     "I like fish.",
+     "I don't like nuts.",
+     "She likes chocolate, but she doesn't like jelly."
+    ]
+   },
+   {
+    "title": "Questions with do: Do you like ...? / What do you like?",
+    "explanation_ar": "للسؤال نستخدم do: Do you like fish? والجواب: Yes, I do. / No, I don't. ولسؤال مفتوح: What food don't you like?",
+    "explanation_en": "Ask with \"do\": Do you like ...? Answer: Yes, I do / No, I don't.",
+    "examples": [
+     "Do you like fruit? - Yes, I do.",
+     "What do you like?",
+     "What food don't you like?"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "I ___ like nuts.",
+   "choices": [
+    "not",
+    "don't",
+    "doesn't",
+    "no"
+   ],
+   "answer": 1,
+   "explanation_ar": "النفي مع I: don't like.",
+   "explanation_en": "With \"I\" the negative is \"don't like\"."
+  },
+  {
+   "question": "Do you like chocolate? - Yes, I ___.",
+   "choices": [
+    "like",
+    "am",
+    "do",
+    "does"
+   ],
+   "answer": 2,
+   "explanation_ar": "الجواب القصير Yes, I do.",
+   "explanation_en": "The short answer is \"Yes, I do.\""
+  },
+  {
+   "question": "Which is strongest?",
+   "choices": [
+    "love",
+    "like",
+    "don't mind",
+    "don't like"
+   ],
+   "answer": 0,
+   "explanation_ar": "love أقوى درجات الحب.",
+   "explanation_en": "\"Love\" is the strongest."
+  },
+  {
+   "question": "She ___ fish.",
+   "choices": [
+    "like",
+    "liking",
+    "are like",
+    "likes"
+   ],
+   "answer": 3,
+   "explanation_ar": "مع she نضيف s: likes.",
+   "explanation_en": "With \"she\" add -s: likes."
+  },
+  {
+   "question": "What food ___ you like?",
+   "choices": [
+    "doesn't",
+    "don't",
+    "isn't",
+    "aren't"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع you نستخدم don't.",
+   "explanation_en": "With \"you\" we use \"don't\"."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I like fruit and chocolate.",
+    "I likes fruit.",
+    "I liking chocolate.",
+    "I am like fruit."
+   ],
+   "answer": 0,
+   "explanation_ar": "I like + اسم.",
+   "explanation_en": "\"I like + noun\" is correct."
+  },
+  {
+   "question": "\"Hate\" means ...",
+   "choices": [
+    "like a lot",
+    "eat",
+    "really not like",
+    "want"
+   ],
+   "answer": 2,
+   "explanation_ar": "hate = يكره.",
+   "explanation_en": "\"Hate\" means really not like."
+  },
+  {
+   "question": "\"I'd like an apple\" means ...",
+   "choices": [
+    "I always like apples",
+    "I hate apples",
+    "I liked apples",
+    "I want an apple now"
+   ],
+   "answer": 3,
+   "explanation_ar": "I'd like = أريد الآن بأدب.",
+   "explanation_en": "\"I'd like\" means \"I want\", politely."
+  },
+  {
+   "question": "My ___ food is rice. (I like it most)",
+   "choices": [
+    "favourite",
+    "sweet",
+    "food",
+    "hate"
+   ],
+   "answer": 0,
+   "explanation_ar": "favourite = المفضّل.",
+   "explanation_en": "\"Favourite\" means the one you like most."
+  },
+  {
+   "question": "He ___ like jelly.",
+   "choices": [
+    "don't",
+    "doesn't",
+    "not",
+    "isn't"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع he نستخدم doesn't.",
+   "explanation_en": "With \"he\" we use \"doesn't\"."
+  }
+ ]
+}

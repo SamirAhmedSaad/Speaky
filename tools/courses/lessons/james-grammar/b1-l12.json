@@ -1,0 +1,53 @@
+{
+  "title": "Who, Whom, Whose, Which, What",
+  "content": {
+    "vocabulary": [
+      {"word": "interrogative pronoun", "pos": "noun", "meaning_en": "a question word that replaces a noun we don't know: who, whom, whose, which, what", "meaning_ar": "ضمير استفهام", "note_ar": "", "note_en": "", "example": "\"Who\" is an interrogative pronoun."},
+      {"word": "interrogative", "pos": "adjective", "meaning_en": "used to ask a question", "meaning_ar": "استفهامي", "note_ar": "", "note_en": "", "example": "An interrogative sentence is a question."},
+      {"word": "who", "pos": "pronoun", "meaning_en": "which person (as the subject)", "meaning_ar": "مَن (فاعل)", "note_ar": "", "note_en": "", "example": "Who told you to wait here?"},
+      {"word": "whom", "pos": "pronoun", "meaning_en": "which person (as the object); formal", "meaning_ar": "مَن (مفعول به) – رسمية", "note_ar": "تُستعمل في الكتابة الرسمية", "note_en": "Used in formal writing.", "example": "To whom should I write this letter?"},
+      {"word": "whose", "pos": "pronoun/determiner", "meaning_en": "belonging to which person", "meaning_ar": "لِمَن (للملكية)", "note_ar": "لا تخلطها مع who's = who is", "note_en": "Don't confuse with who's (= who is).", "example": "Whose shoes are these?"},
+      {"word": "which", "pos": "pronoun/determiner", "meaning_en": "what one (from a choice of things)", "meaning_ar": "أيّ (للاختيار)", "note_ar": "تُنطق مثل witch (ساحرة)", "note_en": "Sounds like \"witch\".", "example": "Which is better, the chocolate or the vanilla cake?"},
+      {"word": "what", "pos": "pronoun", "meaning_en": "which thing (when we don't know the thing)", "meaning_ar": "ماذا / ما", "note_ar": "", "note_en": "", "example": "What is this?"},
+      {"word": "noun", "pos": "noun", "meaning_en": "a person, a place or a thing", "meaning_ar": "اسم", "note_ar": "", "note_en": "", "example": "\"School\" is a noun."},
+      {"word": "subject", "pos": "noun", "meaning_en": "the person or thing that does the action", "meaning_ar": "الفاعل", "note_ar": "", "note_en": "", "example": "In \"Tom likes apples\", Tom is the subject."},
+      {"word": "object", "pos": "noun", "meaning_en": "the person or thing that receives the action", "meaning_ar": "المفعول به", "note_ar": "", "note_en": "", "example": "In \"I called Tom\", Tom is the object."},
+      {"word": "possession", "pos": "noun", "meaning_en": "having or owning something", "meaning_ar": "الملكية", "note_ar": "", "note_en": "", "example": "\"Whose\" asks about possession."},
+      {"word": "option", "pos": "noun", "meaning_en": "a choice", "meaning_ar": "خيار", "note_ar": "", "note_en": "", "example": "Which option would you like?"},
+      {"word": "choice", "pos": "noun", "meaning_en": "the act of choosing; something you can choose", "meaning_ar": "اختيار", "note_ar": "", "note_en": "", "example": "Tea or coffee? It's your choice."},
+      {"word": "whoever", "pos": "pronoun", "meaning_en": "any person who (adds emphasis)", "meaning_ar": "أيًّا كان (من)", "note_ar": "", "note_en": "", "example": "Whoever ate my chocolate must buy me more!"},
+      {"word": "whichever", "pos": "determiner", "meaning_en": "any one of a choice; it doesn't matter which", "meaning_ar": "أيًّا كان (من الخيارات)", "note_ar": "", "note_en": "", "example": "Take whichever book you like."},
+      {"word": "whatever", "pos": "pronoun", "meaning_en": "anything; also a rude reply meaning \"I don't care\"", "meaning_ar": "مهما كان / أيًّا كان", "note_ar": "الرد Whatever! قد يكون غير مهذب", "note_en": "As a reply, \"Whatever!\" can be rude.", "example": "You can eat whatever you want."}
+    ],
+    "fine_lines": [
+      {"title": "who vs whom", "words": ["who", "whom"], "explanation_ar": "who للسؤال عن الشخص الفاعل (الذي يقوم بالفعل). whom للسؤال عن الشخص المفعول به (الذي يستقبل الفعل) وهي رسمية، وتأتي غالبًا بعد حرف جر: to whom.", "explanation_en": "\"Who\" asks about the person who does the action (subject). \"Whom\" asks about the person who receives it (object); it is formal and often follows a preposition: to whom.", "examples": [{"word": "who", "sentence": "Who called you?"}, {"word": "whom", "sentence": "To whom did you send the letter?"}]},
+      {"title": "whose vs who's", "words": ["whose", "who's"], "explanation_ar": "whose = لمن (ملكية). who's = who is أو who has. تُنطقان بالطريقة نفسها.", "explanation_en": "\"Whose\" = belonging to whom. \"Who's\" = who is / who has. They sound the same.", "examples": [{"word": "whose", "sentence": "Whose bag is this?"}, {"word": "who's", "sentence": "Who's at the door?"}]},
+      {"title": "which vs what", "words": ["which", "what"], "explanation_ar": "which عندما نختار من خيارات محددة معروفة. what عندما لا نعرف الشيء أو الخيارات مفتوحة.", "explanation_en": "\"Which\" when we choose from known options. \"What\" when we don't know the thing or the options are open.", "examples": [{"word": "which", "sentence": "Which do you want, red or green?"}, {"word": "what", "sentence": "What is that thing?"}]}
+    ],
+    "expressions": [
+      {"phrase": "To whom it may concern", "meaning_ar": "إلى من يهمه الأمر", "meaning_en": "A formal start for a letter when you don't know the reader's name.", "example": "To whom it may concern, I am writing to ask about the job."},
+      {"phrase": "Whose are these?", "meaning_ar": "لمن هذه؟", "meaning_en": "Who do these things belong to?", "example": "I found some keys. Whose are these?"},
+      {"phrase": "What is this?", "meaning_ar": "ما هذا؟", "meaning_en": "Asking about a thing you don't know.", "example": "What is this? It's a flashlight."},
+      {"phrase": "Which option would you like?", "meaning_ar": "أي خيار تفضّل؟", "meaning_en": "Asking someone to choose.", "example": "We have tea or juice. Which option would you like?"}
+    ],
+    "grammar": [
+      {"title": "Nouns: person, place, thing", "explanation_ar": "الاسم شخص أو مكان أو شيء. الأشياء تشمل الأغراض والحيوانات والأفكار (مثل economics). في الثقافة الغربية قد يُعامل الحيوان الأليف كأنه شخص.", "explanation_en": "A noun is a person, a place or a thing. Things include objects, animals and ideas (like economics). In Western culture, a pet is often treated like a person.", "examples": ["person: a boy", "place: a school", "thing: a ball, a cat, an idea"]},
+      {"title": "Interrogative pronouns replace unknown nouns", "explanation_ar": "عندما لا نعرف الاسم نسأل عنه بضمير استفهام يحل محله: Tom likes apples → Who likes apples?", "explanation_en": "When we don't know a noun, we ask with an interrogative pronoun that takes its place: Tom likes apples → Who likes apples?", "examples": ["Somebody told you to wait. → Who told you to wait?", "Something is wrong. → What is wrong?"]},
+      {"title": "For people: who (subject), whom (object), whose (possession)", "explanation_ar": "للأشخاص ثلاث كلمات: who للفاعل، whom للمفعول به (رسمية)، whose للملكية.", "explanation_en": "For people, there are three words: who (subject), whom (object, formal), whose (possession).", "examples": ["Who told you to wait here?", "To whom should I write this letter?", "Whose are these shoes?"]},
+      {"title": "For things: which (choice) and what (unknown)", "explanation_ar": "which للاختيار بين أشياء، و what لشيء لا نعرفه. وكلاهما يمكن أن يكون فاعلًا أو مفعولًا.", "explanation_en": "\"Which\" for a choice between things; \"what\" for a thing we don't know. Both can be subject or object.", "examples": ["Which is better, chocolate or vanilla?", "What did I do wrong?"]},
+      {"title": "Bonus: add -ever for emphasis", "explanation_ar": "نضيف ever لهذه الكلمات للتوكيد أو الدهشة: whoever, whomever, whichever, whatever. والرد Whatever! يعني \"لا يهمني\" وقد يكون غير مهذب.", "explanation_en": "Add \"-ever\" for emphasis or surprise: whoever, whomever, whichever, whatever. The reply \"Whatever!\" means \"I don't care\" and can be rude.", "examples": ["Whoever ate my chocolate must say sorry!", "We'll finish it, whichever way we have to do it."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"___ told you to wait here?\" (subject, a person)", "choices": ["Whom", "Whose", "Who", "Which"], "answer": 2, "explanation_ar": "سؤال عن الفاعل الشخص: who.", "explanation_en": "Asking about the person who did it (subject): who."},
+    {"question": "\"To ___ should I write this letter?\"", "choices": ["who", "whom", "whose", "what"], "answer": 1, "explanation_ar": "الشخص يستقبل الرسالة (مفعول) وبعد حرف جر: whom.", "explanation_en": "The person receives the letter (object), after \"to\": whom."},
+    {"question": "\"___ are these shoes?\"", "choices": ["Whose", "Who's", "Which", "Whom"], "answer": 0, "explanation_ar": "سؤال عن الملكية: whose.", "explanation_en": "Asking about possession: whose."},
+    {"question": "\"___ is better, the chocolate or the vanilla cake?\"", "choices": ["Who", "Whose", "Whom", "Which"], "answer": 3, "explanation_ar": "اختيار بين شيئين: which.", "explanation_en": "A choice between two things: which."},
+    {"question": "\"___ did I do wrong?\"", "choices": ["Who", "What", "Whose", "Whom"], "answer": 1, "explanation_ar": "سؤال عن شيء غير معروف: what.", "explanation_en": "Asking about an unknown thing: what."},
+    {"question": "Which phrase is used at the start of a formal letter?", "choices": ["To who it may concern", "To whose it may concern", "To whom it may concern", "To which it may concern"], "answer": 2, "explanation_ar": "التعبير الرسمي: To whom it may concern.", "explanation_en": "The formal phrase is \"To whom it may concern\"."},
+    {"question": "A noun is ___.", "choices": ["a person, place or thing", "an action", "a describing word", "a question"], "answer": 0, "explanation_ar": "الاسم شخص أو مكان أو شيء.", "explanation_en": "A noun is a person, place or thing."},
+    {"question": "\"___ ate my chocolate must buy me more!\" (emphasis: any person)", "choices": ["Whatever", "Whichever", "Whose", "Whoever"], "answer": 3, "explanation_ar": "whoever = أيًّا كان الشخص، للتوكيد.", "explanation_en": "\"Whoever\" = any person, for emphasis."},
+    {"question": "\"Which\" is used to ask about ___.", "choices": ["possession", "a choice between options", "the object person", "a place only"], "answer": 1, "explanation_ar": "which للاختيار.", "explanation_en": "\"Which\" is for choice."},
+    {"question": "\"Who's\" means ___.", "choices": ["who is", "whose", "whom", "which"], "answer": 0, "explanation_ar": "who's اختصار who is.", "explanation_en": "\"Who's\" is short for \"who is\"."}
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "title": "Working with Someone New",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "member of staff",
+        "pos": "noun",
+        "meaning_en": "a person who works for a company",
+        "meaning_ar": "موظف / أحد أفراد الطاقم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a new member of staff this week."
+      },
+      {
+        "word": "sales executive",
+        "pos": "noun",
+        "meaning_en": "a person whose job is selling a company's products",
+        "meaning_ar": "مسؤول مبيعات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I work here as a sales executive."
+      },
+      {
+        "word": "recommend",
+        "pos": "verb",
+        "meaning_en": "to say that someone or something is good",
+        "meaning_ar": "يوصي بـ / يزكّي",
+        "note_ar": "الاسم: recommendation.",
+        "note_en": "Noun: recommendation.",
+        "example": "Mr Socrates recommended her for the job."
+      },
+      {
+        "word": "employee",
+        "pos": "noun",
+        "meaning_en": "a person who is paid to work for a company",
+        "meaning_ar": "موظف",
+        "note_ar": "employer = صاحب العمل.",
+        "note_en": "Employer = the person or company that pays.",
+        "example": "She is one of his best employees."
+      },
+      {
+        "word": "work alongside",
+        "pos": "phrasal verb",
+        "meaning_en": "to work next to someone as a partner",
+        "meaning_ar": "يعمل جنبًا إلى جنب مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like you to work alongside Rachel."
+      },
+      {
+        "word": "in charge",
+        "pos": "phrase",
+        "meaning_en": "having control of something or someone",
+        "meaning_ar": "مسؤول / صاحب القرار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Who is in charge of this project?"
+      },
+      {
+        "word": "get on like a house on fire",
+        "pos": "idiom",
+        "meaning_en": "to like each other and become friends very quickly",
+        "meaning_ar": "يتفاهمان بسرعة كبيرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The two new interns get on like a house on fire."
+      },
+      {
+        "word": "awkward",
+        "pos": "adjective",
+        "meaning_en": "difficult to deal with; uncomfortable",
+        "meaning_ar": "محرج / صعب التعامل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is an awkward situation."
+      },
+      {
+        "word": "experience",
+        "pos": "noun",
+        "meaning_en": "knowledge and skill you get from doing a job",
+        "meaning_ar": "خبرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has lots of experience in sales."
+      },
+      {
+        "word": "skills",
+        "pos": "noun",
+        "meaning_en": "abilities to do something well",
+        "meaning_ar": "مهارات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need your skills for this task."
+      },
+      {
+        "word": "task",
+        "pos": "noun",
+        "meaning_en": "a piece of work that you must do",
+        "meaning_ar": "مهمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My first task is to check the stock."
+      },
+      {
+        "word": "get down to business",
+        "pos": "idiom",
+        "meaning_en": "to start the serious work",
+        "meaning_ar": "يبدأ العمل الجاد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's get down to business."
+      },
+      {
+        "word": "stock",
+        "pos": "noun",
+        "meaning_en": "the goods a company has ready to sell",
+        "meaning_ar": "المخزون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please check the stock before you order."
+      },
+      {
+        "word": "second-hand",
+        "pos": "adjective",
+        "meaning_en": "used before by someone else; not new",
+        "meaning_ar": "مستعمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Second-hand products are cheaper but lower quality."
+      },
+      {
+        "word": "quality",
+        "pos": "noun",
+        "meaning_en": "how good something is",
+        "meaning_ar": "جودة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We pride ourselves on quality products."
+      },
+      {
+        "word": "boss someone around",
+        "pos": "phrasal verb",
+        "meaning_en": "to keep telling someone what to do in a rude way",
+        "meaning_ar": "يتحكم في شخص / يأمره باستمرار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't let her boss you around."
+      },
+      {
+        "word": "stand your ground",
+        "pos": "idiom",
+        "meaning_en": "to refuse to change your opinion when someone pushes you",
+        "meaning_ar": "يتمسك بموقفه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She stood her ground in the meeting."
+      },
+      {
+        "word": "plan of action",
+        "pos": "noun",
+        "meaning_en": "a list of steps you will take to do something",
+        "meaning_ar": "خطة عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's agree on a plan of action."
+      },
+      {
+        "word": "respect",
+        "pos": "verb",
+        "meaning_en": "to accept and value someone's decision or feelings",
+        "meaning_ar": "يحترم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please respect my decision."
+      },
+      {
+        "word": "move on",
+        "pos": "phrasal verb",
+        "meaning_en": "to stop discussing something and go to the next thing",
+        "meaning_ar": "ننتقل إلى الأمر التالي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's move on to the next point."
+      },
+      {
+        "word": "enthusiasm",
+        "pos": "noun",
+        "meaning_en": "a strong feeling of interest and excitement",
+        "meaning_ar": "حماس",
+        "note_ar": "الصفة: enthusiastic.",
+        "note_en": "Adjective: enthusiastic.",
+        "example": "I like your enthusiasm."
+      },
+      {
+        "word": "working relationship",
+        "pos": "noun",
+        "meaning_en": "the way colleagues work together",
+        "meaning_ar": "علاقة عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's important to build a good working relationship."
+      },
+      {
+        "word": "pride ourselves on",
+        "pos": "phrase",
+        "meaning_en": "to be proud of something we do well",
+        "meaning_ar": "نفتخر بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We pride ourselves on fast delivery."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "employee vs employer",
+        "words": [
+          "employee",
+          "employer"
+        ],
+        "explanation_ar": "employee هو الموظف الذي يعمل ويتقاضى راتبًا، و employer هو الشخص أو الشركة التي توظّفه وتدفع له. اللاحقة ee تدل على من يقع عليه الفعل، و er على من يقوم به.",
+        "explanation_en": "An employee works and gets paid. An employer gives the job and pays. The ending -ee is the person who receives the action; -er is the person who does it.",
+        "examples": [
+          {
+            "word": "employee",
+            "sentence": "Rachel is a new employee."
+          },
+          {
+            "word": "employer",
+            "sentence": "Tip Top Trading is a good employer."
+          }
+        ]
+      },
+      {
+        "title": "work with vs work alongside",
+        "words": [
+          "work with",
+          "work alongside"
+        ],
+        "explanation_ar": "work with عامة وتعني العمل مع شخص. work alongside تؤكد أن الشخصين متساويان يعملان جنبًا إلى جنب، دون أن يكون أحدهما رئيس الآخر.",
+        "explanation_en": "Work with is general. Work alongside stresses that two people work side by side as equals, with nobody in charge of the other.",
+        "examples": [
+          {
+            "word": "work with",
+            "sentence": "I work with a great team."
+          },
+          {
+            "word": "work alongside",
+            "sentence": "Anna will work alongside Rachel."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I understand you have lots of experience so I would like to use your skills to help with the task.",
+        "meaning_ar": "أدرك أن لديك خبرة كبيرة، لذا أودّ الاستفادة من مهاراتك في هذه المهمة.",
+        "meaning_en": "A polite way to give a new colleague a role by praising their experience.",
+        "example": "I understand you have lots of experience, so I would like to use your skills to help with the report."
+      },
+      {
+        "phrase": "Together we can do this job really well.",
+        "meaning_ar": "معًا يمكننا أن ننجز هذا العمل بشكل ممتاز.",
+        "meaning_en": "Encouraging teamwork.",
+        "example": "Together we can do this job really well."
+      },
+      {
+        "phrase": "Let's discuss this so we can agree on a plan of action.",
+        "meaning_ar": "لنناقش هذا الأمر حتى نتفق على خطة عمل.",
+        "meaning_en": "Suggesting a discussion when you disagree.",
+        "example": "Let's discuss this so we can agree on a plan of action."
+      },
+      {
+        "phrase": "Please respect my decision and let's move on.",
+        "meaning_ar": "أرجو أن تحترم قراري، ولننتقل إلى نقطة أخرى.",
+        "meaning_en": "Politely but firmly ending a disagreement.",
+        "example": "I've thought about it carefully. Please respect my decision and let's move on."
+      },
+      {
+        "phrase": "Maybe we could help each other?",
+        "meaning_ar": "ربما يمكننا أن نساعد بعضنا بعضًا؟",
+        "meaning_en": "Suggesting cooperation.",
+        "example": "We are both new to this, so maybe we could help each other?"
+      },
+      {
+        "phrase": "I like your enthusiasm, but…",
+        "meaning_ar": "يعجبني حماسك، لكن...",
+        "meaning_en": "A soft way to disagree after a compliment.",
+        "example": "I like your enthusiasm, but we need to check the costs first."
+      },
+      {
+        "phrase": "We pride ourselves on quality products.",
+        "meaning_ar": "نحن نفتخر بجودة منتجاتنا.",
+        "meaning_en": "Saying your company is proud of its quality.",
+        "example": "We pride ourselves on quality products and fast service."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Suggestions with Let's… / Maybe we could…",
+        "explanation_ar": "لاقتراح شيء بلطف نستخدم Let's + الفعل (لنفعل…)، أو Maybe we could + الفعل (ربما يمكننا…) وهي أكثر لطفًا.",
+        "explanation_en": "To suggest something, use Let's + verb, or the softer Maybe we could + verb.",
+        "examples": [
+          "Let's discuss this.",
+          "Let's move on.",
+          "Maybe we could help each other?"
+        ]
+      },
+      {
+        "title": "so to show a result",
+        "explanation_ar": "تربط so بين سبب ونتيجة: I understand you have lots of experience, so I would like to use your skills. وتأتي so that/so بمعنى (لكي) أيضًا: Let's discuss this so we can agree.",
+        "explanation_en": "'so' joins a reason and a result: You have experience, so I'd like to use your skills. It can also mean 'in order to': Let's discuss this so we can agree.",
+        "examples": [
+          "You have lots of experience, so I would like to use your skills.",
+          "Let's discuss this so we can agree on a plan.",
+          "The client wants lemons, so we will send lemons."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which phrase can you use to give a new colleague a role politely?",
+      "choices": [
+        "I don't need your help.",
+        "You are new, so do what I say.",
+        "I understand you have lots of experience so I would like to use your skills.",
+        "Go and make some tea."
+      ],
+      "answer": 2,
+      "explanation_ar": "هذه العبارة تمدح خبرة الزميل وتمنحه دورًا بلطف.",
+      "explanation_en": "This phrase praises the colleague's experience and gives them a role."
+    },
+    {
+      "question": "Complete: 'Let's discuss this so we can agree on a ___ of action.'",
+      "choices": [
+        "stock",
+        "task",
+        "plan",
+        "skill"
+      ],
+      "answer": 2,
+      "explanation_ar": "العبارة الصحيحة: a plan of action (خطة عمل).",
+      "explanation_en": "The phrase is 'a plan of action'."
+    },
+    {
+      "question": "'Don't let her boss you around' means…",
+      "choices": [
+        "don't let her keep telling you what to do",
+        "don't let her be your manager",
+        "don't let her leave",
+        "don't let her help you"
+      ],
+      "answer": 0,
+      "explanation_ar": "boss someone around تعني أن يأمرك باستمرار بأسلوب غير لائق.",
+      "explanation_en": "It means to keep telling someone what to do in a rude way."
+    },
+    {
+      "question": "What does 'second-hand' mean?",
+      "choices": [
+        "sold twice as fast",
+        "very expensive",
+        "made by hand",
+        "used before; not new"
+      ],
+      "answer": 3,
+      "explanation_ar": "second-hand تعني مستعملًا.",
+      "explanation_en": "Second-hand means used before."
+    },
+    {
+      "question": "The person who pays you to work is your ___.",
+      "choices": [
+        "employee",
+        "employer",
+        "colleague",
+        "client"
+      ],
+      "answer": 1,
+      "explanation_ar": "employer هو صاحب العمل الذي يدفع الراتب.",
+      "explanation_en": "The employer is the one who pays."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Please respect my decision and let's move on.",
+        "Please respect my decision and let's moving on.",
+        "Please respecting my decision and let's move on.",
+        "Please respect my decision and let us to move on."
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد let's يأتي الفعل في المصدر بدون to أو ing.",
+      "explanation_en": "After let's use the base verb."
+    },
+    {
+      "question": "'Get on like a house on fire' means…",
+      "choices": [
+        "work very slowly",
+        "have an accident at work",
+        "become good friends very quickly",
+        "argue all the time"
+      ],
+      "answer": 2,
+      "explanation_ar": "هذا التعبير يعني التفاهم والانسجام بسرعة.",
+      "explanation_en": "It means to like each other very quickly."
+    },
+    {
+      "question": "Anna 'stood her ground'. What did she do?",
+      "choices": [
+        "She sat down",
+        "She didn't change her opinion",
+        "She left the office",
+        "She agreed with Rachel"
+      ],
+      "answer": 1,
+      "explanation_ar": "stand your ground تعني التمسك بالموقف.",
+      "explanation_en": "It means not changing your opinion when pushed."
+    },
+    {
+      "question": "Complete: 'You have lots of experience, ___ I would like to use your skills.'",
+      "choices": [
+        "although",
+        "but",
+        "because of",
+        "so"
+      ],
+      "answer": 3,
+      "explanation_ar": "so تربط السبب بالنتيجة.",
+      "explanation_en": "'so' introduces a result."
+    },
+    {
+      "question": "Which word means 'a piece of work you must do'?",
+      "choices": [
+        "task",
+        "stock",
+        "quality",
+        "enthusiasm"
+      ],
+      "answer": 0,
+      "explanation_ar": "task تعني مهمة.",
+      "explanation_en": "A task is a piece of work you must do."
+    }
+  ]
+}

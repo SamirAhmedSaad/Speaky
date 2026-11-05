@@ -1,32 +1,39 @@
 package com.speakmind.app.feature.dailyword.ui
 
+import com.speakmind.app.feature.vocabulary.domain.cleanExamples
+
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.VolumeUp
-import androidx.compose.material3.*
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
-import network.chaintech.sdpcomposemultiplatform.sdp
-import network.chaintech.sdpcomposemultiplatform.ssp
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
-import com.speakmind.app.ui.theme.levelColorOf
 import com.speakmind.app.navigation.WordDetailDestination
+import com.speakmind.app.ui.components.EnglishArabicMeaning
+import com.speakmind.app.ui.components.SpeakyBackButton
+import com.speakmind.app.ui.components.SpeakyFitText
+import com.speakmind.app.ui.components.SpeakyIconButton
+import com.speakmind.app.ui.components.SpeakyIcons
+import com.speakmind.app.ui.components.SpeakySectionLabel
+import com.speakmind.app.ui.components.SpeakySpeedButton
 import com.speakmind.app.ui.components.animatedComposable
-import com.speakmind.app.ui.components.TtsSpeedButton
-import com.speakmind.app.ui.components.TtsSpeedButtonStyle
+import com.speakmind.app.ui.components.displayStyle
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -48,7 +55,6 @@ fun NavGraphBuilder.wordDetailScreen() {
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun WordDetailContent(
     uiState: WordDetailUiState,
@@ -62,24 +68,10 @@ private fun WordDetailContent(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(colors.backgroundGradient)
+            .background(colors.backgroundDark)
+            .windowInsetsPadding(WindowInsets.statusBars),
     ) {
-        // Top bar
-        TopAppBar(
-            title = { Text("Word Detail", color = colors.textPrimary) },
-            navigationIcon = {
-                IconButton(onClick = onBack) {
-                    Icon(
-                        Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
-                        tint = colors.textPrimary,
-                    )
-                }
-            },
-            colors = TopAppBarDefaults.topAppBarColors(
-                containerColor = Color.Transparent,
-            ),
-        )
+        SpeakyBackButton(onClick = onBack, modifier = Modifier.padding(start = 20.dp, top = 20.dp))
 
         if (uiState.isLoading) {
             Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -87,162 +79,141 @@ private fun WordDetailContent(
             }
         } else if (word == null) {
             Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text("Word not found", color = colors.textSecondary)
+                Text("Word not found", color = colors.textSecondary, fontSize = 15.sp)
             }
         } else {
             LazyColumn(
                 modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 16.sdp),
-                verticalArrangement = Arrangement.spacedBy(16.sdp),
+                contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 14.dp, bottom = 24.dp),
+                verticalArrangement = Arrangement.spacedBy(14.dp),
             ) {
-                // Word + level badge
                 item {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(12.sdp),
-                    ) {
-                        Text(
-                            text = word.word,
-                            style = MaterialTheme.typography.headlineLarge.copy(
-                                color = colors.neonCyan,
-                                fontWeight = FontWeight.Bold,
-                            ),
-                        )
-                        Box(
-                            contentAlignment = Alignment.Center,
-                            modifier = Modifier
-                                .clip(RoundedCornerShape(8.sdp))
-                                .background(levelColorOf(word.level).copy(alpha = 0.2f))
-                                .padding(horizontal = 10.sdp, vertical = 4.sdp)
-                        ) {
-                            Text(
-                                text = word.level,
-                                style = MaterialTheme.typography.labelMedium.copy(
-                                    color = levelColorOf(word.level),
-                                    fontWeight = FontWeight.Bold,
-                                ),
-                            )
-                        }
-                    }
+                    WordHero(
+                        word = word.word,
+                        level = word.level,
+                        partOfSpeech = word.partOfSpeech,
+                        onListen = onSpeakWord,
+                    )
                 }
-
-                // Part of speech
-                if (word.partOfSpeech.isNotEmpty()) {
-                    item {
-                        Text(
-                            text = word.partOfSpeech,
-                            style = MaterialTheme.typography.bodyLarge.copy(
-                                color = colors.textMuted,
-                                fontWeight = FontWeight.Medium,
-                            ),
-                        )
-                    }
-                }
-
-                // Listen button + speed chip
                 item {
-                    Row(
-                        horizontalArrangement = Arrangement.spacedBy(8.sdp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Row(
-                            modifier = Modifier
-                                .clip(RoundedCornerShape(12.sdp))
-                                .background(colors.neonCyan.copy(alpha = 0.1f))
-                                .border(1.sdp, colors.neonCyan.copy(alpha = 0.3f), RoundedCornerShape(12.sdp))
-                                .clickable(onClick = onSpeakWord)
-                                .padding(horizontal = 16.sdp, vertical = 10.sdp),
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(8.sdp),
-                        ) {
-                            Icon(
-                                Icons.AutoMirrored.Filled.VolumeUp,
-                                contentDescription = "Listen",
-                                tint = colors.neonCyan,
-                                modifier = Modifier.size(20.sdp),
-                            )
-                            Text(
-                                text = "Listen",
-                                style = MaterialTheme.typography.labelLarge.copy(
-                                    color = colors.neonCyan,
-                                    fontWeight = FontWeight.Bold,
-                                ),
-                            )
-                        }
-                        TtsSpeedButton(style = TtsSpeedButtonStyle.Chip)
-                    }
+                    EnglishArabicMeaning(
+                        english = word.meaning,
+                        arabicWord = uiState.arabic,
+                    )
                 }
 
-                // Meaning
-                item {
-                    Column(verticalArrangement = Arrangement.spacedBy(6.sdp)) {
-                        Text(
-                            text = "Meaning",
-                            style = MaterialTheme.typography.titleMedium.copy(
-                                color = colors.textPrimary,
-                                fontWeight = FontWeight.Bold,
-                            ),
-                        )
-                        Text(
-                            text = word.meaning,
-                            style = MaterialTheme.typography.bodyLarge.copy(
-                                color = colors.textSecondary,
-                                lineHeight = 24.ssp,
-                            ),
-                        )
-                    }
-                }
-
-                // Divider
-                item {
-                    HorizontalDivider(color = colors.surfaceVariant)
-                }
-
-                // Example sentences
-                if (word.sentences.isNotEmpty()) {
-                    item {
-                        Text(
-                            text = "Examples",
-                            style = MaterialTheme.typography.titleMedium.copy(
-                                color = colors.textPrimary,
-                                fontWeight = FontWeight.Bold,
-                            ),
-                        )
-                    }
-
-                    itemsIndexed(word.sentences) { _, sentence ->
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .clip(RoundedCornerShape(12.sdp))
-                                .background(colors.surfaceVariant.copy(alpha = 0.5f))
-                                .padding(12.sdp),
-                            verticalAlignment = Alignment.CenterVertically,
-                        ) {
-                            Text(
-                                text = sentence,
-                                style = MaterialTheme.typography.bodyMedium.copy(
-                                    color = colors.textSecondary,
-                                    lineHeight = 22.ssp,
-                                ),
-                                modifier = Modifier.weight(1f),
-                            )
-                            Spacer(modifier = Modifier.width(8.sdp))
-                            IconButton(
-                                onClick = { onSpeakSentence(sentence) },
-                                modifier = Modifier.size(36.sdp),
-                            ) {
-                                Icon(
-                                    Icons.AutoMirrored.Filled.VolumeUp,
-                                    contentDescription = "Play",
-                                    tint = colors.neonCyan,
-                                    modifier = Modifier.size(20.sdp),
-                                )
-                            }
-                        }
+                val examples = cleanExamples(word.sentences, MAX_EXAMPLES)
+                if (examples.isNotEmpty()) {
+                    item { SpeakySectionLabel("Examples", Modifier.padding(start = 4.dp)) }
+                    items(examples) { sentence ->
+                        ExampleRow(sentence = sentence, onSpeak = { onSpeakSentence(sentence) })
                     }
                 }
             }
         }
     }
 }
+
+/** The violet card: level / part-of-speech pills, the word, Listen + speed. */
+@Composable
+private fun WordHero(word: String, level: String, partOfSpeech: String, onListen: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    // Dark mode's brand tone is a pale lilac; white text needs the deeper violet there.
+    // The Premium themes use their own brand colour with its matching text colour.
+    val heroColor = when {
+        colors.isGold -> colors.neonCyan
+        colors.surface.luminance() < 0.5f -> colors.neonCyanDark
+        else -> colors.neonCyan
+    }
+    val onHero = if (colors.isGold) colors.onPrimary else Color.White
+    val onHeroDeep = when {
+        !colors.isGold -> Color(0xFF2E1E9E)
+        colors.isDark -> colors.onPrimary
+        else -> colors.neonCyanDark
+    }
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(28.dp))
+            .background(heroColor)
+            .padding(22.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        // Words saved from Word Lookup have no level: no empty pill.
+        if (level.isNotBlank() || partOfSpeech.isNotBlank()) {
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                listOf(level, partOfSpeech).filter { it.isNotBlank() }.forEach {
+                    Text(
+                        it,
+                        color = onHero,
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(999.dp))
+                            .background(onHero.copy(alpha = 0.18f))
+                            .padding(horizontal = 10.dp, vertical = 4.dp),
+                    )
+                }
+            }
+        }
+        SpeakyFitText(word, style = displayStyle(44.sp, lineHeight = 46.sp), color = onHero, modifier = Modifier.fillMaxWidth())
+        Row(
+            modifier = Modifier.padding(top = 4.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Row(
+                modifier = Modifier
+                    .height(46.dp)
+                    .clip(RoundedCornerShape(14.dp))
+                    .background(Color.White)
+                    .clickable(role = Role.Button, onClick = onListen)
+                    .padding(horizontal = 18.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                Icon(SpeakyIcons.Speaker, contentDescription = null, tint = onHeroDeep, modifier = Modifier.size(18.dp))
+                Text("Listen", color = onHeroDeep, fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+            }
+            SpeakySpeedButton(
+                background = Color.Transparent,
+                color = onHero,
+                border = onHero.copy(alpha = 0.5f),
+                height = 46.dp,
+                radius = 14.dp,
+                fontSize = 14.sp,
+            )
+        }
+    }
+}
+
+@Composable
+private fun ExampleRow(sentence: String, onSpeak: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(18.dp))
+            .background(colors.surface)
+            .padding(start = 16.dp, top = 10.dp, end = 10.dp, bottom = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        Text(
+            sentence,
+            color = colors.textPrimary,
+            fontSize = 15.sp,
+            lineHeight = 22.sp,
+            modifier = Modifier.weight(1f),
+        )
+        SpeakyIconButton(
+            icon = SpeakyIcons.Speaker,
+            contentDescription = "Listen to example",
+            onClick = onSpeak,
+            iconSize = 18.dp,
+            background = colors.primarySoft,
+            tint = colors.neonCyan,
+        )
+    }
+}
+
+private const val MAX_EXAMPLES = 8

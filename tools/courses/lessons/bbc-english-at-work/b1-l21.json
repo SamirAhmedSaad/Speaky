@@ -1,0 +1,55 @@
+{
+  "title": "Asking for Help",
+  "content": {
+    "vocabulary": [
+      {"word": "grateful", "pos": "adjective", "meaning_en": "thankful", "meaning_ar": "ممتنّ", "note_ar": "", "note_en": "", "example": "I'm very grateful for your help."},
+      {"word": "advice", "pos": "noun", "meaning_en": "an opinion about what someone should do", "meaning_ar": "نصيحة", "note_ar": "اسم غير معدود: some advice / a piece of advice. الفعل: advise", "note_en": "Uncountable: \"some advice\". Verb: advise.", "example": "Could I ask you for some advice?"},
+      {"word": "spare", "pos": "verb", "meaning_en": "to give time or something you can do without", "meaning_ar": "يمنح / يخصّص (وقتًا)", "note_ar": "", "note_en": "", "example": "Could you spare me a few minutes?"},
+      {"word": "interrupt", "pos": "verb", "meaning_en": "to stop someone while they are talking or working", "meaning_ar": "يقاطع", "note_ar": "", "note_en": "", "example": "Sorry to interrupt, but the client is here."},
+      {"word": "strategy", "pos": "noun", "meaning_en": "a plan to reach a goal", "meaning_ar": "استراتيجية / خطة", "note_ar": "", "note_en": "", "example": "We need a new strategy for stock management."},
+      {"word": "deserve", "pos": "verb", "meaning_en": "to have earned something because of your actions", "meaning_ar": "يستحق", "note_ar": "", "note_en": "", "example": "You worked hard. You deserve it."},
+      {"word": "in a panic", "pos": "phrase", "meaning_en": "very worried and not able to think clearly", "meaning_ar": "في حالة ذعر / ارتباك", "note_ar": "", "note_en": "", "example": "I'm in a bit of a panic about the deadline."},
+      {"word": "delighted", "pos": "adjective", "meaning_en": "very happy", "meaning_ar": "مسرور جدًا", "note_ar": "", "note_en": "", "example": "I'd be delighted to help."},
+      {"word": "project", "pos": "noun", "meaning_en": "a planned piece of work", "meaning_ar": "مشروع", "note_ar": "", "note_en": "", "example": "She has led many projects."},
+      {"word": "opportunity", "pos": "noun", "meaning_en": "a chance to do something", "meaning_ar": "فرصة", "note_ar": "", "note_en": "", "example": "I'm very grateful for this opportunity."},
+      {"word": "speciality", "pos": "noun", "meaning_en": "something a person is very good at", "meaning_ar": "تخصّص / مجال إتقان", "note_ar": "بريطاني: speciality، أمريكي: specialty", "note_en": "UK: speciality; US: specialty.", "example": "Numbers are not my speciality."},
+      {"word": "office assistant", "pos": "noun", "meaning_en": "a person who helps with general office work", "meaning_ar": "مساعد/ة مكتبي/ة", "note_ar": "", "note_en": "", "example": "Our office assistant answers the phone."},
+      {"word": "current", "pos": "adjective", "meaning_en": "happening or used now", "meaning_ar": "الحالي", "note_ar": "", "note_en": "", "example": "First, look at the current system."},
+      {"word": "action plan", "pos": "noun", "meaning_en": "a list of steps you need to do", "meaning_ar": "خطة عمل", "note_ar": "", "note_en": "", "example": "Draw up an action plan of tasks."},
+      {"word": "draw up", "pos": "phrasal verb", "meaning_en": "to prepare and write a plan or document", "meaning_ar": "يُعِدّ / يضع (خطة)", "note_ar": "", "note_en": "", "example": "Let's draw up a list of tasks."},
+      {"word": "put into practice", "pos": "phrase", "meaning_en": "to start using an idea in real life", "meaning_ar": "يطبّق عمليًا", "note_ar": "", "note_en": "", "example": "Now we need to put the plan into practice."},
+      {"word": "warehouse", "pos": "noun", "meaning_en": "a building where goods are stored", "meaning_ar": "مستودع", "note_ar": "", "note_en": "", "example": "Take the lift down to the warehouse."},
+      {"word": "approach", "pos": "verb", "meaning_en": "to go and speak to someone about something", "meaning_ar": "يتوجّه إلى / يفاتح", "note_ar": "", "note_en": "", "example": "Approach him in the right way and he'll help."},
+      {"word": "bite someone's head off", "pos": "idiom", "meaning_en": "to answer someone in an angry way", "meaning_ar": "يرد بغضب وعنف على أحد", "note_ar": "تعبير اصطلاحي لا يُفهم حرفيًا", "note_en": "An idiom, not literal.", "example": "Don't worry, he won't bite your head off."},
+      {"word": "stuck", "pos": "adjective", "meaning_en": "unable to continue because you don't know what to do", "meaning_ar": "عالق / لا يعرف كيف يكمل", "note_ar": "", "note_en": "", "example": "If you're stuck, just ask for help."}
+    ],
+    "fine_lines": [
+      {"title": "Telling vs asking", "words": ["You must help me", "Could you help me?"], "explanation_ar": "عندما تحتاج مساعدة اطلبها ولا تأمر بها. You must help me أمر غير مهذب، أما I would be most grateful if you could... فطلب مهذب جدًا.", "explanation_en": "When you need help, ask, don't tell. \"You must help me\" sounds like an order. \"I would be most grateful if you could...\" is very polite.", "examples": [{"word": "You must help me", "sentence": "You must help me now. (rude)"}, {"word": "Could you help me?", "sentence": "I would be most grateful if you could help me."}]},
+      {"title": "advice vs advise", "words": ["advice", "advise"], "explanation_ar": "advice اسم غير معدود (نصيحة) ويُنطق بصوت s. advise فعل (ينصح) ويُنطق بصوت z.", "explanation_en": "\"Advice\" is an uncountable noun (/s/ sound). \"Advise\" is the verb (/z/ sound).", "examples": [{"word": "advice", "sentence": "Thanks for your advice."}, {"word": "advise", "sentence": "She advised me to make an action plan."}]}
+    ],
+    "expressions": [
+      {"phrase": "I would be most grateful if you could give me some help.", "meaning_ar": "سأكون ممتنًا جدًا لو استطعت مساعدتي.", "meaning_en": "a very polite way to ask for help", "example": "I would be most grateful if you could give me some help with this report."},
+      {"phrase": "Please could I ask you for some advice?", "meaning_ar": "هل يمكنني من فضلك أن أطلب منك نصيحة؟", "meaning_en": "a polite way to ask for advice", "example": "Please could I ask you for some advice about the project?"},
+      {"phrase": "I know you're busy but could you spare me a few minutes of your time please?", "meaning_ar": "أعلم أنك مشغول، لكن هل يمكنك منحي بضع دقائق من وقتك من فضلك؟", "meaning_en": "asking for someone's time politely", "example": "I know you're busy but could you spare me a few minutes of your time please?"},
+      {"phrase": "Sorry to interrupt.", "meaning_ar": "آسف على المقاطعة.", "meaning_en": "used before you speak to someone who is busy", "example": "Sorry to interrupt, but your visitor is here."},
+      {"phrase": "Where do you think I should begin?", "meaning_ar": "من أين تظن أنه عليّ أن أبدأ؟", "meaning_en": "asking for advice on the first step", "example": "It's a big job. Where do you think I should begin?"},
+      {"phrase": "Always happy to help.", "meaning_ar": "يسعدني المساعدة دائمًا.", "meaning_en": "a friendly reply when someone asks for help", "example": "Of course, always happy to help."},
+      {"phrase": "Thanks for your advice.", "meaning_ar": "شكرًا على نصيحتك.", "meaning_en": "used to thank someone for advice", "example": "Thanks for your advice. I'll try it today."}
+    ],
+    "grammar": [
+      {"title": "Very polite requests: I would be grateful if you could...", "explanation_ar": "أكثر الصيغ تهذيبًا: I would be (most) grateful if you could + فعل أساسي. وأيضًا Could you spare me + وقت. استخدم could وليس can لتكون أكثر لطفًا.", "explanation_en": "A very polite form: \"I would be (most) grateful if you could + base verb\". Also \"Could you spare me + time\". Use \"could\", not \"can\", to sound softer.", "examples": ["I would be most grateful if you could check my report.", "Could you spare me five minutes?", "Please could I ask you a question?"]}
+    ]
+  },
+  "questions": [
+    {"question": "Which is the MOST polite way to ask for help?", "choices": ["You must help me.", "I would be most grateful if you could give me some help.", "Help me now.", "Help, please, quickly!"], "answer": 1, "explanation_ar": "صيغة I would be most grateful if you could هي الأكثر تهذيبًا.", "explanation_en": "\"I would be most grateful if you could\" is the most polite."},
+    {"question": "Complete: Could you ___ me a few minutes of your time?", "choices": ["spend", "save", "take", "spare"], "answer": 3, "explanation_ar": "spare me a few minutes = امنحني بضع دقائق.", "explanation_en": "\"Spare me a few minutes\" means give me some time."},
+    {"question": "Choose the correct sentence.", "choices": ["Could I ask you for an advice?", "Could I ask you for some advices?", "Could I ask you for some advice?", "Could I ask you for a advise?"], "answer": 2, "explanation_ar": "advice غير معدود: some advice.", "explanation_en": "\"Advice\" is uncountable: some advice."},
+    {"question": "\"Grateful\" means...", "choices": ["thankful", "angry", "tired", "late"], "answer": 0, "explanation_ar": "grateful = ممتن.", "explanation_en": "\"Grateful\" means thankful."},
+    {"question": "Complete: I would be most grateful if you ___ help me.", "choices": ["can", "will", "could", "must"], "answer": 2, "explanation_ar": "الصيغة: if you could.", "explanation_en": "The pattern is \"if you could\"."},
+    {"question": "\"He won't bite your head off\" means...", "choices": ["He won't eat lunch", "He won't be angry with you", "He won't come", "He won't call you"], "answer": 1, "explanation_ar": "تعني لن يرد عليك بغضب.", "explanation_en": "It means he won't answer you angrily."},
+    {"question": "What did Denise advise Anna to do first?", "choices": ["Copy Tom's work", "Go home", "Buy biscuits", "Look at the current system"], "answer": 3, "explanation_ar": "نصحتها بالنظر في النظام الحالي أولًا.", "explanation_en": "She told her to look at the current system first."},
+    {"question": "\"Draw up an action plan\" means...", "choices": ["prepare a list of steps", "draw a picture", "throw a plan away", "pull a box"], "answer": 0, "explanation_ar": "draw up = يُعدّ خطة.", "explanation_en": "\"Draw up\" means prepare a plan."},
+    {"question": "Which word is the VERB?", "choices": ["advice", "advise", "advisor's", "advices"], "answer": 1, "explanation_ar": "advise هو الفعل.", "explanation_en": "\"Advise\" is the verb."},
+    {"question": "What do you say before speaking to a busy colleague?", "choices": ["Listen to me!", "You must stop.", "Hey you!", "Sorry to interrupt."], "answer": 3, "explanation_ar": "Sorry to interrupt عبارة مهذبة.", "explanation_en": "\"Sorry to interrupt\" is polite."}
+  ]
+}

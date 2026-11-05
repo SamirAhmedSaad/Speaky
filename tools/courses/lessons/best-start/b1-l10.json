@@ -1,0 +1,70 @@
+{
+  "title": "Ability: can and can't",
+  "content": {
+    "vocabulary": [
+      {"word": "can", "pos": "modal verb", "meaning_en": "be able to do something", "meaning_ar": "يستطيع / يقدر", "note_ar": "لا تتغير مع he/she/it: نقول he can وليس he cans", "note_en": "It never changes: he can, not \"he cans\".", "example": "I can swim."},
+      {"word": "can't (cannot)", "pos": "modal verb", "meaning_en": "not be able to do something", "meaning_ar": "لا يستطيع", "note_ar": "can + not = cannot، والاختصار can't", "note_en": "can + not = cannot; the short form is can't.", "example": "I can't fly."},
+      {"word": "infinitive", "pos": "noun", "meaning_en": "the basic form of a verb, with no -s, -ed or -ing", "meaning_ar": "الفعل في المصدر (بدون إضافات)", "note_ar": "مثل play, eat, run، وليس plays أو playing", "note_en": "Like play, eat, run; not plays or playing.", "example": "\"Run\" is an infinitive."},
+      {"word": "verb", "pos": "noun", "meaning_en": "a word for an action or a feeling", "meaning_ar": "فعل", "note_ar": "", "note_en": "", "example": "\"Play\" and \"like\" are verbs."},
+      {"word": "run", "pos": "verb", "meaning_en": "move fast on your feet", "meaning_ar": "يجري", "note_ar": "", "note_en": "", "example": "She can run fast."},
+      {"word": "swim", "pos": "verb", "meaning_en": "move through water", "meaning_ar": "يسبح / يعوم", "note_ar": "", "note_en": "", "example": "A fish can swim."},
+      {"word": "fly", "pos": "verb", "meaning_en": "move through the air", "meaning_ar": "يطير", "note_ar": "", "note_en": "", "example": "Birds can fly."},
+      {"word": "crawl", "pos": "verb", "meaning_en": "move on your hands and knees", "meaning_ar": "يزحف / يحبو", "note_ar": "", "note_en": "", "example": "The baby can crawl."},
+      {"word": "cook", "pos": "verb", "meaning_en": "make food hot and ready to eat", "meaning_ar": "يطبخ", "note_ar": "كاسم: cook = طباخ، وأيضًا chef", "note_en": "As a noun, a cook is a person who cooks (also: chef).", "example": "My mum can cook tasty food."},
+      {"word": "jump", "pos": "verb", "meaning_en": "push yourself up into the air with your legs", "meaning_ar": "يقفز", "note_ar": "", "note_en": "", "example": "I can jump high."},
+      {"word": "climb", "pos": "verb", "meaning_en": "go up something using your hands and feet", "meaning_ar": "يتسلق", "note_ar": "حرف b صامت: تُنطق /klaɪm/", "note_en": "The b is silent: say /klaɪm/.", "example": "Monkeys can climb trees."},
+      {"word": "kick", "pos": "verb", "meaning_en": "hit something with your foot", "meaning_ar": "يركل / يشوط", "note_ar": "", "note_en": "", "example": "He can kick the ball."},
+      {"word": "make the bed", "pos": "phrase", "meaning_en": "tidy the sheets and covers on a bed", "meaning_ar": "يرتب السرير", "note_ar": "make لها معانٍ كثيرة: يصنع، يجعل، يرتب", "note_en": "Make has many meanings: to create, to cause, to tidy (a bed).", "example": "I can make the bed."},
+      {"word": "hop", "pos": "verb", "meaning_en": "jump on one foot", "meaning_ar": "يقفز على رجل واحدة / يحجل", "note_ar": "", "note_en": "", "example": "Can she hop? Yes, she can hop."},
+      {"word": "walk", "pos": "verb", "meaning_en": "move on your feet at a normal speed", "meaning_ar": "يمشي", "note_ar": "حرف l صامت: تُنطق /wɔːk/", "note_en": "The l is silent: say /wɔːk/.", "example": "The baby can't walk yet."},
+      {"word": "the five senses", "pos": "phrase", "meaning_en": "seeing, hearing, smelling, tasting and touching", "meaning_ar": "الحواس الخمس", "note_ar": "", "note_en": "", "example": "We learn about the world with the five senses."},
+      {"word": "see", "pos": "verb", "meaning_en": "use your eyes", "meaning_ar": "يرى", "note_ar": "", "note_en": "", "example": "I can see with my eyes."},
+      {"word": "hear", "pos": "verb", "meaning_en": "use your ears", "meaning_ar": "يسمع", "note_ar": "", "note_en": "", "example": "He can hear well."},
+      {"word": "smell", "pos": "verb", "meaning_en": "use your nose", "meaning_ar": "يشم", "note_ar": "", "note_en": "", "example": "I can smell the flower."},
+      {"word": "taste", "pos": "verb", "meaning_en": "use your tongue to know the flavour of food", "meaning_ar": "يتذوق", "note_ar": "", "note_en": "", "example": "I can taste with my tongue."},
+      {"word": "touch", "pos": "verb", "meaning_en": "put your hand on something", "meaning_ar": "يلمس", "note_ar": "", "note_en": "", "example": "I can touch with my hands."},
+      {"word": "ears", "pos": "noun", "meaning_en": "the parts of your head you hear with", "meaning_ar": "أذنان / آذان", "note_ar": "المفرد ear", "note_en": "Singular: ear.", "example": "I can hear with my ears."},
+      {"word": "nose", "pos": "noun", "meaning_en": "the part of your face you smell with", "meaning_ar": "أنف", "note_ar": "", "note_en": "", "example": "I can smell with my nose."},
+      {"word": "tongue", "pos": "noun", "meaning_en": "the soft part in your mouth you taste with", "meaning_ar": "لسان", "note_ar": "تُنطق /tʌŋ/ والحروف ue صامتة", "note_en": "Say /tʌŋ/; the letters \"ue\" are silent.", "example": "I can taste with my tongue."},
+      {"word": "hands", "pos": "noun", "meaning_en": "the parts at the end of your arms", "meaning_ar": "يدان / أيدي", "note_ar": "المفرد hand", "note_en": "Singular: hand.", "example": "I can touch with my hands."},
+      {"word": "wings", "pos": "noun", "meaning_en": "the parts a bird uses to fly", "meaning_ar": "أجنحة", "note_ar": "المفرد wing", "note_en": "Singular: wing.", "example": "It has wings. It can fly."},
+      {"word": "fins", "pos": "noun", "meaning_en": "the thin parts a fish uses to swim", "meaning_ar": "زعانف", "note_ar": "المفرد fin", "note_en": "Singular: fin.", "example": "It has fins. It can swim."},
+      {"word": "with", "pos": "preposition", "meaning_en": "using", "meaning_ar": "بـ / باستخدام", "note_ar": "", "note_en": "", "example": "I can see with my eyes."},
+      {"word": "shark", "pos": "noun", "meaning_en": "a big sea fish with sharp teeth", "meaning_ar": "سمكة قرش", "note_ar": "", "note_en": "", "example": "A shark can swim."},
+      {"word": "hen", "pos": "noun", "meaning_en": "a female chicken", "meaning_ar": "دجاجة", "note_ar": "", "note_en": "", "example": "A hen can't swim."}
+    ],
+    "fine_lines": [
+      {"title": "can vs can't", "words": ["can", "can't"], "explanation_ar": "can للقدرة (يستطيع)، و can't لعدم القدرة (لا يستطيع). كلاهما يأتي بعده فعل في المصدر.", "explanation_en": "Can shows you are able to do something; can't shows you are not able. Both are followed by the infinitive.", "examples": [{"word": "can", "sentence": "A bird can fly."}, {"word": "can't", "sentence": "A cat can't fly."}]},
+      {"title": "jump vs hop", "words": ["jump", "hop"], "explanation_ar": "jump قفز عادي بالرجلين، أما hop فهو القفز على رجل واحدة.", "explanation_en": "Jump usually means jumping with both feet; hop means jumping on one foot.", "examples": [{"word": "jump", "sentence": "The children can jump over the rope."}, {"word": "hop", "sentence": "Can you hop on your left foot?"}]},
+      {"title": "can run vs can runs / can running", "words": ["can run", "can runs", "can running"], "explanation_ar": "بعد can يأتي الفعل في المصدر فقط بدون s أو ing وبدون to. الصحيح can run فقط.", "explanation_en": "After can, use only the infinitive: no -s, no -ing, no \"to\". Only \"can run\" is correct.", "examples": [{"word": "can run", "sentence": "The lion can run fast."}, {"word": "can runs", "sentence": "Wrong: The lion can runs fast."}, {"word": "can running", "sentence": "Wrong: The lion can running fast."}]},
+      {"title": "see vs hear", "words": ["see", "hear"], "explanation_ar": "see بالعينين، و hear بالأذنين.", "explanation_en": "You see with your eyes and hear with your ears.", "examples": [{"word": "see", "sentence": "I can see the sea."}, {"word": "hear", "sentence": "I can hear the bird."}]}
+    ],
+    "expressions": [
+      {"phrase": "I can swim.", "meaning_ar": "أستطيع أن أسبح.", "meaning_en": "Saying you are able to swim.", "example": "I can swim, but I can't fly."},
+      {"phrase": "I can't fly.", "meaning_ar": "لا أستطيع أن أطير.", "meaning_en": "Saying you are not able to fly.", "example": "I'm not a bird. I can't fly."},
+      {"phrase": "The baby can crawl.", "meaning_ar": "الطفل يستطيع أن يحبو.", "meaning_en": "Talking about what a baby can do.", "example": "The baby can crawl, but he can't walk."},
+      {"phrase": "Birds can fly.", "meaning_ar": "الطيور تستطيع أن تطير.", "meaning_en": "A fact about birds.", "example": "Birds can fly because they have wings."},
+      {"phrase": "The chef can cook.", "meaning_ar": "الطباخ يستطيع أن يطبخ.", "meaning_en": "Talking about a chef's ability.", "example": "The chef can cook very well."},
+      {"phrase": "I can smell the flower.", "meaning_ar": "أستطيع أن أشم الزهرة.", "meaning_en": "Using the sense of smell.", "example": "Come here! I can smell the flower."},
+      {"phrase": "I can see with my eyes.", "meaning_ar": "أستطيع أن أرى بعينيّ.", "meaning_en": "Saying which body part you use for a sense.", "example": "I can see with my eyes and hear with my ears."}
+    ],
+    "grammar": [
+      {"title": "The infinitive (base form of the verb)", "explanation_ar": "الفعل قد تُضاف إليه إضافات مثل s أو ed أو ing (plays, played, playing). الفعل بدون أي إضافات يسمى الفعل في المصدر infinitive، مثل play, eat, read. swims ليس مصدرًا لأن فيه s، و reading ليس مصدرًا لأن فيه ing.", "explanation_en": "Verbs can take endings like -s, -ed or -ing (plays, played, playing). The verb with no endings is the infinitive: play, eat, read. \"Swims\" and \"reading\" are not infinitives.", "examples": ["play → plays / played / playing", "Infinitives: like, eat, swim, read"]},
+      {"title": "can + infinitive (ability)", "explanation_ar": "نستخدم can للتعبير عن القدرة والاستطاعة. التركيب: الفاعل + can + فعل في المصدر. can لا تتغير مع أي فاعل.", "explanation_en": "Use can to talk about ability. Form: subject + can + infinitive. Can is the same with every subject.", "examples": ["I can read.", "She can run.", "They can fly.", "It can run fast."]},
+      {"title": "can't + infinitive (no ability)", "explanation_ar": "للنفي نضيف not إلى can فتصبح cannot، واختصارها can't. يأتي بعدها فعل في المصدر أيضًا.", "explanation_en": "To make it negative, add not: cannot, or the short form can't. The infinitive still comes after it.", "examples": ["I can't fly.", "The baby can't jump.", "Mona can't cook.", "He can't see."]},
+      {"title": "Senses with \"with\" + body part", "explanation_ar": "نستخدم with لنقول بأي جزء من الجسم نستخدم الحاسة، ونضع صفة الملكية my قبل الاسم.", "explanation_en": "Use with to say which body part you use, and put my before the noun.", "examples": ["I can see with my eyes.", "I can hear with my ears.", "I can smell with my nose.", "I can taste with my tongue.", "I can touch with my hands."]}
+    ]
+  },
+  "questions": [
+    {"question": "Choose the correct sentence.", "choices": ["She can runs.", "She can run.", "She can running.", "She can to run."], "answer": 1, "explanation_ar": "بعد can يأتي الفعل في المصدر بدون إضافات.", "explanation_en": "After can we use the infinitive with no endings."},
+    {"question": "Which word is an infinitive?", "choices": ["swims", "reading", "played", "eat"], "answer": 3, "explanation_ar": "eat بدون أي إضافات، فهي فعل في المصدر.", "explanation_en": "Eat has no endings, so it is an infinitive."},
+    {"question": "A bird has wings. It ___ fly.", "choices": ["can", "can't", "cans", "is"], "answer": 0, "explanation_ar": "الطائر له أجنحة فهو يستطيع أن يطير.", "explanation_en": "A bird has wings, so it can fly."},
+    {"question": "What does \"climb\" mean?", "choices": ["يزحف", "يركل", "يتسلق", "يسبح"], "answer": 2, "explanation_ar": "climb = يتسلق، وحرف b فيها صامت.", "explanation_en": "Climb means to go up using your hands and feet. The b is silent."},
+    {"question": "I can smell with my ___.", "choices": ["ears", "nose", "tongue", "hands"], "answer": 1, "explanation_ar": "نشم بالأنف nose.", "explanation_en": "We smell with our nose."},
+    {"question": "A hen ___ swim, but a shark can.", "choices": ["can", "cans", "is", "can't"], "answer": 3, "explanation_ar": "الدجاجة لا تستطيع السباحة، فنستخدم can't.", "explanation_en": "A hen is not able to swim, so we use can't."},
+    {"question": "What is the full form of \"can't\"?", "choices": ["cannot", "can it", "can to", "can no"], "answer": 0, "explanation_ar": "can't اختصار cannot.", "explanation_en": "Can't is short for cannot."},
+    {"question": "Jump on one foot = ___", "choices": ["kick", "crawl", "hop", "walk"], "answer": 2, "explanation_ar": "hop = يقفز على رجل واحدة.", "explanation_en": "Hop means to jump on one foot."},
+    {"question": "Put the words in order: can / the chef / cook", "choices": ["Cook the chef can.", "The chef cook can.", "Can cook the chef.", "The chef can cook."], "answer": 3, "explanation_ar": "الفاعل ثم can ثم الفعل في المصدر.", "explanation_en": "Subject, then can, then the infinitive."},
+    {"question": "Which sense do we use with our tongue?", "choices": ["taste", "see", "hear", "touch"], "answer": 0, "explanation_ar": "نتذوق باللسان: taste.", "explanation_en": "We taste with our tongue."}
+  ]
+}

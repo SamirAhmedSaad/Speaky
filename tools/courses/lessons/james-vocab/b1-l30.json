@@ -1,0 +1,48 @@
+{
+  "title": "Phrasal Verbs About Money",
+  "content": {
+    "vocabulary": [
+      {"word": "get by", "pos": "phrasal verb", "meaning_en": "to have just enough money to live, with nothing extra", "meaning_ar": "يتدبّر أمره / يكفيه بالكاد", "note_ar": "إيجابية نوعًا ما", "note_en": "Fairly positive.", "example": "I don't earn much, but I'm getting by."},
+      {"word": "scrape by", "pos": "phrasal verb", "meaning_en": "to live with almost not enough money; it feels hard", "meaning_ar": "يعيش بالكاد / بشقّ الأنفس", "note_ar": "أسوأ من get by", "note_en": "Harder and more negative than get by.", "example": "After he lost his job, the family scraped by."},
+      {"word": "save up", "pos": "phrasal verb", "meaning_en": "to save money over a long time for something big", "meaning_ar": "يدّخر (لشيء كبير)", "note_ar": "لسيارة أو بيت أو تقاعد", "note_en": "For a car, house, retirement.", "example": "I'm saving up for a new car."},
+      {"word": "put aside", "pos": "phrasal verb", "meaning_en": "to keep some money for a short time for something specific", "meaning_ar": "يخصّص / يضع جانبًا", "note_ar": "لمدة قصيرة ولغرض محدد", "note_en": "Short time, specific purpose.", "example": "Put aside $20 for dinner later."},
+      {"word": "retirement", "pos": "noun", "meaning_en": "the time when you stop working forever because of age", "meaning_ar": "التقاعد", "note_ar": "الفعل: retire", "note_en": "Verb: retire.", "example": "They are saving up for retirement."},
+      {"word": "fork over", "pos": "phrasal verb", "meaning_en": "to pay money, often unwillingly", "meaning_ar": "يدفع (على مضض)", "note_ar": "", "note_en": "Informal.", "example": "I had to fork over $50 for a parking ticket."},
+      {"word": "cough up", "pos": "phrasal verb", "meaning_en": "to pay money when you don't want to", "meaning_ar": "يدفع مُكرهًا", "note_ar": "", "note_en": "Informal.", "example": "He had to cough up $400 for a new TV."},
+      {"word": "shell out", "pos": "phrasal verb", "meaning_en": "to spend a lot of money, unwillingly", "meaning_ar": "يُنفق (مبلغًا كبيرًا على مضض)", "note_ar": "", "note_en": "Informal.", "example": "We shelled out a lot for the repairs."},
+      {"word": "dip into", "pos": "phrasal verb", "meaning_en": "to take a small amount from your savings once", "meaning_ar": "يأخذ قليلًا من مدّخراته", "note_ar": "مثل الغطس السريع في الماء", "note_en": "Like a quick dip in a pool.", "example": "My car broke down, so I dipped into my savings."},
+      {"word": "break into (savings)", "pos": "phrasal verb", "meaning_en": "to start using your savings again and again until they disappear", "meaning_ar": "يستنزف مدّخراته", "note_ar": "أسوأ من dip into", "note_en": "Worse than dip into.", "example": "The rent is so high that I had to break into my savings."},
+      {"word": "pay back", "pos": "phrasal verb", "meaning_en": "to return money you borrowed (not always all of it yet)", "meaning_ar": "يُسدّد (جزءًا من الدين)", "note_ar": "", "note_en": "", "example": "I'm paying back my loan $100 a week."},
+      {"word": "pay off", "pos": "phrasal verb", "meaning_en": "to pay all of a debt so it is finished", "meaning_ar": "يُسدّد الدين بالكامل", "note_ar": "off = انتهى", "note_en": "off = finished", "example": "I finally paid off my credit card."},
+      {"word": "debt", "pos": "noun", "meaning_en": "money that you owe someone", "meaning_ar": "دَين", "note_ar": "حرف b صامت: /det/", "note_en": "Silent b: /det/.", "example": "He has a big debt to the bank."},
+      {"word": "savings", "pos": "noun", "meaning_en": "money you have kept and not spent", "meaning_ar": "مدّخرات", "note_ar": "", "note_en": "", "example": "She keeps her savings in the bank."},
+      {"word": "aside", "pos": "adverb / noun", "meaning_en": "to one side; a short comment off the main topic", "meaning_ar": "جانبًا / ملاحظة جانبية", "note_ar": "", "note_en": "", "example": "Let me make a quick aside."}
+    ],
+    "fine_lines": [
+      {"title": "get by vs scrape by", "words": ["get by", "scrape by"], "explanation_ar": "get by: لديك ما يكفي للأساسيات فقط، وهي إيجابية نسبيًا. scrape by: لديك أقل من الكافي تقريبًا وكل يوم صعب.", "explanation_en": "Get by: enough for the basics; fairly positive. Scrape by: almost not enough; every day is hard.", "examples": [{"word": "get by", "sentence": "We get by on one salary."}, {"word": "scrape by", "sentence": "Students often scrape by at the end of the month."}]},
+      {"title": "save up vs put aside", "words": ["save up", "put aside"], "explanation_ar": "save up: ادّخار لفترة طويلة لشيء كبير. put aside: تخصيص مبلغ صغير لفترة قصيرة لشيء محدد.", "explanation_en": "Save up: long time, big purchase. Put aside: short time, something specific.", "examples": [{"word": "save up", "sentence": "They saved up for five years to buy a house."}, {"word": "put aside", "sentence": "I put aside $10 for the bus this week."}]},
+      {"title": "dip into vs break into", "words": ["dip into", "break into"], "explanation_ar": "dip into: تأخذ مبلغًا صغيرًا مرة واحدة. break into: تبدأ باستنزاف المدّخرات مرارًا.", "explanation_en": "Dip into: take a little once. Break into: keep taking until the savings go down a lot.", "examples": [{"word": "dip into", "sentence": "I dipped into my savings for a new phone."}, {"word": "break into", "sentence": "Without a job, he had to break into his savings."}]},
+      {"title": "pay back vs pay off", "words": ["pay back", "pay off"], "explanation_ar": "pay back: تُعيد المال تدريجيًا وقد لا تكون انتهيت. pay off: سدّدت الدين كاملًا وانتهى.", "explanation_en": "Pay back: return money, maybe not finished. Pay off: the whole debt is finished.", "examples": [{"word": "pay back", "sentence": "I'm paying back my brother bit by bit."}, {"word": "pay off", "sentence": "We paid off the car loan last month."}]}
+    ],
+    "expressions": [
+      {"phrase": "I'm getting by.", "meaning_ar": "أتدبّر أمري.", "meaning_en": "I have enough, but nothing extra.", "example": "How's the new job? - Not great pay, but I'm getting by."},
+      {"phrase": "I'm saving up for...", "meaning_ar": "أدّخر من أجل...", "meaning_en": "I'm saving money for something big.", "example": "I'm saving up for a trip to Mecca."},
+      {"phrase": "I had to cough up...", "meaning_ar": "اضطررت لدفع...", "meaning_en": "I had to pay (and I didn't want to).", "example": "I had to cough up $100 to fix my phone."},
+      {"phrase": "I had to dip into my savings.", "meaning_ar": "اضطررت للأخذ من مدّخراتي.", "meaning_en": "I took a little from my savings.", "example": "The washing machine broke, so I had to dip into my savings."},
+      {"phrase": "I paid off my debt.", "meaning_ar": "سدّدت ديني بالكامل.", "meaning_en": "My debt is finished.", "example": "Good news: I paid off my debt!"}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"Mr. E's TV stopped working, and he had to ___ $400 for a new one.\" (pay unwillingly)", "choices": ["cough up", "save up", "get by", "put aside"], "answer": 0, "explanation_ar": "cough up = يدفع مُكرهًا.", "explanation_en": "Cough up = pay when you don't want to."},
+    {"question": "\"He had been ___ for a new car.\" (long time, big purchase)", "choices": ["putting aside", "saving up", "dipping into", "scraping by"], "answer": 1, "explanation_ar": "save up لشيء كبير ولمدة طويلة.", "explanation_en": "Save up = long-term saving for something big."},
+    {"question": "\"He had to ___ his savings once to buy the TV.\" (take a little)", "choices": ["break into", "pay off", "dip into", "shell out"], "answer": 2, "explanation_ar": "dip into = يأخذ قليلًا مرة واحدة.", "explanation_en": "Dip into = take a little once."},
+    {"question": "\"Next week he had to ___ on $20 a day.\" (enough, nothing extra)", "choices": ["pay off", "save up", "break into", "get by"], "answer": 3, "explanation_ar": "get by = يتدبّر أمره بالقليل.", "explanation_en": "Get by = have just enough."},
+    {"question": "\"I finally ___ my credit card. I owe nothing now.\"", "choices": ["paid off", "paid back a little", "put aside", "dipped into"], "answer": 0, "explanation_ar": "pay off = يسدّد كاملًا.", "explanation_en": "Pay off = pay all of it."},
+    {"question": "\"Put aside $20 for dinner\" means:", "choices": ["spend $20 now", "keep $20 for a short time for dinner", "borrow $20", "lose $20"], "answer": 1, "explanation_ar": "put aside = تخصيص مبلغ لغرض قريب.", "explanation_en": "Keep it for a specific short-term use."},
+    {"question": "Which is the hardest situation?", "choices": ["getting by", "saving up", "scraping by", "paying off"], "answer": 2, "explanation_ar": "scrape by = بالكاد، وضع صعب.", "explanation_en": "Scrape by = almost not enough."},
+    {"question": "\"Without a job, I had to keep taking money from my savings.\" I had to ___ my savings.", "choices": ["dip into", "put aside", "save up", "break into"], "answer": 3, "explanation_ar": "break into = يستنزف المدّخرات.", "explanation_en": "Break into = keep using savings."},
+    {"question": "How do you pronounce \"debt\"?", "choices": ["/det/ (silent b)", "/debt/", "/deebt/", "/dept/"], "answer": 0, "explanation_ar": "حرف b صامت في debt.", "explanation_en": "The b is silent."},
+    {"question": "\"We had to ___ a lot of money for the car repair.\" (spend unwillingly)", "choices": ["get by", "shell out", "save up", "put aside"], "answer": 1, "explanation_ar": "shell out = يُنفق على مضض.", "explanation_en": "Shell out = spend unwillingly."}
+  ]
+}

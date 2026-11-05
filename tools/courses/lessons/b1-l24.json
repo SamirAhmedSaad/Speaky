@@ -68,7 +68,7 @@
       {
         "word": "inn",
         "pos": "noun",
-        "meaning_en": "a small, often old hotel or pub in the countryside",
+        "meaning_en": "a small, often old hotel in the countryside, usually with a restaurant",
         "meaning_ar": "خان / نُزُل ريفي",
         "note_ar": "",
         "example": "The old inn served great food.",
@@ -611,16 +611,16 @@
       "explanation_en": "Affordable = a fair price that you can pay."
     },
     {
-      "question": "According to the lesson, hotel stars mainly tell you about:",
+      "question": "In American English, a \"lift\" is called an:",
       "choices": [
-        "how beautiful the hotel is",
-        "how friendly the staff are",
-        "how clean the rooms are",
-        "the number of services and facilities"
+        "escalator",
+        "stairs",
+        "lobby",
+        "elevator"
       ],
       "answer": 3,
-      "explanation_ar": "النجوم قائمة مرافق وخدمات، ولا تقيس الجودة أو الجمال.",
-      "explanation_en": "Stars are a list of facilities and services; they don't measure quality or beauty."
+      "explanation_ar": "lift بريطاني، و elevator أمريكي.",
+      "explanation_en": "'Lift' is British; 'elevator' is American."
     }
   ]
 }

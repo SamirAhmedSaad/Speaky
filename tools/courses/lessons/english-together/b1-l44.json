@@ -1,0 +1,416 @@
+{
+  "title": "At the Hospital",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "hospital",
+        "pos": "noun",
+        "meaning_en": "a place where sick or hurt people get treatment",
+        "meaning_ar": "مستشفى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is in the hospital."
+      },
+      {
+        "word": "recover",
+        "pos": "verb",
+        "meaning_en": "get better after being sick or hurt",
+        "meaning_ar": "يتعافى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is recovering from a cold."
+      },
+      {
+        "word": "injury",
+        "pos": "noun",
+        "meaning_en": "harm to the body, like a cut or broken bone",
+        "meaning_ar": "إصابة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He has a back injury."
+      },
+      {
+        "word": "back",
+        "pos": "noun",
+        "meaning_en": "the part of your body behind your chest",
+        "meaning_ar": "الظهر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My back is still hurting."
+      },
+      {
+        "word": "vitals",
+        "pos": "noun",
+        "meaning_en": "important body signs like heart rate and temperature",
+        "meaning_ar": "العلامات الحيوية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The nurse checked his vitals."
+      },
+      {
+        "word": "blood pressure",
+        "pos": "noun",
+        "meaning_en": "the force of blood in your body",
+        "meaning_ar": "ضغط الدم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your blood pressure looks good."
+      },
+      {
+        "word": "temperature",
+        "pos": "noun",
+        "meaning_en": "how hot your body is",
+        "meaning_ar": "درجة الحرارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your temperature is normal."
+      },
+      {
+        "word": "pain",
+        "pos": "noun",
+        "meaning_en": "the feeling when part of your body hurts",
+        "meaning_ar": "ألم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you in any pain?"
+      },
+      {
+        "word": "hurt",
+        "pos": "verb",
+        "meaning_en": "feel pain",
+        "meaning_ar": "يؤلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My back is still hurting."
+      },
+      {
+        "word": "medication",
+        "pos": "noun",
+        "meaning_en": "medicine",
+        "meaning_ar": "دواء / علاج دوائي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can adjust your pain medication."
+      },
+      {
+        "word": "adjust",
+        "pos": "verb",
+        "meaning_en": "change a little to make better",
+        "meaning_ar": "يعدّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The doctor will adjust your medicine."
+      },
+      {
+        "word": "tests",
+        "pos": "noun",
+        "meaning_en": "medical checks",
+        "meaning_ar": "فحوصات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They are running some tests."
+      },
+      {
+        "word": "treatment",
+        "pos": "noun",
+        "meaning_en": "what doctors do to make you better",
+        "meaning_ar": "علاج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The treatment is working."
+      },
+      {
+        "word": "fluids",
+        "pos": "noun",
+        "meaning_en": "drinks and liquids",
+        "meaning_ar": "سوائل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Drink plenty of fluids."
+      },
+      {
+        "word": "visit",
+        "pos": "verb",
+        "meaning_en": "go to see someone",
+        "meaning_ar": "يزور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thanks for coming to visit me."
+      },
+      {
+        "word": "magazines",
+        "pos": "noun",
+        "meaning_en": "thin books with pictures and articles",
+        "meaning_ar": "مجلّات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We brought you some magazines."
+      },
+      {
+        "word": "support",
+        "pos": "verb",
+        "meaning_en": "help and encourage",
+        "meaning_ar": "يدعم / يساند",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're here to support you."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "pain vs hurt",
+        "words": [
+          "pain",
+          "hurt"
+        ],
+        "explanation_ar": "pain اسم (ألم): I'm in pain. و hurt فعل (يؤلم): My back hurts.",
+        "explanation_en": "\"Pain\" is a noun. \"Hurt\" is a verb.",
+        "examples": [
+          {
+            "word": "pain",
+            "sentence": "I'm still in some pain."
+          },
+          {
+            "word": "hurt",
+            "sentence": "My back is still hurting."
+          }
+        ]
+      },
+      {
+        "title": "medicine vs medication",
+        "words": [
+          "medicine",
+          "medication"
+        ],
+        "explanation_ar": "المعنى واحد تقريبًا: دواء. medication أكثر رسمية وتُستخدم كثيرًا في المستشفيات.",
+        "explanation_en": "Both mean drugs that help you get better. \"Medication\" is more formal.",
+        "examples": [
+          {
+            "word": "medicine",
+            "sentence": "Take this medicine after meals."
+          },
+          {
+            "word": "medication",
+            "sentence": "We can adjust your pain medication."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How are you feeling today?",
+        "meaning_ar": "كيف تشعر اليوم؟",
+        "meaning_en": "Ask a sick person.",
+        "example": "Hi, how are you feeling today?"
+      },
+      {
+        "phrase": "I'm feeling alright, just a little tired.",
+        "meaning_ar": "أشعر أنني بخير، فقط متعب قليلًا.",
+        "meaning_en": "Say you are okay.",
+        "example": "How are you? I'm feeling alright, just a little tired."
+      },
+      {
+        "phrase": "Are you experiencing any pain?",
+        "meaning_ar": "هل تشعر بأي ألم؟",
+        "meaning_en": "What a nurse asks.",
+        "example": "Are you experiencing any pain? Yes, in my back."
+      },
+      {
+        "phrase": "I'm still in some pain, but it's not too bad.",
+        "meaning_ar": "ما زلت أشعر ببعض الألم، لكنه ليس سيئًا جدًا.",
+        "meaning_en": "Describe pain.",
+        "example": "I'm still in some pain, but it's not too bad."
+      },
+      {
+        "phrase": "Make sure to rest and drink plenty of fluids.",
+        "meaning_ar": "احرص على الراحة وشرب الكثير من السوائل.",
+        "meaning_en": "Doctor's advice.",
+        "example": "Make sure to rest and drink plenty of fluids."
+      },
+      {
+        "phrase": "Thanks for coming to visit me.",
+        "meaning_ar": "شكرًا لمجيئك لزيارتي.",
+        "meaning_en": "Thank a visitor.",
+        "example": "Thanks for coming to visit me. I feel better."
+      },
+      {
+        "phrase": "You really didn't have to do that.",
+        "meaning_ar": "لم يكن عليك فعل ذلك حقًا.",
+        "meaning_en": "Thank someone for a kind gift.",
+        "example": "You brought me flowers? You really didn't have to do that."
+      },
+      {
+        "phrase": "That's good news.",
+        "meaning_ar": "هذا خبر سار.",
+        "meaning_en": "React to good news.",
+        "example": "I can go home soon. That's good news."
+      },
+      {
+        "phrase": "We're here to support you.",
+        "meaning_ar": "نحن هنا لدعمك.",
+        "meaning_en": "Show support.",
+        "example": "Don't worry. We're here to support you."
+      },
+      {
+        "phrase": "I really appreciate it.",
+        "meaning_ar": "أقدّر ذلك حقًا.",
+        "meaning_en": "Thank someone warmly.",
+        "example": "Thanks for your help. I really appreciate it."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present continuous for now: How are you feeling?",
+        "explanation_ar": "نستخدم المضارع المستمر لحالة الآن: How are you feeling today? I'm feeling a little better. My back is still hurting.",
+        "explanation_en": "Present continuous for how you feel now.",
+        "examples": [
+          "How are you feeling today?",
+          "I'm feeling a little better.",
+          "My back is still hurting."
+        ]
+      },
+      {
+        "title": "Future: I'll / I'm going to",
+        "explanation_ar": "I'll + الفعل لقرار الآن (I'll let the doctor know). و I'm going to + الفعل لخطة (I'm going to order some tests).",
+        "explanation_en": "I'll = decision now; I'm going to = plan.",
+        "examples": [
+          "I'll let the doctor know.",
+          "I'm also going to order some additional tests.",
+          "We'll check in with you tomorrow."
+        ]
+      },
+      {
+        "title": "still",
+        "explanation_ar": "still تعني ما زال، وتأتي قبل الفعل الرئيسي أو بعد be: My back is still hurting. I'm still in some pain.",
+        "explanation_en": "\"Still\" = continuing now. It goes after be / before the main verb.",
+        "examples": [
+          "My back is still hurting.",
+          "I'm still in some pain.",
+          "They're still running some tests."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How are you ___ today?",
+      "choices": [
+        "feel",
+        "feeling",
+        "feels",
+        "felt"
+      ],
+      "answer": 1,
+      "explanation_ar": "المضارع المستمر: are you feeling.",
+      "explanation_en": "Present continuous: are you feeling."
+    },
+    {
+      "question": "My back is ___ hurting. (It hurts now, too.)",
+      "choices": [
+        "still",
+        "yet",
+        "already",
+        "ever"
+      ],
+      "answer": 0,
+      "explanation_ar": "still تعني ما زال.",
+      "explanation_en": "\"Still\" = continuing."
+    },
+    {
+      "question": "Drink plenty of ___.",
+      "choices": [
+        "magazines",
+        "injuries",
+        "vitals",
+        "fluids"
+      ],
+      "answer": 3,
+      "explanation_ar": "fluids سوائل.",
+      "explanation_en": "Fluids are drinks."
+    },
+    {
+      "question": "I'm in some ___, but it's not too bad.",
+      "choices": [
+        "pain",
+        "hurt",
+        "hurts",
+        "painful"
+      ],
+      "answer": 0,
+      "explanation_ar": "pain اسم (ألم).",
+      "explanation_en": "\"Pain\" is the noun."
+    },
+    {
+      "question": "I'll let the doctor ___.",
+      "choices": [
+        "to know",
+        "knows",
+        "know",
+        "knowing"
+      ],
+      "answer": 2,
+      "explanation_ar": "let + شخص + الفعل في أصله.",
+      "explanation_en": "let + person + base verb."
+    },
+    {
+      "question": "We can ___ your pain medication.",
+      "choices": [
+        "recover",
+        "adjust",
+        "visit",
+        "hurt"
+      ],
+      "answer": 1,
+      "explanation_ar": "adjust يعدّل.",
+      "explanation_en": "Adjust = change a little."
+    },
+    {
+      "question": "Thanks for coming to ___ me.",
+      "choices": [
+        "visiting",
+        "visit",
+        "visited",
+        "visits"
+      ],
+      "answer": 1,
+      "explanation_ar": "coming to + الفعل في أصله.",
+      "explanation_en": "coming to + base verb."
+    },
+    {
+      "question": "A place where sick people get treatment is a ___.",
+      "choices": [
+        "market",
+        "magazine",
+        "hospital",
+        "gym"
+      ],
+      "answer": 2,
+      "explanation_ar": "hospital مستشفى.",
+      "explanation_en": "A hospital treats sick people."
+    },
+    {
+      "question": "They are still running some ___.",
+      "choices": [
+        "backs",
+        "snacks",
+        "pains",
+        "tests"
+      ],
+      "answer": 3,
+      "explanation_ar": "tests فحوصات.",
+      "explanation_en": "Tests are medical checks."
+    },
+    {
+      "question": "Thanks, guys. I really ___ it.",
+      "choices": [
+        "recover",
+        "support",
+        "appreciate",
+        "adjust"
+      ],
+      "answer": 2,
+      "explanation_ar": "I really appreciate it = أقدّر ذلك حقًا.",
+      "explanation_en": "\"I really appreciate it\"."
+    }
+  ]
+}

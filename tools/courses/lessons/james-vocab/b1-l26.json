@@ -1,0 +1,44 @@
+{
+  "title": "Phrasal Verb Opposites",
+  "content": {
+    "vocabulary": [
+      {"word": "start out", "pos": "phrasal verb", "meaning_en": "to begin (a journey, job or business)", "meaning_ar": "يبدأ", "note_ar": "", "note_en": "", "example": "He started out with one small shop."},
+      {"word": "end up", "pos": "phrasal verb", "meaning_en": "to finally be in a place or situation you didn't plan or expect", "meaning_ar": "ينتهي به المطاف", "note_ar": "end up + -ing / مكان", "note_en": "end up + place / -ing", "example": "We got lost and ended up in a small village."},
+      {"word": "build up", "pos": "phrasal verb", "meaning_en": "to grow bigger by adding parts over time; to accumulate", "meaning_ar": "يتراكم / يبني تدريجيًا", "note_ar": "", "note_en": "", "example": "I've built up a big collection of books."},
+      {"word": "accumulate", "pos": "verb", "meaning_en": "to collect more and more of something over time", "meaning_ar": "يُراكِم / يجمع", "note_ar": "", "note_en": "", "example": "Dust accumulates under the bed."},
+      {"word": "die down", "pos": "phrasal verb", "meaning_en": "to slowly become less strong or loud", "meaning_ar": "يهدأ تدريجيًا / يخفت", "note_ar": "", "note_en": "", "example": "The wind died down in the evening."},
+      {"word": "pass out", "pos": "phrasal verb", "meaning_en": "to suddenly become unconscious; also to give things out to people", "meaning_ar": "يُغمى عليه / يوزّع", "note_ar": "معنيان: يفقد الوعي، ويوزّع (pass out the tests)", "note_en": "Two meanings: faint, or hand out.", "example": "It was so hot on the bus that a man passed out."},
+      {"word": "come to", "pos": "phrasal verb", "meaning_en": "to become conscious again; also to add up to a total", "meaning_ar": "يستعيد وعيه / يبلغ مجموعه", "note_ar": "لا نقول come to عن الاستيقاظ العادي بل wake up", "note_en": "For normal sleep say wake up, not come to.", "example": "When he came to, he was in hospital. / That comes to $5.50."},
+      {"word": "unconscious", "pos": "adjective", "meaning_en": "not awake and not able to see or feel, e.g. after an accident", "meaning_ar": "فاقد الوعي", "note_ar": "عكسها conscious", "note_en": "Opposite: conscious.", "example": "She was unconscious for a few minutes."},
+      {"word": "talk someone out of", "pos": "phrasal verb", "meaning_en": "to persuade someone NOT to do something", "meaning_ar": "يُقنع شخصًا بالعدول عن شيء", "note_ar": "", "note_en": "", "example": "I talked my brother out of quitting school."},
+      {"word": "talk someone into", "pos": "phrasal verb", "meaning_en": "to persuade someone TO do something", "meaning_ar": "يُقنع شخصًا بفعل شيء", "note_ar": "", "note_en": "", "example": "The salesman talked me into buying an expensive jacket."},
+      {"word": "regret", "pos": "verb", "meaning_en": "to feel sorry about something you did", "meaning_ar": "يندم", "note_ar": "", "note_en": "", "example": "I bought it, and now I regret it."}
+    ],
+    "fine_lines": [
+      {"title": "start out vs end up", "words": ["start out", "end up"], "explanation_ar": "start out = تبدأ. end up = تصل في النهاية إلى مكان أو موقف لم تخطّط له.", "explanation_en": "Start out = begin. End up = finally arrive somewhere you didn't plan.", "examples": [{"word": "start out", "sentence": "We started out at 6 a.m."}, {"word": "end up", "sentence": "We ended up at the wrong restaurant."}]},
+      {"title": "build up vs die down", "words": ["build up", "die down"], "explanation_ar": "build up = يكبر ويزداد. die down = يصغر ويخفت تدريجيًا.", "explanation_en": "Build up = grow bigger. Die down = slowly get smaller or quieter.", "examples": [{"word": "build up", "sentence": "Traffic builds up at 5 p.m."}, {"word": "die down", "sentence": "The noise died down after the speech."}]},
+      {"title": "pass out vs come to", "words": ["pass out", "come to"], "explanation_ar": "pass out = يُغمى عليه فجأة (حرّ، رؤية الدم...). come to = يستعيد وعيه بعد الإغماء. للنوم العادي نقول fall asleep / wake up.", "explanation_en": "Pass out = suddenly become unconscious (heat, seeing blood...). Come to = become conscious again. For normal sleep, say fall asleep / wake up.", "examples": [{"word": "pass out", "sentence": "My mother passes out when she sees blood."}, {"word": "come to", "sentence": "She came to after a few seconds."}]},
+      {"title": "talk out of vs talk into", "words": ["talk out of", "talk into"], "explanation_ar": "talk someone out of = تقنعه ألّا يفعل. talk someone into = تقنعه أن يفعل.", "explanation_en": "Talk someone out of = persuade them not to do it. Talk someone into = persuade them to do it.", "examples": [{"word": "talk out of", "sentence": "My father talked me out of buying a motorbike."}, {"word": "talk into", "sentence": "My friend talked me into joining the gym."}]}
+    ],
+    "expressions": [
+      {"phrase": "That comes to...", "meaning_ar": "المجموع هو...", "meaning_en": "The total is...", "example": "The bread is $3.50 and the water is $2. That comes to $5.50."},
+      {"phrase": "Please pass out the tests.", "meaning_ar": "من فضلك وزّع أوراق الامتحان.", "meaning_en": "Please give the tests to everyone.", "example": "Can you pass out the books, please?"},
+      {"phrase": "I ended up...", "meaning_ar": "انتهى بي الأمر إلى...", "meaning_en": "Finally, without planning it, I...", "example": "I ended up staying at home."}
+    ],
+    "grammar": [
+      {"title": "Phrasal verbs can have several meanings", "explanation_ar": "الفعل المركّب الواحد قد يحمل أكثر من معنى، والسياق يحدده: pass out = يُغمى عليه أو يوزّع؛ come to = يستعيد وعيه أو يبلغ مجموعًا؛ pick up = يلتقط أو يُقِلّ أو يلتقط إشارة.", "explanation_en": "One phrasal verb can have several meanings; context decides: pass out = faint / hand out; come to = wake after fainting / add up to; pick up = lift / collect someone / receive a signal.", "examples": ["He passed out from the heat.", "The teacher passed out the papers.", "Your bill comes to 20 dollars."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which means \"to come to a place that was not planned\"?", "choices": ["end up", "start out", "build up", "talk into"], "answer": 0, "explanation_ar": "end up = ينتهي به المطاف في مكان غير مخطط.", "explanation_en": "End up = arrive somewhere unplanned."},
+    {"question": "Which means \"to accumulate by putting parts together\"?", "choices": ["die down", "build up", "pass out", "come to"], "answer": 1, "explanation_ar": "build up = يتراكم ويكبر.", "explanation_en": "Build up = accumulate."},
+    {"question": "Which means \"to become conscious again\"?", "choices": ["pass out", "end up", "come to", "start out"], "answer": 2, "explanation_ar": "come to = يستعيد وعيه.", "explanation_en": "Come to = become conscious again."},
+    {"question": "Which means \"to stop someone doing something by talking about reasons not to\"?", "choices": ["talk into", "build up", "end up", "talk out of"], "answer": 3, "explanation_ar": "talk someone out of = يقنعه ألا يفعل.", "explanation_en": "Talk out of = persuade not to."},
+    {"question": "\"The wind ___ in the evening.\" (became weaker)", "choices": ["died down", "built up", "came to", "talked into"], "answer": 0, "explanation_ar": "die down = يخفت تدريجيًا.", "explanation_en": "Die down = become less strong."},
+    {"question": "\"The salesman ___ me ___ buying an expensive car.\"", "choices": ["talked / out of", "talked / into", "passed / out", "built / up"], "answer": 1, "explanation_ar": "talk someone into = يقنعه أن يفعل.", "explanation_en": "Talk into = persuade to do."},
+    {"question": "\"It was very hot, and a woman on the bus ___.\"", "choices": ["came to", "started out", "passed out", "built up"], "answer": 2, "explanation_ar": "pass out = يُغمى عليه.", "explanation_en": "Pass out = faint."},
+    {"question": "\"Water is $2 and bread is $3. That ___ $5.\"", "choices": ["passes out", "ends up", "dies down", "comes to"], "answer": 3, "explanation_ar": "come to = يبلغ مجموعه.", "explanation_en": "Come to = add up to."},
+    {"question": "\"Can you ___ the tests, please?\" (give to everyone)", "choices": ["pass out", "come to", "die down", "end up"], "answer": 0, "explanation_ar": "pass out هنا = يوزّع.", "explanation_en": "Pass out here = hand out."},
+    {"question": "After a normal night's sleep, you ___.", "choices": ["come to", "wake up", "pass out", "die down"], "answer": 1, "explanation_ar": "بعد النوم العادي نقول wake up.", "explanation_en": "After normal sleep, you wake up."}
+  ]
+}

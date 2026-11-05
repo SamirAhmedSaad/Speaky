@@ -1,0 +1,50 @@
+{
+  "title": "Definite Adverbs of Frequency",
+  "content": {
+    "vocabulary": [
+      {"word": "adverb of frequency", "pos": "noun", "meaning_en": "a word that tells how often something happens", "meaning_ar": "ظرف التكرار", "note_ar": "", "note_en": "", "example": "\"Always\" and \"daily\" are adverbs of frequency."},
+      {"word": "indefinite", "pos": "adjective", "meaning_en": "not exact", "meaning_ar": "غير محدد", "note_ar": "", "note_en": "", "example": "\"Usually\" is an indefinite adverb of frequency."},
+      {"word": "definite", "pos": "adjective", "meaning_en": "exact, clear", "meaning_ar": "محدد", "note_ar": "", "note_en": "", "example": "\"Twice a week\" is definite."},
+      {"word": "once", "pos": "adverb", "meaning_en": "one time", "meaning_ar": "مرة واحدة", "note_ar": "تُنطق /wʌns/", "note_en": "Pronounced /wʌns/.", "example": "I visit my uncle once a month."},
+      {"word": "twice", "pos": "adverb", "meaning_en": "two times", "meaning_ar": "مرتين", "note_ar": "", "note_en": "", "example": "I've told you twice!"},
+      {"word": "three times", "pos": "phrase", "meaning_en": "on three occasions", "meaning_ar": "ثلاث مرات", "note_ar": "من ثلاثة فما فوق نقول times", "note_en": "From three up, use \"times\".", "example": "I go to the gym three times a week."},
+      {"word": "hourly", "pos": "adverb", "meaning_en": "every hour", "meaning_ar": "كل ساعة", "note_ar": "حرف h صامت", "note_en": "The h is silent.", "example": "The bus leaves hourly."},
+      {"word": "daily", "pos": "adverb", "meaning_en": "every day", "meaning_ar": "يوميًا", "note_ar": "", "note_en": "", "example": "You should call your mother daily."},
+      {"word": "weekly", "pos": "adverb", "meaning_en": "every week", "meaning_ar": "أسبوعيًا", "note_ar": "", "note_en": "", "example": "We have a meeting weekly."},
+      {"word": "monthly", "pos": "adverb", "meaning_en": "every month", "meaning_ar": "شهريًا", "note_ar": "", "note_en": "", "example": "Do you check the reports monthly?"},
+      {"word": "annually", "pos": "adverb", "meaning_en": "every year (more common than \"yearly\")", "meaning_ar": "سنويًا", "note_ar": "أكثر استعمالًا من yearly", "note_en": "More common than \"yearly\".", "example": "You should renew your licence annually."},
+      {"word": "renew", "pos": "verb", "meaning_en": "make something valid again for a new period", "meaning_ar": "يجدّد", "note_ar": "", "note_en": "", "example": "I need to renew my passport."},
+      {"word": "license", "pos": "noun", "meaning_en": "an official paper that lets you do something, e.g. drive", "meaning_ar": "رخصة", "note_ar": "في بريطانيا: licence", "note_en": "UK spelling: licence.", "example": "Show me your driving license, please."},
+      {"word": "occasionally", "pos": "adverb", "meaning_en": "sometimes, not often", "meaning_ar": "أحيانًا / من حين لآخر", "note_ar": "", "note_en": "", "example": "I occasionally eat fast food."},
+      {"word": "emphasis", "pos": "noun", "meaning_en": "extra strength on a word or idea", "meaning_ar": "توكيد", "note_ar": "", "note_en": "", "example": "Put \"twice\" first for emphasis."}
+    ],
+    "fine_lines": [
+      {"title": "indefinite vs definite frequency", "words": ["usually / often / sometimes", "twice a week / daily"], "explanation_ar": "الظروف غير المحددة (always 100%, usually, often, sometimes, rarely, never 0%) لا تخبرنا بالعدد الدقيق. الظروف المحددة تخبرنا بالعدد (twice a week) أو بالفترة (daily, monthly).", "explanation_en": "Indefinite adverbs (always 100%, usually, often, sometimes, rarely, never 0%) don't give an exact number. Definite ones give the number (twice a week) or the time period (daily, monthly).", "examples": [{"word": "usually / often / sometimes", "sentence": "I often go to the gym. (How often exactly? We don't know.)"}, {"word": "twice a week / daily", "sentence": "I go to the gym three times a week."}]},
+      {"title": "once / twice vs one time / two times", "words": ["twice", "two times"], "explanation_ar": "يمكن قول once أو one time، و twice أو two times. من الثلاثة فما فوق نقول three times, four times.", "explanation_en": "You can say \"once\" or \"one time\", \"twice\" or \"two times\". From three up: three times, four times.", "examples": [{"word": "twice", "sentence": "I eat fish twice a week."}, {"word": "two times", "sentence": "I eat fish two times a week."}]},
+      {"title": "annually vs yearly", "words": ["annually", "yearly"], "explanation_ar": "المعنى نفسه (كل سنة)، لكن annually أكثر استعمالًا.", "explanation_en": "Same meaning (every year), but \"annually\" is more common.", "examples": [{"word": "annually", "sentence": "The company checks its accounts annually."}, {"word": "yearly", "sentence": "We have a yearly meeting."}]}
+    ],
+    "expressions": [
+      {"phrase": "I've told you twice!", "meaning_ar": "قلت لك مرتين!", "meaning_en": "A strong complaint that you said it two times already.", "example": "Twice I've told you not to do that!"},
+      {"phrase": "three times a week", "meaning_ar": "ثلاث مرات في الأسبوع", "meaning_en": "in any week, three times", "example": "I study English three times a week."},
+      {"phrase": "once a year", "meaning_ar": "مرة في السنة", "meaning_en": "one time in any year", "example": "We visit our grandparents once a year."}
+    ],
+    "grammar": [
+      {"title": "Number + a + time period", "explanation_ar": "لنقول عدد المرات في فترة: once / twice / three times + a + week / month / year. أداة a تعني \"أي أسبوع\" بشكل عام.", "explanation_en": "To say how many times in a period: once / twice / three times + a + week / month / year. The article \"a\" means any week, in general.", "examples": ["I go to the gym three times a week.", "She calls me twice a month."]},
+      {"title": "Time-period adverbs: hourly, daily, weekly, monthly, annually", "explanation_ar": "هذه الظروف تخبرنا بالفترة التي يتكرر فيها الشيء، ومنها نعرف العدد: monthly = 12 مرة في السنة. نقول annually أكثر من yearly. وقول I go weekly to the gym صحيح نحويًا لكنه غير شائع.", "explanation_en": "These adverbs tell the period of repetition, and from that we know the number: monthly = 12 times a year. We say \"annually\" more than \"yearly\". \"I go weekly to the gym\" is correct but not common.", "examples": ["You should renew your licence annually.", "Call your mother daily.", "The buses run hourly."]},
+      {"title": "Position: at the end (normal) or at the start (emphasis)", "explanation_ar": "عادةً نضع ظرف التكرار المحدد في آخر الجملة. إذا وضعناه في أولها فللتوكيد.", "explanation_en": "Usually put a definite adverb of frequency at the end of the sentence. Put it at the start for emphasis.", "examples": ["I go to the gym three times a week. (normal)", "Twice I've told you not to do that! (emphasis)"]},
+      {"title": "Indefinite adverbs (review)", "explanation_ar": "always (100%) – usually – often (حوالي 70%) – sometimes – occasionally – rarely – never (0%). تخبرنا كم مرة تقريبًا فقط.", "explanation_en": "always (100%) – usually – often (about 70%) – sometimes – occasionally – rarely – never (0%). They only tell how often roughly.", "examples": ["I usually get up at seven.", "He never eats meat."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I go to the gym ___ a week.\"", "choices": ["regularly", "three times", "usually", "often"], "answer": 1, "explanation_ar": "مع a week نحتاج عددًا محددًا: three times.", "explanation_en": "With \"a week\" we need an exact number: three times."},
+    {"question": "\"Annually\" means ___.", "choices": ["every day", "every month", "every year", "every hour"], "answer": 2, "explanation_ar": "annually = سنويًا.", "explanation_en": "\"Annually\" = every year."},
+    {"question": "Which is a definite adverb of frequency?", "choices": ["usually", "often", "sometimes", "monthly"], "answer": 3, "explanation_ar": "monthly تحدد الفترة بدقة.", "explanation_en": "\"Monthly\" gives an exact period."},
+    {"question": "\"Twice\" means ___.", "choices": ["two times", "one time", "three times", "never"], "answer": 0, "explanation_ar": "twice = مرتين.", "explanation_en": "\"Twice\" = two times."},
+    {"question": "If you do something monthly, you do it about ___ times a year.", "choices": ["1", "52", "12", "365"], "answer": 2, "explanation_ar": "12 شهرًا في السنة.", "explanation_en": "There are 12 months in a year."},
+    {"question": "Where do we usually put \"three times a week\"?", "choices": ["at the end of the sentence", "before the subject always", "between the verb and its object", "it can't be used"], "answer": 0, "explanation_ar": "عادة في آخر الجملة.", "explanation_en": "Usually at the end of the sentence."},
+    {"question": "\"Twice I've told you not to do that!\" Why is \"twice\" at the start?", "choices": ["it's a question", "for emphasis", "it's a mistake", "because it's indefinite"], "answer": 1, "explanation_ar": "للتوكيد.", "explanation_en": "For emphasis."},
+    {"question": "\"You should call your mother ___.\" (every day)", "choices": ["annually", "hourly", "weekly", "daily"], "answer": 3, "explanation_ar": "كل يوم: daily.", "explanation_en": "Every day: daily."},
+    {"question": "Which word is more common than \"yearly\"?", "choices": ["annually", "hourly", "monthly", "rarely"], "answer": 0, "explanation_ar": "annually أكثر استعمالًا.", "explanation_en": "\"Annually\" is more common."},
+    {"question": "\"Always\" is ___.", "choices": ["0%", "50%", "100%", "70%"], "answer": 2, "explanation_ar": "always = دائمًا = 100%.", "explanation_en": "\"Always\" = 100%."}
+  ]
+}

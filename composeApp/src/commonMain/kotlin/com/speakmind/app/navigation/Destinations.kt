@@ -63,10 +63,26 @@ data object PeopleDestination
 data object AdminReportsDestination
 
 @Serializable
+data object AdminChatsDestination
+
+/** Read-only view of one private chat for admins. */
+@Serializable
+data class AdminChatDestination(
+    val roomId: String,
+    val userAId: String,
+    val userAName: String,
+    val userBId: String?,
+    val userBName: String,
+)
+
+@Serializable
 data object MyGroupsDestination
 
 @Serializable
 data class GroupDetailDestination(val groupId: Long, val groupName: String)
+
+@Serializable
+data object CoursesDestination
 
 @Serializable
 data class CourseDestination(val courseId: String, val title: String)

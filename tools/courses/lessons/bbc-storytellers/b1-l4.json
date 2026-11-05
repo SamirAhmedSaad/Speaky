@@ -1,0 +1,339 @@
+{
+  "title": "Nell's Book",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "library",
+        "pos": "noun",
+        "meaning_en": "a place with many books you can read or borrow",
+        "meaning_ar": "مكتبة (عامة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Nell was in the library."
+      },
+      {
+        "word": "book",
+        "pos": "noun",
+        "meaning_en": "pages with words and pictures to read",
+        "meaning_ar": "كتاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She was reading a book about cats."
+      },
+      {
+        "word": "phone",
+        "pos": "noun",
+        "meaning_en": "a small device for calling people",
+        "meaning_ar": "هاتف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sunita had a phone."
+      },
+      {
+        "word": "tablet",
+        "pos": "noun",
+        "meaning_en": "a flat computer with a touch screen",
+        "meaning_ar": "جهاز لوحي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Saffron had a tablet."
+      },
+      {
+        "word": "gadget",
+        "pos": "noun",
+        "meaning_en": "a small modern machine",
+        "meaning_ar": "جهاز صغير / أداة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Books are better than gadgets."
+      },
+      {
+        "word": "cat",
+        "pos": "noun",
+        "meaning_en": "a small animal that people keep at home",
+        "meaning_ar": "قطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The cat had golden eyes."
+      },
+      {
+        "word": "kitten",
+        "pos": "noun",
+        "meaning_en": "a baby cat",
+        "meaning_ar": "قطّ صغير / هُريرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love kittens."
+      },
+      {
+        "word": "puppy",
+        "pos": "noun",
+        "meaning_en": "a baby dog",
+        "meaning_ar": "جرو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Six puppies came out of the book."
+      },
+      {
+        "word": "rabbit",
+        "pos": "noun",
+        "meaning_en": "a small animal with long ears",
+        "meaning_ar": "أرنب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Four grey rabbits came out."
+      },
+      {
+        "word": "parrot",
+        "pos": "noun",
+        "meaning_en": "a colourful bird that can copy words",
+        "meaning_ar": "ببغاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A red parrot came out."
+      },
+      {
+        "word": "pet",
+        "pos": "noun",
+        "meaning_en": "an animal you keep at home",
+        "meaning_ar": "حيوان أليف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Nell had no pets."
+      },
+      {
+        "word": "photo",
+        "pos": "noun",
+        "meaning_en": "a picture made with a camera",
+        "meaning_ar": "صورة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The photos are lovely."
+      },
+      {
+        "word": "page",
+        "pos": "noun",
+        "meaning_en": "one side of paper in a book",
+        "meaning_ar": "صفحة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She turned the page."
+      },
+      {
+        "word": "fur",
+        "pos": "noun",
+        "meaning_en": "the soft hair of an animal",
+        "meaning_ar": "فرو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The cat's fur was grey."
+      },
+      {
+        "word": "soft",
+        "pos": "adjective",
+        "meaning_en": "nice to touch, not hard",
+        "meaning_ar": "ناعم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The fur was soft."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "cat / kitten, dog / puppy",
+        "words": [
+          "kitten",
+          "puppy"
+        ],
+        "explanation_ar": "kitten صغير القطة، و puppy صغير الكلب.",
+        "explanation_en": "A kitten is a baby cat. A puppy is a baby dog.",
+        "examples": [
+          {
+            "word": "kitten",
+            "sentence": "The kitten is very small."
+          },
+          {
+            "word": "puppy",
+            "sentence": "The puppy ate my sandal."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Why don't you look at books?",
+        "meaning_ar": "لماذا لا تنظرين إلى الكتب؟",
+        "meaning_en": "A suggestion.",
+        "example": "Why don't you read this book?"
+      },
+      {
+        "phrase": "Me too.",
+        "meaning_ar": "وأنا أيضًا.",
+        "meaning_en": "The same for me.",
+        "example": "I like cats. - Me too."
+      },
+      {
+        "phrase": "Books are better than gadgets.",
+        "meaning_ar": "الكتب أفضل من الأجهزة.",
+        "meaning_en": "Saying you prefer books.",
+        "example": "I think books are better than phones."
+      },
+      {
+        "phrase": "Are you ready to go to sleep?",
+        "meaning_ar": "هل أنت مستعدة للنوم؟",
+        "meaning_en": "A parent asks at night.",
+        "example": "It's late. Are you ready to go to sleep?"
+      },
+      {
+        "phrase": "Quick!",
+        "meaning_ar": "بسرعة!",
+        "meaning_en": "Do it fast.",
+        "example": "Quick! Mum is coming!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Comparing: better than",
+        "explanation_ar": "نقارن بين شيئين بـ better than: Books are better than gadgets. better هي صيغة المقارنة من good.",
+        "explanation_en": "Compare two things with \"better than\". \"better\" comes from \"good\".",
+        "examples": [
+          "Books are better than gadgets.",
+          "Nothing is better than the real thing.",
+          "My book is better than your tablet."
+        ]
+      },
+      {
+        "title": "like / love + noun",
+        "explanation_ar": "نعبّر عما نحبه بـ I like + اسم، و I love + اسم أقوى من like.",
+        "explanation_en": "Say what you enjoy: I like cats. I love kittens. \"love\" is stronger than \"like\".",
+        "examples": [
+          "I like books.",
+          "I love kittens.",
+          "She likes cats."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where were Nell and her friends?",
+      "choices": [
+        "in the library",
+        "at the zoo",
+        "in the park",
+        "at home"
+      ],
+      "answer": 0,
+      "explanation_ar": "كانوا في المكتبة.",
+      "explanation_en": "They were in the library."
+    },
+    {
+      "question": "What came out of Nell's book first?",
+      "choices": [
+        "a dog",
+        "a grey cat",
+        "a parrot",
+        "a rabbit"
+      ],
+      "answer": 1,
+      "explanation_ar": "خرجت أولًا قطة رمادية.",
+      "explanation_en": "A smoky grey cat came out first."
+    },
+    {
+      "question": "A baby dog is a ___.",
+      "choices": [
+        "kitten",
+        "rabbit",
+        "puppy",
+        "parrot"
+      ],
+      "answer": 2,
+      "explanation_ar": "صغير الكلب = puppy.",
+      "explanation_en": "A baby dog is a puppy."
+    },
+    {
+      "question": "A baby cat is a ___.",
+      "choices": [
+        "puppy",
+        "mouse",
+        "pet",
+        "kitten"
+      ],
+      "answer": 3,
+      "explanation_ar": "صغير القطة = kitten.",
+      "explanation_en": "A baby cat is a kitten."
+    },
+    {
+      "question": "Books are ___ gadgets.",
+      "choices": [
+        "better than",
+        "good than",
+        "more good",
+        "best than"
+      ],
+      "answer": 0,
+      "explanation_ar": "المقارنة الصحيحة better than.",
+      "explanation_en": "Correct: better than."
+    },
+    {
+      "question": "Saffron had a ___.",
+      "choices": [
+        "book",
+        "tablet",
+        "cat",
+        "parrot"
+      ],
+      "answer": 1,
+      "explanation_ar": "كان مع سافرون جهاز لوحي.",
+      "explanation_en": "Saffron had a tablet."
+    },
+    {
+      "question": "The cat's fur was ___. (nice to touch)",
+      "choices": [
+        "hard",
+        "old",
+        "soft",
+        "boring"
+      ],
+      "answer": 2,
+      "explanation_ar": "soft = ناعم.",
+      "explanation_en": "soft = nice to touch."
+    },
+    {
+      "question": "Why did the pets go back into the book?",
+      "choices": [
+        "They were hungry.",
+        "Nell was bored.",
+        "They were tired.",
+        "Mum was coming."
+      ],
+      "answer": 3,
+      "explanation_ar": "عادت الحيوانات لأن الأم كانت قادمة.",
+      "explanation_en": "Mum was coming up the stairs."
+    },
+    {
+      "question": "I like cats. - Me ___.",
+      "choices": [
+        "too",
+        "two",
+        "to",
+        "so"
+      ],
+      "answer": 0,
+      "explanation_ar": "الرد Me too.",
+      "explanation_en": "Say \"Me too.\""
+    },
+    {
+      "question": "\"library\" in Arabic is ___.",
+      "choices": [
+        "مكتبة",
+        "متجر",
+        "مدرسة",
+        "مطبخ"
+      ],
+      "answer": 0,
+      "explanation_ar": "library = مكتبة.",
+      "explanation_en": "A library has many books."
+    }
+  ]
+}

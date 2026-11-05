@@ -1,0 +1,571 @@
+{
+  "title": "At the Restaurant",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "table",
+        "pos": "noun",
+        "meaning_en": "a piece of furniture you eat at; a place in a restaurant",
+        "meaning_ar": "طاولة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A table for four, please."
+      },
+      {
+        "word": "available",
+        "pos": "adjective",
+        "meaning_en": "free to use or get",
+        "meaning_ar": "متاح / متوفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have any tables available?"
+      },
+      {
+        "word": "menu",
+        "pos": "noun",
+        "meaning_en": "a list of the food in a restaurant",
+        "meaning_ar": "قائمة الطعام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could we see the menu, please?"
+      },
+      {
+        "word": "recommend",
+        "pos": "verb",
+        "meaning_en": "to suggest something as good",
+        "meaning_ar": "يوصي / ينصح بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What do you recommend?"
+      },
+      {
+        "word": "vegetarian",
+        "pos": "noun / adjective",
+        "meaning_en": "a person who doesn't eat meat; food without meat",
+        "meaning_ar": "نباتي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have vegetarian dishes?"
+      },
+      {
+        "word": "steak",
+        "pos": "noun",
+        "meaning_en": "a thick piece of meat",
+        "meaning_ar": "شريحة لحم (ستيك)",
+        "note_ar": "تُنطق /steɪk/ مثل take",
+        "note_en": "Say /steɪk/, like \"take\".",
+        "example": "I'd like the steak medium, please."
+      },
+      {
+        "word": "rare / medium / well-done",
+        "pos": "adjective",
+        "meaning_en": "how much meat is cooked: a little / in the middle / completely",
+        "meaning_ar": "قليل الطهي / متوسط / مطهو جيدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like my steak well-done."
+      },
+      {
+        "word": "fries",
+        "pos": "noun",
+        "meaning_en": "long thin pieces of fried potato",
+        "meaning_ar": "بطاطس مقلية",
+        "note_ar": "في بريطانيا تُسمى chips",
+        "note_en": "In British English: chips.",
+        "example": "Does it come with fries?"
+      },
+      {
+        "word": "included",
+        "pos": "adjective",
+        "meaning_en": "part of the price or the dish",
+        "meaning_ar": "مشمول / ضمن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is the salad included?"
+      },
+      {
+        "word": "ingredients",
+        "pos": "noun",
+        "meaning_en": "the foods that a dish is made from",
+        "meaning_ar": "المكونات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What are the ingredients in this sauce?"
+      },
+      {
+        "word": "spicy",
+        "pos": "adjective",
+        "meaning_en": "hot, with strong pepper taste",
+        "meaning_ar": "حار (طعم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is this soup spicy?"
+      },
+      {
+        "word": "nuts",
+        "pos": "noun",
+        "meaning_en": "small hard fruits like almonds",
+        "meaning_ar": "مكسرات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm allergic to nuts."
+      },
+      {
+        "word": "allergic",
+        "pos": "adjective",
+        "meaning_en": "getting sick from a certain food or thing",
+        "meaning_ar": "لديه حساسية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My son is allergic to milk."
+      },
+      {
+        "word": "healthy",
+        "pos": "adjective",
+        "meaning_en": "good for your body",
+        "meaning_ar": "صحي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have any healthy options?"
+      },
+      {
+        "word": "napkin",
+        "pos": "noun",
+        "meaning_en": "a piece of paper or cloth to clean your mouth and hands",
+        "meaning_ar": "منديل (طعام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I get some more napkins?"
+      },
+      {
+        "word": "refill",
+        "pos": "noun",
+        "meaning_en": "filling a cup or glass again",
+        "meaning_ar": "إعادة تعبئة",
+        "note_ar": "تُنطق /ˈriːfɪl/ كاسم",
+        "note_en": "As a noun say /ˈriːfɪl/.",
+        "example": "Can I get a refill on my drink?"
+      },
+      {
+        "word": "bill / check",
+        "pos": "noun",
+        "meaning_en": "the paper that shows what you must pay",
+        "meaning_ar": "الفاتورة / الحساب",
+        "note_ar": "bill بريطانية، check أمريكية",
+        "note_en": "\"Bill\" is British, \"check\" is American.",
+        "example": "Could we have the bill, please?"
+      },
+      {
+        "word": "delicious",
+        "pos": "adjective",
+        "meaning_en": "tasting very good",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The food was delicious."
+      },
+      {
+        "word": "service",
+        "pos": "noun",
+        "meaning_en": "the work waiters do for customers",
+        "meaning_ar": "الخدمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The service was excellent."
+      },
+      {
+        "word": "atmosphere",
+        "pos": "noun",
+        "meaning_en": "the feeling or mood of a place",
+        "meaning_ar": "الأجواء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This restaurant has a lovely atmosphere."
+      },
+      {
+        "word": "meal",
+        "pos": "noun",
+        "meaning_en": "food eaten at one time (breakfast, lunch, dinner)",
+        "meaning_ar": "وجبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for a wonderful meal."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Can I vs May I vs Could I",
+        "words": [
+          "can",
+          "may",
+          "could"
+        ],
+        "explanation_ar": "الثلاثة تُستخدم للطلب. Can I عادية، Could I أكثر أدبًا، May I أكثر رسمية ورقيًا. كلها صحيحة.",
+        "explanation_en": "All three make requests. \"Can I\" is normal, \"Could I\" is more polite, \"May I\" is the most formal. All are correct.",
+        "examples": [
+          {
+            "word": "can",
+            "sentence": "Can I see the menu?"
+          },
+          {
+            "word": "could",
+            "sentence": "Could I have some water?"
+          },
+          {
+            "word": "may",
+            "sentence": "May I see the menu, please?"
+          }
+        ]
+      },
+      {
+        "title": "rare vs medium vs well-done",
+        "words": [
+          "rare",
+          "medium",
+          "well-done"
+        ],
+        "explanation_ar": "درجات طهي اللحم: rare قليل الطهي، medium متوسط، well-done مطهو تمامًا.",
+        "explanation_en": "How cooked the meat is: rare = a little, medium = in the middle, well-done = fully cooked.",
+        "examples": [
+          {
+            "word": "rare",
+            "sentence": "He likes his steak rare."
+          },
+          {
+            "word": "medium",
+            "sentence": "Can I get the steak medium, please?"
+          },
+          {
+            "word": "well-done",
+            "sentence": "I prefer my meat well-done."
+          }
+        ]
+      },
+      {
+        "title": "bill vs check",
+        "words": [
+          "bill",
+          "check"
+        ],
+        "explanation_ar": "كلاهما فاتورة المطعم: bill في بريطانيا، check في أمريكا.",
+        "explanation_en": "Both are the restaurant bill: \"bill\" in the UK, \"check\" in the US.",
+        "examples": [
+          {
+            "word": "bill",
+            "sentence": "Could we have the bill, please?"
+          },
+          {
+            "word": "check",
+            "sentence": "Can I get the check?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Hi, a table for two, please.",
+        "meaning_ar": "مرحبًا، طاولة لشخصين من فضلك.",
+        "meaning_en": "Asking for a table when you arrive.",
+        "example": "Hi, a table for two, please."
+      },
+      {
+        "phrase": "Good evening. Do you have any tables available?",
+        "meaning_ar": "مساء الخير، هل لديكم طاولات متاحة؟",
+        "meaning_en": "Asking if there is a free table.",
+        "example": "Good evening. Do you have any tables available for four?"
+      },
+      {
+        "phrase": "Could we sit by the window, please?",
+        "meaning_ar": "هل يمكننا الجلوس بجانب النافذة من فضلك؟",
+        "meaning_en": "Asking for a table near the window.",
+        "example": "Could we sit by the window, please? The view is nice."
+      },
+      {
+        "phrase": "Thank you for your help.",
+        "meaning_ar": "شكرًا لمساعدتك.",
+        "meaning_en": "Thanking the staff politely.",
+        "example": "Thank you for your help. We'll wait here."
+      },
+      {
+        "phrase": "May I see the menu, please?",
+        "meaning_ar": "هل يمكنني رؤية القائمة من فضلك؟",
+        "meaning_en": "A polite way to ask for the menu.",
+        "example": "May I see the menu, please?"
+      },
+      {
+        "phrase": "I'll have the chicken sandwich, please.",
+        "meaning_ar": "سآخذ ساندويتش الدجاج من فضلك.",
+        "meaning_en": "Ordering a dish.",
+        "example": "I'll have the chicken sandwich, please."
+      },
+      {
+        "phrase": "What do you recommend for vegetarians?",
+        "meaning_ar": "ماذا تنصح للنباتيين؟",
+        "meaning_en": "Asking for a suggestion without meat.",
+        "example": "What do you recommend for vegetarians?"
+      },
+      {
+        "phrase": "Can I get the steak medium, please?",
+        "meaning_ar": "هل يمكنني الحصول على الستيك متوسط الطهي؟",
+        "meaning_en": "Ordering with extra details.",
+        "example": "Can I get the steak medium, please, with extra salad?"
+      },
+      {
+        "phrase": "Does it come with fries?",
+        "meaning_ar": "هل يأتي مع بطاطس مقلية؟",
+        "meaning_en": "Asking what is included with the dish.",
+        "example": "The burger looks good. Does it come with fries?"
+      },
+      {
+        "phrase": "I'd like a glass of water, please.",
+        "meaning_ar": "أود كوبًا من الماء من فضلك.",
+        "meaning_en": "Ordering a drink politely.",
+        "example": "I'd like a glass of water, please."
+      },
+      {
+        "phrase": "What are the ingredients in this pasta dish?",
+        "meaning_ar": "ما مكونات طبق المعكرونة هذا؟",
+        "meaning_en": "Asking what is in the food.",
+        "example": "What are the ingredients in this pasta dish? I can't eat cheese."
+      },
+      {
+        "phrase": "Is this soup spicy?",
+        "meaning_ar": "هل هذا الحساء حار؟",
+        "meaning_en": "Asking about the taste.",
+        "example": "Is this soup spicy? I don't like hot food."
+      },
+      {
+        "phrase": "Could you make it without nuts, please?",
+        "meaning_ar": "هل يمكنك تحضيره بدون مكسرات من فضلك؟",
+        "meaning_en": "Asking to change a dish (for example because of an allergy).",
+        "example": "I'm allergic. Could you make it without nuts, please?"
+      },
+      {
+        "phrase": "Do you have any healthy options?",
+        "meaning_ar": "هل لديكم خيارات صحية؟",
+        "meaning_en": "Asking for healthy food.",
+        "example": "I'm on a diet. Do you have any healthy options?"
+      },
+      {
+        "phrase": "How long will the food take?",
+        "meaning_ar": "كم سيستغرق الطعام؟",
+        "meaning_en": "Asking how long you must wait.",
+        "example": "We're in a hurry. How long will the food take?"
+      },
+      {
+        "phrase": "Could I get some more napkins, please?",
+        "meaning_ar": "هل يمكنني الحصول على مزيد من المناديل؟",
+        "meaning_en": "Asking for extra napkins.",
+        "example": "Could I get some more napkins, please? The kids made a mess."
+      },
+      {
+        "phrase": "Can I get a refill on my drink?",
+        "meaning_ar": "هل يمكنني إعادة تعبئة مشروبي؟",
+        "meaning_en": "Asking for your glass to be filled again.",
+        "example": "Excuse me, can I get a refill on my drink?"
+      },
+      {
+        "phrase": "Could I have this dish with less salt?",
+        "meaning_ar": "هل يمكنني الحصول على هذا الطبق بملح أقل؟",
+        "meaning_en": "Asking for a change in cooking.",
+        "example": "Could I have this dish with less salt, please?"
+      },
+      {
+        "phrase": "Could I get a box for this, please?",
+        "meaning_ar": "هل يمكنني الحصول على علبة لهذا؟",
+        "meaning_en": "Asking to take the rest of your food home.",
+        "example": "I can't finish it. Could I get a box for this, please?"
+      },
+      {
+        "phrase": "Could we have the bill, please?",
+        "meaning_ar": "هل يمكننا الحصول على الفاتورة من فضلك؟",
+        "meaning_en": "Asking to pay.",
+        "example": "Could we have the bill, please?"
+      },
+      {
+        "phrase": "The food was delicious, thank you.",
+        "meaning_ar": "كان الطعام لذيذًا، شكرًا.",
+        "meaning_en": "Giving a nice comment about the food.",
+        "example": "How was everything? - The food was delicious, thank you."
+      },
+      {
+        "phrase": "The service was excellent.",
+        "meaning_ar": "كانت الخدمة ممتازة.",
+        "meaning_en": "Praising the waiters.",
+        "example": "The service was excellent. Thank you."
+      },
+      {
+        "phrase": "This restaurant has a lovely atmosphere.",
+        "meaning_ar": "هذا المطعم أجواؤه جميلة.",
+        "meaning_en": "Praising the place.",
+        "example": "This restaurant has a lovely atmosphere. We'll come again."
+      },
+      {
+        "phrase": "It was a great dining experience.",
+        "meaning_ar": "كانت تجربة طعام رائعة.",
+        "meaning_en": "The whole visit was very good.",
+        "example": "Thank you, it was a great dining experience."
+      },
+      {
+        "phrase": "Thank you for a wonderful meal.",
+        "meaning_ar": "شكرًا على وجبة رائعة.",
+        "meaning_en": "A warm thank you at the end.",
+        "example": "Thank you for a wonderful meal!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Ordering: I'll have... / I'd like...",
+        "explanation_ar": "لطلب الطعام نقول I'll have + اسم الطبق (سآخذ...) أو I'd like + اسم (أود...). كلاهما مهذب وطبيعي، ونضيف please في النهاية.",
+        "explanation_en": "To order, say \"I'll have + dish\" or \"I'd like + dish\". Both are polite and natural. Add \"please\" at the end.",
+        "examples": [
+          "I'll have the chicken sandwich, please.",
+          "I'd like a glass of water, please.",
+          "I'll have the soup to start."
+        ]
+      },
+      {
+        "title": "Polite requests: Can I / Could I / May I + verb",
+        "explanation_ar": "نطلب شيئًا لأنفسنا بـ Can I أو Could I أو May I + الفعل الأصلي. May I هي الأكثر رسمية، وCould I مهذبة جدًا.",
+        "explanation_en": "Ask for something for yourself with Can I / Could I / May I + base verb. \"May I\" is the most formal; \"Could I\" is very polite.",
+        "examples": [
+          "May I see the menu, please?",
+          "Could I get some more napkins?",
+          "Can I get a refill on my drink?"
+        ]
+      },
+      {
+        "title": "Could you + verb + without / with less...",
+        "explanation_ar": "لطلب تغيير في الطبق نقول Could you make it + without + اسم (بدون) أو with less/more + اسم (بكمية أقل/أكثر).",
+        "explanation_en": "To change a dish: \"Could you make it without + noun\" or \"with less/more + noun\".",
+        "examples": [
+          "Could you make it without nuts, please?",
+          "Could I have it with less salt?",
+          "Could you make it with more sauce?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "You arrive at a restaurant with one friend. You say:",
+      "choices": [
+        "A table for two, please.",
+        "A menu for two, please.",
+        "Two bills, please.",
+        "A refill for two."
+      ],
+      "answer": 0,
+      "explanation_ar": "طلب طاولة لشخصين: A table for two, please.",
+      "explanation_en": "Ask for a table: \"A table for two, please.\""
+    },
+    {
+      "question": "Which is the most formal way to ask for the menu?",
+      "choices": [
+        "Menu!",
+        "Give me the menu.",
+        "May I see the menu, please?",
+        "I want menu."
+      ],
+      "answer": 2,
+      "explanation_ar": "May I... هي الطريقة الأكثر رسمية وأدبًا.",
+      "explanation_en": "\"May I...\" is the most formal and polite."
+    },
+    {
+      "question": "\"Is this soup ___?\" (hot with pepper)",
+      "choices": [
+        "spicy",
+        "delicious",
+        "available",
+        "healthy"
+      ],
+      "answer": 0,
+      "explanation_ar": "spicy = حار الطعم.",
+      "explanation_en": "\"Spicy\" means hot with pepper."
+    },
+    {
+      "question": "You want your steak fully cooked. You ask for it:",
+      "choices": [
+        "rare",
+        "medium",
+        "raw",
+        "well-done"
+      ],
+      "answer": 3,
+      "explanation_ar": "well-done = مطهو تمامًا.",
+      "explanation_en": "\"Well-done\" means fully cooked."
+    },
+    {
+      "question": "You are allergic to nuts. You say:",
+      "choices": [
+        "Could you make it with nuts, please?",
+        "Could you make it without nuts, please?",
+        "Do you have nuts available?",
+        "I'd like more nuts."
+      ],
+      "answer": 1,
+      "explanation_ar": "without nuts = بدون مكسرات.",
+      "explanation_en": "\"Without nuts\" means no nuts."
+    },
+    {
+      "question": "What does \"refill\" mean?",
+      "choices": [
+        "a new menu",
+        "a small table",
+        "filling your glass again",
+        "a cold drink"
+      ],
+      "answer": 2,
+      "explanation_ar": "refill = إعادة تعبئة المشروب.",
+      "explanation_en": "A refill fills your glass again."
+    },
+    {
+      "question": "Choose the correct sentence for ordering.",
+      "choices": [
+        "I'll having the sandwich.",
+        "I'll have the sandwich, please.",
+        "I'll to have the sandwich.",
+        "I'll has the sandwich."
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد I'll يأتي الفعل الأصلي have.",
+      "explanation_en": "After \"I'll\" use the base verb \"have\"."
+    },
+    {
+      "question": "You want to pay. You say:",
+      "choices": [
+        "Could we have the bill, please?",
+        "Could we have the menu, please?",
+        "Could we have a napkin, please?",
+        "Could we sit by the window?"
+      ],
+      "answer": 0,
+      "explanation_ar": "bill = الفاتورة.",
+      "explanation_en": "The \"bill\" is what you pay."
+    },
+    {
+      "question": "\"This restaurant has a lovely ___.\" (the feeling of the place)",
+      "choices": [
+        "ingredient",
+        "atmosphere",
+        "refill",
+        "napkin"
+      ],
+      "answer": 1,
+      "explanation_ar": "atmosphere = الأجواء.",
+      "explanation_en": "\"Atmosphere\" is the feeling of a place."
+    },
+    {
+      "question": "\"What do you ___ for vegetarians?\" (asking for advice)",
+      "choices": [
+        "include",
+        "order",
+        "recommend",
+        "available"
+      ],
+      "answer": 2,
+      "explanation_ar": "recommend = ينصح بـ.",
+      "explanation_en": "\"Recommend\" means suggest something good."
+    }
+  ]
+}

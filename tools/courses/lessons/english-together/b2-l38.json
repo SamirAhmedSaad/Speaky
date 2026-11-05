@@ -1,0 +1,370 @@
+{
+  "title": "Talking About Football",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "World Cup",
+        "pos": "noun",
+        "meaning_en": "the big international football competition every four years",
+        "meaning_ar": "كأس العالم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love watching the World Cup."
+      },
+      {
+        "word": "football",
+        "pos": "noun",
+        "meaning_en": "a game where two teams kick a ball into a goal",
+        "meaning_ar": "كرة القدم",
+        "note_ar": "في أمريكا: soccer",
+        "note_en": "US: soccer.",
+        "example": "Football is my favorite sport."
+      },
+      {
+        "word": "sport",
+        "pos": "noun",
+        "meaning_en": "a game or activity for exercise or competition",
+        "meaning_ar": "رياضة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's your favorite sport?"
+      },
+      {
+        "word": "match",
+        "pos": "noun",
+        "meaning_en": "a game between two teams",
+        "meaning_ar": "مباراة",
+        "note_ar": "مرادف: game",
+        "note_en": "Same as \"game\".",
+        "example": "I watch the matches every day."
+      },
+      {
+        "word": "team",
+        "pos": "noun",
+        "meaning_en": "a group of players who play together",
+        "meaning_ar": "فريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Which team do you support?"
+      },
+      {
+        "word": "support",
+        "pos": "verb",
+        "meaning_en": "like and hope a team wins",
+        "meaning_ar": "يشجّع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I support England."
+      },
+      {
+        "word": "goal",
+        "pos": "noun",
+        "meaning_en": "a point scored in football",
+        "meaning_ar": "هدف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There are so many goals!"
+      },
+      {
+        "word": "player",
+        "pos": "noun",
+        "meaning_en": "a person who plays a sport",
+        "meaning_ar": "لاعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Who is your favorite player?"
+      },
+      {
+        "word": "exciting",
+        "pos": "adjective",
+        "meaning_en": "making you feel very interested and happy",
+        "meaning_ar": "مثير / ممتع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The matches are very exciting."
+      },
+      {
+        "word": "weekend",
+        "pos": "noun",
+        "meaning_en": "Saturday and Sunday",
+        "meaning_ar": "عطلة نهاية الأسبوع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I play football on weekends."
+      },
+      {
+        "word": "start",
+        "pos": "verb",
+        "meaning_en": "begin",
+        "meaning_ar": "يبدأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It starts at eight o'clock."
+      },
+      {
+        "word": "popcorn",
+        "pos": "noun",
+        "meaning_en": "a snack made from heated corn",
+        "meaning_ar": "فشار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's buy some popcorn."
+      },
+      {
+        "word": "juice",
+        "pos": "noun",
+        "meaning_en": "a drink made from fruit",
+        "meaning_ar": "عصير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's buy some juice."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "football (UK) vs soccer (US)",
+        "words": [
+          "football",
+          "soccer"
+        ],
+        "explanation_ar": "في بريطانيا ومعظم العالم football. في أمريكا soccer، لأن football عندهم رياضة أخرى.",
+        "explanation_en": "Most of the world says \"football\". Americans say \"soccer\".",
+        "examples": [
+          {
+            "word": "football",
+            "sentence": "I play football with my friends."
+          },
+          {
+            "word": "soccer",
+            "sentence": "In the US, they call it soccer."
+          }
+        ]
+      },
+      {
+        "title": "watch vs play",
+        "words": [
+          "watch",
+          "play"
+        ],
+        "explanation_ar": "watch = تشاهد. play = تلعب.",
+        "explanation_en": "\"Watch\" = look at it. \"Play\" = do the sport.",
+        "examples": [
+          {
+            "word": "watch",
+            "sentence": "I just enjoy watching football."
+          },
+          {
+            "word": "play",
+            "sentence": "I play football on weekends."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Why are you so happy?",
+        "meaning_ar": "لماذا أنت سعيد جدًا؟",
+        "meaning_en": "Asking the reason for a feeling.",
+        "example": "Why are you so tired?"
+      },
+      {
+        "phrase": "Do you like football? / Yes, I love football.",
+        "meaning_ar": "هل تحب كرة القدم؟ / نعم، أحبها كثيرًا.",
+        "meaning_en": "Asking about likes.",
+        "example": "Do you like tennis?"
+      },
+      {
+        "phrase": "It's my favorite sport.",
+        "meaning_ar": "إنها رياضتي المفضلة.",
+        "meaning_en": "Saying what you like most.",
+        "example": "Swimming is my favorite sport."
+      },
+      {
+        "phrase": "Which team do you support?",
+        "meaning_ar": "أي فريق تشجع؟",
+        "meaning_en": "Asking about a team.",
+        "example": "Which team do you support? I support Brazil."
+      },
+      {
+        "phrase": "They play very well.",
+        "meaning_ar": "إنهم يلعبون جيدًا جدًا.",
+        "meaning_en": "Praising a team.",
+        "example": "Our team plays very well this year."
+      },
+      {
+        "phrase": "That sounds like fun.",
+        "meaning_ar": "يبدو ذلك ممتعًا.",
+        "meaning_en": "Saying something is enjoyable.",
+        "example": "Watching with friends? That sounds like fun."
+      },
+      {
+        "phrase": "Who is your favorite player?",
+        "meaning_ar": "من لاعبك المفضل؟",
+        "meaning_en": "Asking about a player.",
+        "example": "Who is your favorite player? Mohamed Salah."
+      },
+      {
+        "phrase": "What time is the match today?",
+        "meaning_ar": "متى المباراة اليوم؟",
+        "meaning_en": "Asking the time.",
+        "example": "What time is the match? It starts at eight."
+      },
+      {
+        "phrase": "Why don't we watch the match together tonight?",
+        "meaning_ar": "لماذا لا نشاهد المباراة معًا الليلة؟",
+        "meaning_en": "A suggestion.",
+        "example": "Why don't we play together on Friday?"
+      },
+      {
+        "phrase": "That's a great idea!",
+        "meaning_ar": "هذه فكرة رائعة!",
+        "meaning_en": "Agreeing.",
+        "example": "Pizza? That's a great idea!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Adverbs of frequency: usually, every day",
+        "explanation_ar": "نقول كم مرة نفعل شيئًا: I usually watch at a cafe. I watch the matches every day.",
+        "explanation_en": "Say how often: \"usually\" before the verb; \"every day / on weekends\" at the end.",
+        "examples": [
+          "I usually watch them at a cafe.",
+          "I watch the matches every day.",
+          "I play on weekends."
+        ]
+      },
+      {
+        "title": "Present simple: do / don't / does",
+        "explanation_ar": "للسؤال: Do you like ...? للنفي: I don't play. مع he/she: Does she play?",
+        "explanation_en": "Questions: \"Do you ...?\" Negative: \"I don't ...\". With he/she: \"Does she ...?\"",
+        "examples": [
+          "Do you play football too?",
+          "I don't play football.",
+          "Does your brother like football?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "In American English, football is called ...",
+      "choices": [
+        "rugby",
+        "soccer",
+        "tennis",
+        "basketball"
+      ],
+      "answer": 1,
+      "explanation_ar": "في أمريكا soccer.",
+      "explanation_en": "US: soccer."
+    },
+    {
+      "question": "Which team do you ____? I support England.",
+      "choices": [
+        "play",
+        "watch at",
+        "goal",
+        "support"
+      ],
+      "answer": 3,
+      "explanation_ar": "support يشجع.",
+      "explanation_en": "\"Support\" = want a team to win."
+    },
+    {
+      "question": "I ____ play football. I just enjoy watching it.",
+      "choices": [
+        "don't",
+        "doesn't",
+        "am not",
+        "no"
+      ],
+      "answer": 0,
+      "explanation_ar": "النفي مع I: don't.",
+      "explanation_en": "With \"I\": don't."
+    },
+    {
+      "question": "A game between two teams is a ...",
+      "choices": [
+        "goal",
+        "player",
+        "match",
+        "cup"
+      ],
+      "answer": 2,
+      "explanation_ar": "مباراة: match.",
+      "explanation_en": "A match."
+    },
+    {
+      "question": "I ____ watch them at a cafe with my friends.",
+      "choices": [
+        "usual",
+        "am usually",
+        "usually",
+        "usualy"
+      ],
+      "answer": 2,
+      "explanation_ar": "ظرف التكرار قبل الفعل.",
+      "explanation_en": "The adverb goes before the verb."
+    },
+    {
+      "question": "It ____ at eight o'clock tonight.",
+      "choices": [
+        "starts",
+        "start",
+        "starting",
+        "is start"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: it + starts.",
+      "explanation_en": "\"It starts\"."
+    },
+    {
+      "question": "\"Why don't we watch the match together?\" is a ...",
+      "choices": [
+        "question about the past",
+        "complaint",
+        "goodbye",
+        "suggestion"
+      ],
+      "answer": 3,
+      "explanation_ar": "اقتراح.",
+      "explanation_en": "A suggestion."
+    },
+    {
+      "question": "\"That sounds like fun.\" means ...",
+      "choices": [
+        "It is very loud.",
+        "It seems enjoyable.",
+        "It is boring.",
+        "I can't hear."
+      ],
+      "answer": 1,
+      "explanation_ar": "يبدو ممتعًا.",
+      "explanation_en": "It seems enjoyable."
+    },
+    {
+      "question": "A point in football is a ...",
+      "choices": [
+        "goal",
+        "team",
+        "match",
+        "cup"
+      ],
+      "answer": 0,
+      "explanation_ar": "هدف: goal.",
+      "explanation_en": "A goal."
+    },
+    {
+      "question": "____ you play football too?",
+      "choices": [
+        "Does",
+        "Are",
+        "Do",
+        "Is"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع you نستخدم Do.",
+      "explanation_en": "With \"you\", use \"Do\"."
+    }
+  ]
+}

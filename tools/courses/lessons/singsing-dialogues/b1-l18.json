@@ -1,0 +1,257 @@
+{
+  "title": "Do you have a glove?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "glove",
+        "pos": "noun",
+        "meaning_en": "a thing you wear on your hand; in baseball you catch the ball with it",
+        "meaning_ar": "قفّاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have a glove?"
+      },
+      {
+        "word": "mask",
+        "pos": "noun",
+        "meaning_en": "a thing you wear on your face to protect it",
+        "meaning_ar": "قناع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have a mask?"
+      },
+      {
+        "word": "ball",
+        "pos": "noun",
+        "meaning_en": "a round thing you throw, kick or hit",
+        "meaning_ar": "كرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where's my ball?"
+      },
+      {
+        "word": "baseball",
+        "pos": "noun",
+        "meaning_en": "a game with a bat and a small ball",
+        "meaning_ar": "البيسبول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's play baseball."
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "meaning_en": "own something",
+        "meaning_ar": "يملك / عنده",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a glove."
+      },
+      {
+        "word": "here",
+        "pos": "adverb",
+        "meaning_en": "said when you give something",
+        "meaning_ar": "تفضّل / ها هي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here, Bobby."
+      },
+      {
+        "word": "where's",
+        "pos": "phrase",
+        "meaning_en": "short for \"where is\"",
+        "meaning_ar": "أين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where's my ball?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Yes, I do vs No, I don't",
+        "words": [
+          "Yes, I do",
+          "No, I don't"
+        ],
+        "explanation_ar": "نجيب عن Do you have ...? بـ Yes, I do أو No, I don't.",
+        "explanation_en": "Answer \"Do you have ...?\" with \"Yes, I do\" or \"No, I don't.\"",
+        "examples": [
+          {
+            "word": "Yes, I do",
+            "sentence": "Do you have a ball? - Yes, I do."
+          },
+          {
+            "word": "No, I don't",
+            "sentence": "Do you have a glove? - No, I don't."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Do you have a glove?",
+        "meaning_ar": "هل عندك قفّاز؟",
+        "meaning_en": "Asking if someone has a glove.",
+        "example": "Let's play baseball. Do you have a glove?"
+      },
+      {
+        "phrase": "Yes, I do.",
+        "meaning_ar": "نعم، عندي.",
+        "meaning_en": "A short yes answer.",
+        "example": "Do you have a mask? - Yes, I do."
+      },
+      {
+        "phrase": "No, I don't.",
+        "meaning_ar": "لا، ليس عندي.",
+        "meaning_en": "A short no answer.",
+        "example": "Do you have a glove? - No, I don't."
+      },
+      {
+        "phrase": "Where's my ball?",
+        "meaning_ar": "أين كرتي؟",
+        "meaning_en": "Asking where your ball is.",
+        "example": "Where's my ball? - Here, Bobby."
+      },
+      {
+        "phrase": "I have a glove.",
+        "meaning_ar": "عندي قفّاز.",
+        "meaning_en": "Saying what you have.",
+        "example": "I have a glove and a ball."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Do you have a ...?",
+        "explanation_ar": "نسأل بـ Do you have a + اسم؟ ونجيب Yes, I do / No, I don't. ولا نقول Yes, I have.",
+        "explanation_en": "Ask \"Do you have a ...?\" Answer \"Yes, I do\" or \"No, I don't.\"",
+        "examples": [
+          "Do you have a ball? - Yes, I do.",
+          "Do you have a mask? - No, I don't.",
+          "I have a glove."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Do you have a ball? - Yes, I ___.",
+      "choices": [
+        "do",
+        "am",
+        "have",
+        "is"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة Yes, I do.",
+      "explanation_en": "The answer is \"Yes, I do.\""
+    },
+    {
+      "question": "Do you have a mask? - No, I ___.",
+      "choices": [
+        "doesn't",
+        "don't",
+        "not",
+        "isn't"
+      ],
+      "answer": 1,
+      "explanation_ar": "النفي مع I هو don't.",
+      "explanation_en": "With I, use don't."
+    },
+    {
+      "question": "You wear a ___ on your hand.",
+      "choices": [
+        "mask",
+        "ball",
+        "glove",
+        "hat"
+      ],
+      "answer": 2,
+      "explanation_ar": "القفّاز يُلبس في اليد.",
+      "explanation_en": "A glove goes on your hand."
+    },
+    {
+      "question": "You wear a ___ on your face.",
+      "choices": [
+        "glove",
+        "ball",
+        "shoe",
+        "mask"
+      ],
+      "answer": 3,
+      "explanation_ar": "القناع يُلبس على الوجه.",
+      "explanation_en": "A mask goes on your face."
+    },
+    {
+      "question": "___ you have a glove?",
+      "choices": [
+        "Do",
+        "Are",
+        "Is",
+        "Have"
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال يبدأ بـ Do.",
+      "explanation_en": "Start with \"Do\"."
+    },
+    {
+      "question": "You give a ball to Bobby. You say: ___",
+      "choices": [
+        "Where's Bobby?",
+        "Here, Bobby.",
+        "No, I don't.",
+        "Ouch, Bobby."
+      ],
+      "answer": 1,
+      "explanation_ar": "عند إعطاء شيء نقول Here.",
+      "explanation_en": "Say \"Here\" when you give something."
+    },
+    {
+      "question": "\"Where's my ball?\" asks about the ball's ___.",
+      "choices": [
+        "color",
+        "age",
+        "place",
+        "name"
+      ],
+      "answer": 2,
+      "explanation_ar": "Where سؤال عن المكان.",
+      "explanation_en": "\"Where\" asks about a place."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Do you has a glove?",
+        "You have a glove do?",
+        "Do you have a glove?",
+        "Have you do a glove?"
+      ],
+      "answer": 2,
+      "explanation_ar": "الصحيح Do you have a glove?",
+      "explanation_en": "Correct: Do you have a glove?"
+    },
+    {
+      "question": "\"glove\" in Arabic is ___.",
+      "choices": [
+        "قفّاز",
+        "قناع",
+        "كرة",
+        "حذاء"
+      ],
+      "answer": 0,
+      "explanation_ar": "glove = قفّاز.",
+      "explanation_en": "A glove is for your hand."
+    },
+    {
+      "question": "\"ball\" is ___.",
+      "choices": [
+        "square",
+        "round",
+        "long",
+        "flat"
+      ],
+      "answer": 1,
+      "explanation_ar": "الكرة مستديرة.",
+      "explanation_en": "A ball is round."
+    }
+  ]
+}

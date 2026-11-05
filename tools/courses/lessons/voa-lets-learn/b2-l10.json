@@ -1,0 +1,54 @@
+{
+  "title": "Visit to Peru",
+  "content": {
+    "vocabulary": [
+      {"word": "research", "pos": "verb", "meaning_en": "to study a subject to find information", "meaning_ar": "يبحث / يدرس (موضوعًا)", "note_ar": "وتأتي اسمًا غير معدود: do research", "note_en": "Also an uncountable noun.", "example": "I have to research Peru for a story."},
+      {"word": "story", "pos": "noun", "meaning_en": "a news report or article", "meaning_ar": "تقرير / قصة إخبارية", "note_ar": "", "note_en": "", "example": "She is writing a story about the city."},
+      {"word": "Peruvian", "pos": "adjective", "meaning_en": "from Peru", "meaning_ar": "بيروفي", "note_ar": "", "note_en": "", "example": "We listened to Peruvian music."},
+      {"word": "deadline", "pos": "noun", "meaning_en": "the last time or day to finish something", "meaning_ar": "الموعد النهائي", "note_ar": "", "note_en": "", "example": "My deadline is tomorrow."},
+      {"word": "museum", "pos": "noun", "meaning_en": "a building where you can see art or history", "meaning_ar": "متحف", "note_ar": "", "note_en": "", "example": "Bruna works at a museum."},
+      {"word": "festival", "pos": "noun", "meaning_en": "a special event with shows and activities", "meaning_ar": "مهرجان", "note_ar": "", "note_en": "", "example": "The museum is having a Peruvian festival."},
+      {"word": "event", "pos": "noun", "meaning_en": "something planned that people go to", "meaning_ar": "فعالية / حدث", "note_ar": "", "note_en": "", "example": "Thanks for telling me about this event."},
+      {"word": "stare at", "pos": "phrasal verb", "meaning_en": "to look at something for a long time", "meaning_ar": "يحدّق في", "note_ar": "", "note_en": "", "example": "Stop staring at your computer."},
+      {"word": "culture", "pos": "noun", "meaning_en": "the customs, art and way of life of a people", "meaning_ar": "ثقافة", "note_ar": "", "note_en": "", "example": "Dance is important in Peruvian culture."},
+      {"word": "dancer", "pos": "noun", "meaning_en": "a person who dances", "meaning_ar": "راقص", "note_ar": "", "note_en": "", "example": "The dancers wore bright clothes."},
+      {"word": "performance", "pos": "noun", "meaning_en": "a show in front of people", "meaning_ar": "عرض / أداء", "note_ar": "", "note_en": "", "example": "The performance starts at seven."},
+      {"word": "tradition", "pos": "noun", "meaning_en": "a custom passed down over many years", "meaning_ar": "تقليد / عادة متوارثة", "note_ar": "الصفة traditional", "note_en": "Adjective: traditional.", "example": "This dance is an old tradition."},
+      {"word": "in person", "pos": "phrase", "meaning_en": "by being there yourself", "meaning_ar": "شخصيًا / بالحضور", "note_ar": "", "note_en": "", "example": "The show is better in person than on TV."},
+      {"word": "check out", "pos": "phrasal verb", "meaning_en": "to go and look at something interesting", "meaning_ar": "يلقي نظرة على / يتفقد", "note_ar": "", "note_en": "", "example": "I'll check out the art."},
+      {"word": "section", "pos": "noun", "meaning_en": "one part of a place", "meaning_ar": "قسم", "note_ar": "", "note_en": "", "example": "You are in the kids' section."},
+      {"word": "matching", "pos": "adjective", "meaning_en": "the same in color or style", "meaning_ar": "متطابق / متناسق", "note_ar": "", "note_en": "", "example": "The twins wore matching shirts."},
+      {"word": "art", "pos": "noun", "meaning_en": "paintings, drawings and other beautiful things people make", "meaning_ar": "فن / أعمال فنية", "note_ar": "", "note_en": "", "example": "I wish I could do art like that."},
+      {"word": "hope", "pos": "verb", "meaning_en": "to want something to happen and think it is possible", "meaning_ar": "يأمل", "note_ar": "", "note_en": "", "example": "I hope it helps with your story."},
+      {"word": "wish", "pos": "verb", "meaning_en": "to want something that is not true now or is not possible", "meaning_ar": "يتمنّى", "note_ar": "", "note_en": "", "example": "I wish I could join you."}
+    ],
+    "fine_lines": [
+      {"title": "hope vs wish", "words": ["hope", "wish"], "explanation_ar": "hope لشيء ممكن الحدوث في المستقبل: I hope it helps. wish لشيء غير حقيقي الآن أو غير ممكن، وبعده فعل ماضٍ أو could: I wish I could (لكنني لا أستطيع).", "explanation_en": "Use hope for something possible: I hope it helps. Use wish for something not true now or not possible, with a past form or could: I wish I could (but I can't).", "examples": [{"word": "hope", "sentence": "I hope I have time to see everything."}, {"word": "wish", "sentence": "I wish I could, but I can't."}, {"word": "wish", "sentence": "I wish I had more time."}]},
+      {"title": "look at vs stare at", "words": ["look at", "stare at"], "explanation_ar": "look at = ينظر إلى، stare at = يحدّق لفترة طويلة دون أن يحرّك عينيه.", "explanation_en": "Look at = turn your eyes to something. Stare at = look for a long time without moving your eyes.", "examples": [{"word": "look at", "sentence": "Look at this painting."}, {"word": "stare at", "sentence": "He stared at the screen all day."}]}
+    ],
+    "expressions": [
+      {"phrase": "What's up?", "meaning_ar": "ما الأخبار؟", "meaning_en": "An informal way to say 'How are you?' or 'What's happening?'", "example": "Hi, Sam! What's up?"},
+      {"phrase": "I wish I could, but I can't.", "meaning_ar": "أتمنى لو أستطيع، لكني لا أستطيع.", "meaning_en": "A polite way to say no to an invitation.", "example": "Lunch today? I wish I could, but I can't."},
+      {"phrase": "How's it going?", "meaning_ar": "كيف تسير الأمور؟", "meaning_en": "How is your work or day going?", "example": "How's it going with your project?"},
+      {"phrase": "I wish!", "meaning_ar": "يا ليت!", "meaning_en": "I want that, but it won't happen.", "example": "A trip to Peru? I wish!"},
+      {"phrase": "I'd love to.", "meaning_ar": "يسعدني ذلك.", "meaning_en": "Yes, I would like to very much.", "example": "Do you want to try? I'd love to."},
+      {"phrase": "I'll try anyway.", "meaning_ar": "سأحاول على أي حال.", "meaning_en": "I will try even if it is hard.", "example": "It looks hard, but I'll try anyway."},
+      {"phrase": "See you then!", "meaning_ar": "أراك حينها!", "meaning_en": "See you at the time we planned.", "example": "Let's meet at five. See you then!"}
+    ],
+    "grammar": [
+      {"title": "Hope and wish", "explanation_ar": "1) hope + مضارع أو will: لشيء ممكن في المستقبل (I hope it helps). 2) hope + to + فعل (المصدر): لشيء تريد أن تفعله مستقبلًا (I hope to visit Peru one day). 3) wish + ماضٍ أو could: لشيء غير حقيقي الآن تتمنى أن يكون مختلفًا (I wish I could join you = لا أستطيع الانضمام). 4) I wish! وحدها تعني «يا ليت!».", "explanation_en": "1) hope + present/will for something possible (I hope it helps). 2) hope + to + verb for a future plan (I hope to visit Peru one day). 3) wish + past or could for something not true now (I wish I could join you = I can't). 4) 'I wish!' alone means 'I want that, but it won't happen.'", "examples": ["I hope it helps with your story.", "I hope to visit Peru one day.", "I wish I could join you, but I have work to do.", "I wish I could do art like that."]}
+    ]
+  },
+  "questions": [
+    {"question": "I ____ it doesn't rain tomorrow.", "choices": ["wish", "hope", "wishes", "hoping"], "answer": 1, "explanation_ar": "المطر غدًا أمر ممكن، فنستخدم hope.", "explanation_en": "Tomorrow's weather is possible, so use hope."},
+    {"question": "I ____ I could fly like a bird.", "choices": ["hope", "hopes", "wish", "will"], "answer": 2, "explanation_ar": "الطيران غير ممكن، فنستخدم wish.", "explanation_en": "Flying is not possible, so use wish."},
+    {"question": "'I wish I could, but I can't' is used to:", "choices": ["say no politely", "say yes happily", "ask a question", "give advice"], "answer": 0, "explanation_ar": "طريقة مهذبة لرفض الدعوة.", "explanation_en": "It is a polite way to say no."},
+    {"question": "Which sentence is correct?", "choices": ["I hope to meet you again.", "I wish to meet you yesterday.", "I hope I could fly.", "I hope meeting you again."], "answer": 0, "explanation_ar": "hope + to + فعل لخطة مستقبلية.", "explanation_en": "Hope + to + verb for a future plan."},
+    {"question": "The last day to finish your work is the ____.", "choices": ["festival", "section", "tradition", "deadline"], "answer": 3, "explanation_ar": "deadline = الموعد النهائي.", "explanation_en": "A deadline is the last time to finish."},
+    {"question": "'In person' means:", "choices": ["on TV", "being there yourself", "on the phone", "in a book"], "answer": 1, "explanation_ar": "in person = بالحضور شخصيًا.", "explanation_en": "In person means you are really there."},
+    {"question": "'What's up?' means:", "choices": ["Look at the sky.", "Stand up.", "What's happening? / How are you?", "What time is it?"], "answer": 2, "explanation_ar": "تحية غير رسمية بمعنى: ما الأخبار؟", "explanation_en": "It is an informal greeting."},
+    {"question": "Customs passed down for many years are ____.", "choices": ["traditions", "deadlines", "sections", "museums"], "answer": 0, "explanation_ar": "tradition = تقليد متوارث.", "explanation_en": "Traditions are old customs."},
+    {"question": "It's better than ____ your computer all day.", "choices": ["checking out", "staring at", "hoping", "wishing"], "answer": 1, "explanation_ar": "stare at = يحدّق لفترة طويلة.", "explanation_en": "Stare at means look for a long time."},
+    {"question": "'I'll ____ the art.' (go and look at it)", "choices": ["research", "wish", "hope", "check out"], "answer": 3, "explanation_ar": "check out = يذهب ليلقي نظرة.", "explanation_en": "Check out means go and look at something."}
+  ]
+}

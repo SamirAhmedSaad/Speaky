@@ -1,0 +1,65 @@
+{
+  "title": "Are You Free on Friday?",
+  "content": {
+    "vocabulary": [
+      {"word": "Monday", "pos": "noun", "meaning_en": "the day after Sunday", "meaning_ar": "الاثنين", "note_ar": "أيام الأسبوع تبدأ دائمًا بحرف كبير", "note_en": "Days of the week always start with a capital letter.", "example": "I start work on Monday."},
+      {"word": "Tuesday", "pos": "noun", "meaning_en": "the day after Monday", "meaning_ar": "الثلاثاء", "note_ar": "تُنطق: تيوزداي / تشوزداي", "note_en": "Say /ˈtuːzdeɪ/ (US) or /ˈtjuːzdeɪ/ (UK).", "example": "We have English class on Tuesday."},
+      {"word": "Wednesday", "pos": "noun", "meaning_en": "the day after Tuesday", "meaning_ar": "الأربعاء", "note_ar": "حرف d الأول صامت: تُنطق /ˈwenzdeɪ/", "note_en": "The first d is silent: /ˈwenzdeɪ/.", "example": "Wednesday night I am busy."},
+      {"word": "Thursday", "pos": "noun", "meaning_en": "the day after Wednesday", "meaning_ar": "الخميس", "note_ar": "", "note_en": "", "example": "Are you busy this Thursday?"},
+      {"word": "Friday", "pos": "noun", "meaning_en": "the day after Thursday", "meaning_ar": "الجمعة", "note_ar": "", "note_en": "", "example": "On Friday I visit my parents."},
+      {"word": "Saturday", "pos": "noun", "meaning_en": "the day after Friday", "meaning_ar": "السبت", "note_ar": "", "note_en": "", "example": "Saturday afternoon I do my errands."},
+      {"word": "Sunday", "pos": "noun", "meaning_en": "the day after Saturday", "meaning_ar": "الأحد", "note_ar": "", "note_en": "", "example": "I'll clean the house on Sunday."},
+      {"word": "free", "pos": "adjective", "meaning_en": "not busy; having time", "meaning_ar": "متفرّغ / غير مشغول", "note_ar": "free لها معنى آخر: مجاني", "note_en": "Free can also mean 'costing no money'.", "example": "Are you free on Friday?"},
+      {"word": "busy", "pos": "adjective", "meaning_en": "having many things to do", "meaning_ar": "مشغول", "note_ar": "تُنطق /ˈbɪzi/ (بِزي)", "note_en": "Say /ˈbɪzi/.", "example": "I'm busy on Monday night."},
+      {"word": "always", "pos": "adverb", "meaning_en": "every time (100%)", "meaning_ar": "دائمًا", "note_ar": "", "note_en": "", "example": "We always eat dinner together."},
+      {"word": "sometimes", "pos": "adverb", "meaning_en": "some of the time, not always", "meaning_ar": "أحيانًا", "note_ar": "", "note_en": "", "example": "Sometimes we play board games."},
+      {"word": "never", "pos": "adverb", "meaning_en": "not at any time (0%)", "meaning_ar": "أبدًا / لا ... أبدًا", "note_ar": "never معناها منفي، فلا نضع معها not", "note_en": "Never is already negative; do not add not.", "example": "I never have time to see a movie."},
+      {"word": "usual", "pos": "adjective", "meaning_en": "normal; what happens most of the time", "meaning_ar": "معتاد", "note_ar": "as usual = كالعادة", "note_en": "as usual = like always", "example": "I'm busy as usual."},
+      {"word": "movie", "pos": "noun", "meaning_en": "a film you watch on a screen", "meaning_ar": "فيلم", "note_ar": "في بريطانيا يقولون film", "note_en": "UK: film.", "example": "Do you want to see a movie?"},
+      {"word": "tap dance", "pos": "verb / noun", "meaning_en": "a dance where you make sounds with special shoes", "meaning_ar": "رقص النقر (بالأحذية)", "note_ar": "", "note_en": "", "example": "Anna is learning to tap dance."},
+      {"word": "board game", "pos": "noun", "meaning_en": "a game played with pieces on a special board", "meaning_ar": "لعبة لوحية", "note_ar": "", "note_en": "", "example": "Chess is a board game."},
+      {"word": "jog", "pos": "verb", "meaning_en": "to run slowly for exercise", "meaning_ar": "يركض ببطء (هرولة)", "note_ar": "", "note_en": "", "example": "My father jogs in the park every morning."},
+      {"word": "park", "pos": "noun", "meaning_en": "a public green area with grass and trees", "meaning_ar": "حديقة عامة", "note_ar": "", "note_en": "", "example": "Let's walk in the park."},
+      {"word": "teach", "pos": "verb", "meaning_en": "to help someone learn", "meaning_ar": "يُعلّم / يُدرّس", "note_ar": "الماضي: taught", "note_en": "Past: taught.", "example": "She teaches children how to read."},
+      {"word": "children", "pos": "noun", "meaning_en": "young people; more than one child", "meaning_ar": "أطفال", "note_ar": "المفرد: child (جمع غير قياسي)", "note_en": "Singular: child (irregular plural).", "example": "The children are playing outside."},
+      {"word": "errands", "pos": "noun", "meaning_en": "small jobs like shopping or going to the bank", "meaning_ar": "مشاوير / مهام صغيرة", "note_ar": "do errands / run errands", "note_en": "do errands / run errands", "example": "I do my errands on Saturday."},
+      {"word": "together", "pos": "adverb", "meaning_en": "with each other", "meaning_ar": "معًا", "note_ar": "", "note_en": "", "example": "We eat dinner together."},
+      {"word": "night", "pos": "noun", "meaning_en": "the time when it is dark", "meaning_ar": "الليل / ليلة", "note_ar": "on Friday night / at night", "note_en": "on Friday night / at night", "example": "I'm free on Monday night."},
+      {"word": "afternoon", "pos": "noun", "meaning_en": "the time between noon and evening", "meaning_ar": "بعد الظهر", "note_ar": "in the afternoon / on Saturday afternoon", "note_en": "in the afternoon / on Saturday afternoon", "example": "It's Saturday afternoon."},
+      {"word": "important", "pos": "adjective", "meaning_en": "having great value; you must think about it", "meaning_ar": "مهم", "note_ar": "", "note_en": "", "example": "It's important to find time for friends."}
+    ],
+    "fine_lines": [
+      {"title": "always vs sometimes vs never", "words": ["always", "sometimes", "never"], "explanation_ar": "ظروف التكرار تقول كم مرة نفعل الشيء: always = كل مرة (100%)، sometimes = أحيانًا، never = ولا مرة (0%). ونضعها قبل الفعل العادي وبعد فعل be.", "explanation_en": "Adverbs of frequency say how often: always = every time, sometimes = some of the time, never = not at any time. Put them before a normal verb and after be.", "examples": [{"word": "always", "sentence": "I always drink water in the morning."}, {"word": "sometimes", "sentence": "We sometimes play board games."}, {"word": "never", "sentence": "Anna never jogs."}, {"word": "always", "sentence": "Marsha is always busy."}]},
+      {"title": "on Friday vs at night vs in the afternoon", "words": ["on", "at", "in"], "explanation_ar": "on مع الأيام: on Friday, on Monday night. at مع الساعة وكلمة night: at 6 p.m., at night. in مع أجزاء اليوم: in the morning, in the afternoon.", "explanation_en": "Use on with days (on Friday, on Monday night), at with clock times and night (at 6 p.m., at night), and in with parts of the day (in the morning).", "examples": [{"word": "on", "sentence": "Are you free on Friday?"}, {"word": "at", "sentence": "The movie starts at 6 p.m."}, {"word": "in", "sentence": "I study in the afternoon."}]}
+    ],
+    "expressions": [
+      {"phrase": "What's going on?", "meaning_ar": "ما الأخبار؟ / ماذا يحدث؟", "meaning_en": "An informal way to ask 'How are things?'", "example": "Hi, Sam! What's going on?"},
+      {"phrase": "Not much. How about you?", "meaning_ar": "لا شيء مهم. وأنت؟", "meaning_en": "A friendly answer meaning 'nothing special'.", "example": "What's new? - Not much. How about you?"},
+      {"phrase": "Busy as usual.", "meaning_ar": "مشغول كالعادة.", "meaning_en": "I am busy, like always.", "example": "How is work? - Busy as usual."},
+      {"phrase": "Are you free on Friday?", "meaning_ar": "هل أنت متفرّغ يوم الجمعة؟", "meaning_en": "Asking if someone has time on a day.", "example": "Are you free on Friday? Let's visit the museum."},
+      {"phrase": "Let's see ...", "meaning_ar": "دعني أرى ... / لحظة أفكر", "meaning_en": "Said when you stop to think or check.", "example": "Let's see ... yes, I'm free at five."},
+      {"phrase": "That sounds fun!", "meaning_ar": "يبدو ذلك ممتعًا!", "meaning_en": "That seems enjoyable.", "example": "We're going to the beach. - That sounds fun!"},
+      {"phrase": "It is good for you.", "meaning_ar": "إنه مفيد لك (لصحتك).", "meaning_en": "It is healthy for you.", "example": "Eat vegetables. They are good for you."},
+      {"phrase": "How about on Wednesday?", "meaning_ar": "ما رأيك يوم الأربعاء؟", "meaning_en": "Suggesting another day.", "example": "I'm busy on Tuesday. How about on Wednesday?"},
+      {"phrase": "Wait a minute.", "meaning_ar": "انتظر لحظة.", "meaning_en": "Stop for a moment (often because you have an idea).", "example": "Wait a minute. Are you free now?"},
+      {"phrase": "Let's go!", "meaning_ar": "هيا بنا!", "meaning_en": "We should go now.", "example": "The bus is here. Let's go!"}
+    ],
+    "grammar": [
+      {"title": "Adverbs of frequency: always, sometimes, never", "explanation_ar": "1) ظرف التكرار يقول كم مرة يحدث الشيء. 2) نضعه قبل الفعل العادي: I always jog. 3) ونضعه بعد فعل be: She is always busy. 4) never منفية بنفسها: I never jog (وليس I don't never jog). 5) sometimes يمكن أن تأتي في أول الجملة أيضًا.", "explanation_en": "1) Adverbs of frequency say how often something happens. 2) Put them before a normal verb: I always jog. 3) Put them after be: She is always busy. 4) Never is negative already: I never jog (not I don't never jog). 5) Sometimes can also start a sentence.", "examples": ["We always eat dinner together.", "Sometimes we play board games.", "I never have time to see a movie.", "Saturday afternoon is always when I do my errands."]},
+      {"title": "Talking about plans: be + verb-ing and going to", "explanation_ar": "للحديث عن خطة مرتّبة في المستقبل نستخدم المضارع المستمر مع وقت مستقبلي: I'm teaching on Wednesday. أو be going to + فعل: I am going to jog on Monday.", "explanation_en": "For a planned future activity, use the present continuous with a future time (I'm teaching on Wednesday) or be going to + verb (I'm going to jog on Monday).", "examples": ["I'm going to tap dance with my friends Thursday night.", "What are you doing on Wednesday?", "I'm going to visit my grandmother on Friday."]},
+      {"title": "Prepositions of time: on, at, in", "explanation_ar": "on + يوم: on Friday, on Monday night. at + ساعة: at 6 p.m.، at night. in + جزء من اليوم أو شهر: in the morning, in July.", "explanation_en": "on + day: on Friday, on Monday night. at + clock time: at 6 p.m., at night. in + part of the day or month: in the morning, in July.", "examples": ["Are you busy this Thursday at 6 p.m.?", "I'm busy on Monday night.", "I do my homework in the evening."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which day comes after Tuesday?", "choices": ["Thursday", "Monday", "Wednesday", "Sunday"], "answer": 2, "explanation_ar": "بعد الثلاثاء يأتي الأربعاء Wednesday.", "explanation_en": "Wednesday comes after Tuesday."},
+    {"question": "Are you free ___ Friday?", "choices": ["on", "in", "at", "to"], "answer": 0, "explanation_ar": "مع الأيام نستخدم on.", "explanation_en": "Use on with days."},
+    {"question": "'I never jog' means:", "choices": ["I jog every day.", "I jog some days.", "I jog at night.", "I don't jog at any time."], "answer": 3, "explanation_ar": "never تعني لا ... أبدًا.", "explanation_en": "Never means not at any time."},
+    {"question": "Choose the correct sentence.", "choices": ["We eat always dinner together.", "We always eat dinner together.", "Always we eats dinner together.", "We eat dinner always together."], "answer": 1, "explanation_ar": "ظرف التكرار يأتي قبل الفعل العادي.", "explanation_en": "The adverb of frequency goes before the main verb."},
+    {"question": "Choose the correct sentence.", "choices": ["Marsha always is busy.", "Marsha is busy always.", "Always Marsha busy.", "Marsha is always busy."], "answer": 3, "explanation_ar": "مع فعل be يأتي ظرف التكرار بعده.", "explanation_en": "With be, the adverb comes after it."},
+    {"question": "'Free' in 'Are you free tonight?' means:", "choices": ["not busy", "no money", "happy", "tired"], "answer": 0, "explanation_ar": "free هنا تعني متفرّغًا وغير مشغول.", "explanation_en": "Here free means not busy."},
+    {"question": "Small jobs like going to the bank or the shop are ___.", "choices": ["board games", "errands", "movies", "parks"], "answer": 1, "explanation_ar": "errands هي المشاوير والمهام الصغيرة.", "explanation_en": "Errands are small jobs like shopping."},
+    {"question": "On Monday night I ___ in the park with my friend.", "choices": ["going to jog", "am go to jog", "am going to jog", "goes jogging"], "answer": 2, "explanation_ar": "للخطة المستقبلية: am going to + فعل.", "explanation_en": "For a plan: am going to + verb."},
+    {"question": "'What's going on?' - Best answer:", "choices": ["Not much. How about you?", "On Friday.", "At 6 p.m.", "I never jog."], "answer": 0, "explanation_ar": "What's going on? سؤال عن الأخبار، والجواب: Not much.", "explanation_en": "What's going on? asks for news; Not much is a good answer."},
+    {"question": "Which word means 'some of the time'?", "choices": ["always", "never", "usual", "sometimes"], "answer": 3, "explanation_ar": "sometimes تعني أحيانًا.", "explanation_en": "Sometimes means some of the time."}
+  ]
+}

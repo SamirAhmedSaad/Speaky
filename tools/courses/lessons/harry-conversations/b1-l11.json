@@ -1,0 +1,72 @@
+{
+  "title": "Making Suggestions",
+  "content": {
+    "vocabulary": [
+      {"word": "suggestion", "pos": "noun", "meaning_en": "an idea or plan that you offer for someone to think about", "meaning_ar": "اقتراح", "note_ar": "الفعل: suggest", "note_en": "Verb: suggest.", "example": "Can I make a suggestion?"},
+      {"word": "recommendation", "pos": "noun", "meaning_en": "advice about what is best to do", "meaning_ar": "توصية", "note_ar": "", "note_en": "", "example": "My recommendation is to start early."},
+      {"word": "obligatory", "pos": "adjective", "meaning_en": "something you must do", "meaning_ar": "إلزامي", "note_ar": "", "note_en": "", "example": "A suggestion is not obligatory."},
+      {"word": "indirect", "pos": "adjective", "meaning_en": "not saying something in a straight, strong way", "meaning_ar": "غير مباشر", "note_ar": "", "note_en": "", "example": "Indirect language sounds more polite."},
+      {"word": "fancy", "pos": "verb", "meaning_en": "(informal, UK) want; would like", "meaning_ar": "يرغب في", "note_ar": "Do you fancy + ing / اسم", "note_en": "Do you fancy + -ing / noun", "example": "Do you fancy a walk?"},
+      {"word": "on the spur of the moment", "pos": "phrase", "meaning_en": "suddenly, without planning", "meaning_ar": "فجأة / دون تخطيط مسبق", "note_ar": "", "note_en": "", "example": "We went to the beach on the spur of the moment."},
+      {"word": "spontaneous", "pos": "adjective", "meaning_en": "done without planning", "meaning_ar": "عفوي", "note_ar": "", "note_en": "", "example": "Let's do something spontaneous this weekend."},
+      {"word": "count me in", "pos": "phrase", "meaning_en": "include me; I want to join", "meaning_ar": "احسبني معكم", "note_ar": "العكس: count me out", "note_en": "Opposite: count me out.", "example": "A trip to the mountains? Count me in!"},
+      {"word": "reluctantly", "pos": "adverb", "meaning_en": "not wanting to do something, but doing it anyway", "meaning_ar": "على مضض", "note_ar": "", "note_en": "", "example": "He reluctantly agreed to stay."},
+      {"word": "appropriate", "pos": "adjective", "meaning_en": "suitable for the situation", "meaning_ar": "مناسب / لائق", "note_ar": "العكس: inappropriate", "note_en": "Opposite: inappropriate.", "example": "I'm not sure that would be appropriate."},
+      {"word": "mull over", "pos": "phrasal verb", "meaning_en": "think carefully about something for a time", "meaning_ar": "يتأمّل / يفكّر مليًا", "note_ar": "", "note_en": "", "example": "Let me mull it over."},
+      {"word": "sleep on it", "pos": "phrase", "meaning_en": "wait until tomorrow to decide", "meaning_ar": "يؤجّل القرار إلى الغد", "note_ar": "", "note_en": "", "example": "It's a big decision. Let me sleep on it."},
+      {"word": "my cup of tea", "pos": "phrase", "meaning_en": "something I like (usually negative: not my cup of tea)", "meaning_ar": "ما يناسب ذوقي", "note_ar": "تُستخدم غالبًا في النفي", "note_en": "Usually used in the negative.", "example": "Camping is not my cup of tea."},
+      {"word": "keen on", "pos": "adjective", "meaning_en": "interested in; liking", "meaning_ar": "متحمّس لـ / مهتم بـ", "note_ar": "", "note_en": "", "example": "I'm not keen on that idea."}
+    ],
+    "fine_lines": [
+      {"title": "Verb patterns after suggestion phrases", "words": ["should + verb", "would you be interested in + -ing", "might like to + verb"], "explanation_ar": "should + الفعل الأساسي (بدون to). How about / What about / Do you fancy / Would you be interested in + ing. I thought you might like + to + الفعل. Let's وShall we + الفعل الأساسي.", "explanation_en": "should + base verb (no \"to\"). How about / What about / Do you fancy / Would you be interested in + -ing. I thought you might like + to + verb. Let's and Shall we + base verb.", "examples": [{"word": "should + verb", "sentence": "I think you should go to the doctor."}, {"word": "would you be interested in + -ing", "sentence": "Would you be interested in going to the museum?"}, {"word": "might like to + verb", "sentence": "I thought you might like to stay at home tonight."}]},
+      {"title": "might as well vs may as well", "words": ["might as well", "may as well"], "explanation_ar": "المعنى واحد: بما أنه لا يوجد خيار أفضل، فلنفعل هذا.", "explanation_en": "Same meaning: there is no better option, so let's do this.", "examples": [{"word": "might as well", "sentence": "They're not coming. We might as well start dinner."}, {"word": "may as well", "sentence": "It's raining. We may as well stay in."}]}
+    ],
+    "expressions": [
+      {"phrase": "I think you should ...", "meaning_ar": "أظن أنه يجب عليك ...", "meaning_en": "A soft suggestion or advice.", "example": "You're not well. I think you should go to the doctor."},
+      {"phrase": "Would you be interested in ...ing?", "meaning_ar": "هل يهمّك أن ...؟", "meaning_en": "A polite suggestion when you're not sure they'll agree.", "example": "Would you be interested in going to the cinema on Saturday?"},
+      {"phrase": "I thought perhaps you might like to ...", "meaning_ar": "فكّرت أنك ربما تودّ أن ...", "meaning_en": "A gentle, indirect suggestion.", "example": "I thought perhaps you might like to invite your mother for lunch."},
+      {"phrase": "I was thinking it would be a nice change if we ...", "meaning_ar": "كنت أفكر أنه سيكون تغييرًا لطيفًا لو ...", "meaning_en": "Suggests doing something different.", "example": "I was thinking it would be a nice change if we went abroad this year."},
+      {"phrase": "How about / What about ...ing?", "meaning_ar": "ما رأيك في ...؟", "meaning_en": "A common, friendly suggestion.", "example": "How about painting the room yellow?"},
+      {"phrase": "Let's ...", "meaning_ar": "هيا بنا ...", "meaning_en": "A short, direct suggestion that includes you.", "example": "Let's go away for the weekend."},
+      {"phrase": "Let's not ...", "meaning_ar": "دعنا لا ...", "meaning_en": "Suggests not doing something.", "example": "Let's not argue about it."},
+      {"phrase": "Do you fancy ...?", "meaning_ar": "هل ترغب في ...؟", "meaning_en": "An informal suggestion (British English).", "example": "Do you fancy calling in for a pizza on the way home?"},
+      {"phrase": "Shall we ...?", "meaning_ar": "هل نـ ...؟", "meaning_en": "A polite suggestion with \"we\" (or an offer with \"I\").", "example": "Shall we book that restaurant for next week?"},
+      {"phrase": "We might as well ...", "meaning_ar": "لا بأس أن ... (لعدم وجود خيار أفضل)", "meaning_en": "Suggests something because there is no better option.", "example": "It's nine o'clock and they're not here. We might as well start dinner."},
+      {"phrase": "That sounds like a great idea.", "meaning_ar": "تبدو فكرة رائعة.", "meaning_en": "A very positive reply.", "example": "A picnic on Friday? That sounds like a great idea."},
+      {"phrase": "That's not a bad idea.", "meaning_ar": "ليست فكرة سيئة.", "meaning_en": "A positive reply; the idea could work.", "example": "Ask the team? That's not a bad idea."},
+      {"phrase": "I think you're onto something.", "meaning_ar": "أظن أنك وصلت إلى شيء مهم.", "meaning_en": "Says someone has found a good idea.", "example": "Hmm, I think you're onto something there."},
+      {"phrase": "Brilliant! Why didn't I think of that?", "meaning_ar": "رائع! لماذا لم أفكر في ذلك؟", "meaning_en": "A very enthusiastic reply.", "example": "A weekend by the sea? Brilliant! Why didn't I think of that?"},
+      {"phrase": "Count me in (too).", "meaning_ar": "احسبني معكم (أيضًا).", "meaning_en": "Says you want to join.", "example": "You're going to watch the match? Count me in too!"},
+      {"phrase": "You're probably right.", "meaning_ar": "ربما أنت محق.", "meaning_en": "Agrees, sometimes reluctantly.", "example": "You're probably right. I'll apologise to her."},
+      {"phrase": "Sounds perfect.", "meaning_ar": "يبدو مثاليًا.", "meaning_en": "Says the idea is excellent.", "example": "Paint it on Saturday morning? Sounds perfect."},
+      {"phrase": "That would be lovely.", "meaning_ar": "سيكون ذلك جميلًا.", "meaning_en": "A warm, positive reply.", "example": "You'll cook lunch on Sunday? That would be lovely."},
+      {"phrase": "It's a definite maybe.", "meaning_ar": "ربما بشكل شبه مؤكد (لست متأكدًا بعد).", "meaning_en": "A funny way to say \"probably, but I'm not sure yet\".", "example": "Are you coming on Saturday? — It's a definite maybe."},
+      {"phrase": "I don't think so.", "meaning_ar": "لا أظن ذلك.", "meaning_en": "A polite \"no\".", "example": "Will it work? — I don't think so."},
+      {"phrase": "I'm not sure that would be appropriate.", "meaning_ar": "لست متأكدًا أن ذلك سيكون مناسبًا.", "meaning_en": "A polite refusal; the idea doesn't suit the situation.", "example": "A big party now? I'm not sure that would be appropriate."},
+      {"phrase": "I'm not sure about that.", "meaning_ar": "لست متأكدًا من ذلك.", "meaning_en": "Shows doubt about the idea.", "example": "Hmm, I'm not sure about that. Let me sleep on it."},
+      {"phrase": "Well, I don't know.", "meaning_ar": "حسنًا، لا أدري.", "meaning_en": "Shows you are uncomfortable with the idea.", "example": "Well, I don't know. What if it goes wrong?"},
+      {"phrase": "To be honest, it's not my cup of tea.", "meaning_ar": "بصراحة، هذا لا يناسب ذوقي.", "meaning_en": "Says politely that you don't like it.", "example": "Squash? To be honest, it's not my cup of tea."},
+      {"phrase": "No, not really.", "meaning_ar": "لا، ليس حقًا.", "meaning_en": "A clear but soft \"no\".", "example": "Do you think it will work? — No, not really."},
+      {"phrase": "I'm not keen on that idea.", "meaning_ar": "لست متحمسًا لهذه الفكرة.", "meaning_en": "Says you don't like the idea.", "example": "Camping? I'm not keen on that idea."},
+      {"phrase": "No, I'd rather not.", "meaning_ar": "لا، أفضّل ألا أفعل.", "meaning_en": "A polite but firm refusal.", "example": "Go out tonight? No, I'd rather not. I'm tired."},
+      {"phrase": "I'm sorry, I really don't feel like it.", "meaning_ar": "آسف، لا رغبة لي في ذلك حقًا.", "meaning_en": "Says you don't want to do it now.", "example": "I'm sorry, I really don't feel like it. Perhaps another time."}
+    ],
+    "grammar": [
+      {"title": "should + base verb (no \"to\")", "explanation_ar": "بعد الفعل الناقص should يأتي الفعل الأساسي بدون to وبدون ing: you should go وليس you should to go.", "explanation_en": "After the modal \"should\" use the base verb, with no \"to\" and no -ing: \"you should go\", not \"you should to go\".", "examples": ["I think you should apologise.", "You should wait a little.", "We should visit them."]},
+      {"title": "Shall I / Shall we", "explanation_ar": "نستخدم shall في الأسئلة مع I وwe فقط للاقتراح أو العرض. لا نقول Shall you.", "explanation_en": "Use \"shall\" in questions only with \"I\" and \"we\" for suggestions and offers. We don't say \"Shall you\".", "examples": ["Shall we go out tonight?", "Shall I open the window?", "Shall we take a few days off?"]},
+      {"title": "It would be a nice change if + past simple", "explanation_ar": "بعد would ... if نستخدم الماضي البسيط لنتحدث عن فكرة متخيَّلة في المستقبل.", "explanation_en": "After \"It would be ... if\" use the past simple to talk about an imagined idea.", "examples": ["It would be a nice change if we went abroad.", "It would be nice if we stayed home this year.", "It would be great if we bought a new sofa."]}
+    ]
+  },
+  "questions": [
+    {"question": "I think you should ___ to the doctor.", "choices": ["going", "to go", "go", "went"], "answer": 2, "explanation_ar": "بعد should نستخدم الفعل الأساسي.", "explanation_en": "After \"should\" use the base verb."},
+    {"question": "Would you be interested in ___ to the museum?", "choices": ["going", "go", "to go", "went"], "answer": 0, "explanation_ar": "بعد in (حرف جر) نستخدم ing.", "explanation_en": "After \"in\" use -ing."},
+    {"question": "Which question is NOT correct?", "choices": ["Shall we go?", "Shall I help?", "Shall we eat?", "Shall you come?"], "answer": 3, "explanation_ar": "لا نستخدم shall مع you في الاقتراحات.", "explanation_en": "We don't use \"shall\" with \"you\" for suggestions."},
+    {"question": "\"Count me in!\" means:", "choices": ["Don't include me.", "I want to join.", "Count the people.", "I'm not sure."], "answer": 1, "explanation_ar": "Count me in = احسبني معكم.", "explanation_en": "\"Count me in\" = I want to join."},
+    {"question": "Which is a polite NEGATIVE response?", "choices": ["Sounds perfect.", "That would be lovely.", "To be honest, it's not my cup of tea.", "Brilliant!"], "answer": 2, "explanation_ar": "not my cup of tea طريقة مهذبة لقول لا يعجبني.", "explanation_en": "\"Not my cup of tea\" politely says you don't like it."},
+    {"question": "How about ___ the room yellow?", "choices": ["paint", "painting", "to paint", "painted"], "answer": 1, "explanation_ar": "بعد How about نستخدم ing.", "explanation_en": "After \"How about\" use -ing."},
+    {"question": "They aren't coming. We ___ as well start dinner.", "choices": ["should", "can", "must", "might"], "answer": 3, "explanation_ar": "might as well = بما أنه لا خيار أفضل.", "explanation_en": "\"Might as well\" = there's no better option."},
+    {"question": "\"Let me sleep on it\" means:", "choices": ["I'll decide later, after thinking.", "I'm very tired.", "I agree now.", "I'll go to bed."], "answer": 0, "explanation_ar": "sleep on it = يؤجّل القرار ليفكر.", "explanation_en": "\"Sleep on it\" = decide later."},
+    {"question": "It would be a nice change if we ___ abroad this year.", "choices": ["go", "will go", "went", "going"], "answer": 2, "explanation_ar": "بعد would ... if نستخدم الماضي البسيط.", "explanation_en": "Use the past simple after \"would ... if\"."},
+    {"question": "Do you fancy ___ a pizza?", "choices": ["to get", "getting", "get", "got"], "answer": 1, "explanation_ar": "بعد Do you fancy نستخدم ing أو اسمًا.", "explanation_en": "After \"Do you fancy\" use -ing or a noun."}
+  ]
+}

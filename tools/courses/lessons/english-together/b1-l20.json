@@ -1,0 +1,386 @@
+{
+  "title": "Weekend Plans",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "plans",
+        "pos": "noun",
+        "meaning_en": "things you have decided to do",
+        "meaning_ar": "خطط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have any plans for Friday?"
+      },
+      {
+        "word": "visit",
+        "pos": "verb",
+        "meaning_en": "go to see a person or place",
+        "meaning_ar": "يزور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I visit my uncle every week."
+      },
+      {
+        "word": "grandparents",
+        "pos": "noun",
+        "meaning_en": "the parents of your mother or father",
+        "meaning_ar": "الجدّ والجدّة",
+        "note_ar": "grandma = جدّة، grandpa = جدّ",
+        "note_en": "grandma, grandpa",
+        "example": "My grandparents live in a village."
+      },
+      {
+        "word": "hiking",
+        "pos": "noun",
+        "meaning_en": "walking a long way in nature",
+        "meaning_ar": "المشي لمسافات في الطبيعة",
+        "note_ar": "go hiking",
+        "note_en": "go hiking",
+        "example": "Hiking is good exercise."
+      },
+      {
+        "word": "mountains",
+        "pos": "noun",
+        "meaning_en": "very high hills",
+        "meaning_ar": "الجبال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The mountains are beautiful in spring."
+      },
+      {
+        "word": "view",
+        "pos": "noun",
+        "meaning_en": "what you can see from a place",
+        "meaning_ar": "منظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The view from the top is amazing."
+      },
+      {
+        "word": "amazing",
+        "pos": "adjective",
+        "meaning_en": "very good; wonderful",
+        "meaning_ar": "مذهل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The trip was amazing."
+      },
+      {
+        "word": "nature",
+        "pos": "noun",
+        "meaning_en": "trees, plants, animals and the land",
+        "meaning_ar": "الطبيعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love nature."
+      },
+      {
+        "word": "picnic",
+        "pos": "noun",
+        "meaning_en": "a meal you eat outside, in a park or the countryside",
+        "meaning_ar": "نزهة مع طعام في الهواء الطلق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We had a picnic by the river."
+      },
+      {
+        "word": "bring",
+        "pos": "verb",
+        "meaning_en": "take something with you to a place",
+        "meaning_ar": "يُحضِر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please bring some water."
+      },
+      {
+        "word": "sandwich",
+        "pos": "noun",
+        "meaning_en": "bread with food between the pieces",
+        "meaning_ar": "شطيرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I made cheese sandwiches."
+      },
+      {
+        "word": "cookies",
+        "pos": "noun",
+        "meaning_en": "small sweet baked cakes",
+        "meaning_ar": "بسكويت / كعك صغير",
+        "note_ar": "في بريطانيا: biscuits",
+        "note_en": "UK: biscuits.",
+        "example": "My grandma makes the best cookies."
+      },
+      {
+        "word": "kitchen",
+        "pos": "noun",
+        "meaning_en": "the room where you cook",
+        "meaning_ar": "مطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My mother is in the kitchen."
+      },
+      {
+        "word": "perfect",
+        "pos": "adjective",
+        "meaning_en": "as good as possible",
+        "meaning_ar": "مثالي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a perfect day."
+      },
+      {
+        "word": "leave",
+        "pos": "verb",
+        "meaning_en": "go away from a place",
+        "meaning_ar": "يغادر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are leaving at four."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "going to vs present continuous for plans",
+        "words": [
+          "I'm going to visit",
+          "We're leaving"
+        ],
+        "explanation_ar": "كلاهما للخطط المستقبلية. be going to + الفعل لخطة قررناها (I'm going to visit my grandparents). والمضارع المستمر لترتيب محدد بوقت (We're leaving in the afternoon).",
+        "explanation_en": "Both talk about future plans. going to + verb = a decided plan. Present continuous = a fixed arrangement.",
+        "examples": [
+          {
+            "word": "I'm going to visit",
+            "sentence": "I'm going to visit my grandparents."
+          },
+          {
+            "word": "We're leaving",
+            "sentence": "We're leaving in the afternoon."
+          }
+        ]
+      },
+      {
+        "title": "bring vs take",
+        "words": [
+          "bring",
+          "take"
+        ],
+        "explanation_ar": "bring تعني تُحضر شيئًا إلى المكان الذي يوجد فيه المتكلم أو المكان المقصود معك. take تعني تأخذ شيئًا بعيدًا عن هنا.",
+        "explanation_en": "Bring = carry something to here/with you to a place. Take = carry something away from here.",
+        "examples": [
+          {
+            "word": "bring",
+            "sentence": "We're bringing sandwiches to the picnic."
+          },
+          {
+            "word": "take",
+            "sentence": "Take your coat when you go out."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Do you have any plans for this weekend?",
+        "meaning_ar": "هل لديك أي خطط لعطلة نهاية الأسبوع؟",
+        "meaning_en": "Ask about someone's weekend.",
+        "example": "Do you have any plans for this weekend? Yes, I'm visiting my aunt."
+      },
+      {
+        "phrase": "I'm going to visit my grandparents.",
+        "meaning_ar": "سأزور جدّي وجدّتي.",
+        "meaning_en": "Talk about your plan.",
+        "example": "On Friday, I'm going to visit my grandparents."
+      },
+      {
+        "phrase": "That sounds nice!",
+        "meaning_ar": "يبدو هذا جميلًا!",
+        "meaning_en": "React to someone's plan.",
+        "example": "I'm going to the beach. That sounds nice!"
+      },
+      {
+        "phrase": "Where are you going?",
+        "meaning_ar": "إلى أين أنت ذاهب؟",
+        "meaning_en": "Ask about the place of a plan.",
+        "example": "Where are you going? To the mountains."
+      },
+      {
+        "phrase": "How long are you planning to hike?",
+        "meaning_ar": "كم من الوقت تخطط للمشي؟",
+        "meaning_en": "Ask about the length of an activity.",
+        "example": "How long are you planning to stay? Two days."
+      },
+      {
+        "phrase": "What are you bringing for the picnic?",
+        "meaning_ar": "ماذا ستُحضر للنزهة؟",
+        "meaning_en": "Ask what someone will bring.",
+        "example": "What are you bringing for the picnic? Fruit and juice."
+      },
+      {
+        "phrase": "What time are you leaving?",
+        "meaning_ar": "متى ستغادر؟",
+        "meaning_en": "Ask about the leaving time.",
+        "example": "What time are you leaving? At three."
+      },
+      {
+        "phrase": "I hope you have a great time!",
+        "meaning_ar": "أتمنى لك وقتًا رائعًا!",
+        "meaning_en": "Wish someone a good time.",
+        "example": "Enjoy your trip. I hope you have a great time!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "be going to + verb for plans",
+        "explanation_ar": "نستخدم am/is/are + going to + الفعل في أصله للحديث عن خطة قررناها: I'm going to visit my grandparents. We're going to cook together.",
+        "explanation_en": "Use am/is/are + going to + base verb for plans.",
+        "examples": [
+          "I'm going to visit my grandparents.",
+          "We're going to cook together.",
+          "What are you going to do?"
+        ]
+      },
+      {
+        "title": "Present continuous for future arrangements",
+        "explanation_ar": "يمكن استخدام المضارع المستمر للحديث عن ترتيب مستقبلي محدد: I'm going hiking. We're leaving in the afternoon. What are you bringing?",
+        "explanation_en": "The present continuous can talk about fixed future plans.",
+        "examples": [
+          "I am going hiking with some friends.",
+          "We're bringing sandwiches, fruit, and some drinks.",
+          "We are leaving in the afternoon."
+        ]
+      },
+      {
+        "title": "will for the future",
+        "explanation_ar": "will + الفعل في أصله للمستقبل: We'll have a picnic. What will you do?",
+        "explanation_en": "will + base verb for the future.",
+        "examples": [
+          "We'll have a picnic too!",
+          "What will you do with your grandparents?",
+          "I will call you later."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Do you have any ___ for this weekend?",
+      "choices": [
+        "plans",
+        "plan to",
+        "planning",
+        "planned"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول any plans.",
+      "explanation_en": "We say \"any plans\"."
+    },
+    {
+      "question": "I'm going ___ my grandparents.",
+      "choices": [
+        "visit",
+        "to visit",
+        "visiting",
+        "visited"
+      ],
+      "answer": 1,
+      "explanation_ar": "be going to + الفعل في أصله.",
+      "explanation_en": "be going to + base verb."
+    },
+    {
+      "question": "We ___ leaving in the afternoon.",
+      "choices": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer": 3,
+      "explanation_ar": "مع we نستخدم are.",
+      "explanation_en": "With \"we\" use \"are\"."
+    },
+    {
+      "question": "A meal you eat outside in a park is a ___.",
+      "choices": [
+        "kitchen",
+        "view",
+        "picnic",
+        "cookie"
+      ],
+      "answer": 2,
+      "explanation_ar": "picnic نزهة مع طعام في الهواء الطلق.",
+      "explanation_en": "That is a picnic."
+    },
+    {
+      "question": "The parents of your mother are your ___.",
+      "choices": [
+        "grandparents",
+        "cousins",
+        "siblings",
+        "friends"
+      ],
+      "answer": 0,
+      "explanation_ar": "والدا الأم هما الجدّان grandparents.",
+      "explanation_en": "They are your grandparents."
+    },
+    {
+      "question": "What are you ___ for the picnic? — Sandwiches and fruit.",
+      "choices": [
+        "bring",
+        "bringing",
+        "brought",
+        "brings"
+      ],
+      "answer": 1,
+      "explanation_ar": "المضارع المستمر: are + bringing.",
+      "explanation_en": "Present continuous: are bringing."
+    },
+    {
+      "question": "We'll ___ a picnic too!",
+      "choices": [
+        "have",
+        "having",
+        "has",
+        "had"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد will الفعل في أصله.",
+      "explanation_en": "After \"will\" use the base verb."
+    },
+    {
+      "question": "I am going ___ with some friends.",
+      "choices": [
+        "hike",
+        "to hiking",
+        "hiking",
+        "hikes"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول go hiking.",
+      "explanation_en": "We say \"go hiking\"."
+    },
+    {
+      "question": "Your friend is going on a trip. You say:",
+      "choices": [
+        "I hope you have a great time!",
+        "Nice to meet you!",
+        "I'm sorry to hear that.",
+        "What a small world!"
+      ],
+      "answer": 0,
+      "explanation_ar": "نتمنى له وقتًا رائعًا.",
+      "explanation_en": "We wish them a great time."
+    },
+    {
+      "question": "The ___ from the mountains are amazing!",
+      "choices": [
+        "kitchens",
+        "views",
+        "cookies",
+        "plans"
+      ],
+      "answer": 1,
+      "explanation_ar": "views تعني المناظر.",
+      "explanation_en": "Views are what you can see."
+    }
+  ]
+}

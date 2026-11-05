@@ -1,36 +1,43 @@
 package com.speakmind.app.feature.story.ui
 
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.VolumeUp
-import androidx.compose.material.icons.filled.Stop
-import androidx.compose.animation.core.*
-import androidx.compose.material3.*
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
-import network.chaintech.sdpcomposemultiplatform.sdp
-import network.chaintech.sdpcomposemultiplatform.ssp
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
 import com.speakmind.app.feature.story.domain.model.StoryTopic
 import com.speakmind.app.navigation.StoryDetailDestination
 import com.speakmind.app.ui.components.BannerAdView
-import com.speakmind.app.ui.components.TtsSpeedButton
+import com.speakmind.app.ui.components.SpeakyBackButton
+import com.speakmind.app.ui.components.SpeakyIcons
+import com.speakmind.app.ui.components.SpeakyPill
+import com.speakmind.app.ui.components.SpeakySpeedButton
 import com.speakmind.app.ui.components.WordAction
 import com.speakmind.app.ui.components.WordActionBottomSheet
 import com.speakmind.app.ui.components.animatedComposable
+import com.speakmind.app.ui.components.displayStyle
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -71,166 +78,113 @@ private fun StoryDetailContent(
         if (uiState.wordSaved) snackbarHostState.showSnackbar("Saved to flashcards!")
     }
 
-    Box(
+    if (uiState.selectedWord != null) {
+        WordActionBottomSheet(
+            word = uiState.selectedWord,
+            wordSaved = uiState.wordSaved,
+            selectedAction = uiState.selectedAction,
+            meaningText = uiState.meaningText,
+            partOfSpeech = uiState.partOfSpeech,
+            translationText = uiState.translationText,
+            isLoadingAction = uiState.isLoadingAction,
+            onActionSelected = onActionSelected,
+            onSaveWord = onSaveWord,
+            onSpeakWord = onSpeakWord,
+            onDismiss = onDismissWord,
+        )
+    }
+
+    Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(colors.backgroundGradient)
+            .background(colors.backgroundDark)
+            .windowInsetsPadding(WindowInsets.statusBars),
     ) {
-        if (uiState.selectedWord != null) {
-            WordActionBottomSheet(
-                word = uiState.selectedWord,
-                wordSaved = uiState.wordSaved,
-                selectedAction = uiState.selectedAction,
-                meaningText = uiState.meaningText,
-                partOfSpeech = uiState.partOfSpeech,
-                translationText = uiState.translationText,
-                isLoadingAction = uiState.isLoadingAction,
-                onActionSelected = onActionSelected,
-                onSaveWord = onSaveWord,
-                onSpeakWord = onSpeakWord,
-                onDismiss = onDismissWord,
-            )
-        }
-
-        when {
-            uiState.isLoading -> {
-                Box(
-                    modifier = Modifier.fillMaxSize(),
-                    contentAlignment = Alignment.Center,
-                ) {
+        Box(Modifier.weight(1f).fillMaxWidth()) {
+            when {
+                uiState.isLoading -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     CircularProgressIndicator(color = colors.neonCyan)
                 }
-            }
-            uiState.story == null -> {
-                Box(
-                    modifier = Modifier.fillMaxSize(),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    Text(
-                        text = "Story not found",
-                        style = MaterialTheme.typography.bodyLarge.copy(color = colors.textSecondary),
-                    )
+                uiState.story == null -> Column(Modifier.fillMaxSize().padding(20.dp)) {
+                    SpeakyBackButton(onClick = onBackClicked)
+                    Box(Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                        Text("Story not found", color = colors.textSecondary, fontSize = 15.sp)
+                    }
                 }
-            }
-            else -> {
-                val story = uiState.story
-                val topic = StoryTopic.fromLabel(story.category)
-                val topicColor = topicColor(topic)
-
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .verticalScroll(rememberScrollState())
-                ) {
-                    Row(
+                else -> {
+                    val story = uiState.story
+                    val tone = topicTone(StoryTopic.fromLabel(story.category))
+                    Column(
                         modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(top = 52.sdp, bottom = 4.sdp)
-                            .padding(horizontal = 8.sdp),
-                        verticalAlignment = Alignment.CenterVertically,
+                            .fillMaxSize()
+                            .verticalScroll(rememberScrollState())
+                            .padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 24.dp),
+                        verticalArrangement = Arrangement.spacedBy(14.dp),
                     ) {
-                        IconButton(onClick = onBackClicked) {
-                            Icon(
-                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                                contentDescription = "Back",
-                                tint = colors.textPrimary,
-                            )
-                        }
-                        Spacer(modifier = Modifier.weight(1f))
-                        if (story.category.isNotEmpty()) {
-                            Box(
-                                modifier = Modifier
-                                    .clip(RoundedCornerShape(8.sdp))
-                                    .background(topicColor.copy(alpha = 0.2f))
-                                    .padding(horizontal = 10.sdp, vertical = 4.sdp),
-                            ) {
-                                Text(
-                                    text = story.category,
-                                    style = MaterialTheme.typography.labelMedium.copy(
-                                        color = topicColor,
-                                        fontWeight = FontWeight.Bold,
-                                    ),
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            SpeakyBackButton(onClick = onBackClicked)
+                            Spacer(Modifier.weight(1f))
+                            if (story.category.isNotEmpty()) {
+                                SpeakyPill(
+                                    story.category,
+                                    tone.first,
+                                    tone.second,
+                                    fontSize = 12.sp,
+                                    padding = PaddingValues(horizontal = 12.dp, vertical = 6.dp),
                                 )
                             }
                         }
-                        Spacer(modifier = Modifier.width(12.sdp))
-                    }
 
-                    Text(
-                        text = story.title,
-                        style = MaterialTheme.typography.headlineSmall.copy(
-                            color = colors.textPrimary,
-                            fontWeight = FontWeight.Bold,
-                        ),
-                        modifier = Modifier.padding(horizontal = 20.sdp, vertical = 8.sdp),
-                    )
+                        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                            Text(story.title, style = displayStyle(28.sp, lineHeight = 31.sp), color = colors.textPrimary)
+                            if (story.pubDate.isNotEmpty()) {
+                                Text(formatDate(story.pubDate), color = colors.textMuted, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                            }
+                        }
 
-                    if (story.pubDate.isNotEmpty()) {
-                        Text(
-                            text = formatDate(story.pubDate),
-                            style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-                            modifier = Modifier.padding(horizontal = 20.sdp),
-                        )
-                    }
-
-                    Spacer(modifier = Modifier.height(14.sdp))
-
-                    Row(
-                        modifier = Modifier.padding(horizontal = 20.sdp),
-                        horizontalArrangement = Arrangement.spacedBy(8.sdp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        ListenButton(
-                            isSpeaking = uiState.isSpeaking,
-                            onClick = onSpeakClicked,
-                            modifier = Modifier.weight(1f),
-                        )
-                        TtsSpeedButton()
-                    }
-
-                    Spacer(modifier = Modifier.height(20.sdp))
-
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 16.sdp)
-                            .clip(RoundedCornerShape(20.sdp))
-                            .background(colors.surface.copy(alpha = 0.8f))
-                            .padding(horizontal = 20.sdp, vertical = 24.sdp),
-                    ) {
-                        Column {
-                            Text(
-                                text = "Tap any word for options",
-                                style = MaterialTheme.typography.labelSmall.copy(
-                                    color = colors.textMuted.copy(alpha = 0.5f),
-                                ),
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            ListenButton(
+                                isSpeaking = uiState.isSpeaking,
+                                onClick = onSpeakClicked,
+                                modifier = Modifier.weight(1f),
                             )
-                            Spacer(modifier = Modifier.height(12.sdp))
+                            SpeakySpeedButton(
+                                modifier = Modifier.width(56.dp),
+                                height = 50.dp,
+                                radius = 16.dp,
+                                fontSize = 14.sp,
+                            )
+                        }
+
+                        Column(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clip(RoundedCornerShape(24.dp))
+                                .background(colors.surface)
+                                .padding(horizontal = 18.dp, vertical = 16.dp),
+                            verticalArrangement = Arrangement.spacedBy(8.dp),
+                        ) {
+                            Text("Tap any word", color = colors.textMuted, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
                             TappableText(
                                 text = stripLeadingDate(story.content).stripMarkdown(),
+                                selectedWord = uiState.selectedWord,
                                 onWordClicked = onWordClicked,
                             )
                         }
                     }
-
-                    Spacer(modifier = Modifier.height(32.sdp))
                 }
             }
+            SnackbarHost(hostState = snackbarHostState, modifier = Modifier.align(Alignment.BottomCenter))
         }
 
-        Column(
-            modifier = Modifier.align(Alignment.BottomCenter),
-            horizontalAlignment = Alignment.CenterHorizontally,
-        ) {
-            SnackbarHost(hostState = snackbarHostState)
-            BannerAdView()
-        }
+        BannerAdView(modifier = Modifier.align(Alignment.CenterHorizontally))
     }
 }
 
 @Composable
 private fun TappableText(
     text: String,
+    selectedWord: String?,
     onWordClicked: (String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
@@ -241,8 +195,13 @@ private fun TappableText(
             if (segment.isBlank()) {
                 append(segment)
             } else {
+                val selected = selectedWord != null &&
+                    segment.replace(Regex("[^a-zA-Z'-]"), "").equals(selectedWord, ignoreCase = true)
                 pushStringAnnotation(tag = "word", annotation = segment)
-                withStyle(SpanStyle(color = colors.textPrimary, fontSize = 18.ssp)) {
+                withStyle(
+                    if (selected) SpanStyle(color = colors.onPrimary, background = colors.neonCyan)
+                    else SpanStyle(color = colors.textPrimary),
+                ) {
                     append(segment)
                 }
                 pop()
@@ -253,7 +212,7 @@ private fun TappableText(
     ClickableText(
         text = annotatedString,
         modifier = modifier,
-        style = MaterialTheme.typography.bodyLarge.copy(lineHeight = 32.ssp, fontSize = 18.ssp),
+        style = MaterialTheme.typography.bodyLarge.copy(fontSize = 18.sp, lineHeight = 30.sp),
         onClick = { offset ->
             annotatedString.getStringAnnotations("word", offset, offset)
                 .firstOrNull()?.let { onWordClicked(it.item) }
@@ -277,32 +236,32 @@ private fun ListenButton(
     val colors = LocalSpeakMindColors.current
     val infiniteTransition = rememberInfiniteTransition()
     val pulseAlpha by infiniteTransition.animateFloat(
-        initialValue = 0.3f,
-        targetValue = 0.7f,
+        initialValue = 0.6f,
+        targetValue = 1f,
         animationSpec = infiniteRepeatable(
             animation = tween(1000, easing = EaseInOutSine),
             repeatMode = RepeatMode.Reverse,
         ),
     )
-
-    Button(
-        onClick = onClick,
-        modifier = modifier.fillMaxWidth().height(48.sdp),
-        shape = RoundedCornerShape(14.sdp),
-        colors = ButtonDefaults.buttonColors(
-            containerColor = if (isSpeaking) colors.neonCyan.copy(alpha = pulseAlpha) else colors.neonCyan,
-            contentColor = colors.backgroundDark,
-        ),
+    Row(
+        modifier = modifier
+            .height(50.dp)
+            .clip(RoundedCornerShape(16.dp))
+            .background(if (isSpeaking) colors.neonCyan.copy(alpha = pulseAlpha) else colors.neonCyan)
+            .clickable(role = Role.Button, onClick = onClick),
+        horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
+        verticalAlignment = Alignment.CenterVertically,
     ) {
-        Icon(
-            imageVector = if (isSpeaking) Icons.Default.Stop else Icons.AutoMirrored.Filled.VolumeUp,
-            contentDescription = null,
-            modifier = Modifier.size(22.sdp),
-        )
-        Spacer(modifier = Modifier.width(8.sdp))
+        if (isSpeaking) {
+            Box(Modifier.size(14.dp).clip(RoundedCornerShape(3.dp)).background(colors.onPrimary))
+        } else {
+            Icon(SpeakyIcons.Speaker, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(20.dp))
+        }
         Text(
-            text = if (isSpeaking) "Stop Listening" else "Listen to Story",
-            style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold),
+            if (isSpeaking) "Stop listening" else "Listen to story",
+            color = colors.onPrimary,
+            fontSize = 15.sp,
+            fontWeight = FontWeight.ExtraBold,
         )
     }
 }

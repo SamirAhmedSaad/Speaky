@@ -1,0 +1,351 @@
+{
+  "title": "Could be vs Should be",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "should",
+        "pos": "modal verb",
+        "meaning_en": "what is right or probable; also used for advice",
+        "meaning_ar": "ينبغي / من المرجّح",
+        "note_ar": "حرف l صامت: /ʃʊd/",
+        "note_en": "The l is silent: /ʃʊd/.",
+        "example": "You should eat more vegetables."
+      },
+      {
+        "word": "could",
+        "pos": "modal verb",
+        "meaning_en": "what is possible",
+        "meaning_ar": "من الممكن / قد",
+        "note_ar": "حرف l صامت: /kʊd/",
+        "note_en": "The l is silent: /kʊd/.",
+        "example": "It could rain later."
+      },
+      {
+        "word": "expectation",
+        "pos": "noun",
+        "meaning_en": "what you think will or should happen",
+        "meaning_ar": "توقُّع",
+        "note_ar": "الفعل: expect",
+        "note_en": "Verb: expect.",
+        "example": "My expectation is that the bus will come soon."
+      },
+      {
+        "word": "excuse",
+        "pos": "noun",
+        "meaning_en": "a reason you give for not doing something",
+        "meaning_ar": "عذر / حجّة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He always has an excuse for being late."
+      },
+      {
+        "word": "obligation",
+        "pos": "noun",
+        "meaning_en": "something you should or must do",
+        "meaning_ar": "التزام / واجب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Helping your family is an obligation."
+      },
+      {
+        "word": "possible",
+        "pos": "adjective",
+        "meaning_en": "able to happen, but not sure",
+        "meaning_ar": "ممكن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's possible that he is busy."
+      },
+      {
+        "word": "probable",
+        "pos": "adjective",
+        "meaning_en": "likely to happen; more sure than possible",
+        "meaning_ar": "مُرجَّح / محتمل جدًا",
+        "note_ar": "الظرف: probably",
+        "note_en": "Adverb: probably.",
+        "example": "Rain is probable this afternoon."
+      },
+      {
+        "word": "relative",
+        "pos": "adjective",
+        "meaning_en": "depending on who looks at it or compares it",
+        "meaning_ar": "نِسبي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Young and old are relative: 40 is young if you are 60."
+      },
+      {
+        "word": "perspective",
+        "pos": "noun",
+        "meaning_en": "your way of seeing or thinking about something",
+        "meaning_ar": "وجهة نظر / منظور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "From my perspective, the plan is good."
+      },
+      {
+        "word": "accurate",
+        "pos": "adjective",
+        "meaning_en": "correct and exact",
+        "meaning_ar": "دقيق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is this clock accurate?"
+      },
+      {
+        "word": "concrete",
+        "pos": "adjective",
+        "meaning_en": "clear and definite; you can believe it",
+        "meaning_ar": "ملموس / محدد",
+        "note_ar": "أصلها \"خرسانة\" أي شيء صلب",
+        "note_en": "Also a noun: hard building material.",
+        "example": "Give me a concrete time, not \"later\"."
+      },
+      {
+        "word": "overtime",
+        "pos": "noun",
+        "meaning_en": "extra time after the normal time (in a game or at work)",
+        "meaning_ar": "وقت إضافي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The game went into overtime."
+      },
+      {
+        "word": "advice",
+        "pos": "noun",
+        "meaning_en": "an opinion about what someone should do",
+        "meaning_ar": "نصيحة",
+        "note_ar": "غير معدودة: some advice (ليس an advice)",
+        "note_en": "Uncountable: some advice, not \"an advice\".",
+        "example": "My father gave me good advice."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "could be vs should be",
+        "words": [
+          "could be",
+          "should be"
+        ],
+        "explanation_ar": "could be = ممكن فقط، وهناك احتمالات كثيرة (لسنا متأكدين). should be = مُرجَّح وصحيح، ونصدّقه أكثر، وغالبًا مع وقت محدد. تذكّر: should فيها \"اثنان\" أي أكثر تأكيدًا.",
+        "explanation_en": "could be = only possible; many things could happen, we are not sure. should be = probable and right; we believe it more, often with a specific time. Should is more sure than could.",
+        "examples": [
+          {
+            "word": "should be",
+            "sentence": "The doctor should be with you in five minutes. (Relax, it's probably five minutes.)"
+          },
+          {
+            "word": "could be",
+            "sentence": "The doctor could be with you in five minutes. (Maybe five, maybe an hour.)"
+          }
+        ]
+      },
+      {
+        "title": "possible vs probable",
+        "words": [
+          "possible",
+          "probable"
+        ],
+        "explanation_ar": "possible = يمكن أن يحدث. probable = من المرجّح أن يحدث (أقوى).",
+        "explanation_en": "Possible = it can happen. Probable = it will likely happen (stronger).",
+        "examples": [
+          {
+            "word": "possible",
+            "sentence": "It's possible that we will win."
+          },
+          {
+            "word": "probable",
+            "sentence": "It's probable that the train will be on time."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "It should be ready in five minutes.",
+        "meaning_ar": "من المفترض أن يكون جاهزًا خلال خمس دقائق.",
+        "meaning_en": "It will probably be ready in five minutes.",
+        "example": "Your food should be ready in five minutes."
+      },
+      {
+        "phrase": "It could be over at any moment.",
+        "meaning_ar": "قد ينتهي في أي لحظة.",
+        "meaning_en": "It's possible that it ends at any time.",
+        "example": "The game is in overtime. It could be over at any moment."
+      },
+      {
+        "phrase": "I should be going.",
+        "meaning_ar": "عليّ أن أذهب الآن.",
+        "meaning_en": "A polite way to say: I need to leave.",
+        "example": "It's late. I should be going."
+      },
+      {
+        "phrase": "relatively speaking",
+        "meaning_ar": "نسبيًا",
+        "meaning_en": "when you compare it with other things",
+        "example": "Relatively speaking, this phone is cheap."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Modal + be",
+        "explanation_ar": "التركيب: الفاعل + should/could + be + (صفة / اسم / فعل -ing / مكان). فعل be يعبّر عمّا نؤمن أنه صحيح من وجهة نظرنا، والفعل الناقص يغيّر قوة هذا الاعتقاد.",
+        "explanation_en": "Structure: subject + should/could + be + (adjective / noun / -ing verb / place). Be shows what we believe is true from our point of view; the modal changes how strong that belief is.",
+        "examples": [
+          "Dinner should be ready soon.",
+          "He could be at home.",
+          "You should be a better student if you study harder."
+        ]
+      },
+      {
+        "title": "Should be = probable and right",
+        "explanation_ar": "استخدم should be عندما تظن أن هذا هو الصحيح أو الأرجح، خاصة مع وقت محدد. السامع يطمئن ويصدّق.",
+        "explanation_en": "Use should be when you think this is the right or most likely result, especially with a specific time. The listener relaxes and believes it.",
+        "examples": [
+          "The bus should be here at 8:15.",
+          "Mom: Dinner should be ready in five minutes."
+        ]
+      },
+      {
+        "title": "Could be = only possible",
+        "explanation_ar": "استخدم could be عندما تكون هناك احتمالات كثيرة ولست متأكدًا أيها سيحدث.",
+        "explanation_en": "Use could be when many things can happen and you are not sure which one will.",
+        "examples": [
+          "The game could be over at any moment.",
+          "He could be sick, or he could be busy. I don't know."
+        ]
+      },
+      {
+        "title": "Should for advice",
+        "explanation_ar": "should + المصدر تُستخدم أيضًا لإعطاء النصيحة: You should go to school.",
+        "explanation_en": "should + base verb is also used to give advice: You should go to school.",
+        "examples": [
+          "You should go to bed early.",
+          "You should study for the test."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which is more sure?",
+      "choices": [
+        "could be",
+        "should be",
+        "they are the same",
+        "neither"
+      ],
+      "answer": 1,
+      "explanation_ar": "should be تعني مُرجَّح وأكثر تأكيدًا.",
+      "explanation_en": "Should be means probable, more sure."
+    },
+    {
+      "question": "The nurse says: \"The doctor ___ with you in five minutes.\" You can relax.",
+      "choices": [
+        "could be",
+        "could",
+        "should be",
+        "should"
+      ],
+      "answer": 2,
+      "explanation_ar": "should be + وقت محدد: نصدّقه ونطمئن.",
+      "explanation_en": "Should be + a specific time: we believe it and relax."
+    },
+    {
+      "question": "The game is in overtime. Nobody knows when a goal will come. It ___ over at any moment.",
+      "choices": [
+        "could be",
+        "should be",
+        "should",
+        "is be"
+      ],
+      "answer": 0,
+      "explanation_ar": "هناك احتمالات كثيرة: could be.",
+      "explanation_en": "Many things can happen: could be."
+    },
+    {
+      "question": "What does \"probable\" mean?",
+      "choices": [
+        "impossible",
+        "finished",
+        "a bad idea",
+        "likely to happen"
+      ],
+      "answer": 3,
+      "explanation_ar": "probable = مرجّح.",
+      "explanation_en": "Probable = likely to happen."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Dinner should is ready.",
+        "Dinner should be ready.",
+        "Dinner should to be ready.",
+        "Dinner should being ready."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح: should + be.",
+      "explanation_en": "should + be."
+    },
+    {
+      "question": "\"Relative\" truth means ___.",
+      "choices": [
+        "it depends on who is looking",
+        "it is always true",
+        "it is a family member",
+        "it is false"
+      ],
+      "answer": 0,
+      "explanation_ar": "نسبي = يعتمد على وجهة النظر.",
+      "explanation_en": "Relative = it depends on your point of view."
+    },
+    {
+      "question": "\"You ___ go to bed early.\" (advice)",
+      "choices": [
+        "could be",
+        "are",
+        "should",
+        "should be"
+      ],
+      "answer": 2,
+      "explanation_ar": "should + المصدر للنصيحة.",
+      "explanation_en": "should + base verb for advice."
+    },
+    {
+      "question": "What is \"overtime\"?",
+      "choices": [
+        "a break",
+        "a holiday",
+        "the start of a game",
+        "extra time after the normal time"
+      ],
+      "answer": 3,
+      "explanation_ar": "overtime = وقت إضافي.",
+      "explanation_en": "Overtime is extra time after the normal time."
+    },
+    {
+      "question": "\"I should be going.\" means ___.",
+      "choices": [
+        "I need to leave now",
+        "I am going now for sure",
+        "I went",
+        "I can't go"
+      ],
+      "answer": 0,
+      "explanation_ar": "طريقة مهذبة لقول: عليّ أن أغادر.",
+      "explanation_en": "A polite way to say: I need to leave."
+    },
+    {
+      "question": "\"Concrete\" information is ___.",
+      "choices": [
+        "a guess",
+        "clear and definite",
+        "very old",
+        "wrong"
+      ],
+      "answer": 1,
+      "explanation_ar": "concrete = محدد وواضح.",
+      "explanation_en": "Concrete = clear and definite."
+    }
+  ]
+}

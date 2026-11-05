@@ -1,0 +1,57 @@
+{
+  "title": "The Test Drive",
+  "content": {
+    "vocabulary": [
+      {"word": "opening shot", "pos": "noun", "meaning_en": "the first picture or scene of a video", "meaning_ar": "اللقطة الافتتاحية", "note_ar": "", "note_en": "", "example": "Let's use this as the opening shot."},
+      {"word": "instructions", "pos": "noun", "meaning_en": "information that tells you what to do", "meaning_ar": "تعليمات", "note_ar": "", "note_en": "", "example": "Did she give us instructions?"},
+      {"word": "car show", "pos": "noun", "meaning_en": "an event where new and special cars are shown", "meaning_ar": "معرض سيارات", "note_ar": "", "note_en": "", "example": "We went to the car show on Saturday."},
+      {"word": "exact", "pos": "adjective", "meaning_en": "completely correct, with no changes", "meaning_ar": "دقيق / بالضبط", "note_ar": "exact words = الكلمات نفسها حرفيًا", "note_en": "exact words = the same words", "example": "Those were her exact words?"},
+      {"word": "quotation marks", "pos": "noun", "meaning_en": "the signs \" \" used around someone's exact words", "meaning_ar": "علامات التنصيص", "note_ar": "", "note_en": "", "example": "Put the exact words in quotation marks."},
+      {"word": "direct speech", "pos": "noun", "meaning_en": "a person's exact words", "meaning_ar": "الكلام المباشر", "note_ar": "", "note_en": "", "example": "Direct speech: She said, \"Have fun.\""},
+      {"word": "reported speech", "pos": "noun", "meaning_en": "telling what someone said, without their exact words", "meaning_ar": "الكلام المنقول (غير المباشر)", "note_ar": "", "note_en": "", "example": "Reported speech: She said that we should have fun."},
+      {"word": "vehicle", "pos": "noun", "meaning_en": "a car, truck, bus or other machine for carrying people", "meaning_ar": "مركبة", "note_ar": "حرف h صامت تقريبًا: /ˈviːəkəl/", "note_en": "The h is usually silent.", "example": "This show has many styles of vehicles."},
+      {"word": "utility vehicle", "pos": "noun", "meaning_en": "a strong car for work or rough roads", "meaning_ar": "سيارة متعددة الاستخدامات", "note_ar": "", "note_en": "", "example": "A utility vehicle can drive on rough roads."},
+      {"word": "classic car", "pos": "noun", "meaning_en": "an old car that people value", "meaning_ar": "سيارة كلاسيكية", "note_ar": "", "note_en": "", "example": "My uncle collects classic cars."},
+      {"word": "sports car", "pos": "noun", "meaning_en": "a small, fast car", "meaning_ar": "سيارة رياضية", "note_ar": "", "note_en": "", "example": "Sports cars are very fast."},
+      {"word": "opinion", "pos": "noun", "meaning_en": "what you think about something", "meaning_ar": "رأي", "note_ar": "", "note_en": "", "example": "People had very different opinions."},
+      {"word": "effort", "pos": "noun", "meaning_en": "hard work to do something", "meaning_ar": "جهد", "note_ar": "", "note_en": "", "example": "What an effort!"},
+      {"word": "a round of applause", "pos": "phrase", "meaning_en": "when everyone claps their hands together", "meaning_ar": "جولة تصفيق", "note_ar": "", "note_en": "", "example": "How about a round of applause for Anna!"},
+      {"word": "test drive", "pos": "noun", "meaning_en": "a short drive to try a car", "meaning_ar": "تجربة قيادة", "note_ar": "وتأتي فعلًا: to test drive a car", "note_en": "Also a verb.", "example": "You can test drive a car at this show."},
+      {"word": "smooth", "pos": "adjective", "meaning_en": "flat and even, with no bumps", "meaning_ar": "أملس / سلس", "note_ar": "عكسها bumpy", "note_en": "Opposite: bumpy.", "example": "This road is smooth."},
+      {"word": "bumpy", "pos": "adjective", "meaning_en": "having many bumps; not flat", "meaning_ar": "وعر / مليء بالمطبات", "note_ar": "", "note_en": "", "example": "The course is bumpy and uneven."},
+      {"word": "uneven", "pos": "adjective", "meaning_en": "not flat or level", "meaning_ar": "غير مستوٍ", "note_ar": "", "note_en": "", "example": "Be careful. The ground is uneven."},
+      {"word": "steep", "pos": "adjective", "meaning_en": "going up or down very sharply", "meaning_ar": "شديد الانحدار", "note_ar": "", "note_en": "", "example": "This hill is really steep."},
+      {"word": "stunt driver", "pos": "noun", "meaning_en": "a person who does dangerous, skillful driving", "meaning_ar": "سائق الحركات الخطرة", "note_ar": "", "note_en": "", "example": "The stunt driver drove on two wheels."},
+      {"word": "unfortunately", "pos": "adverb", "meaning_en": "sadly; used when something is bad news", "meaning_ar": "للأسف", "note_ar": "", "note_en": "", "example": "Unfortunately, I can't drive."},
+      {"word": "awesome", "pos": "adjective", "meaning_en": "very good; great (informal)", "meaning_ar": "رائع جدًا", "note_ar": "", "note_en": "", "example": "That ride was awesome!"}
+    ],
+    "fine_lines": [
+      {"title": "direct speech vs reported speech", "words": ["direct speech", "reported speech"], "explanation_ar": "الكلام المباشر ينقل الكلمات نفسها بين علامات تنصيص: She said, \"Have fun.\" الكلام المنقول يحكي ما قيل بدون علامات تنصيص، غالبًا مع that، وقد تتغير الضمائر: She said that we should have fun.", "explanation_en": "Direct speech gives the exact words in quotation marks: She said, \"Have fun.\" Reported speech tells what was said, often with that, and pronouns may change: She said that we should have fun.", "examples": [{"word": "direct speech", "sentence": "Ms. Weaver said, \"You need to show lots of cars.\""}, {"word": "reported speech", "sentence": "She said that we need to show lots of cars."}]},
+      {"title": "smooth vs bumpy", "words": ["smooth", "bumpy"], "explanation_ar": "smooth = مستوٍ وسلس بلا مطبات. bumpy = مليء بالمطبات وغير مريح.", "explanation_en": "Smooth = flat, with no bumps. Bumpy = full of bumps.", "examples": [{"word": "smooth", "sentence": "The new road is very smooth."}, {"word": "bumpy", "sentence": "The ride on the old road was bumpy."}]}
+    ],
+    "expressions": [
+      {"phrase": "This is the place to be!", "meaning_ar": "هذا هو المكان الذي يجب أن تكون فيه!", "meaning_en": "This is the best place to go.", "example": "If you love books, this library is the place to be!"},
+      {"phrase": "How was that?", "meaning_ar": "كيف كان ذلك؟", "meaning_en": "Was that good?", "example": "I read the news. How was that?"},
+      {"phrase": "What an effort!", "meaning_ar": "يا له من جهد!", "meaning_en": "You tried very hard!", "example": "You cleaned the whole house? What an effort!"},
+      {"phrase": "Here we go!", "meaning_ar": "ها نحن نبدأ!", "meaning_en": "Said when something exciting is starting.", "example": "Seat belts on. Here we go!"},
+      {"phrase": "Oh my gosh!", "meaning_ar": "يا إلهي! (تعبير عن الدهشة)", "meaning_en": "Said when you are very surprised.", "example": "Oh my gosh! This hill is so steep!"},
+      {"phrase": "I can't tell you how much fun this is.", "meaning_ar": "لا أستطيع أن أصف لك كم هذا ممتع.", "meaning_en": "This is very, very fun.", "example": "I can't tell you how much fun this trip is."},
+      {"phrase": "Until next time!", "meaning_ar": "إلى اللقاء في المرة القادمة!", "meaning_en": "Goodbye until we meet again.", "example": "Thanks for watching. Until next time!"}
+    ],
+    "grammar": [
+      {"title": "Reported speech", "explanation_ar": "عندما نخبر عن كلام شخص آخر لدينا طريقتان: 1) الكلام المباشر: نكتب الكلمات نفسها بين علامات تنصيص: She said, \"Have fun, Anna!\" 2) الكلام المنقول: نحكي ما قاله بدون علامات تنصيص: She said (that) we should have fun. أجزاء الجملة: الفاعل (She) + فعل النقل (said / told) + that (يمكن حذفها) + الجملة المنقولة. نغيّر الضمائر حسب المتكلم: \"You need to show cars\" → She said that we need to show cars. ونقول said that... أو told + شخص + that...", "explanation_en": "There are two ways to tell what someone said: 1) Direct speech: the exact words in quotation marks: She said, \"Have fun, Anna!\" 2) Reported speech: tell what they said with no quotation marks: She said (that) we should have fun. Parts: subject + reporting verb (said / told) + that (optional) + the reported clause. Change pronouns as needed. Use said that... or told + person + that...", "examples": ["She said that we need to show lots of cars.", "Hank the Robot said that he has never seen anyone dance like me.", "He said that I can't drive.", "Penelope said she wants to go to lunch."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which is reported speech?", "choices": ["She said, \"Have fun.\"", "She said that we should have fun.", "\"Have fun,\" she said.", "Have fun!"], "answer": 1, "explanation_ar": "الكلام المنقول بدون علامات تنصيص ومع that.", "explanation_en": "Reported speech has no quotation marks and often uses that."},
+    {"question": "Direct speech uses:", "choices": ["the exact words in quotation marks", "only questions", "the word 'that'", "the future tense"], "answer": 0, "explanation_ar": "الكلام المباشر = الكلمات نفسها بين علامات تنصيص.", "explanation_en": "Direct speech = exact words in quotation marks."},
+    {"question": "Ms. Weaver: \"You need to interview people.\" Anna tells Penelope: She said that ____ need to interview people.", "choices": ["you", "they", "she", "we"], "answer": 3, "explanation_ar": "you في كلام المديرة تعني آنا وبينيلوبي، فتقول آنا we.", "explanation_en": "'You' meant Anna and Penelope, so Anna says we."},
+    {"question": "In 'She said that we need to show lots of cars,' the reporting verb is:", "choices": ["need", "show", "said", "that"], "answer": 2, "explanation_ar": "فعل النقل هو said.", "explanation_en": "The reporting verb is said."},
+    {"question": "A road with no bumps is ____.", "choices": ["smooth", "bumpy", "steep", "uneven"], "answer": 0, "explanation_ar": "smooth = مستوٍ وسلس.", "explanation_en": "Smooth means flat with no bumps."},
+    {"question": "A hill that goes up very sharply is ____.", "choices": ["smooth", "exact", "classic", "steep"], "answer": 3, "explanation_ar": "steep = شديد الانحدار.", "explanation_en": "Steep means going up sharply."},
+    {"question": "A short drive to try a car is a ____.", "choices": ["car show", "test drive", "opening shot", "stunt"], "answer": 1, "explanation_ar": "test drive = تجربة القيادة.", "explanation_en": "A test drive is a short drive to try a car."},
+    {"question": "'Unfortunately' means:", "choices": ["happily", "quickly", "sadly; it's bad news", "loudly"], "answer": 2, "explanation_ar": "unfortunately = للأسف.", "explanation_en": "Unfortunately means sadly."},
+    {"question": "Choose the correct sentence.", "choices": ["He said me that I can't drive.", "He told that I can't drive.", "He told me that I can't drive.", "He said to that I can't drive."], "answer": 2, "explanation_ar": "told + شخص + that، أما said فلا يأتي بعدها شخص مباشرة.", "explanation_en": "Told + person + that; said is not followed directly by a person."},
+    {"question": "'A round of applause' means:", "choices": ["everyone claps", "a round table", "a car race", "a short drive"], "answer": 0, "explanation_ar": "تعني أن يصفّق الجميع.", "explanation_en": "It means everyone claps."}
+  ]
+}

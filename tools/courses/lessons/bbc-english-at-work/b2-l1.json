@@ -1,0 +1,476 @@
+{
+  "title": "Clinching the Deal",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "clinch a deal",
+        "pos": "phrase",
+        "meaning_en": "to finally succeed in agreeing a business deal",
+        "meaning_ar": "يُبرم الصفقة / يحسمها نهائيًا",
+        "note_ar": "clinch تُنطق /klɪntʃ/.",
+        "note_en": "Clinch is pronounced /klɪntʃ/.",
+        "example": "After two meetings, we clinched the deal."
+      },
+      {
+        "word": "deal",
+        "pos": "noun",
+        "meaning_en": "a business agreement between two sides",
+        "meaning_ar": "صفقة / اتفاق تجاري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We signed a deal with a new supplier."
+      },
+      {
+        "word": "contract",
+        "pos": "noun",
+        "meaning_en": "a written legal agreement",
+        "meaning_ar": "عقد",
+        "note_ar": "النبرة على المقطع الأول: CON-tract.",
+        "note_en": "Stress the first part: CON-tract.",
+        "example": "Please read the contract before you sign it."
+      },
+      {
+        "word": "sign",
+        "pos": "verb",
+        "meaning_en": "to write your name on a document to show you agree",
+        "meaning_ar": "يوقّع",
+        "note_ar": "حرف g صامت: /saɪn/. الاسم: signature (توقيع).",
+        "note_en": "The g is silent: /saɪn/. Noun: signature.",
+        "example": "The manager signed the contract this morning."
+      },
+      {
+        "word": "business trip",
+        "pos": "noun",
+        "meaning_en": "a journey you make for your work",
+        "meaning_ar": "رحلة عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is away on a business trip to Paris."
+      },
+      {
+        "word": "competitor",
+        "pos": "noun",
+        "meaning_en": "a company that sells the same things as you",
+        "meaning_ar": "منافس",
+        "note_ar": "الفعل: compete، والاسم: competition (منافسة).",
+        "note_en": "Verb: compete. Noun: competition.",
+        "example": "Our competitor has lower prices."
+      },
+      {
+        "word": "offer",
+        "pos": "noun",
+        "meaning_en": "an amount of money or a deal that someone suggests",
+        "meaning_ar": "عرض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They received a better offer from another company."
+      },
+      {
+        "word": "beat the price",
+        "pos": "phrase",
+        "meaning_en": "to offer a lower price than someone else",
+        "meaning_ar": "يقدّم سعرًا أقل من المنافس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can beat the price of any other shop."
+      },
+      {
+        "word": "discount",
+        "pos": "noun",
+        "meaning_en": "an amount taken off the normal price",
+        "meaning_ar": "خصم / تخفيض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you order more, we can give you a 10% discount."
+      },
+      {
+        "word": "place an order",
+        "pos": "phrase",
+        "meaning_en": "to ask a company to send you goods",
+        "meaning_ar": "يقدّم طلب شراء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The client placed an order for 500 boxes."
+      },
+      {
+        "word": "recap",
+        "pos": "verb",
+        "meaning_en": "to repeat the main points of something said before",
+        "meaning_ar": "يلخّص النقاط الرئيسية / يعيد ذكرها",
+        "note_ar": "اختصار recapitulate.",
+        "note_en": "Short for recapitulate.",
+        "example": "Let me recap what we agreed on the phone."
+      },
+      {
+        "word": "face-to-face",
+        "pos": "adjective / adverb",
+        "meaning_en": "meeting in person, not by phone or email",
+        "meaning_ar": "وجهًا لوجه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is easier to discuss prices face-to-face."
+      },
+      {
+        "word": "convince",
+        "pos": "verb",
+        "meaning_en": "to make someone believe or agree with something",
+        "meaning_ar": "يُقنع",
+        "note_ar": "الصفة: convincing (مقنع).",
+        "note_en": "Adjective: convincing.",
+        "example": "She convinced the client to buy more."
+      },
+      {
+        "word": "colleague",
+        "pos": "noun",
+        "meaning_en": "a person you work with",
+        "meaning_ar": "زميل في العمل",
+        "note_ar": "تُنطق /ˈkɒliːɡ/.",
+        "note_en": "Pronounced /ˈkɒliːɡ/.",
+        "example": "This is my colleague, Tom."
+      },
+      {
+        "word": "spare the time",
+        "pos": "phrase",
+        "meaning_en": "to give some of your time to someone, although you are busy",
+        "meaning_ar": "يخصّص / يقتطع من وقته",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for sparing the time to meet us."
+      },
+      {
+        "word": "product",
+        "pos": "noun",
+        "meaning_en": "something a company makes and sells",
+        "meaning_ar": "منتَج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This lemon is our best product."
+      },
+      {
+        "word": "hard-wearing",
+        "pos": "adjective",
+        "meaning_en": "strong and lasting a long time",
+        "meaning_ar": "متين / يتحمّل الاستعمال الطويل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These chairs are hard-wearing."
+      },
+      {
+        "word": "throw in",
+        "pos": "phrasal verb",
+        "meaning_en": "to add something extra for free when someone buys something",
+        "meaning_ar": "يضيف شيئًا مجانًا مع الصفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you buy the laptop, we'll throw in a free bag."
+      },
+      {
+        "word": "free sample",
+        "pos": "noun",
+        "meaning_en": "a small amount of a product you get without paying, to try it",
+        "meaning_ar": "عيّنة مجانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The shop gave us a free sample of the new tea."
+      },
+      {
+        "word": "guarantee",
+        "pos": "noun",
+        "meaning_en": "a promise that a product is good and will be fixed or replaced if not",
+        "meaning_ar": "ضمان",
+        "note_ar": "حرف u صامت: /ˌɡærənˈtiː/.",
+        "note_en": "The u is silent: /ˌɡærənˈtiː/.",
+        "example": "The printer comes with a two-year guarantee."
+      },
+      {
+        "word": "satisfaction",
+        "pos": "noun",
+        "meaning_en": "the good feeling when you get what you wanted",
+        "meaning_ar": "رضا",
+        "note_ar": "الصفة: satisfied (راضٍ).",
+        "note_en": "Adjective: satisfied.",
+        "example": "Customer satisfaction is very important to us."
+      },
+      {
+        "word": "disappointed",
+        "pos": "adjective",
+        "meaning_en": "unhappy because something was not as good as you hoped",
+        "meaning_ar": "خائب الأمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I was disappointed with the service."
+      },
+      {
+        "word": "grateful",
+        "pos": "adjective",
+        "meaning_en": "feeling or showing thanks",
+        "meaning_ar": "ممتنّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm grateful for your help."
+      },
+      {
+        "word": "deliver",
+        "pos": "verb",
+        "meaning_en": "to take goods to the place where someone wants them",
+        "meaning_ar": "يسلّم / يوصل",
+        "note_ar": "الاسم: delivery (توصيل).",
+        "note_en": "Noun: delivery.",
+        "example": "We will deliver the order in two weeks."
+      },
+      {
+        "word": "subtle",
+        "pos": "adjective",
+        "meaning_en": "not direct or obvious; done in a clever, gentle way",
+        "meaning_ar": "لبق / غير مباشر",
+        "note_ar": "حرف b صامت: /ˈsʌtl/.",
+        "note_en": "The b is silent: /ˈsʌtl/.",
+        "example": "Be subtle when you ask for a bigger order."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "deal vs contract",
+        "words": [
+          "deal",
+          "contract"
+        ],
+        "explanation_ar": "deal هو الاتفاق نفسه بين الطرفين (قد يكون شفهيًا)، أما contract فهو الوثيقة الرسمية المكتوبة التي توقَّع لإثبات الاتفاق.",
+        "explanation_en": "A deal is the agreement itself (it can be spoken). A contract is the official written document that you sign to make the deal legal.",
+        "examples": [
+          {
+            "word": "deal",
+            "sentence": "OK, I think we have a deal."
+          },
+          {
+            "word": "contract",
+            "sentence": "Could you sign the contract, please?"
+          }
+        ]
+      },
+      {
+        "title": "discount vs offer",
+        "words": [
+          "discount",
+          "offer"
+        ],
+        "explanation_ar": "discount هو المبلغ الذي يُخصم من السعر. offer هو ما يقترحه طرف على آخر (سعر أو صفقة)، وقد يتضمن خصمًا.",
+        "explanation_en": "A discount is money taken off the price. An offer is what one side suggests to the other (a price or a deal); it may include a discount.",
+        "examples": [
+          {
+            "word": "discount",
+            "sentence": "We give a 5% discount on big orders."
+          },
+          {
+            "word": "offer",
+            "sentence": "They accepted our offer."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Thank you for sparing the time to see us.",
+        "meaning_ar": "شكرًا لتخصيصك الوقت لمقابلتنا.",
+        "meaning_en": "Thank you for giving us some of your time.",
+        "example": "Thank you for sparing the time to see us, Mr Brown."
+      },
+      {
+        "phrase": "Each lemon comes with a satisfaction guarantee - I know you won't be disappointed.",
+        "meaning_ar": "كل منتج يأتي مع ضمان الرضا، وأنا واثق أنك لن تخيب أملك.",
+        "meaning_en": "Every product has a promise that you will be happy with it.",
+        "example": "Each phone comes with a satisfaction guarantee - I know you won't be disappointed."
+      },
+      {
+        "phrase": "I would be grateful if you could just sign the contract.",
+        "meaning_ar": "سأكون ممتنًا لو تفضّلت بتوقيع العقد.",
+        "meaning_en": "A polite way to ask someone to sign.",
+        "example": "I would be grateful if you could just sign the contract here."
+      },
+      {
+        "phrase": "It was a pleasure doing business with you.",
+        "meaning_ar": "كان التعامل معك من دواعي سروري.",
+        "meaning_en": "A polite phrase at the end of a successful deal.",
+        "example": "Thank you. It was a pleasure doing business with you."
+      },
+      {
+        "phrase": "I think you have a deal.",
+        "meaning_ar": "أعتقد أننا اتفقنا.",
+        "meaning_en": "I agree to your offer.",
+        "example": "It sounds good. I think you have a deal."
+      },
+      {
+        "phrase": "As I said on the phone, we can beat that.",
+        "meaning_ar": "كما قلت على الهاتف، يمكننا تقديم سعر أفضل من ذلك.",
+        "meaning_en": "We can offer a better price than the other company.",
+        "example": "As I said on the phone, we can beat that price."
+      },
+      {
+        "phrase": "We'll get them to you as quickly as we can.",
+        "meaning_ar": "سنوصلها إليك بأسرع ما يمكن.",
+        "meaning_en": "We will deliver them very soon.",
+        "example": "We'll get the boxes to you as quickly as we can."
+      },
+      {
+        "phrase": "You just need to place an order of 10,000.",
+        "meaning_ar": "كل ما عليك هو أن تطلب 10,000 قطعة.",
+        "meaning_en": "You only need to order 10,000.",
+        "example": "To get this price, you just need to place an order of 500."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite requests: I would be grateful if you could…",
+        "explanation_ar": "عندما نطلب شيئًا بطريقة رسمية ومهذبة نستخدم: I would be grateful if you could + الفعل في صيغة المصدر (بدون to). وهي أكثر لباقة من Please sign أو Sign the contract.",
+        "explanation_en": "To make a formal, polite request, use: I would be grateful if you could + base verb. It is softer than 'Please sign' or 'Sign the contract'.",
+        "examples": [
+          "I would be grateful if you could sign the contract.",
+          "I would be grateful if you could send me the price list.",
+          "We would be grateful if you could reply by Friday."
+        ]
+      },
+      {
+        "title": "Thank you for + verb-ing",
+        "explanation_ar": "بعد Thank you for نستخدم الفعل مع ing (أو اسمًا): Thank you for sparing the time. لا نقول Thank you for spare.",
+        "explanation_en": "After 'Thank you for' use the -ing form of the verb (or a noun): Thank you for sparing the time. Not 'Thank you for spare'.",
+        "examples": [
+          "Thank you for sparing the time to see us.",
+          "Thank you for coming.",
+          "Thank you for your help."
+        ]
+      },
+      {
+        "title": "First conditional for offers: If you…, we can/will…",
+        "explanation_ar": "نستخدم If + المضارع البسيط، ثم will/can + الفعل، لتقديم عرض مشروط: إذا طلبتم أكثر، سنعطيكم خصمًا أكبر.",
+        "explanation_en": "Use If + present simple, then will/can + verb, to make a conditional offer: If you order more, we can give you a bigger discount.",
+        "examples": [
+          "If you order more, we can offer a bigger discount.",
+          "If you sign today, we will deliver next week.",
+          "If you buy 10,000, we'll throw in a free sample."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What does 'clinch the deal' mean?",
+      "choices": [
+        "to lower the price",
+        "to cancel a deal",
+        "to start looking for clients",
+        "to finally agree and complete a deal"
+      ],
+      "answer": 3,
+      "explanation_ar": "clinch the deal تعني حسم الصفقة وإتمامها.",
+      "explanation_en": "To clinch a deal means to finally succeed in agreeing it."
+    },
+    {
+      "question": "Complete: 'I would be grateful if you ___ just sign the contract.'",
+      "choices": [
+        "could",
+        "can to",
+        "will to",
+        "are"
+      ],
+      "answer": 0,
+      "explanation_ar": "التركيب الصحيح: I would be grateful if you could + الفعل.",
+      "explanation_en": "The pattern is: I would be grateful if you could + base verb."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Thank you to sparing the time to see us.",
+        "Thank you for spare the time to see us.",
+        "Thank you for sparing the time to see us.",
+        "Thank you for spared the time to see us."
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد Thank you for نستخدم الفعل مع ing.",
+      "explanation_en": "After 'Thank you for' we use the -ing form."
+    },
+    {
+      "question": "What do you say at the end of a successful deal?",
+      "choices": [
+        "Please leave the talking to me.",
+        "I hope you are disappointed.",
+        "It was a pleasure doing business with you.",
+        "Our flight is cancelled."
+      ],
+      "answer": 2,
+      "explanation_ar": "هذه العبارة المهذبة تُقال بعد إتمام الصفقة.",
+      "explanation_en": "This polite phrase is used after a deal is done."
+    },
+    {
+      "question": "Tom says: 'We can even throw in a free sample.' What does 'throw in' mean here?",
+      "choices": [
+        "add something for free",
+        "throw something away",
+        "sell something",
+        "send something back"
+      ],
+      "answer": 0,
+      "explanation_ar": "throw in تعني إضافة شيء مجاني مع الصفقة.",
+      "explanation_en": "Throw in means to add something extra for free."
+    },
+    {
+      "question": "A company that sells the same products as you is a ___.",
+      "choices": [
+        "contract",
+        "colleague",
+        "client",
+        "competitor"
+      ],
+      "answer": 3,
+      "explanation_ar": "competitor هو المنافس.",
+      "explanation_en": "A competitor sells the same things as you."
+    },
+    {
+      "question": "Complete: 'If you order more, we ___ give you a bigger discount.'",
+      "choices": [
+        "could to",
+        "can",
+        "are",
+        "did"
+      ],
+      "answer": 1,
+      "explanation_ar": "في الجملة الشرطية الأولى نستخدم can/will + الفعل.",
+      "explanation_en": "In the first conditional use can/will + verb."
+    },
+    {
+      "question": "Which word means 'a promise that the product is good'?",
+      "choices": [
+        "guarantee",
+        "discount",
+        "offer",
+        "sample"
+      ],
+      "answer": 0,
+      "explanation_ar": "guarantee تعني ضمان.",
+      "explanation_en": "A guarantee is a promise that a product is good."
+    },
+    {
+      "question": "What is the difference between a deal and a contract?",
+      "choices": [
+        "A deal is always written; a contract is spoken.",
+        "They are always exactly the same.",
+        "A contract is the written document that you sign; a deal is the agreement.",
+        "A contract is a discount."
+      ],
+      "answer": 2,
+      "explanation_ar": "contract هو الوثيقة المكتوبة الموقّعة، و deal هو الاتفاق نفسه.",
+      "explanation_en": "A contract is the signed written document; a deal is the agreement."
+    },
+    {
+      "question": "The narrator tells Anna to 'recap' what she said on the phone. What does 'recap' mean?",
+      "choices": [
+        "forget",
+        "repeat the main points",
+        "cancel",
+        "write a contract"
+      ],
+      "answer": 1,
+      "explanation_ar": "recap تعني إعادة ذكر النقاط الرئيسية.",
+      "explanation_en": "Recap means to repeat the main points."
+    }
+  ]
+}

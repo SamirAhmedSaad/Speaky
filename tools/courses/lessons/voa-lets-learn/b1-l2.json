@@ -1,0 +1,63 @@
+{
+  "title": "Hello, I'm Anna!",
+  "content": {
+    "vocabulary": [
+      {"word": "hey", "pos": "interjection", "meaning_en": "a very informal hello; also used to get attention", "meaning_ar": "أهلًا / يا (لجذب الانتباه)", "note_ar": "عفوية جدًا، للأصدقاء.", "note_en": "Very informal, for friends.", "example": "Hey, Omar! Wait for me."},
+      {"word": "friend", "pos": "noun", "meaning_en": "a person you know and like", "meaning_ar": "صديق / صديقة", "note_ar": "تُنطق /frend/ وحرف i لا يُنطق.", "note_en": "Say /frend/; the i is silent.", "example": "Laila is my friend from school."},
+      {"word": "who", "pos": "pronoun", "meaning_en": "a question word for people", "meaning_ar": "مَن", "note_ar": "who's = who is", "note_en": "who's = who is", "example": "Who is that man?"},
+      {"word": "he", "pos": "pronoun", "meaning_en": "a man or boy (the person we talk about)", "meaning_ar": "هو", "note_ar": "", "note_en": "", "example": "He is my brother."},
+      {"word": "she", "pos": "pronoun", "meaning_en": "a woman or girl (the person we talk about)", "meaning_ar": "هي", "note_ar": "", "note_en": "", "example": "She is new to the city."},
+      {"word": "is", "pos": "verb", "meaning_en": "the form of 'be' used with he, she and it", "meaning_ar": "يكون / تكون (مع he وshe وit)", "note_ar": "she is = she's, he is = he's", "note_en": "she is = she's, he is = he's", "example": "Marsha is nice."},
+      {"word": "new to", "pos": "phrase", "meaning_en": "arrived in a place a short time ago", "meaning_ar": "جديد على (مكان)", "note_ar": "", "note_en": "", "example": "I am new to this school."},
+      {"word": "where", "pos": "adverb", "meaning_en": "a question word for places", "meaning_ar": "أين", "note_ar": "", "note_en": "", "example": "Where is the bus stop?"},
+      {"word": "from", "pos": "preposition", "meaning_en": "used to say the place where someone was born or lives", "meaning_ar": "مِن", "note_ar": "", "note_en": "", "example": "I am from Jordan."},
+      {"word": "small", "pos": "adjective", "meaning_en": "not big", "meaning_ar": "صغير", "note_ar": "عكسها big.", "note_en": "Opposite: big.", "example": "We live in a small house."},
+      {"word": "town", "pos": "noun", "meaning_en": "a place with houses and shops, smaller than a city", "meaning_ar": "بلدة", "note_ar": "town أصغر من city.", "note_en": "A town is smaller than a city.", "example": "My grandparents live in a quiet town."},
+      {"word": "thank you", "pos": "phrase", "meaning_en": "words to show you are happy for what someone did", "meaning_ar": "شكرًا لك", "note_ar": "thanks أكثر عفوية.", "note_en": "Thanks is more informal.", "example": "Thank you for the tea."},
+      {"word": "roommate", "pos": "noun", "meaning_en": "a person who lives in the same apartment or room as you", "meaning_ar": "شريك السكن", "note_ar": "", "note_en": "", "example": "My roommate is a student too."},
+      {"word": "know", "pos": "verb", "meaning_en": "to have met someone before; to have information", "meaning_ar": "يعرف", "note_ar": "حرف k لا يُنطق: /noʊ/.", "note_en": "The k is silent: /noʊ/.", "example": "I know your sister."},
+      {"word": "have to", "pos": "phrase", "meaning_en": "must; it is necessary", "meaning_ar": "يجب عليّ / مضطر إلى", "note_ar": "تُنطق غالبًا /hæftə/.", "note_en": "Often said /hæftə/.", "example": "I have to go to work now."},
+      {"word": "go", "pos": "verb", "meaning_en": "to move or leave", "meaning_ar": "يذهب / يغادر", "note_ar": "", "note_en": "", "example": "Let's go home."},
+      {"word": "now", "pos": "adverb", "meaning_en": "at this time", "meaning_ar": "الآن", "note_ar": "", "note_en": "", "example": "The class starts now."},
+      {"word": "remember", "pos": "verb", "meaning_en": "to keep something in your mind; not forget", "meaning_ar": "يتذكّر", "note_ar": "Remember to + فعل = لا تنسَ أن...", "note_en": "Remember to + verb = don't forget to...", "example": "Remember to bring your book."},
+      {"word": "call", "pos": "verb", "meaning_en": "to telephone someone", "meaning_ar": "يتصل (هاتفيًا)", "note_ar": "", "note_en": "", "example": "Please call me tonight."},
+      {"word": "work", "pos": "noun", "meaning_en": "the place where you have your job", "meaning_ar": "العمل / مكان العمل", "note_ar": "at work = في العمل.", "note_en": "at work = at your job.", "example": "My father is at work."},
+      {"word": "tell", "pos": "verb", "meaning_en": "to give information to someone", "meaning_ar": "يُخبر", "note_ar": "tell + شخص.", "note_en": "tell + a person.", "example": "Tell your mother I am here."},
+      {"word": "here", "pos": "adverb", "meaning_en": "in this place", "meaning_ar": "هنا", "note_ar": "عكسها there.", "note_en": "Opposite: there.", "example": "Come here, please."},
+      {"word": "bye", "pos": "interjection", "meaning_en": "a short way to say goodbye", "meaning_ar": "مع السلامة / وداعًا", "note_ar": "", "note_en": "", "example": "Bye! See you tomorrow."},
+      {"word": "right", "pos": "interjection", "meaning_en": "used to say 'yes, I understand' or 'correct'", "meaning_ar": "صحيح / حسنًا", "note_ar": "", "note_en": "", "example": "Right, the meeting is at five."}
+    ],
+    "fine_lines": [
+      {"title": "he vs she", "words": ["he", "she"], "explanation_ar": "he للمذكر (رجل أو ولد)، وshe للمؤنث (امرأة أو بنت). الفعل معهما واحد: is.", "explanation_en": "He is for a man or boy. She is for a woman or girl. Both use the verb is.", "examples": [{"word": "she", "sentence": "She is Anna. She is new to D.C."}, {"word": "he", "sentence": "He is Jonathan. He lives in apartment B4."}]},
+      {"title": "thank you vs thanks", "words": ["thank you", "thanks"], "explanation_ar": "المعنى واحد. thank you أكثر تهذيبًا ورسمية، وthanks عفوية وتُقال بين الأصدقاء.", "explanation_en": "They mean the same. Thank you is more polite and formal. Thanks is informal, for friends.", "examples": [{"word": "thank you", "sentence": "Thank you for your help, sir."}, {"word": "thanks", "sentence": "Thanks, Pete!"}]}
+    ],
+    "expressions": [
+      {"phrase": "Who's your friend?", "meaning_ar": "مَن صديقك؟", "meaning_en": "A way to ask the name of the person with someone.", "example": "Hi, Sami! Who's your friend?"},
+      {"phrase": "She is new to D.C.", "meaning_ar": "هي جديدة في واشنطن العاصمة.", "meaning_en": "She arrived in D.C. a short time ago.", "example": "He is new to our class."},
+      {"phrase": "Where are you from?", "meaning_ar": "من أين أنت؟", "meaning_en": "A question about someone's home country or town.", "example": "Where are you from? I'm from Egypt."},
+      {"phrase": "Welcome to D.C.", "meaning_ar": "مرحبًا بك في واشنطن.", "meaning_en": "A friendly greeting for someone new to a place.", "example": "Welcome to our city!"},
+      {"phrase": "I am in apartment B4.", "meaning_ar": "أسكن في الشقة B4.", "meaning_en": "A way to say where you live in a building.", "example": "I am in apartment 12."},
+      {"phrase": "I know Marsha. She is nice.", "meaning_ar": "أعرف مارشا. إنها لطيفة.", "meaning_en": "You have met Marsha and you like her.", "example": "I know your teacher. He is nice."},
+      {"phrase": "I have to go now.", "meaning_ar": "يجب أن أذهب الآن.", "meaning_en": "A polite way to say you must leave.", "example": "Sorry, I have to go now. Bye!"},
+      {"phrase": "Remember to call Marsha.", "meaning_ar": "تذكّري أن تتصلي بمارشا.", "meaning_en": "Don't forget to phone Marsha.", "example": "Remember to call your mother."},
+      {"phrase": "Nice to meet you! — You too.", "meaning_ar": "سُررت بلقائك! — وأنا أيضًا.", "meaning_en": "A greeting and the short polite answer to it.", "example": "Nice to meet you, Salma! — You too."},
+      {"phrase": "Here I come!", "meaning_ar": "ها أنا قادم!", "meaning_en": "Said happily when you are going to a place.", "example": "New school, here I come!"}
+    ],
+    "grammar": [
+      {"title": "Subject pronouns and the verb 'be'", "explanation_ar": "١) الضمائر: I (أنا)، you (أنت)، he (هو)، she (هي)، it (هو/هي لغير العاقل)، we (نحن)، they (هم).\n٢) الفعل be يتغير: I am / you are / he is / she is / it is / we are / they are.\n٣) الاختصارات: I'm, you're, he's, she's, it's, we're, they're.\n٤) بعد أن نذكر الاسم، نستخدم الضمير: Anna is new. She is from a small town.", "explanation_en": "1) Subject pronouns: I, you, he, she, it, we, they.\n2) The verb be changes: I am / you are / he is / she is / it is / we are / they are.\n3) Short forms: I'm, you're, he's, she's, it's, we're, they're.\n4) After we say a name, we use a pronoun: Anna is new. She is from a small town.", "examples": ["She is my roommate.", "He's in apartment D7.", "We are from a small town.", "They're new to the city."]},
+      {"title": "Saying where you are from and where you live", "explanation_ar": "١) للسؤال عن البلد: Where are you from?\n٢) الإجابة: I am from + مكان: I am from a small town.\n٣) للسكن داخل مبنى: I am in apartment + رقم.\n٤) لاحظ: from للأصل، وin للمكان الذي أنت فيه.", "explanation_en": "1) To ask about someone's home: Where are you from?\n2) Answer: I am from + place: I am from a small town.\n3) For your home in a building: I am in apartment + number.\n4) Note: from is for where you come from; in is for where you are.", "examples": ["Where are you from? I'm from Morocco.", "She is from a big city.", "I am in apartment C2."]}
+    ]
+  },
+  "questions": [
+    {"question": "Choose the correct word: Marsha ___ my roommate.", "choices": ["am", "are", "is", "be"], "answer": 2, "explanation_ar": "مع اسم شخص واحد (مثل she) نستخدم is.", "explanation_en": "With one person (like she), we use is."},
+    {"question": "Anna is a woman. Which pronoun is correct?", "choices": ["She", "He", "It", "They"], "answer": 0, "explanation_ar": "she للمؤنث.", "explanation_en": "We use she for a woman or girl."},
+    {"question": "What does 'roommate' mean?", "choices": ["جار", "شريك السكن", "زميل العمل", "أخ"], "answer": 1, "explanation_ar": "roommate هو من يسكن معك في نفس الشقة.", "explanation_en": "A roommate lives in the same apartment as you."},
+    {"question": "Choose the correct question.", "choices": ["Where you are from?", "Where from are you?", "Where is you from?", "Where are you from?"], "answer": 3, "explanation_ar": "الترتيب الصحيح: Where are you from?", "explanation_en": "The correct order is: Where are you from?"},
+    {"question": "\"I ___ go now.\" (it is necessary)", "choices": ["have to", "has to", "am to", "want"], "answer": 0, "explanation_ar": "مع I نقول have to بمعنى يجب.", "explanation_en": "With I, we say have to; it means must."},
+    {"question": "What is the short form of 'he is'?", "choices": ["his", "he's", "hes'", "h'is"], "answer": 1, "explanation_ar": "he is = he's. أما his فتعني (له/ملكه).", "explanation_en": "He is = he's. His means 'belonging to him'."},
+    {"question": "Someone says \"Nice to meet you!\" What is a good reply?", "choices": ["Here I come!", "Who's your friend?", "You too.", "I have to go."], "answer": 2, "explanation_ar": "الرد المعتاد: You too (وأنا أيضًا).", "explanation_en": "The usual short reply is: You too."},
+    {"question": "Complete: \"Remember to ___ Marsha at work.\"", "choices": ["know", "go", "tell", "call"], "answer": 3, "explanation_ar": "call = يتصل هاتفيًا.", "explanation_en": "Call means to telephone someone."},
+    {"question": "Which sentence is correct?", "choices": ["They is from a small town.", "We are from a small town.", "She are new to D.C.", "I is in apartment C2."], "answer": 1, "explanation_ar": "we مع are صحيحة. they are، she is، I am.", "explanation_en": "We are is correct. It is they are, she is, I am."},
+    {"question": "'Thanks' is ___ than 'thank you'.", "choices": ["more informal", "more formal", "longer", "older"], "answer": 0, "explanation_ar": "thanks أكثر عفوية من thank you.", "explanation_en": "Thanks is more informal than thank you."}
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "title": "A Job Interview",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "job interview",
+        "pos": "noun",
+        "meaning_en": "a meeting where a company asks you questions for a job",
+        "meaning_ar": "مقابلة عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Emily is having a job interview."
+      },
+      {
+        "word": "graduate",
+        "pos": "verb",
+        "meaning_en": "finish university or college with a degree",
+        "meaning_ar": "يتخرّج",
+        "note_ar": "",
+        "note_en": "Noun: graduate (a person).",
+        "example": "I recently graduated from college."
+      },
+      {
+        "word": "degree",
+        "pos": "noun",
+        "meaning_en": "the qualification you get from a university",
+        "meaning_ar": "شهادة جامعية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a degree in Business Administration."
+      },
+      {
+        "word": "extra-curricular activities",
+        "pos": "noun",
+        "meaning_en": "activities outside normal classes, like clubs",
+        "meaning_ar": "أنشطة لا منهجية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I did many extra-curricular activities."
+      },
+      {
+        "word": "internship",
+        "pos": "noun",
+        "meaning_en": "a short time working at a company to learn",
+        "meaning_ar": "تدريب عملي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I completed an internship at a marketing agency."
+      },
+      {
+        "word": "experience",
+        "pos": "noun",
+        "meaning_en": "knowledge you get from doing something",
+        "meaning_ar": "خبرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's good experience."
+      },
+      {
+        "word": "market research",
+        "pos": "noun",
+        "meaning_en": "studying what customers want",
+        "meaning_ar": "أبحاث السوق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I conducted market research."
+      },
+      {
+        "word": "project",
+        "pos": "noun",
+        "meaning_en": "a planned piece of work",
+        "meaning_ar": "مشروع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Tell me about a project you're proud of."
+      },
+      {
+        "word": "proud of",
+        "pos": "phrase",
+        "meaning_en": "happy about something good you did",
+        "meaning_ar": "فخور بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm proud of my work."
+      },
+      {
+        "word": "grade",
+        "pos": "noun",
+        "meaning_en": "a mark for school work",
+        "meaning_ar": "درجة / علامة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our team got the best grade."
+      },
+      {
+        "word": "pay attention to details",
+        "pos": "phrase",
+        "meaning_en": "notice small things carefully",
+        "meaning_ar": "ينتبه للتفاصيل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I pay attention to details."
+      },
+      {
+        "word": "accuracy",
+        "pos": "noun",
+        "meaning_en": "being correct, with no mistakes",
+        "meaning_ar": "الدقة",
+        "note_ar": "",
+        "note_en": "Adjective: accurate.",
+        "example": "I can type with speed and accuracy."
+      },
+      {
+        "word": "strengths",
+        "pos": "noun",
+        "meaning_en": "things you are good at",
+        "meaning_ar": "نقاط القوة",
+        "note_ar": "",
+        "note_en": "Opposite: weaknesses.",
+        "example": "What are your strengths?"
+      },
+      {
+        "word": "problem-solver",
+        "pos": "noun",
+        "meaning_en": "a person who is good at finding answers to problems",
+        "meaning_ar": "شخص يجيد حل المشكلات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am a strong problem-solver."
+      },
+      {
+        "word": "proficient",
+        "pos": "adjective",
+        "meaning_en": "very good at something because of practice",
+        "meaning_ar": "متمكّن / بارع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am proficient in Java and Python."
+      },
+      {
+        "word": "good fit",
+        "pos": "phrase",
+        "meaning_en": "the right person for a job",
+        "meaning_ar": "مناسب تمامًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You seem like a good fit for the job."
+      },
+      {
+        "word": "offer",
+        "pos": "verb / noun",
+        "meaning_en": "give someone a chance (here, a job)",
+        "meaning_ar": "يعرض / عرض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'd like to offer you the job."
+      },
+      {
+        "word": "accept",
+        "pos": "verb",
+        "meaning_en": "say yes to an offer",
+        "meaning_ar": "يقبل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I accept the offer."
+      },
+      {
+        "word": "opportunity",
+        "pos": "noun",
+        "meaning_en": "a chance to do something good",
+        "meaning_ar": "فرصة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm excited for the opportunity."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "good at vs good for",
+        "words": [
+          "good at",
+          "good for"
+        ],
+        "explanation_ar": "good at + نشاط = تجيده. good for = مفيد لـ.",
+        "explanation_en": "\"Good at\" = you do it well. \"Good for\" = helpful for.",
+        "examples": [
+          {
+            "word": "good at",
+            "sentence": "I am good at talking to people."
+          },
+          {
+            "word": "good for",
+            "sentence": "Exercise is good for your health."
+          }
+        ]
+      },
+      {
+        "title": "I don't mind vs I don't like",
+        "words": [
+          "don't mind",
+          "don't like"
+        ],
+        "explanation_ar": "I don't mind = لا مانع لدي (مقبول). I don't like = لا أحب.",
+        "explanation_en": "\"I don't mind\" = it's OK for me. \"I don't like\" = I am not happy with it.",
+        "examples": [
+          {
+            "word": "don't mind",
+            "sentence": "I don't mind working on weekends."
+          },
+          {
+            "word": "don't like",
+            "sentence": "I don't like waking up late."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can you tell me a little about yourself?",
+        "meaning_ar": "هل يمكنك أن تحدثني قليلًا عن نفسك؟",
+        "meaning_en": "A common first interview question.",
+        "example": "Welcome. Can you tell me a little about yourself?"
+      },
+      {
+        "phrase": "I recently graduated from college with a degree in ...",
+        "meaning_ar": "تخرجت مؤخرًا من الجامعة بشهادة في ...",
+        "meaning_en": "Talking about your education.",
+        "example": "I recently graduated with a degree in Engineering."
+      },
+      {
+        "phrase": "I gained experience in ...",
+        "meaning_ar": "اكتسبت خبرة في ...",
+        "meaning_en": "Talking about what you learned at work.",
+        "example": "I gained experience in customer service."
+      },
+      {
+        "phrase": "Can you tell me about a project you're proud of?",
+        "meaning_ar": "هل يمكنك أن تحدثني عن مشروع تفخر به؟",
+        "meaning_en": "Asking for an example.",
+        "example": "Tell me about a project you're proud of."
+      },
+      {
+        "phrase": "What are you good at?",
+        "meaning_ar": "ما الذي تجيده؟",
+        "meaning_en": "Asking about skills.",
+        "example": "What are you good at? I'm good at maths."
+      },
+      {
+        "phrase": "I like working with others and am comfortable in a team.",
+        "meaning_ar": "أحب العمل مع الآخرين وأرتاح في العمل الجماعي.",
+        "meaning_en": "Saying you are a team player.",
+        "example": "I'm comfortable in a team."
+      },
+      {
+        "phrase": "I don't mind working on weekends.",
+        "meaning_ar": "لا مانع لدي من العمل في عطلة نهاية الأسبوع.",
+        "meaning_en": "Saying something is OK for you.",
+        "example": "I don't mind travelling for work."
+      },
+      {
+        "phrase": "You seem like a good fit for the job.",
+        "meaning_ar": "يبدو أنك مناسب للوظيفة.",
+        "meaning_en": "The interviewer likes the candidate.",
+        "example": "You seem like a good fit for our team."
+      },
+      {
+        "phrase": "We'd like to offer you the job.",
+        "meaning_ar": "نود أن نعرض عليك الوظيفة.",
+        "meaning_en": "Giving someone the job.",
+        "example": "Congratulations! We'd like to offer you the job."
+      },
+      {
+        "phrase": "That's great news. I accept the offer.",
+        "meaning_ar": "هذا خبر رائع. أقبل العرض.",
+        "meaning_en": "Saying yes to a job.",
+        "example": "Thank you! I accept the offer."
+      },
+      {
+        "phrase": "I'm excited for the opportunity.",
+        "meaning_ar": "أنا متحمس لهذه الفرصة.",
+        "meaning_en": "Showing happiness about a chance.",
+        "example": "Thank you. I'm excited for the opportunity."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Talking about skills: can / be good at / be proficient in",
+        "explanation_ar": "نتحدث عن المهارات بـ: I can + فعل، I'm good at + اسم أو V-ing، I'm proficient in + اسم.",
+        "explanation_en": "Talk about skills with \"can + verb\", \"good at + noun/-ing\", \"proficient in + noun\".",
+        "examples": [
+          "I can type fast.",
+          "I am good at solving problems.",
+          "I am proficient in Java."
+        ]
+      },
+      {
+        "title": "don't mind + -ing",
+        "explanation_ar": "بعد don't mind نستخدم الفعل بـ ing.",
+        "explanation_en": "After \"don't mind\", use -ing.",
+        "examples": [
+          "I don't mind working on weekends.",
+          "I don't mind waiting.",
+          "Do you mind helping me?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I recently ____ from college.",
+      "choices": [
+        "graduate",
+        "graduated",
+        "graduating",
+        "graduates"
+      ],
+      "answer": 1,
+      "explanation_ar": "الماضي: graduated.",
+      "explanation_en": "Past: graduated."
+    },
+    {
+      "question": "A short time working at a company to learn is an ...",
+      "choices": [
+        "interview",
+        "degree",
+        "grade",
+        "internship"
+      ],
+      "answer": 3,
+      "explanation_ar": "تدريب عملي: internship.",
+      "explanation_en": "An internship."
+    },
+    {
+      "question": "I am good ____ talking to people.",
+      "choices": [
+        "at",
+        "in",
+        "for",
+        "on"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: good at.",
+      "explanation_en": "We say \"good at\"."
+    },
+    {
+      "question": "I don't mind ____ on weekends.",
+      "choices": [
+        "work",
+        "to work",
+        "working",
+        "worked"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد don't mind نستخدم ing.",
+      "explanation_en": "After \"don't mind\", use -ing."
+    },
+    {
+      "question": "\"What are your strengths?\" asks about ...",
+      "choices": [
+        "your salary",
+        "your family",
+        "things you are good at",
+        "your address"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقاط القوة.",
+      "explanation_en": "Things you are good at."
+    },
+    {
+      "question": "\"You seem like a good fit for the job.\" means ...",
+      "choices": [
+        "You are the right person.",
+        "You are too fit.",
+        "You must exercise.",
+        "You failed."
+      ],
+      "answer": 0,
+      "explanation_ar": "أنت مناسب للوظيفة.",
+      "explanation_en": "You are the right person."
+    },
+    {
+      "question": "I am ____ in Java and Python. (very good at)",
+      "choices": [
+        "proud",
+        "accept",
+        "graduate",
+        "proficient"
+      ],
+      "answer": 3,
+      "explanation_ar": "proficient متمكن.",
+      "explanation_en": "\"Proficient\" = very good at."
+    },
+    {
+      "question": "\"We'd like to offer you the job.\" The best answer:",
+      "choices": [
+        "Can you tell me about yourself?",
+        "That's great news. I accept the offer.",
+        "I graduated.",
+        "What are your strengths?"
+      ],
+      "answer": 1,
+      "explanation_ar": "قبول العرض.",
+      "explanation_en": "Accept the offer."
+    },
+    {
+      "question": "I can type with speed and ____.",
+      "choices": [
+        "accuracy",
+        "accurate",
+        "accurately",
+        "accurated"
+      ],
+      "answer": 0,
+      "explanation_ar": "نحتاج اسمًا: accuracy.",
+      "explanation_en": "We need a noun: accuracy."
+    },
+    {
+      "question": "I'm proud ____ my project.",
+      "choices": [
+        "at",
+        "on",
+        "of",
+        "for"
+      ],
+      "answer": 2,
+      "explanation_ar": "الإجابة الصحيحة: proud of.",
+      "explanation_en": "We say \"proud of\"."
+    }
+  ]
+}

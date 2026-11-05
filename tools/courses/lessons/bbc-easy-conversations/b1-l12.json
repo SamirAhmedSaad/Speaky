@@ -1,0 +1,563 @@
+{
+ "title": "Talking about your habits",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "daily routine",
+    "pos": "noun",
+    "meaning_en": "the things you do every day",
+    "meaning_ar": "الروتين اليومي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What is your daily routine?"
+   },
+   {
+    "word": "always",
+    "pos": "adverb",
+    "meaning_en": "every time (100%)",
+    "meaning_ar": "دائمًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I always brush my teeth."
+   },
+   {
+    "word": "usually",
+    "pos": "adverb",
+    "meaning_en": "almost always (about 90%)",
+    "meaning_ar": "عادةً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I usually walk to work."
+   },
+   {
+    "word": "often",
+    "pos": "adverb",
+    "meaning_en": "many times (about 70%)",
+    "meaning_ar": "غالبًا / كثيرًا",
+    "note_ar": "تُنطق غالبًا /ˈɒfən/ والـ t صامتة.",
+    "note_en": "Usually pronounced \"offen\"; the t is often silent.",
+    "example": "I often read a book."
+   },
+   {
+    "word": "sometimes",
+    "pos": "adverb",
+    "meaning_en": "some of the time (about 50%)",
+    "meaning_ar": "أحيانًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I sometimes go swimming after work."
+   },
+   {
+    "word": "occasionally",
+    "pos": "adverb",
+    "meaning_en": "not often (about 20%)",
+    "meaning_ar": "من حين لآخر / نادرًا نوعًا ما",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I occasionally watch a film."
+   },
+   {
+    "word": "hardly ever",
+    "pos": "adverb",
+    "meaning_en": "almost never (about 5%)",
+    "meaning_ar": "نادرًا جدًا / بالكاد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I hardly ever go clothes shopping."
+   },
+   {
+    "word": "never",
+    "pos": "adverb",
+    "meaning_en": "not at any time (0%)",
+    "meaning_ar": "أبدًا / لا ... أبدًا",
+    "note_ar": "never معناها منفي، فلا نضيف معها not.",
+    "note_en": "Never is already negative; don't add not.",
+    "example": "I never drink tea."
+   },
+   {
+    "word": "get up",
+    "pos": "phrasal verb",
+    "meaning_en": "leave your bed in the morning",
+    "meaning_ar": "ينهض من النوم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I usually get up at quarter past six."
+   },
+   {
+    "word": "breakfast",
+    "pos": "noun",
+    "meaning_en": "the first meal of the day",
+    "meaning_ar": "الفطور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I often have porridge for breakfast."
+   },
+   {
+    "word": "fruit",
+    "pos": "noun",
+    "meaning_en": "food like apples and bananas",
+    "meaning_ar": "فاكهة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have fruit and yogurt for breakfast."
+   },
+   {
+    "word": "yogurt",
+    "pos": "noun",
+    "meaning_en": "a thick white food made from milk",
+    "meaning_ar": "زبادي / لبن رائب",
+    "note_ar": "تُكتب أيضًا yoghurt في بريطانيا.",
+    "note_en": "Also spelled yoghurt in the UK.",
+    "example": "I like yogurt with fruit."
+   },
+   {
+    "word": "porridge",
+    "pos": "noun",
+    "meaning_en": "hot oats cooked with milk or water",
+    "meaning_ar": "عصيدة الشوفان",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Porridge is a warm breakfast."
+   },
+   {
+    "word": "cereal",
+    "pos": "noun",
+    "meaning_en": "breakfast food made from grain, eaten with milk",
+    "meaning_ar": "حبوب الإفطار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I often eat cereal for breakfast."
+   },
+   {
+    "word": "toast",
+    "pos": "noun",
+    "meaning_en": "bread made brown and hot",
+    "meaning_ar": "خبز محمص",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I occasionally eat toast for breakfast."
+   },
+   {
+    "word": "go jogging",
+    "pos": "phrase",
+    "meaning_en": "run slowly for exercise",
+    "meaning_ar": "يمارس الجري الخفيف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I often go jogging in the park."
+   },
+   {
+    "word": "go swimming",
+    "pos": "phrase",
+    "meaning_en": "swim for fun or exercise",
+    "meaning_ar": "يذهب للسباحة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you go swimming in the sea?"
+   },
+   {
+    "word": "go clothes shopping",
+    "pos": "phrase",
+    "meaning_en": "go to shops to buy clothes",
+    "meaning_ar": "يذهب لشراء الملابس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I hardly ever go clothes shopping."
+   },
+   {
+    "word": "go skateboarding",
+    "pos": "phrase",
+    "meaning_en": "ride on a skateboard",
+    "meaning_ar": "يتزلج على لوح التزلج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I never go skateboarding."
+   },
+   {
+    "word": "go camping",
+    "pos": "phrase",
+    "meaning_en": "sleep in a tent outside for fun",
+    "meaning_ar": "يذهب للتخييم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We hardly ever go camping."
+   },
+   {
+    "word": "go to the gym",
+    "pos": "phrase",
+    "meaning_en": "go to a place with sports machines",
+    "meaning_ar": "يذهب إلى النادي الرياضي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you go to the gym?"
+   },
+   {
+    "word": "exercise",
+    "pos": "verb",
+    "meaning_en": "move your body to stay healthy",
+    "meaning_ar": "يمارس الرياضة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I sometimes exercise after work."
+   },
+   {
+    "word": "listen to a podcast",
+    "pos": "phrase",
+    "meaning_en": "listen to a talk show on your phone or computer",
+    "meaning_ar": "يستمع إلى بودكاست",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I sometimes listen to a podcast."
+   },
+   {
+    "word": "watch a film",
+    "pos": "phrase",
+    "meaning_en": "look at a film at home or in a cinema",
+    "meaning_ar": "يشاهد فيلمًا",
+    "note_ar": "film في بريطانيا = movie في أمريكا.",
+    "note_en": "UK film = US movie.",
+    "example": "I occasionally watch a film."
+   },
+   {
+    "word": "cook dinner",
+    "pos": "phrase",
+    "meaning_en": "make the evening meal",
+    "meaning_ar": "يطبخ العشاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I always cook dinner after work."
+   },
+   {
+    "word": "play video games",
+    "pos": "phrase",
+    "meaning_en": "play games on a screen",
+    "meaning_ar": "يلعب ألعاب الفيديو",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He occasionally plays video games."
+   },
+   {
+    "word": "read the news",
+    "pos": "phrase",
+    "meaning_en": "read about what is happening in the world",
+    "meaning_ar": "يقرأ الأخبار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I always read the news on the train."
+   },
+   {
+    "word": "brush my teeth",
+    "pos": "phrase",
+    "meaning_en": "clean my teeth with a toothbrush",
+    "meaning_ar": "أنظف أسناني بالفرشاة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I always brush my teeth in the morning."
+   },
+   {
+    "word": "walk to work",
+    "pos": "phrase",
+    "meaning_en": "go to work on foot",
+    "meaning_ar": "يمشي إلى العمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I usually walk to work."
+   },
+   {
+    "word": "watch cartoons",
+    "pos": "phrase",
+    "meaning_en": "watch animated films for children",
+    "meaning_ar": "يشاهد الرسوم المتحركة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I never watch cartoons."
+   },
+   {
+    "word": "after work",
+    "pos": "phrase",
+    "meaning_en": "when work finishes",
+    "meaning_ar": "بعد العمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I sometimes exercise after work."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "hardly ever vs never",
+    "words": [
+     "hardly ever",
+     "never"
+    ],
+    "explanation_ar": "hardly ever = نادرًا جدًا (مرات قليلة جدًا)، أما never = أبدًا (ولا مرة). كلاهما يأتي قبل الفعل.",
+    "explanation_en": "Hardly ever = almost never (a very few times). Never = not at any time.",
+    "examples": [
+     {
+      "word": "hardly ever",
+      "sentence": "I hardly ever go swimming in the sea."
+     },
+     {
+      "word": "never",
+      "sentence": "I never drink tea."
+     }
+    ]
+   },
+   {
+    "title": "sometimes vs occasionally",
+    "words": [
+     "sometimes",
+     "occasionally"
+    ],
+    "explanation_ar": "sometimes = أحيانًا (نحو نصف الوقت)، وoccasionally أقل منها = من حين لآخر.",
+    "explanation_en": "Sometimes is about half the time. Occasionally is less often.",
+    "examples": [
+     {
+      "word": "sometimes",
+      "sentence": "I sometimes go swimming after work."
+     },
+     {
+      "word": "occasionally",
+      "sentence": "I occasionally watch a film."
+     }
+    ]
+   },
+   {
+    "title": "always vs usually",
+    "words": [
+     "always",
+     "usually"
+    ],
+    "explanation_ar": "always = كل مرة بلا استثناء، وusually = في أغلب المرات.",
+    "explanation_en": "Always = every time. Usually = most of the time.",
+    "examples": [
+     {
+      "word": "always",
+      "sentence": "I always brush my teeth."
+     },
+     {
+      "word": "usually",
+      "sentence": "I usually get up at quarter to eight."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "How often do you go swimming?",
+    "meaning_ar": "كم مرة تذهب للسباحة؟",
+    "meaning_en": "asking how many times someone does something",
+    "example": "How often do you go swimming? I sometimes go after work."
+   },
+   {
+    "phrase": "What is your daily routine?",
+    "meaning_ar": "ما روتينك اليومي؟",
+    "meaning_en": "asking about someone's everyday activities",
+    "example": "What is your daily routine? I always get up at seven."
+   },
+   {
+    "phrase": "I always get up at seven o'clock.",
+    "meaning_ar": "أستيقظ دائمًا في الساعة السابعة.",
+    "meaning_en": "describing a fixed habit",
+    "example": "I always get up at seven o'clock."
+   },
+   {
+    "phrase": "I usually have fruit and yogurt for breakfast.",
+    "meaning_ar": "عادةً أتناول الفاكهة والزبادي في الفطور.",
+    "meaning_en": "saying what you normally eat",
+    "example": "I usually have fruit and yogurt for breakfast."
+   },
+   {
+    "phrase": "Do you go clothes shopping?",
+    "meaning_ar": "هل تذهب لشراء الملابس؟",
+    "meaning_en": "a yes/no question about a habit",
+    "example": "Do you go clothes shopping? No, I hardly ever go."
+   },
+   {
+    "phrase": "How about you?",
+    "meaning_ar": "وماذا عنك؟",
+    "meaning_en": "asking the other person the same question",
+    "example": "I get up at seven. How about you?"
+   },
+   {
+    "phrase": "Do you sometimes go to the gym?",
+    "meaning_ar": "هل تذهب أحيانًا إلى النادي الرياضي؟",
+    "meaning_en": "asking if someone does something now and then",
+    "example": "Do you sometimes go to the gym? No, I hardly ever go."
+   },
+   {
+    "phrase": "No, I never play video games.",
+    "meaning_ar": "لا، لا ألعب ألعاب الفيديو أبدًا.",
+    "meaning_en": "saying you don't do something at all",
+    "example": "Do you play video games? No, I never play video games."
+   },
+   {
+    "phrase": "Can you remember our routines?",
+    "meaning_ar": "هل تتذكر عاداتنا اليومية؟",
+    "meaning_en": "asking someone to recall information",
+    "example": "Can you remember our routines? Sian occasionally watches a film."
+   },
+   {
+    "phrase": "Tell us about your daily routine.",
+    "meaning_ar": "أخبرنا عن روتينك اليومي.",
+    "meaning_en": "inviting someone to describe their day",
+    "example": "Tell us about your daily routine in the comments."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Adverbs of frequency: where they go",
+    "explanation_ar": "ظروف التكرار (always, usually, often, sometimes, occasionally, hardly ever, never) تأتي بعد الفاعل وقبل الفعل الأساسي: I always cook dinner. ويمكن أن تأتي sometimes أيضًا في أول الجملة.",
+    "explanation_en": "Frequency adverbs go after the subject and before the main verb. Sometimes can also start the sentence.",
+    "examples": [
+     "I always cook dinner after work.",
+     "I often have porridge for breakfast.",
+     "I hardly ever go to the gym.",
+     "Sometimes, I get up at half past eight."
+    ]
+   },
+   {
+    "title": "He / she + verb-s",
+    "explanation_ar": "في المضارع البسيط مع he / she / it نضيف s للفعل: watch → watches, listen → listens, read → reads. والظرف يبقى قبل الفعل.",
+    "explanation_en": "In the present simple, add -s to the verb after he, she or it. The adverb stays before the verb.",
+    "examples": [
+     "Sian occasionally watches a film.",
+     "Buli sometimes listens to a podcast.",
+     "Georgie always reads the news on the train.",
+     "Tim often reads a book."
+    ]
+   },
+   {
+    "title": "Questions with How often / Do you ...?",
+    "explanation_ar": "نسأل عن التكرار بـ How often do you + فعل؟ ونسأل نعم/لا بـ Do you + فعل؟ والجواب: Yes, I do. / No, I don't. أو No, I never ...",
+    "explanation_en": "Ask How often do you + verb? or Do you + verb? Answer: Yes, I do / No, I don't / No, I never ...",
+    "examples": [
+     "How often do you go swimming?",
+     "Do you drink tea? No, I never drink tea.",
+     "What does Tim often do? He often reads a book."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Which word means 100% of the time?",
+   "choices": [
+    "usually",
+    "always",
+    "often",
+    "sometimes"
+   ],
+   "answer": 1,
+   "explanation_ar": "always = دائمًا (كل مرة).",
+   "explanation_en": "Always means every time."
+  },
+  {
+   "question": "Which word means almost never?",
+   "choices": [
+    "occasionally",
+    "often",
+    "hardly ever",
+    "usually"
+   ],
+   "answer": 2,
+   "explanation_ar": "hardly ever = نادرًا جدًا.",
+   "explanation_en": "Hardly ever means almost never."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I go always swimming.",
+    "Always I go swimming never.",
+    "I always go swimming.",
+    "I go swimming always do."
+   ],
+   "answer": 2,
+   "explanation_ar": "ظرف التكرار يأتي قبل الفعل الأساسي.",
+   "explanation_en": "The adverb goes before the main verb."
+  },
+  {
+   "question": "Complete: \"Buli sometimes ___ to a podcast.\"",
+   "choices": [
+    "listen",
+    "listens",
+    "listening",
+    "to listen"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع he/she نضيف s: listens.",
+   "explanation_en": "After he/she, add -s: listens."
+  },
+  {
+   "question": "\"Do you drink tea?\" \"No, I ___ drink tea.\" (0%)",
+   "choices": [
+    "never",
+    "always",
+    "usually",
+    "often"
+   ],
+   "answer": 0,
+   "explanation_ar": "never = أبدًا (0%).",
+   "explanation_en": "Never = 0%."
+  },
+  {
+   "question": "Which is the correct order from most to least often?",
+   "choices": [
+    "always, usually, often, sometimes",
+    "sometimes, often, always, usually",
+    "never, often, always, sometimes",
+    "usually, always, never, often"
+   ],
+   "answer": 0,
+   "explanation_ar": "الترتيب الصحيح: always ثم usually ثم often ثم sometimes.",
+   "explanation_en": "Always > usually > often > sometimes."
+  },
+  {
+   "question": "What does Georgie always do on the train?",
+   "choices": [
+    "She reads the news.",
+    "She watches cartoons.",
+    "She plays video games.",
+    "She cooks dinner."
+   ],
+   "answer": 0,
+   "explanation_ar": "جورجي تقرأ الأخبار دائمًا في القطار.",
+   "explanation_en": "Georgie always reads the news on the train."
+  },
+  {
+   "question": "\"I occasionally watch a film.\" means ...",
+   "choices": [
+    "I watch films every day.",
+    "I watch films now and then, not often.",
+    "I never watch films.",
+    "I am watching a film now."
+   ],
+   "answer": 1,
+   "explanation_ar": "occasionally = من حين لآخر، ليس كثيرًا.",
+   "explanation_en": "Occasionally = sometimes, but not often."
+  },
+  {
+   "question": "Complete: \"___ do you go swimming?\" \"I sometimes go after work.\"",
+   "choices": [
+    "What time",
+    "Where",
+    "Who",
+    "How often"
+   ],
+   "answer": 3,
+   "explanation_ar": "How often تسأل عن عدد المرات.",
+   "explanation_en": "How often asks about frequency."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "She don't never go camping.",
+    "She hardly ever go camping.",
+    "She hardly ever goes camping.",
+    "She goes hardly ever camping."
+   ],
+   "answer": 2,
+   "explanation_ar": "الظرف قبل الفعل، والفعل مع she يأخذ s.",
+   "explanation_en": "Adverb before the verb, and add -s after she."
+  }
+ ]
+}

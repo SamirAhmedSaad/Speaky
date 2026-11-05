@@ -1,0 +1,329 @@
+{
+  "title": "School Trip",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "school trip",
+        "pos": "noun",
+        "meaning_en": "a visit to a place with your class",
+        "meaning_ar": "رحلة مدرسية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're going on a school trip."
+      },
+      {
+        "word": "wildlife park",
+        "pos": "noun",
+        "meaning_en": "a big park where wild animals live",
+        "meaning_ar": "محمية / حديقة حيوانات برية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They went to a wildlife park."
+      },
+      {
+        "word": "animal",
+        "pos": "noun",
+        "meaning_en": "a living thing that is not a plant or a person",
+        "meaning_ar": "حيوان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are learning about animals."
+      },
+      {
+        "word": "bear",
+        "pos": "noun",
+        "meaning_en": "a big strong wild animal with thick fur",
+        "meaning_ar": "دبّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bears! Rhinos!"
+      },
+      {
+        "word": "lion",
+        "pos": "noun",
+        "meaning_en": "a big wild cat; the king of animals",
+        "meaning_ar": "أسد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like lions best."
+      },
+      {
+        "word": "rhino",
+        "pos": "noun",
+        "meaning_en": "a big animal with a horn on its nose",
+        "meaning_ar": "وحيد القرن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Finn wanted to see the rhinos."
+      },
+      {
+        "word": "backpack",
+        "pos": "noun",
+        "meaning_en": "a bag you carry on your back",
+        "meaning_ar": "حقيبة ظهر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He had a backpack with sandwiches."
+      },
+      {
+        "word": "sandwich",
+        "pos": "noun",
+        "meaning_en": "two pieces of bread with food between them",
+        "meaning_ar": "شطيرة / ساندويتش",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They ate their sandwiches."
+      },
+      {
+        "word": "scarf",
+        "pos": "noun",
+        "meaning_en": "a long piece of cloth for your neck",
+        "meaning_ar": "وشاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Take a warm scarf."
+      },
+      {
+        "word": "camera",
+        "pos": "noun",
+        "meaning_en": "a thing for taking photos",
+        "meaning_ar": "كاميرا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He had a camera."
+      },
+      {
+        "word": "coach",
+        "pos": "noun",
+        "meaning_en": "a big bus for long trips (UK)",
+        "meaning_ar": "حافلة سياحية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The coach was waiting."
+      },
+      {
+        "word": "break down",
+        "pos": "phrasal verb",
+        "meaning_en": "stop working (a car or machine)",
+        "meaning_ar": "يتعطّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The coach broke down."
+      },
+      {
+        "word": "closed",
+        "pos": "adjective",
+        "meaning_en": "not open",
+        "meaning_ar": "مغلق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The Big Cat area was closed."
+      },
+      {
+        "word": "hungry",
+        "pos": "adjective",
+        "meaning_en": "wanting to eat",
+        "meaning_ar": "جائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They were bored and hungry."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "open vs closed",
+        "words": [
+          "open",
+          "closed"
+        ],
+        "explanation_ar": "open = مفتوح، و closed = مغلق.",
+        "explanation_en": "\"open\" and \"closed\" are opposites.",
+        "examples": [
+          {
+            "word": "open",
+            "sentence": "The shop is open."
+          },
+          {
+            "word": "closed",
+            "sentence": "The Big Cat area was closed today."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "We're going on a school trip.",
+        "meaning_ar": "سنذهب في رحلة مدرسية.",
+        "meaning_en": "Your class will visit a place.",
+        "example": "Next week we're going on a school trip to the museum."
+      },
+      {
+        "phrase": "I can't be late.",
+        "meaning_ar": "لا يجب أن أتأخّر.",
+        "meaning_en": "You must be on time.",
+        "example": "Quick! I can't be late for the bus."
+      },
+      {
+        "phrase": "I can't wait to see the rhinos.",
+        "meaning_ar": "لا أطيق الانتظار لرؤية وحيد القرن.",
+        "meaning_en": "You are very excited.",
+        "example": "I can't wait to see the lions!"
+      },
+      {
+        "phrase": "We've broken down.",
+        "meaning_ar": "تعطّلت سيارتنا (حافلتنا).",
+        "meaning_en": "The vehicle stopped working.",
+        "example": "Oh no! We've broken down on the road."
+      },
+      {
+        "phrase": "I like lions best.",
+        "meaning_ar": "أحب الأسود أكثر شيء.",
+        "meaning_en": "Saying your favourite.",
+        "example": "Which animal do you like best? - I like lions best."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "in case",
+        "explanation_ar": "نستخدم in case لنقول إننا نستعد لشيء قد يحدث: He took a scarf in case it was cold.",
+        "explanation_en": "\"in case\" = to be ready if something happens.",
+        "examples": [
+          "He took a scarf in case it was cold.",
+          "He took sunscreen in case it was hot.",
+          "Take some snacks in case you are hungry."
+        ]
+      },
+      {
+        "title": "like ... best",
+        "explanation_ar": "للتعبير عن الشيء المفضل نقول I like + اسم + best.",
+        "explanation_en": "Say your favourite: I like + noun + best.",
+        "examples": [
+          "I like lions best.",
+          "Finn likes rhinos best."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where did Joe's class go?",
+      "choices": [
+        "to a wildlife park",
+        "to the beach",
+        "to a museum",
+        "to a farm"
+      ],
+      "answer": 0,
+      "explanation_ar": "ذهبوا إلى حديقة حيوانات برية.",
+      "explanation_en": "They went to a wildlife park."
+    },
+    {
+      "question": "What happened to the coach?",
+      "choices": [
+        "It was fast.",
+        "It broke down.",
+        "It was empty.",
+        "It got lost."
+      ],
+      "answer": 1,
+      "explanation_ar": "تعطّلت الحافلة.",
+      "explanation_en": "The coach broke down."
+    },
+    {
+      "question": "Why couldn't Joe see the lions?",
+      "choices": [
+        "They were asleep.",
+        "He was late.",
+        "The Big Cat area was closed.",
+        "He forgot his camera."
+      ],
+      "answer": 2,
+      "explanation_ar": "كانت منطقة القطط الكبيرة مغلقة.",
+      "explanation_en": "The Big Cat area was closed."
+    },
+    {
+      "question": "Joe took a scarf ___ it was cold.",
+      "choices": [
+        "because of",
+        "so",
+        "but",
+        "in case"
+      ],
+      "answer": 3,
+      "explanation_ar": "in case = تحسبًا لـ.",
+      "explanation_en": "in case = to be ready if."
+    },
+    {
+      "question": "The opposite of \"open\" is ___.",
+      "choices": [
+        "closed",
+        "broken",
+        "late",
+        "hungry"
+      ],
+      "answer": 0,
+      "explanation_ar": "عكس open هو closed.",
+      "explanation_en": "The opposite of open is closed."
+    },
+    {
+      "question": "Which animal has a horn on its nose?",
+      "choices": [
+        "lion",
+        "rhino",
+        "bear",
+        "leopard"
+      ],
+      "answer": 1,
+      "explanation_ar": "وحيد القرن له قرن على أنفه.",
+      "explanation_en": "A rhino has a horn."
+    },
+    {
+      "question": "A bag you carry on your back is a ___.",
+      "choices": [
+        "scarf",
+        "coach",
+        "backpack",
+        "camera"
+      ],
+      "answer": 2,
+      "explanation_ar": "حقيبة الظهر = backpack.",
+      "explanation_en": "That is a backpack."
+    },
+    {
+      "question": "Which animal do you like best? - ___",
+      "choices": [
+        "I like best.",
+        "I best lions.",
+        "Lions like best.",
+        "I like lions best."
+      ],
+      "answer": 3,
+      "explanation_ar": "الصحيح I like lions best.",
+      "explanation_en": "Correct: I like lions best."
+    },
+    {
+      "question": "At the end, Joe says he will go to the park ___.",
+      "choices": [
+        "with Bella at the weekend",
+        "alone",
+        "never again",
+        "with Finn tomorrow"
+      ],
+      "answer": 0,
+      "explanation_ar": "قرر الذهاب مع بيلا في عطلة الأسبوع.",
+      "explanation_en": "He will go with Bella at the weekend."
+    },
+    {
+      "question": "\"break down\" (for a car or bus) means ___.",
+      "choices": [
+        "go fast",
+        "stop working",
+        "turn left",
+        "get clean"
+      ],
+      "answer": 1,
+      "explanation_ar": "break down = يتعطّل.",
+      "explanation_en": "break down = stop working."
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "title": "What is it?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "meaning_en": "the first meal of the day",
+        "meaning_ar": "الفطور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Breakfast's ready!"
+      },
+      {
+        "word": "ready",
+        "pos": "adjective",
+        "meaning_en": "prepared, you can start",
+        "meaning_ar": "جاهز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Breakfast's ready!"
+      },
+      {
+        "word": "cereal",
+        "pos": "noun",
+        "meaning_en": "a breakfast food made from grain, eaten with milk",
+        "meaning_ar": "حبوب الإفطار (سيريال)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's cereal."
+      },
+      {
+        "word": "soup",
+        "pos": "noun",
+        "meaning_en": "hot liquid food",
+        "meaning_ar": "حساء / شوربة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's soup."
+      },
+      {
+        "word": "salad",
+        "pos": "noun",
+        "meaning_en": "cold vegetables mixed together",
+        "meaning_ar": "سَلَطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some salad, too."
+      },
+      {
+        "word": "toast",
+        "pos": "noun",
+        "meaning_en": "bread made brown and hot",
+        "meaning_ar": "خبز محمّص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's toast."
+      },
+      {
+        "word": "milk",
+        "pos": "noun",
+        "meaning_en": "white drink from cows",
+        "meaning_ar": "حليب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some milk, too."
+      },
+      {
+        "word": "juice",
+        "pos": "noun",
+        "meaning_en": "drink made from fruit",
+        "meaning_ar": "عصير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's orange juice."
+      },
+      {
+        "word": "too",
+        "pos": "adverb",
+        "meaning_en": "also",
+        "meaning_ar": "أيضًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some milk, too."
+      },
+      {
+        "word": "yummy",
+        "pos": "adjective",
+        "meaning_en": "very tasty (informal)",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's yummy!"
+      },
+      {
+        "word": "like",
+        "pos": "verb",
+        "meaning_en": "think something is good",
+        "meaning_ar": "يحب / يعجبه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Good, I like it!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "too vs two",
+        "words": [
+          "too",
+          "two"
+        ],
+        "explanation_ar": "too تعني «أيضًا»، و two هو الرقم 2. النطق واحد والمعنى مختلف.",
+        "explanation_en": "\"too\" means also. \"two\" is the number 2. They sound the same.",
+        "examples": [
+          {
+            "word": "too",
+            "sentence": "Have some milk, too."
+          },
+          {
+            "word": "two",
+            "sentence": "I have two eggs."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Breakfast's ready!",
+        "meaning_ar": "الفطور جاهز!",
+        "meaning_en": "You can come and eat breakfast now.",
+        "example": "Breakfast's ready! Come and eat."
+      },
+      {
+        "phrase": "What is it?",
+        "meaning_ar": "ما هذا؟",
+        "meaning_en": "Asking about a thing (here, food).",
+        "example": "What is it? - It's soup."
+      },
+      {
+        "phrase": "Have some milk, too.",
+        "meaning_ar": "تناول بعض الحليب أيضًا.",
+        "meaning_en": "Offering one more thing.",
+        "example": "Here's your toast. Have some milk, too."
+      },
+      {
+        "phrase": "Good, I like it!",
+        "meaning_ar": "جيد، يعجبني!",
+        "meaning_en": "Saying you enjoy the food.",
+        "example": "How is the soup? - Good, I like it!"
+      },
+      {
+        "phrase": "It's yummy.",
+        "meaning_ar": "إنه لذيذ.",
+        "meaning_en": "It tastes very good.",
+        "example": "Umm, the toast is yummy."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "What is it? - It's ...",
+        "explanation_ar": "نسأل عن شيء بـ What is it? ونجيب It's + اسم الطعام. مع الطعام غير المعدود (soup, milk, juice) لا نستخدم a.",
+        "explanation_en": "Ask \"What is it?\" Answer \"It's + food\". With soup, milk, juice we don't use \"a\".",
+        "examples": [
+          "What is it? - It's soup.",
+          "What is it? - It's toast.",
+          "What is it? - It's juice."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is it? - ___",
+      "choices": [
+        "It's soup.",
+        "It's late.",
+        "I'm hungry.",
+        "Who is it?"
+      ],
+      "answer": 0,
+      "explanation_ar": "نجيب عن What is it? باسم الشيء.",
+      "explanation_en": "Answer with the name of the thing."
+    },
+    {
+      "question": "The first meal of the day is ___.",
+      "choices": [
+        "dinner",
+        "breakfast",
+        "lunch",
+        "salad"
+      ],
+      "answer": 1,
+      "explanation_ar": "أول وجبة في اليوم هي breakfast.",
+      "explanation_en": "Breakfast is the first meal."
+    },
+    {
+      "question": "Which one is a drink?",
+      "choices": [
+        "toast",
+        "salad",
+        "juice",
+        "cereal"
+      ],
+      "answer": 2,
+      "explanation_ar": "العصير يُشرب.",
+      "explanation_en": "Juice is a drink."
+    },
+    {
+      "question": "Have some milk, ___. (also)",
+      "choices": [
+        "two",
+        "to",
+        "too",
+        "for"
+      ],
+      "answer": 2,
+      "explanation_ar": "too = أيضًا.",
+      "explanation_en": "too = also."
+    },
+    {
+      "question": "\"Breakfast's ready\" means breakfast ___ ready.",
+      "choices": [
+        "is",
+        "has",
+        "are",
+        "am"
+      ],
+      "answer": 0,
+      "explanation_ar": "هذا اختصار: Breakfast's = Breakfast is.",
+      "explanation_en": "Breakfast's = Breakfast is."
+    },
+    {
+      "question": "\"yummy\" means ___.",
+      "choices": [
+        "very hot",
+        "very cold",
+        "very old",
+        "very tasty"
+      ],
+      "answer": 3,
+      "explanation_ar": "yummy = لذيذ جدًّا.",
+      "explanation_en": "yummy = very tasty."
+    },
+    {
+      "question": "Bread made hot and brown is ___.",
+      "choices": [
+        "soup",
+        "toast",
+        "milk",
+        "juice"
+      ],
+      "answer": 1,
+      "explanation_ar": "الخبز المحمّص = toast.",
+      "explanation_en": "Toast is hot brown bread."
+    },
+    {
+      "question": "You enjoy the food. You say: ___",
+      "choices": [
+        "Good, I like it!",
+        "Oh, no!",
+        "Wake up!",
+        "Sorry!"
+      ],
+      "answer": 0,
+      "explanation_ar": "نعبّر عن الإعجاب بـ I like it.",
+      "explanation_en": "Say \"I like it!\""
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "It's a milk.",
+        "It's milk.",
+        "It milk.",
+        "Its a milk."
+      ],
+      "answer": 1,
+      "explanation_ar": "لا نستخدم a مع milk.",
+      "explanation_en": "We don't say \"a milk\"."
+    },
+    {
+      "question": "\"salad\" is made from ___.",
+      "choices": [
+        "vegetables",
+        "milk",
+        "bread",
+        "juice"
+      ],
+      "answer": 0,
+      "explanation_ar": "السلطة من الخضار.",
+      "explanation_en": "Salad is made from vegetables."
+    }
+  ]
+}

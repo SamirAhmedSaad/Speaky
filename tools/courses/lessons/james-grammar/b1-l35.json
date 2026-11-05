@@ -1,0 +1,325 @@
+{
+  "title": "Present Perfect Simple and Continuous",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "present perfect simple",
+        "pos": "noun",
+        "meaning_en": "have/has + past participle: I have read four books",
+        "meaning_ar": "المضارع التام البسيط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have read four books this month."
+      },
+      {
+        "word": "present perfect continuous",
+        "pos": "noun",
+        "meaning_en": "have/has + been + verb-ing: I have been reading",
+        "meaning_ar": "المضارع التام المستمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have been reading all afternoon."
+      },
+      {
+        "word": "result",
+        "pos": "noun",
+        "meaning_en": "what you have at the end (often a number)",
+        "meaning_ar": "نتيجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Four books is the result."
+      },
+      {
+        "word": "activity",
+        "pos": "noun",
+        "meaning_en": "something you are doing",
+        "meaning_ar": "نشاط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Reading is an activity."
+      },
+      {
+        "word": "connected",
+        "pos": "adjective",
+        "meaning_en": "joined together",
+        "meaning_ar": "مترابط / متصل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In the present perfect, the past is connected to the present."
+      },
+      {
+        "word": "occur",
+        "pos": "verb",
+        "meaning_en": "happen",
+        "meaning_ar": "يحدث",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Two events have occurred."
+      },
+      {
+        "word": "short-lived",
+        "pos": "adjective",
+        "meaning_en": "lasting only a short time",
+        "meaning_ar": "قصير الأمد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Activities are usually short-lived."
+      },
+      {
+        "word": "permanence",
+        "pos": "noun",
+        "meaning_en": "the state of lasting a long time",
+        "meaning_ar": "الدوام / الاستمرارية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"I have lived here for 30 years\" shows permanence."
+      },
+      {
+        "word": "how long",
+        "pos": "phrase",
+        "meaning_en": "for what period of time",
+        "meaning_ar": "منذ متى / كم من الوقت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How long have you been waiting?"
+      },
+      {
+        "word": "wait",
+        "pos": "verb",
+        "meaning_en": "stay until something happens",
+        "meaning_ar": "ينتظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have been waiting for 20 minutes."
+      },
+      {
+        "word": "for a while",
+        "pos": "phrase",
+        "meaning_en": "for some time",
+        "meaning_ar": "لفترة من الوقت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They've been waiting for a while."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I have read vs I have been reading",
+        "words": [
+          "have read",
+          "have been reading"
+        ],
+        "explanation_ar": "البسيط يركز على النتيجة والعدد (How many? How much?): I have read 16 pages. المستمر يركز على النشاط نفسه (What have you been doing?): I have been reading.",
+        "explanation_en": "The simple form focuses on the result and number (How many? How much?): I have read 16 pages. The continuous focuses on the activity (What have you been doing?): I have been reading.",
+        "examples": [
+          {
+            "word": "have read",
+            "sentence": "I have read four books this month."
+          },
+          {
+            "word": "have been reading",
+            "sentence": "I have been reading since lunch."
+          }
+        ]
+      },
+      {
+        "title": "How long: long time vs short time",
+        "words": [
+          "long time → simple",
+          "short time → continuous"
+        ],
+        "explanation_ar": "مع how long: للمدة الطويلة والثابتة نستعمل البسيط (I have lived in Canada for 30 years). للنشاط القصير نستعمل المستمر (I have been waiting for 20 minutes).",
+        "explanation_en": "With \"how long\": for a long, permanent time use the simple (I have lived in Canada for 30 years). For a short activity use the continuous (I have been waiting for 20 minutes).",
+        "examples": [
+          {
+            "word": "long time → simple",
+            "sentence": "My father has worked here for 25 years."
+          },
+          {
+            "word": "short time → continuous",
+            "sentence": "We have been waiting for ten minutes."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How many books have you read?",
+        "meaning_ar": "كم كتابًا قرأت؟",
+        "meaning_en": "Asking about a result (a number).",
+        "example": "How many books have you read this year?"
+      },
+      {
+        "phrase": "What have you been doing?",
+        "meaning_ar": "ماذا كنت تفعل (حتى الآن)؟",
+        "meaning_en": "Asking about an activity up to now.",
+        "example": "You look tired. What have you been doing?"
+      },
+      {
+        "phrase": "I have been waiting for 20 minutes.",
+        "meaning_ar": "أنا أنتظر منذ عشرين دقيقة.",
+        "meaning_en": "A short activity from the past until now.",
+        "example": "Where are you? I have been waiting for 20 minutes."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "The present perfect connects past and present",
+        "explanation_ar": "في المضارع التام يوجد حدثان مترابطان: شيء بدأ أو حدث في الماضي ومتصل بالحاضر.",
+        "explanation_en": "In the present perfect, two things are connected: something started or happened in the past and is connected to the present.",
+        "examples": [
+          "They have won two games in a hundred years."
+        ]
+      },
+      {
+        "title": "Present perfect simple: result (how many / how much)",
+        "explanation_ar": "have/has + التصريف الثالث. نستعمله عندما يهمنا الناتج، وغالبًا رقم: How many books have you read? I have read four books.",
+        "explanation_en": "have/has + past participle. Use it when the result matters, often a number: How many books have you read? I have read four books.",
+        "examples": [
+          "I have read 16 pages.",
+          "I have watched five films this week."
+        ]
+      },
+      {
+        "title": "Present perfect continuous: activity",
+        "explanation_ar": "have/has + been + الفعل مع ing. نستعمله عندما يهمنا النشاط نفسه وليس العدد: What have you been doing? I have been reading.",
+        "explanation_en": "have/has + been + verb-ing. Use it when the activity matters, not the number: What have you been doing? I have been reading.",
+        "examples": [
+          "I have been reading.",
+          "She has been studying all morning."
+        ]
+      },
+      {
+        "title": "How long: long time (simple) vs short time (continuous)",
+        "explanation_ar": "مع how long: للمدد الطويلة والثابتة نستعمل البسيط، وللأنشطة القصيرة نستعمل المستمر. بعض الأفعال لا تأتي بالمستمر بهذا المعنى: نقول I have been married وليس I have been marrying.",
+        "explanation_en": "With \"how long\": long, permanent periods take the simple; short activities take the continuous. Some verbs don't work in the continuous here: \"I have been married\", not \"I have been marrying\".",
+        "examples": [
+          "I have lived in Canada for 30 years.",
+          "I have been waiting for 20 minutes."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"How many books ___?\"",
+      "choices": [
+        "have you been reading",
+        "have you read",
+        "you have read",
+        "did you reading"
+      ],
+      "answer": 1,
+      "explanation_ar": "how many (نتيجة/عدد): المضارع التام البسيط.",
+      "explanation_en": "\"How many\" (result/number): present perfect simple."
+    },
+    {
+      "question": "\"What have you been doing?\" \"I ___.\"",
+      "choices": [
+        "have read 10 pages",
+        "have been reading",
+        "read yesterday",
+        "am read"
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال عن النشاط: المستمر.",
+      "explanation_en": "The question is about the activity: continuous."
+    },
+    {
+      "question": "\"I ___ for 20 minutes. Where are you?\"",
+      "choices": [
+        "have been waiting",
+        "have waited since",
+        "waited for",
+        "am wait"
+      ],
+      "answer": 0,
+      "explanation_ar": "نشاط قصير: المضارع التام المستمر.",
+      "explanation_en": "A short activity: present perfect continuous."
+    },
+    {
+      "question": "\"I ___ in Canada for 30 years.\" (long, permanent)",
+      "choices": [
+        "have been living for",
+        "am living",
+        "have lived",
+        "lived since"
+      ],
+      "answer": 2,
+      "explanation_ar": "مدة طويلة ثابتة: البسيط.",
+      "explanation_en": "Long, permanent time: simple."
+    },
+    {
+      "question": "The present perfect simple focuses on the ___.",
+      "choices": [
+        "activity",
+        "result",
+        "future",
+        "place"
+      ],
+      "answer": 1,
+      "explanation_ar": "البسيط يركز على النتيجة.",
+      "explanation_en": "The simple form focuses on the result."
+    },
+    {
+      "question": "The present perfect continuous focuses on the ___.",
+      "choices": [
+        "number",
+        "result",
+        "activity",
+        "past date"
+      ],
+      "answer": 2,
+      "explanation_ar": "المستمر يركز على النشاط.",
+      "explanation_en": "The continuous focuses on the activity."
+    },
+    {
+      "question": "Form of the present perfect continuous:",
+      "choices": [
+        "have + been + verb-ing",
+        "have + verb-ing",
+        "had + verb-ed",
+        "be + verb-ed"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: have/has + been + ing.",
+      "explanation_en": "have/has + been + verb-ing."
+    },
+    {
+      "question": "Which is wrong?",
+      "choices": [
+        "I have been married for 20 years.",
+        "I have been marrying for 20 years.",
+        "I have read five books.",
+        "I have been waiting for a while."
+      ],
+      "answer": 1,
+      "explanation_ar": "لا نقول have been marrying.",
+      "explanation_en": "We don't say \"have been marrying\"."
+    },
+    {
+      "question": "\"She ___ 16 pages so far.\"",
+      "choices": [
+        "has been read",
+        "have read",
+        "is reading since",
+        "has read"
+      ],
+      "answer": 3,
+      "explanation_ar": "عدد/نتيجة: has read.",
+      "explanation_en": "A number/result: has read."
+    },
+    {
+      "question": "\"Short-lived\" means ___.",
+      "choices": [
+        "lasting a long time",
+        "lasting a short time",
+        "connected",
+        "finished long ago"
+      ],
+      "answer": 1,
+      "explanation_ar": "قصير الأمد.",
+      "explanation_en": "Lasting a short time."
+    }
+  ]
+}

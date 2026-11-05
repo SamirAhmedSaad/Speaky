@@ -1,0 +1,415 @@
+{
+  "title": "Negotiating a Deal",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "negotiate a deal",
+        "pos": "phrase",
+        "meaning_en": "talk with a client to agree on business terms",
+        "meaning_ar": "يتفاوض على صفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna negotiated a deal with a French client."
+      },
+      {
+        "word": "renegotiate",
+        "pos": "verb",
+        "meaning_en": "negotiate again to change an agreement",
+        "meaning_ar": "يعيد التفاوض",
+        "note_ar": "البادئة re- تعني مرة أخرى",
+        "note_en": "The prefix re- means again.",
+        "example": "We need to renegotiate the contract."
+      },
+      {
+        "word": "value for money",
+        "pos": "phrase",
+        "meaning_en": "good quality for the price you pay",
+        "meaning_ar": "قيمة جيدة مقابل السعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our products are good value for money."
+      },
+      {
+        "word": "pride yourself on",
+        "pos": "phrase",
+        "meaning_en": "be proud of a quality you have",
+        "meaning_ar": "يفتخر بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We pride ourselves on fast delivery."
+      },
+      {
+        "word": "valued customer",
+        "pos": "noun",
+        "meaning_en": "a customer who is important to the company",
+        "meaning_ar": "عميل مُقدَّر / عزيز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You are a valued customer."
+      },
+      {
+        "word": "match the price",
+        "pos": "phrase",
+        "meaning_en": "offer the same price as another company",
+        "meaning_ar": "يُعادل السعر / يطابقه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can match the price of our competitors."
+      },
+      {
+        "word": "competitor",
+        "pos": "noun",
+        "meaning_en": "a company that sells the same things as you",
+        "meaning_ar": "منافس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our competitor offered a lower price."
+      },
+      {
+        "word": "beat (a price)",
+        "pos": "verb",
+        "meaning_en": "offer a better (lower) price than someone",
+        "meaning_ar": "يتفوّق على (سعر)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can beat their price by 5%."
+      },
+      {
+        "word": "undercut",
+        "pos": "verb",
+        "meaning_en": "sell at a lower price than a competitor",
+        "meaning_ar": "يبيع بسعر أقل من المنافس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They tried to undercut our price."
+      },
+      {
+        "word": "figures",
+        "pos": "noun",
+        "meaning_en": "numbers, especially prices or sales results",
+        "meaning_ar": "أرقام",
+        "note_ar": "figure لها معنى آخر: شكل الجسم",
+        "note_en": "Figure can also mean body shape.",
+        "example": "Can you work out some new figures?"
+      },
+      {
+        "word": "calculations",
+        "pos": "noun",
+        "meaning_en": "working out numbers with maths",
+        "meaning_ar": "حسابات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've done some calculations."
+      },
+      {
+        "word": "work out",
+        "pos": "phrasal verb",
+        "meaning_en": "calculate or find the answer",
+        "meaning_ar": "يحسب / يتوصّل إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's work out the total cost."
+      },
+      {
+        "word": "profit",
+        "pos": "noun",
+        "meaning_en": "money you earn after costs",
+        "meaning_ar": "ربح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Less profit is better than no profit."
+      },
+      {
+        "word": "claim",
+        "pos": "verb",
+        "meaning_en": "say something is true (without proof)",
+        "meaning_ar": "يزعم / يدّعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The client claims they paid too much."
+      },
+      {
+        "word": "on display",
+        "pos": "phrase",
+        "meaning_en": "shown for people to see",
+        "meaning_ar": "معروض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new lemons are on display in the shop window."
+      },
+      {
+        "word": "snap up",
+        "pos": "phrasal verb",
+        "meaning_en": "buy or take something quickly before others",
+        "meaning_ar": "يغتنم / يشتري بسرعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please decide soon before someone else snaps up this offer."
+      },
+      {
+        "word": "tricky",
+        "pos": "adjective",
+        "meaning_en": "difficult and needing care",
+        "meaning_ar": "صعب / دقيق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is a tricky sales deal."
+      },
+      {
+        "word": "seal the deal",
+        "pos": "idiom",
+        "meaning_en": "finish an agreement successfully",
+        "meaning_ar": "يُبرم الصفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to fly to France and seal the deal."
+      },
+      {
+        "word": "pay off",
+        "pos": "phrasal verb",
+        "meaning_en": "be successful after effort",
+        "meaning_ar": "يؤتي ثماره",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Her hard work paid off."
+      },
+      {
+        "word": "have a think",
+        "pos": "phrase",
+        "meaning_en": "take time to think about something (British, informal)",
+        "meaning_ar": "يفكّر قليلًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll have a think and call you tomorrow."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "match vs beat (a price)",
+        "words": [
+          "match",
+          "beat"
+        ],
+        "explanation_ar": "match the price تعني نقدّم السعر نفسه، وbeat the price تعني نقدّم سعرًا أفضل (أقل).",
+        "explanation_en": "Match a price = offer the same price. Beat a price = offer a better (lower) price.",
+        "examples": [
+          {
+            "word": "match",
+            "sentence": "We can match their price of £3."
+          },
+          {
+            "word": "beat",
+            "sentence": "We can beat their price: £2.80."
+          }
+        ]
+      },
+      {
+        "title": "rival vs competitor",
+        "words": [
+          "rival",
+          "competitor"
+        ],
+        "explanation_ar": "الكلمتان بمعنى المنافس؛ competitor أكثر استخدامًا في لغة الأعمال الرسمية.",
+        "explanation_en": "Both mean a company you compete with. Competitor is more common in formal business English.",
+        "examples": [
+          {
+            "word": "competitor",
+            "sentence": "Our main competitor is Tutti Fruity."
+          },
+          {
+            "word": "rival",
+            "sentence": "The two rival companies want the same client."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm sorry to hear you're not happy with our price.",
+        "meaning_ar": "يؤسفني أن أسمع أنك غير راضٍ عن سعرنا.",
+        "meaning_en": "Show you care about the client's problem.",
+        "example": "I'm sorry to hear you're not happy with our price. Let's see what we can do."
+      },
+      {
+        "phrase": "Our company prides itself on quality products and good value for money.",
+        "meaning_ar": "تفتخر شركتنا بمنتجات عالية الجودة وقيمة جيدة مقابل السعر.",
+        "meaning_en": "Say what your company is proud of.",
+        "example": "Our company prides itself on quality products and good value for money."
+      },
+      {
+        "phrase": "You are a valued customer and your business is very important to us.",
+        "meaning_ar": "أنت عميل نقدّره وتعاملك معنا مهم جدًّا لنا.",
+        "meaning_en": "Make the client feel important.",
+        "example": "You are a valued customer and your business is very important to us."
+      },
+      {
+        "phrase": "We can match the price of our competitors.",
+        "meaning_ar": "يمكننا أن نُعادل سعر منافسينا.",
+        "meaning_en": "We can offer the same price as other companies.",
+        "example": "Don't worry. We can match the price of our competitors."
+      },
+      {
+        "phrase": "Hopefully we can sort something out.",
+        "meaning_ar": "نأمل أن نتوصّل إلى حلّ.",
+        "meaning_en": "Let's find a solution together.",
+        "example": "I understand the problem. Hopefully we can sort something out."
+      },
+      {
+        "phrase": "Please let me know as soon as you can.",
+        "meaning_ar": "من فضلك أبلغني في أقرب وقت ممكن.",
+        "meaning_en": "Ask for a quick answer.",
+        "example": "Please let me know as soon as you can, because the offer ends Friday."
+      },
+      {
+        "phrase": "I will have to have a think about this.",
+        "meaning_ar": "سأحتاج إلى التفكير في هذا الأمر.",
+        "meaning_en": "I need time to decide.",
+        "example": "It's a good offer, but I will have to have a think about this."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I'm sorry to hear (that)...",
+        "explanation_ar": "نستخدم I'm sorry to hear (that) + جملة لإظهار التعاطف مع مشكلة العميل قبل تقديم الحل.",
+        "explanation_en": "Use I'm sorry to hear (that) + clause to show you care about a problem before offering a solution.",
+        "examples": [
+          "I'm sorry to hear you're not happy with our price.",
+          "I'm sorry to hear that the delivery was late.",
+          "I'm sorry to hear about the problem."
+        ]
+      },
+      {
+        "title": "pride oneself on + noun / -ing",
+        "explanation_ar": "التركيب: subject + pride(s) + ضمير انعكاسي (ourselves/itself) + on + اسم أو فعل بـ -ing. الشركة مفرد فنقول prides itself.",
+        "explanation_en": "Pattern: subject + pride(s) + reflexive pronoun + on + noun or -ing. A company is singular: it prides itself on...",
+        "examples": [
+          "Tip Top Trading prides itself on quality.",
+          "We pride ourselves on good service.",
+          "She prides herself on being on time."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"We can match the price\" means we can offer...",
+      "choices": [
+        "a higher price",
+        "the same price",
+        "no price",
+        "a free product"
+      ],
+      "answer": 1,
+      "explanation_ar": "match the price تعني نقدّم السعر نفسه.",
+      "explanation_en": "Match = the same price."
+    },
+    {
+      "question": "I'm sorry to ___ you're not happy with our price.",
+      "choices": [
+        "hear",
+        "here",
+        "listen",
+        "heard"
+      ],
+      "answer": 0,
+      "explanation_ar": "التعبير الصحيح I'm sorry to hear.",
+      "explanation_en": "The phrase is I'm sorry to hear."
+    },
+    {
+      "question": "Our company prides ___ on quality products.",
+      "choices": [
+        "themselves",
+        "itself",
+        "ourselves",
+        "himself"
+      ],
+      "answer": 1,
+      "explanation_ar": "company مفرد غير عاقل فنستخدم itself.",
+      "explanation_en": "Company is singular: itself."
+    },
+    {
+      "question": "We pride ourselves ___ good service.",
+      "choices": [
+        "in",
+        "at",
+        "on",
+        "for"
+      ],
+      "answer": 2,
+      "explanation_ar": "حرف الجر الصحيح مع pride oneself هو on.",
+      "explanation_en": "The preposition is on."
+    },
+    {
+      "question": "\"Value for money\" means...",
+      "choices": [
+        "very expensive",
+        "good quality for the price",
+        "free",
+        "a discount code"
+      ],
+      "answer": 1,
+      "explanation_ar": "تعني جودة جيدة مقابل السعر.",
+      "explanation_en": "Good quality for the price you pay."
+    },
+    {
+      "question": "What discount did Anna offer the client?",
+      "choices": [
+        "5%",
+        "20%",
+        "15%",
+        "10%"
+      ],
+      "answer": 3,
+      "explanation_ar": "عرضت آنا خصمًا إضافيًا بنسبة 10%.",
+      "explanation_en": "She offered an extra 10%."
+    },
+    {
+      "question": "To sell at a lower price than a competitor is to...",
+      "choices": [
+        "undercut",
+        "overcharge",
+        "match",
+        "seal"
+      ],
+      "answer": 0,
+      "explanation_ar": "undercut تعني البيع بسعر أقل من المنافس.",
+      "explanation_en": "Undercut = sell cheaper than a competitor."
+    },
+    {
+      "question": "Which sentence makes a client feel important?",
+      "choices": [
+        "You are a valued customer.",
+        "Pay now.",
+        "We don't need you.",
+        "That's your problem."
+      ],
+      "answer": 0,
+      "explanation_ar": "You are a valued customer تُشعر العميل بأهميته.",
+      "explanation_en": "It shows the client is important."
+    },
+    {
+      "question": "\"Seal the deal\" means...",
+      "choices": [
+        "close an envelope",
+        "finish an agreement successfully",
+        "cancel the deal",
+        "lose a client"
+      ],
+      "answer": 1,
+      "explanation_ar": "تعني إبرام الصفقة بنجاح.",
+      "explanation_en": "It means complete the agreement."
+    },
+    {
+      "question": "\"Renegotiate\" means...",
+      "choices": [
+        "negotiate again",
+        "never negotiate",
+        "stop negotiating",
+        "negotiate badly"
+      ],
+      "answer": 0,
+      "explanation_ar": "re- تعني مرة أخرى.",
+      "explanation_en": "Re- means again."
+    }
+  ]
+}

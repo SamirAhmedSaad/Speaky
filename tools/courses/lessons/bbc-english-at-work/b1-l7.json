@@ -1,0 +1,406 @@
+{
+  "title": "Apologising",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "apologise",
+        "pos": "verb",
+        "meaning_en": "say you are sorry",
+        "meaning_ar": "يعتذر",
+        "note_ar": "في أمريكا: apologize. الاسم: apology",
+        "note_en": "US: apologize. Noun: apology.",
+        "example": "I'd like to apologise for the mistake."
+      },
+      {
+        "word": "apology",
+        "pos": "noun",
+        "meaning_en": "words that say you are sorry",
+        "meaning_ar": "اعتذار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please accept our apology."
+      },
+      {
+        "word": "complaint",
+        "pos": "noun",
+        "meaning_en": "a statement that something is wrong or not good enough",
+        "meaning_ar": "شكوى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The client made a serious complaint."
+      },
+      {
+        "word": "order",
+        "pos": "noun",
+        "meaning_en": "a request to buy goods",
+        "meaning_ar": "طلبية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I placed an order for 8,000 grapefruit."
+      },
+      {
+        "word": "delivery",
+        "pos": "noun",
+        "meaning_en": "bringing goods to a person or place",
+        "meaning_ar": "توصيل / شحنة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The delivery arrived on Tuesday."
+      },
+      {
+        "word": "receive",
+        "pos": "verb",
+        "meaning_en": "get something that someone sends you",
+        "meaning_ar": "يستلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Did you receive my email?"
+      },
+      {
+        "word": "unacceptable",
+        "pos": "adjective",
+        "meaning_en": "too bad to be allowed",
+        "meaning_ar": "غير مقبول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's totally unacceptable."
+      },
+      {
+        "word": "inconvenient",
+        "pos": "adjective",
+        "meaning_en": "causing problems or difficulty",
+        "meaning_ar": "مزعج / غير مناسب",
+        "note_ar": "الاسم: inconvenience",
+        "note_en": "Noun: inconvenience.",
+        "example": "It must have been very inconvenient for you."
+      },
+      {
+        "word": "inconvenience",
+        "pos": "noun",
+        "meaning_en": "trouble or difficulty caused to someone",
+        "meaning_ar": "إزعاج / مشقّة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are sorry for the inconvenience."
+      },
+      {
+        "word": "sort out",
+        "pos": "phrasal verb",
+        "meaning_en": "solve a problem",
+        "meaning_ar": "يحلّ (مشكلة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We will sort this out today."
+      },
+      {
+        "word": "make up for",
+        "pos": "phrasal verb",
+        "meaning_en": "do something good to balance a bad thing",
+        "meaning_ar": "يعوّض عن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here is a gift to make up for the delay."
+      },
+      {
+        "word": "express delivery",
+        "pos": "noun",
+        "meaning_en": "a fast way of sending goods",
+        "meaning_ar": "توصيل سريع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll send it by express delivery."
+      },
+      {
+        "word": "reliable",
+        "pos": "adjective",
+        "meaning_en": "that you can trust to work well",
+        "meaning_ar": "موثوق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are a reliable company."
+      },
+      {
+        "word": "customer service",
+        "pos": "noun",
+        "meaning_en": "the help a company gives its customers",
+        "meaning_ar": "خدمة العملاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's good customer service!"
+      },
+      {
+        "word": "wholesaler",
+        "pos": "noun",
+        "meaning_en": "a company that sells goods in large amounts to shops and businesses",
+        "meaning_ar": "تاجر جملة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are the UK's leading wholesaler of imitation fruit."
+      },
+      {
+        "word": "imitation",
+        "pos": "adjective",
+        "meaning_en": "made to look like something real",
+        "meaning_ar": "مقلَّد / صناعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They sell imitation fruit for shop windows."
+      },
+      {
+        "word": "trusted",
+        "pos": "adjective",
+        "meaning_en": "believed to be honest and reliable",
+        "meaning_ar": "موثوق به",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You're a trusted client."
+      },
+      {
+        "word": "release",
+        "pos": "noun",
+        "meaning_en": "the time when a new product becomes available",
+        "meaning_ar": "طرح / إطلاق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new lemon is almost ready for release."
+      },
+      {
+        "word": "look forward to",
+        "pos": "phrase",
+        "meaning_en": "be happy about something that will happen",
+        "meaning_ar": "يتطلّع إلى",
+        "note_ar": "بعدها اسم أو فعل بـ -ing",
+        "note_en": "Followed by a noun or -ing.",
+        "example": "I look forward to working with you."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "inconvenient vs inconvenience",
+        "words": [
+          "inconvenient",
+          "inconvenience"
+        ],
+        "explanation_ar": "inconvenient صفة: It was inconvenient. أما inconvenience فاسم: sorry for the inconvenience.",
+        "explanation_en": "\"Inconvenient\" is an adjective; \"inconvenience\" is a noun.",
+        "examples": [
+          {
+            "word": "inconvenient",
+            "sentence": "It must have been very inconvenient for you."
+          },
+          {
+            "word": "inconvenience",
+            "sentence": "We are sorry for the inconvenience."
+          }
+        ]
+      },
+      {
+        "title": "I'm sorry to hear that vs I'm sorry for",
+        "words": [
+          "sorry to hear that",
+          "sorry for"
+        ],
+        "explanation_ar": "I'm sorry to hear that تُظهر التعاطف عندما يخبرك أحد بمشكلة. أما I'm sorry for + اسم/‑ing فتعتذر عن شيء فعلته أنت أو شركتك.",
+        "explanation_en": "\"I'm sorry to hear that\" shows sympathy for someone's news. \"I'm sorry for + noun/-ing\" apologises for something you did.",
+        "examples": [
+          {
+            "word": "sorry to hear that",
+            "sentence": "Your order was late? I'm really sorry to hear that."
+          },
+          {
+            "word": "sorry for",
+            "sentence": "I'm sorry for sending the wrong file."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm really sorry to hear that.",
+        "meaning_ar": "يؤسفني حقًا سماع ذلك.",
+        "meaning_en": "Show you are sorry about someone's problem.",
+        "example": "Your delivery didn't arrive? I'm really sorry to hear that."
+      },
+      {
+        "phrase": "That's totally unacceptable.",
+        "meaning_ar": "هذا غير مقبول إطلاقًا.",
+        "meaning_en": "Agree that the mistake is very bad.",
+        "example": "Sending the wrong goods is totally unacceptable."
+      },
+      {
+        "phrase": "It must have been very inconvenient for you.",
+        "meaning_ar": "لا بدّ أن ذلك كان مزعجًا جدًا لك.",
+        "meaning_en": "Show you understand the problem it caused.",
+        "example": "Waiting all day must have been very inconvenient for you."
+      },
+      {
+        "phrase": "You have my word that we will sort this out.",
+        "meaning_ar": "أعدك بأننا سنحلّ هذه المشكلة.",
+        "meaning_en": "Promise to fix the problem.",
+        "example": "You have my word that we will sort this out by Friday."
+      },
+      {
+        "phrase": "We could include ... to make up for the inconvenience.",
+        "meaning_ar": "يمكننا أن نضيف ... تعويضًا عن الإزعاج.",
+        "meaning_en": "Offer something extra to make the customer happy.",
+        "example": "We could include free delivery to make up for the inconvenience."
+      },
+      {
+        "phrase": "I promise you, it won't happen again.",
+        "meaning_ar": "أعدك أن هذا لن يتكرر.",
+        "meaning_en": "Promise the mistake will not happen again.",
+        "example": "I'm very sorry. I promise you, it won't happen again."
+      },
+      {
+        "phrase": "I look forward to working with you.",
+        "meaning_ar": "أتطلّع إلى العمل معك.",
+        "meaning_en": "A polite ending with a client.",
+        "example": "Thank you, Mr Lime. I look forward to working with you."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "must have + past participle",
+        "explanation_ar": "نستخدم must have + التصريف الثالث لنستنتج شيئًا عن الماضي بثقة: It must have been very inconvenient (أنا متأكد تقريبًا أنه كان مزعجًا).",
+        "explanation_en": "Use \"must have + past participle\" to say you are almost sure about something in the past.",
+        "examples": [
+          "It must have been very inconvenient for you.",
+          "You must have been very angry.",
+          "The driver must have taken the wrong box."
+        ]
+      },
+      {
+        "title": "Steps of a good apology",
+        "explanation_ar": "الاعتذار الجيد في العمل له خطوات: 1) قل إنك آسف: I'm really sorry to hear that. 2) اعترف بالمشكلة: That's totally unacceptable. 3) أظهر التفهّم: It must have been inconvenient. 4) عِد بالحل: You have my word... 5) قدّم تعويضًا وعِد بعدم التكرار.",
+        "explanation_en": "A good work apology has steps: 1) say sorry, 2) accept the problem, 3) show you understand, 4) promise to fix it, 5) offer something extra and promise it won't happen again.",
+        "examples": [
+          "I'm really sorry to hear that.",
+          "You have my word that we will sort this out.",
+          "I promise you, it won't happen again."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A client says, \"My order is late.\" You answer:",
+      "choices": [
+        "Not my problem.",
+        "I'm really sorry to hear that.",
+        "Well done.",
+        "Nice to meet you."
+      ],
+      "answer": 1,
+      "explanation_ar": "العبارة المناسبة للتعاطف: I'm really sorry to hear that.",
+      "explanation_en": "Show sympathy: \"I'm really sorry to hear that.\""
+    },
+    {
+      "question": "It must have ___ very inconvenient for you.",
+      "choices": [
+        "be",
+        "been",
+        "being",
+        "was"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد must have نستخدم التصريف الثالث been.",
+      "explanation_en": "After \"must have\" use the past participle \"been\"."
+    },
+    {
+      "question": "\"You have my word\" means...",
+      "choices": [
+        "I promise",
+        "I will write to you",
+        "I forgot",
+        "I disagree"
+      ],
+      "answer": 0,
+      "explanation_ar": "You have my word تعني أعدك.",
+      "explanation_en": "It means \"I promise\"."
+    },
+    {
+      "question": "We'll give you a discount to make ___ the inconvenience.",
+      "choices": [
+        "up to",
+        "out for",
+        "up for",
+        "for up"
+      ],
+      "answer": 2,
+      "explanation_ar": "العبارة الصحيحة make up for.",
+      "explanation_en": "The phrase is \"make up for\"."
+    },
+    {
+      "question": "Choose the noun.",
+      "choices": [
+        "inconvenient",
+        "inconveniently",
+        "inconvenience",
+        "convenient"
+      ],
+      "answer": 2,
+      "explanation_ar": "inconvenience هي الاسم.",
+      "explanation_en": "\"Inconvenience\" is the noun."
+    },
+    {
+      "question": "\"Sort this out\" means...",
+      "choices": [
+        "put this in order by size",
+        "solve this problem",
+        "throw this away",
+        "sell this"
+      ],
+      "answer": 1,
+      "explanation_ar": "sort out تعني يحلّ المشكلة.",
+      "explanation_en": "It means solve the problem."
+    },
+    {
+      "question": "I promise you, it ___ happen again.",
+      "choices": [
+        "won't",
+        "doesn't",
+        "didn't",
+        "not"
+      ],
+      "answer": 0,
+      "explanation_ar": "للمستقبل نستخدم won't (will not).",
+      "explanation_en": "Use \"won't\" for the future."
+    },
+    {
+      "question": "What did Mr Lime receive instead of grapefruit?",
+      "choices": [
+        "oranges",
+        "lemons",
+        "bananas",
+        "pineapples"
+      ],
+      "answer": 3,
+      "explanation_ar": "استلم السيد لايم أناناسًا بدل الجريب فروت.",
+      "explanation_en": "He got pineapples."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I look forward to work with you.",
+        "I look forward to working with you.",
+        "I look forward working with you.",
+        "I look forward for working with you."
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد look forward to نستخدم -ing.",
+      "explanation_en": "After \"look forward to\" use -ing."
+    },
+    {
+      "question": "A company you can trust is ___.",
+      "choices": [
+        "reliable",
+        "unacceptable",
+        "inconvenient",
+        "imitation"
+      ],
+      "answer": 0,
+      "explanation_ar": "reliable تعني موثوق.",
+      "explanation_en": "Reliable means you can trust it."
+    }
+  ]
+}

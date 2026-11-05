@@ -1,0 +1,54 @@
+{
+  "title": "Made for Each Other",
+  "content": {
+    "vocabulary": [
+      {"word": "have in common", "pos": "phrase", "meaning_en": "to share the same interests or qualities", "meaning_ar": "يشتركان في (صفات أو اهتمامات)", "note_ar": "have a lot in common = بينهما أشياء مشتركة كثيرة", "note_en": "have a lot in common", "example": "My brother and I have a lot in common."},
+      {"word": "whistle", "pos": "verb", "meaning_en": "to make a high sound by blowing through your lips", "meaning_ar": "يصفّر", "note_ar": "حرف t صامت", "note_en": "The t is silent.", "example": "I can't whistle."},
+      {"word": "made for each other", "pos": "phrase", "meaning_en": "perfect together; a very good match", "meaning_ar": "خُلقا لبعضهما / متوافقان تمامًا", "note_ar": "", "note_en": "", "example": "Tea and biscuits are made for each other."},
+      {"word": "partner", "pos": "noun", "meaning_en": "a person you do something with", "meaning_ar": "شريك", "note_ar": "", "note_en": "", "example": "She is my business partner."},
+      {"word": "connector", "pos": "noun", "meaning_en": "a word that joins two ideas", "meaning_ar": "أداة ربط", "note_ar": "", "note_en": "", "example": "'And' and 'so' are connectors."},
+      {"word": "stall", "pos": "verb", "meaning_en": "to delay because you don't know what to say", "meaning_ar": "يماطل / يكسب الوقت", "note_ar": "", "note_en": "", "example": "He stalled because he didn't know the answer."},
+      {"word": "collection", "pos": "noun", "meaning_en": "a group of things you keep because you like them", "meaning_ar": "مجموعة (مقتنيات)", "note_ar": "الفعل collect", "note_en": "Verb: collect.", "example": "He has a big stamp collection."},
+      {"word": "squirrel", "pos": "noun", "meaning_en": "a small animal with a big tail that lives in trees", "meaning_ar": "سنجاب", "note_ar": "", "note_en": "", "example": "A squirrel is eating nuts in the park."},
+      {"word": "make up", "pos": "phrasal verb", "meaning_en": "to invent a story that is not true", "meaning_ar": "يختلق / يؤلّف (قصة)", "note_ar": "", "note_en": "", "example": "She made up the whole story."},
+      {"word": "lie", "pos": "verb", "meaning_en": "to say something that is not true", "meaning_ar": "يكذب", "note_ar": "lie - lied - lied (بهذا المعنى)", "note_en": "lie - lied - lied (this meaning)", "example": "Don't lie to your friends."},
+      {"word": "the truth", "pos": "noun", "meaning_en": "what is really true", "meaning_ar": "الحقيقة", "note_ar": "tell the truth = يقول الحقيقة", "note_en": "tell the truth", "example": "You need to tell them the truth."},
+      {"word": "kite", "pos": "noun", "meaning_en": "a light toy you fly in the wind on a string", "meaning_ar": "طائرة ورقية", "note_ar": "", "note_en": "", "example": "He's good at flying kites."},
+      {"word": "comics", "pos": "noun", "meaning_en": "stories told with drawings", "meaning_ar": "القصص المصوّرة", "note_ar": "", "note_en": "", "example": "My son likes to read comics."},
+      {"word": "ukulele", "pos": "noun", "meaning_en": "a small guitar with four strings", "meaning_ar": "اليوكوليلي (جيتار صغير)", "note_ar": "", "note_en": "", "example": "She can play the ukulele."},
+      {"word": "spy", "pos": "noun", "meaning_en": "a person who secretly collects information", "meaning_ar": "جاسوس", "note_ar": "", "note_en": "", "example": "In the film, he works as a spy."},
+      {"word": "on assignment", "pos": "phrase", "meaning_en": "away doing a job you were given", "meaning_ar": "في مهمة عمل", "note_ar": "", "note_en": "", "example": "The reporter is on assignment in Spain."},
+      {"word": "see off", "pos": "phrasal verb", "meaning_en": "to go to a station or airport to say goodbye", "meaning_ar": "يودّع (في المحطة أو المطار)", "note_ar": "", "note_en": "", "example": "We saw my uncle off at the airport."},
+      {"word": "lose your mind", "pos": "phrase", "meaning_en": "to act in a crazy way", "meaning_ar": "يفقد عقله", "note_ar": "", "note_en": "", "example": "You want to swim in the snow? Have you lost your mind?"},
+      {"word": "shyly", "pos": "adverb", "meaning_en": "in a nervous way, not wanting attention", "meaning_ar": "بخجل", "note_ar": "الصفة shy: خجول", "note_en": "Adjective: shy.", "example": "The child smiled shyly."}
+    ],
+    "fine_lines": [
+      {"title": "so vs either (agreeing)", "words": ["so", "either"], "explanation_ar": "للموافقة على جملة مثبتة نستخدم so مع قلب الترتيب: I like comics and so does he. للموافقة على جملة منفية نستخدم either في آخر الجملة: She can't whistle and I can't either.", "explanation_en": "To agree with a positive sentence, use so + verb + subject: I like comics and so does he. To agree with a negative sentence, use not ... either at the end: She can't whistle and I can't either.", "examples": [{"word": "so", "sentence": "He's good at flying kites and so am I."}, {"word": "either", "sentence": "I don't like ball sports and he doesn't either."}]},
+      {"title": "so am I / so do I / so can I", "words": ["so am I", "so do I", "so can I"], "explanation_ar": "الفعل بعد so يطابق الفعل في الجملة الأولى: am/is/are → so am I. فعل عادي في المضارع → so do/does. can → so can.", "explanation_en": "The verb after so matches the first sentence: be → so am I; a normal present verb → so do/does; can → so can.", "examples": [{"word": "so am I", "sentence": "He is good at kites and so am I."}, {"word": "so do I", "sentence": "He likes to read comics and so do I."}, {"word": "so can I", "sentence": "I can play the ukulele and so can he."}]}
+    ],
+    "expressions": [
+      {"phrase": "What are you guys looking at?", "meaning_ar": "إلى ماذا تنظرون يا جماعة؟", "meaning_en": "What are you all looking at?", "example": "Hi! What are you guys looking at?"},
+      {"phrase": "We have so much in common.", "meaning_ar": "بيننا أشياء مشتركة كثيرة.", "meaning_en": "We are alike in many ways.", "example": "We both love books. We have so much in common."},
+      {"phrase": "Gotta go!", "meaning_ar": "يجب أن أذهب!", "meaning_en": "I have to leave now (informal).", "example": "My bus is here. Gotta go!"},
+      {"phrase": "Is this seat taken?", "meaning_ar": "هل هذا المقعد محجوز؟", "meaning_en": "Is someone sitting here?", "example": "Excuse me, is this seat taken?"},
+      {"phrase": "Let me guess.", "meaning_ar": "دعني أخمّن.", "meaning_en": "I think I know what you will say.", "example": "Let me guess. You forgot your keys again."},
+      {"phrase": "What a surprise!", "meaning_ar": "يا لها من مفاجأة! (أحيانًا بسخرية)", "meaning_en": "This is surprising (or, said with sarcasm, not surprising at all).", "example": "He's late again. What a surprise!"},
+      {"phrase": "Of course he does.", "meaning_ar": "طبعًا (قالها بسخرية لعدم التصديق).", "meaning_en": "Said with sarcasm when you don't believe the story.", "example": "He says he has a big house in Paris? Of course he does."}
+    ],
+    "grammar": [
+      {"title": "Agreeing with so, too, either and neither", "explanation_ar": "لربط جملتين متشابهتين دون تكرار الفعل: 1) جملة مثبتة: and so + فعل مساعد + فاعل (and so am I، and so can he، and so do I). لاحظ قلب الترتيب بعد so: I am → am I. 2) جملة منفية: and + فاعل + فعل مساعد منفي + either (and I can't either). الفعل المساعد يطابق الجملة الأولى: be → am/is/are، can → can، فعل عادي → do/does/did.", "explanation_en": "To join two similar ideas without repeating the verb: 1) Positive: and so + helping verb + subject (and so am I, and so can he, and so do I). Notice the order changes after so: I am → am I. 2) Negative: and + subject + negative helping verb + either (and I can't either). The helping verb matches the first sentence: be, can, or do/does/did.", "examples": ["She can't whistle and I can't either.", "I don't like ball sports and he doesn't either.", "He's good at flying kites and so am I.", "He likes to read comics and so do I."]}
+    ]
+  },
+  "questions": [
+    {"question": "I like tea and so ____ my sister.", "choices": ["is", "does", "do", "has"], "answer": 1, "explanation_ar": "like فعل عادي والفاعل مفرد غائب، فنقول so does.", "explanation_en": "Like is a normal verb with she: so does."},
+    {"question": "She can't swim and I can't ____.", "choices": ["too", "so", "either", "also"], "answer": 2, "explanation_ar": "مع الجملة المنفية نستخدم either.", "explanation_en": "With negative sentences, use either."},
+    {"question": "Choose the correct sentence.", "choices": ["He is tired and so I am.", "He is tired and so am I.", "He is tired and so do I.", "He is tired and so I do."], "answer": 1, "explanation_ar": "بعد so نقلب الترتيب ونطابق الفعل: so am I.", "explanation_en": "After so, the order changes: so am I."},
+    {"question": "I can play the ukulele and so ____ he.", "choices": ["can", "does", "is", "do"], "answer": 0, "explanation_ar": "الجملة الأولى فيها can، فنقول so can he.", "explanation_en": "The first sentence uses can: so can he."},
+    {"question": "'Have a lot in common' means:", "choices": ["share many interests", "have a lot of money", "live in the same city", "argue a lot"], "answer": 0, "explanation_ar": "تعني الاشتراك في اهتمامات أو صفات كثيرة.", "explanation_en": "It means you share many interests or qualities."},
+    {"question": "'She made all that up' means:", "choices": ["She cleaned it.", "She told the truth.", "She invented the story.", "She wrote it down."], "answer": 2, "explanation_ar": "make up = يختلق قصة غير حقيقية.", "explanation_en": "Make up means to invent a story."},
+    {"question": "To go to the train station to say goodbye is to ____ someone.", "choices": ["make up", "see off", "stall", "whistle"], "answer": 1, "explanation_ar": "see someone off = يودّعه في المحطة.", "explanation_en": "See someone off means say goodbye at a station or airport."},
+    {"question": "A small animal with a big tail that lives in trees is a ____.", "choices": ["kite", "spy", "partner", "squirrel"], "answer": 3, "explanation_ar": "squirrel = سنجاب.", "explanation_en": "A squirrel lives in trees."},
+    {"question": "I don't like ball sports and he ____ either.", "choices": ["does", "doesn't", "isn't", "don't"], "answer": 1, "explanation_ar": "الجملة منفية والفاعل he: doesn't either.", "explanation_en": "Negative with he: doesn't either."},
+    {"question": "'Is this seat taken?' means:", "choices": ["Is this seat broken?", "Can I buy this seat?", "Is this seat new?", "Is someone sitting here?"], "answer": 3, "explanation_ar": "نسأل بها إن كان المقعد لشخص آخر.", "explanation_en": "We ask this to know if someone is using the seat."}
+  ]
+}

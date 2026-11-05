@@ -1,0 +1,419 @@
+{
+  "title": "Make or Do?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "do",
+        "pos": "verb",
+        "meaning_en": "perform an action (repeated tasks, obligations, several actions)",
+        "meaning_ar": "يفعل / يؤدي",
+        "note_ar": "do – did – done",
+        "note_en": "do – did – done",
+        "example": "I do the dishes every night."
+      },
+      {
+        "word": "make",
+        "pos": "verb",
+        "meaning_en": "create or produce something",
+        "meaning_ar": "يصنع / يُعِدّ",
+        "note_ar": "make – made – made",
+        "note_en": "make – made – made",
+        "example": "I made a cake."
+      },
+      {
+        "word": "collocation",
+        "pos": "noun",
+        "meaning_en": "words that are often used together",
+        "meaning_ar": "تلازم لفظي (كلمات تأتي معًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Make a decision\" is a collocation."
+      },
+      {
+        "word": "repetitive",
+        "pos": "adjective",
+        "meaning_en": "done again and again",
+        "meaning_ar": "متكرر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Washing the dishes is a repetitive job."
+      },
+      {
+        "word": "obligation",
+        "pos": "noun",
+        "meaning_en": "something you must do",
+        "meaning_ar": "واجب / التزام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Homework is an obligation."
+      },
+      {
+        "word": "create",
+        "pos": "verb",
+        "meaning_en": "make something new that did not exist before",
+        "meaning_ar": "يخلق / يبتكر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He created the first computer of its kind."
+      },
+      {
+        "word": "produce",
+        "pos": "verb",
+        "meaning_en": "make things, often many of them",
+        "meaning_ar": "يُنتج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The factory produces cars."
+      },
+      {
+        "word": "chores",
+        "pos": "noun",
+        "meaning_en": "jobs you do at home without pay",
+        "meaning_ar": "أعمال المنزل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have chores to do tonight."
+      },
+      {
+        "word": "laundry",
+        "pos": "noun",
+        "meaning_en": "clothes that need washing; washing clothes",
+        "meaning_ar": "الغسيل (الملابس)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I did the laundry yesterday."
+      },
+      {
+        "word": "yard",
+        "pos": "noun",
+        "meaning_en": "the land in front of or behind a house",
+        "meaning_ar": "فناء / حديقة المنزل",
+        "note_ar": "في بريطانيا: garden",
+        "note_en": "UK: garden.",
+        "example": "On Saturday we do the yard work."
+      },
+      {
+        "word": "excuse",
+        "pos": "noun",
+        "meaning_en": "a reason you give for not doing something (often not believed)",
+        "meaning_ar": "عذر / حجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't make excuses. Just do your homework."
+      },
+      {
+        "word": "complaint",
+        "pos": "noun",
+        "meaning_en": "saying that something is wrong",
+        "meaning_ar": "شكوى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I made a complaint to the manager."
+      },
+      {
+        "word": "exception",
+        "pos": "noun",
+        "meaning_en": "someone or something allowed to break the rule",
+        "meaning_ar": "استثناء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The school made an exception for him."
+      },
+      {
+        "word": "shorthand",
+        "pos": "noun",
+        "meaning_en": "a short way of saying something",
+        "meaning_ar": "اختصار في التعبير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Do the dishes\" is shorthand for wash, dry and put away."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "do vs make",
+        "words": [
+          "do",
+          "make"
+        ],
+        "explanation_ar": "do للفعل نفسه: أعمال متكررة، واجبات، عدة أفعال معًا؛ ترى الفعل لكن لا تستطيع لمسه. make للنتيجة: صنع أو إنتاج شيء جديد يمكن غالبًا لمسه، وأيضًا للاختيار (make a decision) والكلام (make a speech, make a noise).",
+        "explanation_en": "\"Do\" is the action itself: repeated jobs, obligations, several actions; you can see it but not touch it. \"Make\" is the result: creating or producing something you can usually touch; also for choosing (make a decision) and speaking (make a speech, make a noise).",
+        "examples": [
+          {
+            "word": "do",
+            "sentence": "I do my homework every evening."
+          },
+          {
+            "word": "make",
+            "sentence": "I made a cake for my mother."
+          }
+        ]
+      },
+      {
+        "title": "make an exception vs make an example of",
+        "words": [
+          "make an exception",
+          "make an example of"
+        ],
+        "explanation_ar": "make an exception = تسمح لشخص بشيء غير مسموح للآخرين (أمر جيد له). make an example of someone = تعاقب شخصًا أمام الجميع ليتعلم الآخرون (أمر سيئ له).",
+        "explanation_en": "\"Make an exception\" = allow someone to do what others can't (good for them). \"Make an example of someone\" = punish someone publicly so others learn (bad for them).",
+        "examples": [
+          {
+            "word": "make an exception",
+            "sentence": "The class is full, but we'll make an exception for you."
+          },
+          {
+            "word": "make an example of",
+            "sentence": "The teacher made an example of the noisy student."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "do the dishes",
+        "meaning_ar": "يغسل الصحون",
+        "meaning_en": "wash, dry and put away the dishes",
+        "example": "I usually do the dishes after dinner."
+      },
+      {
+        "phrase": "do the laundry",
+        "meaning_ar": "يغسل الملابس",
+        "meaning_en": "wash, dry and fold clothes",
+        "example": "I did the laundry yesterday."
+      },
+      {
+        "phrase": "do the yard work",
+        "meaning_ar": "يعتني بحديقة البيت",
+        "meaning_en": "cut the grass and clean the yard",
+        "example": "We do the yard work on Saturdays."
+      },
+      {
+        "phrase": "do homework",
+        "meaning_ar": "يحلّ الواجب",
+        "meaning_en": "complete schoolwork at home",
+        "example": "The children do their homework after lunch."
+      },
+      {
+        "phrase": "do business with",
+        "meaning_ar": "يتعامل تجاريًا مع",
+        "meaning_en": "work with a person or company",
+        "example": "Our company does business with firms in Japan."
+      },
+      {
+        "phrase": "do a report",
+        "meaning_ar": "يكتب تقريرًا",
+        "meaning_en": "write a report",
+        "example": "Can you do a report on the trip?"
+      },
+      {
+        "phrase": "do my hair",
+        "meaning_ar": "أصفف شعري",
+        "meaning_en": "wash, cut or style your hair",
+        "example": "I need ten minutes to do my hair."
+      },
+      {
+        "phrase": "make the bed",
+        "meaning_ar": "يرتّب السرير",
+        "meaning_en": "put the sheets and pillows tidy (an exception: make, not do)",
+        "example": "I make my bed every morning."
+      },
+      {
+        "phrase": "make a call",
+        "meaning_ar": "يُجري مكالمة",
+        "meaning_en": "phone someone",
+        "example": "Excuse me, I have to make a call."
+      },
+      {
+        "phrase": "make a decision / make up your mind",
+        "meaning_ar": "يتخذ قرارًا / يحسم أمره",
+        "meaning_en": "decide",
+        "example": "Make up your mind: tea or coffee?"
+      },
+      {
+        "phrase": "make a list",
+        "meaning_ar": "يُعِدّ قائمة",
+        "meaning_en": "write things down one under another",
+        "example": "Make a list of things to buy."
+      },
+      {
+        "phrase": "make dinner / make some coffee",
+        "meaning_ar": "يُعدّ العشاء / يُعدّ القهوة",
+        "meaning_en": "prepare a meal / coffee",
+        "example": "Can you make some coffee, please?"
+      },
+      {
+        "phrase": "make money",
+        "meaning_ar": "يكسب المال",
+        "meaning_en": "earn money",
+        "example": "Can you make a lot of money at your job?"
+      },
+      {
+        "phrase": "make a speech / make a noise / make a comment",
+        "meaning_ar": "يُلقي خطابًا / يُحدث ضجة / يُبدي تعليقًا",
+        "meaning_en": "speaking actions that use \"make\"",
+        "example": "Please don't make a noise; the baby is sleeping."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "When to use do",
+        "explanation_ar": "استعمل do: 1) للأعمال المتكررة (I do the dishes every night). 2) للواجبات (do homework). 3) كاختصار لعدة أفعال (do the laundry = wash, dry, fold). 4) بدل فعل واحد (do my hair = fix/wash، do a report = write).",
+        "explanation_en": "Use \"do\": 1) for repeated jobs (I do the dishes every night); 2) for obligations (do homework); 3) as shorthand for several actions (do the laundry = wash, dry, fold); 4) to replace one verb (do my hair = fix/wash; do a report = write).",
+        "examples": [
+          "I do the dishes every night.",
+          "Can you do a report on that?"
+        ]
+      },
+      {
+        "title": "When to use make",
+        "explanation_ar": "استعمل make: 1) للخلق والصنع (make a cake). 2) للاختيار (make a decision). 3) للإنتاج المستمر (They make cars). 4) للكلام والأصوات (make a speech, make a noise).",
+        "explanation_en": "Use \"make\": 1) to create (make a cake); 2) to choose (make a decision); 3) to produce (They make cars); 4) for speaking and sounds (make a speech, make a noise).",
+        "examples": [
+          "She made a birthday cake.",
+          "Don't make a noise."
+        ]
+      },
+      {
+        "title": "See it = do, touch it = make",
+        "explanation_ar": "حيلة: مع do ترى الفعل بعينك لكن لا تمسكه. مع make توجد نتيجة يمكن غالبًا لمسها. do هو العمل، و make هو النتيجة: I do everything I can to make you happy.",
+        "explanation_en": "Trick: with \"do\" you can see the action but not hold it. With \"make\" there is a result you can usually touch. Do = the action; make = the result: \"I do everything I can to make you happy.\"",
+        "examples": [
+          "I do everything I can to make you happy.",
+          "I did some work to make some money."
+        ]
+      },
+      {
+        "title": "Exception: make the bed",
+        "explanation_ar": "ترتيب السرير عمل متكرر، لكننا نقول make the bed وليس do the bed. ربما لأننا ننتج سريرًا مرتبًا جميلًا.",
+        "explanation_en": "Making the bed is a repeated job, but we say \"make the bed\", not \"do the bed\". Maybe because we produce a tidy, nice bed.",
+        "examples": [
+          "Did you make the bed?",
+          "I make my bed every morning."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"I usually ___ the dishes after dinner.\"",
+      "choices": [
+        "make",
+        "do",
+        "have",
+        "take"
+      ],
+      "answer": 1,
+      "explanation_ar": "عمل متكرر: do the dishes.",
+      "explanation_en": "A repeated job: do the dishes."
+    },
+    {
+      "question": "\"Can you ___ a lot of money at your job?\"",
+      "choices": [
+        "do",
+        "have",
+        "make",
+        "take"
+      ],
+      "answer": 2,
+      "explanation_ar": "التعبير: make money.",
+      "explanation_en": "The collocation is \"make money\"."
+    },
+    {
+      "question": "\"I ___ the laundry yesterday.\"",
+      "choices": [
+        "did",
+        "made",
+        "do",
+        "make"
+      ],
+      "answer": 0,
+      "explanation_ar": "do the laundry في الماضي: did.",
+      "explanation_en": "\"Do the laundry\" in the past: did."
+    },
+    {
+      "question": "\"I ___ my bed every morning.\"",
+      "choices": [
+        "do",
+        "did",
+        "makes",
+        "make"
+      ],
+      "answer": 3,
+      "explanation_ar": "استثناء: make the bed.",
+      "explanation_en": "Exception: make the bed."
+    },
+    {
+      "question": "\"I ___ everything I can to ___ you happy.\"",
+      "choices": [
+        "make / do",
+        "do / do",
+        "do / make",
+        "make / make"
+      ],
+      "answer": 2,
+      "explanation_ar": "do للأفعال، و make للنتيجة.",
+      "explanation_en": "\"Do\" for the actions, \"make\" for the result."
+    },
+    {
+      "question": "\"Hurry up and ___ a decision!\"",
+      "choices": [
+        "make",
+        "do",
+        "have done",
+        "doing"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: make a decision.",
+      "explanation_en": "make a decision."
+    },
+    {
+      "question": "Which is correct?",
+      "choices": [
+        "make homework",
+        "do a cake",
+        "make a complaint",
+        "do a phone call"
+      ],
+      "answer": 2,
+      "explanation_ar": "make a complaint صحيحة.",
+      "explanation_en": "\"Make a complaint\" is correct."
+    },
+    {
+      "question": "\"Do business with someone\" means ___.",
+      "choices": [
+        "open a shop",
+        "work with someone",
+        "make money alone",
+        "write a report"
+      ],
+      "answer": 1,
+      "explanation_ar": "تعني العمل مع شخص.",
+      "explanation_en": "It means work with someone."
+    },
+    {
+      "question": "What are \"chores\"?",
+      "choices": [
+        "paid jobs at an office",
+        "excuses",
+        "house jobs you do without pay",
+        "reports"
+      ],
+      "answer": 2,
+      "explanation_ar": "أعمال المنزل بدون أجر.",
+      "explanation_en": "House jobs without pay."
+    },
+    {
+      "question": "\"Don't ___ excuses. Just say sorry.\"",
+      "choices": [
+        "do",
+        "make",
+        "did",
+        "doing"
+      ],
+      "answer": 1,
+      "explanation_ar": "الإجابة الصحيحة: make excuses.",
+      "explanation_en": "make excuses."
+    }
+  ]
+}

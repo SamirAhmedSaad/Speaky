@@ -1,0 +1,617 @@
+{
+ "title": "She's My Best Friend!",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "best friend",
+    "pos": "noun",
+    "meaning_en": "the friend you like most",
+    "meaning_ar": "أعز صديق، أفضل صديق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My best friend lives next door."
+   },
+   {
+    "word": "hometown",
+    "pos": "noun",
+    "meaning_en": "the town where you were born or grew up",
+    "meaning_ar": "مسقط الرأس، البلدة الأم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I visit my hometown every summer."
+   },
+   {
+    "word": "catch up (with)",
+    "pos": "phrasal verb",
+    "meaning_en": "talk to someone about what happened since you last met",
+    "meaning_ar": "يتبادل الأخبار مع (بعد غياب)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can't wait to catch up with her!"
+   },
+   {
+    "word": "train",
+    "pos": "noun",
+    "meaning_en": "a vehicle that runs on a railway",
+    "meaning_ar": "قطار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Her train arrives in ten minutes."
+   },
+   {
+    "word": "trip",
+    "pos": "noun",
+    "meaning_en": "a journey to a place",
+    "meaning_ar": "رحلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "How was your trip?"
+   },
+   {
+    "word": "excited",
+    "pos": "adjective",
+    "meaning_en": "very happy about something that will happen",
+    "meaning_ar": "متحمس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm really excited to be here!"
+   },
+   {
+    "word": "tea",
+    "pos": "noun",
+    "meaning_en": "a hot drink made from leaves",
+    "meaning_ar": "شاي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We can talk over a hot cup of tea."
+   },
+   {
+    "word": "apartment building",
+    "pos": "noun",
+    "meaning_en": "a building with many apartments",
+    "meaning_ar": "عمارة سكنية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I love your apartment building."
+   },
+   {
+    "word": "rent",
+    "pos": "noun",
+    "meaning_en": "money you pay each month to live in a place",
+    "meaning_ar": "الإيجار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Is your rent expensive?"
+   },
+   {
+    "word": "expensive",
+    "pos": "adjective",
+    "meaning_en": "costing a lot of money",
+    "meaning_ar": "غالٍ، مكلف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This phone is too expensive."
+   },
+   {
+    "word": "roommate",
+    "pos": "noun",
+    "meaning_en": "a person who shares a home with you",
+    "meaning_ar": "شريك السكن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My roommate is a student too."
+   },
+   {
+    "word": "split",
+    "pos": "verb",
+    "meaning_en": "divide or share between people",
+    "meaning_ar": "يقسم، يتقاسم",
+    "note_ar": "الماضي: split.",
+    "note_en": "Past: split.",
+    "example": "We split the rent."
+   },
+   {
+    "word": "nice",
+    "pos": "adjective",
+    "meaning_en": "kind and pleasant",
+    "meaning_ar": "لطيف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Marsha is the nicest person I know."
+   },
+   {
+    "word": "messy",
+    "pos": "adjective",
+    "meaning_en": "not neat or tidy",
+    "meaning_ar": "فوضوي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She says I'm the messiest cook she knows."
+   },
+   {
+    "word": "make friends",
+    "pos": "phrase",
+    "meaning_en": "start new friendships",
+    "meaning_ar": "يكوّن صداقات",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Is it hard to make friends in a new city?"
+   },
+   {
+    "word": "at first",
+    "pos": "phrase",
+    "meaning_en": "in the beginning",
+    "meaning_ar": "في البداية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "At first it was hard."
+   },
+   {
+    "word": "serious",
+    "pos": "adjective",
+    "meaning_en": "thinking carefully; not joking",
+    "meaning_ar": "جادّ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Pete is the most serious person I know."
+   },
+   {
+    "word": "silly",
+    "pos": "adjective",
+    "meaning_en": "funny in a childish way",
+    "meaning_ar": "سخيف، مضحك (بطريقة طفولية)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He is also the silliest."
+   },
+   {
+    "word": "interesting",
+    "pos": "adjective",
+    "meaning_en": "making you want to know more",
+    "meaning_ar": "مثير للاهتمام",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He sounds interesting."
+   },
+   {
+    "word": "friendly",
+    "pos": "adjective",
+    "meaning_en": "kind and nice to people",
+    "meaning_ar": "ودود",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They are the friendliest people I know."
+   },
+   {
+    "word": "children's show",
+    "pos": "noun",
+    "meaning_en": "a TV or video program for children",
+    "meaning_ar": "برنامج للأطفال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Anna makes a children's show."
+   },
+   {
+    "word": "treehouse",
+    "pos": "noun",
+    "meaning_en": "a small house built in a tree, for children to play in",
+    "meaning_ar": "بيت الشجرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We played in a treehouse."
+   },
+   {
+    "word": "time travel",
+    "pos": "verb / noun",
+    "meaning_en": "go to the past or future (in stories)",
+    "meaning_ar": "السفر عبر الزمن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "In the show, the treehouse can time travel."
+   },
+   {
+    "word": "remember",
+    "pos": "verb",
+    "meaning_en": "keep something in your mind",
+    "meaning_ar": "يتذكر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you remember when we were little?"
+   },
+   {
+    "word": "forget",
+    "pos": "verb",
+    "meaning_en": "not remember",
+    "meaning_ar": "ينسى",
+    "note_ar": "الماضي: forgot.",
+    "note_en": "Past: forgot.",
+    "example": "I forgot about that!"
+   },
+   {
+    "word": "cry",
+    "pos": "verb",
+    "meaning_en": "have tears come from your eyes",
+    "meaning_ar": "يبكي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "No crying!"
+   },
+   {
+    "word": "move",
+    "pos": "verb",
+    "meaning_en": "go to live in a new place",
+    "meaning_ar": "ينتقل (للسكن)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Why don't you move here?"
+   },
+   {
+    "word": "leave",
+    "pos": "verb",
+    "meaning_en": "go away from a place",
+    "meaning_ar": "يغادر، يترك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can't leave our hometown."
+   },
+   {
+    "word": "famous",
+    "pos": "adjective",
+    "meaning_en": "known by many people",
+    "meaning_ar": "مشهور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is a famous restaurant."
+   },
+   {
+    "word": "turkey",
+    "pos": "noun",
+    "meaning_en": "a large farm bird",
+    "meaning_ar": "ديك رومي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My uncle has turkeys on his farm."
+   },
+   {
+    "word": "farmer",
+    "pos": "noun",
+    "meaning_en": "a person who works on a farm",
+    "meaning_ar": "مزارع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The farmer grows corn."
+   },
+   {
+    "word": "awesome",
+    "pos": "adjective",
+    "meaning_en": "very good; great (informal)",
+    "meaning_ar": "رائع، مذهل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Your friends are awesome!"
+   },
+   {
+    "word": "lucky",
+    "pos": "adjective",
+    "meaning_en": "having good things happen to you",
+    "meaning_ar": "محظوظ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I am the luckiest woman in Washington, D.C."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "-est vs most",
+    "words": [
+     "-est",
+     "most"
+    ],
+    "explanation_ar": "الصفات القصيرة (مقطع واحد، أو مقطعان تنتهي بـ y) تأخذ the + est: nicest, silliest, luckiest. الصفات الطويلة (مقطعان أو أكثر) تأخذ the most: the most serious, the most famous.",
+    "explanation_en": "Short adjectives (one syllable, or two syllables ending in -y) take the + -est: nicest, silliest, luckiest. Longer adjectives take the most: the most serious, the most famous.",
+    "examples": [
+     {
+      "word": "-est",
+      "sentence": "Marsha is the nicest person I know."
+     },
+     {
+      "word": "-est",
+      "sentence": "They are the friendliest people in the city."
+     },
+     {
+      "word": "most",
+      "sentence": "Pete is the most serious."
+     },
+     {
+      "word": "most",
+      "sentence": "It is one of the most famous restaurants."
+     }
+    ]
+   },
+   {
+    "title": "good / better / best",
+    "words": [
+     "good",
+     "better",
+     "best"
+    ],
+    "explanation_ar": "good صفة شاذة: المقارنة better والتفضيل the best. لا نقول goodest أو most good.",
+    "explanation_en": "\"Good\" is irregular: good → better → the best. Never say \"goodest\".",
+    "examples": [
+     {
+      "word": "good",
+      "sentence": "New friends are good."
+     },
+     {
+      "word": "best",
+      "sentence": "But old friends are the best."
+     },
+     {
+      "word": "better",
+      "sentence": "Tea is better than coffee for me."
+     }
+    ]
+   },
+   {
+    "title": "remember vs forget",
+    "words": [
+     "remember",
+     "forget"
+    ],
+    "explanation_ar": "remember = يتذكر، forget = ينسى (عكسها). الماضي: remembered / forgot.",
+    "explanation_en": "\"Remember\" means keep in your mind; \"forget\" is the opposite. Past: remembered / forgot.",
+    "examples": [
+     {
+      "word": "remember",
+      "sentence": "Do you remember our old school?"
+     },
+     {
+      "word": "forget",
+      "sentence": "Don't forget your keys."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "I have great news.",
+    "meaning_ar": "لديّ أخبار رائعة.",
+    "meaning_en": "I have something good to tell you.",
+    "example": "I have great news! I passed the test."
+   },
+   {
+    "phrase": "I can't wait to ...",
+    "meaning_ar": "لا أطيق الانتظار لـ...",
+    "meaning_en": "I am very excited to do something.",
+    "example": "I can't wait to see my grandmother."
+   },
+   {
+    "phrase": "I gotta go.",
+    "meaning_ar": "يجب أن أذهب (عامية).",
+    "meaning_en": "Informal for \"I have to go\".",
+    "example": "Sorry, I gotta go. My bus is here."
+   },
+   {
+    "phrase": "How was your trip?",
+    "meaning_ar": "كيف كانت رحلتك؟",
+    "meaning_en": "Asking about someone's journey.",
+    "example": "Welcome back! How was your trip?"
+   },
+   {
+    "phrase": "Let me help you with your bags.",
+    "meaning_ar": "دعني أساعدك في حمل حقائبك.",
+    "meaning_en": "An offer to carry someone's bags.",
+    "example": "Let me help you with that box."
+   },
+   {
+    "phrase": "I have so much to tell you.",
+    "meaning_ar": "عندي الكثير لأخبرك به.",
+    "meaning_en": "I have a lot of news.",
+    "example": "Sit down. I have so much to tell you."
+   },
+   {
+    "phrase": "We can talk over a cup of tea.",
+    "meaning_ar": "يمكننا التحدث على كوب شاي.",
+    "meaning_en": "Talk while drinking tea.",
+    "example": "Let's talk over lunch."
+   },
+   {
+    "phrase": "We split the rent.",
+    "meaning_ar": "نتقاسم الإيجار.",
+    "meaning_en": "We each pay part of the rent.",
+    "example": "We split the bill at the restaurant."
+   },
+   {
+    "phrase": "At first it was hard.",
+    "meaning_ar": "في البداية كان الأمر صعباً.",
+    "meaning_en": "It was difficult in the beginning.",
+    "example": "At first it was hard, but now I like my new school."
+   },
+   {
+    "phrase": "He sounds interesting.",
+    "meaning_ar": "يبدو شخصاً مثيراً للاهتمام.",
+    "meaning_en": "From what you say, he is interesting.",
+    "example": "Your new teacher sounds nice."
+   },
+   {
+    "phrase": "Do you remember when we were little?",
+    "meaning_ar": "هل تتذكر عندما كنا صغاراً؟",
+    "meaning_en": "Asking about childhood memories.",
+    "example": "Do you remember when we were little? We played every day."
+   },
+   {
+    "phrase": "New friends are good. But old friends are the best.",
+    "meaning_ar": "الأصدقاء الجدد جيدون، لكن الأصدقاء القدامى هم الأفضل.",
+    "meaning_en": "Old friendships are special.",
+    "example": "I love my new classmates, but old friends are the best."
+   },
+   {
+    "phrase": "Why don't you ...?",
+    "meaning_ar": "لماذا لا تـ...؟ (اقتراح)",
+    "meaning_en": "A way to make a suggestion.",
+    "example": "Why don't you visit us next month?"
+   },
+   {
+    "phrase": "I am the luckiest woman in Washington, D.C.",
+    "meaning_ar": "أنا أكثر امرأة حظاً في واشنطن.",
+    "meaning_en": "I am very lucky.",
+    "example": "I have a great family. I am the luckiest person in the world."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Superlative adjectives with -est",
+    "explanation_ar": "صيغة التفضيل تقارن شيئاً بكل أفراد مجموعته: the + صفة + est. القواعد: nice → the nicest (نضيف st فقط). messy, silly, friendly, lucky → نحذف y ونضيف iest: the messiest, the silliest, the friendliest, the luckiest. big → the biggest (نضاعف الحرف).",
+    "explanation_en": "A superlative compares one thing with all the others in a group: the + adjective + -est. nice → the nicest (add -st). messy, silly, friendly, lucky → change y to i + est: the messiest, the silliest, the friendliest, the luckiest. big → the biggest (double the letter).",
+    "examples": [
+     "Marsha is the nicest person I know.",
+     "I'm the messiest cook she knows.",
+     "They are the friendliest people I know.",
+     "I am the luckiest woman in Washington, D.C."
+    ]
+   },
+   {
+    "title": "Superlatives with the most",
+    "explanation_ar": "الصفات الطويلة (ذات المقطعين أو أكثر ولا تنتهي بـ y) تأخذ the most + الصفة: the most serious, the most famous, the most interesting.",
+    "explanation_en": "Long adjectives (two or more syllables, not ending in -y) use the most + adjective: the most serious, the most famous, the most interesting.",
+    "examples": [
+     "Pete is the most serious.",
+     "You are the most famous turkey farmer I know!",
+     "one of D.C.'s most famous restaurants"
+    ]
+   },
+   {
+    "title": "Irregular superlative: the best / Of all the... / one of the...",
+    "explanation_ar": "good → the best (شاذة). نستخدم بعد التفضيل: of all the people I know، in the city، I know. ومع one of the نستخدم الاسم بالجمع: one of the most famous restaurants.",
+    "explanation_en": "good → the best (irregular). After a superlative we often say: of all the people I know, in the city, I know. With \"one of the\" use a plural noun: one of the most famous restaurants.",
+    "examples": [
+     "Old friends are the best.",
+     "That is the best job for you!",
+     "Of all the people I know, Pete is the silliest."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Marsha is the ___ person I know.",
+   "choices": [
+    "nicer",
+    "nicest",
+    "most nice",
+    "nice"
+   ],
+   "answer": 1,
+   "explanation_ar": "التفضيل من nice: the nicest.",
+   "explanation_en": "Superlative of \"nice\": the nicest."
+  },
+  {
+   "question": "What is the superlative of \"silly\"?",
+   "choices": [
+    "the silliest",
+    "the sillyest",
+    "the more silly",
+    "the sillest"
+   ],
+   "answer": 0,
+   "explanation_ar": "نحذف y ونضيف iest: silliest.",
+   "explanation_en": "Change y to i and add -est: silliest."
+  },
+  {
+   "question": "Pete is the ___ person I know.",
+   "choices": [
+    "seriousest",
+    "more serious",
+    "most serious",
+    "seriouser"
+   ],
+   "answer": 2,
+   "explanation_ar": "serious صفة طويلة فنستخدم the most.",
+   "explanation_en": "\"Serious\" is long, so use \"the most\"."
+  },
+  {
+   "question": "Old friends are the ___.",
+   "choices": [
+    "goodest",
+    "most good",
+    "better",
+    "best"
+   ],
+   "answer": 3,
+   "explanation_ar": "good شاذة: the best.",
+   "explanation_en": "\"Good\" is irregular: the best."
+  },
+  {
+   "question": "\"We split the rent\" means ___",
+   "choices": [
+    "we don't pay the rent",
+    "we each pay part of the rent",
+    "the rent is expensive",
+    "we pay double rent"
+   ],
+   "answer": 1,
+   "explanation_ar": "split = نتقاسم.",
+   "explanation_en": "\"Split\" means share or divide."
+  },
+  {
+   "question": "I can't wait to ___ with my old friend and hear all her news.",
+   "choices": [
+    "catch up",
+    "catch on",
+    "take off",
+    "give up"
+   ],
+   "answer": 0,
+   "explanation_ar": "catch up with = نتبادل الأخبار بعد غياب.",
+   "explanation_en": "\"Catch up with\" means talk about all the news since you last met."
+  },
+  {
+   "question": "What is a \"hometown\"?",
+   "choices": [
+    "a big hotel",
+    "a new city",
+    "the town where you grew up",
+    "a train station"
+   ],
+   "answer": 2,
+   "explanation_ar": "hometown مسقط الرأس.",
+   "explanation_en": "Your hometown is where you were born or grew up."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "It is one of the most famous restaurant.",
+    "It is one of most famous restaurants.",
+    "It is one of the famousest restaurants.",
+    "It is one of the most famous restaurants."
+   ],
+   "answer": 3,
+   "explanation_ar": "بعد one of the نستخدم اسماً جمعاً، وfamous تأخذ the most.",
+   "explanation_en": "After \"one of the\" use a plural noun; \"famous\" takes \"the most\"."
+  },
+  {
+   "question": "The opposite of \"remember\" is ___.",
+   "choices": [
+    "forget",
+    "forgive",
+    "leave",
+    "move"
+   ],
+   "answer": 0,
+   "explanation_ar": "عكس remember هو forget.",
+   "explanation_en": "The opposite of \"remember\" is \"forget\"."
+  },
+  {
+   "question": "I am the ___ woman in Washington, D.C.",
+   "choices": [
+    "luckyest",
+    "most luckiest",
+    "luckiest",
+    "luckier"
+   ],
+   "answer": 2,
+   "explanation_ar": "lucky → luckiest، ولا نجمع most مع est.",
+   "explanation_en": "lucky → luckiest; never use \"most\" with -est."
+  }
+ ]
+}

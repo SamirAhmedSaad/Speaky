@@ -20,8 +20,8 @@ android {
         applicationId = "com.speaky_ai.app"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 31
-        versionName = "1.3.2"
+        versionCode = 50
+        versionName = "1.6.2"
     }
 
     signingConfigs {
@@ -49,6 +49,8 @@ android {
             initWith(getByName("release"))
             signingConfig = signingConfigs.getByName("debug")
             matchingFallbacks += listOf("release")
+            // Lets device tests use debug-only hooks (e.g. simulating a purchase); release stays non-debuggable.
+            isDebuggable = true
         }
     }
 

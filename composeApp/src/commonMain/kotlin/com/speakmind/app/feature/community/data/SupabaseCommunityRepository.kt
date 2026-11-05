@@ -1,7 +1,20 @@
 package com.speakmind.app.feature.community.data
 
+import io.github.jan.supabase.realtime.presenceDataFlow
+import io.ktor.http.isSuccess
+import io.ktor.http.HttpHeaders
+import io.ktor.client.statement.bodyAsText
+import io.ktor.http.contentType
+import io.ktor.client.request.setBody
+import io.ktor.client.request.header
+import io.ktor.client.request.post
+import io.ktor.client.HttpClient
+import com.speakmind.app.config.AppConfig
+import com.speakmind.app.feature.community.data.repository.AiCorrection
 import com.speakmind.app.db.Room_message_cache
 import com.speakmind.app.db.SpeakyDatabase
+import com.speakmind.app.feature.community.data.model.AdminChat
+import com.speakmind.app.feature.community.data.model.AdminChatMessage
 import com.speakmind.app.feature.community.data.model.AdminReport
 import com.speakmind.app.feature.community.data.model.ChatRoom
 import com.speakmind.app.feature.community.data.model.ReplyPreview
@@ -18,11 +31,13 @@ import com.speakmind.app.feature.community.data.model.TypingUser
 import com.speakmind.app.feature.community.data.repository.BlockedException
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.DAILY_MESSAGE_LIMIT
+import com.speakmind.app.feature.community.data.repository.FreeMessages
 import com.speakmind.app.feature.community.data.repository.ReactionChange
 import com.speakmind.app.feature.community.data.repository.ReportReason
 import com.speakmind.app.feature.community.data.repository.RoomConnection
 import io.github.aakira.napier.Napier
 import io.github.jan.supabase.SupabaseClient
+import com.speakmind.app.config.ServerSettings
 import com.speakmind.app.premium.Premium
 import io.github.jan.supabase.auth.auth
 import io.github.jan.supabase.auth.providers.Google
@@ -94,13 +109,14 @@ private const val DEVICE_TOKENS = "device_tokens"
 // Explicit !sender_id: message_reactions also links messages and users, so the embed needs a hint.
 private const val MESSAGE_COLUMNS =
     "id,room_id,sender_id,kind,body,voice_path,voice_duration_ms,voice_waveform,created_at,edited_at,reply_to_id," +
-        "sender:community_users!sender_id(id,nickname,gender,photo_url,last_seen,level)," +
+        "sender:community_users!sender_id(id,nickname,gender,photo_url,last_seen,level,is_premium)," +
         "reply:reply_to_id(id,body,kind,sender:community_users!sender_id(nickname))," +
         // Reactions come with the page, saving a second round trip when a chat opens.
         "reactions:message_reactions(user_id,emoji)"
 private const val ROOM_COLUMNS =
     "id,kind,name,description,last_message_at,last_message_preview,member_count,is_private"
-private const val USER_COLUMNS = "id,nickname,gender,photo_url,last_seen,level"
+// is_premium: computed on the server (Premium from Google Play or granted), for the gold badge.
+private const val USER_COLUMNS = "id,nickname,gender,photo_url,last_seen,level,is_premium"
 private const val REACTIONS = "message_reactions"
 private const val AVATAR_BUCKET = "avatars"
 
@@ -127,6 +143,15 @@ class SupabaseCommunityRepository(
         return client.auth.currentUserOrNull() != null
     }
 
+    /**
+     * A signed-in session is ready. Calls made before the saved login is restored (or by visitors)
+     * would go out as the anonymous role and be refused by the server, so they're skipped.
+     */
+    private suspend fun signedIn(): Boolean {
+        client.auth.awaitInitialization()
+        return client.auth.currentSessionOrNull() != null
+    }
+
     override fun isGuest(): Boolean = client.auth.currentUserOrNull()?.let { user ->
         user.identities.isNullOrEmpty() || user.appMetadata?.get("provider")?.jsonPrimitive?.contentOrNull == "anonymous"
     } ?: true
@@ -140,6 +165,8 @@ class SupabaseCommunityRepository(
             nonce = rawNonce
         }
         lastPushToken?.let { registerPushToken(it) }
+        // Ad-free accounts skip the "watch or subscribe" dialog right away, not after a restart.
+        isAdFree()?.let { Premium.setServerAdFree(it) }
     }
 
     override suspend fun signOut() {
@@ -226,6 +253,21 @@ class SupabaseCommunityRepository(
         database.speakMindQueries.upsertCommunityProfile(firebase_uid = uid, nickname = nickname, gender = gender, photo_url = photo)
     }
 
+    override suspend fun uploadPublicImage(path: String, bytes: ByteArray) {
+        client.storage.from(AVATAR_BUCKET).upload(path, bytes) {
+            upsert = true
+            contentType = ContentType.Image.PNG
+        }
+    }
+
+    override suspend fun setPhotoUrl(url: String) {
+        val uid = requireUserId()
+        client.from(USERS).update({ set("photo_url", url) }) { filter { eq("id", uid) } }
+        getLocalProfile()?.let {
+            database.speakMindQueries.upsertCommunityProfile(firebase_uid = uid, nickname = it.nickname, gender = it.gender, photo_url = url)
+        }
+    }
+
     override suspend fun uploadAvatar(bytes: ByteArray): String {
         val uid = requireUserId()
         val path = "$uid/avatar.jpg"
@@ -250,6 +292,45 @@ class SupabaseCommunityRepository(
             client.postgrest.rpc("my_unread_private_count").decodeAs<Long>().toInt()
         } catch (_: Exception) {
             0
+        }
+    }
+
+    override suspend fun freePrivateMessages(): FreeMessages? {
+        if (!hasSession() || isGuest()) return null
+        return try {
+            val dto = client.postgrest.rpc("my_free_dm_status").decodeAs<FreeMessagesDto>()
+            FreeMessages(dto.used, dto.limit, dto.waitMs)
+        } catch (e: Exception) {
+            Napier.w("Free messages check failed", e)
+            null
+        }
+    }
+
+    private val aiHttp by lazy { HttpClient() }
+
+    override suspend fun correctMessage(text: String, premium: Boolean): AiCorrection {
+        if (!hasSession() || isGuest()) return AiCorrection.Failed
+        val token = client.auth.currentAccessTokenOrNull() ?: return AiCorrection.Failed
+        return try {
+            val response = aiHttp.post("${AppConfig.supabaseUrl}/functions/v1/ai-correct") {
+                header(HttpHeaders.Authorization, "Bearer $token")
+                header("apikey", AppConfig.supabaseAnonKey)
+                contentType(ContentType.Application.Json)
+                setBody(lenientJson.encodeToString(AiCorrectRequest.serializer(), AiCorrectRequest(text, premium)))
+            }
+            val dto = lenientJson.decodeFromString(AiCorrectResponse.serializer(), response.bodyAsText())
+            when {
+                response.status.isSuccess() && !dto.text.isNullOrBlank() ->
+                    AiCorrection.Fixed(dto.text, if (dto.premium) null else dto.left)
+                dto.error == "limit" -> AiCorrection.LimitReached(dto.limit ?: 3, dto.waitMs ?: 0)
+                dto.error == "too_long" -> AiCorrection.TooLong(dto.maxChars ?: 500)
+                // The server tried every provider; all were out of quota or busy.
+                dto.error == "quota" || dto.error == "unavailable" -> AiCorrection.OutOfQuota
+                else -> AiCorrection.Failed
+            }
+        } catch (e: Exception) {
+            Napier.w("AI correction failed", e)
+            AiCorrection.Failed
         }
     }
 
@@ -354,7 +435,7 @@ class SupabaseCommunityRepository(
     private val _onlineUserIds = MutableStateFlow<Set<String>>(emptySet())
     /** Other signed-in learners online now (never yourself, never visitors). */
     override val onlineUserIds: StateFlow<Set<String>> = _onlineUserIds.asStateFlow()
-    /** Raw Realtime presence keys. Joins/leaves can be missed across reconnects, so this alone goes stale. */
+    /** Signed-in users in Realtime presence right now (the full current state, not a join/leave log). */
     private val presentKeys = MutableStateFlow<Set<String>>(emptySet())
     private var onlineCheckJob: Job? = null
 
@@ -407,8 +488,10 @@ class SupabaseCommunityRepository(
             }
             presenceChannel = channel
             presenceJob = scope.launch {
-                channel.presenceChangeFlow().collect { action ->
-                    presentKeys.update { it + action.joins.keys - action.leaves.keys }
+                // The whole presence state on every change: a join/leave log goes wrong after missed
+                // events (reconnects) and when one person is connected twice (two devices).
+                channel.presenceDataFlow<PresenceDto>().collect { present ->
+                    presentKeys.value = present.mapNotNull { it.userId }.toSet()
                     refreshOnline()
                 }
             }
@@ -479,7 +562,27 @@ class SupabaseCommunityRepository(
         }
     }
 
+    private var reportedPremium: Boolean? = null
+    private var reportedPremiumAt = 0L
+
+    /** Tells the server whether this user has Premium (gold badge); renewed twice a day, expires after 3. */
+    private suspend fun reportPremium(uid: String) {
+        val on = Premium.active.value
+        val now = Clock.System.now().toEpochMilliseconds()
+        if (on == reportedPremium && now - reportedPremiumAt < 12 * 3_600_000L) return
+        try {
+            client.postgrest.rpc("set_my_premium", buildJsonObject { put("p_on", on) })
+            reportedPremium = on
+            reportedPremiumAt = now
+            PremiumMembers.note(uid, on)
+        } catch (e: Exception) {
+            Napier.w("set_my_premium failed", e)
+        }
+    }
+
     private suspend fun updateLastSeen(uid: String) {
+        if (!signedIn()) return
+        reportPremium(uid)
         try {
             client.from(USERS).update({
                 set("last_seen", Clock.System.now().toString())
@@ -498,9 +601,13 @@ class SupabaseCommunityRepository(
     private var lastRooms: List<ChatRoom> = emptyList()
 
     override suspend fun myRooms(): List<ChatRoom> =
-        client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }.also { lastRooms = it }
+        client.postgrest.rpc("my_rooms_v2").decodeList<MyRoomDto>().map { it.toDomain() }.also { rooms ->
+            lastRooms = rooms
+            notePremium(rooms.mapNotNull { it.otherUser?.uid })
+        }
 
     override suspend fun directChats(pageSize: Int, after: ChatRoom?): List<ChatRoom> {
+        if (!signedIn()) return emptyList()
         val page = client.postgrest.rpc("my_rooms_page", buildJsonObject {
             put("p_limit", pageSize)
             put("p_kind", "direct")
@@ -510,7 +617,20 @@ class SupabaseCommunityRepository(
             }
         }).decodeList<MyRoomDto>().map { it.toDomain() }
         lastRooms = (if (after == null) page else lastRooms + page).distinctBy { it.id }
+        notePremium(page.mapNotNull { it.otherUser?.uid })
         return page
+    }
+
+    /** Gold badges for the people in the chat list (the room rows don't carry it). */
+    private suspend fun notePremium(userIds: List<String>) {
+        if (userIds.isEmpty()) return
+        try {
+            client.from(USERS).select(Columns.raw("id,is_premium")) { filter { isIn("id", userIds) } }
+                .decodeList<PremiumDto>()
+                .forEach { PremiumMembers.note(it.id, it.isPremium) }
+        } catch (e: Exception) {
+            Napier.w("premium lookup failed", e)
+        }
     }
 
     override suspend fun getRoom(roomId: String): ChatRoom? {
@@ -533,6 +653,12 @@ class SupabaseCommunityRepository(
             .map { it.toDomain() }
             .onEach { cacheUser(it.user) }
 
+    override suspend fun clearPrivateChat(roomId: String) {
+        client.postgrest.rpc("clear_private_chat", buildJsonObject { put("p_room", roomId) })
+        database.speakMindQueries.deleteCachedRoom(roomId)
+        lastRooms = lastRooms.filterNot { it.id == roomId }
+    }
+
     override suspend fun setMuted(roomId: String, muted: Boolean) {
         val uid = requireUserId()
         client.from(MEMBERS).update({ set("muted", muted) }) {
@@ -553,7 +679,16 @@ class SupabaseCommunityRepository(
         } else throw e
     }
 
+    override suspend fun findDirectChat(otherUserId: String): String? {
+        val me = currentUserId() ?: return null
+        val key = if (me < otherUserId) "$me:$otherUserId" else "$otherUserId:$me"
+        return client.from(ROOMS).select(Columns.raw("id")) {
+            filter { eq("dm_key", key) }
+        }.decodeSingleOrNull<IdDto>()?.id
+    }
+
     override suspend fun markRead(roomId: String) {
+        if (!signedIn()) return
         try {
             client.postgrest.rpc("mark_room_read", buildJsonObject { put("p_room", roomId) })
         } catch (_: Exception) {
@@ -755,13 +890,17 @@ class SupabaseCommunityRepository(
         }
     }
 
-    override suspend fun isAdFree(): Boolean? {
-        if (!hasSession() || isGuest()) return false
-        return try {
-            client.postgrest.rpc("my_ad_free").decodeAs<Boolean>()
-        } catch (_: Exception) {
-            null
-        }
+    override suspend fun isAdFree(): Boolean? = try {
+        // All server switches in one request. ads_off covers everyone, guests included.
+        val settings = client.from("app_settings").select().decodeList<JsonObject>()
+            .associate { it["key"]?.jsonPrimitive?.contentOrNull to it["value"]?.jsonPrimitive?.contentOrNull }
+        settings["courses_version"]?.toLongOrNull()?.let { ServerSettings.coursesVersion = it }
+        ServerSettings.adsOff = settings["ads_off"] == "true"
+        Premium.setAdsOff(ServerSettings.adsOff)
+        // Premium granted to this account on the server (ad_free_users); guests never have it.
+        if (!hasSession() || isGuest()) false else client.postgrest.rpc("my_ad_free").decodeAs<Boolean>()
+    } catch (_: Exception) {
+        null
     }
 
     override suspend fun adminReports(status: String, pageSize: Int, after: AdminReport?): List<AdminReport> =
@@ -785,6 +924,44 @@ class SupabaseCommunityRepository(
                     reportedNickname = it.reportedNickname ?: "",
                     reportedBanned = it.reportedBanned,
                     timesReported = it.timesReported,
+                )
+            }
+
+    override suspend fun adminPrivateChats(pageSize: Int, after: AdminChat?): List<AdminChat> =
+        client.postgrest.rpc("admin_private_chats", buildJsonObject {
+            put("p_limit", pageSize)
+            if (after != null && after.lastMessageAtRaw.isNotEmpty()) put("p_before", after.lastMessageAtRaw)
+        })
+            .decodeList<AdminChatDto>()
+            .map {
+                AdminChat(
+                    roomId = it.roomId,
+                    lastMessageAtMillis = parseMillis(it.lastMessageAt),
+                    lastMessageAtRaw = it.lastMessageAt.orEmpty(),
+                    lastMessagePreview = it.lastMessagePreview.orEmpty(),
+                    messageCount = it.messageCount,
+                    userA = CommunityUser(it.userAId, it.userANickname ?: "", "male", 0L, it.userAPhotoUrl),
+                    userB = it.userBId?.let { id -> CommunityUser(id, it.userBNickname ?: "", "male", 0L, it.userBPhotoUrl) },
+                )
+            }
+
+    override suspend fun adminChatMessages(roomId: String, pageSize: Int, before: AdminChatMessage?): List<AdminChatMessage> =
+        client.postgrest.rpc("admin_chat_messages", buildJsonObject {
+            put("p_room", roomId)
+            put("p_limit", pageSize)
+            if (before != null && before.createdAtRaw.isNotEmpty()) put("p_before", before.createdAtRaw)
+        })
+            .decodeList<AdminChatMessageDto>()
+            .map {
+                AdminChatMessage(
+                    id = it.id,
+                    senderId = it.senderId,
+                    isVoice = it.kind == "voice",
+                    text = it.body,
+                    voiceDurationMs = it.voiceDurationMs ?: 0L,
+                    createdAtMillis = parseMillis(it.createdAt),
+                    createdAtRaw = it.createdAt,
+                    isEdited = it.editedAt != null,
                 )
             }
 
@@ -1002,7 +1179,7 @@ class SupabaseCommunityRepository(
     // ---------- Push notifications ----------
 
     override suspend fun hubNotificationsEnabled(): Boolean =
-        client.postgrest.rpc("my_hub_notify").decodeAs<Boolean>()
+        signedIn() && client.postgrest.rpc("my_hub_notify").decodeAs<Boolean>()
 
     override suspend fun setHubNotifications(enabled: Boolean) {
         client.postgrest.rpc("set_hub_notify", buildJsonObject { put("p_on", enabled) })
@@ -1013,7 +1190,7 @@ class SupabaseCommunityRepository(
         val uid = currentUserId() ?: return
         try {
             client.from(DEVICE_TOKENS).upsert(
-                DeviceTokenDto(token = token, userId = uid, updatedAt = Clock.System.now().toString())
+                DeviceTokenDto(token = token, userId = uid, updatedAt = Clock.System.now().toString(), appVersion = com.speakmind.app.platform.appVersionCode())
             )
         } catch (e: Exception) {
             Napier.w("registerPushToken failed", e)
@@ -1178,9 +1355,42 @@ private data class UserDto(
     @SerialName("photo_url") val photoUrl: String? = null,
     @SerialName("last_seen") val lastSeen: String? = null,
     val level: String = "",
+    @SerialName("is_premium") val isPremium: Boolean? = null,
 ) {
-    fun toDomain() = CommunityUser(id, nickname, gender, parseMillis(lastSeen), photoUrl, level)
+    fun toDomain(): CommunityUser {
+        // Only rows that selected is_premium say anything about it.
+        isPremium?.let { PremiumMembers.note(id, it) }
+        return CommunityUser(id, nickname, gender, parseMillis(lastSeen), photoUrl, level)
+    }
 }
+
+@Serializable
+private data class AdminChatDto(
+    @SerialName("room_id") val roomId: String,
+    @SerialName("last_message_at") val lastMessageAt: String? = null,
+    @SerialName("last_message_preview") val lastMessagePreview: String? = null,
+    @SerialName("message_count") val messageCount: Int = 0,
+    @SerialName("user_a_id") val userAId: String,
+    @SerialName("user_a_nickname") val userANickname: String? = null,
+    @SerialName("user_a_photo_url") val userAPhotoUrl: String? = null,
+    @SerialName("user_b_id") val userBId: String? = null,
+    @SerialName("user_b_nickname") val userBNickname: String? = null,
+    @SerialName("user_b_photo_url") val userBPhotoUrl: String? = null,
+)
+
+@Serializable
+private data class AdminChatMessageDto(
+    val id: String,
+    @SerialName("sender_id") val senderId: String,
+    val kind: String = "text",
+    val body: String = "",
+    @SerialName("voice_duration_ms") val voiceDurationMs: Long? = null,
+    @SerialName("created_at") val createdAt: String,
+    @SerialName("edited_at") val editedAt: String? = null,
+)
+
+@Serializable
+private data class PremiumDto(val id: String, @SerialName("is_premium") val isPremium: Boolean = false)
 
 @Serializable
 private data class BanDto(val id: String, @SerialName("banned_at") val bannedAt: String? = null)
@@ -1411,6 +1621,9 @@ private data class DeviceTokenDto(
     @SerialName("user_id") val userId: String,
     val platform: String = "android",
     @SerialName("updated_at") val updatedAt: String,
+    /** Build number: pushes for newer features (voice calls) skip older apps. No default value: the
+     *  serializer leaves out fields equal to their default, which would never send it. */
+    @SerialName("app_version") val appVersion: Int,
 )
 
 @Serializable
@@ -1419,3 +1632,29 @@ private data class TypingDto(
     val nickname: String,
     val typing: Boolean,
 )
+
+@Serializable
+private data class FreeMessagesDto(
+    val used: Int = 0,
+    val limit: Int = 25,
+    @SerialName("wait_ms") val waitMs: Long = 0,
+)
+
+@Serializable
+private data class AiCorrectRequest(val text: String, val premium: Boolean)
+
+@Serializable
+private data class AiCorrectResponse(
+    val text: String? = null,
+    val left: Int? = null,
+    val premium: Boolean = false,
+    val error: String? = null,
+    val limit: Int? = null,
+    @SerialName("wait_ms") val waitMs: Long? = null,
+    @SerialName("max_chars") val maxChars: Int? = null,
+)
+
+/** What each signed-in user tracks in the "online" presence channel (visitors track nothing). */
+@Serializable
+private data class PresenceDto(@SerialName("user_id") val userId: String? = null)
+

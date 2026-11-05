@@ -1,0 +1,559 @@
+{
+  "title": "English Letter Sounds",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "apple",
+        "pos": "noun",
+        "meaning_en": "a round red or green fruit",
+        "meaning_ar": "تفاحة",
+        "note_ar": "a = /æ/ صوت بين الفتحة والكسرة",
+        "note_en": "a = /æ/",
+        "example": "I eat an apple every day."
+      },
+      {
+        "word": "ball",
+        "pos": "noun",
+        "meaning_en": "a round object for games",
+        "meaning_ar": "كرة",
+        "note_ar": "b = /b/ مثل الباء العربية بدون نفخة هواء",
+        "note_en": "b = /b/, no puff of air",
+        "example": "The children are playing with a ball."
+      },
+      {
+        "word": "cake",
+        "pos": "noun",
+        "meaning_en": "a sweet baked food",
+        "meaning_ar": "كعكة",
+        "note_ar": "c هنا = /k/ صوت الكاف وليس «سي»",
+        "note_en": "c = /k/ here, not \"see\"",
+        "example": "She made a chocolate cake."
+      },
+      {
+        "word": "dog",
+        "pos": "noun",
+        "meaning_en": "an animal that people keep as a pet or for guarding",
+        "meaning_ar": "كلب",
+        "note_ar": "d = /d/",
+        "note_en": "d = /d/",
+        "example": "The dog is in the garden."
+      },
+      {
+        "word": "egg",
+        "pos": "noun",
+        "meaning_en": "a round thing laid by a hen",
+        "meaning_ar": "بيضة",
+        "note_ar": "e = /e/",
+        "note_en": "e = /e/",
+        "example": "I had an egg for breakfast."
+      },
+      {
+        "word": "fish",
+        "pos": "noun",
+        "meaning_en": "an animal that lives in water",
+        "meaning_ar": "سمكة",
+        "note_ar": "f = /f/",
+        "note_en": "f = /f/",
+        "example": "We had fish for lunch."
+      },
+      {
+        "word": "go",
+        "pos": "verb",
+        "meaning_en": "to move to a place",
+        "meaning_ar": "يذهب",
+        "note_ar": "g = /ɡ/ مثل الجيم المصرية",
+        "note_en": "g = /ɡ/ (hard g)",
+        "example": "Let's go home."
+      },
+      {
+        "word": "hat",
+        "pos": "noun",
+        "meaning_en": "a thing you wear on your head",
+        "meaning_ar": "قبعة",
+        "note_ar": "h = /h/ مثل الهاء",
+        "note_en": "h = /h/",
+        "example": "He is wearing a hat."
+      },
+      {
+        "word": "ink",
+        "pos": "noun",
+        "meaning_en": "coloured liquid for writing",
+        "meaning_ar": "حبر",
+        "note_ar": "i = /ɪ/ كسرة قصيرة",
+        "note_en": "i = short /ɪ/",
+        "example": "The pen has blue ink."
+      },
+      {
+        "word": "jam",
+        "pos": "noun",
+        "meaning_en": "sweet food made from fruit",
+        "meaning_ar": "مربى",
+        "note_ar": "j = /dʒ/ مثل الجيم العربية",
+        "note_en": "j = /dʒ/",
+        "example": "I like bread with jam."
+      },
+      {
+        "word": "king",
+        "pos": "noun",
+        "meaning_en": "a male ruler of a country",
+        "meaning_ar": "ملك",
+        "note_ar": "k = /k/",
+        "note_en": "k = /k/",
+        "example": "The king lives in a palace."
+      },
+      {
+        "word": "lion",
+        "pos": "noun",
+        "meaning_en": "a large wild cat",
+        "meaning_ar": "أسد",
+        "note_ar": "l = /l/",
+        "note_en": "l = /l/",
+        "example": "The lion is a strong animal."
+      },
+      {
+        "word": "man",
+        "pos": "noun",
+        "meaning_en": "an adult male",
+        "meaning_ar": "رجل",
+        "note_ar": "m = /m/",
+        "note_en": "m = /m/",
+        "example": "That man is my teacher."
+      },
+      {
+        "word": "no",
+        "pos": "adverb",
+        "meaning_en": "the opposite of yes",
+        "meaning_ar": "لا",
+        "note_ar": "n = /n/",
+        "note_en": "n = /n/",
+        "example": "No, thank you."
+      },
+      {
+        "word": "orange",
+        "pos": "noun",
+        "meaning_en": "a round orange fruit",
+        "meaning_ar": "برتقالة",
+        "note_ar": "o = /ɒ/ أو /ɔː/",
+        "note_en": "o = /ɒ/ or /ɔː/",
+        "example": "She drinks orange juice."
+      },
+      {
+        "word": "pen",
+        "pos": "noun",
+        "meaning_en": "a thing you write with",
+        "meaning_ar": "قلم",
+        "note_ar": "p = /p/ مع نفخة هواء قوية",
+        "note_en": "p = /p/ with a strong puff of air",
+        "example": "Can I borrow your pen?"
+      },
+      {
+        "word": "queen",
+        "pos": "noun",
+        "meaning_en": "a female ruler; the wife of a king",
+        "meaning_ar": "ملكة",
+        "note_ar": "qu = /kw/",
+        "note_en": "qu = /kw/",
+        "example": "The queen visited the city."
+      },
+      {
+        "word": "red",
+        "pos": "adjective",
+        "meaning_en": "the colour of blood",
+        "meaning_ar": "أحمر",
+        "note_ar": "r = /r/ اللسان لا يلمس سقف الفم",
+        "note_en": "r = /r/, the tongue does not touch the roof of the mouth",
+        "example": "I have a red bag."
+      },
+      {
+        "word": "sun",
+        "pos": "noun",
+        "meaning_en": "the star that gives us light",
+        "meaning_ar": "الشمس",
+        "note_ar": "s = /s/",
+        "note_en": "s = /s/",
+        "example": "The sun is very hot today."
+      },
+      {
+        "word": "time",
+        "pos": "noun",
+        "meaning_en": "what we measure with a clock",
+        "meaning_ar": "وقت",
+        "note_ar": "t = /t/",
+        "note_en": "t = /t/",
+        "example": "What time is it?"
+      },
+      {
+        "word": "umbrella",
+        "pos": "noun",
+        "meaning_en": "a thing that keeps rain off you",
+        "meaning_ar": "مظلة",
+        "note_ar": "u = /ʌ/ قريب من الفتحة",
+        "note_en": "u = /ʌ/",
+        "example": "Take an umbrella. It's raining."
+      },
+      {
+        "word": "van",
+        "pos": "noun",
+        "meaning_en": "a vehicle for carrying goods",
+        "meaning_ar": "شاحنة صغيرة",
+        "note_ar": "v = /v/ الأسنان العليا على الشفة السفلى مع اهتزاز",
+        "note_en": "v = /v/, top teeth on bottom lip, with voice",
+        "example": "The van is full of boxes."
+      },
+      {
+        "word": "window",
+        "pos": "noun",
+        "meaning_en": "an opening in a wall with glass",
+        "meaning_ar": "نافذة",
+        "note_ar": "w = /w/ مثل الواو",
+        "note_en": "w = /w/",
+        "example": "Please open the window."
+      },
+      {
+        "word": "box",
+        "pos": "noun",
+        "meaning_en": "a container with flat sides",
+        "meaning_ar": "صندوق",
+        "note_ar": "x = /ks/",
+        "note_en": "x = /ks/",
+        "example": "Put the toys in the box."
+      },
+      {
+        "word": "yes",
+        "pos": "adverb",
+        "meaning_en": "a word to agree",
+        "meaning_ar": "نعم",
+        "note_ar": "y = /j/ مثل الياء",
+        "note_en": "y = /j/",
+        "example": "Yes, I understand."
+      },
+      {
+        "word": "zebra",
+        "pos": "noun",
+        "meaning_en": "an African animal with black and white stripes",
+        "meaning_ar": "حمار وحشي",
+        "note_ar": "z = /z/",
+        "note_en": "z = /z/",
+        "example": "The zebra has black and white stripes."
+      },
+      {
+        "word": "cat",
+        "pos": "noun",
+        "meaning_en": "a small animal often kept as a pet",
+        "meaning_ar": "قطة",
+        "note_ar": "c = /k/ وليس /s/",
+        "note_en": "c = /k/, not /s/",
+        "example": "The cat is sleeping."
+      },
+      {
+        "word": "bag",
+        "pos": "noun",
+        "meaning_en": "a container you carry things in",
+        "meaning_ar": "حقيبة",
+        "note_ar": "قارن مع pack: b بدون هواء و p بهواء",
+        "note_en": "Compare with \"pack\": b has no air, p has air.",
+        "example": "My bag is heavy."
+      },
+      {
+        "word": "very",
+        "pos": "adverb",
+        "meaning_en": "used to make an adjective stronger",
+        "meaning_ar": "جداً",
+        "note_ar": "انتبه: v وليس f",
+        "note_en": "Be careful: v, not f.",
+        "example": "It's very cold."
+      },
+      {
+        "word": "park",
+        "pos": "noun",
+        "meaning_en": "a public garden",
+        "meaning_ar": "حديقة عامة",
+        "note_ar": "p بنفخة هواء",
+        "note_en": "p with a puff of air",
+        "example": "We walk in the park."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "letter name vs letter sound",
+        "words": [
+          "C (see)",
+          "/k/"
+        ],
+        "explanation_ar": "اسم الحرف غير صوته. اسم C هو «سي» لكن صوته في أغلب الكلمات /k/: cat, cake. عند القراءة نستخدم الصوت لا الاسم.",
+        "explanation_en": "A letter's name is not its sound. C is called \"see\" but usually sounds /k/: cat, cake. When reading, use the sound.",
+        "examples": [
+          {
+            "word": "C (see)",
+            "sentence": "The letter C is the third letter."
+          },
+          {
+            "word": "/k/",
+            "sentence": "cat, cake, cup"
+          }
+        ]
+      },
+      {
+        "title": "p vs b",
+        "words": [
+          "p",
+          "b"
+        ],
+        "explanation_ar": "الشفتان تنطبقان في الحرفين. في p نجمع الهواء ونطلقه بقوة (ضع يدك أمام فمك وستشعر بالهواء)، أما b فبدون نفخة هواء ومع اهتزاز الأحبال الصوتية.",
+        "explanation_en": "Both close the lips. For p, push out a strong puff of air (feel it on your hand). For b there is no puff and your voice is on.",
+        "examples": [
+          {
+            "word": "p",
+            "sentence": "pen, park, pack"
+          },
+          {
+            "word": "b",
+            "sentence": "ball, bag, back"
+          }
+        ]
+      },
+      {
+        "title": "v vs f",
+        "words": [
+          "v",
+          "f"
+        ],
+        "explanation_ar": "في الحرفين نضع الأسنان العليا على الشفة السفلى. f بدون صوت (مثل الفاء)، و v مع اهتزاز الصوت.",
+        "explanation_en": "For both, put your top teeth on your bottom lip. f has no voice; v has voice.",
+        "examples": [
+          {
+            "word": "v",
+            "sentence": "van, very"
+          },
+          {
+            "word": "f",
+            "sentence": "fan, fish"
+          }
+        ]
+      },
+      {
+        "title": "English r vs Arabic ر",
+        "words": [
+          "English r",
+          "Arabic ر"
+        ],
+        "explanation_ar": "في الراء العربية يلمس اللسان سقف الفم ويهتز. في r الإنجليزية يرجع اللسان للخلف ولا يلمس سقف الفم.",
+        "explanation_en": "In Arabic ر the tongue taps the roof of the mouth. In English r the tongue pulls back and does not touch it.",
+        "examples": [
+          {
+            "word": "English r",
+            "sentence": "red, run, read"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Say it with me.",
+        "meaning_ar": "قلها معي.",
+        "meaning_en": "repeat after the teacher",
+        "example": "Apple. Say it with me: apple."
+      },
+      {
+        "phrase": "How do you pronounce this word?",
+        "meaning_ar": "كيف تنطق هذه الكلمة؟",
+        "meaning_en": "asking for the correct pronunciation",
+        "example": "How do you pronounce this word? Is it /kæt/?"
+      },
+      {
+        "phrase": "What sound does this letter make?",
+        "meaning_ar": "ما الصوت الذي يصدره هذا الحرف؟",
+        "meaning_en": "asking about a letter's sound",
+        "example": "What sound does C make in \"cake\"? /k/."
+      },
+      {
+        "phrase": "Can you spell it, please?",
+        "meaning_ar": "هل يمكنك تهجئتها من فضلك؟",
+        "meaning_en": "asking someone to say the letters of a word",
+        "example": "Your name is Zain? Can you spell it, please?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Letter names and letter sounds",
+        "explanation_ar": "لكل حرف إنجليزي اسم (ABC) وصوت. أكبر خطأ هو قراءة الكلمات بأسماء الحروف. مثلاً c-a-t لا نقرؤها «سي إي تي» بل /kæt/. تعلّم الصوت الأساسي لكل حرف.",
+        "explanation_en": "Each letter has a name and a sound. Do not read words using letter names: c-a-t is /kæt/, not \"see-ay-tee\". Learn the main sound of each letter.",
+        "examples": [
+          "c-a-t → /kæt/",
+          "b-a-g → /bæɡ/",
+          "s-u-n → /sʌn/"
+        ]
+      },
+      {
+        "title": "Vowel sounds: a, e, i, o, u",
+        "explanation_ar": "الحروف المتحركة الخمسة لها أصوات قصيرة أساسية: a كما في apple /æ/، e كما في egg /e/، i كما في ink /ɪ/، o كما في orange /ɒ/، u كما في umbrella /ʌ/.",
+        "explanation_en": "The five vowels have basic short sounds: a /æ/ apple, e /e/ egg, i /ɪ/ ink, o /ɒ/ orange, u /ʌ/ umbrella.",
+        "examples": [
+          "apple, egg, ink",
+          "orange, umbrella"
+        ]
+      },
+      {
+        "title": "The letter p: a puff of air",
+        "explanation_ar": "الحرف p غير موجود في العربية. اضغط شفتيك، اجمع الهواء، ثم أطلقه بقوة كانفجار صغير. ضع يدك أو ورقة أمام فمك: مع p تتحرك، ومع b لا تتحرك.",
+        "explanation_en": "Arabic has no p. Press your lips, hold the air, then let it out with force. Put your hand or a paper in front of your mouth: it moves with p, not with b.",
+        "examples": [
+          "pen – Ben",
+          "park – bark",
+          "pack – back"
+        ]
+      },
+      {
+        "title": "The letter r",
+        "explanation_ar": "لا تنطق r مثل الراء العربية. أرجع لسانك للخلف ولا تجعله يلمس سقف الفم ولا يهتز.",
+        "explanation_en": "Don't say r like Arabic ر. Pull your tongue back; it must not touch the roof of your mouth or tap.",
+        "examples": [
+          "red",
+          "run",
+          "rice"
+        ]
+      },
+      {
+        "title": "The letter v",
+        "explanation_ar": "الحرف v غير موجود في العربية. ضع أسنانك العليا على شفتك السفلى بقوة وأخرج الصوت مع اهتزاز. لا تقلبه إلى f.",
+        "explanation_en": "Arabic has no v. Put your top teeth on your bottom lip and make a sound with voice. Don't change it to f.",
+        "examples": [
+          "van",
+          "very",
+          "voice"
+        ]
+      },
+      {
+        "title": "Two-sound letters: q and x",
+        "explanation_ar": "الحرف q يأتي غالباً مع u وينطق /kw/ مثل queen. والحرف x ينطق غالباً صوتين /ks/ مثل box.",
+        "explanation_en": "Q usually comes with u and sounds /kw/ (queen). X usually makes two sounds /ks/ (box).",
+        "examples": [
+          "queen, quick",
+          "box, six"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What sound does the letter C make in \"cake\"?",
+      "choices": [
+        "/s/",
+        "/k/",
+        "/tʃ/",
+        "/si:/"
+      ],
+      "answer": 1,
+      "explanation_ar": "c في cake تنطق /k/ مثل الكاف.",
+      "explanation_en": "C in \"cake\" sounds /k/."
+    },
+    {
+      "question": "Which letter needs a strong puff of air?",
+      "choices": [
+        "p",
+        "b",
+        "m",
+        "v"
+      ],
+      "answer": 0,
+      "explanation_ar": "الحرف p يحتاج نفخة هواء قوية.",
+      "explanation_en": "The letter p needs a strong puff of air."
+    },
+    {
+      "question": "How do you make the sound /v/?",
+      "choices": [
+        "Lips together",
+        "Top teeth on bottom lip with voice",
+        "Tongue on the roof of the mouth",
+        "Tongue between the teeth"
+      ],
+      "answer": 1,
+      "explanation_ar": "في v نضع الأسنان العليا على الشفة السفلى مع صوت.",
+      "explanation_en": "For v, put your top teeth on your bottom lip and use your voice."
+    },
+    {
+      "question": "What is the sound of \"x\" in \"box\"?",
+      "choices": [
+        "/z/",
+        "/eks/",
+        "/ks/",
+        "/k/"
+      ],
+      "answer": 2,
+      "explanation_ar": "x في box تنطق /ks/.",
+      "explanation_en": "X in \"box\" sounds /ks/."
+    },
+    {
+      "question": "Which word starts with the /kw/ sound?",
+      "choices": [
+        "king",
+        "cat",
+        "queen",
+        "window"
+      ],
+      "answer": 2,
+      "explanation_ar": "qu في queen تنطق /kw/.",
+      "explanation_en": "\"Qu\" in \"queen\" sounds /kw/."
+    },
+    {
+      "question": "In the English r, the tongue...",
+      "choices": [
+        "taps the roof of the mouth",
+        "goes between the teeth",
+        "touches the top teeth",
+        "does not touch the roof of the mouth"
+      ],
+      "answer": 3,
+      "explanation_ar": "في r الإنجليزية لا يلمس اللسان سقف الفم.",
+      "explanation_en": "In English r the tongue does not touch the roof of the mouth."
+    },
+    {
+      "question": "Which pair is different only by p and b?",
+      "choices": [
+        "pen – Ben",
+        "fan – van",
+        "cat – cut",
+        "sun – son"
+      ],
+      "answer": 0,
+      "explanation_ar": "pen و Ben تختلفان فقط في p و b.",
+      "explanation_en": "\"Pen\" and \"Ben\" differ only in p and b."
+    },
+    {
+      "question": "What is the vowel sound in \"umbrella\"?",
+      "choices": [
+        "/ʌ/",
+        "/u:/",
+        "/ju:/",
+        "/ɪ/"
+      ],
+      "answer": 0,
+      "explanation_ar": "u في umbrella تنطق /ʌ/.",
+      "explanation_en": "U in \"umbrella\" sounds /ʌ/."
+    },
+    {
+      "question": "How do we read c-a-t?",
+      "choices": [
+        "see-ay-tee",
+        "/sæt/",
+        "/kæt/",
+        "/kɪt/"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقرأ بالأصوات وليس بأسماء الحروف: /kæt/.",
+      "explanation_en": "We read with sounds, not letter names: /kæt/."
+    },
+    {
+      "question": "Which word starts with the /dʒ/ sound?",
+      "choices": [
+        "go",
+        "jam",
+        "yes",
+        "zebra"
+      ],
+      "answer": 1,
+      "explanation_ar": "j في jam تنطق /dʒ/ مثل الجيم.",
+      "explanation_en": "J in \"jam\" sounds /dʒ/."
+    }
+  ]
+}

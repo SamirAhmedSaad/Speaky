@@ -1,0 +1,320 @@
+{
+  "title": "Rainy Day",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "rain",
+        "pos": "noun / verb",
+        "meaning_en": "water that falls from the sky",
+        "meaning_ar": "مطر / تمطر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It rained and rained."
+      },
+      {
+        "word": "weather",
+        "pos": "noun",
+        "meaning_en": "how it is outside: sun, rain, wind",
+        "meaning_ar": "الطقس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I hate this weather!"
+      },
+      {
+        "word": "beach",
+        "pos": "noun",
+        "meaning_en": "sand next to the sea",
+        "meaning_ar": "شاطئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Gran promised to take them to the beach."
+      },
+      {
+        "word": "window",
+        "pos": "noun",
+        "meaning_en": "an opening in a wall with glass",
+        "meaning_ar": "نافذة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella looked out of the window."
+      },
+      {
+        "word": "movie",
+        "pos": "noun",
+        "meaning_en": "a film",
+        "meaning_ar": "فيلم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They watched a movie on TV."
+      },
+      {
+        "word": "cards",
+        "pos": "noun",
+        "meaning_en": "a game with small pieces of paper with numbers",
+        "meaning_ar": "ورق اللعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They played cards with Gran."
+      },
+      {
+        "word": "homework",
+        "pos": "noun",
+        "meaning_en": "school work you do at home",
+        "meaning_ar": "واجب منزلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe did his homework."
+      },
+      {
+        "word": "bored",
+        "pos": "adjective",
+        "meaning_en": "not interested; nothing to do",
+        "meaning_ar": "يشعر بالملل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm bored."
+      },
+      {
+        "word": "cake",
+        "pos": "noun",
+        "meaning_en": "a sweet food you bake",
+        "meaning_ar": "كعكة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's make a cake."
+      },
+      {
+        "word": "bowl",
+        "pos": "noun",
+        "meaning_en": "a round deep dish",
+        "meaning_ar": "وعاء / زبدية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella mixed it in a big bowl."
+      },
+      {
+        "word": "chocolate",
+        "pos": "noun",
+        "meaning_en": "a sweet brown food",
+        "meaning_ar": "شوكولاتة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can it be a chocolate cake?"
+      },
+      {
+        "word": "surprise",
+        "pos": "noun",
+        "meaning_en": "something you don't expect",
+        "meaning_ar": "مفاجأة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's make a cake as a surprise."
+      },
+      {
+        "word": "park",
+        "pos": "noun",
+        "meaning_en": "a public garden",
+        "meaning_ar": "حديقة عامة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They took Selby to the park."
+      },
+      {
+        "word": "dog food",
+        "pos": "noun",
+        "meaning_en": "food for dogs",
+        "meaning_ar": "طعام الكلاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The cake had dog food in it."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "bored vs boring",
+        "words": [
+          "bored",
+          "boring"
+        ],
+        "explanation_ar": "bored شعورك بالملل، و boring صفة الشيء الممل.",
+        "explanation_en": "\"bored\" is how you feel. \"boring\" describes a thing.",
+        "examples": [
+          {
+            "word": "bored",
+            "sentence": "Bella was bored."
+          },
+          {
+            "word": "boring",
+            "sentence": "A rainy day can be boring."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm bored.",
+        "meaning_ar": "أشعر بالملل.",
+        "meaning_en": "Nothing is fun now.",
+        "example": "It's raining. I'm bored."
+      },
+      {
+        "phrase": "I hate this weather!",
+        "meaning_ar": "أكره هذا الطقس!",
+        "meaning_en": "Saying you don't like the weather at all.",
+        "example": "Rain again! I hate this weather!"
+      },
+      {
+        "phrase": "Make the best of it.",
+        "meaning_ar": "استفد من الوضع قدر الإمكان.",
+        "meaning_en": "Try to be happy in a bad situation.",
+        "example": "We can't go out, so let's make the best of it."
+      },
+      {
+        "phrase": "Why don't we make a cake?",
+        "meaning_ar": "لماذا لا نصنع كعكة؟",
+        "meaning_en": "A suggestion.",
+        "example": "Why don't we play cards?"
+      },
+      {
+        "phrase": "Of course you can.",
+        "meaning_ar": "بالطبع يمكنك.",
+        "meaning_en": "A happy yes.",
+        "example": "Can we eat some too? - Of course you can."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Suggestions: Why don't we ...? / How about ...? / Let's ...",
+        "explanation_ar": "نقترح بـ Why don't we + فعل؟ أو How about we + فعل؟ أو Let's + فعل.",
+        "explanation_en": "Make suggestions: Why don't we + verb? / How about we + verb? / Let's + verb.",
+        "examples": [
+          "Why don't we do something fun?",
+          "How about we make a cake?",
+          "Let's get out while the sun's shining!"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where did Gran want to take the children?",
+      "choices": [
+        "to the beach",
+        "to the zoo",
+        "to school",
+        "to the hospital"
+      ],
+      "answer": 0,
+      "explanation_ar": "وعدتهم بالذهاب إلى الشاطئ.",
+      "explanation_en": "She promised to take them to the beach."
+    },
+    {
+      "question": "Why couldn't they go?",
+      "choices": [
+        "Gran was sick.",
+        "It was raining.",
+        "The car broke.",
+        "They had school."
+      ],
+      "answer": 1,
+      "explanation_ar": "كانت السماء تمطر.",
+      "explanation_en": "It was raining."
+    },
+    {
+      "question": "What did Bella make for Selby?",
+      "choices": [
+        "a bed",
+        "a ball",
+        "a cake from dog food",
+        "a toy"
+      ],
+      "answer": 2,
+      "explanation_ar": "صنعت كعكة من طعام الكلاب.",
+      "explanation_en": "A cake with dog food."
+    },
+    {
+      "question": "Did Selby like the cake?",
+      "choices": [
+        "Yes, he did.",
+        "Yes, he ate it all.",
+        "Yes, very much.",
+        "No, he didn't."
+      ],
+      "answer": 3,
+      "explanation_ar": "لم يحبها سيلبي، هرب.",
+      "explanation_en": "No, he ran away."
+    },
+    {
+      "question": "___ we make a cake?",
+      "choices": [
+        "Why don't",
+        "Why not do",
+        "How we",
+        "Let's we"
+      ],
+      "answer": 0,
+      "explanation_ar": "الاقتراح Why don't we ...?",
+      "explanation_en": "Suggestion: Why don't we ...?"
+    },
+    {
+      "question": "Nothing is fun. I'm ___.",
+      "choices": [
+        "boring",
+        "bored",
+        "bore",
+        "boredom"
+      ],
+      "answer": 1,
+      "explanation_ar": "شعورك = bored.",
+      "explanation_en": "Your feeling = bored."
+    },
+    {
+      "question": "Sun, rain and wind are all kinds of ___.",
+      "choices": [
+        "cards",
+        "movies",
+        "weather",
+        "homework"
+      ],
+      "answer": 2,
+      "explanation_ar": "weather = الطقس.",
+      "explanation_en": "They are weather."
+    },
+    {
+      "question": "Something you don't expect is a ___.",
+      "choices": [
+        "bowl",
+        "beach",
+        "weather",
+        "surprise"
+      ],
+      "answer": 3,
+      "explanation_ar": "surprise = مفاجأة.",
+      "explanation_en": "That is a surprise."
+    },
+    {
+      "question": "Can we eat some too? - ___",
+      "choices": [
+        "Of course you can.",
+        "I'm bored.",
+        "I hate this weather.",
+        "Make the best."
+      ],
+      "answer": 0,
+      "explanation_ar": "الموافقة: Of course you can.",
+      "explanation_en": "Say \"Of course you can.\""
+    },
+    {
+      "question": "Sand next to the sea is a ___.",
+      "choices": [
+        "park",
+        "beach",
+        "field",
+        "bowl"
+      ],
+      "answer": 1,
+      "explanation_ar": "الشاطئ = beach.",
+      "explanation_en": "That is a beach."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Phrases vs Clauses",
+  "content": {
+    "vocabulary": [
+      {"word": "phrase", "pos": "noun", "meaning_en": "a group of words without both a subject and a verb (a black cat, pick up)", "meaning_ar": "عبارة (شبه جملة)", "note_ar": "", "note_en": "", "example": "\"A black cat\" is a phrase."},
+      {"word": "clause", "pos": "noun", "meaning_en": "a group of words with a subject and a verb", "meaning_ar": "جملة (فيها فاعل وفعل)", "note_ar": "تُنطق /klɔːz/", "note_en": "Pronounced /klɔːz/.", "example": "\"When I got home\" is a clause."},
+      {"word": "sentence fragment", "pos": "noun", "meaning_en": "a part of a sentence, not a full sentence", "meaning_ar": "جزء من جملة (جملة ناقصة)", "note_ar": "", "note_en": "", "example": "\"Pick up\" alone is a sentence fragment."},
+      {"word": "independent clause", "pos": "noun", "meaning_en": "a clause that makes sense alone; also called the main clause", "meaning_ar": "جملة مستقلة (رئيسية)", "note_ar": "", "note_en": "", "example": "\"I ate dinner\" is an independent clause."},
+      {"word": "dependent clause", "pos": "noun", "meaning_en": "a clause that needs the main clause to make full sense", "meaning_ar": "جملة تابعة", "note_ar": "", "note_en": "", "example": "\"When I got home\" is a dependent clause."},
+      {"word": "main clause", "pos": "noun", "meaning_en": "the independent clause; it has the important information", "meaning_ar": "الجملة الرئيسية", "note_ar": "", "note_en": "", "example": "The main clause tells us the key information."},
+      {"word": "time clause", "pos": "noun", "meaning_en": "a dependent clause that starts with when, after, before, while...", "meaning_ar": "جملة زمنية (ظرفية)", "note_ar": "", "note_en": "", "example": "\"After I finished work\" is a time clause."},
+      {"word": "phrasal verb", "pos": "noun", "meaning_en": "a two- or three-word verb (pick up, move out, show off)", "meaning_ar": "فعل مركّب", "note_ar": "", "note_en": "", "example": "\"Move out\" is a phrasal verb."},
+      {"word": "move out", "pos": "phrasal verb", "meaning_en": "to leave your home and live somewhere else", "meaning_ar": "ينتقل من مسكنه", "note_ar": "", "note_en": "", "example": "They moved out last month."},
+      {"word": "show off", "pos": "phrasal verb", "meaning_en": "to try to make people notice how good you are", "meaning_ar": "يتباهى", "note_ar": "", "note_en": "", "example": "He likes to show off his new phone."},
+      {"word": "independent", "pos": "adjective", "meaning_en": "able to stand alone; not needing others", "meaning_ar": "مستقل", "note_ar": "", "note_en": "", "example": "She is independent; she has her own job and home."},
+      {"word": "peculiar", "pos": "adjective", "meaning_en": "strange or unusual", "meaning_ar": "غريب / لافت", "note_ar": "", "note_en": "", "example": "There is something peculiar about this sentence."}
+    ],
+    "fine_lines": [
+      {"title": "phrase vs clause", "words": ["phrase", "clause"], "explanation_ar": "العبارة (phrase) جزء من جملة فيه فعل أو اسم لكن ليس الاثنين معًا (pick up / a black cat). الجملة (clause) فيها فاعل وفعل (I got home). جيمس يشبّه العبارة بباتمان (مفيدة بلا قوى خارقة) والجملة بسوبرمان (أقوى).", "explanation_en": "A phrase is a sentence fragment with a verb or a noun, but not both (pick up / a black cat). A clause has a subject and a verb (I got home). James calls the phrase Batman (useful, no superpowers) and the clause Superman (more powerful).", "examples": [{"word": "phrase", "sentence": "a black cat / show off"}, {"word": "clause", "sentence": "when I got home / I ate dinner"}]},
+      {"title": "independent vs dependent clause", "words": ["independent", "dependent"], "explanation_ar": "المستقلة تُفهم وحدها (I ate dinner). التابعة لا تكتمل وحدها وتجعلك تنتظر البقية (When I got home...).", "explanation_en": "An independent clause makes sense alone (I ate dinner). A dependent clause doesn't finish the idea; you wait for more (When I got home...).", "examples": [{"word": "independent", "sentence": "I ate dinner."}, {"word": "dependent", "sentence": "When I got home... (and then?)"}]}
+    ],
+    "expressions": [
+      {"phrase": "When I got home, I ate dinner.", "meaning_ar": "عندما وصلتُ إلى البيت تناولتُ العشاء.", "meaning_en": "Dependent clause first, so use a comma.", "example": "When I got home, I ate dinner."},
+      {"phrase": "I ate dinner when I got home.", "meaning_ar": "تناولتُ العشاء عندما وصلتُ إلى البيت.", "meaning_en": "Main clause first, so no comma.", "example": "I ate dinner when I got home."},
+      {"phrase": "Let me wrap it up.", "meaning_ar": "دعني أختم.", "meaning_en": "Let me finish quickly.", "example": "We're out of time. Let me wrap it up."},
+      {"phrase": "Get used to it.", "meaning_ar": "تعوّد على ذلك.", "meaning_en": "Accept it; it will continue.", "example": "Native speakers talk fast. Get used to it."}
+    ],
+    "grammar": [
+      {"title": "Phrase: verb OR noun, not both", "explanation_ar": "العبارة جزء من جملة فيها فعل أو اسم فقط، بدون فاعل + فعل. مثل الأفعال المركّبة (pick up, move out) أو مجموعة اسمية (a black cat).", "explanation_en": "A phrase is a sentence fragment with a verb or a noun only, no subject + verb. For example, phrasal verbs (pick up, move out) or a noun group (a black cat).", "examples": ["pick up", "show off", "a black cat"]},
+      {"title": "Clause: subject + verb", "explanation_ar": "الجملة (clause) فيها فاعل وفعل. الجمل المركبة فيها جزءان: جملة مستقلة (رئيسية) وجملة تابعة (زمنية أو وصفية أو ظرفية).", "explanation_en": "A clause has a subject and a verb. Complex sentences have two parts: an independent (main) clause and a dependent clause (time, adjective or adverb clause).", "examples": ["I ate dinner. (independent)", "when I got home (dependent)"]},
+      {"title": "Comma rule for clause order", "explanation_ar": "إذا جاءت الجملة التابعة أولًا نضع فاصلة بعدها. إذا جاءت الجملة الرئيسية أولًا فلا نضع فاصلة.", "explanation_en": "If the dependent clause comes first, put a comma after it. If the main clause comes first, no comma.", "examples": ["When I got home, I ate dinner.", "I ate dinner when I got home."]},
+      {"title": "Four time-clause words: when, after, before, while", "explanation_ar": "هذه الكلمات تبدأ الجملة الزمنية في الماضي، وتُستخدم أيضًا للمستقبل.", "explanation_en": "These words start time clauses in the past; they are also used for the future.", "examples": ["After I finished work, I went home.", "Before I left, I locked the door.", "While I was cooking, the phone rang.", "When I arrive, I will call you."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which one is a phrase?", "choices": ["I ate dinner.", "a black cat", "when I got home", "she left early"], "answer": 1, "explanation_ar": "لا فاعل وفعل: عبارة.", "explanation_en": "No subject + verb: a phrase."},
+    {"question": "A clause has ___.", "choices": ["only a noun", "only a preposition", "a subject and a verb", "no verb"], "answer": 2, "explanation_ar": "فاعل وفعل.", "explanation_en": "A subject and a verb."},
+    {"question": "In \"When I got home, I ate dinner\", the independent clause is ___.", "choices": ["I ate dinner", "When I got home", "When I", "got home"], "answer": 0, "explanation_ar": "I ate dinner مفهومة وحدها.", "explanation_en": "\"I ate dinner\" makes sense alone."},
+    {"question": "Choose the correct punctuation.", "choices": ["I ate dinner, when I got home.", "When I got home I, ate dinner.", "When, I got home I ate dinner.", "When I got home, I ate dinner."], "answer": 3, "explanation_ar": "التابعة أولًا ← فاصلة بعدها.", "explanation_en": "Dependent clause first → comma after it."},
+    {"question": "\"I ate dinner when I got home.\" Do we need a comma?", "choices": ["No, the main clause comes first.", "Yes, after dinner.", "Yes, after I.", "Yes, after when."], "answer": 0, "explanation_ar": "الرئيسية أولًا ← لا فاصلة.", "explanation_en": "Main clause first → no comma."},
+    {"question": "Which is NOT one of the four time-clause words in the lesson?", "choices": ["when", "after", "because", "while"], "answer": 2, "explanation_ar": "الكلمات الأربع: when, after, before, while.", "explanation_en": "The four words: when, after, before, while."},
+    {"question": "Another name for the independent clause is the ___.", "choices": ["small clause", "main clause", "phrase", "fragment"], "answer": 1, "explanation_ar": "الجملة الرئيسية.", "explanation_en": "The main clause."},
+    {"question": "\"Show off\" is a ___.", "choices": ["clause", "full sentence", "main clause", "phrasal verb (a phrase)"], "answer": 3, "explanation_ar": "فعل مركّب بدون فاعل: عبارة.", "explanation_en": "A phrasal verb with no subject: a phrase."},
+    {"question": "\"___ I was cooking, the phone rang.\"", "choices": ["While", "After that", "So", "And"], "answer": 0, "explanation_ar": "while لحدث مستمر.", "explanation_en": "While for an ongoing action."},
+    {"question": "What does \"peculiar\" mean?", "choices": ["normal", "strange", "fast", "easy"], "answer": 1, "explanation_ar": "peculiar = غريب.", "explanation_en": "Peculiar = strange."}
+  ]
+}

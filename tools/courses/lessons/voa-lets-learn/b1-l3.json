@@ -1,0 +1,61 @@
+{
+  "title": "I'm Here!",
+  "content": {
+    "vocabulary": [
+      {"word": "live", "pos": "verb", "meaning_en": "to have your home in a place", "meaning_ar": "يسكن / يعيش", "note_ar": "live with + شخص = يسكن مع.", "note_en": "live with + a person.", "example": "I live with my family."},
+      {"word": "great", "pos": "adjective", "meaning_en": "very good", "meaning_ar": "رائع / ممتاز", "note_ar": "", "note_en": "", "example": "Your new room is great!"},
+      {"word": "want", "pos": "verb", "meaning_en": "to wish to have or do something", "meaning_ar": "يريد", "note_ar": "want to + فعل.", "note_en": "want to + verb.", "example": "I want to learn English."},
+      {"word": "cook", "pos": "verb", "meaning_en": "to make food hot and ready to eat", "meaning_ar": "يطبخ", "note_ar": "وهي أيضًا اسم: a cook = طبّاخ.", "note_en": "Also a noun: a cook is a person who cooks.", "example": "My mother cooks rice every day."},
+      {"word": "dinner", "pos": "noun", "meaning_en": "the main meal in the evening", "meaning_ar": "العشاء", "note_ar": "", "note_en": "", "example": "We eat dinner at seven."},
+      {"word": "supermarket", "pos": "noun", "meaning_en": "a big shop that sells food and things for the home", "meaning_ar": "سوبر ماركت / متجر كبير للمواد الغذائية", "note_ar": "", "note_en": "", "example": "The supermarket sells fresh bread."},
+      {"word": "near", "pos": "preposition", "meaning_en": "not far from", "meaning_ar": "قريب من", "note_ar": "near here = قريب من هنا.", "note_en": "near here = close to this place.", "example": "Is there a bank near here?"},
+      {"word": "number", "pos": "noun", "meaning_en": "a phone number, or a word like one, two, three", "meaning_ar": "رقم", "note_ar": "", "note_en": "", "example": "What is your phone number?"},
+      {"word": "wrong", "pos": "adjective", "meaning_en": "not correct", "meaning_ar": "خطأ / غير صحيح", "note_ar": "حرف w لا يُنطق: /rɔŋ/.", "note_en": "The w is silent: /rɔŋ/.", "example": "Sorry, that is the wrong answer."},
+      {"word": "sorry", "pos": "adjective", "meaning_en": "a word to say you feel bad about a mistake", "meaning_ar": "آسف", "note_ar": "", "note_en": "", "example": "I'm sorry, I'm late."},
+      {"word": "excuse me", "pos": "phrase", "meaning_en": "a polite phrase to get attention or to say sorry for a small mistake", "meaning_ar": "عفوًا / المعذرة", "note_ar": "", "note_en": "", "example": "Excuse me, where is the station?"},
+      {"word": "okay", "pos": "interjection", "meaning_en": "all right; yes", "meaning_ar": "حسنًا / موافق", "note_ar": "تُكتب أيضًا OK.", "note_en": "Also written OK.", "example": "Okay, see you at six."},
+      {"word": "one more time", "pos": "phrase", "meaning_en": "again", "meaning_ar": "مرة أخرى / مرة واحدة أخرى", "note_ar": "", "note_en": "", "example": "Please read it one more time."},
+      {"word": "please", "pos": "adverb", "meaning_en": "a polite word when you ask for something", "meaning_ar": "من فضلك / أرجوك", "note_ar": "", "note_en": "", "example": "Please sit down."},
+      {"word": "find", "pos": "verb", "meaning_en": "to look and see where something is", "meaning_ar": "يجد / يعثر على", "note_ar": "", "note_en": "", "example": "I can't find my keys."},
+      {"word": "there", "pos": "adverb", "meaning_en": "in that place (not here)", "meaning_ar": "هناك", "note_ar": "", "note_en": "", "example": "Your bag is over there."},
+      {"word": "good", "pos": "adjective", "meaning_en": "nice, fine; doing something well", "meaning_ar": "جيد", "note_ar": "a good cook = طبّاخ ماهر.", "note_en": "a good cook = someone who cooks well.", "example": "This is a good book."},
+      {"word": "big", "pos": "adjective", "meaning_en": "large; not small", "meaning_ar": "كبير", "note_ar": "", "note_en": "", "example": "They live in a big house."},
+      {"word": "our", "pos": "determiner", "meaning_en": "belonging to us", "meaning_ar": "ـنا (ملكنا)", "note_ar": "our street = شارعنا.", "note_en": "", "example": "Our teacher is very kind."},
+      {"word": "goodbye", "pos": "interjection", "meaning_en": "what you say when you leave", "meaning_ar": "مع السلامة / وداعًا", "note_ar": "bye أقصر وأكثر عفوية.", "note_en": "Bye is shorter and more informal.", "example": "Goodbye, see you next week."},
+      {"word": "later", "pos": "adverb", "meaning_en": "after some time", "meaning_ar": "لاحقًا / فيما بعد", "note_ar": "", "note_en": "", "example": "I'll call you later."},
+      {"word": "until next time", "pos": "phrase", "meaning_en": "goodbye until we meet again", "meaning_ar": "إلى اللقاء في المرة القادمة", "note_ar": "", "note_en": "", "example": "That's all for today. Until next time!"},
+      {"word": "says", "pos": "verb", "meaning_en": "the form of 'say' with he, she, it", "meaning_ar": "يقول / تقول", "note_ar": "تُنطق /sɛz/ وليس /seɪz/.", "note_en": "Say /sɛz/, not /seɪz/.", "example": "My teacher says I am a good student."}
+    ],
+    "fine_lines": [
+      {"title": "here vs there", "words": ["here", "there"], "explanation_ar": "here = المكان الذي أنا فيه (هنا). there = مكان آخر بعيد عني (هناك). في الهاتف تقول آنا: I am here، فتقول مارشا: You are there، لأن آنا في مكان آخر.", "explanation_en": "Here is the place where I am. There is another place, away from me. On the phone Anna says 'I am here', and Marsha says 'You are there', because Anna is in a different place.", "examples": [{"word": "here", "sentence": "I'm here at the station."}, {"word": "there", "sentence": "Is Ali there? Can I talk to him?"}]},
+      {"title": "excuse me vs sorry", "words": ["excuse me", "sorry"], "explanation_ar": "excuse me قبل أن تزعج شخصًا (لجذب انتباهه) أو بعد خطأ بسيط جدًا. sorry بعد خطأ لتعتذر عنه. Excuse me? بنبرة سؤال تعني: ماذا قلت؟", "explanation_en": "Say excuse me before you bother someone (to get attention) or after a very small mistake. Say sorry after a mistake to apologize. 'Excuse me?' as a question means 'What did you say?'.", "examples": [{"word": "excuse me", "sentence": "Excuse me, is this seat free?"}, {"word": "sorry", "sentence": "Sorry, I have the wrong number."}]}
+    ],
+    "expressions": [
+      {"phrase": "Is there a supermarket near here?", "meaning_ar": "هل يوجد سوبر ماركت قريب من هنا؟", "meaning_en": "A question to find a place close to you.", "example": "Is there a pharmacy near here?"},
+      {"phrase": "Hello. Is this Marsha?", "meaning_ar": "ألو. هل هذه مارشا؟", "meaning_en": "On the phone, a way to ask who is speaking.", "example": "Hello. Is this Mr. Hassan?"},
+      {"phrase": "It is Anna. / This is Marsha.", "meaning_ar": "أنا آنا. / معك مارشا.", "meaning_en": "On the phone, say your name with 'It is' or 'This is', not 'I am'.", "example": "Hello, this is Rami from the bank."},
+      {"phrase": "You have the wrong number.", "meaning_ar": "الرقم خطأ (اتصلت بالرقم الخطأ).", "meaning_en": "You called the wrong phone.", "example": "Sorry, there is no Fatima here. You have the wrong number."},
+      {"phrase": "Excuse me!", "meaning_ar": "عفوًا! / المعذرة!", "meaning_en": "A polite way to say sorry for a small mistake.", "example": "Oh, excuse me! Wrong door."},
+      {"phrase": "Excuse me? Is that you?", "meaning_ar": "عفوًا؟ هل هذا أنتِ؟", "meaning_en": "Said when you are surprised or did not understand.", "example": "Excuse me? Is that you, Huda?"},
+      {"phrase": "I'm here!", "meaning_ar": "لقد وصلت! / أنا هنا!", "meaning_en": "I have arrived.", "example": "Mom, I'm here! I'm at the airport."},
+      {"phrase": "It is near the apartment.", "meaning_ar": "إنه قريب من الشقة.", "meaning_en": "It is not far from the apartment.", "example": "The park is near our school."},
+      {"phrase": "Until next time! Bye!", "meaning_ar": "إلى اللقاء في المرة القادمة! مع السلامة!", "meaning_en": "Goodbye until we meet again.", "example": "Thanks for watching. Until next time!"}
+    ],
+    "grammar": [
+      {"title": "There is ... / Is there ...?", "explanation_ar": "١) نستخدم There is للقول إن شيئًا موجود في مكان: There is a supermarket on our street.\n٢) للسؤال نقلب الترتيب: Is there a supermarket near here?\n٣) الإجابة القصيرة: Yes, there is. / No, there isn't.\n٤) there is تأتي مع اسم مفرد.", "explanation_en": "1) Use There is to say something exists in a place: There is a supermarket on our street.\n2) For a question, change the order: Is there a supermarket near here?\n3) Short answers: Yes, there is. / No, there isn't.\n4) There is goes with one thing (singular).", "examples": ["There is a park near my house.", "Is there a bank on this street?", "Yes, there is.", "No, there isn't."]},
+      {"title": "Simple present: I live / she knows", "explanation_ar": "١) نستخدم المضارع البسيط للحقائق والأشياء الثابتة: I live with Marsha.\n٢) مع I / you / we / they يبقى الفعل كما هو: I want, we live.\n٣) مع he / she / it نضيف s: Marsha knows, she says.\n٤) لا تنسَ الـ s مع المفرد الغائب.", "explanation_en": "1) Use the simple present for facts and things that are always true: I live with Marsha.\n2) With I / you / we / they, the verb does not change: I want, we live.\n3) With he / she / it, add s: Marsha knows, she says.\n4) Do not forget the s with he, she and it.", "examples": ["I want to cook dinner.", "We live in a small apartment.", "Marsha knows the city.", "She says I am a good cook."]}
+    ]
+  },
+  "questions": [
+    {"question": "Complete: ___ a supermarket near here?", "choices": ["Is there", "There is", "Are there", "It is"], "answer": 0, "explanation_ar": "للسؤال عن وجود شيء مفرد: Is there...?", "explanation_en": "To ask if one thing exists: Is there...?"},
+    {"question": "You call a number and it is not your friend. The man says:", "choices": ["You are there.", "I'm here!", "You have the wrong number.", "Until next time!"], "answer": 2, "explanation_ar": "You have the wrong number = اتصلت بالرقم الخطأ.", "explanation_en": "You have the wrong number means you called the wrong phone."},
+    {"question": "Choose the correct sentence.", "choices": ["Marsha know the city.", "Marsha knows the city.", "Marsha knowing the city.", "Marsha are know the city."], "answer": 1, "explanation_ar": "مع she/Marsha نضيف s للفعل: knows.", "explanation_en": "With she (Marsha), add s to the verb: knows."},
+    {"question": "On the phone, how do you say your name?", "choices": ["I'm here Anna.", "Is this Anna?", "You are Anna.", "Hello, this is Anna."], "answer": 3, "explanation_ar": "في الهاتف نقول: This is + الاسم.", "explanation_en": "On the phone we say: This is + your name."},
+    {"question": "What does 'near' mean?", "choices": ["بعيد عن", "قريب من", "داخل", "فوق"], "answer": 1, "explanation_ar": "near = قريب من.", "explanation_en": "Near means not far from."},
+    {"question": "Anna is at the apartment. Marsha is at work. Marsha says: \"Good. You are ___.\"", "choices": ["there", "here", "near", "wrong"], "answer": 0, "explanation_ar": "آنا في مكان آخر بالنسبة لمارشا، فتقول there.", "explanation_en": "Anna is in a different place from Marsha, so Marsha says there."},
+    {"question": "\"I want ___ dinner.\"", "choices": ["cook", "cooks", "to cook", "cooking"], "answer": 2, "explanation_ar": "want to + الفعل: I want to cook.", "explanation_en": "want to + verb: I want to cook."},
+    {"question": "You walk in front of a person by mistake. What do you say?", "choices": ["Excuse me!", "Until next time!", "You are there.", "Is this Marsha?"], "answer": 0, "explanation_ar": "Excuse me للاعتذار عن خطأ بسيط.", "explanation_en": "Excuse me is for a small mistake."},
+    {"question": "\"Is there a bank near here?\" — \"No, ___.\"", "choices": ["there is", "it isn't", "is there", "there isn't"], "answer": 3, "explanation_ar": "الإجابة النافية: No, there isn't.", "explanation_en": "The negative short answer is: No, there isn't."},
+    {"question": "What does 'a good cook' mean?", "choices": ["a big kitchen", "a person who cooks well", "a new supermarket", "a dinner"], "answer": 1, "explanation_ar": "a good cook = شخص يطبخ جيدًا.", "explanation_en": "A good cook is a person who cooks well."}
+  ]
+}

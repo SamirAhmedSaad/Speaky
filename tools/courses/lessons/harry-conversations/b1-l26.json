@@ -1,0 +1,53 @@
+{
+  "title": "Better Ways to Say \"Sad\"",
+  "content": {
+    "vocabulary": [
+      {"word": "down", "pos": "adjective", "meaning_en": "a little sad, often for no clear reason", "meaning_ar": "محبَط قليلًا / مكتئب", "note_ar": "feel down", "note_en": "feel down", "example": "I feel a bit down today."},
+      {"word": "blue", "pos": "adjective", "meaning_en": "(informal) sad", "meaning_ar": "حزين (غير رسمي)", "note_ar": "feel blue", "note_en": "feel blue", "example": "She's been feeling blue all week."},
+      {"word": "miserable", "pos": "adjective", "meaning_en": "very unhappy or uncomfortable", "meaning_ar": "بائس / تعيس", "note_ar": "", "note_en": "", "example": "I've had a cold for two weeks and I feel miserable."},
+      {"word": "distraught", "pos": "adjective", "meaning_en": "extremely sad and worried", "meaning_ar": "مذهول من الحزن / مضطرب جدًا", "note_ar": "تُنطق /dɪˈstrɔːt/ وحرفا gh صامتان", "note_en": "Pronounced /dɪˈstrɔːt/; the gh is silent.", "example": "The children were distraught when the cat disappeared."},
+      {"word": "gutted", "pos": "adjective", "meaning_en": "(UK, informal) extremely disappointed", "meaning_ar": "محبَط جدًا / مصدوم بخيبة أمل", "note_ar": "عامية بريطانية", "note_en": "Informal British English.", "example": "He was gutted when he didn't get the job."},
+      {"word": "devastated", "pos": "adjective", "meaning_en": "extremely shocked and sad", "meaning_ar": "مفجوع / محطَّم", "note_ar": "devastated by / at the news", "note_en": "devastated by / at the news", "example": "We were devastated by the news."},
+      {"word": "desolate", "pos": "adjective", "meaning_en": "very lonely and sad; (a place) empty and sad", "meaning_ar": "مقفر (مكان) / بائس ووحيد (شخص)", "note_ar": "تُنطق /ˈdesələt/", "note_en": "Pronounced /ˈdesələt/.", "example": "It was a desolate island with nobody living on it."},
+      {"word": "inconsolable", "pos": "adjective", "meaning_en": "so sad that nobody can comfort you", "meaning_ar": "لا يمكن مواساته", "note_ar": "console = يواسي", "note_en": "console = comfort", "example": "After the final, Tommy was inconsolable."},
+      {"word": "broken", "pos": "adjective", "meaning_en": "(person) very sad after a terrible event", "meaning_ar": "محطَّم (نفسيًا)", "note_ar": "a broken man / woman", "note_en": "a broken man / woman", "example": "After losing his business, he was a broken man."},
+      {"word": "at the end of your tether", "pos": "phrase", "meaning_en": "so tired or upset that you can't take any more", "meaning_ar": "نفد صبره / وصل إلى أقصى احتماله", "note_ar": "ويقال أيضًا at the end of your rope", "note_en": "Also: at the end of your rope.", "example": "With all this pressure, I'm at the end of my tether."},
+      {"word": "as sick as a parrot", "pos": "phrase", "meaning_en": "(UK, informal, humorous) very disappointed, often about football", "meaning_ar": "محبَط جدًا (تعبير بريطاني فكاهي)", "note_ar": "لا يُستخدم في الإنجليزية الأمريكية", "note_en": "Not used in American English.", "example": "His team lost the final. He's as sick as a parrot."},
+      {"word": "console", "pos": "verb", "meaning_en": "comfort someone who is sad", "meaning_ar": "يواسي", "note_ar": "", "note_en": "", "example": "I tried to console him, but he kept crying."},
+      {"word": "put your finger on", "pos": "phrase", "meaning_en": "know exactly what something is", "meaning_ar": "يحدّد بدقة", "note_ar": "", "note_en": "", "example": "I feel down, but I can't put my finger on why."}
+    ],
+    "fine_lines": [
+      {"title": "From a little sad to extremely sad", "words": ["down / blue", "miserable / gutted", "devastated / distraught / inconsolable"], "explanation_ar": "down وblue = حزن خفيف. miserable وgutted = حزن أو خيبة أمل قوية. devastated وdistraught وinconsolable = حزن شديد جدًا.", "explanation_en": "\"Down\" and \"blue\" = a little sad. \"Miserable\" and \"gutted\" = quite sad or very disappointed. \"Devastated\", \"distraught\" and \"inconsolable\" = extremely sad.", "examples": [{"word": "down / blue", "sentence": "It's Monday and I'm feeling a bit blue."}, {"word": "devastated / distraught / inconsolable", "sentence": "She was devastated when she heard the news."}]},
+      {"title": "Formal vs informal sadness words", "words": ["devastated, distraught, desolate", "gutted, blue, sick as a parrot"], "explanation_ar": "devastated وdistraught وdesolate أكثر رسمية. gutted وblue وas sick as a parrot غير رسمية وتُستخدم في الحديث اليومي.", "explanation_en": "\"Devastated\", \"distraught\" and \"desolate\" are more formal. \"Gutted\", \"blue\" and \"as sick as a parrot\" are informal, for everyday chat.", "examples": [{"word": "devastated, distraught, desolate", "sentence": "The whole country was devastated by the news."}, {"word": "gutted, blue, sick as a parrot", "sentence": "I'm gutted we lost the match."}]}
+    ],
+    "expressions": [
+      {"phrase": "I just feel a little down.", "meaning_ar": "أشعر ببعض الإحباط فقط.", "meaning_en": "Says you are a bit sad without a clear reason.", "example": "Nothing's wrong. I just feel a little down today."},
+      {"phrase": "What's up with you?", "meaning_ar": "ما بك؟", "meaning_en": "An informal question when someone looks sad.", "example": "You're very quiet. What's up with you?"},
+      {"phrase": "I'm feeling blue.", "meaning_ar": "أشعر بالحزن.", "meaning_en": "Informal: I'm sad.", "example": "I always feel blue after the holidays."},
+      {"phrase": "What are you looking so miserable for?", "meaning_ar": "لماذا تبدو تعيسًا هكذا؟", "meaning_en": "Asks why someone looks so unhappy.", "example": "It's a sunny day! What are you looking so miserable for?"},
+      {"phrase": "We'll get to the bottom of this.", "meaning_ar": "سنكتشف السبب الحقيقي.", "meaning_en": "Says you will find the real reason for a problem.", "example": "Let's talk about it. We'll get to the bottom of this."},
+      {"phrase": "He's gutted.", "meaning_ar": "إنه محبَط جدًا.", "meaning_en": "Informal: very disappointed.", "example": "He didn't get the job. He's gutted."},
+      {"phrase": "We were devastated to hear the news.", "meaning_ar": "صُدمنا وحزنّا كثيرًا لسماع الخبر.", "meaning_en": "Says you were deeply shocked and sad.", "example": "We were devastated to hear the news about the accident."},
+      {"phrase": "She was inconsolable.", "meaning_ar": "لم يكن بالإمكان مواساتها.", "meaning_en": "Nothing could make her feel better.", "example": "She lost her grandmother's ring and was inconsolable."},
+      {"phrase": "I'm at the end of my tether.", "meaning_ar": "لقد نفد صبري.", "meaning_en": "Says you can't take any more.", "example": "So much pressure at work! I'm at the end of my tether."},
+      {"phrase": "He's as sick as a parrot.", "meaning_ar": "إنه محبط جدًا.", "meaning_en": "Funny British way to say very disappointed.", "example": "His team was relegated. He's as sick as a parrot."},
+      {"phrase": "He'll get over it.", "meaning_ar": "سيتجاوز الأمر.", "meaning_en": "Says someone will feel better in time.", "example": "Leave him for now. He'll get over it."}
+    ],
+    "grammar": [
+      {"title": "feel / look + adjective", "explanation_ar": "بعد feel وlook (بمعنى يبدو) نستخدم الصفة وليس الظرف: feel miserable وليس feel miserably.", "explanation_en": "After \"feel\" and \"look\" (= seem) use an adjective, not an adverb: feel miserable, not feel miserably.", "examples": ["I feel down.", "You look miserable.", "She's feeling blue."]},
+      {"title": "Adjective + preposition: devastated by, distraught about/over", "explanation_ar": "devastated by / at + الخبر. distraught about / over + الشيء. desolated by + الحدث.", "explanation_en": "devastated by / at + news; distraught about / over + something; desolated by + an event.", "examples": ["They were devastated by the news.", "She was distraught over the lost cat.", "He was desolated by the loss of his friend."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which word means \"a little sad\"?", "choices": ["devastated", "down", "inconsolable", "distraught"], "answer": 1, "explanation_ar": "down تعني حزنًا خفيفًا.", "explanation_en": "\"Down\" means a little sad."},
+    {"question": "\"He was gutted when he didn't get the job\" means he was:", "choices": ["very disappointed", "very happy", "hungry", "angry with the boss"], "answer": 0, "explanation_ar": "gutted = محبط جدًا.", "explanation_en": "\"Gutted\" = very disappointed."},
+    {"question": "\"Nothing we said could help. He was ___.\"", "choices": ["blue", "down", "chuffed", "inconsolable"], "answer": 3, "explanation_ar": "inconsolable = لا يمكن مواساته.", "explanation_en": "\"Inconsolable\" = no one can comfort him."},
+    {"question": "\"I'm at the end of my tether\" means:", "choices": ["I'm on holiday.", "I'm almost finished my work.", "I can't take any more.", "I'm tied up."], "answer": 2, "explanation_ar": "تعني أنه نفد صبري.", "explanation_en": "It means I can't take any more."},
+    {"question": "Which is INFORMAL and British?", "choices": ["devastated", "desolate", "distraught", "as sick as a parrot"], "answer": 3, "explanation_ar": "as sick as a parrot تعبير بريطاني غير رسمي.", "explanation_en": "\"As sick as a parrot\" is informal British."},
+    {"question": "You look ___.", "choices": ["miserable", "miserably", "misery", "miserabled"], "answer": 0, "explanation_ar": "بعد look نستخدم صفة.", "explanation_en": "After \"look\" use an adjective."},
+    {"question": "We were devastated ___ the news.", "choices": ["of", "by", "with", "for"], "answer": 1, "explanation_ar": "نقول devastated by the news (مفجوع بالخبر).", "explanation_en": "devastated by the news."},
+    {"question": "\"A desolate island\" is:", "choices": ["a busy island", "a holiday island", "an empty, lonely island", "a green island"], "answer": 2, "explanation_ar": "desolate عن المكان = مقفر وموحش.", "explanation_en": "A desolate place is empty and lonely."},
+    {"question": "In \"distraught\", which letters are silent?", "choices": ["d", "s", "t", "gh"], "answer": 3, "explanation_ar": "حرفا gh صامتان في distraught.", "explanation_en": "The \"gh\" is silent."},
+    {"question": "\"I feel blue\" means:", "choices": ["I feel cold.", "I feel sad.", "I feel sick.", "I feel calm."], "answer": 1, "explanation_ar": "feel blue = يشعر بالحزن.", "explanation_en": "\"Feel blue\" = feel sad."}
+  ]
+}

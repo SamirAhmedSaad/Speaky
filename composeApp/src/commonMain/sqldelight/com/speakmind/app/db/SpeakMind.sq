@@ -190,6 +190,9 @@ DELETE FROM room_message_cache WHERE room_id = :roomId AND id NOT IN (
     SELECT id FROM room_message_cache WHERE room_id = :roomId ORDER BY created_at DESC LIMIT :keep
 );
 
+deleteCachedRoom:
+DELETE FROM room_message_cache WHERE room_id = ?;
+
 clearRoomMessageCache:
 DELETE FROM room_message_cache;
 
@@ -491,6 +494,9 @@ INSERT OR REPLACE INTO course_progress (lesson_id, score, total, completed_at) V
 
 selectCourseCache:
 SELECT json FROM course_cache WHERE cache_key = ?;
+
+selectCourseCacheEntry:
+SELECT json, updated_at FROM course_cache WHERE cache_key = ?;
 
 upsertCourseCache:
 INSERT OR REPLACE INTO course_cache (cache_key, json, updated_at) VALUES (?, ?, ?);

@@ -1,0 +1,449 @@
+{
+  "title": "Being in Charge",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "be in charge",
+        "pos": "phrase",
+        "meaning_en": "to be the person who controls or manages something",
+        "meaning_ar": "يكون مسؤولًا / يتولى الإدارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna is in charge while the manager is away."
+      },
+      {
+        "word": "act up",
+        "pos": "phrasal verb",
+        "meaning_en": "to do a more senior person's job for a short time",
+        "meaning_ar": "يقوم مؤقتًا بعمل شخص أعلى منصبًا",
+        "note_ar": "act up لها معنى آخر: يُسيء التصرف (للأطفال أو الأجهزة).",
+        "note_en": "It can also mean 'behave badly' (children, machines).",
+        "example": "Can you act up as team leader next week?"
+      },
+      {
+        "word": "boss",
+        "pos": "noun",
+        "meaning_en": "the person who manages you at work",
+        "meaning_ar": "المدير / الرئيس في العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My boss gave me a new project."
+      },
+      {
+        "word": "bossy",
+        "pos": "adjective",
+        "meaning_en": "always telling other people what to do, in an unpleasant way",
+        "meaning_ar": "متسلّط / يحب إصدار الأوامر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Try to be firm, but not bossy."
+      },
+      {
+        "word": "take charge",
+        "pos": "phrase",
+        "meaning_en": "to take control of a situation",
+        "meaning_ar": "يتولى زمام الأمور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "When the boss was ill, she took charge."
+      },
+      {
+        "word": "approachable",
+        "pos": "adjective",
+        "meaning_en": "friendly and easy to talk to",
+        "meaning_ar": "ودود يسهل التحدث إليه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our manager is very approachable."
+      },
+      {
+        "word": "issue",
+        "pos": "noun",
+        "meaning_en": "a problem or worry",
+        "meaning_ar": "مشكلة / مسألة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you have any issues, please tell me."
+      },
+      {
+        "word": "promotion",
+        "pos": "noun",
+        "meaning_en": "a move to a higher job",
+        "meaning_ar": "ترقية",
+        "note_ar": "الفعل: promote (يرقّي).",
+        "note_en": "Verb: promote.",
+        "example": "Congratulations on your promotion!"
+      },
+      {
+        "word": "diary",
+        "pos": "noun",
+        "meaning_en": "a book or calendar for writing appointments",
+        "meaning_ar": "مفكرة / جدول المواعيد",
+        "note_ar": "في الأمريكية غالبًا: calendar / planner.",
+        "note_en": "US English often says calendar.",
+        "example": "Let me check my diary for Tuesday."
+      },
+      {
+        "word": "admin",
+        "pos": "noun",
+        "meaning_en": "office paperwork and organising tasks (short for administration)",
+        "meaning_ar": "الأعمال الإدارية / المكتبية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I spend every morning doing admin."
+      },
+      {
+        "word": "transfer a call",
+        "pos": "phrase",
+        "meaning_en": "to send a phone call to another person's phone",
+        "meaning_ar": "يحوّل المكالمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you transfer the call to the sales team?"
+      },
+      {
+        "word": "firm but fair",
+        "pos": "phrase",
+        "meaning_en": "strict, but treating people equally and reasonably",
+        "meaning_ar": "حازم لكن عادل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A good manager is firm but fair."
+      },
+      {
+        "word": "keep your cool",
+        "pos": "idiom",
+        "meaning_en": "to stay calm in a difficult situation",
+        "meaning_ar": "يحافظ على هدوئه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She kept her cool when the customer shouted."
+      },
+      {
+        "word": "business as usual",
+        "pos": "phrase",
+        "meaning_en": "work continues normally",
+        "meaning_ar": "العمل يسير كالمعتاد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The boss is away, but it's business as usual."
+      },
+      {
+        "word": "have a word",
+        "pos": "phrase",
+        "meaning_en": "to have a short private talk with someone",
+        "meaning_ar": "يتحدث معه قليلًا (على انفراد)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I have a word with you in my office?"
+      },
+      {
+        "word": "discuss",
+        "pos": "verb",
+        "meaning_en": "to talk about something in detail",
+        "meaning_ar": "يناقش",
+        "note_ar": "لا نقول discuss about، بل discuss something مباشرة.",
+        "note_en": "Don't say 'discuss about'.",
+        "example": "Let's discuss the plan at the meeting."
+      },
+      {
+        "word": "meeting",
+        "pos": "noun",
+        "meaning_en": "a time when people come together to talk about work",
+        "meaning_ar": "اجتماع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The meeting starts at ten."
+      },
+      {
+        "word": "rest",
+        "pos": "verb",
+        "meaning_en": "to relax and not work, to get better",
+        "meaning_ar": "يستريح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The doctor told him to rest for a few days."
+      },
+      {
+        "word": "my door is always open",
+        "pos": "idiom",
+        "meaning_en": "you can come and talk to me at any time",
+        "meaning_ar": "بابي مفتوح دائمًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you have questions, my door is always open."
+      },
+      {
+        "word": "hospital",
+        "pos": "noun",
+        "meaning_en": "a place where sick or injured people are treated",
+        "meaning_ar": "مستشفى",
+        "note_ar": "البريطانيون يقولون in hospital، والأمريكيون in the hospital.",
+        "note_en": "UK: in hospital; US: in the hospital.",
+        "example": "He is in hospital after an accident."
+      },
+      {
+        "word": "congratulations",
+        "pos": "noun",
+        "meaning_en": "words you say when someone has done well",
+        "meaning_ar": "تهانينا",
+        "note_ar": "تُستخدم دائمًا بصيغة الجمع، وبعدها on.",
+        "note_en": "Always plural, followed by 'on'.",
+        "example": "Congratulations on your new job!"
+      },
+      {
+        "word": "sell / selling",
+        "pos": "verb / noun",
+        "meaning_en": "to give something for money; the job of selling",
+        "meaning_ar": "يبيع / البيع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Denise wants to do more selling."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "boss vs bossy",
+        "words": [
+          "boss",
+          "bossy"
+        ],
+        "explanation_ar": "boss اسم يعني المدير. bossy صفة سلبية لشخص يحب إصدار الأوامر للآخرين بطريقة مزعجة، حتى لو لم يكن مديرًا.",
+        "explanation_en": "A boss is the person in charge (noun). Bossy is a negative adjective for someone who likes telling others what to do.",
+        "examples": [
+          {
+            "word": "boss",
+            "sentence": "My boss is on holiday."
+          },
+          {
+            "word": "bossy",
+            "sentence": "Don't be so bossy – ask nicely!"
+          }
+        ]
+      },
+      {
+        "title": "in charge vs take charge",
+        "words": [
+          "in charge",
+          "take charge"
+        ],
+        "explanation_ar": "be in charge تصف حالة: أنت المسؤول الآن. take charge تصف فعلًا: تبدأ في تولي المسؤولية والسيطرة على الموقف.",
+        "explanation_en": "'Be in charge' is a state (you are the manager now). 'Take charge' is an action (you start controlling the situation).",
+        "examples": [
+          {
+            "word": "in charge",
+            "sentence": "Who is in charge of this project?"
+          },
+          {
+            "word": "take charge",
+            "sentence": "Somebody needs to take charge and make a decision."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "If anyone has any issues about their work, please come and speak to me.",
+        "meaning_ar": "إذا كانت لدى أي شخص مشكلات في عمله، فليأتِ ويتحدث معي.",
+        "meaning_en": "Tell me if you have problems with your work.",
+        "example": "If anyone has any issues about the new system, please come and speak to me."
+      },
+      {
+        "phrase": "I would like to have a meeting to discuss our work.",
+        "meaning_ar": "أود عقد اجتماع لمناقشة عملنا.",
+        "meaning_en": "I want us to meet and talk about our work.",
+        "example": "I would like to have a meeting to discuss the budget."
+      },
+      {
+        "phrase": "If there is anything you want to ask, my door is always open.",
+        "meaning_ar": "إذا أردت أن تسأل عن أي شيء، فبابي مفتوح دائمًا.",
+        "meaning_en": "You can come and ask me anything at any time.",
+        "example": "Welcome to the team. If there is anything you want to ask, my door is always open."
+      },
+      {
+        "phrase": "Could you transfer the call, please?",
+        "meaning_ar": "هل يمكنك تحويل المكالمة من فضلك؟",
+        "meaning_en": "Please send the phone call to my phone.",
+        "example": "Could you transfer the call to my desk, please?"
+      },
+      {
+        "phrase": "Could I have a word in my office, please?",
+        "meaning_ar": "هل يمكنني التحدث معك قليلًا في مكتبي؟",
+        "meaning_en": "I want to talk to you privately.",
+        "example": "Tom, could I have a word in my office, please?"
+      },
+      {
+        "phrase": "It's business as usual.",
+        "meaning_ar": "العمل يسير كالمعتاد.",
+        "meaning_en": "Everything continues as normal.",
+        "example": "The manager is ill, but it's business as usual."
+      },
+      {
+        "phrase": "Congratulations on your promotion.",
+        "meaning_ar": "تهانينا على ترقيتك.",
+        "meaning_en": "Well done on getting a higher job.",
+        "example": "Congratulations on your promotion, Sara!"
+      },
+      {
+        "phrase": "Get better soon.",
+        "meaning_ar": "أتمنى لك الشفاء العاجل.",
+        "meaning_en": "I hope you recover quickly.",
+        "example": "Sorry to hear you're ill. Get better soon."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "If + present simple + instruction (polite offers and instructions)",
+        "explanation_ar": "نستخدم If + المضارع البسيط، ثم أمرًا أو جملة بالمضارع: If you have any issues, (please) come and speak to me. هذا أسلوب مهذب ليقول المدير للموظفين ما يمكنهم فعله.",
+        "explanation_en": "Use If + present simple, then an imperative or a present sentence. Managers use it to give polite instructions.",
+        "examples": [
+          "If anyone has any issues, please come and speak to me.",
+          "If there is anything you want to ask, my door is always open.",
+          "If you need help, call me."
+        ]
+      },
+      {
+        "title": "I would like to + verb (formal wish)",
+        "explanation_ar": "I would like to (I'd like to) أكثر تهذيبًا ورسمية من I want to، وتُستخدم في العمل لإعلان الخطط.",
+        "explanation_en": "'I would like to' is more polite and formal than 'I want to'.",
+        "examples": [
+          "I would like to have a meeting to discuss our work.",
+          "I'd like to introduce our new manager.",
+          "We would like to thank you all."
+        ]
+      },
+      {
+        "title": "anyone / anything in questions and 'if' sentences",
+        "explanation_ar": "نستخدم anyone و anything بعد if وفي الأسئلة والنفي، ونستخدم someone و something في الجمل المثبتة غالبًا.",
+        "explanation_en": "Use anyone and anything after 'if', in questions and negatives; use someone/something in positive sentences.",
+        "examples": [
+          "If anyone has any issues, speak to me.",
+          "Is there anything you want to ask?",
+          "Someone called for you."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Paul asks Anna to 'act up'. What does he mean?",
+      "choices": [
+        "behave badly",
+        "sing and act",
+        "do his job for a short time",
+        "leave the company"
+      ],
+      "answer": 2,
+      "explanation_ar": "act up في العمل تعني القيام بعمل مدير أعلى مؤقتًا.",
+      "explanation_en": "At work, act up means doing a senior person's job for a while."
+    },
+    {
+      "question": "If anyone ___ any issues, please come and speak to me.",
+      "choices": [
+        "have",
+        "having",
+        "has",
+        "will have"
+      ],
+      "answer": 2,
+      "explanation_ar": "anyone مفرد، فنقول has.",
+      "explanation_en": "Anyone is singular, so use 'has'."
+    },
+    {
+      "question": "Which word describes a friendly manager who is easy to talk to?",
+      "choices": [
+        "approachable",
+        "bossy",
+        "firm",
+        "busy"
+      ],
+      "answer": 0,
+      "explanation_ar": "approachable تعني ودود يسهل التحدث إليه.",
+      "explanation_en": "Approachable means easy to talk to."
+    },
+    {
+      "question": "'My door is always open' means ___.",
+      "choices": [
+        "I never close my office door",
+        "I'm leaving",
+        "the office is cold",
+        "you can come and talk to me any time"
+      ],
+      "answer": 3,
+      "explanation_ar": "تعبير يعني أنك مرحَّب بك للحديث معي في أي وقت.",
+      "explanation_en": "It means you are welcome to talk to me any time."
+    },
+    {
+      "question": "I would like ___ a meeting to discuss our work.",
+      "choices": [
+        "have",
+        "to have",
+        "having",
+        "to having"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد would like نستخدم to + الفعل.",
+      "explanation_en": "After 'would like' use to + verb."
+    },
+    {
+      "question": "Which is a negative word?",
+      "choices": [
+        "bossy",
+        "boss",
+        "manager",
+        "leader"
+      ],
+      "answer": 0,
+      "explanation_ar": "bossy صفة سلبية: متسلط.",
+      "explanation_en": "Bossy is negative."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Let's discuss about the plan.",
+        "Let's discussing the plan.",
+        "Let's discuss the plan.",
+        "Let's to discuss the plan."
+      ],
+      "answer": 2,
+      "explanation_ar": "discuss لا تحتاج about.",
+      "explanation_en": "Discuss takes an object directly, no 'about'."
+    },
+    {
+      "question": "'Could I have a word?' means ___.",
+      "choices": [
+        "Can I borrow a dictionary?",
+        "Can I talk to you for a short time?",
+        "Can I write a letter?",
+        "Can I say goodbye?"
+      ],
+      "answer": 1,
+      "explanation_ar": "have a word تعني حديثًا قصيرًا.",
+      "explanation_en": "It means a short talk."
+    },
+    {
+      "question": "A good boss is firm but ___.",
+      "choices": [
+        "late",
+        "bossy",
+        "angry",
+        "fair"
+      ],
+      "answer": 3,
+      "explanation_ar": "firm but fair حازم لكن عادل.",
+      "explanation_en": "The phrase is 'firm but fair'."
+    },
+    {
+      "question": "Congratulations ___ your promotion!",
+      "choices": [
+        "on",
+        "at",
+        "for",
+        "to"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول Congratulations on.",
+      "explanation_en": "We say 'congratulations on'."
+    }
+  ]
+}

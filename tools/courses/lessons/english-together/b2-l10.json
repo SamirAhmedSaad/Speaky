@@ -1,0 +1,366 @@
+{
+  "title": "Making Restaurant Plans",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "restaurant",
+        "pos": "noun",
+        "meaning_en": "a place where you pay to eat meals",
+        "meaning_ar": "مطعم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have you tried that new restaurant?"
+      },
+      {
+        "word": "spicy",
+        "pos": "adjective",
+        "meaning_en": "with a hot taste from chili",
+        "meaning_ar": "حارّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The chicken is very spicy."
+      },
+      {
+        "word": "mild",
+        "pos": "adjective",
+        "meaning_en": "not spicy; gentle in taste",
+        "meaning_ar": "غير حار / خفيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Jessica likes mild food."
+      },
+      {
+        "word": "sweet and sour",
+        "pos": "adjective",
+        "meaning_en": "with a taste that is both sweet and a little sour",
+        "meaning_ar": "حلو وحامض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sweet and sour chicken is not spicy."
+      },
+      {
+        "word": "fried rice",
+        "pos": "noun",
+        "meaning_en": "rice cooked in oil with vegetables or egg",
+        "meaning_ar": "أرز مقلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll have the fried rice."
+      },
+      {
+        "word": "steamed fish",
+        "pos": "noun",
+        "meaning_en": "fish cooked with hot steam from water",
+        "meaning_ar": "سمك مطهو على البخار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Steamed fish is healthy."
+      },
+      {
+        "word": "noodle soup",
+        "pos": "noun",
+        "meaning_en": "soup with long thin noodles",
+        "meaning_ar": "شوربة النودلز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They also have spicy noodle soup."
+      },
+      {
+        "word": "tasty",
+        "pos": "adjective",
+        "meaning_en": "having a good taste",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is very tasty."
+      },
+      {
+        "word": "choice",
+        "pos": "noun",
+        "meaning_en": "something you can choose",
+        "meaning_ar": "خيار",
+        "note_ar": "",
+        "note_en": "Verb: choose.",
+        "example": "There are many choices."
+      },
+      {
+        "word": "invite",
+        "pos": "verb",
+        "meaning_en": "ask someone to come with you",
+        "meaning_ar": "يدعو",
+        "note_ar": "",
+        "note_en": "Noun: invitation.",
+        "example": "Let's invite Jessica."
+      },
+      {
+        "word": "weekend",
+        "pos": "noun",
+        "meaning_en": "Saturday and Sunday",
+        "meaning_ar": "عطلة نهاية الأسبوع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Maybe we can go this weekend."
+      },
+      {
+        "word": "reservation",
+        "pos": "noun",
+        "meaning_en": "a booking for a table",
+        "meaning_ar": "حجز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will make a reservation."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "spicy vs mild vs sweet",
+        "words": [
+          "spicy",
+          "mild",
+          "sweet"
+        ],
+        "explanation_ar": "spicy حار، mild خفيف وغير حار، sweet حلو.",
+        "explanation_en": "\"Spicy\" = hot with chili. \"Mild\" = not spicy. \"Sweet\" = like sugar.",
+        "examples": [
+          {
+            "word": "spicy",
+            "sentence": "This soup is too spicy for me."
+          },
+          {
+            "word": "mild",
+            "sentence": "Do you have something mild?"
+          },
+          {
+            "word": "sweet",
+            "sentence": "Sweet and sour chicken is nice."
+          }
+        ]
+      },
+      {
+        "title": "like vs don't like / doesn't like",
+        "words": [
+          "like",
+          "doesn't like"
+        ],
+        "explanation_ar": "مع he / she / it نقول likes و doesn't like. مع I / you / we / they نقول like و don't like.",
+        "explanation_en": "With he/she/it: \"likes\" / \"doesn't like\". With I/you/we/they: \"like\" / \"don't like\".",
+        "examples": [
+          {
+            "word": "doesn't like",
+            "sentence": "Jessica doesn't like spicy food."
+          },
+          {
+            "word": "like",
+            "sentence": "I like trying new food."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Have you tried that new restaurant nearby?",
+        "meaning_ar": "هل جربت ذلك المطعم الجديد القريب؟",
+        "meaning_en": "Asking about a new place.",
+        "example": "Have you tried the new bakery nearby?"
+      },
+      {
+        "phrase": "Their special dish is spicy food.",
+        "meaning_ar": "طبقهم المميز هو الطعام الحار.",
+        "meaning_en": "Talking about what a place is famous for.",
+        "example": "Their special dish is grilled fish."
+      },
+      {
+        "phrase": "Now I am getting hungry.",
+        "meaning_ar": "الآن بدأت أجوع.",
+        "meaning_en": "You start to feel hungry.",
+        "example": "All this food talk! Now I'm getting hungry."
+      },
+      {
+        "phrase": "You are making me hungry!",
+        "meaning_ar": "أنت تجعلني جائعًا!",
+        "meaning_en": "Your words make me want food.",
+        "example": "Stop talking about cake. You are making me hungry!"
+      },
+      {
+        "phrase": "We should go there together soon.",
+        "meaning_ar": "يجب أن نذهب إلى هناك معًا قريبًا.",
+        "meaning_en": "Suggesting a plan.",
+        "example": "We should visit the museum soon."
+      },
+      {
+        "phrase": "Maybe we can go this weekend.",
+        "meaning_ar": "ربما نستطيع الذهاب في عطلة نهاية الأسبوع.",
+        "meaning_en": "Suggesting a time.",
+        "example": "Maybe we can meet on Friday."
+      },
+      {
+        "phrase": "Let's invite Jessica to go with us.",
+        "meaning_ar": "لندعُ جيسيكا لتذهب معنا.",
+        "meaning_en": "Suggesting to ask a friend.",
+        "example": "Let's invite Ali to come with us."
+      },
+      {
+        "phrase": "Don't worry.",
+        "meaning_ar": "لا تقلق.",
+        "meaning_en": "Telling someone it's OK.",
+        "example": "Don't worry. They have mild food too."
+      },
+      {
+        "phrase": "There are many choices.",
+        "meaning_ar": "هناك خيارات كثيرة.",
+        "meaning_en": "You can choose from many things.",
+        "example": "The menu is big. There are many choices."
+      },
+      {
+        "phrase": "I will check their opening hours and make a reservation.",
+        "meaning_ar": "سأتحقق من مواعيد العمل وأحجز.",
+        "meaning_en": "Saying what you will do to prepare.",
+        "example": "I will call the restaurant and make a reservation."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Making plans: should / can / Let's",
+        "explanation_ar": "We should + فعل = اقتراح قوي. Maybe we can + فعل = اقتراح لطيف. Let's + فعل = هيا بنا.",
+        "explanation_en": "\"We should + verb\" (good idea), \"Maybe we can + verb\" (soft idea), \"Let's + verb\" (let us).",
+        "examples": [
+          "We should go there together soon.",
+          "Maybe we can go this weekend.",
+          "Let's invite Jessica."
+        ]
+      },
+      {
+        "title": "Present simple negative: doesn't / don't",
+        "explanation_ar": "للنفي في المضارع البسيط: he/she/it + doesn't + الفعل الأساسي. I/you/we/they + don't + الفعل الأساسي.",
+        "explanation_en": "Negative present simple: he/she/it + doesn't + base verb; I/you/we/they + don't + base verb.",
+        "examples": [
+          "Jessica doesn't like spicy food.",
+          "I don't eat meat.",
+          "They don't open on Monday."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Jessica ____ like spicy food.",
+      "choices": [
+        "don't",
+        "doesn't",
+        "isn't",
+        "not"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع she نقول doesn't.",
+      "explanation_en": "With \"she\", use \"doesn't\"."
+    },
+    {
+      "question": "Food that is not spicy is ...",
+      "choices": [
+        "mild",
+        "hot",
+        "strong",
+        "sour"
+      ],
+      "answer": 0,
+      "explanation_ar": "mild يعني غير حار.",
+      "explanation_en": "\"Mild\" means not spicy."
+    },
+    {
+      "question": "Maybe we ____ go this weekend.",
+      "choices": [
+        "can",
+        "cans",
+        "can to",
+        "are can"
+      ],
+      "answer": 0,
+      "explanation_ar": "can + الفعل الأساسي.",
+      "explanation_en": "can + base verb."
+    },
+    {
+      "question": "\"I will make a reservation.\" He will ...",
+      "choices": [
+        "cook dinner",
+        "book a table",
+        "pay the bill",
+        "invite a friend"
+      ],
+      "answer": 1,
+      "explanation_ar": "reservation يعني حجز طاولة.",
+      "explanation_en": "He will book a table."
+    },
+    {
+      "question": "Which food is in the lesson's \"mild\" list?",
+      "choices": [
+        "spicy chicken",
+        "spicy noodle soup",
+        "steamed fish",
+        "hot pepper"
+      ],
+      "answer": 2,
+      "explanation_ar": "السمك على البخار طعام غير حار.",
+      "explanation_en": "Steamed fish is mild."
+    },
+    {
+      "question": "\"You are making me hungry!\" means ...",
+      "choices": [
+        "You are cooking for me.",
+        "Your words make me want to eat.",
+        "I am full.",
+        "I don't like food."
+      ],
+      "answer": 1,
+      "explanation_ar": "كلامك يجعلني أرغب في الأكل.",
+      "explanation_en": "Your words make me want food."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "Let's invites Jessica.",
+        "Let's to invite Jessica.",
+        "Let's inviting Jessica.",
+        "Let's invite Jessica."
+      ],
+      "answer": 3,
+      "explanation_ar": "Let's + الفعل الأساسي.",
+      "explanation_en": "Let's + base verb."
+    },
+    {
+      "question": "\"Have you tried that new restaurant nearby?\" \"No, I ____.\"",
+      "choices": [
+        "haven't",
+        "don't",
+        "didn't",
+        "am not"
+      ],
+      "answer": 0,
+      "explanation_ar": "الجواب: No, I haven't.",
+      "explanation_en": "The answer is \"No, I haven't.\""
+    },
+    {
+      "question": "\"There are many ____.\" (many things to choose from)",
+      "choices": [
+        "invites",
+        "choices",
+        "hungry",
+        "mild"
+      ],
+      "answer": 1,
+      "explanation_ar": "choices خيارات.",
+      "explanation_en": "\"Choices\" = things to choose."
+    },
+    {
+      "question": "We ____ go there together soon. (It's a good idea.)",
+      "choices": [
+        "should",
+        "doesn't",
+        "are",
+        "has"
+      ],
+      "answer": 0,
+      "explanation_ar": "should للاقتراح.",
+      "explanation_en": "\"Should\" gives a suggestion."
+    }
+  ]
+}

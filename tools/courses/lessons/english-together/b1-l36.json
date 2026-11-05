@@ -1,0 +1,398 @@
+{
+  "title": "Shopping for a T-shirt",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "clothing section",
+        "pos": "noun",
+        "meaning_en": "the part of a store that sells clothes",
+        "meaning_ar": "قسم الملابس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The clothing section is on the first floor."
+      },
+      {
+        "word": "floor",
+        "pos": "noun",
+        "meaning_en": "a level of a building",
+        "meaning_ar": "طابق",
+        "note_ar": "first floor: في أمريكا الطابق الأرضي غالبًا",
+        "note_en": "In the US, the first floor is usually the ground floor.",
+        "example": "The shoes are on the second floor."
+      },
+      {
+        "word": "tee",
+        "pos": "noun",
+        "meaning_en": "a T-shirt (informal)",
+        "meaning_ar": "قميص قصير الأكمام (تي شيرت)",
+        "note_ar": "tee = T-shirt",
+        "note_en": "tee = T-shirt",
+        "example": "I'm looking for a white tee."
+      },
+      {
+        "word": "aisle",
+        "pos": "noun",
+        "meaning_en": "a path between rows of shelves",
+        "meaning_ar": "ممرّ (بين الرفوف)",
+        "note_ar": "حرف s صامت: /aɪl/",
+        "note_en": "The s is silent: /aɪl/.",
+        "example": "The tees are in the middle aisle."
+      },
+      {
+        "word": "on sale",
+        "pos": "phrase",
+        "meaning_en": "cheaper than usual",
+        "meaning_ar": "عليه تخفيض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "All our tees are on sale today."
+      },
+      {
+        "word": "price",
+        "pos": "noun",
+        "meaning_en": "how much money something costs",
+        "meaning_ar": "السعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is the price of this tee?"
+      },
+      {
+        "word": "reasonable",
+        "pos": "adjective",
+        "meaning_en": "not too expensive; fair",
+        "meaning_ar": "معقول (السعر)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's a very reasonable price."
+      },
+      {
+        "word": "color",
+        "pos": "noun",
+        "meaning_en": "red, blue, green, etc.",
+        "meaning_ar": "لون",
+        "note_ar": "في بريطانيا: colour",
+        "note_en": "UK: colour.",
+        "example": "Do you have this in green?"
+      },
+      {
+        "word": "size",
+        "pos": "noun",
+        "meaning_en": "how big something is (small, medium, large)",
+        "meaning_ar": "مقاس / حجم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What size do you need?"
+      },
+      {
+        "word": "medium",
+        "pos": "adjective",
+        "meaning_en": "not small and not large",
+        "meaning_ar": "متوسط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take a medium."
+      },
+      {
+        "word": "fit",
+        "pos": "verb",
+        "meaning_en": "be the right size",
+        "meaning_ar": "يناسب (المقاس)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This shirt fits me well."
+      },
+      {
+        "word": "cotton",
+        "pos": "noun",
+        "meaning_en": "a soft natural cloth",
+        "meaning_ar": "قطن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is 100% cotton."
+      },
+      {
+        "word": "shrink",
+        "pos": "verb",
+        "meaning_en": "become smaller (after washing)",
+        "meaning_ar": "ينكمش",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wool can shrink in hot water."
+      },
+      {
+        "word": "change",
+        "pos": "noun",
+        "meaning_en": "money you get back when you pay too much",
+        "meaning_ar": "الباقي (من النقود)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here is your change."
+      },
+      {
+        "word": "receipt",
+        "pos": "noun",
+        "meaning_en": "a paper that shows what you paid",
+        "meaning_ar": "إيصال / فاتورة",
+        "note_ar": "حرف p صامت: /rɪˈsiːt/",
+        "note_en": "The p is silent: /rɪˈsiːt/.",
+        "example": "Keep your receipt."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "small, medium, large, extra-large",
+        "words": [
+          "small",
+          "large"
+        ],
+        "explanation_ar": "مقاسات الملابس: small (صغير)، medium (متوسط)، large (كبير)، extra-large (كبير جدًا). تُكتب اختصارًا S, M, L, XL.",
+        "explanation_en": "Clothes sizes: small, medium, large, extra-large (S, M, L, XL).",
+        "examples": [
+          {
+            "word": "small",
+            "sentence": "Could I see the small size, please?"
+          },
+          {
+            "word": "large",
+            "sentence": "I need a large. The medium is too small."
+          }
+        ]
+      },
+      {
+        "title": "price vs change",
+        "words": [
+          "price",
+          "change"
+        ],
+        "explanation_ar": "price هو ثمن الشيء، و change هو الباقي الذي تأخذه عندما تدفع أكثر من الثمن.",
+        "explanation_en": "Price = how much it costs. Change = money you get back.",
+        "examples": [
+          {
+            "word": "price",
+            "sentence": "The price is $30."
+          },
+          {
+            "word": "change",
+            "sentence": "I paid $50, so my change is $20."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can I help you find something?",
+        "meaning_ar": "هل أساعدك في إيجاد شيء؟",
+        "meaning_en": "What a shop worker says.",
+        "example": "Hello, can I help you find something?"
+      },
+      {
+        "phrase": "Where can I find the clothing section?",
+        "meaning_ar": "أين أجد قسم الملابس؟",
+        "meaning_en": "Ask where something is in a store.",
+        "example": "Where can I find the shoe section?"
+      },
+      {
+        "phrase": "I'm looking for a tee.",
+        "meaning_ar": "أبحث عن قميص (تي شيرت).",
+        "meaning_en": "Say what you want to buy.",
+        "example": "Excuse me, I'm looking for a jacket."
+      },
+      {
+        "phrase": "Could you tell me the price of this tee?",
+        "meaning_ar": "هل يمكنك أن تخبرني بسعر هذا القميص؟",
+        "meaning_en": "Ask the price politely.",
+        "example": "Could you tell me the price of this bag?"
+      },
+      {
+        "phrase": "Do you have this in green?",
+        "meaning_ar": "هل لديكم هذا باللون الأخضر؟",
+        "meaning_en": "Ask for another color.",
+        "example": "Do you have this in black?"
+      },
+      {
+        "phrase": "I would like the one in white, please.",
+        "meaning_ar": "أريد الأبيض من فضلك.",
+        "meaning_en": "Choose politely.",
+        "example": "I would like the one in blue, please."
+      },
+      {
+        "phrase": "Could I see the small size, please?",
+        "meaning_ar": "هل يمكنني رؤية المقاس الصغير من فضلك؟",
+        "meaning_en": "Ask to see a size.",
+        "example": "Could I see a larger size, please?"
+      },
+      {
+        "phrase": "I will take one medium, please.",
+        "meaning_ar": "سآخذ واحدًا مقاس متوسط من فضلك.",
+        "meaning_en": "Decide to buy.",
+        "example": "I will take two, please."
+      },
+      {
+        "phrase": "That will be $60. — Here you go.",
+        "meaning_ar": "المبلغ 60 دولارًا. — تفضّل.",
+        "meaning_en": "Paying at the till.",
+        "example": "That will be $15. Here you go."
+      },
+      {
+        "phrase": "Just one moment, please.",
+        "meaning_ar": "لحظة واحدة من فضلك.",
+        "meaning_en": "Ask someone to wait a little.",
+        "example": "Just one moment, please, for your receipt."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite requests: Could you...? / Could I...? / I would like...",
+        "explanation_ar": "للطلب بأدب نستخدم: Could you tell me...? (هل يمكنك أن تخبرني) و Could I see...? (هل يمكنني أن أرى) و I would like... (أريد / أودّ).",
+        "explanation_en": "Polite requests: Could you...? Could I...? I would like...",
+        "examples": [
+          "Could you tell me the price of this tee?",
+          "Could I see the small size, please?",
+          "I would like the one in white, please."
+        ]
+      },
+      {
+        "title": "Prepositions: on the first floor, in the middle aisle",
+        "explanation_ar": "on مع الطوابق (on the first floor)، و in مع الممرات والأقسام (in the middle aisle).",
+        "explanation_en": "on + floor; in + aisle/section.",
+        "examples": [
+          "The clothing section is on the first floor.",
+          "All of our tees are in the middle aisle.",
+          "The shoes are on the second floor."
+        ]
+      },
+      {
+        "title": "Do you have...? — Yes, we do. / Sorry, we only have...",
+        "explanation_ar": "نسأل عن توفّر شيء: Do you have this in green? والجواب: Yes, we do. أو I'm sorry, we only have...",
+        "explanation_en": "Ask: Do you have...? Answer: Yes, we do / Sorry, we only have...",
+        "examples": [
+          "Do you have any graphic tees? Yes, we do.",
+          "Do you have this tee in green?",
+          "I'm sorry, we only have four colors."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where can I find the clothing section? — It's ___ the first floor.",
+      "choices": [
+        "by",
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": 3,
+      "explanation_ar": "مع الطوابق نستخدم on.",
+      "explanation_en": "Use \"on\" with floors."
+    },
+    {
+      "question": "___ you tell me the price of this tee?",
+      "choices": [
+        "Do",
+        "Could",
+        "Are",
+        "Have"
+      ],
+      "answer": 1,
+      "explanation_ar": "Could you...? طلب مهذّب.",
+      "explanation_en": "\"Could you...?\" is a polite request."
+    },
+    {
+      "question": "This tee is $30. — That's a very ___ price.",
+      "choices": [
+        "receipt",
+        "reasonable",
+        "medium",
+        "shrink"
+      ],
+      "answer": 1,
+      "explanation_ar": "reasonable تعني معقول.",
+      "explanation_en": "Reasonable = fair, not too expensive."
+    },
+    {
+      "question": "Not small and not large is ___.",
+      "choices": [
+        "extra-large",
+        "tiny",
+        "medium",
+        "huge"
+      ],
+      "answer": 2,
+      "explanation_ar": "medium متوسط.",
+      "explanation_en": "Medium is in the middle."
+    },
+    {
+      "question": "The paper that shows what you paid is a ___.",
+      "choices": [
+        "change",
+        "size",
+        "price",
+        "receipt"
+      ],
+      "answer": 3,
+      "explanation_ar": "receipt الإيصال.",
+      "explanation_en": "A receipt shows what you paid."
+    },
+    {
+      "question": "Do you have this tee in green? — I'm sorry, we ___ have four colors.",
+      "choices": [
+        "only",
+        "also",
+        "too",
+        "never"
+      ],
+      "answer": 0,
+      "explanation_ar": "only تعني فقط.",
+      "explanation_en": "\"Only\" = just."
+    },
+    {
+      "question": "Cotton clothes sometimes ___ after washing.",
+      "choices": [
+        "shrink",
+        "fit",
+        "price",
+        "sale"
+      ],
+      "answer": 0,
+      "explanation_ar": "shrink ينكمش.",
+      "explanation_en": "Shrink = become smaller."
+    },
+    {
+      "question": "All of our tees are ___ sale today.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "for"
+      ],
+      "answer": 0,
+      "explanation_ar": "on sale = عليه تخفيض.",
+      "explanation_en": "\"On sale\" = cheaper."
+    },
+    {
+      "question": "I would like the one ___ white, please.",
+      "choices": [
+        "at",
+        "on",
+        "in",
+        "with"
+      ],
+      "answer": 2,
+      "explanation_ar": "in + اللون: in white.",
+      "explanation_en": "in + color."
+    },
+    {
+      "question": "That will be $60. — ___",
+      "choices": [
+        "Just one moment.",
+        "You're welcome.",
+        "Here you go.",
+        "I'm looking."
+      ],
+      "answer": 2,
+      "explanation_ar": "Here you go = تفضّل (عند إعطاء شيء).",
+      "explanation_en": "\"Here you go\" when you give something."
+    }
+  ]
+}

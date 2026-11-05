@@ -1,0 +1,383 @@
+{
+  "title": "Going to the Gym",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "expect",
+        "pos": "verb",
+        "meaning_en": "think that something will happen",
+        "meaning_ar": "يتوقّع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I didn't expect to see you here!"
+      },
+      {
+        "word": "gym",
+        "pos": "noun",
+        "meaning_en": "a place for exercise",
+        "meaning_ar": "صالة رياضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I just started coming to this gym."
+      },
+      {
+        "word": "treadmill",
+        "pos": "noun",
+        "meaning_en": "a running machine",
+        "meaning_ar": "جهاز الجري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I run on the treadmill."
+      },
+      {
+        "word": "lift weights",
+        "pos": "phrase",
+        "meaning_en": "raise heavy objects to build muscles",
+        "meaning_ar": "يرفع الأثقال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I also lift weights."
+      },
+      {
+        "word": "boxing",
+        "pos": "noun",
+        "meaning_en": "a sport where people fight with their hands in big gloves",
+        "meaning_ar": "الملاكمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to try boxing classes."
+      },
+      {
+        "word": "class",
+        "pos": "noun",
+        "meaning_en": "a group lesson",
+        "meaning_ar": "حصة / درس جماعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The class starts at 7 p.m."
+      },
+      {
+        "word": "intense",
+        "pos": "adjective",
+        "meaning_en": "very strong and hard",
+        "meaning_ar": "شديد / مكثّف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The training is intense."
+      },
+      {
+        "word": "fitness",
+        "pos": "noun",
+        "meaning_en": "being healthy and strong",
+        "meaning_ar": "اللياقة البدنية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Swimming is good for fitness."
+      },
+      {
+        "word": "desk",
+        "pos": "noun",
+        "meaning_en": "a table for working",
+        "meaning_ar": "مكتب (طاولة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I sit a lot at my desk."
+      },
+      {
+        "word": "join",
+        "pos": "verb",
+        "meaning_en": "become part of a group or activity",
+        "meaning_ar": "ينضمّ إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want to join a class with me?"
+      },
+      {
+        "word": "check out",
+        "pos": "phrasal verb",
+        "meaning_en": "look at something to learn about it",
+        "meaning_ar": "يطّلع على / يجرّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can check out other classes."
+      },
+      {
+        "word": "unwind",
+        "pos": "verb",
+        "meaning_en": "relax after being busy",
+        "meaning_ar": "يسترخي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It helps me unwind after a busy day."
+      },
+      {
+        "word": "excited",
+        "pos": "adjective",
+        "meaning_en": "very happy and eager",
+        "meaning_ar": "متحمّس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm excited to try these classes."
+      },
+      {
+        "word": "gym buddy",
+        "pos": "noun",
+        "meaning_en": "a friend you exercise with",
+        "meaning_ar": "رفيق التمرين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thanks for being my gym buddy."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "try vs tried",
+        "words": [
+          "try",
+          "tried"
+        ],
+        "explanation_ar": "try تعني يجرّب (حاضر)، و tried ماضيها: I tried it once (جرّبته مرة).",
+        "explanation_en": "\"Try\" (now) → \"tried\" (past).",
+        "examples": [
+          {
+            "word": "try",
+            "sentence": "I want to try boxing classes."
+          },
+          {
+            "word": "tried",
+            "sentence": "I tried it once."
+          }
+        ]
+      },
+      {
+        "title": "excited vs exciting",
+        "words": [
+          "excited",
+          "exciting"
+        ],
+        "explanation_ar": "excited تصف شعور الشخص (أنا متحمس)، و exciting تصف الشيء (الحصة مثيرة).",
+        "explanation_en": "Excited = how you feel. Exciting = the thing.",
+        "examples": [
+          {
+            "word": "excited",
+            "sentence": "I'm excited!"
+          },
+          {
+            "word": "exciting",
+            "sentence": "The boxing class is exciting."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I didn't expect to see you here!",
+        "meaning_ar": "لم أتوقّع أن أراك هنا!",
+        "meaning_en": "Say you are surprised to meet someone.",
+        "example": "Ali! I didn't expect to see you here!"
+      },
+      {
+        "phrase": "I just started coming to this gym.",
+        "meaning_ar": "بدأت للتوّ المجيء إلى هذه الصالة.",
+        "meaning_en": "Say you are new.",
+        "example": "I just started coming to this library."
+      },
+      {
+        "phrase": "I come here three times a week.",
+        "meaning_ar": "آتي إلى هنا ثلاث مرات في الأسبوع.",
+        "meaning_en": "Say how often.",
+        "example": "I come here twice a week."
+      },
+      {
+        "phrase": "What do you do here?",
+        "meaning_ar": "ماذا تفعل هنا؟",
+        "meaning_en": "Ask about someone's activities.",
+        "example": "What do you do here? I run on the treadmill."
+      },
+      {
+        "phrase": "It really helps with fitness.",
+        "meaning_ar": "إنه يساعد كثيرًا في اللياقة.",
+        "meaning_en": "Say why an activity is good.",
+        "example": "Swimming really helps with fitness."
+      },
+      {
+        "phrase": "Sitting too much is not good.",
+        "meaning_ar": "الجلوس كثيرًا ليس جيدًا.",
+        "meaning_en": "Give health advice.",
+        "example": "Take a walk. Sitting too much is not good."
+      },
+      {
+        "phrase": "Do you want to join a class with me?",
+        "meaning_ar": "هل تريد أن تنضمّ إلى حصة معي؟",
+        "meaning_en": "Invite someone to a class.",
+        "example": "Do you want to join a class with me? That sounds fun!"
+      },
+      {
+        "phrase": "When do you go? — I go on Mondays at 7 PM.",
+        "meaning_ar": "متى تذهب؟ — أذهب أيام الاثنين الساعة السابعة مساءً.",
+        "meaning_en": "Ask and say a time.",
+        "example": "When do you go? On Saturdays at 9 a.m."
+      },
+      {
+        "phrase": "Thanks for being my gym buddy.",
+        "meaning_ar": "شكرًا لكونك رفيقي في التمرين.",
+        "meaning_en": "Thank a friend who exercises with you.",
+        "example": "Thanks for being my gym buddy, Omar."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple for routines + on Mondays / three times a week",
+        "explanation_ar": "نستخدم المضارع البسيط للعادات مع on + اسم اليوم بالجمع (on Mondays = كل اثنين) و three times a week.",
+        "explanation_en": "Present simple for routines. On Mondays = every Monday.",
+        "examples": [
+          "I come here three times a week.",
+          "I go on Mondays at 7 PM.",
+          "I run on the treadmill."
+        ]
+      },
+      {
+        "title": "Past simple vs present perfect for experience",
+        "explanation_ar": "I tried it once (الماضي البسيط مع وقت أو عدد محدد). I've tried it a few times (المضارع التام لخبرة حتى الآن بلا وقت محدد).",
+        "explanation_en": "Past simple: I tried it once. Present perfect: I've tried it a few times (experience, no time given).",
+        "examples": [
+          "I tried it once.",
+          "I've tried it a few times.",
+          "I just started coming to this gym."
+        ]
+      },
+      {
+        "title": "want to + verb / helps + with",
+        "explanation_ar": "want to + الفعل للرغبة (I want to try boxing). و help with + اسم (It helps with fitness).",
+        "explanation_en": "want to + verb; help with + noun.",
+        "examples": [
+          "I want to try boxing classes.",
+          "It really helps with fitness.",
+          "Do you want to join a class with me?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I didn't ___ to see you here!",
+      "choices": [
+        "expected",
+        "expect",
+        "expecting",
+        "expects"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد didn't الفعل في أصله.",
+      "explanation_en": "After \"didn't\" use the base verb."
+    },
+    {
+      "question": "I come here three times ___ week.",
+      "choices": [
+        "on",
+        "the",
+        "in",
+        "a"
+      ],
+      "answer": 3,
+      "explanation_ar": "نقول three times a week أي ثلاث مرات في الأسبوع.",
+      "explanation_en": "We say \"three times a week\"."
+    },
+    {
+      "question": "I go ___ Mondays at 7 PM.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 0,
+      "explanation_ar": "on + الأيام.",
+      "explanation_en": "Use \"on\" with days."
+    },
+    {
+      "question": "A running machine at the gym is a ___.",
+      "choices": [
+        "treadmill",
+        "desk",
+        "buddy",
+        "class"
+      ],
+      "answer": 0,
+      "explanation_ar": "treadmill جهاز الجري.",
+      "explanation_en": "A treadmill is a running machine."
+    },
+    {
+      "question": "I want ___ boxing classes.",
+      "choices": [
+        "try",
+        "tried",
+        "trying",
+        "to try"
+      ],
+      "answer": 3,
+      "explanation_ar": "want to + الفعل.",
+      "explanation_en": "want to + verb."
+    },
+    {
+      "question": "I ___ it once. It was hard!",
+      "choices": [
+        "try",
+        "tries",
+        "trying",
+        "tried"
+      ],
+      "answer": 3,
+      "explanation_ar": "حدث في الماضي: tried.",
+      "explanation_en": "Past: tried."
+    },
+    {
+      "question": "Boxing really helps ___ fitness.",
+      "choices": [
+        "at",
+        "for to",
+        "with",
+        "on"
+      ],
+      "answer": 2,
+      "explanation_ar": "help with + اسم.",
+      "explanation_en": "help with + noun."
+    },
+    {
+      "question": "I sit a lot at my ___.",
+      "choices": [
+        "treadmill",
+        "desk",
+        "gym",
+        "boxing"
+      ],
+      "answer": 1,
+      "explanation_ar": "desk مكتب.",
+      "explanation_en": "A desk is a work table."
+    },
+    {
+      "question": "A friend you exercise with is your gym ___.",
+      "choices": [
+        "buddy",
+        "class",
+        "fitness",
+        "weight"
+      ],
+      "answer": 0,
+      "explanation_ar": "gym buddy رفيق التمرين.",
+      "explanation_en": "A gym buddy."
+    },
+    {
+      "question": "I'm ___ to try all these classes!",
+      "choices": [
+        "excite",
+        "exciting",
+        "excited",
+        "excites"
+      ],
+      "answer": 2,
+      "explanation_ar": "excited تصف شعور الشخص.",
+      "explanation_en": "Excited describes your feeling."
+    }
+  ]
+}

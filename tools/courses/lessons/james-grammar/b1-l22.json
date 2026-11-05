@@ -1,0 +1,49 @@
+{
+  "title": "Only and Just",
+  "content": {
+    "vocabulary": [
+      {"word": "only", "pos": "adverb/adjective", "meaning_en": "adverb: exclusive, no more than; adjective: the one, the single (the only choice)", "meaning_ar": "فقط / الوحيد", "note_ar": "فيها كلمة one", "note_en": "Has the word \"one\" inside it.", "example": "This is the only time you can come."},
+      {"word": "just", "pos": "adverb", "meaning_en": "no more than; exactly; very recently; barely; really", "meaning_ar": "فقط / تمامًا / للتوّ / بالكاد", "note_ar": "", "note_en": "", "example": "I had just missed the bus."},
+      {"word": "exclusive", "pos": "adjective", "meaning_en": "limited to one person or group; keeping others out", "meaning_ar": "حصري", "note_ar": "الفعل: exclude = يستبعد", "note_en": "Verb: exclude.", "example": "It's an exclusive club."},
+      {"word": "exclude", "pos": "verb", "meaning_en": "keep out; not include", "meaning_ar": "يستبعد", "note_ar": "", "note_en": "", "example": "The rule excludes people without tickets."},
+      {"word": "exactly", "pos": "adverb", "meaning_en": "completely correct; no more, no less", "meaning_ar": "تمامًا / بالضبط", "note_ar": "", "note_en": "", "example": "This holiday is just (exactly) what I need."},
+      {"word": "recent", "pos": "adjective", "meaning_en": "happening a short time ago", "meaning_ar": "حديث / قريب العهد", "note_ar": "", "note_en": "", "example": "\"Just\" can mean very recent."},
+      {"word": "barely", "pos": "adverb", "meaning_en": "almost not; only by a small amount", "meaning_ar": "بالكاد", "note_ar": "", "note_en": "", "example": "I have just enough money – I barely have enough."},
+      {"word": "absolutely", "pos": "adverb", "meaning_en": "completely, really", "meaning_ar": "تمامًا / مطلقًا", "note_ar": "", "note_en": "", "example": "That's just silly. = That's absolutely silly."},
+      {"word": "limitation", "pos": "noun", "meaning_en": "a limit; something that stops more", "meaning_ar": "تقييد / حدّ", "note_ar": "", "note_en": "", "example": "\"Only two tickets\" shows a limitation."},
+      {"word": "choice", "pos": "noun", "meaning_en": "something you choose", "meaning_ar": "اختيار", "note_ar": "", "note_en": "", "example": "It was the only choice she could make."},
+      {"word": "allowed", "pos": "adjective", "meaning_en": "permitted", "meaning_ar": "مسموح له", "note_ar": "", "note_en": "", "example": "You are the only person allowed here."},
+      {"word": "available", "pos": "adjective", "meaning_en": "that you can get or use", "meaning_ar": "متاح / متوفر", "note_ar": "", "note_en": "", "example": "There are only five tickets available."},
+      {"word": "in the nick of time", "pos": "phrase", "meaning_en": "just in time, at the last moment", "meaning_ar": "في اللحظة الأخيرة", "note_ar": "", "note_en": "", "example": "We got to the station in the nick of time."}
+    ],
+    "fine_lines": [
+      {"title": "only = just (same meaning, about 60%)", "words": ["only", "just"], "explanation_ar": "كظرف بمعنى \"لا أكثر من\" يمكن استعمال الكلمتين: It's only five dollars = It's just five dollars. We only have two tickets = We just have two tickets.", "explanation_en": "As adverbs meaning \"no more than\", both work: It's only five dollars = It's just five dollars.", "examples": [{"word": "only", "sentence": "They only wanted my money."}, {"word": "just", "sentence": "They just wanted my money."}]},
+      {"title": "just (not only): exactly / very recently", "words": ["just = exactly", "just = very recently"], "explanation_ar": "just بمعنى \"تمامًا\" (just what I need) أو \"للتوّ\" (I had just missed the bus) لا يمكن استبدالها بـ only.", "explanation_en": "\"Just\" meaning \"exactly\" (just what I need) or \"very recently\" (I had just missed the bus) can't be replaced by \"only\".", "examples": [{"word": "just = exactly", "sentence": "This vacation is just what I need."}, {"word": "just = very recently", "sentence": "I've just finished my homework."}]},
+      {"title": "only (not just): the one / the only choice", "words": ["the only + noun", "the just + noun"], "explanation_ar": "only كصفة قبل اسم (the only person, the only choice) تعني الوحيد، ولا يمكن قول the just.", "explanation_en": "\"Only\" as an adjective before a noun (the only person, the only choice) means the one; you can't say \"the just\".", "examples": [{"word": "the only + noun", "sentence": "You are the only person allowed here."}, {"word": "the just + noun", "sentence": "✗ You are the just person allowed here."}]}
+    ],
+    "expressions": [
+      {"phrase": "just what I needed", "meaning_ar": "هذا بالضبط ما كنت أحتاجه", "meaning_en": "exactly what I needed", "example": "That glass of water was just what I needed."},
+      {"phrase": "just enough", "meaning_ar": "ما يكفي بالكاد", "meaning_en": "barely enough", "example": "I have just enough money for the bus."},
+      {"phrase": "It's the only choice.", "meaning_ar": "إنه الخيار الوحيد.", "meaning_en": "There is no other option.", "example": "The bridge is closed. Taking the boat is the only choice."},
+      {"phrase": "only the beginning / just the beginning", "meaning_ar": "مجرد البداية", "meaning_en": "there is much more to come", "example": "This lesson is only the beginning."}
+    ],
+    "grammar": [
+      {"title": "Adverb: only/just = no more than (similar)", "explanation_ar": "عندما يكون المعنى \"لا أكثر من\" أو \"حصريًا\" يمكن استعمال only أو just.", "explanation_en": "When the meaning is \"no more than\" or \"exclusive\", you can use either only or just.", "examples": ["We only have two tickets left.", "It's just five dollars.", "There are just/only five tickets available."]},
+      {"title": "just = exactly / very recently (adverb)", "explanation_ar": "just تعني بالضبط (just what I need)، أو حدث قبل قليل (I had just missed the bus). هنا لا تصلح only.", "explanation_en": "\"Just\" means exactly (just what I need) or a very short time ago (I had just missed the bus). \"Only\" doesn't work here.", "examples": ["This is just what I need.", "I had just missed the bus."]},
+      {"title": "the only + noun (adjective)", "explanation_ar": "only كصفة: the only woman / the only person / the only choice = الوحيد، لا يوجد غيره.", "explanation_en": "\"Only\" as an adjective: the only person / the only choice = the one; there's no other.", "examples": ["It was the only choice she could make.", "It's the only place I like to eat."]},
+      {"title": "More meanings of just: barely, really", "explanation_ar": "just enough = بالكاد يكفي. That's just silly = سخيف حقًا (بمعنى really / absolutely) وتتغير نبرة الصوت.", "explanation_en": "\"Just enough\" = barely enough. \"That's just silly\" = really / absolutely silly (said with a strong tone).", "examples": ["I have just enough money to go.", "That's just silly!"]}
+    ]
+  },
+  "questions": [
+    {"question": "\"This is the ___ time you can come.\"", "choices": ["just", "only", "exactly", "barely"], "answer": 1, "explanation_ar": "صفة قبل اسم بمعنى الوحيد: the only.", "explanation_en": "Adjective before a noun meaning the one: the only."},
+    {"question": "\"That glass of water was ___ what I needed.\"", "choices": ["just", "only", "the only", "alone"], "answer": 0, "explanation_ar": "just = بالضبط.", "explanation_en": "\"Just\" = exactly."},
+    {"question": "\"It was the ___ choice she could make.\"", "choices": ["just", "barely", "only", "exactly"], "answer": 2, "explanation_ar": "the only choice = الخيار الوحيد.", "explanation_en": "\"The only choice\" = the one choice."},
+    {"question": "\"I had ___ missed the bus.\" (two minutes ago)", "choices": ["only", "the only", "just", "exclusive"], "answer": 2, "explanation_ar": "just = للتوّ.", "explanation_en": "\"Just\" = very recently."},
+    {"question": "\"There are ___ five tickets available.\" Which words are correct?", "choices": ["neither of them", "only 'just'", "only 'only'", "both 'just' and 'only'"], "answer": 3, "explanation_ar": "بمعنى لا أكثر من: تصلح الكلمتان.", "explanation_en": "Meaning \"no more than\": both work."},
+    {"question": "\"I have ___ enough money for the bus.\" (barely)", "choices": ["just", "only the", "exactly the", "exclusive"], "answer": 0, "explanation_ar": "just enough = بالكاد يكفي.", "explanation_en": "\"Just enough\" = barely enough."},
+    {"question": "\"You are the ___ person allowed here.\"", "choices": ["just", "only", "barely", "recent"], "answer": 1, "explanation_ar": "the only person = الشخص الوحيد.", "explanation_en": "\"The only person\" = the one person."},
+    {"question": "What does \"exclusive\" mean?", "choices": ["very recent", "barely enough", "limited, keeping others out", "exactly"], "answer": 2, "explanation_ar": "exclusive = حصري.", "explanation_en": "\"Exclusive\" = limited, keeping others out."},
+    {"question": "\"That's just silly!\" Here \"just\" means ___.", "choices": ["recently", "only", "barely", "really"], "answer": 3, "explanation_ar": "just هنا بمعنى really / absolutely.", "explanation_en": "Here \"just\" means really / absolutely."},
+    {"question": "Which sentence is wrong?", "choices": ["It's only five dollars.", "It's just five dollars.", "This vacation is only what I need.", "I've just arrived."], "answer": 2, "explanation_ar": "بمعنى \"بالضبط\" نستعمل just فقط.", "explanation_en": "For \"exactly\" we use only \"just\"."}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Parts of the Hand and Hand Expressions",
+  "content": {
+    "vocabulary": [
+      {"word": "hand", "pos": "noun", "meaning_en": "the part at the end of your arm with fingers and a thumb", "meaning_ar": "يد", "note_ar": "handy = مفيد / في المتناول", "note_en": "handy = useful", "example": "Raise your hand if you know the answer."},
+      {"word": "thumb", "pos": "noun", "meaning_en": "the short, thick finger at the side of your hand", "meaning_ar": "الإبهام", "note_ar": "حرف b صامت: /θʌm/. لا يُعدّ thumb من fingers", "note_en": "Silent b: /θʌm/. A thumb is not called a finger.", "example": "He gave me a thumbs-up."},
+      {"word": "index finger / pointer", "pos": "noun", "meaning_en": "the finger next to the thumb, used for pointing", "meaning_ar": "السبّابة", "note_ar": "", "note_en": "", "example": "Point with your index finger."},
+      {"word": "middle finger", "pos": "noun", "meaning_en": "the longest finger, in the middle of the hand", "meaning_ar": "الإصبع الوسطى", "note_ar": "", "note_en": "", "example": "The middle finger is the longest."},
+      {"word": "ring finger", "pos": "noun", "meaning_en": "the finger between the middle finger and the little finger, where people wear rings", "meaning_ar": "البنصر", "note_ar": "", "note_en": "", "example": "She wears a silver ring on her ring finger."},
+      {"word": "pinky / little finger", "pos": "noun", "meaning_en": "the smallest finger", "meaning_ar": "الخنصر", "note_ar": "يقال أيضًا baby finger", "note_en": "Also: baby finger.", "example": "I hurt my pinky in the door."},
+      {"word": "palm", "pos": "noun", "meaning_en": "the inside part of your hand", "meaning_ar": "راحة اليد / الكفّ", "note_ar": "حرف l صامت: /pɑːm/", "note_en": "Silent l: /pɑːm/.", "example": "She held the coin in her palm."},
+      {"word": "back of the hand", "pos": "noun", "meaning_en": "the outside part of the hand, opposite the palm", "meaning_ar": "ظهر اليد", "note_ar": "", "note_en": "", "example": "I know this city like the back of my hand."},
+      {"word": "wrist", "pos": "noun", "meaning_en": "the joint that connects your hand to your arm", "meaning_ar": "الرسغ / المعصم", "note_ar": "حرف w صامت: /rɪst/", "note_en": "Silent w: /rɪst/.", "example": "I wear my watch on my left wrist."},
+      {"word": "pulse", "pos": "noun", "meaning_en": "your heartbeat, which you can feel on your wrist", "meaning_ar": "النبض", "note_ar": "", "note_en": "", "example": "The doctor checked my pulse."},
+      {"word": "fingers", "pos": "noun", "meaning_en": "the four long parts of the hand (not the thumb)", "meaning_ar": "الأصابع", "note_ar": "", "note_en": "", "example": "I have five fingers? No: four fingers and a thumb!"},
+      {"word": "fingernail", "pos": "noun", "meaning_en": "the hard part at the end of each finger", "meaning_ar": "ظفر الإصبع", "note_ar": "نستخدمه للحكّ", "note_en": "We use them to scratch.", "example": "Cut your fingernails short."},
+      {"word": "s/b, sth", "pos": "abbreviation", "meaning_en": "somebody, something (used in dictionaries)", "meaning_ar": "اختصار somebody (شخص) وsomething (شيء)", "note_ar": "", "note_en": "", "example": "wash your hands of sth = wash your hands of something"}
+    ],
+    "fine_lines": [
+      {"title": "finger vs thumb", "words": ["finger", "thumb"], "explanation_ar": "في الإنجليزية لليد أربعة fingers وإبهام واحد thumb، والإبهام لا يُعدّ إصبعًا عادةً.", "explanation_en": "In English, a hand has four fingers and one thumb; the thumb is usually not called a finger.", "examples": [{"word": "finger", "sentence": "She has a ring on one finger."}, {"word": "thumb", "sentence": "He hurt his thumb with a hammer."}]},
+      {"title": "palm vs back of the hand", "words": ["palm", "back of the hand"], "explanation_ar": "palm داخل اليد، وback of the hand ظاهرها.", "explanation_en": "The palm is the inside; the back of the hand is the outside.", "examples": [{"word": "palm", "sentence": "Put the medicine in your palm."}, {"word": "back of the hand", "sentence": "There is a small cut on the back of my hand."}]}
+    ],
+    "expressions": [
+      {"phrase": "hanging on by your fingernails", "meaning_ar": "صامد بالكاد", "meaning_en": "only just surviving", "example": "The business is hanging on by its fingernails."},
+      {"phrase": "fingers crossed", "meaning_ar": "أتمنى الحظ الجيد", "meaning_en": "wishing for good luck", "example": "My exam is tomorrow. Fingers crossed!"},
+      {"phrase": "wash your hands of something", "meaning_ar": "يتبرّأ من / يرفع يده عن", "meaning_en": "stop being involved or responsible for something", "example": "I've washed my hands of this project; it's not my problem now."},
+      {"phrase": "have your finger on the pulse", "meaning_ar": "مطّلع على آخر المستجدات", "meaning_en": "know what is happening now", "example": "Our manager has her finger on the pulse of the market."},
+      {"phrase": "It's all in your hands.", "meaning_ar": "الأمر بين يديك.", "meaning_en": "You control what happens.", "example": "Your future is all in your hands."},
+      {"phrase": "know something like the back of your hand", "meaning_ar": "يعرفه حق المعرفة", "meaning_en": "know it very well", "example": "I know my hometown like the back of my hand."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "What is another name for the index finger?", "choices": ["pointer", "pinky", "ring", "thumb"], "answer": 0, "explanation_ar": "index finger = pointer لأننا نشير به.", "explanation_en": "Index finger = pointer."},
+    {"question": "What do you call the inside of the hand?", "choices": ["wrist", "palm", "pulse", "nail"], "answer": 1, "explanation_ar": "palm = راحة اليد.", "explanation_en": "Palm = inside of the hand."},
+    {"question": "What can you feel on your wrist?", "choices": ["your palm", "your thumb", "your pulse", "your pinky"], "answer": 2, "explanation_ar": "نشعر بالنبض على الرسغ.", "explanation_en": "You can feel your pulse there."},
+    {"question": "What part of your hand do you use to scratch yourself?", "choices": ["palm", "wrist", "pulse", "fingernails"], "answer": 3, "explanation_ar": "نحكّ بالأظافر.", "explanation_en": "We scratch with our fingernails."},
+    {"question": "\"Fingers crossed!\" means:", "choices": ["Good luck!", "Bad luck!", "Be quiet!", "Stop!"], "answer": 0, "explanation_ar": "fingers crossed = أتمنى الحظ الجيد.", "explanation_en": "It means good luck."},
+    {"question": "Another word for \"heartbeat\" is ___.", "choices": ["pinky", "pulse", "palm", "wrist"], "answer": 1, "explanation_ar": "pulse = النبض.", "explanation_en": "Pulse = heartbeat."},
+    {"question": "\"I wash my hands of this problem\" means:", "choices": ["I clean my hands.", "I want to buy it.", "I don't want to be responsible for it any more.", "I insult it."], "answer": 2, "explanation_ar": "wash your hands of = يرفع يده عن الأمر.", "explanation_en": "Stop being involved or responsible."},
+    {"question": "\"She has her finger on the pulse\" means she ___.", "choices": ["is sick", "is a doctor", "is ignorant", "knows what is going on"], "answer": 3, "explanation_ar": "تعني أنها مطّلعة على المستجدات.", "explanation_en": "She knows what is happening."},
+    {"question": "\"The company is hanging on by its fingernails\" means it is ___.", "choices": ["only just surviving", "very rich", "growing fast", "closed"], "answer": 0, "explanation_ar": "صامدة بالكاد.", "explanation_en": "Only just surviving."},
+    {"question": "Which word has a silent letter: /rɪst/?", "choices": ["palm", "wrist", "pinky", "pulse"], "answer": 1, "explanation_ar": "حرف w صامت في wrist.", "explanation_en": "The w in wrist is silent."}
+  ]
+}

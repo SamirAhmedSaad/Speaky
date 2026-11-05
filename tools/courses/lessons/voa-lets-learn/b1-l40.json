@@ -1,0 +1,536 @@
+{
+ "title": "The Woods Are Alive",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "resolution",
+    "pos": "noun",
+    "meaning_en": "a promise to yourself to do something better, often at the start of a new year",
+    "meaning_ar": "قرار أو عهد شخصي (خاصة في بداية العام الجديد)",
+    "note_ar": "تُستخدم كثيراً في عبارة New Year's resolution.",
+    "note_en": "Often used in the phrase \"New Year's resolution\".",
+    "example": "My New Year's resolution is to read more books."
+   },
+   {
+    "word": "actor",
+    "pos": "noun",
+    "meaning_en": "a person who acts in plays, films or shows",
+    "meaning_ar": "ممثل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The actor learned all his lines in one week."
+   },
+   {
+    "word": "stage",
+    "pos": "noun",
+    "meaning_en": "the raised area in a theater where actors perform",
+    "meaning_ar": "خشبة المسرح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The students acted in a play on the stage at school."
+   },
+   {
+    "word": "audition",
+    "pos": "verb / noun",
+    "meaning_en": "to perform a short piece so someone can choose you for a part",
+    "meaning_ar": "يؤدي اختبار أداء / تجربة أداء",
+    "note_ar": "تُنطق /ɔːˈdɪʃən/.",
+    "note_en": "Say /ɔːˈdɪʃən/.",
+    "example": "She will audition for the school play tomorrow."
+   },
+   {
+    "word": "show",
+    "pos": "noun",
+    "meaning_en": "a play or performance that people watch",
+    "meaning_ar": "عرض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We watched a funny show at the theater."
+   },
+   {
+    "word": "the woods",
+    "pos": "noun",
+    "meaning_en": "an area with many trees, smaller than a forest",
+    "meaning_ar": "الغابة (منطقة أشجار)",
+    "note_ar": "غالباً بصيغة الجمع: the woods.",
+    "note_en": "Usually plural: the woods.",
+    "example": "Don't get lost in the woods."
+   },
+   {
+    "word": "alive",
+    "pos": "adjective",
+    "meaning_en": "living, not dead",
+    "meaning_ar": "حيّ",
+    "note_ar": "لا تأتي قبل الاسم: نقول The fish is alive وليس an alive fish.",
+    "note_en": "It does not come before a noun: say \"The fish is alive\", not \"an alive fish\".",
+    "example": "The plant is still alive."
+   },
+   {
+    "word": "lost",
+    "pos": "adjective",
+    "meaning_en": "not able to find your way",
+    "meaning_ar": "تائه / ضائع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We were lost, so we asked for directions."
+   },
+   {
+    "word": "search",
+    "pos": "verb",
+    "meaning_en": "to look carefully for something",
+    "meaning_ar": "يبحث",
+    "note_ar": "search for = يبحث عن.",
+    "note_en": "search for = look for.",
+    "example": "I am searching for my keys."
+   },
+   {
+    "word": "desperately",
+    "pos": "adverb",
+    "meaning_en": "in a very worried way, needing something very much",
+    "meaning_ar": "بيأس / بشدة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He was desperately looking for water."
+   },
+   {
+    "word": "suddenly",
+    "pos": "adverb",
+    "meaning_en": "quickly and without warning",
+    "meaning_ar": "فجأة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Suddenly, the lights went out."
+   },
+   {
+    "word": "line",
+    "pos": "noun",
+    "meaning_en": "the words an actor says in a play or film",
+    "meaning_ar": "جملة الحوار (عند الممثل)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I forgot my line on stage!"
+   },
+   {
+    "word": "softly",
+    "pos": "adverb",
+    "meaning_en": "in a quiet, gentle way",
+    "meaning_ar": "بصوت منخفض / بلطف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The teacher spoke softly to the small child."
+   },
+   {
+    "word": "loudly",
+    "pos": "adverb",
+    "meaning_en": "in a way that makes a lot of noise",
+    "meaning_ar": "بصوت عالٍ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please don't talk loudly in the library."
+   },
+   {
+    "word": "seriously",
+    "pos": "adverb",
+    "meaning_en": "in a way that is not joking",
+    "meaning_ar": "بجدية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Take your studies seriously."
+   },
+   {
+    "word": "quietly",
+    "pos": "adverb",
+    "meaning_en": "making very little noise",
+    "meaning_ar": "بهدوء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The cat walked quietly into the room."
+   },
+   {
+    "word": "scene",
+    "pos": "noun",
+    "meaning_en": "one part of a play or film",
+    "meaning_ar": "مشهد",
+    "note_ar": "حرف c صامت: تُنطق /siːn/ مثل seen.",
+    "note_en": "The c is silent: say /siːn/, like \"seen\".",
+    "example": "The last scene of the film is very sad."
+   },
+   {
+    "word": "early",
+    "pos": "adverb / adjective",
+    "meaning_en": "before the usual or right time",
+    "meaning_ar": "مبكراً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I got to the office early today."
+   },
+   {
+    "word": "late",
+    "pos": "adverb / adjective",
+    "meaning_en": "after the usual or right time",
+    "meaning_ar": "متأخراً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The bus came late this morning."
+   },
+   {
+    "word": "perfect",
+    "pos": "adjective",
+    "meaning_en": "exactly right; with nothing wrong",
+    "meaning_ar": "مثالي",
+    "note_ar": "الظرف: perfectly.",
+    "note_en": "Adverb: perfectly.",
+    "example": "This is the perfect day for a walk."
+   },
+   {
+    "word": "part",
+    "pos": "noun",
+    "meaning_en": "a character that an actor plays",
+    "meaning_ar": "دور (في مسرحية أو فيلم)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He got a small part in the movie."
+   },
+   {
+    "word": "costume",
+    "pos": "noun",
+    "meaning_en": "special clothes an actor wears to look like someone or something",
+    "meaning_ar": "زي (تمثيلي)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The children wore animal costumes."
+   },
+   {
+    "word": "try on",
+    "pos": "phrasal verb",
+    "meaning_en": "to put on clothes to see if they fit",
+    "meaning_ar": "يجرّب (ملابس)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Can I try on these shoes?"
+   },
+   {
+    "word": "fit",
+    "pos": "verb",
+    "meaning_en": "to be the right size for someone",
+    "meaning_ar": "يناسب (المقاس)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "These jeans don't fit me. They are too small."
+   },
+   {
+    "word": "awesome",
+    "pos": "adjective",
+    "meaning_en": "very good; great (informal)",
+    "meaning_ar": "رائع",
+    "note_ar": "الظرف: awesomely، نادر لكن Anna تستخدمه للمزاح.",
+    "note_en": "Adverb: awesomely - rare, Anna uses it for fun.",
+    "example": "The view from the mountain is awesome!"
+   },
+   {
+    "word": "tree",
+    "pos": "noun",
+    "meaning_en": "a tall plant with a trunk, branches and leaves",
+    "meaning_ar": "شجرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There is a big tree in our garden."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "adjective vs adverb: soft / softly",
+    "words": [
+     "soft",
+     "softly",
+     "quiet",
+     "quietly"
+    ],
+    "explanation_ar": "الصفة تصف الاسم (a soft voice)، والظرف يصف الفعل - كيف يحدث الفعل (She speaks softly). معظم الظروف = الصفة + ly.",
+    "explanation_en": "An adjective describes a noun (a soft voice). An adverb describes a verb - how you do it (She speaks softly). Most adverbs are adjective + ly.",
+    "examples": [
+     {
+      "word": "soft",
+      "sentence": "She has a soft voice."
+     },
+     {
+      "word": "softly",
+      "sentence": "She speaks softly."
+     },
+     {
+      "word": "quiet",
+      "sentence": "This is a quiet room."
+     },
+     {
+      "word": "quietly",
+      "sentence": "Walk quietly, please."
+     }
+    ]
+   },
+   {
+    "title": "too vs enough",
+    "words": [
+     "too",
+     "enough"
+    ],
+    "explanation_ar": "too قبل الصفة أو الظرف معناها «أكثر من اللازم» (too softly). enough بعد الصفة أو الظرف معناها «بالقدر الكافي» (loud enough).",
+    "explanation_en": "Too comes before an adjective or adverb and means \"more than you want\" (too softly). Enough comes after it and means \"as much as you need\" (loud enough).",
+    "examples": [
+     {
+      "word": "too",
+      "sentence": "You are speaking too softly."
+     },
+     {
+      "word": "enough",
+      "sentence": "Is that loud enough?"
+     },
+     {
+      "word": "too",
+      "sentence": "I was too early."
+     },
+     {
+      "word": "enough",
+      "sentence": "He is not tall enough."
+     }
+    ]
+   },
+   {
+    "title": "early / late: no -ly",
+    "words": [
+     "early",
+     "late",
+     "fast",
+     "hard"
+    ],
+    "explanation_ar": "بعض الكلمات تكون صفة وظرفاً بنفس الشكل بدون ly: early, late, fast, hard. لا نقول lately بمعنى متأخراً (lately معناها «مؤخراً»).",
+    "explanation_en": "Some words are the same as adjective and adverb, with no -ly: early, late, fast, hard. Do not say \"lately\" for \"late\" - lately means \"recently\".",
+    "examples": [
+     {
+      "word": "late",
+      "sentence": "You said that line late."
+     },
+     {
+      "word": "early",
+      "sentence": "You need to say it earlier."
+     },
+     {
+      "word": "fast",
+      "sentence": "She runs fast."
+     },
+     {
+      "word": "hard",
+      "sentence": "He works hard."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Wish me luck!",
+    "meaning_ar": "تمنَّ لي الحظ!",
+    "meaning_en": "Say you hope I do well.",
+    "example": "I have a big exam today. Wish me luck!"
+   },
+   {
+    "phrase": "Are you ready to ...?",
+    "meaning_ar": "هل أنت جاهز لـ ...؟",
+    "meaning_en": "Do you feel prepared to do something now?",
+    "example": "Are you ready to start the test?"
+   },
+   {
+    "phrase": "Is someone there?",
+    "meaning_ar": "هل يوجد أحد هنا/هناك؟",
+    "meaning_en": "Asked when you hear something but can't see anyone.",
+    "example": "Hello? Is someone there?"
+   },
+   {
+    "phrase": "Can you speak more loudly?",
+    "meaning_ar": "هل يمكنك أن تتكلم بصوت أعلى؟",
+    "meaning_en": "A polite request to speak louder.",
+    "example": "Sorry, can you speak more loudly? I can't hear you."
+   },
+   {
+    "phrase": "Is that loud enough?",
+    "meaning_ar": "هل هذا عالٍ بما يكفي؟",
+    "meaning_en": "Asking if your voice is now loud enough.",
+    "example": "Is that loud enough, or should I speak up?"
+   },
+   {
+    "phrase": "Let me try again.",
+    "meaning_ar": "دعني أحاول مرة أخرى.",
+    "meaning_en": "Asking for another chance.",
+    "example": "I made a mistake. Let me try again."
+   },
+   {
+    "phrase": "How am I doing?",
+    "meaning_ar": "كيف أدائي؟",
+    "meaning_en": "Asking someone what they think of your work so far.",
+    "example": "Teacher, how am I doing in this class?"
+   },
+   {
+    "phrase": "Go try it on.",
+    "meaning_ar": "اذهب وجرّبه.",
+    "meaning_en": "Put on the clothes to see if they fit.",
+    "example": "The jacket is in the back. Go try it on."
+   },
+   {
+    "phrase": "That fits you perfectly!",
+    "meaning_ar": "هذا يناسبك تماماً!",
+    "meaning_en": "The clothes are exactly the right size.",
+    "example": "That shirt fits you perfectly!"
+   },
+   {
+    "phrase": "Excuse me!",
+    "meaning_ar": "عفواً / لو سمحت!",
+    "meaning_en": "Used to get someone's attention politely.",
+    "example": "Excuse me! Where is the bus stop?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Adverbs of manner (how we do something)",
+    "explanation_ar": "ظرف الحال يصف كيف نقوم بالفعل، ويأتي عادةً بعد الفعل أو بعد المفعول به. نكوّنه بإضافة ly إلى الصفة: soft → softly، loud → loudly، slow → slowly، quiet → quietly. إذا انتهت الصفة بـ y نغيرها إلى i: happy → happily. إذا انتهت بـ le نحذف e ونضيف y: gentle → gently. وانتبه: good → well.",
+    "explanation_en": "Adverbs of manner tell us how someone does something. They usually come after the verb (or after the object). Make them by adding -ly to the adjective: soft → softly, loud → loudly, slow → slowly, quiet → quietly. If the adjective ends in -y, change it to -i: happy → happily. If it ends in -le, drop the e and add y: gentle → gently. Careful: good → well.",
+    "examples": [
+     "You are speaking too softly.",
+     "Walk slowly and quietly.",
+     "That fits you perfectly!",
+     "She speaks English well."
+    ]
+   },
+   {
+    "title": "too + adverb / adverb + enough",
+    "explanation_ar": "too تأتي قبل الظرف وتعني «أكثر من اللازم» (مشكلة). enough تأتي بعد الظرف وتعني «بالقدر الكافي». ونستخدم more + الظرف للمقارنة: more loudly, more seriously. ومع الظروف القصيرة نضيف er: earlier, later, faster.",
+    "explanation_en": "Too comes before an adverb and means \"more than is good\" (a problem). Enough comes after an adverb and means \"as much as needed\". For comparisons use more + adverb: more loudly, more seriously. Short adverbs take -er: earlier, later, faster.",
+    "examples": [
+     "You said that line too late.",
+     "Is that loud enough?",
+     "Can you speak more loudly?",
+     "You need to say it earlier."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Choose the adverb: \"Walk ____, please. The baby is sleeping.\"",
+   "choices": [
+    "quiet",
+    "quietly",
+    "quieter",
+    "quietness"
+   ],
+   "answer": 1,
+   "explanation_ar": "نحتاج ظرفاً يصف الفعل walk، فنقول quietly.",
+   "explanation_en": "We need an adverb to describe the verb \"walk\": quietly."
+  },
+  {
+   "question": "What is a \"resolution\" at New Year?",
+   "choices": [
+    "a party",
+    "a gift",
+    "a promise to yourself to be better",
+    "a holiday trip"
+   ],
+   "answer": 2,
+   "explanation_ar": "resolution عهد تقطعه على نفسك لتكون أفضل.",
+   "explanation_en": "A resolution is a promise to yourself to be better."
+  },
+  {
+   "question": "\"You are speaking too softly.\" This means ...",
+   "choices": [
+    "Your voice is not loud enough.",
+    "Your voice is too loud.",
+    "You speak very well.",
+    "You speak very fast."
+   ],
+   "answer": 0,
+   "explanation_ar": "too softly تعني أن الصوت منخفض أكثر من اللازم، أي ليس عالياً بما يكفي.",
+   "explanation_en": "Too softly means your voice is not loud enough."
+  },
+  {
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Is that enough loud?",
+    "Is that enough loudly?",
+    "Is that loudly enough?",
+    "Is that loud enough?"
+   ],
+   "answer": 3,
+   "explanation_ar": "enough تأتي بعد الصفة: loud enough.",
+   "explanation_en": "Enough comes after the adjective: loud enough."
+  },
+  {
+   "question": "What is the adverb of \"good\"?",
+   "choices": [
+    "goodly",
+    "well",
+    "goodness",
+    "better"
+   ],
+   "answer": 1,
+   "explanation_ar": "الظرف من good هو well وليس goodly.",
+   "explanation_en": "The adverb of \"good\" is \"well\"."
+  },
+  {
+   "question": "An actor wears special clothes for a show. These clothes are a ...",
+   "choices": [
+    "costume",
+    "scene",
+    "stage",
+    "line"
+   ],
+   "answer": 0,
+   "explanation_ar": "costume هو الزي الذي يلبسه الممثل.",
+   "explanation_en": "A costume is the special clothes an actor wears."
+  },
+  {
+   "question": "\"You said that line really late. You need to say it ____.\"",
+   "choices": [
+    "lately",
+    "later",
+    "earlier",
+    "more late"
+   ],
+   "answer": 2,
+   "explanation_ar": "عكس late هو early، والمقارنة earlier.",
+   "explanation_en": "The opposite of late is early; the comparison is earlier."
+  },
+  {
+   "question": "Before an actor gets a part, they often have to ...",
+   "choices": [
+    "audition",
+    "litter",
+    "fit",
+    "search"
+   ],
+   "answer": 0,
+   "explanation_ar": "audition هو أداء اختبار ليختارك المخرج للدور.",
+   "explanation_en": "An audition is a short performance so the director can choose you."
+  },
+  {
+   "question": "\"That costume fits you perfectly.\" This means ...",
+   "choices": [
+    "It is too big.",
+    "It is too small.",
+    "It is the right size.",
+    "It is a perfect color."
+   ],
+   "answer": 2,
+   "explanation_ar": "fits perfectly تعني أن المقاس مناسب تماماً.",
+   "explanation_en": "Fits perfectly means it is exactly the right size."
+  },
+  {
+   "question": "Which word is an adverb?",
+   "choices": [
+    "soft",
+    "serious",
+    "quiet",
+    "suddenly"
+   ],
+   "answer": 3,
+   "explanation_ar": "suddenly ظرف (sudden + ly). البقية صفات.",
+   "explanation_en": "Suddenly is an adverb (sudden + ly). The others are adjectives."
+  }
+ ]
+}

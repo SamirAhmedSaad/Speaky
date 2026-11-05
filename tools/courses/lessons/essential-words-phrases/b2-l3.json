@@ -1,0 +1,580 @@
+{
+  "title": "Daily Life Sentences",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "dinner",
+        "pos": "noun",
+        "meaning_en": "the main meal in the evening",
+        "meaning_ar": "العشاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have dinner at eight."
+      },
+      {
+        "word": "loud",
+        "pos": "adjective",
+        "meaning_en": "making a lot of noise",
+        "meaning_ar": "عالٍ (صوت)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The music next door is too loud."
+      },
+      {
+        "word": "wash",
+        "pos": "verb",
+        "meaning_en": "to clean with water",
+        "meaning_ar": "يغسل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wash my clothes on Fridays."
+      },
+      {
+        "word": "lecture hall",
+        "pos": "noun",
+        "meaning_en": "a big room at university for lessons",
+        "meaning_ar": "قاعة المحاضرات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The lecture hall is on the second floor."
+      },
+      {
+        "word": "deadline",
+        "pos": "noun",
+        "meaning_en": "the last time or day to finish something",
+        "meaning_ar": "الموعد النهائي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The deadline is next Monday."
+      },
+      {
+        "word": "assignment",
+        "pos": "noun",
+        "meaning_en": "a piece of work given to a student",
+        "meaning_ar": "واجب / تكليف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I finished my history assignment."
+      },
+      {
+        "word": "concept",
+        "pos": "noun",
+        "meaning_en": "an idea",
+        "meaning_ar": "مفهوم / فكرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This concept is hard to understand."
+      },
+      {
+        "word": "sign up",
+        "pos": "phrasal verb",
+        "meaning_en": "to put your name on a list to join something",
+        "meaning_ar": "يسجّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I signed up for an English course."
+      },
+      {
+        "word": "semester",
+        "pos": "noun",
+        "meaning_en": "half of a school or university year",
+        "meaning_ar": "فصل دراسي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Next semester starts in September."
+      },
+      {
+        "word": "reschedule",
+        "pos": "verb",
+        "meaning_en": "to change the time of a planned event",
+        "meaning_ar": "يعيد الجدولة / يغير الموعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can we reschedule the call to Thursday?"
+      },
+      {
+        "word": "report",
+        "pos": "noun",
+        "meaning_en": "a written document with information",
+        "meaning_ar": "تقرير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please send me the report today."
+      },
+      {
+        "word": "software",
+        "pos": "noun",
+        "meaning_en": "programs used on a computer",
+        "meaning_ar": "برنامج / برمجيات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new software is easy to use."
+      },
+      {
+        "word": "day off",
+        "pos": "noun",
+        "meaning_en": "a day when you don't work",
+        "meaning_ar": "يوم إجازة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm taking a day off on Sunday."
+      },
+      {
+        "word": "size",
+        "pos": "noun",
+        "meaning_en": "how big something is",
+        "meaning_ar": "مقاس / حجم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have this in a smaller size?"
+      },
+      {
+        "word": "cost",
+        "pos": "verb",
+        "meaning_en": "to have a price",
+        "meaning_ar": "يكلّف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How much does this bag cost?"
+      },
+      {
+        "word": "credit card",
+        "pos": "noun",
+        "meaning_en": "a plastic card used to pay",
+        "meaning_ar": "بطاقة ائتمان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I pay by credit card?"
+      },
+      {
+        "word": "try on",
+        "pos": "phrasal verb",
+        "meaning_en": "to put on clothes to check the size",
+        "meaning_ar": "يجرّب (ملابس)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I try on these shoes?"
+      },
+      {
+        "word": "window seat",
+        "pos": "noun",
+        "meaning_en": "a seat next to the window",
+        "meaning_ar": "مقعد بجانب النافذة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I always ask for a window seat."
+      },
+      {
+        "word": "city center",
+        "pos": "noun",
+        "meaning_en": "the main central part of a city",
+        "meaning_ar": "وسط المدينة",
+        "note_ar": "البريطانية: city centre",
+        "note_en": "British spelling: centre.",
+        "example": "The hotel is in the city center."
+      },
+      {
+        "word": "recommend",
+        "pos": "verb",
+        "meaning_en": "to say that something is good",
+        "meaning_ar": "يوصي / ينصح بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you recommend a good restaurant?"
+      },
+      {
+        "word": "rent",
+        "pos": "verb",
+        "meaning_en": "to pay money to use something for a time",
+        "meaning_ar": "يستأجر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We rented a car for three days."
+      },
+      {
+        "word": "museum",
+        "pos": "noun",
+        "meaning_en": "a building where you see old or important things",
+        "meaning_ar": "متحف",
+        "note_ar": "تُنطق /mjuˈziːəm/",
+        "note_en": "Say /mjuˈziːəm/.",
+        "example": "The museum is closed on Mondays."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "turn off vs turn down",
+        "words": [
+          "turn off",
+          "turn down"
+        ],
+        "explanation_ar": "turn off تعني إطفاء الجهاز أو الضوء تمامًا. turn down تعني تخفيض الصوت أو الحرارة.",
+        "explanation_en": "\"Turn off\" stops something completely. \"Turn down\" makes the sound or heat lower.",
+        "examples": [
+          {
+            "word": "turn off",
+            "sentence": "Please turn off the lights when you leave."
+          },
+          {
+            "word": "turn down",
+            "sentence": "The TV is too loud. Please turn it down."
+          }
+        ]
+      },
+      {
+        "title": "Can you...? vs Could you...?",
+        "words": [
+          "can",
+          "could"
+        ],
+        "explanation_ar": "كلاهما لطلب شيء. Could you أكثر أدبًا ورسمية من Can you.",
+        "explanation_en": "Both make requests. \"Could you\" is more polite than \"Can you\".",
+        "examples": [
+          {
+            "word": "can",
+            "sentence": "Can you help me with this?"
+          },
+          {
+            "word": "could",
+            "sentence": "Could you recommend a good hotel?"
+          }
+        ]
+      },
+      {
+        "title": "try vs try on",
+        "words": [
+          "try",
+          "try on"
+        ],
+        "explanation_ar": "try تعني يحاول أو يتذوق. try on تُستخدم للملابس: يلبسها ليرى المقاس.",
+        "explanation_en": "\"Try\" means attempt or taste. \"Try on\" is for clothes: wear them to check.",
+        "examples": [
+          {
+            "word": "try",
+            "sentence": "Try this soup, it's delicious."
+          },
+          {
+            "word": "try on",
+            "sentence": "I'd like to try this T-shirt on."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What's for dinner tonight?",
+        "meaning_ar": "ماذا يوجد على العشاء الليلة؟",
+        "meaning_en": "Asking what we will eat this evening.",
+        "example": "Mom, what's for dinner tonight?"
+      },
+      {
+        "phrase": "It's time to clean the house.",
+        "meaning_ar": "حان وقت تنظيف البيت.",
+        "meaning_en": "We must start cleaning now.",
+        "example": "Okay everyone, it's time to clean the house."
+      },
+      {
+        "phrase": "Could you turn off the lights, please?",
+        "meaning_ar": "هل يمكنك إطفاء الأنوار من فضلك؟",
+        "meaning_en": "A polite request to switch off the lights.",
+        "example": "I want to sleep. Could you turn off the lights, please?"
+      },
+      {
+        "phrase": "The TV is too loud. Could you please turn it down?",
+        "meaning_ar": "التلفاز صوته عالٍ جدًا، هل يمكنك تخفيضه من فضلك؟",
+        "meaning_en": "Asking someone to make the TV quieter.",
+        "example": "The TV is too loud. Could you please turn it down? I'm studying."
+      },
+      {
+        "phrase": "I need to wash some clothes.",
+        "meaning_ar": "أحتاج أن أغسل بعض الملابس.",
+        "meaning_en": "I have dirty clothes to clean.",
+        "example": "I need to wash some clothes before the trip."
+      },
+      {
+        "phrase": "Where is the lecture hall?",
+        "meaning_ar": "أين قاعة المحاضرات؟",
+        "meaning_en": "Asking for the room of the class.",
+        "example": "Excuse me, where is the lecture hall?"
+      },
+      {
+        "phrase": "What is the deadline for this assignment?",
+        "meaning_ar": "ما الموعد النهائي لهذا الواجب؟",
+        "meaning_en": "When must I finish this work?",
+        "example": "What is the deadline for this assignment? Friday?"
+      },
+      {
+        "phrase": "Do you want to study together for the exam?",
+        "meaning_ar": "هل تريد أن نذاكر معًا للامتحان؟",
+        "meaning_en": "Inviting a classmate to study with you.",
+        "example": "Do you want to study together for the exam tomorrow?"
+      },
+      {
+        "phrase": "Can you help me understand this concept?",
+        "meaning_ar": "هل يمكنك مساعدتي على فهم هذا المفهوم؟",
+        "meaning_en": "Asking for an explanation.",
+        "example": "Can you help me understand this concept? It's new to me."
+      },
+      {
+        "phrase": "I need to sign up for next semester's classes.",
+        "meaning_ar": "أحتاج أن أسجل في مواد الفصل القادم.",
+        "meaning_en": "I must register for next term.",
+        "example": "I need to sign up for next semester's classes this week."
+      },
+      {
+        "phrase": "When is the deadline for this project?",
+        "meaning_ar": "متى الموعد النهائي لهذا المشروع؟",
+        "meaning_en": "Asking when the project must be finished.",
+        "example": "When is the deadline for this project?"
+      },
+      {
+        "phrase": "Can we reschedule the meeting?",
+        "meaning_ar": "هل يمكننا تغيير موعد الاجتماع؟",
+        "meaning_en": "Asking to change the time of a meeting.",
+        "example": "I'm sick today. Can we reschedule the meeting?"
+      },
+      {
+        "phrase": "I need help with this report.",
+        "meaning_ar": "أحتاج مساعدة في هذا التقرير.",
+        "meaning_en": "Asking a colleague for help.",
+        "example": "I need help with this report. Do you have time?"
+      },
+      {
+        "phrase": "Can you show me how to use this software?",
+        "meaning_ar": "هل يمكنك أن تريني كيف أستخدم هذا البرنامج؟",
+        "meaning_en": "Asking someone to teach you a program.",
+        "example": "I'm new here. Can you show me how to use this software?"
+      },
+      {
+        "phrase": "I need to take a day off.",
+        "meaning_ar": "أحتاج أن آخذ يوم إجازة.",
+        "meaning_en": "I must not come to work for one day.",
+        "example": "I need to take a day off next Tuesday."
+      },
+      {
+        "phrase": "Where can I find fresh vegetables?",
+        "meaning_ar": "أين أجد الخضروات الطازجة؟",
+        "meaning_en": "Asking in a shop where something is.",
+        "example": "Excuse me, where can I find fresh vegetables?"
+      },
+      {
+        "phrase": "Do you have this shirt in a larger size?",
+        "meaning_ar": "هل لديكم هذا القميص بمقاس أكبر؟",
+        "meaning_en": "Asking for a bigger size.",
+        "example": "This is too small. Do you have this shirt in a larger size?"
+      },
+      {
+        "phrase": "How much does this cost?",
+        "meaning_ar": "كم سعر هذا؟",
+        "meaning_en": "Asking the price.",
+        "example": "How much does this cost? - Twenty riyals."
+      },
+      {
+        "phrase": "Can I pay by credit card?",
+        "meaning_ar": "هل يمكنني الدفع ببطاقة الائتمان؟",
+        "meaning_en": "Asking about payment method.",
+        "example": "Can I pay by credit card, or only cash?"
+      },
+      {
+        "phrase": "I would like to try this T-shirt on.",
+        "meaning_ar": "أود أن أجرب هذا القميص.",
+        "meaning_en": "I want to wear it to check the size.",
+        "example": "I would like to try this T-shirt on. Where is the fitting room?"
+      },
+      {
+        "phrase": "Can I have a window seat, please?",
+        "meaning_ar": "هل يمكنني الحصول على مقعد بجانب النافذة؟",
+        "meaning_en": "Asking for a seat by the window.",
+        "example": "Can I have a window seat, please?"
+      },
+      {
+        "phrase": "When is the next bus to the city center?",
+        "meaning_ar": "متى الحافلة القادمة إلى وسط المدينة؟",
+        "meaning_en": "Asking about bus times.",
+        "example": "When is the next bus to the city center?"
+      },
+      {
+        "phrase": "Could you recommend a good hotel?",
+        "meaning_ar": "هل يمكنك أن تنصحني بفندق جيد؟",
+        "meaning_en": "Asking for advice about a hotel.",
+        "example": "Could you recommend a good hotel near the airport?"
+      },
+      {
+        "phrase": "I would like to rent a car.",
+        "meaning_ar": "أود أن أستأجر سيارة.",
+        "meaning_en": "I want to pay to use a car for some days.",
+        "example": "I would like to rent a car for three days."
+      },
+      {
+        "phrase": "What's the best way to get to the museum?",
+        "meaning_ar": "ما أفضل طريقة للوصول إلى المتحف؟",
+        "meaning_en": "Asking for directions or transport.",
+        "example": "What's the best way to get to the museum? Bus or taxi?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I need to + verb",
+        "explanation_ar": "نستخدم I need to + الفعل الأصلي لنقول إن شيئًا ضروري علينا فعله. وI need + اسم لنقول إننا نحتاج شيئًا: I need help.",
+        "explanation_en": "Use \"I need to + base verb\" for something you must do. Use \"I need + noun\" for something you want to have.",
+        "examples": [
+          "I need to wash some clothes.",
+          "I need to take a day off.",
+          "I need help with this report."
+        ]
+      },
+      {
+        "title": "Polite questions: Can I...? / Could you...?",
+        "explanation_ar": "Can I + فعل نطلب به إذنًا أو شيئًا لأنفسنا. Could you + فعل نطلب به من شخص أن يفعل شيئًا بأدب أكثر. الفعل بعدهما في صيغته الأصلية.",
+        "explanation_en": "\"Can I + verb\" asks for permission or something for you. \"Could you + verb\" asks someone politely to do something. Use the base verb after both.",
+        "examples": [
+          "Can I pay by credit card?",
+          "Can I have a window seat, please?",
+          "Could you turn off the lights, please?"
+        ]
+      },
+      {
+        "title": "I would like to + verb",
+        "explanation_ar": "I would like to (أو I'd like to) طريقة مهذبة لقول I want to عند الطلب في المحلات والفنادق.",
+        "explanation_en": "\"I would like to\" (I'd like to) is a polite way to say \"I want to\" in shops and hotels.",
+        "examples": [
+          "I would like to rent a car.",
+          "I would like to try this T-shirt on.",
+          "I'd like to book a room."
+        ]
+      },
+      {
+        "title": "Wh- questions: Where / When / What / How much",
+        "explanation_ar": "Where للمكان، When للزمان، What للشيء، How much للسعر. مع الفعل الأساسي نستخدم does: How much does this cost?",
+        "explanation_en": "Where = place, When = time, What = thing, How much = price. With a normal verb add do/does: How much does this cost?",
+        "examples": [
+          "Where is the lecture hall?",
+          "When is the next bus?",
+          "How much does this cost?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "The TV is too loud. You say: \"Could you please turn it ___?\"",
+      "choices": [
+        "off",
+        "down",
+        "on",
+        "up"
+      ],
+      "answer": 1,
+      "explanation_ar": "turn down تعني تخفيض الصوت.",
+      "explanation_en": "\"Turn down\" makes the sound lower."
+    },
+    {
+      "question": "What is a \"deadline\"?",
+      "choices": [
+        "a long line of people",
+        "the last time to finish something",
+        "a dead phone",
+        "a day off"
+      ],
+      "answer": 1,
+      "explanation_ar": "deadline = الموعد النهائي لإنهاء عمل.",
+      "explanation_en": "A deadline is the last time to finish work."
+    },
+    {
+      "question": "Choose the correct question.",
+      "choices": [
+        "How much this costs?",
+        "How much does this cost?",
+        "How much does this costs?",
+        "How much do this cost?"
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال الصحيح: How much does this cost? مع does والفعل الأصلي.",
+      "explanation_en": "Use \"does\" + base verb: How much does this cost?"
+    },
+    {
+      "question": "You are in a clothes shop. You want to check if the shirt fits. You say:",
+      "choices": [
+        "I would like to try this shirt on.",
+        "I would like to rent this shirt.",
+        "I need to wash this shirt.",
+        "Can I reschedule this shirt?"
+      ],
+      "answer": 0,
+      "explanation_ar": "try on تُستخدم لتجربة الملابس.",
+      "explanation_en": "\"Try on\" is used for clothes."
+    },
+    {
+      "question": "\"Can we ___ the meeting?\" (change its time)",
+      "choices": [
+        "rent",
+        "recommend",
+        "reschedule",
+        "sign up"
+      ],
+      "answer": 2,
+      "explanation_ar": "reschedule = يغير الموعد.",
+      "explanation_en": "\"Reschedule\" means change the time."
+    },
+    {
+      "question": "Which request is the most polite?",
+      "choices": [
+        "Give me a good hotel.",
+        "I want a hotel.",
+        "Hotel, please.",
+        "Could you recommend a good hotel?"
+      ],
+      "answer": 3,
+      "explanation_ar": "Could you... أكثر الطلبات أدبًا.",
+      "explanation_en": "\"Could you...\" is the most polite."
+    },
+    {
+      "question": "\"I need ___ a day off.\"",
+      "choices": [
+        "take",
+        "taking",
+        "to take",
+        "takes"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد I need نستخدم to + الفعل الأصلي.",
+      "explanation_en": "After \"I need\" use \"to + base verb\"."
+    },
+    {
+      "question": "Where do students listen to lessons at university?",
+      "choices": [
+        "lecture hall",
+        "city center",
+        "museum",
+        "window seat"
+      ],
+      "answer": 0,
+      "explanation_ar": "lecture hall = قاعة المحاضرات.",
+      "explanation_en": "A lecture hall is a big classroom at university."
+    },
+    {
+      "question": "You want to know when the bus leaves. You ask:",
+      "choices": [
+        "Where is the next bus?",
+        "When is the next bus to the city center?",
+        "How much is the next bus?",
+        "What is the bus?"
+      ],
+      "answer": 1,
+      "explanation_ar": "When تُستخدم للسؤال عن الوقت.",
+      "explanation_en": "\"When\" asks about time."
+    },
+    {
+      "question": "\"I'm going to bed. Could you turn ___ the lights, please?\"",
+      "choices": [
+        "off",
+        "down",
+        "in",
+        "at"
+      ],
+      "answer": 0,
+      "explanation_ar": "turn off = إطفاء الضوء تمامًا.",
+      "explanation_en": "\"Turn off\" switches the lights off completely."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Irregular Comparatives and Superlatives",
+  "content": {
+    "vocabulary": [
+      {"word": "comparative", "pos": "noun", "meaning_en": "the form used to compare two things (usually -er)", "meaning_ar": "صيغة المقارنة", "note_ar": "", "note_en": "", "example": "\"Bigger\" is a comparative."},
+      {"word": "superlative", "pos": "noun", "meaning_en": "the form for number one in a group, top or bottom (usually -est)", "meaning_ar": "صيغة التفضيل العليا", "note_ar": "تذكّر Superman = الأقوى", "note_en": "Think of Superman: the best.", "example": "\"Biggest\" is a superlative."},
+      {"word": "good – better – best", "pos": "adjective", "meaning_en": "irregular forms of \"good\"", "meaning_ar": "جيد – أفضل – الأفضل", "note_ar": "", "note_en": "", "example": "Cheryl was the best student in her class."},
+      {"word": "bad – worse – worst", "pos": "adjective", "meaning_en": "irregular forms of \"bad\"", "meaning_ar": "سيئ – أسوأ – الأسوأ", "note_ar": "لا نقول badder / baddest", "note_en": "Not \"badder\" or \"baddest\".", "example": "My second test was worse than the first."},
+      {"word": "many – more – most", "pos": "determiner", "meaning_en": "irregular forms for amounts (countable)", "meaning_ar": "كثير – أكثر – الأكثر", "note_ar": "", "note_en": "", "example": "She had the most awards."},
+      {"word": "little – less – least", "pos": "determiner", "meaning_en": "irregular forms for small amounts", "meaning_ar": "قليل – أقل – الأقل", "note_ar": "", "note_en": "", "example": "I have the least money of the three."},
+      {"word": "far – farther – farthest", "pos": "adjective/adverb", "meaning_en": "forms for distance (also further / furthest)", "meaning_ar": "بعيد – أبعد – الأبعد", "note_ar": "يُضاف th وليس er فقط", "note_en": "Note the added \"th\".", "example": "Who lives the farthest from school?"},
+      {"word": "exception", "pos": "noun", "meaning_en": "something that does not follow the rule", "meaning_ar": "استثناء", "note_ar": "", "note_en": "", "example": "\"Good, better, best\" is an exception to the -er/-est rule."},
+      {"word": "root word", "pos": "noun", "meaning_en": "the basic word before endings are added", "meaning_ar": "الكلمة الأصلية", "note_ar": "", "note_en": "", "example": "\"Big\" is the root word of \"bigger\"."},
+      {"word": "improvement", "pos": "noun", "meaning_en": "getting better", "meaning_ar": "تحسّن", "note_ar": "", "note_en": "", "example": "From 75% to 90% is a big improvement."},
+      {"word": "syllable", "pos": "noun", "meaning_en": "a part of a word with one vowel sound", "meaning_ar": "مقطع صوتي", "note_ar": "", "note_en": "", "example": "\"Friend-ly\" has two syllables."},
+      {"word": "friendly", "pos": "adjective", "meaning_en": "kind and nice to others", "meaning_ar": "ودود", "note_ar": "friendlier / more friendly", "note_en": "friendlier / more friendly", "example": "He is the friendliest person I know."},
+      {"word": "gentle", "pos": "adjective", "meaning_en": "soft and kind", "meaning_ar": "لطيف / رقيق", "note_ar": "", "note_en": "", "example": "Be gentle with the baby."},
+      {"word": "awkward", "pos": "adjective", "meaning_en": "not smooth or natural", "meaning_ar": "ركيك / غير سلس", "note_ar": "", "note_en": "", "example": "\"The #1 student\" sounds awkward; say \"the best student\"."}
+    ],
+    "fine_lines": [
+      {"title": "worse vs worst", "words": ["worse", "worst"], "explanation_ar": "worse للمقارنة بين شيئين (أسوأ من). worst للتفضيل (الأسوأ في المجموعة) ويأتي مع the.", "explanation_en": "\"Worse\" compares two things (worse than). \"Worst\" is the superlative (the worst in a group), used with \"the\".", "examples": [{"word": "worse", "sentence": "Today's weather is worse than yesterday's."}, {"word": "worst", "sentence": "That was the worst day of the year."}]},
+      {"title": "less vs least", "words": ["less", "least"], "explanation_ar": "less = أقل (مقارنة بين شيئين). least = الأقل (من بين الكل).", "explanation_en": "\"Less\" = a smaller amount than another. \"Least\" = the smallest amount of all.", "examples": [{"word": "less", "sentence": "I have less money than you."}, {"word": "least", "sentence": "Of the three friends, I have the least money."}]},
+      {"title": "the most ≠ 100%", "words": ["the most", "the best"], "explanation_ar": "the most لا تعني 100%، بل أكبر كمية مقارنة بالآخرين (60% أكثر من 40%). the best تعني رقم واحد.", "explanation_en": "\"The most\" doesn't mean 100%; it means the biggest amount compared to others (60% is more than 40%). \"The best\" means number one.", "examples": [{"word": "the most", "sentence": "She had the most awards in her class."}, {"word": "the best", "sentence": "She was the best student."}]}
+    ],
+    "expressions": [
+      {"phrase": "the best student in the class", "meaning_ar": "أفضل طالب في الصف", "meaning_en": "number one student", "example": "Cheryl was the best student in her class."},
+      {"phrase": "the least amount of mistakes", "meaning_ar": "أقل عدد من الأخطاء", "meaning_en": "the smallest number of mistakes", "example": "Her test had the least amount of mistakes."},
+      {"phrase": "How far is it to your house?", "meaning_ar": "كم يبعد بيتك من هنا؟", "meaning_en": "What is the distance to your house?", "example": "How far is it to your house from here?"}
+    ],
+    "grammar": [
+      {"title": "Regular rule: -er and -est", "explanation_ar": "صيغة المقارنة غالبًا بإضافة er (bigger)، وصيغة التفضيل بإضافة est (biggest). التفضيل = رقم واحد في الأعلى أو في الأسفل.", "explanation_en": "Comparatives usually add -er (bigger); superlatives add -est (biggest). The superlative is number one, at the top or at the bottom.", "examples": ["James is bigger than Mr. E.", "This is the biggest room."]},
+      {"title": "Five exceptions", "explanation_ar": "هذه الصفات لا تتبع القاعدة: good – better – best، bad – worse – worst، many – more – most، little – less – least، far – farther – farthest.", "explanation_en": "These don't follow the rule: good – better – best; bad – worse – worst; many – more – most; little – less – least; far – farther – farthest.", "examples": ["75% is good, 90% is better, 100% is the best.", "49% is bad, 39% is worse, last place is the worst."]},
+      {"title": "Using them to fix awkward sentences", "explanation_ar": "بدل the #1 student قل the best student، وبدل the biggest amount of awards قل the most awards، وبدل not good قل bad، وبدل the lowest amount قل the least.", "explanation_en": "Instead of \"the #1 student\" say \"the best student\"; instead of \"the biggest amount of awards\" say \"the most awards\"; instead of \"not good\" say \"bad\"; instead of \"the lowest amount\" say \"the least\".", "examples": ["Cheryl was the best student in her class.", "She had the most awards.", "She had only one bad mark."]},
+      {"title": "Bonus: some two-syllable adjectives take both forms", "explanation_ar": "بعض الصفات ذات المقطعين تقبل الطريقتين: friendly → friendlier / more friendly، simple → simpler / more simple، gentle → gentler / more gentle. كلاهما صحيح.", "explanation_en": "Some two-syllable adjectives take both forms: friendly → friendlier / more friendly; simple → simpler / more simple; gentle → gentler / more gentle. Both are correct.", "examples": ["He's the friendliest / the most friendly person I know.", "This is the simplest / the most simple way."]}
+    ]
+  },
+  "questions": [
+    {"question": "good → better → ___", "choices": ["goodest", "best", "most good", "better"], "answer": 1, "explanation_ar": "صيغة التفضيل من good هي best.", "explanation_en": "The superlative of good is best."},
+    {"question": "\"My second test was ___ than the first.\" (bad)", "choices": ["badder", "worst", "worse", "more bad"], "answer": 2, "explanation_ar": "مقارنة bad: worse.", "explanation_en": "Comparative of bad: worse."},
+    {"question": "\"She had the ___ awards in her class.\"", "choices": ["most", "more", "many", "best amount"], "answer": 0, "explanation_ar": "التفضيل من many: most.", "explanation_en": "Superlative of many: most."},
+    {"question": "\"I have ___ money than you.\"", "choices": ["least", "littler", "less", "lesser of"], "answer": 2, "explanation_ar": "مقارنة little: less.", "explanation_en": "Comparative of little: less."},
+    {"question": "far → farther → ___", "choices": ["farrest", "most far", "farer", "farthest"], "answer": 3, "explanation_ar": "التفضيل: farthest.", "explanation_en": "Superlative: farthest."},
+    {"question": "\"That was the ___ day of my life.\" (very bad)", "choices": ["worse", "worst", "baddest", "most bad"], "answer": 1, "explanation_ar": "التفضيل من bad: the worst.", "explanation_en": "Superlative of bad: the worst."},
+    {"question": "Which is NOT correct?", "choices": ["friendlier", "more friendly", "badder", "simpler"], "answer": 2, "explanation_ar": "لا نقول badder بل worse.", "explanation_en": "We don't say \"badder\"; we say \"worse\"."},
+    {"question": "Better way to say \"Cheryl was the #1 student\":", "choices": ["Cheryl was the goodest student.", "Cheryl was the most student.", "Cheryl was the better student.", "Cheryl was the best student."], "answer": 3, "explanation_ar": "the best = رقم واحد.", "explanation_en": "\"The best\" = number one."},
+    {"question": "\"The most\" means ___.", "choices": ["exactly 100%", "the biggest amount compared to others", "the smallest amount", "number one in quality"], "answer": 1, "explanation_ar": "أكبر كمية مقارنة بالآخرين.", "explanation_en": "The biggest amount compared to others."},
+    {"question": "A superlative is ___.", "choices": ["number one in a group (top or bottom)", "a comparison of two things", "a question word", "a base adjective"], "answer": 0, "explanation_ar": "التفضيل = رقم واحد في المجموعة.", "explanation_en": "A superlative = number one in a group."}
+  ]
+}

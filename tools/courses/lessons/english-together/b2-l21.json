@@ -1,0 +1,430 @@
+{
+  "title": "Buying a Computer",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "shopkeeper",
+        "pos": "noun",
+        "meaning_en": "a person who owns or runs a shop",
+        "meaning_ar": "صاحب المحل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "John is the shopkeeper."
+      },
+      {
+        "word": "computer store",
+        "pos": "noun",
+        "meaning_en": "a shop that sells computers",
+        "meaning_ar": "متجر حواسيب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He works in a computer store."
+      },
+      {
+        "word": "customer",
+        "pos": "noun",
+        "meaning_en": "a person who buys things in a shop",
+        "meaning_ar": "زبون / عميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He helps customers."
+      },
+      {
+        "word": "take notes",
+        "pos": "phrase",
+        "meaning_en": "write down important things",
+        "meaning_ar": "يدوّن الملاحظات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need a laptop for taking notes."
+      },
+      {
+        "word": "budget",
+        "pos": "noun",
+        "meaning_en": "the money you can spend",
+        "meaning_ar": "ميزانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's your budget like?"
+      },
+      {
+        "word": "spend",
+        "pos": "verb",
+        "meaning_en": "use money to buy things",
+        "meaning_ar": "ينفق / يصرف",
+        "note_ar": "الماضي: spent",
+        "note_en": "Past: spent.",
+        "example": "I don't want to spend too much."
+      },
+      {
+        "word": "laptop",
+        "pos": "noun",
+        "meaning_en": "a small computer you can carry",
+        "meaning_ar": "حاسوب محمول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a few laptops."
+      },
+      {
+        "word": "price range",
+        "pos": "noun",
+        "meaning_en": "the lowest and highest price you will pay",
+        "meaning_ar": "نطاق السعر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They are in your price range."
+      },
+      {
+        "word": "processor",
+        "pos": "noun",
+        "meaning_en": "the part of a computer that does the work",
+        "meaning_ar": "المعالج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It has a fast processor."
+      },
+      {
+        "word": "RAM",
+        "pos": "noun",
+        "meaning_en": "the computer memory for running programs",
+        "meaning_ar": "ذاكرة الوصول العشوائي (رام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It has 8GB of RAM."
+      },
+      {
+        "word": "good value",
+        "pos": "phrase",
+        "meaning_en": "worth the money",
+        "meaning_ar": "يستحق ثمنه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's a good value for the price."
+      },
+      {
+        "word": "specs",
+        "pos": "noun",
+        "meaning_en": "the technical details of a machine (short for specifications)",
+        "meaning_ar": "المواصفات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The specs are good."
+      },
+      {
+        "word": "program",
+        "pos": "noun",
+        "meaning_en": "software on a computer",
+        "meaning_ar": "برنامج",
+        "note_ar": "في بريطانيا: programme (للتلفاز) لكن الحاسوب program",
+        "note_en": "UK uses \"program\" for computers too.",
+        "example": "Can it run the programs I need?"
+      },
+      {
+        "word": "pre-installed",
+        "pos": "adjective",
+        "meaning_en": "already put on the computer before you buy it",
+        "meaning_ar": "مثبّت مسبقًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Office is pre-installed."
+      },
+      {
+        "word": "hard drive",
+        "pos": "noun",
+        "meaning_en": "the part of a computer that stores files",
+        "meaning_ar": "القرص الصلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It has a larger hard drive."
+      },
+      {
+        "word": "storage space",
+        "pos": "noun",
+        "meaning_en": "room to keep files",
+        "meaning_ar": "مساحة التخزين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It has more storage space."
+      },
+      {
+        "word": "accessories",
+        "pos": "noun",
+        "meaning_en": "extra things you can add, like a case or a mouse",
+        "meaning_ar": "ملحقات / إكسسوارات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you need any accessories?"
+      },
+      {
+        "word": "mouse",
+        "pos": "noun",
+        "meaning_en": "a small device you move to control the computer",
+        "meaning_ar": "فأرة الحاسوب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take a mouse."
+      },
+      {
+        "word": "register",
+        "pos": "noun",
+        "meaning_en": "the place where you pay in a shop",
+        "meaning_ar": "آلة الدفع / الكاشير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me ring you up at the register."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "expensive vs cheap",
+        "words": [
+          "expensive",
+          "cheap"
+        ],
+        "explanation_ar": "expensive = غالٍ. cheap = رخيص. للمقارنة: more expensive / cheaper.",
+        "explanation_en": "\"Expensive\" = costs a lot. \"Cheap\" = costs little. Comparative: more expensive / cheaper.",
+        "examples": [
+          {
+            "word": "expensive",
+            "sentence": "It's a bit more expensive."
+          },
+          {
+            "word": "cheap",
+            "sentence": "This one is cheaper."
+          }
+        ]
+      },
+      {
+        "title": "stick with vs go for",
+        "words": [
+          "stick with",
+          "go for"
+        ],
+        "explanation_ar": "stick with = تبقى على اختيارك الأول. go for = تختار شيئًا.",
+        "explanation_en": "\"Stick with\" = keep your first choice. \"Go for\" = choose.",
+        "examples": [
+          {
+            "word": "stick with",
+            "sentence": "I'll stick with the first one."
+          },
+          {
+            "word": "go for",
+            "sentence": "I'll go for the bigger one."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What can I help you with?",
+        "meaning_ar": "بماذا يمكنني مساعدتك؟",
+        "meaning_en": "The shopkeeper offers help.",
+        "example": "Hi! What can I help you with today?"
+      },
+      {
+        "phrase": "I need a new computer for school.",
+        "meaning_ar": "أحتاج حاسوبًا جديدًا للمدرسة.",
+        "meaning_en": "Saying what you need.",
+        "example": "I need a new phone for work."
+      },
+      {
+        "phrase": "What's your budget like?",
+        "meaning_ar": "كم ميزانيتك؟",
+        "meaning_en": "Asking how much you can spend.",
+        "example": "Before we start, what's your budget like?"
+      },
+      {
+        "phrase": "I don't want to spend too much.",
+        "meaning_ar": "لا أريد أن أنفق كثيرًا.",
+        "meaning_en": "You want a low price.",
+        "example": "I don't want to spend too much on shoes."
+      },
+      {
+        "phrase": "Let me show you what we have.",
+        "meaning_ar": "دعني أريك ما لدينا.",
+        "meaning_en": "The seller offers to show products.",
+        "example": "Let me show you our new phones."
+      },
+      {
+        "phrase": "Can I see it and try it out?",
+        "meaning_ar": "هل يمكنني رؤيته وتجربته؟",
+        "meaning_en": "Asking to test something.",
+        "example": "Can I try this phone out?"
+      },
+      {
+        "phrase": "Do you have any other options?",
+        "meaning_ar": "هل لديكم خيارات أخرى؟",
+        "meaning_en": "Asking for more choices.",
+        "example": "I'm not sure. Do you have any other options?"
+      },
+      {
+        "phrase": "I think I'll stick with the first one.",
+        "meaning_ar": "أظن أنني سأبقى على الأول.",
+        "meaning_en": "Keeping your first choice.",
+        "example": "They're both nice, but I'll stick with the first one."
+      },
+      {
+        "phrase": "Do you need any accessories?",
+        "meaning_ar": "هل تحتاج أي ملحقات؟",
+        "meaning_en": "Offering extra things.",
+        "example": "Do you need a case for your phone?"
+      },
+      {
+        "phrase": "Good luck with your studies!",
+        "meaning_ar": "بالتوفيق في دراستك!",
+        "meaning_en": "A kind wish to a student.",
+        "example": "Good luck with your exams!"
+      },
+      {
+        "phrase": "Thank you, I appreciate it.",
+        "meaning_ar": "شكرًا، أقدّر ذلك.",
+        "meaning_en": "A polite thank you.",
+        "example": "Thanks for your help. I appreciate it."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Comparatives: larger, more expensive",
+        "explanation_ar": "للصفات القصيرة نضيف er (larger)، وللطويلة نستخدم more (more expensive). ونقارن بـ than.",
+        "explanation_en": "Short adjectives + -er (larger). Long adjectives: more + adjective (more expensive). Use \"than\".",
+        "examples": [
+          "It has a larger hard drive.",
+          "It's a bit more expensive.",
+          "This laptop is lighter than that one."
+        ]
+      },
+      {
+        "title": "will for offers: I'll grab it / I'll add it",
+        "explanation_ar": "نستخدم I'll + فعل عندما نعرض أن نفعل شيئًا الآن.",
+        "explanation_en": "Use \"I'll + verb\" to offer to do something now.",
+        "examples": [
+          "I'll grab that for you.",
+          "I'll add that to your purchase.",
+          "I'll take a mouse."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What's your ____? Maybe around $600.",
+      "choices": [
+        "budget",
+        "processor",
+        "register",
+        "mouse"
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن الميزانية.",
+      "explanation_en": "The question is about the budget."
+    },
+    {
+      "question": "It's a bit ____ expensive.",
+      "choices": [
+        "most",
+        "more",
+        "much more than",
+        "very more"
+      ],
+      "answer": 1,
+      "explanation_ar": "الصفة الطويلة: more expensive.",
+      "explanation_en": "We say \"more expensive\"."
+    },
+    {
+      "question": "\"I'll stick with the first one.\" means ...",
+      "choices": [
+        "I'll choose the first one again.",
+        "I'll break the first one.",
+        "I'll buy both.",
+        "I won't buy any."
+      ],
+      "answer": 0,
+      "explanation_ar": "يبقى على اختياره الأول.",
+      "explanation_en": "He keeps his first choice."
+    },
+    {
+      "question": "A mouse and a case are ...",
+      "choices": [
+        "programs",
+        "processors",
+        "accessories",
+        "specs"
+      ],
+      "answer": 2,
+      "explanation_ar": "هي ملحقات.",
+      "explanation_en": "They are accessories."
+    },
+    {
+      "question": "\"Pre-installed\" means ...",
+      "choices": [
+        "not working",
+        "already on the computer",
+        "very expensive",
+        "easy to carry"
+      ],
+      "answer": 1,
+      "explanation_ar": "مثبت مسبقًا على الجهاز.",
+      "explanation_en": "Already put on the computer."
+    },
+    {
+      "question": "It has a ____ hard drive.",
+      "choices": [
+        "large",
+        "larger",
+        "more large",
+        "largest than"
+      ],
+      "answer": 1,
+      "explanation_ar": "المقارنة: larger.",
+      "explanation_en": "Comparative: larger."
+    },
+    {
+      "question": "\"It's a good value.\" means ...",
+      "choices": [
+        "It is free.",
+        "It is broken.",
+        "It is very small.",
+        "It is worth the money."
+      ],
+      "answer": 3,
+      "explanation_ar": "يستحق ثمنه.",
+      "explanation_en": "It is worth the money."
+    },
+    {
+      "question": "Where do you pay in a shop?",
+      "choices": [
+        "at the hard drive",
+        "at the laptop",
+        "at the register",
+        "at the specs"
+      ],
+      "answer": 2,
+      "explanation_ar": "ندفع عند الكاشير.",
+      "explanation_en": "At the register."
+    },
+    {
+      "question": "\"Thank you, I ____ it.\"",
+      "choices": [
+        "appreciating",
+        "appreciated it to",
+        "appreciates",
+        "appreciate"
+      ],
+      "answer": 3,
+      "explanation_ar": "نقول I appreciate it.",
+      "explanation_en": "We say \"I appreciate it\"."
+    },
+    {
+      "question": "A laptop is ...",
+      "choices": [
+        "a big desk",
+        "a computer you can carry",
+        "a kind of mouse",
+        "a shop"
+      ],
+      "answer": 1,
+      "explanation_ar": "حاسوب محمول.",
+      "explanation_en": "A computer you can carry."
+    }
+  ]
+}

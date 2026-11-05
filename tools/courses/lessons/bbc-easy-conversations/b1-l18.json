@@ -1,0 +1,496 @@
+{
+ "title": "Comparing things",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "tall / taller / the tallest",
+    "pos": "adjective",
+    "meaning_en": "high (person); more tall; most tall",
+    "meaning_ar": "طويل / أطول / الأطول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Tim is the tallest."
+   },
+   {
+    "word": "short / shorter / the shortest",
+    "pos": "adjective",
+    "meaning_en": "not tall; less tall; least tall",
+    "meaning_ar": "قصير / أقصر / الأقصر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm the shortest."
+   },
+   {
+    "word": "strong / stronger / the strongest",
+    "pos": "adjective",
+    "meaning_en": "having a lot of power in your body",
+    "meaning_ar": "قوي / أقوى / الأقوى",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Buli is the strongest."
+   },
+   {
+    "word": "weak / weaker / the weakest",
+    "pos": "adjective",
+    "meaning_en": "not strong",
+    "meaning_ar": "ضعيف / أضعف / الأضعف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm weaker than Buli."
+   },
+   {
+    "word": "fast / faster / the fastest",
+    "pos": "adjective",
+    "meaning_en": "quick",
+    "meaning_ar": "سريع / أسرع / الأسرع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Who is the fastest?"
+   },
+   {
+    "word": "slow / slower / the slowest",
+    "pos": "adjective",
+    "meaning_en": "not fast",
+    "meaning_ar": "بطيء / أبطأ / الأبطأ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I was the slowest."
+   },
+   {
+    "word": "happy / happier / the happiest",
+    "pos": "adjective",
+    "meaning_en": "feeling good",
+    "meaning_ar": "سعيد / أسعد / الأسعد",
+    "note_ar": "الصفة المنتهية بـ y: نحذف y ونضيف ier / iest.",
+    "note_en": "Adjectives ending in -y: change y to i, add -er / -est.",
+    "example": "You are the happiest person here."
+   },
+   {
+    "word": "good / better / the best",
+    "pos": "adjective",
+    "meaning_en": "irregular: good, better, best",
+    "meaning_ar": "جيد / أفضل / الأفضل",
+    "note_ar": "صفة شاذة.",
+    "note_en": "Irregular.",
+    "example": "Sian's cake is the best."
+   },
+   {
+    "word": "bad / worse / the worst",
+    "pos": "adjective",
+    "meaning_en": "irregular: bad, worse, worst",
+    "meaning_ar": "سيئ / أسوأ / الأسوأ",
+    "note_ar": "صفة شاذة.",
+    "note_en": "Irregular.",
+    "example": "Sian is bad, but Buli is worse."
+   },
+   {
+    "word": "than",
+    "pos": "conjunction",
+    "meaning_en": "used to compare two things",
+    "meaning_ar": "من (في المقارنة)",
+    "note_ar": "لا تخلط بين than (من) وthen (ثم).",
+    "note_en": "Don't confuse than with then.",
+    "example": "I'm taller than Georgie."
+   },
+   {
+    "word": "metre",
+    "pos": "noun",
+    "meaning_en": "a measure of length (100 cm)",
+    "meaning_ar": "متر",
+    "note_ar": "في أمريكا: meter.",
+    "note_en": "US spelling: meter.",
+    "example": "I'm one metre 88."
+   },
+   {
+    "word": "competition",
+    "pos": "noun",
+    "meaning_en": "an event to find who is the best",
+    "meaning_ar": "مسابقة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Let's have a different competition."
+   },
+   {
+    "word": "judge",
+    "pos": "noun",
+    "meaning_en": "a person who decides who wins",
+    "meaning_ar": "حَكَم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We need a judge."
+   },
+   {
+    "word": "cake",
+    "pos": "noun",
+    "meaning_en": "a sweet baked food",
+    "meaning_ar": "كعكة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Who can make the best cake?"
+   },
+   {
+    "word": "amazing",
+    "pos": "adjective",
+    "meaning_en": "very, very good",
+    "meaning_ar": "مذهل / رائع جدًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This cake is amazing."
+   },
+   {
+    "word": "not bad",
+    "pos": "phrase",
+    "meaning_en": "quite good, OK",
+    "meaning_ar": "ليس سيئًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This cake is not bad."
+   },
+   {
+    "word": "whose",
+    "pos": "determiner",
+    "meaning_en": "asking who something belongs to",
+    "meaning_ar": "لِمن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Whose cake is this?"
+   },
+   {
+    "word": "mine",
+    "pos": "pronoun",
+    "meaning_en": "belonging to me",
+    "meaning_ar": "لي / ملكي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's mine."
+   },
+   {
+    "word": "points",
+    "pos": "noun",
+    "meaning_en": "numbers you get in a game or competition",
+    "meaning_ar": "نقاط",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Five points!"
+   },
+   {
+    "word": "congratulations",
+    "pos": "noun",
+    "meaning_en": "words to say well done",
+    "meaning_ar": "تهانينا / مبروك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Congratulations on making the best cake."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "taller vs the tallest",
+    "words": [
+     "taller",
+     "the tallest"
+    ],
+    "explanation_ar": "نستخدم المقارنة taller + than لمقارنة شيئين، ونستخدم التفضيل the tallest للأعلى في مجموعة كاملة (ثلاثة أو أكثر).",
+    "explanation_en": "Use taller than to compare two. Use the tallest for the top one in a group.",
+    "examples": [
+     {
+      "word": "taller",
+      "sentence": "I'm taller than Georgie."
+     },
+     {
+      "word": "the tallest",
+      "sentence": "Tim is the tallest."
+     }
+    ]
+   },
+   {
+    "title": "better vs the best",
+    "words": [
+     "better",
+     "the best"
+    ],
+    "explanation_ar": "good صفة شاذة: better = أفضل من، the best = الأفضل على الإطلاق. لا نقول gooder.",
+    "explanation_en": "Good is irregular: better (than), the best. Never \"gooder\".",
+    "examples": [
+     {
+      "word": "better",
+      "sentence": "Georgie's cake is better than Buli's."
+     },
+     {
+      "word": "the best",
+      "sentence": "Sian's cake is the best."
+     }
+    ]
+   },
+   {
+    "title": "worse vs the worst",
+    "words": [
+     "worse",
+     "the worst"
+    ],
+    "explanation_ar": "bad صفة شاذة: worse = أسوأ من، the worst = الأسوأ على الإطلاق. لا نقول badder.",
+    "explanation_en": "Bad is irregular: worse (than), the worst. Never \"badder\".",
+    "examples": [
+     {
+      "word": "worse",
+      "sentence": "Georgie is worse than Sian."
+     },
+     {
+      "word": "the worst",
+      "sentence": "Tim is the worst."
+     }
+    ]
+   },
+   {
+    "title": "than vs then",
+    "words": [
+     "than",
+     "then"
+    ],
+    "explanation_ar": "than للمقارنة (أطول من)، أما then فتعني ثم / بعد ذلك.",
+    "explanation_en": "Than is for comparing; then means after that.",
+    "examples": [
+     {
+      "word": "than",
+      "sentence": "Buli is stronger than Tim."
+     },
+     {
+      "word": "then",
+      "sentence": "We made cakes, then we ate them."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Who is the tallest?",
+    "meaning_ar": "من الأطول؟",
+    "meaning_en": "asking who is top in height",
+    "example": "Who is the tallest in your family?"
+   },
+   {
+    "phrase": "Let's find out!",
+    "meaning_ar": "لنكتشف!",
+    "meaning_en": "suggesting we check the answer",
+    "example": "Who is the strongest? Let's find out!"
+   },
+   {
+    "phrase": "I'm one metre 70.",
+    "meaning_ar": "طولي متر وسبعون سنتيمترًا.",
+    "meaning_en": "saying your height",
+    "example": "How tall are you? I'm one metre 70."
+   },
+   {
+    "phrase": "On your marks, get set, go!",
+    "meaning_ar": "خذوا أماكنكم، استعدوا، انطلقوا!",
+    "meaning_en": "words to start a race",
+    "example": "On your marks, get set, go!"
+   },
+   {
+    "phrase": "Time's up!",
+    "meaning_ar": "انتهى الوقت!",
+    "meaning_en": "saying there is no more time",
+    "example": "Okay, time's up! Bring me your cakes."
+   },
+   {
+    "phrase": "Whose cake is this? It's mine.",
+    "meaning_ar": "لِمن هذه الكعكة؟ إنها لي.",
+    "meaning_en": "asking and saying who owns something",
+    "example": "Whose cake is this? It's mine."
+   },
+   {
+    "phrase": "This cake is not bad.",
+    "meaning_ar": "هذه الكعكة ليست سيئة.",
+    "meaning_en": "a polite way to say it's OK",
+    "example": "This cake is not bad."
+   },
+   {
+    "phrase": "It's better than Buli's.",
+    "meaning_ar": "إنها أفضل من كعكة بولي.",
+    "meaning_en": "comparing two things",
+    "example": "This is good. It's better than Buli's."
+   },
+   {
+    "phrase": "It is the best!",
+    "meaning_ar": "إنها الأفضل!",
+    "meaning_en": "saying something is number one",
+    "example": "This cake is amazing. It is the best!"
+   },
+   {
+    "phrase": "Congratulations on making the best cake.",
+    "meaning_ar": "مبروك على صنع أفضل كعكة.",
+    "meaning_en": "praising someone for winning",
+    "example": "Congratulations on making the best cake!"
+   },
+   {
+    "phrase": "Let's have a different competition.",
+    "meaning_ar": "لنقم بمسابقة أخرى.",
+    "meaning_en": "suggesting a new contest",
+    "example": "Okay, let's have a different competition."
+   },
+   {
+    "phrase": "I was the fastest!",
+    "meaning_ar": "كنت الأسرع!",
+    "meaning_en": "saying you won a race",
+    "example": "I was the fastest!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Comparatives: adjective + -er + than",
+    "explanation_ar": "لمقارنة شيئين نضيف er إلى الصفة القصيرة ثم than: tall → taller than. الصفة المنتهية بـ y: happy → happier.",
+    "explanation_en": "To compare two things, add -er + than. Adjectives ending in -y: happy → happier.",
+    "examples": [
+     "I'm taller than Georgie, but shorter than Buli.",
+     "I'm weaker than Buli, but stronger than Tim.",
+     "I was faster than Tim, but slower than Georgie.",
+     "You look happier than Tim."
+    ]
+   },
+   {
+    "title": "Superlatives: the + adjective + -est",
+    "explanation_ar": "للأعلى في مجموعة نستخدم the + الصفة + est: the tallest, the strongest, the happiest.",
+    "explanation_en": "For the top one in a group: the + adjective + -est.",
+    "examples": [
+     "Tim is the tallest.",
+     "Buli is the strongest.",
+     "I was the slowest.",
+     "You are the happiest person here."
+    ]
+   },
+   {
+    "title": "Irregular: good / bad",
+    "explanation_ar": "good → better → the best، وbad → worse → the worst.",
+    "explanation_en": "Good → better → the best. Bad → worse → the worst.",
+    "examples": [
+     "Tim's cake is better than Buli's cake.",
+     "Sian's cake is the best.",
+     "Buli is worse than Sian.",
+     "Tim is the worst."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Complete: \"Buli is ___ than Georgie.\"",
+   "choices": [
+    "tall",
+    "taller",
+    "tallest",
+    "the tallest"
+   ],
+   "answer": 1,
+   "explanation_ar": "المقارنة مع than: taller.",
+   "explanation_en": "With than, use the comparative: taller."
+  },
+  {
+   "question": "Complete: \"Tim is ___ in the group.\"",
+   "choices": [
+    "taller",
+    "tall",
+    "the tallest",
+    "more tall"
+   ],
+   "answer": 2,
+   "explanation_ar": "الأعلى في المجموعة: the tallest.",
+   "explanation_en": "Top of the group: the tallest."
+  },
+  {
+   "question": "What is the comparative of \"good\"?",
+   "choices": [
+    "gooder",
+    "better",
+    "best",
+    "more good"
+   ],
+   "answer": 1,
+   "explanation_ar": "الصفة good شاذة: better.",
+   "explanation_en": "Good → better."
+  },
+  {
+   "question": "What is the superlative of \"bad\"?",
+   "choices": [
+    "the worst",
+    "the baddest",
+    "the worse",
+    "the most bad"
+   ],
+   "answer": 0,
+   "explanation_ar": "الصفة bad شاذة: the worst.",
+   "explanation_en": "Bad → the worst."
+  },
+  {
+   "question": "Complete: \"You look ___ than Tim.\"",
+   "choices": [
+    "happyer",
+    "more happy",
+    "happiest",
+    "happier"
+   ],
+   "answer": 3,
+   "explanation_ar": "happy → happier (y تصبح i).",
+   "explanation_en": "Happy → happier."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I'm stronger then Tim.",
+    "I'm stronger than Tim.",
+    "I'm more strong than Tim.",
+    "I'm strongest than Tim."
+   ],
+   "answer": 1,
+   "explanation_ar": "نقول stronger + than (وليس then).",
+   "explanation_en": "Stronger than (not then)."
+  },
+  {
+   "question": "\"Whose cake is this?\" Choose the best answer.",
+   "choices": [
+    "It's mine.",
+    "It's me.",
+    "It's I.",
+    "It's my."
+   ],
+   "answer": 0,
+   "explanation_ar": "mine = ملكي.",
+   "explanation_en": "Mine = belonging to me."
+  },
+  {
+   "question": "What do we say to start a race?",
+   "choices": [
+    "Time's up!",
+    "On your marks, get set, go!",
+    "Congratulations!",
+    "Not bad!"
+   ],
+   "answer": 1,
+   "explanation_ar": "On your marks, get set, go! لبدء السباق.",
+   "explanation_en": "We start a race with this phrase."
+  },
+  {
+   "question": "\"This cake is amazing\" means ...",
+   "choices": [
+    "The cake is very good.",
+    "The cake is bad.",
+    "The cake is OK.",
+    "The cake is small."
+   ],
+   "answer": 0,
+   "explanation_ar": "amazing = رائع جدًا.",
+   "explanation_en": "Amazing = very, very good."
+  },
+  {
+   "question": "The opposite of \"the fastest\" is ...",
+   "choices": [
+    "the slower",
+    "the strongest",
+    "the weakest",
+    "the slowest"
+   ],
+   "answer": 3,
+   "explanation_ar": "عكس the fastest هو the slowest.",
+   "explanation_en": "The opposite is the slowest."
+  }
+ ]
+}

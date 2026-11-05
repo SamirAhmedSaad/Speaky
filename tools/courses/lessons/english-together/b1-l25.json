@@ -1,0 +1,392 @@
+{
+  "title": "Talking About New Hobbies",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "hobby",
+        "pos": "noun",
+        "meaning_en": "something you enjoy doing in free time",
+        "meaning_ar": "هواية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have any new hobbies?"
+      },
+      {
+        "word": "photography",
+        "pos": "noun",
+        "meaning_en": "taking photos",
+        "meaning_ar": "التصوير الفوتوغرافي",
+        "note_ar": "photograph/photo = صورة",
+        "note_en": "photo = a picture",
+        "example": "Photography is my favorite hobby."
+      },
+      {
+        "word": "class",
+        "pos": "noun",
+        "meaning_en": "a lesson or course",
+        "meaning_ar": "حصة / دورة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm taking a cooking class."
+      },
+      {
+        "word": "take pictures",
+        "pos": "phrase",
+        "meaning_en": "make photos with a camera or phone",
+        "meaning_ar": "يلتقط صورًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like to take pictures of the sea."
+      },
+      {
+        "word": "nature",
+        "pos": "noun",
+        "meaning_en": "plants, animals, mountains and the sea",
+        "meaning_ar": "الطبيعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love nature."
+      },
+      {
+        "word": "flowers",
+        "pos": "noun",
+        "meaning_en": "the colorful parts of plants",
+        "meaning_ar": "زهور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The flowers are beautiful."
+      },
+      {
+        "word": "cook",
+        "pos": "verb",
+        "meaning_en": "make food",
+        "meaning_ar": "يطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm learning to cook."
+      },
+      {
+        "word": "sushi",
+        "pos": "noun",
+        "meaning_en": "a Japanese food of rice and fish",
+        "meaning_ar": "سوشي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I made sushi last week."
+      },
+      {
+        "word": "delicious",
+        "pos": "adjective",
+        "meaning_en": "tasting very good",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was delicious!"
+      },
+      {
+        "word": "bake",
+        "pos": "verb",
+        "meaning_en": "cook bread or cakes in an oven",
+        "meaning_ar": "يخبز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to bake cookies."
+      },
+      {
+        "word": "cookies",
+        "pos": "noun",
+        "meaning_en": "small sweet baked cakes",
+        "meaning_ar": "بسكويت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My sister bakes cookies."
+      },
+      {
+        "word": "run",
+        "pos": "verb",
+        "meaning_en": "move fast on your feet",
+        "meaning_ar": "يركض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I run three times a week."
+      },
+      {
+        "word": "jog",
+        "pos": "verb",
+        "meaning_en": "run slowly for exercise",
+        "meaning_ar": "يهرول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I jog in the morning."
+      },
+      {
+        "word": "relax",
+        "pos": "verb",
+        "meaning_en": "rest and feel calm",
+        "meaning_ar": "يسترخي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Running helps me relax."
+      },
+      {
+        "word": "join",
+        "pos": "verb",
+        "meaning_en": "do something together with someone",
+        "meaning_ar": "ينضمّ إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I join you?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "cook vs bake",
+        "words": [
+          "cook",
+          "bake"
+        ],
+        "explanation_ar": "cook عامة: يطبخ أي طعام. bake تعني يخبز في الفرن (خبز، كعك، بسكويت).",
+        "explanation_en": "Cook = make any food. Bake = cook in an oven (bread, cakes, cookies).",
+        "examples": [
+          {
+            "word": "cook",
+            "sentence": "I can cook rice and chicken."
+          },
+          {
+            "word": "bake",
+            "sentence": "I want to bake cookies."
+          }
+        ]
+      },
+      {
+        "title": "run vs jog",
+        "words": [
+          "run",
+          "jog"
+        ],
+        "explanation_ar": "run تعني يركض (بسرعة)، و jog تعني يهرول (ركض بطيء للرياضة).",
+        "explanation_en": "Run = move fast. Jog = run slowly for exercise.",
+        "examples": [
+          {
+            "word": "run",
+            "sentence": "He runs very fast."
+          },
+          {
+            "word": "jog",
+            "sentence": "I jog in the park on Fridays."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What can I get you? Coffee or tea?",
+        "meaning_ar": "ماذا أحضر لك؟ قهوة أم شاي؟",
+        "meaning_en": "Offer a drink.",
+        "example": "Welcome! What can I get you? Coffee or tea?"
+      },
+      {
+        "phrase": "Coffee, please.",
+        "meaning_ar": "قهوة من فضلك.",
+        "meaning_en": "Choose politely.",
+        "example": "Tea or juice? Juice, please."
+      },
+      {
+        "phrase": "Any new hobbies?",
+        "meaning_ar": "هل لديك هوايات جديدة؟",
+        "meaning_en": "Ask about new hobbies.",
+        "example": "What about you? Any new hobbies?"
+      },
+      {
+        "phrase": "I started taking photography classes.",
+        "meaning_ar": "بدأت أحضر دروسًا في التصوير.",
+        "meaning_en": "Talk about something new you began.",
+        "example": "I started taking swimming classes."
+      },
+      {
+        "phrase": "What do you enjoy taking pictures of?",
+        "meaning_ar": "ما الذي تستمتع بتصويره؟",
+        "meaning_en": "Ask about someone's hobby.",
+        "example": "What do you enjoy taking pictures of? Flowers."
+      },
+      {
+        "phrase": "I want to see your photos.",
+        "meaning_ar": "أريد أن أرى صورك.",
+        "meaning_en": "Show interest.",
+        "example": "You took photos of the sea? I want to see your photos."
+      },
+      {
+        "phrase": "How often do you run?",
+        "meaning_ar": "كم مرة تركض؟",
+        "meaning_en": "Ask about frequency.",
+        "example": "How often do you run? Three times a week."
+      },
+      {
+        "phrase": "I should join you one day.",
+        "meaning_ar": "يجب أن أنضمّ إليك يومًا ما.",
+        "meaning_en": "Say you want to do it together sometime.",
+        "example": "You walk every evening? I should join you one day."
+      },
+      {
+        "phrase": "Let's go together!",
+        "meaning_ar": "لنذهب معًا!",
+        "meaning_en": "Suggest doing it together.",
+        "example": "Let's go together on Saturday!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "started + verb-ing / to + verb",
+        "explanation_ar": "بعد started يمكن أن نستخدم فعلًا بـ ing أو to + الفعل: I started taking classes. I started learning to cook.",
+        "explanation_en": "After \"started\" use verb-ing or to + verb.",
+        "examples": [
+          "I started taking photography classes.",
+          "I also started learning to cook.",
+          "She started to jog last month."
+        ]
+      },
+      {
+        "title": "love / enjoy + verb-ing",
+        "explanation_ar": "بعد love و enjoy نستخدم الفعل مع ing: I love taking pictures. What do you enjoy taking pictures of?",
+        "explanation_en": "After love and enjoy use verb-ing.",
+        "examples": [
+          "I love taking pictures of nature.",
+          "What do you enjoy taking pictures of?",
+          "I enjoy cooking with my mother."
+        ]
+      },
+      {
+        "title": "How often...? — three times a week",
+        "explanation_ar": "نسأل عن عدد المرات بـ How often...? والجواب: once a week، twice a week، three times a week، sometimes.",
+        "explanation_en": "Ask \"How often...?\" Answer: once / twice / three times a week.",
+        "examples": [
+          "How often do you run?",
+          "I try to run three times a week.",
+          "I jog sometimes."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I started ___ photography classes.",
+      "choices": [
+        "taking",
+        "take",
+        "took",
+        "takes"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد started يمكن الفعل مع ing.",
+      "explanation_en": "After \"started\" use verb-ing."
+    },
+    {
+      "question": "What do you enjoy ___ pictures of?",
+      "choices": [
+        "take",
+        "to taking",
+        "took",
+        "taking"
+      ],
+      "answer": 3,
+      "explanation_ar": "بعد enjoy الفعل مع ing.",
+      "explanation_en": "After \"enjoy\" use verb-ing."
+    },
+    {
+      "question": "I made sushi last week. It ___ delicious!",
+      "choices": [
+        "is",
+        "were",
+        "was",
+        "be"
+      ],
+      "answer": 2,
+      "explanation_ar": "الماضي: was.",
+      "explanation_en": "Past: was."
+    },
+    {
+      "question": "I want to ___ cookies in the oven.",
+      "choices": [
+        "jog",
+        "bake",
+        "join",
+        "run"
+      ],
+      "answer": 1,
+      "explanation_ar": "bake تعني يخبز في الفرن.",
+      "explanation_en": "Bake = cook in an oven."
+    },
+    {
+      "question": "How ___ do you run? — Three times a week.",
+      "choices": [
+        "much",
+        "many",
+        "long",
+        "often"
+      ],
+      "answer": 3,
+      "explanation_ar": "How often للسؤال عن عدد المرات.",
+      "explanation_en": "\"How often\" asks how many times."
+    },
+    {
+      "question": "To run slowly for exercise is to ___.",
+      "choices": [
+        "jog",
+        "bake",
+        "relax",
+        "cook"
+      ],
+      "answer": 0,
+      "explanation_ar": "jog يهرول.",
+      "explanation_en": "Jog = run slowly."
+    },
+    {
+      "question": "What can I get you? — ___",
+      "choices": [
+        "I'm good at it.",
+        "Coffee, please.",
+        "Three times.",
+        "Let's go."
+      ],
+      "answer": 1,
+      "explanation_ar": "الرد بطلب مشروب بأدب.",
+      "explanation_en": "Ask politely for a drink."
+    },
+    {
+      "question": "Running helps me ___.",
+      "choices": [
+        "to relaxing",
+        "relaxing",
+        "relax",
+        "relaxed"
+      ],
+      "answer": 2,
+      "explanation_ar": "help + شخص + الفعل في أصله.",
+      "explanation_en": "help + person + base verb."
+    },
+    {
+      "question": "Taking photos as a hobby is called ___.",
+      "choices": [
+        "cooking",
+        "running",
+        "photography",
+        "baking"
+      ],
+      "answer": 2,
+      "explanation_ar": "photography التصوير.",
+      "explanation_en": "Photography = taking photos."
+    },
+    {
+      "question": "I should ___ you one day.",
+      "choices": [
+        "joins",
+        "joining",
+        "join",
+        "to join"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد should الفعل في أصله.",
+      "explanation_en": "After \"should\" use the base verb."
+    }
+  ]
+}

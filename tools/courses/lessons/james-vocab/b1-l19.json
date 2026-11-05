@@ -1,0 +1,46 @@
+{
+  "title": "Only, Just, Barely, Merely",
+  "content": {
+    "vocabulary": [
+      {"word": "just (exactly)", "pos": "adverb", "meaning_en": "exactly", "meaning_ar": "بالضبط", "note_ar": "", "note_en": "", "example": "It's just five minutes to my house."},
+      {"word": "just (not much)", "pos": "adverb", "meaning_en": "not that much; only", "meaning_ar": "فقط / ليس كثيرًا", "note_ar": "يطمئن السامع أن الكمية قليلة", "note_en": "It tells the listener it is a small amount.", "example": "Relax, it's just two dollars."},
+      {"word": "just (fair)", "pos": "adjective", "meaning_en": "fair and morally right (formal, used in law)", "meaning_ar": "عادل", "note_ar": "من justice = العدالة، تُسمع في المحاكم", "note_en": "From justice; heard in court and formal writing.", "example": "It was not a just decision."},
+      {"word": "only (adverb)", "pos": "adverb", "meaning_en": "limited to; no more than", "meaning_ar": "فقط (محدود بـ)", "note_ar": "", "note_en": "", "example": "There are only 100 tigers left in that forest."},
+      {"word": "only (adjective)", "pos": "adjective", "meaning_en": "the one and only; one of a kind", "meaning_ar": "الوحيد", "note_ar": "an only child = طفل وحيد", "note_en": "an only child", "example": "He is an only child; he has no brothers or sisters."},
+      {"word": "only (conjunction)", "pos": "conjunction", "meaning_en": "except that; but", "meaning_ar": "إلا أنّ / لكن", "note_ar": "", "note_en": "Informal.", "example": "This phone is like my old one, only faster."},
+      {"word": "barely", "pos": "adverb", "meaning_en": "only just; almost not", "meaning_ar": "بالكاد", "note_ar": "معناه قريب من النفي", "note_en": "Close to a negative meaning.", "example": "I barely have enough money for food."},
+      {"word": "barely (time)", "pos": "adverb", "meaning_en": "a very short time before", "meaning_ar": "بالكاد قبل / للتوّ", "note_ar": "", "note_en": "", "example": "They had barely escaped before the fire started."},
+      {"word": "merely", "pos": "adverb", "meaning_en": "just; only (more formal)", "meaning_ar": "مجرّد / فقط", "note_ar": "أكثر رسمية من just وonly", "note_en": "More formal than just/only.", "example": "I merely touched it, and it broke."},
+      {"word": "interchangeable", "pos": "adjective", "meaning_en": "can be used in place of each other", "meaning_ar": "قابل للتبادل", "note_ar": "", "note_en": "", "example": "\"Only\" and \"just\" are often interchangeable."},
+      {"word": "limitation", "pos": "noun", "meaning_en": "a limit; something that controls how much is possible", "meaning_ar": "حدّ / قيد", "note_ar": "", "note_en": "", "example": "These words all show some limitation."},
+      {"word": "mortal", "pos": "noun / adjective", "meaning_en": "a normal human who will die one day", "meaning_ar": "إنسان فانٍ", "note_ar": "", "note_en": "", "example": "He is merely a mortal, not a superhero."},
+      {"word": "peers", "pos": "noun", "meaning_en": "people of the same age, level or position as you", "meaning_ar": "الأقران", "note_ar": "", "note_en": "", "example": "Students often learn from their peers."}
+    ],
+    "fine_lines": [
+      {"title": "only vs just", "words": ["only", "just"], "explanation_ar": "كثيرًا ما تتبادلان المعنى (فقط). just تضيف معنى بالضبط أو ليس كثيرًا. only تعني محدودًا بـ، ويمكن أن تكون صفة (the only, an only child) أو أداة ربط بمعنى إلا أن.", "explanation_en": "Often interchangeable. Just adds \"exactly / not much\". Only means \"limited to\", and it can also be an adjective (an only child) or a conjunction meaning \"except that\".", "examples": [{"word": "only", "sentence": "She is the only student who finished."}, {"word": "just", "sentence": "It's just a small problem."}]},
+      {"title": "barely vs merely", "words": ["barely", "merely"], "explanation_ar": "barely تعني بالكاد، أي كاد ألّا يحدث. merely تعني مجرّد، أي لا أكثر من ذلك.", "explanation_en": "Barely = almost not; it nearly didn't happen. Merely = just, nothing more.", "examples": [{"word": "barely", "sentence": "I barely caught the train."}, {"word": "merely", "sentence": "It was merely a suggestion."}]}
+    ],
+    "expressions": [
+      {"phrase": "It's just a click away.", "meaning_ar": "إنه على بُعد نقرة فقط.", "meaning_en": "It is very easy to reach.", "example": "The website is just a click away."},
+      {"phrase": "If only...", "meaning_ar": "ليت...", "meaning_en": "used to wish something were different", "example": "If only I had more time!"},
+      {"phrase": "one of a kind", "meaning_ar": "فريد من نوعه", "meaning_en": "the only one like it", "example": "My grandmother is one of a kind."},
+      {"phrase": "barely make it on time", "meaning_ar": "يصل في الوقت بالكاد", "meaning_en": "arrive just in time, almost late", "example": "The bus was slow, and I barely made it on time."}
+    ],
+    "grammar": [
+      {"title": "Different jobs of \"only\"", "explanation_ar": "only قد تكون: ظرفًا بمعنى فقط (There are only ten.)، أو صفة بمعنى الوحيد (an only child)، أو أداة ربط بمعنى إلا أن (like my old car, only bigger).", "explanation_en": "Only can be an adverb = limited to (There are only ten.), an adjective = the one (an only child), or a conjunction = except that (like my old car, only bigger).", "examples": ["I have only one brother.", "She is the only doctor in the village.", "This flat is like our old one, only bigger."]},
+      {"title": "\"barely\" has a negative meaning", "explanation_ar": "barely لها معنى النفي، فلا نستخدم معها not. نقول I can barely see وليس I can't barely see.", "explanation_en": "Barely already has a negative meaning, so don't use \"not\" with it. Say \"I can barely see\", not \"I can't barely see\".", "examples": ["I can barely hear you.", "She barely slept last night.", "We had barely arrived when it started to rain."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I ___ have enough money for food.\" (almost not enough)", "choices": ["barely", "merely", "only child", "just decision"], "answer": 0, "explanation_ar": "barely = بالكاد.", "explanation_en": "Barely = almost not."},
+    {"question": "\"He is an ___ child; he has no brothers or sisters.\"", "choices": ["just", "only", "barely", "merely"], "answer": 1, "explanation_ar": "an only child = طفل وحيد.", "explanation_en": "An only child has no siblings."},
+    {"question": "In a court: \"It was not a ___ decision.\" (fair)", "choices": ["barely", "merely", "just", "only"], "answer": 2, "explanation_ar": "just هنا صفة تعني عادل.", "explanation_en": "Here, just means fair."},
+    {"question": "\"I ___ touched it, and it broke!\" (formal: only)", "choices": ["barely", "just decision", "only child", "merely"], "answer": 3, "explanation_ar": "merely = مجرّد، أكثر رسمية.", "explanation_en": "Merely = just / only (more formal)."},
+    {"question": "\"This laptop is like my old one, ___ faster.\"", "choices": ["only", "barely", "just decision", "merely a"], "answer": 0, "explanation_ar": "only هنا أداة ربط بمعنى إلا أن.", "explanation_en": "Only = except that."},
+    {"question": "\"Relax, it's ___ two dollars.\" (not much)", "choices": ["barely", "just", "an only", "merely a"], "answer": 1, "explanation_ar": "just = ليس كثيرًا.", "explanation_en": "Just = not that much."},
+    {"question": "\"They had ___ escaped before the fire started.\"", "choices": ["just decision", "only child", "barely", "merely a"], "answer": 2, "explanation_ar": "barely = قبل وقت قصير جدًا.", "explanation_en": "Barely = a very short time before."},
+    {"question": "Which sentence is correct?", "choices": ["I can't barely hear you.", "I don't barely hear you.", "I barely not hear you.", "I can barely hear you."], "answer": 3, "explanation_ar": "barely منفية بذاتها، لا نضيف not.", "explanation_en": "Barely is already negative."},
+    {"question": "\"Interchangeable\" words are words that ___.", "choices": ["can be used in place of each other", "are opposites", "are only for law", "are always formal"], "answer": 0, "explanation_ar": "interchangeable = يمكن استبدال إحداها بالأخرى.", "explanation_en": "They can replace each other."},
+    {"question": "\"Just\" in \"It's just five minutes away\" means:", "choices": ["fair", "exactly and not much", "almost not", "the only one"], "answer": 1, "explanation_ar": "just = بالضبط وليس كثيرًا.", "explanation_en": "Exactly, and not a lot."}
+  ]
+}

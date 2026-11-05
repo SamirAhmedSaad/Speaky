@@ -1,0 +1,410 @@
+{
+  "title": "5 Common Speaking Mistakes",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "instantaneous",
+        "pos": "adjective",
+        "meaning_en": "happening immediately",
+        "meaning_ar": "فوري / لحظي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Speaking is instantaneous; people hear your mistakes right away."
+      },
+      {
+        "word": "another",
+        "pos": "determiner",
+        "meaning_en": "one more (an + other); used with singular nouns",
+        "meaning_ar": "آخَر (واحد إضافي)",
+        "note_ar": "تُكتب كلمة واحدة",
+        "note_en": "Written as one word.",
+        "example": "Can I have another cup of tea?"
+      },
+      {
+        "word": "other",
+        "pos": "determiner",
+        "meaning_en": "different; often used with plural nouns",
+        "meaning_ar": "آخَر / أُخرى (مختلف)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need other people to help me."
+      },
+      {
+        "word": "make",
+        "pos": "verb",
+        "meaning_en": "to create something; when you finish, you have something",
+        "meaning_ar": "يصنع / يُعِدّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She made a cake."
+      },
+      {
+        "word": "do",
+        "pos": "verb",
+        "meaning_en": "to perform an action or activity",
+        "meaning_ar": "يفعل / يقوم بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I do my homework every evening."
+      },
+      {
+        "word": "make money",
+        "pos": "phrase",
+        "meaning_en": "to earn money",
+        "meaning_ar": "يكسب المال",
+        "note_ar": "لا نقول do money",
+        "note_en": "Not \"do money\".",
+        "example": "He works hard to make money."
+      },
+      {
+        "word": "do the dishes",
+        "pos": "phrase",
+        "meaning_en": "to wash the plates and cups",
+        "meaning_ar": "يغسل الأطباق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll do the dishes after dinner."
+      },
+      {
+        "word": "equal",
+        "pos": "adjective",
+        "meaning_en": "exactly the same in size, number or amount",
+        "meaning_ar": "متساوٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Cut the cake into two equal parts."
+      },
+      {
+        "word": "fair",
+        "pos": "adjective",
+        "meaning_en": "giving each person what they deserve or need; right",
+        "meaning_ar": "عادل / مُنصِف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's not fair: we did the same work, but he got more money."
+      },
+      {
+        "word": "deserve",
+        "pos": "verb",
+        "meaning_en": "to have earned something because of what you did",
+        "meaning_ar": "يستحق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You worked hard; you deserve a rest."
+      },
+      {
+        "word": "fun",
+        "pos": "noun / adjective",
+        "meaning_en": "enjoyment; something you enjoy",
+        "meaning_ar": "متعة / ممتع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We had fun at the park."
+      },
+      {
+        "word": "funny",
+        "pos": "adjective",
+        "meaning_en": "making you laugh",
+        "meaning_ar": "مضحك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That joke was very funny."
+      },
+      {
+        "word": "come back",
+        "pos": "phrasal verb",
+        "meaning_en": "to return to the place where the speaker is (here)",
+        "meaning_ar": "يعود (إلى هنا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Come back soon!"
+      },
+      {
+        "word": "go back",
+        "pos": "phrasal verb",
+        "meaning_en": "to return to another place (there)",
+        "meaning_ar": "يعود (إلى هناك)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Next month I will go back to my country."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "another vs other",
+        "words": [
+          "another",
+          "other"
+        ],
+        "explanation_ar": "another = an + other = واحد إضافي، ويأتي مع المفرد. other = مختلف، ويأتي غالبًا مع الجمع (other people) أو مع the (the other coat).",
+        "explanation_en": "Another = an + other = one more; use it with singular nouns. Other = different; usually with plurals (other people) or with the (the other coat).",
+        "examples": [
+          {
+            "word": "another",
+            "sentence": "I need another person to help me."
+          },
+          {
+            "word": "other",
+            "sentence": "We need other people to help. / Not this jacket, the other one."
+          }
+        ]
+      },
+      {
+        "title": "make vs do",
+        "words": [
+          "make",
+          "do"
+        ],
+        "explanation_ar": "make = تصنع شيئًا فيصبح لديك شيء في النهاية (make a cake, make dinner, make money). do = نشاط أو عمل (do homework, do the dishes). do أيضًا فعل مساعد للتوكيد: I do love it.",
+        "explanation_en": "Make = create something; at the end you have something (make a cake, make dinner, make money). Do = an activity or action (do homework, do the dishes). Do is also an auxiliary for emphasis: I do love it.",
+        "examples": [
+          {
+            "word": "make",
+            "sentence": "I made dinner for my family."
+          },
+          {
+            "word": "do",
+            "sentence": "Did you do your homework?"
+          }
+        ]
+      },
+      {
+        "title": "equal vs fair",
+        "words": [
+          "equal",
+          "fair"
+        ],
+        "explanation_ar": "equal = نفس الكمية تمامًا. fair = ما يستحقه أو يحتاجه كل شخص. الشيء العادل قد لا يكون متساويًا: الشخص الكبير يحتاج قطعة أكبر.",
+        "explanation_en": "Equal = exactly the same amount. Fair = what each person deserves or needs. Fair is not always equal: a big person needs a bigger piece.",
+        "examples": [
+          {
+            "word": "equal",
+            "sentence": "Each team has five players. The teams are equal."
+          },
+          {
+            "word": "fair",
+            "sentence": "We both made five things, so it's fair that we both get $50."
+          }
+        ]
+      },
+      {
+        "title": "fun vs funny",
+        "words": [
+          "fun",
+          "funny"
+        ],
+        "explanation_ar": "fun = ممتع، تستمتع به (تبتسم). funny = مضحك، يجعلك تضحك.",
+        "explanation_en": "Fun = enjoyable; you enjoy it (you smile). Funny = it makes you laugh.",
+        "examples": [
+          {
+            "word": "fun",
+            "sentence": "The trip was fun. I enjoyed it."
+          },
+          {
+            "word": "funny",
+            "sentence": "His story was so funny that we laughed a lot."
+          }
+        ]
+      },
+      {
+        "title": "come back vs go back",
+        "words": [
+          "come back",
+          "go back"
+        ],
+        "explanation_ar": "come back = العودة إلى المكان الذي يوجد فيه المتكلم الآن (هنا). go back = العودة إلى مكان آخر (هناك). الطالب في كندا يقول: When I go back home, I'll speak good English.",
+        "explanation_en": "Come back = return to where the speaker is now (here). Go back = return to another place (there). A student in Canada says: \"When I go back home, I'll speak good English.\"",
+        "examples": [
+          {
+            "word": "come back",
+            "sentence": "I'm going to Cairo, but I'll come back here next week."
+          },
+          {
+            "word": "go back",
+            "sentence": "When I go back to my country, I'll visit my parents."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "That's not fair!",
+        "meaning_ar": "هذا ليس عدلًا!",
+        "meaning_en": "That is not right.",
+        "example": "He got two pieces and I got none. That's not fair!"
+      },
+      {
+        "phrase": "I had fun.",
+        "meaning_ar": "استمتعتُ.",
+        "meaning_en": "I enjoyed it.",
+        "example": "Thanks for the visit. I had fun."
+      },
+      {
+        "phrase": "Come back soon.",
+        "meaning_ar": "عُد قريبًا.",
+        "meaning_en": "Please return here soon.",
+        "example": "It was nice to see you. Come back soon!"
+      },
+      {
+        "phrase": "Can I have another one?",
+        "meaning_ar": "هل يمكنني أخذ واحدة أخرى؟",
+        "meaning_en": "Can I have one more?",
+        "example": "These cookies are good. Can I have another one?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "another + singular; other + plural",
+        "explanation_ar": "another (= an + other) مع الاسم المفرد المعدود: another book. other مع الجمع: other books. ومع the للشيء الآخر المحدد: the other book.",
+        "explanation_en": "Another (= an + other) goes with a singular countable noun: another book. Other goes with plurals: other books. Use the other for the specific different one: the other book.",
+        "examples": [
+          "I'd like another apple.",
+          "Other students finished early.",
+          "This pen doesn't work. Give me the other one."
+        ]
+      },
+      {
+        "title": "Collocations with make and do",
+        "explanation_ar": "مع make (نصنع شيئًا): a cake, dinner, money, a mistake, a decision. ومع do (نشاط): homework, the dishes, work, exercise, your best.",
+        "explanation_en": "Make: a cake, dinner, money, a mistake, a decision. Do: homework, the dishes, work, exercise, your best.",
+        "examples": [
+          "I made a mistake.",
+          "Let's do the dishes.",
+          "Always do your best."
+        ]
+      },
+      {
+        "title": "Come and go depend on where you are",
+        "explanation_ar": "come = حركة نحو مكان المتكلم. go = حركة بعيدًا عنه. إذا كنت هنا الآن فقل come back here و go back there.",
+        "explanation_en": "Come = movement toward the speaker's place. Go = movement away from it. If you are here now, say come back here and go back there.",
+        "examples": [
+          "Come here, please.",
+          "Go to your room.",
+          "When I go back to Japan, I'll miss you. I hope I can come back here one day."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Can I have ___ cup of tea, please? (one more)",
+      "choices": [
+        "another",
+        "other",
+        "others",
+        "the others"
+      ],
+      "answer": 0,
+      "explanation_ar": "واحد إضافي مع المفرد: another.",
+      "explanation_en": "One more with a singular noun: another."
+    },
+    {
+      "question": "We need ___ people to help us.",
+      "choices": [
+        "another",
+        "other",
+        "an other",
+        "anothers"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع الجمع: other.",
+      "explanation_en": "With plurals: other."
+    },
+    {
+      "question": "\"Teacher, I ___ my homework.\"",
+      "choices": [
+        "made",
+        "make",
+        "did",
+        "maked"
+      ],
+      "answer": 2,
+      "explanation_ar": "الواجب نشاط: do/did.",
+      "explanation_en": "Homework is an activity: do/did."
+    },
+    {
+      "question": "She works hard to ___ money.",
+      "choices": [
+        "do",
+        "does",
+        "doing",
+        "make"
+      ],
+      "answer": 3,
+      "explanation_ar": "الإجابة الصحيحة: make money.",
+      "explanation_en": "Make money."
+    },
+    {
+      "question": "Two teams of five players are ___.",
+      "choices": [
+        "equal",
+        "fair",
+        "funny",
+        "fun"
+      ],
+      "answer": 0,
+      "explanation_ar": "نفس العدد تمامًا: equal.",
+      "explanation_en": "Exactly the same number: equal."
+    },
+    {
+      "question": "We did the same work, but he got more money. That's not ___.",
+      "choices": [
+        "equal to",
+        "fair",
+        "fun",
+        "funny"
+      ],
+      "answer": 1,
+      "explanation_ar": "ليس عدلًا: fair.",
+      "explanation_en": "Not right: not fair."
+    },
+    {
+      "question": "The party was great. We had a lot of ___.",
+      "choices": [
+        "funny",
+        "fair",
+        "fun",
+        "equal"
+      ],
+      "answer": 2,
+      "explanation_ar": "استمتعنا: fun.",
+      "explanation_en": "We enjoyed it: fun."
+    },
+    {
+      "question": "The joke was so ___ that everyone laughed.",
+      "choices": [
+        "fun",
+        "fair",
+        "equal",
+        "funny"
+      ],
+      "answer": 3,
+      "explanation_ar": "مضحك: funny.",
+      "explanation_en": "Makes you laugh: funny."
+    },
+    {
+      "question": "A student in Canada says: \"When I ___ to my country, I will speak better English.\"",
+      "choices": [
+        "go back",
+        "come back",
+        "come",
+        "came back"
+      ],
+      "answer": 0,
+      "explanation_ar": "العودة إلى هناك: go back.",
+      "explanation_en": "Returning there: go back."
+    },
+    {
+      "question": "Your friend is leaving your house. You say: \"___ soon!\"",
+      "choices": [
+        "Go back",
+        "Come back",
+        "Go away",
+        "Make back"
+      ],
+      "answer": 1,
+      "explanation_ar": "العودة إلى هنا: come back.",
+      "explanation_en": "Returning here: come back."
+    }
+  ]
+}

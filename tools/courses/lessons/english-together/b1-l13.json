@@ -1,0 +1,421 @@
+{
+  "title": "A Busy Day: Chores and Errands",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "busy",
+        "pos": "adjective",
+        "meaning_en": "having a lot of things to do",
+        "meaning_ar": "مشغول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm very busy today."
+      },
+      {
+        "word": "list",
+        "pos": "noun",
+        "meaning_en": "things written one under another",
+        "meaning_ar": "قائمة",
+        "note_ar": "to-do list = قائمة المهام",
+        "note_en": "to-do list",
+        "example": "What's on your list today?"
+      },
+      {
+        "word": "clean",
+        "pos": "verb",
+        "meaning_en": "make something not dirty",
+        "meaning_ar": "ينظّف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I clean my room every Saturday."
+      },
+      {
+        "word": "apartment",
+        "pos": "noun",
+        "meaning_en": "a home on one floor of a building",
+        "meaning_ar": "شقة",
+        "note_ar": "في بريطانيا: flat",
+        "note_en": "UK: flat.",
+        "example": "We live in a small apartment."
+      },
+      {
+        "word": "messy",
+        "pos": "adjective",
+        "meaning_en": "not tidy; things are everywhere",
+        "meaning_ar": "فوضوي / غير مرتب",
+        "note_ar": "الضد: tidy",
+        "note_en": "Opposite: tidy.",
+        "example": "My desk is messy."
+      },
+      {
+        "word": "floor",
+        "pos": "noun",
+        "meaning_en": "the part of a room you walk on",
+        "meaning_ar": "الأرضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There are toys on the floor."
+      },
+      {
+        "word": "wash the dishes",
+        "pos": "phrase",
+        "meaning_en": "clean plates and cups",
+        "meaning_ar": "يغسل الصحون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wash the dishes after lunch."
+      },
+      {
+        "word": "take out the trash",
+        "pos": "phrase",
+        "meaning_en": "carry the rubbish outside",
+        "meaning_ar": "يُخرج القمامة",
+        "note_ar": "في بريطانيا: take out the rubbish",
+        "note_en": "UK: take out the rubbish.",
+        "example": "Please take out the trash tonight."
+      },
+      {
+        "word": "bank",
+        "pos": "noun",
+        "meaning_en": "a place that keeps money",
+        "meaning_ar": "بنك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need to go to the bank."
+      },
+      {
+        "word": "pay bills",
+        "pos": "phrase",
+        "meaning_en": "give money for electricity, water, phone, etc.",
+        "meaning_ar": "يدفع الفواتير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I pay the bills every month."
+      },
+      {
+        "word": "dentist",
+        "pos": "noun",
+        "meaning_en": "a doctor for teeth",
+        "meaning_ar": "طبيب أسنان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I see the dentist twice a year."
+      },
+      {
+        "word": "appointment",
+        "pos": "noun",
+        "meaning_en": "a fixed time to meet someone, like a doctor",
+        "meaning_ar": "موعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have an appointment at 3 p.m."
+      },
+      {
+        "word": "supermarket",
+        "pos": "noun",
+        "meaning_en": "a big shop that sells food and things for the home",
+        "meaning_ar": "سوبرماركت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We buy rice at the supermarket."
+      },
+      {
+        "word": "fruit",
+        "pos": "noun",
+        "meaning_en": "food like apples, bananas and oranges",
+        "meaning_ar": "فاكهة",
+        "note_ar": "غالبًا غير معدودة: some fruit",
+        "note_en": "Usually uncountable: some fruit.",
+        "example": "I eat fruit every day."
+      },
+      {
+        "word": "pick up",
+        "pos": "phrasal verb",
+        "meaning_en": "go and get something or someone",
+        "meaning_ar": "يستلم / يأخذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I pick up my brother from school."
+      },
+      {
+        "word": "dry cleaning",
+        "pos": "noun",
+        "meaning_en": "clothes cleaned at a special shop without water",
+        "meaning_ar": "التنظيف الجاف (الملابس المغسولة في المصبغة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need to pick up my dry cleaning."
+      },
+      {
+        "word": "water the plants",
+        "pos": "phrase",
+        "meaning_en": "give water to plants",
+        "meaning_ar": "يسقي النباتات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I water the plants every morning."
+      },
+      {
+        "word": "walk the dog",
+        "pos": "phrase",
+        "meaning_en": "take a dog outside for a walk",
+        "meaning_ar": "يُنزّه الكلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He walks the dog in the evening."
+      },
+      {
+        "word": "relax",
+        "pos": "verb",
+        "meaning_en": "rest and feel calm",
+        "meaning_ar": "يرتاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's relax tomorrow."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "need to vs have to vs must",
+        "words": [
+          "need to",
+          "have to",
+          "must"
+        ],
+        "explanation_ar": "الثلاثة تعبّر عن الضرورة. need to = أحتاج أن، have to = يجب عليّ (بسبب ظروف أو قوانين)، must = يجب (أقوى، وغالبًا رأي المتكلم). بعدها كلها الفعل في أصله، ولا نضع to بعد must.",
+        "explanation_en": "All three show something is necessary. After must, no \"to\": I must pay.",
+        "examples": [
+          {
+            "word": "need to",
+            "sentence": "I need to clean my apartment."
+          },
+          {
+            "word": "have to",
+            "sentence": "I have to wash the dishes."
+          },
+          {
+            "word": "must",
+            "sentence": "I must pay some bills."
+          }
+        ]
+      },
+      {
+        "title": "messy vs tidy",
+        "words": [
+          "messy",
+          "tidy"
+        ],
+        "explanation_ar": "messy فوضوي، و tidy مرتّب.",
+        "explanation_en": "Messy = not in order. Tidy = in order.",
+        "examples": [
+          {
+            "word": "messy",
+            "sentence": "My room is messy."
+          },
+          {
+            "word": "tidy",
+            "sentence": "Now my room is tidy."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I have so many things to do.",
+        "meaning_ar": "لديّ أشياء كثيرة لأفعلها.",
+        "meaning_en": "Say you are very busy.",
+        "example": "Sorry, I can't come. I have so many things to do."
+      },
+      {
+        "phrase": "What's on your list today?",
+        "meaning_ar": "ماذا يوجد في قائمتك اليوم؟",
+        "meaning_en": "Ask about someone's tasks.",
+        "example": "What's on your list today? Shopping and cleaning."
+      },
+      {
+        "phrase": "That sounds like a lot already.",
+        "meaning_ar": "يبدو أن هذا كثير بالفعل.",
+        "meaning_en": "React to many tasks.",
+        "example": "Cleaning, cooking and shopping? That sounds like a lot already."
+      },
+      {
+        "phrase": "Good luck!",
+        "meaning_ar": "حظًا موفقًا!",
+        "meaning_en": "Wish someone success.",
+        "example": "I have an exam today. Good luck!"
+      },
+      {
+        "phrase": "Are you cooking tonight?",
+        "meaning_ar": "هل ستطبخ الليلة؟",
+        "meaning_en": "Ask about plans for tonight.",
+        "example": "Are you cooking tonight? Yes, rice and chicken."
+      },
+      {
+        "phrase": "Let's finish our work today and relax tomorrow.",
+        "meaning_ar": "لننهِ عملنا اليوم ونرتح غدًا.",
+        "meaning_en": "Suggest a plan.",
+        "example": "Let's finish our work today and relax tomorrow."
+      },
+      {
+        "phrase": "That's a great idea!",
+        "meaning_ar": "هذه فكرة رائعة!",
+        "meaning_en": "Agree with a suggestion.",
+        "example": "Let's go together. That's a great idea!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Talking about tasks: need to / have to / must + verb",
+        "explanation_ar": "لنتحدث عن المهام الضرورية: I need to + الفعل، I have to + الفعل، I must + الفعل (بدون to). مع he/she نقول: She needs to / She has to.",
+        "explanation_en": "For necessary tasks: need to / have to / must + base verb. With he/she: needs to / has to.",
+        "examples": [
+          "I need to clean my apartment.",
+          "I have to wash the dishes.",
+          "I must pay some bills."
+        ]
+      },
+      {
+        "title": "Ordering tasks: first, after that, then",
+        "explanation_ar": "نرتّب المهام: First (أولًا)، After that (بعد ذلك)، Then (ثم)، In the afternoon (بعد الظهر).",
+        "explanation_en": "Use first, after that, then to order tasks.",
+        "examples": [
+          "First, I need to go to the supermarket.",
+          "After that, I need to water the plants.",
+          "Then I need to go to the bank."
+        ]
+      },
+      {
+        "title": "want to + verb",
+        "explanation_ar": "نستخدم want to + الفعل لنقول ما نريد: I want to buy fruit.",
+        "explanation_en": "Use want to + base verb for wishes.",
+        "examples": [
+          "I want to buy fruit, rice, and chicken.",
+          "I want to make dinner for my sister.",
+          "I want to relax tomorrow."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "First, I need ___ my apartment.",
+      "choices": [
+        "clean",
+        "to clean",
+        "cleaning",
+        "cleans"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد need نستخدم to + الفعل.",
+      "explanation_en": "After \"need\" use to + verb."
+    },
+    {
+      "question": "I must ___ some bills.",
+      "choices": [
+        "to pay",
+        "paying",
+        "pay",
+        "pays"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد must الفعل في أصله بدون to.",
+      "explanation_en": "After \"must\" use the base verb, no \"to\"."
+    },
+    {
+      "question": "My room is very ___. There are clothes on the floor.",
+      "choices": [
+        "messy",
+        "tidy",
+        "busy",
+        "ready"
+      ],
+      "answer": 0,
+      "explanation_ar": "messy تعني فوضوي.",
+      "explanation_en": "Messy means not tidy."
+    },
+    {
+      "question": "A doctor for teeth is a ___.",
+      "choices": [
+        "chef",
+        "pilot",
+        "teacher",
+        "dentist"
+      ],
+      "answer": 3,
+      "explanation_ar": "dentist طبيب الأسنان.",
+      "explanation_en": "A dentist is a doctor for teeth."
+    },
+    {
+      "question": "I have a dentist ___ at 3 p.m.",
+      "choices": [
+        "appointment",
+        "list",
+        "apartment",
+        "bill"
+      ],
+      "answer": 0,
+      "explanation_ar": "appointment تعني موعد.",
+      "explanation_en": "An appointment is a fixed meeting time."
+    },
+    {
+      "question": "I have to take out the ___.",
+      "choices": [
+        "dishes",
+        "trash",
+        "plants",
+        "bank"
+      ],
+      "answer": 1,
+      "explanation_ar": "take out the trash = يُخرج القمامة.",
+      "explanation_en": "We say \"take out the trash\"."
+    },
+    {
+      "question": "Someone has a difficult appointment. You say:",
+      "choices": [
+        "Good luck!",
+        "Nice to meet you!",
+        "I'm messy.",
+        "Take out the trash."
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول Good luck لنتمنى النجاح.",
+      "explanation_en": "We say \"Good luck!\"."
+    },
+    {
+      "question": "I need to ___ my dry cleaning. My dress is ready.",
+      "choices": [
+        "pick up",
+        "wake up",
+        "clean up",
+        "give up"
+      ],
+      "answer": 0,
+      "explanation_ar": "pick up تعني يستلم.",
+      "explanation_en": "\"Pick up\" means go and get."
+    },
+    {
+      "question": "She ___ to go to the bank.",
+      "choices": [
+        "need",
+        "needs",
+        "needing",
+        "must"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع she نضيف s: needs.",
+      "explanation_en": "With \"she\": needs."
+    },
+    {
+      "question": "I need to water the ___ and walk my dog.",
+      "choices": [
+        "bills",
+        "dishes",
+        "plants",
+        "floor"
+      ],
+      "answer": 2,
+      "explanation_ar": "water the plants = يسقي النباتات.",
+      "explanation_en": "We water plants."
+    }
+  ]
+}

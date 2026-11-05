@@ -1,9 +1,10 @@
 package com.speakmind.app.feature.community.ui.people
 
+import com.speakmind.app.feature.community.ui.components.openPrivateChat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.feature.community.data.model.CommunityUser
-import com.speakmind.app.feature.community.data.repository.BlockedException
+import com.speakmind.app.feature.community.ui.room.draftDirectRoomId
 import com.speakmind.app.feature.community.data.repository.CommunityRepository
 import com.speakmind.app.feature.community.data.repository.friendlyCommunityError
 import com.speakmind.app.feature.community.ui.auth.GoogleIdResult
@@ -184,23 +185,18 @@ class PeopleViewModel(
         }
     }
 
+    /** Premium, or free private messages left today. */
+    fun onMessageClicked(user: CommunityUser) {
+        viewModelScope.launch { repository.openPrivateChat("Message ${user.nickname}") { onMessage(user) } }
+    }
+
     fun onMessage(user: CommunityUser) {
         _uiState.update { it.copy(profileUser = null) }
         if (_uiState.value.isGuest) {
             _uiState.update { it.copy(error = "Sign in with Google first to send private messages.") }
             return
         }
-        viewModelScope.launch {
-            try {
-                val roomId = repository.openDirectChat(user.uid)
-                navigationManager.navigate(RoomDestination(roomId = roomId, title = user.nickname))
-            } catch (e: BlockedException) {
-                _uiState.update { it.copy(error = "You can't message ${user.nickname}.") }
-            } catch (e: Exception) {
-                Napier.w("openDirectChat failed", e)
-                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't open the chat.")) }
-            }
-        }
+        navigationManager.navigate(RoomDestination(roomId = draftDirectRoomId(user.uid), title = user.nickname))
     }
 
     /** Opens Google's account picker right here; first-timers then pick a nickname. */

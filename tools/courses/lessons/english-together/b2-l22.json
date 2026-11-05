@@ -1,0 +1,391 @@
+{
+  "title": "Talking About Money",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "money",
+        "pos": "noun",
+        "meaning_en": "coins and notes you use to buy things",
+        "meaning_ar": "مال / نقود",
+        "note_ar": "غير معدود: much money",
+        "note_en": "Uncountable: \"much money\".",
+        "example": "Money is not everything."
+      },
+      {
+        "word": "budget",
+        "pos": "noun",
+        "meaning_en": "a plan for how to spend your money",
+        "meaning_ar": "ميزانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I make a budget every month."
+      },
+      {
+        "word": "notebook",
+        "pos": "noun",
+        "meaning_en": "a small book for writing",
+        "meaning_ar": "دفتر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I write my budget in a notebook."
+      },
+      {
+        "word": "spend money on",
+        "pos": "phrase",
+        "meaning_en": "use money to buy something",
+        "meaning_ar": "ينفق المال على",
+        "note_ar": "الماضي: spent",
+        "note_en": "Past: spent.",
+        "example": "What do you spend money on?"
+      },
+      {
+        "word": "rent",
+        "pos": "noun",
+        "meaning_en": "money you pay every month to live in a house or flat",
+        "meaning_ar": "الإيجار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My biggest expense is rent."
+      },
+      {
+        "word": "internet",
+        "pos": "noun",
+        "meaning_en": "the network that connects computers",
+        "meaning_ar": "الإنترنت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I pay for the internet."
+      },
+      {
+        "word": "phone bill",
+        "pos": "noun",
+        "meaning_en": "the money you pay for your phone service",
+        "meaning_ar": "فاتورة الهاتف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My phone bill is $20."
+      },
+      {
+        "word": "entertainment",
+        "pos": "noun",
+        "meaning_en": "things you do for fun, like films or games",
+        "meaning_ar": "الترفيه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I don't spend a lot on entertainment."
+      },
+      {
+        "word": "expense",
+        "pos": "noun",
+        "meaning_en": "money you spend on something",
+        "meaning_ar": "مصروف / نفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Rent is my biggest expense."
+      },
+      {
+        "word": "save",
+        "pos": "verb",
+        "meaning_en": "keep money and not spend it",
+        "meaning_ar": "يدّخر / يوفّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I try to save $100 every month."
+      },
+      {
+        "word": "eat out",
+        "pos": "phrasal verb",
+        "meaning_en": "eat in a restaurant, not at home",
+        "meaning_ar": "يأكل خارج المنزل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you eat out often?"
+      },
+      {
+        "word": "cash",
+        "pos": "noun",
+        "meaning_en": "money in coins and notes",
+        "meaning_ar": "نقود (كاش)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you use cash?"
+      },
+      {
+        "word": "credit card",
+        "pos": "noun",
+        "meaning_en": "a card to buy now and pay the bank later",
+        "meaning_ar": "بطاقة ائتمان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I often use my credit card."
+      },
+      {
+        "word": "carefully",
+        "pos": "adverb",
+        "meaning_en": "with care, to avoid problems",
+        "meaning_ar": "بحذر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Use your card carefully."
+      },
+      {
+        "word": "bank",
+        "pos": "noun",
+        "meaning_en": "a place that keeps your money",
+        "meaning_ar": "بنك / مصرف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I put my money in the bank."
+      },
+      {
+        "word": "habit",
+        "pos": "noun",
+        "meaning_en": "something you do often",
+        "meaning_ar": "عادة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Good money habits are important."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "spend vs save",
+        "words": [
+          "spend",
+          "save"
+        ],
+        "explanation_ar": "spend = تُنفق المال. save = تحتفظ بالمال ولا تُنفقه.",
+        "explanation_en": "\"Spend\" = use money. \"Save\" = keep money.",
+        "examples": [
+          {
+            "word": "spend",
+            "sentence": "I spend $40 on entertainment."
+          },
+          {
+            "word": "save",
+            "sentence": "I save $100 every month."
+          }
+        ]
+      },
+      {
+        "title": "a lot vs not too much",
+        "words": [
+          "a lot",
+          "not too much"
+        ],
+        "explanation_ar": "a lot = كثير. not too much = ليس كثيرًا.",
+        "explanation_en": "\"A lot\" = a big amount. \"Not too much\" = only a little.",
+        "examples": [
+          {
+            "word": "a lot",
+            "sentence": "Rent costs a lot."
+          },
+          {
+            "word": "not too much",
+            "sentence": "I don't spend too much on food."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can I ask you something?",
+        "meaning_ar": "هل يمكنني أن أسألك شيئًا؟",
+        "meaning_en": "Starting a question politely.",
+        "example": "Can I ask you something? Sure, what is it?"
+      },
+      {
+        "phrase": "Do you make a budget every month?",
+        "meaning_ar": "هل تضع ميزانية كل شهر؟",
+        "meaning_en": "Asking about money habits.",
+        "example": "Do you make a shopping list?"
+      },
+      {
+        "phrase": "What do you spend money on every month?",
+        "meaning_ar": "على ماذا تنفق المال كل شهر؟",
+        "meaning_en": "Asking about expenses.",
+        "example": "What do you spend most money on?"
+      },
+      {
+        "phrase": "What is your biggest expense?",
+        "meaning_ar": "ما أكبر مصروف لديك؟",
+        "meaning_en": "Asking about the largest cost.",
+        "example": "My biggest expense is rent."
+      },
+      {
+        "phrase": "That is a lot.",
+        "meaning_ar": "هذا كثير.",
+        "meaning_en": "Saying something is big.",
+        "example": "$450 a month? That is a lot."
+      },
+      {
+        "phrase": "Do you eat out often? / Maybe once a week.",
+        "meaning_ar": "هل تأكل في المطاعم كثيرًا؟ / ربما مرة في الأسبوع.",
+        "meaning_en": "Talking about how often.",
+        "example": "Do you eat out often? No, not often."
+      },
+      {
+        "phrase": "I use both.",
+        "meaning_ar": "أستخدم الاثنين.",
+        "meaning_en": "Using two things.",
+        "example": "Cash or card? I use both."
+      },
+      {
+        "phrase": "We must use it carefully.",
+        "meaning_ar": "يجب أن نستخدمها بحذر.",
+        "meaning_en": "A warning.",
+        "example": "We must use the internet carefully."
+      },
+      {
+        "phrase": "Money is not everything, but it helps us.",
+        "meaning_ar": "المال ليس كل شيء، لكنه يساعدنا.",
+        "meaning_en": "A wise saying.",
+        "example": "Money is not everything. Health is important too."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Frequency: every month, once a week, often",
+        "explanation_ar": "نعبّر عن عدد المرات بـ: every day / every month، once a week، often، not often.",
+        "explanation_en": "Say how often: every day/month, once a week, often, not often.",
+        "examples": [
+          "I pay rent every month.",
+          "I eat out once a week.",
+          "I often use my credit card."
+        ]
+      },
+      {
+        "title": "spend + money + on + thing",
+        "explanation_ar": "نقول spend money on something: I spend $40 on entertainment.",
+        "explanation_en": "Pattern: spend + amount + on + thing.",
+        "examples": [
+          "I spend money on food.",
+          "I spend about $40 a month on films.",
+          "What do you spend money on?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I spend a lot of money ____ rent.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "for to"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول spend ... on.",
+      "explanation_en": "We say \"spend on\"."
+    },
+    {
+      "question": "\"Rent\" is ...",
+      "choices": [
+        "a kind of bank",
+        "a credit card",
+        "a notebook",
+        "money for your home each month"
+      ],
+      "answer": 3,
+      "explanation_ar": "الإيجار مال يُدفع للسكن.",
+      "explanation_en": "Money you pay for your home."
+    },
+    {
+      "question": "I don't spend money. I keep it. I ____ money.",
+      "choices": [
+        "save",
+        "spend",
+        "eat",
+        "rent"
+      ],
+      "answer": 0,
+      "explanation_ar": "save يدّخر.",
+      "explanation_en": "\"Save\" = keep money."
+    },
+    {
+      "question": "\"Do you eat out often?\" means ...",
+      "choices": [
+        "Do you eat outside the house in the garden?",
+        "Do you cook a lot?",
+        "Do you eat in restaurants a lot?",
+        "Do you eat fast?"
+      ],
+      "answer": 2,
+      "explanation_ar": "eat out تعني الأكل في المطعم.",
+      "explanation_en": "Eat out = eat at a restaurant."
+    },
+    {
+      "question": "Which one is NOT an expense?",
+      "choices": [
+        "rent",
+        "phone bill",
+        "saving money",
+        "internet"
+      ],
+      "answer": 2,
+      "explanation_ar": "الادخار ليس مصروفًا.",
+      "explanation_en": "Saving is not spending."
+    },
+    {
+      "question": "I eat out ____ a week.",
+      "choices": [
+        "once",
+        "one",
+        "one time of",
+        "ones"
+      ],
+      "answer": 0,
+      "explanation_ar": "once a week = مرة في الأسبوع.",
+      "explanation_en": "\"Once a week\" = one time a week."
+    },
+    {
+      "question": "\"We must use it carefully.\" \"Carefully\" means ...",
+      "choices": [
+        "fast",
+        "never",
+        "happily",
+        "with care"
+      ],
+      "answer": 3,
+      "explanation_ar": "بحذر.",
+      "explanation_en": "With care."
+    },
+    {
+      "question": "\"Money is not everything.\" means ...",
+      "choices": [
+        "Money is the only important thing.",
+        "Other things are important too.",
+        "We have no money.",
+        "Money is bad."
+      ],
+      "answer": 1,
+      "explanation_ar": "المال ليس كل شيء، فهناك أمور أخرى مهمة.",
+      "explanation_en": "Other things are important too."
+    },
+    {
+      "question": "Where do you put money to keep it safe?",
+      "choices": [
+        "in the bank",
+        "in the rent",
+        "in the expense",
+        "in the bill"
+      ],
+      "answer": 0,
+      "explanation_ar": "نضع المال في البنك.",
+      "explanation_en": "In the bank."
+    },
+    {
+      "question": "Good money ____ are important.",
+      "choices": [
+        "rents",
+        "cashes",
+        "habits",
+        "notebooks"
+      ],
+      "answer": 2,
+      "explanation_ar": "العادات المالية الجيدة.",
+      "explanation_en": "Good money habits."
+    }
+  ]
+}

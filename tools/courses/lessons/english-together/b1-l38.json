@@ -1,0 +1,413 @@
+{
+  "title": "Are you okay? (Daily Conversation)",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "prank",
+        "pos": "noun",
+        "meaning_en": "a trick to make people laugh at someone",
+        "meaning_ar": "مقلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He played a prank on his brother."
+      },
+      {
+        "word": "harmless",
+        "pos": "adjective",
+        "meaning_en": "not causing any hurt",
+        "meaning_ar": "غير مؤذٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a harmless joke."
+      },
+      {
+        "word": "spill",
+        "pos": "verb",
+        "meaning_en": "let a liquid fall out by accident",
+        "meaning_ar": "يسكب / يدلق",
+        "note_ar": "الماضي: spilled أو spilt",
+        "note_en": "Past: spilled / spilt.",
+        "example": "I spilled my tea on the table."
+      },
+      {
+        "word": "funny",
+        "pos": "adjective",
+        "meaning_en": "making you laugh",
+        "meaning_ar": "مضحك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's not funny at all."
+      },
+      {
+        "word": "balloon",
+        "pos": "noun",
+        "meaning_en": "a thin rubber bag filled with air",
+        "meaning_ar": "بالون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The balloon popped."
+      },
+      {
+        "word": "mad",
+        "pos": "adjective",
+        "meaning_en": "angry (informal, US)",
+        "meaning_ar": "غاضب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't be mad at me."
+      },
+      {
+        "word": "grow up",
+        "pos": "phrasal verb",
+        "meaning_en": "behave like an adult",
+        "meaning_ar": "ينضج / يكبر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Grow up and stop playing tricks!"
+      },
+      {
+        "word": "considerate",
+        "pos": "adjective",
+        "meaning_en": "thinking about other people's feelings",
+        "meaning_ar": "مراعٍ لمشاعر الآخرين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please be more considerate."
+      },
+      {
+        "word": "tired",
+        "pos": "adjective",
+        "meaning_en": "needing rest",
+        "meaning_ar": "متعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm a little tired today."
+      },
+      {
+        "word": "stay up late",
+        "pos": "phrase",
+        "meaning_en": "go to bed late",
+        "meaning_ar": "يسهر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I stayed up late last night."
+      },
+      {
+        "word": "latte",
+        "pos": "noun",
+        "meaning_en": "coffee with a lot of hot milk",
+        "meaning_ar": "لاتيه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They have the best lattes."
+      },
+      {
+        "word": "cappuccino",
+        "pos": "noun",
+        "meaning_en": "coffee with hot milk and foam",
+        "meaning_ar": "كابتشينو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll have a cappuccino, please."
+      },
+      {
+        "word": "expert",
+        "pos": "noun",
+        "meaning_en": "a person who knows a lot about something",
+        "meaning_ar": "خبير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You're the coffee expert."
+      },
+      {
+        "word": "software engineer",
+        "pos": "noun",
+        "meaning_en": "a person who designs computer programs",
+        "meaning_ar": "مهندس برمجيات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm a software engineer."
+      },
+      {
+        "word": "distracted",
+        "pos": "adjective",
+        "meaning_en": "not able to pay attention",
+        "meaning_ar": "شارد الذهن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You seem a little distracted."
+      },
+      {
+        "word": "supportive",
+        "pos": "adjective",
+        "meaning_en": "giving help and kindness",
+        "meaning_ar": "داعم / مساند",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My family is very supportive."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "funny vs fun",
+        "words": [
+          "funny",
+          "fun"
+        ],
+        "explanation_ar": "funny تعني مضحك (يجعلك تضحك)، و fun تعني ممتع.",
+        "explanation_en": "Funny = makes you laugh. Fun = enjoyable.",
+        "examples": [
+          {
+            "word": "funny",
+            "sentence": "It's not funny at all."
+          },
+          {
+            "word": "fun",
+            "sentence": "That sounds like fun."
+          }
+        ]
+      },
+      {
+        "title": "tired vs distracted",
+        "words": [
+          "tired",
+          "distracted"
+        ],
+        "explanation_ar": "tired متعب يحتاج للراحة، و distracted شارد الذهن لا يستطيع التركيز.",
+        "explanation_en": "Tired = needs rest. Distracted = can't pay attention.",
+        "examples": [
+          {
+            "word": "tired",
+            "sentence": "I'm just tired like you."
+          },
+          {
+            "word": "distracted",
+            "sentence": "You seem a little distracted."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Are you okay?",
+        "meaning_ar": "هل أنت بخير؟",
+        "meaning_en": "Ask if someone has a problem.",
+        "example": "You look sad. Are you okay?"
+      },
+      {
+        "phrase": "No, I'm not okay.",
+        "meaning_ar": "لا، لست بخير.",
+        "meaning_en": "Say you have a problem.",
+        "example": "Are you okay? No, I'm not okay."
+      },
+      {
+        "phrase": "It's not funny at all.",
+        "meaning_ar": "ليس مضحكًا أبدًا.",
+        "meaning_en": "Say a joke was not nice.",
+        "example": "You spilled my coffee! It's not funny at all."
+      },
+      {
+        "phrase": "I'm really sorry about...",
+        "meaning_ar": "أنا آسف حقًا بشأن...",
+        "meaning_en": "Apologize for something.",
+        "example": "I'm really sorry about the mess."
+      },
+      {
+        "phrase": "I didn't mean to make you mad.",
+        "meaning_ar": "لم أقصد أن أغضبك.",
+        "meaning_en": "Say it was not on purpose.",
+        "example": "I'm sorry. I didn't mean to make you mad."
+      },
+      {
+        "phrase": "I promise I'll try to be more considerate.",
+        "meaning_ar": "أعدك أن أحاول أن أكون أكثر مراعاة.",
+        "meaning_en": "Make a promise to change.",
+        "example": "I promise I'll try to be more careful."
+      },
+      {
+        "phrase": "I hope you feel better soon.",
+        "meaning_ar": "أتمنى أن تتحسّن قريبًا.",
+        "meaning_en": "Wish someone well.",
+        "example": "You're tired? I hope you feel better soon."
+      },
+      {
+        "phrase": "What would you like to order? — I'll have a cappuccino, please.",
+        "meaning_ar": "ماذا تحب أن تطلب؟ — سآخذ كابتشينو من فضلك.",
+        "meaning_en": "Order a drink.",
+        "example": "What would you like to order? I'll have tea, please."
+      },
+      {
+        "phrase": "Great choice. I'll have the same.",
+        "meaning_ar": "اختيار رائع. سآخذ مثله.",
+        "meaning_en": "Order the same thing.",
+        "example": "I'll have a latte. Great choice, I'll have the same."
+      },
+      {
+        "phrase": "So, what's new with you?",
+        "meaning_ar": "إذن، ما الجديد لديك؟",
+        "meaning_en": "Ask for someone's news.",
+        "example": "Long time no see! So, what's new with you?"
+      },
+      {
+        "phrase": "You'll do great. I have faith in you.",
+        "meaning_ar": "ستُبلي بلاءً حسنًا. أنا أثق بك.",
+        "meaning_en": "Encourage someone.",
+        "example": "Don't worry about the exam. You'll do great."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Apologizing: I'm sorry about + noun / I didn't mean to + verb",
+        "explanation_ar": "للاعتذار: I'm sorry about + اسم (the prank)، و I didn't mean to + الفعل (لم أقصد أن...).",
+        "explanation_en": "Apologize with I'm sorry about + noun and I didn't mean to + verb.",
+        "examples": [
+          "I'm really sorry about the prank earlier.",
+          "I didn't mean to make you mad.",
+          "I'm sorry about your coffee."
+        ]
+      },
+      {
+        "title": "Promises and predictions with will",
+        "explanation_ar": "نستخدم will للوعد (I'll try to be more considerate) وللتوقّع (You'll do great).",
+        "explanation_en": "Use will for promises and predictions.",
+        "examples": [
+          "I promise I'll try to be more considerate.",
+          "You'll do great.",
+          "Thanks, I will."
+        ]
+      },
+      {
+        "title": "seem + adjective",
+        "explanation_ar": "seem + صفة تعني يبدو: You seem a little distracted.",
+        "explanation_en": "seem + adjective = appear to be.",
+        "examples": [
+          "You seem a little distracted.",
+          "She seems tired today.",
+          "He seems happy."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "You spilled coffee on me! It's not ___ at all.",
+      "choices": [
+        "funny",
+        "fun",
+        "harmless",
+        "expert"
+      ],
+      "answer": 0,
+      "explanation_ar": "funny مضحك.",
+      "explanation_en": "Funny = makes you laugh."
+    },
+    {
+      "question": "I'm really sorry ___ the prank earlier.",
+      "choices": [
+        "at",
+        "for to",
+        "about",
+        "with"
+      ],
+      "answer": 2,
+      "explanation_ar": "sorry about + اسم.",
+      "explanation_en": "sorry about + noun."
+    },
+    {
+      "question": "I didn't mean ___ you mad.",
+      "choices": [
+        "to make",
+        "make",
+        "making",
+        "made"
+      ],
+      "answer": 0,
+      "explanation_ar": "mean to + الفعل.",
+      "explanation_en": "mean to + verb."
+    },
+    {
+      "question": "I stayed up late last night, so I'm a little ___ today.",
+      "choices": [
+        "considerate",
+        "supportive",
+        "tired",
+        "harmless"
+      ],
+      "answer": 2,
+      "explanation_ar": "tired متعب.",
+      "explanation_en": "Tired = needs rest."
+    },
+    {
+      "question": "What would you like to order? — I'll ___ a cappuccino, please.",
+      "choices": [
+        "having",
+        "has",
+        "have",
+        "had"
+      ],
+      "answer": 2,
+      "explanation_ar": "I'll have... للطلب.",
+      "explanation_en": "\"I'll have...\" to order."
+    },
+    {
+      "question": "You seem a little ___. Are you worried?",
+      "choices": [
+        "late",
+        "delicious",
+        "funny",
+        "distracted"
+      ],
+      "answer": 3,
+      "explanation_ar": "distracted شارد الذهن.",
+      "explanation_en": "Distracted = can't focus."
+    },
+    {
+      "question": "Don't worry. You'll do ___.",
+      "choices": [
+        "great",
+        "greatly",
+        "greater than",
+        "greats"
+      ],
+      "answer": 0,
+      "explanation_ar": "You'll do great = ستُبلي حسنًا.",
+      "explanation_en": "\"You'll do great\" = you will succeed."
+    },
+    {
+      "question": "A person who knows a lot about something is an ___.",
+      "choices": [
+        "engineer",
+        "prank",
+        "balloon",
+        "expert"
+      ],
+      "answer": 3,
+      "explanation_ar": "expert خبير.",
+      "explanation_en": "An expert knows a lot."
+    },
+    {
+      "question": "I promise I'll try to be more ___ in the future.",
+      "choices": [
+        "mad",
+        "considerate",
+        "spilled",
+        "distracted"
+      ],
+      "answer": 1,
+      "explanation_ar": "considerate مراعٍ لمشاعر الآخرين.",
+      "explanation_en": "Considerate = thinks about others."
+    },
+    {
+      "question": "So, what's ___ with you? — I got a new job.",
+      "choices": [
+        "now",
+        "new",
+        "news",
+        "next"
+      ],
+      "answer": 1,
+      "explanation_ar": "What's new with you? = ما الجديد لديك؟",
+      "explanation_en": "\"What's new with you?\""
+    }
+  ]
+}

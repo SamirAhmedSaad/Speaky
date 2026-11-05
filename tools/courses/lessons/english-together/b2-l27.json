@@ -1,0 +1,412 @@
+{
+  "title": "Answering the Phone at Work",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "workplace",
+        "pos": "noun",
+        "meaning_en": "the place where you work",
+        "meaning_ar": "مكان العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is new in her workplace."
+      },
+      {
+        "word": "office",
+        "pos": "noun",
+        "meaning_en": "a room or building where people work at desks",
+        "meaning_ar": "مكتب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She works in a busy office."
+      },
+      {
+        "word": "ring",
+        "pos": "verb",
+        "meaning_en": "make a sound (a phone)",
+        "meaning_ar": "يرنّ",
+        "note_ar": "الماضي: rang",
+        "note_en": "Past: rang.",
+        "example": "Suddenly, the phone rings."
+      },
+      {
+        "word": "assist",
+        "pos": "verb",
+        "meaning_en": "help (formal)",
+        "meaning_ar": "يساعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How may I assist you?"
+      },
+      {
+        "word": "put through",
+        "pos": "phrasal verb",
+        "meaning_en": "connect a phone call to another person",
+        "meaning_ar": "يحوّل المكالمة",
+        "note_ar": "I'll put you through",
+        "note_en": "\"I'll put you through.\"",
+        "example": "One moment, please. I'll put you through."
+      },
+      {
+        "word": "transfer",
+        "pos": "verb",
+        "meaning_en": "move a call to another phone",
+        "meaning_ar": "يحوّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She transfers the call."
+      },
+      {
+        "word": "pick up",
+        "pos": "phrasal verb",
+        "meaning_en": "answer the phone",
+        "meaning_ar": "يرد على الهاتف",
+        "note_ar": "العكس: hang up",
+        "note_en": "Opposite: hang up.",
+        "example": "He doesn't pick up."
+      },
+      {
+        "word": "unavailable",
+        "pos": "adjective",
+        "meaning_en": "not free to talk or meet",
+        "meaning_ar": "غير متاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mr. Smith is currently unavailable."
+      },
+      {
+        "word": "take a message",
+        "pos": "phrase",
+        "meaning_en": "write down what a caller wants to say to someone",
+        "meaning_ar": "يأخذ رسالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "May I take a message?"
+      },
+      {
+        "word": "call back",
+        "pos": "phrasal verb",
+        "meaning_en": "phone someone again later",
+        "meaning_ar": "يعاود الاتصال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please ask him to call me back."
+      },
+      {
+        "word": "at your earliest convenience",
+        "pos": "phrase",
+        "meaning_en": "as soon as you can (formal)",
+        "meaning_ar": "في أقرب وقت يناسبك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please reply at your earliest convenience."
+      },
+      {
+        "word": "urgent",
+        "pos": "adjective",
+        "meaning_en": "needing action very soon",
+        "meaning_ar": "عاجل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's urgent."
+      },
+      {
+        "word": "pass along",
+        "pos": "phrasal verb",
+        "meaning_en": "give a message to another person",
+        "meaning_ar": "يوصل / ينقل (رسالة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll pass along the message."
+      },
+      {
+        "word": "hang up",
+        "pos": "phrasal verb",
+        "meaning_en": "end a phone call",
+        "meaning_ar": "يُنهي المكالمة / يغلق الخط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She hangs up the phone."
+      },
+      {
+        "word": "notepad",
+        "pos": "noun",
+        "meaning_en": "small pieces of paper for notes",
+        "meaning_ar": "مفكرة / ورق ملاحظات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She writes the message on a notepad."
+      },
+      {
+        "word": "front desk",
+        "pos": "noun",
+        "meaning_en": "the reception desk at the entrance",
+        "meaning_ar": "مكتب الاستقبال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is Emily from the front desk."
+      },
+      {
+        "word": "details",
+        "pos": "noun",
+        "meaning_en": "small facts and information",
+        "meaning_ar": "التفاصيل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you email me the details?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "pick up vs hang up",
+        "words": [
+          "pick up",
+          "hang up"
+        ],
+        "explanation_ar": "pick up = ترد على الهاتف. hang up = تنهي المكالمة.",
+        "explanation_en": "\"Pick up\" = answer the phone. \"Hang up\" = end the call.",
+        "examples": [
+          {
+            "word": "pick up",
+            "sentence": "He doesn't pick up."
+          },
+          {
+            "word": "hang up",
+            "sentence": "She hangs up and writes the message."
+          }
+        ]
+      },
+      {
+        "title": "call vs call back",
+        "words": [
+          "call",
+          "call back"
+        ],
+        "explanation_ar": "call = تتصل. call back = تتصل مرة أخرى ردًا على مكالمة.",
+        "explanation_en": "\"Call\" = phone someone. \"Call back\" = phone again later, to answer a call.",
+        "examples": [
+          {
+            "word": "call",
+            "sentence": "John called this morning."
+          },
+          {
+            "word": "call back",
+            "sentence": "Please ask him to call me back."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Good morning, ABC Company. This is Emily speaking.",
+        "meaning_ar": "صباح الخير، شركة ABC. معك إيميلي.",
+        "meaning_en": "Answering a work phone.",
+        "example": "Good afternoon, City Bank. This is Omar speaking."
+      },
+      {
+        "phrase": "How may I assist you?",
+        "meaning_ar": "كيف يمكنني مساعدتك؟",
+        "meaning_en": "Formal offer of help.",
+        "example": "Good morning. How may I assist you?"
+      },
+      {
+        "phrase": "I'd like to speak to Mr. Smith, please.",
+        "meaning_ar": "أود التحدث إلى السيد سميث من فضلك.",
+        "meaning_en": "Asking for a person.",
+        "example": "I'd like to speak to the manager, please."
+      },
+      {
+        "phrase": "May I ask who's calling, please?",
+        "meaning_ar": "هل لي أن أعرف من المتصل؟",
+        "meaning_en": "Asking the caller's name politely.",
+        "example": "May I ask who's calling? This is Ali."
+      },
+      {
+        "phrase": "One moment, please. I'll put you through.",
+        "meaning_ar": "لحظة من فضلك. سأحولك.",
+        "meaning_en": "Connecting the call.",
+        "example": "One moment, please. I'll put you through to sales."
+      },
+      {
+        "phrase": "I'm sorry, he is currently unavailable.",
+        "meaning_ar": "آسف، هو غير متاح حاليًا.",
+        "meaning_en": "The person can't answer.",
+        "example": "I'm sorry, she is in a meeting."
+      },
+      {
+        "phrase": "May I take a message?",
+        "meaning_ar": "هل يمكنني أخذ رسالة؟",
+        "meaning_en": "Offering to write a message.",
+        "example": "He's not here. May I take a message?"
+      },
+      {
+        "phrase": "Please ask him to call me back.",
+        "meaning_ar": "من فضلك اطلب منه أن يعاود الاتصال بي.",
+        "meaning_en": "Leaving a message.",
+        "example": "Please ask her to call me back after lunch."
+      },
+      {
+        "phrase": "Can I have your phone number, please?",
+        "meaning_ar": "هل يمكنني الحصول على رقم هاتفك؟",
+        "meaning_en": "Asking for a number.",
+        "example": "Can I have your phone number, please?"
+      },
+      {
+        "phrase": "Is that right? / That's right.",
+        "meaning_ar": "هل هذا صحيح؟ / هذا صحيح.",
+        "meaning_en": "Checking information.",
+        "example": "555-1234. Is that right? That's right."
+      },
+      {
+        "phrase": "I'll make sure he gets your message.",
+        "meaning_ar": "سأتأكد من أنه يتلقى رسالتك.",
+        "meaning_en": "Promising to pass the message.",
+        "example": "Don't worry. I'll make sure she gets your message."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite forms on the phone: May I / I'd like",
+        "explanation_ar": "في العمل نستخدم صيغًا مهذبة: May I ...? / I'd like to ... / Could you ...?",
+        "explanation_en": "At work, use polite forms: \"May I ...?\", \"I'd like to ...\", \"Could you ...?\".",
+        "examples": [
+          "May I ask who's calling?",
+          "I'd like to speak to Mr. Smith.",
+          "Could you call me back?"
+        ]
+      },
+      {
+        "title": "ask someone to + verb",
+        "explanation_ar": "لطلب أن يفعل شخص شيئًا: ask + الشخص + to + الفعل.",
+        "explanation_en": "Pattern: ask + person + to + verb.",
+        "examples": [
+          "Please ask him to call me back.",
+          "I asked her to send the email.",
+          "Ask them to wait."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"I'll put you through.\" means ...",
+      "choices": [
+        "I'll end the call.",
+        "I'll connect your call.",
+        "I'll call you tomorrow.",
+        "I'll write a message."
+      ],
+      "answer": 1,
+      "explanation_ar": "أحوّل مكالمتك.",
+      "explanation_en": "I'll connect your call."
+    },
+    {
+      "question": "He doesn't ____ up. (He doesn't answer.)",
+      "choices": [
+        "hang",
+        "call",
+        "put",
+        "pick"
+      ],
+      "answer": 3,
+      "explanation_ar": "pick up يرد.",
+      "explanation_en": "\"Pick up\" = answer."
+    },
+    {
+      "question": "May I ask who's ____, please?",
+      "choices": [
+        "calling",
+        "call",
+        "called",
+        "calls"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: who's calling.",
+      "explanation_en": "We say \"who's calling\"."
+    },
+    {
+      "question": "\"It's urgent.\" means ...",
+      "choices": [
+        "It's not important.",
+        "It's finished.",
+        "It needs action very soon.",
+        "It's funny."
+      ],
+      "answer": 2,
+      "explanation_ar": "عاجل.",
+      "explanation_en": "It needs action soon."
+    },
+    {
+      "question": "Please ask him ____ me back.",
+      "choices": [
+        "call",
+        "calling",
+        "to call",
+        "called"
+      ],
+      "answer": 2,
+      "explanation_ar": "ask + شخص + to + فعل.",
+      "explanation_en": "ask + person + to + verb."
+    },
+    {
+      "question": "\"Mr. Smith is currently unavailable.\" means ...",
+      "choices": [
+        "He can't talk now.",
+        "He is very happy.",
+        "He is on the phone with you.",
+        "He is new."
+      ],
+      "answer": 0,
+      "explanation_ar": "لا يستطيع التحدث الآن.",
+      "explanation_en": "He can't talk now."
+    },
+    {
+      "question": "She ____ up the phone and writes the message.",
+      "choices": [
+        "picks",
+        "puts",
+        "calls",
+        "hangs"
+      ],
+      "answer": 3,
+      "explanation_ar": "hang up ينهي المكالمة.",
+      "explanation_en": "\"Hang up\" = end the call."
+    },
+    {
+      "question": "\"May I take a message?\" is said when ...",
+      "choices": [
+        "you want to end the call",
+        "the person is not available",
+        "you are angry",
+        "you want to buy something"
+      ],
+      "answer": 1,
+      "explanation_ar": "عندما يكون الشخص غير متاح.",
+      "explanation_en": "When the person can't answer."
+    },
+    {
+      "question": "\"At your earliest convenience\" means ...",
+      "choices": [
+        "as soon as you can",
+        "never",
+        "very late",
+        "only on Monday"
+      ],
+      "answer": 0,
+      "explanation_ar": "في أقرب وقت ممكن.",
+      "explanation_en": "As soon as you can."
+    },
+    {
+      "question": "The best way to answer a work phone is:",
+      "choices": [
+        "What?",
+        "Yeah, who's this?",
+        "Good morning, ABC Company. This is Emily speaking.",
+        "Speak!"
+      ],
+      "answer": 2,
+      "explanation_ar": "هذه الطريقة الرسمية.",
+      "explanation_en": "This is the formal way."
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "title": "Buying a Train Ticket",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "station",
+        "pos": "noun",
+        "meaning_en": "a place where trains stop",
+        "meaning_ar": "محطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Welcome to Central Station."
+      },
+      {
+        "word": "ticket",
+        "pos": "noun",
+        "meaning_en": "a paper or card that lets you travel",
+        "meaning_ar": "تذكرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need a ticket to London."
+      },
+      {
+        "word": "ticket machine",
+        "pos": "noun",
+        "meaning_en": "a machine that sells tickets",
+        "meaning_ar": "آلة بيع التذاكر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I help you with the ticket machine?"
+      },
+      {
+        "word": "confused",
+        "pos": "adjective",
+        "meaning_en": "not able to understand",
+        "meaning_ar": "محتار / مرتبك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're a bit confused."
+      },
+      {
+        "word": "option",
+        "pos": "noun",
+        "meaning_en": "a choice",
+        "meaning_ar": "خيار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There are different options."
+      },
+      {
+        "word": "difference",
+        "pos": "noun",
+        "meaning_en": "the way two things are not the same",
+        "meaning_ar": "فرق / اختلاف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's the difference?"
+      },
+      {
+        "word": "single ticket",
+        "pos": "noun",
+        "meaning_en": "a ticket for one way only",
+        "meaning_ar": "تذكرة ذهاب فقط",
+        "note_ar": "في أمريكا: one-way ticket",
+        "note_en": "US: one-way ticket.",
+        "example": "A single ticket is cheaper."
+      },
+      {
+        "word": "return ticket",
+        "pos": "noun",
+        "meaning_en": "a ticket to go and come back",
+        "meaning_ar": "تذكرة ذهاب وعودة",
+        "note_ar": "في أمريكا: round-trip ticket",
+        "note_en": "US: round-trip ticket.",
+        "example": "We need a return ticket."
+      },
+      {
+        "word": "journey",
+        "pos": "noun",
+        "meaning_en": "travelling from one place to another",
+        "meaning_ar": "رحلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A return ticket is for two journeys."
+      },
+      {
+        "word": "cheaper",
+        "pos": "adjective",
+        "meaning_en": "costing less",
+        "meaning_ar": "أرخص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's cheaper and simpler."
+      },
+      {
+        "word": "platform",
+        "pos": "noun",
+        "meaning_en": "the place at a station where you get on a train",
+        "meaning_ar": "رصيف المحطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You need to go to platform 4."
+      },
+      {
+        "word": "go straight ahead",
+        "pos": "phrase",
+        "meaning_en": "walk forward, don't turn",
+        "meaning_ar": "امشِ إلى الأمام مباشرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Go straight ahead, then turn right."
+      },
+      {
+        "word": "upstairs",
+        "pos": "adverb",
+        "meaning_en": "to a higher floor",
+        "meaning_ar": "إلى الطابق العلوي",
+        "note_ar": "",
+        "note_en": "Opposite: downstairs.",
+        "example": "Do we need to go upstairs?"
+      },
+      {
+        "word": "stairs",
+        "pos": "noun",
+        "meaning_en": "steps between floors",
+        "meaning_ar": "درج / سلالم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Go up the stairs."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "single ticket vs return ticket",
+        "words": [
+          "single ticket",
+          "return ticket"
+        ],
+        "explanation_ar": "single = ذهاب فقط. return = ذهاب وعودة بنفس التذكرة.",
+        "explanation_en": "A single ticket is one way. A return ticket lets you go and come back.",
+        "examples": [
+          {
+            "word": "single ticket",
+            "sentence": "A single ticket to London, please."
+          },
+          {
+            "word": "return ticket",
+            "sentence": "We need a return ticket; we come back tomorrow."
+          }
+        ]
+      },
+      {
+        "title": "upstairs vs downstairs",
+        "words": [
+          "upstairs",
+          "downstairs"
+        ],
+        "explanation_ar": "upstairs = إلى الأعلى. downstairs = إلى الأسفل.",
+        "explanation_en": "\"Upstairs\" = up to a higher floor. \"Downstairs\" = down to a lower floor.",
+        "examples": [
+          {
+            "word": "upstairs",
+            "sentence": "Platform 4 is upstairs."
+          },
+          {
+            "word": "downstairs",
+            "sentence": "The café is downstairs."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can I help you with the ticket machine?",
+        "meaning_ar": "هل يمكنني مساعدتك في آلة التذاكر؟",
+        "meaning_en": "Offering help.",
+        "example": "Can I help you with your bags?"
+      },
+      {
+        "phrase": "We need a ticket to London.",
+        "meaning_ar": "نحتاج تذكرة إلى لندن.",
+        "meaning_en": "Saying where you want to go.",
+        "example": "I need a ticket to Manchester."
+      },
+      {
+        "phrase": "We're a bit confused about the options.",
+        "meaning_ar": "نحن محتارون قليلًا بشأن الخيارات.",
+        "meaning_en": "Saying you don't understand.",
+        "example": "I'm a bit confused about the timetable."
+      },
+      {
+        "phrase": "What's the difference between A and B?",
+        "meaning_ar": "ما الفرق بين ... و...؟",
+        "meaning_en": "Asking how two things are different.",
+        "example": "What's the difference between a bus and a coach?"
+      },
+      {
+        "phrase": "Great question.",
+        "meaning_ar": "سؤال رائع.",
+        "meaning_en": "Saying a question is good.",
+        "example": "Great question! Let me explain."
+      },
+      {
+        "phrase": "The next train leaves at 9:00.",
+        "meaning_ar": "القطار التالي يغادر الساعة التاسعة.",
+        "meaning_en": "Giving the time.",
+        "example": "The next bus leaves at 10:30."
+      },
+      {
+        "phrase": "Do we pay here?",
+        "meaning_ar": "هل ندفع هنا؟",
+        "meaning_en": "Asking where to pay.",
+        "example": "Excuse me, do we pay here?"
+      },
+      {
+        "phrase": "How do we get to platform 4?",
+        "meaning_ar": "كيف نصل إلى الرصيف 4؟",
+        "meaning_en": "Asking directions in a station.",
+        "example": "How do I get to platform 2?"
+      },
+      {
+        "phrase": "Go straight ahead, then turn right.",
+        "meaning_ar": "امشِ إلى الأمام، ثم انعطف يمينًا.",
+        "meaning_en": "Giving directions.",
+        "example": "Go straight ahead, then turn left."
+      },
+      {
+        "phrase": "Platform 4 is on the left.",
+        "meaning_ar": "الرصيف 4 على اليسار.",
+        "meaning_en": "Saying where something is.",
+        "example": "The exit is on the right."
+      },
+      {
+        "phrase": "Have a nice trip.",
+        "meaning_ar": "رحلة سعيدة.",
+        "meaning_en": "A kind goodbye.",
+        "example": "Have a nice trip to London!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Directions: imperatives",
+        "explanation_ar": "للإرشاد نستخدم صيغة الأمر: Go straight ahead. Turn right. Go up the stairs.",
+        "explanation_en": "Use imperatives to give directions.",
+        "examples": [
+          "Go straight ahead.",
+          "Turn right.",
+          "Go up the stairs."
+        ]
+      },
+      {
+        "title": "Comparatives: cheaper, simpler",
+        "explanation_ar": "الصفات القصيرة: نضيف er: cheap ← cheaper، simple ← simpler.",
+        "explanation_en": "Short adjectives: add -er: cheaper, simpler, faster.",
+        "examples": [
+          "A single ticket is cheaper.",
+          "It's simpler.",
+          "This train is faster."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A ticket to go and come back is a ...",
+      "choices": [
+        "single ticket",
+        "return ticket",
+        "platform ticket",
+        "machine ticket"
+      ],
+      "answer": 1,
+      "explanation_ar": "ذهاب وعودة: return ticket.",
+      "explanation_en": "A return ticket."
+    },
+    {
+      "question": "In American English, a \"single ticket\" is a ...",
+      "choices": [
+        "round-trip ticket",
+        "fast ticket",
+        "free ticket",
+        "one-way ticket"
+      ],
+      "answer": 3,
+      "explanation_ar": "في أمريكا one-way ticket.",
+      "explanation_en": "US: one-way ticket."
+    },
+    {
+      "question": "Where do you get on a train?",
+      "choices": [
+        "at the platform",
+        "at the ticket",
+        "at the stairs",
+        "at the difference"
+      ],
+      "answer": 0,
+      "explanation_ar": "من الرصيف.",
+      "explanation_en": "At the platform."
+    },
+    {
+      "question": "A single ticket is ____ than a return ticket.",
+      "choices": [
+        "cheap",
+        "more cheap",
+        "cheaper",
+        "cheapest"
+      ],
+      "answer": 2,
+      "explanation_ar": "المقارنة cheaper.",
+      "explanation_en": "Comparative: cheaper."
+    },
+    {
+      "question": "\"Go straight ahead\" means ...",
+      "choices": [
+        "turn left",
+        "go back",
+        "walk forward",
+        "go upstairs"
+      ],
+      "answer": 2,
+      "explanation_ar": "امشِ إلى الأمام.",
+      "explanation_en": "Walk forward."
+    },
+    {
+      "question": "What's the ____ between a single and a return ticket?",
+      "choices": [
+        "difference",
+        "different",
+        "differ",
+        "differently"
+      ],
+      "answer": 0,
+      "explanation_ar": "نحتاج الاسم difference.",
+      "explanation_en": "We need the noun \"difference\"."
+    },
+    {
+      "question": "The next train ____ at 9:00.",
+      "choices": [
+        "leave",
+        "leaving",
+        "is leave",
+        "leaves"
+      ],
+      "answer": 3,
+      "explanation_ar": "المواعيد: leaves.",
+      "explanation_en": "Timetables use present simple: leaves."
+    },
+    {
+      "question": "\"We're a bit confused.\" means ...",
+      "choices": [
+        "We are very happy.",
+        "We don't understand well.",
+        "We are late.",
+        "We are lost in London."
+      ],
+      "answer": 1,
+      "explanation_ar": "لا نفهم جيدًا.",
+      "explanation_en": "We don't understand well."
+    },
+    {
+      "question": "Platform 4 is ____ the left.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: on the left.",
+      "explanation_en": "We say \"on the left\"."
+    },
+    {
+      "question": "Do we need to go ____? Yes, go up the stairs.",
+      "choices": [
+        "downstairs",
+        "outside",
+        "upstairs",
+        "straight"
+      ],
+      "answer": 2,
+      "explanation_ar": "الإجابة الصحيحة: up the stairs = upstairs.",
+      "explanation_en": "Up the stairs = upstairs."
+    }
+  ]
+}

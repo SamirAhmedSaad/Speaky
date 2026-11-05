@@ -1,0 +1,42 @@
+{
+  "title": "Business Phrasal Verbs with \"Off\"",
+  "content": {
+    "vocabulary": [
+      {"word": "off", "pos": "preposition", "meaning_en": "here: moving away from something, or going down / reducing", "meaning_ar": "ابتعاد / نزول ونقصان", "note_ar": "لـ off معانٍ كثيرة، وهنا معنيان", "note_en": "Off has many meanings; this lesson uses two.", "example": "The plane took off."},
+      {"word": "take off (time)", "pos": "phrasal verb", "meaning_en": "to have time away from work, a holiday", "meaning_ar": "يأخذ إجازة", "note_ar": "take time off / take a month off", "note_en": "take some time off", "example": "I want to take a week off in the summer."},
+      {"word": "take off (succeed)", "pos": "phrasal verb", "meaning_en": "to become successful very quickly", "meaning_ar": "ينطلق / ينجح بسرعة", "note_ar": "مثل إقلاع الطائرة", "note_en": "Like a plane going up.", "example": "Our new product is really taking off in Italy."},
+      {"word": "rip off", "pos": "phrasal verb", "meaning_en": "to steal; to charge too much; to copy someone's idea", "meaning_ar": "يسرق / يغشّ في السعر / يسرق فكرة", "note_ar": "الاسم: a rip-off = شيء سعره أغلى من قيمته", "note_en": "Noun: a rip-off (something overpriced).", "example": "Five dollars for this water? That's a rip-off!"},
+      {"word": "sue", "pos": "verb", "meaning_en": "to take someone to court to get money", "meaning_ar": "يقاضي", "note_ar": "", "note_en": "", "example": "Apple sued Samsung for copying its idea."},
+      {"word": "sell off", "pos": "phrasal verb", "meaning_en": "to sell things at a much lower price to get rid of them", "meaning_ar": "يبيع بأسعار مخفّضة للتخلّص من البضاعة", "note_ar": "الاسم: a sell-off", "note_en": "Noun: a sell-off.", "example": "The shop is selling off last year's phones."},
+      {"word": "lay off", "pos": "phrasal verb", "meaning_en": "to stop employing workers because there is no money or work, not because they did wrong", "meaning_ar": "يسرّح (عمّالًا مؤقتًا)", "note_ar": "الاسم: a layoff", "note_en": "Noun: a layoff.", "example": "The factory laid off 200 workers."},
+      {"word": "fire", "pos": "verb", "meaning_en": "to make someone leave their job, usually because of their behaviour or work", "meaning_ar": "يطرد من العمل", "note_ar": "", "note_en": "", "example": "He was fired for stealing."},
+      {"word": "write off", "pos": "phrasal verb / noun", "meaning_en": "(business) a cost that reduces the tax you pay", "meaning_ar": "خصم ضريبي / مصروف يُخصم من الضريبة", "note_ar": "", "note_en": "Noun: a write-off.", "example": "My new work computer is a write-off."},
+      {"word": "expense", "pos": "noun", "meaning_en": "money spent on something", "meaning_ar": "مصروف / نفقة", "note_ar": "", "note_en": "", "example": "Travel is a big business expense."},
+      {"word": "taxable", "pos": "adjective", "meaning_en": "that you must pay tax on", "meaning_ar": "خاضع للضريبة", "note_ar": "", "note_en": "", "example": "Your salary is taxable."}
+    ],
+    "fine_lines": [
+      {"title": "laid off vs fired", "words": ["laid off", "fired"], "explanation_ar": "laid off: الشركة ليس لديها مال أو عمل، والعامل لم يخطئ، وقد تعيده لاحقًا. fired: طُرد بسبب خطأ أو سوء عمل ولن يعود.", "explanation_en": "Laid off: the company has no money or work; you did nothing wrong and may be called back. Fired: you lost your job because of your behaviour; it's over.", "examples": [{"word": "laid off", "sentence": "She was laid off when the factory closed for three months."}, {"word": "fired", "sentence": "He was fired because he was always late."}]},
+      {"title": "take off: holiday vs success", "words": ["take off"], "explanation_ar": "take time off = يأخذ إجازة. Business is taking off = العمل ينجح ويرتفع بسرعة.", "explanation_en": "Take time off = have a holiday. A business takes off = it becomes successful fast.", "examples": [{"word": "take off", "sentence": "I'm taking two days off next week."}, {"word": "take off", "sentence": "Her online shop really took off."}]},
+      {"title": "Three meanings of rip off", "words": ["rip off"], "explanation_ar": "1) سرقة بضاعة من متجر. 2) جعل الزبون يدفع أكثر من قيمة الشيء. 3) سرقة فكرة شركة أخرى.", "explanation_en": "1) Steal goods from a shop. 2) Make a customer pay too much. 3) Copy another company's idea.", "examples": [{"word": "rip off", "sentence": "Someone ripped off the store last night."}, {"word": "rip off", "sentence": "I paid $50 for this? I was ripped off."}, {"word": "rip off", "sentence": "They ripped off our design."}]}
+    ],
+    "expressions": [
+      {"phrase": "I'd like to take some time off.", "meaning_ar": "أودّ أن آخذ إجازة.", "meaning_en": "I want a holiday from work.", "example": "Boss, I'd like to take some time off in July."},
+      {"phrase": "It's taking off.", "meaning_ar": "إنه ينجح بسرعة.", "meaning_en": "It's becoming successful.", "example": "Our new app is really taking off."},
+      {"phrase": "That's a rip-off!", "meaning_ar": "هذا سعر مبالغ فيه / نصب!", "meaning_en": "That costs much more than it's worth.", "example": "Ten dollars for a coffee? That's a rip-off!"},
+      {"phrase": "I felt ripped off.", "meaning_ar": "شعرت بأنني خُدعت في السعر.", "meaning_en": "I paid too much.", "example": "I saw the same bag for half the price; I felt ripped off."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"Boss, I'd like to ___ a week ___ in August.\" (holiday)", "choices": ["take / off", "rip / off", "lay / off", "sell / off"], "answer": 0, "explanation_ar": "take time off = يأخذ إجازة.", "explanation_en": "Take time off = holiday."},
+    {"question": "\"Our new water brand is ___ in Italy.\" (very successful)", "choices": ["laying off", "taking off", "writing off", "ripping off"], "answer": 1, "explanation_ar": "take off = ينجح بسرعة.", "explanation_en": "Take off = become successful."},
+    {"question": "You paid $5 for water that costs $1 next door. You were ___.", "choices": ["laid off", "taken off", "ripped off", "sold off"], "answer": 2, "explanation_ar": "ripped off = دفعت أكثر من القيمة.", "explanation_en": "Ripped off = paid too much."},
+    {"question": "A company has no money, so it tells workers to go home for now. The workers are ___.", "choices": ["fired", "ripped off", "taken off", "laid off"], "answer": 3, "explanation_ar": "laid off = سُرّحوا لأن الشركة بلا مال.", "explanation_en": "Laid off = no money or work."},
+    {"question": "\"Nobody buys at $5, so we'll ___ them ___ at $1.\"", "choices": ["sell / off", "take / off", "lay / off", "rip / off"], "answer": 0, "explanation_ar": "sell off = يبيع بسعر منخفض للتخلص من البضاعة.", "explanation_en": "Sell off = sell cheaply to get rid of stock."},
+    {"question": "A business expense that reduces your tax is a ___.", "choices": ["rip-off", "write-off", "layoff", "sell-off"], "answer": 1, "explanation_ar": "write-off = مصروف يُخصم من الضريبة.", "explanation_en": "A write-off reduces your tax."},
+    {"question": "Samsung copied Apple's idea. Samsung ___ the idea.", "choices": ["laid off", "took off", "ripped off", "wrote off"], "answer": 2, "explanation_ar": "rip off = يسرق فكرة.", "explanation_en": "Rip off = steal an idea."},
+    {"question": "What's the difference between \"laid off\" and \"fired\"?", "choices": ["They are the same.", "Fired workers may be called back.", "Laid off = you did something wrong.", "Laid off = no money or work; fired = your fault."], "answer": 3, "explanation_ar": "laid off ليس خطأك، وfired بسبب خطئك.", "explanation_en": "Laid off isn't your fault; fired is."},
+    {"question": "\"Apple ___ Samsung\" (took them to court).", "choices": ["sued", "laid off", "sold off", "took off"], "answer": 0, "explanation_ar": "sue = يقاضي.", "explanation_en": "Sue = take to court."},
+    {"question": "In \"sell off\" and \"lay off\", \"off\" means:", "choices": ["going up", "going down / reducing", "turning on", "arriving"], "answer": 1, "explanation_ar": "off هنا = نقصان.", "explanation_en": "Off here = reducing."}
+  ]
+}

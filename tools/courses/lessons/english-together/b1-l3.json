@@ -1,0 +1,434 @@
+{
+  "title": "Are you okay?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "upset",
+        "pos": "adjective",
+        "meaning_en": "sad or worried because something bad happened",
+        "meaning_ar": "منزعج / حزين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She looks upset today."
+      },
+      {
+        "word": "disagreement",
+        "pos": "noun",
+        "meaning_en": "a situation when people do not have the same opinion",
+        "meaning_ar": "خلاف",
+        "note_ar": "الفعل: disagree",
+        "note_en": "Verb: disagree.",
+        "example": "We had a small disagreement about the plan."
+      },
+      {
+        "word": "argument",
+        "pos": "noun",
+        "meaning_en": "an angry talk between people who disagree",
+        "meaning_ar": "شجار / جدال",
+        "note_ar": "الفعل: argue",
+        "note_en": "Verb: argue.",
+        "example": "The two brothers had an argument."
+      },
+      {
+        "word": "opinion",
+        "pos": "noun",
+        "meaning_en": "what you think about something",
+        "meaning_ar": "رأي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In my opinion, the test was easy."
+      },
+      {
+        "word": "concern",
+        "pos": "noun",
+        "meaning_en": "care and worry for someone",
+        "meaning_ar": "اهتمام / قلق على أحد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your concern."
+      },
+      {
+        "word": "appreciate",
+        "pos": "verb",
+        "meaning_en": "be thankful for something",
+        "meaning_ar": "يقدّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I appreciate your help."
+      },
+      {
+        "word": "tough",
+        "pos": "adjective",
+        "meaning_en": "difficult",
+        "meaning_ar": "صعب",
+        "note_ar": "تُنطق /tʌf/",
+        "note_en": "Say /tʌf/.",
+        "example": "The exam was tough."
+      },
+      {
+        "word": "perspective",
+        "pos": "noun",
+        "meaning_en": "a way of thinking about something",
+        "meaning_ar": "وجهة نظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Try to see it from my perspective."
+      },
+      {
+        "word": "frustrated",
+        "pos": "adjective",
+        "meaning_en": "annoyed because you cannot do or change something",
+        "meaning_ar": "محبَط / منزعج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I felt frustrated when the computer stopped working."
+      },
+      {
+        "word": "emotions",
+        "pos": "noun",
+        "meaning_en": "feelings like anger, sadness or happiness",
+        "meaning_ar": "المشاعر / العواطف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's normal to have strong emotions."
+      },
+      {
+        "word": "calm down",
+        "pos": "phrasal verb",
+        "meaning_en": "become less angry or worried",
+        "meaning_ar": "يهدأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please calm down and sit."
+      },
+      {
+        "word": "space",
+        "pos": "noun",
+        "meaning_en": "time alone to think",
+        "meaning_ar": "مساحة / وقت للنفس",
+        "note_ar": "give someone space = اتركه وحده قليلًا",
+        "note_en": "give someone space = leave them alone for a while",
+        "example": "He needs some space today."
+      },
+      {
+        "word": "cool off",
+        "pos": "phrasal verb",
+        "meaning_en": "become calm after being angry",
+        "meaning_ar": "يهدأ (بعد الغضب)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's wait a little and cool off."
+      },
+      {
+        "word": "overcome",
+        "pos": "verb",
+        "meaning_en": "succeed in dealing with a problem",
+        "meaning_ar": "يتغلّب على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can overcome this problem together."
+      },
+      {
+        "word": "value",
+        "pos": "verb",
+        "meaning_en": "think something is very important",
+        "meaning_ar": "يقدّر / يعتزّ بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I value my family."
+      },
+      {
+        "word": "friendship",
+        "pos": "noun",
+        "meaning_en": "the relationship between friends",
+        "meaning_ar": "صداقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our friendship is very strong."
+      },
+      {
+        "word": "ruin",
+        "pos": "verb",
+        "meaning_en": "spoil or destroy something",
+        "meaning_ar": "يُفسد / يدمّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't let one bad day ruin your week."
+      },
+      {
+        "word": "advice",
+        "pos": "noun",
+        "meaning_en": "an idea about what someone should do",
+        "meaning_ar": "نصيحة",
+        "note_ar": "غير معدودة: some advice (لا نقول an advice)",
+        "note_en": "Uncountable: some advice, not \"an advice\".",
+        "example": "My teacher gave me good advice."
+      },
+      {
+        "word": "support",
+        "pos": "noun",
+        "meaning_en": "help and kindness",
+        "meaning_ar": "دعم / مساندة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your support."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "disagreement vs argument",
+        "words": [
+          "disagreement",
+          "argument"
+        ],
+        "explanation_ar": "disagreement اختلاف في الرأي وقد يكون هادئًا. argument جدال فيه غضب وأصوات مرتفعة غالبًا.",
+        "explanation_en": "A disagreement is having different opinions. An argument is an angry talk.",
+        "examples": [
+          {
+            "word": "disagreement",
+            "sentence": "We had a disagreement, but we stayed calm."
+          },
+          {
+            "word": "argument",
+            "sentence": "They had an argument and shouted."
+          }
+        ]
+      },
+      {
+        "title": "calm down vs cool off",
+        "words": [
+          "calm down",
+          "cool off"
+        ],
+        "explanation_ar": "كلاهما بمعنى يهدأ. calm down عامة (من الغضب أو الخوف أو القلق)، و cool off تُستخدم غالبًا بعد الغضب أو الشجار.",
+        "explanation_en": "Both mean become calm. \"Cool off\" is usually used after anger or an argument.",
+        "examples": [
+          {
+            "word": "calm down",
+            "sentence": "Calm down. Everything is OK."
+          },
+          {
+            "word": "cool off",
+            "sentence": "Give him an hour to cool off."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Are you okay?",
+        "meaning_ar": "هل أنت بخير؟",
+        "meaning_en": "Ask if someone has a problem.",
+        "example": "You look tired. Are you okay?"
+      },
+      {
+        "phrase": "You look upset.",
+        "meaning_ar": "تبدو منزعجًا.",
+        "meaning_en": "Say what you notice about someone's feelings.",
+        "example": "You look upset. What happened?"
+      },
+      {
+        "phrase": "I'm sorry to hear that.",
+        "meaning_ar": "يؤسفني سماع ذلك.",
+        "meaning_en": "Say this when someone tells you bad news.",
+        "example": "My cat is sick. I'm sorry to hear that."
+      },
+      {
+        "phrase": "Do you want to talk about it?",
+        "meaning_ar": "هل تريد أن تتحدث عن الأمر؟",
+        "meaning_en": "Offer to listen to someone's problem.",
+        "example": "You look sad. Do you want to talk about it?"
+      },
+      {
+        "phrase": "I appreciate your concern.",
+        "meaning_ar": "أقدّر اهتمامك.",
+        "meaning_en": "Thank someone for caring about you.",
+        "example": "Thanks for asking. I appreciate your concern."
+      },
+      {
+        "phrase": "talk it out",
+        "meaning_ar": "نتحدث بصراحة حتى نحل المشكلة",
+        "meaning_en": "Talk about a problem until you solve it.",
+        "example": "Let's sit down and talk it out."
+      },
+      {
+        "phrase": "Take your time.",
+        "meaning_ar": "خذ وقتك.",
+        "meaning_en": "Tell someone not to hurry.",
+        "example": "Take your time. I can wait."
+      },
+      {
+        "phrase": "Thank you for listening.",
+        "meaning_ar": "شكرًا لأنك استمعت إليّ.",
+        "meaning_en": "Thank someone who listened to your problem.",
+        "example": "Thank you for listening. I feel better now."
+      },
+      {
+        "phrase": "Anytime.",
+        "meaning_ar": "في أي وقت.",
+        "meaning_en": "A friendly answer to \"thank you\".",
+        "example": "Thanks for your help! Anytime."
+      },
+      {
+        "phrase": "Friends are here to help each other.",
+        "meaning_ar": "الأصدقاء موجودون ليساعدوا بعضهم بعضًا.",
+        "meaning_en": "A kind sentence about friendship.",
+        "example": "Don't worry. Friends are here to help each other."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Describing feelings: look / feel + adjective",
+        "explanation_ar": "بعد look (يبدو) و feel (يشعر) نستخدم صفة وليس ظرفًا: You look upset. I feel frustrated.",
+        "explanation_en": "After look and feel use an adjective: You look upset. I feel better.",
+        "examples": [
+          "You look upset.",
+          "We both got frustrated.",
+          "I feel calm now."
+        ]
+      },
+      {
+        "title": "Past simple: telling what happened",
+        "explanation_ar": "لنحكي ما حدث نستخدم الماضي البسيط. أفعال شاذة في الدرس: have → had، say → said، get → got، go → went. والنفي: didn't + الفعل في أصله.",
+        "explanation_en": "To tell what happened, use the past simple. Irregular verbs here: had, said, got, went. Negative: didn't + base verb.",
+        "examples": [
+          "I had a disagreement with my friend.",
+          "We said things we didn't mean.",
+          "It didn't go well."
+        ]
+      },
+      {
+        "title": "Giving advice: \"Have you thought about...?\" / \"It's important to...\"",
+        "explanation_ar": "لتقديم نصيحة بلطف: Have you thought about + فعل ing؟ أو It's important to + الفعل.",
+        "explanation_en": "To give advice politely: Have you thought about + verb-ing? / It's important to + verb.",
+        "examples": [
+          "Have you thought about giving it some time?",
+          "It's important to stay calm.",
+          "Have you thought about calling her?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Your friend looks sad. What do you say?",
+      "choices": [
+        "Are you okay?",
+        "Nice to meet you.",
+        "Where are you from?",
+        "How old are you?"
+      ],
+      "answer": 0,
+      "explanation_ar": "نسأل Are you okay? عندما يبدو الشخص حزينًا.",
+      "explanation_en": "We ask \"Are you okay?\" when someone looks sad."
+    },
+    {
+      "question": "My friend is sick. — I'm sorry ___ that.",
+      "choices": [
+        "to hear",
+        "hear",
+        "hearing",
+        "for hear"
+      ],
+      "answer": 0,
+      "explanation_ar": "العبارة الصحيحة: I'm sorry to hear that.",
+      "explanation_en": "The phrase is \"I'm sorry to hear that\"."
+    },
+    {
+      "question": "What is an \"argument\"?",
+      "choices": [
+        "a happy party",
+        "an angry talk between people",
+        "a kind of advice",
+        "a new friend"
+      ],
+      "answer": 1,
+      "explanation_ar": "argument تعني شجار أو جدال.",
+      "explanation_en": "An argument is an angry talk."
+    },
+    {
+      "question": "We both got ___ and said things we didn't mean.",
+      "choices": [
+        "friendship",
+        "advice",
+        "opinion",
+        "frustrated"
+      ],
+      "answer": 3,
+      "explanation_ar": "نحتاج صفة تصف الشعور: frustrated (محبَط).",
+      "explanation_en": "We need a feeling adjective: frustrated."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "She gave me an advice.",
+        "She gave me good advice.",
+        "She gave me advices.",
+        "She gave me a advices."
+      ],
+      "answer": 1,
+      "explanation_ar": "advice غير معدودة: good advice.",
+      "explanation_en": "\"Advice\" is uncountable: good advice."
+    },
+    {
+      "question": "\"Take your time\" means...",
+      "choices": [
+        "Hurry up.",
+        "Go away.",
+        "Be quiet.",
+        "Don't hurry."
+      ],
+      "answer": 3,
+      "explanation_ar": "Take your time تعني لا تستعجل.",
+      "explanation_en": "It means don't hurry."
+    },
+    {
+      "question": "Have you thought about ___ it some time?",
+      "choices": [
+        "give",
+        "gave",
+        "giving",
+        "to give"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد about نستخدم الفعل مع ing.",
+      "explanation_en": "After \"about\" use verb-ing."
+    },
+    {
+      "question": "I value our friendship. \"Value\" here means...",
+      "choices": [
+        "think it is very important",
+        "sell it",
+        "forget it",
+        "break it"
+      ],
+      "answer": 0,
+      "explanation_ar": "value هنا تعني يقدّر ويعتبره مهمًا جدًا.",
+      "explanation_en": "Value means think it is very important."
+    },
+    {
+      "question": "Thank you for listening! — ___",
+      "choices": [
+        "Sorry.",
+        "Upset.",
+        "Anytime.",
+        "Tough."
+      ],
+      "answer": 2,
+      "explanation_ar": "Anytime رد ودّي على الشكر.",
+      "explanation_en": "\"Anytime\" is a friendly reply to thanks."
+    },
+    {
+      "question": "It's important to give your friend some space to ___.",
+      "choices": [
+        "cool off",
+        "argue",
+        "ruin",
+        "upset"
+      ],
+      "answer": 0,
+      "explanation_ar": "cool off تعني يهدأ بعد الغضب.",
+      "explanation_en": "Cool off means become calm after anger."
+    }
+  ]
+}

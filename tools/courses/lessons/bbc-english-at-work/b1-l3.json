@@ -1,0 +1,406 @@
+{
+  "title": "Making Suggestions",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "suggestion",
+        "pos": "noun",
+        "meaning_en": "an idea you offer to help someone",
+        "meaning_ar": "اقتراح",
+        "note_ar": "الفعل: suggest = يقترح",
+        "note_en": "Verb: suggest.",
+        "example": "Can I make a suggestion?"
+      },
+      {
+        "word": "make a suggestion",
+        "pos": "phrase",
+        "meaning_en": "offer an idea",
+        "meaning_ar": "يقدّم اقتراحًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She made a very useful suggestion."
+      },
+      {
+        "word": "presentation",
+        "pos": "noun",
+        "meaning_en": "a talk, often with slides, to show information to people",
+        "meaning_ar": "عرض تقديمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have an important presentation this afternoon."
+      },
+      {
+        "word": "USB stick / memory stick",
+        "pos": "noun",
+        "meaning_en": "a small device for saving and moving computer files",
+        "meaning_ar": "ذاكرة فلاش / يو إس بي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I saved the file on a USB stick."
+      },
+      {
+        "word": "save",
+        "pos": "verb",
+        "meaning_en": "keep a file on a computer",
+        "meaning_ar": "يحفظ (ملفًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't forget to save your work."
+      },
+      {
+        "word": "delete",
+        "pos": "verb",
+        "meaning_en": "remove a file from a computer",
+        "meaning_ar": "يحذف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I deleted the old files."
+      },
+      {
+        "word": "copy",
+        "pos": "noun",
+        "meaning_en": "another version of the same file or document",
+        "meaning_ar": "نسخة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have a copy of the report?"
+      },
+      {
+        "word": "recycle bin",
+        "pos": "noun",
+        "meaning_en": "the place on a computer where deleted files go",
+        "meaning_ar": "سلة المحذوفات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look in the recycle bin. It might still be there."
+      },
+      {
+        "word": "rubbish bin",
+        "pos": "noun",
+        "meaning_en": "a container for things you throw away",
+        "meaning_ar": "سلة المهملات",
+        "note_ar": "في أمريكا: trash can",
+        "note_en": "US: trash can.",
+        "example": "I threw the paper in the rubbish bin."
+      },
+      {
+        "word": "by mistake",
+        "pos": "phrase",
+        "meaning_en": "without wanting to; accidentally",
+        "meaning_ar": "عن طريق الخطأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I deleted the file by mistake."
+      },
+      {
+        "word": "colleague",
+        "pos": "noun",
+        "meaning_en": "a person you work with",
+        "meaning_ar": "زميل عمل",
+        "note_ar": "النطق: /ˈkɒliːɡ/",
+        "note_en": "Say: KOL-eeg.",
+        "example": "Have you asked your colleagues?"
+      },
+      {
+        "word": "confidential",
+        "pos": "adjective",
+        "meaning_en": "secret; only for some people to see",
+        "meaning_ar": "سرّي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These documents are confidential."
+      },
+      {
+        "word": "staff",
+        "pos": "noun",
+        "meaning_en": "all the people who work for a company",
+        "meaning_ar": "الموظفون / طاقم العمل",
+        "note_ar": "اسم جمعي: the staff are/is",
+        "note_en": "A group noun.",
+        "example": "Only staff can enter this room."
+      },
+      {
+        "word": "inbox",
+        "pos": "noun",
+        "meaning_en": "the place where your new emails arrive",
+        "meaning_ar": "صندوق الوارد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Check your inbox for my email."
+      },
+      {
+        "word": "proof-read",
+        "pos": "verb",
+        "meaning_en": "read something carefully to find mistakes",
+        "meaning_ar": "يدقّق (نصًّا) لغويًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you proof-read my report?"
+      },
+      {
+        "word": "vanish",
+        "pos": "verb",
+        "meaning_en": "disappear suddenly",
+        "meaning_ar": "يختفي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My keys have vanished!"
+      },
+      {
+        "word": "sensible",
+        "pos": "adjective",
+        "meaning_en": "showing good judgement",
+        "meaning_ar": "معقول / حكيم",
+        "note_ar": "لا تعني sensitive (حسّاس)",
+        "note_en": "Not the same as \"sensitive\".",
+        "example": "That's a very sensible idea."
+      },
+      {
+        "word": "disorganised",
+        "pos": "adjective",
+        "meaning_en": "not well planned or arranged",
+        "meaning_ar": "غير منظّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The office is very disorganised."
+      },
+      {
+        "word": "think on your feet",
+        "pos": "idiom",
+        "meaning_en": "think and act quickly in a new situation",
+        "meaning_ar": "يفكّر بسرعة ويتصرّف في الموقف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A good salesperson can think on her feet."
+      },
+      {
+        "word": "people person",
+        "pos": "noun",
+        "meaning_en": "someone who is good with people",
+        "meaning_ar": "شخص اجتماعي يجيد التعامل مع الناس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need a real people person for this job."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Why don't you...? vs How about...?",
+        "words": [
+          "Why don't you",
+          "How about"
+        ],
+        "explanation_ar": "كلاهما لتقديم اقتراح. بعد Why don't you نستخدم المصدر بدون to: Why don't you try...? وبعد How about نستخدم الفعل بصيغة -ing: How about looking...?",
+        "explanation_en": "Both make suggestions. After \"Why don't you\" use the base verb: Why don't you try...? After \"How about\" use -ing: How about looking...?",
+        "examples": [
+          {
+            "word": "Why don't you",
+            "sentence": "Why don't you call the client?"
+          },
+          {
+            "word": "How about",
+            "sentence": "How about calling the client?"
+          }
+        ]
+      },
+      {
+        "title": "rubbish bin vs recycle bin",
+        "words": [
+          "rubbish bin",
+          "recycle bin"
+        ],
+        "explanation_ar": "rubbish bin هي سلة المهملات الحقيقية في المكتب، وrecycle bin هي سلة المحذوفات في الحاسوب.",
+        "explanation_en": "A rubbish bin is a real bin for waste. The recycle bin is on your computer, for deleted files.",
+        "examples": [
+          {
+            "word": "rubbish bin",
+            "sentence": "Put the old paper in the rubbish bin."
+          },
+          {
+            "word": "recycle bin",
+            "sentence": "The deleted file is in the recycle bin."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can I make a suggestion?",
+        "meaning_ar": "هل يمكنني أن أقدّم اقتراحًا؟",
+        "meaning_en": "A polite way to start giving an idea.",
+        "example": "Can I make a suggestion? Let's meet earlier."
+      },
+      {
+        "phrase": "Why don't you try...?",
+        "meaning_ar": "لماذا لا تجرّب...؟",
+        "meaning_en": "Suggest an action to someone.",
+        "example": "Why don't you try restarting the computer?"
+      },
+      {
+        "phrase": "Have you tried asking your colleagues?",
+        "meaning_ar": "هل جرّبت أن تسأل زملاءك؟",
+        "meaning_en": "Suggest something they may not have done yet.",
+        "example": "Have you tried asking your colleagues for the file?"
+      },
+      {
+        "phrase": "Maybe I could...?",
+        "meaning_ar": "ربما أستطيع أن...؟",
+        "meaning_en": "Offer to do something yourself.",
+        "example": "Maybe I could help you look for it?"
+      },
+      {
+        "phrase": "How about looking through your rubbish bin?",
+        "meaning_ar": "ما رأيك أن تبحث في سلة المهملات؟",
+        "meaning_en": "Suggest an idea with How about + -ing.",
+        "example": "How about looking through your desk drawers?"
+      },
+      {
+        "phrase": "I have an idea!",
+        "meaning_ar": "لديّ فكرة!",
+        "meaning_en": "Say you have a new suggestion.",
+        "example": "I have an idea! Let's check your sent emails."
+      },
+      {
+        "phrase": "Good thinking!",
+        "meaning_ar": "تفكير جيّد! / فكرة ذكية!",
+        "meaning_en": "Praise someone for a clever idea.",
+        "example": "You emailed it to me? Good thinking!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Making suggestions: verb forms",
+        "explanation_ar": "لكل عبارة اقتراح صيغة فعل خاصة بها:\n- Why don't you + فعل مجرد: Why don't you try...\n- How about + فعل بـ -ing: How about looking...\n- Have you tried + فعل بـ -ing: Have you tried asking...\n- Maybe I could + فعل مجرد: Maybe I could help.",
+        "explanation_en": "Each suggestion phrase takes a different verb form:\n- Why don't you + base verb\n- How about + -ing\n- Have you tried + -ing\n- Maybe I/we could + base verb",
+        "examples": [
+          "Why don't you send it again?",
+          "How about sending it again?",
+          "Have you tried sending it again?",
+          "Maybe we could send it again."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Why don't you ___ in the recycle bin?",
+      "choices": [
+        "look",
+        "looking",
+        "to look",
+        "looked"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد Why don't you نستخدم الفعل المجرد look.",
+      "explanation_en": "After \"Why don't you\" use the base verb."
+    },
+    {
+      "question": "How about ___ your colleagues?",
+      "choices": [
+        "ask",
+        "asking",
+        "to ask",
+        "asked"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد How about نستخدم -ing.",
+      "explanation_en": "After \"How about\" use -ing."
+    },
+    {
+      "question": "Which phrase politely starts a suggestion?",
+      "choices": [
+        "Can I make a suggestion?",
+        "Do it now!",
+        "That's wrong.",
+        "Go away."
+      ],
+      "answer": 0,
+      "explanation_ar": "Can I make a suggestion? بداية مهذبة للاقتراح.",
+      "explanation_en": "It is a polite way to start a suggestion."
+    },
+    {
+      "question": "Have you tried ___ the file to yourself?",
+      "choices": [
+        "email",
+        "emailing",
+        "to emailing",
+        "emailed"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد Have you tried نستخدم -ing.",
+      "explanation_en": "After \"Have you tried\" use -ing."
+    },
+    {
+      "question": "\"Confidential\" documents are...",
+      "choices": [
+        "very old",
+        "secret",
+        "wet",
+        "free"
+      ],
+      "answer": 1,
+      "explanation_ar": "confidential تعني سرّي.",
+      "explanation_en": "Confidential means secret."
+    },
+    {
+      "question": "A colleague is...",
+      "choices": [
+        "a person you work with",
+        "a client",
+        "a computer",
+        "a meeting room"
+      ],
+      "answer": 0,
+      "explanation_ar": "colleague هو زميل العمل.",
+      "explanation_en": "A colleague is someone you work with."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Maybe I could helping you.",
+        "Maybe I could help you.",
+        "Maybe I could to help you.",
+        "Maybe I could helped you."
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد could نستخدم الفعل المجرد.",
+      "explanation_en": "After \"could\" use the base verb."
+    },
+    {
+      "question": "Where do deleted computer files go?",
+      "choices": [
+        "the rubbish bin",
+        "the inbox",
+        "the recycle bin",
+        "the warehouse"
+      ],
+      "answer": 2,
+      "explanation_ar": "الملفات المحذوفة تذهب إلى recycle bin.",
+      "explanation_en": "Deleted files go to the recycle bin."
+    },
+    {
+      "question": "\"I deleted it by mistake\" means...",
+      "choices": [
+        "I wanted to delete it",
+        "I deleted it without meaning to",
+        "I never deleted it",
+        "I deleted it slowly"
+      ],
+      "answer": 1,
+      "explanation_ar": "by mistake تعني عن طريق الخطأ.",
+      "explanation_en": "By mistake means accidentally."
+    },
+    {
+      "question": "Someone who can \"think on her feet\"...",
+      "choices": [
+        "stands all day",
+        "thinks and acts quickly",
+        "walks a lot",
+        "never thinks"
+      ],
+      "answer": 1,
+      "explanation_ar": "think on your feet تعني التفكير والتصرف بسرعة.",
+      "explanation_en": "It means thinking and acting quickly."
+    }
+  ]
+}

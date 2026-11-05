@@ -1,0 +1,459 @@
+{
+  "title": "Giving Careers Advice",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "careers advice",
+        "pos": "noun",
+        "meaning_en": "help and suggestions about jobs and what work to do",
+        "meaning_ar": "الإرشاد المهني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The college offers free careers advice."
+      },
+      {
+        "word": "guidance",
+        "pos": "noun",
+        "meaning_en": "help and advice about what to do",
+        "meaning_ar": "توجيه / إرشاد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She needs some guidance on finding a job."
+      },
+      {
+        "word": "leaving card",
+        "pos": "noun",
+        "meaning_en": "a card that colleagues sign for someone who is leaving",
+        "meaning_ar": "بطاقة وداع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have you signed Denise's leaving card?"
+      },
+      {
+        "word": "leaving present",
+        "pos": "noun",
+        "meaning_en": "a gift for a colleague who is leaving",
+        "meaning_ar": "هدية وداع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We collected money for her leaving present."
+      },
+      {
+        "word": "get rid of",
+        "pos": "phrase",
+        "meaning_en": "to remove someone or something you don't want",
+        "meaning_ar": "يتخلص من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company got rid of two old machines."
+      },
+      {
+        "word": "unemployed",
+        "pos": "adjective",
+        "meaning_en": "without a paid job",
+        "meaning_ar": "عاطل عن العمل",
+        "note_ar": "الاسم: unemployment (البطالة).",
+        "note_en": "Noun: unemployment.",
+        "example": "He has been unemployed for three months."
+      },
+      {
+        "word": "job section",
+        "pos": "noun",
+        "meaning_en": "the part of a newspaper with job adverts",
+        "meaning_ar": "قسم الوظائف (في الصحيفة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look in the job section of the newspaper."
+      },
+      {
+        "word": "website",
+        "pos": "noun",
+        "meaning_en": "a set of pages on the internet",
+        "meaning_ar": "موقع إلكتروني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There are many job websites."
+      },
+      {
+        "word": "sign up for",
+        "pos": "phrasal verb",
+        "meaning_en": "to register to join something",
+        "meaning_ar": "يسجّل في",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You could sign up for a job website."
+      },
+      {
+        "word": "register with",
+        "pos": "verb",
+        "meaning_en": "to put your name on an official list of a company or service",
+        "meaning_ar": "يسجّل لدى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Register with a recruitment agency."
+      },
+      {
+        "word": "recruitment agency",
+        "pos": "noun",
+        "meaning_en": "a company that helps people find jobs",
+        "meaning_ar": "وكالة توظيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The recruitment agency found me a job in a week."
+      },
+      {
+        "word": "contacts",
+        "pos": "noun",
+        "meaning_en": "people you know who might help you",
+        "meaning_ar": "معارف / علاقات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ring some of your contacts."
+      },
+      {
+        "word": "ring",
+        "pos": "verb",
+        "meaning_en": "(British) to phone someone",
+        "meaning_ar": "يتصل هاتفيًا",
+        "note_ar": "الأمريكية: call.",
+        "note_en": "US English: call.",
+        "example": "I'll ring you tomorrow."
+      },
+      {
+        "word": "think positively",
+        "pos": "phrase",
+        "meaning_en": "to look at the good side and expect good things",
+        "meaning_ar": "يفكر بإيجابية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Try to think positively about the future."
+      },
+      {
+        "word": "cheer up",
+        "pos": "phrasal verb",
+        "meaning_en": "to become happier; said to make someone feel better",
+        "meaning_ar": "يبتهج / ابتهج!",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Cheer up! You'll find a new job."
+      },
+      {
+        "word": "upset",
+        "pos": "adjective",
+        "meaning_en": "sad and worried",
+        "meaning_ar": "منزعج / حزين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She was upset about leaving."
+      },
+      {
+        "word": "guilty",
+        "pos": "adjective",
+        "meaning_en": "feeling bad because you did something wrong",
+        "meaning_ar": "يشعر بالذنب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I feel guilty about missing the meeting."
+      },
+      {
+        "word": "generous",
+        "pos": "adjective",
+        "meaning_en": "happy to give money or help",
+        "meaning_ar": "كريم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you, that's very generous."
+      },
+      {
+        "word": "thoughtful",
+        "pos": "adjective",
+        "meaning_en": "kind and thinking about other people's needs",
+        "meaning_ar": "مراعٍ للآخرين / لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What a thoughtful gift!"
+      },
+      {
+        "word": "farewell",
+        "pos": "noun",
+        "meaning_en": "goodbye (formal)",
+        "meaning_ar": "وداع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We had a small farewell party."
+      },
+      {
+        "word": "with regret",
+        "pos": "phrase",
+        "meaning_en": "feeling sorry (formal)",
+        "meaning_ar": "مع الأسف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's with regret that we say goodbye."
+      },
+      {
+        "word": "best foot forward",
+        "pos": "idiom",
+        "meaning_en": "try your best, start with confidence",
+        "meaning_ar": "ابذل قصارى جهدك / انطلق بثقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "New job tomorrow? Best foot forward!"
+      },
+      {
+        "word": "cash flow",
+        "pos": "noun",
+        "meaning_en": "the money coming into and going out of a business or person",
+        "meaning_ar": "التدفق النقدي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company has cash flow problems."
+      },
+      {
+        "word": "advisor",
+        "pos": "noun",
+        "meaning_en": "a person whose job is to give advice",
+        "meaning_ar": "مستشار / مرشد",
+        "note_ar": "تُكتب أيضًا adviser.",
+        "note_en": "Also spelled adviser.",
+        "example": "Talk to a careers advisor."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "advice vs advise",
+        "words": [
+          "advice",
+          "advise"
+        ],
+        "explanation_ar": "advice اسم غير معدود (نصيحة): some advice، a piece of advice. advise فعل (ينصح). النطق مختلف: advice تنتهي بصوت /s/، و advise بصوت /z/.",
+        "explanation_en": "'Advice' is an uncountable noun. 'Advise' is the verb. Advice ends in /s/, advise ends in /z/.",
+        "examples": [
+          {
+            "word": "advice",
+            "sentence": "Anna gave Denise some good advice."
+          },
+          {
+            "word": "advise",
+            "sentence": "I advise you to register with an agency."
+          }
+        ]
+      },
+      {
+        "title": "sign up for vs register with",
+        "words": [
+          "sign up for",
+          "register with"
+        ],
+        "explanation_ar": "المعنى متقارب: التسجيل. نقول sign up for + خدمة أو نشاط (موقع، دورة)، و register with + جهة أو شركة (وكالة، طبيب).",
+        "explanation_en": "Both mean join officially. 'Sign up for' an activity or service; 'register with' an organisation.",
+        "examples": [
+          {
+            "word": "sign up for",
+            "sentence": "Sign up for a job website."
+          },
+          {
+            "word": "register with",
+            "sentence": "Register with a recruitment agency."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "You need to think positively.",
+        "meaning_ar": "يجب أن تفكر بإيجابية.",
+        "meaning_en": "Try to see the good side.",
+        "example": "Don't worry about the interview. You need to think positively."
+      },
+      {
+        "phrase": "Try looking in the job section of the newspaper.",
+        "meaning_ar": "جرّب البحث في قسم الوظائف في الصحيفة.",
+        "meaning_en": "A suggestion: look at job adverts in the paper.",
+        "example": "Try looking in the job section of the local newspaper."
+      },
+      {
+        "phrase": "There are loads of job-finding websites you could sign up for.",
+        "meaning_ar": "هناك الكثير من مواقع البحث عن العمل التي يمكنك التسجيل فيها.",
+        "meaning_en": "Many websites can help you find a job.",
+        "example": "There are loads of websites you could sign up for."
+      },
+      {
+        "phrase": "What about ringing some of the people you know?",
+        "meaning_ar": "ما رأيك في الاتصال ببعض معارفك؟",
+        "meaning_en": "A suggestion: phone people you know.",
+        "example": "What about ringing your old manager?"
+      },
+      {
+        "phrase": "You could register with a recruitment agency.",
+        "meaning_ar": "يمكنك التسجيل لدى وكالة توظيف.",
+        "meaning_en": "A suggestion: join a job agency.",
+        "example": "You could register with a recruitment agency in the city."
+      },
+      {
+        "phrase": "Sorry to see you go.",
+        "meaning_ar": "يؤسفنا رحيلك.",
+        "meaning_en": "We're sad that you are leaving.",
+        "example": "Sorry to see you go, Ahmed. Good luck!"
+      },
+      {
+        "phrase": "We wish you very well in the future.",
+        "meaning_ar": "نتمنى لك كل التوفيق في المستقبل.",
+        "meaning_en": "A formal goodbye wish.",
+        "example": "Thank you for your hard work. We wish you very well in the future."
+      },
+      {
+        "phrase": "Thank you for all your hard work.",
+        "meaning_ar": "شكرًا على كل جهودك.",
+        "meaning_en": "A formal thank you to someone who worked well.",
+        "example": "Thank you for all your hard work this year."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Ways of giving advice and suggestions",
+        "explanation_ar": "هناك عدة صيغ لتقديم النصيحة: You need to + فعل (قوية)، Try + فعل بـ ing (جرّب)، You could + فعل (اقتراح لطيف)، What about + فعل بـ ing? (ما رأيك في...)، Have you tried + ing? (هل جربت...).",
+        "explanation_en": "Ways to advise: You need to + verb (strong); Try + -ing; You could + verb (gentle); What about + -ing?; Have you tried + -ing?",
+        "examples": [
+          "You need to think positively.",
+          "Try looking in the job section.",
+          "You could register with a recruitment agency.",
+          "What about ringing some of the people you know?",
+          "Have you tried looking in the newspaper?"
+        ]
+      },
+      {
+        "title": "There are + plural noun + (that) you could...",
+        "explanation_ar": "There are loads of websites you could sign up for: الجملة بعد الاسم تصفه دون الحاجة إلى that، وتبقى حروف الجر في النهاية (for).",
+        "explanation_en": "A relative clause can follow the noun without 'that'; the preposition stays at the end.",
+        "examples": [
+          "There are loads of websites you could sign up for.",
+          "Here's a list of agencies you can register with.",
+          "He's the person I work for."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Anna gives Denise some careers ___.",
+      "choices": [
+        "advise",
+        "advices",
+        "advice",
+        "advising"
+      ],
+      "answer": 2,
+      "explanation_ar": "advice اسم غير معدود.",
+      "explanation_en": "'Advice' is the noun."
+    },
+    {
+      "question": "What about ___ some of the people you know?",
+      "choices": [
+        "ring",
+        "ringing",
+        "to ring",
+        "rang"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد What about نستخدم ing.",
+      "explanation_en": "After 'What about' use -ing."
+    },
+    {
+      "question": "A company that helps people find jobs is a ___.",
+      "choices": [
+        "cash flow",
+        "leaving card",
+        "job section",
+        "recruitment agency"
+      ],
+      "answer": 3,
+      "explanation_ar": "recruitment agency وكالة توظيف.",
+      "explanation_en": "A recruitment agency finds jobs for people."
+    },
+    {
+      "question": "Try ___ in the job section of the newspaper.",
+      "choices": [
+        "looking",
+        "look",
+        "to looked",
+        "looks"
+      ],
+      "answer": 0,
+      "explanation_ar": "Try + ing للاقتراح.",
+      "explanation_en": "Try + -ing for suggestions."
+    },
+    {
+      "question": "Which is the gentlest suggestion?",
+      "choices": [
+        "You must register.",
+        "Register now!",
+        "You could register with an agency.",
+        "You have to register."
+      ],
+      "answer": 2,
+      "explanation_ar": "You could اقتراح لطيف.",
+      "explanation_en": "'You could' is gentle."
+    },
+    {
+      "question": "'Unemployed' means ___.",
+      "choices": [
+        "retired",
+        "very busy",
+        "without a job",
+        "on holiday"
+      ],
+      "answer": 2,
+      "explanation_ar": "unemployed عاطل عن العمل.",
+      "explanation_en": "It means without a job."
+    },
+    {
+      "question": "There are loads of websites you could sign up ___.",
+      "choices": [
+        "for",
+        "with",
+        "at",
+        "to"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول sign up for.",
+      "explanation_en": "We say 'sign up for'."
+    },
+    {
+      "question": "In British English, 'ring someone' means ___.",
+      "choices": [
+        "give them a ring (jewellery)",
+        "email them",
+        "visit them",
+        "phone them"
+      ],
+      "answer": 3,
+      "explanation_ar": "ring تعني الاتصال هاتفيًا.",
+      "explanation_en": "Ring means phone."
+    },
+    {
+      "question": "Paul says goodbye formally: 'It's with ___ we've had to let her go.'",
+      "choices": [
+        "guilty",
+        "regret",
+        "farewell",
+        "advice"
+      ],
+      "answer": 1,
+      "explanation_ar": "with regret مع الأسف.",
+      "explanation_en": "'With regret' means feeling sorry."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "She gave me some advice.",
+        "She gave me some advices.",
+        "She gave me an advice.",
+        "She adviced me."
+      ],
+      "answer": 0,
+      "explanation_ar": "advice غير معدود: some advice.",
+      "explanation_en": "Advice is uncountable."
+    }
+  ]
+}

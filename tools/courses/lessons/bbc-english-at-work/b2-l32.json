@@ -1,0 +1,415 @@
+{
+  "title": "Saying You've Changed Your Mind",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "change your mind",
+        "pos": "phrase",
+        "meaning_en": "to make a different decision from before",
+        "meaning_ar": "يغيّر رأيه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've changed my mind - I'll take the job after all."
+      },
+      {
+        "word": "do a lot of thinking",
+        "pos": "phrase",
+        "meaning_en": "to think carefully for a long time",
+        "meaning_ar": "يفكّر كثيرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've done a lot of thinking about my career."
+      },
+      {
+        "word": "realise",
+        "pos": "verb",
+        "meaning_en": "to understand something you did not understand before",
+        "meaning_ar": "يدرك",
+        "note_ar": "في الأمريكية realize.",
+        "note_en": "US spelling: realize.",
+        "example": "I didn't realise how busy you were."
+      },
+      {
+        "word": "miss",
+        "pos": "verb",
+        "meaning_en": "to feel sad because someone or something is not there",
+        "meaning_ar": "يفتقد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The team really misses you."
+      },
+      {
+        "word": "reject",
+        "pos": "verb",
+        "meaning_en": "to say no to an offer or a person",
+        "meaning_ar": "يرفض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company rejected our proposal."
+      },
+      {
+        "word": "convince",
+        "pos": "verb",
+        "meaning_en": "to make someone believe something",
+        "meaning_ar": "يُقنع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna must convince Tom to stay."
+      },
+      {
+        "word": "check-in desk",
+        "pos": "noun",
+        "meaning_en": "the place at an airport where you give your bags and get your boarding pass",
+        "meaning_ar": "مكتب تسجيل الوصول (في المطار)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The check-in desk for Sydney is number 47."
+      },
+      {
+        "word": "board",
+        "pos": "verb",
+        "meaning_en": "to get on a plane, train or ship",
+        "meaning_ar": "يصعد إلى (الطائرة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Passengers can now board the plane."
+      },
+      {
+        "word": "flight",
+        "pos": "noun",
+        "meaning_en": "a journey by plane",
+        "meaning_ar": "رحلة جوية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My flight leaves at six."
+      },
+      {
+        "word": "business class",
+        "pos": "noun",
+        "meaning_en": "the more expensive seats on a plane, better than economy",
+        "meaning_ar": "درجة رجال الأعمال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He always flies business class."
+      },
+      {
+        "word": "economy class",
+        "pos": "noun",
+        "meaning_en": "the cheapest seats on a plane",
+        "meaning_ar": "الدرجة السياحية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Most staff fly economy class."
+      },
+      {
+        "word": "passenger",
+        "pos": "noun",
+        "meaning_en": "a person travelling in a plane, train, bus or car",
+        "meaning_ar": "مسافر؛ راكب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The passengers waited at the gate."
+      },
+      {
+        "word": "available",
+        "pos": "adjective",
+        "meaning_en": "free to do something",
+        "meaning_ar": "متاح؛ متفرّغ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you available for a meeting tomorrow?"
+      },
+      {
+        "word": "in time",
+        "pos": "phrase",
+        "meaning_en": "early enough",
+        "meaning_ar": "في الوقت المناسب (قبل فوات الأوان)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We arrived in time for the meeting."
+      },
+      {
+        "word": "at last",
+        "pos": "phrase",
+        "meaning_en": "finally, after a long time",
+        "meaning_ar": "أخيرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "At last, the report is finished!"
+      },
+      {
+        "word": "in the end",
+        "pos": "phrase",
+        "meaning_en": "finally, after many changes or problems",
+        "meaning_ar": "في النهاية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In the end, we chose the cheaper supplier."
+      },
+      {
+        "word": "put someone through",
+        "pos": "phrasal verb",
+        "meaning_en": "to make someone experience something difficult",
+        "meaning_ar": "يُعرّض شخصًا لمعاناة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "After all you've put me through, why should I help you?"
+      },
+      {
+        "word": "dramatic",
+        "pos": "adjective",
+        "meaning_en": "exciting and surprising",
+        "meaning_ar": "مثير؛ دراماتيكي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The meeting had a dramatic ending."
+      },
+      {
+        "word": "the other side of the world",
+        "pos": "phrase",
+        "meaning_en": "a very far place",
+        "meaning_ar": "الطرف الآخر من العالم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He moved to the other side of the world for work."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "miss: feel sad vs fail to catch",
+        "words": [
+          "miss"
+        ],
+        "explanation_ar": "miss لها معنيان شائعان: «يفتقد» شخصًا غائبًا (I miss you)، و«يفوته» شيء مثل الطائرة أو الحافلة (I missed my flight). آنا لم ترد أن يفوتها توم قبل صعوده الطائرة.",
+        "explanation_en": "Miss has two common meanings: feel sad that someone is not there (We miss you), and fail to catch or be in time for something (I missed my flight).",
+        "examples": [
+          {
+            "word": "miss",
+            "sentence": "The whole office misses our old manager."
+          },
+          {
+            "word": "miss",
+            "sentence": "Hurry, or we'll miss the train!"
+          }
+        ]
+      },
+      {
+        "title": "in time vs on time",
+        "words": [
+          "in time",
+          "on time"
+        ],
+        "explanation_ar": "on time: في الموعد المحدد تمامًا. in time: مبكرًا بما يكفي قبل فوات الأوان. هل ستصل آنا in time قبل صعود توم الطائرة؟",
+        "explanation_en": "On time = at the planned time, not late. In time = early enough, before it is too late. Will Anna get there in time, before Tom boards?",
+        "examples": [
+          {
+            "word": "on time",
+            "sentence": "The flight left on time at 9:00."
+          },
+          {
+            "word": "in time",
+            "sentence": "We got to the airport just in time."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I've been doing a lot of thinking.",
+        "meaning_ar": "لقد كنت أفكّر كثيرًا.",
+        "meaning_en": "I have thought carefully for some time (and maybe changed my opinion).",
+        "example": "I've been doing a lot of thinking about your idea, and I like it now."
+      },
+      {
+        "phrase": "I didn't realise how much I missed you until you had gone.",
+        "meaning_ar": "لم أدرك كم افتقدتك إلا بعد أن رحلت.",
+        "meaning_en": "I understood your value only after you left.",
+        "example": "Our team didn't realise how much we missed you until you had gone."
+      },
+      {
+        "phrase": "I've changed my mind.",
+        "meaning_ar": "لقد غيّرت رأيي.",
+        "meaning_en": "My decision is different now.",
+        "example": "I said no to the offer yesterday, but I've changed my mind."
+      },
+      {
+        "phrase": "Don't go… we need you.",
+        "meaning_ar": "لا تذهب… نحن بحاجة إليك.",
+        "meaning_en": "Asking someone strongly to stay.",
+        "example": "Please don't go - we need you on this project."
+      },
+      {
+        "phrase": "Why should I?",
+        "meaning_ar": "ولماذا أفعل ذلك؟",
+        "meaning_en": "Asking for a reason before agreeing.",
+        "example": "You want me to stay late again? Why should I?"
+      },
+      {
+        "phrase": "If you put it like that, then yes.",
+        "meaning_ar": "إذا وضعت الأمر بهذه الطريقة، فنعم.",
+        "meaning_en": "Your explanation has persuaded me.",
+        "example": "A pay rise and a new office? If you put it like that, then yes."
+      },
+      {
+        "phrase": "Do you know where the check-in desks for flights to Sydney are?",
+        "meaning_ar": "هل تعرف أين مكاتب تسجيل الوصول للرحلات المتجهة إلى سيدني؟",
+        "meaning_en": "A polite question at an airport.",
+        "example": "Excuse me, do you know where the check-in desks for flights to Dubai are?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past perfect with until: …until you had gone",
+        "explanation_ar": "نستخدم الماضي التام had + التصريف الثالث لحدث وقع قبل حدث آخر في الماضي. في الجملة I didn't realise… until you had gone: الرحيل حدث أولًا ثم جاء الإدراك.",
+        "explanation_en": "Use the past perfect (had + past participle) for the earlier of two past events. In 'I didn't realise... until you had gone', leaving happened first, then the realising.",
+        "examples": [
+          "I didn't understand the problem until I had read the report.",
+          "We didn't start until everyone had arrived.",
+          "She didn't relax until she had finished the project."
+        ]
+      },
+      {
+        "title": "Embedded questions: I didn't realise how much…",
+        "explanation_ar": "عندما يأتي سؤال داخل جملة، لا نقلب الترتيب: نقول how much I missed you وليس how much did I miss you. وكذلك: Do you know where the desks are? وليس where are the desks.",
+        "explanation_en": "When a question is inside a sentence, use normal word order (subject + verb): 'how much I missed you', not 'how much did I miss you'; 'Do you know where the desks are?', not 'where are the desks'.",
+        "examples": [
+          "I didn't realise how much work it was.",
+          "Do you know where the meeting room is?",
+          "Can you tell me what time the flight leaves?"
+        ]
+      },
+      {
+        "title": "Present perfect for a new decision: I've changed my mind",
+        "explanation_ar": "لنعلن تغيّرًا في الرأي نتيجته واضحة الآن نستخدم المضارع التام: I've changed my mind. وللتفكير المستمر حتى الآن: I've been doing a lot of thinking.",
+        "explanation_en": "To announce a change with a result now, use the present perfect: I've changed my mind. For thinking that went on until now: I've been doing a lot of thinking.",
+        "examples": [
+          "I've changed my mind about the trip.",
+          "We've decided to stay.",
+          "I've been thinking about your offer."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'I've changed my mind' means…",
+      "choices": [
+        "I have a new decision",
+        "I have a headache",
+        "I'm very tired",
+        "I forgot everything"
+      ],
+      "answer": 0,
+      "explanation_ar": "change your mind أي تغيير القرار.",
+      "explanation_en": "It means my decision is different now."
+    },
+    {
+      "question": "I didn't realise how much I missed you until you had ___.",
+      "choices": [
+        "go",
+        "went",
+        "going",
+        "gone"
+      ],
+      "answer": 3,
+      "explanation_ar": "الماضي التام: had + التصريف الثالث gone.",
+      "explanation_en": "Past perfect: had + gone."
+    },
+    {
+      "question": "What class does Tom claim he always flies in?",
+      "choices": [
+        "economy class",
+        "business class",
+        "first class",
+        "no class"
+      ],
+      "answer": 1,
+      "explanation_ar": "قال توم إنه يطير دائمًا بدرجة رجال الأعمال.",
+      "explanation_en": "Tom says he always flies business class."
+    },
+    {
+      "question": "Which is correct?",
+      "choices": [
+        "Do you know where are the check-in desks?",
+        "Do you know where the check-in desks are?",
+        "Do you know where is the check-in desks?",
+        "Do you know the check-in desks where are?"
+      ],
+      "answer": 1,
+      "explanation_ar": "في السؤال الضمني يكون الترتيب: فاعل + فعل.",
+      "explanation_en": "Embedded question: subject + verb order."
+    },
+    {
+      "question": "Where do you give your bags and get your boarding pass at an airport?",
+      "choices": [
+        "the check-in desk",
+        "the warehouse",
+        "the venue",
+        "the conference room"
+      ],
+      "answer": 0,
+      "explanation_ar": "مكتب تسجيل الوصول check-in desk.",
+      "explanation_en": "At the check-in desk."
+    },
+    {
+      "question": "'I've been doing a lot of thinking' means…",
+      "choices": [
+        "I stopped thinking",
+        "I can't think",
+        "I have thought carefully for some time",
+        "I will think tomorrow"
+      ],
+      "answer": 2,
+      "explanation_ar": "تعني أنني كنت أفكّر كثيرًا حتى الآن.",
+      "explanation_en": "It means I have thought carefully for some time."
+    },
+    {
+      "question": "Hurry, or we'll ___ the flight!",
+      "choices": [
+        "miss",
+        "lose",
+        "reject",
+        "board off"
+      ],
+      "answer": 0,
+      "explanation_ar": "miss هنا بمعنى «يفوته».",
+      "explanation_en": "'Miss' here means not be in time for."
+    },
+    {
+      "question": "Anna hopes to get to the airport ___, before Tom boards the plane.",
+      "choices": [
+        "at time",
+        "on time",
+        "by time",
+        "in time"
+      ],
+      "answer": 3,
+      "explanation_ar": "in time أي مبكرًا بما يكفي قبل فوات الأوان.",
+      "explanation_en": "'In time' means early enough."
+    },
+    {
+      "question": "'You rejected me' means you…",
+      "choices": [
+        "helped me",
+        "called me",
+        "said no to me",
+        "paid me"
+      ],
+      "answer": 2,
+      "explanation_ar": "reject أي رفض.",
+      "explanation_en": "Reject means say no."
+    },
+    {
+      "question": "After a long wait: '___, the report is finished!'",
+      "choices": [
+        "At last",
+        "In time",
+        "Until",
+        "Available"
+      ],
+      "answer": 0,
+      "explanation_ar": "at last تعني أخيرًا بعد انتظار طويل.",
+      "explanation_en": "'At last' means finally, after a long time."
+    }
+  ]
+}

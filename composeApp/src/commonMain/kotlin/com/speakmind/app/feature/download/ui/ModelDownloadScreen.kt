@@ -186,7 +186,7 @@ private fun DownloadPrompt(onStartDownload: () -> Unit) {
         shape = RoundedCornerShape(16.sdp),
         colors = ButtonDefaults.buttonColors(
             containerColor = colors.neonCyan,
-            contentColor = colors.backgroundDark,
+            contentColor = colors.onPrimary,
         )
     ) {
         Icon(
@@ -369,7 +369,7 @@ private fun DownloadError(errorMessage: String?, onRetry: () -> Unit) {
             shape = RoundedCornerShape(16.sdp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = colors.neonCyan,
-                contentColor = colors.backgroundDark,
+                contentColor = colors.onPrimary,
             )
         ) {
             Text("Retry Download", fontWeight = FontWeight.Bold)

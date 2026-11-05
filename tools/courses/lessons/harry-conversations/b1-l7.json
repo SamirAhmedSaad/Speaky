@@ -1,0 +1,64 @@
+{
+  "title": "Small Talk About Food",
+  "content": {
+    "vocabulary": [
+      {"word": "chit-chat", "pos": "noun", "meaning_en": "(informal) light talk about unimportant things", "meaning_ar": "دردشة / ثرثرة خفيفة", "note_ar": "", "note_en": "", "example": "We had a bit of chit-chat before the meeting."},
+      {"word": "awkward silence", "pos": "noun", "meaning_en": "a quiet moment that makes people feel uncomfortable", "meaning_ar": "صمت محرج", "note_ar": "", "note_en": "", "example": "Small talk helps you avoid awkward silences."},
+      {"word": "dish", "pos": "noun", "meaning_en": "a prepared plate of food; also the plate itself", "meaning_ar": "طبق (وجبة مُعدّة)", "note_ar": "تعني الوجبة المحضّرة وليس فقط الصحن", "note_en": "It means the prepared food, not only the plate.", "example": "What's your favourite dish?"},
+      {"word": "eat out", "pos": "phrasal verb", "meaning_en": "eat in a restaurant, not at home", "meaning_ar": "يأكل خارج المنزل", "note_ar": "", "note_en": "", "example": "How often do you eat out?"},
+      {"word": "takeaway", "pos": "noun", "meaning_en": "food you buy from a restaurant to eat at home", "meaning_ar": "طعام جاهز للأخذ إلى البيت", "note_ar": "في الأمريكية: takeout", "note_en": "US English: takeout.", "example": "Let's order a takeaway tonight."},
+      {"word": "delivery", "pos": "noun", "meaning_en": "bringing food or goods to your home or office", "meaning_ar": "توصيل", "note_ar": "", "note_en": "", "example": "We ordered food for delivery to the office."},
+      {"word": "cook", "pos": "noun", "meaning_en": "a person who cooks", "meaning_ar": "طبّاخ", "note_ar": "انتبه: cooker = جهاز الطبخ (الموقد)، وليس الطبّاخ", "note_en": "Careful: a \"cooker\" is the machine, not the person.", "example": "Are you a good cook?"},
+      {"word": "speciality", "pos": "noun", "meaning_en": "a dish that you cook especially well", "meaning_ar": "الطبق الذي تتقنه / تخصّص", "note_ar": "في الأمريكية: specialty", "note_en": "US English: specialty.", "example": "Rice with chicken is my speciality."},
+      {"word": "skip", "pos": "verb", "meaning_en": "not do or not have something you usually do", "meaning_ar": "يفوّت / يتخطّى", "note_ar": "skip breakfast = لا يتناول الفطور", "note_en": "skip breakfast = not eat breakfast", "example": "I often skip breakfast when I'm late."},
+      {"word": "grab a bite", "pos": "phrase", "meaning_en": "(informal) eat something quickly", "meaning_ar": "يتناول لقمة سريعة", "note_ar": "", "note_en": "", "example": "Let's grab a bite before the train."},
+      {"word": "be sick of", "pos": "phrase", "meaning_en": "be bored with something because you've had too much of it", "meaning_ar": "سئم من", "note_ar": "", "note_en": "", "example": "I'm sick of sandwiches every day."},
+      {"word": "diet", "pos": "noun", "meaning_en": "a plan to eat certain foods, often to lose weight; also what you normally eat", "meaning_ar": "حمية / نظام غذائي", "note_ar": "be on a diet = يتبع حمية", "note_en": "be on a diet / go on a diet", "example": "I'm on a diet, so no cake for me."},
+      {"word": "fad", "pos": "noun", "meaning_en": "something popular for a short time only", "meaning_ar": "موضة عابرة / صرعة", "note_ar": "", "note_en": "", "example": "Is this new diet just a fad?"},
+      {"word": "settle in", "pos": "phrasal verb", "meaning_en": "start to feel comfortable in a new place or job", "meaning_ar": "يتأقلم / يستقر", "note_ar": "", "note_en": "", "example": "Small talk helps you settle in at a new job."}
+    ],
+    "fine_lines": [
+      {"title": "dish vs plate", "words": ["dish", "plate"], "explanation_ar": "plate هو الصحن نفسه. dish قد تعني الصحن، لكنها غالبًا تعني الطبق أو الوجبة المحضّرة (What's your favourite dish?).", "explanation_en": "A plate is the flat thing you eat from. \"Dish\" can mean a container, but often means a prepared meal (What's your favourite dish?).", "examples": [{"word": "dish", "sentence": "Koshari is a famous Egyptian dish."}, {"word": "plate", "sentence": "Can you pass me a clean plate?"}]},
+      {"title": "cook vs cooker", "words": ["cook", "cooker"], "explanation_ar": "cook هو الشخص الذي يطبخ (أو الفعل يطبخ). cooker هو جهاز الطبخ (الموقد) في البريطانية.", "explanation_en": "A cook is a person who cooks. A cooker is the machine you cook on (British English).", "examples": [{"word": "cook", "sentence": "My brother is a great cook."}, {"word": "cooker", "sentence": "We bought a new gas cooker."}]}
+    ],
+    "expressions": [
+      {"phrase": "What's your favourite dish / meal?", "meaning_ar": "ما طبقك / وجبتك المفضلة؟", "meaning_en": "Asks what food someone likes most.", "example": "What's your favourite dish from your country?"},
+      {"phrase": "What do you like to eat?", "meaning_ar": "ماذا تحب أن تأكل؟", "meaning_en": "A simple question about food preferences.", "example": "What do you like to eat for lunch?"},
+      {"phrase": "Are there any foods you absolutely hate / won't eat?", "meaning_ar": "هل هناك أطعمة تكرهها تمامًا / لا تأكلها أبدًا؟", "meaning_en": "Asks about foods someone avoids.", "example": "Are there any foods you absolutely won't eat?"},
+      {"phrase": "Do you like trying new foods?", "meaning_ar": "هل تحب تجربة أطعمة جديدة؟", "meaning_en": "Asks if someone is adventurous with food.", "example": "Do you like trying new foods?"},
+      {"phrase": "What new food have you tried recently?", "meaning_ar": "ما الطعام الجديد الذي جربته مؤخرًا؟", "meaning_en": "Asks about a recent food experience.", "example": "What new food have you tried recently?"},
+      {"phrase": "How often do you eat out?", "meaning_ar": "كم مرة تأكل خارج المنزل؟", "meaning_en": "Asks how often someone goes to restaurants.", "example": "How often do you eat out?"},
+      {"phrase": "Have you tried any new restaurants recently?", "meaning_ar": "هل جربت مطاعم جديدة مؤخرًا؟", "meaning_en": "Asks for news about restaurants.", "example": "Have you tried any new restaurants recently?"},
+      {"phrase": "What are the restaurants like around here?", "meaning_ar": "كيف هي المطاعم في هذه المنطقة؟", "meaning_en": "Asks about local places to eat; good for new colleagues.", "example": "I'm new here. What are the restaurants like around here?"},
+      {"phrase": "What are the prices like?", "meaning_ar": "كيف الأسعار؟", "meaning_en": "Asks if a place is cheap or expensive.", "example": "That café looks nice. What are the prices like?"},
+      {"phrase": "Do you like fast food?", "meaning_ar": "هل تحب الوجبات السريعة؟", "meaning_en": "Asks about fast food.", "example": "Do you like fast food, or do you prefer home cooking?"},
+      {"phrase": "Do you order takeaways / food for delivery?", "meaning_ar": "هل تطلب طعامًا جاهزًا / توصيلًا؟", "meaning_en": "Asks if someone orders food from apps or restaurants.", "example": "Do you order food for delivery to the office?"},
+      {"phrase": "Are you a good cook?", "meaning_ar": "هل أنت طبّاخ ماهر؟", "meaning_en": "Asks about cooking skills.", "example": "Are you a good cook?"},
+      {"phrase": "Who does most of the cooking in your house?", "meaning_ar": "من يطبخ معظم الوقت في بيتكم؟", "meaning_en": "Asks who cooks at home.", "example": "Who does most of the cooking in your house?"},
+      {"phrase": "What's your favourite dish to prepare?", "meaning_ar": "ما طبقك المفضل لتحضيره؟", "meaning_en": "Asks what someone likes to cook.", "example": "What's your favourite dish to prepare for guests?"},
+      {"phrase": "What's your cooking speciality? / What are you known for?", "meaning_ar": "ما الطبق الذي تتقنه؟ / بماذا تشتهر؟", "meaning_en": "Asks about the dish someone cooks best.", "example": "What's your cooking speciality?"},
+      {"phrase": "Do you usually skip breakfast?", "meaning_ar": "هل تتخطى الفطور عادةً؟", "meaning_en": "Asks about breakfast habits.", "example": "Do you usually skip breakfast or eat at home?"},
+      {"phrase": "What time do you usually have lunch?", "meaning_ar": "متى تتناول الغداء عادةً؟", "meaning_en": "Asks about lunch times.", "example": "What time do you usually have lunch?"},
+      {"phrase": "Where do you go for lunch around here?", "meaning_ar": "إلى أين تذهب لتناول الغداء هنا؟", "meaning_en": "Asks for local lunch ideas.", "example": "Where do you go for lunch around here? I'm sick of sandwiches."},
+      {"phrase": "What do you usually have for dinner?", "meaning_ar": "ماذا تتناول عادةً على العشاء؟", "meaning_en": "Asks about dinner habits.", "example": "What do you usually have for dinner?"},
+      {"phrase": "What diet are you on? / Do you ever go on a diet?", "meaning_ar": "ما الحمية التي تتبعها؟ / هل تتبع حمية أحيانًا؟", "meaning_en": "Asks about diets.", "example": "You look healthy. Do you ever go on a diet?"},
+      {"phrase": "Do you think diets are useful, or are they just fads?", "meaning_ar": "هل تظن أن الحميات مفيدة أم أنها مجرد موضة عابرة؟", "meaning_en": "Asks for an opinion about diets.", "example": "Do you think diets are useful, or are they just fads?"}
+    ],
+    "grammar": [
+      {"title": "Questions with How often / What time / Who", "explanation_ar": "How often يسأل عن عدد المرات، What time عن الوقت، Who عن الشخص. مع do/does في المضارع البسيط للعادات. عندما يكون Who هو الفاعل لا نستخدم do: Who cooks?", "explanation_en": "\"How often\" asks about frequency, \"What time\" about the time, \"Who\" about the person. Use do/does in the present simple for habits. When \"Who\" is the subject, don't use \"do\": Who cooks?", "examples": ["How often do you eat out?", "What time do you usually have lunch?", "Who does most of the cooking?"]},
+      {"title": "What are ... like?", "explanation_ar": "What is/are ... like? تعني: كيف هو/هي؟ ونسأل بها عن الصفات والرأي، وليس عن الحب (like هنا حرف وليس فعلًا).", "explanation_en": "\"What is/are ... like?\" asks someone to describe something. Here \"like\" is not the verb \"to like\".", "examples": ["What are the restaurants like around here?", "What are the prices like?", "What's the food like?"]}
+    ]
+  },
+  "questions": [
+    {"question": "\"What's your favourite dish?\" asks about:", "choices": ["a plate you like", "a meal you like", "your kitchen", "a restaurant"], "answer": 1, "explanation_ar": "dish هنا تعني الطبق أو الوجبة المحضّرة.", "explanation_en": "Here \"dish\" means a prepared meal."},
+    {"question": "___ do you eat out? — About twice a week.", "choices": ["How long", "What time", "Who", "How often"], "answer": 3, "explanation_ar": "How often تسأل عن عدد المرات.", "explanation_en": "\"How often\" asks about frequency."},
+    {"question": "\"I usually skip breakfast\" means:", "choices": ["I don't eat breakfast.", "I eat a big breakfast.", "I cook breakfast.", "I eat breakfast in the office."], "answer": 0, "explanation_ar": "skip = يتخطّى ولا يفعل.", "explanation_en": "\"Skip\" means not have it."},
+    {"question": "What are the restaurants ___ around here?", "choices": ["likes", "liking", "like", "liked"], "answer": 2, "explanation_ar": "What are ... like? للسؤال عن الوصف.", "explanation_en": "\"What are ... like?\" asks for a description."},
+    {"question": "A person who cooks is a ___.", "choices": ["cooker", "cook", "cooking", "cooked"], "answer": 1, "explanation_ar": "cook = الطبّاخ، وcooker = الموقد.", "explanation_en": "A cook is a person; a cooker is a machine."},
+    {"question": "\"Is this diet just a fad?\" — a fad is:", "choices": ["a healthy meal", "a fast food", "an old custom", "something popular for a short time"], "answer": 3, "explanation_ar": "fad = موضة عابرة.", "explanation_en": "A fad is popular only for a short time."},
+    {"question": "Who ___ most of the cooking in your house?", "choices": ["does", "do", "doing", "is do"], "answer": 0, "explanation_ar": "Who فاعل مفرد، فنقول Who does.", "explanation_en": "\"Who\" is the subject (singular): Who does."},
+    {"question": "Food you buy from a restaurant to eat at home is a ___.", "choices": ["speciality", "takeaway", "diet", "dish"], "answer": 1, "explanation_ar": "takeaway = طعام جاهز تأخذه إلى البيت.", "explanation_en": "A takeaway is food to eat at home."},
+    {"question": "\"I'm sick of sandwiches\" means:", "choices": ["Sandwiches made me ill.", "I love sandwiches.", "I'm bored of eating sandwiches.", "I'm making sandwiches."], "answer": 2, "explanation_ar": "be sick of = سئم من.", "explanation_en": "\"Be sick of\" = be bored of."},
+    {"question": "Why is small talk about food useful at a new job?", "choices": ["It helps you settle in and avoid awkward silences.", "It shows you are a chef.", "It ends conversations.", "It is very formal."], "answer": 0, "explanation_ar": "يساعدك على التأقلم وتجنب الصمت المحرج.", "explanation_en": "It helps you settle in and avoid awkward silences."}
+  ]
+}

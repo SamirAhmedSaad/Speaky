@@ -1,0 +1,356 @@
+{
+  "title": "Going to the Movies",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "movies",
+        "pos": "noun",
+        "meaning_en": "the cinema (the movies = going to see films)",
+        "meaning_ar": "السينما",
+        "note_ar": "go to the movies = يذهب إلى السينما",
+        "note_en": "go to the movies",
+        "example": "Let's go to the movies."
+      },
+      {
+        "word": "lately",
+        "pos": "adverb",
+        "meaning_en": "recently; in the last few days or weeks",
+        "meaning_ar": "مؤخرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have you seen him lately?"
+      },
+      {
+        "word": "hear of",
+        "pos": "phrasal verb",
+        "meaning_en": "know that something exists",
+        "meaning_ar": "يسمع عن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've heard of that book."
+      },
+      {
+        "word": "movie theater",
+        "pos": "noun",
+        "meaning_en": "a building where you watch films",
+        "meaning_ar": "دار السينما",
+        "note_ar": "في بريطانيا: cinema",
+        "note_en": "UK: cinema.",
+        "example": "We met at the movie theater."
+      },
+      {
+        "word": "ticket",
+        "pos": "noun",
+        "meaning_en": "a paper that lets you enter",
+        "meaning_ar": "تذكرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Two tickets, please."
+      },
+      {
+        "word": "enjoy",
+        "pos": "verb",
+        "meaning_en": "like something while you do it",
+        "meaning_ar": "يستمتع بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Enjoy the movie!"
+      },
+      {
+        "word": "starving",
+        "pos": "adjective",
+        "meaning_en": "very hungry (informal)",
+        "meaning_ar": "جائع جدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm starving. Let's eat."
+      },
+      {
+        "word": "popcorn",
+        "pos": "noun",
+        "meaning_en": "corn that is heated until it opens",
+        "meaning_ar": "فشار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's get some popcorn."
+      },
+      {
+        "word": "amazing",
+        "pos": "adjective",
+        "meaning_en": "very good",
+        "meaning_ar": "مذهل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That was an amazing film."
+      },
+      {
+        "word": "glad",
+        "pos": "adjective",
+        "meaning_en": "happy about something",
+        "meaning_ar": "سعيد / مسرور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm so glad we came."
+      },
+      {
+        "word": "invitation",
+        "pos": "noun",
+        "meaning_en": "asking someone to come with you",
+        "meaning_ar": "دعوة",
+        "note_ar": "الفعل: invite",
+        "note_en": "Verb: invite.",
+        "example": "Thank you for the invitation."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "hungry vs starving",
+        "words": [
+          "hungry",
+          "starving"
+        ],
+        "explanation_ar": "hungry تعني جائع، و starving تعني جائع جدًا (في الكلام اليومي).",
+        "explanation_en": "Hungry = want food. Starving = very hungry (informal).",
+        "examples": [
+          {
+            "word": "hungry",
+            "sentence": "I'm a little hungry."
+          },
+          {
+            "word": "starving",
+            "sentence": "I'm starving. Let's get some popcorn."
+          }
+        ]
+      },
+      {
+        "title": "I've heard of vs I've seen",
+        "words": [
+          "I've heard of",
+          "I've seen"
+        ],
+        "explanation_ar": "I've heard of تعني سمعت عنه لكن ربما لم أره. I've seen تعني رأيته.",
+        "explanation_en": "\"I've heard of it\" = I know about it. \"I've seen it\" = I watched it.",
+        "examples": [
+          {
+            "word": "I've heard of",
+            "sentence": "I've heard of that film, but I haven't seen it."
+          },
+          {
+            "word": "I've seen",
+            "sentence": "I've seen it twice."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Have you been to the movies lately? — No, I haven't.",
+        "meaning_ar": "هل ذهبت إلى السينما مؤخرًا؟ — لا.",
+        "meaning_en": "Ask about recent experience.",
+        "example": "Have you been to the park lately? No, I haven't."
+      },
+      {
+        "phrase": "Why do you ask?",
+        "meaning_ar": "لماذا تسأل؟",
+        "meaning_en": "Ask the reason for a question.",
+        "example": "Are you free tonight? Why do you ask?"
+      },
+      {
+        "phrase": "I'd love to see it.",
+        "meaning_ar": "أودّ كثيرًا أن أراه.",
+        "meaning_en": "Say you really want to.",
+        "example": "A new museum? I'd love to see it."
+      },
+      {
+        "phrase": "Let's go to the movies tonight. — Sure, sounds like fun.",
+        "meaning_ar": "لنذهب إلى السينما الليلة. — بالتأكيد، يبدو ممتعًا.",
+        "meaning_en": "Invite and accept.",
+        "example": "Let's go to the park tonight. Sure, sounds like fun."
+      },
+      {
+        "phrase": "Two tickets, please.",
+        "meaning_ar": "تذكرتان من فضلك.",
+        "meaning_en": "Buy tickets.",
+        "example": "Two tickets for the 7 o'clock show, please."
+      },
+      {
+        "phrase": "Here are your tickets. Enjoy the movie!",
+        "meaning_ar": "هذه تذاكرك. استمتع بالفيلم!",
+        "meaning_en": "What the ticket seller says.",
+        "example": "Here are your tickets. Enjoy the show!"
+      },
+      {
+        "phrase": "I'm so glad we came.",
+        "meaning_ar": "أنا سعيد جدًا أننا أتينا.",
+        "meaning_en": "Say you are happy you went.",
+        "example": "The trip was great. I'm so glad we came."
+      },
+      {
+        "phrase": "We should do this more often.",
+        "meaning_ar": "يجب أن نفعل هذا أكثر.",
+        "meaning_en": "Suggest doing it again.",
+        "example": "That was fun. We should do this more often."
+      },
+      {
+        "phrase": "I can't wait for the next one.",
+        "meaning_ar": "لا أطيق انتظار المرة القادمة.",
+        "meaning_en": "Say you are excited for the next time.",
+        "example": "I can't wait for the next trip!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect: Have you been...? / I've heard of...",
+        "explanation_ar": "نستخدم المضارع التام لخبرة حتى الآن: Have you been to the movies lately? No, I haven't. I've heard of that movie.",
+        "explanation_en": "Present perfect for experience up to now: Have you been...? I've heard of...",
+        "examples": [
+          "Have you been to the movies lately?",
+          "No, I haven't.",
+          "Oh, I've heard of that movie."
+        ]
+      },
+      {
+        "title": "Suggestions: Let's... / We should...",
+        "explanation_ar": "Let's + الفعل لاقتراح شيء الآن (Let's get some popcorn). و We should + الفعل لفكرة جيدة (We should do this more often).",
+        "explanation_en": "Let's + verb and We should + verb make suggestions.",
+        "examples": [
+          "Let's go to the movies tonight.",
+          "Let's get some popcorn.",
+          "We should do this more often."
+        ]
+      },
+      {
+        "title": "would like / I'd love to",
+        "explanation_ar": "What would you like? سؤال مهذب. و I'd love to + الفعل تعني أودّ كثيرًا.",
+        "explanation_en": "Polite: What would you like...? / I'd love to + verb.",
+        "examples": [
+          "What movie would you like to see?",
+          "I'd love to see it.",
+          "Would you like some popcorn?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Have you been to the movies lately? — No, I ___.",
+      "choices": [
+        "haven't",
+        "didn't",
+        "don't",
+        "wasn't"
+      ],
+      "answer": 0,
+      "explanation_ar": "الجواب على Have you: No, I haven't.",
+      "explanation_en": "Answer \"Have you...?\" with \"No, I haven't\"."
+    },
+    {
+      "question": "Oh, I've heard ___ that movie.",
+      "choices": [
+        "at",
+        "from",
+        "of",
+        "to"
+      ],
+      "answer": 2,
+      "explanation_ar": "hear of = يسمع عن.",
+      "explanation_en": "\"Hear of\" = know about."
+    },
+    {
+      "question": "I'm very hungry. I'm ___.",
+      "choices": [
+        "glad",
+        "lately",
+        "amazing",
+        "starving"
+      ],
+      "answer": 3,
+      "explanation_ar": "starving جائع جدًا.",
+      "explanation_en": "Starving = very hungry."
+    },
+    {
+      "question": "___ get some popcorn.",
+      "choices": [
+        "Let's",
+        "Let",
+        "Lets us",
+        "Let we"
+      ],
+      "answer": 0,
+      "explanation_ar": "Let's + الفعل للاقتراح.",
+      "explanation_en": "Let's + verb."
+    },
+    {
+      "question": "What movie would you like ___?",
+      "choices": [
+        "seeing",
+        "see",
+        "to see",
+        "saw"
+      ],
+      "answer": 2,
+      "explanation_ar": "would like to + الفعل.",
+      "explanation_en": "would like to + verb."
+    },
+    {
+      "question": "A paper that lets you enter the cinema is a ___.",
+      "choices": [
+        "popcorn",
+        "ticket",
+        "receipt",
+        "seat"
+      ],
+      "answer": 1,
+      "explanation_ar": "ticket التذكرة.",
+      "explanation_en": "A ticket lets you enter."
+    },
+    {
+      "question": "Wow, that was an amazing movie. — I know, right? I'm so ___ we came.",
+      "choices": [
+        "starving",
+        "glad",
+        "late",
+        "hungry"
+      ],
+      "answer": 1,
+      "explanation_ar": "glad سعيد.",
+      "explanation_en": "Glad = happy."
+    },
+    {
+      "question": "We should ___ this more often.",
+      "choices": [
+        "do",
+        "doing",
+        "to do",
+        "did"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد should الفعل في أصله.",
+      "explanation_en": "After \"should\" use the base verb."
+    },
+    {
+      "question": "\"Lately\" means...",
+      "choices": [
+        "early",
+        "later",
+        "recently",
+        "never"
+      ],
+      "answer": 2,
+      "explanation_ar": "lately تعني مؤخرًا.",
+      "explanation_en": "Lately = recently."
+    },
+    {
+      "question": "Let's go to the movies tonight. — Sure, sounds like ___.",
+      "choices": [
+        "fine",
+        "funny",
+        "fan",
+        "fun"
+      ],
+      "answer": 3,
+      "explanation_ar": "sounds like fun = يبدو ممتعًا.",
+      "explanation_en": "\"Sounds like fun\"."
+    }
+  ]
+}

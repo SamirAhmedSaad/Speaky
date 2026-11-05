@@ -1,0 +1,82 @@
+{
+  "title": "Greetings, Classroom Language and Parts of Speech",
+  "content": {
+    "vocabulary": [
+      {"word": "hello", "pos": "interjection", "meaning_en": "a greeting you can say at any time of day", "meaning_ar": "مرحبًا / أهلًا", "note_ar": "تُقال في أي وقت، والرد عليها: hello أو hi", "note_en": "You can say it at any time. Answer with hello or hi.", "example": "Hello! How are you?"},
+      {"word": "hi", "pos": "interjection", "meaning_en": "a short, friendly way to say hello", "meaning_ar": "أهلًا (تحية ودية قصيرة)", "note_ar": "أقل رسمية من hello", "note_en": "Less formal than hello.", "example": "Hi, Sara!"},
+      {"word": "good morning", "pos": "phrase", "meaning_en": "a greeting for the morning", "meaning_ar": "صباح الخير", "note_ar": "تُقال في الصباح فقط", "note_en": "Say it only in the morning.", "example": "Good morning, Mom!"},
+      {"word": "morning", "pos": "noun", "meaning_en": "the early part of the day", "meaning_ar": "الصباح", "note_ar": "", "note_en": "", "example": "I drink milk in the morning."},
+      {"word": "good afternoon", "pos": "phrase", "meaning_en": "a greeting for the time after midday", "meaning_ar": "طاب يومك (تحية بعد الظهر)", "note_ar": "afternoon = after (بعد) + noon (الظهر)", "note_en": "afternoon = after + noon (midday).", "example": "Good afternoon, teacher."},
+      {"word": "good evening", "pos": "phrase", "meaning_en": "a greeting for the evening", "meaning_ar": "مساء الخير", "note_ar": "", "note_en": "", "example": "Good evening, everyone."},
+      {"word": "good night", "pos": "phrase", "meaning_en": "what you say before going to bed", "meaning_ar": "تصبح على خير", "note_ar": "ليست تحية لقاء، بل تُقال قبل النوم", "note_en": "It is not for meeting someone; say it before you sleep.", "example": "Good night, Dad. See you tomorrow."},
+      {"word": "goodbye", "pos": "interjection", "meaning_en": "what you say when you leave", "meaning_ar": "مع السلامة / إلى اللقاء", "note_ar": "وتُختصر: bye", "note_en": "Short form: bye.", "example": "Goodbye! See you next week."},
+      {"word": "stand up", "pos": "phrase", "meaning_en": "get up on your feet", "meaning_ar": "قِف", "note_ar": "تُكتب كلمتين منفصلتين", "note_en": "Written as two words.", "example": "Stand up, please."},
+      {"word": "sit down", "pos": "phrase", "meaning_en": "go from standing to sitting", "meaning_ar": "اجلس", "note_ar": "تُكتب كلمتين منفصلتين", "note_en": "Written as two words.", "example": "Sit down and open your book."},
+      {"word": "raise", "pos": "verb", "meaning_en": "move something up", "meaning_ar": "يرفع", "note_ar": "", "note_en": "", "example": "Raise your hand to ask a question."},
+      {"word": "hand", "pos": "noun", "meaning_en": "the part of your body at the end of your arm", "meaning_ar": "يد", "note_ar": "", "note_en": "", "example": "My hand is clean."},
+      {"word": "your", "pos": "determiner", "meaning_en": "belonging to you", "meaning_ar": "الخاص بك (ـكَ / ـكِ)", "note_ar": "your book = كتابك", "note_en": "your book = the book that belongs to you", "example": "Is this your pen?"},
+      {"word": "open", "pos": "verb", "meaning_en": "move something so it is not closed", "meaning_ar": "يفتح", "note_ar": "", "note_en": "", "example": "Open the door, please."},
+      {"word": "close", "pos": "verb", "meaning_en": "move something so it is not open", "meaning_ar": "يُغلق / يقفل", "note_ar": "تُنطق /kloʊz/ بصوت z", "note_en": "As a verb, say /kloʊz/ with a z sound.", "example": "Close the window, please."},
+      {"word": "book", "pos": "noun", "meaning_en": "pages with writing, joined together", "meaning_ar": "كتاب", "note_ar": "", "note_en": "", "example": "This is my English book."},
+      {"word": "noun", "pos": "noun", "meaning_en": "a word for a person, animal, thing or place", "meaning_ar": "اسم", "note_ar": "", "note_en": "", "example": "\"Cat\" is a noun."},
+      {"word": "verb", "pos": "noun", "meaning_en": "a word for an action or a feeling", "meaning_ar": "فعل", "note_ar": "", "note_en": "", "example": "\"Eat\" is a verb."},
+      {"word": "person", "pos": "noun", "meaning_en": "a man, woman, boy or girl", "meaning_ar": "شخص", "note_ar": "الجمع: people", "note_en": "Plural: people.", "example": "Ali is a kind person."},
+      {"word": "animal", "pos": "noun", "meaning_en": "a living thing that is not a plant or a person, like a cat or a lion", "meaning_ar": "حيوان", "note_ar": "", "note_en": "", "example": "The giraffe is a tall animal."},
+      {"word": "thing", "pos": "noun", "meaning_en": "an object that is not alive", "meaning_ar": "شيء", "note_ar": "", "note_en": "", "example": "A pencil is a small thing."},
+      {"word": "place", "pos": "noun", "meaning_en": "a location, like a city or a building", "meaning_ar": "مكان", "note_ar": "", "note_en": "", "example": "School is a nice place."},
+      {"word": "boy", "pos": "noun", "meaning_en": "a male child", "meaning_ar": "ولد", "note_ar": "", "note_en": "", "example": "The boy is happy."},
+      {"word": "girl", "pos": "noun", "meaning_en": "a female child", "meaning_ar": "بنت", "note_ar": "", "note_en": "", "example": "The girl has a red bag."},
+      {"word": "whale", "pos": "noun", "meaning_en": "a very big animal that lives in the sea", "meaning_ar": "حوت", "note_ar": "", "note_en": "", "example": "A whale is very big."},
+      {"word": "giraffe", "pos": "noun", "meaning_en": "a tall animal with a very long neck", "meaning_ar": "زرافة", "note_ar": "", "note_en": "", "example": "The giraffe eats leaves."},
+      {"word": "owl", "pos": "noun", "meaning_en": "a bird with big eyes that is awake at night", "meaning_ar": "بومة", "note_ar": "", "note_en": "", "example": "The owl flies at night."},
+      {"word": "tree", "pos": "noun", "meaning_en": "a big plant with a trunk and branches", "meaning_ar": "شجرة", "note_ar": "", "note_en": "", "example": "There is a bird in the tree."},
+      {"word": "pencil", "pos": "noun", "meaning_en": "a wooden tool for writing or drawing", "meaning_ar": "قلم رصاص", "note_ar": "", "note_en": "", "example": "I write with a pencil."},
+      {"word": "bus", "pos": "noun", "meaning_en": "a big vehicle that carries many people", "meaning_ar": "حافلة / أتوبيس", "note_ar": "", "note_en": "", "example": "I go to school by bus."},
+      {"word": "cactus", "pos": "noun", "meaning_en": "a desert plant with sharp points", "meaning_ar": "صبار", "note_ar": "", "note_en": "", "example": "A cactus needs little water."},
+      {"word": "school", "pos": "noun", "meaning_en": "a place where children learn", "meaning_ar": "مدرسة", "note_ar": "", "note_en": "", "example": "My school is near my house."},
+      {"word": "house", "pos": "noun", "meaning_en": "a building where people live", "meaning_ar": "منزل / بيت", "note_ar": "", "note_en": "", "example": "Their house is big."},
+      {"word": "airport", "pos": "noun", "meaning_en": "a place where planes arrive and leave", "meaning_ar": "مطار", "note_ar": "", "note_en": "", "example": "The airport is far from the city."},
+      {"word": "dress", "pos": "noun", "meaning_en": "a piece of clothing for a girl or woman", "meaning_ar": "فستان", "note_ar": "", "note_en": "", "example": "She has a blue dress."},
+      {"word": "read", "pos": "verb", "meaning_en": "look at words and understand them", "meaning_ar": "يقرأ", "note_ar": "", "note_en": "", "example": "I read a story every day."},
+      {"word": "write", "pos": "verb", "meaning_en": "put words on paper", "meaning_ar": "يكتب", "note_ar": "حرف w صامت: تُنطق /raɪt/", "note_en": "The w is silent: say /raɪt/.", "example": "Write your name here."},
+      {"word": "eat", "pos": "verb", "meaning_en": "put food in your mouth and swallow it", "meaning_ar": "يأكل", "note_ar": "", "note_en": "", "example": "We eat lunch at two."},
+      {"word": "drink", "pos": "verb", "meaning_en": "take water, milk or juice into your mouth", "meaning_ar": "يشرب", "note_ar": "", "note_en": "", "example": "Drink some water."},
+      {"word": "play", "pos": "verb", "meaning_en": "have fun with a game or toy", "meaning_ar": "يلعب", "note_ar": "", "note_en": "", "example": "The children play football."},
+      {"word": "love", "pos": "verb", "meaning_en": "like someone or something very much", "meaning_ar": "يحب (بشدة)", "note_ar": "أقوى من like", "note_en": "Stronger than like.", "example": "I love my family."},
+      {"word": "like", "pos": "verb", "meaning_en": "enjoy or think something is nice", "meaning_ar": "يحب / يُعجَب بـ", "note_ar": "أخف من love", "note_en": "Weaker than love.", "example": "I like apples."},
+      {"word": "hate", "pos": "verb", "meaning_en": "dislike very much", "meaning_ar": "يكره", "note_ar": "", "note_en": "", "example": "I hate cold weather."}
+    ],
+    "fine_lines": [
+      {"title": "good evening vs good night", "words": ["good evening", "good night"], "explanation_ar": "good evening تحية عند اللقاء في المساء (مساء الخير). good night لا تُقال عند اللقاء، بل عند الذهاب للنوم أو المغادرة ليلًا (تصبح على خير).", "explanation_en": "Good evening is a greeting when you meet someone in the evening. Good night is not a greeting; you say it before you go to bed or when you leave at night.", "examples": [{"word": "good evening", "sentence": "Good evening! Come in, please."}, {"word": "good night", "sentence": "Good night, Mom. I'm going to bed."}]},
+      {"title": "like vs love", "words": ["like", "love"], "explanation_ar": "الاثنان بمعنى يحب، لكن love أقوى بكثير من like. like = يحب أو يعجبه الشيء، love = يحب جدًا.", "explanation_en": "Both show a good feeling, but love is much stronger than like.", "examples": [{"word": "like", "sentence": "I like tea."}, {"word": "love", "sentence": "I love my mother."}]},
+      {"title": "noun vs verb", "words": ["noun", "verb"], "explanation_ar": "الاسم (noun) هو اسم شخص أو حيوان أو شيء أو مكان. الفعل (verb) هو شيء نفعله أو نشعر به. اسأل نفسك: هل هناك شيء اسمه هكذا؟ إذن هو اسم. هل هو عمل أو إحساس؟ إذن هو فعل.", "explanation_en": "A noun is the name of a person, animal, thing or place. A verb is something we do or feel. Ask: is it a name? Then it is a noun. Is it an action or a feeling? Then it is a verb.", "examples": [{"word": "noun", "sentence": "Tiger, Cairo and pencil are nouns."}, {"word": "verb", "sentence": "Play, read and love are verbs."}]},
+      {"title": "hello vs hi", "words": ["hello", "hi"], "explanation_ar": "الاثنان بمعنى أهلًا ويُقالان في أي وقت. hi أقصر وأكثر ودية وغير رسمية.", "explanation_en": "Both mean the same and work at any time of day. Hi is shorter and more informal.", "examples": [{"word": "hello", "sentence": "Hello, Mr. Ahmed."}, {"word": "hi", "sentence": "Hi, Omar!"}]}
+    ],
+    "expressions": [
+      {"phrase": "Raise your hand.", "meaning_ar": "ارفع يدك.", "meaning_en": "Put your hand up (to ask or answer in class).", "example": "Raise your hand if you know the answer."},
+      {"phrase": "Open your book.", "meaning_ar": "افتح كتابك.", "meaning_en": "Open the book that you have.", "example": "Open your book at page ten."},
+      {"phrase": "Close your book.", "meaning_ar": "أغلق كتابك.", "meaning_en": "Shut the book that you have.", "example": "Close your book, please. It's time for the test."},
+      {"phrase": "Stand up, please.", "meaning_ar": "قف من فضلك.", "meaning_en": "A polite way to ask someone to stand.", "example": "Stand up, please, and say your name."},
+      {"phrase": "Sit down, please.", "meaning_ar": "اجلس من فضلك.", "meaning_en": "A polite way to ask someone to sit.", "example": "Thank you, Ali. Sit down, please."},
+      {"phrase": "Good morning, teacher.", "meaning_ar": "صباح الخير يا أستاذ.", "meaning_en": "A morning greeting to your teacher.", "example": "Good morning, teacher. Good morning, class."}
+    ],
+    "grammar": [
+      {"title": "Answering a greeting", "explanation_ar": "في الإنجليزية نرد على التحية بنفس التحية غالبًا: إذا قال لك أحد Good morning فقل Good morning. ومع hello يمكن الرد بـ hello أو hi. ويمكن وضع علامة تعجب (!) بعد التحية عندما نقولها بحماس.", "explanation_en": "In English we usually answer a greeting with the same greeting. If someone says \"Good morning\", say \"Good morning\". You can answer \"Hello\" with \"Hello\" or \"Hi\". We often put an exclamation mark (!) after a warm greeting.", "examples": ["A: Good afternoon! B: Good afternoon!", "A: Hello! B: Hi!"]},
+      {"title": "Greetings and the time of day", "explanation_ar": "hello و hi في أي وقت. good morning في الصباح، good afternoon بعد الظهر، good evening في المساء. good night قبل النوم، و goodbye عند المغادرة.", "explanation_en": "Hello and hi: any time. Good morning: morning. Good afternoon: after midday. Good evening: evening. Good night: before bed. Goodbye: when you leave.", "examples": ["Good morning! (8 a.m.)", "Good afternoon! (2 p.m.)", "Good evening! (7 p.m.)", "Good night! (before bed)"]},
+      {"title": "Parts of speech: nouns", "explanation_ar": "الكلمة في الإنجليزية لها أنواع (parts of speech). أهمها الاسم noun: وهو اسم لشخص (person) مثل Ali، أو حيوان (animal) مثل tiger، أو شيء (thing) مثل pencil، أو مكان (place) مثل Cairo و school. أسماء المدن والأشخاص تبدأ بحرف كبير.", "explanation_en": "Words have types (parts of speech). A noun is the name of a person (Ali), an animal (tiger), a thing (pencil) or a place (Cairo, school). Names of people and cities start with a capital letter.", "examples": ["person: Ali, Maya, a boy", "animal: a tiger, an owl", "thing: a tree, a bus", "place: Cairo, a school, an airport"]},
+      {"title": "Parts of speech: verbs", "explanation_ar": "الفعل verb كلمة تعبر عن عمل نقوم به مثل read و write و eat و play، أو عن إحساس مثل love و like و hate. لا يوجد شخص أو شيء اسمه «يلعب»، لذلك play فعل وليست اسمًا.", "explanation_en": "A verb is a word for an action (read, write, eat, play) or a feeling (love, like, hate). Nothing is called \"play\", so play is a verb, not a noun.", "examples": ["I read.", "They play.", "We like milk."]}
+    ]
+  },
+  "questions": [
+    {"question": "What do you say to someone at 8 o'clock in the morning?", "choices": ["Good night", "Good morning", "Good evening", "Goodbye"], "answer": 1, "explanation_ar": "في الصباح نقول Good morning.", "explanation_en": "In the morning we say good morning."},
+    {"question": "Your friend says \"Good afternoon!\" What is the best answer?", "choices": ["Good afternoon!", "Good night!", "Good morning!", "Sit down!"], "answer": 0, "explanation_ar": "نرد على التحية بنفس التحية.", "explanation_en": "We answer a greeting with the same greeting."},
+    {"question": "You are going to bed. What do you say to your family?", "choices": ["Good evening", "Hello", "Good afternoon", "Good night"], "answer": 3, "explanation_ar": "قبل النوم نقول Good night = تصبح على خير.", "explanation_en": "Before bed we say good night."},
+    {"question": "Which greeting can you say at any time of day?", "choices": ["Good morning", "Good evening", "Hello", "Good afternoon"], "answer": 2, "explanation_ar": "hello تُقال في أي وقت.", "explanation_en": "Hello works at any time."},
+    {"question": "The teacher says \"Raise your hand.\" What do you do?", "choices": ["Sit on a chair", "Put your hand up", "Close the book", "Leave the room"], "answer": 1, "explanation_ar": "Raise your hand = ارفع يدك.", "explanation_en": "Raise your hand means put your hand up."},
+    {"question": "\"Sit down\" means ...", "choices": ["اجلس", "قف", "افتح", "اكتب"], "answer": 0, "explanation_ar": "sit down = اجلس، و stand up = قف.", "explanation_en": "Sit down means go to a sitting position."},
+    {"question": "Which word is a verb?", "choices": ["tree", "giraffe", "school", "write"], "answer": 3, "explanation_ar": "write = يكتب، وهو عمل نقوم به، إذن فعل.", "explanation_en": "Write is an action, so it is a verb."},
+    {"question": "\"Cairo\" is the name of a ...", "choices": ["person", "animal", "place", "thing"], "answer": 2, "explanation_ar": "القاهرة اسم مكان (place).", "explanation_en": "Cairo is a city, so it is a place."},
+    {"question": "Which word is a noun for an animal?", "choices": ["owl", "eat", "pencil", "airport"], "answer": 0, "explanation_ar": "owl = بومة، وهي اسم حيوان.", "explanation_en": "An owl is a bird, so it is an animal."},
+    {"question": "Which word means \"like very much\"?", "choices": ["like", "hate", "open", "love"], "answer": 3, "explanation_ar": "love أقوى من like في الحب.", "explanation_en": "Love is stronger than like."}
+  ]
+}

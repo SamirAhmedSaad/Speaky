@@ -1,0 +1,612 @@
+{
+  "A1": [
+    {
+      "p": "Nice to meet you.",
+      "c": "Meeting someone new"
+    },
+    {
+      "p": "What is your name?",
+      "c": "Meeting someone new"
+    },
+    {
+      "p": "How are you today?",
+      "c": "Greeting a friend"
+    },
+    {
+      "p": "Where are you from?",
+      "c": "Meeting someone new"
+    },
+    {
+      "p": "See you tomorrow morning.",
+      "c": "Saying goodbye to a friend"
+    },
+    {
+      "p": "I live in a big city.",
+      "c": "Talking about yourself"
+    },
+    {
+      "p": "A coffee, please.",
+      "c": "At a café, ordering a drink"
+    },
+    {
+      "p": "Can I have tea?",
+      "c": "At a café, ordering a drink"
+    },
+    {
+      "p": "I would like water, please.",
+      "c": "At a café, ordering a drink"
+    },
+    {
+      "p": "This cake is very good.",
+      "c": "At a café, enjoying your food"
+    },
+    {
+      "p": "Can I sit here, please?",
+      "c": "At a café, finding a seat"
+    },
+    {
+      "p": "Could I get the bill, please?",
+      "c": "At a café, asking to pay"
+    },
+    {
+      "p": "How much is this?",
+      "c": "Shopping, asking the price"
+    },
+    {
+      "p": "I like this shirt.",
+      "c": "Shopping for clothes"
+    },
+    {
+      "p": "Do you have a bag?",
+      "c": "Shopping, at the checkout"
+    },
+    {
+      "p": "Can I pay by card?",
+      "c": "Shopping, paying for something"
+    },
+    {
+      "p": "This is too big for me.",
+      "c": "Shopping, trying on clothes"
+    },
+    {
+      "p": "Do you have a smaller size?",
+      "c": "Shopping, trying on clothes"
+    },
+    {
+      "p": "Where is the station?",
+      "c": "In the street, asking the way"
+    },
+    {
+      "p": "Is it far from here?",
+      "c": "In the street, asking the way"
+    },
+    {
+      "p": "Where is the bathroom, please?",
+      "c": "In a restaurant, asking the way"
+    },
+    {
+      "p": "Turn left at the corner.",
+      "c": "Giving someone directions"
+    },
+    {
+      "p": "How do I get there?",
+      "c": "In the street, asking the way"
+    },
+    {
+      "p": "I am looking for the bank.",
+      "c": "In the street, asking the way"
+    },
+    {
+      "p": "This is my sister.",
+      "c": "Introducing your family"
+    },
+    {
+      "p": "I have a brother.",
+      "c": "Talking about your family"
+    },
+    {
+      "p": "My mother is a teacher.",
+      "c": "Talking about your family"
+    },
+    {
+      "p": "I go to bed early.",
+      "c": "Talking about your routine"
+    },
+    {
+      "p": "My father works every day.",
+      "c": "Talking about your family"
+    },
+    {
+      "p": "We live in a small house.",
+      "c": "Talking about your home"
+    }
+  ],
+  "A2": [
+    {
+      "p": "I have a reservation for tonight.",
+      "c": "At a hotel, checking in"
+    },
+    {
+      "p": "Is breakfast included in the price?",
+      "c": "At a hotel reception"
+    },
+    {
+      "p": "Could I have another towel, please?",
+      "c": "At a hotel, asking for something"
+    },
+    {
+      "p": "The shower in my room is broken.",
+      "c": "At a hotel, reporting a problem"
+    },
+    {
+      "p": "Can you call a taxi for me?",
+      "c": "At a hotel reception"
+    },
+    {
+      "p": "When do I need to leave the room?",
+      "c": "At a hotel, asking about checkout"
+    },
+    {
+      "p": "I have a bad headache.",
+      "c": "At the doctor"
+    },
+    {
+      "p": "I do not feel very well.",
+      "c": "At the doctor"
+    },
+    {
+      "p": "My throat hurts when I swallow.",
+      "c": "At the doctor"
+    },
+    {
+      "p": "I need to see a doctor today.",
+      "c": "Calling a medical clinic"
+    },
+    {
+      "p": "I have had a fever since yesterday.",
+      "c": "At the doctor"
+    },
+    {
+      "p": "How often should I take this medicine?",
+      "c": "At the pharmacy"
+    },
+    {
+      "p": "Does this bus go downtown?",
+      "c": "Taking the bus"
+    },
+    {
+      "p": "Where can I buy a ticket?",
+      "c": "At the train station"
+    },
+    {
+      "p": "Excuse me, is this seat taken?",
+      "c": "On a train or bus"
+    },
+    {
+      "p": "I missed my train this morning.",
+      "c": "Explaining why you are late"
+    },
+    {
+      "p": "How long does the journey take?",
+      "c": "At the train station"
+    },
+    {
+      "p": "Do I need to change trains here?",
+      "c": "On a train, asking for help"
+    },
+    {
+      "p": "Could you call me back later?",
+      "c": "On the phone"
+    },
+    {
+      "p": "I am calling about the apartment.",
+      "c": "On the phone, asking about a flat"
+    },
+    {
+      "p": "Please speak a little more slowly.",
+      "c": "On the phone, not understanding"
+    },
+    {
+      "p": "Hello, could I speak to the manager?",
+      "c": "Calling a business"
+    },
+    {
+      "p": "Can I leave a message for her?",
+      "c": "On the phone, she is out"
+    },
+    {
+      "p": "Sorry, I cannot hear you very well.",
+      "c": "On the phone, bad connection"
+    },
+    {
+      "p": "Are you free this weekend?",
+      "c": "Making plans with a friend"
+    },
+    {
+      "p": "Let us meet at the park.",
+      "c": "Making plans with a friend"
+    },
+    {
+      "p": "What do you want to do tonight?",
+      "c": "Making plans with a friend"
+    },
+    {
+      "p": "Would you like to come with us?",
+      "c": "Inviting someone out"
+    },
+    {
+      "p": "Shall we go to the cinema together?",
+      "c": "Inviting someone out"
+    },
+    {
+      "p": "I am sorry, I am busy tomorrow.",
+      "c": "Saying no to an invitation"
+    }
+  ],
+  "B1": [
+    {
+      "p": "Thank you for inviting me to this interview.",
+      "c": "At a job interview"
+    },
+    {
+      "p": "Could you tell me more about the position?",
+      "c": "At a job interview"
+    },
+    {
+      "p": "What are the main responsibilities of this role?",
+      "c": "At a job interview"
+    },
+    {
+      "p": "I am a hard worker and I learn quickly.",
+      "c": "At a job interview, describing yourself"
+    },
+    {
+      "p": "I have a lot of experience working with customers.",
+      "c": "At a job interview"
+    },
+    {
+      "p": "I am interested in this job because I enjoy teamwork.",
+      "c": "At a job interview"
+    },
+    {
+      "p": "Is the apartment still available for rent?",
+      "c": "Calling about a flat to rent"
+    },
+    {
+      "p": "Are pets allowed to live in this building?",
+      "c": "Asking a landlord about rules"
+    },
+    {
+      "p": "Are the bills included in the monthly rent?",
+      "c": "Asking a landlord about costs"
+    },
+    {
+      "p": "The heating does not work in the bedroom.",
+      "c": "Reporting a problem to your landlord"
+    },
+    {
+      "p": "When would it be possible to see the apartment?",
+      "c": "Arranging a flat viewing"
+    },
+    {
+      "p": "Do I need to pay a deposit before moving in?",
+      "c": "Asking a landlord about costs"
+    },
+    {
+      "p": "Excuse me, I think there is a mistake.",
+      "c": "At a restaurant, checking the bill"
+    },
+    {
+      "p": "Excuse me, my soup is a little cold.",
+      "c": "At a restaurant, complaining politely"
+    },
+    {
+      "p": "Could we have a table near the window, please?",
+      "c": "Arriving at a restaurant"
+    },
+    {
+      "p": "This is not what I ordered, I am afraid.",
+      "c": "At a restaurant, wrong dish"
+    },
+    {
+      "p": "We have been waiting for our food for ages.",
+      "c": "At a restaurant, slow service"
+    },
+    {
+      "p": "Would it be possible to speak to the manager?",
+      "c": "At a restaurant, making a complaint"
+    },
+    {
+      "p": "We should hang out again sometime soon.",
+      "c": "Making friends"
+    },
+    {
+      "p": "I have been learning to play the guitar.",
+      "c": "Talking about hobbies"
+    },
+    {
+      "p": "Do you want to join our football team?",
+      "c": "Inviting a new friend"
+    },
+    {
+      "p": "I really enjoyed talking to you this evening.",
+      "c": "Saying goodbye at a party"
+    },
+    {
+      "p": "I usually go running in the park on weekends.",
+      "c": "Talking about hobbies"
+    },
+    {
+      "p": "What do you like to do in your free time?",
+      "c": "Getting to know someone"
+    },
+    {
+      "p": "My flight has been delayed until tomorrow.",
+      "c": "At the airport, flight problems"
+    },
+    {
+      "p": "I think I have lost my passport.",
+      "c": "Travelling, reporting a lost item"
+    },
+    {
+      "p": "My suitcase did not arrive with my flight.",
+      "c": "At the airport, lost luggage"
+    },
+    {
+      "p": "Could you help me find the nearest pharmacy?",
+      "c": "Travelling, asking a local"
+    },
+    {
+      "p": "Is there another way to get to the airport?",
+      "c": "Travelling, transport problems"
+    },
+    {
+      "p": "I would like to change my booking, if possible.",
+      "c": "Calling a travel company"
+    }
+  ],
+  "B2": [
+    {
+      "p": "Could we go over the main points again, please?",
+      "c": "In a work meeting"
+    },
+    {
+      "p": "Sorry to interrupt, but I have a quick question.",
+      "c": "In a work meeting"
+    },
+    {
+      "p": "Could we arrange another meeting to discuss this further?",
+      "c": "Ending a work meeting"
+    },
+    {
+      "p": "I would like to add something to what you said.",
+      "c": "In a work meeting, joining in"
+    },
+    {
+      "p": "Let us move on to the next item on the agenda.",
+      "c": "Leading a work meeting"
+    },
+    {
+      "p": "I am not sure that this plan will work in practice.",
+      "c": "In a meeting, raising doubts"
+    },
+    {
+      "p": "In my opinion, working from home has many advantages.",
+      "c": "Sharing your opinion"
+    },
+    {
+      "p": "It depends on how you look at the situation.",
+      "c": "Discussing a difficult question"
+    },
+    {
+      "p": "I see your point, but I do not completely agree.",
+      "c": "Politely disagreeing"
+    },
+    {
+      "p": "To be honest, I think both sides have valid arguments.",
+      "c": "Discussing a debate"
+    },
+    {
+      "p": "That is a fair point, although I would argue the opposite.",
+      "c": "Politely disagreeing"
+    },
+    {
+      "p": "I used to think that, but I have changed my mind.",
+      "c": "Explaining a new opinion"
+    },
+    {
+      "p": "I would like a refund for this faulty product.",
+      "c": "Returning something to a shop"
+    },
+    {
+      "p": "I am writing to complain about the service I received.",
+      "c": "Making a formal complaint"
+    },
+    {
+      "p": "I have called several times and nobody has helped me.",
+      "c": "Complaining to customer service"
+    },
+    {
+      "p": "Could you explain why my order has not arrived yet?",
+      "c": "Calling about a late delivery"
+    },
+    {
+      "p": "I expected much better quality for the price I paid.",
+      "c": "Complaining about a product"
+    },
+    {
+      "p": "I think I have been charged too much on my bill.",
+      "c": "Complaining about a bill"
+    },
+    {
+      "p": "Public transport in this city could be much more reliable.",
+      "c": "Discussing city life"
+    },
+    {
+      "p": "More people are choosing to cycle to work these days.",
+      "c": "Discussing modern lifestyles"
+    },
+    {
+      "p": "It is important to support small local businesses whenever possible.",
+      "c": "Discussing your community"
+    },
+    {
+      "p": "I think young people should learn about saving money at school.",
+      "c": "Discussing education"
+    },
+    {
+      "p": "We should all try to reduce the amount of plastic we use.",
+      "c": "Discussing the environment"
+    },
+    {
+      "p": "Climate change is something that affects every single person on the planet.",
+      "c": "Discussing the environment"
+    },
+    {
+      "p": "Have you thought about looking for a new job?",
+      "c": "Giving a friend advice"
+    },
+    {
+      "p": "It might be worth asking a professional for advice.",
+      "c": "Giving a friend advice"
+    },
+    {
+      "p": "If I were you, I would talk to your boss.",
+      "c": "Giving a friend advice"
+    },
+    {
+      "p": "You should probably get some rest before making a decision.",
+      "c": "Giving a stressed friend advice"
+    },
+    {
+      "p": "I would recommend taking some time to think it through.",
+      "c": "Giving careful advice"
+    },
+    {
+      "p": "Why not try speaking to her directly about the problem?",
+      "c": "Helping a friend with a conflict"
+    }
+  ],
+  "C1": [
+    {
+      "p": "As you can see from this chart, sales have risen steadily.",
+      "c": "Giving a business presentation"
+    },
+    {
+      "p": "Before I begin, I would like to give you some background information.",
+      "c": "Opening a presentation"
+    },
+    {
+      "p": "To sum up, I believe this approach offers the most sustainable solution.",
+      "c": "Concluding a presentation"
+    },
+    {
+      "p": "Thank you all for coming, I will keep this as brief as possible.",
+      "c": "Opening a presentation"
+    },
+    {
+      "p": "I will now hand over to my colleague, who will discuss the results.",
+      "c": "Presenting with a colleague"
+    },
+    {
+      "p": "If there are no further questions, I would like to conclude the presentation here.",
+      "c": "Closing a presentation"
+    },
+    {
+      "p": "I am afraid that proposal is not quite what we had in mind.",
+      "c": "Negotiating a business deal"
+    },
+    {
+      "p": "Let us try to find a solution that works for both sides.",
+      "c": "Negotiating a business deal"
+    },
+    {
+      "p": "Before we agree to anything, I need to consult with my team.",
+      "c": "Negotiating a business deal"
+    },
+    {
+      "p": "We would be willing to compromise if you could offer a better price.",
+      "c": "Negotiating a price"
+    },
+    {
+      "p": "Would you be able to give us some flexibility on the delivery deadline?",
+      "c": "Negotiating with a supplier"
+    },
+    {
+      "p": "I think we are getting close to an agreement that suits everyone involved.",
+      "c": "Closing a negotiation"
+    },
+    {
+      "p": "I understand that this must be really difficult for you to hear.",
+      "c": "Delivering bad news gently"
+    },
+    {
+      "p": "I did not mean to upset you, and I am truly sorry.",
+      "c": "Apologizing sincerely"
+    },
+    {
+      "p": "I would rather be honest with you now than regret it later.",
+      "c": "Having a difficult conversation"
+    },
+    {
+      "p": "I appreciate your honesty, even though I do not entirely agree with you.",
+      "c": "Responding to criticism"
+    },
+    {
+      "p": "Perhaps we could talk about this when we have both had time to calm down.",
+      "c": "Calming down an argument"
+    },
+    {
+      "p": "I hope you know that you can always come to me if something is wrong.",
+      "c": "Supporting a friend"
+    },
+    {
+      "p": "Artificial intelligence is changing the way we work, learn and communicate.",
+      "c": "Discussing technology"
+    },
+    {
+      "p": "Social media has made it easier than ever to spread false information.",
+      "c": "Discussing the media"
+    },
+    {
+      "p": "I am not convinced that technology always makes our lives more convenient.",
+      "c": "Questioning modern technology"
+    },
+    {
+      "p": "There is a growing concern about how companies collect and use personal data.",
+      "c": "Discussing online privacy"
+    },
+    {
+      "p": "While remote work offers flexibility, it can also lead to feelings of isolation.",
+      "c": "Discussing the future of work"
+    },
+    {
+      "p": "Whether we like it or not, automation will reshape many traditional industries in the coming decades.",
+      "c": "Discussing the future of work"
+    },
+    {
+      "p": "I came across your work recently and found it genuinely inspiring.",
+      "c": "Networking at an event"
+    },
+    {
+      "p": "I was wondering whether you might be able to help me with something.",
+      "c": "Making a polite request"
+    },
+    {
+      "p": "Would you mind if I contacted you next week to discuss this further?",
+      "c": "Following up after networking"
+    },
+    {
+      "p": "It was a pleasure meeting you, and I look forward to staying in touch.",
+      "c": "Ending a networking conversation"
+    },
+    {
+      "p": "I would be grateful if you could send me the relevant documents at your earliest convenience.",
+      "c": "Writing a formal request"
+    },
+    {
+      "p": "I hope you do not mind me reaching out, but I believe we share several professional interests.",
+      "c": "Contacting someone professionally"
+    }
+  ]
+}

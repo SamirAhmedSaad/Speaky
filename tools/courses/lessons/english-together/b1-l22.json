@@ -1,0 +1,349 @@
+{
+  "title": "What's in your bag?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "bag",
+        "pos": "noun",
+        "meaning_en": "a thing you carry your things in",
+        "meaning_ar": "حقيبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My bag is heavy."
+      },
+      {
+        "word": "umbrella",
+        "pos": "noun",
+        "meaning_en": "a thing you hold over your head when it rains",
+        "meaning_ar": "مظلّة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Take an umbrella. It may rain."
+      },
+      {
+        "word": "weather",
+        "pos": "noun",
+        "meaning_en": "sun, rain, wind, heat or cold",
+        "meaning_ar": "الطقس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The weather changes a lot."
+      },
+      {
+        "word": "snack",
+        "pos": "noun",
+        "meaning_en": "a small amount of food between meals",
+        "meaning_ar": "وجبة خفيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a snack at ten."
+      },
+      {
+        "word": "inside",
+        "pos": "adverb",
+        "meaning_en": "in something",
+        "meaning_ar": "في الداخل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's inside the box?"
+      },
+      {
+        "word": "cookies",
+        "pos": "noun",
+        "meaning_en": "small sweet baked cakes",
+        "meaning_ar": "بسكويت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have cookies in my bag."
+      },
+      {
+        "word": "nuts",
+        "pos": "noun",
+        "meaning_en": "hard dry fruits like almonds",
+        "meaning_ar": "مكسّرات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Nuts are a healthy snack."
+      },
+      {
+        "word": "chocolate",
+        "pos": "noun",
+        "meaning_en": "a sweet brown food",
+        "meaning_ar": "شوكولاتة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love chocolate."
+      },
+      {
+        "word": "yummy",
+        "pos": "adjective",
+        "meaning_en": "tasting very good (informal)",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These cookies are yummy!"
+      },
+      {
+        "word": "water bottle",
+        "pos": "noun",
+        "meaning_en": "a bottle for carrying water",
+        "meaning_ar": "قارورة ماء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't forget your water bottle."
+      },
+      {
+        "word": "wallet",
+        "pos": "noun",
+        "meaning_en": "a small case for money and cards",
+        "meaning_ar": "محفظة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My wallet is in my pocket."
+      },
+      {
+        "word": "phone",
+        "pos": "noun",
+        "meaning_en": "a mobile phone",
+        "meaning_ar": "هاتف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where is my phone?"
+      },
+      {
+        "word": "carry",
+        "pos": "verb",
+        "meaning_en": "hold something and take it with you",
+        "meaning_ar": "يحمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I carry my books in my bag."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "in vs inside",
+        "words": [
+          "in",
+          "inside"
+        ],
+        "explanation_ar": "in حرف جر يأتي قبل الاسم (in my bag). inside يمكن أن تكون ظرفًا في آخر الجملة (What's inside?) أو حرف جر (inside the box).",
+        "explanation_en": "\"In\" comes before a noun. \"Inside\" can end a sentence: What's inside?",
+        "examples": [
+          {
+            "word": "in",
+            "sentence": "What's in your bag?"
+          },
+          {
+            "word": "inside",
+            "sentence": "Snacks? What's inside?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What's in your bag?",
+        "meaning_ar": "ماذا يوجد في حقيبتك؟",
+        "meaning_en": "Ask what someone carries.",
+        "example": "What's in your bag? Books and a pen."
+      },
+      {
+        "phrase": "Please show me.",
+        "meaning_ar": "من فضلك أرني.",
+        "meaning_en": "Ask someone politely to show you.",
+        "example": "You have a new phone? Please show me."
+      },
+      {
+        "phrase": "Let's see...",
+        "meaning_ar": "لنرَ...",
+        "meaning_en": "Say this while you look or think.",
+        "example": "Let's see... my keys, my wallet..."
+      },
+      {
+        "phrase": "First, ... Next, ... And of course, ...",
+        "meaning_ar": "أولًا... بعد ذلك... وبالطبع...",
+        "meaning_en": "Use these words to list things in order.",
+        "example": "First, my umbrella. Next, my snack bag."
+      },
+      {
+        "phrase": "Good idea!",
+        "meaning_ar": "فكرة جيدة!",
+        "meaning_en": "Agree with a smart choice.",
+        "example": "I always carry water. Good idea!"
+      },
+      {
+        "phrase": "We must drink water.",
+        "meaning_ar": "يجب أن نشرب الماء.",
+        "meaning_en": "Say something is very important.",
+        "example": "It's hot today. We must drink water."
+      },
+      {
+        "phrase": "You carry so many things!",
+        "meaning_ar": "تحمل أشياء كثيرة!",
+        "meaning_en": "React to a full bag.",
+        "example": "Wow, you carry so many things!"
+      },
+      {
+        "phrase": "My bag is like my house!",
+        "meaning_ar": "حقيبتي مثل بيتي!",
+        "meaning_en": "A funny way to say your bag has everything.",
+        "example": "I have food, water and a book. My bag is like my house!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "What's in...? / I have... / Here is...",
+        "explanation_ar": "نسأل: What's in your bag? (What's = What is). ونجيب: I have cookies and nuts. أو نقدم شيئًا: Here is my water bottle.",
+        "explanation_en": "Ask: What's in your bag? Answer: I have... / Here is my...",
+        "examples": [
+          "What's in your bag?",
+          "I have cookies, some nuts, and chocolate.",
+          "Here is my water bottle."
+        ]
+      },
+      {
+        "title": "some + plural / uncountable nouns",
+        "explanation_ar": "نستخدم some مع الجمع (some nuts, some cookies) ومع غير المعدود (some water, some chocolate) في الجمل المثبتة.",
+        "explanation_en": "Use some with plural nouns and uncountable nouns in positive sentences.",
+        "examples": [
+          "I have some nuts.",
+          "I have some water.",
+          "She has some cookies."
+        ]
+      },
+      {
+        "title": "Possessive: my + noun",
+        "explanation_ar": "my تعني لي، وتأتي قبل الاسم: my umbrella, my wallet, my phone.",
+        "explanation_en": "Use my before a noun to show it is yours.",
+        "examples": [
+          "First, my umbrella.",
+          "And of course, my wallet and my phone.",
+          "My bag is like my house!"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What's ___ your bag?",
+      "choices": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول What's in your bag.",
+      "explanation_en": "We say \"in your bag\"."
+    },
+    {
+      "question": "You use an ___ when it rains.",
+      "choices": [
+        "wallet",
+        "bottle",
+        "snack",
+        "umbrella"
+      ],
+      "answer": 3,
+      "explanation_ar": "umbrella المظلة.",
+      "explanation_en": "An umbrella is for rain."
+    },
+    {
+      "question": "You keep money and cards in a ___.",
+      "choices": [
+        "snack bag",
+        "wallet",
+        "water bottle",
+        "umbrella"
+      ],
+      "answer": 1,
+      "explanation_ar": "wallet المحفظة.",
+      "explanation_en": "A wallet holds money and cards."
+    },
+    {
+      "question": "I have cookies, ___ nuts, and chocolate.",
+      "choices": [
+        "some",
+        "an",
+        "a",
+        "many of"
+      ],
+      "answer": 0,
+      "explanation_ar": "some مع الجمع.",
+      "explanation_en": "Use \"some\" with plural nouns."
+    },
+    {
+      "question": "Almonds are a kind of ___.",
+      "choices": [
+        "nut",
+        "cookie",
+        "phone",
+        "umbrella"
+      ],
+      "answer": 0,
+      "explanation_ar": "اللوز نوع من المكسرات.",
+      "explanation_en": "Almonds are nuts."
+    },
+    {
+      "question": "\"Yummy\" means...",
+      "choices": [
+        "very wet",
+        "very heavy",
+        "very old",
+        "tasting very good"
+      ],
+      "answer": 3,
+      "explanation_ar": "yummy تعني لذيذ.",
+      "explanation_en": "Yummy = tasting very good."
+    },
+    {
+      "question": "We ___ drink water. It is very important.",
+      "choices": [
+        "musts",
+        "mustn't to",
+        "must",
+        "must to"
+      ],
+      "answer": 2,
+      "explanation_ar": "must + الفعل في أصله.",
+      "explanation_en": "must + base verb."
+    },
+    {
+      "question": "Wow, you ___ so many things!",
+      "choices": [
+        "carries",
+        "carry",
+        "carrying",
+        "to carry"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع you الفعل في أصله.",
+      "explanation_en": "With \"you\" use the base verb."
+    },
+    {
+      "question": "___ is my water bottle.",
+      "choices": [
+        "What",
+        "Where",
+        "Here",
+        "There are"
+      ],
+      "answer": 2,
+      "explanation_ar": "Here is my... لتقديم شيء.",
+      "explanation_en": "\"Here is\" shows something."
+    },
+    {
+      "question": "First, my umbrella. ___, my snack bag.",
+      "choices": [
+        "Last night",
+        "Next",
+        "Before",
+        "Ago"
+      ],
+      "answer": 1,
+      "explanation_ar": "Next تعني بعد ذلك.",
+      "explanation_en": "\"Next\" means after that."
+    }
+  ]
+}

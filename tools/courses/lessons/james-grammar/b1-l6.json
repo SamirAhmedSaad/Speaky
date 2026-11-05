@@ -1,0 +1,48 @@
+{
+  "title": "Because and So",
+  "content": {
+    "vocabulary": [
+      {"word": "because", "pos": "conjunction", "meaning_en": "for the reason that; answers \"why?\"", "meaning_ar": "لأنّ", "note_ar": "تُنطق /bɪˈkɒz/", "note_en": "Pronounced /bɪˈkɒz/ (US /bɪˈkʌz/).", "example": "I am late because the train was late."},
+      {"word": "so", "pos": "conjunction/adverb", "meaning_en": "1) and the result is; 2) very; 3) in \"I think so\" = I believe it's true", "meaning_ar": "لذلك / جدًّا / (I think so: أظن ذلك)", "note_ar": "", "note_en": "", "example": "It was hot, so I bought an ice cream."},
+      {"word": "conjunction", "pos": "noun", "meaning_en": "a word that joins two sentences or ideas", "meaning_ar": "أداة ربط / حرف عطف", "note_ar": "con = مع، junction = ربط", "note_en": "\"con\" = with, \"junction\" = joining.", "example": "\"Because\" and \"so\" are conjunctions."},
+      {"word": "reason", "pos": "noun", "meaning_en": "why something happens", "meaning_ar": "سبب", "note_ar": "", "note_en": "", "example": "The reason I'm happy is my new job."},
+      {"word": "result", "pos": "noun", "meaning_en": "what happens because of something", "meaning_ar": "نتيجة", "note_ar": "", "note_en": "", "example": "I got wet. That was the result of the rain."},
+      {"word": "statement", "pos": "noun", "meaning_en": "a sentence that says something is true", "meaning_ar": "عبارة / جملة خبرية", "note_ar": "", "note_en": "", "example": "\"It was hot\" is a statement."},
+      {"word": "extent", "pos": "noun", "meaning_en": "how much, how far, how big something is", "meaning_ar": "مدى / درجة", "note_ar": "", "note_en": "", "example": "\"So\" can show the extent: so fast, so cold."},
+      {"word": "confused", "pos": "adjective", "meaning_en": "not able to understand clearly", "meaning_ar": "مرتبك / محتار", "note_ar": "", "note_en": "", "example": "Many students are confused about \"so\" and \"because\"."},
+      {"word": "native speaker", "pos": "noun", "meaning_en": "a person who learned a language as a child, as their first language", "meaning_ar": "متحدث أصلي (ناطق باللغة الأم)", "note_ar": "", "note_en": "", "example": "She speaks English like a native speaker."},
+      {"word": "polite", "pos": "adjective", "meaning_en": "showing good manners and respect", "meaning_ar": "مهذّب", "note_ar": "", "note_en": "", "example": "Canadians are so polite."},
+      {"word": "drop prices", "pos": "phrase", "meaning_en": "make prices lower", "meaning_ar": "يخفّض الأسعار", "note_ar": "", "note_en": "", "example": "People weren't buying, so the shop dropped its prices."},
+      {"word": "get wet", "pos": "phrase", "meaning_en": "become covered with water", "meaning_ar": "يتبلل", "note_ar": "", "note_en": "", "example": "It was raining hard, so I got wet."},
+      {"word": "logical", "pos": "adjective", "meaning_en": "making sense; reasonable", "meaning_ar": "منطقي", "note_ar": "", "note_en": "", "example": "\"I broke it because I paid for it\" is not logical."}
+    ],
+    "fine_lines": [
+      {"title": "because vs so", "words": ["because", "so"], "explanation_ar": "كلاهما أداة ربط تجمع جملتين. because تقدّم السبب وتجيب عن why? أما so فتقدّم النتيجة وتجيب عن What happened? لاحظ أن ترتيب الأفكار ينعكس: [نتيجة] because [سبب] / [سبب] so [نتيجة].", "explanation_en": "Both join two sentences. \"Because\" gives the reason and answers \"Why?\". \"So\" gives the result and answers \"What happened?\". The order flips: [result] because [reason] / [reason], so [result].", "examples": [{"word": "because", "sentence": "I got wet because it was raining."}, {"word": "so", "sentence": "It was raining, so I got wet."}]},
+      {"title": "so vs very", "words": ["so", "very"], "explanation_ar": "so كظرف تعني \"جدًا\" مثل very لكنها أقوى وتُستعمل كثيرًا في الكلام، وغالبًا يتبعها نتيجة: He talks so fast (that) I can't understand him.", "explanation_en": "As an adverb, \"so\" means \"very\" but is stronger and common in speech. It often has a result after it: He talks so fast (that) I can't understand him.", "examples": [{"word": "so", "sentence": "He talks so fast I can't understand him."}, {"word": "very", "sentence": "He talks very fast."}]}
+    ],
+    "expressions": [
+      {"phrase": "I thought so.", "meaning_ar": "هذا ما ظننته.", "meaning_en": "I believed that was true, and I was right.", "example": "\"Are you sick?\" \"Yes.\" \"I thought so.\""},
+      {"phrase": "I think so.", "meaning_ar": "أظن ذلك.", "meaning_en": "I believe it is true.", "example": "\"Is the shop open?\" \"I think so.\""},
+      {"phrase": "So what happened?", "meaning_ar": "إذن ماذا حدث؟", "meaning_en": "Tell me the result.", "example": "\"I broke the cup.\" \"So what happened?\" \"I had to pay for it.\""},
+      {"phrase": "It was the right thing.", "meaning_ar": "كان هذا هو التصرف الصحيح.", "meaning_en": "It was the correct thing to do.", "example": "I helped him because it was the right thing."}
+    ],
+    "grammar": [
+      {"title": "because = reason (answers \"Why?\")", "explanation_ar": "because أداة ربط تجمع جملتين، والجملة التي بعدها هي السبب. تجيب عن سؤال why. ولا تستعمل because إلا كأداة ربط.", "explanation_en": "\"Because\" joins two sentences; the part after it is the reason. It answers \"Why?\". \"Because\" is only a conjunction.", "examples": ["\"Why are you late?\" \"Because the train was late.\"", "I helped him because he was a nice man."]},
+      {"title": "so = result (answers \"What happened?\")", "explanation_ar": "so أيضًا أداة ربط، لكن الجملة التي بعدها هي النتيجة. تجيب عن سؤال What happened? ونضع فاصلة قبلها عادة.", "explanation_en": "\"So\" is also a conjunction, but the part after it is the result. It answers \"What happened?\". We usually put a comma before it.", "examples": ["It was hot, so I bought an ice cream.", "I broke it, so I had to pay for it."]},
+      {"title": "so as an adverb of extent", "explanation_ar": "so يمكن أن تكون ظرفًا بمعنى \"جدًا\" لتبين المدى أو الدرجة: so fast, so hot, so polite.", "explanation_en": "\"So\" can be an adverb meaning \"very\" to show extent or degree: so fast, so hot, so polite.", "examples": ["Canadians are so polite.", "That car goes so fast."]},
+      {"title": "so for truth: I think so / I thought so", "explanation_ar": "نستعمل so بعد think للتعبير عن أن الشيء صحيح في رأينا: I think so = أظن أنه صحيح. I thought so = كنت أظن ذلك وكنت محقًّا.", "explanation_en": "Use \"so\" after \"think\" to say you believe something is true: \"I think so\" = I believe it's true. \"I thought so\" = I believed it, and I was right.", "examples": ["\"Is it going to rain?\" \"I think so.\"", "\"Are you sick?\" \"Yes.\" \"I thought so.\""]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I am late ___ the train was late.\"", "choices": ["so", "because", "but", "very"], "answer": 1, "explanation_ar": "الجملة الثانية هي السبب: because.", "explanation_en": "The second part is the reason: because."},
+    {"question": "\"It was raining hard, ___ I got wet.\"", "choices": ["because", "very", "so", "why"], "answer": 2, "explanation_ar": "الجملة الثانية هي النتيجة: so.", "explanation_en": "The second part is the result: so."},
+    {"question": "\"Because\" answers the question ___.", "choices": ["Why?", "What happened?", "How much?", "Where?"], "answer": 0, "explanation_ar": "because تقدّم السبب فتجيب عن why.", "explanation_en": "\"Because\" gives the reason, so it answers \"Why?\"."},
+    {"question": "\"So\" (as a conjunction) gives ___.", "choices": ["a reason", "a place", "a time", "a result"], "answer": 3, "explanation_ar": "so تقدم النتيجة.", "explanation_en": "\"So\" gives the result."},
+    {"question": "\"Are you sick?\" \"Yes.\" \"I thought ___.\"", "choices": ["because", "so", "that", "very"], "answer": 1, "explanation_ar": "التعبير الصحيح: I thought so.", "explanation_en": "The correct expression is \"I thought so\"."},
+    {"question": "\"Canadians are ___ polite.\" (= very)", "choices": ["because", "so", "too much", "result"], "answer": 1, "explanation_ar": "so هنا ظرف بمعنى جدًا.", "explanation_en": "Here \"so\" is an adverb meaning very."},
+    {"question": "Which sentence is logical?", "choices": ["I broke it because I had to pay for it.", "I helped him, so he is a nice man.", "I broke it, so I had to pay for it.", "It was hot because I bought an ice cream."], "answer": 2, "explanation_ar": "الكسر أولًا ثم النتيجة: الدفع. لذلك so.", "explanation_en": "First I broke it, then the result: I paid. So \"so\" is right."},
+    {"question": "\"I helped him pay for it ___ he was a nice man.\"", "choices": ["so", "very", "and so", "because"], "answer": 3, "explanation_ar": "كونه لطيفًا هو السبب: because.", "explanation_en": "Him being nice is the reason: because."},
+    {"question": "What is a conjunction?", "choices": ["a word that joins two ideas", "a word for a thing", "a word that describes a noun", "a question word"], "answer": 0, "explanation_ar": "أداة الربط تجمع فكرتين أو جملتين.", "explanation_en": "A conjunction joins two ideas or sentences."},
+    {"question": "\"People weren't buying, so the shop ___ its prices.\"", "choices": ["dropped", "because", "so", "reason"], "answer": 0, "explanation_ar": "النتيجة: خفّض المحل أسعاره (dropped).", "explanation_en": "The result: the shop dropped (lowered) its prices."}
+  ]
+}

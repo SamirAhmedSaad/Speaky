@@ -1,0 +1,534 @@
+{
+ "title": "Talking about personality",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "personality",
+    "pos": "noun",
+    "meaning_en": "what a person is like inside: kind, funny, quiet...",
+    "meaning_ar": "الشخصية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Tom has a grumpy personality."
+   },
+   {
+    "word": "friend",
+    "pos": "noun",
+    "meaning_en": "a person you know and like",
+    "meaning_ar": "صديق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is my friend, Shannon."
+   },
+   {
+    "word": "busy",
+    "pos": "adjective",
+    "meaning_en": "having a lot to do",
+    "meaning_ar": "مشغول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She's very busy. She's always doing something."
+   },
+   {
+    "word": "hardworking",
+    "pos": "adjective",
+    "meaning_en": "working a lot and working well",
+    "meaning_ar": "مجتهد / يعمل بجد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm hardworking. I work all the time."
+   },
+   {
+    "word": "talkative",
+    "pos": "adjective",
+    "meaning_en": "talking a lot",
+    "meaning_ar": "ثرثار / كثير الكلام",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Gina is very talkative. She talks a lot."
+   },
+   {
+    "word": "sporty",
+    "pos": "adjective",
+    "meaning_en": "liking and doing a lot of sport",
+    "meaning_ar": "رياضي / يحب الرياضة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm sporty. I enjoy doing lots of sports."
+   },
+   {
+    "word": "funny",
+    "pos": "adjective",
+    "meaning_en": "making people laugh",
+    "meaning_ar": "مضحك / ظريف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Billy is very funny. He makes us all laugh."
+   },
+   {
+    "word": "friendly",
+    "pos": "adjective",
+    "meaning_en": "kind and nice to people",
+    "meaning_ar": "ودود / لطيف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm friendly. I'm nice to everyone."
+   },
+   {
+    "word": "grumpy",
+    "pos": "adjective",
+    "meaning_en": "often angry or in a bad mood",
+    "meaning_ar": "نَكِد / سيّئ المزاج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He's quite grumpy."
+   },
+   {
+    "word": "annoyed",
+    "pos": "adjective",
+    "meaning_en": "a little angry",
+    "meaning_ar": "منزعج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He's usually annoyed about something."
+   },
+   {
+    "word": "brave",
+    "pos": "adjective",
+    "meaning_en": "not afraid of danger",
+    "meaning_ar": "شجاع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm brave. I like extreme sports."
+   },
+   {
+    "word": "quiet",
+    "pos": "adjective",
+    "meaning_en": "not talking much",
+    "meaning_ar": "هادئ / قليل الكلام",
+    "note_ar": "لا تخلط بين quiet (هادئ) وquite (إلى حد ما).",
+    "note_en": "Don't mix up quiet and quite.",
+    "example": "He's quiet. He doesn't talk very much."
+   },
+   {
+    "word": "lazy",
+    "pos": "adjective",
+    "meaning_en": "not wanting to work",
+    "meaning_ar": "كسول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He's lazy. He sits on the sofa a lot."
+   },
+   {
+    "word": "opposite",
+    "pos": "noun",
+    "meaning_en": "something completely different",
+    "meaning_ar": "العكس / الضد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Quiet is the opposite of talkative."
+   },
+   {
+    "word": "extreme sports",
+    "pos": "noun",
+    "meaning_en": "dangerous and exciting sports",
+    "meaning_ar": "الرياضات الخطرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He likes extreme sports like rock climbing."
+   },
+   {
+    "word": "rock climbing",
+    "pos": "noun",
+    "meaning_en": "climbing up big rocks",
+    "meaning_ar": "تسلق الصخور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Rock climbing is an extreme sport."
+   },
+   {
+    "word": "skydiving",
+    "pos": "noun",
+    "meaning_en": "jumping from a plane with a parachute",
+    "meaning_ar": "القفز المظلي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You need to be brave to go skydiving."
+   },
+   {
+    "word": "bungee jumping",
+    "pos": "noun",
+    "meaning_en": "jumping from a high place with a long rope tied to you",
+    "meaning_ar": "القفز بالحبل المطاطي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Bungee jumping is an extreme sport."
+   },
+   {
+    "word": "laugh",
+    "pos": "verb",
+    "meaning_en": "make a happy sound when something is funny",
+    "meaning_ar": "يضحك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He makes us all laugh."
+   },
+   {
+    "word": "talk",
+    "pos": "verb",
+    "meaning_en": "speak",
+    "meaning_ar": "يتكلم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She talks a lot."
+   },
+   {
+    "word": "a lot",
+    "pos": "phrase",
+    "meaning_en": "very much; many times",
+    "meaning_ar": "كثيرًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He watches TV a lot."
+   },
+   {
+    "word": "very",
+    "pos": "adverb",
+    "meaning_en": "to a high degree",
+    "meaning_ar": "جدًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She is very talkative."
+   },
+   {
+    "word": "quite",
+    "pos": "adverb",
+    "meaning_en": "more than a little, but not very",
+    "meaning_ar": "إلى حد ما / نوعًا ما",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He's quite grumpy."
+   },
+   {
+    "word": "a bit",
+    "pos": "phrase",
+    "meaning_en": "a little",
+    "meaning_ar": "قليلًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm a bit lazy."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "What is he like? vs What does he like?",
+    "words": [
+     "What is he like?",
+     "What does he like?"
+    ],
+    "explanation_ar": "What is he like? تسأل عن الشخصية (كيف هو؟)، والجواب: He's funny. أما What does he like? فتسأل عما يحبه: He likes sport.",
+    "explanation_en": "\"What is he like?\" asks about personality. \"What does he like?\" asks about the things he enjoys.",
+    "examples": [
+     {
+      "word": "What is he like?",
+      "sentence": "What's Billy like? He's very funny."
+     },
+     {
+      "word": "What does he like?",
+      "sentence": "What does Tom like? He likes extreme sports."
+     }
+    ]
+   },
+   {
+    "title": "talkative vs quiet",
+    "words": [
+     "talkative",
+     "quiet"
+    ],
+    "explanation_ar": "talkative = يتكلم كثيرًا، وعكسها quiet = لا يتكلم كثيرًا.",
+    "explanation_en": "Talkative = talks a lot. Its opposite, quiet = doesn't talk much.",
+    "examples": [
+     {
+      "word": "talkative",
+      "sentence": "Gina is talkative. She talks a lot."
+     },
+     {
+      "word": "quiet",
+      "sentence": "Shannon is quiet. She doesn't talk very much."
+     }
+    ]
+   },
+   {
+    "title": "hardworking vs lazy",
+    "words": [
+     "hardworking",
+     "lazy"
+    ],
+    "explanation_ar": "hardworking = مجتهد يعمل كثيرًا، وعكسها lazy = كسول.",
+    "explanation_en": "Hardworking = works a lot. Its opposite, lazy = doesn't want to work.",
+    "examples": [
+     {
+      "word": "hardworking",
+      "sentence": "Shannon is hardworking. She works all the time."
+     },
+     {
+      "word": "lazy",
+      "sentence": "Tom is lazy. He sits on the sofa a lot."
+     }
+    ]
+   },
+   {
+    "title": "very / quite / a bit",
+    "words": [
+     "very",
+     "quite",
+     "a bit"
+    ],
+    "explanation_ar": "very = جدًا (قوي)، quite = إلى حد ما، a bit = قليلًا. نضعها قبل الصفة. ونستخدم a bit غالبًا مع الصفات السلبية.",
+    "explanation_en": "Very = strong; quite = medium; a bit = a little (often with negative words). Put them before the adjective.",
+    "examples": [
+     {
+      "word": "very",
+      "sentence": "She's very busy."
+     },
+     {
+      "word": "quite",
+      "sentence": "He's quite grumpy."
+     },
+     {
+      "word": "a bit",
+      "sentence": "I'm a bit lazy."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What's she like?",
+    "meaning_ar": "كيف هي؟ (ما شخصيتها؟)",
+    "meaning_en": "asking about someone's personality",
+    "example": "What's she like? She's very busy."
+   },
+   {
+    "phrase": "Who's this?",
+    "meaning_ar": "من هذا؟",
+    "meaning_en": "asking about a person in a photo or with you",
+    "example": "Who's this? This is my friend, Shannon."
+   },
+   {
+    "phrase": "She's always doing something.",
+    "meaning_ar": "هي دائمًا تفعل شيئًا.",
+    "meaning_en": "describing a busy person",
+    "example": "Shannon is very busy. She's always doing something."
+   },
+   {
+    "phrase": "I work all the time.",
+    "meaning_ar": "أعمل طوال الوقت.",
+    "meaning_en": "describing a hardworking person",
+    "example": "I'm hardworking. I work all the time."
+   },
+   {
+    "phrase": "She talks a lot.",
+    "meaning_ar": "هي تتكلم كثيرًا.",
+    "meaning_en": "describing a talkative person",
+    "example": "Gina is talkative. She talks a lot."
+   },
+   {
+    "phrase": "I enjoy doing lots of sports.",
+    "meaning_ar": "أستمتع بممارسة الكثير من الرياضات.",
+    "meaning_en": "describing a sporty person",
+    "example": "I'm sporty. I enjoy doing lots of sports."
+   },
+   {
+    "phrase": "He makes us all laugh.",
+    "meaning_ar": "هو يُضحكنا جميعًا.",
+    "meaning_en": "describing a funny person",
+    "example": "Billy is funny. He makes us all laugh."
+   },
+   {
+    "phrase": "I'm nice to everyone.",
+    "meaning_ar": "أنا لطيف مع الجميع.",
+    "meaning_en": "describing a friendly person",
+    "example": "I'm friendly. I'm nice to everyone."
+   },
+   {
+    "phrase": "He's usually angry or annoyed about something.",
+    "meaning_ar": "هو عادةً غاضب أو منزعج من شيء ما.",
+    "meaning_en": "describing a grumpy person",
+    "example": "Tom is grumpy. He's usually angry or annoyed about something."
+   },
+   {
+    "phrase": "He's the opposite of talkative.",
+    "meaning_ar": "هو عكس كثير الكلام.",
+    "meaning_en": "saying someone is completely different",
+    "example": "He's the opposite of talkative. He's quiet."
+   },
+   {
+    "phrase": "He doesn't talk very much.",
+    "meaning_ar": "هو لا يتكلم كثيرًا.",
+    "meaning_en": "describing a quiet person",
+    "example": "Tom is quiet. He doesn't talk very much."
+   },
+   {
+    "phrase": "What are you like?",
+    "meaning_ar": "كيف شخصيتك؟",
+    "meaning_en": "asking someone to describe their personality",
+    "example": "What are you like? I'm friendly and a bit lazy."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "What's he/she like? + be + adjective",
+    "explanation_ar": "نسأل عن الشخصية بـ What is he/she like? ونجيب بـ He's / She's + صفة. والصفة لا تتغير مع المذكر أو المؤنث أو الجمع.",
+    "explanation_en": "Ask about personality with What is he/she like? Answer with He's/She's + adjective. Adjectives don't change for he, she or they.",
+    "examples": [
+     "What's your friend like? She's very busy.",
+     "What is Tom like? He's grumpy.",
+     "What is Gina like? She's sporty and talkative."
+    ]
+   },
+   {
+    "title": "Adding a sentence to explain",
+    "explanation_ar": "بعد الصفة نضيف جملة توضّحها في المضارع البسيط: She's talkative. She talks a lot.",
+    "explanation_en": "After the adjective, add a present simple sentence to explain it.",
+    "examples": [
+     "She's talkative. She talks a lot.",
+     "He's funny. He makes us all laugh.",
+     "He's lazy. He sits on the sofa a lot and watches TV."
+    ]
+   },
+   {
+    "title": "Negative with isn't",
+    "explanation_ar": "نقول إن الشخص ليس كذلك بـ isn't: He isn't talkative. ونجيب Is he ...? بـ No, he isn't.",
+    "explanation_en": "Use isn't for the negative. Short answer: No, he isn't.",
+    "examples": [
+     "Tom isn't talkative.",
+     "Tom isn't hardworking.",
+     "Is Tom hardworking? No, he isn't."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "\"What's Billy like?\" asks about his ...",
+   "choices": [
+    "appearance",
+    "personality",
+    "job",
+    "food"
+   ],
+   "answer": 1,
+   "explanation_ar": "What's he like? تسأل عن الشخصية.",
+   "explanation_en": "\"What's he like?\" asks about personality."
+  },
+  {
+   "question": "She talks a lot. She is ...",
+   "choices": [
+    "quiet",
+    "lazy",
+    "talkative",
+    "brave"
+   ],
+   "answer": 2,
+   "explanation_ar": "تتكلم كثيرًا = talkative.",
+   "explanation_en": "Talks a lot = talkative."
+  },
+  {
+   "question": "What is the opposite of hardworking?",
+   "choices": [
+    "lazy",
+    "busy",
+    "sporty",
+    "friendly"
+   ],
+   "answer": 0,
+   "explanation_ar": "عكس hardworking هو lazy.",
+   "explanation_en": "The opposite of hardworking is lazy."
+  },
+  {
+   "question": "He likes skydiving and rock climbing. He is ...",
+   "choices": [
+    "grumpy",
+    "quiet",
+    "lazy",
+    "brave"
+   ],
+   "answer": 3,
+   "explanation_ar": "يحب الرياضات الخطرة فهو شجاع: brave.",
+   "explanation_en": "He likes dangerous sports: brave."
+  },
+  {
+   "question": "He makes us all laugh. He is ...",
+   "choices": [
+    "funny",
+    "annoyed",
+    "busy",
+    "quiet"
+   ],
+   "answer": 0,
+   "explanation_ar": "يُضحكنا = funny.",
+   "explanation_en": "He makes people laugh: funny."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "He's quite grumpy.",
+    "He's grumpy quite.",
+    "He quite is grumpy.",
+    "Quite he's grumpy."
+   ],
+   "answer": 0,
+   "explanation_ar": "quite تأتي قبل الصفة.",
+   "explanation_en": "Quite goes before the adjective."
+  },
+  {
+   "question": "He's usually angry or annoyed. He is ...",
+   "choices": [
+    "friendly",
+    "grumpy",
+    "sporty",
+    "talkative"
+   ],
+   "answer": 1,
+   "explanation_ar": "غاضب غالبًا = grumpy.",
+   "explanation_en": "Often angry = grumpy."
+  },
+  {
+   "question": "Which question asks about the things someone enjoys?",
+   "choices": [
+    "What is she like?",
+    "What does she like?",
+    "Who is she?",
+    "How is she?"
+   ],
+   "answer": 1,
+   "explanation_ar": "What does she like? تسأل عما تحبه.",
+   "explanation_en": "\"What does she like?\" asks about likes."
+  },
+  {
+   "question": "\"Is Tom talkative?\" Choose the correct answer.",
+   "choices": [
+    "No, he isn't. He's quiet.",
+    "No, he doesn't.",
+    "No, he not talkative.",
+    "No, he aren't."
+   ],
+   "answer": 0,
+   "explanation_ar": "الجواب القصير: No, he isn't.",
+   "explanation_en": "Short answer: No, he isn't."
+  },
+  {
+   "question": "Which means \"a little\"?",
+   "choices": [
+    "very",
+    "a lot",
+    "a bit",
+    "always"
+   ],
+   "answer": 2,
+   "explanation_ar": "a bit = قليلًا.",
+   "explanation_en": "A bit = a little."
+  }
+ ]
+}

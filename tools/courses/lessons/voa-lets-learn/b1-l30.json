@@ -1,0 +1,545 @@
+{
+ "title": "Rolling on the River",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "river",
+    "pos": "noun",
+    "meaning_en": "a long line of water that flows to the sea",
+    "meaning_ar": "نهر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The Potomac River runs through Washington, D.C."
+   },
+   {
+    "word": "culture",
+    "pos": "noun",
+    "meaning_en": "the way of life, art and customs of a group of people",
+    "meaning_ar": "ثقافة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Food is an important part of every culture."
+   },
+   {
+    "word": "seafood",
+    "pos": "noun",
+    "meaning_en": "fish and other animals from the sea that people eat",
+    "meaning_ar": "المأكولات البحرية",
+    "note_ar": "اسم غير معدود: some seafood.",
+    "note_en": "Uncountable: some seafood (not seafoods).",
+    "example": "This restaurant sells fresh seafood."
+   },
+   {
+    "word": "market",
+    "pos": "noun",
+    "meaning_en": "a place where people buy and sell things",
+    "meaning_ar": "سوق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We buy vegetables at the market."
+   },
+   {
+    "word": "writer",
+    "pos": "noun",
+    "meaning_en": "a person who writes books or articles",
+    "meaning_ar": "كاتب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Pete wants to be a writer."
+   },
+   {
+    "word": "free",
+    "pos": "adjective",
+    "meaning_en": "costing no money",
+    "meaning_ar": "مجاني",
+    "note_ar": "free أيضاً = غير مشغول (Are you free tonight?).",
+    "note_en": "\"Free\" can also mean not busy.",
+    "example": "The museum is free on Sundays."
+   },
+   {
+    "word": "dinner party",
+    "pos": "noun",
+    "meaning_en": "a meal at home for invited friends",
+    "meaning_ar": "حفلة عشاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm cooking for my dinner party tonight."
+   },
+   {
+    "word": "fresh",
+    "pos": "adjective",
+    "meaning_en": "recently caught, picked or made",
+    "meaning_ar": "طازج",
+    "note_ar": "freshest = الأكثر طزاجة.",
+    "note_en": "Superlative: freshest.",
+    "example": "The fish is very fresh."
+   },
+   {
+    "word": "spend",
+    "pos": "verb",
+    "meaning_en": "to use money to buy things",
+    "meaning_ar": "ينفق / يصرف",
+    "note_ar": "الماضي: spent.",
+    "note_en": "Past: spent.",
+    "example": "I can only spend fifty dollars."
+   },
+   {
+    "word": "shrimp",
+    "pos": "noun",
+    "meaning_en": "a small sea animal with a shell that people eat",
+    "meaning_ar": "روبيان / جمبري",
+    "note_ar": "الجمع غالباً shrimp أيضاً.",
+    "note_en": "The plural is usually also \"shrimp\".",
+    "example": "Shrimp is my favorite seafood."
+   },
+   {
+    "word": "pound",
+    "pos": "noun",
+    "meaning_en": "a unit of weight (about 450 grams)",
+    "meaning_ar": "رطل (حوالي 450 غرام)",
+    "note_ar": "اختصارها lb.",
+    "note_en": "Short form: lb.",
+    "example": "Give me a pound of shrimp, please."
+   },
+   {
+    "word": "crab",
+    "pos": "noun",
+    "meaning_en": "a sea animal with a hard shell and ten legs",
+    "meaning_ar": "سلطعون / سرطان البحر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The crabs here are delicious."
+   },
+   {
+    "word": "delicious",
+    "pos": "adjective",
+    "meaning_en": "tasting very good",
+    "meaning_ar": "لذيذ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This soup is delicious!"
+   },
+   {
+    "word": "nearby",
+    "pos": "adjective / adverb",
+    "meaning_en": "close; not far away",
+    "meaning_ar": "قريب / مجاور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We swim in the nearby lake."
+   },
+   {
+    "word": "bay",
+    "pos": "noun",
+    "meaning_en": "a part of the sea that the land curves around",
+    "meaning_ar": "خليج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The crabs come from the Chesapeake Bay."
+   },
+   {
+    "word": "dozen",
+    "pos": "noun",
+    "meaning_en": "twelve",
+    "meaning_ar": "دزّينة (اثنا عشر)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I bought a dozen eggs."
+   },
+   {
+    "word": "meat",
+    "pos": "noun",
+    "meaning_en": "the part of an animal that people eat",
+    "meaning_ar": "لحم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The larger crabs have the most meat."
+   },
+   {
+    "word": "salad",
+    "pos": "noun",
+    "meaning_en": "a dish of mixed vegetables, usually cold",
+    "meaning_ar": "سلطة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She is bringing a salad."
+   },
+   {
+    "word": "corn-on-the-cob",
+    "pos": "noun",
+    "meaning_en": "corn cooked and eaten while still on its center part",
+    "meaning_ar": "ذرة على الكوز",
+    "note_ar": "ear of corn = كوز ذرة.",
+    "note_en": "An ear of corn = one piece of corn on the cob.",
+    "example": "We ate corn-on-the-cob at the picnic."
+   },
+   {
+    "word": "cash",
+    "pos": "noun",
+    "meaning_en": "money in coins and paper bills",
+    "meaning_ar": "نقود / نقد (كاش)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you want to pay in cash?"
+   },
+   {
+    "word": "credit",
+    "pos": "noun",
+    "meaning_en": "paying with a credit card",
+    "meaning_ar": "بطاقة ائتمان (الدفع بالبطاقة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "\"Cash or credit?\" \"Credit, please.\""
+   },
+   {
+    "word": "grow up",
+    "pos": "phrasal verb",
+    "meaning_en": "to change from a child to an adult",
+    "meaning_ar": "يكبر / ينشأ",
+    "note_ar": "الماضي: grew up.",
+    "note_en": "Past: grew up.",
+    "example": "I grew up in a small town."
+   },
+   {
+    "word": "sail",
+    "pos": "verb",
+    "meaning_en": "to travel on water in a boat with sails",
+    "meaning_ar": "يُبحر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you know how to sail?"
+   },
+   {
+    "word": "boat",
+    "pos": "noun",
+    "meaning_en": "a small ship",
+    "meaning_ar": "قارب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We went on a boat on the river."
+   },
+   {
+    "word": "motorboat",
+    "pos": "noun",
+    "meaning_en": "a boat with an engine",
+    "meaning_ar": "زورق بمحرّك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The motorboat is very fast."
+   },
+   {
+    "word": "sailboat",
+    "pos": "noun",
+    "meaning_en": "a boat that moves with the wind in its sails",
+    "meaning_ar": "مركب شراعي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "A sailboat needs wind."
+   },
+   {
+    "word": "sailor",
+    "pos": "noun",
+    "meaning_en": "a person who sails a boat or works on a ship",
+    "meaning_ar": "بحّار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My uncle was a sailor."
+   },
+   {
+    "word": "waterfront",
+    "pos": "noun",
+    "meaning_en": "the part of a town next to a river or sea",
+    "meaning_ar": "الواجهة المائية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We walked along the waterfront."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "how much vs how many",
+    "words": [
+     "how much",
+     "how many"
+    ],
+    "explanation_ar": "how much مع الأسماء غير المعدودة (money, water, shrimp, seafood) ومع السعر. how many مع الأسماء المعدودة بصيغة الجمع (crabs, people, eggs).",
+    "explanation_en": "Use how much with uncountable nouns (money, water, shrimp, seafood) and to ask about price. Use how many with plural countable nouns (crabs, people, eggs).",
+    "examples": [
+     {
+      "word": "how much",
+      "sentence": "How much money can you spend?"
+     },
+     {
+      "word": "how much",
+      "sentence": "How much shrimp do you want?"
+     },
+     {
+      "word": "how many",
+      "sentence": "How many crabs do you want?"
+     },
+     {
+      "word": "how many",
+      "sentence": "How many people are coming?"
+     }
+    ]
+   },
+   {
+    "title": "cash vs credit",
+    "words": [
+     "cash",
+     "credit"
+    ],
+    "explanation_ar": "cash = نقود ورقية ومعدنية. credit = الدفع ببطاقة الائتمان. سؤال الكاشير: Cash or credit?",
+    "explanation_en": "Cash = coins and paper money. Credit = paying with a credit card. The cashier asks: Cash or credit?",
+    "examples": [
+     {
+      "word": "cash",
+      "sentence": "I paid in cash."
+     },
+     {
+      "word": "credit",
+      "sentence": "Can I pay by credit card?"
+     }
+    ]
+   },
+   {
+    "title": "sail vs sailor vs sailboat",
+    "words": [
+     "sail",
+     "sailor",
+     "sailboat"
+    ],
+    "explanation_ar": "sail فعل = يُبحر (أو اسم = شراع). sailor = الشخص الذي يُبحر (بحّار). sailboat = المركب الشراعي.",
+    "explanation_en": "Sail is the verb (or the cloth on a boat). A sailor is the person. A sailboat is the boat.",
+    "examples": [
+     {
+      "word": "sail",
+      "sentence": "Do you know how to sail?"
+     },
+     {
+      "word": "sailor",
+      "sentence": "Anna's a sailor!"
+     },
+     {
+      "word": "sailboat",
+      "sentence": "Is it a motorboat or a sailboat?"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Can you help me?",
+    "meaning_ar": "هل يمكنك مساعدتي؟",
+    "meaning_en": "A polite request for help.",
+    "example": "Excuse me. Can you help me? I can't find the bus stop."
+   },
+   {
+    "phrase": "What do you need?",
+    "meaning_ar": "ماذا تحتاج؟",
+    "meaning_en": "Asking what someone wants.",
+    "example": "I'm going to the store. What do you need?"
+   },
+   {
+    "phrase": "You came to the right place.",
+    "meaning_ar": "جئت إلى المكان المناسب.",
+    "meaning_en": "This is the best place for what you want.",
+    "example": "Looking for fresh bread? You came to the right place."
+   },
+   {
+    "phrase": "Sure thing.",
+    "meaning_ar": "بالتأكيد.",
+    "meaning_en": "Yes, of course.",
+    "example": "\"Can you pass the salt?\" \"Sure thing.\""
+   },
+   {
+    "phrase": "Follow me.",
+    "meaning_ar": "اتبعني.",
+    "meaning_en": "Come with me.",
+    "example": "The office is upstairs. Follow me."
+   },
+   {
+    "phrase": "Walk this way.",
+    "meaning_ar": "تعال من هنا.",
+    "meaning_en": "Come in this direction.",
+    "example": "Walk this way, please. Your table is ready."
+   },
+   {
+    "phrase": "Is that everything you need?",
+    "meaning_ar": "هل هذا كل ما تحتاجه؟",
+    "meaning_en": "Do you need anything else?",
+    "example": "Two bags of rice. Is that everything you need?"
+   },
+   {
+    "phrase": "That'll be $49.95.",
+    "meaning_ar": "المبلغ 49.95 دولاراً.",
+    "meaning_en": "The price is $49.95.",
+    "example": "That'll be ten dollars, please."
+   },
+   {
+    "phrase": "Cash or credit?",
+    "meaning_ar": "نقداً أم بالبطاقة؟",
+    "meaning_en": "How do you want to pay?",
+    "example": "\"Cash or credit?\" \"Cash, please.\""
+   },
+   {
+    "phrase": "You are full of surprises.",
+    "meaning_ar": "أنت مليء بالمفاجآت.",
+    "meaning_en": "You often do things that surprise people.",
+    "example": "You speak four languages? You are full of surprises!"
+   },
+   {
+    "phrase": "Who knew?",
+    "meaning_ar": "من كان يعلم؟!",
+    "meaning_en": "I didn't know that! What a surprise!",
+    "example": "My little brother can cook. Who knew?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "How much / How many",
+    "explanation_ar": "للسؤال عن الكمية: How many + اسم معدود جمع (crabs, people). How much + اسم غير معدود (money, shrimp, water). وتُستخدم How much أيضاً للسؤال عن السعر: How much is it?",
+    "explanation_en": "To ask about quantity: How many + plural countable noun (crabs, people). How much + uncountable noun (money, shrimp, water). We also use How much to ask about price: How much is it?",
+    "examples": [
+     "How much money can you spend?",
+     "How much shrimp do you want?",
+     "How many crabs do you want?",
+     "How much do I need for five people?"
+    ]
+   },
+   {
+    "title": "Superlatives: the + -est / the most / the best",
+    "explanation_ar": "للمقارنة بين ثلاثة أشياء أو أكثر نستخدم صيغة التفضيل: الصفات القصيرة تأخذ the + est (fresh → the freshest, old → the oldest). بعض الصفات شاذة: good → the best. ومع الأسماء: the most = الأكثر (the most meat).",
+    "explanation_en": "To compare one thing with all the others, use the superlative: short adjectives take the + -est (fresh → the freshest, old → the oldest). Some are irregular: good → the best. With nouns use the most (the most meat).",
+    "examples": [
+     "They have the freshest seafood in town.",
+     "It is the oldest outdoor seafood market in the United States.",
+     "The crabs here are the best.",
+     "The larger crabs have the most meat."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "How ___ crabs do you want?",
+   "choices": [
+    "much",
+    "many",
+    "more",
+    "long"
+   ],
+   "answer": 1,
+   "explanation_ar": "crabs اسم معدود جمع، لذلك how many.",
+   "explanation_en": "\"Crabs\" is a plural countable noun, so we use \"how many\"."
+  },
+  {
+   "question": "How ___ money can you spend?",
+   "choices": [
+    "much",
+    "many",
+    "lot",
+    "often"
+   ],
+   "answer": 0,
+   "explanation_ar": "money غير معدود، لذلك how much.",
+   "explanation_en": "\"Money\" is uncountable, so we use \"how much\"."
+  },
+  {
+   "question": "A dozen is:",
+   "choices": [
+    "ten",
+    "twenty",
+    "five",
+    "twelve"
+   ],
+   "answer": 3,
+   "explanation_ar": "dozen = اثنا عشر.",
+   "explanation_en": "A dozen is twelve."
+  },
+  {
+   "question": "They have the ___ seafood in town.",
+   "choices": [
+    "fresher",
+    "freshest",
+    "most fresh",
+    "fresh"
+   ],
+   "answer": 1,
+   "explanation_ar": "صيغة التفضيل من fresh هي the freshest.",
+   "explanation_en": "The superlative of \"fresh\" is \"the freshest\"."
+  },
+  {
+   "question": "The crabs here are the ___!",
+   "choices": [
+    "goodest",
+    "better",
+    "best",
+    "most good"
+   ],
+   "answer": 2,
+   "explanation_ar": "good شاذة: better ثم the best.",
+   "explanation_en": "\"Good\" is irregular: good, better, the best."
+  },
+  {
+   "question": "\"Cash or credit?\" The cashier is asking:",
+   "choices": [
+    "How do you want to pay?",
+    "What do you want to eat?",
+    "Where do you live?",
+    "How many people are coming?"
+   ],
+   "answer": 0,
+   "explanation_ar": "السؤال عن طريقة الدفع.",
+   "explanation_en": "The question is about how you want to pay."
+  },
+  {
+   "question": "A boat with an engine is a ___.",
+   "choices": [
+    "sailboat",
+    "sailor",
+    "bay",
+    "motorboat"
+   ],
+   "answer": 3,
+   "explanation_ar": "motorboat = زورق بمحرّك.",
+   "explanation_en": "A motorboat has an engine."
+  },
+  {
+   "question": "Which question is correct?",
+   "choices": [
+    "How many shrimp you want?",
+    "How much shrimp do you want?",
+    "How much crabs do you want?",
+    "How many money do you have?"
+   ],
+   "answer": 1,
+   "explanation_ar": "shrimp هنا غير معدود فنستخدم how much ونضع do.",
+   "explanation_en": "Here \"shrimp\" is used as uncountable: How much shrimp do you want?"
+  },
+  {
+   "question": "\"Did you grow up on the water?\" means:",
+   "choices": [
+    "Did you swim a lot?",
+    "Do you drink water?",
+    "Did you live near water as a child?",
+    "Can you sail?"
+   ],
+   "answer": 2,
+   "explanation_ar": "grow up = يكبر وينشأ.",
+   "explanation_en": "\"Grow up\" means to live somewhere as a child."
+  },
+  {
+   "question": "\"Wow, Anna's a sailor! Who knew?\" Pete is:",
+   "choices": [
+    "surprised",
+    "angry",
+    "sick",
+    "bored"
+   ],
+   "answer": 0,
+   "explanation_ar": "Who knew? تعبّر عن المفاجأة.",
+   "explanation_en": "\"Who knew?\" shows surprise."
+  }
+ ]
+}

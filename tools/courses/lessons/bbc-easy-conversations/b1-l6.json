@@ -1,0 +1,393 @@
+{
+ "title": "Talking about activities",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "do",
+    "pos": "verb",
+    "meaning_en": "perform an action",
+    "meaning_ar": "يفعل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What are you doing?"
+   },
+   {
+    "word": "exercise",
+    "pos": "verb",
+    "meaning_en": "move your body to stay healthy",
+    "meaning_ar": "يمارس الرياضة",
+    "note_ar": "تُكتب exercising بحذف e",
+    "note_en": "Drop the e: exercising.",
+    "example": "I'm exercising in the park."
+   },
+   {
+    "word": "eat",
+    "pos": "verb",
+    "meaning_en": "put food in your mouth and swallow it",
+    "meaning_ar": "يأكل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm eating breakfast."
+   },
+   {
+    "word": "breakfast",
+    "pos": "noun",
+    "meaning_en": "the first meal of the day",
+    "meaning_ar": "الفطور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm eating breakfast in the kitchen."
+   },
+   {
+    "word": "go to work",
+    "pos": "phrase",
+    "meaning_en": "travel to your job",
+    "meaning_ar": "يذهب إلى العمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm going to work now."
+   },
+   {
+    "word": "study",
+    "pos": "verb",
+    "meaning_en": "learn about a subject",
+    "meaning_ar": "يدرس",
+    "note_ar": "studying تحتفظ بحرف y",
+    "note_en": "Keep the y: studying.",
+    "example": "I'm studying Spanish."
+   },
+   {
+    "word": "Spanish",
+    "pos": "noun",
+    "meaning_en": "the language of Spain",
+    "meaning_ar": "اللغة الإسبانية",
+    "note_ar": "أسماء اللغات تبدأ بحرف كبير",
+    "note_en": "Languages start with a capital letter.",
+    "example": "She's studying Spanish."
+   },
+   {
+    "word": "cook",
+    "pos": "verb",
+    "meaning_en": "make food by heating it",
+    "meaning_ar": "يطبخ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm cooking dinner."
+   },
+   {
+    "word": "read",
+    "pos": "verb",
+    "meaning_en": "look at and understand words",
+    "meaning_ar": "يقرأ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm reading a book."
+   },
+   {
+    "word": "book",
+    "pos": "noun",
+    "meaning_en": "pages with words, for reading",
+    "meaning_ar": "كتاب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He's reading a good book."
+   },
+   {
+    "word": "now",
+    "pos": "adverb",
+    "meaning_en": "at this moment",
+    "meaning_ar": "الآن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What are you doing now?"
+   },
+   {
+    "word": "at the moment",
+    "pos": "phrase",
+    "meaning_en": "now, at this time",
+    "meaning_ar": "في هذه اللحظة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'm cooking at the moment."
+   },
+   {
+    "word": "watch TV",
+    "pos": "phrase",
+    "meaning_en": "look at programmes on television",
+    "meaning_ar": "يشاهد التلفاز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They're watching TV."
+   },
+   {
+    "word": "talk",
+    "pos": "verb",
+    "meaning_en": "speak to someone",
+    "meaning_ar": "يتحدث",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We're talking on the phone."
+   },
+   {
+    "word": "drink",
+    "pos": "verb",
+    "meaning_en": "take a liquid into your mouth",
+    "meaning_ar": "يشرب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She's drinking tea."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "What do you do? / What are you doing?",
+    "words": [
+     "What do you do?",
+     "What are you doing?"
+    ],
+    "explanation_ar": "What are you doing? تسأل عمّا تفعله الآن، أما What do you do? فتسأل عادةً عن الوظيفة أو العادات.",
+    "explanation_en": "\"What are you doing?\" asks about now. \"What do you do?\" usually asks about your job or habits.",
+    "examples": [
+     {
+      "word": "What are you doing?",
+      "sentence": "What are you doing? - I'm cooking."
+     },
+     {
+      "word": "What do you do?",
+      "sentence": "What do you do? - I'm a teacher."
+     }
+    ]
+   },
+   {
+    "title": "he's / his",
+    "words": [
+     "he's",
+     "his"
+    ],
+    "explanation_ar": "he's = he is (هو ...)، و his = ـه (للملكية). What's he doing? - He's reading his book.",
+    "explanation_en": "\"He's\" = he is. \"His\" shows something belongs to him.",
+    "examples": [
+     {
+      "word": "he's",
+      "sentence": "He's cooking."
+     },
+     {
+      "word": "his",
+      "sentence": "He's reading his book."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What are you doing?",
+    "meaning_ar": "ماذا تفعل (الآن)؟",
+    "meaning_en": "ask about an action now",
+    "example": "What are you doing? - I'm exercising."
+   },
+   {
+    "phrase": "What is Tim doing?",
+    "meaning_ar": "ماذا يفعل تيم؟",
+    "meaning_en": "ask about another person's action",
+    "example": "What is Tim doing? - He's cooking."
+   },
+   {
+    "phrase": "What's he doing?",
+    "meaning_ar": "ماذا يفعل؟",
+    "meaning_en": "short form of \"What is he doing?\"",
+    "example": "What's he doing? - He's reading a book."
+   },
+   {
+    "phrase": "I'm exercising.",
+    "meaning_ar": "أنا أمارس الرياضة.",
+    "meaning_en": "say what you are doing now",
+    "example": "I'm exercising in the garden."
+   },
+   {
+    "phrase": "I'm eating breakfast.",
+    "meaning_ar": "أنا أتناول الفطور.",
+    "meaning_en": "say what you are doing now",
+    "example": "Sorry, I'm eating breakfast."
+   },
+   {
+    "phrase": "I'm going to work.",
+    "meaning_ar": "أنا ذاهب إلى العمل.",
+    "meaning_en": "say where you are going now",
+    "example": "I'm going to work by bus."
+   },
+   {
+    "phrase": "I'm studying Spanish.",
+    "meaning_ar": "أنا أدرس الإسبانية.",
+    "meaning_en": "say what you are learning",
+    "example": "I'm studying English this year."
+   },
+   {
+    "phrase": "I'm cooking.",
+    "meaning_ar": "أنا أطبخ.",
+    "meaning_en": "say what you are doing now",
+    "example": "I'm cooking rice."
+   },
+   {
+    "phrase": "I'm reading a book.",
+    "meaning_ar": "أنا أقرأ كتابًا.",
+    "meaning_en": "say what you are doing now",
+    "example": "I'm reading a book about history."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Present continuous: am/is/are + verb-ing",
+    "explanation_ar": "نستخدم المضارع المستمر لما يحدث الآن: I am (I'm) + فعل-ing، he/she is + فعل-ing، you/we/they are + فعل-ing.",
+    "explanation_en": "Use the present continuous for actions happening now: am/is/are + verb-ing.",
+    "examples": [
+     "I'm cooking.",
+     "He's reading a book.",
+     "They're watching TV."
+    ]
+   },
+   {
+    "title": "Spelling of -ing",
+    "explanation_ar": "معظم الأفعال نضيف لها ing مباشرة (read → reading). إذا انتهى الفعل بـ e صامتة نحذفها (exercise → exercising). بعض الأفعال القصيرة نضاعف آخر حرف (swim → swimming).",
+    "explanation_en": "Most verbs: add -ing. Silent e: drop it (exercising). Some short verbs double the last letter (swimming).",
+    "examples": [
+     "read → reading",
+     "cook → cooking",
+     "exercise → exercising",
+     "swim → swimming"
+    ]
+   },
+   {
+    "title": "Questions: What are you doing?",
+    "explanation_ar": "للسؤال نضع am/is/are قبل الفاعل: What are you doing? What is Tim doing? What's he doing?",
+    "explanation_en": "To ask, put am/is/are before the subject.",
+    "examples": [
+     "What are you doing?",
+     "What is she doing?",
+     "Are you studying?"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "What ___ you doing?",
+   "choices": [
+    "is",
+    "are",
+    "am",
+    "do"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع you نستخدم are.",
+   "explanation_en": "With \"you\" we use \"are\"."
+  },
+  {
+   "question": "I'm ___ breakfast.",
+   "choices": [
+    "eat",
+    "eats",
+    "eating",
+    "ate"
+   ],
+   "answer": 2,
+   "explanation_ar": "المضارع المستمر: am + eating.",
+   "explanation_en": "Present continuous: am + eating."
+  },
+  {
+   "question": "What's he doing? - ___",
+   "choices": [
+    "He's cooking.",
+    "He cook.",
+    "He cooking.",
+    "He are cooking."
+   ],
+   "answer": 0,
+   "explanation_ar": "الصحيح He's cooking = He is cooking.",
+   "explanation_en": "Correct: \"He's cooking\" (he is cooking)."
+  },
+  {
+   "question": "The -ing form of \"exercise\" is ...",
+   "choices": [
+    "exerciseing",
+    "exercisying",
+    "exercisse",
+    "exercising"
+   ],
+   "answer": 3,
+   "explanation_ar": "نحذف e ونضيف ing.",
+   "explanation_en": "Drop the e and add -ing."
+  },
+  {
+   "question": "\"What are you doing?\" asks about ...",
+   "choices": [
+    "your job",
+    "right now",
+    "yesterday",
+    "your name"
+   ],
+   "answer": 1,
+   "explanation_ar": "يسأل عمّا تفعله الآن.",
+   "explanation_en": "It asks about what you are doing now."
+  },
+  {
+   "question": "She ___ studying Spanish.",
+   "choices": [
+    "is",
+    "are",
+    "am",
+    "be"
+   ],
+   "answer": 0,
+   "explanation_ar": "مع she نستخدم is.",
+   "explanation_en": "With \"she\" we use \"is\"."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I reading a book.",
+    "I'm read a book.",
+    "I'm reading a book.",
+    "I am reads a book."
+   ],
+   "answer": 2,
+   "explanation_ar": "الصحيح am + reading.",
+   "explanation_en": "\"I'm reading\" is correct."
+  },
+  {
+   "question": "They ___ watching TV.",
+   "choices": [
+    "is",
+    "am",
+    "be",
+    "are"
+   ],
+   "answer": 3,
+   "explanation_ar": "مع they نستخدم are.",
+   "explanation_en": "With \"they\" we use \"are\"."
+  },
+  {
+   "question": "What's Tim doing? - He's reading ___ book.",
+   "choices": [
+    "his",
+    "he's",
+    "him",
+    "he"
+   ],
+   "answer": 0,
+   "explanation_ar": "his للملكية = كتابه.",
+   "explanation_en": "\"His\" shows the book belongs to him."
+  },
+  {
+   "question": "Which word means \"at this moment\"?",
+   "choices": [
+    "every day",
+    "now",
+    "always",
+    "yesterday"
+   ],
+   "answer": 1,
+   "explanation_ar": "now = الآن.",
+   "explanation_en": "\"Now\" means at this moment."
+  }
+ ]
+}

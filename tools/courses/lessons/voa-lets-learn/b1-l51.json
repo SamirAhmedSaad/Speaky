@@ -1,0 +1,498 @@
+{
+ "title": "A Good Habit",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "marathon",
+    "pos": "noun",
+    "meaning_en": "a very long running race (about 42 km)",
+    "meaning_ar": "ماراثون (سباق جري طويل)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She ran her first marathon last year."
+   },
+   {
+    "word": "race",
+    "pos": "noun",
+    "meaning_en": "a competition to see who is the fastest",
+    "meaning_ar": "سباق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The children's race starts at nine."
+   },
+   {
+    "word": "raise money",
+    "pos": "phrase",
+    "meaning_en": "to collect money for a good purpose",
+    "meaning_ar": "يجمع التبرعات/المال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We are raising money for the hospital."
+   },
+   {
+    "word": "charity",
+    "pos": "noun",
+    "meaning_en": "a group that helps people in need; good works",
+    "meaning_ar": "جمعية خيرية، عمل خيري",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He gives money to charity every month."
+   },
+   {
+    "word": "fitness",
+    "pos": "noun",
+    "meaning_en": "being healthy and strong",
+    "meaning_ar": "اللياقة البدنية",
+    "note_ar": "الصفة: fit",
+    "note_en": "Adjective: fit.",
+    "example": "Swimming is good for your fitness."
+   },
+   {
+    "word": "goal",
+    "pos": "noun",
+    "meaning_en": "something you want to do in the future",
+    "meaning_ar": "هدف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My goal is to read 20 books this year."
+   },
+   {
+    "word": "challenge",
+    "pos": "verb",
+    "meaning_en": "to test yourself with something difficult",
+    "meaning_ar": "يتحدى",
+    "note_ar": "وتأتي اسمًا أيضًا: a challenge",
+    "note_en": "Also a noun: a challenge.",
+    "example": "I want to challenge myself."
+   },
+   {
+    "word": "medal",
+    "pos": "noun",
+    "meaning_en": "a metal disk you get for winning or finishing a race",
+    "meaning_ar": "ميدالية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Every runner got a medal."
+   },
+   {
+    "word": "win",
+    "pos": "verb",
+    "meaning_en": "to be the best in a race or game",
+    "meaning_ar": "يفوز",
+    "note_ar": "الماضي: won",
+    "note_en": "Past: won.",
+    "example": "I just might win!"
+   },
+   {
+    "word": "bottle",
+    "pos": "noun",
+    "meaning_en": "a container for water or other drinks",
+    "meaning_ar": "زجاجة، قارورة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Take a bottle of water with you."
+   },
+   {
+    "word": "in fact",
+    "pos": "phrase",
+    "meaning_en": "used to add true and surprising information",
+    "meaning_ar": "في الواقع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I love running. In fact, I run every day."
+   },
+   {
+    "word": "weekend",
+    "pos": "noun",
+    "meaning_en": "Saturday and Sunday",
+    "meaning_ar": "عطلة نهاية الأسبوع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "What are you doing this weekend?"
+   },
+   {
+    "word": "a couple of",
+    "pos": "phrase",
+    "meaning_en": "two, or a small number",
+    "meaning_ar": "اثنان، بضعة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The race is in a couple of days."
+   },
+   {
+    "word": "train",
+    "pos": "verb",
+    "meaning_en": "to practice and prepare for a sport",
+    "meaning_ar": "يتدرب",
+    "note_ar": "الاسم: training",
+    "note_en": "Noun: training.",
+    "example": "He trains at the gym three times a week."
+   },
+   {
+    "word": "habit",
+    "pos": "noun",
+    "meaning_en": "something you do often and regularly",
+    "meaning_ar": "عادة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Reading before bed is a good habit."
+   },
+   {
+    "word": "get into a habit",
+    "pos": "phrase",
+    "meaning_en": "to start doing something regularly",
+    "meaning_ar": "يعتاد على",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Get into the habit of drinking water."
+   },
+   {
+    "word": "all at once",
+    "pos": "phrase",
+    "meaning_en": "everything at the same time",
+    "meaning_ar": "كله دفعة واحدة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Don't eat it all at once."
+   },
+   {
+    "word": "advice",
+    "pos": "noun",
+    "meaning_en": "an idea about what someone should do",
+    "meaning_ar": "نصيحة",
+    "note_ar": "لا تُجمع",
+    "note_en": "Uncountable: no plural.",
+    "example": "Thanks for the advice."
+   },
+   {
+    "word": "special",
+    "pos": "adjective",
+    "meaning_en": "different and better than usual",
+    "meaning_ar": "خاص، مميز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Today is a special day."
+   },
+   {
+    "word": "website",
+    "pos": "noun",
+    "meaning_en": "a place on the internet with pages of information",
+    "meaning_ar": "موقع إلكتروني",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The website said everyone gets a medal."
+   },
+   {
+    "word": "enter",
+    "pos": "verb",
+    "meaning_en": "to join a race or competition",
+    "meaning_ar": "يشارك في (يسجل في مسابقة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I want to enter the race."
+   },
+   {
+    "word": "ma'am",
+    "pos": "noun",
+    "meaning_en": "a polite way to speak to a woman",
+    "meaning_ar": "سيدتي",
+    "note_ar": "في أمريكا كلمة مهذبة للمرأة مثل sir للرجل",
+    "note_en": "Polite American word for a woman, like \"sir\" for a man.",
+    "example": "Excuse me, ma'am, can I help you?"
+   },
+   {
+    "word": "sick",
+    "pos": "adjective",
+    "meaning_en": "not healthy; ill",
+    "meaning_ar": "مريض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The race raises money for sick children."
+   },
+   {
+    "word": "good job",
+    "pos": "phrase",
+    "meaning_en": "you did well",
+    "meaning_ar": "أحسنت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Good job! You finished the race."
+   },
+   {
+    "word": "good luck",
+    "pos": "phrase",
+    "meaning_en": "I hope things go well for you",
+    "meaning_ar": "حظًا موفقًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Good luck in your exam!"
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "I just ran vs I've just found",
+    "words": [
+     "I just ran",
+     "I've just found"
+    ],
+    "explanation_ar": "just تعني «للتو». في الإنجليزية البريطانية نستخدمها مع المضارع التام: I've just found my new goal. وفي الأمريكية يُقال أيضًا مع الماضي البسيط: I just ran from over there. الشكلان صحيحان في الأمريكية.",
+    "explanation_en": "\"Just\" means \"a very short time ago\". British English uses it with the present perfect: I've just found my new goal. American English also uses it with the past simple: I just ran from over there. Both are fine in American English.",
+    "examples": [
+     {
+      "word": "I've just found",
+      "sentence": "I've just found my keys!"
+     },
+     {
+      "word": "I just ran",
+      "sentence": "I just ran five kilometers."
+     }
+    ]
+   },
+   {
+    "title": "raise money vs make money",
+    "words": [
+     "raise money",
+     "make money"
+    ],
+    "explanation_ar": "raise money = تجمع المال من الناس لهدف خيري أو جيد. make money = تكسب المال لنفسك من العمل.",
+    "explanation_en": "\"Raise money\" = collect money from people for a good cause. \"Make money\" = earn money for yourself from work.",
+    "examples": [
+     {
+      "word": "raise money",
+      "sentence": "The school is raising money for sick children."
+     },
+     {
+      "word": "make money",
+      "sentence": "He makes money by fixing cars."
+     }
+    ]
+   },
+   {
+    "title": "I will vs I just might",
+    "words": [
+     "will",
+     "might"
+    ],
+    "explanation_ar": "will للتأكد من المستقبل: I will run in my first marathon. might للاحتمال (ربما): I just might win!",
+    "explanation_en": "\"Will\" is for things you are sure about in the future: I will run in my first marathon. \"Might\" is for things that are possible: I just might win!",
+    "examples": [
+     {
+      "word": "will",
+      "sentence": "This weekend, I will run in my first marathon."
+     },
+     {
+      "word": "might",
+      "sentence": "It might rain tomorrow."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Wait for me!",
+    "meaning_ar": "انتظرني!",
+    "meaning_en": "please don't go without me",
+    "example": "Wait for me! I'm coming."
+   },
+   {
+    "phrase": "Are you okay?",
+    "meaning_ar": "هل أنت بخير؟",
+    "meaning_en": "asking if someone is all right",
+    "example": "You look tired. Are you okay?"
+   },
+   {
+    "phrase": "Do you want some water?",
+    "meaning_ar": "هل تريد بعض الماء؟",
+    "meaning_en": "offering water",
+    "example": "Do you want some tea?"
+   },
+   {
+    "phrase": "You keep it.",
+    "meaning_ar": "احتفظ به.",
+    "meaning_en": "you don't need to give it back",
+    "example": "No thanks. You keep it."
+   },
+   {
+    "phrase": "How long have you been training?",
+    "meaning_ar": "منذ متى وأنت تتدرب؟",
+    "meaning_en": "asking about the time someone has spent practicing",
+    "example": "How long have you been learning English?"
+   },
+   {
+    "phrase": "Training a little every day is a good habit to get into.",
+    "meaning_ar": "التدرب قليلًا كل يوم عادة جيدة يجب أن تعتادها.",
+    "meaning_en": "practice a little every day",
+    "example": "Reading a little every day is a good habit to get into."
+   },
+   {
+    "phrase": "Thanks for the advice.",
+    "meaning_ar": "شكرًا على النصيحة.",
+    "meaning_en": "thank you for your idea",
+    "example": "Thanks for the advice. I'll try it."
+   },
+   {
+    "phrase": "Good luck to you, too.",
+    "meaning_ar": "حظًا موفقًا لك أيضًا.",
+    "meaning_en": "I hope things go well for you too",
+    "example": "\"Good luck!\" \"Good luck to you, too.\""
+   },
+   {
+    "phrase": "Would you like to help us?",
+    "meaning_ar": "هل تودّ مساعدتنا؟",
+    "meaning_en": "a polite way to ask for help",
+    "example": "We need volunteers. Would you like to help us?"
+   },
+   {
+    "phrase": "Good job!",
+    "meaning_ar": "أحسنت!",
+    "meaning_en": "you did well",
+    "example": "Good job! You finished first."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Present perfect continuous: How long have you been …?",
+    "explanation_ar": "نسأل عن مدة نشاط بدأ في الماضي ولا يزال مستمرًا بـ: How long have/has + الفاعل + been + الفعل + ing?\n• How long have you been training?\n• I've been training for an hour.\nونجيب بـ for + مدة (for an hour, for a week) أو since + بداية (since this morning).",
+    "explanation_en": "To ask about how long an activity has been going on, use: How long have/has + subject + been + verb-ing?\n• How long have you been training?\n• I've been training for an hour.\nAnswer with for + a period (for an hour, for a week) or since + a starting point (since this morning).",
+    "examples": [
+     "How long have you been training?",
+     "I've been training for an hour and seven minutes.",
+     "She has been running since she was ten.",
+     "How long has he been waiting?"
+    ]
+   },
+   {
+    "title": "Present perfect with just",
+    "explanation_ar": "have/has + just + التصريف الثالث = حدث للتو، قبل وقت قصير جدًا. I've just found my new goal. ضع just بين have والتصريف الثالث.",
+    "explanation_en": "have/has + just + past participle = it happened a very short time ago. I've just found my new goal. Put \"just\" between have/has and the past participle.",
+    "examples": [
+     "I've just found my new goal.",
+     "She has just finished the race.",
+     "We've just eaten lunch."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Complete: \"How long have you been ___?\"",
+   "choices": [
+    "train",
+    "trained",
+    "training",
+    "trains"
+   ],
+   "answer": 2,
+   "explanation_ar": "بعد been نستخدم الفعل + ing.",
+   "explanation_en": "After \"been\" use verb + ing."
+  },
+  {
+   "question": "Complete: \"I've been training ___ an hour.\"",
+   "choices": [
+    "since",
+    "for",
+    "at",
+    "ago"
+   ],
+   "answer": 1,
+   "explanation_ar": "for مع المدة: for an hour.",
+   "explanation_en": "Use \"for\" with a period of time."
+  },
+  {
+   "question": "A very long running race is a …",
+   "choices": [
+    "marathon",
+    "medal",
+    "habit",
+    "charity"
+   ],
+   "answer": 0,
+   "explanation_ar": "marathon سباق جري طويل.",
+   "explanation_en": "A marathon is a very long running race."
+  },
+  {
+   "question": "Where is \"just\" in the sentence?",
+   "choices": [
+    "I just've found my new goal.",
+    "I've found just my new goal.",
+    "Just I've found my new goal.",
+    "I've just found my new goal."
+   ],
+   "answer": 3,
+   "explanation_ar": "just تأتي بين have والتصريف الثالث.",
+   "explanation_en": "\"Just\" goes between have and the past participle."
+  },
+  {
+   "question": "The race collects money for sick children. The race ___ money.",
+   "choices": [
+    "makes",
+    "raises",
+    "wins",
+    "trains"
+   ],
+   "answer": 1,
+   "explanation_ar": "raise money = جمع المال لهدف خيري.",
+   "explanation_en": "\"Raise money\" means collect money for a good cause."
+  },
+  {
+   "question": "\"Training a little every day is a good ___ to get into.\"",
+   "choices": [
+    "habit",
+    "goal",
+    "medal",
+    "race"
+   ],
+   "answer": 0,
+   "explanation_ar": "habit = عادة نفعلها باستمرار.",
+   "explanation_en": "A habit is something you do regularly."
+  },
+  {
+   "question": "A polite way to speak to a woman you don't know:",
+   "choices": [
+    "man",
+    "buddy",
+    "ma'am",
+    "hey you"
+   ],
+   "answer": 2,
+   "explanation_ar": "ma'am كلمة مهذبة لمخاطبة المرأة.",
+   "explanation_en": "\"Ma'am\" is a polite word for a woman."
+  },
+  {
+   "question": "\"I just might win!\" means …",
+   "choices": [
+    "I will surely win.",
+    "I won before.",
+    "I don't want to win.",
+    "It is possible that I will win."
+   ],
+   "answer": 3,
+   "explanation_ar": "might تعني الاحتمال.",
+   "explanation_en": "\"Might\" means it is possible."
+  },
+  {
+   "question": "A child finishes the race. What do you say?",
+   "choices": [
+    "Good job!",
+    "Wait for me!",
+    "You keep it.",
+    "Are you late?"
+   ],
+   "answer": 0,
+   "explanation_ar": "Good job تعني أحسنت.",
+   "explanation_en": "\"Good job!\" means you did well."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "He have been running since 7 a.m.",
+    "He has been running since 7 a.m.",
+    "He has been run since 7 a.m.",
+    "He been running since 7 a.m."
+   ],
+   "answer": 1,
+   "explanation_ar": "مع he نقول has been + ing.",
+   "explanation_en": "With \"he\" use \"has been\" + verb-ing."
+  }
+ ]
+}

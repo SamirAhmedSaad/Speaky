@@ -1,0 +1,80 @@
+{
+  "title": "Happy Birthday, William Shakespeare!",
+  "content": {
+    "vocabulary": [
+      {"word": "birthday", "pos": "noun", "meaning_en": "the day of the year when someone was born", "meaning_ar": "عيد الميلاد / يوم الميلاد", "note_ar": "", "note_en": "", "example": "Today is my brother's birthday."},
+      {"word": "writer", "pos": "noun", "meaning_en": "a person who writes books, plays or stories", "meaning_ar": "كاتب", "note_ar": "حرف w صامت: «رايتر».", "note_en": "The w is silent: /ˈraɪtər/.", "example": "Shakespeare is a famous English writer."},
+      {"word": "Sunday", "pos": "noun", "meaning_en": "the day after Saturday", "meaning_ar": "الأحد", "note_ar": "أيام الأسبوع تبدأ بحرف كبير دائمًا.", "note_en": "Days of the week always start with a capital letter.", "example": "We visit the park on Sunday."},
+      {"word": "afternoon", "pos": "noun", "meaning_en": "the time from noon until evening", "meaning_ar": "بعد الظهر", "note_ar": "", "note_en": "", "example": "I read on Sunday afternoon."},
+      {"word": "exercise", "pos": "verb", "meaning_en": "to move your body to stay healthy", "meaning_ar": "يمارس الرياضة", "note_ar": "", "note_en": "", "example": "I like to exercise in the morning."},
+      {"word": "shop", "pos": "verb", "meaning_en": "to go to stores to buy things", "meaning_ar": "يتسوّق", "note_ar": "go shopping = يذهب للتسوق.", "note_en": "go shopping", "example": "She likes to shop on weekends."},
+      {"word": "garden", "pos": "verb", "meaning_en": "to work in a garden, growing plants", "meaning_ar": "يعتني بالحديقة / يزرع", "note_ar": "gardening = البستنة.", "note_en": "Noun: gardening.", "example": "My grandmother likes to garden."},
+      {"word": "bored", "pos": "adjective", "meaning_en": "not interested; tired because nothing is happening", "meaning_ar": "يشعر بالملل", "note_ar": "bored (أشعر بالملل) أما boring (مُمل) فتصف الشيء.", "note_en": "bored = how you feel; boring = the thing that makes you feel it.", "example": "I feel bored. Let's go out."},
+      {"word": "usual", "pos": "adjective", "meaning_en": "normal; what happens most of the time", "meaning_ar": "معتاد / عادي", "note_ar": "", "note_en": "", "example": "Rain in April is usual."},
+      {"word": "unusual", "pos": "adjective", "meaning_en": "not normal; different from what happens most of the time", "meaning_ar": "غير معتاد / غريب", "note_ar": "البادئة un- تعني «غير».", "note_en": "The prefix un- means not.", "example": "Snow in the desert is unusual."},
+      {"word": "always", "pos": "adverb", "meaning_en": "every time; 100% of the time", "meaning_ar": "دائمًا", "note_ar": "", "note_en": "", "example": "I always eat breakfast."},
+      {"word": "never", "pos": "adverb", "meaning_en": "not ever; 0% of the time", "meaning_ar": "أبدًا / لا ... أبدًا", "note_ar": "never معناها منفي، فلا نضيف not معها.", "note_en": "never is already negative; don't add not.", "example": "I never watch puppet shows."},
+      {"word": "party", "pos": "noun", "meaning_en": "an event where people meet to celebrate", "meaning_ar": "حفلة", "note_ar": "", "note_en": "", "example": "It's a big birthday party."},
+      {"word": "drum", "pos": "noun", "meaning_en": "a round instrument you hit with your hands or sticks", "meaning_ar": "طبل", "note_ar": "", "note_en": "", "example": "The boy hits the drum."},
+      {"word": "puppet show", "pos": "noun", "meaning_en": "a show with small dolls that people move", "meaning_ar": "عرض الدُّمى", "note_ar": "", "note_en": "", "example": "The children love the puppet show."},
+      {"word": "clothes", "pos": "noun", "meaning_en": "things you wear, like shirts and pants", "meaning_ar": "ملابس", "note_ar": "دائمًا جمع؛ تُنطق تقريبًا «كلوز».", "note_en": "Always plural. Say /kloʊðz/ or /kloʊz/.", "example": "His clothes are very old."},
+      {"word": "politician", "pos": "noun", "meaning_en": "a person who works in government, often chosen by voters", "meaning_ar": "سياسي", "note_ar": "", "note_en": "", "example": "Many politicians work in Washington."},
+      {"word": "queen", "pos": "noun", "meaning_en": "a woman who rules a country", "meaning_ar": "ملكة", "note_ar": "", "note_en": "", "example": "The queen lives in a palace."},
+      {"word": "sword", "pos": "noun", "meaning_en": "a long, sharp metal weapon from the past", "meaning_ar": "سيف", "note_ar": "حرف w صامت: «سورد».", "note_en": "The w is silent: /sɔːrd/.", "example": "The actor holds a sword in the play."},
+      {"word": "because", "pos": "conjunction", "meaning_en": "for the reason that", "meaning_ar": "لأن", "note_ar": "", "note_en": "", "example": "I'm happy because it's my birthday."},
+      {"word": "look for", "pos": "phrasal verb", "meaning_en": "to try to find", "meaning_ar": "يبحث عن", "note_ar": "", "note_en": "", "example": "I'm looking for my keys."},
+      {"word": "hear", "pos": "verb", "meaning_en": "to notice sounds with your ears", "meaning_ar": "يسمع", "note_ar": "hear سماع دون قصد، أما listen to فاستماع بانتباه.", "note_en": "hear = sounds come to you; listen to = you pay attention.", "example": "I hear people talking."},
+      {"word": "listen to", "pos": "verb", "meaning_en": "to pay attention to sounds", "meaning_ar": "يستمع إلى", "note_ar": "نستخدم to بعدها دائمًا مع المفعول.", "note_en": "Always listen to something.", "example": "Please listen to the teacher."},
+      {"word": "What is going on?", "pos": "phrase", "meaning_en": "What is happening?", "meaning_ar": "ماذا يحدث؟", "note_ar": "", "note_en": "", "example": "There are many people here. What is going on?"}
+    ],
+    "fine_lines": [
+      {"title": "usual vs unusual", "words": ["usual", "unusual"],
+       "explanation_ar": "usual = معتاد يحدث كثيرًا. unusual = غير معتاد. البادئة un- تقلب المعنى (happy → unhappy).",
+       "explanation_en": "Usual = normal, happens a lot. Unusual = not normal. The prefix un- makes the opposite (happy → unhappy).",
+       "examples": [{"word": "usual", "sentence": "Eating lunch at noon is usual."}, {"word": "unusual", "sentence": "His clothes are unusual."}]},
+      {"title": "always vs never", "words": ["always", "never"],
+       "explanation_ar": "always = في كل مرة، never = ولا مرة. يأتيان قبل الفعل الأساسي: I always walk. I never sword fight.",
+       "explanation_en": "Always = every time; never = not one time. Put them before the main verb: I always walk. I never sword fight.",
+       "examples": [{"word": "always", "sentence": "I always look for something unusual to do."}, {"word": "never", "sentence": "I never watch puppet shows."}]},
+      {"title": "bored vs boring", "words": ["bored", "boring"],
+       "explanation_ar": "bored تصف شعور الشخص (أنا أشعر بالملل)، boring تصف الشيء المسبب للملل (الفيلم مُمل).",
+       "explanation_en": "Bored describes how a person feels. Boring describes the thing that makes people feel bored.",
+       "examples": [{"word": "bored", "sentence": "Today I feel bored."}, {"word": "boring", "sentence": "This TV program is boring."}]}
+    ],
+    "expressions": [
+      {"phrase": "What is going on here?", "meaning_ar": "ماذا يحدث هنا؟", "meaning_en": "What is happening here?", "example": "So many people! What is going on here?"},
+      {"phrase": "Today I feel bored.", "meaning_ar": "اليوم أشعر بالملل.", "meaning_en": "I have nothing interesting to do today.", "example": "It's raining and I feel bored."},
+      {"phrase": "I always look for something unusual to do.", "meaning_ar": "أبحث دائمًا عن شيء غير معتاد أفعله.", "meaning_en": "I try to find something different to do.", "example": "On holidays I always look for something unusual to do."},
+      {"phrase": "It's a big birthday party.", "meaning_ar": "إنها حفلة عيد ميلاد كبيرة.", "meaning_en": "A large celebration of someone's birthday.", "example": "Come with us. It's a big birthday party."},
+      {"phrase": "Today I am watching a puppet show because it's Shakespeare's birthday.", "meaning_ar": "اليوم أشاهد عرض دمى لأنه عيد ميلاد شكسبير.", "meaning_en": "Something I don't usually do, happening today for a reason.", "example": "I never eat cake, but today I am eating cake because it's my birthday."},
+      {"phrase": "Some usual, some unusual.", "meaning_ar": "بعضها معتاد وبعضها غير معتاد.", "meaning_en": "Some things are normal and some are different.", "example": "There are many things to do here, some usual, some unusual."},
+      {"phrase": "Your Majesty!", "meaning_ar": "جلالتكِ! / يا صاحبة الجلالة!", "meaning_en": "A polite way to speak to a king or queen.", "example": "The man bowed and said, \"Your Majesty!\""}
+    ],
+    "grammar": [
+      {"title": "Adverbs of frequency: always, never",
+       "explanation_ar": "١) نستخدم always و never لنقول كم مرة نفعل شيئًا.\n٢) تأتي قبل الفعل الأساسي: I always exercise.\n٣) تأتي بعد فعل be: I am never bored.\n٤) never منفية بنفسها: I never listen (وليس I don't never listen).",
+       "explanation_en": "1) Always and never tell how often we do something.\n2) They go before the main verb: I always exercise.\n3) They go after be: I am never bored.\n4) Never is negative by itself: I never listen (not I don't never listen).",
+       "examples": ["I always look for something unusual to do.", "I never eat lunch at home.", "She is always happy on Sunday."]},
+      {"title": "Simple present vs present continuous",
+       "explanation_ar": "١) المضارع البسيط للعادات والأشياء التي تتكرر: I never watch puppet shows.\n٢) المضارع المستمر (am/is/are + ing) لما يحدث الآن: Today I am watching a puppet show.\n٣) كلمات تساعدك: always / never / every day مع البسيط، و now / today مع المستمر.",
+       "explanation_en": "1) Simple present for habits: I never watch puppet shows.\n2) Present continuous (am/is/are + -ing) for now: Today I am watching a puppet show.\n3) Helpful words: always / never / every day → simple; now / today → continuous.",
+       "examples": ["I never sword fight. But today I am sword fighting.", "She always walks to work. Today she is taking the bus.", "We usually stay home. Now we are going to a party."]},
+      {"title": "Giving reasons with because",
+       "explanation_ar": "١) because تعني «لأنّ» وتربط النتيجة بالسبب.\n٢) النتيجة + because + السبب: I am happy because it is sunny.\n٣) بعد because نضع جملة كاملة فيها فاعل وفعل.",
+       "explanation_en": "1) Because gives a reason.\n2) Result + because + reason: I am happy because it is sunny.\n3) After because, use a full sentence with a subject and verb.",
+       "examples": ["I am not bored because there is a party.", "She is tired because she works a lot.", "We are here because it's his birthday."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I feel bored\" means:", "choices": ["I feel very happy.", "I have nothing interesting to do.", "I am very busy.", "I am sick."], "answer": 1, "explanation_ar": "bored تعني الشعور بالملل.", "explanation_en": "Bored means you have nothing interesting to do."},
+    {"question": "What is the opposite of \"usual\"?", "choices": ["unusual", "never", "always", "bored"], "answer": 0, "explanation_ar": "عكس usual هو unusual.", "explanation_en": "The opposite of usual is unusual."},
+    {"question": "Choose the correct sentence.", "choices": ["I watch never puppet shows.", "Never I watch puppet shows.", "I don't never watch puppet shows.", "I never watch puppet shows."], "answer": 3, "explanation_ar": "never قبل الفعل الأساسي، ولا نضيف معها not.", "explanation_en": "Never goes before the main verb, without not."},
+    {"question": "I never sword fight. But today I ___.", "choices": ["sword fight", "am sword fighting", "sword fights", "never sword fight"], "answer": 1, "explanation_ar": "today لحدث يجري الآن، فنستخدم المضارع المستمر.", "explanation_en": "Today, now → present continuous."},
+    {"question": "I am not bored ___ it is Shakespeare's birthday.", "choices": ["but", "and", "because", "or"], "answer": 2, "explanation_ar": "because تعطي السبب.", "explanation_en": "Because gives the reason."},
+    {"question": "\"Always\" means:", "choices": ["every time", "sometimes", "one time", "not ever"], "answer": 0, "explanation_ar": "always تعني في كل مرة.", "explanation_en": "Always means every time."},
+    {"question": "Who was William Shakespeare?", "choices": ["a queen", "a politician", "a puppet", "a writer"], "answer": 3, "explanation_ar": "شكسبير كاتب إنجليزي مشهور.", "explanation_en": "Shakespeare was a famous English writer."},
+    {"question": "\"What is going on?\" means:", "choices": ["Where are you going?", "What is happening?", "What is your name?", "Is it on?"], "answer": 1, "explanation_ar": "What is going on? تعني ماذا يحدث؟", "explanation_en": "It means: What is happening?"},
+    {"question": "This film is long and not interesting. It is ___.", "choices": ["bored", "unusual", "boring", "usual"], "answer": 2, "explanation_ar": "boring تصف الشيء المُمل.", "explanation_en": "Boring describes the thing; bored describes the person."},
+    {"question": "Seeing a queen in Washington is ___. (not normal)", "choices": ["usual", "always", "bored", "unusual"], "answer": 3, "explanation_ar": "unusual = غير معتاد.", "explanation_en": "Unusual means not normal."}
+  ]
+}

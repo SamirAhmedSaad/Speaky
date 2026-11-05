@@ -1,0 +1,336 @@
+{
+  "title": "The Passive Voice",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "passive voice",
+        "pos": "noun",
+        "meaning_en": "a sentence form where the object of the action becomes the subject (The house was built.)",
+        "meaning_ar": "المبني للمجهول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"The car was washed\" is in the passive voice."
+      },
+      {
+        "word": "active voice",
+        "pos": "noun",
+        "meaning_en": "a sentence form where the subject does the action (James wrote the message.)",
+        "meaning_ar": "المبني للمعلوم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Ali washed the car\" is in the active voice."
+      },
+      {
+        "word": "past participle",
+        "pos": "noun",
+        "meaning_en": "the third form of a verb (written, built, stolen)",
+        "meaning_ar": "التصريف الثالث للفعل",
+        "note_ar": "يُختصر PP",
+        "note_en": "Short: PP.",
+        "example": "\"Stolen\" is the past participle of \"steal\"."
+      },
+      {
+        "word": "object",
+        "pos": "noun",
+        "meaning_en": "the person or thing that receives the action",
+        "meaning_ar": "المفعول به",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In \"I read the book\", the book is the object."
+      },
+      {
+        "word": "subject",
+        "pos": "noun",
+        "meaning_en": "the person or thing that the sentence is about (usually before the verb)",
+        "meaning_ar": "الفاعل / المبتدأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In \"The book was read\", the book is the subject."
+      },
+      {
+        "word": "affect",
+        "pos": "verb",
+        "meaning_en": "to change or have an effect on something",
+        "meaning_ar": "يؤثّر في",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The rain affected our plans."
+      },
+      {
+        "word": "think up",
+        "pos": "phrasal verb",
+        "meaning_en": "to invent or create an idea",
+        "meaning_ar": "يبتكر / يخترع (فكرة)",
+        "note_ar": "الماضي: thought up",
+        "note_en": "Past: thought up.",
+        "example": "This lesson was thought up by Mr. E."
+      },
+      {
+        "word": "steal",
+        "pos": "verb",
+        "meaning_en": "to take something that is not yours",
+        "meaning_ar": "يسرق",
+        "note_ar": "steal – stole – stolen",
+        "note_en": "steal – stole – stolen.",
+        "example": "My wallet was stolen."
+      },
+      {
+        "word": "wallet",
+        "pos": "noun",
+        "meaning_en": "a small case for money and cards",
+        "meaning_ar": "محفظة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I left my wallet at home."
+      },
+      {
+        "word": "review",
+        "pos": "verb",
+        "meaning_en": "to look at something carefully to judge it",
+        "meaning_ar": "يراجع / يقيِّم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your work has been reviewed."
+      },
+      {
+        "word": "soften the blow",
+        "pos": "phrase",
+        "meaning_en": "to make bad news easier to hear",
+        "meaning_ar": "يُخفّف وقع الخبر السيئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He smiled to soften the blow."
+      },
+      {
+        "word": "direct",
+        "pos": "adjective",
+        "meaning_en": "clear and straight, saying things openly",
+        "meaning_ar": "مباشر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The active voice is more direct."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "active vs passive",
+        "words": [
+          "active",
+          "passive"
+        ],
+        "explanation_ar": "المبني للمعلوم يركز على من قام بالفعل وهو أكثر حيوية ومباشرة. المبني للمجهول يركز على الشيء الذي وقع عليه الفعل، ونستخدمه عندما لا نعرف الفاعل أو لا يهمنا، أو لتخفيف خبر سيئ.",
+        "explanation_en": "Active focuses on who does the action; it is more lively and direct. Passive focuses on the thing that receives the action; use it when we don't know or don't care who did it, or to soften bad news.",
+        "examples": [
+          {
+            "word": "active",
+            "sentence": "James wrote this message."
+          },
+          {
+            "word": "passive",
+            "sentence": "This message was written (by James)."
+          }
+        ]
+      },
+      {
+        "title": "was written vs wrote",
+        "words": [
+          "was written",
+          "wrote"
+        ],
+        "explanation_ar": "wrote ماضٍ بسيط مبني للمعلوم. was written مبني للمجهول (be + التصريف الثالث).",
+        "explanation_en": "Wrote is active past simple. Was written is passive (be + past participle).",
+        "examples": [
+          {
+            "word": "wrote",
+            "sentence": "She wrote a letter."
+          },
+          {
+            "word": "was written",
+            "sentence": "The letter was written yesterday."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "My wallet was stolen.",
+        "meaning_ar": "سُرِقت محفظتي.",
+        "meaning_en": "Someone stole my wallet (we don't know who).",
+        "example": "I can't pay. My wallet was stolen."
+      },
+      {
+        "phrase": "The house was built 20 years ago.",
+        "meaning_ar": "بُني البيت قبل عشرين عامًا.",
+        "meaning_en": "We don't know who built it.",
+        "example": "This house was built 20 years ago."
+      },
+      {
+        "phrase": "Your work has been reviewed.",
+        "meaning_ar": "تمّت مراجعة عملك.",
+        "meaning_en": "A soft, polite way to give news about someone's work.",
+        "example": "Your work has been reviewed, and some changes are needed."
+      },
+      {
+        "phrase": "...by + person",
+        "meaning_ar": "...من قِبَل / بواسطة",
+        "meaning_en": "Shows who did the action in a passive sentence.",
+        "example": "This lesson was thought up by Mr. E."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "When do we use the passive?",
+        "explanation_ar": "(1) لا نعرف من قام بالفعل. (2) لا يهمنا من قام به. (3) نريد التركيز على الشيء الذي تأثر بالفعل. (4) لتخفيف خبر سيئ (soften the blow).",
+        "explanation_en": "(1) We don't know who did it. (2) We don't care who did it. (3) We want to focus on the thing affected. (4) To soften bad news.",
+        "examples": [
+          "The house was built 20 years ago. (don't know)",
+          "My wallet was stolen. (don't care who)",
+          "Your application has been rejected. (softer)"
+        ]
+      },
+      {
+        "title": "Form: subject + be + past participle",
+        "explanation_ar": "المبني للمجهول = فعل be (بالزمن المناسب) + التصريف الثالث. المضارع: is/am/are + PP. الماضي: was/were + PP. المستقبل: will be + PP. المضارع التام: has/have been + PP.",
+        "explanation_en": "Passive = be (in the right tense) + past participle. Present: is/am/are + PP. Past: was/were + PP. Future: will be + PP. Present perfect: has/have been + PP.",
+        "examples": [
+          "English is spoken here.",
+          "The message was written yesterday.",
+          "The results will be sent tomorrow.",
+          "This lesson has been thought up by me."
+        ]
+      },
+      {
+        "title": "Active to passive",
+        "explanation_ar": "المفعول به في الجملة المعلومة يصبح فاعلًا في الجملة المجهولة. يمكن ذكر الفاعل الأصلي بعد by أو حذفه.",
+        "explanation_en": "The object of the active sentence becomes the subject of the passive sentence. You can add the doer after by, or leave it out.",
+        "examples": [
+          "Active: James wrote this message.",
+          "Passive: This message was written by James.",
+          "Passive: This message was written."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which sentence is passive?",
+      "choices": [
+        "Ali built the house.",
+        "The house was built in 2005.",
+        "Ali is building a house.",
+        "Ali builds houses."
+      ],
+      "answer": 1,
+      "explanation_ar": "was + built (التصريف الثالث) = مجهول.",
+      "explanation_en": "Was + built (past participle) = passive."
+    },
+    {
+      "question": "Passive = be + ___",
+      "choices": [
+        "base verb",
+        "verb + ing",
+        "to + verb",
+        "past participle"
+      ],
+      "answer": 3,
+      "explanation_ar": "be + التصريف الثالث.",
+      "explanation_en": "Be + past participle."
+    },
+    {
+      "question": "My phone ___ yesterday.",
+      "choices": [
+        "was stolen",
+        "stole",
+        "is steal",
+        "was stole"
+      ],
+      "answer": 0,
+      "explanation_ar": "الماضي المجهول: was + stolen.",
+      "explanation_en": "Past passive: was + stolen."
+    },
+    {
+      "question": "Make it passive: \"James wrote this message.\"",
+      "choices": [
+        "This message wrote by James.",
+        "This message is write by James.",
+        "This message was written by James.",
+        "James was written this message."
+      ],
+      "answer": 2,
+      "explanation_ar": "المفعول يصبح فاعلًا + was written.",
+      "explanation_en": "The object becomes the subject + was written."
+    },
+    {
+      "question": "Future passive: \"The results ___ tomorrow.\"",
+      "choices": [
+        "will send",
+        "will be sent",
+        "will sent",
+        "are send"
+      ],
+      "answer": 1,
+      "explanation_ar": "التركيب الصحيح: will be + PP.",
+      "explanation_en": "will be + PP."
+    },
+    {
+      "question": "Present perfect passive: \"The work ___ reviewed.\"",
+      "choices": [
+        "has been",
+        "has",
+        "is been",
+        "was be"
+      ],
+      "answer": 0,
+      "explanation_ar": "التركيب الصحيح: has been + PP.",
+      "explanation_en": "has been + PP."
+    },
+    {
+      "question": "Why do we use the passive in \"The house was built 20 years ago\"?",
+      "choices": [
+        "To be rude.",
+        "To talk about the future.",
+        "Because the house is a person.",
+        "We don't know who built it."
+      ],
+      "answer": 3,
+      "explanation_ar": "لا نعرف من بناه.",
+      "explanation_en": "We don't know who built it."
+    },
+    {
+      "question": "Which voice is usually more lively and direct?",
+      "choices": [
+        "passive",
+        "active",
+        "both the same",
+        "neither"
+      ],
+      "answer": 1,
+      "explanation_ar": "المعلوم أكثر حيوية ومباشرة.",
+      "explanation_en": "Active is more lively and direct."
+    },
+    {
+      "question": "In the passive, the doer comes after ___.",
+      "choices": [
+        "by",
+        "for",
+        "to",
+        "at"
+      ],
+      "answer": 0,
+      "explanation_ar": "نذكر الفاعل بعد by.",
+      "explanation_en": "The doer comes after by."
+    },
+    {
+      "question": "\"Soften the blow\" means ___.",
+      "choices": [
+        "hit softly",
+        "make a pillow",
+        "make bad news easier to hear",
+        "speak loudly"
+      ],
+      "answer": 2,
+      "explanation_ar": "تخفيف وقع الخبر السيئ.",
+      "explanation_en": "Make bad news easier to hear."
+    }
+  ]
+}

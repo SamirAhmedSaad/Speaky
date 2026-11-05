@@ -7,24 +7,25 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
-import androidx.compose.material3.*
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
-import network.chaintech.sdpcomposemultiplatform.sdp
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
-import com.speakmind.app.ui.theme.levelColorOf
 import com.speakmind.app.navigation.VocabCategoryDestination
-import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.components.BannerAdView
+import com.speakmind.app.ui.components.SpeakyBackButton
+import com.speakmind.app.ui.components.SpeakyProgress
+import com.speakmind.app.ui.components.animatedComposable
+import com.speakmind.app.ui.components.displayStyle
+import com.speakmind.app.ui.components.speakyLevelTone
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
 
@@ -47,139 +48,85 @@ private fun VocabCategoryContent(
     onGoBack: () -> Unit,
 ) {
     val colors = LocalSpeakMindColors.current
-    Box(
+    Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(colors.backgroundGradient)
+            .background(colors.backgroundDark)
+            .windowInsetsPadding(WindowInsets.statusBars),
     ) {
-        Column(modifier = Modifier.fillMaxSize()) {
-            // Top bar
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 48.sdp, bottom = 8.sdp)
-                    .padding(horizontal = 12.sdp),
-                verticalAlignment = Alignment.CenterVertically
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(start = 20.dp, end = 20.dp, top = 20.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            SpeakyBackButton(onClick = onGoBack)
+            Text("Flash cards", style = displayStyle(26.sp), color = colors.textPrimary)
+        }
+
+        if (uiState.isLoading) {
+            Box(modifier = Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator(color = colors.neonCyan)
+            }
+        } else {
+            LazyColumn(
+                contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 24.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+                modifier = Modifier.weight(1f),
             ) {
-                IconButton(onClick = onGoBack) {
-                    Icon(
-                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
-                        tint = colors.textPrimary,
+                item {
+                    Text(
+                        if (uiState.userLevel != null) "Choose a level. Your level is highlighted."
+                        else "Choose a level to start learning vocabulary.",
+                        color = colors.textSecondary,
+                        fontSize = 14.sp,
                     )
                 }
-                Text(
-                    text = "Flash Cards",
-                    style = MaterialTheme.typography.titleLarge.copy(
-                        color = colors.textPrimary,
-                        fontWeight = FontWeight.Bold,
-                    ),
-                )
-            }
-
-            if (uiState.isLoading) {
-                Box(
-                    modifier = Modifier.fillMaxSize(),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    CircularProgressIndicator(color = colors.neonCyan)
-                }
-            } else {
-                // Subtitle
-                Text(
-                    text = "Choose a level to start learning vocabulary",
-                    style = MaterialTheme.typography.bodyMedium.copy(
-                        color = colors.textSecondary,
-                    ),
-                    modifier = Modifier.padding(horizontal = 20.sdp, vertical = 8.sdp),
-                )
-
-                LazyColumn(
-                    contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 12.sdp),
-                    verticalArrangement = Arrangement.spacedBy(14.sdp),
-                    modifier = Modifier.weight(1f),
-                ) {
-                    items(uiState.levels) { level ->
-                        LevelCard(
-                            summary = level,
-                            onClick = { onLevelClick(level.level) },
-                        )
-                    }
+                items(uiState.levels) { level ->
+                    LevelCard(
+                        summary = level,
+                        isMine = level.level == uiState.userLevel,
+                        onClick = { onLevelClick(level.level) },
+                    )
                 }
             }
         }
 
-        BannerAdView(modifier = Modifier.align(Alignment.BottomCenter))
+        BannerAdView(modifier = Modifier.align(Alignment.CenterHorizontally))
     }
 }
 
 @Composable
-private fun LevelCard(summary: VocabLevelSummary, onClick: () -> Unit) {
+private fun LevelCard(summary: VocabLevelSummary, isMine: Boolean, onClick: () -> Unit) {
     val colors = LocalSpeakMindColors.current
-    val levelColor = levelColorOf(summary.level)
-
+    val tone = speakyLevelTone(summary.level)
+    val shape = RoundedCornerShape(22.dp)
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(16.sdp))
-            .background(colors.surfaceVariant.copy(alpha = 0.7f))
-            .border(
-                width = 1.sdp,
-                color = levelColor.copy(alpha = 0.3f),
-                shape = RoundedCornerShape(16.sdp),
-            )
+            .clip(shape)
+            .background(colors.surface)
+            .then(if (isMine) Modifier.border(2.dp, tone.accent, shape) else Modifier)
             .clickable(onClick = onClick)
-            .padding(16.sdp),
+            .padding(14.dp),
         verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
     ) {
-        // Level badge
         Box(
             contentAlignment = Alignment.Center,
-            modifier = Modifier
-                .size(48.sdp)
-                .clip(RoundedCornerShape(12.sdp))
-                .background(levelColor.copy(alpha = 0.2f)),
+            modifier = Modifier.size(52.dp).clip(RoundedCornerShape(16.dp)).background(tone.soft),
         ) {
-            Text(
-                text = summary.level,
-                style = MaterialTheme.typography.titleMedium.copy(
-                    color = levelColor,
-                    fontWeight = FontWeight.Bold,
-                ),
-            )
+            Text(summary.level, color = tone.onSoft, fontSize = 17.sp, fontWeight = FontWeight.ExtraBold)
         }
-
-        Spacer(modifier = Modifier.width(16.sdp))
-
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = summary.label,
-                style = MaterialTheme.typography.titleMedium.copy(
-                    color = colors.textPrimary,
-                    fontWeight = FontWeight.Bold,
-                ),
-            )
-            Spacer(modifier = Modifier.height(2.sdp))
-            Text(
-                text = summary.description,
-                style = MaterialTheme.typography.bodySmall.copy(
-                    color = colors.textSecondary,
-                ),
-            )
-            Spacer(modifier = Modifier.height(4.sdp))
-            Text(
-                text = "${summary.wordCount} words",
-                style = MaterialTheme.typography.labelMedium.copy(
-                    color = levelColor,
-                    fontWeight = FontWeight.Medium,
-                ),
-            )
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Text(summary.label, color = colors.textPrimary, fontSize = 16.sp, fontWeight = FontWeight.ExtraBold)
+            Text(summary.description, color = colors.textMuted, fontSize = 13.sp)
+            // A sliver of colour even at 0 so the bar reads as a progress bar.
+            val progress = if (summary.wordCount > 0) summary.learnedCount.toFloat() / summary.wordCount else 0f
+            SpeakyProgress(progress.coerceAtLeast(0.02f), tone.accent, Modifier.padding(top = 4.dp))
         }
-
-        Icon(
-            imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            contentDescription = null,
-            tint = colors.textMuted,
-        )
+        Column(horizontalAlignment = Alignment.End, verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Text("${summary.wordCount}", color = colors.textPrimary, fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+            Text("words", color = colors.textMuted, fontSize = 11.sp)
+        }
     }
 }

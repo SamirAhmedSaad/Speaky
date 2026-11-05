@@ -1,23 +1,16 @@
 package com.speakmind.app.feature.community.ui.people
 
-import com.speakmind.app.ui.components.rememberInterstitialAdState
 import androidx.compose.foundation.background
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontWeight
 import com.speakmind.app.feature.community.ui.components.ProfileSheet
 import androidx.lifecycle.compose.LifecycleStartEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -28,7 +21,6 @@ import com.speakmind.app.feature.community.ui.components.CommunityLoading
 import com.speakmind.app.feature.community.ui.components.CommunityPageHeader
 import com.speakmind.app.feature.community.ui.components.CommunitySearchField
 import com.speakmind.app.feature.community.ui.components.PersonCard
-import com.speakmind.app.feature.community.ui.components.formatLastSeen
 import com.speakmind.app.config.AppConfig
 import com.speakmind.app.feature.community.ui.components.GoogleSignInPill
 import com.speakmind.app.feature.community.ui.auth.rememberGoogleSignIn
@@ -36,7 +28,10 @@ import com.speakmind.app.navigation.PeopleDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import kotlinx.coroutines.flow.distinctUntilChanged
-import network.chaintech.sdpcomposemultiplatform.sdp
+import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.lazy.itemsIndexed
+import com.speakmind.app.feature.community.ui.components.CommunityChip
+import com.speakmind.app.feature.community.ui.components.CommunityToast
 import org.koin.compose.viewmodel.koinViewModel
 
 fun NavGraphBuilder.peopleScreen() {
@@ -52,6 +47,7 @@ fun NavGraphBuilder.peopleScreen() {
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, onSignIn: () -> Unit) {
     val colors = LocalSpeakMindColors.current
@@ -61,46 +57,40 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
             .distinctUntilChanged()
             .collect { last -> if (last >= listState.layoutInfo.totalItemsCount - 5) viewModel.loadMore() }
     }
-    // Online people first, then by most recently seen
-    val people = remember(uiState.people, uiState.onlineUserIds) {
-        uiState.people.sortedWith(
-            compareByDescending<CommunityUser> { it.uid in uiState.onlineUserIds }.thenByDescending { it.lastSeen }
-        )
+    // Online people first, then by most recently seen. The Online tab shows only who is online now:
+    // someone who just left disappears at once, before the list reloads.
+    val people = remember(uiState.people, uiState.onlineUserIds, uiState.filter) {
+        uiState.people
+            .filter { uiState.filter != "Online" || it.uid in uiState.onlineUserIds }
+            .sortedWith(
+                compareByDescending<CommunityUser> { it.uid in uiState.onlineUserIds }.thenByDescending { it.lastSeen },
+            )
     }
-    val onlineCount = people.count { it.uid in uiState.onlineUserIds }
+    val onlineCount = uiState.onlineUserIds.size
 
-    Box(Modifier.fillMaxSize().background(colors.backgroundGradient)) {
+    Box(Modifier.fillMaxSize().background(colors.backgroundDark)) {
         Column(Modifier.fillMaxSize()) {
             CommunityPageHeader(
                 title = "People",
                 subtitle = if (onlineCount > 0) "$onlineCount online now" else "Learners in the community",
+                subtitleColor = if (onlineCount > 0) colors.success else null,
                 onBack = viewModel::onBack,
             )
             CommunitySearchField(
                 value = uiState.query,
                 placeholder = "Search by name",
                 onChange = viewModel::onQueryChanged,
-                modifier = Modifier.padding(horizontal = 20.sdp, vertical = 4.sdp),
+                modifier = Modifier.padding(horizontal = 20.dp),
             )
-            LazyRow(
-                contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 8.sdp),
-                horizontalArrangement = Arrangement.spacedBy(8.sdp),
+            // One scrolling line, so a narrow phone never leaves a lone chip on a second row.
+            Row(
+                modifier = Modifier
+                    .horizontalScroll(androidx.compose.foundation.rememberScrollState())
+                    .padding(horizontal = 20.dp, vertical = 12.dp),
+                horizontalArrangement = Arrangement.spacedBy(6.dp),
             ) {
-                items(PEOPLE_FILTERS) { f ->
-                    val selected = uiState.filter == f
-                    Text(
-                        if (f == "Online") "● Online" else f,
-                        style = MaterialTheme.typography.labelMedium.copy(
-                            color = if (selected) colors.backgroundDark else colors.textSecondary,
-                            fontWeight = FontWeight.SemiBold,
-                        ),
-                        modifier = Modifier
-                            .clip(RoundedCornerShape(16.sdp))
-                            .background(if (selected) colors.neonCyan else colors.surfaceVariant.copy(alpha = 0.7f))
-                            .border(1.sdp, if (selected) colors.neonCyan else colors.neonCyan.copy(alpha = 0.2f), RoundedCornerShape(16.sdp))
-                            .clickable { viewModel.onFilterSelected(f) }
-                            .padding(horizontal = 14.sdp, vertical = 6.sdp),
-                    )
+                PEOPLE_FILTERS.forEach { f ->
+                    CommunityChip(label = f, selected = uiState.filter == f, onClick = { viewModel.onFilterSelected(f) })
                 }
             }
             if (uiState.isGuest) {
@@ -108,18 +98,20 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                     "Sign in with Google to message people",
                     loading = uiState.isSigningIn,
                     onClick = onSignIn,
-                    modifier = Modifier.padding(horizontal = 20.sdp, vertical = 4.sdp),
+                    modifier = Modifier.padding(start = 20.dp, end = 20.dp, bottom = 12.dp),
                 )
             }
             LazyColumn(
                 state = listState,
                 modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(start = 20.sdp, end = 20.sdp, top = 10.sdp, bottom = 32.sdp),
-                verticalArrangement = Arrangement.spacedBy(10.sdp),
+                contentPadding = PaddingValues(start = 20.dp, end = 20.dp, bottom = 32.dp),
             ) {
-                items(people, key = { it.uid }) { user ->
+                // One white card around all rows (the design's grouped list), built per item.
+                itemsIndexed(people, key = { _, user -> user.uid }) { index, user ->
                     val online = user.uid in uiState.onlineUserIds
                     val blocked = user.uid in uiState.blockedUserIds
+                    val first = index == 0
+                    val last = index == people.lastIndex
                     PersonCard(
                         user = user,
                         online = online,
@@ -128,15 +120,19 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                             when {
                                 blocked -> "Blocked"
                                 online -> "Online"
-                                else -> formatLastSeen(user.lastSeen)
+                                else -> "Offline"
                             },
                         ).joinToString(" · "),
-                        subtitleColor = when {
-                            blocked -> colors.error
-                            online -> colors.success
-                            else -> null
-                        },
+                        subtitleColor = if (blocked) colors.error else null,
+                        subtitleSize = 13,
+                        avatarSize = 52.dp,
+                        background = colors.surface,
+                        chevron = true,
                         onClick = { viewModel.onPersonClicked(user) },
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(if (first) 28.dp else 0.dp, if (first) 28.dp else 0.dp, if (last) 28.dp else 0.dp, if (last) 28.dp else 0.dp))
+                            .background(colors.surface)
+                            .padding(start = 8.dp, end = 8.dp, top = if (first) 8.dp else 1.dp, bottom = if (last) 8.dp else 1.dp),
                     )
                 }
                 if (uiState.isLoading) {
@@ -157,14 +153,13 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                 }
             }
         }
-        val gate = rememberInterstitialAdState()
         uiState.profileUser?.let { user ->
             ProfileSheet(
                 user = user,
                 online = user.uid in uiState.onlineUserIds,
                 isBlocked = user.uid in uiState.blockedUserIds,
                 onDismiss = viewModel::onProfileDismissed,
-                onMessage = { gate.unlock("dm:${user.uid}", "Message ${user.nickname}", everyTime = true) { viewModel.onMessage(user) } },
+                onMessage = { viewModel.onMessageClicked(user) },
                 onReport = null,
                 onBlockToggle = if (uiState.isGuest) null else { { viewModel.onToggleBlock(user) } },
                 isModerator = user.uid in uiState.moderatorIds,
@@ -176,17 +171,7 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                 kotlinx.coroutines.delay(3_500)
                 viewModel.onErrorDismissed()
             }
-            Text(
-                error,
-                color = Color.White,
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .navigationBarsPadding()
-                    .padding(16.sdp)
-                    .clip(RoundedCornerShape(12.sdp))
-                    .background(if (uiState.error != null) Color(0xFFB71C1C).copy(alpha = 0.92f) else colors.neonCyanDark)
-                    .padding(horizontal = 14.sdp, vertical = 10.sdp),
-            )
+            CommunityToast(error, isError = uiState.error != null, modifier = Modifier.align(Alignment.BottomCenter))
         }
     }
 }

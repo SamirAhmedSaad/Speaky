@@ -1,0 +1,540 @@
+{
+ "title": "Take Me Out to the Ball Game",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "sports fan",
+    "pos": "noun",
+    "meaning_en": "a person who loves watching sports",
+    "meaning_ar": "مشجّع رياضي",
+    "note_ar": "fan = مشجّع / معجب.",
+    "note_en": "fan = a person who likes something very much.",
+    "example": "My father is a big sports fan."
+   },
+   {
+    "word": "baseball",
+    "pos": "noun",
+    "meaning_en": "an American game played with a bat and a ball by two teams",
+    "meaning_ar": "البيسبول",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Baseball is a popular sport in the United States."
+   },
+   {
+    "word": "team",
+    "pos": "noun",
+    "meaning_en": "a group of people who play or work together",
+    "meaning_ar": "فريق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Our team won the game."
+   },
+   {
+    "word": "game",
+    "pos": "noun",
+    "meaning_en": "a sports match",
+    "meaning_ar": "مباراة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The game starts at 7 o'clock."
+   },
+   {
+    "word": "taxi",
+    "pos": "noun",
+    "meaning_en": "a car with a driver that you pay to take you somewhere",
+    "meaning_ar": "سيارة أجرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Let's take a taxi to the airport."
+   },
+   {
+    "word": "fast",
+    "pos": "adjective",
+    "meaning_en": "quick; moving at high speed",
+    "meaning_ar": "سريع",
+    "note_ar": "fast → faster → the fastest.",
+    "note_en": "fast → faster → the fastest.",
+    "example": "A taxi is faster than a bus."
+   },
+   {
+    "word": "player",
+    "pos": "noun",
+    "meaning_en": "a person who plays a game or sport",
+    "meaning_ar": "لاعب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He wants to be a baseball player."
+   },
+   {
+    "word": "memory",
+    "pos": "noun",
+    "meaning_en": "something you remember from the past",
+    "meaning_ar": "ذكرى",
+    "note_ar": "الجمع: memories.",
+    "note_en": "Plural: memories.",
+    "example": "This photo brings back happy memories."
+   },
+   {
+    "word": "home plate",
+    "pos": "noun",
+    "meaning_en": "the place where the batter stands in baseball",
+    "meaning_ar": "القاعدة الرئيسية (في البيسبول)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The runner ran to home plate."
+   },
+   {
+    "word": "pitch",
+    "pos": "noun / verb",
+    "meaning_en": "a throw of the ball to the batter; to throw it",
+    "meaning_ar": "رمية / يرمي الكرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I wait for the pitch."
+   },
+   {
+    "word": "swing",
+    "pos": "verb",
+    "meaning_en": "to move the bat to hit the ball",
+    "meaning_ar": "يؤرجح (المضرب)",
+    "note_ar": "الماضي: swung.",
+    "note_en": "Past: swung.",
+    "example": "I swing and hit the ball."
+   },
+   {
+    "word": "hit",
+    "pos": "noun",
+    "meaning_en": "when a batter hits the ball and gets to a base",
+    "meaning_ar": "ضربة ناجحة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's a hit!"
+   },
+   {
+    "word": "base",
+    "pos": "noun",
+    "meaning_en": "one of the four places a runner must touch in baseball",
+    "meaning_ar": "قاعدة (في البيسبول)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I run to first base."
+   },
+   {
+    "word": "home run",
+    "pos": "noun",
+    "meaning_en": "a hit that lets the batter run around all the bases and score",
+    "meaning_ar": "ضربة كاملة (هوم رن)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He hit a home run!"
+   },
+   {
+    "word": "crowd",
+    "pos": "noun",
+    "meaning_en": "a large group of people",
+    "meaning_ar": "حشد / جمهور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The crowd cheers!"
+   },
+   {
+    "word": "cheer",
+    "pos": "verb",
+    "meaning_en": "to shout to show you are happy or support someone",
+    "meaning_ar": "يهتف / يشجّع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The fans cheered for their team."
+   },
+   {
+    "word": "ticket",
+    "pos": "noun",
+    "meaning_en": "a piece of paper that lets you enter an event",
+    "meaning_ar": "تذكرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have a ticket for the game?"
+   },
+   {
+    "word": "early",
+    "pos": "adjective / adverb",
+    "meaning_en": "before the usual or planned time",
+    "meaning_ar": "مبكّر / مبكراً",
+    "note_ar": "early → earlier.",
+    "note_en": "early → earlier (y → ier).",
+    "example": "You should go a lot earlier than 7 o'clock."
+   },
+   {
+    "word": "bicycle",
+    "pos": "noun",
+    "meaning_en": "a vehicle with two wheels that you ride by pushing pedals",
+    "meaning_ar": "درّاجة هوائية",
+    "note_ar": "اختصارها bike.",
+    "note_en": "Short form: bike.",
+    "example": "A bicycle is faster than a car in traffic."
+   },
+   {
+    "word": "ride",
+    "pos": "verb",
+    "meaning_en": "to sit on and control a bicycle or horse",
+    "meaning_ar": "يركب",
+    "note_ar": "الماضي: rode.",
+    "note_en": "Past: rode.",
+    "example": "I really want to learn how to ride a bike."
+   },
+   {
+    "word": "Metro",
+    "pos": "noun",
+    "meaning_en": "the underground train in Washington, D.C.",
+    "meaning_ar": "المترو",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The Metro is faster than a taxi."
+   },
+   {
+    "word": "ought to",
+    "pos": "modal verb",
+    "meaning_en": "should; it is a good idea to",
+    "meaning_ar": "ينبغي أن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You ought to take the Metro."
+   },
+   {
+    "word": "ticket window",
+    "pos": "noun",
+    "meaning_en": "the place where you buy tickets",
+    "meaning_ar": "شبّاك التذاكر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There's the ticket window."
+   },
+   {
+    "word": "sold out",
+    "pos": "adjective",
+    "meaning_en": "with no more tickets or items left to buy",
+    "meaning_ar": "نفدت (التذاكر)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The tickets are sold out."
+   },
+   {
+    "word": "extra",
+    "pos": "adjective",
+    "meaning_en": "more than you need",
+    "meaning_ar": "إضافي / زائد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Does anyone have an extra ticket?"
+   },
+   {
+    "word": "online",
+    "pos": "adverb",
+    "meaning_en": "on the internet",
+    "meaning_ar": "عبر الإنترنت",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You should buy your ticket online."
+   },
+   {
+    "word": "advice",
+    "pos": "noun",
+    "meaning_en": "an opinion about what someone should do",
+    "meaning_ar": "نصيحة",
+    "note_ar": "غير معدود: لا نقول an advice؛ نقول a piece of advice.",
+    "note_en": "Uncountable: say \"some advice\" or \"a piece of advice\", not \"an advice\".",
+    "example": "Thanks. It is good advice."
+   },
+   {
+    "word": "late",
+    "pos": "adjective",
+    "meaning_en": "after the right time",
+    "meaning_ar": "متأخر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Being early is better than being late."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "advice vs advise",
+    "words": [
+     "advice",
+     "advise"
+    ],
+    "explanation_ar": "advice اسم (نصيحة) ويُنطق بصوت /s/ في آخره. advise فعل (ينصح) ويُنطق بصوت /z/. advice غير معدود.",
+    "explanation_en": "Advice is a noun and ends with an /s/ sound. Advise is a verb and ends with a /z/ sound. Advice is uncountable.",
+    "examples": [
+     {
+      "word": "advice",
+      "sentence": "It is good advice."
+     },
+     {
+      "word": "advise",
+      "sentence": "I advise you to buy your ticket online."
+     }
+    ]
+   },
+   {
+    "title": "should vs ought to",
+    "words": [
+     "should",
+     "ought to"
+    ],
+    "explanation_ar": "المعنى تقريباً واحد: نصيحة. should أشيع وأقصر وتأتي بعدها الفعل مباشرة. ought to تأتي معها to دائماً.",
+    "explanation_en": "They mean almost the same: advice. Should is more common and comes directly before the verb. Ought to always has \"to\".",
+    "examples": [
+     {
+      "word": "should",
+      "sentence": "You should buy your ticket online."
+     },
+     {
+      "word": "ought to",
+      "sentence": "You ought to take the Metro."
+     }
+    ]
+   },
+   {
+    "title": "than vs then",
+    "words": [
+     "than",
+     "then"
+    ],
+    "explanation_ar": "than للمقارنة (faster than). then = ثم / بعد ذلك (للترتيب في الزمن).",
+    "explanation_en": "Than is for comparing (faster than). Then means next / after that.",
+    "examples": [
+     {
+      "word": "than",
+      "sentence": "A taxi is faster than a bus."
+     },
+     {
+      "word": "then",
+      "sentence": "I run to third base, then home plate."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "Where are you going?",
+    "meaning_ar": "إلى أين أنت ذاهب؟",
+    "meaning_en": "Asking about someone's destination.",
+    "example": "Hi, Sara! Where are you going?"
+   },
+   {
+    "phrase": "Don't take the bus.",
+    "meaning_ar": "لا تأخذ الحافلة.",
+    "meaning_en": "Advice not to use the bus.",
+    "example": "Don't take the bus. It's very slow today."
+   },
+   {
+    "phrase": "Have fun!",
+    "meaning_ar": "استمتع!",
+    "meaning_en": "Enjoy yourself!",
+    "example": "Have fun at the game!"
+   },
+   {
+    "phrase": "This won't take long.",
+    "meaning_ar": "لن يستغرق هذا وقتاً طويلاً.",
+    "meaning_en": "It will be quick.",
+    "example": "Wait a minute. This won't take long."
+   },
+   {
+    "phrase": "It's a home run!",
+    "meaning_ar": "إنها ضربة كاملة!",
+    "meaning_en": "A shout when a player hits a home run.",
+    "example": "He hit the ball out of the park. It's a home run!"
+   },
+   {
+    "phrase": "No, not yet.",
+    "meaning_ar": "لا، ليس بعد.",
+    "meaning_en": "Not now, but maybe later.",
+    "example": "\"Did you buy a ticket?\" \"No, not yet.\""
+   },
+   {
+    "phrase": "Good point.",
+    "meaning_ar": "معك حق.",
+    "meaning_en": "You are right.",
+    "example": "\"There's a lot of traffic.\" \"Good point.\""
+   },
+   {
+    "phrase": "What do you mean?",
+    "meaning_ar": "ماذا تقصد؟",
+    "meaning_en": "Please explain what you said.",
+    "example": "What do you mean, you can't ride a bike?"
+   },
+   {
+    "phrase": "The tickets are sold out.",
+    "meaning_ar": "نفدت التذاكر.",
+    "meaning_en": "There are no tickets left.",
+    "example": "We were too late. The tickets were sold out."
+   },
+   {
+    "phrase": "Next time, you should buy your ticket online.",
+    "meaning_ar": "في المرة القادمة، يجب أن تشتري تذكرتك عبر الإنترنت.",
+    "meaning_en": "Advice for the future.",
+    "example": "Next time, you should come earlier."
+   },
+   {
+    "phrase": "Being early is better than being late.",
+    "meaning_ar": "أن تأتي مبكراً أفضل من أن تتأخر.",
+    "meaning_en": "It is good to arrive before the start time.",
+    "example": "Leave home now. Being early is better than being late."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Comparative adjectives + than",
+    "explanation_ar": "للمقارنة بين شيئين: الصفة القصيرة + er + than: fast → faster than. الصفة المنتهية بـ y: early → earlier. الصفات الشاذة: good → better، bad → worse. والصفات الطويلة: more + الصفة + than (more expensive than).",
+    "explanation_en": "To compare two things: short adjective + -er + than: fast → faster than. Adjectives ending in -y: early → earlier. Irregular: good → better, bad → worse. Long adjectives: more + adjective + than (more expensive than).",
+    "examples": [
+     "A taxi is faster than a bus.",
+     "A bicycle is faster than a taxi in D.C. traffic.",
+     "You should go a lot earlier than 7 o'clock.",
+     "Being early is better than being late."
+    ]
+   },
+   {
+    "title": "a lot + comparative",
+    "explanation_ar": "لتقوية المقارنة نضع a lot أو much قبل الصفة المقارنة: a lot faster = أسرع بكثير.",
+    "explanation_en": "To make a comparison stronger, put a lot or much before the comparative: a lot faster.",
+    "examples": [
+     "The Metro was a lot faster than a bus.",
+     "Go a lot earlier than 7 o'clock."
+    ]
+   },
+   {
+    "title": "Advice with should / ought to",
+    "explanation_ar": "should + الفعل الأساسي، و ought to + الفعل الأساسي، للنصيحة. النفي: shouldn't. لا نقول should to.",
+    "explanation_en": "Use should + base verb or ought to + base verb for advice. Negative: shouldn't. Don't say \"should to\".",
+    "examples": [
+     "You should go a lot earlier.",
+     "You ought to take the Metro.",
+     "You shouldn't take a taxi in heavy traffic."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "A taxi is ___ than a bus.",
+   "choices": [
+    "fast",
+    "fastest",
+    "faster",
+    "more fast"
+   ],
+   "answer": 2,
+   "explanation_ar": "المقارنة بين شيئين: faster than.",
+   "explanation_en": "To compare two things: faster than."
+  },
+  {
+   "question": "Being early is ___ than being late.",
+   "choices": [
+    "better",
+    "gooder",
+    "best",
+    "more good"
+   ],
+   "answer": 0,
+   "explanation_ar": "good شاذة: better.",
+   "explanation_en": "\"Good\" is irregular: better."
+  },
+  {
+   "question": "You should go a lot ___ than 7 o'clock.",
+   "choices": [
+    "early",
+    "earlyer",
+    "more early",
+    "earlier"
+   ],
+   "answer": 3,
+   "explanation_ar": "early تصبح earlier (y → ier).",
+   "explanation_en": "\"Early\" becomes \"earlier\"."
+  },
+  {
+   "question": "Which sentence gives advice correctly?",
+   "choices": [
+    "You ought take the Metro.",
+    "You ought to take the Metro.",
+    "You should to take the Metro.",
+    "You ought taking the Metro."
+   ],
+   "answer": 1,
+   "explanation_ar": "ought to + الفعل الأساسي.",
+   "explanation_en": "ought to + base verb."
+  },
+  {
+   "question": "\"The tickets are sold out\" means:",
+   "choices": [
+    "The tickets are cheap.",
+    "The tickets are free.",
+    "There are no tickets left.",
+    "The tickets are online."
+   ],
+   "answer": 2,
+   "explanation_ar": "sold out = نفدت.",
+   "explanation_en": "Sold out = there are none left."
+  },
+  {
+   "question": "In baseball, the batter stands at ___.",
+   "choices": [
+    "home plate",
+    "the ticket window",
+    "the crowd",
+    "the Metro"
+   ],
+   "answer": 0,
+   "explanation_ar": "الضارب يقف عند home plate.",
+   "explanation_en": "The batter stands at home plate."
+  },
+  {
+   "question": "Choose the correct word: \"It is good ___.\"",
+   "choices": [
+    "advise",
+    "advices",
+    "an advice",
+    "advice"
+   ],
+   "answer": 3,
+   "explanation_ar": "advice اسم غير معدود.",
+   "explanation_en": "\"Advice\" is an uncountable noun."
+  },
+  {
+   "question": "I run to third base, ___ home plate.",
+   "choices": [
+    "than",
+    "then",
+    "that",
+    "the"
+   ],
+   "answer": 1,
+   "explanation_ar": "then = ثم.",
+   "explanation_en": "\"Then\" means next."
+  },
+  {
+   "question": "The tickets were sold out. What is good advice for next time?",
+   "choices": [
+    "Take a taxi.",
+    "Ride a bike.",
+    "Buy your ticket online.",
+    "Go home."
+   ],
+   "answer": 2,
+   "explanation_ar": "إذا نفدت التذاكر فالنصيحة المناسبة: اشترِ تذكرتك عبر الإنترنت في المرة القادمة.",
+   "explanation_en": "If tickets sell out, the useful advice is: next time, buy your ticket online."
+  },
+  {
+   "question": "When the crowd cheers, it:",
+   "choices": [
+    "shouts happily",
+    "sleeps",
+    "buys tickets",
+    "goes home"
+   ],
+   "answer": 0,
+   "explanation_ar": "cheer = يهتف بفرح.",
+   "explanation_en": "Cheer = shout to show you are happy."
+  }
+ ]
+}

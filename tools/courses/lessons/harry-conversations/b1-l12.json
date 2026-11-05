@@ -1,0 +1,57 @@
+{
+  "title": "12 Ways to Give Advice",
+  "content": {
+    "vocabulary": [
+      {"word": "advice", "pos": "noun", "meaning_en": "an opinion about what someone should do", "meaning_ar": "نصيحة", "note_ar": "غير معدودة: some advice / a piece of advice", "note_en": "Uncountable: some advice / a piece of advice.", "example": "Can I give you some advice?"},
+      {"word": "catch up on", "pos": "phrasal verb", "meaning_en": "do work that you should have done earlier", "meaning_ar": "يعوّض ما فاته من عمل", "note_ar": "", "note_en": "", "example": "You have a lot of work to catch up on."},
+      {"word": "to-do list", "pos": "noun", "meaning_en": "a list of jobs you need to do", "meaning_ar": "قائمة المهام", "note_ar": "", "note_en": "", "example": "I write a to-do list every morning."},
+      {"word": "option", "pos": "noun", "meaning_en": "a choice you can make", "meaning_ar": "خيار", "note_ar": "", "note_en": "", "example": "Your only option is to tell the truth."},
+      {"word": "alternative", "pos": "noun", "meaning_en": "another possible choice", "meaning_ar": "بديل", "note_ar": "", "note_en": "", "example": "We have no alternative."},
+      {"word": "hold up your hands", "pos": "phrase", "meaning_en": "admit that you made a mistake", "meaning_ar": "يعترف بخطئه", "note_ar": "ويقال أيضًا put your hands up", "note_en": "Also: put your hands up.", "example": "I made a mistake, so I held up my hands and apologised."},
+      {"word": "in your interest", "pos": "phrase", "meaning_en": "good for you; to your advantage", "meaning_ar": "في مصلحتك", "note_ar": "ويقال in your best interests", "note_en": "Also: in your best interests.", "example": "It might be in your interest to apply early."},
+      {"word": "vacancy", "pos": "noun", "meaning_en": "a job that is free for someone to take", "meaning_ar": "وظيفة شاغرة", "note_ar": "", "note_en": "", "example": "There's a vacancy in our department."},
+      {"word": "chill out", "pos": "phrasal verb", "meaning_en": "(informal) relax", "meaning_ar": "يسترخي", "note_ar": "", "note_en": "", "example": "Take a few days off and chill out."},
+      {"word": "undue pressure", "pos": "noun", "meaning_en": "more stress than is necessary", "meaning_ar": "ضغط مفرط", "note_ar": "", "note_en": "", "example": "Don't put yourself under undue pressure."},
+      {"word": "rush into", "pos": "phrasal verb", "meaning_en": "do something too quickly without thinking", "meaning_ar": "يتسرّع في", "note_ar": "", "note_en": "", "example": "Don't rush into a big decision."},
+      {"word": "review", "pos": "noun", "meaning_en": "an opinion that people write about a product, hotel, etc.", "meaning_ar": "تقييم / مراجعة", "note_ar": "", "note_en": "", "example": "Check the reviews before you book the hotel."},
+      {"word": "sold out", "pos": "adjective", "meaning_en": "all sold; there are none left", "meaning_ar": "نفدت الكمية", "note_ar": "", "note_en": "", "example": "Sorry, those jackets are sold out."}
+    ],
+    "fine_lines": [
+      {"title": "Make sure you do vs Make sure you don't", "words": ["make sure you do", "make sure you don't"], "explanation_ar": "make sure you + فعل = تأكد أن تفعل. make sure you don't + فعل = تأكد ألا تفعل. قد يكون المعنى واحدًا بصيغة مثبتة أو منفية.", "explanation_en": "\"Make sure you + verb\" = remember to do it. \"Make sure you don't + verb\" = be careful not to do it. Often the same advice, positive or negative.", "examples": [{"word": "make sure you do", "sentence": "Make sure you turn off the lights."}, {"word": "make sure you don't", "sentence": "Make sure you don't leave the lights on."}]},
+      {"title": "Your only option is to vs You have no choice but to", "words": ["your only option is to", "you have no choice but to"], "explanation_ar": "كلتاهما تعني أنه لا يوجد بديل آخر. بعدهما to + الفعل الأساسي.", "explanation_en": "Both mean there is no other choice. Both are followed by \"to + base verb\".", "examples": [{"word": "your only option is to", "sentence": "Your only option is to tell your boss."}, {"word": "you have no choice but to", "sentence": "You have no choice but to call the police."}]}
+    ],
+    "expressions": [
+      {"phrase": "Isn't it about time you ...?", "meaning_ar": "أما آن الأوان أن ...؟", "meaning_en": "Strong advice: you should have done it already. (Followed by the past simple.)", "example": "Isn't it about time you went to bed? You have school tomorrow."},
+      {"phrase": "Have you thought about the possibility of ...ing?", "meaning_ar": "هل فكّرت في إمكانية ...؟", "meaning_en": "Gently suggests a new option.", "example": "Have you thought about the possibility of changing your course?"},
+      {"phrase": "The sooner you ..., the better.", "meaning_ar": "كلما أسرعت في ...، كان أفضل.", "meaning_en": "Advises acting quickly.", "example": "The sooner you call the client, the better."},
+      {"phrase": "You might as well ...", "meaning_ar": "لا بأس أن ... (لا خيار أفضل)", "meaning_en": "Advises the best option when there is no better choice.", "example": "The car won't start. You might as well take the bus."},
+      {"phrase": "Your only option is to ...", "meaning_ar": "خيارك الوحيد هو أن ...", "meaning_en": "Says there is only one thing to do.", "example": "Your only option is to tell the teacher you lost the book."},
+      {"phrase": "You have no choice but to ...", "meaning_ar": "ليس لديك خيار سوى أن ...", "meaning_en": "Strong advice: there is no alternative.", "example": "You have no choice but to call the police."},
+      {"phrase": "It might be in your interest(s) to ...", "meaning_ar": "قد يكون من مصلحتك أن ...", "meaning_en": "Says something will be good for the person.", "example": "It might be in your interest to tell them you want the job."},
+      {"phrase": "You might want to ...", "meaning_ar": "ربما تودّ أن ...", "meaning_en": "A soft, polite piece of advice.", "example": "You might want to call him and say you'll be late."},
+      {"phrase": "You might want to consider ...ing.", "meaning_ar": "ربما ترغب في التفكير في ...", "meaning_en": "A polite suggestion to think about an option.", "example": "You might want to consider taking your holiday in July."},
+      {"phrase": "Make sure you (don't) ...", "meaning_ar": "تأكّد أن (لا) ...", "meaning_en": "Reminds someone to do or not do something.", "example": "Make sure you don't forget your tablets."},
+      {"phrase": "It's worth a try.", "meaning_ar": "يستحق المحاولة.", "meaning_en": "Says trying costs little and could work.", "example": "They might still have the jacket. It's worth a try."},
+      {"phrase": "It might be a good idea to ...", "meaning_ar": "قد تكون فكرة جيدة أن ...", "meaning_en": "A gentle piece of advice.", "example": "It might be a good idea to check the reviews before you book."},
+      {"phrase": "How about ...ing?", "meaning_ar": "ما رأيك في ...؟", "meaning_en": "An open, informal suggestion.", "example": "How about joining a book club?"},
+      {"phrase": "It's not the end of the world.", "meaning_ar": "ليست نهاية العالم.", "meaning_en": "Says a problem is not very serious.", "example": "You made a mistake, but it's not the end of the world."},
+      {"phrase": "Don't rush into it.", "meaning_ar": "لا تتسرّع فيه.", "meaning_en": "Advises taking time to think.", "example": "You have a week before the deadline. Don't rush into it."}
+    ],
+    "grammar": [
+      {"title": "It's (about) time + past simple", "explanation_ar": "بعد It's about time نستخدم الماضي البسيط رغم أننا نتحدث عن الآن، ويعني أن الأمر تأخّر.", "explanation_en": "After \"It's (about) time\" we use the past simple, even though we mean now. It means it should already have happened.", "examples": ["Isn't it about time you got a haircut?", "It's time we went home.", "Isn't it about time you started studying?"]},
+      {"title": "Verb patterns in advice phrases", "explanation_ar": "the possibility of / consider / How about + ing. You might as well / might want to / make sure you + الفعل الأساسي. only option is / no choice but / in your interest / a good idea + to + الفعل.", "explanation_en": "the possibility of / consider / How about + -ing. might as well / might want to / make sure you + base verb. only option is / no choice but / in your interest / a good idea + to + verb.", "examples": ["You might want to consider repeating the year.", "You might as well walk.", "It might be a good idea to talk to your teacher."]}
+    ]
+  },
+  "questions": [
+    {"question": "Isn't it about time you ___ to bed?", "choices": ["go", "going", "went", "will go"], "answer": 2, "explanation_ar": "بعد It's about time نستخدم الماضي البسيط.", "explanation_en": "Use the past simple after \"It's about time\"."},
+    {"question": "Have you thought about the possibility of ___ your course?", "choices": ["changing", "change", "to change", "changed"], "answer": 0, "explanation_ar": "بعد of نستخدم ing.", "explanation_en": "After \"of\" use -ing."},
+    {"question": "The sooner you start, the ___ you'll feel.", "choices": ["good", "best", "well", "better"], "answer": 3, "explanation_ar": "نستخدم صيغة المقارنة better.", "explanation_en": "Use the comparative \"better\"."},
+    {"question": "You have no choice but ___ the police.", "choices": ["call", "to call", "calling", "called"], "answer": 1, "explanation_ar": "no choice but + to + الفعل.", "explanation_en": "no choice but + to + verb."},
+    {"question": "\"It's worth a try\" means:", "choices": ["It's too expensive.", "It's not possible.", "It could work, so try it.", "Don't do it."], "answer": 2, "explanation_ar": "تعني أن المحاولة تستحق.", "explanation_en": "It means trying is a good idea."},
+    {"question": "The car won't start. You might as well ___ the bus.", "choices": ["take", "taking", "to take", "took"], "answer": 0, "explanation_ar": "بعد might as well نستخدم الفعل الأساسي.", "explanation_en": "After \"might as well\" use the base verb."},
+    {"question": "Which phrase is the SOFTEST advice?", "choices": ["You have no choice but to go.", "Your only option is to go.", "Isn't it about time you went?", "You might want to go."], "answer": 3, "explanation_ar": "You might want to هي الأكثر لطفًا.", "explanation_en": "\"You might want to\" is the softest."},
+    {"question": "\"Hold up your hands\" means:", "choices": ["admit your mistake", "ask a question", "say hello", "stop working"], "answer": 0, "explanation_ar": "hold up your hands = يعترف بخطئه.", "explanation_en": "It means admit your mistake."},
+    {"question": "Make sure you ___ forget your keys.", "choices": ["not", "don't", "aren't", "no"], "answer": 1, "explanation_ar": "make sure you don't + الفعل.", "explanation_en": "make sure you don't + verb."},
+    {"question": "\"It might be in your interest to apply\" means:", "choices": ["Applying is boring.", "Applying is not allowed.", "Applying could be good for you.", "You must apply now."], "answer": 2, "explanation_ar": "in your interest = في مصلحتك.", "explanation_en": "\"In your interest\" = good for you."}
+  ]
+}

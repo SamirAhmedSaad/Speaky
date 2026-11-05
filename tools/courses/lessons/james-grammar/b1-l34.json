@@ -1,0 +1,344 @@
+{
+  "title": "Simple Past or Present Perfect: Time, Completion, Signal Words",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "past participle",
+        "pos": "noun",
+        "meaning_en": "the third verb form: worked, gone, been, eaten",
+        "meaning_ar": "التصريف الثالث للفعل",
+        "note_ar": "PP = past participle",
+        "note_en": "PP = past participle",
+        "example": "\"Gone\" is the past participle of \"go\"."
+      },
+      {
+        "word": "regular verb",
+        "pos": "noun",
+        "meaning_en": "a verb whose past ends in -ed: work – worked – worked",
+        "meaning_ar": "فعل قياسي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Work\" is a regular verb."
+      },
+      {
+        "word": "irregular verb",
+        "pos": "noun",
+        "meaning_en": "a verb with special past forms: go – went – gone",
+        "meaning_ar": "فعل شاذ (غير قياسي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Go\" is an irregular verb."
+      },
+      {
+        "word": "time frame",
+        "pos": "noun",
+        "meaning_en": "the period of time when something happens",
+        "meaning_ar": "الإطار الزمني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The time frame of the present perfect is \"in my life\"."
+      },
+      {
+        "word": "specific point",
+        "pos": "noun",
+        "meaning_en": "an exact moment in time",
+        "meaning_ar": "نقطة زمنية محددة",
+        "note_ar": "SP = Simple Past = Specific Point",
+        "note_en": "SP = Simple Past = Specific Point",
+        "example": "\"Yesterday\" is a specific point in time."
+      },
+      {
+        "word": "completion",
+        "pos": "noun",
+        "meaning_en": "the state of being finished",
+        "meaning_ar": "الاكتمال / الإنجاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Both tenses show completion, but in different ways."
+      },
+      {
+        "word": "signal word",
+        "pos": "noun",
+        "meaning_en": "a word that shows which tense to use",
+        "meaning_ar": "كلمة دالّة (على الزمن)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Yesterday\" is a signal word for the simple past."
+      },
+      {
+        "word": "yet",
+        "pos": "adverb",
+        "meaning_en": "until now (in negatives and questions)",
+        "meaning_ar": "بعدُ / حتى الآن",
+        "note_ar": "يأتي غالبًا في آخر الجملة",
+        "note_en": "Usually at the end of the sentence.",
+        "example": "I haven't eaten yet."
+      },
+      {
+        "word": "already",
+        "pos": "adverb",
+        "meaning_en": "before now, sooner than expected",
+        "meaning_ar": "بالفعل / سبق أن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have already eaten."
+      },
+      {
+        "word": "never",
+        "pos": "adverb",
+        "meaning_en": "not at any time",
+        "meaning_ar": "أبدًا / لم يسبق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have never been to Japan."
+      },
+      {
+        "word": "ever",
+        "pos": "adverb",
+        "meaning_en": "at any time (in questions)",
+        "meaning_ar": "في أي وقت (في السؤال)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have you ever been to Asia?"
+      },
+      {
+        "word": "last week",
+        "pos": "phrase",
+        "meaning_en": "the week before this one",
+        "meaning_ar": "الأسبوع الماضي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I visited my uncle last week."
+      },
+      {
+        "word": "in my life",
+        "pos": "phrase",
+        "meaning_en": "at some time from birth until now",
+        "meaning_ar": "في حياتي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have been to Tokyo once in my life."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I was in Tokyo two years ago vs I have been to Tokyo",
+        "words": [
+          "simple past",
+          "present perfect"
+        ],
+        "explanation_ar": "الماضي البسيط: نقطة محددة في الزمن (two years ago) والحدث انتهى ولا علاقة له بالآن. المضارع التام: حدث في وقت ما في حياتي (غير محدد)، وله أهمية للحديث الآن.",
+        "explanation_en": "Simple past: a specific point in time (two years ago); finished and cut off from now. Present perfect: some time in my life (not specific), and it matters to the conversation now.",
+        "examples": [
+          {
+            "word": "simple past",
+            "sentence": "I was in Tokyo two years ago."
+          },
+          {
+            "word": "present perfect",
+            "sentence": "Have you been to Asia? Yes, I have been to Tokyo."
+          }
+        ]
+      },
+      {
+        "title": "yet vs already",
+        "words": [
+          "yet",
+          "already"
+        ],
+        "explanation_ar": "yet في النفي والسؤال (لم يحدث بعد): I haven't eaten yet. already في الإثبات (حدث قبل الآن): I have already eaten.",
+        "explanation_en": "\"Yet\" in negatives and questions (not done until now): I haven't eaten yet. \"Already\" in positives (done before now): I have already eaten.",
+        "examples": [
+          {
+            "word": "yet",
+            "sentence": "Have you eaten yet?"
+          },
+          {
+            "word": "already",
+            "sentence": "I have already finished my homework."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Have you eaten yet?",
+        "meaning_ar": "هل أكلت بعد؟",
+        "meaning_en": "Did you eat before now? (Maybe I'll offer you food.)",
+        "example": "I just cooked some chicken. Have you eaten yet?"
+      },
+      {
+        "phrase": "I haven't eaten yet.",
+        "meaning_ar": "لم آكل بعد.",
+        "meaning_en": "Until now, I have not had food.",
+        "example": "I was working all day, so I haven't eaten yet."
+      },
+      {
+        "phrase": "Have you ever been to...?",
+        "meaning_ar": "هل سبق أن زرت...؟",
+        "meaning_en": "Asking about life experience.",
+        "example": "Have you ever been to Asia?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Form",
+        "explanation_ar": "الماضي البسيط: الفعل في صيغة الماضي ونفس الشكل لكل الضمائر (I/she/they worked). المضارع التام: have/has + التصريف الثالث (I have worked, she has worked, he has gone).",
+        "explanation_en": "Simple past: the past form, the same for all subjects (I/she/they worked). Present perfect: have/has + past participle (I have worked, she has worked, he has gone).",
+        "examples": [
+          "work – worked – has worked",
+          "go – went – has gone"
+        ]
+      },
+      {
+        "title": "1) Time frame",
+        "explanation_ar": "الماضي البسيط = نقطة محددة في الماضي (SP = Specific Point): yesterday, one hour ago, on March 14th. المضارع التام = في وقت ما من حياتي، غير محدد، لكنه مهم الآن.",
+        "explanation_en": "Simple past = a specific point in the past (SP = Specific Point): yesterday, one hour ago, on March 14th. Present perfect = some time in my life, not specific, but important now.",
+        "examples": [
+          "I was in Tokyo two years ago.",
+          "I have been to Tokyo."
+        ]
+      },
+      {
+        "title": "2) Completion",
+        "explanation_ar": "في الماضي البسيط نعرف متى انتهى الحدث وهو مقطوع عن الحاضر. في المضارع التام لا نعرف متى انتهى، لكن له أثر على الآن.",
+        "explanation_en": "In the simple past we know when the action finished, and it is cut off from now. In the present perfect we don't know when it finished, but it affects now.",
+        "examples": [
+          "I ate five minutes ago. (finished, no effect now)",
+          "I have already eaten. (so I don't want food now)"
+        ]
+      },
+      {
+        "title": "3) Signal words",
+        "explanation_ar": "كلمات الماضي البسيط: yesterday, two minutes ago, a week ago, last week. كلمات المضارع التام: yet, already, never, ever.",
+        "explanation_en": "Simple past signal words: yesterday, two minutes ago, a week ago, last week. Present perfect signal words: yet, already, never, ever.",
+        "examples": [
+          "I saw him last week.",
+          "I have never told you this."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"I ___ in Tokyo two years ago.\"",
+      "choices": [
+        "have been",
+        "was",
+        "has been",
+        "have be"
+      ],
+      "answer": 1,
+      "explanation_ar": "two years ago وقت محدد: الماضي البسيط.",
+      "explanation_en": "\"Two years ago\" is specific: simple past."
+    },
+    {
+      "question": "\"Have you eaten ___?\"",
+      "choices": [
+        "yesterday",
+        "last week",
+        "yet",
+        "ago"
+      ],
+      "answer": 2,
+      "explanation_ar": "yet مع المضارع التام في السؤال.",
+      "explanation_en": "\"Yet\" with the present perfect in questions."
+    },
+    {
+      "question": "Which is a signal word for the simple past?",
+      "choices": [
+        "already",
+        "never",
+        "yet",
+        "last week"
+      ],
+      "answer": 3,
+      "explanation_ar": "last week وقت محدد.",
+      "explanation_en": "\"Last week\" is a specific time."
+    },
+    {
+      "question": "\"She ___ home.\" (present perfect of go)",
+      "choices": [
+        "has gone",
+        "have gone",
+        "has went",
+        "goed"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: has + gone.",
+      "explanation_en": "has + gone."
+    },
+    {
+      "question": "\"I have ___ been to Japan.\" (not at any time)",
+      "choices": [
+        "yet",
+        "never",
+        "ago",
+        "yesterday"
+      ],
+      "answer": 1,
+      "explanation_ar": "never = لم يسبق أبدًا.",
+      "explanation_en": "\"Never\" = not at any time."
+    },
+    {
+      "question": "SP for the simple past means ___.",
+      "choices": [
+        "Some Point",
+        "Specific Point",
+        "Simple Present",
+        "Past Participle"
+      ],
+      "answer": 1,
+      "explanation_ar": "Specific Point = نقطة محددة.",
+      "explanation_en": "Specific Point."
+    },
+    {
+      "question": "\"I ___ already ___ my homework.\"",
+      "choices": [
+        "did / finish",
+        "have / finished",
+        "was / finished",
+        "has / finish"
+      ],
+      "answer": 1,
+      "explanation_ar": "already مع المضارع التام: have finished.",
+      "explanation_en": "\"Already\" with present perfect: have finished."
+    },
+    {
+      "question": "\"She ___ yesterday.\"",
+      "choices": [
+        "has worked",
+        "have worked",
+        "worked",
+        "working"
+      ],
+      "answer": 2,
+      "explanation_ar": "yesterday: الماضي البسيط.",
+      "explanation_en": "\"Yesterday\": simple past."
+    },
+    {
+      "question": "The present perfect's time frame is ___.",
+      "choices": [
+        "a specific date",
+        "some time in my life, not specific",
+        "only the future",
+        "one hour ago"
+      ],
+      "answer": 1,
+      "explanation_ar": "وقت غير محدد في الحياة.",
+      "explanation_en": "Some time in your life, not specific."
+    },
+    {
+      "question": "\"I was working all day, so I ___ yet.\"",
+      "choices": [
+        "didn't eat",
+        "haven't eaten",
+        "don't eat",
+        "ate not"
+      ],
+      "answer": 1,
+      "explanation_ar": "yet مع المضارع التام المنفي.",
+      "explanation_en": "\"Yet\" with the negative present perfect."
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "title": "Prepositions of Behaviour: to, on, about",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "behaviour",
+        "pos": "noun",
+        "meaning_en": "the way someone acts",
+        "meaning_ar": "سلوك / تصرّف",
+        "note_ar": "بالأمريكية: behavior",
+        "note_en": "US spelling: behavior.",
+        "example": "His behaviour in class is very good."
+      },
+      {
+        "word": "collocation",
+        "pos": "noun",
+        "meaning_en": "words that are often used together",
+        "meaning_ar": "تلازم لفظي (كلمات تأتي معًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Kind to\" is a collocation."
+      },
+      {
+        "word": "cruel to",
+        "pos": "phrase",
+        "meaning_en": "very unkind to someone, making them suffer",
+        "meaning_ar": "قاسٍ على",
+        "note_ar": "الاسم: cruelty (animal cruelty)",
+        "note_en": "Noun: cruelty (animal cruelty).",
+        "example": "Never be cruel to animals."
+      },
+      {
+        "word": "kind to",
+        "pos": "phrase",
+        "meaning_en": "nice and generous to someone",
+        "meaning_ar": "لطيف مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is always kind to her neighbours."
+      },
+      {
+        "word": "rude to",
+        "pos": "phrase",
+        "meaning_en": "not polite to someone; showing no respect",
+        "meaning_ar": "وقح / غير مهذّب مع",
+        "note_ar": "مرادف: impolite",
+        "note_en": "Similar: impolite.",
+        "example": "Don't be rude to the waiter."
+      },
+      {
+        "word": "helpful to",
+        "pos": "phrase",
+        "meaning_en": "giving help to someone",
+        "meaning_ar": "مفيد / متعاون مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The teacher was very helpful to her students."
+      },
+      {
+        "word": "tough on",
+        "pos": "phrase",
+        "meaning_en": "strict and demanding with someone (often to make them better)",
+        "meaning_ar": "صارم مع",
+        "note_ar": "tough تُنطق /tʌf/",
+        "note_en": "tough is pronounced /tʌf/.",
+        "example": "My coach was tough on me so I could be the best."
+      },
+      {
+        "word": "easy on",
+        "pos": "phrase",
+        "meaning_en": "gentle and not strict with someone",
+        "meaning_ar": "متساهل مع / رفيق بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Go easy on him; it's his first day."
+      },
+      {
+        "word": "rough on",
+        "pos": "phrase",
+        "meaning_en": "unpleasant and unkind to someone; hard and unpleasant",
+        "meaning_ar": "قاسٍ / فظّ مع",
+        "note_ar": "rough تُنطق /rʌf/",
+        "note_en": "rough is pronounced /rʌf/.",
+        "example": "The manager was rough on the new workers."
+      },
+      {
+        "word": "selfish about",
+        "pos": "phrase",
+        "meaning_en": "thinking only about yourself in a situation",
+        "meaning_ar": "أناني بشأن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't be selfish about the food; share it."
+      },
+      {
+        "word": "crazy about",
+        "pos": "phrase",
+        "meaning_en": "liking something very, very much",
+        "meaning_ar": "مولع بـ / يحب بشدة",
+        "note_ar": "not crazy about = لا يحبه كثيرًا",
+        "note_en": "Not crazy about = don't like it much.",
+        "example": "I'm crazy about my new car."
+      },
+      {
+        "word": "mean about",
+        "pos": "phrase",
+        "meaning_en": "not nice in the way you do something",
+        "meaning_ar": "لئيم / غير لطيف بشأن",
+        "note_ar": "mean لها معنى آخر: يعني",
+        "note_en": "Mean also has another meaning: to signify.",
+        "example": "He was mean about lending me money."
+      },
+      {
+        "word": "nasty",
+        "pos": "adjective",
+        "meaning_en": "very unpleasant",
+        "meaning_ar": "بغيض / كريه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That smell is nasty."
+      },
+      {
+        "word": "hard on yourself",
+        "pos": "phrase",
+        "meaning_en": "too strict with yourself; criticising yourself too much",
+        "meaning_ar": "قاسٍ على نفسك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't be so hard on yourself. Everyone makes mistakes."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "tough on vs rough on",
+        "words": [
+          "tough on",
+          "rough on"
+        ],
+        "explanation_ar": "tough on = صارم ويُصعّب الأمور لكن غالبًا لهدف جيد (ليجعلك أقوى). rough on = قاسٍ وغير لطيف، ولا شيء جيد فيه.",
+        "explanation_en": "Tough on = strict, makes things difficult, often for a good reason (to make you stronger). Rough on = unpleasant and unkind; nothing good about it.",
+        "examples": [
+          {
+            "word": "tough on",
+            "sentence": "My teachers were tough on me because they wanted me to do well."
+          },
+          {
+            "word": "rough on",
+            "sentence": "That guard was rough on the visitors. It wasn't fair."
+          }
+        ]
+      },
+      {
+        "title": "crazy vs crazy about",
+        "words": [
+          "crazy",
+          "crazy about"
+        ],
+        "explanation_ar": "crazy وحدها = مجنون. crazy about something = أحبه كثيرًا جدًا.",
+        "explanation_en": "Crazy alone = mad, not normal. Crazy about something = love it very much.",
+        "examples": [
+          {
+            "word": "crazy",
+            "sentence": "That driver is crazy!"
+          },
+          {
+            "word": "crazy about",
+            "sentence": "My son is crazy about football."
+          }
+        ]
+      },
+      {
+        "title": "to vs on vs about (with adjectives)",
+        "words": [
+          "to",
+          "on",
+          "about"
+        ],
+        "explanation_ar": "to = اتجاه: السلوك يذهب نحو شخص (kind to). on = على السطح: السلوك يُوضع على الشخص فيشعر به (tough on). about = حول الموضوع (selfish about).",
+        "explanation_en": "to = direction: the behaviour goes to a person (kind to). on = on the surface: the behaviour is put on the person and they feel it (tough on). about = around a subject (selfish about).",
+        "examples": [
+          {
+            "word": "to",
+            "sentence": "He was rude to me."
+          },
+          {
+            "word": "on",
+            "sentence": "She is easy on her kids."
+          },
+          {
+            "word": "about",
+            "sentence": "He was kind about helping the old lady."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Don't be so hard on yourself.",
+        "meaning_ar": "لا تقسُ على نفسك.",
+        "meaning_en": "Be kinder to yourself.",
+        "example": "You only made one mistake. Don't be so hard on yourself."
+      },
+      {
+        "phrase": "Go easy on him.",
+        "meaning_ar": "ترفّق به.",
+        "meaning_en": "Don't be too strict with him.",
+        "example": "He's new here. Go easy on him."
+      },
+      {
+        "phrase": "I'm not crazy about it.",
+        "meaning_ar": "لا أحبه كثيرًا.",
+        "meaning_en": "I don't like it much.",
+        "example": "I'm not crazy about homework."
+      },
+      {
+        "phrase": "tough love",
+        "meaning_ar": "الحب الحازم (صرامة بدافع المحبة)",
+        "meaning_en": "being strict with someone because you care about them",
+        "example": "My father gave me tough love, and it helped me."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Adjective + preposition to describe behaviour",
+        "explanation_ar": "حروف الجر تُستخدم عادة للاتجاه والزمن والسبب، لكن عندما نضعها بعد صفة نصف بها كيف يتصرف شخص ما. التركيب: الفاعل + be + صفة + حرف جر + شخص/شيء.",
+        "explanation_en": "Prepositions usually show direction, time and reason, but after an adjective they describe how someone behaves. Structure: subject + be + adjective + preposition + person/thing.",
+        "examples": [
+          "He is cruel to his dog.",
+          "My parents were easy on me.",
+          "She was selfish about the food."
+        ]
+      },
+      {
+        "title": "Adjective + to (direction)",
+        "explanation_ar": "to تعني الاتجاه: السلوك يتجه نحو شخص. cruel to, kind to, rude to, helpful to.",
+        "explanation_en": "To shows direction: the behaviour goes toward a person. cruel to, kind to, rude to, helpful to.",
+        "examples": [
+          "Be kind to your little brother.",
+          "The guide was very helpful to us."
+        ]
+      },
+      {
+        "title": "Adjective + on (put on someone)",
+        "explanation_ar": "on تعني أن السلوك يقع على الشخص فيشعر به: tough on, easy on, rough on, hard on.",
+        "explanation_en": "On means the behaviour is put on the person; they feel it: tough on, easy on, rough on, hard on.",
+        "examples": [
+          "The new law is tough on crime.",
+          "The exam was rough on me."
+        ]
+      },
+      {
+        "title": "Adjective + about (the subject)",
+        "explanation_ar": "about تعني حول موضوع أو شيء: selfish about, crazy about, mean about, kind about.",
+        "explanation_en": "About means around a subject or thing: selfish about, crazy about, mean about, kind about.",
+        "examples": [
+          "He's crazy about cars.",
+          "She was mean about sharing her notes."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "My coach was ___ me so I could be the best.",
+      "choices": [
+        "tough on",
+        "crazy about",
+        "rude to",
+        "selfish about"
+      ],
+      "answer": 0,
+      "explanation_ar": "صارم لهدف جيد: tough on.",
+      "explanation_en": "Strict for a good reason: tough on."
+    },
+    {
+      "question": "The teacher was very ___ her students, so they loved her.",
+      "choices": [
+        "rough on",
+        "cruel to",
+        "helpful to",
+        "mean about"
+      ],
+      "answer": 2,
+      "explanation_ar": "ساعدتهم: helpful to.",
+      "explanation_en": "She helped them: helpful to."
+    },
+    {
+      "question": "\"I'm crazy about this restaurant.\" means ___.",
+      "choices": [
+        "I hate it.",
+        "I love it very much.",
+        "It is strange.",
+        "I am angry."
+      ],
+      "answer": 1,
+      "explanation_ar": "crazy about = يحبه كثيرًا.",
+      "explanation_en": "Crazy about = love it very much."
+    },
+    {
+      "question": "She was ___ the dog, so they took it away from her.",
+      "choices": [
+        "kind to",
+        "easy on",
+        "crazy about",
+        "cruel to"
+      ],
+      "answer": 3,
+      "explanation_ar": "قسوة على الحيوان: cruel to.",
+      "explanation_en": "Animal cruelty: cruel to."
+    },
+    {
+      "question": "Which preposition goes with \"rude\"?",
+      "choices": [
+        "to",
+        "about",
+        "on",
+        "at"
+      ],
+      "answer": 0,
+      "explanation_ar": "التركيب الصحيح: rude to.",
+      "explanation_en": "Rude to."
+    },
+    {
+      "question": "Which preposition goes with \"selfish\"?",
+      "choices": [
+        "on",
+        "about",
+        "to",
+        "in"
+      ],
+      "answer": 1,
+      "explanation_ar": "التركيب الصحيح: selfish about.",
+      "explanation_en": "Selfish about."
+    },
+    {
+      "question": "\"Rough on\" is different from \"tough on\" because rough on is ___.",
+      "choices": [
+        "always good",
+        "about time",
+        "only unpleasant, with nothing good",
+        "about love"
+      ],
+      "answer": 2,
+      "explanation_ar": "rough on سلبي فقط.",
+      "explanation_en": "Rough on is only negative."
+    },
+    {
+      "question": "\"Go easy on him\" means ___.",
+      "choices": [
+        "Be strict with him.",
+        "Walk with him.",
+        "Help him run.",
+        "Don't be too strict with him."
+      ],
+      "answer": 3,
+      "explanation_ar": "ترفّق به.",
+      "explanation_en": "Don't be too strict with him."
+    },
+    {
+      "question": "What does \"rude\" mean?",
+      "choices": [
+        "impolite",
+        "helpful",
+        "generous",
+        "quiet"
+      ],
+      "answer": 0,
+      "explanation_ar": "rude = غير مهذب.",
+      "explanation_en": "Rude = impolite."
+    },
+    {
+      "question": "\"Don't be so hard on yourself\" means ___.",
+      "choices": [
+        "Work harder.",
+        "Be kinder to yourself.",
+        "Sit on a hard chair.",
+        "Be strict with others."
+      ],
+      "answer": 1,
+      "explanation_ar": "لا تقسُ على نفسك.",
+      "explanation_en": "Be kinder to yourself."
+    }
+  ]
+}

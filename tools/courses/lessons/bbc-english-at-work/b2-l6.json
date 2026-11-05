@@ -1,0 +1,443 @@
+{
+  "title": "Staff Discipline",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "discipline",
+        "pos": "verb / noun",
+        "meaning_en": "to punish someone for breaking rules; the act of doing this",
+        "meaning_ar": "يؤدّب / يتخذ إجراءً تأديبيًا؛ انضباط",
+        "note_ar": "الصفة: disciplinary.",
+        "note_en": "Adjective: disciplinary.",
+        "example": "The manager had to discipline a member of staff."
+      },
+      {
+        "word": "disciplinary action",
+        "pos": "noun",
+        "meaning_en": "official steps a company takes when an employee breaks rules",
+        "meaning_ar": "إجراء تأديبي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Stealing can lead to disciplinary action."
+      },
+      {
+        "word": "verbal warning",
+        "pos": "noun",
+        "meaning_en": "a spoken warning that you must improve, before more serious action",
+        "meaning_ar": "إنذار شفهي",
+        "note_ar": "written warning = إنذار كتابي.",
+        "note_en": "Written warning = a more serious, written one.",
+        "example": "He got a verbal warning for being late."
+      },
+      {
+        "word": "new recruit",
+        "pos": "noun",
+        "meaning_en": "a person who has just joined a company",
+        "meaning_ar": "موظف جديد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new recruit starts on Monday."
+      },
+      {
+        "word": "complain officially",
+        "pos": "phrase",
+        "meaning_en": "to make a formal complaint",
+        "meaning_ar": "يتقدم بشكوى رسمية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If it happens again, I will complain officially."
+      },
+      {
+        "word": "record",
+        "pos": "noun",
+        "meaning_en": "a written note of what happened",
+        "meaning_ar": "سِجل / توثيق",
+        "note_ar": "الاسم RE-cord، والفعل re-CORD.",
+        "note_en": "Noun: RE-cord; verb: re-CORD.",
+        "example": "Keep a record of your conversation."
+      },
+      {
+        "word": "keep notes",
+        "pos": "phrase",
+        "meaning_en": "to write down important points",
+        "meaning_ar": "يدوّن ملاحظات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep notes during the meeting."
+      },
+      {
+        "word": "stick to the facts",
+        "pos": "phrase",
+        "meaning_en": "talk only about what really happened, not opinions",
+        "meaning_ar": "يلتزم بالحقائق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In a complaint, stick to the facts."
+      },
+      {
+        "word": "get personal",
+        "pos": "phrase",
+        "meaning_en": "to criticise someone's character or looks instead of their work",
+        "meaning_ar": "يتحول إلى الأمور الشخصية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't get personal – talk about the work."
+      },
+      {
+        "word": "take action",
+        "pos": "phrase",
+        "meaning_en": "to do something to solve a problem",
+        "meaning_ar": "يتخذ إجراءً",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You have to take some action."
+      },
+      {
+        "word": "permission",
+        "pos": "noun",
+        "meaning_en": "when someone allows you to do something",
+        "meaning_ar": "إذن / تصريح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You have my permission to discipline her."
+      },
+      {
+        "word": "serious",
+        "pos": "adjective",
+        "meaning_en": "important and possibly dangerous or bad",
+        "meaning_ar": "جسيم / خطير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You've made some serious mistakes."
+      },
+      {
+        "word": "consult",
+        "pos": "verb",
+        "meaning_en": "to ask someone for advice or information before you act",
+        "meaning_ar": "يستشير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Consult me before you contact any client."
+      },
+      {
+        "word": "contact",
+        "pos": "verb",
+        "meaning_en": "to call, email or write to someone",
+        "meaning_ar": "يتواصل مع",
+        "note_ar": "لا نقول contact with كفعل.",
+        "note_en": "As a verb, say contact someone, not contact with someone.",
+        "example": "Please contact me if you have questions."
+      },
+      {
+        "word": "refer the matter to",
+        "pos": "phrase",
+        "meaning_en": "to send a problem to someone else to deal with",
+        "meaning_ar": "يحيل الأمر إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will have to refer the matter to someone higher."
+      },
+      {
+        "word": "result in",
+        "pos": "phrasal verb",
+        "meaning_en": "to cause a particular result",
+        "meaning_ar": "يؤدي إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Being late every day could result in a warning."
+      },
+      {
+        "word": "upset",
+        "pos": "verb",
+        "meaning_en": "to make someone unhappy or worried",
+        "meaning_ar": "يُزعج / يُغضب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has upset our new client."
+      },
+      {
+        "word": "keep calm",
+        "pos": "phrase",
+        "meaning_en": "to stay relaxed and not get angry",
+        "meaning_ar": "يحافظ على هدوئه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep calm and be professional."
+      },
+      {
+        "word": "unnecessary",
+        "pos": "adjective",
+        "meaning_en": "not needed",
+        "meaning_ar": "غير ضروري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That comment was unnecessary."
+      },
+      {
+        "word": "thief",
+        "pos": "noun",
+        "meaning_en": "a person who steals",
+        "meaning_ar": "لص / سارق",
+        "note_ar": "الجمع: thieves. الفعل: steal.",
+        "note_en": "Plural: thieves. Verb: steal.",
+        "example": "So Rachel is the pen thief!"
+      },
+      {
+        "word": "steal",
+        "pos": "verb",
+        "meaning_en": "to take something that is not yours without permission",
+        "meaning_ar": "يسرق",
+        "note_ar": "steal – stole – stolen.",
+        "note_en": "steal – stole – stolen.",
+        "example": "Someone has been stealing the company's pens."
+      },
+      {
+        "word": "stationery",
+        "pos": "noun",
+        "meaning_en": "paper, pens and other things for writing in an office",
+        "meaning_ar": "أدوات مكتبية / قرطاسية",
+        "note_ar": "لا تخلط بينها و stationary (ثابت).",
+        "note_en": "Don't confuse with stationary (not moving).",
+        "example": "The stationery cupboard is empty."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "verbal warning vs written warning",
+        "words": [
+          "verbal warning",
+          "written warning"
+        ],
+        "explanation_ar": "verbal warning إنذار شفهي وهو الخطوة الأولى. written warning إنذار مكتوب يُحفظ في ملف الموظف وهو أشد. كلمة verbal تعني (بالكلام) هنا.",
+        "explanation_en": "A verbal warning is spoken and is usually the first step. A written warning is on paper, goes in your file and is more serious.",
+        "examples": [
+          {
+            "word": "verbal warning",
+            "sentence": "She got a verbal warning for being rude."
+          },
+          {
+            "word": "written warning",
+            "sentence": "After a second mistake, he received a written warning."
+          }
+        ]
+      },
+      {
+        "title": "stationery vs stationary",
+        "words": [
+          "stationery",
+          "stationary"
+        ],
+        "explanation_ar": "stationery (بحرف e) تعني الأدوات المكتبية: أقلام وأوراق. stationary (بحرف a) صفة تعني ثابتًا لا يتحرك. النطق واحد.",
+        "explanation_en": "Stationery (with e) means pens, paper and office supplies. Stationary (with a) means not moving. They sound the same.",
+        "examples": [
+          {
+            "word": "stationery",
+            "sentence": "Where's the stationery cupboard?"
+          },
+          {
+            "word": "stationary",
+            "sentence": "The car was stationary at the lights."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "You've made some serious mistakes.",
+        "meaning_ar": "لقد ارتكبت بعض الأخطاء الجسيمة.",
+        "meaning_en": "Starting a verbal warning clearly and calmly.",
+        "example": "I need to tell you that you've made some serious mistakes."
+      },
+      {
+        "phrase": "You need to consult me before you contact any of our clients.",
+        "meaning_ar": "عليك استشارتي قبل أن تتواصل مع أيٍّ من عملائنا.",
+        "meaning_en": "Setting a clear rule for an employee.",
+        "example": "From now on, you need to consult me before you contact any of our clients."
+      },
+      {
+        "phrase": "These mistakes cannot happen again, otherwise I will have to refer the matter to someone higher.",
+        "meaning_ar": "لا يجوز أن تتكرر هذه الأخطاء، وإلا فسأضطر إلى رفع الأمر إلى مسؤول أعلى.",
+        "meaning_en": "Giving a warning about what will happen next.",
+        "example": "These mistakes cannot happen again, otherwise I will have to refer the matter to someone higher."
+      },
+      {
+        "phrase": "It could result in disciplinary action.",
+        "meaning_ar": "قد يؤدي ذلك إلى إجراء تأديبي.",
+        "meaning_en": "Explaining the possible result.",
+        "example": "Being late again could result in disciplinary action."
+      },
+      {
+        "phrase": "Can we talk, please?",
+        "meaning_ar": "هل يمكننا التحدث من فضلك؟",
+        "meaning_en": "Asking for a serious conversation.",
+        "example": "Rachel, can we talk, please? It's important."
+      },
+      {
+        "phrase": "I'll leave it with you.",
+        "meaning_ar": "سأترك الأمر لك.",
+        "meaning_en": "Giving a task to someone else to handle.",
+        "example": "I've got a meeting now, so I'll leave it with you."
+      },
+      {
+        "phrase": "I need to see you in my office, please.",
+        "meaning_ar": "أحتاج إلى رؤيتك في مكتبي من فضلك.",
+        "meaning_en": "A formal request from a manager.",
+        "example": "Could you come to my office, please? I need to see you."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "otherwise = if not",
+        "explanation_ar": "otherwise تعني (وإلا / إن لم يحدث ذلك) وتربط بين تحذير ونتيجته: These mistakes cannot happen again, otherwise I will refer the matter.",
+        "explanation_en": "'otherwise' means 'if not'. It links a warning and its result: These mistakes cannot happen again, otherwise I will refer the matter.",
+        "examples": [
+          "These mistakes cannot happen again, otherwise I will have to refer the matter to someone higher.",
+          "Save your work, otherwise you may lose it.",
+          "We must leave now, otherwise we'll miss the train."
+        ]
+      },
+      {
+        "title": "need to / have to for obligation",
+        "explanation_ar": "need to + الفعل: شيء ضروري (You need to consult me). have to + الفعل: التزام بسبب ظرف أو قاعدة (I will have to refer the matter).",
+        "explanation_en": "need to + verb: something necessary. have to + verb: an obligation because of a rule or situation.",
+        "examples": [
+          "You need to consult me before you contact any clients.",
+          "I will have to refer the matter to someone higher.",
+          "We have to fill in this form."
+        ]
+      },
+      {
+        "title": "before + present simple for future",
+        "explanation_ar": "بعد before (وكذلك when, after, until) نستخدم المضارع البسيط حتى لو كان المعنى مستقبلًا: before you contact any clients، وليس before you will contact.",
+        "explanation_en": "After before/when/after/until use the present simple even for the future: before you contact any clients, not 'before you will contact'.",
+        "examples": [
+          "Consult me before you contact any clients.",
+          "Call me when you arrive.",
+          "Check the order before you send it."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is a 'verbal warning'?",
+      "choices": [
+        "a promotion",
+        "a letter of thanks",
+        "a pay rise",
+        "a spoken warning to improve"
+      ],
+      "answer": 3,
+      "explanation_ar": "verbal warning إنذار شفهي.",
+      "explanation_en": "A verbal warning is a spoken warning."
+    },
+    {
+      "question": "Complete: 'These mistakes cannot happen again, ___ I will have to refer the matter to someone higher.'",
+      "choices": [
+        "because",
+        "otherwise",
+        "so that",
+        "although"
+      ],
+      "answer": 1,
+      "explanation_ar": "otherwise تعني وإلا.",
+      "explanation_en": "'otherwise' means 'if not'."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "You need to consult me before you contact any clients.",
+        "You need to consult me before you will contact any clients.",
+        "You need consult me before you contacting any clients.",
+        "You need to consult me before contact with any clients."
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد before نستخدم المضارع البسيط.",
+      "explanation_en": "After 'before' use the present simple."
+    },
+    {
+      "question": "The narrator tells Anna to 'stick to the facts'. What does that mean?",
+      "choices": [
+        "write a long story",
+        "stick paper on the wall",
+        "talk only about what really happened",
+        "talk about Rachel's clothes"
+      ],
+      "answer": 2,
+      "explanation_ar": "stick to the facts تعني الالتزام بما حدث فعلًا.",
+      "explanation_en": "It means talk only about real events."
+    },
+    {
+      "question": "'Don't get personal' means…",
+      "choices": [
+        "don't talk to anyone",
+        "don't criticise someone's character or looks",
+        "don't take a day off",
+        "don't use your phone"
+      ],
+      "answer": 1,
+      "explanation_ar": "get personal تعني انتقاد الشخص نفسه بدل عمله.",
+      "explanation_en": "It means attacking the person, not the work."
+    },
+    {
+      "question": "Which word means 'pens, paper and office supplies'?",
+      "choices": [
+        "station",
+        "stationary",
+        "statement",
+        "stationery"
+      ],
+      "answer": 3,
+      "explanation_ar": "stationery بحرف e هي الأدوات المكتبية.",
+      "explanation_en": "Stationery (with e) is office supplies."
+    },
+    {
+      "question": "What does 'consult' mean?",
+      "choices": [
+        "ask someone for advice before you act",
+        "shout at someone",
+        "sign a contract",
+        "steal something"
+      ],
+      "answer": 0,
+      "explanation_ar": "consult تعني يستشير.",
+      "explanation_en": "Consult means ask for advice."
+    },
+    {
+      "question": "Complete: 'Stealing could ___ in disciplinary action.'",
+      "choices": [
+        "results to",
+        "resulting",
+        "result",
+        "resulted to"
+      ],
+      "answer": 2,
+      "explanation_ar": "result in + اسم: يؤدي إلى.",
+      "explanation_en": "'result in' means cause."
+    },
+    {
+      "question": "Paul says 'I'll leave it with you.' He means…",
+      "choices": [
+        "take my biscuits",
+        "leave the office",
+        "you deal with it",
+        "go on holiday"
+      ],
+      "answer": 2,
+      "explanation_ar": "يعني أنه يترك المهمة لآنا لتتعامل معها.",
+      "explanation_en": "He means Anna should deal with it."
+    },
+    {
+      "question": "A person who has just joined a company is a ___.",
+      "choices": [
+        "new recruit",
+        "thief",
+        "client",
+        "boss"
+      ],
+      "answer": 0,
+      "explanation_ar": "new recruit موظف جديد.",
+      "explanation_en": "A new recruit has just joined."
+    }
+  ]
+}

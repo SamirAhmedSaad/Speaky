@@ -1,0 +1,43 @@
+{
+  "title": "Must vs Have to",
+  "content": {
+    "vocabulary": [
+      {"word": "must", "pos": "modal verb", "meaning_en": "it is necessary because I strongly believe or feel it", "meaning_ar": "يجب (عن قناعة وشعور قوي)", "note_ar": "يتبعها المصدر بدون to: must go", "note_en": "Followed by the base verb without to: must go.", "example": "You must be kind to your parents."},
+      {"word": "have to", "pos": "phrase", "meaning_en": "it is necessary because of facts or reasons", "meaning_ar": "يجب / مضطر إلى (لأسباب وحقائق)", "note_ar": "مع he/she/it: has to", "note_en": "With he/she/it: has to.", "example": "I have to get up early for work."},
+      {"word": "believe", "pos": "verb", "meaning_en": "to think that something is true", "meaning_ar": "يؤمن / يعتقد", "note_ar": "الاسم: belief", "note_en": "Noun: belief.", "example": "I believe hard work is important."},
+      {"word": "fact", "pos": "noun", "meaning_en": "something that is known to be true", "meaning_ar": "حقيقة (واقعة)", "note_ar": "", "note_en": "", "example": "It is a fact that water boils at 100°C."},
+      {"word": "factual", "pos": "adjective", "meaning_en": "based on facts", "meaning_ar": "واقعي / مبني على الحقائق", "note_ar": "", "note_en": "", "example": "Please give me a factual answer."},
+      {"word": "reason", "pos": "noun", "meaning_en": "why something happens or is done", "meaning_ar": "سبب", "note_ar": "", "note_en": "", "example": "There is a good reason to study."},
+      {"word": "strongly", "pos": "adverb", "meaning_en": "very much; with strong feeling", "meaning_ar": "بقوة / بشدة", "note_ar": "", "note_en": "", "example": "I strongly believe in honesty."},
+      {"word": "emotion", "pos": "noun", "meaning_en": "a strong feeling, like love, fear or anger", "meaning_ar": "عاطفة / شعور", "note_ar": "", "note_en": "", "example": "Emotions can be stronger than thinking."},
+      {"word": "in order to", "pos": "phrase", "meaning_en": "so that you can (shows purpose)", "meaning_ar": "من أجل أن / لكي", "note_ar": "", "note_en": "", "example": "You have to study in order to do well."},
+      {"word": "do well", "pos": "phrase", "meaning_en": "to be successful; to get a good result", "meaning_ar": "ينجح / يُبلي حسنًا", "note_ar": "", "note_en": "", "example": "I hope you do well on your test."}
+    ],
+    "fine_lines": [
+      {"title": "must vs have to", "words": ["must", "have to"], "explanation_ar": "استخدم must عندما تؤمن بقوة أن الشيء صحيح أو ضروري حتى بدون حقائق (شعور داخلي). استخدم have to عندما تعتمد على حقائق وأسباب خارجية. حسب جيمس: must أقوى من have to لأن المشاعر أقوى من التفكير.", "explanation_en": "Use must when you strongly believe something is right or necessary, even without facts (a feeling). Use have to when there are facts and reasons. James says must is stronger than have to, because emotions are stronger than thinking.", "examples": [{"word": "must", "sentence": "We must help poor people."}, {"word": "have to", "sentence": "I have to pass this test to go to a good school."}]}
+    ],
+    "expressions": [
+      {"phrase": "I have to go.", "meaning_ar": "يجب أن أذهب.", "meaning_en": "I need to leave now.", "example": "Sorry, I have to go. See you tomorrow."},
+      {"phrase": "It must be true.", "meaning_ar": "لا بد أنه صحيح.", "meaning_en": "I strongly believe it is true.", "example": "Everyone says the shop is closed, so it must be true."},
+      {"phrase": "Believe it or not", "meaning_ar": "صدّق أو لا تصدّق", "meaning_en": "Said before something surprising but true.", "example": "Believe it or not, he learned English in one year."},
+      {"phrase": "I bet you can...", "meaning_ar": "أراهن أنك تستطيع... (أنا متأكد أنك...)", "meaning_en": "I'm sure you can...", "example": "I bet you can think of one thing you have to do."}
+    ],
+    "grammar": [
+      {"title": "Must + base verb", "explanation_ar": "التركيب: الفاعل + must + المصدر. must لا تتغير مع he/she/it ولا نضع بعدها to. نستخدمها عندما نؤمن أو نشعر بقوة أن الشيء ضروري.", "explanation_en": "Structure: subject + must + base verb. Must never changes (no -s) and has no to after it. Use it when you strongly believe or feel something is necessary.", "examples": ["You must tell the truth.", "He must work harder. (not: He musts / He must to)"]},
+      {"title": "Have to + base verb", "explanation_ar": "التركيب: الفاعل + have/has to + المصدر. نستخدمه عندما توجد حقائق أو أسباب تجعل الأمر ضروريًا.", "explanation_en": "Structure: subject + have/has to + base verb. Use it when facts or reasons make something necessary.", "examples": ["I have to do well on my test because I want to go to a good school.", "She has to wear a uniform at work."]},
+      {"title": "Must for strong belief (it must be...)", "explanation_ar": "نستخدم must أيضًا عندما نعتقد بقوة أن شيئًا صحيح: It must be true = أنا متأكد تقريبًا أنه صحيح.", "explanation_en": "We also use must when we strongly believe something is true: It must be true = I'm almost sure it is true.", "examples": ["The lights are off. They must be asleep.", "You must be tired after your long trip."]}
+    ]
+  },
+  "questions": [
+    {"question": "Use ___ when you have facts and reasons.", "choices": ["have to", "must", "might", "can"], "answer": 0, "explanation_ar": "have to تعتمد على الحقائق والأسباب.", "explanation_en": "Have to is based on facts and reasons."},
+    {"question": "According to James, which is stronger?", "choices": ["have to", "has to", "must", "they are never different"], "answer": 2, "explanation_ar": "must أقوى لأنها مبنية على الإيمان والشعور.", "explanation_en": "Must is stronger because it comes from belief and feeling."},
+    {"question": "Choose the correct sentence.", "choices": ["He must to study.", "He musts study.", "He must studies.", "He must study."], "answer": 3, "explanation_ar": "must + المصدر بدون to وبدون s.", "explanation_en": "must + base verb, no to, no -s."},
+    {"question": "She ___ wake up at six because her bus leaves at 6:30.", "choices": ["have to", "has to", "must to", "having to"], "answer": 1, "explanation_ar": "مع she: has to، والسبب حقيقة (موعد الحافلة).", "explanation_en": "With she: has to; the reason is a fact (the bus time)."},
+    {"question": "What does \"fact\" mean?", "choices": ["something you feel", "something known to be true", "a question", "a wish"], "answer": 1, "explanation_ar": "fact = حقيقة معروفة.", "explanation_en": "A fact is something known to be true."},
+    {"question": "\"You have to study ___ do well in English.\"", "choices": ["for", "so", "in order to", "because"], "answer": 2, "explanation_ar": "in order to = لكي (للغرض).", "explanation_en": "In order to shows purpose."},
+    {"question": "\"Everyone agrees, so it ___ be true.\"", "choices": ["must", "has", "have", "doesn't"], "answer": 0, "explanation_ar": "must be true = لا بد أنه صحيح.", "explanation_en": "Must be true = I strongly believe it is true."},
+    {"question": "What does \"emotion\" mean?", "choices": ["a fact", "a reason", "a test", "a strong feeling"], "answer": 3, "explanation_ar": "emotion = شعور قوي.", "explanation_en": "An emotion is a strong feeling."},
+    {"question": "Which sentence is based on a strong belief, not facts?", "choices": ["I have to pay the bill before Monday.", "We must always be honest.", "I have to take the 8 o'clock train.", "She has to renew her passport; it expires soon."], "answer": 1, "explanation_ar": "الصدق قناعة وقيمة نؤمن بها، لذلك must.", "explanation_en": "Honesty is a belief we feel strongly about, so must."},
+    {"question": "\"Believe it or not\" is used before something ___.", "choices": ["boring", "false", "surprising but true", "in the past only"], "answer": 2, "explanation_ar": "نقولها قبل خبر مدهش لكنه صحيح.", "explanation_en": "We say it before something surprising but true."}
+  ]
+}

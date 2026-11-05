@@ -1,0 +1,56 @@
+{
+  "title": "Stop Saying \"Very\"",
+  "content": {
+    "vocabulary": [
+      {"word": "monotonous", "pos": "adjective", "meaning_en": "boring because it is always the same", "meaning_ar": "رتيب / مملّ", "note_ar": "mono = واحد، tone = نغمة", "note_en": "mono = one, tone = sound", "example": "Saying \"very\" again and again is monotonous."},
+      {"word": "vulgar", "pos": "adjective", "meaning_en": "very rude", "meaning_ar": "بذيء / فظّ جدًا", "note_ar": "= very rude", "note_en": "= very rude", "example": "Please don't use vulgar language."},
+      {"word": "brief", "pos": "adjective", "meaning_en": "very short (in time)", "meaning_ar": "موجز / قصير جدًا", "note_ar": "= very short", "note_en": "= very short", "example": "We had a brief meeting."},
+      {"word": "dull", "pos": "adjective", "meaning_en": "very boring; it can also mean not clever", "meaning_ar": "مملّ جدًا / بليد", "note_ar": "= very boring، وقد تعني غبي فانتبه للسياق", "note_en": "= very boring; can also mean stupid", "example": "The lecture was dull."},
+      {"word": "superb", "pos": "adjective", "meaning_en": "very good; excellent", "meaning_ar": "ممتاز / رائع", "note_ar": "= very good، وفيها كلمة super", "note_en": "= very good; it contains \"super\"", "example": "The food was superb."},
+      {"word": "phenomenal", "pos": "adjective", "meaning_en": "extremely good; amazing", "meaning_ar": "استثنائي / مذهل", "note_ar": "", "note_en": "", "example": "Your writing will be phenomenal."},
+      {"word": "freezing", "pos": "adjective", "meaning_en": "very cold", "meaning_ar": "شديد البرودة / متجمّد", "note_ar": "= very cold", "note_en": "= very cold", "example": "It's freezing outside; wear a hat."},
+      {"word": "ravenous", "pos": "adjective", "meaning_en": "very hungry", "meaning_ar": "جائع جدًا", "note_ar": "= very hungry", "note_en": "= very hungry", "example": "After the long walk, we were ravenous."},
+      {"word": "sluggish", "pos": "adjective", "meaning_en": "very slow; moving without energy", "meaning_ar": "بطيء جدًا / متثاقل", "note_ar": "= very slow، من slug (البزّاقة)", "note_en": "= very slow; like a slug", "example": "I feel sluggish in the morning."},
+      {"word": "rapid / rapidly", "pos": "adjective / adverb", "meaning_en": "very fast / very quickly", "meaning_ar": "سريع جدًا / بسرعة", "note_ar": "rapid صفة، rapidly ظرف", "note_en": "rapid (adjective), rapidly (adverb)", "example": "He speaks rapidly."},
+      {"word": "exhausted", "pos": "adjective", "meaning_en": "very tired", "meaning_ar": "منهك", "note_ar": "= very tired", "note_en": "= very tired", "example": "I'm exhausted after work."},
+      {"word": "destitute", "pos": "adjective", "meaning_en": "very poor; having nothing", "meaning_ar": "معدم / فقير جدًا", "note_ar": "= very poor، كلمة قوية جدًا", "note_en": "= very poor; a very strong word", "example": "After the flood, many families were destitute."},
+      {"word": "wealthy", "pos": "adjective", "meaning_en": "very rich", "meaning_ar": "ثريّ جدًا", "note_ar": "= very rich", "note_en": "= very rich", "example": "He wants to be a wealthy man one day."},
+      {"word": "scalding", "pos": "adjective", "meaning_en": "very hot (for liquids)", "meaning_ar": "شديد السخونة (للسوائل)", "note_ar": "للسوائل مثل الماء والقهوة", "note_en": "For liquids like water or coffee.", "example": "Careful, the tea is scalding."},
+      {"word": "scorching", "pos": "adjective", "meaning_en": "very hot (for weather or the sun)", "meaning_ar": "حارق (للطقس والشمس)", "note_ar": "للطقس والشمس", "note_en": "For weather or the sun.", "example": "It's scorching outside today: 40 degrees!"},
+      {"word": "jubilant", "pos": "adjective", "meaning_en": "very happy", "meaning_ar": "مبتهج جدًا", "note_ar": "= very happy", "note_en": "= very happy", "example": "The team was jubilant after the win."},
+      {"word": "anxious", "pos": "adjective", "meaning_en": "very nervous or worried", "meaning_ar": "قلِق جدًا", "note_ar": "= very nervous", "note_en": "= very nervous", "example": "I'm anxious about my exam results."},
+      {"word": "parched", "pos": "adjective", "meaning_en": "very thirsty; (land) very dry", "meaning_ar": "عطشان جدًا / جافّ (للأرض)", "note_ar": "= very thirsty", "note_en": "= very thirsty", "example": "I'm parched. Can I have some water?"},
+      {"word": "squalid", "pos": "adjective", "meaning_en": "very dirty and unpleasant", "meaning_ar": "قذر جدًا", "note_ar": "= very dirty، كلمة قاسية", "note_en": "= very dirty; a harsh word", "example": "The old building was squalid."},
+      {"word": "spotless", "pos": "adjective", "meaning_en": "very clean; with no dirt at all", "meaning_ar": "نظيف تمامًا", "note_ar": "= very clean", "note_en": "= very clean", "example": "I want this kitchen spotless."},
+      {"word": "collocation", "pos": "noun", "meaning_en": "words that often go together, like \"very hot\"", "meaning_ar": "تلازم لفظي (كلمات تأتي معًا)", "note_ar": "", "note_en": "", "example": "\"Heavy rain\" is a common collocation."}
+    ],
+    "fine_lines": [
+      {"title": "scalding vs scorching", "words": ["scalding", "scorching"], "explanation_ar": "كلاهما يعني حارًّا جدًا. scalding للسوائل مثل الماء والقهوة. scorching للطقس وحرارة الشمس.", "explanation_en": "Both mean very hot. Scalding is for liquids (water, coffee). Scorching is for weather and the sun.", "examples": [{"word": "scalding", "sentence": "Don't touch the water; it's scalding."}, {"word": "scorching", "sentence": "It was a scorching day in August."}]},
+      {"title": "rich vs wealthy", "words": ["rich", "wealthy"], "explanation_ar": "rich غنيّ. wealthy أقوى: ثريّ جدًا، مثل الشخص الذي يدفع رواتب الأغنياء.", "explanation_en": "Rich = has a lot of money. Wealthy is stronger: very rich, like the person who pays rich people.", "examples": [{"word": "rich", "sentence": "The football player is rich."}, {"word": "wealthy", "sentence": "The wealthy owner of the team pays him."}]},
+      {"title": "rapid vs rapidly", "words": ["rapid", "rapidly"], "explanation_ar": "rapid صفة تأتي قبل الاسم: a rapid speaker. rapidly ظرف يصف الفعل: He speaks rapidly.", "explanation_en": "Rapid is an adjective (a rapid change). Rapidly is an adverb (it changed rapidly).", "examples": [{"word": "rapid", "sentence": "There was a rapid change in the weather."}, {"word": "rapidly", "sentence": "The weather changed rapidly."}]}
+    ],
+    "expressions": [
+      {"phrase": "very rude → vulgar; very short → brief; very boring → dull", "meaning_ar": "بذيء؛ موجز؛ ممل جدًا", "meaning_en": "stronger single words instead of very + adjective", "example": "It was a brief, dull meeting."},
+      {"phrase": "very good → superb; very cold → freezing; very hungry → ravenous", "meaning_ar": "ممتاز؛ شديد البرودة؛ جائع جدًا", "meaning_en": "stronger single words", "example": "It's freezing and I'm ravenous."},
+      {"phrase": "very slow → sluggish; very fast → rapid; very tired → exhausted", "meaning_ar": "متثاقل؛ سريع؛ منهك", "meaning_en": "stronger single words", "example": "I'm exhausted and sluggish today."},
+      {"phrase": "very poor → destitute; very rich → wealthy; very hot → scalding / scorching", "meaning_ar": "معدم؛ ثري؛ شديد الحرارة", "meaning_en": "stronger single words", "example": "It's scorching in the desert."},
+      {"phrase": "very happy → jubilant; very nervous → anxious; very thirsty → parched; very dirty → squalid; very clean → spotless", "meaning_ar": "مبتهج؛ قلق؛ عطشان؛ قذر؛ نظيف تمامًا", "meaning_en": "level-two words", "example": "Keep your room spotless."},
+      {"phrase": "a $10 word", "meaning_ar": "كلمة راقية / صعبة", "meaning_en": "a long, impressive word", "example": "\"Ravenous\" is a $10 word."}
+    ],
+    "grammar": [
+      {"title": "Replace \"very + adjective\" with one strong adjective", "explanation_ar": "بدل تكرار very مع الصفة، استخدم صفة واحدة قوية تحمل معنى very. لا تقل very exhausted أو very freezing لأن هذه الصفات قوية بذاتها؛ يمكنك أن تقول absolutely أو rather بدلًا من ذلك.", "explanation_en": "Instead of very + adjective, use one strong adjective that already means \"very\". Don't say \"very exhausted\" or \"very freezing\"; these words are already strong. You can use \"absolutely\" or \"rather\" instead.", "examples": ["very tired → I'm exhausted.", "very cold → It's freezing.", "I'm absolutely exhausted."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which word means \"very tired\"?", "choices": ["exhausted", "jubilant", "brief", "superb"], "answer": 0, "explanation_ar": "exhausted = منهك.", "explanation_en": "Exhausted = very tired."},
+    {"question": "\"Careful! The coffee is ___.\"", "choices": ["scorching", "scalding", "parched", "sluggish"], "answer": 1, "explanation_ar": "scalding للسوائل الساخنة جدًا.", "explanation_en": "Scalding is for very hot liquids."},
+    {"question": "\"It's 40 degrees. It's ___ outside.\"", "choices": ["freezing", "scalding", "scorching", "squalid"], "answer": 2, "explanation_ar": "scorching لحرارة الطقس والشمس.", "explanation_en": "Scorching is for hot weather."},
+    {"question": "\"Very poor\" =", "choices": ["wealthy", "dull", "rapid", "destitute"], "answer": 3, "explanation_ar": "destitute = فقير جدًا.", "explanation_en": "Destitute = very poor."},
+    {"question": "\"I'm ___. Can I have some water?\"", "choices": ["parched", "ravenous", "anxious", "vulgar"], "answer": 0, "explanation_ar": "parched = عطشان جدًا.", "explanation_en": "Parched = very thirsty."},
+    {"question": "Which word means \"very boring\"?", "choices": ["superb", "dull", "rapid", "jubilant"], "answer": 1, "explanation_ar": "dull = ممل جدًا.", "explanation_en": "Dull = very boring."},
+    {"question": "\"I'm ___. Let's eat now!\" (very hungry)", "choices": ["sluggish", "spotless", "ravenous", "brief"], "answer": 2, "explanation_ar": "ravenous = جائع جدًا.", "explanation_en": "Ravenous = very hungry."},
+    {"question": "\"Clean your room. I want it ___.\"", "choices": ["squalid", "vulgar", "anxious", "spotless"], "answer": 3, "explanation_ar": "spotless = نظيف تمامًا.", "explanation_en": "Spotless = very clean."},
+    {"question": "Choose the best sentence.", "choices": ["The food was superb.", "The food was very superb.", "The food was very very good very.", "The food was superbly."], "answer": 0, "explanation_ar": "superb قوية بذاتها، لا نضيف very.", "explanation_en": "Superb is already strong; no \"very\"."},
+    {"question": "\"I'm very nervous about the interview.\" Better:", "choices": ["I'm jubilant about the interview.", "I'm anxious about the interview.", "I'm parched about the interview.", "I'm squalid about the interview."], "answer": 1, "explanation_ar": "anxious = قلق جدًا.", "explanation_en": "Anxious = very nervous."}
+  ]
+}

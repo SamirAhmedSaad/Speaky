@@ -1,0 +1,424 @@
+{
+  "title": "Talking About Hobbies",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "weather",
+        "pos": "noun",
+        "meaning_en": "how hot, cold, sunny or rainy it is",
+        "meaning_ar": "الطقس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The weather is nice today."
+      },
+      {
+        "word": "beautiful",
+        "pos": "adjective",
+        "meaning_en": "very nice to look at",
+        "meaning_ar": "جميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What a beautiful day!"
+      },
+      {
+        "word": "free time",
+        "pos": "noun",
+        "meaning_en": "time when you are not working or studying",
+        "meaning_ar": "وقت الفراغ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I read in my free time."
+      },
+      {
+        "word": "hobby",
+        "pos": "noun",
+        "meaning_en": "something you enjoy doing in your free time",
+        "meaning_ar": "هواية",
+        "note_ar": "الجمع: hobbies",
+        "note_en": "Plural: hobbies.",
+        "example": "My hobby is drawing."
+      },
+      {
+        "word": "painting",
+        "pos": "noun",
+        "meaning_en": "making pictures with paint",
+        "meaning_ar": "الرسم بالألوان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Painting helps me relax."
+      },
+      {
+        "word": "drawing",
+        "pos": "noun",
+        "meaning_en": "making pictures with a pencil or pen",
+        "meaning_ar": "الرسم (بالقلم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is good at drawing."
+      },
+      {
+        "word": "relax",
+        "pos": "verb",
+        "meaning_en": "rest and feel calm",
+        "meaning_ar": "يسترخي / يرتاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I relax at home on Friday."
+      },
+      {
+        "word": "creative",
+        "pos": "adjective",
+        "meaning_en": "good at making new things or ideas",
+        "meaning_ar": "مبدع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Children are very creative."
+      },
+      {
+        "word": "enjoy",
+        "pos": "verb",
+        "meaning_en": "like doing something",
+        "meaning_ar": "يستمتع بـ",
+        "note_ar": "بعدها فعل + ing: enjoy reading",
+        "note_en": "Use verb-ing after it: enjoy reading.",
+        "example": "I enjoy reading stories."
+      },
+      {
+        "word": "talented",
+        "pos": "adjective",
+        "meaning_en": "having a natural skill to do something well",
+        "meaning_ar": "موهوب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is a talented artist."
+      },
+      {
+        "word": "reading",
+        "pos": "noun",
+        "meaning_en": "looking at and understanding books",
+        "meaning_ar": "القراءة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Reading is my favorite hobby."
+      },
+      {
+        "word": "novel",
+        "pos": "noun",
+        "meaning_en": "a long story in a book",
+        "meaning_ar": "رواية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am reading a new novel."
+      },
+      {
+        "word": "fiction",
+        "pos": "noun",
+        "meaning_en": "stories that are not true",
+        "meaning_ar": "الأدب الخيالي (القصص)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like fiction more than history books."
+      },
+      {
+        "word": "mystery",
+        "pos": "noun",
+        "meaning_en": "a story about a crime or secret that is solved at the end",
+        "meaning_ar": "قصة غموض / ألغاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This mystery novel is very exciting."
+      },
+      {
+        "word": "favorite",
+        "pos": "adjective",
+        "meaning_en": "liked more than all the others",
+        "meaning_ar": "المفضّل",
+        "note_ar": "في بريطانيا: favourite",
+        "note_en": "UK spelling: favourite.",
+        "example": "Blue is my favorite color."
+      },
+      {
+        "word": "swap",
+        "pos": "verb",
+        "meaning_en": "give something and get something back",
+        "meaning_ar": "يتبادل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's swap books next week."
+      },
+      {
+        "word": "recommendation",
+        "pos": "noun",
+        "meaning_en": "an idea about something good to try",
+        "meaning_ar": "توصية / اقتراح",
+        "note_ar": "الفعل: recommend",
+        "note_en": "Verb: recommend.",
+        "example": "Thanks for the book recommendation."
+      },
+      {
+        "word": "exchange",
+        "pos": "verb",
+        "meaning_en": "give each other something",
+        "meaning_ar": "يتبادل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We exchanged phone numbers."
+      },
+      {
+        "word": "discuss",
+        "pos": "verb",
+        "meaning_en": "talk about something with someone",
+        "meaning_ar": "يناقش",
+        "note_ar": "لا نقول discuss about",
+        "note_en": "Don't say \"discuss about\".",
+        "example": "Let's discuss the story."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "painting vs drawing",
+        "words": [
+          "painting",
+          "drawing"
+        ],
+        "explanation_ar": "painting رسم بالألوان والفرشاة، و drawing رسم بالقلم الرصاص أو الحبر.",
+        "explanation_en": "Painting uses paint and a brush. Drawing uses a pencil or pen.",
+        "examples": [
+          {
+            "word": "painting",
+            "sentence": "Her painting has many colors."
+          },
+          {
+            "word": "drawing",
+            "sentence": "I made a drawing of my house with a pencil."
+          }
+        ]
+      },
+      {
+        "title": "swap vs exchange",
+        "words": [
+          "swap",
+          "exchange"
+        ],
+        "explanation_ar": "الكلمتان بمعنى التبادل. swap غير رسمية وشائعة في الكلام، و exchange أكثر رسمية.",
+        "explanation_en": "Both mean give and get something back. \"Swap\" is informal; \"exchange\" is more formal.",
+        "examples": [
+          {
+            "word": "swap",
+            "sentence": "Can we swap seats?"
+          },
+          {
+            "word": "exchange",
+            "sentence": "Let's exchange phone numbers."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Nice weather today, isn't it?",
+        "meaning_ar": "الطقس جميل اليوم، أليس كذلك؟",
+        "meaning_en": "An easy way to start a friendly chat.",
+        "example": "Nice weather today, isn't it? Yes, it's lovely."
+      },
+      {
+        "phrase": "By the way, I'm Ben.",
+        "meaning_ar": "بالمناسبة، أنا بن.",
+        "meaning_en": "Use \"by the way\" to add new information, like your name.",
+        "example": "By the way, I'm Omar."
+      },
+      {
+        "phrase": "Nice to meet you. / Nice to meet you too.",
+        "meaning_ar": "سعدت بلقائك. / وأنا أيضًا سعدت بلقائك.",
+        "meaning_en": "Say this when you meet someone for the first time.",
+        "example": "Nice to meet you, Amy. Nice to meet you too."
+      },
+      {
+        "phrase": "What do you like to do in your free time?",
+        "meaning_ar": "ماذا تحب أن تفعل في وقت فراغك؟",
+        "meaning_en": "Ask about someone's hobbies.",
+        "example": "What do you like to do in your free time? I like reading."
+      },
+      {
+        "phrase": "It's a great way to relax.",
+        "meaning_ar": "إنها طريقة رائعة للاسترخاء.",
+        "meaning_en": "Say why you like a hobby.",
+        "example": "Walking is a great way to relax."
+      },
+      {
+        "phrase": "How about you?",
+        "meaning_ar": "وماذا عنك؟",
+        "meaning_en": "Ask the other person the same question.",
+        "example": "I like drawing. How about you?"
+      },
+      {
+        "phrase": "You're really talented.",
+        "meaning_ar": "أنت موهوب حقًا.",
+        "meaning_en": "Praise someone's skill.",
+        "example": "Your painting is great. You're really talented."
+      },
+      {
+        "phrase": "We should swap book recommendations.",
+        "meaning_ar": "يجب أن نتبادل ترشيحات الكتب.",
+        "meaning_en": "Suggest sharing ideas about books.",
+        "example": "You like novels too! We should swap book recommendations."
+      },
+      {
+        "phrase": "I'm glad we met.",
+        "meaning_ar": "أنا سعيد بأننا التقينا.",
+        "meaning_en": "Say you are happy to meet someone.",
+        "example": "I'm glad we met. See you soon."
+      },
+      {
+        "phrase": "Shall we exchange phone numbers?",
+        "meaning_ar": "هل نتبادل أرقام الهواتف؟",
+        "meaning_en": "Suggest staying in touch. (Shall we...? = a suggestion)",
+        "example": "Shall we exchange phone numbers? Sure!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Talking about likes: like / love / enjoy + verb-ing",
+        "explanation_ar": "لنتحدث عن الهوايات نستخدم like أو love أو enjoy ثم الفعل مع ing: I enjoy painting. I love reading. ويمكن بعد like و love استخدام to + الفعل: I like to read.",
+        "explanation_en": "To talk about hobbies: like / love / enjoy + verb-ing. After like and love you can also use to + verb.",
+        "examples": [
+          "I enjoy painting and drawing.",
+          "I love reading.",
+          "What do you like to do in your free time?"
+        ]
+      },
+      {
+        "title": "Question tags: \"isn't it?\"",
+        "explanation_ar": "نضيف سؤالًا قصيرًا في آخر الجملة لنطلب الموافقة: Nice weather today, isn't it? إذا كانت الجملة مثبتة بـ is يكون السؤال isn't it?",
+        "explanation_en": "Add a short question at the end to ask someone to agree: It's nice, isn't it?",
+        "examples": [
+          "Nice weather today, isn't it?",
+          "It's a beautiful day, isn't it?",
+          "This book is good, isn't it?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is a hobby?",
+      "choices": [
+        "a job you do for money",
+        "something you enjoy doing in your free time",
+        "a kind of food",
+        "a school subject"
+      ],
+      "answer": 1,
+      "explanation_ar": "hobby هي الهواية: شيء تستمتع به في وقت فراغك.",
+      "explanation_en": "A hobby is something you enjoy in your free time."
+    },
+    {
+      "question": "I enjoy ___ and drawing.",
+      "choices": [
+        "paint",
+        "to painting",
+        "painting",
+        "painted"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد enjoy نستخدم الفعل مع ing.",
+      "explanation_en": "After \"enjoy\" use verb-ing."
+    },
+    {
+      "question": "Nice weather today, ___?",
+      "choices": [
+        "isn't it",
+        "is it",
+        "doesn't it",
+        "aren't you"
+      ],
+      "answer": 0,
+      "explanation_ar": "الجملة فيها is (It's nice weather)، فالسؤال الذيلي isn't it.",
+      "explanation_en": "The sentence has \"is\", so the tag is \"isn't it\"."
+    },
+    {
+      "question": "Someone says \"Nice to meet you!\" What do you answer?",
+      "choices": [
+        "Fine, thanks.",
+        "Nice to meet you too.",
+        "I'm from Egypt.",
+        "Yes, it is."
+      ],
+      "answer": 1,
+      "explanation_ar": "الرد المعتاد: Nice to meet you too.",
+      "explanation_en": "We answer: Nice to meet you too."
+    },
+    {
+      "question": "\"You're really talented\" means you are...",
+      "choices": [
+        "very tired",
+        "very busy",
+        "very good at something",
+        "very late"
+      ],
+      "answer": 2,
+      "explanation_ar": "talented تعني موهوب، أي ماهر جدًا في شيء.",
+      "explanation_en": "Talented means very good at something."
+    },
+    {
+      "question": "Which word means a long story in a book?",
+      "choices": [
+        "novel",
+        "weather",
+        "hobby",
+        "phone"
+      ],
+      "answer": 0,
+      "explanation_ar": "novel تعني رواية.",
+      "explanation_en": "A novel is a long story in a book."
+    },
+    {
+      "question": "\"We should swap book recommendations\" means...",
+      "choices": [
+        "We should buy books.",
+        "We should sell books.",
+        "We should tell each other about good books.",
+        "We should stop reading."
+      ],
+      "answer": 2,
+      "explanation_ar": "swap يعني نتبادل، أي يخبر كلٌّ منا الآخر بكتب جيدة.",
+      "explanation_en": "Swap means each person tells the other about good books."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "What you like to do?",
+        "What do you like do?",
+        "What does you like to do?",
+        "What do you like to do?"
+      ],
+      "answer": 3,
+      "explanation_ar": "الصحيح: What do you like to do?",
+      "explanation_en": "Correct: What do you like to do?"
+    },
+    {
+      "question": "I like drawing. How ___ you?",
+      "choices": [
+        "about",
+        "for",
+        "with",
+        "from"
+      ],
+      "answer": 0,
+      "explanation_ar": "How about you? تعني: وماذا عنك؟",
+      "explanation_en": "We say \"How about you?\"."
+    },
+    {
+      "question": "___ we exchange phone numbers? — Sure!",
+      "choices": [
+        "Do",
+        "Shall",
+        "Are",
+        "Is"
+      ],
+      "answer": 1,
+      "explanation_ar": "Shall we...? لاقتراح شيء.",
+      "explanation_en": "\"Shall we...?\" makes a suggestion."
+    }
+  ]
+}

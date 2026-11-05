@@ -1,0 +1,47 @@
+{
+  "title": "Common Acronyms and Abbreviations",
+  "content": {
+    "vocabulary": [
+      {"word": "abbreviation", "pos": "noun", "meaning_en": "a short form of a word or words (e.g. Att'n, won't)", "meaning_ar": "اختصار", "note_ar": "", "note_en": "", "example": "\"Att'n\" is an abbreviation for \"attention\"."},
+      {"word": "acronym", "pos": "noun", "meaning_en": "a short form made from the first letter of each word (e.g. ETA)", "meaning_ar": "اختصار من الحروف الأولى", "note_ar": "", "note_en": "", "example": "ETA is an acronym for estimated time of arrival."},
+      {"word": "apostrophe", "pos": "noun", "meaning_en": "the mark ' that shows missing letters", "meaning_ar": "الفاصلة العلوية", "note_ar": "", "note_en": "", "example": "In \"won't\", the apostrophe shows missing letters."},
+      {"word": "FYI", "pos": "acronym", "meaning_en": "for your information", "meaning_ar": "للعلم / لمعلوماتك", "note_ar": "تُكتب وتُقال", "note_en": "Written and spoken.", "example": "FYI, the office is closed on Friday."},
+      {"word": "BTW", "pos": "acronym", "meaning_en": "by the way; incidentally (adds extra information)", "meaning_ar": "بالمناسبة", "note_ar": "في الكلام نقول by the way كاملة", "note_en": "In speech, say \"by the way\".", "example": "BTW, Johnny will be late."},
+      {"word": "incidentally", "pos": "adverb", "meaning_en": "by the way; used to add something extra", "meaning_ar": "بالمناسبة / عَرَضًا", "note_ar": "", "note_en": "", "example": "Incidentally, did you call the bank?"},
+      {"word": "N/A", "pos": "abbreviation", "meaning_en": "not applicable; does not apply", "meaning_ar": "لا ينطبق", "note_ar": "يكثر في الاستمارات", "note_en": "Common on forms.", "example": "Taxes: N/A."},
+      {"word": "BRB", "pos": "acronym", "meaning_en": "be right back (only in writing)", "meaning_ar": "سأعود حالًا", "note_ar": "للكتابة فقط، لا تنطقها", "note_en": "Write it; don't say it.", "example": "Someone's at the door. BRB!"},
+      {"word": "IMO", "pos": "acronym", "meaning_en": "in my opinion (written)", "meaning_ar": "في رأيي", "note_ar": "في الكلام نقول in my opinion", "note_en": "In speech, say \"in my opinion\".", "example": "IMO, yellow is the best colour."},
+      {"word": "SOP", "pos": "acronym", "meaning_en": "standard operating procedure: the fixed steps everyone follows", "meaning_ar": "إجراءات التشغيل القياسية", "note_ar": "تُقال في العمل", "note_en": "Said at work.", "example": "What's the SOP for a fire alarm?"},
+      {"word": "YTD", "pos": "acronym", "meaning_en": "year to date: from the start of the year until now", "meaning_ar": "منذ بداية العام حتى الآن", "note_ar": "", "note_en": "", "example": "Our YTD sales are higher than last year."},
+      {"word": "ROI", "pos": "acronym", "meaning_en": "return on investment: what you get back for the money or effort you put in", "meaning_ar": "العائد على الاستثمار", "note_ar": "يقولها رجال الأعمال", "note_en": "Used by business people.", "example": "The ROI on that course was great: I got a better job."},
+      {"word": "investment", "pos": "noun", "meaning_en": "money or effort you put into something to get more back", "meaning_ar": "استثمار", "note_ar": "", "note_en": "", "example": "A house can be a good investment."},
+      {"word": "ETA", "pos": "acronym", "meaning_en": "estimated time of arrival; when something will happen (approximately)", "meaning_ar": "الوقت المتوقع للوصول", "note_ar": "تُقال كثيرًا: What's your ETA?", "note_en": "Often said: What's your ETA?", "example": "What's your ETA? - About 20 minutes."},
+      {"word": "estimated", "pos": "adjective", "meaning_en": "guessed approximately, not exact", "meaning_ar": "تقديري / متوقَّع", "note_ar": "", "note_en": "", "example": "The estimated cost is 500 dollars."},
+      {"word": "Att'n", "pos": "abbreviation", "meaning_en": "attention; written before a name on letters or emails", "meaning_ar": "عناية / لعناية فلان", "note_ar": "للكتابة فقط: Att'n Mr. Smith", "note_en": "Written only: Att'n Mr. Smith", "example": "Att'n: Sales Manager."},
+      {"word": "TBH", "pos": "acronym", "meaning_en": "to be honest (informal, written)", "meaning_ar": "بصراحة", "note_ar": "غير رسمية، لا تستخدمها في رسائل العمل", "note_en": "Informal; not for work emails.", "example": "TBH, I didn't like the film."}
+    ],
+    "fine_lines": [
+      {"title": "abbreviation vs acronym", "words": ["abbreviation", "acronym"], "explanation_ar": "abbreviation تقصير لكلمة أو كلمتين (Att'n, won't). acronym حروف أولى من عدة كلمات (ETA, ROI).", "explanation_en": "An abbreviation shortens a word (Att'n, won't). An acronym uses the first letter of each word (ETA, ROI).", "examples": [{"word": "abbreviation", "sentence": "\"Dr.\" is an abbreviation for \"doctor\"."}, {"word": "acronym", "sentence": "\"FYI\" is an acronym."}]},
+      {"title": "said vs only written", "words": ["ETA / ROI / SOP / FYI", "BRB / IMO / Att'n"], "explanation_ar": "ETA وROI وSOP وFYI يقولها الناس في الكلام أيضًا. أما BRB وIMO وAtt'n فتُكتب فقط، وفي الكلام نقول العبارة كاملة.", "explanation_en": "ETA, ROI, SOP and FYI are also spoken. BRB, IMO and Att'n are only written; in speech we say the full words.", "examples": [{"word": "ETA / ROI / SOP / FYI", "sentence": "What's your ETA?"}, {"word": "BRB / IMO / Att'n", "sentence": "(text) BRB, my phone is ringing."}]}
+    ],
+    "expressions": [
+      {"phrase": "What's your ETA?", "meaning_ar": "متى تتوقع أن تصل؟", "meaning_en": "When will you arrive, approximately?", "example": "I'm at the café. What's your ETA?"},
+      {"phrase": "What's the SOP for this?", "meaning_ar": "ما الإجراء المعتاد في هذه الحالة؟", "meaning_en": "What are the standard steps?", "example": "A customer wants a refund. What's the SOP for this?"},
+      {"phrase": "FYI, ...", "meaning_ar": "للعلم...", "meaning_en": "Here is some information you may not have.", "example": "FYI, the meeting moved to 3 p.m."},
+      {"phrase": "You're entitled to your own opinions, but not your own facts.", "meaning_ar": "من حقك أن يكون لك رأيك، لكن ليس حقائقك الخاصة.", "meaning_en": "Opinions are personal; facts are not.", "example": "The sun is hot: that's a fact, not an opinion."}
+    ],
+    "grammar": []
+  },
+  "questions": [
+    {"question": "\"ETA\" stands for:", "choices": ["estimated time of arrival", "every time again", "extra tax amount", "end of the action"], "answer": 0, "explanation_ar": "ETA = الوقت المتوقع للوصول.", "explanation_en": "Estimated time of arrival."},
+    {"question": "\"I put in $1,000 and got $1,100 back.\" This is about my ___.", "choices": ["SOP", "ROI", "ETA", "BRB"], "answer": 1, "explanation_ar": "ROI = العائد على الاستثمار.", "explanation_en": "ROI = return on investment."},
+    {"question": "Which one should you NOT say out loud?", "choices": ["ETA", "FYI", "BRB", "SOP"], "answer": 2, "explanation_ar": "BRB للكتابة فقط.", "explanation_en": "BRB is only written."},
+    {"question": "\"Incidentally\" means:", "choices": ["in my opinion", "not applicable", "be right back", "by the way"], "answer": 3, "explanation_ar": "incidentally = بالمناسبة.", "explanation_en": "Incidentally = by the way."},
+    {"question": "On a form, \"N/A\" means:", "choices": ["not applicable", "new answer", "no address", "next appointment"], "answer": 0, "explanation_ar": "N/A = لا ينطبق.", "explanation_en": "N/A = not applicable."},
+    {"question": "The fixed steps every worker follows are the ___.", "choices": ["YTD", "SOP", "IMO", "TBH"], "answer": 1, "explanation_ar": "SOP = إجراءات التشغيل القياسية.", "explanation_en": "SOP = standard operating procedure."},
+    {"question": "\"YTD\" means:", "choices": ["yesterday", "your total debt", "year to date", "yes, that's done"], "answer": 2, "explanation_ar": "YTD = من بداية العام حتى الآن.", "explanation_en": "Year to date."},
+    {"question": "What is an acronym?", "choices": ["a long word", "a mark like '", "a type of opinion", "first letters of words put together"], "answer": 3, "explanation_ar": "acronym = حروف أولى من الكلمات.", "explanation_en": "First letters of each word."},
+    {"question": "\"Rino ___ for his ETA.\" (asked when he would arrive)", "choices": ["asked", "attentioned", "sopped", "invested"], "answer": 0, "explanation_ar": "asked for his ETA = سأله متى سيصل.", "explanation_en": "Asked for his ETA = asked when he'd arrive."},
+    {"question": "\"I think you are more important than a party.\" As a written acronym:", "choices": ["FYI, you are more important.", "IMO, you are more important.", "BRB, you are more important.", "N/A, you are more important."], "answer": 1, "explanation_ar": "IMO = في رأيي.", "explanation_en": "IMO = in my opinion."}
+  ]
+}

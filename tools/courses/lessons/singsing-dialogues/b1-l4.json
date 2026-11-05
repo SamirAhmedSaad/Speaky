@@ -1,0 +1,303 @@
+{
+  "title": "Is this your doll?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "doll",
+        "pos": "noun",
+        "meaning_en": "a toy that looks like a small person",
+        "meaning_ar": "دمية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is this your doll?"
+      },
+      {
+        "word": "bike",
+        "pos": "noun",
+        "meaning_en": "bicycle; you ride it with two wheels",
+        "meaning_ar": "دراجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is this your bike?"
+      },
+      {
+        "word": "robot",
+        "pos": "noun",
+        "meaning_en": "a machine that can move and do work",
+        "meaning_ar": "روبوت (إنسان آلي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This robot can walk."
+      },
+      {
+        "word": "your",
+        "pos": "determiner",
+        "meaning_en": "belonging to you",
+        "meaning_ar": "ـكَ / ـكِ (ضمير الملكية للمخاطب)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is this your bag?"
+      },
+      {
+        "word": "yes",
+        "pos": "adverb",
+        "meaning_en": "the answer when something is true",
+        "meaning_ar": "نعم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Yes, it is."
+      },
+      {
+        "word": "no",
+        "pos": "adverb",
+        "meaning_en": "the answer when something is not true",
+        "meaning_ar": "لا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "No, it isn't."
+      },
+      {
+        "word": "hello",
+        "pos": "interjection",
+        "meaning_en": "a word to greet someone",
+        "meaning_ar": "مرحبًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Hello, Chuchu."
+      },
+      {
+        "word": "please",
+        "pos": "adverb",
+        "meaning_en": "a polite word when you ask for something",
+        "meaning_ar": "من فضلك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My bike, please."
+      },
+      {
+        "word": "watch out",
+        "pos": "phrase",
+        "meaning_en": "be careful, there is danger",
+        "meaning_ar": "انتبه!",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Watch out! A car!"
+      },
+      {
+        "word": "thanks",
+        "pos": "interjection",
+        "meaning_en": "thank you",
+        "meaning_ar": "شكرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Oh, thanks, Toto."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "my vs your",
+        "words": [
+          "my",
+          "your"
+        ],
+        "explanation_ar": "my = لي (ملكي)، و your = لك (ملكك).",
+        "explanation_en": "\"my\" = it belongs to me. \"your\" = it belongs to you.",
+        "examples": [
+          {
+            "word": "my",
+            "sentence": "This is my doll."
+          },
+          {
+            "word": "your",
+            "sentence": "Is this your doll?"
+          }
+        ]
+      },
+      {
+        "title": "it is vs it isn't",
+        "words": [
+          "it is",
+          "it isn't"
+        ],
+        "explanation_ar": "Yes, it is للإجابة بنعم، و No, it isn't للإجابة بلا. isn't = is not.",
+        "explanation_en": "Say \"Yes, it is\" or \"No, it isn't\" (isn't = is not).",
+        "examples": [
+          {
+            "word": "it is",
+            "sentence": "Is this your bike? - Yes, it is."
+          },
+          {
+            "word": "it isn't",
+            "sentence": "Is this your robot? - No, it isn't."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Is this your doll?",
+        "meaning_ar": "هل هذه دميتك؟",
+        "meaning_en": "Asking if something belongs to someone.",
+        "example": "Is this your doll? - Yes, it is."
+      },
+      {
+        "phrase": "Yes, it is.",
+        "meaning_ar": "نعم، إنها لي.",
+        "meaning_en": "A short yes answer.",
+        "example": "Is this your bike? - Yes, it is."
+      },
+      {
+        "phrase": "No, it isn't.",
+        "meaning_ar": "لا، ليست لي.",
+        "meaning_en": "A short no answer.",
+        "example": "Is this your robot? - No, it isn't."
+      },
+      {
+        "phrase": "Watch out!",
+        "meaning_ar": "انتبه!",
+        "meaning_en": "Be careful!",
+        "example": "Watch out! The floor is wet."
+      },
+      {
+        "phrase": "My bike, please.",
+        "meaning_ar": "دراجتي من فضلك.",
+        "meaning_en": "Asking politely for your thing.",
+        "example": "My bag, please. - Here you are."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Yes/No questions with \"is\": Is this your ...?",
+        "explanation_ar": "نصنع سؤالًا بتقديم is قبل this: This is your doll → Is this your doll? الإجابة القصيرة: Yes, it is. / No, it isn't.",
+        "explanation_en": "Put \"is\" first to make a question: Is this your doll? Short answers: Yes, it is. / No, it isn't.",
+        "examples": [
+          "Is this your doll? - Yes, it is.",
+          "Is this your bike? - No, it isn't.",
+          "Is this your robot?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Is this your doll? - ___",
+      "choices": [
+        "Yes, it is.",
+        "Yes, I am.",
+        "Yes, it's.",
+        "Yes, is it."
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة القصيرة الصحيحة Yes, it is.",
+      "explanation_en": "The correct short answer is \"Yes, it is.\""
+    },
+    {
+      "question": "Is this your robot? - No, it ___.",
+      "choices": [
+        "is",
+        "isn't",
+        "not",
+        "am"
+      ],
+      "answer": 1,
+      "explanation_ar": "No, it isn't = لا، ليست كذلك.",
+      "explanation_en": "No, it isn't (is not)."
+    },
+    {
+      "question": "Make a question: \"This is your bike.\"",
+      "choices": [
+        "This your bike is?",
+        "Your bike is this?",
+        "Is this your bike?",
+        "Is your this bike?"
+      ],
+      "answer": 2,
+      "explanation_ar": "نضع is في بداية السؤال.",
+      "explanation_en": "Put \"is\" at the start."
+    },
+    {
+      "question": "A car is coming fast! You shout: ___",
+      "choices": [
+        "Thank you!",
+        "Nice to meet you!",
+        "How old?",
+        "Watch out!"
+      ],
+      "answer": 3,
+      "explanation_ar": "Watch out! للتحذير من خطر.",
+      "explanation_en": "\"Watch out!\" warns of danger."
+    },
+    {
+      "question": "\"doll\" is a ___.",
+      "choices": [
+        "toy",
+        "food",
+        "animal",
+        "color"
+      ],
+      "answer": 0,
+      "explanation_ar": "الدمية لعبة.",
+      "explanation_en": "A doll is a toy."
+    },
+    {
+      "question": "This doll belongs to me. It is ___ doll.",
+      "choices": [
+        "your",
+        "my",
+        "you",
+        "me"
+      ],
+      "answer": 1,
+      "explanation_ar": "my للملكية للمتكلم.",
+      "explanation_en": "\"my\" = it belongs to me."
+    },
+    {
+      "question": "You ask about the other person's thing: Is this ___ bike?",
+      "choices": [
+        "my",
+        "I",
+        "your",
+        "you"
+      ],
+      "answer": 2,
+      "explanation_ar": "your = لك.",
+      "explanation_en": "\"your\" = belongs to you."
+    },
+    {
+      "question": "\"isn't\" means ___.",
+      "choices": [
+        "is not",
+        "it not",
+        "is it",
+        "am not"
+      ],
+      "answer": 0,
+      "explanation_ar": "هذا اختصار: isn't = is not.",
+      "explanation_en": "isn't = is not."
+    },
+    {
+      "question": "\"bike\" in Arabic is ___.",
+      "choices": [
+        "سيارة",
+        "كرة",
+        "دمية",
+        "دراجة"
+      ],
+      "answer": 3,
+      "explanation_ar": "bike = دراجة.",
+      "explanation_en": "bike = bicycle."
+    },
+    {
+      "question": "Which word is polite when you ask for something?",
+      "choices": [
+        "Ouch",
+        "please",
+        "watch",
+        "no"
+      ],
+      "answer": 1,
+      "explanation_ar": "please = من فضلك.",
+      "explanation_en": "\"please\" is the polite word."
+    }
+  ]
+}

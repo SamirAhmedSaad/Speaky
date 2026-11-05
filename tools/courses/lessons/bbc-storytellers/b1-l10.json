@@ -1,0 +1,320 @@
+{
+  "title": "Football Match",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "football",
+        "pos": "noun",
+        "meaning_en": "a game where two teams kick a ball",
+        "meaning_ar": "كرة القدم",
+        "note_ar": "في أمريكا: soccer",
+        "note_en": "US: soccer.",
+        "example": "Joe loved football."
+      },
+      {
+        "word": "team",
+        "pos": "noun",
+        "meaning_en": "a group of players",
+        "meaning_ar": "فريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wanted to be on the school team."
+      },
+      {
+        "word": "match",
+        "pos": "noun",
+        "meaning_en": "a game between two teams",
+        "meaning_ar": "مباراة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Gran took Joe to the football match."
+      },
+      {
+        "word": "coach",
+        "pos": "noun",
+        "meaning_en": "a person who trains a team",
+        "meaning_ar": "مدرّب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mr Burton is the football coach."
+      },
+      {
+        "word": "ball",
+        "pos": "noun",
+        "meaning_en": "a round thing for games",
+        "meaning_ar": "كرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe ran with the ball."
+      },
+      {
+        "word": "kick",
+        "pos": "verb",
+        "meaning_en": "hit with your foot",
+        "meaning_ar": "يركل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She tried to kick the ball."
+      },
+      {
+        "word": "pitch",
+        "pos": "noun",
+        "meaning_en": "the field where you play football (UK)",
+        "meaning_ar": "ملعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The football pitch was in the park."
+      },
+      {
+        "word": "referee",
+        "pos": "noun",
+        "meaning_en": "the person who makes sure players follow the rules",
+        "meaning_ar": "حَكَم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The referee blew the whistle."
+      },
+      {
+        "word": "goal",
+        "pos": "noun",
+        "meaning_en": "a point in football",
+        "meaning_ar": "هدف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe scored a goal!"
+      },
+      {
+        "word": "player",
+        "pos": "noun",
+        "meaning_en": "a person in a game",
+        "meaning_ar": "لاعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There were many players."
+      },
+      {
+        "word": "park",
+        "pos": "noun",
+        "meaning_en": "a public garden",
+        "meaning_ar": "حديقة عامة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They played in the park."
+      },
+      {
+        "word": "dog",
+        "pos": "noun",
+        "meaning_en": "an animal people keep; it barks",
+        "meaning_ar": "كلب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Gran's dog is Selby."
+      },
+      {
+        "word": "nervous",
+        "pos": "adjective",
+        "meaning_en": "a little afraid",
+        "meaning_ar": "متوتّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe was nervous before the match."
+      },
+      {
+        "word": "bully",
+        "pos": "noun",
+        "meaning_en": "a person who hurts weaker people",
+        "meaning_ar": "متنمّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That big boy is a bully."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "coach vs referee",
+        "words": [
+          "coach",
+          "referee"
+        ],
+        "explanation_ar": "coach يدرّب الفريق، و referee يدير المباراة ويطبّق القواعد.",
+        "explanation_en": "A coach trains the team. A referee controls the match and the rules.",
+        "examples": [
+          {
+            "word": "coach",
+            "sentence": "The coach chose Joe for the team."
+          },
+          {
+            "word": "referee",
+            "sentence": "The referee blew the whistle."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How would you like to play for the school team?",
+        "meaning_ar": "هل تحب أن تلعب مع فريق المدرسة؟",
+        "meaning_en": "A polite offer.",
+        "example": "How would you like to come with us?"
+      },
+      {
+        "phrase": "I'd love it!",
+        "meaning_ar": "سأحب ذلك كثيرًا!",
+        "meaning_en": "Saying yes happily.",
+        "example": "Do you want to play? - I'd love it!"
+      },
+      {
+        "phrase": "Good luck!",
+        "meaning_ar": "حظًّا سعيدًا!",
+        "meaning_en": "Said before a test or a game.",
+        "example": "Good luck in your match, Joe!"
+      },
+      {
+        "phrase": "It's my big chance!",
+        "meaning_ar": "إنها فرصتي الكبيرة!",
+        "meaning_en": "A very important opportunity.",
+        "example": "I can play for the team. It's my big chance!"
+      },
+      {
+        "phrase": "Did you see that?",
+        "meaning_ar": "هل رأيت ذلك؟",
+        "meaning_en": "Asking if someone saw something.",
+        "example": "He pushed Joe! Did you see that?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "I wish I could ... / would like",
+        "explanation_ar": "نعبّر عن الأمنية بـ I wish I could + فعل: I wish I could be on the team. ونعرض بأدب بـ Would you like ...?",
+        "explanation_en": "Say a wish: I wish I could + verb. Polite offer: Would you like ...? / How would you like ...?",
+        "examples": [
+          "I wish I could be on the school team.",
+          "How would you like to play?",
+          "I'd love it!"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Who asked Joe to play for the school team?",
+      "choices": [
+        "the coach, Mr Burton",
+        "the referee",
+        "Finn",
+        "Gran"
+      ],
+      "answer": 0,
+      "explanation_ar": "المدرب سأل جو.",
+      "explanation_en": "The coach, Mr Burton, asked him."
+    },
+    {
+      "question": "Who took Joe to the match?",
+      "choices": [
+        "Mum",
+        "Gran",
+        "Dad",
+        "his teacher"
+      ],
+      "answer": 1,
+      "explanation_ar": "أخذته جدته.",
+      "explanation_en": "Gran took him."
+    },
+    {
+      "question": "What did Joe do at the end?",
+      "choices": [
+        "He fell.",
+        "He went home.",
+        "He scored a goal.",
+        "He cried."
+      ],
+      "answer": 2,
+      "explanation_ar": "سجّل جو هدفًا.",
+      "explanation_en": "He scored a goal."
+    },
+    {
+      "question": "The person who controls the match is the ___.",
+      "choices": [
+        "coach",
+        "player",
+        "goal",
+        "referee"
+      ],
+      "answer": 3,
+      "explanation_ar": "الحكم = referee.",
+      "explanation_en": "The referee controls the match."
+    },
+    {
+      "question": "Before a game we say: ___",
+      "choices": [
+        "Good luck!",
+        "Time for bed!",
+        "I'm bored!",
+        "Oh dear!"
+      ],
+      "answer": 0,
+      "explanation_ar": "قبل المباراة نقول Good luck!",
+      "explanation_en": "Say \"Good luck!\""
+    },
+    {
+      "question": "A person who hurts smaller people is a ___.",
+      "choices": [
+        "coach",
+        "bully",
+        "referee",
+        "team"
+      ],
+      "answer": 1,
+      "explanation_ar": "المتنمر = bully.",
+      "explanation_en": "That is a bully."
+    },
+    {
+      "question": "How would you like to play? - ___",
+      "choices": [
+        "I'd like be.",
+        "I love.",
+        "I'd love it!",
+        "I would to love."
+      ],
+      "answer": 2,
+      "explanation_ar": "الرد الصحيح I'd love it!",
+      "explanation_en": "Correct: I'd love it!"
+    },
+    {
+      "question": "I wish I ___ be on the team.",
+      "choices": [
+        "can to",
+        "will",
+        "am",
+        "could"
+      ],
+      "answer": 3,
+      "explanation_ar": "I wish I could + فعل.",
+      "explanation_en": "I wish I could + verb."
+    },
+    {
+      "question": "You hit the ball with your foot. You ___ it.",
+      "choices": [
+        "kick",
+        "throw",
+        "catch",
+        "pass by"
+      ],
+      "answer": 0,
+      "explanation_ar": "kick = يركل بالقدم.",
+      "explanation_en": "kick = hit with your foot."
+    },
+    {
+      "question": "In American English, \"football\" is ___.",
+      "choices": [
+        "baseball",
+        "soccer",
+        "rugby",
+        "tennis"
+      ],
+      "answer": 1,
+      "explanation_ar": "في أمريكا: soccer.",
+      "explanation_en": "US: soccer."
+    }
+  ]
+}

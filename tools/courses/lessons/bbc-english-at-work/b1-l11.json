@@ -1,0 +1,396 @@
+{
+  "title": "Working Long Hours",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "burn the candle at both ends",
+        "pos": "idiom",
+        "meaning_en": "work very hard, from early morning until late at night",
+        "meaning_ar": "يُرهق نفسه بالعمل من الصباح حتى الليل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You're burning the candle at both ends this week."
+      },
+      {
+        "word": "do overtime",
+        "pos": "phrase",
+        "meaning_en": "work more hours than your normal working hours",
+        "meaning_ar": "يعمل ساعات إضافية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I did five hours of overtime last week."
+      },
+      {
+        "word": "overtime",
+        "pos": "noun",
+        "meaning_en": "extra hours of work after normal hours",
+        "meaning_ar": "ساعات العمل الإضافية",
+        "note_ar": "غير معدودة: some overtime",
+        "note_en": "Uncountable: some overtime.",
+        "example": "We don't pay overtime here."
+      },
+      {
+        "word": "put in the hours",
+        "pos": "phrase",
+        "meaning_en": "spend all the time needed to do something well",
+        "meaning_ar": "يكرّس الوقت اللازم / يعمل ساعات طويلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She's putting in the hours to finish the project."
+      },
+      {
+        "word": "burn out",
+        "pos": "phrasal verb",
+        "meaning_en": "become very tired and lose energy from working too hard",
+        "meaning_ar": "يُصاب بالإنهاك (الاحتراق الوظيفي)",
+        "note_ar": "الاسم: burnout",
+        "note_en": "Noun: burnout.",
+        "example": "If you don't rest, you'll burn out."
+      },
+      {
+        "word": "office hours",
+        "pos": "noun",
+        "meaning_en": "the normal hours when people work in an office",
+        "meaning_ar": "ساعات الدوام الرسمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Most people finish their work within office hours."
+      },
+      {
+        "word": "work late",
+        "pos": "phrase",
+        "meaning_en": "stay at work after the normal time",
+        "meaning_ar": "يتأخّر في العمل / يعمل حتى وقت متأخر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I had to work late yesterday."
+      },
+      {
+        "word": "presentation",
+        "pos": "noun",
+        "meaning_en": "a talk to show information or a product",
+        "meaning_ar": "عرض تقديمي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My presentation must be perfect."
+      },
+      {
+        "word": "prepare",
+        "pos": "verb",
+        "meaning_en": "get ready for something",
+        "meaning_ar": "يُحضّر / يستعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He spent hours preparing."
+      },
+      {
+        "word": "realistic",
+        "pos": "adjective",
+        "meaning_en": "accepting what is possible",
+        "meaning_ar": "واقعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You need to be realistic about the time."
+      },
+      {
+        "word": "exhausted",
+        "pos": "adjective",
+        "meaning_en": "extremely tired",
+        "meaning_ar": "مُنهك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm exhausted after this week."
+      },
+      {
+        "word": "energy",
+        "pos": "noun",
+        "meaning_en": "the strength to work and be active",
+        "meaning_ar": "طاقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm full of energy today."
+      },
+      {
+        "word": "asleep",
+        "pos": "adjective",
+        "meaning_en": "sleeping",
+        "meaning_ar": "نائم",
+        "note_ar": "لا تأتي قبل الاسم: نقول she is asleep",
+        "note_en": "Not used before a noun.",
+        "example": "She fell asleep at her desk."
+      },
+      {
+        "word": "interrupt",
+        "pos": "verb",
+        "meaning_en": "stop someone while they are speaking or working",
+        "meaning_ar": "يقاطع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry to interrupt."
+      },
+      {
+        "word": "burgle",
+        "pos": "verb",
+        "meaning_en": "enter a building and steal things",
+        "meaning_ar": "يسطو على / يسرق (مبنى)",
+        "note_ar": "في أمريكا: burglarize",
+        "note_en": "US: burglarize.",
+        "example": "Do you think we've been burgled?"
+      },
+      {
+        "word": "of no use",
+        "pos": "phrase",
+        "meaning_en": "not helpful at all",
+        "meaning_ar": "بلا فائدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you're too tired, you'll be of no use to anyone."
+      },
+      {
+        "word": "as useful as a chocolate teapot",
+        "pos": "idiom",
+        "meaning_en": "humorous: completely useless",
+        "meaning_ar": "عديم الفائدة تمامًا (تعبير فكاهي)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This old printer is as useful as a chocolate teapot."
+      },
+      {
+        "word": "get the message",
+        "pos": "phrase",
+        "meaning_en": "understand what someone is trying to tell you",
+        "meaning_ar": "يفهم الرسالة / يستوعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She finally got the message and went home."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "overtime vs office hours",
+        "words": [
+          "overtime",
+          "office hours"
+        ],
+        "explanation_ar": "office hours هي ساعات الدوام العادية، وovertime هي الساعات الإضافية بعدها.",
+        "explanation_en": "Office hours are your normal working hours. Overtime is extra time after them.",
+        "examples": [
+          {
+            "word": "overtime",
+            "sentence": "He does overtime on Fridays."
+          },
+          {
+            "word": "office hours",
+            "sentence": "Please call us during office hours."
+          }
+        ]
+      },
+      {
+        "title": "tired vs exhausted vs burnt out",
+        "words": [
+          "tired",
+          "exhausted",
+          "burnt out"
+        ],
+        "explanation_ar": "tired متعب عادي، exhausted منهك جدًا، burnt out منهك تمامًا لفترة طويلة بسبب العمل الزائد.",
+        "explanation_en": "Tired = you need some rest. Exhausted = extremely tired. Burnt out = tired for a long time from too much work.",
+        "examples": [
+          {
+            "word": "tired",
+            "sentence": "I'm tired; I'll go to bed early."
+          },
+          {
+            "word": "exhausted",
+            "sentence": "After the long trip I was exhausted."
+          },
+          {
+            "word": "burnt out",
+            "sentence": "After months of overtime, he felt burnt out."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "You're burning the candle at both ends.",
+        "meaning_ar": "أنت تُرهق نفسك بالعمل ليلًا ونهارًا.",
+        "meaning_en": "You work early and late all the time.",
+        "example": "You're burning the candle at both ends. Please take a break."
+      },
+      {
+        "phrase": "You're doing overtime.",
+        "meaning_ar": "أنت تعمل ساعات إضافية.",
+        "meaning_en": "You work longer than office hours.",
+        "example": "You're doing a lot of overtime this month."
+      },
+      {
+        "phrase": "I'm putting in the hours.",
+        "meaning_ar": "أنا أكرّس الوقت اللازم للعمل.",
+        "meaning_en": "You are spending the time needed to succeed.",
+        "example": "I'm putting in the hours to make sure the report is perfect."
+      },
+      {
+        "phrase": "If you're not careful, you'll burn out.",
+        "meaning_ar": "إن لم تنتبه ستُصاب بالإنهاك.",
+        "meaning_en": "A warning about working too hard.",
+        "example": "Slow down. If you're not careful, you'll burn out."
+      },
+      {
+        "phrase": "Don't interrupt! I'm busy.",
+        "meaning_ar": "لا تقاطعني! أنا مشغول.",
+        "meaning_en": "Ask someone not to stop you (this is a little rude).",
+        "example": "Don't interrupt! I'm busy. We can talk later."
+      },
+      {
+        "phrase": "I can't think clearly anymore.",
+        "meaning_ar": "لم أعد أستطيع التفكير بوضوح.",
+        "meaning_en": "Say you are too tired to think.",
+        "example": "I've been working for ten hours. I can't think clearly anymore."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect continuous for long activities",
+        "explanation_ar": "نستخدم have/has been + فعل بـ -ing للحديث عن نشاط بدأ في الماضي وما زال مستمرًا حتى الآن، خاصة لإبراز طول المدة: You've been burning the candle at both ends lately.",
+        "explanation_en": "Use have/has been + -ing for an activity that started in the past and continues now, often to show it is long.",
+        "examples": [
+          "You've been working too hard lately.",
+          "She has been doing overtime all week.",
+          "I've been preparing this presentation for days."
+        ]
+      },
+      {
+        "title": "Present continuous for what is happening around now",
+        "explanation_ar": "نستخدم am/is/are + فعل بـ -ing لما يحدث الآن أو هذه الفترة: You're doing overtime. I'm putting in the hours.",
+        "explanation_en": "Use am/is/are + -ing for things happening now or these days.",
+        "examples": [
+          "You're doing overtime again.",
+          "I'm putting in the hours this month.",
+          "Anna is working late tonight."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"Burning the candle at both ends\" means...",
+      "choices": [
+        "working very hard, early and late",
+        "buying candles",
+        "going home early",
+        "taking a holiday"
+      ],
+      "answer": 0,
+      "explanation_ar": "تعني العمل بجهد كبير من الصباح حتى الليل.",
+      "explanation_en": "It means working very hard, early and late."
+    },
+    {
+      "question": "Working longer than office hours is called ___.",
+      "choices": [
+        "overtime",
+        "burnout",
+        "a launch",
+        "a break"
+      ],
+      "answer": 0,
+      "explanation_ar": "overtime تعني الساعات الإضافية.",
+      "explanation_en": "That is overtime."
+    },
+    {
+      "question": "If you work too hard for too long, you might ___.",
+      "choices": [
+        "burn in",
+        "burn out",
+        "burn up",
+        "burn off"
+      ],
+      "answer": 1,
+      "explanation_ar": "burn out تعني الإنهاك من كثرة العمل.",
+      "explanation_en": "\"Burn out\" means lose all energy."
+    },
+    {
+      "question": "I'm putting ___ the hours to finish this project.",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "to"
+      ],
+      "answer": 2,
+      "explanation_ar": "العبارة: put in the hours.",
+      "explanation_en": "The phrase is \"put in the hours\"."
+    },
+    {
+      "question": "She has been ___ overtime all week.",
+      "choices": [
+        "do",
+        "did",
+        "done",
+        "doing"
+      ],
+      "answer": 3,
+      "explanation_ar": "بعد has been نستخدم -ing.",
+      "explanation_en": "After \"has been\" use -ing."
+    },
+    {
+      "question": "\"As useful as a chocolate teapot\" means...",
+      "choices": [
+        "very useful",
+        "completely useless",
+        "very sweet",
+        "expensive"
+      ],
+      "answer": 1,
+      "explanation_ar": "تعبير فكاهي يعني عديم الفائدة.",
+      "explanation_en": "It is a funny way to say useless."
+    },
+    {
+      "question": "Which word means extremely tired?",
+      "choices": [
+        "exhausted",
+        "realistic",
+        "asleep",
+        "energy"
+      ],
+      "answer": 0,
+      "explanation_ar": "exhausted تعني منهك جدًا.",
+      "explanation_en": "Exhausted means extremely tired."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I have been prepare this for days.",
+        "I have been preparing this for days.",
+        "I been preparing this for days.",
+        "I have preparing this for days."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصيغة: have been + -ing.",
+      "explanation_en": "The form is \"have been + -ing\"."
+    },
+    {
+      "question": "Please call us during office ___.",
+      "choices": [
+        "times",
+        "hours",
+        "days off",
+        "overtime"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول office hours.",
+      "explanation_en": "We say \"office hours\"."
+    },
+    {
+      "question": "Anna fell ___ at her desk.",
+      "choices": [
+        "sleep",
+        "sleeping",
+        "sleepy",
+        "asleep"
+      ],
+      "answer": 3,
+      "explanation_ar": "fall asleep تعني يغفو.",
+      "explanation_en": "We say \"fall asleep\"."
+    }
+  ]
+}

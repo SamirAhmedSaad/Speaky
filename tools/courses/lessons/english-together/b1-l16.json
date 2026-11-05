@@ -1,0 +1,415 @@
+{
+  "title": "What are you doing? (Present Continuous)",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "day off",
+        "pos": "noun",
+        "meaning_en": "a day when you do not go to work",
+        "meaning_ar": "يوم إجازة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a day off on Thursday."
+      },
+      {
+        "word": "virtual meeting",
+        "pos": "noun",
+        "meaning_en": "a meeting on a computer or phone, not in person",
+        "meaning_ar": "اجتماع عبر الإنترنت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a virtual meeting at ten."
+      },
+      {
+        "word": "cook",
+        "pos": "verb",
+        "meaning_en": "make food hot and ready to eat",
+        "meaning_ar": "يطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm cooking rice."
+      },
+      {
+        "word": "spaghetti",
+        "pos": "noun",
+        "meaning_en": "long thin pasta",
+        "meaning_ar": "سباغيتي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We eat spaghetti on Friday."
+      },
+      {
+        "word": "meatballs",
+        "pos": "noun",
+        "meaning_en": "small balls of minced meat",
+        "meaning_ar": "كرات اللحم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My mother makes beef meatballs."
+      },
+      {
+        "word": "fix",
+        "pos": "verb",
+        "meaning_en": "make something work again",
+        "meaning_ar": "يصلح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My brother can fix computers."
+      },
+      {
+        "word": "replace",
+        "pos": "verb",
+        "meaning_en": "put a new thing in place of an old one",
+        "meaning_ar": "يستبدل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need to replace my phone battery."
+      },
+      {
+        "word": "noise",
+        "pos": "noun",
+        "meaning_en": "a loud or unpleasant sound",
+        "meaning_ar": "ضجيج / صوت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is that noise?"
+      },
+      {
+        "word": "accidentally",
+        "pos": "adverb",
+        "meaning_en": "not on purpose",
+        "meaning_ar": "عن طريق الخطأ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I accidentally broke a cup."
+      },
+      {
+        "word": "wrench",
+        "pos": "noun",
+        "meaning_en": "a tool for turning nuts and bolts",
+        "meaning_ar": "مفتاح ربط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Give me the wrench, please."
+      },
+      {
+        "word": "engine",
+        "pos": "noun",
+        "meaning_en": "the part of a car that makes it move",
+        "meaning_ar": "المحرّك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The car engine is hot."
+      },
+      {
+        "word": "stuck",
+        "pos": "adjective",
+        "meaning_en": "not able to move",
+        "meaning_ar": "عالق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The door is stuck."
+      },
+      {
+        "word": "mechanic",
+        "pos": "noun",
+        "meaning_en": "a person who repairs cars",
+        "meaning_ar": "ميكانيكي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Call a mechanic to fix the car."
+      },
+      {
+        "word": "boil over",
+        "pos": "phrasal verb",
+        "meaning_en": "when hot liquid rises and comes out of a pot",
+        "meaning_ar": "يفور (يفيض عند الغليان)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The milk is boiling over!"
+      },
+      {
+        "word": "turn down",
+        "pos": "phrasal verb",
+        "meaning_en": "make heat or sound lower",
+        "meaning_ar": "يخفّض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Turn down the heat, please."
+      },
+      {
+        "word": "burn",
+        "pos": "verb",
+        "meaning_en": "damage food with too much heat",
+        "meaning_ar": "يحرق",
+        "note_ar": "الماضي: burned أو burnt",
+        "note_en": "Past: burned / burnt.",
+        "example": "Don't burn the bread!"
+      },
+      {
+        "word": "smoke alarm",
+        "pos": "noun",
+        "meaning_en": "a device that makes a loud sound when there is smoke",
+        "meaning_ar": "جهاز إنذار الدخان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The smoke alarm went off."
+      },
+      {
+        "word": "guests",
+        "pos": "noun",
+        "meaning_en": "people you invite to your home",
+        "meaning_ar": "الضيوف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our guests are coming at eight."
+      },
+      {
+        "word": "almost done",
+        "pos": "phrase",
+        "meaning_en": "nearly finished",
+        "meaning_ar": "على وشك الانتهاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Dinner is almost done."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Present simple vs present continuous",
+        "words": [
+          "I cook",
+          "I'm cooking"
+        ],
+        "explanation_ar": "المضارع البسيط للعادات (I cook dinner every day). المضارع المستمر لما يحدث الآن (I'm cooking dinner now).",
+        "explanation_en": "Present simple = habits. Present continuous = happening now.",
+        "examples": [
+          {
+            "word": "I cook",
+            "sentence": "I cook dinner every evening."
+          },
+          {
+            "word": "I'm cooking",
+            "sentence": "Shh! I'm cooking dinner now."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What are you doing?",
+        "meaning_ar": "ماذا تفعل (الآن)؟",
+        "meaning_en": "Ask what someone is doing now.",
+        "example": "Hey! What are you doing? I'm reading."
+      },
+      {
+        "phrase": "I'm cooking dinner for my family.",
+        "meaning_ar": "أطبخ العشاء لعائلتي.",
+        "meaning_en": "Say what you are doing now.",
+        "example": "I'm cooking dinner for my family."
+      },
+      {
+        "phrase": "I'm trying to fix my car.",
+        "meaning_ar": "أحاول أن أصلح سيارتي.",
+        "meaning_en": "Say you are trying to do something.",
+        "example": "I'm trying to fix my bike."
+      },
+      {
+        "phrase": "What was that?",
+        "meaning_ar": "ما هذا (الصوت)؟",
+        "meaning_en": "Ask about a sudden sound.",
+        "example": "Bang! What was that?"
+      },
+      {
+        "phrase": "Looks like you need some help.",
+        "meaning_ar": "يبدو أنك تحتاج بعض المساعدة.",
+        "meaning_en": "Offer help or notice a problem.",
+        "example": "Your bag is heavy. Looks like you need some help."
+      },
+      {
+        "phrase": "Maybe you should call a mechanic.",
+        "meaning_ar": "ربما يجب أن تتصل بميكانيكي.",
+        "meaning_en": "Give gentle advice.",
+        "example": "The car won't start. Maybe you should call a mechanic."
+      },
+      {
+        "phrase": "I can fix it myself.",
+        "meaning_ar": "أستطيع إصلاحه بنفسي.",
+        "meaning_en": "Say you don't need help.",
+        "example": "Don't worry, I can fix it myself."
+      },
+      {
+        "phrase": "Don't worry. I know what I'm doing.",
+        "meaning_ar": "لا تقلق، أعرف ما أفعله.",
+        "meaning_en": "Tell someone you are confident.",
+        "example": "Don't worry. I know what I'm doing."
+      },
+      {
+        "phrase": "I have to go. See you later!",
+        "meaning_ar": "يجب أن أذهب. أراك لاحقًا!",
+        "meaning_en": "End a conversation.",
+        "example": "My guests are here. I have to go. See you later!"
+      },
+      {
+        "phrase": "Take care.",
+        "meaning_ar": "اعتنِ بنفسك.",
+        "meaning_en": "A kind way to say goodbye.",
+        "example": "Bye, Sarah. Take care."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present continuous: am / is / are + verb-ing",
+        "explanation_ar": "نستخدم المضارع المستمر لما يحدث الآن: I am (I'm) cooking. She is (She's) fixing. They are (They're) talking. والسؤال: What are you doing?",
+        "explanation_en": "For actions happening now: am/is/are + verb-ing. Question: What are you doing?",
+        "examples": [
+          "What are you doing?",
+          "I'm making spaghetti and meatballs.",
+          "I'm replacing the spark plugs."
+        ]
+      },
+      {
+        "title": "Spelling of -ing",
+        "explanation_ar": "أغلب الأفعال نضيف لها ing: cook → cooking. إذا انتهى الفعل بـ e صامتة نحذفها: make → making، practice → practicing. وبعض الأفعال القصيرة نضاعف الحرف الأخير: stop → stopping.",
+        "explanation_en": "Most verbs: add -ing. Drop silent e: make → making. Some short verbs double the last letter: stop → stopping.",
+        "examples": [
+          "cook → cooking",
+          "make → making",
+          "boil → boiling"
+        ]
+      },
+      {
+        "title": "Negative commands: Don't + verb",
+        "explanation_ar": "للنهي نستخدم Don't + الفعل في أصله: Don't burn the meatballs! Don't worry.",
+        "explanation_en": "Use Don't + base verb to tell someone not to do something.",
+        "examples": [
+          "Don't burn the meatballs!",
+          "Don't worry, Sarah.",
+          "Don't forget the salt."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What ___ you doing?",
+      "choices": [
+        "is",
+        "are",
+        "am",
+        "do"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع you نستخدم are.",
+      "explanation_en": "With \"you\" use \"are\"."
+    },
+    {
+      "question": "I'm ___ dinner for my family.",
+      "choices": [
+        "cook",
+        "cooks",
+        "cooking",
+        "cooked"
+      ],
+      "answer": 2,
+      "explanation_ar": "المضارع المستمر: am + فعل بـ ing.",
+      "explanation_en": "Present continuous: am + verb-ing."
+    },
+    {
+      "question": "She ___ fixing her car now.",
+      "choices": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع she نستخدم is.",
+      "explanation_en": "With \"she\" use \"is\"."
+    },
+    {
+      "question": "make → ___",
+      "choices": [
+        "makeing",
+        "making",
+        "makking",
+        "maked"
+      ],
+      "answer": 1,
+      "explanation_ar": "نحذف e ونضيف ing: making.",
+      "explanation_en": "Drop the e: making."
+    },
+    {
+      "question": "___ burn the meatballs!",
+      "choices": [
+        "Not",
+        "No",
+        "Doesn't",
+        "Don't"
+      ],
+      "answer": 3,
+      "explanation_ar": "للنهي: Don't + الفعل.",
+      "explanation_en": "Negative command: Don't + verb."
+    },
+    {
+      "question": "A person who repairs cars is a ___.",
+      "choices": [
+        "chef",
+        "mechanic",
+        "guest",
+        "teacher"
+      ],
+      "answer": 1,
+      "explanation_ar": "mechanic هو الميكانيكي.",
+      "explanation_en": "A mechanic repairs cars."
+    },
+    {
+      "question": "My pasta is boiling over. I need to turn ___ the heat.",
+      "choices": [
+        "down",
+        "up",
+        "on",
+        "off"
+      ],
+      "answer": 0,
+      "explanation_ar": "turn down تعني يخفّض.",
+      "explanation_en": "\"Turn down\" means make lower."
+    },
+    {
+      "question": "Which sentence is about now?",
+      "choices": [
+        "I cook dinner every day.",
+        "I'm cooking dinner now.",
+        "I cooked dinner yesterday.",
+        "I will cook dinner."
+      ],
+      "answer": 1,
+      "explanation_ar": "المضارع المستمر يدل على الآن.",
+      "explanation_en": "Present continuous is for now."
+    },
+    {
+      "question": "The wrench fell in the engine. Now it's ___.",
+      "choices": [
+        "stuck",
+        "done",
+        "burnt",
+        "boiling"
+      ],
+      "answer": 0,
+      "explanation_ar": "stuck تعني عالق.",
+      "explanation_en": "Stuck means it can't move."
+    },
+    {
+      "question": "I have a day ___ today. I'm not working.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "off"
+      ],
+      "answer": 3,
+      "explanation_ar": "day off = يوم إجازة.",
+      "explanation_en": "\"Day off\" = a day without work."
+    }
+  ]
+}

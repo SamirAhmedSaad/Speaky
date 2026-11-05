@@ -294,7 +294,7 @@ private fun CommunitySetupContent(
                 Checkbox(
                     checked = uiState.acceptedTerms,
                     onCheckedChange = { onTermsToggled() },
-                    colors = CheckboxDefaults.colors(checkedColor = colors.neonCyan, checkmarkColor = colors.backgroundDark),
+                    colors = CheckboxDefaults.colors(checkedColor = colors.neonCyan, checkmarkColor = colors.onPrimary),
                 )
                 Text(
                     text = "I'm 13 or older and agree to be respectful: no links, contact details, insults or adult content. " +
@@ -340,7 +340,7 @@ private fun CommunitySetupContent(
                 ) {
                     if (uiState.isSaving) {
                         CircularProgressIndicator(
-                            color = colors.backgroundDark,
+                            color = colors.onPrimary,
                             modifier = Modifier.size(22.sdp),
                             strokeWidth = 2.sdp,
                         )
@@ -348,7 +348,7 @@ private fun CommunitySetupContent(
                         Text(
                             text = "Let's Chat!",
                             style = MaterialTheme.typography.titleMedium.copy(
-                                color = colors.backgroundDark,
+                                color = colors.onPrimary,
                                 fontWeight = FontWeight.Bold,
                             ),
                         )

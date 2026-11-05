@@ -1,0 +1,284 @@
+{
+  "title": "Nice to meet you",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "brother",
+        "pos": "noun",
+        "meaning_en": "a boy or man with the same parents as you",
+        "meaning_ar": "أخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my brother, Toto."
+      },
+      {
+        "word": "sister",
+        "pos": "noun",
+        "meaning_en": "a girl or woman with the same parents as you",
+        "meaning_ar": "أخت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my sister."
+      },
+      {
+        "word": "friend",
+        "pos": "noun",
+        "meaning_en": "a person you like and know well",
+        "meaning_ar": "صديق / صديقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Amy is my friend."
+      },
+      {
+        "word": "mom",
+        "pos": "noun",
+        "meaning_en": "mother (informal)",
+        "meaning_ar": "أمّي / ماما",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mom, I'm home."
+      },
+      {
+        "word": "this",
+        "pos": "pronoun",
+        "meaning_en": "the person or thing near you",
+        "meaning_ar": "هذا / هذه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my friend."
+      },
+      {
+        "word": "my",
+        "pos": "determiner",
+        "meaning_en": "belonging to me",
+        "meaning_ar": "ـي (ضمير الملكية للمتكلم)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my brother."
+      },
+      {
+        "word": "cute",
+        "pos": "adjective",
+        "meaning_en": "small and nice to look at",
+        "meaning_ar": "لطيف / ظريف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The baby is very cute."
+      },
+      {
+        "word": "very",
+        "pos": "adverb",
+        "meaning_en": "used to make a word stronger",
+        "meaning_ar": "جدًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You're very cute."
+      },
+      {
+        "word": "home",
+        "pos": "noun",
+        "meaning_en": "the place where you live",
+        "meaning_ar": "البيت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm home."
+      },
+      {
+        "word": "thanks",
+        "pos": "interjection",
+        "meaning_en": "short way to say thank you",
+        "meaning_ar": "شكرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thanks, Mom."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "brother vs sister",
+        "words": [
+          "brother",
+          "sister"
+        ],
+        "explanation_ar": "brother للأخ الذكر، و sister للأخت الأنثى.",
+        "explanation_en": "A brother is a boy. A sister is a girl.",
+        "examples": [
+          {
+            "word": "brother",
+            "sentence": "Toto is my brother."
+          },
+          {
+            "word": "sister",
+            "sentence": "Mimi is my sister."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "This is my friend, Amy.",
+        "meaning_ar": "هذه صديقتي إيمي.",
+        "meaning_en": "Use this to introduce a friend.",
+        "example": "Mom, this is my friend, Ali."
+      },
+      {
+        "phrase": "Nice to meet you.",
+        "meaning_ar": "تشرّفت بمعرفتك.",
+        "meaning_en": "Polite words when you meet someone for the first time.",
+        "example": "This is Toto. - Nice to meet you, Toto."
+      },
+      {
+        "phrase": "Nice to meet you, too.",
+        "meaning_ar": "وأنا تشرّفت بمعرفتك أيضًا.",
+        "meaning_en": "The answer to \"Nice to meet you.\"",
+        "example": "Nice to meet you. - Nice to meet you, too."
+      },
+      {
+        "phrase": "Mom, I'm home.",
+        "meaning_ar": "أمي، لقد وصلت إلى البيت.",
+        "meaning_en": "Said when you come back home.",
+        "example": "Mom, I'm home! - Hi, dear."
+      },
+      {
+        "phrase": "You're very cute.",
+        "meaning_ar": "أنت لطيف جدًّا.",
+        "meaning_en": "Said to a small child.",
+        "example": "Look at the baby! You're very cute."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Introducing people: This is my ...",
+        "explanation_ar": "لتقديم شخص نقول This is my + صلة القرابة أو friend. ثم نذكر الاسم.",
+        "explanation_en": "To introduce someone, say: This is my + brother / sister / friend (+ name).",
+        "examples": [
+          "This is my brother, Toto.",
+          "This is my friend, Amy.",
+          "This is my sister."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "This is my friend, Amy. - ___",
+      "choices": [
+        "Nice to meet you.",
+        "I'm seven.",
+        "It's a cat.",
+        "Me too."
+      ],
+      "answer": 0,
+      "explanation_ar": "عند التعارف نقول Nice to meet you.",
+      "explanation_en": "When you meet someone new, say \"Nice to meet you.\""
+    },
+    {
+      "question": "Nice to meet you. - Nice to meet you, ___.",
+      "choices": [
+        "too",
+        "two",
+        "to",
+        "me"
+      ],
+      "answer": 0,
+      "explanation_ar": "الرد: Nice to meet you, too.",
+      "explanation_en": "The answer is \"Nice to meet you, too.\""
+    },
+    {
+      "question": "Toto is a boy. He is my ___.",
+      "choices": [
+        "sister",
+        "brother",
+        "mom",
+        "friend's"
+      ],
+      "answer": 1,
+      "explanation_ar": "الولد من نفس الوالدين: brother.",
+      "explanation_en": "A boy with the same parents is a brother."
+    },
+    {
+      "question": "Mimi is a girl. She is my ___.",
+      "choices": [
+        "brother",
+        "dad",
+        "sister",
+        "grandpa"
+      ],
+      "answer": 2,
+      "explanation_ar": "البنت من نفس الوالدين: sister.",
+      "explanation_en": "A girl with the same parents is a sister."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "This my friend.",
+        "This is my friend.",
+        "This is me friend.",
+        "This are my friend."
+      ],
+      "answer": 1,
+      "explanation_ar": "الصحيح This is my friend.",
+      "explanation_en": "Correct: This is my friend."
+    },
+    {
+      "question": "You come back home. You say: ___",
+      "choices": [
+        "Mom, I'm home.",
+        "Nice to meet you.",
+        "How old are you?",
+        "What's that?"
+      ],
+      "answer": 0,
+      "explanation_ar": "عند العودة إلى البيت نقول Mom, I'm home.",
+      "explanation_en": "Say \"Mom, I'm home\" when you come back."
+    },
+    {
+      "question": "\"cute\" means ___.",
+      "choices": [
+        "كبير",
+        "لطيف",
+        "حزين",
+        "طويل"
+      ],
+      "answer": 1,
+      "explanation_ar": "cute = لطيف / ظريف.",
+      "explanation_en": "cute = small and nice."
+    },
+    {
+      "question": "You're very cute. - ___",
+      "choices": [
+        "Thanks.",
+        "Me too.",
+        "No, it isn't.",
+        "It's a dog."
+      ],
+      "answer": 0,
+      "explanation_ar": "نرد على المديح بـ Thanks.",
+      "explanation_en": "Say \"Thanks\" when someone says something nice."
+    },
+    {
+      "question": "\"very\" makes a word ___.",
+      "choices": [
+        "shorter",
+        "a question",
+        "stronger",
+        "negative"
+      ],
+      "answer": 2,
+      "explanation_ar": "very تقوّي الصفة: very cute = لطيف جدًّا.",
+      "explanation_en": "\"very\" makes the word stronger."
+    },
+    {
+      "question": "Mom, ___ is my friend, Booboo.",
+      "choices": [
+        "it",
+        "who",
+        "that's",
+        "this"
+      ],
+      "answer": 3,
+      "explanation_ar": "نستخدم this لتقديم شخص قريب.",
+      "explanation_en": "Use \"this\" to introduce a person."
+    }
+  ]
+}

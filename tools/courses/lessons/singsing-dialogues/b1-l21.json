@@ -1,0 +1,285 @@
+{
+  "title": "Do you want shoes?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "want",
+        "pos": "verb",
+        "meaning_en": "wish to have something",
+        "meaning_ar": "يريد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want shoes?"
+      },
+      {
+        "word": "shoes",
+        "pos": "noun",
+        "meaning_en": "things you wear on your feet",
+        "meaning_ar": "حذاء / أحذية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want shoes?"
+      },
+      {
+        "word": "sneakers",
+        "pos": "noun",
+        "meaning_en": "soft sports shoes",
+        "meaning_ar": "حذاء رياضي",
+        "note_ar": "في بريطانيا يقولون trainers",
+        "note_en": "British English: trainers.",
+        "example": "I need sneakers."
+      },
+      {
+        "word": "socks",
+        "pos": "noun",
+        "meaning_en": "soft things you wear on your feet inside shoes",
+        "meaning_ar": "جوارب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want socks?"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "meaning_en": "must have",
+        "meaning_ar": "يحتاج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need sneakers."
+      },
+      {
+        "word": "shopping",
+        "pos": "noun",
+        "meaning_en": "going to shops to buy things",
+        "meaning_ar": "التسوّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's go shopping."
+      },
+      {
+        "word": "thank you",
+        "pos": "phrase",
+        "meaning_en": "polite words to show thanks",
+        "meaning_ar": "شكرًا لك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "No, I don't. Thank you."
+      },
+      {
+        "word": "great",
+        "pos": "adjective",
+        "meaning_en": "very good",
+        "meaning_ar": "رائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wow, great!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Yes, I do vs No, I don't",
+        "words": [
+          "Yes, I do",
+          "No, I don't"
+        ],
+        "explanation_ar": "نجيب عن سؤال Do you ...? بـ Yes, I do أو No, I don't.",
+        "explanation_en": "Answer \"Do you ...?\" with \"Yes, I do\" or \"No, I don't.\"",
+        "examples": [
+          {
+            "word": "Yes, I do",
+            "sentence": "Do you want socks? - Yes, I do."
+          },
+          {
+            "word": "No, I don't",
+            "sentence": "Do you want shoes? - No, I don't."
+          }
+        ]
+      },
+      {
+        "title": "want vs need",
+        "words": [
+          "want",
+          "need"
+        ],
+        "explanation_ar": "want = أريد (رغبة)، و need = أحتاج (ضرورة).",
+        "explanation_en": "\"want\" = you wish for it. \"need\" = you must have it.",
+        "examples": [
+          {
+            "word": "want",
+            "sentence": "I want a cake."
+          },
+          {
+            "word": "need",
+            "sentence": "I need sneakers for sports."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Let's go shopping.",
+        "meaning_ar": "هيا نذهب للتسوّق.",
+        "meaning_en": "Inviting someone to go to the shops.",
+        "example": "Noma, let's go shopping."
+      },
+      {
+        "phrase": "I need sneakers.",
+        "meaning_ar": "أحتاج حذاءً رياضيًّا.",
+        "meaning_en": "Saying what you must have.",
+        "example": "Mom, I need sneakers for school."
+      },
+      {
+        "phrase": "Do you want shoes?",
+        "meaning_ar": "هل تريد حذاءً؟",
+        "meaning_en": "Asking what someone wants.",
+        "example": "Do you want shoes? - Yes, I do."
+      },
+      {
+        "phrase": "No, I don't. Thank you.",
+        "meaning_ar": "لا، شكرًا لك.",
+        "meaning_en": "Saying no politely.",
+        "example": "Do you want socks? - No, I don't. Thank you."
+      },
+      {
+        "phrase": "Wow, great!",
+        "meaning_ar": "واو، رائع!",
+        "meaning_en": "Saying you are happy with something.",
+        "example": "Here are your new shoes. - Wow, great!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Do you want ...? - Yes, I do. / No, I don't.",
+        "explanation_ar": "نسأل عن الرغبة بـ Do you want + اسم؟ ونجيب Yes, I do أو No, I don't. ويمكن إضافة Thank you للأدب.",
+        "explanation_en": "Ask \"Do you want ...?\" Answer \"Yes, I do\" or \"No, I don't. Thank you.\"",
+        "examples": [
+          "Do you want shoes? - Yes, I do.",
+          "Do you want sneakers? - Yes, I do.",
+          "Do you want socks? - No, I don't. Thank you."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Do you want socks? - Yes, I ___.",
+      "choices": [
+        "do",
+        "want",
+        "am",
+        "is"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة Yes, I do.",
+      "explanation_en": "The answer is \"Yes, I do.\""
+    },
+    {
+      "question": "Do you want shoes? - No, I ___. Thank you.",
+      "choices": [
+        "do",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": 1,
+      "explanation_ar": "النفي: No, I don't.",
+      "explanation_en": "The negative: No, I don't."
+    },
+    {
+      "question": "You wear ___ inside your shoes.",
+      "choices": [
+        "sneakers",
+        "hats",
+        "socks",
+        "gloves"
+      ],
+      "answer": 2,
+      "explanation_ar": "الجوارب تُلبس داخل الحذاء.",
+      "explanation_en": "Socks go inside shoes."
+    },
+    {
+      "question": "Soft sports shoes are ___.",
+      "choices": [
+        "socks",
+        "dresses",
+        "hats",
+        "sneakers"
+      ],
+      "answer": 3,
+      "explanation_ar": "الحذاء الرياضي = sneakers.",
+      "explanation_en": "Sneakers are sports shoes."
+    },
+    {
+      "question": "Let's go ___. I need new shoes.",
+      "choices": [
+        "shopping",
+        "sleeping",
+        "drawing",
+        "washing"
+      ],
+      "answer": 0,
+      "explanation_ar": "نذهب للتسوّق لشراء الأشياء.",
+      "explanation_en": "We go shopping to buy things."
+    },
+    {
+      "question": "___ you want shoes?",
+      "choices": [
+        "Are",
+        "Do",
+        "Is",
+        "Does you"
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال يبدأ بـ Do you.",
+      "explanation_en": "Start with \"Do you\"."
+    },
+    {
+      "question": "\"need\" means ___.",
+      "choices": [
+        "يحب",
+        "يرى",
+        "يحتاج",
+        "يلعب"
+      ],
+      "answer": 2,
+      "explanation_ar": "need = يحتاج.",
+      "explanation_en": "need = must have."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Do you wants shoes?",
+        "You want do shoes?",
+        "Do you want shoes?",
+        "Want you shoes?"
+      ],
+      "answer": 2,
+      "explanation_ar": "الصحيح Do you want shoes?",
+      "explanation_en": "Correct: Do you want shoes?"
+    },
+    {
+      "question": "In British English, \"sneakers\" are ___.",
+      "choices": [
+        "trainers",
+        "socks",
+        "boots",
+        "slippers"
+      ],
+      "answer": 0,
+      "explanation_ar": "في بريطانيا: trainers.",
+      "explanation_en": "British English: trainers."
+    },
+    {
+      "question": "Someone gives you something you don't want. You say: ___",
+      "choices": [
+        "No, I don't. Thank you.",
+        "Watch out!",
+        "Ouch!",
+        "Hurry up!"
+      ],
+      "answer": 0,
+      "explanation_ar": "نرفض بأدب: No, I don't. Thank you.",
+      "explanation_en": "Say no politely with \"Thank you\"."
+    }
+  ]
+}

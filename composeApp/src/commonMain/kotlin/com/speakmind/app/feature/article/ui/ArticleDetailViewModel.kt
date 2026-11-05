@@ -137,12 +137,29 @@ class ArticleDetailViewModel(
         _uiState.value = _uiState.value.copy(
             selectedWord = cleaned,
             wordSaved = false,
-            selectedAction = WordAction.SAVE,
+            selectedAction = WordAction.TRANSLATE,
             meaningText = null,
             partOfSpeech = null,
             translationText = null,
             isLoadingAction = false,
         )
+        // Most learners tap a word to see it in Arabic, so show that first.
+        fetchTranslation(cleaned)
+        prefetchMeaning(cleaned)
+    }
+
+    /** Fills the English meaning shown beside the Arabic on the Translate tab, without the loading spinner. */
+    private fun prefetchMeaning(word: String) {
+        viewModelScope.launch {
+            val result = withContext(Dispatchers.IO) {
+                dictionaryClient.lookup(word) ?: wiktionaryClient.lookup(word)
+            }
+            if (_uiState.value.selectedWord != word || _uiState.value.meaningText != null) return@launch
+            _uiState.value = _uiState.value.copy(
+                meaningText = result?.meaning,
+                partOfSpeech = result?.partOfSpeech?.takeIf { it.isNotEmpty() },
+            )
+        }
     }
 
     fun onActionSelected(action: WordAction) {
@@ -180,6 +197,8 @@ class ArticleDetailViewModel(
             val translation = withContext(Dispatchers.IO) {
                 translationClient.translate(word)
             }
+            // Another word was tapped meanwhile: this answer is for the old one.
+            if (_uiState.value.selectedWord != word) return@launch
             _uiState.value = _uiState.value.copy(
                 translationText = translation,
                 isLoadingAction = false,

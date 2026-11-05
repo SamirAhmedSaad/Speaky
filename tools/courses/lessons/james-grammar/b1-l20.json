@@ -1,0 +1,49 @@
+{
+  "title": "All and Every",
+  "content": {
+    "vocabulary": [
+      {"word": "all", "pos": "determiner/pronoun", "meaning_en": "the whole of a group or thing", "meaning_ar": "كل / جميع (الكل ككتلة واحدة)", "note_ar": "", "note_en": "", "example": "Did you eat all of the pie?"},
+      {"word": "every", "pos": "determiner", "meaning_en": "each one in a group, seen as individuals", "meaning_ar": "كلّ (كل فرد على حدة)", "note_ar": "يأتي بعده اسم مفرد", "note_en": "Followed by a singular noun.", "example": "Every worm is handsome."},
+      {"word": "each", "pos": "determiner", "meaning_en": "every single one, one by one", "meaning_ar": "كلّ واحد", "note_ar": "", "note_en": "", "example": "Each student has a book."},
+      {"word": "everything", "pos": "pronoun", "meaning_en": "all things, every part included", "meaning_ar": "كل شيء", "note_ar": "", "note_en": "", "example": "Everything I've had today is healthy food."},
+      {"word": "everybody / everyone", "pos": "pronoun", "meaning_en": "every person in a group", "meaning_ar": "الجميع / كل شخص", "note_ar": "يأخذ فعلًا مفردًا", "note_en": "Takes a singular verb.", "example": "Everyone enjoyed the party."},
+      {"word": "whole", "pos": "adjective", "meaning_en": "complete, all of it", "meaning_ar": "كامل", "note_ar": "", "note_en": "", "example": "She ate the whole pie."},
+      {"word": "individual", "pos": "adjective", "meaning_en": "single, separate", "meaning_ar": "فردي / منفصل", "note_ar": "", "note_en": "", "example": "\"Every\" looks at individual things."},
+      {"word": "all the time", "pos": "phrase", "meaning_en": "always", "meaning_ar": "طوال الوقت / دائمًا", "note_ar": "", "note_en": "", "example": "You are late all the time."},
+      {"word": "every time", "pos": "phrase", "meaning_en": "on each occasion", "meaning_ar": "في كل مرة", "note_ar": "تُكتب كلمتين", "note_en": "Written as two words.", "example": "Every time I see him, he smiles."},
+      {"word": "all of the", "pos": "phrase", "meaning_en": "the whole of a specific group", "meaning_ar": "جميع الـ (مجموعة محددة)", "note_ar": "", "note_en": "", "example": "All of the people at the party enjoyed themselves."},
+      {"word": "truism", "pos": "noun", "meaning_en": "a statement that is always true", "meaning_ar": "حقيقة بديهية", "note_ar": "", "note_en": "", "example": "\"All people need water\" is a truism."},
+      {"word": "mortal", "pos": "adjective", "meaning_en": "who will die one day", "meaning_ar": "فانٍ", "note_ar": "", "note_en": "", "example": "All men are mortal."},
+      {"word": "occasion", "pos": "noun", "meaning_en": "a time when something happens", "meaning_ar": "مناسبة / مرة", "note_ar": "", "note_en": "", "example": "On every occasion, she was on time."},
+      {"word": "healthy", "pos": "adjective", "meaning_en": "good for your body", "meaning_ar": "صحي", "note_ar": "", "note_en": "", "example": "All I've had today is healthy food."}
+    ],
+    "fine_lines": [
+      {"title": "all vs every", "words": ["all", "every"], "explanation_ar": "all = الكل ككتلة واحدة (whole). every = كل فرد داخل المجموعة على حدة (each). all of the pie = الفطيرة كلها. every pie = كل فطيرة من الفطائر.", "explanation_en": "\"All\" = the whole, as one piece. \"Every\" = each individual in the group. \"All of the pie\" = the whole pie. \"Every pie\" = each of many pies.", "examples": [{"word": "all", "sentence": "Did you eat all of the pie?"}, {"word": "every", "sentence": "Did you eat every pie?"}]},
+      {"title": "All I've had vs Everything I've had", "words": ["all", "everything"], "explanation_ar": "All I've had is... تعني \"فقط\" (لم آكل إلا هذا). Everything I've had is... تعني كل الأشياء التي أكلتها بلا استثناء.", "explanation_en": "\"All I've had is...\" means \"only\" (I had nothing else). \"Everything I've had is...\" means all the things I had, each one included.", "examples": [{"word": "all", "sentence": "All I've had today is bread. (only bread)"}, {"word": "everything", "sentence": "Everything I've had today is healthy. (all of it)"}]},
+      {"title": "all the time vs every time", "words": ["all the time", "every time"], "explanation_ar": "all the time = دائمًا. every time = في كل مرة على حدة (مناسبة بمناسبة).", "explanation_en": "\"All the time\" = always. \"Every time\" = on each separate occasion.", "examples": [{"word": "all the time", "sentence": "You look different all the time."}, {"word": "every time", "sentence": "You look different every time I see you."}]}
+    ],
+    "expressions": [
+      {"phrase": "Tell me all about your day.", "meaning_ar": "أخبرني بكل شيء عن يومك.", "meaning_en": "Tell me the whole story of your day.", "example": "Come and sit down. Tell me all about your day."},
+      {"phrase": "Everybody enjoyed themselves.", "meaning_ar": "استمتع الجميع.", "meaning_en": "Each person had a good time.", "example": "It was a great wedding. Everybody enjoyed themselves."},
+      {"phrase": "all day", "meaning_ar": "طوال اليوم", "meaning_en": "the complete day", "example": "I don't want to do this all day."}
+    ],
+    "grammar": [
+      {"title": "All = whole, every = each", "explanation_ar": "فكّر في all على أنها \"الكل\" (whole)، وفي every على أنها \"كل واحد\" (each) لكن ضمن مجموعة. every يتبعه اسم مفرد: every worm is.", "explanation_en": "Think of \"all\" as \"whole\" and \"every\" as \"each\" (inside a group). \"Every\" takes a singular noun: every worm is.", "examples": ["All worms are handsome. (the whole category)", "Every worm is handsome. (each individual worm)"]},
+      {"title": "all + preposition, every + noun", "explanation_ar": "all يأتي غالبًا مع حروف جر: all of, all about. every يندمج غالبًا مع اسم: everybody, everyone, everything، أو يأتي قبل اسم: every time, every place.", "explanation_en": "\"All\" often goes with prepositions: all of, all about. \"Every\" often joins a noun: everybody, everyone, everything, or comes before one: every time, every place.", "examples": ["All of the people enjoyed the party.", "Everyone enjoyed the party."]},
+      {"title": "Don't say \"all people\" for a small group", "explanation_ar": "all people تعني كل البشر، فلا تقلها عن مجموعة محددة. قل all of the people (لأن the تحدد المجموعة) أو everybody / everyone. نستعمل all + اسم فقط في الحقائق العامة (truisms): All people need water.", "explanation_en": "\"All people\" means all humans, so don't use it for one group. Say \"all of the people\" (\"the\" makes it specific) or \"everybody / everyone\". Use all + noun only for general truths: \"All people need water.\"", "examples": ["✗ All people enjoyed the party.", "✓ All of the people enjoyed the party.", "✓ Everybody enjoyed the party."]},
+      {"title": "Time: all the time / every time", "explanation_ar": "نقول all the time (بمعنى دائمًا) وليس all time. ونقول every time (كلمتان) بمعنى في كل مرة.", "explanation_en": "Say \"all the time\" (= always), not \"all time\". Say \"every time\" (two words) = on each occasion.", "examples": ["You are late all the time.", "Every time I call, he's busy."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"All\" is like ___, and \"every\" is like ___.", "choices": ["each / whole", "whole / each", "only / never", "some / any"], "answer": 1, "explanation_ar": "all = whole، و every = each.", "explanation_en": "all = whole; every = each."},
+    {"question": "Choose the correct sentence about a party.", "choices": ["All people enjoyed the party.", "Every people enjoyed the party.", "Everybody enjoyed the party.", "All of people enjoyed the party."], "answer": 2, "explanation_ar": "everybody = كل شخص في الحفلة.", "explanation_en": "\"Everybody\" = each person at the party."},
+    {"question": "\"___ the people at the meeting agreed.\"", "choices": ["All of", "Every", "Every of", "Everyone"], "answer": 0, "explanation_ar": "all of the + مجموعة محددة.", "explanation_en": "all of the + a specific group."},
+    {"question": "\"You are late ___.\" (= always)", "choices": ["all time", "every times", "all the time", "everytime the"], "answer": 2, "explanation_ar": "all the time = دائمًا.", "explanation_en": "\"All the time\" = always."},
+    {"question": "\"___ I see him, he smiles.\" (on each occasion)", "choices": ["All time", "Every time", "All the time", "Everything"], "answer": 1, "explanation_ar": "every time = في كل مرة.", "explanation_en": "\"Every time\" = on each occasion."},
+    {"question": "\"All I've had today is bread.\" This means ___.", "choices": ["I had only bread.", "I had many healthy things.", "I had bread every day.", "Everyone had bread."], "answer": 0, "explanation_ar": "all هنا بمعنى فقط.", "explanation_en": "Here \"all\" means only."},
+    {"question": "\"___ worm is handsome.\"", "choices": ["All", "Every", "All of", "Whole"], "answer": 1, "explanation_ar": "every + اسم مفرد + is.", "explanation_en": "every + singular noun + is."},
+    {"question": "\"All men are mortal\" is a ___.", "choices": ["question", "mistake", "truism (always true)", "time expression"], "answer": 2, "explanation_ar": "حقيقة عامة صحيحة دائمًا.", "explanation_en": "A general statement that is always true."},
+    {"question": "\"Did you eat ___ of the pie?\" (the whole pie)", "choices": ["every", "each", "everyone", "all"], "answer": 3, "explanation_ar": "الفطيرة كلها: all.", "explanation_en": "The whole pie: all."},
+    {"question": "Which is correct?", "choices": ["Everyone are here.", "Everyone is here.", "Every students is here.", "All student is here."], "answer": 1, "explanation_ar": "everyone مفرد: is.", "explanation_en": "\"Everyone\" is singular: is."}
+  ]
+}

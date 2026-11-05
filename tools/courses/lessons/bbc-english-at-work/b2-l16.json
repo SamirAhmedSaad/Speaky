@@ -1,0 +1,476 @@
+{
+  "title": "Accepting an Award",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "award",
+        "pos": "noun",
+        "meaning_en": "a prize for doing something well",
+        "meaning_ar": "جائزة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our company won an award for design."
+      },
+      {
+        "word": "acceptance speech",
+        "pos": "noun",
+        "meaning_en": "a short talk you give when you receive a prize",
+        "meaning_ar": "كلمة قبول الجائزة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep your acceptance speech short."
+      },
+      {
+        "word": "ladies and gentlemen",
+        "pos": "phrase",
+        "meaning_en": "a polite way to start speaking to an audience",
+        "meaning_ar": "سيداتي وسادتي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ladies and gentlemen, welcome to our event."
+      },
+      {
+        "word": "on behalf of",
+        "pos": "phrase",
+        "meaning_en": "representing someone or a group",
+        "meaning_ar": "نيابةً عن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "On behalf of the team, thank you."
+      },
+      {
+        "word": "at the forefront of",
+        "pos": "phrase",
+        "meaning_en": "in the leading position in an area",
+        "meaning_ar": "في طليعة / في مقدمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our company is at the forefront of new technology."
+      },
+      {
+        "word": "innovation",
+        "pos": "noun",
+        "meaning_en": "a new idea, method or product",
+        "meaning_ar": "ابتكار",
+        "note_ar": "الفعل: innovate، والصفة: innovative.",
+        "note_en": "Verb: innovate; adjective: innovative.",
+        "example": "The award is for innovation in design."
+      },
+      {
+        "word": "boost",
+        "pos": "noun",
+        "meaning_en": "something that increases confidence or success",
+        "meaning_ar": "دفعة / حافز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The award was a real boost for the team."
+      },
+      {
+        "word": "mean a lot to",
+        "pos": "phrase",
+        "meaning_en": "to be very important to someone",
+        "meaning_ar": "يعني الكثير لـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your support means a lot to us."
+      },
+      {
+        "word": "pride ourselves on",
+        "pos": "phrase",
+        "meaning_en": "to be proud of a quality you have",
+        "meaning_ar": "نفتخر بـ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We pride ourselves on our customer service."
+      },
+      {
+        "word": "audience",
+        "pos": "noun",
+        "meaning_en": "the people who watch or listen to a speech or show",
+        "meaning_ar": "الجمهور / الحضور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The audience clapped after her speech."
+      },
+      {
+        "word": "public speaking",
+        "pos": "noun",
+        "meaning_en": "speaking in front of a group of people",
+        "meaning_ar": "الخطابة / التحدث أمام الجمهور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Public speaking makes many people nervous."
+      },
+      {
+        "word": "ceremony",
+        "pos": "noun",
+        "meaning_en": "a formal public event",
+        "meaning_ar": "حفل / مراسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The award ceremony was in a big hotel."
+      },
+      {
+        "word": "highlight",
+        "pos": "noun",
+        "meaning_en": "the best or most exciting part",
+        "meaning_ar": "أبرز لحظة / الحدث الأبرز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The highlight of the day was the award."
+      },
+      {
+        "word": "without further ado",
+        "pos": "phrase",
+        "meaning_en": "without waiting any longer (said before announcing something)",
+        "meaning_ar": "ودون مزيد من الانتظار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Without further ado, here is our winner."
+      },
+      {
+        "word": "announce",
+        "pos": "verb",
+        "meaning_en": "to tell people something officially",
+        "meaning_ar": "يعلن",
+        "note_ar": "الاسم: announcement.",
+        "note_en": "Noun: announcement.",
+        "example": "They will announce the winner at eight."
+      },
+      {
+        "word": "launch",
+        "pos": "verb",
+        "meaning_en": "to start selling a new product",
+        "meaning_ar": "يُطلق (منتجًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll be launching a new product soon."
+      },
+      {
+        "word": "struggle",
+        "pos": "verb",
+        "meaning_en": "to find something very difficult",
+        "meaning_ar": "يواجه صعوبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm struggling to write this report."
+      },
+      {
+        "word": "employee of the year",
+        "pos": "noun",
+        "meaning_en": "a prize for the best worker of the year",
+        "meaning_ar": "موظف العام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She was named Employee of the Year."
+      },
+      {
+        "word": "recognise",
+        "pos": "verb",
+        "meaning_en": "to officially show that someone's work is good",
+        "meaning_ar": "يقدّر / يعترف (بجهد شخص)",
+        "note_ar": "الأمريكية: recognize.",
+        "note_en": "US spelling: recognize.",
+        "example": "The prize recognises her hard work."
+      },
+      {
+        "word": "achievement",
+        "pos": "noun",
+        "meaning_en": "something good you succeed in doing",
+        "meaning_ar": "إنجاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Finishing the project early was a big achievement."
+      },
+      {
+        "word": "contribution",
+        "pos": "noun",
+        "meaning_en": "what you give or do to help something succeed",
+        "meaning_ar": "مساهمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your contribution to the project."
+      },
+      {
+        "word": "deserve",
+        "pos": "verb",
+        "meaning_en": "to have earned something because of your actions",
+        "meaning_ar": "يستحق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You worked hard – you deserve this prize."
+      },
+      {
+        "word": "apprentice",
+        "pos": "noun",
+        "meaning_en": "a person learning a job by working",
+        "meaning_ar": "متدرب (يتعلم المهنة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He started as an apprentice and is now a manager."
+      },
+      {
+        "word": "on board",
+        "pos": "phrase",
+        "meaning_en": "working as part of the team",
+        "meaning_ar": "ضمن الفريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's great to have you on board."
+      },
+      {
+        "word": "save the day",
+        "pos": "idiom",
+        "meaning_en": "to solve a problem when things are going wrong",
+        "meaning_ar": "ينقذ الموقف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna saved the day by giving the speech."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "on behalf of vs instead of",
+        "words": [
+          "on behalf of",
+          "instead of"
+        ],
+        "explanation_ar": "on behalf of تعني أنك تمثل شخصًا أو مجموعة وتتكلم باسمهم. instead of تعني بدلًا من، أي أن شيئًا يحل محل شيء آخر.",
+        "explanation_en": "'On behalf of' means representing someone. 'Instead of' means in place of something else.",
+        "examples": [
+          {
+            "word": "on behalf of",
+            "sentence": "On behalf of everyone here, thank you."
+          },
+          {
+            "word": "instead of",
+            "sentence": "I had tea instead of coffee."
+          }
+        ]
+      },
+      {
+        "title": "award vs reward",
+        "words": [
+          "award",
+          "reward"
+        ],
+        "explanation_ar": "award جائزة تُمنح رسميًا في حفل أو مسابقة. reward مكافأة تحصل عليها مقابل عمل جيد أو مساعدة، وليس بالضرورة في حفل.",
+        "explanation_en": "An award is an official prize, often at a ceremony. A reward is something you get for good work or help.",
+        "examples": [
+          {
+            "word": "award",
+            "sentence": "She won the Employee of the Year award."
+          },
+          {
+            "word": "reward",
+            "sentence": "The bonus is a reward for your hard work."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Ladies and gentlemen, on behalf of everyone at Tip Top Trading, thank you for our award.",
+        "meaning_ar": "سيداتي وسادتي، نيابةً عن جميع العاملين في تيب توب تريدينغ، شكرًا لكم على هذه الجائزة.",
+        "meaning_en": "A formal way to thank people for a prize for your company.",
+        "example": "Ladies and gentlemen, on behalf of everyone at our school, thank you for this award."
+      },
+      {
+        "phrase": "Our company is at the forefront of plastic innovation.",
+        "meaning_ar": "شركتنا في طليعة الابتكار في مجال البلاستيك.",
+        "meaning_en": "Our company leads in new ideas.",
+        "example": "Our company is at the forefront of green energy."
+      },
+      {
+        "phrase": "This award is a real boost for everyone working at the company.",
+        "meaning_ar": "هذه الجائزة دفعة حقيقية لكل العاملين في الشركة.",
+        "meaning_en": "The prize makes all the staff feel encouraged.",
+        "example": "This award is a real boost for our small team."
+      },
+      {
+        "phrase": "This award really means a lot to us.",
+        "meaning_ar": "هذه الجائزة تعني لنا الكثير حقًا.",
+        "meaning_en": "The prize is very important to us.",
+        "example": "Thank you all. This award really means a lot to us."
+      },
+      {
+        "phrase": "We pride ourselves on innovation and quality.",
+        "meaning_ar": "نحن نفتخر بالابتكار والجودة.",
+        "meaning_en": "We are proud of our new ideas and good products.",
+        "example": "We pride ourselves on fast delivery."
+      },
+      {
+        "phrase": "Please take your seats.",
+        "meaning_ar": "تفضلوا بالجلوس.",
+        "meaning_en": "Please sit down.",
+        "example": "Ladies and gentlemen, please take your seats; the ceremony is starting."
+      },
+      {
+        "phrase": "You deserve it.",
+        "meaning_ar": "أنت تستحق ذلك.",
+        "meaning_en": "You earned it by your work.",
+        "example": "Congratulations on the prize – you deserve it."
+      },
+      {
+        "phrase": "It's great to have her on board.",
+        "meaning_ar": "من الرائع أن تكون معنا في الفريق.",
+        "meaning_en": "We're happy she's part of our team.",
+        "example": "Welcome, Ali. It's great to have you on board."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Formal thanks: thank you for + noun / -ing",
+        "explanation_ar": "بعد thank you for نضع اسمًا أو فعلًا بصيغة ing: thank you for our award / thank you for coming.",
+        "explanation_en": "After 'thank you for' use a noun or a verb + -ing.",
+        "examples": [
+          "Thank you for our award.",
+          "Thank you for attending this year's conference.",
+          "Thank you for listening."
+        ]
+      },
+      {
+        "title": "Future continuous: will be + -ing",
+        "explanation_ar": "will be + فعل بـ ing يُستخدم لإعلان خطط مستقبلية مؤكدة بطريقة رسمية: we'll be launching a new product.",
+        "explanation_en": "Use will be + -ing to announce planned future actions formally.",
+        "examples": [
+          "Coming soon, we'll be launching a new plastic aubergine.",
+          "We will be opening a new office next year.",
+          "I'll be visiting the factory on Monday."
+        ]
+      },
+      {
+        "title": "Present perfect for news and achievements",
+        "explanation_ar": "نستخدم have + التصريف الثالث لإعلان خبر جديد: We've actually won! / She has risen from an apprentice to a champion.",
+        "explanation_en": "Use the present perfect to announce new results and achievements.",
+        "examples": [
+          "We've actually won!",
+          "She has risen from an apprentice to a champion.",
+          "Our team has finished the project."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How should you start a formal speech?",
+      "choices": [
+        "Hey guys!",
+        "Listen up!",
+        "Hi there!",
+        "Ladies and gentlemen,"
+      ],
+      "answer": 3,
+      "explanation_ar": "Ladies and gentlemen بداية رسمية.",
+      "explanation_en": "'Ladies and gentlemen' is a formal opening."
+    },
+    {
+      "question": "___ everyone at Tip Top Trading, thank you for our award.",
+      "choices": [
+        "Instead of",
+        "On behalf of",
+        "Because of",
+        "In front of"
+      ],
+      "answer": 1,
+      "explanation_ar": "on behalf of = نيابةً عن.",
+      "explanation_en": "'On behalf of' means representing."
+    },
+    {
+      "question": "Our company is at the ___ of plastic innovation.",
+      "choices": [
+        "forefront",
+        "front door",
+        "first",
+        "foremost"
+      ],
+      "answer": 0,
+      "explanation_ar": "التعبير الصحيح: at the forefront of.",
+      "explanation_en": "The phrase is 'at the forefront of'."
+    },
+    {
+      "question": "'This award is a real boost' means the award ___.",
+      "choices": [
+        "is a problem",
+        "is very small",
+        "makes people feel encouraged",
+        "costs a lot"
+      ],
+      "answer": 2,
+      "explanation_ar": "boost دفعة وتحفيز.",
+      "explanation_en": "A boost encourages people."
+    },
+    {
+      "question": "Thank you for ___ this year's conference.",
+      "choices": [
+        "attend",
+        "attending",
+        "to attend",
+        "attended"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد for نستخدم ing.",
+      "explanation_en": "After 'for' use -ing."
+    },
+    {
+      "question": "Coming soon, we ___ a new product.",
+      "choices": [
+        "launched",
+        "launching",
+        "are launch",
+        "will be launching"
+      ],
+      "answer": 3,
+      "explanation_ar": "will be + ing لخطة مستقبلية.",
+      "explanation_en": "Use will be + -ing."
+    },
+    {
+      "question": "What does 'without further ado' mean?",
+      "choices": [
+        "without waiting any longer",
+        "slowly",
+        "with more noise",
+        "after lunch"
+      ],
+      "answer": 0,
+      "explanation_ar": "تعني دون مزيد من الانتظار.",
+      "explanation_en": "It means without waiting any more."
+    },
+    {
+      "question": "Which word means 'a new idea, method or product'?",
+      "choices": [
+        "audience",
+        "ceremony",
+        "innovation",
+        "apprentice"
+      ],
+      "answer": 2,
+      "explanation_ar": "innovation = ابتكار.",
+      "explanation_en": "Innovation is a new idea or product."
+    },
+    {
+      "question": "Anna won Employee of the Year. Paul says: 'You ___ it.'",
+      "choices": [
+        "serve",
+        "reserve",
+        "deserve",
+        "preserve"
+      ],
+      "answer": 2,
+      "explanation_ar": "deserve = يستحق.",
+      "explanation_en": "Deserve means you earned it."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "This award really means a lot to us.",
+        "This award really mean a lot to us.",
+        "This award really means a lot for to us.",
+        "This award really meaning a lot to us."
+      ],
+      "answer": 0,
+      "explanation_ar": "award مفرد فنقول means، والتعبير mean a lot to.",
+      "explanation_en": "Singular subject: means; phrase: mean a lot to."
+    }
+  ]
+}

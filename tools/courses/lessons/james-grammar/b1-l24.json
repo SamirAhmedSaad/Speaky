@@ -1,0 +1,47 @@
+{
+  "title": "Three Ways to Use Adverbs",
+  "content": {
+    "vocabulary": [
+      {"word": "adverb", "pos": "noun", "meaning_en": "a word that adds information to a verb, an adjective or another adverb", "meaning_ar": "ظرف / حال", "note_ar": "add + verb = يضيف إلى الفعل", "note_en": "add + verb", "example": "In \"He spoke calmly\", \"calmly\" is an adverb."},
+      {"word": "modify", "pos": "verb", "meaning_en": "add information to; describe", "meaning_ar": "يُعدِّل / يصف", "note_ar": "", "note_en": "", "example": "Adverbs modify verbs."},
+      {"word": "intensify", "pos": "verb", "meaning_en": "make stronger", "meaning_ar": "يقوّي / يكثّف", "note_ar": "", "note_en": "", "example": "\"Very\" intensifies the adjective \"cold\"."},
+      {"word": "emphasis", "pos": "noun", "meaning_en": "extra strength on a word or idea", "meaning_ar": "توكيد", "note_ar": "", "note_en": "", "example": "\"Too quickly\" adds emphasis."},
+      {"word": "quickly", "pos": "adverb", "meaning_en": "fast", "meaning_ar": "بسرعة", "note_ar": "", "note_en": "", "example": "He closed the door quickly."},
+      {"word": "calmly", "pos": "adverb", "meaning_en": "in a quiet, relaxed way", "meaning_ar": "بهدوء", "note_ar": "", "note_en": "", "example": "She spoke calmly."},
+      {"word": "brightly", "pos": "adverb", "meaning_en": "in a bright, strong way", "meaning_ar": "بشكل زاهٍ / ساطع", "note_ar": "", "note_en": "", "example": "He wore a brightly coloured jacket."},
+      {"word": "rather", "pos": "adverb", "meaning_en": "quite; to some degree", "meaning_ar": "إلى حدٍّ ما / نوعًا ما", "note_ar": "", "note_en": "", "example": "He moved rather slowly for a young man."},
+      {"word": "inside / around / everywhere", "pos": "adverb", "meaning_en": "adverbs of place (where)", "meaning_ar": "في الداخل / حول / في كل مكان", "note_ar": "", "note_en": "", "example": "Look inside the box."},
+      {"word": "seldom", "pos": "adverb", "meaning_en": "not often (a little more than rarely; mostly in books)", "meaning_ar": "نادرًا", "note_ar": "قليل الاستعمال في الكلام", "note_en": "Not common in speech.", "example": "We seldom eat out."},
+      {"word": "rarely", "pos": "adverb", "meaning_en": "almost never", "meaning_ar": "نادرًا جدًا", "note_ar": "", "note_en": "", "example": "He rarely gets angry."},
+      {"word": "habitually", "pos": "adverb", "meaning_en": "as a habit, regularly", "meaning_ar": "عادةً / بحكم العادة", "note_ar": "", "note_en": "", "example": "She habitually drinks tea in the morning."}
+    ],
+    "fine_lines": [
+      {"title": "adjective vs adverb", "words": ["bright", "brightly"], "explanation_ar": "الصفة تصف الاسم (a bright jacket). الظرف يصف الفعل أو الصفة أو ظرفًا آخر (brightly coloured). أغلب الظروف تنتهي بـ ly، لكن بعض الصفات أيضًا تنتهي بـ ly (friendly).", "explanation_en": "An adjective describes a noun (a bright jacket). An adverb describes a verb, an adjective or another adverb (brightly coloured). Most adverbs end in -ly, but some adjectives do too (friendly).", "examples": [{"word": "bright", "sentence": "She has a bright jacket."}, {"word": "brightly", "sentence": "She has a brightly coloured jacket."}]},
+      {"title": "seldom vs rarely", "words": ["seldom", "rarely"], "explanation_ar": "كلاهما بمعنى \"نادرًا\". rarely = تقريبًا أبدًا وهو الأكثر استعمالًا في الكلام. seldom أكثر قليلًا من rarely ويظهر في كتب القواعد.", "explanation_en": "Both mean \"not often\". \"Rarely\" = almost never and is more common in speech. \"Seldom\" is a little more often than rarely and appears in grammar books.", "examples": [{"word": "seldom", "sentence": "We seldom go to the cinema."}, {"word": "rarely", "sentence": "He rarely misses a class."}]}
+    ],
+    "expressions": [
+      {"phrase": "You speak too quickly.", "meaning_ar": "أنت تتكلم بسرعة كبيرة.", "meaning_en": "You speak faster than I can follow.", "example": "Please slow down. You speak too quickly."},
+      {"phrase": "Look inside.", "meaning_ar": "انظر في الداخل.", "meaning_en": "Check the inside of something.", "example": "Your keys? Look inside your bag."},
+      {"phrase": "rather slowly", "meaning_ar": "ببطء نوعًا ما", "meaning_en": "quite slowly", "example": "The old bus moved rather slowly."}
+    ],
+    "grammar": [
+      {"title": "1) Adverbs modify verbs: where, how, when", "explanation_ar": "الظرف الذي يصف الفعل يخبرنا أين (inside, around, everywhere) وكيف (quickly, calmly) ومتى (yesterday, today, tomorrow). ويأتي عادةً بعد الفعل.", "explanation_en": "An adverb that modifies a verb tells us where (inside, around, everywhere), how (quickly, calmly) and when (yesterday, today, tomorrow). It usually comes after the verb.", "examples": ["Look inside.", "He spoke calmly.", "He did the work yesterday."]},
+      {"title": "Adverbs of frequency come BEFORE the verb", "explanation_ar": "ظروف التكرار (الأخوات السبع): always (100%) – usually – often – sometimes (50%) – seldom – rarely – never (0%). تأتي قبل الفعل الرئيسي: I usually go وليس I go usually.", "explanation_en": "Adverbs of frequency (the seven sisters): always (100%) – usually – often – sometimes (50%) – seldom – rarely – never (0%). They go before the main verb: \"I usually go\", not \"I go usually\".", "examples": ["I always go to the gym on Monday.", "She never eats meat.", "We sometimes walk to school."]},
+      {"title": "2) Adverbs intensify adjectives", "explanation_ar": "الظرف قبل الصفة يقويها ويعطيها شدة: very hot, very cold, brightly coloured.", "explanation_en": "An adverb before an adjective makes it stronger: very hot, very cold, brightly coloured.", "examples": ["The soup was very hot.", "It was very cold outside.", "a brightly coloured coat"]},
+      {"title": "3) Adverbs give emphasis to other adverbs", "explanation_ar": "الظرف قبل ظرف آخر يعطيه توكيدًا: too quickly, too slowly, rather slowly.", "explanation_en": "An adverb before another adverb adds emphasis: too quickly, too slowly, rather slowly.", "examples": ["James speaks too quickly.", "He moved rather slowly."]},
+      {"title": "-ly: the most common adverb ending", "explanation_ar": "أغلب الظروف تُصنع بإضافة ly إلى الصفة: quick → quickly, normal → normally, regular → regularly.", "explanation_en": "Most adverbs are made by adding -ly to an adjective: quick → quickly, normal → normally, regular → regularly.", "examples": ["quickly", "normally", "regularly", "habitually"]}
+    ]
+  },
+  "questions": [
+    {"question": "Adverbs can modify verbs, adjectives and ___.", "choices": ["nouns only", "other adverbs", "articles", "pronouns"], "answer": 1, "explanation_ar": "الظرف يصف الفعل والصفة وظرفًا آخر.", "explanation_en": "Adverbs modify verbs, adjectives and other adverbs."},
+    {"question": "When an adverb modifies a verb, it tells us ___.", "choices": ["who and what", "where, how and when", "how many", "whose"], "answer": 1, "explanation_ar": "أين وكيف ومتى.", "explanation_en": "Where, how and when."},
+    {"question": "Choose the correct sentence.", "choices": ["I go usually to the gym.", "I usually go to the gym.", "Usually I go usually to the gym.", "I go to usually the gym."], "answer": 1, "explanation_ar": "ظرف التكرار قبل الفعل.", "explanation_en": "The frequency adverb goes before the verb."},
+    {"question": "\"He closed the door ___.\" (how?)", "choices": ["quick", "quickly", "quickness", "quicker than"], "answer": 1, "explanation_ar": "نحتاج ظرفًا: quickly.", "explanation_en": "We need an adverb: quickly."},
+    {"question": "In \"It's very cold\", \"very\" ___ the adjective.", "choices": ["intensifies", "replaces", "follows", "asks"], "answer": 0, "explanation_ar": "very تقوي الصفة cold.", "explanation_en": "\"Very\" makes \"cold\" stronger."},
+    {"question": "\"Yesterday\" is an adverb of ___.", "choices": ["place", "manner", "time (when)", "frequency"], "answer": 2, "explanation_ar": "يخبرنا متى.", "explanation_en": "It tells us when."},
+    {"question": "\"Look ___.\" (adverb of place)", "choices": ["calmly", "always", "inside", "very"], "answer": 2, "explanation_ar": "inside ظرف مكان.", "explanation_en": "\"Inside\" is an adverb of place."},
+    {"question": "Which frequency adverb means 0%?", "choices": ["seldom", "sometimes", "rarely", "never"], "answer": 3, "explanation_ar": "never = أبدًا = 0%.", "explanation_en": "\"Never\" = 0%."},
+    {"question": "\"James speaks ___ quickly. I can't follow him.\"", "choices": ["too", "inside", "yesterday", "always"], "answer": 0, "explanation_ar": "too قبل الظرف للتوكيد.", "explanation_en": "\"Too\" before an adverb for emphasis."},
+    {"question": "What is the most common adverb ending?", "choices": ["-ed", "-ing", "-ly", "-ness"], "answer": 2, "explanation_ar": "ly هي النهاية الأكثر شيوعًا.", "explanation_en": "-ly is the most common ending."}
+  ]
+}

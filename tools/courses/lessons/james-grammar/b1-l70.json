@@ -1,0 +1,48 @@
+{
+  "title": "Commas with FANBOYS (for, and, nor, but, or, yet, so)",
+  "content": {
+    "vocabulary": [
+      {"word": "comma", "pos": "noun", "meaning_en": "the punctuation mark (,) that shows a short pause, separates a list, or divides large numbers", "meaning_ar": "فاصلة", "note_ar": "", "note_en": "", "example": "Put a comma before \"so\" when it joins two sentences."},
+      {"word": "punctuation mark", "pos": "noun", "meaning_en": "a sign like . , ? ! used in writing", "meaning_ar": "علامة ترقيم", "note_ar": "", "note_en": "", "example": "A period is a punctuation mark."},
+      {"word": "period", "pos": "noun", "meaning_en": "the mark (.) at the end of a sentence (UK: full stop)", "meaning_ar": "نقطة (نهاية الجملة)", "note_ar": "بالبريطانية: full stop", "note_en": "UK: full stop.", "example": "End the sentence with a period."},
+      {"word": "conjunction", "pos": "noun", "meaning_en": "a word that joins words or ideas", "meaning_ar": "أداة ربط", "note_ar": "", "note_en": "", "example": "\"But\" is a conjunction."},
+      {"word": "coordinating conjunction", "pos": "noun", "meaning_en": "one of the FANBOYS words that join two equal ideas", "meaning_ar": "أداة ربط تنسيقية (عطف)", "note_ar": "", "note_en": "", "example": "\"And\" is a coordinating conjunction."},
+      {"word": "FANBOYS", "pos": "noun", "meaning_en": "an acronym: For, And, Nor, But, Or, Yet, So", "meaning_ar": "اختصار لأدوات العطف السبع", "note_ar": "", "note_en": "", "example": "Remember the FANBOYS: for, and, nor, but, or, yet, so."},
+      {"word": "acronym", "pos": "noun", "meaning_en": "a word made from the first letters of other words", "meaning_ar": "كلمة مختصرة من الحروف الأولى", "note_ar": "", "note_en": "", "example": "FANBOYS is an acronym."},
+      {"word": "fanboy", "pos": "noun", "meaning_en": "a person who loves a product, game or company very much", "meaning_ar": "معجب متحمس جدًا", "note_ar": "", "note_en": "", "example": "He's a fanboy; he buys every new phone from that company."},
+      {"word": "clause", "pos": "noun", "meaning_en": "a group of words with a subject and a verb", "meaning_ar": "جملة (فيها فاعل وفعل)", "note_ar": "", "note_en": "", "example": "\"He bought a bicycle\" is a clause."},
+      {"word": "sentence fragment", "pos": "noun", "meaning_en": "part of a sentence, not a complete idea (a fat cat)", "meaning_ar": "جزء من جملة", "note_ar": "", "note_en": "", "example": "\"A Superman comic\" is a sentence fragment."},
+      {"word": "balanced", "pos": "adjective", "meaning_en": "equal on both sides", "meaning_ar": "متوازن", "note_ar": "", "note_en": "", "example": "Two complete sentences joined by \"and\" are balanced."},
+      {"word": "result", "pos": "noun", "meaning_en": "something that happens because of something else", "meaning_ar": "نتيجة", "note_ar": "", "note_en": "", "example": "We were tired, so we went home. (result)"}
+    ],
+    "fine_lines": [
+      {"title": "comma vs no comma before FANBOYS", "words": [", and", "and"], "explanation_ar": "إذا ربطت أداة العطف جملتين كاملتين (فيهما فاعل وفعل) نضع فاصلة قبلها. إذا ربطت جملة كاملة بجزء جملة (اسم أو عبارة) فلا نضع فاصلة.", "explanation_en": "If a FANBOYS word joins two complete sentences (each with a subject and a verb), put a comma before it. If it joins a sentence and a fragment (a noun or phrase), no comma.", "examples": [{"word": ", and", "sentence": "Mr. E went to the store, and he bought a bicycle."}, {"word": "and", "sentence": "Mr. E likes to eat hamburgers and pizza."}]},
+      {"title": "but vs yet", "words": ["but", "yet"], "explanation_ar": "الاثنان للتناقض. yet تشبه but لكنها تحمل معنى المفاجأة: رغم ذلك.", "explanation_en": "Both show contrast. Yet is like but, with a feeling of surprise: even so.", "examples": [{"word": "but", "sentence": "I like this shirt, but I don't want to buy it."}, {"word": "yet", "sentence": "He studied very little, yet he passed the test."}]},
+      {"title": "and vs nor", "words": ["and", "nor"], "explanation_ar": "and تجمع فكرتين موجبتين. nor تجمع فكرتين منفيتين، وبعدها نقدّم الفعل المساعد: nor has he...", "explanation_en": "And joins two positive ideas. Nor joins two negative ideas; after nor the auxiliary comes first: nor has he...", "examples": [{"word": "and", "sentence": "He loves ice cream, and he loves juice."}, {"word": "nor", "sentence": "James has not been to Barcelona, nor has he lived in London."}]}
+    ],
+    "expressions": [
+      {"phrase": ", so ...", "meaning_ar": "، لذلك ...", "meaning_en": "gives a result", "example": "Tia moved to a new city, so she got a new apartment."},
+      {"phrase": ", for ...", "meaning_ar": "، لأنّ ... (رسمي)", "meaning_en": "gives a reason (formal)", "example": "We went inside, for it was raining."},
+      {"phrase": ", or ...", "meaning_ar": "، أو ...", "meaning_en": "gives a choice", "example": "You can stay here, or you can come with us."},
+      {"phrase": "object of affection", "meaning_ar": "الشيء المحبوب", "meaning_en": "the thing or person someone loves", "example": "Football is his object of affection."}
+    ],
+    "grammar": [
+      {"title": "Three basic uses of the comma", "explanation_ar": "(1) وقفة قصيرة بين أجزاء الجملة. (2) فصل عناصر القائمة (knives, forks, spoons). (3) في الأعداد الكبيرة: 1,000 و 1,000,000.", "explanation_en": "(1) A short pause between parts of a sentence. (2) Separating items in a list (knives, forks, spoons). (3) In large numbers: 1,000 and 1,000,000.", "examples": ["When I got home, I ate.", "I bought eggs, milk, bread and rice.", "The city has 2,500,000 people."]},
+      {"title": "FANBOYS meanings", "explanation_ar": "For = سبب. And = إضافة. Nor = إضافة منفية. But = تناقض أو استثناء. Or = اختيار. Yet = تناقض (مثل but). So = نتيجة.", "explanation_en": "For = reason. And = addition. Nor = negative addition. But = contrast or exception. Or = choice. Yet = contrast (like but). So = result.", "examples": ["We were tired, so we went home.", "You can go, but your friend can't."]},
+      {"title": "Rule: sentence + comma + FANBOYS + sentence", "explanation_ar": "عند ربط جملتين كاملتين متوازنتين: الجملة الأولى + فاصلة + أداة العطف + الجملة الثانية. الفاصلة تأتي قبل أداة العطف وليس بعدها. (مع and القصيرة قد تكون الفاصلة اختيارية.)", "explanation_en": "To join two balanced complete sentences: sentence 1 + comma + FANBOYS word + sentence 2. The comma goes before the conjunction, not after it. (With short and-sentences the comma is sometimes optional.)", "examples": ["Alena likes ice cream, but it gives her a stomachache.", "Mr. E went to the store, and he bought a bicycle."]},
+      {"title": "No comma with a fragment", "explanation_ar": "إذا كان الجزء الثاني ليس جملة كاملة (لا فاعل وفعل) فلا نضع فاصلة.", "explanation_en": "If the second part is not a complete sentence (no subject + verb), don't use a comma.", "examples": ["Mr. E is going to buy a Batman comic or a Superman comic.", "She likes tea and coffee."]}
+    ]
+  },
+  "questions": [
+    {"question": "What does FANBOYS stand for?", "choices": ["for, and, nor, but, or, yet, so", "for, after, not, because, or, yes, so", "from, and, no, but, of, yet, since", "for, and, now, by, on, yet, so"], "answer": 0, "explanation_ar": "أدوات العطف السبع.", "explanation_en": "The seven coordinating conjunctions."},
+    {"question": "Where does the comma go?", "choices": ["Tia moved to a new city so, she got an apartment.", "Tia moved to a new city, so she got an apartment.", "Tia moved, to a new city so she got an apartment.", "Tia moved to a new city so she, got an apartment."], "answer": 1, "explanation_ar": "الفاصلة قبل أداة العطف.", "explanation_en": "The comma goes before the conjunction."},
+    {"question": "Does this need a comma? \"Mr. E likes hamburgers and pizza.\"", "choices": ["Yes, before and.", "Yes, after and.", "No, \"pizza\" is not a complete sentence.", "Yes, after likes."], "answer": 2, "explanation_ar": "الجزء الثاني ليس جملة كاملة.", "explanation_en": "The second part is not a complete sentence."},
+    {"question": "Which conjunction shows a result?", "choices": ["or", "but", "nor", "so"], "answer": 3, "explanation_ar": "so = نتيجة.", "explanation_en": "So = result."},
+    {"question": "Which conjunction gives a choice?", "choices": ["or", "for", "so", "yet"], "answer": 0, "explanation_ar": "or = اختيار.", "explanation_en": "Or = choice."},
+    {"question": "\"James has not been to Barcelona, ___ has he lived in London.\"", "choices": ["and", "nor", "or", "so"], "answer": 1, "explanation_ar": "فكرتان منفيتان: nor.", "explanation_en": "Two negative ideas: nor."},
+    {"question": "\"He studied very little, ___ he passed the test.\" (surprising contrast)", "choices": ["so", "for", "yet", "or"], "answer": 2, "explanation_ar": "تناقض مفاجئ: yet.", "explanation_en": "Surprising contrast: yet."},
+    {"question": "Which is NOT a use of the comma in this lesson?", "choices": ["separating a list", "large numbers", "a short pause", "ending a sentence"], "answer": 3, "explanation_ar": "نهاية الجملة بالنقطة.", "explanation_en": "A period ends a sentence."},
+    {"question": "\"For\" as a conjunction gives ___.", "choices": ["a reason", "a choice", "a result", "a list"], "answer": 0, "explanation_ar": "for = سبب.", "explanation_en": "For = reason."},
+    {"question": "Two complete ideas joined by a conjunction are ___.", "choices": ["fragments", "balanced", "numbers", "periods"], "answer": 1, "explanation_ar": "متوازنتان، لذلك نضع فاصلة.", "explanation_en": "Balanced, so we use a comma."}
+  ]
+}

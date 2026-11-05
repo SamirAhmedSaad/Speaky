@@ -1,0 +1,351 @@
+{
+  "title": "A Phone Call with a Friend",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "phone call",
+        "pos": "noun",
+        "meaning_en": "talking to someone by phone",
+        "meaning_ar": "مكالمة هاتفية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I got a phone call from Sarah."
+      },
+      {
+        "word": "watch TV",
+        "pos": "phrase",
+        "meaning_en": "look at programmes on television",
+        "meaning_ar": "يشاهد التلفاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am watching TV."
+      },
+      {
+        "word": "funny",
+        "pos": "adjective",
+        "meaning_en": "making you laugh",
+        "meaning_ar": "مضحك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is a funny show on."
+      },
+      {
+        "word": "show",
+        "pos": "noun",
+        "meaning_en": "a programme on TV",
+        "meaning_ar": "برنامج (تلفزيوني)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What is the show called?"
+      },
+      {
+        "word": "favorite",
+        "pos": "adjective",
+        "meaning_en": "liked more than all others",
+        "meaning_ar": "مفضّل",
+        "note_ar": "في بريطانيا: favourite",
+        "note_en": "UK: favourite.",
+        "example": "Who is your favorite character?"
+      },
+      {
+        "word": "character",
+        "pos": "noun",
+        "meaning_en": "a person in a story or show",
+        "meaning_ar": "شخصية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like this character."
+      },
+      {
+        "word": "laugh",
+        "pos": "verb",
+        "meaning_en": "make a happy sound when something is funny",
+        "meaning_ar": "يضحك",
+        "note_ar": "تُنطق: /lɑːf/ أو /læf/",
+        "note_en": "Say: /lɑːf/ (UK), /læf/ (US).",
+        "example": "He makes me laugh!"
+      },
+      {
+        "word": "episode",
+        "pos": "noun",
+        "meaning_en": "one part of a TV series",
+        "meaning_ar": "حلقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you want to watch an episode together?"
+      },
+      {
+        "word": "popcorn",
+        "pos": "noun",
+        "meaning_en": "corn that is heated until it pops; a snack",
+        "meaning_ar": "فشار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My mom can make popcorn."
+      },
+      {
+        "word": "invite",
+        "pos": "verb",
+        "meaning_en": "ask someone to come",
+        "meaning_ar": "يدعو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Should we invite Angela?"
+      },
+      {
+        "word": "text",
+        "pos": "verb",
+        "meaning_en": "send a short message by phone",
+        "meaning_ar": "يرسل رسالة نصية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will text her."
+      },
+      {
+        "word": "snacks",
+        "pos": "noun",
+        "meaning_en": "small foods between meals",
+        "meaning_ar": "وجبات خفيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can get some snacks there."
+      },
+      {
+        "word": "afternoon",
+        "pos": "noun",
+        "meaning_en": "the time between 12 pm and the evening",
+        "meaning_ar": "فترة بعد الظهر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It will be a nice afternoon."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "What is it called? vs What is it?",
+        "words": [
+          "What is it called",
+          "What is it"
+        ],
+        "explanation_ar": "What is it called? نسأل عن الاسم. What is it? نسأل ما هو الشيء.",
+        "explanation_en": "\"What is it called?\" asks for the name. \"What is it?\" asks what the thing is.",
+        "examples": [
+          {
+            "word": "What is it called",
+            "sentence": "What is the show called?"
+          },
+          {
+            "word": "What is it",
+            "sentence": "What is it? It's a TV show."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Hello? / Hello, John! It's Sarah.",
+        "meaning_ar": "ألو؟ / مرحبًا جون! أنا سارة.",
+        "meaning_en": "Starting a phone call. On the phone we say \"It's ...\" not \"I am ...\".",
+        "example": "Hello? Hi, it's Ahmed."
+      },
+      {
+        "phrase": "What are you doing now?",
+        "meaning_ar": "ماذا تفعل الآن؟",
+        "meaning_en": "Asking about the present moment.",
+        "example": "What are you doing now? I'm reading."
+      },
+      {
+        "phrase": "There is a funny show on!",
+        "meaning_ar": "هناك برنامج مضحك يُعرض الآن!",
+        "meaning_en": "Something is on TV now.",
+        "example": "There is a football match on."
+      },
+      {
+        "phrase": "Have you seen it?",
+        "meaning_ar": "هل شاهدته؟",
+        "meaning_en": "Asking about experience.",
+        "example": "Have you seen this film?"
+      },
+      {
+        "phrase": "He makes me laugh!",
+        "meaning_ar": "إنه يُضحكني!",
+        "meaning_en": "Someone is funny.",
+        "example": "My little brother makes me laugh."
+      },
+      {
+        "phrase": "When can we do that?",
+        "meaning_ar": "متى يمكننا فعل ذلك؟",
+        "meaning_en": "Asking about a time.",
+        "example": "Let's go to the park. When can we do that?"
+      },
+      {
+        "phrase": "Saturday works for me!",
+        "meaning_ar": "السبت يناسبني!",
+        "meaning_en": "Agreeing to a day.",
+        "example": "Monday works for me."
+      },
+      {
+        "phrase": "Where should we meet?",
+        "meaning_ar": "أين يجب أن نلتقي؟",
+        "meaning_en": "Asking about a place.",
+        "example": "Where should we meet? At the café."
+      },
+      {
+        "phrase": "It will be fun to watch together.",
+        "meaning_ar": "سيكون من الممتع أن نشاهد معًا.",
+        "meaning_en": "Looking forward to something.",
+        "example": "It will be fun to cook together."
+      },
+      {
+        "phrase": "If she comes, it will be more fun!",
+        "meaning_ar": "إذا جاءت، سيكون الأمر أكثر متعة!",
+        "meaning_en": "A possible future result.",
+        "example": "If it's sunny, we will go to the park."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present continuous: I am watching TV",
+        "explanation_ar": "نستخدم am/is/are + فعل ing لما يحدث الآن.",
+        "explanation_en": "Use am/is/are + -ing for actions happening now.",
+        "examples": [
+          "I am watching TV.",
+          "What are you doing now?",
+          "She is cooking dinner."
+        ]
+      },
+      {
+        "title": "First conditional: If + present, will + verb",
+        "explanation_ar": "للشرط الممكن: If + مضارع بسيط، ثم will + الفعل.",
+        "explanation_en": "Possible future: If + present simple, will + verb.",
+        "examples": [
+          "If she comes, it will be more fun.",
+          "If it rains, we will stay home.",
+          "If you call me, I will answer."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "On the phone, Sarah says: \"Hello, John! ____ Sarah.\"",
+      "choices": [
+        "I'm",
+        "It's",
+        "She is",
+        "This Sarah"
+      ],
+      "answer": 1,
+      "explanation_ar": "على الهاتف نقول It's Sarah.",
+      "explanation_en": "On the phone: \"It's Sarah.\""
+    },
+    {
+      "question": "What are you doing now? I ____ TV.",
+      "choices": [
+        "watch",
+        "watching",
+        "watched",
+        "am watching"
+      ],
+      "answer": 3,
+      "explanation_ar": "الآن: am watching.",
+      "explanation_en": "Now: am watching."
+    },
+    {
+      "question": "If she comes, it ____ more fun.",
+      "choices": [
+        "will be",
+        "is",
+        "be",
+        "would being"
+      ],
+      "answer": 0,
+      "explanation_ar": "جملة الشرط: will be.",
+      "explanation_en": "Result clause: will be."
+    },
+    {
+      "question": "\"Saturday works for me.\" means ...",
+      "choices": [
+        "I work on Saturday.",
+        "I don't like Saturday.",
+        "Saturday is OK for me.",
+        "Saturday is busy."
+      ],
+      "answer": 2,
+      "explanation_ar": "السبت يناسبني.",
+      "explanation_en": "Saturday is fine for me."
+    },
+    {
+      "question": "One part of a TV series is an ...",
+      "choices": [
+        "character",
+        "afternoon",
+        "episode",
+        "invite"
+      ],
+      "answer": 2,
+      "explanation_ar": "الحلقة: episode.",
+      "explanation_en": "An episode."
+    },
+    {
+      "question": "\"I will text her.\" means ...",
+      "choices": [
+        "I will send her a phone message.",
+        "I will write a book for her.",
+        "I will visit her.",
+        "I will forget her."
+      ],
+      "answer": 0,
+      "explanation_ar": "text = يرسل رسالة نصية.",
+      "explanation_en": "Send a phone message."
+    },
+    {
+      "question": "What is the show ____? It's \"Friends.\"",
+      "choices": [
+        "call",
+        "calling",
+        "calls",
+        "called"
+      ],
+      "answer": 3,
+      "explanation_ar": "الإجابة الصحيحة: What is it called?",
+      "explanation_en": "We say \"What is it called?\""
+    },
+    {
+      "question": "He makes me ____!",
+      "choices": [
+        "laughing",
+        "laugh",
+        "to laugh",
+        "laughs"
+      ],
+      "answer": 1,
+      "explanation_ar": "make + شخص + فعل أساسي.",
+      "explanation_en": "make + person + base verb."
+    },
+    {
+      "question": "Which is the UK spelling?",
+      "choices": [
+        "favourite",
+        "favorite",
+        "favorit",
+        "favoret"
+      ],
+      "answer": 0,
+      "explanation_ar": "في بريطانيا favourite.",
+      "explanation_en": "UK: favourite."
+    },
+    {
+      "question": "\"Where should we meet?\" \"____\"",
+      "choices": [
+        "At 3 PM.",
+        "On Saturday.",
+        "At my house.",
+        "With popcorn."
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال عن المكان.",
+      "explanation_en": "The question asks about a place."
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "title": "What are you good at?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "beautiful",
+        "pos": "adjective",
+        "meaning_en": "very nice to look at",
+        "meaning_ar": "جميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is a beautiful day."
+      },
+      {
+        "word": "warm",
+        "pos": "adjective",
+        "meaning_en": "a little hot, in a nice way",
+        "meaning_ar": "دافئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The water is warm."
+      },
+      {
+        "word": "sunny",
+        "pos": "adjective",
+        "meaning_en": "with a lot of sun",
+        "meaning_ar": "مشمس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's sunny today."
+      },
+      {
+        "word": "weather",
+        "pos": "noun",
+        "meaning_en": "sun, rain, heat or cold",
+        "meaning_ar": "الطقس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love this weather."
+      },
+      {
+        "word": "good at",
+        "pos": "phrase",
+        "meaning_en": "able to do something well",
+        "meaning_ar": "ماهر في / جيد في",
+        "note_ar": "بعدها اسم أو فعل بـ ing",
+        "note_en": "Followed by a noun or verb-ing.",
+        "example": "She is good at math."
+      },
+      {
+        "word": "football",
+        "pos": "noun",
+        "meaning_en": "a game where players kick a ball",
+        "meaning_ar": "كرة القدم",
+        "note_ar": "في أمريكا: soccer",
+        "note_en": "US: soccer.",
+        "example": "The boys play football."
+      },
+      {
+        "word": "a little",
+        "pos": "phrase",
+        "meaning_en": "a small amount",
+        "meaning_ar": "قليلًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can speak French a little."
+      },
+      {
+        "word": "drawing",
+        "pos": "noun",
+        "meaning_en": "making pictures with a pencil",
+        "meaning_ar": "الرسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am good at drawing."
+      },
+      {
+        "word": "draw",
+        "pos": "verb",
+        "meaning_en": "make a picture with a pencil or pen",
+        "meaning_ar": "يرسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like to draw animals."
+      },
+      {
+        "word": "swimming",
+        "pos": "noun",
+        "meaning_en": "moving through water using your arms and legs",
+        "meaning_ar": "السباحة",
+        "note_ar": "go swimming",
+        "note_en": "go swimming",
+        "example": "I go swimming every Saturday."
+      },
+      {
+        "word": "cooking",
+        "pos": "noun",
+        "meaning_en": "making food",
+        "meaning_ar": "الطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is good at cooking."
+      },
+      {
+        "word": "pasta",
+        "pos": "noun",
+        "meaning_en": "Italian food made from flour, like spaghetti",
+        "meaning_ar": "المعكرونة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can cook pasta."
+      },
+      {
+        "word": "practice",
+        "pos": "verb",
+        "meaning_en": "do something many times to get better",
+        "meaning_ar": "يتدرّب / يمارس",
+        "note_ar": "في بريطانيا الفعل: practise",
+        "note_en": "UK verb: practise.",
+        "example": "You can practice with me."
+      },
+      {
+        "word": "better",
+        "pos": "adverb",
+        "meaning_en": "more well",
+        "meaning_ar": "بشكل أفضل",
+        "note_ar": "good/well → better",
+        "note_en": "good/well → better",
+        "example": "I want to speak English better."
+      },
+      {
+        "word": "special",
+        "pos": "adjective",
+        "meaning_en": "different and important",
+        "meaning_ar": "مميّز / خاص",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Every person is special."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "good at vs good",
+        "words": [
+          "good at",
+          "good"
+        ],
+        "explanation_ar": "good at + نشاط تعني ماهر فيه (I'm good at drawing). good وحدها صفة تعني جيد (This is good).",
+        "explanation_en": "\"Good at\" + activity = able to do it well. \"Good\" alone = nice, fine.",
+        "examples": [
+          {
+            "word": "good at",
+            "sentence": "I am good at swimming."
+          },
+          {
+            "word": "good",
+            "sentence": "This soup is good."
+          }
+        ]
+      },
+      {
+        "title": "can vs good at",
+        "words": [
+          "can",
+          "good at"
+        ],
+        "explanation_ar": "can تعني أستطيع (I can play). good at تعني أنني ماهر فيه. يمكن أن تستطيع شيئًا لكنك لست ماهرًا: I can play a little, but I'm not very good.",
+        "explanation_en": "\"Can\" = able to. \"Good at\" = do it well. You can do something but not be good at it.",
+        "examples": [
+          {
+            "word": "can",
+            "sentence": "I can play football a little."
+          },
+          {
+            "word": "good at",
+            "sentence": "But I am not very good at football."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "It is a beautiful day today.",
+        "meaning_ar": "إنه يوم جميل اليوم.",
+        "meaning_en": "Start small talk about the weather.",
+        "example": "It is a beautiful day today. Let's go out."
+      },
+      {
+        "phrase": "I love this weather.",
+        "meaning_ar": "أحب هذا الطقس.",
+        "meaning_en": "Say you enjoy the weather.",
+        "example": "Warm and sunny! I love this weather."
+      },
+      {
+        "phrase": "Are you good at football? — Not really.",
+        "meaning_ar": "هل أنت ماهر في كرة القدم؟ — ليس كثيرًا.",
+        "meaning_en": "Ask about a skill and answer softly.",
+        "example": "Are you good at math? Not really."
+      },
+      {
+        "phrase": "I can play a little.",
+        "meaning_ar": "أستطيع أن ألعب قليلًا.",
+        "meaning_en": "Say you have a small skill.",
+        "example": "I can speak English a little."
+      },
+      {
+        "phrase": "That's okay.",
+        "meaning_ar": "لا بأس.",
+        "meaning_en": "Say something is fine.",
+        "example": "I'm not good at swimming. That's okay."
+      },
+      {
+        "phrase": "What are you good at?",
+        "meaning_ar": "ما الذي تُجيده؟",
+        "meaning_en": "Ask about someone's skills.",
+        "example": "What are you good at? I'm good at drawing."
+      },
+      {
+        "phrase": "You can practice with me.",
+        "meaning_ar": "يمكنك أن تتدرّب معي.",
+        "meaning_en": "Offer to help someone practice.",
+        "example": "You want to speak English better? You can practice with me."
+      },
+      {
+        "phrase": "Maybe you just need practice.",
+        "meaning_ar": "ربما تحتاج فقط إلى التدريب.",
+        "meaning_en": "Encourage someone.",
+        "example": "Don't worry. Maybe you just need practice."
+      },
+      {
+        "phrase": "I can help you.",
+        "meaning_ar": "أستطيع مساعدتك.",
+        "meaning_en": "Offer help.",
+        "example": "This is hard? I can help you."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "be good at + noun / verb-ing",
+        "explanation_ar": "نقول I am good at + اسم (football, English) أو فعل بـ ing (drawing, cooking). والنفي: I am not good at swimming. والسؤال: Are you good at...? / What are you good at?",
+        "explanation_en": "be good at + noun or verb-ing. Negative: I'm not good at... Question: Are you good at...?",
+        "examples": [
+          "I am good at drawing.",
+          "I am not good at swimming.",
+          "Are you good at football?"
+        ]
+      },
+      {
+        "title": "can + verb for ability",
+        "explanation_ar": "can + الفعل في أصله للقدرة: I can cook pasta. والنفي can't. ولا نضيف s مع he/she: She can draw.",
+        "explanation_en": "can + base verb for ability. Negative: can't. No -s: she can draw.",
+        "examples": [
+          "I can play a little.",
+          "I can cook pasta, rice, and soup.",
+          "You can practice with me."
+        ]
+      },
+      {
+        "title": "Adverbs: a little, very",
+        "explanation_ar": "a little تعني قليلًا، و very تعني جدًا: I can play a little. I am not very good.",
+        "explanation_en": "a little = a small amount; very = a lot.",
+        "examples": [
+          "I can play a little.",
+          "But I am not very good.",
+          "She is very good at cooking."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I am good ___ drawing.",
+      "choices": [
+        "in",
+        "for",
+        "on",
+        "at"
+      ],
+      "answer": 3,
+      "explanation_ar": "نقول good at.",
+      "explanation_en": "We say \"good at\"."
+    },
+    {
+      "question": "Are you good at football? — Not really. I can play ___.",
+      "choices": [
+        "very",
+        "a lot of",
+        "little a",
+        "a little"
+      ],
+      "answer": 3,
+      "explanation_ar": "a little = قليلًا.",
+      "explanation_en": "\"A little\" = a small amount."
+    },
+    {
+      "question": "I am good at ___.",
+      "choices": [
+        "cook",
+        "cooking",
+        "cooks",
+        "to cook"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد at نستخدم الفعل مع ing.",
+      "explanation_en": "After \"at\" use verb-ing."
+    },
+    {
+      "question": "She ___ cook pasta and soup.",
+      "choices": [
+        "cans",
+        "can to",
+        "can",
+        "is can"
+      ],
+      "answer": 2,
+      "explanation_ar": "can لا تأخذ s ولا to.",
+      "explanation_en": "\"Can\" has no -s and no \"to\"."
+    },
+    {
+      "question": "I want to speak English ___.",
+      "choices": [
+        "good",
+        "better",
+        "gooder",
+        "best"
+      ],
+      "answer": 1,
+      "explanation_ar": "better مقارنة well/good.",
+      "explanation_en": "\"Better\" = more well."
+    },
+    {
+      "question": "It is warm and ___. I love this weather.",
+      "choices": [
+        "drawing",
+        "special",
+        "pasta",
+        "sunny"
+      ],
+      "answer": 3,
+      "explanation_ar": "sunny تعني مشمس.",
+      "explanation_en": "Sunny = with a lot of sun."
+    },
+    {
+      "question": "I go ___ every Saturday.",
+      "choices": [
+        "swim",
+        "to swimming",
+        "swimming",
+        "swims"
+      ],
+      "answer": 2,
+      "explanation_ar": "go + فعل بـ ing: go swimming.",
+      "explanation_en": "go + verb-ing."
+    },
+    {
+      "question": "I'm not good at swimming. — That's ___.",
+      "choices": [
+        "okay",
+        "beautiful",
+        "warm",
+        "better"
+      ],
+      "answer": 0,
+      "explanation_ar": "That's okay تعني لا بأس.",
+      "explanation_en": "\"That's okay\" = no problem."
+    },
+    {
+      "question": "Maybe you just need ___.",
+      "choices": [
+        "practicing to",
+        "practice",
+        "practices",
+        "to practice it is"
+      ],
+      "answer": 1,
+      "explanation_ar": "need practice = تحتاج إلى التدريب.",
+      "explanation_en": "You need practice."
+    },
+    {
+      "question": "Which question asks about skills?",
+      "choices": [
+        "What are you good at?",
+        "Where are you from?",
+        "How old are you?",
+        "What time is it?"
+      ],
+      "answer": 0,
+      "explanation_ar": "What are you good at? يسأل عن المهارات.",
+      "explanation_en": "It asks about skills."
+    }
+  ]
+}

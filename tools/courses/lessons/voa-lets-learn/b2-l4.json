@@ -1,0 +1,56 @@
+{
+  "title": "Run Away With the Circus!",
+  "content": {
+    "vocabulary": [
+      {"word": "circus", "pos": "noun", "meaning_en": "a show with acrobats, jugglers and other performers", "meaning_ar": "سيرك", "note_ar": "", "note_en": "", "example": "The circus is in town this week."},
+      {"word": "art form", "pos": "noun", "meaning_en": "a kind of art, like painting, dance or poetry", "meaning_ar": "شكل من أشكال الفن", "note_ar": "", "note_en": "", "example": "Is cooking an art form?"},
+      {"word": "festival", "pos": "noun", "meaning_en": "a special event with shows and activities", "meaning_ar": "مهرجان", "note_ar": "", "note_en": "", "example": "We went to a food festival."},
+      {"word": "tent", "pos": "noun", "meaning_en": "a shelter made of cloth", "meaning_ar": "خيمة", "note_ar": "", "note_en": "", "example": "The show was inside a huge tent."},
+      {"word": "performer", "pos": "noun", "meaning_en": "a person who entertains people in a show", "meaning_ar": "مؤدٍّ / فنان عرض", "note_ar": "الفعل perform: يؤدّي", "note_en": "Verb: perform.", "example": "The performers bowed at the end."},
+      {"word": "celebration", "pos": "noun", "meaning_en": "a happy event to honor something", "meaning_ar": "احتفال", "note_ar": "", "note_en": "", "example": "The festival was a celebration of art."},
+      {"word": "athlete", "pos": "noun", "meaning_en": "a person who is good at sports", "meaning_ar": "رياضي", "note_ar": "الصفة athletic: رياضي / قوي البدن", "note_en": "Adjective: athletic.", "example": "Athletes train every day."},
+      {"word": "skill", "pos": "noun", "meaning_en": "an ability you get by practice", "meaning_ar": "مهارة", "note_ar": "skilled = ماهر", "note_en": "skilled = having a skill", "example": "Juggling is a special skill."},
+      {"word": "costume", "pos": "noun", "meaning_en": "special clothes for a show", "meaning_ar": "زيّ (للعرض)", "note_ar": "", "note_en": "", "example": "The actors wore colorful costumes."},
+      {"word": "swing", "pos": "verb", "meaning_en": "to move back and forth while hanging", "meaning_ar": "يتأرجح", "note_ar": "", "note_en": "", "example": "Monkeys swing from tree to tree."},
+      {"word": "trapeze", "pos": "noun", "meaning_en": "a bar hanging high on ropes, used by circus artists", "meaning_ar": "أرجوحة البهلوان (الترابيز)", "note_ar": "", "note_en": "", "example": "The trapeze artist flew through the air."},
+      {"word": "juggler", "pos": "noun", "meaning_en": "a person who throws and catches many things at once", "meaning_ar": "لاعب الخِفّة (يرمي الكرات ويلتقطها)", "note_ar": "الفعل juggle", "note_en": "Verb: juggle.", "example": "The juggler kept five balls in the air."},
+      {"word": "back and forth", "pos": "phrase", "meaning_en": "from one side to the other again and again", "meaning_ar": "ذهابًا وإيابًا", "note_ar": "", "note_en": "", "example": "They threw the ball back and forth."},
+      {"word": "issue", "pos": "noun", "meaning_en": "a subject people discuss or disagree about", "meaning_ar": "قضية / مسألة", "note_ar": "", "note_en": "", "example": "We talked about this issue for an hour."},
+      {"word": "admit", "pos": "verb", "meaning_en": "to say that something is true, often unwillingly", "meaning_ar": "يعترف / يقرّ", "note_ar": "", "note_en": "", "example": "I admit that you are right."},
+      {"word": "upside down", "pos": "adverb", "meaning_en": "with the top part at the bottom", "meaning_ar": "مقلوبًا (رأسًا على عقب)", "note_ar": "عكسها right side up", "note_en": "Opposite: right side up.", "example": "She hung upside down on the ring."},
+      {"word": "competitive", "pos": "adjective", "meaning_en": "trying to win against others", "meaning_ar": "تنافسي", "note_ar": "الفعل compete والاسم competition", "note_en": "Verb: compete; noun: competition.", "example": "Football is a very competitive sport."},
+      {"word": "gracefully", "pos": "adverb", "meaning_en": "in a smooth and beautiful way", "meaning_ar": "برشاقة / بأناقة", "note_ar": "", "note_en": "", "example": "The dancer moved gracefully."},
+      {"word": "amazing", "pos": "adjective", "meaning_en": "very surprising and wonderful", "meaning_ar": "مذهل", "note_ar": "", "note_en": "", "example": "These young performers are amazing."},
+      {"word": "agree", "pos": "verb", "meaning_en": "to have the same opinion", "meaning_ar": "يوافق / يتفق", "note_ar": "عكسها disagree", "note_en": "Opposite: disagree.", "example": "I agree with you."}
+    ],
+    "fine_lines": [
+      {"title": "agree vs disagree", "words": ["agree", "disagree"], "explanation_ar": "agree = لنا نفس الرأي، disagree = رأيي مختلف. نقول agree with someone وagree on something. لا نقول I am agree، بل I agree.", "explanation_en": "Agree = same opinion; disagree = different opinion. Say agree with someone, agree on something. Say I agree, not I am agree.", "examples": [{"word": "agree", "sentence": "I agree with you on that point."}, {"word": "disagree", "sentence": "I completely disagree."}]},
+      {"title": "athlete vs artist", "words": ["athlete", "artist"], "explanation_ar": "athlete شخص بارع في الرياضة والقوة البدنية. artist شخص يصنع الفن (رسم، رقص، شعر). بيت يرى المؤدين athletes وآنا تراهم artists.", "explanation_en": "An athlete is good at sports. An artist makes art. Pete thinks the performers are athletes; Anna thinks they are artists.", "examples": [{"word": "athlete", "sentence": "The runner is a strong athlete."}, {"word": "artist", "sentence": "Rembrandt was a famous artist."}]}
+    ],
+    "expressions": [
+      {"phrase": "That's a good point.", "meaning_ar": "هذه نقطة جيدة.", "meaning_en": "You said something true and smart.", "example": "That's a good point. I didn't think of that."},
+      {"phrase": "I completely disagree.", "meaning_ar": "أنا أختلف معك تمامًا.", "meaning_en": "My opinion is totally different.", "example": "You think it's boring? I completely disagree."},
+      {"phrase": "I hear what you're saying, but...", "meaning_ar": "أفهم ما تقول، لكن...", "meaning_en": "I understand you, but I still disagree.", "example": "I hear what you're saying, but I still want to go."},
+      {"phrase": "I see your point.", "meaning_ar": "أفهم وجهة نظرك.", "meaning_en": "I understand your idea.", "example": "I see your point, but it's too expensive."},
+      {"phrase": "I agree with you on that point.", "meaning_ar": "أتفق معك في هذه النقطة.", "meaning_en": "I agree with this part of what you said.", "example": "Yes, it's late. I agree with you on that point."},
+      {"phrase": "We can agree on that.", "meaning_ar": "يمكننا أن نتفق على ذلك.", "meaning_en": "We both think this is true.", "example": "The food was good. We can agree on that."},
+      {"phrase": "You're right.", "meaning_ar": "معك حق.", "meaning_en": "What you said is correct.", "example": "You're right. The shop is closed today."},
+      {"phrase": "That's an interesting point of view.", "meaning_ar": "هذه وجهة نظر مثيرة للاهتمام.", "meaning_en": "A polite way to start disagreeing.", "example": "That's an interesting point of view, but I don't agree."}
+    ],
+    "grammar": [
+      {"title": "Agreeing and disagreeing politely", "explanation_ar": "للموافقة: I agree. / You're right. / That's a good point. / We can agree on that. للاختلاف بأدب: نبدأ بجملة لطيفة ثم نقول رأينا: I see your point, but... / I hear what you're saying, but... / That's an interesting point of view, but I disagree. استخدم agree بدون am: I agree (وليس I am agree).", "explanation_en": "To agree: I agree. / You're right. / That's a good point. To disagree politely, start with something kind, then give your idea: I see your point, but... / I hear what you're saying, but... Say I agree, never I am agree.", "examples": ["That's a good point. They are athletic.", "I see your point, but they are artists too.", "I agree with you on that point.", "I completely disagree."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which sentence is correct?", "choices": ["I am agree with you.", "I agree with you.", "I agreeing with you.", "I agrees with you."], "answer": 1, "explanation_ar": "نقول I agree بدون am.", "explanation_en": "We say I agree, without am."},
+    {"question": "Which is a polite way to disagree?", "choices": ["You're right.", "I agree.", "I see your point, but I think differently.", "We can agree on that."], "answer": 2, "explanation_ar": "I see your point, but... طريقة مهذبة للاختلاف.", "explanation_en": "I see your point, but... is a polite way to disagree."},
+    {"question": "A person who throws and catches many balls is a ____.", "choices": ["juggler", "consultant", "costume", "trapeze"], "answer": 0, "explanation_ar": "juggler هو من يرمي الكرات ويلتقطها.", "explanation_en": "A juggler throws and catches things."},
+    {"question": "'Upside down' means:", "choices": ["very fast", "very high", "very happy", "with the top at the bottom"], "answer": 3, "explanation_ar": "upside down = مقلوب.", "explanation_en": "Upside down means the top part is at the bottom."},
+    {"question": "Kate says circus is not ____ because performers don't try to win.", "choices": ["amazing", "competitive", "graceful", "athletic"], "answer": 1, "explanation_ar": "competitive تعني تنافسيًا.", "explanation_en": "Competitive means trying to win against others."},
+    {"question": "Special clothes for a show are called a ____.", "choices": ["tent", "costume", "skill", "festival"], "answer": 1, "explanation_ar": "costume زيّ العرض.", "explanation_en": "A costume is special clothing for a show."},
+    {"question": "'We're going back and forth on this issue' means:", "choices": ["We keep arguing without agreeing.", "We are walking.", "We agree completely.", "We are leaving."], "answer": 0, "explanation_ar": "تعني أن النقاش يتردد بين الرأيين دون اتفاق.", "explanation_en": "It means they keep arguing and don't agree."},
+    {"question": "Pete says, 'I will ____ -- I like their costumes.' (say it's true)", "choices": ["swing", "compete", "juggle", "admit"], "answer": 3, "explanation_ar": "admit = يعترف.", "explanation_en": "Admit means to say something is true."},
+    {"question": "A person who is good at sports is an ____.", "choices": ["artist", "issue", "athlete", "event"], "answer": 2, "explanation_ar": "athlete = رياضي.", "explanation_en": "An athlete is good at sports."},
+    {"question": "Which phrase shows agreement?", "choices": ["I completely disagree.", "That's a good point.", "No, it isn't.", "I hear you, but..."], "answer": 1, "explanation_ar": "That's a good point تعبّر عن الموافقة.", "explanation_en": "That's a good point shows you agree."}
+  ]
+}

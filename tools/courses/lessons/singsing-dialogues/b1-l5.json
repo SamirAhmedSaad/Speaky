@@ -1,0 +1,303 @@
+{
+  "title": "Who is this?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "who",
+        "pos": "pronoun",
+        "meaning_en": "word we use to ask about a person",
+        "meaning_ar": "مَن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Who is this?"
+      },
+      {
+        "word": "grandpa",
+        "pos": "noun",
+        "meaning_en": "the father of your mother or father (informal)",
+        "meaning_ar": "جدّي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's my grandpa."
+      },
+      {
+        "word": "grandma",
+        "pos": "noun",
+        "meaning_en": "the mother of your mother or father (informal)",
+        "meaning_ar": "جدّتي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's my grandma."
+      },
+      {
+        "word": "sister",
+        "pos": "noun",
+        "meaning_en": "a girl with the same parents as you",
+        "meaning_ar": "أخت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's my sister."
+      },
+      {
+        "word": "friend",
+        "pos": "noun",
+        "meaning_en": "a person you like and know well",
+        "meaning_ar": "صديق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my friend, Tosy."
+      },
+      {
+        "word": "together",
+        "pos": "adverb",
+        "meaning_en": "with each other",
+        "meaning_ar": "معًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's play together."
+      },
+      {
+        "word": "play",
+        "pos": "verb",
+        "meaning_en": "do something for fun, like a game",
+        "meaning_ar": "يلعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's play in the garden."
+      },
+      {
+        "word": "look",
+        "pos": "verb",
+        "meaning_en": "use your eyes to see",
+        "meaning_ar": "انظر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look! It's my grandma."
+      },
+      {
+        "word": "sorry",
+        "pos": "adjective",
+        "meaning_en": "a word we say when we do something wrong",
+        "meaning_ar": "آسف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry, Tosy."
+      },
+      {
+        "word": "bike",
+        "pos": "noun",
+        "meaning_en": "a bicycle",
+        "meaning_ar": "دراجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's my bike."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Who vs What",
+        "words": [
+          "who",
+          "what"
+        ],
+        "explanation_ar": "نستخدم who للسؤال عن الأشخاص، و what للسؤال عن الأشياء.",
+        "explanation_en": "Use \"who\" for people and \"what\" for things.",
+        "examples": [
+          {
+            "word": "who",
+            "sentence": "Who is this? - It's my grandpa."
+          },
+          {
+            "word": "what",
+            "sentence": "What's that? - It's my bike."
+          }
+        ]
+      },
+      {
+        "title": "grandpa vs grandma",
+        "words": [
+          "grandpa",
+          "grandma"
+        ],
+        "explanation_ar": "grandpa الجد (رجل)، و grandma الجدة (امرأة). الكلمتان الرسميتان: grandfather و grandmother.",
+        "explanation_en": "grandpa is a man; grandma is a woman. Formal words: grandfather, grandmother.",
+        "examples": [
+          {
+            "word": "grandpa",
+            "sentence": "My grandpa is old and kind."
+          },
+          {
+            "word": "grandma",
+            "sentence": "My grandma makes good bread."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Who is this?",
+        "meaning_ar": "مَن هذا؟ / مَن هذه؟",
+        "meaning_en": "Asking about a person.",
+        "example": "Who is this? - It's my sister."
+      },
+      {
+        "phrase": "It's my grandpa.",
+        "meaning_ar": "إنه جدّي.",
+        "meaning_en": "Answering about a person in a photo.",
+        "example": "Who is this? - It's my grandpa."
+      },
+      {
+        "phrase": "Let's play together.",
+        "meaning_ar": "هيا نلعب معًا.",
+        "meaning_en": "Asking a friend to play with you.",
+        "example": "Let's play together, Raky!"
+      },
+      {
+        "phrase": "Look!",
+        "meaning_ar": "انظر!",
+        "meaning_en": "Telling someone to see something.",
+        "example": "Look! It's a bird."
+      },
+      {
+        "phrase": "This is my friend, Tosy.",
+        "meaning_ar": "هذا صديقي توسي.",
+        "meaning_en": "Introducing a friend.",
+        "example": "Grandma, this is my friend, Ali."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Asking about people: Who is this?",
+        "explanation_ar": "نسأل عن شخص بـ Who is this? ونجيب It's my + فرد من العائلة، أو This is my + ... .",
+        "explanation_en": "Ask \"Who is this?\" Answer: It's my sister. / It's my grandpa.",
+        "examples": [
+          "Who is this? - It's my sister.",
+          "Who is this? - It's my grandma.",
+          "Who is this, Toto? - It's my grandpa."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Who is this? - ___",
+      "choices": [
+        "It's my grandpa.",
+        "It's a cat.",
+        "I'm seven.",
+        "Yes, it is."
+      ],
+      "answer": 0,
+      "explanation_ar": "Who سؤال عن شخص، فالجواب يذكر شخصًا.",
+      "explanation_en": "\"Who\" asks about a person."
+    },
+    {
+      "question": "___ is this? - It's my sister.",
+      "choices": [
+        "What",
+        "Who",
+        "How old",
+        "Where"
+      ],
+      "answer": 1,
+      "explanation_ar": "نسأل عن الأشخاص بـ Who.",
+      "explanation_en": "Use \"Who\" for people."
+    },
+    {
+      "question": "Your mother's mother is your ___.",
+      "choices": [
+        "sister",
+        "grandpa",
+        "grandma",
+        "friend"
+      ],
+      "answer": 2,
+      "explanation_ar": "أم الأم هي الجدة grandma.",
+      "explanation_en": "Your mother's mother is your grandma."
+    },
+    {
+      "question": "Your father's father is your ___.",
+      "choices": [
+        "grandpa",
+        "brother",
+        "grandma",
+        "mom"
+      ],
+      "answer": 0,
+      "explanation_ar": "أبو الأب هو الجد grandpa.",
+      "explanation_en": "Your father's father is your grandpa."
+    },
+    {
+      "question": "What's that? - ___",
+      "choices": [
+        "It's my sister.",
+        "It's my grandma.",
+        "It's my bike.",
+        "Who is it?"
+      ],
+      "answer": 2,
+      "explanation_ar": "What سؤال عن شيء، والدراجة شيء.",
+      "explanation_en": "\"What\" asks about a thing; a bike is a thing."
+    },
+    {
+      "question": "___ play together.",
+      "choices": [
+        "Let's",
+        "Let",
+        "Lets is",
+        "Look"
+      ],
+      "answer": 0,
+      "explanation_ar": "Let's + فعل = هيا نفعل.",
+      "explanation_en": "Let's + verb = we will do it together."
+    },
+    {
+      "question": "You hit your friend by mistake. You say: ___",
+      "choices": [
+        "Look!",
+        "Sorry.",
+        "Who is this?",
+        "Me too."
+      ],
+      "answer": 1,
+      "explanation_ar": "نعتذر بقول Sorry.",
+      "explanation_en": "Say \"Sorry\" when you make a mistake."
+    },
+    {
+      "question": "\"together\" means ___.",
+      "choices": [
+        "وحدي",
+        "بسرعة",
+        "معًا",
+        "غدًا"
+      ],
+      "answer": 2,
+      "explanation_ar": "together = معًا.",
+      "explanation_en": "together = with each other."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Who this is?",
+        "Who is this?",
+        "Who are this?",
+        "Who is this are?"
+      ],
+      "answer": 1,
+      "explanation_ar": "الترتيب الصحيح Who is this?",
+      "explanation_en": "Correct order: Who is this?"
+    },
+    {
+      "question": "\"Look!\" means: use your ___.",
+      "choices": [
+        "ears",
+        "hands",
+        "feet",
+        "eyes"
+      ],
+      "answer": 3,
+      "explanation_ar": "look = ننظر بأعيننا.",
+      "explanation_en": "We look with our eyes."
+    }
+  ]
+}

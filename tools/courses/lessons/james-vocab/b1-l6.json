@@ -1,0 +1,53 @@
+{
+  "title": "Sorry vs Excuse Me",
+  "content": {
+    "vocabulary": [
+      {"word": "excuse", "pos": "verb", "meaning_en": "to forgive someone; to overlook a small mistake", "meaning_ar": "يعذر / يسامح", "note_ar": "الفعل يُنطق /ɪkˈskjuːz/ والاسم /ɪkˈskjuːs/", "note_en": "Verb /ɪkˈskjuːz/, noun /ɪkˈskjuːs/.", "example": "Please excuse my late reply."},
+      {"word": "overlook", "pos": "verb", "meaning_en": "to not pay attention to a small problem; to ignore it", "meaning_ar": "يتغاضى عن", "note_ar": "", "note_en": "", "example": "I'll overlook this small mistake."},
+      {"word": "forgiveness", "pos": "noun", "meaning_en": "stopping being angry with someone for something they did", "meaning_ar": "المسامحة / الغفران", "note_ar": "الفعل: forgive", "note_en": "Verb: forgive.", "example": "He asked for forgiveness."},
+      {"word": "sorry", "pos": "adjective", "meaning_en": "feeling sad or bad about something; used to apologize", "meaning_ar": "آسف", "note_ar": "صفة، لذلك نقول I'm sorry", "note_en": "It is an adjective: I'm sorry.", "example": "I'm sorry I broke your cup."},
+      {"word": "apology", "pos": "noun", "meaning_en": "words that say you are sorry", "meaning_ar": "اعتذار", "note_ar": "", "note_en": "", "example": "Please accept my apology."},
+      {"word": "apologize", "pos": "verb", "meaning_en": "to say you are sorry; more formal than \"sorry\"", "meaning_ar": "يعتذر", "note_ar": "apologize for + شيء", "note_en": "apologize for something; UK also apologise", "example": "I apologize for the delay."},
+      {"word": "interrupt", "pos": "verb", "meaning_en": "to stop someone while they are talking or working", "meaning_ar": "يقاطع", "note_ar": "", "note_en": "", "example": "Sorry to interrupt, but your taxi is here."},
+      {"word": "attention", "pos": "noun", "meaning_en": "when someone looks at or listens to you", "meaning_ar": "الانتباه", "note_ar": "get someone's attention = يلفت انتباه شخص", "note_en": "get someone's attention", "example": "He waved to get the waiter's attention."},
+      {"word": "sympathy", "pos": "noun", "meaning_en": "feeling sorry for someone who has a problem", "meaning_ar": "تعاطف / مواساة", "note_ar": "", "note_en": "", "example": "I'm sorry to hear about your accident. You have my sympathy."},
+      {"word": "distress", "pos": "noun", "meaning_en": "a feeling of worry or sadness", "meaning_ar": "ضيق / كرب", "note_ar": "", "note_en": "", "example": "The bad news caused her great distress."},
+      {"word": "sorry (bad)", "pos": "adjective", "meaning_en": "very bad, poor (before a noun)", "meaning_ar": "بائس / رديء", "note_ar": "a sorry situation = وضع سيئ", "note_en": "a sorry situation, a sorry excuse for a school", "example": "The old building was in a sorry state."},
+      {"word": "pardon", "pos": "verb / noun", "meaning_en": "to forgive; also \"Pardon?\" = What did you say?", "meaning_ar": "يعفو / عفوًا (ماذا قلت؟)", "note_ar": "I beg your pardon? = عفوًا؟ (رسمية)", "note_en": "I beg your pardon? (formal)", "example": "Pardon? Can you repeat that, please?"},
+      {"word": "regret", "pos": "verb / noun", "meaning_en": "to feel sad about something you did or didn't do, often a lost chance", "meaning_ar": "يندم / ندم", "note_ar": "regret + -ing: I regret not studying", "note_en": "regret + -ing", "example": "I regret not learning English earlier."},
+      {"word": "condolences", "pos": "noun", "meaning_en": "deep sympathy when someone has died", "meaning_ar": "التعازي", "note_ar": "تُستخدم للوفاة أو الأمور الخطيرة فقط", "note_en": "Only for death or very serious things.", "example": "My condolences on the loss of your father."},
+      {"word": "wrong (someone)", "pos": "verb", "meaning_en": "to treat someone badly or unfairly", "meaning_ar": "يظلم / يسيء إلى", "note_ar": "", "note_en": "", "example": "I wronged my friend, and I want to say sorry."}
+    ],
+    "fine_lines": [
+      {"title": "excuse me (before) vs sorry (after)", "words": ["excuse me", "sorry"], "explanation_ar": "excuse me نقولها قبل أن نفعل شيئًا قد يزعج: لجذب الانتباه، أو لمقاطعة شخص، أو لنطلب منه أن يتحرك. sorry نقولها بعد أن نخطئ، وللتعاطف مع خبر سيئ، وعند رفض دعوة.", "explanation_en": "Say \"excuse me\" BEFORE you do something: to get attention, interrupt, or ask someone to move. Say \"sorry\" AFTER you do something wrong, to show sympathy, or to say you can't do something.", "examples": [{"word": "excuse me", "sentence": "Excuse me, could you move your bag?"}, {"word": "sorry", "sentence": "Oh, sorry! I stepped on your foot."}]},
+      {"title": "Sorry? vs Excuse me?", "words": ["Sorry?", "Excuse me?"], "explanation_ar": "Sorry? بنبرة سؤال تعني: لم أسمعك، أعد من فضلك. Excuse me? بنبرة قوية قد تعني: لم يعجبني ما قلته!", "explanation_en": "\"Sorry?\" = I didn't hear you, please repeat. \"Excuse me?\" (strong tone) = I don't like what you just said!", "examples": [{"word": "Sorry?", "sentence": "Sorry? I didn't hear you."}, {"word": "Excuse me?", "sentence": "Excuse me? You think my work is bad?"}]},
+      {"title": "sorry vs apologize vs regret", "words": ["sorry", "apologize", "regret"], "explanation_ar": "sorry كلمة يومية عادية. apologize أكثر رسمية وتُظهر أسفًا أكبر. regret تعني الندم على شيء، خاصة على فرصة ضائعة.", "explanation_en": "Sorry is everyday. Apologize is more formal and stronger. Regret is feeling sad about something, especially a lost chance.", "examples": [{"word": "sorry", "sentence": "Sorry I'm late."}, {"word": "apologize", "sentence": "I apologize for my mistake."}, {"word": "regret", "sentence": "I regret not taking that job."}]},
+      {"title": "apologize vs apology", "words": ["apologize", "apology"], "explanation_ar": "apologize فعل (يعتذر)، وapology اسم (اعتذار).", "explanation_en": "Apologize is a verb; apology is a noun.", "examples": [{"word": "apologize", "sentence": "He apologized to his teacher."}, {"word": "apology", "sentence": "She gave a short apology."}]}
+    ],
+    "expressions": [
+      {"phrase": "Excuse me? (to get attention)", "meaning_ar": "لو سمحت؟", "meaning_en": "used to get someone's attention politely", "example": "Excuse me? Could we have the menu, please?"},
+      {"phrase": "Excuse me, could you move over?", "meaning_ar": "لو سمحت، هل يمكنك أن تتحرّك قليلًا؟", "meaning_en": "asking someone politely to move", "example": "Excuse me, could you move over? I need this seat."},
+      {"phrase": "I'm sorry to interrupt.", "meaning_ar": "آسف على المقاطعة.", "meaning_en": "said when you have already interrupted someone", "example": "I'm sorry to interrupt, but there's a call for you."},
+      {"phrase": "I'm sorry to hear that.", "meaning_ar": "يؤسفني سماع ذلك.", "meaning_en": "showing sympathy for bad news", "example": "Your grandmother is ill? I'm sorry to hear that."},
+      {"phrase": "I'm sorry, I can't.", "meaning_ar": "آسف، لا أستطيع.", "meaning_en": "saying no to an invitation politely", "example": "I'm sorry, I can't come on Friday. I have to work."},
+      {"phrase": "Pardon? / I beg your pardon?", "meaning_ar": "عفوًا؟ (ماذا قلت؟)", "meaning_en": "What did you say? Please repeat.", "example": "Pardon? Could you say that again?"},
+      {"phrase": "My condolences.", "meaning_ar": "تعازيّ الحارة.", "meaning_en": "said to someone when a person they love has died", "example": "I heard about your uncle. My condolences."},
+      {"phrase": "a sorry excuse for...", "meaning_ar": "نموذج سيئ جدًا لـ...", "meaning_en": "a very bad example of something", "example": "This is a sorry excuse for a road; it's full of holes."}
+    ],
+    "grammar": [
+      {"title": "Structure: \"excuse me\" (phrase) vs \"sorry\" (adjective)", "explanation_ar": "excuse me عبارة من فعل (excuse) وضمير (me). أما sorry فهي صفة، لذلك نستخدمها مع to be: I'm sorry. ونقول: sorry for + اسم أو -ing، وsorry to + فعل.", "explanation_en": "\"Excuse me\" is a phrase: verb + me. \"Sorry\" is an adjective, so we use it with be: I'm sorry. Use sorry for + noun / -ing, and sorry to + verb.", "examples": ["I'm sorry for the noise.", "I'm sorry for being late.", "I'm sorry to hear that."]}
+    ]
+  },
+  "questions": [
+    {"question": "You want the waiter to come to your table. You say:", "choices": ["Excuse me?", "I'm sorry.", "My condolences.", "I regret."], "answer": 0, "explanation_ar": "نستخدم excuse me لجذب الانتباه.", "explanation_en": "Use \"excuse me\" to get attention."},
+    {"question": "You stepped on someone's foot. What do you say?", "choices": ["Excuse me?", "Oh, I'm sorry!", "Pardon me to move.", "My condolences."], "answer": 1, "explanation_ar": "بعد الخطأ نقول sorry.", "explanation_en": "After you do something wrong, say sorry."},
+    {"question": "Someone says \"Sorry?\" in a questioning voice. They mean:", "choices": ["I apologize.", "I don't like you.", "I didn't hear you. Please repeat.", "Move, please."], "answer": 2, "explanation_ar": "Sorry? بنبرة سؤال تعني: لم أسمعك.", "explanation_en": "\"Sorry?\" means \"What did you say?\""},
+    {"question": "Which word is used for deep sympathy when someone has died?", "choices": ["pardon", "excuse", "regret", "condolences"], "answer": 3, "explanation_ar": "condolences = تعازٍ، للوفاة.", "explanation_en": "Condolences are for death."},
+    {"question": "\"I ___ not studying harder. I lost a good chance.\"", "choices": ["regret", "excuse", "pardon", "interrupt"], "answer": 0, "explanation_ar": "regret = يندم، خاصة على فرصة ضائعة.", "explanation_en": "Regret shows sadness about a lost chance."},
+    {"question": "\"Excuse me\" is usually said ___ you do something.", "choices": ["after", "before", "never when", "only after"], "answer": 1, "explanation_ar": "excuse me قبل الفعل، وsorry بعده.", "explanation_en": "Excuse me comes before; sorry comes after."},
+    {"question": "Which is the noun?", "choices": ["apologize", "sorry", "apology", "excuse me"], "answer": 2, "explanation_ar": "apology اسم، وapologize فعل.", "explanation_en": "Apology is the noun."},
+    {"question": "\"Your dog died? I'm sorry to ___ that.\"", "choices": ["interrupt", "regret", "excuse", "hear"], "answer": 3, "explanation_ar": "I'm sorry to hear that للتعاطف مع خبر سيئ.", "explanation_en": "\"I'm sorry to hear that\" shows sympathy."},
+    {"question": "Which is more formal than \"sorry\"?", "choices": ["I apologize.", "Oops.", "Sorry?", "My bad."], "answer": 0, "explanation_ar": "I apologize أكثر رسمية.", "explanation_en": "\"I apologize\" is more formal."},
+    {"question": "\"This is a sorry situation.\" Here \"sorry\" means:", "choices": ["polite", "very bad", "happy", "quiet"], "answer": 1, "explanation_ar": "sorry قبل الاسم قد تعني سيئ أو بائس.", "explanation_en": "Before a noun, sorry can mean very bad."}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "How to Disagree Politely",
+  "content": {
+    "vocabulary": [
+      {"word": "disagree", "pos": "verb", "meaning_en": "have a different opinion", "meaning_ar": "يختلف في الرأي / لا يوافق", "note_ar": "disagree with someone / about something. الاسم: disagreement", "note_en": "disagree with someone / about something. Noun: disagreement.", "example": "I disagree with you about the plan."},
+      {"word": "politely", "pos": "adverb", "meaning_en": "in a respectful, kind way", "meaning_ar": "بأدب / بلطف", "note_ar": "الصفة: polite، العكس: rudely", "note_en": "Adjective: polite. Opposite: rudely.", "example": "She disagreed politely with her manager."},
+      {"word": "rude", "pos": "adjective", "meaning_en": "not polite; offensive", "meaning_ar": "وقح / غير مهذب", "note_ar": "", "note_en": "", "example": "Saying \"That's rubbish\" can sound rude."},
+      {"word": "intonation", "pos": "noun", "meaning_en": "how your voice goes up and down", "meaning_ar": "نبرة الصوت", "note_ar": "", "note_en": "", "example": "With \"Really?\", intonation is everything."},
+      {"word": "in the bag", "pos": "phrase", "meaning_en": "(informal) certain to be won or achieved", "meaning_ar": "مضمون", "note_ar": "", "note_en": "", "example": "Don't worry, the contract is in the bag."},
+      {"word": "the opposite", "pos": "noun", "meaning_en": "something completely different", "meaning_ar": "العكس", "note_ar": "", "note_en": "", "example": "I'd say the opposite is true."},
+      {"word": "disgruntled", "pos": "adjective", "meaning_en": "unhappy and annoyed", "meaning_ar": "مستاء / ساخط", "note_ar": "", "note_en": "", "example": "Many customers are disgruntled about the prices."},
+      {"word": "necessarily", "pos": "adverb", "meaning_en": "in every case; always", "meaning_ar": "بالضرورة", "note_ar": "not necessarily = ليس بالضرورة", "note_en": "not necessarily = not always", "example": "Expensive things are not necessarily better."},
+      {"word": "hot potato", "pos": "noun", "meaning_en": "a topic that people argue about strongly", "meaning_ar": "قضية شائكة / مثيرة للجدل", "note_ar": "", "note_en": "", "example": "Prices are a hot potato in the news."},
+      {"word": "logic", "pos": "noun", "meaning_en": "a sensible way of thinking", "meaning_ar": "منطق", "note_ar": "", "note_en": "", "example": "Where's the logic in that?"},
+      {"word": "stack up", "pos": "phrasal verb", "meaning_en": "(numbers, arguments) make sense when checked", "meaning_ar": "يكون منطقيًا / متماسكًا", "note_ar": "", "note_en": "", "example": "The numbers just don't stack up."},
+      {"word": "exasperated", "pos": "adjective", "meaning_en": "very annoyed because something keeps happening", "meaning_ar": "ساخط / نافد الصبر", "note_ar": "", "note_en": "", "example": "He sounded exasperated."},
+      {"word": "provocative", "pos": "adjective", "meaning_en": "said to make people angry or start an argument", "meaning_ar": "استفزازي", "note_ar": "", "note_en": "", "example": "He said it just to be provocative."},
+      {"word": "ridiculous", "pos": "adjective", "meaning_en": "very silly or unreasonable", "meaning_ar": "سخيف", "note_ar": "انتبه للنبرة: الضغط الزائد قد يجعلها وقحة", "note_en": "Careful: too much stress can sound rude.", "example": "That's ridiculous! Nobody does that."}
+    ],
+    "fine_lines": [
+      {"title": "Soft vs strong disagreement", "words": ["Not necessarily.", "That's ridiculous!"], "explanation_ar": "عبارات لطيفة: Not necessarily / I don't think so / I'd say the opposite. عبارات أقوى: How can you say that? / You can't honestly believe that / That's ridiculous. كلما قوي الضغط في الصوت بدت أقل تهذيبًا.", "explanation_en": "Soft: Not necessarily / I don't think so / I'd say the opposite. Stronger: How can you say that? / You can't honestly believe that / That's ridiculous. The more stress you add, the less polite it sounds.", "examples": [{"word": "Not necessarily.", "sentence": "Will prices keep rising? Not necessarily."}, {"word": "That's ridiculous!", "sentence": "Work every weekend? That's ridiculous!"}]},
+      {"title": "agree with vs agree to", "words": ["agree with", "agree to"], "explanation_ar": "agree with + شخص أو رأي. agree to + طلب أو خطة.", "explanation_en": "\"Agree with\" a person or opinion; \"agree to\" a request or plan.", "examples": [{"word": "agree with", "sentence": "I don't agree with you."}, {"word": "agree to", "sentence": "The boss won't agree to your plan."}]}
+    ],
+    "expressions": [
+      {"phrase": "I don't agree with you.", "meaning_ar": "لا أتفق معك.", "meaning_en": "Direct disagreement; can sound a bit rude.", "example": "Sorry, but I don't agree with you."},
+      {"phrase": "Really?", "meaning_ar": "حقًا؟", "meaning_en": "With a questioning tone, shows you doubt or disagree.", "example": "The order is in the bag. — Really? We still need confirmation."},
+      {"phrase": "I don't think so.", "meaning_ar": "لا أظن ذلك.", "meaning_en": "A polite way to say you disagree.", "example": "We'll finish tomorrow. — I don't think so. There's a lot more to do."},
+      {"phrase": "No way!", "meaning_ar": "مستحيل!", "meaning_en": "A strong, informal \"no\".", "example": "A party on a school night? No way!"},
+      {"phrase": "I'd say the opposite (is true).", "meaning_ar": "أقول إن العكس هو الصحيح.", "meaning_en": "Says you think the opposite will happen.", "example": "You think they'll win? I'd say the opposite."},
+      {"phrase": "Not necessarily.", "meaning_ar": "ليس بالضرورة.", "meaning_en": "A soft, gentle way to disagree.", "example": "This company is going downhill. — Not necessarily."},
+      {"phrase": "How can you say that?", "meaning_ar": "كيف يمكنك قول ذلك؟", "meaning_en": "Challenges a strong statement.", "example": "How can you say that? They have lost everything."},
+      {"phrase": "Where's the logic in that?", "meaning_ar": "أين المنطق في ذلك؟", "meaning_en": "Says an idea doesn't make sense, often about facts or numbers.", "example": "Make more products we can't sell? Where's the logic in that?"},
+      {"phrase": "You can't honestly believe / think that.", "meaning_ar": "لا يمكن أن تصدّق / تظن ذلك بصدق.", "meaning_en": "Says you are surprised anyone could believe it.", "example": "You can't honestly think that's a good idea."},
+      {"phrase": "Do you honestly think that?", "meaning_ar": "هل تظن ذلك بصدق؟", "meaning_en": "Checks if someone really means it.", "example": "Do you honestly think that we'll win easily?"},
+      {"phrase": "It just doesn't make sense to me.", "meaning_ar": "هذا ليس منطقيًا بالنسبة لي.", "meaning_en": "Disagrees and usually gives a reason.", "example": "Three journeys in one afternoon? It just doesn't make sense to me."},
+      {"phrase": "I hear what you're saying, but ...", "meaning_ar": "أفهم ما تقوله، لكن ...", "meaning_en": "Shows you listened before disagreeing.", "example": "I hear what you're saying, but I think there's a better way."},
+      {"phrase": "That's ridiculous!", "meaning_ar": "هذا سخيف!", "meaning_en": "Strong disagreement; say it lightly or it may sound rude.", "example": "That's ridiculous! Nobody does that these days."}
+    ],
+    "grammar": [
+      {"title": "Intonation changes the meaning", "explanation_ar": "في عبارات مثل Really? وI don't think so وNo way يعتمد المعنى على النبرة. النبرة الصاعدة الهادئة تُظهر الشك بلطف، والضغط القوي يُظهر رفضًا قويًا وقد يبدو وقحًا.", "explanation_en": "With \"Really?\", \"I don't think so\" and \"No way\", meaning depends on intonation. A calm rising tone shows polite doubt; heavy stress shows strong disagreement and can sound rude.", "examples": ["Really? (polite doubt)", "I don't think so. (calm disagreement)", "No WAY! (very strong)"]},
+      {"title": "Softening words: not necessarily, honestly, just", "explanation_ar": "كلمات مثل not necessarily وjust تجعل الاعتراض ألطف: It doesn't make sense ← It just doesn't make sense to me.", "explanation_en": "Words like \"not necessarily\" and \"just ... to me\" make disagreement softer: It doesn't make sense → It just doesn't make sense to me.", "examples": ["It just doesn't make sense to me.", "That's not necessarily true.", "I don't think that's quite right."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which is the SOFTEST way to disagree?", "choices": ["That's ridiculous!", "No way!", "Not necessarily.", "You can't honestly believe that."], "answer": 2, "explanation_ar": "Not necessarily طريقة لطيفة جدًا للاعتراض.", "explanation_en": "\"Not necessarily\" is a very soft way to disagree."},
+    {"question": "\"Where's the logic in that?\" means:", "choices": ["That doesn't make sense.", "Where is the file?", "I agree completely.", "Please explain the map."], "answer": 0, "explanation_ar": "تعني أن الفكرة غير منطقية.", "explanation_en": "It means the idea doesn't make sense."},
+    {"question": "\"The contract is in the bag\" means:", "choices": ["The contract is lost.", "The contract is in my bag.", "The contract is cancelled.", "We are sure to get the contract."], "answer": 3, "explanation_ar": "in the bag = مضمون.", "explanation_en": "\"In the bag\" = certain."},
+    {"question": "Choose the correct sentence.", "choices": ["I don't agree to you.", "I don't agree with you.", "I'm not agree with you.", "I don't agree you."], "answer": 1, "explanation_ar": "نقول I don't agree with you. خطأ شائع: I'm not agree.", "explanation_en": "Say \"I don't agree with you\". \"I'm not agree\" is a common mistake."},
+    {"question": "Which phrase can sound RUDE if you stress it too much?", "choices": ["That's ridiculous!", "Not necessarily.", "I hear what you're saying.", "I don't think so."], "answer": 0, "explanation_ar": "That's ridiculous قد تبدو وقحة مع الضغط القوي.", "explanation_en": "\"That's ridiculous\" can sound rude with strong stress."},
+    {"question": "\"I'd say the opposite\" means:", "choices": ["I agree.", "I think the other way is true.", "I don't know.", "Say it again."], "answer": 1, "explanation_ar": "تعني أنك تعتقد العكس.", "explanation_en": "It means you think the opposite."},
+    {"question": "You ___ honestly believe that!", "choices": ["can", "don't", "can't", "aren't"], "answer": 2, "explanation_ar": "You can't honestly believe that = لا يمكن أن تصدّق ذلك.", "explanation_en": "\"You can't honestly believe that.\""},
+    {"question": "\"It just doesn't make sense to me\" is usually followed by:", "choices": ["a joke", "a thank you", "an apology", "a reason or another idea"], "answer": 3, "explanation_ar": "عادة نتبعها بسبب أو بديل.", "explanation_en": "It is usually followed by a reason or alternative."},
+    {"question": "A \"hot potato\" is:", "choices": ["a topic people argue about", "a kind of food", "an easy question", "a good idea"], "answer": 0, "explanation_ar": "hot potato = قضية مثيرة للجدل.", "explanation_en": "A hot potato is a controversial topic."},
+    {"question": "\"The numbers don't stack up\" means:", "choices": ["The numbers are big.", "The numbers don't make sense.", "The numbers are in a pile.", "The numbers are correct."], "answer": 1, "explanation_ar": "stack up = يكون منطقيًا عند التحقق.", "explanation_en": "It means the numbers don't make sense."}
+  ]
+}

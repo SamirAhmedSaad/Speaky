@@ -1,5 +1,8 @@
 package com.speakmind.app.feature.community.ui.hub
 
+import com.speakmind.app.feature.community.ui.components.FunAvatars
+
+import com.speakmind.app.feature.community.ui.components.openPrivateChat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.feature.community.data.model.ChatRoom
@@ -9,6 +12,10 @@ import com.speakmind.app.feature.community.data.repository.friendlyCommunityErro
 import com.speakmind.app.feature.community.data.ContentModerator
 import com.speakmind.app.feature.profile.domain.NameValidationResult
 import com.speakmind.app.feature.profile.domain.NameValidator
+import com.speakmind.app.navigation.AdminChatsDestination
+import com.speakmind.app.navigation.HomeDestination
+import com.speakmind.app.ui.components.MainTab
+import com.speakmind.app.ui.components.MainTabs
 import com.speakmind.app.navigation.AdminReportsDestination
 import com.speakmind.app.feature.community.ui.auth.GoogleIdResult
 import com.speakmind.app.feature.community.ui.auth.SignInOutcome
@@ -50,6 +57,7 @@ data class CommunityHubUiState(
     val isSavingProfile: Boolean = false,
     val profileError: String? = null,
     val confirmDeleteAccount: Boolean = false,
+    val confirmSignOut: Boolean = false,
     val isDeletingAccount: Boolean = false,
     val error: String? = null,
 ) {
@@ -123,6 +131,8 @@ class CommunityHubViewModel(
                     myPhotoUrl = profile?.photoUrl,
                 )
             }
+            // An early "avatar:<key>" pick becomes the shared image URL, which older app versions can show.
+            profile?.photoUrl?.takeIf { it.startsWith(FunAvatars.PREFIX) }?.let { FunAvatars.keyOf(it) }?.let(::onFunAvatarPicked)
         }
         viewModelScope.launch {
             val unread = repository.unreadPrivateCount()
@@ -179,6 +189,15 @@ class CommunityHubViewModel(
     fun openChat(room: ChatRoom) = navigationManager.navigate(RoomDestination(room.id, room.displayName))
     fun openPeople() = navigationManager.navigate(PeopleDestination)
 
+    /** Private chats and who's online: Premium, or free private messages left today. */
+    fun onPrivateChatClicked(room: ChatRoom) {
+        viewModelScope.launch { repository.openPrivateChat("Private messages") { openChat(room) } }
+    }
+
+    fun onPeopleClicked() {
+        viewModelScope.launch { repository.openPrivateChat("See who's online") { openPeople() } }
+    }
+
     /** Opens Google's account picker right here; first-timers then pick a nickname. */
     fun onGoogleSignIn(launchPicker: suspend () -> GoogleIdResult) {
         if (_uiState.value.isSigningIn) return
@@ -205,6 +224,10 @@ class CommunityHubViewModel(
     }
 
     fun openReports() = navigationManager.navigate(AdminReportsDestination)
+    fun openPrivateChats() = navigationManager.navigate(AdminChatsDestination)
+    fun openVoiceCalls() = navigationManager.navigate(com.speakmind.app.feature.community.call.AdminCallsDestination)
+
+    fun openSubscribers() = navigationManager.navigate(com.speakmind.app.feature.community.admin.AdminSubscribersDestination)
 
     fun onEditProfile() = _uiState.update { it.copy(showEditProfile = true, profileError = null) }
     fun onEditProfileDismissed() = _uiState.update { it.copy(showEditProfile = false, profileError = null) }
@@ -231,6 +254,20 @@ class CommunityHubViewModel(
         }
     }
 
+    fun onFunAvatarPicked(key: String) {
+        val url = FunAvatars.photoUrlOf(key)
+        val before = _uiState.value.myPhotoUrl
+        _uiState.update { it.copy(myPhotoUrl = url, profileError = null) }
+        viewModelScope.launch {
+            try {
+                repository.setPhotoUrl(url)
+            } catch (e: Exception) {
+                Napier.w("setPhotoUrl failed", e)
+                _uiState.update { it.copy(myPhotoUrl = before, profileError = friendlyCommunityError(e, "Couldn't change the avatar.")) }
+            }
+        }
+    }
+
     fun onPhotoPicked(bytes: ByteArray?) {
         if (bytes == null) return
         _uiState.update { it.copy(isSavingProfile = true, profileError = null) }
@@ -245,7 +282,11 @@ class CommunityHubViewModel(
         }
     }
 
+    fun onSignOutRequested() = _uiState.update { it.copy(confirmSignOut = true) }
+    fun onSignOutDismissed() = _uiState.update { it.copy(confirmSignOut = false) }
+
     fun onSignOut() {
+        _uiState.update { it.copy(confirmSignOut = false) }
         viewModelScope.launch {
             try {
                 repository.signOut()
@@ -276,6 +317,15 @@ class CommunityHubViewModel(
 
     fun onErrorDismissed() = _uiState.update { it.copy(error = null) }
     fun onBack() = navigationManager.back()
+
+    /** Bottom bar: other tabs live on Home, which is always under this screen. */
+    fun onTabSelected(tab: MainTab) {
+        if (tab == MainTab.Chat) return
+        MainTabs.selected.value = tab
+        navigationManager.popUpTo(HomeDestination::class)
+    }
+
+    fun onGamesClicked() = navigationManager.navigate(com.speakmind.app.feature.games.ui.GamesDestination)
 
     /** Screen visibility drives the user's online status. */
     fun onVisibilityChanged(visible: Boolean) = repository.setActive(visible)

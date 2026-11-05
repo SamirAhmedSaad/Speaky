@@ -1,0 +1,73 @@
+{
+  "title": "Come Over to My Place",
+  "content": {
+    "vocabulary": [
+      {"word": "come over", "pos": "phrasal verb", "meaning_en": "to visit someone at their home", "meaning_ar": "يزور (شخصًا في بيته)", "note_ar": "", "note_en": "", "example": "Can you come over on Friday?"},
+      {"word": "place", "pos": "noun", "meaning_en": "(informal) a person's home", "meaning_ar": "منزل / مكان السكن (بالعامية)", "note_ar": "my place = بيتي.", "note_en": "my place = my home", "example": "Let's have lunch at my place."},
+      {"word": "apartment", "pos": "noun", "meaning_en": "a home with rooms in a large building", "meaning_ar": "شقة", "note_ar": "في بريطانيا: flat.", "note_en": "UK: flat", "example": "My apartment is on the third floor."},
+      {"word": "show", "pos": "verb", "meaning_en": "to let someone see something", "meaning_ar": "يُري / يعرض", "note_ar": "", "note_en": "", "example": "I am showing her my new room."},
+      {"word": "Metro", "pos": "noun", "meaning_en": "the underground train in Washington, D.C.", "meaning_ar": "المترو / قطار الأنفاق", "note_ar": "في مدن أخرى يُسمّى subway أو underground.", "note_en": "Also called subway or underground in other cities.", "example": "I take the Metro to work."},
+      {"word": "exit", "pos": "verb / noun", "meaning_en": "to leave a place; the door or way out", "meaning_ar": "يخرج من / مخرج", "note_ar": "", "note_en": "", "example": "Exit the station and turn left."},
+      {"word": "turn", "pos": "verb", "meaning_en": "to change direction", "meaning_ar": "ينعطف / يستدير", "note_ar": "", "note_en": "", "example": "Turn right at the bank."},
+      {"word": "right", "pos": "noun / adverb", "meaning_en": "the side opposite left", "meaning_ar": "اليمين", "note_ar": "", "note_en": "", "example": "The school is on the right."},
+      {"word": "left", "pos": "noun / adverb", "meaning_en": "the side opposite right", "meaning_ar": "اليسار", "note_ar": "", "note_en": "", "example": "Turn left at the corner."},
+      {"word": "straight ahead", "pos": "phrase", "meaning_en": "forward, in a straight line", "meaning_ar": "إلى الأمام مباشرة", "note_ar": "حرفا gh في straight صامتان: «ستريت».", "note_en": "The gh is silent: /streɪt/.", "example": "Walk straight ahead for two minutes."},
+      {"word": "walk", "pos": "verb", "meaning_en": "to move on foot", "meaning_ar": "يمشي", "note_ar": "حرف l صامت: «ووك».", "note_en": "The l is silent: /wɔːk/.", "example": "I walk to the park every day."},
+      {"word": "bus station", "pos": "noun", "meaning_en": "a place where buses stop and people get on", "meaning_ar": "محطة الحافلات", "note_ar": "bus stop = موقف حافلات (مكان أصغر).", "note_en": "Also: bus stop (a smaller place).", "example": "Meet me at the bus station."},
+      {"word": "near", "pos": "preposition", "meaning_en": "not far from", "meaning_ar": "قريب من", "note_ar": "لا نقول near to غالبًا، بل near فقط.", "note_en": "Say near the park (no to).", "example": "My home is near the Metro."},
+      {"word": "across from", "pos": "preposition", "meaning_en": "on the other side of a street or room", "meaning_ar": "مقابل / في الجهة المقابلة لـ", "note_ar": "في الإنجليزية البريطانية يُقال غالبًا opposite.", "note_en": "UK English often says opposite.", "example": "The bank is across from the school."},
+      {"word": "coffee shop", "pos": "noun", "meaning_en": "a small place that sells coffee and snacks", "meaning_ar": "مقهى", "note_ar": "", "note_en": "", "example": "There is a coffee shop on my street."},
+      {"word": "department store", "pos": "noun", "meaning_en": "a big shop that sells many kinds of things", "meaning_ar": "متجر كبير متعدد الأقسام", "note_ar": "", "note_en": "", "example": "I buy shoes at the department store."},
+      {"word": "big", "pos": "adjective", "meaning_en": "large", "meaning_ar": "كبير", "note_ar": "", "note_en": "", "example": "It is a big building."},
+      {"word": "soon", "pos": "adverb", "meaning_en": "in a short time from now", "meaning_ar": "قريبًا", "note_ar": "", "note_en": "", "example": "The bus is coming soon."},
+      {"word": "then", "pos": "adverb", "meaning_en": "after that; next", "meaning_ar": "ثم / بعد ذلك", "note_ar": "", "note_en": "", "example": "Turn left, then walk straight."},
+      {"word": "which", "pos": "question word", "meaning_en": "used to ask about one thing from a group", "meaning_ar": "أيّ", "note_ar": "", "note_en": "", "example": "Which bus goes to the airport?"},
+      {"word": "call", "pos": "verb", "meaning_en": "to talk to someone on the phone", "meaning_ar": "يتصل (هاتفيًا)", "note_ar": "", "note_en": "", "example": "My friend is calling me."},
+      {"word": "over here", "pos": "phrase", "meaning_en": "in this place, near me", "meaning_ar": "هنا (تعال إلى هنا)", "note_ar": "", "note_en": "", "example": "I'm over here, by the door!"},
+      {"word": "friend", "pos": "noun", "meaning_en": "a person you like and know well", "meaning_ar": "صديق", "note_ar": "حرف i صامت: «فرِند».", "note_en": "The i is silent: /frend/.", "example": "My friend is coming to my home today."}
+    ],
+    "fine_lines": [
+      {"title": "near vs across from", "words": ["near", "across from"],
+       "explanation_ar": "near تعني قريبًا من الشيء في أي اتجاه. across from تعني في الجهة المقابلة تمامًا، وغالبًا بينهما شارع.",
+       "explanation_en": "Near means close to something, on any side. Across from means on the other side, often with a street between.",
+       "examples": [{"word": "near", "sentence": "My house is near the park."}, {"word": "across from", "sentence": "The pharmacy is across from the bank."}]},
+      {"title": "right vs left vs straight ahead", "words": ["right", "left", "straight ahead"],
+       "explanation_ar": "turn right = انعطف يمينًا، turn left = انعطف يسارًا، go straight ahead = امشِ إلى الأمام دون انعطاف. ملاحظة: right لها معنى آخر أيضًا: صحيح.",
+       "explanation_en": "Turn right, turn left, or go straight ahead (don't turn). Note: right can also mean correct.",
+       "examples": [{"word": "right", "sentence": "Turn right at the light."}, {"word": "left", "sentence": "The door is on your left."}, {"word": "straight ahead", "sentence": "Go straight ahead to the station."}]}
+    ],
+    "expressions": [
+      {"phrase": "Where is your apartment?", "meaning_ar": "أين شقتك؟", "meaning_en": "Asking where someone lives.", "example": "Where is your apartment? Is it near here?"},
+      {"phrase": "Exit the Metro and turn right.", "meaning_ar": "اخرج من المترو وانعطف يمينًا.", "meaning_en": "Leave the train station, then go right.", "example": "Exit the Metro and turn right at the corner."},
+      {"phrase": "Walk straight ahead.", "meaning_ar": "امشِ إلى الأمام مباشرة.", "meaning_en": "Go forward; don't turn.", "example": "Walk straight ahead and you will see it."},
+      {"phrase": "My apartment is near a coffee shop.", "meaning_ar": "شقتي قريبة من مقهى.", "meaning_en": "My home is close to a coffee shop.", "example": "My apartment is near a big park."},
+      {"phrase": "See you soon!", "meaning_ar": "أراك قريبًا!", "meaning_en": "Goodbye; we will meet very soon.", "example": "I'm coming now. See you soon!"},
+      {"phrase": "Which coffee shop?", "meaning_ar": "أيّ مقهى؟", "meaning_en": "Asking about one place from many.", "example": "There are two banks here. Which bank?"},
+      {"phrase": "I see it!", "meaning_ar": "أراه!", "meaning_en": "I can see the place now.", "example": "The red building? Ah, I see it!"},
+      {"phrase": "Over here!", "meaning_ar": "هنا!", "meaning_en": "Come to this place; I am here.", "example": "Over here! I'm by the door!"},
+      {"phrase": "I love having my friends over.", "meaning_ar": "أحب أن يزورني أصدقائي في بيتي.", "meaning_en": "I like it when friends visit my home.", "example": "I love having my family over on Fridays."}
+    ],
+    "grammar": [
+      {"title": "Giving directions with imperatives",
+       "explanation_ar": "١) لإعطاء الاتجاهات نستخدم صيغة الأمر: الفعل في أول الجملة بدون فاعل.\n٢) Turn left. / Walk straight ahead. / Exit the Metro.\n٣) نربط الخطوات بـ and و then: Turn right, then turn left.\n٤) للنفي: Don't + فعل: Don't turn here.",
+       "explanation_en": "1) To give directions, use the imperative: start with the verb, no subject.\n2) Turn left. / Walk straight ahead. / Exit the Metro.\n3) Join steps with and and then: Turn right, then turn left.\n4) Negative: Don't + verb: Don't turn here.",
+       "examples": ["Exit the station and turn left.", "Walk straight ahead, then turn right.", "Don't cross the street here."]},
+      {"title": "Present continuous for plans and actions now",
+       "explanation_ar": "١) نستخدم am / is / are + فعل مع ing لشيء يحدث الآن: I am showing her my apartment.\n٢) ونستخدمه أيضًا لخطة قريبة: My friend is coming over today.",
+       "explanation_en": "1) am / is / are + verb-ing for something happening now: I am showing her my apartment.\n2) We also use it for a near plan: My friend is coming over today.",
+       "examples": ["Ashley is coming to my apartment.", "I'm walking to the station now.", "We are having lunch at my place today."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"Come over to my place\" means:", "choices": ["Come and visit my home.", "Go to work.", "Come over the wall.", "Leave my home."], "answer": 0, "explanation_ar": "come over = يزور، و my place = بيتي.", "explanation_en": "Come over = visit; my place = my home."},
+    {"question": "Choose the correct direction.", "choices": ["Turn to right.", "Turn the right.", "Turn right.", "Turning right you."], "answer": 2, "explanation_ar": "صيغة الأمر: Turn right.", "explanation_en": "The imperative is: Turn right."},
+    {"question": "\"Go straight ahead\" means:", "choices": ["turn left", "turn right", "go back", "go forward and don't turn"], "answer": 3, "explanation_ar": "straight ahead تعني إلى الأمام مباشرة.", "explanation_en": "Straight ahead means forward, without turning."},
+    {"question": "The bank is on one side of the street. The school is on the other side. The bank is ___ the school.", "choices": ["across from", "in", "behind", "on"], "answer": 0, "explanation_ar": "across from تعني في الجهة المقابلة.", "explanation_en": "Across from means on the other side."},
+    {"question": "\"There are three coffee shops.\" \"___ coffee shop?\"", "choices": ["What", "Which", "Where", "Who"], "answer": 1, "explanation_ar": "نستخدم which للاختيار من مجموعة.", "explanation_en": "We use which to choose one from a group."},
+    {"question": "What is a department store?", "choices": ["a train station", "a small coffee shop", "a big shop that sells many things", "an apartment"], "answer": 2, "explanation_ar": "department store متجر كبير يبيع أشياء كثيرة.", "explanation_en": "A department store is a big shop with many kinds of things."},
+    {"question": "Exit the Metro. ___, turn left.", "choices": ["Soon", "Then", "Which", "Over"], "answer": 1, "explanation_ar": "then تعني بعد ذلك.", "explanation_en": "Then means after that."},
+    {"question": "Choose the correct sentence.", "choices": ["My friend is come over today.", "My friend coming over today.", "My friend are coming over today.", "My friend is coming over today."], "answer": 3, "explanation_ar": "is + coming للمفرد.", "explanation_en": "Use is + coming with a singular subject."},
+    {"question": "Which word has a silent letter?", "choices": ["walk", "turn", "left", "big"], "answer": 0, "explanation_ar": "حرف l في walk لا يُنطق.", "explanation_en": "The l in walk is silent."},
+    {"question": "\"My apartment is ___ the Metro.\" (not far)", "choices": ["across", "turn", "near", "straight"], "answer": 2, "explanation_ar": "near تعني قريبًا من.", "explanation_en": "Near means not far from."}
+  ]
+}

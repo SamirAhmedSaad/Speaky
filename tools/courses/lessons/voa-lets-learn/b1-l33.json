@@ -1,0 +1,542 @@
+{
+ "title": "Learning America's Sport",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "part two",
+    "pos": "noun",
+    "meaning_en": "the second part of a story or show",
+    "meaning_ar": "الجزء الثاني",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It is time for part two of the children's show!"
+   },
+   {
+    "word": "lost",
+    "pos": "adjective",
+    "meaning_en": "not knowing where you are",
+    "meaning_ar": "تائه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Anna was lost, really lost."
+   },
+   {
+    "word": "wrong",
+    "pos": "adjective",
+    "meaning_en": "not correct",
+    "meaning_ar": "خاطئ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "MINDY sent her to many wrong places."
+   },
+   {
+    "word": "try",
+    "pos": "verb",
+    "meaning_en": "to make an effort to do something",
+    "meaning_ar": "يحاول",
+    "note_ar": "try harder = حاول بجهد أكبر.",
+    "note_en": "try harder = make a bigger effort.",
+    "example": "I will try one more time."
+   },
+   {
+    "word": "playground",
+    "pos": "noun",
+    "meaning_en": "an outdoor place where children play",
+    "meaning_ar": "ملعب أطفال",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There is a baseball field at the playground."
+   },
+   {
+    "word": "field",
+    "pos": "noun",
+    "meaning_en": "an area of grass where sports are played",
+    "meaning_ar": "ملعب (عشبي)",
+    "note_ar": "field كفعل في البيسبول = يلتقط الكرة ويعيدها.",
+    "note_en": "As a baseball verb, field = catch or stop the ball and throw it back.",
+    "example": "This is a baseball field."
+   },
+   {
+    "word": "pitcher's mound",
+    "pos": "noun",
+    "meaning_en": "the small hill in the middle of the field where the pitcher stands",
+    "meaning_ar": "تلة الرامي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The pitcher stands on the pitcher's mound."
+   },
+   {
+    "word": "base",
+    "pos": "noun",
+    "meaning_en": "one of the four places a runner must touch",
+    "meaning_ar": "قاعدة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This is first base!"
+   },
+   {
+    "word": "home plate",
+    "pos": "noun",
+    "meaning_en": "the place where the batter stands and where runners score",
+    "meaning_ar": "القاعدة الرئيسية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Each time a runner runs across home plate, they score a run."
+   },
+   {
+    "word": "bat",
+    "pos": "noun / verb",
+    "meaning_en": "a long stick for hitting the ball; to hit the ball with it",
+    "meaning_ar": "مضرب / يضرب بالمضرب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "To play baseball, you need a bat."
+   },
+   {
+    "word": "ball",
+    "pos": "noun",
+    "meaning_en": "a round object used in games",
+    "meaning_ar": "كرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The pitcher pitches the ball."
+   },
+   {
+    "word": "glove",
+    "pos": "noun",
+    "meaning_en": "a covering for your hand; in baseball, a big leather one for catching",
+    "meaning_ar": "قفّاز",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He caught the ball in his glove."
+   },
+   {
+    "word": "player",
+    "pos": "noun",
+    "meaning_en": "a person who plays a sport",
+    "meaning_ar": "لاعب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Each team has many players."
+   },
+   {
+    "word": "pitcher",
+    "pos": "noun",
+    "meaning_en": "the player who throws the ball to the batter",
+    "meaning_ar": "الرامي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Pitchers pitch the ball."
+   },
+   {
+    "word": "catcher",
+    "pos": "noun",
+    "meaning_en": "the player behind home plate who catches the ball",
+    "meaning_ar": "الماسك / المستقبِل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Catchers catch the ball."
+   },
+   {
+    "word": "batter",
+    "pos": "noun",
+    "meaning_en": "the player who tries to hit the ball",
+    "meaning_ar": "الضارب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Batters bat the ball."
+   },
+   {
+    "word": "runner",
+    "pos": "noun",
+    "meaning_en": "a player who runs the bases",
+    "meaning_ar": "العدّاء",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Runners run the bases."
+   },
+   {
+    "word": "fielder",
+    "pos": "noun",
+    "meaning_en": "a player who catches or stops the ball in the field",
+    "meaning_ar": "لاعب الملعب (المدافع)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Fielders field the ball."
+   },
+   {
+    "word": "catch",
+    "pos": "verb",
+    "meaning_en": "to take and hold something that is moving through the air",
+    "meaning_ar": "يلتقط / يمسك",
+    "note_ar": "الماضي: caught.",
+    "note_en": "Past: caught.",
+    "example": "Can you catch the ball?"
+   },
+   {
+    "word": "score",
+    "pos": "verb",
+    "meaning_en": "to get a point in a game",
+    "meaning_ar": "يسجّل (نقطة / هدف)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "They score a run!"
+   },
+   {
+    "word": "run",
+    "pos": "noun",
+    "meaning_en": "one point in baseball",
+    "meaning_ar": "نقطة (في البيسبول)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Our team scored three runs."
+   },
+   {
+    "word": "inning",
+    "pos": "noun",
+    "meaning_en": "one of the nine parts of a baseball game",
+    "meaning_ar": "شوط (في البيسبول)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There are nine innings in a game."
+   },
+   {
+    "word": "win",
+    "pos": "verb",
+    "meaning_en": "to be the best in a game or competition",
+    "meaning_ar": "يفوز",
+    "note_ar": "الماضي: won.",
+    "note_en": "Past: won.",
+    "example": "The team with the most runs wins the game."
+   },
+   {
+    "word": "return",
+    "pos": "verb",
+    "meaning_en": "to go back",
+    "meaning_ar": "يعود",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's time to return to the treehouse."
+   },
+   {
+    "word": "real",
+    "pos": "adjective",
+    "meaning_en": "true; not imaginary",
+    "meaning_ar": "حقيقي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Time travel is not real."
+   },
+   {
+    "word": "silly",
+    "pos": "adjective",
+    "meaning_en": "funny and not serious",
+    "meaning_ar": "سخيف / مضحك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "You're so silly, Anna."
+   },
+   {
+    "word": "give someone a call",
+    "pos": "phrase",
+    "meaning_en": "to phone someone",
+    "meaning_ar": "يتصل بشخص",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Give me a call when you find the answer."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "verb + -er = the person",
+    "words": [
+     "pitch / pitcher",
+     "catch / catcher",
+     "bat / batter",
+     "run / runner",
+     "field / fielder"
+    ],
+    "explanation_ar": "نضيف er إلى الفعل لنحصل على الشخص الذي يقوم بالفعل: pitch → pitcher، catch → catcher، field → fielder. إذا انتهى الفعل القصير بحرف ساكن بعد حرف علة واحد نضاعف الحرف الأخير: bat → batter، run → runner.",
+    "explanation_en": "Add -er to a verb to name the person who does it: pitch → pitcher, catch → catcher, field → fielder. In short verbs ending in one vowel + one consonant, double the last letter: bat → batter, run → runner.",
+    "examples": [
+     {
+      "word": "pitch / pitcher",
+      "sentence": "The pitcher pitches the ball."
+     },
+     {
+      "word": "bat / batter",
+      "sentence": "The batter bats the ball."
+     },
+     {
+      "word": "run / runner",
+      "sentence": "The runner runs to first base."
+     }
+    ]
+   },
+   {
+    "title": "run (verb) vs run (noun)",
+    "words": [
+     "run (verb)",
+     "run (noun)"
+    ],
+    "explanation_ar": "run كفعل = يركض. run كاسم في البيسبول = نقطة يسجلها الفريق عندما يعبر اللاعب home plate.",
+    "explanation_en": "Run as a verb = move fast on your feet. A run as a noun in baseball = one point, scored when a runner crosses home plate.",
+    "examples": [
+     {
+      "word": "run (verb)",
+      "sentence": "Runners run the bases."
+     },
+     {
+      "word": "run (noun)",
+      "sentence": "They score a run!"
+     }
+    ]
+   },
+   {
+    "title": "each vs every",
+    "words": [
+     "each",
+     "every"
+    ],
+    "explanation_ar": "كلاهما يأتي مع اسم مفرد. each يركّز على كل واحد على حدة، و every يركّز على المجموعة كلها. Each team has many players.",
+    "explanation_en": "Both go with a singular noun. Each looks at the members one by one; every looks at the whole group.",
+    "examples": [
+     {
+      "word": "each",
+      "sentence": "Each team has many players."
+     },
+     {
+      "word": "each",
+      "sentence": "Each time a batter bats, the runners run."
+     },
+     {
+      "word": "every",
+      "sentence": "Every child in the class likes baseball."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "It's time for…",
+    "meaning_ar": "حان وقت...",
+    "meaning_en": "Now we start something.",
+    "example": "It's time for lunch!"
+   },
+   {
+    "phrase": "I can't wait!",
+    "meaning_ar": "لا أطيق الانتظار!",
+    "meaning_en": "I'm very excited about it.",
+    "example": "We're going to the beach tomorrow. I can't wait!"
+   },
+   {
+    "phrase": "I will try one more time.",
+    "meaning_ar": "سأحاول مرة أخرى.",
+    "meaning_en": "I will try again.",
+    "example": "The door is stuck. I will try one more time."
+   },
+   {
+    "phrase": "Please try harder.",
+    "meaning_ar": "من فضلك حاول بجهد أكبر.",
+    "meaning_en": "Please make a bigger effort.",
+    "example": "You can do it. Please try harder."
+   },
+   {
+    "phrase": "It took you a long time. But you did it!",
+    "meaning_ar": "أخذ منك وقتاً طويلاً، لكنك نجحت!",
+    "meaning_en": "You were slow, but you succeeded.",
+    "example": "It took you a long time, but you did it! Well done."
+   },
+   {
+    "phrase": "Give me a call.",
+    "meaning_ar": "اتصل بي.",
+    "meaning_en": "Phone me.",
+    "example": "Give me a call when you get home."
+   },
+   {
+    "phrase": "Come with me.",
+    "meaning_ar": "تعال معي.",
+    "meaning_en": "Follow me.",
+    "example": "Come with me. I'll show you the park."
+   },
+   {
+    "phrase": "Let's learn how to play baseball!",
+    "meaning_ar": "لنتعلم كيف نلعب البيسبول!",
+    "meaning_en": "Let's find out how to play.",
+    "example": "Let's learn how to make bread!"
+   },
+   {
+    "phrase": "We found the answer!",
+    "meaning_ar": "وجدنا الجواب!",
+    "meaning_en": "We know the answer now.",
+    "example": "We found the answer in the book!"
+   },
+   {
+    "phrase": "Good job!",
+    "meaning_ar": "أحسنت!",
+    "meaning_en": "Well done!",
+    "example": "You fixed it. Good job!"
+   },
+   {
+    "phrase": "You're so silly.",
+    "meaning_ar": "أنت مضحك / سخيف جداً.",
+    "meaning_en": "You are funny and not serious.",
+    "example": "You wore two different shoes? You're so silly!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Simple present: he / she / it + -s",
+    "explanation_ar": "في المضارع البسيط نضيف s أو es إلى الفعل مع المفرد الغائب (he / she / it أو اسم مفرد): The pitcher pitches. ومع الجمع (they أو اسم جمع) لا نضيف s: Pitchers pitch. الأفعال المنتهية بـ ch / sh / s / x تأخذ es: pitch → pitches، catch → catches.",
+    "explanation_en": "In the simple present, add -s or -es to the verb with he / she / it or a singular noun: The pitcher pitches. With plural subjects (they, plural nouns) there is no -s: Pitchers pitch. Verbs ending in ch / sh / s / x add -es: pitch → pitches, catch → catches.",
+    "examples": [
+     "Pitchers pitch the ball. / The pitcher pitches the ball.",
+     "Catchers catch the ball. / The catcher catches the ball.",
+     "Batters bat the ball. / The batter bats the ball.",
+     "Runners run the bases. / The runner runs to first base."
+    ]
+   },
+   {
+    "title": "Describing steps: First, Then, Each time",
+    "explanation_ar": "لشرح طريقة أو قواعد لعبة نستخدم المضارع البسيط مع كلمات الترتيب: First (أولاً)، Then (ثم)، Each time (في كل مرة).",
+    "explanation_en": "To explain how something works or the rules of a game, use the simple present with order words: First, Then, Each time.",
+    "examples": [
+     "First, the pitcher pitches the ball to the batter.",
+     "The batter bats the ball. Then, the runner runs to first base.",
+     "Each time a runner runs across home plate, they score a run!"
+    ]
+   },
+   {
+    "title": "Superlative: the most",
+    "explanation_ar": "the most + اسم = الأكثر عدداً: The team with the most runs wins = الفريق صاحب أكبر عدد من النقاط يفوز.",
+    "explanation_en": "the most + noun = the biggest number of something.",
+    "examples": [
+     "The team with the most runs at the end of nine innings wins the game!",
+     "Who has the most points?"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "First, the pitcher ___ the ball to the batter.",
+   "choices": [
+    "pitch",
+    "pitches",
+    "pitchs",
+    "pitching"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع المفرد نضيف es إلى pitch.",
+   "explanation_en": "With a singular subject, \"pitch\" becomes \"pitches\"."
+  },
+  {
+   "question": "Catchers ___ the ball.",
+   "choices": [
+    "catch",
+    "catches",
+    "catchs",
+    "is catch"
+   ],
+   "answer": 0,
+   "explanation_ar": "مع الجمع لا نضيف s.",
+   "explanation_en": "With a plural subject there is no -s."
+  },
+  {
+   "question": "The player who tries to hit the ball is the ___.",
+   "choices": [
+    "pitcher",
+    "catcher",
+    "fielder",
+    "batter"
+   ],
+   "answer": 3,
+   "explanation_ar": "batter = الضارب.",
+   "explanation_en": "The batter hits the ball with the bat."
+  },
+  {
+   "question": "To play baseball, you need a bat, a ball and a ___.",
+   "choices": [
+    "glove",
+    "shark",
+    "treehouse",
+    "ticket"
+   ],
+   "answer": 0,
+   "explanation_ar": "للعب البيسبول نحتاج مضرباً وكرة وقفّازاً (glove) لالتقاط الكرة.",
+   "explanation_en": "To play baseball you need a bat, a ball and a glove to catch the ball."
+  },
+  {
+   "question": "How many innings are in a baseball game?",
+   "choices": [
+    "four",
+    "seven",
+    "nine",
+    "ten"
+   ],
+   "answer": 2,
+   "explanation_ar": "في المباراة تسعة أشواط: nine innings.",
+   "explanation_en": "There are nine innings in a game."
+  },
+  {
+   "question": "The runner ___ to first base.",
+   "choices": [
+    "run",
+    "runs",
+    "running",
+    "runner"
+   ],
+   "answer": 1,
+   "explanation_ar": "مع المفرد: runs.",
+   "explanation_en": "With a singular subject: runs."
+  },
+  {
+   "question": "Which team wins the game?",
+   "choices": [
+    "the team with the most players",
+    "the team with the most bats",
+    "the first team to bat",
+    "the team with the most runs"
+   ],
+   "answer": 3,
+   "explanation_ar": "يفوز الفريق صاحب أكثر عدد من runs.",
+   "explanation_en": "The team with the most runs wins."
+  },
+  {
+   "question": "What is the person who \"fields\" the ball called?",
+   "choices": [
+    "a fielder",
+    "a fieldman",
+    "a fielding",
+    "a fielder's mound"
+   ],
+   "answer": 0,
+   "explanation_ar": "نضيف er إلى field فتصبح fielder.",
+   "explanation_en": "field + -er = fielder."
+  },
+  {
+   "question": "\"They score a run.\" Here \"run\" means:",
+   "choices": [
+    "a fast walk",
+    "a race",
+    "a point",
+    "a base"
+   ],
+   "answer": 2,
+   "explanation_ar": "run كاسم في البيسبول = نقطة.",
+   "explanation_en": "In baseball, a run is a point."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "Each teams has many players.",
+    "Each team have many players.",
+    "Each team has many players.",
+    "Each teams have many players."
+   ],
+   "answer": 2,
+   "explanation_ar": "each + اسم مفرد + فعل مفرد (has).",
+   "explanation_en": "each + singular noun + singular verb (has)."
+  }
+ ]
+}

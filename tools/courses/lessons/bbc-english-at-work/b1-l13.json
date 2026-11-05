@@ -1,0 +1,56 @@
+{
+  "title": "Making a Pitch",
+  "content": {
+    "vocabulary": [
+      {"word": "pitch", "pos": "noun / verb", "meaning_en": "a sales talk to sell a product or idea; to give such a talk", "meaning_ar": "عرض بيعي (لإقناع العميل)؛ يقدّم عرضًا بيعيًا", "note_ar": "", "note_en": "", "example": "She made a great pitch to the new client."},
+      {"word": "track record", "pos": "noun", "meaning_en": "the past results or successes of a person or company", "meaning_ar": "سجل الإنجازات السابق", "note_ar": "", "note_en": "", "example": "Our company has a good track record of delivering on time."},
+      {"word": "key strengths", "pos": "noun", "meaning_en": "the most important good points of something", "meaning_ar": "نقاط القوة الرئيسية", "note_ar": "", "note_en": "", "example": "The key strengths of this phone are its battery and its price."},
+      {"word": "reliability", "pos": "noun", "meaning_en": "being something people can trust to work well", "meaning_ar": "الموثوقية", "note_ar": "الصفة: reliable = يُعتمد عليه", "note_en": "Adjective: reliable.", "example": "Clients choose us because of our reliability."},
+      {"word": "client", "pos": "noun", "meaning_en": "a person or company that buys services from a business", "meaning_ar": "عميل", "note_ar": "", "note_en": "", "example": "Our number of clients doubled last year."},
+      {"word": "double", "pos": "verb", "meaning_en": "to become two times bigger", "meaning_ar": "يتضاعف", "note_ar": "", "note_en": "", "example": "Our sales doubled in two years."},
+      {"word": "slideshow", "pos": "noun", "meaning_en": "a set of pictures or pages shown on a screen", "meaning_ar": "عرض الشرائح", "note_ar": "", "note_en": "", "example": "I'll continue without the slideshow."},
+      {"word": "notes", "pos": "noun", "meaning_en": "short written points to help you remember", "meaning_ar": "ملاحظات", "note_ar": "", "note_en": "", "example": "He looked at his notes before he spoke."},
+      {"word": "crash", "pos": "verb", "meaning_en": "(of a computer) to suddenly stop working", "meaning_ar": "يتعطّل فجأة (الحاسوب)", "note_ar": "", "note_en": "", "example": "My computer crashed in the middle of the meeting."},
+      {"word": "frozen", "pos": "adjective", "meaning_en": "(of a screen) not moving or changing", "meaning_ar": "متجمّد / معلّق (الشاشة)", "note_ar": "", "note_en": "", "example": "The screen is frozen, so I can't change the slide."},
+      {"word": "key points", "pos": "noun", "meaning_en": "the most important ideas", "meaning_ar": "النقاط الأساسية", "note_ar": "", "note_en": "", "example": "Give your key points one by one."},
+      {"word": "support", "pos": "verb", "meaning_en": "to give facts that show something is true", "meaning_ar": "يدعم / يؤيّد بالأدلة", "note_ar": "", "note_en": "", "example": "Support each point with a fact."},
+      {"word": "conversational", "pos": "adjective", "meaning_en": "natural, like normal talking", "meaning_ar": "بأسلوب المحادثة / طبيعي", "note_ar": "", "note_en": "", "example": "Try to be more conversational when you present."},
+      {"word": "eye contact", "pos": "noun", "meaning_en": "looking directly at people's eyes", "meaning_ar": "التواصل البصري", "note_ar": "", "note_en": "", "example": "Look people in the eye to make good eye contact."},
+      {"word": "award", "pos": "noun", "meaning_en": "a prize for doing something well", "meaning_ar": "جائزة", "note_ar": "", "note_en": "", "example": "Our product won an award last year."},
+      {"word": "latest", "pos": "adjective", "meaning_en": "newest", "meaning_ar": "أحدث", "note_ar": "", "note_en": "", "example": "Let me show you our latest product."},
+      {"word": "design", "pos": "noun", "meaning_en": "the way something is planned and made to look", "meaning_ar": "التصميم", "note_ar": "", "note_en": "", "example": "Customers love the design of this chair."},
+      {"word": "flexibility", "pos": "noun", "meaning_en": "being able to change or be used in different ways", "meaning_ar": "المرونة", "note_ar": "", "note_en": "", "example": "The key strengths are its design and flexibility."},
+      {"word": "build on", "pos": "phrasal verb", "meaning_en": "to use a success as a base for more success", "meaning_ar": "يبني على (نجاح سابق)", "note_ar": "", "note_en": "", "example": "We hope to build on our good relationship."},
+      {"word": "put in an order", "pos": "phrase", "meaning_en": "to officially ask to buy goods", "meaning_ar": "يقدّم طلبية", "note_ar": "", "note_en": "", "example": "The client put in an order for 500 boxes."},
+      {"word": "impressed", "pos": "adjective", "meaning_en": "thinking that something is very good", "meaning_ar": "معجب / متأثر إيجابيًا", "note_ar": "", "note_en": "", "example": "I hope you're impressed with our new product."}
+    ],
+    "fine_lines": [
+      {"title": "impressed vs impressive", "words": ["impressed", "impressive"], "explanation_ar": "impressed تصف شعور الشخص (أنا معجب)، أما impressive فتصف الشيء الذي يسبب الإعجاب (منتج مبهر).", "explanation_en": "\"Impressed\" describes how a person feels. \"Impressive\" describes the thing that causes the feeling.", "examples": [{"word": "impressed", "sentence": "The client was impressed with our results."}, {"word": "impressive", "sentence": "Your results are very impressive."}]},
+      {"title": "client vs customer", "words": ["client", "customer"], "explanation_ar": "client غالبًا لمن يشتري خدمات أو يتعامل مع الشركة باستمرار، و customer لمن يشتري من متجر.", "explanation_en": "A \"client\" usually buys services or works with a company over time. A \"customer\" buys things from a shop.", "examples": [{"word": "client", "sentence": "We have a meeting with an important client."}, {"word": "customer", "sentence": "The shop had many customers today."}]}
+    ],
+    "expressions": [
+      {"phrase": "The company has a strong track record of...", "meaning_ar": "للشركة سجل قوي في...", "meaning_en": "used to show past success", "example": "The company has a strong track record of happy clients."},
+      {"phrase": "We're particularly proud of...", "meaning_ar": "نحن فخورون بشكل خاص بـ...", "meaning_en": "used to point to something you did very well", "example": "We're particularly proud of our fast delivery."},
+      {"phrase": "The product's key strengths are...", "meaning_ar": "نقاط القوة الرئيسية للمنتج هي...", "meaning_en": "used to list the best features", "example": "The product's key strengths are its size and price."},
+      {"phrase": "Let me share with you...", "meaning_ar": "اسمحوا لي أن أعرض عليكم...", "meaning_en": "a friendly way to introduce information", "example": "Let me share with you our newest idea."},
+      {"phrase": "Sorry about that.", "meaning_ar": "أعتذر عن ذلك.", "meaning_en": "a short apology for a small problem", "example": "Sorry about that, the computer isn't working."},
+      {"phrase": "Thank you for your time.", "meaning_ar": "شكرًا على وقتكم.", "meaning_en": "a polite way to end a talk or meeting", "example": "Thank you for your time. Do you have any questions?"},
+      {"phrase": "I'd like to put in an order for...", "meaning_ar": "أودّ أن أطلب طلبية من...", "meaning_en": "a polite way to order goods", "example": "I'd like to put in an order for two hundred boxes."}
+    ],
+    "grammar": [
+      {"title": "Supporting a point with a fact (because / thanks to)", "explanation_ar": "في العرض البيعي اذكر النقطة ثم ادعمها بحقيقة. استخدم because + جملة كاملة، و thanks to + اسم لتوضيح السبب.", "explanation_en": "In a pitch, give a point and then a fact to support it. Use \"because + full sentence\" and \"thanks to + noun\" to give the reason.", "examples": ["We are growing fast – our clients doubled last year.", "Clients trust us because we always deliver on time.", "Thanks to new technology, our products are better than ever."]}
+    ]
+  },
+  "questions": [
+    {"question": "What does \"to pitch something\" mean?", "choices": ["to throw it away", "to do a sales presentation about it", "to fix it", "to order it"], "answer": 1, "explanation_ar": "to pitch تعني تقديم عرض بيعي.", "explanation_en": "To pitch means to give a sales presentation."},
+    {"question": "Complete: The company has a strong track ___ of reliability.", "choices": ["line", "list", "path", "record"], "answer": 3, "explanation_ar": "التعبير هو track record أي سجل الإنجازات.", "explanation_en": "The phrase is \"track record\"."},
+    {"question": "\"Our key strengths are...\" talks about...", "choices": ["the best features", "the problems", "the prices only", "the staff holidays"], "answer": 0, "explanation_ar": "key strengths = أهم نقاط القوة.", "explanation_en": "Key strengths are the most important good points."},
+    {"question": "Choose the correct sentence.", "choices": ["The client was impressive with our product.", "The client was impressing with our product.", "The client was impressed with our product.", "The client impressed with our product."], "answer": 2, "explanation_ar": "impressed تصف شعور الشخص.", "explanation_en": "\"Impressed\" describes how a person feels."},
+    {"question": "What happens when a computer \"crashes\"?", "choices": ["It gets faster", "It suddenly stops working", "It prints a page", "It turns on"], "answer": 1, "explanation_ar": "crash تعني توقّف الحاسوب فجأة.", "explanation_en": "\"Crash\" means it suddenly stops working."},
+    {"question": "Complete: ___ to new technology, our products look better.", "choices": ["Because", "So", "Thanks", "But"], "answer": 2, "explanation_ar": "thanks to + اسم تعني بفضل.", "explanation_en": "\"Thanks to + noun\" gives a reason."},
+    {"question": "Which is the best advice for a pitch?", "choices": ["Speak very fast like a robot", "Never look at people", "Read all your notes without stopping", "Look people in the eye and smile"], "answer": 3, "explanation_ar": "النصيحة: التواصل البصري والابتسام والتحدث بشكل طبيعي.", "explanation_en": "Good advice: make eye contact, slow down and smile."},
+    {"question": "Complete: We're particularly proud ___ our fast delivery.", "choices": ["of", "with", "on", "for"], "answer": 0, "explanation_ar": "نقول proud of.", "explanation_en": "We say \"proud of\"."},
+    {"question": "\"Our number of clients doubled\" means...", "choices": ["it became half", "it stayed the same", "it became two times bigger", "it went down"], "answer": 2, "explanation_ar": "double = يتضاعف.", "explanation_en": "\"Double\" means become two times bigger."},
+    {"question": "Which phrase politely ends a pitch?", "choices": ["Let me share with you...", "Thank you for your time.", "My mind is blank.", "Just talk!"], "answer": 1, "explanation_ar": "Thank you for your time عبارة مهذبة للختام.", "explanation_en": "\"Thank you for your time\" is a polite ending."}
+  ]
+}

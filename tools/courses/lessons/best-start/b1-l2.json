@@ -1,0 +1,698 @@
+{
+  "title": "A and An, Singular and Plural",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "vowel",
+        "pos": "noun",
+        "meaning_en": "one of the letters a, e, i, o, u",
+        "meaning_ar": "حرف متحرك (علّة)",
+        "note_ar": "الحروف المتحركة خمسة: a e i o u",
+        "note_en": "There are five vowels: a, e, i, o, u.",
+        "example": "\"A\" is a vowel."
+      },
+      {
+        "word": "consonant",
+        "pos": "noun",
+        "meaning_en": "any letter that is not a vowel, like b, c, d",
+        "meaning_ar": "حرف ساكن",
+        "note_ar": "عددها 21 حرفًا",
+        "note_en": "There are 21 consonants.",
+        "example": "\"B\" is a consonant."
+      },
+      {
+        "word": "singular",
+        "pos": "noun",
+        "meaning_en": "the form of a word for one thing",
+        "meaning_ar": "مفرد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Book\" is singular."
+      },
+      {
+        "word": "plural",
+        "pos": "noun",
+        "meaning_en": "the form of a word for more than one thing",
+        "meaning_ar": "جمع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Books\" is plural."
+      },
+      {
+        "word": "orange",
+        "pos": "noun",
+        "meaning_en": "a round orange fruit",
+        "meaning_ar": "برتقالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I eat an orange every morning."
+      },
+      {
+        "word": "egg",
+        "pos": "noun",
+        "meaning_en": "the round thing a hen lays, which we eat",
+        "meaning_ar": "بيضة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has an egg for breakfast."
+      },
+      {
+        "word": "apple",
+        "pos": "noun",
+        "meaning_en": "a round red or green fruit",
+        "meaning_ar": "تفاحة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Give me an apple, please."
+      },
+      {
+        "word": "igloo",
+        "pos": "noun",
+        "meaning_en": "a small house made of ice and snow",
+        "meaning_ar": "كوخ الإسكيمو الثلجي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "An igloo is very cold outside."
+      },
+      {
+        "word": "umbrella",
+        "pos": "noun",
+        "meaning_en": "a thing you hold over your head in the rain",
+        "meaning_ar": "مظلة / شمسية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Take an umbrella. It's raining."
+      },
+      {
+        "word": "flag",
+        "pos": "noun",
+        "meaning_en": "a piece of cloth with colors that shows a country",
+        "meaning_ar": "علم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our school has a big flag."
+      },
+      {
+        "word": "bear",
+        "pos": "noun",
+        "meaning_en": "a big, strong animal with thick fur",
+        "meaning_ar": "دب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A bear lives in the forest."
+      },
+      {
+        "word": "carrot",
+        "pos": "noun",
+        "meaning_en": "a long orange vegetable",
+        "meaning_ar": "جزرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The rabbit eats a carrot."
+      },
+      {
+        "word": "olive",
+        "pos": "noun",
+        "meaning_en": "a small green or black fruit used for oil",
+        "meaning_ar": "زيتونة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have an olive on my plate."
+      },
+      {
+        "word": "eggplant",
+        "pos": "noun",
+        "meaning_en": "a large purple vegetable",
+        "meaning_ar": "باذنجانة",
+        "note_ar": "في بريطانيا: aubergine",
+        "note_en": "British English: aubergine.",
+        "example": "Mom is cooking an eggplant."
+      },
+      {
+        "word": "elephant",
+        "pos": "noun",
+        "meaning_en": "a very big grey animal with a long nose",
+        "meaning_ar": "فيل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I saw an elephant at the zoo."
+      },
+      {
+        "word": "ant",
+        "pos": "noun",
+        "meaning_en": "a very small insect",
+        "meaning_ar": "نملة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is an ant on the table."
+      },
+      {
+        "word": "elbow",
+        "pos": "noun",
+        "meaning_en": "the middle part of your arm where it bends",
+        "meaning_ar": "كوع / مرفق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I hurt my elbow."
+      },
+      {
+        "word": "island",
+        "pos": "noun",
+        "meaning_en": "land with water all around it",
+        "meaning_ar": "جزيرة",
+        "note_ar": "حرف s صامت: تُنطق /ˈaɪlənd/",
+        "note_en": "The s is silent: say /ˈaɪlənd/.",
+        "example": "They live on an island."
+      },
+      {
+        "word": "dish",
+        "pos": "noun",
+        "meaning_en": "a plate or bowl for food",
+        "meaning_ar": "طبق",
+        "note_ar": "الجمع: dishes",
+        "note_en": "Plural: dishes.",
+        "example": "Wash the dishes, please."
+      },
+      {
+        "word": "tomato",
+        "pos": "noun",
+        "meaning_en": "a soft red fruit used in salads",
+        "meaning_ar": "طماطم (حبة)",
+        "note_ar": "الجمع: tomatoes",
+        "note_en": "Plural: tomatoes.",
+        "example": "I need two tomatoes for the salad."
+      },
+      {
+        "word": "glass",
+        "pos": "noun",
+        "meaning_en": "a cup made of glass for drinking",
+        "meaning_ar": "كوب",
+        "note_ar": "الجمع: glasses",
+        "note_en": "Plural: glasses.",
+        "example": "Put the glasses on the table."
+      },
+      {
+        "word": "toy",
+        "pos": "noun",
+        "meaning_en": "a thing children play with",
+        "meaning_ar": "لعبة",
+        "note_ar": "الجمع: toys",
+        "note_en": "Plural: toys.",
+        "example": "The baby has many toys."
+      },
+      {
+        "word": "ferry",
+        "pos": "noun",
+        "meaning_en": "a boat that carries people across water",
+        "meaning_ar": "عَبّارة / مِعدية",
+        "note_ar": "الجمع: ferries",
+        "note_en": "Plural: ferries.",
+        "example": "We take the ferry to the island."
+      },
+      {
+        "word": "baby",
+        "pos": "noun",
+        "meaning_en": "a very young child",
+        "meaning_ar": "طفل رضيع",
+        "note_ar": "الجمع: babies",
+        "note_en": "Plural: babies.",
+        "example": "The babies are sleeping."
+      },
+      {
+        "word": "city",
+        "pos": "noun",
+        "meaning_en": "a big town",
+        "meaning_ar": "مدينة",
+        "note_ar": "الجمع: cities",
+        "note_en": "Plural: cities.",
+        "example": "Cairo and Alexandria are big cities."
+      },
+      {
+        "word": "donkey",
+        "pos": "noun",
+        "meaning_en": "an animal like a small horse with long ears",
+        "meaning_ar": "حمار",
+        "note_ar": "الجمع: donkeys",
+        "note_en": "Plural: donkeys.",
+        "example": "The farmer has two donkeys."
+      },
+      {
+        "word": "leaf",
+        "pos": "noun",
+        "meaning_en": "a flat green part of a tree",
+        "meaning_ar": "ورقة شجر",
+        "note_ar": "الجمع: leaves",
+        "note_en": "Plural: leaves.",
+        "example": "The leaves are green."
+      },
+      {
+        "word": "half",
+        "pos": "noun",
+        "meaning_en": "one of two equal parts",
+        "meaning_ar": "نصف",
+        "note_ar": "حرف l صامت. الجمع: halves",
+        "note_en": "The l is silent. Plural: halves.",
+        "example": "Cut the apple into two halves."
+      },
+      {
+        "word": "wife",
+        "pos": "noun",
+        "meaning_en": "the woman a man is married to",
+        "meaning_ar": "زوجة",
+        "note_ar": "الجمع: wives",
+        "note_en": "Plural: wives.",
+        "example": "His wife is a doctor."
+      },
+      {
+        "word": "wolf",
+        "pos": "noun",
+        "meaning_en": "a wild animal like a big dog",
+        "meaning_ar": "ذئب",
+        "note_ar": "الجمع: wolves",
+        "note_en": "Plural: wolves.",
+        "example": "Wolves live in groups."
+      },
+      {
+        "word": "knife",
+        "pos": "noun",
+        "meaning_en": "a tool with a sharp edge for cutting",
+        "meaning_ar": "سكين",
+        "note_ar": "حرف k صامت. الجمع: knives",
+        "note_en": "The k is silent. Plural: knives.",
+        "example": "Be careful with the knives."
+      },
+      {
+        "word": "tooth / teeth",
+        "pos": "noun",
+        "meaning_en": "one of the hard white things in your mouth",
+        "meaning_ar": "سِنّ / أسنان",
+        "note_ar": "جمع غير منتظم",
+        "note_en": "Irregular plural.",
+        "example": "Brush your teeth every night."
+      },
+      {
+        "word": "foot / feet",
+        "pos": "noun",
+        "meaning_en": "the part of your body at the end of your leg",
+        "meaning_ar": "قدم / أقدام",
+        "note_ar": "جمع غير منتظم",
+        "note_en": "Irregular plural.",
+        "example": "My feet are cold."
+      },
+      {
+        "word": "child / children",
+        "pos": "noun",
+        "meaning_en": "a young boy or girl",
+        "meaning_ar": "طفل / أطفال",
+        "note_ar": "جمع غير منتظم",
+        "note_en": "Irregular plural.",
+        "example": "The children are in the garden."
+      },
+      {
+        "word": "man / men",
+        "pos": "noun",
+        "meaning_en": "an adult male person",
+        "meaning_ar": "رجل / رجال",
+        "note_ar": "جمع غير منتظم",
+        "note_en": "Irregular plural.",
+        "example": "Two men are at the door."
+      },
+      {
+        "word": "woman / women",
+        "pos": "noun",
+        "meaning_en": "an adult female person",
+        "meaning_ar": "امرأة / نساء",
+        "note_ar": "women تُنطق /ˈwɪmɪn/",
+        "note_en": "Women is pronounced /ˈwɪmɪn/.",
+        "example": "The women are teachers."
+      },
+      {
+        "word": "goose / geese",
+        "pos": "noun",
+        "meaning_en": "a big white bird like a duck",
+        "meaning_ar": "إوزة / إوز",
+        "note_ar": "جمع غير منتظم",
+        "note_en": "Irregular plural.",
+        "example": "The geese are on the river."
+      },
+      {
+        "word": "ox / oxen",
+        "pos": "noun",
+        "meaning_en": "a big male cow used for farm work",
+        "meaning_ar": "ثور / ثيران",
+        "note_ar": "جمع غير منتظم",
+        "note_en": "Irregular plural.",
+        "example": "The oxen work on the farm."
+      },
+      {
+        "word": "mouse / mice",
+        "pos": "noun",
+        "meaning_en": "a small animal with a long tail",
+        "meaning_ar": "فأر / فئران",
+        "note_ar": "جمع غير منتظم",
+        "note_en": "Irregular plural.",
+        "example": "The cat sees two mice."
+      },
+      {
+        "word": "sheep",
+        "pos": "noun",
+        "meaning_en": "a farm animal with thick wool",
+        "meaning_ar": "خروف / خراف",
+        "note_ar": "المفرد والجمع نفس الكلمة",
+        "note_en": "Singular and plural are the same.",
+        "example": "a sheep, ten sheep"
+      },
+      {
+        "word": "deer",
+        "pos": "noun",
+        "meaning_en": "a wild animal; the male has horns like branches",
+        "meaning_ar": "غزال / غزلان",
+        "note_ar": "المفرد والجمع نفس الكلمة",
+        "note_en": "Singular and plural are the same.",
+        "example": "a deer, three deer"
+      },
+      {
+        "word": "fish",
+        "pos": "noun",
+        "meaning_en": "an animal that lives and swims in water",
+        "meaning_ar": "سمكة / سمك",
+        "note_ar": "المفرد والجمع نفس الكلمة",
+        "note_en": "Singular and plural are usually the same.",
+        "example": "a fish, many fish"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "a vs an",
+        "words": [
+          "a",
+          "an"
+        ],
+        "explanation_ar": "a و an معناهما «واحد» (أي واحد، غير محدد) ويأتيان قبل الاسم المفرد فقط. نستخدم an إذا بدأ الاسم بحرف متحرك (a e i o u)، و a إذا بدأ بحرف ساكن.",
+        "explanation_en": "A and an both mean \"one\" (any one, not a special one) and go before a singular noun. Use an before a vowel (a, e, i, o, u) and a before a consonant.",
+        "examples": [
+          {
+            "word": "a",
+            "sentence": "I have a carrot."
+          },
+          {
+            "word": "a",
+            "sentence": "That is a tiger."
+          },
+          {
+            "word": "an",
+            "sentence": "She has an umbrella."
+          },
+          {
+            "word": "an",
+            "sentence": "This is an elephant."
+          }
+        ]
+      },
+      {
+        "title": "a/an vs the",
+        "words": [
+          "a",
+          "the"
+        ],
+        "explanation_ar": "a/an لأي شيء غير محدد (نكرة): «أعطني تفاحة» أي تفاحة. the لشيء محدد ومعروف: «التفاحة» تفاحة معينة.",
+        "explanation_en": "A/an means any one, not a special one. The means one special thing that we both know.",
+        "examples": [
+          {
+            "word": "a",
+            "sentence": "Give me an apple. (any apple)"
+          },
+          {
+            "word": "the",
+            "sentence": "Give me the apple on the table. (that apple)"
+          }
+        ]
+      },
+      {
+        "title": "-ys vs -ies",
+        "words": [
+          "boys",
+          "babies"
+        ],
+        "explanation_ar": "إذا انتهى الاسم بـ y وقبلها حرف متحرك نضيف s فقط (boy → boys). وإذا قبلها حرف ساكن نحذف y ونضع ies (baby → babies).",
+        "explanation_en": "If a noun ends in a vowel + y, just add s (boy → boys). If it ends in a consonant + y, change y to i and add es (baby → babies).",
+        "examples": [
+          {
+            "word": "boys",
+            "sentence": "The boys play football."
+          },
+          {
+            "word": "babies",
+            "sentence": "The babies are asleep."
+          }
+        ]
+      },
+      {
+        "title": "-s vs -es",
+        "words": [
+          "books",
+          "dishes"
+        ],
+        "explanation_ar": "أغلب الأسماء نجمعها بإضافة s. أما إذا انتهى الاسم بـ s أو ss أو sh أو ch أو x أو o فنضيف es.",
+        "explanation_en": "Most nouns add s. Nouns ending in s, ss, sh, ch, x or o add es.",
+        "examples": [
+          {
+            "word": "books",
+            "sentence": "I have three books."
+          },
+          {
+            "word": "dishes",
+            "sentence": "The dishes are clean."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Give me an apple, please.",
+        "meaning_ar": "أعطني تفاحة من فضلك.",
+        "meaning_en": "Please hand me one apple (any apple).",
+        "example": "Give me an apple, please. I'm hungry."
+      },
+      {
+        "phrase": "This is an elephant.",
+        "meaning_ar": "هذا فيل.",
+        "meaning_en": "Pointing at one elephant.",
+        "example": "Look! This is an elephant."
+      },
+      {
+        "phrase": "It's a bike.",
+        "meaning_ar": "إنها دراجة.",
+        "meaning_en": "Saying what one thing is.",
+        "example": "What is it? It's a bike."
+      },
+      {
+        "phrase": "two cats / three cats / many cats",
+        "meaning_ar": "قطتان / ثلاث قطط / قطط كثيرة",
+        "meaning_en": "Counting more than one cat.",
+        "example": "I have two cats."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Vowels and consonants",
+        "explanation_ar": "الحروف الإنجليزية 26 حرفًا: خمسة منها حروف متحركة (vowels) وهي a e i o u، والباقي 21 حرفًا ساكنًا (consonants). نحتاج هذا التقسيم لنعرف متى نستخدم a ومتى نستخدم an.",
+        "explanation_en": "English has 26 letters. Five are vowels: a, e, i, o, u. The other 21 are consonants. We need this to choose a or an.",
+        "examples": [
+          "vowels: a, e, i, o, u",
+          "consonants: b, c, d, f, g ..."
+        ]
+      },
+      {
+        "title": "Indefinite articles: a / an",
+        "explanation_ar": "a و an أداتا نكرة بمعنى «واحد» ويأتيان قبل الاسم المفرد. الاسم الذي يبدأ بحرف متحرك يأخذ an، والذي يبدأ بحرف ساكن يأخذ a. لا نستخدمهما مع الجمع.",
+        "explanation_en": "A and an mean \"one\" and come before a singular noun. Use an before a noun that starts with a vowel, and a before a consonant. Never use them with plurals.",
+        "examples": [
+          "a book, a boy, a flag",
+          "an orange, an egg, an island",
+          "an ant (not: a ant)"
+        ]
+      },
+      {
+        "title": "Regular plurals: add -s",
+        "explanation_ar": "لجمع الاسم: نحذف a أو an ثم نضيف s في آخره. an orange → oranges، a cat → cats.",
+        "explanation_en": "To make a plural: remove a or an, then add s. an orange → oranges, a cat → cats.",
+        "examples": [
+          "a ball → balls",
+          "an egg → eggs",
+          "an eye → eyes",
+          "a board → boards"
+        ]
+      },
+      {
+        "title": "Plurals with -es",
+        "explanation_ar": "إذا انتهى الاسم بـ s أو ss أو sh أو ch أو x أو o نضيف es. وهناك كلمات قليلة تنتهي بـ o تأخذ s فقط مثل hippos و pianos و zoos.",
+        "explanation_en": "If a noun ends in s, ss, sh, ch, x or o, add es. A few words ending in o just add s: hippos, pianos, zoos.",
+        "examples": [
+          "a dish → dishes",
+          "a glass → glasses",
+          "a box → boxes",
+          "a tomato → tomatoes",
+          "a piano → pianos"
+        ]
+      },
+      {
+        "title": "Nouns ending in -y",
+        "explanation_ar": "إذا قبل y حرف متحرك: نضيف s (toy → toys). إذا قبل y حرف ساكن: نحذف y ونضيف ies (city → cities).",
+        "explanation_en": "Vowel + y: add s (toy → toys). Consonant + y: change y to i and add es (city → cities).",
+        "examples": [
+          "a donkey → donkeys",
+          "a baby → babies",
+          "a ferry → ferries",
+          "a puppy → puppies"
+        ]
+      },
+      {
+        "title": "Nouns ending in -f / -fe",
+        "explanation_ar": "إذا انتهى الاسم بـ f أو fe نحولها إلى ves.",
+        "explanation_en": "If a noun ends in f or fe, change it to ves.",
+        "examples": [
+          "a leaf → leaves",
+          "a half → halves",
+          "a wife → wives",
+          "a knife → knives",
+          "a wolf → wolves"
+        ]
+      },
+      {
+        "title": "Irregular plurals",
+        "explanation_ar": "بعض الأسماء لها جمع خاص لا يتبع القاعدة ويُحفظ كما هو. وبعضها مفرده مثل جمعه (sheep, deer, fish)، فنعرف المفرد من وجود a قبله.",
+        "explanation_en": "Some nouns have a special plural; learn them by heart. Some are the same in singular and plural (sheep, deer, fish); a shows it is singular.",
+        "examples": [
+          "a man → men, a woman → women",
+          "a child → children, a tooth → teeth",
+          "a foot → feet, a goose → geese",
+          "an ox → oxen, a mouse → mice",
+          "a sheep → sheep, a fish → fish"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Choose the correct article: ___ umbrella",
+      "choices": [
+        "a",
+        "an",
+        "many",
+        "these"
+      ],
+      "answer": 1,
+      "explanation_ar": "umbrella تبدأ بحرف متحرك u، فنستخدم an.",
+      "explanation_en": "Umbrella starts with the vowel u, so we use an."
+    },
+    {
+      "question": "Choose the correct article: ___ tiger",
+      "choices": [
+        "a",
+        "an",
+        "many",
+        "two"
+      ],
+      "answer": 0,
+      "explanation_ar": "tiger تبدأ بحرف ساكن t، فنستخدم a.",
+      "explanation_en": "Tiger starts with a consonant, so we use a."
+    },
+    {
+      "question": "What is the plural of \"dish\"?",
+      "choices": [
+        "dishs",
+        "dishies",
+        "dishes",
+        "dish"
+      ],
+      "answer": 2,
+      "explanation_ar": "الاسم المنتهي بـ sh يُجمع بإضافة es.",
+      "explanation_en": "Nouns ending in sh add es."
+    },
+    {
+      "question": "What is the plural of \"baby\"?",
+      "choices": [
+        "babys",
+        "babyes",
+        "baby",
+        "babies"
+      ],
+      "answer": 3,
+      "explanation_ar": "قبل y حرف ساكن (b)، فنحذف y ونضيف ies.",
+      "explanation_en": "Consonant + y: change y to i and add es."
+    },
+    {
+      "question": "What is the plural of \"toy\"?",
+      "choices": [
+        "toys",
+        "toies",
+        "toyes",
+        "tois"
+      ],
+      "answer": 0,
+      "explanation_ar": "قبل y حرف متحرك (o)، فنضيف s فقط.",
+      "explanation_en": "Vowel + y: just add s."
+    },
+    {
+      "question": "What is the plural of \"knife\"?",
+      "choices": [
+        "knifes",
+        "knives",
+        "knifies",
+        "knife"
+      ],
+      "answer": 1,
+      "explanation_ar": "fe تتحول إلى ves.",
+      "explanation_en": "Fe changes to ves."
+    },
+    {
+      "question": "What is the plural of \"child\"?",
+      "choices": [
+        "childs",
+        "childes",
+        "children",
+        "childrens"
+      ],
+      "answer": 2,
+      "explanation_ar": "child جمعها غير منتظم: children.",
+      "explanation_en": "Child has an irregular plural: children."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "I have an apples.",
+        "I have a apple.",
+        "I have an apple.",
+        "I have a apples."
+      ],
+      "answer": 2,
+      "explanation_ar": "an مع الاسم المفرد الذي يبدأ بحرف متحرك، ولا نستخدم a/an مع الجمع.",
+      "explanation_en": "Use an before a singular noun starting with a vowel. Never use a/an with plurals."
+    },
+    {
+      "question": "\"Five ___ are in the field.\" (sheep)",
+      "choices": [
+        "sheeps",
+        "sheepes",
+        "sheepies",
+        "sheep"
+      ],
+      "answer": 3,
+      "explanation_ar": "sheep مفردها مثل جمعها.",
+      "explanation_en": "Sheep is the same in singular and plural."
+    },
+    {
+      "question": "What is the plural of \"tooth\"?",
+      "choices": [
+        "teeth",
+        "tooths",
+        "toothes",
+        "teeths"
+      ],
+      "answer": 0,
+      "explanation_ar": "tooth → teeth: الـ oo تتحول إلى ee.",
+      "explanation_en": "Tooth → teeth: oo becomes ee."
+    }
+  ]
+}

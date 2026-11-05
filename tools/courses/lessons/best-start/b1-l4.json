@@ -1,0 +1,529 @@
+{
+  "title": "Verb to be (am, is, are) and Family",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "be",
+        "pos": "verb",
+        "meaning_en": "the verb that links a subject to a name, job, age or adjective",
+        "meaning_ar": "يكون",
+        "note_ar": "أشكاله في المضارع: am / is / are",
+        "note_en": "Present forms: am, is, are.",
+        "example": "I want to be a doctor."
+      },
+      {
+        "word": "am",
+        "pos": "verb",
+        "meaning_en": "the form of be used only with I",
+        "meaning_ar": "أكون (مع I فقط)",
+        "note_ar": "الاختصار: I'm",
+        "note_en": "Short form: I'm.",
+        "example": "I am Mostafa."
+      },
+      {
+        "word": "is",
+        "pos": "verb",
+        "meaning_en": "the form of be used with he, she, it and one person or thing",
+        "meaning_ar": "يكون / تكون (مع المفرد)",
+        "note_ar": "الاختصار: he's, she's, it's",
+        "note_en": "Short forms: he's, she's, it's.",
+        "example": "She is happy."
+      },
+      {
+        "word": "are",
+        "pos": "verb",
+        "meaning_en": "the form of be used with you, we, they and plural nouns",
+        "meaning_ar": "يكونون / تكون (مع الجمع و you)",
+        "note_ar": "الاختصار: you're, we're, they're",
+        "note_en": "Short forms: you're, we're, they're.",
+        "example": "We are students."
+      },
+      {
+        "word": "happy",
+        "pos": "adjective",
+        "meaning_en": "feeling good",
+        "meaning_ar": "سعيد / فرحان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You are happy today."
+      },
+      {
+        "word": "ill",
+        "pos": "adjective",
+        "meaning_en": "not well; sick",
+        "meaning_ar": "مريض",
+        "note_ar": "في أمريكا: sick أشيع",
+        "note_en": "In American English, sick is more common.",
+        "example": "Salma is ill today."
+      },
+      {
+        "word": "nice",
+        "pos": "adjective",
+        "meaning_en": "pleasant and kind",
+        "meaning_ar": "لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Lucy is a nice girl."
+      },
+      {
+        "word": "kind",
+        "pos": "adjective",
+        "meaning_en": "good and helpful to others",
+        "meaning_ar": "طيب / لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My mother is kind."
+      },
+      {
+        "word": "wise",
+        "pos": "adjective",
+        "meaning_en": "able to make good decisions",
+        "meaning_ar": "حكيم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My brother is wise."
+      },
+      {
+        "word": "old",
+        "pos": "adjective",
+        "meaning_en": "having lived for many years; also used for age",
+        "meaning_ar": "كبير في السن / عُمره",
+        "note_ar": "للعمر: ten years old = عمره عشر سنوات",
+        "note_en": "For age: ten years old.",
+        "example": "She is ten years old."
+      },
+      {
+        "word": "student",
+        "pos": "noun",
+        "meaning_en": "a person who studies at a school or university",
+        "meaning_ar": "طالب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are good students."
+      },
+      {
+        "word": "baker",
+        "pos": "noun",
+        "meaning_en": "a person who makes bread and cakes",
+        "meaning_ar": "خبّاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Seif is a baker."
+      },
+      {
+        "word": "doctor",
+        "pos": "noun",
+        "meaning_en": "a person who helps sick people get better",
+        "meaning_ar": "طبيب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My uncle is a doctor."
+      },
+      {
+        "word": "goat",
+        "pos": "noun",
+        "meaning_en": "a farm animal with horns that gives milk",
+        "meaning_ar": "ماعز / معزة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It is a goat."
+      },
+      {
+        "word": "duck",
+        "pos": "noun",
+        "meaning_en": "a water bird with a flat beak",
+        "meaning_ar": "بطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The duck is yellow."
+      },
+      {
+        "word": "kitchen",
+        "pos": "noun",
+        "meaning_en": "the room where you cook",
+        "meaning_ar": "مطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She's in the kitchen."
+      },
+      {
+        "word": "garden",
+        "pos": "noun",
+        "meaning_en": "an area with grass, plants and flowers near a house",
+        "meaning_ar": "حديقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm in the garden."
+      },
+      {
+        "word": "eyes",
+        "pos": "noun",
+        "meaning_en": "the parts of your face you see with",
+        "meaning_ar": "عيون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My eyes are brown."
+      },
+      {
+        "word": "my",
+        "pos": "determiner",
+        "meaning_en": "belonging to me",
+        "meaning_ar": "ـي (الخاص بي)",
+        "note_ar": "my family = عائلتي",
+        "note_en": "my family = the family that belongs to me",
+        "example": "My sister is nice."
+      },
+      {
+        "word": "family",
+        "pos": "noun",
+        "meaning_en": "parents and their children",
+        "meaning_ar": "عائلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My family is big."
+      },
+      {
+        "word": "father",
+        "pos": "noun",
+        "meaning_en": "a man who has a child",
+        "meaning_ar": "أب",
+        "note_ar": "th تُنطق بإخراج اللسان (ذ)",
+        "note_en": "Say th with your tongue between your teeth.",
+        "example": "He is my father."
+      },
+      {
+        "word": "mother",
+        "pos": "noun",
+        "meaning_en": "a woman who has a child",
+        "meaning_ar": "أم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My mother is kind."
+      },
+      {
+        "word": "grandma",
+        "pos": "noun",
+        "meaning_en": "an informal word for grandmother",
+        "meaning_ar": "جدة (تيتا)",
+        "note_ar": "grandmother وفي الكلام السريع تُسمع gran-ma",
+        "note_en": "Short for grandmother; the d is often not heard.",
+        "example": "She's my grandma."
+      },
+      {
+        "word": "grandpa",
+        "pos": "noun",
+        "meaning_en": "an informal word for grandfather",
+        "meaning_ar": "جد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's my grandpa."
+      },
+      {
+        "word": "sister",
+        "pos": "noun",
+        "meaning_en": "a girl with the same parents as you",
+        "meaning_ar": "أخت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Mona is my sister."
+      },
+      {
+        "word": "brother",
+        "pos": "noun",
+        "meaning_en": "a boy with the same parents as you",
+        "meaning_ar": "أخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ali is my brother."
+      },
+      {
+        "word": "aunt",
+        "pos": "noun",
+        "meaning_en": "the sister of your father or mother",
+        "meaning_ar": "عمة / خالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My aunt is a teacher."
+      },
+      {
+        "word": "uncle",
+        "pos": "noun",
+        "meaning_en": "the brother of your father or mother",
+        "meaning_ar": "عم / خال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's my uncle."
+      },
+      {
+        "word": "cousin",
+        "pos": "noun",
+        "meaning_en": "the son or daughter of your aunt or uncle",
+        "meaning_ar": "ابن/بنت العم أو الخال أو العمة أو الخالة",
+        "note_ar": "نفس الكلمة للولد والبنت",
+        "note_en": "The same word for a boy or a girl.",
+        "example": "My cousin is seven years old."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "am vs is vs are",
+        "words": [
+          "am",
+          "is",
+          "are"
+        ],
+        "explanation_ar": "الثلاثة بمعنى «يكون». am مع I فقط. is مع he و she و it وأي اسم مفرد. are مع you و we و they وأي اسم جمع.",
+        "explanation_en": "All three mean \"be\". Am goes with I only. Is goes with he, she, it and any singular noun. Are goes with you, we, they and any plural noun.",
+        "examples": [
+          {
+            "word": "am",
+            "sentence": "I am a student."
+          },
+          {
+            "word": "is",
+            "sentence": "The bird is in the tree."
+          },
+          {
+            "word": "are",
+            "sentence": "The boys are in the garden."
+          }
+        ]
+      },
+      {
+        "title": "Mona is vs Mona and I are",
+        "words": [
+          "is",
+          "are"
+        ],
+        "explanation_ar": "اسم واحد يأخذ is، لكن اسمان مع and (مثل Mona and I) يصبحان جمعًا ويأخذان are.",
+        "explanation_en": "One name takes is, but two names joined with and (Mona and I) are plural and take are.",
+        "examples": [
+          {
+            "word": "is",
+            "sentence": "Mona is my friend."
+          },
+          {
+            "word": "are",
+            "sentence": "Mona and I are friends."
+          }
+        ]
+      },
+      {
+        "title": "your vs you're",
+        "words": [
+          "your",
+          "you're"
+        ],
+        "explanation_ar": "you're اختصار you are (أنت تكون). your تعني «الخاص بك». ينطقان تقريبًا بنفس الطريقة.",
+        "explanation_en": "You're is short for you are. Your means \"belonging to you\". They sound almost the same.",
+        "examples": [
+          {
+            "word": "you're",
+            "sentence": "You're happy."
+          },
+          {
+            "word": "your",
+            "sentence": "Open your book."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I'm ...",
+        "meaning_ar": "أنا ...",
+        "meaning_en": "Saying your name: I am ...",
+        "example": "Hello, I'm Mostafa."
+      },
+      {
+        "phrase": "He's my brother.",
+        "meaning_ar": "هو أخي.",
+        "meaning_en": "Introducing a family member.",
+        "example": "This is Ali. He's my brother."
+      },
+      {
+        "phrase": "She's ten years old.",
+        "meaning_ar": "عمرها عشر سنوات.",
+        "meaning_en": "Saying someone's age.",
+        "example": "My sister? She's ten years old."
+      },
+      {
+        "phrase": "My eyes are brown.",
+        "meaning_ar": "عيوني بنية.",
+        "meaning_en": "Describing your eyes.",
+        "example": "My eyes are brown, and my hair is black."
+      },
+      {
+        "phrase": "We're students.",
+        "meaning_ar": "نحن طلاب.",
+        "meaning_en": "Saying what you and others are.",
+        "example": "We're students at the same school."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Every sentence needs a verb",
+        "explanation_ar": "في الإنجليزية لا بد أن تحتوي كل جملة على فعل. في العربية نقول «أنا مصطفى» بدون فعل، لكن في الإنجليزية I Mostafa خطأ. إذا لم يكن في الجملة فعل مثل play أو go نستخدم فعل الكينونة be بمعنى «يكون».",
+        "explanation_en": "Every English sentence needs a verb. In Arabic we can say «أنا مصطفى» without a verb, but \"I Mostafa\" is wrong in English. When there is no other verb, we use the verb be.",
+        "examples": [
+          "I Mostafa. ✗ → I am Mostafa. ✓",
+          "She happy. ✗ → She is happy. ✓",
+          "Cats nice. ✗ → Cats are nice. ✓"
+        ]
+      },
+      {
+        "title": "am, is, are",
+        "explanation_ar": "فعل be في المضارع له ثلاثة أشكال: am مع I فقط. is مع he و she و it وأي اسم مفرد (Ahmed, the girl). are مع you و we و they وأي اسم جمع (the boys, cats).",
+        "explanation_en": "In the present, be has three forms: am with I only; is with he, she, it and singular nouns (Ahmed, the girl); are with you, we, they and plural nouns (the boys, cats).",
+        "examples": [
+          "I am happy.",
+          "He is a boy. The girl is happy.",
+          "You are kind. We are students. They are children.",
+          "The cats are nice."
+        ]
+      },
+      {
+        "title": "Short forms (contractions)",
+        "explanation_ar": "يمكن اختصار am و is و are مع الضمائر باستخدام الفاصلة العليا (apostrophe): I'm, he's, she's, it's, you're, we're, they're. لا نختصر عادة مع الأسماء في الكتابة الرسمية: The dogs are ... (وليس The dogs're).",
+        "explanation_en": "We can shorten am, is and are after pronouns with an apostrophe ('): I'm, he's, she's, it's, you're, we're, they're. With nouns, we usually write the full form: The dogs are ...",
+        "examples": [
+          "I am → I'm",
+          "He is → He's, She is → She's, It is → It's",
+          "You are → You're, We are → We're, They are → They're"
+        ]
+      },
+      {
+        "title": "Replacing a noun with a pronoun",
+        "explanation_ar": "يمكن أن نضع الضمير مكان الاسم ويبقى الفعل نفسه: Ahmed is my cousin → He is my cousin. The chair is brown → It is brown.",
+        "explanation_en": "We can put a pronoun in place of the noun and keep the same verb: Ahmed is my cousin → He is my cousin.",
+        "examples": [
+          "Mary is nice. → She is nice.",
+          "The chair is brown. → It is brown.",
+          "My cousins are kind. → They are kind."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I ___ Mostafa.",
+      "choices": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 0,
+      "explanation_ar": "am تأتي مع I فقط.",
+      "explanation_en": "Am goes only with I."
+    },
+    {
+      "question": "She ___ my cousin.",
+      "choices": [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      "answer": 2,
+      "explanation_ar": "she تأخذ is.",
+      "explanation_en": "She takes is."
+    },
+    {
+      "question": "We ___ students.",
+      "choices": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer": 3,
+      "explanation_ar": "we تأخذ are.",
+      "explanation_en": "We takes are."
+    },
+    {
+      "question": "The cats ___ nice.",
+      "choices": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "explanation_ar": "the cats اسم جمع فيأخذ are.",
+      "explanation_en": "Cats is plural, so it takes are."
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": [
+        "She happy.",
+        "She is happy.",
+        "She are happy.",
+        "She am happy."
+      ],
+      "answer": 1,
+      "explanation_ar": "الجملة تحتاج فعلًا، و she تأخذ is.",
+      "explanation_en": "The sentence needs a verb, and she takes is."
+    },
+    {
+      "question": "What is the short form of \"they are\"?",
+      "choices": [
+        "they's",
+        "theyr",
+        "they're",
+        "the're"
+      ],
+      "answer": 2,
+      "explanation_ar": "they are تُختصر إلى they're.",
+      "explanation_en": "They are → they're."
+    },
+    {
+      "question": "Lucy and I ___ friends.",
+      "choices": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer": 3,
+      "explanation_ar": "Lucy and I = we، فنستخدم are.",
+      "explanation_en": "Lucy and I = we, so we use are."
+    },
+    {
+      "question": "\"My uncle\" means ...",
+      "choices": [
+        "عمي / خالي",
+        "جدي",
+        "أخي",
+        "ابن عمي"
+      ],
+      "answer": 0,
+      "explanation_ar": "uncle = عم أو خال.",
+      "explanation_en": "Your uncle is your father's or mother's brother."
+    },
+    {
+      "question": "\"My eyes ___ brown.\"",
+      "choices": [
+        "is",
+        "are",
+        "am",
+        "it"
+      ],
+      "answer": 1,
+      "explanation_ar": "eyes جمع فتأخذ are.",
+      "explanation_en": "Eyes is plural, so it takes are."
+    },
+    {
+      "question": "Which word is a girl or a boy, the child of your aunt?",
+      "choices": [
+        "sister",
+        "uncle",
+        "cousin",
+        "grandpa"
+      ],
+      "answer": 2,
+      "explanation_ar": "cousin = ابن أو بنت العم/الخال/العمة/الخالة.",
+      "explanation_en": "A cousin is the child of your aunt or uncle."
+    }
+  ]
+}

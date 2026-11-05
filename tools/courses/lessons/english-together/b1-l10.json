@@ -1,0 +1,431 @@
+{
+  "title": "A Student's Daily Routine",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "daily routine",
+        "pos": "noun",
+        "meaning_en": "the things you do every day, usually in the same order",
+        "meaning_ar": "الروتين اليومي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My daily routine starts at six o'clock."
+      },
+      {
+        "word": "typical",
+        "pos": "adjective",
+        "meaning_en": "normal; usual",
+        "meaning_ar": "عادي / نموذجي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "On a typical day, I study for three hours."
+      },
+      {
+        "word": "wake up",
+        "pos": "phrasal verb",
+        "meaning_en": "stop sleeping",
+        "meaning_ar": "يستيقظ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wake up early every day."
+      },
+      {
+        "word": "brush my teeth",
+        "pos": "phrase",
+        "meaning_en": "clean your teeth with a toothbrush",
+        "meaning_ar": "أنظّف أسناني بالفرشاة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I brush my teeth twice a day."
+      },
+      {
+        "word": "wash my face",
+        "pos": "phrase",
+        "meaning_en": "clean your face with water",
+        "meaning_ar": "أغسل وجهي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wash my face with cold water."
+      },
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "meaning_en": "the first meal of the day",
+        "meaning_ar": "الفطور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I eat eggs for breakfast."
+      },
+      {
+        "word": "cereal",
+        "pos": "noun",
+        "meaning_en": "food made from grain, eaten with milk",
+        "meaning_ar": "حبوب الإفطار",
+        "note_ar": "تُنطق مثل serial",
+        "note_en": "Sounds like \"serial\".",
+        "example": "The children like cereal with milk."
+      },
+      {
+        "word": "get dressed",
+        "pos": "phrase",
+        "meaning_en": "put on your clothes",
+        "meaning_ar": "يرتدي ملابسه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I get dressed after breakfast."
+      },
+      {
+        "word": "college",
+        "pos": "noun",
+        "meaning_en": "a place where you study after school",
+        "meaning_ar": "كلية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My brother goes to college in the city."
+      },
+      {
+        "word": "attend",
+        "pos": "verb",
+        "meaning_en": "go to a class or event",
+        "meaning_ar": "يحضر",
+        "note_ar": "attend a class (بدون to)",
+        "note_en": "No \"to\": attend a class.",
+        "example": "I attend three classes every morning."
+      },
+      {
+        "word": "break time",
+        "pos": "noun",
+        "meaning_en": "a short time to rest between classes",
+        "meaning_ar": "وقت الاستراحة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We eat a snack at break time."
+      },
+      {
+        "word": "snack",
+        "pos": "noun",
+        "meaning_en": "a small amount of food between meals",
+        "meaning_ar": "وجبة خفيفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "An apple is a healthy snack."
+      },
+      {
+        "word": "relax",
+        "pos": "verb",
+        "meaning_en": "rest and feel calm",
+        "meaning_ar": "يسترخي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I relax after a long day."
+      },
+      {
+        "word": "chores",
+        "pos": "noun",
+        "meaning_en": "small jobs you do at home, like cleaning",
+        "meaning_ar": "الأعمال المنزلية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I help my mother with the chores."
+      },
+      {
+        "word": "wash the dishes",
+        "pos": "phrase",
+        "meaning_en": "clean plates, cups and pans after eating",
+        "meaning_ar": "يغسل الصحون",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wash the dishes after dinner."
+      },
+      {
+        "word": "dinner",
+        "pos": "noun",
+        "meaning_en": "the main meal in the evening",
+        "meaning_ar": "العشاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have dinner at seven."
+      },
+      {
+        "word": "take a shower",
+        "pos": "phrase",
+        "meaning_en": "wash your body under running water",
+        "meaning_ar": "يستحمّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I take a shower every evening."
+      },
+      {
+        "word": "get ready for bed",
+        "pos": "phrase",
+        "meaning_en": "do the things you do before sleeping",
+        "meaning_ar": "يستعدّ للنوم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I get ready for bed at ten."
+      },
+      {
+        "word": "fall asleep",
+        "pos": "phrase",
+        "meaning_en": "start to sleep",
+        "meaning_ar": "يغفو / ينام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I fall asleep quickly when I'm tired."
+      },
+      {
+        "word": "go to bed",
+        "pos": "phrase",
+        "meaning_en": "lie down in bed to sleep",
+        "meaning_ar": "يذهب إلى الفراش",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I go to bed at eleven o'clock."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "wake up vs get up",
+        "words": [
+          "wake up",
+          "get up"
+        ],
+        "explanation_ar": "wake up تعني تستيقظ (تفتح عينيك)، و get up تعني تنهض من السرير.",
+        "explanation_en": "Wake up = stop sleeping. Get up = leave your bed.",
+        "examples": [
+          {
+            "word": "wake up",
+            "sentence": "I wake up at six."
+          },
+          {
+            "word": "get up",
+            "sentence": "I get up at quarter past six."
+          }
+        ]
+      },
+      {
+        "title": "go to bed vs fall asleep",
+        "words": [
+          "go to bed",
+          "fall asleep"
+        ],
+        "explanation_ar": "go to bed تعني تذهب إلى السرير، و fall asleep تعني تبدأ بالنوم فعلًا.",
+        "explanation_en": "Go to bed = lie down in bed. Fall asleep = start sleeping.",
+        "examples": [
+          {
+            "word": "go to bed",
+            "sentence": "I go to bed at ten."
+          },
+          {
+            "word": "fall asleep",
+            "sentence": "I fall asleep at half past ten."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Let me tell you about my typical day.",
+        "meaning_ar": "دعني أحدثك عن يومي المعتاد.",
+        "meaning_en": "Start talking about your routine.",
+        "example": "Let me tell you about my typical day. I wake up at six."
+      },
+      {
+        "phrase": "In the morning, I wake up early.",
+        "meaning_ar": "في الصباح أستيقظ باكرًا.",
+        "meaning_en": "Say what you do in the morning.",
+        "example": "In the morning, I wake up early and pray."
+      },
+      {
+        "phrase": "I go to college by bus.",
+        "meaning_ar": "أذهب إلى الكلية بالحافلة.",
+        "meaning_en": "Say how you travel.",
+        "example": "I go to work by bus."
+      },
+      {
+        "phrase": "I enjoy English the most.",
+        "meaning_ar": "أستمتع بالإنجليزية أكثر من غيرها.",
+        "meaning_en": "Say your favorite subject.",
+        "example": "I enjoy math the most."
+      },
+      {
+        "phrase": "When my classes are over, I come back home.",
+        "meaning_ar": "عندما تنتهي حصصي أعود إلى البيت.",
+        "meaning_en": "Say what you do after classes.",
+        "example": "When my classes are over, I come back home and rest."
+      },
+      {
+        "phrase": "It helps me relax.",
+        "meaning_ar": "يساعدني على الاسترخاء.",
+        "meaning_en": "Say why you do something.",
+        "example": "Reading helps me relax."
+      },
+      {
+        "phrase": "I help my mom with chores.",
+        "meaning_ar": "أساعد أمي في الأعمال المنزلية.",
+        "meaning_en": "Say how you help at home.",
+        "example": "On Saturday I help my mom with chores."
+      },
+      {
+        "phrase": "What is your daily routine?",
+        "meaning_ar": "ما روتينك اليومي؟",
+        "meaning_en": "Ask about someone's day.",
+        "example": "What is your daily routine? I study in the morning."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple for routines",
+        "explanation_ar": "نستخدم المضارع البسيط للأشياء التي نفعلها كل يوم: I wake up early. I go to college by bus. ومع he/she نضيف s: She wakes up early.",
+        "explanation_en": "Use the present simple for things you do every day. With he/she add -s.",
+        "examples": [
+          "I wake up early.",
+          "I brush my teeth and wash my face.",
+          "She goes to college by bus."
+        ]
+      },
+      {
+        "title": "Sequence words: then, after, before, when",
+        "explanation_ar": "نرتّب الأحداث بكلمات مثل: Then (ثم)، After breakfast (بعد الفطور)، Before I sleep (قبل أن أنام)، When my classes are over (عندما تنتهي حصصي).",
+        "explanation_en": "Use then, after, before and when to put actions in order.",
+        "examples": [
+          "Then, I make breakfast for myself.",
+          "After breakfast, I get dressed.",
+          "Before I sleep, I read a book."
+        ]
+      },
+      {
+        "title": "Frequency words: usually, sometimes",
+        "explanation_ar": "usually تعني عادةً، و sometimes تعني أحيانًا. تأتي قبل الفعل غالبًا، ويمكن وضع sometimes في أول الجملة.",
+        "explanation_en": "Usually and sometimes show how often. They usually go before the verb; sometimes can start the sentence.",
+        "examples": [
+          "I usually have cereal with milk and tea.",
+          "Sometimes, I read a book.",
+          "Sometimes, I cook dinner."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "In the morning, I ___ up early.",
+      "choices": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع I نستخدم wake بدون s.",
+      "explanation_en": "With \"I\" use \"wake\"."
+    },
+    {
+      "question": "I brush my ___ every morning.",
+      "choices": [
+        "face",
+        "teeth",
+        "dishes",
+        "bed"
+      ],
+      "answer": 1,
+      "explanation_ar": "brush my teeth = أنظّف أسناني.",
+      "explanation_en": "We say \"brush my teeth\"."
+    },
+    {
+      "question": "I go to college ___ bus.",
+      "choices": [
+        "on",
+        "in",
+        "by",
+        "with"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول by bus للمواصلات.",
+      "explanation_en": "We say \"by bus\"."
+    },
+    {
+      "question": "What are \"chores\"?",
+      "choices": [
+        "small jobs at home",
+        "school classes",
+        "TV shows",
+        "meals"
+      ],
+      "answer": 0,
+      "explanation_ar": "chores هي الأعمال المنزلية.",
+      "explanation_en": "Chores are small jobs at home."
+    },
+    {
+      "question": "___ breakfast, I get dressed.",
+      "choices": [
+        "Before",
+        "After",
+        "When",
+        "Then"
+      ],
+      "answer": 1,
+      "explanation_ar": "أولًا الفطور ثم اللبس: After breakfast.",
+      "explanation_en": "First breakfast, then clothes: After breakfast."
+    },
+    {
+      "question": "Which is the first meal of the day?",
+      "choices": [
+        "dinner",
+        "lunch",
+        "snack",
+        "breakfast"
+      ],
+      "answer": 3,
+      "explanation_ar": "breakfast هو الفطور.",
+      "explanation_en": "Breakfast is the first meal."
+    },
+    {
+      "question": "She ___ to college by bus.",
+      "choices": [
+        "go",
+        "going",
+        "goes",
+        "gone"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع she نضيف es: goes.",
+      "explanation_en": "With \"she\": goes."
+    },
+    {
+      "question": "I ___ have cereal with milk and tea. (= most days)",
+      "choices": [
+        "usually",
+        "never",
+        "yesterday",
+        "tomorrow"
+      ],
+      "answer": 0,
+      "explanation_ar": "usually تعني عادةً.",
+      "explanation_en": "\"Usually\" means most days."
+    },
+    {
+      "question": "After dinner, I take a ___ and get ready for bed.",
+      "choices": [
+        "snack",
+        "shower",
+        "bus",
+        "class"
+      ],
+      "answer": 1,
+      "explanation_ar": "take a shower = يستحم.",
+      "explanation_en": "We say \"take a shower\"."
+    },
+    {
+      "question": "\"Fall asleep\" means...",
+      "choices": [
+        "fall down",
+        "start to sleep",
+        "wake up",
+        "get dressed"
+      ],
+      "answer": 1,
+      "explanation_ar": "fall asleep تعني تبدأ بالنوم.",
+      "explanation_en": "It means start to sleep."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Run! Bees!",
+  "content": {
+    "vocabulary": [
+      {"word": "bee", "pos": "noun", "meaning_en": "a flying insect that makes honey", "meaning_ar": "نحلة", "note_ar": "", "note_en": "", "example": "Bees are very important for food."},
+      {"word": "die", "pos": "verb", "meaning_en": "to stop living", "meaning_ar": "يموت", "note_ar": "dying = يموت (مستمر)", "note_en": "die - dying - died", "example": "Many bees are dying."},
+      {"word": "ignore", "pos": "verb", "meaning_en": "to not pay attention to something", "meaning_ar": "يتجاهل", "note_ar": "", "note_en": "", "example": "If you ignore it, it will fly away."},
+      {"word": "swat", "pos": "verb", "meaning_en": "to hit an insect quickly with your hand or something flat", "meaning_ar": "يضرب (حشرة)", "note_ar": "", "note_en": "", "example": "Don't swat the bee."},
+      {"word": "sting", "pos": "verb", "meaning_en": "(of an insect) to hurt you with a sharp part", "meaning_ar": "يلدغ / يلسع", "note_ar": "sting - stung - stung", "note_en": "sting - stung - stung", "example": "The bee might sting you."},
+      {"word": "afraid of", "pos": "adjective", "meaning_en": "feeling fear about something", "meaning_ar": "خائف من", "note_ar": "", "note_en": "", "example": "Are you afraid of bees?"},
+      {"word": "beekeeper", "pos": "noun", "meaning_en": "a person who keeps bees for honey", "meaning_ar": "مربّي النحل", "note_ar": "", "note_en": "", "example": "Caroline is a home beekeeper."},
+      {"word": "educator", "pos": "noun", "meaning_en": "a teacher", "meaning_ar": "معلّم / مُربٍّ", "note_ar": "", "note_en": "", "example": "She is a bee educator."},
+      {"word": "get over", "pos": "phrasal verb", "meaning_en": "to stop feeling bad about something", "meaning_ar": "يتغلّب على / يتجاوز", "note_ar": "", "note_en": "", "example": "She wants to get over her fear of bees."},
+      {"word": "fear", "pos": "noun", "meaning_en": "the feeling of being afraid", "meaning_ar": "خوف", "note_ar": "", "note_en": "", "example": "He has a fear of high places."},
+      {"word": "hive", "pos": "noun", "meaning_en": "the home of bees", "meaning_ar": "خلية النحل", "note_ar": "beehive نفس المعنى", "note_en": "Also: beehive.", "example": "There are 30,000 bees in each hive."},
+      {"word": "backyard", "pos": "noun", "meaning_en": "the garden area behind a house", "meaning_ar": "الفناء الخلفي", "note_ar": "", "note_en": "", "example": "The children play in the backyard."},
+      {"word": "honey", "pos": "noun", "meaning_en": "sweet food that bees make", "meaning_ar": "عسل", "note_ar": "", "note_en": "", "example": "I like honey on my pancakes."},
+      {"word": "bare hands", "pos": "noun", "meaning_en": "hands with no gloves", "meaning_ar": "اليدان العاريتان (بلا قفازات)", "note_ar": "", "note_en": "", "example": "Don't touch the hot pan with bare hands."},
+      {"word": "fault", "pos": "noun", "meaning_en": "responsibility for a mistake", "meaning_ar": "خطأ / ذنب", "note_ar": "It's my fault = أنا المخطئ", "note_en": "It's my fault.", "example": "It was your fault you got stung."},
+      {"word": "calm", "pos": "adjective", "meaning_en": "quiet and not worried", "meaning_ar": "هادئ", "note_ar": "حرف l صامت تقريبًا", "note_en": "The l is usually silent.", "example": "If you stay calm, the bees will be calm."},
+      {"word": "nervous", "pos": "adjective", "meaning_en": "worried and a little afraid", "meaning_ar": "متوتر / قلق", "note_ar": "", "note_en": "", "example": "I'm nervous before tests."},
+      {"word": "equipment", "pos": "noun", "meaning_en": "the tools you need for a job", "meaning_ar": "معدّات", "note_ar": "اسم غير معدود", "note_en": "Uncountable.", "example": "Let's get our equipment on."},
+      {"word": "bother", "pos": "verb", "meaning_en": "to interrupt or annoy someone", "meaning_ar": "يزعج", "note_ar": "", "note_en": "", "example": "Sorry to bother you."}
+    ],
+    "fine_lines": [
+      {"title": "Type 1 vs Type 2 conditionals", "words": ["if + present ... will", "if + past ... would"], "explanation_ar": "النوع الأول لحدث حقيقي محتمل: If you ignore it, it will fly away. النوع الثاني لحدث متخيَّل أو غير مرجّح: If all the bees died, there would be no food.", "explanation_en": "Type 1 is for a real, likely situation: If you ignore it, it will fly away. Type 2 is for an imagined or unlikely situation: If all the bees died, there would be no food.", "examples": [{"word": "if + present ... will", "sentence": "If you come, I'll show you."}, {"word": "if + past ... would", "sentence": "If I had wings, I would fly."}]},
+      {"title": "will vs might vs may", "words": ["will", "might", "may"], "explanation_ar": "will = مؤكد تقريبًا. might و may = ممكن لكن غير مؤكد. Caroline صحّحت لآنا: you might get stung → you will get stung (مؤكد!).", "explanation_en": "Will = almost sure. Might / may = possible, not sure. Caroline corrects Anna: not 'you might get stung' but 'you will get stung'.", "examples": [{"word": "will", "sentence": "If you hit a hive, you will get stung."}, {"word": "might", "sentence": "If you swat it, it might sting you."}, {"word": "may", "sentence": "If bees are nervous, they may sting."}]}
+    ],
+    "expressions": [
+      {"phrase": "That is bad news.", "meaning_ar": "هذا خبر سيئ.", "meaning_en": "That is sad or worrying information.", "example": "The shop is closing? That is bad news."},
+      {"phrase": "Speaking of...", "meaning_ar": "بالحديث عن...", "meaning_en": "Used to talk more about something just mentioned.", "example": "Speaking of food, are you hungry?"},
+      {"phrase": "What makes you say that?", "meaning_ar": "ما الذي يجعلك تقول ذلك؟", "meaning_en": "Why do you think that?", "example": "You think I'm tired? What makes you say that?"},
+      {"phrase": "Sorry to bother you.", "meaning_ar": "آسف على الإزعاج.", "meaning_en": "A polite way to start talking to someone who is busy.", "example": "Sorry to bother you. Where is the bank?"},
+      {"phrase": "You're in the right place!", "meaning_ar": "أنت في المكان الصحيح!", "meaning_en": "This is where you want to be.", "example": "Looking for the class? You're in the right place!"},
+      {"phrase": "Not at all.", "meaning_ar": "إطلاقًا / أبدًا.", "meaning_en": "No, not even a little.", "example": "Are you afraid? Not at all."},
+      {"phrase": "Give me a minute.", "meaning_ar": "أمهلني دقيقة.", "meaning_en": "Please wait a short time.", "example": "Give me a minute to find my keys."}
+    ],
+    "grammar": [
+      {"title": "Conditionals: Type 1 and Type 2", "explanation_ar": "النوع الأول (حدث حقيقي ونتيجة محتملة جدًا): If + مضارع بسيط، will + فعل. مثال: If you talk to her, she'll help you. النوع الثاني (حدث متخيَّل أو غير مرجّح): If + ماضٍ بسيط، would + فعل. مثال: If all the bees died, there would be no food. يمكن أن نبدأ بالنتيجة: It will fly away if you ignore it (بدون فاصلة). ويمكن استخدام might / may بدل will عندما لا نكون متأكدين.", "explanation_en": "Type 1 (real event, likely result): If + present simple, will + verb. If you talk to her, she'll help you. Type 2 (imagined event): If + past simple, would + verb. If all the bees died, there would be no food. You can put the result first: It will fly away if you ignore it. Use might/may instead of will when you are not sure.", "examples": ["If you ignore it, it will fly away.", "If you swat it, it might sting you.", "If all the bees died, there would be no food.", "If you stay calm, the bees will be calm."]}
+    ]
+  },
+  "questions": [
+    {"question": "If you ignore the bee, it ____ away.", "choices": ["flew", "will fly", "would flying", "flies will"], "answer": 1, "explanation_ar": "النوع الأول: If + مضارع، will + فعل.", "explanation_en": "Type 1: If + present, will + verb."},
+    {"question": "If all the bees ____, there would be no food.", "choices": ["die", "will die", "died", "dying"], "answer": 2, "explanation_ar": "النوع الثاني: If + ماضٍ، would + فعل.", "explanation_en": "Type 2: If + past, would + verb."},
+    {"question": "Which sentence is a Type 2 conditional?", "choices": ["If you come, I'll show you.", "If you stay calm, the bees will be calm.", "If you swat it, it might sting you.", "If I worked with bees, I would be happy."], "answer": 3, "explanation_ar": "worked ... would = النوع الثاني.", "explanation_en": "Worked ... would = Type 2."},
+    {"question": "The home of bees is a ____.", "choices": ["hive", "backyard", "honey", "fault"], "answer": 0, "explanation_ar": "hive = خلية النحل.", "explanation_en": "A hive is where bees live."},
+    {"question": "'Get over your fear' means:", "choices": ["become more afraid", "stop being afraid", "climb over something", "tell everyone"], "answer": 1, "explanation_ar": "get over = يتغلب على.", "explanation_en": "Get over means stop feeling it."},
+    {"question": "Caroline says, 'If you are nervous, the bees ____ nervous.'", "choices": ["would be", "were", "will be", "are being"], "answer": 2, "explanation_ar": "النوع الأول: are ... will be.", "explanation_en": "Type 1: are ... will be."},
+    {"question": "The past form of 'sting' is:", "choices": ["stinged", "stang", "stinging", "stung"], "answer": 3, "explanation_ar": "تصريف الفعل الشاذ: sting - stung - stung.","explanation_en": "sting - stung - stung."},
+    {"question": "'Sorry to bother you' is a polite way to:", "choices": ["start talking to a busy person", "say goodbye", "say thank you", "refuse help"], "answer": 0, "explanation_ar": "نبدأ بها الكلام مع شخص مشغول.", "explanation_en": "We use it to start talking to someone busy."},
+    {"question": "Which word means 'possible but not sure'?", "choices": ["will", "might", "must", "always"], "answer": 1, "explanation_ar": "might = ممكن لكن غير مؤكد.", "explanation_en": "Might = possible, not sure."},
+    {"question": "A person who keeps bees is a ____.", "choices": ["chef", "consultant", "beekeeper", "juggler"], "answer": 2, "explanation_ar": "beekeeper = مربّي النحل.", "explanation_en": "A beekeeper keeps bees."}
+  ]
+}

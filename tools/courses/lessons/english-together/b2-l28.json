@@ -1,0 +1,361 @@
+{
+  "title": "Taking a Taxi",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "taxi",
+        "pos": "noun",
+        "meaning_en": "a car with a driver that you pay to take you somewhere",
+        "meaning_ar": "سيارة أجرة (تاكسي)",
+        "note_ar": "في أمريكا أيضًا: cab",
+        "note_en": "US also: cab.",
+        "example": "Please get in the taxi."
+      },
+      {
+        "word": "hotel",
+        "pos": "noun",
+        "meaning_en": "a building where you pay to sleep",
+        "meaning_ar": "فندق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you take me to Sunshine Hotel?"
+      },
+      {
+        "word": "luggage",
+        "pos": "noun",
+        "meaning_en": "bags and suitcases for travel",
+        "meaning_ar": "أمتعة",
+        "note_ar": "غير معدودة: some luggage",
+        "note_en": "Uncountable: \"some luggage\".",
+        "example": "Do you have luggage?"
+      },
+      {
+        "word": "trunk",
+        "pos": "noun",
+        "meaning_en": "the space at the back of a car for bags",
+        "meaning_ar": "صندوق السيارة الخلفي",
+        "note_ar": "في بريطانيا: boot",
+        "note_en": "UK: boot.",
+        "example": "I'll put it in the trunk."
+      },
+      {
+        "word": "get in",
+        "pos": "phrasal verb",
+        "meaning_en": "enter a car",
+        "meaning_ar": "يركب (السيارة)",
+        "note_ar": "العكس: get out",
+        "note_en": "Opposite: get out.",
+        "example": "Please get in the taxi."
+      },
+      {
+        "word": "fasten",
+        "pos": "verb",
+        "meaning_en": "close or tie something",
+        "meaning_ar": "يربط",
+        "note_ar": "حرف t صامت: /ˈfɑːsn/",
+        "note_en": "The t is silent: /ˈfɑːsn/.",
+        "example": "Please fasten your seatbelt."
+      },
+      {
+        "word": "seatbelt",
+        "pos": "noun",
+        "meaning_en": "a belt in a car that keeps you safe",
+        "meaning_ar": "حزام الأمان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Fasten your seatbelt."
+      },
+      {
+        "word": "train station",
+        "pos": "noun",
+        "meaning_en": "a place where trains stop",
+        "meaning_ar": "محطة القطار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Take me to the train station."
+      },
+      {
+        "word": "in a hurry",
+        "pos": "phrase",
+        "meaning_en": "needing to go quickly",
+        "meaning_ar": "مستعجل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm in a hurry."
+      },
+      {
+        "word": "leave",
+        "pos": "verb",
+        "meaning_en": "go away from a place",
+        "meaning_ar": "يغادر",
+        "note_ar": "الماضي: left",
+        "note_en": "Past: left.",
+        "example": "My train leaves soon."
+      },
+      {
+        "word": "road",
+        "pos": "noun",
+        "meaning_en": "a way for cars to drive on",
+        "meaning_ar": "طريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is a faster road."
+      },
+      {
+        "word": "save time",
+        "pos": "phrase",
+        "meaning_en": "use less time",
+        "meaning_ar": "يوفّر الوقت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This road will save time."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "get in vs get on",
+        "words": [
+          "get in",
+          "get on"
+        ],
+        "explanation_ar": "get in للسيارة والتاكسي (سيارة صغيرة). get on للحافلة والقطار والطائرة.",
+        "explanation_en": "\"Get in\" a car or taxi. \"Get on\" a bus, train or plane.",
+        "examples": [
+          {
+            "word": "get in",
+            "sentence": "Get in the taxi."
+          },
+          {
+            "word": "get on",
+            "sentence": "Get on the train."
+          }
+        ]
+      },
+      {
+        "title": "fast vs faster",
+        "words": [
+          "fast",
+          "faster"
+        ],
+        "explanation_ar": "fast = سريع. faster = أسرع (للمقارنة).",
+        "explanation_en": "\"Fast\" = quick. \"Faster\" = more fast (comparing).",
+        "examples": [
+          {
+            "word": "fast",
+            "sentence": "I will drive fast."
+          },
+          {
+            "word": "faster",
+            "sentence": "There is a faster road."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Can you take me to Sunshine Hotel, please?",
+        "meaning_ar": "هل يمكنك أن توصلني إلى فندق صن شاين من فضلك؟",
+        "meaning_en": "Telling the driver where to go.",
+        "example": "Can you take me to the airport, please?"
+      },
+      {
+        "phrase": "Do you have luggage?",
+        "meaning_ar": "هل لديك أمتعة؟",
+        "meaning_en": "The driver asks about bags.",
+        "example": "Do you have any luggage?"
+      },
+      {
+        "phrase": "Do you want me to put it in the trunk?",
+        "meaning_ar": "هل تريدني أن أضعها في الصندوق الخلفي؟",
+        "meaning_en": "Offering to help with bags.",
+        "example": "Do you want me to carry your bag?"
+      },
+      {
+        "phrase": "Please get in the taxi.",
+        "meaning_ar": "تفضل اركب التاكسي.",
+        "meaning_en": "Asking you to enter.",
+        "example": "Please get in the car."
+      },
+      {
+        "phrase": "You want to go to Sunshine Hotel, right?",
+        "meaning_ar": "تريد الذهاب إلى فندق صن شاين، صحيح؟",
+        "meaning_en": "Checking information.",
+        "example": "You want the station, right?"
+      },
+      {
+        "phrase": "Please fasten your seatbelt.",
+        "meaning_ar": "من فضلك اربط حزام الأمان.",
+        "meaning_en": "A safety request.",
+        "example": "Please fasten your seatbelt before we go."
+      },
+      {
+        "phrase": "How much do I pay?",
+        "meaning_ar": "كم أدفع؟",
+        "meaning_en": "Asking the price.",
+        "example": "How much do I pay? It's $10."
+      },
+      {
+        "phrase": "I'm in a hurry. My train leaves soon.",
+        "meaning_ar": "أنا مستعجل. قطاري يغادر قريبًا.",
+        "meaning_en": "Saying you need to be fast.",
+        "example": "I'm in a hurry. My class starts at nine."
+      },
+      {
+        "phrase": "Please take that road.",
+        "meaning_ar": "من فضلك خذ ذلك الطريق.",
+        "meaning_en": "Asking the driver to go another way.",
+        "example": "Please take the main road."
+      },
+      {
+        "phrase": "Thank you for driving fast.",
+        "meaning_ar": "شكرًا على القيادة بسرعة.",
+        "meaning_en": "Thanking the driver.",
+        "example": "Thank you for helping me."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple for timetables: My train leaves soon",
+        "explanation_ar": "نستخدم المضارع البسيط للمواعيد الثابتة (القطارات والطائرات) حتى لو كانت في المستقبل.",
+        "explanation_en": "Use the present simple for timetables, even for the future.",
+        "examples": [
+          "My train leaves soon.",
+          "The bus arrives at 6.",
+          "The flight departs at 9 am."
+        ]
+      },
+      {
+        "title": "Thank you for + -ing",
+        "explanation_ar": "بعد Thank you for نستخدم اسمًا أو فعلًا بـ ing.",
+        "explanation_en": "After \"Thank you for\", use a noun or -ing.",
+        "examples": [
+          "Thank you for driving fast.",
+          "Thank you for your help.",
+          "Thank you for waiting."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "In British English, the \"trunk\" of a car is the ...",
+      "choices": [
+        "bonnet",
+        "boot",
+        "roof",
+        "seat"
+      ],
+      "answer": 1,
+      "explanation_ar": "في بريطانيا boot.",
+      "explanation_en": "UK: boot."
+    },
+    {
+      "question": "Please ____ in the taxi.",
+      "choices": [
+        "go",
+        "take",
+        "put",
+        "get"
+      ],
+      "answer": 3,
+      "explanation_ar": "get in للسيارة.",
+      "explanation_en": "\"Get in\" a car."
+    },
+    {
+      "question": "Please ____ your seatbelt.",
+      "choices": [
+        "fasten",
+        "close",
+        "tie up",
+        "lock"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإجابة الصحيحة: fasten your seatbelt.",
+      "explanation_en": "We say \"fasten your seatbelt\"."
+    },
+    {
+      "question": "\"I'm in a hurry.\" means ...",
+      "choices": [
+        "I'm hungry.",
+        "I'm lost.",
+        "I need to go quickly.",
+        "I'm in a taxi."
+      ],
+      "answer": 2,
+      "explanation_ar": "مستعجل.",
+      "explanation_en": "I need to be quick."
+    },
+    {
+      "question": "My train ____ soon.",
+      "choices": [
+        "leave",
+        "leaving",
+        "leaves",
+        "is leave"
+      ],
+      "answer": 2,
+      "explanation_ar": "المضارع البسيط مع it: leaves.",
+      "explanation_en": "Present simple: leaves."
+    },
+    {
+      "question": "Thank you for ____ fast.",
+      "choices": [
+        "driving",
+        "drive",
+        "to drive",
+        "drove"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد for نستخدم ing.",
+      "explanation_en": "After \"for\", use -ing."
+    },
+    {
+      "question": "Which is uncountable?",
+      "choices": [
+        "bag",
+        "suitcase",
+        "taxi",
+        "luggage"
+      ],
+      "answer": 3,
+      "explanation_ar": "luggage غير معدودة.",
+      "explanation_en": "\"Luggage\" is uncountable."
+    },
+    {
+      "question": "There is a ____ road to the station.",
+      "choices": [
+        "fast more",
+        "faster",
+        "fastest than",
+        "more fast"
+      ],
+      "answer": 1,
+      "explanation_ar": "المقارنة faster.",
+      "explanation_en": "Comparative: faster."
+    },
+    {
+      "question": "\"How much do I pay?\" asks about ...",
+      "choices": [
+        "the price",
+        "the time",
+        "the road",
+        "the hotel"
+      ],
+      "answer": 0,
+      "explanation_ar": "السؤال عن السعر.",
+      "explanation_en": "It asks about the price."
+    },
+    {
+      "question": "Which letter is silent in \"fasten\"?",
+      "choices": [
+        "f",
+        "s",
+        "t",
+        "n"
+      ],
+      "answer": 2,
+      "explanation_ar": "حرف t صامت.",
+      "explanation_en": "The t is silent."
+    }
+  ]
+}

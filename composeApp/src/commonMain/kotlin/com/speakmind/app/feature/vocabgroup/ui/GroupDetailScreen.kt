@@ -49,6 +49,13 @@ import com.speakmind.app.feature.vocabgroup.domain.model.VocabGroupWord
 import com.speakmind.app.navigation.GroupDetailDestination
 import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.speakmind.app.ui.components.SpeakyBackButton
+import com.speakmind.app.ui.components.SpeakyIcons
+import com.speakmind.app.ui.components.SpeakySpeedButton
+import com.speakmind.app.ui.components.displayStyle
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
@@ -152,32 +159,26 @@ private fun GroupDetailContent(
     Box(
         modifier = Modifier
             .fillMaxSize()
+            .background(colors.backgroundDark)
             .padding(innerPadding)
-            .background(colors.backgroundGradient)
+            .windowInsetsPadding(WindowInsets.statusBars)
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
             Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 48.sdp, bottom = 8.sdp)
-                    .padding(horizontal = 4.sdp),
+                modifier = Modifier.fillMaxWidth().padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 6.dp),
                 verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(10.dp),
             ) {
-                IconButton(onClick = onBack) {
-                    Icon(
-                        Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
-                        tint = colors.textPrimary,
-                    )
-                }
+                SpeakyBackButton(onClick = onBack)
                 Text(
-                    text = uiState.groupName,
-                    style = MaterialTheme.typography.titleLarge.copy(
-                        color = colors.textPrimary,
-                        fontWeight = FontWeight.Bold,
-                    ),
-                    modifier = Modifier.weight(1f),
+                    uiState.groupName,
+                    Modifier.weight(1f),
+                    style = displayStyle(26.sp),
+                    color = colors.textPrimary,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
                 )
+                SpeakySpeedButton()
             }
 
             if (uiState.words.isEmpty()) {
@@ -263,9 +264,9 @@ private fun WordCard(
     val colors = LocalSpeakMindColors.current
     val hasMeaning = word.meaning.isNotEmpty()
     val headerShape = if (isExpanded && hasMeaning)
-        RoundedCornerShape(topStart = 16.sdp, topEnd = 16.sdp, bottomStart = 0.sdp, bottomEnd = 0.sdp)
+        RoundedCornerShape(topStart = 18.dp, topEnd = 18.dp, bottomStart = 0.dp, bottomEnd = 0.dp)
     else
-        RoundedCornerShape(16.sdp)
+        RoundedCornerShape(18.dp)
 
     val infiniteTransition = rememberInfiniteTransition(label = "active_pulse")
     val activeBorderAlpha by infiniteTransition.animateFloat(
@@ -283,14 +284,11 @@ private fun WordCard(
             modifier = Modifier
                 .fillMaxWidth()
                 .clip(headerShape)
-                .background(
-                    if (isActive) colors.neonCyan.copy(alpha = 0.07f)
-                    else colors.surfaceVariant.copy(alpha = 0.75f)
-                )
+                .background(colors.surface)
                 .border(
-                    width = if (isActive) 1.5.sdp else 1.sdp,
-                    color = if (isActive) colors.neonCyan.copy(alpha = activeBorderAlpha)
-                            else colors.magenta.copy(alpha = if (isExpanded) 0.4f else 0.2f),
+                    width = 2.dp,
+                    // Only the word being read aloud by "Play all" is outlined.
+                    color = if (isActive) colors.neonCyan.copy(alpha = activeBorderAlpha) else Color.Transparent,
                     shape = headerShape,
                 )
                 .clickable(enabled = hasMeaning, onClick = onToggleExpand)
@@ -302,28 +300,23 @@ private fun WordCard(
                 modifier = Modifier.fillMaxWidth(),
             ) {
                 Text(
-                    text = word.word,
-                    style = MaterialTheme.typography.titleMedium.copy(
-                        color = colors.textPrimary,
-                        fontWeight = FontWeight.Bold,
-                    ),
+                    word.word,
+                    color = colors.textPrimary,
+                    fontSize = 17.sp,
+                    fontWeight = FontWeight.ExtraBold,
                     modifier = Modifier.weight(1f),
                 )
                 if (hasMeaning && word.partOfSpeech.isNotEmpty()) {
-                    Box(
+                    Text(
+                        word.partOfSpeech,
                         modifier = Modifier
-                            .clip(RoundedCornerShape(6.sdp))
-                            .background(colors.magenta.copy(alpha = 0.12f))
-                            .padding(horizontal = 8.sdp, vertical = 3.sdp),
-                    ) {
-                        Text(
-                            text = word.partOfSpeech,
-                            style = MaterialTheme.typography.labelSmall.copy(
-                                color = colors.magenta,
-                                fontWeight = FontWeight.Medium,
-                            ),
-                        )
-                    }
+                            .clip(RoundedCornerShape(999.dp))
+                            .background(colors.primarySoft)
+                            .padding(horizontal = 10.dp, vertical = 4.dp),
+                        color = colors.onPrimarySoft,
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Bold,
+                    )
                 }
                 if (isLookingUp) {
                     Spacer(modifier = Modifier.width(8.sdp))
@@ -534,14 +527,9 @@ private fun WordDetailCard(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(bottomStart = 16.sdp, bottomEnd = 16.sdp))
-            .background(colors.surfaceVariant.copy(alpha = 0.35f))
-            .border(
-                1.sdp,
-                colors.neonCyan.copy(alpha = 0.1f),
-                RoundedCornerShape(bottomStart = 16.sdp, bottomEnd = 16.sdp),
-            )
-            .padding(16.sdp),
+            .clip(RoundedCornerShape(bottomStart = 18.dp, bottomEnd = 18.dp))
+            .background(colors.surface)
+            .padding(start = 16.dp, end = 16.dp, bottom = 16.dp),
         verticalArrangement = Arrangement.spacedBy(12.sdp),
     ) {
         // Phonetic + TTS row
@@ -588,13 +576,8 @@ private fun WordDetailCard(
         }
 
         // Meaning
-        Text(
-            text = word.meaning,
-            style = MaterialTheme.typography.bodyMedium.copy(
-                color = colors.textSecondary,
-                lineHeight = 22.ssp,
-            ),
-        )
+        Box(Modifier.fillMaxWidth().height(1.dp).background(colors.track))
+        Text(word.meaning, color = colors.textPrimary, fontSize = 15.sp, lineHeight = 22.sp)
 
         // Examples
         if (word.examples.isNotEmpty()) {
@@ -635,49 +618,15 @@ private fun ExampleRow(sentence: String, onSpeak: () -> Unit) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(12.sdp))
-            .background(colors.surfaceVariant.copy(alpha = 0.5f)),
+            .clip(RoundedCornerShape(12.dp))
+            .background(colors.backgroundDark)
+            .clickable(onClick = onSpeak)
+            .padding(horizontal = 12.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        // Left accent bar
-        Box(
-            modifier = Modifier
-                .width(3.sdp)
-                .heightIn(min = 48.sdp)
-                .clip(RoundedCornerShape(topStart = 12.sdp, bottomStart = 12.sdp))
-                .background(
-                    Brush.verticalGradient(
-                        listOf(colors.neonCyan.copy(alpha = 0.7f), colors.magenta.copy(alpha = 0.4f))
-                    )
-                ),
-        )
-        Text(
-            text = sentence,
-            style = MaterialTheme.typography.bodySmall.copy(
-                color = colors.textSecondary,
-                fontStyle = FontStyle.Italic,
-                lineHeight = 18.ssp,
-            ),
-            modifier = Modifier
-                .weight(1f)
-                .padding(horizontal = 12.sdp, vertical = 12.sdp),
-        )
-        // TTS button for example
-        Box(
-            modifier = Modifier
-                .size(36.sdp)
-                .clip(CircleShape)
-                .clickable(onClick = onSpeak),
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(
-                Icons.AutoMirrored.Filled.VolumeUp,
-                contentDescription = "Play example",
-                tint = colors.neonCyan.copy(alpha = 0.6f),
-                modifier = Modifier.size(16.sdp),
-            )
-        }
-        Spacer(modifier = Modifier.width(4.sdp))
+        Text(sentence, color = colors.textSecondary, fontSize = 14.sp, lineHeight = 20.sp, modifier = Modifier.weight(1f))
+        Icon(SpeakyIcons.Speaker, contentDescription = "Play example", tint = colors.faint, modifier = Modifier.size(16.dp))
     }
 }
 

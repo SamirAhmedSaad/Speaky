@@ -1,0 +1,74 @@
+{
+  "title": "Verb to be: Negatives, Questions and Adjectives",
+  "content": {
+    "vocabulary": [
+      {"word": "adjective", "pos": "noun", "meaning_en": "a word that describes a noun, like big or happy", "meaning_ar": "صفة", "note_ar": "", "note_en": "", "example": "\"Fast\" is an adjective."},
+      {"word": "capital letter", "pos": "noun", "meaning_en": "a big letter, like A, B, C", "meaning_ar": "حرف كبير", "note_ar": "", "note_en": "", "example": "Start every sentence with a capital letter."},
+      {"word": "full stop", "pos": "noun", "meaning_en": "the dot (.) at the end of a sentence", "meaning_ar": "نقطة", "note_ar": "في أمريكا: period", "note_en": "American English: period.", "example": "Put a full stop at the end."},
+      {"word": "question mark", "pos": "noun", "meaning_en": "the sign (?) at the end of a question", "meaning_ar": "علامة استفهام", "note_ar": "", "note_en": "", "example": "A question ends with a question mark."},
+      {"word": "not", "pos": "adverb", "meaning_en": "the word that makes a sentence negative", "meaning_ar": "لا / ليس", "note_ar": "", "note_en": "", "example": "I am not tired."},
+      {"word": "fast", "pos": "adjective", "meaning_en": "moving quickly", "meaning_ar": "سريع", "note_ar": "", "note_en": "", "example": "He is fast."},
+      {"word": "slow", "pos": "adjective", "meaning_en": "not fast", "meaning_ar": "بطيء", "note_ar": "", "note_en": "", "example": "a slow turtle"},
+      {"word": "big", "pos": "adjective", "meaning_en": "large in size", "meaning_ar": "كبير (الحجم)", "note_ar": "", "note_en": "", "example": "The elephant is big."},
+      {"word": "small", "pos": "adjective", "meaning_en": "little in size", "meaning_ar": "صغير (الحجم)", "note_ar": "", "note_en": "", "example": "The mouse is small."},
+      {"word": "tall", "pos": "adjective", "meaning_en": "high from bottom to top", "meaning_ar": "طويل (لأعلى)", "note_ar": "للأشخاص والمباني والزرافة", "note_en": "For people, buildings, giraffes.", "example": "The giraffe is tall."},
+      {"word": "long", "pos": "adjective", "meaning_en": "big from one end to the other", "meaning_ar": "طويل (امتدادًا)", "note_ar": "للطريق والنهر والثعبان", "note_en": "For roads, rivers, snakes.", "example": "a long road"},
+      {"word": "short", "pos": "adjective", "meaning_en": "not tall or not long", "meaning_ar": "قصير", "note_ar": "عكس tall وعكس long", "note_en": "Opposite of tall and of long.", "example": "He is short."},
+      {"word": "fit", "pos": "adjective", "meaning_en": "healthy and strong from exercise", "meaning_ar": "لائق بدنيًا", "note_ar": "", "note_en": "", "example": "Hamza is fit."},
+      {"word": "hot", "pos": "adjective", "meaning_en": "very warm", "meaning_ar": "ساخن / حار", "note_ar": "للأكل الحار بالتوابل: spicy", "note_en": "For food with strong spices: spicy.", "example": "The tea is hot."},
+      {"word": "cold", "pos": "adjective", "meaning_en": "not warm", "meaning_ar": "بارد", "note_ar": "", "note_en": "", "example": "Ice is cold."},
+      {"word": "young", "pos": "adjective", "meaning_en": "not old; in the early part of life", "meaning_ar": "صغير في السن", "note_ar": "", "note_en": "", "example": "a young girl"},
+      {"word": "old", "pos": "adjective", "meaning_en": "having lived a long time; not new", "meaning_ar": "عجوز / قديم", "note_ar": "عكس young وعكس new", "note_en": "Opposite of young and of new.", "example": "My grandfather is old."},
+      {"word": "new", "pos": "adjective", "meaning_en": "recently made or bought", "meaning_ar": "جديد", "note_ar": "", "note_en": "", "example": "My bike is new."},
+      {"word": "chubby", "pos": "adjective", "meaning_en": "a little fat, in a nice way", "meaning_ar": "ممتلئ الجسم", "note_ar": "", "note_en": "", "example": "The baby is chubby."},
+      {"word": "thin", "pos": "adjective", "meaning_en": "not fat", "meaning_ar": "نحيف", "note_ar": "th تُنطق مثل الثاء", "note_en": "Th sounds like the th in \"think\".", "example": "My dad is thin."},
+      {"word": "happy", "pos": "adjective", "meaning_en": "feeling good", "meaning_ar": "سعيد", "note_ar": "", "note_en": "", "example": "Are they happy?"},
+      {"word": "sad", "pos": "adjective", "meaning_en": "not happy", "meaning_ar": "حزين", "note_ar": "", "note_en": "", "example": "Mona is sad."},
+      {"word": "hungry", "pos": "adjective", "meaning_en": "wanting food", "meaning_ar": "جائع / جعان", "note_ar": "", "note_en": "", "example": "Are you hungry?"},
+      {"word": "pet", "pos": "noun", "meaning_en": "an animal you keep at home", "meaning_ar": "حيوان أليف", "note_ar": "", "note_en": "", "example": "This is my pet."},
+      {"word": "name", "pos": "noun", "meaning_en": "what a person is called", "meaning_ar": "اسم", "note_ar": "", "note_en": "", "example": "What's your name?"},
+      {"word": "nurse", "pos": "noun", "meaning_en": "a person who cares for sick people in a hospital", "meaning_ar": "ممرضة / ممرض", "note_ar": "", "note_en": "", "example": "Is she a nurse?"},
+      {"word": "teacher", "pos": "noun", "meaning_en": "a person who teaches at a school", "meaning_ar": "مدرس / معلم", "note_ar": "", "note_en": "", "example": "Miss Abeer is my teacher."},
+      {"word": "engineer", "pos": "noun", "meaning_en": "a person who designs machines, roads or buildings", "meaning_ar": "مهندس", "note_ar": "", "note_en": "", "example": "We are engineers."},
+      {"word": "vet", "pos": "noun", "meaning_en": "an animal doctor", "meaning_ar": "طبيب بيطري", "note_ar": "", "note_en": "", "example": "Are you a vet?"},
+      {"word": "queen", "pos": "noun", "meaning_en": "a woman who rules a country", "meaning_ar": "ملكة", "note_ar": "", "note_en": "", "example": "Are you a queen?"},
+      {"word": "camel", "pos": "noun", "meaning_en": "a desert animal with a hump on its back", "meaning_ar": "جمل", "note_ar": "", "note_en": "", "example": "Are those camels?"},
+      {"word": "turtle", "pos": "noun", "meaning_en": "a slow animal with a hard shell", "meaning_ar": "سلحفاة", "note_ar": "", "note_en": "", "example": "The turtle is slow."},
+      {"word": "bee", "pos": "noun", "meaning_en": "a small flying insect that makes honey", "meaning_ar": "نحلة", "note_ar": "", "note_en": "", "example": "This is a small bee."},
+      {"word": "hippo", "pos": "noun", "meaning_en": "a very big animal that lives in rivers", "meaning_ar": "فرس النهر", "note_ar": "", "note_en": "", "example": "The hippo isn't small. It's big."}
+    ],
+    "fine_lines": [
+      {"title": "tall vs long", "words": ["tall", "long"], "explanation_ar": "tall طويل لأعلى (من الأسفل إلى الأعلى) مثل الإنسان والمبنى والزرافة. long طويل امتدادًا على الأرض مثل الطريق والنهر والثعبان والقطار.", "explanation_en": "Tall is high from bottom to top: a person, a building, a giraffe. Long is from one end to the other: a road, a river, a snake, a train.", "examples": [{"word": "tall", "sentence": "My brother is tall."}, {"word": "long", "sentence": "The Nile is a long river."}]},
+      {"title": "old: not young vs not new", "words": ["old", "young", "new"], "explanation_ar": "old لها معنيان: عجوز (عكس young) وقديم (عكس new).", "explanation_en": "Old has two opposites: young (for people and animals) and new (for things).", "examples": [{"word": "young", "sentence": "She is young. Her grandma is old."}, {"word": "new", "sentence": "My phone is new. My bag is old."}]},
+      {"title": "isn't vs aren't vs am not", "words": ["isn't", "aren't", "am not"], "explanation_ar": "is not تُختصر isn't، و are not تُختصر aren't. أما am not فلا تُختصر بدمج not مع am؛ نقول I'm not.", "explanation_en": "Is not → isn't. Are not → aren't. Am not has no short form with not; we say I'm not.", "examples": [{"word": "isn't", "sentence": "The square isn't red."}, {"word": "aren't", "sentence": "The balls aren't big."}, {"word": "am not", "sentence": "I'm not short. I'm tall."}]},
+      {"title": "big vs small", "words": ["big", "small"], "explanation_ar": "big كبير الحجم و small صغير الحجم. للعمر نستخدم old و young.", "explanation_en": "Big and small are about size. For age, use old and young.", "examples": [{"word": "big", "sentence": "The elephant is big."}, {"word": "small", "sentence": "The mouse is small."}]}
+    ],
+    "expressions": [
+      {"phrase": "What's your name?", "meaning_ar": "ما اسمك؟", "meaning_en": "Asking someone's name.", "example": "Hi! What's your name?"},
+      {"phrase": "Are you hungry?", "meaning_ar": "هل أنت جائع؟", "meaning_en": "Asking if someone wants food.", "example": "Are you hungry? Yes, I am."},
+      {"phrase": "Yes, I am. / No, I'm not.", "meaning_ar": "نعم. / لا.", "meaning_en": "Short answers to Are you ...?", "example": "Are you a vet? No, I'm not."},
+      {"phrase": "Yes, it is. / No, it isn't.", "meaning_ar": "نعم هو كذلك. / لا ليس كذلك.", "meaning_en": "Short answers to Is it ...?", "example": "Is it a book? Yes, it is."},
+      {"phrase": "Yes, we are. / No, we aren't.", "meaning_ar": "نعم نحن كذلك. / لا لسنا كذلك.", "meaning_en": "Short answers to Are you ...? (plural)", "example": "Are you friends? Yes, we are."},
+      {"phrase": "This is my pet.", "meaning_ar": "هذا حيواني الأليف.", "meaning_en": "Showing your pet.", "example": "Look! This is my pet. It's a cat."}
+    ],
+    "grammar": [
+      {"title": "Capital letters and end marks", "explanation_ar": "كل جملة تبدأ بحرف كبير (capital letter). ونُنهي الجملة العادية بنقطة (.) والسؤال بعلامة استفهام (?).", "explanation_en": "Every sentence starts with a capital letter. A normal sentence ends with a full stop (.), and a question ends with a question mark (?).", "examples": ["This is my pet.", "What's your name?", "She is my sister."]},
+      {"title": "Adjectives after be and before nouns", "explanation_ar": "الصفة (adjective) تصف الاسم. تأتي بعد am/is/are: The elephant is big. أو قبل الاسم: a small bee. الصفات لا تُجمع: The mice are small (وليس smalls).", "explanation_en": "An adjective describes a noun. It comes after am/is/are (The elephant is big) or before a noun (a small bee). Adjectives have no plural: The mice are small.", "examples": ["He is fast.", "a slow turtle", "a long road", "The mice are small."]},
+      {"title": "Negative: am/is/are + not", "explanation_ar": "لنفي فعل be نضع not بعد am أو is أو are. ويمكن الاختصار: is not → isn't، are not → aren't. مع am نقول I'm not فقط.", "explanation_en": "To make be negative, put not after am, is or are. Short forms: is not → isn't, are not → aren't. With am, say I'm not.", "examples": ["I am not short. → I'm not short.", "She is not sad. → She isn't sad.", "They are not teachers. → They aren't teachers.", "The square isn't red."]},
+      {"title": "Yes/No questions with be", "explanation_ar": "لنسأل بـ «هل» نضع am أو is أو are في أول الجملة قبل الفاعل، وننهيها بعلامة استفهام. Sami is your brother → Is Sami your brother?", "explanation_en": "To make a yes/no question, put am, is or are before the subject and end with a question mark. Sami is your brother. → Is Sami your brother?", "examples": ["Is she sad?", "Are they happy?", "Are you hungry?", "Is it a pencil?"]},
+      {"title": "Short answers", "explanation_ar": "نجيب بـ Yes أو No ثم فاصلة ثم ضمير + am/is/are (أو النفي). لا نستخدم الأسماء في الإجابة القصيرة بل الضمير: Is Hamza fit? Yes, he is. ولا نختصر في الإجابة بنعم: Yes, it is (وليس Yes, it's).", "explanation_en": "Answer with Yes or No, a comma, then pronoun + am/is/are (or the negative). Use a pronoun, not a name: Is Hamza fit? Yes, he is. Do not shorten the yes answer: Yes, it is (not Yes, it's).", "examples": ["Is Ali a teacher? No, he isn't.", "Are you a vet? Yes, I am.", "Are these rulers? Yes, they are.", "Are you teachers? No, we aren't."]}
+    ]
+  },
+  "questions": [
+    {"question": "Make it negative: \"She is happy.\"", "choices": ["She not is happy.", "She isn't happy.", "She aren't happy.", "She amn't happy."], "answer": 1, "explanation_ar": "نضع not بعد is: is not = isn't.", "explanation_en": "Put not after is: isn't."},
+    {"question": "Make it a question: \"They are teachers.\"", "choices": ["Are they teachers?", "They are teachers?", "Is they teachers?", "Teachers are they?"], "answer": 0, "explanation_ar": "نضع are قبل الفاعل للسؤال.", "explanation_en": "Put are before the subject."},
+    {"question": "\"Is Hamza fit?\" \"Yes, ___.\"", "choices": ["Hamza is", "he's", "he is", "it is"], "answer": 2, "explanation_ar": "نستخدم الضمير ولا نختصر في الإجابة بنعم: Yes, he is.", "explanation_en": "Use the pronoun and the full form: Yes, he is."},
+    {"question": "\"Are you hungry?\" \"No, ___.\"", "choices": ["I amn't", "I not", "you aren't", "I'm not"], "answer": 3, "explanation_ar": "مع I نقول I'm not.", "explanation_en": "With I, say I'm not."},
+    {"question": "Which sentence is correct?", "choices": ["I amn't tall.", "I'm not tall.", "I not am tall.", "I isn't tall."], "answer": 1, "explanation_ar": "am not لا تُدمج؛ نقول I'm not.", "explanation_en": "Am and not don't join; say I'm not."},
+    {"question": "A road can be ...", "choices": ["long", "tall", "chubby", "hungry"], "answer": 0, "explanation_ar": "الطريق طويل امتدادًا: long.", "explanation_en": "A road goes from one end to the other: long."},
+    {"question": "What is the opposite of \"new\"?", "choices": ["young", "small", "slow", "old"], "answer": 3, "explanation_ar": "عكس new (جديد) هو old (قديم).", "explanation_en": "The opposite of new is old."},
+    {"question": "\"The mice are ___.\"", "choices": ["smalls", "a small", "small", "smalles"], "answer": 2, "explanation_ar": "الصفات لا تُجمع.", "explanation_en": "Adjectives have no plural form."},
+    {"question": "Which sentence is written correctly?", "choices": ["what's your name?", "What's your name.", "what's your name.", "What's your name?"], "answer": 3, "explanation_ar": "حرف كبير في البداية وعلامة استفهام في النهاية.", "explanation_en": "Capital letter at the start and a question mark at the end."},
+    {"question": "\"Are those camels?\" \"No, ___.\"", "choices": ["they aren't", "it isn't", "they isn't", "we aren't"], "answer": 0, "explanation_ar": "those جمع، فالضمير they والنفي aren't.", "explanation_en": "Those is plural: they aren't."}
+  ]
+}

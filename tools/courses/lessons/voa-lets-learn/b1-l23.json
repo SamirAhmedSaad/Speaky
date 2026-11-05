@@ -1,0 +1,86 @@
+{
+  "title": "What Do You Want?",
+  "content": {
+    "vocabulary": [
+      {"word": "lunch", "pos": "noun", "meaning_en": "the meal you eat in the middle of the day", "meaning_ar": "الغداء", "note_ar": "نقول have lunch.", "note_en": "We say have lunch.", "example": "I have lunch at one o'clock."},
+      {"word": "boss", "pos": "noun", "meaning_en": "the person who is in charge of you at work", "meaning_ar": "المدير / الرئيس في العمل", "note_ar": "", "note_en": "", "example": "My boss is very kind."},
+      {"word": "trip", "pos": "noun", "meaning_en": "a journey to a place and back", "meaning_ar": "رحلة", "note_ar": "نقول go on a trip.", "note_en": "We say go on a trip.", "example": "We are going on a trip to the mountains."},
+      {"word": "around the world", "pos": "phrase", "meaning_en": "in many countries of the world", "meaning_ar": "حول العالم", "note_ar": "", "note_en": "", "example": "People around the world drink tea."},
+      {"word": "hour", "pos": "noun", "meaning_en": "sixty minutes", "meaning_ar": "ساعة (60 دقيقة)", "note_ar": "حرف h صامت، لذلك نقول an hour.", "note_en": "The h is silent, so we say an hour.", "example": "I only have an hour for lunch."},
+      {"word": "minute", "pos": "noun", "meaning_en": "sixty seconds", "meaning_ar": "دقيقة", "note_ar": "", "note_en": "", "example": "I'll be back in 15 minutes."},
+      {"word": "noon", "pos": "noun", "meaning_en": "twelve o'clock in the middle of the day", "meaning_ar": "الظهر (الساعة 12 ظهرًا)", "note_ar": "نقول at noon.", "note_en": "We say at noon.", "example": "We are meeting at noon."},
+      {"word": "food truck", "pos": "noun", "meaning_en": "a truck where people cook and sell food on the street", "meaning_ar": "شاحنة طعام (مطعم متنقّل)", "note_ar": "", "note_en": "", "example": "There are many food trucks near the park."},
+      {"word": "restaurant", "pos": "noun", "meaning_en": "a place where you buy and eat meals", "meaning_ar": "مطعم", "note_ar": "", "note_en": "", "example": "We're not eating at a restaurant today."},
+      {"word": "dish", "pos": "noun", "meaning_en": "food cooked in a certain way; also a plate", "meaning_ar": "طبق (وجبة) / صحن", "note_ar": "الجمع: dishes.", "note_en": "Plural: dishes.", "example": "This rice dish is from India."},
+      {"word": "chicken", "pos": "noun", "meaning_en": "a bird; its meat, used as food", "meaning_ar": "دجاج", "note_ar": "", "note_en": "", "example": "I want chicken and rice."},
+      {"word": "beef", "pos": "noun", "meaning_en": "meat from a cow", "meaning_ar": "لحم بقري", "note_ar": "", "note_en": "", "example": "I'll have the beef, please."},
+      {"word": "shrimp", "pos": "noun", "meaning_en": "a small sea animal eaten as food", "meaning_ar": "روبيان / جمبري", "note_ar": "في بريطانيا تُسمّى غالبًا prawns.", "note_en": "In the UK, often called prawns.", "example": "Do you have shrimp today?"},
+      {"word": "dessert", "pos": "noun", "meaning_en": "sweet food you eat at the end of a meal", "meaning_ar": "حلوى (بعد الطعام)", "note_ar": "لا تخلطها مع desert (صحراء). dessert فيها s مزدوجة والنبر على المقطع الثاني.", "note_en": "Don't confuse with desert (a dry, sandy place). dessert has double s.", "example": "We can buy dessert!"},
+      {"word": "delicious", "pos": "adjective", "meaning_en": "having a very good taste", "meaning_ar": "لذيذ", "note_ar": "تُنطق /dɪˈlɪʃəs/.", "note_en": "Say dih-LISH-us.", "example": "The soup is delicious."},
+      {"word": "change", "pos": "noun", "meaning_en": "the money you get back when you pay too much", "meaning_ar": "الباقي (من النقود)", "note_ar": "change كفعل تعني يغيّر.", "note_en": "As a verb, change means to make different.", "example": "Here is your change."},
+      {"word": "dollar", "pos": "noun", "meaning_en": "money used in the U.S. and some other countries", "meaning_ar": "دولار", "note_ar": "نكتب $10 ونقرأ ten dollars.", "note_en": "We write $10 and say ten dollars.", "example": "The dish is seven dollars."},
+      {"word": "cost", "pos": "verb", "meaning_en": "to have a price", "meaning_ar": "يكلّف / سعره", "note_ar": "How much does it cost? = كم سعره؟", "note_en": "How much does it cost?", "example": "The sandwich costs five dollars."},
+      {"word": "pick", "pos": "verb", "meaning_en": "to choose", "meaning_ar": "يختار", "note_ar": "", "note_en": "", "example": "You pick the next country."},
+      {"word": "surprise", "pos": "verb / noun", "meaning_en": "to give someone something they do not expect", "meaning_ar": "يفاجئ / مفاجأة", "note_ar": "", "note_en": "", "example": "Here is ten dollars. Surprise us!"},
+      {"word": "be out of", "pos": "phrase", "meaning_en": "to have no more of something", "meaning_ar": "نفد منه / لم يعد لديه", "note_ar": "", "note_en": "", "example": "Sorry, we're out of bread."},
+      {"word": "travel", "pos": "verb", "meaning_en": "to go from one place to another, often far", "meaning_ar": "يسافر", "note_ar": "", "note_en": "", "example": "I want to travel to Japan one day."},
+      {"word": "visit", "pos": "verb", "meaning_en": "to go to see a place or a person", "meaning_ar": "يزور", "note_ar": "", "note_en": "", "example": "What country do you want to visit?"},
+      {"word": "silly", "pos": "adjective", "meaning_en": "funny and not serious", "meaning_ar": "سخيف / مضحك", "note_ar": "", "note_en": "", "example": "My little brother makes silly faces."}
+    ],
+    "fine_lines": [
+      {"title": "want vs I'll have", "words": ["I want", "I'll have"],
+       "explanation_ar": "I want صحيحة لكنها مباشرة جدًا عند الطلب في مطعم. الطريقة المهذّبة المعتادة: I'll have ..., please أو I'd like ..., please. في الدرس قال Jonathan: I'll have the shrimp، بينما قالت Anna: I want the chicken dish.",
+       "explanation_en": "I want is correct but very direct when you order food. It is more polite to say I'll have ..., please or I'd like ..., please. Jonathan says 'I'll have the shrimp.'",
+       "examples": [
+         {"word": "I'll have", "sentence": "I'll have the chicken, please."},
+         {"word": "I want", "sentence": "I want to visit Peru one day."},
+         {"word": "I'll have", "sentence": "I'll have a cup of tea, please."}
+       ]},
+      {"title": "dessert vs desert", "words": ["dessert", "desert"],
+       "explanation_ar": "dessert (بحرفي s) هي الحلوى بعد الطعام والنبر على المقطع الثاني: dih-ZURT. أما desert (بحرف s واحد) فهي الصحراء والنبر على المقطع الأول: DEZ-ert.",
+       "explanation_en": "dessert (double s) is the sweet food after a meal: dih-ZURT. desert (one s) is a dry, sandy land: DEZ-ert.",
+       "examples": [
+         {"word": "dessert", "sentence": "We have fruit for dessert."},
+         {"word": "desert", "sentence": "It is very hot in the desert."}
+       ]}
+    ],
+    "expressions": [
+      {"phrase": "What time is it?", "meaning_ar": "كم الساعة؟", "meaning_en": "asking the time", "example": "What time is it? — It's 11:50."},
+      {"phrase": "We have to go!", "meaning_ar": "يجب أن نذهب!", "meaning_en": "saying you must leave now", "example": "The bus is coming. We have to go!"},
+      {"phrase": "Where are we eating?", "meaning_ar": "أين سنأكل؟", "meaning_en": "asking about the place for a meal", "example": "Where are we eating tonight?"},
+      {"phrase": "I'll be back in 15 minutes.", "meaning_ar": "سأعود بعد 15 دقيقة.", "meaning_en": "saying when you will return", "example": "Wait here. I'll be back in ten minutes."},
+      {"phrase": "I'll have the beef, then.", "meaning_ar": "إذن سآخذ اللحم البقري.", "meaning_en": "ordering a different thing because the first is not available", "example": "No fish? I'll have the chicken, then."},
+      {"phrase": "We're out of chicken.", "meaning_ar": "نفد الدجاج لدينا.", "meaning_en": "saying there is no more of something", "example": "Sorry, we're out of milk."},
+      {"phrase": "Here is your change.", "meaning_ar": "تفضّل الباقي.", "meaning_en": "giving back extra money", "example": "That's eight dollars. Here is your change."},
+      {"phrase": "The dish costs $5.", "meaning_ar": "سعر الطبق خمسة دولارات.", "meaning_en": "saying the price of something", "example": "The salad costs four dollars."},
+      {"phrase": "Try some!", "meaning_ar": "جرّب قليلًا منه!", "meaning_en": "inviting someone to taste food", "example": "This bread is fresh. Try some!"},
+      {"phrase": "What do you want now?", "meaning_ar": "ماذا تريد الآن؟", "meaning_en": "asking someone what they would like", "example": "We still have time. What do you want now?"}
+    ],
+    "grammar": [
+      {"title": "want + noun / want to + verb",
+       "explanation_ar": "1) want + اسم: I want chicken. 2) want + to + فعل أصلي: I want to visit Peru. 3) مع he/she/it نضيف s: She wants dessert. 4) السؤال: What do you want? / What does she want? 5) النفي: I don't want ... / He doesn't want ...",
+       "explanation_en": "1) want + noun: I want chicken. 2) want + to + base verb: I want to visit Peru. 3) With he/she/it add -s: She wants dessert. 4) Questions: What do you want? / What does she want? 5) Negative: I don't want... / He doesn't want...",
+       "examples": ["I want chicken.", "What country do you want to visit?", "She wants a cold drink.", "He doesn't want shrimp."]},
+      {"title": "Ordering food politely",
+       "explanation_ar": "عند الطلب في المطعم نقول: I'll have + الطعام (+ please). وإذا نفد شيء يقول البائع: We're out of ... فتقول: Okay, I'll have ... then. ولسؤال السعر: How much is it? / How much does it cost?",
+       "explanation_en": "To order food, say I'll have + the food (+ please). If something is finished, the worker says We're out of ... and you can say Okay, I'll have ... then. To ask the price: How much is it? / How much does it cost?",
+       "examples": ["I'll have the beef, please.", "We're out of chicken.", "How much does the dish cost?", "It costs seven dollars."]},
+      {"title": "Telling the time and money",
+       "explanation_ar": "11:50 نقرأها eleven fifty، و12:00 ظهرًا noon. نكتب $10 ونقرأ ten dollars (علامة الدولار تُكتب قبل الرقم وتُقرأ بعده). ولحساب الباقي: The dish is $7, so here is $3 back.",
+       "explanation_en": "Say 11:50 as 'eleven fifty'; 12:00 in the day is noon. Write $10, but say 'ten dollars' (the sign comes first, but you say it after the number). Change: The dish is $7, so here is $3 back.",
+       "examples": ["It's eleven fifty.", "We meet at noon.", "Here is ten dollars.", "That's three dollars back."]}
+    ]
+  },
+  "questions": [
+    {"question": "Where do Anna, Jonathan and Ms. Weaver eat lunch?", "choices": ["at a restaurant", "at food trucks", "at the office", "at home"], "answer": 1, "explanation_ar": "قالت Ms. Weaver: We are eating at food trucks.", "explanation_en": "Ms. Weaver says they are eating at food trucks."},
+    {"question": "Which is the polite way to order?", "choices": ["Give me shrimp.", "Shrimp now.", "I'll have the shrimp, please.", "You give shrimp."], "answer": 2, "explanation_ar": "I'll have ..., please طريقة مهذّبة للطلب.", "explanation_en": "I'll have ..., please is a polite way to order."},
+    {"question": "'We're out of chicken' means:", "choices": ["The chicken is outside.", "There is no more chicken.", "The chicken is very good.", "We have a lot of chicken."], "answer": 1, "explanation_ar": "be out of تعني نفد الشيء.", "explanation_en": "be out of means there is no more."},
+    {"question": "The dish is $7. You pay $10. Your change is:", "choices": ["$2", "$7", "$17", "$3"], "answer": 3, "explanation_ar": "10 − 7 = 3 دولارات.", "explanation_en": "10 − 7 = 3 dollars."},
+    {"question": "She ____ to visit Peru.", "choices": ["wants", "want", "wanting", "is want"], "answer": 0, "explanation_ar": "مع she نضيف s: wants.", "explanation_en": "With she, add -s: wants."},
+    {"question": "What do we eat at the end of a meal?", "choices": ["desert", "dessert", "dish", "change"], "answer": 1, "explanation_ar": "dessert هي الحلوى بعد الطعام، و desert صحراء.", "explanation_en": "dessert is the sweet food after a meal; desert is a dry land."},
+    {"question": "What time is noon?", "choices": ["12:00 in the day", "12:00 at night", "6:00 in the morning", "1:00 in the afternoon"], "answer": 0, "explanation_ar": "noon هي الساعة الثانية عشرة ظهرًا.", "explanation_en": "Noon is twelve o'clock in the middle of the day."},
+    {"question": "What food does Anna eat?", "choices": ["beef", "shrimp", "Peruvian chicken", "cotton candy"], "answer": 2, "explanation_ar": "قالت Anna: The Peruvian chicken is delicious!", "explanation_en": "Anna says, 'The Peruvian chicken is delicious!'"},
+    {"question": "Choose the correct sentence.", "choices": ["I want visit Peru.", "I want to visit Peru.", "I wants to visit Peru.", "I want visiting Peru."], "answer": 1, "explanation_ar": "want + to + فعل أصلي.", "explanation_en": "Use want + to + base verb."},
+    {"question": "'Delicious' means:", "choices": ["expensive", "very hot", "very small", "tasting very good"], "answer": 3, "explanation_ar": "delicious تعني لذيذ.", "explanation_en": "Delicious means tasting very good."}
+  ]
+}

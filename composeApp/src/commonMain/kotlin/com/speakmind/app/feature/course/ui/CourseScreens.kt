@@ -5,90 +5,100 @@ import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
-import androidx.compose.material.icons.automirrored.filled.MenuBook
-import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Lock
-import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material.icons.filled.PlayArrow
-import androidx.compose.material.icons.filled.School
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.text.intl.Locale
-import androidx.compose.runtime.staticCompositionLocalOf
-import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.toRoute
-import com.speakmind.app.feature.course.data.CourseBook
+import coil3.compose.AsyncImage
+import com.speakmind.app.feature.course.data.Course
 import com.speakmind.app.feature.course.data.Lesson
 import com.speakmind.app.feature.course.data.LessonResult
 import com.speakmind.app.feature.course.data.LessonWord
-import com.speakmind.app.feature.course.data.LessonSummary
 import com.speakmind.app.navigation.CourseBookDestination
 import com.speakmind.app.navigation.CourseDestination
+import com.speakmind.app.navigation.CoursesDestination
 import com.speakmind.app.navigation.LessonDestination
 import com.speakmind.app.navigation.LessonExamDestination
 import com.speakmind.app.ui.components.BannerAdView
+import com.speakmind.app.ui.components.SpeakyBackButton
+import com.speakmind.app.ui.components.SpeakyCard
+import com.speakmind.app.ui.components.SpeakyIconButton
+import com.speakmind.app.ui.components.SpeakyIcons
+import com.speakmind.app.ui.components.SpeakyPill
+import com.speakmind.app.ui.components.SpeakyPrimaryButton
+import com.speakmind.app.ui.components.SpeakyProgress
+import com.speakmind.app.ui.components.SpeakySectionLabel
 import com.speakmind.app.ui.components.animatedComposable
-import com.speakmind.app.ui.components.rememberInterstitialAdState
+import com.speakmind.app.ui.components.displayStyle
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
-import network.chaintech.sdpcomposemultiplatform.sdp
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import kotlin.math.roundToInt
 
 /** Calls [onResume] whenever the screen comes back (e.g. after finishing an exam). */
 @Composable
@@ -101,9 +111,12 @@ private fun OnResume(onResume: () -> Unit) {
     }
 }
 
+/** The design's green for "done" (same in light and dark). */
+private val DoneGreen = Color(0xFF19B88A)
+
 // ---------------- Home section ----------------
 
-/** "Courses" section on Home (above Study Hub). Hidden until a course is published. */
+/** "Courses" on Home: one card that opens the list of courses. Hidden until a course is published. */
 @Composable
 fun CoursesHomeSection(modifier: Modifier = Modifier) {
     val viewModel = koinViewModel<CoursesHomeViewModel>()
@@ -111,125 +124,234 @@ fun CoursesHomeSection(modifier: Modifier = Modifier) {
     OnResume(viewModel::refresh)
     if (cards.isEmpty()) return
     val colors = LocalSpeakMindColors.current
-    Column(modifier) {
-        Spacer(Modifier.height(24.sdp))
-        Text(
-            text = "Courses",
-            style = MaterialTheme.typography.titleLarge.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold),
-            modifier = Modifier.padding(horizontal = 20.sdp),
-        )
-        Spacer(Modifier.height(12.sdp))
-        cards.forEach { card ->
-            HubCard(
-                title = card.course.title,
-                subtitle = if (card.total == 0) card.course.subtitle.orEmpty()
-                           else "${card.done}/${card.total} lessons completed",
-                icon = Icons.Default.School,
-                accent = colors.gold,
-                progress = if (card.total > 0) card.done.toFloat() / card.total else null,
-                onClick = { viewModel.onCourseClicked(card.course) },
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 20.sdp, vertical = 6.sdp),
-            )
-        }
-    }
-}
-
-/** Same look as the Home "Study Hub" boxes. */
-@Composable
-private fun HubCard(
-    title: String,
-    subtitle: String,
-    icon: ImageVector,
-    accent: Color,
-    onClick: () -> Unit,
-    modifier: Modifier = Modifier,
-    progress: Float? = null,
-    done: Boolean = false,
-    locked: Boolean = false,
-) {
-    val colors = LocalSpeakMindColors.current
-    Row(
-        modifier = modifier
-            .alpha(if (locked) 0.55f else 1f)
-            .clip(RoundedCornerShape(16.sdp))
-            .background(Brush.verticalGradient(listOf(accent.copy(alpha = 0.05f), colors.surfaceVariant.copy(alpha = 0.7f))))
-            .border(1.sdp, accent.copy(alpha = 0.22f), RoundedCornerShape(16.sdp))
-            .clickable(enabled = !locked, onClick = onClick)
-            .padding(horizontal = 16.sdp, vertical = 14.sdp),
-        verticalAlignment = Alignment.CenterVertically,
+    val done = cards.sumOf { it.done }
+    val total = cards.sumOf { it.total }
+    SpeakyCard(
+        modifier = modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 6.dp),
+        radius = 22.dp,
+        padding = PaddingValues(12.dp),
+        onClick = viewModel::onAllCoursesClicked,
     ) {
-        Box(
-            modifier = Modifier.size(44.sdp).clip(RoundedCornerShape(12.sdp)).background(accent.copy(alpha = 0.12f)),
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(icon, contentDescription = null, tint = accent, modifier = Modifier.size(24.sdp))
-        }
-        Spacer(Modifier.width(12.sdp))
-        Column(Modifier.weight(1f)) {
-            Text(title, style = MaterialTheme.typography.titleSmall.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold))
-            if (subtitle.isNotEmpty()) {
-                Text(subtitle, style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted))
-            }
-            if (progress != null) {
-                Spacer(Modifier.height(6.sdp))
-                LinearProgressIndicator(
-                    progress = { progress },
-                    color = accent,
-                    trackColor = accent.copy(alpha = 0.15f),
-                    gapSize = 0.sdp,
-                    drawStopIndicator = {},
-                    modifier = Modifier.fillMaxWidth().height(4.sdp).clip(RoundedCornerShape(2.sdp)),
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Box(
+                Modifier.size(56.dp).clip(RoundedCornerShape(16.dp)).background(colors.primarySoft),
+                contentAlignment = Alignment.Center,
+            ) { Icon(SpeakyIcons.Video, null, tint = colors.neonCyan, modifier = Modifier.size(26.dp)) }
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text("Video courses", color = colors.textPrimary, fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+                Text(
+                    "${cards.size} course${if (cards.size == 1) "" else "s"}" +
+                        if (done > 0) " · $done lesson${if (done == 1) "" else "s"} completed" else " · beginner to advanced",
+                    color = colors.textMuted,
+                    fontSize = 12.sp,
                 )
+                if (done > 0 && total > 0) SpeakyProgress(done.toFloat() / total, colors.neonCyan, height = 5.dp)
             }
-        }
-        Spacer(Modifier.width(8.sdp))
-        if (locked) {
-            Icon(Icons.Default.Lock, contentDescription = "Locked", tint = colors.textMuted, modifier = Modifier.size(20.sdp))
-        } else if (done) {
-            Icon(Icons.Default.CheckCircle, contentDescription = "Completed", tint = colors.success, modifier = Modifier.size(22.sdp))
-        } else {
-            Icon(
-                Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null,
-                tint = accent.copy(alpha = 0.5f), modifier = Modifier.size(20.sdp),
-            )
+            Icon(SpeakyIcons.Chevron, null, tint = colors.textMuted, modifier = Modifier.size(18.dp))
         }
     }
 }
 
+// ---------------- Shared pieces ----------------
+
+/** Soft tint and its ink for a course, in the same order as the Learn tab's course cards. */
 @Composable
-private fun ScreenScaffold(title: String, onBack: () -> Unit, content: @Composable (Modifier) -> Unit) {
+private fun courseTone(course: Course): Pair<Color, Color> {
     val colors = LocalSpeakMindColors.current
-    Column(Modifier.fillMaxSize().background(colors.backgroundGradient).navigationBarsPadding()) {
-        Row(
-            modifier = Modifier.fillMaxWidth().padding(top = 48.sdp, bottom = 8.sdp).padding(horizontal = 4.sdp),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            IconButton(onClick = onBack) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = colors.textPrimary)
-            }
-            Text(
-                text = title,
-                style = MaterialTheme.typography.titleLarge.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold),
-                maxLines = 2,
-                modifier = Modifier.weight(1f),
-            )
-        }
-        content(Modifier.weight(1f))
+    val tones = listOf(
+        colors.primarySoft to colors.onPrimarySoft,
+        colors.mintSoft to colors.onMintSoft,
+        colors.coralSoft to colors.onCoralSoft,
+        colors.goldSoft to colors.onGoldSoft,
+    )
+    return tones[course.sort.coerceAtLeast(0) % tones.size]
+}
+
+/** "BBC · Storytellers" -> "BBC", "English Together · Daily" -> "ET". */
+private fun courseInitials(course: Course): String {
+    val name = course.title.substringBefore('·').trim()
+    val words = name.split(' ').filter { it.isNotBlank() }
+    val first = words.firstOrNull() ?: return "?"
+    if (words.size == 1 || (first.length <= 4 && first.all { it.isUpperCase() })) return first.take(4).uppercase()
+    return words.take(2).joinToString("") { it.first().uppercase() }
+}
+
+@Composable
+private fun CourseLogo(course: Course, size: Dp = 56.dp) {
+    val (bg, fg) = courseTone(course)
+    Box(
+        Modifier.size(size).clip(RoundedCornerShape(16.dp)).background(bg),
+        contentAlignment = Alignment.Center,
+    ) {
+        Text(courseInitials(course), color = fg, fontSize = 14.sp, fontWeight = FontWeight.ExtraBold, maxLines = 1)
+        // Drawn over the initials, which stay as the fallback while loading or offline.
+        if (course.imageUrl != null) AsyncImage(
+            model = course.imageUrl,
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.matchParentSize(),
+        )
+    }
+}
+
+/** Course level: mint for beginners, gold for the rest. */
+@Composable
+private fun LevelPill(level: String, fontSize: Int = 11) {
+    val colors = LocalSpeakMindColors.current
+    val beginner = level.startsWith("Beginner", ignoreCase = true)
+    SpeakyPill(
+        level,
+        background = if (beginner) colors.mintSoft else colors.goldSoft,
+        color = if (beginner) colors.onMintSoft else colors.onGoldSoft,
+        fontSize = fontSize.sp,
+        padding = PaddingValues(horizontal = 8.dp, vertical = 2.dp),
+    )
+}
+
+/** Violet ink for titles on white; the lighter tint in dark mode, where the deep violet would disappear. */
+@Composable
+private fun accentInk(): Color {
+    val colors = LocalSpeakMindColors.current
+    return if (colors.surface.luminance() < 0.5f) colors.onPrimarySoft else colors.neonCyanDark
+}
+
+/** Page background, the shared banner at the bottom, and room for the clock at the top. */
+@Composable
+private fun CoursePage(content: @Composable ColumnScope.() -> Unit) {
+    Column(
+        Modifier.fillMaxSize().background(LocalSpeakMindColors.current.backgroundDark).navigationBarsPadding(),
+    ) {
+        Column(Modifier.weight(1f).fillMaxWidth(), content = content)
         BannerAdView()
     }
 }
 
+/** Back button with a title block (design header: 20pt from the top, gap 10). */
 @Composable
-private fun Loading(modifier: Modifier) {
-    Box(modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        CircularProgressIndicator(color = LocalSpeakMindColors.current.gold)
+private fun CourseHeader(onBack: () -> Unit, content: @Composable () -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(start = 20.dp, end = 20.dp, top = 20.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        SpeakyBackButton(onBack)
+        content()
     }
 }
 
 @Composable
-private fun Message(text: String, modifier: Modifier) {
-    Box(modifier.fillMaxSize().padding(32.sdp), contentAlignment = Alignment.Center) {
-        Text(text, textAlign = TextAlign.Center, style = MaterialTheme.typography.bodyMedium.copy(color = LocalSpeakMindColors.current.textMuted))
+private fun Loading(modifier: Modifier = Modifier) {
+    Box(modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        CircularProgressIndicator(color = LocalSpeakMindColors.current.neonCyan)
+    }
+}
+
+@Composable
+private fun Message(text: String, modifier: Modifier = Modifier) {
+    Box(modifier.fillMaxSize().padding(32.dp), contentAlignment = Alignment.Center) {
+        Text(text, textAlign = TextAlign.Center, color = LocalSpeakMindColors.current.textMuted, fontSize = 15.sp, lineHeight = 22.sp)
+    }
+}
+
+// ---------------- All courses ----------------
+
+fun NavGraphBuilder.coursesScreen() {
+    animatedComposable<CoursesDestination> {
+        val viewModel = koinViewModel<CoursesHomeViewModel>()
+        val cards by viewModel.cards.collectAsStateWithLifecycle()
+        OnResume(viewModel::refresh)
+        val colors = LocalSpeakMindColors.current
+        // Level filter, built from the levels the published courses actually have.
+        var filter by rememberSaveable { mutableStateOf<String?>(null) }
+        val groups = remember(cards) {
+            cards.mapNotNull { it.course.level?.levelGroup() }.distinct()
+        }
+        CoursePage {
+            CourseHeader(viewModel::onBack) {
+                Text("Courses", Modifier.weight(1f), style = displayStyle(26.sp), color = colors.textPrimary)
+                if (cards.isNotEmpty()) {
+                    Text(
+                        "${cards.size} course${if (cards.size == 1) "" else "s"}",
+                        color = colors.textMuted, fontSize = 13.sp, fontWeight = FontWeight.SemiBold,
+                    )
+                }
+            }
+            if (cards.isEmpty()) {
+                Loading(Modifier.weight(1f))
+                return@CoursePage
+            }
+            val shown = cards.filter { filter == null || it.course.level?.levelGroup() == filter }
+            LazyColumn(
+                modifier = Modifier.weight(1f),
+                contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 20.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
+                if (groups.size > 1) item {
+                    Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        (listOf<String?>(null) + groups).forEach { group ->
+                            val on = filter == group
+                            SpeakyPill(
+                                group ?: "All",
+                                background = if (on) colors.textPrimary else colors.surface,
+                                color = if (on) colors.surface else colors.textPrimary,
+                                fontSize = 13.sp,
+                                padding = PaddingValues(horizontal = 14.dp, vertical = 8.dp),
+                                onClick = { filter = group },
+                            )
+                        }
+                    }
+                }
+                items(shown, key = { it.course.id }) { card ->
+                    CourseRow(
+                        course = card.course,
+                        done = card.done,
+                        total = card.total,
+                        onClick = { viewModel.onCourseClicked(card.course) },
+                    )
+                }
+            }
+        }
+    }
+}
+
+/** "Beginner → Intermediate" -> "Beginner"; "Upper intermediate" -> "Upper". */
+private fun String.levelGroup(): String =
+    trim().split(' ', '→', '-', '/').firstOrNull { it.isNotBlank() }?.trimEnd('.')?.replaceFirstChar { it.uppercase() } ?: this
+
+@Composable
+private fun CourseRow(course: Course, done: Int, total: Int, onClick: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    Row(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(22.dp)).background(colors.surface).clickable(onClick = onClick).padding(12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        CourseLogo(course)
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+            Text(
+                course.title, color = colors.textPrimary, fontSize = 15.sp, fontWeight = FontWeight.ExtraBold,
+                maxLines = 1, overflow = TextOverflow.Ellipsis,
+            )
+            val by = course.channelName ?: course.subtitle?.takeIf { total == 0 }
+            if (!course.level.isNullOrBlank() || !by.isNullOrBlank()) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    course.level?.takeIf { it.isNotBlank() }?.let { LevelPill(it) }
+                    if (!by.isNullOrBlank()) {
+                        Text(by, color = colors.textMuted, fontSize = 12.sp, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    }
+                }
+            }
+            SpeakyProgress(if (total > 0) done.toFloat() / total else 0f, colors.neonCyan, height = 5.dp)
+        }
+        if (total > 0) {
+            if (done == total) {
+                Box(Modifier.size(24.dp).clip(CircleShape).background(DoneGreen), contentAlignment = Alignment.Center) {
+                    Icon(SpeakyIcons.Check, "Completed", tint = Color.White, modifier = Modifier.size(14.dp))
+                }
+            } else {
+                Text("$done/$total", color = colors.textMuted, fontSize = 12.sp, fontWeight = FontWeight.Bold)
+            }
+        }
     }
 }
 
@@ -242,40 +364,125 @@ fun NavGraphBuilder.courseScreen() {
         val state by viewModel.uiState.collectAsStateWithLifecycle()
         OnResume(viewModel::refresh)
         val colors = LocalSpeakMindColors.current
-        ScreenScaffold(state.outline?.course?.title ?: dest.title, viewModel::onBack) { modifier ->
+        // Nothing to choose between with a single part: go straight to its lessons.
+        LaunchedEffect(state.outline) {
+            val outline = state.outline ?: return@LaunchedEffect
+            outline.books.singleOrNull()?.let { viewModel.onSingleBook(it.id, outline.course.title) }
+        }
+        CoursePage {
             val outline = state.outline
-            when {
-                state.isLoading && outline == null -> Loading(modifier)
-                outline == null -> Message("Couldn't load the course. Check your connection.", modifier)
-                else -> LazyColumn(
-                    modifier = modifier,
-                    contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 8.sdp),
-                    verticalArrangement = Arrangement.spacedBy(12.sdp),
-                ) {
-                    outline.course.subtitle?.takeIf { it.isNotBlank() }?.let { subtitle ->
-                        item { Text(subtitle, style = MaterialTheme.typography.bodyMedium.copy(color = colors.textSecondary)) }
-                    }
-                    items(outline.books, key = { it.id }) { book: CourseBook ->
-                        val lessons = outline.lessonsOf(book.id)
-                        val done = lessons.count { it.id in state.results }
-                        HubCard(
-                            title = book.title,
-                            subtitle = when {
-                                lessons.isEmpty() -> "Locked · coming soon"
-                                else -> "${lessons.size} lesson${if (lessons.size == 1) "" else "s"} · $done completed"
-                            },
-                            icon = Icons.AutoMirrored.Filled.MenuBook,
-                            accent = colors.neonCyan,
-                            progress = if (lessons.isEmpty()) null else done.toFloat() / lessons.size,
-                            done = lessons.isNotEmpty() && done == lessons.size,
-                            locked = lessons.isEmpty(),
-                            onClick = { viewModel.onBookClicked(book.id, book.title) },
-                            modifier = Modifier.fillMaxWidth(),
-                        )
-                    }
+            if (outline == null) {
+                CourseHeader(viewModel::onBack) {
+                    Text(dest.title, Modifier.weight(1f), style = displayStyle(22.sp), color = colors.textPrimary, maxLines = 2)
+                }
+                if (state.isLoading) Loading(Modifier.weight(1f))
+                else Message("Couldn't load the course. Check your connection.", Modifier.weight(1f))
+                return@CoursePage
+            }
+            LazyColumn(Modifier.weight(1f), contentPadding = PaddingValues(bottom = 20.dp)) {
+                item { CourseHero(outline.course, outline.lessons.size, viewModel::onBack) }
+                item {
+                    SpeakySectionLabel("Books", Modifier.padding(start = 20.dp, end = 20.dp, top = 18.dp, bottom = 10.dp))
+                }
+                items(outline.books, key = { it.id }) { book ->
+                    val lessons = outline.lessonsOf(book.id)
+                    val done = lessons.count { it.id in state.results }
+                    BookRow(
+                        number = book.number.takeIf { it > 0 } ?: (outline.books.indexOf(book) + 1),
+                        title = book.title,
+                        meta = when {
+                            lessons.isEmpty() -> "Locked · coming soon"
+                            done == lessons.size -> "All ${lessons.size} lessons done"
+                            else -> "$done of ${lessons.size} lessons" + if (done > 0) " · in progress" else ""
+                        },
+                        done = done,
+                        total = lessons.size,
+                        onClick = { viewModel.onBookClicked(book.id, book.title) },
+                        modifier = Modifier.padding(horizontal = 20.dp, vertical = 5.dp),
+                    )
                 }
             }
         }
+    }
+}
+
+/** Coloured top block with the course name, author and level. */
+@Composable
+private fun CourseHero(course: Course, lessonCount: Int, onBack: () -> Unit) {
+    val (bg, fg) = courseTone(course)
+    Column(
+        Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(bottomStart = 32.dp, bottomEnd = 32.dp))
+            .background(bg)
+            .windowInsetsPadding(WindowInsets.statusBars)
+            .padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 24.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        SpeakyIconButton(SpeakyIcons.Back, "Back", onBack, background = Color.White.copy(alpha = 0.6f), tint = fg)
+        course.channelName?.takeIf { it.isNotBlank() }?.let {
+            Text("BY ${it.uppercase()}", color = fg, fontSize = 12.sp, fontWeight = FontWeight.ExtraBold, letterSpacing = 0.5.sp)
+        }
+        Text(course.title, style = displayStyle(30.sp, lineHeight = 32.sp), color = fg)
+        course.subtitle?.takeIf { it.isNotBlank() }?.let {
+            Text(it, color = fg, fontSize = 14.sp, lineHeight = 21.sp)
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            val pill = Color.White.copy(alpha = 0.6f)
+            course.level?.takeIf { it.isNotBlank() }?.let {
+                SpeakyPill(it, pill, fg, fontSize = 12.sp, padding = PaddingValues(horizontal = 12.dp, vertical = 6.dp))
+            }
+            if (lessonCount > 0) {
+                SpeakyPill(
+                    "$lessonCount lesson${if (lessonCount == 1) "" else "s"}", pill, fg,
+                    fontSize = 12.sp, padding = PaddingValues(horizontal = 12.dp, vertical = 6.dp),
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun BookRow(
+    number: Int,
+    title: String,
+    meta: String,
+    done: Int,
+    total: Int,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    val colors = LocalSpeakMindColors.current
+    val locked = total == 0
+    Row(
+        modifier
+            .fillMaxWidth()
+            .alpha(if (locked) 0.55f else 1f)
+            .clip(RoundedCornerShape(22.dp))
+            .background(colors.surface)
+            .clickable(enabled = !locked, onClick = onClick)
+            .padding(14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        val started = done > 0
+        Box(
+            Modifier.size(48.dp).clip(RoundedCornerShape(14.dp)).background(if (started) colors.neonCyan else colors.primarySoft),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text("$number", color = if (started) colors.onPrimary else accentInk(), fontSize = 18.sp, fontWeight = FontWeight.ExtraBold)
+        }
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Text(title, color = colors.textPrimary, fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+            Text(meta, color = colors.textMuted, fontSize = 12.sp)
+            if (!locked) SpeakyProgress(done.toFloat() / total, colors.neonCyan, height = 5.dp)
+        }
+        Icon(
+            if (locked) SpeakyIcons.Lock else SpeakyIcons.Chevron,
+            if (locked) "Locked" else null,
+            tint = colors.textMuted,
+            modifier = Modifier.size(18.dp),
+        )
     }
 }
 
@@ -286,32 +493,80 @@ fun NavGraphBuilder.courseBookScreen() {
         val dest = entry.toRoute<CourseBookDestination>()
         val viewModel = koinViewModel<CourseOutlineViewModel>(key = "book-${dest.bookId}") { parametersOf(dest.courseId) }
         val state by viewModel.uiState.collectAsStateWithLifecycle()
-        val lessonAd = rememberInterstitialAdState()
         OnResume(viewModel::refresh)
         val colors = LocalSpeakMindColors.current
-        ScreenScaffold(state.outline?.books?.find { it.id == dest.bookId }?.title ?: dest.title, viewModel::onBack) { modifier ->
-            val lessons = state.outline?.lessonsOf(dest.bookId)
-            when {
-                state.isLoading && lessons == null -> Loading(modifier)
-                lessons.isNullOrEmpty() -> Message("Lessons for this book are coming soon.", modifier)
-                else -> LazyColumn(
-                    modifier = modifier,
-                    contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 8.sdp),
-                    verticalArrangement = Arrangement.spacedBy(12.sdp),
-                ) {
-                    items(lessons, key = { it.id }) { lesson: LessonSummary ->
-                        val result = state.results[lesson.id]
-                        HubCard(
-                            title = "Lesson ${lesson.number}: ${lesson.title}",
-                            subtitle = result?.let { "Completed · exam ${it.score}/${it.total}" } ?: "Not started",
-                            icon = Icons.Default.PlayArrow,
-                            accent = colors.magenta,
-                            done = result != null,
-                            onClick = { lessonAd.unlock("lesson:${lesson.id}", "Unlock this lesson") { viewModel.onLessonClicked(lesson.id) } },
-                            modifier = Modifier.fillMaxWidth(),
+        val bookTitle = state.outline?.let { outline ->
+            if (outline.books.size == 1) outline.course.title else outline.books.find { it.id == dest.bookId }?.title
+        } ?: dest.title
+        val lessons = state.outline?.lessonsOf(dest.bookId)
+        CoursePage {
+            CourseHeader(viewModel::onBack) {
+                Column(Modifier.weight(1f)) {
+                    Text(bookTitle, style = displayStyle(22.sp, lineHeight = 26.sp), color = colors.textPrimary, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                    if (!lessons.isNullOrEmpty()) {
+                        Text(
+                            "${lessons.count { it.id in state.results }} of ${lessons.size} lessons done",
+                            color = colors.textMuted, fontSize = 12.sp,
                         )
                     }
                 }
+            }
+            when {
+                state.isLoading && lessons == null -> Loading(Modifier.weight(1f))
+                lessons.isNullOrEmpty() -> Message("Lessons for this book are coming soon.", Modifier.weight(1f))
+                else -> {
+                    // The first lesson without an exam result is the one to do next.
+                    val next = lessons.firstOrNull { it.id !in state.results }?.id
+                    LazyColumn(
+                        modifier = Modifier.weight(1f),
+                        contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 10.dp, bottom = 20.dp),
+                        verticalArrangement = Arrangement.spacedBy(10.dp),
+                    ) {
+                        items(lessons, key = { it.id }) { lesson ->
+                            LessonRow(
+                                title = "Lesson ${lesson.number} · ${lesson.title}",
+                                result = state.results[lesson.id],
+                                next = lesson.id == next,
+                                onClick = { viewModel.onLessonClicked(lesson.id) },
+                            )
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun LessonRow(title: String, result: LessonResult?, next: Boolean, onClick: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    val shape = RoundedCornerShape(20.dp)
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clip(shape)
+            .background(colors.surface)
+            .then(if (next) Modifier.border(2.dp, colors.coral, shape) else Modifier)
+            .clickable(onClick = onClick)
+            .padding(horizontal = 14.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        val (bg, tint) = when {
+            result != null -> DoneGreen to Color.White
+            next -> colors.coral to Color.White
+            else -> colors.primarySoft to colors.neonCyan
+        }
+        Box(Modifier.size(44.dp).clip(CircleShape).background(bg), contentAlignment = Alignment.Center) {
+            if (result != null) Icon(SpeakyIcons.Check, "Completed", tint = tint, modifier = Modifier.size(20.dp))
+            else Icon(SpeakyIcons.Play, null, tint = tint, modifier = Modifier.size(18.dp))
+        }
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Text(title, color = colors.textPrimary, fontSize = 15.sp, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            when {
+                result != null -> Text("Exam ${result.score}/${result.total}", color = colors.success, fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                next -> Text("Up next", color = colors.textMuted, fontSize = 12.sp)
+                else -> Text("Not started", color = colors.textMuted, fontSize = 12.sp)
             }
         }
     }
@@ -328,11 +583,24 @@ fun NavGraphBuilder.lessonScreen() {
         val state by viewModel.uiState.collectAsStateWithLifecycle()
         OnResume(viewModel::refresh)
         val lesson = state.lesson
-        ScreenScaffold(lesson?.let { "Lesson ${it.number}: ${it.title}" } ?: "Lesson", viewModel::onBack) { modifier ->
+        val colors = LocalSpeakMindColors.current
+        CoursePage {
+            CourseHeader(viewModel::onBack) {
+                Column(Modifier.weight(1f)) {
+                    if (lesson != null) Text("LESSON ${lesson.number}", color = colors.textMuted, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                    Text(
+                        lesson?.title ?: "Lesson",
+                        style = displayStyle(20.sp, lineHeight = 24.sp),
+                        color = colors.textPrimary,
+                        maxLines = 2,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                }
+            }
             when {
-                state.isLoading -> Loading(modifier)
-                lesson == null -> Message("Couldn't load the lesson. Check your connection.", modifier)
-                else -> LessonBody(lesson, state.result, viewModel::onStartExam, viewModel::onExplainLanguage, modifier)
+                state.isLoading -> Loading(Modifier.weight(1f))
+                lesson == null -> Message("Couldn't load the lesson. Check your connection.", Modifier.weight(1f))
+                else -> LessonBody(lesson, state.result, viewModel::onStartExam, Modifier.weight(1f))
             }
         }
     }
@@ -343,76 +611,41 @@ private fun LessonBody(
     lesson: Lesson,
     result: LessonResult?,
     onStartExam: () -> Unit,
-    onExplainLanguage: (arabic: Boolean) -> Unit,
     modifier: Modifier,
 ) {
     val colors = LocalSpeakMindColors.current
-    val openYouTube = rememberYouTubeOpener()
     var tab by rememberSaveable { mutableIntStateOf(0) }
-    val arabic = rememberExplainArabic()
-    CompositionLocalProvider(LocalExplainArabic provides arabic) {
     Column(modifier) {
         LazyColumn(
             modifier = Modifier.weight(1f),
-            contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 8.sdp),
-            verticalArrangement = Arrangement.spacedBy(10.sdp),
+            contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 12.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            item {
-                // Video: opens in the YouTube app, so the author gets the view.
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(16.sdp))
-                        .background(Color(0xFFE53935).copy(alpha = 0.1f))
-                        .border(1.sdp, Color(0xFFE53935).copy(alpha = 0.3f), RoundedCornerShape(16.sdp))
-                        .clickable { openYouTube(lesson.videoUrl) }
-                        .padding(14.sdp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Box(
-                        Modifier.size(44.sdp).clip(RoundedCornerShape(12.sdp)).background(Color(0xFFE53935)),
-                        contentAlignment = Alignment.Center,
-                    ) {
-                        Icon(Icons.Default.PlayArrow, contentDescription = null, tint = Color.White, modifier = Modifier.size(28.sdp))
-                    }
-                    Spacer(Modifier.width(12.sdp))
-                    Column(Modifier.weight(1f)) {
-                        Text("Watch the lesson on YouTube", style = MaterialTheme.typography.titleSmall.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold))
-                        lesson.channelName?.let {
-                            Text(
-                                "by $it",
-                                style = MaterialTheme.typography.labelMedium.copy(color = colors.neonCyan),
-                                modifier = Modifier.clickable(enabled = lesson.channelUrl != null) {
-                                    lesson.channelUrl?.let(openYouTube)
-                                },
-                            )
-                        }
-                    }
-                }
-            }
-            item { ExplainLanguageToggle(arabic, onExplainLanguage) }
+            item { VideoCard(lesson) }
             item {
                 Row(
-                    Modifier.fillMaxWidth().padding(vertical = 4.sdp),
-                    horizontalArrangement = Arrangement.spacedBy(6.sdp),
+                    Modifier.fillMaxWidth().padding(top = 4.dp, bottom = 4.dp),
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
                 ) {
                     LESSON_TABS.forEachIndexed { i, name ->
                         val selected = i == tab
-                        Text(
-                            text = name,
-                            maxLines = 1,
-                            textAlign = TextAlign.Center,
-                            style = MaterialTheme.typography.labelLarge.copy(
-                                color = if (selected) colors.backgroundDark else colors.textSecondary,
-                                fontWeight = FontWeight.Bold,
-                            ),
-                            modifier = Modifier
+                        Box(
+                            Modifier
                                 .weight(1f)
-                                .clip(RoundedCornerShape(50))
-                                .background(if (selected) colors.gold else colors.surfaceVariant.copy(alpha = 0.7f))
-                                .clickable { tab = i }
-                                .padding(vertical = 8.sdp),
-                        )
+                                .height(40.dp)
+                                .clip(RoundedCornerShape(12.dp))
+                                .background(if (selected) colors.textPrimary else colors.surface)
+                                .clickable { tab = i },
+                            contentAlignment = Alignment.Center,
+                        ) {
+                            Text(
+                                name,
+                                color = if (selected) colors.surface else colors.textSecondary,
+                                fontSize = 13.sp,
+                                fontWeight = FontWeight.Bold,
+                                maxLines = 1,
+                            )
+                        }
                     }
                 }
             }
@@ -421,40 +654,89 @@ private fun LessonBody(
                 0 -> items(content.vocabulary, key = { it.word }) { word -> VocabCard(word) }
                 1 -> items(content.fineLines) { line ->
                     InfoCard {
-                        Text(line.title, style = MaterialTheme.typography.titleMedium.copy(color = colors.magenta, fontWeight = FontWeight.Bold))
-                        Explain(line.explanationAr, line.explanationEn, colors.textPrimary)
+                        CardTitle(line.title)
+                        Bilingual(line.explanationEn, line.explanationAr)
                         line.examples.forEach { ExampleText(it.sentence, label = it.word) }
                     }
                 }
                 2 -> items(content.expressions) { expression ->
                     InfoCard {
-                        Text(expression.phrase, style = MaterialTheme.typography.titleMedium.copy(color = colors.neonCyan, fontWeight = FontWeight.Bold))
-                        Explain(expression.meaningAr, expression.meaningEn, colors.textPrimary)
+                        CardTitle(expression.phrase)
+                        Bilingual(expression.meaningEn, expression.meaningAr)
                         if (expression.example.isNotBlank()) ExampleText(expression.example)
                     }
                 }
                 else -> items(content.grammar) { point ->
                     InfoCard {
-                        Text(point.title, style = MaterialTheme.typography.titleMedium.copy(color = colors.gold, fontWeight = FontWeight.Bold))
-                        Explain(point.explanationAr, point.explanationEn, colors.textPrimary)
+                        CardTitle(point.title)
+                        Bilingual(point.explanationEn, point.explanationAr)
                         point.examples.forEach { ExampleText(it) }
                     }
                 }
             }
         }
-        Button(
+        SpeakyPrimaryButton(
+            text = result?.let { "Completed ${it.score}/${it.total} · Retake exam" }
+                ?: "Take the exam · ${lesson.questions.size} question${if (lesson.questions.size == 1) "" else "s"}",
             onClick = onStartExam,
             enabled = lesson.questions.isNotEmpty(),
-            colors = ButtonDefaults.buttonColors(containerColor = colors.gold, contentColor = colors.backgroundDark),
-            shape = RoundedCornerShape(14.sdp),
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 20.sdp, vertical = 8.sdp).height(48.sdp),
-        ) {
-            Text(
-                text = result?.let { "✓ Completed (${it.score}/${it.total}) · Retake exam" } ?: "Take the exam (${lesson.questions.size} questions)",
-                fontWeight = FontWeight.Bold,
-            )
-        }
+            background = colors.coral,
+            modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 8.dp, bottom = 16.dp),
+        )
     }
+}
+
+/** Video: opens in the YouTube app, so the author gets the view. */
+@Composable
+private fun VideoCard(lesson: Lesson) {
+    val colors = LocalSpeakMindColors.current
+    val openYouTube = rememberYouTubeOpener()
+    Box(
+        Modifier
+            .fillMaxWidth()
+            .height(150.dp)
+            .clip(RoundedCornerShape(24.dp))
+            .background(Color(0xFF17142B))
+            .clickable { openYouTube(lesson.videoUrl) },
+        contentAlignment = Alignment.Center,
+    ) {
+        Box(
+            Modifier.align(Alignment.BottomStart).offset(x = (-30).dp, y = 40.dp).size(160.dp)
+                .clip(CircleShape).background(colors.neonCyan.copy(alpha = 0.6f)),
+        )
+        AsyncImage(
+            model = "https://img.youtube.com/vi/${lesson.videoId}/hqdefault.jpg",
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.matchParentSize().alpha(0.45f),
+        )
+        Box(
+            Modifier.size(width = 68.dp, height = 48.dp).clip(RoundedCornerShape(14.dp)).background(Color(0xFFFF0033)),
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(SpeakyIcons.Play, "Watch the lesson on YouTube", tint = Color.White, modifier = Modifier.size(24.dp))
+        }
+        Row(
+            Modifier.align(Alignment.BottomStart).fillMaxWidth().padding(start = 16.dp, end = 12.dp, bottom = 12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Text("Watch on YouTube", Modifier.weight(1f), color = Color.White, fontSize = 13.sp, fontWeight = FontWeight.Bold)
+            lesson.channelName?.let {
+                Text(
+                    "by $it",
+                    color = Color.White,
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.SemiBold,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(999.dp))
+                        .background(Color.White.copy(alpha = 0.16f))
+                        .clickable(enabled = lesson.channelUrl != null) { lesson.channelUrl?.let(openYouTube) }
+                        .padding(horizontal = 10.dp, vertical = 4.dp),
+                )
+            }
+        }
     }
 }
 
@@ -464,25 +746,21 @@ private fun VocabCard(word: LessonWord) {
     val colors = LocalSpeakMindColors.current
     var open by rememberSaveable(word.word) { mutableStateOf(false) }
     InfoCard(onClick = { open = !open }) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(word.word, style = MaterialTheme.typography.titleMedium.copy(color = colors.neonCyan, fontWeight = FontWeight.Bold), modifier = Modifier.weight(1f))
-            if (word.pos.isNotBlank()) Text(word.pos, style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted))
-            Icon(
-                if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
-                contentDescription = if (open) "Hide meaning" else "Show meaning",
-                tint = colors.textMuted,
-                modifier = Modifier.padding(start = 6.sdp).size(20.sdp),
-            )
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(word.word, Modifier.weight(1f), color = accentInk(), fontSize = 16.sp, fontWeight = FontWeight.ExtraBold)
+            if (word.pos.isNotBlank()) Text(word.pos, color = colors.textMuted, fontSize = 12.sp)
         }
         AnimatedVisibility(visible = open, enter = fadeIn() + expandVertically(), exit = fadeOut() + shrinkVertically()) {
-            Column(verticalArrangement = Arrangement.spacedBy(6.sdp)) {
-                if (LocalExplainArabic.current) {
-                    ArabicText(word.meaningAr, colors.textPrimary)
-                    if (word.meaningEn.isNotBlank()) Text(word.meaningEn, style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary))
-                } else {
-                    Text(word.meaningEn.ifBlank { word.meaningAr }, style = MaterialTheme.typography.bodyMedium.copy(color = colors.textPrimary))
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Bilingual(word.meaningEn, word.meaningAr)
+                if (word.noteAr.isNotBlank() || word.noteEn.isNotBlank()) {
+                    Column(
+                        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(colors.goldSoft).padding(horizontal = 12.dp, vertical = 8.dp),
+                        verticalArrangement = Arrangement.spacedBy(4.dp),
+                    ) {
+                        Bilingual(word.noteEn, word.noteAr, color = colors.onGoldSoft, secondary = colors.onGoldSoft, fontSize = 14)
+                    }
                 }
-                if (word.noteAr.isNotBlank() || word.noteEn.isNotBlank()) Explain(word.noteAr, word.noteEn, colors.gold, prefix = "💡 ")
                 if (word.example.isNotBlank()) ExampleText(word.example)
             }
         }
@@ -490,79 +768,47 @@ private fun VocabCard(word: LessonWord) {
 }
 
 @Composable
-private fun InfoCard(onClick: (() -> Unit)? = null, content: @Composable () -> Unit) {
-    val colors = LocalSpeakMindColors.current
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(14.sdp))
-            .background(colors.surfaceVariant.copy(alpha = 0.7f))
-            .border(1.sdp, colors.textMuted.copy(alpha = 0.15f), RoundedCornerShape(14.sdp))
-            .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier)
-            .padding(14.sdp),
-        verticalArrangement = Arrangement.spacedBy(6.sdp),
-    ) { content() }
-}
-
-/** Explanations in Arabic (default for Arabic phones) or English, chosen on the lesson page. */
-private val LocalExplainArabic = staticCompositionLocalOf { true }
-
-@Composable
-private fun rememberExplainArabic(): Boolean {
-    val chosen by ExplainLanguage.arabic.collectAsStateWithLifecycle()
-    return chosen ?: (Locale.current.language == "ar")
-}
-
-/** The Arabic or English version; falls back to Arabic for lessons without English yet. */
-@Composable
-private fun Explain(ar: String, en: String, color: Color, prefix: String = "") {
-    if (LocalExplainArabic.current || en.isBlank()) {
-        if (ar.isNotBlank()) ArabicText(prefix + ar, color)
-    } else {
-        Text(prefix + en, style = MaterialTheme.typography.bodyMedium.copy(color = color), modifier = Modifier.fillMaxWidth())
-    }
+private fun CardTitle(text: String) {
+    Text(text, color = accentInk(), fontSize = 16.sp, fontWeight = FontWeight.ExtraBold)
 }
 
 @Composable
-private fun ExplainLanguageToggle(arabic: Boolean, onSelect: (Boolean) -> Unit) {
-    val colors = LocalSpeakMindColors.current
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-        Text(
-            "Explanations",
-            style = MaterialTheme.typography.labelLarge.copy(color = colors.textSecondary, fontWeight = FontWeight.Bold),
-            modifier = Modifier.weight(1f),
-        )
-        Row(
-            Modifier.clip(RoundedCornerShape(50)).background(colors.surfaceVariant.copy(alpha = 0.7f)).padding(3.sdp),
-        ) {
-            listOf(true to "العربية", false to "English").forEach { (isArabic, label) ->
-                val selected = arabic == isArabic
-                Text(
-                    label,
-                    style = MaterialTheme.typography.labelLarge.copy(
-                        color = if (selected) Color.White else colors.textSecondary,
-                        fontWeight = FontWeight.Bold,
-                    ),
-                    modifier = Modifier
-                        .clip(RoundedCornerShape(50))
-                        .background(if (selected) colors.neonCyan else Color.Transparent)
-                        .clickable { onSelect(isArabic) }
-                        .padding(horizontal = 14.sdp, vertical = 6.sdp),
-                )
-            }
-        }
-    }
-}
-
-/** Arabic explanations: a right-to-left paragraph, so English words and punctuation inside sit in the right place. */
-@Composable
-private fun ArabicText(text: String, color: Color) {
-    if (text.isBlank()) return
-    Text(
-        text,
-        style = MaterialTheme.typography.bodyMedium.copy(color = color, textDirection = TextDirection.Rtl, textAlign = TextAlign.Start),
+private fun InfoCard(onClick: (() -> Unit)? = null, content: @Composable ColumnScope.() -> Unit) {
+    SpeakyCard(
         modifier = Modifier.fillMaxWidth(),
+        radius = 18.dp,
+        padding = PaddingValues(horizontal = 14.dp, vertical = 12.dp),
+        onClick = onClick,
+        verticalArrangement = Arrangement.spacedBy(6.dp),
+        content = content,
     )
+}
+
+/**
+ * English and Arabic together (whichever exist): English first, then the Arabic as a right-to-left
+ * paragraph so English words and punctuation inside it sit in the right place.
+ */
+@Composable
+private fun Bilingual(
+    en: String,
+    ar: String,
+    color: Color = LocalSpeakMindColors.current.textPrimary,
+    secondary: Color = LocalSpeakMindColors.current.textSecondary,
+    fontSize: Int = 15,
+) {
+    if (en.isNotBlank()) {
+        Text(en, color = color, fontSize = fontSize.sp, lineHeight = (fontSize * 1.5f).sp, modifier = Modifier.fillMaxWidth())
+    }
+    if (ar.isNotBlank()) {
+        Text(
+            ar,
+            color = if (en.isNotBlank()) secondary else color,
+            fontSize = fontSize.sp,
+            lineHeight = (fontSize * 1.6f).sp,
+            style = TextStyle(textDirection = TextDirection.Rtl, textAlign = TextAlign.Start),
+            modifier = Modifier.fillMaxWidth(),
+        )
+    }
 }
 
 @Composable
@@ -578,7 +824,10 @@ private fun ExampleText(sentence: String, label: String? = null) {
                 append("“$sentence”")
             }
         },
-        style = MaterialTheme.typography.bodySmall.copy(color = colors.textSecondary, fontStyle = FontStyle.Italic),
+        color = colors.textMuted,
+        fontSize = 13.sp,
+        lineHeight = 19.sp,
+        fontStyle = FontStyle.Italic,
     )
 }
 
@@ -590,124 +839,190 @@ fun NavGraphBuilder.lessonExamScreen() {
         val viewModel = koinViewModel<ExamViewModel>(key = "exam-${dest.lessonId}") { parametersOf(dest.lessonId) }
         val state by viewModel.uiState.collectAsStateWithLifecycle()
         val questions = state.lesson?.questions.orEmpty()
-        val explainArabic = rememberExplainArabic()
-        CompositionLocalProvider(LocalExplainArabic provides explainArabic) {
-        ScreenScaffold("Exam", viewModel::onBack) { modifier ->
+        CoursePage {
             when {
-                state.lesson == null -> Loading(modifier)
-                questions.isEmpty() -> Message("This lesson has no exam yet.", modifier)
-                state.finished -> ExamResult(state.score, questions.size, viewModel::onRetry, viewModel::onBack, modifier)
-                else -> ExamQuestionView(state, viewModel::onPick, viewModel::onNext, modifier)
+                state.lesson == null -> Loading(Modifier.weight(1f))
+                questions.isEmpty() -> {
+                    CourseHeader(viewModel::onBack) {}
+                    Message("This lesson has no exam yet.", Modifier.weight(1f))
+                }
+                state.finished -> ExamResult(state, viewModel::onRetry, viewModel::onBack, Modifier.weight(1f))
+                else -> ExamQuestionView(state, viewModel::onPick, viewModel::onNext, viewModel::onBack, Modifier.weight(1f))
             }
-        }
         }
     }
 }
 
 @Composable
-private fun ExamQuestionView(state: ExamUiState, onPick: (Int) -> Unit, onNext: () -> Unit, modifier: Modifier) {
+private fun ExamQuestionView(state: ExamUiState, onPick: (Int) -> Unit, onNext: () -> Unit, onLeave: () -> Unit, modifier: Modifier) {
     val colors = LocalSpeakMindColors.current
     val questions = state.lesson?.questions.orEmpty()
     val question = questions[state.index]
-    LazyColumn(
-        modifier = modifier,
-        contentPadding = PaddingValues(horizontal = 20.sdp, vertical = 8.sdp),
-        verticalArrangement = Arrangement.spacedBy(12.sdp),
+    Column(
+        modifier
+            .fillMaxWidth()
+            .windowInsetsPadding(WindowInsets.statusBars)
+            .padding(start = 20.dp, end = 20.dp, top = 24.dp, bottom = 20.dp),
     ) {
-        item {
-            Text("Question ${state.index + 1} of ${questions.size}", style = MaterialTheme.typography.labelLarge.copy(color = colors.textMuted))
-            Spacer(Modifier.height(6.sdp))
-            LinearProgressIndicator(
-                progress = { (state.index + 1f) / questions.size },
-                color = colors.gold,
-                trackColor = colors.gold.copy(alpha = 0.15f),
-                gapSize = 0.sdp,
-                drawStopIndicator = {},
-                modifier = Modifier.fillMaxWidth().height(4.sdp).clip(RoundedCornerShape(2.sdp)),
-            )
-            Spacer(Modifier.height(16.sdp))
-            Text(question.question, style = MaterialTheme.typography.titleMedium.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold))
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            SpeakyIconButton(SpeakyIcons.Close, "Leave exam", onLeave)
+            SpeakyProgress((state.index + 1f) / questions.size, colors.coral, Modifier.weight(1f), height = 10.dp)
+            Text("${state.index + 1}/${questions.size}", color = colors.textSecondary, fontSize = 14.sp, fontWeight = FontWeight.Bold)
         }
-        items(question.choices.size) { i ->
-            val answered = state.picked != null
-            val right = answered && i == question.answer
-            val wrong = answered && i == state.picked && !right
-            val accent = when {
-                right -> colors.success
-                wrong -> colors.error
-                else -> null
+        Column(
+            Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()).padding(top = 18.dp),
+            verticalArrangement = Arrangement.spacedBy(18.dp),
+        ) {
+            Text("CHOOSE THE BEST ANSWER", color = colors.textMuted, fontSize = 13.sp, fontWeight = FontWeight.Bold)
+            Text(question.question, style = displayStyle(26.sp, lineHeight = 31.sp), color = colors.textPrimary)
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                question.choices.forEachIndexed { i, choice ->
+                    val answered = state.picked != null
+                    val right = answered && i == question.answer
+                    val wrong = answered && i == state.picked && !right
+                    val shape = RoundedCornerShape(18.dp)
+                    Row(
+                        Modifier
+                            .fillMaxWidth()
+                            .heightIn(min = 58.dp)
+                            .clip(shape)
+                            .background(
+                                when {
+                                    right -> colors.mintSoft
+                                    wrong -> colors.error.copy(alpha = 0.14f)
+                                    else -> colors.surface
+                                },
+                            )
+                            .border(2.dp, if (right) DoneGreen else if (wrong) colors.error else colors.surface, shape)
+                            .clickable(enabled = !answered) { onPick(i) }
+                            .padding(horizontal = 16.dp, vertical = 12.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    ) {
+                        Text(choice, Modifier.weight(1f), color = colors.textPrimary, fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                        if (right) Icon(SpeakyIcons.Check, "Correct", tint = colors.success, modifier = Modifier.size(22.dp))
+                        if (wrong) Icon(SpeakyIcons.Close, "Wrong", tint = colors.error, modifier = Modifier.size(22.dp))
+                    }
+                }
             }
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(14.sdp))
-                    .background(accent?.copy(alpha = 0.18f) ?: colors.surfaceVariant.copy(alpha = 0.7f))
-                    .border(if (accent != null) 2.sdp else 1.sdp, accent ?: colors.textMuted.copy(alpha = 0.25f), RoundedCornerShape(14.sdp))
-                    .clickable(enabled = !answered) { onPick(i) }
-                    .padding(16.sdp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Text(
-                    question.choices[i],
-                    style = MaterialTheme.typography.bodyLarge.copy(color = colors.textPrimary, fontWeight = if (accent != null) FontWeight.Bold else FontWeight.Normal),
-                    modifier = Modifier.weight(1f),
-                )
-                if (accent != null) {
-                    Text(if (right) "✓" else "✗", style = MaterialTheme.typography.titleMedium.copy(color = accent, fontWeight = FontWeight.Bold))
+            if (state.picked != null) {
+                val correct = state.picked == question.answer
+                val ink = if (correct) colors.onMintSoft else colors.error
+                Column(
+                    Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(18.dp))
+                        .background(if (correct) colors.mintSoft else colors.error.copy(alpha = 0.14f))
+                        .padding(horizontal = 16.dp, vertical = 14.dp),
+                    verticalArrangement = Arrangement.spacedBy(4.dp),
+                ) {
+                    Text(if (correct) "Correct!" else "Not quite", color = ink, fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+                    Bilingual(question.explanationEn, question.explanationAr, color = colors.textPrimary, fontSize = 14)
                 }
             }
         }
         if (state.picked != null) {
-            item {
-                val correct = state.picked == question.answer
-                val tone = if (correct) colors.success else colors.error
-                Column(
-                    Modifier.fillMaxWidth().clip(RoundedCornerShape(14.sdp)).background(tone.copy(alpha = 0.1f)).padding(14.sdp),
-                    verticalArrangement = Arrangement.spacedBy(6.sdp),
-                ) {
-                    Text(
-                        if (correct) "✓ Correct!" else "✗ Not quite",
-                        style = MaterialTheme.typography.titleSmall.copy(color = tone, fontWeight = FontWeight.Bold),
-                    )
-                    Explain(question.explanationAr, question.explanationEn, colors.textPrimary)
-                }
-                Spacer(Modifier.height(8.sdp))
-                Button(
-                    onClick = onNext,
-                    colors = ButtonDefaults.buttonColors(containerColor = colors.gold, contentColor = colors.backgroundDark),
-                    shape = RoundedCornerShape(14.sdp),
-                    modifier = Modifier.fillMaxWidth().height(48.sdp),
-                ) {
-                    Text(if (state.index + 1 < questions.size) "Next" else "Finish", fontWeight = FontWeight.Bold)
-                }
-            }
+            SpeakyPrimaryButton(
+                if (state.index + 1 < questions.size) "Next" else "Finish",
+                onClick = onNext,
+                background = colors.textPrimary,
+                color = colors.surface,
+                modifier = Modifier.padding(top = 12.dp),
+            )
         }
     }
 }
 
 @Composable
-private fun ExamResult(score: Int, total: Int, onRetry: () -> Unit, onDone: () -> Unit, modifier: Modifier) {
+private fun ExamResult(state: ExamUiState, onRetry: () -> Unit, onDone: () -> Unit, modifier: Modifier) {
+    val colors = LocalSpeakMindColors.current
+    val questions = state.lesson?.questions.orEmpty()
+    val total = questions.size
+    val score = state.score
+    Column(
+        modifier
+            .fillMaxWidth()
+            .windowInsetsPadding(WindowInsets.statusBars)
+            .padding(start = 20.dp, end = 20.dp, top = 40.dp, bottom = 20.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Column(
+            Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(14.dp),
+        ) {
+            ScoreRing(score, total)
+            Text("Lesson completed!", style = displayStyle(30.sp), color = colors.textPrimary, textAlign = TextAlign.Center)
+            Text(
+                "Your best score for this lesson is kept.",
+                color = colors.textSecondary, fontSize = 15.sp, lineHeight = 22.sp, textAlign = TextAlign.Center,
+            )
+            Row(Modifier.fillMaxWidth().padding(top = 6.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                StatTile("$score", "Correct", colors.success, Modifier.weight(1f))
+                StatTile("${total - score}", "To review", colors.error, Modifier.weight(1f))
+            }
+            val missed = state.missed.mapNotNull { questions.getOrNull(it) }
+            if (missed.isNotEmpty()) {
+                SpeakyCard(Modifier.fillMaxWidth(), radius = 20.dp, padding = PaddingValues(horizontal = 16.dp, vertical = 14.dp)) {
+                    SpeakySectionLabel("Review these")
+                    missed.forEach { q ->
+                        Text(
+                            buildAnnotatedString {
+                                append(q.question)
+                                append(" · ")
+                                withStyle(SpanStyle(fontWeight = FontWeight.Bold, color = colors.success)) {
+                                    append(q.choices.getOrElse(q.answer) { "" })
+                                }
+                            },
+                            color = colors.textPrimary,
+                            fontSize = 15.sp,
+                            lineHeight = 21.sp,
+                        )
+                    }
+                }
+            }
+        }
+        Column(Modifier.fillMaxWidth().padding(top = 12.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            SpeakyPrimaryButton("Back to the lesson", onClick = onDone)
+            SpeakyPrimaryButton(
+                "Try again", onClick = onRetry, background = colors.surface, color = colors.textPrimary,
+                height = 50.dp, radius = 16.dp,
+            )
+        }
+    }
+}
+
+@Composable
+private fun ScoreRing(score: Int, total: Int) {
+    val colors = LocalSpeakMindColors.current
+    val fraction = if (total > 0) score.toFloat() / total else 0f
+    val track = colors.track
+    Box(Modifier.size(190.dp), contentAlignment = Alignment.Center) {
+        Canvas(Modifier.size(190.dp)) {
+            val stroke = 16.dp.toPx()
+            val inset = stroke / 2 + 7.dp.toPx()
+            val arcSize = androidx.compose.ui.geometry.Size(size.width - inset * 2, size.height - inset * 2)
+            drawArc(track, 0f, 360f, false, Offset(inset, inset), arcSize, style = Stroke(stroke))
+            if (fraction > 0f) {
+                drawArc(DoneGreen, -90f, 360f * fraction, false, Offset(inset, inset), arcSize, style = Stroke(stroke, cap = StrokeCap.Round))
+            }
+        }
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("$score/$total", style = displayStyle(44.sp), color = colors.textPrimary)
+            Text("${(fraction * 100).roundToInt()}%", color = colors.success, fontSize = 14.sp, fontWeight = FontWeight.Bold)
+        }
+    }
+}
+
+@Composable
+private fun StatTile(value: String, label: String, color: Color, modifier: Modifier) {
     val colors = LocalSpeakMindColors.current
     Column(
-        modifier.fillMaxSize().padding(32.sdp),
+        modifier.clip(RoundedCornerShape(18.dp)).background(colors.surface).padding(horizontal = 6.dp, vertical = 12.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.spacedBy(2.dp),
     ) {
-        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = colors.success, modifier = Modifier.size(72.sdp))
-        Spacer(Modifier.height(16.sdp))
-        Text("Lesson completed!", style = MaterialTheme.typography.headlineSmall.copy(color = colors.textPrimary, fontWeight = FontWeight.Bold))
-        Spacer(Modifier.height(8.sdp))
-        Text("Your score: $score / $total", style = MaterialTheme.typography.titleMedium.copy(color = colors.gold, fontWeight = FontWeight.Bold))
-        Spacer(Modifier.height(28.sdp))
-        Button(
-            onClick = onDone,
-            colors = ButtonDefaults.buttonColors(containerColor = colors.gold, contentColor = colors.backgroundDark),
-            shape = RoundedCornerShape(14.sdp),
-            modifier = Modifier.fillMaxWidth().height(48.sdp),
-        ) { Text("Back to the lesson", fontWeight = FontWeight.Bold) }
-        Spacer(Modifier.height(10.sdp))
-        OutlinedButton(onClick = onRetry, shape = RoundedCornerShape(14.sdp), modifier = Modifier.fillMaxWidth().height(48.sdp)) {
-            Text("Try again", color = colors.textPrimary)
-        }
+        Text(value, color = color, fontSize = 20.sp, fontWeight = FontWeight.ExtraBold)
+        Text(label, color = colors.textMuted, fontSize = 12.sp)
     }
 }

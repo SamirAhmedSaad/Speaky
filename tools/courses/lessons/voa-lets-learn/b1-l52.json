@@ -1,0 +1,507 @@
+{
+ "title": "Taking Chances",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "take a chance",
+    "pos": "phrase",
+    "meaning_en": "to try something that may not work",
+    "meaning_ar": "يغامر، يجرب حظه",
+    "note_ar": "الماضي: took a chance",
+    "note_en": "Past: took a chance.",
+    "example": "She took a chance and moved to a new city."
+   },
+   {
+    "word": "amazing",
+    "pos": "adjective",
+    "meaning_en": "very surprising and good",
+    "meaning_ar": "مدهش، رائع",
+    "note_ar": "",
+    "note_en": "",
+    "example": "That is amazing news!"
+   },
+   {
+    "word": "all over the world",
+    "pos": "phrase",
+    "meaning_en": "in many countries",
+    "meaning_ar": "في جميع أنحاء العالم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I have met people from all over the world."
+   },
+   {
+    "word": "news",
+    "pos": "noun",
+    "meaning_en": "new information about something that happened",
+    "meaning_ar": "خبر، أخبار",
+    "note_ar": "تبدو جمعًا لكنها مفرد غير معدود: The news is good",
+    "note_en": "Looks plural but is uncountable: \"The news is good.\"",
+    "example": "I have some really big news!"
+   },
+   {
+    "word": "actor",
+    "pos": "noun",
+    "meaning_en": "a person who acts in plays or movies",
+    "meaning_ar": "ممثل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He dreams of becoming an actor."
+   },
+   {
+    "word": "dream",
+    "pos": "noun / verb",
+    "meaning_en": "a wish or hope for the future; to hope for something",
+    "meaning_ar": "حلم / يحلم",
+    "note_ar": "dream of + ing",
+    "note_en": "dream of + verb-ing",
+    "example": "Many people dream of becoming actors."
+   },
+   {
+    "word": "come true",
+    "pos": "phrase",
+    "meaning_en": "(of a dream) to really happen",
+    "meaning_ar": "يتحقق",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Her dream of becoming a doctor came true."
+   },
+   {
+    "word": "career",
+    "pos": "noun",
+    "meaning_en": "the work someone does for most of their life",
+    "meaning_ar": "مسيرة مهنية",
+    "note_ar": "تُنطق /kəˈrɪər/ والنبرة في آخرها",
+    "note_en": "Stress at the end: ca-REER.",
+    "example": "He has had a long career in teaching."
+   },
+   {
+    "word": "take off",
+    "pos": "phrasal verb",
+    "meaning_en": "to become successful very quickly",
+    "meaning_ar": "ينطلق، ينجح بسرعة",
+    "note_ar": "ولها معنى آخر: إقلاع الطائرة",
+    "note_en": "Also means a plane leaving the ground.",
+    "example": "Her new business has really taken off."
+   },
+   {
+    "word": "act",
+    "pos": "verb",
+    "meaning_en": "to play a part in a play or movie",
+    "meaning_ar": "يمثّل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She acted in my play."
+   },
+   {
+    "word": "play",
+    "pos": "noun",
+    "meaning_en": "a story that actors perform on a stage",
+    "meaning_ar": "مسرحية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We watched a play at the theater."
+   },
+   {
+    "word": "bring to life",
+    "pos": "phrase",
+    "meaning_en": "to make something seem real and exciting",
+    "meaning_ar": "يُحيي، يجعله نابضًا بالحياة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The actor brought the story to life."
+   },
+   {
+    "word": "part",
+    "pos": "noun",
+    "meaning_en": "a character an actor plays; a role",
+    "meaning_ar": "دور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She played the part of a tree."
+   },
+   {
+    "word": "costume",
+    "pos": "noun",
+    "meaning_en": "special clothes that an actor wears",
+    "meaning_ar": "زي (تنكري أو مسرحي)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I see you are still wearing your tree costume."
+   },
+   {
+    "word": "director",
+    "pos": "noun",
+    "meaning_en": "the person who tells the actors what to do",
+    "meaning_ar": "مخرج",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The director is happy with the play."
+   },
+   {
+    "word": "share",
+    "pos": "verb",
+    "meaning_en": "to tell other people about something",
+    "meaning_ar": "يشارك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Please share your news with us."
+   },
+   {
+    "word": "science fiction",
+    "pos": "noun",
+    "meaning_en": "stories about the future, space or new science",
+    "meaning_ar": "خيال علمي",
+    "note_ar": "اختصارها sci-fi",
+    "note_en": "Short form: sci-fi.",
+    "example": "I like science fiction movies about space."
+   },
+   {
+    "word": "action movie",
+    "pos": "noun",
+    "meaning_en": "a movie with a lot of exciting fights and chases",
+    "meaning_ar": "فيلم أكشن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My brother loves action movies."
+   },
+   {
+    "word": "guess",
+    "pos": "verb",
+    "meaning_en": "to give an answer when you are not sure",
+    "meaning_ar": "يخمّن",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Let me guess — you're playing a tree!"
+   },
+   {
+    "word": "prepare",
+    "pos": "verb",
+    "meaning_en": "to get ready for something",
+    "meaning_ar": "يستعد، يحضّر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I prepared for the exam all week."
+   },
+   {
+    "word": "get around",
+    "pos": "phrasal verb",
+    "meaning_en": "to travel from place to place",
+    "meaning_ar": "يتنقل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's easy to get around the city by metro."
+   },
+   {
+    "word": "come back",
+    "pos": "phrasal verb",
+    "meaning_en": "to return",
+    "meaning_ar": "يعود",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I'll make the movies and then come back."
+   },
+   {
+    "word": "proud",
+    "pos": "adjective",
+    "meaning_en": "happy because someone did something good",
+    "meaning_ar": "فخور",
+    "note_ar": "proud of + شخص/شيء",
+    "note_en": "proud of + person/thing",
+    "example": "My parents are proud of me."
+   },
+   {
+    "word": "succeed",
+    "pos": "verb",
+    "meaning_en": "to do what you tried to do",
+    "meaning_ar": "ينجح",
+    "note_ar": "الاسم: success",
+    "note_en": "Noun: success.",
+    "example": "Sometimes I succeeded."
+   },
+   {
+    "word": "fail",
+    "pos": "verb",
+    "meaning_en": "to not do what you tried to do",
+    "meaning_ar": "يفشل",
+    "note_ar": "الاسم: failure",
+    "note_en": "Noun: failure.",
+    "example": "Sometimes I failed, but I tried again."
+   },
+   {
+    "word": "make a change",
+    "pos": "phrase",
+    "meaning_en": "to do something in a new or different way",
+    "meaning_ar": "يُحدث تغييرًا",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I had to make a change in my life."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "succeed vs fail",
+    "words": [
+     "succeed",
+     "fail"
+    ],
+    "explanation_ar": "succeed = تنجح فيما حاولت فعله. fail = لا تنجح. عكس بعضهما. الاسمان: success و failure.",
+    "explanation_en": "\"Succeed\" = you do what you tried to do. \"Fail\" = you don't. They are opposites. Nouns: success and failure.",
+    "examples": [
+     {
+      "word": "succeed",
+      "sentence": "If you practice, you will succeed."
+     },
+     {
+      "word": "fail",
+      "sentence": "He failed the test, so he studied harder."
+     }
+    ]
+   },
+   {
+    "title": "take off (become successful) vs take off (a plane)",
+    "words": [
+     "take off"
+    ],
+    "explanation_ar": "take off لها أكثر من معنى. في الدرس: her acting career has really taken off = نجحت مسيرتها بسرعة. ومعنى آخر شائع: الطائرة تقلع The plane took off at 6.",
+    "explanation_en": "\"Take off\" has more than one meaning. In the lesson: \"her acting career has really taken off\" = it became successful quickly. Another common meaning: a plane leaves the ground: The plane took off at 6.",
+    "examples": [
+     {
+      "word": "take off",
+      "sentence": "His small shop has really taken off."
+     },
+     {
+      "word": "take off",
+      "sentence": "Our plane takes off at 8 p.m."
+     }
+    ]
+   },
+   {
+    "title": "I've done vs I did",
+    "words": [
+     "have done",
+     "did"
+    ],
+    "explanation_ar": "I've done so many amazing things = خلال السنة الماضية وحتى الآن (بدون وقت محدد). I took some chances / I succeeded / I failed = أحداث انتهت نحكيها كقصة في الماضي.",
+    "explanation_en": "\"I've done so many amazing things\" = over the past year until now (no exact time). \"I took some chances / I succeeded / I failed\" = finished events, told as a story about the past.",
+    "examples": [
+     {
+      "word": "have done",
+      "sentence": "I've made many good friends this year."
+     },
+     {
+      "word": "did",
+      "sentence": "Last year I didn't feel very good, so I made a change."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "I've taken a lot of chances.",
+    "meaning_ar": "لقد خاطرت/جرّبت حظي كثيرًا.",
+    "meaning_en": "I have tried many new and difficult things",
+    "example": "I've taken a lot of chances this year."
+   },
+   {
+    "phrase": "I have some really big news!",
+    "meaning_ar": "لدي خبر كبير جدًا!",
+    "meaning_en": "I have something important to tell you",
+    "example": "Guess what? I have some really big news!"
+   },
+   {
+    "phrase": "Those dreams don't come true.",
+    "meaning_ar": "تلك الأحلام لا تتحقق.",
+    "meaning_en": "those wishes don't really happen",
+    "example": "Work hard and your dreams can come true."
+   },
+   {
+    "phrase": "Let's give a warm welcome to …",
+    "meaning_ar": "لنرحب ترحيبًا حارًا بـ…",
+    "meaning_en": "please welcome this person (on a show)",
+    "example": "Let's give a warm welcome to our new teacher!"
+   },
+   {
+    "phrase": "Thank you so much for having me here.",
+    "meaning_ar": "شكرًا جزيلًا على استضافتي.",
+    "meaning_en": "thank you for inviting me",
+    "example": "Thank you so much for having me on your show."
+   },
+   {
+    "phrase": "It is great to see you again.",
+    "meaning_ar": "سعيد برؤيتك مجددًا.",
+    "meaning_en": "I'm happy to meet you again",
+    "example": "It's great to see you again, Pete!"
+   },
+   {
+    "phrase": "Please share that news with us.",
+    "meaning_ar": "من فضلك شاركنا هذا الخبر.",
+    "meaning_en": "please tell us the news",
+    "example": "Please share your story with us."
+   },
+   {
+    "phrase": "Let me guess …",
+    "meaning_ar": "دعني أخمّن…",
+    "meaning_en": "I will try to say the answer before you tell me",
+    "example": "Let me guess — you got the job!"
+   },
+   {
+    "phrase": "I'm sure your family is very proud.",
+    "meaning_ar": "أنا متأكد أن عائلتك فخورة جدًا.",
+    "meaning_en": "your family must feel happy about what you did",
+    "example": "You passed! I'm sure your parents are very proud."
+   },
+   {
+    "phrase": "I will never stop trying.",
+    "meaning_ar": "لن أتوقف أبدًا عن المحاولة.",
+    "meaning_en": "I will keep trying",
+    "example": "It's hard, but I will never stop trying."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Present perfect vs past simple (review)",
+    "explanation_ar": "• المضارع التام (have/has + p.p.) لما فعلناه في فترة لم تنتهِ أو حتى الآن، بدون وقت محدد: I've done so many amazing things. I have met people from all over the world. Her career has really taken off.\n• الماضي البسيط لأحداث منتهية في وقت معروف أو في قصة: Not too long ago, I didn't feel very good. I took some chances. Sometimes I succeeded. Sometimes I failed.\nتصريفات مهمة: take – took – taken, do – did – done, make – made – made, meet – met – met.",
+    "explanation_en": "• Present perfect (have/has + past participle) for things we have done up to now, with no specific time: I've done so many amazing things. I have met people from all over the world. Her career has really taken off.\n• Past simple for finished events at a known time or in a story: Not too long ago, I didn't feel very good. I took some chances. Sometimes I succeeded. Sometimes I failed.\nKey forms: take – took – taken, do – did – done, make – made – made, meet – met – met.",
+    "examples": [
+     "I have met people from all over the world.",
+     "I've made many good friends.",
+     "I took some chances.",
+     "Sometimes I succeeded. Sometimes I failed."
+    ]
+   },
+   {
+    "title": "Future continuous: will be + verb-ing",
+    "explanation_ar": "will be + الفعل + ing لحدث سيكون مستمرًا في المستقبل أو مخطط له: I will be acting in three movies. Will you be moving to Hollywood? النفي: I won't be moving.",
+    "explanation_en": "Use will be + verb-ing for an action that will be in progress or is planned in the future: I will be acting in three movies. Will you be moving to Hollywood? Negative: I won't be moving.",
+    "examples": [
+     "I will be acting in three movies.",
+     "Will you be moving to Hollywood?",
+     "She will be working all day tomorrow.",
+     "We won't be staying long."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "I have meet people from all over the world.",
+    "I have met people from all over the world.",
+    "I has met people from all over the world.",
+    "I have meeting people from all over the world."
+   ],
+   "answer": 1,
+   "explanation_ar": "have + التصريف الثالث met.",
+   "explanation_en": "have + past participle: met."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "Last year I have taken some chances.",
+    "Last year I take some chances.",
+    "Last year I took some chances.",
+    "Last year I taken some chances."
+   ],
+   "answer": 2,
+   "explanation_ar": "مع last year نستخدم الماضي البسيط took.",
+   "explanation_en": "With \"last year\" use the past simple: took."
+  },
+  {
+   "question": "\"Her acting career has really taken off.\" This means her career …",
+   "choices": [
+    "has become very successful",
+    "has stopped",
+    "is on a plane",
+    "has become boring"
+   ],
+   "answer": 0,
+   "explanation_ar": "take off هنا تعني نجح بسرعة.",
+   "explanation_en": "Here \"take off\" means became successful quickly."
+  },
+  {
+   "question": "Complete: \"I will be ___ in three movies.\"",
+   "choices": [
+    "act",
+    "acted",
+    "to act",
+    "acting"
+   ],
+   "answer": 3,
+   "explanation_ar": "will be + الفعل + ing.",
+   "explanation_en": "Use will be + verb-ing."
+  },
+  {
+   "question": "The opposite of \"succeed\" is …",
+   "choices": [
+    "fail",
+    "guess",
+    "share",
+    "prepare"
+   ],
+   "answer": 0,
+   "explanation_ar": "عكس succeed هو fail.",
+   "explanation_en": "The opposite of \"succeed\" is \"fail\"."
+  },
+  {
+   "question": "Special clothes that an actor wears are a …",
+   "choices": [
+    "career",
+    "costume",
+    "director",
+    "play"
+   ],
+   "answer": 1,
+   "explanation_ar": "costume = زي التمثيل.",
+   "explanation_en": "A costume is the special clothes an actor wears."
+  },
+  {
+   "question": "Which sentence is correct?",
+   "choices": [
+    "The news are very good.",
+    "The news is very good.",
+    "The newses are very good.",
+    "A news is very good."
+   ],
+   "answer": 1,
+   "explanation_ar": "news كلمة مفردة غير معدودة: The news is.",
+   "explanation_en": "\"News\" is uncountable and takes a singular verb: The news is."
+  },
+  {
+   "question": "\"I'm sure your family is very ___.\" (= happy because of what you did)",
+   "choices": [
+    "afraid",
+    "nervous",
+    "proud",
+    "late"
+   ],
+   "answer": 2,
+   "explanation_ar": "proud = فخور.",
+   "explanation_en": "\"Proud\" means happy because someone did something good."
+  },
+  {
+   "question": "A dream that really happens is a dream that …",
+   "choices": [
+    "takes off",
+    "comes back",
+    "gets around",
+    "comes true"
+   ],
+   "answer": 3,
+   "explanation_ar": "come true = يتحقق.",
+   "explanation_en": "When a dream really happens, it comes true."
+  },
+  {
+   "question": "A guest on a TV show says to the host at the start:",
+   "choices": [
+    "Thank you so much for having me here.",
+    "Let's give a warm welcome to me.",
+    "Let me guess, you're a tree.",
+    "Good luck to you, too."
+   ],
+   "answer": 0,
+   "explanation_ar": "الضيف يشكر المضيف على استضافته بهذه الجملة.",
+   "explanation_en": "A guest thanks the host for inviting them with this sentence."
+  }
+ ]
+}

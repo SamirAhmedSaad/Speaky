@@ -1,0 +1,48 @@
+{
+  "title": "This, That, These, Those: Distance, Number, Time",
+  "content": {
+    "vocabulary": [
+      {"word": "demonstrative", "pos": "noun", "meaning_en": "a word that points to something: this, that, these, those", "meaning_ar": "اسم إشارة", "note_ar": "", "note_en": "", "example": "A demonstrative points to something."},
+      {"word": "point to", "pos": "phrasal verb", "meaning_en": "show something with your finger or with a word", "meaning_ar": "يشير إلى", "note_ar": "", "note_en": "", "example": "He pointed to the car and said, \"That car is fast.\""},
+      {"word": "distance", "pos": "noun", "meaning_en": "how far one place is from another", "meaning_ar": "المسافة", "note_ar": "", "note_en": "", "example": "\"This\" and \"that\" show distance."},
+      {"word": "number", "pos": "noun", "meaning_en": "how many: one or more than one", "meaning_ar": "العدد", "note_ar": "", "note_en": "", "example": "\"These\" tells us the number is more than one."},
+      {"word": "single", "pos": "adjective", "meaning_en": "only one", "meaning_ar": "مفرد / واحد", "note_ar": "", "note_en": "", "example": "\"This\" is for a single thing."},
+      {"word": "multiple", "pos": "adjective", "meaning_en": "many, more than one", "meaning_ar": "متعدد / كثير", "note_ar": "", "note_en": "", "example": "\"Those\" is for multiple things."},
+      {"word": "present", "pos": "noun", "meaning_en": "the time now", "meaning_ar": "الحاضر", "note_ar": "", "note_en": "", "example": "\"This time\" talks about the present."},
+      {"word": "past", "pos": "noun", "meaning_en": "the time before now", "meaning_ar": "الماضي", "note_ar": "", "note_en": "", "example": "\"That time\" can talk about the past."},
+      {"word": "future", "pos": "noun", "meaning_en": "the time after now", "meaning_ar": "المستقبل", "note_ar": "", "note_en": "", "example": "Our trip is next month. That will be fun! (future)"},
+      {"word": "beside", "pos": "preposition", "meaning_en": "next to", "meaning_ar": "بجانب", "note_ar": "", "note_en": "", "example": "The pen is right beside me."},
+      {"word": "the last time", "pos": "phrase", "meaning_en": "the most recent time something happened", "meaning_ar": "آخر مرة", "note_ar": "", "note_en": "", "example": "That was the last time I ate fish."},
+      {"word": "trip", "pos": "noun", "meaning_en": "a journey to a place and back", "meaning_ar": "رحلة", "note_ar": "", "note_en": "", "example": "We have a trip to Florida next month."},
+      {"word": "go first", "pos": "phrase", "meaning_en": "do something before the other people", "meaning_ar": "يبدأ أولًا / يكون الأول", "note_ar": "", "note_en": "", "example": "This time I want to go first."}
+    ],
+    "fine_lines": [
+      {"title": "this/that vs these/those (number)", "words": ["this / that", "these / those"], "explanation_ar": "this و that لشيء واحد. these و those لأكثر من شيء. حيلة: المقطع se في آخر these و those = some extra أي \"أشياء إضافية\" = جمع.", "explanation_en": "\"This\" and \"that\" are for one thing. \"These\" and \"those\" are for more than one. Trick: the \"se\" at the end of these/those = \"some extra\" = plural.", "examples": [{"word": "this / that", "sentence": "This marker is red."}, {"word": "these / those", "sentence": "Those markers are blue."}]},
+      {"title": "this time vs that time", "words": ["this time", "that time"], "explanation_ar": "this time = الآن (الحاضر). that time = وقت بعيد عن الآن، في الماضي أو المستقبل.", "explanation_en": "\"This time\" = now (present). \"That time\" = a time away from now, in the past or the future.", "examples": [{"word": "this time", "sentence": "This time I want to go first."}, {"word": "that time", "sentence": "Do you remember that time we went to the beach?"}]}
+    ],
+    "expressions": [
+      {"phrase": "Do you remember that time when...?", "meaning_ar": "هل تتذكر ذلك الوقت عندما...؟", "meaning_en": "A way to talk about a shared memory from the past.", "example": "Do you remember that time when we went to the beach?"},
+      {"phrase": "I can't wait for...", "meaning_ar": "لا أطيق الانتظار لـ... / متشوق جدًا لـ...", "meaning_en": "I am very excited about something in the future.", "example": "I can't wait for our trip. That will be fun."},
+      {"phrase": "This is the best time of my life.", "meaning_ar": "هذا أفضل وقت في حياتي.", "meaning_en": "I am very happy right now.", "example": "I love my new job. This is the best time of my life."},
+      {"phrase": "My house is that way.", "meaning_ar": "بيتي في ذلك الاتجاه.", "meaning_en": "My house is in that direction.", "example": "\"Where do you live?\" \"My house is that way.\""}
+    ],
+    "grammar": [
+      {"title": "Demonstratives show distance", "explanation_ar": "this و these لشيء قريب منك تستطيع لمسه. that و those لشيء بعيد عنك تشير إليه.", "explanation_en": "\"This\" and \"these\" are for things close to you, things you can touch. \"That\" and \"those\" are for things far away that you point to.", "examples": ["Is this your house?", "That car is very fast."]},
+      {"title": "Demonstratives show number", "explanation_ar": "المفرد: this (قريب)، that (بعيد). الجمع: these (قريب)، those (بعيد).", "explanation_en": "Singular: this (near), that (far). Plural: these (near), those (far).", "examples": ["this marker / these markers", "that marker / those markers"]},
+      {"title": "Demonstratives show time", "explanation_ar": "this للحاضر (الآن). that لوقت بعيد عن الآن: في الماضي (That was the last time...) أو في المستقبل (That will be fun).", "explanation_en": "\"This\" is for the present (now). \"That\" is for a time away from now: the past (That was the last time...) or the future (That will be fun).", "examples": ["This time I want to go first.", "That was the last time I ate fish.", "Our trip is next week. That will be fun."]},
+      {"title": "Pronoun or adjective?", "explanation_ar": "إذا جاء اسم الإشارة وحده فهو ضمير: These are very nice. وإذا جاء قبل اسم فهو صفة تصف الاسم وتعطي معلومة عن المسافة أو العدد: I like this shirt. Those people need help.", "explanation_en": "If the demonstrative stands alone, it is a pronoun: \"These are very nice.\" If it comes before a noun, it is an adjective that describes the noun (distance, number): \"I like this shirt.\" \"Those people need help.\"", "examples": ["These are very nice. (pronoun)", "I like this shirt. (adjective)"]}
+    ]
+  },
+  "questions": [
+    {"question": "\"I like ___ shirt I'm wearing.\"", "choices": ["those", "these", "that", "this"], "answer": 3, "explanation_ar": "قميص واحد وقريب (أرتديه): this.", "explanation_en": "One shirt, very close (I'm wearing it): this."},
+    {"question": "In \"I like this shirt\", \"this\" is a demonstrative ___.", "choices": ["adjective", "pronoun", "verb", "adverb"], "answer": 0, "explanation_ar": "جاءت قبل الاسم shirt لتصفه، فهي صفة.", "explanation_en": "It comes before the noun \"shirt\" and describes it, so it is an adjective."},
+    {"question": "\"That car is very fast.\" Where is the car?", "choices": ["in my hand", "far from me", "very close to me", "there are many cars"], "answer": 1, "explanation_ar": "that تدل على البعد.", "explanation_en": "\"That\" shows something far away."},
+    {"question": "\"That was the last time I ate fish.\" This sentence is about ___.", "choices": ["the present", "the future", "the past", "a plural thing"], "answer": 2, "explanation_ar": "that مع was تدل على الماضي.", "explanation_en": "\"That\" with \"was\" shows the past."},
+    {"question": "\"___ are very nice.\" (more than one, near me)", "choices": ["This", "That", "Those", "These"], "answer": 3, "explanation_ar": "جمع وقريب: these.", "explanation_en": "Plural and near: these."},
+    {"question": "\"Those people need help.\" What two things does \"those\" tell us?", "choices": ["more than one, far away", "one person, near", "one person, far away", "more than one, near"], "answer": 0, "explanation_ar": "those = جمع + بعيد.", "explanation_en": "\"Those\" = plural + far."},
+    {"question": "\"This time I want to go first.\" This is about ___.", "choices": ["the past", "the present", "a far place", "many people"], "answer": 1, "explanation_ar": "this time تعني الآن، الحاضر.", "explanation_en": "\"This time\" means now, the present."},
+    {"question": "James's trick: the \"se\" in these/those means ___.", "choices": ["see", "some extra (more than one)", "single", "said"], "answer": 1, "explanation_ar": "se = some extra، أي جمع.", "explanation_en": "\"se\" = some extra, meaning plural."},
+    {"question": "\"Our trip is next month. ___ will be fun!\"", "choices": ["That", "These", "Those", "This"], "answer": 0, "explanation_ar": "الرحلة في المستقبل (بعيد عن الآن) ومفرد: that.", "explanation_en": "The trip is in the future (away from now), singular: that."},
+    {"question": "Which sentence is correct?", "choices": ["Those marker is far.", "This markers are near.", "These markers are near.", "That markers are far."], "answer": 2, "explanation_ar": "these + اسم جمع + are.", "explanation_en": "these + plural noun + are."}
+  ]
+}

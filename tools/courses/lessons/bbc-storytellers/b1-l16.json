@@ -1,0 +1,330 @@
+{
+  "title": "Car Journey",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "journey",
+        "pos": "noun",
+        "meaning_en": "going from one place to another, often far",
+        "meaning_ar": "رحلة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a long car journey."
+      },
+      {
+        "word": "car",
+        "pos": "noun",
+        "meaning_en": "a vehicle with four wheels",
+        "meaning_ar": "سيارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They put the suitcases in the car."
+      },
+      {
+        "word": "suitcase",
+        "pos": "noun",
+        "meaning_en": "a big bag for clothes when you travel",
+        "meaning_ar": "حقيبة سفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They packed their suitcases."
+      },
+      {
+        "word": "seat",
+        "pos": "noun",
+        "meaning_en": "a place to sit",
+        "meaning_ar": "مقعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella and Joe sat in the back seat."
+      },
+      {
+        "word": "nearly",
+        "pos": "adverb",
+        "meaning_en": "almost",
+        "meaning_ar": "تقريبًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are we nearly there yet?"
+      },
+      {
+        "word": "bored",
+        "pos": "adjective",
+        "meaning_en": "not interested",
+        "meaning_ar": "يشعر بالملل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Bella was bored."
+      },
+      {
+        "word": "guess",
+        "pos": "verb",
+        "meaning_en": "say an answer when you are not sure",
+        "meaning_ar": "يخمّن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Everyone had to guess."
+      },
+      {
+        "word": "traffic jam",
+        "pos": "noun",
+        "meaning_en": "many cars stopped on a road",
+        "meaning_ar": "ازدحام مروري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a giant traffic jam."
+      },
+      {
+        "word": "road",
+        "pos": "noun",
+        "meaning_en": "a way for cars",
+        "meaning_ar": "طريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll take the small roads."
+      },
+      {
+        "word": "phone",
+        "pos": "noun",
+        "meaning_en": "a device for calling; it can show maps",
+        "meaning_ar": "هاتف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll use our phones."
+      },
+      {
+        "word": "lost",
+        "pos": "adjective",
+        "meaning_en": "not knowing where you are",
+        "meaning_ar": "تائه / ضائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We're lost!"
+      },
+      {
+        "word": "left",
+        "pos": "noun / adverb",
+        "meaning_en": "the opposite side of right",
+        "meaning_ar": "يسار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Turn left."
+      },
+      {
+        "word": "right",
+        "pos": "noun / adverb",
+        "meaning_en": "the opposite side of left",
+        "meaning_ar": "يمين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Left or right?"
+      },
+      {
+        "word": "sign",
+        "pos": "noun",
+        "meaning_en": "a board with words to show the way",
+        "meaning_ar": "لافتة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look! A signpost!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "left vs right",
+        "words": [
+          "left",
+          "right"
+        ],
+        "explanation_ar": "left = يسار، و right = يمين. و straight ahead = إلى الأمام مباشرة.",
+        "explanation_en": "\"left\" and \"right\" are opposite sides. \"straight ahead\" = forward.",
+        "examples": [
+          {
+            "word": "left",
+            "sentence": "Turn left at the crossroads."
+          },
+          {
+            "word": "right",
+            "sentence": "The school is on the right."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Are we nearly there yet?",
+        "meaning_ar": "هل وصلنا تقريبًا؟",
+        "meaning_en": "Children ask this on long trips.",
+        "example": "Mum, are we nearly there yet? - Not yet."
+      },
+      {
+        "phrase": "I spy with my little eye, something beginning with C.",
+        "meaning_ar": "أرى بعيني الصغيرة شيئًا يبدأ بحرف C.",
+        "meaning_en": "A guessing game.",
+        "example": "I spy with my little eye, something beginning with T. - Tree!"
+      },
+      {
+        "phrase": "It's going to take hours.",
+        "meaning_ar": "سيستغرق الأمر ساعات.",
+        "meaning_en": "It will take a long time.",
+        "example": "Look at the traffic! It's going to take hours."
+      },
+      {
+        "phrase": "We're lost.",
+        "meaning_ar": "لقد ضللنا الطريق.",
+        "meaning_en": "We don't know where we are.",
+        "example": "We're lost. Let's ask someone."
+      },
+      {
+        "phrase": "Left or right or straight ahead?",
+        "meaning_ar": "يسارًا أم يمينًا أم إلى الأمام؟",
+        "meaning_en": "Asking which way to go.",
+        "example": "We are at the crossroads. Left or right or straight ahead?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Suggestions: Why don't you ...? / Why not ...? / Let's ...",
+        "explanation_ar": "نقترح بـ Why don't you + فعل؟ أو Why not + فعل؟ أو Let's + فعل.",
+        "explanation_en": "Suggest: Why don't you + verb? / Why not + verb? / Let's + verb.",
+        "examples": [
+          "Why don't you have a nap?",
+          "Why not watch a film?",
+          "Let's play I Spy."
+        ]
+      },
+      {
+        "title": "Future with will",
+        "explanation_ar": "نستخدم will + فعل لقرار الآن أو توقع: We'll take the small roads. We'll = We will.",
+        "explanation_en": "Use will + verb for a decision now or a prediction. We'll = We will.",
+        "examples": [
+          "We'll take the small roads.",
+          "We'll use our phones.",
+          "It won't be long now."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where was the family going?",
+      "choices": [
+        "to Scotland",
+        "to the beach",
+        "to London",
+        "to the zoo"
+      ],
+      "answer": 0,
+      "explanation_ar": "كانوا ذاهبين إلى اسكتلندا.",
+      "explanation_en": "They were going to Scotland."
+    },
+    {
+      "question": "Bella asked many times: \"___\"",
+      "choices": [
+        "Where is my tablet?",
+        "Are we nearly there yet?",
+        "Can I drive?",
+        "What time is it?"
+      ],
+      "answer": 1,
+      "explanation_ar": "كانت تسأل: هل وصلنا تقريبًا؟",
+      "explanation_en": "She asked \"Are we nearly there yet?\""
+    },
+    {
+      "question": "Who showed the right way at the crossroads?",
+      "choices": [
+        "Dad",
+        "Mum",
+        "Bella",
+        "Joe"
+      ],
+      "answer": 2,
+      "explanation_ar": "بيلا أشارت إلى الطريق الصحيح.",
+      "explanation_en": "Bella pointed the way."
+    },
+    {
+      "question": "Why didn't the phones help?",
+      "choices": [
+        "They were broken.",
+        "Dad forgot them.",
+        "Bella had them.",
+        "There was no phone reception."
+      ],
+      "answer": 3,
+      "explanation_ar": "لم تكن هناك تغطية للهاتف.",
+      "explanation_en": "There was no reception."
+    },
+    {
+      "question": "___ don't you have a nap?",
+      "choices": [
+        "Why",
+        "What",
+        "Where",
+        "Who"
+      ],
+      "answer": 0,
+      "explanation_ar": "الاقتراح Why don't you ...?",
+      "explanation_en": "Suggestion: Why don't you ...?"
+    },
+    {
+      "question": "We don't know where we are. We are ___.",
+      "choices": [
+        "nearly",
+        "lost",
+        "bored",
+        "right"
+      ],
+      "answer": 1,
+      "explanation_ar": "lost = تائهون.",
+      "explanation_en": "lost = not knowing where you are."
+    },
+    {
+      "question": "\"We'll\" means ___.",
+      "choices": [
+        "We all",
+        "We would",
+        "We will",
+        "We well"
+      ],
+      "answer": 2,
+      "explanation_ar": "هذا اختصار: We'll = We will.",
+      "explanation_en": "We'll = We will."
+    },
+    {
+      "question": "The opposite of \"left\" is ___.",
+      "choices": [
+        "straight",
+        "lost",
+        "back",
+        "right"
+      ],
+      "answer": 3,
+      "explanation_ar": "عكس left هو right.",
+      "explanation_en": "The opposite of left is right."
+    },
+    {
+      "question": "You say an answer when you are not sure. You ___.",
+      "choices": [
+        "guess",
+        "know",
+        "sleep",
+        "drive"
+      ],
+      "answer": 0,
+      "explanation_ar": "guess = يخمّن.",
+      "explanation_en": "guess = say an answer without being sure."
+    },
+    {
+      "question": "A big bag for clothes when you travel is a ___.",
+      "choices": [
+        "seat",
+        "suitcase",
+        "sign",
+        "phone"
+      ],
+      "answer": 1,
+      "explanation_ar": "حقيبة السفر = suitcase.",
+      "explanation_en": "That is a suitcase."
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "title": "Buying Vegetables",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "vegetables",
+        "pos": "noun",
+        "meaning_en": "plants or parts of plants we eat",
+        "meaning_ar": "خضروات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to buy some vegetables."
+      },
+      {
+        "word": "carrot",
+        "pos": "noun",
+        "meaning_en": "a long orange vegetable",
+        "meaning_ar": "جزر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take three carrots."
+      },
+      {
+        "word": "potato",
+        "pos": "noun",
+        "meaning_en": "a round vegetable that grows under the ground",
+        "meaning_ar": "بطاطس",
+        "note_ar": "الجمع: potatoes",
+        "note_en": "Plural: potatoes.",
+        "example": "I need two potatoes."
+      },
+      {
+        "word": "onion",
+        "pos": "noun",
+        "meaning_en": "a round vegetable with a strong smell",
+        "meaning_ar": "بصل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll take one onion, please."
+      },
+      {
+        "word": "tomato",
+        "pos": "noun",
+        "meaning_en": "a round red fruit used like a vegetable",
+        "meaning_ar": "طماطم",
+        "note_ar": "الجمع: tomatoes",
+        "note_en": "Plural: tomatoes.",
+        "example": "Some tomatoes, please."
+      },
+      {
+        "word": "soup",
+        "pos": "noun",
+        "meaning_en": "hot liquid food made from vegetables or meat",
+        "meaning_ar": "شوربة / حساء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to make soup."
+      },
+      {
+        "word": "dinner",
+        "pos": "noun",
+        "meaning_en": "the evening meal",
+        "meaning_ar": "العشاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I am going to make dinner."
+      },
+      {
+        "word": "fresh",
+        "pos": "adjective",
+        "meaning_en": "new and good, not old",
+        "meaning_ar": "طازج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here are some fresh carrots."
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "meaning_en": "must have",
+        "meaning_ar": "يحتاج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What do you need?"
+      },
+      {
+        "word": "total",
+        "pos": "noun",
+        "meaning_en": "the full price",
+        "meaning_ar": "المجموع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your total is $10."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "How many vs How much",
+        "words": [
+          "How many",
+          "How much"
+        ],
+        "explanation_ar": "How many مع الأشياء المعدودة (tomatoes, carrots). How much مع غير المعدودة والسعر (water, money).",
+        "explanation_en": "\"How many\" for things you can count. \"How much\" for things you can't count, and for prices.",
+        "examples": [
+          {
+            "word": "How many",
+            "sentence": "How many tomatoes?"
+          },
+          {
+            "word": "How much",
+            "sentence": "How much is it?"
+          }
+        ]
+      },
+      {
+        "title": "Plural -s and -es",
+        "words": [
+          "carrots",
+          "potatoes",
+          "tomatoes"
+        ],
+        "explanation_ar": "معظم الأسماء نضيف لها s: carrot ← carrots. الكلمات التي تنتهي بـ o مثل potato وtomato نضيف لها es.",
+        "explanation_en": "Most nouns add -s. Potato and tomato add -es.",
+        "examples": [
+          {
+            "word": "carrots",
+            "sentence": "three carrots"
+          },
+          {
+            "word": "potatoes",
+            "sentence": "two potatoes"
+          },
+          {
+            "word": "tomatoes",
+            "sentence": "four tomatoes"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How are you? / I'm good, thanks! How about you?",
+        "meaning_ar": "كيف حالك؟ / بخير، شكرًا! وأنت؟",
+        "meaning_en": "A friendly greeting.",
+        "example": "How are you? I'm fine, thank you."
+      },
+      {
+        "phrase": "What can I help you with today?",
+        "meaning_ar": "بماذا أستطيع مساعدتك اليوم؟",
+        "meaning_en": "The seller offers help.",
+        "example": "Hello! What can I help you with today?"
+      },
+      {
+        "phrase": "I want to buy some vegetables.",
+        "meaning_ar": "أريد شراء بعض الخضروات.",
+        "meaning_en": "Saying what you want.",
+        "example": "I want to buy some fruit."
+      },
+      {
+        "phrase": "What are you going to make?",
+        "meaning_ar": "ماذا ستطبخ؟",
+        "meaning_en": "Asking about a plan.",
+        "example": "What are you going to make for lunch?"
+      },
+      {
+        "phrase": "I'll take three carrots.",
+        "meaning_ar": "سآخذ ثلاث جزرات.",
+        "meaning_en": "Choosing to buy.",
+        "example": "I'll take two onions, please."
+      },
+      {
+        "phrase": "Do you have onions? / Yes, I do.",
+        "meaning_ar": "هل عندك بصل؟ / نعم، عندي.",
+        "meaning_en": "Asking if the shop has something.",
+        "example": "Do you have lemons? Yes, I do."
+      },
+      {
+        "phrase": "Is that everything? / Yes, that's all.",
+        "meaning_ar": "هل هذا كل شيء؟ / نعم، هذا كل شيء.",
+        "meaning_en": "Checking the order is finished.",
+        "example": "Is that everything? Yes, that's all, thanks."
+      },
+      {
+        "phrase": "Have a nice dinner!",
+        "meaning_ar": "عشاءً طيبًا!",
+        "meaning_en": "A kind goodbye.",
+        "example": "Have a nice day!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "going to for plans",
+        "explanation_ar": "نستخدم am/is/are going to + الفعل للحديث عن خطة في المستقبل.",
+        "explanation_en": "Use am/is/are + going to + verb for future plans.",
+        "examples": [
+          "I am going to make dinner.",
+          "What are you going to make?",
+          "She is going to buy tomatoes."
+        ]
+      },
+      {
+        "title": "some with plural nouns",
+        "explanation_ar": "نستخدم some مع الجمع وغير المعدود في الجمل المثبتة والطلبات.",
+        "explanation_en": "Use \"some\" with plural and uncountable nouns in positive sentences and requests.",
+        "examples": [
+          "I need some carrots, please.",
+          "Some tomatoes, please.",
+          "I want to buy some vegetables."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the plural of \"tomato\"?",
+      "choices": [
+        "tomatos",
+        "tomatoes",
+        "tomatoies",
+        "tomato"
+      ],
+      "answer": 1,
+      "explanation_ar": "نضيف es: tomatoes.",
+      "explanation_en": "Add -es: tomatoes."
+    },
+    {
+      "question": "____ tomatoes do you want?",
+      "choices": [
+        "How much",
+        "What many",
+        "How long",
+        "How many"
+      ],
+      "answer": 3,
+      "explanation_ar": "الطماطم معدودة فنقول How many.",
+      "explanation_en": "Tomatoes are countable: \"How many\"."
+    },
+    {
+      "question": "I am going ____ make soup.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "-"
+      ],
+      "answer": 0,
+      "explanation_ar": "going to + الفعل.",
+      "explanation_en": "going to + verb."
+    },
+    {
+      "question": "Which is a long orange vegetable?",
+      "choices": [
+        "onion",
+        "potato",
+        "carrot",
+        "tomato"
+      ],
+      "answer": 2,
+      "explanation_ar": "الجزر برتقالي وطويل.",
+      "explanation_en": "A carrot is long and orange."
+    },
+    {
+      "question": "\"Do you have onions?\" \"Yes, I ____.\"",
+      "choices": [
+        "have",
+        "am",
+        "do",
+        "does"
+      ],
+      "answer": 2,
+      "explanation_ar": "الجواب: Yes, I do.",
+      "explanation_en": "The answer is \"Yes, I do.\""
+    },
+    {
+      "question": "\"Is that everything?\" means ...",
+      "choices": [
+        "Is that all you want?",
+        "Is it expensive?",
+        "Do you like it?",
+        "Is it fresh?"
+      ],
+      "answer": 0,
+      "explanation_ar": "يسأل هل انتهى الطلب.",
+      "explanation_en": "It asks if your order is finished."
+    },
+    {
+      "question": "I need ____ potatoes.",
+      "choices": [
+        "a",
+        "an",
+        "much",
+        "some"
+      ],
+      "answer": 3,
+      "explanation_ar": "some مع الجمع.",
+      "explanation_en": "Use \"some\" with plurals."
+    },
+    {
+      "question": "What does \"fresh\" mean?",
+      "choices": [
+        "old",
+        "new and good",
+        "cooked",
+        "expensive"
+      ],
+      "answer": 1,
+      "explanation_ar": "fresh طازج.",
+      "explanation_en": "\"Fresh\" means new and good."
+    },
+    {
+      "question": "\"Have a nice dinner!\" is ...",
+      "choices": [
+        "a kind goodbye",
+        "a question",
+        "a price",
+        "an order"
+      ],
+      "answer": 0,
+      "explanation_ar": "هي تحية وداع لطيفة.",
+      "explanation_en": "It is a kind goodbye."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "I'll take three carrot.",
+        "I'll takes three carrots.",
+        "I'll take three carrots.",
+        "I take three carrotes."
+      ],
+      "answer": 2,
+      "explanation_ar": "three + جمع: carrots.",
+      "explanation_en": "three + plural: carrots."
+    }
+  ]
+}

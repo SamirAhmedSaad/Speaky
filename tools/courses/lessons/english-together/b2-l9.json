@@ -1,0 +1,342 @@
+{
+  "title": "Small Talk About Food",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "nearby",
+        "pos": "adverb",
+        "meaning_en": "near here; not far",
+        "meaning_ar": "قريب من هنا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Is there a bank nearby?"
+      },
+      {
+        "word": "serve",
+        "pos": "verb",
+        "meaning_en": "give food or drink to people in a restaurant",
+        "meaning_ar": "يقدّم (الطعام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They serve Indian food."
+      },
+      {
+        "word": "specialty",
+        "pos": "noun",
+        "meaning_en": "the food a restaurant is best at",
+        "meaning_ar": "الطبق المميّز / تخصّص",
+        "note_ar": "في بريطانيا: speciality",
+        "note_en": "UK: speciality.",
+        "example": "Their specialty is spicy dishes."
+      },
+      {
+        "word": "spicy",
+        "pos": "adjective",
+        "meaning_en": "with a strong hot taste from pepper or chili",
+        "meaning_ar": "حارّ (متبَّل)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I love spicy food!"
+      },
+      {
+        "word": "flavor",
+        "pos": "noun",
+        "meaning_en": "taste",
+        "meaning_ar": "نكهة / طعم",
+        "note_ar": "في بريطانيا: flavour",
+        "note_en": "UK: flavour.",
+        "example": "The food has strong flavors."
+      },
+      {
+        "word": "disappointed",
+        "pos": "adjective",
+        "meaning_en": "sad because something was not as good as you hoped",
+        "meaning_ar": "خائب الأمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You won't be disappointed."
+      },
+      {
+        "word": "hungry",
+        "pos": "adjective",
+        "meaning_en": "wanting to eat",
+        "meaning_ar": "جائع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Now I'm getting hungry."
+      },
+      {
+        "word": "noodles",
+        "pos": "noun",
+        "meaning_en": "long thin strips of pasta, often in soup",
+        "meaning_ar": "نودلز (شعيرية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They have a spicy noodle soup."
+      },
+      {
+        "word": "reservation",
+        "pos": "noun",
+        "meaning_en": "booking a table before you go",
+        "meaning_ar": "حجز",
+        "note_ar": "",
+        "note_en": "Verb: reserve / book.",
+        "example": "I'll make a reservation."
+      },
+      {
+        "word": "opening hours",
+        "pos": "noun",
+        "meaning_en": "the times when a shop or restaurant is open",
+        "meaning_ar": "ساعات العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me check their opening hours."
+      },
+      {
+        "word": "craving",
+        "pos": "noun",
+        "meaning_en": "a strong wish to eat something",
+        "meaning_ar": "رغبة شديدة (في طعام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a craving for spicy food."
+      },
+      {
+        "word": "feast",
+        "pos": "noun",
+        "meaning_en": "a big special meal with lots of food",
+        "meaning_ar": "وليمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's going to be a spicy feast!"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "hot vs spicy",
+        "words": [
+          "hot",
+          "spicy"
+        ],
+        "explanation_ar": "spicy = طعمه حار بالتوابل والفلفل. hot قد تعني ساخن (درجة الحرارة) أو حار (طعم)، لذلك spicy أوضح.",
+        "explanation_en": "\"Spicy\" = strong taste from chili. \"Hot\" can mean high temperature OR spicy, so \"spicy\" is clearer.",
+        "examples": [
+          {
+            "word": "spicy",
+            "sentence": "This curry is very spicy."
+          },
+          {
+            "word": "hot",
+            "sentence": "Be careful, the soup is hot!"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Have you tried that new restaurant?",
+        "meaning_ar": "هل جرّبت ذلك المطعم الجديد؟",
+        "meaning_en": "Asking if someone has been there.",
+        "example": "Have you tried the new café?"
+      },
+      {
+        "phrase": "What kind of food do they have?",
+        "meaning_ar": "ما نوع الطعام لديهم؟",
+        "meaning_en": "Asking about the menu.",
+        "example": "What kind of food do they serve?"
+      },
+      {
+        "phrase": "I can't get enough of it.",
+        "meaning_ar": "لا أشبع منه أبدًا (أحبه كثيرًا).",
+        "meaning_en": "You love it very much.",
+        "example": "I love mangoes. I can't get enough of them."
+      },
+      {
+        "phrase": "I'm always up for trying new food.",
+        "meaning_ar": "أنا دائمًا مستعد لتجربة طعام جديد.",
+        "meaning_en": "You are happy to try something.",
+        "example": "I'm always up for a walk."
+      },
+      {
+        "phrase": "Trust me, you won't be disappointed.",
+        "meaning_ar": "صدّقني، لن تخيب ظنك.",
+        "meaning_en": "I promise you will like it.",
+        "example": "Try this cake. Trust me, you won't be disappointed."
+      },
+      {
+        "phrase": "If you're into noodles ...",
+        "meaning_ar": "إن كنت تحب النودلز ...",
+        "meaning_en": "\"Be into\" = like.",
+        "example": "If you're into football, you'll love this game."
+      },
+      {
+        "phrase": "You're making my mouth water!",
+        "meaning_ar": "أنت تجعل لعابي يسيل!",
+        "meaning_en": "You make me want to eat.",
+        "example": "Stop talking about pizza! You're making my mouth water."
+      },
+      {
+        "phrase": "Count me in.",
+        "meaning_ar": "احسبني معكم (أنا مشارك).",
+        "meaning_en": "I want to join you.",
+        "example": "We're going to the park. Count me in!"
+      },
+      {
+        "phrase": "Sounds like a plan.",
+        "meaning_ar": "فكرة جيدة / اتفقنا.",
+        "meaning_en": "I agree with the plan.",
+        "example": "Let's meet at six. Sounds like a plan."
+      },
+      {
+        "phrase": "I can't wait to try it!",
+        "meaning_ar": "لا أستطيع الانتظار لأجرّبه!",
+        "meaning_en": "You are very excited.",
+        "example": "I can't wait to see the new museum!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect: Have you tried ...?",
+        "explanation_ar": "نستخدم Have you + التصريف الثالث للفعل (tried) لنسأل عن تجربة في أي وقت حتى الآن. الجواب: Yes, I have. / No, I haven't.",
+        "explanation_en": "Use \"Have you + past participle\" to ask about experience up to now. Answer: \"Yes, I have\" / \"No, I haven't\".",
+        "examples": [
+          "Have you tried that new restaurant?",
+          "No, I haven't.",
+          "Have you eaten sushi?"
+        ]
+      },
+      {
+        "title": "Suggestions: Let's / We should",
+        "explanation_ar": "نقترح شيئًا بـ Let's + الفعل، أو We should + الفعل.",
+        "explanation_en": "Make suggestions with \"Let's + verb\" or \"We should + verb\".",
+        "examples": [
+          "Let's plan to go this weekend.",
+          "We should go there together soon.",
+          "Let's buy a hamburger first."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"Have you tried that new restaurant?\" \"No, I ____.\"",
+      "choices": [
+        "don't",
+        "haven't",
+        "didn't tried",
+        "am not"
+      ],
+      "answer": 1,
+      "explanation_ar": "الجواب المختصر: No, I haven't.",
+      "explanation_en": "The short answer is \"No, I haven't.\""
+    },
+    {
+      "question": "\"Count me in.\" means ...",
+      "choices": [
+        "Please count the money.",
+        "I want to join.",
+        "I don't want to come.",
+        "I am counting."
+      ],
+      "answer": 1,
+      "explanation_ar": "Count me in تعني أريد أن أشارك.",
+      "explanation_en": "It means \"I want to join\"."
+    },
+    {
+      "question": "\"You're making my mouth water!\" The speaker is ...",
+      "choices": [
+        "thirsty",
+        "sad",
+        "hungry and wants the food",
+        "tired"
+      ],
+      "answer": 2,
+      "explanation_ar": "العبارة تعني أن الطعام يبدو شهيًا جدًا.",
+      "explanation_en": "It means the food sounds very tasty."
+    },
+    {
+      "question": "Their ____ is spicy dishes. (the thing they are best at)",
+      "choices": [
+        "specialty",
+        "reservation",
+        "menu hours",
+        "feast"
+      ],
+      "answer": 0,
+      "explanation_ar": "specialty تعني الطبق المميز.",
+      "explanation_en": "\"Specialty\" is what they are best at."
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "choices": [
+        "Let's to go this weekend.",
+        "Let's going this weekend.",
+        "Let's go this weekend.",
+        "Let's goes this weekend."
+      ],
+      "answer": 2,
+      "explanation_ar": "Let's + الفعل الأساسي.",
+      "explanation_en": "Let's + base verb."
+    },
+    {
+      "question": "\"I'll check their opening hours.\" He wants to know ...",
+      "choices": [
+        "the price",
+        "when the restaurant is open",
+        "the food names",
+        "the address"
+      ],
+      "answer": 1,
+      "explanation_ar": "opening hours أوقات العمل.",
+      "explanation_en": "Opening hours are when it is open."
+    },
+    {
+      "question": "\"I'm always up for trying new food.\" means ...",
+      "choices": [
+        "I am always happy to try new food.",
+        "I never try new food.",
+        "I get up early.",
+        "I am full."
+      ],
+      "answer": 0,
+      "explanation_ar": "be up for تعني مستعد ومتحمس.",
+      "explanation_en": "\"Be up for\" = be happy to do."
+    },
+    {
+      "question": "A \"feast\" is ...",
+      "choices": [
+        "a small snack",
+        "a drink",
+        "a big special meal",
+        "a kind of noodle"
+      ],
+      "answer": 2,
+      "explanation_ar": "feast وليمة كبيرة.",
+      "explanation_en": "A feast is a big special meal."
+    },
+    {
+      "question": "\"Sounds like a plan.\" The speaker ...",
+      "choices": [
+        "agrees",
+        "disagrees",
+        "is angry",
+        "is asking a question"
+      ],
+      "answer": 0,
+      "explanation_ar": "العبارة تعني الموافقة.",
+      "explanation_en": "It means \"I agree\"."
+    },
+    {
+      "question": "Which word best means \"with a strong chili taste\"?",
+      "choices": [
+        "sweet",
+        "mild",
+        "fresh",
+        "spicy"
+      ],
+      "answer": 3,
+      "explanation_ar": "spicy حار بالتوابل.",
+      "explanation_en": "\"Spicy\" = strong chili taste."
+    }
+  ]
+}

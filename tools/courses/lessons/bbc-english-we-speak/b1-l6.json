@@ -1,0 +1,366 @@
+{
+  "title": "Expressions with prepositions",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "guess",
+        "pos": "verb / noun",
+        "meaning_en": "to give an answer without being sure",
+        "meaning_ar": "يخمّن / تخمين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you guess my age?"
+      },
+      {
+        "word": "figure",
+        "pos": "noun",
+        "meaning_en": "a number, especially in official information",
+        "meaning_ar": "رقم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The sales figures are good this month."
+      },
+      {
+        "word": "confused",
+        "pos": "adjective",
+        "meaning_en": "not able to understand or think clearly",
+        "meaning_ar": "مرتبك / حائر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm confused by these directions."
+      },
+      {
+        "word": "sailor",
+        "pos": "noun",
+        "meaning_en": "a person who works on a ship",
+        "meaning_ar": "بحّار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The sailors were lost at sea."
+      },
+      {
+        "word": "encourage",
+        "pos": "verb",
+        "meaning_en": "to give someone hope and confidence",
+        "meaning_ar": "يشجّع",
+        "note_ar": "الاسم: encouragement.",
+        "note_en": "Noun: encouragement.",
+        "example": "My teacher encouraged me to keep trying."
+      },
+      {
+        "word": "struggle",
+        "pos": "verb",
+        "meaning_en": "to find something very difficult",
+        "meaning_ar": "يكافح / يعاني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He struggled with the maths homework."
+      },
+      {
+        "word": "warning",
+        "pos": "noun",
+        "meaning_en": "something that tells you of danger or a problem",
+        "meaning_ar": "تحذير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The doctor gave him a warning about his health."
+      },
+      {
+        "word": "alarm",
+        "pos": "noun",
+        "meaning_en": "a clock or sound that wakes you up or warns you",
+        "meaning_ar": "منبّه / إنذار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My alarm goes off at six."
+      },
+      {
+        "word": "willing",
+        "pos": "adjective",
+        "meaning_en": "happy and ready to do something",
+        "meaning_ar": "مستعد / راغب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you willing to help?"
+      },
+      {
+        "word": "nonsense",
+        "pos": "noun",
+        "meaning_en": "words or ideas that are silly or not true",
+        "meaning_ar": "هراء / كلام فارغ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't talk nonsense!"
+      },
+      {
+        "word": "passion",
+        "pos": "noun",
+        "meaning_en": "a very strong love for something",
+        "meaning_ar": "شغف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Her passion is photography."
+      },
+      {
+        "word": "agree",
+        "pos": "verb",
+        "meaning_en": "to have the same opinion",
+        "meaning_ar": "يوافق",
+        "note_ar": "الاسم: agreement.",
+        "note_en": "Noun: agreement.",
+        "example": "I agree with you."
+      },
+      {
+        "word": "estimate",
+        "pos": "verb / noun",
+        "meaning_en": "to guess a number or amount; that guess",
+        "meaning_ar": "يقدّر / تقدير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I estimate the trip will take two hours."
+      },
+      {
+        "word": "complete",
+        "pos": "verb",
+        "meaning_en": "to finish",
+        "meaning_ar": "يُكمل / يُنهي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She completed the race in an hour."
+      },
+      {
+        "word": "expert",
+        "pos": "noun",
+        "meaning_en": "a person who knows a lot about something",
+        "meaning_ar": "خبير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's an expert on old cars."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Up for vs down for",
+        "words": [
+          "up for something",
+          "down for something"
+        ],
+        "explanation_ar": "كلاهما يعني: مستعد وراغب في فعل شيء. up for أكثر شيوعاً في بريطانيا. down for عامية أكثر وأصلها أمريكي ويستخدمها الشباب.",
+        "explanation_en": "Both mean 'happy and willing to do something'. 'Up for' is common in British English. 'Down for' is more slangy, from American English, and used by younger people.",
+        "examples": [
+          {
+            "word": "up for something",
+            "sentence": "Are you up for a walk after lunch?"
+          },
+          {
+            "word": "down for something",
+            "sentence": "Pizza tonight? I'm down for that!"
+          }
+        ]
+      },
+      {
+        "title": "Talk through your hat vs off the top of my head",
+        "words": [
+          "talk through your hat",
+          "off the top of my head"
+        ],
+        "explanation_ar": "talk through your hat أن تتكلم عن شيء لا تعرفه وتقول كلاماً غير صحيح. off the top of my head أن تعطي جواباً سريعاً من الذاكرة دون تحقق، وقد يكون صحيحاً تقريباً.",
+        "explanation_en": "'Talk through your hat' = speak about things you don't know, saying nonsense. 'Off the top of my head' = an honest quick answer from memory, without checking.",
+        "examples": [
+          {
+            "word": "talk through your hat",
+            "sentence": "He says he can fly a plane, but he's talking through his hat."
+          },
+          {
+            "word": "off the top of my head",
+            "sentence": "Off the top of my head, there are about 30 students."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "off the top of my head",
+        "meaning_ar": "من دون تفكير طويل / من ذاكرتي مباشرة",
+        "meaning_en": "without checking or thinking carefully; a quick guess",
+        "example": "Off the top of my head, I think the shop closes at nine."
+      },
+      {
+        "phrase": "all at sea",
+        "meaning_ar": "حائر ومرتبك تماماً",
+        "meaning_en": "confused and not sure what to do",
+        "example": "I was all at sea on my first day in the new job."
+      },
+      {
+        "phrase": "hang in there",
+        "meaning_ar": "اصمد / لا تستسلم",
+        "meaning_en": "don't give up; keep going in a difficult time",
+        "example": "The exams are nearly over - hang in there!"
+      },
+      {
+        "phrase": "a wake-up call",
+        "meaning_ar": "جرس إنذار / تنبيه",
+        "meaning_en": "something that shows you there is a problem you must deal with",
+        "example": "Failing the test was a wake-up call - now I study every day."
+      },
+      {
+        "phrase": "be up for / down for something",
+        "meaning_ar": "مستعد ومتحمس لفعل شيء",
+        "meaning_en": "to be willing and interested in doing something",
+        "example": "I'm up for a game of football. Are you down for it too?"
+      },
+      {
+        "phrase": "talk through your hat",
+        "meaning_ar": "يتكلم بلا علم / يقول كلاماً فارغاً",
+        "meaning_en": "to talk about something you don't know about; to talk nonsense",
+        "example": "Ignore him - he's talking through his hat about cars."
+      },
+      {
+        "phrase": "live for something",
+        "meaning_ar": "يعيش من أجل شيء (يحبه جداً)",
+        "meaning_en": "to love something very much; it is the most important thing in your life",
+        "example": "My brother lives for football."
+      },
+      {
+        "phrase": "tell me about it",
+        "meaning_ar": "أعرف ذلك جيداً! (أوافقك تماماً لأنني أعيش الشيء نفسه)",
+        "meaning_en": "said to show you strongly agree because you have the same experience",
+        "example": "'This traffic is terrible!' - 'Tell me about it!'"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Prepositions in fixed expressions",
+        "explanation_ar": "في التعابير الاصطلاحية لا نغيّر حرف الجر: off the top of my head، at sea، in there، up for، through your hat، live for. معنى التعبير لا يُفهم من حرف الجر وحده، بل يُحفظ كوحدة واحدة.",
+        "explanation_en": "In idioms, the preposition is fixed: off the top of my head, at sea, in there, up for, through your hat, live for. Learn each expression as one unit.",
+        "examples": [
+          "I'm up for it. (not *I'm up to it* - that has a different meaning)",
+          "She lives for her garden.",
+          "Hang in there!"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'I'm all at sea with this new software' means:",
+      "choices": [
+        "I'm on a boat",
+        "I'm confused",
+        "I'm happy",
+        "I'm an expert"
+      ],
+      "answer": 1,
+      "explanation_ar": "all at sea = حائر ومرتبك.",
+      "explanation_en": "All at sea = confused."
+    },
+    {
+      "question": "Your friend is tired during a long project. You say: ___",
+      "choices": [
+        "Hang in there!",
+        "Tell me about it!",
+        "Talk through your hat!",
+        "Live for it!"
+      ],
+      "answer": 0,
+      "explanation_ar": "hang in there = اصمد ولا تستسلم.",
+      "explanation_en": "'Hang in there' encourages someone not to give up."
+    },
+    {
+      "question": "'Off the top of my head' means:",
+      "choices": [
+        "after checking carefully",
+        "on my hat",
+        "without checking; a quick answer",
+        "I have a headache"
+      ],
+      "answer": 2,
+      "explanation_ar": "off the top of my head = جواب سريع من الذاكرة.",
+      "explanation_en": "A quick answer without checking."
+    },
+    {
+      "question": "'The heart problem was a wake-up call' means it:",
+      "choices": [
+        "woke him up early",
+        "was a phone call",
+        "was an alarm clock",
+        "showed him he must change something"
+      ],
+      "answer": 3,
+      "explanation_ar": "a wake-up call = تنبيه لمشكلة يجب التعامل معها.",
+      "explanation_en": "It warned him that he must change."
+    },
+    {
+      "question": "Are you ___ a swim later? - Yes, I'd love to.",
+      "choices": [
+        "up for",
+        "up to",
+        "down in",
+        "all at"
+      ],
+      "answer": 0,
+      "explanation_ar": "up for something = مستعد وراغب.",
+      "explanation_en": "'Up for' = willing to do."
+    },
+    {
+      "question": "He says the moon is made of cheese. He's ___ .",
+      "choices": [
+        "living for it",
+        "talking through his hat",
+        "all at sea",
+        "hanging in there"
+      ],
+      "answer": 1,
+      "explanation_ar": "talk through your hat = يقول كلاماً فارغاً.",
+      "explanation_en": "He is talking nonsense."
+    },
+    {
+      "question": "'She lives for painting' means:",
+      "choices": [
+        "she paints to earn money",
+        "she hates painting",
+        "she loves painting very much",
+        "she lives in an art school"
+      ],
+      "answer": 2,
+      "explanation_ar": "live for something = يحبه جداً.",
+      "explanation_en": "Painting is the thing she loves most."
+    },
+    {
+      "question": "'My boss gives me too much work!' - '___ ! Mine does too.'",
+      "choices": [
+        "Hang in there",
+        "Off the top of my head",
+        "All at sea",
+        "Tell me about it"
+      ],
+      "answer": 3,
+      "explanation_ar": "tell me about it = أوافقك تماماً لأنني أعيش الشيء نفسه.",
+      "explanation_en": "It shows strong agreement."
+    },
+    {
+      "question": "Which pair has almost the SAME meaning?",
+      "choices": [
+        "up for / down for",
+        "all at sea / hang in there",
+        "live for / talk through your hat",
+        "wake-up call / tell me about it"
+      ],
+      "answer": 0,
+      "explanation_ar": "up for و down for كلاهما يعني مستعد وراغب.",
+      "explanation_en": "Both mean willing to do something."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "He talks on his hat.",
+        "He talks through his hat.",
+        "He talks off his hat.",
+        "He talks at his hat."
+      ],
+      "answer": 1,
+      "explanation_ar": "التعبير الصحيح talk through your hat.",
+      "explanation_en": "The correct preposition is 'through'."
+    }
+  ]
+}

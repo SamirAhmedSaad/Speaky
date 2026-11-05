@@ -1,0 +1,50 @@
+{
+  "title": "Confusing Word Pairs for Work",
+  "content": {
+    "vocabulary": [
+      {"word": "meeting", "pos": "noun", "meaning_en": "a planned time when people who work together talk about something important", "meaning_ar": "اجتماع", "note_ar": "", "note_en": "", "example": "We have a meeting at 10 a.m."},
+      {"word": "reunion", "pos": "noun", "meaning_en": "when people who have not seen each other for a long time meet again", "meaning_ar": "لمّ الشمل / لقاء بعد فراق", "note_ar": "family reunion / school reunion", "note_en": "a family reunion, a school reunion", "example": "We had a family reunion after ten years."},
+      {"word": "business as usual", "pos": "phrase", "meaning_en": "things are happening in the normal way", "meaning_ar": "الأمور تسير كالمعتاد", "note_ar": "", "note_en": "", "example": "Even after the storm, it was business as usual at the shop."},
+      {"word": "advise", "pos": "verb", "meaning_en": "to suggest what someone should do", "meaning_ar": "ينصح", "note_ar": "تُنطق بصوت z: /ədˈvaɪz/", "note_en": "Ends with a z sound: /ədˈvaɪz/.", "example": "I advise you to take the medicine."},
+      {"word": "advice", "pos": "noun", "meaning_en": "a suggestion to help someone", "meaning_ar": "نصيحة", "note_ar": "تُنطق بصوت s: /ədˈvaɪs/، وهي غير معدودة: some advice", "note_en": "Ends with an s sound; uncountable: some advice.", "example": "Can you give me some advice?"},
+      {"word": "infer", "pos": "verb", "meaning_en": "to reach a conclusion from evidence", "meaning_ar": "يستنتج", "note_ar": "الاسم: inference", "note_en": "Noun: inference.", "example": "From the wax on the floor, I infer that he had a candle."},
+      {"word": "imply", "pos": "verb", "meaning_en": "to suggest something without saying it directly", "meaning_ar": "يُلمّح", "note_ar": "", "note_en": "", "example": "Are you trying to imply that I'm lazy?"},
+      {"word": "beside", "pos": "preposition", "meaning_en": "next to; at the side of", "meaning_ar": "بجانب", "note_ar": "", "note_en": "", "example": "The marker is beside the bottle."},
+      {"word": "besides", "pos": "preposition / adverb", "meaning_en": "in addition to; as well; apart from", "meaning_ar": "بالإضافة إلى / علاوة على", "note_ar": "تذكّر: s إضافية = معنى الإضافة", "note_en": "Remember: the extra s = addition.", "example": "Besides going to work, how do you help the company?"},
+      {"word": "hard", "pos": "adjective / adverb", "meaning_en": "difficult; solid (not soft); with a lot of effort", "meaning_ar": "صعب / صلب / بجدّ", "note_ar": "work hard = يعمل بجدّ", "note_en": "work hard = with effort", "example": "The test was hard. He works hard."},
+      {"word": "hardly", "pos": "adverb", "meaning_en": "almost not; not significantly", "meaning_ar": "بالكاد / نادرًا", "note_ar": "لا تعني بجدّ!", "note_en": "It does NOT mean \"with effort\".", "example": "That hardly means you should get more money."},
+      {"word": "latter", "pos": "adjective / noun", "meaning_en": "the second of two; the end part of something", "meaning_ar": "الأخير (الثاني من اثنين) / الجزء الأخير", "note_ar": "حرفا t = معنيان: الثاني، والجزء الأخير", "note_en": "Two t's: the second one, or the end part.", "example": "The latter half of the film was boring."},
+      {"word": "later", "pos": "adverb / adjective", "meaning_en": "after the usual or present time; comparative of late", "meaning_ar": "لاحقًا / أكثر تأخرًا", "note_ar": "", "note_en": "", "example": "I stay later than everyone else."},
+      {"word": "made with", "pos": "phrase", "meaning_en": "made using these ingredients", "meaning_ar": "مصنوع بـ (المكوّنات)", "note_ar": "", "note_en": "", "example": "This cake is made with eggs, milk and butter."},
+      {"word": "made of", "pos": "phrase", "meaning_en": "the material something is made from", "meaning_ar": "مصنوع من (المادة)", "note_ar": "", "note_en": "Also: made from (when the material changes, e.g. cheese from milk).", "example": "This sweater is made of cotton."},
+      {"word": "made by", "pos": "phrase", "meaning_en": "who or what process made it", "meaning_ar": "صُنع بواسطة", "note_ar": "", "note_en": "", "example": "This chair was made by hand."}
+    ],
+    "fine_lines": [
+      {"title": "advise vs advice", "words": ["advise", "advice"], "explanation_ar": "advise فعل (ينصح) ويُنطق بصوت z. advice اسم (نصيحة) ويُنطق بصوت s، وهو غير معدود.", "explanation_en": "Advise is a verb (z sound). Advice is a noun (s sound) and uncountable.", "examples": [{"word": "advise", "sentence": "I advise you to save money."}, {"word": "advice", "sentence": "Thanks for your advice."}]},
+      {"title": "beside vs besides", "words": ["beside", "besides"], "explanation_ar": "beside = بجانب. besides = بالإضافة إلى.", "explanation_en": "Beside = next to. Besides = in addition to.", "examples": [{"word": "beside", "sentence": "Sit beside me."}, {"word": "besides", "sentence": "Besides English, she speaks French."}]},
+      {"title": "hard vs hardly", "words": ["hard", "hardly"], "explanation_ar": "hard = صعب أو بجدّ. hardly = بالكاد، أي معنى قريب من النفي.", "explanation_en": "Hard = difficult, or with effort. Hardly = almost not.", "examples": [{"word": "hard", "sentence": "She works hard every day."}, {"word": "hardly", "sentence": "He hardly works at all."}]},
+      {"title": "latter vs later", "words": ["latter", "later"], "explanation_ar": "latter = الثاني من اثنين أو الجزء الأخير. later = لاحقًا أو أكثر تأخرًا.", "explanation_en": "Latter = the second of two, or the end part. Later = after now, or more late.", "examples": [{"word": "latter", "sentence": "Tea or coffee? I prefer the latter."}, {"word": "later", "sentence": "See you later."}]},
+      {"title": "meeting vs reunion", "words": ["meeting", "reunion"], "explanation_ar": "meeting اجتماع منتظم لأشخاص يلتقون عادة للعمل. reunion لقاء أشخاص لم يلتقوا منذ زمن طويل.", "explanation_en": "A meeting is for people who meet regularly, often for work. A reunion is for people who haven't met for a long time.", "examples": [{"word": "meeting", "sentence": "The team meeting is on Monday."}, {"word": "reunion", "sentence": "Our class reunion is next month."}]}
+    ],
+    "expressions": [
+      {"phrase": "Can you give me some advice?", "meaning_ar": "هل يمكنك أن تعطيني بعض النصائح؟", "meaning_en": "Please suggest what I should do.", "example": "Can you give me some advice about my CV?"},
+      {"phrase": "Are you trying to imply that...?", "meaning_ar": "هل تحاول التلميح إلى أن...؟", "meaning_en": "Are you suggesting (indirectly) that...?", "example": "Are you trying to imply that I'm late every day?"},
+      {"phrase": "the latter half", "meaning_ar": "النصف الأخير", "meaning_en": "the second half; the end part", "example": "The latter half of the meeting was more useful."}
+    ],
+    "grammar": [
+      {"title": "made with / made of / made by", "explanation_ar": "made with للمكوّنات (كعكة بالبيض والحليب). made of للمادة التي صُنع منها الشيء (قميص من القطن). made by لمن صنعه أو طريقة صنعه.", "explanation_en": "Made with = ingredients. Made of = the material. Made by = who or how.", "examples": ["The soup is made with tomatoes and onions.", "The table is made of wood.", "This bag was made by my grandmother."]}
+    ]
+  },
+  "questions": [
+    {"question": "\"Hey James, can you give me some ___?\"", "choices": ["advice", "advise", "advices", "advising"], "answer": 0, "explanation_ar": "بعد some نحتاج الاسم advice.", "explanation_en": "After \"some\" we need the noun advice."},
+    {"question": "\"___ going to work, how do you help the company?\" (in addition to)", "choices": ["Beside", "Besides", "Latter", "Hardly"], "answer": 1, "explanation_ar": "besides = بالإضافة إلى.", "explanation_en": "Besides = in addition to."},
+    {"question": "\"I stay ___ than everyone else.\"", "choices": ["latter", "late", "later", "lately"], "answer": 2, "explanation_ar": "later = صيغة المقارنة من late.", "explanation_en": "Later is the comparative of late."},
+    {"question": "\"That ___ means you should get more money if you don't work.\" (not significant)", "choices": ["hard", "harder", "hardness", "hardly"], "answer": 3, "explanation_ar": "hardly = بالكاد / لا يعني شيئًا.", "explanation_en": "Hardly = almost not."},
+    {"question": "\"Are you trying to ___ that I'm lazy?\" (say indirectly)", "choices": ["imply", "infer", "advise", "reunion"], "answer": 0, "explanation_ar": "imply = يلمّح.", "explanation_en": "Imply = suggest indirectly."},
+    {"question": "People from the same school meet after 20 years. This is a ___.", "choices": ["meeting", "reunion", "latter", "advice"], "answer": 1, "explanation_ar": "reunion = لقاء بعد زمن طويل.", "explanation_en": "A reunion is after a long time."},
+    {"question": "\"This sweater is made ___ cotton.\" (material)", "choices": ["by", "with", "of", "at"], "answer": 2, "explanation_ar": "made of للمادة.", "explanation_en": "Made of = material."},
+    {"question": "\"The marker is ___ the bottle.\" (next to)", "choices": ["besides", "latter", "hardly", "beside"], "answer": 3, "explanation_ar": "beside = بجانب.", "explanation_en": "Beside = next to."},
+    {"question": "\"Tea or coffee? I'll have the ___.\" (the second one)", "choices": ["latter", "later", "late", "lately"], "answer": 0, "explanation_ar": "latter = الثاني من اثنين.", "explanation_en": "Latter = the second of two."},
+    {"question": "\"The cake is made ___ eggs, milk and butter.\" (ingredients)", "choices": ["of", "with", "by", "from by"], "answer": 1, "explanation_ar": "made with للمكوّنات.", "explanation_en": "Made with = ingredients."}
+  ]
+}

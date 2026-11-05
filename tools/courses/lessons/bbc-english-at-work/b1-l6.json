@@ -1,0 +1,397 @@
+{
+  "title": "How to Offer Help",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "offer",
+        "pos": "verb",
+        "meaning_en": "say you are willing to do something for someone",
+        "meaning_ar": "يعرض (المساعدة)",
+        "note_ar": "بعد offer نستخدم to + فعل",
+        "note_en": "Use \"offer to + verb\".",
+        "example": "She offered to help me."
+      },
+      {
+        "word": "help",
+        "pos": "verb / noun",
+        "meaning_en": "make it easier for someone to do something",
+        "meaning_ar": "يساعد / مساعدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me help."
+      },
+      {
+        "word": "give someone a hand",
+        "pos": "phrase",
+        "meaning_en": "informal: help someone",
+        "meaning_ar": "يمدّ يد العون / يساعد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I give you a hand with those boxes?"
+      },
+      {
+        "word": "give someone a shout",
+        "pos": "phrase",
+        "meaning_en": "informal: tell or call someone",
+        "meaning_ar": "يُخبر شخصًا / يناديه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Give me a shout if you need anything."
+      },
+      {
+        "word": "crash",
+        "pos": "verb",
+        "meaning_en": "(of a computer) suddenly stop working",
+        "meaning_ar": "يتعطّل فجأة (الحاسوب)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My computer has crashed again."
+      },
+      {
+        "word": "timetable",
+        "pos": "noun",
+        "meaning_en": "a plan of times when things will happen",
+        "meaning_ar": "جدول مواعيد",
+        "note_ar": "في أمريكا يُقال أيضًا schedule",
+        "note_en": "Also: schedule (common in the US).",
+        "example": "There's a problem with my timetable."
+      },
+      {
+        "word": "schedule",
+        "pos": "verb",
+        "meaning_en": "plan something for a certain time",
+        "meaning_ar": "يُجدول / يحدد موعدًا",
+        "note_ar": "النطق: UK /ˈʃedjuːl/، US /ˈskedʒuːl/",
+        "note_en": "UK: SHED-yool; US: SKED-jool.",
+        "example": "The meeting is scheduled for Monday."
+      },
+      {
+        "word": "at the same time",
+        "pos": "phrase",
+        "meaning_en": "happening together, at one moment",
+        "meaning_ar": "في الوقت نفسه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have two meetings at the same time."
+      },
+      {
+        "word": "chaos",
+        "pos": "noun",
+        "meaning_en": "a situation with no order",
+        "meaning_ar": "فوضى",
+        "note_ar": "النطق: /ˈkeɪɒs/",
+        "note_en": "Say: KAY-oss.",
+        "example": "It's chaos in the office today."
+      },
+      {
+        "word": "disaster",
+        "pos": "noun",
+        "meaning_en": "something that goes very badly",
+        "meaning_ar": "كارثة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What a disaster!"
+      },
+      {
+        "word": "handle",
+        "pos": "verb",
+        "meaning_en": "deal with a problem or situation",
+        "meaning_ar": "يتعامل مع / يتولّى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can handle this."
+      },
+      {
+        "word": "deal with",
+        "pos": "phrasal verb",
+        "meaning_en": "take action to solve a problem or talk to a person",
+        "meaning_ar": "يتعامل مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll deal with the first client."
+      },
+      {
+        "word": "keep someone occupied",
+        "pos": "phrase",
+        "meaning_en": "keep someone busy so they don't get bored",
+        "meaning_ar": "يُبقي شخصًا مشغولًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please keep the visitor occupied for ten minutes."
+      },
+      {
+        "word": "experience",
+        "pos": "noun",
+        "meaning_en": "knowledge from doing something for a long time",
+        "meaning_ar": "خبرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They need someone with experience."
+      },
+      {
+        "word": "ungrateful",
+        "pos": "adjective",
+        "meaning_en": "not saying thank you when someone helps you",
+        "meaning_ar": "ناكر للجميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't be ungrateful; she was trying to help."
+      },
+      {
+        "word": "hole-punch",
+        "pos": "noun",
+        "meaning_en": "an office tool that makes holes in paper",
+        "meaning_ar": "خرّامة الورق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Where's the hole-punch?"
+      },
+      {
+        "word": "Understood.",
+        "pos": "phrase",
+        "meaning_en": "short reply: I understand what you want",
+        "meaning_ar": "مفهوم.",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Talk to the client.\" \"Understood.\""
+      },
+      {
+        "word": "this way",
+        "pos": "phrase",
+        "meaning_en": "used to show someone where to go",
+        "meaning_ar": "من هنا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please come this way."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "formal vs informal offers",
+        "words": [
+          "Is there anything I can do?",
+          "Can I give you a hand?"
+        ],
+        "explanation_ar": "Is there anything I can do? وLet me help عبارات مهذبة تناسب أي موقف. أما Can I give you a hand? وGive me a shout فهي غير رسمية وتناسب الزملاء.",
+        "explanation_en": "\"Is there anything I can do?\" and \"Let me help\" are polite and fit any situation. \"Can I give you a hand?\" and \"Give me a shout\" are informal, for colleagues.",
+        "examples": [
+          {
+            "word": "Is there anything I can do?",
+            "sentence": "Mr Lee, is there anything I can do for you?"
+          },
+          {
+            "word": "Can I give you a hand?",
+            "sentence": "Those boxes look heavy. Can I give you a hand?"
+          }
+        ]
+      },
+      {
+        "title": "help vs a hand",
+        "words": [
+          "help",
+          "a hand"
+        ],
+        "explanation_ar": "نقول help someone أو help with something، ونقول give someone a hand with something. لا نقول give a help.",
+        "explanation_en": "Say \"help someone (with something)\" or \"give someone a hand (with something)\". Don't say \"give a help\".",
+        "examples": [
+          {
+            "word": "help",
+            "sentence": "Let me help you with your coat."
+          },
+          {
+            "word": "a hand",
+            "sentence": "Can I give you a hand with your bags?"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Is there anything I can do?",
+        "meaning_ar": "هل هناك شيء يمكنني فعله؟",
+        "meaning_en": "A polite offer of help.",
+        "example": "You look worried. Is there anything I can do?"
+      },
+      {
+        "phrase": "Let me help.",
+        "meaning_ar": "دعني أساعد.",
+        "meaning_en": "A direct, friendly offer.",
+        "example": "Let me help. I know this program well."
+      },
+      {
+        "phrase": "Can I give you a hand?",
+        "meaning_ar": "هل أساعدك؟",
+        "meaning_en": "An informal offer of help.",
+        "example": "Can I give you a hand with the chairs?"
+      },
+      {
+        "phrase": "Give me a shout if you need anything.",
+        "meaning_ar": "ناديني إذا احتجت أي شيء.",
+        "meaning_en": "An informal way to say \"tell me if you need help later\".",
+        "example": "I'm at my desk. Give me a shout if you need anything."
+      },
+      {
+        "phrase": "I can handle this.",
+        "meaning_ar": "أستطيع التعامل مع هذا.",
+        "meaning_en": "You don't need help.",
+        "example": "Thanks, but I can handle this."
+      },
+      {
+        "phrase": "Please come this way.",
+        "meaning_ar": "تفضّل من هنا.",
+        "meaning_en": "Politely show a visitor where to go.",
+        "example": "Welcome, Mr Lime. Please come this way."
+      },
+      {
+        "phrase": "It's a pleasure to meet you.",
+        "meaning_ar": "تشرفت بلقائك.",
+        "meaning_en": "A formal greeting for a client.",
+        "example": "Mrs Kumquat, it's a pleasure to meet you."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Let me + base verb",
+        "explanation_ar": "نستخدم Let me + فعل مجرد لعرض المساعدة أو للقيام بشيء بأنفسنا. لا نضع to بعد me: Let me help (وليس Let me to help).",
+        "explanation_en": "Use \"Let me + base verb\" to offer to do something. No \"to\": Let me help (not \"Let me to help\").",
+        "examples": [
+          "Let me help.",
+          "Let me help with your coat.",
+          "Let me carry that for you."
+        ]
+      },
+      {
+        "title": "\"anything\" in questions",
+        "explanation_ar": "في الأسئلة والنفي نستخدم anything بدل something: Is there anything I can do? Do you need anything?",
+        "explanation_en": "In questions and negatives use \"anything\": Is there anything I can do?",
+        "examples": [
+          "Is there anything I can do?",
+          "Do you need anything?",
+          "Give me a shout if you need anything."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which offer is informal?",
+      "choices": [
+        "Is there anything I can do?",
+        "Can I give you a hand?",
+        "May I assist you, sir?",
+        "How may I help you?"
+      ],
+      "answer": 1,
+      "explanation_ar": "Can I give you a hand? غير رسمية.",
+      "explanation_en": "\"Can I give you a hand?\" is informal."
+    },
+    {
+      "question": "Let me ___ you with your coat.",
+      "choices": [
+        "to help",
+        "helping",
+        "help",
+        "helped"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد Let me نستخدم الفعل المجرد.",
+      "explanation_en": "After \"Let me\" use the base verb."
+    },
+    {
+      "question": "Is there ___ I can do?",
+      "choices": [
+        "something",
+        "anything",
+        "nothing",
+        "everything"
+      ],
+      "answer": 1,
+      "explanation_ar": "في السؤال نستخدم anything.",
+      "explanation_en": "In questions use \"anything\"."
+    },
+    {
+      "question": "\"Give me a shout\" means...",
+      "choices": [
+        "shout at me",
+        "tell me / call me",
+        "be quiet",
+        "leave me alone"
+      ],
+      "answer": 1,
+      "explanation_ar": "give me a shout تعني ناديني أو أخبرني.",
+      "explanation_en": "It means tell me or call me."
+    },
+    {
+      "question": "My computer has ___. It stopped working.",
+      "choices": [
+        "crashed",
+        "shouted",
+        "handled",
+        "scheduled"
+      ],
+      "answer": 0,
+      "explanation_ar": "crash تعني تعطّل الحاسوب فجأة.",
+      "explanation_en": "\"Crash\" means it suddenly stopped."
+    },
+    {
+      "question": "\"I can handle this\" means...",
+      "choices": [
+        "I can hold this in my hand",
+        "I can deal with this myself",
+        "I need help",
+        "I will leave"
+      ],
+      "answer": 1,
+      "explanation_ar": "handle تعني يتعامل مع المشكلة.",
+      "explanation_en": "It means I can deal with it."
+    },
+    {
+      "question": "Tom had two meetings ___ the same time.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول at the same time.",
+      "explanation_en": "We say \"at the same time\"."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Can I give you a help?",
+        "Can I give you a hand?",
+        "Can I give you hand?",
+        "Can I hand you a give?"
+      ],
+      "answer": 1,
+      "explanation_ar": "العبارة الصحيحة give you a hand.",
+      "explanation_en": "The phrase is \"give you a hand\"."
+    },
+    {
+      "question": "You welcome a visitor and show the way. You say:",
+      "choices": [
+        "Go there.",
+        "Please come this way.",
+        "Follow quickly.",
+        "Where are you going?"
+      ],
+      "answer": 1,
+      "explanation_ar": "Please come this way عبارة مهذبة.",
+      "explanation_en": "\"Please come this way\" is polite."
+    },
+    {
+      "question": "\"Chaos\" means...",
+      "choices": [
+        "a calm day",
+        "a situation with no order",
+        "a meeting",
+        "a timetable"
+      ],
+      "answer": 1,
+      "explanation_ar": "chaos تعني فوضى.",
+      "explanation_en": "Chaos means no order."
+    }
+  ]
+}

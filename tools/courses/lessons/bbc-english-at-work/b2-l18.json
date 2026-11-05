@@ -1,0 +1,461 @@
+{
+  "title": "Conveying Your Ideas",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "convey",
+        "pos": "verb",
+        "meaning_en": "to communicate an idea or feeling to someone",
+        "meaning_ar": "ينقل (فكرة) / يوصل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She conveyed her ideas very clearly."
+      },
+      {
+        "word": "specific",
+        "pos": "adjective",
+        "meaning_en": "clear and exact",
+        "meaning_ar": "محدد / دقيق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please give specific instructions."
+      },
+      {
+        "word": "have something in mind",
+        "pos": "phrase",
+        "meaning_en": "to already have an idea or plan",
+        "meaning_ar": "لديه فكرة في ذهنه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a specific design in mind."
+      },
+      {
+        "word": "thoughts",
+        "pos": "noun",
+        "meaning_en": "opinions or ideas",
+        "meaning_ar": "آراء / أفكار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like to hear your thoughts on the plan."
+      },
+      {
+        "word": "improve",
+        "pos": "verb",
+        "meaning_en": "to make something better",
+        "meaning_ar": "يحسّن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How can we improve this design?"
+      },
+      {
+        "word": "design skills",
+        "pos": "noun",
+        "meaning_en": "the ability to plan how something will look and work",
+        "meaning_ar": "مهارات التصميم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need your design skills for this project."
+      },
+      {
+        "word": "produce",
+        "pos": "verb",
+        "meaning_en": "to make something, often in large numbers",
+        "meaning_ar": "ينتج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The factory produces 1,000 chairs a day."
+      },
+      {
+        "word": "sign off",
+        "pos": "phrasal verb",
+        "meaning_en": "to give official approval to something",
+        "meaning_ar": "يعتمد / يوافق رسميًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The manager must sign off the plan."
+      },
+      {
+        "word": "go into production",
+        "pos": "phrase",
+        "meaning_en": "to start being made in a factory",
+        "meaning_ar": "يدخل مرحلة الإنتاج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new phone goes into production next month."
+      },
+      {
+        "word": "prototype",
+        "pos": "noun",
+        "meaning_en": "the first model of a new product, made for testing",
+        "meaning_ar": "نموذج أولي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We showed the prototype to our clients."
+      },
+      {
+        "word": "develop",
+        "pos": "verb",
+        "meaning_en": "to create a new product or idea and make it better",
+        "meaning_ar": "يطوّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They are developing a new app."
+      },
+      {
+        "word": "development team",
+        "pos": "noun",
+        "meaning_en": "the group of people who design and make new products",
+        "meaning_ar": "فريق التطوير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Talk to the development team on the 4th floor."
+      },
+      {
+        "word": "developer",
+        "pos": "noun",
+        "meaning_en": "a person who designs and makes new products or software",
+        "meaning_ar": "مطوّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is a software developer."
+      },
+      {
+        "word": "requirements",
+        "pos": "noun",
+        "meaning_en": "the things that are needed",
+        "meaning_ar": "المتطلبات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please explain your requirements exactly."
+      },
+      {
+        "word": "get the ball rolling",
+        "pos": "idiom",
+        "meaning_en": "to start an activity or project",
+        "meaning_ar": "يبدأ العمل / يطلق المشروع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's get the ball rolling with a short meeting."
+      },
+      {
+        "word": "take control",
+        "pos": "phrase",
+        "meaning_en": "to start managing a situation",
+        "meaning_ar": "يتولى زمام الأمور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sometimes a leader must take control."
+      },
+      {
+        "word": "in length",
+        "pos": "phrase",
+        "meaning_en": "long (used for measurement)",
+        "meaning_ar": "طولًا / من حيث الطول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The table is two metres in length."
+      },
+      {
+        "word": "make sense",
+        "pos": "phrase",
+        "meaning_en": "to be clear and easy to understand",
+        "meaning_ar": "يكون مفهومًا / منطقيًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Does that make sense?"
+      },
+      {
+        "word": "impressive",
+        "pos": "adjective",
+        "meaning_en": "very good, making you admire it",
+        "meaning_ar": "مثير للإعجاب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your report is very impressive."
+      },
+      {
+        "word": "get onto something",
+        "pos": "phrasal verb",
+        "meaning_en": "to start dealing with a task",
+        "meaning_ar": "يبدأ العمل على شيء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll get onto it straight away."
+      },
+      {
+        "word": "go to plan",
+        "pos": "phrase",
+        "meaning_en": "to happen in the way that was planned",
+        "meaning_ar": "يسير حسب الخطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I hope everything goes to plan."
+      },
+      {
+        "word": "approve",
+        "pos": "verb",
+        "meaning_en": "to officially agree that something is good enough",
+        "meaning_ar": "يوافق على",
+        "note_ar": "الاسم: approval.",
+        "note_en": "Noun: approval.",
+        "example": "The boss approved the budget."
+      },
+      {
+        "word": "leaving present",
+        "pos": "noun",
+        "meaning_en": "a gift you give a colleague who is leaving the job",
+        "meaning_ar": "هدية وداع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We bought her a leaving present."
+      },
+      {
+        "word": "let someone go",
+        "pos": "phrase",
+        "meaning_en": "to end someone's job (polite)",
+        "meaning_ar": "يستغني عن موظف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's hard to let a member of staff go."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "sign vs sign off",
+        "words": [
+          "sign",
+          "sign off"
+        ],
+        "explanation_ar": "sign تعني تكتب توقيعك. sign off تعني تعتمد الشيء رسميًا وتوافق عليه (قد يكون بالتوقيع أو بالموافقة). وفي الرسائل sign off تعني أيضًا تنهي الرسالة.",
+        "explanation_en": "'Sign' means write your name. 'Sign off' means give official approval to something.",
+        "examples": [
+          {
+            "word": "sign",
+            "sentence": "Please sign the contract here."
+          },
+          {
+            "word": "sign off",
+            "sentence": "I need to sign off your designs before production."
+          }
+        ]
+      },
+      {
+        "title": "produce vs develop",
+        "words": [
+          "produce",
+          "develop"
+        ],
+        "explanation_ar": "develop تعني تصميم منتج جديد وتحسينه (مرحلة الفكرة والنموذج). produce تعني تصنيعه، غالبًا بكميات كبيرة.",
+        "explanation_en": "Develop = design and improve a new product. Produce = make it, often in large numbers.",
+        "examples": [
+          {
+            "word": "develop",
+            "sentence": "The team is developing a prototype."
+          },
+          {
+            "word": "produce",
+            "sentence": "The factory will produce 10,000 units."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I have a specific idea in mind.",
+        "meaning_ar": "لدي فكرة محددة في ذهني.",
+        "meaning_en": "I already know exactly what I want.",
+        "example": "For the new logo, I have a specific idea in mind."
+      },
+      {
+        "phrase": "I'm interested in hearing your thoughts on how to improve my idea.",
+        "meaning_ar": "يهمني أن أسمع آراءك حول كيفية تحسين فكرتي.",
+        "meaning_en": "Please tell me how to make my idea better.",
+        "example": "I'm interested in hearing your thoughts on how to improve the website."
+      },
+      {
+        "phrase": "I'd like to use your design skills to produce a fantastic product.",
+        "meaning_ar": "أود الاستفادة من مهاراتك في التصميم لإنتاج منتج رائع.",
+        "meaning_en": "I want your design help to make a great product.",
+        "example": "I'd like to use your design skills to produce a great brochure."
+      },
+      {
+        "phrase": "I need to sign off your designs before they go into production.",
+        "meaning_ar": "يجب أن أعتمد تصاميمك قبل أن تدخل مرحلة الإنتاج.",
+        "meaning_en": "I must approve the designs before they are made.",
+        "example": "I need to sign off the plans before the builders start."
+      },
+      {
+        "phrase": "Does that make sense?",
+        "meaning_ar": "هل هذا مفهوم؟",
+        "meaning_en": "Do you understand what I said?",
+        "example": "Send the report by Friday, then I'll check it. Does that make sense?"
+      },
+      {
+        "phrase": "I'll get onto it straight away.",
+        "meaning_ar": "سأبدأ العمل عليه فورًا.",
+        "meaning_en": "I will start doing it immediately.",
+        "example": "Sure, I'll get onto it straight away."
+      },
+      {
+        "phrase": "Let's get the ball rolling.",
+        "meaning_ar": "لنبدأ العمل.",
+        "meaning_en": "Let's start the project.",
+        "example": "We have the budget, so let's get the ball rolling."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "interested in + -ing",
+        "explanation_ar": "بعد interested in نستخدم الاسم أو الفعل بصيغة ing: I'm interested in hearing your thoughts. لا نقول interested to hear في هذا المعنى غالبًا.",
+        "explanation_en": "After 'interested in' use a noun or verb + -ing.",
+        "examples": [
+          "I'm interested in hearing your thoughts.",
+          "She's interested in working abroad.",
+          "Are you interested in joining the team?"
+        ]
+      },
+      {
+        "title": "I'd like to... / I need to... (polite but firm)",
+        "explanation_ar": "I'd like to تعبّر عن رغبة مهذبة، و I need to تعبّر عن ضرورة أو واجب. يستخدمهما المدير ليكون واضحًا ومهذبًا في آن واحد.",
+        "explanation_en": "'I'd like to' is a polite wish; 'I need to' shows necessity. Together they are clear but polite.",
+        "examples": [
+          "I'd like to use your design skills.",
+          "I need to sign off your designs.",
+          "I'd like to see the plans by Monday."
+        ]
+      },
+      {
+        "title": "before + present simple for future",
+        "explanation_ar": "بعد before و after و when نستخدم المضارع البسيط حتى لو كنا نتحدث عن المستقبل: before they go into production (وليس will go).",
+        "explanation_en": "After before, after and when, use the present simple for the future.",
+        "examples": [
+          "I need to sign off your designs before they go into production.",
+          "Call me when you finish.",
+          "We'll check it after it arrives."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is a 'prototype'?",
+      "choices": [
+        "a first model of a new product, for testing",
+        "a business card",
+        "a type of plastic",
+        "a final bill"
+      ],
+      "answer": 0,
+      "explanation_ar": "prototype نموذج أولي للاختبار.",
+      "explanation_en": "A prototype is a first test model."
+    },
+    {
+      "question": "I need to ___ your designs before they go into production.",
+      "choices": [
+        "sign up",
+        "sign in",
+        "sign off",
+        "sign out"
+      ],
+      "answer": 2,
+      "explanation_ar": "sign off = يعتمد رسميًا.",
+      "explanation_en": "'Sign off' means approve."
+    },
+    {
+      "question": "I'm interested in ___ your thoughts.",
+      "choices": [
+        "hear",
+        "hearing",
+        "to hear",
+        "heard"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد interested in نستخدم ing.",
+      "explanation_en": "After 'interested in', use -ing."
+    },
+    {
+      "question": "'Let's get the ball rolling' means ___.",
+      "choices": [
+        "let's play football",
+        "let's go home",
+        "let's stop working",
+        "let's start the project"
+      ],
+      "answer": 3,
+      "explanation_ar": "تعني لنبدأ المشروع.",
+      "explanation_en": "It means let's start."
+    },
+    {
+      "question": "I need to approve the designs before they ___ into production.",
+      "choices": [
+        "go",
+        "will go",
+        "going",
+        "gone"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد before نستخدم المضارع البسيط.",
+      "explanation_en": "After 'before', use the present simple."
+    },
+    {
+      "question": "Anna has a ___ idea in mind: 20 cm long, black-purple, with a curve.",
+      "choices": [
+        "boring",
+        "general",
+        "specific",
+        "small"
+      ],
+      "answer": 2,
+      "explanation_ar": "specific محدد ودقيق.",
+      "explanation_en": "Specific means clear and exact."
+    },
+    {
+      "question": "Which question checks that someone understood you?",
+      "choices": [
+        "Is that sensible?",
+        "Does that make money?",
+        "Does that make sense?",
+        "Do you make it?"
+      ],
+      "answer": 2,
+      "explanation_ar": "Does that make sense? = هل هذا مفهوم؟",
+      "explanation_en": "It checks understanding."
+    },
+    {
+      "question": "'I'll get onto it straight away' means ___.",
+      "choices": [
+        "I'll start working on it now",
+        "I'll climb on it",
+        "I'll do it next year",
+        "I'll give it to someone else"
+      ],
+      "answer": 0,
+      "explanation_ar": "get onto = يبدأ العمل على.",
+      "explanation_en": "It means I'll start now."
+    },
+    {
+      "question": "Which word means 'the things that are needed'?",
+      "choices": [
+        "skills",
+        "prototypes",
+        "thoughts",
+        "requirements"
+      ],
+      "answer": 3,
+      "explanation_ar": "requirements المتطلبات.",
+      "explanation_en": "Requirements are what is needed."
+    },
+    {
+      "question": "The team will ___ the product first, then the factory will ___ it.",
+      "choices": [
+        "produce / develop",
+        "develop / produce",
+        "sign / approve",
+        "improve / sign"
+      ],
+      "answer": 1,
+      "explanation_ar": "نطوّر المنتج أولًا ثم ننتجه.",
+      "explanation_en": "First develop, then produce."
+    }
+  ]
+}

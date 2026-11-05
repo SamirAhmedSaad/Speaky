@@ -1,0 +1,425 @@
+{
+ "title": "Talking about your home town",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "beach",
+    "pos": "noun",
+    "meaning_en": "the sand next to the sea",
+    "meaning_ar": "شاطئ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There's a beach in my town."
+   },
+   {
+    "word": "university",
+    "pos": "noun",
+    "meaning_en": "a place where adults study for a degree",
+    "meaning_ar": "جامعة",
+    "note_ar": "تبدأ بصوت yu لذلك نقول a university",
+    "note_en": "It starts with a \"yu\" sound, so we say \"a university\".",
+    "example": "There's a big university in Oxford."
+   },
+   {
+    "word": "river",
+    "pos": "noun",
+    "meaning_en": "a long line of water that moves to the sea",
+    "meaning_ar": "نهر",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There's a river in the city centre."
+   },
+   {
+    "word": "cinema",
+    "pos": "noun",
+    "meaning_en": "a place where you watch films",
+    "meaning_ar": "سينما",
+    "note_ar": "في أمريكا: movie theater",
+    "note_en": "US: movie theater.",
+    "example": "Is there a cinema near here?"
+   },
+   {
+    "word": "train station",
+    "pos": "noun",
+    "meaning_en": "a place where trains stop",
+    "meaning_ar": "محطة قطار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The train station is very busy."
+   },
+   {
+    "word": "cathedral",
+    "pos": "noun",
+    "meaning_en": "a large, important church",
+    "meaning_ar": "كاتدرائية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There's an old cathedral in my town."
+   },
+   {
+    "word": "football stadium",
+    "pos": "noun",
+    "meaning_en": "a big place where people watch football",
+    "meaning_ar": "ملعب كرة قدم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The football stadium is near the river."
+   },
+   {
+    "word": "shop",
+    "pos": "noun",
+    "meaning_en": "a place where you buy things",
+    "meaning_ar": "متجر / محل",
+    "note_ar": "في أمريكا: store",
+    "note_en": "US: store.",
+    "example": "There are lots of shops here."
+   },
+   {
+    "word": "restaurant",
+    "pos": "noun",
+    "meaning_en": "a place where you buy and eat meals",
+    "meaning_ar": "مطعم",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There are some good restaurants."
+   },
+   {
+    "word": "church",
+    "pos": "noun",
+    "meaning_en": "a building where Christians pray",
+    "meaning_ar": "كنيسة",
+    "note_ar": "جمعها churches",
+    "note_en": "Plural: churches.",
+    "example": "There are two churches."
+   },
+   {
+    "word": "library",
+    "pos": "noun",
+    "meaning_en": "a place where you borrow books",
+    "meaning_ar": "مكتبة عامة",
+    "note_ar": "جمعها libraries؛ ومحل بيع الكتب = bookshop",
+    "note_en": "Plural: libraries. A shop that sells books is a bookshop.",
+    "example": "There are three libraries."
+   },
+   {
+    "word": "museum",
+    "pos": "noun",
+    "meaning_en": "a building where you can see old or interesting things",
+    "meaning_ar": "متحف",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There are lots of museums in London."
+   },
+   {
+    "word": "school",
+    "pos": "noun",
+    "meaning_en": "a place where children learn",
+    "meaning_ar": "مدرسة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There are some schools near my house."
+   },
+   {
+    "word": "gym",
+    "pos": "noun",
+    "meaning_en": "a place where you do exercise",
+    "meaning_ar": "نادٍ رياضي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There's a gym in my street."
+   },
+   {
+    "word": "theatre",
+    "pos": "noun",
+    "meaning_en": "a building where you watch plays",
+    "meaning_ar": "مسرح",
+    "note_ar": "التهجئة الأمريكية theater",
+    "note_en": "US spelling: theater.",
+    "example": "There are some theatres too."
+   },
+   {
+    "word": "airport",
+    "pos": "noun",
+    "meaning_en": "a place where planes land and take off",
+    "meaning_ar": "مطار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Is there an airport? - Yes, there is."
+   },
+   {
+    "word": "lots of",
+    "pos": "phrase",
+    "meaning_en": "many, a lot of",
+    "meaning_ar": "الكثير من",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There are lots of houses."
+   },
+   {
+    "word": "some",
+    "pos": "determiner",
+    "meaning_en": "a number of, not many and not few",
+    "meaning_ar": "بعض",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There are some schools."
+   },
+   {
+    "word": "home town",
+    "pos": "noun",
+    "meaning_en": "the town where you were born or grew up",
+    "meaning_ar": "مسقط الرأس / بلدتي",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My home town is small and quiet."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "there is / there are",
+    "words": [
+     "there is",
+     "there are"
+    ],
+    "explanation_ar": "there is (there's) مع المفرد: There's a beach. و there are مع الجمع: There are shops.",
+    "explanation_en": "Use \"there is\" with one thing and \"there are\" with two or more things.",
+    "examples": [
+     {
+      "word": "there is",
+      "sentence": "There's a river."
+     },
+     {
+      "word": "there are",
+      "sentence": "There are lots of houses."
+     }
+    ]
+   },
+   {
+    "title": "a / an",
+    "words": [
+     "a",
+     "an"
+    ],
+    "explanation_ar": "نستخدم an قبل كلمة تبدأ بصوت متحرك (an airport)، و a قبل صوت ساكن (a beach). university تبدأ بصوت «يو» لذلك a university.",
+    "explanation_en": "Use \"an\" before a vowel sound (an airport) and \"a\" before a consonant sound (a beach, a university).",
+    "examples": [
+     {
+      "word": "a",
+      "sentence": "There's a cinema."
+     },
+     {
+      "word": "an",
+      "sentence": "Is there an airport?"
+     }
+    ]
+   },
+   {
+    "title": "some / lots of",
+    "words": [
+     "some",
+     "lots of"
+    ],
+    "explanation_ar": "some تعني عددًا معتدلًا، و lots of تعني عددًا كبيرًا.",
+    "explanation_en": "\"Some\" means a number of things; \"lots of\" means many.",
+    "examples": [
+     {
+      "word": "some",
+      "sentence": "There are some gyms."
+     },
+     {
+      "word": "lots of",
+      "sentence": "There are lots of houses."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "What is in your town?",
+    "meaning_ar": "ماذا يوجد في بلدتك؟",
+    "meaning_en": "ask about places in someone's town",
+    "example": "What is in your town? - There's a beach and a river."
+   },
+   {
+    "phrase": "There's a beach.",
+    "meaning_ar": "يوجد شاطئ.",
+    "meaning_en": "say one place exists",
+    "example": "There's a beach and a university."
+   },
+   {
+    "phrase": "There are shops and restaurants.",
+    "meaning_ar": "توجد محلات ومطاعم.",
+    "meaning_en": "say several places exist",
+    "example": "There are shops, restaurants and museums."
+   },
+   {
+    "phrase": "There are some schools too.",
+    "meaning_ar": "توجد بعض المدارس أيضًا.",
+    "meaning_en": "add more places",
+    "example": "There are some gyms and theatres too."
+   },
+   {
+    "phrase": "Is there an airport?",
+    "meaning_ar": "هل يوجد مطار؟",
+    "meaning_en": "ask if a place exists",
+    "example": "Is there an airport in your town?"
+   },
+   {
+    "phrase": "Yes, there is.",
+    "meaning_ar": "نعم، يوجد.",
+    "meaning_en": "short positive answer",
+    "example": "Is there a cinema? - Yes, there is."
+   },
+   {
+    "phrase": "No, there isn't.",
+    "meaning_ar": "لا، لا يوجد.",
+    "meaning_en": "short negative answer",
+    "example": "Is there a train station? - No, there isn't."
+   }
+  ],
+  "grammar": [
+   {
+    "title": "There is / There are",
+    "explanation_ar": "نستخدم there is للمفرد و there are للجمع لنقول إن شيئًا موجود. الاختصار: there's. لا نختصر there are في الكتابة عادةً.",
+    "explanation_en": "Use \"there is\" (there's) for one thing and \"there are\" for plural things to say something exists.",
+    "examples": [
+     "There's a university.",
+     "There are lots of museums.",
+     "There are some schools, gyms and theatres too."
+    ]
+   },
+   {
+    "title": "Questions and short answers: Is there ...?",
+    "explanation_ar": "للسؤال نقدّم is أو are: Is there an airport? / Are there any parks? والجواب القصير: Yes, there is. / No, there isn't. / Yes, there are. / No, there aren't.",
+    "explanation_en": "To ask, put \"is/are\" first. Short answers: Yes, there is. No, there isn't.",
+    "examples": [
+     "Is there an airport? - Yes, there is.",
+     "Is there a beach? - No, there isn't.",
+     "Are there any museums? - Yes, there are."
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "There ___ a river in my town.",
+   "choices": [
+    "is",
+    "are",
+    "am",
+    "be"
+   ],
+   "answer": 0,
+   "explanation_ar": "river مفرد، لذا There is.",
+   "explanation_en": "\"River\" is singular, so \"There is\"."
+  },
+  {
+   "question": "There ___ lots of shops.",
+   "choices": [
+    "is",
+    "am",
+    "are",
+    "be"
+   ],
+   "answer": 2,
+   "explanation_ar": "shops جمع، لذا There are.",
+   "explanation_en": "\"Shops\" is plural, so \"There are\"."
+  },
+  {
+   "question": "Is there ___ airport?",
+   "choices": [
+    "a",
+    "an",
+    "some",
+    "lots"
+   ],
+   "answer": 1,
+   "explanation_ar": "airport تبدأ بصوت متحرك، لذا an.",
+   "explanation_en": "\"Airport\" starts with a vowel sound, so \"an\"."
+  },
+  {
+   "question": "Is there a cinema? - No, ___.",
+   "choices": [
+    "there is",
+    "there aren't",
+    "it isn't",
+    "there isn't"
+   ],
+   "answer": 3,
+   "explanation_ar": "الجواب القصير المنفي: No, there isn't.",
+   "explanation_en": "The short negative answer is \"No, there isn't.\""
+  },
+  {
+   "question": "Where do you borrow books?",
+   "choices": [
+    "a library",
+    "a gym",
+    "a stadium",
+    "a cathedral"
+   ],
+   "answer": 0,
+   "explanation_ar": "library مكان استعارة الكتب.",
+   "explanation_en": "You borrow books from a library."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "There is three museums.",
+    "There are a museum.",
+    "There are three museums.",
+    "There museums are."
+   ],
+   "answer": 2,
+   "explanation_ar": "مع الجمع (three museums) نستخدم There are.",
+   "explanation_en": "With plural nouns use \"There are\"."
+  },
+  {
+   "question": "What is a \"cathedral\"?",
+   "choices": [
+    "a big shop",
+    "a large, important church",
+    "a sports place",
+    "a train station"
+   ],
+   "answer": 1,
+   "explanation_ar": "cathedral كنيسة كبيرة ومهمة.",
+   "explanation_en": "A cathedral is a large, important church."
+  },
+  {
+   "question": "The plural of \"library\" is ...",
+   "choices": [
+    "librarys",
+    "libraryes",
+    "library",
+    "libraries"
+   ],
+   "answer": 3,
+   "explanation_ar": "y بعد حرف ساكن تصبح ies.",
+   "explanation_en": "After a consonant, y changes to -ies."
+  },
+  {
+   "question": "Which one is for watching films?",
+   "choices": [
+    "cinema",
+    "gym",
+    "beach",
+    "school"
+   ],
+   "answer": 0,
+   "explanation_ar": "cinema = سينما لمشاهدة الأفلام.",
+   "explanation_en": "You watch films at a cinema."
+  },
+  {
+   "question": "Choose: \"There's ___ university in Oxford.\"",
+   "choices": [
+    "an",
+    "a",
+    "some",
+    "lots of"
+   ],
+   "answer": 1,
+   "explanation_ar": "university تبدأ بصوت «يو» الساكن، لذا a.",
+   "explanation_en": "\"University\" starts with a \"yu\" sound, so \"a\"."
+  }
+ ]
+}

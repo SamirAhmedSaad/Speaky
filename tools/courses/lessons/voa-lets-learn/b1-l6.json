@@ -1,0 +1,61 @@
+{
+  "title": "Where Is the Gym?",
+  "content": {
+    "vocabulary": [
+      {"word": "gym", "pos": "noun", "meaning_en": "a room or building with machines for exercise", "meaning_ar": "صالة رياضية / نادٍ رياضي", "note_ar": "تُنطق /dʒɪm/.", "note_en": "Say /dʒɪm/.", "example": "I go to the gym after work."},
+      {"word": "work out", "pos": "phrase", "meaning_en": "to exercise to make your body strong", "meaning_ar": "يتمرّن / يمارس الرياضة", "note_ar": "الاسم: workout (كلمة واحدة).", "note_en": "The noun is workout (one word).", "example": "People in this city like to work out."},
+      {"word": "lounge", "pos": "noun", "meaning_en": "a room in a building where people sit and rest", "meaning_ar": "صالة استراحة", "note_ar": "", "note_en": "", "example": "We wait in the lounge."},
+      {"word": "mailroom", "pos": "noun", "meaning_en": "a room in a building where letters and packages arrive", "meaning_ar": "غرفة البريد", "note_ar": "mail = بريد.", "note_en": "mail = letters and packages.", "example": "Your package is in the mailroom."},
+      {"word": "lobby", "pos": "noun", "meaning_en": "the big room at the entrance of a building", "meaning_ar": "الردهة / بهو المدخل", "note_ar": "", "note_en": "", "example": "Meet me in the lobby at nine."},
+      {"word": "parking garage", "pos": "noun", "meaning_en": "a building or floor where people leave their cars", "meaning_ar": "مرآب السيارات / موقف مغطى", "note_ar": "", "note_en": "", "example": "My car is in the parking garage."},
+      {"word": "rooftop", "pos": "noun", "meaning_en": "the top outside part of a building", "meaning_ar": "سطح المبنى", "note_ar": "", "note_en": "", "example": "You can see the whole city from the rooftop."},
+      {"word": "across from", "pos": "preposition", "meaning_en": "on the other side; facing", "meaning_ar": "مقابل / في الجهة المقابلة", "note_ar": "", "note_en": "", "example": "The bank is across from the school."},
+      {"word": "next to", "pos": "preposition", "meaning_en": "right beside", "meaning_ar": "بجانب / بجوار", "note_ar": "", "note_en": "", "example": "Sit next to me."},
+      {"word": "behind", "pos": "preposition", "meaning_en": "at the back of", "meaning_ar": "خلف / وراء", "note_ar": "عكسها in front of.", "note_en": "Opposite: in front of.", "example": "The garden is behind the house."},
+      {"word": "in front of", "pos": "preposition", "meaning_en": "before something; facing its front side", "meaning_ar": "أمام", "note_ar": "", "note_en": "", "example": "The bus stops in front of my building."},
+      {"word": "that way", "pos": "phrase", "meaning_en": "in that direction", "meaning_ar": "من هناك / في ذلك الاتجاه", "note_ar": "", "note_en": "", "example": "The station is that way."},
+      {"word": "awesome", "pos": "adjective", "meaning_en": "very good; great (informal)", "meaning_ar": "رائع جدًا", "note_ar": "كلمة عفوية شائعة في أمريكا.", "note_en": "Informal and very common in the U.S.", "example": "Your new bike is awesome!"},
+      {"word": "learn", "pos": "verb", "meaning_en": "to get new knowledge", "meaning_ar": "يتعلّم", "note_ar": "", "note_en": "", "example": "Every day I learn more about this city."},
+      {"word": "people", "pos": "noun", "meaning_en": "men, women and children; more than one person", "meaning_ar": "الناس", "note_ar": "جمع person، والفعل معها جمع: people like.", "note_en": "Plural of person; use a plural verb: people like.", "example": "People here like to walk."},
+      {"word": "join", "pos": "verb", "meaning_en": "to do something together with someone", "meaning_ar": "ينضم إلى / يشارك", "note_ar": "", "note_en": "", "example": "We are eating lunch. Join us!"},
+      {"word": "too", "pos": "adverb", "meaning_en": "also", "meaning_ar": "أيضًا", "note_ar": "تأتي في آخر الجملة.", "note_en": "It comes at the end of the sentence.", "example": "I want to work out too."},
+      {"word": "right", "pos": "adjective", "meaning_en": "correct", "meaning_ar": "صحيح", "note_ar": "That's right = هذا صحيح.", "note_en": "That's right = that is correct.", "example": "That's right, the gym is upstairs."},
+      {"word": "this", "pos": "pronoun", "meaning_en": "the thing or place near you", "meaning_ar": "هذا / هذه", "note_ar": "", "note_en": "", "example": "This is the mailroom."},
+      {"word": "thanks", "pos": "interjection", "meaning_en": "thank you (informal)", "meaning_ar": "شكرًا", "note_ar": "", "note_en": "", "example": "Thanks for your help!"},
+      {"word": "great", "pos": "adjective", "meaning_en": "very good; also: big and important", "meaning_ar": "رائع / عظيم", "note_ar": "", "note_en": "", "example": "Washington is a great city."}
+    ],
+    "fine_lines": [
+      {"title": "across from vs next to vs behind", "words": ["across from", "next to", "behind"], "explanation_ar": "next to = بجانب الشيء مباشرة (على نفس الجهة). across from = في الجهة المقابلة، وغالبًا بينهما شارع أو ممر. behind = في الخلف.", "explanation_en": "Next to means right beside something, on the same side. Across from means on the other side, often with a street or hallway between. Behind means at the back.", "examples": [{"word": "next to", "sentence": "The gym is next to the mailroom."}, {"word": "across from", "sentence": "The gym is across from the lounge."}, {"word": "behind", "sentence": "The gym is behind the lobby."}]},
+      {"title": "I'm good (= no, thank you)", "words": ["I'm good", "I'm fine"], "explanation_ar": "I'm good / I'm fine تعني «أنا بخير» جوابًا لـ How are you?. لكن بعد دعوة أو عرض (Join me!) تعني I'm good بلطف: «لا، شكرًا».", "explanation_en": "I'm good / I'm fine answer 'How are you?'. But after an offer or invitation (Join me!), 'I'm good' is a polite way to say 'No, thank you'.", "examples": [{"word": "I'm fine", "sentence": "How are you? I'm fine, thanks."}, {"word": "I'm good", "sentence": "Do you want more tea? I'm good, thanks."}]}
+    ],
+    "expressions": [
+      {"phrase": "How's it going?", "meaning_ar": "كيف الحال؟", "meaning_en": "An informal way to say 'How are you?'.", "example": "Hi, Kareem! How's it going?"},
+      {"phrase": "It's going great.", "meaning_ar": "الأمور رائعة.", "meaning_en": "A happy answer to 'How's it going?'.", "example": "How's it going? It's going great, thanks."},
+      {"phrase": "Things are awesome!", "meaning_ar": "كل شيء رائع!", "meaning_en": "Everything is very good.", "example": "My new job? Things are awesome!"},
+      {"phrase": "Where is the gym?", "meaning_ar": "أين الصالة الرياضية؟", "meaning_en": "A question to find a place.", "example": "Excuse me, where is the lobby?"},
+      {"phrase": "Go that way.", "meaning_ar": "اذهب من هناك.", "meaning_en": "Walk in that direction.", "example": "The exit? Go that way."},
+      {"phrase": "Not that way!", "meaning_ar": "ليس من ذلك الاتجاه!", "meaning_en": "You are going in the wrong direction.", "example": "No, not that way! Go left."},
+      {"phrase": "This is not the gym.", "meaning_ar": "هذه ليست الصالة الرياضية.", "meaning_en": "Saying you are in the wrong place.", "example": "This is not my classroom."},
+      {"phrase": "That's right.", "meaning_ar": "هذا صحيح.", "meaning_en": "Yes, that is correct.", "example": "Is this the mailroom? That's right."},
+      {"phrase": "See you!", "meaning_ar": "أراك لاحقًا!", "meaning_en": "An informal goodbye.", "example": "Bye, Ali. See you!"},
+      {"phrase": "Join me!", "meaning_ar": "انضم إليّ!", "meaning_en": "Come and do this with me.", "example": "I'm going for a walk. Join me!"},
+      {"phrase": "I'm good.", "meaning_ar": "لا، شكرًا (أنا مكتفٍ).", "meaning_en": "Here: a polite way to say no.", "example": "Do you want to come? I'm good, thanks."}
+    ],
+    "grammar": [
+      {"title": "Prepositions of place: next to, across from, behind, in front of", "explanation_ar": "١) نستخدم هذه الكلمات لنقول أين يوجد مكان أو شيء.\n٢) الترتيب: The + مكان + is + حرف الجر + the + مكان آخر.\n٣) The gym is next to the mailroom. (بجانب)\n٤) The gym is across from the lounge. (مقابل)\n٥) The gym is behind the lobby. (خلف) — وعكسها in front of (أمام).", "explanation_en": "1) Use these words to say where a place or thing is.\n2) Order: The + place + is + preposition + the + other place.\n3) The gym is next to the mailroom.\n4) The gym is across from the lounge.\n5) The gym is behind the lobby. The opposite of behind is in front of.", "examples": ["The café is next to the bank.", "My house is across from the park.", "The car is behind the building.", "The bus stop is in front of the school."]},
+      {"title": "This is ... / This is not ...", "explanation_ar": "١) نستخدم This is للتعريف بمكان أو شيء قريب: This is the mailroom.\n٢) للنفي نضيف not: This is not the gym.\n٣) الاختصار في الكلام: This isn't the gym.\n٤) نستخدم a مع مكان عام غير محدد (This is a rooftop) وthe مع مكان معروف (This is the gym).", "explanation_en": "1) Use This is to name a place or thing near you: This is the mailroom.\n2) For the negative, add not: This is not the gym.\n3) Short form in speaking: This isn't the gym.\n4) Use a for any place of that kind (This is a rooftop) and the for the place we both know (This is the gym).", "examples": ["This is the lobby.", "This is not the lounge.", "This isn't my car.", "This is a parking garage."]}
+    ]
+  },
+  "questions": [
+    {"question": "What does 'work out' mean?", "choices": ["يتمرّن", "يعمل في مكتب", "يخرج", "يتعلّم"], "answer": 0, "explanation_ar": "work out = يمارس الرياضة.", "explanation_en": "Work out means to exercise."},
+    {"question": "The gym is ___ the mailroom. (right beside it)", "choices": ["across from", "behind", "next to", "in"], "answer": 2, "explanation_ar": "next to = بجانب مباشرة.", "explanation_en": "Next to means right beside."},
+    {"question": "\"How's it going?\" — Choose the best answer.", "choices": ["That way.", "It's going great.", "This is the gym.", "Join me!"], "answer": 1, "explanation_ar": "الرد المناسب: It's going great.", "explanation_en": "A good reply is: It's going great."},
+    {"question": "Where do people leave their cars?", "choices": ["in the lounge", "in the mailroom", "on the rooftop", "in the parking garage"], "answer": 3, "explanation_ar": "parking garage = مرآب السيارات.", "explanation_en": "A parking garage is where people leave cars."},
+    {"question": "Make it negative: This is the gym.", "choices": ["This is not the gym.", "This not is the gym.", "Not this is the gym.", "This is no gym the."], "answer": 0, "explanation_ar": "not تأتي بعد is.", "explanation_en": "Not comes after is."},
+    {"question": "The opposite of 'behind' is:", "choices": ["next to", "in front of", "across from", "upstairs"], "answer": 1, "explanation_ar": "عكس behind (خلف) هو in front of (أمام).", "explanation_en": "The opposite of behind is in front of."},
+    {"question": "Pete says \"Join me!\" Anna says \"I'm good.\" What does Anna mean?", "choices": ["Yes, let's go!", "I am a good person.", "No, thank you.", "I am sick."], "answer": 2, "explanation_ar": "بعد دعوة، I'm good تعني: لا، شكرًا.", "explanation_en": "After an invitation, I'm good means no, thank you."},
+    {"question": "The big room at the entrance of a building is the ___.", "choices": ["rooftop", "gym", "garage", "lobby"], "answer": 3, "explanation_ar": "lobby = بهو المدخل.", "explanation_en": "The lobby is the big room at the entrance."},
+    {"question": "The bank is on one side of the street. The school is on the other side. The bank is ___ the school.", "choices": ["across from", "next to", "behind", "in"], "answer": 0, "explanation_ar": "في الجهة المقابلة من الشارع = across from.", "explanation_en": "On the other side of the street = across from."},
+    {"question": "Choose the correct sentence.", "choices": ["People likes to work out.", "People like to work out.", "People is like to work out.", "People liking work out."], "answer": 1, "explanation_ar": "people جمع، فالفعل بدون s: people like.", "explanation_en": "People is plural, so the verb has no s: people like."}
+  ]
+}

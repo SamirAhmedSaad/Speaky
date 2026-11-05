@@ -1,0 +1,443 @@
+{
+  "title": "Showing Someone the Ropes",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "show someone the ropes",
+        "pos": "idiom",
+        "meaning_en": "to teach someone how to do a job",
+        "meaning_ar": "يعلّم شخصًا أساسيات العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Anna will show Denise the ropes."
+      },
+      {
+        "word": "make a start on",
+        "pos": "phrase",
+        "meaning_en": "to begin working on something",
+        "meaning_ar": "يبدأ في",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Why don't you make a start on this report?"
+      },
+      {
+        "word": "for a while",
+        "pos": "phrase",
+        "meaning_en": "for some time",
+        "meaning_ar": "لبعض الوقت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Just watch what I do for a while."
+      },
+      {
+        "word": "coach",
+        "pos": "verb",
+        "meaning_en": "to train and help someone improve",
+        "meaning_ar": "يدرّب / يوجّه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is coaching the new staff."
+      },
+      {
+        "word": "reassure",
+        "pos": "verb",
+        "meaning_en": "to make someone feel less worried",
+        "meaning_ar": "يطمئن (غيره)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He reassured me that the job was easy."
+      },
+      {
+        "word": "Sales Executive",
+        "pos": "noun",
+        "meaning_en": "a person whose job is to sell a company's products",
+        "meaning_ar": "مسؤول مبيعات",
+        "note_ar": "يُختصر أحيانًا Sales Exec.",
+        "note_en": "Sometimes shortened to Sales Exec.",
+        "example": "Denise is training to be a Sales Executive."
+      },
+      {
+        "word": "experience",
+        "pos": "noun",
+        "meaning_en": "knowledge and skill you get from doing something",
+        "meaning_ar": "خبرة",
+        "note_ar": "الصفة: experienced (ذو خبرة).",
+        "note_en": "Adjective: experienced.",
+        "example": "She wanted some experience in sales."
+      },
+      {
+        "word": "experienced",
+        "pos": "adjective",
+        "meaning_en": "having skill from doing something many times",
+        "meaning_ar": "ذو خبرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He's an experienced manager."
+      },
+      {
+        "word": "database",
+        "pos": "noun",
+        "meaning_en": "a large set of information stored on a computer",
+        "meaning_ar": "قاعدة بيانات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Check the database for the customer's number."
+      },
+      {
+        "word": "task",
+        "pos": "noun",
+        "meaning_en": "a piece of work you have to do",
+        "meaning_ar": "مهمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My first task is to check emails."
+      },
+      {
+        "word": "conditions",
+        "pos": "noun",
+        "meaning_en": "the rules or terms of an agreement or job",
+        "meaning_ar": "شروط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She negotiated new conditions with her boss."
+      },
+      {
+        "word": "negotiate",
+        "pos": "verb",
+        "meaning_en": "to discuss to reach an agreement",
+        "meaning_ar": "يتفاوض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She negotiated a better salary."
+      },
+      {
+        "word": "eat your words",
+        "pos": "idiom",
+        "meaning_en": "to admit that what you said was wrong",
+        "meaning_ar": "يعترف بخطئه / يتراجع عن كلامه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He said it would fail, but he had to eat his words."
+      },
+      {
+        "word": "survive",
+        "pos": "verb",
+        "meaning_en": "to continue to live or exist through a difficult time",
+        "meaning_ar": "ينجو / يصمد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We couldn't survive without you!"
+      },
+      {
+        "word": "leave you to it",
+        "pos": "phrase",
+        "meaning_en": "to go away so someone can do their work",
+        "meaning_ar": "أتركك تكمل عملك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll leave you to it."
+      },
+      {
+        "word": "personal call",
+        "pos": "noun",
+        "meaning_en": "a phone call not about work",
+        "meaning_ar": "مكالمة شخصية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please don't make personal calls at work."
+      },
+      {
+        "word": "phone manner",
+        "pos": "noun",
+        "meaning_en": "the way you speak on the phone",
+        "meaning_ar": "أسلوب الحديث على الهاتف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has a very polite phone manner."
+      },
+      {
+        "word": "order",
+        "pos": "verb",
+        "meaning_en": "to ask a company to send you goods",
+        "meaning_ar": "يطلب (بضائع)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you order some pens?"
+      },
+      {
+        "word": "run out",
+        "pos": "phrasal verb",
+        "meaning_en": "to have none left",
+        "meaning_ar": "ينفد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've run out of pens."
+      },
+      {
+        "word": "colleague",
+        "pos": "noun",
+        "meaning_en": "a person you work with",
+        "meaning_ar": "زميل عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My colleagues are very helpful."
+      },
+      {
+        "word": "new role",
+        "pos": "noun",
+        "meaning_en": "a new job or position",
+        "meaning_ar": "منصب جديد / دور جديد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How are you finding your new role?"
+      },
+      {
+        "word": "settle in",
+        "pos": "phrasal verb",
+        "meaning_en": "to become comfortable in a new place or job",
+        "meaning_ar": "يتأقلم مع المكان الجديد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It takes a few weeks to settle in."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "experience vs experiment",
+        "words": [
+          "experience",
+          "experiment"
+        ],
+        "explanation_ar": "experience خبرة أو تجربة عشتها. experiment تجربة علمية لاختبار شيء ما. يخلط بينهما العرب لأن كلمة «تجربة» تترجم الاثنتين.",
+        "explanation_en": "Experience = knowledge from doing things. Experiment = a scientific test.",
+        "examples": [
+          {
+            "word": "experience",
+            "sentence": "She has five years' experience in sales."
+          },
+          {
+            "word": "experiment",
+            "sentence": "The students did an experiment in the lab."
+          }
+        ]
+      },
+      {
+        "title": "make a start vs start",
+        "words": [
+          "make a start on",
+          "start"
+        ],
+        "explanation_ar": "المعنى متقارب، لكن make a start on أسلوب ألطف ويُستخدم كثيرًا في الإنجليزية البريطانية لتشجيع شخص على البدء في مهمة: Why don't you make a start on this?",
+        "explanation_en": "Both mean begin. 'Make a start on' sounds softer and is common in British English for encouraging someone.",
+        "examples": [
+          {
+            "word": "make a start on",
+            "sentence": "Why don't you make a start on these emails?"
+          },
+          {
+            "word": "start",
+            "sentence": "The meeting starts at nine."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Let me show you the ropes.",
+        "meaning_ar": "دعني أعلّمك أساسيات العمل.",
+        "meaning_en": "I'll teach you how to do this job.",
+        "example": "Welcome to the team! Let me show you the ropes."
+      },
+      {
+        "phrase": "Watch what I do for a while.",
+        "meaning_ar": "راقب ما أفعله لفترة قصيرة.",
+        "meaning_en": "Look at how I work first.",
+        "example": "Don't answer the phone yet. Watch what I do for a while."
+      },
+      {
+        "phrase": "Why don't you make a start on this?",
+        "meaning_ar": "لماذا لا تبدأ في هذه المهمة؟",
+        "meaning_en": "A friendly way to give someone a task.",
+        "example": "Why don't you make a start on the customer list?"
+      },
+      {
+        "phrase": "I'm here to help, so please ask me if you need to know what to do.",
+        "meaning_ar": "أنا هنا للمساعدة، فاسألني من فضلك إن احتجت إلى معرفة ما يجب فعله.",
+        "meaning_en": "You can ask me anytime.",
+        "example": "I'm here to help, so please ask me if you need anything."
+      },
+      {
+        "phrase": "Nice to have you back.",
+        "meaning_ar": "سعيد بعودتك.",
+        "meaning_en": "We're happy you've returned.",
+        "example": "Nice to have you back after your holiday!"
+      },
+      {
+        "phrase": "We just couldn't survive without you.",
+        "meaning_ar": "لم نكن نستطيع الاستمرار من دونك.",
+        "meaning_en": "You are very important to us (friendly exaggeration).",
+        "example": "Welcome back! We just couldn't survive without you."
+      },
+      {
+        "phrase": "I'll leave you to it.",
+        "meaning_ar": "سأتركك تكمل عملك.",
+        "meaning_en": "I'll go so you can continue.",
+        "example": "You know what to do now, so I'll leave you to it."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Why don't you + verb? (suggestion)",
+        "explanation_ar": "Why don't you + الفعل الأساسي؟ ليس سؤالًا حقيقيًا عن السبب، بل اقتراح أو طلب لطيف.",
+        "explanation_en": "'Why don't you + base verb?' is a friendly suggestion or instruction, not a real question.",
+        "examples": [
+          "Why don't you make a start on this?",
+          "Why don't you call the client?",
+          "Why don't you take a break?"
+        ]
+      },
+      {
+        "title": "Imperatives for instructions + let me",
+        "explanation_ar": "عند تعليم شخص نستخدم الأمر بصيغة الفعل الأساسي (Watch, Check) و Let me + فعل لعرض أنك ستفعل شيئًا: Let me show you.",
+        "explanation_en": "Use imperatives (Watch, Check) to give instructions and 'Let me + verb' to offer to do something.",
+        "examples": [
+          "Let me show you the ropes.",
+          "Watch what I do for a while.",
+          "Check the dates here."
+        ]
+      },
+      {
+        "title": "if + need to know",
+        "explanation_ar": "please ask me if you need to know what to do: بعد if نستخدم المضارع البسيط، وبعد know يمكن أن نضع what to do / how to do it.",
+        "explanation_en": "Use if + present simple; after 'know' use what/how + to + verb.",
+        "examples": [
+          "Please ask me if you need to know what to do.",
+          "Tell me if you don't know how to use it.",
+          "Ask Tom if you need to know where to go."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'Show someone the ropes' means ___.",
+      "choices": [
+        "teach someone how to do a job",
+        "tie something with rope",
+        "climb a mountain",
+        "fire someone"
+      ],
+      "answer": 0,
+      "explanation_ar": "تعني تعليم أساسيات العمل.",
+      "explanation_en": "It means teach someone the job."
+    },
+    {
+      "question": "Why don't you ___ a start on this?",
+      "choices": [
+        "do",
+        "take",
+        "make",
+        "have"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول make a start on.",
+      "explanation_en": "The phrase is 'make a start on'."
+    },
+    {
+      "question": "Watch what I do ___ a while.",
+      "choices": [
+        "during",
+        "since",
+        "for",
+        "in"
+      ],
+      "answer": 2,
+      "explanation_ar": "for a while = لفترة.",
+      "explanation_en": "The phrase is 'for a while'."
+    },
+    {
+      "question": "'Why don't you make a start on this?' is ___.",
+      "choices": [
+        "a friendly suggestion",
+        "an angry question",
+        "a complaint",
+        "an apology"
+      ],
+      "answer": 0,
+      "explanation_ar": "Why don't you...? اقتراح لطيف.",
+      "explanation_en": "It's a friendly suggestion."
+    },
+    {
+      "question": "Anna asks Denise to check the ___ to see which clients haven't been called.",
+      "choices": [
+        "contract",
+        "stapler",
+        "desk",
+        "database"
+      ],
+      "answer": 3,
+      "explanation_ar": "database قاعدة بيانات.",
+      "explanation_en": "She checks the database."
+    },
+    {
+      "question": "Denise wants ___ in sales.",
+      "choices": [
+        "experiment",
+        "experience",
+        "expert",
+        "explain"
+      ],
+      "answer": 1,
+      "explanation_ar": "experience خبرة.",
+      "explanation_en": "Experience means skill from doing something."
+    },
+    {
+      "question": "I'm here to help, so please ask me if you ___ to know what to do.",
+      "choices": [
+        "need",
+        "will need",
+        "needing",
+        "needed to"
+      ],
+      "answer": 0,
+      "explanation_ar": "بعد if نستخدم المضارع البسيط.",
+      "explanation_en": "Use present simple after 'if'."
+    },
+    {
+      "question": "Paul said Denise had to go, but then asked her back. He had to ___.",
+      "choices": [
+        "make a start",
+        "show the ropes",
+        "eat his words",
+        "settle in"
+      ],
+      "answer": 2,
+      "explanation_ar": "eat your words = يعترف بخطئه.",
+      "explanation_en": "It means admit you were wrong."
+    },
+    {
+      "question": "'I'll leave you to it' means ___.",
+      "choices": [
+        "I'll give you a present",
+        "I'll go so you can do your work",
+        "I'll do it for you",
+        "I'll stay and watch"
+      ],
+      "answer": 1,
+      "explanation_ar": "أتركك تكمل عملك.",
+      "explanation_en": "I'll go so you can continue."
+    },
+    {
+      "question": "To make someone feel less worried is to ___ them.",
+      "choices": [
+        "order",
+        "negotiate",
+        "coach",
+        "reassure"
+      ],
+      "answer": 3,
+      "explanation_ar": "reassure = يطمئن.",
+      "explanation_en": "Reassure means make less worried."
+    }
+  ]
+}

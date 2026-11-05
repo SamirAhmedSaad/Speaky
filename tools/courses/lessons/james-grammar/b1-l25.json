@@ -1,0 +1,50 @@
+{
+  "title": "Adjectives Ending in -ed and -ing",
+  "content": {
+    "vocabulary": [
+      {"word": "bored", "pos": "adjective", "meaning_en": "feeling tired and not interested", "meaning_ar": "يشعر بالملل", "note_ar": "", "note_en": "", "example": "I was bored during the long story."},
+      {"word": "boring", "pos": "adjective", "meaning_en": "making people feel bored", "meaning_ar": "مُمِلّ", "note_ar": "", "note_en": "", "example": "The story was boring."},
+      {"word": "interested", "pos": "adjective", "meaning_en": "wanting to know more about something", "meaning_ar": "مهتم", "note_ar": "يأتي بعده in: interested in", "note_en": "Followed by \"in\".", "example": "He seems interested in science."},
+      {"word": "interesting", "pos": "adjective", "meaning_en": "making people want to know more", "meaning_ar": "مثير للاهتمام", "note_ar": "", "note_en": "", "example": "He is an interesting man."},
+      {"word": "tired / tiring", "pos": "adjective", "meaning_en": "tired = how you feel; tiring = what makes you tired", "meaning_ar": "متعب (شعور) / مُتعِب (يسبب التعب)", "note_ar": "", "note_en": "", "example": "The trip was tiring, so I was tired."},
+      {"word": "surprised / surprising", "pos": "adjective", "meaning_en": "surprised = how you feel; surprising = causing surprise", "meaning_ar": "مندهش / مدهش", "note_ar": "", "note_en": "", "example": "She had a surprised smile. The news was surprising."},
+      {"word": "crowded", "pos": "adjective", "meaning_en": "full of people", "meaning_ar": "مزدحم", "note_ar": "", "note_en": "", "example": "The room was crowded."},
+      {"word": "heated", "pos": "adjective", "meaning_en": "(of an argument) angry and strong", "meaning_ar": "محتدم / حاد", "note_ar": "", "note_en": "", "example": "They had a heated argument."},
+      {"word": "growing", "pos": "adjective", "meaning_en": "getting bigger all the time", "meaning_ar": "متنامٍ / آخذ في النمو", "note_ar": "", "note_en": "", "example": "He has a growing business."},
+      {"word": "dazzling", "pos": "adjective", "meaning_en": "very bright and impressive", "meaning_ar": "مبهر / ساطع", "note_ar": "", "note_en": "", "example": "The city has dazzling lights."},
+      {"word": "passive", "pos": "adjective", "meaning_en": "receiving an action, not doing it", "meaning_ar": "مبني للمجهول / سلبي (متلقٍّ)", "note_ar": "", "note_en": "", "example": "\"Bored\" is passive: you receive the feeling."},
+      {"word": "active", "pos": "adjective", "meaning_en": "doing an action", "meaning_ar": "فعّال / نشِط (فاعل)", "note_ar": "", "note_en": "", "example": "\"Boring\" is active: it causes the feeling."},
+      {"word": "linking verb", "pos": "noun", "meaning_en": "a verb that joins the subject to a description: be, seem, look, feel", "meaning_ar": "فعل رابط", "note_ar": "", "note_en": "", "example": "In \"He seems interested\", \"seems\" is a linking verb."},
+      {"word": "condition", "pos": "noun", "meaning_en": "the state or situation of something", "meaning_ar": "حالة / وضع", "note_ar": "", "note_en": "", "example": "\"Crowded\" describes the condition of the room."},
+      {"word": "recap", "pos": "noun", "meaning_en": "a short review of the main points", "meaning_ar": "تلخيص / مراجعة سريعة", "note_ar": "", "note_en": "", "example": "Here is a quick recap of the lesson."}
+    ],
+    "fine_lines": [
+      {"title": "bored vs boring", "words": ["bored", "boring"], "explanation_ar": "-ed: الشخص يتلقى الشعور (I am bored = أشعر بالملل). -ing: الشيء أو الشخص يسبّب الشعور للآخرين (The film is boring = الفيلم ممل). انتبه: He is boring = هو ممل للآخرين، He is bored = هو يشعر بالملل.", "explanation_en": "-ed: the person receives the feeling (I am bored). -ing: the thing or person causes the feeling (The film is boring). Careful: \"He is boring\" = he makes others bored; \"He is bored\" = he feels bored.", "examples": [{"word": "bored", "sentence": "I was bored, so I left early."}, {"word": "boring", "sentence": "The meeting was boring."}]},
+      {"title": "interested vs interesting", "words": ["interested", "interesting"], "explanation_ar": "interested = أنا مهتم (شعوري). interesting = الشيء مثير للاهتمام (يسبب الشعور).", "explanation_en": "\"Interested\" = how I feel. \"Interesting\" = the thing that causes the feeling.", "examples": [{"word": "interested", "sentence": "I'm interested in history."}, {"word": "interesting", "sentence": "History is interesting."}]}
+    ],
+    "expressions": [
+      {"phrase": "He seems interested.", "meaning_ar": "يبدو مهتمًا.", "meaning_en": "He looks like he wants to know more.", "example": "Tell him about the course. He seems interested."},
+      {"phrase": "a heated argument", "meaning_ar": "جدال حاد", "meaning_en": "an angry, strong argument", "example": "There was a heated argument at the meeting."},
+      {"phrase": "a crowded room", "meaning_ar": "غرفة مزدحمة", "meaning_en": "a room full of people", "example": "I don't like speaking in a crowded room."},
+      {"phrase": "clear that up", "meaning_ar": "يوضّح ذلك", "meaning_en": "make it easy to understand", "example": "Let me clear that up for you."}
+    ],
+    "grammar": [
+      {"title": "-ed adjectives: passive, received, finished", "explanation_ar": "الصفة المنتهية بـ ed تأتي من فعل، وتعني أنك تلقيت أثر الفعل (مبني للمجهول) وأن الفعل انتهى، فتصف شعورك: bored, tired, excited. وتصف أيضًا حالة الشيء الآن بعد فعل انتهى: a crowded room, a heated argument.", "explanation_en": "-ed adjectives come from verbs. They mean you received the action (passive) and the action is finished, so they describe your feeling: bored, tired, excited. They also describe a condition now, after a finished action: a crowded room, a heated argument.", "examples": ["I felt tired after the long trip.", "The room was crowded."]},
+      {"title": "-ing adjectives: active, causing, ongoing", "explanation_ar": "الصفة المنتهية بـ ing فعّالة: تسبب الشعور للآخرين الآن (boring, tiring, interesting)، أو تصف فعلًا مستمرًا (a growing business = عمل يكبر باستمرار).", "explanation_en": "-ing adjectives are active: they cause a feeling in others now (boring, tiring, interesting), or describe an ongoing action (a growing business = a business that keeps getting bigger).", "examples": ["You are boring me!", "He has a growing business."]},
+      {"title": "Word order: before nouns, after linking verbs", "explanation_ar": "تأتي هذه الصفات قبل الاسم (an interesting man, a surprised smile) أو بعد فعل رابط مثل be / seem / look (He seems interested).", "explanation_en": "These adjectives go before a noun (an interesting man, a surprised smile) or after a linking verb like be / seem / look (He seems interested).", "examples": ["She is an interesting person.", "He seems interested."]},
+      {"title": "Degree: so, very, the most", "explanation_ar": "نستعمل الظروف so و very لنبين الدرجة، و the most للتفضيل: so interesting, very bored, the most interesting actor.", "explanation_en": "Use the adverbs \"so\" and \"very\" for degree, and \"the most\" for the superlative: so interesting, very bored, the most interesting actor.", "examples": ["The lesson was so interesting.", "He is the most interesting teacher in the school."]}
+    ]
+  },
+  "questions": [
+    {"question": "The story was very long. I was ___.", "choices": ["boring", "bored", "bore", "boredom"], "answer": 1, "explanation_ar": "أنا أتلقى الشعور: bored.", "explanation_en": "I receive the feeling: bored."},
+    {"question": "\"The film was ___. I fell asleep.\"", "choices": ["bored", "boring", "interested", "crowded"], "answer": 1, "explanation_ar": "الفيلم يسبب الملل: boring.", "explanation_en": "The film causes the feeling: boring."},
+    {"question": "\"I'm ___ in science.\"", "choices": ["interested", "interesting", "interest", "interests"], "answer": 0, "explanation_ar": "شعوري: interested in.", "explanation_en": "My feeling: interested in."},
+    {"question": "\"The room was ___. There were 200 people in it.\"", "choices": ["crowding", "heated", "crowded", "growing"], "answer": 2, "explanation_ar": "تصف حالة الغرفة: crowded.", "explanation_en": "It describes the room's condition: crowded."},
+    {"question": "\"He has a ___ business.\" (it keeps getting bigger)", "choices": ["grown", "growing", "grew", "growth"], "answer": 1, "explanation_ar": "فعل مستمر: growing.", "explanation_en": "An ongoing action: growing."},
+    {"question": "-ed adjectives are usually ___.", "choices": ["active", "ongoing", "verbs", "passive (received)"], "answer": 3, "explanation_ar": "-ed = تلقي الفعل.", "explanation_en": "-ed = receiving the action."},
+    {"question": "Choose the correct sentence.", "choices": ["He seems interested.", "He seems interest.", "He interesting seems.", "He seems to interested."], "answer": 0, "explanation_ar": "الصفة بعد الفعل الرابط seems.", "explanation_en": "The adjective goes after the linking verb \"seems\"."},
+    {"question": "\"He is the ___ interesting actor in the film.\"", "choices": ["more", "so", "most", "very"], "answer": 2, "explanation_ar": "صيغة التفضيل: the most.", "explanation_en": "Superlative: the most."},
+    {"question": "\"They had a ___ argument.\" (angry and strong)", "choices": ["heating", "heated", "heat", "hot"], "answer": 1, "explanation_ar": "التعبير: a heated argument.", "explanation_en": "The phrase is \"a heated argument\"."},
+    {"question": "\"The trip was long and ___.\" (it made us tired)", "choices": ["tired", "tire", "tiring", "tiredly"], "answer": 2, "explanation_ar": "الرحلة سببت التعب: tiring.", "explanation_en": "The trip caused tiredness: tiring."}
+  ]
+}

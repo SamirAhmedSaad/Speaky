@@ -1,0 +1,388 @@
+{
+  "title": "New Year's Resolutions",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "New Year",
+        "pos": "noun",
+        "meaning_en": "the start of a new year (January 1st)",
+        "meaning_ar": "رأس السنة / السنة الجديدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It will be a new year soon."
+      },
+      {
+        "word": "resolution",
+        "pos": "noun",
+        "meaning_en": "a firm decision to do something",
+        "meaning_ar": "قرار / عزم",
+        "note_ar": "New Year's resolution = قرار للسنة الجديدة",
+        "note_en": "\"New Year's resolution\" = a goal for the new year.",
+        "example": "Have you made any New Year's resolutions?"
+      },
+      {
+        "word": "beginning",
+        "pos": "noun",
+        "meaning_en": "the start",
+        "meaning_ar": "بداية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "At the beginning of the year, decide on a goal."
+      },
+      {
+        "word": "decide",
+        "pos": "verb",
+        "meaning_en": "choose to do something after thinking",
+        "meaning_ar": "يقرر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You should decide to do something."
+      },
+      {
+        "word": "gym",
+        "pos": "noun",
+        "meaning_en": "a place for exercise",
+        "meaning_ar": "صالة رياضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm planning to go to the gym every day."
+      },
+      {
+        "word": "lose weight",
+        "pos": "phrase",
+        "meaning_en": "become lighter / less heavy",
+        "meaning_ar": "يخسر وزنًا / ينقص وزنه",
+        "note_ar": "",
+        "note_en": "Opposite: gain weight.",
+        "example": "I want to lose weight."
+      },
+      {
+        "word": "goal",
+        "pos": "noun",
+        "meaning_en": "something you want to achieve",
+        "meaning_ar": "هدف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A resolution is a goal."
+      },
+      {
+        "word": "set a goal",
+        "pos": "phrase",
+        "meaning_en": "decide what you want to achieve",
+        "meaning_ar": "يضع هدفًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's set a goal for this year."
+      },
+      {
+        "word": "achieve",
+        "pos": "verb",
+        "meaning_en": "succeed in doing something",
+        "meaning_ar": "يحقق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to achieve my goals."
+      },
+      {
+        "word": "marathon",
+        "pos": "noun",
+        "meaning_en": "a running race of about 42 km",
+        "meaning_ar": "ماراثون (سباق جري طويل)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm going to run a marathon."
+      },
+      {
+        "word": "challenge",
+        "pos": "noun",
+        "meaning_en": "something difficult that tests you",
+        "meaning_ar": "تحدٍّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm looking forward to the challenge."
+      },
+      {
+        "word": "hope",
+        "pos": "noun / verb",
+        "meaning_en": "wish for something good",
+        "meaning_ar": "أمل / يأمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A new year brings new hope."
+      },
+      {
+        "word": "stay fit",
+        "pos": "phrase",
+        "meaning_en": "keep your body healthy and strong",
+        "meaning_ar": "يحافظ على لياقته",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will try to stay fit and well."
+      },
+      {
+        "word": "give up",
+        "pos": "phrasal verb",
+        "meaning_en": "stop doing or having something",
+        "meaning_ar": "يتخلى عن / يترك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm hoping to give up caffeine."
+      },
+      {
+        "word": "caffeine",
+        "pos": "noun",
+        "meaning_en": "the thing in coffee and tea that keeps you awake",
+        "meaning_ar": "الكافيين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Coffee has a lot of caffeine."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "goal vs resolution",
+        "words": [
+          "goal",
+          "resolution"
+        ],
+        "explanation_ar": "goal = هدف تريد تحقيقه. resolution = قرار حازم، وغالبًا في بداية السنة.",
+        "explanation_en": "A \"goal\" is something you want to achieve. A \"resolution\" is a firm decision, often at New Year.",
+        "examples": [
+          {
+            "word": "goal",
+            "sentence": "My goal is to read 20 books."
+          },
+          {
+            "word": "resolution",
+            "sentence": "My New Year's resolution is to exercise more."
+          }
+        ]
+      },
+      {
+        "title": "going to vs hoping to",
+        "words": [
+          "going to",
+          "hoping to"
+        ],
+        "explanation_ar": "I'm going to = خطة مؤكدة. I'm hoping to = أتمنى، ليس مؤكدًا.",
+        "explanation_en": "\"I'm going to\" = a sure plan. \"I'm hoping to\" = a wish, not sure.",
+        "examples": [
+          {
+            "word": "going to",
+            "sentence": "I'm going to run a marathon."
+          },
+          {
+            "word": "hoping to",
+            "sentence": "I'm hoping to learn more English."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Have you made any New Year's resolutions?",
+        "meaning_ar": "هل وضعت أي قرارات للسنة الجديدة؟",
+        "meaning_en": "Asking about plans for the new year.",
+        "example": "Have you made any plans for the holiday?"
+      },
+      {
+        "phrase": "What's yours?",
+        "meaning_ar": "وما هو قرارك أنت؟",
+        "meaning_en": "Asking someone to share theirs.",
+        "example": "My goal is to read more. What's yours?"
+      },
+      {
+        "phrase": "Sorry I'm late.",
+        "meaning_ar": "آسف على التأخير.",
+        "meaning_en": "Saying sorry for being late.",
+        "example": "Sorry I'm late. The bus was slow."
+      },
+      {
+        "phrase": "What are you talking about?",
+        "meaning_ar": "عمّ تتحدثون؟",
+        "meaning_en": "Joining a conversation.",
+        "example": "Hi! What are you talking about?"
+      },
+      {
+        "phrase": "I can't believe tomorrow is the first day of the New Year!",
+        "meaning_ar": "لا أصدق أن الغد هو أول يوم في السنة الجديدة!",
+        "meaning_en": "Surprise about time.",
+        "example": "I can't believe it's Friday already!"
+      },
+      {
+        "phrase": "The year went by so fast.",
+        "meaning_ar": "مرّت السنة بسرعة كبيرة.",
+        "meaning_en": "Time passed quickly.",
+        "example": "This week went by so fast."
+      },
+      {
+        "phrase": "I'm planning to go to the gym every day.",
+        "meaning_ar": "أخطط للذهاب إلى الصالة الرياضية كل يوم.",
+        "meaning_en": "Talking about a plan.",
+        "example": "I'm planning to visit my grandparents."
+      },
+      {
+        "phrase": "I'm looking forward to the challenge.",
+        "meaning_ar": "أتطلع إلى هذا التحدي.",
+        "meaning_en": "Happy about a difficult task.",
+        "example": "The exam is hard, but I'm looking forward to the challenge."
+      },
+      {
+        "phrase": "I'm hoping to learn more English.",
+        "meaning_ar": "أتمنى أن أتعلم مزيدًا من الإنجليزية.",
+        "meaning_en": "A wish for the future.",
+        "example": "I'm hoping to find a new job."
+      },
+      {
+        "phrase": "I will try to stay fit and well.",
+        "meaning_ar": "سأحاول أن أحافظ على لياقتي وصحتي.",
+        "meaning_en": "A health goal.",
+        "example": "This year I will try to sleep early."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Talking about the future: going to / planning to / hoping to / will try to",
+        "explanation_ar": "للخطط المستقبلية: I'm going to + فعل (خطة)، I'm planning to + فعل، I'm hoping to + فعل (أمنية)، I will try to + فعل (محاولة).",
+        "explanation_en": "Future plans: \"going to\" (plan), \"planning to\", \"hoping to\" (wish), \"will try to\" (effort).",
+        "examples": [
+          "I'm going to run a marathon.",
+          "I'm planning to go to the gym.",
+          "I'm hoping to learn more English."
+        ]
+      },
+      {
+        "title": "Present perfect questions: Have you made ...?",
+        "explanation_ar": "نسأل عن شيء فعلته حتى الآن: Have you + التصريف الثالث؟ ومع yet في السؤال: Have you made a resolution yet?",
+        "explanation_en": "Ask about something done up to now: \"Have you + past participle?\" Add \"yet\" in questions.",
+        "examples": [
+          "Have you made any resolutions?",
+          "Have you made a resolution yet?",
+          "I have made a few."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A firm decision for the new year is a New Year's ...",
+      "choices": [
+        "goal",
+        "resolution",
+        "challenge",
+        "marathon"
+      ],
+      "answer": 1,
+      "explanation_ar": "قرار السنة الجديدة: resolution.",
+      "explanation_en": "A New Year's resolution."
+    },
+    {
+      "question": "I'm ____ to learn more English. (a wish, not sure)",
+      "choices": [
+        "hope",
+        "hoped",
+        "hopes",
+        "hoping"
+      ],
+      "answer": 3,
+      "explanation_ar": "I'm hoping to للأمنية.",
+      "explanation_en": "\"I'm hoping to\" = a wish."
+    },
+    {
+      "question": "Have you made a resolution ____?",
+      "choices": [
+        "yet",
+        "already yet",
+        "still",
+        "ago"
+      ],
+      "answer": 0,
+      "explanation_ar": "في السؤال نستخدم yet.",
+      "explanation_en": "Use \"yet\" in questions."
+    },
+    {
+      "question": "A marathon is a long ...",
+      "choices": [
+        "swim",
+        "bike trip",
+        "running race",
+        "holiday"
+      ],
+      "answer": 2,
+      "explanation_ar": "سباق جري طويل.",
+      "explanation_en": "A long running race."
+    },
+    {
+      "question": "\"I'm hoping to give up caffeine.\" Give up means ...",
+      "choices": [
+        "start",
+        "buy more",
+        "stop having",
+        "cook"
+      ],
+      "answer": 2,
+      "explanation_ar": "give up يترك.",
+      "explanation_en": "\"Give up\" = stop."
+    },
+    {
+      "question": "\"The year went by so fast.\" means ...",
+      "choices": [
+        "The year passed quickly.",
+        "The year was slow.",
+        "The year is coming.",
+        "The year was bad."
+      ],
+      "answer": 0,
+      "explanation_ar": "مرّت السنة بسرعة.",
+      "explanation_en": "The year passed quickly."
+    },
+    {
+      "question": "I'm looking forward to the ____. (something difficult)",
+      "choices": [
+        "caffeine",
+        "beginning",
+        "gym",
+        "challenge"
+      ],
+      "answer": 3,
+      "explanation_ar": "تحدٍّ: challenge.",
+      "explanation_en": "A challenge."
+    },
+    {
+      "question": "I want to ____ weight. (become lighter)",
+      "choices": [
+        "loose",
+        "lose",
+        "lost",
+        "less"
+      ],
+      "answer": 1,
+      "explanation_ar": "الإجابة الصحيحة: lose weight.",
+      "explanation_en": "We say \"lose weight\"."
+    },
+    {
+      "question": "\"What's yours?\" here means ...",
+      "choices": [
+        "What is your resolution?",
+        "Where is your bag?",
+        "Who are you?",
+        "What time is it?"
+      ],
+      "answer": 0,
+      "explanation_ar": "ما هو قرارك أنت؟",
+      "explanation_en": "What is your resolution?"
+    },
+    {
+      "question": "I will try to stay ____ and well.",
+      "choices": [
+        "fitting",
+        "fat",
+        "fit",
+        "feet"
+      ],
+      "answer": 2,
+      "explanation_ar": "stay fit = يحافظ على لياقته.",
+      "explanation_en": "\"Stay fit\" = stay healthy."
+    }
+  ]
+}

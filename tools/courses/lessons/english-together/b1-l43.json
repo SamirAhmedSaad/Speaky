@@ -1,0 +1,383 @@
+{
+  "title": "At the Clinic",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "clinic",
+        "pos": "noun",
+        "meaning_en": "a place where doctors see patients",
+        "meaning_ar": "عيادة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I went to the clinic this morning."
+      },
+      {
+        "word": "headache",
+        "pos": "noun",
+        "meaning_en": "a pain in your head",
+        "meaning_ar": "صداع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a headache."
+      },
+      {
+        "word": "sore throat",
+        "pos": "noun",
+        "meaning_en": "pain in your throat",
+        "meaning_ar": "التهاب / ألم في الحلق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a sore throat."
+      },
+      {
+        "word": "fever",
+        "pos": "noun",
+        "meaning_en": "a high body temperature",
+        "meaning_ar": "حُمّى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You have a fever."
+      },
+      {
+        "word": "temperature",
+        "pos": "noun",
+        "meaning_en": "how hot or cold something is",
+        "meaning_ar": "درجة الحرارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me check your temperature."
+      },
+      {
+        "word": "degrees",
+        "pos": "noun",
+        "meaning_en": "units for measuring temperature",
+        "meaning_ar": "درجات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your temperature is 38 degrees."
+      },
+      {
+        "word": "medicine",
+        "pos": "noun",
+        "meaning_en": "something you take to get better",
+        "meaning_ar": "دواء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Take the medicine after meals."
+      },
+      {
+        "word": "meals",
+        "pos": "noun",
+        "meaning_en": "breakfast, lunch or dinner",
+        "meaning_ar": "وجبات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Take it three times a day after meals."
+      },
+      {
+        "word": "advice",
+        "pos": "noun",
+        "meaning_en": "an idea about what someone should do",
+        "meaning_ar": "نصيحة",
+        "note_ar": "غير معدودة",
+        "note_en": "Uncountable.",
+        "example": "I will follow your advice."
+      },
+      {
+        "word": "runny nose",
+        "pos": "noun",
+        "meaning_en": "a nose with liquid coming out",
+        "meaning_ar": "سيلان الأنف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a runny nose."
+      },
+      {
+        "word": "cough",
+        "pos": "noun",
+        "meaning_en": "a sound when air comes out of your throat",
+        "meaning_ar": "سعال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a bad cough."
+      },
+      {
+        "word": "symptoms",
+        "pos": "noun",
+        "meaning_en": "signs that you are sick",
+        "meaning_ar": "أعراض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "How long have you had these symptoms?"
+      },
+      {
+        "word": "cold",
+        "pos": "noun",
+        "meaning_en": "a common illness",
+        "meaning_ar": "زكام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You have a cold."
+      },
+      {
+        "word": "rest",
+        "pos": "verb",
+        "meaning_en": "relax and not work",
+        "meaning_ar": "يرتاح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You need to rest."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "headache vs sore throat",
+        "words": [
+          "headache",
+          "sore throat"
+        ],
+        "explanation_ar": "headache ألم في الرأس، و sore throat ألم في الحلق. نقول: I have a headache. I have a sore throat.",
+        "explanation_en": "Headache = pain in the head. Sore throat = pain in the throat.",
+        "examples": [
+          {
+            "word": "headache",
+            "sentence": "I have a headache."
+          },
+          {
+            "word": "sore throat",
+            "sentence": "I have a sore throat."
+          }
+        ]
+      },
+      {
+        "title": "fever vs cold",
+        "words": [
+          "fever",
+          "cold"
+        ],
+        "explanation_ar": "fever ارتفاع حرارة الجسم، و cold مرض بسيط (زكام) مع سيلان أنف وسعال.",
+        "explanation_en": "Fever = high temperature. Cold = a common illness with a runny nose and cough.",
+        "examples": [
+          {
+            "word": "fever",
+            "sentence": "Your temperature is 38 degrees. You have a fever."
+          },
+          {
+            "word": "cold",
+            "sentence": "I have a runny nose. I think I have a cold."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I don't feel well.",
+        "meaning_ar": "لا أشعر أنني بخير.",
+        "meaning_en": "Tell a doctor you are sick.",
+        "example": "Hello, doctor. I don't feel well."
+      },
+      {
+        "phrase": "What is wrong? / What is the problem?",
+        "meaning_ar": "ما المشكلة؟",
+        "meaning_en": "What a doctor asks.",
+        "example": "Hello, Mark. What is the problem?"
+      },
+      {
+        "phrase": "How long have you felt this way? — For two days.",
+        "meaning_ar": "منذ متى تشعر هكذا؟ — منذ يومين.",
+        "meaning_en": "Ask how long a problem has lasted.",
+        "example": "How long have you felt this way? For three days."
+      },
+      {
+        "phrase": "Let me check your temperature.",
+        "meaning_ar": "دعني أقيس حرارتك.",
+        "meaning_en": "What a doctor or nurse says.",
+        "example": "Sit down, please. Let me check your temperature."
+      },
+      {
+        "phrase": "What should I do, doctor?",
+        "meaning_ar": "ماذا يجب أن أفعل يا دكتور؟",
+        "meaning_en": "Ask for advice.",
+        "example": "I have a fever. What should I do, doctor?"
+      },
+      {
+        "phrase": "Take the medicine three times a day after meals.",
+        "meaning_ar": "تناول الدواء ثلاث مرات يوميًا بعد الوجبات.",
+        "meaning_en": "Medicine instructions.",
+        "example": "Take the medicine twice a day after meals."
+      },
+      {
+        "phrase": "I will follow your advice.",
+        "meaning_ar": "سأتبع نصيحتك.",
+        "meaning_en": "Agree to do what the doctor says.",
+        "example": "Thank you, doctor. I will follow your advice."
+      },
+      {
+        "phrase": "If you don't feel better, come back.",
+        "meaning_ar": "إذا لم تتحسّن فعُد مرة أخرى.",
+        "meaning_en": "Tell a patient to return if needed.",
+        "example": "Rest at home. If you don't feel better, come back."
+      },
+      {
+        "phrase": "The doctor is ready to see you now.",
+        "meaning_ar": "الطبيب جاهز لاستقبالك الآن.",
+        "meaning_en": "What a receptionist says.",
+        "example": "Mark, the doctor is ready to see you now."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Describing symptoms: I have a + illness/symptom",
+        "explanation_ar": "نصف الأعراض بـ I have a + اسم: I have a headache. I have a sore throat. I have a runny nose and a cough.",
+        "explanation_en": "Describe symptoms: I have a headache / a sore throat / a cough.",
+        "examples": [
+          "I have a headache and a sore throat.",
+          "I have a runny nose and a cough.",
+          "Do you have a fever? No, I don't."
+        ]
+      },
+      {
+        "title": "How long have you...? — For + time",
+        "explanation_ar": "نسأل عن المدة بالمضارع التام: How long have you felt this way? How long have you had these symptoms? والجواب: For two days.",
+        "explanation_en": "Ask duration with the present perfect: How long have you had...? Answer: For + time.",
+        "examples": [
+          "How long have you felt this way? For two days.",
+          "How long have you had these symptoms? For three days.",
+          "I have had a cough for a week."
+        ]
+      },
+      {
+        "title": "need to / should for instructions",
+        "explanation_ar": "need to + الفعل (يجب/يلزم) و should + الفعل (ينبغي) لتعليمات الطبيب: You need to rest. You should stay at home.",
+        "explanation_en": "Doctor's instructions: You need to + verb / You should + verb.",
+        "examples": [
+          "You need to rest and drink a lot of water.",
+          "You should stay at home and rest.",
+          "Should I take medicine?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "I have a ___. My head hurts.",
+      "choices": [
+        "sore throat",
+        "headache",
+        "runny nose",
+        "cough"
+      ],
+      "answer": 1,
+      "explanation_ar": "headache ألم في الرأس.",
+      "explanation_en": "A headache is pain in the head."
+    },
+    {
+      "question": "How long have you felt this way? — ___ two days.",
+      "choices": [
+        "In",
+        "Since",
+        "Ago",
+        "For"
+      ],
+      "answer": 3,
+      "explanation_ar": "مع المدة نستخدم for.",
+      "explanation_en": "Use \"for\" with a length of time."
+    },
+    {
+      "question": "Your temperature is 38 degrees. You have a ___.",
+      "choices": [
+        "meal",
+        "cough",
+        "fever",
+        "clinic"
+      ],
+      "answer": 2,
+      "explanation_ar": "38 درجة تعني حُمّى.",
+      "explanation_en": "38 degrees means a fever."
+    },
+    {
+      "question": "Take the medicine three times a day ___ meals.",
+      "choices": [
+        "during in",
+        "before to",
+        "after",
+        "on"
+      ],
+      "answer": 2,
+      "explanation_ar": "after meals = بعد الوجبات.",
+      "explanation_en": "\"After meals\"."
+    },
+    {
+      "question": "You need ___ and drink a lot of water.",
+      "choices": [
+        "to rest",
+        "rest",
+        "resting",
+        "rests"
+      ],
+      "answer": 0,
+      "explanation_ar": "need to + الفعل.",
+      "explanation_en": "need to + verb."
+    },
+    {
+      "question": "Can I go to school tomorrow? — No, you ___ stay at home and rest.",
+      "choices": [
+        "should to",
+        "shoulds",
+        "should",
+        "are"
+      ],
+      "answer": 2,
+      "explanation_ar": "should + الفعل في أصله.",
+      "explanation_en": "should + base verb."
+    },
+    {
+      "question": "Signs that you are sick are called ___.",
+      "choices": [
+        "symptoms",
+        "meals",
+        "degrees",
+        "advice"
+      ],
+      "answer": 0,
+      "explanation_ar": "symptoms أعراض.",
+      "explanation_en": "Symptoms are signs of illness."
+    },
+    {
+      "question": "I will ___ your advice.",
+      "choices": [
+        "follow",
+        "make",
+        "do on",
+        "take of"
+      ],
+      "answer": 0,
+      "explanation_ar": "follow advice = يتبع النصيحة.",
+      "explanation_en": "\"Follow advice\"."
+    },
+    {
+      "question": "Do you have a fever? — No, I ___.",
+      "choices": [
+        "haven't got to",
+        "don't",
+        "am not",
+        "doesn't"
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال بـ Do، فالجواب No, I don't.",
+      "explanation_en": "Answer \"Do you...?\" with \"No, I don't\"."
+    },
+    {
+      "question": "If you don't feel better, come ___.",
+      "choices": [
+        "off",
+        "in back",
+        "to back",
+        "back"
+      ],
+      "answer": 3,
+      "explanation_ar": "come back = عُد.",
+      "explanation_en": "\"Come back\" = return."
+    }
+  ]
+}

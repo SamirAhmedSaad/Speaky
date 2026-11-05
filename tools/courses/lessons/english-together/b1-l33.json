@@ -1,0 +1,383 @@
+{
+  "title": "Planning a School Project",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "science",
+        "pos": "noun",
+        "meaning_en": "the study of nature and the world",
+        "meaning_ar": "العلوم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Science is my favorite subject."
+      },
+      {
+        "word": "project",
+        "pos": "noun",
+        "meaning_en": "a piece of school work planned over time",
+        "meaning_ar": "مشروع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a science project."
+      },
+      {
+        "word": "plants",
+        "pos": "noun",
+        "meaning_en": "living things that grow in soil, like trees and flowers",
+        "meaning_ar": "نباتات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Plants need water and sun."
+      },
+      {
+        "word": "grow",
+        "pos": "verb",
+        "meaning_en": "get bigger",
+        "meaning_ar": "ينمو",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The plant grows every day."
+      },
+      {
+        "word": "work together",
+        "pos": "phrase",
+        "meaning_en": "do something as a team",
+        "meaning_ar": "يعملون معًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's work together."
+      },
+      {
+        "word": "seeds",
+        "pos": "noun",
+        "meaning_en": "small things that plants grow from",
+        "meaning_ar": "بذور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Put the seeds in the soil."
+      },
+      {
+        "word": "pot",
+        "pos": "noun",
+        "meaning_en": "a container for plants",
+        "meaning_ar": "أصيص / إناء زرع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The plant is in a small pot."
+      },
+      {
+        "word": "chart",
+        "pos": "noun",
+        "meaning_en": "a picture with lines or bars that shows information",
+        "meaning_ar": "مخطّط / رسم بياني",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will make the chart."
+      },
+      {
+        "word": "growth",
+        "pos": "noun",
+        "meaning_en": "the process of getting bigger",
+        "meaning_ar": "النموّ",
+        "note_ar": "الفعل: grow",
+        "note_en": "Verb: grow.",
+        "example": "The chart shows the growth."
+      },
+      {
+        "word": "notes",
+        "pos": "noun",
+        "meaning_en": "short pieces of writing",
+        "meaning_ar": "ملاحظات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We can write simple notes."
+      },
+      {
+        "word": "leaf",
+        "pos": "noun",
+        "meaning_en": "a flat green part of a plant",
+        "meaning_ar": "ورقة نبات",
+        "note_ar": "الجمع: leaves",
+        "note_en": "Plural: leaves.",
+        "example": "The leaf is bigger today."
+      },
+      {
+        "word": "soil",
+        "pos": "noun",
+        "meaning_en": "the earth that plants grow in",
+        "meaning_ar": "تربة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Plants grow in soil."
+      },
+      {
+        "word": "garden",
+        "pos": "noun",
+        "meaning_en": "land with plants near a house",
+        "meaning_ar": "حديقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have seeds in my garden."
+      },
+      {
+        "word": "library",
+        "pos": "noun",
+        "meaning_en": "a place with many books to read",
+        "meaning_ar": "مكتبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's meet in the library."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "must vs should",
+        "words": [
+          "must",
+          "should"
+        ],
+        "explanation_ar": "must تعني يجب (أمر قوي أو ضروري)، و should تعني ينبغي (نصيحة أو اقتراح). Our teacher said we must make a project. She said we should show how plants grow.",
+        "explanation_en": "\"Must\" = necessary. \"Should\" = a good idea / advice.",
+        "examples": [
+          {
+            "word": "must",
+            "sentence": "We must make a project about plants."
+          },
+          {
+            "word": "should",
+            "sentence": "We should take pictures every day."
+          }
+        ]
+      },
+      {
+        "title": "small vs bigger",
+        "words": [
+          "small",
+          "bigger"
+        ],
+        "explanation_ar": "small صفة (صغير)، و bigger صيغة المقارنة من big (أكبر). نضاعف g ونضيف er.",
+        "explanation_en": "\"Small\" is an adjective. \"Bigger\" compares: big → bigger.",
+        "examples": [
+          {
+            "word": "small",
+            "sentence": "Today the seed is small."
+          },
+          {
+            "word": "bigger",
+            "sentence": "Today the leaf is bigger."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Are you ready to talk about our project?",
+        "meaning_ar": "هل أنت مستعد للحديث عن مشروعنا؟",
+        "meaning_en": "Start a group discussion.",
+        "example": "Are you ready to talk about our science project?"
+      },
+      {
+        "phrase": "How do we start?",
+        "meaning_ar": "كيف نبدأ؟",
+        "meaning_en": "Ask about the first step.",
+        "example": "We have a big project. How do we start?"
+      },
+      {
+        "phrase": "I think we can...",
+        "meaning_ar": "أظن أننا نستطيع...",
+        "meaning_en": "Give an idea politely.",
+        "example": "I think we can plant some seeds."
+      },
+      {
+        "phrase": "Good idea.",
+        "meaning_ar": "فكرة جيدة.",
+        "meaning_en": "Agree with an idea.",
+        "example": "Let's take pictures every day. Good idea."
+      },
+      {
+        "phrase": "Who will bring the seeds?",
+        "meaning_ar": "من سيُحضر البذور؟",
+        "meaning_en": "Ask who will do a task.",
+        "example": "Who will bring the pot?"
+      },
+      {
+        "phrase": "I can bring...",
+        "meaning_ar": "أستطيع أن أُحضر...",
+        "meaning_en": "Offer to do a task.",
+        "example": "I can bring the pot and the soil."
+      },
+      {
+        "phrase": "We all have jobs now.",
+        "meaning_ar": "لكلٍّ منا مهمة الآن.",
+        "meaning_en": "Say the work is shared.",
+        "example": "You bring seeds, I make the chart. We all have jobs now."
+      },
+      {
+        "phrase": "Let's meet again after school tomorrow.",
+        "meaning_ar": "لنلتقِ مرة أخرى بعد المدرسة غدًا.",
+        "meaning_en": "Plan the next meeting.",
+        "example": "Let's meet again after school tomorrow to start."
+      },
+      {
+        "phrase": "We will do a great job!",
+        "meaning_ar": "سننجز عملًا رائعًا!",
+        "meaning_en": "Encourage your team.",
+        "example": "Don't worry. We will do a great job!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "can for ideas and offers",
+        "explanation_ar": "نستخدم can + الفعل لاقتراح فكرة (We can make a chart) أو لعرض المساعدة (I can bring the seeds).",
+        "explanation_en": "Use can + base verb for ideas and offers.",
+        "examples": [
+          "We can make a chart to show the growth.",
+          "I can bring the seeds from my garden.",
+          "We can also write simple notes."
+        ]
+      },
+      {
+        "title": "will for decisions and future",
+        "explanation_ar": "will + الفعل لقرار نتخذه الآن أو للمستقبل: I will make the chart. Who will bring the seeds?",
+        "explanation_en": "will + base verb for decisions and the future.",
+        "examples": [
+          "Who will bring the seeds?",
+          "Great! I will make the chart.",
+          "Our project will be good."
+        ]
+      },
+      {
+        "title": "Reported speech: She said we must...",
+        "explanation_ar": "لننقل كلام شخص: She said (that) + الجملة: Our teacher said we must make a project.",
+        "explanation_en": "To report someone's words: She said (that) + sentence.",
+        "examples": [
+          "Our teacher said we must make a project about plants.",
+          "She said we should show how plants grow.",
+          "He said he can help."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Our teacher said we ___ make a project. (It is necessary.)",
+      "choices": [
+        "can",
+        "must",
+        "will",
+        "are"
+      ],
+      "answer": 1,
+      "explanation_ar": "must تعني يجب.",
+      "explanation_en": "\"Must\" = it is necessary."
+    },
+    {
+      "question": "Plants grow from ___.",
+      "choices": [
+        "seeds",
+        "charts",
+        "notes",
+        "libraries"
+      ],
+      "answer": 0,
+      "explanation_ar": "النباتات تنمو من البذور seeds.",
+      "explanation_en": "Plants grow from seeds."
+    },
+    {
+      "question": "We can make a ___ to show the growth.",
+      "choices": [
+        "soil",
+        "pot",
+        "chart",
+        "leaf"
+      ],
+      "answer": 2,
+      "explanation_ar": "chart مخطط.",
+      "explanation_en": "A chart shows information."
+    },
+    {
+      "question": "Who ___ bring the seeds?",
+      "choices": [
+        "is",
+        "will",
+        "does",
+        "are"
+      ],
+      "answer": 1,
+      "explanation_ar": "Who will...? للسؤال عن المستقبل.",
+      "explanation_en": "\"Who will...?\" asks about the future."
+    },
+    {
+      "question": "I ___ bring the pot and the soil.",
+      "choices": [
+        "can",
+        "cans",
+        "can to",
+        "canning"
+      ],
+      "answer": 0,
+      "explanation_ar": "can + الفعل في أصله.",
+      "explanation_en": "can + base verb."
+    },
+    {
+      "question": "Today the leaf is ___.",
+      "choices": [
+        "big",
+        "biggest than",
+        "more big",
+        "bigger"
+      ],
+      "answer": 3,
+      "explanation_ar": "المقارنة: bigger.",
+      "explanation_en": "Comparative: bigger."
+    },
+    {
+      "question": "The plural of \"leaf\" is ___.",
+      "choices": [
+        "leafs",
+        "leave",
+        "leafes",
+        "leaves"
+      ],
+      "answer": 3,
+      "explanation_ar": "جمع leaf هو leaves.",
+      "explanation_en": "Plural: leaves."
+    },
+    {
+      "question": "Plants grow in ___.",
+      "choices": [
+        "soil",
+        "chart",
+        "library",
+        "notes"
+      ],
+      "answer": 0,
+      "explanation_ar": "soil التربة.",
+      "explanation_en": "Plants grow in soil."
+    },
+    {
+      "question": "Let's meet ___ the library.",
+      "choices": [
+        "on",
+        "in",
+        "at the on",
+        "to"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول in the library أي داخل المكتبة.",
+      "explanation_en": "We say \"in the library\"."
+    },
+    {
+      "question": "Let's take pictures every day. — Good ___.",
+      "choices": [
+        "plants",
+        "job",
+        "idea",
+        "seeds"
+      ],
+      "answer": 2,
+      "explanation_ar": "Good idea = فكرة جيدة.",
+      "explanation_en": "\"Good idea\" = I agree."
+    }
+  ]
+}

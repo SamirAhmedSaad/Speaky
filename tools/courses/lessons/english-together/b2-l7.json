@@ -1,0 +1,412 @@
+{
+  "title": "At the Restaurant: Table, Menu and Bill",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "food lover",
+        "pos": "noun",
+        "meaning_en": "a person who loves food",
+        "meaning_ar": "محبّ للطعام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My uncle is a big food lover."
+      },
+      {
+        "word": "dish",
+        "pos": "noun",
+        "meaning_en": "a cooked meal or one kind of food",
+        "meaning_ar": "طبق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I always enjoy trying new dishes."
+      },
+      {
+        "word": "table for one",
+        "pos": "phrase",
+        "meaning_en": "a table for one person",
+        "meaning_ar": "طاولة لشخص واحد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I would like a table for one, please."
+      },
+      {
+        "word": "seating area",
+        "pos": "noun",
+        "meaning_en": "the part of a restaurant with tables and chairs",
+        "meaning_ar": "منطقة الجلوس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please follow me to the seating area."
+      },
+      {
+        "word": "menu",
+        "pos": "noun",
+        "meaning_en": "the list of food and drinks",
+        "meaning_ar": "قائمة الطعام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I get the menu, please?"
+      },
+      {
+        "word": "pineapple",
+        "pos": "noun",
+        "meaning_en": "a big sweet yellow tropical fruit",
+        "meaning_ar": "أناناس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll start with a pineapple drink."
+      },
+      {
+        "word": "salmon",
+        "pos": "noun",
+        "meaning_en": "a big fish with pink meat",
+        "meaning_ar": "سلمون",
+        "note_ar": "حرف l صامت: /ˈsæmən/",
+        "note_en": "The l is silent: /ˈsæmən/.",
+        "example": "I'd like the salmon dish, please."
+      },
+      {
+        "word": "vegetables",
+        "pos": "noun",
+        "meaning_en": "plants we eat, like carrots and beans",
+        "meaning_ar": "خضروات",
+        "note_ar": "اختصارها غير الرسمي: veggies",
+        "note_en": "Informal: veggies.",
+        "example": "Could I have some fresh vegetables?"
+      },
+      {
+        "word": "on the side",
+        "pos": "phrase",
+        "meaning_en": "served next to the main dish, on another plate",
+        "meaning_ar": "كطبق جانبي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could I have rice on the side?"
+      },
+      {
+        "word": "amazing",
+        "pos": "adjective",
+        "meaning_en": "very, very good",
+        "meaning_ar": "مذهل / رائع جدًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Wow, this salmon is amazing!"
+      },
+      {
+        "word": "lovely",
+        "pos": "adjective",
+        "meaning_en": "very nice",
+        "meaning_ar": "جميل / لطيف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Yes, it was lovely."
+      },
+      {
+        "word": "bill",
+        "pos": "noun",
+        "meaning_en": "the paper that shows how much you must pay",
+        "meaning_ar": "الفاتورة (الحساب)",
+        "note_ar": "في أمريكا يقولون أيضًا: check",
+        "note_en": "US: check.",
+        "example": "Just the bill, please."
+      },
+      {
+        "word": "wallet",
+        "pos": "noun",
+        "meaning_en": "a small case for money and cards",
+        "meaning_ar": "محفظة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I forgot to bring my wallet."
+      },
+      {
+        "word": "forget",
+        "pos": "verb",
+        "meaning_en": "not remember",
+        "meaning_ar": "ينسى",
+        "note_ar": "الماضي: forgot",
+        "note_en": "Past: forgot.",
+        "example": "Don't forget your keys."
+      },
+      {
+        "word": "settle",
+        "pos": "verb",
+        "meaning_en": "pay (a bill)",
+        "meaning_ar": "يسدّد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You have to settle your bill."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "bill vs receipt",
+        "words": [
+          "bill",
+          "receipt"
+        ],
+        "explanation_ar": "bill ورقة تطلب منك أن تدفع (قبل الدفع). receipt ورقة تثبت أنك دفعت (بعد الدفع).",
+        "explanation_en": "A bill asks you to pay (before paying). A receipt shows you paid (after paying).",
+        "examples": [
+          {
+            "word": "bill",
+            "sentence": "Can I have the bill, please?"
+          },
+          {
+            "word": "receipt",
+            "sentence": "Here is your receipt. Thank you."
+          }
+        ]
+      },
+      {
+        "title": "forget vs leave",
+        "words": [
+          "forget",
+          "leave"
+        ],
+        "explanation_ar": "forget = تنسى شيئًا (لا تتذكره). leave + مكان = تترك شيئًا في مكان. لا نقول forget it at home بل I left it at home.",
+        "explanation_en": "\"Forget\" = not remember. \"Leave + place\" = you put it somewhere and did not take it.",
+        "examples": [
+          {
+            "word": "forget",
+            "sentence": "I forgot to bring my wallet."
+          },
+          {
+            "word": "leave",
+            "sentence": "I left my wallet at home."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I would like a table for one, please.",
+        "meaning_ar": "أريد طاولة لشخص واحد من فضلك.",
+        "meaning_en": "Asking for a table.",
+        "example": "I would like a table for four, please."
+      },
+      {
+        "phrase": "Please follow me.",
+        "meaning_ar": "من فضلك اتبعني.",
+        "meaning_en": "The waiter takes you to the table.",
+        "example": "Please follow me to your table."
+      },
+      {
+        "phrase": "Can I get the menu, please?",
+        "meaning_ar": "هل يمكنني الحصول على القائمة من فضلك؟",
+        "meaning_en": "Asking for the menu.",
+        "example": "Excuse me, can I get the menu, please?"
+      },
+      {
+        "phrase": "Please wait one moment.",
+        "meaning_ar": "من فضلك انتظر لحظة.",
+        "meaning_en": "Asking someone to wait a little.",
+        "example": "Please wait one moment. I'll be back."
+      },
+      {
+        "phrase": "Can I get you anything to drink?",
+        "meaning_ar": "هل أحضر لك شيئًا لتشربه؟",
+        "meaning_en": "The waiter asks about drinks.",
+        "example": "Can I get you anything to drink? Water, please."
+      },
+      {
+        "phrase": "I'll start with a pineapple drink, please.",
+        "meaning_ar": "سأبدأ بمشروب أناناس من فضلك.",
+        "meaning_en": "Ordering the first thing.",
+        "example": "I'll start with a soup, please."
+      },
+      {
+        "phrase": "Excellent choice!",
+        "meaning_ar": "اختيار ممتاز!",
+        "meaning_en": "Saying your choice is good.",
+        "example": "The fish? Excellent choice!"
+      },
+      {
+        "phrase": "Are you ready to order?",
+        "meaning_ar": "هل أنت مستعد للطلب؟",
+        "meaning_en": "The waiter asks for your order.",
+        "example": "Are you ready to order, sir?"
+      },
+      {
+        "phrase": "That's all for now, thank you.",
+        "meaning_ar": "هذا كل شيء الآن، شكرًا.",
+        "meaning_en": "You don't want more now.",
+        "example": "That's all for now. Thank you."
+      },
+      {
+        "phrase": "Let me know if you need anything else.",
+        "meaning_ar": "أخبرني إن احتجت أي شيء آخر.",
+        "meaning_en": "The waiter offers more help.",
+        "example": "Enjoy your meal and let me know if you need anything else."
+      },
+      {
+        "phrase": "Did you enjoy your meal?",
+        "meaning_ar": "هل استمتعت بوجبتك؟",
+        "meaning_en": "The waiter asks after you eat.",
+        "example": "Did you enjoy your meal? Yes, it was lovely."
+      },
+      {
+        "phrase": "Just the bill, please.",
+        "meaning_ar": "الفاتورة فقط من فضلك.",
+        "meaning_en": "Asking to pay.",
+        "example": "No dessert, thank you. Just the bill, please."
+      },
+      {
+        "phrase": "No worries, accidents happen.",
+        "meaning_ar": "لا تقلق، هذه الأمور تحدث.",
+        "meaning_en": "Telling someone it is OK.",
+        "example": "You dropped your spoon? No worries, accidents happen."
+      },
+      {
+        "phrase": "I'm afraid not.",
+        "meaning_ar": "للأسف لا.",
+        "meaning_en": "A polite way to say no.",
+        "example": "Can you come tomorrow? I'm afraid not."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite requests: Could I have ...? / Can I get ...?",
+        "explanation_ar": "Could I have أكثر أدبًا قليلًا من Can I. كلاهما للطلب: Could I have some vegetables? Can I get the menu?",
+        "explanation_en": "\"Could I have ...?\" is a little more polite than \"Can I ...?\". Both are for requests.",
+        "examples": [
+          "Could I have some fresh vegetables on the side?",
+          "Can I get the menu, please?",
+          "Could I have the bill, please?"
+        ]
+      },
+      {
+        "title": "Past simple: forgot, left, was",
+        "explanation_ar": "نستخدم الماضي البسيط لحدث انتهى: forget ← forgot، leave ← left، is ← was.",
+        "explanation_en": "Use the past simple for finished actions: forget → forgot, leave → left, is → was.",
+        "examples": [
+          "I forgot to bring my wallet.",
+          "I left my wallet at home.",
+          "It was lovely."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"Just the bill, please.\" The customer wants to ...",
+      "choices": [
+        "order more",
+        "pay",
+        "see the menu",
+        "get a table"
+      ],
+      "answer": 1,
+      "explanation_ar": "bill تعني الفاتورة، أي يريد أن يدفع.",
+      "explanation_en": "He wants to pay."
+    },
+    {
+      "question": "Which letter is silent in \"salmon\"?",
+      "choices": [
+        "s",
+        "m",
+        "n",
+        "l"
+      ],
+      "answer": 3,
+      "explanation_ar": "حرف l صامت في salmon.",
+      "explanation_en": "The l is silent."
+    },
+    {
+      "question": "Could I have some vegetables ____ the side?",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "with"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقول on the side.",
+      "explanation_en": "We say \"on the side\"."
+    },
+    {
+      "question": "I ____ my wallet at home.",
+      "choices": [
+        "forgot",
+        "leaved",
+        "left",
+        "forget"
+      ],
+      "answer": 2,
+      "explanation_ar": "مع مكان نستخدم left.",
+      "explanation_en": "With a place, use \"left\"."
+    },
+    {
+      "question": "\"Did you enjoy your meal?\" \"____\"",
+      "choices": [
+        "Yes, I'm ready.",
+        "A table for one.",
+        "Yes, it was lovely.",
+        "Please follow me."
+      ],
+      "answer": 2,
+      "explanation_ar": "الرد: Yes, it was lovely.",
+      "explanation_en": "The answer is \"Yes, it was lovely.\""
+    },
+    {
+      "question": "A receipt is given ...",
+      "choices": [
+        "after you pay",
+        "before you order",
+        "before you sit",
+        "with the menu"
+      ],
+      "answer": 0,
+      "explanation_ar": "الإيصال يُعطى بعد الدفع.",
+      "explanation_en": "You get a receipt after you pay."
+    },
+    {
+      "question": "\"I'm afraid not.\" means ...",
+      "choices": [
+        "I am scared.",
+        "Yes, of course.",
+        "Maybe later.",
+        "Sorry, no."
+      ],
+      "answer": 3,
+      "explanation_ar": "I'm afraid not طريقة مهذبة لقول لا.",
+      "explanation_en": "It is a polite \"no\"."
+    },
+    {
+      "question": "I would like a table ____ one, please.",
+      "choices": [
+        "of",
+        "for",
+        "to",
+        "with"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول a table for one.",
+      "explanation_en": "We say \"a table for one\"."
+    },
+    {
+      "question": "What is the past of \"forget\"?",
+      "choices": [
+        "forgot",
+        "forgetted",
+        "forgots",
+        "forgat"
+      ],
+      "answer": 0,
+      "explanation_ar": "الماضي forgot.",
+      "explanation_en": "The past is \"forgot\"."
+    },
+    {
+      "question": "\"Amazing\" means ...",
+      "choices": [
+        "very bad",
+        "very small",
+        "very good",
+        "very cold"
+      ],
+      "answer": 2,
+      "explanation_ar": "amazing تعني رائع جدًا.",
+      "explanation_en": "\"Amazing\" means very good."
+    }
+  ]
+}

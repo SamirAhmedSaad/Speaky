@@ -1,0 +1,49 @@
+{
+  "title": "Adverb Suffixes: -ly, -ward(s), -wise",
+  "content": {
+    "vocabulary": [
+      {"word": "adverb suffix", "pos": "noun", "meaning_en": "an ending that makes an adverb: -ly, -ward(s), -wise", "meaning_ar": "لاحقة الظرف", "note_ar": "", "note_en": "", "example": "\"-ly\" is the most common adverb suffix."},
+      {"word": "worker", "pos": "noun", "meaning_en": "a person who works (work + -er)", "meaning_ar": "عامل", "note_ar": "", "note_en": "", "example": "He is a hard worker."},
+      {"word": "slowly", "pos": "adverb", "meaning_en": "not fast", "meaning_ar": "ببطء", "note_ar": "", "note_en": "", "example": "Please speak slowly."},
+      {"word": "beautifully", "pos": "adverb", "meaning_en": "in a beautiful way", "meaning_ar": "بشكل جميل", "note_ar": "", "note_en": "", "example": "She wrote the letter beautifully."},
+      {"word": "exceptionally", "pos": "adverb", "meaning_en": "unusually, very", "meaning_ar": "بشكل استثنائي", "note_ar": "", "note_en": "", "example": "He is an exceptionally bright student."},
+      {"word": "privately", "pos": "adverb", "meaning_en": "with no other people present", "meaning_ar": "على انفراد / بشكل خاص", "note_ar": "", "note_en": "", "example": "Can we talk privately?"},
+      {"word": "toward(s)", "pos": "preposition/adverb", "meaning_en": "in the direction of", "meaning_ar": "نحو / باتجاه", "note_ar": "towards أكثر في بريطانيا و toward في أمريكا", "note_en": "\"Towards\" is more British, \"toward\" more American.", "example": "I'm walking towards the door."},
+      {"word": "forward / backward", "pos": "adverb", "meaning_en": "to the front / to the back", "meaning_ar": "إلى الأمام / إلى الخلف", "note_ar": "", "note_en": "", "example": "Take one step forward."},
+      {"word": "upward / downward", "pos": "adverb", "meaning_en": "up / down", "meaning_ar": "إلى أعلى / إلى أسفل", "note_ar": "", "note_en": "", "example": "Prices are moving upward."},
+      {"word": "inward / outward", "pos": "adverb", "meaning_en": "towards the inside / towards the outside", "meaning_ar": "إلى الداخل / إلى الخارج", "note_ar": "", "note_en": "", "example": "The door opens outward."},
+      {"word": "homeward", "pos": "adverb", "meaning_en": "in the direction of home", "meaning_ar": "باتجاه البيت", "note_ar": "", "note_en": "", "example": "After work, we headed homeward."},
+      {"word": "sideways", "pos": "adverb", "meaning_en": "to or from the side", "meaning_ar": "جانبيًا", "note_ar": "", "note_en": "", "example": "He walked sideways towards the camera."},
+      {"word": "time-wise", "pos": "adverb", "meaning_en": "about time; in relation to time", "meaning_ar": "من حيث الوقت", "note_ar": "", "note_en": "", "example": "Time-wise, this video is about fifteen minutes long."},
+      {"word": "money-wise", "pos": "adverb", "meaning_en": "about money", "meaning_ar": "من حيث المال", "note_ar": "", "note_en": "", "example": "Money-wise, we are doing well this year."},
+      {"word": "otherwise", "pos": "adverb", "meaning_en": "if not; or else", "meaning_ar": "وإلا", "note_ar": "", "note_en": "", "example": "Hurry up, otherwise you'll miss the bus."},
+      {"word": "pertaining to", "pos": "phrase", "meaning_en": "about, relating to", "meaning_ar": "متعلّق بـ", "note_ar": "", "note_en": "", "example": "Questions pertaining to money go to the office."}
+    ],
+    "fine_lines": [
+      {"title": "-ward(s) vs -wise", "words": ["-ward(s)", "-wise"], "explanation_ar": "-ward(s) تدل على الاتجاه (forward, homeward). -wise تعني \"من حيث / فيما يتعلق بـ\" وتُضاف إلى اسم (time-wise, money-wise). ولا علاقة لها هنا بمعنى wise = حكيم.", "explanation_en": "-ward(s) shows direction (forward, homeward). -wise means \"about / in relation to\" and is added to a noun (time-wise, money-wise). It has nothing to do with wise = clever here.", "examples": [{"word": "-ward(s)", "sentence": "We drove homeward after the trip."}, {"word": "-wise", "sentence": "Family-wise, everything is fine."}]},
+      {"title": "toward vs forward", "words": ["toward(s)", "forward"], "explanation_ar": "towards = باتجاه مكان ما، بأي طريقة (للأمام أو للخلف أو جانبيًا). forward = إلى الأمام فقط.", "explanation_en": "\"Towards\" = in the direction of a place, in any way (front, back or sideways). \"Forward\" = to the front only.", "examples": [{"word": "toward(s)", "sentence": "He walked backwards towards the door."}, {"word": "forward", "sentence": "Please move forward."}]}
+    ],
+    "expressions": [
+      {"phrase": "Time-wise, we're almost finished.", "meaning_ar": "من حيث الوقت، أوشكنا على الانتهاء.", "meaning_en": "About time: we're nearly done.", "example": "Time-wise, we're almost finished. Just one more question."},
+      {"phrase": "homeward bound", "meaning_ar": "في طريق العودة إلى البيت", "meaning_en": "going home", "example": "After a long trip, we're homeward bound."}
+    ],
+    "grammar": [
+      {"title": "What a suffix does", "explanation_ar": "اللاحقة تُضاف بعد الكلمة، وقد تغيّر نوع الكلمة أو معناها أو كليهما: work (فعل) + er → worker (اسم، شخص يعمل).", "explanation_en": "A suffix is added after a word. It can change the word class, the meaning, or both: work (verb) + -er → worker (noun, a person who works).", "examples": ["work → worker", "slow → slowly"]},
+      {"title": "-ly: the most common adverb ending", "explanation_ar": "نضيف ly إلى صفة لنصنع ظرفًا يصف كيف يحدث الفعل: quick → quickly, beautiful → beautifully. يأتي الظرف عادة بعد الفعل. انتبه: بعض الصفات تنتهي بـ ly (friendly).", "explanation_en": "Add -ly to an adjective to make an adverb that describes how an action happens: quick → quickly, beautiful → beautifully. The adverb usually comes after the verb. Careful: some adjectives end in -ly (friendly).", "examples": ["The man ran quickly up the hill.", "She dressed beautifully for the occasion."]},
+      {"title": "-ward(s): direction", "explanation_ar": "ward أو wards تعني الاتجاه، وهي قليلة (حوالي عشر كلمات): forward, backward, upward, downward, inward, outward, toward, homeward, onward.", "explanation_en": "-ward or -wards means direction. There are only about ten: forward, backward, upward, downward, inward, outward, toward, homeward, onward.", "examples": ["He walked backward towards the camera.", "The balloon went skyward."]},
+      {"title": "-wise: relating to (noun + -wise)", "explanation_ar": "نضيف wise إلى اسم بمعنى \"فيما يتعلق بـ\": time-wise, money-wise, budget-wise, family-wise. ونجد أيضًا otherwise = وإلا.", "explanation_en": "Add -wise to a noun to mean \"relating to\": time-wise, money-wise, budget-wise, family-wise. Also: otherwise = if not.", "examples": ["Budget-wise, the project is fine.", "Leave now, otherwise you'll be late."]}
+    ]
+  },
+  "questions": [
+    {"question": "Which is the most common adverb suffix?", "choices": ["-wise", "-ly", "-ward", "-er"], "answer": 1, "explanation_ar": "ly هي الأكثر شيوعًا.", "explanation_en": "-ly is the most common."},
+    {"question": "\"-ward(s)\" shows ___.", "choices": ["direction", "time", "a person", "money"], "answer": 0, "explanation_ar": "ward = اتجاه.", "explanation_en": "-ward = direction."},
+    {"question": "\"___, this video is about fifteen minutes long.\"", "choices": ["Timely", "Time-ward", "Time-wise", "Timer"], "answer": 2, "explanation_ar": "time-wise = من حيث الوقت.", "explanation_en": "\"Time-wise\" = about time."},
+    {"question": "work + -er = worker. What changed?", "choices": ["nothing", "only the spelling", "the tense", "the word class and the meaning"], "answer": 3, "explanation_ar": "من فعل إلى اسم يدل على شخص.", "explanation_en": "From a verb to a noun for a person."},
+    {"question": "\"He walked backwards ___ the door.\"", "choices": ["forward", "towards", "time-wise", "slowly-ward"], "answer": 1, "explanation_ar": "towards = باتجاه، بأي طريقة.", "explanation_en": "\"Towards\" = in the direction of, any way."},
+    {"question": "\"She dressed ___ for the occasion.\"", "choices": ["beautiful", "beautifully", "beautywise", "beautyward"], "answer": 1, "explanation_ar": "ظرف يصف الفعل: beautifully.", "explanation_en": "An adverb for the verb: beautifully."},
+    {"question": "-wise is usually added to a ___.", "choices": ["verb", "noun", "pronoun", "preposition"], "answer": 1, "explanation_ar": "wise تُضاف إلى اسم.", "explanation_en": "-wise is added to a noun."},
+    {"question": "\"After work, we headed ___.\" (to our house)", "choices": ["homewise", "homely", "homeward", "homer"], "answer": 2, "explanation_ar": "homeward = باتجاه البيت.", "explanation_en": "\"Homeward\" = towards home."},
+    {"question": "\"Hurry up, ___ you'll miss the bus.\"", "choices": ["otherwise", "otherward", "otherly", "others"], "answer": 0, "explanation_ar": "otherwise = وإلا.", "explanation_en": "\"Otherwise\" = if not."},
+    {"question": "What does \"pertaining to\" mean?", "choices": ["going forward", "relating to", "quickly", "at home"], "answer": 1, "explanation_ar": "pertaining to = متعلق بـ.", "explanation_en": "\"Pertaining to\" = relating to."}
+  ]
+}

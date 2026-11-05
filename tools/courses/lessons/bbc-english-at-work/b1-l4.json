@@ -1,0 +1,391 @@
+{
+  "title": "Introducing Yourself",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "introduce yourself",
+        "pos": "phrase",
+        "meaning_en": "tell someone your name when you meet for the first time",
+        "meaning_ar": "يعرّف بنفسه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let me introduce myself. I'm Sara."
+      },
+      {
+        "word": "first impression",
+        "pos": "noun",
+        "meaning_en": "what people think of you when they first meet you",
+        "meaning_ar": "الانطباع الأول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I want to make a good first impression."
+      },
+      {
+        "word": "first day",
+        "pos": "noun",
+        "meaning_en": "the first day in a new job",
+        "meaning_ar": "اليوم الأول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's my first day in the office."
+      },
+      {
+        "word": "join",
+        "pos": "verb",
+        "meaning_en": "become a member of a team or company",
+        "meaning_ar": "ينضمّ إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've just joined the sales team."
+      },
+      {
+        "word": "team",
+        "pos": "noun",
+        "meaning_en": "a group of people who work together",
+        "meaning_ar": "فريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our team has six people."
+      },
+      {
+        "word": "Senior Account Manager",
+        "pos": "noun",
+        "meaning_en": "an experienced manager who looks after important clients",
+        "meaning_ar": "مدير حسابات أول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Tom is the Senior Account Manager."
+      },
+      {
+        "word": "senior",
+        "pos": "adjective",
+        "meaning_en": "higher in rank or with more experience",
+        "meaning_ar": "أقدم / أعلى رتبة",
+        "note_ar": "عكسها: junior = مبتدئ / أدنى رتبة",
+        "note_en": "Opposite: junior.",
+        "example": "She has a senior role in the company."
+      },
+      {
+        "word": "client",
+        "pos": "noun",
+        "meaning_en": "a person or company that pays for a service",
+        "meaning_ar": "عميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a meeting with an important client."
+      },
+      {
+        "word": "deal",
+        "pos": "noun",
+        "meaning_en": "a business agreement",
+        "meaning_ar": "صفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He has a big deal coming through."
+      },
+      {
+        "word": "seal the deal",
+        "pos": "phrase",
+        "meaning_en": "finally agree a business deal",
+        "meaning_ar": "يُتمّ الصفقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We sealed the deal this morning."
+      },
+      {
+        "word": "do lunch",
+        "pos": "phrase",
+        "meaning_en": "informal: meet someone and eat lunch together",
+        "meaning_ar": "يتناول الغداء مع شخص (عامية)",
+        "note_ar": "لا تعني أن تطبخ الغداء!",
+        "note_en": "It does not mean \"cook lunch\"!",
+        "example": "Can you do lunch tomorrow?"
+      },
+      {
+        "word": "available",
+        "pos": "adjective",
+        "meaning_en": "free to do something or meet someone",
+        "meaning_ar": "متاح / غير مشغول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you available at two o'clock?"
+      },
+      {
+        "word": "misunderstand",
+        "pos": "verb",
+        "meaning_en": "understand something in the wrong way",
+        "meaning_ar": "يُسيء الفهم",
+        "note_ar": "الماضي: misunderstood",
+        "note_en": "Past: misunderstood.",
+        "example": "Sorry, I misunderstood you."
+      },
+      {
+        "word": "busy",
+        "pos": "adjective",
+        "meaning_en": "having a lot to do",
+        "meaning_ar": "مشغول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry, I'm quite busy right now."
+      },
+      {
+        "word": "kitchen",
+        "pos": "noun",
+        "meaning_en": "a room where you make food and drinks",
+        "meaning_ar": "مطبخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The office kitchen is through there."
+      },
+      {
+        "word": "small talk",
+        "pos": "noun",
+        "meaning_en": "polite friendly conversation about simple topics",
+        "meaning_ar": "حديث ودّي قصير / دردشة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Small talk helps you make friends at work."
+      },
+      {
+        "word": "make friends",
+        "pos": "phrase",
+        "meaning_en": "start a friendship with someone",
+        "meaning_ar": "يكوّن صداقات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's easy to make friends in this office."
+      },
+      {
+        "word": "get together",
+        "pos": "phrasal verb",
+        "meaning_en": "meet with someone",
+        "meaning_ar": "يجتمع / يلتقي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's get together next week."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "do lunch vs make lunch",
+        "words": [
+          "do lunch",
+          "make lunch"
+        ],
+        "explanation_ar": "Can you do lunch? تعني: هل أنت متاح لتناول الغداء معي (في مطعم مثلًا)؟ أما make lunch فتعني تحضير الطعام وطبخه.",
+        "explanation_en": "\"Do lunch\" = meet and eat lunch together (informal). \"Make lunch\" = cook or prepare food.",
+        "examples": [
+          {
+            "word": "do lunch",
+            "sentence": "Can you do lunch on Friday? There's a nice café nearby."
+          },
+          {
+            "word": "make lunch",
+            "sentence": "I make lunch for my children every morning."
+          }
+        ]
+      },
+      {
+        "title": "meet vs met",
+        "words": [
+          "meet",
+          "met"
+        ],
+        "explanation_ar": "meet الحاضر، met الماضي والتصريف الثالث. نقول: Nice to meet you عند أول لقاء، وI don't think we've met (المضارع التام) لأننا نتحدث عن الماضي حتى الآن.",
+        "explanation_en": "\"Meet\" is the present; \"met\" is the past and past participle. Say \"Nice to meet you\" and \"I don't think we've met\".",
+        "examples": [
+          {
+            "word": "meet",
+            "sentence": "Nice to meet you, Tom."
+          },
+          {
+            "word": "met",
+            "sentence": "I don't think we've met. I'm Anna."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Hello, I don't think we've met.",
+        "meaning_ar": "مرحبًا، لا أظن أننا التقينا من قبل.",
+        "meaning_en": "A polite way to start talking to someone new.",
+        "example": "Hello, I don't think we've met. I'm Omar."
+      },
+      {
+        "phrase": "You must be Tom.",
+        "meaning_ar": "لا بدّ أنك توم.",
+        "meaning_en": "Say this when you think you know who the person is.",
+        "example": "You must be the new manager. Welcome!"
+      },
+      {
+        "phrase": "I've just joined the team.",
+        "meaning_ar": "لقد انضممت إلى الفريق للتو.",
+        "meaning_en": "Tell people you are new.",
+        "example": "Hi, I'm Lina. I've just joined the team."
+      },
+      {
+        "phrase": "Nice to meet you!",
+        "meaning_ar": "سُررت بلقائك!",
+        "meaning_en": "Say this when you meet someone for the first time.",
+        "example": "Nice to meet you, Mr Brown."
+      },
+      {
+        "phrase": "Have you worked here long?",
+        "meaning_ar": "هل تعمل هنا منذ مدة طويلة؟",
+        "meaning_en": "A friendly small-talk question.",
+        "example": "Have you worked here long? You seem to know everyone."
+      },
+      {
+        "phrase": "Let's get together sometime.",
+        "meaning_ar": "لنلتقِ في وقت ما.",
+        "meaning_en": "Suggest meeting later.",
+        "example": "I'm busy now, but let's get together sometime."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect with \"just\"",
+        "explanation_ar": "نستخدم have/has + just + التصريف الثالث للحديث عن شيء حدث قبل قليل: I've just joined the team. وكلمة just تأتي بين have والفعل.",
+        "explanation_en": "Use have/has + just + past participle for something that happened a very short time ago. \"Just\" goes between have and the verb.",
+        "examples": [
+          "I've just joined the team.",
+          "She has just arrived.",
+          "We've just finished the meeting."
+        ]
+      },
+      {
+        "title": "\"must be\" for a confident guess",
+        "explanation_ar": "نستخدم must be عندما نكون شبه متأكدين من شيء بناءً على ما نراه: You must be Tom (أنا شبه متأكد أنك توم).",
+        "explanation_en": "Use \"must be\" when you are almost sure about something: You must be Tom.",
+        "examples": [
+          "You must be Tom.",
+          "You must be tired after your trip.",
+          "This must be the meeting room."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which is a good first sentence to someone new at work?",
+      "choices": [
+        "Hello, I don't think we've met.",
+        "Who are you?",
+        "Go away, I'm busy.",
+        "What do you want?"
+      ],
+      "answer": 0,
+      "explanation_ar": "هذه هي العبارة المهذبة التي تعلّمناها.",
+      "explanation_en": "This is the polite phrase from the episode."
+    },
+    {
+      "question": "I've just ___ the team.",
+      "choices": [
+        "join",
+        "joined",
+        "joining",
+        "joins"
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد have/has just نستخدم التصريف الثالث joined.",
+      "explanation_en": "After \"have just\" use the past participle: joined."
+    },
+    {
+      "question": "\"Can you do lunch tomorrow?\" means...",
+      "choices": [
+        "Can you cook lunch tomorrow?",
+        "Are you free to have lunch with me tomorrow?",
+        "Can you clean the kitchen?",
+        "Can you skip lunch?"
+      ],
+      "answer": 1,
+      "explanation_ar": "do lunch تعني تناول الغداء معًا وليس الطبخ.",
+      "explanation_en": "\"Do lunch\" means eat lunch together."
+    },
+    {
+      "question": "You see a man at Tom's desk wearing Tom's name badge. You say:",
+      "choices": [
+        "You must be Tom.",
+        "You are must Tom.",
+        "You must Tom.",
+        "You be must Tom."
+      ],
+      "answer": 0,
+      "explanation_ar": "must be للتخمين بثقة.",
+      "explanation_en": "Use \"must be\" for a confident guess."
+    },
+    {
+      "question": "Choose the friendly small-talk question.",
+      "choices": [
+        "Have you worked here long?",
+        "Why are you here?",
+        "How much do you earn?",
+        "Are you lazy?"
+      ],
+      "answer": 0,
+      "explanation_ar": "Have you worked here long? سؤال ودّي مناسب.",
+      "explanation_en": "It is a polite small-talk question."
+    },
+    {
+      "question": "\"Senior\" means...",
+      "choices": [
+        "very young",
+        "new to the job",
+        "part-time",
+        "higher in rank"
+      ],
+      "answer": 3,
+      "explanation_ar": "senior تعني أعلى رتبة أو أكثر خبرة.",
+      "explanation_en": "Senior means higher in rank or more experienced."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I don't think we've meet.",
+        "I don't think we've met.",
+        "I don't think we met before yesterday ago.",
+        "I not think we've met."
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد have نستخدم التصريف الثالث met.",
+      "explanation_en": "After \"have\" use the past participle \"met\"."
+    },
+    {
+      "question": "Anna thought \"do lunch\" meant \"cook lunch\". She ___ Tom.",
+      "choices": [
+        "misunderstood",
+        "introduced",
+        "joined",
+        "impressed"
+      ],
+      "answer": 0,
+      "explanation_ar": "فهمت آنا كلام توم بشكل خاطئ، أي أساءت فهمه: misunderstood.",
+      "explanation_en": "Anna misunderstood Tom."
+    },
+    {
+      "question": "\"Are you ___ at two?\" (free to meet)",
+      "choices": [
+        "busy",
+        "senior",
+        "available",
+        "deal"
+      ],
+      "answer": 2,
+      "explanation_ar": "available تعني متاح.",
+      "explanation_en": "Available means free."
+    },
+    {
+      "question": "What do you say the first time you meet someone?",
+      "choices": [
+        "See you later.",
+        "Nice to meet you.",
+        "Good night.",
+        "Well done."
+      ],
+      "answer": 1,
+      "explanation_ar": "Nice to meet you تُقال عند أول لقاء.",
+      "explanation_en": "Say \"Nice to meet you\" when you first meet."
+    }
+  ]
+}

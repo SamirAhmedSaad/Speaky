@@ -1,0 +1,429 @@
+{
+  "title": "How Modals Work",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "modal (modal verb)",
+        "pos": "noun",
+        "meaning_en": "a helping verb like can, could, might, should, will, would that changes the meaning of the main verb",
+        "meaning_ar": "فعل ناقص / فعل مساعد شرطي (مثل can و might)",
+        "note_ar": "تُنطق /ˈmoʊdl/ وليس model",
+        "note_en": "Say /ˈmoʊdl/. Don't confuse it with \"model\".",
+        "example": "\"Might\" is a modal verb."
+      },
+      {
+        "word": "base form",
+        "pos": "noun",
+        "meaning_en": "the simple form of a verb with no -s, -ed or -ing (go, help, eat)",
+        "meaning_ar": "صيغة المصدر (الفعل المجرد)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "After \"will\", use the base form: I will go."
+      },
+      {
+        "word": "versatile",
+        "pos": "adjective",
+        "meaning_en": "able to be used in many different ways",
+        "meaning_ar": "متعدد الاستخدامات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"Will\" is a very versatile word."
+      },
+      {
+        "word": "modify",
+        "pos": "verb",
+        "meaning_en": "to change something a little",
+        "meaning_ar": "يُعدِّل / يغيّر",
+        "note_ar": "الاسم: modification",
+        "note_en": "Noun: modification.",
+        "example": "We can modify the strength of a sentence with a modal."
+      },
+      {
+        "word": "possibility",
+        "pos": "noun",
+        "meaning_en": "something that may happen",
+        "meaning_ar": "احتمال / إمكانية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is a possibility of rain tomorrow."
+      },
+      {
+        "word": "uncertain",
+        "pos": "adjective",
+        "meaning_en": "not sure; not known for sure",
+        "meaning_ar": "غير مؤكد",
+        "note_ar": "عكسها certain",
+        "note_en": "Opposite: certain.",
+        "example": "The future is always uncertain."
+      },
+      {
+        "word": "ability",
+        "pos": "noun",
+        "meaning_en": "the power or skill to do something",
+        "meaning_ar": "قدرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"I can swim\" shows ability."
+      },
+      {
+        "word": "permission",
+        "pos": "noun",
+        "meaning_en": "when someone says you are allowed to do something",
+        "meaning_ar": "إذن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I leave early? I need your permission."
+      },
+      {
+        "word": "past participle",
+        "pos": "noun",
+        "meaning_en": "the verb form used after have (helped, done, eaten)",
+        "meaning_ar": "التصريف الثالث للفعل (اسم المفعول)",
+        "note_ar": "يُختصر PP",
+        "note_en": "Often written PP.",
+        "example": "\"Done\" is the past participle of \"do\"."
+      },
+      {
+        "word": "future perfect",
+        "pos": "noun",
+        "meaning_en": "the tense will + have + past participle, for something finished before a future time",
+        "meaning_ar": "المستقبل التام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It will have stopped raining by noon."
+      },
+      {
+        "word": "offer",
+        "pos": "verb",
+        "meaning_en": "to say you are ready to give or do something for someone",
+        "meaning_ar": "يعرض (مساعدة أو شيئًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She offered to carry my bag."
+      },
+      {
+        "word": "promise",
+        "pos": "verb",
+        "meaning_en": "to say that you will certainly do something",
+        "meaning_ar": "يَعِد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I promise I will call you tonight."
+      },
+      {
+        "word": "agree",
+        "pos": "verb",
+        "meaning_en": "to say yes to an idea or a plan",
+        "meaning_ar": "يوافق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I agree to meet you at twelve."
+      },
+      {
+        "word": "proposal",
+        "pos": "noun",
+        "meaning_en": "a plan or idea that you suggest to someone",
+        "meaning_ar": "اقتراح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He made a proposal, and I said yes."
+      },
+      {
+        "word": "acquired skill",
+        "pos": "noun",
+        "meaning_en": "a skill you learned, not one you were born with",
+        "meaning_ar": "مهارة مكتسبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Speaking English is an acquired skill."
+      },
+      {
+        "word": "I doubt",
+        "pos": "phrase",
+        "meaning_en": "I don't think it is likely",
+        "meaning_ar": "أشكّ أنّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I doubt I will finish today."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "can vs could vs might (strength)",
+        "words": [
+          "can",
+          "could",
+          "might"
+        ],
+        "explanation_ar": "الأفعال الناقصة تغيّر قوة الجملة: can = قدرة أو إمكانية مؤكدة تقريبًا (100%)، could = ممكن (حوالي 60-70%)، might = احتمال أضعف (حوالي 40%).",
+        "explanation_en": "Modals change how strong a sentence is: can = ability, almost 100%; could = possible, about 60-70%; might = weaker, about 40%.",
+        "examples": [
+          {
+            "word": "can",
+            "sentence": "I can help you tomorrow."
+          },
+          {
+            "word": "could",
+            "sentence": "I could help you tomorrow, if I finish early."
+          },
+          {
+            "word": "might",
+            "sentence": "I might help you, but I'm not sure."
+          }
+        ]
+      },
+      {
+        "title": "will vs modal + have + PP",
+        "words": [
+          "will",
+          "could have"
+        ],
+        "explanation_ar": "will + المصدر للمستقبل. أما للماضي فنضع have + التصريف الثالث بعد الفعل الناقص: could have helped.",
+        "explanation_en": "will + base form talks about the future. To talk about the past, put have + past participle after the modal: could have helped.",
+        "examples": [
+          {
+            "word": "will",
+            "sentence": "I will help you tomorrow."
+          },
+          {
+            "word": "could have",
+            "sentence": "I could have helped you yesterday."
+          }
+        ]
+      },
+      {
+        "title": "can vs could (past)",
+        "words": [
+          "can",
+          "could"
+        ],
+        "explanation_ar": "can ليس لها صيغة \"have + PP\" للماضي (لا نقول can have helped). الماضي من can هو could.",
+        "explanation_en": "\"Can\" has no past form with have + PP (not \"can have helped\"). The past of can is could.",
+        "examples": [
+          {
+            "word": "can",
+            "sentence": "I can swim now."
+          },
+          {
+            "word": "could",
+            "sentence": "I could swim when I was five."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Yes, I will.",
+        "meaning_ar": "نعم، سأفعل.",
+        "meaning_en": "A short answer that promises or agrees.",
+        "example": "Will you do your homework tonight? Yes, I will."
+      },
+      {
+        "phrase": "Yes, we can.",
+        "meaning_ar": "نعم، نستطيع.",
+        "meaning_en": "A short answer that shows ability.",
+        "example": "Can we finish this today? Yes, we can."
+      },
+      {
+        "phrase": "I'll help you.",
+        "meaning_ar": "سأساعدك.",
+        "meaning_en": "An offer of help.",
+        "example": "Your bags look heavy. I'll help you."
+      },
+      {
+        "phrase": "I'm sure I will.",
+        "meaning_ar": "أنا متأكد أنني سأفعل.",
+        "meaning_en": "Will made stronger (about 100%).",
+        "example": "Will you pass the test? I'm sure I will."
+      },
+      {
+        "phrase": "Can I go to the washroom?",
+        "meaning_ar": "هل يمكنني الذهاب إلى دورة المياه؟",
+        "meaning_en": "Asking for permission.",
+        "example": "Excuse me, teacher, can I go to the washroom?"
+      },
+      {
+        "phrase": "Of course I will.",
+        "meaning_ar": "بالطبع سأفعل.",
+        "meaning_en": "A strong yes to a question with will.",
+        "example": "Will you call me later? Of course I will."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Modals use the same structure as will",
+        "explanation_ar": "مع will نقول: الفاعل + will + الفعل في صيغة المصدر. الأفعال الناقصة تتبع نفس التركيب: الفاعل + فعل ناقص + المصدر. لا نضيف s ولا to ولا ing.",
+        "explanation_en": "With will we say: subject + will + base verb. Modals use the same structure: subject + modal + base verb. No -s, no to, no -ing.",
+        "examples": [
+          "I will go to the party.",
+          "I might go to the party.",
+          "She can speak English. (not: She can speaks)"
+        ]
+      },
+      {
+        "title": "Modals change the strength",
+        "explanation_ar": "نستطيع تقوية will أو إضعافها بكلمات مثل I'm sure / I think / I doubt. أما الأفعال الناقصة فتغيّر القوة بنفسها: can (قوي) ← could (متوسط) ← might (ضعيف).",
+        "explanation_en": "We can make will stronger or weaker with words like I'm sure / I think / I doubt. Modals change the strength by themselves: can (strong) → could (medium) → might (weak).",
+        "examples": [
+          "I'm sure I will win. (100%)",
+          "I think I will win. (50-60%)",
+          "I doubt I will win. (10%)",
+          "I can win. / I could win. / I might win."
+        ]
+      },
+      {
+        "title": "Modal past: modal + have + past participle",
+        "explanation_ar": "كما في المستقبل التام (will have rained)، نستخدم have للربط بالماضي: could/might/would/should + have + التصريف الثالث. المعنى: كان ممكنًا في الماضي لكنه انتهى.",
+        "explanation_en": "Like the future perfect (will have rained), have connects to the past: could/might/would/should + have + past participle. It means it was possible in the past, but now it is over.",
+        "examples": [
+          "I could have helped you yesterday.",
+          "It might have helped.",
+          "You should have done your homework."
+        ]
+      },
+      {
+        "title": "OPAA: uses of will (offer, promise, agree, ask)",
+        "explanation_ar": "will تُستخدم للعرض (I'll help you)، وللوعد (I'll do my homework)، وللموافقة على اقتراح (OK, I'll come at twelve)، وللسؤال (Will you...?).",
+        "explanation_en": "Will is used to offer (I'll help you), promise (I'll do my homework), agree to a proposal (OK, I'll come at twelve) and ask (Will you...?).",
+        "examples": [
+          "Offer: Your bag looks heavy. I'll carry it.",
+          "Promise: I'll finish it tonight, I promise.",
+          "Agree: OK, I'll come to your house at twelve.",
+          "Ask: Will you help me?"
+        ]
+      },
+      {
+        "title": "Uses of can: ability, possibility, permission",
+        "explanation_ar": "can تدل على القدرة (I can see / I can speak English)، وعلى الإمكانية في المستقبل (I can help you tomorrow)، وعلى طلب الإذن أو إعطائه (Can I go? Yes, you can).",
+        "explanation_en": "Can shows ability (I can speak English), possibility, often future (I can help you tomorrow), and permission (Can I go? Yes, you can).",
+        "examples": [
+          "I can speak two languages.",
+          "I can meet you tomorrow.",
+          "Can I use your pen? Yes, you can."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "She can speaks French.",
+        "She can speak French.",
+        "She can to speak French.",
+        "She can speaking French."
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد الفعل الناقص نستخدم المصدر بدون s أو to أو ing.",
+      "explanation_en": "After a modal, use the base form: no -s, to or -ing."
+    },
+    {
+      "question": "Which modal is the weakest (least sure)?",
+      "choices": [
+        "can",
+        "could",
+        "will",
+        "might"
+      ],
+      "answer": 3,
+      "explanation_ar": "might تدل على احتمال ضعيف (حوالي 40%).",
+      "explanation_en": "Might shows a weak possibility (about 40%)."
+    },
+    {
+      "question": "I ___ helped you yesterday, but you didn't call me.",
+      "choices": [
+        "could have",
+        "can have",
+        "will",
+        "could"
+      ],
+      "answer": 0,
+      "explanation_ar": "للماضي: could + have + التصريف الثالث.",
+      "explanation_en": "For the past: could + have + past participle."
+    },
+    {
+      "question": "\"Your bags look heavy. I'll help you.\" Here will is used to ___.",
+      "choices": [
+        "promise",
+        "offer",
+        "ask",
+        "agree"
+      ],
+      "answer": 1,
+      "explanation_ar": "المتكلم يعرض المساعدة.",
+      "explanation_en": "The speaker offers help."
+    },
+    {
+      "question": "\"I doubt I will be president.\" How sure is the speaker?",
+      "choices": [
+        "100% sure",
+        "very sure",
+        "not very sure",
+        "it already happened"
+      ],
+      "answer": 2,
+      "explanation_ar": "I doubt تُضعف will، فالمتكلم غير متأكد.",
+      "explanation_en": "\"I doubt\" makes will weak; the speaker is not very sure."
+    },
+    {
+      "question": "What is the past form of \"can\"?",
+      "choices": [
+        "can have",
+        "canned",
+        "will",
+        "could"
+      ],
+      "answer": 3,
+      "explanation_ar": "الماضي من can هو could.",
+      "explanation_en": "The past of can is could."
+    },
+    {
+      "question": "\"Can I go to the washroom?\" Here can is used for ___.",
+      "choices": [
+        "permission",
+        "ability",
+        "a promise",
+        "the past"
+      ],
+      "answer": 0,
+      "explanation_ar": "نطلب الإذن.",
+      "explanation_en": "We ask for permission."
+    },
+    {
+      "question": "You ___ have done your homework. Now the teacher is angry.",
+      "choices": [
+        "can",
+        "should",
+        "will",
+        "are"
+      ],
+      "answer": 1,
+      "explanation_ar": "should have + PP: نصيحة متأخرة عن الماضي.",
+      "explanation_en": "should have + PP: advice about the past, too late now."
+    },
+    {
+      "question": "In \"could have helped\", what does \"have\" do?",
+      "choices": [
+        "shows possession",
+        "makes it future",
+        "connects the modal to the past",
+        "makes it a question"
+      ],
+      "answer": 2,
+      "explanation_ar": "have تربط الفعل الناقص بحدث في الماضي.",
+      "explanation_en": "Have connects the modal to the past."
+    },
+    {
+      "question": "\"Why don't you come at twelve?\" \"OK, I'll come then.\" Here will is used to ___.",
+      "choices": [
+        "offer",
+        "ask",
+        "show ability",
+        "agree"
+      ],
+      "answer": 3,
+      "explanation_ar": "المتكلم يوافق على الاقتراح.",
+      "explanation_en": "The speaker agrees to the proposal."
+    }
+  ]
+}

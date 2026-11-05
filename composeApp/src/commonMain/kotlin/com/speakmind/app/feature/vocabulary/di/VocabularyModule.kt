@@ -10,7 +10,7 @@ import org.koin.dsl.module
 val vocabularyModule = module {
     single { VocabularyRepository(get()) }
     single { VocabRefreshService(get(), get()) }
-    viewModel { VocabCategoryViewModel(get(), get()) }
+    viewModel { VocabCategoryViewModel(get(), get(), get()) }
     viewModel { params ->
         VocabWordListViewModel(params.get(), get(), get(), get(), get(), get())
     }

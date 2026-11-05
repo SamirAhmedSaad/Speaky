@@ -1,0 +1,444 @@
+{
+  "title": "Where are you from?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "come from",
+        "pos": "phrasal verb",
+        "meaning_en": "be born in or live in a place",
+        "meaning_ar": "يأتي من / أصله من",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I come from Egypt."
+      },
+      {
+        "word": "Japan",
+        "pos": "noun",
+        "meaning_en": "a country in East Asia",
+        "meaning_ar": "اليابان",
+        "note_ar": "أسماء الدول تبدأ بحرف كبير",
+        "note_en": "Country names start with a capital letter.",
+        "example": "My friend comes from Japan."
+      },
+      {
+        "word": "vacation",
+        "pos": "noun",
+        "meaning_en": "a time when you rest and travel, not work",
+        "meaning_ar": "إجازة / عطلة",
+        "note_ar": "في بريطانيا يقولون holiday",
+        "note_en": "In British English: holiday.",
+        "example": "We went to the sea for our vacation."
+      },
+      {
+        "word": "fun",
+        "pos": "noun",
+        "meaning_en": "enjoyment; a good time",
+        "meaning_ar": "متعة",
+        "note_ar": "have fun = يستمتع",
+        "note_en": "have fun = enjoy yourself",
+        "example": "We had a lot of fun at the park."
+      },
+      {
+        "word": "architecture",
+        "pos": "noun",
+        "meaning_en": "the style and design of buildings",
+        "meaning_ar": "العمارة / فن البناء",
+        "note_ar": "تُنطق /ˈɑːrkɪtektʃər/ والـ ch تُنطق مثل k",
+        "note_en": "The ch sounds like k: /ˈɑːrkɪtektʃər/.",
+        "example": "The old mosques have beautiful architecture."
+      },
+      {
+        "word": "stunning",
+        "pos": "adjective",
+        "meaning_en": "very beautiful",
+        "meaning_ar": "مذهل / رائع الجمال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The view from the hill is stunning."
+      },
+      {
+        "word": "incredible",
+        "pos": "adjective",
+        "meaning_en": "very good; hard to believe",
+        "meaning_ar": "مدهش / لا يُصدَّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new bridge is incredible."
+      },
+      {
+        "word": "local",
+        "pos": "adjective",
+        "meaning_en": "from this place or area",
+        "meaning_ar": "محلّي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like to visit local markets."
+      },
+      {
+        "word": "cuisine",
+        "pos": "noun",
+        "meaning_en": "the food and cooking of a country or area",
+        "meaning_ar": "المطبخ (طريقة الطبخ وأطعمة بلد ما)",
+        "note_ar": "تُنطق /kwɪˈziːn/",
+        "note_en": "Say /kwɪˈziːn/.",
+        "example": "Turkish cuisine is famous."
+      },
+      {
+        "word": "delicious",
+        "pos": "adjective",
+        "meaning_en": "tasting very good",
+        "meaning_ar": "لذيذ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This soup is delicious."
+      },
+      {
+        "word": "spicy",
+        "pos": "adjective",
+        "meaning_en": "with a hot, strong taste (like chili)",
+        "meaning_ar": "حارّ (طعام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I don't like spicy food."
+      },
+      {
+        "word": "handle",
+        "pos": "verb",
+        "meaning_en": "be able to deal with something",
+        "meaning_ar": "يتحمّل / يتعامل مع",
+        "note_ar": "I can handle it = أستطيع تحمّله",
+        "note_en": "",
+        "example": "Can you handle a lot of work?"
+      },
+      {
+        "word": "stay",
+        "pos": "verb",
+        "meaning_en": "remain in a place for some time",
+        "meaning_ar": "يبقى / يقيم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will stay in Dubai for two weeks."
+      },
+      {
+        "word": "return",
+        "pos": "verb",
+        "meaning_en": "go back or come back",
+        "meaning_ar": "يعود",
+        "note_ar": "return home = go home",
+        "note_en": "",
+        "example": "She will return home on Friday."
+      },
+      {
+        "word": "teacher",
+        "pos": "noun",
+        "meaning_en": "a person whose job is to teach",
+        "meaning_ar": "معلّم / معلّمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My teacher is very kind."
+      },
+      {
+        "word": "tech startup",
+        "pos": "noun",
+        "meaning_en": "a new, small technology company",
+        "meaning_ar": "شركة تقنية ناشئة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He works for a tech startup in Cairo."
+      },
+      {
+        "word": "software",
+        "pos": "noun",
+        "meaning_en": "programs that run on a computer or phone",
+        "meaning_ar": "البرمجيات",
+        "note_ar": "غير معدودة: لا نقول softwares",
+        "note_en": "Uncountable: no plural -s.",
+        "example": "This software helps students learn."
+      },
+      {
+        "word": "company",
+        "pos": "noun",
+        "meaning_en": "a business that sells things or services",
+        "meaning_ar": "شركة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My father works for a big company."
+      },
+      {
+        "word": "software engineer",
+        "pos": "noun",
+        "meaning_en": "a person who designs and writes computer programs",
+        "meaning_ar": "مهندس برمجيات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is a software engineer at a bank."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "come from vs be from",
+        "words": [
+          "come from",
+          "be from"
+        ],
+        "explanation_ar": "المعنى واحد: I come from Japan = I'm from Japan. لاحظ: مع come نستخدم do في السؤال (Where do you come from?) ومع be نستخدم are (Where are you from?).",
+        "explanation_en": "Both mean the same. Questions: Where do you come from? / Where are you from?",
+        "examples": [
+          {
+            "word": "come from",
+            "sentence": "I come from Jordan."
+          },
+          {
+            "word": "be from",
+            "sentence": "I'm from Jordan."
+          }
+        ]
+      },
+      {
+        "title": "work as vs work for",
+        "words": [
+          "work as",
+          "work for"
+        ],
+        "explanation_ar": "work as + المهنة (a teacher). work for + الشركة أو جهة العمل (a company).",
+        "explanation_en": "work as + a job. work for + a company.",
+        "examples": [
+          {
+            "word": "work as",
+            "sentence": "I work as a teacher."
+          },
+          {
+            "word": "work for",
+            "sentence": "I work for a software company."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How are you?",
+        "meaning_ar": "كيف حالك؟",
+        "meaning_en": "A friendly question when you meet someone.",
+        "example": "Hello, Sara. How are you?"
+      },
+      {
+        "phrase": "I'm fine, thank you. And you?",
+        "meaning_ar": "أنا بخير، شكرًا. وأنت؟",
+        "meaning_en": "A polite answer to \"How are you?\".",
+        "example": "I'm fine, thank you. And you?"
+      },
+      {
+        "phrase": "Where are you from?",
+        "meaning_ar": "من أين أنت؟",
+        "meaning_en": "Ask about someone's country or city.",
+        "example": "Where are you from? I'm from Oman."
+      },
+      {
+        "phrase": "I'm not a fan of...",
+        "meaning_ar": "لستُ من محبّي...",
+        "meaning_en": "Say politely that you don't like something much.",
+        "example": "I'm not a fan of cold weather."
+      },
+      {
+        "phrase": "Why did you come here?",
+        "meaning_ar": "لماذا أتيتَ إلى هنا؟",
+        "meaning_en": "Ask the reason for a visit.",
+        "example": "Why did you come here? I came for work."
+      },
+      {
+        "phrase": "Are you having fun?",
+        "meaning_ar": "هل تستمتع بوقتك؟",
+        "meaning_en": "Ask if someone is enjoying the moment.",
+        "example": "Are you having fun at the park?"
+      },
+      {
+        "phrase": "I'm having a great time.",
+        "meaning_ar": "أنا أقضي وقتًا رائعًا.",
+        "meaning_en": "Say you are enjoying something very much.",
+        "example": "Thanks for inviting me. I'm having a great time."
+      },
+      {
+        "phrase": "How much longer will you stay here?",
+        "meaning_ar": "كم ستبقى هنا بعد؟",
+        "meaning_en": "Ask how much more time someone will stay.",
+        "example": "How much longer will you stay here? Two more days."
+      },
+      {
+        "phrase": "Where do you work?",
+        "meaning_ar": "أين تعمل؟",
+        "meaning_en": "Ask about someone's job or workplace.",
+        "example": "Where do you work? At a hospital."
+      },
+      {
+        "phrase": "What about you?",
+        "meaning_ar": "وماذا عنك؟",
+        "meaning_en": "Ask the other person the same question.",
+        "example": "I'm a student. What about you?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present simple questions with \"do\"",
+        "explanation_ar": "نسأل عن الحقائق والعادات بالمضارع البسيط: Where do you work? / Do you like spicy food? نضع do قبل الفاعل، والفعل يبقى في أصله. والجواب: I work... / Yes, I do. / No, I don't.",
+        "explanation_en": "Use the present simple for facts and habits. Question: (Wh-word) + do + you + verb? Answer: I work... / Yes, I do. / No, I don't.",
+        "examples": [
+          "Where do you work? I work at a school.",
+          "Do you like the local cuisine? Yes, I do.",
+          "Do you like animation? No, I don't."
+        ]
+      },
+      {
+        "title": "Past simple for a finished action",
+        "explanation_ar": "للحديث عن حدث انتهى في الماضي نستخدم الماضي البسيط. come فعل شاذ: ماضيه came. في السؤال نستخدم did والفعل في أصله: Why did you come here? والجواب: I came for vacation.",
+        "explanation_en": "For finished past actions use the past simple. \"Come\" is irregular: came. Question: Why did you come? Answer: I came for vacation.",
+        "examples": [
+          "Why did you come here?",
+          "I came for vacation.",
+          "I came here last week."
+        ]
+      },
+      {
+        "title": "Future with \"will\"",
+        "explanation_ar": "للحديث عن خطة أو قرار في المستقبل نستخدم will + الفعل في أصله: I will stay for one more week. I will return home.",
+        "explanation_en": "Use will + base verb to talk about the future.",
+        "examples": [
+          "I will stay for one more week.",
+          "Then I will return home.",
+          "She will visit us tomorrow."
+        ]
+      },
+      {
+        "title": "Present continuous: \"Are you having fun?\"",
+        "explanation_ar": "نستخدم am/is/are + فعل ينتهي بـ ing للحديث عن شيء يحدث الآن: Are you having fun? I'm having a great time.",
+        "explanation_en": "Use am/is/are + verb-ing for things happening now.",
+        "examples": [
+          "Are you having fun?",
+          "Yes, I'm having a great time.",
+          "We are visiting the old city now."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where are you from? — I ___ from Japan.",
+      "choices": [
+        "come",
+        "comes",
+        "coming",
+        "came"
+      ],
+      "answer": 0,
+      "explanation_ar": "مع I نستخدم come بدون s في المضارع.",
+      "explanation_en": "With \"I\" we use \"come\" (no -s)."
+    },
+    {
+      "question": "What does \"delicious\" mean?",
+      "choices": [
+        "very hot",
+        "tasting very good",
+        "very old",
+        "very big"
+      ],
+      "answer": 1,
+      "explanation_ar": "delicious تعني لذيذ.",
+      "explanation_en": "Delicious means it tastes very good."
+    },
+    {
+      "question": "Choose the correct answer: \"How are you?\"",
+      "choices": [
+        "I'm from Japan.",
+        "I'm a teacher.",
+        "I'm fine, thank you.",
+        "I will stay one week."
+      ],
+      "answer": 2,
+      "explanation_ar": "الرد المناسب على How are you هو I'm fine, thank you.",
+      "explanation_en": "\"I'm fine, thank you\" answers \"How are you?\"."
+    },
+    {
+      "question": "Why did you come here? — I ___ for vacation.",
+      "choices": [
+        "come",
+        "comes",
+        "will come",
+        "came"
+      ],
+      "answer": 3,
+      "explanation_ar": "السؤال بالماضي (did)، فالجواب بالماضي: came.",
+      "explanation_en": "The question is in the past, so answer with \"came\"."
+    },
+    {
+      "question": "I work ___ a teacher at a local school.",
+      "choices": [
+        "as",
+        "for",
+        "in",
+        "from"
+      ],
+      "answer": 0,
+      "explanation_ar": "work as + المهنة.",
+      "explanation_en": "Use \"work as\" + a job."
+    },
+    {
+      "question": "I work ___ a software development company.",
+      "choices": [
+        "as",
+        "on",
+        "for",
+        "to"
+      ],
+      "answer": 2,
+      "explanation_ar": "work for + الشركة.",
+      "explanation_en": "Use \"work for\" + a company."
+    },
+    {
+      "question": "\"The architecture is stunning\" means the buildings are...",
+      "choices": [
+        "very ugly",
+        "very beautiful",
+        "very small",
+        "very cheap"
+      ],
+      "answer": 1,
+      "explanation_ar": "stunning تعني مذهل وجميل جدًا.",
+      "explanation_en": "Stunning means very beautiful."
+    },
+    {
+      "question": "How much longer will you stay? — I ___ for one more week.",
+      "choices": [
+        "stayed",
+        "stay",
+        "will stay",
+        "staying"
+      ],
+      "answer": 2,
+      "explanation_ar": "السؤال عن المستقبل بـ will، فالجواب: I will stay.",
+      "explanation_en": "It's about the future: I will stay."
+    },
+    {
+      "question": "Is the food too ___ for you? — No, I enjoy hot food.",
+      "choices": [
+        "spicy",
+        "local",
+        "stunning",
+        "fun"
+      ],
+      "answer": 0,
+      "explanation_ar": "spicy تعني حارّ.",
+      "explanation_en": "Spicy food is hot food."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "Are you software engineer?",
+        "Do you a software engineer?",
+        "Is you a software engineer?",
+        "Are you a software engineer?"
+      ],
+      "answer": 3,
+      "explanation_ar": "نستخدم Are you مع a قبل المهنة: Are you a software engineer?",
+      "explanation_en": "Use \"Are you\" and \"a\" before the job."
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "title": "What color do you like?",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "color",
+        "pos": "noun",
+        "meaning_en": "red, blue, yellow, etc.",
+        "meaning_ar": "لون",
+        "note_ar": "في بريطانيا تُكتب colour",
+        "note_en": "British spelling: colour.",
+        "example": "What color do you like?"
+      },
+      {
+        "word": "red",
+        "pos": "adjective",
+        "meaning_en": "the color of blood or a tomato",
+        "meaning_ar": "أحمر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like red."
+      },
+      {
+        "word": "yellow",
+        "pos": "adjective",
+        "meaning_en": "the color of a lemon or the sun",
+        "meaning_ar": "أصفر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like yellow."
+      },
+      {
+        "word": "white",
+        "pos": "adjective",
+        "meaning_en": "the color of milk or snow",
+        "meaning_ar": "أبيض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's white!"
+      },
+      {
+        "word": "like",
+        "pos": "verb",
+        "meaning_en": "think something is good",
+        "meaning_ar": "يحب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What color do you like?"
+      },
+      {
+        "word": "here you are",
+        "pos": "phrase",
+        "meaning_en": "said when you give something to someone",
+        "meaning_ar": "تفضّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Here you are. - Thank you."
+      },
+      {
+        "word": "glasses",
+        "pos": "noun",
+        "meaning_en": "two pieces of glass you wear to see better",
+        "meaning_ar": "نظارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My glasses are white."
+      },
+      {
+        "word": "right",
+        "pos": "adjective",
+        "meaning_en": "correct",
+        "meaning_ar": "صحيح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Right! This is white."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "this vs that",
+        "words": [
+          "this",
+          "that"
+        ],
+        "explanation_ar": "this للشيء القريب، و that للشيء البعيد.",
+        "explanation_en": "\"this\" is for a near thing. \"that\" is for a far thing.",
+        "examples": [
+          {
+            "word": "this",
+            "sentence": "This is red."
+          },
+          {
+            "word": "that",
+            "sentence": "That's white!"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "What color do you like?",
+        "meaning_ar": "ما اللون الذي تحبه؟",
+        "meaning_en": "Asking about someone's favorite color.",
+        "example": "What color do you like? - I like yellow."
+      },
+      {
+        "phrase": "I like red.",
+        "meaning_ar": "أحب اللون الأحمر.",
+        "meaning_en": "Saying the color you like.",
+        "example": "What color do you like? - I like red."
+      },
+      {
+        "phrase": "Here you are.",
+        "meaning_ar": "تفضّل.",
+        "meaning_en": "Said when you give something.",
+        "example": "Here you are. A red pen."
+      },
+      {
+        "phrase": "This is red.",
+        "meaning_ar": "هذا أحمر.",
+        "meaning_en": "Saying the color of a thing near you.",
+        "example": "Look! This is red."
+      },
+      {
+        "phrase": "Right!",
+        "meaning_ar": "صحيح!",
+        "meaning_en": "Saying something is correct.",
+        "example": "Is this white? - Right!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "What color do you like? - I like + color",
+        "explanation_ar": "نسأل عن اللون المفضل بـ What color do you like? ونجيب I like + اللون. لا نضع a قبل اسم اللون.",
+        "explanation_en": "Ask \"What color do you like?\" Answer \"I like + color\". No \"a\" before the color.",
+        "examples": [
+          "What color do you like? - I like yellow.",
+          "I like red.",
+          "This is white."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What color do you like? - ___",
+      "choices": [
+        "I like red.",
+        "I'm red.",
+        "It's a red.",
+        "Red is like."
+      ],
+      "answer": 0,
+      "explanation_ar": "نجيب I like + اللون.",
+      "explanation_en": "Answer: I like + color."
+    },
+    {
+      "question": "A lemon is ___.",
+      "choices": [
+        "red",
+        "yellow",
+        "white",
+        "black"
+      ],
+      "answer": 1,
+      "explanation_ar": "الليمون أصفر.",
+      "explanation_en": "A lemon is yellow."
+    },
+    {
+      "question": "Milk is ___.",
+      "choices": [
+        "yellow",
+        "red",
+        "white",
+        "green"
+      ],
+      "answer": 2,
+      "explanation_ar": "الحليب أبيض.",
+      "explanation_en": "Milk is white."
+    },
+    {
+      "question": "A tomato is ___.",
+      "choices": [
+        "white",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "answer": 3,
+      "explanation_ar": "الطماطم حمراء.",
+      "explanation_en": "A tomato is red."
+    },
+    {
+      "question": "You give a pen to a friend. You say: ___",
+      "choices": [
+        "Here you are.",
+        "What color?",
+        "Right!",
+        "I like it."
+      ],
+      "answer": 0,
+      "explanation_ar": "عند الإعطاء نقول Here you are.",
+      "explanation_en": "Say \"Here you are\" when you give something."
+    },
+    {
+      "question": "What ___ do you like?",
+      "choices": [
+        "old",
+        "color",
+        "time",
+        "is"
+      ],
+      "answer": 1,
+      "explanation_ar": "السؤال What color do you like?",
+      "explanation_en": "The question is \"What color do you like?\""
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I like a red.",
+        "I likes red.",
+        "I like red.",
+        "I liking red."
+      ],
+      "answer": 2,
+      "explanation_ar": "الصحيح I like red.",
+      "explanation_en": "Correct: I like red."
+    },
+    {
+      "question": "\"Right!\" means ___.",
+      "choices": [
+        "Correct!",
+        "Left!",
+        "Sorry!",
+        "Wrong!"
+      ],
+      "answer": 0,
+      "explanation_ar": "Right = صحيح.",
+      "explanation_en": "Right = correct."
+    },
+    {
+      "question": "You wear ___ on your eyes to see better.",
+      "choices": [
+        "gloves",
+        "glasses",
+        "socks",
+        "a hat"
+      ],
+      "answer": 1,
+      "explanation_ar": "النظارة على العينين.",
+      "explanation_en": "Glasses help you see."
+    },
+    {
+      "question": "The ball is far from you. ___ is white.",
+      "choices": [
+        "This",
+        "That",
+        "These",
+        "Here"
+      ],
+      "answer": 1,
+      "explanation_ar": "للبعيد نستخدم that.",
+      "explanation_en": "Use \"that\" for a far thing."
+    }
+  ]
+}

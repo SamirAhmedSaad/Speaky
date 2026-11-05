@@ -1,0 +1,366 @@
+{
+  "title": "Suffixes: Word Endings",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "suffix",
+        "pos": "noun",
+        "meaning_en": "letters added to the end of a word",
+        "meaning_ar": "لاحقة (حروف تُضاف إلى آخر الكلمة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"-ment\" is a suffix."
+      },
+      {
+        "word": "prefix",
+        "pos": "noun",
+        "meaning_en": "letters added to the start of a word",
+        "meaning_ar": "سابقة (حروف تُضاف إلى أول الكلمة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "\"re-\" in \"redo\" is a prefix."
+      },
+      {
+        "word": "word class",
+        "pos": "noun",
+        "meaning_en": "the type of word: noun, verb, adjective, adverb",
+        "meaning_ar": "نوع الكلمة (قسم الكلام)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Some suffixes change the word class."
+      },
+      {
+        "word": "gerund",
+        "pos": "noun",
+        "meaning_en": "an -ing form of a verb used like a noun",
+        "meaning_ar": "اسم الفعل / المصدر المنتهي بـ ing",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In \"Cooking is fun\", \"cooking\" is a gerund."
+      },
+      {
+        "word": "government",
+        "pos": "noun",
+        "meaning_en": "the group of people who govern a country",
+        "meaning_ar": "حكومة",
+        "note_ar": "الفعل: govern",
+        "note_en": "Verb: govern.",
+        "example": "The government helps the people."
+      },
+      {
+        "word": "argue / argument",
+        "pos": "verb / noun",
+        "meaning_en": "argue = disagree with words or try to prove an idea; argument = a verbal fight or an idea you try to prove",
+        "meaning_ar": "يجادل / جدال أو حجة",
+        "note_ar": "انتبه: argument بدون e بعد u",
+        "note_en": "Spelling: argument (no e after u).",
+        "example": "They had an argument about money."
+      },
+      {
+        "word": "encourage / encouragement",
+        "pos": "verb / noun",
+        "meaning_en": "encourage = give someone confidence to do something; encouragement = words or things that do this",
+        "meaning_ar": "يشجّع / تشجيع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Her teacher gave her a lot of encouragement."
+      },
+      {
+        "word": "improvement",
+        "pos": "noun",
+        "meaning_en": "the act of getting better",
+        "meaning_ar": "تحسّن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can see an improvement in your English."
+      },
+      {
+        "word": "revere / reverence",
+        "pos": "verb / noun",
+        "meaning_en": "revere = respect greatly; reverence = a state of great respect",
+        "meaning_ar": "يُجِلّ / إجلال",
+        "note_ar": "",
+        "note_en": "",
+        "example": "People show reverence for their national flag."
+      },
+      {
+        "word": "defer / deference",
+        "pos": "verb / noun",
+        "meaning_en": "defer to = let someone with more knowledge decide; deference = respect shown by doing this",
+        "meaning_ar": "يُذعن لـ / احترام وإذعان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In deference to the manager, I let him speak first."
+      },
+      {
+        "word": "lovable",
+        "pos": "adjective",
+        "meaning_en": "easy to love; worthy of love",
+        "meaning_ar": "محبوب / يستحق الحب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Look at the lovable little kitten!"
+      },
+      {
+        "word": "enjoyable",
+        "pos": "adjective",
+        "meaning_en": "giving pleasure; good for fun",
+        "meaning_ar": "ممتع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That was an enjoyable book."
+      },
+      {
+        "word": "worthy",
+        "pos": "adjective",
+        "meaning_en": "having enough value; deserving",
+        "meaning_ar": "جدير / يستحق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He is worthy of our respect."
+      },
+      {
+        "word": "motivate",
+        "pos": "verb",
+        "meaning_en": "make someone want to do something",
+        "meaning_ar": "يحفّز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Good teachers motivate their students."
+      },
+      {
+        "word": "lawyer",
+        "pos": "noun",
+        "meaning_en": "a person who practises law (-er = a person who does)",
+        "meaning_ar": "محامٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She wants to be a lawyer."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "prefix vs suffix",
+        "words": [
+          "prefix",
+          "suffix"
+        ],
+        "explanation_ar": "السابقة تأتي في أول الكلمة وتغيّر المعنى غالبًا (do → redo). اللاحقة تأتي في آخر الكلمة وتغيّر وظيفتها النحوية أو نوعها (argue → argument).",
+        "explanation_en": "A prefix goes at the start and usually changes the meaning (do → redo). A suffix goes at the end and changes the grammar or the word class (argue → argument).",
+        "examples": [
+          {
+            "word": "prefix",
+            "sentence": "Please redo this exercise."
+          },
+          {
+            "word": "suffix",
+            "sentence": "We had a long argument."
+          }
+        ]
+      },
+      {
+        "title": "-ance vs -ence",
+        "words": [
+          "-ance",
+          "-ence"
+        ],
+        "explanation_ar": "كلاهما يصنع أسماء، ولا توجد قاعدة سهلة لاختيار الإملاء لأنهما من اللاتينية؛ احفظ كل كلمة: importance, reverence.",
+        "explanation_en": "Both make nouns. There's no easy spelling rule (they come from Latin), so learn each word: importance, reverence.",
+        "examples": [
+          {
+            "word": "-ance",
+            "sentence": "Health is of great importance."
+          },
+          {
+            "word": "-ence",
+            "sentence": "They showed reverence for their teacher."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Yes, you can do it!",
+        "meaning_ar": "نعم، تستطيع أن تفعلها!",
+        "meaning_en": "Words of encouragement.",
+        "example": "Don't give up. Yes, you can do it!"
+      },
+      {
+        "phrase": "I will defer to you.",
+        "meaning_ar": "سأترك القرار لك (لأنك أعلم).",
+        "meaning_en": "You know more, so I will follow your decision.",
+        "example": "You're the expert, so I will defer to you."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Grammar suffixes: -s, -ed, -ing",
+        "explanation_ar": "هذه اللواحق تغيّر الوظيفة النحوية لا المعنى: -s للغائب المفرد في المضارع (he goes)، -ed للماضي (watched)، -ing للمستمر أو الصفة أو الاسم (working, a swimming pool, cooking).",
+        "explanation_en": "These suffixes change grammar, not meaning: -s for third person singular present (he goes), -ed for the past (watched), -ing for continuous, adjective or noun (working, a swimming pool, cooking).",
+        "examples": [
+          "She goes to school.",
+          "I watched TV last night.",
+          "Cooking is fun."
+        ]
+      },
+      {
+        "title": "-ment makes nouns (action or process)",
+        "explanation_ar": "نضيف ment إلى فعل لنصنع اسمًا يدل على الفعل أو العملية: govern → government, argue → argument, encourage → encouragement, improve → improvement.",
+        "explanation_en": "Add -ment to a verb to make a noun for an action or process: govern → government, argue → argument, encourage → encouragement, improve → improvement.",
+        "examples": [
+          "The government built a new hospital.",
+          "Thank you for your encouragement."
+        ]
+      },
+      {
+        "title": "-ance / -ence makes nouns (state or quality)",
+        "explanation_ar": "نضيف ance أو ence لنصنع اسمًا يدل على حالة أو صفة: revere → reverence, defer → deference.",
+        "explanation_en": "Add -ance or -ence to make a noun for a state or quality: revere → reverence, defer → deference.",
+        "examples": [
+          "Show reverence for the flag.",
+          "In deference to his age, we let him go first."
+        ]
+      },
+      {
+        "title": "-able / -ible makes adjectives (worthy of / good for)",
+        "explanation_ar": "نضيف able أو ible لنصنع صفة بمعنى \"يستحق\" أو \"صالح لـ\": love → lovable (يستحق الحب)، enjoy → enjoyable (ممتع).",
+        "explanation_en": "Add -able or -ible to make an adjective meaning \"worthy of\" or \"good for\": love → lovable, enjoy → enjoyable.",
+        "examples": [
+          "What a lovable puppy!",
+          "It was an enjoyable trip."
+        ]
+      },
+      {
+        "title": "-er = a person who does something",
+        "explanation_ar": "اللاحقة er تدل غالبًا على الشخص الذي يقوم بالفعل: law → lawyer، teach → teacher.",
+        "explanation_en": "The suffix -er often means a person who does something: law → lawyer, teach → teacher.",
+        "examples": [
+          "My brother is a lawyer.",
+          "She is a good teacher."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A suffix goes ___ a word.",
+      "choices": [
+        "at the start of",
+        "at the end of",
+        "in the middle of",
+        "before"
+      ],
+      "answer": 1,
+      "explanation_ar": "اللاحقة في آخر الكلمة.",
+      "explanation_en": "A suffix goes at the end."
+    },
+    {
+      "question": "Which suffix makes a noun from \"argue\"?",
+      "choices": [
+        "-able",
+        "-ly",
+        "-ment",
+        "-ed"
+      ],
+      "answer": 2,
+      "explanation_ar": "الإجابة الصحيحة: argue → argument.",
+      "explanation_en": "argue → argument."
+    },
+    {
+      "question": "\"That was an ___ book.\" (good for fun)",
+      "choices": [
+        "enjoyment",
+        "enjoyable",
+        "enjoying",
+        "enjoys"
+      ],
+      "answer": 1,
+      "explanation_ar": "صفة بمعنى ممتع: enjoyable.",
+      "explanation_en": "Adjective meaning fun: enjoyable."
+    },
+    {
+      "question": "\"Thank you for your ___.\" (words that gave me confidence)",
+      "choices": [
+        "encourage",
+        "encouraging",
+        "encourageable",
+        "encouragement"
+      ],
+      "answer": 3,
+      "explanation_ar": "نحتاج اسمًا: encouragement.",
+      "explanation_en": "We need a noun: encouragement."
+    },
+    {
+      "question": "-able / -ible makes ___.",
+      "choices": [
+        "adjectives",
+        "nouns",
+        "verbs",
+        "past tense"
+      ],
+      "answer": 0,
+      "explanation_ar": "able تصنع صفات.",
+      "explanation_en": "-able makes adjectives."
+    },
+    {
+      "question": "What does \"reverence\" mean?",
+      "choices": [
+        "a verbal fight",
+        "a state of great respect",
+        "a group that governs",
+        "fun"
+      ],
+      "answer": 1,
+      "explanation_ar": "reverence = إجلال واحترام كبير.",
+      "explanation_en": "Reverence = great respect."
+    },
+    {
+      "question": "\"He watched TV.\" The suffix -ed shows ___.",
+      "choices": [
+        "third person",
+        "a noun",
+        "the past",
+        "an adjective"
+      ],
+      "answer": 2,
+      "explanation_ar": "ed للماضي.",
+      "explanation_en": "-ed shows the past."
+    },
+    {
+      "question": "\"Lovable\" means ___.",
+      "choices": [
+        "unable to love",
+        "a person who loves",
+        "worthy of love",
+        "love in the past"
+      ],
+      "answer": 2,
+      "explanation_ar": "lovable = يستحق الحب.",
+      "explanation_en": "\"Lovable\" = worthy of love."
+    },
+    {
+      "question": "Which word has a grammar suffix that does NOT change the word class?",
+      "choices": [
+        "government",
+        "goes",
+        "enjoyable",
+        "reverence"
+      ],
+      "answer": 1,
+      "explanation_ar": "goes: لاحقة s نحوية تبقى فعلًا.",
+      "explanation_en": "\"Goes\": the -s is a grammar suffix; it stays a verb."
+    },
+    {
+      "question": "\"I will ___ to you. You know more than me.\"",
+      "choices": [
+        "defer",
+        "deference",
+        "deferable",
+        "deferment"
+      ],
+      "answer": 0,
+      "explanation_ar": "نحتاج فعلًا: defer to.",
+      "explanation_en": "We need a verb: defer to."
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "title": "Getting the Sack",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "get the sack",
+        "pos": "idiom",
+        "meaning_en": "to lose your job because your employer ends it",
+        "meaning_ar": "يُطرد من العمل",
+        "note_ar": "عبارة غير رسمية بريطانية؛ والفعل sack someone.",
+        "note_en": "Informal, British. Verb: to sack someone.",
+        "example": "He got the sack for being late every day."
+      },
+      {
+        "word": "strategic review",
+        "pos": "noun",
+        "meaning_en": "a careful study of how a company works and how it should work in the future",
+        "meaning_ar": "مراجعة استراتيجية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The new director is doing a strategic review of the company."
+      },
+      {
+        "word": "downsize",
+        "pos": "verb",
+        "meaning_en": "to make a company smaller by cutting jobs",
+        "meaning_ar": "يقلّص حجم الشركة (بتقليل الموظفين)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company had to downsize last year."
+      },
+      {
+        "word": "step aside",
+        "pos": "phrasal verb",
+        "meaning_en": "(polite) to leave your important position so someone else can take it",
+        "meaning_ar": "يتنحّى عن منصبه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The manager agreed to step aside for a younger leader."
+      },
+      {
+        "word": "direction",
+        "pos": "noun",
+        "meaning_en": "the way a company plans to develop",
+        "meaning_ar": "توجّه؛ مسار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company needs a new direction."
+      },
+      {
+        "word": "dynamic",
+        "pos": "adjective",
+        "meaning_en": "full of energy and new ideas",
+        "meaning_ar": "ديناميكي؛ نشيط ومبدع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are looking for a dynamic sales manager."
+      },
+      {
+        "word": "leadership",
+        "pos": "noun",
+        "meaning_en": "the way someone leads a group or company",
+        "meaning_ar": "قيادة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Good leadership helps a team work well."
+      },
+      {
+        "word": "surplus to requirement(s)",
+        "pos": "idiom",
+        "meaning_en": "no longer needed",
+        "meaning_ar": "فائض عن الحاجة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Some old computers are now surplus to requirements."
+      },
+      {
+        "word": "cut staff",
+        "pos": "phrase",
+        "meaning_en": "to reduce the number of workers",
+        "meaning_ar": "يقلّص عدد الموظفين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The factory had to cut staff because sales fell."
+      },
+      {
+        "word": "economic climate",
+        "pos": "noun",
+        "meaning_en": "the general state of the economy at a time",
+        "meaning_ar": "المناخ الاقتصادي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "In the current economic climate, many companies are careful with money."
+      },
+      {
+        "word": "inevitable",
+        "pos": "adjective",
+        "meaning_en": "certain to happen; cannot be stopped",
+        "meaning_ar": "حتمي؛ لا مفرّ منه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "With lower sales, changes were inevitable."
+      },
+      {
+        "word": "necessary",
+        "pos": "adjective",
+        "meaning_en": "needed",
+        "meaning_ar": "ضروري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Denise is necessary for the smooth running of the office."
+      },
+      {
+        "word": "smooth running",
+        "pos": "noun",
+        "meaning_en": "working well without problems",
+        "meaning_ar": "سير العمل بسلاسة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A good assistant is key to the smooth running of a department."
+      },
+      {
+        "word": "input",
+        "pos": "noun",
+        "meaning_en": "ideas, work or help that you give to a project",
+        "meaning_ar": "مساهمة؛ إسهام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for your input at the meeting."
+      },
+      {
+        "word": "operate",
+        "pos": "verb",
+        "meaning_en": "(of a business) to work or do its activities",
+        "meaning_ar": "يعمل؛ يدير نشاطه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company operates in five countries."
+      },
+      {
+        "word": "give someone the chop",
+        "pos": "idiom",
+        "meaning_en": "(informal) to end someone's job",
+        "meaning_ar": "يطرد شخصًا من العمل (عامية)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The boss gave him the chop last month."
+      },
+      {
+        "word": "promotion",
+        "pos": "noun",
+        "meaning_en": "a move to a higher job in the same company",
+        "meaning_ar": "ترقية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She got a promotion to sales manager."
+      },
+      {
+        "word": "outstanding",
+        "pos": "adjective",
+        "meaning_en": "extremely good",
+        "meaning_ar": "متميّز؛ ممتاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You have been an outstanding member of the team."
+      },
+      {
+        "word": "break the bad news",
+        "pos": "phrase",
+        "meaning_en": "to tell someone something unpleasant",
+        "meaning_ar": "يُبلغ بالخبر السيئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's never easy to break the bad news to staff."
+      },
+      {
+        "word": "isn't on",
+        "pos": "phrase",
+        "meaning_en": "(British, informal) is not acceptable",
+        "meaning_ar": "غير مقبول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Shouting at colleagues just isn't on."
+      },
+      {
+        "word": "count on",
+        "pos": "phrasal verb",
+        "meaning_en": "to trust someone to help you",
+        "meaning_ar": "يعتمد على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You can count on me to finish the work."
+      },
+      {
+        "word": "behaviour",
+        "pos": "noun",
+        "meaning_en": "the way someone acts",
+        "meaning_ar": "سلوك",
+        "note_ar": "في الأمريكية behavior.",
+        "note_en": "US spelling: behavior.",
+        "example": "That behaviour is not acceptable at work."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "get the sack vs be made redundant vs resign",
+        "words": [
+          "get the sack",
+          "be made redundant",
+          "resign"
+        ],
+        "explanation_ar": "get the sack: الشركة تُنهي عملك غالبًا بسبب خطأ أو أداء سيئ. be made redundant: تُنهي الشركة عملك لأن وظيفتك لم تعد لازمة (ليس ذنبك). resign: أنت من يقرر ترك العمل.",
+        "explanation_en": "Get the sack: your employer ends your job, often because of bad work. Be made redundant: your job ends because the company doesn't need that job any more (not your fault). Resign: you decide to leave.",
+        "examples": [
+          {
+            "word": "get the sack",
+            "sentence": "He got the sack for stealing."
+          },
+          {
+            "word": "be made redundant",
+            "sentence": "Fifty workers were made redundant when the factory closed."
+          },
+          {
+            "word": "resign",
+            "sentence": "She resigned to start her own business."
+          }
+        ]
+      },
+      {
+        "title": "step aside: literal vs work meaning",
+        "words": [
+          "step aside"
+        ],
+        "explanation_ar": "المعنى الحرفي: يتنحّى جانبًا خطوةً ليفسح الطريق. وفي العمل: طريقة مهذبة لقول «اترك منصبك». ولم تكن آنا تعرف إلا المعنى الأول!",
+        "explanation_en": "Literal meaning: move one step to the side so someone can pass. Work meaning: a polite way to say 'leave your job/position'. Anna only knew the first meaning!",
+        "examples": [
+          {
+            "word": "step aside",
+            "sentence": "Please step aside and let the doctor through."
+          },
+          {
+            "word": "step aside",
+            "sentence": "After ten years, the director decided to step aside."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I've been doing a strategic review of the company.",
+        "meaning_ar": "كنت أجري مراجعة استراتيجية للشركة.",
+        "meaning_en": "I have been studying how the company works and how it should change.",
+        "example": "I've been doing a strategic review of the company, and we need some changes."
+      },
+      {
+        "phrase": "I need to downsize.",
+        "meaning_ar": "أحتاج إلى تقليص حجم الشركة.",
+        "meaning_en": "I must make the company smaller.",
+        "example": "Sales are down, so I need to downsize."
+      },
+      {
+        "phrase": "I need you to step aside.",
+        "meaning_ar": "أحتاج منك أن تتنحّى عن منصبك.",
+        "meaning_en": "A polite way to tell someone to leave their position.",
+        "example": "I'm sorry, but I need you to step aside as team leader."
+      },
+      {
+        "phrase": "The company needs a new direction and more dynamic leadership.",
+        "meaning_ar": "تحتاج الشركة إلى توجّه جديد وقيادة أكثر ديناميكية.",
+        "meaning_en": "The company must change and needs a more energetic leader.",
+        "example": "The board believes the company needs a new direction and more dynamic leadership."
+      },
+      {
+        "phrase": "You are surplus to requirement.",
+        "meaning_ar": "أنت فائض عن الحاجة.",
+        "meaning_en": "Your work is no longer needed.",
+        "example": "After the merger, some roles were surplus to requirements."
+      },
+      {
+        "phrase": "That behaviour just isn't on.",
+        "meaning_ar": "هذا السلوك غير مقبول إطلاقًا.",
+        "meaning_en": "That behaviour is not acceptable.",
+        "example": "Arriving late every day just isn't on."
+      },
+      {
+        "phrase": "You have been an outstanding member of the team.",
+        "meaning_ar": "لقد كنت عضوًا متميّزًا في الفريق.",
+        "meaning_en": "You have done excellent work in the team.",
+        "example": "Thank you, Sara. You have been an outstanding member of the team."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Present perfect continuous: I've been doing…",
+        "explanation_ar": "نستخدم have/has been + الفعل مع ing لنشاط بدأ في الماضي واستمر حتى الآن (أو انتهى للتو) وله نتيجة الآن: I've been doing a strategic review.",
+        "explanation_en": "Use have/has been + verb-ing for an activity that started in the past and continues until now (or just finished) and explains the present: I've been doing a strategic review.",
+        "examples": [
+          "I've been doing a review of our costs.",
+          "She has been working here for five years.",
+          "We've been looking at new ways to save money."
+        ]
+      },
+      {
+        "title": "need + someone + to + verb",
+        "explanation_ar": "لنطلب من شخص فعل شيء بشكل واضح ومباشر نستخدم: need + الشخص (me/you/him…) + to + الفعل. وهي أقوى من could you…?",
+        "explanation_en": "To tell someone clearly what they must do, use: need + person + to + verb. It is stronger than 'Could you...?'.",
+        "examples": [
+          "I need you to step aside.",
+          "We need him to sign the contract today.",
+          "I need you to finish this by five."
+        ]
+      },
+      {
+        "title": "Softening bad news with formal words",
+        "explanation_ar": "في العمل نستخدم كلمات رسمية ألطف من الكلمات المباشرة: step aside بدل be sacked، وdownsize بدل fire people، وsurplus to requirements بدل not needed.",
+        "explanation_en": "At work we often use formal, softer words for bad news: step aside (not 'you're sacked'), downsize (not 'fire people'), surplus to requirements (not 'useless').",
+        "examples": [
+          "We need to downsize. (= We will cut jobs.)",
+          "I need you to step aside. (= You must leave this job.)",
+          "Your role is surplus to requirements. (= Your job is not needed.)"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'Downsize' means…",
+      "choices": [
+        "move to a bigger office",
+        "make a company smaller by cutting jobs",
+        "buy smaller products",
+        "lower prices"
+      ],
+      "answer": 1,
+      "explanation_ar": "downsize يعني تقليص حجم الشركة بتقليل الوظائف.",
+      "explanation_en": "Downsize = make the company smaller by cutting jobs."
+    },
+    {
+      "question": "Mr Socrates says Paul is 'surplus to requirement'. This means Paul is…",
+      "choices": [
+        "the best manager",
+        "getting a promotion",
+        "no longer needed",
+        "on holiday"
+      ],
+      "answer": 2,
+      "explanation_ar": "surplus to requirement أي فائض عن الحاجة.",
+      "explanation_en": "It means he is no longer needed."
+    },
+    {
+      "question": "I ___ doing a strategic review of the company.",
+      "choices": [
+        "'ve been",
+        "am been",
+        "has been",
+        "was be"
+      ],
+      "answer": 0,
+      "explanation_ar": "المضارع التام المستمر: I've been + ing.",
+      "explanation_en": "Present perfect continuous: I've been + -ing."
+    },
+    {
+      "question": "In business, 'step aside' is a polite way of saying…",
+      "choices": [
+        "move to the left",
+        "take a break",
+        "start a new project",
+        "leave your position"
+      ],
+      "answer": 3,
+      "explanation_ar": "step aside في العمل تعني ترك المنصب.",
+      "explanation_en": "It means leave your position."
+    },
+    {
+      "question": "I need you ___ the report today.",
+      "choices": [
+        "finishing",
+        "to finish",
+        "finish",
+        "finished"
+      ],
+      "answer": 1,
+      "explanation_ar": "النمط: need + شخص + to + فعل.",
+      "explanation_en": "Pattern: need + person + to + verb."
+    },
+    {
+      "question": "Workers lost their jobs because the factory closed. It wasn't their fault. They were…",
+      "choices": [
+        "made redundant",
+        "promoted",
+        "resigned",
+        "reinstated"
+      ],
+      "answer": 0,
+      "explanation_ar": "made redundant: فقدان العمل لأن الوظيفة لم تعد لازمة.",
+      "explanation_en": "Made redundant = the job is no longer needed."
+    },
+    {
+      "question": "'That behaviour just isn't on' means…",
+      "choices": [
+        "the behaviour is very good",
+        "the light is off",
+        "that behaviour is not acceptable",
+        "the meeting is cancelled"
+      ],
+      "answer": 2,
+      "explanation_ar": "isn't on تعني غير مقبول.",
+      "explanation_en": "'Isn't on' means not acceptable."
+    },
+    {
+      "question": "'Dynamic leadership' means a leader who is…",
+      "choices": [
+        "slow and careful",
+        "old and tired",
+        "always absent",
+        "full of energy and new ideas"
+      ],
+      "answer": 3,
+      "explanation_ar": "dynamic أي مليء بالطاقة والأفكار.",
+      "explanation_en": "Dynamic = full of energy and ideas."
+    },
+    {
+      "question": "Mr Socrates offers Anna a ___ to manager of the London office.",
+      "choices": [
+        "promotion",
+        "sack",
+        "discount",
+        "review"
+      ],
+      "answer": 0,
+      "explanation_ar": "promotion هي الترقية إلى وظيفة أعلى.",
+      "explanation_en": "A promotion is a move to a higher job."
+    },
+    {
+      "question": "'Cutting staff is inevitable' means cutting staff…",
+      "choices": [
+        "is a bad idea",
+        "will certainly happen",
+        "is illegal",
+        "will never happen"
+      ],
+      "answer": 1,
+      "explanation_ar": "inevitable تعني حتمي لا مفرّ منه.",
+      "explanation_en": "Inevitable = certain to happen."
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "title": "Making a Cold Call",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "cold call",
+        "pos": "noun / verb",
+        "meaning_en": "a phone call to someone who is not expecting it, to sell something",
+        "meaning_ar": "اتصال تسويقي مفاجئ",
+        "note_ar": "cold calling = إجراء هذه الاتصالات",
+        "note_en": "Cold calling is the activity.",
+        "example": "Anna made her first cold call today."
+      },
+      {
+        "word": "prospective client",
+        "pos": "noun",
+        "meaning_en": "a person or company that may become a customer",
+        "meaning_ar": "عميل محتمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We called ten prospective clients this morning."
+      },
+      {
+        "word": "potential",
+        "pos": "adjective",
+        "meaning_en": "possible in the future",
+        "meaning_ar": "محتمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Track down some potential clients in Europe."
+      },
+      {
+        "word": "client",
+        "pos": "noun",
+        "meaning_en": "a customer of a business",
+        "meaning_ar": "عميل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our biggest client is in France."
+      },
+      {
+        "word": "spare",
+        "pos": "verb",
+        "meaning_en": "give some of your time or money",
+        "meaning_ar": "يخصّص / يمنح (من وقته)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you spare a few minutes of your time?"
+      },
+      {
+        "word": "purchase",
+        "pos": "verb / noun",
+        "meaning_en": "buy; something you buy (formal)",
+        "meaning_ar": "يشتري / مشتريات",
+        "note_ar": "purchase أكثر رسمية من buy",
+        "note_en": "Purchase is more formal than buy.",
+        "example": "Who purchases plastic fruit for your company?"
+      },
+      {
+        "word": "purchasing",
+        "pos": "noun",
+        "meaning_en": "the department or job of buying things for a company",
+        "meaning_ar": "قسم المشتريات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please put me through to purchasing."
+      },
+      {
+        "word": "deal with",
+        "pos": "phrasal verb",
+        "meaning_en": "be responsible for something",
+        "meaning_ar": "يتولّى / يتعامل مع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like to speak to the person who deals with buying."
+      },
+      {
+        "word": "manufacturer",
+        "pos": "noun",
+        "meaning_en": "a company that makes products",
+        "meaning_ar": "شركة مصنّعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We are the UK's number one plastic fruit manufacturer."
+      },
+      {
+        "word": "launch",
+        "pos": "verb",
+        "meaning_en": "start selling a new product",
+        "meaning_ar": "يُطلق (منتجًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We've just launched our best product ever."
+      },
+      {
+        "word": "technology",
+        "pos": "noun",
+        "meaning_en": "scientific knowledge used to make things",
+        "meaning_ar": "تقنية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We make our products using new technology."
+      },
+      {
+        "word": "consider",
+        "pos": "verb",
+        "meaning_en": "think about something before you decide",
+        "meaning_ar": "يأخذ في الاعتبار / يفكّر في",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I hope you may consider us next time."
+      },
+      {
+        "word": "brief",
+        "pos": "adjective",
+        "meaning_en": "short",
+        "meaning_ar": "موجز / قصير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Keep your calls brief."
+      },
+      {
+        "word": "expensive",
+        "pos": "adjective",
+        "meaning_en": "costing a lot of money",
+        "meaning_ar": "مكلف / غالٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "International calls are very expensive."
+      },
+      {
+        "word": "hang up",
+        "pos": "phrasal verb",
+        "meaning_en": "end a phone call by putting the phone down",
+        "meaning_ar": "ينهي المكالمة",
+        "note_ar": "hang up on someone = إنهاء المكالمة فجأة في وجهه",
+        "note_en": "Hang up on someone = end the call suddenly.",
+        "example": "They hung up on me!"
+      },
+      {
+        "word": "contract",
+        "pos": "noun",
+        "meaning_en": "a written legal agreement",
+        "meaning_ar": "عقد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If we get the contract, we'll be very busy."
+      },
+      {
+        "word": "teamwork",
+        "pos": "noun",
+        "meaning_en": "working well together in a group",
+        "meaning_ar": "العمل الجماعي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This task calls for teamwork."
+      },
+      {
+        "word": "put out the feelers",
+        "pos": "idiom",
+        "meaning_en": "try to find out information carefully",
+        "meaning_ar": "يتحسّس / يستطلع الآراء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's put out the feelers and see what clients want."
+      },
+      {
+        "word": "track down",
+        "pos": "phrasal verb",
+        "meaning_en": "find someone after searching",
+        "meaning_ar": "يتعقّب ويجد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you track down the manager's phone number?"
+      },
+      {
+        "word": "promising",
+        "pos": "adjective",
+        "meaning_en": "showing signs of future success",
+        "meaning_ar": "واعد / مبشّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That sounds promising."
+      },
+      {
+        "word": "tackle",
+        "pos": "verb",
+        "meaning_en": "start dealing with a difficult task",
+        "meaning_ar": "يتصدّى لـ / يعالج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We'll tackle this task together tomorrow."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "buy vs purchase",
+        "words": [
+          "buy",
+          "purchase"
+        ],
+        "explanation_ar": "المعنى واحد (يشتري)، لكن purchase أكثر رسمية وتُستخدم في لغة الأعمال.",
+        "explanation_en": "Same meaning. Purchase is more formal and used in business.",
+        "examples": [
+          {
+            "word": "buy",
+            "sentence": "I buy coffee every morning."
+          },
+          {
+            "word": "purchase",
+            "sentence": "The company purchases new computers every year."
+          }
+        ]
+      },
+      {
+        "title": "client vs customer",
+        "words": [
+          "client",
+          "customer"
+        ],
+        "explanation_ar": "customer من يشتري من متجر، وclient من يتلقّى خدمة مهنية أو تجارية من شركة على المدى الطويل.",
+        "explanation_en": "A customer buys from a shop. A client gets professional services or does business with a company.",
+        "examples": [
+          {
+            "word": "customer",
+            "sentence": "The shop was full of customers."
+          },
+          {
+            "word": "client",
+            "sentence": "Our lawyer has many clients."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "My name is Anna. Can you spare a few minutes of your time?",
+        "meaning_ar": "اسمي آنا. هل يمكنك أن تمنحني بضع دقائق من وقتك؟",
+        "meaning_en": "Introduce yourself and ask politely for some time.",
+        "example": "Good morning. My name is Sara. Can you spare a few minutes of your time?"
+      },
+      {
+        "phrase": "I'd like to tell you about our great new product.",
+        "meaning_ar": "أودّ أن أحدّثك عن منتجنا الجديد الرائع.",
+        "meaning_en": "Start describing what you sell.",
+        "example": "I'd like to tell you about our great new printer."
+      },
+      {
+        "phrase": "How much plastic fruit do you buy?",
+        "meaning_ar": "ما كمية الفاكهة البلاستيكية التي تشترونها؟",
+        "meaning_en": "Ask about the client's needs.",
+        "example": "How much paper does your office buy each month?"
+      },
+      {
+        "phrase": "Thank you for your time. We hope to hear from you soon.",
+        "meaning_ar": "شكرًا لوقتك. نأمل أن نسمع منك قريبًا.",
+        "meaning_en": "A polite way to end a sales call.",
+        "example": "Thank you for your time. We hope to hear from you soon."
+      },
+      {
+        "phrase": "Is it possible to speak to you in English?",
+        "meaning_ar": "هل يمكن أن أتحدث معك بالإنجليزية؟",
+        "meaning_en": "Ask which language you can use.",
+        "example": "Hello, is it possible to speak to you in English?"
+      },
+      {
+        "phrase": "Are you the person who purchases...?",
+        "meaning_ar": "هل أنت الشخص المسؤول عن شراء...؟",
+        "meaning_en": "Check you are talking to the right person.",
+        "example": "Are you the person who purchases office supplies?"
+      },
+      {
+        "phrase": "Sorry to keep you waiting.",
+        "meaning_ar": "آسف لأنني جعلتك تنتظر.",
+        "meaning_en": "Apologise for being late.",
+        "example": "Sorry to keep you waiting. The meeting ran late."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite openings: Can you spare...? / I'd like to...",
+        "explanation_ar": "في الاتصال الأول نكون مهذبين: نعرّف بأنفسنا (My name is...)، ثم نطلب الوقت (Can you spare a few minutes?)، ثم نذكر الهدف (I'd like to tell you about...).",
+        "explanation_en": "On a cold call be polite: say your name (My name is...), ask for time (Can you spare a few minutes?), then say why you are calling (I'd like to tell you about...).",
+        "examples": [
+          "My name is Omar, from Star Office.",
+          "Can you spare a few minutes of your time?",
+          "I'd like to tell you about our new service."
+        ]
+      },
+      {
+        "title": "How much / How many",
+        "explanation_ar": "How much مع الأسماء غير المعدودة (fruit, paper, money)، وHow many مع الأسماء المعدودة بالجمع (boxes, lemons).",
+        "explanation_en": "How much with uncountable nouns (fruit, paper, money). How many with plural countable nouns (boxes, lemons).",
+        "examples": [
+          "How much plastic fruit do you buy?",
+          "How many boxes do you need?",
+          "How much money can you spend?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "A cold call is a call...",
+      "choices": [
+        "to a friend",
+        "to someone who is not expecting it, to sell something",
+        "in cold weather",
+        "from the boss"
+      ],
+      "answer": 1,
+      "explanation_ar": "cold call اتصال مفاجئ لعميل محتمل بهدف البيع.",
+      "explanation_en": "A cold call is an unexpected sales call."
+    },
+    {
+      "question": "Can you ___ a few minutes of your time?",
+      "choices": [
+        "spare",
+        "spend",
+        "save",
+        "spill"
+      ],
+      "answer": 0,
+      "explanation_ar": "spare a few minutes تعني تمنح بضع دقائق.",
+      "explanation_en": "Spare a few minutes = give a little time."
+    },
+    {
+      "question": "How ___ plastic fruit do you buy?",
+      "choices": [
+        "many",
+        "much",
+        "lot",
+        "few"
+      ],
+      "answer": 1,
+      "explanation_ar": "fruit هنا غير معدود فنستخدم How much.",
+      "explanation_en": "Fruit here is uncountable, so How much."
+    },
+    {
+      "question": "How ___ boxes do you need?",
+      "choices": [
+        "much",
+        "any",
+        "many",
+        "lot"
+      ],
+      "answer": 2,
+      "explanation_ar": "boxes معدود جمع فنستخدم How many.",
+      "explanation_en": "Boxes is countable plural: How many."
+    },
+    {
+      "question": "A more formal word for \"buy\" is...",
+      "choices": [
+        "purchase",
+        "purse",
+        "sell",
+        "spend"
+      ],
+      "answer": 0,
+      "explanation_ar": "purchase أكثر رسمية من buy.",
+      "explanation_en": "Purchase is the formal word."
+    },
+    {
+      "question": "A good way to end a sales call:",
+      "choices": [
+        "Bye, I'm busy.",
+        "Thank you for your time. We hope to hear from you soon.",
+        "Buy it now!",
+        "Don't call me."
+      ],
+      "answer": 1,
+      "explanation_ar": "هذه نهاية مهذبة للمكالمة.",
+      "explanation_en": "This is a polite ending."
+    },
+    {
+      "question": "A person who may become a customer is a ___ client.",
+      "choices": [
+        "prospective",
+        "previous",
+        "personal",
+        "professional"
+      ],
+      "answer": 0,
+      "explanation_ar": "prospective client تعني عميل محتمل.",
+      "explanation_en": "Prospective client = possible future customer."
+    },
+    {
+      "question": "\"They hung up on me\" means...",
+      "choices": [
+        "they called me back",
+        "they ended the call suddenly",
+        "they put me on hold",
+        "they agreed"
+      ],
+      "answer": 1,
+      "explanation_ar": "hung up on me تعني أنهوا المكالمة فجأة.",
+      "explanation_en": "It means they suddenly ended the call."
+    },
+    {
+      "question": "Denise said: \"Keep your calls ___, international calls are expensive.\"",
+      "choices": [
+        "long",
+        "loud",
+        "brief",
+        "cold"
+      ],
+      "answer": 2,
+      "explanation_ar": "brief تعني قصيرًا.",
+      "explanation_en": "Brief means short."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I'd like tell you about our product.",
+        "I'd like to telling you about our product.",
+        "I'd like to tell you about our product.",
+        "I like to told you about our product."
+      ],
+      "answer": 2,
+      "explanation_ar": "التركيب I'd like to + فعل مجرد.",
+      "explanation_en": "Pattern: I'd like to + base verb."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Advanced Prepositions of Time",
+  "content": {
+    "vocabulary": [
+      {"word": "throughout", "pos": "preposition", "meaning_en": "during the whole period, from start to end (and maybe a little after)", "meaning_ar": "طوال / على امتداد", "note_ar": "", "note_en": "", "example": "It rained throughout the night."},
+      {"word": "run out of (time)", "pos": "phrasal verb", "meaning_en": "to have no more time left", "meaning_ar": "ينفد منه (الوقت)", "note_ar": "الماضي: ran out of", "note_en": "Past: ran out of.", "example": "The test was hard, and I ran out of time."},
+      {"word": "use up", "pos": "phrasal verb", "meaning_en": "to use all of something", "meaning_ar": "يستهلك كل شيء", "note_ar": "", "note_en": "", "example": "We used up all our time on the first question."},
+      {"word": "allotted", "pos": "adjective", "meaning_en": "given for a special purpose (time, money)", "meaning_ar": "مُخصَّص", "note_ar": "", "note_en": "", "example": "You have two hours of allotted time."},
+      {"word": "(at) around / (at) about", "pos": "preposition", "meaning_en": "approximately; not exactly", "meaning_ar": "حوالي / تقريبًا", "note_ar": "around و at around بنفس المعنى تقريبًا", "note_en": "Around and at around mean almost the same.", "example": "I'll be at your house at around 4 o'clock."},
+      {"word": "approximate", "pos": "adjective", "meaning_en": "close to the real number, but not exact", "meaning_ar": "تقريبي", "note_ar": "", "note_en": "", "example": "Give me an approximate time."},
+      {"word": "during", "pos": "preposition", "meaning_en": "at some time inside a bigger period", "meaning_ar": "أثناء / خلال", "note_ar": "", "note_en": "", "example": "He fell asleep during the meeting."},
+      {"word": "ahead of", "pos": "preposition", "meaning_en": "before; earlier than", "meaning_ar": "قبل / متقدّمًا على", "note_ar": "", "note_en": "", "example": "Please come ahead of the others; we need to talk."},
+      {"word": "within", "pos": "preposition", "meaning_en": "from now until the end of a period of time", "meaning_ar": "في غضون", "note_ar": "", "note_en": "", "example": "I'll be there within ten minutes."},
+      {"word": "between", "pos": "preposition", "meaning_en": "after one time and before another time", "meaning_ar": "بين", "note_ar": "", "note_en": "", "example": "Come between 4 and 5 p.m."},
+      {"word": "by the time", "pos": "conjunction", "meaning_en": "before; not later than", "meaning_ar": "بحلول الوقت الذي", "note_ar": "أبسط معنى لها: before", "note_en": "Simplest meaning: before.", "example": "Be here by the time the store closes."},
+      {"word": "on the dot", "pos": "phrase", "meaning_en": "exactly at that time", "meaning_ar": "في الموعد تمامًا", "note_ar": "", "note_en": "", "example": "The class starts at 9 on the dot."},
+      {"word": "just in time", "pos": "phrase", "meaning_en": "almost too late, but not late", "meaning_ar": "في آخر لحظة", "note_ar": "", "note_en": "", "example": "We got to the station just in time."},
+      {"word": "fall asleep", "pos": "phrase", "meaning_en": "to start sleeping", "meaning_ar": "يغفو / يغلبه النوم", "note_ar": "الماضي: fell asleep", "note_en": "Past: fell asleep.", "example": "The baby fell asleep in the car."}
+    ],
+    "fine_lines": [
+      {"title": "throughout vs during", "words": ["throughout", "during"], "explanation_ar": "throughout = طوال الفترة كلها من بدايتها إلى نهايتها. during = في وقت ما داخل الفترة (جزء منها).", "explanation_en": "Throughout = for the whole period, from start to end. During = at some time inside the period (a part of it).", "examples": [{"word": "throughout", "sentence": "It rained throughout the night, until the morning."}, {"word": "during", "sentence": "It rained during the night. Now the ground is wet."}]},
+      {"title": "within vs between", "words": ["within", "between"], "explanation_ar": "within = من الآن حتى نهاية مدة معينة (البداية هي الآن). between = بعد وقت معيّن وقبل وقت آخر، ولا علاقة لها بالآن.", "explanation_en": "Within = from now until the end of a time (the start is now). Between = after one time and before another; it has nothing to do with now.", "examples": [{"word": "within", "sentence": "The ambulance will be there within ten minutes."}, {"word": "between", "sentence": "I'll be at your house between 4 and 5 p.m."}]},
+      {"title": "on the dot vs just in time", "words": ["on the dot", "just in time"], "explanation_ar": "on the dot = في الموعد بالضبط. just in time = في آخر لحظة قبل فوات الأوان.", "explanation_en": "On the dot = exactly on time. Just in time = at the last moment before it is too late.", "examples": [{"word": "on the dot", "sentence": "He arrived at 5 o'clock on the dot."}, {"word": "just in time", "sentence": "I ran and caught the door just in time."}]}
+    ],
+    "expressions": [
+      {"phrase": "I ran out of time.", "meaning_ar": "نفد مني الوقت.", "meaning_en": "I had no more time.", "example": "I couldn't finish the test. I ran out of time."},
+      {"phrase": "I'll be there within ten minutes.", "meaning_ar": "سأكون هناك في غضون عشر دقائق.", "meaning_en": "From now, in ten minutes or less.", "example": "Don't worry, I'll be there within ten minutes."},
+      {"phrase": "at around 4 o'clock", "meaning_ar": "حوالي الساعة الرابعة", "meaning_en": "approximately at 4", "example": "Let's meet at around 4 o'clock."},
+      {"phrase": "9 o'clock on the dot", "meaning_ar": "الساعة التاسعة تمامًا", "meaning_en": "exactly at 9", "example": "The bus leaves at 9 o'clock on the dot."},
+      {"phrase": "just in time", "meaning_ar": "في الوقت المناسب تمامًا (آخر لحظة)", "meaning_en": "at the last moment", "example": "We got there just in time for the plane."}
+    ],
+    "grammar": [
+      {"title": "Period words: throughout, during, within, between", "explanation_ar": "throughout + فترة = طوالها. during + فترة = في وقت ما خلالها. within + مدة = من الآن حتى نهايتها. between + وقت and + وقت = بين وقتين.", "explanation_en": "throughout + period = the whole time. during + period = at some time inside it. within + length of time = from now to the end. between + time and + time = between two times.", "examples": ["The shop is busy throughout the year.", "Please don't talk during the exam.", "Reply within 24 hours.", "Call me between 2 and 3."]},
+      {"title": "Approximate time: (at) around / (at) about", "explanation_ar": "around أو about أو at around أو at about + وقت = وقت تقريبي، وكلها صحيحة بنفس المعنى تقريبًا.", "explanation_en": "around / about / at around / at about + time = an approximate time. All are correct with almost the same meaning.", "examples": ["He should arrive around 9.", "I'll call you at about 6."]},
+      {"title": "Early, late and exact", "explanation_ar": "ahead of = مبكرًا (قبل). run out of time = لم يبقَ وقت. by the time = قبل (لا بعد). on the dot = بالضبط. just in time = في آخر لحظة.", "explanation_en": "ahead of = early (before). run out of time = no time left. by the time = before (not after). on the dot = exactly. just in time = at the last moment.", "examples": ["She finished ahead of schedule.", "By the time the store closes, be here.", "The meeting began at 10 on the dot."]}
+    ]
+  },
+  "questions": [
+    {"question": "They should be here ___ 5 and 6 p.m.", "choices": ["between", "within", "throughout", "during"], "answer": 0, "explanation_ar": "وقتان: between.", "explanation_en": "Two times: between."},
+    {"question": "James fell asleep ___ the meeting.", "choices": ["within", "during", "between", "ahead of"], "answer": 1, "explanation_ar": "في جزء من الاجتماع: during.", "explanation_en": "In part of the meeting: during."},
+    {"question": "The rain went on ___ the night, right up until the early morning.", "choices": ["during", "between", "throughout", "within"], "answer": 2, "explanation_ar": "طوال الليل حتى الصباح: throughout.", "explanation_en": "The whole night until morning: throughout."},
+    {"question": "The test was very difficult, and I ___ time.", "choices": ["ran ahead of", "ran within", "ran during", "ran out of"], "answer": 3, "explanation_ar": "لم يبقَ وقت: ran out of.", "explanation_en": "No time left: ran out of."},
+    {"question": "The ambulance will be there ___ ten minutes. (starting now)", "choices": ["within", "between", "throughout", "on the dot"], "answer": 0, "explanation_ar": "من الآن: within.", "explanation_en": "From now: within."},
+    {"question": "\"Come ahead of the others\" means come ___.", "choices": ["later", "early", "with them", "never"], "answer": 1, "explanation_ar": "ahead of = مبكرًا.", "explanation_en": "Ahead of = early."},
+    {"question": "\"At 9 o'clock on the dot\" means ___.", "choices": ["around 9", "after 9", "exactly at 9", "before 9"], "answer": 2, "explanation_ar": "بالضبط.", "explanation_en": "Exactly."},
+    {"question": "\"I'll be there at around 4.\" The time is ___.", "choices": ["exact", "in the past", "a deadline", "approximate"], "answer": 3, "explanation_ar": "around = تقريبي.", "explanation_en": "Around = approximate."},
+    {"question": "The simplest meaning of \"by the time\" is ___.", "choices": ["before", "after", "during", "exactly"], "answer": 0, "explanation_ar": "by the time = قبل.", "explanation_en": "By the time = before."},
+    {"question": "\"We caught the train just in time.\" means ___.", "choices": ["We were very early.", "We arrived at the last moment.", "We missed it.", "We waited a long time."], "answer": 1, "explanation_ar": "في آخر لحظة.", "explanation_en": "At the last moment."}
+  ]
+}

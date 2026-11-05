@@ -1,0 +1,573 @@
+{
+ "title": "What Will I Do?",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "Halloween",
+    "pos": "noun",
+    "meaning_en": "a holiday on October 31 when people wear costumes",
+    "meaning_ar": "الهالوين: مناسبة في 31 أكتوبر يلبس فيها الناس أزياء تنكرية",
+    "note_ar": "يُكتب بحرف كبير لأنه اسم مناسبة.",
+    "note_en": "Write it with a capital H.",
+    "example": "Halloween is very popular in the United States."
+   },
+   {
+    "word": "popular",
+    "pos": "adjective",
+    "meaning_en": "liked by many people",
+    "meaning_ar": "مشهور، يحبه كثير من الناس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Football is popular in my country."
+   },
+   {
+    "word": "trick-or-treat",
+    "pos": "verb",
+    "meaning_en": "(children) go from house to house on Halloween asking for candy",
+    "meaning_ar": "يطوف الأطفال على البيوت في الهالوين يطلبون الحلوى",
+    "note_ar": "يقول الأطفال عند الباب: Trick or treat!",
+    "note_en": "Children say \"Trick or treat!\" at each door.",
+    "example": "The children trick-or-treat in their street."
+   },
+   {
+    "word": "candy",
+    "pos": "noun",
+    "meaning_en": "sweets made of sugar",
+    "meaning_ar": "حلوى، سكاكر",
+    "note_ar": "candy في أمريكا، و sweets في بريطانيا.",
+    "note_en": "US: candy; UK: sweets.",
+    "example": "Don't eat too much candy."
+   },
+   {
+    "word": "adult",
+    "pos": "noun",
+    "meaning_en": "a grown-up person, not a child",
+    "meaning_ar": "شخص بالغ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "This book is for adults, not children."
+   },
+   {
+    "word": "costume",
+    "pos": "noun",
+    "meaning_en": "special clothes you wear to look like someone or something else",
+    "meaning_ar": "زي تنكري",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She made her own costume for the school play."
+   },
+   {
+    "word": "party",
+    "pos": "noun",
+    "meaning_en": "a social event where people meet and have fun",
+    "meaning_ar": "حفلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "We are having a party for my brother's birthday."
+   },
+   {
+    "word": "tonight",
+    "pos": "adverb",
+    "meaning_en": "this evening or night",
+    "meaning_ar": "الليلة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I will call you tonight."
+   },
+   {
+    "word": "genie",
+    "pos": "noun",
+    "meaning_en": "a magic spirit in old stories that can do wishes",
+    "meaning_ar": "جنّي (في الحكايات، مثل جنّي المصباح)",
+    "note_ar": "الكلمة أصلها من العربية «جنّي».",
+    "note_en": "The word comes from Arabic \"jinni\".",
+    "example": "In the story, the genie lives in a lamp."
+   },
+   {
+    "word": "dress as",
+    "pos": "phrase",
+    "meaning_en": "wear clothes to look like someone or something",
+    "meaning_ar": "يتنكّر في زيّ شخصية ما",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He wants to dress as a doctor."
+   },
+   {
+    "word": "trick",
+    "pos": "noun",
+    "meaning_en": "a clever or magic action that surprises people",
+    "meaning_ar": "خدعة، حيلة سحرية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My uncle showed us a card trick."
+   },
+   {
+    "word": "read minds",
+    "pos": "phrase",
+    "meaning_en": "know what other people are thinking",
+    "meaning_ar": "يقرأ الأفكار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I can't read minds. Please tell me what you want."
+   },
+   {
+    "word": "mind reader",
+    "pos": "noun",
+    "meaning_en": "a person who can know what others are thinking",
+    "meaning_ar": "قارئ أفكار",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Are you a mind reader? I wanted tea too!"
+   },
+   {
+    "word": "careful",
+    "pos": "adjective",
+    "meaning_en": "paying attention to avoid danger or mistakes",
+    "meaning_ar": "حذر، منتبه",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Be careful! The floor is wet."
+   },
+   {
+    "word": "go wrong",
+    "pos": "phrase",
+    "meaning_en": "have problems; not happen as planned",
+    "meaning_ar": "يحدث خطأ، تسوء الأمور",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Something went wrong with my phone."
+   },
+   {
+    "word": "fun",
+    "pos": "noun",
+    "meaning_en": "enjoyment; a good time",
+    "meaning_ar": "متعة، تسلية",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The trip was a lot of fun."
+   },
+   {
+    "word": "study",
+    "pos": "verb",
+    "meaning_en": "learn a subject at school or university",
+    "meaning_ar": "يدرس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I study English every evening."
+   },
+   {
+    "word": "junior",
+    "pos": "noun",
+    "meaning_en": "a student in the third year of a four-year college or high school (US)",
+    "meaning_ar": "طالب في السنة الثالثة (من أربع سنوات) في الجامعة",
+    "note_ar": "في أمريكا: freshman (1)، sophomore (2)، junior (3)، senior (4).",
+    "note_en": "US years: freshman, sophomore, junior, senior.",
+    "example": "My sister is a junior in college."
+   },
+   {
+    "word": "college",
+    "pos": "noun",
+    "meaning_en": "a university or school after high school",
+    "meaning_ar": "كلية، جامعة",
+    "note_ar": "في أمريكا college تعني غالباً الجامعة.",
+    "note_en": "In the US, \"college\" often means university.",
+    "example": "He goes to college in Texas."
+   },
+   {
+    "word": "journalism",
+    "pos": "noun",
+    "meaning_en": "the work of writing and reporting the news",
+    "meaning_ar": "الصحافة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "She wants to study journalism."
+   },
+   {
+    "word": "graduate",
+    "pos": "verb",
+    "meaning_en": "finish your studies and get a degree",
+    "meaning_ar": "يتخرّج",
+    "note_ar": "فعل graduate يُنطق /ˈɡrædʒueɪt/، والاسم graduate /ˈɡrædʒuət/.",
+    "note_en": "Verb: GRAD-yoo-ate; noun ends in \"-ut\".",
+    "example": "I will graduate next summer."
+   },
+   {
+    "word": "plan",
+    "pos": "noun",
+    "meaning_en": "something you decide to do in the future",
+    "meaning_ar": "خطة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My plan is to visit my grandparents."
+   },
+   {
+    "word": "job",
+    "pos": "noun",
+    "meaning_en": "work that you do for money",
+    "meaning_ar": "وظيفة، عمل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My brother has a new job at a bank."
+   },
+   {
+    "word": "news",
+    "pos": "noun",
+    "meaning_en": "information about recent events",
+    "meaning_ar": "الأخبار",
+    "note_ar": "news اسم مفرد رغم حرف s: The news is good.",
+    "note_en": "\"News\" is singular: The news is good.",
+    "example": "I watch the news every morning."
+   },
+   {
+    "word": "soon",
+    "pos": "adverb",
+    "meaning_en": "in a short time from now",
+    "meaning_ar": "قريباً",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The bus will come soon."
+   },
+   {
+    "word": "rock music",
+    "pos": "noun",
+    "meaning_en": "a type of loud popular music with guitars and drums",
+    "meaning_ar": "موسيقى الروك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My cousin listens to rock music."
+   },
+   {
+    "word": "rock star",
+    "pos": "noun",
+    "meaning_en": "a famous rock singer or musician",
+    "meaning_ar": "نجم روك",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He dressed as a rock star for the party."
+   },
+   {
+    "word": "ready",
+    "pos": "adjective",
+    "meaning_en": "prepared to do something",
+    "meaning_ar": "جاهز، مستعد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Are you ready for the test?"
+   },
+   {
+    "word": "might",
+    "pos": "modal verb",
+    "meaning_en": "used to say something is possible but not sure",
+    "meaning_ar": "قد، ربما (احتمال)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It might rain tomorrow."
+   },
+   {
+    "word": "will",
+    "pos": "modal verb",
+    "meaning_en": "used to talk about the future with certainty",
+    "meaning_ar": "سـ / سوف (للمستقبل)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I will help you."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "will vs might",
+    "words": [
+     "will",
+     "might"
+    ],
+    "explanation_ar": "will تعني أنك متأكد أن الشيء سيحدث في المستقبل. might تعني أنه ممكن أن يحدث وممكن لا (غير متأكد). لذلك غضبت ريبيكا عندما قالت آنا: You might get a job، لأن might تعني أيضاً «وقد لا تحصل».",
+    "explanation_en": "\"Will\" means you are sure something happens in the future. \"Might\" means it is possible, but you are not sure. That is why Rebecca was upset: \"might\" also means \"might not\".",
+    "examples": [
+     {
+      "word": "will",
+      "sentence": "I will call you after class."
+     },
+     {
+      "word": "will",
+      "sentence": "The shop will open at nine."
+     },
+     {
+      "word": "might",
+      "sentence": "I might call you tonight, or I might not."
+     },
+     {
+      "word": "might",
+      "sentence": "Take an umbrella. It might rain."
+     }
+    ]
+   },
+   {
+    "title": "won't vs might not",
+    "words": [
+     "won't",
+     "might not"
+    ],
+    "explanation_ar": "won't = will not: نفي مؤكد (لن). might not: نفي غير مؤكد (ربما لا).",
+    "explanation_en": "\"Won't\" (will not) is a sure no. \"Might not\" means maybe not.",
+    "examples": [
+     {
+      "word": "won't",
+      "sentence": "I won't be late. I promise."
+     },
+     {
+      "word": "might not",
+      "sentence": "I'm tired. I might not go to the party."
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "I might go. I might not go.",
+    "meaning_ar": "قد أذهب وقد لا أذهب.",
+    "meaning_en": "Maybe I will go, maybe I won't. I am not sure.",
+    "example": "\"Are you coming tomorrow?\" \"I might. I might not.\""
+   },
+   {
+    "phrase": "Can you help me?",
+    "meaning_ar": "هل يمكنك مساعدتي؟",
+    "meaning_en": "A polite way to ask for help.",
+    "example": "Can you help me with this bag?"
+   },
+   {
+    "phrase": "Great idea!",
+    "meaning_ar": "فكرة رائعة!",
+    "meaning_en": "You say this when you like someone's suggestion.",
+    "example": "\"Let's eat outside.\" \"Great idea!\""
+   },
+   {
+    "phrase": "Be careful!",
+    "meaning_ar": "انتبه! كن حذراً!",
+    "meaning_en": "A warning to pay attention.",
+    "example": "Be careful! The plate is hot."
+   },
+   {
+    "phrase": "Things might go wrong.",
+    "meaning_ar": "قد تسوء الأمور.",
+    "meaning_en": "There may be problems.",
+    "example": "Check your bag. Things might go wrong on the trip."
+   },
+   {
+    "phrase": "What can go wrong?",
+    "meaning_ar": "ماذا يمكن أن يحدث من خطأ؟",
+    "meaning_en": "You think there is no danger (often said before a problem!).",
+    "example": "It's an easy job. What can go wrong?"
+   },
+   {
+    "phrase": "Don't worry!",
+    "meaning_ar": "لا تقلق!",
+    "meaning_en": "Do not feel nervous; everything is fine.",
+    "example": "Don't worry! I have the keys."
+   },
+   {
+    "phrase": "Tell me what I am thinking.",
+    "meaning_ar": "قل لي بماذا أفكر.",
+    "meaning_en": "Asking someone to guess your thoughts.",
+    "example": "You know me well. Tell me what I am thinking."
+   },
+   {
+    "phrase": "That's the plan.",
+    "meaning_ar": "هذه هي الخطة.",
+    "meaning_en": "Yes, that is what I want to do.",
+    "example": "\"You will finish at five?\" \"That's the plan.\""
+   },
+   {
+    "phrase": "Happy to help!",
+    "meaning_ar": "يسعدني أن أساعد!",
+    "meaning_en": "A friendly reply when you help someone.",
+    "example": "\"Thanks for the ride.\" \"Happy to help!\""
+   },
+   {
+    "phrase": "What's wrong?",
+    "meaning_ar": "ما المشكلة؟ ما بك؟",
+    "meaning_en": "Asking about a problem.",
+    "example": "You look sad. What's wrong?"
+   },
+   {
+    "phrase": "You read my mind!",
+    "meaning_ar": "قرأت أفكاري!",
+    "meaning_en": "You said exactly what I was thinking.",
+    "example": "\"Do you want some tea?\" \"Yes! You read my mind!\""
+   },
+   {
+    "phrase": "Good luck!",
+    "meaning_ar": "حظاً سعيداً!",
+    "meaning_en": "Said to someone before something difficult.",
+    "example": "You have an exam today? Good luck!"
+   },
+   {
+    "phrase": "Have fun!",
+    "meaning_ar": "استمتع!",
+    "meaning_en": "Enjoy yourself.",
+    "example": "Have fun at the beach!"
+   },
+   {
+    "phrase": "Until next time!",
+    "meaning_ar": "إلى اللقاء في المرة القادمة!",
+    "meaning_en": "Goodbye until we meet again.",
+    "example": "That's all for today. Until next time!"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Future with will",
+    "explanation_ar": "نستخدم will + الفعل في المصدر (بدون to) للحديث عن المستقبل عندما نكون متأكدين. will لا تتغير مع الضمائر: I will, she will, they will. الاختصار: I'll, you'll. النفي: will not = won't. السؤال: نقدم will: Will you come?",
+    "explanation_en": "Use will + base verb to talk about the future when you are sure. \"Will\" is the same for all subjects. Short forms: I'll, you'll. Negative: will not = won't. Question: put will first: Will you come?",
+    "examples": [
+     "You will get a job writing the news.",
+     "She won't say no.",
+     "Will you help me tomorrow?",
+     "I'll call you later."
+    ]
+   },
+   {
+    "title": "Possibility with might",
+    "explanation_ar": "نستخدم might + الفعل في المصدر عندما يكون الشيء ممكناً لكن غير مؤكد. النفي: might not (عادة بدون اختصار). might أيضاً لا تتغير مع الضمائر ولا نضيف لها s.",
+    "explanation_en": "Use might + base verb when something is possible but not sure. Negative: might not. \"Might\" never changes and never takes -s.",
+    "examples": [
+     "I might go to the party.",
+     "He might not come today.",
+     "It might be cold tonight.",
+     "We might play some music."
+    ]
+   },
+   {
+    "title": "Short answers and tag questions with will",
+    "explanation_ar": "في الإجابات القصيرة نكرر will فقط: Will you go? – Yes, I will. / No, I won't. وفي الأسئلة الذيلية: إذا كانت الجملة مثبتة نستخدم won't في الذيل، وإذا كانت منفية نستخدم will: I will have a wedding, won't I? / She won't say no, will she?",
+    "explanation_en": "In short answers repeat only \"will\": Yes, I will. / No, I won't. In tag questions, a positive sentence takes \"won't...?\" and a negative sentence takes \"will...?\".",
+    "examples": [
+     "\"Will you be careful?\" \"Yes, I will.\"",
+     "You will come, won't you?",
+     "It won't rain, will it?"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "Which sentence means you are SURE?",
+   "choices": [
+    "I might go.",
+    "I will go.",
+    "I might not go.",
+    "Maybe I go."
+   ],
+   "answer": 1,
+   "explanation_ar": "will تعبر عن التأكد، أما might فتعبر عن الاحتمال.",
+   "explanation_en": "\"Will\" shows you are sure; \"might\" shows only a possibility."
+  },
+  {
+   "question": "Take an umbrella. It ___ rain this afternoon (it is possible).",
+   "choices": [
+    "might",
+    "won't",
+    "is",
+    "will not"
+   ],
+   "answer": 0,
+   "explanation_ar": "might للاحتمال: قد تمطر.",
+   "explanation_en": "\"Might\" shows something is possible."
+  },
+  {
+   "question": "What is a \"costume\"?",
+   "choices": [
+    "a kind of candy",
+    "a party room",
+    "special clothes to look like someone else",
+    "a magic trick"
+   ],
+   "answer": 2,
+   "explanation_ar": "costume هو زي تنكري.",
+   "explanation_en": "A costume is special clothes you wear to look like someone or something else."
+  },
+  {
+   "question": "Choose the correct sentence.",
+   "choices": [
+    "She wills graduate next year.",
+    "She will graduates next year.",
+    "She will to graduate next year.",
+    "She will graduate next year."
+   ],
+   "answer": 3,
+   "explanation_ar": "بعد will يأتي الفعل في المصدر بدون to وبدون s، وwill نفسها لا تأخذ s.",
+   "explanation_en": "After \"will\" use the base verb: no \"to\", no \"-s\"."
+  },
+  {
+   "question": "What is the short form of \"will not\"?",
+   "choices": [
+    "won't",
+    "willn't",
+    "wont'",
+    "will'nt"
+   ],
+   "answer": 0,
+   "explanation_ar": "الاختصار الصحيح هو won't.",
+   "explanation_en": "The short form is \"won't\"."
+  },
+  {
+   "question": "Rebecca is a \"junior in college\". This means she is in ___.",
+   "choices": [
+    "her first year",
+    "her third year",
+    "her last exam",
+    "high school only"
+   ],
+   "answer": 1,
+   "explanation_ar": "junior طالب في السنة الثالثة من أربع سنوات.",
+   "explanation_en": "A junior is in the third year of a four-year college."
+  },
+  {
+   "question": "She won't say no, ___?",
+   "choices": [
+    "won't she",
+    "does she",
+    "will she",
+    "might she"
+   ],
+   "answer": 2,
+   "explanation_ar": "الجملة منفية (won't) فالذيل يكون مثبتاً: will she?",
+   "explanation_en": "The sentence is negative, so the tag is positive: will she?"
+  },
+  {
+   "question": "\"Do you want a cup of tea?\" \"Yes! You ___ my mind!\"",
+   "choices": [
+    "read",
+    "told",
+    "wrote",
+    "made"
+   ],
+   "answer": 0,
+   "explanation_ar": "You read my mind تعني قلت ما كنت أفكر فيه.",
+   "explanation_en": "\"You read my mind\" means you knew what I was thinking."
+  },
+  {
+   "question": "A person who studies journalism wants to ___.",
+   "choices": [
+    "cook food",
+    "fix cars",
+    "write and report the news",
+    "teach music"
+   ],
+   "answer": 2,
+   "explanation_ar": "journalism هي الصحافة: كتابة الأخبار ونقلها.",
+   "explanation_en": "Journalism is the work of writing and reporting the news."
+  },
+  {
+   "question": "\"Will you be careful?\" Choose the correct short answer.",
+   "choices": [
+    "Yes, I might.",
+    "Yes, I am.",
+    "Yes, I do.",
+    "Yes, I will."
+   ],
+   "answer": 3,
+   "explanation_ar": "في الإجابة القصيرة نكرر الفعل المساعد will: Yes, I will.",
+   "explanation_en": "Repeat \"will\" in the short answer: Yes, I will."
+  }
+ ]
+}

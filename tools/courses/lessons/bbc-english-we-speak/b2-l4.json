@@ -1,0 +1,397 @@
+{
+ "title": "Expressions with 'on' and 'off'",
+ "content": {
+  "vocabulary": [
+   {
+    "word": "advantage",
+    "pos": "noun",
+    "meaning_en": "something that helps you; take advantage = use a chance",
+    "meaning_ar": "ميزة؛ استغلال فرصة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Take advantage of the sunny weather and go outside."
+   },
+   {
+    "word": "demand",
+    "pos": "noun",
+    "meaning_en": "the need or wish of people to buy something",
+    "meaning_ar": "طلب (على سلعة)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There is a big demand for electric cars."
+   },
+   {
+    "word": "praise",
+    "pos": "verb",
+    "meaning_en": "to say good things about someone",
+    "meaning_ar": "يمدح، يُثني على",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The teacher praised my essay."
+   },
+   {
+    "word": "exaggerate",
+    "pos": "verb",
+    "meaning_en": "to make something sound bigger or better than it is",
+    "meaning_ar": "يبالغ",
+    "note_ar": "النبر على المقطع الثاني: ex-AG-ger-ate.",
+    "note_en": "Stress: ex-AG-ger-ate.",
+    "example": "Don't exaggerate – it wasn't that bad!"
+   },
+   {
+    "word": "trowel",
+    "pos": "noun",
+    "meaning_en": "a small tool for spreading cement or digging",
+    "meaning_ar": "مِسَطرين، مجرفة صغيرة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The builder used a trowel."
+   },
+   {
+    "word": "cuff",
+    "pos": "noun",
+    "meaning_en": "the end part of a shirt sleeve",
+    "meaning_ar": "كُمّ القميص (طرفه)",
+    "note_ar": "",
+    "note_en": "",
+    "example": "There is a button on each cuff."
+   },
+   {
+    "word": "prepare",
+    "pos": "verb",
+    "meaning_en": "to get ready for something",
+    "meaning_ar": "يُحضِّر، يستعد",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I need to prepare for my speech."
+   },
+   {
+    "word": "scale",
+    "pos": "noun",
+    "meaning_en": "a range of numbers used to measure something",
+    "meaning_ar": "مقياس",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Rate the film on a scale of 1 to 10."
+   },
+   {
+    "word": "fault",
+    "pos": "noun",
+    "meaning_en": "responsibility for a mistake",
+    "meaning_ar": "خطأ، ذنب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "It's my fault we were late."
+   },
+   {
+    "word": "improvise",
+    "pos": "verb",
+    "meaning_en": "to do something without planning it first",
+    "meaning_ar": "يرتجل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "I forgot my notes, so I had to improvise."
+   },
+   {
+    "word": "stony",
+    "pos": "adjective",
+    "meaning_en": "full of stones",
+    "meaning_ar": "حجري، مليء بالحجارة",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Nothing grows in this stony field."
+   },
+   {
+    "word": "suggestion",
+    "pos": "noun",
+    "meaning_en": "an idea that you offer to others",
+    "meaning_ar": "اقتراح",
+    "note_ar": "",
+    "note_en": "",
+    "example": "Do you have any suggestions for the trip?"
+   },
+   {
+    "word": "ignore",
+    "pos": "verb",
+    "meaning_en": "to pay no attention to something",
+    "meaning_ar": "يتجاهل",
+    "note_ar": "",
+    "note_en": "",
+    "example": "He ignored my message."
+   },
+   {
+    "word": "tease",
+    "pos": "verb",
+    "meaning_en": "to laugh at someone in a playful way",
+    "meaning_ar": "يمازح، يُغيظ",
+    "note_ar": "",
+    "note_en": "",
+    "example": "My brother likes to tease me about my hair."
+   },
+   {
+    "word": "unpopular",
+    "pos": "adjective",
+    "meaning_en": "not liked by many people",
+    "meaning_ar": "غير محبوب",
+    "note_ar": "",
+    "note_en": "",
+    "example": "The new rule is unpopular with students."
+   }
+  ],
+  "fine_lines": [
+   {
+    "title": "off the cuff vs on the fly",
+    "words": [
+     "off the cuff",
+     "on the fly"
+    ],
+    "explanation_ar": "off the cuff: تقول شيئاً دون تحضير مسبق (كلام، خطاب، تعليق). on the fly: تقرّر وتتصرّف أثناء قيامك بالعمل نفسه، مع تعديل الخطة وأنت تتحرك.",
+    "explanation_en": "'Off the cuff' means saying something without preparing it (a speech, a comment). 'On the fly' means deciding and changing things while you are already doing them.",
+    "examples": [
+     {
+      "word": "off the cuff",
+      "sentence": "He gave an off-the-cuff speech at the dinner."
+     },
+     {
+      "word": "on the fly",
+      "sentence": "We changed the route on the fly because of traffic."
+     }
+    ]
+   },
+   {
+    "title": "that's on you vs this is on me",
+    "words": [
+     "that's on you",
+     "this is on me"
+    ],
+    "explanation_ar": "that's on you = هذا خطؤك ومسؤوليتك. أما this is on me فتعني «أنا سأدفع» (الطعام أو الشراب).",
+    "explanation_en": "'That's on you' means it's your fault. 'This is on me' means 'I will pay' (usually for food or drinks).",
+    "examples": [
+     {
+      "word": "that's on you",
+      "sentence": "You didn't check the time, so missing the train is on you."
+     },
+     {
+      "word": "this is on me",
+      "sentence": "Put your wallet away – lunch is on me."
+     }
+    ]
+   },
+   {
+    "title": "lay it on thick vs have someone on",
+    "words": [
+     "lay it on thick",
+     "have someone on"
+    ],
+    "explanation_ar": "lay it on thick: تبالغ في المديح أو المشاعر. have someone on: تمازح شخصاً وتجعله يصدق شيئاً غير صحيح.",
+    "explanation_en": "'Lay it on thick' means to praise too much or exaggerate feelings. 'Have someone on' means to joke and make someone believe something untrue.",
+    "examples": [
+     {
+      "word": "lay it on thick",
+      "sentence": "OK, you like my cake – no need to lay it on so thick!"
+     },
+     {
+      "word": "have someone on",
+      "sentence": "You won a trip to the moon? You're having me on!"
+     }
+    ]
+   }
+  ],
+  "expressions": [
+   {
+    "phrase": "cash in on something",
+    "meaning_ar": "يستغل وضعاً أو فرصة لكسب المال",
+    "meaning_en": "to use a situation to make money",
+    "example": "The shop cashed in on the hot weather by selling cheap fans."
+   },
+   {
+    "phrase": "lay it on thick",
+    "meaning_ar": "يبالغ في المديح أو في إظهار المشاعر",
+    "meaning_en": "to praise someone too much or exaggerate a feeling",
+    "example": "He said I was the best cook in the world – he was laying it on a bit thick."
+   },
+   {
+    "phrase": "lay it on with a trowel",
+    "meaning_ar": "يبالغ جداً (صيغة أقل شيوعاً من lay it on thick)",
+    "meaning_en": "a less common form of 'lay it on thick'",
+    "example": "In her thank-you speech, she really laid it on with a trowel."
+   },
+   {
+    "phrase": "off the cuff",
+    "meaning_ar": "دون تحضير، ارتجالاً",
+    "meaning_en": "without preparation",
+    "example": "I had to answer the question off the cuff."
+   },
+   {
+    "phrase": "off the scale",
+    "meaning_ar": "أكثر بكثير من المتوقع، فوق كل المقاييس",
+    "meaning_en": "extremely high; much more than expected",
+    "example": "The noise from the crowd was off the scale."
+   },
+   {
+    "phrase": "that's on you / it's on you",
+    "meaning_ar": "هذا خطؤك ومسؤوليتك",
+    "meaning_en": "it's your fault or your responsibility",
+    "example": "I told you to bring an umbrella. If you get wet, that's on you."
+   },
+   {
+    "phrase": "this is on me",
+    "meaning_ar": "أنا سأدفع الحساب",
+    "meaning_en": "I will pay for this",
+    "example": "Don't worry about the bill – this is on me."
+   },
+   {
+    "phrase": "on the fly",
+    "meaning_ar": "أثناء العمل نفسه، بسرعة ودون تخطيط مسبق",
+    "meaning_en": "deciding or doing something while you are already busy doing it, without planning",
+    "example": "I didn't have a plan, so I made the decisions on the fly."
+   },
+   {
+    "phrase": "fall on stony ground",
+    "meaning_ar": "يُقابَل الاقتراح أو الفكرة بالرفض أو التجاهل",
+    "meaning_en": "when an idea or suggestion is ignored or not welcomed",
+    "example": "My idea of a Saturday class fell on stony ground."
+   },
+   {
+    "phrase": "have someone on",
+    "meaning_ar": "يمازح شخصاً ويجعله يصدق شيئاً غير صحيح",
+    "meaning_en": "to joke with someone by making them believe something untrue",
+    "example": "You've met the king? Are you having me on?"
+   }
+  ],
+  "grammar": [
+   {
+    "title": "Fixed prepositions in idioms: on / off",
+    "explanation_ar": "في التعابير الاصطلاحية لا نغيّر حرف الجر: off the cuff (وليس on the cuff)، on the fly، off the scale. بعض التعابير تقبل مفعولاً: cash in on + شيء، have + شخص + on: He's having me on. ويمكن أن يأتي off-the-cuff صفة قبل الاسم مع الشرطات: an off-the-cuff remark.",
+    "explanation_en": "Prepositions in idioms are fixed: 'off the cuff' (not 'on the cuff'), 'on the fly', 'off the scale'. Some idioms take an object: cash in on + something; have + person + on: He's having me on. Before a noun, use hyphens: an off-the-cuff remark.",
+    "examples": [
+     "She made an off-the-cuff remark.",
+     "They cashed in on the trend.",
+     "Are you having me on?"
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "'I'll pay for dinner.' Which expression means the same?",
+   "choices": [
+    "That's on you.",
+    "This is on me.",
+    "It's off the scale.",
+    "I'm having you on."
+   ],
+   "answer": 1,
+   "explanation_ar": "this is on me = أنا سأدفع.",
+   "explanation_en": "'This is on me' means I will pay."
+  },
+  {
+   "question": "He spoke without any notes or preparation. He spoke ___.",
+   "choices": [
+    "off the cuff",
+    "on stony ground",
+    "off the scale",
+    "on you"
+   ],
+   "answer": 0,
+   "explanation_ar": "off the cuff = دون تحضير.",
+   "explanation_en": "'Off the cuff' means without preparation."
+  },
+  {
+   "question": "'The celebrations were off the scale.' What does it mean?",
+   "choices": [
+    "They were very small.",
+    "They were cancelled.",
+    "They were much bigger than expected.",
+    "They were measured."
+   ],
+   "answer": 2,
+   "explanation_ar": "off the scale = فوق المتوقع بكثير.",
+   "explanation_en": "'Off the scale' means far beyond what was expected."
+  },
+  {
+   "question": "Companies often ___ popular events by selling special products.",
+   "choices": [
+    "have on",
+    "lay on",
+    "fall on",
+    "cash in on"
+   ],
+   "answer": 3,
+   "explanation_ar": "cash in on = يستغل الفرصة لكسب المال.",
+   "explanation_en": "'Cash in on' means use a situation to make money."
+  },
+  {
+   "question": "'You've won a free car? You're having me on!' The speaker thinks...",
+   "choices": [
+    "it is a joke and not true.",
+    "it is a big problem.",
+    "the car is on him.",
+    "he will pay."
+   ],
+   "answer": 0,
+   "explanation_ar": "have someone on = يمازحه بشيء غير صحيح.",
+   "explanation_en": "'Have someone on' means joke by saying something untrue."
+  },
+  {
+   "question": "My suggestion to start work at 6 am ___. Nobody liked it.",
+   "choices": [
+    "fell on stony ground",
+    "was off the cuff",
+    "was on me",
+    "was laid on thick"
+   ],
+   "answer": 0,
+   "explanation_ar": "fall on stony ground = تُرفض الفكرة أو تُتجاهل.",
+   "explanation_en": "'Fall on stony ground' means the idea is ignored or disliked."
+  },
+  {
+   "question": "Which sentence means 'it's your fault'?",
+   "choices": [
+    "This is on me.",
+    "It's off the scale.",
+    "That's on you.",
+    "We did it on the fly."
+   ],
+   "answer": 2,
+   "explanation_ar": "that's on you = هذا خطؤك.",
+   "explanation_en": "'That's on you' means it's your fault."
+  },
+  {
+   "question": "'You're the cleverest, kindest, most wonderful boss ever!' This person is ___.",
+   "choices": [
+    "falling on stony ground",
+    "cashing in",
+    "off the cuff",
+    "laying it on thick"
+   ],
+   "answer": 3,
+   "explanation_ar": "lay it on thick = يبالغ في المديح.",
+   "explanation_en": "'Lay it on thick' means praising too much."
+  },
+  {
+   "question": "We didn't have a plan, so we made changes ___.",
+   "choices": [
+    "on the fly",
+    "on stony ground",
+    "off the scale",
+    "on me"
+   ],
+   "answer": 0,
+   "explanation_ar": "on the fly = أثناء العمل ودون تخطيط.",
+   "explanation_en": "'On the fly' means while doing it, without planning."
+  },
+  {
+   "question": "Which is correct before a noun?",
+   "choices": [
+    "an off the cuff's remark",
+    "an off-the-cuff remark",
+    "a cuff-off remark",
+    "an on-the-cuff remark"
+   ],
+   "answer": 1,
+   "explanation_ar": "قبل الاسم نستخدم الشرطات: an off-the-cuff remark.",
+   "explanation_en": "Before a noun we use hyphens: an off-the-cuff remark."
+  }
+ ]
+}

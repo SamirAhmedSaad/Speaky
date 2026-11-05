@@ -1,0 +1,446 @@
+{
+  "title": "Small Talk at the Library",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "library",
+        "pos": "noun",
+        "meaning_en": "a place where you can read and borrow books",
+        "meaning_ar": "مكتبة (عامة)",
+        "note_ar": "bookshop = متجر كتب",
+        "note_en": "A bookshop sells books; a library lends them.",
+        "example": "I study at the library."
+      },
+      {
+        "word": "exam",
+        "pos": "noun",
+        "meaning_en": "an important test",
+        "meaning_ar": "امتحان",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have a math exam tomorrow."
+      },
+      {
+        "word": "prepare",
+        "pos": "verb",
+        "meaning_en": "get ready for something",
+        "meaning_ar": "يستعدّ / يحضّر",
+        "note_ar": "prepare for an exam",
+        "note_en": "prepare for an exam",
+        "example": "She is preparing for her exam."
+      },
+      {
+        "word": "history",
+        "pos": "noun",
+        "meaning_en": "the study of past events",
+        "meaning_ar": "التاريخ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "History is my favorite subject."
+      },
+      {
+        "word": "test",
+        "pos": "noun",
+        "meaning_en": "a short exam",
+        "meaning_ar": "اختبار",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a spelling test on Monday."
+      },
+      {
+        "word": "difficult",
+        "pos": "adjective",
+        "meaning_en": "not easy",
+        "meaning_ar": "صعب",
+        "note_ar": "الضد: easy",
+        "note_en": "Opposite: easy.",
+        "example": "This question is difficult."
+      },
+      {
+        "word": "remember",
+        "pos": "verb",
+        "meaning_en": "keep something in your mind",
+        "meaning_ar": "يتذكّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I can't remember his name."
+      },
+      {
+        "word": "organize",
+        "pos": "verb",
+        "meaning_en": "put things in order",
+        "meaning_ar": "ينظّم / يرتّب",
+        "note_ar": "في بريطانيا: organise",
+        "note_en": "UK: organise.",
+        "example": "I organize my books every week."
+      },
+      {
+        "word": "notes",
+        "pos": "noun",
+        "meaning_en": "short pieces of writing to help you remember",
+        "meaning_ar": "ملاحظات",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can I borrow your notes?"
+      },
+      {
+        "word": "twice",
+        "pos": "adverb",
+        "meaning_en": "two times",
+        "meaning_ar": "مرتين",
+        "note_ar": "once = مرة، twice = مرتين، three times = ثلاث مرات",
+        "note_en": "once, twice, three times",
+        "example": "I go to the gym twice a week."
+      },
+      {
+        "word": "neighborhood",
+        "pos": "noun",
+        "meaning_en": "the area around your home",
+        "meaning_ar": "الحيّ",
+        "note_ar": "في بريطانيا: neighbourhood",
+        "note_en": "UK: neighbourhood.",
+        "example": "Our neighborhood is quiet."
+      },
+      {
+        "word": "grocery store",
+        "pos": "noun",
+        "meaning_en": "a shop that sells food and things for the home",
+        "meaning_ar": "بقالة / متجر مواد غذائية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I buy milk at the grocery store."
+      },
+      {
+        "word": "groceries",
+        "pos": "noun",
+        "meaning_en": "food and things you buy for the home",
+        "meaning_ar": "مشتريات البقالة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I carry the groceries home."
+      },
+      {
+        "word": "convenient",
+        "pos": "adjective",
+        "meaning_en": "easy and useful for you",
+        "meaning_ar": "مناسب / ملائم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The bus stop is in a convenient place."
+      },
+      {
+        "word": "location",
+        "pos": "noun",
+        "meaning_en": "a place or position",
+        "meaning_ar": "موقع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The hotel has a great location."
+      },
+      {
+        "word": "full-time",
+        "pos": "adjective",
+        "meaning_en": "working or studying all the normal hours",
+        "meaning_ar": "بدوام كامل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My brother has a full-time job."
+      },
+      {
+        "word": "part-time",
+        "pos": "adjective",
+        "meaning_en": "working only some hours or days",
+        "meaning_ar": "بدوام جزئي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She works part-time at a bookshop."
+      },
+      {
+        "word": "gain",
+        "pos": "verb",
+        "meaning_en": "get something useful, like experience",
+        "meaning_ar": "يكتسب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "You can gain experience at work."
+      },
+      {
+        "word": "experience",
+        "pos": "noun",
+        "meaning_en": "knowledge you get from doing something",
+        "meaning_ar": "خبرة",
+        "note_ar": "غير معدودة بهذا المعنى",
+        "note_en": "Uncountable in this meaning.",
+        "example": "He has work experience in sales."
+      },
+      {
+        "word": "laptop",
+        "pos": "noun",
+        "meaning_en": "a small computer you can carry",
+        "meaning_ar": "حاسوب محمول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I need a new laptop for school."
+      },
+      {
+        "word": "city center",
+        "pos": "noun",
+        "meaning_en": "the middle part of a city, with many shops",
+        "meaning_ar": "وسط المدينة",
+        "note_ar": "في بريطانيا: city centre",
+        "note_en": "UK: city centre.",
+        "example": "The museum is in the city center."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "full-time vs part-time",
+        "words": [
+          "full-time",
+          "part-time"
+        ],
+        "explanation_ar": "full-time تعني بدوام كامل (كل الساعات العادية)، و part-time تعني بدوام جزئي (بعض الساعات أو الأيام).",
+        "explanation_en": "Full-time is all normal working hours. Part-time is only some hours or days.",
+        "examples": [
+          {
+            "word": "full-time",
+            "sentence": "He is a full-time student."
+          },
+          {
+            "word": "part-time",
+            "sentence": "I have a part-time job on weekends."
+          }
+        ]
+      },
+      {
+        "title": "exam vs test",
+        "words": [
+          "exam",
+          "test"
+        ],
+        "explanation_ar": "exam امتحان كبير ومهم (مثل امتحان نهاية العام)، و test اختبار أقصر وأصغر عادة.",
+        "explanation_en": "An exam is big and important. A test is usually shorter.",
+        "examples": [
+          {
+            "word": "exam",
+            "sentence": "The final exam is in June."
+          },
+          {
+            "word": "test",
+            "sentence": "We have a short test every Friday."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Is anyone sitting here?",
+        "meaning_ar": "هل يجلس أحد هنا؟",
+        "meaning_en": "Ask politely if a seat is free.",
+        "example": "Excuse me, is anyone sitting here?"
+      },
+      {
+        "phrase": "No, nobody is sitting here. You can sit down.",
+        "meaning_ar": "لا، لا أحد يجلس هنا. يمكنك الجلوس.",
+        "meaning_en": "Say a seat is free.",
+        "example": "No, nobody is sitting here. Please sit down."
+      },
+      {
+        "phrase": "Are you studying for an exam?",
+        "meaning_ar": "هل تذاكر لامتحان؟",
+        "meaning_en": "Start small talk with a student.",
+        "example": "You have many books. Are you studying for an exam?"
+      },
+      {
+        "phrase": "Do you come to this library very often?",
+        "meaning_ar": "هل تأتي إلى هذه المكتبة كثيرًا؟",
+        "meaning_en": "Ask how often someone comes.",
+        "example": "Do you come here very often? Twice a week."
+      },
+      {
+        "phrase": "What a small world!",
+        "meaning_ar": "ما أصغر العالم!",
+        "meaning_en": "Say this when you find a surprising connection with someone.",
+        "example": "You live on my street? What a small world!"
+      },
+      {
+        "phrase": "Are you working or studying full-time?",
+        "meaning_ar": "هل تعمل أو تدرس بدوام كامل؟",
+        "meaning_en": "Ask about someone's work or study.",
+        "example": "Are you working or studying full-time? I'm a full-time student."
+      },
+      {
+        "phrase": "It's good to gain work experience.",
+        "meaning_ar": "من الجيد أن تكتسب خبرة عملية.",
+        "meaning_en": "Say work helps you learn.",
+        "example": "My summer job was hard, but it's good to gain work experience."
+      },
+      {
+        "phrase": "You should visit my store when you have time.",
+        "meaning_ar": "يجب أن تزور متجري عندما يكون لديك وقت.",
+        "meaning_en": "Invite someone politely.",
+        "example": "You should visit my store when you have time."
+      },
+      {
+        "phrase": "That's a good idea!",
+        "meaning_ar": "هذه فكرة جيدة!",
+        "meaning_en": "Agree with a suggestion.",
+        "example": "Let's study together. That's a good idea!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "How often? — frequency words",
+        "explanation_ar": "لنقول كم مرة نفعل شيئًا: once a week (مرة في الأسبوع)، twice a week (مرتين)، every Sunday (كل أحد)، on weekends (في عطلات نهاية الأسبوع). وكلمات مثل usually و often تأتي قبل الفعل.",
+        "explanation_en": "To say how often: once a week, twice a week, every Sunday, on weekends. Usually and often go before the verb.",
+        "examples": [
+          "I come here twice a week.",
+          "I usually come here on weekends.",
+          "I buy groceries there every Sunday."
+        ]
+      },
+      {
+        "title": "Present continuous for now: \"I'm trying to...\"",
+        "explanation_ar": "نستخدم am/is/are + فعل ينتهي بـ ing لشيء يحدث الآن: I'm reading a book. Are you studying for an exam?",
+        "explanation_en": "Use am/is/are + verb-ing for things happening now.",
+        "examples": [
+          "Are you studying for an exam?",
+          "I'm reading a book for my English class.",
+          "Nobody is sitting here."
+        ]
+      },
+      {
+        "title": "Prepositions of place: near, behind",
+        "explanation_ar": "near تعني قريب من، و behind تعني خلف: I live near the park, behind the grocery store.",
+        "explanation_en": "near = close to; behind = at the back of.",
+        "examples": [
+          "I live near the park.",
+          "My house is behind the grocery store.",
+          "The store is near the city center."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Excuse me, is anyone ___ here?",
+      "choices": [
+        "sit",
+        "sitting",
+        "sits",
+        "sat"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع is نستخدم الفعل مع ing: is anyone sitting.",
+      "explanation_en": "After \"is\" use verb-ing: sitting."
+    },
+    {
+      "question": "\"Twice a week\" means...",
+      "choices": [
+        "one time a week",
+        "two times a week",
+        "every day",
+        "never"
+      ],
+      "answer": 1,
+      "explanation_ar": "twice تعني مرتين.",
+      "explanation_en": "Twice means two times."
+    },
+    {
+      "question": "I live ___ the park. I can walk here easily.",
+      "choices": [
+        "near",
+        "under",
+        "on",
+        "at"
+      ],
+      "answer": 0,
+      "explanation_ar": "near تعني قريب من.",
+      "explanation_en": "Near means close to."
+    },
+    {
+      "question": "A shop that sells food for the home is a ___.",
+      "choices": [
+        "library",
+        "laptop",
+        "grocery store",
+        "city center"
+      ],
+      "answer": 2,
+      "explanation_ar": "grocery store هو متجر البقالة.",
+      "explanation_en": "A grocery store sells food."
+    },
+    {
+      "question": "Your new friend lives on your street. You say:",
+      "choices": [
+        "What a small world!",
+        "Is anyone sitting here?",
+        "I need a laptop.",
+        "History can be difficult."
+      ],
+      "answer": 0,
+      "explanation_ar": "What a small world نقولها عند اكتشاف صلة مفاجئة.",
+      "explanation_en": "We say it when we find a surprising connection."
+    },
+    {
+      "question": "I only work two days a week. I have a ___ job.",
+      "choices": [
+        "full-time",
+        "difficult",
+        "convenient",
+        "part-time"
+      ],
+      "answer": 3,
+      "explanation_ar": "العمل يومين في الأسبوع دوام جزئي part-time.",
+      "explanation_en": "Two days a week is part-time."
+    },
+    {
+      "question": "I ___ come here on weekends.",
+      "choices": [
+        "usually",
+        "usual",
+        "usualy",
+        "use"
+      ],
+      "answer": 0,
+      "explanation_ar": "usually ظرف يأتي قبل الفعل.",
+      "explanation_en": "\"Usually\" goes before the verb."
+    },
+    {
+      "question": "Which word means \"not easy\"?",
+      "choices": [
+        "convenient",
+        "difficult",
+        "nice",
+        "full-time"
+      ],
+      "answer": 1,
+      "explanation_ar": "difficult تعني صعب.",
+      "explanation_en": "Difficult means not easy."
+    },
+    {
+      "question": "It's good to ___ work experience.",
+      "choices": [
+        "gain",
+        "sit",
+        "remember",
+        "walk"
+      ],
+      "answer": 0,
+      "explanation_ar": "gain experience = يكتسب خبرة.",
+      "explanation_en": "We say \"gain experience\"."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I am read a book now.",
+        "I reading a book now.",
+        "I'm reading a book now.",
+        "I reads a book now."
+      ],
+      "answer": 2,
+      "explanation_ar": "المضارع المستمر: I'm + فعل ing.",
+      "explanation_en": "Present continuous: I'm + verb-ing."
+    }
+  ]
+}

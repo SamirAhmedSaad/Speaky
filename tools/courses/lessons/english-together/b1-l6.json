@@ -1,0 +1,467 @@
+{
+  "title": "Meeting New People",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "line",
+        "pos": "noun",
+        "meaning_en": "people waiting one behind another",
+        "meaning_ar": "طابور / صف انتظار",
+        "note_ar": "في بريطانيا: queue",
+        "note_en": "UK: queue.",
+        "example": "There is a long line at the bank."
+      },
+      {
+        "word": "busy",
+        "pos": "adjective",
+        "meaning_en": "full of people; with a lot happening",
+        "meaning_ar": "مزدحم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The shop is busy on Friday."
+      },
+      {
+        "word": "often",
+        "pos": "adverb",
+        "meaning_en": "many times",
+        "meaning_ar": "غالبًا / كثيرًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you come here often?"
+      },
+      {
+        "word": "first time",
+        "pos": "noun",
+        "meaning_en": "the time you do something for the first time",
+        "meaning_ar": "المرة الأولى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This is my first time in London."
+      },
+      {
+        "word": "job",
+        "pos": "noun",
+        "meaning_en": "the work you do to get money",
+        "meaning_ar": "وظيفة / عمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She started a new job."
+      },
+      {
+        "word": "office assistant",
+        "pos": "noun",
+        "meaning_en": "a person who helps with work in an office",
+        "meaning_ar": "مساعد إداري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The office assistant answers the phone."
+      },
+      {
+        "word": "primary school",
+        "pos": "noun",
+        "meaning_en": "a school for children aged about 5 to 11",
+        "meaning_ar": "مدرسة ابتدائية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My son goes to primary school."
+      },
+      {
+        "word": "move",
+        "pos": "verb",
+        "meaning_en": "go to live in a new place",
+        "meaning_ar": "ينتقل (للسكن)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We moved to a new city last year."
+      },
+      {
+        "word": "city",
+        "pos": "noun",
+        "meaning_en": "a big town",
+        "meaning_ar": "مدينة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Cairo is a big city."
+      },
+      {
+        "word": "recommendation",
+        "pos": "noun",
+        "meaning_en": "an idea about a good place or thing to try",
+        "meaning_ar": "توصية / ترشيح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Do you have any recommendations for lunch?"
+      },
+      {
+        "word": "nearby",
+        "pos": "adverb",
+        "meaning_en": "not far away",
+        "meaning_ar": "قريب / بالقرب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There is a mosque nearby."
+      },
+      {
+        "word": "jog",
+        "pos": "verb",
+        "meaning_en": "run slowly for exercise",
+        "meaning_ar": "يهرول / يركض ببطء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I jog in the park every morning."
+      },
+      {
+        "word": "bakery",
+        "pos": "noun",
+        "meaning_en": "a shop that makes and sells bread and cakes",
+        "meaning_ar": "مخبز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I buy fresh bread from the bakery."
+      },
+      {
+        "word": "excellent",
+        "pos": "adjective",
+        "meaning_en": "very, very good",
+        "meaning_ar": "ممتاز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your English is excellent."
+      },
+      {
+        "word": "gym",
+        "pos": "noun",
+        "meaning_en": "a place with machines for exercise",
+        "meaning_ar": "صالة رياضية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He goes to the gym after work."
+      },
+      {
+        "word": "station",
+        "pos": "noun",
+        "meaning_en": "a place where trains or buses stop",
+        "meaning_ar": "محطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The station is near my house."
+      },
+      {
+        "word": "expensive",
+        "pos": "adjective",
+        "meaning_en": "costing a lot of money",
+        "meaning_ar": "غالٍ / مرتفع الثمن",
+        "note_ar": "الضد: cheap",
+        "note_en": "Opposite: cheap.",
+        "example": "This phone is too expensive."
+      },
+      {
+        "word": "equipment",
+        "pos": "noun",
+        "meaning_en": "the machines and tools you need for something",
+        "meaning_ar": "معدّات / أجهزة",
+        "note_ar": "غير معدودة",
+        "note_en": "Uncountable: no -s.",
+        "example": "The gym has new equipment."
+      },
+      {
+        "word": "serve",
+        "pos": "verb",
+        "meaning_en": "give food or drinks to customers",
+        "meaning_ar": "يقدّم (طعامًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They serve fresh juice here."
+      },
+      {
+        "word": "grilled",
+        "pos": "adjective",
+        "meaning_en": "cooked over strong heat",
+        "meaning_ar": "مشويّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'll have the grilled chicken, please."
+      },
+      {
+        "word": "turn",
+        "pos": "noun",
+        "meaning_en": "the time when it is your chance to do something",
+        "meaning_ar": "دور",
+        "note_ar": "It's our turn = جاء دورنا",
+        "note_en": "It's our turn = now it is our time.",
+        "example": "Wait for your turn, please."
+      },
+      {
+        "word": "order",
+        "pos": "verb",
+        "meaning_en": "ask for food or drinks in a café or restaurant",
+        "meaning_ar": "يطلب (طعامًا)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Are you ready to order?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "I'm from vs I moved here",
+        "words": [
+          "I'm from",
+          "I moved here"
+        ],
+        "explanation_ar": "I'm from New York تعني أن أصلك من نيويورك. I moved here last week تعني أنك انتقلت للسكن هنا الأسبوع الماضي.",
+        "explanation_en": "\"I'm from...\" is your home place. \"I moved here\" means you came to live here.",
+        "examples": [
+          {
+            "word": "I'm from",
+            "sentence": "I'm from Alexandria."
+          },
+          {
+            "word": "I moved here",
+            "sentence": "I moved here two months ago."
+          }
+        ]
+      },
+      {
+        "title": "expensive vs cheap",
+        "words": [
+          "expensive",
+          "cheap"
+        ],
+        "explanation_ar": "expensive غالٍ، و cheap رخيص.",
+        "explanation_en": "Expensive costs a lot. Cheap costs little.",
+        "examples": [
+          {
+            "word": "expensive",
+            "sentence": "The hotel is expensive."
+          },
+          {
+            "word": "cheap",
+            "sentence": "The bus is cheap."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Excuse me, is this line for coffee?",
+        "meaning_ar": "عفوًا، هل هذا الطابور للقهوة؟",
+        "meaning_en": "Politely ask a stranger a question.",
+        "example": "Excuse me, is this line for the bus?"
+      },
+      {
+        "phrase": "By the way, my name is Kevin.",
+        "meaning_ar": "بالمناسبة، اسمي كيفن.",
+        "meaning_en": "Introduce yourself during a chat.",
+        "example": "By the way, my name is Ali."
+      },
+      {
+        "phrase": "Nice to meet you. / Nice to meet you too.",
+        "meaning_ar": "سعدت بلقائك. / وأنا كذلك.",
+        "meaning_en": "Say this when you meet someone new.",
+        "example": "Nice to meet you, Lily. Nice to meet you too."
+      },
+      {
+        "phrase": "Do you come here often?",
+        "meaning_ar": "هل تأتي إلى هنا كثيرًا؟",
+        "meaning_en": "Small talk with someone in a place.",
+        "example": "Do you come here often? Yes, every morning."
+      },
+      {
+        "phrase": "This is my first time here.",
+        "meaning_ar": "هذه أول مرة لي هنا.",
+        "meaning_en": "Say you are new to a place.",
+        "example": "This is my first time here. It's nice!"
+      },
+      {
+        "phrase": "What do you do?",
+        "meaning_ar": "ما عملك؟",
+        "meaning_en": "Ask about someone's job.",
+        "example": "What do you do? I'm a nurse."
+      },
+      {
+        "phrase": "Welcome to the city!",
+        "meaning_ar": "أهلًا بك في المدينة!",
+        "meaning_en": "Welcome someone new.",
+        "example": "You moved here? Welcome to the city!"
+      },
+      {
+        "phrase": "I'd love some recommendations.",
+        "meaning_ar": "أودّ بعض الترشيحات.",
+        "meaning_en": "Ask for good ideas about places.",
+        "example": "I'm new here. I'd love some recommendations."
+      },
+      {
+        "phrase": "You should also try...",
+        "meaning_ar": "يجب أن تجرّب أيضًا...",
+        "meaning_en": "Recommend a place or food.",
+        "example": "You should also try the bakery on Maple Street."
+      },
+      {
+        "phrase": "What kind of food do they serve?",
+        "meaning_ar": "ما نوع الطعام الذي يقدّمونه؟",
+        "meaning_en": "Ask about a restaurant's food.",
+        "example": "What kind of food do they serve? Fish and rice."
+      },
+      {
+        "phrase": "It's our turn now.",
+        "meaning_ar": "جاء دورنا الآن.",
+        "meaning_en": "Say it's your time to be served.",
+        "example": "Oh, it's our turn now. Let's order."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "\"There is / There are\" to talk about places",
+        "explanation_ar": "نستخدم There is مع المفرد و There are مع الجمع لنقول إن شيئًا موجود في مكان: There's a nice park nearby. There are many nice places here. (There's = There is)",
+        "explanation_en": "Use there is (singular) and there are (plural) to say something exists in a place. There's = There is.",
+        "examples": [
+          "There's a nice park nearby.",
+          "There are many nice places here.",
+          "There's a great gym near the station."
+        ]
+      },
+      {
+        "title": "Present perfect with \"for\": \"I've lived here for three years\"",
+        "explanation_ar": "لنقول إن شيئًا بدأ في الماضي وما زال مستمرًا نستخدم have + التصريف الثالث + for + المدة: I've lived here for three years. أما الحدث المنتهي فنستخدم له الماضي البسيط: I moved here last week.",
+        "explanation_en": "For something that started in the past and still continues: have + past participle + for + time. For a finished action: past simple.",
+        "examples": [
+          "I've lived here for three years.",
+          "I moved here last week.",
+          "She has worked here for two months."
+        ]
+      },
+      {
+        "title": "Giving advice: \"You should + verb\"",
+        "explanation_ar": "لننصح أو نقترح شيئًا نستخدم should + الفعل في أصله: You should try the bakery.",
+        "explanation_en": "Use should + base verb to recommend something.",
+        "examples": [
+          "You should try the bakery on Maple Street.",
+          "You should visit the park.",
+          "You should go there early."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Excuse me, ___ this line for coffee?",
+      "choices": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": 1,
+      "explanation_ar": "line مفرد، فنستخدم is.",
+      "explanation_en": "\"Line\" is singular, so use \"is\"."
+    },
+    {
+      "question": "\"What do you do?\" asks about your...",
+      "choices": [
+        "job",
+        "age",
+        "hobby",
+        "food"
+      ],
+      "answer": 0,
+      "explanation_ar": "What do you do? سؤال عن العمل.",
+      "explanation_en": "\"What do you do?\" asks about your job."
+    },
+    {
+      "question": "___ a nice park nearby.",
+      "choices": [
+        "There are",
+        "There's",
+        "They are",
+        "It are"
+      ],
+      "answer": 1,
+      "explanation_ar": "park مفرد: There's (There is).",
+      "explanation_en": "\"Park\" is singular: There's."
+    },
+    {
+      "question": "___ many nice places here.",
+      "choices": [
+        "There is",
+        "There's",
+        "There are",
+        "It is"
+      ],
+      "answer": 2,
+      "explanation_ar": "places جمع: There are.",
+      "explanation_en": "\"Places\" is plural: There are."
+    },
+    {
+      "question": "I'm from Los Angeles, but I've lived here ___ three years.",
+      "choices": [
+        "since",
+        "for",
+        "ago",
+        "in"
+      ],
+      "answer": 1,
+      "explanation_ar": "مع المدة نستخدم for.",
+      "explanation_en": "Use \"for\" with a length of time."
+    },
+    {
+      "question": "I moved here ___ week.",
+      "choices": [
+        "last",
+        "for",
+        "since",
+        "ago"
+      ],
+      "answer": 0,
+      "explanation_ar": "last week = الأسبوع الماضي.",
+      "explanation_en": "\"Last week\" = the week before this one."
+    },
+    {
+      "question": "You should ___ the bakery on Maple Street.",
+      "choices": [
+        "tries",
+        "trying",
+        "to try",
+        "try"
+      ],
+      "answer": 3,
+      "explanation_ar": "بعد should نستخدم الفعل في أصله.",
+      "explanation_en": "After \"should\" use the base verb."
+    },
+    {
+      "question": "Is the gym expensive? — No, not at all. It is ___.",
+      "choices": [
+        "cheap",
+        "busy",
+        "grilled",
+        "excellent"
+      ],
+      "answer": 0,
+      "explanation_ar": "عكس expensive هو cheap.",
+      "explanation_en": "The opposite of expensive is cheap."
+    },
+    {
+      "question": "Which place sells bread and cakes?",
+      "choices": [
+        "a gym",
+        "a station",
+        "a bakery",
+        "a school"
+      ],
+      "answer": 2,
+      "explanation_ar": "bakery هو المخبز.",
+      "explanation_en": "A bakery sells bread and cakes."
+    },
+    {
+      "question": "\"It's our turn now\" means...",
+      "choices": [
+        "We are late.",
+        "Now it's time for us to order.",
+        "We should go home.",
+        "The shop is closed."
+      ],
+      "answer": 1,
+      "explanation_ar": "It's our turn تعني جاء دورنا.",
+      "explanation_en": "It means now it is our time."
+    }
+  ]
+}

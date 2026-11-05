@@ -1,0 +1,415 @@
+{
+  "title": "Delivering Bad News",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "bad news",
+        "pos": "noun",
+        "meaning_en": "information that makes people unhappy or worried",
+        "meaning_ar": "أخبار سيئة",
+        "note_ar": "news اسم غير معدود ويأخذ فعلًا مفردًا",
+        "note_en": "News is uncountable and takes a singular verb.",
+        "example": "I'm afraid I have some bad news."
+      },
+      {
+        "word": "deliver bad news",
+        "pos": "phrase",
+        "meaning_en": "tell people something unpleasant",
+        "meaning_ar": "ينقل خبرًا سيئًا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A good manager delivers bad news clearly and kindly."
+      },
+      {
+        "word": "give it to you straight",
+        "pos": "phrase",
+        "meaning_en": "tell you the truth directly, without hiding anything",
+        "meaning_ar": "أصارحك بالحقيقة مباشرة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've got to give it to you straight: we lost the contract."
+      },
+      {
+        "word": "outlook",
+        "pos": "noun",
+        "meaning_en": "what is likely to happen in the future",
+        "meaning_ar": "التوقّعات المستقبلية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The outlook for next year is positive."
+      },
+      {
+        "word": "gloomy",
+        "pos": "adjective",
+        "meaning_en": "dark and without hope",
+        "meaning_ar": "قاتم / متشائم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The outlook is gloomy."
+      },
+      {
+        "word": "profit",
+        "pos": "noun",
+        "meaning_en": "money a business earns after paying its costs",
+        "meaning_ar": "ربح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our profits went up this year."
+      },
+      {
+        "word": "profit warning",
+        "pos": "noun",
+        "meaning_en": "an official message that a company's profits will be lower than expected",
+        "meaning_ar": "تحذير من انخفاض الأرباح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The company had to announce a profit warning."
+      },
+      {
+        "word": "announce",
+        "pos": "verb",
+        "meaning_en": "tell people something officially",
+        "meaning_ar": "يُعلن",
+        "note_ar": "الاسم: announcement",
+        "note_en": "Noun: announcement.",
+        "example": "The director will announce the results today."
+      },
+      {
+        "word": "recession",
+        "pos": "noun",
+        "meaning_en": "a time when a country's economy is weak",
+        "meaning_ar": "ركود اقتصادي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Many companies lost money during the recession."
+      },
+      {
+        "word": "sector",
+        "pos": "noun",
+        "meaning_en": "one part of business or the economy",
+        "meaning_ar": "قطاع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She works in the technology sector."
+      },
+      {
+        "word": "market",
+        "pos": "noun",
+        "meaning_en": "the people or area where you sell products",
+        "meaning_ar": "سوق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We plan to sell to the European market."
+      },
+      {
+        "word": "strategy",
+        "pos": "noun",
+        "meaning_en": "a plan to achieve a goal",
+        "meaning_ar": "استراتيجية / خطة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our new marketing strategy starts next month."
+      },
+      {
+        "word": "marketing executive",
+        "pos": "noun",
+        "meaning_en": "a manager who plans how to sell products",
+        "meaning_ar": "مسؤول تسويق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The marketing executive will join us next week."
+      },
+      {
+        "word": "redundancy",
+        "pos": "noun",
+        "meaning_en": "losing your job because the company does not need it any more",
+        "meaning_ar": "تسريح من العمل",
+        "note_ar": "صفة: redundant",
+        "note_en": "Adjective: redundant.",
+        "example": "There will be no redundancies this year."
+      },
+      {
+        "word": "unemployed",
+        "pos": "adjective",
+        "meaning_en": "without a job",
+        "meaning_ar": "عاطل عن العمل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He was unemployed for three months."
+      },
+      {
+        "word": "loyal",
+        "pos": "adjective",
+        "meaning_en": "staying with and supporting a person or company",
+        "meaning_ar": "مخلص / وفيّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has been a loyal employee for ten years."
+      },
+      {
+        "word": "on the line",
+        "pos": "phrase",
+        "meaning_en": "at risk",
+        "meaning_ar": "في خطر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our jobs are on the line if sales don't improve."
+      },
+      {
+        "word": "improve",
+        "pos": "verb",
+        "meaning_en": "become better",
+        "meaning_ar": "يتحسّن / يحسّن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We need to improve our results."
+      },
+      {
+        "word": "officially",
+        "pos": "adverb",
+        "meaning_en": "in a formal way, by people in authority",
+        "meaning_ar": "رسميًّا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The manager will officially welcome the team."
+      },
+      {
+        "word": "international",
+        "pos": "adjective",
+        "meaning_en": "between different countries",
+        "meaning_ar": "دولي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our phones can now make international calls."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "profit vs benefit",
+        "words": [
+          "profit",
+          "benefit"
+        ],
+        "explanation_ar": "profit هو المال الذي تربحه الشركة، أما benefit فهو أي فائدة أو ميزة وليس بالضرورة مالًا.",
+        "explanation_en": "Profit is money a business earns. A benefit is any advantage, not always money.",
+        "examples": [
+          {
+            "word": "profit",
+            "sentence": "The company made a profit of one million."
+          },
+          {
+            "word": "benefit",
+            "sentence": "Free training is a benefit of this job."
+          }
+        ]
+      },
+      {
+        "title": "outlook vs look",
+        "words": [
+          "outlook",
+          "look"
+        ],
+        "explanation_ar": "outlook اسم بمعنى التوقعات للمستقبل، أما look فعل بمعنى ينظر أو يبدو.",
+        "explanation_en": "Outlook is a noun: the likely future. Look is a verb: see or seem.",
+        "examples": [
+          {
+            "word": "outlook",
+            "sentence": "The outlook for sales is good."
+          },
+          {
+            "word": "look",
+            "sentence": "Things don't look good."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I've got to give it to you straight.",
+        "meaning_ar": "يجب أن أصارحكم بالحقيقة.",
+        "meaning_en": "I must tell you the truth directly.",
+        "example": "I've got to give it to you straight: sales are down."
+      },
+      {
+        "phrase": "The outlook is gloomy.",
+        "meaning_ar": "التوقّعات قاتمة.",
+        "meaning_en": "The future does not look good.",
+        "example": "After the bad results, the outlook is gloomy."
+      },
+      {
+        "phrase": "I've got to announce a profit warning.",
+        "meaning_ar": "عليّ أن أعلن تحذيرًا من انخفاض الأرباح.",
+        "meaning_en": "Profits will probably go down.",
+        "example": "I'm sorry, everyone. I've got to announce a profit warning."
+      },
+      {
+        "phrase": "Things aren't looking good.",
+        "meaning_ar": "الأمور لا تبدو جيدة.",
+        "meaning_en": "The situation is bad.",
+        "example": "Things aren't looking good for our team this month."
+      },
+      {
+        "phrase": "You did a good job there. Well done.",
+        "meaning_ar": "لقد قمت بعمل جيد. أحسنت.",
+        "meaning_en": "Praise someone's work.",
+        "example": "Thanks for fixing the problem. You did a good job there."
+      },
+      {
+        "phrase": "This calls for action.",
+        "meaning_ar": "هذا يتطلّب التحرّك.",
+        "meaning_en": "We must do something now.",
+        "example": "Sales are falling. This calls for action."
+      },
+      {
+        "phrase": "I'm going to try my best.",
+        "meaning_ar": "سأبذل قصارى جهدي.",
+        "meaning_en": "I will work as hard as I can.",
+        "example": "It's a new job, but I'm going to try my best."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "have got to / have to for obligation",
+        "explanation_ar": "I've got to = I have to: يجب عليّ (التزام). شائع في الكلام البريطاني غير الرسمي. بعده فعل مجرد.",
+        "explanation_en": "I've got to = I have to: it is necessary. Common in spoken British English. Use the base verb after it.",
+        "examples": [
+          "I've got to announce a profit warning.",
+          "We've got to improve our sales.",
+          "She's got to finish the report today."
+        ]
+      },
+      {
+        "title": "Softening bad news",
+        "explanation_ar": "لتلطيف الخبر السيئ نبدأ بعبارات مثل I'm afraid... أو I'm sorry to tell you... ثم نذكر الحقيقة بوضوح.",
+        "explanation_en": "To make bad news softer, start with I'm afraid... or I'm sorry to tell you..., then say the facts clearly.",
+        "examples": [
+          "I'm afraid the outlook is gloomy.",
+          "I'm sorry to tell you that we lost the order.",
+          "I'm afraid I have some bad news."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "\"I've got to give it to you straight\" means...",
+      "choices": [
+        "I will tell you the truth directly",
+        "I will give you a present",
+        "I will walk straight",
+        "I will hide the problem"
+      ],
+      "answer": 0,
+      "explanation_ar": "تعني سأصارحك بالحقيقة مباشرة.",
+      "explanation_en": "It means I will tell you the truth directly."
+    },
+    {
+      "question": "\"The outlook is gloomy\" means...",
+      "choices": [
+        "the weather is cold",
+        "the future does not look good",
+        "the office is dark",
+        "the boss is happy"
+      ],
+      "answer": 1,
+      "explanation_ar": "outlook gloomy تعني أن المستقبل لا يبدو جيدًا.",
+      "explanation_en": "It means the future does not look good."
+    },
+    {
+      "question": "A profit warning means profits will probably...",
+      "choices": [
+        "go up",
+        "stay the same",
+        "go down",
+        "double"
+      ],
+      "answer": 2,
+      "explanation_ar": "profit warning تحذير من انخفاض الأرباح.",
+      "explanation_en": "It warns that profits will go down."
+    },
+    {
+      "question": "I've got ___ announce some bad news.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "-"
+      ],
+      "answer": 0,
+      "explanation_ar": "التركيب have got to + فعل.",
+      "explanation_en": "Pattern: have got to + verb."
+    },
+    {
+      "question": "Money a business earns after costs is...",
+      "choices": [
+        "a recession",
+        "a profit",
+        "a sector",
+        "a market"
+      ],
+      "answer": 1,
+      "explanation_ar": "profit هو الربح.",
+      "explanation_en": "Profit is the money earned after costs."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "The news are bad.",
+        "The news is bad.",
+        "The news be bad.",
+        "The newses are bad."
+      ],
+      "answer": 1,
+      "explanation_ar": "news اسم غير معدود يأخذ فعلًا مفردًا is.",
+      "explanation_en": "News is uncountable: the news is."
+    },
+    {
+      "question": "Which phrase softens bad news?",
+      "choices": [
+        "Listen to me!",
+        "I'm afraid...",
+        "Hurry up!",
+        "Well done!"
+      ],
+      "answer": 1,
+      "explanation_ar": "I'm afraid تلطّف الخبر السيئ.",
+      "explanation_en": "I'm afraid makes bad news softer."
+    },
+    {
+      "question": "\"Your jobs are on the line\" means your jobs are...",
+      "choices": [
+        "safe",
+        "at risk",
+        "online",
+        "new"
+      ],
+      "answer": 1,
+      "explanation_ar": "on the line تعني في خطر.",
+      "explanation_en": "On the line means at risk."
+    },
+    {
+      "question": "A time when the economy is weak is a...",
+      "choices": [
+        "strategy",
+        "market",
+        "profit",
+        "recession"
+      ],
+      "answer": 3,
+      "explanation_ar": "recession هو الركود الاقتصادي.",
+      "explanation_en": "A recession is a weak economy."
+    },
+    {
+      "question": "The company wants to sell to the European ___.",
+      "choices": [
+        "market",
+        "marked",
+        "marker",
+        "marketing executive"
+      ],
+      "answer": 0,
+      "explanation_ar": "market هو السوق.",
+      "explanation_en": "Market means the area where you sell."
+    }
+  ]
+}

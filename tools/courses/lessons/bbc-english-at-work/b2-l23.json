@@ -1,0 +1,439 @@
+{
+  "title": "Setting Priorities",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "prioritise",
+        "pos": "verb",
+        "meaning_en": "to decide which tasks are most important and do them first",
+        "meaning_ar": "يرتّب الأولويات؛ يقدّم الأهم على المهم",
+        "note_ar": "التهجئة البريطانية prioritise والأمريكية prioritize.",
+        "note_en": "UK spelling: prioritise; US spelling: prioritize.",
+        "example": "I have three reports to write, so I need to prioritise."
+      },
+      {
+        "word": "priority",
+        "pos": "noun",
+        "meaning_en": "something that is more important than other things",
+        "meaning_ar": "أولوية",
+        "note_ar": "الجمع priorities.",
+        "note_en": "Plural: priorities.",
+        "example": "Finishing the contract is my top priority this week."
+      },
+      {
+        "word": "concentrate on",
+        "pos": "phrase",
+        "meaning_en": "to give all your attention to one thing",
+        "meaning_ar": "يركّز على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please let me concentrate on this report for an hour."
+      },
+      {
+        "word": "task",
+        "pos": "noun",
+        "meaning_en": "a piece of work that you have to do",
+        "meaning_ar": "مهمة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Answering customer emails is my first task every morning."
+      },
+      {
+        "word": "delegate",
+        "pos": "verb",
+        "meaning_en": "to give part of your work to another person",
+        "meaning_ar": "يفوّض (مهمة إلى شخص آخر)",
+        "note_ar": "اسمه delegation: التفويض.",
+        "note_en": "Noun: delegation.",
+        "example": "A good manager knows how to delegate work to the team."
+      },
+      {
+        "word": "put off",
+        "pos": "phrasal verb",
+        "meaning_en": "to move something to a later time",
+        "meaning_ar": "يؤجّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We put off the meeting until Monday."
+      },
+      {
+        "word": "rota",
+        "pos": "noun",
+        "meaning_en": "a list that shows who does a job and when",
+        "meaning_ar": "جدول مناوبات / جدول توزيع المهام",
+        "note_ar": "كلمة بريطانية؛ في الأمريكية schedule أو roster.",
+        "note_en": "British English; Americans often say schedule or roster.",
+        "example": "The cleaning rota is on the kitchen wall."
+      },
+      {
+        "word": "draw up",
+        "pos": "phrasal verb",
+        "meaning_en": "to prepare and write a plan, list or document",
+        "meaning_ar": "يُعِدّ (خطة أو قائمة أو وثيقة)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you draw up a list of our suppliers?"
+      },
+      {
+        "word": "responsibility",
+        "pos": "noun",
+        "meaning_en": "a job or duty that you must do",
+        "meaning_ar": "مسؤولية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Ordering paper is Denise's responsibility."
+      },
+      {
+        "word": "take it in turns",
+        "pos": "phrase",
+        "meaning_en": "to do something one after another, not all at the same time",
+        "meaning_ar": "يتناوبون؛ كلٌّ في دوره",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We take it in turns to make coffee for the team."
+      },
+      {
+        "word": "share",
+        "pos": "verb",
+        "meaning_en": "to have or do something together with other people",
+        "meaning_ar": "يتشارك؛ يقتسم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's share the work so nobody is too busy."
+      },
+      {
+        "word": "reinstate",
+        "pos": "verb",
+        "meaning_en": "to give someone their old job back",
+        "meaning_ar": "يعيد (موظفًا) إلى وظيفته",
+        "note_ar": "",
+        "note_en": "",
+        "example": "After the mistake was found, the company reinstated her."
+      },
+      {
+        "word": "have a go at",
+        "pos": "phrase",
+        "meaning_en": "to try doing something",
+        "meaning_ar": "يجرّب؛ يحاول",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'd like to have a go at writing the newsletter."
+      },
+      {
+        "word": "make a start on",
+        "pos": "phrase",
+        "meaning_en": "to begin doing a piece of work",
+        "meaning_ar": "يبدأ في (عمل ما)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you make a start on the sales report today?"
+      },
+      {
+        "word": "under pressure",
+        "pos": "phrase",
+        "meaning_en": "feeling worried because you have too much to do",
+        "meaning_ar": "تحت الضغط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Everyone is under pressure before the deadline."
+      },
+      {
+        "word": "stressed",
+        "pos": "adjective",
+        "meaning_en": "worried and tense because of work or problems",
+        "meaning_ar": "متوتر؛ مضغوط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He feels stressed when he has too many emails."
+      },
+      {
+        "word": "get organised",
+        "pos": "phrase",
+        "meaning_en": "to plan your work and things so you can work well",
+        "meaning_ar": "ينظّم نفسه وعمله",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I wrote a to-do list to get organised."
+      },
+      {
+        "word": "to-do list",
+        "pos": "noun",
+        "meaning_en": "a list of jobs you need to do",
+        "meaning_ar": "قائمة المهام",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The first item on my to-do list is calling the client."
+      },
+      {
+        "word": "contract",
+        "pos": "noun",
+        "meaning_en": "a written business agreement",
+        "meaning_ar": "عقد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We signed a new contract with the supplier."
+      },
+      {
+        "word": "launch",
+        "pos": "noun",
+        "meaning_en": "the event when a new product is first shown or sold",
+        "meaning_ar": "إطلاق (منتج جديد)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The product launch is on Friday."
+      },
+      {
+        "word": "caught in the middle",
+        "pos": "phrase",
+        "meaning_en": "between two people who disagree, and not able to please both",
+        "meaning_ar": "عالق بين طرفين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "When my two colleagues argue, I'm caught in the middle."
+      },
+      {
+        "word": "solution",
+        "pos": "noun",
+        "meaning_en": "a way to solve a problem",
+        "meaning_ar": "حلّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sharing the work is a good solution."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "prioritise vs priority",
+        "words": [
+          "prioritise",
+          "priority"
+        ],
+        "explanation_ar": "prioritise فعل معناه «يرتّب الأولويات»، أما priority فهو اسم معناه «أولوية». بعد الفعل نضع عادةً مفعولًا أو لا شيء، وقبل الاسم نستخدم كلمات مثل my أو top.",
+        "explanation_en": "Prioritise is a verb (an action). Priority is a noun (a thing). We say 'I need to prioritise' but 'This is my top priority'.",
+        "examples": [
+          {
+            "word": "prioritise",
+            "sentence": "When you are busy, you must prioritise."
+          },
+          {
+            "word": "priority",
+            "sentence": "Customer safety is our first priority."
+          }
+        ]
+      },
+      {
+        "title": "put off vs call off",
+        "words": [
+          "put off",
+          "call off"
+        ],
+        "explanation_ar": "put off يعني تأجيل الأمر إلى وقت لاحق، فهو سيحدث لاحقًا. أما call off فيعني إلغاء الأمر نهائيًّا.",
+        "explanation_en": "Put off means move to a later time; it will still happen. Call off means cancel; it will not happen.",
+        "examples": [
+          {
+            "word": "put off",
+            "sentence": "We put off the meeting until next week."
+          },
+          {
+            "word": "call off",
+            "sentence": "They called off the meeting because the client cancelled."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "I've got to prioritise. This task is the most important so I'm going to concentrate on this first.",
+        "meaning_ar": "يجب أن أرتّب أولوياتي. هذه المهمة هي الأهم، لذلك سأركّز عليها أولًا.",
+        "meaning_en": "I must decide what is most important; I will do this task first.",
+        "example": "I've got to prioritise. The client report is the most important, so I'm going to concentrate on it first."
+      },
+      {
+        "phrase": "It would be a great help if you could do this for me, please.",
+        "meaning_ar": "سيكون عونًا كبيرًا لو استطعت أن تقوم بهذا عني من فضلك.",
+        "meaning_en": "A very polite way to ask someone to do a task for you.",
+        "example": "It would be a great help if you could answer the phone this morning."
+      },
+      {
+        "phrase": "I'm going to have to put that off until tomorrow, I'm afraid.",
+        "meaning_ar": "للأسف سأضطر إلى تأجيل ذلك إلى الغد.",
+        "meaning_en": "I can't do that now; I will do it tomorrow (said politely).",
+        "example": "I'm going to have to put the training off until tomorrow, I'm afraid."
+      },
+      {
+        "phrase": "I need help. I have too much to do.",
+        "meaning_ar": "أحتاج إلى مساعدة؛ لديّ عمل كثير جدًّا.",
+        "meaning_en": "Tell your manager you have too much work.",
+        "example": "Sorry to bother you, but I have too much to do and I need some help."
+      },
+      {
+        "phrase": "Sorry to bother you, but…",
+        "meaning_ar": "آسف على الإزعاج، لكن…",
+        "meaning_en": "A polite way to start talking to a busy person.",
+        "example": "Sorry to bother you, but do you have a minute?"
+      },
+      {
+        "phrase": "Could I suggest we all take it in turns?",
+        "meaning_ar": "هل لي أن أقترح أن نتناوب جميعًا؟",
+        "meaning_en": "A polite way to suggest sharing a job.",
+        "example": "Could I suggest we all take it in turns to lock the office?"
+      },
+      {
+        "phrase": "I see your point.",
+        "meaning_ar": "أفهم وجهة نظرك.",
+        "meaning_en": "I understand what you mean (even if I don't fully agree).",
+        "example": "I see your point, but we still need someone to order the paper."
+      },
+      {
+        "phrase": "Let's get this straight.",
+        "meaning_ar": "لنوضّح الأمر جيدًا.",
+        "meaning_en": "Let's make sure we understand the situation clearly.",
+        "example": "Let's get this straight: you want to work in sales now?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Polite requests: It would be a great help if you could…",
+        "explanation_ar": "لطلب شيء بأدب شديد نستخدم: It would be a great help if you could + الفعل في المصدر. الكلمتان would وcould تجعلان الطلب أكثر لطفًا من Do this.",
+        "explanation_en": "To ask very politely, use: It would be a great help if you could + base verb. 'Would' and 'could' make the request softer than an order.",
+        "examples": [
+          "It would be a great help if you could check these figures.",
+          "It would be a great help if you could call the supplier.",
+          "It would be really helpful if you could send me the file."
+        ]
+      },
+      {
+        "title": "have got to / be going to have to",
+        "explanation_ar": "I've got to = I have to: يجب عليّ (التزام الآن). أما I'm going to have to فتعني «سأضطر إلى» في المستقبل، وغالبًا نستخدمها لإبلاغ خبر غير مرغوب بلطف، مع I'm afraid.",
+        "explanation_en": "'I've got to' means 'I have to' (I must, now). 'I'm going to have to' means I will be forced to do something in the future; we use it with 'I'm afraid' for news people won't like.",
+        "examples": [
+          "I've got to finish this report today.",
+          "We're going to have to cancel the trip, I'm afraid.",
+          "She's going to have to work late tonight."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What does 'prioritise' mean?",
+      "choices": [
+        "decide which tasks are most important",
+        "finish all tasks at the same time",
+        "give your job to someone else",
+        "forget about some tasks"
+      ],
+      "answer": 0,
+      "explanation_ar": "prioritise يعني أن تقرر أيّ المهام أهم وتبدأ بها.",
+      "explanation_en": "To prioritise is to decide what is most important and do it first."
+    },
+    {
+      "question": "I'm going to have to ___ that ___ until tomorrow, I'm afraid.",
+      "choices": [
+        "put / on",
+        "put / off",
+        "take / off",
+        "give / up"
+      ],
+      "answer": 1,
+      "explanation_ar": "put off تعني يؤجّل.",
+      "explanation_en": "'Put off' means move to a later time."
+    },
+    {
+      "question": "Which request is the most polite?",
+      "choices": [
+        "Do this for me.",
+        "You must do this.",
+        "It would be a great help if you could do this for me.",
+        "Do this now, please."
+      ],
+      "answer": 2,
+      "explanation_ar": "استخدام would وcould يجعل الطلب مهذبًا جدًّا.",
+      "explanation_en": "'It would be a great help if you could...' is very polite."
+    },
+    {
+      "question": "Anna asks Denise to make a list of who orders pens and when. What is this list called?",
+      "choices": [
+        "a contract",
+        "a launch",
+        "a solution",
+        "a rota"
+      ],
+      "answer": 3,
+      "explanation_ar": "rota قائمة تبيّن من يقوم بالعمل ومتى.",
+      "explanation_en": "A rota shows who does a job and when."
+    },
+    {
+      "question": "'Delegate' means…",
+      "choices": [
+        "give part of your work to someone else",
+        "go to a meeting",
+        "do all the work yourself",
+        "finish work early"
+      ],
+      "answer": 0,
+      "explanation_ar": "delegate يعني تفويض جزء من عملك لشخص آخر.",
+      "explanation_en": "To delegate is to give some of your work to another person."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "This is my top prioritise.",
+        "This is my top priority.",
+        "I need to priority.",
+        "This is my top prioritising."
+      ],
+      "answer": 1,
+      "explanation_ar": "priority اسم، ونقول my top priority.",
+      "explanation_en": "'Priority' is the noun: 'my top priority'."
+    },
+    {
+      "question": "The meeting is not cancelled; it is just moved to next week. We ___ the meeting.",
+      "choices": [
+        "called off",
+        "drew up",
+        "put off",
+        "shared"
+      ],
+      "answer": 2,
+      "explanation_ar": "put off تأجيل، أما call off فإلغاء.",
+      "explanation_en": "Put off = move later; call off = cancel."
+    },
+    {
+      "question": "'We take it in turns to order the paper' means…",
+      "choices": [
+        "nobody orders the paper",
+        "the boss orders the paper",
+        "we order it all together",
+        "each person orders it one after another"
+      ],
+      "answer": 3,
+      "explanation_ar": "take it in turns يعني أن كل شخص يقوم بالأمر في دوره.",
+      "explanation_en": "Take it in turns means one person, then the next person, and so on."
+    },
+    {
+      "question": "I've got to finish this today. 'I've got to' means…",
+      "choices": [
+        "I have to",
+        "I have finished",
+        "I might",
+        "I want to"
+      ],
+      "answer": 0,
+      "explanation_ar": "I've got to تعني I have to أي يجب عليّ.",
+      "explanation_en": "'I've got to' means 'I have to'."
+    },
+    {
+      "question": "Which is a polite way to start talking to a busy colleague?",
+      "choices": [
+        "Listen to me!",
+        "Sorry to bother you, but…",
+        "Stop working.",
+        "Hey, you!"
+      ],
+      "answer": 1,
+      "explanation_ar": "Sorry to bother you عبارة مهذبة لبدء الحديث مع شخص مشغول.",
+      "explanation_en": "'Sorry to bother you, but...' is a polite opener."
+    }
+  ]
+}

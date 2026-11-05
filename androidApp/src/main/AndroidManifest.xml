@@ -7,6 +7,10 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <!-- Hub voice calls keep running in the background with an ongoing notification. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -40,6 +44,11 @@
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
                 android:value="The app downloads large AI language model files (GGUF format, ~1GB) required for on-device inference. The download can exceed the dataSync 6-hour timeout on slow connections. No other foreground service type applies to a one-time, long-running file download that is not media playback or location." />
         </service>
+
+        <service
+            android:name="com.speakmind.app.feature.community.call.HubCallService"
+            android:exported="false"
+            android:foregroundServiceType="microphone" />
 
         <service
             android:name="com.speakmind.app.feature.community.platform.ChatMessagingService"

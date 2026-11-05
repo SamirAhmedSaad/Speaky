@@ -1,0 +1,59 @@
+{
+  "title": "What Is It?",
+  "content": {
+    "vocabulary": [
+      {"word": "pen", "pos": "noun", "meaning_en": "a thing you write with, using ink", "meaning_ar": "قلم حبر", "note_ar": "pencil = قلم رصاص.", "note_en": "A pencil writes with grey lead.", "example": "Can I use your pen?"},
+      {"word": "bag", "pos": "noun", "meaning_en": "a thing you carry your things in", "meaning_ar": "حقيبة", "note_ar": "", "note_en": "", "example": "My keys are in my bag."},
+      {"word": "book", "pos": "noun", "meaning_en": "pages with writing, put together to read", "meaning_ar": "كتاب", "note_ar": "", "note_en": "", "example": "This is a book about animals."},
+      {"word": "toy", "pos": "noun", "meaning_en": "a thing that children play with", "meaning_ar": "لعبة", "note_ar": "", "note_en": "", "example": "The boy has a new toy car."},
+      {"word": "pillow", "pos": "noun", "meaning_en": "a soft thing for your head in bed", "meaning_ar": "وسادة / مخدة", "note_ar": "", "note_en": "", "example": "I need a soft pillow."},
+      {"word": "map", "pos": "noun", "meaning_en": "a drawing that shows places, roads and countries", "meaning_ar": "خريطة", "note_ar": "", "note_en": "", "example": "Look at the map of the city."},
+      {"word": "world", "pos": "noun", "meaning_en": "the earth and all the countries on it", "meaning_ar": "العالم", "note_ar": "map of the world = خريطة العالم.", "note_en": "", "example": "There are many languages in the world."},
+      {"word": "lamp", "pos": "noun", "meaning_en": "a thing that gives light", "meaning_ar": "مصباح / أباجورة", "note_ar": "", "note_en": "", "example": "Turn on the lamp, please."},
+      {"word": "coffee", "pos": "noun", "meaning_en": "a hot brown drink", "meaning_ar": "قهوة", "note_ar": "get coffee = نشتري/نشرب قهوة.", "note_en": "get coffee = buy or have a coffee.", "example": "Let's get coffee after class."},
+      {"word": "city", "pos": "noun", "meaning_en": "a big town", "meaning_ar": "مدينة", "note_ar": "الجمع cities.", "note_en": "Plural: cities.", "example": "Cairo is a big city."},
+      {"word": "have", "pos": "verb", "meaning_en": "to own something or carry it with you", "meaning_ar": "يملك / لديه / معه", "note_ar": "مع he/she/it نقول has.", "note_en": "With he/she/it: has.", "example": "I have a pen in my bag."},
+      {"word": "know", "pos": "verb", "meaning_en": "to be sure about something", "meaning_ar": "يعرف / متأكد", "note_ar": "", "note_en": "", "example": "I know the answer."},
+      {"word": "learn", "pos": "verb", "meaning_en": "to get new knowledge", "meaning_ar": "يتعلّم", "note_ar": "", "note_en": "", "example": "We learn new words every day."},
+      {"word": "a little", "pos": "phrase", "meaning_en": "a small amount", "meaning_ar": "قليلًا", "note_ar": "", "note_en": "", "example": "I speak a little English."},
+      {"word": "every day", "pos": "phrase", "meaning_en": "on all days", "meaning_ar": "كل يوم", "note_ar": "everyday (كلمة واحدة) صفة بمعنى يومي.", "note_en": "Everyday (one word) is an adjective: everyday clothes.", "example": "I drink water every day."},
+      {"word": "why", "pos": "adverb", "meaning_en": "a question word for the reason", "meaning_ar": "لماذا", "note_ar": "", "note_en": "", "example": "Why are you late?"},
+      {"word": "not", "pos": "adverb", "meaning_en": "a word that makes a sentence negative", "meaning_ar": "ليس / لا", "note_ar": "is not = isn't.", "note_en": "is not = isn't.", "example": "It is not my bag."},
+      {"word": "it", "pos": "pronoun", "meaning_en": "a thing (not a person)", "meaning_ar": "هو / هي (لغير العاقل)", "note_ar": "it is = it's.", "note_en": "it is = it's.", "example": "What is it? It's a map."},
+      {"word": "two", "pos": "number", "meaning_en": "used as 'you two' to talk to two people", "meaning_ar": "أنتما (you two)", "note_ar": "How are you two? = كيف حالكما؟", "note_en": "How are you two? = How are you both?", "example": "Are you two ready?"},
+      {"word": "though", "pos": "adverb", "meaning_en": "but; however (at the end of a sentence)", "meaning_ar": "مع ذلك / لكن", "note_ar": "تُنطق /ðoʊ/.", "note_en": "Say /ðoʊ/.", "example": "It's cold. It's sunny, though."},
+      {"word": "now", "pos": "adverb", "meaning_en": "at this moment", "meaning_ar": "الآن", "note_ar": "", "note_en": "", "example": "Now I know the way."}
+    ],
+    "fine_lines": [
+      {"title": "a vs an", "words": ["a", "an"], "explanation_ar": "نستخدم a قبل كلمة تبدأ بصوت ساكن (consonant): a pen, a book, a map. ونستخدم an قبل كلمة تبدأ بصوت متحرك (a, e, i, o, u): an apple, an egg. المهم هو الصوت وليس الحرف: an hour, a university.", "explanation_en": "Use a before a consonant sound: a pen, a book, a map. Use an before a vowel sound (a, e, i, o, u): an apple, an egg. The sound matters, not the letter: an hour, a university.", "examples": [{"word": "a", "sentence": "I have a lamp."}, {"word": "an", "sentence": "She has an orange in her bag."}, {"word": "an", "sentence": "It is an old map."}]},
+      {"title": "have vs has", "words": ["have", "has"], "explanation_ar": "have مع I / you / we / they. has مع he / she / it.", "explanation_en": "Have goes with I / you / we / they. Has goes with he / she / it.", "examples": [{"word": "have", "sentence": "I have a pen."}, {"word": "has", "sentence": "Anna has a big bag."}]}
+    ],
+    "expressions": [
+      {"phrase": "How are you two?", "meaning_ar": "كيف حالكما؟", "meaning_en": "A friendly question to two people about how they are.", "example": "Hi, Sara! Hi, Mona! How are you two?"},
+      {"phrase": "I am great!", "meaning_ar": "أنا بخير جدًا!", "meaning_en": "A happy answer to 'How are you?'", "example": "How are you? I am great, thanks!"},
+      {"phrase": "You learn a little more every day.", "meaning_ar": "تتعلّم أكثر قليلًا كل يوم.", "meaning_en": "Little by little, you learn more.", "example": "English is not easy, but you learn a little more every day."},
+      {"phrase": "How's the new apartment?", "meaning_ar": "كيف الشقة الجديدة؟", "meaning_en": "A question about someone's new home.", "example": "How's the new school?"},
+      {"phrase": "Let's get coffee!", "meaning_ar": "هيا نشرب قهوة!", "meaning_en": "An invitation to go and have coffee together.", "example": "We have ten minutes. Let's get coffee!"},
+      {"phrase": "Do you have a pen?", "meaning_ar": "هل معك قلم؟", "meaning_en": "A question to ask if someone has something.", "example": "Do you have a pen? I need to write."},
+      {"phrase": "It is not a pen. It is a book.", "meaning_ar": "ليس قلمًا. إنه كتاب.", "meaning_en": "Saying what a thing is not, and what it is.", "example": "It is not a cat. It is a toy."},
+      {"phrase": "Why do you have a map of the world?", "meaning_ar": "لماذا معكِ خريطة للعالم؟", "meaning_en": "A question asking the reason.", "example": "Why do you have two phones?"},
+      {"phrase": "Now I know.", "meaning_ar": "الآن عرفت.", "meaning_en": "I am sure now.", "example": "Now I know the answer."}
+    ],
+    "grammar": [
+      {"title": "What is it? It is a ... / It is not a ...", "explanation_ar": "١) للسؤال عن شيء: What is it?\n٢) الإجابة: It is + a/an + اسم: It is a book.\n٣) النفي: نضع not بعد is: It is not a pen. (الاختصار: It isn't a pen.)\n٤) نستخدم it للأشياء، وليس للأشخاص.", "explanation_en": "1) To ask about a thing: What is it?\n2) Answer: It is + a/an + noun: It is a book.\n3) Negative: put not after is: It is not a pen. (Short: It isn't a pen.)\n4) We use it for things, not people.", "examples": ["What is it? It is a lamp.", "It is not a toy. It's a pillow.", "It isn't a pen. It's a map."]},
+      {"title": "have / has and Do you have ...?", "explanation_ar": "١) have تعني: أملك / معي: I have a pen in my bag.\n٢) مع he/she/it: has: Anna has a map.\n٣) للسؤال: Do you have a pen? (Does she have...? مع she).\n٤) الإجابة: Yes, I do. / No, I don't.", "explanation_en": "1) Have means you own something or it is with you: I have a pen in my bag.\n2) With he/she/it: has: Anna has a map.\n3) Question: Do you have a pen? (Does she have...? with she).\n4) Short answers: Yes, I do. / No, I don't.", "examples": ["I have a book.", "She has a lamp in her bag.", "Do you have a pen? Yes, I do.", "Does he have a map? No, he doesn't."]}
+    ]
+  },
+  "questions": [
+    {"question": "Choose the correct article: I have ___ apple.", "choices": ["a", "an", "the two", "it"], "answer": 1, "explanation_ar": "apple تبدأ بصوت متحرك، فنستخدم an.", "explanation_en": "Apple starts with a vowel sound, so we use an."},
+    {"question": "Choose the correct article: It is ___ map of the world.", "choices": ["a", "an", "is", "two"], "answer": 0, "explanation_ar": "map تبدأ بصوت ساكن، فنستخدم a.", "explanation_en": "Map starts with a consonant sound, so we use a."},
+    {"question": "\"What is it?\" — Choose the best answer.", "choices": ["He is a pen.", "Is it a pen.", "It is a pen.", "It a pen."], "answer": 2, "explanation_ar": "للأشياء نستخدم It is.", "explanation_en": "For things we say It is."},
+    {"question": "Make it negative: It is a toy.", "choices": ["It not is a toy.", "It is no a toy.", "Not it is a toy.", "It is not a toy."], "answer": 3, "explanation_ar": "not تأتي بعد is: It is not.", "explanation_en": "Not comes after is: It is not."},
+    {"question": "What does 'pillow' mean?", "choices": ["مصباح", "خريطة", "وسادة", "لعبة"], "answer": 2, "explanation_ar": "pillow = وسادة.", "explanation_en": "A pillow is a soft thing for your head in bed."},
+    {"question": "Anna ___ a pen in her bag.", "choices": ["have", "has", "is", "are"], "answer": 1, "explanation_ar": "مع she (Anna) نستخدم has.", "explanation_en": "With she (Anna), we use has."},
+    {"question": "Which thing gives light?", "choices": ["a lamp", "a book", "a bag", "a map"], "answer": 0, "explanation_ar": "lamp = مصباح يعطي الضوء.", "explanation_en": "A lamp gives light."},
+    {"question": "Choose the correct question.", "choices": ["You have a pen?", "Have you a pen do?", "Does you have a pen?", "Do you have a pen?"], "answer": 3, "explanation_ar": "مع you نقول: Do you have...?", "explanation_en": "With you, we say: Do you have...?"},
+    {"question": "\"Let's get coffee!\" means:", "choices": ["Let's make a map.", "Let's go and have coffee.", "I have coffee in my bag.", "Coffee is not good."], "answer": 1, "explanation_ar": "Let's get coffee = هيا نشرب قهوة.", "explanation_en": "It is an invitation to go and have coffee."},
+    {"question": "Pete says hello to Anna and Marsha. He asks: \"How are you ___?\"", "choices": ["two", "to", "too", "it"], "answer": 0, "explanation_ar": "you two = أنتما (لشخصين).", "explanation_en": "You two means the two of you."}
+  ]
+}

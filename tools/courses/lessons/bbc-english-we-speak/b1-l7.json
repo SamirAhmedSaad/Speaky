@@ -1,0 +1,366 @@
+{
+  "title": "Expressions with 'it'",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "beat",
+        "pos": "verb",
+        "meaning_en": "to hit many times; to win against someone",
+        "meaning_ar": "يضرب / يهزم",
+        "note_ar": "الماضي beat والتصريف الثالث beaten.",
+        "note_en": "Past: beat; past participle: beaten.",
+        "example": "Our team beat them 3-0."
+      },
+      {
+        "word": "puzzle",
+        "pos": "verb / noun",
+        "meaning_en": "to confuse; a problem that is hard to understand",
+        "meaning_ar": "يحيّر / لغز",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This question puzzles me."
+      },
+      {
+        "word": "amazing",
+        "pos": "adjective",
+        "meaning_en": "very good; surprising",
+        "meaning_ar": "مذهل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The view from the hill is amazing."
+      },
+      {
+        "word": "slang",
+        "pos": "noun",
+        "meaning_en": "very informal words used by a group of people",
+        "meaning_ar": "لغة عامية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "'Slaps' is modern slang."
+      },
+      {
+        "word": "zip",
+        "pos": "noun / verb",
+        "meaning_en": "a fastener on clothes and bags; to close it",
+        "meaning_ar": "سحّاب / يغلق السحاب",
+        "note_ar": "في أمريكا: zipper.",
+        "note_en": "US: zipper.",
+        "example": "Zip up your coat, it's cold."
+      },
+      {
+        "word": "rude",
+        "pos": "adjective",
+        "meaning_en": "not polite",
+        "meaning_ar": "وقح / غير مهذب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It's rude to interrupt."
+      },
+      {
+        "word": "rooftop",
+        "pos": "noun",
+        "meaning_en": "the top outside part of a building",
+        "meaning_ar": "سطح المبنى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We watched the fireworks from the rooftop."
+      },
+      {
+        "word": "announce",
+        "pos": "verb",
+        "meaning_en": "to tell people something officially or publicly",
+        "meaning_ar": "يعلن",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They announced the winner."
+      },
+      {
+        "word": "coincidence",
+        "pos": "noun",
+        "meaning_en": "when two things happen together by chance",
+        "meaning_ar": "صدفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What a coincidence - we have the same birthday!"
+      },
+      {
+        "word": "lid",
+        "pos": "noun",
+        "meaning_en": "the top cover of a pot or box",
+        "meaning_ar": "غطاء",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Put the lid on the pan."
+      },
+      {
+        "word": "control",
+        "pos": "verb",
+        "meaning_en": "to keep something at the right level; to make it do what you want",
+        "meaning_ar": "يتحكّم / يضبط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Try to control your spending."
+      },
+      {
+        "word": "secret",
+        "pos": "noun",
+        "meaning_en": "something you don't tell others",
+        "meaning_ar": "سرّ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you keep a secret?"
+      },
+      {
+        "word": "present",
+        "pos": "noun",
+        "meaning_en": "a gift",
+        "meaning_ar": "هدية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Thank you for the lovely present."
+      },
+      {
+        "word": "appreciate",
+        "pos": "verb",
+        "meaning_en": "to be thankful for something",
+        "meaning_ar": "يقدّر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I really appreciate your help."
+      },
+      {
+        "word": "reason",
+        "pos": "noun",
+        "meaning_en": "why something happens",
+        "meaning_ar": "سبب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "What's the reason for the delay?"
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "Zip it vs keep a lid on it",
+        "words": [
+          "zip it",
+          "keep a lid on it"
+        ],
+        "explanation_ar": "zip it طريقة وقحة وقوية لتقول لشخص أن يسكت الآن. keep a lid on it لها معنيان: أن تُبقي شيئاً سراً، أو أن تتحكم في شيء (مشاعر، مصاريف) كي لا يزيد.",
+        "explanation_en": "'Zip it!' is a rude, strong way to tell someone to be quiet now. 'Keep a lid on it' means to keep something secret, or to control something (feelings, costs) so it doesn't grow.",
+        "examples": [
+          {
+            "word": "zip it",
+            "sentence": "Zip it! I'm trying to listen."
+          },
+          {
+            "word": "keep a lid on it",
+            "sentence": "The surprise party is tomorrow - keep a lid on it!"
+          }
+        ]
+      },
+      {
+        "title": "Keep a lid on it vs shout it from the rooftops",
+        "words": [
+          "keep a lid on it",
+          "shout it from the rooftops"
+        ],
+        "explanation_ar": "تعبيران متعاكسان: keep a lid on it تعني اكتم الخبر، و shout it from the rooftops تعني أخبر الجميع بفخر وسعادة.",
+        "explanation_en": "Opposites: 'keep a lid on it' = keep the news secret; 'shout it from the rooftops' = tell everyone happily.",
+        "examples": [
+          {
+            "word": "keep a lid on it",
+            "sentence": "Keep a lid on the news until it's official."
+          },
+          {
+            "word": "shout it from the rooftops",
+            "sentence": "I passed my driving test - I want to shout it from the rooftops!"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "it beats me",
+        "meaning_ar": "لا أعرف / لا أفهم ذلك",
+        "meaning_en": "I don't know or understand it",
+        "example": "It beats me why the bus is always late."
+      },
+      {
+        "phrase": "it slaps",
+        "meaning_ar": "إنه رائع جداً (عامية)",
+        "meaning_en": "(slang) it's excellent, especially music, food or a film",
+        "example": "Have you tried this new burger place? It slaps!"
+      },
+      {
+        "phrase": "zip it!",
+        "meaning_ar": "اسكت! (بوقاحة)",
+        "meaning_en": "a rude way to tell someone to stop talking",
+        "example": "Zip it! You've said enough."
+      },
+      {
+        "phrase": "shout it from the rooftops",
+        "meaning_ar": "يعلنها للجميع بفرح",
+        "meaning_en": "to tell everyone about something because you are happy or proud",
+        "example": "She got the scholarship and wanted to shout it from the rooftops."
+      },
+      {
+        "phrase": "it's a small world",
+        "meaning_ar": "ما أصغر العالم!",
+        "meaning_en": "said when you meet someone you know in a place you didn't expect, or find a surprising connection",
+        "example": "My new neighbour went to my school - it's a small world!"
+      },
+      {
+        "phrase": "keep a lid on it",
+        "meaning_ar": "اكتم الأمر / تحكّم فيه",
+        "meaning_en": "to keep something secret, or to control something so it doesn't get worse",
+        "example": "Prices are rising, so I'm trying to keep a lid on my spending."
+      },
+      {
+        "phrase": "it's the thought that counts",
+        "meaning_ar": "العبرة بالنية",
+        "meaning_en": "the kind idea behind a present matters more than the present itself",
+        "example": "The scarf is the wrong colour, but it's the thought that counts."
+      },
+      {
+        "phrase": "it's the ... for me",
+        "meaning_ar": "هذا الشيء تحديداً هو ما يعجبني/يزعجني",
+        "meaning_en": "(slang) used to name the exact thing you love or dislike about something",
+        "example": "I love this café. It's the fresh bread for me!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "'It' as a dummy subject",
+        "explanation_ar": "في كثير من التعابير لا تشير it إلى شيء محدد، بل هي فاعل شكلي: It beats me, It's a small world. كذلك في تعبير It's the ... for me نضع بعد the الشيء الذي نقصده.",
+        "explanation_en": "In many expressions 'it' doesn't point to a clear thing - it's an empty (dummy) subject: 'It beats me', 'It's a small world'. In 'It's the ... for me', we put the exact thing after 'the'.",
+        "examples": [
+          "It beats me how he did it.",
+          "It's a small world!",
+          "It's the colours for me."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'It beats me' means:",
+      "choices": [
+        "Someone hit me",
+        "I don't know",
+        "I won",
+        "I'm tired"
+      ],
+      "answer": 1,
+      "explanation_ar": "it beats me = لا أعرف.",
+      "explanation_en": "'It beats me' = I don't know."
+    },
+    {
+      "question": "This new song is brilliant - it ___ !",
+      "choices": [
+        "slaps",
+        "zips",
+        "beats me",
+        "counts"
+      ],
+      "answer": 0,
+      "explanation_ar": "it slaps = إنه رائع جداً.",
+      "explanation_en": "'It slaps' = it's excellent."
+    },
+    {
+      "question": "Which expression is RUDE?",
+      "choices": [
+        "it's a small world",
+        "it's the thought that counts",
+        "zip it",
+        "it beats me"
+      ],
+      "answer": 2,
+      "explanation_ar": "zip it طريقة وقحة لطلب السكوت.",
+      "explanation_en": "'Zip it' is a rude way to say 'be quiet'."
+    },
+    {
+      "question": "I got the job! I want to ___ .",
+      "choices": [
+        "keep a lid on it",
+        "zip it",
+        "beat it",
+        "shout it from the rooftops"
+      ],
+      "answer": 3,
+      "explanation_ar": "shout it from the rooftops = أخبر الجميع بفرح.",
+      "explanation_en": "Tell everyone happily."
+    },
+    {
+      "question": "I met my teacher on holiday in another country. ___ !",
+      "choices": [
+        "It's a small world",
+        "It slaps",
+        "Zip it",
+        "It beats me"
+      ],
+      "answer": 0,
+      "explanation_ar": "it's a small world تقال عند لقاء معروف في مكان غير متوقع.",
+      "explanation_en": "Said when you meet someone you know somewhere unexpected."
+    },
+    {
+      "question": "The plan is secret, so please ___ .",
+      "choices": [
+        "shout it from the rooftops",
+        "keep a lid on it",
+        "it slaps",
+        "it beats me"
+      ],
+      "answer": 1,
+      "explanation_ar": "keep a lid on it = اكتم الأمر.",
+      "explanation_en": "Keep it secret."
+    },
+    {
+      "question": "Grandma gave me socks that are too small, but ___ .",
+      "choices": [
+        "it slaps",
+        "zip it",
+        "it's the thought that counts",
+        "it's a small world"
+      ],
+      "answer": 2,
+      "explanation_ar": "it's the thought that counts = العبرة بالنية.",
+      "explanation_en": "The kind idea matters most."
+    },
+    {
+      "question": "'I love that film. It's the music ___ !'",
+      "choices": [
+        "to me",
+        "by me",
+        "on me",
+        "for me"
+      ],
+      "answer": 3,
+      "explanation_ar": "الصيغة الصحيحة It's the ... for me.",
+      "explanation_en": "The pattern is 'It's the ... for me'."
+    },
+    {
+      "question": "Which two expressions are OPPOSITES?",
+      "choices": [
+        "keep a lid on it / shout it from the rooftops",
+        "it slaps / it's the ... for me",
+        "zip it / keep quiet",
+        "it beats me / I don't know"
+      ],
+      "answer": 0,
+      "explanation_ar": "اكتم الأمر عكس أعلنه للجميع.",
+      "explanation_en": "Keep it secret vs tell everyone."
+    },
+    {
+      "question": "'It beats me' - what is 'it' here?",
+      "choices": [
+        "a person",
+        "an empty subject, not a real thing",
+        "a drum",
+        "a game"
+      ],
+      "answer": 1,
+      "explanation_ar": "it هنا فاعل شكلي لا يشير لشيء محدد.",
+      "explanation_en": "'It' is an empty (dummy) subject."
+    }
+  ]
+}

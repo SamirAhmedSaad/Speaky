@@ -1,0 +1,266 @@
+{
+  "title": "Come here",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "come",
+        "pos": "verb",
+        "meaning_en": "move to the place where the speaker is",
+        "meaning_ar": "تعالَ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Come here, Mary."
+      },
+      {
+        "word": "here",
+        "pos": "adverb",
+        "meaning_en": "in or to this place",
+        "meaning_ar": "هنا",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Come here, please."
+      },
+      {
+        "word": "sit down",
+        "pos": "phrasal verb",
+        "meaning_en": "move your body onto a chair",
+        "meaning_ar": "اجلس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sit down, please."
+      },
+      {
+        "word": "stand up",
+        "pos": "phrasal verb",
+        "meaning_en": "get up on your feet",
+        "meaning_ar": "قِف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Stand up, please."
+      },
+      {
+        "word": "please",
+        "pos": "adverb",
+        "meaning_en": "a polite word when you ask",
+        "meaning_ar": "من فضلك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sit down, please."
+      },
+      {
+        "word": "home",
+        "pos": "noun",
+        "meaning_en": "the place where you live",
+        "meaning_ar": "البيت",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm home!"
+      },
+      {
+        "word": "pudding",
+        "pos": "noun",
+        "meaning_en": "a soft sweet food",
+        "meaning_ar": "حلوى (بودينغ)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Have some pudding."
+      },
+      {
+        "word": "sorry",
+        "pos": "adjective",
+        "meaning_en": "a word we say when we make a mistake",
+        "meaning_ar": "آسف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Sorry, Toady."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "sit down vs stand up",
+        "words": [
+          "sit down",
+          "stand up"
+        ],
+        "explanation_ar": "sit down = اجلس، و stand up = قف. هما عكس بعض.",
+        "explanation_en": "\"sit down\" and \"stand up\" are opposites.",
+        "examples": [
+          {
+            "word": "sit down",
+            "sentence": "Sit down, please. The lesson is starting."
+          },
+          {
+            "word": "stand up",
+            "sentence": "Stand up, please. It's time to go."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Come here.",
+        "meaning_ar": "تعالَ هنا.",
+        "meaning_en": "Move to me.",
+        "example": "Come here, Mary."
+      },
+      {
+        "phrase": "Sit down, please.",
+        "meaning_ar": "اجلس من فضلك.",
+        "meaning_en": "A polite way to ask someone to sit.",
+        "example": "Sit down, please. Have some pudding."
+      },
+      {
+        "phrase": "Stand up, please.",
+        "meaning_ar": "قف من فضلك.",
+        "meaning_en": "A polite way to ask someone to stand.",
+        "example": "Stand up, please. You are on my bag."
+      },
+      {
+        "phrase": "I'm home!",
+        "meaning_ar": "وصلت إلى البيت!",
+        "meaning_en": "Said when you come back home.",
+        "example": "Mom, I'm home!"
+      },
+      {
+        "phrase": "Yes, Mom.",
+        "meaning_ar": "حاضر يا أمي.",
+        "meaning_en": "Saying OK to your mother.",
+        "example": "Wash your hands. - Yes, Mom."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Giving instructions (imperatives)",
+        "explanation_ar": "لنطلب من شخص أن يفعل شيئًا نبدأ بالفعل مباشرة بدون فاعل: Come here. Sit down. ونضيف please للأدب.",
+        "explanation_en": "To tell someone to do something, start with the verb: Come here. Sit down. Add \"please\" to be polite.",
+        "examples": [
+          "Come here, Mary.",
+          "Sit down, please.",
+          "Stand up, please."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "The teacher wants you to come to her. She says: ___",
+      "choices": [
+        "Come here.",
+        "Sit down.",
+        "Stand up.",
+        "Have some."
+      ],
+      "answer": 0,
+      "explanation_ar": "Come here = تعالَ هنا.",
+      "explanation_en": "\"Come here\" = move to me."
+    },
+    {
+      "question": "The opposite of \"sit down\" is ___.",
+      "choices": [
+        "come here",
+        "stand up",
+        "look",
+        "go home"
+      ],
+      "answer": 1,
+      "explanation_ar": "عكس اجلس هو قف.",
+      "explanation_en": "The opposite of sit down is stand up."
+    },
+    {
+      "question": "___ down, please.",
+      "choices": [
+        "Stand",
+        "Come",
+        "Sit",
+        "Have"
+      ],
+      "answer": 2,
+      "explanation_ar": "Sit down = اجلس.",
+      "explanation_en": "Sit down."
+    },
+    {
+      "question": "Which sentence is polite?",
+      "choices": [
+        "Sit down!",
+        "Sit down, please.",
+        "You sit.",
+        "Sit you down."
+      ],
+      "answer": 1,
+      "explanation_ar": "كلمة please تجعل الطلب مهذبًا.",
+      "explanation_en": "\"please\" makes it polite."
+    },
+    {
+      "question": "Mom says \"Have some pudding.\" You answer: ___",
+      "choices": [
+        "Yes, Mom.",
+        "Stand up.",
+        "Come here.",
+        "Where's Mom?"
+      ],
+      "answer": 0,
+      "explanation_ar": "نقبل بأدب: Yes, Mom.",
+      "explanation_en": "Say \"Yes, Mom.\""
+    },
+    {
+      "question": "\"here\" means ___.",
+      "choices": [
+        "هناك",
+        "الآن",
+        "هنا",
+        "هذا"
+      ],
+      "answer": 2,
+      "explanation_ar": "here = هنا.",
+      "explanation_en": "here = in this place."
+    },
+    {
+      "question": "You sit on your friend's toy by mistake. Your friend says: ___",
+      "choices": [
+        "Sit down, please.",
+        "Come here.",
+        "Stand up, please.",
+        "I'm home."
+      ],
+      "answer": 2,
+      "explanation_ar": "يطلب منك أن تقف لأنك جلست على لعبته.",
+      "explanation_en": "He asks you to stand up."
+    },
+    {
+      "question": "Choose the correct instruction.",
+      "choices": [
+        "You come here.",
+        "Come here.",
+        "Comes here.",
+        "Coming here."
+      ],
+      "answer": 1,
+      "explanation_ar": "جملة الأمر تبدأ بالفعل الأساسي.",
+      "explanation_en": "Instructions start with the base verb."
+    },
+    {
+      "question": "\"Sorry\" is for ___.",
+      "choices": [
+        "saying hello",
+        "asking a question",
+        "a mistake",
+        "giving food"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول Sorry عند الخطأ.",
+      "explanation_en": "We say sorry for a mistake."
+    },
+    {
+      "question": "You come back home. You say: ___",
+      "choices": [
+        "Come here!",
+        "Sit down!",
+        "Stand up!",
+        "I'm home!"
+      ],
+      "answer": 3,
+      "explanation_ar": "عند الوصول للبيت نقول I'm home!",
+      "explanation_en": "Say \"I'm home!\""
+    }
+  ]
+}

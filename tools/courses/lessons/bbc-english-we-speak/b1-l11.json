@@ -1,0 +1,385 @@
+{
+  "title": "Expressions with 'no', 'not' and 'nothing'",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "excuse",
+        "pos": "noun",
+        "meaning_en": "a reason you give for something you did wrong",
+        "meaning_ar": "عذر / حجة",
+        "note_ar": "الاسم يُنطق /ɪkˈskjuːs/ والفعل /ɪkˈskjuːz/.",
+        "note_en": "Noun /ɪkˈskjuːs/, verb /ɪkˈskjuːz/.",
+        "example": "No excuses - finish your work!"
+      },
+      {
+        "word": "delay",
+        "pos": "noun / verb",
+        "meaning_en": "a wait; to make something late",
+        "meaning_ar": "تأخير / يؤخر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There was a delay at the airport."
+      },
+      {
+        "word": "fear",
+        "pos": "noun",
+        "meaning_en": "the feeling of being afraid",
+        "meaning_ar": "خوف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She has no fear of the dark."
+      },
+      {
+        "word": "scared",
+        "pos": "adjective",
+        "meaning_en": "afraid",
+        "meaning_ar": "خائف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My little brother is scared of dogs."
+      },
+      {
+        "word": "truth",
+        "pos": "noun",
+        "meaning_en": "what is true",
+        "meaning_ar": "الحقيقة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Always tell the truth."
+      },
+      {
+        "word": "cap",
+        "pos": "noun / slang",
+        "meaning_en": "a hat with a peak; (slang) a lie",
+        "meaning_ar": "قبعة / (عامية) كذبة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He wore a blue cap."
+      },
+      {
+        "word": "patch",
+        "pos": "noun",
+        "meaning_en": "a piece of cloth used to cover a hole",
+        "meaning_ar": "رقعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "My jeans have a patch on the knee."
+      },
+      {
+        "word": "worse",
+        "pos": "adjective",
+        "meaning_en": "less good (comparative of bad)",
+        "meaning_ar": "أسوأ",
+        "note_ar": "bad ثم worse ثم worst.",
+        "note_en": "bad - worse - worst.",
+        "example": "The weather is worse today."
+      },
+      {
+        "word": "dislike",
+        "pos": "verb",
+        "meaning_en": "not to like",
+        "meaning_ar": "لا يحبّ / يكره",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I dislike cold weather."
+      },
+      {
+        "word": "suggest",
+        "pos": "verb",
+        "meaning_en": "to give an idea",
+        "meaning_ar": "يقترح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I suggest we leave early."
+      },
+      {
+        "word": "understand",
+        "pos": "verb",
+        "meaning_en": "to know the meaning of something",
+        "meaning_ar": "يفهم",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I understand what you mean."
+      },
+      {
+        "word": "simple",
+        "pos": "adjective",
+        "meaning_en": "easy",
+        "meaning_ar": "بسيط",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The recipe is simple."
+      },
+      {
+        "word": "answer",
+        "pos": "noun",
+        "meaning_en": "what you say when someone asks you something",
+        "meaning_ar": "جواب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "That's not a clear answer."
+      },
+      {
+        "word": "partly",
+        "pos": "adverb",
+        "meaning_en": "not completely; to some degree",
+        "meaning_ar": "جزئياً",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I'm partly right."
+      },
+      {
+        "word": "rule",
+        "pos": "noun",
+        "meaning_en": "something that says what you must or must not do",
+        "meaning_ar": "قاعدة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Follow the school rules."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "No fear vs no cap",
+        "words": [
+          "no fear",
+          "no cap"
+        ],
+        "explanation_ar": "no fear تعبير بريطاني غير رسمي يعني 'بالتأكيد لا!' رداً على اقتراح. no cap عامية حديثة تعني 'بصدق، لا أكذب'.",
+        "explanation_en": "'No fear!' (UK, informal) = 'certainly not!' when you refuse a suggestion. 'No cap' (slang) = 'honestly, I'm not lying'.",
+        "examples": [
+          {
+            "word": "no fear",
+            "sentence": "Go swimming in that cold lake? No fear!"
+          },
+          {
+            "word": "no cap",
+            "sentence": "This is the best pizza in town, no cap."
+          }
+        ]
+      },
+      {
+        "title": "Not a patch on vs not like the sound of",
+        "words": [
+          "not a patch on something",
+          "not like the sound of something"
+        ],
+        "explanation_ar": "not a patch on something تعني أن شيئاً أسوأ بكثير من شيء آخر (مقارنة). not like the sound of something تعني أن ما سمعته يبدو سيئاً أو مقلقاً.",
+        "explanation_en": "'Not a patch on' compares two things: the first is much worse. 'Not like the sound of' = what you heard seems bad or worrying.",
+        "examples": [
+          {
+            "word": "not a patch on something",
+            "sentence": "The new café isn't a patch on the old one."
+          },
+          {
+            "word": "not like the sound of something",
+            "sentence": "A three-hour meeting? I don't like the sound of that."
+          }
+        ]
+      },
+      {
+        "title": "Say no more vs yes and no",
+        "words": [
+          "say no more",
+          "yes and no"
+        ],
+        "explanation_ar": "say no more تعني: فهمت تماماً ولا داعي لمزيد من الشرح. yes and no جواب يعني: صحيح جزئياً، الأمر ليس بسيطاً.",
+        "explanation_en": "'Say no more' = I understand completely, no need to explain. 'Yes and no' = partly yes, partly no; it's not simple.",
+        "examples": [
+          {
+            "word": "say no more",
+            "sentence": "You need help moving house? Say no more - I'll come."
+          },
+          {
+            "word": "yes and no",
+            "sentence": "Did you enjoy the trip? - Yes and no. The hotel was bad."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "no ifs or buts",
+        "meaning_ar": "بلا أعذار ولا نقاش",
+        "meaning_en": "it must be done; no excuses or arguments",
+        "example": "You'll do your homework before you play - no ifs or buts."
+      },
+      {
+        "phrase": "no fear!",
+        "meaning_ar": "بالتأكيد لا!",
+        "meaning_en": "(UK, informal) certainly not",
+        "example": "'Want to clean the bathroom?' - 'No fear!'"
+      },
+      {
+        "phrase": "no cap",
+        "meaning_ar": "بصدق / بلا كذب (عامية)",
+        "meaning_en": "(slang) honestly; I'm telling the truth",
+        "example": "That was the funniest film I've ever seen, no cap."
+      },
+      {
+        "phrase": "not a patch on something",
+        "meaning_ar": "لا يُقارن بـ (أسوأ بكثير)",
+        "meaning_en": "much worse than something else",
+        "example": "This sequel isn't a patch on the first film."
+      },
+      {
+        "phrase": "not like the sound of something",
+        "meaning_ar": "لا يعجبني ما أسمع",
+        "meaning_en": "to think something you hear about seems bad or worrying",
+        "example": "Heavy rain all weekend? I don't like the sound of that."
+      },
+      {
+        "phrase": "say no more",
+        "meaning_ar": "فهمت، لا داعي للمزيد",
+        "meaning_en": "I understand what you mean or want; you don't need to explain",
+        "example": "You're hungry? Say no more - let's eat."
+      },
+      {
+        "phrase": "there's nothing to it",
+        "meaning_ar": "إنه سهل جداً",
+        "meaning_en": "it's very easy",
+        "example": "Changing a light bulb? There's nothing to it."
+      },
+      {
+        "phrase": "yes and no",
+        "meaning_ar": "نعم ولا (جزئياً)",
+        "meaning_en": "an answer meaning 'partly true and partly not'",
+        "example": "Is the job difficult? - Yes and no."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Short negative answers",
+        "explanation_ar": "في الكلام اليومي نرد بعبارات نفي قصيرة بدل الجمل الكاملة: No fear! (لا أبداً)، Say no more (فهمت)، Yes and no (جزئياً). ونستخدم don't في: I don't like the sound of that.",
+        "explanation_en": "In everyday speech we often answer with short fixed phrases instead of full sentences: 'No fear!', 'Say no more', 'Yes and no'. Use 'don't' with the verb: 'I don't like the sound of that.'",
+        "examples": [
+          "Do you want to come? - No fear!",
+          "I don't like the sound of that.",
+          "It isn't a patch on the old one."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "'No ifs or buts' means:",
+      "choices": [
+        "maybe",
+        "no excuses - it must happen",
+        "I don't know",
+        "please be careful"
+      ],
+      "answer": 1,
+      "explanation_ar": "no ifs or buts = بلا أعذار ولا نقاش.",
+      "explanation_en": "No excuses; it must be done."
+    },
+    {
+      "question": "'Want to sleep in a tent in winter?' - '___ !' (= certainly not)",
+      "choices": [
+        "No fear",
+        "No cap",
+        "Say no more",
+        "Yes and no"
+      ],
+      "answer": 0,
+      "explanation_ar": "no fear = بالتأكيد لا.",
+      "explanation_en": "'No fear!' = certainly not."
+    },
+    {
+      "question": "'No cap' means:",
+      "choices": [
+        "no hat",
+        "no problem",
+        "honestly, it's true",
+        "no money"
+      ],
+      "answer": 2,
+      "explanation_ar": "no cap = بصدق.",
+      "explanation_en": "It means 'I'm telling the truth'."
+    },
+    {
+      "question": "The new phone isn't ___ on my old one.",
+      "choices": [
+        "a cap",
+        "a fear",
+        "a sound",
+        "a patch"
+      ],
+      "answer": 3,
+      "explanation_ar": "not a patch on = أسوأ بكثير من.",
+      "explanation_en": "'Not a patch on' = much worse than."
+    },
+    {
+      "question": "'We'll work late every day this week.' - 'I don't ___ of that.'",
+      "choices": [
+        "like the sound",
+        "say no more",
+        "have a patch",
+        "know the cap"
+      ],
+      "answer": 0,
+      "explanation_ar": "not like the sound of something = لا يعجبني ما أسمع.",
+      "explanation_en": "It sounds bad."
+    },
+    {
+      "question": "'You need a lift to the airport?' - '___ . I'll drive you.'",
+      "choices": [
+        "No fear",
+        "Say no more",
+        "No cap",
+        "Not a patch"
+      ],
+      "answer": 1,
+      "explanation_ar": "say no more = فهمت ولا داعي للمزيد.",
+      "explanation_en": "'Say no more' = I understand, I'll help."
+    },
+    {
+      "question": "'There's nothing to it' means:",
+      "choices": [
+        "It's empty",
+        "It's very difficult",
+        "It's very easy",
+        "It's boring"
+      ],
+      "answer": 2,
+      "explanation_ar": "there's nothing to it = سهل جداً.",
+      "explanation_en": "It's very easy."
+    },
+    {
+      "question": "'Did you like the city?' - 'Yes and no.' This means:",
+      "choices": [
+        "completely yes",
+        "completely no",
+        "I didn't go",
+        "partly yes, partly no"
+      ],
+      "answer": 3,
+      "explanation_ar": "yes and no = جزئياً.",
+      "explanation_en": "Partly yes and partly no."
+    },
+    {
+      "question": "Which expression REFUSES a suggestion?",
+      "choices": [
+        "no fear",
+        "no cap",
+        "say no more",
+        "there's nothing to it"
+      ],
+      "answer": 0,
+      "explanation_ar": "no fear رفض قاطع للاقتراح.",
+      "explanation_en": "'No fear' refuses."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I not like the sound of that.",
+        "I don't like the sound of that.",
+        "I don't like the sounds to that.",
+        "I no like the sound of that."
+      ],
+      "answer": 1,
+      "explanation_ar": "النفي الصحيح: I don't like.",
+      "explanation_en": "Correct negative: 'I don't like'."
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "title": "Joe Goes Fishing",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "birthday",
+        "pos": "noun",
+        "meaning_en": "the day you were born, every year",
+        "meaning_ar": "عيد الميلاد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Happy birthday, Joe!"
+      },
+      {
+        "word": "present",
+        "pos": "noun",
+        "meaning_en": "a gift",
+        "meaning_ar": "هدية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe looked at his birthday presents."
+      },
+      {
+        "word": "trainers",
+        "pos": "noun",
+        "meaning_en": "sports shoes (UK)",
+        "meaning_ar": "حذاء رياضي",
+        "note_ar": "في أمريكا: sneakers",
+        "note_en": "US: sneakers.",
+        "example": "He wore his new trainers."
+      },
+      {
+        "word": "fishing rod",
+        "pos": "noun",
+        "meaning_en": "a long stick with a line for catching fish",
+        "meaning_ar": "صنّارة صيد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Dad gave him a fishing rod."
+      },
+      {
+        "word": "watch",
+        "pos": "noun",
+        "meaning_en": "a small clock you wear on your wrist",
+        "meaning_ar": "ساعة يد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Grandpa gave him a watch."
+      },
+      {
+        "word": "river",
+        "pos": "noun",
+        "meaning_en": "water that moves across land to the sea",
+        "meaning_ar": "نهر",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The river was near his house."
+      },
+      {
+        "word": "swan",
+        "pos": "noun",
+        "meaning_en": "a big white bird with a long neck",
+        "meaning_ar": "بجعة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A white swan was on the beach."
+      },
+      {
+        "word": "fish",
+        "pos": "noun / verb",
+        "meaning_en": "an animal that lives in water; to catch fish",
+        "meaning_ar": "سمكة / يصطاد السمك",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe began to fish."
+      },
+      {
+        "word": "worm",
+        "pos": "noun",
+        "meaning_en": "a small long animal with no legs that lives in soil",
+        "meaning_ar": "دودة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He put a worm on the line."
+      },
+      {
+        "word": "mud",
+        "pos": "noun",
+        "meaning_en": "wet soft earth",
+        "meaning_ar": "طين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "His trainers were brown with mud."
+      },
+      {
+        "word": "wet",
+        "pos": "adjective",
+        "meaning_en": "covered with water",
+        "meaning_ar": "مبلّل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Joe was wet through."
+      },
+      {
+        "word": "lose",
+        "pos": "verb",
+        "meaning_en": "not be able to find something",
+        "meaning_ar": "يفقد / يضيّع",
+        "note_ar": "الماضي: lost",
+        "note_en": "Past: lost.",
+        "example": "Have you lost this?"
+      },
+      {
+        "word": "find",
+        "pos": "verb",
+        "meaning_en": "see something you were looking for",
+        "meaning_ar": "يجد",
+        "note_ar": "الماضي: found",
+        "note_en": "Past: found.",
+        "example": "I found it five minutes ago."
+      },
+      {
+        "word": "promise",
+        "pos": "verb",
+        "meaning_en": "say you will really do something",
+        "meaning_ar": "يَعِد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I will, Mum. I promise."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "lose vs find",
+        "words": [
+          "lose",
+          "find"
+        ],
+        "explanation_ar": "lose = يفقد الشيء، و find = يجده. هما عكس بعض.",
+        "explanation_en": "\"lose\" and \"find\" are opposites.",
+        "examples": [
+          {
+            "word": "lose",
+            "sentence": "Joe lost his watch in the river."
+          },
+          {
+            "word": "find",
+            "sentence": "The man found the fishing rod."
+          }
+        ]
+      },
+      {
+        "title": "trainers (UK) vs sneakers (US)",
+        "words": [
+          "trainers",
+          "sneakers"
+        ],
+        "explanation_ar": "الكلمتان تعنيان الحذاء الرياضي: trainers في بريطانيا و sneakers في أمريكا.",
+        "explanation_en": "Both mean sports shoes: trainers (UK), sneakers (US).",
+        "examples": [
+          {
+            "word": "trainers",
+            "sentence": "My new trainers are white."
+          },
+          {
+            "word": "sneakers",
+            "sentence": "I need new sneakers."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "Happy birthday!",
+        "meaning_ar": "عيد ميلاد سعيد!",
+        "meaning_en": "Said on someone's birthday.",
+        "example": "Happy birthday, Joe! Here is your present."
+      },
+      {
+        "phrase": "Look after it.",
+        "meaning_ar": "اعتنِ به.",
+        "meaning_en": "Keep it safe.",
+        "example": "This watch is expensive. Look after it."
+      },
+      {
+        "phrase": "I promise.",
+        "meaning_ar": "أَعِدُك.",
+        "meaning_en": "I will really do it.",
+        "example": "I will be home at six. I promise."
+      },
+      {
+        "phrase": "Have you lost this?",
+        "meaning_ar": "هل أضعتَ هذا؟",
+        "meaning_en": "Asking if something belongs to someone.",
+        "example": "Have you lost this? - Yes! Thank you."
+      },
+      {
+        "phrase": "Thank you so much.",
+        "meaning_ar": "شكرًا جزيلًا.",
+        "meaning_en": "A strong way to say thank you.",
+        "example": "You found my bag! Thank you so much."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past simple: irregular verbs",
+        "explanation_ar": "أفعال غير منتظمة في القصة: give → gave، fall → fell، lose → lost، find → found، run → ran.",
+        "explanation_en": "Irregular past verbs in the story: give → gave, fall → fell, lose → lost, find → found, run → ran.",
+        "examples": [
+          "Grandpa gave him a watch.",
+          "Joe fell in the mud.",
+          "The man found the rod."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What did Grandpa give Joe?",
+      "choices": [
+        "a watch",
+        "a fishing rod",
+        "trainers",
+        "a swan"
+      ],
+      "answer": 0,
+      "explanation_ar": "أعطاه جده ساعة.",
+      "explanation_en": "Grandpa gave him a watch."
+    },
+    {
+      "question": "How old is Joe now?",
+      "choices": [
+        "ten",
+        "twelve",
+        "eleven",
+        "fifteen"
+      ],
+      "answer": 1,
+      "explanation_ar": "عمر جو اثنا عشر عامًا.",
+      "explanation_en": "He is twelve."
+    },
+    {
+      "question": "Who found Joe's watch?",
+      "choices": [
+        "Mum",
+        "a man in a canoe",
+        "the swan",
+        "Grandpa"
+      ],
+      "answer": 2,
+      "explanation_ar": "البجعة أخرجت الساعة من الماء.",
+      "explanation_en": "The swan pulled it out of the water."
+    },
+    {
+      "question": "Who found the fishing rod?",
+      "choices": [
+        "the swan",
+        "Dad",
+        "Joe",
+        "a man in a canoe"
+      ],
+      "answer": 3,
+      "explanation_ar": "رجل في قارب كانو وجد الصنارة.",
+      "explanation_en": "A man in a canoe found it."
+    },
+    {
+      "question": "Joe ___ in the mud. (fall, past)",
+      "choices": [
+        "fell",
+        "falled",
+        "fall",
+        "felt"
+      ],
+      "answer": 0,
+      "explanation_ar": "ماضي fall هو fell.",
+      "explanation_en": "The past of fall is fell."
+    },
+    {
+      "question": "The opposite of \"lose\" is ___.",
+      "choices": [
+        "wet",
+        "find",
+        "fish",
+        "promise"
+      ],
+      "answer": 1,
+      "explanation_ar": "عكس lose هو find.",
+      "explanation_en": "The opposite of lose is find."
+    },
+    {
+      "question": "Someone gives you a present on your birthday. They say: ___",
+      "choices": [
+        "I promise.",
+        "Look after it.",
+        "Happy birthday!",
+        "Have you lost this?"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقول Happy birthday!",
+      "explanation_en": "Say \"Happy birthday!\""
+    },
+    {
+      "question": "In American English, \"trainers\" are ___.",
+      "choices": [
+        "boots",
+        "socks",
+        "sandals",
+        "sneakers"
+      ],
+      "answer": 3,
+      "explanation_ar": "في أمريكا: sneakers.",
+      "explanation_en": "US: sneakers."
+    },
+    {
+      "question": "Wet soft earth is ___.",
+      "choices": [
+        "mud",
+        "rain",
+        "river",
+        "straw"
+      ],
+      "answer": 0,
+      "explanation_ar": "الطين = mud.",
+      "explanation_en": "mud = wet soft earth."
+    },
+    {
+      "question": "\"promise\" means ___.",
+      "choices": [
+        "يَعِد",
+        "يجد",
+        "يصطاد",
+        "يفقد"
+      ],
+      "answer": 0,
+      "explanation_ar": "promise = يَعِد.",
+      "explanation_en": "promise = say you will really do it."
+    }
+  ]
+}

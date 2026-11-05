@@ -1,0 +1,419 @@
+{
+  "title": "A Shopping Trip (Past Simple)",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "mall",
+        "pos": "noun",
+        "meaning_en": "a big building with many shops",
+        "meaning_ar": "مركز تسوّق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We went to the mall on Friday."
+      },
+      {
+        "word": "store",
+        "pos": "noun",
+        "meaning_en": "a shop",
+        "meaning_ar": "متجر",
+        "note_ar": "في بريطانيا: shop",
+        "note_en": "UK: shop.",
+        "example": "The store opens at nine."
+      },
+      {
+        "word": "clothing store",
+        "pos": "noun",
+        "meaning_en": "a shop that sells clothes",
+        "meaning_ar": "متجر ملابس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I bought a shirt at the clothing store."
+      },
+      {
+        "word": "stop by",
+        "pos": "phrasal verb",
+        "meaning_en": "visit a place for a short time",
+        "meaning_ar": "يمرّ بـ / يعرّج على",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Let's stop by the bakery."
+      },
+      {
+        "word": "end up",
+        "pos": "phrasal verb",
+        "meaning_en": "finally do something you did not plan",
+        "meaning_ar": "ينتهي به الأمر إلى",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I ended up buying two books."
+      },
+      {
+        "word": "sweater",
+        "pos": "noun",
+        "meaning_en": "a warm knitted top",
+        "meaning_ar": "كنزة صوف",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I bought a grey sweater."
+      },
+      {
+        "word": "on sale",
+        "pos": "phrase",
+        "meaning_en": "cheaper than the usual price",
+        "meaning_ar": "بسعر مخفّض / عليه تخفيض",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These shoes are on sale."
+      },
+      {
+        "word": "cozy",
+        "pos": "adjective",
+        "meaning_en": "warm and comfortable",
+        "meaning_ar": "دافئ ومريح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This sweater is very cozy."
+      },
+      {
+        "word": "a pair of",
+        "pos": "phrase",
+        "meaning_en": "two things that go together",
+        "meaning_ar": "زوج من",
+        "note_ar": "a pair of shoes / sneakers",
+        "note_en": "a pair of shoes",
+        "example": "I need a new pair of shoes."
+      },
+      {
+        "word": "sneakers",
+        "pos": "noun",
+        "meaning_en": "sport shoes",
+        "meaning_ar": "حذاء رياضي",
+        "note_ar": "في بريطانيا: trainers",
+        "note_en": "UK: trainers.",
+        "example": "My sneakers are white."
+      },
+      {
+        "word": "comfortable",
+        "pos": "adjective",
+        "meaning_en": "nice to wear; not hurting",
+        "meaning_ar": "مريح",
+        "note_ar": "",
+        "note_en": "",
+        "example": "These shoes are comfortable."
+      },
+      {
+        "word": "outfit",
+        "pos": "noun",
+        "meaning_en": "a set of clothes worn together",
+        "meaning_ar": "طقم ملابس",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I like your outfit."
+      },
+      {
+        "word": "bookstore",
+        "pos": "noun",
+        "meaning_en": "a shop that sells books",
+        "meaning_ar": "مكتبة لبيع الكتب",
+        "note_ar": "في بريطانيا: bookshop",
+        "note_en": "UK: bookshop.",
+        "example": "I found a good book at the bookstore."
+      },
+      {
+        "word": "novel",
+        "pos": "noun",
+        "meaning_en": "a long story in a book",
+        "meaning_ar": "رواية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "She is reading a novel."
+      },
+      {
+        "word": "classic",
+        "pos": "noun",
+        "meaning_en": "an old book or film that is famous and very good",
+        "meaning_ar": "عمل كلاسيكي / تحفة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "This book is a classic."
+      },
+      {
+        "word": "give it a try",
+        "pos": "phrase",
+        "meaning_en": "try something to see if you like it",
+        "meaning_ar": "أجرّبه",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I've never eaten sushi, but I'll give it a try."
+      },
+      {
+        "word": "productive",
+        "pos": "adjective",
+        "meaning_en": "doing a lot of useful things",
+        "meaning_ar": "مُثمر / منتج",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a productive day."
+      },
+      {
+        "word": "enjoyable",
+        "pos": "adjective",
+        "meaning_en": "fun; nice",
+        "meaning_ar": "ممتع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We had an enjoyable trip."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "store vs mall",
+        "words": [
+          "store",
+          "mall"
+        ],
+        "explanation_ar": "store متجر واحد، و mall مبنى كبير فيه متاجر كثيرة.",
+        "explanation_en": "A store is one shop. A mall is a big building with many stores.",
+        "examples": [
+          {
+            "word": "store",
+            "sentence": "I went to a shoe store."
+          },
+          {
+            "word": "mall",
+            "sentence": "The mall has fifty stores."
+          }
+        ]
+      },
+      {
+        "title": "bought vs got",
+        "words": [
+          "bought",
+          "got"
+        ],
+        "explanation_ar": "bought ماضي buy (اشترى). got ماضي get، وفي الكلام اليومي يعني أيضًا اشترى أو حصل على.",
+        "explanation_en": "\"Bought\" is the past of buy. \"Got\" (past of get) can also mean bought in everyday English.",
+        "examples": [
+          {
+            "word": "bought",
+            "sentence": "I bought a sweater."
+          },
+          {
+            "word": "got",
+            "sentence": "I also got a new pair of sneakers."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "How was your day yesterday?",
+        "meaning_ar": "كيف كان يومك أمس؟",
+        "meaning_en": "Ask about someone's past day.",
+        "example": "How was your day yesterday? It was great!"
+      },
+      {
+        "phrase": "What did you buy?",
+        "meaning_ar": "ماذا اشتريت؟",
+        "meaning_en": "Ask about shopping.",
+        "example": "You went to the mall? What did you buy?"
+      },
+      {
+        "phrase": "Anything else?",
+        "meaning_ar": "شيء آخر؟",
+        "meaning_en": "Ask for more.",
+        "example": "I bought a sweater. Anything else? Yes, shoes."
+      },
+      {
+        "phrase": "What color are the sneakers?",
+        "meaning_ar": "ما لون الحذاء الرياضي؟",
+        "meaning_en": "Ask about color.",
+        "example": "What color is your new bag? It's black."
+      },
+      {
+        "phrase": "They'll go with a lot of my outfits.",
+        "meaning_ar": "ستتناسب مع كثير من ملابسي.",
+        "meaning_en": "Say clothes match many other clothes.",
+        "example": "White shoes go with a lot of outfits."
+      },
+      {
+        "phrase": "Let me think.",
+        "meaning_ar": "دعني أفكّر.",
+        "meaning_en": "Take a moment before answering.",
+        "example": "Anything else? Hmm, let me think."
+      },
+      {
+        "phrase": "I thought I'd give it a try.",
+        "meaning_ar": "فكّرت أن أجرّبه.",
+        "meaning_en": "Say you decided to try something new.",
+        "example": "It's a famous book, so I thought I'd give it a try."
+      },
+      {
+        "phrase": "That's great to hear!",
+        "meaning_ar": "يسعدني سماع ذلك!",
+        "meaning_en": "React to good news.",
+        "example": "I passed my exam! That's great to hear!"
+      },
+      {
+        "phrase": "It sounds like you had a wonderful day.",
+        "meaning_ar": "يبدو أنك قضيت يومًا رائعًا.",
+        "meaning_en": "Say someone's day sounds great.",
+        "example": "It sounds like you had a wonderful day."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Past simple questions with \"did\"",
+        "explanation_ar": "نسأل عن الماضي بـ What/Where + did + الفاعل + الفعل في أصله: What did you buy? What did you do at the mall? والجواب بالماضي: I bought a sweater.",
+        "explanation_en": "Past questions: Wh-word + did + subject + base verb. Answer with the past form.",
+        "examples": [
+          "What did you do at the mall?",
+          "What did you buy at the clothing store?",
+          "What book did you get?"
+        ]
+      },
+      {
+        "title": "Irregular past verbs",
+        "explanation_ar": "أفعال شاذة في الدرس: go → went، buy → bought، get → got، find → found، think → thought، have → had، be → was.",
+        "explanation_en": "Irregular verbs here: went, bought, got, found, thought, had, was.",
+        "examples": [
+          "I went shopping with my mom.",
+          "I bought a really nice sweater.",
+          "I found a really interesting book."
+        ]
+      },
+      {
+        "title": "How was...? — It was...",
+        "explanation_ar": "لنسأل عن رأي في شيء مضى: How was your day? والجواب: It was a really nice day.",
+        "explanation_en": "Ask about a past experience: How was...? Answer: It was...",
+        "examples": [
+          "How was your day yesterday?",
+          "It was a really nice day!",
+          "How was the trip? It was fun."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How ___ your day yesterday?",
+      "choices": [
+        "is",
+        "was",
+        "were",
+        "did"
+      ],
+      "answer": 1,
+      "explanation_ar": "نسأل عن الماضي بـ was.",
+      "explanation_en": "Use \"was\" for the past."
+    },
+    {
+      "question": "What did you ___ at the clothing store?",
+      "choices": [
+        "bought",
+        "buying",
+        "buy",
+        "buys"
+      ],
+      "answer": 2,
+      "explanation_ar": "بعد did الفعل في أصله.",
+      "explanation_en": "After \"did\" use the base verb."
+    },
+    {
+      "question": "I ___ a really nice sweater.",
+      "choices": [
+        "buyed",
+        "bought",
+        "buy",
+        "boughted"
+      ],
+      "answer": 1,
+      "explanation_ar": "ماضي buy هو bought.",
+      "explanation_en": "The past of buy is bought."
+    },
+    {
+      "question": "The sweater was cheaper than usual. It was ___.",
+      "choices": [
+        "on sale",
+        "on time",
+        "in a pair",
+        "classic"
+      ],
+      "answer": 0,
+      "explanation_ar": "on sale تعني بسعر مخفّض.",
+      "explanation_en": "On sale = cheaper than usual."
+    },
+    {
+      "question": "I also got a new ___ of sneakers.",
+      "choices": [
+        "piece",
+        "pair",
+        "number",
+        "group"
+      ],
+      "answer": 1,
+      "explanation_ar": "نقول a pair of shoes/sneakers.",
+      "explanation_en": "We say \"a pair of sneakers\"."
+    },
+    {
+      "question": "My mom and I ___ by the bookstore.",
+      "choices": [
+        "stop",
+        "stopped",
+        "stoping",
+        "stops"
+      ],
+      "answer": 1,
+      "explanation_ar": "ماضي stop هو stopped (نضاعف p).",
+      "explanation_en": "Past of stop: stopped."
+    },
+    {
+      "question": "A big building with many shops is a ___.",
+      "choices": [
+        "bookstore",
+        "sweater",
+        "novel",
+        "mall"
+      ],
+      "answer": 3,
+      "explanation_ar": "mall مركز تسوق.",
+      "explanation_en": "A mall has many shops."
+    },
+    {
+      "question": "I ___ a really interesting book.",
+      "choices": [
+        "finded",
+        "find",
+        "found",
+        "founded"
+      ],
+      "answer": 2,
+      "explanation_ar": "ماضي find هو found.",
+      "explanation_en": "The past of find is found."
+    },
+    {
+      "question": "It's a famous book, so I thought I'd give it a ___.",
+      "choices": [
+        "try",
+        "buy",
+        "sale",
+        "read"
+      ],
+      "answer": 0,
+      "explanation_ar": "give it a try = أجرّبه.",
+      "explanation_en": "\"Give it a try\" = try it."
+    },
+    {
+      "question": "I passed my test! — That's great to ___!",
+      "choices": [
+        "see",
+        "listen",
+        "hear",
+        "say"
+      ],
+      "answer": 2,
+      "explanation_ar": "العبارة: That's great to hear.",
+      "explanation_en": "The phrase is \"That's great to hear\"."
+    }
+  ]
+}

@@ -59,6 +59,17 @@ import com.speakmind.app.ui.components.animatedComposable
 import com.speakmind.app.ui.components.BannerAdView
 import com.speakmind.app.ui.theme.LocalSpeakMindColors
 import org.koin.compose.viewmodel.koinViewModel
+import androidx.activity.compose.BackHandler
+import androidx.lifecycle.compose.LifecycleResumeEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.LocalUriHandler
+import com.speakmind.app.feature.course.ui.CoursesHomeViewModel
+import com.speakmind.app.premium.Premium
+import com.speakmind.app.ui.components.MainTab
+import com.speakmind.app.ui.components.MainTabs
+import com.speakmind.app.ui.components.SpeakyBottomBar
 
 fun NavGraphBuilder.homeScreen() {
     animatedComposable<HomeDestination> {
@@ -72,6 +83,7 @@ fun NavGraphBuilder.homeScreen() {
                 if (event == androidx.lifecycle.Lifecycle.Event.ON_RESUME) {
                     viewModel.refreshFlashcardCount()
                     viewModel.refreshCommunityUnread()
+                    viewModel.refreshDailyWords()
                 }
             }
             lifecycleOwner.lifecycle.addObserver(observer)
@@ -146,7 +158,129 @@ fun NavGraphBuilder.homeScreen() {
             onNameSheetDismissed = viewModel::onNameSheetDismissed,
             onNameSheetInputChanged = viewModel::onNameSheetInputChanged,
             onNameSheetSaved = viewModel::onNameSheetSaved,
+            tabs = {
+                HomeTabsHost(
+                    viewModel = viewModel,
+                    uiState = uiState,
+                    onScenarioClick = { id -> gate.unlock("article:$id", "Unlock this article") { viewModel.onScenarioClicked(id) } },
+                    onCloudChatClick = { gate.unlock("speaky-chat", "Unlock Speaky Chat") { viewModel.onCloudChatClicked() } },
+                )
+            },
         )
+    }
+}
+
+/** Home's four tabs, the floating bar, the banner above it and the Settings layer. */
+@Composable
+private fun HomeTabsHost(
+    viewModel: HomeViewModel,
+    uiState: HomeUiState,
+    onScenarioClick: (String) -> Unit,
+    onCloudChatClick: () -> Unit,
+) {
+    val coursesViewModel = koinViewModel<CoursesHomeViewModel>()
+    val courses by coursesViewModel.cards.collectAsStateWithLifecycle()
+    LifecycleResumeEffect(coursesViewModel) {
+        coursesViewModel.refresh()
+        onPauseOrDispose {}
+    }
+    val tab by MainTabs.selected.collectAsStateWithLifecycle()
+    val theme by viewModel.theme.collectAsStateWithLifecycle()
+    val ttsSpeed by viewModel.ttsSpeed.collectAsStateWithLifecycle()
+    val isPremium by Premium.active.collectAsStateWithLifecycle()
+    val onlineCount by viewModel.onlineCount.collectAsStateWithLifecycle()
+    var showSettings by rememberSaveable { mutableStateOf(false) }
+    val uriHandler = LocalUriHandler.current
+
+    BackHandler(enabled = showSettings || tab != MainTab.Home) {
+        if (showSettings) showSettings = false else MainTabs.selected.value = MainTab.Home
+    }
+
+    Box(Modifier.fillMaxSize()) {
+        when (tab) {
+            MainTab.Home, MainTab.Chat -> HomeTab(
+                state = uiState,
+                courses = courses,
+                onlineCount = onlineCount,
+                onSettingsClick = { showSettings = true },
+                onLevelClick = viewModel::onLevelBadgeClicked,
+                onCourseClick = { coursesViewModel.onContinueCourse(it.course) },
+                onAllCoursesClick = coursesViewModel::onAllCoursesClicked,
+                onReviewClick = viewModel::onReviewClicked,
+                onHubClick = viewModel::onHubClicked,
+                onWordClick = viewModel::onDailyWordClicked,
+                onSpeakWord = viewModel::onSpeakTodayWord,
+                onTopicClick = onScenarioClick,
+                onAllTopicsClick = { MainTabs.selected.value = MainTab.Learn },
+            )
+            MainTab.Learn -> LearnTab(
+                state = uiState,
+                courses = courses,
+                showStories = com.speakmind.app.config.Features.STORIES,
+                showAiChat = com.speakmind.app.config.Features.AI_CHAT,
+                onLevelSelected = viewModel::onLevelSelected,
+                onCourseClick = { coursesViewModel.onCourseClicked(it.course) },
+                onContinueClick = { coursesViewModel.onContinueCourse(it.course) },
+                onAllCoursesClick = coursesViewModel::onAllCoursesClicked,
+                onTopicClick = onScenarioClick,
+                onStoriesClick = viewModel::onStoriesClicked,
+                onAiChatClick = onCloudChatClick,
+            )
+            MainTab.Words -> WordsTab(
+                state = uiState,
+                showGroups = com.speakmind.app.config.Features.MY_GROUPS,
+                onLookupClick = viewModel::onWordLookupClicked,
+                onReviewClick = viewModel::onReviewClicked,
+                onWordBuilderClick = viewModel::onVocabularyClicked,
+                onSavedClick = viewModel::onAllLearnedWordsClicked,
+                onGroupsClick = viewModel::onMyGroupsClicked,
+                onWordClick = viewModel::onDailyWordClicked,
+                onAllWordsClick = viewModel::onPreviousWordsClicked,
+                onReminderClick = viewModel::onTimePickerClicked,
+            )
+        }
+
+        Column(Modifier.align(Alignment.BottomCenter)) {
+            BannerAdView(Modifier.fillMaxWidth())
+            val gamesWaiting by com.speakmind.app.feature.games.data.GamesBadge.waiting.collectAsStateWithLifecycle()
+            SpeakyBottomBar(
+                selected = tab,
+                chatBadge = uiState.communityUnread,
+                gamesWaiting = gamesWaiting,
+                onGames = viewModel::onGamesClicked,
+                onSelect = { selected ->
+                    if (selected == MainTab.Chat) viewModel.onCommunityClicked()
+                    else MainTabs.selected.value = selected
+                },
+            )
+        }
+
+        if (showSettings) {
+            SettingsLayer(
+                state = uiState,
+                theme = theme,
+                ttsSpeed = ttsSpeed,
+                isPremium = isPremium,
+                appVersion = com.speakmind.app.platform.rememberAppVersion(),
+                onBack = { showSettings = false },
+                onNameClick = viewModel::onNameClicked,
+                onLevelClick = viewModel::onLevelBadgeClicked,
+                onPremiumClick = {
+                    if (!isPremium) Premium.requirePremium("Speaky Premium", "No ads, unlimited private chat and a gold badge.") {}
+                },
+                onThemeSelected = { picked ->
+                    if (picked.premium && !isPremium) {
+                        Premium.requirePremium("Gold themes are for Premium", "Unlock Gold Luxe and Rose Gold with Speaky Premium.") {
+                            viewModel.onThemeSelected(picked)
+                        }
+                    } else viewModel.onThemeSelected(picked)
+                },
+                onReminderClick = viewModel::onTimePickerClicked,
+                onSpeedSelected = viewModel::onTtsSpeedSelected,
+                onPrivacyClick = viewModel::onPrivacyPolicyClicked,
+                onContactClick = { runCatching { uriHandler.openUri("mailto:samir.hayan@gmail.com") } },
+            )
+        }
     }
 }
 
@@ -178,30 +312,30 @@ private fun HomeScreenContent(
     onNameSheetDismissed: () -> Unit = {},
     onNameSheetInputChanged: (String) -> Unit = {},
     onNameSheetSaved: () -> Unit = {},
+    tabs: @Composable () -> Unit = {},
 ) {
     val colors = LocalSpeakMindColors.current
-    val isDark = MaterialTheme.colorScheme.background.luminance() < 0.5f
 
     Box(
         modifier = Modifier
             .fillMaxSize()
             .background(colors.backgroundGradient)
     ) {
-        // Level Picker Dialog
         if (uiState.showLevelPicker) {
-            LevelPickerDialog(
+            LevelSheet(
                 currentLevel = uiState.userLevel,
                 onLevelSelected = onLevelSelected,
                 onDismiss = onLevelPickerDismissed,
             )
         }
 
-        // Time Picker Dialog
         if (uiState.showTimePicker) {
-            TimePickerDialog(
-                currentHour = uiState.notificationHour,
-                currentMinute = uiState.notificationMinute,
-                onTimeSelected = onNotificationTimeChanged,
+            ReminderSheet(
+                hour = uiState.notificationHour,
+                minute = uiState.notificationMinute,
+                enabled = uiState.notificationsEnabled,
+                onToggle = onNotificationToggled,
+                onSave = onNotificationTimeChanged,
                 onDismiss = onTimePickerDismissed,
             )
         }
@@ -243,1244 +377,19 @@ private fun HomeScreenContent(
             )
         }
 
-        LazyColumn(
-                modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(bottom = 100.sdp)
-            ) {
-            // Header with greeting
-            item {
-                HomeHeader(
-                    streakDays = uiState.streakDays,
-                    userLevel = uiState.userLevel,
-                    userName = uiState.userName,
-                    onLevelClick = onLevelBadgeClick,
-                    isDark = isDark,
-                    onThemeToggle = onThemeToggle,
-                    onNameClick = onNameClick,
-                )
-            }
-
-            // Daily Words section (first)
-            item {
-                Spacer(modifier = Modifier.height(20.sdp))
-                DailyWordsSection(
-                    todayWord = uiState.todayWord,
-                    recentWords = uiState.recentDailyWords,
-                    notificationsEnabled = uiState.notificationsEnabled,
-                    notificationHour = uiState.notificationHour,
-                    notificationMinute = uiState.notificationMinute,
-                    onWordClick = onDailyWordClick,
-                    onBellClick = onTimePickerClick,
-                    onToggleNotifications = onNotificationToggled,
-                    onAllLearnedWordsClick = onAllLearnedWordsClick,
-                )
-            }
-
-            // Courses section (shown once a course is published)
-            item {
-                com.speakmind.app.feature.course.ui.CoursesHomeSection()
-            }
-
-            // Study Hub section
-            item {
-                Spacer(modifier = Modifier.height(24.sdp))
-                Text(
-                    text = "Study Hub",
-                    style = MaterialTheme.typography.titleLarge.copy(
-                        color = colors.textPrimary,
-                        fontWeight = FontWeight.Bold
-                    ),
-                    modifier = Modifier.padding(horizontal = 20.sdp)
-                )
-                Spacer(modifier = Modifier.height(12.sdp))
-                WordLookupBox(
-                    onClick = onWordLookupClick,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(horizontal = 20.sdp),
-                )
-                Spacer(modifier = Modifier.height(12.sdp))
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(horizontal = 20.sdp),
-                    horizontalArrangement = Arrangement.spacedBy(12.sdp),
-                ) {
-                    WordBuilderBox(
-                        onClick = onVocabularyClick,
-                        modifier = Modifier.weight(1f),
-                    )
-                    SavedWordsBox(
-                        savedCount = uiState.totalVocab,
-                        onClick = onFlashcardsClick,
-                        modifier = Modifier.weight(1f),
-                    )
-                }
-                Spacer(modifier = Modifier.height(12.sdp))
-                MyGroupsBox(
-                    groupCount = uiState.groupCount,
-                    onClick = onMyGroupsClick,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(horizontal = 20.sdp),
-                )
-            }
-
-            // Reading & Listening section
-            item {
-                Spacer(modifier = Modifier.height(24.sdp))
-                ReadStoriesButton(onClick = onStoriesClick)
-            }
-
-            // Speaky Chat
-            item {
-                Spacer(modifier = Modifier.height(24.sdp))
-                CloudChatButton(onClick = onCloudChatClick)
-            }
-
-            // Daily Topics section
-            item {
-                Spacer(modifier = Modifier.height(24.sdp))
-                Text(
-                    text = "Daily Topics",
-                    style = MaterialTheme.typography.titleLarge.copy(
-                        color = colors.textPrimary,
-                        fontWeight = FontWeight.Bold
-                    ),
-                    modifier = Modifier.padding(horizontal = 20.sdp)
-                )
-                Spacer(modifier = Modifier.height(12.sdp))
-            }
-
-            // Horizontal scrollable scenario cards or shimmer loading
-            item {
-                if (uiState.isLoadingTopics) {
-                    ShimmerTopicsRow()
-                } else {
-                    LazyRow(
-                        contentPadding = PaddingValues(horizontal = 20.sdp),
-                        horizontalArrangement = Arrangement.spacedBy(14.sdp)
-                    ) {
-                        items(uiState.dailyCards) { card ->
-                            ScenarioCard(
-                                card = card,
-                                onClick = { onScenarioClick(card.scenario.id) }
-                            )
-                        }
-                    }
-                }
-            }
-
-            // Footer
-            item {
-                Spacer(modifier = Modifier.height(16.sdp))
-                Box(
-                    modifier = Modifier.fillMaxWidth(),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    TextButton(onClick = onPrivacyPolicyClick) {
-                        Text(
-                            text = "Privacy Policy",
-                            style = MaterialTheme.typography.labelSmall.copy(
-                                color = colors.textMuted,
-                            ),
-                        )
-                    }
-                }
-            }
-        }
-
-        BannerAdView(modifier = Modifier.align(Alignment.BottomCenter))
-
-        // Community FAB
-        CommunityFab(
-            onClick = onCommunityClick,
-            unread = uiState.communityUnread,
-            modifier = Modifier
-                .align(Alignment.BottomEnd)
-                .padding(end = 18.sdp, bottom = 66.sdp),
-        )
-    }
-}
-
-@Composable
-private fun CommunityFab(
-    onClick: () -> Unit,
-    modifier: Modifier = Modifier,
-    unread: Int = 0,
-) {
-    val colors = LocalSpeakMindColors.current
-    val neonCyan = colors.neonCyan
-
-    val infiniteTransition = rememberInfiniteTransition(label = "fab_anim")
-    val floatY by infiniteTransition.animateFloat(
-        initialValue = 0f,
-        targetValue = -7f,
-        animationSpec = infiniteRepeatable(
-            animation = tween(1400, easing = EaseInOutSine),
-            repeatMode = RepeatMode.Reverse,
-        ),
-        label = "float",
-    )
-    val glowAlpha by infiniteTransition.animateFloat(
-        initialValue = 0.2f,
-        targetValue = 0.55f,
-        animationSpec = infiniteRepeatable(
-            animation = tween(1000, easing = EaseInOutSine),
-            repeatMode = RepeatMode.Reverse,
-        ),
-        label = "glowAlpha",
-    )
-    val glowScale by infiniteTransition.animateFloat(
-        initialValue = 1f,
-        targetValue = 1.22f,
-        animationSpec = infiniteRepeatable(
-            animation = tween(1000, easing = EaseInOutSine),
-            repeatMode = RepeatMode.Reverse,
-        ),
-        label = "glowScale",
-    )
-    Box(
-        modifier = modifier.graphicsLayer { translationY = floatY },
-        contentAlignment = Alignment.Center,
-    ) {
-        // Pulsing outer glow
-        Box(
-            modifier = Modifier
-                .size(72.sdp)
-                .graphicsLayer { scaleX = glowScale; scaleY = glowScale }
-                .background(
-                    Brush.radialGradient(
-                        colors = listOf(neonCyan.copy(alpha = glowAlpha), Color.Transparent)
-                    ),
-                    CircleShape,
-                )
-        )
-        // FAB circle — clip before clickable so ripple is bounded to circle
-        Box(
-            modifier = Modifier
-                .size(54.sdp)
-                .clip(CircleShape)
-                .background(Brush.verticalGradient(listOf(colors.neonCyan, colors.neonCyanDark)))
-                .border(
-                    width = 1.5.sdp,
-                    brush = Brush.verticalGradient(
-                        listOf(Color.White.copy(alpha = 0.35f), Color.Transparent)
-                    ),
-                    shape = CircleShape,
-                )
-                .clickable(onClick = onClick),
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(
-                imageVector = CommunityChatIcon,
-                contentDescription = "Community Chat",
-                tint = colors.backgroundDark,
-                modifier = Modifier.size(28.sdp),
-            )
-        }
-        if (unread > 0) {
-            Box(
-                modifier = Modifier
-                    .align(Alignment.TopEnd)
-                    .offset(x = (-4).sdp, y = 4.sdp)
-                    .defaultMinSize(minWidth = 22.sdp, minHeight = 22.sdp)
-                    .background(Color(0xFFE53935), CircleShape)
-                    .border(2.sdp, colors.surface, CircleShape)
-                    .padding(horizontal = 5.sdp),
-                contentAlignment = Alignment.Center,
-            ) {
-                Text(
-                    text = if (unread > 99) "99+" else unread.toString(),
-                    color = Color.White,
-                    fontSize = 10.ssp,
-                    fontWeight = FontWeight.Bold,
-                )
-            }
-        }
-    }
-}
-
-@Composable
-private fun HomeHeader(
-    streakDays: Int,
-    userLevel: String,
-    userName: String,
-    onLevelClick: () -> Unit,
-    isDark: Boolean,
-    onThemeToggle: (Boolean) -> Unit,
-    onNameClick: () -> Unit = {},
-) {
-    val colors = LocalSpeakMindColors.current
-
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 20.sdp)
-            .padding(top = 60.sdp, bottom = 8.sdp)
-    ) {
-        // Top bar: Hello + Name | Streak | Level | Theme toggle
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween,
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            // Greeting
-            Column(
-                modifier = Modifier.weight(1f, false)
-            ) {
-                Text(
-                    text = "Hello",
-                    style = MaterialTheme.typography.bodyMedium.copy(
-                        color = colors.textSecondary
-                    )
-                )
-                Text(
-                    text = if (userName.isNotEmpty()) "$userName \uD83D\uDC4B" else "there \uD83D\uDC4B",
-                    style = MaterialTheme.typography.titleLarge.copy(
-                        color = colors.textPrimary,
-                        fontWeight = FontWeight.Bold
-                    ),
-                    modifier = Modifier
-                        .clip(RoundedCornerShape(8.sdp))
-                        .clickable(onClick = onNameClick)
-                        .padding(vertical = 2.sdp),
-                )
-            }
-
-            Row(
-                horizontalArrangement = Arrangement.spacedBy(8.sdp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                // Expandable streak badge
-                if (streakDays > 0) {
-                    var streakExpanded by remember { mutableStateOf(false) }
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        modifier = Modifier
-                            .height(40.sdp)
-                            .clip(RoundedCornerShape(12.sdp))
-                            .background(colors.gold.copy(alpha = 0.15f))
-                            .border(
-                                width = 1.sdp,
-                                color = colors.gold.copy(alpha = 0.3f),
-                                shape = RoundedCornerShape(12.sdp)
-                            )
-                            .clickable { streakExpanded = !streakExpanded }
-                            .animateContentSize(animationSpec = tween(300))
-                            .padding(horizontal = if (streakExpanded) 12.sdp else 10.sdp),
-                        horizontalArrangement = Arrangement.Center
-                    ) {
-                        Text(text = "\uD83D\uDD25", fontSize = 16.ssp)
-                        Spacer(modifier = Modifier.width(4.sdp))
-                        Text(
-                            text = if (streakExpanded) "$streakDays day streak" else "$streakDays",
-                            style = MaterialTheme.typography.labelLarge.copy(
-                                color = colors.gold,
-                                fontWeight = FontWeight.Bold
-                            )
-                        )
-                    }
-                }
-
-                // Level badge
-                Box(
-                    contentAlignment = Alignment.Center,
-                    modifier = Modifier
-                        .size(40.sdp)
-                        .clip(RoundedCornerShape(12.sdp))
-                        .background(levelColorOf(userLevel).copy(alpha = 0.2f))
-                        .border(
-                            width = 1.sdp,
-                            color = levelColorOf(userLevel).copy(alpha = 0.5f),
-                            shape = RoundedCornerShape(12.sdp)
-                        )
-                        .clickable(onClick = onLevelClick)
-                ) {
-                    Text(
-                        text = userLevel,
-                        style = MaterialTheme.typography.labelLarge.copy(
-                            color = levelColorOf(userLevel),
-                            fontWeight = FontWeight.Bold
-                        )
-                    )
-                }
-
-                // Theme toggle
-                Box(
-                    modifier = Modifier
-                        .size(40.sdp)
-                        .clip(RoundedCornerShape(12.sdp))
-                        .clickable{ onThemeToggle(isDark) }
-                        .background(colors.surfaceVariant.copy(alpha = 0.5f)),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    Icon(
-                        imageVector = if (isDark) Icons.Default.LightMode else Icons.Default.DarkMode,
-                        contentDescription = if (isDark) "Switch to light mode" else "Switch to dark mode",
-                        tint = colors.gold,
-                        modifier = Modifier.size(22.sdp)
-                    )
-                }
-            }
-        }
+        tabs()
     }
 }
 
 
 
-@Composable
-private fun ScenarioCard(card: DailyCard, onClick: () -> Unit) {
-    val colors = LocalSpeakMindColors.current
-    val scenario = card.scenario
-    Box(
-        modifier = Modifier
-            .width(200.sdp)
-            .height(200.sdp)
-            .clip(RoundedCornerShape(20.sdp))
-            .background(
-                Brush.verticalGradient(
-                    colors = listOf(
-                        colors.surfaceVariant.copy(alpha = 0.8f),
-                        colors.surface.copy(alpha = 0.6f),
-                    )
-                )
-            )
-            .border(
-                width = 1.sdp,
-                color = colors.neonCyan.copy(alpha = 0.15f),
-                shape = RoundedCornerShape(20.sdp)
-            )
-            .clickable(onClick = onClick)
-            .padding(16.sdp)
-    ) {
-        Column {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Text(
-                    text = card.categoryIcon,
-                    fontSize = 28.ssp
-                )
-                // Level badge
-                Box(
-                    contentAlignment = Alignment.Center,
-                    modifier = Modifier
-                        .clip(RoundedCornerShape(8.sdp))
-                        .background(levelColorOf(scenario.level).copy(alpha = 0.2f))
-                        .padding(horizontal = 8.sdp, vertical = 2.sdp)
-                ) {
-                    Text(
-                        text = scenario.level,
-                        style = MaterialTheme.typography.labelSmall.copy(
-                            color = levelColorOf(scenario.level),
-                            fontWeight = FontWeight.Bold
-                        )
-                    )
-                }
-            }
 
-            Spacer(modifier = Modifier.height(12.sdp))
 
-            Text(
-                text = scenario.title,
-                style = MaterialTheme.typography.titleMedium.copy(
-                    color = colors.textPrimary,
-                    fontWeight = FontWeight.Bold
-                ),
-                maxLines = 2,
-                overflow = TextOverflow.Ellipsis
-            )
 
-            Spacer(modifier = Modifier.height(4.sdp))
 
-            Text(
-                text = scenario.category,
-                style = MaterialTheme.typography.labelMedium.copy(
-                    color = colors.neonCyan.copy(alpha = 0.7f)
-                )
-            )
 
-            Spacer(modifier = Modifier.height(8.sdp))
 
-            Text(
-                text = scenario.emotionalStakes,
-                style = MaterialTheme.typography.bodySmall.copy(
-                    color = colors.textMuted
-                ),
-                maxLines = 2,
-                overflow = TextOverflow.Ellipsis
-            )
-        }
-    }
-}
 
-@Composable
-private fun WordBuilderBox(onClick: () -> Unit, modifier: Modifier = Modifier) {
-    val colors = LocalSpeakMindColors.current
-    Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = modifier
-            .clip(RoundedCornerShape(16.sdp))
-            .background(
-                Brush.verticalGradient(
-                    colors = listOf(
-                        colors.neonCyan.copy(alpha = 0.08f),
-                        colors.surfaceVariant.copy(alpha = 0.7f),
-                    )
-                )
-            )
-            .border(
-                width = 1.sdp,
-                color = colors.neonCyan.copy(alpha = 0.25f),
-                shape = RoundedCornerShape(16.sdp)
-            )
-            .clickable(onClick = onClick)
-            .padding(vertical = 20.sdp, horizontal = 12.sdp),
-    ) {
-        Icon(
-            imageVector = Icons.Default.Translate,
-            contentDescription = null,
-            tint = colors.neonCyan,
-            modifier = Modifier.size(32.sdp)
-        )
-        Spacer(modifier = Modifier.height(10.sdp))
-        Text(
-            text = "Word Builder",
-            style = MaterialTheme.typography.titleSmall.copy(
-                color = colors.textPrimary,
-                fontWeight = FontWeight.Bold,
-            )
-        )
-        Spacer(modifier = Modifier.height(2.sdp))
-        Text(
-            text = "Build vocabulary",
-            style = MaterialTheme.typography.labelSmall.copy(
-                color = colors.textMuted,
-            )
-        )
-    }
-}
-
-@Composable
-private fun SavedWordsBox(savedCount: Long, onClick: () -> Unit, modifier: Modifier = Modifier) {
-    val colors = LocalSpeakMindColors.current
-    Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = modifier
-            .clip(RoundedCornerShape(16.sdp))
-            .background(
-                Brush.verticalGradient(
-                    colors = listOf(
-                        colors.neonCyan.copy(alpha = 0.08f),
-                        colors.surfaceVariant.copy(alpha = 0.7f),
-                    )
-                )
-            )
-            .border(
-                width = 1.sdp,
-                color = colors.neonCyan.copy(alpha = 0.25f),
-                shape = RoundedCornerShape(16.sdp)
-            )
-            .clickable(onClick = onClick)
-            .padding(vertical = 20.sdp, horizontal = 12.sdp),
-    ) {
-        Icon(
-            imageVector = Icons.AutoMirrored.Filled.MenuBook,
-            contentDescription = null,
-            tint = colors.neonCyan,
-            modifier = Modifier.size(32.sdp)
-        )
-        Spacer(modifier = Modifier.height(10.sdp))
-        Text(
-            text = "Saved",
-            style = MaterialTheme.typography.titleSmall.copy(
-                color = colors.textPrimary,
-                fontWeight = FontWeight.Bold,
-            )
-        )
-        Spacer(modifier = Modifier.height(2.sdp))
-        Text(
-            text = if (savedCount > 0) "$savedCount words" else "No words yet",
-            style = MaterialTheme.typography.labelSmall.copy(
-                color = colors.textMuted,
-            )
-        )
-    }
-}
-
-@Composable
-private fun MyGroupsBox(groupCount: Long, onClick: () -> Unit, modifier: Modifier = Modifier) {
-    val colors = LocalSpeakMindColors.current
-    Row(
-        modifier = modifier
-            .clip(RoundedCornerShape(16.sdp))
-            .background(
-                Brush.verticalGradient(
-                    colors = listOf(
-                        colors.magenta.copy(alpha = 0.05f),
-                        colors.surfaceVariant.copy(alpha = 0.7f),
-                    )
-                )
-            )
-            .border(
-                width = 1.sdp,
-                color = colors.magenta.copy(alpha = 0.22f),
-                shape = RoundedCornerShape(16.sdp)
-            )
-            .clickable(onClick = onClick)
-            .padding(horizontal = 16.sdp, vertical = 14.sdp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Box(
-            modifier = Modifier
-                .size(44.sdp)
-                .clip(RoundedCornerShape(12.sdp))
-                .background(colors.magenta.copy(alpha = 0.12f)),
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(
-                imageVector = Icons.Default.Bookmarks,
-                contentDescription = null,
-                tint = colors.magenta,
-                modifier = Modifier.size(24.sdp),
-            )
-        }
-        Spacer(modifier = Modifier.width(12.sdp))
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = "My Groups",
-                style = MaterialTheme.typography.titleSmall.copy(
-                    color = colors.textPrimary,
-                    fontWeight = FontWeight.Bold,
-                )
-            )
-            Text(
-                text = if (groupCount > 0) "$groupCount group${if (groupCount != 1L) "s" else ""} · tap to manage"
-                       else "Create groups to collect words by topic",
-                style = MaterialTheme.typography.labelSmall.copy(
-                    color = colors.textMuted,
-                )
-            )
-        }
-        Icon(
-            imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            contentDescription = null,
-            tint = colors.magenta.copy(alpha = 0.5f),
-            modifier = Modifier.size(20.sdp),
-        )
-    }
-}
-
-@Composable
-private fun WordLookupBox(onClick: () -> Unit, modifier: Modifier = Modifier) {
-    val colors = LocalSpeakMindColors.current
-    Row(
-        modifier = modifier
-            .clip(RoundedCornerShape(16.sdp))
-            .background(
-                Brush.verticalGradient(
-                    colors = listOf(
-                        colors.neonCyan.copy(alpha = 0.05f),
-                        colors.surfaceVariant.copy(alpha = 0.7f),
-                    )
-                )
-            )
-            .border(
-                width = 1.sdp,
-                color = colors.neonCyan.copy(alpha = 0.2f),
-                shape = RoundedCornerShape(16.sdp)
-            )
-            .clickable(onClick = onClick)
-            .padding(horizontal = 16.sdp, vertical = 14.sdp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Box(
-            modifier = Modifier
-                .size(44.sdp)
-                .clip(RoundedCornerShape(12.sdp))
-                .background(colors.neonCyan.copy(alpha = 0.12f)),
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(
-                imageVector = Icons.Default.Search,
-                contentDescription = null,
-                tint = colors.neonCyan,
-                modifier = Modifier.size(24.sdp),
-            )
-        }
-        Spacer(modifier = Modifier.width(12.sdp))
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = "Word Lookup",
-                style = MaterialTheme.typography.titleSmall.copy(
-                    color = colors.textPrimary,
-                    fontWeight = FontWeight.Bold,
-                )
-            )
-            Text(
-                text = "Type any word — get meaning & examples",
-                style = MaterialTheme.typography.labelSmall.copy(
-                    color = colors.textMuted,
-                )
-            )
-        }
-        Icon(
-            imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            contentDescription = null,
-            tint = colors.neonCyan.copy(alpha = 0.5f),
-            modifier = Modifier.size(20.sdp),
-        )
-    }
-}
-
-@Composable
-private fun ReadStoriesButton(onClick: () -> Unit) {
-    val colors = LocalSpeakMindColors.current
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 20.sdp)
-            .clip(RoundedCornerShape(16.sdp))
-            .background(colors.surfaceVariant.copy(alpha = 0.7f))
-            .border(
-                width = 1.sdp,
-                color = colors.gold.copy(alpha = 0.3f),
-                shape = RoundedCornerShape(16.sdp)
-            )
-            .clickable(onClick = onClick)
-            .padding(16.sdp),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Icon(
-            imageVector = Icons.AutoMirrored.Filled.MenuBook,
-            contentDescription = null,
-            tint = colors.gold,
-            modifier = Modifier.size(32.sdp)
-        )
-        Spacer(modifier = Modifier.width(12.sdp))
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = "Read Stories",
-                style = MaterialTheme.typography.titleMedium.copy(
-                    color = colors.textPrimary,
-                    fontWeight = FontWeight.Bold
-                )
-            )
-            Text(
-                text = "read stories by levels",
-                style = MaterialTheme.typography.bodySmall.copy(
-                    color = colors.textSecondary
-                )
-            )
-        }
-        Icon(
-            imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            contentDescription = null,
-            tint = colors.gold,
-            modifier = Modifier.size(24.sdp)
-        )
-    }
-}
-
-@Composable
-private fun CloudChatButton(onClick: () -> Unit) {
-    val colors = LocalSpeakMindColors.current
-
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 20.sdp)
-            .clip(RoundedCornerShape(16.sdp))
-            .background(colors.surfaceVariant.copy(alpha = 0.7f))
-            .border(
-                width = 1.sdp,
-                color = Color(0xFF7C4DFF).copy(alpha = 0.4f),
-                shape = RoundedCornerShape(16.sdp)
-            )
-            .clickable(onClick = onClick)
-            .padding(16.sdp),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Icon(
-            imageVector = Icons.Default.AutoAwesome,
-            contentDescription = null,
-            tint = Color(0xFF7C4DFF),
-            modifier = Modifier.size(32.sdp)
-        )
-        Spacer(modifier = Modifier.width(12.sdp))
-        Column(modifier = Modifier.weight(1f)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    text = "Speaky Chat",
-                    style = MaterialTheme.typography.titleMedium.copy(
-                        color = colors.textPrimary,
-                        fontWeight = FontWeight.Bold,
-                    )
-                )
-                Spacer(modifier = Modifier.width(8.sdp))
-                Text(
-                    text = "BETA",
-                    style = MaterialTheme.typography.labelSmall.copy(
-                        color = Color(0xFF7C4DFF),
-                        fontWeight = FontWeight.Bold,
-                    ),
-                    modifier = Modifier
-                        .clip(RoundedCornerShape(4.sdp))
-                        .background(Color(0xFF7C4DFF).copy(alpha = 0.15f))
-                        .padding(horizontal = 6.sdp, vertical = 2.sdp)
-                )
-            }
-            Text(
-                text = "Chat with Sage · No sign-in needed",
-                style = MaterialTheme.typography.bodySmall.copy(
-                    color = colors.textSecondary,
-                )
-            )
-        }
-        Icon(
-            imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
-            contentDescription = null,
-            tint = Color(0xFF7C4DFF),
-            modifier = Modifier.size(24.sdp)
-        )
-    }
-}
-
-@Composable
-private fun LevelPickerDialog(
-    currentLevel: String,
-    onLevelSelected: (String) -> Unit,
-    onDismiss: () -> Unit,
-) {
-    val colors = LocalSpeakMindColors.current
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        containerColor = colors.surface,
-        titleContentColor = colors.textPrimary,
-        title = {
-            Text(
-                text = "Choose Your Level",
-                style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold)
-            )
-        },
-        text = {
-            Column(verticalArrangement = Arrangement.spacedBy(8.sdp)) {
-                ALL_LEVELS.forEach { level ->
-                    val isSelected = level == currentLevel
-                    val levelColor = levelColorOf(level)
-                    val description = when (level) {
-                        "A1" -> "Beginner — basic words and phrases"
-                        "A2" -> "Elementary — simple conversations"
-                        "B1" -> "Intermediate — everyday topics"
-                        "B2" -> "Upper Intermediate — complex discussions"
-                        "C1" -> "Advanced — fluent and natural"
-                        else -> ""
-                    }
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .clip(RoundedCornerShape(12.sdp))
-                            .background(
-                                if (isSelected) levelColor.copy(alpha = 0.15f)
-                                else Color.Transparent
-                            )
-                            .border(
-                                width = if (isSelected) 1.5.sdp else 1.sdp,
-                                color = if (isSelected) levelColor.copy(alpha = 0.5f)
-                                else colors.surfaceVariant,
-                                shape = RoundedCornerShape(12.sdp)
-                            )
-                            .clickable { onLevelSelected(level) }
-                            .padding(horizontal = 16.sdp, vertical = 12.sdp),
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
-                        Box(
-                            contentAlignment = Alignment.Center,
-                            modifier = Modifier
-                                .size(40.sdp)
-                                .clip(RoundedCornerShape(10.sdp))
-                                .background(levelColor.copy(alpha = 0.2f))
-                        ) {
-                            Text(
-                                text = level,
-                                style = MaterialTheme.typography.labelLarge.copy(
-                                    color = levelColor,
-                                    fontWeight = FontWeight.Bold
-                                )
-                            )
-                        }
-                        Spacer(modifier = Modifier.width(12.sdp))
-                        Text(
-                            text = description,
-                            style = MaterialTheme.typography.bodyMedium.copy(
-                                color = if (isSelected) colors.textPrimary
-                                else colors.textSecondary
-                            )
-                        )
-                    }
-                }
-            }
-        },
-        confirmButton = {},
-    )
-}
-
-@Composable
-private fun DailyWordsSection(
-    todayWord: DailyWordData?,
-    recentWords: List<DailyWordData>,
-    notificationsEnabled: Boolean,
-    notificationHour: Int,
-    notificationMinute: Int,
-    onWordClick: (Long) -> Unit,
-    onBellClick: () -> Unit,
-    onToggleNotifications: (Boolean) -> Unit,
-    onAllLearnedWordsClick: () -> Unit,
-) {
-    val colors = LocalSpeakMindColors.current
-
-    Column(modifier = Modifier.padding(horizontal = 20.sdp)) {
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween,
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            Text(
-                text = "Daily Words",
-                style = MaterialTheme.typography.titleLarge.copy(
-                    color = colors.textPrimary,
-                    fontWeight = FontWeight.Bold,
-                ),
-            )
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier.clickable(onClick = onBellClick),
-            ) {
-                if (notificationsEnabled) {
-                    val amPm = if (notificationHour < 12) "AM" else "PM"
-                    val displayHour = when {
-                        notificationHour == 0 -> 12
-                        notificationHour > 12 -> notificationHour - 12
-                        else -> notificationHour
-                    }
-                    Text(
-                        text = "%d:%02d %s".format(displayHour, notificationMinute, amPm),
-                        style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-                    )
-                }
-                Icon(
-                    imageVector = if (notificationsEnabled) Icons.Default.Notifications
-                    else Icons.Default.NotificationsOff,
-                    contentDescription = "Notification settings",
-                    tint = if (notificationsEnabled) colors.neonCyan else colors.textMuted,
-                    modifier = Modifier.size(22.sdp),
-                )
-            }
-        }
-
-        Spacer(modifier = Modifier.height(12.sdp))
-
-        if (todayWord != null) {
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(16.sdp))
-                    .background(
-                        Brush.verticalGradient(
-                            colors = listOf(
-                                colors.neonCyan.copy(alpha = 0.12f),
-                                colors.surfaceVariant.copy(alpha = 0.7f),
-                            )
-                        )
-                    )
-                    .border(1.sdp, colors.neonCyan.copy(alpha = 0.3f), RoundedCornerShape(16.sdp))
-                    .clickable { onWordClick(todayWord.id) }
-                    .padding(16.sdp)
-            ) {
-                Column {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Text(
-                            text = todayWord.word,
-                            style = MaterialTheme.typography.headlineSmall.copy(
-                                color = colors.neonCyan,
-                                fontWeight = FontWeight.Bold,
-                            ),
-                        )
-                        Row(horizontalArrangement = Arrangement.spacedBy(8.sdp)) {
-                            if (todayWord.partOfSpeech.isNotEmpty()) {
-                                Text(
-                                    text = todayWord.partOfSpeech,
-                                    style = MaterialTheme.typography.labelSmall.copy(color = colors.textMuted),
-                                )
-                            }
-                            Box(
-                                contentAlignment = Alignment.Center,
-                                modifier = Modifier
-                                    .clip(RoundedCornerShape(6.sdp))
-                                    .background(levelColorOf(todayWord.level).copy(alpha = 0.2f))
-                                    .padding(horizontal = 8.sdp, vertical = 2.sdp)
-                            ) {
-                                Text(
-                                    text = todayWord.level,
-                                    style = MaterialTheme.typography.labelSmall.copy(
-                                        color = levelColorOf(todayWord.level),
-                                        fontWeight = FontWeight.Bold,
-                                    ),
-                                )
-                            }
-                        }
-                    }
-                    Spacer(modifier = Modifier.height(6.sdp))
-                    Text(
-                        text = todayWord.meaning,
-                        style = MaterialTheme.typography.bodyMedium.copy(color = colors.textSecondary),
-                        maxLines = 2,
-                        overflow = TextOverflow.Ellipsis,
-                    )
-                }
-            }
-        } else {
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(16.sdp))
-                    .background(colors.surfaceVariant.copy(alpha = 0.5f))
-                    .padding(16.sdp),
-                contentAlignment = Alignment.Center,
-            ) {
-                Text(
-                    text = "No daily word yet. Enable notifications to get words!",
-                    style = MaterialTheme.typography.bodyMedium.copy(color = colors.textMuted),
-                )
-            }
-        }
-
-        val previousWords = recentWords.drop(1).take(2)
-        if (previousWords.isNotEmpty()) {
-            Spacer(modifier = Modifier.height(14.sdp))
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(RoundedCornerShape(8.sdp))
-                    .clickable { onAllLearnedWordsClick() }
-                    .padding(vertical = 4.sdp),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Text(
-                    text = "Previous Words",
-                    style = MaterialTheme.typography.titleSmall.copy(
-                        color = colors.textSecondary,
-                        fontWeight = FontWeight.Bold,
-                    ),
-                )
-                Text(
-                    text = "See all →",
-                    style = MaterialTheme.typography.labelSmall.copy(
-                        color = colors.neonCyan,
-                        fontWeight = FontWeight.Medium,
-                    ),
-                )
-            }
-            Spacer(modifier = Modifier.height(8.sdp))
-
-            previousWords.forEach { word ->
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(10.sdp))
-                        .clickable { onWordClick(word.id) }
-                        .padding(vertical = 8.sdp, horizontal = 4.sdp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Box(
-                        modifier = Modifier
-                            .size(8.sdp)
-                            .clip(CircleShape)
-                            .background(
-                                if (word.isRead) colors.textMuted.copy(alpha = 0.3f)
-                                else colors.neonCyan,
-                            )
-                    )
-                    Spacer(modifier = Modifier.width(10.sdp))
-                    Text(
-                        text = word.word,
-                        style = MaterialTheme.typography.bodyMedium.copy(
-                            color = colors.textPrimary,
-                            fontWeight = FontWeight.Medium,
-                        ),
-                        modifier = Modifier.weight(1f),
-                    )
-                    Box(
-                        contentAlignment = Alignment.Center,
-                        modifier = Modifier
-                            .clip(RoundedCornerShape(6.sdp))
-                            .background(levelColorOf(word.level).copy(alpha = 0.15f))
-                            .padding(horizontal = 6.sdp, vertical = 2.sdp)
-                    ) {
-                        Text(
-                            text = word.level,
-                            style = MaterialTheme.typography.labelSmall.copy(
-                                color = levelColorOf(word.level),
-                                fontWeight = FontWeight.Bold,
-                                fontSize = 10.ssp,
-                            ),
-                        )
-                    }
-                    Spacer(modifier = Modifier.width(8.sdp))
-                    Text(
-                        text = word.sentDate,
-                        style = MaterialTheme.typography.labelSmall.copy(
-                            color = colors.textMuted,
-                            fontSize = 10.ssp,
-                        ),
-                    )
-                }
-            }
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun TimePickerDialog(
-    currentHour: Int,
-    currentMinute: Int,
-    onTimeSelected: (Int, Int) -> Unit,
-    onDismiss: () -> Unit,
-) {
-    val colors = LocalSpeakMindColors.current
-    val timePickerState = rememberTimePickerState(
-        initialHour = currentHour,
-        initialMinute = currentMinute,
-        is24Hour = false,
-    )
-    var showKeyboard by remember { mutableStateOf(false) }
-
-    Dialog(onDismissRequest = onDismiss) {
-        Surface(
-            shape = RoundedCornerShape(28.sdp),
-            color = colors.surface,
-            tonalElevation = 6.sdp,
-        ) {
-            Column(
-                modifier = Modifier.padding(start = 24.sdp, end = 24.sdp, top = 24.sdp, bottom = 12.sdp),
-                horizontalAlignment = Alignment.CenterHorizontally,
-            ) {
-                Text(
-                    text = "Select notification time",
-                    style = MaterialTheme.typography.labelMedium,
-                    color = colors.textSecondary,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(bottom = 20.sdp),
-                )
-                if (showKeyboard) {
-                    TimeInput(state = timePickerState)
-                } else {
-                    TimePicker(state = timePickerState)
-                }
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(top = 8.sdp),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    IconButton(onClick = { showKeyboard = !showKeyboard }) {
-                        Icon(
-                            imageVector = if (showKeyboard) Icons.Filled.Schedule else Icons.Filled.Keyboard,
-                            contentDescription = if (showKeyboard) "Switch to clock" else "Switch to keyboard",
-                            tint = colors.textSecondary,
-                        )
-                    }
-                    Row(horizontalArrangement = Arrangement.spacedBy(4.sdp)) {
-                        TextButton(onClick = onDismiss) {
-                            Text("Cancel", color = colors.textMuted)
-                        }
-                        TextButton(onClick = { onTimeSelected(timePickerState.hour, timePickerState.minute) }) {
-                            Text("Save", color = colors.neonCyan, fontWeight = FontWeight.Bold)
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@Composable
-private fun ShimmerTopicsRow() {
-    val colors = LocalSpeakMindColors.current
-    val infiniteTransition = rememberInfiniteTransition()
-    val shimmerAlpha by infiniteTransition.animateFloat(
-        initialValue = 0.2f,
-        targetValue = 0.6f,
-        animationSpec = infiniteRepeatable(
-            animation = tween(800, easing = EaseInOutSine),
-            repeatMode = RepeatMode.Reverse,
-        )
-    )
-
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 20.sdp),
-        horizontalArrangement = Arrangement.spacedBy(14.sdp),
-    ) {
-        repeat(3) {
-            Box(
-                modifier = Modifier
-                    .width(200.sdp)
-                    .height(200.sdp)
-                    .clip(RoundedCornerShape(20.sdp))
-                    .background(colors.surfaceVariant.copy(alpha = shimmerAlpha))
-            ) {
-                Column(modifier = Modifier.padding(16.sdp)) {
-                    // Icon placeholder
-                    Box(
-                        modifier = Modifier
-                            .size(32.sdp)
-                            .clip(RoundedCornerShape(8.sdp))
-                            .background(colors.textMuted.copy(alpha = shimmerAlpha * 0.5f))
-                    )
-                    Spacer(modifier = Modifier.height(16.sdp))
-                    // Title placeholder
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth(0.8f)
-                            .height(16.sdp)
-                            .clip(RoundedCornerShape(4.sdp))
-                            .background(colors.textMuted.copy(alpha = shimmerAlpha * 0.5f))
-                    )
-                    Spacer(modifier = Modifier.height(8.sdp))
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth(0.5f)
-                            .height(16.sdp)
-                            .clip(RoundedCornerShape(4.sdp))
-                            .background(colors.textMuted.copy(alpha = shimmerAlpha * 0.5f))
-                    )
-                    Spacer(modifier = Modifier.height(12.sdp))
-                    // Category placeholder
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth(0.4f)
-                            .height(12.sdp)
-                            .clip(RoundedCornerShape(4.sdp))
-                            .background(colors.textMuted.copy(alpha = shimmerAlpha * 0.3f))
-                    )
-                }
-            }
-        }
-    }
-}
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -1565,7 +474,7 @@ private fun NameUpdateBottomSheet(
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = colors.neonCyan),
                 ) {
-                    Text("Save", color = colors.backgroundDark, fontWeight = FontWeight.Bold)
+                    Text("Save", color = colors.onPrimary, fontWeight = FontWeight.Bold)
                 }
             }
         }

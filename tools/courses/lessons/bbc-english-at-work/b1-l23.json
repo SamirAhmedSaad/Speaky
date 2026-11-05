@@ -1,0 +1,415 @@
+{
+  "title": "Health and Safety",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "health and safety",
+        "pos": "noun",
+        "meaning_en": "rules and actions that keep people safe at work",
+        "meaning_ar": "الصحة والسلامة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our company has a clear health and safety policy."
+      },
+      {
+        "word": "policy",
+        "pos": "noun",
+        "meaning_en": "an official set of rules in a company",
+        "meaning_ar": "سياسة / لائحة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Smoking in the office is against company policy."
+      },
+      {
+        "word": "procedure",
+        "pos": "noun",
+        "meaning_en": "the official way of doing something, step by step",
+        "meaning_ar": "إجراء",
+        "note_ar": "",
+        "note_en": "Plural: procedures.",
+        "example": "Please learn the fire procedure in your first week."
+      },
+      {
+        "word": "fire drill",
+        "pos": "noun",
+        "meaning_en": "a practice of what to do if there is a fire",
+        "meaning_ar": "تمرين إخلاء عند الحريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "We have a fire drill every three months."
+      },
+      {
+        "word": "raise the alarm",
+        "pos": "phrase",
+        "meaning_en": "warn people that there is danger",
+        "meaning_ar": "يُطلق الإنذار / ينبّه الآخرين",
+        "note_ar": "",
+        "note_en": "",
+        "example": "If you see smoke, raise the alarm at once."
+      },
+      {
+        "word": "fire alarm",
+        "pos": "noun",
+        "meaning_en": "a loud bell or sound that warns of a fire",
+        "meaning_ar": "جهاز إنذار الحريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The fire alarm went off at ten o'clock."
+      },
+      {
+        "word": "false alarm",
+        "pos": "noun",
+        "meaning_en": "an alarm when there is no real danger",
+        "meaning_ar": "إنذار كاذب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Don't worry, it was only a false alarm."
+      },
+      {
+        "word": "fire exit",
+        "pos": "noun",
+        "meaning_en": "a door you use to leave a building in a fire",
+        "meaning_ar": "مخرج الطوارئ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The nearest fire exit is at the end of the corridor."
+      },
+      {
+        "word": "calmly",
+        "pos": "adverb",
+        "meaning_en": "in a quiet way, without panic",
+        "meaning_ar": "بهدوء",
+        "note_ar": "صفة: calm = هادئ",
+        "note_en": "Adjective: calm.",
+        "example": "Please walk calmly to the door."
+      },
+      {
+        "word": "assembly point",
+        "pos": "noun",
+        "meaning_en": "the place outside where everyone meets after leaving a building",
+        "meaning_ar": "نقطة التجمع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Our assembly point is in the car park."
+      },
+      {
+        "word": "premises",
+        "pos": "noun",
+        "meaning_en": "the buildings and land that a company uses",
+        "meaning_ar": "مباني الشركة ومرافقها",
+        "note_ar": "تُستخدم دائمًا بصيغة الجمع",
+        "note_en": "Always plural in this meaning.",
+        "example": "No smoking on company premises."
+      },
+      {
+        "word": "warehouse",
+        "pos": "noun",
+        "meaning_en": "a large building where goods are stored",
+        "meaning_ar": "مستودع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The boxes are kept in the warehouse."
+      },
+      {
+        "word": "incident",
+        "pos": "noun",
+        "meaning_en": "an event, usually something bad or unusual",
+        "meaning_ar": "حادثة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Please report every incident to your manager."
+      },
+      {
+        "word": "register",
+        "pos": "noun",
+        "meaning_en": "an official list of names",
+        "meaning_ar": "سجل (أسماء الحاضرين)",
+        "note_ar": "",
+        "note_en": "",
+        "example": "The manager took a register of everyone outside."
+      },
+      {
+        "word": "sign",
+        "pos": "noun",
+        "meaning_en": "a board or picture that gives information",
+        "meaning_ar": "لافتة / إشارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Follow the green signs to the exit."
+      },
+      {
+        "word": "urgent",
+        "pos": "adjective",
+        "meaning_en": "needing attention immediately",
+        "meaning_ar": "عاجل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "I have an urgent message for the manager."
+      },
+      {
+        "word": "responsibility",
+        "pos": "noun",
+        "meaning_en": "a duty to take care of something",
+        "meaning_ar": "مسؤولية",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Your safety is our responsibility."
+      },
+      {
+        "word": "dangerous",
+        "pos": "adjective",
+        "meaning_en": "able to hurt people",
+        "meaning_ar": "خطير",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Smoking near boxes is highly dangerous."
+      },
+      {
+        "word": "gather",
+        "pos": "verb",
+        "meaning_en": "come together in one place",
+        "meaning_ar": "يتجمّع / يجمع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Could you all gather in the meeting room, please?"
+      },
+      {
+        "word": "let the cat out of the bag",
+        "pos": "idiom",
+        "meaning_en": "tell a secret by mistake",
+        "meaning_ar": "يفشي سرًّا دون قصد",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He let the cat out of the bag about the new project."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "alarm vs drill",
+        "words": [
+          "alarm",
+          "drill"
+        ],
+        "explanation_ar": "alarm هو صوت الإنذار نفسه، أما drill فهو تمرين أو تدريب على الإخلاء دون خطر حقيقي.",
+        "explanation_en": "An alarm is the warning sound. A drill is a practice, with no real danger.",
+        "examples": [
+          {
+            "word": "alarm",
+            "sentence": "The alarm is very loud."
+          },
+          {
+            "word": "drill",
+            "sentence": "Today's fire drill took ten minutes."
+          }
+        ]
+      },
+      {
+        "title": "calm vs calmly",
+        "words": [
+          "calm",
+          "calmly"
+        ],
+        "explanation_ar": "calm صفة تصف الشخص (be calm)، وcalmly ظرف يصف طريقة الفعل (walk calmly).",
+        "explanation_en": "Calm is an adjective (stay calm). Calmly is an adverb (walk calmly).",
+        "examples": [
+          {
+            "word": "calm",
+            "sentence": "Please stay calm."
+          },
+          {
+            "word": "calmly",
+            "sentence": "She spoke calmly to the team."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "If you see a fire, raise the alarm.",
+        "meaning_ar": "إذا رأيت حريقًا فأطلق الإنذار.",
+        "meaning_en": "If there is a fire, warn everyone.",
+        "example": "If you see a fire, raise the alarm and call the fire service."
+      },
+      {
+        "phrase": "Walk calmly to your nearest fire exit.",
+        "meaning_ar": "امشِ بهدوء إلى أقرب مخرج طوارئ.",
+        "meaning_en": "Go to the closest exit without running.",
+        "example": "When the alarm rings, walk calmly to your nearest fire exit."
+      },
+      {
+        "phrase": "Meet at the fire assembly point.",
+        "meaning_ar": "تجمّعوا عند نقطة التجمع.",
+        "meaning_en": "Go to the meeting place outside.",
+        "example": "After you leave, meet at the fire assembly point."
+      },
+      {
+        "phrase": "No smoking on company premises.",
+        "meaning_ar": "ممنوع التدخين في مباني الشركة.",
+        "meaning_en": "You cannot smoke anywhere in the company's buildings.",
+        "example": "Please remember: no smoking on company premises."
+      },
+      {
+        "phrase": "Could you gather everyone in the meeting room, please?",
+        "meaning_ar": "هل يمكنك جمع الجميع في غرفة الاجتماعات من فضلك؟",
+        "meaning_en": "A polite request to bring people together.",
+        "example": "Could you gather everyone in the meeting room, please? I have news."
+      },
+      {
+        "phrase": "Your safety is our responsibility.",
+        "meaning_ar": "سلامتكم مسؤوليتنا.",
+        "meaning_en": "We must keep you safe.",
+        "example": "Your safety is our responsibility, so please follow the rules."
+      },
+      {
+        "phrase": "Is everyone clear about what to do?",
+        "meaning_ar": "هل الجميع يعرف بوضوح ما يجب فعله؟",
+        "meaning_en": "Does everyone understand the steps?",
+        "example": "Is everyone clear about what to do if the alarm rings?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Imperatives for safety instructions",
+        "explanation_ar": "نستخدم صيغة الأمر (الفعل في أوله بدون فاعل) لإعطاء تعليمات سلامة واضحة وقصيرة: Walk, Meet, Raise. وللنفي نستخدم Don't أو No + اسم بصيغة -ing على اللافتات: No smoking.",
+        "explanation_en": "Use the imperative (base verb, no subject) for clear safety rules: Walk calmly. Meet outside. For negative rules use Don't..., or No + -ing on signs: No smoking.",
+        "examples": [
+          "Walk calmly to the exit.",
+          "Don't use the lift.",
+          "No smoking on company premises."
+        ]
+      },
+      {
+        "title": "First conditional for rules: If + present, imperative",
+        "explanation_ar": "نصف ما يجب فعله في موقف معيّن: If + مضارع بسيط، ثم فعل أمر. If you see a fire, raise the alarm.",
+        "explanation_en": "To say what to do in a situation: If + present simple, then an imperative.",
+        "examples": [
+          "If you see a fire, raise the alarm.",
+          "If you hear the alarm, leave the building.",
+          "If you smell smoke, call the fire service."
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What does \"raise the alarm\" mean?",
+      "choices": [
+        "warn people about danger",
+        "turn off the alarm",
+        "buy a new alarm",
+        "sleep late"
+      ],
+      "answer": 0,
+      "explanation_ar": "raise the alarm تعني تنبيه الناس إلى وجود خطر.",
+      "explanation_en": "It means warning people that there is danger."
+    },
+    {
+      "question": "Walk ___ to your nearest fire exit.",
+      "choices": [
+        "calm",
+        "calmly",
+        "calmer",
+        "calmness"
+      ],
+      "answer": 1,
+      "explanation_ar": "نحتاج ظرفًا يصف الفعل walk، فنقول calmly.",
+      "explanation_en": "We need an adverb after the verb walk: calmly."
+    },
+    {
+      "question": "Where do you meet after leaving the building?",
+      "choices": [
+        "the warehouse",
+        "the canteen",
+        "the assembly point",
+        "the lift"
+      ],
+      "answer": 2,
+      "explanation_ar": "نقطة التجمع assembly point هي مكان اللقاء خارج المبنى.",
+      "explanation_en": "The assembly point is the meeting place outside."
+    },
+    {
+      "question": "\"No smoking on company ___.\"",
+      "choices": [
+        "premise",
+        "premises",
+        "promises",
+        "prizes"
+      ],
+      "answer": 1,
+      "explanation_ar": "كلمة premises بمعنى مباني الشركة تأتي دائمًا بصيغة الجمع.",
+      "explanation_en": "Premises (always plural) means the company's buildings."
+    },
+    {
+      "question": "A fire drill is...",
+      "choices": [
+        "a real fire",
+        "a practice for a fire",
+        "a type of alarm bell",
+        "a fire exit"
+      ],
+      "answer": 1,
+      "explanation_ar": "fire drill هو تمرين على الإخلاء.",
+      "explanation_en": "A fire drill is a practice."
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "If you will see a fire, raise the alarm.",
+        "If you see a fire, raise the alarm.",
+        "If you saw a fire, raises the alarm.",
+        "If see you a fire, raise the alarm."
+      ],
+      "answer": 1,
+      "explanation_ar": "بعد if نستخدم المضارع البسيط ثم فعل الأمر.",
+      "explanation_en": "After if use the present simple, then the imperative."
+    },
+    {
+      "question": "Tom said the alarm is usually a ___ alarm (no real fire).",
+      "choices": [
+        "false",
+        "true",
+        "green",
+        "quick"
+      ],
+      "answer": 0,
+      "explanation_ar": "false alarm إنذار بدون خطر حقيقي.",
+      "explanation_en": "A false alarm has no real danger."
+    },
+    {
+      "question": "\"Let the cat out of the bag\" means...",
+      "choices": [
+        "lose a pet",
+        "tell a secret by mistake",
+        "leave the office",
+        "open a box"
+      ],
+      "answer": 1,
+      "explanation_ar": "هذا التعبير يعني إفشاء سرّ دون قصد.",
+      "explanation_en": "This idiom means telling a secret by mistake."
+    },
+    {
+      "question": "A large building where goods are kept is a...",
+      "choices": [
+        "meeting room",
+        "reception",
+        "register",
+        "warehouse"
+      ],
+      "answer": 3,
+      "explanation_ar": "warehouse هو المستودع.",
+      "explanation_en": "A warehouse stores goods."
+    },
+    {
+      "question": "Which is a safety instruction (imperative)?",
+      "choices": [
+        "You walked to the exit.",
+        "Walking to the exit.",
+        "Use the stairs.",
+        "He uses the stairs."
+      ],
+      "answer": 2,
+      "explanation_ar": "صيغة الأمر تبدأ بالفعل مباشرة: Use the stairs.",
+      "explanation_en": "An imperative starts with the base verb: Use the stairs."
+    }
+  ]
+}

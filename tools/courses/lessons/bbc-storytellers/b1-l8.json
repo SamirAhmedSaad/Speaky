@@ -1,0 +1,333 @@
+{
+  "title": "Abdu and the Traffic Jam",
+  "content": {
+    "vocabulary": [
+      {
+        "word": "car",
+        "pos": "noun",
+        "meaning_en": "a vehicle with four wheels",
+        "meaning_ar": "سيارة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Abdu's mum stopped the car."
+      },
+      {
+        "word": "traffic jam",
+        "pos": "noun",
+        "meaning_en": "many cars stopped on a road",
+        "meaning_ar": "ازدحام مروري",
+        "note_ar": "",
+        "note_en": "",
+        "example": "They were in a traffic jam."
+      },
+      {
+        "word": "motorway",
+        "pos": "noun",
+        "meaning_en": "a big fast road between cities (UK)",
+        "meaning_ar": "طريق سريع",
+        "note_ar": "في أمريكا: highway",
+        "note_en": "US: highway.",
+        "example": "I hate this motorway."
+      },
+      {
+        "word": "lorry",
+        "pos": "noun",
+        "meaning_en": "a big vehicle that carries things (UK)",
+        "meaning_ar": "شاحنة",
+        "note_ar": "في أمريكا: truck",
+        "note_en": "US: truck.",
+        "example": "A tall green lorry was on the left."
+      },
+      {
+        "word": "road",
+        "pos": "noun",
+        "meaning_en": "a way for cars to go on",
+        "meaning_ar": "طريق",
+        "note_ar": "",
+        "note_en": "",
+        "example": "There are too many cars on the road."
+      },
+      {
+        "word": "weekend",
+        "pos": "noun",
+        "meaning_en": "Saturday and Sunday",
+        "meaning_ar": "عطلة نهاية الأسبوع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It was a great weekend."
+      },
+      {
+        "word": "homework",
+        "pos": "noun",
+        "meaning_en": "school work you do at home",
+        "meaning_ar": "واجب منزلي",
+        "note_ar": "",
+        "note_en": "",
+        "example": "He had to do his homework."
+      },
+      {
+        "word": "story",
+        "pos": "noun",
+        "meaning_en": "words about things that happen",
+        "meaning_ar": "قصة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Write a true story."
+      },
+      {
+        "word": "window",
+        "pos": "noun",
+        "meaning_en": "an opening with glass",
+        "meaning_ar": "نافذة",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Abdu opened his window."
+      },
+      {
+        "word": "noise",
+        "pos": "noun",
+        "meaning_en": "a loud sound",
+        "meaning_ar": "ضجيج / صوت عالٍ",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Can you hear the noise?"
+      },
+      {
+        "word": "dinosaur",
+        "pos": "noun",
+        "meaning_en": "a very big animal that lived long ago",
+        "meaning_ar": "ديناصور",
+        "note_ar": "",
+        "note_en": "",
+        "example": "A dinosaur was in the lorry."
+      },
+      {
+        "word": "field",
+        "pos": "noun",
+        "meaning_en": "open land with grass",
+        "meaning_ar": "حقل",
+        "note_ar": "",
+        "note_en": "",
+        "example": "It ran across the fields."
+      },
+      {
+        "word": "hear",
+        "pos": "verb",
+        "meaning_en": "get a sound with your ears",
+        "meaning_ar": "يسمع",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Did you hear it?"
+      },
+      {
+        "word": "tired",
+        "pos": "adjective",
+        "meaning_en": "needing rest",
+        "meaning_ar": "متعب",
+        "note_ar": "",
+        "note_en": "",
+        "example": "Abdu was tired."
+      }
+    ],
+    "fine_lines": [
+      {
+        "title": "hear vs listen",
+        "words": [
+          "hear",
+          "listen"
+        ],
+        "explanation_ar": "hear = يصل الصوت إلى أذنك، و listen = تنتبه لتسمع عن قصد.",
+        "explanation_en": "\"hear\" = a sound comes to your ears. \"listen\" = you try to hear.",
+        "examples": [
+          {
+            "word": "hear",
+            "sentence": "Did you hear that noise?"
+          },
+          {
+            "word": "listen",
+            "sentence": "Listen to your teacher."
+          }
+        ]
+      },
+      {
+        "title": "lorry (UK) vs truck (US)",
+        "words": [
+          "lorry",
+          "truck"
+        ],
+        "explanation_ar": "الكلمتان تعنيان الشاحنة: lorry في بريطانيا و truck في أمريكا.",
+        "explanation_en": "Both mean a big vehicle for carrying things: lorry (UK), truck (US).",
+        "examples": [
+          {
+            "word": "lorry",
+            "sentence": "The lorry was green."
+          },
+          {
+            "word": "truck",
+            "sentence": "A big truck is on the road."
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "phrase": "It's going to take forever!",
+        "meaning_ar": "سيستغرق الأمر وقتًا طويلًا جدًّا!",
+        "meaning_en": "Something will take a very long time.",
+        "example": "Look at the traffic! It's going to take forever!"
+      },
+      {
+        "phrase": "What was that?",
+        "meaning_ar": "ما هذا؟ (ما الذي حدث؟)",
+        "meaning_en": "Asking about a sudden sound.",
+        "example": "Bang! What was that?"
+      },
+      {
+        "phrase": "Did you hear it?",
+        "meaning_ar": "هل سمعته؟",
+        "meaning_en": "Asking if someone heard a sound.",
+        "example": "There was a loud noise. Did you hear it?"
+      },
+      {
+        "phrase": "Are you OK?",
+        "meaning_ar": "هل أنت بخير؟",
+        "meaning_en": "Asking if someone is all right.",
+        "example": "You look strange. Are you OK?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Questions in the past: Did you ...? / What was ...?",
+        "explanation_ar": "نسأل عن الماضي بـ Did + الفاعل + الفعل الأساسي: Did you hear it? ومع be نقول What was that?",
+        "explanation_en": "Past questions: Did + subject + base verb (Did you hear it?). With be: What was that?",
+        "examples": [
+          "Did you hear it?",
+          "Did you see the lorry?",
+          "What was that?"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where were Abdu and his mum?",
+      "choices": [
+        "in a traffic jam",
+        "at school",
+        "on a boat",
+        "at home"
+      ],
+      "answer": 0,
+      "explanation_ar": "كانا في ازدحام مروري.",
+      "explanation_en": "They were in a traffic jam."
+    },
+    {
+      "question": "What was in the green lorry?",
+      "choices": [
+        "a horse",
+        "a dinosaur",
+        "apples",
+        "cars"
+      ],
+      "answer": 1,
+      "explanation_ar": "كان في الشاحنة ديناصور.",
+      "explanation_en": "There was a dinosaur in it."
+    },
+    {
+      "question": "What did Abdu need for school?",
+      "choices": [
+        "a lorry",
+        "a radio",
+        "a true story",
+        "a dinosaur book"
+      ],
+      "answer": 2,
+      "explanation_ar": "كان عليه كتابة قصة حقيقية.",
+      "explanation_en": "He needed to write a true story."
+    },
+    {
+      "question": "___ you hear it?",
+      "choices": [
+        "Do it",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": 3,
+      "explanation_ar": "السؤال في الماضي Did you hear it?",
+      "explanation_en": "Past question: Did you hear it?"
+    },
+    {
+      "question": "In American English, a \"lorry\" is a ___.",
+      "choices": [
+        "truck",
+        "car",
+        "bus",
+        "train"
+      ],
+      "answer": 0,
+      "explanation_ar": "في أمريكا: truck.",
+      "explanation_en": "US: truck."
+    },
+    {
+      "question": "Many cars stopped on a road is a ___.",
+      "choices": [
+        "motorway",
+        "traffic jam",
+        "lorry",
+        "field"
+      ],
+      "answer": 1,
+      "explanation_ar": "الازدحام المروري = traffic jam.",
+      "explanation_en": "That is a traffic jam."
+    },
+    {
+      "question": "A sound comes to your ears. You ___ it.",
+      "choices": [
+        "listen",
+        "see",
+        "hear",
+        "look"
+      ],
+      "answer": 2,
+      "explanation_ar": "hear = يسمع (يصل الصوت).",
+      "explanation_en": "hear = a sound comes to your ears."
+    },
+    {
+      "question": "Did Abdu's mum see the dinosaur?",
+      "choices": [
+        "Yes, she did.",
+        "Yes, she saw it first.",
+        "Yes, she was scared.",
+        "No, she didn't."
+      ],
+      "answer": 3,
+      "explanation_ar": "لم ترَ الأم الديناصور.",
+      "explanation_en": "No, she didn't see it."
+    },
+    {
+      "question": "Saturday and Sunday are the ___.",
+      "choices": [
+        "weekend",
+        "holiday week",
+        "motorway",
+        "homework"
+      ],
+      "answer": 0,
+      "explanation_ar": "السبت والأحد = weekend.",
+      "explanation_en": "Saturday and Sunday = the weekend."
+    },
+    {
+      "question": "\"Did you see it?\" - Choose the correct answer.",
+      "choices": [
+        "Yes, I saw.",
+        "Yes, I did.",
+        "Yes, I do.",
+        "Yes, I seen."
+      ],
+      "answer": 1,
+      "explanation_ar": "الإجابة القصيرة Yes, I did.",
+      "explanation_en": "Short answer: Yes, I did."
+    }
+  ]
+}
