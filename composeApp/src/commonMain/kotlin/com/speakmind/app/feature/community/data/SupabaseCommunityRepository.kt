@@ -579,16 +579,20 @@ class SupabaseCommunityRepository(
     private var reportedPremium: Boolean? = null
     private var reportedPremiumAt = 0L
 
-    /** Tells the server whether this user has Premium (gold badge); renewed twice a day, expires after 3. */
+    /**
+     * Tells the server whether this user pays on Google Play; renewed twice a day, expires after 3.
+     * Premium granted by an admin isn't reported (the server already knows it), so it isn't listed as Play.
+     */
     private suspend fun reportPremium(uid: String) {
-        val on = Premium.active.value
+        val on = Premium.paidOnPlay
         val now = Clock.System.now().toEpochMilliseconds()
         if (on == reportedPremium && now - reportedPremiumAt < 12 * 3_600_000L) return
         try {
             client.postgrest.rpc("set_my_premium", buildJsonObject { put("p_on", on) })
             reportedPremium = on
             reportedPremiumAt = now
-            PremiumMembers.note(uid, on)
+            // My own gold badge: any Premium (paid or granted).
+            PremiumMembers.note(uid, Premium.active.value)
         } catch (e: Exception) {
             Napier.w("set_my_premium failed", e)
         }

@@ -119,6 +119,9 @@ object Premium {
         publish()
     }
 
+    /** Paid on Google Play right now (not Premium granted by an admin): what the server records as Play. */
+    val paidOnPlay: Boolean get() = paid
+
     /** Premium granted on the server (ad_free_users), independent of Google Play. */
     fun setServerAdFree(value: Boolean) {
         serverAdFree = value
