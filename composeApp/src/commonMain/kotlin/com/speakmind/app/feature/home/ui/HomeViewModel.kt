@@ -49,6 +49,10 @@ data class HomeUiState(
     val communityUnread: Int = 0,
     val dailyCards: List<DailyCard> = emptyList(),
     val streakDays: Int = 0,
+    /** The streak challenge (week, 2 weeks, month) and what to show once. */
+    val streak: com.speakmind.app.feature.streak.StreakState = com.speakmind.app.feature.streak.StreakState(),
+    val streakEvent: com.speakmind.app.feature.streak.StreakEvent? = null,
+    val showStreak: Boolean = false,
     val flashcardDueCount: Long = 0,
     val userLevel: String = "A2",
     val userName: String = "",
@@ -184,14 +188,57 @@ class HomeViewModel(
                 isLoadingTopics = false,
             )
 
-            // Update last active date
+            // Streak with challenges (week → 2 weeks → month), one missed day forgiven per challenge.
+            val stored = loadStreak(streak.toInt())
             if (lastActive != today) {
-                val newStreak = if (isConsecutiveDay(lastActive, today)) streak + 1 else 1
-                database.speakMindQueries.updateStreak(newStreak, today)
-                _uiState.value = _uiState.value.copy(streakDays = newStreak.toInt())
+                val (next, event) = com.speakmind.app.feature.streak.Streak.advance(stored, daysBetween(lastActive, today))
+                database.speakMindQueries.updateStreak(next.streak.toLong(), today)
+                saveStreak(next)
+                _uiState.value = _uiState.value.copy(
+                    streakDays = next.streak, streak = next, streakEvent = event,
+                    // A finished challenge or a saved streak opens the streak screen once.
+                    showStreak = event is com.speakmind.app.feature.streak.StreakEvent.Completed || event is com.speakmind.app.feature.streak.StreakEvent.Saved,
+                )
+            } else {
+                _uiState.value = _uiState.value.copy(streak = stored)
             }
+            runCatching { com.speakmind.app.feature.streak.StreakReminder.scheduleTomorrow(_uiState.value.streakDays) }
         }
     }
+
+    private fun daysBetween(last: String, today: String): Long? {
+        if (last.isEmpty()) return null
+        return try {
+            kotlinx.datetime.LocalDate.parse(today).toEpochDays().toLong() - kotlinx.datetime.LocalDate.parse(last).toEpochDays().toLong()
+        } catch (_: Exception) {
+            null
+        }
+    }
+
+    /** Saved challenge progress; users from before challenges start in the week with their streak. */
+    private fun loadStreak(streak: Int): com.speakmind.app.feature.streak.StreakState {
+        val q = database.speakMindQueries
+        val stage = q.selectCourseCache(KEY_STREAK_STAGE).executeAsOneOrNull()?.toIntOrNull()
+            ?: return com.speakmind.app.feature.streak.StreakState(streak = streak, stage = 0, inStage = streak.coerceAtMost(6))
+        return com.speakmind.app.feature.streak.StreakState(
+            streak = streak,
+            stage = stage,
+            inStage = q.selectCourseCache(KEY_STREAK_IN_STAGE).executeAsOneOrNull()?.toIntOrNull() ?: 0,
+            graceUsed = q.selectCourseCache(KEY_STREAK_GRACE).executeAsOneOrNull() == "1",
+        )
+    }
+
+    private fun saveStreak(s: com.speakmind.app.feature.streak.StreakState) {
+        val q = database.speakMindQueries
+        val now = Clock.System.now().toEpochMilliseconds()
+        q.upsertCourseCache(KEY_STREAK_STAGE, s.stage.toString(), now)
+        q.upsertCourseCache(KEY_STREAK_IN_STAGE, s.inStage.toString(), now)
+        q.upsertCourseCache(KEY_STREAK_GRACE, if (s.graceUsed) "1" else "0", now)
+    }
+
+    fun onStreakClicked() { _uiState.value = _uiState.value.copy(showStreak = true) }
+
+    fun onStreakDismissed() { _uiState.value = _uiState.value.copy(showStreak = false, streakEvent = null) }
 
     private fun isConsecutiveDay(last: String, today: String): Boolean {
         if (last.isEmpty()) return false
@@ -475,3 +522,8 @@ class HomeViewModel(
         }
     }
 }
+
+
+private const val KEY_STREAK_STAGE = "pref:streak_stage"
+private const val KEY_STREAK_IN_STAGE = "pref:streak_in_stage"
+private const val KEY_STREAK_GRACE = "pref:streak_grace"

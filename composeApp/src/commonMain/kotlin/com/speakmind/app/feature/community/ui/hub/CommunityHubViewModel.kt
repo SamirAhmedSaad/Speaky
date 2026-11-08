@@ -53,6 +53,14 @@ data class CommunityHubUiState(
     val myNickname: String = "",
     val myGender: String = "",
     val myPhotoUrl: String? = null,
+    /** My photo was removed as not modest (reason): a new modest photo or a cartoon avatar is required. */
+    val photoRejected: String? = null,
+    /** A new photo is being checked. */
+    val photoChecking: Boolean = false,
+    /** People I blocked (Settings → Blocked people); null until opened. */
+    val blockedPeople: List<com.speakmind.app.feature.community.data.model.CommunityUser>? = null,
+    val showBlocked: Boolean = false,
+    val blockedCount: Int = 0,
     val showEditProfile: Boolean = false,
     val isSavingProfile: Boolean = false,
     val profileError: String? = null,
@@ -130,6 +138,12 @@ class CommunityHubViewModel(
                     myGender = profile?.gender.orEmpty(),
                     myPhotoUrl = profile?.photoUrl,
                 )
+            }
+            runCatching { repository.refreshBlocks() }
+            _uiState.update { it.copy(blockedCount = repository.blockedUserIds.value.size) }
+            repository.myPhotoStatus()?.let { (status, reason) ->
+                _uiState.update { it.copy(photoRejected = if (status == "rejected") reason ?: "admin" else null) }
+                if (status == "rejected") _uiState.update { it.copy(myPhotoUrl = null) }
             }
             // An early "avatar:<key>" pick becomes the shared image URL, which older app versions can show.
             profile?.photoUrl?.takeIf { it.startsWith(FunAvatars.PREFIX) }?.let { FunAvatars.keyOf(it) }?.let(::onFunAvatarPicked)
@@ -257,7 +271,7 @@ class CommunityHubViewModel(
     fun onFunAvatarPicked(key: String) {
         val url = FunAvatars.photoUrlOf(key)
         val before = _uiState.value.myPhotoUrl
-        _uiState.update { it.copy(myPhotoUrl = url, profileError = null) }
+        _uiState.update { it.copy(myPhotoUrl = url, profileError = null, photoRejected = null) }
         viewModelScope.launch {
             try {
                 repository.setPhotoUrl(url)
@@ -273,11 +287,41 @@ class CommunityHubViewModel(
         _uiState.update { it.copy(isSavingProfile = true, profileError = null) }
         viewModelScope.launch {
             try {
+                _uiState.update { it.copy(photoChecking = true) }
+                val immodest = com.speakmind.app.feature.community.moderation.PhotoSafety.check(bytes)?.immodest == true
+                _uiState.update { it.copy(photoChecking = false) }
+                if (immodest) {
+                    _uiState.update { it.copy(isSavingProfile = false, profileError = com.speakmind.app.feature.community.ui.setup.PHOTO_NOT_ALLOWED) }
+                    return@launch
+                }
                 val url = repository.uploadAvatar(bytes)
-                _uiState.update { it.copy(isSavingProfile = false, myPhotoUrl = url) }
+                _uiState.update { it.copy(isSavingProfile = false, myPhotoUrl = url, photoRejected = null) }
             } catch (e: Exception) {
                 Napier.w("uploadAvatar failed", e)
                 _uiState.update { it.copy(isSavingProfile = false, profileError = friendlyCommunityError(e, "Couldn't upload the photo.")) }
+            }
+        }
+    }
+
+    fun onBlockedOpened() {
+        _uiState.update { it.copy(showBlocked = true, blockedPeople = null) }
+        viewModelScope.launch {
+            repository.refreshBlocks()
+            val people = repository.blockedUserIds.value.mapNotNull { id -> runCatching { repository.getUser(id) }.getOrNull() }
+            _uiState.update { it.copy(blockedPeople = people.sortedBy { p -> p.nickname.lowercase() }, blockedCount = people.size) }
+        }
+    }
+
+    fun onBlockedDismissed() = _uiState.update { it.copy(showBlocked = false) }
+
+    fun onUnblock(user: com.speakmind.app.feature.community.data.model.CommunityUser) {
+        _uiState.update { s -> s.copy(blockedPeople = s.blockedPeople?.filterNot { it.uid == user.uid }, blockedCount = (s.blockedCount - 1).coerceAtLeast(0)) }
+        viewModelScope.launch {
+            try {
+                repository.unblockUser(user.uid)
+            } catch (e: Exception) {
+                Napier.w("unblock failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't unblock.")) }
             }
         }
     }

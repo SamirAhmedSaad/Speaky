@@ -2,6 +2,7 @@ package com.speakmind.app.feature.community.data
 
 enum class ViolationType(val userMessage: String) {
     SEXUAL("Sexual or explicit content is not allowed in this community."),
+    DATING("Dating and flirting aren't allowed. Speaky is for practising English."),
     HATE_SPEECH("Hate speech and discrimination are not tolerated here."),
     VIOLENCE("Violent or threatening content is not allowed."),
     SELF_HARM("Content promoting self-harm is not allowed."),
@@ -22,6 +23,8 @@ data class ModerationResult(
 object ContentModerator {
 
     fun check(text: String): ModerationResult {
+        // Phase 0: phone numbers hidden with separators, words, Arabic or emoji digits.
+        if (hasHiddenNumber(text)) return ModerationResult(isAllowed = false, violationType = ViolationType.CONTACT_HARVESTING)
         // Phase 1: raw text checks (emails, URLs, @handles — must run before normalization
         // because normalization strips @ and dots that are needed for pattern matching)
         for ((type, patterns) in RAW_RULES) {
@@ -45,11 +48,49 @@ object ContentModerator {
 
     private val SPELLED_OUT = Regex("""(?:\b[a-z]\b\s*){3,}""")
 
+    private val NUMBER_WORDS = mapOf(
+        "zero" to '0', "oh" to '0', "one" to '1', "two" to '2', "three" to '3', "four" to '4',
+        "five" to '5', "six" to '6', "seven" to '7', "eight" to '8', "nine" to '9',
+    )
+
+    /**
+     * 8+ digits with only spaces, symbols or number words between them ("0/5/0 1 2 3 4 5",
+     * "zero five zero…", "٠٥٠١٢٣٤٥", "0️⃣5️⃣…"): almost always a phone number.
+     */
+    internal fun hasHiddenNumber(text: String): Boolean {
+        val digits = StringBuilder()
+        for (ch in text) {
+            digits.append(
+                when (ch) {
+                    in '٠'..'٩' -> '0' + (ch - '٠')          // Arabic-Indic
+                    in '۰'..'۹' -> '0' + (ch - '۰')          // Persian / Urdu
+                    in '０'..'９' -> '0' + (ch - '０')        // full width
+                    in '①'..'⑨' -> '1' + (ch - '①')          // circled
+                    '\uFE0F', '\u20E3' -> continue          // emoji keycap parts
+                    else -> ch
+                },
+            )
+        }
+        // Number words become digits; every other word separates runs.
+        val tokens = Regex("""[a-zA-Z]+|\d|[^a-zA-Z\d]""").findAll(digits.toString().lowercase()).map { it.value }
+        var run = 0
+        for (t in tokens) {
+            val d = NUMBER_WORDS[t]?.toString() ?: t.takeIf { it.length == 1 && it[0].isDigit() }
+            when {
+                d != null -> { run++; if (run >= 8) return true }
+                t[0].isLetter() -> run = 0
+                else -> Unit // spaces and symbols between digits don't break the run
+            }
+        }
+        return false
+    }
+
     // Normalize leet-speak and obfuscation tricks
     private fun normalize(text: String): String {
         return text
             .lowercase()
             .replace(Regex("[\\u200B-\\u200D\\uFEFF\\u00AD]"), "") // zero-width / soft-hyphen
+            .replace("*", "")                                       // f*ck, s*x
             .replace(Regex("(.)\\1{2,}"), "$1$1")                  // collapse 3+ repeated chars
             .replace('0', 'o')
             .replace('3', 'e')
@@ -95,6 +136,18 @@ object ContentModerator {
             Regex("""(?:my\s+(?:number|no|phone|cell|mobile|whatsapp)\s*(?:is|:)?\s*)[\d\s()+\-]{6,}""", RegexOption.IGNORE_CASE),
         ),
 
+        ViolationType.SEXUAL to listOf(
+            Regex("""سكس|نيكني|انيكك|منيوك|شرموط|عاهرة|قحبة|سحاق|سحاقية|بزاز|طيزك|نهودك|عارية|صور عارية|مثليين|المثلية|مثلي الجنس|شواذ|شاذ جنسي|لوطي|ميول جنسية|ليزبيان"""),
+        ),
+
+        ViolationType.DATING to listOf(
+            Regex("""حبيبتي|تتزوجيني|تتجوزيني|زواج|ابحث عن زوجة|ابحث عن زوج|ابغى زوجة|ابي زوجة|عايز اتجوز|ابغى اتزوج|ابي اتزوج|عروسة|عريس|مواعدة|بحبك|احبك|ابغى بنت|ابي بنت|عايز بنت|للتعارف|تعارف|صورتك|ارسلي صورة|ابعتي صورة|بوسة|بوسني"""),
+        ),
+
+        ViolationType.CONTACT_HARVESTING to listOf(
+            Regex("""واتس|وتساب|انستا|انستغرام|انستقرام|سناب|تيك توك|تلجرام|تيليجرام|تليجرام|فيسبوك|فيس بوك|رقمك|رقم تلفونك|ارسل رقم|ابعت رقم|كلمني خاص|تواصل معي|ضيفني|برنامج ثاني|برنامج تاني|برنامج اخر|برنامج آخر|تطبيق ثاني|تطبيق تاني|تطبيق اخر|تطبيق آخر|خارج التطبيق|برا التطبيق|بره التطبيق|نكمل برا|نكمل بره|نتكلم برا|كلمني برا|ايش برامجك|وش برامجك|عندك سوشيال|زانجي|زنجي|ايمو|بوتيم|سيجنال|تانجو|بيجو|ازار|زووم|هالو تولك|سكايب|ديسكورد|تيليقرام"""),
+        ),
+
         ViolationType.PERSONAL_INFO to listOf(
             // Social security / national ID patterns
             Regex("""\b\d{3}[-\s]?\d{2}[-\s]?\d{4}\b"""),              // SSN
@@ -128,6 +181,29 @@ object ContentModerator {
             Regex("""\b(?:bitch|whore|slut)"""),
             Regex("""\bpedophil|\bchild porn|\bloli\b"""),
             Regex("""\b(?:incest|bestiality)"""),
+            Regex("""\b(?:seks|seggs|secks|sexx?|s e x)\b"""),
+            Regex("""\bmake love|\bsleep with (?:me|you)|\bbed with me"""),
+            Regex("""\b(?:kinky|fetish|bdsm|condom|lingerie|bra size)\b"""),
+            Regex("""\btouch (?:me|you|your body)|\b(?:show|send) (?:me )?your body"""),
+            Regex("""\b(?:wet for|turn me on|turned on|so hot for|hot girl|hot boy|sexy (?:girl|boy|lady|body))"""),
+            Regex("""\bsend (?:me )?nudes?|\bnude (?:pic|foto)"""),
+            Regex("""\b(?:gay|gays|lesbian|lesbians|homosexual|homosexuality|bisexual|lgbt\w*|lgbtq\w*|queer|transgender|tranny|pansexual|gay sex)\b"""),
+        ),
+
+        ViolationType.DATING to listOf(
+            Regex("""\b(?:be|become) my (?:girl ?friend|boy ?friend|gf|bf|wife|husband|lover|valentine|baby|babe)"""),
+            Regex("""\b(?:looking for|search(?:ing)? for|want|need|find me) (?:a |an |my )?(?:girl ?friend|boy ?friend|gf|bf|lover|girl|hot girl|date|wife|husband|bride|partner|soul ?mate|life partner|marriage)\b"""),
+            Regex("""\b(?:dating|date with|online date|want to (?:get )?marr(?:y|ied)|wana (?:get )?marr(?:y|ied)|marriage proposal|propose to (?:you|me)|get married to (?:you|me))\b"""),
+            Regex("""\b(?:marry me|wil+ (?:you|u) marry me|date me|go on a date with me|go out with me)\b"""),
+            Regex("""\b(?:i love (?:you|u)|love (?:you|u) (?:baby|babe|dear|so much)|i miss (?:you|u) (?:baby|babe)|kis (?:me|you)|kiss (?:me|you)|hug (?:me|you) tight)\b"""),
+            Regex("""\b(?:you are|you re|ur|u r) (?:so )?(?:beautiful|pretty|cute|hot|sexy|gorgeous|handsome)\b"""),
+            Regex("""\bsend (?:me )?(?:your |ur |a )?(?:pic|pics|picture|foto|fotos|selfie|face)\b"""),
+            Regex("""\b(?:show me|let me see) (?:your |ur )?(?:face|pic|foto|picture)\b"""),
+            Regex("""\b(?:video call|vid call|cam to cam|on cam|facetime)\b"""),
+            Regex("""\bany (?:girls?|ladies|women|females|boys?) here\b|\b(?:girls?|females?) only\b"""),
+            Regex("""\b(?:hey|hi|hello) (?:baby|babe|sexy|beautiful|cutie|sweetheart)\b"""),
+            Regex("""\b(?:habibti|habibty|my love|my dear wife|wifey|hubby)\b"""),
+            Regex("""\b(?:lonely|feeling lonely) (?:girl|boy|guy|lady)|\bneed company\b"""),
         ),
 
         ViolationType.HATE_SPEECH to listOf(
@@ -177,6 +253,15 @@ object ContentModerator {
         ViolationType.CONTACT_HARVESTING to listOf(
             // Any mention of external communication platforms (standalone block)
             Regex("""\b(?:whatsapp|telegram|snapchat|instagram|tiktok|wechat|viber|discord|kik|skype|kakaotalk|zalo|line app|grindr|tinder|bumble|hinge|meetme|bereal|clubhouse)\b"""),
+            // Other chat / call / meeting apps (and common misspellings)
+            Regex("""\b(?:zangi|zangy|zanghi|zinger|zingi|botim|botem|threema|wickr|totok|bigo|bigo live|azar|hago|kik|justalk|wechat|we chat|qq|sharechat|clubhouse|omegle|chatroulette|hellotalk|hello talk|badoo|tantan|yubo|likee|kwai|triller|ometv|ome tv|camsurf|paltalk|ayoba|nimbuzz|hangouts|gmail|email me|e mail me)\b|\b(?:imo|signal|tango|yalla|hike|tandem|wink|soul|monkey|holla|line|wire|zoom|teams|meet|duo|skype) (?:app|id|account|number|link|call|meeting|chat)\b|\b(?:on|via|in|add me on|my|your|ur) (?:imo|signal|tango|zoom|teams|ms teams|google meet|google duo|kik)\b|\b(?:ms|microsoft) teams\b|\bgoogle (?:meet|duo)\b"""),
+            // Short names and misspellings: insta, ig, snap, watsap, wtsp, tele, fb, tik tok…
+            Regex("""\b(?:insta|instaa|instagram|instgram|instagrm|insta gram|instaid|ig|igram)\b"""),
+            Regex("""\b(?:snap|snapchat|snp|snapp)\b"""),
+            Regex("""\bw+h?a+t+s*\s*a+p+\b|\b(?:wtsp|wtsap|whtsap|watsp|wa number|whatsap)\b"""),
+            Regex("""\b(?:tele|telgram|tlgrm|tg)\b"""),
+            Regex("""\b(?:fb|face book|messenger|tik tok|tiktok|tt id)\b"""),
+            Regex("""\b(?:my|your|ur) (?:num|numbr|no|contact|id|insta|snap|ig)\b"""),
             // Social media that can be used to redirect
             Regex("""\b(?:twitter|facebook|youtube|twitch|linkedin|pinterest|reddit|tumblr)\b"""),
             // DM / PM standalone or in any context
@@ -185,11 +270,17 @@ object ContentModerator {
             Regex("""(?:inbox|direct\s+message|private\s+message)\s*me\b"""),
             // "hmu" / "hit me up"
             Regex("""\bhmu\b|hit\s+me\s+up"""),
-            // "share your/my number/contact/phone"
-            Regex("""share\s+(?:your|my|the)\s+(?:number|contact|phone|info|handle|username|profile|account)"""),
-            Regex("""(?:give|get|send|drop)\s+(?:me\s+)?(?:your|my)\s+(?:number|contact|phone|info|handle)"""),
+            // "share your/my number/contact/fone"
+            Regex("""share\s+(?:your|my|the)\s+(?:number|contact|fone|info|handle|username|profile|account)"""),
+            Regex("""(?:give|get|send|drop)\s+(?:me\s+)?(?:your|my)\s+(?:number|contact|fone|info|handle)"""),
             // "call me" / "text me" / "ping me"
             Regex("""(?:call|text|ping|buzz)\s+me\b"""),
+            // Moving the chat to another app / site
+            Regex("""\b(?:another|other|different|diferent|second|some other|better|private) (?:app|apps|platform|website|social media|messenger|chat app|messaging app)\b"""),
+            Regex("""\b(?:outside|out of|off|leave|beyond) (?:this|the|speaky) (?:app|aplication|application|platform|site|chat)\b"""),
+            Regex("""\b(?:not|cant|can t) (?:talk|chat|speak) here\b|\btalk (?:there|over there)\b|\bnot (?:on|in) this app\b"""),
+            Regex("""\b(?:which|what) (?:app|apps|social media|platform) (?:do )?(?:you|u) (?:use|have)\b"""),
+            Regex("""\b(?:do you|u) (?:use|have) (?:any )?(?:social media|socials|other apps?)\b"""),
             // Generic redirect out of app
             Regex("""(?:lets?|let us)\s+(?:chat|talk|speak|meet|connect)\s+(?:outside|privately|in private|off(?:line)?|on another|somewhere else|elsewhere)"""),
             Regex("""(?:move|take this|continue)\s+(?:this\s+)?(?:conversation|chat|talk)\s+(?:to|outside|off|elsewhere)"""),

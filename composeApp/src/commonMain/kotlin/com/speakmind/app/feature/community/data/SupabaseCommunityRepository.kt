@@ -9,6 +9,8 @@ import io.ktor.client.request.setBody
 import io.ktor.client.request.header
 import io.ktor.client.request.post
 import io.ktor.client.HttpClient
+import io.ktor.client.call.body
+import io.ktor.client.request.get
 import com.speakmind.app.config.AppConfig
 import com.speakmind.app.feature.community.data.repository.AiCorrection
 import com.speakmind.app.db.Room_message_cache
@@ -70,6 +72,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -228,7 +231,7 @@ class SupabaseCommunityRepository(
 
     override suspend fun saveUserProfile(nickname: String, gender: String) {
         val uid = requireUserId()
-        val photo = googlePhotoUrl()
+        val photo = googlePhotoUrl()?.takeIf { isModestPhoto(it) }
         client.from(USERS).upsert(
             UserUpsertDto(
                 id = uid, nickname = nickname, gender = gender, level = appLevel(), photoUrl = photo,
@@ -339,6 +342,15 @@ class SupabaseCommunityRepository(
         database.speakMindQueries.selectProgress().executeAsOneOrNull()?.level ?: ""
 
     override fun authPhotoUrl(): String? = googlePhotoUrl()
+
+    /** The Google account photo, checked on the phone; can't download/check = allowed. */
+    private suspend fun isModestPhoto(url: String): Boolean = try {
+        val bytes = aiHttp.get(url).body<ByteArray>()
+        com.speakmind.app.feature.community.moderation.PhotoSafety.check(bytes)?.immodest != true
+    } catch (e: Exception) {
+        Napier.w("Google photo check failed", e)
+        true
+    }
 
     private fun googlePhotoUrl(): String? {
         val meta = client.auth.currentUserOrNull()?.userMetadata ?: return null
@@ -490,8 +502,10 @@ class SupabaseCommunityRepository(
             presenceJob = scope.launch {
                 // The whole presence state on every change: a join/leave log goes wrong after missed
                 // events (reconnects) and when one person is connected twice (two devices).
-                channel.presenceDataFlow<PresenceDto>().collect { present ->
+                // collectLatest + a short wait: a burst of joins/leaves makes one request, not one each.
+                channel.presenceDataFlow<PresenceDto>().collectLatest { present ->
                     presentKeys.value = present.mapNotNull { it.userId }.toSet()
+                    delay(1_500)
                     refreshOnline()
                 }
             }
@@ -881,6 +895,24 @@ class SupabaseCommunityRepository(
         }
     }
 
+    @kotlinx.serialization.Serializable
+    private data class PhotoStatusDto(val status: String = "ok", val reason: String? = null)
+
+    override suspend fun myPhotoStatus(): Pair<String, String?>? {
+        if (!hasSession() || isGuest()) return null
+        return try {
+            client.postgrest.rpc("my_photo_status").decodeList<PhotoStatusDto>().firstOrNull()?.let { it.status to it.reason }
+        } catch (e: Exception) {
+            Napier.w("my_photo_status failed", e)
+            null
+        }
+    }
+
+    override suspend fun adminRejectPhoto(userId: String) {
+        client.postgrest.rpc("admin_reject_photo", buildJsonObject { put("p_user", userId) })
+        lookupUser(userId, fresh = true)
+    }
+
     override suspend fun isAdmin(): Boolean {
         if (!hasSession() || isGuest()) return false
         return try {
@@ -945,13 +977,20 @@ class SupabaseCommunityRepository(
                 )
             }
 
-    override suspend fun adminChatMessages(roomId: String, pageSize: Int, before: AdminChatMessage?): List<AdminChatMessage> =
-        client.postgrest.rpc("admin_chat_messages", buildJsonObject {
+    override suspend fun adminChatMessages(roomId: String, pageSize: Int, before: AdminChatMessage?): List<AdminChatMessage> {
+        val params = buildJsonObject {
             put("p_room", roomId)
             put("p_limit", pageSize)
             if (before != null && before.createdAtRaw.isNotEmpty()) put("p_before", before.createdAtRaw)
-        })
-            .decodeList<AdminChatMessageDto>()
+        }
+        // v2 adds the voice clip path; falls back to the original if the server doesn't have it yet.
+        val rows = try {
+            client.postgrest.rpc("admin_chat_messages_v2", params).decodeList<AdminChatMessageDto>()
+        } catch (e: Exception) {
+            Napier.w("admin_chat_messages_v2 unavailable, using v1", e)
+            client.postgrest.rpc("admin_chat_messages", params).decodeList<AdminChatMessageDto>()
+        }
+        return rows
             .map {
                 AdminChatMessage(
                     id = it.id,
@@ -962,8 +1001,10 @@ class SupabaseCommunityRepository(
                     createdAtMillis = parseMillis(it.createdAt),
                     createdAtRaw = it.createdAt,
                     isEdited = it.editedAt != null,
+                    voicePath = it.voicePath,
                 )
             }
+    }
 
     override suspend fun adminSetReportStatus(reportId: String, status: String) {
         client.postgrest.rpc(
@@ -988,6 +1029,26 @@ class SupabaseCommunityRepository(
 
     override suspend fun adminUnban(userId: String) {
         client.postgrest.rpc("admin_unban", buildJsonObject { put("p_user", userId) })
+    }
+
+    override suspend fun isCommunityOwner(): Boolean = try {
+        client.postgrest.rpc("is_community_owner").decodeAs<Boolean>()
+    } catch (e: Exception) {
+        // Server without roles yet: admins keep the moderator button.
+        Napier.w("is_community_owner unavailable", e)
+        isAdmin()
+    }
+
+    override suspend fun isUserBanned(userId: String): Boolean = try {
+        client.postgrest.rpc("is_banned", buildJsonObject { put("p_user", userId) }).decodeAs<Boolean>()
+    } catch (e: Exception) {
+        Napier.w("is_banned failed", e)
+        false
+    }
+
+    override suspend fun adminDeleteMessage(messageId: String) {
+        client.postgrest.rpc("admin_delete_message", buildJsonObject { put("p_message", messageId) })
+        database.speakMindQueries.deleteCachedRoomMessage(messageId)
     }
 
     override suspend fun adminModerators(): List<CommunityUser> =
@@ -1387,6 +1448,7 @@ private data class AdminChatMessageDto(
     @SerialName("voice_duration_ms") val voiceDurationMs: Long? = null,
     @SerialName("created_at") val createdAt: String,
     @SerialName("edited_at") val editedAt: String? = null,
+    @SerialName("voice_path") val voicePath: String? = null,
 )
 
 @Serializable

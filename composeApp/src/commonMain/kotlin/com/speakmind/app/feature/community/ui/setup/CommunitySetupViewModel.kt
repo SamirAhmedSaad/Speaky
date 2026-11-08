@@ -77,7 +77,15 @@ class CommunitySetupViewModel(
     }
 
     fun onPhotoPicked(bytes: ByteArray?) {
-        if (bytes != null) _uiState.value = _uiState.value.copy(photoBytes = bytes, error = null)
+        if (bytes == null) return
+        viewModelScope.launch {
+            // Checked on the phone: an immodest photo isn't used.
+            if (com.speakmind.app.feature.community.moderation.PhotoSafety.check(bytes)?.immodest == true) {
+                _uiState.value = _uiState.value.copy(photoBytes = null, error = PHOTO_NOT_ALLOWED)
+            } else {
+                _uiState.value = _uiState.value.copy(photoBytes = bytes, error = null)
+            }
+        }
     }
 
     fun onGenderSelected(gender: String) {
@@ -142,3 +150,7 @@ private fun capitalizeName(value: String): String =
     value.split(" ").joinToString(" ") { word ->
         if (word.isEmpty()) word else word.replaceFirstChar { it.uppercase() }
     }
+
+
+/** Shown when a picked profile photo isn't modest. */
+const val PHOTO_NOT_ALLOWED = "This photo isn't allowed. Please choose a modest photo, or keep the default avatar."

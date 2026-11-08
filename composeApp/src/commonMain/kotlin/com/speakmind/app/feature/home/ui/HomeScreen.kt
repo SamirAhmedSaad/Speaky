@@ -204,6 +204,7 @@ private fun HomeTabsHost(
                 onlineCount = onlineCount,
                 onSettingsClick = { showSettings = true },
                 onLevelClick = viewModel::onLevelBadgeClicked,
+                onStreakClick = viewModel::onStreakClicked,
                 onCourseClick = { coursesViewModel.onContinueCourse(it.course) },
                 onAllCoursesClick = coursesViewModel::onAllCoursesClicked,
                 onReviewClick = viewModel::onReviewClicked,
@@ -255,6 +256,10 @@ private fun HomeTabsHost(
             )
         }
 
+        if (uiState.showStreak) {
+            StreakSheet(uiState.streak, uiState.streakEvent, viewModel::onStreakDismissed)
+        }
+
         if (showSettings) {
             SettingsLayer(
                 state = uiState,
@@ -279,6 +284,16 @@ private fun HomeTabsHost(
                 onSpeedSelected = viewModel::onTtsSpeedSelected,
                 onPrivacyClick = viewModel::onPrivacyPolicyClicked,
                 onContactClick = { runCatching { uriHandler.openUri("mailto:samir.hayan@gmail.com") } },
+                communitySection = {
+                    val hubViewModel = koinViewModel<com.speakmind.app.feature.community.ui.hub.CommunityHubViewModel>()
+                    val hubState by hubViewModel.uiState.collectAsStateWithLifecycle()
+                    LaunchedEffect(Unit) { hubViewModel.onResume() }
+                    com.speakmind.app.feature.community.ui.hub.CommunitySettingsSection(hubState, hubViewModel, onOpenChat = {
+                        showSettings = false
+                        viewModel.onCommunityClicked()
+                    })
+                    com.speakmind.app.feature.community.ui.hub.CommunityHubDialogs(hubState, hubViewModel)
+                },
             )
         }
     }

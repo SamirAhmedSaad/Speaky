@@ -50,6 +50,8 @@ kotlin {
             implementation(libs.sqldelight.android.driver)
             implementation(libs.work.runtime.ktx)
             implementation(libs.mediapipe.genai)
+            // On-device profile photo check (photo_safety.tflite, MobileNet NSFW, MIT).
+            implementation(libs.tensorflow.lite)
             implementation(libs.ktor.client.android)
             // Supabase Realtime needs WebSockets, which the Android engine doesn't support
             implementation(libs.ktor.client.okhttp)

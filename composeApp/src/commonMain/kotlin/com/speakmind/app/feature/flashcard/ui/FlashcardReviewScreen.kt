@@ -485,11 +485,13 @@ private fun stageLabel(repetitions: Long): String {
 
 /** The interval the SM-2 engine would give for this rating, as the button's hint. */
 private fun nextReviewLabel(card: Flashcards, rating: String): String {
-    val days = SM2Engine.review(
+    val interval = SM2Engine.review(
         quality = SM2Engine.qualityFromRating(rating),
         repetitions = card.repetitions,
         easeFactor = card.ease_factor,
         intervalDays = card.interval_days,
-    ).nextIntervalDays.roundToInt().coerceAtLeast(1)
+    ).nextIntervalDays
+    if (interval < 1.0) return "10 min"
+    val days = interval.roundToInt().coerceAtLeast(1)
     return if (days == 1) "1 day" else "$days days"
 }

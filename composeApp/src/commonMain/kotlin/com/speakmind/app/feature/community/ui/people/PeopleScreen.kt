@@ -154,6 +154,8 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
             }
         }
         uiState.profileUser?.let { user ->
+            var banned by remember(user.uid) { mutableStateOf(false) }
+            if (uiState.isAdmin) LaunchedEffect(user.uid) { banned = viewModel.isUserBanned(user.uid) }
             ProfileSheet(
                 user = user,
                 online = user.uid in uiState.onlineUserIds,
@@ -163,8 +165,15 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                 onReport = null,
                 onBlockToggle = if (uiState.isGuest) null else { { viewModel.onToggleBlock(user) } },
                 isModerator = user.uid in uiState.moderatorIds,
-                onModeratorToggle = if (uiState.isAdmin) { { viewModel.onToggleModerator(user) } } else null,
+                onModeratorToggle = if (uiState.isOwner) { { viewModel.onToggleModerator(user) } } else null,
+                onRemovePhoto = if (uiState.isAdmin && !user.photoUrl.isNullOrEmpty()) { { viewModel.onRemovePhoto(user) } } else null,
+                onBan = if (uiState.isAdmin) { { viewModel.onBanRequested(user) } } else null,
+                isBanned = banned,
+                onUnban = if (uiState.isAdmin) { { viewModel.onAdminUnban(user) } } else null,
             )
+        }
+        uiState.banTarget?.let { target ->
+            com.speakmind.app.feature.community.ui.components.AdminBanSheet(target.nickname.ifEmpty { "this person" }, viewModel::onConfirmBan, viewModel::onBanCancelled)
         }
         (uiState.error ?: uiState.info)?.let { error ->
             LaunchedEffect(error) {

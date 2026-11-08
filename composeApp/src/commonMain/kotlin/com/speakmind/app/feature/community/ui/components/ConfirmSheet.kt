@@ -13,6 +13,8 @@ import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -138,4 +140,20 @@ fun SheetCheckRow(label: String, checked: Boolean, onToggle: () -> Unit) {
         }
         Text(label, color = colors.textPrimary, fontSize = 14.sp, fontWeight = FontWeight.SemiBold)
     }
+}
+
+
+/** Admins: confirm banning [name] directly, optionally removing all their messages. */
+@Composable
+fun AdminBanSheet(name: String, onConfirm: (removeMessages: Boolean) -> Unit, onDismiss: () -> Unit) {
+    var removeMessages by androidx.compose.runtime.remember { androidx.compose.runtime.mutableStateOf(false) }
+    ConfirmSheet(
+        title = "Ban $name?",
+        message = "They won't be able to post in the Hub or send private messages. You can unban them later from their profile.",
+        confirmLabel = "Ban user",
+        icon = com.speakmind.app.ui.components.SpeakyIcons.Shield,
+        onConfirm = { onConfirm(removeMessages) },
+        onDismiss = onDismiss,
+        extra = { SheetCheckRow("Also remove all their messages", removeMessages) { removeMessages = !removeMessages } },
+    )
 }

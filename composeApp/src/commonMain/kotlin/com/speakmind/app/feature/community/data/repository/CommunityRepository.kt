@@ -34,6 +34,10 @@ interface CommunityRepository {
     suspend fun updateProfile(nickname: String, gender: String)
     /** Uploads a new profile photo (JPEG/PNG bytes) and returns its URL. */
     suspend fun uploadAvatar(bytes: ByteArray): String
+    /** My photo's moderation status ("ok", "pending", "rejected", "unchecked") and reason. */
+    suspend fun myPhotoStatus(): Pair<String, String?>?
+    /** Admins: remove someone's photo and ask them for a modest one. */
+    suspend fun adminRejectPhoto(userId: String)
     /** Saves a fun avatar pick ("avatar:fox") as the profile photo. */
     suspend fun setPhotoUrl(url: String)
     /** Uploads a public image under the signed-in user's avatars folder; returns the path written. */
@@ -126,6 +130,12 @@ interface CommunityRepository {
     suspend fun adminSetReportStatus(reportId: String, status: String)
     suspend fun adminBan(userId: String, reason: String, removeMessages: Boolean)
     suspend fun adminUnban(userId: String)
+    /** Admins: delete anyone's message (Hub or private chat). */
+    suspend fun adminDeleteMessage(messageId: String)
+    /** Whether [userId] is banned (admins see Ban or Unban on their profile). */
+    suspend fun isUserBanned(userId: String): Boolean
+    /** The owner (not a moderator): only the owner adds or removes moderators. */
+    suspend fun isCommunityOwner(): Boolean
     suspend fun adminModerators(): List<CommunityUser>
     suspend fun adminSetModerator(userId: String, on: Boolean)
     /** Every private chat, newest first (read-only moderation). */

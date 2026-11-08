@@ -130,7 +130,6 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                         Text("Chats", Modifier.weight(1f), style = displayStyle(32.sp), color = colors.textPrimary)
                         SpeakyIconButton(SpeakyIcons.AddPerson, "Find people", viewModel::onPeopleClicked)
-                        if (!uiState.isGuest) AccountMenu(viewModel, uiState)
                     }
                     if (!uiState.isGuest && !loading) {
                         CommunitySearchField(
@@ -210,29 +209,7 @@ private fun InboxContent(uiState: CommunityHubUiState, viewModel: CommunityHubVi
         }
     }
 
-    if (uiState.showEditProfile) {
-        EditProfileSheet(uiState, viewModel)
-    }
-    if (uiState.confirmSignOut) {
-        ConfirmSheet(
-            title = "Sign out?",
-            message = "You can sign in again any time with Google. Your chats and messages stay saved.",
-            confirmLabel = "Sign out",
-            icon = SpeakyIcons.SignOut,
-            onConfirm = viewModel::onSignOut,
-            onDismiss = viewModel::onSignOutDismissed,
-        )
-    }
-    if (uiState.confirmDeleteAccount) {
-        ConfirmSheet(
-            title = "Delete your account?",
-            message = "Your community profile, messages, voice notes and private chats are permanently deleted. This can't be undone.",
-            confirmLabel = "Delete forever",
-            icon = SpeakyIcons.Trash,
-            onConfirm = viewModel::onConfirmDeleteAccount,
-            onDismiss = viewModel::onDeleteAccountDismissed,
-        )
-    }
+    CommunityHubDialogs(uiState, viewModel)
 }
 
 @Composable
@@ -465,99 +442,6 @@ private fun SignInCard(onSignIn: () -> Unit, loading: Boolean, modifier: Modifie
 }
 
 @Composable
-private fun AccountMenu(viewModel: CommunityHubViewModel, uiState: CommunityHubUiState) {
-    val colors = LocalSpeakMindColors.current
-    var open by remember { mutableStateOf(false) }
-    val close = { open = false }
-    Box {
-        SpeakyIconButton(SpeakyIcons.Dots, "Menu", { open = true })
-        DropdownMenu(
-            expanded = open,
-            onDismissRequest = close,
-            shape = RoundedCornerShape(24.dp),
-            containerColor = colors.surface,
-            shadowElevation = 20.dp,
-            border = BorderStroke(0.dp, Color.Transparent),
-            modifier = Modifier.width(300.dp).padding(horizontal = 8.dp),
-        ) {
-            // Who is signed in
-            Row(
-                modifier = Modifier.padding(12.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(12.dp),
-            ) {
-                val iAmPremium = Premium.active.collectAsState().value
-                UserAvatar(
-                    nickname = uiState.myNickname.ifEmpty { "?" },
-                    photoUrl = uiState.myPhotoUrl,
-                    size = 46.dp,
-                    borderColor = colors.neonCyan,
-                    premium = iAmPremium,
-                )
-                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                    Text(
-                        uiState.myNickname.ifEmpty { "My account" },
-                        color = colors.textPrimary,
-                        fontSize = 16.sp,
-                        fontWeight = FontWeight.ExtraBold,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                    )
-                    if (iAmPremium) PremiumPill(crown = false, fontSize = 10.sp)
-                    else Text("Free account", color = colors.textMuted, fontSize = 12.sp)
-                }
-            }
-            MenuDivider()
-            MenuRow(SpeakyIcons.Person, colors.primarySoft, colors.neonCyan, "Edit profile", "Name, photo and gender") {
-                close()
-                viewModel.onEditProfile()
-            }
-            uiState.hubAlerts?.let { alertsOn ->
-                // Flips in place: no need to reopen the menu to see the new state.
-                MenuRow(
-                    icon = SpeakyIcons.Bell,
-                    tileColor = colors.goldSoft,
-                    tint = colors.onGoldSoft,
-                    title = "Speaky Hub alerts",
-                    subtitle = if (alertsOn) "On" else "Off",
-                    onClick = viewModel::onToggleHubAlerts,
-                    trailing = { MiniSwitch(alertsOn) },
-                )
-            }
-            if (uiState.isAdmin) {
-                MenuRow(SpeakyIcons.Shield, colors.coralSoft, colors.coral, "Reports", "Admins only") {
-                    close()
-                    viewModel.openReports()
-                }
-                MenuRow(SpeakyIcons.Chat, colors.mintSoft, colors.onMintSoft, "Private chats", "Admins only · review") {
-                    close()
-                    viewModel.openPrivateChats()
-                }
-                MenuRow(SpeakyIcons.Phone, colors.primarySoft, colors.onPrimarySoft, "Voice calls", "Admins only · on/off, bans") {
-                    close()
-                    viewModel.openVoiceCalls()
-                }
-                MenuRow(SpeakyIcons.Crown, colors.goldSoft, colors.onGoldSoft, "Subscribers", "Admins only · Premium members") {
-                    close()
-                    viewModel.openSubscribers()
-                }
-            }
-            MenuDivider()
-            MenuRow(
-                SpeakyIcons.SignOut,
-                colors.error.copy(alpha = 0.12f),
-                colors.error,
-                "Sign out",
-                titleColor = colors.error,
-            ) {
-                close()
-                viewModel.onSignOutRequested()
-            }
-        }
-    }
-}
-
-@Composable
 private fun MenuDivider() {
     Box(Modifier.padding(horizontal = 8.dp, vertical = 4.dp).fillMaxWidth().height(1.dp).background(LocalSpeakMindColors.current.track))
 }
@@ -674,6 +558,9 @@ private fun EditProfileSheet(uiState: CommunityHubUiState, viewModel: CommunityH
         if (uiState.isSavingProfile) {
             LinearProgressIndicator(color = colors.neonCyan, trackColor = colors.track, modifier = Modifier.fillMaxWidth())
         }
+        if (uiState.photoChecking) {
+            Text("Checking your photo…", color = colors.textMuted, fontSize = 13.sp, fontWeight = FontWeight.SemiBold)
+        }
         uiState.profileError?.let {
             Text(it, color = colors.error, fontSize = 13.sp, fontWeight = FontWeight.SemiBold)
         }
@@ -694,5 +581,162 @@ private fun EditProfileSheet(uiState: CommunityHubUiState, viewModel: CommunityH
                 }
                 .padding(horizontal = 8.dp, vertical = 4.dp),
         )
+    }
+}
+
+
+/** My photo was removed as not modest: can't be dismissed until a modest photo or a cartoon avatar is chosen. */
+@OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+@Composable
+private fun PhotoRequiredSheet(reason: String, onChoose: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    androidx.compose.material3.ModalBottomSheet(
+        onDismissRequest = {},
+        sheetState = androidx.compose.material3.rememberModalBottomSheetState(
+            skipPartiallyExpanded = true,
+            confirmValueChange = { it != androidx.compose.material3.SheetValue.Hidden },
+        ),
+        containerColor = colors.surface,
+        shape = RoundedCornerShape(topStart = 30.dp, topEnd = 30.dp),
+        properties = androidx.compose.material3.ModalBottomSheetProperties(shouldDismissOnBackPress = false),
+    ) {
+        Column(
+            Modifier.fillMaxWidth().padding(start = 24.dp, end = 24.dp, bottom = 32.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Text("🖼️", fontSize = 48.sp)
+            Text("Please change your photo", style = displayStyle(24.sp), color = colors.textPrimary, textAlign = androidx.compose.ui.text.style.TextAlign.Center)
+            Text(
+                if (reason == "admin") "An admin removed your profile photo. Please choose a modest photo or a cartoon avatar to keep chatting."
+                else "Your profile photo isn't allowed in Speaky. Please choose a modest photo or a cartoon avatar.",
+                color = colors.textSecondary, fontSize = 15.sp, lineHeight = 21.sp, textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+            )
+            Text(
+                "Allowed: your face, fully dressed, hijab or not, cartoons, nature.",
+                color = colors.textMuted, fontSize = 13.sp, textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+            )
+            Spacer(Modifier.height(4.dp))
+            Box(
+                Modifier.fillMaxWidth().height(54.dp).clip(RoundedCornerShape(18.dp)).background(colors.neonCyan)
+                    .clickable(onClick = onChoose),
+                contentAlignment = Alignment.Center,
+            ) { Text("Choose a new photo", color = colors.onPrimary, fontSize = 16.sp, fontWeight = FontWeight.ExtraBold) }
+        }
+    }
+}
+
+
+/** Edit profile, photo, sign-out and delete sheets; shared by the Chats screen and Settings. */
+@Composable
+internal fun CommunityHubDialogs(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
+    if (uiState.showBlocked) BlockedPeopleSheet(uiState, viewModel)
+    if (uiState.showEditProfile) {
+        EditProfileSheet(uiState, viewModel)
+    } else if (uiState.photoRejected != null && !uiState.isGuest) {
+        PhotoRequiredSheet(uiState.photoRejected, onChoose = viewModel::onEditProfile)
+    }
+    if (uiState.confirmSignOut) {
+        ConfirmSheet(
+            title = "Sign out?",
+            message = "You can sign in again any time with Google. Your chats and messages stay saved.",
+            confirmLabel = "Sign out",
+            icon = SpeakyIcons.SignOut,
+            onConfirm = viewModel::onSignOut,
+            onDismiss = viewModel::onSignOutDismissed,
+        )
+    }
+    if (uiState.confirmDeleteAccount) {
+        ConfirmSheet(
+            title = "Delete your account?",
+            message = "Your community profile, messages, voice notes and private chats are permanently deleted. This can't be undone.",
+            confirmLabel = "Delete forever",
+            icon = SpeakyIcons.Trash,
+            onConfirm = viewModel::onConfirmDeleteAccount,
+            onDismiss = viewModel::onDeleteAccountDismissed,
+        )
+    }
+}
+
+/**
+ * The community part of Settings: your chat profile, Hub alerts, the admin tools (admins only), sign out
+ * and delete account. Visitors get a sign-in row that opens Chat.
+ */
+@Composable
+internal fun CommunitySettingsSection(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel, onOpenChat: () -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    @Composable
+    fun Card(title: String, content: @Composable ColumnScope.() -> Unit) {
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(title, color = colors.textMuted, fontSize = 12.sp, fontWeight = FontWeight.ExtraBold, letterSpacing = 0.8.sp, modifier = Modifier.padding(start = 6.dp))
+            Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(22.dp)).background(colors.surface).padding(6.dp), content = content)
+        }
+    }
+    Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        if (uiState.isGuest) {
+            Card("COMMUNITY") {
+                MenuRow(SpeakyIcons.Chat, colors.primarySoft, colors.onPrimarySoft, "Join the community", "Sign in to chat, call and make friends", onClick = onOpenChat)
+            }
+            return@Column
+        }
+        Card("COMMUNITY") {
+            MenuRow(SpeakyIcons.Pencil, colors.primarySoft, colors.onPrimarySoft, "Chat profile", uiState.myNickname.ifEmpty { "Name, photo and gender" }, onClick = viewModel::onEditProfile)
+            uiState.hubAlerts?.let { on ->
+                MenuRow(SpeakyIcons.Bell, colors.goldSoft, colors.onGoldSoft, "Speaky Hub alerts", if (on) "On" else "Off", trailing = { MiniSwitch(on) }, onClick = viewModel::onToggleHubAlerts)
+            }
+            MenuRow(com.speakmind.app.feature.community.ui.components.ChatIcons.Block, colors.surfaceVariant, colors.textSecondary, "Blocked people", if (uiState.blockedCount == 0) "Nobody" else "${uiState.blockedCount}", onClick = viewModel::onBlockedOpened)
+        }
+        if (uiState.isAdmin) {
+            Card("ADMIN") {
+                MenuRow(SpeakyIcons.Shield, colors.coralSoft, colors.coral, "Reports", onClick = viewModel::openReports)
+                MenuRow(SpeakyIcons.Chat, colors.mintSoft, colors.onMintSoft, "Private chats", "Review", onClick = viewModel::openPrivateChats)
+                MenuRow(SpeakyIcons.Phone, colors.primarySoft, colors.onPrimarySoft, "Voice calls", "On/off, bans", onClick = viewModel::openVoiceCalls)
+                MenuRow(SpeakyIcons.Crown, colors.goldSoft, colors.onGoldSoft, "Subscribers", "Premium members", onClick = viewModel::openSubscribers)
+            }
+        }
+        Card("ACCOUNT") {
+            MenuRow(SpeakyIcons.SignOut, colors.error.copy(alpha = 0.12f), colors.error, "Sign out", titleColor = colors.error, onClick = viewModel::onSignOutRequested)
+            MenuRow(SpeakyIcons.Trash, colors.error.copy(alpha = 0.12f), colors.error, "Delete account", titleColor = colors.error, onClick = viewModel::onDeleteAccountRequested)
+        }
+    }
+}
+
+
+/** Settings → Blocked people: everyone I blocked, with Unblock. */
+@OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+@Composable
+private fun BlockedPeopleSheet(uiState: CommunityHubUiState, viewModel: CommunityHubViewModel) {
+    val colors = LocalSpeakMindColors.current
+    androidx.compose.material3.ModalBottomSheet(
+        onDismissRequest = viewModel::onBlockedDismissed,
+        sheetState = androidx.compose.material3.rememberModalBottomSheetState(skipPartiallyExpanded = true),
+        containerColor = colors.surface,
+        shape = RoundedCornerShape(topStart = 30.dp, topEnd = 30.dp),
+    ) {
+        Column(Modifier.fillMaxWidth().padding(start = 20.dp, end = 20.dp, bottom = 28.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Text("Blocked people", style = com.speakmind.app.ui.components.displayStyle(22.sp), color = colors.textPrimary)
+            Text("They can't message you and you don't see their messages.", color = colors.textMuted, fontSize = 13.sp)
+            val people = uiState.blockedPeople
+            when {
+                people == null -> Box(Modifier.fillMaxWidth().padding(20.dp), contentAlignment = Alignment.Center) {
+                    CircularProgressIndicator(color = colors.neonCyan, modifier = Modifier.size(24.dp), strokeWidth = 3.dp)
+                }
+                people.isEmpty() -> Text("You haven't blocked anyone.", color = colors.textSecondary, fontSize = 15.sp, modifier = Modifier.padding(vertical = 12.dp))
+                else -> androidx.compose.foundation.lazy.LazyColumn(Modifier.heightIn(max = 420.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    items(people.size) { i ->
+                        val p = people[i]
+                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                            com.speakmind.app.feature.community.ui.components.UserAvatar(p.nickname, p.photoUrl, 44.dp, Color.Transparent)
+                            Text(p.nickname.ifEmpty { "Someone" }, Modifier.weight(1f), color = colors.textPrimary, fontSize = 15.sp, fontWeight = FontWeight.Bold)
+                            Text(
+                                "Unblock", Modifier.clip(RoundedCornerShape(12.dp)).background(colors.primarySoft)
+                                    .clickable { viewModel.onUnblock(p) }.padding(horizontal = 14.dp, vertical = 8.dp),
+                                color = colors.onPrimarySoft, fontSize = 13.sp, fontWeight = FontWeight.ExtraBold,
+                            )
+                        }
+                    }
+                }
+            }
+        }
     }
 }

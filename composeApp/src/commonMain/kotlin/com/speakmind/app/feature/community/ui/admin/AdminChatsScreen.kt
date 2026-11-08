@@ -153,7 +153,7 @@ private fun AdminChatContent(uiState: AdminChatUiState, viewModel: AdminChatView
         Column(Modifier.fillMaxSize()) {
             CommunityPageHeader(
                 title = "${dest.userAName} ↔ ${dest.userBName}",
-                subtitle = "Read only",
+                subtitle = "Admin review · delete, ban, play voice",
                 titleSize = 18,
                 onBack = viewModel::onBack,
             )
@@ -181,7 +181,13 @@ private fun AdminChatContent(uiState: AdminChatUiState, viewModel: AdminChatView
                         if (index >= uiState.messages.size - 10) LaunchedEffect(uiState.messages.size) { viewModel.loadMore() }
                         // Person A on the left, person B on the right.
                         val fromA = message.senderId == dest.userAId
-                        AdminMessageBubble(message, if (fromA) dest.userAName else dest.userBName, fromA)
+                        AdminMessageBubble(
+                            message, if (fromA) dest.userAName else dest.userBName, fromA,
+                            playing = uiState.playingId == message.id,
+                            loading = uiState.loadingVoiceId == message.id,
+                            onPlay = { viewModel.onPlayVoice(message) },
+                            onDelete = { viewModel.onDeleteRequested(message) },
+                        )
                     }
                     if (uiState.isLoadingMore) item(key = "older") { CommunityLoading() }
                 }
@@ -190,6 +196,17 @@ private fun AdminChatContent(uiState: AdminChatUiState, viewModel: AdminChatView
         (uiState.error?.takeIf { uiState.messages.isNotEmpty() } ?: uiState.info)?.let { msg ->
             CommunityToast(msg, isError = uiState.error != null, modifier = Modifier.align(Alignment.BottomCenter))
         }
+    }
+
+    uiState.deleteTarget?.let {
+        ConfirmSheet(
+            title = "Delete message?",
+            message = "It will be removed for both people.",
+            confirmLabel = "Delete",
+            icon = SpeakyIcons.Trash,
+            onConfirm = viewModel::onConfirmDelete,
+            onDismiss = viewModel::onDeleteCancelled,
+        )
     }
 
     uiState.banTarget?.let { (_, name) ->
@@ -225,7 +242,15 @@ private fun BanChip(name: String, modifier: Modifier, onClick: () -> Unit) {
 
 /** A is mint on the left, B pink on the right, so the two sides never get mixed up. */
 @Composable
-private fun AdminMessageBubble(message: AdminChatMessage, senderName: String, fromA: Boolean) {
+private fun AdminMessageBubble(
+    message: AdminChatMessage,
+    senderName: String,
+    fromA: Boolean,
+    playing: Boolean,
+    loading: Boolean,
+    onPlay: () -> Unit,
+    onDelete: () -> Unit,
+) {
     val colors = LocalSpeakMindColors.current
     val dark = colors.surface.luminance() < 0.5f
     val background = if (fromA) colors.mintSoft else if (dark) colors.coralSoft else Color(0xFFFCE4EF)
@@ -245,14 +270,29 @@ private fun AdminMessageBubble(message: AdminChatMessage, senderName: String, fr
                 .padding(horizontal = 12.dp, vertical = 8.dp),
             verticalArrangement = Arrangement.spacedBy(3.dp),
         ) {
-            Text(senderName, color = nameColor, fontSize = 12.sp, fontWeight = FontWeight.ExtraBold)
-            if (message.isVoice) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text(senderName, color = nameColor, fontSize = 12.sp, fontWeight = FontWeight.ExtraBold)
                 Text(
-                    "🎤 Voice message (${formatDuration(message.voiceDurationMs)})",
-                    color = colors.textSecondary,
-                    fontSize = 15.sp,
-                    fontStyle = FontStyle.Italic,
+                    "Delete", Modifier.clip(RoundedCornerShape(8.dp)).clickable(onClick = onDelete).padding(horizontal = 6.dp, vertical = 2.dp),
+                    color = colors.error, fontSize = 12.sp, fontWeight = FontWeight.Bold,
                 )
+            }
+            if (message.isVoice) {
+                Row(
+                    Modifier.clip(RoundedCornerShape(12.dp)).clickable(onClick = onPlay).padding(vertical = 4.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    Box(Modifier.size(34.dp).clip(RoundedCornerShape(17.dp)).background(nameColor), contentAlignment = Alignment.Center) {
+                        Text(if (loading) "…" else if (playing) "■" else "▶", color = Color.White, fontSize = 14.sp, fontWeight = FontWeight.ExtraBold)
+                    }
+                    Text(
+                        "Voice message · ${formatDuration(message.voiceDurationMs)}",
+                        color = colors.textSecondary,
+                        fontSize = 15.sp,
+                        fontStyle = FontStyle.Italic,
+                    )
+                }
             } else {
                 Text(message.text, color = colors.textPrimary, fontSize = 15.sp, lineHeight = 22.sp)
             }

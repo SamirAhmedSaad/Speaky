@@ -120,6 +120,7 @@ internal fun HomeTab(
     onlineCount: Int,
     onSettingsClick: () -> Unit,
     onLevelClick: () -> Unit,
+    onStreakClick: () -> Unit = {},
     onCourseClick: (CourseCard) -> Unit,
     onAllCoursesClick: () -> Unit,
     onReviewClick: () -> Unit,
@@ -143,6 +144,7 @@ internal fun HomeTab(
                 level = state.userLevel,
                 onSettingsClick = onSettingsClick,
                 onLevelClick = onLevelClick,
+                onStreakClick = onStreakClick,
             )
         }
         item {
@@ -206,10 +208,17 @@ private fun HomeTopBar(
     level: String,
     onSettingsClick: () -> Unit,
     onLevelClick: () -> Unit,
+    onStreakClick: () -> Unit = {},
 ) {
     val colors = LocalSpeakMindColors.current
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        InitialAvatar(name, size = 44, fontSize = 18, onClick = onSettingsClick)
+        Row(
+            Modifier.weight(1f).clip(RoundedCornerShape(16.dp))
+                .clickable(role = Role.Button, onClickLabel = "Settings", onClick = onSettingsClick),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+        InitialAvatar(name, size = 44, fontSize = 18)
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
             Text(greeting, color = colors.textMuted, fontSize = 13.sp)
             Text(
@@ -220,11 +229,13 @@ private fun HomeTopBar(
                 overflow = TextOverflow.Ellipsis,
             )
         }
+        }
         SpeakyPill(
             // A new learner sees an invitation instead of a zero streak.
             text = if (streak > 0) streak.toString() else "Start",
             background = colors.surface,
             color = if (streak > 0) Color(0xFFC2410C) else colors.textMuted,
+            onClick = onStreakClick,
             leading = {
                 Icon(
                     SpeakyIcons.Flame, null,
@@ -768,6 +779,8 @@ internal fun SettingsLayer(
     onSpeedSelected: (Float) -> Unit,
     onPrivacyClick: () -> Unit,
     onContactClick: () -> Unit,
+    /** Chat profile, Hub alerts, admin tools, sign out (from the community screen). */
+    communitySection: @Composable () -> Unit = {},
 ) {
     val colors = LocalSpeakMindColors.current
     LazyColumn(
@@ -844,6 +857,7 @@ internal fun SettingsLayer(
                 }
             }
         }
+        item { communitySection() }
         item {
             SpeakyCard(padding = PaddingValues(horizontal = 16.dp, vertical = 6.dp), verticalArrangement = Arrangement.spacedBy(0.dp)) {
                 SettingsRow("Privacy policy", null, onPrivacyClick)

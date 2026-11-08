@@ -39,8 +39,12 @@ data class PeopleUiState(
     val isGuest: Boolean = true,
     val isSigningIn: Boolean = false,
     val isAdmin: Boolean = false,
+    /** Only the owner adds or removes moderators. */
+    val isOwner: Boolean = false,
     val moderatorIds: Set<String> = emptySet(),
     val error: String? = null,
+    /** Admin: who is about to be banned. */
+    val banTarget: CommunityUser? = null,
 )
 
 /** Everyone in the community; tap a person to message them privately. */
@@ -65,8 +69,8 @@ class PeopleViewModel(
             repository.onlineUserIds.collect { ids ->
                 val changed = ids != _uiState.value.onlineUserIds
                 _uiState.update { it.copy(onlineUserIds = ids) }
-                // The Online tab follows people coming and going.
-                if (changed && _uiState.value.filter == "Online") load(reset = true)
+                // The Online tab follows people coming and going, quietly (no spinner, no full reload).
+                if (changed && _uiState.value.filter == "Online") syncOnline(ids)
             }
         }
         loadModerators()
@@ -133,6 +137,30 @@ class PeopleViewModel(
         }
     }
 
+    /** Online tab: drops people who left, fetches only the ones who just came online. */
+    private fun syncOnline(ids: Set<String>) {
+        val state = _uiState.value
+        if (state.isLoading) return load(reset = true)
+        val kept = state.people.filter { it.uid in ids }
+        val added = ids - state.people.map { it.uid }.toSet()
+        _uiState.update { it.copy(people = kept) }
+        if (added.isEmpty()) return
+        loadJob?.cancel()
+        loadJob = viewModelScope.launch {
+            try {
+                val page = repository.searchUsers(query = state.query, offset = 0, pageSize = PAGE, level = null, onlyIds = added)
+                _uiState.update {
+                    if (it.filter != "Online" || it.query != state.query) return@update it
+                    it.copy(people = (it.people + page).distinctBy { u -> u.uid }.filter { u -> u.uid in it.onlineUserIds })
+                }
+            } catch (e: kotlinx.coroutines.CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                Napier.w("searchUsers (online) failed", e)
+            }
+        }
+    }
+
     fun onPersonClicked(user: CommunityUser) = _uiState.update { it.copy(profileUser = user) }
     fun onProfileDismissed() = _uiState.update { it.copy(profileUser = null) }
 
@@ -162,7 +190,57 @@ class PeopleViewModel(
                 Napier.w("adminModerators failed", e)
                 emptySet()
             }
-            _uiState.update { it.copy(isAdmin = true, moderatorIds = ids) }
+            _uiState.update { it.copy(isAdmin = true, moderatorIds = ids, isOwner = repository.isCommunityOwner()) }
+        }
+    }
+
+    fun onBanRequested(user: CommunityUser) = _uiState.update { it.copy(profileUser = null, banTarget = user) }
+    fun onBanCancelled() = _uiState.update { it.copy(banTarget = null) }
+
+    fun onConfirmBan(removeMessages: Boolean) {
+        val user = _uiState.value.banTarget ?: return
+        _uiState.update { it.copy(banTarget = null) }
+        viewModelScope.launch {
+            try {
+                repository.adminBan(user.uid, "other", removeMessages)
+                _uiState.update { it.copy(info = "${user.nickname} is banned.") }
+            } catch (e: Exception) {
+                Napier.w("adminBan failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't ban.")) }
+            }
+        }
+    }
+
+    suspend fun isUserBanned(userId: String): Boolean = repository.isUserBanned(userId)
+
+    fun onAdminUnban(user: CommunityUser) {
+        _uiState.update { it.copy(profileUser = null) }
+        viewModelScope.launch {
+            try {
+                repository.adminUnban(user.uid)
+                _uiState.update { it.copy(info = "${user.nickname} is unbanned.") }
+            } catch (e: Exception) {
+                Napier.w("adminUnban failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't unban.")) }
+            }
+        }
+    }
+
+    fun onRemovePhoto(user: CommunityUser) {
+        _uiState.update { it.copy(profileUser = null) }
+        viewModelScope.launch {
+            try {
+                repository.adminRejectPhoto(user.uid)
+                _uiState.update { s ->
+                    s.copy(
+                        people = s.people.map { if (it.uid == user.uid) it.copy(photoUrl = null) else it },
+                        info = "${user.nickname}'s photo was removed. They'll be asked for a modest one.",
+                    )
+                }
+            } catch (e: Exception) {
+                Napier.w("adminRejectPhoto failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't remove the photo.")) }
+            }
         }
     }
 

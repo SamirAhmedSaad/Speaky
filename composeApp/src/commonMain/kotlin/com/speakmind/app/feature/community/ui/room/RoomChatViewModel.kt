@@ -63,10 +63,16 @@ data class RoomChatUiState(
     val messages: List<RoomMessage> = emptyList(),
     val currentUserId: String = "",
     val isGuest: Boolean = false,
+    /** Admins can remove someone's photo from their profile sheet. */
+    val isAdmin: Boolean = false,
+    /** Admin: who is about to be banned. */
+    val adminBanTarget: CommunityUser? = null,
     val isSigningIn: Boolean = false,
     val isBanned: Boolean = false,
     val isOffline: Boolean = false,
     val isInitialLoading: Boolean = true,
+    /** False until the fresh first page replaced the saved copy: no delete/slide animations before that. */
+    val liveAnimations: Boolean = false,
     val isLoadingMore: Boolean = false,
     val hasMore: Boolean = true,
     val dailyLimitReached: Boolean = false,
@@ -271,6 +277,10 @@ class RoomChatViewModel(
 
     private fun loadRoom() {
         viewModelScope.launch {
+            val admin = repository.isAdmin()
+            _uiState.update { it.copy(isAdmin = admin) }
+        }
+        viewModelScope.launch {
             try {
                 val room = repository.getRoom(roomId) ?: return@launch
                 _uiState.update {
@@ -312,11 +322,16 @@ class RoomChatViewModel(
                         isOffline = false,
                     )
                 }
+                // Messages deleted elsewhere (e.g. a banned user's) vanish without a delete animation.
+                viewModelScope.launch {
+                    kotlinx.coroutines.delay(700)
+                    _uiState.update { it.copy(liveAnimations = true) }
+                }
                 scheduleMarkRead()
             } catch (e: Exception) {
                 Napier.w("loadInitialMessages failed", e)
                 _uiState.update {
-                    it.copy(isInitialLoading = false, isOffline = true, hasMore = false)
+                    it.copy(isInitialLoading = false, isOffline = true, hasMore = false, liveAnimations = true)
                 }
             }
         }
@@ -740,7 +755,8 @@ class RoomChatViewModel(
         if (target.isPending || target.isFailed) return
         viewModelScope.launch {
             try {
-                repository.deleteMessage(target)
+                if (target.senderId == _uiState.value.currentUserId) repository.deleteMessage(target)
+                else repository.adminDeleteMessage(target.id)
             } catch (e: Exception) {
                 Napier.w("deleteMessage failed", e)
                 replaceMessage(target)
@@ -1056,6 +1072,61 @@ class RoomChatViewModel(
 
     fun onInfoDismissed() = _uiState.update { it.copy(info = null) }
     fun onDailyLimitDismissed() = _uiState.update { it.copy(dailyLimitReached = false) }
+    fun onAdminBanRequested(user: CommunityUser) = _uiState.update { it.copy(profileUser = null, adminBanTarget = user) }
+    fun onAdminBanCancelled() = _uiState.update { it.copy(adminBanTarget = null) }
+
+    fun onConfirmAdminBan(removeMessages: Boolean) {
+        val user = _uiState.value.adminBanTarget ?: return
+        _uiState.update { it.copy(adminBanTarget = null) }
+        viewModelScope.launch {
+            try {
+                repository.adminBan(user.uid, "other", removeMessages)
+                _uiState.update { s ->
+                    s.copy(
+                        messages = if (removeMessages) s.messages.filterNot { it.senderId == user.uid } else s.messages,
+                        info = "${user.nickname} is banned.",
+                    )
+                }
+            } catch (e: Exception) {
+                Napier.w("adminBan failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't ban.")) }
+            }
+        }
+    }
+
+    suspend fun isUserBanned(userId: String): Boolean = repository.isUserBanned(userId)
+
+    fun onAdminUnban(user: CommunityUser) {
+        _uiState.update { it.copy(profileUser = null) }
+        viewModelScope.launch {
+            try {
+                repository.adminUnban(user.uid)
+                _uiState.update { it.copy(info = "${user.nickname} is unbanned.") }
+            } catch (e: Exception) {
+                Napier.w("adminUnban failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't unban.")) }
+            }
+        }
+    }
+
+    fun onRemovePhoto(user: CommunityUser) {
+        _uiState.update { it.copy(profileUser = null) }
+        viewModelScope.launch {
+            try {
+                repository.adminRejectPhoto(user.uid)
+                _uiState.update { s ->
+                    s.copy(
+                        messages = s.messages.map { if (it.senderId == user.uid) it.copy(senderPhotoUrl = null) else it },
+                        info = "${user.nickname}'s photo was removed. They'll be asked for a modest one.",
+                    )
+                }
+            } catch (e: Exception) {
+                Napier.w("adminRejectPhoto failed", e)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't remove the photo.")) }
+            }
+        }
+    }
+
     fun onContentWarningDismissed() = _uiState.update { it.copy(contentWarning = null) }
     fun onErrorDismissed() = _uiState.update { it.copy(error = null) }
     fun onBack() = navigationManager.back()

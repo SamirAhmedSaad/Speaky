@@ -236,6 +236,8 @@ fun NavGraphBuilder.roomChatScreen() {
 
         uiState.profileUser?.let { user ->
             val isMe = user.uid == uiState.currentUserId
+            var banned by remember(user.uid) { mutableStateOf(false) }
+            if (uiState.isAdmin && !isMe) LaunchedEffect(user.uid) { banned = viewModel.isUserBanned(user.uid) }
             ProfileSheet(
                 user = user,
                 online = user.uid in uiState.onlineUserIds,
@@ -257,7 +259,14 @@ fun NavGraphBuilder.roomChatScreen() {
                         else viewModel.onBlockRequested(ReportTarget(user.uid, user.nickname))
                     }
                 } else null,
+                onRemovePhoto = if (uiState.isAdmin && !isMe && !user.photoUrl.isNullOrEmpty()) { { viewModel.onRemovePhoto(user) } } else null,
+                onBan = if (uiState.isAdmin && !isMe) { { viewModel.onAdminBanRequested(user) } } else null,
+                isBanned = banned,
+                onUnban = if (uiState.isAdmin && !isMe) { { viewModel.onAdminUnban(user) } } else null,
             )
+        }
+        uiState.adminBanTarget?.let { target ->
+            com.speakmind.app.feature.community.ui.components.AdminBanSheet(target.nickname.ifEmpty { "this person" }, viewModel::onConfirmAdminBan, viewModel::onAdminBanCancelled)
         }
         uiState.reportTarget?.let { target ->
             ReportSheet(target = target, onDismiss = viewModel::onReportDismissed, onSubmit = viewModel::onSubmitReport)
@@ -285,7 +294,7 @@ fun NavGraphBuilder.roomChatScreen() {
         uiState.deleteTarget?.let {
             ConfirmSheet(
                 title = "Delete message?",
-                message = "It will be removed for everyone.",
+                message = if (it.senderId != uiState.currentUserId) "Admin: ${it.senderNickname.ifEmpty { "this person" }}'s message will be removed for everyone." else "It will be removed for everyone.",
                 confirmLabel = "Delete for everyone",
                 icon = SpeakyIcons.Trash,
                 onConfirm = viewModel::onConfirmDelete,
@@ -295,8 +304,16 @@ fun NavGraphBuilder.roomChatScreen() {
     }
 }
 
+/** Admins see "Delete (admin)" on other people's messages. */
+private val LocalChatAdmin = androidx.compose.runtime.staticCompositionLocalOf { false }
+
 @Composable
 private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
+    CompositionLocalProvider(LocalChatAdmin provides uiState.isAdmin) { RoomChatContentInner(uiState, actions) }
+}
+
+@Composable
+private fun RoomChatContentInner(uiState: RoomChatUiState, actions: RoomActions) {
     val colors = LocalSpeakMindColors.current
     // Filtered once per change of messages or blocks, not on every recomposition.
     val messages = remember(uiState.messages, uiState.blockedUserIds, uiState.kind) { uiState.visibleMessages }
@@ -315,9 +332,16 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
     // The newest message the user has seen at the bottom; the badge counts everything that arrived after it
     // (several messages can arrive in one update, e.g. after a reconnect, so a +1 per update undercounts).
     var seenNewestId by remember { mutableStateOf<String?>(null) }
+    // Follow new messages unless the person scrolled up themselves. (When newer messages are added, the
+    // list keeps its place, so "at the bottom" alone would already be false by the time we check.)
+    var stickToBottom by remember { mutableStateOf(true) }
+    LaunchedEffect(listState) {
+        snapshotFlow { listState.isScrollInProgress to (listState.firstVisibleItemIndex <= 1) }
+            .collect { (scrolling, bottom) -> if (bottom) stickToBottom = true else if (scrolling) stickToBottom = false }
+    }
     LaunchedEffect(lastMessage?.id) {
         val newest = lastMessage ?: return@LaunchedEffect
-        if (seenNewestId == null || atBottom || newest.senderId == uiState.currentUserId) {
+        if (seenNewestId == null || stickToBottom || newest.senderId == uiState.currentUserId) {
             seenNewestId = newest.id
             listState.animateScrollToItem(0)
         }
@@ -422,7 +446,10 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
                     }
                     items(reversedItems, key = { it.key }) { item ->
                         // Smoothly slides rows into place when messages arrive, get deleted or a page loads.
-                        Box(Modifier.animateItem(fadeInSpec = tween(220), placementSpec = spring(stiffness = Spring.StiffnessMediumLow))) {
+                        Box(
+                            if (uiState.liveAnimations) Modifier.animateItem(fadeInSpec = tween(220), placementSpec = spring(stiffness = Spring.StiffnessMediumLow))
+                            else Modifier,
+                        ) {
                             when (item) {
                                 is ChatItem.DayHeader -> DaySeparator(item.label)
                                 is ChatItem.Message -> {
@@ -573,6 +600,9 @@ private fun RoomChatContent(uiState: RoomChatUiState, actions: RoomActions) {
                 }
                 // Only this box listens to the typed text, so keystrokes don't redraw the messages.
                 ObserveInput(actions.input) { inputText ->
+                if (uiState.kind == RoomKind.CHANNEL && uiState.canPost && uiState.replyingTo == null && uiState.editingMessage == null) {
+                    TopicChips(inputText, actions.onInputChanged)
+                }
                 InputBar(
                     focusKey = uiState.replyingTo?.id ?: uiState.editingMessage?.id,
                     text = inputText,
@@ -1185,6 +1215,9 @@ private fun MessageMenu(
                         MenuItem("Delete for everyone", SpeakyIcons.Trash, destructive = true) { run { actions.onDelete(message) } }
                     } else {
                         MenuItem("View profile", SpeakyIcons.Person) { run { actions.onUserClicked(message.senderId) } }
+                        if (LocalChatAdmin.current) {
+                            MenuItem("Delete (admin)", SpeakyIcons.Trash, destructive = true) { run { actions.onDelete(message) } }
+                        }
                         if (showSender && !isGuest) {
                             MenuItem("Message privately", SpeakyIcons.Chat) {
                                 run { actions.onMessageUser(message.senderId, message.senderNickname) }
@@ -1971,6 +2004,55 @@ private fun InputBar(
                 tint = if (enabled) colors.onBubble else colors.textMuted,
                 modifier = Modifier.size(22.dp),
             )
+        }
+    }
+}
+
+
+/**
+ * Hub conversation starters above the message box: tapping a topic puts one of its questions in the box
+ * (tap again for another). Hidden while the person types their own message.
+ */
+@Composable
+private fun TopicChips(inputText: String, onInputChanged: (String) -> Unit) {
+    val colors = LocalSpeakMindColors.current
+    var selected by remember { mutableStateOf<String?>(null) }
+    var suggested by remember { mutableStateOf("") }
+    val visible = inputText.isBlank() || inputText == suggested
+    AnimatedVisibility(visible, enter = expandVertically(), exit = shrinkVertically()) {
+        androidx.compose.foundation.lazy.LazyRow(
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            contentPadding = PaddingValues(horizontal = 2.dp),
+        ) {
+            item {
+                Text(
+                    "💬 Start a topic", Modifier.padding(top = 9.dp, end = 2.dp),
+                    color = colors.textMuted, fontSize = 13.sp, fontWeight = FontWeight.Bold,
+                )
+            }
+            items(HUB_TOPICS.size) { i ->
+                val topic = HUB_TOPICS[i]
+                val on = selected == topic.name && inputText == suggested && inputText.isNotEmpty()
+                Row(
+                    Modifier.clip(RoundedCornerShape(999.dp))
+                        .background(if (on) colors.primarySoft else colors.surface)
+                        .border(1.dp, if (on) colors.neonCyan else colors.track, RoundedCornerShape(999.dp))
+                        .clickable(role = Role.Button) {
+                            // A different question each tap.
+                            val next = topic.questions.filter { it != inputText }.random()
+                            selected = topic.name
+                            suggested = next
+                            onInputChanged(next)
+                        }
+                        .padding(horizontal = 12.dp, vertical = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                ) {
+                    Text(topic.emoji, fontSize = 15.sp)
+                    Text(topic.name, color = if (on) colors.onPrimarySoft else colors.textPrimary, fontSize = 13.sp, fontWeight = FontWeight.Bold)
+                    if (on) Text("🔀", fontSize = 12.sp)
+                }
+            }
         }
     }
 }

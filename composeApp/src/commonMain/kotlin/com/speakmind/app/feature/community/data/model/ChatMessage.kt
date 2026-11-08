@@ -115,6 +115,8 @@ data class AdminChatMessage(
     /** Exact server timestamp, the page cursor. */
     val createdAtRaw: String,
     val isEdited: Boolean,
+    /** Storage path of a voice message (admins can play it). */
+    val voicePath: String? = null,
 )
 
 /** A report as seen by community admins. */

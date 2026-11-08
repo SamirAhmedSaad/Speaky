@@ -91,13 +91,18 @@ data class AdminChatUiState(
     val banTarget: Pair<String, String>? = null,
     val info: String? = null,
     val error: String? = null,
+    /** The voice message playing now / loading. */
+    val playingId: String? = null,
+    val loadingVoiceId: String? = null,
+    val deleteTarget: AdminChatMessage? = null,
 )
 
-/** One private chat, read-only, with a ban action for either person. */
+/** One private chat, read-only, with ban, delete and voice playback for admins. */
 class AdminChatViewModel(
     val destination: AdminChatDestination,
     private val repository: CommunityRepository,
     private val navigationManager: NavigationManager,
+    private val voicePlayer: com.speakmind.app.feature.voice.platform.VoicePlayer,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(AdminChatUiState())
@@ -152,6 +157,51 @@ class AdminChatViewModel(
     }
 
     fun onMessageDismissed() = _uiState.update { it.copy(info = null, error = null) }
+
+    /** Plays (or stops) a voice message. */
+    fun onPlayVoice(message: AdminChatMessage) {
+        val path = message.voicePath ?: return _uiState.update { it.copy(error = "Update the server to play voice messages.") }
+        if (_uiState.value.playingId == message.id) {
+            voicePlayer.stop()
+            _uiState.update { it.copy(playingId = null) }
+            return
+        }
+        voicePlayer.stop()
+        _uiState.update { it.copy(loadingVoiceId = message.id, playingId = null) }
+        viewModelScope.launch {
+            try {
+                val bytes = repository.downloadVoice(path)
+                _uiState.update { it.copy(loadingVoiceId = null, playingId = message.id) }
+                voicePlayer.playFromBytes(bytes)
+            } catch (e: Exception) {
+                Napier.w("admin voice playback failed", e)
+                _uiState.update { it.copy(loadingVoiceId = null, error = "Couldn't play this voice message.") }
+            } finally {
+                _uiState.update { if (it.playingId == message.id) it.copy(playingId = null) else it }
+            }
+        }
+    }
+
+    fun onDeleteRequested(message: AdminChatMessage) = _uiState.update { it.copy(deleteTarget = message) }
+    fun onDeleteCancelled() = _uiState.update { it.copy(deleteTarget = null) }
+
+    fun onConfirmDelete() {
+        val target = _uiState.value.deleteTarget ?: return
+        _uiState.update { s -> s.copy(deleteTarget = null, messages = s.messages.filterNot { it.id == target.id }) }
+        viewModelScope.launch {
+            try {
+                repository.adminDeleteMessage(target.id)
+                _uiState.update { it.copy(info = "Message deleted.") }
+            } catch (e: Exception) {
+                Napier.w("admin delete failed", e)
+                _uiState.update { s -> s.copy(messages = (s.messages + target).sortedByDescending { it.createdAtMillis }, error = friendlyCommunityError(e, "Couldn't delete the message.")) }
+            }
+        }
+    }
+
+    override fun onCleared() {
+        voicePlayer.stop()
+    }
 
     fun onBack() = navigationManager.back()
 }

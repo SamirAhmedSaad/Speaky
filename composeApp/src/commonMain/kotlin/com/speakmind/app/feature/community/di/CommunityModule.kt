@@ -22,6 +22,6 @@ val communityModule = module {
     viewModelOf(::PeopleViewModel)
     viewModelOf(::AdminReportsViewModel)
     viewModelOf(::AdminChatsViewModel)
-    viewModel { params -> AdminChatViewModel(params.get(), get(), get()) }
+    viewModel { params -> AdminChatViewModel(params.get(), get(), get(), get()) }
     viewModel { params -> RoomChatViewModel(params.get(), params.get(), get(), get(), get(), get()) }
 }

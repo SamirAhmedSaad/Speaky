@@ -41,6 +41,13 @@ fun ProfileSheet(
     /** Admins only: make or remove this person as a moderator. */
     isModerator: Boolean = false,
     onModeratorToggle: (() -> Unit)? = null,
+    /** Admins only: remove this person's photo and ask them for a modest one. */
+    onRemovePhoto: (() -> Unit)? = null,
+    /** Admins only: ban this person directly (no report needed). */
+    onBan: (() -> Unit)? = null,
+    /** Admins only: this person is banned; shows Unban instead of Ban. */
+    isBanned: Boolean = false,
+    onUnban: (() -> Unit)? = null,
 ) {
     val colors = LocalSpeakMindColors.current
     val premium = isPremiumMember(user.uid)
@@ -167,6 +174,20 @@ fun ProfileSheet(
                         )
                     }
                 }
+            }
+            if (isBanned && onUnban != null) {
+                SheetAction("Unban user", colors.mintSoft, colors.onMintSoft, onUnban, Modifier.fillMaxWidth())
+            } else if (onBan != null) {
+                SheetAction("Ban user", colors.error.copy(alpha = 0.12f), colors.error, onBan, Modifier.fillMaxWidth())
+            }
+            if (onRemovePhoto != null) {
+                SheetAction(
+                    "Remove photo & ask to change",
+                    colors.error.copy(alpha = 0.12f),
+                    colors.error,
+                    onRemovePhoto,
+                    Modifier.fillMaxWidth(),
+                )
             }
             if (onModeratorToggle != null) {
                 SheetAction(
