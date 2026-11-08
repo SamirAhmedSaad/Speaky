@@ -163,7 +163,8 @@ data class AdminSubscribersUiState(
             val byTab = when (tab) {
                 SubscriberTab.ALL -> active
                 SubscriberTab.PLAY -> members.filter { it.isPlay }
-                SubscriberTab.GRANTED -> members.filter { it.isGranted }
+                // Paying on Play wins: someone with both counts only as Google Play.
+                SubscriberTab.GRANTED -> members.filter { it.source == PremiumSource.GRANTED }
                 SubscriberTab.LAPSED -> members.filter { it.source == PremiumSource.LAPSED }
             }
             val q = query.trim().lowercase()
@@ -317,7 +318,7 @@ private fun Summary(ui: AdminSubscribersUiState) {
         Row {
             Stat(active.size, "Premium now", Modifier.weight(1f))
             Stat(active.count { it.isPlay }, "Google Play", Modifier.weight(1f))
-            Stat(active.count { it.isGranted }, "Granted", Modifier.weight(1f))
+            Stat(active.count { it.source == PremiumSource.GRANTED }, "Granted", Modifier.weight(1f))
         }
         Box(Modifier.fillMaxWidth().height(1.dp).background(GoldText.copy(alpha = 0.18f)))
         Text("+$newThisMonth new in the last 30 days · $lapsed lapsed", color = GoldText, fontSize = 12.sp, fontWeight = FontWeight.Bold)
@@ -401,7 +402,7 @@ private fun SourceBadge(source: PremiumSource) {
         else -> Color(0xFFE0ECFF) to Color(0xFF1E4FA8)
     }
     Text(
-        if (source == PremiumSource.BOTH) "Both" else source.label,
+        if (source == PremiumSource.BOTH) PremiumSource.PLAY.label else source.label,
         Modifier.clip(RoundedCornerShape(999.dp)).background(bg).padding(horizontal = 9.dp, vertical = 4.dp),
         color = fg, fontSize = 11.sp, fontWeight = FontWeight.ExtraBold, maxLines = 1,
     )
