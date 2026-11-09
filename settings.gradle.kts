@@ -35,4 +35,3 @@ dependencyResolutionManagement {
 
 include(":composeApp")
 include(":androidApp")
-include(":llama")

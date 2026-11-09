@@ -47,5 +47,17 @@ class SpeakyApplication : Application() {
         CoroutineScope(Dispatchers.IO).launch {
             getKoin().get<SqlDriver>()
         }
+
+        // The on-device AI chat is off: free the old downloaded model (about 1 GB) and stop any
+        // download still queued from an older version.
+        if (!com.speakmind.app.config.Features.AI_CHAT) {
+            CoroutineScope(Dispatchers.IO).launch {
+                runCatching {
+                    java.io.File(filesDir, "models").takeIf { it.exists() }?.deleteRecursively()
+                    getExternalFilesDir(null)?.let { java.io.File(it, "models") }?.takeIf { it.exists() }?.deleteRecursively()
+                    androidx.work.WorkManager.getInstance(this@SpeakyApplication).cancelUniqueWork("model_download")
+                }
+            }
+        }
     }
 }

@@ -1,30 +1,20 @@
 package com.speakmind.app.feature.ai.platform
 
-import android.llama.cpp.LLamaAndroid
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.emptyFlow
 
 /**
- * Android LLM engine using llama.cpp via JNI.
- * Uses the official llama-android library for on-device inference.
+ * The on-device AI chat is turned off (Features.AI_CHAT), so the llama.cpp engine is no longer shipped
+ * (saves about 17 MB). Nothing can load a model; the feature's screens are unreachable.
  */
 actual class LlmEngine actual constructor() {
-
-    private val llama = LLamaAndroid.instance()
-
     actual suspend fun load(modelPath: String, contextSize: Int) {
-        llama.load(modelPath)
+        error("On-device AI is not available in this version")
     }
 
-    actual fun generate(prompt: String, maxTokens: Int, temperature: Float): Flow<String> {
-        return llama.send(prompt, formatChat = true)
-    }
+    actual fun generate(prompt: String, maxTokens: Int, temperature: Float): Flow<String> = emptyFlow()
 
-    actual fun isLoaded(): Boolean {
-        // LLamaAndroid manages its own state internally
-        return true
-    }
+    actual fun isLoaded(): Boolean = false
 
-    actual fun unload() {
-        // Will be called when done
-    }
+    actual fun unload() = Unit
 }

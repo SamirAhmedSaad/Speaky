@@ -26,16 +26,7 @@
 # Type-safe Navigation destinations are looked up by class name
 -keep @kotlinx.serialization.Serializable class com.speakmind.app.navigation.** { *; }
 
-# ---------- On-device AI (do not change) ----------
--keep class com.google.mediapipe.** { *; }
--keepclassmembers class com.google.mediapipe.** { *; }
--dontwarn com.google.mediapipe.**
-# JNI — LLamaAndroid native methods must not be renamed
--keep class android.llama.cpp.LLamaAndroid { *; }
--keep class android.llama.cpp.LLamaAndroid$** { *; }
--keepclasseswithmembernames class android.llama.cpp.LLamaAndroid {
-    native <methods>;
-}
+# On-device AI (MediaPipe, llama.cpp) removed in 1.7.0: the AI chat is off.
 
 # ---------- Compose Multiplatform resources ----------
 # Generated accessors must not be removed or renamed, or fonts/images throw "asset not found".

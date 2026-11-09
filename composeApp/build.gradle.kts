@@ -49,7 +49,6 @@ kotlin {
             implementation(libs.androidx.compose.material.icons)
             implementation(libs.sqldelight.android.driver)
             implementation(libs.work.runtime.ktx)
-            implementation(libs.mediapipe.genai)
             // On-device profile photo check (photo_safety.tflite, MobileNet NSFW, MIT).
             implementation(libs.tensorflow.lite)
             implementation(libs.ktor.client.android)
@@ -65,7 +64,6 @@ kotlin {
             implementation(libs.play.services.ads.identifier)
             implementation(libs.play.services.appset)
             implementation(libs.google.auth)
-            implementation(project(":llama"))
             implementation(project.dependencies.platform(libs.firebase.bom))
             implementation(libs.firebase.messaging)
             // Hub voice calls: Agora first, LiveKit when Agora can't connect at the start.
