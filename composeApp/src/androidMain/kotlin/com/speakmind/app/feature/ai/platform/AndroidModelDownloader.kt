@@ -47,6 +47,8 @@ class AndroidModelDownloader(private val context: Context) : ModelDownloader {
     }
 
     override fun startDownload(url: String) {
+        // AI chat is off and its foreground-service permission was removed from the manifest.
+        if (!com.speakmind.app.config.Features.AI_CHAT) return
         val constraints = Constraints.Builder()
             .setRequiredNetworkType(NetworkType.UNMETERED) // WiFi only
             .setRequiresStorageNotLow(true)

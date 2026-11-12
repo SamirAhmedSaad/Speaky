@@ -128,7 +128,17 @@ class BillingManager private constructor(context: Context) {
                         .build()
                 )
             ).build()
-        activity.runOnUiThread { client.launchBillingFlow(activity, params) }
+        // Only open Google's purchase sheet when billing is connected and the screen is still alive:
+        // Play's ProxyBillingActivity crashes (inside Google's code) when it starts without its purchase data.
+        if (!client.isReady) return
+        activity.runOnUiThread {
+            if (activity.isFinishing || activity.isDestroyed) return@runOnUiThread
+            try {
+                client.launchBillingFlow(activity, params)
+            } catch (e: Exception) {
+                io.github.aakira.napier.Napier.w("launchBillingFlow failed", e)
+            }
+        }
     }
 
     /** [complete]: the list is everything the user owns, so no active purchase means Premium ended. */
@@ -144,7 +154,9 @@ class BillingManager private constructor(context: Context) {
         }
         val active = owned.isNotEmpty()
         if (active || complete) {
-            prefs.edit().putBoolean(KEY_ACTIVE, active).apply()
+            if (!prefs.contains(KEY_ACTIVE) || prefs.getBoolean(KEY_ACTIVE, false) != active) {
+                prefs.edit().putBoolean(KEY_ACTIVE, active).apply()
+            }
             // May continue a pending navigation (see Premium.setActive): main thread.
             main.post { Premium.setActive(active) }
         }

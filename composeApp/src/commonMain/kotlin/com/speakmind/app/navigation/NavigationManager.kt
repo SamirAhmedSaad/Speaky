@@ -30,10 +30,17 @@ class NavigationManager {
      * Navigates once the nav host is listening. Use for deep links (notifications) that can arrive
      * before the UI is composed; a plain [navigate] would be dropped then.
      */
-    suspend fun navigateWhenReady(destination: Any) {
+    suspend fun navigateWhenReady(destination: Any, navOptions: (NavOptionsBuilder.() -> Unit)? = null) {
         _commands.subscriptionCount.first { it > 0 }
-        navigate(destination)
+        navigate(destination, navOptions)
     }
+
+    /**
+     * Opens a chat from a notification, replacing any chat already open instead of stacking another one
+     * on top (otherwise Back from that chat showed the same, or another, chat again).
+     */
+    suspend fun openChatWhenReady(destination: RoomDestination) =
+        navigateWhenReady(destination) { popUpTo<RoomDestination> { inclusive = true } }
 
     fun back() {
         _commands.tryEmit(NavCommand.Back)

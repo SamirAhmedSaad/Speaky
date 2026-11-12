@@ -244,6 +244,8 @@ class SupabaseCommunityRepository(
             gender = gender,
             photo_url = photo ?: "",
         )
+        // One name everywhere: the chat nickname is also the name in Settings / Home.
+        database.speakMindQueries.updateUserName(nickname)
     }
 
     override suspend fun updateProfile(nickname: String, gender: String) {
@@ -254,6 +256,7 @@ class SupabaseCommunityRepository(
         }) { filter { eq("id", uid) } }
         val photo = getLocalProfile()?.photoUrl ?: ""
         database.speakMindQueries.upsertCommunityProfile(firebase_uid = uid, nickname = nickname, gender = gender, photo_url = photo)
+        database.speakMindQueries.updateUserName(nickname)
     }
 
     override suspend fun uploadPublicImage(path: String, bytes: ByteArray) {
@@ -552,27 +555,25 @@ class SupabaseCommunityRepository(
     }
 
     /**
-     * Online = in Realtime presence AND the app checked in (last_seen, every 60 s) within the last
-     * 3 minutes. Excludes yourself and visitors.
+     * Online = the app checked in (last_seen) within the last 10 minutes. The app checks in every
+     * 60 s while it's open on any screen and once more when it closes, so people stay online for
+     * 10 minutes after closing the app. Realtime presence only makes the list update sooner.
+     * Excludes yourself; visitors never check in.
      */
     private suspend fun refreshOnline() {
         val me = currentUserId()
-        val ids = presentKeys.value.filter { !it.startsWith("visitor-") && it != me }
-        if (ids.isEmpty()) {
-            _onlineUserIds.value = emptySet()
-            return
-        }
         val since = Instant.fromEpochMilliseconds(nowMillis() - ONLINE_WINDOW_MS).toString()
         try {
             _onlineUserIds.value = client.from(USERS).select(Columns.list("id")) {
                 filter {
-                    isIn("id", ids)
                     gte("last_seen", since)
+                    if (me != null) neq("id", me)
                 }
+                limit(1000)
             }.decodeList<IdDto>().map { it.id }.toSet()
         } catch (e: Exception) {
-            // Offline or failed: fall back to presence alone.
-            _onlineUserIds.value = ids.toSet()
+            // Offline or failed: fall back to who is in presence right now.
+            _onlineUserIds.value = presentKeys.value.filter { !it.startsWith("visitor-") && it != me }.toSet()
         }
     }
 
@@ -1384,7 +1385,8 @@ private val reactionsSerializer = MapSerializer(String.serializer(), ListSeriali
 
 private fun nowMillis() = Clock.System.now().toEpochMilliseconds()
 
-private const val ONLINE_WINDOW_MS = 3 * 60_000L
+/** Online = the app checked in (last_seen) within this window: open anywhere, or closed less than 10 minutes ago. */
+private const val ONLINE_WINDOW_MS = 10 * 60_000L
 
 private fun parseMillis(ts: String?): Long =
     ts?.let { runCatching { Instant.parse(it).toEpochMilliseconds() }.getOrNull() } ?: 0L

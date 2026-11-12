@@ -1,5 +1,8 @@
 package com.speakmind.app.feature.home.ui
 
+import kotlinx.coroutines.Dispatchers
+import app.cash.sqldelight.coroutines.mapToOneOrNull
+import app.cash.sqldelight.coroutines.asFlow
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.speakmind.app.db.SpeakyDatabase
@@ -105,6 +108,23 @@ class HomeViewModel(
 
     init {
         loadHomeData()
+        // One name everywhere: the Settings name follows the chat nickname (and Settings edits
+        // already update the nickname). Shown live, so a chat-profile edit updates Home at once.
+        viewModelScope.launch {
+            database.speakMindQueries.selectProgress().asFlow().mapToOneOrNull(Dispatchers.Default)
+                .collect { p ->
+                    val name = p?.user_name ?: return@collect
+                    if (name != _uiState.value.userName) _uiState.value = _uiState.value.copy(userName = name)
+                }
+        }
+        // Accounts where the two names already differ: take the chat nickname.
+        viewModelScope.launch {
+            val nickname = try { communityRepository.getLocalProfile()?.nickname } catch (_: Exception) { null }
+            if (!nickname.isNullOrBlank()) {
+                val current = database.speakMindQueries.selectProgress().executeAsOneOrNull()?.user_name
+                if (current != nickname) database.speakMindQueries.updateUserName(nickname)
+            }
+        }
     }
 
     private fun loadHomeData() {

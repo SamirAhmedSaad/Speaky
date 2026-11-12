@@ -1,5 +1,8 @@
 package com.speakmind.app.feature.dailyword.platform
 
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.CoroutineScope
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -16,6 +19,19 @@ class BootReceiver : BroadcastReceiver() {
 
         Napier.d { "Boot completed — rescheduling daily word alarm" }
 
+        // Opening the database right after a reboot can be slow (storage is busy): doing it on the main
+        // thread caused background ANRs. Work off the main thread and keep the broadcast alive meanwhile.
+        val pendingResult = goAsync()
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                reschedule(context)
+            } finally {
+                pendingResult.finish()
+            }
+        }
+    }
+
+    private fun reschedule(context: Context) {
         try {
             val driver = createSpeakMindDriver(context)
             val database = SpeakyDatabase(driver)

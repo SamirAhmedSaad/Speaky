@@ -46,7 +46,7 @@ data class HubCallState(
     val isFull: Boolean get() = regularCount >= MAX_SEATS
 }
 
-const val MAX_SEATS = 10
+const val MAX_SEATS = 5
 const val MAX_PREMIUM_SEATS = 5
 const val NOBODY_JOINED_MS = 5 * 60 * 1000L
 

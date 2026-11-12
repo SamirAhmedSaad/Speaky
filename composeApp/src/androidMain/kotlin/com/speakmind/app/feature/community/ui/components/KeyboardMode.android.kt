@@ -8,36 +8,24 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.ui.platform.LocalContext
 
+/**
+ * The whole app runs in "resize" mode (set on MainActivity in the manifest): the window never pans,
+ * screens lift their own content with imePadding(). This only re-asserts it, never switches back to
+ * "pan" — pan + imePadding() pushed the chat input bar to the top with a keyboard-high gap under it.
+ */
 @Composable
 actual fun ResizeWindowForKeyboard() {
     val context = LocalContext.current
     DisposableEffect(context) {
         val window = context.findActivity()?.window
-        resizeUsers++
-        // Also when the activity was recreated (theme or dark-mode switch): the new window starts in its
-        // default "pan" mode, and pan + imePadding() leaves a keyboard-high gap under the input bar.
-        if (window != null && window !== resizedWindow) {
-            modeBeforeResize = window.attributes.softInputMode
-            @Suppress("DEPRECATION")
-            window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
-            resizedWindow = window
+        @Suppress("DEPRECATION")
+        val resize = WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE
+        if (window != null && (window.attributes.softInputMode and WindowManager.LayoutParams.SOFT_INPUT_MASK_ADJUST) != resize) {
+            window.setSoftInputMode(resize)
         }
-        onDispose {
-            // Going from one chat to another, the old screen leaves after the new one arrived. Restoring
-            // "pan" then would pan the window as well as imePadding(): the input bar jumps to the top.
-            resizeUsers = (resizeUsers - 1).coerceAtLeast(0)
-            if (resizeUsers == 0) {
-                resizedWindow?.let { w -> modeBeforeResize?.let { w.setSoftInputMode(it) } }
-                resizedWindow = null
-            }
-        }
+        onDispose { }
     }
 }
-
-/** Chat screens currently on screen (two while navigating between chats). */
-private var resizeUsers = 0
-private var modeBeforeResize: Int? = null
-private var resizedWindow: android.view.Window? = null
 
 private fun Context.findActivity(): Activity? {
     var ctx: Context? = this

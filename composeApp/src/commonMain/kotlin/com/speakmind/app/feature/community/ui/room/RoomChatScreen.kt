@@ -600,7 +600,8 @@ private fun RoomChatContentInner(uiState: RoomChatUiState, actions: RoomActions)
                 }
                 // Only this box listens to the typed text, so keystrokes don't redraw the messages.
                 ObserveInput(actions.input) { inputText ->
-                if (uiState.kind == RoomKind.CHANNEL && uiState.canPost && uiState.replyingTo == null && uiState.editingMessage == null) {
+                // Conversation starters in the Hub and in private chats.
+                if (uiState.canPost && uiState.replyingTo == null && uiState.editingMessage == null) {
                     TopicChips(inputText, actions.onInputChanged)
                 }
                 InputBar(
@@ -2010,7 +2011,7 @@ private fun InputBar(
 
 
 /**
- * Hub conversation starters above the message box: tapping a topic puts one of its questions in the box
+ * Conversation starters above the message box (Hub and private chats): tapping a topic puts one of its questions in the box
  * (tap again for another). Hidden while the person types their own message.
  */
 @Composable

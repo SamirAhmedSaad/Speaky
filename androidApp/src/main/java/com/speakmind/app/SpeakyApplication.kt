@@ -35,8 +35,9 @@ class SpeakyApplication : Application() {
         SDPConfig.setScalingRatio(360.0)
         val isDebug = (applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0
         // DebugAntilog reads a fixed stack-trace depth to build its tag; R8 inlining makes the stack
-        // shorter, so in release every Napier.w/e crashed with ArrayIndexOutOfBoundsException.
-        Napier.base(if (isDebug) DebugAntilog() else ReleaseAntilog())
+        // shorter, so every Napier.w/e crashed with ArrayIndexOutOfBoundsException in shrunk builds.
+        // Only the plain (unshrunk) debug build may use it; release and minitest (shrunk + debuggable) can't.
+        Napier.base(if (BuildConfig.BUILD_TYPE == "debug") DebugAntilog() else ReleaseAntilog())
         AdConfig.adsEnabled = true
         AdConfig.useTestAds = isDebug
 

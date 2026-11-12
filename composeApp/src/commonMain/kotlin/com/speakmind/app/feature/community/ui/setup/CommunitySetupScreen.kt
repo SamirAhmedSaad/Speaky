@@ -5,6 +5,8 @@ import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -75,7 +77,8 @@ private fun CommunitySetupContent(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(colors.backgroundGradient),
+            .background(colors.backgroundGradient)
+            .imePadding(),
         contentAlignment = Alignment.Center,
     ) {
         if (uiState.isLoading) {
@@ -86,6 +89,7 @@ private fun CommunitySetupContent(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
+                .verticalScroll(rememberScrollState())
                 .padding(horizontal = 24.sdp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(20.sdp),

@@ -176,10 +176,17 @@ class MainActivity : ComponentActivity() {
             }
             // Ad-free is decided on the server only; keep the last answer when offline.
             repo.isAdFree()?.let { adFree ->
-                getSharedPreferences("premium", MODE_PRIVATE).edit()
-                    .putBoolean("server_ad_free", adFree)
-                    .putBoolean("ads_off", ServerSettings.adsOff)
-                    .apply()
+                // Only write when something changed: every pending write is flushed on the main thread
+                // when a service stops, and frequent no-op writes made that ANR more likely.
+                val prefs = getSharedPreferences("premium", MODE_PRIVATE)
+                if (!prefs.contains("server_ad_free") || prefs.getBoolean("server_ad_free", false) != adFree ||
+                    prefs.getBoolean("ads_off", false) != ServerSettings.adsOff
+                ) {
+                    prefs.edit()
+                        .putBoolean("server_ad_free", adFree)
+                        .putBoolean("ads_off", ServerSettings.adsOff)
+                        .apply()
+                }
                 Premium.setServerAdFree(adFree)
             }
         }
@@ -218,7 +225,7 @@ class MainActivity : ComponentActivity() {
         if (callId != null) getKoin().get<com.speakmind.app.feature.community.call.HubCallManager>().openedFromInvite(callId)
         val open = {
             lifecycleScope.launch {
-                getKoin().get<NavigationManager>().navigateWhenReady(RoomDestination(roomId, title))
+                getKoin().get<NavigationManager>().openChatWhenReady(RoomDestination(roomId, title))
             }
             Unit
         }

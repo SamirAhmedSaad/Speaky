@@ -101,7 +101,9 @@ class ChatMessagingService : FirebaseMessagingService() {
             val prefs = context.getSharedPreferences(HUB_PREFS, Context.MODE_PRIVATE)
             val lines = (prefs.getString("lines", "").orEmpty().split('\n').filter { it.isNotBlank() } + line.replace('\n', ' '))
                 .takeLast(HUB_MAX_LINES)
-            prefs.edit().putString("lines", lines.joinToString("\n")).apply()
+            // commit(), not apply(): this runs on FCM's background thread. A pending apply() is flushed on
+            // the MAIN thread when the service stops (QueuedWork.waitToFinish), which caused ANRs on slow storage.
+            prefs.edit().putString("lines", lines.joinToString("\n")).commit()
             val summary = if (count >= HUB_MAX_LINES) "$HUB_MAX_LINES+ new messages" else if (count > 1) "$count new messages" else "New message"
             val style = NotificationCompat.InboxStyle().setSummaryText(summary)
             lines.forEach { style.addLine(it) }
