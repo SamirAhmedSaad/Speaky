@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
+import android.os.SystemClock
 import com.android.billingclient.api.AcknowledgePurchaseParams
 import com.android.billingclient.api.BillingClient
 import com.android.billingclient.api.BillingClientStateListener
@@ -38,6 +39,7 @@ class BillingManager private constructor(context: Context) {
     private var activity = WeakReference<Activity>(null)
     private var connecting = false
     private val main = Handler(Looper.getMainLooper())
+    private var lastLaunchAt = 0L
 
     init {
         Premium.setActive(prefs.getBoolean(KEY_ACTIVE, false))
@@ -133,6 +135,14 @@ class BillingManager private constructor(context: Context) {
         if (!client.isReady) return
         activity.runOnUiThread {
             if (activity.isFinishing || activity.isDestroyed) return@runOnUiThread
+            // A second launch while Play's ProxyBillingActivity is still opening (double tap) makes it
+            // start without its purchase data and crash inside Google's code; ignore quick repeats.
+            val now = SystemClock.elapsedRealtime()
+            if (now - lastLaunchAt < LAUNCH_DEBOUNCE_MS) return@runOnUiThread
+            val resumed = (activity as? androidx.lifecycle.LifecycleOwner)?.lifecycle?.currentState
+                ?.isAtLeast(androidx.lifecycle.Lifecycle.State.RESUMED) ?: true
+            if (!resumed) return@runOnUiThread
+            lastLaunchAt = now
             try {
                 client.launchBillingFlow(activity, params)
             } catch (e: Exception) {
@@ -165,6 +175,7 @@ class BillingManager private constructor(context: Context) {
     companion object {
         const val PRODUCT_ID = "premium"
         private const val KEY_ACTIVE = "active"
+        private const val LAUNCH_DEBOUNCE_MS = 3_000L
 
         @Volatile
         var instance: BillingManager? = null

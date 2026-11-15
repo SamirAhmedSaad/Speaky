@@ -72,6 +72,24 @@ class HubCallRepository(private val client: SupabaseClient) {
 
     fun myUserId(): String? = client.auth.currentUserOrNull()?.id
 
+    /**
+     * Calls keep running in the background, where supabase-kt pauses token refresh (and a login still
+     * being restored when the app left the screen can be dropped): requests then went out as the
+     * anonymous role, so leaving, heartbeats and the LiveKit fallback were refused and the call died.
+     * Before each call request, make sure a valid login is loaded and not about to expire.
+     */
+    private suspend fun ensureSession() {
+        runCatching {
+            // Never wait forever: a stuck "Initializing" status froze the heartbeat loop.
+            kotlinx.coroutines.withTimeoutOrNull(5_000) { client.auth.awaitInitialization() }
+            if (client.auth.currentSessionOrNull() == null) client.auth.loadFromStorage(autoRefresh = false)
+            val session = client.auth.currentSessionOrNull() ?: return
+            if (session.expiresAt.toEpochMilliseconds() - kotlinx.datetime.Clock.System.now().toEpochMilliseconds() < 120_000) {
+                client.auth.refreshCurrentSession()
+            }
+        }.onFailure { Napier.w("call session check failed", it) }
+    }
+
     /** The room's live call, or null. */
     suspend fun liveCall(roomId: String): LiveCall? =
         client.from(CALLS).select(Columns.raw(CALL_COLUMNS)) {
@@ -119,6 +137,7 @@ class HubCallRepository(private val client: SupabaseClient) {
     suspend fun join(callId: String): Seat = seat("voice_call_join", buildJsonObject { put("p_call", callId) })
 
     private suspend fun seat(function: String, params: kotlinx.serialization.json.JsonObject): Seat = try {
+        ensureSession()
         val dto = client.postgrest.rpc(function, params).decodeAs<SeatDto>()
         Seat(dto.callId, dto.provider, dto.premiumSeat)
     } catch (e: Exception) {
@@ -127,18 +146,22 @@ class HubCallRepository(private val client: SupabaseClient) {
     }
 
     suspend fun leave(callId: String) {
+        ensureSession()
         runCatching { client.postgrest.rpc("voice_call_leave", buildJsonObject { put("p_call", callId) }) }
             .onFailure { Napier.w("voice_call_leave failed", it) }
     }
 
     /** False: the call ended or this user was removed. Null: offline, try again later. */
     suspend fun heartbeat(callId: String): Boolean? = try {
+        ensureSession()
         client.postgrest.rpc("voice_call_heartbeat", buildJsonObject { put("p_call", callId) }).decodeAs<Boolean>()
     } catch (e: Exception) {
+        Napier.w("voice_call_heartbeat failed", e)
         null
     }
 
     suspend fun setMuted(callId: String, muted: Boolean) {
+        ensureSession()
         runCatching {
             client.postgrest.rpc("voice_call_set_muted", buildJsonObject {
                 put("p_call", callId)
@@ -148,11 +171,14 @@ class HubCallRepository(private val client: SupabaseClient) {
     }
 
     /** Moves the starter's call to LiveKit; returns the provider the call ends up with. */
-    suspend fun useFallback(callId: String): String =
-        client.postgrest.rpc("voice_call_use_fallback", buildJsonObject { put("p_call", callId) }).decodeAs<String>()
+    suspend fun useFallback(callId: String): String {
+        ensureSession()
+        return client.postgrest.rpc("voice_call_use_fallback", buildJsonObject { put("p_call", callId) }).decodeAs<String>()
+    }
 
     /** The signed token for the call's provider. */
     suspend fun token(callId: String): VoiceToken {
+        ensureSession()
         val access = client.auth.currentAccessTokenOrNull() ?: throw CallRefused("not_signed_in")
         val response = http.post("${AppConfig.supabaseUrl}/functions/v1/voice-token") {
             header(HttpHeaders.Authorization, "Bearer $access")

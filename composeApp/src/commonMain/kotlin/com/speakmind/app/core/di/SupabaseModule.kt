@@ -17,7 +17,12 @@ val supabaseModule = module {
             supabaseKey = AppConfig.supabaseAnonKey,
         ) {
             httpEngine = supabaseHttpEngine()
-            install(Auth)
+            install(Auth) {
+                // By default supabase-kt marks the login "Initializing" whenever the app leaves the screen
+                // and stops renewing it, so background work (Hub voice calls, the online check-in) sent
+                // anonymous requests or waited forever. Keep the login valid and renewing in the background.
+                enableLifecycleCallbacks = false
+            }
             install(Postgrest)
             install(Storage)
             install(Realtime)

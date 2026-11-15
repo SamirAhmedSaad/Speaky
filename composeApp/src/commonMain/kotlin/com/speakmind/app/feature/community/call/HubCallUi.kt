@@ -290,7 +290,8 @@ private fun CallLiveContent(state: HubCallState, manager: HubCallManager, onMini
         }
 
         if (alone) {
-            Waiting(members.firstOrNull(), manager.nobodyJoinedLeftMs()?.let { clock(it) }, Modifier.weight(1f))
+            // Reads [tick], so the "Closes in" countdown redraws every second (it froze while alone).
+            Waiting(members.firstOrNull(), manager.nobodyJoinedLeftMs(tick)?.let { clock(it) }, Modifier.weight(1f))
         } else {
             LazyVerticalGrid(
                 columns = GridCells.Fixed(3),

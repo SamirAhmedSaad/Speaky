@@ -14,6 +14,7 @@ import com.speakmind.app.feature.community.ui.auth.signInWithGoogleInPlace
 import com.speakmind.app.navigation.CommunitySetupDestination
 import com.speakmind.app.navigation.NavigationManager
 import com.speakmind.app.navigation.RoomDestination
+import com.speakmind.app.premium.Premium
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -91,13 +92,25 @@ class PeopleViewModel(
 
     fun onFilterSelected(filter: String) {
         if (filter == _uiState.value.filter) return
+        // Free users get "All" only; Online and the level tabs are Premium (admins skip this, for
+        // moderation). After subscribing the paywall calls back here and the tab opens.
+        if (filter != "All" && !Premium.active.value && !_uiState.value.isAdmin) {
+            val (title, message) = if (filter == "Online") {
+                "See who's online" to "Speaky Premium shows who is online right now, so you can start a chat while they're here."
+            } else {
+                "Find $filter learners" to "Speaky Premium lets you filter people by level, so you can practise with learners like you."
+            }
+            Premium.requirePremium(title, message) { onFilterSelected(filter) }
+            return
+        }
         _uiState.update { it.copy(filter = filter, people = emptyList()) }
         load(reset = true)
     }
 
     fun loadMore() {
         val s = _uiState.value
-        if (s.isLoading || !s.hasMore) return
+        // The Online tab loads everyone online in one request: no pages.
+        if (s.isLoading || !s.hasMore || s.filter == "Online") return
         load(reset = false)
     }
 
@@ -107,24 +120,28 @@ class PeopleViewModel(
         // A new search/filter replaces any page still loading, so a slow "All" result can't
         // land on the Online tab.
         if (reset) loadJob?.cancel()
-        val offset = if (reset) 0 else _uiState.value.people.size
+        val online = _uiState.value.filter == "Online"
+        val offset = if (reset || online) 0 else _uiState.value.people.size
         _uiState.update { it.copy(isLoading = true) }
         loadJob = viewModelScope.launch {
             try {
                 val state = _uiState.value
+                // Online tab: one request for everyone online (a few dozen at most), so it doesn't page
+                // through the list with a spinner. Other tabs load PAGE at a time.
+                val size = if (online) state.onlineUserIds.size.coerceIn(1, MAX_ONLINE) else PAGE
                 val page = repository.searchUsers(
                     query = state.query,
                     offset = offset,
-                    pageSize = PAGE,
+                    pageSize = size,
                     level = state.filter.takeIf { it.length == 2 },
-                    onlyIds = if (state.filter == "Online") state.onlineUserIds else null,
+                    onlyIds = if (online) state.onlineUserIds else null,
                 )
                 _uiState.update {
                     // Ignore a page for a filter or search that is no longer selected.
                     if (it.filter != state.filter || it.query != state.query) return@update it
                     it.copy(
                         people = if (reset) page else (it.people + page).distinctBy { u -> u.uid },
-                        hasMore = page.size >= PAGE,
+                        hasMore = !online && page.size >= PAGE,
                         isLoading = false,
                     )
                 }
@@ -148,7 +165,7 @@ class PeopleViewModel(
         loadJob?.cancel()
         loadJob = viewModelScope.launch {
             try {
-                val page = repository.searchUsers(query = state.query, offset = 0, pageSize = PAGE, level = null, onlyIds = added)
+                val page = repository.searchUsers(query = state.query, offset = 0, pageSize = added.size.coerceIn(1, MAX_ONLINE), level = null, onlyIds = added)
                 _uiState.update {
                     if (it.filter != "Online" || it.query != state.query) return@update it
                     it.copy(people = (it.people + page).distinctBy { u -> u.uid }.filter { u -> u.uid in it.onlineUserIds })
@@ -308,5 +325,6 @@ class PeopleViewModel(
 
     companion object {
         private const val PAGE = 30
+        private const val MAX_ONLINE = 300
     }
 }

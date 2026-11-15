@@ -63,6 +63,7 @@ import io.github.jan.supabase.storage.storage
 import io.ktor.http.ContentType
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.SupervisorJob
@@ -434,13 +435,17 @@ class SupabaseCommunityRepository(
         if (ids != null && ids.isEmpty()) return emptyList()
         return client.from(USERS).select(Columns.raw(USER_COLUMNS)) {
             filter {
-                if (me != null) neq("id", me)
+                // One filter per column only: supabase-kt sends just the FIRST filter for a column
+                // (mapToFirstValue), so "neq id" + "in id" silently dropped the online-only list and the
+                // Online tab paged through every member. [ids] already excludes me.
+                if (ids != null) isIn("id", ids) else if (me != null) neq("id", me)
                 exact("banned_at", null)
                 if (q.isNotEmpty()) ilike("nickname_search", "%${q.replace("%", "").replace("_", "")}%")
                 if (!level.isNullOrEmpty()) eq("level", level)
-                if (ids != null) isIn("id", ids)
             }
-            order("last_seen", Order.DESCENDING)
+            // Newest members first; id as a tie-break keeps paging stable.
+            order("created_at", Order.DESCENDING)
+            order("id", Order.ASCENDING)
             range(offset.toLong(), (offset + pageSize - 1).toLong())
         }.decodeList<UserDto>().map { it.toDomain() }.onEach { cacheUser(it) }
     }
@@ -794,11 +799,12 @@ class SupabaseCommunityRepository(
 
     // ---------- Messages ----------
 
-    override suspend fun cachedMessages(roomId: String, limit: Int): List<RoomMessage> =
+    override suspend fun cachedMessages(roomId: String, limit: Int): List<RoomMessage> = withContext(Dispatchers.IO) {
         database.speakMindQueries.selectCachedRoomMessages(roomId, limit.toLong())
             .executeAsList()
             .map { it.toDomain() }
             .reversed()
+    }
 
     override suspend fun loadMessages(roomId: String, pageSize: Int, before: RoomMessage?): List<RoomMessage> {
         val rows = client.from(MESSAGES).select(Columns.raw(MESSAGE_COLUMNS)) {
@@ -812,15 +818,20 @@ class SupabaseCommunityRepository(
         }.decodeList<MessageDto>()
         rows.mapNotNull { it.sender }.distinctBy { it.id }.forEach { cacheUser(it.toDomain()) }
         val messages = rows.map { it.toDomain() }.reversed()
-        if (before == null) {
-            // The newest page replaces what's cached, so deletions made elsewhere disappear too.
-            database.transaction {
-                database.speakMindQueries.trimRoomMessageCache(roomId, 0)
-                messages.forEach { cache(it) }
+        // Database writes off the main thread: a page of upserts blocked the UI long enough for ANRs.
+        withContext(Dispatchers.IO) {
+            if (before == null) {
+                // The newest page replaces what's cached, so deletions made elsewhere disappear too.
+                database.transaction {
+                    database.speakMindQueries.trimRoomMessageCache(roomId, 0)
+                    messages.forEach { cache(it) }
+                }
+            } else {
+                database.transaction {
+                    messages.forEach { cache(it) }
+                    database.speakMindQueries.trimRoomMessageCache(roomId, CACHE_PER_ROOM)
+                }
             }
-        } else {
-            messages.forEach { cache(it) }
-            database.speakMindQueries.trimRoomMessageCache(roomId, CACHE_PER_ROOM)
         }
         return messages
     }

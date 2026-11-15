@@ -10,6 +10,7 @@ import kotlinx.coroutines.suspendCancellableCoroutine
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 import java.util.Locale
+import java.util.concurrent.Executors
 import kotlin.coroutines.resume
 
 actual class TextToSpeechEngine actual constructor() : KoinComponent {
@@ -21,16 +22,33 @@ actual class TextToSpeechEngine actual constructor() : KoinComponent {
     private val _isSpeaking = MutableStateFlow(false)
     actual val isSpeaking: StateFlow<Boolean> = _isSpeaking.asStateFlow()
 
+    // Every call into Android's TextToSpeech can block on a binder call to the TTS service (for example
+    // while it is still connecting), which froze the main thread long enough to cause ANRs. All TTS work
+    // runs on this one background thread instead, in order.
+    private val ttsThread = Executors.newSingleThreadExecutor { r -> Thread(r, "speaky-tts").apply { isDaemon = true } }
+
+    private fun onTtsThread(block: () -> Unit) {
+        ttsThread.execute {
+            try {
+                block()
+            } catch (e: Exception) {
+                io.github.aakira.napier.Napier.w("TTS call failed", e)
+            }
+        }
+    }
+
     private fun ensureInitialized(onReady: () -> Unit) {
         if (isInitialized && tts != null) {
-            onReady()
+            onTtsThread(onReady)
             return
         }
         tts = AndroidTTS(context) { status ->
             if (status == AndroidTTS.SUCCESS) {
                 isInitialized = true
-                tts?.language = Locale.US
-                onReady()
+                onTtsThread {
+                    tts?.language = Locale.US
+                    onReady()
+                }
             }
         }
     }
@@ -49,6 +67,7 @@ actual class TextToSpeechEngine actual constructor() : KoinComponent {
     private suspend fun speakChunk(text: String, rate: Float, language: String) {
         suspendCancellableCoroutine { cont ->
             ensureInitialized {
+                if (!cont.isActive) return@ensureInitialized // cancelled while TTS was starting up
                 tts?.stop()
                 tts?.setSpeechRate(rate)
                 tts?.language = Locale.forLanguageTag(language)
@@ -80,15 +99,15 @@ actual class TextToSpeechEngine actual constructor() : KoinComponent {
             }
 
             cont.invokeOnCancellation {
-                tts?.stop()
                 _isSpeaking.value = false
+                onTtsThread { tts?.stop() }
             }
         }
     }
 
     actual fun stop() {
-        tts?.stop()
         _isSpeaking.value = false
+        onTtsThread { tts?.stop() }
     }
 
     private fun chunkBySentence(text: String, maxLen: Int): List<String> {

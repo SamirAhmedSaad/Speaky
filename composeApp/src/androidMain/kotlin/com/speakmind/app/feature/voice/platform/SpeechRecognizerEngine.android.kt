@@ -106,7 +106,15 @@ actual class SpeechRecognizerEngine actual constructor() : KoinComponent {
             putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS, 15000L)
         }
 
-        recognizer?.startListening(intent)
+        // On some phones the default speech service belongs to another app that refuses the binding
+        // (SecurityException) or is broken; show an error instead of crashing.
+        try {
+            recognizer?.startListening(intent)
+        } catch (e: Exception) {
+            io.github.aakira.napier.Napier.w("Speech recognizer start failed", e)
+            _isListening.value = false
+            _results.value = SpeechResult.Error("Speech recognition isn't available on this device")
+        }
     }
 
     actual fun stopListening() {

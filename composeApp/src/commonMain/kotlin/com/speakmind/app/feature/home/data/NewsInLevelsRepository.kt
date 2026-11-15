@@ -32,6 +32,15 @@ class NewsInLevelsRepository(
             else       -> 1
         }
 
+        /** The site's own notices (e.g. adverts for its other websites) are filed under "Information". */
+        fun isSiteNotice(category: String): Boolean = category.trim().equals("Information", ignoreCase = true)
+
+        /** Removes the feed's boilerplate: "The post X appeared first on …" and the pointer to the video. */
+        fun cleanContent(content: String): String = content
+            .replace(Regex("""\s*The post .*? appeared first on .*$""", RegexOption.DOT_MATCHES_ALL), "")
+            .replace(Regex("""\s*You can watch the original video in the Level \d section\.?"""), "")
+            .trim()
+
         fun cefrLabel(nilLevel: Int): String = when (nilLevel) {
             1    -> "A2"
             2    -> "B1"
@@ -51,13 +60,13 @@ class NewsInLevelsRepository(
         // Check cache first
         val cached = database.speakMindQueries.selectRssTopicsByDate(today, userLevel).executeAsList()
         if (cached.isNotEmpty()) {
-            return@withContext cached.map { row ->
+            return@withContext cached.filterNot { isSiteNotice(it.category) }.map { row ->
                 Scenario(
                     id = row.id,
                     title = row.title,
                     category = row.category,
                     level = row.level,
-                    emotionalStakes = row.description,
+                    emotionalStakes = cleanContent(row.description),
                     aiOpening = row.ai_opening,
                     learningGoal = "Discuss this news article, practice related vocabulary, and share opinions",
                     articleUrl = row.article_url,
@@ -75,7 +84,8 @@ class NewsInLevelsRepository(
 
             // Filter to only the articles at the user's level
             val scenarios = allStories
-                .filter { it.level == nilLevel }
+                .filter { it.level == nilLevel && !isSiteNotice(it.category) }
+                .map { raw -> raw.copy(content = cleanContent(raw.content)) }
                 .map { story ->
                     val id = "nil_${story.link.hashCode()}"
                     val aiOpening = buildAiOpening(story.title, story.content)
@@ -125,7 +135,7 @@ class NewsInLevelsRepository(
             title = row.title,
             category = row.category,
             level = row.level,
-            emotionalStakes = row.description,
+            emotionalStakes = cleanContent(row.description),
             aiOpening = row.ai_opening,
             learningGoal = "Discuss this news article, practice related vocabulary, and share opinions",
             articleUrl = row.article_url,

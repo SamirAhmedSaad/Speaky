@@ -57,23 +57,19 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
             .distinctUntilChanged()
             .collect { last -> if (last >= listState.layoutInfo.totalItemsCount - 5) viewModel.loadMore() }
     }
-    // Online people first, then by most recently seen. The Online tab shows only who is online now:
-    // someone who just left disappears at once, before the list reloads.
+    // Server order: newest members first (online people have their own tab, not pinned on top here).
+    // The Online tab shows only who is online now: someone who just left disappears at once.
     val people = remember(uiState.people, uiState.onlineUserIds, uiState.filter) {
-        uiState.people
-            .filter { uiState.filter != "Online" || it.uid in uiState.onlineUserIds }
-            .sortedWith(
-                compareByDescending<CommunityUser> { it.uid in uiState.onlineUserIds }.thenByDescending { it.lastSeen },
-            )
+        uiState.people.filter { uiState.filter != "Online" || it.uid in uiState.onlineUserIds }
     }
-    val onlineCount = uiState.onlineUserIds.size
 
     Box(Modifier.fillMaxSize().background(colors.backgroundDark)) {
         Column(Modifier.fillMaxSize()) {
             CommunityPageHeader(
                 title = "People",
-                subtitle = if (onlineCount > 0) "$onlineCount online now" else "Learners in the community",
-                subtitleColor = if (onlineCount > 0) colors.success else null,
+                // No online count here: a small number makes the community look empty.
+                subtitle = "Learners from around the world",
+                subtitleColor = null,
                 onBack = viewModel::onBack,
             )
             CommunitySearchField(
@@ -128,7 +124,12 @@ private fun PeopleContent(uiState: PeopleUiState, viewModel: PeopleViewModel, on
                         avatarSize = 52.dp,
                         background = colors.surface,
                         chevron = true,
-                        onClick = { viewModel.onPersonClicked(user) },
+                        // Normal users go straight to the chat. Admins (ban/photo tools), visitors (not signed
+                        // in) and blocked people (to unblock) still get the profile sheet.
+                        onClick = {
+                            if (uiState.isAdmin || uiState.isGuest || blocked) viewModel.onPersonClicked(user)
+                            else viewModel.onMessageClicked(user)
+                        },
                         modifier = Modifier
                             .clip(RoundedCornerShape(if (first) 28.dp else 0.dp, if (first) 28.dp else 0.dp, if (last) 28.dp else 0.dp, if (last) 28.dp else 0.dp))
                             .background(colors.surface)

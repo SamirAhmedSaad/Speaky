@@ -142,10 +142,15 @@ class HubCallManager(private val repository: HubCallRepository) {
     private fun connect(takeSeat: suspend () -> HubCallRepository.Seat) {
         if (_state.value.inCall) return
         _state.update { it.copy(phase = CallPhase.Connecting, ended = null, message = null, muted = false, speaker = true) }
+        // Start the call's foreground service NOW, while the app is on screen: Android only allows a
+        // microphone service to start from the foreground. Starting it after connecting (up to ~10 s with
+        // the LiveKit fallback) crashed the app when the user left or locked the phone meanwhile.
+        CallKeepAlive.start(NOTIFICATION_TITLE, "Connecting…", muted = false)
         scope.launch {
             val seat = try {
                 takeSeat()
             } catch (e: CallRefused) {
+                CallKeepAlive.stop()
                 _state.update { it.copy(phase = CallPhase.Idle, message = refusalText(e.reason)) }
                 refreshNow()
                 return@launch
@@ -159,12 +164,13 @@ class HubCallManager(private val repository: HubCallRepository) {
                     tryProvider(seat.callId)
                 )
             if (!connected) {
+                CallKeepAlive.stop()
                 repository.leave(seat.callId)
                 _state.update { it.copy(phase = CallPhase.Idle, myCallId = null, message = "Couldn't connect. Your network may block calls. Try another Wi-Fi or mobile data.") }
                 return@launch
             }
             _state.update { it.copy(phase = CallPhase.InCall) }
-            CallKeepAlive.start(NOTIFICATION_TITLE, notificationText(), muted = false)
+            CallKeepAlive.update(NOTIFICATION_TITLE, notificationText(), muted = false)
             startCallLoops(seat.callId)
             refreshNow()
         }
@@ -311,10 +317,11 @@ class HubCallManager(private val repository: HubCallRepository) {
     }
 
     /** Milliseconds left before a call nobody joined closes; null once someone joined. */
-    fun nobodyJoinedLeftMs(): Long? {
+    /** [now] comes from the screen's 1-second ticker, so the countdown redraws every second. */
+    fun nobodyJoinedLeftMs(now: Long = Clock.System.now().toEpochMilliseconds()): Long? {
         val live = _state.value.live ?: return null
         if (live.peakMembers > 1) return null
-        return (live.startedAtMillis + NOBODY_JOINED_MS - Clock.System.now().toEpochMilliseconds()).coerceAtLeast(0)
+        return (live.startedAtMillis + NOBODY_JOINED_MS - now).coerceAtLeast(0)
     }
 
     private fun endReasonOf(reason: String?, removed: Boolean = false): CallEnd = when (reason) {
