@@ -59,6 +59,7 @@ kotlin {
             implementation(libs.googleid)
             implementation(libs.levelplay)
             implementation(libs.billing)
+            implementation(libs.play.app.update)
             implementation(libs.levelplay.unityads.adapter)
             implementation(libs.unity.ads)
             implementation(libs.play.services.ads.identifier)

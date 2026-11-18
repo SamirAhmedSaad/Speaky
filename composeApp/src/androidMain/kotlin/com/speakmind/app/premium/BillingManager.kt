@@ -143,6 +143,7 @@ class BillingManager private constructor(context: Context) {
                 ?.isAtLeast(androidx.lifecycle.Lifecycle.State.RESUMED) ?: true
             if (!resumed) return@runOnUiThread
             lastLaunchAt = now
+            com.speakmind.app.core.diagnostics.Breadcrumbs.log("billing: open purchase sheet")
             try {
                 client.launchBillingFlow(activity, params)
             } catch (e: Exception) {

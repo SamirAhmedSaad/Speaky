@@ -39,6 +39,7 @@ actual object StreakReminder {
 class StreakReminderReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         val streak = intent.getIntExtra(EXTRA_STREAK, 0)
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("alarm: streak reminder")
         if (streak < 2) return
         val manager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

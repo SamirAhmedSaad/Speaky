@@ -29,9 +29,31 @@ private class ReleaseAntilog : Antilog() {
     }
 }
 
-class SpeakyApplication : Application() {
+class SpeakyApplication : Application(), androidx.work.Configuration.Provider {
+
+    /**
+     * On some phones the storage is in a bad state and WorkManager can't open its own database; by
+     * default that crashed the whole app on start (SQLITE_CANTOPEN). Log it instead: background jobs are
+     * simply skipped on that phone and the app keeps working.
+     */
+    override val workManagerConfiguration: androidx.work.Configuration
+        get() = androidx.work.Configuration.Builder()
+            .setInitializationExceptionHandler { e ->
+                Napier.w("WorkManager unavailable", e)
+                com.speakmind.app.core.diagnostics.Breadcrumbs.log("workmanager: init failed ${e::class.simpleName}")
+            }
+            .build()
+
     override fun onCreate() {
         super.onCreate()
+        // Google Play's pre-launch report runs the app on Firebase Test Lab robots, which open internal
+        // screens directly (e.g. Play Billing's ProxyBillingActivity with no purchase data) and crash
+        // inside Google's code. Those aren't real users: keep them out of Crashlytics.
+        if (isFirebaseTestLab()) {
+            runCatching { com.google.firebase.crashlytics.FirebaseCrashlytics.getInstance().isCrashlyticsCollectionEnabled = false }
+        }
+        // What the app was doing (screen, call, background work) goes into every crash/ANR report.
+        com.speakmind.app.core.diagnostics.Breadcrumbs.sink = CrashlyticsBreadcrumbs(this)
         SDPConfig.setScalingRatio(360.0)
         val isDebug = (applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0
         // DebugAntilog reads a fixed stack-trace depth to build its tag; R8 inlining makes the stack
@@ -60,5 +82,31 @@ class SpeakyApplication : Application() {
                 }
             }
         }
+    }
+
+    /** Firebase Test Lab (used by Play's pre-launch report) marks its devices with this system setting. */
+    private fun isFirebaseTestLab(): Boolean = runCatching {
+        android.provider.Settings.System.getString(contentResolver, "firebase.test.lab") == "true"
+    }.getOrDefault(false)
+}
+
+/** Sends breadcrumbs to Crashlytics (logs + keys) and screen views to Analytics (shown as breadcrumbs). */
+private class CrashlyticsBreadcrumbs(app: Application) : com.speakmind.app.core.diagnostics.Breadcrumbs.Sink {
+    private val crashlytics = runCatching { com.google.firebase.crashlytics.FirebaseCrashlytics.getInstance() }.getOrNull()
+    private val analytics = runCatching { com.google.firebase.analytics.FirebaseAnalytics.getInstance(app) }.getOrNull()
+
+    override fun log(message: String) {
+        crashlytics?.log(message)
+    }
+
+    override fun key(name: String, value: String) {
+        crashlytics?.setCustomKey(name, value)
+    }
+
+    override fun screen(name: String) {
+        analytics?.logEvent(com.google.firebase.analytics.FirebaseAnalytics.Event.SCREEN_VIEW, android.os.Bundle().apply {
+            putString(com.google.firebase.analytics.FirebaseAnalytics.Param.SCREEN_NAME, name)
+            putString(com.google.firebase.analytics.FirebaseAnalytics.Param.SCREEN_CLASS, name)
+        })
     }
 }

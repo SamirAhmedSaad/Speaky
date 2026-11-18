@@ -42,7 +42,7 @@ class DailyWordAlarmReceiver : BroadcastReceiver() {
         val pendingResult = goAsync()
         CoroutineScope(Dispatchers.IO).launch {
             try {
-                handleDailyWordAlarm(context, intent)
+                com.speakmind.app.core.diagnostics.Breadcrumbs.work("alarm: daily word") { handleDailyWordAlarm(context, intent) }
             } finally {
                 pendingResult.finish()
             }
@@ -130,9 +130,7 @@ class DailyWordAlarmReceiver : BroadcastReceiver() {
         userLevel: String,
     ): com.speakmind.app.feature.vocabulary.domain.model.VocabWord? {
         return try {
-            val json = Json { ignoreUnknownKeys = true }
-            val vocabJson = context.assets.open(VOCAB_ASSET_PATH).bufferedReader().readText()
-            val vocab = json.decodeFromString<VocabularyData>(vocabJson)
+            val vocab = loadVocabulary(context)
 
             val levelsToTry = buildList {
                 add(userLevel)
@@ -158,6 +156,15 @@ class DailyWordAlarmReceiver : BroadcastReceiver() {
             null
         }
     }
+
+    // The vocabulary file is ~2 MB: parsing it twice per alarm (today + tomorrow) took long enough on
+    // slow phones to cause background ANRs. Parse it once per alarm.
+    private var vocabulary: VocabularyData? = null
+
+    private fun loadVocabulary(context: Context): VocabularyData =
+        vocabulary ?: Json { ignoreUnknownKeys = true }
+            .decodeFromString<VocabularyData>(context.assets.open(VOCAB_ASSET_PATH).bufferedReader().use { it.readText() })
+            .also { vocabulary = it }
 
     private fun showNotification(context: Context, word: String, meaning: String) {
         val openIntent = Intent(context, Class.forName("com.speakmind.app.MainActivity")).apply {

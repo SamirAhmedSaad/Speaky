@@ -24,7 +24,7 @@ class BootReceiver : BroadcastReceiver() {
         val pendingResult = goAsync()
         CoroutineScope(Dispatchers.IO).launch {
             try {
-                reschedule(context)
+                com.speakmind.app.core.diagnostics.Breadcrumbs.work("boot: reschedule") { reschedule(context) }
             } finally {
                 pendingResult.finish()
             }

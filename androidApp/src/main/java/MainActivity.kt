@@ -51,6 +51,9 @@ class MainActivity : ComponentActivity() {
 
     private val startDestination = MutableStateFlow<Any?>(null)
 
+    /** Google Play in-app updates; created here because it registers an activity result. */
+    private val updater by lazy { com.speakmind.app.update.createUpdater(this, debug = BuildConfig.DEBUG) }
+
     private val micPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
     ) { isGranted: Boolean ->
@@ -92,6 +95,7 @@ class MainActivity : ComponentActivity() {
         // Privacy signals are set inside AdManager (non-personalized ads where consent would be needed).
         AdManager.init(this)
         BillingManager.init(this)
+        updater // registers its activity-result launcher before the activity starts
         // Server-granted ad-free (admins): last known answer first, refreshed in onStart.
         getSharedPreferences("premium", MODE_PRIVATE).let { prefs ->
             Premium.setServerAdFree(prefs.getBoolean("server_ad_free", false))
@@ -168,6 +172,9 @@ class MainActivity : ComponentActivity() {
         // Purchase sheet needs the visible activity; also re-checks the subscription (cancelled/renewed).
         BillingManager.instance?.attach(this)
         AdManager.instance?.onAppForeground()
+        updater.register()
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("app: foreground")
+        com.speakmind.app.core.diagnostics.Breadcrumbs.key("app_foreground", "true")
         lifecycleScope.launch {
             val repo = getKoin().get<CommunityRepository>()
             if (repo.hasSession() && !repo.isGuest() && !countedOnline) {
@@ -189,11 +196,22 @@ class MainActivity : ComponentActivity() {
                 }
                 Premium.setServerAdFree(adFree)
             }
+            // The update settings arrived with the request above: check Play for a new version.
+            updater.check()
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // Also catches coming back from Play's update screen or a download that finished meanwhile.
+        updater.check()
     }
 
     override fun onStop() {
         super.onStop()
+        updater.unregister()
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("app: background")
+        com.speakmind.app.core.diagnostics.Breadcrumbs.key("app_foreground", "false")
         AdManager.instance?.onAppBackground()
         if (countedOnline) {
             countedOnline = false

@@ -945,6 +945,12 @@ class SupabaseCommunityRepository(
         settings["courses_version"]?.toLongOrNull()?.let { ServerSettings.coursesVersion = it }
         ServerSettings.adsOff = settings["ads_off"] == "true"
         Premium.setAdsOff(ServerSettings.adsOff)
+        com.speakmind.app.update.AppUpdate.applyServerSettings(
+            minVersionCode = settings["update_min_version_code"]?.toLongOrNull(),
+            optionalOn = settings["update_optional_on"] != "false",
+            message = settings["update_message"],
+            enabled = settings["update_prompts_on"] == "true",
+        )
         // Premium granted to this account on the server (ad_free_users); guests never have it.
         if (!hasSession() || isGuest()) false else client.postgrest.rpc("my_ad_free").decodeAs<Boolean>()
     } catch (_: Exception) {
@@ -1257,6 +1263,11 @@ class SupabaseCommunityRepository(
 
     override suspend fun hubNotificationsEnabled(): Boolean =
         signedIn() && client.postgrest.rpc("my_hub_notify").decodeAs<Boolean>()
+
+    override suspend fun setAppUpdatesEnabled(on: Boolean) {
+        client.postgrest.rpc("app_update_set_enabled", buildJsonObject { put("p_on", on) })
+        com.speakmind.app.update.AppUpdate.setEnabled(on)
+    }
 
     override suspend fun setHubNotifications(enabled: Boolean) {
         client.postgrest.rpc("set_hub_notify", buildJsonObject { put("p_on", enabled) })

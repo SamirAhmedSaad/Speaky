@@ -165,6 +165,22 @@ class CommunityHubViewModel(
         }
     }
 
+    /** Admins: in-app update prompts for everyone (Google Play updates). */
+    val appUpdatesOn = com.speakmind.app.update.AppUpdate.enabled
+
+    fun onToggleAppUpdates() {
+        val next = !appUpdatesOn.value
+        com.speakmind.app.update.AppUpdate.setEnabled(next)
+        viewModelScope.launch {
+            try {
+                repository.setAppUpdatesEnabled(next)
+            } catch (e: Exception) {
+                com.speakmind.app.update.AppUpdate.setEnabled(!next)
+                _uiState.update { it.copy(error = friendlyCommunityError(e, "Couldn't change app updates.")) }
+            }
+        }
+    }
+
     fun onToggleHubAlerts() {
         val next = !(_uiState.value.hubAlerts ?: true)
         _uiState.update { it.copy(hubAlerts = next) }

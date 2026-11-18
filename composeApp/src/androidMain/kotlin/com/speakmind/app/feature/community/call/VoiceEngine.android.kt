@@ -67,6 +67,7 @@ class HubCallService : Service(), KoinComponent {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         val manager = get<HubCallManager>()
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("call service: ${intent?.action?.substringAfterLast('.') ?: "restart"}")
         when (intent?.action) {
             ACTION_MUTE -> {
                 manager.toggleMute()

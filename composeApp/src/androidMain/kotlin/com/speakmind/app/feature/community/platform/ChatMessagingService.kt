@@ -38,6 +38,7 @@ class ChatMessagingService : FirebaseMessagingService() {
     override fun onMessageReceived(message: RemoteMessage) {
         val data = message.data
         Napier.i("push received: ${data["kind"]}")
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("push: ${data["kind"] ?: "message"}")
         // Admins and moderators: someone reported a user.
         if (data["kind"] == "report") {
             showReportNotification(this, data["title"].orEmpty(), data["body"].orEmpty())

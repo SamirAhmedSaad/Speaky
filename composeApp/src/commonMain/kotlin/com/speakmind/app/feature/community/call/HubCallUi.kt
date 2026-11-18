@@ -1,6 +1,11 @@
 package com.speakmind.app.feature.community.call
 
+import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.foundation.Canvas
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
@@ -81,10 +86,12 @@ fun NavGraphBuilder.hubCallScreen() {
         HubCallContent(
             state = state,
             manager = manager,
-            onMinimize = { navigation.back() },
+            // Close only the call screen: a plain back() could run twice (Leave + the Idle state) and pop
+            // the Hub too, emptying the stack and leaving a frozen gray screen.
+            onMinimize = { navigation.popUpTo(HubCallDestination::class, inclusive = true) },
             onClose = {
                 manager.dismissEnded()
-                navigation.back()
+                navigation.popUpTo(HubCallDestination::class, inclusive = true)
             },
         )
     }
@@ -242,10 +249,8 @@ private fun HubCallContent(state: HubCallState, manager: HubCallManager, onMinim
                 // Join failed (message shown) or the call was left: go back.
                 LaunchedEffect(Unit) { onClose() }
             }
-            else -> CallLiveContent(state, manager, onMinimize, onLeave = {
-                manager.leave()
-                onClose()
-            })
+            // Leaving turns the state Idle, and the Idle branch above closes the screen (once).
+            else -> CallLiveContent(state, manager, onMinimize, onLeave = { manager.leave() })
         }
     }
 }
@@ -296,6 +301,8 @@ private fun CallLiveContent(state: HubCallState, manager: HubCallManager, onMini
             LazyVerticalGrid(
                 columns = GridCells.Fixed(3),
                 modifier = Modifier.weight(1f),
+                // Room for the talking waves, which spread past the photo (the grid clips at its edges).
+                contentPadding = androidx.compose.foundation.layout.PaddingValues(vertical = 28.dp),
                 verticalArrangement = Arrangement.spacedBy(18.dp, Alignment.CenterVertically),
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
             ) {
@@ -368,13 +375,16 @@ private fun Waiting(me: CallMember?, left: String?, modifier: Modifier) {
 
 @Composable
 private fun Seat(member: CallMember, isMe: Boolean, speaking: Boolean, modifier: Modifier) {
-    val transition = rememberInfiniteTransition(label = "speak")
-    val pulse by transition.animateFloat(0f, 1f, infiniteRepeatable(tween(1100), RepeatMode.Restart), label = "pulse")
+    // Keep the effect through the short pauses between words, so it doesn't flicker on and off.
+    var talking by remember { mutableStateOf(false) }
+    LaunchedEffect(speaking) {
+        if (speaking) talking = true else { delay(SPEAKING_HOLD_MS); talking = false }
+    }
     Column(modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Box(Modifier.size(92.dp), contentAlignment = Alignment.Center) {
-            if (speaking) Box(Modifier.size(84.dp).scale(1f + 0.18f * pulse).alpha(1f - pulse).border(3.dp, CallLive, CircleShape))
+            SpeakingRadar(active = talking, size = 84.dp)
             val ring = when {
-                speaking -> CallLive
+                talking -> Color.Transparent // the radar's spinning ring takes its place
                 member.premiumSeat -> Gold.last()
                 else -> Color.Transparent
             }
@@ -398,12 +408,52 @@ private fun Seat(member: CallMember, isMe: Boolean, speaking: Boolean, modifier:
         Text(
             if (isMe) "You" else member.nickname,
             color = when {
-                speaking -> Color(0xFF7DE3BE)
+                talking -> Color(0xFF7DE3BE)
                 member.premiumSeat -> Gold.first()
                 else -> Color.White
             },
             fontSize = 13.sp, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis,
         )
+    }
+}
+
+private const val SPEAKING_HOLD_MS = 600L
+private val RadarColors = listOf(Color(0xFF34D399), Color(0xFF22D3EE), Color(0xFF8B7BFF), Color(0xFF34D399))
+
+/**
+ * "Talking" effect, like other voice-chat apps: colored waves pulsing out from the photo like a
+ * radar, plus a spinning gradient ring. Fades in/out instead of popping.
+ */
+@Composable
+private fun SpeakingRadar(active: Boolean, size: Dp) {
+    val level by animateFloatAsState(
+        targetValue = if (active) 1f else 0f,
+        animationSpec = tween(if (active) 200 else 500),
+        label = "radarLevel",
+    )
+    if (level <= 0.01f) return
+    val transition = rememberInfiniteTransition(label = "radar")
+    val wave by transition.animateFloat(0f, 1f, infiniteRepeatable(tween(1500, easing = LinearEasing)), label = "wave")
+    val spin by transition.animateFloat(0f, 360f, infiniteRepeatable(tween(2600, easing = LinearEasing)), label = "spin")
+    Canvas(Modifier.size(size)) {
+        val base = this.size.minDimension / 2f
+        // Three waves, evenly spaced in time, growing and fading out.
+        repeat(3) { i ->
+            val p = (wave + i / 3f) % 1f
+            val radius = base * (1f + 0.6f * p)
+            val fade = (1f - p) * level
+            drawCircle(color = RadarColors[i].copy(alpha = 0.32f * fade), radius = radius)
+            drawCircle(color = RadarColors[i].copy(alpha = 0.9f * fade), radius = radius, style = Stroke(2.5.dp.toPx()))
+        }
+        // Spinning colored ring around the photo.
+        rotate(spin) {
+            drawCircle(
+                brush = Brush.sweepGradient(RadarColors),
+                radius = base - 1.5.dp.toPx(),
+                style = Stroke(4.dp.toPx()),
+                alpha = level,
+            )
+        }
     }
 }
 

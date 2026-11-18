@@ -59,6 +59,7 @@ actual class TextToSpeechEngine actual constructor() : KoinComponent {
     actual suspend fun speak(text: String, rate: Float, language: String) {
         val maxLen = AndroidTTS.getMaxSpeechInputLength()
         val chunks = chunkBySentence(text, maxLen)
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("tts: speak ${text.length} chars")
         for (chunk in chunks) {
             speakChunk(chunk, rate, language)
         }
@@ -106,6 +107,7 @@ actual class TextToSpeechEngine actual constructor() : KoinComponent {
     }
 
     actual fun stop() {
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("tts: stop")
         _isSpeaking.value = false
         onTtsThread { tts?.stop() }
     }

@@ -28,6 +28,9 @@ import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.windowInsetsTopHeight
 import androidx.compose.material3.MaterialTheme
 import androidx.navigation.compose.NavHost
+import androidx.navigation.NavDestination.Companion.hasRoute
+import com.speakmind.app.update.AppUpdateOverlay
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.speakmind.app.feature.aisetup.ui.aiSetupScreen
 import com.speakmind.app.feature.article.ui.articleDetailScreen
@@ -99,10 +102,22 @@ fun AppRoot(startDestination: Any) {
                         }
                     }
                     is NavCommand.Back -> {
-                        navController.popBackStack()
+                        // Never pop the last screen: an empty stack shows a blank gray screen with no way out.
+                        if (navController.previousBackStackEntry != null) {
+                            navController.popBackStack()
+                        } else {
+                            com.speakmind.app.core.diagnostics.Breadcrumbs.log("nav: ignored back on last screen")
+                        }
                     }
                     is NavCommand.PopUpTo -> {
-                        navController.popBackStack(command.destination, command.inclusive)
+                        // Same rule: removing the only screen left (inclusive) would empty the stack.
+                        val onlyScreenIsTarget = navController.previousBackStackEntry == null &&
+                            navController.currentBackStackEntry?.destination?.hasRoute(command.destination) == true
+                        if (command.inclusive && onlyScreenIsTarget) {
+                            com.speakmind.app.core.diagnostics.Breadcrumbs.log("nav: ignored pop of last screen")
+                        } else {
+                            navController.popBackStack(command.destination, command.inclusive)
+                        }
                     }
                     is NavCommand.ClearStackAndNavigate -> {
                         navController.navigate(command.destination) {
@@ -158,6 +173,20 @@ fun AppRoot(startDestination: Any) {
             adminCallsScreen()
             adminSubscribersScreen()
         }
+        // Navigation crashes ("Cannot transition entry that is not in the back stack") when back is
+        // pressed while a screen transition is still running. Swallow back until the new screen settles.
+        val currentEntry by navController.currentBackStackEntryAsState()
+        // Which screen was open goes into crash/ANR reports.
+        LaunchedEffect(currentEntry?.id) {
+            val route = currentEntry?.destination?.route ?: return@LaunchedEffect
+            com.speakmind.app.core.diagnostics.Breadcrumbs.screen(
+                route.substringBefore('?').substringBefore('/').substringAfterLast('.').removeSuffix("Destination")
+            )
+        }
+        val entryState = currentEntry?.lifecycle?.currentStateFlow?.collectAsState()
+        val transitionRunning = currentEntry != null &&
+            entryState?.value?.isAtLeast(androidx.lifecycle.Lifecycle.State.RESUMED) == false
+        androidx.activity.compose.BackHandler(enabled = transitionRunning) {}
         // Every screen scrolls edge to edge; this keeps content from running under the clock and battery icons.
         Box(
             Modifier
@@ -175,6 +204,8 @@ fun AppRoot(startDestination: Any) {
         )
         RemoveAdsHost()
         PaywallHost()
+        // New version prompts (optional banner / mandatory full screen), above everything else.
+        AppUpdateOverlay()
         }
     }
 }

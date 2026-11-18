@@ -3,6 +3,7 @@ package com.speakmind.app.feature.community.call
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.delay
@@ -141,6 +142,8 @@ class HubCallManager(private val repository: HubCallRepository) {
 
     private fun connect(takeSeat: suspend () -> HubCallRepository.Seat) {
         if (_state.value.inCall) return
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("call: connect")
+        com.speakmind.app.core.diagnostics.Breadcrumbs.key("in_call", "connecting")
         _state.update { it.copy(phase = CallPhase.Connecting, ended = null, message = null, muted = false, speaker = true) }
         // Start the call's foreground service NOW, while the app is on screen: Android only allows a
         // microphone service to start from the foreground. Starting it after connecting (up to ~10 s with
@@ -170,6 +173,8 @@ class HubCallManager(private val repository: HubCallRepository) {
                 return@launch
             }
             _state.update { it.copy(phase = CallPhase.InCall) }
+            com.speakmind.app.core.diagnostics.Breadcrumbs.log("call: connected via ${engine?.let { it::class.simpleName }}")
+            com.speakmind.app.core.diagnostics.Breadcrumbs.key("in_call", "true")
             CallKeepAlive.update(NOTIFICATION_TITLE, notificationText(), muted = false)
             startCallLoops(seat.callId)
             refreshNow()
@@ -221,6 +226,7 @@ class HubCallManager(private val repository: HubCallRepository) {
     private fun reconnect(callId: String) {
         scope.launch {
             _state.update { it.copy(reconnecting = true) }
+            com.speakmind.app.core.diagnostics.Breadcrumbs.log("call: reconnecting")
             engine?.leave()
             engine = null
             val muted = _state.value.muted
@@ -257,6 +263,7 @@ class HubCallManager(private val repository: HubCallRepository) {
 
     fun leave() {
         val callId = _state.value.myCallId
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("call: leave")
         hangUp()
         _state.update { it.copy(phase = CallPhase.Idle, myCallId = null, ended = null) }
         if (callId != null) scope.launch {
@@ -271,15 +278,22 @@ class HubCallManager(private val repository: HubCallRepository) {
     fun clearMessage() = _state.update { it.copy(message = null) }
 
     private fun endMine(reason: CallEnd) {
+        com.speakmind.app.core.diagnostics.Breadcrumbs.log("call: ended $reason")
         hangUp()
         _state.update { it.copy(phase = CallPhase.Ended, myCallId = null, ended = reason) }
     }
 
     private fun hangUp() {
+        com.speakmind.app.core.diagnostics.Breadcrumbs.key("in_call", "false")
         callJobs.forEach { it.cancel() }
         callJobs.clear()
-        engine?.leave()
+        // Disconnecting talks to the voice server; on a slow network that blocked the main thread
+        // (the Leave button froze the screen, then an ANR). Hang up in the background instead.
+        val old = engine
         engine = null
+        if (old != null) scope.launch(Dispatchers.IO) {
+            runCatching { old.leave() }.onFailure { Napier.w("voice leave failed", it) }
+        }
         CallKeepAlive.stop()
         _state.update { it.copy(speaking = emptySet(), muted = false, reconnecting = false) }
     }

@@ -547,7 +547,7 @@ class RoomChatViewModel(
     }
 
     private fun showServerError(e: Exception) {
-        val msg = friendlyCommunityError(e, "Message not sent.")
+        val msg = friendlyCommunityError(e, "Message not sent: the server didn't accept it. Tap the message to try again.")
         _uiState.update {
             it.copy(
                 error = msg,
@@ -572,6 +572,8 @@ class RoomChatViewModel(
     private suspend fun checkQuota(): Boolean {
         if (_uiState.value.kind == RoomKind.DIRECT) return useFreePrivateMessage()
         if (_uiState.value.kind != RoomKind.CHANNEL) return true
+        // Premium members have no Hub limit (the server skips it for them too).
+        if (Premium.active.value) return true
         val allowed = repository.checkAndIncrementDailyQuota()
         if (!allowed) _uiState.update { it.copy(dailyLimitReached = true) }
         return allowed

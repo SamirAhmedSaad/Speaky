@@ -21,8 +21,25 @@ class AgoraVoiceEngine(private val context: Context) : VoiceEngine {
 
     private var rtc: RtcEngine? = null
     private var myUserId = ""
-    /** Agora's numeric ids → community user ids. */
-    private val accounts = mutableMapOf<Int, String>()
+    /** Agora's numeric ids → community user ids (filled from Agora's callbacks, read on its threads). */
+    private val accounts = java.util.concurrent.ConcurrentHashMap<Int, String>()
+
+    // Agora reports volumes in two separate callbacks: one for me (uid 0) and one for everyone else.
+    // Keep both and publish their union; replacing the whole set on each callback made the other
+    // side's highlight vanish every 0.4 s.
+    @Volatile private var meTalking = false
+    @Volatile private var othersTalking: Set<String> = emptySet()
+    @Volatile private var muted = false
+
+    private fun publishSpeaking() {
+        _speaking.value = if (meTalking && !muted) othersTalking + myUserId else othersTalking
+    }
+
+    /** Community user id for an Agora uid; asks the engine when the join callback hasn't arrived yet. */
+    private fun accountOf(uid: Int): String? = accounts[uid] ?: runCatching {
+        val info = UserInfo()
+        if (rtc?.getUserInfoByUid(uid, info) == 0) info.userAccount?.takeIf { it.isNotEmpty() } else null
+    }.getOrNull()?.also { accounts[uid] = it }
     private val joined = CompletableDeferred<Unit>()
 
     private val handler = object : IRtcEngineEventHandler() {
@@ -44,14 +61,31 @@ class AgoraVoiceEngine(private val context: Context) : VoiceEngine {
         }
 
         override fun onUserInfoUpdated(uid: Int, userInfo: UserInfo?) {
-            userInfo?.userAccount?.let { accounts[uid] = it }
+            userInfo?.userAccount?.takeIf { it.isNotEmpty() }?.let { accounts[uid] = it }
+        }
+
+        override fun onUserJoined(uid: Int, elapsed: Int) {
+            accountOf(uid)
+        }
+
+        override fun onUserOffline(uid: Int, reason: Int) {
+            accounts[uid]?.let { gone -> if (gone in othersTalking) { othersTalking = othersTalking - gone; publishSpeaking() } }
         }
 
         override fun onAudioVolumeIndication(speakers: Array<out AudioVolumeInfo>?, totalVolume: Int) {
-            _speaking.value = speakers.orEmpty()
-                .filter { it.volume > SPEAKING_VOLUME }
-                .mapNotNull { if (it.uid == 0) myUserId else accounts[it.uid] }
-                .toSet()
+            val list = speakers.orEmpty()
+            val isLocalReport = list.size == 1 && list[0].uid == 0
+            if (isLocalReport) {
+                // Mine: voice activity (not just noise) and loud enough.
+                val me = list[0]
+                meTalking = me.vad == 1 && me.volume > SPEAKING_VOLUME
+            } else {
+                othersTalking = list
+                    .filter { it.uid != 0 && it.volume > SPEAKING_VOLUME }
+                    .mapNotNull { accountOf(it.uid) }
+                    .toSet()
+            }
+            publishSpeaking()
         }
     }
 
@@ -88,7 +122,9 @@ class AgoraVoiceEngine(private val context: Context) : VoiceEngine {
     }
 
     override fun setMuted(muted: Boolean) {
+        this.muted = muted
         rtc?.muteLocalAudioStream(muted)
+        publishSpeaking()
     }
 
     override fun setSpeaker(on: Boolean) {

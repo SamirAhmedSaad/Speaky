@@ -87,6 +87,7 @@ import com.speakmind.app.feature.community.data.model.MessageKind
 import com.speakmind.app.feature.community.data.model.REACTION_EMOJIS
 import com.speakmind.app.feature.community.data.model.RoomKind
 import com.speakmind.app.feature.community.data.model.RoomMessage
+import com.speakmind.app.feature.community.data.repository.DAILY_MESSAGE_LIMIT
 import com.speakmind.app.feature.community.data.repository.ReportReason
 import com.speakmind.app.feature.community.ui.auth.GoogleIdResult
 import com.speakmind.app.feature.community.ui.auth.rememberGoogleSignIn
@@ -1696,7 +1697,8 @@ private fun HubLimitCard(onDismiss: () -> Unit) {
         Icon(ChatIcons.Moon, null, tint = Color(0xFFF5C94A), modifier = Modifier.size(34.dp))
         Text("That's all for today in Speaky Hub", style = displayStyle(20.sp), color = colors.backgroundDark, textAlign = TextAlign.Center)
         Text(
-            "You can post again tomorrow, and private chats still work.",
+            "Free members can send $DAILY_MESSAGE_LIMIT Hub messages a day. You can post again tomorrow, " +
+                "private chats still work, and Premium members have no daily limit.",
             color = colors.backgroundDark.copy(alpha = 0.75f),
             fontSize = 14.sp,
             lineHeight = 21.sp,

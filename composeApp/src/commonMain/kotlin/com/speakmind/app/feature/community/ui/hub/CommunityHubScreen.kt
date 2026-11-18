@@ -692,6 +692,13 @@ internal fun CommunitySettingsSection(uiState: CommunityHubUiState, viewModel: C
                 MenuRow(SpeakyIcons.Chat, colors.mintSoft, colors.onMintSoft, "Private chats", "Review", onClick = viewModel::openPrivateChats)
                 MenuRow(SpeakyIcons.Phone, colors.primarySoft, colors.onPrimarySoft, "Voice calls", "On/off, bans", onClick = viewModel::openVoiceCalls)
                 MenuRow(SpeakyIcons.Crown, colors.goldSoft, colors.onGoldSoft, "Subscribers", "Premium members", onClick = viewModel::openSubscribers)
+                val appUpdatesOn by viewModel.appUpdatesOn.collectAsState()
+                MenuRow(
+                    SpeakyIcons.Bell, colors.mintSoft, colors.onMintSoft, "App update prompts",
+                    if (appUpdatesOn) "On · users are asked to update" else "Off · no update prompts",
+                    trailing = { MiniSwitch(appUpdatesOn) },
+                    onClick = viewModel::onToggleAppUpdates,
+                )
             }
         }
         Card("ACCOUNT") {

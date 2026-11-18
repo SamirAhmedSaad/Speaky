@@ -122,6 +122,9 @@ interface CommunityRepository {
     suspend fun hubNotificationsEnabled(): Boolean
     suspend fun setHubNotifications(enabled: Boolean)
 
+    /** Admins: turn in-app update prompts on/off for everyone (server switch update_prompts_on). */
+    suspend fun setAppUpdatesEnabled(on: Boolean)
+
     // Admin moderation (only works for accounts in private.community_admins)
     suspend fun isAdmin(): Boolean
     /** Ad-free granted on the server (admins, or listed in ad_free_users). Null when it couldn't be checked. */
@@ -184,13 +187,16 @@ fun friendlyCommunityError(e: Throwable, fallback: String): String {
         "content_blocked" in m -> "Links, contact details and offensive words aren't allowed."
         "terms_not_accepted" in m -> "Please accept the community rules first."
         "guest_not_allowed" in m || "row-level security" in m -> "Sign in with Google to chat."
-        "daily_limit" in m -> "You've reached today's Speaky Hub limit. Try again tomorrow."
-        "rate_limited" in m -> "You're sending messages too fast. Wait a moment."
+        "daily_limit" in m -> "You've used today's $DAILY_MESSAGE_LIMIT Speaky Hub messages (the free daily limit). " +
+            "You can post again tomorrow, private chats still work, and Premium has no limit."
+        "rate_limited" in m -> "You're sending messages too fast (more than 20 a minute). Wait a minute, then try again."
         "last_admin" in m -> "The community needs at least one moderator."
         "not allowed" in m -> "You don't have permission to do that."
         "24 hours" in m -> "Messages can only be edited for 24 hours."
         "blocked" in m -> "You can't message this person."
-        "network" in m || "unable to resolve host" in m || "timeout" in m -> "No connection. Check your internet."
+        "network" in m || "unable to resolve host" in m || "timeout" in m -> "No connection. Check your internet, then try again."
+        "jwt" in m || "401" in m || "not signed in" in m -> "Your sign-in expired. Close the chat and open it again."
+        "500" in m || "502" in m || "503" in m || "504" in m -> "Speaky's server had a problem. Try again in a moment."
         else -> fallback
     }
 }
